@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-librsvg-rebind-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo, gir-rust-code-generator (\u003e= 0.20), librsvg2-dev (\u003e= 2.58.93+dfsg-4), xmlstarlet, libgirepository1.0-dev"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bitflags-2+default-dev \u003c!nocheck\u003e, librust-cairo-rs-0.21+default-dev \u003c!nocheck\u003e, librust-gio-0.21+default-dev \u003c!nocheck\u003e, librust-glib-0.21+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-librsvg-rebind-sys-0.2+default-dev (\u003e= 0.2.1-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "889a5edfb4804bc65b6e2c08c1a3d81a5f01b9872f3ff77f4126db12609c9d71 2719 rust-librsvg-rebind_0.2.1-3.dsc 163f9e31a1a0475beb7ab182a520564cfa9f8ee014f40b73c6d14297f47629e2 10980 rust-librsvg-rebind_0.2.1.orig.tar.gz 7ca706e98355c0439c2f9c9c4f47947b5f9d6efd344f296571d4761cc319445a 4092 rust-librsvg-rebind_0.2.1-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-librsvg-rebind"
+  ],
+  "Files": [
+    "7f9e2ea6e99cc8035e4ec5a9dd3f7727 2719 rust-librsvg-rebind_0.2.1-3.dsc 8b727654ec98daeee9c79f981ea7aff3 10980 rust-librsvg-rebind_0.2.1.orig.tar.gz bdc76c89be06b33376282722883e1908 4092 rust-librsvg-rebind_0.2.1-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.gnome.org/GNOME/librsvg"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-librsvg-rebind"
+  ],
+  "Package-List": [
+    "librust-librsvg-rebind-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-cairo-rs-0.21+default-dev, librust-cairo-rs-0.21+png-dev, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/librsvg-rebind"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/librsvg-rebind]"
+  ],
+  "Version": [
+    "0.2.1-3"
+  ]
+}

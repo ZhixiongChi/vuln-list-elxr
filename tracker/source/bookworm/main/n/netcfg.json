@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "netcfg, netcfg-static"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libdebconfclient0-dev, libdebian-installer4-dev, po-debconf, libiw-dev [!s390 !s390x !sparc !kfreebsd-any !hurd-any], check, libsubunit-dev"
+  ],
+  "Checksums-Sha256": [
+    "b15307ed1ec700e3c41c6f2a41a468a7e6aad4ba86f36716b9b24f5b3e166c4d 1929 netcfg_1.187+deb12u1.dsc a3bdde6687b8489b97e7d0ebb08edee3466f3a3b048a90c9d7125863502039ef 403188 netcfg_1.187+deb12u1.tar.xz"
+  ],
+  "Dgit": [
+    "42a5b9b8c4d15ec8f64927f59c05433cd9b805cd debian archive/debian/1.187+deb12u1 https://git.dgit.debian.org/netcfg"
+  ],
+  "Directory": [
+    "pool/main/n/netcfg"
+  ],
+  "Files": [
+    "bcd770b14c476c7c87fd7eeee3d6d04d 1929 netcfg_1.187+deb12u1.dsc bd15007249be40c9041d1d0178ecb755 403188 netcfg_1.187+deb12u1.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian Install System Team \u003cdebian-boot@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "netcfg"
+  ],
+  "Package-List": [
+    "netcfg udeb debian-installer optional arch=any netcfg-static udeb debian-installer optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "debian-installer"
+  ],
+  "Uploaders": [
+    "Colin Watson \u003ccjwatson@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/installer-team/netcfg"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/installer-team/netcfg.git"
+  ],
+  "Version": [
+    "1.187+deb12u1"
+  ]
+}

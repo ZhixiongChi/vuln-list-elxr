@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-symphonia-bundle-mp3-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-lazy-static-1+default-dev (\u003e= 1.4.0-~~) \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e, librust-symphonia-metadata-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "86195bfaa0b7b4cc60a4e9b06e85c8a18809c373758e9f1ec4ca7a7acad83ead 2566 rust-symphonia-bundle-mp3_0.5.4-1.dsc c01c2aae70f0f1fb096b6f0ff112a930b1fb3626178fba3ae68b09dce71706d4 60104 rust-symphonia-bundle-mp3_0.5.4.orig.tar.gz 5f87e99e735121e9ea1a95598adae2ab79d12f44c48d8b77016df876cf81d383 2352 rust-symphonia-bundle-mp3_0.5.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-symphonia-bundle-mp3"
+  ],
+  "Files": [
+    "1185d05f50c271947211ad574ef93ee8 2566 rust-symphonia-bundle-mp3_0.5.4-1.dsc 7a4f64bed60c2c058780234a08424168 60104 rust-symphonia-bundle-mp3_0.5.4.orig.tar.gz 4973bd04c45b0f3605940ec88a3bfc55 2352 rust-symphonia-bundle-mp3_0.5.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pdeljanov/Symphonia"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-symphonia-bundle-mp3"
+  ],
+  "Package-List": [
+    "librust-symphonia-bundle-mp3-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/symphonia-bundle-mp3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/symphonia-bundle-mp3]"
+  ],
+  "Version": [
+    "0.5.4-1"
+  ]
+}

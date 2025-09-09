@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-zbus-macros-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.77) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro-crate-3+default-dev (\u003e= 3.2.0-~~) \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev (\u003e= 1.0.81-~~) \u003c!nocheck\u003e, librust-quote-1+default-dev (\u003e= 1.0.36-~~) \u003c!nocheck\u003e, librust-syn-2+default-dev (\u003e= 2.0.64-~~) \u003c!nocheck\u003e, librust-syn-2+extra-traits-dev (\u003e= 2.0.64-~~) \u003c!nocheck\u003e, librust-syn-2+fold-dev (\u003e= 2.0.64-~~) \u003c!nocheck\u003e, librust-syn-2+full-dev (\u003e= 2.0.64-~~) \u003c!nocheck\u003e, librust-zbus-names-4+default-dev (\u003e= 4.2.0-~~) \u003c!nocheck\u003e, librust-zvariant-5+default-dev (\u003e= 5.5.1-~~) \u003c!nocheck\u003e, librust-zvariant-utils-3+default-dev (\u003e= 3.2.0-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "cebc07cb6714f68a2783d047388740830e170181f47e41800bf74137d7bc26e8 2930 rust-zbus-macros_5.10.0-1.dsc 0e80cd713a45a49859dcb648053f63265f4f2851b6420d47a958e5697c68b131 37433 rust-zbus-macros_5.10.0.orig.tar.gz c8cdd867d272fbb1c0340b9a452d63ad0fbe933e210a44ffaf6b70bfea6ac762 4048 rust-zbus-macros_5.10.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-zbus-macros"
+  ],
+  "Files": [
+    "d6ae5442564d28cae49050eaeeab6d74 2930 rust-zbus-macros_5.10.0-1.dsc 06fec7e4dd639a70910a97f22e120b96 37433 rust-zbus-macros_5.10.0.orig.tar.gz a6edc56f6e0ecbe6e17043b46d346535 4048 rust-zbus-macros_5.10.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dbus2/zbus/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-zbus-macros"
+  ],
+  "Package-List": [
+    "librust-zbus-macros-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-async-io-2+default-dev, librust-futures-util-0.3-dev, librust-serde-1+default-dev, librust-serde-1+derive-dev, rustc"
+  ],
+  "Uploaders": [
+    "Andrej Shadura \u003candrewsh@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/zbus-macros"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/zbus-macros]"
+  ],
+  "Version": [
+    "5.10.0-1"
+  ]
+}

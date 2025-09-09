@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgdbm6t64, gdbm-l10n, libgdbm-dev, gdbmtool, libgdbm-compat4t64, libgdbm-compat-dev"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.22.5), texinfo, debhelper-compat (= 13), dh-exec, libreadline-dev, bison, flex"
+  ],
+  "Checksums-Sha256": [
+    "ba4b64d1275f986b40ca13e31ebef34e00e0c3227cfdc904fe4d84973af6a22b 2234 gdbm_1.26-1.dsc 6a24504a14de4a744103dcb936be976df6fbe88ccff26065e54c1c47946f4a5e 1226591 gdbm_1.26.orig.tar.gz 3d358964671e794485be3b567751701061c5e46328ec303512ab26dfe246699d 16832 gdbm_1.26-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gdbm"
+  ],
+  "Files": [
+    "6bcf762ea5096c8fc4052dafab57683d 2234 gdbm_1.26-1.dsc aaa600665bc89e2febb3c7bd90679115 1226591 gdbm_1.26.orig.tar.gz 36025ffff1e7e2e2a50f7123828f062b 16832 gdbm_1.26-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gnu.org/software/gdbm"
+  ],
+  "Maintainer": [
+    "Nicolas Mora \u003cbabelouest@debian.org\u003e"
+  ],
+  "Package": [
+    "gdbm"
+  ],
+  "Package-List": [
+    "gdbm-l10n deb localization optional arch=all gdbmtool deb utils optional arch=any libgdbm-compat-dev deb libdevel optional arch=any libgdbm-compat4t64 deb libs optional arch=any libgdbm-dev deb libdevel optional arch=any libgdbm6t64 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, build-essential"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/gdbm"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/gdbm.git"
+  ],
+  "Version": [
+    "1.26-1"
+  ]
+}

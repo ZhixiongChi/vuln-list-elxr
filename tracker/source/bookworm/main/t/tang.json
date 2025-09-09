@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "tang, tang-xinetd, tang-common"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), asciidoctor, curl, jose, libhttp-parser-dev (\u003e= 2.8.0), libjansson-dev (\u003e= 2.10), libjose-dev (\u003e= 8), meson, pkg-config, systemd"
+  ],
+  "Checksums-Sha256": [
+    "0e4cfb4136e3890c3645e56776d9e3571a4bc9c500b4d43a8768b6edb8db2a98 2203 tang_11-2+deb12u1.dsc ef5d3ae56030f20c290594b9be89ad9ec469dd385676595e1c7a2bfdc3f45d8f 34048 tang_11.orig.tar.xz 73e9e68f94a54e489e2ff0220b2c267a93c2be6025c340258da95de3ad05db7a 6808 tang_11-2+deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tang"
+  ],
+  "Files": [
+    "14885a01ee438bf91c18a40bfb8cda22 2203 tang_11-2+deb12u1.dsc 047966d5c2ae1bed1f25abac9dcfe438 34048 tang_11.orig.tar.xz 617f58ed4122813d1c6acc93589cec08 6808 tang_11-2+deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/latchset/tang"
+  ],
+  "Maintainer": [
+    "Christoph Biedl \u003cdebian.axhn@manchmal.in-ulm.de\u003e"
+  ],
+  "Package": [
+    "tang"
+  ],
+  "Package-List": [
+    "tang deb net optional arch=all tang-common deb net optional arch=linux-any tang-xinetd deb net optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, cmake, curl, jose, libhttp-parser-dev, libjansson-dev, libjose-dev, meson, pkg-config, socat, systemd"
+  ],
+  "Vcs-Browser": [
+    "https://git.in-ulm.de/cbiedl/tang"
+  ],
+  "Vcs-Git": [
+    "https://git.in-ulm.de/cbiedl/tang.git"
+  ],
+  "Version": [
+    "11-2+deb12u1"
+  ]
+}

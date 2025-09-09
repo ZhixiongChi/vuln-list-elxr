@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libneko2, neko-dev, neko, libapache2-mod-neko"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12~), cmake, pkgconf, git, libgc-dev, dh-apache2, apache2-dev, libmariadb-dev-compat | default-libmysqlclient-dev, libsqlite3-dev, libpcre2-dev, libapr1-dev, libgtk-3-dev, libmbedtls-dev, bash-completion"
+  ],
+  "Checksums-Sha256": [
+    "993c75fefa616baa5a579101b5af43c24452d81ef339c1af5db78757297493c9 2168 neko_2.4.1-1.dsc 702282028190dffa2078b00cca515b8e2ba889186a221df2226d2b6deb3ffaca 518867 neko_2.4.1.orig.tar.gz c5523439daaa003558d4bff8dd1885833a215f4bf6bf443743d13c7727c5deb2 9360 neko_2.4.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/neko"
+  ],
+  "Files": [
+    "7ff9beb236889f1d943883c2bccc61c2 2168 neko_2.4.1-1.dsc fea27d264bf8e2ad11f0299c6d7e725a 518867 neko_2.4.1.orig.tar.gz 5af5898e40851fb6e052280051830c77 9360 neko_2.4.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://nekovm.org"
+  ],
+  "Maintainer": [
+    "Andy Li \u003candy@onthewings.net\u003e"
+  ],
+  "Package": [
+    "neko"
+  ],
+  "Package-List": [
+    "libapache2-mod-neko deb httpd optional arch=any libneko2 deb libs optional arch=any neko deb interpreters optional arch=any neko-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "interpreters"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/HaxeFoundation/neko-debian"
+  ],
+  "Vcs-Git": [
+    "https://github.com/HaxeFoundation/neko-debian.git"
+  ],
+  "Version": [
+    "2.4.1-1"
+  ]
+}

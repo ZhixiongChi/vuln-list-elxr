@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libtheora-bin, libtheora-dev, libtheora-doc, libtheora1, libtheoraenc2, libtheoradec2"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), doxygen, libcairo2-dev, libogg-dev, libpng-dev, libsdl1.2-dev \u003c!pkg.libtheora.nosdl\u003e, libvorbis-dev, pkgconf"
+  ],
+  "Build-Depends-Indep": [
+    "ghostscript, texlive-latex-base, texlive-latex-extra, texlive-latex-recommended, transfig"
+  ],
+  "Checksums-Sha256": [
+    "00d5143df66e497f335012467ba5c3dd07c3c74cb75e06942928e4059185dc9a 2072 libtheora_1.2.0+dfsg-6.dsc 92a32e9c1d79984e6fc6abe325da05bf4ec97ee38d1a4d49d338545ed050a28f 2525524 libtheora_1.2.0+dfsg.orig.tar.gz b10709c33861f2a2ca56e25d181349ffb8b7c60844cbad8a2250edb761b62dbf 16808 libtheora_1.2.0+dfsg-6.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libt/libtheora"
+  ],
+  "Files": [
+    "00ed154b50ab683dfcecf37dc47879e4 2072 libtheora_1.2.0+dfsg-6.dsc 71184f519565e5a563073d6ca387eed2 2525524 libtheora_1.2.0+dfsg.orig.tar.gz 5432d6d25c64af55dd6f8169c8d5c4f2 16808 libtheora_1.2.0+dfsg-6.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.theora.org/"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "libtheora"
+  ],
+  "Package-List": [
+    "libtheora-bin deb utils optional arch=any profile=!pkg.libtheora.nosdl libtheora-dev deb libdevel optional arch=any libtheora-doc deb doc optional arch=all libtheora1 deb libs optional arch=any libtheoradec2 deb libs optional arch=any libtheoraenc2 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, debconf, libvorbis-dev, valgrind"
+  ],
+  "Uploaders": [
+    "Petter Reinholdtsen \u003cpere@debian.org\u003e, Martin Steghöfer \u003cmartin@steghoefer.eu\u003e, Ralph Giles \u003cgiles@thaumas.net\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/libtheora"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/libtheora.git"
+  ],
+  "Version": [
+    "1.2.0+dfsg-6"
+  ]
+}

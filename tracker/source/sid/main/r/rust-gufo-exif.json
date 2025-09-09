@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gufo-exif-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.80) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-gufo-common-1+default-dev \u003c!nocheck\u003e, librust-thiserror-2+default-dev (\u003e= 2.0.3-~~) \u003c!nocheck\u003e, librust-tracing-0.1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "a152a9b55673004a6cd20e6778b45c3ea8547666ad7175e36415fef2729bd99d 2397 rust-gufo-exif_0.3.0-2.dsc 9d2b06ed83ed41cff519aeac7bc7ae4580c7b8ffd8f5688f4dcc362df1f1d349 26600 rust-gufo-exif_0.3.0.orig.tar.gz a17753b1d296c8f43bada9398b35abfdbfea369a513946f9db5f72566bd82d41 2460 rust-gufo-exif_0.3.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gufo-exif"
+  ],
+  "Files": [
+    "5af535083172c174d06a3d4bbd407c91 2397 rust-gufo-exif_0.3.0-2.dsc 753eba2c7feeee51792bd2e62fd2cf94 26600 rust-gufo-exif_0.3.0.orig.tar.gz 2a6ae2926ac17ebb02dcc785b2d09bd9 2460 rust-gufo-exif_0.3.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/gufo-rs/gufo"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gufo-exif"
+  ],
+  "Package-List": [
+    "librust-gufo-exif-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-gufo-jpeg-0.3+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gufo-exif"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gufo-exif]"
+  ],
+  "Version": [
+    "0.3.0-2"
+  ]
+}

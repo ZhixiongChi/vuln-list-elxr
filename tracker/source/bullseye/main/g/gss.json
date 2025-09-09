@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "gss-doc, gss-man, libgss3, libgss-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), help2man, libshishi-dev (\u003e= 0.0.42), texinfo, valgrind [amd64 i386 powerpc]"
+  ],
+  "Build-Depends-Indep": [
+    "dblatex, gtk-doc-tools, libglib2.0-dev, texlive"
+  ],
+  "Checksums-Sha256": [
+    "1f40852dcdd06845f05267603b918860df1162768b2e2e2ee66e75ccfbdffed3 2292 gss_1.0.3-6+deb11u1.dsc ff919ddc731531d65e27d7ababdc361aae05ada5f1a6dd60703d153307dcdeeb 2241612 gss_1.0.3.orig.tar.gz 3adbbdb0a0e55d35625395ae5a67a5d1e38f60bd7e261287a147c753ec3b7f2f 18284 gss_1.0.3-6+deb11u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gss"
+  ],
+  "Files": [
+    "fe93686d3084c9a1090ffabf0eddcafa 2292 gss_1.0.3-6+deb11u1.dsc 441859b30bed73010d426c087c71aac5 2241612 gss_1.0.3.orig.tar.gz 726c611989c230b3e64ace551e0c485f 18284 gss_1.0.3-6+deb11u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnu.org/software/gss/"
+  ],
+  "Maintainer": [
+    "Debian GSS Team \u003chelp-gss@gnu.org\u003e"
+  ],
+  "Package": [
+    "gss"
+  ],
+  "Package-List": [
+    "gss-doc deb doc optional arch=all gss-man deb doc optional arch=all libgss-dev deb libdevel optional arch=any libgss3 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, man, pkg-config"
+  ],
+  "Uploaders": [
+    "Simon Josefsson \u003csimon@josefsson.org\u003e, Russ Allbery \u003crra@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/auth-team/gss"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/auth-team/gss.git"
+  ],
+  "Version": [
+    "1.0.3-6+deb11u1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-wasm-bindgen-shared-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.57) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-unicode-ident-1+default-dev (\u003e= 1.0.5-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "60b606bfaad943bf6f80bb96c5ab88cb94dcaf6dec2509d9cadd476af0bddfa4 2462 rust-wasm-bindgen-shared_0.2.100-1.dsc 1a05d73b933a847d6cccdda8f838a22ff101ad9bf93e33684f39c1f5f0eece3d 8570 rust-wasm-bindgen-shared_0.2.100.orig.tar.gz d7185c221b227fef61f3cac132fd56628273969aa9b8650e2ad3beef6a8b5462 2964 rust-wasm-bindgen-shared_0.2.100-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-wasm-bindgen-shared"
+  ],
+  "Files": [
+    "f7e3a201beb1539acfb94d020cd7ff51 2462 rust-wasm-bindgen-shared_0.2.100-1.dsc 3c3cb3400101cd793def7061c432b8ec 8570 rust-wasm-bindgen-shared_0.2.100.orig.tar.gz 56d465ed7373ea3b9d133240aa9831a9 2964 rust-wasm-bindgen-shared_0.2.100-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://rustwasm.github.io/wasm-bindgen/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-wasm-bindgen-shared"
+  ],
+  "Package-List": [
+    "librust-wasm-bindgen-shared-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/wasm-bindgen-shared"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/wasm-bindgen-shared]"
+  ],
+  "Version": [
+    "0.2.100-1"
+  ]
+}

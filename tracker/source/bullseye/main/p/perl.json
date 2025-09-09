@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "perl-base, perl-doc, perl-debug, libperl5.32, libperl-dev, perl-modules-5.32, perl"
+  ],
+  "Build-Depends": [
+    "file, cpio, libdb-dev, libgdbm-dev (\u003e= 1.18-3), libgdbm-compat-dev, netbase \u003c!nocheck\u003e, procps [!hurd-any] \u003c!nocheck\u003e, debhelper-compat (= 13), zlib1g-dev | libz-dev, libbz2-dev, dpkg-dev (\u003e= 1.17.14), dist (\u003e= 3.5-236), libc6-dev (\u003e= 2.19-9) [s390x]"
+  ],
+  "Checksums-Sha256": [
+    "75699317b7e2865de39e86fb53f630669fd6e5904c8526699e8a01af98d56e6d 2918 perl_5.32.1-4+deb11u3.dsc 1d179b41283f12ad83f9758430f6ddc49bdf20db5c396aeae7e51ebb4e4afd29 871331 perl_5.32.1.orig-regen-configure.tar.gz 57cc47c735c8300a8ce2fa0643507b44c4ae59012bfdad0121313db639e02309 12610988 perl_5.32.1.orig.tar.xz a875b28e158180906d77df06dea08b8e724f91b31249fe7d205fc3f2cb520ddf 167388 perl_5.32.1-4+deb11u3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/perl"
+  ],
+  "Files": [
+    "9c03a8f7f3ef27d2580759d398b07a2d 2918 perl_5.32.1-4+deb11u3.dsc 377ac050e8c90f3361fec97d91e96469 871331 perl_5.32.1.orig-regen-configure.tar.gz 7f104064b906ad8c7329ca5e409a32d7 12610988 perl_5.32.1.orig.tar.xz 741773ddb9b9d629e197e4d81c3f4f9f 167388 perl_5.32.1-4+deb11u3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://dev.perl.org/perl5/"
+  ],
+  "Maintainer": [
+    "Niko Tyni \u003cntyni@debian.org\u003e"
+  ],
+  "Package": [
+    "perl"
+  ],
+  "Package-List": [
+    "libperl-dev deb libdevel optional arch=any libperl5.32 deb libs optional arch=any perl deb perl standard arch=any perl-base deb perl required arch=any essential=yes perl-debug deb devel optional arch=any perl-doc deb doc optional arch=all perl-modules-5.32 deb libs standard arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "perl"
+  ],
+  "Standards-Version": [
+    "3.9.8"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, cpio, db-util, dist, dpkg-dev, gdbmtool, libapt-pkg-perl, libdpkg-perl, pkg-perl-autopkgtest"
+  ],
+  "Uploaders": [
+    "Dominic Hargreaves \u003cdom@earth.li\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/perl-team/interpreter/perl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/interpreter/perl.git"
+  ],
+  "Version": [
+    "5.32.1-4+deb11u3"
+  ]
+}

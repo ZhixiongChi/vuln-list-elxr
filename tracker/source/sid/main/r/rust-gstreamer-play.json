@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gstreamer-play-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.83) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-glib-0.21+default-dev \u003c!nocheck\u003e, librust-gstreamer-0.24+default-dev \u003c!nocheck\u003e, librust-gstreamer-0.24+v1-20-dev \u003c!nocheck\u003e, librust-gstreamer-play-sys-0.24+default-dev \u003c!nocheck\u003e, librust-gstreamer-video-0.24+default-dev \u003c!nocheck\u003e, librust-gstreamer-video-0.24+v1-20-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, libgstreamer1.0-dev \u003c!nocheck\u003e, libgstreamer-plugins-base1.0-dev \u003c!nocheck\u003e, libgstreamer-plugins-bad1.0-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "a18785bcc9bab24b215554f8ddfefc0dd6a57d6596ebe7aa59e07e87938a2b58 2776 rust-gstreamer-play_0.24.0-2.dsc e3906eae143491efcc688fbd520ce2cfc0b6addf68a14fc0a12e8c92345e19b6 25578 rust-gstreamer-play_0.24.0.orig.tar.gz 747c1f2b0112df8cb18e0a00bef11b85b70127b389288cb115af6ee34c616c05 3252 rust-gstreamer-play_0.24.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gstreamer-play"
+  ],
+  "Files": [
+    "77435f24c9019876e24e6cbb4f09b247 2776 rust-gstreamer-play_0.24.0-2.dsc 40c0ff3c55c23fc2e245086210f34930 25578 rust-gstreamer-play_0.24.0.orig.tar.gz 12902c11e48eec369bd3e8c26b48dd66 3252 rust-gstreamer-play_0.24.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gstreamer.freedesktop.org"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gstreamer-play"
+  ],
+  "Package-List": [
+    "librust-gstreamer-play-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-gir-format-check-0.1+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gstreamer-play"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gstreamer-play]"
+  ],
+  "Version": [
+    "0.24.0-2"
+  ]
+}

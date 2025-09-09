@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgcrypt20-doc, libgcrypt20-dev, libgcrypt20, libgcrypt20-udeb, libgcrypt-mingw-w64-dev, libgcrypt-bin"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libgpg-error-dev (\u003e= 1.49)"
+  ],
+  "Build-Depends-Indep": [
+    "libgpg-error-mingw-w64-dev (\u003e= 1.49), mingw-w64, texinfo, texlive-latex-base, texlive-plain-generic"
+  ],
+  "Checksums-Sha256": [
+    "35924ee959d95960e86aada24179e7a7d8cd250c2814c7b5a8fe8f2748bf1d9c 2945 libgcrypt20_1.11.2-2.dsc 6ba59dd192270e8c1d22ddb41a07d95dcdbc1f0fb02d03c4b54b235814330aac 4237802 libgcrypt20_1.11.2.orig.tar.bz2 f3b74efec632e24de15ec2778e179a632ff8bae86bca85a9404d2a242d9a8f79 265 libgcrypt20_1.11.2.orig.tar.bz2.asc 0e1f46766194112cd8222b7100a99f847a02000c16fff6925106c9993e340728 38940 libgcrypt20_1.11.2-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libg/libgcrypt20"
+  ],
+  "Files": [
+    "97c491b9d6e1385d5288ca08c33ca05b 2945 libgcrypt20_1.11.2-2.dsc 84ce2ad07794b987fe6341b63cf5f537 4237802 libgcrypt20_1.11.2.orig.tar.bz2 87f65949d463a153ac6d054b856dab4f 265 libgcrypt20_1.11.2.orig.tar.bz2.asc 467bed1ae529c87ef1a474765b69929c 38940 libgcrypt20_1.11.2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gnupg.org/software/libgcrypt/"
+  ],
+  "Maintainer": [
+    "Debian GnuTLS Maintainers \u003cpkg-gnutls-maint@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libgcrypt20"
+  ],
+  "Package-List": [
+    "libgcrypt-bin deb devel optional arch=any libgcrypt-mingw-w64-dev deb libdevel optional arch=all libgcrypt20 deb libs optional arch=any libgcrypt20-dev deb libdevel optional arch=any libgcrypt20-doc deb doc optional arch=all libgcrypt20-udeb udeb debian-installer optional arch=any profile=!noudeb"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkgconf"
+  ],
+  "Uploaders": [
+    "Andreas Metzler \u003cametzler@debian.org\u003e, Eric Dorland \u003ceric@debian.org\u003e, James Westby \u003cjw+debian@jameswestby.net\u003e, Simon Josefsson \u003csimon@josefsson.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnutls-team/libgcrypt/tree/branch1.6"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnutls-team/libgcrypt.git -b branch1.6"
+  ],
+  "Version": [
+    "1.11.2-2"
+  ]
+}

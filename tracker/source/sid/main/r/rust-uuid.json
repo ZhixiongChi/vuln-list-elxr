@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-uuid-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.63.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "f415d61ece0d323933e1e735ec7341fafa26aed2a2e77c3ba3366fd805efb4b5 2399 rust-uuid_1.18.0-3.dsc f33196643e165781c20a5ead5582283a7dacbb87855d867fbc2df3f81eddc1be 59782 rust-uuid_1.18.0.orig.tar.gz 3d52ca633e56bca740131181ff1d2c8ad8660e900eb9bf0fe54a6244b0d6fed1 5836 rust-uuid_1.18.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-uuid"
+  ],
+  "Files": [
+    "fdbe24795fc7839a9dd1461cad279949 2399 rust-uuid_1.18.0-3.dsc 2b0253ef982b8595657ef36a6252bd3b 59782 rust-uuid_1.18.0.orig.tar.gz 5f614bf5e22793297a20ab2bc6844ce4 5836 rust-uuid_1.18.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/uuid-rs/uuid"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-uuid"
+  ],
+  "Package-List": [
+    "librust-uuid-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-bincode-1+default-dev, librust-rustversion-1+default-dev, librust-serde-derive-1+default-dev, librust-serde-json-1+default-dev, librust-serde-test-1+default-dev, librust-trybuild-1+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/uuid"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/uuid]"
+  ],
+  "Version": [
+    "1.18.0-3"
+  ]
+}

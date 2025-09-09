@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libnginx-mod-http-ndk, libnginx-mod-http-ndk-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-nginx"
+  ],
+  "Checksums-Sha256": [
+    "b4488c20d086b480ee681b527e087b51efa366cc02346923eb2d4a888c8f383f 2265 libnginx-mod-http-ndk_0.3.4-3.dsc 14a28063294f645d457b1eb10e3c23bbba44398f1c5f021421b58b6f8ab31662 66474 libnginx-mod-http-ndk_0.3.4.orig.tar.gz f2777bd9725a4c1d0d181d2d1d3cc529e750f68ab64880b4b3d14cdf9acf19ce 5244 libnginx-mod-http-ndk_0.3.4-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libn/libnginx-mod-http-ndk"
+  ],
+  "Files": [
+    "beda85bf2571213442f0c8c6b2411aa0 2265 libnginx-mod-http-ndk_0.3.4-3.dsc a0447bdd895e5771d82dcfc25ad0034d 66474 libnginx-mod-http-ndk_0.3.4.orig.tar.gz 2a86d4aa7d8f51324950fdf92f4501fd 5244 libnginx-mod-http-ndk_0.3.4-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/simpl/ngx_devel_kit"
+  ],
+  "Maintainer": [
+    "Debian Nginx Maintainers \u003cpkg-nginx-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "libnginx-mod-http-ndk"
+  ],
+  "Package-List": [
+    "libnginx-mod-http-ndk deb httpd optional arch=any libnginx-mod-http-ndk-dev deb httpd optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "curl, nginx, nginx-core"
+  ],
+  "Uploaders": [
+    "Jan Mojžíš \u003cjanmojzis@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/nginx-team/libnginx-mod-http-ndk"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/nginx-team/libnginx-mod-http-ndk.git"
+  ],
+  "Version": [
+    "1:0.3.4-3"
+  ]
+}

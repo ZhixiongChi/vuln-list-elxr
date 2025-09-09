@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "amd64 arm64 armel armhf i386 loong64 mips mips64el mipsel ppc64 ppc64el riscv64 s390x all"
+  ],
+  "Binary": [
+    "golang-1.23-go, golang-1.23-src, golang-1.23-doc, golang-1.23"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), binutils-gold [arm64], golang-1.23-go | golang-1.22-go | golang-1.21-go | golang-1.20-go, netbase"
+  ],
+  "Checksums-Sha256": [
+    "fe19e67cde602585b08e1f1f5e77bb53dcc2ec1a9950efafffd36d55bd305c68 2904 golang-1.23_1.23.10-1.dsc 800a7ae1bff179a227b653a2f644517c800443b8b4abf3273af5e1cb7113de59 28183775 golang-1.23_1.23.10.orig.tar.gz ad61283800f9fdaa3d71bf608a074cac19cc5b5b44fe383d2a452216d3efbf78 833 golang-1.23_1.23.10.orig.tar.gz.asc d89501956a9a640767fb92082424c5b1fc674f2aa6982c84c1e192ddd1d8a302 42076 golang-1.23_1.23.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-1.23"
+  ],
+  "Files": [
+    "76431bc65a78a92f2a092e78a542d4ff 2904 golang-1.23_1.23.10-1.dsc 4aa33824a01bd8f852086ce5907a414b 28183775 golang-1.23_1.23.10.orig.tar.gz c71a73cdfc4d9f5a89c14892881518e0 833 golang-1.23_1.23.10.orig.tar.gz.asc 241dba32534f9ab177b5d515b726e096 42076 golang-1.23_1.23.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://go.dev/"
+  ],
+  "Maintainer": [
+    "Debian Go Compiler Team \u003cteam+go-compiler@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-1.23"
+  ],
+  "Package-List": [
+    "golang-1.23 deb golang optional arch=all golang-1.23-doc deb doc optional arch=all golang-1.23-go deb golang optional arch=amd64,arm64,armel,armhf,i386,loong64,mips,mips64el,mipsel,ppc64,ppc64el,riscv64,s390x golang-1.23-src deb golang optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential"
+  ],
+  "Uploaders": [
+    "Michael Stapelberg \u003cstapelberg@debian.org\u003e, Paul Tagliamonte \u003cpaultag@debian.org\u003e, Tianon Gravi \u003ctianon@debian.org\u003e, Michael Hudson-Doyle \u003cmwhudson@debian.org\u003e, Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/compiler/golang/tree/golang-1.23"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/compiler/golang.git -b golang-1.23"
+  ],
+  "Version": [
+    "1.23.10-1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-symphonia-bundle-flac-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e, librust-symphonia-metadata-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e, librust-symphonia-utils-xiph-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "7edb789139f71f06dd33194adeb6afcdee8fe78357dce68bc73e669a34e53e19 2588 rust-symphonia-bundle-flac_0.5.4-1.dsc 72e34f34298a7308d4397a6c7fbf5b84c5d491231ce3dd379707ba673ab3bd97 23071 rust-symphonia-bundle-flac_0.5.4.orig.tar.gz 27c21bcdf7e0d39021c4e8e637310bf03482723105a57d89839f06a7e0634fd2 2168 rust-symphonia-bundle-flac_0.5.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-symphonia-bundle-flac"
+  ],
+  "Files": [
+    "cbbbe4023da1b5d120bb45e4df93d589 2588 rust-symphonia-bundle-flac_0.5.4-1.dsc 6176144398460975b44a4286e48100c3 23071 rust-symphonia-bundle-flac_0.5.4.orig.tar.gz 129a5006368474b9f7980fd9a380b667 2168 rust-symphonia-bundle-flac_0.5.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pdeljanov/Symphonia"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-symphonia-bundle-flac"
+  ],
+  "Package-List": [
+    "librust-symphonia-bundle-flac-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/symphonia-bundle-flac"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/symphonia-bundle-flac]"
+  ],
+  "Version": [
+    "0.5.4-1"
+  ]
+}

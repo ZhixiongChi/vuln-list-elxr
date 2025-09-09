@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-merge-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.70) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-merge-derive-0.2+default-dev \u003c!nocheck\u003e, librust-num-traits-0.2+default-dev (\u003e= 0.2.12-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "1c1b795c0e3b531f71dea5602295c42280e7a6fdf967ab6f860a88c376fe7fb2 1863 rust-merge_0.2.0-1.dsc 56e520ba58faea3487f75df198b1d079644ec226ea3b0507d002c6fa4b8cf93a 19607 rust-merge_0.2.0.orig.tar.gz 135d9811847db44a8acf68775a437144a6739eef88467a189418e7bc483d7b34 3428 rust-merge_0.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-merge"
+  ],
+  "Files": [
+    "cdcf581fcd3af8c530e1f756b2502ff3 1863 rust-merge_0.2.0-1.dsc 3668a9b2dfc83587750fb4c451b1889d 19607 rust-merge_0.2.0.orig.tar.gz 76c9e4256714e1a6081416faff3b38bc 3428 rust-merge_0.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://sr.ht/~ireas/merge-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-merge"
+  ],
+  "Package-List": [
+    "librust-merge-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-envy-0.4+default-dev, librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-structopt-0.3+default-dev, librust-toml-0.8+default-dev, librust-trybuild-1+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Arnaud Ferraris \u003carnaud.ferraris@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/merge"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/merge]"
+  ],
+  "Version": [
+    "0.2.0-1"
+  ]
+}

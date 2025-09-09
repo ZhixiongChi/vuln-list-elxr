@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libmicrohttpd-dev, libmicrohttpd12t64"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.22.5), autoconf, automake, debhelper-compat (= 13), libcurl4-gnutls-dev \u003c!nocheck\u003e, libgnutls28-dev, pkgconf, texinfo"
+  ],
+  "Checksums-Sha256": [
+    "829540eeca90caf07dbcfed6a8286e11b902c7020c319d237a493d45b32458c6 2423 libmicrohttpd_1.0.2-1.dsc df324fcd0834175dab07483133902d9774a605bfa298025f69883288fd20a8c7 2198804 libmicrohttpd_1.0.2.orig.tar.gz cad35931ddc180ff33555159eb0b8208d6cbcfdd411060dcdcaea9f58e5d72dc 833 libmicrohttpd_1.0.2.orig.tar.gz.asc ee8c552a80f3d259694396180a367d12d7b2fb2198eb7a9af8a785506199c951 19344 libmicrohttpd_1.0.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libm/libmicrohttpd"
+  ],
+  "Files": [
+    "4760859f490e150349d289513b98f085 2423 libmicrohttpd_1.0.2-1.dsc b0e9dbe52637437d21ee22525c404416 2198804 libmicrohttpd_1.0.2.orig.tar.gz 495683c3e9702de2c31787e49f70177d 833 libmicrohttpd_1.0.2.orig.tar.gz.asc 4a5c9b2bf2ac245dcd9713669443b520 19344 libmicrohttpd_1.0.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnu.org/software/libmicrohttpd/"
+  ],
+  "Maintainer": [
+    "Florian Ernst \u003cflorian@debian.org\u003e"
+  ],
+  "Package": [
+    "libmicrohttpd"
+  ],
+  "Package-List": [
+    "libmicrohttpd-dev deb libdevel optional arch=any libmicrohttpd12t64 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "httpd"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, build-essential, pkgconf"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libmicrohttpd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libmicrohttpd.git"
+  ],
+  "Version": [
+    "1.0.2-1"
+  ]
+}

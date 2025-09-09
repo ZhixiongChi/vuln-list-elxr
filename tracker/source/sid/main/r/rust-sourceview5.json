@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-sourceview5-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo, libgirepository1.0-dev, libgtk-4-dev, libgtksourceview-5-dev, libharfbuzz-dev, libgdk-pixbuf-2.0-dev, libpango1.0-dev, gir1.2-freedesktop-dev, gir1.2-glib-2.0-dev, libgraphene-1.0-dev, gir-rust-code-generator, xmlstarlet"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-futures-channel-0.3+default-dev \u003c!nocheck\u003e, librust-futures-core-0.3-dev \u003c!nocheck\u003e, librust-gdk-pixbuf-0.21+default-dev \u003c!nocheck\u003e, librust-gdk4-0.10+default-dev \u003c!nocheck\u003e, librust-gio-0.21+default-dev \u003c!nocheck\u003e, librust-glib-0.21+default-dev \u003c!nocheck\u003e, librust-gtk4-0.10+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-pango-0.21+default-dev \u003c!nocheck\u003e, librust-sourceview5-sys-0.10+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "0bca200bd5f085c09d30ce93187f739f2412fbd423e34f1e63d333baa12f147b 2950 rust-sourceview5_0.10.0-2.dsc 6e4acb02162917d7b689c84f4ed710c22302c67c7e61da28a4e8ac548c04442c 69860 rust-sourceview5_0.10.0.orig.tar.gz 8485baa3edde5addfb36a7166a1280a7694d02ef63d6c1b1a618532fcae8fbf2 4496 rust-sourceview5_0.10.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-sourceview5"
+  ],
+  "Files": [
+    "22130ec932ee5760b697dc4b7401f1d2 2950 rust-sourceview5_0.10.0-2.dsc b209a259b18b6681d666d8e92cccc65e 69860 rust-sourceview5_0.10.0.orig.tar.gz e1ed77cd31601373c4467e693b420f6e 4496 rust-sourceview5_0.10.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://world.pages.gitlab.gnome.org/Rust/sourceview5-rs/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-sourceview5"
+  ],
+  "Package-List": [
+    "librust-sourceview5-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, libgtksourceview-5-dev, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/sourceview5"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/sourceview5]"
+  ],
+  "Version": [
+    "0.10.0-2"
+  ]
+}

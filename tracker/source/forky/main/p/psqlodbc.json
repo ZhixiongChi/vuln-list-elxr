@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "odbc-postgresql"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libpq-dev, postgresql, postgresql-common, postgresql-server-dev-all, unixodbc-dev"
+  ],
+  "Checksums-Sha256": [
+    "e423609c52b68f102f689364e77d67bc6457de38927fdc9cc86ce6c2a0e111ed 2135 psqlodbc_17.00.0006-2.dsc 1c886c5303a43fae3b7bdc4f674aaf3927813e937c310716b6f83fd61434f44c 667352 psqlodbc_17.00.0006.orig.tar.gz 17d31143e6118bd1405c3352fa2f315c570174371c5c4ec7950670b6bff64953 9564 psqlodbc_17.00.0006-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/psqlodbc"
+  ],
+  "Files": [
+    "d2c8bece5941fb90d17ab9221967596f 2135 psqlodbc_17.00.0006-2.dsc ce44dba5b7958a8abb1d479baed1ea83 667352 psqlodbc_17.00.0006.orig.tar.gz 61198a491e440630dfa6258a5da68f31 9564 psqlodbc_17.00.0006-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://odbc.postgresql.org/"
+  ],
+  "Maintainer": [
+    "Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "psqlodbc"
+  ],
+  "Package-List": [
+    "odbc-postgresql deb database optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "postgresql-all, postgresql-server-dev-all, unixodbc"
+  ],
+  "Uploaders": [
+    "Christoph Berg \u003cmyon@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/postgresql/psqlodbc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/postgresql/psqlodbc.git"
+  ],
+  "Version": [
+    "1:17.00.0006-2"
+  ]
+}

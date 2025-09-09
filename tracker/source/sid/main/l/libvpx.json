@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libvpx-dev, libvpx11, libvpx-doc, vpx-tools"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), nasm [amd64 i386 hurd-i386], dh-exec"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen"
+  ],
+  "Checksums-Sha256": [
+    "0f4df51849ea4334517563aa7f883e8f6655918cb90077e5e44ed15a19594eca 1622 libvpx_1.15.2-2.dsc 26fcd3db88045dee380e581862a6ef106f49b74b6396ee95c2993a260b4636aa 5630368 libvpx_1.15.2.orig.tar.gz fa95c6b1adbcf5e27fce56e751ebfaf76ce62342bfa237c648cbc252514b64ce 13324 libvpx_1.15.2-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libv/libvpx"
+  ],
+  "Files": [
+    "a48ef060159cafce78df602fab0b6008 1622 libvpx_1.15.2-2.dsc 4c7a93808c12b359733430c8377b7fcf 5630368 libvpx_1.15.2.orig.tar.gz 6a77c762edd4105b4f34160a5993fdb5 13324 libvpx_1.15.2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.webmproject.org"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "libvpx"
+  ],
+  "Package-List": [
+    "libvpx-dev deb libdevel optional arch=any libvpx-doc deb doc optional arch=all libvpx11 deb libs optional arch=any vpx-tools deb utils optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "video"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ffmpeg"
+  ],
+  "Uploaders": [
+    "Sebastian Dröge \u003cslomo@debian.org\u003e, Sebastian Ramacher \u003csramacher@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/libvpx"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/libvpx.git"
+  ],
+  "Version": [
+    "1.15.2-2"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-pendulum"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo, dh-sequence-python3, cargo:native, librust-pyo3-0.25+default-dev, librust-pyo3-0.25+extension-module-dev, libstd-rust-dev, pybuild-plugin-pyproject, python3-all-dev, python3-maturin, python3-pytest \u003c!nocheck\u003e, python3-time-machine \u003c!nocheck\u003e, rustc:native, tzdata-legacy \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "a85ba27b0ee548eae224d48b215976d01d2b8e96ec6076bc0d55c62741f0bae2 2350 pendulum_3.1.0-1.dsc 5be9ca3216d025c80f109465df59657f77579518701670f26ae7cf80388b7f8f 184613 pendulum_3.1.0.orig.tar.gz 7d8c575b86557bd38118c85b1161eb1914b436d1a344eaa175df20a72e206369 6156 pendulum_3.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pendulum"
+  ],
+  "Files": [
+    "c0b9ee4676b4dbb996dc581b0daaac20 2350 pendulum_3.1.0-1.dsc 49098f8fcdd8f354081245633bdef544 184613 pendulum_3.1.0.orig.tar.gz 080abff8574869469c6ba61638b568f5 6156 pendulum_3.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pendulum.eustace.io"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pendulum"
+  ],
+  "Package-List": [
+    "python3-pendulum deb python optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-pybuild"
+  ],
+  "Testsuite-Triggers": [
+    "librust-pyo3-dev"
+  ],
+  "Uploaders": [
+    "Ananthu C V \u003cweepingclown@debian.org\u003e, Edward Betts \u003cedward@4angle.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pendulum"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pendulum.git"
+  ],
+  "Version": [
+    "3.1.0-1"
+  ]
+}

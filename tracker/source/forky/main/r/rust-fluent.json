@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-fluent-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.67.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-fluent-bundle-0.16+default-dev \u003c!nocheck\u003e, librust-unic-langid-0.9+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "26dd854d4ef7ffae1911440f6b7c8ecad6fda6e6b158b12291e222d046ee2085 2277 rust-fluent_0.17.0-1.dsc 8137a6d5a2c50d6b0ebfcb9aaa91a28154e0a70605f112d30cb0cd4a78670477 10282 rust-fluent_0.17.0.orig.tar.gz e32f2c03cfba3217140501f3ee4b2851f026b95913ca22da2af7f183f226f7ac 2860 rust-fluent_0.17.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-fluent"
+  ],
+  "Files": [
+    "4fbedda16f5ee2f41666af1c71a2128a 2277 rust-fluent_0.17.0-1.dsc 007df2f4f1a2fd4c79d33d24e3ee1e1d 10282 rust-fluent_0.17.0.orig.tar.gz 132c5ab184dbb361f3bdcdd2392bbca6 2860 rust-fluent_0.17.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.projectfluent.org"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-fluent"
+  ],
+  "Package-List": [
+    "librust-fluent-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/fluent"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/fluent]"
+  ],
+  "Version": [
+    "0.17.0-1"
+  ]
+}

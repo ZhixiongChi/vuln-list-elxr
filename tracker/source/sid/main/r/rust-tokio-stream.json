@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-tokio-stream-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.70) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-futures-core-0.3+default-dev \u003c!nocheck\u003e, librust-pin-project-lite-0.2+default-dev (\u003e= 0.2.11-~~) \u003c!nocheck\u003e, librust-tokio-1+default-dev (\u003e= 1.15.0-~~) \u003c!nocheck\u003e, librust-tokio-1+sync-dev (\u003e= 1.15.0-~~) \u003c!nocheck\u003e, librust-tokio-1+time-dev (\u003e= 1.15.0-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "fcc8f62a0147543fdaf899502536a31174fb2e765f73b963c25b58d446740191 2135 rust-tokio-stream_0.1.17-1.dsc eca58d7bba4a75707817a2c44174253f9236b2d5fbd055602e9d5c07c139a047 38477 rust-tokio-stream_0.1.17.orig.tar.gz 2ef15e0dbd85b7aa88fb58fe7ad9de7740e05bb410488d51b923ff676cb3ddf9 3132 rust-tokio-stream_0.1.17-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-tokio-stream"
+  ],
+  "Files": [
+    "c341020e73e01b6e75da18212051ed50 2135 rust-tokio-stream_0.1.17-1.dsc 3c1c805d76adb466586bd43a6823f257 38477 rust-tokio-stream_0.1.17.orig.tar.gz 33594ec76f8983d01ef60f3e3acf7eb6 3132 rust-tokio-stream_0.1.17-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://tokio.rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-tokio-stream"
+  ],
+  "Package-List": [
+    "librust-tokio-stream-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-async-stream-0.3+default-dev, librust-futures-0.3-dev, librust-parking-lot-0.12+default-dev, librust-tokio-1+default-dev, librust-tokio-1+full-dev, librust-tokio-1+test-util-dev, librust-tokio-test-0.4+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Henry-Nicolas Tourneur \u003cdebian@nilux.be\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tokio-stream"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/tokio-stream]"
+  ],
+  "Version": [
+    "0.1.17-1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-pretty-assertions-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-diff-0.1+default-dev (\u003e= 0.1.12-~~) \u003c!nocheck\u003e, librust-yansi-1+default-dev (\u003e= 1.0.1-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "0222a7afce985466236abadf660c5f558ad0489644c05f47bf3520ef0cc18574 2507 rust-pretty-assertions_1.4.1-1.dsc 3ae130e2f271fbc2ac3a40fb1d07180839cdbbe443c7a27e1e3c13c5cac0116d 78952 rust-pretty-assertions_1.4.1.orig.tar.gz 9fab37b962acc8ce94af15edf8618fb10cb39f1c5116e2b00e98a5bd14002695 3476 rust-pretty-assertions_1.4.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-pretty-assertions"
+  ],
+  "Files": [
+    "01b0b564d61851eafd718bb17f8d9178 2507 rust-pretty-assertions_1.4.1-1.dsc c96675a504294eefcf7b6a94247915bb 78952 rust-pretty-assertions_1.4.1.orig.tar.gz eae76f6d243e74e2e557fe65550e580e 3476 rust-pretty-assertions_1.4.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rust-pretty-assertions/rust-pretty-assertions"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-pretty-assertions"
+  ],
+  "Package-List": [
+    "librust-pretty-assertions-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Robin Krahl \u003crobin.krahl@ireas.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pretty-assertions"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/pretty-assertions]"
+  ],
+  "Version": [
+    "1.4.1-1"
+  ]
+}

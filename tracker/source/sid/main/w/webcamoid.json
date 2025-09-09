@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "webcamoid, libavkys9, libavkys-dev, webcamoid-plugins, webcamoid-data"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, pkgconf, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, libasound2-dev, libavcodec-dev (\u003e= 4.0), libavdevice-dev (\u003e= 4.0), libavformat-dev (\u003e= 4.0), libavutil-dev (\u003e= 4.0), libgl-dev, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-0, libjack-dev, libkmod-dev, libpipewire-0.3-dev, libpipewire-0.3-modules, libpulse-dev, libqt6opengl6-dev, libqt6svg6-dev, libsdl2-dev, libswresample-dev, libswscale-dev, libusb-1.0-0-dev, libusb-dev, libuvc-dev, libv4l-dev, libvlc-dev, libvlccore-dev, libvulkan-dev, libwebpdemux2, libxext-dev, libxfixes-dev, linux-libc-dev, portaudio19-dev, qml6-module-qt-labs-folderlistmodel, qml6-module-qt-labs-platform, qml6-module-qt-labs-settings, qml6-module-qtcore, qml6-module-qtmultimedia, qml6-module-qtqml, qml6-module-qtqml-models, qml6-module-qtqml-workerscript, qml6-module-qtquick-controls, qml6-module-qtquick-dialogs, qml6-module-qtquick-layouts, qml6-module-qtquick-nativestyle, qml6-module-qtquick-shapes, qml6-module-qtquick-templates, qml6-module-qtquick-window, qml6-module-qtquick3d-spatialaudio, qml6-module-qttest, qml6-module-qtwayland-compositor, qt6-base-dev, qt6-declarative-dev, qt6-l10n-tools, qt6-multimedia-dev, qt6-quick3d-dev, qt6-quicktimeline-dev, qt6-svg-dev, qt6-tools-dev, qt6-tools-dev-tools, qt6-wayland, vlc-plugin-base"
+  ],
+  "Checksums-Sha256": [
+    "4ad1633b9d2fd9712b882c32cfc8f29fb94bc58f6080bbbce560add0a84cd730 3424 webcamoid_9.3.0-1.dsc 75caa24a855d6a43cc1b46467fa75cb45396e847c13315af9169637d69ebc144 8053340 webcamoid_9.3.0.orig.tar.xz f5db1758c9804ff86a6abe114623c80ba3eff1f82a4473f5c49d0d2e3527dadf 8692 webcamoid_9.3.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/w/webcamoid"
+  ],
+  "Files": [
+    "05a89cd5822fd5a45d62262d3fdbe126 3424 webcamoid_9.3.0-1.dsc 3fd34f3aae926afae7af3da77be0d600 8053340 webcamoid_9.3.0.orig.tar.xz 1dee8cb701ae964e6a3ddfc7b79dbd0d 8692 webcamoid_9.3.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://webcamoid.github.io/"
+  ],
+  "Maintainer": [
+    "Barak A. Pearlmutter \u003cbap@debian.org\u003e"
+  ],
+  "Package": [
+    "webcamoid"
+  ],
+  "Package-List": [
+    "libavkys-dev deb libdevel optional arch=linux-any libavkys9 deb libs optional arch=linux-any webcamoid deb video optional arch=linux-any webcamoid-data deb video optional arch=all webcamoid-plugins deb video optional arch=linux-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/webcamoid"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/webcamoid.git"
+  ],
+  "Version": [
+    "9.3.0-1"
+  ]
+}

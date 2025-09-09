@@ -1,0 +1,74 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "gcr4, libgck-2-dev, libgck-2-doc, libgck-2-2, gir1.2-gck-2, libgcr-4-dev, libgcr-4-doc, libgcr-4-4, gir1.2-gcr-4, gcr4-tests"
+  ],
+  "Build-Depends": [
+    "dbus \u003c!nocheck\u003e, debhelper-compat (= 13), dh-exec, dh-sequence-gir, dh-sequence-gnome, gir1.2-gio-2.0-dev, gir1.2-gobject-2.0-dev, gnupg, gobject-introspection (\u003e= 1.78.1-9~), libdbus-1-dev (\u003e= 1.0), libgcrypt20-dev (\u003e= 1.4.5), libglib2.0-dev (\u003e= 2.74.0), libgtk-4-dev, libp11-kit-dev (\u003e= 0.19.0), libsecret-1-dev (\u003e= 0.20) [linux-any], libsystemd-dev [linux-any], libtasn1-6-dev, libtasn1-bin, meson (\u003e= 0.52), openssh-client, systemd-dev [linux-any], valac"
+  ],
+  "Build-Depends-Indep": [
+    "gi-docgen \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "90c9597f2fcb40069a109492c2bc77260394835ee62abce6424b662cb0ce8681 3426 gcr4_4.4.0.1-7.dsc 0c3c341e49f9f4f2532a4884509804190a0c2663e6120360bb298c5d174a8098 745244 gcr4_4.4.0.1.orig.tar.xz 266d1b509034019c71be2976c810c98e03653121f42f599c6a5d4d36fa74abb2 25928 gcr4_4.4.0.1-7.debian.tar.xz"
+  ],
+  "Dgit": [
+    "1775acf6e137322a1f5c62a7901a9df3cffe241a debian archive/debian/4.4.0.1-7 https://git.dgit.debian.org/gcr4"
+  ],
+  "Directory": [
+    "pool/main/g/gcr4"
+  ],
+  "Files": [
+    "7a02d13d3086fcc993b83733e0ab06ff 3426 gcr4_4.4.0.1-7.dsc 01da4445b5b16801c6dcc7d8945b4cc4 745244 gcr4_4.4.0.1.orig.tar.xz 9d3cb7773567e635eecba8aaecdb13b5 25928 gcr4_4.4.0.1-7.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=e6dd9ee66b431a938409b55da96c9fa354e1ec94 fp=7a073ad1ae694fa25bff62e5235c099d3eb33076"
+  ],
+  "Git-Tag-Tagger": [
+    "Simon McVittie \u003csmcv@debian.org\u003e"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Projects/GnomeKeyring"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gcr4"
+  ],
+  "Package-List": [
+    "gcr4 deb gnome optional arch=any gcr4-tests deb gnome optional arch=any gir1.2-gck-2 deb introspection optional arch=any gir1.2-gcr-4 deb introspection optional arch=any libgck-2-2 deb libs optional arch=any libgck-2-dev deb libdevel optional arch=any libgck-2-doc deb doc optional arch=all profile=!nodoc libgcr-4-4 deb libs optional arch=any libgcr-4-dev deb libdevel optional arch=any libgcr-4-doc deb doc optional arch=all profile=!nodoc"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, dbus, dbus-daemon, pkg-config"
+  ],
+  "Uploaders": [
+    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gcr4"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gcr4.git"
+  ],
+  "Version": [
+    "4.4.0.1-7"
+  ]
+}

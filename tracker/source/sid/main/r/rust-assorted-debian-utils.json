@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-assorted-debian-utils-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.85) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-chrono-0.4+serde-dev \u003c!nocheck\u003e, librust-hex-0.4+std-dev \u003c!nocheck\u003e, librust-rfc822-like-0.2+default-dev (\u003e= 0.2.1-~~) \u003c!nocheck\u003e, librust-serde-1+derive-dev \u003c!nocheck\u003e, librust-serde-yaml-0.9+default-dev \u003c!nocheck\u003e, librust-smallvec-1+serde-dev \u003c!nocheck\u003e, librust-smallvec-1+union-dev \u003c!nocheck\u003e, librust-thiserror-2+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "d15ee5ce379fe06d08cff27f31cd0276eff7301ffa2e7bea6dc701ea92b047e8 2106 rust-assorted-debian-utils_0.8.2-1.dsc b1968922b353350287dca2005b38649f6dbca55450f054d2c799af799b42fb7a 244505 rust-assorted-debian-utils_0.8.2.orig.tar.gz 8e13ddf11af0a10877c80cb3da5b55e703eb7bc398dd1cec20b917850e23d0b3 2908 rust-assorted-debian-utils_0.8.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-assorted-debian-utils"
+  ],
+  "Files": [
+    "4559457617a894a9dd7879a89184ae66 2106 rust-assorted-debian-utils_0.8.2-1.dsc 5af665c4f892744f7aab6f38d1659e44 244505 rust-assorted-debian-utils_0.8.2.orig.tar.gz 9d2ee93521dcee17126417e75239f74b 2908 rust-assorted-debian-utils_0.8.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sebastinas/drt-tools"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-assorted-debian-utils"
+  ],
+  "Package-List": [
+    "librust-assorted-debian-utils-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Sebastian Ramacher \u003csramacher@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/assorted-debian-utils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/assorted-debian-utils]"
+  ],
+  "Version": [
+    "0.8.2-1"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python-sqlalchemy-doc, python3-sqlalchemy, python3-sqlalchemy-ext"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, cython3, python3-all-dev, python3-setuptools, python3-greenlet, python3-typing-extensions (\u003e= 4.6.0), python3-changelog (\u003e= 0.5.3), python3-mako, python3-sphinx (\u003e= 5.0.1), python3-sphinx-paramlinks, python3-sphinxcontrib.jquery, python3-zzzeeksphinx (\u003e= 1.6.1), python3-sphinx-copybutton, python3-pytest, python3-pytest-cython, python3-pytest-xdist"
+  ],
+  "Checksums-Sha256": [
+    "2f15a7f698277788a25139362babb45c8117d4fae51797e5ca3e42539db012e5 2438 sqlalchemy_2.0.43+ds1-1.dsc 09fce1e0062311fbdff0a0012823eec7b3ab63d78d580253ba12a00da73bb648 3483728 sqlalchemy_2.0.43+ds1.orig.tar.xz 126b01e41aee0c66ed87c3f94109b9ddd168e426e6c324fd6ee97fbf61adf611 14016 sqlalchemy_2.0.43+ds1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sqlalchemy"
+  ],
+  "Files": [
+    "768e04e84bf1d4784b328449617130e3 2438 sqlalchemy_2.0.43+ds1-1.dsc 9e3b5f39ed4cff28e4df2aa9f36b2a86 3483728 sqlalchemy_2.0.43+ds1.orig.tar.xz 09c0fa11ad6a95f7d1bc663efda14583 14016 sqlalchemy_2.0.43+ds1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.sqlalchemy.org/"
+  ],
+  "Maintainer": [
+    "Piotr Ożarowski \u003cpiotr@debian.org\u003e"
+  ],
+  "Package": [
+    "sqlalchemy"
+  ],
+  "Package-List": [
+    "python-sqlalchemy-doc deb doc optional arch=all python3-sqlalchemy deb python optional arch=all python3-sqlalchemy-ext deb python optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-greenlet, python3-pytest, python3-pytest-xdist, python3-typing-extensions"
+  ],
+  "Version": [
+    "2.0.43+ds1-1"
+  ]
+}

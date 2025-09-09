@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "rtags, elpa-rtags, elpa-company-rtags, elpa-flycheck-rtags, elpa-ac-rtags, elpa-ivy-rtags, elpa-helm-rtags"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), bash-completion, cmake, dh-elpa, libclang-dev, llvm, pkgconf, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "4023a0958b123a70ab95f8108798829615af4c0f45d15fd8aac0a84c8146ab64 2438 rtags_2.41-2.dsc 219e3b92c75729729b8bfc7ec43c84e9e6260395ff3894689858237be657b5f5 1591837 rtags_2.41.orig.tar.gz 3e7432545c46e9e5a0fd7430df619001c39d75d813797ba6ad5dc83c1ef45263 15268 rtags_2.41-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rtags"
+  ],
+  "Files": [
+    "994befed7b113af74a125fd5ac75d20b 2438 rtags_2.41-2.dsc ecf9e45027e0f45057a30a71e1e94297 1591837 rtags_2.41.orig.tar.gz ccd9fad4f21364e9fb2e7f1115850fbe 15268 rtags_2.41-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Andersbakken/rtags"
+  ],
+  "Maintainer": [
+    "Debian Emacsen team \u003cdebian-emacsen@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "rtags"
+  ],
+  "Package-List": [
+    "elpa-ac-rtags deb devel optional arch=all elpa-company-rtags deb devel optional arch=all elpa-flycheck-rtags deb devel optional arch=all elpa-helm-rtags deb devel optional arch=all elpa-ivy-rtags deb devel optional arch=all elpa-rtags deb devel optional arch=all rtags deb devel optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "emacs, g++, libclang-dev, python3-pytest"
+  ],
+  "Uploaders": [
+    "Denis Danilov \u003cdanilovdenis@yandex.ru\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/emacsen-team/rtags"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/emacsen-team/rtags.git"
+  ],
+  "Version": [
+    "2.41-2"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-semver-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.31) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "05a8c467ead97312949a7763d0ff38f8daf464afd7672454ea6be227e882e6c7 2213 rust-semver_1.0.26-1.dsc 56e6fa9c48d24d85fb3de5ad847117517440f6beceb7798af16b4a87d616b8d0 31303 rust-semver_1.0.26.orig.tar.gz c53eea34dfc7f0d57b191ff4b519bf4548733fb2301fc0ff7324fe595f414c0e 2976 rust-semver_1.0.26-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-semver"
+  ],
+  "Files": [
+    "1e8b95f68036c453e27a966a8011bb32 2213 rust-semver_1.0.26-1.dsc 667de7e136692e6fc18e3b41223696ba 31303 rust-semver_1.0.26.orig.tar.gz a4e0c06c55a2753ca3f40451b7cf08d6 2976 rust-semver_1.0.26-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dtolnay/semver"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-semver"
+  ],
+  "Package-List": [
+    "librust-semver-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/semver"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/semver]"
+  ],
+  "Version": [
+    "1.0.26-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "kustomize, golang-k8s-sigs-kustomize-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec, dh-sequence-golang, golang-any, golang-github-google-go-cmp-dev, golang-github-spf13-cobra-dev, golang-github-spf13-pflag-dev, golang-github-stretchr-testify-dev, golang-golang-x-exp-dev, golang-golang-x-text-dev, golang-k8s-sigs-kustomize-api-dev (\u003e= 0.20.1), golang-k8s-sigs-kustomize-cmd-config-dev (\u003e= 0.20.1), golang-k8s-sigs-kustomize-kyaml-dev (\u003e= 0.20.1), golang-k8s-sigs-yaml-dev, help2man \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "435ad73c7477259c60845d202218be0a084094777151dc709844f203d50142e0 2580 kustomize_5.7.1+ds-1.dsc c8b84ae3d931a0230b55a903ce364fce64e98d57e512ff31ba76ed61eb337f33 203072 kustomize_5.7.1+ds.orig.tar.xz 10e75fa546af14d36908d526e3eafe66436ff735bfda20b1680645cd60fc66f7 3652 kustomize_5.7.1+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kustomize"
+  ],
+  "Files": [
+    "bede6c2cc6cb613c78f3efdf4ecc4ab7 2580 kustomize_5.7.1+ds-1.dsc 27032a9b781ca2af1e9e6f7d9770e1d0 203072 kustomize_5.7.1+ds.orig.tar.xz 93c38711151832dee06c34c4c7bbe041 3652 kustomize_5.7.1+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "sigs.k8s.io/kustomize/kustomize"
+  ],
+  "Homepage": [
+    "https://github.com/kubernetes-sigs/kustomize"
+  ],
+  "Maintainer": [
+    "Debian Kubernetes Packaging Team \u003cteam+kubernetes@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "kustomize"
+  ],
+  "Package-List": [
+    "golang-k8s-sigs-kustomize-dev deb golang optional arch=all kustomize deb golang optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Arthur Diniz \u003carthurbdiniz@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/kubernetes-team/packages/kustomize"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/kubernetes-team/packages/kustomize.git"
+  ],
+  "Version": [
+    "5.7.1+ds-1"
+  ]
+}

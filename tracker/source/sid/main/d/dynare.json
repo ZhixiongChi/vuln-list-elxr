@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "dynare, dynare-doc, dynare-matlab"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-elpa, dh-octave, gfortran, octave-dev, libboost-graph-dev, libmatio-dev, libgsl-dev, libslicot-dev, libsuitesparse-dev, flex, libfl-dev, bison, meson, pkgconf, tex-gyre, texlive, texlive-publishers, texlive-latex-extra, texlive-fonts-extra, texlive-science, texlive-plain-generic, lmodern, cm-super, python3-sphinx, latexmk, libjs-mathjax"
+  ],
+  "Checksums-Sha256": [
+    "1470a45d20a7e157001331da98c21ea448aa712ffdb5de95de606849f19bba0a 2429 dynare_6.4-2.dsc 9865e2e7f6b3705155538d5fb1fb0b01bc9decf07250b3b054d3555d651c3843 16873996 dynare_6.4.orig.tar.xz 39a82319cc30c77ed4b50320df45dda2cf327bc5695f9c8eeddf83a246a7e91f 22480 dynare_6.4-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dynare"
+  ],
+  "Files": [
+    "1351467db6c4af32e1ea086276a8160c 2429 dynare_6.4-2.dsc ae8ab1381e465b15962a032592399841 16873996 dynare_6.4.orig.tar.xz 746a0f1ec3a88959547f8986e6095216 22480 dynare_6.4-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.dynare.org/"
+  ],
+  "Maintainer": [
+    "Debian Octave Group \u003cteam+pkg-octave-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "dynare"
+  ],
+  "Package-List": [
+    "dynare deb math optional arch=any dynare-doc deb doc optional arch=all dynare-matlab deb contrib/math optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "math"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "epstool, fonts-freefont-otf, gnuplot-nox"
+  ],
+  "Uploaders": [
+    "Sébastien Villemot \u003csebastien@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-octave-team/dynare"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-octave-team/dynare.git"
+  ],
+  "Version": [
+    "6.4-2"
+  ]
+}

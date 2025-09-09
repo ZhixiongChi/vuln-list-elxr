@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "pgbackrest, pgbackrest-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libbz2-dev, liblz4-dev, libpq-dev, libssh2-1-dev, libssl-dev, libxml-checker-perl, libyaml-dev, libyaml-libyaml-perl (\u003e= 0.67), libxml2-dev, libzstd-dev, meson, perl, pkgconf, python3 (\u003e= 3.10) | python3-distutils, txt2man, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "ca91d160ab41a254ca29ecb8fc356cf218cd3d44ca24f0919dcfa2ef8e1b7dfc 2361 pgbackrest_2.56.0-2.dsc e4ed91be1c518817fd2909c99edc0d3661126fde86abf77a0d470da09741447f 2698508 pgbackrest_2.56.0.orig.tar.gz d5651fe9a37ce2abf314fadef7932fc33a7b36231a5629354649e389c2e4da45 22296 pgbackrest_2.56.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pgbackrest"
+  ],
+  "Files": [
+    "07cdfed9f985a8594d779c6450dc3982 2361 pgbackrest_2.56.0-2.dsc 52cfac23fc71fc4e606c64749ba2ad3d 2698508 pgbackrest_2.56.0.orig.tar.gz 3d25383a9e13f4b847058ad7fff30276 22296 pgbackrest_2.56.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.pgbackrest.org/"
+  ],
+  "Maintainer": [
+    "Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pgbackrest"
+  ],
+  "Package-List": [
+    "pgbackrest deb database optional arch=any pgbackrest-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "postgresql"
+  ],
+  "Uploaders": [
+    "Adrian Vondendriesch \u003cadrian.vondendriesch@credativ.de\u003e, Bradford D. Boyle \u003cbradford.d.boyle@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/postgresql/pgbackrest"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/postgresql/pgbackrest.git"
+  ],
+  "Version": [
+    "2.56.0-2"
+  ]
+}

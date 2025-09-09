@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "dnsmasq, dnsmasq-base, dnsmasq-base-lua, dnsmasq-utils"
+  ],
+  "Build-Depends": [
+    "dh-exec, gettext, libnetfilter-conntrack-dev [linux-any], libidn2-dev, libdbus-1-dev (\u003e= 0.61), libgmp-dev, nettle-dev (\u003e= 2.4-3), libbsd-dev [kfreebsd-any], liblua5.4-dev, dh-runit, debhelper-compat (= 13), pkgconf, libnftables-dev"
+  ],
+  "Checksums-Sha256": [
+    "8e476c41f828e3f187f0cde0e7baf0cbd198ccc2545e8bf69876dca730c7b610 3312 dnsmasq_2.90-4~deb12u1.dsc 8e50309bd837bfec9649a812e066c09b6988b73d749b7d293c06c57d46a109e4 570672 dnsmasq_2.90.orig.tar.xz 2e3f407edb90caafecb64096d6f4cdba6a995dbbd014af5ad153ac83cace5da8 833 dnsmasq_2.90.orig.tar.xz.asc 9c15112ce94f54d910688db5e5434f3d65ae4b4460e2b2b6ff023b75d12e8109 31608 dnsmasq_2.90-4~deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dnsmasq"
+  ],
+  "Files": [
+    "bb17f279860abef67b8eac0abc27d5de 3312 dnsmasq_2.90-4~deb12u1.dsc 58b511a118301b8fe4e89f9734957937 570672 dnsmasq_2.90.orig.tar.xz d14d9c701bf5ed0812756eb4fe730e5a 833 dnsmasq_2.90.orig.tar.xz.asc 7c68bc09291e3eaa2b13a75f322717bc 31608 dnsmasq_2.90-4~deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.thekelleys.org.uk/dnsmasq/doc.html"
+  ],
+  "Maintainer": [
+    "Simon Kelley \u003csimon@thekelleys.org.uk\u003e"
+  ],
+  "Package": [
+    "dnsmasq"
+  ],
+  "Package-List": [
+    "dnsmasq deb net optional arch=all dnsmasq-base deb net optional arch=any dnsmasq-base-lua deb net optional arch=any dnsmasq-utils deb net optional arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "bind9, bind9-dnsutils"
+  ],
+  "Uploaders": [
+    "Sven Geuer \u003cdebmaint@g-e-u-e-r.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://thekelleys.org.uk/gitweb/?p=dnsmasq-debian.git"
+  ],
+  "Vcs-Git": [
+    "https://thekelleys.org.uk/git/dnsmasq-debian.git"
+  ],
+  "Version": [
+    "2.90-4~deb12u1"
+  ]
+}

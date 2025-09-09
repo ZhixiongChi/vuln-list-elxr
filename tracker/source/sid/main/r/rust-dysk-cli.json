@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-dysk-cli-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.70) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bet-1+default-dev (\u003e= 1.0.4-~~) \u003c!nocheck\u003e, librust-clap-4+cargo-dev (\u003e= 4.4-~~) \u003c!nocheck\u003e, librust-clap-4+default-dev (\u003e= 4.4-~~) \u003c!nocheck\u003e, librust-clap-4+derive-dev (\u003e= 4.4-~~) \u003c!nocheck\u003e, librust-clap-help-1+default-dev (\u003e= 1.4-~~) \u003c!nocheck\u003e, librust-file-size-1+default-dev (\u003e= 1.0.3-~~) \u003c!nocheck\u003e, librust-lfs-core-0.14+default-dev (\u003e= 0.14.1-~~) \u003c!nocheck\u003e, librust-serde-1+default-dev \u003c!nocheck\u003e, librust-serde-json-1+default-dev \u003c!nocheck\u003e, librust-termimad-0.33+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "ff552af2f95fbbfcc5ff523fbb8c5a76bda35d40cbb890d2263e10e10bd8b0d5 2093 rust-dysk-cli_3.1.0-1.dsc 94c0a57dd321f3039d0c1e7ba770f46341cd529b585089c55d83ee5a91772ac2 23750 rust-dysk-cli_3.1.0.orig.tar.gz d9d18331b13fba674a010df697f9a781d50b33e4986564207eb7295cb112daa3 3168 rust-dysk-cli_3.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-dysk-cli"
+  ],
+  "Files": [
+    "14c2a7e36d70c9c7cda636a870079026 2093 rust-dysk-cli_3.1.0-1.dsc a0b5a3729fac76aa186b6613659bf134 23750 rust-dysk-cli_3.1.0.orig.tar.gz 10b144a23bbf3470d7c6696859bf33ca 3168 rust-dysk-cli_3.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://dystroy.org/dysk"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-dysk-cli"
+  ],
+  "Package-List": [
+    "librust-dysk-cli-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "NoisyCoil \u003cnoisycoil@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/dysk-cli"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/dysk-cli]"
+  ],
+  "Version": [
+    "3.1.0-1"
+  ]
+}

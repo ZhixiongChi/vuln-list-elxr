@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gstreamer-gl-wayland-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.83) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-glib-0.21+default-dev \u003c!nocheck\u003e, librust-gstreamer-0.24+default-dev \u003c!nocheck\u003e, librust-gstreamer-gl-0.24+default-dev \u003c!nocheck\u003e, librust-gstreamer-gl-wayland-sys-0.24+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "f0864b6f8d2b4a61607a00246c9c85757d19cf39b8e1557a34a62d9bdb9993d3 2628 rust-gstreamer-gl-wayland_0.24.0-2.dsc cd843ce4bb5c8fb10464c032eb3eb21c21003917f5c39c2803e977d0022a04a2 44427 rust-gstreamer-gl-wayland_0.24.0.orig.tar.gz ec0a618672f89457f8c755bd830fcc220294da4ca5b58cc0d3a77bbe0194f57a 3404 rust-gstreamer-gl-wayland_0.24.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gstreamer-gl-wayland"
+  ],
+  "Files": [
+    "f80b245c28973ab29aa72a89d5b9c386 2628 rust-gstreamer-gl-wayland_0.24.0-2.dsc e0711db8bab35cbcc3f19099410a4500 44427 rust-gstreamer-gl-wayland_0.24.0.orig.tar.gz 4ca583d79f7d0faf6735d311d2cd062d 3404 rust-gstreamer-gl-wayland_0.24.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gstreamer.freedesktop.org"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gstreamer-gl-wayland"
+  ],
+  "Package-List": [
+    "librust-gstreamer-gl-wayland-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-gir-format-check-0.1+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gstreamer-gl-wayland"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gstreamer-gl-wayland]"
+  ],
+  "Version": [
+    "0.24.0-2"
+  ]
+}

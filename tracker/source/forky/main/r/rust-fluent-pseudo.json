@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-fluent-pseudo-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.65.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-once-cell-1+default-dev (\u003e= 1.20-~~) \u003c!nocheck\u003e, librust-regex-1+default-dev (\u003e= 1.11-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "cb76589217a6a37c51493cf6c08d563e0ded51cc5b05206df9f87e0a09d4038c 2355 rust-fluent-pseudo_0.3.3-1.dsc 86f1b5259b7f28e4f6a03e826c8305e15309cd90fc3a786447407c001786bf2e 8477 rust-fluent-pseudo_0.3.3.orig.tar.gz 062d12bfff64c68a47c9a933e8d54fdd3577b9ba3df8ed1a407c3d48004a17cd 2900 rust-fluent-pseudo_0.3.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-fluent-pseudo"
+  ],
+  "Files": [
+    "7a3b983a2d9d4e7236f31b42a65a55a2 2355 rust-fluent-pseudo_0.3.3-1.dsc 1b627cdb2c0873030d570576aa406218 8477 rust-fluent-pseudo_0.3.3.orig.tar.gz 671c7d099ddf313d58b88deffd104eed 2900 rust-fluent-pseudo_0.3.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.projectfluent.org"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-fluent-pseudo"
+  ],
+  "Package-List": [
+    "librust-fluent-pseudo-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/fluent-pseudo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/fluent-pseudo]"
+  ],
+  "Version": [
+    "0.3.3-1"
+  ]
+}

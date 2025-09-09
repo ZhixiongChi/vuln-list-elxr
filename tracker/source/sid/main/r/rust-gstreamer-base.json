@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gstreamer-base-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.83) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-atomic-refcell-0.1+default-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e, librust-glib-0.21+default-dev \u003c!nocheck\u003e, librust-gstreamer-0.24+default-dev \u003c!nocheck\u003e, librust-gstreamer-base-sys-0.24+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "f5169e51878c5d98a73d0a0e1c9dcb82c73f84643a643f339a194c841caa76d2 2598 rust-gstreamer-base_0.24.0-3.dsc 34745d3726a080e0d57e402a314e37073d0b341f3a5754258550311ca45e4754 75134 rust-gstreamer-base_0.24.0.orig.tar.gz b52422591559ab1ddb850281ad6b762fda9e5f3fb8430a1693e9195c7437896c 3708 rust-gstreamer-base_0.24.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gstreamer-base"
+  ],
+  "Files": [
+    "af371bc3df04a3d565a0c7af601edbd9 2598 rust-gstreamer-base_0.24.0-3.dsc 6d6eb48b2e869cd7b0987797e2feb34f 75134 rust-gstreamer-base_0.24.0.orig.tar.gz f41c26fdcbfaab7e7c5e8572f0d941b1 3708 rust-gstreamer-base_0.24.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gstreamer.freedesktop.org"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gstreamer-base"
+  ],
+  "Package-List": [
+    "librust-gstreamer-base-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-gir-format-check-0.1+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gstreamer-base"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gstreamer-base]"
+  ],
+  "Version": [
+    "0.24.0-3"
+  ]
+}

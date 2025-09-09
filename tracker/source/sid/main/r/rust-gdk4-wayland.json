@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gdk4-wayland-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo, libgtk-4-dev (\u003e= 4.17.5), libgirepository1.0-dev, gir-rust-code-generator (\u003e= 0.21), libgdk-pixbuf-2.0-dev, libpango1.0-dev, libharfbuzz-dev, xmlstarlet"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.83) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-gdk4-0.10+default-dev \u003c!nocheck\u003e, librust-gdk4-wayland-sys-0.10+default-dev \u003c!nocheck\u003e, librust-gio-0.21+default-dev \u003c!nocheck\u003e, librust-gio-0.21+v2-66-dev \u003c!nocheck\u003e, librust-glib-0.21+default-dev \u003c!nocheck\u003e, librust-glib-0.21+v2-66-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "2ee781d8b07848141d8b4602b9b82537cd7f3e55bc81326be3d566b9bf6e7663 2744 rust-gdk4-wayland_0.10.0-3.dsc f04e030e86c5fc5495eceb83ccbce6c3768078147ece063e5fa34f986fea9b76 13461 rust-gdk4-wayland_0.10.0.orig.tar.gz 01483a353c2fe7ca7ff4f9337c821a9b2939727be89c18fea5568fb6b554a040 4940 rust-gdk4-wayland_0.10.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gdk4-wayland"
+  ],
+  "Files": [
+    "a9aafb4191c82a23fcacdf68edc84956 2744 rust-gdk4-wayland_0.10.0-3.dsc 18bf9cb2abc2613e5620a714325c411c 13461 rust-gdk4-wayland_0.10.0.orig.tar.gz f86d5e93f1bbde832e276d0d854e4204 4940 rust-gdk4-wayland_0.10.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gtk-rs.org/gtk4-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gdk4-wayland"
+  ],
+  "Package-List": [
+    "librust-gdk4-wayland-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-gir-format-check-0.1+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gdk4-wayland"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gdk4-wayland]"
+  ],
+  "Version": [
+    "0.10.0-3"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "libgudev-1.0-0, gir1.2-gudev-1.0, libgudev-1.0-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gir1.2-gobject-2.0-dev, gobject-introspection (\u003e= 1.80), gtk-doc-tools, libglib2.0-dev (\u003e= 2.38.0), libglib2.0-doc, libudev-dev (\u003e= 251), libumockdev-dev \u003c!nocheck\u003e, locales-all \u003c!nocheck\u003e, meson (\u003e= 0.53.0), pkgconf, umockdev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "529bca27357b43eedcc2e4e19f6e3516011670f677a733a23b9ef83a849731c2 2650 libgudev_238-7.dsc 61266ab1afc9d73dbc60a8b2af73e99d2fdff47d99544d085760e4fa667b5dd1 30548 libgudev_238.orig.tar.xz c047af65b62ef1874f5703cbbbe788875f2457bbe7b78efcf572f1ec5d03e335 4884 libgudev_238-7.debian.tar.xz"
+  ],
+  "Dgit": [
+    "c734364f210c7f62baf7859ba373f72fcace9544 debian archive/debian/238-7 https://git.dgit.debian.org/libgudev"
+  ],
+  "Directory": [
+    "pool/main/libg/libgudev"
+  ],
+  "Files": [
+    "3c0b8c768ef7d42aeb804c167859bc15 2650 libgudev_238-7.dsc 46da30a1c69101c3a13fa660d9ab7b73 30548 libgudev_238.orig.tar.xz 582eb435347835d4795fbfcfab7a7d2f 4884 libgudev_238-7.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=4610ae8b7df896a16064ec252cfa1d25c275978e fp=7a073ad1ae694fa25bff62e5235c099d3eb33076"
+  ],
+  "Git-Tag-Tagger": [
+    "Simon McVittie \u003csmcv@debian.org\u003e"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Projects/libgudev"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libgudev"
+  ],
+  "Package-List": [
+    "gir1.2-gudev-1.0 deb introspection optional arch=linux-any libgudev-1.0-0 deb libs optional arch=linux-any libgudev-1.0-dev deb libdevel optional arch=linux-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/libgudev"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/libgudev.git"
+  ],
+  "Version": [
+    "238-7"
+  ]
+}

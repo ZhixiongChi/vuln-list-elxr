@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libyubihsm2, libyubihsm-usb2, libyubihsm-http2, libyubihsm-dev, libykhsmauth2, libykhsmauth-dev, yubihsm-pkcs11, yubihsm-shell, yubihsm-wrap, yubihsm-auth"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake (\u003e= 3.29), gengetopt, help2man, libcurl4-openssl-dev, libedit-dev, libpcsclite-dev, libssl-dev, libusb-1.0-0-dev, pkgconf, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "88829c1b6d243f3b0d04e0d36035052ca433fedafbb8f3a6073a5e2e385ac7e0 2992 yubihsm-shell_2.7.0-2.dsc 980c22ef5456d254a3f45d99345e76408f36a5897e4e354d542f7ca15889d672 438802 yubihsm-shell_2.7.0.orig.tar.gz ac29e6b4b3f948d9acbc3f049fd8f36926f7422ddf1cba873718991c2ce7c66b 5800 yubihsm-shell_2.7.0-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "233fe8b084d163c2ed086565df207f4137f9beba debian archive/debian/2.7.0-2 https://git.dgit.debian.org/yubihsm-shell"
+  ],
+  "Directory": [
+    "pool/main/y/yubihsm-shell"
+  ],
+  "Files": [
+    "53db40edd5bd73114b8221cb84ab1a55 2992 yubihsm-shell_2.7.0-2.dsc 3915cdfd352faf4782140218c90268ec 438802 yubihsm-shell_2.7.0.orig.tar.gz 9622a00561ba32028ad7c2edba68aa79 5800 yubihsm-shell_2.7.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=b7fe85f47ef451dfa1078517dfc077bd2593ce5c fp=ac0a4ff12611b6fccf01c111393587d97d86500b"
+  ],
+  "Git-Tag-Tagger": [
+    "Colin Watson \u003ccjwatson@debian.org\u003e"
+  ],
+  "Homepage": [
+    "https://developers.yubico.com/yubihsm-shell/"
+  ],
+  "Maintainer": [
+    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "yubihsm-shell"
+  ],
+  "Package-List": [
+    "libykhsmauth-dev deb libdevel optional arch=any libykhsmauth2 deb libs optional arch=any libyubihsm-dev deb libdevel optional arch=any libyubihsm-http2 deb libs optional arch=any libyubihsm-usb2 deb libs optional arch=any libyubihsm2 deb libs optional arch=any yubihsm-auth deb utils optional arch=any yubihsm-pkcs11 deb libs optional arch=any yubihsm-shell deb utils optional arch=any yubihsm-wrap deb utils optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Uploaders": [
+    "Freexian Packaging Team \u003cteam+freexian@tracker.debian.org\u003e, Colin Watson \u003ccjwatson@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-security-team/yubihsm-shell"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-security-team/yubihsm-shell.git"
+  ],
+  "Version": [
+    "2.7.0-2"
+  ]
+}

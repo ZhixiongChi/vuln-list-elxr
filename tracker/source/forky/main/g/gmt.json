@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "gmt, gmt-common, libgmt6t64, libgmt-dev"
+  ],
+  "Build-Depends": [
+    "chrpath, cmake, debhelper-compat (= 13), dpkg-dev (\u003e= 1.22.5), ffmpeg, gdal-bin, ghostscript, gmt-dcw (\u003e= 2.0.0), gmt-gshhg, graphicsmagick, libblas-dev, libcurl4-gnutls-dev | libcurl-ssl-dev, libfftw3-dev, libgdal-dev, liblapack-dev, libnetcdf-dev, libpcre2-dev, libxaw7-dev, libxmu-headers, pkgconf, texlive, texlive-latex-extra, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "6e939821be22faa6f91115f861220dfd3520a572fa7e09f463006c27b1d99387 2431 gmt_6.6.0+dfsg-1.dsc 7b14724b4451b18140dd909468c541abd2a4754e5d40e85e1aeec4f884589607 14222184 gmt_6.6.0+dfsg.orig.tar.xz a98336eb56902f0e9ab7d6b7dc3013559f656cf52f272281e9a9a456c84a7c89 31340 gmt_6.6.0+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gmt"
+  ],
+  "Files": [
+    "344030fb7342fca9d5f3380753e7cec9 2431 gmt_6.6.0+dfsg-1.dsc 0aed6d55ac438504523e16d984cb7b3f 14222184 gmt_6.6.0+dfsg.orig.tar.xz 5f399ed56b8ec2169b651c69ece37a95 31340 gmt_6.6.0+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://gmt.soest.hawaii.edu/"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gmt"
+  ],
+  "Package-List": [
+    "gmt deb science optional arch=any gmt-common deb science optional arch=all libgmt-dev deb libdevel optional arch=any libgmt6t64 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "science"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Francesco Paolo Lovergine \u003cfrankie@debian.org\u003e, Bas Couwenberg \u003csebastic@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/gmt"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/gmt.git"
+  ],
+  "Version": [
+    "6.6.0+dfsg-1"
+  ]
+}

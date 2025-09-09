@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "git, git-man, git-doc, git-cvs, git-svn, git-email, git-gui, gitk, gitweb, git-all"
+  ],
+  "Build-Depends": [
+    "libz-dev, gettext, libpcre2-dev | libpcre3-dev, libcurl4-gnutls-dev, libexpat1-dev, subversion, libsvn-perl, libyaml-perl, tcl, python3, libhttp-date-perl | libtime-parsedate-perl, libcgi-pm-perl, liberror-perl, libmailtools-perl, cvs, cvsps, libdbd-sqlite3-perl, unzip, libio-pty-perl, debhelper-compat (= 10), dh-exec (\u003e= 0.7), dh-apache2, dpkg-dev (\u003e= 1.16.2~)"
+  ],
+  "Build-Depends-Indep": [
+    "asciidoc (\u003e= 8.6.10), xmlto, docbook-xsl"
+  ],
+  "Checksums-Sha256": [
+    "65de507b7ab663cbfb079e2b10f0321309bd788ca62d5eb1d64014886adfacba 2641 git_2.51.0-1.dsc 60a7c2251cc2e588d5cd87bae567260617c6de0c22dca9cdbfc4c7d2b8990b62 7857228 git_2.51.0.orig.tar.xz 793b1557c45cc952ee155771c5aa4df58d3bb76fb5f708d299135dfeba4f6a22 818516 git_2.51.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/git"
+  ],
+  "Files": [
+    "6816f5d30a9b9e025954404d116b0678 2641 git_2.51.0-1.dsc 594c03134a0830c70a49e974d6ee35be 7857228 git_2.51.0.orig.tar.xz 2bd09efd1c85ee2d05ee753612a5eb95 818516 git_2.51.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://git-scm.com/"
+  ],
+  "Maintainer": [
+    "Jonathan Nieder \u003cjrnieder@gmail.com\u003e"
+  ],
+  "Package": [
+    "git"
+  ],
+  "Package-List": [
+    "git deb vcs optional arch=any git-all deb vcs optional arch=all git-cvs deb vcs optional arch=all git-doc deb doc optional arch=all git-email deb vcs optional arch=all git-gui deb vcs optional arch=all git-man deb doc optional arch=all git-svn deb vcs optional arch=all gitk deb vcs optional arch=all gitweb deb vcs optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "vcs"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Uploaders": [
+    "Anders Kaseorg \u003candersk@mit.edu\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://repo.or.cz/w/git/debian.git/"
+  ],
+  "Vcs-Git": [
+    "https://repo.or.cz/r/git/debian.git/"
+  ],
+  "Version": [
+    "1:2.51.0-1"
+  ]
+}

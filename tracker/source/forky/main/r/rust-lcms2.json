@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-lcms2-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.65) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bytemuck-1+align-offset-dev (\u003e= 1.20-~~) \u003c!nocheck\u003e, librust-bytemuck-1+min-const-generics-dev (\u003e= 1.20-~~) \u003c!nocheck\u003e, librust-foreign-types-0.5+default-dev \u003c!nocheck\u003e, librust-lcms2-sys-4+default-dev (\u003e= 4.0.6-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "64ad4bbe61da2515f941b74e492590f84d78b3e7f6f0581bd1ec682ce58dbce6 2402 rust-lcms2_6.1.1-1.dsc b75877b724685dd49310bdbadbf973fc69b1d01992a6d4a861b928fc3943f87b 31954 rust-lcms2_6.1.1.orig.tar.gz 01c6e517402b7cd4fb151d1a7e2b316dadafb791b00ad20e163bcf275591a4be 2944 rust-lcms2_6.1.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-lcms2"
+  ],
+  "Files": [
+    "8199bf6be5035d7e8e0f4ab400625edf 2402 rust-lcms2_6.1.1-1.dsc 1a2842714459c48b09462f704fb49391 31954 rust-lcms2_6.1.1.orig.tar.gz 192668d64fcdce4ba2836c48c9545fc6 2944 rust-lcms2_6.1.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://lib.rs/crates/lcms2"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-lcms2"
+  ],
+  "Package-List": [
+    "librust-lcms2-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/lcms2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/lcms2]"
+  ],
+  "Version": [
+    "6.1.1-1"
+  ]
+}

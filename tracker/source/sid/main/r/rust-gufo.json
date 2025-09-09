@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gufo-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.80) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-gufo-common-1+default-dev \u003c!nocheck\u003e, librust-gufo-exif-0.3+default-dev \u003c!nocheck\u003e, librust-gufo-xmp-0.3+default-dev \u003c!nocheck\u003e, librust-static-assertions-1+default-dev (\u003e= 1.1.0-~~) \u003c!nocheck\u003e, librust-thiserror-2+default-dev (\u003e= 2.0.3-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "64a551460801c79e8c384939249d95934ebdad5107473cec5b21e6634c0805e5 2420 rust-gufo_0.3.0-2.dsc fbd1a9cdb84d3166fa067fa352651f9212567af36701230e7dd7044919e1ce78 21247 rust-gufo_0.3.0.orig.tar.gz e43de7ee42d035fa6481493dbc4a73311a150a2582e02d80b3116ff51a73932f 2896 rust-gufo_0.3.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gufo"
+  ],
+  "Files": [
+    "d62f6cbfee296e73462a70ff28187870 2420 rust-gufo_0.3.0-2.dsc 8b1d94c6f43515cfa47aae4f3db59982 21247 rust-gufo_0.3.0.orig.tar.gz f5f75106519bb43b0e571a4d83c6764f 2896 rust-gufo_0.3.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/gufo-rs/gufo"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gufo"
+  ],
+  "Package-List": [
+    "librust-gufo-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gufo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gufo]"
+  ],
+  "Version": [
+    "0.3.0-2"
+  ]
+}

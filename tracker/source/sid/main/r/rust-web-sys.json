@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-web-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.57) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-js-sys-0.3+std-dev (\u003c\u003c 0.3.78-~~) \u003c!nocheck\u003e, librust-js-sys-0.3+std-dev (\u003e= 0.3.77-~~) \u003c!nocheck\u003e, librust-js-sys-0.3-dev (\u003c\u003c 0.3.78-~~) \u003c!nocheck\u003e, librust-js-sys-0.3-dev (\u003e= 0.3.77-~~) \u003c!nocheck\u003e, librust-wasm-bindgen-0.2+std-dev (\u003c\u003c 0.2.101-~~) \u003c!nocheck\u003e, librust-wasm-bindgen-0.2+std-dev (\u003e= 0.2.100-~~) \u003c!nocheck\u003e, librust-wasm-bindgen-0.2-dev (\u003c\u003c 0.2.101-~~) \u003c!nocheck\u003e, librust-wasm-bindgen-0.2-dev (\u003e= 0.2.100-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "58db901722875a216506704c40c192eef930a4f49d3a41b1ba1e88cf54ef24fc 2173 rust-web-sys_0.3.77-3.dsc 33b6dd2ef9186f1f2072e409e99cd22a975331a6b3591b12c764e0e55c60d5d2 638246 rust-web-sys_0.3.77.orig.tar.gz 85bcec20152894a8a5ef4a428014cc3019fe95c0351fbbaf3fbebd4487f4ae5c 45004 rust-web-sys_0.3.77-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-web-sys"
+  ],
+  "Files": [
+    "334bde958855875ad1389f38580e6553 2173 rust-web-sys_0.3.77-3.dsc c63a57a84e0b51be7a819a7989a7a821 638246 rust-web-sys_0.3.77.orig.tar.gz fe7eb9f36664aa70da4a26d07867771e 45004 rust-web-sys_0.3.77-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://rustwasm.github.io/wasm-bindgen/web-sys/index.html"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-web-sys"
+  ],
+  "Package-List": [
+    "librust-web-sys-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-futures-0.3+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e, Nicolas Braud-Santoni \u003cnicoo@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/web-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/web-sys]"
+  ],
+  "Version": [
+    "0.3.77-3"
+  ]
+}

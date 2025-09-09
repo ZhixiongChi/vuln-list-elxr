@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "bind9, bind9utils, bind9-utils, bind9-doc, bind9-host, bind9-libs, bind9-dev, dnsutils, bind9-dnsutils"
+  ],
+  "Build-Depends": [
+    "bison, debhelper-compat (= 12), dh-apparmor, dh-exec, dh-python, libcap2-dev [linux-any], libcmocka-dev, libdb-dev, libedit-dev, libfstrm-dev, libidn2-dev, libjson-c-dev, libkrb5-dev, liblmdb-dev, libmaxminddb-dev (\u003e= 1.3.0), libprotobuf-c-dev, libssl-dev, libtool, libuv1-dev (\u003e= 1.40.0), libxml2-dev, pkg-config, protobuf-c-compiler, python3, python3-ply, zlib1g-dev"
+  ],
+  "Build-Depends-Indep": [
+    "fonts-freefont-otf, latexmk, python3-sphinx, python3-sphinx-rtd-theme, texlive-fonts-recommended, texlive-latex-recommended, texlive-xetex, xindy"
+  ],
+  "Checksums-Sha256": [
+    "5d88c0d55b898f6b75a33e1b6c9985f239330ac46a0a0e8b9b4bb8e380c1ef76 3266 bind9_9.16.50-1~deb11u2.dsc 816dbaa3c115019f30fcebd9e8ef8f7637f4adde91c79daa099b035255a15795 5134620 bind9_9.16.50.orig.tar.xz ea439870e59cb3b415a64d1f19a302f5c362538e4918a09528b22529426b4cc6 833 bind9_9.16.50.orig.tar.xz.asc 309756e1c39529e0edafafa3bf66f4bb86ed21a8b9132f5738693796c2632a36 88620 bind9_9.16.50-1~deb11u2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/bind9"
+  ],
+  "Files": [
+    "4517ccdd06dce9f88a2cf9772b36cc60 3266 bind9_9.16.50-1~deb11u2.dsc 0aa065323f039e413d234736a727c00e 5134620 bind9_9.16.50.orig.tar.xz 7621fdb8536f44e0df9680c251aa9e95 833 bind9_9.16.50.orig.tar.xz.asc d1de64aade260b0f5bb048fea27f5348 88620 bind9_9.16.50-1~deb11u2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.isc.org/downloads/bind/"
+  ],
+  "Maintainer": [
+    "Debian DNS Team \u003cteam+dns@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "bind9"
+  ],
+  "Package-List": [
+    "bind9 deb net optional arch=any bind9-dev deb devel optional arch=any bind9-dnsutils deb net standard arch=any bind9-doc deb doc optional arch=all bind9-host deb net standard arch=any bind9-libs deb libs standard arch=any bind9-utils deb net optional arch=any bind9utils deb oldlibs optional arch=all dnsutils deb oldlibs optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.1.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Ondřej Surý \u003condrej@debian.org\u003e, Bernhard Schmidt \u003cberni@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/dns-team/bind9"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/dns-team/bind9.git"
+  ],
+  "Version": [
+    "1:9.16.50-1~deb11u2"
+  ]
+}

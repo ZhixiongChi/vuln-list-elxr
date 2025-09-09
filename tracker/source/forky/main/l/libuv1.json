@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "linux-any hurd-any all"
+  ],
+  "Binary": [
+    "libuv1-dev, libuv1t64, libuv1-doc"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), dh-exec, netbase, pkgconf"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-sphinxdoc \u003c!nodoc\u003e, sphinx \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "5251c1d4179fb832f8140b66011b5e4a859a7efbcdc17b09ec39b46768233bfd 2141 libuv1_1.51.0-2.dsc c6e84ceea0ae4e7649f8cf482280e78bbd9c2dad859b63567b9d4cc0845b88e7 1352309 libuv1_1.51.0.orig.tar.gz e1e0b5b823a7ad74b2c1812a554443e8ec4da823f98e8106c9e270d9b45f98f2 22740 libuv1_1.51.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libu/libuv1"
+  ],
+  "Files": [
+    "8ef9ec989bd036fd86a6f0230ad8eccb 2141 libuv1_1.51.0-2.dsc 6ff88ea2b89c0772cc2a1a8066455e05 1352309 libuv1_1.51.0.orig.tar.gz edb81463a9c6feac7cf0d427b2fe06d6 22740 libuv1_1.51.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/libuv/libuv"
+  ],
+  "Maintainer": [
+    "Dominique Dumont \u003cdod@debian.org\u003e"
+  ],
+  "Package": [
+    "libuv1"
+  ],
+  "Package-List": [
+    "libuv1-dev deb libdevel optional arch=linux-any,hurd-any libuv1-doc deb doc optional arch=all libuv1t64 deb libs optional arch=linux-any,hurd-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Uploaders": [
+    "Jérémy Lal \u003ckapouer@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libuv1"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libuv1.git"
+  ],
+  "Version": [
+    "1.51.0-2"
+  ]
+}

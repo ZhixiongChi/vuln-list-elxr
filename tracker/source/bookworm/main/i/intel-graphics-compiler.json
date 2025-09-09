@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any-amd64 any-i386"
+  ],
+  "Binary": [
+    "libigc1, libigc-dev, libigc-tools, libigdfcl1, libigdfcl-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), bison, cmake, flex, python3, spirv-headers, spirv-tools, zlib1g-dev, clang-14, intel-vc-intrinsics-14-dev (\u003e= 0.11.0), liblld-14-dev, libllvmspirvlib-14-dev, libopencl-clang-14-dev, llvm-14-dev"
+  ],
+  "Checksums-Sha256": [
+    "a6c6c16da5ad6ceb6632b092764c909726fcab754f8444e210a4ec11ca079dd1 2704 intel-graphics-compiler_1.0.12504.6-1+deb12u1.dsc 82e018408ca7b4432e1ec0ae7c5244ef6f5d2efb84ccbb26d2cbcc44be0e79ff 8941916 intel-graphics-compiler_1.0.12504.6.orig.tar.gz e8ae070ff55deedbb10981763e3846bb78ca6e40fb23900777272205f5e3243b 48596 intel-graphics-compiler_1.0.12504.6-1+deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/intel-graphics-compiler"
+  ],
+  "Files": [
+    "c486d9a65ebafd561b645f7dde2cdbff 2704 intel-graphics-compiler_1.0.12504.6-1+deb12u1.dsc 2b123715e9807676a9a9e2500e4789dd 8941916 intel-graphics-compiler_1.0.12504.6.orig.tar.gz 883c64315edd81b55de0b77e47d5fe28 48596 intel-graphics-compiler_1.0.12504.6-1+deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/intel/intel-graphics-compiler"
+  ],
+  "Maintainer": [
+    "Debian OpenCL team \u003cpkg-opencl-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "intel-graphics-compiler"
+  ],
+  "Package-List": [
+    "libigc-dev deb libdevel optional arch=any-amd64,any-i386 libigc-tools deb video optional arch=any-amd64,any-i386 libigc1 deb libs optional arch=any-amd64,any-i386 libigdfcl-dev deb libdevel optional arch=any-amd64,any-i386 libigdfcl1 deb libs optional arch=any-amd64,any-i386"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Timo Aaltonen \u003ctjaalton@debian.org\u003e, Andreas Beckmann \u003canbe@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/opencl-team/intel-graphics-compiler"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/opencl-team/intel-graphics-compiler.git"
+  ],
+  "Version": [
+    "1.0.12504.6-1+deb12u1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-roaring-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.65.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bytemuck-1+default-dev (\u003e= 1.21.0-~~) \u003c!nocheck\u003e, librust-byteorder-1+default-dev (\u003e= 1.5.0-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c2914029c924e5956deff152d5597b82297eeaf65a89b54c8cdd2f87486814a2 2445 rust-roaring_0.10.12-1.dsc 19e8d2cfa184d94d0726d650a9f4a1be7f9b76ac9fdb954219878dc00c1c1e7b 105938 rust-roaring_0.10.12.orig.tar.gz 294e1b68dc081de8826f2daf9acf4522e9705c5d61c907107e7dc2cabca58b06 2920 rust-roaring_0.10.12-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-roaring"
+  ],
+  "Files": [
+    "b607804c6d572f493dea4cdc36c4ea28 2445 rust-roaring_0.10.12-1.dsc 4ba5b15d1ade494b0ddce6852a016ac4 105938 rust-roaring_0.10.12.orig.tar.gz fedc19a17161a22ee9954e556cc7435a 2920 rust-roaring_0.10.12-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/RoaringBitmap/roaring-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-roaring"
+  ],
+  "Package-List": [
+    "librust-roaring-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-postcard-1+alloc-dev, librust-postcard-1+default-dev, librust-proptest-1+default-dev, librust-serde-json-1+default-dev, rustc"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/roaring"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/roaring]"
+  ],
+  "Version": [
+    "0.10.12-1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libapache2-mod-shib, libshibsp12, libshibsp-plugins, libshibsp-dev, libshibsp-doc, shibboleth-sp-common, shibboleth-sp-utils"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.22.5), apache2-dev, cxxtest, debhelper-compat (= 13), dh-apache2, libboost-dev, libfcgi-dev, libkrb5-dev, liblog4shib-dev, libmemcached-dev, libsaml-dev (\u003e= 3.3~), libsystemd-dev [linux-any], libxerces-c-dev, libxml-security-c-dev, libxmltooling-dev (\u003e= 3.3~), opensaml-schemas (\u003e= 3.3~), pkgconf, unixodbc-dev, xmltooling-schemas"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, graphviz"
+  ],
+  "Checksums-Sha256": [
+    "faceb61801a5829f948f6036a8064c67d9a3f6ae214e05611c14bd2ae0da261d 2830 shibboleth-sp_3.5.1+dfsg-1.dsc 8d99e2632c3e940c8b9987b2b37e18d3146ce7833ee9fe8500ad77c0aa91705a 655940 shibboleth-sp_3.5.1+dfsg.orig.tar.xz 8a6f74b08969a5f1e7b50502de43bcc668241e8971235ecb25639754b523ab9e 41460 shibboleth-sp_3.5.1+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/shibboleth-sp"
+  ],
+  "Files": [
+    "d345282942ad5b64242c56124a447422 2830 shibboleth-sp_3.5.1+dfsg-1.dsc cfefca5abe3b4f604d5ad9e37bcc0634 655940 shibboleth-sp_3.5.1+dfsg.orig.tar.xz 0ead5c93c95af26fabd8bfa44b49b373 41460 shibboleth-sp_3.5.1+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://shibboleth.net/"
+  ],
+  "Maintainer": [
+    "Debian Shib Team \u003cpkg-shibboleth-devel@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "shibboleth-sp"
+  ],
+  "Package-List": [
+    "libapache2-mod-shib deb httpd optional arch=any libshibsp-dev deb libdevel optional arch=any libshibsp-doc deb doc optional arch=all libshibsp-plugins deb libs optional arch=any libshibsp12 deb libs optional arch=any shibboleth-sp-common deb libs optional arch=all shibboleth-sp-utils deb web optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "automake, cxxtest, g++, libtool, make, pkgconf"
+  ],
+  "Uploaders": [
+    "Ferenc Wágner \u003cwferi@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/shib-team/shibboleth-sp2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/shib-team/shibboleth-sp2.git"
+  ],
+  "Version": [
+    "3.5.1+dfsg-1"
+  ]
+}

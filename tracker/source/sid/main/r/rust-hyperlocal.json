@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-hyperlocal-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-hex-0.4+default-dev \u003c!nocheck\u003e, librust-http-body-util-0.1+default-dev \u003c!nocheck\u003e, librust-hyper-1+client-dev (\u003e= 1.3-~~) \u003c!nocheck\u003e, librust-hyper-1+default-dev (\u003e= 1.3-~~) \u003c!nocheck\u003e, librust-hyper-1+http1-dev (\u003e= 1.3-~~) \u003c!nocheck\u003e, librust-hyper-1+server-dev (\u003e= 1.3-~~) \u003c!nocheck\u003e, librust-hyper-util-0.1+client-legacy-dev (\u003e= 0.1.2-~~) \u003c!nocheck\u003e, librust-hyper-util-0.1+http1-dev (\u003e= 0.1.2-~~) \u003c!nocheck\u003e, librust-hyper-util-0.1+tokio-dev (\u003e= 0.1.2-~~) \u003c!nocheck\u003e, librust-pin-project-lite-0.2+default-dev \u003c!nocheck\u003e, librust-tokio-1+net-dev (\u003e= 1.35-~~) \u003c!nocheck\u003e, librust-tower-service-0.3+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "b2563888372befdb618f9ec83072f0300105fdd923c4d738920084e7fbd22310 3064 rust-hyperlocal_0.9.1-1.dsc 986c5ce3b994526b3cd75578e62554abd09f0899d6206de48b3e96ab34ccc8c7 13733 rust-hyperlocal_0.9.1.orig.tar.gz eb751689a7cc1b049b4f9f59f681429c719678c6e05708684ab66a8db6c35849 3564 rust-hyperlocal_0.9.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-hyperlocal"
+  ],
+  "Files": [
+    "187d41f34ac6b454a4dc7cd533fbe42f 3064 rust-hyperlocal_0.9.1-1.dsc d12c48c8625c55eacb75164ee140bc87 13733 rust-hyperlocal_0.9.1.orig.tar.gz 9db803c9a026a697033963935c2b6d68 3564 rust-hyperlocal_0.9.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/softprops/hyperlocal"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-hyperlocal"
+  ],
+  "Package-List": [
+    "librust-hyperlocal-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-thiserror-1+default-dev, librust-tokio-1+default-dev, librust-tokio-1+io-std-dev, librust-tokio-1+io-util-dev, librust-tokio-1+macros-dev, librust-tokio-1+rt-multi-thread-dev, rustc"
+  ],
+  "Uploaders": [
+    "NoisyCoil \u003cnoisycoil@tutanota.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/hyperlocal"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/hyperlocal]"
+  ],
+  "Version": [
+    "0.9.1-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-yalexs-ble"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, pybuild-plugin-pyproject, python3-all, python3-poetry-core"
+  ],
+  "Build-Depends-Indep": [
+    "python3-async-interrupt \u003c!nocheck\u003e, python3-bleak \u003c!nocheck\u003e, python3-bleak-retry-connector \u003c!nocheck\u003e, python3-cryptography \u003c!nocheck\u003e, python3-lru-dict \u003c!nocheck\u003e, python3-myst-parser \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "b0fd8c6d292224f1c52711cf42f23d641c9543e3b12789b33e4c6b1a8322aac5 2483 yalexs-ble_3.2.0-1.dsc f4d8c855ecd942134f6e63db6448aa90a1701a321bdb025e4ee9dfe9cd87226e 86400 yalexs-ble_3.2.0.orig.tar.gz 4161bb93ff143fcff0538ca448c94b3b26561402073fd32d364ad0d600861d3d 3984 yalexs-ble_3.2.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/y/yalexs-ble"
+  ],
+  "Files": [
+    "4856752e0664599292ca7c1a19a96fcd 2483 yalexs-ble_3.2.0-1.dsc de37569f6d5b664bd65b9e76af8d7c0f 86400 yalexs-ble_3.2.0.orig.tar.gz 10d34594a8f70163a40fc3f0b0bc037a 3984 yalexs-ble_3.2.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/bdraco/yalexs-ble"
+  ],
+  "Maintainer": [
+    "Home Assistant Team \u003cteam+homeassistant@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "yalexs-ble"
+  ],
+  "Package-List": [
+    "python3-yalexs-ble deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Edward Betts \u003cedward@4angle.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/homeassistant-team/deps/yalexs-ble"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/homeassistant-team/deps/yalexs-ble.git"
+  ],
+  "Version": [
+    "3.2.0-1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "amd64 i386 all"
+  ],
+  "Binary": [
+    "steam-installer, steam, steam-libs, steam-libs-i386, steam-devices"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkgconf, po-debconf, python3:any, systemd-dev, zlib1g"
+  ],
+  "Checksums-Sha256": [
+    "ca5422d0e81da588405b230c0a1ddb47b47671410082b146ba8ccd3a00388844 2663 steam-installer_1.0.0.84~ds-2.dsc 144ff834bfa6a593bec39abfda623559536dd15df8c0734f1dc6fada467cf626 12884 steam-installer_1.0.0.84~ds.orig.tar.xz ec5737ac82bc0ce8bbaeeeecb5122a3adb4b68077d6425db9c94e57ed653ec73 97176 steam-installer_1.0.0.84~ds-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "7cd6dd706bbab52178568dd394f4ee4338fce676 debian archive/debian/1%1.0.0.84_ds-2 https://git.dgit.debian.org/steam-installer"
+  ],
+  "Directory": [
+    "pool/main/s/steam-installer"
+  ],
+  "Files": [
+    "0df0da8b79ffeeaa0aa53372d28b1afb 2663 steam-installer_1.0.0.84~ds-2.dsc 107423565c81f98800ace2006bd5e5fb 12884 steam-installer_1.0.0.84~ds.orig.tar.xz 33787296a68251e80e18681fc510634f 97176 steam-installer_1.0.0.84~ds-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=a8ee67d0b34150aa4803144c6ebaab19f358b46f fp=7a073ad1ae694fa25bff62e5235c099d3eb33076"
+  ],
+  "Git-Tag-Tagger": [
+    "Simon McVittie \u003csmcv@debian.org\u003e"
+  ],
+  "Homepage": [
+    "https://steamcommunity.com/linux"
+  ],
+  "Maintainer": [
+    "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "steam-installer"
+  ],
+  "Package-List": [
+    "steam deb contrib/oldlibs optional arch=i386 steam-devices deb games optional arch=all steam-installer deb contrib/games optional arch=amd64 steam-libs deb metapackages optional arch=amd64,i386 steam-libs-i386 deb metapackages optional arch=i386"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Michael Gilbert \u003cmgilbert@debian.org\u003e, Simon McVittie \u003csmcv@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/games-team/steam-installer"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/games-team/steam-installer.git"
+  ],
+  "Version": [
+    "1:1.0.0.84~ds-2"
+  ]
+}

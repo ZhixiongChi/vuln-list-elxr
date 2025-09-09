@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libgsl28, libgslcblas0, libgsl-dev, gsl-bin, libgsl-dbg, libgsl-prof"
+  ],
+  "Build-Depends": [
+    "gawk | awk, debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "82e8c79fb5fc4b68c165b98dfd15524a132ed69853f15fa0b512e4d12ee169ba 2126 gsl_2.8+dfsg-5.1.dsc 69614b7005133a2d3a75827044164de98670568382e3192888a3185578451a70 8401032 gsl_2.8+dfsg.orig.tar.gz 7f5390d2cbf4956464d898c7d09a24fcc8d597bd6b1a192fcfecfb500847bd1c 22340 gsl_2.8+dfsg-5.1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gsl"
+  ],
+  "Files": [
+    "1692aea783cd06507246ee9538eedde8 2126 gsl_2.8+dfsg-5.1.dsc d1d00f09743dc539e5e5501238e6f76a 8401032 gsl_2.8+dfsg.orig.tar.gz 4ca651bab76a8da63c657a72654967cc 22340 gsl_2.8+dfsg-5.1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnu.org/software/gsl"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "gsl"
+  ],
+  "Package-List": [
+    "gsl-bin deb math optional arch=any libgsl-dbg deb debug optional arch=any libgsl-dev deb libdevel optional arch=any libgsl-prof deb libdevel optional arch=any profile=pkg.gsl.prof libgsl28 deb libs optional arch=any libgslcblas0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "math"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/gsl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/gsl.git"
+  ],
+  "Version": [
+    "2.8+dfsg-5.1"
+  ]
+}

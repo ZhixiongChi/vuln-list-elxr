@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-cryptography, python-cryptography-doc"
+  ],
+  "Build-Depends": [
+    "cargo, debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, dpkg-dev (\u003e= 1.17.14), librust-asn1-0.12-dev, librust-asn1-derive-0.12-dev, librust-chrono-0.4-dev, librust-indoc-dev, librust-ouroboros-0.15-dev, librust-paste-dev, librust-pem-1.0-dev, librust-pyo3-0.17-dev, librust-pyo3-macros-0.17-dev, libssl-dev, pybuild-plugin-pyproject, python3-all-dev, python3-cffi, python3-cryptography-vectors (\u003c\u003c 38.0.5~) \u003c!nocheck\u003e, python3-cryptography-vectors (\u003e= 38.0.4~) \u003c!nocheck\u003e, python3-doc \u003c!nodoc\u003e, python3-hypothesis \u003c!nocheck\u003e, python3-iso8601 \u003c!nocheck\u003e, python3-pretend \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-benchmark \u003c!nocheck\u003e, python3-pytest-subtests \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-rust, python3-six, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-tz \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "08127808ed330565eb3f1ab696fbd6e89f408161d9745d2bad365f78acd7dd16 3570 python-cryptography_38.0.4-3+deb12u1.dsc 175c1a818b87c9ac80bb7377f5520b7f31b3ef2a0004e2420319beadedb67290 599786 python-cryptography_38.0.4.orig.tar.gz 09ddc5bab3140faba2fe03980b6d167d2ff1980ed55d0fa8399caa7a42d765ff 488 python-cryptography_38.0.4.orig.tar.gz.asc e5a11f3dd11175f14250ff5a46ee244e8f879c307d04dc82d902873097e6454e 23644 python-cryptography_38.0.4-3+deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-cryptography"
+  ],
+  "Files": [
+    "b00596b010c344c84f4c8f2d682803e3 3570 python-cryptography_38.0.4-3+deb12u1.dsc 2b8b23b955b43994f222f78faf17713b 599786 python-cryptography_38.0.4.orig.tar.gz 7b235f46357e0f9192f0a13028978ba5 488 python-cryptography_38.0.4.orig.tar.gz.asc b87628ef4e94c822995d96254430437f 23644 python-cryptography_38.0.4-3+deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cryptography.io/"
+  ],
+  "Maintainer": [
+    "Tristan Seligmann \u003cmithrandi@debian.org\u003e"
+  ],
+  "Package": [
+    "python-cryptography"
+  ],
+  "Package-List": [
+    "python-cryptography-doc deb doc optional arch=all profile=!nodoc python3-cryptography deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-cffi, python3-cryptography-vectors, python3-hypothesis, python3-iso8601, python3-pretend, python3-pyasn1-modules, python3-pytest, python3-pytest-benchmark, python3-pytest-subtests, python3-tz"
+  ],
+  "Uploaders": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e, Sandro Tosi \u003cmorph@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-cryptography"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-cryptography.git"
+  ],
+  "Version": [
+    "38.0.4-3+deb12u1"
+  ]
+}

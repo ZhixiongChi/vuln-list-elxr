@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-framehop-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-arrayvec-0.7+std-dev (\u003e= 0.7.4-~~) \u003c!nocheck\u003e, librust-arrayvec-0.7-dev (\u003e= 0.7.4-~~) \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e, librust-fallible-iterator-0.3+default-dev \u003c!nocheck\u003e, librust-gimli-0.31+read-dev \u003c!nocheck\u003e, librust-gimli-0.31+std-dev \u003c!nocheck\u003e, librust-macho-unwind-info-0.5+default-dev \u003c!nocheck\u003e, librust-pe-unwind-info-0.5+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "8203dd8dd2b2768f11afc2cdba2ab380c60a3258d5d82b0f9707529ce7b088ed 2084 rust-framehop_0.13.0-3.dsc 33e8ad8f843eb89b4ec8270be4d5840dc6b81ca1a1c1e036b17e94076f36eed4 58269 rust-framehop_0.13.0.orig.tar.gz efb1c4a7d731cf563a69de96a15c4f4c624b3efe035a87c4cad4b1a991617d3a 3480 rust-framehop_0.13.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-framehop"
+  ],
+  "Files": [
+    "d3564ef4bfe0a0625ab8612cc52aa649 2084 rust-framehop_0.13.0-3.dsc 739ba0826524815eb8e567a635ef2d24 58269 rust-framehop_0.13.0.orig.tar.gz 2af7550fe62071735eccc7a100d1e0b4 3480 rust-framehop_0.13.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/mstange/framehop/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-framehop"
+  ],
+  "Package-List": [
+    "librust-framehop-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-flate2-1+default-dev, librust-itertools-0.13+default-dev, librust-object-0.36+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/framehop"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/framehop]"
+  ],
+  "Version": [
+    "0.13.0-3"
+  ]
+}

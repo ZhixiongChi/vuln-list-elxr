@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "normaliz, libnormaliz3, libnormaliz-dev, libnormaliz-dev-common, normaliz-bin, normaliz-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), autoconf-archive, help2man, libgmp-dev, libmpfr-dev, libflint-dev (\u003e\u003e 3.1.2-1~), libeantic-dev (\u003e= 2.0.2+ds-2~exp2), libnauty-dev"
+  ],
+  "Build-Depends-Indep": [
+    "texlive-latex-base, texlive-latex-recommended, texlive-latex-extra, texlive-pictures, texlive-fonts-recommended, texlive-fonts-extra"
+  ],
+  "Checksums-Sha256": [
+    "ac8d9418a6767d2d248679dcfd41105507bf83ad13063ba853de38bae03b611d 2612 normaliz_3.10.5+ds-3.dsc 09e8a55765b4f9ff038d6c6f0202ea8d17910d3072676fe4360e20cc456e2982 1895772 normaliz_3.10.5+ds.orig.tar.xz 9684a9b0914da710c0c181e36a17bceb28a0e7a869ee260556d4216862281bed 9892 normaliz_3.10.5+ds-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/normaliz"
+  ],
+  "Files": [
+    "4d10dd0da427fc68b2bf1b5cc672fe83 2612 normaliz_3.10.5+ds-3.dsc a7635b4095873a4893444ab8df87736a 1895772 normaliz_3.10.5+ds.orig.tar.xz bad455a1d8fb6fe00c292b44c2b0203b 9892 normaliz_3.10.5+ds-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.normaliz.uni-osnabrueck.de/"
+  ],
+  "Maintainer": [
+    "Debian Math Team \u003cteam+math@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "normaliz"
+  ],
+  "Package-List": [
+    "libnormaliz-dev deb libdevel optional arch=any libnormaliz-dev-common deb libdevel optional arch=all libnormaliz3 deb libs optional arch=any normaliz deb math optional arch=all normaliz-bin deb math optional arch=any normaliz-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Jerome Benoit \u003ccalculus@rezozer.net\u003e, Doug Torrance \u003cdtorrance@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/math-team/normaliz"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/math-team/normaliz.git"
+  ],
+  "Version": [
+    "3.10.5+ds-3"
+  ]
+}

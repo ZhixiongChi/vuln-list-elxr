@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "transmission, transmission-common, transmission-cli, transmission-gtk, transmission-qt, transmission-daemon, libtransmission-dev"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), libayatana-appindicator3-dev, libcurl4-openssl-dev | libcurl4-dev | libcurl-dev, libevent-dev, libgtkmm-4.0-dev (\u003e= 4.11), libglibmm-2.68-dev, libwolfssl-dev, libminiupnpc-dev, libnatpmp-dev, libnotify-dev, libssl-dev, libfast-float-dev, libfmt-dev, googletest, libb64-dev, libdeflate-dev, libpsl-dev, libutfcpp-dev, libsystemd-dev [linux-any], qt6-base-dev, qt6-tools-dev, qt6-tools-dev-tools, rapidjson-dev, libqt6svg6-dev, zlib1g-dev, esbuild, node-lodash-packages, rsass"
+  ],
+  "Checksums-Sha256": [
+    "1b9c017f2ee829fe74e0cb5f709b4a9c53cf264ed0bfeeb1efe87baf37e816f4 3197 transmission_4.1.0~beta2+dfsg-5.dsc ec27016bbcd789047cdfa4cfc557ea4d365151016f0d3ebedb781bb3bad48a9b 6275892 transmission_4.1.0~beta2+dfsg.orig.tar.xz a281cda15992d1608a694debdc1193bca4076b9f24d2457f7c514ee74a0759c7 24108 transmission_4.1.0~beta2+dfsg-5.debian.tar.xz"
+  ],
+  "Dgit": [
+    "a97aa90bcf9690ad5de0dad92207d1bac59e96c9 debian archive/debian/4.1.0_beta2+dfsg-5 https://git.dgit.debian.org/transmission"
+  ],
+  "Directory": [
+    "pool/main/t/transmission"
+  ],
+  "Files": [
+    "e2d7b9436fffdcfd84463a5bd295fc7c 3197 transmission_4.1.0~beta2+dfsg-5.dsc b14b095de38932bdb04e0010b261b739 6275892 transmission_4.1.0~beta2+dfsg.orig.tar.xz 2ec7fc1c3e4adfbb7a15f255b1b5d8cb 24108 transmission_4.1.0~beta2+dfsg-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=191cb99d8284bc512f9bf9037c07d2cdc198023b fp=fa765acfe244ec39f601e7c299eb1ea4d2337b88"
+  ],
+  "Git-Tag-Tagger": [
+    "Barak A. Pearlmutter \u003cbarak+git@pearlmutter.net\u003e"
+  ],
+  "Homepage": [
+    "https://transmissionbt.com/"
+  ],
+  "Maintainer": [
+    "Leo Antunes \u003ccostela@debian.org\u003e"
+  ],
+  "Package": [
+    "transmission"
+  ],
+  "Package-List": [
+    "libtransmission-dev deb libdevel optional arch=any transmission deb net optional arch=any transmission-cli deb net optional arch=any transmission-common deb net optional arch=any transmission-daemon deb net optional arch=any transmission-gtk deb net optional arch=any transmission-qt deb net optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Alexandre Rossi \u003cniol@zincube.net\u003e, Barak A. Pearlmutter \u003cbap@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/transmission"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/transmission.git"
+  ],
+  "Version": [
+    "4.1.0~beta2+dfsg-5"
+  ]
+}

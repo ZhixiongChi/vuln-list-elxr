@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "wireguard, wireguard-tools"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkgconf, systemd-dev"
+  ],
+  "Checksums-Sha256": [
+    "36227f9f8c121fba07657fbd4e9cf2dae6216bade9e40a823b9cacd2e4bd07eb 2091 wireguard_1.0.20250521-1.dsc 6636f89c8d047a86982e6a1b7962b2612681f88d01d6ab79a54d4b083d9dc6c5 100384 wireguard_1.0.20250521.orig.tar.xz 6d46bf11efb031f188f2f67a9264f45d1ce08e4ab8c90f7eac6d2cd72f6e5dcc 12932 wireguard_1.0.20250521-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/w/wireguard"
+  ],
+  "Files": [
+    "b7616dc529bcfd800acb185193c9f02f 2091 wireguard_1.0.20250521-1.dsc b51f12e8f634941af9210c452b963a1e 100384 wireguard_1.0.20250521.orig.tar.xz 188bfac6fd7bd2b03ee57c94206f84fd 12932 wireguard_1.0.20250521-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.wireguard.com"
+  ],
+  "Maintainer": [
+    "Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e"
+  ],
+  "Package": [
+    "wireguard"
+  ],
+  "Package-List": [
+    "wireguard deb net optional arch=all wireguard-tools deb net optional arch=linux-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "iproute2, iputils-ping"
+  ],
+  "Uploaders": [
+    "Unit 193 \u003cunit193@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/wireguard"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/wireguard.git"
+  ],
+  "Version": [
+    "1.0.20250521-1"
+  ]
+}

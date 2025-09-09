@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "librust-pikchr-dev, pikchr-cli"
+  ],
+  "Build-Depends": [
+    "cmark-gfm \u003c!nodoc\u003e, debhelper-compat (= 13), dh-sequence-rust, help2man \u003c!nodoc\u003e, librust-cc-1+default-dev, librust-clap-4+default-dev, librust-clap-4+derive-dev, librust-libc-0.2+default-dev, libstd-rust-dev, libstring-shellquote-perl \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c184a4c4dae6cf05e27ad9125b69401ed4a486dc2ef060ff87405abee0133ef8 2435 rust-pikchr_0.1.4-3.dsc 1c6e2f2909e001de91ff5fc06a09ed97b5e61a91c557711f79fc5f5f95d5a678 79208 rust-pikchr_0.1.4.orig.tar.gz 89fd161b016927c9180c299d11d2f83247dae3cd5ede8fb402e908a83a9596f7 5236 rust-pikchr_0.1.4-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-pikchr"
+  ],
+  "Files": [
+    "63b98665fe141e16b0de70d04e997dd8 2435 rust-pikchr_0.1.4-3.dsc b327598bc1f3ba0bbd0638e678e88e54 79208 rust-pikchr_0.1.4.orig.tar.gz 3070372239f625d1f7a014ab305f9340 5236 rust-pikchr_0.1.4-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/kinnison/pikchr"
+  ],
+  "Maintainer": [
+    "Jonas Smedegaard \u003cdr@jones.dk\u003e"
+  ],
+  "Package": [
+    "rust-pikchr"
+  ],
+  "Package-List": [
+    "librust-pikchr-dev deb rust optional arch=all pikchr-cli deb graphics optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-rust, librust-cc-1+default-dev, librust-clap-4+default-dev, librust-clap-4+derive-dev, librust-pikchr-0.1+default-dev, librust-pikchr-0.1-dev"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/sass-team/rust-pikchr"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/sass-team/rust-pikchr.git"
+  ],
+  "Version": [
+    "0.1.4-3"
+  ]
+}

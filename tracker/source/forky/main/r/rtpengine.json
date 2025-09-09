@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "rtpengine-daemon, rtpengine-recording-daemon, rtpengine, rtpengine-kernel-dkms, rtpengine-utils, rtpengine-perftest, rtpengine-perftest-data"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), default-libmysqlclient-dev, dh-sequence-dkms, discount, gperf, libavcodec-dev (\u003e= 6:10), libavfilter-dev (\u003e= 6:10), libavformat-dev (\u003e= 6:10), libavutil-dev (\u003e= 6:10), libbcg729-dev \u003c!pkg.rtpengine.nobcg729\u003e, libbencode-perl, libcrypt-openssl-rsa-perl, libcrypt-rijndael-perl, libcurl4-openssl-dev | libcurl4-gnutls-dev, libdigest-crc-perl, libdigest-hmac-perl, libevent-dev (\u003e= 2.0), libglib2.0-dev (\u003e= 2.44), libhiredis-dev, libio-multiplex-perl, libio-socket-inet6-perl, libio-socket-ip-perl, libiptc-dev, libjson-glib-dev, libjson-perl, libmnl-dev, libmosquitto-dev, libncurses-dev, libnet-interface-perl, libnftnl-dev, libopus-dev, libpcap0.8-dev, libpcre2-dev, libsocket6-perl, libspandsp-dev, libssl-dev (\u003e= 1.0.1), libswresample-dev (\u003e= 6:10), libsystemd-dev, libtest2-suite-perl, liburing-dev (\u003e= 2.3) \u003c!pkg.rtpengine.nouring\u003e, libwebsockets-dev, libxmlrpc-core-c3-dev (\u003e= 1.16.07), libxtables-dev (\u003e= 1.4) | iptables-dev (\u003e= 1.4), pandoc, pkgconf, python3, python3-websockets, systemd-dev | systemd, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "ceebb75aac8730f84eb6477b68a9bd00dbefd22ede04b912bca41875fdf1e25a 3039 rtpengine_12.5.1.38-1.dsc e498afa69fa6ec4c0ff7724344a1df19bb764b539970638cfa1594faaebde488 6745465 rtpengine_12.5.1.38.orig.tar.gz ecb4cd27b751ba3c369aaff4ad6972d1c43523ef2d29875409246d3ee41087cf 14732 rtpengine_12.5.1.38-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rtpengine"
+  ],
+  "Files": [
+    "d2d8f53387faaa5e00b679f092987432 3039 rtpengine_12.5.1.38-1.dsc f48087ca2fc07102aecd89579f6f1625 6745465 rtpengine_12.5.1.38.orig.tar.gz d0253bd0878a3a0a941c494fb7d44daa 14732 rtpengine_12.5.1.38-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sipwise/rtpengine/"
+  ],
+  "Maintainer": [
+    "Debian VoIP Team \u003cpkg-voip-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "rtpengine"
+  ],
+  "Package-List": [
+    "rtpengine deb net optional arch=all rtpengine-daemon deb net optional arch=any rtpengine-kernel-dkms deb kernel optional arch=all rtpengine-perftest deb net optional arch=any profile=!pkg.rtpengine.no-transcoding rtpengine-perftest-data deb net optional arch=all profile=!pkg.rtpengine.no-transcoding rtpengine-recording-daemon deb net optional arch=any profile=!pkg.rtpengine.no-transcoding rtpengine-utils deb net optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-dkms"
+  ],
+  "Uploaders": [
+    "Victor Seva \u003cvseva@debian.org\u003e, Guillem Jover \u003cgjover@sipwise.com\u003e, Michael Prokop \u003cmika@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-voip-team/rtpengine/"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-voip-team/rtpengine.git"
+  ],
+  "Version": [
+    "12.5.1.38-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libunbound-dev, libunbound8, python3-unbound, unbound, unbound-anchor, unbound-host"
+  ],
+  "Build-Depends": [
+    "autoconf, bison, debhelper (\u003e= 10~), dh-apparmor \u003c!pkg.unbound.libonly\u003e, dh-python \u003c!pkg.unbound.libonly\u003e, dpkg-dev (\u003e= 1.16.1~), flex, libbsd-dev (\u003e= 0.8.1~) [!linux-any], libevent-dev, libexpat1-dev, libprotobuf-c-dev \u003c!pkg.unbound.libonly\u003e, libssl-dev \u003c!pkg.unbound.libonly\u003e, libsystemd-dev \u003c!pkg.unbound.libonly\u003e, libtool, nettle-dev, pkg-config, protobuf-c-compiler \u003c!pkg.unbound.libonly\u003e, python3-dev:any \u003c!pkg.unbound.libonly\u003e, libpython3-dev \u003c!pkg.unbound.libonly\u003e, swig \u003c!pkg.unbound.libonly\u003e"
+  ],
+  "Checksums-Sha256": [
+    "4594320d0d1c8997ce17530763637ae96dcf72ce5d9412a01a9fd71806ac6afe 3198 unbound_1.13.1-1+deb11u2.dsc 8504d97b8fc5bd897345c95d116e0ee0ddf8c8ff99590ab2b4bd13278c9f50b8 5976957 unbound_1.13.1.orig.tar.gz 1ca1fb3db4baa3e831bc42fcecf3eaceb316abf7a2d816dc46d0efcd199f419e 833 unbound_1.13.1.orig.tar.gz.asc 2c0289540d8530d2a7cf377d4fe2ba87f4998a37e452d5b8b4f8d353b89dd2e7 44472 unbound_1.13.1-1+deb11u2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/u/unbound"
+  ],
+  "Files": [
+    "2d1aa1cfbd128149d6432ae421327e31 3198 unbound_1.13.1-1+deb11u2.dsc 0cd660a40d733acc6e7cce43731cac62 5976957 unbound_1.13.1.orig.tar.gz 4c3726440d8271df13ba2189846141e6 833 unbound_1.13.1.orig.tar.gz.asc 93f94d93ed156ca1ede8b9b2aae75d53 44472 unbound_1.13.1-1+deb11u2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.unbound.net/"
+  ],
+  "Maintainer": [
+    "unbound packagers \u003cunbound@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "unbound"
+  ],
+  "Package-List": [
+    "libunbound-dev deb libdevel optional arch=any libunbound8 deb libs optional arch=any python3-unbound deb python optional arch=any profile=!pkg.unbound.libonly unbound deb net optional arch=any profile=!pkg.unbound.libonly unbound-anchor deb net optional arch=any profile=!pkg.unbound.libonly unbound-host deb net optional arch=any profile=!pkg.unbound.libonly"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Uploaders": [
+    "Robert Edmonds \u003cedmonds@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/dns-team/unbound"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/dns-team/unbound.git"
+  ],
+  "Version": [
+    "1.13.1-1+deb11u2"
+  ]
+}

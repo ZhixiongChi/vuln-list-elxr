@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "distro-info, libdistro-info-perl, python3-distro-info"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, distro-info-data (\u003e= 0.51+deb11u5~), pylint (\u003e= 2.2.2-2~), python3-all, python3-flake8, python3-setuptools, shunit2 (\u003e= 2.1.6)"
+  ],
+  "Checksums-Sha256": [
+    "dc3fd9ab6e69c1fc00d39816dd71b3636c9da162d952a638025dda0f98d42a20 1408 distro-info_1.0+deb11u1.dsc 71a1b7fcbf904809f4cbe925635dfa70c4bf8fc94699d76330671158c9e8ae1b 31536 distro-info_1.0+deb11u1.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/distro-info"
+  ],
+  "Files": [
+    "1f575430984f34394219e480502afaab 1408 distro-info_1.0+deb11u1.dsc 57434fa3299ebb6d16ee2ce0a27b9280 31536 distro-info_1.0+deb11u1.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Benjamin Drung \u003cbdrung@debian.org\u003e"
+  ],
+  "Package": [
+    "distro-info"
+  ],
+  "Package-List": [
+    "distro-info deb devel optional arch=any libdistro-info-perl deb perl optional arch=all python3-distro-info deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "pylint, pylint3, python3-all, python3-flake8, shunit2"
+  ],
+  "Uploaders": [
+    "Stefano Rivera \u003cstefanor@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/distro-info"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/distro-info.git"
+  ],
+  "Version": [
+    "1.0+deb11u1"
+  ]
+}

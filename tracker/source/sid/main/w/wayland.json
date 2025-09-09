@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libwayland-client0, libwayland-egl1, libwayland-server0, libwayland-cursor0, libwayland-dev, libwayland-egl-backend-dev, libwayland-doc, libwayland-bin"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), quilt, pkgconf, libexpat1-dev, libffi-dev, libxml2-dev, libwayland-bin \u003ccross\u003e, meson"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, graphviz, xmlto, xsltproc, docbook-xsl"
+  ],
+  "Checksums-Sha256": [
+    "b8423e8a1c51b18eadab45961bd625cadecf240dc02150c91f6f5e3218867f24 2650 wayland_1.24.0-2.dsc c6d416e207d4d80d2577c316ce1554062b37f6e8776f81f25fb4f5a3515590f7 376855 wayland_1.24.0.orig.tar.gz 0947ab20c285766c217d7ede8de0242796250eb98b690b22cae8e7103295fd81 16592 wayland_1.24.0-2.diff.gz"
+  ],
+  "Directory": [
+    "pool/main/w/wayland"
+  ],
+  "Files": [
+    "4a1d4117500753d87e939b04c2173113 2650 wayland_1.24.0-2.dsc 8544e1d5040c0f3939864b566d0adcae 376855 wayland_1.24.0.orig.tar.gz 560e687af4fbdfefa2c9e945446de3f9 16592 wayland_1.24.0-2.diff.gz"
+  ],
+  "Format": [
+    "1.0"
+  ],
+  "Homepage": [
+    "https://wayland.freedesktop.org/"
+  ],
+  "Maintainer": [
+    "Debian X Strike Force \u003cdebian-x@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "wayland"
+  ],
+  "Package-List": [
+    "libwayland-bin deb libdevel optional arch=any libwayland-client0 deb libs optional arch=any libwayland-cursor0 deb libs optional arch=any libwayland-dev deb libdevel optional arch=any libwayland-doc deb doc optional arch=all libwayland-egl-backend-dev deb libdevel optional arch=any libwayland-egl1 deb libs optional arch=any libwayland-server0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "x11"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Héctor Orón Martínez \u003czumbi@debian.org\u003e, Marius Gripsgard \u003cmariogrip@debian.org\u003e, Dylan Aïssi \u003cdaissi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/xorg-team/wayland/wayland"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/xorg-team/wayland/wayland.git"
+  ],
+  "Version": [
+    "1.24.0-2"
+  ]
+}

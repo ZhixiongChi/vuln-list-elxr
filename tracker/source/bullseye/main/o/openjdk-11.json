@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "alpha amd64 armel armhf arm64 i386 ia64 loong64 mips mipsel mips64 mips64el powerpc powerpcspe ppc64 ppc64el m68k riscv64 sh4 sparc sparc64 s390x x32 all"
+  ],
+  "Binary": [
+    "openjdk-11-jdk-headless, openjdk-11-jre-headless, openjdk-11-jdk, openjdk-11-jre, openjdk-11-demo, openjdk-11-source, openjdk-11-doc, openjdk-11-dbg, openjdk-11-jre-zero"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 11), m4, lsb-release, zip, unzip, sharutils, gawk, cpio, procps, wdiff, pkg-config, fastjar (\u003e= 2:0.96-0ubuntu2), time, strip-nondeterminism, debugedit (\u003e= 4.16), file, autoconf, automake, ant, ant-optional, g++-10 \u003c!cross\u003e, openjdk-11-jdk-headless:native | openjdk-10-jdk-headless:native, libxtst-dev, libxi-dev, libxt-dev, libxaw7-dev, libxrender-dev, libcups2-dev, libasound2-dev, liblcms2-dev, libxinerama-dev, libkrb5-dev, xsltproc, libpcsclite-dev, libxrandr-dev, libelf-dev, libfontconfig-dev, libfreetype-dev, libharfbuzz-dev, libffi-dev, zlib1g-dev:native, zlib1g-dev, libattr1-dev, libpng-dev, libjpeg-dev, libgif-dev, libnss3-dev (\u003e= 2:3.17.1), openjdk-11-jdk-headless \u003ccross\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "graphviz, pandoc"
+  ],
+  "Checksums-Sha256": [
+    "3a1ccea8a67ab5672ee890c5cf79ff0f0d4bfa40530a4a0c583d7c6a5cab2e5c 4330 openjdk-11_11.0.24+8-2~deb11u1.dsc 46e758d30e78c47757a4271e625cb6249d75d363a15b37387ca775c3352a327c 69220884 openjdk-11_11.0.24+8.orig.tar.xz 424d90dd73a98c6db6eb6d851f71d4b796e77eceab6b70fe9e87847b6a984f2f 174492 openjdk-11_11.0.24+8-2~deb11u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/openjdk-11"
+  ],
+  "Files": [
+    "c79cf7b53d519d82219b6a52242817de 4330 openjdk-11_11.0.24+8-2~deb11u1.dsc d97756e4e728c09a6e291ad59010df91 69220884 openjdk-11_11.0.24+8.orig.tar.xz 7c8bdc9d330d38eb804ebfb7803c8365 174492 openjdk-11_11.0.24+8-2~deb11u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://openjdk.java.net/"
+  ],
+  "Maintainer": [
+    "OpenJDK Team \u003copenjdk-11@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "openjdk-11"
+  ],
+  "Package-List": [
+    "openjdk-11-dbg deb debug optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,loong64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,riscv64,sh4,sparc,sparc64,s390x,x32 openjdk-11-demo deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,loong64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,riscv64,sh4,sparc,sparc64,s390x,x32 openjdk-11-doc deb doc optional arch=all openjdk-11-jdk deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,loong64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,riscv64,sh4,sparc,sparc64,s390x,x32 openjdk-11-jdk-headless deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,loong64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,riscv64,sh4,sparc,sparc64,s390x,x32 openjdk-11-jre deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,loong64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,riscv64,sh4,sparc,sparc64,s390x,x32 openjdk-11-jre-headless deb java optional arch=alpha,amd64,armel,armhf,arm64,i386,ia64,loong64,mips,mipsel,mips64,mips64el,powerpc,powerpcspe,ppc64,ppc64el,m68k,riscv64,sh4,sparc,sparc64,s390x,x32 openjdk-11-jre-zero deb java optional arch=amd64,i386,arm64,ppc64,ppc64el,s390x openjdk-11-source deb java optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Matthias Klose \u003cdoko@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openjdk-team/openjdk/tree/openjdk-11"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openjdk-team/openjdk.git -b openjdk-11"
+  ],
+  "Version": [
+    "11.0.24+8-2~deb11u1"
+  ]
+}

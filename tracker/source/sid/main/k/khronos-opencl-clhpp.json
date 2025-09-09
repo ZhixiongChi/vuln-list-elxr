@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "opencl-clhpp-headers, opencl-clhpp-headers-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), opencl-c-headers (\u003e= 3.0~2024.10.24), cmake, doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, cmock \u003c!nocheck\u003e, ocl-icd-opencl-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "1eda099b5a86f28f8254767327ff1076729cc5e7c8a2b755826dedb1e7bdaff6 2501 khronos-opencl-clhpp_3.0~2025.07.22-1.dsc c1031afde6e9eb042e6fcfbc17078f4b437a7e8d55482a1ca6e0fa762d262a89 133002 khronos-opencl-clhpp_3.0~2025.07.22.orig.tar.gz 867278e7bec0d3ff6b3650c34ed2f9718969021d330430043f86e805b5083d9a 4780 khronos-opencl-clhpp_3.0~2025.07.22-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/khronos-opencl-clhpp"
+  ],
+  "Files": [
+    "3871d455f0bbdf350a593094a0feb205 2501 khronos-opencl-clhpp_3.0~2025.07.22-1.dsc 67447e9e27382f2ae0849a748781ec4a 133002 khronos-opencl-clhpp_3.0~2025.07.22.orig.tar.gz 2f41ca0ce0de79cd35abc0f9dd54672b 4780 khronos-opencl-clhpp_3.0~2025.07.22-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/KhronosGroup/OpenCL-CLHPP"
+  ],
+  "Maintainer": [
+    "Debian OpenCL Maintainers \u003cpkg-opencl-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "khronos-opencl-clhpp"
+  ],
+  "Package-List": [
+    "opencl-clhpp-headers deb libdevel optional arch=all opencl-clhpp-headers-doc deb doc optional arch=all profile=!nodoc"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "cmake, cmock, dpkg-dev, g++, ocl-icd-opencl-dev"
+  ],
+  "Uploaders": [
+    "Vincent Danjean \u003cvdanjean@debian.org\u003e, Andreas Beckmann \u003canbe@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/opencl-team/khronos-opencl-clhpp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/opencl-team/khronos-opencl-clhpp.git"
+  ],
+  "Version": [
+    "3.0~2025.07.22-1"
+  ]
+}

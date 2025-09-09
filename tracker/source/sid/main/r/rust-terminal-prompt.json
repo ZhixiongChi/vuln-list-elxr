@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-terminal-prompt-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, librust-libc-dev \u003c!nocheck\u003e, librust-winapi-dev \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, rustc:native (\u003e= 1.66) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "abdbb803fa78733f6c54efe41c968e143f7b58ad6a73429605f744c76d5f8027 1592 rust-terminal-prompt_0.2.3-7.dsc 8dcaa5acf19753527093412fb66912d52dce76dcd7ab932972d2ad5011a70574 5892 rust-terminal-prompt_0.2.3.orig.tar.xz 9bf5b76fa7886e23b427b3d63caa0bf3d2c97928b7655c1c54f9115f47ccbf47 2744 rust-terminal-prompt_0.2.3-7.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-terminal-prompt"
+  ],
+  "Files": [
+    "4cc2f22e875114f05f9e832288defeae 1592 rust-terminal-prompt_0.2.3-7.dsc f8e460edf879760e50273e357f2ab939 5892 rust-terminal-prompt_0.2.3.orig.tar.xz d95ed3f07108908e3943d3ba58ae4a3c 2744 rust-terminal-prompt_0.2.3-7.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/de-vri-es/terminal-prompt-rs"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel@debian.org\u003e"
+  ],
+  "Package": [
+    "rust-terminal-prompt"
+  ],
+  "Package-List": [
+    "librust-terminal-prompt-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Vcs-Browser": [
+    "https://forgejo.debian.net/rust/rust-terminal-prompt"
+  ],
+  "Vcs-Git": [
+    "https://forgejo.debian.net/rust/rust-terminal-prompt"
+  ],
+  "Version": [
+    "0.2.3-7"
+  ]
+}

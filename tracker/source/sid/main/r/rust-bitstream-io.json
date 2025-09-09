@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-bitstream-io-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.83) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-core2-0.4+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "17210695ace3930dbb84389112e70d927f09a876fadfcbb137b92ef3f7d440f3 1693 rust-bitstream-io_4.5.0-1.dsc b348c85aeb6d0bb7dee47de5506b587d9c6c17856d1314eb4695ad751edc7231 62522 rust-bitstream-io_4.5.0.orig.tar.gz 22e17b72417c342fbf694b16892cde4e89b8ae1b59e2556fcc0e61ef038c2e50 2936 rust-bitstream-io_4.5.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-bitstream-io"
+  ],
+  "Files": [
+    "962209b233d6d20582c0e3db169d3b8e 1693 rust-bitstream-io_4.5.0-1.dsc a7a9f70ce73279653e966fda4750b7f4 62522 rust-bitstream-io_4.5.0.orig.tar.gz 06252dd1820aaeb3110d07737901c540 2936 rust-bitstream-io_4.5.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/tuffy/bitstream-io"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-bitstream-io"
+  ],
+  "Package-List": [
+    "librust-bitstream-io-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Sebastian Ramacher \u003csramacher@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bitstream-io"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/bitstream-io]"
+  ],
+  "Version": [
+    "4.5.0-1"
+  ]
+}

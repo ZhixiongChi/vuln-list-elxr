@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-pyo3-build-config-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.63) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-once-cell-1+default-dev \u003c!nocheck\u003e, librust-target-lexicon-0.12+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "e6e7e5d1b2f66c085d0af102482da49fd5b96264daa1f9088bbec16d72c02ae9 2078 rust-pyo3-build-config_0.25.1-1.dsc 458eb0c55e7ece017adeba38f2248ff3ac615e53660d7c71a238d7d2a01c7598 34126 rust-pyo3-build-config_0.25.1.orig.tar.gz 15155c6180dec439c97ba8e51fbeff46c5baa7883a449ed2ed5c2efdfc95483d 4088 rust-pyo3-build-config_0.25.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-pyo3-build-config"
+  ],
+  "Files": [
+    "d33345bf0950418b0acc184683c23b3f 2078 rust-pyo3-build-config_0.25.1-1.dsc e0de0619a10565c7631ab164813df1f3 34126 rust-pyo3-build-config_0.25.1.orig.tar.gz 188c3dcbb7ee1f8aa28f70752475e8cd 4088 rust-pyo3-build-config_0.25.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pyo3/pyo3"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-pyo3-build-config"
+  ],
+  "Package-List": [
+    "librust-pyo3-build-config-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Jelmer Vernooĳ \u003cjelmer@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pyo3-build-config"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/pyo3-build-config]"
+  ],
+  "Version": [
+    "0.25.1-1"
+  ]
+}

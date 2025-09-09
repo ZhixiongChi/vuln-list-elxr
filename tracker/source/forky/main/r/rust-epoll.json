@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-epoll-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bitflags-2+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "1a3d367c990c3940d17afead7a06185bca9f714465d21b1498cc4a403e6c7b30 1630 rust-epoll_4.4.0-1.dsc e74d68fe2927dbf47aa976d14d93db9b23dced457c7bb2bdc6925a16d31b736e 9340 rust-epoll_4.4.0.orig.tar.gz 436a3626781112a0559a063d06f0eacfa39e48799870c4856a8ad94dc24766e4 2032 rust-epoll_4.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-epoll"
+  ],
+  "Files": [
+    "9cb5ac3f6ed0341319cce3458188b4d1 1630 rust-epoll_4.4.0-1.dsc 2fe8b1c0d88800fbb45eb84e3c7b3f6d 9340 rust-epoll_4.4.0.orig.tar.gz 4c09868b9b48564803ac319ca5ccf242 2032 rust-epoll_4.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/nathansizemore/epoll"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-epoll"
+  ],
+  "Package-List": [
+    "librust-epoll-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "nicoo \u003cnicoo@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/epoll"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/epoll]"
+  ],
+  "Version": [
+    "4.4.0-1"
+  ]
+}

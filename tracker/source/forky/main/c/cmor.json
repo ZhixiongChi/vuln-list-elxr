@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libcmor2t64, libcmor-dev, python3-cmor"
+  ],
+  "Build-Conflicts": [
+    "libcmor2t64, python3-cmor"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-fortran-mod, heimdal-multidev, libossp-uuid-dev, libjson-c-dev (\u003e= 0.13.1), libudunits2-dev, libnetcdf-dev, uuid-dev, python3-all-dev (\u003e= 2.6.6-3~), python3-setuptools (\u003e= 0.6b3), python3-numpy-dev, python3-numpy, python3-pip, gfortran | fortran-compiler, pkgconf, libhdf5-dev, libaec-dev, libffi-dev"
+  ],
+  "Checksums-Sha256": [
+    "cff68f4513b995be49546eeefb609567e366642dc57c985806d7305401bbe20a 2399 cmor_3.11.0-2.dsc e19b9f2af3b099be7a6b3f5976a8aebf275c971628b5f1806680e551aaa80eba 1635480 cmor_3.11.0.orig.tar.xz 2709a21cd287cbcec0f9a52c48fdb721120b7af6fc9b2075165f65d2e2010db6 13960 cmor_3.11.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/cmor"
+  ],
+  "Files": [
+    "6b297384e269f81fed60959fcef60038 2399 cmor_3.11.0-2.dsc 0d68cce7de8905598f8ddca54f220f03 1635480 cmor_3.11.0.orig.tar.xz 274aaa26d4adba12ff4cb34fd86d75e4 13960 cmor_3.11.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cmor.llnl.gov/"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "cmor"
+  ],
+  "Package-List": [
+    "libcmor-dev deb libdevel optional arch=any libcmor2t64 deb libs optional arch=any python3-cmor deb python optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Alastair McKinstry \u003cmckinstry@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/cmor.git"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/cmor.git"
+  ],
+  "Version": [
+    "3.11.0-2"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "xserver-xorg-core, xserver-xorg-core-udeb, xserver-xorg-dev, xnest, xvfb, xserver-xephyr, xserver-common, xorg-server-source, xserver-xorg-legacy"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), po-debconf, quilt, pkgconf, bison, flex, xutils-dev (\u003e= 1:7.6+4), xfonts-utils (\u003e= 1:7.5+1), x11proto-dev (\u003e= 2021.5), xtrans-dev (\u003e= 1.3.5), libxau-dev (\u003e= 1:1.0.5-2), libxcvt-dev, libxdmcp-dev (\u003e= 1:0.99.1), libxfont-dev (\u003e= 1:2.0.1), libxkbfile-dev (\u003e= 1:0.99.1), libpixman-1-dev (\u003e= 0.27.2), libpciaccess-dev (\u003e= 0.12.901), nettle-dev, libudev-dev (\u003e= 151-3) [linux-any], libselinux1-dev (\u003e= 2.0.80) [linux-any], libaudit-dev [linux-any], libdrm-dev (\u003e= 2.4.107-5~) [!hurd-any], libglvnd-dev, mesa-common-dev, libunwind-dev [amd64 arm64 armel hppa i386 ia64 mips64 mips64el mipsel powerpc powerpcspe ppc64 ppc64el sh4], libxmuu-dev (\u003e= 1:0.99.1), libxext-dev (\u003e= 1:0.99.1), libx11-dev (\u003e= 2:1.6), libxrender-dev (\u003e= 1:0.9.0), libxi-dev (\u003e= 2:1.8), libxpm-dev (\u003e= 1:3.5.3), libxaw7-dev (\u003e= 1:0.99.1), libxt-dev (\u003e= 1:0.99.1), libxmu-dev (\u003e= 1:0.99.1), libxtst-dev (\u003e= 1:0.99.1), libxres-dev (\u003e= 1:0.99.1), libxfixes-dev (\u003e= 1:3.0.0), libxv-dev, libxinerama-dev, libxshmfence-dev (\u003e= 1.1) [!hurd-any], libepoxy-dev [linux-any kfreebsd-any], libegl1-mesa-dev [linux-any kfreebsd-any], libgbm-dev (\u003e= 10.2) [linux-any kfreebsd-any], libx11-xcb-dev, libxcb1-dev, libxcb-xkb-dev, libxcb-shape0-dev, libxcb-render0-dev, libxcb-render-util0-dev, libxcb-util-dev, libxcb-image0-dev, libxcb-icccm4-dev, libxcb-shm0-dev, libxcb-keysyms1-dev, libxcb-randr0-dev, libxcb-xv0-dev, libxcb-glx0-dev, libxcb-xf86dri0-dev (\u003e= 1.6), xauth \u003c!nocheck\u003e, xkb-data, x11-utils \u003c!nocheck\u003e, x11-xkb-utils, libbsd-dev, libdbus-1-dev (\u003e= 1.0) [linux-any], libsystemd-dev [linux-any], systemd-dev [linux-any]"
+  ],
+  "Build-Depends-Indep": [
+    "xz-utils"
+  ],
+  "Checksums-Sha256": [
+    "b25d9080c9245cb677884a6ffdb18bde39e43475ad11ab9c247ff8a7ec2d2c8e 4303 xorg-server_21.1.18-2.dsc c8591ceb70b177440062406542fe52ba60212f217f27f8f802dd20373ca9e74b 8979000 xorg-server_21.1.18.orig.tar.gz 7a169d436f5bf3e91a9b6218460035e327f1d7b3a814c9ad2880c1298c96164f 195 xorg-server_21.1.18.orig.tar.gz.asc 42fa51220503d06c31e0b4ed12a20028ff058c60beb1b15e79ff6eef0f89e59c 178012 xorg-server_21.1.18-2.diff.gz"
+  ],
+  "Directory": [
+    "pool/main/x/xorg-server"
+  ],
+  "Files": [
+    "ba5b1c7eae22f8aa0eee17bf93283984 4303 xorg-server_21.1.18-2.dsc a5ef88cfdb13a9a21d7f40d5f9735686 8979000 xorg-server_21.1.18.orig.tar.gz 39c3bab8e71a6fee8905f1e818c6f405 195 xorg-server_21.1.18.orig.tar.gz.asc e9843c073cb12433a19728adfa7eac8d 178012 xorg-server_21.1.18-2.diff.gz"
+  ],
+  "Format": [
+    "1.0"
+  ],
+  "Homepage": [
+    "https://www.x.org/"
+  ],
+  "Maintainer": [
+    "Debian X Strike Force \u003cdebian-x@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "xorg-server"
+  ],
+  "Package-List": [
+    "xnest deb x11 optional arch=any xorg-server-source deb x11 optional arch=all xserver-common deb x11 optional arch=all xserver-xephyr deb x11 optional arch=any xserver-xorg-core deb x11 optional arch=any xserver-xorg-core-udeb udeb debian-installer optional arch=any xserver-xorg-dev deb x11 optional arch=any xserver-xorg-legacy deb x11 optional arch=any xvfb deb x11 optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "x11"
+  ],
+  "Standards-Version": [
+    "3.9.8"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "x11-utils, xauth"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/xorg-team/xserver/xorg-server"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/xorg-team/xserver/xorg-server.git"
+  ],
+  "Version": [
+    "2:21.1.18-2"
+  ]
+}

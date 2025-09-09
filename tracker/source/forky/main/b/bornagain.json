@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "amd64 arm64 armel armhf mips64el ppc64el riscv64 s390x loong64 ppc64 sparc64 all"
+  ],
+  "Binary": [
+    "bornagain, python3-bornagain, bornagain-doc"
+  ],
+  "Build-Depends": [
+    "clang-format \u003c!nocheck\u003e, cmake, debhelper-compat (= 13), dh-sequence-python3, doxygen-latex \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, libboost-all-dev, libbz2-dev, libcerf-dev (\u003e= 3.1), libeigen3-dev, libfftw3-dev, libformfactor-dev, libgsl0-dev, libheinz-dev, libqt6opengl6-dev, libtiff-dev, libxkbcommon-dev, libyaml-cpp-dev, python3-corner \u003c!nopython\u003e, python3-dev \u003c!nopython\u003e, python3-emcee \u003c!nopython\u003e, python3-fabio \u003c!nopython\u003e, python3-lmfit \u003c!nopython\u003e, python3-matplotlib \u003c!nopython\u003e, python3-numpy \u003c!nopython\u003e, python3-pip \u003c!nopython\u003e, python3-scipy \u003c!nopython\u003e, python3-setuptools \u003c!nopython\u003e, python3-yaml \u003c!nopython\u003e, qt6-base-dev, qt6-svg-dev, swig \u003c!nopython\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "hugo \u003c!nodoc\u003e, texlive-fonts-extra \u003c!nodoc\u003e, texlive-xetex \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "3df206f6a97ae7b84434c85ec06ac861f9f27ea166131834d916ddb4ceb09f72 3226 bornagain_23.0-4.dsc 1df01438619aee25e18daa47a486336a462348c9551e1b3c4c0990c3ce692e12 57006329 bornagain_23.0.orig.tar.bz2 74883677d837ef33c44dc4912996876e3e786bdf13116f82f58b449e7ee9521b 11900 bornagain_23.0-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/bornagain"
+  ],
+  "Files": [
+    "9d45c2f298e8ee25d62f201c1905c489 3226 bornagain_23.0-4.dsc 2738d269b06c950282dc445b3df76b72 57006329 bornagain_23.0.orig.tar.bz2 9ffb4822fd5411425096457336b99e1d 11900 bornagain_23.0-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://bornagainproject.org/"
+  ],
+  "Maintainer": [
+    "Debian PaN Maintainers \u003cdebian-pan-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "bornagain"
+  ],
+  "Package-List": [
+    "bornagain deb science optional arch=amd64,arm64,armel,armhf,mips64el,ppc64el,riscv64,s390x,loong64,ppc64,sparc64 bornagain-doc deb doc optional arch=all python3-bornagain deb science optional arch=amd64,arm64,armel,armhf,mips64el,ppc64el,riscv64,s390x,loong64,ppc64,sparc64"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all"
+  ],
+  "Uploaders": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e, Mika Pflüger \u003cdebian@mikapflueger.de\u003e, Picca Frédéric-Emmanuel \u003cpicca@debian.org\u003e, Roland Mas \u003clolando@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/bornagain"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/bornagain.git"
+  ],
+  "Version": [
+    "23.0-4"
+  ]
+}

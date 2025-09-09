@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libqt5script5, libqt5scripttools5, qtscript5-dev, qtscript5-examples, qtscript5-doc, qtscript5-doc-html"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.17.14), pkg-kde-tools (\u003e= 0.15.17~), qtbase5-private-dev (\u003e= 5.15.17+dfsg~)"
+  ],
+  "Build-Depends-Indep": [
+    "qdoc-qt5 (\u003e= 5.15.17~) \u003c!nodoc\u003e, qhelpgenerator-qt5 (\u003e= 5.15.17~) \u003c!nodoc\u003e, qtattributionsscanner-qt5 (\u003e= 5.15.17~) \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "ce9e2dbfb3ea08169bb312677eff0b9b5ed8da64126b21a3f171343599881122 2841 qtscript-opensource-src_5.15.17+dfsg-2.dsc 02c1d8949d43b68ea14f6f58336850303c1a90f55983405d8d8e45dc19fe7960 2446672 qtscript-opensource-src_5.15.17+dfsg.orig.tar.xz 55eb701c4223de38982dfff41362ee5fb23fb178c373c756ebcaf5607573b02e 16540 qtscript-opensource-src_5.15.17+dfsg-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qtscript-opensource-src"
+  ],
+  "Files": [
+    "b607c7f1e47739c879b3e188388ec5d7 2841 qtscript-opensource-src_5.15.17+dfsg-2.dsc e00cde3abf1a329e726603744fe78236 2446672 qtscript-opensource-src_5.15.17+dfsg.orig.tar.xz 3dd19fcb4daf4069e42242047c4d4081 16540 qtscript-opensource-src_5.15.17+dfsg-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://doc.qt.io/qt-5/qtscript-index.html"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "qtscript-opensource-src"
+  ],
+  "Package-List": [
+    "libqt5script5 deb libs optional arch=any libqt5scripttools5 deb libs optional arch=any qtscript5-dev deb libdevel optional arch=any qtscript5-doc deb doc optional arch=all profile=!nodoc qtscript5-doc-html deb doc optional arch=all profile=!nodoc qtscript5-examples deb x11 optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Sune Vuorela \u003cdebian@pusling.com\u003e, Pino Toscano \u003cpino@debian.org\u003e, Timo Jyrinki \u003ctimo@debian.org\u003e, Dmitry Shachnev \u003cmitya57@debian.org\u003e, Simon Quigley \u003ctsimonq2@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/qt/qtscript"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/qt/qtscript.git"
+  ],
+  "Version": [
+    "5.15.17+dfsg-2"
+  ]
+}

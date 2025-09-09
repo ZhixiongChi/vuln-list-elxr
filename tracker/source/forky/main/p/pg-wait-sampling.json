@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "postgresql-17-pg-wait-sampling"
+  ],
+  "Build-Depends": [
+    "architecture-is-64-bit \u003c!pkg.postgresql.32-bit\u003e, debhelper-compat (= 13), postgresql-all \u003c!nocheck\u003e, postgresql-server-dev-all"
+  ],
+  "Checksums-Sha256": [
+    "6ccdba7d27940de8cd097e5adcd857c0177f454cd1c00c77acf6eb351ec63c59 2189 pg-wait-sampling_1.1.9-1.dsc 5113a23c5b93ab624aaa7124c6bc18a56432f16b1e84468c0025393c93ee646f 17484 pg-wait-sampling_1.1.9.orig.tar.gz d60b3e4ba7ad37adb06ca0721ea38bfc3cb9449aa0467db5f8b5015603a37b0e 2432 pg-wait-sampling_1.1.9-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pg-wait-sampling"
+  ],
+  "Files": [
+    "443cfaa06fe0d742587849ad33c5afd0 2189 pg-wait-sampling_1.1.9-1.dsc a45109fb2397aeb0f1e4a7d2d477dad0 17484 pg-wait-sampling_1.1.9.orig.tar.gz fec7c1aa3eae3021bdd94910b9c3fd61 2432 pg-wait-sampling_1.1.9-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/postgrespro/pg_wait_sampling"
+  ],
+  "Maintainer": [
+    "Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pg-wait-sampling"
+  ],
+  "Package-List": [
+    "postgresql-17-pg-wait-sampling deb database optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "make"
+  ],
+  "Uploaders": [
+    "Christoph Berg \u003cmyon@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/postgresql/pg-wait-sampling"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/postgresql/pg-wait-sampling.git"
+  ],
+  "Version": [
+    "1.1.9-1"
+  ]
+}

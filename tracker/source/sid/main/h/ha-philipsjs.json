@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-ha-philipsjs"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "python3-cryptography \u003c!nocheck\u003e, python3-httpx \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-respx \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "aae2aef8a9830d85e66feac7c68f03b2facc476bc1bfdfa950d6e19c5d69fd30 2279 ha-philipsjs_3.3.4-1.dsc 561032c56f2c66d00070befa14b8f3ffd19d37de3338f31db8c127ee2b3a1ef7 49702 ha-philipsjs_3.3.4.orig.tar.gz 22783a710b10790da27f27d2ce8ba95fa382c14f74ba74a4a45a8b778b316d5d 2424 ha-philipsjs_3.3.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/ha-philipsjs"
+  ],
+  "Files": [
+    "17c2a620e5a2d4ed6948ff5441d38597 2279 ha-philipsjs_3.3.4-1.dsc 1db8761b4c83d6429fc51af69999fcb7 49702 ha-philipsjs_3.3.4.orig.tar.gz 8bf0b05a283eb25e6d287b197291ff21 2424 ha-philipsjs_3.3.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/danielperna84/ha-philipsjs"
+  ],
+  "Maintainer": [
+    "Home Assistant Team \u003cteam+homeassistant@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "ha-philipsjs"
+  ],
+  "Package-List": [
+    "python3-ha-philipsjs deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Edward Betts \u003cedward@4angle.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/homeassistant-team/deps/ha-philipsjs"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/homeassistant-team/deps/ha-philipsjs.git"
+  ],
+  "Version": [
+    "3.3.4-1"
+  ]
+}

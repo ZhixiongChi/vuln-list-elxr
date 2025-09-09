@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-cairo-rs-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.83) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bitflags-2+default-dev (\u003e= 2.9-~~) \u003c!nocheck\u003e, librust-cairo-sys-rs-0.21+default-dev (\u003e= 0.21.1-~~) \u003c!nocheck\u003e, librust-cairo-sys-rs-0.21+use-glib-dev (\u003e= 0.21.1-~~) \u003c!nocheck\u003e, librust-glib-0.21+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "0efa7767843e1b36e8cb13a0a869cd8e03894081605b4e9f6443d2402fe82ff4 2531 rust-cairo-rs_0.21.1-2.dsc 1158f326d7b755a9ae2b36c5b5391400e3431f3b77418cedb6d7130126628f10 58404 rust-cairo-rs_0.21.1.orig.tar.gz a50e55c3e55518b38628bbc70efe7a3f4551f9a7f3a777cd49384d270c24baeb 4472 rust-cairo-rs_0.21.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-cairo-rs"
+  ],
+  "Files": [
+    "5fd62e0a7a93d0a583dcb43bd6d83152 2531 rust-cairo-rs_0.21.1-2.dsc c0033fc7b47386cbc9e0fc47754dcb29 58404 rust-cairo-rs_0.21.1.orig.tar.gz 9b29ed2c6b46d4986f9125d228b250db 4472 rust-cairo-rs_0.21.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gtk-rs.org/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-cairo-rs"
+  ],
+  "Package-List": [
+    "librust-cairo-rs-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-float-eq-1+default-dev, librust-tempfile-3+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cairo-rs"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/cairo-rs]"
+  ],
+  "Version": [
+    "0.21.1-2"
+  ]
+}

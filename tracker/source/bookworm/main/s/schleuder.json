@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "schleuder"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dirmngr, gem2deb, procps, rake, ruby-activerecord (\u003e= 6.0~), ruby-bcrypt, ruby-charlock-holmes, ruby-database-cleaner, ruby-factory-bot, ruby-gpgme, ruby-mail, ruby-mail-gpg, ruby-rack-test, ruby-rspec, ruby-sinatra, ruby-sinatra-contrib, ruby-sqlite3, ruby-thor, thin"
+  ],
+  "Checksums-Sha256": [
+    "1feb62ea6be6675590a26e53f0747a4c0db7e3c5b19025fb8f4a710faa0790a3 1709 schleuder_4.0.3-7+deb12u1.dsc 121fe3dff20845063cd06c945f958a4ee7791b15eb506034941cf65e3099f047 291499 schleuder_4.0.3.orig.tar.gz 34473d40defe58e3f40cdaeb488501fdcaac534c6a7984ac175cc9e9f7146574 45428 schleuder_4.0.3-7+deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/schleuder"
+  ],
+  "Files": [
+    "5874b5164fbd8261944ff5e9e323a7d1 1709 schleuder_4.0.3-7+deb12u1.dsc 4624a90ac4ec27b43af72aa913208b69 291499 schleuder_4.0.3.orig.tar.gz 2647b2f55cfbb6045e8039c79c584326 45428 schleuder_4.0.3-7+deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://schleuder.org/"
+  ],
+  "Maintainer": [
+    "Debian Ruby Team \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "schleuder"
+  ],
+  "Package-List": [
+    "schleuder deb mail optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Ruby-Versions": [
+    "all"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, curl, gem2deb-test-runner"
+  ],
+  "Uploaders": [
+    "Georg Faerber \u003cgeorg@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ruby-team/schleuder"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ruby-team/schleuder.git"
+  ],
+  "Version": [
+    "4.0.3-7+deb12u1"
+  ]
+}

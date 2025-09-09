@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gstreamer-gl-x11-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.83) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-glib-sys-0.21+default-dev \u003c!nocheck\u003e, librust-gstreamer-gl-sys-0.24+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-system-deps-7+default-dev \u003c!nocheck\u003e, libgstreamer-plugins-base1.0-dev \u003c!nocheck\u003e, libgstreamer1.0-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "1f5b1200ad502a7f9c33a097d07141ab814a2c20b4328c9a4bb24fa0770fcd64 2675 rust-gstreamer-gl-x11-sys_0.24.0-2.dsc 263dc82655331ce7b21697317c35f090c9396d83edec61f52d888dfce02040de 39537 rust-gstreamer-gl-x11-sys_0.24.0.orig.tar.gz 7519eaa632d5e38372b284bea57a6d4e6c92aafdb74b743c602cd24442c90ed7 3208 rust-gstreamer-gl-x11-sys_0.24.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gstreamer-gl-x11-sys"
+  ],
+  "Files": [
+    "d28ccb7f8d1080eaa6e122919dec2887 2675 rust-gstreamer-gl-x11-sys_0.24.0-2.dsc 24318caffe15b2eff778b4b0cf18b8e5 39537 rust-gstreamer-gl-x11-sys_0.24.0.orig.tar.gz 954cfec2ed7ffc498967f95f4c01d13e 3208 rust-gstreamer-gl-x11-sys_0.24.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gstreamer.freedesktop.org"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gstreamer-gl-x11-sys"
+  ],
+  "Package-List": [
+    "librust-gstreamer-gl-x11-sys-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-shell-words-1+default-dev, librust-tempfile-3+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gstreamer-gl-x11-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gstreamer-gl-x11-sys]"
+  ],
+  "Version": [
+    "0.24.0-2"
+  ]
+}

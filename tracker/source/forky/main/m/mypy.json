@@ -1,0 +1,71 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "mypy, mypy-doc, python3-mypy"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, python3-setuptools, pybuild-plugin-pyproject, flake8, help2man, python3-all, python3-lxml (\u003e= 4.9.1), python3-attr \u003c!nocheck\u003e, python3-pathspec, python3-pytest (\u003e= 8.1.0) \u003c!nocheck\u003e, python3-pytest-xdist \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, furo \u003c!nodoc\u003e, python3-typeshed, python3-psutil, python3-mypy-extensions (\u003e= 1.0.0), python3-typing-extensions (\u003e= 4.10.0), python3-virtualenv \u003c!nocheck\u003e, python3-all-dev:native, libpython3-all-dev, python3-tomli \u003c!nocheck\u003e, python3-venv \u003c!nocheck\u003e, python3-doc \u003c!nodoc\u003e, cython-doc \u003c!nodoc\u003e, python-six-doc \u003c!nodoc\u003e, python-setuptools-doc \u003c!nodoc\u003e, python-attr-doc \u003c!nodoc\u003e, python3-myst-parser \u003c!nodoc\u003e, python3-sphinx-inline-tabs \u003c!nodoc\u003e, python3-orjson [!i386 !alpha !hppa !m68k !sh4 !x32] \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "15f9d69c8b3962720641db3cbf39cf17aa8dace796d95c111971c402ee3e8faf 3362 mypy_1.17.1-2.dsc 25e01ec741ab5bb3eec8ba9cdb0f769230368a22c959c4937360efb89b7e9f01 3352570 mypy_1.17.1.orig.tar.gz 0cbce2c539d7e7fa1c2af8c2a767a1dc0f8f661d64cd5fec98be084169ee01e4 18512 mypy_1.17.1-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "62398a1dc9fe0490435ebca82cbf69d73aacc6e4 debian archive/debian/1.17.1-2 https://git.dgit.debian.org/mypy"
+  ],
+  "Directory": [
+    "pool/main/m/mypy"
+  ],
+  "Files": [
+    "e8e329e97db3ee34f010aff62abe5473 3362 mypy_1.17.1-2.dsc 8c981736e0c04bff174a6181ebe4ac59 3352570 mypy_1.17.1.orig.tar.gz 98170c2931352d79221dc6267d16bea3 18512 mypy_1.17.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=f2b85148f966e4f07c749a5438368ca97c42fae3 fp=724d609337113c710550d7473c26763f6c67e6e2"
+  ],
+  "Git-Tag-Tagger": [
+    "Michael R. Crusoe \u003ccrusoe@debian.org\u003e"
+  ],
+  "Homepage": [
+    "https://www.mypy-lang.org/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "mypy"
+  ],
+  "Package-List": [
+    "mypy deb utils optional arch=all mypy-doc deb doc optional arch=all profile=!nodoc python3-mypy deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "g++, gcc, python3-all-venv, python3-attr, python3-dev, python3-lxml, python3-orjson, python3-pytest, python3-pytest-xdist, python3-setuptools, python3-tomli, python3-typeshed, python3-virtualenv"
+  ],
+  "Uploaders": [
+    "Michael R. Crusoe \u003ccrusoe@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/mypy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/mypy.git"
+  ],
+  "Version": [
+    "1.17.1-2"
+  ]
+}

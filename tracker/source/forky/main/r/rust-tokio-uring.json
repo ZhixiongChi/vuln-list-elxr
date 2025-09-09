@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-tokio-uring-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-futures-util-0.3+std-dev (\u003e= 0.3.26-~~) \u003c!nocheck\u003e, librust-io-uring-0.7+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.80-~~) \u003c!nocheck\u003e, librust-slab-0.4+default-dev (\u003e= 0.4.2-~~) \u003c!nocheck\u003e, librust-socket2-0.5+all-dev \u003c!nocheck\u003e, librust-socket2-0.5+default-dev \u003c!nocheck\u003e, librust-tokio-1+default-dev (\u003e= 1.30-~~) \u003c!nocheck\u003e, librust-tokio-1+net-dev (\u003e= 1.30-~~) \u003c!nocheck\u003e, librust-tokio-1+rt-dev (\u003e= 1.30-~~) \u003c!nocheck\u003e, librust-tokio-1+sync-dev (\u003e= 1.30-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "f3ebcc881d9f96af25ff4afd0f421327e830f57402af3ef637c484d0bd91910d 2932 rust-tokio-uring_0.5.0-1.dsc 748482e3e13584a34664a710168ad5068e8cb1d968aa4ffa887e83ca6dd27967 90183 rust-tokio-uring_0.5.0.orig.tar.gz 18006425cb1af643962303ad894a7906368d6dc02de13a3f79ab53240f4eab66 5376 rust-tokio-uring_0.5.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-tokio-uring"
+  ],
+  "Files": [
+    "e494dcbaaffeab2999e94ed9df009871 2932 rust-tokio-uring_0.5.0-1.dsc d8519abdd257d5f86253602d0e44d164 90183 rust-tokio-uring_0.5.0.orig.tar.gz 46f596e705cdc448d3ecd4bbf4ce3f58 5376 rust-tokio-uring_0.5.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://tokio.rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-tokio-uring"
+  ],
+  "Package-List": [
+    "librust-tokio-uring-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-criterion-0.5+default-dev, librust-iai-0.1+default-dev, librust-nix+default-dev, librust-tempfile-3+default-dev, librust-tokio-1+default-dev, librust-tokio-test-0.4+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tokio-uring"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/tokio-uring]"
+  ],
+  "Version": [
+    "0.5.0-1"
+  ]
+}

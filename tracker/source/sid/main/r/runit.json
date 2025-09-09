@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "runit, runit-run, getty-run, runit-init"
+  ],
+  "Build-Depends": [
+    "bash-completion, debhelper-compat (= 13), dh-exec, dh-runit (\u003e= 2.10.2), dh-sysuser (\u003e= 1.6.0), doc-base"
+  ],
+  "Checksums-Sha256": [
+    "9801bad28c9c6aa80ca9a9dcbba2481bf88164cf2a3516b82a0fde94de083b67 2236 runit_2.2.0-3.1.dsc 95ef4d2868b978c7179fe47901e5c578e11cf273d292bd6208bd3a7ccb029290 111395 runit_2.2.0.orig.tar.gz 82a0a00833f4f563e2769c1b4db139aa3fe35e915be5dd642dfab00d1733361a 69916 runit_2.2.0-3.1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/runit"
+  ],
+  "Files": [
+    "fac50d7e5aaf3ff0d4224e22c988bdcf 2236 runit_2.2.0-3.1.dsc a3f8d44f0c2f3bb530f31fbb58f709ba 111395 runit_2.2.0.orig.tar.gz a987097ad0b570cf1aef0f02e3170d58 69916 runit_2.2.0-3.1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://smarden.org/runit/"
+  ],
+  "Maintainer": [
+    "Lorenzo Puliti \u003cplorenzo@disroot.org\u003e"
+  ],
+  "Package": [
+    "runit"
+  ],
+  "Package-List": [
+    "getty-run deb admin optional arch=all runit deb admin optional arch=any runit-init deb admin optional arch=any protected=yes runit-run deb admin optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "cron, dbus, libnss-systemd, libpam-systemd, pkexec, polkitd, procps, rsyslog, runit-services, systemd, systemd-sysv, udev"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/runit"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/runit.git"
+  ],
+  "Version": [
+    "2.2.0-3.1"
+  ]
+}

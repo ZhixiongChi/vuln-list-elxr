@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgtk-3-0, libgtk-3-0-udeb, libgtk-3-common, libgtk-3-bin, libgtk-3-dev, libgtk-3-doc, gtk-3-examples, gir1.2-gtk-3.0, gtk-update-icon-cache, libgail-3-0, libgail-3-dev, libgail-3-doc"
+  ],
+  "Build-Depends": [
+    "adwaita-icon-theme-full \u003c!nocheck\u003e, at-spi2-core \u003c!nocheck\u003e, dbus-daemon \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-gir, docbook-xml \u003c!nodoc\u003e, docbook-xsl \u003c!nodoc\u003e, fonts-cantarell \u003c!nocheck\u003e, fonts-dejavu-core \u003c!nocheck\u003e, gnome-pkg-tools (\u003e= 0.11), gobject-introspection (\u003e= 1.41.3), gsettings-desktop-schemas \u003c!nocheck\u003e, libatk-bridge2.0-dev (\u003e= 2.15.1), libatk1.0-dev (\u003e= 2.35.1), libcairo2-dev (\u003e= 1.14.0), libcolord-dev (\u003e= 0.1.9), libcups2-dev (\u003e= 1.7), libegl1-mesa-dev [linux-any], libepoxy-dev (\u003e= 1.4), libfontconfig-dev, libfreetype-dev (\u003e= 2.7.1), libfribidi-dev (\u003e= 0.19.7), libgdk-pixbuf-2.0-dev (\u003e= 2.40.0), libgirepository1.0-dev (\u003e= 1.39.0), libglib2.0-dev (\u003e= 2.57.2), libharfbuzz-dev (\u003e= 2.2.0), libjson-glib-dev:native, libpango1.0-dev (\u003e= 1.44.0), librsvg2-common [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x powerpc ppc64 riscv64 sparc64] \u003c!nocheck\u003e, libwayland-dev (\u003e= 1.14.91) [linux-any], libx11-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev (\u003e= 0.2.0), libxkbfile-dev, libxml2-utils, libxrandr-dev (\u003e= 2:1.5.0), meson (\u003e= 0.60.0), ninja-build, pkg-config, sassc, wayland-protocols (\u003e= 1.17) [linux-any], xauth \u003c!nocheck\u003e, xsltproc \u003c!nodoc\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "gtk-doc-tools (\u003e= 1.20) \u003c!nodoc\u003e, libatk1.0-doc \u003c!nodoc\u003e, libcairo2-doc \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e, libpango1.0-doc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "b867824964cbe711a2ddc7dc9212bed50d8ded66da1a988a2e11cc120e064119 4316 gtk+3.0_3.24.38-2~deb12u3.dsc ce11decf018b25bdd8505544a4f87242854ec88be054d9ade5f3a20444dd8ee7 12398104 gtk+3.0_3.24.38.orig.tar.xz 02f7078d3ca74d9a8dfa93a9627b377a3a8ae3419ba6469ecc4293c9a0ffd48f 422060 gtk+3.0_3.24.38-2~deb12u3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gtk+3.0"
+  ],
+  "Files": [
+    "e5bffc3cd737a693c3bce81757980ef8 4316 gtk+3.0_3.24.38-2~deb12u3.dsc 7ed2f5914683ebd515da22f5784389f4 12398104 gtk+3.0_3.24.38.orig.tar.xz 4597156435fe61e12c9c60bc6307424a 422060 gtk+3.0_3.24.38-2~deb12u3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gtk.org/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gtk+3.0"
+  ],
+  "Package-List": [
+    "gir1.2-gtk-3.0 deb introspection optional arch=any gtk-3-examples deb x11 optional arch=any gtk-update-icon-cache deb misc optional arch=any libgail-3-0 deb libs optional arch=any libgail-3-dev deb libdevel optional arch=any libgail-3-doc deb doc optional arch=all profile=!nodoc libgtk-3-0 deb libs optional arch=any libgtk-3-0-udeb udeb debian-installer optional arch=any profile=!noudeb libgtk-3-bin deb misc optional arch=any libgtk-3-common deb misc optional arch=all libgtk-3-dev deb libdevel optional arch=any libgtk-3-doc deb doc optional arch=all profile=!nodoc"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "adwaita-icon-theme-full, at-spi2-core, build-essential, dbus-daemon, gnome-desktop-testing, librsvg2-common, python3-gi, xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Simon McVittie \u003csmcv@debian.org\u003e, Dmitry Shachnev \u003cmitya57@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gtk3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gtk3.git -b debian/bookworm"
+  ],
+  "Version": [
+    "3.24.38-2~deb12u3"
+  ]
+}

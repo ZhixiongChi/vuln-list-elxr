@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-auditable-serde-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-semver-1+default-dev \u003c!nocheck\u003e, librust-semver-1+serde-dev \u003c!nocheck\u003e, librust-serde-1+default-dev \u003c!nocheck\u003e, librust-serde-1+serde-derive-dev \u003c!nocheck\u003e, librust-serde-json-1+default-dev (\u003e= 1.0.57-~~) \u003c!nocheck\u003e, librust-topological-sort-0.2+default-dev (\u003e= 0.2.2-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "51c01bba0b2ff5cd9928488517a3ae1e23b04c6a99d90aaeee8d6df922c3ee47 1980 rust-auditable-serde_0.9.0-1.dsc d026218ae25ba5c72834245412dd1338f6d270d2c5109ee03a4badec288d4056 7452 rust-auditable-serde_0.9.0.orig.tar.gz 63e03021638a4608c8e45e979114ca700d33743ccae8a5c2ed621a8c3aeb6dff 4588 rust-auditable-serde_0.9.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-auditable-serde"
+  ],
+  "Files": [
+    "c95582b226758eb29144fc402dd77e02 1980 rust-auditable-serde_0.9.0-1.dsc 7aecf15897d30edea3e4ee49d199542b 7452 rust-auditable-serde_0.9.0.orig.tar.gz 9d4babc51e470a4c0646de44756426f9 4588 rust-auditable-serde_0.9.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rust-secure-code/cargo-auditable"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-auditable-serde"
+  ],
+  "Package-List": [
+    "librust-auditable-serde-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/auditable-serde"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/auditable-serde]"
+  ],
+  "Version": [
+    "0.9.0-1"
+  ]
+}

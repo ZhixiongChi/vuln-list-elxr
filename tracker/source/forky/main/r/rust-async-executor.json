@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "librust-async-executor-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-rust, librust-async-channel-2+default-dev, librust-async-io-2+default-dev, librust-async-lock-3+default-dev, librust-async-task-4+default-dev, librust-concurrent-queue-2+default-dev (\u003e= 2.5), librust-easy-parallel-3+default-dev, librust-fastrand-2+default-dev, librust-futures-lite-2+default-dev, librust-once-cell-1+default-dev, librust-slab-0.4+default-dev (\u003e= 0.4.4)"
+  ],
+  "Checksums-Sha256": [
+    "5108dc831c2d8326b3a32e49f7014513715539052add499537793dc7b7de7b76 2811 rust-async-executor_1.13.3-1.dsc 12aa3ada7258dec2bc63a0d52f1cd5491801991793710a24c98edcec1d6488a8 24509 rust-async-executor_1.13.3.orig.tar.gz aecb6eda735371e3cb1c097d5e4d4e713f33d7c1b994df01cdadee6d99f62399 5256 rust-async-executor_1.13.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-async-executor"
+  ],
+  "Files": [
+    "6f0ef3620f5c1f9a26f946a0f609aab1 2811 rust-async-executor_1.13.3-1.dsc 9a2392a15fbbefb23be2e4b33f30b5a7 24509 rust-async-executor_1.13.3.orig.tar.gz a583168b82637b80af0e54560d3d20c2 5256 rust-async-executor_1.13.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/smol-rs/async-executor"
+  ],
+  "Maintainer": [
+    "Jonas Smedegaard \u003cdr@jones.dk\u003e"
+  ],
+  "Package": [
+    "rust-async-executor"
+  ],
+  "Package-List": [
+    "librust-async-executor-dev deb rust optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-rust, librust-async-channel-2+default-dev, librust-async-executor-1+default-dev, librust-async-executor-1+static-dev, librust-async-executor-1-dev, librust-async-io-2+default-dev, librust-async-lock-3+default-dev, librust-easy-parallel-3+default-dev, librust-futures-lite-2+default-dev, librust-once-cell-1+default-dev"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/rust-async-executor"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/rust-async-executor.git"
+  ],
+  "Version": [
+    "1.13.3-1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-io-uring-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.63) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bindgen+default-dev (\u003c\u003c 0.73-~~) \u003c!nocheck\u003e, librust-bindgen+default-dev (\u003e= 0.69-~~) \u003c!nocheck\u003e, librust-bitflags-2+default-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e, librust-libc-0.2-dev (\u003e= 0.2.98-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "eddb2eb1c071ed079c807496f90691c3e10e356c8fcf00a75dbc9596b031a202 2584 rust-io-uring_0.7.10-1.dsc 046fa2d4d00aea763528b4950358d0ead425372445dc8ff86312b3c69ff7727b 103070 rust-io-uring_0.7.10.orig.tar.gz 90f8d38976faa2dae4094b09ef3688c516f4ac680c3f7a156507dc70a5dcdce4 5284 rust-io-uring_0.7.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-io-uring"
+  ],
+  "Files": [
+    "af772d690e4d77e4705444470255e6a6 2584 rust-io-uring_0.7.10-1.dsc bde76258fa172dbc2d7503200515ad42 103070 rust-io-uring_0.7.10.orig.tar.gz c9e079e86c95cadd00b86b69b44a669c 5284 rust-io-uring_0.7.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/tokio-rs/io-uring"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-io-uring"
+  ],
+  "Package-List": [
+    "librust-io-uring-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-anyhow-1+default-dev, librust-slab-0.4+default-dev, librust-socket2-0.5+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/io-uring"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/io-uring]"
+  ],
+  "Version": [
+    "0.7.10-1"
+  ]
+}

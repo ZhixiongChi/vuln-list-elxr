@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-zigpy-zigate"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "python3-gpiozero \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-pytest-mock \u003c!nocheck\u003e, python3-pytest-timeout \u003c!nocheck\u003e, python3-serial-asyncio \u003c!nocheck\u003e, python3-usb \u003c!nocheck\u003e, python3-voluptuous \u003c!nocheck\u003e, python3-zigpy (\u003e= 0.76.1-2) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "36529aa98e6d4830655397fd5dd09f479fd746a7f11d855ddc93d1649b7fc89b 2450 zigpy-zigate_0.13.3-1.dsc 9513515f5cef4ab19b83ce190255f31feaa18716303701b6a8ffe29317835f5c 41301 zigpy-zigate_0.13.3.orig.tar.gz 30f8326c6be3ce32e8140e0c5fb3ba25fdfb22358929e8f36bdd718901491cb8 2868 zigpy-zigate_0.13.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/z/zigpy-zigate"
+  ],
+  "Files": [
+    "822dc7adbe49b5aa6b7a99bc5ddefb13 2450 zigpy-zigate_0.13.3-1.dsc 52276564986a3e1881513d2d52fb9544 41301 zigpy-zigate_0.13.3.orig.tar.gz 3073e8cd8bef83ad9fcdc792f450d7d1 2868 zigpy-zigate_0.13.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/zigpy/zigpy-zigate"
+  ],
+  "Maintainer": [
+    "Home Assistant Team \u003cteam+homeassistant@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "zigpy-zigate"
+  ],
+  "Package-List": [
+    "python3-zigpy-zigate deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Edward Betts \u003cedward@4angle.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/homeassistant-team/deps/zigpy-zigate"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/homeassistant-team/deps/zigpy-zigate.git"
+  ],
+  "Version": [
+    "0.13.3-1"
+  ]
+}

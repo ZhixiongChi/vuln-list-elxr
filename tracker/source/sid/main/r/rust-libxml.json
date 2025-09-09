@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-libxml-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bindgen-0+runtime-dev (\u003e= 0.72-~~) \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-pkg-config-0.3+default-dev (\u003e= 0.3.2-~~) \u003c!nocheck\u003e, librust-vcpkg-0.2+default-dev \u003c!nocheck\u003e, libxml2-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c7ef01ec3ac18cce13a3223225387c4edd4b4b9ae91df487c7d47b8829eeb6b8 1858 rust-libxml_0.3.5-2.dsc 2e73f129798570a72372184ed36aaf5e0bf705e4c26d963f88acd99a275331d8 55156 rust-libxml_0.3.5.orig.tar.gz 57022a0c0e0cb122a3810f66110c24a963de388987561c40a1ab4fe95887f871 3612 rust-libxml_0.3.5-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-libxml"
+  ],
+  "Files": [
+    "58d9ba8eb5ee5bf4464bb68f70c3691a 1858 rust-libxml_0.3.5-2.dsc 9f447f5cb610cb07e641f1ce472154ba 55156 rust-libxml_0.3.5.orig.tar.gz 84a56cb5575449e023804e1d45ed81a1 3612 rust-libxml_0.3.5-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/KWARC/rust-libxml"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-libxml"
+  ],
+  "Package-List": [
+    "librust-libxml-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-criterion-0.5+default-dev, librust-rayon-1+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Antonin Delpeuch \u003cantonin@delpeuch.eu\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/libxml"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/libxml]"
+  ],
+  "Version": [
+    "0.3.5-2"
+  ]
+}

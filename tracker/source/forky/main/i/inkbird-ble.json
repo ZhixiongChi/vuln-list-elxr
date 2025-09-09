@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-inkbird-ble"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-poetry-core"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-sphinxdoc \u003c!nodoc\u003e, python3-bluetooth-data-tools \u003c!nocheck\u003e, python3-bluetooth-sensor-state-data (\u003e= 1.8.0) \u003c!nocheck\u003e, python3-myst-parser \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-sensor-state-data \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "e7601a1412ddbe05886bf0c600ba323a5e59f5505fd16e7e829c990615d5882c 2478 inkbird-ble_1.1.0-1.dsc 829a68a3c9ba321d442341a417cba20918b25afeb8b4a1be5472e88849d0198b 75869 inkbird-ble_1.1.0.orig.tar.gz d8b52f1dd0081e0dc5fa80898ee9be66bec9eca8b1c8d976a5077675fb437c08 4172 inkbird-ble_1.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/inkbird-ble"
+  ],
+  "Files": [
+    "1584b23b1bd5345114908397ab3823d6 2478 inkbird-ble_1.1.0-1.dsc 5b4b904b559edea75670d840ebbb1d67 75869 inkbird-ble_1.1.0.orig.tar.gz 8705ecd36b8172f020f408ce1cae80d2 4172 inkbird-ble_1.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/bluetooth-devices/inkbird-ble"
+  ],
+  "Maintainer": [
+    "Home Assistant Team \u003cteam+homeassistant@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "inkbird-ble"
+  ],
+  "Package-List": [
+    "python3-inkbird-ble deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Edward Betts \u003cedward@4angle.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/homeassistant-team/deps/inkbird-ble"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/homeassistant-team/deps/inkbird-ble.git"
+  ],
+  "Version": [
+    "1.1.0-1"
+  ]
+}

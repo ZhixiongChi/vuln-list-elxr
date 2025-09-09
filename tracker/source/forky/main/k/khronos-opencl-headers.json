@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "opencl-c-headers, opencl-headers"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake"
+  ],
+  "Checksums-Sha256": [
+    "75a6948a85d1f5a00e04e47d43d8992e1612055ad2e97f8611c67154951bab2d 2347 khronos-opencl-headers_3.0~2025.07.22-1.dsc 98f0a3ea26b4aec051e533cb1750db2998ab8e82eda97269ed6efe66ec94a240 86771 khronos-opencl-headers_3.0~2025.07.22.orig.tar.gz efcbee773a57412fae0e88a409fa709d6e45da8f3dfa8ffa4cf0d856962c15f4 7248 khronos-opencl-headers_3.0~2025.07.22-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/khronos-opencl-headers"
+  ],
+  "Files": [
+    "282db9984df22c52a813169632d35955 2347 khronos-opencl-headers_3.0~2025.07.22-1.dsc bf236c5823aa60cb26d23f470e5f787e 86771 khronos-opencl-headers_3.0~2025.07.22.orig.tar.gz 3555296708e209fca612e800d6762f5d 7248 khronos-opencl-headers_3.0~2025.07.22-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.khronos.org/registry/cl/"
+  ],
+  "Maintainer": [
+    "Debian OpenCL Maintainers \u003cpkg-opencl-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "khronos-opencl-headers"
+  ],
+  "Package-List": [
+    "opencl-c-headers deb libdevel optional arch=all opencl-headers deb libdevel optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libdevel"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "cmake, g++, libva-dev, make, opencl-clhpp-headers"
+  ],
+  "Uploaders": [
+    "Andreas Beckmann \u003canbe@debian.org\u003e, Vincent Danjean \u003cvdanjean@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/opencl-team/khronos-opencl-headers"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/opencl-team/khronos-opencl-headers.git"
+  ],
+  "Version": [
+    "3.0~2025.07.22-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "linux-any kfreebsd-any"
+  ],
+  "Binary": [
+    "lldpd, liblldpctl-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libsnmp-dev, libpci-dev, libxml2-dev, libevent-dev, libreadline-dev, libbsd-dev, libcap-dev, pkgconf, check, systemd-dev"
+  ],
+  "Checksums-Sha256": [
+    "040cdfa375ee1828988c8007a4e113b0d46764646dd215aff8a0efa2b48cd80e 2321 lldpd_1.0.19-1.dsc f87df3163d5e5138da901d055b384009785d1eb50fdb17a2343910fcf30a997f 2013573 lldpd_1.0.19.orig.tar.gz cf0290603dd898f173da0d1bf84583e6697062859777878652e0b0181b759ce8 833 lldpd_1.0.19.orig.tar.gz.asc a77b01c1518d1ff92bf19df687de65383f0429689fd25dbe5a98485e0c60b3da 14808 lldpd_1.0.19-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lldpd"
+  ],
+  "Files": [
+    "c5578fdd9c4afe2fa23f5bfecd98a076 2321 lldpd_1.0.19-1.dsc c05268312d4bf19bad995406c3c30418 2013573 lldpd_1.0.19.orig.tar.gz 72f38fbda7b5083874c4ef6fcf4f6670 833 lldpd_1.0.19.orig.tar.gz.asc 7245bce30a5bbac400a9c9a86fb6390b 14808 lldpd_1.0.19-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://lldpd.github.io"
+  ],
+  "Maintainer": [
+    "Vincent Bernat \u003cbernat@debian.org\u003e"
+  ],
+  "Package": [
+    "lldpd"
+  ],
+  "Package-List": [
+    "liblldpctl-dev deb libdevel optional arch=linux-any,kfreebsd-any lldpd deb net optional arch=linux-any,kfreebsd-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.1.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/lldpd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/lldpd.git"
+  ],
+  "Version": [
+    "1.0.19-1"
+  ]
+}

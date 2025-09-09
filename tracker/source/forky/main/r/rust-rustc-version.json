@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-rustc-version-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.32) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-semver-1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "67baaa40c85b33e3ab8e424617a39adacca157af1e77727a3b102de8b9b06a6a 1739 rust-rustc-version_0.4.1-1.dsc cfcb3a22ef46e85b45de6ee7e79d063319ebb6594faafcf1c225ea92ab6e9b92 12245 rust-rustc-version_0.4.1.orig.tar.gz 7c0f249e9b1093e63567fd1b9c2f67064c4da22cf27365c738e383e3e5d1d4b2 2756 rust-rustc-version_0.4.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-rustc-version"
+  ],
+  "Files": [
+    "d73d58df3aa346a3d72908f3a856b256 1739 rust-rustc-version_0.4.1-1.dsc 3dcd0f89abb6723ee3ddc24a7673a9c0 12245 rust-rustc-version_0.4.1.orig.tar.gz 44ff0732bad7796d453160bb549af17c 2756 rust-rustc-version_0.4.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/djc/rustc-version-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-rustc-version"
+  ],
+  "Package-List": [
+    "librust-rustc-version-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-doc-comment-0.3+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rustc-version"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/rustc-version]"
+  ],
+  "Version": [
+    "0.4.1-1"
+  ]
+}

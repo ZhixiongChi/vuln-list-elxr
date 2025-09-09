@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "liblog4tango5v5, liblog4tango-dev, liblog4tango-doc, libtango9, libtango-dev, libtango-doc, libtango-tools, tango-common, tango-db, tango-starter, tango-accesscontrol, tango-test"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), default-libmysqlclient-dev, libcos4-dev, cppzmq-dev, omniidl, po-debconf"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, python3-ipython, python3-sphinx, python3-sphinx-rtd-theme"
+  ],
+  "Checksums-Sha256": [
+    "1291a33c56afa2d6a321a5ee689f9320a8ec4d1dc62f5a70df65183318141b8d 2275 tango_9.3.4+dfsg1-2+deb12u1.dsc 8d66ca336259ee716559f86bc3e11476ee6f4dd3ef2653a2c6402537f9f3b7a8 60354476 tango_9.3.4+dfsg1.orig.tar.xz b6af01424b79704b8656acd93ccd318799d198b3fe10f75f077883d9e5635746 31612 tango_9.3.4+dfsg1-2+deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tango"
+  ],
+  "Files": [
+    "5591875d2afede41e17752990dd5095d 2275 tango_9.3.4+dfsg1-2+deb12u1.dsc a485e4779e966c70ccfe76a215497d33 60354476 tango_9.3.4+dfsg1.orig.tar.xz b2e2a5b4543cfbc12433e5363896fb82 31612 tango_9.3.4+dfsg1-2+deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.tango-controls.org"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "tango"
+  ],
+  "Package-List": [
+    "liblog4tango-dev deb libdevel optional arch=any liblog4tango-doc deb doc optional arch=all liblog4tango5v5 deb libs optional arch=any libtango-dev deb libdevel optional arch=any libtango-doc deb doc optional arch=all libtango-tools deb net optional arch=any libtango9 deb libs optional arch=any tango-accesscontrol deb net optional arch=any tango-common deb net optional arch=all tango-db deb net optional arch=any tango-starter deb net optional arch=any tango-test deb net optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "science"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "mariadb-server"
+  ],
+  "Uploaders": [
+    "Picca Frédéric-Emmanuel \u003cpicca@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/tango"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/tango.git"
+  ],
+  "Version": [
+    "9.3.4+dfsg1-2+deb12u1"
+  ]
+}

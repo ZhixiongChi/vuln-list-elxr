@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gst-plugin-gif-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.83) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-atomic-refcell-0.1+default-dev \u003c!nocheck\u003e, librust-gif-0.13+default-dev \u003c!nocheck\u003e, librust-gst-plugin-version-helper-0.8+default-dev \u003c!nocheck\u003e, librust-gstreamer-0.24+default-dev \u003c!nocheck\u003e, librust-gstreamer-video-0.24+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "781580aea7a049e79801ea7ab6819b2219242a968f081d60df274213c4df44e6 2554 rust-gst-plugin-gif_0.14.0-2.dsc c1870271c628a9c5264bf8fd312b1737b1c8931279e3b40b4be9fdb4559eba0c 18274 rust-gst-plugin-gif_0.14.0.orig.tar.gz bd7fc988f1313b0e36792795804424689aa06a9f8f32064c8f6f3e57b070aa3e 3464 rust-gst-plugin-gif_0.14.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gst-plugin-gif"
+  ],
+  "Files": [
+    "1dadeeda495a70df76c6280adaf3a705 2554 rust-gst-plugin-gif_0.14.0-2.dsc e6c5cff353e7ed9e4a4840f22ef3f882 18274 rust-gst-plugin-gif_0.14.0.orig.tar.gz b64b13b4305adbda21eac171b962709b 3464 rust-gst-plugin-gif_0.14.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.freedesktop.org/gstreamer/gst-plugins-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gst-plugin-gif"
+  ],
+  "Package-List": [
+    "librust-gst-plugin-gif-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gst-plugin-gif"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gst-plugin-gif]"
+  ],
+  "Version": [
+    "0.14.0-2"
+  ]
+}

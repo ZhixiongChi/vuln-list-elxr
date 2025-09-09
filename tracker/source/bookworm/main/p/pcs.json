@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "pcs, pcs-snmp"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, libnss3-tools, libpam0g-dev, pkg-config, psmisc, puma, python3:any | python3-all:any | python3-dev:any | python3-all-dev:any | dh-sequence-python3, python3-cryptography, python3-dacite, python3-dateutil, python3-lxml, python3-pip, python3-pyagentx, python3-pycurl, python3-pyparsing, python3-setuptools, python3-setuptools-scm, python3-tornado (\u003e= 6.0.4), ruby, ruby-backports, ruby-childprocess, ruby-dev, ruby-ethon, ruby-json, ruby-nio4r, ruby-rack-test, ruby-rubygems, ruby-sinatra, systemd, wget"
+  ],
+  "Checksums-Sha256": [
+    "bb83e4ded9a46dff5e7dda8b6ca13a895dc3efb46598cd9d3b9c939325962f4d 2589 pcs_0.11.5-1+deb12u1.dsc df156a1d16fc11b8f71b06282754cdace0d3dc6eae47e81a1f4d7f53124af366 1525822 pcs_0.11.5.orig.tar.gz aab60503bbc73bb3a5afcbff22fe398ad5b69a572d315f6bfc054961e1f051a6 9860 pcs_0.11.5-1+deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pcs"
+  ],
+  "Files": [
+    "a1636869298817d0cc7f5a06487ef7ef 2589 pcs_0.11.5-1+deb12u1.dsc cbdb367ad4e5773e7d3130e3c87736b9 1525822 pcs_0.11.5.orig.tar.gz 05f61057243469fca7c7dc19d89dc043 9860 pcs_0.11.5-1+deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ClusterLabs/pcs"
+  ],
+  "Maintainer": [
+    "Debian HA Maintainers \u003cdebian-ha-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "pcs"
+  ],
+  "Package-List": [
+    "pcs deb admin optional arch=all pcs-snmp deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "pacemaker, pacemaker-cli-utils, snmp, snmp-mibs-downloader, snmpd"
+  ],
+  "Uploaders": [
+    "Valentin Vidic \u003cvvidic@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ha-team/pcs"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ha-team/pcs.git"
+  ],
+  "Version": [
+    "0.11.5-1+deb12u1"
+  ]
+}

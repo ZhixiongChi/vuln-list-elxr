@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-django-structlog, python-django-structlog-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-celery, python3-django, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme, python3-structlog"
+  ],
+  "Checksums-Sha256": [
+    "a540ac1a096bfd926fc1006c55f4c25aaaa8f50b1044e38fd43dfed47fac0825 2185 python-django-structlog_9.1.1-1.dsc 5077a32d0bc2254b1714f6c97c7877dc06c9585a734973ee86555eec232a5410 72727 python-django-structlog_9.1.1.orig.tar.gz f2ea8810c2213a4627264c90772e717b56db98ce61f32b859c085a86201b64ec 3748 python-django-structlog_9.1.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-django-structlog"
+  ],
+  "Files": [
+    "62d4383f81a4ae4e6c3ce5c8665dd51b 2185 python-django-structlog_9.1.1-1.dsc 1ed9af0f1dbb50509d93eb2fe0f53789 72727 python-django-structlog_9.1.1.orig.tar.gz 750ed57a29be77beb3cd0fb451099ff6 3748 python-django-structlog_9.1.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/jrobichaud/django-structlog"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-django-structlog"
+  ],
+  "Package-List": [
+    "python-django-structlog-doc deb doc optional arch=all python3-django-structlog deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, python3-all, python3-django-environ, python3-django-extensions, python3-pytest, python3-pytest-django, python3-redis, redis-server"
+  ],
+  "Uploaders": [
+    "Michael Fladischer \u003cfladi@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-django-structlog"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-django-structlog.git"
+  ],
+  "Version": [
+    "9.1.1-1"
+  ]
+}

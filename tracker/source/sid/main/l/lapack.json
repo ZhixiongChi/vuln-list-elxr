@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "liblapack3, liblapack64-3, liblapacke, liblapacke64, liblapacke-dev, liblapacke64-dev, libtmglib3, libtmglib64-3, libtmglib-dev, libtmglib64-dev, liblapack-dev, liblapack64-dev, liblapack-test, liblapack64-test, liblapack-doc, libblas3, libatlas3-base, libblas64-3, libblas-dev, libblas64-dev, libblas-test, libblas64-test"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec"
+  ],
+  "Build-Depends-Arch": [
+    "gfortran-for-host, python3 \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, graphviz, rename"
+  ],
+  "Checksums-Sha256": [
+    "3358ae0356808709ce142ebfe4ed9b48c2c28700b652f7d1b508af3803c71d3d 3389 lapack_3.12.1-7.dsc 2ca6407a001a474d4d4d35f3a61550156050c48016d949f0da0529c0aa052422 8067087 lapack_3.12.1.orig.tar.gz 2d5aaab5ea97fc394d7f14c5a354357475260c30b048fd3e1b5ef2767e3c68e2 28648 lapack_3.12.1-7.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lapack"
+  ],
+  "Files": [
+    "ce0ae7d21cd8f992ab8bdb83f1fbfa78 3389 lapack_3.12.1-7.dsc 2f069617e16b42f5eddcfee85768f204 8067087 lapack_3.12.1.orig.tar.gz 3737ad7f2ab5ab7390d699aa1c245be9 28648 lapack_3.12.1-7.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.netlib.org/lapack/"
+  ],
+  "Maintainer": [
+    "Debian Science Team \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "lapack"
+  ],
+  "Package-List": [
+    "libatlas3-base deb oldlibs optional arch=any libblas-dev deb libdevel optional arch=any libblas-test deb devel optional arch=any libblas3 deb libs optional arch=any libblas64-3 deb libs optional arch=any libblas64-dev deb libdevel optional arch=any libblas64-test deb devel optional arch=any liblapack-dev deb libdevel optional arch=any liblapack-doc deb doc optional arch=all liblapack-test deb devel optional arch=any liblapack3 deb libs optional arch=any liblapack64-3 deb libs optional arch=any liblapack64-dev deb libdevel optional arch=any liblapack64-test deb devel optional arch=any liblapacke deb libs optional arch=any liblapacke-dev deb libdevel optional arch=any liblapacke64 deb libs optional arch=any liblapacke64-dev deb libdevel optional arch=any libtmglib-dev deb libdevel optional arch=any libtmglib3 deb libs optional arch=any libtmglib64-3 deb libs optional arch=any libtmglib64-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, dpkg-dev, gcc, gfortran, python3"
+  ],
+  "Uploaders": [
+    "Sébastien Villemot \u003csebastien@debian.org\u003e, Mo Zhou \u003clumin@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/lapack"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/lapack.git"
+  ],
+  "Version": [
+    "3.12.1-7"
+  ]
+}

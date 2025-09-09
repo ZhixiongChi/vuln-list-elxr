@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "aom-tools, libaom3, libaom-dev, libaom-doc"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.6), debhelper-compat (= 13), libyuv-dev, yasm [any-amd64 any-i386]"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen"
+  ],
+  "Checksums-Sha256": [
+    "3d538ea2182aa36c1fd9ff6a115b1ee129a2eedf885a1fdacd3325ff9c052d63 2239 aom_3.6.0-1+deb12u2.dsc 2ba213822cb1528b5558d6727125654e14d1b2d7505bd1fc8afa36c2e9e9f94a 5268170 aom_3.6.0.orig.tar.gz 213363b9a0d58a5a0ff245de10e6e8503dd268932d698c2c3a55bb7b4f43a54f 23816 aom_3.6.0-1+deb12u2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/aom"
+  ],
+  "Files": [
+    "d8d744457ca61232b1843144aecf1d65 2239 aom_3.6.0-1+deb12u2.dsc 25c85e7801cdb30b36969ee8e8cd46fc 5268170 aom_3.6.0.orig.tar.gz 86821e0fea5115d766dbdab5dafa782e 23816 aom_3.6.0-1+deb12u2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://aomedia.googlesource.com/aom/"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "aom"
+  ],
+  "Package-List": [
+    "aom-tools deb video optional arch=any libaom-dev deb libdevel optional arch=any libaom-doc deb doc optional arch=all libaom3 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "bc, build-essential, ffmpeg, pkg-config"
+  ],
+  "Uploaders": [
+    "James Cowgill \u003cjcowgill@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/aom"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/aom.git"
+  ],
+  "Version": [
+    "3.6.0-1+deb12u2"
+  ]
+}

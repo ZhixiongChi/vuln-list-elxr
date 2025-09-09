@@ -1,0 +1,77 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "juce-modules-source, juce-modules-source-data, juce-tools, libjuce-doc"
+  ],
+  "Build-Conflicts": [
+    "build-essential [armel]"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, libasound2-dev, libcurl4-gnutls-dev | libcurl-dev, libfontconfig-dev, libfreetype-dev, libjpeg-dev, libx11-dev, libxcomposite-dev, libxcursor-dev, libxext-dev, libxinerama-dev, libxrandr-dev, pkgconf, python3:any, zlib1g-dev"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "0fb1937ab01efe87925ffa7f7cfcd650d6ab5c7e98682b99bc8fd255d43690ec 2886 juce_8.0.8+ds-1.dsc 9d97a80995f77ea13c01a06a26db1941d9da1ddd987006849764b9adb6cd5574 12652584 juce_8.0.8+ds.orig.tar.xz 46fbe5ae800d8341268e78b279edd0d5d3c48e1fc6011c1c5c45be789ef1cd4f 58940 juce_8.0.8+ds-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "0b6ba0232c27ba6ba8e038ecaa4eb833169e74e2 debian archive/debian/8.0.8+ds-1 https://git.dgit.debian.org/juce"
+  ],
+  "Directory": [
+    "pool/main/j/juce"
+  ],
+  "Files": [
+    "5a70d8359260a19b99781e882a2590eb 2886 juce_8.0.8+ds-1.dsc dcef19f0a921cf915d0d1ec0d6b62938 12652584 juce_8.0.8+ds.orig.tar.xz e96e4cb99138f56347f4146cbe538a85 58940 juce_8.0.8+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=7133ed179582db6ec064f5d50b749e742bddbcdd fp=7405e745574809734800156db65019c47f7a36f8"
+  ],
+  "Git-Tag-Tagger": [
+    "IOhannes m zmölnig \u003czmoelnig@umlautT.umlaeute.mur.at\u003e"
+  ],
+  "Homepage": [
+    "https://www.juce.com"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "juce"
+  ],
+  "Package-List": [
+    "juce-modules-source deb devel optional arch=any juce-modules-source-data deb devel optional arch=all juce-tools deb devel optional arch=any libjuce-doc deb doc optional arch=all profile=!nodoc"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, cmake, g++, libjack-dev, libogg-dev, make, xauth, xvfb"
+  ],
+  "Uploaders": [
+    "IOhannes m zmölnig (Debian/GNU) \u003cumlaeute@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/juce"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/juce.git"
+  ],
+  "Version": [
+    "8.0.8+ds-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libproxy1v5, libproxy1-plugin-gsettings, libproxy1-plugin-kconfig, libproxy1-plugin-networkmanager, libproxy1-plugin-webkit, libproxy-dev, libproxy-tools"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gnome, duktape-dev, gsettings-desktop-schemas-dev, meson, netbase \u003c!nocheck\u003e, valac, zlib1g-dev, libnm-dev [linux-any], libcurl4-gnutls-dev, libdbus-1-dev, libkf5config-bin \u003c!nocheck !stage1\u003e, libwebkit2gtk-4.1-dev \u003c!nocheck !stage1\u003e, libjavascriptcoregtk-4.1-dev \u003c!stage1\u003e, libglib2.0-dev (\u003e= 2.26) \u003c!stage1\u003e, libxmu-dev \u003c!nocheck !stage1\u003e"
+  ],
+  "Checksums-Sha256": [
+    "ca3c6e1c3e025bb640b35da584372a86a74afdeb4c32b6c5e326add2b447f28d 2918 libproxy_0.5.10-1.dsc 84734a0b89c95f4834fd55c26b362be2fb846445383e37f5209691694ad2b5de 60453 libproxy_0.5.10.orig.tar.gz 7a1ee013f0b9858eab54f3d82b9861e3daa742d6ac193f36736dcc2a60db594f 15136 libproxy_0.5.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libp/libproxy"
+  ],
+  "Files": [
+    "b66153d775cab1561bf0e54bb3c7402a 2918 libproxy_0.5.10-1.dsc efb82820b5b914ebff92c0c7b06cb1e0 60453 libproxy_0.5.10.orig.tar.gz 4503c000aecfd20969075f8f2296b592 15136 libproxy_0.5.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://libproxy.github.io/libproxy/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libproxy"
+  ],
+  "Package-List": [
+    "libproxy-dev deb libdevel optional arch=any libproxy-tools deb utils optional arch=any libproxy1-plugin-gsettings deb oldlibs optional arch=any libproxy1-plugin-kconfig deb oldlibs optional arch=any libproxy1-plugin-networkmanager deb oldlibs optional arch=linux-any libproxy1-plugin-webkit deb oldlibs optional arch=any libproxy1v5 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, gsettings-desktop-schemas, pkg-config"
+  ],
+  "Uploaders": [
+    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/libproxy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/libproxy.git"
+  ],
+  "Version": [
+    "0.5.10-1"
+  ]
+}

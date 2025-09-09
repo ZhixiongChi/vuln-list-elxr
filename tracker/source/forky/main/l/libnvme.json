@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libnvme-dev, libnvme1t64, python3-libnvme, python3-nvme"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper (\u003e= 13.14~), debhelper-compat (= 13), dh-python, dpkg-dev (\u003e= 1.22.5), libdbus-1-dev, libjson-c-dev, libkeyutils-dev, libssl-dev, meson (\u003e= 1.0.0-1.1~), pkg-config, python3-dev, swig"
+  ],
+  "Checksums-Sha256": [
+    "3b762ae41b6fe497dfb90b9aa1e7348aeb474eaef4b0231c9cfbba50c3871589 1561 libnvme_1.15-2.dsc f78aa9827859fb0278463260d71addd840704d339a991649edbf9109fa118fbf 541224 libnvme_1.15.orig.tar.xz 7432d7efd9ce5741d184d5c3e046bdcae83accb3393fd7f14c09afcaf074776b 7772 libnvme_1.15-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libn/libnvme"
+  ],
+  "Files": [
+    "88f6c56eba7f7abcdae7b29805f9e828 1561 libnvme_1.15-2.dsc 8ebe32bb1a03e6e3a34b090eb4c3b522 541224 libnvme_1.15.orig.tar.xz 99498bf9e15fe1b880f57f53c2e18e0c 7772 libnvme_1.15-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/linux-nvme/libnvme"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel@debian.org\u003e"
+  ],
+  "Package": [
+    "libnvme"
+  ],
+  "Package-List": [
+    "libnvme-dev deb libdevel optional arch=any libnvme1t64 deb libs optional arch=any python3-libnvme deb python optional arch=any python3-nvme deb oldlibs extra arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Vcs-Browser": [
+    "https://forgejo.debian.net/nvme/libnvme"
+  ],
+  "Vcs-Git": [
+    "https://forgejo.debian.net/nvme/libnvme"
+  ],
+  "Version": [
+    "1.15-2"
+  ]
+}

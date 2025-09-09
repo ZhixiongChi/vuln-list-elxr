@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "golang-github-evanw-esbuild-dev, esbuild"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.13~), golang-golang-x-sys-dev (\u003e= 0.0~git20220715.c0bba94), golang-src"
+  ],
+  "Build-Depends-Arch": [
+    "nodejs [!hurd-i386 !powerpc]"
+  ],
+  "Checksums-Sha256": [
+    "07a08e3459a16345ffba6d2455da1c6e5d25c5e1fa94901b8be1ed35a9d75c7a 2447 golang-github-evanw-esbuild_0.25.9-2.dsc ae3401455b241827800299aba368683db0042044eb7ed8e43ca0180c85531da4 1960126 golang-github-evanw-esbuild_0.25.9.orig.tar.gz 07a3a4fd7e77d862d0551b920048dbace6e4c06784da29676709b02d96478c2f 10632 golang-github-evanw-esbuild_0.25.9-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-evanw-esbuild"
+  ],
+  "Files": [
+    "36bc6ed4b5a4203ceee5a1fa0825aa8a 2447 golang-github-evanw-esbuild_0.25.9-2.dsc 33d9e2543168963f0c1f488ce3fe23b3 1960126 golang-github-evanw-esbuild_0.25.9.orig.tar.gz 241ce638fd28873c26f3c4dbf28dd98c 10632 golang-github-evanw-esbuild_0.25.9-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/evanw/esbuild"
+  ],
+  "Homepage": [
+    "https://github.com/evanw/esbuild"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-evanw-esbuild"
+  ],
+  "Package-List": [
+    "esbuild deb javascript optional arch=any golang-github-evanw-esbuild-dev deb golang optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Anthony Fok \u003cfoka@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-evanw-esbuild"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-evanw-esbuild.git"
+  ],
+  "Version": [
+    "0.25.9-2"
+  ]
+}

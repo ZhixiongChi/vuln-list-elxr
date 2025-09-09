@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "dh-python, pybuild-plugin-pyproject, pybuild-plugin-autopkgtest"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libdpkg-perl, libpython3-stdlib, python3-all \u003c!nocheck\u003e, python3-all-dbg \u003c!nocheck\u003e, python3-all-dev \u003c!nocheck\u003e, python3-docutils \u003c!nodoc\u003e, python3-minimal, python3-nose2 \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "9d74a53bfb33e06266088efce645277a279b9f0a0aecd46c8ecf16601e45432e 1674 dh-python_5.20230130+deb12u1.dsc f43cb5b07509ffc159521496798c1e82859a9355d8a0146f1cb6706728017ba7 117792 dh-python_5.20230130+deb12u1.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dh-python"
+  ],
+  "Files": [
+    "f146e3e6905d1aa4cd97852dc3ee5d25 1674 dh-python_5.20230130+deb12u1.dsc bc8c57cf83ab64ad314d1d46c95da6bb 117792 dh-python_5.20230130+deb12u1.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Piotr Ożarowski \u003cpiotr@debian.org\u003e"
+  ],
+  "Package": [
+    "dh-python"
+  ],
+  "Package-List": [
+    "dh-python deb python optional arch=all pybuild-plugin-autopkgtest deb python optional arch=all pybuild-plugin-pyproject deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "autopkgtest, build-essential, debhelper, fakeroot, flit, libjs-jquery, make, python3-all, python3-all-dbg, python3-all-dev, python3-nose2, python3-poetry-core, python3-pytest, python3-setuptools, python3-tomli, tox"
+  ],
+  "Uploaders": [
+    "Stefano Rivera \u003cstefanor@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/tools/dh-python"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/tools/dh-python.git"
+  ],
+  "Version": [
+    "5.20230130+deb12u1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any-i386 any-amd64 arm64 armel armhf mips mipsel mipsn32 mipsn32el mips64 mips64el mipsr6 mipsr6el mipsn32r6 mipsn32r6el mips64r6 mips64r6el s390x all"
+  ],
+  "Binary": [
+    "luajit, libluajit-5.1-common, libluajit-5.1-2, libluajit-5.1-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "4738332dcafdda10ade1a87fa0e3b51bce733bf715af0b50c8fb8c0ca3b651b6 2948 luajit_2.1.0~beta3+git20220320+dfsg-4.1+deb12u1.dsc b4d18d2c5e663682bc7f473797e3ceaca8193e112824a5bdfa3e468d98618678 1001769 luajit_2.1.0~beta3+git20220320+dfsg.orig.tar.gz 59c6b0aae91f9debe37045812d6fb99b39f41deb7d1b254467ed3d3d417352dd 14240 luajit_2.1.0~beta3+git20220320+dfsg-4.1+deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/luajit"
+  ],
+  "Files": [
+    "ccd4f24adbb6b6c79cb6355715a10979 2948 luajit_2.1.0~beta3+git20220320+dfsg-4.1+deb12u1.dsc 8f191bb3be6b11d3bbc044e812f59119 1001769 luajit_2.1.0~beta3+git20220320+dfsg.orig.tar.gz b583fc86d5e940cb65d36e22741c15dc 14240 luajit_2.1.0~beta3+git20220320+dfsg-4.1+deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://luajit.org"
+  ],
+  "Maintainer": [
+    "Debian Lua Team \u003cpkg-lua-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "luajit"
+  ],
+  "Package-List": [
+    "libluajit-5.1-2 deb interpreters optional arch=any-i386,any-amd64,arm64,armel,armhf,mips,mipsel,mipsn32,mipsn32el,mips64,mips64el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el,mips64r6,mips64r6el,s390x libluajit-5.1-common deb interpreters optional arch=all libluajit-5.1-dev deb libdevel optional arch=any-i386,any-amd64,arm64,armel,armhf,mips,mipsel,mipsn32,mipsn32el,mips64,mips64el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el,mips64r6,mips64r6el,s390x luajit deb interpreters optional arch=any-i386,any-amd64,arm64,armel,armhf,mips,mipsel,mipsn32,mipsn32el,mips64,mips64el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el,mips64r6,mips64r6el,s390x"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "interpreters"
+  ],
+  "Standards-Version": [
+    "4.5.1.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "lua-moses"
+  ],
+  "Uploaders": [
+    "Ondřej Surý \u003condrej@debian.org\u003e, Mo Zhou \u003clumin@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/lua-team/luajit.git"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/lua-team/luajit.git"
+  ],
+  "Version": [
+    "2.1.0~beta3+git20220320+dfsg-4.1+deb12u1"
+  ]
+}

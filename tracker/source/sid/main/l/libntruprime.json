@@ -1,0 +1,71 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libntruprime-dev, libntruprime1, ntruprime"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, libcpucycles-dev, librandombytes-dev, python3, python3-capstone, valgrind-if-available"
+  ],
+  "Checksums-Sha256": [
+    "1325e1e52a9142d77c5ec90d6b4f8bd0977c0683e9cd72ca5e42f3053fda5b30 2634 libntruprime_0~20241021-3.dsc 1b027c1420554ab8282db309815f3265196d24bad89cf3bf7ee67915fa47e3dc 2576601 libntruprime_0~20241021.orig.tar.gz 1fad3761487f46baed20303f2421fefb39a014497e399b77ac8d009ab854d5a8 9488 libntruprime_0~20241021-3.debian.tar.xz"
+  ],
+  "Dgit": [
+    "2b39fc5cfcd553288e4f7e9ab1d5650220922c4e debian archive/debian/0_20241021-3 https://git.dgit.debian.org/libntruprime"
+  ],
+  "Directory": [
+    "pool/main/libn/libntruprime"
+  ],
+  "Files": [
+    "40556508359d9b7cd448345a80f21810 2634 libntruprime_0~20241021-3.dsc 99a121f9d869985a754aaa3b046ba6d8 2576601 libntruprime_0~20241021.orig.tar.gz e78ff841c1edb20980ae2371e3a1d854 9488 libntruprime_0~20241021-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=563ee53a05b022a72d724bdcf4b6b3a131e42e01 fp=a3cc9c870b9d310abad4cf2f51722b08fe4745a2"
+  ],
+  "Git-Tag-Tagger": [
+    "Simon Josefsson \u003csimon@josefsson.org\u003e"
+  ],
+  "Homepage": [
+    "https://libntruprime.cr.yp.to/"
+  ],
+  "Maintainer": [
+    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "libntruprime"
+  ],
+  "Package-List": [
+    "libntruprime-dev deb libdevel optional arch=any libntruprime1 deb libs optional arch=any ntruprime deb devel optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@recommends@, build-essential, dpkg-dev, librandombytes-dev, python3, valgrind"
+  ],
+  "Uploaders": [
+    "Simon Josefsson \u003csimon@josefsson.org\u003e, Jan Mojžíš \u003cjan.mojzis@gmail.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libntruprime"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libntruprime.git"
+  ],
+  "Version": [
+    "0~20241021-3"
+  ]
+}

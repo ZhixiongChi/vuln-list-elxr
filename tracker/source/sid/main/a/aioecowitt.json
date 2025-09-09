@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-aioecowitt"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "python3-meteocalc \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-aiohttp \u003c!nocheck\u003e, python3-pytest-timeout \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "af118ab538a8159ffc3f024d681ba3f9a329137e69b86b7e8d7db9b272106401 2254 aioecowitt_2025.9.1-1.dsc 2753c5a368203ed39c864a126af94a858cceaf2cdc9297e3d179862e007a9dbd 22259 aioecowitt_2025.9.1.orig.tar.gz a069d16f38cb2d119a8a70c25c0e0ab4431629d24b8501fe138b27c5f869330f 2348 aioecowitt_2025.9.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/aioecowitt"
+  ],
+  "Files": [
+    "a04eb256b04bdd6a350393395988272f 2254 aioecowitt_2025.9.1-1.dsc 998db25cd6d1998d90d3c7206b587455 22259 aioecowitt_2025.9.1.orig.tar.gz 1d48067288c086e3e8241ceb06cbce7c 2348 aioecowitt_2025.9.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/home-assistant-libs/aioecowitt"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "aioecowitt"
+  ],
+  "Package-List": [
+    "python3-aioecowitt deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Edward Betts \u003cedward@4angle.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/homeassistant-team/deps/aioecowitt"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/homeassistant-team/deps/aioecowitt.git"
+  ],
+  "Version": [
+    "2025.9.1-1"
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "linux-any kfreebsd-any all"
+  ],
+  "Binary": [
+    "fuse3, libfuse3-4, libfuse3-dev, fuse3-udeb, libfuse3-4-udeb, fuse"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkgconf, meson, systemd-dev, python3 \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "3c1a50dcd4bce197d1e950c8d585a1a362581d83413bd9e7f23cb76eecbf49c9 2428 fuse3_3.17.4-1.dsc df9e40ae927b73dc702d0bce7925c0c618af47ad0b13204fbf2be66e54d8528b 7307414 fuse3_3.17.4.orig.tar.gz 85538dfd30ee0d92c6313e786ed78fa24cbd764a3ad13fcafe53820df41ced41 314 fuse3_3.17.4.orig.tar.gz.asc 7efe5ffdf40bda0d28e0263bc67e8f1ca9a72d08434726c532534526a68fad98 11764 fuse3_3.17.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fuse3"
+  ],
+  "Files": [
+    "bd9f06ed750072d443d1bc99a5b2f188 2428 fuse3_3.17.4-1.dsc c894181418bf0bc11f98938fc30d37df 7307414 fuse3_3.17.4.orig.tar.gz c2373765069bb8a9fc775ad6a9484f3e 314 fuse3_3.17.4.orig.tar.gz.asc 97f21e3b2f2600bc3120ce1fb371fb30 11764 fuse3_3.17.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/libfuse/libfuse/wiki"
+  ],
+  "Maintainer": [
+    "Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e"
+  ],
+  "Package": [
+    "fuse3"
+  ],
+  "Package-List": [
+    "fuse deb oldlibs optional arch=all fuse3 deb utils optional arch=linux-any fuse3-udeb udeb debian-installer optional arch=linux-any libfuse3-4 deb libs optional arch=linux-any,kfreebsd-any libfuse3-4-udeb udeb debian-installer optional arch=linux-any,kfreebsd-any profile=!noudeb libfuse3-dev deb libdevel optional arch=linux-any,kfreebsd-any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Version": [
+    "3.17.4-1"
+  ]
+}

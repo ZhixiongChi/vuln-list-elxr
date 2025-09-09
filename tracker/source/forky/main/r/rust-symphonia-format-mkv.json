@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-symphonia-format-mkv-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-lazy-static-1+default-dev (\u003e= 1.4.0-~~) \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e, librust-symphonia-metadata-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e, librust-symphonia-utils-xiph-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "7bcbfb83a3addae941b45b69060cd07d09da97293e9fe09c3ec8ab9d1aa7aa98 2637 rust-symphonia-format-mkv_0.5.4-1.dsc 1bb43471a100f7882dc9937395bd5ebee8329298e766250b15b3875652fe3d6f 17398 rust-symphonia-format-mkv_0.5.4.orig.tar.gz 8840da60b27b3efa8bb4588ce96966f39ff66087dd35e734dcf9b7e6d5fadb64 2192 rust-symphonia-format-mkv_0.5.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-symphonia-format-mkv"
+  ],
+  "Files": [
+    "71d48349e55d7e2f99bca533b4452401 2637 rust-symphonia-format-mkv_0.5.4-1.dsc f06f6016b3146e480055da3ff49bd0c7 17398 rust-symphonia-format-mkv_0.5.4.orig.tar.gz dfa1af606a7187f3a67896ca9c74741a 2192 rust-symphonia-format-mkv_0.5.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pdeljanov/Symphonia"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-symphonia-format-mkv"
+  ],
+  "Package-List": [
+    "librust-symphonia-format-mkv-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/symphonia-format-mkv"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/symphonia-format-mkv]"
+  ],
+  "Version": [
+    "0.5.4-1"
+  ]
+}

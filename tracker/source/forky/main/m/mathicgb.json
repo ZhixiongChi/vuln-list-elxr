@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "mathicgb, libmathicgb-dev, libmathicgb0t64"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), libgtest-dev \u003c!nocheck\u003e, libmathic-dev, libmemtailor-dev, libtbb-dev [linux-any], pkgconf"
+  ],
+  "Checksums-Sha256": [
+    "5ebb580925ee292bd23739e23dca20d75326d0d0d058ad8b5931dd1c6a706de6 2360 mathicgb_1.0~git20250513-1.dsc 8cb6fe3bf3646eca2700169c0202be2911ff75eecc3acf3b4efedc0802540da4 589320 mathicgb_1.0~git20250513.orig.tar.xz 8b4539ef0d1a6ce76a8068a831652eafba44a1cdc3014399329351da57c431ae 6204 mathicgb_1.0~git20250513-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mathicgb"
+  ],
+  "Files": [
+    "fc2010e7b01a721c272f99ae77c9e884 2360 mathicgb_1.0~git20250513-1.dsc 214625437e97954ce5acd7ef6b80ce80 589320 mathicgb_1.0~git20250513.orig.tar.xz 5926338e24747395a033ad49f8119ad9 6204 mathicgb_1.0~git20250513-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Macaulay2/mathicgb"
+  ],
+  "Maintainer": [
+    "Debian Math Team \u003cteam+math@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "mathicgb"
+  ],
+  "Package-List": [
+    "libmathicgb-dev deb libdevel optional arch=any libmathicgb0t64 deb libs optional arch=any mathicgb deb math optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, libgtest-dev, libmathic-dev, libmemtailor-dev, libtbb-dev, pkg-config"
+  ],
+  "Uploaders": [
+    "Doug Torrance \u003cdtorrance@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/math-team/mathicgb"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/math-team/mathicgb.git"
+  ],
+  "Version": [
+    "1.0~git20250513-1"
+  ]
+}

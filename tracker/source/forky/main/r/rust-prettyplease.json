@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-prettyplease-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.61) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1-dev (\u003e= 1.0.80-~~) \u003c!nocheck\u003e, librust-syn-2+full-dev (\u003e= 2.0.81-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "a6a2c9daf2b05384c1e39bd481eb440ac76bc3a59fc4a1ec4cf16451b3d0b3e6 1858 rust-prettyplease_0.2.25-1.dsc 64d1ec885c64d0457d564db4ec299b2dae3f9c02808b8ad9c3a089c591b18033 58681 rust-prettyplease_0.2.25.orig.tar.gz fab9b55977484cc9b34425799d16b7fa67519a11430a7e128b228a19e67dafa9 2688 rust-prettyplease_0.2.25-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-prettyplease"
+  ],
+  "Files": [
+    "66f170e5dacecefc0aab46e74a4768d7 1858 rust-prettyplease_0.2.25-1.dsc 23c36ea7b1c86aba6dbec7450f9f6e19 58681 rust-prettyplease_0.2.25.orig.tar.gz 6f371e393030304a6ec05575e6898f93 2688 rust-prettyplease_0.2.25-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dtolnay/prettyplease"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-prettyplease"
+  ],
+  "Package-List": [
+    "librust-prettyplease-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-indoc-2+default-dev, librust-proc-macro2-1-dev, librust-quote-1-dev, librust-syn-2+parsing-dev, rustc"
+  ],
+  "Uploaders": [
+    "Michael Tokarev \u003cmjt@tls.msk.ru\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/prettyplease"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/prettyplease]"
+  ],
+  "Version": [
+    "0.2.25-1"
+  ]
+}

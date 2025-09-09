@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-logos-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.74.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-logos-derive-0.15+default-dev (\u003e= 0.15.1-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "bdd216888236cfbf82fa04745e41f19b3100accbe79f0a255d26411b0511f4b3 1641 rust-logos_0.15.1-1.dsc ff472f899b4ec2d99161c51f60ff7075eeb3097069a36050d8037a6325eb8154 1631747 rust-logos_0.15.1.orig.tar.gz 150d20f8652cc864c0acbe4f8145e7a154367929b63801c802c66a5d200aa7aa 3216 rust-logos_0.15.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-logos"
+  ],
+  "Files": [
+    "5d109610540056da9b3ca603174649ed 1641 rust-logos_0.15.1-1.dsc 67ac1c6e8daa8f6da240b4a81e6dfed6 1631747 rust-logos_0.15.1.orig.tar.gz eeb3a5c99e9bae0b99dd3357948fae5f 3216 rust-logos_0.15.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://logos.maciej.codes/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-logos"
+  ],
+  "Package-List": [
+    "librust-logos-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/logos"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/logos]"
+  ],
+  "Version": [
+    "0.15.1-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Autobuild": [
+    "yes"
+  ],
+  "Binary": [
+    "libclamunrar, libclamunrar11, clamav-testfiles-rar"
+  ],
+  "Build-Depends": [
+    "bindgen, cargo, check, cmake, debhelper-compat (= 13), libbz2-dev, libcurl4-openssl-dev, libjson-c-dev, libltdl-dev, libmilter-dev, libmspack-dev, libncurses-dev, libpcre2-dev, libssl-dev, libtfm-dev, libxml2-dev, perl:native, pkg-config, po-debconf, python3-pytest, rustfmt, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "2087f0724dca8160adb7865229246d3d7382fdaffa68eb004597ae839844074e 2341 libclamunrar_1.0.3-1~deb12u1.dsc c944c21e128445fab7b7eadce50195eefdf863661c7c4563c20fb9c9a09977d5 14390520 libclamunrar_1.0.3.orig.tar.xz b6f725cd28758bea0483a357f719de7ceaf8662a66829c1db85cd36b6af047a1 23516 libclamunrar_1.0.3-1~deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/non-free/libc/libclamunrar"
+  ],
+  "Files": [
+    "975813496e9cdf4b6233213c62a77c85 2341 libclamunrar_1.0.3-1~deb12u1.dsc b684f6dd19aa48e5250e9fb222226e78 14390520 libclamunrar_1.0.3.orig.tar.xz 51164d7a62381e7933e096ff655fb71f 23516 libclamunrar_1.0.3-1~deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.clamav.net/"
+  ],
+  "Maintainer": [
+    "ClamAV Team \u003cpkg-clamav-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libclamunrar"
+  ],
+  "Package-List": [
+    "clamav-testfiles-rar deb non-free/libs optional arch=all libclamunrar deb non-free/libs optional arch=all libclamunrar11 deb non-free/libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "non-free/libs"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Uploaders": [
+    "Michael Tautschnig \u003cmt@debian.org\u003e, Sebastian Andrzej Siewior \u003csebastian@breakpoint.cc\u003e, Scott Kitterman \u003cscott@kitterman.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/clamav-team/libclamunrar"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/clamav-team/libclamunrar.git -b unstable"
+  ],
+  "Version": [
+    "1.0.3-1~deb12u1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "openrazer-meta, openrazer-driver-dkms, openrazer-daemon, python3-openrazer, openrazer-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, dh-sequence-dkms, pkgconf, python3, python3-setuptools, systemd-dev"
+  ],
+  "Checksums-Sha256": [
+    "0d9264fc751268fe50bfb18ac2f26565aab18eed6d9fc67d055b6d2f03d739f9 2253 openrazer_3.10.3+dfsg-2.dsc 09834a8d231e8dae788880dee52f587a7d9fce411b14b718fb53718ccedf3bf1 182204 openrazer_3.10.3+dfsg.orig.tar.xz adaf7776aefb49003de6200d2acf822fc4b846c556982a51e4358e0a95aa49ea 12100 openrazer_3.10.3+dfsg-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/openrazer"
+  ],
+  "Files": [
+    "f77b1dd5b3fe857cb962eea06498462c 2253 openrazer_3.10.3+dfsg-2.dsc 7d863e36a5c2d5c9885548937ac1de09 182204 openrazer_3.10.3+dfsg.orig.tar.xz afe84b53a775e7ed4d7d72a1e2035348 12100 openrazer_3.10.3+dfsg-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://openrazer.github.io/"
+  ],
+  "Maintainer": [
+    "Dylan Aïssi \u003cdaissi@debian.org\u003e"
+  ],
+  "Package": [
+    "openrazer"
+  ],
+  "Package-List": [
+    "openrazer-daemon deb misc optional arch=all openrazer-doc deb doc optional arch=all openrazer-driver-dkms deb kernel optional arch=all openrazer-meta deb misc optional arch=all python3-openrazer deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-dkms"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/openrazer"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/openrazer.git"
+  ],
+  "Version": [
+    "3.10.3+dfsg-2"
+  ]
+}

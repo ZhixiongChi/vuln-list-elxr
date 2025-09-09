@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "passwd, login.defs, uidmap, libsubid5, libsubid-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-package-notes, dh-sequence-zz-debputy-rrr (\u003e= 0.1.23~), docbook-xml \u003c!nodoc\u003e, docbook-xsl \u003c!nodoc\u003e, gettext, itstool \u003c!nodoc\u003e, libacl1-dev, libattr1-dev, libaudit-dev [linux-any], libbsd-dev, libcrypt-dev, libltdl-dev, libpam0g-dev, libselinux1-dev [linux-any], libsemanage-dev [linux-any], libxml2-utils \u003c!nodoc\u003e, pkgconf, systemd-dev [linux-any], xsltproc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "e063c6d98e3e89df88872091ca30d3dbe8c0787c41774d42d58a4beca0dfec4c 2844 shadow_4.18.0-1.dsc add4604d3bc410344433122a819ee4154b79dd8316a56298c60417e637c07608 2347912 shadow_4.18.0.orig.tar.xz f16001bf1aedc1aff5d406ecfa4163a4aa4598550f5b9df6b2f3d535d53f535f 488 shadow_4.18.0.orig.tar.xz.asc 9ff353f5b1109ed5ad5641e103eb0d3a252c2d46793a3cd9266fb2d80688a5ac 167164 shadow_4.18.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/shadow"
+  ],
+  "Files": [
+    "8c5c1f1e77d6e3590cff3329481a7d05 2844 shadow_4.18.0-1.dsc 30ef46f54363db1d624587be68794ef2 2347912 shadow_4.18.0.orig.tar.xz 9c2ce5233ceb7b7717f4fd6104ef37a3 488 shadow_4.18.0.orig.tar.xz.asc bbc2468e99a115fa0d7213ae26d82e9d 167164 shadow_4.18.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/shadow-maint/shadow"
+  ],
+  "Maintainer": [
+    "Shadow package maintainers \u003cpkg-shadow-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "shadow"
+  ],
+  "Package-List": [
+    "libsubid-dev deb libdevel optional arch=any libsubid5 deb libs optional arch=any login.defs deb admin required arch=all passwd deb admin required arch=any uidmap deb admin optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, expect, procps"
+  ],
+  "Uploaders": [
+    "Serge Hallyn \u003cserge@hallyn.com\u003e, Chris Hofstaedtler \u003czeha@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/shadow"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/shadow.git -b master"
+  ],
+  "Version": [
+    "1:4.18.0-1"
+  ]
+}

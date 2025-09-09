@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "prometheus-nginx-exporter"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.21~), golang-github-nginxinc-nginx-plus-go-client-dev (\u003e= 2.2.0), golang-github-prometheus-client-golang-dev (\u003e= 1.19.0), golang-github-prometheus-common-dev, golang-github-prometheus-exporter-toolkit-dev, golang-gopkg-alecthomas-kingpin.v2-dev"
+  ],
+  "Checksums-Sha256": [
+    "7f2e67d69f96e9c2c755766fab82ab38600030bf6b1d378a57fe6465b0ba4b69 2527 prometheus-nginx-exporter_1.4.2-1.dsc 5940cf805cf695599934d7f68e6482ccb074925c25f91c18d5947c38bd37ed1d 777498 prometheus-nginx-exporter_1.4.2.orig.tar.gz 18dc9111733029e282da53780ac201659aab78a270cb5ebe343037478dfb1042 6860 prometheus-nginx-exporter_1.4.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/prometheus-nginx-exporter"
+  ],
+  "Files": [
+    "4b7690824b7ec6fc2e5029ff99a83d87 2527 prometheus-nginx-exporter_1.4.2-1.dsc 29ed14ed8426e8d805222c98e6f5e614 777498 prometheus-nginx-exporter_1.4.2.orig.tar.gz b38fc9fb82f6f1ec05ee7ae2046edad3 6860 prometheus-nginx-exporter_1.4.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/nginx/nginx-prometheus-exporter"
+  ],
+  "Homepage": [
+    "https://github.com/nginx/nginx-prometheus-exporter"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "prometheus-nginx-exporter"
+  ],
+  "Package-List": [
+    "prometheus-nginx-exporter deb net optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Daniel Swarbrick \u003cdswarbrick@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/prometheus-nginx-exporter"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/prometheus-nginx-exporter.git"
+  ],
+  "Version": [
+    "1.4.2-1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "gpsbabel, gpsbabel-doc, gpsbabel-gui"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, pkgconf, libexpat1-dev, expat, libxml2-utils, libusb-1.0-0-dev, zlib1g-dev, libshp-dev, locales-all \u003c!nocheck\u003e, qt6-5compat-dev, qt6-base-dev, qt6-serialport-dev, qt6-tools-dev, qt6-translations-l10n, qt6-webengine-dev [amd64 arm64 armhf i386], imagemagick, xsltproc, docbook-xsl"
+  ],
+  "Build-Depends-Indep": [
+    "fop, docbook-xml"
+  ],
+  "Checksums-Sha256": [
+    "9a3a31edfb9af0a6a9712d1792dd66f40b2a70ba12eca0aaf3cd8bafbd7771bb 2844 gpsbabel_1.10.0+ds-2.dsc df485c7544623793beb2f2ca5f60ceabb71a7a913fc762c5af01bf607446513a 8774048 gpsbabel_1.10.0+ds.orig.tar.xz 1ec5568287483f107038bb9ee9708cc859bca6e43fa2c4e59759cccc0a45a5f4 14964 gpsbabel_1.10.0+ds-2.debian.tar.xz"
+  ],
+  "Description": [
+    "GPS file conversion plus transfer to/from GPS units GPSBabel converts waypoints, tracks, and routes from one format to another, whether that format is a common mapping format like Delorme, Streets and Trips, or even a serial upload or download to a GPS unit such as those from Garmin and Magellan."
+  ],
+  "Dgit": [
+    "31369de4de763ab6919c91b645b1cfdad1fa994a debian archive/debian/1.10.0+ds-2 https://git.dgit.debian.org/gpsbabel"
+  ],
+  "Directory": [
+    "pool/main/g/gpsbabel"
+  ],
+  "Files": [
+    "0cba83bfc4b147780831984f67758dc1 2844 gpsbabel_1.10.0+ds-2.dsc 67246c6f7bd328fe9339242db6459e81 8774048 gpsbabel_1.10.0+ds.orig.tar.xz 569f25216b6c52264304cecb28d88e65 14964 gpsbabel_1.10.0+ds-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gpsbabel.org/"
+  ],
+  "Maintainer": [
+    "Debian GPS team \u003cgpsbabel@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "gpsbabel"
+  ],
+  "Package-List": [
+    "gpsbabel deb utils optional arch=any gpsbabel-doc deb doc optional arch=all gpsbabel-gui deb utils optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Uploaders": [
+    "Bernd Zeimetz \u003cbzed@debian.org\u003e, Jochen Sprickerhof \u003cjspricke@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gps-team/pkg-gpsbabel"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gps-team/pkg-gpsbabel.git"
+  ],
+  "Version": [
+    "1.10.0+ds-2"
+  ]
+}

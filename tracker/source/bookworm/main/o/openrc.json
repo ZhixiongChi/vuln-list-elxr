@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "openrc, librc1, librc-dev, libeinfo1, libeinfo-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec, libaudit-dev [linux-any], libpam0g-dev [linux-any], libselinux1-dev [linux-any], meson, pkg-config"
+  ],
+  "Checksums-Sha256": [
+    "d86c5c85776f81157dec230390a27c5ec5d9d06d2e7c27238ce8dd0121bc1d22 2339 openrc_0.45.2-2+deb12u1.dsc 2a47fbf6ef2d252bbee1232e7626f8cc445eaeeeabb49ced1e7b0d598dafeb66 192020 openrc_0.45.2.orig.tar.xz 48ce1226b1591df10a1a44e2c01faf05aa9040f3f95361edb6ca92144df01a07 25220 openrc_0.45.2-2+deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/openrc"
+  ],
+  "Files": [
+    "7501db097fef06ecde59d39f0b89112f 2339 openrc_0.45.2-2+deb12u1.dsc 66c00b46950bf954d3e47b68999aa44a 192020 openrc_0.45.2.orig.tar.xz 16fe468be3aef38809d4755696fb7121 25220 openrc_0.45.2-2+deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openrc/openrc"
+  ],
+  "Maintainer": [
+    "OpenRC Debian Maintainers \u003copenrc@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "openrc"
+  ],
+  "Package-List": [
+    "libeinfo-dev deb libdevel optional arch=any libeinfo1 deb libs optional arch=any librc-dev deb libdevel optional arch=any librc1 deb libs optional arch=any openrc deb admin optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, Mark Hindley \u003cleepen@debian.org\u003e, Benda Xu \u003cheroxbd@gentoo.org\u003e, Mo Zhou \u003ccdluminate@gmail.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/openrc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/openrc.git"
+  ],
+  "Version": [
+    "0.45.2-2+deb12u1"
+  ]
+}

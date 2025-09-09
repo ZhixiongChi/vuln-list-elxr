@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libllvmspirvlib19.1, libllvmspirvlib-19-dev, llvm-spirv-19"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-pkgkde-symbolshelper, cmake, gcc (\u003e= 4:15), pkgconf, spirv-headers (\u003e= 1.6.1+1.4.313.0), spirv-tools, libclang-19-dev, llvm-19-dev, clang-19 \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "0f4274bd0bbf1892b580b2af663655823c30ffa089425b5bd39eae7d1bb7deb9 2608 spirv-llvm-translator-19_19.1.10-2.dsc c829a6090b7ea9cdebaa5d3dbad0972f75bccb46d09b2fe02db17afd7cf4eff2 1778059 spirv-llvm-translator-19_19.1.10.orig.tar.gz fcb978fa9def7639ca1d2105c0151e7c272fbf37f42626ca7e87f375fd03646f 12960 spirv-llvm-translator-19_19.1.10-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/spirv-llvm-translator-19"
+  ],
+  "Files": [
+    "d6323cabb3fd0cafcb6e048f2d8169e1 2608 spirv-llvm-translator-19_19.1.10-2.dsc c22fdb29f1f6d5528206316de6f3aa91 1778059 spirv-llvm-translator-19_19.1.10.orig.tar.gz 4bb05554d61ed59829e3319f879d60ef 12960 spirv-llvm-translator-19_19.1.10-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/KhronosGroup/SPIRV-LLVM-Translator"
+  ],
+  "Maintainer": [
+    "Debian OpenCL team \u003cpkg-opencl-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "spirv-llvm-translator-19"
+  ],
+  "Package-List": [
+    "libllvmspirvlib-19-dev deb libdevel optional arch=any libllvmspirvlib19.1 deb libs optional arch=any llvm-spirv-19 deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "clang-19, cmake, g++, llvm-19-dev, make, pkgconf, spirv-headers, spirv-tools"
+  ],
+  "Uploaders": [
+    "Timo Aaltonen \u003ctjaalton@debian.org\u003e, Andreas Beckmann \u003canbe@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/opencl-team/spirv-llvm-translator"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/opencl-team/spirv-llvm-translator.git -b llvm19/main"
+  ],
+  "Version": [
+    "19.1.10-2"
+  ]
+}

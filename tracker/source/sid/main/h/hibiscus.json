@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "hibiscus, hibiscus-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), default-jdk-headless, dh-sequence-javahelper, ant, jameica, libhbci4j-core-java (\u003e= 3.1.82), libitext5-java, libobantoo-java, libsuper-csv-java, libeclipse-swtchart-java, libqrcodegen-java"
+  ],
+  "Checksums-Sha256": [
+    "e53542e58e080c1ddc517486b0b6717478758f73028a2a87a82ea02e807e24bc 2856 hibiscus_2.10.27+dfsg-1.dsc 20e9066c044e39bf5483667ae4502bebbfa60462043c6b175869d50715e3bb9a 7613992 hibiscus_2.10.27+dfsg.orig.tar.xz 0be227565418475ad2a2e6ffdae10bc36762ccd43f2679517457e3d24053cd4d 10368 hibiscus_2.10.27+dfsg-1.debian.tar.xz"
+  ],
+  "Description": [
+    "Java online banking client using the HBCI standard A Java based, platform independent (running on Linux, Windows, OS X, OpenBSD, OpenSolaris) homebanking application, that uses the German FinTS/HBCI standard. All data (accounts, transactions, addresses, ..) are stored encrypted into an embedded database (H2) by default or on a MySQL/MariaDB server (if configured). . Hibiscus runs as a plugin within the Jameica framework as either a typical desktop application or headless in server mode."
+  ],
+  "Dgit": [
+    "dd7451e96bd17f3b78c5060ce294b209d312f47f debian archive/debian/2.10.27+dfsg-1 https://git.dgit.debian.org/hibiscus"
+  ],
+  "Directory": [
+    "pool/main/h/hibiscus"
+  ],
+  "Files": [
+    "3b8835238f3c204b0e858c5cfe1fc27c 2856 hibiscus_2.10.27+dfsg-1.dsc 5a0bd7dfc46c4467b26a6307c91c766b 7613992 hibiscus_2.10.27+dfsg.orig.tar.xz 7a5baa403259b737fe7fbd55b991b0b8 10368 hibiscus_2.10.27+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.willuhn.de/products/hibiscus/"
+  ],
+  "Maintainer": [
+    "Debian Java Maintainers \u003cpkg-java-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "hibiscus"
+  ],
+  "Package-List": [
+    "hibiscus deb misc optional arch=all hibiscus-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Jochen Sprickerhof \u003cjspricke@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/java-team/hibiscus"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/java-team/hibiscus.git"
+  ],
+  "Version": [
+    "2.10.27+dfsg-1"
+  ]
+}

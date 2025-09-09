@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-sendfd-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "1b702c81683b6d5609aba669ab405087658cc19bb87b658f65face4684bdadce 1616 rust-sendfd_0.4.4-1.dsc b183bfd5b1bc64ab0c1ef3ee06b008a9ef1b68a7d3a99ba566fbfe7a7c6d745b 13046 rust-sendfd_0.4.4.orig.tar.gz 40d7eabf4574f1d24e195b6839812bf6869c2ba21cbe2e2dc2f65acbb416d2c8 2860 rust-sendfd_0.4.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-sendfd"
+  ],
+  "Files": [
+    "df1742deeb16e674d47f110f37b85c70 1616 rust-sendfd_0.4.4-1.dsc a6ad591e8e95e43ec7acaebb94839790 13046 rust-sendfd_0.4.4.orig.tar.gz 310fbf07b63aedda2340e270f01564b0 2860 rust-sendfd_0.4.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/standard-ai/sendfd"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-sendfd"
+  ],
+  "Package-List": [
+    "librust-sendfd-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Sebastian Ramacher \u003csramacher@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/sendfd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/sendfd]"
+  ],
+  "Version": [
+    "0.4.4-1"
+  ]
+}

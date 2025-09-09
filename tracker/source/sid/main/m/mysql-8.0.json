@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libmysqlclient21, libmysqlclient-dev, mysql-client-core-8.0, mysql-client-8.0, mysql-server-core-8.0, mysql-server-8.0, mysql-server, mysql-client, mysql-testsuite, mysql-testsuite-8.0, mysql-source-8.0, mysql-router"
+  ],
+  "Build-Depends": [
+    "bison, chrpath, cmake, debhelper-compat (= 13), dh-apparmor, dpkg-dev (\u003e= 1.16.1~), libaio-dev [linux-any], libcurl4-openssl-dev, libedit-dev, libevent-dev, libexpect-perl, libicu-dev, libjson-perl, liblz4-dev (\u003e= 0.0~r131), libmecab-dev, libncurses-dev (\u003e= 5.0-6), libnuma-dev [amd64 arm64 i386 mips mips64el mipsel powerpc ppc64el], libprotobuf-dev, libprotoc-dev, libssl-dev, libtirpc-dev, libwrap0-dev (\u003e= 7.6-8.3), libzstd-dev, lsb-release, lz4, perl, pkgconf, po-debconf, protobuf-compiler, psmisc, unzip, zlib1g-dev (\u003e= 1:1.1.3-5)"
+  ],
+  "Checksums-Sha256": [
+    "2a64f1d4b9705f1b5926d001ac4c33c9fc307caea3d477b4c675e3ee21080d56 3582 mysql-8.0_8.0.43-3.dsc 85fd5c3ac88884dc5ac4522ce54ad9c11a91f9396fecaa27152c757a3e6e936f 492715363 mysql-8.0_8.0.43.orig.tar.gz 015c31b75184e4841f26692577db31761e86c8674ea0077844c5e5594e5ccd75 833 mysql-8.0_8.0.43.orig.tar.gz.asc 7917ba92c53a5529284d602cfbaa99aca473ccd6a3b1658d91584976548a44f5 146044 mysql-8.0_8.0.43-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mysql-8.0"
+  ],
+  "Files": [
+    "a465f95259e4cde5820d23b921f0ab98 3582 mysql-8.0_8.0.43-3.dsc 5f44ad3ef68dc943e145f26574dcf435 492715363 mysql-8.0_8.0.43.orig.tar.gz a875b40749289b5f01ce20e552ceb52a 833 mysql-8.0_8.0.43.orig.tar.gz.asc c66640586cabbc978bfc410d219ca955 146044 mysql-8.0_8.0.43-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://dev.mysql.com/"
+  ],
+  "Maintainer": [
+    "Debian MySQL Maintainers \u003cpkg-mysql-maint@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "mysql-8.0"
+  ],
+  "Package-List": [
+    "libmysqlclient-dev deb libdevel optional arch=any libmysqlclient21 deb libs optional arch=any mysql-client deb database optional arch=all mysql-client-8.0 deb database optional arch=any mysql-client-core-8.0 deb database optional arch=any mysql-router deb database optional arch=any mysql-server deb database optional arch=all mysql-server-8.0 deb database optional arch=any mysql-server-core-8.0 deb database optional arch=any mysql-source-8.0 deb database optional arch=any mysql-testsuite deb database optional arch=all mysql-testsuite-8.0 deb database optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "libexpect-perl"
+  ],
+  "Uploaders": [
+    "Lena Voytek \u003clena.voytek@canonical.com\u003e, Lars Tangvald \u003clars.tangvald@oracle.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/mariadb-team/mysql"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/mariadb-team/mysql.git -b mysql-8.0/debian/latest"
+  ],
+  "Version": [
+    "8.0.43-3"
+  ]
+}

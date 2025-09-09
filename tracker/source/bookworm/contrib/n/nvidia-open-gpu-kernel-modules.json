@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "amd64 arm64"
+  ],
+  "Binary": [
+    "nvidia-open-kernel-support, nvidia-open-kernel-dkms, nvidia-open-kernel-source"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), quilt"
+  ],
+  "Build-Depends-Arch": [
+    "dh-sequence-dkms, linux-headers-amd64 [amd64] \u003c!nocheck\u003e, linux-headers-arm64 [arm64] \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c97c182c0efe4ff817040403982701ea547aea5a45727d6ef2bd9daaeb699b73 2713 nvidia-open-gpu-kernel-modules_535.247.01-1~deb12u1.dsc 3dd971fe732fc62abebf904571b57b54a8c800927711d5520def173385a80966 12517152 nvidia-open-gpu-kernel-modules_535.247.01.orig.tar.xz 815ea9177251e4b40991db7cb7cf6b1b061383a6563e945914574b139d04076a 29828 nvidia-open-gpu-kernel-modules_535.247.01-1~deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/contrib/n/nvidia-open-gpu-kernel-modules"
+  ],
+  "Files": [
+    "e0285086944045a210c0f63db4fc3057 2713 nvidia-open-gpu-kernel-modules_535.247.01-1~deb12u1.dsc 2070699305268eab07b5d6cb2ea50ac7 12517152 nvidia-open-gpu-kernel-modules_535.247.01.orig.tar.xz 7181a7d2b791e63c234dd1d7beedb984 29828 nvidia-open-gpu-kernel-modules_535.247.01-1~deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/NVIDIA/open-gpu-kernel-modules"
+  ],
+  "Maintainer": [
+    "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "nvidia-open-gpu-kernel-modules"
+  ],
+  "Package-List": [
+    "nvidia-open-kernel-dkms deb contrib/kernel optional arch=amd64,arm64 nvidia-open-kernel-source deb contrib/kernel optional arch=amd64,arm64 nvidia-open-kernel-support deb contrib/kernel optional arch=amd64,arm64"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "contrib/misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-dkms"
+  ],
+  "Testsuite-Triggers": [
+    "linux-doc, module-assistant-autopkgtest"
+  ],
+  "Uploaders": [
+    "Andreas Beckmann \u003canbe@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/nvidia-team/nvidia-open-gpu-kernel-modules"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/nvidia-team/nvidia-open-gpu-kernel-modules.git"
+  ],
+  "Version": [
+    "535.247.01-1~deb12u1"
+  ]
+}

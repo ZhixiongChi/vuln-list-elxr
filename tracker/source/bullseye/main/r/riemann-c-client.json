@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libriemann-client0, libriemann-client-dev, riemann-c-client"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10~), pkg-config, protobuf-c-compiler, libprotobuf-c-dev, libjson-c-dev, libgnutls28-dev (\u003e= 3.3.0~), check"
+  ],
+  "Checksums-Sha256": [
+    "1e531bcc6564505b409d33d820dfd15d29ee6e37887156f037559275b3b786dd 2224 riemann-c-client_1.10.4-2+deb11u1.dsc 14b46c073a68401d57d2e309f992577dc9cd07b0da5c912ac30855acd4d9c879 54156 riemann-c-client_1.10.4.orig.tar.xz e8820940314196d7f64f6ea6e18bea9b58227250e197bac9ebbb22772a249455 5304 riemann-c-client_1.10.4-2+deb11u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/riemann-c-client"
+  ],
+  "Files": [
+    "342f9e860c4b3882cfd5dc26d218b0da 2224 riemann-c-client_1.10.4-2+deb11u1.dsc 1d4f7f3e16a69175e0f0499be21572b3 54156 riemann-c-client_1.10.4.orig.tar.xz 25571ba16a7014d2ccf71cf22b649865 5304 riemann-c-client_1.10.4-2+deb11u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://git.madhouse-project.org/algernon/riemann-c-client"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "riemann-c-client"
+  ],
+  "Package-List": [
+    "libriemann-client-dev deb libdevel optional arch=any libriemann-client0 deb libs optional arch=any riemann-c-client deb net optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.2.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, check, libgnutls28-dev, pkg-config"
+  ],
+  "Vcs-Browser": [
+    "https://git.madhouse-project.org/algernon/riemann-c-client/src/branch/debian/master"
+  ],
+  "Vcs-Git": [
+    "https://git.madhouse-project.org/algernon/riemann-c-client.git -b debian/master"
+  ],
+  "Version": [
+    "1.10.4-2+deb11u1"
+  ]
+}

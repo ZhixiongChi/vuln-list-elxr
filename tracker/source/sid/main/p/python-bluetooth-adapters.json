@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-bluetooth-adapters"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-aiooui \u003c!nocheck\u003e, python3-all, python3-poetry-core"
+  ],
+  "Build-Depends-Indep": [
+    "python3-bleak (\u003e= 1.0.1) \u003c!nocheck\u003e, python3-dbus-fast \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-pytest-timeout \u003c!nocheck\u003e, python3-uart-devices \u003c!nocheck\u003e, python3-usb-devices \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "4fa2843dace193a5e17c9d57c0f14fa5e5cd3c6bd6b3bf703548098ae2cdf28c 2545 python-bluetooth-adapters_2.1.0-1.dsc 28237211e991cd8f634d122a9c7c55fb9405cce937b59deb593ddbd1b480e747 74639 python-bluetooth-adapters_2.1.0.orig.tar.gz b8554813525dc1a59b9745e3506da95bf42356af708adbb1a7887a6d8c5ffb51 2596 python-bluetooth-adapters_2.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-bluetooth-adapters"
+  ],
+  "Files": [
+    "250e7df212e9d224f68720b6193b777b 2545 python-bluetooth-adapters_2.1.0-1.dsc a179207c242cd6df2600cbc5e69d00cb 74639 python-bluetooth-adapters_2.1.0.orig.tar.gz cf8d8b039425f97bc6cd6c11a219afc6 2596 python-bluetooth-adapters_2.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/bluetooth-devices/bluetooth-adapters"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-bluetooth-adapters"
+  ],
+  "Package-List": [
+    "python3-bluetooth-adapters deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Edward Betts \u003cedward@4angle.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-bluetooth-adapters"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-bluetooth-adapters.git"
+  ],
+  "Version": [
+    "2.1.0-1"
+  ]
+}

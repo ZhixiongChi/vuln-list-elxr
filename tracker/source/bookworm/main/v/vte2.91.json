@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libvte-2.91-0, libvte-2.91-0-udeb, libvte-2.91-gtk4-0, gir1.2-vte-2.91, gir1.2-vte-3.91, libvte-2.91-dev, libvte-2.91-gtk4-dev, libvte-2.91-common, libvte-2.91-doc, libvte-2.91-gtk4-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gnome, dh-sequence-gir, gettext, gi-docgen, libgirepository1.0-dev (\u003e= 0.9.12), libglib2.0-dev (\u003e= 2.52.0), libgnutls28-dev (\u003e= 3.2.7), libgtk-3-dev (\u003e= 3.24.22), libgtk-4-dev, libpango1.0-dev (\u003e= 1.22.0), libpcre2-dev (\u003e= 10.21), libsystemd-dev (\u003e= 220) [linux-any], libxml2-utils, meson (\u003e= 0.50.0), valac (\u003e= 0.31.1)"
+  ],
+  "Build-Depends-Indep": [
+    "libatk1.0-doc \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e, libgtk-3-doc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "45fb131410990a310e97602609fdfc356d9b744441531e685af16c918e1ef859 3260 vte2.91_0.70.6-2~deb12u1.dsc e90e208dd5ab70f9675e6b532ebd5c8d830943be40eecbd9d36e980979080152 901104 vte2.91_0.70.6.orig.tar.xz b64d33ebd63da71bd2ad714abd3c599b04894c31574f72a7f02970cbee1da3fc 25804 vte2.91_0.70.6-2~deb12u1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "cd5e130379c0fa589f765cd966ec494d9400ad3f debian archive/debian/0.70.6-2_deb12u1 https://git.dgit.debian.org/vte2.91"
+  ],
+  "Directory": [
+    "pool/main/v/vte2.91"
+  ],
+  "Files": [
+    "794756842a477f3beade51bd75fcfba2 3260 vte2.91_0.70.6-2~deb12u1.dsc f90da9149f3fdac648007b3382d8d687 901104 vte2.91_0.70.6.orig.tar.xz 39d06767c8b197f2f79eec17812f2c7d 25804 vte2.91_0.70.6-2~deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Apps/Terminal/VTE"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "vte2.91"
+  ],
+  "Package-List": [
+    "gir1.2-vte-2.91 deb introspection optional arch=any gir1.2-vte-3.91 deb introspection optional arch=any libvte-2.91-0 deb libs optional arch=any libvte-2.91-0-udeb udeb debian-installer optional arch=any profile=!noudeb libvte-2.91-common deb libs optional arch=any libvte-2.91-dev deb libdevel optional arch=any libvte-2.91-doc deb doc optional arch=all profile=!nodoc libvte-2.91-gtk4-0 deb libs optional arch=any libvte-2.91-gtk4-dev deb libdevel optional arch=any libvte-2.91-gtk4-doc deb doc optional arch=all profile=!nodoc"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential"
+  ],
+  "Uploaders": [
+    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/vte2.91"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/vte2.91.git -b debian/bookworm"
+  ],
+  "Version": [
+    "0.70.6-2~deb12u1"
+  ]
+}

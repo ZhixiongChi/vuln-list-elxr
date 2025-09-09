@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-termimad-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-coolor-1+crossterm-dev (\u003e= 1.1.0-~~) \u003c!nocheck\u003e, librust-coolor-1+default-dev (\u003e= 1.1.0-~~) \u003c!nocheck\u003e, librust-crokey-1+default-dev \u003c!nocheck\u003e, librust-crossbeam-0.8+default-dev \u003c!nocheck\u003e, librust-lazy-regex-3+default-dev (\u003e= 3.4-~~) \u003c!nocheck\u003e, librust-minimad-0.13+default-dev \u003c!nocheck\u003e, librust-serde-1+default-dev \u003c!nocheck\u003e, librust-serde-1+derive-dev \u003c!nocheck\u003e, librust-thiserror-2+default-dev \u003c!nocheck\u003e, librust-unicode-width-0.1+default-dev (\u003e= 0.1.11-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "89028f5f2475da781c67557f046450b5b29245d6c3caa9215674ac82bb4d149b 2349 rust-termimad_0.33.0-1.dsc b23646cdde4c2e9d6f2621424751b48653e5755f50163b2ff5ce3b32ebf17104 444811 rust-termimad_0.33.0.orig.tar.gz fe93da51e54b1589f03fe6142bd41ac0b8f03d8096dadbeb068df8dc93ebe3b2 3148 rust-termimad_0.33.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-termimad"
+  ],
+  "Files": [
+    "f4147a834168b8734138935a57403401 2349 rust-termimad_0.33.0-1.dsc 8e078d768cd622293bd2d75af8739c3e 444811 rust-termimad_0.33.0.orig.tar.gz e7449a33873d71f1b1aa594bd3f1a715 3148 rust-termimad_0.33.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Canop/termimad"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-termimad"
+  ],
+  "Package-List": [
+    "librust-termimad-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-anyhow-1+default-dev, librust-cli-log-2+default-dev, librust-deser-hjson-2+default-dev, librust-pretty-assertions-1+default-dev, librust-serde-json-1+default-dev, librust-terminal-clipboard-0.4+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Ananthu C V \u003cweepingclown@debian.org\u003e, NoisyCoil \u003cnoisycoil@tutanota.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/termimad"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/termimad]"
+  ],
+  "Version": [
+    "0.33.0-1"
+  ]
+}

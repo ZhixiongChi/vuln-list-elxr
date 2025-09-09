@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libadwaita-1-0, libadwaita-1-dev, gir1.2-adw-1, libadwaita-1-doc, libadwaita-1-examples"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gir1.2-gio-2.0-dev, gir1.2-gtk-4.0-dev, libappstream-dev, libgirepository1.0-dev, libglib2.0-dev (\u003e= 2.80.0), libgnome-desktop-3-dev, libgtk-4-dev (\u003e= 4.17.5), libxml2-utils, mesa-vulkan-drivers \u003c!nocheck\u003e, meson (\u003e= 0.59.0), pkgconf, python3-gi (\u003e= 3.40) \u003c!nocheck\u003e, sassc, valac (\u003e= 0.20), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "gi-docgen \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "e0fe9380f2afbbe4c4a85d376837e16f68cb4045f9f21635bb9068fb19b4ffc2 2878 libadwaita-1_1.7.6-1~deb13u1.dsc 5eacc5550f0bdbba6a1568aebf25a3d88f5ee07d6b558becc6fd9487579c9a29 2803676 libadwaita-1_1.7.6.orig.tar.xz 66542477b4026f4e1a86a1d6ab0a2b524ee2aad62888d6f8422ddb53a4f7a2bc 19772 libadwaita-1_1.7.6-1~deb13u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/liba/libadwaita-1"
+  ],
+  "Files": [
+    "710ca107ad48e546fa73fa6412fd7aae 2878 libadwaita-1_1.7.6-1~deb13u1.dsc b8465c0046767c4004a4660d2e790985 2803676 libadwaita-1_1.7.6.orig.tar.xz b8aaa9596b87743d97a81a9faa3be209 19772 libadwaita-1_1.7.6-1~deb13u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gnome.pages.gitlab.gnome.org/libadwaita/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libadwaita-1"
+  ],
+  "Package-List": [
+    "gir1.2-adw-1 deb introspection optional arch=any libadwaita-1-0 deb libs optional arch=any libadwaita-1-dev deb libdevel optional arch=any libadwaita-1-doc deb doc optional arch=all profile=!nodoc libadwaita-1-examples deb x11 optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkgconf, python3, python3-gi, xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Guido Günther \u003cagx@sigxcpu.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/libadwaita"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/libadwaita.git"
+  ],
+  "Version": [
+    "1.7.6-1~deb13u1"
+  ]
+}

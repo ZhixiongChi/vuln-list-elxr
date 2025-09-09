@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-argon2, python-argon2-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, pybuild-plugin-pyproject, python3-hatchling, python3-hatch-vcs, python3-hatch-fancy-pypi-readme, python3-argon2-cffi-bindings, python3-typing-extensions, python3-hypothesis, python3-pytest, python3-mypy, python3-sphinx, python3-sphinx-notfound-page, python3-sphinx-copybutton, python3-myst-parser"
+  ],
+  "Checksums-Sha256": [
+    "d9300892d5cd370e5e5b55380c980b1d5347ab1e4f8be79d3801c23570fe9243 2472 python-argon2_25.1.0-2.dsc 041c494e0b5d58f0428cacdfbe4f35d93cf019e26c2eb3db8447ce407ed42567 39508 python-argon2_25.1.0.orig.tar.xz 50b6131cc3e70b06e0b9d7015d092eaf249b8fc2e33a3f30ba92fd51665e57d8 4700 python-argon2_25.1.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-argon2"
+  ],
+  "Files": [
+    "9801a2d5dfd15c7b195a28c96a4439ba 2472 python-argon2_25.1.0-2.dsc e14e77f8e5ab567fb8b35f97c6fdd063 39508 python-argon2_25.1.0.orig.tar.xz 5864fd6b509025ab92ab725ec152ea0b 4700 python-argon2_25.1.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://argon2-cffi.readthedocs.io/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-argon2"
+  ],
+  "Package-List": [
+    "python-argon2-doc deb doc optional arch=all python3-argon2 deb python optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, python3-all"
+  ],
+  "Uploaders": [
+    "Nicolas Dandrimont \u003colasd@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-argon2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-argon2.git"
+  ],
+  "Version": [
+    "25.1.0-2"
+  ]
+}

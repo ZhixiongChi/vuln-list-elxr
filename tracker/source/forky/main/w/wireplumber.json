@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "libwireplumber-0.5-0, libwireplumber-0.5-dev, wireplumber, wireplumber-system-services, wireplumber-doc, gir1.2-wp-0.5"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec, dh-sequence-gir, dh-sequence-gnome, doxygen \u003c!nodoc\u003e, gir1.2-gio-2.0-dev \u003c!nogir\u003e, gir1.2-gobject-2.0-dev \u003c!nogir\u003e, gobject-introspection \u003c!nogir\u003e, libgirepository1.0-dev \u003c!nogir\u003e, libglib2.0-dev (\u003e= 2.68), liblua5.4-dev, libpipewire-0.3-dev (\u003e= 1.0.2), libspa-0.2-dev, libsystemd-dev, meson (\u003e= 0.59.0), pkgconf, systemd-dev, dbus \u003c!nocheck\u003e, pipewire (\u003e= 1.0.2) \u003c!nocheck\u003e, python3-lxml:native \u003c!nogir\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "python3-breathe \u003c!nodoc\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "fc7726309e617d09047062aa2605e7265c7c63aef46616ebb90ac0a695d02f4e 3027 wireplumber_0.5.10-3.dsc c89fa29694e89939c0e57cade5c9a7da8e5da21c19071862978ef5f3a346f1e7 423061 wireplumber_0.5.10.orig.tar.bz2 54ffbdd486364c53a91bb61c255680ee94794be51cf75339c068d8b1c0ea4c0c 12020 wireplumber_0.5.10-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/w/wireplumber"
+  ],
+  "Files": [
+    "797e804dabc42ad1415d577f55a18d52 3027 wireplumber_0.5.10-3.dsc 2cbb662f91da2bdce31fa55bef5dfcf5 423061 wireplumber_0.5.10.orig.tar.bz2 06d70030c9e54434189af051769cf262 12020 wireplumber_0.5.10-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.freedesktop.org/pipewire/wireplumber"
+  ],
+  "Maintainer": [
+    "Utopia Maintenance Team \u003cpkg-utopia-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "wireplumber"
+  ],
+  "Package-List": [
+    "gir1.2-wp-0.5 deb introspection optional arch=linux-any profile=!nogir libwireplumber-0.5-0 deb libs optional arch=linux-any libwireplumber-0.5-dev deb libdevel optional arch=linux-any wireplumber deb video optional arch=linux-any wireplumber-doc deb doc optional arch=all profile=!nodoc wireplumber-system-services deb libs optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkgconf"
+  ],
+  "Uploaders": [
+    "Sjoerd Simons \u003csjoerd@debian.org\u003e, Dylan Aïssi \u003cdaissi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/utopia-team/wireplumber"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/utopia-team/wireplumber.git"
+  ],
+  "Version": [
+    "0.5.10-3"
+  ]
+}

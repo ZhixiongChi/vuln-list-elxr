@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libstopt5t64, libstopt-dev, stopt-examples, python3-stopt, stopt-doc"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), dh-python"
+  ],
+  "Build-Depends-Arch": [
+    "cmake, coinor-libcoinutils-dev, coinor-libosi-dev, coinor-libclp-dev, libboost-chrono-dev, libboost-log-dev, libboost-mpi-dev, libboost-random-dev, libboost-serialization-dev, libboost-system-dev, libboost-test-dev, libboost-thread-dev, libboost-timer-dev, libeigen3-dev, libgeners-dev, mpi-default-dev, pybind11-dev, python3-dev, python3-docutils, python3-numpy"
+  ],
+  "Build-Depends-Indep": [
+    "texlive-fonts-extra \u003c!nodoc\u003e, texlive-latex-recommended \u003c!nodoc\u003e, texlive-plain-generic \u003c!nodoc\u003e, texlive-pstricks \u003c!nodoc\u003e, texlive-science \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "6d9ae5f893c6f61f476dcd39069884d1fc3c84f0cab5613ff1af2891564a7889 3089 stopt_5.16+dfsg-1.dsc 5954ee4d4e77c9f9217d14343413ae2299c005d3736b8e971efc6359b3a3e2a1 565984 stopt_5.16+dfsg.orig-texdoc.tar.xz 2167e0ce366c7ed71dcd77dfd2b2c2ac10a131317b0647796948d41809795c3c 404076 stopt_5.16+dfsg.orig.tar.xz 602561b1fd182d406f083adcf30b4de845aaeb891f39b0b71fed8f3a08442768 15824 stopt_5.16+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/stopt"
+  ],
+  "Files": [
+    "846e684727c7a3b386e371d8cde4b287 3089 stopt_5.16+dfsg-1.dsc c1fa68513efdecdf8abf4708092fc682 565984 stopt_5.16+dfsg.orig-texdoc.tar.xz 866a44afcde8d7ae40e9c8ee7266febc 404076 stopt_5.16+dfsg.orig.tar.xz e83da9e06660f9286330f258fa1bb194 15824 stopt_5.16+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.com/stochastic-control/StOpt/"
+  ],
+  "Maintainer": [
+    "Debian Math Team \u003cteam+math@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "stopt"
+  ],
+  "Package-List": [
+    "libstopt-dev deb libdevel optional arch=any libstopt5t64 deb libs optional arch=any python3-stopt deb python optional arch=any stopt-doc deb doc optional arch=all stopt-examples deb math optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "g++, python3-numpy"
+  ],
+  "Uploaders": [
+    "Pierre Gruet \u003cpgt@debian.org\u003e, Xavier Warin \u003cxavier.warin@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/math-team/stopt"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/math-team/stopt.git"
+  ],
+  "Version": [
+    "5.16+dfsg-1"
+  ]
+}

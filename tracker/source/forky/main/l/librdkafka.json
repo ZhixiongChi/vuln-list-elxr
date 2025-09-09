@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librdkafka1, librdkafka++1, librdkafka-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkgconf, libcurl4-openssl-dev, liblz4-dev, libsasl2-dev, libssl-dev, libzstd-dev, python3, rapidjson-dev, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "dd4a18da0d3f878e483af857b033528d5706919ea90272bbb8462885ba2aeeb8 2185 librdkafka_2.11.1-2.dsc a2c87186b081e2705bb7d5338d5a01bc88d43273619b372ccb7bb0d264d0ca9f 4856877 librdkafka_2.11.1.orig.tar.gz fc4802697b671764a34008e4d71a4392942eebd9d7c34ae37c6050c6a857e6e7 13668 librdkafka_2.11.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libr/librdkafka"
+  ],
+  "Files": [
+    "9e8a24d031443d5801a2d1abeae171f7 2185 librdkafka_2.11.1-2.dsc cd118ba5c5b1252ac8be01b16f81090c 4856877 librdkafka_2.11.1.orig.tar.gz 766309cb15d8e744e80667a3da8062b8 13668 librdkafka_2.11.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/confluentinc/librdkafka"
+  ],
+  "Maintainer": [
+    "Faidon Liambotis \u003cparavoid@debian.org\u003e"
+  ],
+  "Package": [
+    "librdkafka"
+  ],
+  "Package-List": [
+    "librdkafka++1 deb libs optional arch=any librdkafka-dev deb libdevel optional arch=any librdkafka1 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkgconf"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/kafka-team/librdkafka"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/kafka-team/librdkafka.git"
+  ],
+  "Version": [
+    "2.11.1-2"
+  ]
+}

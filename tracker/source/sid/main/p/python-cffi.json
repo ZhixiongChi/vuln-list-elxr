@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-cffi, python3-cffi-backend, python-cffi-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, dh-sequence-python3, libffi-dev, libpython3-all-dev, pybuild-plugin-pyproject, python3-all-dev:any, python3-py \u003c!nocheck\u003e, python3-pycparser \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, virtualenv \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-sphinxdoc \u003c!nodoc\u003e, python3-sphinx \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "5477a1e72bba44238e90190ca0f2bdbfef622ab712224dc4c289ec805b36264f 2009 python-cffi_2.0.0~b1-1.dsc 4440de58d19c0bebe6a2f3b721253d67b27aabb34e00ab35756d8699876191ea 521625 python-cffi_2.0.0~b1.orig.tar.gz af09bcc2b92ff475290f2ab0fab18ccfd47e8246170c17dcc3b35a90058ad825 9024 python-cffi_2.0.0~b1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-cffi"
+  ],
+  "Files": [
+    "520bd9897201f627c9e27c312abce3d3 2009 python-cffi_2.0.0~b1-1.dsc 738b0465d93e85709ff53a3048c19aac 521625 python-cffi_2.0.0~b1.orig.tar.gz 9ed6ad3b7ca01d067ff169c780c727a1 9024 python-cffi_2.0.0~b1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cffi.readthedocs.org/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-cffi"
+  ],
+  "Package-List": [
+    "python-cffi-doc deb doc optional arch=all python3-cffi deb python optional arch=all python3-cffi-backend deb python optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, python3-all-dbg, python3-all-dev, python3-pip-whl, python3-py, python3-pytest, python3-setuptools, virtualenv"
+  ],
+  "Uploaders": [
+    "Stefano Rivera \u003cstefanor@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-cffi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-cffi.git"
+  ],
+  "Version": [
+    "2.0.0~b1-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libqt5texttospeech5-dev, libqt5texttospeech5, qtspeech5-flite-plugin, qtspeech5-speechd-plugin, qtspeech5-examples, qtspeech5-doc, qtspeech5-doc-html"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), flite1-dev, libasound2-dev, libspeechd-dev, pkg-kde-tools, qtbase5-dev (\u003e= 5.15.17+dfsg~), qtbase5-private-dev (\u003e= 5.15.17+dfsg~), qtmultimedia5-dev (\u003e= 5.15.17~)"
+  ],
+  "Build-Depends-Indep": [
+    "qdoc-qt5 (\u003e= 5.15.17~) \u003c!nodoc\u003e, qhelpgenerator-qt5 (\u003e= 5.15.17~) \u003c!nodoc\u003e, qtattributionsscanner-qt5 (\u003e= 5.15.17~) \u003c!nodoc\u003e, qtbase5-doc-html (\u003e= 5.15.17+dfsg~) \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "56ce005c1fb645d7fba3ccbe9a61b667b225dfc61a2e38f4a524ac46afc91369 2973 qtspeech-opensource-src_5.15.17-2.dsc 5a374222dff48630b1a930234c65ed0396554844dbd55b397747db2319b44587 97644 qtspeech-opensource-src_5.15.17.orig.tar.xz 53c342ee87a2475831ed08a68f09b4f073245968de5a415fe8337b28ee879565 6512 qtspeech-opensource-src_5.15.17-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qtspeech-opensource-src"
+  ],
+  "Files": [
+    "27bb0d53ae967c25ec412f6f6cc2b915 2973 qtspeech-opensource-src_5.15.17-2.dsc bbbfa34cb4de59d6ac8bb09be2daedcc 97644 qtspeech-opensource-src_5.15.17.orig.tar.xz fb46d60e0edeac85a03bf50199e3521d 6512 qtspeech-opensource-src_5.15.17-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://doc.qt.io/qt-5/qtspeech-index.html"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "qtspeech-opensource-src"
+  ],
+  "Package-List": [
+    "libqt5texttospeech5 deb libs optional arch=any libqt5texttospeech5-dev deb libdevel optional arch=any qtspeech5-doc deb doc optional arch=all profile=!nodoc qtspeech5-doc-html deb doc optional arch=all profile=!nodoc qtspeech5-examples deb libs optional arch=any qtspeech5-flite-plugin deb libs optional arch=any qtspeech5-speechd-plugin deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Simon Quigley \u003ctsimonq2@debian.org\u003e, Dmitry Shachnev \u003cmitya57@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/qt/qtspeech"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/qt/qtspeech.git"
+  ],
+  "Version": [
+    "5.15.17-2"
+  ]
+}

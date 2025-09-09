@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-iaqualink"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-hatch-vcs, python3-hatchling"
+  ],
+  "Build-Depends-Indep": [
+    "python3-h2 \u003c!nocheck\u003e, python3-httpx \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-respx \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "86ab3c44d7c22da4799732370a83b10e15ba92ccffc98c8f5ea75abf8ccebd13 2240 iaqualink_0.6.0-1.dsc 9a1df3fbea9ade4212ad1fb7912054482e387024ab35b10272d55e8b13272b42 37693 iaqualink_0.6.0.orig.tar.gz f291d17bed3064c7572b0fffb6101e39bd2bd62dfed1a6f89e92d80386ef6080 2512 iaqualink_0.6.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/iaqualink"
+  ],
+  "Files": [
+    "4b98003ab7ff609e03cdd8a055b1f8a4 2240 iaqualink_0.6.0-1.dsc 5e07bf9108790ce2b4916a557fb1fcdb 37693 iaqualink_0.6.0.orig.tar.gz 2d20e0b7c2413483c1d741ce4f9da245 2512 iaqualink_0.6.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/flz/iaqualink-py"
+  ],
+  "Maintainer": [
+    "Home Assistant Team \u003cteam+homeassistant@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "iaqualink"
+  ],
+  "Package-List": [
+    "python3-iaqualink deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Edward Betts \u003cedward@4angle.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/homeassistant-team/deps/iaqualink"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/homeassistant-team/deps/iaqualink.git"
+  ],
+  "Version": [
+    "0.6.0-1"
+  ]
+}

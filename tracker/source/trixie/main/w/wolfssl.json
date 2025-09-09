@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libwolfssl42t64, libwolfssl-dev"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), libpcap0.8-dev, openssl"
+  ],
+  "Checksums-Sha256": [
+    "fd77179b9a2dfedfbe5df6a3384761c6ba83b367e0d0b61832e73e92a7259101 2040 wolfssl_5.7.2-0.1+deb13u1.dsc 0f2ed82e345b833242705bbc4b08a2a2037a33f7bf9c610efae6464f6b10e305 23591507 wolfssl_5.7.2.orig.tar.gz 0e5c0598631feac357b8252d4839b308606fba5aaba80061eb895e7e755094f7 488 wolfssl_5.7.2.orig.tar.gz.asc a8c195c8c182b9d6c9bae3bc23a8d71a4f3dc7fedf1145282d022e47e1d8fd53 34912 wolfssl_5.7.2-0.1+deb13u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/w/wolfssl"
+  ],
+  "Files": [
+    "4d8b5eb0152e7fdb8266d39de0f92a10 2040 wolfssl_5.7.2-0.1+deb13u1.dsc bc28818fb83b793b6c23987e1b116735 23591507 wolfssl_5.7.2.orig.tar.gz d006eee323369aa3ab8871d79c829313 488 wolfssl_5.7.2.orig.tar.gz.asc a2ec4e08a2bd62a7c6079a9ae45c366f 34912 wolfssl_5.7.2-0.1+deb13u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.wolfssl.com/products/wolfssl/"
+  ],
+  "Maintainer": [
+    "Jacob Barthelmeh \u003csirkilamole@msn.com\u003e"
+  ],
+  "Package": [
+    "wolfssl"
+  ],
+  "Package-List": [
+    "libwolfssl-dev deb libdevel optional arch=any libwolfssl42t64 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Version": [
+    "5.7.2-0.1+deb13u1"
+  ]
+}

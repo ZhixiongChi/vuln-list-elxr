@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libsdl2-compat, libsdl2-compat-dev, libsdl2-compat-shim, libsdl2-compat-tests"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), libgl-dev \u003c!nocheck\u003e \u003c!noinsttest\u003e, libgles-dev [!hurd-any] \u003c!nocheck\u003e \u003c!noinsttest\u003e, libsdl3-dev (\u003e= 3.2.12), libvulkan-dev \u003c!nocheck\u003e \u003c!noinsttest\u003e, libx11-dev \u003c!nocheck\u003e \u003c!noinsttest\u003e"
+  ],
+  "Checksums-Sha256": [
+    "06e26246f5cf55bd3018c873b4e82fface98b14e1aafbd2043983b47c7429605 2695 sdl2-compat_2.32.56+ds-2.dsc 24591769e3cf61c852f31f8e9875796e57ed0294ada353e64c466506059c46fe 1232872 sdl2-compat_2.32.56+ds.orig.tar.xz 97cff96866d3004c9afdcb5bd45bd03dd09c03e0a80779118564fb94cb9efdd9 22060 sdl2-compat_2.32.56+ds-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "38c09f690c661c967ce9e9d1765543ad3a934eb2 debian archive/debian/2.32.56+ds-2 https://git.dgit.debian.org/sdl2-compat"
+  ],
+  "Directory": [
+    "pool/main/s/sdl2-compat"
+  ],
+  "Files": [
+    "9a73df22a49efd73cc140643016975b7 2695 sdl2-compat_2.32.56+ds-2.dsc 277abf19f64f1d8cca25d5e3d0b89103 1232872 sdl2-compat_2.32.56+ds.orig.tar.xz 5e926afdbcb73bceb1ba65c1c5b835db 22060 sdl2-compat_2.32.56+ds-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/libsdl-org/sdl2-compat"
+  ],
+  "Maintainer": [
+    "Debian SDL packages maintainers \u003cpkg-sdl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "sdl2-compat"
+  ],
+  "Package-List": [
+    "libsdl2-compat deb libs optional arch=any libsdl2-compat-dev deb libdevel optional arch=any libsdl2-compat-shim deb libs optional arch=any libsdl2-compat-tests deb misc optional arch=any profile=!noinsttest"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, clang, cmake, gnome-desktop-testing, libsdl2-ttf-dev"
+  ],
+  "Uploaders": [
+    "Simon McVittie \u003csmcv@debian.org\u003e, Stephen Kitt \u003cskitt@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/sdl-team/sdl2-compat"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/sdl-team/sdl2-compat.git"
+  ],
+  "Version": [
+    "2.32.56+ds-2"
+  ]
+}

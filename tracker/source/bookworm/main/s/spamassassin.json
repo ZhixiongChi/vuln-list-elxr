@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "spamassassin, spamc, sa-compile, spamd"
+  ],
+  "Build-Depends": [
+    "perl, libssl-dev, libhtml-parser-perl, libnet-dns-perl, libnetaddr-ip-perl, debhelper-compat (= 13), libberkeleydb-perl, netbase, libdbi-perl, libdbd-mysql-perl, libbsd-resource-perl, libio-string-perl, libtext-diff-perl"
+  ],
+  "Checksums-Sha256": [
+    "767166cad2ef138403d961624fd77931ec01e37064da2877b575159d49688bfd 2307 spamassassin_4.0.1-1~deb12u1.dsc d2e05c0ed55b3244af3f3b6c33467d43d66e9596f017fb00db93b36e54518146 5606188 spamassassin_4.0.1.orig.tar.xz 03e3888fee1f2183e4da43db90a9c1dd8dbc3b1a68b5096a1caf73604da5b4bb 51400 spamassassin_4.0.1-1~deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/spamassassin"
+  ],
+  "Files": [
+    "098b2aad26b28fa45fec89e749e548af 2307 spamassassin_4.0.1-1~deb12u1.dsc 13855d4f1918a31924c6f1cde91ccb8f 5606188 spamassassin_4.0.1.orig.tar.xz 0019cbb438c7347da210537cad712b3f 51400 spamassassin_4.0.1-1~deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.spamassassin.org/"
+  ],
+  "Maintainer": [
+    "Noah Meyerhans \u003cnoahm@debian.org\u003e"
+  ],
+  "Package": [
+    "spamassassin"
+  ],
+  "Package-List": [
+    "sa-compile deb mail optional arch=all spamassassin deb mail optional arch=all spamc deb mail optional arch=any spamd deb mail optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "mail"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "procps"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/spamassassin"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/spamassassin.git"
+  ],
+  "Version": [
+    "4.0.1-1~deb12u1"
+  ]
+}

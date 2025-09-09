@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-cairo-sys-rs-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.83) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-system-deps-7+default-dev \u003c!nocheck\u003e, libcairo2-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "e7a75457541ebed271cbe1fa363bd46d15c5691b715ca82b86ba3b82a7c78666 2355 rust-cairo-sys-rs_0.21.1-2.dsc b963177900ec8e783927e5ed99e16c0ec1b723f1f125dff8992db28ef35c62c3 14498 rust-cairo-sys-rs_0.21.1.orig.tar.gz 5a3898855ea3e9b39c0457d159e6deca52d5efbad3b9b37f36349d932bae1236 4024 rust-cairo-sys-rs_0.21.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-cairo-sys-rs"
+  ],
+  "Files": [
+    "381a2b1dbefc25d672cae459d1cf3fe1 2355 rust-cairo-sys-rs_0.21.1-2.dsc 750da75091bb51ea2ef312e81e5a4273 14498 rust-cairo-sys-rs_0.21.1.orig.tar.gz e1b8414e029f83ed1bce4cbf85ea1abc 4024 rust-cairo-sys-rs_0.21.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gtk-rs.org/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-cairo-sys-rs"
+  ],
+  "Package-List": [
+    "librust-cairo-sys-rs-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cairo-sys-rs"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/cairo-sys-rs]"
+  ],
+  "Version": [
+    "0.21.1-2"
+  ]
+}

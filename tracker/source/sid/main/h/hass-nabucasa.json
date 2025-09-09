@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-hass-nabucasa"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "python3-acme \u003c!nocheck\u003e, python3-aiohttp \u003c!nocheck\u003e, python3-atomicwrites \u003c!nocheck\u003e, python3-attr \u003c!nocheck\u003e, python3-boto3 \u003c!nocheck\u003e, python3-ciso8601 \u003c!nocheck\u003e, python3-cryptography \u003c!nocheck\u003e, python3-freezegun \u003c!nocheck\u003e, python3-jwt \u003c!nocheck\u003e, python3-pycognito \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-aiohttp \u003c!nocheck\u003e, python3-pytest-socket \u003c!nocheck\u003e, python3-pytest-timeout \u003c!nocheck\u003e, python3-sentence-stream \u003c!nocheck\u003e, python3-snitun \u003c!nocheck\u003e, python3-syrupy \u003c!nocheck\u003e, python3-webrtc-models \u003c!nocheck\u003e, python3-xmltodict \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "9c32453a04c6c00c432c19a8bd69df24e746b70f75e3c91ca42648add21c15c4 2710 hass-nabucasa_1.1.0-1.dsc 395556d420e0267e6074dc877dc4988ec8208dc24be8cb1d826f2f853bed3b00 104222 hass-nabucasa_1.1.0.orig.tar.gz 31d7bc4e1d9cbdb335b99d50973a2c0d92bbcb1cb094284dff83ac8750aacbdf 2572 hass-nabucasa_1.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/hass-nabucasa"
+  ],
+  "Files": [
+    "9ad6cef7f07b54defe549ed83ccf2641 2710 hass-nabucasa_1.1.0-1.dsc 3871a5e4e3d6759e8574636b1f31db43 104222 hass-nabucasa_1.1.0.orig.tar.gz 5215bb92beaafd8520dae94b2d16f11b 2572 hass-nabucasa_1.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/NabuCasa/hass-nabucasa"
+  ],
+  "Maintainer": [
+    "Home Assistant Team \u003cteam+homeassistant@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "hass-nabucasa"
+  ],
+  "Package-List": [
+    "python3-hass-nabucasa deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Edward Betts \u003cedward@4angle.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/homeassistant-team/deps/hass-nabucasa"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/homeassistant-team/deps/hass-nabucasa.git"
+  ],
+  "Version": [
+    "1.1.0-1"
+  ]
+}

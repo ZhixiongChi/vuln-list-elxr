@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gstreamer-gl-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.83) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-glib-sys-0.21+default-dev \u003c!nocheck\u003e, librust-gobject-sys-0.21+default-dev \u003c!nocheck\u003e, librust-gstreamer-base-sys-0.24+default-dev \u003c!nocheck\u003e, librust-gstreamer-sys-0.24+default-dev \u003c!nocheck\u003e, librust-gstreamer-video-sys-0.24+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-system-deps-7+default-dev \u003c!nocheck\u003e, libgstreamer-plugins-base1.0-dev \u003c!nocheck\u003e, libgstreamer1.0-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "1addca54c3bb8a1fc3863082e39053a506ac1ee519f282f21b2026070db8d975 2790 rust-gstreamer-gl-sys_0.24.1-2.dsc bbad7be8c51998c1a4645b0e165b424442649081109aaf30d503d38a57e6f23c 56796 rust-gstreamer-gl-sys_0.24.1.orig.tar.gz 4c6c540aff57676eeb33991427b4bcbccdb956fe4195819c04a7d4de2967685b 3500 rust-gstreamer-gl-sys_0.24.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gstreamer-gl-sys"
+  ],
+  "Files": [
+    "f539aa914fa2419b3fa4084c798b7244 2790 rust-gstreamer-gl-sys_0.24.1-2.dsc 8878653b928ea44833f9be0bce55c596 56796 rust-gstreamer-gl-sys_0.24.1.orig.tar.gz 2b49892f473f23d0c194120129d6fa5c 3500 rust-gstreamer-gl-sys_0.24.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gstreamer.freedesktop.org"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gstreamer-gl-sys"
+  ],
+  "Package-List": [
+    "librust-gstreamer-gl-sys-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-shell-words-1+default-dev, librust-tempfile-3+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gstreamer-gl-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gstreamer-gl-sys]"
+  ],
+  "Version": [
+    "0.24.1-2"
+  ]
+}

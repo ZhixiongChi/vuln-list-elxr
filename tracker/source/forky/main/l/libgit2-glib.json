@@ -1,0 +1,74 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgit2-glib-1.0-0, libgit2-glib-1.0-dev, libgit2-glib-1.0-doc, gir1.2-ggit-1.0"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, gir1.2-gio-2.0-dev, gir1.2-gobject-2.0-dev, gobject-introspection (\u003e= 1.80), libgit2-dev (\u003e= 1.8.0), libglib2.0-dev (\u003e= 2.44.0), meson (\u003e= 0.50.0), pkgconf, python-gi-dev, valac"
+  ],
+  "Build-Depends-Indep": [
+    "gi-docgen \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "9ca14252db83f30bd3cc7f65015c16edea632ded5b9a76ffd89fd15906a83db6 2848 libgit2-glib_1.2.1-2.dsc 97423a779002b3be8751c75f9d79049dfccca3616a26159fc162486772ba785f 141252 libgit2-glib_1.2.1.orig.tar.xz 7d12d5304b3aeccbfef39f4dc837aadcfbe926b75e16307a68cb631bb9b36652 10172 libgit2-glib_1.2.1-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "3414d34f892ea947117da4fc5d404d4e38504a36 debian archive/debian/1.2.1-2 https://git.dgit.debian.org/libgit2-glib"
+  ],
+  "Directory": [
+    "pool/main/libg/libgit2-glib"
+  ],
+  "Files": [
+    "afdcdcf769b7eb4d3dbbe78e258bb0a2 2848 libgit2-glib_1.2.1-2.dsc 67df8ce5b68a9f23bcdefea0ff534072 141252 libgit2-glib_1.2.1.orig.tar.xz d4131c67a4ed0f99912a16b5985f3364 10172 libgit2-glib_1.2.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=95a5759f0d55f37b4a60fd60f769a5c18d9e3bdc fp=7a073ad1ae694fa25bff62e5235c099d3eb33076"
+  ],
+  "Git-Tag-Tagger": [
+    "Simon McVittie \u003csmcv@debian.org\u003e"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Projects/Libgit2-glib"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libgit2-glib"
+  ],
+  "Package-List": [
+    "gir1.2-ggit-1.0 deb introspection optional arch=any libgit2-glib-1.0-0 deb libs optional arch=any libgit2-glib-1.0-dev deb libdevel optional arch=any libgit2-glib-1.0-doc deb doc optional arch=all profile=!nodoc"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, libglib2.0-dev, pkg-config"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/libgit2-glib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/libgit2-glib.git"
+  ],
+  "Version": [
+    "1.2.1-2"
+  ]
+}

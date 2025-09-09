@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-aperture-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.85) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-futures-channel-0.3+default-dev (\u003e= 0.3.30-~~) \u003c!nocheck\u003e, librust-gstreamer-0.24+default-dev \u003c!nocheck\u003e, librust-gstreamer-0.24+v1-20-dev \u003c!nocheck\u003e, librust-gstreamer-base-0.24+default-dev \u003c!nocheck\u003e, librust-gstreamer-pbutils-0.24+default-dev \u003c!nocheck\u003e, librust-gstreamer-video-0.24+default-dev \u003c!nocheck\u003e, librust-gtk4-0.10+default-dev \u003c!nocheck\u003e, librust-gtk4-0.10+gnome-46-dev \u003c!nocheck\u003e, librust-gtk4-0.10+v4-18-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-rqrr-0.10-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c75191389df53f9bec8497ab4f6a97d23207c432c166effbdf72647bced577aa 2736 rust-aperture_0.11.0-2.dsc 39543e57b291db9184ca483c1cd8d01b73ebe8ab124f20a2cdf487cdfbef2c13 41899 rust-aperture_0.11.0.orig.tar.gz 328ba4d52c3ec396d0199e4af27a9ac30896f8354db971a3233c1d0e84130ab1 2448 rust-aperture_0.11.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-aperture"
+  ],
+  "Files": [
+    "6b1324611e0f233fddd3a04779f4edef 2736 rust-aperture_0.11.0-2.dsc c5c5fa0ef2a8fa21955bf6b436256a52 41899 rust-aperture_0.11.0.orig.tar.gz f776facdabd40e01906529e5da701460 2448 rust-aperture_0.11.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.gnome.org/GNOME/snapshot"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-aperture"
+  ],
+  "Package-List": [
+    "librust-aperture-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/aperture"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/aperture]"
+  ],
+  "Version": [
+    "0.11.0-2"
+  ]
+}

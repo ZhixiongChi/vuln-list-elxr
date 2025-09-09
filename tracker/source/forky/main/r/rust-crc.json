@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-crc-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.65) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-crc-catalog-2+default-dev (\u003e= 2.4.0-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "9e948a1fce1b90071ece3b3bf1c6509796257bc3a6aff60a2cdc02c9cd47d005 2196 rust-crc_3.3.0-1.dsc 9710d3b3739c2e349eb44fe848ad0b7c8cb1e42bd87ee49371df2f7acaf3e675 13905 rust-crc_3.3.0.orig.tar.gz 796c63cdfe50e6fc8c836e55c43400d9b4eb4b4af9c1fc8035a98b8a21f7aa20 2748 rust-crc_3.3.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-crc"
+  ],
+  "Files": [
+    "6bb3cab561b8e9a40ac6e81ad7a01c11 2196 rust-crc_3.3.0-1.dsc 03025dfeb02d047fb5f2d0f2dfcb7bfb 13905 rust-crc_3.3.0.orig.tar.gz 9de5c181e6dd5670e8abba0be915e56f 2748 rust-crc_3.3.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/mrhooray/crc-rs.git"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-crc"
+  ],
+  "Package-List": [
+    "librust-crc-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/crc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/crc]"
+  ],
+  "Version": [
+    "3.3.0-1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-intl-memoizer-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.67.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-type-map-0.5+default-dev \u003c!nocheck\u003e, librust-unic-langid-0.9+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "22f31fe9c45d337bec028b5600acea37e56221e9f3dfb8020d41d721e2df5d1c 2422 rust-intl-memoizer_0.5.3-1.dsc 310da2e345f5eb861e7a07ee182262e94975051db9e4223e909ba90f392f163f 12171 rust-intl-memoizer_0.5.3.orig.tar.gz b253aac15290c31f7e9dd05cb84626ed8c0ff506b688a9a343519bff299def3e 2816 rust-intl-memoizer_0.5.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-intl-memoizer"
+  ],
+  "Files": [
+    "22fa4d395d9394d0534c840806d89c13 2422 rust-intl-memoizer_0.5.3-1.dsc 7c896904dc729c3c24524ff7f22b4aed 12171 rust-intl-memoizer_0.5.3.orig.tar.gz 67fbaa982dd4902e29472e0d11c1015b 2816 rust-intl-memoizer_0.5.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.projectfluent.org"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-intl-memoizer"
+  ],
+  "Package-List": [
+    "librust-intl-memoizer-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-fluent-langneg-0.13+default-dev, librust-intl-pluralrules-7+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/intl-memoizer"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/intl-memoizer]"
+  ],
+  "Version": [
+    "0.5.3-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-gios"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "python3-aiohttp \u003c!nocheck\u003e, python3-aioresponses \u003c!nocheck\u003e, python3-dacite \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-pytest-timeout \u003c!nocheck\u003e, python3-syrupy \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "7f0c0df63bc22fe40a80782d818c6c486e593db3f6f1b3e1f90e64cd6ba1278e 2327 python-gios_6.1.2-1.dsc e3a4753326f4090bfe8cd9e1ee7b4dbd250a9072a1db85a5fe2f72a3b928c617 20053 python-gios_6.1.2.orig.tar.gz 395b4bac04d98ab324ec5341d37464eab30be224582b8bb7ba001ce759a0be6d 2256 python-gios_6.1.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-gios"
+  ],
+  "Files": [
+    "a1e2534852d09d25aa5038aff0f7680e 2327 python-gios_6.1.2-1.dsc 0ba409e2aaa1b82cd3e7a19fd50a2589 20053 python-gios_6.1.2.orig.tar.gz ff29d3b825394e6a39789fdaad0c8b46 2256 python-gios_6.1.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/bieniu/gios"
+  ],
+  "Maintainer": [
+    "Home Assistant Team \u003cteam+homeassistant@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-gios"
+  ],
+  "Package-List": [
+    "python3-gios deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Edward Betts \u003cedward@4angle.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/homeassistant-team/deps/PACKAGE"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/homeassistant-team/deps/PACKAGE.git"
+  ],
+  "Version": [
+    "6.1.2-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "amd64 all"
+  ],
+  "Binary": [
+    "libinsighttoolkit5.2, libinsighttoolkit5-dev, insighttoolkit5-examples"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, swig, castxml (\u003e= 0.3.4-2), zlib1g-dev, libdouble-conversion-dev, libexpat-dev, libpng-dev, libtiff-dev, libfftw3-dev, libdcmtk-dev, libgdcm-dev, libgtest-dev, uuid-dev, libminc-dev, libnifti2-dev, libhdf5-dev"
+  ],
+  "Checksums-Sha256": [
+    "a971471af59bbf16ca51f6dfb56fd397d2738caedc635d2acfa76b3baa54b84b 2136 insighttoolkit5_5.2.1-5+deb12u1.dsc a267fe9b37921cecbe85aa3f6ca64185c602d7a8ca3f148a705a4971f1b88202 282723808 insighttoolkit5_5.2.1.orig.tar.xz b2bbba97722af815351c9f590eae33ebbc1e6a01f387c04c2d1c65c1e3ad173e 23828 insighttoolkit5_5.2.1-5+deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/insighttoolkit5"
+  ],
+  "Files": [
+    "f68cfa04cf546c2897b562bb7caeb01e 2136 insighttoolkit5_5.2.1-5+deb12u1.dsc 57913f71b23f80a92cf6f5261b57bcc5 282723808 insighttoolkit5_5.2.1.orig.tar.xz 276ceb9d16452c5322d69e2454295904 23828 insighttoolkit5_5.2.1-5+deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.itk.org/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "insighttoolkit5"
+  ],
+  "Package-List": [
+    "insighttoolkit5-examples deb devel optional arch=all libinsighttoolkit5-dev deb libdevel optional arch=amd64 libinsighttoolkit5.2 deb libs optional arch=amd64"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Steve M. Robbins \u003csmr@debian.org\u003e, Gert Wollny \u003cgewo@debian.org\u003e, Étienne Mollier \u003cemollier@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/insighttoolkit"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/insighttoolkit.git"
+  ],
+  "Version": [
+    "5.2.1-5+deb12u1"
+  ]
+}

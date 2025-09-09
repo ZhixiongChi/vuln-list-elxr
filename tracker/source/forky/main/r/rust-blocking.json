@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "librust-blocking-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-rust, librust-async-channel-2+default-dev, librust-async-task-4+default-dev, librust-atomic-waker-1+default-dev, librust-fastrand-2+default-dev, librust-futures-io-0.3+std-dev, librust-futures-lite-2+default-dev, librust-tracing-0.1-dev"
+  ],
+  "Checksums-Sha256": [
+    "5dea1cb3a60c9ecfe575685708822c7152fe35971a3bb283a0494b1ce35d855a 2409 rust-blocking_1.6.2-1.dsc 20a6d3e19b574a350686e59cefc1e214d459fb257cfb31eaa13b58e270592c3a 17324 rust-blocking_1.6.2.orig.tar.gz 31363b88b08ec31f51fb8495c45296a60e09ced27828ce7a6fd8647a02985583 8324 rust-blocking_1.6.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-blocking"
+  ],
+  "Files": [
+    "bff3cd05dc0486b92629270f67784697 2409 rust-blocking_1.6.2-1.dsc 010ba94e49f5b09ce5a0846f8e202523 17324 rust-blocking_1.6.2.orig.tar.gz 0caa8bc628b556a9e927c2a0ff99a835 8324 rust-blocking_1.6.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/smol-rs/blocking"
+  ],
+  "Maintainer": [
+    "Jonas Smedegaard \u003cdr@jones.dk\u003e"
+  ],
+  "Package": [
+    "rust-blocking"
+  ],
+  "Package-List": [
+    "librust-blocking-dev deb rust optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-rust, librust-blocking-1+default-dev, librust-blocking-1+tracing-dev, librust-blocking-1-dev, librust-futures-lite-2+default-dev"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/rust-blocking"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/rust-blocking.git"
+  ],
+  "Version": [
+    "1.6.2-1"
+  ]
+}

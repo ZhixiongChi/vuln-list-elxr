@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "pacemaker-common, pacemaker-resource-agents, pacemaker, pacemaker-cli-utils, pacemaker-remote, pacemaker-doc, libcib54, libcrmcluster53, libcrmcommon68, libcrmservice53, liblrmd52, libpacemaker30, libpe-rules51, libpe-status56, libstonithd56, pacemaker-cts, pacemaker-dev, python3-pacemaker"
+  ],
+  "Build-Depends": [
+    "cluster-glue-dev, debhelper-compat (= 13), dh-sequence-python3, docbook-xsl, dpkg-dev (\u003e= 1.22.5), help2man, libbz2-dev, libcfg-dev (\u003e= 1.99), libcmap-dev (\u003e= 1.99), libcpg-dev (\u003e= 1.99), libcmocka-dev, libdbus-1-dev, libglib2.0-dev, libgnutls28-dev, libltdl-dev, libncurses-dev, libpam0g-dev, libqb-dev (\u003e= 1.0.1), libquorum-dev (\u003e= 1.99), libxml2-dev, libxml2-utils, libxslt1-dev, pkgconf, python3-all, systemd-dev, uuid-dev, xsltproc"
+  ],
+  "Build-Depends-Indep": [
+    "asciidoc, dh-sequence-sphinxdoc, doxygen, graphviz, python3-sphinx"
+  ],
+  "Checksums-Sha256": [
+    "7e829025fa23b6e51107b30d42d059c10635f5d7304660ede6a086c6e8c29221 3566 pacemaker_3.0.1-1.dsc 17a823c52d5448de817162f334b038598e22ea3e24e63a8819f978fac2b252e4 7260110 pacemaker_3.0.1.orig.tar.gz 6bc6dd39927e961ce2a8dcfc5621b522cd97bc0bedbfc3663d94426cbd7e44eb 52436 pacemaker_3.0.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pacemaker"
+  ],
+  "Files": [
+    "7cb9006318a1496d1033deab551600a9 3566 pacemaker_3.0.1-1.dsc 8d0e920d1e355036c9113d0876962f46 7260110 pacemaker_3.0.1.orig.tar.gz 535418a3f1e8fe7aae96ad639a0d19a2 52436 pacemaker_3.0.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.clusterlabs.org/"
+  ],
+  "Maintainer": [
+    "Debian HA Maintainers \u003cdebian-ha-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "pacemaker"
+  ],
+  "Package-List": [
+    "libcib54 deb libs optional arch=any libcrmcluster53 deb libs optional arch=any libcrmcommon68 deb libs optional arch=any libcrmservice53 deb libs optional arch=any liblrmd52 deb libs optional arch=any libpacemaker30 deb libs optional arch=any libpe-rules51 deb libs optional arch=any libpe-status56 deb libs optional arch=any libstonithd56 deb libs optional arch=any pacemaker deb admin optional arch=any pacemaker-cli-utils deb admin optional arch=any pacemaker-common deb admin optional arch=all pacemaker-cts deb python optional arch=all pacemaker-dev deb libdevel optional arch=any pacemaker-doc deb doc optional arch=all pacemaker-remote deb admin optional arch=any pacemaker-resource-agents deb admin optional arch=all python3-pacemaker deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "pkg-config"
+  ],
+  "Uploaders": [
+    "Ferenc Wágner \u003cwferi@debian.org\u003e, Adrian Vondendriesch \u003cadrian.vondendriesch@credativ.de\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ha-team/pacemaker"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ha-team/pacemaker.git"
+  ],
+  "Version": [
+    "3.0.1-1"
+  ]
+}

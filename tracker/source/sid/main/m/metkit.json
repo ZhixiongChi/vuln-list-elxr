@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libmetkit0d, libmetkit-data, libmetkit-dev, libmetkit-utils"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), architecture-is-64-bit, dh-sequence-python3, ecbuild (\u003e= 3.7.2-1~), libeckit-dev (\u003e= 1.31.4-1~), libodc-dev, odc (\u003e= 1.6.1-1~), libeccodes-dev, libeccodes-tools, libopenjp2-7-dev"
+  ],
+  "Checksums-Sha256": [
+    "55b20864581661779622c6f30c433bc7c9b9d1648cc182b9f91519dceffd52fa 2312 metkit_1.14.4-1.dsc 738184fb740fce652bfdcf66a4cbe72c3455cf2e5e821af918b64c4007910a2c 468228 metkit_1.14.4.orig.tar.xz 1a359908c7889d527d69981b66f39ea77fed63d3b8866b9712043bab105d32b1 5076 metkit_1.14.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/metkit"
+  ],
+  "Files": [
+    "a4e95e95ac274033145785539a6e5921 2312 metkit_1.14.4-1.dsc 8cebd85942b5a244bd32bbe55c94409f 468228 metkit_1.14.4.orig.tar.xz 88bfb75ac59134aced013a0e758eeec1 5076 metkit_1.14.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ecmwf/metkit"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "metkit"
+  ],
+  "Package-List": [
+    "libmetkit-data deb utils optional arch=all libmetkit-dev deb libdevel optional arch=any libmetkit-utils deb utils optional arch=any libmetkit0d deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Alastair McKinstry \u003cmckinstry@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/metkit.git"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/metkit.git -b debian/latest"
+  ],
+  "Version": [
+    "1.14.4-1"
+  ]
+}

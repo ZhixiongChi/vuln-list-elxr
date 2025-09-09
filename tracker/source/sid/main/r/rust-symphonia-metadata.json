@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-symphonia-metadata-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-encoding-rs-0.8+default-dev (\u003e= 0.8.17-~~) \u003c!nocheck\u003e, librust-lazy-static-1+default-dev (\u003e= 1.4.0-~~) \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "655bae7ebdf88e23c308cf16a3140469fec53dcf842ff66fa7f0a98fda489c01 2538 rust-symphonia-metadata_0.5.4-1.dsc bc622b9841a10089c5b18e99eb904f4341615d5aa55bbf4eedde1be721a4023c 23343 rust-symphonia-metadata_0.5.4.orig.tar.gz 25c49158db208b1c2c70f243ed2b08288074b9f25fff2400f80fd7a180f4f669 2180 rust-symphonia-metadata_0.5.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-symphonia-metadata"
+  ],
+  "Files": [
+    "d32104cd27ab08db602d1d0a17bf156f 2538 rust-symphonia-metadata_0.5.4-1.dsc 5291a900be03aff8a0039db3c10bb7bc 23343 rust-symphonia-metadata_0.5.4.orig.tar.gz 27df9c22e63ca85746cffefc9f21ae36 2180 rust-symphonia-metadata_0.5.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pdeljanov/Symphonia"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-symphonia-metadata"
+  ],
+  "Package-List": [
+    "librust-symphonia-metadata-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/symphonia-metadata"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/symphonia-metadata]"
+  ],
+  "Version": [
+    "0.5.4-1"
+  ]
+}

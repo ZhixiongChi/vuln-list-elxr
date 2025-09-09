@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "upower, upower-doc, upower-tests, libupower-glib3, libupower-glib-dev, gir1.2-upowerglib-1.0"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), debhelper (\u003e= 13.11.6), dh-sequence-gir, dh-exec, meson (\u003e= 0.60.0), gobject-introspection (\u003e= 1.80), gir1.2-gobject-2.0-dev, gir1.2-gio-2.0-dev, gtk-doc-tools, gettext (\u003e= 0.19.8), libglib2.0-dev (\u003e= 2.66), libgudev-1.0-dev (\u003e= 238) [linux-any], libimobiledevice-dev (\u003e= 0.9.7) [linux-any], libpolkit-gobject-1-dev, libkvm-dev [kfreebsd-any], pkgconf, systemd-dev [linux-any], xsltproc"
+  ],
+  "Build-Depends-Indep": [
+    "libglib2.0-doc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "0f49c0c4f089fc864fee7f5f2b6dd85111189981a351ff352a3cac9c702d1270 2895 upower_1.90.10-1.dsc c1baf418b685ffe4150c8a75c04da0cec70323fe094b5b257b287eea564d3f56 160031 upower_1.90.10.orig.tar.bz2 616838e1f35f9d80e7aebfcc75162b5f5c2a8a3107541f961509545bda8c71eb 15940 upower_1.90.10-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/u/upower"
+  ],
+  "Files": [
+    "3bc4ff66418e99e6597f769311369ae9 2895 upower_1.90.10-1.dsc e67907514deb3accc190506b5957f7e9 160031 upower_1.90.10.orig.tar.bz2 04afa15ab26db4d052349317628ed7b8 15940 upower_1.90.10-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://upower.freedesktop.org/"
+  ],
+  "Maintainer": [
+    "Utopia Maintenance Team \u003cpkg-utopia-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "upower"
+  ],
+  "Package-List": [
+    "gir1.2-upowerglib-1.0 deb introspection optional arch=any libupower-glib-dev deb libdevel optional arch=any libupower-glib3 deb libs optional arch=any upower deb admin optional arch=any upower-doc deb doc optional arch=all profile=!nodoc upower-tests deb admin optional arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, gir1.2-umockdev-1.0, gnome-desktop-testing, polkitd, python3-dbus, python3-dbusmock, python3-packaging, umockdev"
+  ],
+  "Uploaders": [
+    "Michael Biebl \u003cbiebl@debian.org\u003e, Martin Pitt \u003cmpitt@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/utopia-team/upower/"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/utopia-team/upower.git"
+  ],
+  "Version": [
+    "1.90.10-1"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libnbd-dev, libnbd0, python3-libnbd, libnbd-ocaml, libnbd-ocaml-dev, libnbd-bin"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13), dh-python, python3-dev, libfuse3-dev, libgnutls28-dev, libxml2-dev, pkgconf, gnutls-bin \u003c!nocheck\u003e, nbdkit (\u003e= 1.12.4) \u003c!nocheck\u003e, nbdkit-plugin-dev (\u003e= 1.12.4) \u003c!nocheck\u003e, qemu-utils \u003c!nocheck\u003e, qemu-system-common \u003c!nocheck\u003e, ocaml-nox, ocamlbuild, ocaml-findlib, dh-ocaml, bash-completion, iproute2 \u003c!nocheck\u003e, jq \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "09fa9829fc40eb90345e6b0ef759616e9842d35bea521bbc8a2349a5358f8947 2679 libnbd_1.22.3-1.dsc e3ae0dc6c4eae6de89e0cdefbfedf1db96dff2ffe470f1508c798b8b48d6cfe9 1571759 libnbd_1.22.3.orig.tar.gz bc1e40bfa3e8097770cc4ec5577ec64cdf58494fb5430e61d8a463f0efd47402 858 libnbd_1.22.3.orig.tar.gz.asc bf4d6711d29f22cc9f5008ed958b641405ae904072aff89e041b40fcf58c6ff9 85484 libnbd_1.22.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libn/libnbd"
+  ],
+  "Files": [
+    "b2c43c980e4fb232a4e81577d74015aa 2679 libnbd_1.22.3-1.dsc d1290a7fdc13abcd453de5d2251e4c20 1571759 libnbd_1.22.3.orig.tar.gz 5410135135f4a6eca10708393243f59c 858 libnbd_1.22.3.orig.tar.gz.asc 3c2df6359e9d23b29f2e0ffd75afabe6 85484 libnbd_1.22.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/libguestfs/libnbd"
+  ],
+  "Maintainer": [
+    "Hilko Bengen \u003cbengen@debian.org\u003e"
+  ],
+  "Package": [
+    "libnbd"
+  ],
+  "Package-List": [
+    "libnbd-bin deb utils optional arch=linux-any libnbd-dev deb libdevel optional arch=any libnbd-ocaml deb ocaml optional arch=any libnbd-ocaml-dev deb ocaml optional arch=linux-any libnbd0 deb libs optional arch=any python3-libnbd deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libnbd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libnbd.git"
+  ],
+  "Version": [
+    "1.22.3-1"
+  ]
+}

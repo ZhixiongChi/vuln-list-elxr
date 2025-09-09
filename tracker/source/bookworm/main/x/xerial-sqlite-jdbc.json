@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libxerial-sqlite-jdbc-java, libxerial-sqlite-jdbc-jni"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), default-jdk, dh-exec, junit5 \u003c!nocheck\u003e, libassertj-core-java \u003c!nocheck\u003e, libmaven-compiler-plugin-java, libmaven-jar-plugin-java, libmockito-java \u003c!nocheck\u003e, libsqlite3-dev, maven-debian-helper"
+  ],
+  "Checksums-Sha256": [
+    "1f15e8285dd0212f780ecd23c70ded841dabeda00a3548e23ed6aed9fe4af91e 2507 xerial-sqlite-jdbc_3.40.1.0+dfsg-1+deb12u1.dsc d31b5a2475dddffd9d7dacb08aeef9c48e390101566ad634d47d38e91b570b0a 169820 xerial-sqlite-jdbc_3.40.1.0+dfsg.orig.tar.xz 4369c7cefb09afc82f27840d95b09054c619cfe84b2525786fad441305493ffa 10536 xerial-sqlite-jdbc_3.40.1.0+dfsg-1+deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xerial-sqlite-jdbc"
+  ],
+  "Files": [
+    "d9d1daf9a3b899223b8e91dbe1fe5eda 2507 xerial-sqlite-jdbc_3.40.1.0+dfsg-1+deb12u1.dsc 93d03c7403a4a6e12c8f6e5e035cb96b 169820 xerial-sqlite-jdbc_3.40.1.0+dfsg.orig.tar.xz 1e94cbaffba18ce93b60bc3ad55ee960 10536 xerial-sqlite-jdbc_3.40.1.0+dfsg-1+deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/xerial/sqlite-jdbc"
+  ],
+  "Maintainer": [
+    "Debian Java Maintainers \u003cpkg-java-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "xerial-sqlite-jdbc"
+  ],
+  "Package-List": [
+    "libxerial-sqlite-jdbc-java deb java optional arch=all libxerial-sqlite-jdbc-jni deb java optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "default-jdk"
+  ],
+  "Uploaders": [
+    "Pierre Gruet \u003cpgt@debian.org\u003e, Ying-Chun Liu (PaulLiu) \u003cpaulliu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/java-team/xerial-sqlite-jdbc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/java-team/xerial-sqlite-jdbc.git"
+  ],
+  "Version": [
+    "3.40.1.0+dfsg-1+deb12u1"
+  ]
+}

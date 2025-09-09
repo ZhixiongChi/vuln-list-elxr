@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "strace, strace64, strace-udeb"
+  ],
+  "Build-Depends": [
+    "libc6-dev (\u003e= 2.2.2) [!alpha !ia64], libc6.1-dev (\u003e= 2.2.2) [alpha ia64], gcc-multilib [amd64 i386 powerpc ppc64 s390 s390x sparc sparc64 x32], debhelper-compat (= 13), gawk, libunwind-dev [amd64], libiberty-dev, libbluetooth-dev"
+  ],
+  "Checksums-Sha256": [
+    "de2d108e91e940f2b56fcb6c63e53558357276e85b7421cd9d66cc0c547a847e 2197 strace_6.16+ds-2.dsc 30b7a9f635b693e437b4fdca411239c75e70c7b19331a646ccf33a97bab56d2c 3100804 strace_6.16+ds.orig.tar.xz 7ee92f23a0f8ae2243b063464c43b1ab1d1c88fd737ca912e09ea142985e24e0 23784 strace_6.16+ds-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/strace"
+  ],
+  "Files": [
+    "f919c781a4cf39fb32f2de8e36f15efe 2197 strace_6.16+ds-2.dsc ab2e3f253b2ac0d90faa7d10c6b06b7a 3100804 strace_6.16+ds.orig.tar.xz bb8affff3c5fb652d5453bc9c0487645 23784 strace_6.16+ds-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://strace.io"
+  ],
+  "Maintainer": [
+    "Steve McIntyre \u003c93sam@debian.org\u003e"
+  ],
+  "Package": [
+    "strace"
+  ],
+  "Package-List": [
+    "strace deb utils optional arch=linux-any strace-udeb udeb debian-installer optional arch=linux-any strace64 deb utils optional arch=i386,powerpc,s390,sparc"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Bo YU \u003cvimer@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/strace"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/strace.git"
+  ],
+  "Version": [
+    "6.16+ds-2"
+  ]
+}

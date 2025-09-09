@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-argh-derive-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-argh-shared-0.1+default-dev (\u003e= 0.1.13-~~) \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev \u003c!nocheck\u003e, librust-quote-1+default-dev \u003c!nocheck\u003e, librust-syn-2+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "279b8b169e064532dff07e3435be1b9eb8ec9d8495b85c18377c25560a97899a 1825 rust-argh-derive_0.1.13-1.dsc adb7b2b83a50d329d5d8ccc620f5c7064028828538bdf5646acd60dc1f767803 23278 rust-argh-derive_0.1.13.orig.tar.gz 1fff2a4a043993036c46528c0616fd2bcc645e25dd925f901038fd940575f773 3116 rust-argh-derive_0.1.13-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-argh-derive"
+  ],
+  "Files": [
+    "32ee9e6e4c0e39ef52d4671e9dbb6109 1825 rust-argh-derive_0.1.13-1.dsc 9306f62558a3740fed25caf04da3114e 23278 rust-argh-derive_0.1.13.orig.tar.gz 145768b49a845b49ea22f423d453c33e 3116 rust-argh-derive_0.1.13-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/google/argh"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-argh-derive"
+  ],
+  "Package-List": [
+    "librust-argh-derive-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cmatthias.geiger1024@tutanota.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/argh-derive"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/argh-derive]"
+  ],
+  "Version": [
+    "0.1.13-1"
+  ]
+}

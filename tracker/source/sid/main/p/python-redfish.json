@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-redfish"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "python3-pytest \u003c!nocheck\u003e, python3-jsonpatch \u003c!nocheck\u003e, python3-jsonpath-rw \u003c!nocheck\u003e, python3-requests \u003c!nocheck\u003e, python3-requests-unixsocket \u003c!nocheck\u003e, python3-requests-toolbelt \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "85ba6e3830d4c8413e8cfc5090a7a04cb577150c4a78d5b98ea01503238fef96 2554 python-redfish_3.2.7-4.dsc f6ddb3a5f51adbad708e7837a07192efbc702a519701d86198b1df83aa407f0a 44498 python-redfish_3.2.7.orig.tar.gz 72303bdc491f574901bd9f52a87c525cfd3330880adcd9029d14a12b55d53fbc 3400 python-redfish_3.2.7-4.debian.tar.xz"
+  ],
+  "Dgit": [
+    "2aaaea48b9118f81736d09451c3bd9a225467f6a debian archive/debian/3.2.7-4 https://git.dgit.debian.org/python-redfish"
+  ],
+  "Directory": [
+    "pool/main/p/python-redfish"
+  ],
+  "Files": [
+    "121c3b85e4fc50aeb9cdb8a1c3a26011 2554 python-redfish_3.2.7-4.dsc fc4e06dc58972367fe3171b0129e177d 44498 python-redfish_3.2.7.orig.tar.gz 76ff1446ca58c5b2a55bac721ad5bd2f 3400 python-redfish_3.2.7-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/DMTF/python-redfish-library"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-redfish"
+  ],
+  "Package-List": [
+    "python3-redfish deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-coverage, python3-fixtures, python3-pytest"
+  ],
+  "Uploaders": [
+    "Karsten Schöke \u003ckarsten.schoeke@geobasis-bb.de\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-redfish"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-redfish.git"
+  ],
+  "Version": [
+    "3.2.7-4"
+  ]
+}

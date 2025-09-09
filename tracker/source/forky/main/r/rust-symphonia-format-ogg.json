@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-symphonia-format-ogg-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e, librust-symphonia-metadata-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e, librust-symphonia-utils-xiph-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "14d5026c06b004618567a11d70b10f6739fa3007088738d2d107787ff30eeb88 2577 rust-symphonia-format-ogg_0.5.4-1.dsc ada3505789516bcf00fc1157c67729eded428b455c27ca370e41f4d785bfa931 23239 rust-symphonia-format-ogg_0.5.4.orig.tar.gz e826f74468526e191f094684b96e1d5e6c149a384267ef506ec09bf44063546a 2176 rust-symphonia-format-ogg_0.5.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-symphonia-format-ogg"
+  ],
+  "Files": [
+    "494f1b16eb591fdad6ca070e26dcd462 2577 rust-symphonia-format-ogg_0.5.4-1.dsc 12d3ee236f93a38d3b5e0e6d47a8edaf 23239 rust-symphonia-format-ogg_0.5.4.orig.tar.gz be848fd737565045d6488c899401acb4 2176 rust-symphonia-format-ogg_0.5.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pdeljanov/Symphonia"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-symphonia-format-ogg"
+  ],
+  "Package-List": [
+    "librust-symphonia-format-ogg-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/symphonia-format-ogg"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/symphonia-format-ogg]"
+  ],
+  "Version": [
+    "0.5.4-1"
+  ]
+}

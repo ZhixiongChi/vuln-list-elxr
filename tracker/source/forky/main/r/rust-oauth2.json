@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-oauth2-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.65) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-base64+default-dev (\u003c\u003c 0.23-~~) \u003c!nocheck\u003e, librust-base64+default-dev (\u003e= 0.21-~~) \u003c!nocheck\u003e, librust-chrono-0.4+clock-dev (\u003e= 0.4.31-~~) \u003c!nocheck\u003e, librust-chrono-0.4+serde-dev (\u003e= 0.4.31-~~) \u003c!nocheck\u003e, librust-chrono-0.4+std-dev (\u003e= 0.4.31-~~) \u003c!nocheck\u003e, librust-chrono-0.4+wasmbind-dev (\u003e= 0.4.31-~~) \u003c!nocheck\u003e, librust-http-1+default-dev \u003c!nocheck\u003e, librust-rand+default-dev (\u003c\u003c 0.10-~~) \u003c!nocheck\u003e, librust-rand+default-dev (\u003e= 0.8-~~) \u003c!nocheck\u003e, librust-reqwest-0.12+rustls-tls-dev \u003c!nocheck\u003e, librust-reqwest-0.12-dev \u003c!nocheck\u003e, librust-serde-1+default-dev \u003c!nocheck\u003e, librust-serde-1+derive-dev \u003c!nocheck\u003e, librust-serde-json-1+default-dev \u003c!nocheck\u003e, librust-serde-path-to-error-0.1+default-dev (\u003e= 0.1.2-~~) \u003c!nocheck\u003e, librust-sha2-0.10+default-dev \u003c!nocheck\u003e, librust-thiserror-1+default-dev \u003c!nocheck\u003e, librust-url-2+default-dev (\u003e= 2.1-~~) \u003c!nocheck\u003e, librust-url-2+serde-dev (\u003e= 2.1-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "53d4d55051ecf8fa657b7c1cc5ec1b4a0340725f347440166f85fc52a75a883b 3387 rust-oauth2_5.0.0-2.dsc 51e219e79014df21a225b1860a479e2dcd7cbd9130f4defd4bd0e191ea31d67d 91364 rust-oauth2_5.0.0.orig.tar.gz c29a9ace40f50f7d47435b2d81b796b25d68efffd560a663e0cb22ec48ea6b4e 4164 rust-oauth2_5.0.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-oauth2"
+  ],
+  "Files": [
+    "dac652daafc2273937370a6d85ad113b 3387 rust-oauth2_5.0.0-2.dsc 5c9c80cf88c495013c49268655f58037 91364 rust-oauth2_5.0.0.orig.tar.gz 6578c2a9fbe99d9456a0bcfe2f2bafdf 4164 rust-oauth2_5.0.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ramosbugs/oauth2-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-oauth2"
+  ],
+  "Package-List": [
+    "librust-oauth2-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-anyhow-1+default-dev, librust-async-std-1+default-dev, librust-hex-0.4+default-dev, librust-hmac-0.12+default-dev, librust-tokio-1+default-dev, librust-tokio-1+full-dev, librust-uuid-1+default-dev, librust-uuid-1+v4-dev, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cmatthias.geiger1024@tutanota.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/oauth2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/oauth2]"
+  ],
+  "Version": [
+    "5.0.0-2"
+  ]
+}

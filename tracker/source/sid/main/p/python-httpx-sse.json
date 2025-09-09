@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-httpx-sse"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all"
+  ],
+  "Build-Depends-Indep": [
+    "pybuild-plugin-pyproject, python3-httpx \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm, python3-sse-starlette \u003c!nocheck\u003e, python3-starlette \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "7fcb8adbfc036183a12051bb4a6b9fe4d8f1fa08d75bc36643ea924fb3609eca 2598 python-httpx-sse_0.4.1-1.dsc 87d28ce49de5e1f46341443f7d718edd1de94955e1e9908175b69de9dab1badc 8758 python-httpx-sse_0.4.1.orig.tar.gz f140581f970fd746e857d729fd21a7359e2185f1dd1bf850329af0a755a179a1 3744 python-httpx-sse_0.4.1-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "32fe1a60acd1491a71e71acae5ae668913169615 debian archive/debian/0.4.1-1 https://git.dgit.debian.org/python-httpx-sse"
+  ],
+  "Directory": [
+    "pool/main/p/python-httpx-sse"
+  ],
+  "Files": [
+    "9f5aaa80e65d6a440c0d1b03577e41aa 2598 python-httpx-sse_0.4.1-1.dsc 9dd7f2860475eeacf4e15d43f6db5c33 8758 python-httpx-sse_0.4.1.orig.tar.gz c58de7e272e443c70dbaead0f63c3e26 3744 python-httpx-sse_0.4.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/florimondmanca/httpx-sse"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-httpx-sse"
+  ],
+  "Package-List": [
+    "python3-httpx-sse deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-httpx, python3-pytest, python3-pytest-asyncio, python3-sse-starlette, python3-starlette"
+  ],
+  "Uploaders": [
+    "Kathara Sasikumar \u003ckatharasasikumar007@gmail.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-httpx-sse"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-httpx-sse.git"
+  ],
+  "Version": [
+    "0.4.1-1"
+  ]
+}

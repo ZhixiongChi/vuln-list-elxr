@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-hypercorn-doc, python3-hypercorn"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, help2man, pybuild-plugin-pyproject, python3-all, python3-h11 (\u003e= 0.11.0), python3-h2 (\u003e= 3.1.0), python3-httpx, python3-hypothesis, python3-poetry-core, python3-priority, python3-pytest, python3-pytest-asyncio, python3-pytest-cov, python3-pytest-trio, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme, python3-sphinxcontrib-mermaid, python3-trio (\u003e= 0.11.0), python3-typing-extensions, python3-uvloop, python3-wsproto (\u003e= 0.14.0)"
+  ],
+  "Checksums-Sha256": [
+    "03424db1e437f348d040c50b054cc16a9c527f7e067ee134b4b0bb44186f14b0 2645 hypercorn_0.17.3-3.dsc 991221bf8df1368165a22cde98f1ae2b591aa2e65c9c72c8e03ea56a9da7f672 162354 hypercorn_0.17.3.orig.tar.gz 188693c7b7f845d7c5654da22e7f47def4340895cc12a2ca9eea1a3bfbffb6fc 5032 hypercorn_0.17.3-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/hypercorn"
+  ],
+  "Files": [
+    "14541f9e5b253bc4dc3c0fa95f1c1908 2645 hypercorn_0.17.3-3.dsc 775d0ff83e5c5c442bfe0a5822d239f6 162354 hypercorn_0.17.3.orig.tar.gz 4ece0fe6c6691f85d04febd7e1b311ef 5032 hypercorn_0.17.3-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pgjones/hypercorn"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "hypercorn"
+  ],
+  "Package-List": [
+    "python-hypercorn-doc deb doc optional arch=all python3-hypercorn deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, python3-all"
+  ],
+  "Uploaders": [
+    "Andrej Shadura \u003candrewsh@debian.org\u003e, Michael Fladischer \u003cfladi@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/hypercorn"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/hypercorn.git"
+  ],
+  "Version": [
+    "0.17.3-3"
+  ]
+}

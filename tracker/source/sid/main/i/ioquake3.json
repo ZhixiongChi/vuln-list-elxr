@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "ioquake3, ioquake3-server"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), dh-apparmor [linux-any] \u003c!pkg.flatpak.app\u003e, dpkg-build-api (= 1), libcurl4-openssl-dev, libjpeg-dev, libopenal-dev, libopus-dev, libopusfile-dev, libsdl2-dev, libvorbis-dev, ninja-build"
+  ],
+  "Checksums-Sha256": [
+    "13d917157bbb57e9a871adfed0e29d2c39629ba9c9dbf1eb6884e37b53f9508d 2483 ioquake3_1.36+u20250901.45788d2+dfsg-1.dsc cc6c979fe85ec5322a65d2ad116314871ce271c9f1d2a4caaa1c63d6087bd093 1954532 ioquake3_1.36+u20250901.45788d2+dfsg.orig.tar.xz 4a4a2efb6c94d55158cf2ce9ccc1ae00234d9c9a69fd5de74465b3463dc62a09 26492 ioquake3_1.36+u20250901.45788d2+dfsg-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "450bc9e85ff90c9876131b9b3023c540b23d95a7 debian archive/debian/1.36+u20250901.45788d2+dfsg-1 https://git.dgit.debian.org/ioquake3"
+  ],
+  "Directory": [
+    "pool/main/i/ioquake3"
+  ],
+  "Files": [
+    "1d9b0a40a48fde246b52ec56256c5478 2483 ioquake3_1.36+u20250901.45788d2+dfsg-1.dsc 6015ce7436c9af6ca97328dfc65f1881 1954532 ioquake3_1.36+u20250901.45788d2+dfsg.orig.tar.xz e3ca55b8f8f0d4acf8f64d3cd07a301a 26492 ioquake3_1.36+u20250901.45788d2+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://ioquake3.org/"
+  ],
+  "Maintainer": [
+    "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ioquake3"
+  ],
+  "Package-List": [
+    "ioquake3 deb games optional arch=any ioquake3-server deb games optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "games"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Bruno \"Fuddl\" Kleinert \u003cfuddl@debian.org\u003e, Simon McVittie \u003csmcv@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/games-team/ioquake3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/games-team/ioquake3.git"
+  ],
+  "Version": [
+    "1.36+u20250901.45788d2+dfsg-1"
+  ]
+}

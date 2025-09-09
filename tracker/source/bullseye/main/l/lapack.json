@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "liblapack3, liblapack64-3, liblapacke, liblapacke64, liblapacke-dev, liblapacke64-dev, libtmglib3, libtmglib64-3, libtmglib-dev, libtmglib64-dev, liblapack-dev, liblapack64-dev, liblapack-pic, liblapack-test, liblapack64-test, liblapack-doc, libblas3, libblas64-3, libblas-dev, libblas64-dev, libblas-test, libblas64-test"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), debhelper (\u003e= 12.8~), dh-exec"
+  ],
+  "Build-Depends-Arch": [
+    "gfortran, python3"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, graphviz, rename"
+  ],
+  "Checksums-Sha256": [
+    "2a6b94e30473abb5e0f8164bb1a69988531d83a8aa6dafd4cfe5365846a9f603 3414 lapack_3.9.0-3+deb11u1.dsc 106087f1bb5f46afdfba7f569d0cbe23dacb9a07cd24733765a0e89dbe1ad573 7534567 lapack_3.9.0.orig.tar.gz 752762dc051d4f621d188632b89d76af8d2132828809e4389e95bac7895d2f8b 28716 lapack_3.9.0-3+deb11u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/lapack"
+  ],
+  "Files": [
+    "b2294df24af36be7c0f618c43147d81d 3414 lapack_3.9.0-3+deb11u1.dsc 0b251e2a8d5f949f99b50dd5e2200ee2 7534567 lapack_3.9.0.orig.tar.gz f072a8827365c4a930f473fbb8ae851f 28716 lapack_3.9.0-3+deb11u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.netlib.org/lapack/"
+  ],
+  "Maintainer": [
+    "Debian Science Team \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "lapack"
+  ],
+  "Package-List": [
+    "libblas-dev deb libdevel optional arch=any libblas-test deb devel optional arch=any libblas3 deb libs optional arch=any libblas64-3 deb libs optional arch=any libblas64-dev deb libdevel optional arch=any libblas64-test deb devel optional arch=any liblapack-dev deb libdevel optional arch=any liblapack-doc deb doc optional arch=all liblapack-pic deb oldlibs optional arch=any liblapack-test deb devel optional arch=any liblapack3 deb libs optional arch=any liblapack64-3 deb libs optional arch=any liblapack64-dev deb libdevel optional arch=any liblapack64-test deb devel optional arch=any liblapacke deb libs optional arch=any liblapacke-dev deb libdevel optional arch=any liblapacke64 deb libs optional arch=any liblapacke64-dev deb libdevel optional arch=any libtmglib-dev deb libdevel optional arch=any libtmglib3 deb libs optional arch=any libtmglib64-3 deb libs optional arch=any libtmglib64-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, dpkg-dev, gcc, gfortran, python3"
+  ],
+  "Uploaders": [
+    "Sébastien Villemot \u003csebastien@debian.org\u003e, Mo Zhou \u003clumin@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/lapack"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/lapack.git"
+  ],
+  "Version": [
+    "3.9.0-3+deb11u1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "postgresql-common, postgresql-client-common, postgresql-common-dev, postgresql-server-dev-all, postgresql, postgresql-client, postgresql-doc, postgresql-all"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Checksums-Sha256": [
+    "f12a2463fe7301985a399c5b1346edbda881dce03c83681c3ef380263d473f99 2385 postgresql-common_282.dsc 8c27a2b68027d11d391c11952fc527f349ab4a8dd69ace4a485fce4a7640ca56 218536 postgresql-common_282.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/postgresql-common"
+  ],
+  "Files": [
+    "04aa8cf99c8ce1192064f46f955d93bd 2385 postgresql-common_282.dsc bb7b0d9e10ad5b8ede3a3f31f15cb172 218536 postgresql-common_282.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "postgresql-common"
+  ],
+  "Package-List": [
+    "postgresql deb database optional arch=all postgresql-all deb database optional arch=all postgresql-client deb database optional arch=all postgresql-client-common deb database optional arch=all postgresql-common deb database optional arch=all postgresql-common-dev deb database optional arch=all postgresql-doc deb doc optional arch=all postgresql-server-dev-all deb database optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "database"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, debhelper, fakeroot, hunspell-en-us, iproute2, locales-all, logrotate, netcat-openbsd, perl, procps"
+  ],
+  "Uploaders": [
+    "Martin Pitt \u003cmpitt@debian.org\u003e, Christoph Berg \u003cmyon@debian.org\u003e, Peter Eisentraut \u003cpetere@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/postgresql/postgresql-common"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/postgresql/postgresql-common.git"
+  ],
+  "Version": [
+    "282"
+  ]
+}

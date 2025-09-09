@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "evdi-dkms, libevdi1, libevdi-dev, libevdi0-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec, dh-sequence-dkms, libdrm-dev"
+  ],
+  "Checksums-Sha256": [
+    "5935a593b1a1e5008857b2e3eb91506e50727eed238193617dadd2cda26a2b25 2248 evdi_1.14.10+dfsg-1.dsc 0b759366de9c876253ae938bbded9fb280edab53210a4c39537de190fa313248 60064 evdi_1.14.10+dfsg.orig.tar.xz e4ce242725f3a52cafe6122fcde58e3e966b4eba3da6a025d0dfeb0054aee881 5684 evdi_1.14.10+dfsg-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/evdi"
+  ],
+  "Files": [
+    "e03070223aceee878e7f75d74a644eb1 2248 evdi_1.14.10+dfsg-1.dsc 8f9f178f4c8e458a1978f6547819c60b 60064 evdi_1.14.10+dfsg.orig.tar.xz d5428d14ccdb508ce7a6715daa2633dc 5684 evdi_1.14.10+dfsg-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/DisplayLink/evdi"
+  ],
+  "Maintainer": [
+    "Harlan Lieberman-Berg \u003chlieberman@debian.org\u003e"
+  ],
+  "Package": [
+    "evdi"
+  ],
+  "Package-List": [
+    "evdi-dkms deb kernel optional arch=all libevdi-dev deb libdevel optional arch=all libevdi0-dev deb oldlibs optional arch=all libevdi1 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-dkms"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/evdi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/evdi.git"
+  ],
+  "Version": [
+    "1.14.10+dfsg-1"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "regina-normal, regina-normal-dev, regina-normal-doc"
+  ],
+  "Build-Depends": [
+    "bsdextrautils, debhelper (\u003e= 11), dh-python, cmake (\u003e= 3.12), doxygen (\u003e= 1.8.17), libgmp-dev (\u003e= 4.1.4-10), libgraphviz-dev, libqt6svg6-dev, libtokyocabinet-dev, libxml2-dev, pkgconf, python3-dev, qt6-base-dev, shared-mime-info, xsltproc, zlib1g-dev, dpkg-dev (\u003e= 1.16.0)"
+  ],
+  "Checksums-Sha256": [
+    "5058e4bb10d88849c93472cc6b96cc50376b01d8ea5b916a110a7675ae721d63 2190 regina-normal_7.4-1.dsc 4b8a82e1cbd1781fc58fb600ba2b183d12ee434c5f27084dc06b722a9e3f6a76 114891598 regina-normal_7.4.orig.tar.gz ee48eb4ecd964e2b9d3f4cb56ec82601ed082bb28577cd9880020ba5b5174789 14548 regina-normal_7.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/regina-normal"
+  ],
+  "Files": [
+    "727476d2cca3fabdd87d19ea7192da53 2190 regina-normal_7.4-1.dsc a5060739b34c2ab360f917bd9c200f44 114891598 regina-normal_7.4.orig.tar.gz dd9e35eb5711ea22a0939f364192cf1b 14548 regina-normal_7.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://regina-normal.github.io/"
+  ],
+  "Maintainer": [
+    "Ben Burton \u003cbab@debian.org\u003e"
+  ],
+  "Package": [
+    "regina-normal"
+  ],
+  "Package-List": [
+    "regina-normal deb math optional arch=any regina-normal-dev deb libdevel optional arch=any regina-normal-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "math"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "bsdextrautils"
+  ],
+  "Version": [
+    "7.4-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libpostgis-java"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), default-jdk-headless (\u003e= 2:1.7) | java7-sdk-headless, maven-debian-helper"
+  ],
+  "Build-Depends-Indep": [
+    "junit4, libpostgresql-jdbc-java, libslf4j-java, libsurefire-java, maven-repo-helper, maven"
+  ],
+  "Checksums-Sha256": [
+    "0d14d05390ec608ca4232635d0109f4f6b02962e3d1ac6f58ba4105486b94380 2176 postgis-java_2025.1.0-1.dsc 2eeb710e79ebb13a2ccf1c65d905e5e0998cbe8caab825bb79c13d3f411cdf1c 99736 postgis-java_2025.1.0.orig.tar.gz 424af5d21699ae306cfa0a40c803420cbfcafff33db679b79bd6d2cf1532a2eb 6244 postgis-java_2025.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/postgis-java"
+  ],
+  "Files": [
+    "8f6f77d8183f8e818a50bdb017b84be3 2176 postgis-java_2025.1.0-1.dsc 5d9e6274a8bc95f235cb68bf0ad39e24 99736 postgis-java_2025.1.0.orig.tar.gz 2294b009afa0fb44678d503922ef2850 6244 postgis-java_2025.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/postgis/postgis-java"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "postgis-java"
+  ],
+  "Package-List": [
+    "libpostgis-java deb java optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Bas Couwenberg \u003csebastic@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/postgis-java"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/postgis-java.git"
+  ],
+  "Version": [
+    "1:2025.1.0-1"
+  ]
+}

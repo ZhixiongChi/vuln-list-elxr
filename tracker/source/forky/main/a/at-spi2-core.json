@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "at-spi2-core, at-spi2-common, at-spi2-core-udeb, libatspi2.0-0t64, libatspi0-udeb, libatspi2.0-dev, gir1.2-atspi-2.0, at-spi2-doc, libatk-adaptor, libatk-adaptor-udeb, libatk-bridge2.0-0t64, libatk-bridge-2.0-0-udeb, libatk-bridge2.0-dev, libatk1.0-0t64, libatk1.0-udeb, libatk1.0-dev, libatk1.0-doc, gir1.2-atk-1.0"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), dh-sequence-python3, libdbus-1-dev, libsystemd-dev [linux-any], libglib2.0-dev (\u003e= 2.62), libxml2-dev, libx11-dev, libxtst-dev, meson (\u003e= 0.64.0), pkgconf, gir1.2-dbus-1.0-dev, gir1.2-glib-2.0-dev, gir1.2-gobject-2.0-dev, gobject-introspection | dh-sequence-gir, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e, at-spi2-core \u003c!nocheck\u003e, dbus-daemon \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "docbook-xml \u003c!nodoc\u003e, gi-docgen, gtk-doc-tools, libglib2.0-doc \u003c!nodoc\u003e, libglib2.0-dev-bin \u003c!nodoc\u003e, python3-sphinx"
+  ],
+  "Checksums-Sha256": [
+    "03d101064c33186c329176d2dfe6203341ab23388a85071299d21d89efa364ef 3788 at-spi2-core_2.57.2-1.dsc a38692aac174f73b774ac60ba795c0c0c60ba56d4134b6a0ec03e6481674c60a 585448 at-spi2-core_2.57.2.orig.tar.xz 6273653a7b66ac9cc9f68a85fde2714e4bc441a292c7bc4c51c180007960f15b 20840 at-spi2-core_2.57.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/at-spi2-core"
+  ],
+  "Files": [
+    "fc787a7fb94943f1b2da631582635529 3788 at-spi2-core_2.57.2-1.dsc 8e1c210c52f74984715737772e52e735 585448 at-spi2-core_2.57.2.orig.tar.xz 9123c1e47ee1e0ce69df2d14329d73da 20840 at-spi2-core_2.57.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Accessibility"
+  ],
+  "Maintainer": [
+    "Debian Accessibility Team \u003cpkg-a11y-devel@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "at-spi2-core"
+  ],
+  "Package-List": [
+    "at-spi2-common deb misc optional arch=all at-spi2-core deb misc optional arch=any at-spi2-core-udeb udeb debian-installer optional arch=any at-spi2-doc deb doc optional arch=all gir1.2-atk-1.0 deb introspection optional arch=any gir1.2-atspi-2.0 deb introspection optional arch=any libatk-adaptor deb misc optional arch=any libatk-adaptor-udeb udeb debian-installer optional arch=any libatk-bridge-2.0-0-udeb udeb debian-installer optional arch=any libatk-bridge2.0-0t64 deb libs optional arch=any libatk-bridge2.0-dev deb libdevel optional arch=any libatk1.0-0t64 deb libs optional arch=any libatk1.0-dev deb libdevel optional arch=any libatk1.0-doc deb doc optional arch=all profile=!nodoc libatk1.0-udeb udeb debian-installer optional arch=any libatspi0-udeb udeb debian-installer optional arch=any libatspi2.0-0t64 deb libs optional arch=any libatspi2.0-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, build-essential, dbus, dbus-daemon, xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Samuel Thibault \u003csthibault@debian.org\u003e, Jordi Mallach \u003cjordi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/a11y-team/at-spi2-core"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/a11y-team/at-spi2-core.git"
+  ],
+  "Version": [
+    "2.57.2-1"
+  ]
+}

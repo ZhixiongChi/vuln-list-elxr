@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "mapproxy, python3-mapproxy"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, dh-sequence-python3, libgdal-dev, pybuild-plugin-pyproject, python3-all, python3-jsonschema, python3-lxml, python3-pil, python3-pyproj, python3-pytest, python3-redis, python3-requests, python3-setuptools, python3-shapely, python3-webtest, python3-werkzeug, python3-yaml, docbook2x, docbook-xsl, docbook-xml, xsltproc"
+  ],
+  "Checksums-Sha256": [
+    "f6f7c5fe10d45a0ce0b49ff3c0df9795c2720a65d94d0800919abf13dda25468 2369 mapproxy_5.0.0+dfsg-2.dsc d2b43a447a12069ff741091ff2de89da368974b79bc0cfaea2d4f5d267acd6d8 1206236 mapproxy_5.0.0+dfsg.orig.tar.xz cf7b5ad4aeffc7ae2331e7e4ee607a05d6e90386494613c5924f4b72dd4d2abb 19468 mapproxy_5.0.0+dfsg-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mapproxy"
+  ],
+  "Files": [
+    "2cfab4e5a370664419b630a2fa96ff5d 2369 mapproxy_5.0.0+dfsg-2.dsc 3a7652e29ee2718f18721dd5d93d24c0 1206236 mapproxy_5.0.0+dfsg.orig.tar.xz b80858102463879968b7f4453d709add 19468 mapproxy_5.0.0+dfsg-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://mapproxy.org/"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "mapproxy"
+  ],
+  "Package-List": [
+    "mapproxy deb web optional arch=all python3-mapproxy deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Bas Couwenberg \u003csebastic@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/mapproxy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/mapproxy.git"
+  ],
+  "Version": [
+    "5.0.0+dfsg-2"
+  ]
+}

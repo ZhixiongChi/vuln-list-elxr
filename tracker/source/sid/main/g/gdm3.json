@@ -1,0 +1,71 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "gdm3, libgdm1, libgdm-dev, gir1.2-gdm-1.0"
+  ],
+  "Build-Depends": [
+    "check (\u003e= 0.9.4), dconf-cli:native (\u003e= 0.19.90), debhelper-compat (= 13), dh-exec, dh-sequence-gir, dh-sequence-gnome, dh-sequence-installsysusers, docbook-xml, gettext (\u003e= 0.19.8), gir1.2-gio-2.0-dev, gir1.2-glib-2.0-dev, gir1.2-gobject-2.0-dev, gjs [amd64 arm64 armhf i386 loong64 mips64el mipsel ppc64el s390x riscv64], gnome-pkg-tools (\u003e= 0.16.3), gnome-settings-daemon-dev (\u003e= 3.24.0), gobject-introspection (\u003e= 1.80), intltool, iso-codes, itstool, libaccountsservice-dev (\u003e= 0.6.35), libaudit-dev [linux-any], libglib2.0-dev (\u003e= 2.44.0), libgtk-3-dev (\u003e= 2.91.1), libgudev-1.0-dev (\u003e= 232), libjson-glib-dev, libkeyutils-dev [linux-any], libpam0g-dev, libplymouth-dev [linux-any], libselinux1-dev [linux-any], libsystemd-dev [linux-any], libwrap0-dev, libx11-dev, libxau-dev, libxcb1-dev, libxdmcp-dev, meson (\u003e= 0.57), pkgconf, systemd-dev"
+  ],
+  "Checksums-Sha256": [
+    "dc30d0317db2f6031a3b8a6f97805223af94285f89b26db0001d2779915d03dd 3420 gdm3_48.0-3.dsc 1bc06daff093ec7b5e37ecb4f92e5da3474a1b1ba076edb9151ee967d1c30adf 939740 gdm3_48.0.orig.tar.xz b2bb0ee408702d215d1ff6e98084f34a551ec74118a59ccabb24a61f69b384db 87208 gdm3_48.0-3.debian.tar.xz"
+  ],
+  "Dgit": [
+    "0e613c4de60450e25b87cf368f983db61a724e7b debian archive/debian/48.0-3 https://git.dgit.debian.org/gdm3"
+  ],
+  "Directory": [
+    "pool/main/g/gdm3"
+  ],
+  "Files": [
+    "83a2b0f30413e5971a49ab31e5eb5e21 3420 gdm3_48.0-3.dsc a17868752c9a90ed560891886f2882f2 939740 gdm3_48.0.orig.tar.xz 4bf057d435034f5fb374a14dc5422685 87208 gdm3_48.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=126185576e7d7244f36f05533c52792c63aa8758 fp=7a073ad1ae694fa25bff62e5235c099d3eb33076"
+  ],
+  "Git-Tag-Tagger": [
+    "Simon McVittie \u003csmcv@debian.org\u003e"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Projects/GDM/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gdm3"
+  ],
+  "Package-List": [
+    "gdm3 deb gnome optional arch=amd64,arm64,armhf,i386,loong64,mips64el,mipsel,ppc64el,s390x,riscv64 gir1.2-gdm-1.0 deb introspection optional arch=linux-any libgdm-dev deb libdevel optional arch=linux-any libgdm1 deb libs optional arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnome"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "bash, gnutls-bin, libpam-sss, openssl, pamtester, passwd, softhsm2, sssd, util-linux"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gdm"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gdm.git"
+  ],
+  "Version": [
+    "48.0-3"
+  ]
+}

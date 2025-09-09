@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "pypy3, pypy3-tk, pypy3-lib, pypy3-lib-testsuite, pypy3-doc, pypy3-dev, pypy3-venv"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-exec, dpkg-dev (\u003e= 1.20.1~), libbz2-dev, libexpat1-dev, libffi-dev, libgdbm-dev, liblzma-dev, libncurses-dev, libsqlite3-dev, libssl-dev | libssl1.0-dev, netbase, pkgconf, procps, python3-dev, python3-pip-whl, python3-setuptools-whl, python3-sphinx (\u003e= 1.0.7+dfsg), python3-sphinx-issues, python3-sphinx-rtd-theme, tcl-dev, tk-dev, tzdata, valgrind-if-available, zlib1g-dev"
+  ],
+  "Build-Depends-Indep": [
+    "graphviz"
+  ],
+  "Checksums-Sha256": [
+    "80b18925a8b30a2dd26bd8de8db33027856b6c522e9499034dc51fe85cde9762 2404 pypy3_7.3.20+dfsg-2.dsc b62c0e7937551d0cc02b8fd5cb0f544f9405bafc9a54d3808ed4594812edef43 12854736 pypy3_7.3.20+dfsg.orig-cpython27.tar.xz 43482860a2388ac081538154501af7997976858db3ed09dc988ee609f8cd10b6 16672484 pypy3_7.3.20+dfsg.orig.tar.xz 41a4c79af5e7a9ab14637791b4283a804af3997aa935d6c81bb775b6517cbea0 59372 pypy3_7.3.20+dfsg-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pypy3"
+  ],
+  "Files": [
+    "7b967918b0570d6a4bddcce578afc081 2404 pypy3_7.3.20+dfsg-2.dsc fd6cc8ec0a78c44036f825e739f36e5a 12854736 pypy3_7.3.20+dfsg.orig-cpython27.tar.xz 64a3c8c07f121d56ea0874072ba038bf 16672484 pypy3_7.3.20+dfsg.orig.tar.xz 377a4dc9440db86c78579987be23f8b5 59372 pypy3_7.3.20+dfsg-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.pypy.org/"
+  ],
+  "Maintainer": [
+    "Stefano Rivera \u003cstefanor@debian.org\u003e"
+  ],
+  "Package": [
+    "pypy3"
+  ],
+  "Package-List": [
+    "pypy3 deb python optional arch=any pypy3-dev deb python optional arch=all pypy3-doc deb doc optional arch=all pypy3-lib deb python optional arch=any pypy3-lib-testsuite deb python optional arch=all pypy3-tk deb python optional arch=any pypy3-venv deb python optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, python3-pip, python3-setuptools, python3-six, shunit2, virtualenv"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/pypy3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/pypy3.git"
+  ],
+  "Version": [
+    "7.3.20+dfsg-2"
+  ]
+}

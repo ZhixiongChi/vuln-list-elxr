@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "fai-client, fai-doc, fai-server, fai-quickstart, fai-nfsroot, fai-setup-storage"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), debhelper (\u003e= 11), libgraph-perl, devscripts"
+  ],
+  "Build-Depends-Indep": [
+    "asciidoc-dblatex, w3m, dblatex, docbook-xsl, libparse-recdescent-perl"
+  ],
+  "Checksums-Sha256": [
+    "86641fe247509b850d41c79615c2128093026f4df38288087d3bf06c2ad78970 2102 fai_6.0.3+deb12u1.dsc 137f039b12cfb6cbffb1c4afb87c2fa4e99f3d316cd5891414444bce9c1dbf06 294248 fai_6.0.3+deb12u1.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fai"
+  ],
+  "Files": [
+    "2e6ad66f9148349929be244dcb72f610 2102 fai_6.0.3+deb12u1.dsc 996c748085a195175cbb045e0c0a5c79 294248 fai_6.0.3+deb12u1.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://fai-project.org"
+  ],
+  "Maintainer": [
+    "Thomas Lange \u003clange@debian.org\u003e"
+  ],
+  "Package": [
+    "fai"
+  ],
+  "Package-List": [
+    "fai-client deb admin optional arch=all fai-doc deb doc optional arch=all fai-nfsroot deb admin optional arch=all fai-quickstart deb admin optional arch=all fai-server deb admin optional arch=all fai-setup-storage deb admin optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "binutils, dosfstools, mtools, qemu-utils, reprepro, squashfs-tools, xorriso"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/faiproject/fai"
+  ],
+  "Vcs-Git": [
+    "https://github.com/faiproject/fai.git"
+  ],
+  "Version": [
+    "6.0.3+deb12u1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "iwd, network-manager-iwd"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libdbus-1-dev, libell-dev (\u003e= 0.77~), libreadline-dev, openssl \u003c!nocheck\u003e, python3-docutils \u003c!nodoc\u003e, systemd-dev"
+  ],
+  "Checksums-Sha256": [
+    "cfab51a39bcb6f2baa64fd507d6564eede635feae153d2576ff789c6f8f5dab6 2118 iwd_3.9-2.dsc 0cd7dc9b32b9d6809a4a5e5d063b5c5fd279f5ad3a0bf03d7799da66df5cad45 1117304 iwd_3.9.orig.tar.xz 216123a4b25c3d9fdd46081ecd153edc0bcde568e86febaad22516667649f44f 18608 iwd_3.9-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/iwd"
+  ],
+  "Files": [
+    "f984d4c25df18f71df92b972c1955b84 2118 iwd_3.9-2.dsc 540d6f23ae20e4612a6efad256c41d41 1117304 iwd_3.9.orig.tar.xz 43117e38b8e28eabd555fb4170ebad24 18608 iwd_3.9-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://iwd.wiki.kernel.org/"
+  ],
+  "Maintainer": [
+    "Jonas Smedegaard \u003cdr@jones.dk\u003e"
+  ],
+  "Package": [
+    "iwd"
+  ],
+  "Package-List": [
+    "iwd deb net optional arch=linux-any network-manager-iwd deb net optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, build-essential"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/iwd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/iwd.git"
+  ],
+  "Version": [
+    "3.9-2"
+  ]
+}

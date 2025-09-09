@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-bsblan"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-hatchling"
+  ],
+  "Build-Depends-Indep": [
+    "python3-aiohttp \u003c!nocheck\u003e, python3-aresponses \u003c!nocheck\u003e, python3-mashumaro \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-yarl \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "490eecc3bf0719f1fc0b2c2666dfbee43626f77f93b2c0d2c2c837b4b3c3bb99 2333 python-bsblan_3.0.0-1.dsc b15a888829254887fd8edbd67d8b6a0bb76f681d2b864ed0df891e1bc407e755 171435 python-bsblan_3.0.0.orig.tar.gz 0bab8fc747d5a4a5468d7964bbbaf0fb46876c4036257f97bf1a8b620693d538 2520 python-bsblan_3.0.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-bsblan"
+  ],
+  "Files": [
+    "751ae0b454b7a49a321a91d867236cc0 2333 python-bsblan_3.0.0-1.dsc a8177b9ff68005dae1a902be36e615b8 171435 python-bsblan_3.0.0.orig.tar.gz 65a344e9bce82cf54b11c8988fe1c0db 2520 python-bsblan_3.0.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/liudger/python-bsblan"
+  ],
+  "Maintainer": [
+    "Home Assistant Team \u003cteam+homeassistant@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-bsblan"
+  ],
+  "Package-List": [
+    "python3-bsblan deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Edward Betts \u003cedward@4angle.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/homeassistant-team/deps/python-bsblan"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/homeassistant-team/deps/python-bsblan.git"
+  ],
+  "Version": [
+    "3.0.0-1"
+  ]
+}

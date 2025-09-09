@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-wasm-bindgen-futures-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.57) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e, librust-js-sys-0.3+std-dev (\u003c\u003c 0.3.78-~~) \u003c!nocheck\u003e, librust-js-sys-0.3+std-dev (\u003e= 0.3.77-~~) \u003c!nocheck\u003e, librust-js-sys-0.3-dev (\u003c\u003c 0.3.78-~~) \u003c!nocheck\u003e, librust-js-sys-0.3-dev (\u003e= 0.3.77-~~) \u003c!nocheck\u003e, librust-once-cell-1-dev (\u003e= 1.12-~~) \u003c!nocheck\u003e, librust-wasm-bindgen-0.2+std-dev (\u003c\u003c 0.2.101-~~) \u003c!nocheck\u003e, librust-wasm-bindgen-0.2+std-dev (\u003e= 0.2.100-~~) \u003c!nocheck\u003e, librust-wasm-bindgen-0.2-dev (\u003c\u003c 0.2.101-~~) \u003c!nocheck\u003e, librust-wasm-bindgen-0.2-dev (\u003e= 0.2.100-~~) \u003c!nocheck\u003e, librust-web-sys-0.3+messageevent-dev (\u003c\u003c 0.3.78-~~) \u003c!nocheck\u003e, librust-web-sys-0.3+messageevent-dev (\u003e= 0.3.77-~~) \u003c!nocheck\u003e, librust-web-sys-0.3+std-dev (\u003c\u003c 0.3.78-~~) \u003c!nocheck\u003e, librust-web-sys-0.3+std-dev (\u003e= 0.3.77-~~) \u003c!nocheck\u003e, librust-web-sys-0.3+worker-dev (\u003c\u003c 0.3.78-~~) \u003c!nocheck\u003e, librust-web-sys-0.3+worker-dev (\u003e= 0.3.77-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "9c291f61878ba0014b55103d55a0854cb586131897ab096ad07ccdb3edb3f192 3274 rust-wasm-bindgen-futures_0.4.50-1.dsc 555d470ec0bc3bb57890405e5d4322cc9ea83cebb085523ced7be4144dac1e61 16181 rust-wasm-bindgen-futures_0.4.50.orig.tar.gz 512025e663dd7657512379334fe1e8329db200560ec7a247e2c279b61530b03a 3544 rust-wasm-bindgen-futures_0.4.50-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-wasm-bindgen-futures"
+  ],
+  "Files": [
+    "3fe19b7f1317ae8ec4aec50e24467284 3274 rust-wasm-bindgen-futures_0.4.50-1.dsc 077d896569ed558dc871f827298f7714 16181 rust-wasm-bindgen-futures_0.4.50.orig.tar.gz 71b6dfe1d0320cb2fae7c44e86b15d05 3544 rust-wasm-bindgen-futures_0.4.50-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://rustwasm.github.io/wasm-bindgen/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-wasm-bindgen-futures"
+  ],
+  "Package-List": [
+    "librust-wasm-bindgen-futures-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/wasm-bindgen-futures"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/wasm-bindgen-futures]"
+  ],
+  "Version": [
+    "0.4.50-1"
+  ]
+}

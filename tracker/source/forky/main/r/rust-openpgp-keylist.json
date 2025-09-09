@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-openpgp-keylist-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-anyhow-1+default-dev \u003c!nocheck\u003e, librust-reqwest-0.12+blocking-dev \u003c!nocheck\u003e, librust-reqwest-0.12+default-dev \u003c!nocheck\u003e, librust-serde-1+default-dev \u003c!nocheck\u003e, librust-serde-1+derive-dev \u003c!nocheck\u003e, librust-serde-json-1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "295a815be095b3b6642f29ad06e8e07a04ac5a17069ae660d1aaea6f351999ed 2519 rust-openpgp-keylist_0.2.0-2.dsc 432bc060ad0f75ebbde539a2ffdcd06616f0bbbca03463a5df69da6d3f30807c 16941 rust-openpgp-keylist_0.2.0.orig.tar.gz fbebca60e9d2549db9b6d5665b0baaf4dfbf6ced58bbeda09456475d7883eb1e 2312 rust-openpgp-keylist_0.2.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-openpgp-keylist"
+  ],
+  "Files": [
+    "b9996ce6ed4d11775b05d3091347378f 2519 rust-openpgp-keylist_0.2.0-2.dsc bc319ff086818d8c17b15d7fc1752ac3 16941 rust-openpgp-keylist_0.2.0.orig.tar.gz 2697b7f32ec9c83153f7e5f931077e7a 2312 rust-openpgp-keylist_0.2.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-openpgp-keylist"
+  ],
+  "Package-List": [
+    "librust-openpgp-keylist-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/openpgp-keylist"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/openpgp-keylist]"
+  ],
+  "Version": [
+    "0.2.0-2"
+  ]
+}

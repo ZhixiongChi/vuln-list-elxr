@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python-charset-normalizer-doc, python3-charset-normalizer"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, libpython3-all-dev, pybuild-plugin-pyproject, python3-all:native, python3-all-dev:native, python3-mypy:native, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-setuptools, sphinx-common"
+  ],
+  "Build-Depends-Indep": [
+    "python3-sphinx, furo"
+  ],
+  "Checksums-Sha256": [
+    "660d06fcadab70189534853230da72828d60eec01bca431b4f6fb2ab63e04619 2704 python-charset-normalizer_3.4.3-1.dsc 8dc938516b67c4b8787aa2344cf9a11e7272ac59d7f163290a3f5e9f72be03cf 101208 python-charset-normalizer_3.4.3.orig.tar.gz 8bdfce783b6eed9ed0aed94ad393a614fd856430b5f047aa4136669855055890 12092 python-charset-normalizer_3.4.3-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "5c757cf3f397cfd457cbb8793db3f6f0055b4f36 debian archive/debian/3.4.3-1 https://git.dgit.debian.org/python-charset-normalizer"
+  ],
+  "Directory": [
+    "pool/main/p/python-charset-normalizer"
+  ],
+  "Files": [
+    "67af9593e34b484b0ce03ed1d851b483 2704 python-charset-normalizer_3.4.3-1.dsc fb107425656f42c144b63a3705717521 101208 python-charset-normalizer_3.4.3.orig.tar.gz 57b0f7e7b360f27a9594a7b7881629d5 12092 python-charset-normalizer_3.4.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ousret/charset_normalizer"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-charset-normalizer"
+  ],
+  "Package-List": [
+    "python-charset-normalizer-doc deb doc optional arch=all python3-charset-normalizer deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest, python3-pytest-cov"
+  ],
+  "Uploaders": [
+    "Dominik George \u003cnatureshadow@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-charset-normalizer"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-charset-normalizer.git"
+  ],
+  "Version": [
+    "3.4.3-1"
+  ]
+}

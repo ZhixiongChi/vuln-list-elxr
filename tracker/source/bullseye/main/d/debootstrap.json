@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "debootstrap, debootstrap-udeb"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12)"
+  ],
+  "Checksums-Sha256": [
+    "6be9ab3050ccf6c273fcad2382339fdca438ceb714338eed708b12c2ed887639 2076 debootstrap_1.0.123+deb11u2.dsc 3fecdd29fadb4d8cfdbed26f80b4fb6b23a2133717ad259e63c12b68bbe108b5 79865 debootstrap_1.0.123+deb11u2.tar.gz"
+  ],
+  "Dgit": [
+    "c9831e12c674bab53040f1bb300af425522b5c5b debian archive/debian/1.0.123+deb11u2 https://git.dgit.debian.org/debootstrap"
+  ],
+  "Directory": [
+    "pool/main/d/debootstrap"
+  ],
+  "Files": [
+    "9a06f5bc186878050305303e14d0bf55 2076 debootstrap_1.0.123+deb11u2.dsc 90383725eb83811f035d0eaa7289359c 79865 debootstrap_1.0.123+deb11u2.tar.gz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian Install System Team \u003cdebian-boot@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "debootstrap"
+  ],
+  "Package-List": [
+    "debootstrap deb admin optional arch=all debootstrap-udeb udeb debian-installer optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ca-certificates, libdistro-info-perl, libdpkg-perl, libipc-run-perl, perl, systemd, systemd-container"
+  ],
+  "Uploaders": [
+    "Colin Watson \u003ccjwatson@debian.org\u003e, Steve McIntyre \u003c93sam@debian.org\u003e, Hideki Yamane \u003chenrich@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/installer-team/debootstrap"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/installer-team/debootstrap.git"
+  ],
+  "Version": [
+    "1.0.123+deb11u2"
+  ]
+}

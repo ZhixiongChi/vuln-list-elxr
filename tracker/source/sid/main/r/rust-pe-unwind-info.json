@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-pe-unwind-info-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-arrayvec-0.7+default-dev \u003c!nocheck\u003e, librust-bitflags-2+default-dev \u003c!nocheck\u003e, librust-thiserror-2+default-dev \u003c!nocheck\u003e, librust-zerocopy-0.8+default-dev \u003c!nocheck\u003e, librust-zerocopy-derive-0.8+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "62bd844d9d872f8ca399259e4911041449c9a906b2f8117461ef258d9f1de1b4 1996 rust-pe-unwind-info_0.5.0-2.dsc 794d450056192ad5d1bfd9f39b83890e51372e7dd749923a7e3526ec3528601e 14824 rust-pe-unwind-info_0.5.0.orig.tar.gz 1b5178796177708923e9dd1f819313396e4ca8f2545b54146116b10731593051 2872 rust-pe-unwind-info_0.5.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-pe-unwind-info"
+  ],
+  "Files": [
+    "c6b4b4138861599032a252fc1c973ccb 1996 rust-pe-unwind-info_0.5.0-2.dsc f296ad846ae099e404183db26c92c1c9 14824 rust-pe-unwind-info_0.5.0.orig.tar.gz b19f1d9cfb2091ed587ad2578be7e139 2872 rust-pe-unwind-info_0.5.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/mozilla/pe-unwind-info"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-pe-unwind-info"
+  ],
+  "Package-List": [
+    "librust-pe-unwind-info-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-hex-literal-0.4+default-dev, librust-memmap2-0.9+default-dev, librust-object-0.36+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pe-unwind-info"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/pe-unwind-info]"
+  ],
+  "Version": [
+    "0.5.0-2"
+  ]
+}

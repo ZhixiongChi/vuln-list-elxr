@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libllvmspirvlib18.1, libllvmspirvlib-18-dev, llvm-spirv-18"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-pkgkde-symbolshelper, cmake, gcc (\u003e= 4:14), pkgconf, spirv-headers (\u003e= 1.6.1+1.4.313.0), spirv-tools, libclang-18-dev, llvm-18-dev, clang-18 \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "4fd1de95d86c6aebc9789633e562e3d9ab1bd28fa216667c2e46c3fd9ab81afb 2608 spirv-llvm-translator-18_18.1.15-1.dsc e737d537b1c2339f4d91cd8aa26f377180ddccf5b67cd575e62481c37255bc48 1731769 spirv-llvm-translator-18_18.1.15.orig.tar.gz 7b0203dfec429563639ceaa917b07a86c07572b967cffb845d88ef0cc741cb4e 15272 spirv-llvm-translator-18_18.1.15-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/spirv-llvm-translator-18"
+  ],
+  "Files": [
+    "e531070a0b477aa40fa82730bc452b1f 2608 spirv-llvm-translator-18_18.1.15-1.dsc 3519228a80741d13f7665544aaa13093 1731769 spirv-llvm-translator-18_18.1.15.orig.tar.gz 0db679094eebf931a764fbe27b76de52 15272 spirv-llvm-translator-18_18.1.15-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/KhronosGroup/SPIRV-LLVM-Translator"
+  ],
+  "Maintainer": [
+    "Debian OpenCL team \u003cpkg-opencl-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "spirv-llvm-translator-18"
+  ],
+  "Package-List": [
+    "libllvmspirvlib-18-dev deb libdevel optional arch=any libllvmspirvlib18.1 deb libs optional arch=any llvm-spirv-18 deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "clang-18, cmake, g++, llvm-18-dev, make, pkgconf, spirv-headers, spirv-tools"
+  ],
+  "Uploaders": [
+    "Timo Aaltonen \u003ctjaalton@debian.org\u003e, Andreas Beckmann \u003canbe@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/opencl-team/spirv-llvm-translator"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/opencl-team/spirv-llvm-translator.git -b llvm18/main"
+  ],
+  "Version": [
+    "18.1.15-1"
+  ]
+}

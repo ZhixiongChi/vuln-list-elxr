@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "glslang-tools, glslang-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, pkgconf, python3:native, spirv-headers, spirv-tools (\u003e= 2025.3~rc1)"
+  ],
+  "Checksums-Sha256": [
+    "d46e9db3ab21d3b2dc77d85014f13d335e710a70f373258415c91249790a49fe 2131 glslang_15.4.0-1.dsc b16c78e7604b9be9f546ee35ad8b6db6f39bbbbfb19e8d038b6fe2ea5bba4ff4 4201376 glslang_15.4.0.orig.tar.gz 286c39d6b53685e54e5b442d02590119caa3c0031c88322b6f05b790acfe1c24 14836 glslang_15.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/glslang"
+  ],
+  "Files": [
+    "a540d7a36b3c7162c52157fb1a60d34d 2131 glslang_15.4.0-1.dsc a400ed377dc9de8b87a8179a90cef3b8 4201376 glslang_15.4.0.orig.tar.gz baef7d0f7478aa503f5c101532f3b298 14836 glslang_15.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/KhronosGroup/glslang"
+  ],
+  "Maintainer": [
+    "Debian X Strike Force \u003cdebian-x@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "glslang"
+  ],
+  "Package-List": [
+    "glslang-dev deb libdevel optional arch=any glslang-tools deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config"
+  ],
+  "Uploaders": [
+    "Timo Aaltonen \u003ctjaalton@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/xorg-team/vulkan/glslang"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/xorg-team/vulkan/glslang.git"
+  ],
+  "Version": [
+    "15.4.0-1"
+  ]
+}

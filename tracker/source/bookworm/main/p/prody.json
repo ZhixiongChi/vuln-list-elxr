@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-prody, python3-prody-tests"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all-dev, python3-biopython \u003c!nocheck\u003e, python3-numpy, python3-pyparsing \u003c!nocheck\u003e, python3-scipy \u003c!nocheck\u003e, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "fbcbdbaba946472623f7551e93caef3bb5afd8567a7a7fbaae6b7adb6c0b4f08 1897 prody_2.3.1+dfsg-3+deb12u2.dsc 3401d31865d0a2b82d32269301316397768ee9de0f0f71cd992b7b0a0298aaf2 12920328 prody_2.3.1+dfsg.orig.tar.xz a600c4d7b37821b58602d08952d4479af3a57bb5c6a78395e91ee5668e21ba38 6476 prody_2.3.1+dfsg-3+deb12u2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/prody"
+  ],
+  "Files": [
+    "e260b7688408ae432f86adeec5695129 1897 prody_2.3.1+dfsg-3+deb12u2.dsc 6307979cfe4a70c1215862cfde589413 12920328 prody_2.3.1+dfsg.orig.tar.xz 809fdeb38f5030750e5d9b258521ac79 6476 prody_2.3.1+dfsg-3+deb12u2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/prody/ProDy"
+  ],
+  "Maintainer": [
+    "Debichem Team \u003cdebichem-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "prody"
+  ],
+  "Package-List": [
+    "python3-prody deb science optional arch=any python3-prody-tests deb science optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-pytest"
+  ],
+  "Uploaders": [
+    "Andrius Merkys \u003cmerkys@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debichem-team/prody"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debichem-team/prody.git"
+  ],
+  "Version": [
+    "2.3.1+dfsg-3+deb12u2"
+  ]
+}

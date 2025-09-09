@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-sha2-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e, librust-cpufeatures-0.2+default-dev \u003c!nocheck\u003e, librust-digest-0.10+default-dev (\u003e= 0.10.7-~~) \u003c!nocheck\u003e, librust-digest-0.10+std-dev (\u003e= 0.10.7-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "cce4ada844b0a3af6ad1452be55adc0a835baa3ecb648770f2feb7e9288c4210 2473 rust-sha2_0.10.9-1.dsc a7507d819769d01a365ab707794a4084392c824f54a7a6a7862f8c3d0892b283 29271 rust-sha2_0.10.9.orig.tar.gz 13778c5c5cb01b8a1035cb85cdc580a4602cb88f6499279dfd02a328dc382e07 3804 rust-sha2_0.10.9-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-sha2"
+  ],
+  "Files": [
+    "dc4abf2e4c34b883380eaad93cf0133d 2473 rust-sha2_0.10.9-1.dsc 295e503f197dd34556876b97c60b87c1 29271 rust-sha2_0.10.9.orig.tar.gz c96ce910923610dbb03d6e7fcfe99e7a 3804 rust-sha2_0.10.9-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/RustCrypto/hashes"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-sha2"
+  ],
+  "Package-List": [
+    "librust-sha2-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-digest-0.10+default-dev, librust-digest-0.10+dev-dev, librust-hex-literal-0.4+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/sha2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/sha2]"
+  ],
+  "Version": [
+    "0.10.9-1"
+  ]
+}

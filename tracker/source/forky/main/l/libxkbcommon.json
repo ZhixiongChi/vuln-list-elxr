@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libxkbcommon0, libxkbcommon0-udeb, libxkbcommon-dev, libxkbcommon-doc, libxkbcommon-tools, libxkbcommon-x11-0, libxkbcommon-x11-dev, libxkbregistry0, libxkbregistry-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), bison, dh-exec, doxygen, flex, graphviz, meson, pkgconf, quilt, libwayland-dev [linux-any], libxcb-xkb-dev, libxml2-dev, wayland-protocols [linux-any], x11-xkb-utils \u003c!nocheck\u003e, x11proto-dev, xkb-data \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "01bfceb555452f72e226470d801742731fde63c7b5fd71412ca31d5cf1385839 2835 libxkbcommon_1.7.0-2.1.dsc 65782f0a10a4b455af9c6baab7040e2f537520caa2ec2092805cdfd36863b247 534312 libxkbcommon_1.7.0.orig.tar.xz c35e9580b0a51d0675ea38eeab156b01dd555a6bf0a4377d0f32ee6a3771a763 8840 libxkbcommon_1.7.0-2.1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libx/libxkbcommon"
+  ],
+  "Files": [
+    "5ca06d8c78a5c23a41f587fc2f047284 2835 libxkbcommon_1.7.0-2.1.dsc b05b1a0d473189efb2dd995dd944f152 534312 libxkbcommon_1.7.0.orig.tar.xz 036787ea9dc628f643393fb7ce460e49 8840 libxkbcommon_1.7.0-2.1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.xkbcommon.org/"
+  ],
+  "Maintainer": [
+    "Debian X Strike Force \u003cdebian-x@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "libxkbcommon"
+  ],
+  "Package-List": [
+    "libxkbcommon-dev deb libdevel optional arch=any libxkbcommon-doc deb doc optional arch=all libxkbcommon-tools deb graphics optional arch=any libxkbcommon-x11-0 deb libs optional arch=any libxkbcommon-x11-dev deb libdevel optional arch=any libxkbcommon0 deb libs optional arch=any libxkbcommon0-udeb udeb debian-installer optional arch=any libxkbregistry-dev deb libdevel optional arch=any libxkbregistry0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "x11"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config"
+  ],
+  "Uploaders": [
+    "Michael Stapelberg \u003cstapelberg@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/xorg-team/lib/libxkbcommon"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/xorg-team/lib/libxkbcommon.git"
+  ],
+  "Version": [
+    "1.7.0-2.1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-abscissa-derive-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.74) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-ident-case-1+default-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev \u003c!nocheck\u003e, librust-quote-1+default-dev \u003c!nocheck\u003e, librust-syn-1+default-dev \u003c!nocheck\u003e, librust-synstructure-0.12+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "cad526645d94366327b434138af11994330f5bccdbe1b258240da2870657f9ee 1905 rust-abscissa-derive_0.8.2-1.dsc 08d914621d2ef4da433fe01907e323ee3f2807738d392d5a34c287b381f87fe2 5521 rust-abscissa-derive_0.8.2.orig.tar.gz d484f0b2eca060486ec0e5732a9a6e6b3cd13f294e7713c6eed442a33c3956a8 2124 rust-abscissa-derive_0.8.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-abscissa-derive"
+  ],
+  "Files": [
+    "3d83e21f0a70f193b9c69958ac94814f 1905 rust-abscissa-derive_0.8.2-1.dsc bb3e45590e82dc262d374825828604f3 5521 rust-abscissa-derive_0.8.2.orig.tar.gz f7f7e6e5718ae02d0f3607a5a0569614 2124 rust-abscissa-derive_0.8.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/iqlusioninc/abscissa"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-abscissa-derive"
+  ],
+  "Package-List": [
+    "librust-abscissa-derive-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/abscissa-derive"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/abscissa-derive]"
+  ],
+  "Version": [
+    "0.8.2-1"
+  ]
+}

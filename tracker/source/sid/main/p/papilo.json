@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "papilo, libpapilo-clusol0d, libpapilo-core0d, libpapilo-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), catch2 \u003c!nocheck\u003e, cmake, gfortran, libblas-dev, libboost-dev, libboost-iostreams-dev, libboost-program-options-dev, libboost-serialization-dev, libfmt-dev, libsoplex-dev, libtbb-dev (\u003e= 2020)"
+  ],
+  "Checksums-Sha256": [
+    "ec8c14eee6a005c8e1a5994c92561ad1a8a72e1d904629408f3afeef0c7567d0 2763 papilo_2.4.3+ds-1.dsc f4e934bd8f0162133c510d2db928316c04ac195da26eb72e873076e2f30106e2 753584 papilo_2.4.3+ds.orig.tar.xz 8689e8f8ed0b9c52cf52fe61e28653f958554f00d977a74be02903c7c343a4ed 9744 papilo_2.4.3+ds-1.debian.tar.xz"
+  ],
+  "Description": [
+    "Parallel Presolve for Integer and Linear Optimization PaPILO, a C++14-based software package, provides parallel presolve routines for (mixed integer) linear programming problems. The routines are implemented using templates which allows switching to higher precision or rational arithmetic using the boost multiprecision package."
+  ],
+  "Dgit": [
+    "94ee95762919f4e60efd9c7ba903b56bc8ea9f85 debian archive/debian/2.4.3+ds-1 https://git.dgit.debian.org/papilo"
+  ],
+  "Directory": [
+    "pool/main/p/papilo"
+  ],
+  "Files": [
+    "482bec5b44cc1ccdeb3cee07b37106a7 2763 papilo_2.4.3+ds-1.dsc eebd86a5b928b36c0c97d3db66f14eaa 753584 papilo_2.4.3+ds.orig.tar.xz 87c62bebcb7e612ae401c6b25f6cfa46 9744 papilo_2.4.3+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/scipopt/papilo"
+  ],
+  "Maintainer": [
+    "Debian Math Team \u003cteam+math@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "papilo"
+  ],
+  "Package-List": [
+    "libpapilo-clusol0d deb libs optional arch=any libpapilo-core0d deb libs optional arch=any libpapilo-dev deb libdevel optional arch=any papilo deb math optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Timo Röhling \u003croehling@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/math-team/papilo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/math-team/papilo.git"
+  ],
+  "Version": [
+    "2.4.3+ds-1"
+  ]
+}

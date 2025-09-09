@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgeos-dev, libgeos++-dev, libgeos-c1t64, libgeos3.14.0, libgeos-doc, geos-bin"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-pkgkde-symbolshelper, dpkg-dev (\u003e= 1.22.5), cmake, doxygen, pkg-kde-tools"
+  ],
+  "Checksums-Sha256": [
+    "e90fc1a9b7bdfcc3a6d772b87ecb621658539b361433f4f08d44866ffea558de 2312 geos_3.14.0-1.dsc fe85286b1977121894794b36a7464d05049361bedabf972e70d8f9bf1e3ce928 6990029 geos_3.14.0.orig.tar.bz2 48e624cfb57b8ca559a872cc757bbfdd63bd0c41c955e3682810890d027cf592 82496 geos_3.14.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/geos"
+  ],
+  "Files": [
+    "f12da06f4ff997a10c8e7d862581c7f7 2312 geos_3.14.0-1.dsc e197abccc1e6ddeb3ccde5249bbb7e38 6990029 geos_3.14.0.orig.tar.bz2 73c3856ddf290a64555d96e00a6f5304 82496 geos_3.14.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://trac.osgeo.org/geos/"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "geos"
+  ],
+  "Package-List": [
+    "geos-bin deb utils optional arch=any libgeos++-dev deb libdevel optional arch=any libgeos-c1t64 deb libs optional arch=any libgeos-dev deb libdevel optional arch=any libgeos-doc deb doc optional arch=all libgeos3.14.0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "science"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Francesco Paolo Lovergine \u003cfrankie@debian.org\u003e, Bas Couwenberg \u003csebastic@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/geos"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/geos.git"
+  ],
+  "Version": [
+    "3.14.0-1"
+  ]
+}

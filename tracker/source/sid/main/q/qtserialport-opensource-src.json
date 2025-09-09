@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libqt5serialport5, libqt5serialport5-dev, qt5serialport-examples, qtserialport5-doc, qtserialport5-doc-html"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libudev-dev [linux-any], pkg-kde-tools, qtbase5-dev (\u003e= 5.15.17+dfsg~), qtbase5-private-dev (\u003e= 5.15.17+dfsg~)"
+  ],
+  "Build-Depends-Indep": [
+    "qdoc-qt5 (\u003e= 5.15.17~) \u003c!nodoc\u003e, qhelpgenerator-qt5 (\u003e= 5.15.17~) \u003c!nodoc\u003e, qtattributionsscanner-qt5 (\u003e= 5.15.17~) \u003c!nodoc\u003e, qtbase5-doc-html (\u003e= 5.15.17+dfsg~) \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "cb3ca3db5dd42b03132421053d5d7d25056393645aa5f5fa7d4d35c2470e8b56 2888 qtserialport-opensource-src_5.15.17-2.dsc 22c4b6508cb86222cc3d08d7e6fd3115d754ab43a7317a04b4ac7b0744dcaae4 316592 qtserialport-opensource-src_5.15.17.orig.tar.xz 0f6ef1a3b64961d343d155ec29b15331490f8d2370a5a6e94aa8de1ca69e9ac3 8252 qtserialport-opensource-src_5.15.17-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qtserialport-opensource-src"
+  ],
+  "Files": [
+    "5046a109bce67c94568e70d801b52df5 2888 qtserialport-opensource-src_5.15.17-2.dsc fe677efa46495bf4d3693766d4b341a2 316592 qtserialport-opensource-src_5.15.17.orig.tar.xz 58eebc0f66e929fb35f5ef4714dd57c9 8252 qtserialport-opensource-src_5.15.17-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://doc.qt.io/qt-5/qtserialport-index.html"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "qtserialport-opensource-src"
+  ],
+  "Package-List": [
+    "libqt5serialport5 deb libs optional arch=any libqt5serialport5-dev deb libdevel optional arch=any qt5serialport-examples deb x11 optional arch=any qtserialport5-doc deb doc optional arch=all profile=!nodoc qtserialport5-doc-html deb doc optional arch=all profile=!nodoc"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Sune Vuorela \u003cdebian@pusling.com\u003e, Pino Toscano \u003cpino@debian.org\u003e, Felix Geyer \u003cfgeyer@debian.org\u003e, Dmitry Shachnev \u003cmitya57@debian.org\u003e, Simon Quigley \u003ctsimonq2@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/qt/qtserialport"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/qt/qtserialport.git"
+  ],
+  "Version": [
+    "5.15.17-2"
+  ]
+}

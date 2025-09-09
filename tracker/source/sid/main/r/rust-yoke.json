@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-yoke-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.81) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-serde-1+alloc-dev (\u003e= 1.0.110-~~) \u003c!nocheck\u003e, librust-stable-deref-trait-1+alloc-dev (\u003e= 1.2.0-~~) \u003c!nocheck\u003e, librust-stable-deref-trait-1-dev (\u003e= 1.2.0-~~) \u003c!nocheck\u003e, librust-zerofrom-0.1+alloc-dev (\u003e= 0.1.3-~~) \u003c!nocheck\u003e, librust-zerofrom-0.1-dev (\u003e= 0.1.3-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c417c94c5944c9561d60e48b75409a61ad7a39e1759f383d5218008dc4233309 2507 rust-yoke_0.8.0-1.dsc 5f41bb01b8226ef4bfd589436a297c53d118f65921786300e427be8d487695cc 28726 rust-yoke_0.8.0.orig.tar.gz 787ddae60cb6c449d49859b84364e06799549daa596340ca7befcdf04b5cd82d 3444 rust-yoke_0.8.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-yoke"
+  ],
+  "Files": [
+    "794b5508f39c128b8078df9b99fb4212 2507 rust-yoke_0.8.0-1.dsc d37269138077e7991a11637cec39df3b 28726 rust-yoke_0.8.0.orig.tar.gz a9e811ebb0228b8445a103e0a7ab3edc 3444 rust-yoke_0.8.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/unicode-org/icu4x"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-yoke"
+  ],
+  "Package-List": [
+    "librust-yoke-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-bincode-1+default-dev, librust-postcard-1-dev, librust-serde-1-dev, rustc"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/yoke"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/yoke]"
+  ],
+  "Version": [
+    "0.8.0-1"
+  ]
+}

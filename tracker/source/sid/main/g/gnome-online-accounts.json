@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "gnome-online-accounts, libgoa-1.0-0b, libgoa-1.0-dev, libgoa-backend-1.0-2, libgoa-backend-1.0-dev, libgoa-1.0-common, libgoa-1.0-doc, gir1.2-goa-1.0"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, docbook-xsl, gir1.2-gio-2.0-dev, gobject-introspection (\u003e= 1.80), libadwaita-1-dev (\u003e= 1.6~beta), libdbus-1-dev, libgcr-4-dev, libglib2.0-dev (\u003e= 2.67.4), libgtk-4-dev (\u003e= 4.15.2), libjson-glib-dev, libkeyutils-dev (\u003e= 1.6.2) [linux-any], libkrb5-dev, libmsgraph-dev, librest-dev (\u003e= 0.9), libsecret-1-dev, libsoup-3.0-dev (\u003e= 2.42), meson (\u003e= 0.57.0), valac, xsltproc"
+  ],
+  "Build-Depends-Indep": [
+    "gi-docgen \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "ac4fc3a61de45f881d521779fb61eee7baff714d4a1befd11e94fa686e8411f7 3216 gnome-online-accounts_3.55.2-1.dsc 91d024856c38004c2b2fe6fdad5a0187e6a806ff3e1ed20020b9340e0d480aef 489932 gnome-online-accounts_3.55.2.orig.tar.xz 49252179b339e9ec1d208853f76d9be54c33d264eda0ac6840980ea63b158cfc 15984 gnome-online-accounts_3.55.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gnome-online-accounts"
+  ],
+  "Files": [
+    "9e7fd138de65e5b399d68d2ddb89f662 3216 gnome-online-accounts_3.55.2-1.dsc 724d70dbef31e0705c8f7b20c64b27c2 489932 gnome-online-accounts_3.55.2.orig.tar.xz 0c3b69276866018e0dc3d55313a4e3dd 15984 gnome-online-accounts_3.55.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Projects/GnomeOnlineAccounts"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gnome-online-accounts"
+  ],
+  "Package-List": [
+    "gir1.2-goa-1.0 deb introspection optional arch=any gnome-online-accounts deb gnome optional arch=any libgoa-1.0-0b deb libs optional arch=any libgoa-1.0-common deb libs optional arch=all libgoa-1.0-dev deb libdevel optional arch=any libgoa-1.0-doc deb doc optional arch=all profile=!nodoc libgoa-backend-1.0-2 deb libs optional arch=any libgoa-backend-1.0-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "gnome"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, dbus, python3-gi, xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e, Tim Lunn \u003ctim@feathertop.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gnome-online-accounts"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gnome-online-accounts.git"
+  ],
+  "Version": [
+    "3.55.2-1"
+  ]
+}

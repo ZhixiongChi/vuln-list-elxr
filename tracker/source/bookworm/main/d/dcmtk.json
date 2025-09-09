@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "dcmtk, libdcmtk17, libdcmtk-dev, dcmtk-doc"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), gettext, help2man, libpng-dev, libsndfile1-dev, libssl-dev, libtiff-dev, libwrap0-dev, libxml2-dev, zlib1g-dev"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, graphviz"
+  ],
+  "Checksums-Sha256": [
+    "17420b6540e2f376063d56281a2a050df1ebe072d98ec99d89f70b6368e44909 2354 dcmtk_3.6.7-9~deb12u3.dsc 17705dcdb2047d1266bb4e92dbf4aa6d4967819e8e3e94f39b7df697661b4860 6641083 dcmtk_3.6.7.orig.tar.gz a25c6012ddf353ee6e86d506380beb8cca0c50cf8c075dddea922b95ac421325 59048 dcmtk_3.6.7-9~deb12u3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dcmtk"
+  ],
+  "Files": [
+    "3db1a71d4e2ee813af483fbcee73f931 2354 dcmtk_3.6.7-9~deb12u3.dsc ef8323ad0d9067a035af238435d1948d 6641083 dcmtk_3.6.7.orig.tar.gz d8ca3164ba108260159b5b8d2ba90c8e 59048 dcmtk_3.6.7-9~deb12u3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://dicom.offis.de/dcmtk"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "dcmtk"
+  ],
+  "Package-List": [
+    "dcmtk deb science optional arch=any dcmtk-doc deb doc optional arch=all libdcmtk-dev deb libdevel optional arch=any libdcmtk17 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "science"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-pydicom"
+  ],
+  "Uploaders": [
+    "Gert Wollny \u003cgewo@debian.org\u003e, Mathieu Malaterre \u003cmalat@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/dcmtk"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/dcmtk.git"
+  ],
+  "Version": [
+    "3.6.7-9~deb12u3"
+  ]
+}

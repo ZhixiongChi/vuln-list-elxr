@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-rebuilderd-common-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-anyhow-1+default-dev (\u003e= 1.0.58-~~) \u003c!nocheck\u003e, librust-chrono-0.4+default-dev (\u003e= 0.4.19-~~) \u003c!nocheck\u003e, librust-chrono-0.4+serde-dev (\u003e= 0.4.19-~~) \u003c!nocheck\u003e, librust-clap-4+default-dev (\u003e= 4.5.21-~~) \u003c!nocheck\u003e, librust-clap-4+derive-dev (\u003e= 4.5.21-~~) \u003c!nocheck\u003e, librust-colored-2+default-dev \u003c!nocheck\u003e, librust-dirs-next-2+default-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev (\u003e= 0.4.17-~~) \u003c!nocheck\u003e, librust-reqwest-0.12+blocking-dev \u003c!nocheck\u003e, librust-reqwest-0.12+json-dev \u003c!nocheck\u003e, librust-reqwest-0.12+rustls-tls-native-roots-dev \u003c!nocheck\u003e, librust-reqwest-0.12+stream-dev \u003c!nocheck\u003e, librust-serde-1+default-dev (\u003e= 1.0.137-~~) \u003c!nocheck\u003e, librust-serde-1+derive-dev (\u003e= 1.0.137-~~) \u003c!nocheck\u003e, librust-toml-0.8+default-dev \u003c!nocheck\u003e, librust-url-2+default-dev (\u003e= 2.2.2-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "7fa944586fcd96d69a7536643da26af699c81e18cab88da1d1842111035fd388 3152 rust-rebuilderd-common_0.25.0-1.dsc dd41892a8688896c79dd8d8a0a674170c844c5b7e8b84d9c7e6deb08e49a2f90 20132 rust-rebuilderd-common_0.25.0.orig.tar.gz be05be5da830283c60fedba865132eb85e3c3c5f169d4213fdd5d637233d68c9 2492 rust-rebuilderd-common_0.25.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-rebuilderd-common"
+  ],
+  "Files": [
+    "e5df00752631ac9d2392fc74c67f0dc5 3152 rust-rebuilderd-common_0.25.0-1.dsc 06736bcfdb2f9f82423cbcc9e24072be 20132 rust-rebuilderd-common_0.25.0.orig.tar.gz 7e85ec4191655c6206cfb3a63e194dfe 2492 rust-rebuilderd-common_0.25.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/kpcyrd/rebuilderd"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-rebuilderd-common"
+  ],
+  "Package-List": [
+    "librust-rebuilderd-common-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ca-certificates, dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e, Holger Levsen \u003cholger@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rebuilderd-common"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/rebuilderd-common]"
+  ],
+  "Version": [
+    "0.25.0-1"
+  ]
+}

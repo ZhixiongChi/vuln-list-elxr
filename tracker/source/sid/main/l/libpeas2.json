@@ -1,0 +1,74 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libpeas-2-0, libpeas-2-dev, libpeas-2-doc, libpeas-2-common, gir1.2-peas-2"
+  ],
+  "Build-Depends": [
+    "adwaita-icon-theme \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gir1.2-gio-2.0-dev, gir1.2-gmodule-2.0-dev, gir1.2-gobject-2.0-dev, gobject-introspection (\u003e= 1.80), libgirepository-1.0-dev (\u003e= 1.80), libglib2.0-dev (\u003e= 2.74.0), meson (\u003e= 0.50), python-gi-dev (\u003e= 3.7.2), python3-dev (\u003e= 3.2.0), python3-gi (\u003e= 3.7.2), valac"
+  ],
+  "Build-Depends-Indep": [
+    "gi-docgen \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "856b026e8ad85be8cef18087187470eff84d8b42bd002f735f296170e254bec2 2957 libpeas2_2.0.7-3.dsc 1e9a9d69761d2109eff5b7c11d8c96b4867ccfaca2b921eded49401192769ec9 157468 libpeas2_2.0.7.orig.tar.xz e4de5c7703ff484ea5b0c8545ec12c2c60b2f8f0c09593ef5f8d11e7e1e08f10 11456 libpeas2_2.0.7-3.debian.tar.xz"
+  ],
+  "Dgit": [
+    "96855b2336220f36c69a0adfa5f0933de48fd40e debian archive/debian/2.0.7-3 https://git.dgit.debian.org/libpeas2"
+  ],
+  "Directory": [
+    "pool/main/libp/libpeas2"
+  ],
+  "Files": [
+    "d903e14e929356ad4f7ef0f8cecdf6ea 2957 libpeas2_2.0.7-3.dsc b0f2736b83a554f189ddbe37e442ca56 157468 libpeas2_2.0.7.orig.tar.xz 5992800ef997e145b0768ff1018b9f69 11456 libpeas2_2.0.7-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=bf24d0c1a08d5baff88d11bfa797e9c5ff9571f6 fp=7a073ad1ae694fa25bff62e5235c099d3eb33076"
+  ],
+  "Git-Tag-Tagger": [
+    "Simon McVittie \u003csmcv@debian.org\u003e"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Projects/Libpeas"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libpeas2"
+  ],
+  "Package-List": [
+    "gir1.2-peas-2 deb introspection optional arch=any libpeas-2-0 deb libs optional arch=any libpeas-2-common deb libs optional arch=all libpeas-2-dev deb libdevel optional arch=any libpeas-2-doc deb doc optional arch=all profile=!nodoc"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config, python3, python3-gi"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/libpeas2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/libpeas2.git"
+  ],
+  "Version": [
+    "2.0.7-3"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-django-pgbulk"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-poetry-core (\u003e= 1.9.0)"
+  ],
+  "Checksums-Sha256": [
+    "85052f68e967ee49f343bb415b3eccf9c761938dc7fe333c99768e08cdfe61f5 2572 python-django-pgbulk_3.2.4-1.dsc 8333e1ce22ef74b614fc6a3ba323fc7c67899b7233e738622ac6cc1f44183242 128591 python-django-pgbulk_3.2.4.orig.tar.gz 2ce9caeac01a8e38b3d5970b0ea41b8795c0ce40390470152e342c9dd045bb1e 2828 python-django-pgbulk_3.2.4-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "31bf543b3f97e33755e58f049261d0c09de7cc39 debian archive/debian/3.2.4-1 https://git.dgit.debian.org/python-django-pgbulk"
+  ],
+  "Directory": [
+    "pool/main/p/python-django-pgbulk"
+  ],
+  "Files": [
+    "e29887317e414d76dddedcff5fa13fba 2572 python-django-pgbulk_3.2.4-1.dsc 7edccd9a51b8ca6f6ac2c1cab5d3d593 128591 python-django-pgbulk_3.2.4.orig.tar.gz 80f8167761b7e51af3913f9b4cf18b80 2828 python-django-pgbulk_3.2.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/AmbitionEng/django-pgbulk"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-django-pgbulk"
+  ],
+  "Package-List": [
+    "python3-django-pgbulk deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, postgresql, python3-all, python3-dj-database-url, python3-django-dynamic-fixture, python3-django-hashids, python3-django-timezone-field, python3-freezegun, python3-psycopg, python3-pytest, python3-pytest-django, python3-tz, tzdata-legacy"
+  ],
+  "Uploaders": [
+    "Colin Watson \u003ccjwatson@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-django-pgbulk"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-django-pgbulk.git"
+  ],
+  "Version": [
+    "3.2.4-1"
+  ]
+}

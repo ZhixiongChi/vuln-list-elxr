@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-djangorestframework-doc, python3-djangorestframework"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-mkdocs \u003c!nodoc\u003e, dh-sequence-python3, node-jquery \u003c!nodoc\u003e, pybuild-plugin-pyproject, python3-all, python3-coreapi \u003c!nocheck\u003e, python3-django \u003c!nocheck\u003e, python3-django-filters \u003c!nocheck\u003e, python3-django-guardian (\u003e= 2.4.0) \u003c!nocheck\u003e, python3-inflection \u003c!nocheck\u003e, python3-psycopg2 \u003c!nocheck\u003e, python3-pygments \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-pytest-django (\u003e= 3.5.1) \u003c!nocheck\u003e, python3-setuptools, python3-tz \u003c!nocheck\u003e, python3-uritemplate \u003c!nocheck\u003e, python3-yaml \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c81971f0c3d09082877ad48ee40754d0675e192b546d6b3db5e3f48ef7a27c16 3120 djangorestframework_3.16.1-1.dsc 4eaff885cd79fc6b120fbfef6d09aa8af58528591beca01a2a6646d6c750dfef 10294576 djangorestframework_3.16.1.orig.tar.gz 4299bc94d26014bcf9e02f857e1f298892027613914431409b9d90809179c35f 348404 djangorestframework_3.16.1-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "e4892569d370585b67776a2ae78655dad11ef76c debian archive/debian/3.16.1-1 https://git.dgit.debian.org/djangorestframework"
+  ],
+  "Directory": [
+    "pool/main/d/djangorestframework"
+  ],
+  "Files": [
+    "de74c7bbfbdbdc467c037cf8a55956f8 3120 djangorestframework_3.16.1-1.dsc b36da82338d04162c254a9149c9dec94 10294576 djangorestframework_3.16.1.orig.tar.gz 221db2500555f26993152bcb20dcf0c0 348404 djangorestframework_3.16.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/encode/django-rest-framework"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "djangorestframework"
+  ],
+  "Package-List": [
+    "python-djangorestframework-doc deb doc optional arch=all python3-djangorestframework deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-coreapi, python3-django, python3-django-filters, python3-django-guardian, python3-inflection, python3-psycopg2, python3-pygments, python3-pytest, python3-pytest-cov, python3-pytest-django, python3-uritemplate, python3-yaml"
+  ],
+  "Uploaders": [
+    "Brian May \u003cbam@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/djangorestframework"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/djangorestframework.git"
+  ],
+  "Version": [
+    "3.16.1-1"
+  ]
+}

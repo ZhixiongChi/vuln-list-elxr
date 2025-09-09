@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libigraph3t64, libigraph-dev, libigraph-doc, libigraph-examples"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), cmake, d-shlibs, bison, flex, libxml2-dev, libplfit-dev, libgmp-dev, libarpack2-dev, libblas-dev, liblapack-dev, libglpk-dev, libf2c2-dev, liblzma-dev"
+  ],
+  "Build-Depends-Indep": [
+    "python3, xmlto, source-highlight, fop, fonts-font-awesome, libxml2-utils, docbook2x, texinfo"
+  ],
+  "Checksums-Sha256": [
+    "43eef8cb89560d9f3cb6159fe1bd2d92b0037e5db9e1822f02b5034d9b6054d6 3263 igraph_0.10.16+ds-2.dsc 3548f722d1592730128ca408bd8636b6b418abbeb1e2aecdc6dc3ce1eb14444f 1485228 igraph_0.10.16+ds.orig.tar.xz d8756dee4e4c2c5ce9995b824271bdc130fc61a455321ab4c245a0e6592d6ce7 24332 igraph_0.10.16+ds-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/igraph"
+  ],
+  "Files": [
+    "83177658022e838aa11721b26e7388a9 3263 igraph_0.10.16+ds-2.dsc 37e58c048269b0f29b282c24d4018b86 1485228 igraph_0.10.16+ds.orig.tar.xz 8b162a8fcde4e9a27265b3b86847d984 24332 igraph_0.10.16+ds-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://igraph.org/c/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "igraph"
+  ],
+  "Package-List": [
+    "libigraph-dev deb libdevel optional arch=any libigraph-doc deb doc optional arch=all libigraph-examples deb oldlibs optional arch=all libigraph3t64 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, libplfit-dev, locales-all, pkgconf"
+  ],
+  "Uploaders": [
+    "Jerome Benoit \u003ccalculus@rezozer.net\u003e, Andreas Tille \u003ctille@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/igraph"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/igraph.git"
+  ],
+  "Version": [
+    "0.10.16+ds-2"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "cloud-init"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, iproute2, passwd, po-debconf, procps \u003c!nocheck\u003e, pkgconf, pylint, python3-all, python3-pycodestyle, python3-setuptools, systemd-dev | systemd"
+  ],
+  "Build-Depends-Indep": [
+    "python3-configobj, python3-httpretty (\u003e= 0.9.5), python3-jinja2, python3-jsonpatch, python3-jsonschema, python3-netifaces, python3-oauthlib, python3-passlib, python3-pyflakes, python3-pytest, python3-pytest-mock, python3-requests, python3-responses, python3-serial, python3-yaml"
+  ],
+  "Checksums-Sha256": [
+    "0d42396e438a4854c35f85ea93e6ef4fb444c6b56a4bb7124a449e6ed4ff3c6b 2434 cloud-init_25.2-1.dsc a5f4752ac86efa395c99151f787072159b86277201d8386d90019db01cdd9779 1954136 cloud-init_25.2.orig.tar.gz 98b5fcba95e3488324530b2a07f8cac8db01b2ce0ea97e9e636ba1b3432819d1 28296 cloud-init_25.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/cloud-init"
+  ],
+  "Files": [
+    "22dac0d7f7eb8e557fe38c4b86bd8a5b 2434 cloud-init_25.2-1.dsc 5b5fff78d3b455a8116cc3413175a09e 1954136 cloud-init_25.2.orig.tar.gz e0f1f8e3e9382d28799b9f4871d66723 28296 cloud-init_25.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://launchpad.net/cloud-init"
+  ],
+  "Maintainer": [
+    "Debian Cloud Team \u003cdebian-cloud@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "cloud-init"
+  ],
+  "Package-List": [
+    "cloud-init deb admin optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Bastian Blank \u003cwaldi@debian.org\u003e, Thomas Goirand \u003czigo@debian.org\u003e, Noah Meyerhans \u003cnoahm@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/cloud-team/cloud-init"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/cloud-team/cloud-init.git"
+  ],
+  "Version": [
+    "25.2-1"
+  ]
+}

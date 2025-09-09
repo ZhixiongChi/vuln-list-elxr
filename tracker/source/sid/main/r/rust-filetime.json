@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-filetime-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.27-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "a701549f0fa5c52059efe222b65544146d6ee7926993ec8d39efdf8814d100b3 2407 rust-filetime_0.2.26-1.dsc bc0505cd1b6fa6580283f6bdf70a73fcf4aba1184038c90902b92b3dd0df63ed 17273 rust-filetime_0.2.26.orig.tar.gz 18f9e78b2d0869e24d5945b037309881069c0d986df580d8594c084ab09af930 4324 rust-filetime_0.2.26-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-filetime"
+  ],
+  "Files": [
+    "48540c1be20853649400aff08315afa4 2407 rust-filetime_0.2.26-1.dsc 3a7a362045d3b599f154f36ec43d43b8 17273 rust-filetime_0.2.26.orig.tar.gz dddd3c7ce0f250aa960abe752f6062c7 4324 rust-filetime_0.2.26-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/alexcrichton/filetime"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-filetime"
+  ],
+  "Package-List": [
+    "librust-filetime-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-tempfile-3+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/filetime"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/filetime]"
+  ],
+  "Version": [
+    "0.2.26-1"
+  ]
+}

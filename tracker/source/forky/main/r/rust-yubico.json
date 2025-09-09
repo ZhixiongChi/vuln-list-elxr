@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-yubico-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-base64-0.22+default-dev \u003c!nocheck\u003e, librust-form-urlencoded-1+default-dev \u003c!nocheck\u003e, librust-futures-0.3+default-dev \u003c!nocheck\u003e, librust-hmac-0.12+default-dev \u003c!nocheck\u003e, librust-rand-0.8+default-dev \u003c!nocheck\u003e, librust-reqwest-0.12+blocking-dev \u003c!nocheck\u003e, librust-reqwest-0.12+default-dev \u003c!nocheck\u003e, librust-sha1-0.10+default-dev \u003c!nocheck\u003e, librust-threadpool-1+default-dev (\u003e= 1.7-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c83ef94344d14c3a8c30a4f5a6bb416fbcee1cbe0a15d1a25c0d7fd30e238bac 2750 rust-yubico_0.11.0-3.dsc 173f75d2c4010429a2d74ae3a114a69930c59e2b1a4c97b1c75d259a4960d5fb 17112 rust-yubico_0.11.0.orig.tar.gz 08f00d254d3cfa99d9be74afc73297b9f9bbde0570d6d171b8029bf5a9ad9d43 3476 rust-yubico_0.11.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-yubico"
+  ],
+  "Files": [
+    "172c39be8743093266dc6536f68323db 2750 rust-yubico_0.11.0-3.dsc dcdf559205bc0dc3952f6022600c3124 17112 rust-yubico_0.11.0.orig.tar.gz ff19614a7d8cda8b89f9856271b3a2f8 3476 rust-yubico_0.11.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/wisespace-io/yubico-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-yubico"
+  ],
+  "Package-List": [
+    "librust-yubico-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-futures-0.3+default-dev, librust-tokio-1+default-dev, librust-tokio-1+macros-dev, librust-tokio-1+rt-multi-thread-dev, rustc"
+  ],
+  "Uploaders": [
+    "Bernhard Dick \u003cbernhard@bdick.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/yubico"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/yubico]"
+  ],
+  "Version": [
+    "0.11.0-3"
+  ]
+}

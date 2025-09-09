@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-coolor-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "daa7c5ff78bfced9782bd18d14e714d7b56f39ad0e9ddd99c991747be2001d67 1611 rust-coolor_1.1.0-1.dsc 980c2afde4af43d6a05c5be738f9eae595cff86dce1f38f88b95058a98c027f3 137173 rust-coolor_1.1.0.orig.tar.gz 778d35c989ce4c023be610452123fc709d69b81053ee9b1c6653cedbaa70bcb8 3220 rust-coolor_1.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-coolor"
+  ],
+  "Files": [
+    "f10596ff36f4510612eb0c8061c9ebcc 1611 rust-coolor_1.1.0-1.dsc 3e02eca38a063fc97136a85e9c2e593a 137173 rust-coolor_1.1.0.orig.tar.gz e977473aaa871104f3ac521afadf354f 3220 rust-coolor_1.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Canop/coolor"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-coolor"
+  ],
+  "Package-List": [
+    "librust-coolor-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-crossterm-0.27+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/coolor"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/coolor]"
+  ],
+  "Version": [
+    "1.1.0-1"
+  ]
+}

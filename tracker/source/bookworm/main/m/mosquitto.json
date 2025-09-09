@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "mosquitto, mosquitto-dev, libmosquitto1, libmosquitto-dev, libmosquittopp1, libmosquittopp-dev, mosquitto-clients"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), cmake, libcjson-dev, libdlt-dev, libssl-dev (\u003e= 1.0.0), libsystemd-dev, libwebsockets-dev, libwrap0-dev, pkg-config, uthash-dev, xsltproc, docbook-xsl"
+  ],
+  "Checksums-Sha256": [
+    "77afb2d38230b37b085ff7b363a71669951044460e28731e958c0b94019e9263 2514 mosquitto_2.0.11-1.2+deb12u2.dsc 7b36a7198bce85cf31b132f5c6ee36dcf5dadf86fb768501eb1e11ce95d4f78a 760325 mosquitto_2.0.11.orig.tar.gz e7a5c96b064b266ec7708591f110f8cce69430d0725b08a508ec8d515983767d 68712 mosquitto_2.0.11-1.2+deb12u2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mosquitto"
+  ],
+  "Files": [
+    "d13331ed4273bffa51914291a49666d9 2514 mosquitto_2.0.11-1.2+deb12u2.dsc 638d801e6aac611b41de76d030951612 760325 mosquitto_2.0.11.orig.tar.gz 22bfb73db7ac972f213ba484949d7add 68712 mosquitto_2.0.11-1.2+deb12u2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://mosquitto.org/"
+  ],
+  "Maintainer": [
+    "Roger A. Light \u003croger@atchoo.org\u003e"
+  ],
+  "Package": [
+    "mosquitto"
+  ],
+  "Package-List": [
+    "libmosquitto-dev deb libdevel optional arch=any libmosquitto1 deb libs optional arch=any libmosquittopp-dev deb libdevel optional arch=any libmosquittopp1 deb libs optional arch=any mosquitto deb net optional arch=any mosquitto-clients deb net optional arch=any mosquitto-dev deb devel optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "g++, gcc, libc6-dev, python3, python3-psutil"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/eclipse/mosquitto/tree/debian"
+  ],
+  "Vcs-Git": [
+    "https://github.com/eclipse/mosquitto"
+  ],
+  "Version": [
+    "2.0.11-1.2+deb12u2"
+  ]
+}

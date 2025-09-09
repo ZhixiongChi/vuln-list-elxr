@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-openssh-mux-client-error-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-ssh-format-error-0.1+default-dev \u003c!nocheck\u003e, librust-thiserror-2+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "aa5f69e8a63ac925766bc834fa21243f6be9a36d905f4f4818362731393ff8e1 1880 rust-openssh-mux-client-error_0.1.1-1.dsc 9879168afb48a235200e30d93df320b7191568cda8621df02f145c1c0f1af95a 2371 rust-openssh-mux-client-error_0.1.1.orig.tar.gz 9718cf192a734b50ecc07a57618c66a4bef42a69fb755e23e202fcc2cdb3cd66 2572 rust-openssh-mux-client-error_0.1.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-openssh-mux-client-error"
+  ],
+  "Files": [
+    "2f0e29701f2b1f4f70bc2178652230f7 1880 rust-openssh-mux-client-error_0.1.1-1.dsc 6177910ccb41ea8d34140c2005408c8f 2371 rust-openssh-mux-client-error_0.1.1.orig.tar.gz 1a1587657989567feee114deb6be7851 2572 rust-openssh-mux-client-error_0.1.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openssh-rust/openssh-mux-client"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-openssh-mux-client-error"
+  ],
+  "Package-List": [
+    "librust-openssh-mux-client-error-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Sebastian Ramacher \u003csramacher@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/openssh-mux-client-error"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/openssh-mux-client-error]"
+  ],
+  "Version": [
+    "0.1.1-1"
+  ]
+}

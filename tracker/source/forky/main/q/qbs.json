@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "qbs, qbs-common, libqbscore3.0, qbs-dev, qbs-examples, qbs-doc, qbs-doc-html"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), dpkg-build-api (= 1), pkg-kde-tools, qt6-5compat-dev, qt6-base-dev (\u003e= 6.4.2+dfsg-12~), qt6-base-private-dev"
+  ],
+  "Build-Depends-Arch": [
+    "7zip \u003c!nocheck\u003e, bison \u003c!nocheck\u003e, flex \u003c!nocheck\u003e, icoutils \u003c!nocheck\u003e, qt6-declarative-dev \u003c!nocheck\u003e, qt6-scxml-dev \u003c!nocheck\u003e, qt6-shadertools-dev \u003c!nocheck\u003e, qt6-tools-dev \u003c!nocheck\u003e, unzip \u003c!nocheck\u003e, zip \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "python3-bs4, python3-lxml, qt6-tools-dev"
+  ],
+  "Checksums-Sha256": [
+    "dda8e59ae4af2e140b231ca061ece12efff97039f80dabea705fbe9f993d1a84 2659 qbs_3.0.3-1.dsc 5ea02139263ec4dbf947d18f4a73ccc41f691ec43c5914a6a6b089d9713ec0dc 5796778 qbs_3.0.3.orig.tar.gz 53e5ffbc2cb2b078d8a61c71f02770dbf7cec5ed470c70e7f28f5311db9f76e7 28316 qbs_3.0.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qbs"
+  ],
+  "Files": [
+    "043a35df4971326326b5ed07227248a3 2659 qbs_3.0.3-1.dsc 2613c47b1429b7f71205fd66c9b3318b 5796778 qbs_3.0.3.orig.tar.gz 8562bc378140b53660bbfed2206ef97a 28316 qbs_3.0.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.qt.io/Qbs"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "qbs"
+  ],
+  "Package-List": [
+    "libqbscore3.0 deb libs optional arch=any qbs deb devel optional arch=any qbs-common deb devel optional arch=all qbs-dev deb libdevel optional arch=any qbs-doc deb doc optional arch=all qbs-doc-html deb doc optional arch=all qbs-examples deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, build-essential"
+  ],
+  "Uploaders": [
+    "Dmitry Shachnev \u003cmitya57@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/qt/qbs/"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/qt/qbs.git"
+  ],
+  "Version": [
+    "3.0.3-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "ovn-central, ovn-common, ovn-controller-vtep, ovn-doc, ovn-docker, ovn-host, ovn-ic, ovn-ic-db"
+  ],
+  "Build-Depends": [
+    "autoconf, automake, bash (\u003e= 5.2.15~), bzip2, debhelper-compat (= 13), dh-python, graphviz, libcap-ng-dev, libnuma-dev [amd64 i386 ppc64el arm64], libpcap-dev [amd64 i386 ppc64el arm64], libssl-dev, libtool, libudev-dev, libunbound-dev, openssl, openstack-pkg-tools, openvswitch-source (\u003e= 3.1.0-1~), pkg-config, procps, python3-all-dev, python3-setuptools, python3-sortedcontainers, python3-sphinx, tcpdump"
+  ],
+  "Checksums-Sha256": [
+    "fc09b9af5c67480e6be18600de4915ff7283b1faf4f46fd5964d80fe522024bf 2967 ovn_23.03.1-1~deb12u2.dsc f36c6f5521fc4d6d7c100a6ac61686252b91390b38c15872423d661afbbf97c4 82172 ovn_23.03.1.orig-ovn-vif.tar.xz 12cd889e121de9db908ad9f9a0ddc7b54af3c1718202f172b2c9cc94fb4e9917 1432104 ovn_23.03.1.orig.tar.xz 9107e28e2560bc9415a087ee600daf8283b862cc5cfa501409a103af52467809 13828 ovn_23.03.1-1~deb12u2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/ovn"
+  ],
+  "Files": [
+    "0d2fa7a9c6db8f702c123a192972874a 2967 ovn_23.03.1-1~deb12u2.dsc ff36a32f2f729a1d070ddf66dca0eb4e 82172 ovn_23.03.1.orig-ovn-vif.tar.xz a70f2c7563780ebafc613b6a97484784 1432104 ovn_23.03.1.orig.tar.xz 85fc44f717ffe8d00956e69ab5652285 13828 ovn_23.03.1-1~deb12u2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://openvswitch.org/"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "ovn"
+  ],
+  "Package-List": [
+    "ovn-central deb net optional arch=linux-any ovn-common deb net optional arch=linux-any ovn-controller-vtep deb net optional arch=linux-any ovn-doc deb doc optional arch=all ovn-docker deb net optional arch=linux-any ovn-host deb net optional arch=linux-any ovn-ic deb net optional arch=linux-any ovn-ic-db deb net optional arch=linux-any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/third-party/ovn"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/third-party/ovn.git"
+  ],
+  "Version": [
+    "23.03.1-1~deb12u2"
+  ]
+}

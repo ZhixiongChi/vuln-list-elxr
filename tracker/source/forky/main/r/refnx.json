@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-refnx"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, cython3, ipython3 \u003c!nocheck\u003e, pybuild-plugin-pyproject, pyqt6-dev-tools \u003c!nocheck\u003e, python3-all-dev, python3-attr, python3-corner \u003c!nocheck\u003e, python3-h5py, python3-ipywidgets \u003c!nocheck\u003e, python3-matplotlib \u003c!nocheck\u003e, python3-numpy, python3-numpy-dev, python3-orsopy \u003c!nocheck\u003e, python3-pandas, python3-periodictable \u003c!nocheck\u003e, python3-pyqt6 \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytestqt \u003c!nocheck\u003e, python3-qtpy \u003c!nocheck\u003e, python3-scipy, python3-setuptools, python3-traitlets \u003c!nocheck\u003e, python3-uncertainties \u003c!nocheck\u003e, python3-xlrd \u003c!nocheck\u003e, texlive-latex-base, texlive-latex-extra, texlive-science, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "ad2dd6a5dfce501048b82a15b6bc0d8298318278a2c31d3a5c69802803cd13dc 2740 refnx_0.1.58-2.dsc 678db6f10950743a3fcb33b31d55135b9979be32cbe05af4eddd55901b7922af 12520828 refnx_0.1.58.orig.tar.xz 8a6d265362f666c4ab5475aa8aba1deca0473d15df6b4de384d44cd5cf974291 9988 refnx_0.1.58-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/refnx"
+  ],
+  "Files": [
+    "4cc10786575f7795ec487bb33bfab4a4 2740 refnx_0.1.58-2.dsc 3b66d44934562f802594d5cca0fd2fb1 12520828 refnx_0.1.58.orig.tar.xz ef6e470279fd299d931c0899db219676 9988 refnx_0.1.58-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/refnx/refnx"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "refnx"
+  ],
+  "Package-List": [
+    "python3-refnx deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@recommends@, ca-certificates, python3-all, python3-pytest, python3-pytestqt, xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Roland Mas \u003clolando@debian.org\u003e, Stuart Prescott \u003cstuart@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/refnx"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/refnx.git"
+  ],
+  "Version": [
+    "0.1.58-2"
+  ]
+}

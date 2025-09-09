@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-argh-shared-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "8914f505cd23c24de37c4298686bf70b36f7ba7b8bd4542590533b4ceab18dd3 1624 rust-argh-shared_0.1.13-1.dsc a464143cc82dedcdc3928737445362466b7674b5db4e2eb8e869846d6d84f4f6 5230 rust-argh-shared_0.1.13.orig.tar.gz b97e189c770ff8400e87879c6ad7372b314f7e181ac9995f80366cca26d84d07 2968 rust-argh-shared_0.1.13-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-argh-shared"
+  ],
+  "Files": [
+    "cf6220a6c31288ddaa256f94c8ed5ba4 1624 rust-argh-shared_0.1.13-1.dsc 3052f0944e1f2756dc572142a9736e4b 5230 rust-argh-shared_0.1.13.orig.tar.gz c6d3c93434835b7b2a8e252e79d6460c 2968 rust-argh-shared_0.1.13-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/google/argh"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-argh-shared"
+  ],
+  "Package-List": [
+    "librust-argh-shared-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/argh-shared"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/argh-shared]"
+  ],
+  "Version": [
+    "0.1.13-1"
+  ]
+}

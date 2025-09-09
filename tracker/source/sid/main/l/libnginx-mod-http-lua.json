@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "amd64 arm64 armel armhf i386 mips64el mipsel s390x powerpc riscv64 loong64 hurd-i386 hurd-amd64"
+  ],
+  "Binary": [
+    "libnginx-mod-http-lua"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-nginx, libluajit-5.1-dev, libnginx-mod-http-ndk-dev"
+  ],
+  "Checksums-Sha256": [
+    "e5b69813dda086423f09843571d870eb6d34f1f820399f0448402d61d7b01abb 2433 libnginx-mod-http-lua_0.10.28-3.dsc 634827d54de6216cb0502d14f76610788b3a3e33160e91d5578d6db0d9a34a20 869217 libnginx-mod-http-lua_0.10.28.orig.tar.gz 8ae740b78660c963bd1b711d16f0a97c0d2efa5776bc4bd80b05e25e199ec6b1 5864 libnginx-mod-http-lua_0.10.28-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libn/libnginx-mod-http-lua"
+  ],
+  "Files": [
+    "480b7c437f5428eb9ea630f3f173aed8 2433 libnginx-mod-http-lua_0.10.28-3.dsc e7d360eb3cec9d27a42c1bed1434999d 869217 libnginx-mod-http-lua_0.10.28.orig.tar.gz 987eff5758178df35dc351645e3b479e 5864 libnginx-mod-http-lua_0.10.28-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openresty/lua-nginx-module"
+  ],
+  "Maintainer": [
+    "Debian Nginx Maintainers \u003cpkg-nginx-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "libnginx-mod-http-lua"
+  ],
+  "Package-List": [
+    "libnginx-mod-http-lua deb httpd optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,s390x,powerpc,riscv64,loong64,hurd-i386,hurd-amd64"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "curl, nginx, nginx-core"
+  ],
+  "Uploaders": [
+    "Jan Mojžíš \u003cjanmojzis@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/nginx-team/libnginx-mod-http-lua"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/nginx-team/libnginx-mod-http-lua.git"
+  ],
+  "Version": [
+    "1:0.10.28-3"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-roborock"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, pybuild-plugin-pyproject, python3-all, python3-poetry-core"
+  ],
+  "Build-Depends-Indep": [
+    "python3-aiohttp \u003c!nocheck\u003e, python3-aioresponses \u003c!nocheck\u003e, python3-async-timeout \u003c!nocheck\u003e, python3-asyncio-mqtt \u003c!nocheck\u003e, python3-construct \u003c!nocheck\u003e, python3-freezegun \u003c!nocheck\u003e, python3-paho-mqtt \u003c!nocheck\u003e, python3-pycryptodome \u003c!nocheck\u003e, python3-pyrate-limiter \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-timeout \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-vacuum-map-parser-base \u003c!nocheck\u003e, python3-vacuum-map-parser-roborock \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "8f3dc3408a60bf56383be918e0bbd353a08bbaf8c47d004c507d60d6931e11a1 2732 python-roborock_2.39.0-1.dsc d3a65dc79461380714fa4de87c35f95edd5c2065437ce423c2e9ef2841054983 205859 python-roborock_2.39.0.orig.tar.gz 5dfbe17bd0485754e1afdf3f3bed58c9be8b380aa56cdeba3b840072f7ee619d 3024 python-roborock_2.39.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-roborock"
+  ],
+  "Files": [
+    "7d7a5afd0fd91316e1b2553df4dae28a 2732 python-roborock_2.39.0-1.dsc 621e05e2355e6c57f48ab39b78e6eae2 205859 python-roborock_2.39.0.orig.tar.gz fbb718b66571ea545d99edc2684366d4 3024 python-roborock_2.39.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/humbertogontijo/python-roborock"
+  ],
+  "Maintainer": [
+    "Home Assistant Team \u003cteam+homeassistant@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-roborock"
+  ],
+  "Package-List": [
+    "python3-roborock deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Edward Betts \u003cedward@4angle.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/homeassistant-team/deps/python-roborock"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/homeassistant-team/deps/python-roborock.git"
+  ],
+  "Version": [
+    "2.39.0-1"
+  ]
+}

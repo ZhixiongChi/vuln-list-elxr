@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "autopkgtest"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), apt \u003c!nocheck\u003e, fakeroot \u003c!nocheck\u003e, procps \u003c!nocheck\u003e, python3 (\u003e= 3.8), python3-cap-ng \u003c!nocheck\u003e, python3-debian \u003c!nocheck\u003e, python3-docutils"
+  ],
+  "Checksums-Sha256": [
+    "be65c22eb485de8dd8e2499065b5c1c316c5813b75c6267532663810fe3d4416 2436 autopkgtest_5.50.dsc 7b11152e2d1ba91dbcc61220332c70f01df61a86b71d92dcdc6e47b64801aebc 253548 autopkgtest_5.50.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/autopkgtest"
+  ],
+  "Files": [
+    "d6fbc33c27ad802c5b3d673757a3c1ad 2436 autopkgtest_5.50.dsc 3aef0b03ea5ceac139c11fceac39e04f 253548 autopkgtest_5.50.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian CI team \u003cteam+ci@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "autopkgtest"
+  ],
+  "Package-List": [
+    "autopkgtest deb devel optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "adduser, autodep8, build-essential, buildah, ca-certificates, catatonit, debhelper, debian-archive-keyring, debootstrap, devscripts, distro-info, dnsmasq, dnsmasq-base, docker-cli, docker.io, dumb-init, fakeroot, golang-github-containernetworking-plugin-dnsname, iproute2, iptables, libpam-cgfs, lxc, lxc-templates, lxcfs, lxd, lxd-installer, mmdebstrap, passt, podman, python3-cap-ng, python3-distro-info, rsync, sbuild, schroot, slirp4netns, tini, uidmap, util-linux"
+  ],
+  "Uploaders": [
+    "Ian Jackson \u003cijackson@chiark.greenend.org.uk\u003e, Martin Pitt \u003cmpitt@debian.org\u003e, Antonio Terceiro \u003cterceiro@debian.org\u003e, Paul Gevers \u003celbrus@debian.org\u003e, Simon McVittie \u003csmcv@debian.org\u003e, Paride Legovini \u003cparide@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ci-team/autopkgtest"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ci-team/autopkgtest.git"
+  ],
+  "Version": [
+    "5.50"
+  ]
+}

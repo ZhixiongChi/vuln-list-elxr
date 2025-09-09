@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "puredata, puredata-core, puredata-gui, puredata-gui-l10n, puredata-doc, puredata-dev, puredata-utils, puredata-extra"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gettext, libasound2-dev [linux-any], libjack-dev, portaudio19-dev"
+  ],
+  "Build-Depends-Indep": [
+    "python3:any"
+  ],
+  "Checksums-Sha256": [
+    "e9cb4d52165310ece1375a99137bed3d7a8ea1894ccc0fab1c105e05d481ae19 2608 puredata_0.53.1+ds-2+deb12u1.dsc 18abe6db2bfe783458aee2c062ee1ce01abb41fd0c790dced97a2f5846460d78 3286468 puredata_0.53.1+ds.orig.tar.xz 5b2d2336f63a01ca0fea60c99ea5369bd8aae58fc27e5c07f05fbef27277084e 33008 puredata_0.53.1+ds-2+deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/puredata"
+  ],
+  "Files": [
+    "14198876788f0369ccdba9cd49763e5e 2608 puredata_0.53.1+ds-2+deb12u1.dsc 2520a0b5494fa16f2ce274d6fcf850a3 3286468 puredata_0.53.1+ds.orig.tar.xz 7c012da3ac6086f274597b91ceef2599 33008 puredata_0.53.1+ds-2+deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://puredata.info"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "puredata"
+  ],
+  "Package-List": [
+    "puredata deb sound optional arch=all puredata-core deb sound optional arch=any puredata-dev deb libdevel optional arch=all puredata-doc deb doc optional arch=all puredata-extra deb sound optional arch=any puredata-gui deb sound optional arch=all puredata-gui-l10n deb localization optional arch=all puredata-utils deb utils optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "sound"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "pd-zexy"
+  ],
+  "Uploaders": [
+    "Paul Brossier \u003cpiem@debian.org\u003e, IOhannes m zmölnig (Debian/GNU) \u003cumlaeute@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/pd/puredata"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/pd/puredata.git"
+  ],
+  "Version": [
+    "0.53.1+ds-2+deb12u1"
+  ]
+}

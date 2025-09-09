@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-zerocopy-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-zerocopy-derive-0.8+default-dev (\u003c\u003c 0.8.27-~~) \u003c!nocheck\u003e, librust-zerocopy-derive-0.8+default-dev (\u003e= 0.8.26-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "5ea1719ffcbae435f1b40dfc847c7d8b406dd9d7c1629a207ee591d2cfe7edf7 2657 rust-zerocopy_0.8.26-4.dsc 1039dd0d3c310cf05de012d8a39ff557cb0d23087fd44cad61df08fc31907a2f 249223 rust-zerocopy_0.8.26.orig.tar.gz 6233a96c2af32b8e389a185534f4cb427f2d7fd8358a9973c119f20877d929f6 6860 rust-zerocopy_0.8.26-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-zerocopy"
+  ],
+  "Files": [
+    "b88251cef361773f1a883490a4b7bb17 2657 rust-zerocopy_0.8.26-4.dsc bfc4a648bf7ddf3ac78034e645ffa976 249223 rust-zerocopy_0.8.26.orig.tar.gz a2064e077e87c3d6b4e21a71cb6e742f 6860 rust-zerocopy_0.8.26-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/google/zerocopy"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-zerocopy"
+  ],
+  "Package-List": [
+    "librust-zerocopy-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-either-1+default-dev, librust-itertools-0.13+default-dev, librust-rand-0.8+small-rng-dev, librust-rustversion-1+default-dev, librust-static-assertions-1+default-dev, librust-trybuild-1+default-dev, librust-trybuild-1+diff-dev, librust-zerocopy-derive-0.8+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/zerocopy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/zerocopy]"
+  ],
+  "Version": [
+    "0.8.26-4"
+  ]
+}

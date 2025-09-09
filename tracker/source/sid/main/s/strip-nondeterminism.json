@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libfile-stripnondeterminism-perl, strip-nondeterminism, dh-strip-nondeterminism"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libarchive-cpio-perl \u003c!nocheck\u003e, libarchive-zip-perl, libdevel-cover-perl, perl"
+  ],
+  "Checksums-Sha256": [
+    "1e77d5bc3b64943626b01a1dcc0cf063c08700873715eba4ca643f41b16abd76 2517 strip-nondeterminism_1.14.2-1.dsc 299dcc2deb5d7faba915a8f86a4efd43c2b9971fd9360070a1b34f45f82d0c60 240833 strip-nondeterminism_1.14.2.orig.tar.bz2 44a9659df49675a22ee420e1419f77f79d536266afb563c35d99788fe3523a02 33768 strip-nondeterminism_1.14.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/strip-nondeterminism"
+  ],
+  "Files": [
+    "780faed8c6d7329bb42423cc5dc2c6bb 2517 strip-nondeterminism_1.14.2-1.dsc 796479a2c8964b292d6fdf4c3db1747c 240833 strip-nondeterminism_1.14.2.orig.tar.bz2 2b23482a58fb826797730e2760061df3 33768 strip-nondeterminism_1.14.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://reproducible-builds.org/"
+  ],
+  "Maintainer": [
+    "Reproducible builds folks \u003creproducible-builds@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "strip-nondeterminism"
+  ],
+  "Package-List": [
+    "dh-strip-nondeterminism deb devel optional arch=all libfile-stripnondeterminism-perl deb perl optional arch=all strip-nondeterminism deb devel optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "libarchive-cpio-perl"
+  ],
+  "Uploaders": [
+    "Andrew Ayer \u003cagwa@andrewayer.name\u003e, Holger Levsen \u003cholger@debian.org\u003e, Mattia Rizzolo \u003cmattia@debian.org\u003e, Chris Lamb \u003clamby@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/reproducible-builds/strip-nondeterminism"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/reproducible-builds/strip-nondeterminism.git"
+  ],
+  "Version": [
+    "1.14.2-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libxerces-c3.2, libxerces-c-dev, libxerces-c-doc, libxerces-c-samples"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), libcurl4-gnutls-dev, libicu-dev"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, default-jre-headless | default-jre, libatk-wrapper-java, libstylebook-java, libxalan2-java, libxerces2-java"
+  ],
+  "Checksums-Sha256": [
+    "46f3ead08cc6463b5184501f44f667c19423dd8d1b8e2b4b82f9bc9adc5a4904 2366 xerces-c_3.2.3+debian-3+deb11u1.dsc 25652e6ed8a55e9273d6514f7e2744678b6d51f5d88c03d4219fac0310393f8d 1560396 xerces-c_3.2.3+debian.orig.tar.xz 245a6628d1b3314f2d33f4b30b1d21590fa6a7ade08e5ca8963e10b310c4c6ec 29192 xerces-c_3.2.3+debian-3+deb11u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xerces-c"
+  ],
+  "Files": [
+    "662d2a76cb7e144d0168fcd0319e14cd 2366 xerces-c_3.2.3+debian-3+deb11u1.dsc 7e41787c0b2d36c0d08a0b9937bca2a3 1560396 xerces-c_3.2.3+debian.orig.tar.xz 270e4187545d092ba8dc2c5e21bb9f00 29192 xerces-c_3.2.3+debian-3+deb11u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://xerces.apache.org/xerces-c/"
+  ],
+  "Maintainer": [
+    "William Blough \u003cbblough@debian.org\u003e"
+  ],
+  "Package": [
+    "xerces-c"
+  ],
+  "Package-List": [
+    "libxerces-c-dev deb libdevel optional arch=any libxerces-c-doc deb doc optional arch=all libxerces-c-samples deb devel optional arch=any libxerces-c3.2 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/bblough/xerces-c"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/bblough/xerces-c.git"
+  ],
+  "Version": [
+    "3.2.3+debian-3+deb11u1"
+  ]
+}

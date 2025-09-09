@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgnutls28-dev, libgnutls30t64, gnutls-bin, gnutls-doc, libgnutls-openssl27t64, libgnutls-dane0t64"
+  ],
+  "Build-Conflicts": [
+    "libgnutls-dev"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.22.5), bison, ca-certificates \u003c!nocheck\u003e, chrpath, debhelper-compat (= 13), freebsd-net-tools [kfreebsd-i386 kfreebsd-amd64] \u003c!nocheck\u003e, gperf, libcmocka-dev \u003c!nocheck\u003e, libidn2-dev, libp11-kit-dev, libssl-dev \u003c!nocheck\u003e, libtasn1-6-dev, libunbound-dev, libunistring-dev, net-tools [!kfreebsd-i386 !kfreebsd-amd64] \u003c!nocheck\u003e, nettle-dev (\u003e= 3.10), openssl \u003c!nocheck\u003e, pkgconf, python3:any, softhsm2 \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "gtk-doc-tools, texinfo, texlive-latex-base, texlive-plain-generic"
+  ],
+  "Checksums-Sha256": [
+    "d027d055b02186edec5ee60027a94f99c320f3f34bf52186d8109ed5e7d77591 3246 gnutls28_3.8.10-2.dsc db7fab7cce791e7727ebbef2334301c821d79a550ec55c9ef096b610b03eb6b7 6909856 gnutls28_3.8.10.orig.tar.xz 3d553a902201531938c761f86a093d673b292157c7e742d19cc6c9ccc9eebf6b 833 gnutls28_3.8.10.orig.tar.xz.asc edf9aa9eccfa55e416b22a4894fe9e2ca2bdf758203a7771e53a057fab01387c 79048 gnutls28_3.8.10-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gnutls28"
+  ],
+  "Files": [
+    "678e2a26efd72ceb8ac9a49df1c5b6c0 3246 gnutls28_3.8.10-2.dsc 803c6f5c9cbe55c64fbb46690d329a77 6909856 gnutls28_3.8.10.orig.tar.xz fbe8f475da5f2daf70b3920d0452aea2 833 gnutls28_3.8.10.orig.tar.xz.asc 332e723a403370d55b53898fb0343fa4 79048 gnutls28_3.8.10-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnutls.org/"
+  ],
+  "Maintainer": [
+    "Debian GnuTLS Maintainers \u003cpkg-gnutls-maint@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gnutls28"
+  ],
+  "Package-List": [
+    "gnutls-bin deb net optional arch=any gnutls-doc deb doc optional arch=all libgnutls-dane0t64 deb libs optional arch=any libgnutls-openssl27t64 deb libs optional arch=any libgnutls28-dev deb libdevel optional arch=any libgnutls30t64 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, ca-certificates, freebsd-net-tools, net-tools, openssl, softhsm2"
+  ],
+  "Uploaders": [
+    "Andreas Metzler \u003cametzler@debian.org\u003e, Eric Dorland \u003ceric@debian.org\u003e, James Westby \u003cjw+debian@jameswestby.net\u003e, Simon Josefsson \u003csimon@josefsson.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnutls-team/gnutls"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnutls-team/gnutls.git"
+  ],
+  "Version": [
+    "3.8.10-2"
+  ]
+}

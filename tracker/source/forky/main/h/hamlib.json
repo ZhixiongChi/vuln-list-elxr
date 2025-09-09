@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libhamlib4t64, libhamlib++4t64, libhamlib-dev, libhamlib++-dev, libhamlib-perl, tcl-hamlib, python3-hamlib, libhamlib-utils, libhamlib-doc, lua-hamlib"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), dh-lua, dh-python, libgd-dev, libindi-dev, libltdl3-dev, libnova-dev, libperl-dev, libtool-bin, libusb-1.0-0-dev [linux-any hurd-any], pkgconf, python3-all-dev, source-highlight, swig, tcl-dev, texinfo, zlib1g-dev"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, graphviz"
+  ],
+  "Checksums-Sha256": [
+    "0af66e7e7308c5ef333c631140ffcfa4cd874e7faeede0c3090864057321ddb4 3070 hamlib_4.6.4-3.dsc 5a92e93e805b2263c63da40028d67580fda15752b5389c68b237203f29b592bb 2923171 hamlib_4.6.4.orig.tar.gz 090f27b7d5b8440bfac96e23c4b110ff72965320eb4a13aae1a1681fbc17924f 195 hamlib_4.6.4.orig.tar.gz.asc 671939331b7d8f267287400cb33b65639de0efebc4f39a7dc67205245b39ab9d 30076 hamlib_4.6.4-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/hamlib"
+  ],
+  "Files": [
+    "0167df3a768135c300e747c671c027ac 3070 hamlib_4.6.4-3.dsc 704d3129b7558daa602b53f2187dfce7 2923171 hamlib_4.6.4.orig.tar.gz ab30e85a0568a00b2159de165f277b2a 195 hamlib_4.6.4.orig.tar.gz.asc b1351f745194c503cfc1fe8d337edabb 30076 hamlib_4.6.4-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.hamlib.org"
+  ],
+  "Maintainer": [
+    "Debian Hamradio Maintainers \u003cdebian-hams@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "hamlib"
+  ],
+  "Package-List": [
+    "libhamlib++-dev deb libdevel optional arch=any libhamlib++4t64 deb libs optional arch=any libhamlib-dev deb libdevel optional arch=any libhamlib-doc deb doc optional arch=all libhamlib-perl deb perl optional arch=any libhamlib-utils deb hamradio optional arch=any libhamlib4t64 deb libs optional arch=any lua-hamlib deb interpreters optional arch=any python3-hamlib deb python optional arch=any tcl-hamlib deb interpreters optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "lua5.2, lua5.3, tcl"
+  ],
+  "Uploaders": [
+    "Ervin Hegedus \u003cairween@gmail.com\u003e, Christoph Berg \u003cmyon@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-hamradio-team/hamlib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-hamradio-team/hamlib.git"
+  ],
+  "Version": [
+    "4.6.4-3"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-ssh2-config-dev, librust-ssh2-config+nolog-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, librust-anyhow-dev \u003c!nocheck\u003e, librust-bitflags-dev \u003c!nocheck\u003e, librust-dirs-dev \u003c!nocheck\u003e, librust-git2-dev \u003c!nocheck\u003e, librust-glob-dev \u003c!nocheck\u003e, librust-log-dev \u003c!nocheck\u003e, librust-openssl-probe-dev, librust-thiserror-dev \u003c!nocheck\u003e, librust-wildmatch-dev \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "64fda20c7dd2c09349040e5d91e22aaf6bf1af2de97c40ab509a315832bfbc11 2025 rust-ssh2-config_0.5.4-5.dsc ab5beaa760dcd3c0b0c4863fa057de6bafe9cadb6d4efc0cbec9b3caaa328bfb 35812 rust-ssh2-config_0.5.4.orig.tar.xz da33484f8406cc1d6a12ce7cc749ac7c6237e3f868496c8bae2909ca51e39aa1 2920 rust-ssh2-config_0.5.4-5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-ssh2-config"
+  ],
+  "Files": [
+    "1a143e218a3a175b29a8915ead1045b0 2025 rust-ssh2-config_0.5.4-5.dsc 1a8db9bd84c1e9bda3d94d81421403c0 35812 rust-ssh2-config_0.5.4.orig.tar.xz eba7b1d7a999645c45385cb404d1c650 2920 rust-ssh2-config_0.5.4-5.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/veeso/ssh2-config"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel@debian.org\u003e"
+  ],
+  "Package": [
+    "rust-ssh2-config"
+  ],
+  "Package-List": [
+    "librust-ssh2-config+nolog-dev deb rust optional arch=any librust-ssh2-config-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-env-logger-0.11+default-dev, librust-pretty-assertions-1+default-dev, librust-rpassword-7+default-dev, librust-ssh2-0.9+default-dev, librust-tempfile-3+default-dev, rustc"
+  ],
+  "Vcs-Browser": [
+    "https://forgejo.debian.net/rust/rust-ssh2-config"
+  ],
+  "Vcs-Git": [
+    "https://forgejo.debian.net/rust/rust-ssh2-config"
+  ],
+  "Version": [
+    "0.5.4-5"
+  ]
+}

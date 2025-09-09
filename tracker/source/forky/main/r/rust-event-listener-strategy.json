@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-event-listener-strategy-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.60) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-event-listener-5+std-dev \u003c!nocheck\u003e, librust-event-listener-5-dev \u003c!nocheck\u003e, librust-pin-project-lite-0.2+default-dev (\u003e= 0.2.12-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "09622be87cd386eaf84a967ed92f1e95887d48570021a1227271a9f94500968b 1972 rust-event-listener-strategy_0.5.4-2.dsc 8be9f3dfaaffdae2972880079a491a1a8bb7cbed0b8dd7a347f668b4150a3b93 16179 rust-event-listener-strategy_0.5.4.orig.tar.gz 437a0bb884ea8e55b84db0fa32b51c851840fc2ee02b693c712161019e131a2d 3212 rust-event-listener-strategy_0.5.4-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-event-listener-strategy"
+  ],
+  "Files": [
+    "ed2ddb8823bd6f4752791f52b4e96c33 1972 rust-event-listener-strategy_0.5.4-2.dsc 3f50050270afe8306cbe5191201577b9 16179 rust-event-listener-strategy_0.5.4.orig.tar.gz c97c328908142769835a70ab2187fd7d 3212 rust-event-listener-strategy_0.5.4-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/smol-rs/event-listener-strategy"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-event-listener-strategy"
+  ],
+  "Package-List": [
+    "librust-event-listener-strategy-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-futures-lite-2+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/event-listener-strategy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/event-listener-strategy]"
+  ],
+  "Version": [
+    "0.5.4-2"
+  ]
+}

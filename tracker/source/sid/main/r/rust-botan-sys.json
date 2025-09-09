@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-botan-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.58) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, libbotan-3-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "90d47a45e40c279a7949276e67ba1225959dcc9300388c91d36cfc3983d63b37 2098 rust-botan-sys_0.10.5-3.dsc 9f49dde1b8ebd2996cc41c55c39f6ef8b54e38148d8973aeba0792b87b1621ca 8245 rust-botan-sys_0.10.5.orig.tar.gz 6cb0f1e66ff9572fe641434087eb47b79f61bc51a05dea3cc06e88453bb7c805 3236 rust-botan-sys_0.10.5-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-botan-sys"
+  ],
+  "Files": [
+    "565f434ad92d92f70cc63288620918d1 2098 rust-botan-sys_0.10.5-3.dsc fb4859a103809781d443a43ef57b54ad 8245 rust-botan-sys_0.10.5.orig.tar.gz ae25c2ced2fd8d14d3775032de46ef5e 3236 rust-botan-sys_0.10.5-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://botan.randombit.net/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-botan-sys"
+  ],
+  "Package-List": [
+    "librust-botan-sys-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/botan-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/botan-sys]"
+  ],
+  "Version": [
+    "0.10.5-3"
+  ]
+}

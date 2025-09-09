@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-ivf-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bitstream-io-4+default-dev (\u003e= 4.1.0-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "1b9472e82360d90d5730774fd890557af64f26f6548ff8746706d2797639faf9 1592 rust-ivf_0.1.4-1.dsc 49eedcbbb31f4e9f46566c543c0fb00b8f87ff9d88ba1a011aa262a5a1a2a505 3406 rust-ivf_0.1.4.orig.tar.gz 4e5d57c99c1803709615145452733cb954e0dfff2351f81f6c987cd47bfcd66c 4688 rust-ivf_0.1.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-ivf"
+  ],
+  "Files": [
+    "abadc6db27f6a98d164cd5d531f4c795 1592 rust-ivf_0.1.4-1.dsc 32f9dbb3b787aa01915264ddde26a354 3406 rust-ivf_0.1.4.orig.tar.gz f0a45037415801ebba032de4264dd49e 4688 rust-ivf_0.1.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/xiph/rav1e"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-ivf"
+  ],
+  "Package-List": [
+    "librust-ivf-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Sebastian Ramacher \u003csramacher@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ivf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/ivf]"
+  ],
+  "Version": [
+    "0.1.4-1"
+  ]
+}

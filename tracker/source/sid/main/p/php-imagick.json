@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "php-imagick, php-imagick-all-dev, php8.4-imagick"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10~), dh-php (\u003e= 5.9~), libmagickwand-7.q16-dev | libmagickwand-6.q16-dev | libmagickwand-dev, php-all-dev (\u003e= 2:95~)"
+  ],
+  "Checksums-Sha256": [
+    "8b268fa99d8f75e40b0f83c9a98324a136ec4f90ae4eaad19eaa60e0c4afef77 2354 php-imagick_3.8.0-3.dsc bda67461c854f20d6105782b769c524fc37388b75d4481d951644d2167ffeec6 363874 php-imagick_3.8.0.orig.tar.gz 45e218f5cd7f6902c2d378cde326d9568de3e0dd2d537933e9a5537cc2ca5625 19888 php-imagick_3.8.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/php-imagick"
+  ],
+  "Files": [
+    "82c5ea9b4a9e8505351ede41e63f6760 2354 php-imagick_3.8.0-3.dsc e6185b1412e65a91e598d1c79a00aeb9 363874 php-imagick_3.8.0.orig.tar.gz 86e07f7aaef7a469622d81ee9e9625d9 19888 php-imagick_3.8.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://pecl.php.net/package/imagick"
+  ],
+  "Maintainer": [
+    "Debian PHP PECL Maintainers \u003cteam+php-pecl@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "php-imagick"
+  ],
+  "Package-List": [
+    "php-imagick deb php optional arch=all php-imagick-all-dev deb php optional arch=all php8.4-imagick deb php optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "php"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "gsfonts, imagemagick-6.q16, imagemagick-7.q16, libmagickcore-6.q16-10-extra, libmagickcore-7.q16-10-extra, php-cli, phpunit, xml2"
+  ],
+  "Uploaders": [
+    "Lior Kaplan \u003ckaplan@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/pecl/php-imagick"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/pecl/php-imagick.git"
+  ],
+  "Version": [
+    "3.8.0-3"
+  ]
+}

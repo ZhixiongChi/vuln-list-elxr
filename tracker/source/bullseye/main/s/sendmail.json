@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "sendmail-bin, rmail, sensible-mda, libmilter1.0.1, libmilter-dev, sendmail-doc, sendmail, sendmail-base, sendmail-cf"
+  ],
+  "Build-Conflicts": [
+    "bind-dev, fakeroot (\u003c\u003c 0.4.5), libbind-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), make (\u003e\u003e 3.79.1-14), m4, linux-libc-dev (\u003e= 2.6.21-3) [linux-any], libdb-dev, libldap2-dev, libwrap0-dev, liblockfile-dev, libsasl2-dev, libssl-dev"
+  ],
+  "Build-Depends-Indep": [
+    "groff, bsdmainutils"
+  ],
+  "Checksums-Sha256": [
+    "b69b771bb725502e0955fedc8280a38e54aedb826c089d33f5509a1db0d79cac 2583 sendmail_8.15.2-22+deb11u3.dsc 24f94b5fd76705f15897a78932a5f2439a32b1a2fdc35769bb1a5f5d9b4db439 2207417 sendmail_8.15.2.orig.tar.gz b757a254f058fe862eddbfdfa1cde91fac2d09eb8a9c8a8a3281983ae45446e5 238540 sendmail_8.15.2-22+deb11u3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sendmail"
+  ],
+  "Files": [
+    "5b9286cabc61ed3c6cf15e1317eab914 2583 sendmail_8.15.2-22+deb11u3.dsc a824fa7dea4d3341efb6462ccd816f00 2207417 sendmail_8.15.2.orig.tar.gz 182dcbbf9d5a02d9aac05a8cc17f44d8 238540 sendmail_8.15.2-22+deb11u3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.sendmail.org"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "sendmail"
+  ],
+  "Package-List": [
+    "libmilter-dev deb libdevel optional arch=any libmilter1.0.1 deb libs optional arch=any rmail deb mail optional arch=any sendmail deb mail optional arch=all sendmail-base deb mail optional arch=all sendmail-bin deb mail optional arch=any sendmail-cf deb mail optional arch=all sendmail-doc deb doc optional arch=all sensible-mda deb mail optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "mail"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/sendmail"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/sendmail.git"
+  ],
+  "Version": [
+    "8.15.2-22+deb11u3"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any-amd64"
+  ],
+  "Binary": [
+    "intel-opencl-icd, intel-ocloc, intel-ocloc-dev, libze-intel-gpu1, libze-intel-gpu-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, libigc2, libigdfcl2-dev (\u003e= 2.16.0), libigdgmm-dev (\u003e= 22.8.1), libva-dev, libze-dev (\u003e= 1.24.1), pkgconf"
+  ],
+  "Checksums-Sha256": [
+    "4ffe830e6e3da1d038ff88cdc3f52be94be2a30abcea9fe57a245b5360cac26d 2571 intel-compute-runtime_25.31.34666.3-1.dsc c307ec9d0296bcfa0bc4f93a9f0955d9a8ca479a00a731fda5a61eee3ed76489 8030033 intel-compute-runtime_25.31.34666.3.orig.tar.gz ee587fcb24fc1fe7a1d5137ddae3a15d91b23d20692a5ca6a5ee7bf48d292942 10656 intel-compute-runtime_25.31.34666.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/intel-compute-runtime"
+  ],
+  "Files": [
+    "a8c84d19d50252a596d123e552bafb03 2571 intel-compute-runtime_25.31.34666.3-1.dsc cf8017df3f78f4d4db91f9515584ae01 8030033 intel-compute-runtime_25.31.34666.3.orig.tar.gz ff577f1ea7b44e879e09187179af2d85 10656 intel-compute-runtime_25.31.34666.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/intel/compute-runtime"
+  ],
+  "Maintainer": [
+    "Debian OpenCL Maintainers \u003cpkg-opencl-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "intel-compute-runtime"
+  ],
+  "Package-List": [
+    "intel-ocloc deb libs optional arch=any-amd64 intel-ocloc-dev deb libs optional arch=any-amd64 intel-opencl-icd deb libs optional arch=any-amd64 libze-intel-gpu-dev deb libs optional arch=any-amd64 libze-intel-gpu1 deb libs optional arch=any-amd64"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Timo Aaltonen \u003ctjaalton@debian.org\u003e, Andreas Beckmann \u003canbe@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/opencl-team/intel-compute-runtime"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/opencl-team/intel-compute-runtime.git"
+  ],
+  "Version": [
+    "25.31.34666.3-1"
+  ]
+}

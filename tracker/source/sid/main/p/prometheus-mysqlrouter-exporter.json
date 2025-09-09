@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "prometheus-mysqlrouter-exporter"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-prometheus-client-golang-dev, golang-github-rluisr-mysqlrouter-go-dev, golang-go-flags-dev, help2man"
+  ],
+  "Checksums-Sha256": [
+    "522ae4e2d50986d2987994777d109b1f9bb9940bcd43c064e4203145c974d506 2480 prometheus-mysqlrouter-exporter_6.0.1-1.dsc 33a41bd3a71105124c995b75b1cb761e62ff15e3ee7a387a7d1136905591adae 316528 prometheus-mysqlrouter-exporter_6.0.1.orig.tar.gz 91a86055ebfa8349a9c9aff087f4f4d22dea005691d88852b14bf7a74843ea09 5408 prometheus-mysqlrouter-exporter_6.0.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/prometheus-mysqlrouter-exporter"
+  ],
+  "Files": [
+    "db970b885ad8cc06b98854588055fd36 2480 prometheus-mysqlrouter-exporter_6.0.1-1.dsc ddc5632dcd0bd17605e79f3ba876146c 316528 prometheus-mysqlrouter-exporter_6.0.1.orig.tar.gz 0429ede2cd1f0199120146e22af64296 5408 prometheus-mysqlrouter-exporter_6.0.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/rluisr/mysqlrouter_exporter"
+  ],
+  "Homepage": [
+    "https://github.com/rluisr/mysqlrouter_exporter"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "prometheus-mysqlrouter-exporter"
+  ],
+  "Package-List": [
+    "prometheus-mysqlrouter-exporter deb net optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-go"
+  ],
+  "Testsuite-Triggers": [
+    "curl, mysql-router, mysql-server"
+  ],
+  "Uploaders": [
+    "Lena Voytek \u003clena.voytek@canonical.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/prometheus-mysqlrouter-exporter"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/prometheus-mysqlrouter-exporter.git"
+  ],
+  "Version": [
+    "6.0.1-1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-kvm-bindings-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "5fdf876a4c60dad2d0ab82ded6d9462359a635152344f166e6e1717dadc0e40a 2333 rust-kvm-bindings_0.10.0-4.dsc fa4933174d0cc4b77b958578cd45784071cc5ae212c2d78fbd755aaaa6dfa71a 90037 rust-kvm-bindings_0.10.0.orig.tar.gz a4964e30c38879cc8cbbb8bc57fe5788332d503aece4498d50ea0d6cd1e1ab79 5588 rust-kvm-bindings_0.10.0-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-kvm-bindings"
+  ],
+  "Files": [
+    "d8503a68891752e449af0a9744610e8b 2333 rust-kvm-bindings_0.10.0-4.dsc ebe05b72eb7e46991be3f7529d0cee3f 90037 rust-kvm-bindings_0.10.0.orig.tar.gz ebf20515fba9ddde55ce4d23df422a9c 5588 rust-kvm-bindings_0.10.0-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rust-vmm/kvm-bindings"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-kvm-bindings"
+  ],
+  "Package-List": [
+    "librust-kvm-bindings-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-bincode-1+default-dev, librust-serde-json-1+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "nicoo \u003cnicoo@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/kvm-bindings"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/kvm-bindings]"
+  ],
+  "Version": [
+    "0.10.0-4"
+  ]
+}

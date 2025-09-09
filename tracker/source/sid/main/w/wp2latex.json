@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "wp2latex, wp2latex-styles"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), tex-common, libjpeg-dev, libpng-dev, libwebp-dev (\u003e= 0.5.0), dh-exec, texlive-latex-base \u003c!nocheck\u003e, texlive-latex-extra \u003c!nocheck\u003e, texlive-lang-other \u003c!nocheck\u003e, texlive-lang-czechslovak \u003c!nocheck\u003e, texlive-fonts-recommended \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "396ca54ae14a0d0a9912a28fe4988f98d87fce0446ba5fb6041a14f92da086a0 2511 wp2latex_4.17~ds-1.dsc e50f83ab8d3d0ccf9e6237e0c44f1da2cd228ebc9cbab7fd03e486d336b61da2 986864 wp2latex_4.17~ds.orig.tar.xz 90e1d962afed4a834fdf0b5642db3e0ccfdf754c0f9b8957bcd3a036ef457622 21664 wp2latex_4.17~ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/w/wp2latex"
+  ],
+  "Files": [
+    "b4367f7704e41ba931c5ca1eb9c80ee9 2511 wp2latex_4.17~ds-1.dsc 166d0d5a607bf43b51a61ef31b680fe7 986864 wp2latex_4.17~ds.orig.tar.xz 0ea74bfb896c83de70d2789d957b9114 21664 wp2latex_4.17~ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://ftsoft.com.cz/wp2latex/wp2latex.htm"
+  ],
+  "Maintainer": [
+    "Hilmar Preuße \u003chille42@debian.org\u003e"
+  ],
+  "Package": [
+    "wp2latex"
+  ],
+  "Package-List": [
+    "wp2latex deb text optional arch=any wp2latex-styles deb text optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, debhelper-compat, libjpeg-dev, libpng-dev, libwebp-dev, texlive-fonts-recommended, texlive-lang-czechslovak, texlive-lang-other, texlive-latex-base, texlive-latex-extra"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/hilmar/wp2latex"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/hilmar/wp2latex.git"
+  ],
+  "Version": [
+    "4.17~ds-1"
+  ]
+}

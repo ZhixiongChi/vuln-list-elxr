@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-vsock-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.158-~~) \u003c!nocheck\u003e, librust-nix-0.29+default-dev \u003c!nocheck\u003e, librust-nix-0.29+ioctl-dev \u003c!nocheck\u003e, librust-nix-0.29+socket-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "de7eddcd859c8e6954b46f99e07666988955e3a89ba98adba8d6b8ccb033c196 2398 rust-vsock_0.5.1-1.dsc 4e8b4d00e672f147fc86a09738fadb1445bd1c0a40542378dfb82909deeee688 10909 rust-vsock_0.5.1.orig.tar.gz 80db3bc3662b72d5b342ddebbf68fdf6387f0c7f8442aad737647e1bd9fcedaa 2976 rust-vsock_0.5.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-vsock"
+  ],
+  "Files": [
+    "0273280e6aa32cef438487dc4a297e65 2398 rust-vsock_0.5.1-1.dsc aaeee23b9ca6d338ddf7413936da457e 10909 rust-vsock_0.5.1.orig.tar.gz a2fc4155ea35ed27e8ec66ff9cf0d89a 2976 rust-vsock_0.5.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rust-vsock/vsock-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-vsock"
+  ],
+  "Package-List": [
+    "librust-vsock-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-rand-0.8+default-dev, librust-sha2-0.10+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Shengjing Zhu \u003czhsj@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/vsock"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/vsock]"
+  ],
+  "Version": [
+    "0.5.1-1"
+  ]
+}

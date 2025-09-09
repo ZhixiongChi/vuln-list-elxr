@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-lmdb-master-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-doxygen-rs-0.4+default-dev (\u003e= 0.4.2-~~) \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.155-~~) \u003c!nocheck\u003e, librust-pkg-config-0.3+default-dev \u003c!nocheck\u003e, liblmdb-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "4c391ea67db83d3bb25c19bd92a2b532e2ec53806b4818b3ed56da275fc5b9e9 1946 rust-lmdb-master-sys_0.2.4-4.dsc 689e002c8f7f133de134fa986ee8ef11cef52728bfc596ff83173683c7e7af3a 20216 rust-lmdb-master-sys_0.2.4.orig.tar.gz 6ca593562eff83ba513e14d6f4c8e1a4e333caf212d4808835248d9d791b8bba 4996 rust-lmdb-master-sys_0.2.4-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-lmdb-master-sys"
+  ],
+  "Files": [
+    "7c523be0f794b6c9063e8fde7102f4a0 1946 rust-lmdb-master-sys_0.2.4-4.dsc eb8c4eb8eb3c3b55077fbb4edd7b755c 20216 rust-lmdb-master-sys_0.2.4.orig.tar.gz 96171631a58f59f1d70bd711aa2e6378 4996 rust-lmdb-master-sys_0.2.4-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/meilisearch/heed/tree/main/lmdb-master-sys"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-lmdb-master-sys"
+  ],
+  "Package-List": [
+    "librust-lmdb-master-sys-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-cstr-0.2+default-dev, librust-tempfile-3+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Arnaud Ferraris \u003caferraris@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/lmdb-master-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/lmdb-master-sys]"
+  ],
+  "Version": [
+    "0.2.4-4"
+  ]
+}

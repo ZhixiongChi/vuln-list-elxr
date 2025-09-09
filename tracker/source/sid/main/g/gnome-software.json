@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "gnome-software, gnome-software-common, gnome-software-plugin-deb, gnome-software-plugin-flatpak, gnome-software-plugin-fwupd, gnome-software-plugin-snap, gnome-software-dev, gnome-software-doc"
+  ],
+  "Build-Depends": [
+    "appstream, debhelper-compat (= 13), dh-sequence-gnome, docbook-xsl, gsettings-desktop-schemas-dev (\u003e= 3.18), gtk-doc-tools, itstool, libadwaita-1-dev (\u003e= 1.6.0), libappstream-dev (\u003e= 1.0.0), libflatpak-dev (\u003e= 1.14.1) [amd64 arm64 armel armhf i386 loong64 mipsel mips64el ppc64el s390x hppa powerpc ppc64 riscv64 x32], libfwupd-dev (\u003e= 1.5.6) [linux-any], libglib-testing-0-dev, libglib2.0-dev (\u003e= 2.76.0), libgtk-4-dev (\u003e= 4.16.0), libgudev-1.0-dev [linux-any], libjson-glib-dev (\u003e= 1.6.0), libmalcontent-0-dev [amd64 arm64 armel armhf i386 loong64 mipsel mips64el ppc64el s390x hppa powerpc ppc64 riscv64 x32], libostree-dev (\u003e= 2022.5-2~) [linux-any], libpackagekit-glib2-dev (\u003e= 1.2.5), libpolkit-gobject-1-dev, libsnapd-glib-dev (\u003e= 1.64) [amd64 arm64 armel armhf i386 ppc64el s390x], libsoup-3.0-dev, libsysprof-capture-4-dev (\u003e= 3.38.0) [amd64 arm64 armel armhf i386 loong64 mips64el ppc64el riscv64 s390x powerpc ppc64], libxml2-utils, libxmlb-dev (\u003e= 0.3.4), meson (\u003e= 0.55.0), pkgconf, polkitd, xsltproc"
+  ],
+  "Build-Depends-Indep": [
+    "libgdk-pixbuf2.0-doc \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e, libgtk-3-doc \u003c!nodoc\u003e, libjson-glib-doc \u003c!nodoc\u003e, libsoup-3.0-doc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "3312e8abd836392e5f82aaec5437c8f75e54f0c33bc9eaf51723f9ce51418926 3945 gnome-software_49~rc-1.dsc f1d0a0112ac552128c47a7adacc5e17f4fca8041667e0638c95823c0a28538b3 3434340 gnome-software_49~rc.orig.tar.xz 9a0fedd12e8a2e4ae4ea2bccd00202ee40ec487046838124dff4d688ac6fea88 14672 gnome-software_49~rc-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gnome-software"
+  ],
+  "Files": [
+    "6d811002d1bf4c9f46bb9e91e859232b 3945 gnome-software_49~rc-1.dsc fac3b18721ba7be47824aa01eaf204e7 3434340 gnome-software_49~rc.orig.tar.xz c477c82afb148324f128395849a95c5c 14672 gnome-software_49~rc-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://apps.gnome.org/Software/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gnome-software"
+  ],
+  "Package-List": [
+    "gnome-software deb gnome optional arch=any gnome-software-common deb gnome optional arch=all gnome-software-dev deb libdevel optional arch=any gnome-software-doc deb doc optional arch=all profile=!nodoc gnome-software-plugin-deb deb gnome optional arch=any gnome-software-plugin-flatpak deb gnome optional arch=amd64,arm64,armel,armhf,hppa,i386,loong64,mips64el,mipsel,powerpc,ppc64,ppc64el,riscv64,s390x,x32 gnome-software-plugin-fwupd deb gnome optional arch=linux-any gnome-software-plugin-snap deb gnome optional arch=amd64,arm64,armel,armhf,i386,ppc64el,s390x"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Amin Bandali \u003cbandali@ubuntu.com\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Matthias Klumpp \u003cmak@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gnome-software"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gnome-software.git"
+  ],
+  "Version": [
+    "49~rc-1"
+  ]
+}

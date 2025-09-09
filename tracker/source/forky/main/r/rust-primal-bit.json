@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-primal-bit-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-hamming-0.1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "46572ecdf79cf88ab47b41b7ba0e704d709d640f66fad3e297946236e7b0ac45 2249 rust-primal-bit_0.3.2-1.dsc 252429dbb8aeacc3233df500dc3a6a367bf28eb3a711272884d7540a7b636055 10888 rust-primal-bit_0.3.2.orig.tar.gz 2aa95b94efd029ce6462e2131d03f41a5840fc2810aeb5e10e93b9bf8ea6bd52 2712 rust-primal-bit_0.3.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-primal-bit"
+  ],
+  "Files": [
+    "197b9810631d03d10cdd532b2ac1d983 2249 rust-primal-bit_0.3.2-1.dsc 33eaf1e75024d736715608dc8203c8a3 10888 rust-primal-bit_0.3.2.orig.tar.gz 0eddd61690f0c3c155db0a977e7ef497 2712 rust-primal-bit_0.3.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/huonw/primal"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-primal-bit"
+  ],
+  "Package-List": [
+    "librust-primal-bit-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/primal-bit"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/primal-bit]"
+  ],
+  "Version": [
+    "0.3.2-1"
+  ]
+}

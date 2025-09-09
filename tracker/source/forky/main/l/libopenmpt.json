@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "openmpt123, libopenmpt0t64, libopenmpt-dev, libopenmpt-doc"
+  ],
+  "Build-Conflicts": [
+    "autoconf-archive"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), libflac-dev, libmpg123-dev, libogg-dev, libpulse-dev, libsndfile1-dev, libvorbis-dev, pkgconf, portaudio19-dev, zlib1g-dev"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen"
+  ],
+  "Checksums-Sha256": [
+    "b757290521efc584868252af5a4600235b67e7e4f665ca769f099000b00c28b2 1852 libopenmpt_0.8.2-2.dsc 844e4ff98dbd9942bbe4a1048226f91f8bc5b460b7bec6489e67cedb3e0aac37 1721276 libopenmpt_0.8.2.orig.tar.gz 15bbf4dd237cc7ad12d6dd329867220bd806b0111aaf3a6978fc532e9e6600fc 11956 libopenmpt_0.8.2-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libo/libopenmpt"
+  ],
+  "Files": [
+    "b7873cd6858905d621441965b0a1ac6f 1852 libopenmpt_0.8.2-2.dsc 5800653edd7cbac2df10b85ca9b4943d 1721276 libopenmpt_0.8.2.orig.tar.gz c7b9a8a4a2ab79ff70e523a912694c4b 11956 libopenmpt_0.8.2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://lib.openmpt.org/libopenmpt/"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "libopenmpt"
+  ],
+  "Package-List": [
+    "libopenmpt-dev deb libdevel optional arch=any libopenmpt-doc deb doc optional arch=all libopenmpt0t64 deb libs optional arch=any openmpt123 deb sound optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config"
+  ],
+  "Uploaders": [
+    "James Cowgill \u003cjcowgill@debian.org\u003e, Sebastian Ramacher \u003csramacher@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/libopenmpt"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/libopenmpt.git"
+  ],
+  "Version": [
+    "0.8.2-2"
+  ]
+}

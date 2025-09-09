@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-four-cc-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "d5a47f02bb896148fe3901ed0c5f53dd5235b58fdcb500b37c0cbbc10dc57a89 2207 rust-four-cc_0.4.0-1.dsc 795cbfc56d419a7ce47ccbb7504dd9a5b7c484c083c356e797de08bd988d9629 9416 rust-four-cc_0.4.0.orig.tar.gz 414bc6f5a6d6c3f35409ebc789b891c9f739715f1572b50c460334dbead686b7 3368 rust-four-cc_0.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-four-cc"
+  ],
+  "Files": [
+    "24491571eace08712a980e5420856bb1 2207 rust-four-cc_0.4.0-1.dsc 72b8c180b683ca6c78f2f56261d20e5b 9416 rust-four-cc_0.4.0.orig.tar.gz 77a94d3638d94e3f5e45b8ba574146e2 3368 rust-four-cc_0.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dholroyd/four-cc"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-four-cc"
+  ],
+  "Package-List": [
+    "librust-four-cc-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-serde-test-1+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/four-cc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/four-cc]"
+  ],
+  "Version": [
+    "0.4.0-1"
+  ]
+}

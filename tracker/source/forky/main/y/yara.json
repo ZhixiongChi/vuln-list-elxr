@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "yara, libyara10, libyara-dev, yara-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), flex, bison, pkgconf, libjansson-dev, libmagic-dev, libssl-dev, sphinx-common"
+  ],
+  "Build-Depends-Indep": [
+    "python3-sphinx"
+  ],
+  "Checksums-Sha256": [
+    "146f67c4548e70aea2283a8baa3bc770f29a19cd6c9850b7fd42d3bff397d3a7 2145 yara_4.5.4-1.dsc 586c9c21878f8b4d1b9423b89ac937f21f8057b03e3e9706f310549d453966fa 2201555 yara_4.5.4.orig.tar.gz b303806fad32a08ff67fde110eb1b5df63a5930d7cb479541b6f4c0e984a344c 8992 yara_4.5.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/y/yara"
+  ],
+  "Files": [
+    "a238776016ab528e95ee492520528046 2145 yara_4.5.4-1.dsc bc9bd72da4704778e4d24986d68e54a5 2201555 yara_4.5.4.orig.tar.gz d33f41f9a24f17f8bc72c953f76f0a5d 8992 yara_4.5.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://virustotal.github.io/yara/"
+  ],
+  "Maintainer": [
+    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "yara"
+  ],
+  "Package-List": [
+    "libyara-dev deb libdevel optional arch=any libyara10 deb libs optional arch=any yara deb utils optional arch=any yara-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Uploaders": [
+    "Hilko Bengen \u003cbengen@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-security-team/yara"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-security-team/yara.git"
+  ],
+  "Version": [
+    "4.5.4-1"
+  ]
+}

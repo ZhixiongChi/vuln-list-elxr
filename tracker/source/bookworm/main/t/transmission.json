@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "transmission, transmission-common, transmission-cli, transmission-gtk, transmission-qt, transmission-daemon"
+  ],
+  "Build-Depends": [
+    "autotools-dev, debhelper, dh-autoreconf, intltool, libayatana-appindicator3-dev, libcurl4-openssl-dev | libcurl4-dev | libcurl-dev, libevent-dev (\u003e= 2.0), libglib2.0-dev, libgtk-3-dev, libminiupnpc-dev (\u003e= 1.9), libnatpmp-dev (\u003e= 20110808), libnotify-dev (\u003e= 0.7), libssl-dev, libsystemd-dev [linux-any], qt5-qmake, qt5-qmake:native, qtbase5-dev, qttools5-dev-tools, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "14fe05e79b98d92c8032e10351f7783dba09a8e2062e092faa763774cffafee9 2040 transmission_3.00-2.1+deb12u1.dsc 9144652fe742f7f7dd6657716e378da60b751aaeda8bef8344b3eefc4db255f2 3329220 transmission_3.00.orig.tar.xz 2e31f852abac7c4c9944720c304591e55f4eba49bd7ce5fdb49d3544e1acb8f5 22504 transmission_3.00-2.1+deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/transmission"
+  ],
+  "Files": [
+    "2c7bffa1ed8147dea99139e98acded53 2040 transmission_3.00-2.1+deb12u1.dsc a23a32672b83c89b9b61e90408f53d98 3329220 transmission_3.00.orig.tar.xz 61b88e6207174cbed525f97cd3494879 22504 transmission_3.00-2.1+deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://transmissionbt.com/"
+  ],
+  "Maintainer": [
+    "Sandro Tosi \u003cmorph@debian.org\u003e"
+  ],
+  "Package": [
+    "transmission"
+  ],
+  "Package-List": [
+    "transmission deb net optional arch=all transmission-cli deb net optional arch=any transmission-common deb net optional arch=all transmission-daemon deb net optional arch=any transmission-gtk deb net optional arch=any transmission-qt deb net optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.6.0.1"
+  ],
+  "Uploaders": [
+    "Leo Costela \u003ccostela@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/transmission"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/transmission.git"
+  ],
+  "Version": [
+    "3.00-2.1+deb12u1"
+  ]
+}

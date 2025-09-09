@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "mpb, mpb-mpi, mpb-doc, mpb-dev, mpb-scm"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), liblapack-dev, libfftw3-dev (\u003e= 3.3), libctl-dev (\u003e= 4.3.0), gfortran, guile-3.0-dev, mpi-default-dev, libhdf5-mpi-dev, libfftw3-mpi-dev, quilt"
+  ],
+  "Checksums-Sha256": [
+    "1150aa4588e771e2eba18a52f5738b2fce1e5513f5cffb79e06953c57f96b220 2280 mpb_1.12.0-1.dsc d464aac4528f0db0daa1333ac29196fea6cd52a4d24b59450446a6adcf93afe9 1345956 mpb_1.12.0.orig.tar.gz 151c715f90e9f985e2d7769c4407c9a438d8c353f94a4016fc6fd1bfbc080c68 146308 mpb_1.12.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mpb"
+  ],
+  "Files": [
+    "9f5d819fc4068982c1fb0451d45d1db3 2280 mpb_1.12.0-1.dsc 1f3387dbe2417484868b97beade07218 1345956 mpb_1.12.0.orig.tar.gz c478a562325d420dcd843d07e130db1d 146308 mpb_1.12.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://mpb.readthedocs.io"
+  ],
+  "Maintainer": [
+    "Thorsten Alteholz \u003cdebian@alteholz.de\u003e"
+  ],
+  "Package": [
+    "mpb"
+  ],
+  "Package-List": [
+    "mpb deb science optional arch=any mpb-dev deb devel optional arch=any mpb-doc deb doc optional arch=all mpb-mpi deb science optional arch=any mpb-scm deb science optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "science"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/alteholz/mpb"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/alteholz/mpb.git"
+  ],
+  "Version": [
+    "1.12.0-1"
+  ]
+}

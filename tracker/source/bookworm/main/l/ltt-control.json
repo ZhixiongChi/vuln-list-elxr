@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "lttng-tools, liblttng-ctl0, liblttng-ctl-dev, python3-lttng"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), asciidoc, bash-completion, bison, dh-python, libkmod-dev, liblttng-ust-dev (\u003e= 2.13.0~), liblttng-ust-dev (\u003c\u003c 2.14.0~), libpopt-dev, liburcu-dev (\u003e= 0.11.0~), libxml2-dev (\u003e= 2.7.6~), pkg-config, python3-all-dev, swig (\u003e= 2.0), xmlto"
+  ],
+  "Checksums-Sha256": [
+    "9b6273234a8205fa07b472e8a41c50fd04fb7fbc5efb9b8651ba3ac8d9b51db1 2415 ltt-control_2.13.9-1+deb12u1.dsc 8d94dc95b608cf70216b01203a3f8242b97a232db2e23421a2f43708da08f337 1892293 ltt-control_2.13.9.orig.tar.bz2 c1731197b3572152b87e647d5a6bd0c0c938cc9b97cf17f90adae608b04ad5a2 27232 ltt-control_2.13.9-1+deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/ltt-control"
+  ],
+  "Files": [
+    "544e4e15047efcc1bb19ca60f3d8b199 2415 ltt-control_2.13.9-1+deb12u1.dsc 3fae6221a4afb4529c0c5897509a7df3 1892293 ltt-control_2.13.9.orig.tar.bz2 0e6d973a7e7033794587e35e5b5b54ea 27232 ltt-control_2.13.9-1+deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://lttng.org/"
+  ],
+  "Maintainer": [
+    "Jon Bernard \u003cjbernard@debian.org\u003e"
+  ],
+  "Package": [
+    "ltt-control"
+  ],
+  "Package-List": [
+    "liblttng-ctl-dev deb libdevel optional arch=linux-any liblttng-ctl0 deb libs optional arch=linux-any lttng-tools deb utils optional arch=linux-any python3-lttng deb python optional arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.1.0"
+  ],
+  "Uploaders": [
+    "Michael Jeanson \u003cmjeanson@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/ltt-control"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/ltt-control.git"
+  ],
+  "Version": [
+    "2.13.9-1+deb12u1"
+  ]
+}

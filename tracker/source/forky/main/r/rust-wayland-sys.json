@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-wayland-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.65) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-pkg-config-0.3+default-dev (\u003e= 0.3.7-~~) \u003c!nocheck\u003e, libwayland-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "ddbdbb29bb69cfd0a8356ce880921eda41d047e22e54c37bba247978c4352c24 2343 rust-wayland-sys_0.31.7-1.dsc 34949b42822155826b41db8e5d0c1be3a2bd296c747577a43a3e6daefc296142 10106 rust-wayland-sys_0.31.7.orig.tar.gz b8b0d1229abdb1be17af292751e2e077081b2446133b047d7ec19b27d4101a0d 3592 rust-wayland-sys_0.31.7-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-wayland-sys"
+  ],
+  "Files": [
+    "dcc79bb8cc9c73c815d83630f05af7b6 2343 rust-wayland-sys_0.31.7-1.dsc 0843fe53c59967e27892e2b08b232978 10106 rust-wayland-sys_0.31.7.orig.tar.gz 99c936eaacf72b0e2e441acfccc0ae39 3592 rust-wayland-sys_0.31.7-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/smithay/wayland-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-wayland-sys"
+  ],
+  "Package-List": [
+    "librust-wayland-sys-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/wayland-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/wayland-sys]"
+  ],
+  "Version": [
+    "0.31.7-1"
+  ]
+}

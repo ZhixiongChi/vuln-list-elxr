@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "trace-cmd, libtracecmd1, libtracecmd-dev, python3-trace-cmd"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), asciidoc, docbook-xsl, xsltproc, libcunit1-dev, xmlto, pkgconf, libtraceevent-dev (\u003e= 1.5), libtracefs-dev (\u003e= 1.8), libzstd-dev, source-highlight, python3-dev, swig, dh-python"
+  ],
+  "Checksums-Sha256": [
+    "5c1cbfa99f8a3e2d5721ad5c6b10a2a14fb1dbda3705b5589f193a218002fb6b 2217 trace-cmd_3.3.3-1.dsc 8ed41f61010998e4a1ba54778f9077ee7afb5311d38dca9781d7a397dd70c9d4 366872 trace-cmd_3.3.3.orig.tar.gz 5c87924d100665dfeaf449440814792eca23aba4422eb4db96ad32b0c9b85f66 8868 trace-cmd_3.3.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/trace-cmd"
+  ],
+  "Files": [
+    "e6bae4e1ee5a48c183e9637e46e9145e 2217 trace-cmd_3.3.3-1.dsc cd0f33d5f09769c7cbd60fd231f71307 366872 trace-cmd_3.3.3.orig.tar.gz 724211b97e71a0b28c2e1d95c9dc5eb8 8868 trace-cmd_3.3.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Sudip Mukherjee \u003csudipm.mukherjee@gmail.com\u003e"
+  ],
+  "Package": [
+    "trace-cmd"
+  ],
+  "Package-List": [
+    "libtracecmd-dev deb libdevel optional arch=any libtracecmd1 deb libs optional arch=any python3-trace-cmd deb python optional arch=any trace-cmd deb devel optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/sudip/trace-cmd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/sudip/trace-cmd.git"
+  ],
+  "Version": [
+    "3.3.3-1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-pyo3-async-runtimes-macros-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev \u003c!nocheck\u003e, librust-quote-1+default-dev \u003c!nocheck\u003e, librust-syn-2+default-dev \u003c!nocheck\u003e, librust-syn-2+full-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "b3585c6b24031a7cea91851c70a944d22d7ef67154854ea4ba34b7681b2f020c 2652 rust-pyo3-async-runtimes-macros_0.25.0-1.dsc ca31e43a0f205f2960208938135e37e579e61e10b36b4e7f49b0e8f60fab5b83 10809 rust-pyo3-async-runtimes-macros_0.25.0.orig.tar.gz 921177b343398cdf7cd8b9ef09f80dda9891f36bd5d0044e73894ccdf59e63bc 2124 rust-pyo3-async-runtimes-macros_0.25.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-pyo3-async-runtimes-macros"
+  ],
+  "Files": [
+    "83c53755a6f81ea6fac20f04ecc2c531 2652 rust-pyo3-async-runtimes-macros_0.25.0-1.dsc ff317e4629a7f0360a719f33810a268a 10809 rust-pyo3-async-runtimes-macros_0.25.0.orig.tar.gz e13c1f859e181e0a1fba3d3280a7a5fb 2124 rust-pyo3-async-runtimes-macros_0.25.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/PyO3/pyo3-async-runtimes"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-pyo3-async-runtimes-macros"
+  ],
+  "Package-List": [
+    "librust-pyo3-async-runtimes-macros-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Josenilson Ferreira da Silva \u003cnilsonfsilva@hotmail.com\u003e, Jelmer Vernooĳ \u003cjelmer@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pyo3-async-runtimes-macros"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/pyo3-async-runtimes-macros]"
+  ],
+  "Version": [
+    "0.25.0-1"
+  ]
+}

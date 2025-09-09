@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-serde-path-to-error-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-itoa-1+default-dev \u003c!nocheck\u003e, librust-serde-1+default-dev (\u003e= 1.0.194-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "ea61f91af4e2cf7348b0a19220d093f62309b063322220e0acb8b376eac10321 1900 rust-serde-path-to-error_0.1.17-2.dsc 59fab13f937fa393d08645bf3a84bdfe86e296747b506ada67bb15f10f218b2a 17662 rust-serde-path-to-error_0.1.17.orig.tar.gz 32ce762ed5b3d257e88bd82842195f695f3e0c91be550800967dca769d1ec293 2716 rust-serde-path-to-error_0.1.17-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-serde-path-to-error"
+  ],
+  "Files": [
+    "f5e78657bd703c19c63da89eeae6ee2b 1900 rust-serde-path-to-error_0.1.17-2.dsc c289e49bd6bb7402a3ccdc85fa36f535 17662 rust-serde-path-to-error_0.1.17.orig.tar.gz a9e1b564a30d31d9b7b365380cd42483 2716 rust-serde-path-to-error_0.1.17-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dtolnay/path-to-error"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-serde-path-to-error"
+  ],
+  "Package-List": [
+    "librust-serde-path-to-error-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-serde-derive-1+default-dev, librust-serde-json-1+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/serde-path-to-error"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/serde-path-to-error]"
+  ],
+  "Version": [
+    "0.1.17-2"
+  ]
+}

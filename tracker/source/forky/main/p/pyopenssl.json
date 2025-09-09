@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-openssl-doc, python3-openssl"
+  ],
+  "Build-Depends": [
+    "ca-certificates \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, openssl \u003c!nocheck\u003e, python-cryptography-doc \u003c!nodoc\u003e, python3-all, python3-cffi \u003c!nocheck\u003e, python3-cryptography (\u003c\u003c 45), python3-cryptography (\u003e= 41.0.5), python3-doc \u003c!nodoc\u003e, python3-pretend \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-rerunfailures \u003c!nocheck\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "430f66fbece3ed3db65c408bf6dd260187fa0ebe24da37a24a696f727774f1e7 2472 pyopenssl_25.1.0-1.dsc 624cf2ba357c7804dafd5503979845d410d75bdc800e878b2017e804c8ca851d 174935 pyopenssl_25.1.0.orig.tar.gz 2455429bc7b0d08671a35783245e7e024ea0e2f040eb5661446916483065d2f7 9708 pyopenssl_25.1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pyopenssl"
+  ],
+  "Files": [
+    "b99ff9280ce8e63965d0a0883fe49b73 2472 pyopenssl_25.1.0-1.dsc 33e40d1044e25afdf9d9d50edec2e12c 174935 pyopenssl_25.1.0.orig.tar.gz fc828be080eaf42e19f5f6008e6374ef 9708 pyopenssl_25.1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pyopenssl.org/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pyopenssl"
+  ],
+  "Package-List": [
+    "python-openssl-doc deb doc optional arch=all python3-openssl deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "interpreters"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Andrey Rakhmatullin \u003cwrar@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pyopenssl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pyopenssl.git"
+  ],
+  "Version": [
+    "25.1.0-1"
+  ]
+}

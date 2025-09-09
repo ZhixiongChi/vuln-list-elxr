@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "iceoryx, iceoryx-doc, libiceoryx-binding-c-dev, libiceoryx-binding-c2, libiceoryx-hoofs-dev, libiceoryx-hoofs2, libiceoryx-introspection-dev, libiceoryx-introspection2, libiceoryx-platform2, libiceoryx-posh-config2, libiceoryx-posh-dev, libiceoryx-posh-gateway2, libiceoryx-posh-roudi2, libiceoryx-posh2"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), architecture-is-64-bit, cmake, libcpptoml-dev"
+  ],
+  "Build-Depends-Arch": [
+    "libacl1-dev, libgmock-dev \u003c!nocheck\u003e, libgtest-dev \u003c!nocheck\u003e, libncurses-dev"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "dfea05ff46d8681569902125b06b9f3d652b7bb157a2ceb8e90d0dc35e0c5328 3839 iceoryx_2.0.6+dfsg-2.dsc 3901e15bebf392181b2799f08ae2875a2dde2af1d21027256194ac907b0208c7 905964 iceoryx_2.0.6+dfsg.orig.tar.xz 19acd812bad8f29c79ab70c11ff902d02fe790354ff33ece373ffa8fd43f01b5 9980 iceoryx_2.0.6+dfsg-2.debian.tar.xz"
+  ],
+  "Description": [
+    "zero-copy inter-process communication Iceoryx is an inter-process communication (IPC) middleware for POSIX based operating systems. It features shared memory capabilities which allow a true zero-copy data transfer. . Originating from the automotive domain, it is crucial to transfer a huge amount of data between multiple processes to realize driver assistance systems or automated driving applications. Moreover, the same efficient communication mechanism can be applied to a broader range of use cases, e.g. in the field of robotics or game development."
+  ],
+  "Dgit": [
+    "ae16b039fcf757d3f9c1b4d644c82b47cb3ffee9 debian archive/debian/2.0.6+dfsg-2 https://git.dgit.debian.org/iceoryx"
+  ],
+  "Directory": [
+    "pool/main/i/iceoryx"
+  ],
+  "Files": [
+    "d2ff2c0d3c4da6d95a5e4602803d006d 3839 iceoryx_2.0.6+dfsg-2.dsc 0eababf1d632f428a0a102a6789d14d3 905964 iceoryx_2.0.6+dfsg.orig.tar.xz 66aa3850d6bb4012c40155712e2b5dc3 9980 iceoryx_2.0.6+dfsg-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://projects.eclipse.org/projects/technology.iceoryx"
+  ],
+  "Maintainer": [
+    "Debian Robotics Team \u003cteam+robotics@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "iceoryx"
+  ],
+  "Package-List": [
+    "iceoryx deb net optional arch=any iceoryx-doc deb doc optional arch=all libiceoryx-binding-c-dev deb libdevel optional arch=any libiceoryx-binding-c2 deb libs optional arch=any libiceoryx-hoofs-dev deb libdevel optional arch=any libiceoryx-hoofs2 deb libs optional arch=any libiceoryx-introspection-dev deb libdevel optional arch=any libiceoryx-introspection2 deb libs optional arch=any libiceoryx-platform2 deb libs optional arch=any libiceoryx-posh-config2 deb libs optional arch=any libiceoryx-posh-dev deb libdevel optional arch=any libiceoryx-posh-gateway2 deb libs optional arch=any libiceoryx-posh-roudi2 deb libs optional arch=any libiceoryx-posh2 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Timo Röhling \u003croehling@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/robotics-team/iceoryx"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/robotics-team/iceoryx.git"
+  ],
+  "Version": [
+    "2.0.6+dfsg-2"
+  ]
+}

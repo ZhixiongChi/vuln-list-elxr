@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ruby-rubygems, ruby-bundler, bundler"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gem2deb (\u003e= 1), rake, ruby, ruby-dev, ruby-test-unit (\u003e= 3.3.9~), ruby-webrick (\u003e= 1.7.0)"
+  ],
+  "Checksums-Sha256": [
+    "14d4b0a136e441b667381e6a4571219ef691982ce0dd07bd20b22950ed29272a 2314 rubygems_3.3.15-2+deb12u1.dsc 8bd1cf20cab30da77a123e26a438fa8b22d0bf152db5aff9c9d9ccdab40102c4 12943776 rubygems_3.3.15.orig.tar.gz b941ed34a190af896c2144113706fe85574212f0939948db5d2604f0a6cd8ef1 10340 rubygems_3.3.15-2+deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rubygems"
+  ],
+  "Files": [
+    "4639ad5e21d8d73f326bfeefba7a63f5 2314 rubygems_3.3.15-2+deb12u1.dsc ebcadcfcf0fcdc8c90a9609fb8aa9865 12943776 rubygems_3.3.15.orig.tar.gz b35e0e575f02b937c5d731618662b67e 10340 rubygems_3.3.15-2+deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://rubygems.org"
+  ],
+  "Maintainer": [
+    "Debian Ruby Team \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "rubygems"
+  ],
+  "Package-List": [
+    "bundler deb ruby optional arch=all ruby-bundler deb ruby optional arch=all ruby-rubygems deb ruby optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Ruby-Versions": [
+    "all"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-ruby"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, build-essential, libxml2-dev, libz-dev"
+  ],
+  "Uploaders": [
+    "Lucas Kanashiro \u003ckanashiro@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ruby-team/rubygems"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ruby-team/rubygems.git"
+  ],
+  "Version": [
+    "3.3.15-2+deb12u1"
+  ]
+}

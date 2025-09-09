@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-wasm-bindgen-macro-support-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.57) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev \u003c!nocheck\u003e, librust-quote-1+default-dev \u003c!nocheck\u003e, librust-syn-2+default-dev \u003c!nocheck\u003e, librust-syn-2+full-dev \u003c!nocheck\u003e, librust-syn-2+visit-dev \u003c!nocheck\u003e, librust-syn-2+visit-mut-dev \u003c!nocheck\u003e, librust-wasm-bindgen-backend-0.2+default-dev (\u003c\u003c 0.2.101-~~) \u003c!nocheck\u003e, librust-wasm-bindgen-backend-0.2+default-dev (\u003e= 0.2.100-~~) \u003c!nocheck\u003e, librust-wasm-bindgen-shared-0.2+default-dev (\u003c\u003c 0.2.101-~~) \u003c!nocheck\u003e, librust-wasm-bindgen-shared-0.2+default-dev (\u003e= 0.2.100-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "60787242a03f207afe175cd3512dfd01ae737f086349918df77213c6d4ab0b0f 3005 rust-wasm-bindgen-macro-support_0.2.100-1.dsc 8ae87ea40c9f689fc23f209965b6fb8a99ad69aeeb0231408be24920604395de 26243 rust-wasm-bindgen-macro-support_0.2.100.orig.tar.gz 146692f838e6470cb50bec665421b9c6d21c19346625b84a43418fdef274f701 3340 rust-wasm-bindgen-macro-support_0.2.100-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-wasm-bindgen-macro-support"
+  ],
+  "Files": [
+    "551a60f9f40ef83e09e50c4d807a4957 3005 rust-wasm-bindgen-macro-support_0.2.100-1.dsc 97837379187cff7de19972e4dc416fb0 26243 rust-wasm-bindgen-macro-support_0.2.100.orig.tar.gz 0930a0640818e19b08f6fa8fd5e17787 3340 rust-wasm-bindgen-macro-support_0.2.100-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://rustwasm.github.io/wasm-bindgen/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-wasm-bindgen-macro-support"
+  ],
+  "Package-List": [
+    "librust-wasm-bindgen-macro-support-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/wasm-bindgen-macro-support"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/wasm-bindgen-macro-support]"
+  ],
+  "Version": [
+    "0.2.100-1"
+  ]
+}

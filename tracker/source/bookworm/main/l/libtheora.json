@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libtheora-bin, libtheora-dev, libtheora-doc, libtheora0"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), doxygen, libcairo2-dev, libogg-dev, libpng-dev, libsdl1.2-dev, libvorbis-dev, pkg-config"
+  ],
+  "Build-Depends-Indep": [
+    "ghostscript, texlive-latex-base, texlive-latex-extra, texlive-latex-recommended, transfig"
+  ],
+  "Checksums-Sha256": [
+    "392b9f1671608285ee7c2f3a029d4a2f946bd8ffc2c36d416ba844a51377bc9f 2572 libtheora_1.1.1+dfsg.1-16.1+deb12u1.dsc c59b0f07a7314dfe2ade15c41bc9f637f8a450fc6b340af61b81760629f28f90 2100495 libtheora_1.1.1+dfsg.1.orig.tar.gz 74c94d998a9041aaf457105f4fbc45b57644b21542c0136127da8d2e940c6e76 13136 libtheora_1.1.1+dfsg.1-16.1+deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libt/libtheora"
+  ],
+  "Files": [
+    "eae30b1b468dfc1ee425f211a951d27d 2572 libtheora_1.1.1+dfsg.1-16.1+deb12u1.dsc 3f2432bffe618edaa8c6c2b074f690bc 2100495 libtheora_1.1.1+dfsg.1.orig.tar.gz d4fa041c69230fb2daf9a3f25cfe9089 13136 libtheora_1.1.1+dfsg.1-16.1+deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.theora.org/"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "libtheora"
+  ],
+  "Package-List": [
+    "libtheora-bin deb utils optional arch=any libtheora-dev deb libdevel optional arch=any libtheora-doc deb doc optional arch=all libtheora0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, debconf, libvorbis-dev, valgrind"
+  ],
+  "Uploaders": [
+    "Petter Reinholdtsen \u003cpere@debian.org\u003e, Martin Steghöfer \u003cmartin@steghoefer.eu\u003e, Ralph Giles \u003cgiles@thaumas.net\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/libtheora"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/libtheora.git"
+  ],
+  "Version": [
+    "1.1.1+dfsg.1-16.1+deb12u1"
+  ]
+}

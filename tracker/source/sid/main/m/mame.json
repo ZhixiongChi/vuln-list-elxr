@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "mame, mame-data, mame-tools, mame-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), binutils-gold [arm64], dpkg-dev (\u003e= 1.17), libasio-dev (\u003e= 1.20), libexpat1-dev, libflac-dev, libfontconfig-dev, libglm-dev, libjpeg-dev, libportmidi-dev [linux-any], libpugixml-dev, libsdl2-dev, libsdl2-ttf-dev, libsqlite3-dev, libutf8proc-dev, libxinerama-dev, portaudio19-dev, python3-dev, qtbase5-dev, rapidjson-dev (\u003e= 1.0), sphinx-common, zlib1g-dev"
+  ],
+  "Build-Depends-Indep": [
+    "python3-sphinx, python3-sphinxcontrib.svg2pdfconverter, sphinx-rtd-theme-common"
+  ],
+  "Checksums-Sha256": [
+    "9a539bc73ead341ed157cf79e650a088a229d2eafd9259287c28ce5277b9881e 2586 mame_0.280+dfsg.1-2.dsc e6ab1df1ff29a3d7aa932e5e420db62c2534896619112138dde6bbe9dfeea1f9 158148412 mame_0.280+dfsg.1.orig.tar.xz 0cdd572f810502519acea13b785cc5bee30a3fbe970a1cfed1afb639b7797a34 69160 mame_0.280+dfsg.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mame"
+  ],
+  "Files": [
+    "a39f89171ab27e21d8b99b97e1eec818 2586 mame_0.280+dfsg.1-2.dsc ee0b9baa833484ff0bfe167acc45935b 158148412 mame_0.280+dfsg.1.orig.tar.xz 52f1f04b43e2e4b085d93204d146db59 69160 mame_0.280+dfsg.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://mamedev.org/"
+  ],
+  "Maintainer": [
+    "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "mame"
+  ],
+  "Package-List": [
+    "mame deb games optional arch=any mame-data deb games optional arch=all mame-doc deb doc optional arch=all mame-tools deb utils optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Cesare Falco \u003cc.falco@ubuntu.com\u003e, Emmanuel Kasper \u003cemmanuel@libera.cc\u003e, Jordi Mallach \u003cjordi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/games-team/mame"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/games-team/mame.git"
+  ],
+  "Version": [
+    "0.280+dfsg.1-2"
+  ]
+}

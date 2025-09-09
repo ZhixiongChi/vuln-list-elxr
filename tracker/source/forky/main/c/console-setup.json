@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "keyboard-configuration, console-setup, console-setup-mini, console-setup-linux, bdf2psf, console-setup-udeb, console-setup-amiga-ekmap, console-setup-ataritt-ekmap, console-setup-pc-ekmap, console-setup-sun4-ekmap, console-setup-sun5-ekmap, console-setup-linux-fonts-udeb, console-setup-linux-charmaps-udeb"
+  ],
+  "Build-Depends": [
+    "perl, debhelper (\u003e= 9.20160709), po-debconf, libxml-parser-perl, bdfresize, liblocale-gettext-perl, unifont, unifont-bin, otf2bdf, fonts-dejavu-mono"
+  ],
+  "Build-Depends-Indep": [
+    "xkb-data (\u003e= 1.6), locales-all, sharutils"
+  ],
+  "Checksums-Sha256": [
+    "688fcff7a9a50bc59534e8b914e33fe231491839a3f80690dd676432d82c3191 2848 console-setup_1.242.dsc 5d4e5f14a54aa99044bad5c137446ee21097d8342197fdaa655d74408c507caf 3888036 console-setup_1.242.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/console-setup"
+  ],
+  "Files": [
+    "1de3e2f50d864d82db3aa1d2a57d28c6 2848 console-setup_1.242.dsc c45a7ef3ec58f6980b6b3ce101efc24f 3888036 console-setup_1.242.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian Install System Team \u003cdebian-boot@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "console-setup"
+  ],
+  "Package-List": [
+    "bdf2psf deb utils optional arch=all console-setup deb utils optional arch=all console-setup-amiga-ekmap udeb debian-installer optional arch=all console-setup-ataritt-ekmap udeb debian-installer optional arch=all console-setup-linux deb utils optional arch=all console-setup-linux-charmaps-udeb udeb debian-installer optional arch=all console-setup-linux-fonts-udeb udeb debian-installer optional arch=all console-setup-mini deb utils optional arch=all console-setup-pc-ekmap udeb debian-installer optional arch=all console-setup-sun4-ekmap udeb debian-installer optional arch=all console-setup-sun5-ekmap udeb debian-installer optional arch=all console-setup-udeb udeb debian-installer optional arch=all keyboard-configuration deb utils optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "3.9.1"
+  ],
+  "Uploaders": [
+    "Anton Zinoviev \u003czinoviev@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/installer-team/console-setup"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/installer-team/console-setup.git"
+  ],
+  "Version": [
+    "1.242"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-actix-rt-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.70) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-actix-macros-0.2+default-dev (\u003e= 0.2.3-~~) \u003c!nocheck\u003e, librust-futures-core-0.3-dev \u003c!nocheck\u003e, librust-tokio-1+default-dev (\u003e= 1.23.1-~~) \u003c!nocheck\u003e, librust-tokio-1+net-dev (\u003e= 1.23.1-~~) \u003c!nocheck\u003e, librust-tokio-1+parking-lot-dev (\u003e= 1.23.1-~~) \u003c!nocheck\u003e, librust-tokio-1+rt-dev (\u003e= 1.23.1-~~) \u003c!nocheck\u003e, librust-tokio-1+signal-dev (\u003e= 1.23.1-~~) \u003c!nocheck\u003e, librust-tokio-1+sync-dev (\u003e= 1.23.1-~~) \u003c!nocheck\u003e, librust-tokio-1+time-dev (\u003e= 1.23.1-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "fbfdea86866accc93035854274565c1823765657bee28f7d0ea312c0f42cb671 2823 rust-actix-rt_2.10.0-1.dsc 166a282b7c1f3dc70dccfd33b8a69cc97a38ba72b004a6efb51981a699f69a6f 22074 rust-actix-rt_2.10.0.orig.tar.gz 86cac10c46ccf1696db35a5c73df0d86f598e020416c29189aff4d1176c7072c 3692 rust-actix-rt_2.10.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-actix-rt"
+  ],
+  "Files": [
+    "f20e7d3c37661a04d3d6ad6816ee42e7 2823 rust-actix-rt_2.10.0-1.dsc 4b8352b165c4feaa407eac778b2f1370 22074 rust-actix-rt_2.10.0.orig.tar.gz f50881480fb4ef5d315a82add09c02ac 3692 rust-actix-rt_2.10.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://actix.rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-actix-rt"
+  ],
+  "Package-List": [
+    "librust-actix-rt-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-tokio-1+default-dev, librust-tokio-1+full-dev, rustc"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e, Alexander Kjäll \u003calexander.kjall@gmail.com\u003e, kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/actix-rt"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/actix-rt]"
+  ],
+  "Version": [
+    "2.10.0-1"
+  ]
+}

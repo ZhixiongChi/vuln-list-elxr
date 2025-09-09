@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libghc-copilot-interpreter-dev, libghc-copilot-interpreter-prof, libghc-copilot-interpreter-doc"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10), haskell-devscripts-minimal | haskell-devscripts (\u003e= 0.13), cdbs, ghc (\u003e= 9.4), ghc-prof, libghc-copilot-core-dev (\u003e= 4.5), libghc-copilot-core-dev (\u003c\u003c 4.6), libghc-copilot-core-prof, libghc-quickcheck2-dev, libghc-quickcheck2-prof, libghc-copilot-prettyprinter-dev, libghc-copilot-prettyprinter-prof, libghc-test-framework-dev, libghc-test-framework-prof, libghc-test-framework-quickcheck2-dev, libghc-test-framework-quickcheck2-prof"
+  ],
+  "Build-Depends-Indep": [
+    "ghc-doc, libghc-copilot-core-doc, libghc-quickcheck2-doc, libghc-test-framework-doc, libghc-test-framework-quickcheck2-doc"
+  ],
+  "Checksums-Sha256": [
+    "69d8f02eaab148c3e8930666d959265b5c6c79379bdf9e75611fe9b22224aa65 2941 haskell-copilot-interpreter_4.5-1.dsc 76d263714848881aad3c45462b497cb5fa6828b70ac2c6026defae036237b42d 14981 haskell-copilot-interpreter_4.5.orig.tar.gz 9cbbe289dad4955ec628f5ad4fa56682314e1939ddceef20528a1e80dc1d185f 2652 haskell-copilot-interpreter_4.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/haskell-copilot-interpreter"
+  ],
+  "Files": [
+    "8038c319093e05c24b22cd41127fa1d9 2941 haskell-copilot-interpreter_4.5-1.dsc 79220baf061a5adac97bc16b3c01f85f 14981 haskell-copilot-interpreter_4.5.orig.tar.gz d66b3299c7860925dd85dcf9aa9d4eeb 2652 haskell-copilot-interpreter_4.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://copilot-language.github.io"
+  ],
+  "Maintainer": [
+    "Debian Haskell Group \u003cpkg-haskell-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "haskell-copilot-interpreter"
+  ],
+  "Package-List": [
+    "libghc-copilot-interpreter-dev deb haskell optional arch=any libghc-copilot-interpreter-doc deb doc optional arch=all libghc-copilot-interpreter-prof deb haskell optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Uploaders": [
+    "Scott Talbert \u003cswt@techie.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-copilot-interpreter"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-copilot-interpreter]"
+  ],
+  "Version": [
+    "4.5-1"
+  ]
+}

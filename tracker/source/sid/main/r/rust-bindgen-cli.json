@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "bindgen"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native, rustc:native (\u003e= 1.70.0), libstd-rust-dev, librust-bindgen-0.72+--cli-dev (\u003e= 0.72.1-~~), librust-bindgen-0.72+experimental-dev (\u003e= 0.72.1-~~), librust-bindgen-0.72+logging-dev (\u003e= 0.72.1-~~), librust-bindgen-0.72+prettyplease-dev (\u003e= 0.72.1-~~), librust-bindgen-0.72+runtime-dev (\u003e= 0.72.1-~~), librust-env-logger-0.11+default-dev, librust-log-0.4+default-dev, librust-proc-macro2-1+default-dev (\u003e= 1.0.80-~~), librust-shlex-1+default-dev"
+  ],
+  "Checksums-Sha256": [
+    "56823882e48ceaa298a0067fbaa44cf3ad39de8cfddc0f1142e991492752f3c3 1956 rust-bindgen-cli_0.72.1-1.dsc 8a408c0fcb20bf7bd4ceaf4bf990e223e3543a04b84d2394f3edeee29a0e87e2 8668 rust-bindgen-cli_0.72.1.orig.tar.gz c3d4454aea1462cc6b4f1c9b40b017af4610415c42c4fe99b5fd0d60d379b6a6 3624 rust-bindgen-cli_0.72.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-bindgen-cli"
+  ],
+  "Files": [
+    "684e6aa8b4b360065dc18a8b5c39e8c6 1956 rust-bindgen-cli_0.72.1-1.dsc ae020b42d422bc1d29b2b604072c1f77 8668 rust-bindgen-cli_0.72.1.orig.tar.gz 61a2264058515eba395381bdaa95efdb 3624 rust-bindgen-cli_0.72.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://rust-lang.github.io/rust-bindgen/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-bindgen-cli"
+  ],
+  "Package-List": [
+    "bindgen deb utils optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e, NoisyCoil \u003cnoisycoil@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bindgen-cli"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/bindgen-cli]"
+  ],
+  "Version": [
+    "0.72.1-1"
+  ]
+}

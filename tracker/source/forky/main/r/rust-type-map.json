@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-type-map-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-rustc-hash-2+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "4a9d5e17a47ec7729267ea60ec924e09bc37034df2a1d112eb31c0be6a5a5303 2229 rust-type-map_0.5.1-1.dsc cb30dbbd9036155e74adad6812e9898d03ec374946234fbcebd5dfc7b9187b90 8606 rust-type-map_0.5.1.orig.tar.gz 420f188fd62f98a0bea01dfa40e57f7b436b65781c83a078b5048362db0e5278 2704 rust-type-map_0.5.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-type-map"
+  ],
+  "Files": [
+    "a5e2f78d99d70482642d8664072a5c3e 2229 rust-type-map_0.5.1-1.dsc a0ca56df32f41ed0f81f997a80e783ff 8606 rust-type-map_0.5.1.orig.tar.gz 12ae19ea0fa44bd749a2a05c4be0b191 2704 rust-type-map_0.5.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/kardeiz/type-map"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-type-map"
+  ],
+  "Package-List": [
+    "librust-type-map-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/type-map"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/type-map]"
+  ],
+  "Version": [
+    "0.5.1-1"
+  ]
+}

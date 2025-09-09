@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "amd64 arm64 armhf i386 powerpc ppc64el ppc64 kfreebsd-i386 kfreebsd-amd64 mips64el riscv64 sparc64 s390x"
+  ],
+  "Binary": [
+    "libopenblas0, libopenblas0-pthread, libopenblas0-openmp, libopenblas0-serial, libopenblas-base, libopenblas-dev, libopenblas-pthread-dev, libopenblas-openmp-dev, libopenblas-serial-dev, libopenblas64-0, libopenblas64-0-pthread, libopenblas64-0-openmp, libopenblas64-0-serial, libopenblas64-dev, libopenblas64-pthread-dev, libopenblas64-openmp-dev, libopenblas64-serial-dev, libjulia-openblas64"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gfortran, liblapack-dev (\u003e= 3.9.0-3~), liblapack64-dev (\u003e= 3.9.0-3~) [amd64 arm64 ppc64el ppc64 kfreebsd-amd64 mips64el riscv64 sparc64 s390x]"
+  ],
+  "Checksums-Sha256": [
+    "4fd7c804bc19ea0a2b6452558d2b8d3d66f0ec5624b5a51681b7509be2c3ea7f 5075 openblas_0.3.13+ds-3+deb11u1.dsc 4cc8fe4b324c1a051d06b9ebbaf1ac49a434c7ae7a193a72530e7b41b98ad11c 1694132 openblas_0.3.13+ds.orig.tar.xz a53da98486d5040ac89564fc2c07de336c455a6dbc34d7550c6d448ceb3edbd0 24772 openblas_0.3.13+ds-3+deb11u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/openblas"
+  ],
+  "Files": [
+    "7698e2361c891bdee030677562ab6195 5075 openblas_0.3.13+ds-3+deb11u1.dsc c89a0267d7801240a3b16b0141c89be6 1694132 openblas_0.3.13+ds.orig.tar.xz 7a513706f0a1a287c248cb72a944a58f 24772 openblas_0.3.13+ds-3+deb11u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.openblas.net/"
+  ],
+  "Maintainer": [
+    "Debian Science Team \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "openblas"
+  ],
+  "Package-List": [
+    "libjulia-openblas64 deb libs optional arch=amd64,arm64,ppc64el libopenblas-base deb oldlibs optional arch=amd64,arm64,armhf,i386,powerpc,ppc64el,ppc64,kfreebsd-i386,kfreebsd-amd64,mips64el,riscv64,sparc64,s390x libopenblas-dev deb metapackages optional arch=amd64,arm64,armhf,i386,powerpc,ppc64el,ppc64,kfreebsd-i386,kfreebsd-amd64,mips64el,riscv64,sparc64,s390x libopenblas-openmp-dev deb libdevel optional arch=amd64,arm64,armhf,i386,powerpc,ppc64el,ppc64,kfreebsd-i386,kfreebsd-amd64,mips64el,riscv64,sparc64,s390x libopenblas-pthread-dev deb libdevel optional arch=amd64,arm64,armhf,i386,powerpc,ppc64el,ppc64,kfreebsd-i386,kfreebsd-amd64,mips64el,riscv64,sparc64,s390x libopenblas-serial-dev deb libdevel optional arch=amd64,arm64,armhf,i386,powerpc,ppc64el,ppc64,kfreebsd-i386,kfreebsd-amd64,mips64el,riscv64,sparc64,s390x libopenblas0 deb metapackages optional arch=amd64,arm64,armhf,i386,powerpc,ppc64el,ppc64,kfreebsd-i386,kfreebsd-amd64,mips64el,riscv64,sparc64,s390x libopenblas0-openmp deb libs optional arch=amd64,arm64,armhf,i386,powerpc,ppc64el,ppc64,kfreebsd-i386,kfreebsd-amd64,mips64el,riscv64,sparc64,s390x libopenblas0-pthread deb libs optional arch=amd64,arm64,armhf,i386,powerpc,ppc64el,ppc64,kfreebsd-i386,kfreebsd-amd64,mips64el,riscv64,sparc64,s390x libopenblas0-serial deb libs optional arch=amd64,arm64,armhf,i386,powerpc,ppc64el,ppc64,kfreebsd-i386,kfreebsd-amd64,mips64el,riscv64,sparc64,s390x libopenblas64-0 deb metapackages optional arch=amd64,arm64,kfreebsd-amd64,ppc64,ppc64el,mips64el,riscv64,sparc64,s390x libopenblas64-0-openmp deb libs optional arch=amd64,arm64,kfreebsd-amd64,ppc64,ppc64el,mips64el,riscv64,sparc64,s390x libopenblas64-0-pthread deb libs optional arch=amd64,arm64,kfreebsd-amd64,ppc64,ppc64el,mips64el,riscv64,sparc64,s390x libopenblas64-0-serial deb libs optional arch=amd64,arm64,kfreebsd-amd64,ppc64,ppc64el,mips64el,riscv64,sparc64,s390x libopenblas64-dev deb metapackages optional arch=amd64,arm64,kfreebsd-amd64,ppc64,ppc64el,mips64el,riscv64,sparc64,s390x libopenblas64-openmp-dev deb libdevel optional arch=amd64,arm64,kfreebsd-amd64,ppc64,ppc64el,mips64el,riscv64,sparc64,s390x libopenblas64-pthread-dev deb libdevel optional arch=amd64,arm64,kfreebsd-amd64,ppc64,ppc64el,mips64el,riscv64,sparc64,s390x libopenblas64-serial-dev deb libdevel optional arch=amd64,arm64,kfreebsd-amd64,ppc64,ppc64el,mips64el,riscv64,sparc64,s390x"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "devel"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dpkg-dev, gfortran"
+  ],
+  "Uploaders": [
+    "Sébastien Villemot \u003csebastien@debian.org\u003e, Mo Zhou \u003clumin@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/openblas"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/openblas.git"
+  ],
+  "Version": [
+    "0.3.13+ds-3+deb11u1"
+  ]
+}

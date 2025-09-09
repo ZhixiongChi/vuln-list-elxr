@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "firejail, firejail-profiles"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-apparmor, gawk, libapparmor-dev, libselinux1-dev, pkgconf"
+  ],
+  "Checksums-Sha256": [
+    "753bcddcb94a8015f044db5c10d22f229d3c0bcde1145485a97202a709b88c72 2454 firejail_0.9.76-1.dsc 6bfaa57e10897f65cc1183b330974d555669d888d6897c7a8739bb1d334d9e4a 526972 firejail_0.9.76.orig.tar.xz 36b4938d39c5d5a9c663d31e40171d64bc7f13944fe9b3f0e2f3ef946095b7aa 488 firejail_0.9.76.orig.tar.xz.asc 08959965b20fbb99b59a611fa9b3bcb40b36a7beded55db68bc90307665d0201 16372 firejail_0.9.76-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/firejail"
+  ],
+  "Files": [
+    "d363f6763372fb8c35fe1c2c21d8a8b9 2454 firejail_0.9.76-1.dsc 7ed5d25544e23dddb5232a0d0d482025 526972 firejail_0.9.76.orig.tar.xz 419269192ece018b8b1e2a7c38a2d520 488 firejail_0.9.76.orig.tar.xz.asc c228d7cf6ba03a2327d34e99f2a1fb62 16372 firejail_0.9.76-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://firejail.wordpress.com"
+  ],
+  "Maintainer": [
+    "Reiner Herrmann \u003creiner@reiner-h.de\u003e"
+  ],
+  "Package": [
+    "firejail"
+  ],
+  "Package-List": [
+    "firejail deb utils optional arch=linux-any firejail-profiles deb utils optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "bridge-utils, cpio, csh, evince, expect, file, iproute2, iptables, iputils-ping, man-db, net-tools, procps, strace, sudo, transmission-gtk, wget, xserver-xephyr, xterm, xvfb, xzdec, zsh"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/reiner/firejail"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/reiner/firejail.git"
+  ],
+  "Version": [
+    "0.9.76-1"
+  ]
+}

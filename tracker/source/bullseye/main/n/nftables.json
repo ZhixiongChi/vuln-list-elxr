@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "nftables, libnftables-dev, libnftables1, python3-nftables"
+  ],
+  "Build-Depends": [
+    "asciidoc-base, automake, bison, debhelper-compat (= 13), dh-python, docbook-xsl, flex, libgmp-dev, libjansson-dev, libmnl-dev (\u003e= 1.0.4), libnftnl-dev (\u003e= 1.1.9), libeditreadline-dev, libtool (\u003e= 2.2.6), libxtables-dev (\u003e= 1.6.1), python3-all"
+  ],
+  "Checksums-Sha256": [
+    "e661d31e3ef7689c4fbd561d286279fb5c7f21d7a1261d905bcbba1eb48120f1 2515 nftables_0.9.8-3.1+deb11u2.dsc 60fc004656dae4fefc4901c939c9d64120b4dedb49738e420a9a34989f108fe4 879516 nftables_0.9.8.orig.tar.bz2 f25d1c2a6142a58f403dc5880c25d543057e9c63bde1477548395d15ceef9385 27940 nftables_0.9.8-3.1+deb11u2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/nftables"
+  ],
+  "Files": [
+    "19d6e105c2ce25dce60dbeba237b6d12 2515 nftables_0.9.8-3.1+deb11u2.dsc 77bf0bd43e65e92212fc73139a2e47fc 879516 nftables_0.9.8.orig.tar.bz2 8144c8a2a0ad5421148e514ed401a2d6 27940 nftables_0.9.8-3.1+deb11u2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.netfilter.org/"
+  ],
+  "Maintainer": [
+    "Debian Netfilter Packaging Team \u003cpkg-netfilter-team@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "nftables"
+  ],
+  "Package-List": [
+    "libnftables-dev deb libdevel optional arch=linux-any libnftables1 deb libs optional arch=linux-any nftables deb net important arch=linux-any python3-nftables deb python optional arch=linux-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "kmod, systemd"
+  ],
+  "Uploaders": [
+    "Arturo Borrero Gonzalez \u003carturo@debian.org\u003e, Jeremy Sowden \u003cjeremy@azazel.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-netfilter-team/pkg-nftables"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-netfilter-team/pkg-nftables.git"
+  ],
+  "Version": [
+    "0.9.8-3.1+deb11u2"
+  ]
+}

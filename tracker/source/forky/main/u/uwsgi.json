@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "uwsgi, uwsgi-core, uwsgi-dev, uwsgi-emperor, uwsgi-extra, uwsgi-plugin-alarm-curl, uwsgi-plugin-alarm-xmpp, uwsgi-plugin-curl-cron, uwsgi-plugin-emperor-pg, uwsgi-plugin-geoip, uwsgi-plugin-graylog2, uwsgi-plugin-ldap, uwsgi-plugin-router-access, uwsgi-plugin-sqlite3, uwsgi-plugin-xslt, uwsgi-src"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), python3, help2man \u003c!nodoc\u003e, libacl1-dev, libcap-dev [linux-any], libcurl4-openssl-dev, libgeoip-dev, libgloox-dev, libjail-dev [kfreebsd-any], libjansson-dev, libkvm-dev [kfreebsd-any], libldap2-dev, libpam0g-dev, libpcre2-dev, libpq-dev, libsqlite3-dev, libssl-dev, libsystemd-dev [!kfreebsd-any !hurd-any] | libsystemd-journal-dev [!kfreebsd-any !hurd-any], libwrap0-dev, libxml2-dev, libxslt1-dev, libyajl-dev, libyaml-dev, libzmq5-dev | libzmq3-dev [!hurd-any] | libzmq-dev [!kfreebsd-any !hurd-any], shellcheck \u003c!nocheck\u003e, uuid-dev, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "6130026a1f3ef140e37bc86853173d6cff2ba9b08a6892f0c6b9f72bd004b4ad 3636 uwsgi_2.0.29-1.dsc dfec696171b35d7d7a2cb7758186c70629840e2c5d7cdbda0e89791f89d4252e 822186 uwsgi_2.0.29.orig.tar.gz 699cfac8f7360e87500012f938efd712b709fd1e0d9ab75f1d8ebe58f84debc9 57156 uwsgi_2.0.29-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/u/uwsgi"
+  ],
+  "Files": [
+    "80c9fc43f649617a7d259989bfbf220c 3636 uwsgi_2.0.29-1.dsc 3dfdc1766b611af08197463eb41fa411 822186 uwsgi_2.0.29.orig.tar.gz e54f61da7e879a26a737a1df07eb3e2c 57156 uwsgi_2.0.29-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://projects.unbit.it/uwsgi/"
+  ],
+  "Maintainer": [
+    "uWSGI packaging team \u003cpkg-uwsgi-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "uwsgi"
+  ],
+  "Package-List": [
+    "uwsgi deb httpd optional arch=any uwsgi-core deb httpd optional arch=any uwsgi-dev deb libdevel optional arch=any uwsgi-emperor deb httpd optional arch=all uwsgi-extra deb httpd optional arch=all uwsgi-plugin-alarm-curl deb httpd optional arch=any uwsgi-plugin-alarm-xmpp deb httpd optional arch=any uwsgi-plugin-curl-cron deb httpd optional arch=any uwsgi-plugin-emperor-pg deb httpd optional arch=any uwsgi-plugin-geoip deb httpd optional arch=any uwsgi-plugin-graylog2 deb httpd optional arch=any uwsgi-plugin-ldap deb httpd optional arch=any uwsgi-plugin-router-access deb httpd optional arch=any uwsgi-plugin-sqlite3 deb httpd optional arch=any uwsgi-plugin-xslt deb httpd optional arch=any uwsgi-src deb libdevel optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "web"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-requests"
+  ],
+  "Uploaders": [
+    "Jonas Smedegaard \u003cdr@jones.dk\u003e, Alexandre Rossi \u003cniol@zincube.net\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/uwsgi-team/uwsgi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/uwsgi-team/uwsgi.git"
+  ],
+  "Version": [
+    "2.0.29-1"
+  ]
+}

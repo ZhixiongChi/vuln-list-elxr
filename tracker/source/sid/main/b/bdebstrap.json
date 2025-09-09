@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "bdebstrap"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, mypy, pandoc, pylint (\u003e= 2.2.2-2~) | pylint3, python3, python3-ruamel.yaml, python3-setuptools, python3-typeshed"
+  ],
+  "Checksums-Sha256": [
+    "69498b679f884bb61740e48de7c59a37926f601e7f4e4647b70be0fa9b6b1c1e 2424 bdebstrap_0.7.0-2.dsc 31b657c94a0f44d9f8f10c1fc4eba79ed38767af13bf7072f36fdda707e7c0b0 27824 bdebstrap_0.7.0.orig.tar.xz ba0d7541332485d0df1878ec5ad50671d3f223cadb7b6c1c3b44df292ae40606 833 bdebstrap_0.7.0.orig.tar.xz.asc e78bf3f529d580349cddaf0d34d4309161755e1c7e9346e9434545ee96b252a0 9856 bdebstrap_0.7.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/bdebstrap"
+  ],
+  "Files": [
+    "93c5729d2fbad3cacd76840578f5bfcc 2424 bdebstrap_0.7.0-2.dsc bb3ea383eec07c5a6b93b6ed0ab196d9 27824 bdebstrap_0.7.0.orig.tar.xz 4168c20c28fa14f65b95368b1b45a9dd 833 bdebstrap_0.7.0.orig.tar.xz.asc 078100b0151992ed78bac14a743c9334 9856 bdebstrap_0.7.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/bdrung/bdebstrap"
+  ],
+  "Maintainer": [
+    "Benjamin Drung \u003cbdrung@debian.org\u003e"
+  ],
+  "Package": [
+    "bdebstrap"
+  ],
+  "Package-List": [
+    "bdebstrap deb admin optional arch=all"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "debian-archive-keyring, diffoscope-minimal, distro-info-data, dpkg-dev, mypy, pylint, pylint3, python3-setuptools, python3-typeshed, squashfs-tools-ng, ubuntu-keyring"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/bdrung/bdebstrap"
+  ],
+  "Vcs-Git": [
+    "https://github.com/bdrung/bdebstrap.git -b debian/unstable"
+  ],
+  "Version": [
+    "0.7.0-2"
+  ]
+}

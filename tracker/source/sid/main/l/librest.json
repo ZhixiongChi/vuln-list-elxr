@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "librest-1.0-0, librest-dev, gir1.2-rest-1.0, librest-doc, librest-extras-1.0-0, librest-extras-dev, gir1.2-restextras-1.0"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, ca-certificates, gir1.2-gio-2.0-dev, gir1.2-gobject-2.0-dev, gir1.2-soup-3.0-dev, gobject-introspection (\u003e= 1.80), libglib2.0-dev (\u003e= 2.27), libjson-glib-dev, libsoup-3.0-dev, libxml2-dev, meson (\u003e= 0.47)"
+  ],
+  "Build-Depends-Indep": [
+    "gi-docgen"
+  ],
+  "Checksums-Sha256": [
+    "9620f6ac34be442ffd4178b59d450b34cdac0a9d23f2459b388a785979630019 2630 librest_0.10.2-1.dsc 7b6cb912bb3a22cfa7dcf005925dcb62883024db0c09099486e7d6851185c9b8 71936 librest_0.10.2.orig.tar.xz af8461fb1788dd15de04b9a00a170e437183a517e170d5e6a78589c1d68fe293 7316 librest_0.10.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libr/librest"
+  ],
+  "Files": [
+    "18a4575e6a6276fa45162987cc3266bb 2630 librest_0.10.2-1.dsc 32b0ecf86932cd45b4e7078690c8306f 71936 librest_0.10.2.orig.tar.xz 9f027a780d0cfd497afc255cc63ffcfe 7316 librest_0.10.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Projects/Librest"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "librest"
+  ],
+  "Package-List": [
+    "gir1.2-rest-1.0 deb introspection optional arch=any gir1.2-restextras-1.0 deb introspection optional arch=any librest-1.0-0 deb libs optional arch=any librest-dev deb libdevel optional arch=any librest-doc deb doc optional arch=all librest-extras-1.0-0 deb libs optional arch=any librest-extras-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Ying-Chun Liu (PaulLiu) \u003cpaulliu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/librest"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/librest.git"
+  ],
+  "Version": [
+    "0.10.2-1"
+  ]
+}

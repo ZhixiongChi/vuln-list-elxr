@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-lfs-core-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-lazy-regex-3+default-dev (\u003e= 3.4-~~) \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-snafu-0.7+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "0027cea658aa2a69f7ffb68203b5451d7c7106a67bf0e560cc5254d19e3d2635 1722 rust-lfs-core_0.14.1-1.dsc beaf6798456a0d6f7a4ab751e9fbd57162a9965271b71dcf48abde42967f97b6 16814 rust-lfs-core_0.14.1.orig.tar.gz 95fa281f369caf3913f58728e79c034cde51233f90b266dc97cdb4265b95b81d 3104 rust-lfs-core_0.14.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-lfs-core"
+  ],
+  "Files": [
+    "474d690be1f43267c605c3baab62f3af 1722 rust-lfs-core_0.14.1-1.dsc d9687711b60d0363bd3734c5bad50604 16814 rust-lfs-core_0.14.1.orig.tar.gz 7b8c134f7424f5ec9ada28856a5f3ba8 3104 rust-lfs-core_0.14.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://dystroy.org/dysk"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-lfs-core"
+  ],
+  "Package-List": [
+    "librust-lfs-core-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "NoisyCoil \u003cnoisycoil@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/lfs-core"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/lfs-core]"
+  ],
+  "Version": [
+    "0.14.1-1"
+  ]
+}

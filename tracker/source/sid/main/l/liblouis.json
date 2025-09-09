@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "liblouis-dev, liblouis20, liblouis-data, liblouis-bin, python3-louis"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), automake, pkgconf, texinfo, help2man, quilt, libyaml-dev"
+  ],
+  "Build-Depends-Indep": [
+    "dh-python, python3-all:any, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "b928396c0d7e371a3180dbc13649282dd223736af00ac8cc4e7b2382abcbd51c 2366 liblouis_3.35.0-1.dsc f56b21029fe7bea4ec97bdbcfa430e7e8759fccb30ea1f8e1be13c386f5b64c7 17347492 liblouis_3.35.0.orig.tar.gz 4ff4e3a1e0ad1dc47a457df9e9930d6b5b427bb7bf2fa877c6810b94eb4839fd 10992 liblouis_3.35.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libl/liblouis"
+  ],
+  "Files": [
+    "2bc6de12730fc37d28bf584be40021eb 2366 liblouis_3.35.0-1.dsc b02867a1817d16454928ef328f006ae2 17347492 liblouis_3.35.0.orig.tar.gz 975eae85a900295e0d5d7c640dc33011 10992 liblouis_3.35.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://liblouis.org/"
+  ],
+  "Maintainer": [
+    "Debian Accessibility Team \u003cpkg-a11y-devel@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "liblouis"
+  ],
+  "Package-List": [
+    "liblouis-bin deb text optional arch=any liblouis-data deb text optional arch=all liblouis-dev deb libdevel optional arch=any liblouis20 deb libs optional arch=any python3-louis deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Samuel Thibault \u003csthibault@debian.org\u003e, Cyril Brulebois \u003ckibi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/a11y-team/liblouis"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/a11y-team/liblouis.git"
+  ],
+  "Version": [
+    "3.35.0-1"
+  ]
+}

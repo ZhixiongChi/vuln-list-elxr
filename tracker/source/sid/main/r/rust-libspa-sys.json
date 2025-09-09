@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-libspa-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bindgen-0+experimental-dev (\u003e= 0.69-~~) \u003c!nocheck\u003e, librust-bindgen-0+runtime-dev (\u003e= 0.69-~~) \u003c!nocheck\u003e, librust-cc-1+default-dev \u003c!nocheck\u003e, librust-system-deps-7+default-dev \u003c!nocheck\u003e, libpipewire-0.3-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "95317a3b6795089a88f91216266310e58784046c2c7b8b561050df99d7cd9aa0 1826 rust-libspa-sys_0.8.0-7.dsc bf0d9716420364790e85cbb9d3ac2c950bde16a7dd36f3209b7dfdfc4a24d01f 5248 rust-libspa-sys_0.8.0.orig.tar.gz c452d8b7e13c98d55edcd48353a9597adddb26c8fff88784d45bc07610838da7 3720 rust-libspa-sys_0.8.0-7.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-libspa-sys"
+  ],
+  "Files": [
+    "2e829b15906b70a62143de8bf39e7947 1826 rust-libspa-sys_0.8.0-7.dsc 1681a89ed90e1f7edf0a970564abd51d 5248 rust-libspa-sys_0.8.0.orig.tar.gz 5a673cb319c0aa7d412e4a1372718882 3720 rust-libspa-sys_0.8.0-7.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pipewire.org"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-libspa-sys"
+  ],
+  "Package-List": [
+    "librust-libspa-sys-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/libspa-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/libspa-sys]"
+  ],
+  "Version": [
+    "0.8.0-7"
+  ]
+}

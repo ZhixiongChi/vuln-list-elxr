@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-fluent-syntax-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.64.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-memchr-2+default-dev \u003c!nocheck\u003e, librust-thiserror-2+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "042acb97485a0208d09607c4cb0d188c2c775b4b8e7d03265c5aeaa7803ebcb8 2525 rust-fluent-syntax_0.12.0-1.dsc dfa2c560653fa4893aa3d509ce8f1ac0f81e596a4e8c174db481684ca9a31d63 30882 rust-fluent-syntax_0.12.0.orig.tar.gz b828291ed8793ef900673c57951a87464adcd0d3e9422c8d1d0fad6d6a4af484 3284 rust-fluent-syntax_0.12.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-fluent-syntax"
+  ],
+  "Files": [
+    "bfca2515a16fe415998641c1fbf49a78 2525 rust-fluent-syntax_0.12.0-1.dsc b031e460c83faeff166c06072007617e 30882 rust-fluent-syntax_0.12.0.orig.tar.gz 6f10485d3197cb17151e763c19b90930 3284 rust-fluent-syntax_0.12.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.projectfluent.org"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-fluent-syntax"
+  ],
+  "Package-List": [
+    "librust-fluent-syntax-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-criterion-0.5+default-dev, librust-glob-0.3+default-dev, librust-iai-0.1+default-dev, librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-serde-json-1+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/fluent-syntax"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/fluent-syntax]"
+  ],
+  "Version": [
+    "0.12.0-1"
+  ]
+}

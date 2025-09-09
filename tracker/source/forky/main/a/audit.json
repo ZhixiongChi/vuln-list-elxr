@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "auditd, libauparse0t64, libauparse-dev, libaudit1, libaudit-common, libaudit-dev, python3-audit, golang-redhat-audit-dev, audispd-plugins"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), dh-python \u003c!nopython\u003e, libcap-ng-dev, libkrb5-dev, libldap2-dev \u003c!pkg.audit.noldap\u003e, libwrap0-dev, linux-libc-dev (\u003e= 5.9~), python3-all-dev:any \u003c!nopython\u003e, libpython3-all-dev \u003c!nopython\u003e, swig"
+  ],
+  "Build-Depends-Indep": [
+    "golang-any"
+  ],
+  "Checksums-Sha256": [
+    "8260314a8062c988eeffa35d322005f28150275ac8c4bd966b9b7e966992cd13 2405 audit_4.0.5-1.dsc 76159def49df28f50353976bed52801af6039a15bd691e3bb216cb2dcaa78d86 622404 audit_4.0.5.orig.tar.gz 259417850e09ba16dbacd1816e0078c861fde01cbf3e7591d8667caa406fb6a4 19844 audit_4.0.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/audit"
+  ],
+  "Files": [
+    "c438f13e60c8ec448042a5336c876efb 2405 audit_4.0.5-1.dsc f2c059c2aa1fe2a14aaa7433ccc3f2c6 622404 audit_4.0.5.orig.tar.gz 99225fe56594a49241425ca91bd294dc 19844 audit_4.0.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://people.redhat.com/sgrubb/audit/"
+  ],
+  "Maintainer": [
+    "Laurent Bigonville \u003cbigon@debian.org\u003e"
+  ],
+  "Package": [
+    "audit"
+  ],
+  "Package-List": [
+    "audispd-plugins deb admin optional arch=linux-any profile=!pkg.audit.noldap auditd deb admin optional arch=linux-any golang-redhat-audit-dev deb golang optional arch=all libaudit-common deb libs optional arch=all libaudit-dev deb libdevel optional arch=linux-any libaudit1 deb libs optional arch=linux-any libauparse-dev deb libdevel optional arch=linux-any libauparse0t64 deb libs optional arch=linux-any python3-audit deb python optional arch=linux-any profile=!nopython"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config, python3-all"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/audit"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/audit.git"
+  ],
+  "Version": [
+    "1:4.0.5-1"
+  ]
+}

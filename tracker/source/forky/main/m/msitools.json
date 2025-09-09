@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "msitools, wixl, wixl-data, libmsi-1.0-0, libmsi-dev, gir1.2-libmsi-1.0"
+  ],
+  "Build-Depends": [
+    "bats, bison, debhelper-compat (= 13), dh-exec, gir1.2-gio-2.0-dev \u003c!nogir\u003e, gir1.2-glib-2.0-dev \u003c!nogir\u003e, gir1.2-gobject-2.0-dev \u003c!nogir\u003e, gobject-introspection, libgcab-dev, libglib2.0-dev, libgsf-1-dev, libxml2-dev, meson (\u003e= 1.4), valac"
+  ],
+  "Checksums-Sha256": [
+    "a725359351d9aea3b1003c58155ec7b7d1f7148493c666c9853f5a95c42fb3ae 2390 msitools_0.106+repack-2.dsc 3d3f694d38e01586985149be9beff67f6ad6fcee7c954c894b9a12e294be1033 365252 msitools_0.106+repack.orig.tar.xz 6cacadb632dfdd39208057d08bf03dacff18179bf5fd75893cfdd7ff21e22d43 9568 msitools_0.106+repack-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/msitools"
+  ],
+  "Files": [
+    "35daf24a5b1e3706520130ee883be9a4 2390 msitools_0.106+repack-2.dsc 242940d4f137c2e2d24457e9cbea316d 365252 msitools_0.106+repack.orig.tar.xz 0c6104333ffbe467eb48b072747bd7ac 9568 msitools_0.106+repack-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/msitools"
+  ],
+  "Maintainer": [
+    "Stephen Kitt \u003cskitt@debian.org\u003e"
+  ],
+  "Package": [
+    "msitools"
+  ],
+  "Package-List": [
+    "gir1.2-libmsi-1.0 deb introspection optional arch=any profile=!nogir libmsi-1.0-0 deb libs optional arch=any libmsi-dev deb libdevel optional arch=any msitools deb utils optional arch=any wixl deb utils optional arch=any profile=!nogir wixl-data deb utils optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/msitools"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/msitools.git"
+  ],
+  "Version": [
+    "0.106+repack-2"
+  ]
+}

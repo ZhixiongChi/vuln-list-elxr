@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-mkdocs-test"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3, python3-bs4, python3-markdown, python3-pandas, python3-pytest \u003c!nocheck\u003e, python3-rich, python3-setuptools, python3-setuptools-scm, python3-super-collections, python3-yaml"
+  ],
+  "Checksums-Sha256": [
+    "913d79a805d60e897effeef255dfa183d84e2768c0bf8c81cca1ed55426d9262 2766 mkdocs-test_0.5.6-1.dsc 5afe8ed4cc63fdc779ad29493e728610b49739836dca903fbc8df49d7d395e61 187693 mkdocs-test_0.5.6.orig.tar.gz 7b1296b5b5a92afd4064d12219ee73565f3cd910d15a02c613cbe95e843d7ffc 2404 mkdocs-test_0.5.6-1.debian.tar.xz"
+  ],
+  "Description": [
+    "Testing framework for MkDocs projects The purpose of Mkdocs-Test is to facilitate the comparison of source pages (Markdown files) and destination pages (HTML) in an MkDocs project. . MkDocs-Test is a framework composed of two parts: - an MkDocs plugin (test): it creates a __test__ directory, which contains the data necessary to map the pages of the website. - a framework for conducting the test. The DocProject class groups together all the information necessary for the tests on a specific MkDocs project."
+  ],
+  "Directory": [
+    "pool/main/m/mkdocs-test"
+  ],
+  "Files": [
+    "9b5261f298fa5d4cf7133db5060b3188 2766 mkdocs-test_0.5.6-1.dsc 79e57fb2f534328443ceeb89ff29caa4 187693 mkdocs-test_0.5.6.orig.tar.gz 5bf294e39d2b319674a62dcfc146c318 2404 mkdocs-test_0.5.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/fralau/mkdocs-test"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "mkdocs-test"
+  ],
+  "Package-List": [
+    "python3-mkdocs-test deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
+  "Uploaders": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/mkdocs-test"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/mkdocs-test.git"
+  ],
+  "Version": [
+    "0.5.6-1"
+  ]
+}

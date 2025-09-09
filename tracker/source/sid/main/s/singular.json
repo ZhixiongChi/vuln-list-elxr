@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "singular, libsingular4m4n1, libsingular4-dev, libsingular4-dev-common, singular-modules, singular-data, singular-ui, singular-ui-emacs, singular-ui-xterm, singular-doc, singular-dev-doc"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 12), autoconf-archive (\u003e= 20160320), bison, libtool, help2man, libreadline-dev, libgmp-dev, libmpfr-dev, libglpk-dev, libcdd-dev, libflint-dev (\u003e\u003e 3.1.2-1~), libntl-dev, graphviz, 4ti2, normaliz (\u003e\u003e 3.10.2+ds-2~), surf-alggeo, topcom, python3"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, rdfind, symlinks"
+  ],
+  "Checksums-Sha256": [
+    "943fb70387787c6536a27250acd06786ab0280050f6101169b791e7158d6ffdf 3604 singular_4.4.1-p3+ds-1.dsc 6efaa1ab0bb157961206108d4f4a4c6e5c42e5bb763ecb66b27356661656141a 17904104 singular_4.4.1-p3+ds.orig.tar.xz d198d91f7e612d02aadf9c5a76371fc824e91bbfddfa887b13de5a52477c7fb8 24424 singular_4.4.1-p3+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/singular"
+  ],
+  "Files": [
+    "919bdcfabdc40c8a2b6eee9796b3b95a 3604 singular_4.4.1-p3+ds-1.dsc bb4a7bf9a31af74f173eb68bf19d9bcc 17904104 singular_4.4.1-p3+ds.orig.tar.xz f144a49273d674e74b7164fcd6252ab7 24424 singular_4.4.1-p3+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.singular.uni-kl.de/"
+  ],
+  "Maintainer": [
+    "Debian Math Team \u003cteam+math@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "singular"
+  ],
+  "Package-List": [
+    "libsingular4-dev deb libdevel optional arch=any libsingular4-dev-common deb libdevel optional arch=all libsingular4m4n1 deb libs optional arch=any singular deb math optional arch=any singular-data deb math optional arch=all singular-dev-doc deb doc optional arch=all singular-doc deb doc optional arch=all singular-modules deb libs optional arch=any singular-ui deb math optional arch=any singular-ui-emacs deb math optional arch=any singular-ui-xterm deb math optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Jerome Benoit \u003ccalculus@rezozer.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/math-team/singular"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/math-team/singular.git"
+  ],
+  "Version": [
+    "1:4.4.1-p3+ds-1"
+  ]
+}

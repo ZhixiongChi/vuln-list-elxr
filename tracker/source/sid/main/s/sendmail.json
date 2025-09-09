@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "sendmail-bin, rmail, sensible-mda, libmilter1.0.1, libmilter-dev, sendmail-doc, sendmail, sendmail-base, sendmail-cf"
+  ],
+  "Build-Conflicts": [
+    "bind-dev, fakeroot (\u003c\u003c 0.4.5), libbind-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), make (\u003e\u003e 3.79.1-14), m4, linux-libc-dev (\u003e= 2.6.21-3) [linux-any], pkgconf, libdb-dev, libnsl-dev, libldap2-dev, libwrap0-dev, liblockfile-dev, libsasl2-dev, libssl-dev"
+  ],
+  "Build-Depends-Indep": [
+    "groff, bsdextrautils"
+  ],
+  "Checksums-Sha256": [
+    "ff8d8b2cbe35373f13a379d066645756275dbb6a45a8e991bb81b78139c51a3d 2569 sendmail_8.18.1-7.dsc cbf1f309c38e4806f7cf3ead24260f17d1fe8fb63256d13edb3cdd1a098f0770 2401566 sendmail_8.18.1.orig.tar.gz 03fa6f044ff34e9e550a20a9e60fc6340d2eedfc78b3b5a835d36e036de5a4de 248576 sendmail_8.18.1-7.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sendmail"
+  ],
+  "Files": [
+    "5036df8427ab751362f5cf1a88f1afbf 2569 sendmail_8.18.1-7.dsc b6b332295b5779036d4c9246f96f673c 2401566 sendmail_8.18.1.orig.tar.gz e1d945282addc821f17c94d171517b8d 248576 sendmail_8.18.1-7.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.sendmail.org"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "sendmail"
+  ],
+  "Package-List": [
+    "libmilter-dev deb libdevel optional arch=any libmilter1.0.1 deb libs optional arch=any rmail deb mail optional arch=any sendmail deb mail optional arch=all sendmail-base deb mail optional arch=all sendmail-bin deb mail optional arch=any sendmail-cf deb mail optional arch=all sendmail-doc deb doc optional arch=all sensible-mda deb mail optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "mail"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/sendmail"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/sendmail.git"
+  ],
+  "Version": [
+    "8.18.1-7"
+  ]
+}

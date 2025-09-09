@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-which-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.70) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-rustix-0.38+fs-dev \u003c!nocheck\u003e, librust-rustix-0.38+std-dev \u003c!nocheck\u003e, librust-xdg-home-1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "554f0a79690f9fdb750beda01f0948533df31a833e992c9347c9af4a2cab9ba0 1722 rust-which_8.0.0-2.dsc d3fabb953106c3c8eea8306e4393700d7657561cb43122571b172bbfb7c7ba1d 26209 rust-which_8.0.0.orig.tar.gz 53e16a66d6bc4c75c35c25326b7530cde2ee8698d70a3d73a4a2ab5c862a8a9e 3880 rust-which_8.0.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-which"
+  ],
+  "Files": [
+    "bfdacfd008341a74397d01f9b332eb99 1722 rust-which_8.0.0-2.dsc 1e7af01b9c4bf3b715e1e609dfe331e7 26209 rust-which_8.0.0.orig.tar.gz 55dc422564bef235e0b66e9cf262e34b 3880 rust-which_8.0.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/harryfei/which-rs.git"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-which"
+  ],
+  "Package-List": [
+    "librust-which-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-tempfile-3+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/which"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/which]"
+  ],
+  "Version": [
+    "8.0.0-2"
+  ]
+}

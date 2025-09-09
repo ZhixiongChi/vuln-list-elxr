@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "initramfs-tools, initramfs-tools-core, initramfs-tools-bin"
+  ],
+  "Build-Depends": [
+    "bash-completion, debhelper-compat (= 13), shunit2 \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "0b10ea0c5b827cc521cf4d72f2d2135b52ed4a496acc1d60ca00efaa58d079eb 2140 initramfs-tools_0.150.dsc cf0880c7ba9acf78a62298971194047a94c39481d2906205befa7adc99386893 116008 initramfs-tools_0.150.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/initramfs-tools"
+  ],
+  "Files": [
+    "9a72d13063bebbdc431c7e172380f494 2140 initramfs-tools_0.150.dsc 1333cf92244ac2aca4b958d5563faf02 116008 initramfs-tools_0.150.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian kernel team \u003cdebian-kernel@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "initramfs-tools"
+  ],
+  "Package-List": [
+    "initramfs-tools deb utils optional arch=all initramfs-tools-bin deb utils optional arch=any initramfs-tools-core deb utils optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "busybox, busybox-initramfs, bzip2, dnsmasq, e2fsprogs, genext2fs, iproute2, ipxe-qemu, klibc-utils, linux-image-generic, lz4, lzop, open-iscsi, procps, python3, qemu-efi-aarch64, qemu-efi-arm, qemu-system-native, seabios, tgt, xz-utils, zstd"
+  ],
+  "Uploaders": [
+    "Michael Prokop \u003cmika@debian.org\u003e, Ben Hutchings \u003cbenh@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/kernel-team/initramfs-tools"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/kernel-team/initramfs-tools.git"
+  ],
+  "Version": [
+    "0.150"
+  ]
+}

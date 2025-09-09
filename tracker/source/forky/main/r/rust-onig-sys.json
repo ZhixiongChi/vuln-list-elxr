@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-onig-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.70.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bindgen-0+default-dev \u003c!nocheck\u003e, librust-cc-1+default-dev \u003c!nocheck\u003e, librust-pkg-config-0.3+default-dev (\u003e= 0.3.16-~~) \u003c!nocheck\u003e, libonig-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "7632ae4a474960b5a8a01723d1f16e013086ed2e0a6c5e45d57d4b5e0ed6eb88 2430 rust-onig-sys_69.9.1-1.dsc e2e224cc2d06beaa0c4da7c4551cf52e74da378364b707dc0e8478602bab00a5 16270 rust-onig-sys_69.9.1.orig.tar.gz 0e72eb1a6805de1aa644db6213200b038b26a1a4c85da83abaa7b231fc11d941 4560 rust-onig-sys_69.9.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-onig-sys"
+  ],
+  "Files": [
+    "e79ce7cb6519978270ad4d10aec6bbf7 2430 rust-onig-sys_69.9.1-1.dsc a1abaeeb5e4996a9d2d058f5f3bf532c 16270 rust-onig-sys_69.9.1.orig.tar.gz 9bf733b80a93dfb70d8140f3d3cc3309 4560 rust-onig-sys_69.9.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/iwillspeak/rust-onig"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-onig-sys"
+  ],
+  "Package-List": [
+    "librust-onig-sys-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/onig-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/onig-sys]"
+  ],
+  "Version": [
+    "69.9.1-1"
+  ]
+}

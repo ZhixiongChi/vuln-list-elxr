@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libcdio-cdda-dev, libcdio-cdda2t64, libcdio-paranoia-dev, libcdio-paranoia2t64, cd-paranoia"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dctrl-tools | grep-dctrl, libpopt-dev, libncurses-dev, libcam-dev [kfreebsd-any], libcdio-dev, pkgconf"
+  ],
+  "Checksums-Sha256": [
+    "6d6bce52006fe750592edcfe5e48d8a9181b11341793422a69e43052f4662091 2411 libcdio-paranoia_10.2+2.0.2-2.dsc fe35208811f3edfcb79ae7b4ad1984f3188aea42c4c8ba4d009efafb36734a8b 2296476 libcdio-paranoia_10.2+2.0.2.orig.tar.gz 2e07082436d2c393d30b3d8703e37b451761f4a82a0551ba3aacad0655f1d02a 12820 libcdio-paranoia_10.2+2.0.2-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libc/libcdio-paranoia"
+  ],
+  "Files": [
+    "b7c00b2ba4b4d9da0c23497409fe470f 2411 libcdio-paranoia_10.2+2.0.2-2.dsc 8c62e6db5593f78bb5848b0002bbeb56 2296476 libcdio-paranoia_10.2+2.0.2.orig.tar.gz ac0f7efdec795f0b964af664059a2f87 12820 libcdio-paranoia_10.2+2.0.2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnu.org/software/libcdio/"
+  ],
+  "Maintainer": [
+    "Philippe SWARTVAGHER \u003cphil.swart@gmx.fr\u003e"
+  ],
+  "Package": [
+    "libcdio-paranoia"
+  ],
+  "Package-List": [
+    "cd-paranoia deb sound optional arch=any libcdio-cdda-dev deb libdevel optional arch=any libcdio-cdda2t64 deb libs optional arch=any libcdio-paranoia-dev deb libdevel optional arch=any libcdio-paranoia2t64 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libcdio-paranoia"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libcdio-paranoia.git"
+  ],
+  "Version": [
+    "10.2+2.0.2-2"
+  ]
+}

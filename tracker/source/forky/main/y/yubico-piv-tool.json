@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libykpiv2, libykpiv-dev, ykcs11, yubico-piv-tool"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), check, cmake, gengetopt, help2man, libpcsclite-dev, libssl-dev, pkgconf, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "3b27c9fb54a8beab2c9fe7171acd2c3e659961a96185ebd76177155a7256b85f 2539 yubico-piv-tool_2.7.2-1.dsc 6c8fb3740befaf56d18f887916d07512d0440bef5ee3e5d7780308ed0898335c 1153288 yubico-piv-tool_2.7.2.orig.tar.xz c8c642f31bf6a3606a0b2cfb8bed01c4c2a98bc6b937235b2cf1bf9433f7ff86 66084 yubico-piv-tool_2.7.2-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "7244a947fcf08f20728de671ed14941442f4e087 debian archive/debian/2.7.2-1 https://git.dgit.debian.org/yubico-piv-tool"
+  ],
+  "Directory": [
+    "pool/main/y/yubico-piv-tool"
+  ],
+  "Files": [
+    "48e2846bfca26236c5c9d081859d1de3 2539 yubico-piv-tool_2.7.2-1.dsc cc6022c5227820b51ad99c6b93218532 1153288 yubico-piv-tool_2.7.2.orig.tar.xz c1bb03b69dfed8001b1f6a2d16971b6e 66084 yubico-piv-tool_2.7.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=d1d58ebf110865f29c473720e73114d4704d5965 fp=a3cc9c870b9d310abad4cf2f51722b08fe4745a2"
+  ],
+  "Git-Tag-Tagger": [
+    "Simon Josefsson \u003csimon@josefsson.org\u003e"
+  ],
+  "Homepage": [
+    "https://developers.yubico.com/yubico-piv-tool/"
+  ],
+  "Maintainer": [
+    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "yubico-piv-tool"
+  ],
+  "Package-List": [
+    "libykpiv-dev deb libdevel optional arch=any libykpiv2 deb libs optional arch=any ykcs11 deb libs optional arch=any yubico-piv-tool deb utils optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Patrick Winnertz \u003cwinnie@debian.org\u003e, nicoo \u003cnicoo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/auth-team/yubico-piv-tool"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/auth-team/yubico-piv-tool.git"
+  ],
+  "Version": [
+    "2.7.2-1"
+  ]
+}

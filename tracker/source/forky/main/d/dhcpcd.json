@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "dhcpcd-base, dhcpcd, dhcpcd5"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libssl-dev, libudev-dev [linux-any], pkgconf, systemd-timesyncd [linux-any]"
+  ],
+  "Checksums-Sha256": [
+    "702def3b98c59d44acbc96e2d541f58d874e6557cf8694510f8adf56beecba4f 2372 dhcpcd_10.2.4-4.dsc 6721e606609226dbf4d864a78802a9e96beec0ee034a1bd84138b3e037bba7d9 276444 dhcpcd_10.2.4.orig.tar.xz 78d93e3c07622b6c2f4e34ac3aa72a3929bd934a607402d3e6bd5222eb9a2e99 488 dhcpcd_10.2.4.orig.tar.xz.asc 39189ea092611cda095602be55e45754ad86bc03cc174c8ca6c853d980188653 19600 dhcpcd_10.2.4-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dhcpcd"
+  ],
+  "Files": [
+    "4782a9a6f834241145f10317e51c9167 2372 dhcpcd_10.2.4-4.dsc ce62bc6caf02421ac40135dbb92377b5 276444 dhcpcd_10.2.4.orig.tar.xz 100a92b7fe78c2bf545a619d6cbedda2 488 dhcpcd_10.2.4.orig.tar.xz.asc 654f76b5a47e53a79c0764d9775199c8 19600 dhcpcd_10.2.4-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/NetworkConfiguration/dhcpcd"
+  ],
+  "Maintainer": [
+    "Martin-Éric Racine \u003cmartin-eric.racine@iki.fi\u003e"
+  ],
+  "Package": [
+    "dhcpcd"
+  ],
+  "Package-List": [
+    "dhcpcd deb net optional arch=all dhcpcd-base deb net important arch=any dhcpcd5 deb oldlibs optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "adequate, debhelper, dnsmasq, ethtool, iproute2, systemd-timesyncd"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/dhcpcd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/dhcpcd.git"
+  ],
+  "Version": [
+    "1:10.2.4-4"
+  ]
+}

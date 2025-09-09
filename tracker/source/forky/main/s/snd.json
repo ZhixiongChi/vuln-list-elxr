@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "snd, snd-common, snd-doc, snd-gui-jack, snd-gui-pulse, snd-nox"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13.1), debhelper-compat (= 13), bzip2, ladspa-sdk, libasound2-dev [linux-any], libfftw3-dev, libgl-dev, libglu-dev, libgsl-dev, libjack-dev, libmotif-dev, libmpc-dev, libpulse-dev, libsamplerate0-dev, libxmu-dev, libxpm-dev, libxt-dev, xutils-dev"
+  ],
+  "Checksums-Sha256": [
+    "9edcbe208c4d0ddc6e0455987ccaa4a75e2aa82d6f1cd92e6a329f0794534f77 2664 snd_25.6-1.dsc 43b2632e91b019bdfa6f48161faa8a70cda61333d816ae1e898eff7185be5484 14892626 snd_25.6.orig.tar.gz 8e157566b347f7acd40bddded4ad3c5cb66a761243d93183bc34505b9132235a 90696 snd_25.6-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "67c13ef719366aa215f8a49547775984b1f6210c debian archive/debian/25.6-1 https://git.dgit.debian.org/snd"
+  ],
+  "Directory": [
+    "pool/main/s/snd"
+  ],
+  "Files": [
+    "fb3ee36048d9476401bcbbf5f5813416 2664 snd_25.6-1.dsc d7f6f544d374fcdde476c232564cfc86 14892626 snd_25.6.orig.tar.gz b3f00a4350537a3ed463df8bdfedc684 90696 snd_25.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://ccrma.stanford.edu/software/snd/"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "snd"
+  ],
+  "Package-List": [
+    "snd deb sound optional arch=all snd-common deb sound optional arch=all snd-doc deb doc optional arch=all snd-gui-jack deb sound optional arch=any snd-gui-pulse deb sound optional arch=any snd-nox deb sound optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "sound"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "gcc, libc-dev, libc6-dev, python3-numpy, python3-soundfile"
+  ],
+  "Uploaders": [
+    "IOhannes m zmölnig (Debian/GNU) \u003cumlaeute@debian.org\u003e, Dennis Braun \u003csnd@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/snd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/snd.git"
+  ],
+  "Version": [
+    "25.6-1"
+  ]
+}

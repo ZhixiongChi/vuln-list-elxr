@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-transpose-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-num-integer-0.1-dev \u003c!nocheck\u003e, librust-strength-reduce-0.2+default-dev (\u003e= 0.2.1-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "a07d4864a3f6a3829f78cdb528858c5669039a416dcd5ec942ab075447fa5eca 2341 rust-transpose_0.2.3-1.dsc 1ad61aed86bc3faea4300c7aee358b4c6d0c8d6ccc36524c96e4c92ccf26e77e 10913 rust-transpose_0.2.3.orig.tar.gz 09c31b0898636ad530dac3cf15be6e97ed095cfdd14b722d7f1da4d094245c94 3056 rust-transpose_0.2.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-transpose"
+  ],
+  "Files": [
+    "8bc12cb7479b9b7b669efaeebd37ed4b 2341 rust-transpose_0.2.3-1.dsc 7a09da27776f41e64bc590c0c6aa0549 10913 rust-transpose_0.2.3.orig.tar.gz d7b4d0686977f3c19798274efab78a11 3056 rust-transpose_0.2.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ejmahler/transpose"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-transpose"
+  ],
+  "Package-List": [
+    "librust-transpose-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-criterion-0.5+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/transpose"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/transpose]"
+  ],
+  "Version": [
+    "0.2.3-1"
+  ]
+}

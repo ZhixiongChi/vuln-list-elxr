@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any kfreebsd-any"
+  ],
+  "Binary": [
+    "hostapd, wpagui, wpasupplicant, wpasupplicant-udeb, eapoltest, libwpa-client-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-exec, libdbus-1-dev, libssl-dev, qtbase5-dev \u003c!pkg.wpa.nogui\u003e, libncurses5-dev, libpcsclite-dev, libnl-3-dev (\u003e= 3.4.0~) [linux-any], libnl-genl-3-dev [linux-any], libnl-route-3-dev [linux-any], libpcap-dev [kfreebsd-any], libbsd-dev [kfreebsd-any], libreadline-dev, pkgconf | pkg-config, docbook-to-man, docbook-utils"
+  ],
+  "Checksums-Sha256": [
+    "d1027574f79b98784a1fe0432bf48d9e85fd4e3ba0a4fd126a65f12867b07813 2880 wpa_2.9.0-21+deb11u2.dsc 4032da92d97cb555053d94d514d590d0ce066ca13ba5ef144063450bc56161a7 2347080 wpa_2.9.0.orig.tar.xz 7733b193b5aebd70b9e2799f23658cb2e694ef70f9e7d9fdeeb22f899a3ffd02 100680 wpa_2.9.0-21+deb11u2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/w/wpa"
+  ],
+  "Files": [
+    "db106a30f77dab62be1f3d4ebc271b8a 2880 wpa_2.9.0-21+deb11u2.dsc 132953a85df36d0fca4df129b036ca06 2347080 wpa_2.9.0.orig.tar.xz 57de92cac3423b30ad8c26d4d813debe 100680 wpa_2.9.0-21+deb11u2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://w1.fi/wpa_supplicant/"
+  ],
+  "Maintainer": [
+    "Debian wpasupplicant Maintainers \u003cwpa@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "wpa"
+  ],
+  "Package-List": [
+    "eapoltest deb net optional arch=linux-any,kfreebsd-any hostapd deb net optional arch=linux-any,kfreebsd-any libwpa-client-dev deb libdevel optional arch=linux-any,kfreebsd-any wpagui deb net optional arch=linux-any,kfreebsd-any profile=!pkg.wpa.nogui wpasupplicant deb net optional arch=linux-any,kfreebsd-any wpasupplicant-udeb udeb debian-installer standard arch=linux-any profile=!noudeb"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.4.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential"
+  ],
+  "Uploaders": [
+    "Andrej Shadura \u003candrewsh@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/wpa"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/wpa.git"
+  ],
+  "Version": [
+    "2:2.9.0-21+deb11u2"
+  ]
+}

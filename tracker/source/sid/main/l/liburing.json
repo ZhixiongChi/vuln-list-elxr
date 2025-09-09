@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "liburing2, liburing-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), debhelper (\u003e= 13.10), dpkg-dev (\u003e= 1.22.0), procps \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "bc3a627be30ec5e2d906f32901afbeec927db6ba9da01d430e875235a99f53e9 2391 liburing_2.12-1.dsc 72f7775dbe0aee2cae33222acec17860096787957c905cb1a6fdfe848a25ce16 441846 liburing_2.12.orig.tar.gz ca5abab612f324e9dda1eced7c59fb898dea80dcea3ae84a96b3f8faea44b695 858 liburing_2.12.orig.tar.gz.asc 88fc29aa38bd41bd364312578c169f9a0ea562c8f19da91089336c25cdc590c2 16132 liburing_2.12-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libu/liburing"
+  ],
+  "Files": [
+    "56a5d456237f3ac17c3537560ac121ad 2391 liburing_2.12-1.dsc 6add4e9d9cd7bdf862263db7a22a6274 441846 liburing_2.12.orig.tar.gz 3cbb46d8ea969157b0d245a96cf0b0c8 858 liburing_2.12.orig.tar.gz.asc 7e8b3d9510aabd16fcf99d5373e058ae 16132 liburing_2.12-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/axboe/liburing"
+  ],
+  "Maintainer": [
+    "Guillem Jover \u003cguillem@debian.org\u003e"
+  ],
+  "Package": [
+    "liburing"
+  ],
+  "Package-List": [
+    "liburing-dev deb libdevel optional arch=linux-any liburing2 deb libs optional arch=linux-any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkgconf"
+  ],
+  "Vcs-Browser": [
+    "https://git.hadrons.org/cgit/debian/pkgs/liburing.git"
+  ],
+  "Vcs-Git": [
+    "https://git.hadrons.org/git/debian/pkgs/liburing.git"
+  ],
+  "Version": [
+    "2.12-1"
+  ]
+}

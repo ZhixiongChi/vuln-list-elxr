@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-usgs, python-usgs-doc, usgs"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, python3-all, python3-click, python3-pytest \u003c!nocheck\u003e, python3-requests, python3-requests-futures, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "34cf5368c73741461eed2d09c763d7bda806ea13c4cb57d4f015a39684be0a29 2574 usgs_0.3.6-1.dsc 2ba5c2667e072b4b7365eb16034f009a2840a6123c8ca84038d5ea98bd1ac33b 211909 usgs_0.3.6.orig.tar.gz 003e84264522dea2830542890f1f36c521ddfd052b6da8711dc75a44a35502ce 4308 usgs_0.3.6-1.debian.tar.xz"
+  ],
+  "Description": [
+    "Access the USGS inventory service USGS is a Python module for interfacing with the US Geological Survey's API. It provides submodules to interact with various endpoints, and command line utilities, helpful for building out large pipelines."
+  ],
+  "Directory": [
+    "pool/main/u/usgs"
+  ],
+  "Files": [
+    "fb4be56a16f6d49d672c914e9699e41a 2574 usgs_0.3.6-1.dsc 83b2107551e8b25359b67b22fd666f5e 211909 usgs_0.3.6.orig.tar.gz beefcba02100b58d7cb3fecc86ee9103 4308 usgs_0.3.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/kapadia/usgs"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "usgs"
+  ],
+  "Package-List": [
+    "python-usgs-doc deb doc optional arch=all python3-usgs deb python optional arch=all usgs deb utils optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Antonio Valentino \u003cantonio.valentino@tiscali.it\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/usgs"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/usgs.git"
+  ],
+  "Version": [
+    "0.3.6-1"
+  ]
+}

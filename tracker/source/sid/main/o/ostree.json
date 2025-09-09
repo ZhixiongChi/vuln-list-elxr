@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "gir1.2-ostree-1.0, libostree-1-1, libostree-dev, libostree-doc, ostree, ostree-boot, ostree-tests"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13.11.6~), debhelper-compat (= 13), dh-sequence-gir, attr, autoconf, automake, bison, bsdextrautils \u003c!nocheck\u003e, ca-certificates, cpio, docbook-xml \u003c!nodoc\u003e, docbook-xsl \u003c!nodoc\u003e, elfutils, fuse3:native, gir1.2-gio-2.0-dev, gjs:native [!alpha !armel !hppa !ia64 !m68k !sh4 !sparc64 !x32], gnupg \u003c!nocheck\u003e, gobject-introspection, gobject-introspection (\u003e= 1.78.1-7~) \u003ccross\u003e, gtk-doc-tools \u003c!nodoc\u003e, jq \u003c!nocheck\u003e, libarchive-dev, libattr1-dev, libavahi-client-dev, libavahi-glib-dev, libcap-dev, libcurl4-openssl-dev | libcurl-dev, libext2fs-dev, libfuse3-dev, libglib2.0-dev, libgpgme-dev, liblzma-dev, libmount-dev, libselinux1-dev, libsoup-3.0-dev (\u003e= 3.0.0), libsystemd-dev, libtool, pkgconf, procps, python3 \u003c!nocheck\u003e, python3-yaml \u003c!nocheck\u003e, xsltproc \u003c!nodoc\u003e, zlib1g-dev"
+  ],
+  "Build-Depends-Indep": [
+    "libglib2.0-doc"
+  ],
+  "Checksums-Sha256": [
+    "4128ec1a8de6342d5c7bdd9d0914de39778613fbe4a7326e58e606f775cab6e8 3431 ostree_2025.6-1.dsc 6750627df600f28c8ef2c7f443a9d72aef7061a342cde234162ebdf850a7e575 2133732 ostree_2025.6.orig.tar.xz 40da8a7ec9b4be882c889d4aed7308d1f51b42f3516e6b0c989e5582b59468e3 31468 ostree_2025.6-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "80c117d285fdcce2c5f6e1b230a3ec3344fd279c debian archive/debian/2025.6-1 https://git.dgit.debian.org/ostree"
+  ],
+  "Directory": [
+    "pool/main/o/ostree"
+  ],
+  "Files": [
+    "082178b2b18db1d58ecefaf376e3a037 3431 ostree_2025.6-1.dsc f1f23c887bd8b638d70bce6f0a38691f 2133732 ostree_2025.6.orig.tar.xz 353cfb47b7bdf93afbf4ab9a74f3b6c8 31468 ostree_2025.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ostreedev/ostree/"
+  ],
+  "Maintainer": [
+    "Utopia Maintenance Team \u003cpkg-utopia-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ostree"
+  ],
+  "Package-List": [
+    "gir1.2-ostree-1.0 deb introspection optional arch=linux-any libostree-1-1 deb libs optional arch=linux-any libostree-dev deb libdevel optional arch=linux-any libostree-doc deb doc optional arch=all profile=!nodoc ostree deb admin optional arch=linux-any ostree-boot deb admin optional arch=linux-any ostree-tests deb admin optional arch=linux-any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, gnome-desktop-testing, pkgconf"
+  ],
+  "Uploaders": [
+    "Matthias Klumpp \u003cmak@debian.org\u003e, Simon McVittie \u003csmcv@debian.org\u003e, Sjoerd Simons \u003csjoerd@debian.org\u003e, Dylan Aïssi \u003cdaissi@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/ostree"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/ostree.git"
+  ],
+  "Version": [
+    "2025.6-1"
+  ]
+}

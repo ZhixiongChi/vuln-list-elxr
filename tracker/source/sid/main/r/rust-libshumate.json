@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-libshumate-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo, libshumate-dev, libgirepository1.0-dev, gir-rust-code-generator (\u003e= 0.21), xmlstarlet, libgraphene-1.0-dev"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-gdk-pixbuf-0.21+default-dev \u003c!nocheck\u003e, librust-gdk4-0.10+default-dev \u003c!nocheck\u003e, librust-gio-0.21+default-dev \u003c!nocheck\u003e, librust-glib-0.21+default-dev \u003c!nocheck\u003e, librust-gtk4-0.10+default-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-libshumate-sys-0.7+default-dev \u003c!nocheck\u003e, libshumate-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "9b6c241233e979d974a08eae81b5bbc143d8adce5a660869a44d1c2826587358 2682 rust-libshumate_0.7.0-2.dsc 606b36a3e209108320570eb5878883fded7ae936e9fe4fd7fb78aff5503e0d0f 37649 rust-libshumate_0.7.0.orig.tar.gz d08a25023cebe870956a71f5f5e905276f66dc685af409cf7b66dab2691fd777 4228 rust-libshumate_0.7.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-libshumate"
+  ],
+  "Files": [
+    "33d5f4111644a9a369a5e01d4fa6d08d 2682 rust-libshumate_0.7.0-2.dsc 48e77f84c5c83d2157508a527dc91667 37649 rust-libshumate_0.7.0.orig.tar.gz 78f46ef3209fe1925dcf2c4c95ea8321 4228 rust-libshumate_0.7.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://world.pages.gitlab.gnome.org/Rust/libshumate-rs/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-libshumate"
+  ],
+  "Package-List": [
+    "librust-libshumate-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/libshumate"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/libshumate]"
+  ],
+  "Version": [
+    "0.7.0-2"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-csscolorparser-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-phf-0.11+default-dev \u003c!nocheck\u003e, librust-phf-0.11+macros-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "81ed54b9d56183c9bc69afb96369d051364846c15fcf9855f4abce95e965d9f1 1774 rust-csscolorparser_0.7.2-1.dsc 5fda6aace1fbef3aa217b27f4c8d7d071ef2a70a5ca51050b1f17d40299d3f16 39693 rust-csscolorparser_0.7.2.orig.tar.gz 8ec78e0d0ee49187b64af22c3b7d42dd868bc62fbb92f8088d0600d48818dfe2 2904 rust-csscolorparser_0.7.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-csscolorparser"
+  ],
+  "Files": [
+    "e9e505903adcc08ddbb80e57ac3e47a6 1774 rust-csscolorparser_0.7.2-1.dsc 68c421872424d9513168099d91b0c5a0 39693 rust-csscolorparser_0.7.2.orig.tar.gz 45e8cca577cd8c7b5c5a2d3f76d9da97 2904 rust-csscolorparser_0.7.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/mazznoer/csscolorparser-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-csscolorparser"
+  ],
+  "Package-List": [
+    "librust-csscolorparser-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-serde-test-1+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Suhail P \u003cpsuhailp@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/csscolorparser"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/csscolorparser]"
+  ],
+  "Version": [
+    "0.7.2-1"
+  ]
+}

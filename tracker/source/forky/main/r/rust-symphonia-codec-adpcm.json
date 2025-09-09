@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-symphonia-codec-adpcm-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "de0c91799785c47e3f19cf8f03517275bb0a3d914d67ed4f9353eb0685ee0cfb 2445 rust-symphonia-codec-adpcm_0.5.4-1.dsc c94e1feac3327cd616e973d5be69ad36b3945f16b06f19c6773fc3ac0b426a0f 5248 rust-symphonia-codec-adpcm_0.5.4.orig.tar.gz 8fa6df2449b1f6a00c39abedea3634f3d252d8bcbd6957b4b757f3aeeb897e71 2152 rust-symphonia-codec-adpcm_0.5.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-symphonia-codec-adpcm"
+  ],
+  "Files": [
+    "d2edde66e29d17a34519c88eb019804f 2445 rust-symphonia-codec-adpcm_0.5.4-1.dsc a028f11f4a787d76cb8c3b6e33381f54 5248 rust-symphonia-codec-adpcm_0.5.4.orig.tar.gz 62ac2e0e51982385bb180b584b6dbf95 2152 rust-symphonia-codec-adpcm_0.5.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pdeljanov/Symphonia"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-symphonia-codec-adpcm"
+  ],
+  "Package-List": [
+    "librust-symphonia-codec-adpcm-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/symphonia-codec-adpcm"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/symphonia-codec-adpcm]"
+  ],
+  "Version": [
+    "0.5.4-1"
+  ]
+}

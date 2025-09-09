@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gst-plugin-gtk4-dev, gstreamer1.0-gtk4"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo, quilt, cargo:native, rustc:native (\u003e= 1.71), libstd-rust-dev, librust-async-channel-2+default-dev, librust-gst-plugin-version-helper-0.8+default-dev, librust-gstreamer-0.24+default-dev, librust-gstreamer-0.24+v1-16-dev, librust-gstreamer-base-0.24+default-dev, librust-gstreamer-video-0.24+default-dev, librust-gtk4-0.10+default-dev, librust-once-cell-1+default-dev, cargo-c:native, librust-gdk4-wayland-dev (\u003e= 0.10.0-~~), librust-gdk4-x11-dev (\u003e= 0.10.0-~~), librust-gstreamer-gl-dev (\u003e= 0.24.0-~~), librust-gstreamer-gl-egl-dev (\u003e= 0.24.0-~~), librust-gstreamer-gl-x11-dev (\u003e= 0.24.0-~~), librust-gstreamer-gl-wayland-dev (\u003e= 0.24.0-~~), librust-gstreamer-allocators-dev (\u003e= 0.24.0-~~)"
+  ],
+  "Checksums-Sha256": [
+    "5a1383f3692848acad468e57807ca35e158c4be74d5cf16bb47b52665e325fec 2959 rust-gst-plugin-gtk4_0.14.0-4.dsc 68d208c00b9e913b7f9f040c6a3b741b8723a102e46c677c87d2cc4f033bb853 43477 rust-gst-plugin-gtk4_0.14.0.orig.tar.gz f2c7843ebf6d5d99466b1848f4278098f34fe639f4d42a6261ddb8ee9dc4d0a2 6688 rust-gst-plugin-gtk4_0.14.0-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gst-plugin-gtk4"
+  ],
+  "Files": [
+    "7ffe822de8dd47f132e1bcc2ae129b37 2959 rust-gst-plugin-gtk4_0.14.0-4.dsc dce41329ba20b0fb4ce7471f5443cfcc 43477 rust-gst-plugin-gtk4_0.14.0.orig.tar.gz 9332e94b764a8940d9081defb37a9a1c 6688 rust-gst-plugin-gtk4_0.14.0-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.freedesktop.org/gstreamer/gst-plugins-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gst-plugin-gtk4"
+  ],
+  "Package-List": [
+    "gstreamer1.0-gtk4 deb rust optional arch=any librust-gst-plugin-gtk4-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gst-plugin-gtk4"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gst-plugin-gtk4]"
+  ],
+  "Version": [
+    "0.14.0-4"
+  ]
+}

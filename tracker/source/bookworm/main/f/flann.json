@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libflann-dev, libflann1.9, flann-doc"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), pkg-config, libboost-dev, libboost-mpi-dev, libboost-system-dev, libboost-serialization-dev, libboost-thread-dev, libgtest-dev, libhdf5-mpi-dev, liblz4-dev, mpi-default-dev, latex2html, texlive-binaries, texlive-latex-base"
+  ],
+  "Checksums-Sha256": [
+    "9bb817a55f4a1542b21ecd59d1e8ef69aa64551567e9645ab10120a40504f3b3 2737 flann_1.9.2+dfsg-1+deb12u1.dsc 9ef9e74820c0eb7136200fb7e2e9ac5caff1defe339351b4e8e7aec19bb35de8 27015224 flann_1.9.2+dfsg.orig.tar.xz bbf99a3afa1e0621b13cd4dc536665166fcf7b4bb55ccf318a5a26de7cff707c 7636 flann_1.9.2+dfsg-1+deb12u1.debian.tar.xz"
+  ],
+  "Description": [
+    "Fast Library for Approximate Nearest Neighbors FLANN is a library for performing fast approximate nearest neighbor searches in high dimensional spaces. It contains a collection of algorithms found to work best for nearest neighbor search and a system for automatically choosing the best algorithm and optimum parameters depending on the dataset."
+  ],
+  "Directory": [
+    "pool/main/f/flann"
+  ],
+  "Files": [
+    "5f0032d84262a7654d4be9a32f691937 2737 flann_1.9.2+dfsg-1+deb12u1.dsc e5e84fb40084f4c248fcefce43bb930e 27015224 flann_1.9.2+dfsg.orig.tar.xz 1d66254e31ebaa1466661e2372891133 7636 flann_1.9.2+dfsg-1+deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.cs.ubc.ca/research/flann/"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "flann"
+  ],
+  "Package-List": [
+    "flann-doc deb doc optional arch=all libflann-dev deb libdevel optional arch=any libflann1.9 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Leopold Palomo-Avellaneda \u003cleo@alaxarxa.net\u003e, Jochen Sprickerhof \u003cjspricke@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/flann"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/flann.git"
+  ],
+  "Version": [
+    "1.9.2+dfsg-1+deb12u1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-num-iter-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.31) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-autocfg-1+default-dev \u003c!nocheck\u003e, librust-num-integer-0.1+i128-dev (\u003e= 0.1.46-~~) \u003c!nocheck\u003e, librust-num-integer-0.1+std-dev (\u003e= 0.1.46-~~) \u003c!nocheck\u003e, librust-num-traits-0.2+i128-dev (\u003e= 0.2.11-~~) \u003c!nocheck\u003e, librust-num-traits-0.2+std-dev (\u003e= 0.2.11-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "d8301711bf477ca1c176090096322a826e81990b051a40de502c8e11c2a7dc03 1888 rust-num-iter_0.1.45-1.dsc 1429034a0490724d0075ebb2bc9e875d6503c3cf69e235a8941aa757d83ef5bf 10320 rust-num-iter_0.1.45.orig.tar.gz c271816f297a9dcdd2ac9d0397d0381f91af87690e8ceda0dc614a2936888e61 2872 rust-num-iter_0.1.45-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-num-iter"
+  ],
+  "Files": [
+    "89338ddc5951c05271b330a89605f648 1888 rust-num-iter_0.1.45-1.dsc 0fbab0ba3ce58941898919fa3d0bae4b 10320 rust-num-iter_0.1.45.orig.tar.gz cdd1e4330e2bfb739951c04f66731558 2872 rust-num-iter_0.1.45-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rust-num/num-iter"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-num-iter"
+  ],
+  "Package-List": [
+    "librust-num-iter-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/num-iter"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/num-iter]"
+  ],
+  "Version": [
+    "0.1.45-1"
+  ]
+}

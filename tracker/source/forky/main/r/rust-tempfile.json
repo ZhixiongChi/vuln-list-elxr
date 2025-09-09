@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-tempfile-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.63) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-fastrand-2+default-dev (\u003e= 2.1.1-~~) \u003c!nocheck\u003e, librust-getrandom-0.2-dev \u003c!nocheck\u003e, librust-once-cell-1+std-dev (\u003e= 1.19.0-~~) \u003c!nocheck\u003e, librust-rustix+default-dev (\u003c\u003c 2-~~) \u003c!nocheck\u003e, librust-rustix+default-dev (\u003e= 0.38.37-~~) \u003c!nocheck\u003e, librust-rustix+fs-dev (\u003c\u003c 2-~~) \u003c!nocheck\u003e, librust-rustix+fs-dev (\u003e= 0.38.37-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "eb5b8e35388b4dc993799e7ae50b28c239f47e541061eb167f2ebe232f1203f2 2713 rust-tempfile_3.21.0-1.dsc 15b61f8f20e3a6f7e0649d825294eaf317edce30f82cf6026e7e4cb9222a7d1e 42581 rust-tempfile_3.21.0.orig.tar.gz 6d45a286d5392e7156a24164e89996db45da503712d93914be63cefc0ba30102 4576 rust-tempfile_3.21.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-tempfile"
+  ],
+  "Files": [
+    "be298b833fd53ce9fb28338a528d37bd 2713 rust-tempfile_3.21.0-1.dsc c839c38e2748026419c9297f2706a8dc 42581 rust-tempfile_3.21.0.orig.tar.gz 7a968cd4aac2ac9baf643750cbbe7388 4576 rust-tempfile_3.21.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://stebalien.com/projects/tempfile-rs/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-tempfile"
+  ],
+  "Package-List": [
+    "librust-tempfile-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-doc-comment-0.3+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, Robin Krahl \u003crobin.krahl@ireas.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tempfile"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/tempfile]"
+  ],
+  "Version": [
+    "3.21.0-1"
+  ]
+}

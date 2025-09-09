@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "icinga2, icinga2-common, icinga2-bin, icinga2-doc, icinga2-ido-mysql, icinga2-ido-pgsql, vim-icinga2"
+  ],
+  "Build-Depends": [
+    "bash-completion, bison, cmake, debhelper-compat (= 12), dh-vim-addon, flex, libboost-dev, libboost-context-dev, libboost-coroutine-dev, libboost-filesystem-dev, libboost-iostreams-dev, libboost-program-options-dev, libboost-regex-dev, libboost-system-dev, libboost-test-dev, libboost-thread-dev, libedit-dev, default-libmysqlclient-dev, libpq-dev, libssl-dev, libsystemd-dev, pkg-config, po-debconf, tzdata"
+  ],
+  "Checksums-Sha256": [
+    "efcabe96a5762e9680a86d0507b8443e281bca4e9ba4baf4b0ea00e89a9d3efc 2782 icinga2_2.13.6-2+deb12u2.dsc 11ea79d4d5c9840cfed19e459f2c9c0bd674add67b0ed9160fb3d7ad3e74fbc2 9666870 icinga2_2.13.6.orig.tar.gz 2044bb0b211e8f709688bb92e2deae8c3287e96271d7b91ac0b6556f53581ec8 25216 icinga2_2.13.6-2+deb12u2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/icinga2"
+  ],
+  "Files": [
+    "e6f0c308c7b6185763a80268421ae140 2782 icinga2_2.13.6-2+deb12u2.dsc a4d000936634a961d042fc2b3b08744b 9666870 icinga2_2.13.6.orig.tar.gz 7cf31457b398e474ba8141922361d71d 25216 icinga2_2.13.6-2+deb12u2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://icinga.com"
+  ],
+  "Maintainer": [
+    "Debian Nagios Maintainer Group \u003cpkg-nagios-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "icinga2"
+  ],
+  "Package-List": [
+    "icinga2 deb admin optional arch=any icinga2-bin deb admin optional arch=any icinga2-common deb admin optional arch=all icinga2-doc deb doc optional arch=all icinga2-ido-mysql deb admin optional arch=any icinga2-ido-pgsql deb admin optional arch=any vim-icinga2 deb admin optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Markus Frosch \u003clazyfrosch@debian.org\u003e, Jan Wagner \u003cwaja@cyconet.org\u003e, Alexander Wirt \u003cformorer@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/nagios-team/icinga2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/nagios-team/icinga2.git -b bookworm"
+  ],
+  "Version": [
+    "2.13.6-2+deb12u2"
+  ]
+}

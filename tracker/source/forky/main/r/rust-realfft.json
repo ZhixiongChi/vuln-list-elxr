@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-realfft-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-rustfft-6+default-dev (\u003e= 6.4.0-~~) \u003c!nocheck\u003e, librust-rustfft-6-dev (\u003e= 6.4.0-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "438070bd40e9d2ea336bf89814f3961b5e2c0b80889c77ef892a583ef193bcce 2345 rust-realfft_3.5.0-1.dsc f821338fddb99d089116342c46e9f1fbf3828dba077674613e734e01d6ea8677 16916 rust-realfft_3.5.0.orig.tar.gz 65f8dd985698045c94da71a143ac51d5367a278e0dd6494746e13342821b0abd 3448 rust-realfft_3.5.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-realfft"
+  ],
+  "Files": [
+    "bf3a16e9ce574f4f0e00298c7f1576a9 2345 rust-realfft_3.5.0-1.dsc 4fef202fdbaa00a5f1181afdcee22a73 16916 rust-realfft_3.5.0.orig.tar.gz d85de2bfb0ae9ade8c2511b623f2f62d 3448 rust-realfft_3.5.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/HEnquist/realfft"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-realfft"
+  ],
+  "Package-List": [
+    "librust-realfft-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-criterion-0.5+default-dev, librust-rand-0.8+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/realfft"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/realfft]"
+  ],
+  "Version": [
+    "3.5.0-1"
+  ]
+}

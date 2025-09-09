@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libassimp6, libassimp-dev, libassimp-doc, assimp-utils, python3-pyassimp, assimp-testmodels"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, doxygen \u003c!nodoc\u003e, libboost-dev, libdraco-dev, libminizip-dev, libpugixml-dev, libstb-dev, libutfcpp-dev, pkgconf, rapidjson-dev, zlib1g-dev | libz-dev"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-doxygen \u003c!nodoc\u003e, dh-sequence-python3, python3-all, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "23cd5b2fdae7b084b9066aaf0127da6b52e96f9216f4a0a4c02f83b0d2c83cea 2540 assimp_6.0.2+ds-1.dsc e0d832261d7e5e9e4e81a4669ce8761292731797690e66c8fa163ca880822650 82871980 assimp_6.0.2+ds.orig.tar.xz bec431500ff6d806d63c56b96a206b49b864cec6dba10205cc59405366464d72 38524 assimp_6.0.2+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/assimp"
+  ],
+  "Files": [
+    "6f347215733211c43052962cc5d716cd 2540 assimp_6.0.2+ds-1.dsc 6399983669cf498e7077b7788d36ad7d 82871980 assimp_6.0.2+ds.orig.tar.xz 991420c5ea7f5150c16c0357dc33a886 38524 assimp_6.0.2+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://assimp.org"
+  ],
+  "Maintainer": [
+    "IOhannes m zmölnig (Debian/GNU) \u003cumlaeute@debian.org\u003e"
+  ],
+  "Package": [
+    "assimp"
+  ],
+  "Package-List": [
+    "assimp-testmodels deb graphics optional arch=all assimp-utils deb utils optional arch=any libassimp-dev deb libdevel optional arch=any libassimp-doc deb doc optional arch=all profile=!nodoc libassimp6 deb libs optional arch=any python3-pyassimp deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "graphics"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, cmake, freeglut3-dev, libgl-dev, libgl1-mesa-dev"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/assimp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/assimp.git"
+  ],
+  "Version": [
+    "6.0.2+ds-1"
+  ]
+}

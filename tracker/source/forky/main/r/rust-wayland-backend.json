@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-wayland-backend-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.65) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cc-1+default-dev \u003c!nocheck\u003e, librust-downcast-rs-1+default-dev (\u003e= 1.2-~~) \u003c!nocheck\u003e, librust-rustix-0.38+default-dev \u003c!nocheck\u003e, librust-rustix-0.38+event-dev \u003c!nocheck\u003e, librust-rustix-0.38+fs-dev \u003c!nocheck\u003e, librust-rustix-0.38+net-dev \u003c!nocheck\u003e, librust-rustix-0.38+process-dev \u003c!nocheck\u003e, librust-smallvec-1+const-generics-dev (\u003e= 1.9-~~) \u003c!nocheck\u003e, librust-smallvec-1+const-new-dev (\u003e= 1.9-~~) \u003c!nocheck\u003e, librust-smallvec-1+default-dev (\u003e= 1.9-~~) \u003c!nocheck\u003e, librust-smallvec-1+union-dev (\u003e= 1.9-~~) \u003c!nocheck\u003e, librust-wayland-sys-0.31+default-dev (\u003e= 0.31.7-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "5e3dbdfeb890ad6b6d1e0851cbd222601d5995427bf3999fd57b1f07b5c537e4 3190 rust-wayland-backend_0.3.11-2.dsc 673a33c33048a5ade91a6b139580fa174e19fb0d23f396dca9fa15f2e1e49b35 76980 rust-wayland-backend_0.3.11.orig.tar.gz 9b1e861a491eb27ea161abce4a1ecd1b69590575321b72b13643ca7ad4577047 7236 rust-wayland-backend_0.3.11-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-wayland-backend"
+  ],
+  "Files": [
+    "01b66dbbbfb0e86557463dd5f7eeb0af 3190 rust-wayland-backend_0.3.11-2.dsc 30fc9ab84669f031d2c2da5a2f0a0d50 76980 rust-wayland-backend_0.3.11.orig.tar.gz 18e7292d5212dac1c77745b3d9b9939a 7236 rust-wayland-backend_0.3.11-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/smithay/wayland-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-wayland-backend"
+  ],
+  "Package-List": [
+    "librust-wayland-backend-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-concat-idents-1+default-dev, librust-env-logger-0.11+default-dev, librust-scoped-tls-1+default-dev, librust-wayland-scanner-0.31+default-dev, librust-wayland-sys-0.31+client-dev, librust-wayland-sys-0.31+default-dev, librust-wayland-sys-0.31+server-dev, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cmatthias.geiger1024@tutanota.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/wayland-backend"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/wayland-backend]"
+  ],
+  "Version": [
+    "0.3.11-2"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "postgresql-17-pgrouting, postgresql-17-pgrouting-scripts, postgresql-pgrouting, postgresql-pgrouting-scripts"
+  ],
+  "Build-Depends": [
+    "architecture-is-64-bit \u003c!pkg.postgresql.32-bit\u003e, cmake (\u003e= 3.2), debhelper-compat (= 13), libboost-graph-dev, postgis, postgresql-server-dev-all, rdfind"
+  ],
+  "Checksums-Sha256": [
+    "001f8e5c3decc627785e56e91b235bf53afc3df4b9d1f55222b913f24980f632 2420 pgrouting_3.8.0-1.dsc b8a5f0472934fdf7cda3fb4754d01945378d920cdaddc01f378617ddbb9c447f 3878578 pgrouting_3.8.0.orig.tar.gz 6fa68273990dec071aef7810f1c6a62383dce7e325f9891dc987d53f08a3ed90 16088 pgrouting_3.8.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pgrouting"
+  ],
+  "Files": [
+    "2877ad65b36421e4deec60a7455de8f3 2420 pgrouting_3.8.0-1.dsc eed8fd3987bd8aafb327c8bbe81770be 3878578 pgrouting_3.8.0.orig.tar.gz 67de026c92bb2111f994fa3c69084e71 16088 pgrouting_3.8.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.pgrouting.org"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "pgrouting"
+  ],
+  "Package-List": [
+    "postgresql-17-pgrouting deb misc optional arch=any postgresql-17-pgrouting-scripts deb misc optional arch=all postgresql-pgrouting deb metapackages optional arch=any postgresql-pgrouting-scripts deb metapackages optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "postgresql-server-dev-all"
+  ],
+  "Uploaders": [
+    "Michael Fladischer \u003cfladi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/pgrouting"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/pgrouting.git"
+  ],
+  "Version": [
+    "3.8.0-1"
+  ]
+}

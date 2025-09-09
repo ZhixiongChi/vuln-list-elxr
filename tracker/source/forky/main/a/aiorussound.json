@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-aiorussound"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-poetry-core"
+  ],
+  "Build-Depends-Indep": [
+    "python3-mashumaro \u003c!nocheck\u003e, python3-orjson \u003c!nocheck\u003e, python3-pyserial-asyncio-fast \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "54e4f91ec01074273d05f68fb7b402decad554f5276b12f6c8317cc948f7e4e6 2309 aiorussound_4.8.1-1.dsc b641b01809b1758174f2cd88e46058b671d74cdceb00d5d8fa3f28ce96480561 44141 aiorussound_4.8.1.orig.tar.gz 2457cee2de9ff3e2df356272fd8e3227612976d85d86409a9594847a1fdc6de0 2396 aiorussound_4.8.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/aiorussound"
+  ],
+  "Files": [
+    "ae80064954a1860ad40a3d5d2221b724 2309 aiorussound_4.8.1-1.dsc 2f9c7edcc26c7b069b978e8986a95bf9 44141 aiorussound_4.8.1.orig.tar.gz a30c8cf85ede62bfd617f6ab5c1334be 2396 aiorussound_4.8.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/noahhusby/aiorussound"
+  ],
+  "Maintainer": [
+    "Home Assistant Team \u003cteam+homeassistant@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "aiorussound"
+  ],
+  "Package-List": [
+    "python3-aiorussound deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Edward Betts \u003cedward@4angle.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/homeassistant-team/deps/aiorussound"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/homeassistant-team/deps/aiorussound.git"
+  ],
+  "Version": [
+    "4.8.1-1"
+  ]
+}

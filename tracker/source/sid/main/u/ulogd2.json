@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "ulogd2, ulogd2-dbi, ulogd2-json, ulogd2-mysql, ulogd2-pcap, ulogd2-pgsql, ulogd2-sqlite3"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), default-libmysqlclient-dev, groff, libdbi-dev, libjansson-dev, libmnl-dev, libnetfilter-acct-dev, libnetfilter-conntrack-dev, libnetfilter-log-dev, libnfnetlink-dev, libpcap-dev, libpq-dev, libsqlite3-dev, linuxdoc-tools, pkgconf"
+  ],
+  "Checksums-Sha256": [
+    "529d2b33fdfe64df0891ef467e446c470466af37292caeba9800a220142d09cb 2816 ulogd2_2.0.9-1.dsc 523a651fe0a9f25b0cd87d5d35fc37d9382e7eecfcf61e48d5505ff3cf80eda5 344296 ulogd2_2.0.9.orig.tar.xz aee739d8ca72e8625a0fc47df72f11664ad6a47bec7223698534232a438183ab 833 ulogd2_2.0.9.orig.tar.xz.asc 8ddd2058da9166979cc65e14fd317219f1865557e7873154a42f2c4fe45569ca 15680 ulogd2_2.0.9-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/u/ulogd2"
+  ],
+  "Files": [
+    "8199cec19c8fba93d92f9a73b22fc3bc 2816 ulogd2_2.0.9-1.dsc bf46da06acd7f1444687ea59b5469949 344296 ulogd2_2.0.9.orig.tar.xz eafa2dfe46fa0230a6eb91a9ccfb3b3e 833 ulogd2_2.0.9.orig.tar.xz.asc 2a9532a4c1a546a0d5fc887e72b8187e 15680 ulogd2_2.0.9-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.netfilter.org/projects/ulogd/"
+  ],
+  "Maintainer": [
+    "Debian Netfilter Packaging Team \u003cteam+pkg-netfilter-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "ulogd2"
+  ],
+  "Package-List": [
+    "ulogd2 deb net optional arch=linux-any ulogd2-dbi deb net optional arch=linux-any ulogd2-json deb net optional arch=linux-any ulogd2-mysql deb net optional arch=linux-any ulogd2-pcap deb net optional arch=linux-any ulogd2-pgsql deb net optional arch=linux-any ulogd2-sqlite3 deb net optional arch=linux-any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Chris Boot \u003cbootc@debian.org\u003e, Jeremy Sowden \u003cazazel@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-netfilter-team/ulogd2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-netfilter-team/ulogd2.git"
+  ],
+  "Version": [
+    "2.0.9-1"
+  ]
+}

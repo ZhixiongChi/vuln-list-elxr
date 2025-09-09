@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-rpyc, python3-rpyc-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, dh-sequence-python3, dh-sequence-sphinxdoc, pybuild-plugin-pyproject, python3-all, python3-hatchling, python3-plumbum, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "2680d05df324921201b02813daee7f80ff09579ee8b03030ba80406df3a44ef2 2794 rpyc_6.0.2-1.dsc 8395a9cc3a213ac4ff9952691036a0a52d36f4585a2ac8aaa8894aedd05e81a6 1274507 rpyc_6.0.2.orig.tar.gz 217bac26dd1e0c54c9bd13c031c4cb22e0646cca67abbb1363029472bc1d51fb 6884 rpyc_6.0.2-1.debian.tar.xz"
+  ],
+  "Description": [
+    "Python 3 library for remote procedure calls RPyC (pronounced as are-pie-see), or Remote Python Call, is a transparent Python library for symmetrical remote procedure calls, clustering and distributed-computing. RPyC makes use of object-proxying, a technique that employs Python’s dynamic nature, to overcome the physical boundaries between processes and computers, so that remote objects can be manipulated as if they were local."
+  ],
+  "Dgit": [
+    "c2dacc083bdf2039a270e5f70e3f4ff219ae0a76 debian archive/debian/6.0.2-1 https://git.dgit.debian.org/rpyc"
+  ],
+  "Directory": [
+    "pool/main/r/rpyc"
+  ],
+  "Files": [
+    "d872a962659b43f72c31b77291eb68c9 2794 rpyc_6.0.2-1.dsc 3514a3de1f304c00d103d1c26aabd1ce 1274507 rpyc_6.0.2.orig.tar.gz 9c8c5b45d62190c460875dc099c440b1 6884 rpyc_6.0.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/tomerfiliba-org/rpyc"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "rpyc"
+  ],
+  "Package-List": [
+    "python3-rpyc deb python optional arch=all python3-rpyc-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Timo Röhling \u003croehling@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/rpyc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/rpyc.git"
+  ],
+  "Version": [
+    "6.0.2-1"
+  ]
+}

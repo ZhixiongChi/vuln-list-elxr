@@ -1,0 +1,71 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-blinker-doc, python3-blinker"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, flit, pybuild-plugin-pyproject, python3-all, python3-pallets-sphinx-themes \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinxcontrib-log-cabinet \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "9d1389ee9e04e06a4be154ff3d658cdbaa731ac1b150c20ef1c9a45834faedc7 2618 blinker_1.9.0-2.dsc aa6567d896a5238caf18f8507693966025743567bdf3720ff7c695088b7baca8 24779 blinker_1.9.0.orig.tar.gz 6edb64f54b7c51fe606e8f20444cbaa8d301865349e7d4ee38bbdc2ca0e090d1 5480 blinker_1.9.0-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "ca45fe8de7e875628bad8bfcaaf3e82921fceced debian archive/debian/1.9.0-2 https://git.dgit.debian.org/blinker"
+  ],
+  "Directory": [
+    "pool/main/b/blinker"
+  ],
+  "Files": [
+    "6725b50c706e0fdee914050c0bd351e2 2618 blinker_1.9.0-2.dsc 7d093e38e64ff34f2db223ce8c711d48 24779 blinker_1.9.0.orig.tar.gz b55de97e6f18ecc588a63e4e32d15ea6 5480 blinker_1.9.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=f69a06429c50005faadd9c8f7974df0bdb339c08 fp=ac0a4ff12611b6fccf01c111393587d97d86500b"
+  ],
+  "Git-Tag-Tagger": [
+    "Colin Watson \u003ccjwatson@debian.org\u003e"
+  ],
+  "Homepage": [
+    "https://github.com/pallets-eco/blinker"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "blinker"
+  ],
+  "Package-List": [
+    "python-blinker-doc deb doc optional arch=all python3-blinker deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest, python3-pytest-asyncio"
+  ],
+  "Uploaders": [
+    "Ondřej Surý \u003condrej@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/blinker"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/blinker.git"
+  ],
+  "Version": [
+    "1.9.0-2"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "accountsservice, libaccountsservice0, libaccountsservice-dev, gir1.2-accountsservice-1.0, libaccountsservice-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gobject-introspection (\u003e= 1.80), gir1.2-gio-2.0-dev, gir1.2-gobject-2.0-dev, intltool, libcrypt-dev, libdbus-1-dev (\u003e= 1.9.18), libglib2.0-dev (\u003e= 2.63.5), libpolkit-gobject-1-dev, libsystemd-dev (\u003e= 209) [linux-any], systemd-dev, locales-all, meson (\u003e= 0.50), polkitd, python3-dbus \u003c!nocheck\u003e, python3-dbusmock \u003c!nocheck\u003e, python3-gi \u003c!nocheck\u003e, valac, xmlto"
+  ],
+  "Build-Depends-Indep": [
+    "gtk-doc-tools \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "513399da591db3129cca63d7b9ad94474575bc7af085fd6a2922c9f58413d52b 2995 accountsservice_23.13.9-8.dsc adda4cdeae24fa0992e7df3ffff9effa7090be3ac233a3edfdf69d5a9c9b924f 636064 accountsservice_23.13.9.orig.tar.xz 15861cddad554922bb09f1bf7ed5fa04a8b1dd23db0567e54e3b7e0c9936ccfd 24084 accountsservice_23.13.9-8.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/accountsservice"
+  ],
+  "Files": [
+    "ed4148e2ed372a0e2d1aaaf7f43070cb 2995 accountsservice_23.13.9-8.dsc 03dccfe1b306b7ca19743e86d118e64d 636064 accountsservice_23.13.9.orig.tar.xz e935dbc5b65d808bc443ce49b0db205d 24084 accountsservice_23.13.9-8.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.freedesktop.org/wiki/Software/AccountsService/"
+  ],
+  "Maintainer": [
+    "Debian freedesktop.org maintainers \u003cpkg-freedesktop-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "accountsservice"
+  ],
+  "Package-List": [
+    "accountsservice deb admin optional arch=any gir1.2-accountsservice-1.0 deb introspection optional arch=any libaccountsservice-dev deb libdevel optional arch=any libaccountsservice-doc deb doc optional arch=all profile=!nodoc libaccountsservice0 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, libcrypt1, libnss-systemd, libpam-elogind, libpam-systemd, polkitd, python3, python3-cap-ng, python3-gi"
+  ],
+  "Uploaders": [
+    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/freedesktop-team/accountsservice"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/freedesktop-team/accountsservice.git"
+  ],
+  "Version": [
+    "23.13.9-8"
+  ]
+}

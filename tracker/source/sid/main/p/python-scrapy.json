@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-scrapy-doc, python3-scrapy"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-bash-completion, dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, python3-all"
+  ],
+  "Build-Depends-Indep": [
+    "libjs-jquery \u003c!nodoc\u003e, publicsuffix \u003c!nocheck\u003e, python-attr-doc \u003c!nodoc\u003e, python-coverage-doc \u003c!nodoc\u003e, python-cryptography-doc \u003c!nodoc\u003e, python-cssselect-doc \u003c!nodoc\u003e, python-itemloaders-doc \u003c!nodoc\u003e, python-parsel-doc \u003c!nodoc\u003e, python-pytest-doc \u003c!nodoc\u003e, python-w3lib-doc \u003c!nodoc\u003e, python3-boto3 \u003c!nocheck\u003e, python3-botocore \u003c!nocheck\u003e, python3-defusedxml (\u003e= 0.7.1) \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-doc \u003c!nodoc\u003e, python3-hatchling, python3-itemadapter \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-itemloaders \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-jmespath \u003c!nocheck\u003e, python3-lxml \u003c!nocheck\u003e, python3-parsel (\u003e= 1.8.1) \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-pexpect \u003c!nocheck\u003e, python3-pil \u003c!nocheck\u003e, pybuild-plugin-pyproject, python3-priority \u003c!nocheck\u003e, python3-protego \u003c!nocheck\u003e, python3-pydispatch \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-pyftpdlib \u003c!nocheck\u003e, python3-pygments \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-queuelib \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-notfound-page \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-sybil \u003c!nocheck\u003e, python3-testfixtures (\u003e= 6.10.1) \u003c!nocheck\u003e, python3-tldextract \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-twisted \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-uvloop \u003c!nocheck\u003e, python3-w3lib \u003c!nocheck\u003e \u003c!nodoc\u003e, sphinx-doc \u003c!nodoc\u003e, tox \u003c!nodoc\u003e, twisted-doc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "926173cffa79bfced7ba5792102d09ce654a5900c7c050ba12a0a385e81cb1b8 3514 python-scrapy_2.13.3-1.dsc a5b272eadb4bdfbe5a831389207b78ea6f5408eed36fb0e568910627d5ac5a68 1265696 python-scrapy_2.13.3.orig.tar.gz 4f85c785d710d4a7e7c81be5361ace6cd6f2ddc2e3eab2cfac97d6b0ad11f386 11100 python-scrapy_2.13.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-scrapy"
+  ],
+  "Files": [
+    "d17030527555455086f5141dfaafc1ac 3514 python-scrapy_2.13.3-1.dsc 06d37787f9ebbe27762b82d88b0c2110 1265696 python-scrapy_2.13.3.orig.tar.gz 80708195ba99b86cf196292d94ed9a5c 11100 python-scrapy_2.13.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://scrapy.org/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-scrapy"
+  ],
+  "Package-List": [
+    "python-scrapy-doc deb doc optional arch=all profile=!nodoc python3-scrapy deb python optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Ignace Mouzannar \u003cmouzannar@gmail.com\u003e, Andrey Rakhmatullin \u003cwrar@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-scrapy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-scrapy.git"
+  ],
+  "Version": [
+    "2.13.3-1"
+  ]
+}

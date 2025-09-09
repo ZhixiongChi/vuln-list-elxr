@@ -1,0 +1,74 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-superqt, python-superqt-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-hatchling, python3-hatch-vcs"
+  ],
+  "Build-Depends-Indep": [
+    "python3-all, python3-pyconify \u003c!nocheck\u003e, python3-numpy \u003c!nocheck\u003e, python3-pint \u003c!nocheck\u003e, python3-pygments \u003c!nocheck\u003e, python3-qtpy \u003c!nocheck\u003e, python3-pyqt5 \u003c!nocheck\u003e, python3-pyqt6 \u003c!nocheck\u003e, python3-pyside6.qtgui \u003c!nocheck\u003e, python3-pyside6.qttest \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytestqt \u003c!nocheck\u003e, xauth \u003c!nocheck\u003e, xserver-xephyr \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "a85a3e89dd0798dd918ed8bf7796c39a34ff9ad9542ee5b360d1f897634a2759 2981 superqt_0.7.6-1.dsc 7857f3a6673a47569f8a6d8d37f533169002f9241a56f0d3c3d0c9197c2df717 308032 superqt_0.7.6.orig.tar.xz c47d7da4e131364d92b98acb665547f07560026a3c7b435005683292fa83f6ea 4508 superqt_0.7.6-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "7a5429f6ce98f6706fbc22ce6e048fa0c1a6905d debian archive/debian/0.7.6-1 https://git.dgit.debian.org/superqt"
+  ],
+  "Directory": [
+    "pool/main/s/superqt"
+  ],
+  "Files": [
+    "3055351bbeba88705bff4f6922d24bce 2981 superqt_0.7.6-1.dsc 1d1d4284c4981eae0a0a538e9511470f 308032 superqt_0.7.6.orig.tar.xz b5c47e12d85d046b32be4ff9cfd07a4b 4508 superqt_0.7.6-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=1de032eebc83a85c7812207cbb7cb36fc8f9eaa0 fp=90e2d2c1ad146a1b7ebb891dbbc17ebb1396f2f7"
+  ],
+  "Git-Tag-Tagger": [
+    "Stuart Prescott \u003cstuart@debian.org\u003e"
+  ],
+  "Homepage": [
+    "https://github.com/pyapp-kit/superqt"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "superqt"
+  ],
+  "Package-List": [
+    "python-superqt-doc deb doc optional arch=all python3-superqt deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-numpy, python3-pint, python3-pyconify, python3-pyqt5, python3-pyqt6, python3-pyside6.qtgui, python3-pyside6.qttest, python3-pytest, python3-pytestqt, xauth, xserver-xephyr, xvfb"
+  ],
+  "Uploaders": [
+    "Stuart Prescott \u003cstuart@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/superqt"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/superqt.git"
+  ],
+  "Version": [
+    "0.7.6-1"
+  ]
+}

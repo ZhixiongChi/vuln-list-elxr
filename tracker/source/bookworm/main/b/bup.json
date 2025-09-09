@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "bup, bup-doc"
+  ],
+  "Build-Depends": [
+    "acl, attr, dctrl-tools, debhelper-compat (= 13), dh-python, git, libacl1-dev, libreadline-dev, par2 [!hurd-i386], pkg-config, python3-dev, python3-pylibacl, python3-pytest, python3-pytest-xdist, python3-pyxattr [linux-any], rsync, tzdata"
+  ],
+  "Build-Depends-Indep": [
+    "pandoc, pandoc-data"
+  ],
+  "Checksums-Sha256": [
+    "11747a74780262c75f62fd2377fd7eca2f825cf4a8c20702309e193ebfac28e2 2105 bup_0.33.7-1~deb12u1.dsc 03bf3c02ee6912d9f2e017e488625948818efc8538bbc6a7d6a993fbdee709a4 498077 bup_0.33.7.orig.tar.gz 0745f433ef49adaeaf736dbfb924a4bc6ddf4896852a4178ac75a526ad41498c 7596 bup_0.33.7-1~deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/bup"
+  ],
+  "Files": [
+    "586220eb3ce2cf8e271fba146d9403cc 2105 bup_0.33.7-1~deb12u1.dsc e41ad0607fbd858095279f26474dc1b2 498077 bup_0.33.7.orig.tar.gz 4b3ea24993f506c7b27608b245e40c6b 7596 bup_0.33.7-1~deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/bup/bup"
+  ],
+  "Maintainer": [
+    "Robert Edmonds \u003cedmonds@debian.org\u003e"
+  ],
+  "Package": [
+    "bup"
+  ],
+  "Package-List": [
+    "bup deb admin optional arch=any bup-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "admin"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edmonds/bup"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edmonds/bup.git"
+  ],
+  "Version": [
+    "0.33.7-1~deb12u1"
+  ]
+}

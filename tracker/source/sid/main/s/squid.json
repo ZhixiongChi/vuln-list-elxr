@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "squid, squid-openssl, squid-common"
+  ],
+  "Build-Depends": [
+    "ed, libltdl-dev, pkgconf, g++ (\u003e= 5) \u003c!cross\u003e | clang (\u003e= 3.8) \u003c!cross\u003e, gcc (\u003e= 5) \u003c!cross\u003e | clang (\u003e= 3.8) \u003c!cross\u003e, debhelper-compat (= 13), dh-apparmor, libcppunit-dev, libcap2-dev [linux-any], libcrypt-dev, libecap3-dev (\u003e= 1.0.1-2), libexpat1-dev, libgnutls28-dev (\u003e= 3.5), libkrb5-dev, comerr-dev, libldap2-dev, libnetfilter-conntrack-dev [linux-any], libpam0g-dev, libsasl2-dev, libsystemd-dev [linux-any], libtdb-dev, libxml2-dev, nettle-dev, libssl-dev"
+  ],
+  "Checksums-Sha256": [
+    "0013cf71c2ed7f8aca62d495a1d40468e0ec98977ab4a3aab3d9b34cf33e35e5 2762 squid_7.1-1.dsc 763b5a78561cedc4e47634fa42b8e6b8d46c87c949a151b4e7ac2396d2f97dea 2466656 squid_7.1.orig.tar.xz da80204b4b94e2c3520ec8a6ad272f0dc259fa0e36ebf8ecec89d306e5abf22f 744 squid_7.1.orig.tar.xz.asc de6df031a4f1fa48e06c588b049116b1485a3480aeb728b699f00c755fc90cbc 44516 squid_7.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/squid"
+  ],
+  "Files": [
+    "47fcd98aae25000797b834648a56e8a4 2762 squid_7.1-1.dsc e617871ff11444bdf930aa2455d7627b 2466656 squid_7.1.orig.tar.xz 130d081b68402a66b588a12671221e04 744 squid_7.1.orig.tar.xz.asc fc9574ac8a9fbdedca4d791bf2df6c2f 44516 squid_7.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.squid-cache.org"
+  ],
+  "Maintainer": [
+    "Luigi Gangitano \u003cluigi@debian.org\u003e"
+  ],
+  "Package": [
+    "squid"
+  ],
+  "Package-List": [
+    "squid deb web optional arch=any squid-common deb web optional arch=all squid-openssl deb web optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, apache2, apparmor-utils, elinks, fakeroot, netcat, python3-minimal, ssl-cert, vsftpd"
+  ],
+  "Uploaders": [
+    "Santiago Garcia Mantinan \u003cmanty@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/squid-team/squid"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/squid-team/squid.git"
+  ],
+  "Version": [
+    "7.1-1"
+  ]
+}

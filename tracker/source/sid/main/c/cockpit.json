@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "cockpit, cockpit-bridge, cockpit-doc, cockpit-networkmanager, cockpit-packagekit, cockpit-storaged, cockpit-system, cockpit-ws, cockpit-sosreport"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, docbook-xsl, gettext (\u003e= 0.21), glib-networking, libcrypt-dev, libglib2.0-dev (\u003e= 2.50), libgnutls28-dev (\u003e= 3.4.3) | gnutls-dev, libjson-glib-dev, libkrb5-dev (\u003e= 1.11), libpam0g-dev, libpolkit-agent-1-dev, libsystemd-dev (\u003e= 235), libxslt1-dev, pkgconf, python3, python3-pip, python3-setuptools, python3-wheel, systemd-dev | systemd (\u003c\u003c 253-2~), xmlto, xsltproc, zlib1g-dev, openssh-client \u003c!nocheck\u003e, procps \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-timeout \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "57cd4d536cdbda63a28413f5e7323db7167f3b47551ed6f35cb877a2828d2c1f 2989 cockpit_346-1.dsc 618c92cbbeb9265ff6bdf172ed8ea837ce6085ab936bd7a735abc8f661a01de1 14602628 cockpit_346.orig.tar.xz 8932415add2df71eabb56650786f8d36e0eddcc0082f66f964ebd97bcf3bd21d 22512 cockpit_346-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/cockpit"
+  ],
+  "Files": [
+    "c049561a7f8a5bc6235d264498e157fe 2989 cockpit_346-1.dsc f1ea11cc6baaea74c738bfae7b62e7c7 14602628 cockpit_346.orig.tar.xz 2458a1d9826dee634b096030a6db2800 22512 cockpit_346-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cockpit-project.org/"
+  ],
+  "Maintainer": [
+    "Utopia Maintenance Team \u003cpkg-utopia-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "cockpit"
+  ],
+  "Package-List": [
+    "cockpit deb admin optional arch=all cockpit-bridge deb admin optional arch=all cockpit-doc deb doc optional arch=all cockpit-networkmanager deb admin optional arch=all cockpit-packagekit deb admin optional arch=all cockpit-sosreport deb admin optional arch=all cockpit-storaged deb admin optional arch=all cockpit-system deb admin optional arch=all cockpit-ws deb admin optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "adduser, curl"
+  ],
+  "Uploaders": [
+    "Michael Biebl \u003cbiebl@debian.org\u003e, Martin Pitt \u003cmpitt@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/utopia-team/cockpit"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/utopia-team/cockpit.git"
+  ],
+  "Version": [
+    "346-1"
+  ]
+}

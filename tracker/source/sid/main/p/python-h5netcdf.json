@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-h5netcdf, python-h5netcdf-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-h5py \u003c!nocheck\u003e, python3-netcdf4 \u003c!nocheck\u003e, python3-packaging, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm, python3-sphinx \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "d3e9d5dc0e508a63d36d273482de97bd9da8d3ab494ecccdb8d9549caee72890 2388 python-h5netcdf_1.6.4-1.dsc 83db7e5eb9b822bed2c79050d6cf8f36ecbd1039f4252bd90fab200edcaaf67d 65832 python-h5netcdf_1.6.4.orig.tar.gz fbe07751c5bbd2d7ee20e928df60413efa85529eed11254a46d02b47ac2584d6 5220 python-h5netcdf_1.6.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-h5netcdf"
+  ],
+  "Files": [
+    "ee75bb125844b31d1f2bfccc8bf9a32c 2388 python-h5netcdf_1.6.4-1.dsc 938aeb4e3dfc8b28254fdbf3fc7dc43d 65832 python-h5netcdf_1.6.4.orig.tar.gz 0e2f553b0a3c1dc65ff3614e74225ebc 5220 python-h5netcdf_1.6.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/shoyer/h5netcdf"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "python-h5netcdf"
+  ],
+  "Package-List": [
+    "python-h5netcdf-doc deb doc optional arch=all python3-h5netcdf deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-netcdf4, python3-pytest"
+  ],
+  "Uploaders": [
+    "Ghislain Antony Vaillant \u003cghisvail@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/python-h5netcdf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/python-h5netcdf.git"
+  ],
+  "Version": [
+    "1.6.4-1"
+  ]
+}

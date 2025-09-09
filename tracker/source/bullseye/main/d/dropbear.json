@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "dropbear-bin, dropbear, dropbear-initramfs, dropbear-run"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libtomcrypt-dev (\u003e= 1.18.2~), libtommath-dev (\u003e= 1.2.0~), libz-dev"
+  ],
+  "Checksums-Sha256": [
+    "bc6e48da4ceec9a39bc87d1074c36866ef75396708d8fc8a1dfe2e42b42b9fdd 2594 dropbear_2020.81-3+deb11u2.dsc 48235d10b37775dbda59341ac0c4b239b82ad6318c31568b985730c788aac53b 2289644 dropbear_2020.81.orig.tar.bz2 5cdb32a453f68b6c9907e87da924b8bc12554584124849af4da66b08cd4ffa28 833 dropbear_2020.81.orig.tar.bz2.asc c2e929c59c89510c1ca77799d21b5715472c497a91e1689aa47feb4d6760b184 35432 dropbear_2020.81-3+deb11u2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dropbear"
+  ],
+  "Files": [
+    "4e702f4538f86da741cbaf4c9f103608 2594 dropbear_2020.81-3+deb11u2.dsc a07438a6159a24c61f98f1bce2d479c0 2289644 dropbear_2020.81.orig.tar.bz2 de4e7072a4a29208bf65da96037feba0 833 dropbear_2020.81.orig.tar.bz2.asc a7463a0ec24062a29c1cceeaf92e1eeb 35432 dropbear_2020.81-3+deb11u2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://matt.ucc.asn.au/dropbear/dropbear.html"
+  ],
+  "Maintainer": [
+    "Guilhem Moulin \u003cguilhem@debian.org\u003e"
+  ],
+  "Package": [
+    "dropbear"
+  ],
+  "Package-List": [
+    "dropbear deb net optional arch=all dropbear-bin deb net optional arch=any dropbear-initramfs deb net optional arch=all dropbear-run deb oldlibs optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "libguestfs-tools, linux-image-amd64, mmdebstrap, openssh-client, qemu-system-x86, sleepenh, time"
+  ],
+  "Uploaders": [
+    "Gerrit Pape \u003cpape@smarden.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/dropbear"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/dropbear.git -b debian/latest"
+  ],
+  "Version": [
+    "2020.81-3+deb11u2"
+  ]
+}

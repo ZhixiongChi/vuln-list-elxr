@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-asdf, python-asdf-doc, asdftool"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, furo \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, pybuild-plugin-pyproject, python3-aiohttp \u003c!nocheck\u003e, python3-all, python3-asdf-standard \u003c!nodoc\u003e, python3-asdf-transform-schemas \u003c!nodoc\u003e, python3-astropy \u003c!nocheck\u003e, python3-fsspec \u003c!nocheck\u003e, python3-jmespath, python3-jsonschema, python3-lz4 \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-astropy \u003c!nocheck\u003e, python3-pytest-openfiles \u003c!nocheck\u003e, python3-requests \u003c!nocheck\u003e, python3-semantic-version, python3-setuptools, python3-setuptools-scm, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-astropy \u003c!nodoc\u003e, python3-sphinx-inline-tabs \u003c!nodoc\u003e, python3-virtualenv \u003c!nocheck\u003e, python3-yaml"
+  ],
+  "Checksums-Sha256": [
+    "44f03bb3de47cacd7418d771be02355f7171adc42050c6c0fea7ed35f81c7888 2881 python-asdf_4.4.0-1.dsc f7146119e3d217f0b83d125e2fd657c1b2427caf6faeaf7ceedcd81db464363e 899576 python-asdf_4.4.0.orig.tar.gz 0aa7eb13b6a8305c01d939b81452d29f8816fd8cd7f417512eb9f36d18f78cb6 8780 python-asdf_4.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-asdf"
+  ],
+  "Files": [
+    "f8399c6d0af99839d1cd407f61fb4789 2881 python-asdf_4.4.0-1.dsc a123db5ee1b4a1a9786cc3bc14182ffc 899576 python-asdf_4.4.0.orig.tar.gz 9bd221712749195a1cb5959f7ad3cbbc 8780 python-asdf_4.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/asdf-format/asdf"
+  ],
+  "Maintainer": [
+    "Debian Astronomy Team \u003cdebian-astro-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "python-asdf"
+  ],
+  "Package-List": [
+    "asdftool deb science optional arch=all python-asdf-doc deb doc optional arch=all python3-asdf deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-aiohttp, python3-astropy, python3-fsspec, python3-lz4, python3-pytest, python3-pytest-openfiles, python3-requests"
+  ],
+  "Uploaders": [
+    "Ole Streicher \u003colebole@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-astro-team/python-asdf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-astro-team/python-asdf.git"
+  ],
+  "Version": [
+    "4.4.0-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-aiohasupervisor"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "python3-aiohttp \u003c!nocheck\u003e, python3-aioresponses \u003c!nocheck\u003e, python3-mashumaro \u003c!nocheck\u003e, python3-orjson \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-aiohttp \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-pytest-timeout \u003c!nocheck\u003e, python3-yarl \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "5e8760d8fa25892c4c83b2ac91dfdc85325981042fe0fe31fa1eae918697161a 2517 python-aiohasupervisor_0.3.2-1.dsc 575d2f86682fe18620a21c2543870e33cb1b50c9ccb1007cadcf7af8051ea2dd 73386 python-aiohasupervisor_0.3.2.orig.tar.gz bfd8375a80301757db03c320a5174df39e5d42cb3d9a6272dcfac12146e8e01c 2096 python-aiohasupervisor_0.3.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-aiohasupervisor"
+  ],
+  "Files": [
+    "696e9de56677bf5335e64685c9927960 2517 python-aiohasupervisor_0.3.2-1.dsc a3c34b8a5d75db7e8f4d094244bdfe30 73386 python-aiohasupervisor_0.3.2.orig.tar.gz 9b83f75e27f70550d74107d0fc633e3c 2096 python-aiohasupervisor_0.3.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/home-assistant-libs/python-supervisor-client"
+  ],
+  "Maintainer": [
+    "Home Assistant Team \u003cteam+homeassistant@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-aiohasupervisor"
+  ],
+  "Package-List": [
+    "python3-aiohasupervisor deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Edward Betts \u003cedward@4angle.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/homeassistant-team/deps/python-aiohasupervisor"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/homeassistant-team/deps/python-aiohasupervisor.git"
+  ],
+  "Version": [
+    "0.3.2-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "elfutils, libelf1t64, libelf-dev, libdw-dev, libdw1t64, libasm1t64, libasm-dev, libdebuginfod1t64, libdebuginfod-dev, debuginfod, libdebuginfod-common"
+  ],
+  "Build-Conflicts": [
+    "autoconf2.13"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), autoconf, automake, lsb-release, bzip2, zlib1g-dev, zlib1g-dev:native, libbz2-dev, liblzma-dev, libzstd-dev, zstd \u003c!nocheck\u003e, m4, gettext, po-debconf, gawk, gcc-multilib [amd64 sparc64] \u003c!nocheck\u003e, libc6-dbg [powerpc powerpcspe ppc64 ppc64el armel armhf arm64 sparc64 riscv64], flex, bison, pkgconf, libarchive-dev \u003c!pkg.elfutils.nodebuginfod\u003e, libjson-c-dev \u003c!pkg.elfutils.nodebuginfod\u003e, libmicrohttpd-dev \u003c!pkg.elfutils.nodebuginfod\u003e, libcurl4-gnutls-dev \u003c!pkg.elfutils.nodebuginfod\u003e, libsqlite3-dev \u003c!pkg.elfutils.nodebuginfod\u003e"
+  ],
+  "Checksums-Sha256": [
+    "d7f9758e60d49a002a744481d74ed9df71b400add816508775ff7f48ae97e49b 3317 elfutils_0.193-3.dsc 7857f44b624f4d8d421df851aaae7b1402cfe6bcdd2d8049f15fc07d3dde7635 11974916 elfutils_0.193.orig.tar.bz2 35a45551097618993ee404b8f01fe1141a82fc4744e8a98f7964662fa3581adb 44852 elfutils_0.193-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/elfutils"
+  ],
+  "Files": [
+    "eadc5fc92298309549bccbcdf8eaeaf5 3317 elfutils_0.193-3.dsc ceefa052ded950a4c523688799193a44 11974916 elfutils_0.193.orig.tar.bz2 76d4e73dc79cae8633fc3b1113b966fe 44852 elfutils_0.193-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://sourceware.org/elfutils/"
+  ],
+  "Maintainer": [
+    "Debian Elfutils Maintainers \u003cdebian-gcc@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "elfutils"
+  ],
+  "Package-List": [
+    "debuginfod deb devel optional arch=any profile=!pkg.elfutils.nodebuginfod elfutils deb utils optional arch=any libasm-dev deb libdevel optional arch=any libasm1t64 deb libs optional arch=any libdebuginfod-common deb devel optional arch=all profile=!pkg.elfutils.nodebuginfod libdebuginfod-dev deb libdevel optional arch=any profile=!pkg.elfutils.nodebuginfod libdebuginfod1t64 deb libs optional arch=any profile=!pkg.elfutils.nodebuginfod libdw-dev deb libdevel optional arch=any libdw1t64 deb libs optional arch=any libelf-dev deb libdevel optional arch=any libelf1t64 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Kurt Roeckx \u003ckurt@roeckx.be\u003e, Matthias Klose \u003cdoko@debian.org\u003e, Sergio Durigan Junior \u003csergiodj@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/toolchain-team/elfutils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/toolchain-team/elfutils.git"
+  ],
+  "Version": [
+    "0.193-3"
+  ]
+}

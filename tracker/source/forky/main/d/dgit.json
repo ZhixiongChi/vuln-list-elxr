@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "dgit, git-debrebase, git-debpush, dgit-infrastructure"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), gettext, po4a, tcl"
+  ],
+  "Checksums-Sha256": [
+    "c397c649c14d25e14364283d8d1bd72857a7c0e87f1f5bfa81df01e4cc197ba5 2519 dgit_13.14.dsc 186de1c81bc297eb70b6de63cab6648a238860cc2c17ee7db027b909d34d5766 823309 dgit_13.14.tar.gz"
+  ],
+  "Dgit": [
+    "cd08b076ca00b6f272ba53668ed0d5dd551b1bea debian archive/debian/13.14 https://git.dgit.debian.org/dgit"
+  ],
+  "Directory": [
+    "pool/main/d/dgit"
+  ],
+  "Files": [
+    "b4d419682158cb95d3e2ea20707d41c5 2519 dgit_13.14.dsc d451a3706e27299daabd20697901fc36 823309 dgit_13.14.tar.gz"
+  ],
+  "Format": [
+    "1.0"
+  ],
+  "Git-Tag-Info": [
+    "tag=2b6eac37e594982e1806038ce543574bf0a82970 fp=559ae46c2d6b6d3265e7cba1e3e3392348b50d39"
+  ],
+  "Git-Tag-Tagger": [
+    "Ian Jackson \u003cijackson@chiark.greenend.org.uk\u003e"
+  ],
+  "Maintainer": [
+    "Debian tag2upload Delegates \u003cdgit-owner@debian.org\u003e"
+  ],
+  "Package": [
+    "dgit"
+  ],
+  "Package-List": [
+    "dgit deb devel optional arch=all dgit-infrastructure deb devel optional arch=all git-debpush deb devel optional arch=all git-debrebase deb devel optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.4.0.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "autopkgtest, bc, bsdgames, build-essential, chiark-utils-bin, debhelper, devscripts, diffutils, dput-ng, fakeroot, faketime, git, git-buildpackage, git-man, gnupg, groff, jq, libhttp-server-simple-static-perl, libjson-perl, liblocale-gettext-perl, liburi-perl, locales-all, make, man-db, mpack, netcat-openbsd, patch, pristine-tar, python3, python3-pygit2, quilt, reprepro, rsync, sbuild, systemd, xz-utils"
+  ],
+  "Uploaders": [
+    "Ian Jackson \u003cijackson@chiark.greenend.org.uk\u003e, Sean Whitton \u003cspwhitton@spwhitton.name\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/dgit-team/dgit"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/dgit-team/dgit.git"
+  ],
+  "Version": [
+    "13.14"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libwacom9, libwacom-bin, libwacom-common, libwacom-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), meson, libevdev-dev, libglib2.0-dev, libgudev-1.0-dev, libxml2-dev \u003c!nocheck\u003e, pkgconf, python3-libevdev \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pyudev \u003c!nocheck\u003e, systemd-dev, udev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "6bec9d2128683fb7d66031165d724e3d4034839696f9706acd0f059269bf4661 2226 libwacom_2.16.1-1.dsc 27a66063a85ecda4f066ea9e62afb3b0fbfcfd5052eeb3a24b5eebdc6540437d 237662 libwacom_2.16.1.orig.tar.gz c2730f88fa73e4d7de36a4fae6c2d8d30c279be9fc3b4f3c8d56b2dca1e789f5 6284 libwacom_2.16.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libw/libwacom"
+  ],
+  "Files": [
+    "ea3b6fb86fec803e99e60cad4088ac2b 2226 libwacom_2.16.1-1.dsc 5cf12242bffcb9a4af37169399689ed6 237662 libwacom_2.16.1.orig.tar.gz ae4588760f363fedd9418655eded9df3 6284 libwacom_2.16.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Timo Aaltonen \u003ctjaalton@debian.org\u003e"
+  ],
+  "Package": [
+    "libwacom"
+  ],
+  "Package-List": [
+    "libwacom-bin deb libs optional arch=any libwacom-common deb libs optional arch=all libwacom-dev deb libdevel optional arch=any libwacom9 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libwacom"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libwacom.git"
+  ],
+  "Version": [
+    "2.16.1-1"
+  ]
+}

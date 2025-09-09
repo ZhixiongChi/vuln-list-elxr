@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "amd64 arm64 armel ia64 m68k mips64el mipsel ppc64el riscv64 loong64 all"
+  ],
+  "Binary": [
+    "libopm-upscaling-dev, libopm-upscaling-bin, libopm-upscaling, libopm-upscaling-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), quilt, chrpath, libboost-system-dev, libboost-date-time-dev, libboost-test-dev, libboost-iostreams-dev, gfortran, libtinyxml-dev, bc, zlib1g-dev, libtool, libopm-grid-dev (\u003e= 2025.04~), doxygen, texlive-latex-extra, texlive-latex-recommended, ghostscript, pkgconf, mpi-default-dev, mpi-default-bin"
+  ],
+  "Checksums-Sha256": [
+    "8eba6ad85c1ffc94cf6ece96986d9c76b96bd31fd461deabd2f131cf3fc982c1 2865 opm-upscaling_2025.04+ds-1.dsc 2b77d1eb82b7f63e9ff6eb5b73d5c4b06fd01552c385680ce8c57fa26846510b 601384 opm-upscaling_2025.04+ds.orig.tar.xz ba5260268d0230c35b9727e486ba928ba6d1a1e8533b2be2c3985bee205843f8 5120 opm-upscaling_2025.04+ds-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/opm-upscaling"
+  ],
+  "Files": [
+    "453445d09320e9d6e063dd7ff7cc5bc9 2865 opm-upscaling_2025.04+ds-1.dsc 3f25a3178422fc31996ef2304f6a4ecb 601384 opm-upscaling_2025.04+ds.orig.tar.xz 89abb209a0f2ad7f11ab91875d1695aa 5120 opm-upscaling_2025.04+ds-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://opm-project.org"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "opm-upscaling"
+  ],
+  "Package-List": [
+    "libopm-upscaling deb libs optional arch=amd64,arm64,armel,ia64,m68k,mips64el,mipsel,ppc64el,riscv64,loong64 libopm-upscaling-bin deb science optional arch=amd64,arm64,armel,ia64,m68k,mips64el,mipsel,ppc64el,riscv64,loong64 libopm-upscaling-dev deb libdevel optional arch=amd64,arm64,armel,ia64,m68k,mips64el,mipsel,ppc64el,riscv64,loong64 libopm-upscaling-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Arne Morten Kvarving \u003carne.morten.kvarving@sintef.no\u003e, Markus Blatt \u003cmarkus@dr-blatt.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/opm-upscaling"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/opm-upscaling.git"
+  ],
+  "Version": [
+    "2025.04+ds-1"
+  ]
+}

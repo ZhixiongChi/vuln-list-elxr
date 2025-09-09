@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-django-auditlog"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, pybuild-plugin-pyproject, python3-all, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "postgresql, python3-dateutil \u003c!nodoc\u003e, python3-django \u003c!nodoc\u003e, python3-freezegun \u003c!nocheck\u003e, python3-psycopg2, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-pytzdata \u003c!nocheck\u003e, tzdata \u003c!nocheck\u003e, tzdata-legacy \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "d8bd800f85af9c9dd14934e232e6048e7897e9fcbfec3e21a8f52eb34eb138b6 2524 django-auditlog_3.2.1-1.dsc 1ab6267464adb9f9d4a2690009e9824bada2be7fcbfa4e4aba9f294749c7bdf7 68634 django-auditlog_3.2.1.orig.tar.gz 1723f3702bfe2ebd02e5663ef8f83e1f3caf8017a9d78afc9c8bcefb78dba408 4996 django-auditlog_3.2.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/django-auditlog"
+  ],
+  "Files": [
+    "91bc9be7a641cbc293f97b57202b8900 2524 django-auditlog_3.2.1-1.dsc fc7470cee401314e0b19297e08309a9c 68634 django-auditlog_3.2.1.orig.tar.gz 47b10c64b44d85750019bf4dba07be58 4996 django-auditlog_3.2.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/jazzband/django-auditlog"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "django-auditlog"
+  ],
+  "Package-List": [
+    "python3-django-auditlog deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "postgresql, python3-freezegun, python3-psycopg2, python3-pytzdata, tzdata, tzdata-legacy"
+  ],
+  "Uploaders": [
+    "Edward Betts \u003cedward@4angle.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/django-auditlog"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/django-auditlog.git"
+  ],
+  "Version": [
+    "3.2.1-1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-pipewire-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bindgen-0+runtime-dev (\u003e= 0.69-~~) \u003c!nocheck\u003e, librust-libspa-sys-0.8+default-dev \u003c!nocheck\u003e, librust-system-deps-7+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "eecec60e0cdb58ade269a25321a3398d2f5216a42e8f2b38aaf9cc7a5780d211 1766 rust-pipewire-sys_0.8.0-7.dsc 849e188f90b1dda88fe2bfe1ad31fe5f158af2c98f80fb5d13726c44f3f01112 3038 rust-pipewire-sys_0.8.0.orig.tar.gz 63abb92eb8d91af9976312b9ee96d5ff3032788204d41b6c65680ed318fab985 3488 rust-pipewire-sys_0.8.0-7.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-pipewire-sys"
+  ],
+  "Files": [
+    "6f8ebaaeb30a7d3400f2b70b3934c40a 1766 rust-pipewire-sys_0.8.0-7.dsc 3a44ad5ef3d6ddd0281362fa45d8e12a 3038 rust-pipewire-sys_0.8.0.orig.tar.gz acba6e3e380a15c43cb0e718625ab38e 3488 rust-pipewire-sys_0.8.0-7.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pipewire.org"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-pipewire-sys"
+  ],
+  "Package-List": [
+    "librust-pipewire-sys-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@riseup.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pipewire-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/pipewire-sys]"
+  ],
+  "Version": [
+    "0.8.0-7"
+  ]
+}

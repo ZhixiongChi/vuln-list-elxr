@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "mkchromecast, mkchromecast-pulseaudio, mkchromecast-alsa, mkchromecast-gstreamer"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-flask, python3-gi, python3-netifaces, python3-psutil, python3-pychromecast (\u003e= 7), python3-pyqt5, python3-requests, python3-setuptools"
+  ],
+  "Checksums-Sha256": [
+    "58b78deabbeba11feb5915c25eb214b6e2f73b4bba3ab3702820a0aedb3fec48 2483 mkchromecast_0.3.9~git20200902+db2964a-2.1~deb12u1.dsc 7559e3e343594f1abc6a2d3d934bb353a542da4f70caaab04376a43ad1112d60 13051900 mkchromecast_0.3.9~git20200902+db2964a.orig.tar.xz 8653bc37c63fe81c871bab7c6d27af4322906c5901feb53f79caff30661b06e5 8208 mkchromecast_0.3.9~git20200902+db2964a-2.1~deb12u1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/mkchromecast"
+  ],
+  "Files": [
+    "cf4f0c6a4744a5fc2f4c4a956254099f 2483 mkchromecast_0.3.9~git20200902+db2964a-2.1~deb12u1.dsc 295959e773f6c36f169112a8ea337170 13051900 mkchromecast_0.3.9~git20200902+db2964a.orig.tar.xz 29ce650f9e42f040753d0f5792e87a84 8208 mkchromecast_0.3.9~git20200902+db2964a-2.1~deb12u1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://mkchromecast.com"
+  ],
+  "Maintainer": [
+    "Muammar El Khatib \u003cmuammar@debian.org\u003e"
+  ],
+  "Package": [
+    "mkchromecast"
+  ],
+  "Package-List": [
+    "mkchromecast deb sound optional arch=all mkchromecast-alsa deb sound optional arch=all mkchromecast-gstreamer deb sound optional arch=all mkchromecast-pulseaudio deb sound optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.1.2"
+  ],
+  "Uploaders": [
+    "Andrej Shadura \u003candrewsh@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/mkchromecast"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/mkchromecast.git"
+  ],
+  "Version": [
+    "0.3.9~git20200902+db2964a-2.1~deb12u1"
+  ]
+}

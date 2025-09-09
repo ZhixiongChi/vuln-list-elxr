@@ -1,0 +1,74 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "frei0r-plugins, frei0r-plugins-dev, frei0r-plugins-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, libcairo2-dev, libgavl-dev, libopencv-dev, pkgconf"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen"
+  ],
+  "Checksums-Sha256": [
+    "dcfab963e47b4e284569a9b44bac9d16b06120948280ee95679c0cf45557b4c7 2507 frei0r_2.4.0-1.dsc 250f2687e0c0e25817c15a42ec7e1fd6909f14f5e7e0ec3bf90daad47df5e615 733008 frei0r_2.4.0.orig.tar.xz f0f9e380fcbafe3f3a90c9e695647f46c5a451e600260625a71576e67ababaed 16224 frei0r_2.4.0-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "d153c6486f0cf533984a00998cb05c959fa2441f debian archive/debian/2.4.0-1 https://git.dgit.debian.org/frei0r"
+  ],
+  "Directory": [
+    "pool/main/f/frei0r"
+  ],
+  "Files": [
+    "be19c97d54fd5ec92a9fbf02de2c7a18 2507 frei0r_2.4.0-1.dsc 5d59609fc1950ab5d0e1c737629a8773 733008 frei0r_2.4.0.orig.tar.xz 3df2fcf011e84eccf1569df850039201 16224 frei0r_2.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=5ceb3675ea1b210f5852a44c4de2ced4f04622ea fp=7405e745574809734800156db65019c47f7a36f8"
+  ],
+  "Git-Tag-Tagger": [
+    "IOhannes m zmölnig (Debian/GNU) \u003cumlaeute@debian.org\u003e"
+  ],
+  "Homepage": [
+    "https://frei0r.dyne.org/"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "frei0r"
+  ],
+  "Package-List": [
+    "frei0r-plugins deb video optional arch=any frei0r-plugins-dev deb devel optional arch=all frei0r-plugins-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "video"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkgconf"
+  ],
+  "Uploaders": [
+    "IOhannes m zmölnig (Debian/GNU) \u003cumlaeute@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/frei0r"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/frei0r.git"
+  ],
+  "Version": [
+    "2.4.0-1"
+  ]
+}

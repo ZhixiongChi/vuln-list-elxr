@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "openssl, openssl-provider-legacy, openssl-provider-fips, libssl3t64, libcrypto3-udeb, libssl3-udeb, libssl-dev, libssl-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.22.5), libzstd-dev, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "b63b95e4308b97ac83632fb9f9c6e3f78e39d213c2b19633849c005e693e5def 2637 openssl_3.5.2-1.dsc c53a47e5e441c930c3928cf7bf6fb00e5d129b630e0aa873b08258656e7345ec 53180161 openssl_3.5.2.orig.tar.gz 9135fb5d2fe846a9e776742ee624c447e2e566b7b6744eaa9c576343e6fdbc32 833 openssl_3.5.2.orig.tar.gz.asc 3769eea46deabc5f8a2cb47db7223c661b3d2892a34f6b425941e51052ea7f72 49792 openssl_3.5.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/openssl"
+  ],
+  "Files": [
+    "5a03795dcab63d5b5de5145bc101e806 2637 openssl_3.5.2-1.dsc 890fc59f86fc21b5e4d1c031a698dbde 53180161 openssl_3.5.2.orig.tar.gz ff85403671c1dea90d2325022d86942d 833 openssl_3.5.2.orig.tar.gz.asc c9f7ae73c24efcb9bc730f07ec4f14ea 49792 openssl_3.5.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://openssl-library.org"
+  ],
+  "Maintainer": [
+    "Debian OpenSSL Team \u003cpkg-openssl-devel@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "openssl"
+  ],
+  "Package-List": [
+    "libcrypto3-udeb udeb debian-installer optional arch=any profile=!noudeb libssl-dev deb libdevel optional arch=any libssl-doc deb doc optional arch=all libssl3-udeb udeb debian-installer optional arch=any profile=!noudeb libssl3t64 deb libs optional arch=any openssl deb utils optional arch=any openssl-provider-fips deb utils optional arch=any openssl-provider-legacy deb utils optional arch=any"
+  ],
+  "Priority": [
+    "source"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "perl"
+  ],
+  "Uploaders": [
+    "Christoph Martin \u003cchristoph.martin@uni-mainz.de\u003e, Kurt Roeckx \u003ckurt@roeckx.be\u003e, Sebastian Andrzej Siewior \u003csebastian@breakpoint.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/openssl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/openssl.git"
+  ],
+  "Version": [
+    "3.5.2-1"
+  ]
+}
