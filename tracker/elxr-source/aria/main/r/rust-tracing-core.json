@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-tracing-core-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-once-cell-1+default-dev (\u003e= 1.13.0-~~) \u003c!nocheck\u003e, librust-valuable-0.1+std-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "25f6bec5b5f2f9455feaaaefa51c90744e058735 2960 rust-tracing-core_0.1.30-1.debian.tar.xz c8d1ac2e9cd88df188a64c39d0f0269d8b58f613 2331 rust-tracing-core_0.1.30-1.dsc 42337de1e1c4549be0aa1e6e5b0ec5e949c64568 60351 rust-tracing-core_0.1.30.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "418a36db45fdbedc29404ed2fc8af73ac9efca86eb932729ed50e8f48f9fc887 2960 rust-tracing-core_0.1.30-1.debian.tar.xz 5b2b90e699c9b55c20c79b2c95e2619ae591d9318439526db432c8de1dcc0b4e 2331 rust-tracing-core_0.1.30-1.dsc 24eb03ba0eab1fd845050058ce5e616558e8f8d8fca633e6b163fe25c797213a 60351 rust-tracing-core_0.1.30.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "829dc050fac37fac834f295d111afcd0b0dcca1ad6c84cc17fa58c4e8017581c92fffc4334fd4f0fbbb05bcec8af2a3dfb2e6248073d32712cb103857688c45e 2960 rust-tracing-core_0.1.30-1.debian.tar.xz 7034c6c73d310e5361aac1194d170e9a995ccac20bb10db4fc7c67d3c85e691f12e0d6d1baa1898819cedf3bd306e55850e3739bfbeb081ae1ee742c5b1a05d3 2331 rust-tracing-core_0.1.30-1.dsc 9a14edf6338eff6636473f4ea844dfe337e434c14f40e7b9af6d7e6cf25f745f37bbe372bc63c01043667bea2f5b248b8afa8d6aae4cac3dc5193e3383ef1c65 60351 rust-tracing-core_0.1.30.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-tracing-core"
+  ],
+  "Files": [
+    "c075352609f997cc3bcf1ac9651c155e 2960 rust-tracing-core_0.1.30-1.debian.tar.xz cf9023a2716c262881187333ed77637c 2331 rust-tracing-core_0.1.30-1.dsc e3189db1511d7f2fe59fd1b15ebac8ff 60351 rust-tracing-core_0.1.30.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://tokio.rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-tracing-core"
+  ],
+  "Package-List": [
+    "librust-tracing-core-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tracing-core"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/tracing-core]"
+  ],
+  "Version": [
+    "0.1.30-1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "glance-store-common, python-glance-store-doc, python3-glance-store"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "python3-boto, python3-boto3, python3-cinderclient (\u003e= 1:4.1.0), python3-coverage, python3-eventlet, python3-fixtures, python3-gridfs, python3-hacking, python3-httplib2, python3-jsonschema (\u003e= 3.2.0), python3-keystoneauth1, python3-keystoneclient, python3-openstackdocstheme, python3-os-brick (\u003e= 2.6.0), python3-oslo.concurrency, python3-oslo.config, python3-oslo.i18n, python3-oslo.privsep, python3-oslo.rootwrap, python3-oslo.serialization, python3-oslo.utils (\u003e= 4.7.0), python3-oslo.vmware, python3-oslotest, python3-pymongo, python3-requests, python3-requests-mock, python3-retrying, python3-six, python3-sphinxcontrib.apidoc, python3-stestr, python3-stevedore, python3-subunit, python3-swiftclient, python3-testscenarios, python3-testtools, subunit"
+  ],
+  "Checksums-Sha1": [
+    "7b00803aceafac3833baa9e77199d134e80d31c4 8260 python-glance-store_4.1.0-4.debian.tar.xz 2e5871e3b819f4dfe196f00e04f1c86b2fef2e4c 3240 python-glance-store_4.1.0-4.dsc 0842292ec2372d77442fd0f13b29ddbf97a9c6d2 141904 python-glance-store_4.1.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "a99a158e9c76187060010b911487277cd288da6d46e6fd0b3ca5a5a1d05a63d1 8260 python-glance-store_4.1.0-4.debian.tar.xz b340c9b1bfec30ce60b99b03ff6167d491883d4a41df0f1071a57697722e3906 3240 python-glance-store_4.1.0-4.dsc c36e01adb7736af7e40b4184fc630261395b9ef6a166b2333375d46009e2284f 141904 python-glance-store_4.1.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "d0212d6aae4555d8fa9fa2d83e6aa258ad44ee2cbdc46eb3cb1aa86af197460bb598b05a90e05020cb56b66b5e266b0ff0ed1576f73b478ff74baae1d362e48d 8260 python-glance-store_4.1.0-4.debian.tar.xz 82a1db1eb6588729cd568359ec6840450314f22b4154ca6d7ca2729be0333997ce0ff00050732ce0ee800f587857512006af141846c5824b564cb0fb2cad516e 3240 python-glance-store_4.1.0-4.dsc ca28cf499410aeae29bf15951953ea4add1a70f8d094a249cb4ebe866dee4ddd58fdc0c8343990125600fa3c26b3bc6e2ecfb6c7a4c004160afde2be71f87211 141904 python-glance-store_4.1.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-glance-store"
+  ],
+  "Files": [
+    "41fc1f93e30dc1fd4c03b96a4842e462 8260 python-glance-store_4.1.0-4.debian.tar.xz 6e09396d5c6b1c08fa031211a09f7cfb 3240 python-glance-store_4.1.0-4.dsc e8a10c37262cfab7a61310becda964b1 141904 python-glance-store_4.1.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openstack/glance_store"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-glance-store"
+  ],
+  "Package-List": [
+    "glance-store-common deb python optional arch=all python-glance-store-doc deb doc optional arch=all python3-glance-store deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, Corey Bryant \u003ccorey.bryant@canonical.com\u003e, Michal Arbet \u003cmichal.arbet@ultimum.io\u003e, Mickael Asseline \u003cmickael@papamica.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/libs/python-glance-store"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/libs/python-glance-store.git"
+  ],
+  "Version": [
+    "4.1.0-4"
+  ]
+}

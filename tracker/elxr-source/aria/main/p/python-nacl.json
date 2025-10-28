@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-nacl, python-nacl-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-python, pybuild-plugin-pyproject, libsodium-dev (\u003e= 1.0.16), python3-all-dev, python3-cffi (\u003e= 1.0.0), python3-hypothesis (\u003e= 4.36.2), python3-pytest, python3-setuptools, python3-six, python3-sphinx, python3-wheel"
+  ],
+  "Checksums-Sha1": [
+    "b799e42a70248a2db399a577f95a3348b22330c5 6784 python-nacl_1.5.0-2.debian.tar.xz 565a9627f119fee75d86d5707d78c34ad83da630 2624 python-nacl_1.5.0-2.dsc ed2b031d85aaa274fe5a4e982531894e20534b24 3392854 python-nacl_1.5.0.orig.tar.gz e1e38f8f0f5d80ebd25af39d0827e9c35b47ee71 488 python-nacl_1.5.0.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha256": [
+    "736c396107de16337f0e47e43d4431b4b5ee58c5cec5a878bd1d09bb9275495a 6784 python-nacl_1.5.0-2.debian.tar.xz d9f53d7a783c5a33a1478d063c22de6cd73e0449f2d806c4cd8fd61b0e4df9df 2624 python-nacl_1.5.0-2.dsc 8ac7448f09ab85811607bdd21ec2464495ac8b7c66d146bf545b0f08fb9220ba 3392854 python-nacl_1.5.0.orig.tar.gz be254a16eb98ddc62267c4022fe2e9092d0fedb3e2e2d9323a1bece1555a79ee 488 python-nacl_1.5.0.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha512": [
+    "5466114ccd82222742e6afb53f2e4607ce9a8b2e8c067fa191fb4ae038941eebf466eff8920b016cb995fb4f1a857bc702872e54ab6f2b26049c2f58eb518ccc 6784 python-nacl_1.5.0-2.debian.tar.xz a1923d33c2148461ae16045d137655801d0310fa822dc9816decc135c7e2473cbfec5a94d43a4936701335999ec2930cc2640bd82890cae6bc0af9e74df0fdca 2624 python-nacl_1.5.0-2.dsc cea3e4556432588630382abae6debf9203c7f55da286509da547a7921e4dbad98c915743625c68e5f7187fcaf6d4cdaf7ed2ed3ba60bd4c10ae6e3f88608dc65 3392854 python-nacl_1.5.0.orig.tar.gz 71394abbc626991e87046f8b03fa87368a6c9797c5e0af6f0f658d5d2ef6c00ab4ede3faff3f5e2d9ae24f7df4b9373251e371b04e1333d7133d852d2982728e 488 python-nacl_1.5.0.orig.tar.gz.asc"
+  ],
+  "Directory": [
+    "pool/main/p/python-nacl"
+  ],
+  "Files": [
+    "c100dcf4cb32ecfe7b3e9ede7575e9ac 6784 python-nacl_1.5.0-2.debian.tar.xz c893e850c9b53b20a88f5b01a5f6ac80 2624 python-nacl_1.5.0-2.dsc 93989045e25f1111452cfdf5e021814d 3392854 python-nacl_1.5.0.orig.tar.gz 2e8f9521f324e0c514cb274aa7321427 488 python-nacl_1.5.0.orig.tar.gz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pyca/pynacl/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-nacl"
+  ],
+  "Package-List": [
+    "python-nacl-doc deb doc optional arch=all python3-nacl deb python optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Tristan Seligmann \u003cmithrandi@debian.org\u003e, Colin Watson \u003ccjwatson@debian.org\u003e, Scott Kitterman \u003cscott@kitterman.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-nacl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-nacl.git"
+  ],
+  "Version": [
+    "1.5.0-2"
+  ]
+}

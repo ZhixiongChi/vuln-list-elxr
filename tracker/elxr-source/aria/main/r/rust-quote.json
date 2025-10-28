@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-quote-dev, librust-quote+proc-macro-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+proc-macro-dev (\u003e= 1.0.40-~~) \u003c!nocheck\u003e, librust-proc-macro2-1-dev (\u003e= 1.0.40-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "8ea49c8ad1a33c8886a071a8dadf844284ba95dd 3248 rust-quote_1.0.21-1.debian.tar.xz 4a86a9a4bbe97e324338299c60c48a31ffe6cc6d 2461 rust-quote_1.0.21-1.dsc 6efb0de665acaad514f4f044730eb1980c0edd58 28030 rust-quote_1.0.21.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "a9304b824cc32be125b2b48b3beaa14a05f0fe070857e61cb107471260460a06 3248 rust-quote_1.0.21-1.debian.tar.xz 5d520d20bc5fdefa7e4fb8d4b702c96a2537e8871b4490a9328b119a62fc7bcb 2461 rust-quote_1.0.21-1.dsc bbe448f377a7d6961e30f5955f9b8d106c3f5e449d493ee1b125c1d43c2b5179 28030 rust-quote_1.0.21.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "a347d5375d4c1efa2313fd509d185ea8b0ca4d4e8744e8e88bbf2f8052e6136553d8eab0c3242f70e57be445db1f9987922d84598c2851e376a2a298d4d7fc8d 3248 rust-quote_1.0.21-1.debian.tar.xz 8287c4244929da273939ce319874d1a7a014d10c4a1cc654d6dc0bea78178019eec5aaa7b91bb056dfba022757726bf07ae65e596f9678a3d5dcabb0f2a465a6 2461 rust-quote_1.0.21-1.dsc 0728eb4df7e1f7c4d32ab08c901c2c969db8eb46b03bcec3e4956a4f6b360939d32abc6b6ebd7a31058e8e9b69c3d995a24cb484f93656f05b4ee963be1c74fc 28030 rust-quote_1.0.21.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-quote"
+  ],
+  "Files": [
+    "698f1eec2c771bdb9d67732406648b33 3248 rust-quote_1.0.21-1.debian.tar.xz 4c7c08576acf812d61b7fe72420d3b43 2461 rust-quote_1.0.21-1.dsc 1de20a0fc1cfdf5e332cbdb2e0899a2b 28030 rust-quote_1.0.21.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-quote"
+  ],
+  "Package-List": [
+    "librust-quote+proc-macro-dev deb rust optional arch=any librust-quote-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-rustversion-1+default-dev, librust-trybuild-1+default-dev, librust-trybuild-1+diff-dev"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/quote"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/quote]"
+  ],
+  "Version": [
+    "1.0.21-1"
+  ]
+}

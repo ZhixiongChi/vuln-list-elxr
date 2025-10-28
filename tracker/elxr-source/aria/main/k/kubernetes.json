@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "kubeadm, kubectl, kubelet"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), rsync, curl, wget, golang-go"
+  ],
+  "Checksums-Sha1": [
+    "a8a03fef11d85136b762b8148ab8599acfde1a46 805 kubernetes_1.30.4+0elxr2.dsc 1c45b5b4cc02e11f641b3fae006a5c54ee171c38 23012232 kubernetes_1.30.4+0elxr2.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "43a9b16f7fa8f70a3acb7849cbba5a1db9511152a50a4e43fc9619c21a835d26 805 kubernetes_1.30.4+0elxr2.dsc 6db8aae1b1d390764f129d81e7bcae51c773b9342c96b5aaa4ff727d97944037 23012232 kubernetes_1.30.4+0elxr2.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "ded96607dec987d4a515b8234c2c8f58c09316b67aa2bc77bc1a60c610a793630aa03f9615359753a14640278aae55a52cea4e57f9d0b1511437d539534f9e29 805 kubernetes_1.30.4+0elxr2.dsc cd0cb3b6b9630104e92d3d5cd347b6ae97d58455bcc942cb2bf061bb8bdb2d7ab220fddfa460fbb278b0dd7f8f643c2f09824e9ffcb274e835789294fdf358f8 23012232 kubernetes_1.30.4+0elxr2.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kubernetes"
+  ],
+  "Files": [
+    "bda21d0a00b6edeec81d22f441c716c2 805 kubernetes_1.30.4+0elxr2.dsc 4a6f99bc25a500b015d556360dfe23e8 23012232 kubernetes_1.30.4+0elxr2.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://kubernetes.io"
+  ],
+  "Maintainer": [
+    "Joe Slater \u003cjoe.slater@windriver.com\u003e"
+  ],
+  "Package": [
+    "kubernetes"
+  ],
+  "Package-List": [
+    "kubeadm deb unknown optional arch=any kubectl deb unknown optional arch=any kubelet deb unknown optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Git": [
+    "https://github.com/kubernetes/kubernetes.git"
+  ],
+  "Version": [
+    "1.30.4+0elxr2"
+  ]
+}

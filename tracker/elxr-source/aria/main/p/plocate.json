@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "plocate, mlocate"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), liburing-dev [linux-any], libzstd-dev, meson, ninja-build, pkg-config, systemd [linux-any]"
+  ],
+  "Checksums-Sha1": [
+    "f3e0bbaf1d2a329e942ffe7d37733a3ab6fb557e 6456 plocate_1.1.18-1.debian.tar.xz 9bf0ab74f4810b16b5ea3aa42694dfa5c23d73a8 1872 plocate_1.1.18-1.dsc e819035ee91b4ae792be393c9c24be59d042ae09 73906 plocate_1.1.18.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "4b1454db2378d5892bf148a1ada899d1f654222decbbcbd53c9697d568a0eef4 6456 plocate_1.1.18-1.debian.tar.xz 9c024f0d09d5be8b4260eb1cadfc0653dc023c4238440123973f8b9c7e4da90b 1872 plocate_1.1.18-1.dsc 939657050b70719b01ce04fc1c8b64270062a0d53da2c72eafbe036a1964e12c 73906 plocate_1.1.18.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "cb39e89fee3dff014f1eb43b75839edf10c9ecb314fb0fc74e940ceb3881e5fe2eeb07dca177c83d190624fc2ff7df03c4c6a9733d45158a5751714032fa462d 6456 plocate_1.1.18-1.debian.tar.xz 3179a29318b3430036edb87d9d0e15280fda752269d4b1085b453346e2aace6d92a6301a178ad9e7a433b3f9cccd12b062bd4fd08970f2a1e69166f682717d32 1872 plocate_1.1.18-1.dsc da059980472df2269139a5b71d34579e239365714d54dfa2af68276c6e28178602eda302d2ec39cb7e5e07312019425159048047ddfc08bd3266e3bf7972d1c6 73906 plocate_1.1.18.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/p/plocate"
+  ],
+  "Files": [
+    "d52eb386e15297c68e6f2d0c1b418f0e 6456 plocate_1.1.18-1.debian.tar.xz 5d0df182536f9534ece5b5da9b57e710 1872 plocate_1.1.18-1.dsc d8f62a54319cf659b0bf73ea1f29ae9d 73906 plocate_1.1.18.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://plocate.sesse.net/"
+  ],
+  "Maintainer": [
+    "Steinar H. Gunderson \u003csesse@debian.org\u003e"
+  ],
+  "Package": [
+    "plocate"
+  ],
+  "Package-List": [
+    "mlocate deb utils optional arch=all plocate deb utils optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Version": [
+    "1.1.18-1"
+  ]
+}

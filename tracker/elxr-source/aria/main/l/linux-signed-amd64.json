@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "amd64"
+  ],
+  "Binary": [
+    "kernel-image-6.1.0-18-amd64-di, nic-modules-6.1.0-18-amd64-di, nic-wireless-modules-6.1.0-18-amd64-di, nic-shared-modules-6.1.0-18-amd64-di, serial-modules-6.1.0-18-amd64-di, usb-serial-modules-6.1.0-18-amd64-di, ppp-modules-6.1.0-18-amd64-di, pata-modules-6.1.0-18-amd64-di, cdrom-core-modules-6.1.0-18-amd64-di, firewire-core-modules-6.1.0-18-amd64-di, scsi-core-modules-6.1.0-18-amd64-di, scsi-modules-6.1.0-18-amd64-di, scsi-nic-modules-6.1.0-18-amd64-di, loop-modules-6.1.0-18-amd64-di, btrfs-modules-6.1.0-18-amd64-di, ext4-modules-6.1.0-18-amd64-di, isofs-modules-6.1.0-18-amd64-di, jfs-modules-6.1.0-18-amd64-di, xfs-modules-6.1.0-18-amd64-di, fat-modules-6.1.0-18-amd64-di, squashfs-modules-6.1.0-18-amd64-di, udf-modules-6.1.0-18-amd64-di, fuse-modules-6.1.0-18-amd64-di, f2fs-modules-6.1.0-18-amd64-di, md-modules-6.1.0-18-amd64-di, multipath-modules-6.1.0-18-amd64-di, usb-modules-6.1.0-18-amd64-di, usb-storage-modules-6.1.0-18-amd64-di, pcmcia-storage-modules-6.1.0-18-amd64-di, fb-modules-6.1.0-18-amd64-di, input-modules-6.1.0-18-amd64-di, event-modules-6.1.0-18-amd64-di, mouse-modules-6.1.0-18-amd64-di, nic-pcmcia-modules-6.1.0-18-amd64-di, pcmcia-modules-6.1.0-18-amd64-di, nic-usb-modules-6.1.0-18-amd64-di, sata-modules-6.1.0-18-amd64-di, acpi-modules-6.1.0-18-amd64-di, i2c-modules-6.1.0-18-amd64-di, crc-modules-6.1.0-18-amd64-di, crypto-modules-6.1.0-18-amd64-di, crypto-dm-modules-6.1.0-18-amd64-di, efi-modules-6.1.0-18-amd64-di, ata-modules-6.1.0-18-amd64-di, mmc-core-modules-6.1.0-18-amd64-di, mmc-modules-6.1.0-18-amd64-di, nbd-modules-6.1.0-18-amd64-di, speakup-modules-6.1.0-18-amd64-di, uinput-modules-6.1.0-18-amd64-di, sound-modules-6.1.0-18-amd64-di, mtd-core-modules-6.1.0-18-amd64-di, rfkill-modules-6.1.0-18-amd64-di, linux-image-6.1.0-18-amd64, linux-image-amd64, linux-headers-amd64, linux-image-6.1.0-18-cloud-amd64, linux-image-cloud-amd64, linux-headers-cloud-amd64, linux-image-6.1.0-18-rt-amd64, linux-image-rt-amd64, linux-headers-rt-amd64"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-exec, python3:any, rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (\u003e= 2.102~), linux-support-6.1.0-18 (= 6.1.76-elxr5-1+salsaci), linux-image-6.1.0-18-amd64-unsigned (= 6.1.76-elxr5-1+salsaci) [amd64], linux-image-6.1.0-18-cloud-amd64-unsigned (= 6.1.76-elxr5-1+salsaci) [amd64], linux-image-6.1.0-18-rt-amd64-unsigned (= 6.1.76-elxr5-1+salsaci) [amd64]"
+  ],
+  "Checksums-Sha1": [
+    "d5ae884eac1710aba92e813d9d2b059060f7eceb 7711 linux-signed-amd64_6.1.76+elxr5+1+salsaci.dsc 310665de7f571983f07344a58e2aeb0acd9f5fd5 3111816 linux-signed-amd64_6.1.76+elxr5+1+salsaci.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "3bb52c28697d94bc6aaafead626519cdb6fc28033c1eabdc9bd82f7ea0aed0a4 7711 linux-signed-amd64_6.1.76+elxr5+1+salsaci.dsc 4706f3180382310bc3fea6213ab2fc9a9898104ffe342e56ab2635c5afdc36f3 3111816 linux-signed-amd64_6.1.76+elxr5+1+salsaci.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "65e3abe4de9fd81cdb719348e02ce85bd1eae739675938c5243dbea31fee313f163d202db99da03b2ac6c9e91b6d0bb8fc47cff72da76cf6a0a1f3add10a7cf7 7711 linux-signed-amd64_6.1.76+elxr5+1+salsaci.dsc ebd95d68e6da658f0382d7631ebd4c72983dfc962fd2f66c0d11365796989659dc5acbdfe22110e99da396064fa8acc1a6ff31581ba6dc8432cf0dc7616f6a57 3111816 linux-signed-amd64_6.1.76+elxr5+1+salsaci.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/linux-signed-amd64"
+  ],
+  "Files": [
+    "0d07375364f6e02be163e9d32c424f89 7711 linux-signed-amd64_6.1.76+elxr5+1+salsaci.dsc db03a969840eb8117bb013ba23b7df25 3111816 linux-signed-amd64_6.1.76+elxr5+1+salsaci.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://www.kernel.org/"
+  ],
+  "Maintainer": [
+    "Debian Kernel Team \u003cdebian-kernel@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "linux-signed-amd64"
+  ],
+  "Package-List": [
+    "acpi-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 ata-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 btrfs-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 cdrom-core-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 crc-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 crypto-dm-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 crypto-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 efi-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 event-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 ext4-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 f2fs-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 fat-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 fb-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 firewire-core-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 fuse-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 i2c-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 input-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 isofs-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 jfs-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 kernel-image-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 linux-headers-amd64 deb kernel optional arch=amd64 linux-headers-cloud-amd64 deb kernel optional arch=amd64 linux-headers-rt-amd64 deb kernel optional arch=amd64 linux-image-6.1.0-18-amd64 deb kernel optional arch=amd64 linux-image-6.1.0-18-cloud-amd64 deb kernel optional arch=amd64 linux-image-6.1.0-18-rt-amd64 deb kernel optional arch=amd64 linux-image-amd64 deb kernel optional arch=amd64 linux-image-cloud-amd64 deb kernel optional arch=amd64 linux-image-rt-amd64 deb kernel optional arch=amd64 loop-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 md-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 mmc-core-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 mmc-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 mouse-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 mtd-core-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 multipath-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 nbd-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 nic-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 nic-pcmcia-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 nic-shared-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 nic-usb-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 nic-wireless-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 pata-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 pcmcia-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 pcmcia-storage-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 ppp-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 rfkill-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 sata-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 scsi-core-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 scsi-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 scsi-nic-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 serial-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 sound-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 speakup-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 squashfs-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 udf-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 uinput-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 usb-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 usb-serial-modules-6.1.0-18-amd64-di udeb debian-installer optional arch=amd64 usb-storage-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64 xfs-modules-6.1.0-18-amd64-di udeb debian-installer standard arch=amd64"
+  ],
+  "Standards-Version": [
+    "4.2.0"
+  ],
+  "Uploaders": [
+    "Bastian Blank \u003cwaldi@debian.org\u003e, maximilian attems \u003cmaks@debian.org\u003e, Ben Hutchings \u003cbenh@debian.org\u003e, Salvatore Bonaccorso \u003ccarnil@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/kernel-team/linux"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/kernel-team/linux.git"
+  ],
+  "Version": [
+    "6.1.76+elxr5+1+salsaci"
+  ]
+}

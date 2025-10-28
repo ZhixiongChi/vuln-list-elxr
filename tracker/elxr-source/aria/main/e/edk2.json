@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ovmf, ovmf-ia32, qemu-efi-arm, qemu-efi-aarch64, qemu-efi"
+  ],
+  "Build-Depends": [
+    "bc, debhelper-compat (= 12), dosfstools, dpkg (\u003e= 1.19.3), gcc-aarch64-linux-gnu, gcc-arm-linux-gnueabi, gcc-multilib [i386], iasl, mtools, nasm, python3, python3-distutils, python3-pexpect, qemu-utils, qemu-system-arm (\u003e= 1:2.12+dfsg), qemu-system-x86 (\u003e= 1:2.12+dfsg), uuid-dev, xorriso"
+  ],
+  "Build-Indep-Architecture": [
+    "amd64"
+  ],
+  "Checksums-Sha1": [
+    "3f21c66b87c4374419e96c247e2f9075ff2648c5 77616 edk2_2022.11-6+deb12u2.debian.tar.xz fbb981c562b4b32d0c38cb6e5a07cda9e90e163c 2104 edk2_2022.11-6+deb12u2.dsc 988d702f92d9a6421eed9955d13bca7c2824f9d7 16710140 edk2_2022.11.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "a1d848115ae9b140e64d3ab34f7c08210b665bee473e3242a6801c163678780e 77616 edk2_2022.11-6+deb12u2.debian.tar.xz 3129d783c9017f738af4453c9f94a2fdfba2ee91cf409c0c3623b31377e76cc6 2104 edk2_2022.11-6+deb12u2.dsc 64257dd8a2778c969b8a869cd3b6eda2db2a346bfcf24dc729859745968f1fd6 16710140 edk2_2022.11.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "e0bf8deb9f213e3b2271231d5b5bd68c05af045dffa3c65763a78ba067e633d16a628579903cd273686314b6799318cefb9779596199940afb01c574dcecd7f2 77616 edk2_2022.11-6+deb12u2.debian.tar.xz 9c676d640b94f0dc4e2454eff34ad96675f55f21ac54c71aa846f8de8c30f6f68bbcdf5572836d6088c6c063185d7db647c6bfdaddb9477c3e3691623cbe87bc 2104 edk2_2022.11-6+deb12u2.dsc c04086b5f4731fb5b143cfdc595f32bee4d77d7d956bd97921cc54851acba9ddb1343a23018537c84eb202b97171e001080625ad6c37fbbaa09c99a4b7892517 16710140 edk2_2022.11.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/edk2"
+  ],
+  "Files": [
+    "e77ae4ba36f9ec4b9d6390c81322beec 77616 edk2_2022.11-6+deb12u2.debian.tar.xz 3dcc05330c7d63728ff92f954af30a6f 2104 edk2_2022.11-6+deb12u2.dsc 5796c83c4624ff00c9c8703cf5424827 16710140 edk2_2022.11.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.tianocore.org"
+  ],
+  "Maintainer": [
+    "Debian QEMU Team \u003cpkg-qemu-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "edk2"
+  ],
+  "Package-List": [
+    "ovmf deb misc optional arch=all ovmf-ia32 deb misc optional arch=all qemu-efi deb misc optional arch=all qemu-efi-aarch64 deb misc optional arch=all qemu-efi-arm deb misc optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dosfstools, grub-efi-amd64-signed, grub-efi-arm64-signed, mtools, openssl, python3-pexpect, qemu-system-arm, qemu-system-x86, sbsigntool, shim-signed, xorriso"
+  ],
+  "Uploaders": [
+    "Steve Langasek \u003cvorlon@debian.org\u003e, Serge Hallyn \u003cserge.hallyn@ubuntu.com\u003e, dann frazier \u003cdannf@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qemu-team/edk2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qemu-team/edk2.git"
+  ],
+  "Version": [
+    "2022.11-6+deb12u2"
+  ]
+}

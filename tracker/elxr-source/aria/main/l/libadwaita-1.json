@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libadwaita-1-0, libadwaita-1-dev, gir1.2-adw-1, libadwaita-1-doc, libadwaita-1-examples"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gi-docgen \u003c!nodoc\u003e, libgirepository1.0-dev, libgnome-desktop-3-dev, libglib2.0-dev (\u003e= 2.66.0), libgtk-4-dev (\u003e= 4.5.0), libxml2-utils, meson (\u003e= 0.59.0), pkg-config, python3-gi (\u003e= 3.40) \u003c!nocheck\u003e, sassc, valac (\u003e= 0.20), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "c48afce1a96bb0ecbd84c33f882bd5dbf3004846 14380 libadwaita-1_1.2.2-1.debian.tar.xz 801dac676decdf42a08779200ba371e733c106fc 2727 libadwaita-1_1.2.2-1.dsc 91db67ce1d5b25d5d2e92debc6f8bfd02e3730de 1330188 libadwaita-1_1.2.2.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "b211030c7c5946731f95d9461fe35f6a0e631e6304b7603034ebef75ab7e36a0 14380 libadwaita-1_1.2.2-1.debian.tar.xz 9767a17afaac54a37d56f38d86b2866c9f84e35e977c8ab846971ee3fdc13a00 2727 libadwaita-1_1.2.2-1.dsc 1bc3026787cec12f00d90f32d454186a665b89ad11df4f8db75037c1b39f51fc 1330188 libadwaita-1_1.2.2.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "2cbb26a97d3d7e77273aa74c32558bbe185a701b22191f990f7ff8b8d9082a8773eb0a9b09686084a6ebbe96579334010c877c8121cd861f8600fd62ac78d08a 14380 libadwaita-1_1.2.2-1.debian.tar.xz 7cd2c81acf9b6e5ed586e78c70b76663f8e452e08bcadfc1dad3f5a3dca10b5e8908c2199a8704fbea43ea64d0242282bc28275264c4052f2f5f3e373e651d98 2727 libadwaita-1_1.2.2-1.dsc 629279da953fe6e625cc81503b3a5aba6244c0f40cc3185dd3cc1584369153efa61b6b88c6e84b375e3f1ef1f173f98369950fa61f632dd45cf50dd46aeb32a1 1330188 libadwaita-1_1.2.2.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/liba/libadwaita-1"
+  ],
+  "Files": [
+    "882beb14b94b870011879b75a937b5a6 14380 libadwaita-1_1.2.2-1.debian.tar.xz da9d1359d5de62d21c9e03cd66baa221 2727 libadwaita-1_1.2.2-1.dsc dc6b39a6d3a2dd9b59776aa8abf93e4a 1330188 libadwaita-1_1.2.2.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.gnome.org/GNOME/libadwaita"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libadwaita-1"
+  ],
+  "Package-List": [
+    "gir1.2-adw-1 deb introspection optional arch=any libadwaita-1-0 deb libs optional arch=any libadwaita-1-dev deb libdevel optional arch=any libadwaita-1-doc deb doc optional arch=all profile=!nodoc libadwaita-1-examples deb x11 optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config, python3, python3-gi, xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Guido Günther \u003cagx@sigxcpu.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/libadwaita/tree/debian/bookworm"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/libadwaita.git -b debian/bookworm"
+  ],
+  "Version": [
+    "1.2.2-1"
+  ]
+}

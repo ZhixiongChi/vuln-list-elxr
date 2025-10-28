@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "haproxy, haproxy-doc, vim-haproxy"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), libpcre2-dev, libssl-dev, liblua5.3-dev, libsystemd-dev [linux-any], python3-sphinx, libopentracing-c-wrapper-dev, pkg-config"
+  ],
+  "Build-Depends-Indep": [
+    "python3, python3-mako"
+  ],
+  "Checksums-Sha256": [
+    "b16dfb35c35aa064cce5e3b7cea1e2f7acf5902bc6c714d9fbbf7b98840e7a15 2399 haproxy_2.6.12-1+deb12u3.dsc 58f9edb26bf3288f4b502658399281cc5d6478468bd178eafe579c8f41895854 4060878 haproxy_2.6.12.orig.tar.gz 90667334095484aea4225ebdebf027505c77366ab1c4dbf06bcecdcc9eae356a 88112 haproxy_2.6.12-1+deb12u3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/updates/main/h/haproxy"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.haproxy.org/"
+  ],
+  "Maintainer": [
+    "Debian HAProxy Maintainers \u003cteam+haproxy@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "haproxy"
+  ],
+  "Package-List": [
+    "haproxy deb net optional arch=any haproxy-doc deb doc optional arch=all vim-haproxy deb net optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "net"
+  ],
+  "Standards-Version": [
+    "4.4.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "apache2, gnutls-bin, socat, ssl-cert, wget"
+  ],
+  "Uploaders": [
+    "Apollon Oikonomopoulos \u003capoikos@debian.org\u003e, Prach Pongpanich \u003cprach@debian.org\u003e, Vincent Bernat \u003cbernat@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/haproxy-team/haproxy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/haproxy-team/haproxy.git"
+  ],
+  "Version": [
+    "2.6.12-1+deb12u3"
+  ]
+}

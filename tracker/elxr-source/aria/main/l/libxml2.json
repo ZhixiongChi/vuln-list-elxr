@@ -1,0 +1,71 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libxml2, libxml2-utils, libxml2-dev, libxml2-doc, python3-libxml2"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Arch": [
+    "dh-sequence-python3 \u003c!nopython\u003e, libicu-dev, liblzma-dev, libpython3-all-dev \u003c!nopython\u003e, pkg-config, python3-all-dev:any (\u003e= 3.5) \u003c!nopython\u003e, rename, zlib1g-dev | libz-dev"
+  ],
+  "Build-Depends-Indep": [
+    "pkg-config"
+  ],
+  "Checksums-Sha1": [
+    "7d2e24cfb589e210f39cdb931bc5b92901b41aae 47500 libxml2_2.9.14+dfsg-1.3~deb12u4.debian.tar.xz 80fb2ce26b06546782096a41f005995db8b62bdb 2610 libxml2_2.9.14+dfsg-1.3~deb12u4.dsc b41615e638174b4e36845c68d4b305dd6a6b541f 2351200 libxml2_2.9.14+dfsg.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "8c2f4b1b03579a3010c4135e57c7754544bf8085960537532faaa0feb0f2930b 47500 libxml2_2.9.14+dfsg-1.3~deb12u4.debian.tar.xz de59e0146715a6edb188729823fe13a597b2b9968c69f7e9e32b4c7ef2ad06e1 2610 libxml2_2.9.14+dfsg-1.3~deb12u4.dsc 4fe913dec8b1ab89d13b489b419a8203176ea39e931eaa0d25b17eafb9c279e9 2351200 libxml2_2.9.14+dfsg.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "cca3170cf2e5f687a874828208e2725d3404dab7555e7a1657e5913c4e3d57a10ca0c0d4aad4fc40cf5741248c8c2b6d1da6b2ab37a156bd9247a9a94e419290 47500 libxml2_2.9.14+dfsg-1.3~deb12u4.debian.tar.xz ea2023ff3329d44bbe8ec6f85592d06d125366198526d1cd78e9d79a541401962b099ae7d2022a1afb8916e4ac3c4765a3c862c0861a2a4ece4330ba431bb00f 2610 libxml2_2.9.14+dfsg-1.3~deb12u4.dsc 1eacc9ac2cd8d38b8466659b3b9d84b94eb765c8f869d6cca0da131060bbc35c2b31c6148d59690547871a20cea339eac8fbe953b4fe37cf0900862f3fd9621b 2351200 libxml2_2.9.14+dfsg.orig.tar.xz"
+  ],
+  "Description": [
+    "GNOME XML library XML is a metalanguage to let you design your own markup language. A regular markup language defines a way to describe information in a certain class of documents (eg HTML). XML lets you define your own customized markup languages for many classes of document. It can do this because it's written in SGML, the international standard metalanguage for markup languages."
+  ],
+  "Directory": [
+    "pool/main/libx/libxml2"
+  ],
+  "Files": [
+    "6de00eaa645f857fe82e99ed09cbe05a 47500 libxml2_2.9.14+dfsg-1.3~deb12u4.debian.tar.xz a698c4e092a04feff907da03ce9607ee 2610 libxml2_2.9.14+dfsg-1.3~deb12u4.dsc bbcae2f48d1c9b1413ef953ce87e9346 2351200 libxml2_2.9.14+dfsg.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://xmlsoft.org"
+  ],
+  "Maintainer": [
+    "Debian XML/SGML Group \u003cdebian-xml-sgml-pkgs@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libxml2"
+  ],
+  "Package-List": [
+    "libxml2 deb libs optional arch=any libxml2-dev deb libdevel optional arch=any libxml2-doc deb doc optional arch=all libxml2-utils deb text optional arch=any python3-libxml2 deb python optional arch=any profile=!nopython"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config"
+  ],
+  "Uploaders": [
+    "Aron Xu \u003caron@debian.org\u003e, YunQiang Su \u003cwzssyqa@gmail.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/xml-sgml-team/libxml2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/xml-sgml-team/libxml2.git"
+  ],
+  "Version": [
+    "2.9.14+dfsg-1.3~deb12u4"
+  ]
+}

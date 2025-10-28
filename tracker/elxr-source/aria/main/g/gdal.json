@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgdal32, libgdal-dev, gdal-bin, gdal-data, gdal-plugins, python3-gdal"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 12), dh-python, doxygen, graphviz, chrpath, bash-completion, libarmadillo-dev, libblosc-dev, libcfitsio-dev, libcurl4-gnutls-dev | libcurl-ssl-dev, libdeflate-dev, libexpat1-dev, libfreexl-dev (\u003e= 1.0.0), libfyba-dev, libgeos-dev, libgeotiff-dev (\u003e= 1.5.0), libgif-dev, libhdf4-alt-dev, libhdf5-dev (\u003e= 1.8.8), libheif-dev, libjpeg-dev, libjson-c-dev, libkml-dev (\u003e= 1.3.0~rc0-3), liblz4-dev, liblzma-dev, default-libmysqlclient-dev, libnetcdf-dev (\u003e= 1:4.0.0), libogdi-dev, libopenjp2-7-dev, libpcre2-dev, libpng-dev, libpoppler-private-dev, libpq-dev, libproj-dev (\u003e= 6.0.0), libqhull-dev, libspatialite-dev, libsqlite3-dev, libtiff-dev, liburiparser-dev, libwebp-dev, libxerces-c-dev, libxml2-dev, libzstd-dev, netcdf-bin, patch, pkg-config, pkg-kde-tools, python3-all-dev, python3-numpy, python3-distutils, python3-setuptools, swig, unixodbc-dev (\u003e= 2.2.11), zlib1g-dev"
+  ],
+  "Checksums-Sha1": [
+    "3253498a1c69f5bf5d635a53a26beafa832c0d02 95716 gdal_3.6.2+dfsg-1.debian.tar.xz f8eca365f24d0b297e9c63cec09fcf19a18a28b2 3110 gdal_3.6.2+dfsg-1.dsc 6da9dc33397d20d2d4273bc63b3238ea09e8afb1 9170436 gdal_3.6.2+dfsg.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "129f9c7a1c87d6b9d5f678b656b77669549cfb22aa8db1406aa7ed657ada1e32 95716 gdal_3.6.2+dfsg-1.debian.tar.xz 13dc9b253dfd6f37c5b9134ff2327a0d84179a344642d2365f76ce1cfe3a6ed4 3110 gdal_3.6.2+dfsg-1.dsc 033e50bb87874f99dbf29bde3e78af1b5f67dc358389b3cc892a5d34019eab81 9170436 gdal_3.6.2+dfsg.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "171774b52af2dbffbb8d0b608170dc2c812e10173506fe4ebdef777bbc178272238cff1b87429d9a5cb2e0d2ad30ebb24cda041105484923d9d69a8327cdee80 95716 gdal_3.6.2+dfsg-1.debian.tar.xz 10faea6db1802c13b5a4b6c34e05f56efa0d5faea00b035729884ce91d3aefb0e6ae2e1fa43013f987f0d990805f8d01130f512ffbd5fb8c92e40c68a101a6fa 3110 gdal_3.6.2+dfsg-1.dsc 98ceac89ae84009e259937f036c5cd629e765f5e60a10ca7b0ea97ab09770291638b46ed3f3b92e5a3a2d2c2939618a5b48a6f25cd1b7e153e3538e9e098146c 9170436 gdal_3.6.2+dfsg.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gdal"
+  ],
+  "Files": [
+    "d52fd36a48a2815e19f3cdd3509676e8 95716 gdal_3.6.2+dfsg-1.debian.tar.xz c840334fd4ba5628c4d3cd990aec803f 3110 gdal_3.6.2+dfsg-1.dsc 637d569e759a232608b3b52b19b5b167 9170436 gdal_3.6.2+dfsg.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.gdal.org/"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gdal"
+  ],
+  "Package-List": [
+    "gdal-bin deb science optional arch=any gdal-data deb science optional arch=all gdal-plugins deb science optional arch=any libgdal-dev deb libdevel optional arch=any libgdal32 deb libs optional arch=any python3-gdal deb python optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Francesco Paolo Lovergine \u003cfrankie@debian.org\u003e, Bas Couwenberg \u003csebastic@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/gdal"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/gdal.git"
+  ],
+  "Version": [
+    "3.6.2+dfsg-1"
+  ]
+}

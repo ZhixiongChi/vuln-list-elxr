@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "samba, samba-libs, samba-common, samba-common-bin, samba-ad-dc, samba-ad-provision, smbclient, samba-testsuite, registry-tools, samba-dev, python3-samba, samba-dsdb-modules, samba-vfs-modules, libsmbclient, libsmbclient-dev, winbind, libpam-winbind, libnss-winbind, libwbclient0, libwbclient-dev, ctdb, libldb2, ldb-tools, libldb-dev, python3-ldb, python3-ldb-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec"
+  ],
+  "Build-Depends-Arch": [
+    "dh-sequence-python3, bison, docbook-xml, docbook-xsl, xsltproc, flex, perl:any, po-debconf, libtalloc-dev (\u003e= 2.3.4~), python3-talloc-dev (\u003e= 2.3.4~), libtevent-dev (\u003e= 0.13.0~), libtdb-dev (\u003e= 1.4.7~), python3-tdb (\u003e= 1.4.7~), pkg-config, libacl1-dev, libarchive-dev, libavahi-client-dev, libavahi-common-dev, libblkid-dev, libbsd-dev, libcap-dev [linux-any], libcephfs-dev [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x], libcmocka-dev (\u003e= 1.1.3), libcups2-dev, libdbus-1-dev, libglusterfs-dev [linux-any], libgnutls28-dev, libgpgme11-dev, libicu-dev, libjansson-dev, libjson-perl, libkeyutils-dev, libkrb5-dev (\u003e= 1.19.0~) \u003cpkg.samba.mitkrb5\u003e, libldap2-dev, liblmdb-dev, libpam0g-dev, libparse-yapp-perl, libpcap-dev [hurd-i386 kfreebsd-any], libpopt-dev, librados-dev [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x], libreadline-dev, libsystemd-dev [linux-any], libtasn1-6-dev (\u003e= 3.8), libtasn1-bin, liburing-dev [linux-any] \u003c!pkg.samba.nouring\u003e, xfslibs-dev [linux-any], zlib1g-dev (\u003e= 1:1.2.3), python3-dev:any | python3-dev, libpython3-dev, python3-dnspython, python3-etcd, python3-markdown, python3-testtools"
+  ],
+  "Checksums-Sha1": [
+    "8edda896e9b03a9a394365ee51d3328f6340ef1f 277520 samba_4.17.12+dfsg-0+deb12u2.debian.tar.xz 0f57409e01f39e2b40bcd2eee62bd622e6ccd82f 4791 samba_4.17.12+dfsg-0+deb12u2.dsc 89bb8e1416f7ce856342523920da888dab72c43e 18223156 samba_4.17.12+dfsg.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "fd30a8fe36c7f4a5c076ded18033474fc7aae7780970cd948d5b9c2254dcb268 277520 samba_4.17.12+dfsg-0+deb12u2.debian.tar.xz a6f9090578ff60e19b36cf726a2d8ed28e71ba4e9deab431828b4e75e717a19b 4791 samba_4.17.12+dfsg-0+deb12u2.dsc d01f7df9a7dca56ce3b145ee9f887ebd138665a76b61b99208044a8f43e9931d 18223156 samba_4.17.12+dfsg.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "33549dbe2c06202d91cacb4e9253916e19c72e21c3ca8f87fb16e6b657c6cccb231bcb2ca46bb570c54efeab4608af2b2e32f1f17159094b18a11afc0618756a 277520 samba_4.17.12+dfsg-0+deb12u2.debian.tar.xz 17917bd1b5e0ffa199e8230cfccf5b36e74f6837172683321e7632d85e1a471d14eb06fbba0edd5d7d7492969fc4d1c4efd145b48e2fe1acdbf17ab9f4d1e266 4791 samba_4.17.12+dfsg-0+deb12u2.dsc 8bbc9c3c86dede1e23349676a0753c82d300e800ce9515aca7fd10358519330c4f32f92e6d9814eef15992c7e90a441762020d8efb2bcad765ae3cdbe821a5b0 18223156 samba_4.17.12+dfsg.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/samba"
+  ],
+  "Files": [
+    "e1ce016816c502d3aff41b5fa158a6f7 277520 samba_4.17.12+dfsg-0+deb12u2.debian.tar.xz a6224e006a539a912b80f79dc2da0487 4791 samba_4.17.12+dfsg-0+deb12u2.dsc d8ac9891eac4590603f43c0cec81d240 18223156 samba_4.17.12+dfsg.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.samba.org"
+  ],
+  "Maintainer": [
+    "Debian Samba Maintainers \u003cpkg-samba-maint@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "samba"
+  ],
+  "Package-List": [
+    "ctdb deb net optional arch=any ldb-tools deb utils optional arch=any libldb-dev deb libdevel optional arch=any libldb2 deb libs optional arch=any libnss-winbind deb admin optional arch=any libpam-winbind deb admin optional arch=any libsmbclient deb libs optional arch=any libsmbclient-dev deb libdevel optional arch=any libwbclient-dev deb libdevel optional arch=any libwbclient0 deb libs optional arch=any python3-ldb deb python optional arch=any python3-ldb-dev deb libdevel optional arch=any python3-samba deb python optional arch=any registry-tools deb net optional arch=any samba deb net optional arch=any samba-ad-dc deb net optional arch=all samba-ad-provision deb net optional arch=all samba-common deb net optional arch=all samba-common-bin deb net optional arch=any samba-dev deb devel optional arch=any samba-dsdb-modules deb libs optional arch=any samba-libs deb libs optional arch=any samba-testsuite deb net optional arch=any samba-vfs-modules deb net optional arch=any smbclient deb net optional arch=any winbind deb net optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "cifs-utils, coreutils, passwd, systemd"
+  ],
+  "Uploaders": [
+    "Steve Langasek \u003cvorlon@debian.org\u003e, Jelmer Vernooĳ \u003cjelmer@debian.org\u003e, Mathieu Parent \u003csathieu@debian.org\u003e, Andrew Bartlett \u003cabartlet+debian@catalyst.net.nz\u003e, Michael Tokarev \u003cmjt@tls.msk.ru\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/samba-team/samba"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/samba-team/samba.git -b bookworm"
+  ],
+  "Version": [
+    "2:4.17.12+dfsg-0+deb12u2"
+  ]
+}

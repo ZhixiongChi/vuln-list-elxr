@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "openssl, libssl3, libcrypto3-udeb, libssl3-udeb, libssl-dev, libssl-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), m4, bc, dpkg-dev (\u003e= 1.15.7)"
+  ],
+  "Checksums-Sha256": [
+    "c154f89cb343b8ecda8a3cc09b8626171282266211b23bc9fef2c6276aab672a 2501 openssl_3.0.17-1~deb12u3.dsc dfdd77e4ea1b57ff3a6dbde6b0bdc3f31db5ac99e7fdd4eaf9e1fbb6ec2db8ce 15344831 openssl_3.0.17.orig.tar.gz 1f2f2c258e4a05affbc8a888accd4a2331a1e6867db6f0178e8bda85aecff62a 833 openssl_3.0.17.orig.tar.gz.asc 93bdec098a8c7c357b88b0b6608a66b16dcb9b02523f6764c6ee03a85a4352a2 55920 openssl_3.0.17-1~deb12u3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/updates/main/o/openssl"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.openssl.org/"
+  ],
+  "Maintainer": [
+    "Debian OpenSSL Team \u003cpkg-openssl-devel@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "openssl"
+  ],
+  "Package-List": [
+    "libcrypto3-udeb udeb debian-installer optional arch=any profile=!noudeb libssl-dev deb libdevel optional arch=any libssl-doc deb doc optional arch=all libssl3 deb libs optional arch=any libssl3-udeb udeb debian-installer optional arch=any profile=!noudeb openssl deb utils optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "perl"
+  ],
+  "Uploaders": [
+    "Christoph Martin \u003cchristoph.martin@uni-mainz.de\u003e, Kurt Roeckx \u003ckurt@roeckx.be\u003e, Sebastian Andrzej Siewior \u003csebastian@breakpoint.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/openssl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/openssl.git"
+  ],
+  "Version": [
+    "3.0.17-1~deb12u3"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "gnome-settings-daemon, gnome-settings-daemon-common, gnome-settings-daemon-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec, dh-sequence-gnome, gsettings-desktop-schemas-dev (\u003e= 42~), gtk-doc-tools, intltool (\u003e= 0.37.1), libasound2-dev [linux-any], libcanberra-gtk3-dev, libcolord-dev (\u003e= 1.4.5) [linux-any], libcups2-dev, libfontconfig-dev, libgcr-3-dev (\u003e= 3.7.5) [linux-any], libgeoclue-2-dev (\u003e= 2.3.1), libgeocode-glib-dev (\u003e= 3.26.3), libglib2.0-dev (\u003e= 2.56), libglib2.0-dev:native (\u003e= 2.58), libgnome-desktop-3-dev (\u003e= 3.37.1), libgtk-3-dev (\u003e= 3.16), libgudev-1.0-dev [linux-any], libgweather-4-dev (\u003e= 4.1), libibus-1.0-dev (\u003e= 1.5.2), liblcms2-dev, libnm-dev (\u003e= 1.0) [linux-any], libnotify-dev (\u003e= 0.7.3), libnss3-dev, libmm-glib-dev (\u003e= 1.0) [linux-any], libpackagekit-glib2-dev (\u003e= 0.8.1), libpolkit-gobject-1-dev, libpulse-dev (\u003e= 12.99.3), libupower-glib-dev (\u003e= 0.99.12), libwacom-dev (\u003e= 0.7) [!hurd-any !kfreebsd-any !s390 !s390x], libx11-dev, libxext-dev, libxfixes-dev (\u003e= 1:6.0), libxi-dev, libxt-dev, meson (\u003e= 0.49.0), mutter (\u003e= 3.31.92) \u003c!nocheck\u003e, polkitd, python3-dbusmock \u003c!nocheck\u003e, python3-gi \u003c!nocheck\u003e, systemd (\u003e= 243) [linux-any], udev [linux-any] \u003c!nocheck\u003e, xauth \u003c!nocheck\u003e, xkb-data, xserver-xorg-input-wacom [!hurd-any !kfreebsd-any !s390 !s390x], xvfb \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "c6e6cba2df89fef0e71c1e5f38c4ad7aa64f5967 70024 gnome-settings-daemon_43.0-4.debian.tar.xz 17dcf9c81d1e1e69c7d29cf30bbdef30bbf71bbc 3166 gnome-settings-daemon_43.0-4.dsc d7f82d48b46f0c62d3821ec26891a661746d3783 1453808 gnome-settings-daemon_43.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "c4747750b8b2c5511203f076eace5e51327fe9629467037561f2689f7dce8211 70024 gnome-settings-daemon_43.0-4.debian.tar.xz 986b6bede2ac0a32c1be029b31406b9d57d14fbf2b19b4810f5fe80934fe20e0 3166 gnome-settings-daemon_43.0-4.dsc 3513bb24fc6f8181667223a64a067534fdccf3bf66326a9403d38b0f0d6013d0 1453808 gnome-settings-daemon_43.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "b4c9247b74b1aff2ebe7cc4df91fdd8d6e9a8babdf40008e43d2b63fb5d69c9836ec9051ef4bce4da6a7f5befe4d24be6b25839abb9424a6105b76ef5babdb53 70024 gnome-settings-daemon_43.0-4.debian.tar.xz 2a07be306cd6bfb0ffe6c617bed18fb3bbd8dfcac0227a6ff06e4256d68134354e2805b88881a2e3c07a25787b238ea90a0b59301c4b36429e1d5bad9397ab69 3166 gnome-settings-daemon_43.0-4.dsc 8cc3ed73fa66d2cf72621db78be68e4fe01f292ab3987aff8cc67a1c67d910622e306c2d3e69a8dca5ac6517c8e57883faf02aec871c7aa1f1348d13ff1900a3 1453808 gnome-settings-daemon_43.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gnome-settings-daemon"
+  ],
+  "Files": [
+    "a76d660cc4dd3066308a85fdc197d2e3 70024 gnome-settings-daemon_43.0-4.debian.tar.xz c3daa795b6aa73f163afbad250f24e10 3166 gnome-settings-daemon_43.0-4.dsc eea402f0a87aea7f4d8428af3917fb0c 1453808 gnome-settings-daemon_43.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gnome-settings-daemon"
+  ],
+  "Package-List": [
+    "gnome-settings-daemon deb gnome optional arch=any gnome-settings-daemon-common deb gnome optional arch=all gnome-settings-daemon-dev deb libdevel optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Gunnar Hjalmarsson \u003cgunnarhj@debian.org\u003e, Iain Lane \u003claney@debian.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gnome-settings-daemon"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gnome-settings-daemon.git"
+  ],
+  "Version": [
+    "43.0-4"
+  ]
+}

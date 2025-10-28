@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libwayland-client0, libwayland-egl1, libwayland-server0, libwayland-cursor0, libwayland-dev, libwayland-egl-backend-dev, libwayland-doc, libwayland-bin"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10), quilt, pkg-config, libexpat1-dev, libffi-dev, libxml2-dev, libwayland-bin \u003ccross\u003e, meson"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, graphviz, xmlto, xsltproc, docbook-xsl"
+  ],
+  "Checksums-Sha1": [
+    "63589e6583b5cdd199714c2bf24089b12433ab75 12928 wayland_1.21.0-1.diff.gz c7681fae605348f2536e0a7f35482cd764979e07 2572 wayland_1.21.0-1.dsc 9d17d81a54584e6a7dca312016b670130e935a52 350620 wayland_1.21.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "a7facbdf5c3f2e1ba5c8332bdf6927eb5af848713f7accec11e01985986f8cfa 12928 wayland_1.21.0-1.diff.gz 484b142ddafd984c954cfeb47b2575b51f568f3eb949afc3ba8e08b3a2ddcc7f 2572 wayland_1.21.0-1.dsc 181b8885f152adef3afb361bb5f23cf466d455de86db123492fb507754b9ef36 350620 wayland_1.21.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "faf64ed13ef1beeb4e0006f6ea0de9d29b9654142345e361bd7e243a278c7defb836a9d9b2089aeadc682698e4504f09ee4f15e76f88287e58df6ab04f9da8a7 12928 wayland_1.21.0-1.diff.gz 0f3ca87ca250cd759b5eda287719b8a5943e3de9aee265e3b5cf5d1af315085a9e74b1ad8dba802e7729971b94a69fee7c2d808ac1a8289dd9f98e90d1d51362 2572 wayland_1.21.0-1.dsc 9b7a0632500da4cc971406f586cab9afd6f0c8286b01d24c27a3957a5407331b2f16a90736087529f1c4c4d3aafb46febdc699ecfc142f9f00e367927e6bac38 350620 wayland_1.21.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/w/wayland"
+  ],
+  "Files": [
+    "c8d435372f62d4a6bbb8bc2d83e79405 12928 wayland_1.21.0-1.diff.gz f7bbb65ea265544294605167491d50b3 2572 wayland_1.21.0-1.dsc bae8edd34a26188dbb609dc2e92ba76b 350620 wayland_1.21.0.orig.tar.gz"
+  ],
+  "Format": [
+    "1.0"
+  ],
+  "Homepage": [
+    "https://wayland.freedesktop.org/"
+  ],
+  "Maintainer": [
+    "Debian X Strike Force \u003cdebian-x@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "wayland"
+  ],
+  "Package-List": [
+    "libwayland-bin deb libdevel optional arch=any libwayland-client0 deb libs optional arch=any libwayland-cursor0 deb libs optional arch=any libwayland-dev deb libdevel optional arch=any libwayland-doc deb doc optional arch=all libwayland-egl-backend-dev deb libdevel optional arch=any libwayland-egl1 deb libs optional arch=any libwayland-server0 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Uploaders": [
+    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Héctor Orón Martínez \u003czumbi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/xorg-team/wayland/wayland"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/xorg-team/wayland/wayland.git"
+  ],
+  "Version": [
+    "1.21.0-1"
+  ]
+}

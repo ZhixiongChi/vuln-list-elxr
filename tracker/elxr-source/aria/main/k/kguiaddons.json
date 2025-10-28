@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libkf5guiaddons-bin, libkf5guiaddons-data, libkf5guiaddons-dev, libkf5guiaddons-doc, libkf5guiaddons5"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), dh-sequence-kf5, dh-sequence-pkgkde-symbolshelper, doxygen, extra-cmake-modules (\u003e= 5.103.0~), libqt5sql5-sqlite:native, libqt5waylandclient5-dev (\u003e= 5.15.2~) [linux-any], libqt5x11extras5-dev (\u003e= 5.15.2~), libwayland-dev (\u003e= 1.9~) [linux-any], libx11-dev, libxcb1-dev, pkg-config, plasma-wayland-protocols (\u003e= 1.7.0~), qtbase5-dev (\u003e= 5.15.2~), qtbase5-private-dev (\u003e= 5.15.2~), qttools5-dev, qttools5-dev-tools (\u003e= 5.4), qtwayland5-dev-tools (\u003e= 5.15.0~) [linux-any]"
+  ],
+  "Checksums-Sha1": [
+    "c1228ce3e4fc5467fc2bf367ac6caf1fa2d041d6 14760 kguiaddons_5.103.0-1.debian.tar.xz d036f8e5007210b11327bc7eaf105866413fcff9 3072 kguiaddons_5.103.0-1.dsc 09108799e241f19cb91bfd7991a3bdb5c1a981fa 78224 kguiaddons_5.103.0.orig.tar.xz dd7050a53f5a7dd7fe144477c3927b8bafafaf0e 488 kguiaddons_5.103.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "9467732d2c2a3355b1798d152d8ad3b41ee1c381353806235b4c282fda791b74 14760 kguiaddons_5.103.0-1.debian.tar.xz ef0b0c66358749c234e6201ee02b58d9a5d37a89801270c1cbd733532ed64a1c 3072 kguiaddons_5.103.0-1.dsc e63280fdefc4d82b42fc7b8e8e30c0b92e05538b00fb31086683019cc2d5b232 78224 kguiaddons_5.103.0.orig.tar.xz e39b075a718039e17ffc3bb39ef54e1a735cf4ff8d4e88dfee2970179111c42d 488 kguiaddons_5.103.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "cb8d2d5bb5cebe1c749288abda2a6719379de196c8da5b607a574d427ad1068f8d0ce7e7e34f249ef95448bd369c5bb3354a0680e70154a49720c9618f1c3aca 14760 kguiaddons_5.103.0-1.debian.tar.xz ec89dee294f66e21b801e5d05f3c35f3299f09a82ca47bab2b824a729caa6f8057a5dd1d136b52fe8037493ba83e1d97506893189c9fd80a33944070eb1fb427 3072 kguiaddons_5.103.0-1.dsc 16237505d112027a8e34d0df4eef0b65d5f733c72ad37cb4916d4a6ee8abb5d2f965cc9abf25e4d96cac908e5e51fc01341c95822755c5f199c50b953d016f31 78224 kguiaddons_5.103.0.orig.tar.xz 9e5395349589be16193d311945b5473ba07a6fa2595c0a5786fddf3ad1744d231c6fae631ad04286f1f4c756bcbdc197d8f2bf800de86d9467c25f97eb68b243 488 kguiaddons_5.103.0.orig.tar.xz.asc"
+  ],
+  "Directory": [
+    "pool/main/k/kguiaddons"
+  ],
+  "Files": [
+    "5ad9c22914b417161dca2c55edbebae6 14760 kguiaddons_5.103.0-1.debian.tar.xz a332863bde271ff66e1450e558fbee65 3072 kguiaddons_5.103.0-1.dsc 1b0bc7da24e0475f105bad5d3c9bc465 78224 kguiaddons_5.103.0.orig.tar.xz 954d93ccd1ebc46d50b181d12dbb8dc1 488 kguiaddons_5.103.0.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/frameworks/kguiaddons"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "kguiaddons"
+  ],
+  "Package-List": [
+    "libkf5guiaddons-bin deb libs optional arch=any libkf5guiaddons-data deb libs optional arch=all libkf5guiaddons-dev deb libdevel optional arch=any libkf5guiaddons-doc deb doc optional arch=all libkf5guiaddons5 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-acc, exuberant-ctags"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/kguiaddons"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/kguiaddons.git"
+  ],
+  "Version": [
+    "5.103.0-1"
+  ]
+}

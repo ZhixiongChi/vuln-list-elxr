@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "nginx, nginx-doc, nginx-common, nginx-dev, nginx-core, nginx-full, nginx-light, nginx-extras, libnginx-mod-http-geoip, libnginx-mod-http-image-filter, libnginx-mod-http-xslt-filter, libnginx-mod-mail, libnginx-mod-stream, libnginx-mod-stream-geoip, libnginx-mod-http-perl"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libexpat-dev, libgd-dev, libgeoip-dev, libpcre2-dev, libperl-dev, libssl-dev, libxslt1-dev, po-debconf, zlib1g-dev"
+  ],
+  "Checksums-Sha1": [
+    "1136f910a6ea3d7c03e9b545fecd0631d7f63757 74448 nginx_1.22.1-9+deb12u3.debian.tar.xz 9662bce460bdc0ba58459cd7d3e6fa2a0631482c 3586 nginx_1.22.1-9+deb12u3.dsc 45a89797f7c789287c7f663811efbbd19e84f154 1073948 nginx_1.22.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "7752240374b88f1da1f8e44f35653576ac8c2d14a03949e9cbf26b622b7ea4dc 74448 nginx_1.22.1-9+deb12u3.debian.tar.xz c9047186bde472b670037d999b15e641138f9fa8402a70b447226be83ec46c29 3586 nginx_1.22.1-9+deb12u3.dsc 9ebb333a9e82b952acd3e2b4aeb1d4ff6406f72491bab6cd9fe69f0dea737f31 1073948 nginx_1.22.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "f391097e87bdc978fc35a79d8c2a4a32700882ddb505e0b2c73a040e05f6567876b5f8d7841258530f9a65be65fe08b0622df66978a5fc72c6e126077b74e3c3 74448 nginx_1.22.1-9+deb12u3.debian.tar.xz bffcfac9f8f731ff887554b6e92b12db4079d8b6a3793fe33f203f47e547b8aa772d75ccd2fb7b31f1fe1534edd473fcbda4595b4407603df6bcfee7b19b52d1 3586 nginx_1.22.1-9+deb12u3.dsc 1d468dcfa9bbd348b8a5dc514ac1428a789e73a92384c039b73a51ce376785f74bf942872c5594a9fcda6bbf44758bd727ce15ac2395f1aa989c507014647dcc 1073948 nginx_1.22.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/n/nginx"
+  ],
+  "Files": [
+    "9f9f4d1d7c08d068a722521dd0c5d357 74448 nginx_1.22.1-9+deb12u3.debian.tar.xz e3b364229539d75aa366105983735142 3586 nginx_1.22.1-9+deb12u3.dsc 8296d957561aeed0261d9be4d3decaec 1073948 nginx_1.22.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://nginx.org"
+  ],
+  "Maintainer": [
+    "Debian Nginx Maintainers \u003cpkg-nginx-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "nginx"
+  ],
+  "Package-List": [
+    "libnginx-mod-http-geoip deb httpd optional arch=any libnginx-mod-http-image-filter deb httpd optional arch=any libnginx-mod-http-perl deb httpd optional arch=any libnginx-mod-http-xslt-filter deb httpd optional arch=any libnginx-mod-mail deb httpd optional arch=any libnginx-mod-stream deb httpd optional arch=any libnginx-mod-stream-geoip deb httpd optional arch=any nginx deb httpd optional arch=any nginx-common deb httpd optional arch=all nginx-core deb httpd optional arch=all nginx-dev deb httpd optional arch=all nginx-doc deb doc optional arch=all nginx-extras deb httpd optional arch=any nginx-full deb httpd optional arch=all nginx-light deb httpd optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "curl, libnginx-mod-http-auth-pam, libnginx-mod-http-brotli-filter, libnginx-mod-http-brotli-static, libnginx-mod-http-cache-purge, libnginx-mod-http-dav-ext, libnginx-mod-http-echo, libnginx-mod-http-fancyindex, libnginx-mod-http-geoip2, libnginx-mod-http-headers-more-filter, libnginx-mod-http-lua, libnginx-mod-http-memc, libnginx-mod-http-set-misc, libnginx-mod-http-srcache-filter, libnginx-mod-http-subs-filter, libnginx-mod-http-uploadprogress, libnginx-mod-http-upstream-fair, libnginx-mod-nchan, libnginx-mod-rtmp, libnginx-mod-stream-geoip2, ssl-cert"
+  ],
+  "Uploaders": [
+    "Jan Mojžíš \u003cjan.mojzis@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/nginx-team/nginx"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/nginx-team/nginx.git"
+  ],
+  "Version": [
+    "1.22.1-9+deb12u3"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libtiff6, libtiffxx6, libtiff-dev, libtiff5-dev, libtiff-tools, libtiff-opengl, libtiff-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), freeglut3-dev, libglu1-mesa-dev, libjbig-dev, libjpeg-dev, liblzma-dev, libzstd-dev, libwebp-dev, libxi-dev, zlib1g-dev, libdeflate-dev, liblerc-dev [!s390x !hppa !powerpc !ppc64 !sparc64], sphinx \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "078ea18a8b7683291a4586566281e8cbd4926c72340bc2691dd20fcff59e40a7 2287 tiff_4.5.0-6+deb12u3.dsc 638f43d7dea33948d5dee7f39572fc0194d9cc3c74195de9dd26a4388a1f880a 2050377 tiff_4.5.0.orig.tar.bz2 75c8500b9063edc916030e29bbdfc390a9d850d6806d3ec3ef08670d21467c96 31356 tiff_4.5.0-6+deb12u3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/updates/main/t/tiff"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://libtiff.gitlab.io/libtiff/"
+  ],
+  "Maintainer": [
+    "Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e"
+  ],
+  "Package": [
+    "tiff"
+  ],
+  "Package-List": [
+    "libtiff-dev deb libdevel optional arch=any libtiff-doc deb doc optional arch=all libtiff-opengl deb graphics optional arch=any libtiff-tools deb graphics optional arch=any libtiff5-dev deb oldlibs optional arch=any libtiff6 deb libs optional arch=any libtiffxx6 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Version": [
+    "4.5.0-6+deb12u3"
+  ]
+}

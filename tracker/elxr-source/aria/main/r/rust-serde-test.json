@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-serde-test-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-serde-1+default-dev (\u003e= 1.0.60-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "c2b7a922cffc3236870d7b8b8388147ce6aa06f8 2808 rust-serde-test_1.0.145-1.debian.tar.xz d864063dbaee2cab63c1b797daff7fda8591a8dd 2437 rust-serde-test_1.0.145-1.dsc 4ff21bd23940a69eb73b9f2846d4dfbe3bfaf51b 19939 rust-serde-test_1.0.145.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "9ab1f17a0002faea14ff1826fa99669bac3311a4a04e2354a3d663d34c3ba554 2808 rust-serde-test_1.0.145-1.debian.tar.xz 562218b105e9451db777a1b65927338dcdab90f5c20489eaf1f2c7b2fbf7410c 2437 rust-serde-test_1.0.145-1.dsc 9c17d2112159132660b4c5399e274f676fb75a2f8d70b7468f18f045b71138ed 19939 rust-serde-test_1.0.145.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "ce89bcd54b1f9c10e48369baf857021d9580d5594b194070472203a3bd56ce7d12a771fb7ec483ea6bbc2d1407ce665a91280467c5ac1ccead2f1d3e5f4412a1 2808 rust-serde-test_1.0.145-1.debian.tar.xz fd9f76e22279b8d16775ba19e0d0ba77398e8d85f87ae027f5c491c7a43fe7bc6b5244cdea7aac0cd03f3f0496528b65a18c909262b4a38db73d59ded246088d 2437 rust-serde-test_1.0.145-1.dsc 165eb09463ea021f5281309e7818ae731ff1d329d8dd2903e4cab6120ad5d6a0b97e6c0d33b033e64d81ededc861fad68917a37a7937024bfecfcd502089bc30 19939 rust-serde-test_1.0.145.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-serde-test"
+  ],
+  "Files": [
+    "8d4aaa61591856e1818c097b4ed9cdff 2808 rust-serde-test_1.0.145-1.debian.tar.xz 6dc955a3718bcee7c5a653863e36572f 2437 rust-serde-test_1.0.145-1.dsc 086c75f193d2dab34f2ce6187f4c6d63 19939 rust-serde-test_1.0.145.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://serde.rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-serde-test"
+  ],
+  "Package-List": [
+    "librust-serde-test-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-serde-1+default-dev, librust-serde-derive-1+default-dev"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/serde-test"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/serde-test]"
+  ],
+  "Version": [
+    "1.0.145-1"
+  ]
+}

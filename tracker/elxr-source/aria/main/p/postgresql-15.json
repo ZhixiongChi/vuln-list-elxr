@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libpq-dev, libpq5, libecpg6, libecpg-dev, libecpg-compat3, libpgtypes3, postgresql-15, postgresql-client-15, postgresql-server-dev-15, postgresql-doc-15, postgresql-plperl-15, postgresql-plpython3-15, postgresql-pltcl-15"
+  ],
+  "Build-Depends": [
+    "autoconf, bison, clang [!alpha !hppa !hurd-i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !m68k !powerpc !riscv64 !s390x !sh4 !sparc64 !x32], debhelper-compat (= 13), dh-exec (\u003e= 0.13~), docbook-xml, docbook-xsl (\u003e= 1.77), dpkg-dev (\u003e= 1.16.1~), flex, gdb \u003c!nocheck\u003e, gettext, libicu-dev, libio-pty-perl \u003c!nocheck\u003e, libipc-run-perl \u003c!nocheck\u003e, libkrb5-dev, libldap2-dev, liblz4-dev, libpam0g-dev | libpam-dev, libperl-dev, libreadline-dev, libselinux1-dev [linux-any], libssl-dev, libsystemd-dev [linux-any], libxml2-dev, libxml2-utils, libxslt1-dev, libzstd-dev (\u003e= 1.4.0) \u003c!pkg.postgresql.nozstd\u003e, llvm-dev [!alpha !hppa !hurd-i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !m68k !powerpc !riscv64 !s390x !sh4 !sparc64 !x32], lz4 | liblz4-tool, mawk, perl (\u003e= 5.8), pkg-config, postgresql-common (\u003e= 233~), python3-dev, systemtap-sdt-dev, tcl-dev, uuid-dev, xsltproc, zlib1g-dev | libz-dev, zstd (\u003e= 1.4.0) \u003c!pkg.postgresql.nozstd\u003e"
+  ],
+  "Checksums-Sha1": [
+    "c7354555c87517b9333734a4fabc4418e5813880 29292 postgresql-15_15.14-0+deb12u1.debian.tar.xz b37f24684a50416adacb53b6a91dd2e92819ee05 3926 postgresql-15_15.14-0+deb12u1.dsc 474c7ee4c36f34dac2080c7ec569f1b485df724e 23229854 postgresql-15_15.14.orig.tar.bz2"
+  ],
+  "Checksums-Sha256": [
+    "1d66919ab0816c8962f3966455b2bee7a8359d118d4d0c54277efb2c4dedac67 29292 postgresql-15_15.14-0+deb12u1.debian.tar.xz dfadb4a24df17970d152f845db33e589617938f04142a4f6708088adce0ace1a 3926 postgresql-15_15.14-0+deb12u1.dsc 06dd75d305cd3870ee62b3932e661c624543eaf9ae2ba37cdec0a4f8edd051d2 23229854 postgresql-15_15.14.orig.tar.bz2"
+  ],
+  "Checksums-Sha512": [
+    "12021f0f6f6b89b7b3e6b58112aa8b7cc74a06dafac067ad20201c2633d9a391c8b3c0ede0082320d2d63a6d7c268ce05722c43e00bfedd09c4a51837dfff97b 29292 postgresql-15_15.14-0+deb12u1.debian.tar.xz da93d674734689cc922fd55c761ad70ffbcbebfd9d7c9f636664840ce58494212ec8f9dff999425ed9b1b0ca7f969eb089b65c4daa924718d6000c6f899a3e19 3926 postgresql-15_15.14-0+deb12u1.dsc 6bef254af257eb79a6b4ec1fd09a996351848561a493e529b7e44b053b368753d56cd76de74b07fff6d637606773963e83e4c3bb321682774b12d24dfa1ca8f4 23229854 postgresql-15_15.14.orig.tar.bz2"
+  ],
+  "Directory": [
+    "pool/main/p/postgresql-15"
+  ],
+  "Files": [
+    "fadeb435d1c0127d9d4bf7ecfd676b47 29292 postgresql-15_15.14-0+deb12u1.debian.tar.xz c32101eb832f73de2eaab47af22131a8 3926 postgresql-15_15.14-0+deb12u1.dsc d20c3f7b7f9422d1b896d6362858cea1 23229854 postgresql-15_15.14.orig.tar.bz2"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.postgresql.org/"
+  ],
+  "Maintainer": [
+    "Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "postgresql-15"
+  ],
+  "Package-List": [
+    "libecpg-compat3 deb libs optional arch=any libecpg-dev deb libdevel optional arch=any libecpg6 deb libs optional arch=any libpgtypes3 deb libs optional arch=any libpq-dev deb libdevel optional arch=any libpq5 deb libs optional arch=any postgresql-15 deb database optional arch=any postgresql-client-15 deb database optional arch=any postgresql-doc-15 deb doc optional arch=all profile=!nodoc postgresql-plperl-15 deb database optional arch=any postgresql-plpython3-15 deb database optional arch=any postgresql-pltcl-15 deb database optional arch=any postgresql-server-dev-15 deb libdevel optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, debhelper, fakeroot, hunspell-en-us, iproute2, locales-all, logrotate, netcat-openbsd, perl, procps"
+  ],
+  "Uploaders": [
+    "Martin Pitt \u003cmpitt@debian.org\u003e, Peter Eisentraut \u003cpetere@debian.org\u003e, Christoph Berg \u003cmyon@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/postgresql/postgresql"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/postgresql/postgresql.git -b 15-bookworm"
+  ],
+  "Version": [
+    "15.14-0+deb12u1"
+  ]
+}

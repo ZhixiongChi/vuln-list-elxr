@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "squid, squid-openssl, squid-common, squidclient, squid-cgi, squid-purge"
+  ],
+  "Build-Depends": [
+    "ed, libltdl-dev, pkg-config, g++ (\u003e= 4.9) \u003c!cross\u003e | clang (\u003e= 3.7) \u003c!cross\u003e, gcc (\u003e= 4.9) \u003c!cross\u003e | clang (\u003e= 3.7) \u003c!cross\u003e, debhelper (\u003e= 12.8), dpkg-dev (\u003e= 1.17.11~), lsb-release, dh-apparmor, libcppunit-dev, libcap2-dev [linux-any], libdb-dev, libecap3-dev (\u003e= 1.0.1-2), libexpat1-dev, libgnutls28-dev (\u003e= 3.5), libkrb5-dev, comerr-dev, libldap2-dev, libnetfilter-conntrack-dev [linux-any], libpam0g-dev, libsasl2-dev, libsystemd-dev [linux-any], libxml2-dev, nettle-dev, libssl-dev"
+  ],
+  "Checksums-Sha256": [
+    "42e09204fb1b96738b0ec3b8682e7db386952bee0aa73e3c71d8f55044b42540 2753 squid_4.13-10+deb11u5.dsc 6891a0f540e60779b4f24f1802a302f813c6f473ec7336a474ed68c3e2e53ee0 2452752 squid_4.13.orig.tar.xz 698695ec30e41f103fe3a0ea859d77bf2b01b9c16f89cb003c05c4d3d8891aa3 115584 squid_4.13-10+deb11u5.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/updates/main/s/squid"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.squid-cache.org"
+  ],
+  "Maintainer": [
+    "Luigi Gangitano \u003cluigi@debian.org\u003e"
+  ],
+  "Package": [
+    "squid"
+  ],
+  "Package-List": [
+    "squid deb web optional arch=any squid-cgi deb web optional arch=any squid-common deb web optional arch=all squid-openssl deb web optional arch=any squid-purge deb web optional arch=any squidclient deb web optional arch=any"
+  ],
+  "Priority": [
+    "extra"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, apache2, apparmor-utils, elinks, fakeroot, netcat, python3-minimal, ssl-cert, vsftpd"
+  ],
+  "Uploaders": [
+    "Santiago Garcia Mantinan \u003cmanty@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/squid-team/squid"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/squid-team/squid.git"
+  ],
+  "Version": [
+    "4.13-10+deb11u5"
+  ]
+}

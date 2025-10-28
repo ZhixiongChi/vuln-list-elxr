@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-zmq"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pybuild-plugin-pyproject, dh-python, libzmq3-dev, cython3, cython3-dbg \u003c!nocheck\u003e, python3-all-dev, python3-cffi \u003c!nocheck\u003e, python3-numpy \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-tornado \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "f264a9ef40ddd3f30e29398888e5db5390cf76f9 10748 pyzmq_24.0.1-4.debian.tar.xz 7000e140803a9ad996317216145320931523674f 1722 pyzmq_24.0.1-4.dsc 366c938813e66940ba167709a000ef767cf494db 404000 pyzmq_24.0.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "2234dba97d6712d2bbb31ea804fc1747f2f37104938f39386c85473ceaa09b68 10748 pyzmq_24.0.1-4.debian.tar.xz 9c8adda0f679f027242a9ecdfd8a7df8c8e7000774bba0e062b6473602c1c79b 1722 pyzmq_24.0.1-4.dsc ce8ea133817947828852847e7b940df41e7672183411ca7175102c05d5dbffad 404000 pyzmq_24.0.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "4c52876e7fd5b3fe4e279d4250222987ea77d473c89d02dc3e72c3a48ba5d9d04386b96c7a558050ef7075dbdfcaa778e485b2accafa07e96fd4eb26c6f65740 10748 pyzmq_24.0.1-4.debian.tar.xz 2d76adec10b3fe1e451b5867abb577695147562e1b8fb775612d72885eb2b37467ff13dc883d17867c04c1fd2eb752da54b272b25810f9f348e78cfccb5739b6 1722 pyzmq_24.0.1-4.dsc d4b6346e780f356941a624321f1619771fb2f0ef9f65a3c0a03e837ef081ece7ed59c03f57e8647ab1cd38cfc7404d597dd294768f9e9b890115b9eebc085484 404000 pyzmq_24.0.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/p/pyzmq"
+  ],
+  "Files": [
+    "565768229e016debf162b28a8372b691 10748 pyzmq_24.0.1-4.debian.tar.xz c92fb2aef89d055efa37b6bb020b33e3 1722 pyzmq_24.0.1-4.dsc b5e80d8d41d20850038c9bf006da3123 404000 pyzmq_24.0.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.zeromq.org/bindings:python"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pyzmq"
+  ],
+  "Package-List": [
+    "python3-zmq deb python optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-numpy, python3-pytest, python3-tornado"
+  ],
+  "Uploaders": [
+    "Julian Taylor \u003cjtaylor.debian@googlemail.com\u003e, Vincent Bernat \u003cbernat@debian.org\u003e, Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pyzmq"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pyzmq.git"
+  ],
+  "Version": [
+    "24.0.1-4"
+  ]
+}

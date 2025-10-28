@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "elfutils, libelf1, libelf-dev, libdw-dev, libdw1, libasm1, libasm-dev, libdebuginfod1, libdebuginfod-dev, debuginfod, libdebuginfod-common"
+  ],
+  "Build-Conflicts": [
+    "autoconf2.13"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 11), autoconf, automake, lsb-release, bzip2, zlib1g-dev, zlib1g-dev:native, libbz2-dev, liblzma-dev, m4, gettext, po-debconf, gawk, dpkg-dev (\u003e= 1.16.1~), gcc-multilib [any-amd64 sparc64] \u003c!nocheck\u003e, libc6-dbg [powerpc powerpcspe ppc64 ppc64el armel armhf arm64 sparc64 riscv64], flex, bison, pkg-config, libarchive-dev \u003c!pkg.elfutils.nodebuginfod\u003e, libmicrohttpd-dev \u003c!pkg.elfutils.nodebuginfod\u003e, libcurl4-gnutls-dev \u003c!pkg.elfutils.nodebuginfod\u003e, libsqlite3-dev \u003c!pkg.elfutils.nodebuginfod\u003e"
+  ],
+  "Checksums-Sha1": [
+    "f3f0b4ec8a4ef2c05b4da079e0416ab095426ec3 42328 elfutils_0.188-2.1.debian.tar.xz 70db45271891a882622e3bbe6e34f27645b284f1 3451 elfutils_0.188-2.1.dsc 5e23c010b7f9f45140a43e95d8d1f7fb04aa8302 9112977 elfutils_0.188.orig.tar.bz2 0b93f350408c0e70bdad0fd535ec24e7c4945c13 488 elfutils_0.188.orig.tar.bz2.asc"
+  ],
+  "Checksums-Sha256": [
+    "dac77dc13f8f3bb2c541d631faf75216fc6640a359143a4545129ee096bc35ff 42328 elfutils_0.188-2.1.debian.tar.xz 2e73c5bfe9d0ddbf837742d638c43b049590ae1de8f6e3d9c2740c28e2550760 3451 elfutils_0.188-2.1.dsc fb8b0e8d0802005b9a309c60c1d8de32dd2951b56f0c3a3cb56d21ce01595dff 9112977 elfutils_0.188.orig.tar.bz2 061bb59801b8a23de4b129acb242210889be2c25b43ad2bcc2eb04966a1823e6 488 elfutils_0.188.orig.tar.bz2.asc"
+  ],
+  "Checksums-Sha512": [
+    "e63a4ae7f9246049abf8c75b892e44dafebc4a90efebaf5fa94f8dd8ece4e9a88ce894662d7b2ed046af9068541413d049d7bb3ecde414522bb3edce219a7ba0 42328 elfutils_0.188-2.1.debian.tar.xz a094088984182d9292de101024a23034d9a79188733b6c919b6051c8aa85c81923c0a30ec6e9c594d012bf6e1d10650fb123b625033a598683d25bc3f4eaf1a8 3451 elfutils_0.188-2.1.dsc 585551b2d937d19d1becfc2f28935db1dd1a3d25571a62f322b70ac8da98c1a741a55d070327705df6c3e2ee026652e0b9a3c733b050a0b0ec5f2fc75d5b74b5 9112977 elfutils_0.188.orig.tar.bz2 daa6e2c164602652542340863c6272628346e5f8acd1c01cca72f065ddfe23c5fcff3d84fa53916e4b888d58778958a0d5e7715033d220f1e36d4d88b5c69aa7 488 elfutils_0.188.orig.tar.bz2.asc"
+  ],
+  "Directory": [
+    "pool/main/e/elfutils"
+  ],
+  "Files": [
+    "7383a8b91d0e873078fc8e1f3507ac4c 42328 elfutils_0.188-2.1.debian.tar.xz a18b4f1a37ccf3beb247f9a8add5b2e3 3451 elfutils_0.188-2.1.dsc efb25a91873b2eec4df9f31e6a4f4e5c 9112977 elfutils_0.188.orig.tar.bz2 228969aca343854a0e312ebc906062b9 488 elfutils_0.188.orig.tar.bz2.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://sourceware.org/elfutils/"
+  ],
+  "Maintainer": [
+    "Debian Elfutils Maintainers \u003cdebian-gcc@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "elfutils"
+  ],
+  "Package-List": [
+    "debuginfod deb devel optional arch=any profile=!pkg.elfutils.nodebuginfod elfutils deb utils optional arch=any libasm-dev deb libdevel optional arch=any libasm1 deb libs optional arch=any libdebuginfod-common deb devel optional arch=all profile=!pkg.elfutils.nodebuginfod libdebuginfod-dev deb libdevel optional arch=any profile=!pkg.elfutils.nodebuginfod libdebuginfod1 deb libs optional arch=any profile=!pkg.elfutils.nodebuginfod libdw-dev deb libdevel optional arch=any libdw1 deb libs optional arch=any libelf-dev deb libdevel optional arch=any libelf1 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Uploaders": [
+    "Kurt Roeckx \u003ckurt@roeckx.be\u003e, Matthias Klose \u003cdoko@debian.org\u003e, Sergio Durigan Junior \u003csergiodj@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/toolchain-team/elfutils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/toolchain-team/elfutils.git"
+  ],
+  "Version": [
+    "0.188-2.1"
+  ]
+}

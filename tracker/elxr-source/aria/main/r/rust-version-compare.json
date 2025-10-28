@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-version-compare-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "d137efa99a2582cbe97681f3106a693164a72c0b 2812 rust-version-compare_0.1.1-1.debian.tar.xz a3a448480a210cf9c77a4f725e746587cb40a049 2281 rust-version-compare_0.1.1-1.dsc 242d6c102c31e9c6e8507d136a71b366c135fb2d 13224 rust-version-compare_0.1.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "3c096573975a92d0c4ef0c813d288f44ed9b37a0f8f3f4fe66054184262c35cc 2812 rust-version-compare_0.1.1-1.debian.tar.xz 83d0a91369ffefb921cf4ce9b111151474d1c7ea1653741f5bc3f1e115e8d187 2281 rust-version-compare_0.1.1-1.dsc 579a42fc0b8e0c63b76519a339be31bed574929511fa53c1a3acae26eb258f29 13224 rust-version-compare_0.1.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "c9485e6c0707fed3aeffa863319bd6e1e4e2e8cfb1d81e58d3cea6158f37d3d9467fcd6389ae9f58d48c919009496a3b299363b5bdd9e4a221e6d2feec65aaae 2812 rust-version-compare_0.1.1-1.debian.tar.xz 3f7c7b4d81a1b974c8d996129888d71dd9b3c5e51acf573002d5281fae6297cb46867045f563156425d216afccabb34d1e6c212a883bfb5bde9b15a2a9b47ad9 2281 rust-version-compare_0.1.1-1.dsc efc9441440f702518867e2056c0ab066cd2fa6949112479e463802610f25a4d50c4411eb5fd0ba6ca9b187e358fce8d99579188e0ed9ba0297191172ab7af408 13224 rust-version-compare_0.1.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-version-compare"
+  ],
+  "Files": [
+    "3d23a659f96134c3cffc09277557ffc5 2812 rust-version-compare_0.1.1-1.debian.tar.xz 8e2b25190b3a902cd8a07b478909a959 2281 rust-version-compare_0.1.1-1.dsc d4e6a3f2d7286408592d08defd7de156 13224 rust-version-compare_0.1.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://timvisee.com/projects/version-compare/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-version-compare"
+  ],
+  "Package-List": [
+    "librust-version-compare-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/version-compare"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/version-compare]"
+  ],
+  "Version": [
+    "0.1.1-1"
+  ]
+}

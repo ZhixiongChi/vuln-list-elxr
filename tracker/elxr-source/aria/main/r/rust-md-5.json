@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-md-5-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-digest-0.10+default-dev (\u003e= 0.10.3-~~) \u003c!nocheck\u003e, librust-digest-0.10+std-dev (\u003e= 0.10.3-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "696ae9c0022576e1b2a473497f4c1979972bf3d9 2844 rust-md-5_0.10.1-1.debian.tar.xz 650c88bbfefeb250df626c875d40c032347e13d6 2275 rust-md-5_0.10.1-1.dsc 7348a09c9ec8de5f849708f8e91bb651aa28d12c 14184 rust-md-5_0.10.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "74c143c2f894ff127bd4d11016b2569398de14efb154c06f4d00487b31a35121 2844 rust-md-5_0.10.1-1.debian.tar.xz 55e5c62859746e0175578dbb9643d92e7d318a1859e3879082357a2ceda85b10 2275 rust-md-5_0.10.1-1.dsc 658646b21e0b72f7866c7038ab086d3d5e1cd6271f060fd37defb241949d0582 14184 rust-md-5_0.10.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "99b87cda5d45f3d53716d86ee3f26f669d739b4b6db7b2ea8b086f10600be7cbed206d0a8797cc56b8afa3358fed2a7dfd3181bc5b6b592e4f7a2b6efc9f4e48 2844 rust-md-5_0.10.1-1.debian.tar.xz 802277d4d26b7a5dc9841a92c78f6e3e7300f06bd12dfc7463fbc938891be7199b7913cf3098b5bd8a0bdb416b7f365a684820bfec551adb81cdae6e407fcd7a 2275 rust-md-5_0.10.1-1.dsc 51e75f65363b3a7f4f12c7d8b563bd17cb717cdfec11fbc9dd267dc97bc933fb197c26c6e823dbe4f5e2af6261ec1b9cc003182b027be4c0ceef2d6e07bcb9df 14184 rust-md-5_0.10.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-md-5"
+  ],
+  "Files": [
+    "24021259ab575d20499a424b676e2e37 2844 rust-md-5_0.10.1-1.debian.tar.xz 0ff6af92a404c2cf33206c62dcfbc136 2275 rust-md-5_0.10.1-1.dsc c0b5fab2f5dcf8f976c8af0d2136bd9d 14184 rust-md-5_0.10.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-md-5"
+  ],
+  "Package-List": [
+    "librust-md-5-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-digest-0.10+default-dev, librust-digest-0.10+dev-dev, librust-hex-literal-0.2+default-dev"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/md-5"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/md-5]"
+  ],
+  "Version": [
+    "0.10.1-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "fence-agents, fence-virt, fence-virtd"
+  ],
+  "Build-Depends": [
+    "autoconf, automake, bison, debhelper-compat (= 13), dh-python, flex, iputils-ping, libcpg-dev, libglib2.0-dev, libnet-telnet-perl, libnspr4-dev, libnss3-dev, libtool, libvirt-dev, libxml2-dev, libxml2-utils, perl, python3, python3-boto3, python3-googleapi, python3-kubernetes, python3-oauth2client, python3-pexpect, python3-pycurl, python3-requests, python3-suds, systemd, time, uuid-dev, xsltproc"
+  ],
+  "Checksums-Sha1": [
+    "c9e1ae0a27f8cd84f366a985e4819e6b56da4651 11452 fence-agents_4.12.1-1.debian.tar.xz 245c271d780b3ff5db243f6e0ee2ce31f25e9c6f 2649 fence-agents_4.12.1-1.dsc 62d6a4bbe6cb4b490154f7f47c8975aa97bbbe0b 475073 fence-agents_4.12.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "6d9e124e19dfc74d417db7d63ef8c67d70705476d0406b8d0b741b8a1a63dd40 11452 fence-agents_4.12.1-1.debian.tar.xz 9d720aa31b708e64d0885dcd55f32a2cb12766cd54af1b53cc99a6806a17886f 2649 fence-agents_4.12.1-1.dsc a30349759931bc19eed100225615215b9c26e005cefa394993b5cbee13b72145 475073 fence-agents_4.12.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "9bc84c1fe5dcce48a315991b45ff339489022139c10502692c9ca6b4a8c383b16151667e6fc2ad194bcd46b2281192b474845cfd720378435d1d4e72e5d1f1ad 11452 fence-agents_4.12.1-1.debian.tar.xz 6f5a09cf97e79269d6eb341b6f40fa82bce3054912e4c6f7e7c99d54ddd1d88de17c9a8e8e5badcc123c1653d11d430d0d6e91c9769f4bc3ca80c067484a7f02 2649 fence-agents_4.12.1-1.dsc d28fe780cb8d845e9424fb2d601b764a609e484d2355809c55ae0ea86fe6bde57a08567f9d6548e2fd853080992528415f033c8576a3392abca1b29a8670aa87 475073 fence-agents_4.12.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/f/fence-agents"
+  ],
+  "Files": [
+    "3af55aa804656e167c8628528b7a7c84 11452 fence-agents_4.12.1-1.debian.tar.xz 0ef79728e9aa220a025e68d789ae8185 2649 fence-agents_4.12.1-1.dsc f7005de5c4ce356bcaae23ee19529115 475073 fence-agents_4.12.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ClusterLabs/fence-agents"
+  ],
+  "Maintainer": [
+    "Debian HA Maintainers \u003cdebian-ha-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "fence-agents"
+  ],
+  "Package-List": [
+    "fence-agents deb admin optional arch=any fence-virt deb admin optional arch=any fence-virtd deb admin optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "gawk, iputils-ping, libxml2-utils, python3-openstackclient, time, xsltproc"
+  ],
+  "Uploaders": [
+    "Adrian Vondendriesch \u003cadrian.vondendriesch@credativ.de\u003e, Valentin Vidic \u003cvvidic@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ha-team/fence-agents"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ha-team/fence-agents.git"
+  ],
+  "Version": [
+    "4.12.1-1"
+  ]
+}

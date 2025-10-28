@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libmbedtls-dev, libmbedcrypto7, libmbedtls14, libmbedx509-1, libmbedtls-doc"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Arch": [
+    "faketime \u003c!nocheck\u003e, python3:any"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, python3"
+  ],
+  "Checksums-Sha1": [
+    "b5926254e32b5f346bf5ba063fa6a1c134b72854 15360 mbedtls_2.28.3-1.debian.tar.xz 2cb098e5e9e81d22478c57dd145ef0f3afa70bfb 1684 mbedtls_2.28.3-1.dsc d46536829f736d1cb1507e15d3a42ea6994e6c75 3952799 mbedtls_2.28.3.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "3e03c61f63c7bbcd0bf695b53e6663ab448cc2e15429cd67d0e4f32e699645a9 15360 mbedtls_2.28.3-1.debian.tar.xz a8bf91b5ffb40654efb0ebe0c962ac1e87b8eed5e104880982eaa70dd4bb33e3 1684 mbedtls_2.28.3-1.dsc 3b4953aa55a681e084d31892d9904cc5328d6b4958ea57b90ae4b4f94ae69a8d 3952799 mbedtls_2.28.3.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "0ad2a7e95f15ef85a242153bfa0645d4ae586f70622791d91839002a56c24c14d2f53c0a9218989e30470b6ec516ce80dcf687ee3901507f34704df353fc4c78 15360 mbedtls_2.28.3-1.debian.tar.xz 024f7f7ba3e6236edcfb38ccf50f1ba32faea6b2ade74c32df5d7f2ef3bd7944187ec0d23b710929aa9111960cda26b3f69e9e945afc01eaecce1497372a7e4c 1684 mbedtls_2.28.3-1.dsc 62ba9937060b4089e6bd75c4495949fd4a51700dbe8b66e3efef58e1d2321143da0ef0800c4d7188064b872555ad65c36b21a706149dde81d821ba38d678d3ef 3952799 mbedtls_2.28.3.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/m/mbedtls"
+  ],
+  "Files": [
+    "10a7b574225bfadf28dcc76e8f2c3fb9 15360 mbedtls_2.28.3-1.debian.tar.xz f1d1373e35efa2aabbd9f9d651786be0 1684 mbedtls_2.28.3-1.dsc 9a3ae2c6b2f6eaf64ad05c773a0ce954 3952799 mbedtls_2.28.3.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.trustedfirmware.org/projects/mbed-tls/"
+  ],
+  "Maintainer": [
+    "Andrea Pappacoda \u003candrea@pappacoda.it\u003e"
+  ],
+  "Package": [
+    "mbedtls"
+  ],
+  "Package-List": [
+    "libmbedcrypto7 deb libs optional arch=any libmbedtls-dev deb libdevel optional arch=any libmbedtls-doc deb doc optional arch=all libmbedtls14 deb libs optional arch=any libmbedx509-1 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "gcc, libc-dev, libc6-dev"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/mbedtls"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/mbedtls.git"
+  ],
+  "Version": [
+    "2.28.3-1"
+  ]
+}

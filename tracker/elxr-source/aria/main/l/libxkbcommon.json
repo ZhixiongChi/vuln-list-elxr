@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libxkbcommon0, libxkbcommon-dev, libxkbcommon-doc, libxkbcommon-tools, libxkbcommon-x11-0, libxkbcommon-x11-dev, libxkbregistry0, libxkbregistry-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), bison, dh-exec, doxygen, flex, graphviz, meson, pkg-config, quilt, libwayland-dev [linux-any], libxcb-xkb-dev (\u003e= 1.10), libxml2-dev, wayland-protocols [linux-any], x11-xkb-utils \u003c!nocheck\u003e, x11proto-dev, xkb-data \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "93e5336a1aa613d3f17a99d8453bb8e8b7683178 8040 libxkbcommon_1.5.0-1.debian.tar.xz b4fde7bde78c4d4b17d02256c3ac33d400eef057 2734 libxkbcommon_1.5.0-1.dsc 76432beed4d2220e0d3ef734fa3080c790000173 472700 libxkbcommon_1.5.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "60e7c01952d4586e7597bfc17c4c85dc6bf8f0bbc7e10693830fdeb7923a7026 8040 libxkbcommon_1.5.0-1.debian.tar.xz d5ba25cfdf6a7be882cd21830367c9cc0aee5f2b94879c86a27a2149da02682b 2734 libxkbcommon_1.5.0-1.dsc 560f11c4bbbca10f495f3ef7d3a6aa4ca62b4f8fb0b52e7d459d18a26e46e017 472700 libxkbcommon_1.5.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "4f6b0b3dc36a2ef26813eb600e2df96c41895dc5b7ae7dcef921abce7490f2f1e87844ca603b6c5f448e43657e2c1375b38bd90b3c2c4b69bf9471b91a97824f 8040 libxkbcommon_1.5.0-1.debian.tar.xz 3173708d1cc3fbf8334109e26a15ccb9a6e429dc7cf43692c8ed6ebe220c49332e221d991a2ff8428ade2becfbaec8aa79793a4f1d8ae85593f4e83c7e186dec 2734 libxkbcommon_1.5.0-1.dsc bbba6665f052c04c7450413cc5e2badd6bfd41326b0e4c60e3ec01d730cae695fd34ce2662b8a91ece7a76b974a0ea330f7462dd5d2db148b0d0da26264ced9c 472700 libxkbcommon_1.5.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libx/libxkbcommon"
+  ],
+  "Files": [
+    "45e2121379cac685145a0adecb692cbf 8040 libxkbcommon_1.5.0-1.debian.tar.xz 8d4160280e70db574f78d91bc05357e7 2734 libxkbcommon_1.5.0-1.dsc 40f0486b4eb491928ec6616c2ff85120 472700 libxkbcommon_1.5.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.xkbcommon.org/"
+  ],
+  "Maintainer": [
+    "Debian X Strike Force \u003cdebian-x@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "libxkbcommon"
+  ],
+  "Package-List": [
+    "libxkbcommon-dev deb libdevel optional arch=any libxkbcommon-doc deb doc optional arch=all libxkbcommon-tools deb graphics optional arch=any libxkbcommon-x11-0 deb libs optional arch=any libxkbcommon-x11-dev deb libdevel optional arch=any libxkbcommon0 deb libs optional arch=any libxkbregistry-dev deb libdevel optional arch=any libxkbregistry0 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config"
+  ],
+  "Uploaders": [
+    "Michael Stapelberg \u003cstapelberg@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/xorg-team/lib/libxkbcommon"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/xorg-team/lib/libxkbcommon.git"
+  ],
+  "Version": [
+    "1.5.0-1"
+  ]
+}

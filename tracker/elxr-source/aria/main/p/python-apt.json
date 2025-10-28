@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python-apt-doc, python-apt-dev, python-apt-common, python3-apt"
+  ],
+  "Build-Depends": [
+    "apt (\u003e= 1.0.9.4), apt-utils \u003c!nocheck\u003e, debhelper-compat (= 12), dh-python, distro-info-data \u003c!nocheck\u003e, fakeroot, libapt-pkg-dev (\u003e= 1.9.11~), python3-all (\u003e= 3.3), python3-all-dev (\u003e= 3.3), python3-distutils, python3-distutils-extra (\u003e= 2.0), python3-setuptools, python3-sphinx (\u003e= 0.5), gnupg \u003c!nocheck\u003e, dirmngr \u003c!nocheck\u003e | gnupg (\u003c\u003c 2) \u003c!nocheck\u003e, pycodestyle \u003c!nocheck\u003e, pyflakes3 \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "5fbccbb328130cbd7093f6e5363351f886db28d2 37448 python-apt_2.6.0-1+elxr1.debian.tar.xz 17f30d2d6112eb07efbf61b9cff9f71f23727fb6 1760 python-apt_2.6.0-1+elxr1.dsc d1d848c6504676483365e5fd91a1aa4bf426a624 459988 python-apt_2.6.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "838335284db33b3dca09d68a08aa651803a88ead9eb41a21c6dc40cb79c8fe1e 37448 python-apt_2.6.0-1+elxr1.debian.tar.xz 5a6c15b04f8f908b8207e02047596dd10e674c7fe6dd40b45d1a8a16d471deb5 1760 python-apt_2.6.0-1+elxr1.dsc c50a74c77931524b38130c5212f276e61e3bc5f443b31fa88fff4dc9c5ccc704 459988 python-apt_2.6.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "b1139335247c7a245a8040a6b7a8daed5756b53bd539358409e7fa4bc95646caae5a01f445b49f77cfa0aae0f3a90074687df3ba4cc1422fbf8eb7fae2686ff5 37448 python-apt_2.6.0-1+elxr1.debian.tar.xz 96e9ff66f0c2a96876616067b2270bab8ecbb253e622caf57f865bed7dcb326daeb0b142dd8ac12968c4715848f85512cfbb2e7ee9767b38986ae5e4df7958be 1760 python-apt_2.6.0-1+elxr1.dsc 5a3b1fed6073335c1d1a33902ac0f214169fb3eda787f0831dfdbffa2bae8f71f680e7d72f35d6365e919a7eda06600ef4bf1560686e07cc93747a81b3cf6591 459988 python-apt_2.6.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/p/python-apt"
+  ],
+  "Files": [
+    "ad9636212ef38299e7a42a4d49f39388 37448 python-apt_2.6.0-1+elxr1.debian.tar.xz 5247a7c1f348bfa17d50737ea0f0b42d 1760 python-apt_2.6.0-1+elxr1.dsc 62deec2597ebdfdfabf34de3d4d0fe2e 459988 python-apt_2.6.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "APT Development Team \u003cdeity@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "python-apt"
+  ],
+  "Package-List": [
+    "python-apt-common deb python optional arch=all python-apt-dev deb python optional arch=all python-apt-doc deb doc optional arch=all python3-apt deb python optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "apt-utils, binutils, dirmngr, distro-info-data, fakeroot, gnupg, intltool, pycodestyle, pyflakes3, python3-all"
+  ],
+  "Uploaders": [
+    "Michael Vogt \u003cmvo@debian.org\u003e, Julian Andres Klode \u003cjak@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/apt-team/python-apt"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/apt-team/python-apt.git"
+  ],
+  "Version": [
+    "2.6.0-1+elxr1"
+  ]
+}
