@@ -6,31 +6,34 @@
     "cri-o"
   ],
   "Build-Depends": [
-    "capnproto, cargo, criu (\u003e= 3.15), curl, debhelper (\u003e= 11~), git, golang-go (\u003e= 1.22), libcap-dev, libglib2.0-dev, libgpgme-dev, libprotobuf-c-dev, libseccomp-dev, libsystemd-dev, libyajl-dev, pkg-config"
+    "curl, debhelper-compat (= 12), dh-golang, ginkgo, git, golang-github-blang-semver-dev (\u003e= 4.0.0), golang-github-containerd-fifo-dev (\u003e= 1.1.0), golang-github-appc-cni-dev (\u003e= 1.1.2), golang-gogoprotobuf-dev (\u003e= 1.3.2), golang-github-golang-mock-dev (\u003e= 1.6.0), golang-github-json-iterator-go-dev (\u003e= 1.1.12), golang-github-opencontainers-go-digest-dev (\u003e= 1.0.0), golang-github-seccomp-libseccomp-golang-dev (\u003e= 0.10.0), golang-github-soheilhy-cmux-dev (\u003e= 0.1.5), golang-gocapability-dev, libgpgme-dev, libseccomp-dev, pkg-config, python3, libbtrfs-dev"
   ],
   "Checksums-Sha1": [
-    "53cc615476a206150b6c7d9321ba453ea7209aa6 139991476 cri-o_1.30.3-0elxr1.debian.tar.xz 9221eaa211e7680cfa5b7c00edfe9f0f4b4227e3 1019 cri-o_1.30.3-0elxr1.dsc ff9b572f670f188279ec1396b8605ce948d95bf5 19644834 cri-o_1.30.3.orig.tar.gz"
+    "a6f46be2621f46774e5609cfb1de4cb7cf9b1d23 23676340 cri-o_1.30.6+ds1-0elxr2.debian.tar.xz 07227e7a2e55c8322dd24fefd0bc03eed7c274a8 1632 cri-o_1.30.6+ds1-0elxr2.dsc b72bd2ccdd38bc912cd970f6824fda93e1fb6ce0 19379520 cri-o_1.30.6+ds1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "fb5d4169194907de3f47f7e0303035d114642344a2201d2aa57c0407d8097364 139991476 cri-o_1.30.3-0elxr1.debian.tar.xz b148bc54413d016dbab0a2fcc163470dd15ca9bcd13011e842365cd2964a139e 1019 cri-o_1.30.3-0elxr1.dsc 2b208ce896af05f98c925b249672b299ec5fff20a82edff7680f56a1cc087d76 19644834 cri-o_1.30.3.orig.tar.gz"
+    "e1318c6ff845a4c4d6685fd9f5e92eb06a28914fa3c7e6933932773be51b0c89 23676340 cri-o_1.30.6+ds1-0elxr2.debian.tar.xz db469a3a9b856186f43ed0e09efc18c984e749ca5f241d5ea6e9c6ca4d794d56 1632 cri-o_1.30.6+ds1-0elxr2.dsc 2d0cd9120704d0124660e9c0dcb657aee635a37cb96860a47e002c21d2939838 19379520 cri-o_1.30.6+ds1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "6b280669e41c31f79192ea250519b4824799bf01c52e95d2cf54d76c62fb20e82a380c36aee1038b67211d63e78de3af3c991f768aac597341027951a5cee49f 139991476 cri-o_1.30.3-0elxr1.debian.tar.xz 1edfc81d8423f88eb38b705ec6e4bd014bb842d80d9d6e2b9ef3285b234885b92a302fda8460c80945c8fade388a558ccfa6fa1103b4930c36aa470e6c1305c0 1019 cri-o_1.30.3-0elxr1.dsc f9139e126f131ed1b122e60e353e21a893d0b15f725158771c30fb5fe6746b2d79d52f9ca67dc9fefe2a69f5a2f0e09adbbd53af34c89517140ab1ddaf11e26f 19644834 cri-o_1.30.3.orig.tar.gz"
+    "84666d92f7dc2b6117405cc64a3b0e0c57b59d7cd33caa2c302a5275e515d6ca00e130b95370413ccade96e1be48552a068244a3c704cacd67564ea556cf18d5 23676340 cri-o_1.30.6+ds1-0elxr2.debian.tar.xz 585edf3fa4318f30861dc22af48a64d53b98b345c7c05831edefd1d6184ac5824d032c66a841ff187e4decde2a49126a6235848359eb2e1b173ac19d3944a9d1 1632 cri-o_1.30.6+ds1-0elxr2.dsc f9b25ba93d232584c79daaab960ba097a066f8a7577dc8cfc2a2282c256945fd27b46e723a1da793f90a8e22cc0581d48dd2efa80e83ed8d6c0996d92d40ea75 19379520 cri-o_1.30.6+ds1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/c/cri-o"
   ],
   "Files": [
-    "d27e0342aa69a99d93f01c387ed733e9 139991476 cri-o_1.30.3-0elxr1.debian.tar.xz b86f2c501c4297968adccddbedc06738 1019 cri-o_1.30.3-0elxr1.dsc 3525bcc1df5b7fb1fdf230682fa56f66 19644834 cri-o_1.30.3.orig.tar.gz"
+    "73769e368ecfa6f8654f055d39f4b900 23676340 cri-o_1.30.6+ds1-0elxr2.debian.tar.xz ba22c839caaa6b3a6ed82d853c88514d 1632 cri-o_1.30.6+ds1-0elxr2.dsc ea1c0ec5e24b09bf3e47e7937450fdbe 19379520 cri-o_1.30.6+ds1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/cri-o/cri-o"
   ],
   "Homepage": [
     "https://cri-o.io/"
   ],
   "Maintainer": [
-    "Kubernetes Authors \u003cdev@kubernetes.io\u003e"
+    "William Lyu \u003cWilliam.Lyu@windriver.com\u003e"
   ],
   "Package": [
     "cri-o"
@@ -39,9 +42,21 @@
     "cri-o deb admin optional arch=any"
   ],
   "Standards-Version": [
-    "4.1.4"
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "William Lyu \u003cWilliam.Lyu@windriver.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://gitlab.com/elxr/cloud/packages/cri-o"
+  ],
+  "Vcs-Git": [
+    "https://gitlab.com/elxr/cloud/packages/cri-o.git"
   ],
   "Version": [
-    "1.30.3-0elxr1"
+    "1.30.6+ds1-0elxr2"
   ]
 }

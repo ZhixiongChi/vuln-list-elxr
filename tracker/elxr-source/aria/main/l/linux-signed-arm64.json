@@ -3,25 +3,25 @@
     "arm64"
   ],
   "Binary": [
-    "linux-image-6.1.0-22-imx-arm64, linux-image-imx-arm64, linux-headers-imx-arm64, linux-image-6.1.0-22-rt-imx-arm64, linux-image-rt-imx-arm64, linux-headers-rt-imx-arm64"
+    "linux-image-6.1.0-26-imx-arm64, linux-image-imx-arm64, linux-headers-imx-arm64, linux-image-6.1.0-26-rt-imx-arm64, linux-image-rt-imx-arm64, linux-headers-rt-imx-arm64"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-exec, python3:any, rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (\u003e= 2.102~), linux-imx-support-6.1.0-22 (= 6.1.94-elxr3-3+salsaci), linux-image-6.1.0-22-imx-arm64-unsigned (= 6.1.94-elxr3-3+salsaci) [arm64], linux-image-6.1.0-22-rt-imx-arm64-unsigned (= 6.1.94-elxr3-3+salsaci) [arm64]"
+    "debhelper-compat (= 12), dh-exec, python3:any, rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (\u003e= 2.102~), linux-support-6.1.0-26 (= 6.1.112-elxr1-1), linux-image-6.1.0-26-imx-arm64-unsigned (= 6.1.112-elxr1-1) [arm64], linux-image-6.1.0-26-rt-imx-arm64-unsigned (= 6.1.112-elxr1-1) [arm64]"
   ],
   "Checksums-Sha1": [
-    "e5e6f4c49dd63b7491fd84576b322f90f4b4abbe 1725 linux-signed-arm64_6.1.94+elxr3+3+salsaci.dsc a3b12d652635a7bf54d89738e12a15cdad3e4927 2592900 linux-signed-arm64_6.1.94+elxr3+3+salsaci.tar.xz"
+    "1ef266036a18d7bb8ee19b634de816c6cf918708 1672 linux-signed-arm64_6.1.112+elxr1+1.dsc 2ddbdb8967ffd416de76fd79047e743c7907e180 2627272 linux-signed-arm64_6.1.112+elxr1+1.tar.xz"
   ],
   "Checksums-Sha256": [
-    "a437edd8b0886dc5b9b5e1d2aa1a1d8d8da445bf331895cf5c90dfa6e30b8a51 1725 linux-signed-arm64_6.1.94+elxr3+3+salsaci.dsc c13047b6592023353f3e70a025db3505dbff75db30d66893128ec4559fabced8 2592900 linux-signed-arm64_6.1.94+elxr3+3+salsaci.tar.xz"
+    "f11e30f221cfaec1a7a70769cee09c48a62d540f994176e8614de7c49314a186 1672 linux-signed-arm64_6.1.112+elxr1+1.dsc 3459947660f5414e911fbb6603857cb096a16d2cf1a3b62e41dfdb85ce2181af 2627272 linux-signed-arm64_6.1.112+elxr1+1.tar.xz"
   ],
   "Checksums-Sha512": [
-    "74069ea35683887197290b80bd151b967ba1167e9b5a9ce48d5b1644ac44454b026ec77327e270422d30c77e64a54d9ea0611d67b58fb2e2462de48900397c4a 1725 linux-signed-arm64_6.1.94+elxr3+3+salsaci.dsc 5172a3044527fc7b8be92b331d3a289a33effae9873f15700cdac38c0ba8cf18cae58d30034275e1d782d27fc9d1af814c532c025ef393bb8fe6f3e187d08975 2592900 linux-signed-arm64_6.1.94+elxr3+3+salsaci.tar.xz"
+    "07c01e9337c9a0d14a5aa6f6d8fe60cffc27f1b3dc3523289caabe29f6d5da27f16d551bb06397cbbaece75d370a528aedca766c02fb02e1967e10949a0470cc 1672 linux-signed-arm64_6.1.112+elxr1+1.dsc b041d138bfa3a1c0047aa1638949f49b606279038b49eaa3c0c3575404cd9967a92ca607a26aaf3d33f2d7ed98a49839d8048df28a941064134e6f6b12a6b99b 2627272 linux-signed-arm64_6.1.112+elxr1+1.tar.xz"
   ],
   "Directory": [
     "pool/main/l/linux-signed-arm64"
   ],
   "Files": [
-    "15e3b3ee5b7a63e39100ca85b3e4a8e8 1725 linux-signed-arm64_6.1.94+elxr3+3+salsaci.dsc 9d3d1f8305accc253fbf2f5693cdce62 2592900 linux-signed-arm64_6.1.94+elxr3+3+salsaci.tar.xz"
+    "f1d4693e08804719bb24b27206bf1eed 1672 linux-signed-arm64_6.1.112+elxr1+1.dsc 9a38ecb9e332482a11ccacc8f18bb07f 2627272 linux-signed-arm64_6.1.112+elxr1+1.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -36,7 +36,7 @@
     "linux-signed-arm64"
   ],
   "Package-List": [
-    "linux-headers-imx-arm64 deb kernel optional arch=arm64 linux-headers-rt-imx-arm64 deb kernel optional arch=arm64 linux-image-6.1.0-22-imx-arm64 deb kernel optional arch=arm64 linux-image-6.1.0-22-rt-imx-arm64 deb kernel optional arch=arm64 linux-image-imx-arm64 deb kernel optional arch=arm64 linux-image-rt-imx-arm64 deb kernel optional arch=arm64"
+    "linux-headers-imx-arm64 deb kernel optional arch=arm64 linux-headers-rt-imx-arm64 deb kernel optional arch=arm64 linux-image-6.1.0-26-imx-arm64 deb kernel optional arch=arm64 linux-image-6.1.0-26-rt-imx-arm64 deb kernel optional arch=arm64 linux-image-imx-arm64 deb kernel optional arch=arm64 linux-image-rt-imx-arm64 deb kernel optional arch=arm64"
   ],
   "Standards-Version": [
     "4.2.0"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/kernel-team/linux.git"
   ],
   "Version": [
-    "6.1.94+elxr3+3+salsaci"
+    "6.1.112+elxr1+1"
   ]
 }

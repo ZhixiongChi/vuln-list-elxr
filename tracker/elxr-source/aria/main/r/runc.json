@@ -6,22 +6,22 @@
     "runc, librunc-crio-plugin, golang-github-opencontainers-runc-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-golang, golang-go, git, curl, go-md2man, golang-dbus-dev, golang-github-checkpoint-restore-go-criu-dev, golang-github-cilium-ebpf-dev (\u003e= 0.6.2~), golang-github-containerd-console-dev, golang-github-coreos-go-systemd-dev (\u003e= 22.3.2~), golang-github-cyphar-filepath-securejoin-dev, golang-github-docker-go-units-dev, golang-github-moby-sys-dev, golang-github-mrunalp-fileutils-dev (\u003e= 0.5.0~), golang-github-opencontainers-selinux-dev, golang-github-opencontainers-specs-dev (\u003e= 1.0.2.66~), golang-github-seccomp-libseccomp-golang-dev (\u003e= 0.10.0~), golang-github-sirupsen-logrus-dev, golang-github-urfave-cli-dev (\u003e= 1.22.9~), golang-github-vishvananda-netlink-dev, golang-gocapability-dev, golang-golang-x-net-dev, golang-google-protobuf-dev, pkgconf"
+    "debhelper-compat (= 13), git, curl, dh-golang, go-md2man, golang-any, golang-dbus-dev, golang-github-checkpoint-restore-go-criu-dev, golang-github-cilium-ebpf-dev (\u003e= 0.6.2~), golang-github-containerd-console-dev, golang-github-coreos-go-systemd-dev (\u003e= 22.3.2~), golang-github-cyphar-filepath-securejoin-dev, golang-github-docker-go-units-dev, golang-github-moby-sys-dev, golang-github-mrunalp-fileutils-dev, golang-github-opencontainers-selinux-dev, golang-github-opencontainers-specs-dev (\u003e= 1.0.2.66~), golang-github-seccomp-libseccomp-golang-dev (\u003e= 0.10.0~), golang-github-sirupsen-logrus-dev, golang-github-urfave-cli-dev (\u003e= 1.22.9~), golang-github-vishvananda-netlink-dev, golang-gocapability-dev, golang-golang-x-net-dev, golang-google-protobuf-dev, pkgconf"
   ],
   "Checksums-Sha1": [
-    "fc8a1145e467e72d7781b7b017f82d6bf0a16055 13424 runc_1.1.14+ds1-0elxr1.debian.tar.xz dd91c0c002031eeb70d8280f273b199d164d2ed3 2132 runc_1.1.14+ds1-0elxr1.dsc a7d37ed1c171d39de23a4beb0d2c80c773263896 821526 runc_1.1.14+ds1.orig.tar.gz"
+    "84bb0d4298bfbfe0e8e211f8aa9ce10087e92e3b 13540 runc_1.1.15+elxr12ds1-0elxr1.debian.tar.xz 28f8f0bb55a34be7d59d1f9cb5a979d7f0a179e3 2163 runc_1.1.15+elxr12ds1-0elxr1.dsc 8bf177655350e7e4a66ee04558d50a98636353f4 821853 runc_1.1.15+elxr12ds1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "bfa55f3f76d95fc57ad35023fcde83a0492d5ca1e2a2b99729d602cea71a5524 13424 runc_1.1.14+ds1-0elxr1.debian.tar.xz 6f0064e7d51d318022feab6ef8cce8193758b7b22add60b1c5d4590343626562 2132 runc_1.1.14+ds1-0elxr1.dsc b99694fa324b53e6712cf6590701faa65a7d4a16f9339db29ac4db65aba88517 821526 runc_1.1.14+ds1.orig.tar.gz"
+    "6379d29d06534e40bd288a393f45fedfaa46dee4b3445125c747cc2c518b47b6 13540 runc_1.1.15+elxr12ds1-0elxr1.debian.tar.xz 0bbbfe18b086e635856bae0c1efc4010ad84d5f50855f29c000b3fcff98df021 2163 runc_1.1.15+elxr12ds1-0elxr1.dsc 88bd12fd6e2a568ddcf9bb23afbad71f8afe5681bd56657185cc019c6bbbbccc 821853 runc_1.1.15+elxr12ds1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "5b31fdc4f0a825b834e1012910ece95bf6d7d217f2cb68981e23f572491a42dbc99500cc613144fd8252eacb4138853691232c238ee7c784b1fc66650ba8cc43 13424 runc_1.1.14+ds1-0elxr1.debian.tar.xz 793c749b8daaa7b004f9cc694903b69a2c07912c14c04da7d08f4f5a610f11a90f1181f2813f27cac3e7f4dd98029cdee3a9e167195c1d0633fa2b4d21f11ee5 2132 runc_1.1.14+ds1-0elxr1.dsc 11bc683ab4ff7bef974b58f04045b1d0333cdf97e057723f8eac1e958f73e9045fad5539a17b56a0023c73b1b8a4d81a3e06d0a32d6f55e01eecf508614ef120 821526 runc_1.1.14+ds1.orig.tar.gz"
+    "c11bfaae914780ac3a695a81350f584aacc3371e45f805b1affa314d2df2ea08a4a87b8feedf1734b137f396608cd85688a436baa9df5c76e7c1563645bc23dc 13540 runc_1.1.15+elxr12ds1-0elxr1.debian.tar.xz b9d976e7dd000ad8de71db92dfb221ab40562dbc94d1be8d6967f7d384e20e879f3f3e697d5adfd18f6467a6a530c0b56f0d94165867e6941204c93fb59d8d53 2163 runc_1.1.15+elxr12ds1-0elxr1.dsc 07b2da25b0d2d3ded04cdd89b3d566f4f460ab096f5bf3913ad91b03d5c75e1e60a3b8a8cc14c8da827aabdbce4ea9337055867f655a5b1b9f86631d54fa2dfd 821853 runc_1.1.15+elxr12ds1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/runc"
   ],
   "Files": [
-    "b673a420a45e7ae3692d42f8624c7daf 13424 runc_1.1.14+ds1-0elxr1.debian.tar.xz b5a9733a0d0b4cef7969c088a04be980 2132 runc_1.1.14+ds1-0elxr1.dsc 3e95cfba8a3d6ff8d799a77a7226ee71 821526 runc_1.1.14+ds1.orig.tar.gz"
+    "6bd5ba362284cf64b9cd4ac3fc6de4b0 13540 runc_1.1.15+elxr12ds1-0elxr1.debian.tar.xz 0ea7e2e4202463460c29b00ab9ab1de2 2163 runc_1.1.15+elxr12ds1-0elxr1.dsc 3d1eb60f0026fcb9af5f8e4f0bf9d43b 821853 runc_1.1.15+elxr12ds1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/runc.git"
   ],
   "Version": [
-    "1.1.14+ds1-0elxr1"
+    "1.1.15+elxr12ds1-0elxr1"
   ]
 }

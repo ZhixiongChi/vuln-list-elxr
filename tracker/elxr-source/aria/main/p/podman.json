@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "podman"
+    "podman, podman-cgroupfs"
   ],
   "Build-Depends": [
     "debhelper-compat (= 13), golang-go, git, btrfs-progs, go-md2man, iptables, libassuan-dev, libbtrfs-dev, libc6-dev, libdevmapper-dev, libglib2.0-dev, libgpgme-dev, libgpg-error-dev, libprotobuf-dev, libprotobuf-c-dev, libseccomp-dev, libselinux1-dev, libsystemd-dev, netavark, passt, pkg-config, uidmap, curl"
   ],
   "Checksums-Sha1": [
-    "4d233d1144af240d82ed77a8da9617950708a431 1000 podman_5.2.0+1elxr1.dsc a559414d167ccae9e8909db264aacf0cd66371c8 14815980 podman_5.2.0+1elxr1.tar.xz"
+    "edb7f3e2fac8bc15a0b3f8e2cae4deffdda89456 1110 podman_5.3.2+1elxr12u2.dsc f8572c489ef8ba20e9256313fdcd3b86ba49197a 15050588 podman_5.3.2+1elxr12u2.tar.xz"
   ],
   "Checksums-Sha256": [
-    "617db2ac118a3024e9b8c70a673c3711da432bf5e34e9af594dd5dd9863b3c26 1000 podman_5.2.0+1elxr1.dsc 37abc895ab15638aac5394efd839189e53f9c02bee2ea1b03532117ea494bb9b 14815980 podman_5.2.0+1elxr1.tar.xz"
+    "6e5e7a1e9dcadb861f6c5e29689b3924035e24998ed119e5db16f9fee7579dd5 1110 podman_5.3.2+1elxr12u2.dsc d717e9802fd466e62d233f03504f6807a8f5f36057240ddb4450c75ca66216a0 15050588 podman_5.3.2+1elxr12u2.tar.xz"
   ],
   "Checksums-Sha512": [
-    "4c9f89c0e6f834f4b2a56544f7dbee576f0a73d95fa3cb6895d0a37b38e7f85915ee94ca2355a59debaca7c7a47876fe447f85e20e0763bcb5dec8f22a5a45c0 1000 podman_5.2.0+1elxr1.dsc 5330aa1601230e48e84d91332e3b3282e4cb50a4ae6d03a2280dad9c7461715ed39bbd2c959630df2853ce425f3f3f58647ff0e7d6e254c36a916cdfd7fee9a3 14815980 podman_5.2.0+1elxr1.tar.xz"
+    "0b0f303d350857e4df183636165bc739a092e743895ffdb265f5b767566b7ddf621b30ffb7121715f4d2c1e475baacc81b0460284aa584d840aa34e370d4bb47 1110 podman_5.3.2+1elxr12u2.dsc 83391b071109277330db91d552fbb748167032027e1e754cb746e1fb07246b19cb1f6db2ecaa382b48a05405f9f9639aebee0018ced12f082d2edc5e7ca71828 15050588 podman_5.3.2+1elxr12u2.tar.xz"
   ],
   "Directory": [
     "pool/main/p/podman"
   ],
   "Files": [
-    "86ebd06ed94f53c825f3823d292c0f75 1000 podman_5.2.0+1elxr1.dsc a4ae126aedbcfaade1ca5dbc24ba9d09 14815980 podman_5.2.0+1elxr1.tar.xz"
+    "d661910aeac4865708860ac67fa54d0b 1110 podman_5.3.2+1elxr12u2.dsc eef0ce3bcfbb69860b3e2a9ffe0f5ef8 15050588 podman_5.3.2+1elxr12u2.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -36,13 +36,16 @@
     "podman"
   ],
   "Package-List": [
-    "podman deb unknown optional arch=any"
+    "podman deb admin optional arch=any podman-cgroupfs deb admin optional arch=any"
   ],
   "Standards-Version": [
     "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "runc, slirp4netns"
   ],
   "Vcs-Browser": [
     "https://gitlab.com/elxr/cloud/packages/podman"
@@ -51,6 +54,6 @@
     "https://gitlab.com/elxr/cloud/packages/podman.git"
   ],
   "Version": [
-    "5.2.0+1elxr1"
+    "5.3.2+1elxr12u2"
   ]
 }

@@ -6,22 +6,22 @@
     "kubeadm-1.32, kubectl-1.32, kubelet-1.32"
   ],
   "Build-Depends": [
-    "curl, debhelper-compat (= 13), git, golang-go, wget, golang-dbus-dev (\u003e= 5.1.0~), golang-github-beorn7-perks-dev (\u003e= 1.0.1~), golang-github-blang-semver-dev (\u003e= 4.0.0~), golang-github-go-logr-stdr-dev (\u003e= 1.2.2~), golang-github-gogo-protobuf-dev (\u003e= 1.3.2~), golang-github-google-gofuzz-dev (\u003e= 1.2.0~), golang-github-gorilla-websocket-dev (\u003e= 1.5.0~), golang-github-grpc-ecosystem-go-grpc-middleware-dev (\u003e= 1.3.0~), golang-github-josharian-intern-dev (\u003e= 1.0.0~), golang-github-json-iterator-go-dev (\u003e= 1.1.12~), golang-github-lithammer-dedent-dev (\u003e= 1.1.0~), golang-github-makenowjust-heredoc-dev (\u003e= 1.0.0~), golang-github-mitchellh-go-wordwrap-dev (\u003e= 1.0.1~), golang-github-nytimes-gziphandler-dev (\u003e= 1.1.1~), golang-github-opencontainers-go-digest-dev (\u003e= 1.0.0~), golang-github-robfig-cron-dev (\u003e= 3.0.1~), golang-github-russross-blackfriday-v2-dev (\u003e= 2.1.0~), golang-github-spf13-pflag-dev (\u003e= 1.0.5~), golang-gopkg-square-go-jose.v2-dev (\u003e= 2.6.0~), golang-gopkg-yaml.v3-dev (\u003e= 3.0.1~), rsync"
+    "curl, debhelper-compat (= 13), git, golang-go, wget, jq, golang-dbus-dev (\u003e= 5.1.0~), golang-github-beorn7-perks-dev (\u003e= 1.0.1~), golang-github-blang-semver-dev (\u003e= 4.0.0~), golang-github-go-logr-stdr-dev (\u003e= 1.2.2~), golang-github-gogo-protobuf-dev (\u003e= 1.3.2~), golang-github-google-gofuzz-dev (\u003e= 1.2.0~), golang-github-gorilla-websocket-dev (\u003e= 1.5.0~), golang-github-grpc-ecosystem-go-grpc-middleware-dev (\u003e= 1.3.0~), golang-github-josharian-intern-dev (\u003e= 1.0.0~), golang-github-json-iterator-go-dev (\u003e= 1.1.12~), golang-github-lithammer-dedent-dev (\u003e= 1.1.0~), golang-github-makenowjust-heredoc-dev (\u003e= 1.0.0~), golang-github-mitchellh-go-wordwrap-dev (\u003e= 1.0.1~), golang-github-nytimes-gziphandler-dev (\u003e= 1.1.1~), golang-github-opencontainers-go-digest-dev (\u003e= 1.0.0~), golang-github-robfig-cron-dev (\u003e= 3.0.1~), golang-github-russross-blackfriday-v2-dev (\u003e= 2.1.0~), golang-github-spf13-pflag-dev (\u003e= 1.0.5~), golang-gopkg-square-go-jose.v2-dev (\u003e= 2.6.0~), golang-gopkg-yaml.v3-dev (\u003e= 3.0.1~), rsync"
   ],
   "Checksums-Sha1": [
-    "3bb17b6b3ff0f3a24ec6f461da229dc567d9a5f4 233164 kubernetes-1.32_1.32.7+elxr12ds1-0elxr12u1.debian.tar.xz 426fbd54bd05c313cfffc7956ef7881ca69ac085 2172 kubernetes-1.32_1.32.7+elxr12ds1-0elxr12u1.dsc 47630dc99680afe3600f5a2bc9c6d19fe517ab0f 35752226 kubernetes-1.32_1.32.7+elxr12ds1.orig.tar.gz"
+    "c819e47d52d8e7cfbd943b6b5ef3496296d24a81 9728 kubernetes-1.32_1.32.10+elxr12ds1-0elxr12u1.debian.tar.xz 226b5a955b5747f78522ac4405eb4730d5f54abc 2347 kubernetes-1.32_1.32.10+elxr12ds1-0elxr12u1.dsc ec2d581fce2b05b82e98c3fceb01e547739b9903 35754099 kubernetes-1.32_1.32.10+elxr12ds1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "27f6757bf92340f1f93fe45e9d4151acb5435336ce574df3352274bd04655973 233164 kubernetes-1.32_1.32.7+elxr12ds1-0elxr12u1.debian.tar.xz 8b2c37f5bf88a1eebcbe34bfa435c3439058a84c93276fb861b51aacc58a76d8 2172 kubernetes-1.32_1.32.7+elxr12ds1-0elxr12u1.dsc 62b92733a45ad0bb837ff5c14f32c2b551ef51653b3bae14b5c9e83a0a3f7db8 35752226 kubernetes-1.32_1.32.7+elxr12ds1.orig.tar.gz"
+    "e903bb5cff1fd93f1e1940989e8d7d99f99ac5490271feba7cac62febab22d45 9728 kubernetes-1.32_1.32.10+elxr12ds1-0elxr12u1.debian.tar.xz adff179a1f66ed9da87d266ac62590e5ffa455ab014ef42af89e556b97a813a3 2347 kubernetes-1.32_1.32.10+elxr12ds1-0elxr12u1.dsc 56b2be32f5902143385e904c97375de291284ab1dc4fc1ae88768d12d70845c4 35754099 kubernetes-1.32_1.32.10+elxr12ds1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "79eea725440311deb9f995e590c9154cfe50bcf0341f1339a94163c07d3266a64a866ef6b61d7f673203aada732ccd4d7e6682de330ce4c91ee60856b359dfd2 233164 kubernetes-1.32_1.32.7+elxr12ds1-0elxr12u1.debian.tar.xz 047e6c17216036dbe36191ff12f749dc0346528c8b986d4b9b9352fa16e27aaaa38e8f4ed93df4269f65277f7cbbbd6d761fe663cdacb42caeef434dd1b5e7c3 2172 kubernetes-1.32_1.32.7+elxr12ds1-0elxr12u1.dsc 0b246ef5a907c9b3b67f4c2d4eb7319827c08588242936c77528f2054c3304a8f8d419248d41428b71678eb27850ad7c6cdab168a14b8ed1fadc8dd4ee8a9641 35752226 kubernetes-1.32_1.32.7+elxr12ds1.orig.tar.gz"
+    "f6da6681cf718c55512f1fe9a5f72aea74f14e2ae5b348c0f42f61fbcb40f94251bc5226c3d8e732eb7d29cf13afdc517a1217e06e91ece782f646df95817b57 9728 kubernetes-1.32_1.32.10+elxr12ds1-0elxr12u1.debian.tar.xz 2253449733fca717546ee91bb7b449c0063df0af3717842ebfae382be91bf1b9d1c6a650380bb66e9dd6ab2275c67b12f3637d7bf4b8f5cac163b8e5c059eb97 2347 kubernetes-1.32_1.32.10+elxr12ds1-0elxr12u1.dsc 5ed777a64363239ce494ee1283a7a7a2540f511148efc23c19390141141f7ec2a8eadd9112a6cb5cef3c808cfb8e36bcbe622ea324011ec88617708cfb27309b 35754099 kubernetes-1.32_1.32.10+elxr12ds1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/k/kubernetes-1.32"
   ],
   "Files": [
-    "d53342c542a8a421745266d3b20e63d8 233164 kubernetes-1.32_1.32.7+elxr12ds1-0elxr12u1.debian.tar.xz 465ab952e71dcec8882be23b0cfe8a29 2172 kubernetes-1.32_1.32.7+elxr12ds1-0elxr12u1.dsc c3168feb7ecc90f66c817ae90dc2c275 35752226 kubernetes-1.32_1.32.7+elxr12ds1.orig.tar.gz"
+    "8d911f0d410ac3529b2c4d9d7b4a2a9b 9728 kubernetes-1.32_1.32.10+elxr12ds1-0elxr12u1.debian.tar.xz bd61fdde4e3c50d30904a293f51ac3c7 2347 kubernetes-1.32_1.32.10+elxr12ds1-0elxr12u1.dsc 817733a42f5a54156c6ce777347063cc 35754099 kubernetes-1.32_1.32.10+elxr12ds1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://kubernetes.io"
   ],
   "Maintainer": [
-    "Joe Slater \u003cjoe.slater@windriver.com\u003e"
+    "William Lyu \u003cWilliam.Lyu@windriver.com\u003e"
   ],
   "Package": [
     "kubernetes-1.32"
@@ -44,10 +44,16 @@
   "Testsuite": [
     "autopkgtest"
   ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Harsh Doshi \u003charsh.doshi@windriver.com\u003e Joe Slater \u003cjoe.slater@windriver.com\u003e Tom MacDougall \u003cTom.MacDougall@windriver.com\u003e"
+  ],
   "Vcs-Git": [
     "https://github.com/kubernetes/kubernetes.git"
   ],
   "Version": [
-    "1.32.7+elxr12ds1-0elxr12u1"
+    "1.32.10+elxr12ds1-0elxr12u1"
   ]
 }
