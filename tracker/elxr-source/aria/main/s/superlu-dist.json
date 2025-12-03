@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libsuperlu-dist-dev, libsuperlu-dist8"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-fortran-mod, cmake (\u003e= 2.8.12), mpi-default-dev, mpi-default-bin, gfortran, libblas-dev | libopenblas-dev | libblis-dev | libatlas-base-dev | libblas.so, liblapack-dev | libopenblas-dev | libatlas-base-dev | liblapack.so, libcombblas-dev (\u003e= 1.6.2-3), libscotchparmetis-dev, libmetis-dev"
+  ],
+  "Checksums-Sha1": [
+    "a76e747fef95e227e2f7bd00bb1280cf955e495f 10368 superlu-dist_8.1.2+dfsg1-1.debian.tar.xz 6a6f80c4dfa0697c571e30251cf2ffb09a765aef 2448 superlu-dist_8.1.2+dfsg1-1.dsc 4347718ce9d9fa817ff1e633c40ac4caadede587 662992 superlu-dist_8.1.2+dfsg1.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "2c1305b5edb61a2a6f87e2437690c6f207d4fc62e536b352cd97d34c6748c459 10368 superlu-dist_8.1.2+dfsg1-1.debian.tar.xz e717ac0c04651f9f11d1cd12d89776ea73b533fec91f3863d667bf2099594f3b 2448 superlu-dist_8.1.2+dfsg1-1.dsc a7f4ef5a7f1841f7a70464b24aa49066f82be1a0718755ff28f04133eb8feb89 662992 superlu-dist_8.1.2+dfsg1.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "7ad7f85f5cae3d00a3f3803e313e232314fe96f45e1b9a9f82d1d9538cce83d1403d9be97a931e1b0102da80624bb615e35f92bbc0edc679b2d67f4d97380e0d 10368 superlu-dist_8.1.2+dfsg1-1.debian.tar.xz e9ba66ba03f1cdb3aca1dcc8077fed361463b5382fab044afb17fe31cbe8202d11fb783cc4f295a75e0e134b3a33b83d9571dd44e9c9111a924873f2df8bd562 2448 superlu-dist_8.1.2+dfsg1-1.dsc 4f38528859ed8ced9a138ce1e0c87ff4a19df3428ea6db87b12227ee3ce6035597a3188f0f3082ab78b892e31daf34273cdba7c93f001dff40a209fb004ebaa5 662992 superlu-dist_8.1.2+dfsg1.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/superlu-dist"
+  ],
+  "Files": [
+    "c29eb4fec4da5cfd7c7611c043a1a6f6 10368 superlu-dist_8.1.2+dfsg1-1.debian.tar.xz aa5862b018abe672aa181601448e5b38 2448 superlu-dist_8.1.2+dfsg1-1.dsc 9193a5f9e340a22e2522af483c4d8573 662992 superlu-dist_8.1.2+dfsg1.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/xiaoyeli/superlu_dist"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "superlu-dist"
+  ],
+  "Package-List": [
+    "libsuperlu-dist-dev deb libdevel optional arch=any libsuperlu-dist8 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Drew Parsons \u003cdparsons@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/superlu-dist"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/superlu-dist.git"
+  ],
+  "Version": [
+    "8.1.2+dfsg1-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-pkg-config-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, pkg-config \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "8cb16b202de7359edfdc8511a5554317d58de3f9 4728 rust-pkg-config_0.3.25-2.debian.tar.xz 4e21c04a3431fc09ac72be4fdf07e6aea47fa0a5 2199 rust-pkg-config_0.3.25-2.dsc a344e4b7d8802e488f3c2b640f4f86efeece0236 16838 rust-pkg-config_0.3.25.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "904985de36f1af54d3bfd615d772fca46f2d139107311022e4ab965be170c856 4728 rust-pkg-config_0.3.25-2.debian.tar.xz 892d7831d964c1b28e3463a115b827cf4e5a567a24f2d74e9ef0b75ad52220e8 2199 rust-pkg-config_0.3.25-2.dsc 1df8c4ec4b0627e53bdf214615ad287367e482558cf84b109250b37464dc03ae 16838 rust-pkg-config_0.3.25.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "00b0ebac4908396fc2f6b8a22750478a0a7230c38eb02f1eb376a283b3a3393ca28f9ae3009d93a200298b58a206b87778cea04f3764e9c509cb48555d3b3cc1 4728 rust-pkg-config_0.3.25-2.debian.tar.xz 5e9596e31e917902fea6cd5d43ac19f72e5ffda3a1182e7cdb860b386764528d3e9317072017ccc13f626ca2f016e1311dde17506fc75a7e7668ad7e1d818602 2199 rust-pkg-config_0.3.25-2.dsc 46658794f0a7446354041c1cc08cf637970f7651c0c506e2b90c9d4e284347cb82f05ce282cc55c8087bed58a5b961424a56574f4500de9f3ba9cb9e71667aa8 16838 rust-pkg-config_0.3.25.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-pkg-config"
+  ],
+  "Files": [
+    "f0693aeabf9b37d00da03dd0f1d0e84f 4728 rust-pkg-config_0.3.25-2.debian.tar.xz 29b598190f15c1d64ad1e13476cef0e2 2199 rust-pkg-config_0.3.25-2.dsc b478ee84018082806ea8da763f0b3f1f 16838 rust-pkg-config_0.3.25.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-pkg-config"
+  ],
+  "Package-List": [
+    "librust-pkg-config-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-lazy-static-1+default-dev"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pkg-config"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/pkg-config]"
+  ],
+  "Version": [
+    "0.3.25-2"
+  ]
+}

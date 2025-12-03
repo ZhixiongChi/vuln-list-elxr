@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "r-base, r-base-core, r-base-dev, r-mathlib, r-base-html, r-doc-pdf, r-doc-html, r-doc-info, r-recommended"
+  ],
+  "Build-Depends": [
+    "gcc (\u003e= 4:4.9.2-2), g++ (\u003e= 4:4.9.2-2), gfortran (\u003e= 4:4.9.2-2), libblas-dev, liblapack-dev, tcl8.6-dev, tk8.6-dev, bison, groff-base, libncurses5-dev, libreadline-dev, debhelper-compat (= 12), texinfo, libbz2-dev, liblzma-dev, libpcre2-dev, libpcre3-dev, libcurl4-openssl-dev | libcurl4-dev, xdg-utils, zlib1g-dev, libpng-dev, libjpeg-dev, libx11-dev, libxt-dev, x11proto-core-dev, libpango1.0-dev, libcairo2-dev, libtiff5-dev, xvfb, xauth, xfonts-base, texlive-base, texlive-latex-base, texlive-plain-generic, texlive-fonts-recommended, texlive-fonts-extra, texlive-extra-utils, texlive-latex-recommended, texlive-latex-extra, default-jdk [!arm !hppa !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386] | openjdk-10-jdk [!arm !hppa !kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], mpack, bash-completion"
+  ],
+  "Checksums-Sha1": [
+    "f293fef043b38ae4379143f895fd8163dfb64dad 99016 r-base_4.2.2.20221110-2.debian.tar.xz 60ac1e88e6e7946bec8ca750148753be4bac315e 3004 r-base_4.2.2.20221110-2.dsc ea137f0b3622b303a9798e27f047e4cdafe4b1e5 33922762 r-base_4.2.2.20221110.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "672212755d70e26ec1c8150a257721df67d95d201633830b7e45b3724a9e8030 99016 r-base_4.2.2.20221110-2.debian.tar.xz c4be9998471983df414d35722d86ebbd3bae07db4824cadbb89c1c12e9f20066 3004 r-base_4.2.2.20221110-2.dsc 8976903842d7df1f885c85a820826b8d4e8edef4ce4b49550683b851bd4a3a74 33922762 r-base_4.2.2.20221110.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "c16e267fdcdce44f0adb30302ab4b87a65c2cd322c6dafaff028f869b4b74e3561e463beb0550d0add0e79ba28082fad0657ea528607bdf54cd4da82b8b5e453 99016 r-base_4.2.2.20221110-2.debian.tar.xz c82f9601ccf0d7e97631b3ed2785dc3db4012f5b55bcb2623f1be335736ac4129713969f4ff81d286a49b87678c260c94c4dccce7c72fe4cb3ab2dbbcd56f976 3004 r-base_4.2.2.20221110-2.dsc 6e79631e860d62491c8356142c51610c932e716e21122fc0681a3b27fc56bf4ddb0ab06c8ed89d4da026ac4e59e528acfefea5c114867b11a0d6e0ace84ecf67 33922762 r-base_4.2.2.20221110.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/r-base"
+  ],
+  "Files": [
+    "91d423d2f459b846c2372a6caadb77fd 99016 r-base_4.2.2.20221110-2.debian.tar.xz 9f7cf3738f381e1837374df54c3da189 3004 r-base_4.2.2.20221110-2.dsc 8f47405a993ae19c069a9be37cd09724 33922762 r-base_4.2.2.20221110.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.r-project.org/"
+  ],
+  "Maintainer": [
+    "Dirk Eddelbuettel \u003cedd@debian.org\u003e"
+  ],
+  "Package": [
+    "r-base"
+  ],
+  "Package-List": [
+    "r-base deb gnu-r optional arch=all r-base-core deb gnu-r optional arch=any r-base-dev deb gnu-r optional arch=all r-base-html deb doc optional arch=all r-doc-html deb doc optional arch=all r-doc-info deb doc optional arch=all r-doc-pdf deb doc optional arch=all r-mathlib deb gnu-r optional arch=any r-recommended deb gnu-r optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/edd/r-base"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/edd/r-base.git"
+  ],
+  "Version": [
+    "4.2.2.20221110-2"
+  ]
+}

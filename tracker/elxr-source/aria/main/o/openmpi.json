@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "openmpi-bin, libopenmpi-dev, libopenmpi3, openmpi-common, openmpi-doc"
+  ],
+  "Build-Conflicts": [
+    "libmpich-dev, libopenmpi-dev"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.16.1~), dh-sequence-fortran-mod, debhelper-compat (= 13), libevent-dev, libpmix-dev, libucx-dev [amd64 arm64 ppc64el], zlib1g-dev, gfortran, libhwloc-dev, pkg-config, libibverbs-dev (\u003e= 1.1.7) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libfabric-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386 !sh4 !powerpc !x32], libnuma-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libpsm-infinipath1-dev [amd64 i386], libpsm2-dev [amd64], default-jdk [!hppa !hurd-i386 !kfreebsd-amd64 !kfreebsd-i386 !alpha !ppc64 !sparc64] \u003c!nojava\u003e, flex"
+  ],
+  "Checksums-Sha1": [
+    "59023c2adfe40e33c1e5c9062076747038705927 68788 openmpi_4.1.4-3.debian.tar.xz fa27bfbdb6a233c533a1e8abd2e6f0717dd1573c 2743 openmpi_4.1.4-3.dsc 2e3e0e5ee05b3b88103314367850f1435bae9209 6916772 openmpi_4.1.4.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "d8e17f15993eddd9ab8a490cdd93f24e2fd32b730cf17dc5b071f8126106d59f 68788 openmpi_4.1.4-3.debian.tar.xz f81a77144a8f0ed58014a5f4f4406643c544b73d9e26cb6bb4eb3a3e60c172d5 2743 openmpi_4.1.4-3.dsc ddaee7dbdb01eb4fab1fda5b5e03e8bbff026711806c095c1f39bb410f99f263 6916772 openmpi_4.1.4.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "44a601ef446f1efb902f7e2098f51624a8efe4192fe0b17dfc79ff2e3e4a132abf04bb9bd3d9125e41c6b28776c42ce9ee07662923b61bd67c91f4f0a0c1a379 68788 openmpi_4.1.4-3.debian.tar.xz 06581575201e9936509a6d5d7f442b85141ef8a638799382782a483db252c39ff1454f42332611294c01b840bf6f766a6295555fcf87c93c875f70202976101f 2743 openmpi_4.1.4-3.dsc ad58fed311fbe1bde129a321b83c138044f828cc1788d4446c6f8d2602467600824a654e5c390e6ffb1f8a8f5f3be6117ac2b964d45a6ceb204b036a65851943 6916772 openmpi_4.1.4.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/openmpi"
+  ],
+  "Files": [
+    "882755e7cdecc241711cdd0b4bfd6e21 68788 openmpi_4.1.4-3.debian.tar.xz 240c80eb156b83f2e5329c180c4baf14 2743 openmpi_4.1.4-3.dsc 470a1da65e77fed38d30a7860fd60932 6916772 openmpi_4.1.4.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.open-mpi.org/"
+  ],
+  "Maintainer": [
+    "Alastair McKinstry \u003cmckinstry@debian.org\u003e"
+  ],
+  "Package": [
+    "openmpi"
+  ],
+  "Package-List": [
+    "libopenmpi-dev deb libdevel optional arch=any libopenmpi3 deb libs optional arch=any openmpi-bin deb net optional arch=any openmpi-common deb net optional arch=all openmpi-doc deb doc optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "gcc, gfortran"
+  ],
+  "Uploaders": [
+    "Manuel Prinz \u003cmanuel@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/hpc-team/openmpi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/hpc-team/openmpi.git -b debian/latest"
+  ],
+  "Version": [
+    "4.1.4-3"
+  ]
+}

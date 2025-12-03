@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "golang-github-snapcore-snapd-dev, snapd, snap-confine, ubuntu-core-launcher"
+  ],
+  "Build-Depends": [
+    "autoconf, automake, autotools-dev, bash-completion, ca-certificates, dbus, debhelper (\u003e= 9.20160709), dh-apparmor, dh-autoreconf, dh-golang (\u003e= 1.7), fakeroot, gcc-multilib [amd64], gettext, grub-common, gnupg2, golang-gopkg-check.v1-dev, golang-dbus-dev, golang-github-boltdb-bolt-dev, golang-github-coreos-go-systemd-dev, golang-github-juju-ratelimit-dev, golang-github-gorilla-mux-dev, golang-github-kr-pretty-dev, golang-github-mvo5-goconfigparser-dev, golang-github-seccomp-libseccomp-golang-dev, golang-github-jessevdk-go-flags-dev, golang-golang-x-crypto-dev, golang-golang-x-xerrors-dev, golang-gopkg-tomb.v2-dev (\u003e= 0.0~git20161208.0.d5d1b58), golang-gopkg-yaml.v2-dev, golang-gopkg-macaroon.v1-dev, golang-gopkg-mgo.v2-dev, golang-gopkg-retry.v1-dev, golang-gopkg-tylerb-graceful.v1-dev, golang-gopkg-yaml.v3-dev, golang-go (\u003e= 2:1.13), indent, libcap-dev, libapparmor-dev, libglib2.0-dev, liblzo2-dev, libseccomp-dev, libudev-dev, openssh-client, pkg-config, python3, python3-docutils, python3-markdown, squashfs-tools, tzdata, udev, xfslibs-dev"
+  ],
+  "Checksums-Sha1": [
+    "37d5ddc899fb98bf113fad5f12455028de2189f2 134616 snapd_2.57.6-1+b5elxr1.debian.tar.xz 00b4cc1fff395381a5ec13042c116b6127771e11 2574 snapd_2.57.6-1+b5elxr1.dsc 61289de26281c858a05eb17ca3699e35f6869b43 9294540 snapd_2.57.6.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "c30f3a23c4865fa8e66d64522f6f8655a5b8f6a7a3a3f5d5b660c4ec351d46b3 134616 snapd_2.57.6-1+b5elxr1.debian.tar.xz 60c76dcb5d1589206e822050e8305ed34fedc463f988caaacf560902c4d534d0 2574 snapd_2.57.6-1+b5elxr1.dsc 380a51e0d1fe35e130eb8f54a401b38312b591fee09c1b5ce6f39f6bd91e1ade 9294540 snapd_2.57.6.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "7429975e447b68787417b55f00668249f90b48e8bd7b8c1c662939a3acee1a153f2f0a0c656ae40d494cd82848df7ce1643025c0ec7307eff7e9d8c519d7b625 134616 snapd_2.57.6-1+b5elxr1.debian.tar.xz 5f4ced9ebf56fd7160d611f2a127e0fcfd8903d213fd5b15c8bee38cffd55c70cb9bb1e2cbca4dd0dd774386ee0659e611317945dd5ca58348c16bfb9f920b5f 2574 snapd_2.57.6-1+b5elxr1.dsc 80ce42ffb7073bb06768455a4fd8a2dbbbef7626e9c023823af2321a4bd269daafa70ecb8f848fa2e05a84601ea01dfbb6062b8fbb97f452e43e6eea2df1a7de 9294540 snapd_2.57.6.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/s/snapd"
+  ],
+  "Files": [
+    "50963ed9ba3da4e3d8c86817de60c40e 134616 snapd_2.57.6-1+b5elxr1.debian.tar.xz 1f6f4c3bd8783244a89f8eb78655d8c2 2574 snapd_2.57.6-1+b5elxr1.dsc 65e201b4acc7f4749f8f94b6ff5cdac5 9294540 snapd_2.57.6.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/snapcore/snapd"
+  ],
+  "Homepage": [
+    "https://github.com/snapcore/snapd"
+  ],
+  "Maintainer": [
+    "Michael Hudson-Doyle \u003cmwhudson@debian.org\u003e"
+  ],
+  "Package": [
+    "snapd"
+  ],
+  "Package-List": [
+    "golang-github-snapcore-snapd-dev deb devel optional arch=all snap-confine deb oldlibs optional arch=any snapd deb devel optional arch=any ubuntu-core-launcher deb oldlibs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, bzr, ca-certificates, git, golang-golang-x-net-dev, locales, net-tools, netcat-openbsd, openssh-server"
+  ],
+  "Uploaders": [
+    "Steve Langasek \u003cvorlon@debian.org\u003e, Zygmunt Krynicki \u003cme@zygoon.pl\u003e, Luke Faraone \u003clfaraone@debian.org\u003e, Michael Vogt \u003cmvo@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/snapd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/snapd.git"
+  ],
+  "Version": [
+    "2.57.6-1+b5elxr1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "avahi-daemon, avahi-dnsconfd, avahi-autoipd, python3-avahi, avahi-utils, avahi-discover, libavahi-common3, libavahi-common-data, libavahi-common-dev, libavahi-core7, libavahi-core-dev, libavahi-client3, libavahi-client-dev, libavahi-glib1, libavahi-glib-dev, libavahi-gobject0, libavahi-gobject-dev, libavahi-compat-libdnssd1, libavahi-compat-libdnssd-dev, libavahi-ui-gtk3-0, libavahi-ui-gtk3-dev, avahi-ui-utils, gir1.2-avahi-0.6"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, pkg-config, libcap-dev [linux-any], libgdbm-dev, libglib2.0-dev, libgtk-3-dev \u003c!pkg.avahi.nogui\u003e, libexpat-dev, libdaemon-dev, libdbus-1-dev, python3, python3-gdbm, python3-dbus \u003c!nopython\u003e, python3-gi \u003c!nopython\u003e, python-gi-dev \u003c!nopython\u003e, gobject-introspection, libgirepository1.0-dev, xmltoman, intltool"
+  ],
+  "Checksums-Sha1": [
+    "5cc25122e3ee64a1264d954ff57e2dedb3f56b57 42832 avahi_0.8-10+deb12u1.debian.tar.xz be4bde27bdb8d9c01240955b78c03f1bf4112e4c 3933 avahi_0.8-10+deb12u1.dsc 969a50ae18c8d8e2288435a75666dd076e69852a 1591458 avahi_0.8.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "16b564d442c919d9b731a3b04c4d11be8ff5e77e79db9eb692527e5acfb53966 42832 avahi_0.8-10+deb12u1.debian.tar.xz 807cf0a281a0e90207d05cd74dc2c9b5905458f3fe236fbf1bf6d246987dd874 3933 avahi_0.8-10+deb12u1.dsc 060309d7a333d38d951bc27598c677af1796934dbd98e1024e7ad8de798fedda 1591458 avahi_0.8.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "72a49438dda811252a627e4b46a82ccf095c88fe8d323975e1e4be32756edff38d1f79ed2a8f3526942ea63d6ff67699077c7f2b97a6fc389c0487d8b73b8783 42832 avahi_0.8-10+deb12u1.debian.tar.xz 5be54c937774f0d478d7097c5ed36070b6adad5f98617f4e6ec3eb0199eb3022d2cd7ae5c7261aafe80658de098e34bcd165ea88965138e2d42a2b1d98440862 3933 avahi_0.8-10+deb12u1.dsc c6ba76feb6e92f70289f94b3bf12e5f5c66c11628ce0aeb3cadfb72c13a5d1a9bd56d71bdf3072627a76cd103b9b056d9131aa49ffe11fa334c24ab3b596c7de 1591458 avahi_0.8.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/a/avahi"
+  ],
+  "Files": [
+    "d434c240237802ce93788ece839c61cc 42832 avahi_0.8-10+deb12u1.debian.tar.xz 96c4e9e428506a38e67435df04802123 3933 avahi_0.8-10+deb12u1.dsc 229c6aa30674fc43c202b22c5f8c2be7 1591458 avahi_0.8.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://avahi.org/"
+  ],
+  "Maintainer": [
+    "Utopia Maintenance Team \u003cpkg-utopia-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "avahi"
+  ],
+  "Package-List": [
+    "avahi-autoipd deb net optional arch=linux-any avahi-daemon deb net optional arch=any avahi-discover deb net optional arch=all profile=!nopython,!pkg.avahi.nogui avahi-dnsconfd deb net optional arch=any avahi-ui-utils deb utils optional arch=any profile=!pkg.avahi.nogui avahi-utils deb net optional arch=any gir1.2-avahi-0.6 deb introspection optional arch=any libavahi-client-dev deb libdevel optional arch=any libavahi-client3 deb libs optional arch=any libavahi-common-data deb libs optional arch=any libavahi-common-dev deb libdevel optional arch=any libavahi-common3 deb libs optional arch=any libavahi-compat-libdnssd-dev deb libdevel optional arch=any libavahi-compat-libdnssd1 deb libs optional arch=any libavahi-core-dev deb libdevel optional arch=any libavahi-core7 deb libs optional arch=any libavahi-glib-dev deb libdevel optional arch=any libavahi-glib1 deb libs optional arch=any libavahi-gobject-dev deb libdevel optional arch=any libavahi-gobject0 deb libs optional arch=any libavahi-ui-gtk3-0 deb libs optional arch=any profile=!pkg.avahi.nogui libavahi-ui-gtk3-dev deb libdevel optional arch=any profile=!pkg.avahi.nogui python3-avahi deb python optional arch=any profile=!nopython"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Sjoerd Simons \u003csjoerd@debian.org\u003e, Sebastian Dröge \u003cslomo@debian.org\u003e, Loic Minier \u003clool@dooz.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/utopia-team/avahi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/utopia-team/avahi.git"
+  ],
+  "Version": [
+    "0.8-10+deb12u1"
+  ]
+}

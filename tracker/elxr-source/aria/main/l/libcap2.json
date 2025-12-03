@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "libcap2-bin, libcap2, libcap-dev, libpam-cap, libcap2-udeb"
+  ],
+  "Build-Depends": [
+    "chrpath, debhelper-compat (= 13), gperf (\u003e= 3.1), indent, libpam0g-dev"
+  ],
+  "Checksums-Sha1": [
+    "a631dd8f65d048db8273f2de4a9ab27d1be90566 22304 libcap2_2.66-4+deb12u2.debian.tar.xz bb1206641d0568757a2a72792d11a32c6447a210 2236 libcap2_2.66-4+deb12u2.dsc d440e60686bd542e2a6481986c63ee8de625563e 181592 libcap2_2.66.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "b60f0b25112d6ec9fcbd410b05dd56ba93db636969bda57362e57113fc338984 22304 libcap2_2.66-4+deb12u2.debian.tar.xz c7dbaba2c03fc9a22265abc376e658f2c7ee3e641374255ab65275ac4e658b4e 2236 libcap2_2.66-4+deb12u2.dsc 15c40ededb3003d70a283fe587a36b7d19c8b3b554e33f86129c059a4bb466b2 181592 libcap2_2.66.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "23d55f2cf1fa604d85f8a9b4e4ef724b7272fc544d1f4dd1778728f5a76438e8b3c6fd97411983260ff5a5ef8a23e5afd03aeca9e2feee91d987169d4780e7f7 22304 libcap2_2.66-4+deb12u2.debian.tar.xz 39e6b841d5a137c5fb09793ba4616a752e2633a33c68b3481b5178f4f9490da8a30aaf4be4b53205cb8e1dc62bce8bd632bae412c8033f3dd7ecf56e83e21972 2236 libcap2_2.66-4+deb12u2.dsc ac005b622f6e065f30ce282a5c87240e7b9da75366ee537aa4835bc501b44bc242c10a4ba4dc070e2415fc7f635d1c3c4e45fbeeaf962cf7973dda82bf6377f0 181592 libcap2_2.66.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libc/libcap2"
+  ],
+  "Files": [
+    "1a23996f9848b925a454db56cd368f68 22304 libcap2_2.66-4+deb12u2.debian.tar.xz bf9480565ae7636e3d5a591c0e6e1f08 2236 libcap2_2.66-4+deb12u2.dsc 00afd6e13bc94b2543b1a70770bdb41f 181592 libcap2_2.66.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://sites.google.com/site/fullycapable/"
+  ],
+  "Maintainer": [
+    "Christian Kastner \u003cckk@debian.org\u003e"
+  ],
+  "Package": [
+    "libcap2"
+  ],
+  "Package-List": [
+    "libcap-dev deb libdevel optional arch=linux-any libcap2 deb libs optional arch=linux-any libcap2-bin deb utils important arch=linux-any libcap2-udeb udeb debian-installer optional arch=linux-any profile=!noudeb libpam-cap deb admin optional arch=linux-any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "gcc, libc-dev"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libcap2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libcap2.git"
+  ],
+  "Version": [
+    "1:2.66-4+deb12u2"
+  ]
+}

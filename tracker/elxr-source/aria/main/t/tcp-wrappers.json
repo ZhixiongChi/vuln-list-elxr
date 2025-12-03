@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "tcpd, libwrap0, libwrap0-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libnsl-dev | libc6-dev (\u003c\u003c 2.31-4)"
+  ],
+  "Checksums-Sha1": [
+    "62d426b44cfa17976b2ddd7d97fbdb2609c8518c 38040 tcp-wrappers_7.6.q-32.debian.tar.xz 33671a070b8f743897bba6e26a1936ff6a402370 1390 tcp-wrappers_7.6.q-32.dsc 61689ec85b80f4ca0560aef3473eccd9e9e80481 99438 tcp-wrappers_7.6.q.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "deec7966808407ddcb11581380c7253c348bd8780da6c9ee17fa9e7a729539fe 38040 tcp-wrappers_7.6.q-32.debian.tar.xz c9620a45e897c786b99890b54c6ea916df2380b6f3260e1e6442a1f8b5066997 1390 tcp-wrappers_7.6.q-32.dsc 9543d7adedf78a6de0b221ccbbd1952e08b5138717f4ade814039bb489a4315d 99438 tcp-wrappers_7.6.q.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "9507e95a8f5f32b726f74347c2b622cadfb5d2caaac8b930dcd44180147d1f098c426841b7e85372367afec2a403e0f22938908595db4b1b4b4c9ad1bdc4ab95 38040 tcp-wrappers_7.6.q-32.debian.tar.xz 6f1d99cf0cbcd294120f332fe696ac1f01fb9f3e3b747660924afc2e43925d94738546415c4cb65307cf61d7af6905e758e157c666e6d4e6767948ce71111baf 1390 tcp-wrappers_7.6.q-32.dsc 2d9d003791f8d00912a36ae00579e2b8dd7ad8a7bf8eae259659bcaf5365b150540ff6c93c91765872c76041579b7a02b6e3c64528fb7f8235680399ba1d9dac 99438 tcp-wrappers_7.6.q.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/t/tcp-wrappers"
+  ],
+  "Files": [
+    "8152f6da523207adcf1b4d9958b478b5 38040 tcp-wrappers_7.6.q-32.debian.tar.xz d2547dfe022e453549a9d5b8aab179bc 1390 tcp-wrappers_7.6.q-32.dsc e6fa25f71226d090f34de3f6b122fb5a 99438 tcp-wrappers_7.6.q.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Marco d'Itri \u003cmd@linux.it\u003e"
+  ],
+  "Package": [
+    "tcp-wrappers"
+  ],
+  "Package-List": [
+    "libwrap0 deb libs optional arch=any libwrap0-dev deb libdevel optional arch=any tcpd deb net optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/md/tcp-wrappers"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/md/tcp-wrappers.git"
+  ],
+  "Version": [
+    "7.6.q-32"
+  ]
+}

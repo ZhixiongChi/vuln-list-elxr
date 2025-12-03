@@ -1,0 +1,71 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libpam0g, libpam-modules, libpam-modules-bin, libpam-runtime, libpam0g-dev, libpam-doc"
+  ],
+  "Build-Conflicts": [
+    "libdb4.2-dev, libxcrypt-dev"
+  ],
+  "Build-Conflicts-Indep": [
+    "fop"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec, quilt, flex, libdb-dev, libcrypt-dev, libselinux1-dev [linux-any], po-debconf, dh-autoreconf, autopoint, libaudit-dev [linux-any] \u003c!stage1\u003e, pkg-config, libfl-dev, libfl-dev:native, docbook-xsl, docbook-xml, xsltproc, libxml2-utils, w3m"
+  ],
+  "Checksums-Sha1": [
+    "a89b80156411016d3375563b6526580e0d626a69 122828 pam_1.5.2-6+deb12u1.debian.tar.xz 04918d0def80ba7da6bc6207803a15e46d294e16 2038 pam_1.5.2-6+deb12u1.dsc 8d20308cbf17823e9b88b01c2c70df3e1ad9d654 988784 pam_1.5.2.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "47765582e95952b437108584c796bf8447d13011685b7289664ddd6f4fbcc900 122828 pam_1.5.2-6+deb12u1.debian.tar.xz 575e6f7e70cc4ed4602abcb2cda1cea455ae8dc2e7ede7d82b4ec1e6916f4fe2 2038 pam_1.5.2-6+deb12u1.dsc e4ec7131a91da44512574268f493c6d8ca105c87091691b8e9b56ca685d4f94d 988784 pam_1.5.2.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "ea0e9f3fa3fa184f96b47bf1711bdb83a9fd36b630d6da47c4ea6b2470cd94e0f31a7f274b375c900bdf962d729a846688c59494cbf9bcc19fb5c534b20e605a 122828 pam_1.5.2-6+deb12u1.debian.tar.xz 3c4094ef2910c81e437ff7ecece9504232c709d4ff557421f8c6a048acda23792a3985cb937b954d63522b9d7dcd6a799e81ac17d12fb87b73cd565ec418b5eb 2038 pam_1.5.2-6+deb12u1.dsc fa16350c132d3e5fb82b60d991768fb596582639841b8ece645c684705467305ccf1302a0147ec222ab78c01b2c9114c5496dc1ca565d2b56bf315f29a815144 988784 pam_1.5.2.orig.tar.xz"
+  ],
+  "Dgit": [
+    "087266575c098b79b820fb0acfc090b78a48f86d debian archive/debian/1.5.2-6+deb12u1 https://git.dgit.debian.org/pam"
+  ],
+  "Directory": [
+    "pool/main/p/pam"
+  ],
+  "Files": [
+    "c54f1e2fa549f46585f4b4c77dea7b5f 122828 pam_1.5.2-6+deb12u1.debian.tar.xz 3771906e5401b121023d8190cdcc23f6 2038 pam_1.5.2-6+deb12u1.dsc 895e8adfa14af334f679bbeb28503f66 988784 pam_1.5.2.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.linux-pam.org/"
+  ],
+  "Maintainer": [
+    "Sam Hartman \u003chartmans@debian.org\u003e"
+  ],
+  "Package": [
+    "pam"
+  ],
+  "Package-List": [
+    "libpam-doc deb doc optional arch=all libpam-modules deb admin required arch=any libpam-modules-bin deb admin required arch=any libpam-runtime deb admin required arch=all libpam0g deb libs optional arch=any libpam0g-dev deb libdevel optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-pam"
+  ],
+  "Uploaders": [
+    "Steve Langasek \u003cvorlon@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/vorlon/pam"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/vorlon/pam.git"
+  ],
+  "Version": [
+    "1.5.2-6+deb12u1"
+  ]
+}

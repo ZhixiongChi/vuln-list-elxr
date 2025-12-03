@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-winapi-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 24), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-winapi-i686-pc-windows-gnu-0.4+default-dev \u003c!nocheck\u003e, librust-winapi-x86-64-pc-windows-gnu-0.4+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "6c3e1de79b598b274529a05bcf2190d5821a31bd 11400 rust-winapi_0.3.9-1.debian.tar.xz 7ce818801de8ebdb39cffa8c21eab0c7979eb073 1643 rust-winapi_0.3.9-1.dsc 25c427fe8e3df07658e2552d2585d2f167ba3125 1200382 rust-winapi_0.3.9.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "c6f48195ba2e09294b1d00f1fc4d6c7475b32e22149620d20a02910009a8cffd 11400 rust-winapi_0.3.9-1.debian.tar.xz 1bbef9130b584b44aadb979e5bdd3b59095977feadde17986a75a34c1e16b539 1643 rust-winapi_0.3.9-1.dsc 5c839a674fcd7a98952e593242ea400abe93992746761e38641405d28b00f419 1200382 rust-winapi_0.3.9.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "05eb0d7b556b044e5dc8459c4b316124e0a87c2265cf80b02e3eb8596b822a66e1208a88f3b4cf65f24ad709ac419be55aacaf53f9f8b71ff3feeff68835eee8 11400 rust-winapi_0.3.9-1.debian.tar.xz 29bcbdb7d5e06751d0d10b604b80aa178df5c21e583f918610dcb5047432e465aaff2148078dc845ea12de19fe9f9aa98de4f33f5e01ae98849144e2774b383f 1643 rust-winapi_0.3.9-1.dsc ff8b7b78065f3d8999ec03c725a0460ebc059771bf071c7a3df3f0ecd733edf3b0a2450024d4e24e1aedddaecd9038ce1376c0d8bbf45132068cf45cf4a53a97 1200382 rust-winapi_0.3.9.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-winapi"
+  ],
+  "Files": [
+    "b4d9ea207226d0c296ed824a6e956640 11400 rust-winapi_0.3.9-1.debian.tar.xz 33781233b3deea3ded65ebb15b271867 1643 rust-winapi_0.3.9-1.dsc 0498c4a11448bfc35dc7bb2caa64c753 1200382 rust-winapi_0.3.9.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-winapi"
+  ],
+  "Package-List": [
+    "librust-winapi-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e, kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/winapi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/winapi]"
+  ],
+  "Version": [
+    "0.3.9-1"
+  ]
+}

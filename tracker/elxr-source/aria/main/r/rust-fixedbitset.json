@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-fixedbitset-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "259974db22f526b044a638d6c6496f832b267851 2700 rust-fixedbitset_0.4.2-1.debian.tar.xz 339a90158ef8c4053729c697f8ac926eaa8fc071 2179 rust-fixedbitset_0.4.2-1.dsc 80b8666c9e8f1671fc9261aee7a276a3e4e54b20 15954 rust-fixedbitset_0.4.2.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "ffcb351cd2590a7fa50d7cd270b60d6f0e9d7d5d4cb410c57a9d14d8c4e45f24 2700 rust-fixedbitset_0.4.2-1.debian.tar.xz b1e5b3391edee3a3b19e2ea6299218b94d1f70cf65816c81c2c93be03a506c6a 2179 rust-fixedbitset_0.4.2-1.dsc 0ce7134b9999ecaf8bcd65542e436736ef32ddca1b3e06094cb6ec5755203b80 15954 rust-fixedbitset_0.4.2.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "8fefac9e6ae495185870c45115ccbd996ea4d825eb8bc8b7486fc4c80fddaaccb61b7ed9f13ab756945d45948ade20cc2c5fc7b66a74d3b83b6b09607191350e 2700 rust-fixedbitset_0.4.2-1.debian.tar.xz dc03386986c6a5f7ac1d52f8d45ce8f4d91d5222cf9713958162d246f3643ab7f1b5a99db2491d1d427816f1cba3254986f2472879ca8b18c18d7c59ff7c99eb 2179 rust-fixedbitset_0.4.2-1.dsc 57c5d756b0a202b2506270f0d5e890f7617a1e0c015b6059ea23fab49cf7af47fd06927eb56feb03b37cb2b6c467e326b3f0da1e32cfcb6339cf11a130a3ccab 15954 rust-fixedbitset_0.4.2.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-fixedbitset"
+  ],
+  "Files": [
+    "2ac6fbda3667ba2de829c2a4cbf4e1f3 2700 rust-fixedbitset_0.4.2-1.debian.tar.xz 21107ddf23b2ced2832015e61b67598d 2179 rust-fixedbitset_0.4.2-1.dsc a1e1c92075e77d61acf61a094a68fa61 15954 rust-fixedbitset_0.4.2.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-fixedbitset"
+  ],
+  "Package-List": [
+    "librust-fixedbitset-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-serde-json-1+default-dev"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/fixedbitset"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/fixedbitset]"
+  ],
+  "Version": [
+    "0.4.2-1"
+  ]
+}

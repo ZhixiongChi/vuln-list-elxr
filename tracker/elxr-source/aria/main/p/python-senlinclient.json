@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-senlinclient-doc, python3-senlinclient"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "python3-coverage, python3-fixtures, python3-hacking, python3-heatclient, python3-keystoneauth1, python3-openstackclient, python3-openstackdocstheme \u003c!nodoc\u003e, python3-openstacksdk, python3-osc-lib, python3-oslo.i18n, python3-oslo.serialization, python3-oslo.utils, python3-oslotest, python3-prettytable, python3-requests, python3-requests-mock, python3-stestr, python3-subunit, python3-tempest, python3-testscenarios, python3-testtools, python3-yaml, subunit"
+  ],
+  "Checksums-Sha1": [
+    "197abebc04401723ebf5477b9381a38a6e34866e 3656 python-senlinclient_2.5.0-3.debian.tar.xz f8816d46866a30b4eb8b67f9afff064abfb32cbd 2814 python-senlinclient_2.5.0-3.dsc df25dc964e294e347e22009b697ca03def7f1cf3 61760 python-senlinclient_2.5.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "83a0f9fe706040c3d2b190ce5d5f31f569325bc736a87a2ee25b71f581c22f48 3656 python-senlinclient_2.5.0-3.debian.tar.xz 4dc7aecc59342dfb32af95437bd2bde7a4d5eb966c712681e51601934f97ba29 2814 python-senlinclient_2.5.0-3.dsc 595dfceaa402491b65d94d300ca4f7c79353430386c15215a2ad97258b9ee152 61760 python-senlinclient_2.5.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "d745385e680d5a6a957656a33ba2461f236022cf0fcc81fef48bdad220e0d8a83b684fed8b17edc001e6956f3992f7f94f249bc55fc40914daf18f37045520f1 3656 python-senlinclient_2.5.0-3.debian.tar.xz 26b747f268fbffb70b99f1ef4661667d40a56edb1f6a92fd1ff818744bc55a6748e6e69e894d8c6130bdce156be69dc4a7a21535c61f1d646aa40b98a72fc14c 2814 python-senlinclient_2.5.0-3.dsc 3878ea108d699bc8b79af7aefcf12898ce520454b82df3241aa4c3d09f7d05dc3a7d5dbe8744559b6364ddf6e8f0417dd7c07c3bb8c7bc08457345c9fe9d7e64 61760 python-senlinclient_2.5.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-senlinclient"
+  ],
+  "Files": [
+    "4a583d80378a93fa2686d889afbf6e8b 3656 python-senlinclient_2.5.0-3.debian.tar.xz 6585b9ae16f603ef599e0f72ba4a54d7 2814 python-senlinclient_2.5.0-3.dsc 499df057a0daadd6c381fb90ac80c183 61760 python-senlinclient_2.5.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openstack/python-senlinclient"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-senlinclient"
+  ],
+  "Package-List": [
+    "python-senlinclient-doc deb doc optional arch=all profile=!nodoc python3-senlinclient deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, David Della Vecchia \u003cddv@canonical.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/clients/python-senlinclient"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/clients/python-senlinclient.git"
+  ],
+  "Version": [
+    "2.5.0-3"
+  ]
+}

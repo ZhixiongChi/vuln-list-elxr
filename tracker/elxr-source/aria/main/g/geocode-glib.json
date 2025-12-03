@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgeocode-glib-2-0, libgeocode-glib-dev, libgeocode-glib-doc, gir1.2-geocodeglib-2.0, geocode-glib-tests, geocode-glib-common"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gnome-pkg-tools, libglib2.0-dev (\u003e= 2.44), libjson-glib-dev (\u003e= 0.99.2), libsoup-3.0-dev, meson, gobject-introspection (\u003e= 0.9.12-4~), libgirepository1.0-dev (\u003e= 0.9.3)"
+  ],
+  "Build-Depends-Indep": [
+    "gtk-doc-tools (\u003e= 1.13) \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "8eb2f6d2d972aec8f91b00cd42defc823d04ca28 16564 geocode-glib_3.26.3-6.debian.tar.xz d9fb7378e62bf8b2f45c2c6bc254493e45bd3ecf 2693 geocode-glib_3.26.3-6.dsc 92e2d342a2712f159a202127666b5fe8f0bb7f98 75148 geocode-glib_3.26.3.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "fd3e669e47f37eede2df45a802ac03945b5e2bfcd47cd5787a62dd87882c3a34 16564 geocode-glib_3.26.3-6.debian.tar.xz 0fe7781c1ab90ca886d311c91a35dfb7d8dd66e4bbd0224cf140f54645f81626 2693 geocode-glib_3.26.3-6.dsc 1dfeae83b90eccca1b6cf7dcf7c5e3b317828cf0b56205c4471ef0f911999766 75148 geocode-glib_3.26.3.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "e1f3b8e32a4675cdb6aad559b9eb278c81b3841a9d5f4811ccb5909ffe193fe305041deedae483332884a249223c0857197d97ab850d68860e1b63b15844d563 16564 geocode-glib_3.26.3-6.debian.tar.xz 746c09df97ec91884a43b475e9ec4f83572ca5470caa6d683490d358e0aa414412d313af60a45db41dba5d3250fe563d29cfc24a5258139df3eda3b3f191fc26 2693 geocode-glib_3.26.3-6.dsc 42313b1da24f5256ad73bd4be366d6bacf35256acc098e4865bbff58e92c5b78f4a2537e4787c6387190f10a2be2a72bc1507f7cb436e096e772195cf30fca7c 75148 geocode-glib_3.26.3.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/geocode-glib"
+  ],
+  "Files": [
+    "32e990b8e97ed4579b8e26f776ce9c7a 16564 geocode-glib_3.26.3-6.debian.tar.xz 29913f3511c8a1115f6150c541518d53 2693 geocode-glib_3.26.3-6.dsc 748921b2cfa8450ac6857c5da370e129 75148 geocode-glib_3.26.3.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "geocode-glib"
+  ],
+  "Package-List": [
+    "geocode-glib-common deb libs optional arch=all geocode-glib-tests deb libs optional arch=any gir1.2-geocodeglib-2.0 deb introspection optional arch=any libgeocode-glib-2-0 deb libs optional arch=any libgeocode-glib-dev deb libdevel optional arch=any libgeocode-glib-doc deb doc optional arch=all profile=!nodoc"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential"
+  ],
+  "Uploaders": [
+    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/geocode-glib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/geocode-glib.git"
+  ],
+  "Version": [
+    "3.26.3-6"
+  ]
+}

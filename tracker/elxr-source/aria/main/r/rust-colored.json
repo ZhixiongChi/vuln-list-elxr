@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-colored-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-atty-0.2+default-dev \u003c!nocheck\u003e, librust-lazy-static-1+default-dev \u003c!nocheck\u003e, librust-winapi-0.3+consoleapi-dev \u003c!nocheck\u003e, librust-winapi-0.3+processenv-dev \u003c!nocheck\u003e, librust-winapi-0.3+winbase-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "5daeba7496c428e55fc7520929267cd7ffcd89fd 2108 rust-colored_2.0.0-1.debian.tar.xz 0fa316b0fd065faf12a04a45379992e99c1f1f6f 2424 rust-colored_2.0.0-1.dsc 4a1a38a4ee78f4d6b24f572ef57020264d537079 21619 rust-colored_2.0.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "fa340ce1ea11da400e6906855e2f7d9db7cdce233a76b4c063c16d27f67f9e0a 2108 rust-colored_2.0.0-1.debian.tar.xz f3466c485f412b51dab0200a7cd2b434f87347c75c60a04ae5b52847d55b01c8 2424 rust-colored_2.0.0-1.dsc b3616f750b84d8f0de8a58bda93e08e2a81ad3f523089b05f1dffecab48c6cbd 21619 rust-colored_2.0.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "464d94765a8eb6730137675131f6d8c7a764ab01808222dd169695ec671d6a94e3e3ae1921b67013d80a418450ad7fd9f0d6d1c78a1cd3e4b6a591287e909f44 2108 rust-colored_2.0.0-1.debian.tar.xz b685d18578b964ec6b9f14d974cb448ef0684086e096074e2c9544dcff6e14992be6e23dbe17ff8379ff42a093836f2717cef76bba9e7b210007ff672c199a50 2424 rust-colored_2.0.0-1.dsc c9ee830c1e8a32372ab8c7ce569701deaa6533fa369fc1b4c04bed57b1e686ed775fc76c3d9815ad21ee69cfc7c30d645abcbacad39081c7e37ff83ebb6d9e8a 21619 rust-colored_2.0.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-colored"
+  ],
+  "Files": [
+    "5e18a9645a5f7f10acd39fbbf82bf79a 2108 rust-colored_2.0.0-1.debian.tar.xz 6ff27ccc8bcea7aa045d59893b3334c9 2424 rust-colored_2.0.0-1.dsc cdd5ee5d0cee157c4d436d934a5c1921 21619 rust-colored_2.0.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/mackwic/colored"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-colored"
+  ],
+  "Package-List": [
+    "librust-colored-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-ansi-term-0.12+default-dev, librust-rspec-1.0.0+default-dev"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/colored"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/colored]"
+  ],
+  "Version": [
+    "2.0.0-1"
+  ]
+}

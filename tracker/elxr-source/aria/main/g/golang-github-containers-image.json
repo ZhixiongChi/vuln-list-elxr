@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "golang-github-containers-image, golang-github-containers-image-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-golang, go-md2man, golang-go, golang-github-acarl005-stripansi-dev, golang-github-burntsushi-toml-dev, golang-github-containers-ocicrypt-dev, golang-github-containers-storage-dev (\u003e= 1.43), golang-github-coreos-bbolt-dev (\u003e= 1.3.3~), golang-github-docker-distribution-dev, golang-github-docker-docker-credential-helpers-dev, golang-github-docker-docker-dev, golang-github-docker-go-connections-dev, golang-github-docker-libtrust-dev, golang-github-fullsailor-pkcs7-dev, golang-github-ghodss-yaml-dev, golang-github-imdario-mergo-dev, golang-github-klauspost-pgzip-dev, golang-github-manifoldco-promptui-dev, golang-github-moby-sys-dev, golang-github-opencontainers-go-digest-dev, golang-github-opencontainers-image-spec-dev (\u003e= 1.1.0~rc2-2~), golang-github-opencontainers-selinux-dev (\u003e= 1.5), golang-github-ostreedev-ostree-go-dev, golang-github-pkg-errors-dev, golang-github-pquerna-ffjson-dev, golang-github-proglottis-gpgme-dev, golang-github-sirupsen-logrus-dev, golang-github-stretchr-testify-dev, golang-github-sylabs-sif-dev (\u003e\u003e 2.3.1), golang-github-ulikunitz-xz-dev, golang-github-vbatts-tar-split-dev, golang-github-vbauerster-mpb-dev (\u003e= 7), golang-github-xeipuuv-gojsonschema-dev, golang-golang-x-crypto-dev, golang-golang-x-net-dev, golang-golang-x-sync-dev, golang-gopkg-cheggaaa-pb.v1-dev, libbtrfs-dev, libdevmapper-dev"
+  ],
+  "Checksums-Sha1": [
+    "282d2fbe05885d80a77b08673129c27412329620 10008 golang-github-containers-image_5.23.1-4.debian.tar.xz 4a111c4d8a28dcfe548dda45e3f919ef56247c7a 3117 golang-github-containers-image_5.23.1-4.dsc 5310c8ee5bc45ffa37e2fd7ec0932268c536e47b 461004 golang-github-containers-image_5.23.1.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "db72dd362daaaf2a294c7f195e5711456acafc3c78d5559c24cb063303fff451 10008 golang-github-containers-image_5.23.1-4.debian.tar.xz f4216f28d8793e127cea242ef44532375fa1259eb4553205d8ec4e86bff05334 3117 golang-github-containers-image_5.23.1-4.dsc f9b4b2ac5dd1a55840dec859754ba7b4aaa8ab8384975309aa6a83f0b78c685b 461004 golang-github-containers-image_5.23.1.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "0a9e9573058d83f6d9dab8f14cc4f2f09896c1b7038cb284fca743acc5230243876b35282ccffe34f77399198b2c945ea883dacc2fb9cd5a042c6f0b5519be46 10008 golang-github-containers-image_5.23.1-4.debian.tar.xz 89ec671eabb6d28f03c17bcad21324e22765c26f234a79c75a5bd0682a19ee626d95f04c8b62b12f835b68590512e6c2474a85123ace11089780c9122e538e81 3117 golang-github-containers-image_5.23.1-4.dsc 325f163a23ee5d6e4b54d49457b9af4d1ae8002237ee2217fe44b0bdd8282e62771c455c52be176ce1e191f82c30ca6a6b94eda14e62f998e6648d5fd266a069 461004 golang-github-containers-image_5.23.1.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/golang-github-containers-image"
+  ],
+  "Files": [
+    "ee440a1856e26c89aeb0b2a10e77b539 10008 golang-github-containers-image_5.23.1-4.debian.tar.xz 9ec0bc47744e909519aded0bc924beef 3117 golang-github-containers-image_5.23.1-4.dsc a177234601a4aad5fe5dc30a1e26e586 461004 golang-github-containers-image_5.23.1.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/containers/image"
+  ],
+  "Homepage": [
+    "https://github.com/containers/image"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "golang-github-containers-image"
+  ],
+  "Package-List": [
+    "golang-github-containers-image deb devel optional arch=all golang-github-containers-image-dev deb devel optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Reinhard Tartler \u003csiretart@tauware.de\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/golang-github-containers-image"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/golang-github-containers-image.git"
+  ],
+  "Version": [
+    "5.23.1-4"
+  ]
+}

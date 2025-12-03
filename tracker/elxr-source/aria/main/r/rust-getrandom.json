@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-getrandom-dev, librust-getrandom+compiler-builtins-dev, librust-getrandom+core-dev, librust-getrandom+rustc-dep-of-std-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e, librust-libc-0.2-dev (\u003e= 0.2.120-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "11e854bad3ecec47fec9a7c3ae77258b003731dd 4252 rust-getrandom_0.2.8-1.debian.tar.xz 42f7f969d616861e2d214942712e80aa45d2f0cd 2528 rust-getrandom_0.2.8-1.dsc d823848f72e11504e91c9dfa401763a19a676d1d 30553 rust-getrandom_0.2.8.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "a127bcee287aa0783c37b4e4e0ca184a77f81abcdaf2259c10b2ef0311a47e0d 4252 rust-getrandom_0.2.8-1.debian.tar.xz e95cd6970e76825c9e5e0c19846a2eb47a910d0c85d942f85253250c82f89bd0 2528 rust-getrandom_0.2.8-1.dsc c05aeb6a22b8f62540c194aac980f2115af067bfe15a0734d7277a768d396b31 30553 rust-getrandom_0.2.8.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "2e4e767eb30a37541e014b79adb6c09b0d1fd536224f9b4d4328c57a32d87d6d1591a35bce6aa4b1ebb9582e8ccb4a7539414e66bf156eabf7b23abbb5b8bd1c 4252 rust-getrandom_0.2.8-1.debian.tar.xz 4fd79e7e117050732018d6b467d85c9fecba2f15ef034b7e639bf9d6adbc5be7d1cce5dc05abb8d20a3dbfcbbeaa8f54b0b210abf83838b6d94c5edda86ac8bf 2528 rust-getrandom_0.2.8-1.dsc cd7aea29f79a33a0de2a52a0a82f2b57ea8f27908ccfe00a5f42248766df88b225023603ec56d6fc634ef9c1eb67ad0135c90d4c695f6f659db0767e7fda44c5 30553 rust-getrandom_0.2.8.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-getrandom"
+  ],
+  "Files": [
+    "9ff6268ae08d938fe2eac2f999a016f9 4252 rust-getrandom_0.2.8-1.debian.tar.xz acc405634d1bcd5b88cea1ca15813d8b 2528 rust-getrandom_0.2.8-1.dsc 7e3435db94bbfde52efb6e639cfff542 30553 rust-getrandom_0.2.8.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-getrandom"
+  ],
+  "Package-List": [
+    "librust-getrandom+compiler-builtins-dev deb rust optional arch=any librust-getrandom+core-dev deb rust optional arch=any librust-getrandom+rustc-dep-of-std-dev deb rust optional arch=any librust-getrandom-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/getrandom"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/getrandom]"
+  ],
+  "Version": [
+    "0.2.8-1"
+  ]
+}

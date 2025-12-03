@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-oslo.serialization-doc, python3-oslo.serialization"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "python3-coverage, python3-debtcollector, python3-hacking, python3-msgpack, python3-netaddr, python3-openstackdocstheme, python3-oslo.i18n, python3-oslo.utils, python3-oslotest, python3-stestr, python3-tz, python3-yaml, subunit"
+  ],
+  "Checksums-Sha1": [
+    "e2cc8fb596f4d31073340155231c352982c6eb14 3844 python-oslo.serialization_5.0.0-2.debian.tar.xz 5786c9243f62111afbc3841ee3efc5d4e95ec5cb 2639 python-oslo.serialization_5.0.0-2.dsc 201209ea7ce8c944d24f6f812afc31789fd2d7cd 22296 python-oslo.serialization_5.0.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "1a7ef45cd32d4f35b81e85bb68e06139587728924432ab8f34838269f53cfeb9 3844 python-oslo.serialization_5.0.0-2.debian.tar.xz d4ac552960a7a91bf99fab75479507bf6b5440381c413bf45eee2b5263522ad6 2639 python-oslo.serialization_5.0.0-2.dsc 8fd811de215e696523a0d5f40dba92edcbcbb2c4dd48dc45fe83030019c4292f 22296 python-oslo.serialization_5.0.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "d0ae70e535e8c6d3c8f86f2ffbfdf238836c02ddcc6af1e8daf640c098e44fb94bcdb7f9430f64aebcde6a2033961ef4279c38f23af4e4210ffb6338505090d0 3844 python-oslo.serialization_5.0.0-2.debian.tar.xz bcc1e0068e3a61125fa4ba8fb45dd4604466bd83ad4c6f9a1eb6a2bd0104838bbe1138c513c67a19ab662f8e1f3f94f9697516922a18d38dd5c841bbc5bc9cfb 2639 python-oslo.serialization_5.0.0-2.dsc 8469ebcd6b08f4c3c3d80ff139bf5e647a454e45a3c020acc0b169188136ce255ea9a1f155fc9f8e996ca7f712933afcadc0486868f0ccd0e9610b1e6fd4f182 22296 python-oslo.serialization_5.0.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-oslo.serialization"
+  ],
+  "Files": [
+    "b5c55fc9749ac1cf8880607b79ca9040 3844 python-oslo.serialization_5.0.0-2.debian.tar.xz b183b5c313f3fb52a364f78f07598547 2639 python-oslo.serialization_5.0.0-2.dsc 4c9641611b11e850f927289ac917c461 22296 python-oslo.serialization_5.0.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openstack/oslo.serialization"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-oslo.serialization"
+  ],
+  "Package-List": [
+    "python-oslo.serialization-doc deb doc optional arch=all python3-oslo.serialization deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.4.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, David Della Vecchia \u003cddv@canonical.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/oslo/python-oslo.serialization"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/oslo/python-oslo.serialization.git"
+  ],
+  "Version": [
+    "5.0.0-2"
+  ]
+}

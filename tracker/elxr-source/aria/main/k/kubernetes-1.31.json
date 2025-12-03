@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "kubeadm-1.31, kubectl-1.31, kubelet-1.31"
+  ],
+  "Build-Depends": [
+    "curl, debhelper-compat (= 13), git, golang-go, rsync, wget, jq, golang-github-makenowjust-heredoc-dev (\u003e= 1.0.0~), golang-github-nytimes-gziphandler-dev (\u003e= 1.1.1~), golang-github-beorn7-perks-dev (\u003e= 1.0.1~), golang-github-blang-semver-dev (\u003e= 4.0.0~), golang-github-checkpoint-restore-go-criu-dev (\u003e= 5.3.0~), golang-github-containerd-console-dev (\u003e= 1.0.3~), golang-github-go-logr-stdr-dev (\u003e= 1.2.2~), golang-dbus-dev (\u003e= 5.1.0~), golang-github-gogo-protobuf-dev (\u003e= 1.3.2~), golang-github-google-gofuzz-dev (\u003e= 1.2.0~), golang-github-gorilla-websocket-dev (\u003e= 1.5.0~), golang-github-grpc-ecosystem-go-grpc-middleware-dev (\u003e= 1.3.0~), golang-github-josharian-intern-dev (\u003e= 1.0.0~), golang-github-json-iterator-go-dev (\u003e= 1.1.12~), golang-github-lithammer-dedent-dev (\u003e= 1.1.0~), golang-github-mitchellh-go-wordwrap-dev (\u003e= 1.0.1~), golang-github-opencontainers-go-digest-dev (\u003e= 1.0.0~), golang-github-robfig-cron-dev (\u003e= 3.0.1~), golang-github-russross-blackfriday-v2-dev (\u003e= 2.1.0~), golang-github-spf13-pflag-dev (\u003e= 1.0.5~), golang-github-stoewer-go-strcase-dev (\u003e= 1.2.0~), golang-gopkg-square-go-jose.v2-dev (\u003e= 2.6.0~), golang-gopkg-yaml.v2-dev (\u003e= 2.4.0~), golang-gopkg-yaml.v3-dev (\u003e= 3.0.1~)"
+  ],
+  "Checksums-Sha1": [
+    "5032bf1667efa1cf62b7df1749ecf894a8a1c298 9888 kubernetes-1.31_1.31.12+elxr12ds1-0elxr12u1.debian.tar.xz b36e21332528fc482344b70936c487bbf6787b99 2543 kubernetes-1.31_1.31.12+elxr12ds1-0elxr12u1.dsc f4aec3c9e2a8d9b6138b02894e6b716a02aea32d 35804137 kubernetes-1.31_1.31.12+elxr12ds1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "4b2718e5aeee569b4d9d0234b36b8f6819c1c71b93b2af2c75466aab17507375 9888 kubernetes-1.31_1.31.12+elxr12ds1-0elxr12u1.debian.tar.xz 88557f7a0e8fb3bb4b197d754ce06a1aef3ba598ad4ec4c66882c8da08af90ec 2543 kubernetes-1.31_1.31.12+elxr12ds1-0elxr12u1.dsc f37548a9119a21bda2df8950d24279b3cbf57df017b7f389cfd28776bf668ad6 35804137 kubernetes-1.31_1.31.12+elxr12ds1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "d0c0f812fb07e122c4e3ea320e5d0d101c7ba2b69012495c079ca769e59da7b70d59bd4ab62e74ad0b41d154ce13a87b8afcb9fc51c433d418cd8df3f3b25fa6 9888 kubernetes-1.31_1.31.12+elxr12ds1-0elxr12u1.debian.tar.xz f2d0ea137207ec9fb9de56a9649998417c38f5f9c865b6671ad8eda80d8867971363ecd17ccb3ac895f6eae1b241cc822f119e2590c576394ec8751eaa9072eb 2543 kubernetes-1.31_1.31.12+elxr12ds1-0elxr12u1.dsc dcf0b370ed5dca934b8d3a045b2b7f252dd5f28c1151979fd8ecff5f58b0d9af4dd4d3240d943fa8dbb869d671f9afbe90fb737d8f755ecfc8f46eaa81bde2cb 35804137 kubernetes-1.31_1.31.12+elxr12ds1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/k/kubernetes-1.31"
+  ],
+  "Files": [
+    "4b57a638f8d8da9e27b2a7560ac140fa 9888 kubernetes-1.31_1.31.12+elxr12ds1-0elxr12u1.debian.tar.xz cc261f508e2fe2fb9ee24841e1389a58 2543 kubernetes-1.31_1.31.12+elxr12ds1-0elxr12u1.dsc aa9d2f4691da5d133dc5393894f4ca78 35804137 kubernetes-1.31_1.31.12+elxr12ds1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://kubernetes.io"
+  ],
+  "Maintainer": [
+    "William Lyu \u003cWilliam.Lyu@windriver.com\u003e"
+  ],
+  "Package": [
+    "kubernetes-1.31"
+  ],
+  "Package-List": [
+    "kubeadm-1.31 deb admin optional arch=any kubectl-1.31 deb admin optional arch=any kubelet-1.31 deb admin optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Harsh Doshi \u003charsh.doshi@windriver.com\u003e Joe Slater \u003cjoe.slater@windriver.com\u003e Tom MacDougall \u003cTom.MacDougall@windriver.com\u003e"
+  ],
+  "Vcs-Git": [
+    "https://github.com/kubernetes/kubernetes.git"
+  ],
+  "Version": [
+    "1.31.12+elxr12ds1-0elxr12u1"
+  ]
+}

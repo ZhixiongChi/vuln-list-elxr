@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "kubeadm, kubectl, kubelet"
+  ],
+  "Build-Depends": [
+    "curl, debhelper-compat (= 13), git, golang-dbus-dev (\u003e= 5.1.0~), golang-github-beorn7-perks-dev (\u003e= 1.0.1~), golang-github-blang-semver-dev (\u003e= 4.0.0~), golang-github-gogo-protobuf-dev (\u003e= 1.3.2~), golang-github-go-logr-stdr-dev (\u003e= 1.2.2~), golang-github-google-gofuzz-dev (\u003e= 1.2.0~), golang-github-gorilla-websocket-dev (\u003e= 1.5.0~), golang-github-grpc-ecosystem-go-grpc-middleware-dev (\u003e= 1.3.0~), golang-github-josharian-intern-dev (\u003e= 1.0.0~), golang-github-json-iterator-go-dev (\u003e= 1.1.12~), golang-github-lithammer-dedent-dev (\u003e= 1.1.0~), golang-github-makenowjust-heredoc-dev (\u003e= 1.0.0~), golang-github-mitchellh-go-wordwrap-dev (\u003e= 1.0.1~), golang-github-nytimes-gziphandler-dev (\u003e= 1.1.1~), golang-github-opencontainers-go-digest-dev (\u003e= 1.0.0~), golang-github-robfig-cron-dev (\u003e= 3.0.1~), golang-github-russross-blackfriday-v2-dev (\u003e= 2.1.0~), golang-github-spf13-pflag-dev (\u003e= 1.0.5~), golang-go, golang-gopkg-square-go-jose.v2-dev (\u003e= 2.6.0~), golang-gopkg-yaml.v3-dev (\u003e= 3.0.1~), rsync, wget"
+  ],
+  "Checksums-Sha1": [
+    "b112e21d4f8323349806a10e83c1cf76423c6e6b 232856 kubernetes_1.32.5+elxr12ds2-0elxr12u2.debian.tar.xz 60ac6f0f3b9eef47f61bf08a1405ccb1a80d4cdf 2107 kubernetes_1.32.5+elxr12ds2-0elxr12u2.dsc 2a586ee7cd54eb116d09137e5f523fa3f6db46e6 35742679 kubernetes_1.32.5+elxr12ds2.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "1d91a1e8a152ca0539cd397e5babc4365f8db736d19148d6e06d57e1d5d60527 232856 kubernetes_1.32.5+elxr12ds2-0elxr12u2.debian.tar.xz 7570b51d7435d2abb2725e9f128bb5621a475fd0221fc0788aaec1290388ebcd 2107 kubernetes_1.32.5+elxr12ds2-0elxr12u2.dsc 5e7b672e2c9a445063f8c7a64a1d860481995da168ee56c24fb4574d4316c7f1 35742679 kubernetes_1.32.5+elxr12ds2.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "c43d1ea97804ff3a31f2cff660c75789c219ac48dad58a40f2f48f27c179d98b87153ae2f3c33dedb1b47d15a693981894ced05afdfc18042c84cf1cba7de5ee 232856 kubernetes_1.32.5+elxr12ds2-0elxr12u2.debian.tar.xz c4e9060e6a9b713ed809ede39243dca15b437a5399df59eb55457ab5d61a42e1ea5e5e0c0894819f7b8685c12b26abafed0bf6edeab9e3d731af6c80c4ee53f4 2107 kubernetes_1.32.5+elxr12ds2-0elxr12u2.dsc 59be16b449cf3175fbe45f991f6503996158a89b426fab48041803210357e7a2431dec1da0fd4ea46bea76c2949bd6e1d1c6f7cc5742e17a6d7aa4e5773209e5 35742679 kubernetes_1.32.5+elxr12ds2.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/k/kubernetes"
+  ],
+  "Files": [
+    "439f10c6f92246b528a6fcb3bf088a18 232856 kubernetes_1.32.5+elxr12ds2-0elxr12u2.debian.tar.xz 19de4c6f8fb38cc43215fc6831dd5a20 2107 kubernetes_1.32.5+elxr12ds2-0elxr12u2.dsc a70c27c3327c6d0f10ed59ec2e160843 35742679 kubernetes_1.32.5+elxr12ds2.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://kubernetes.io"
+  ],
+  "Maintainer": [
+    "Joe Slater \u003cjoe.slater@windriver.com\u003e"
+  ],
+  "Package": [
+    "kubernetes"
+  ],
+  "Package-List": [
+    "kubeadm deb admin optional arch=any kubectl deb admin optional arch=any kubelet deb admin optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Git": [
+    "https://github.com/kubernetes/kubernetes.git"
+  ],
+  "Version": [
+    "1.32.5+elxr12ds2-0elxr12u2"
+  ]
+}

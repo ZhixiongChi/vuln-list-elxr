@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libsoup2.4-dev, libsoup2.4-1, libsoup-gnome2.4-1, libsoup-gnome2.4-dev, libsoup2.4-common, libsoup2.4-doc, gir1.2-soup-2.4, libsoup2.4-tests"
+  ],
+  "Build-Depends": [
+    "apache2 (\u003e= 2.4) \u003c!nocheck\u003e \u003c!noinsttest\u003e, curl \u003c!nocheck\u003e \u003c!noinsttest\u003e, debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, glib-networking (\u003e= 2.32.0), gtk-doc-tools, libapache2-mod-php (\u003c\u003c 2:9) \u003c!nocheck\u003e \u003c!noinsttest\u003e, libapache2-mod-php (\u003e= 2:7) \u003c!nocheck\u003e \u003c!noinsttest\u003e, libbrotli-dev, libgirepository1.0-dev (\u003e= 0.9.5), libglib2.0-dev (\u003e= 2.58), libkrb5-dev, libnss-myhostname [linux-any] \u003c!nocheck\u003e, libpsl-dev (\u003e= 0.20), libsqlite3-dev, libxml2-dev, meson (\u003e= 0.48), php (\u003c\u003c 2:9) \u003c!nocheck\u003e \u003c!noinsttest\u003e, php (\u003e= 2:7) \u003c!nocheck\u003e \u003c!noinsttest\u003e, php-xmlrpc \u003c!nocheck\u003e \u003c!noinsttest\u003e | php (\u003e= 2:8.1+85+really8) \u003c!nocheck\u003e \u003c!noinsttest\u003e, python3, valac"
+  ],
+  "Build-Depends-Indep": [
+    "libglib2.0-doc"
+  ],
+  "Checksums-Sha1": [
+    "b0061cbcbc269da06b1a1bdef925778211fc6ede 37612 libsoup2.4_2.74.3-1+deb12u1elxr1.debian.tar.xz 582adc0c671c515224728d92a96baad376b24296 2541 libsoup2.4_2.74.3-1+deb12u1elxr1.dsc 657ce6cbfacbc7ab175de5207f80c1235d2f8092 1504804 libsoup2.4_2.74.3.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "53af1b13206dd4b1edb2ee2e9f9c927b2fa2afef086b4d8760275b3f0007f8c5 37612 libsoup2.4_2.74.3-1+deb12u1elxr1.debian.tar.xz 8ae28b7dd4af8c0e7d68a315c3e8e6f3573e4b897659983d470e8863e87716c4 2541 libsoup2.4_2.74.3-1+deb12u1elxr1.dsc e4b77c41cfc4c8c5a035fcdc320c7bc6cfb75ef7c5a034153df1413fa1d92f13 1504804 libsoup2.4_2.74.3.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "ab55128183472e3a2d467e8dd44347488da505b61890fd9882bba56d92660e51b9176b769d4d356f03c113d142de3241aef33a6122a68facf20de49d3288b058 37612 libsoup2.4_2.74.3-1+deb12u1elxr1.debian.tar.xz b2a23969aae8d6c81f105d9017de4dacc654ece1b19332e159da69199c96d3b6e7d67b78dc535ada538b7c0dc33b931dbda5544696c87af3f82f1c9ecf9b1cfc 2541 libsoup2.4_2.74.3-1+deb12u1elxr1.dsc 72f8a055df984cb35105fe67f4ca67d3fb110d40a9cacb660fccd89f93b06bc32e25d94375dcc76608a245f7c5e081d968d7aaf5952eb16013d81c741247cb4c 1504804 libsoup2.4_2.74.3.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libs/libsoup2.4"
+  ],
+  "Files": [
+    "cf1ad7cdac571d7666a8f7548eb9d46a 37612 libsoup2.4_2.74.3-1+deb12u1elxr1.debian.tar.xz 84aa4c0d180261e3a68bd917de6983fa 2541 libsoup2.4_2.74.3-1+deb12u1elxr1.dsc 8f657fd301a213629204b3320c35d75a 1504804 libsoup2.4_2.74.3.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Projects/libsoup"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libsoup2.4"
+  ],
+  "Package-List": [
+    "gir1.2-soup-2.4 deb introspection optional arch=any libsoup-gnome2.4-1 deb libs optional arch=any libsoup-gnome2.4-dev deb libdevel optional arch=any libsoup2.4-1 deb libs optional arch=any libsoup2.4-common deb devel optional arch=all libsoup2.4-dev deb libdevel optional arch=any libsoup2.4-doc deb doc optional arch=all libsoup2.4-tests deb misc optional arch=any profile=!noinsttest"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, dbus, gnome-desktop-testing, winbind, xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Iain Lane \u003claney@debian.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Michael Biebl \u003cbiebl@debian.org\u003e, Sebastien Bacher \u003cseb128@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/libsoup"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/libsoup.git"
+  ],
+  "Version": [
+    "2.74.3-1+deb12u1elxr1"
+  ]
+}

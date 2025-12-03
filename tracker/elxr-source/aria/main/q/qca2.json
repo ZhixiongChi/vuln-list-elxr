@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libqca-qt5-2, libqca-qt5-2-plugins, qca-qt5-2-utils, libqca-qt5-2-dev, libqca2-doc"
+  ],
+  "Build-Conflicts": [
+    "libqca2-dev, qca-dev"
+  ],
+  "Build-Depends": [
+    "ca-certificates, cmake (\u003e= 3.16~), debhelper-compat (= 13), gnupg \u003c!nocheck\u003e, libsasl2-dev, libssl-dev (\u003e= 1.1.1~), pkg-config, pkg-kde-tools (\u003e= 0.15.16), qtbase5-dev (\u003e= 5.14.0~)"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, graphviz"
+  ],
+  "Checksums-Sha1": [
+    "feb7f92fa1108b8e061d7ef5dc7b80abb9cb4c44 28612 qca2_2.3.5-2.debian.tar.xz 6674e29177c33a45d9d47d38c99a12bdb4a7cf00 2698 qca2_2.3.5-2.dsc b664b297519d4bb63bd616bd084059263c57e6b7 741036 qca2_2.3.5.orig.tar.xz 3cd999374b2bd73c0116480632d459b547c17b8a 833 qca2_2.3.5.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "49c027515ebf435dfeb3f7c553ac2aad37cbe9797fc14e6d5988c48f34e4da51 28612 qca2_2.3.5-2.debian.tar.xz 49912062b3665f4fe378b6b946fb20f2a5b067bb9a3515f9502fec5af020f0b4 2698 qca2_2.3.5-2.dsc 91f7d916ab3692bf5991f0a553bf8153161bfdda14bd005d480a2b4e384362e8 741036 qca2_2.3.5.orig.tar.xz 397dd89eed1e7bf9dfe276fb8f3ce9f0767aafbf794764b2efb987ed88a85f51 833 qca2_2.3.5.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "6603c98fab5a3724b982949544c2a0eb27cabf7b0202b3bf9667c8747374d3c10a4ab00654a76d5db888f8cebf65f7bd57b5ae6598d23092cf24ffc523249056 28612 qca2_2.3.5-2.debian.tar.xz 86206df8745b1c0688099e74a4b9d708d301dac1828a8a691f19d81a608889f3053f7e114ca0687943c3d689bdf7950a9547363ff2f399935a617e22c43e2078 2698 qca2_2.3.5-2.dsc 656e44d4f30c3c0e1a8c04f2703484e3cff2d962b12c6ff9891b9f28127cd61ed30dcd248c059bf9066ac645bf53a9b7c14bdb413a7766c8b3f3d37426478d96 741036 qca2_2.3.5.orig.tar.xz 454c272fc6af7f45be305758cd19ca6bec756b251febe3367755d070ce8dc254f066f0dd117dbac06cf0c0dbebbc48e86e24ea5dbf669786a813ea1ce771c3cc 833 qca2_2.3.5.orig.tar.xz.asc"
+  ],
+  "Directory": [
+    "pool/main/q/qca2"
+  ],
+  "Files": [
+    "7554a1ad220c7462996d5f1ab4239611 28612 qca2_2.3.5-2.debian.tar.xz 714fc23c310d1bc160ac08e8e84a50a0 2698 qca2_2.3.5-2.dsc 64a8c4c30a42740fca1f9a6937d3fbae 741036 qca2_2.3.5.orig.tar.xz 12f61cafa15a906b8c0684353b57e13a 833 qca2_2.3.5.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://userbase.kde.org/QCA"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "qca2"
+  ],
+  "Package-List": [
+    "libqca-qt5-2 deb libs optional arch=any libqca-qt5-2-dev deb libdevel optional arch=any libqca-qt5-2-plugins deb libs optional arch=any libqca2-doc deb doc optional arch=all qca-qt5-2-utils deb utils optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, cmake, dh-acc, exuberant-ctags"
+  ],
+  "Uploaders": [
+    "Pino Toscano \u003cpino@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/extras/qca2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/extras/qca2.git"
+  ],
+  "Version": [
+    "2.3.5-2"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "tracker, libtracker-sparql-3.0-0, libtracker-sparql-3.0-dev, libtracker-doc, gir1.2-tracker-3.0, tracker-test-utils"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, meson (\u003e= 0.53), pkg-config, asciidoc-base, libdbus-1-dev (\u003e= 1.3.1), libglib2.0-dev (\u003e= 2.46.0), libsqlite3-dev (\u003e= 3.8.3), libstemmer-dev, zlib1g-dev, libupower-glib-dev (\u003e= 0.9.0), libxml2-dev, uuid-dev, valac, bash-completion, libglib2.0-doc, libgirepository1.0-dev (\u003e= 0.10.7-1~), gobject-introspection (\u003e= 0.10), libicu-dev, libjson-glib-dev (\u003e= 1.4), libsoup-3.0-dev, dbus (\u003e= 1.8) \u003c!nocheck\u003e, python3-gi \u003c!nocheck\u003e, gir1.2-glib-2.0 \u003c!nocheck\u003e, python3-tap \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "eb547d16049dcd4bfaed08936263b237395130aa 23652 tracker_3.4.2-1.debian.tar.xz 1b8823c27721e6b42559f5f7b57e96a508061c93 2856 tracker_3.4.2-1.dsc 658ad11c0fa6ae5f6a8947d15d08fbf6127a8278 1865236 tracker_3.4.2.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "1a900cdf54ce51ce8717e4ae6cf277ecfdd7b9ddbfcf9ac997108dcbf327e191 23652 tracker_3.4.2-1.debian.tar.xz 4d066bef82b4557dc4ec68f50764f8c9420fe211dc5b6f1cc9c533b628aea2fe 2856 tracker_3.4.2-1.dsc 4e6df142a4f704878fca98ebb5a224750e5ea546aa2aaabaa726a73540bd1731 1865236 tracker_3.4.2.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "9f78db83a0f9a712fde132285a02ce1f6ef02c40061a7e732def91237bb141d9bf372dff5e5189c94dc9379ee4a1d952aa50d7314a09b6558095a1cef4e0aeab 23652 tracker_3.4.2-1.debian.tar.xz 36bb4ed29f9b694a97e1558b1b86990ba3c207e919f94a95aefaa8a27b3a421bf3d509466b762d1cb145a3cc2199507b184cfb0e86e5c56b027c62897b3311ef 2856 tracker_3.4.2-1.dsc 2214bce7cdbaf1039b11986cf101f615337bbc450331ee703edcfd7ad62dee6e1db831c2c89bf341663cadcdaae6ee9e5a15f49a8087acaafd58b389292ef480 1865236 tracker_3.4.2.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tracker"
+  ],
+  "Files": [
+    "b678abf97cd2a30483be7ac42a70c4c1 23652 tracker_3.4.2-1.debian.tar.xz c2c558d13319f9599b0a81b210670e5c 2856 tracker_3.4.2-1.dsc 161d074eeae05dffc77911f12cf5ec14 1865236 tracker_3.4.2.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Projects/Tracker"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "tracker"
+  ],
+  "Package-List": [
+    "gir1.2-tracker-3.0 deb introspection optional arch=any libtracker-doc deb doc optional arch=all libtracker-sparql-3.0-0 deb libs optional arch=any libtracker-sparql-3.0-dev deb libdevel optional arch=any tracker deb utils optional arch=any tracker-test-utils deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, locales"
+  ],
+  "Uploaders": [
+    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/tracker"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/tracker.git"
+  ],
+  "Version": [
+    "3.4.2-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "haveged, libhavege2, libhavege-dev, haveged-udeb"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-apparmor"
+  ],
+  "Checksums-Sha1": [
+    "3d68e5b874bb1926ad9fcfea54fbb2224df72d20 11592 haveged_1.9.14-1.debian.tar.xz f78581b4cf080a09c885eec7e89e64265d38c408 2148 haveged_1.9.14-1.dsc 66571ee9273dbb6152e829790753a0bbfdb95e71 496346 haveged_1.9.14.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "170e1ae859608ae152ed4e5cb6fddb13e969b9f8418db51eb07ec5182c6bbc70 11592 haveged_1.9.14-1.debian.tar.xz 7b19fe14efa1bda37d7876d7e4840c4c275ad86c6d177af9a7d66b3d9ee1a303 2148 haveged_1.9.14-1.dsc 938cb494bcad7e4f24e61eb50fab4aa0acbc3240c80f3ad5c6cf7e6e922618c3 496346 haveged_1.9.14.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "a015043ec17f0f46f3bb2c0e1203a25e9592164bb15081c9928bd38734ab17394558fc2f55cdda60142610c0b213c8b9155863c8e0b24aa6a26be84f8d99e2c6 11592 haveged_1.9.14-1.debian.tar.xz af027aa0e889dce431192351ab6cae61ef6b74c27d108462c2853fcebd613fab91ed7f8f88ba02ee57ac60283e7e9dfd684b604cd77bf7e999bd701f17a3f48b 2148 haveged_1.9.14-1.dsc bdb6d9de667298d32b474bcbdd5f90c12b870b154b86f8817948de787d378b428bf823234f20129666bd1abced2f154643b5999e43975969f6bba87124650924 496346 haveged_1.9.14.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/h/haveged"
+  ],
+  "Files": [
+    "1ae254ce2353e3f5f80d9e0cde5ce70e 11592 haveged_1.9.14-1.debian.tar.xz 85941bb448c1b50bbffb89019280a3a6 2148 haveged_1.9.14-1.dsc f756474201bec9a46b41e8712f79468a 496346 haveged_1.9.14.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://issihosts.com/haveged/"
+  ],
+  "Maintainer": [
+    "Jérémy Bobbio \u003clunar@debian.org\u003e"
+  ],
+  "Package": [
+    "haveged"
+  ],
+  "Package-List": [
+    "haveged deb misc optional arch=linux-any haveged-udeb udeb debian-installer optional arch=linux-any libhavege-dev deb libdevel optional arch=linux-any libhavege2 deb libs optional arch=linux-any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, dieharder, grep"
+  ],
+  "Uploaders": [
+    "nicoo \u003cnicoo@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/haveged"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/haveged.git"
+  ],
+  "Version": [
+    "1.9.14-1"
+  ]
+}
