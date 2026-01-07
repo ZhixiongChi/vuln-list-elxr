@@ -3,25 +3,25 @@
     "arm64"
   ],
   "Binary": [
-    "linux-image-6.1.0-40-cloud-arm64, linux-image-cloud-arm64, linux-headers-cloud-arm64"
+    "linux-image-6.1.0-41-cloud-arm64, linux-image-cloud-arm64, linux-headers-cloud-arm64"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-exec, python3:any, rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (\u003e= 2.102~), linux-arm64-support-6.1.0-40 (= 6.1.153-elxr3-1), linux-image-6.1.0-40-cloud-arm64-unsigned (= 6.1.153-elxr3-1) [arm64]"
+    "debhelper-compat (= 12), dh-exec, python3:any, rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (\u003e= 2.102~), linux-arm64-support-6.1.0-41 (= 6.1.158-elxr1-1), linux-image-6.1.0-41-cloud-arm64-unsigned (= 6.1.158-elxr1-1) [arm64]"
   ],
   "Checksums-Sha1": [
-    "5f3cce570d793afb17d2499afb94fb755748f25d 1370 linux-arm64-signed-arm64_6.1.153+elxr3+1.dsc 999fbb4750fbf05be7fb7c2e639e15510363cb35 769288 linux-arm64-signed-arm64_6.1.153+elxr3+1.tar.xz"
+    "22e8058652cc834eb50f710666611bf2b98643b8 1370 linux-arm64-signed-arm64_6.1.158+elxr1+1.dsc 0c6a574c92b4ad18080ec77f6856dd1a78d25cb4 777304 linux-arm64-signed-arm64_6.1.158+elxr1+1.tar.xz"
   ],
   "Checksums-Sha256": [
-    "bbb07b0f025b3ce443f45de99fe534690777f79b75fba3d7f5c0b590db8c8177 1370 linux-arm64-signed-arm64_6.1.153+elxr3+1.dsc b7b16a7e0797706443254a041799e1192bb3c1531bdac353043013619321447a 769288 linux-arm64-signed-arm64_6.1.153+elxr3+1.tar.xz"
+    "4efa995677c626a7aa34fbfa44544301e6427b102ada5a7c173ac61d09ba4446 1370 linux-arm64-signed-arm64_6.1.158+elxr1+1.dsc 5cc82530890065bdd872e0ebec0c76339e6a5141caa21033ebee3c09cbb8ee66 777304 linux-arm64-signed-arm64_6.1.158+elxr1+1.tar.xz"
   ],
   "Checksums-Sha512": [
-    "5cfa06614146be3983c4c6d906b51fe48623b402f034a0281bf2e4e8b81587bd10a33cffabe56a1eea5bf0f18d05956931f45a540b229ad1f34670452d76d955 1370 linux-arm64-signed-arm64_6.1.153+elxr3+1.dsc b756f3b808500ee6c9d11eddfe8ef9f8dc2dbdd1263253997b87da46c0724db1cd36b42a3101e46408350ef987dcc7fb82c2e8bbe6e89e17b747182a9e685cb0 769288 linux-arm64-signed-arm64_6.1.153+elxr3+1.tar.xz"
+    "fa9da08f2a045937d22ee15792ea187e81cd6baa5e191206ccb4de8aef604beea3088622ecaac4793424614fd0538afd3dafec94609d0d2f7f290ff5821352cc 1370 linux-arm64-signed-arm64_6.1.158+elxr1+1.dsc 5fe5fba23dec57aee7b45fec1726268a27fad9035162904286f43f66e8636db53af2f7bdba54fb7090e04fe7a9fbdbaa2c642a5c4040b3f9136b9fe7d6c93c58 777304 linux-arm64-signed-arm64_6.1.158+elxr1+1.tar.xz"
   ],
   "Directory": [
     "pool/main/l/linux-arm64-signed-arm64"
   ],
   "Files": [
-    "bf736e76cbf33187a5fa4f10d72476ef 1370 linux-arm64-signed-arm64_6.1.153+elxr3+1.dsc cfe540065b1db9e1e2e564eaef7fef83 769288 linux-arm64-signed-arm64_6.1.153+elxr3+1.tar.xz"
+    "60af7b41198983aca78098c252173e60 1370 linux-arm64-signed-arm64_6.1.158+elxr1+1.dsc 30b8e03f04ae8d17ca69d50d2b9fc10a 777304 linux-arm64-signed-arm64_6.1.158+elxr1+1.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -36,7 +36,7 @@
     "linux-arm64-signed-arm64"
   ],
   "Package-List": [
-    "linux-headers-cloud-arm64 deb kernel optional arch=arm64 linux-image-6.1.0-40-cloud-arm64 deb kernel optional arch=arm64 linux-image-cloud-arm64 deb kernel optional arch=arm64"
+    "linux-headers-cloud-arm64 deb kernel optional arch=arm64 linux-image-6.1.0-41-cloud-arm64 deb kernel optional arch=arm64 linux-image-cloud-arm64 deb kernel optional arch=arm64"
   ],
   "Standards-Version": [
     "4.2.0"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/kernel-team/linux.git"
   ],
   "Version": [
-    "6.1.153+elxr3+1"
+    "6.1.158+elxr1+1"
   ]
 }
