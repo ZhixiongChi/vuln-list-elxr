@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "i386 amd64 arm64 armhf loong64 ppc64el all"
+  ],
+  "Binary": [
+    "chromium, chromium-l10n, chromium-shell, chromium-headless-shell, chromium-driver, chromium-common, chromium-sandbox"
+  ],
+  "Build-Conflicts": [
+    "bindgen-0.56, bindgen-0.65, rustc-1.74"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 11), devscripts, llvm-19:native, lld-19:native, clang-19:native, clang-format-19:native, libclang-rt-19-dev, libc++-19-dev, rustc:any (\u003e= 1.84), libstd-rust-dev (\u003e= 1.84), bindgen:native, python3:any, pkgconf, ninja-build, python3-jinja2:native, ca-certificates, wget, flex, xvfb, wdiff, gperf, bison, nodejs:any, node-rollup-plugin-terser:native, rollup, xz-utils, xcb-proto, xfonts-base, libdav1d-dev, libx11-xcb-dev, libxshmfence-dev, libgl-dev, libglu1-mesa-dev, libegl1-mesa-dev, libgles2-mesa-dev, libopenh264-dev, generate-ninja:native, mesa-common-dev, rapidjson-dev, libva-dev, libxt-dev, libgbm-dev, libpng-dev, libxss-dev, libelf-dev, libpci-dev, libcap-dev, libffi-dev, libkrb5-dev, libexif-dev, libflac-dev, libudev-dev, libpipewire-0.3-dev, libopus-dev, libxtst-dev, libjpeg-dev, libxml2-dev (\u003e= 2.10), libgtk-3-dev, libxslt1-dev, liblcms2-dev, libpulse-dev, libpam0g-dev, libdouble-conversion-dev, libxnvctrl-dev, libglib2.0-dev, libasound2-dev, libsecret-1-dev, libspeechd-dev, libminizip-dev, libhunspell-dev, libharfbuzz-dev, libxcb-dri3-dev, libusb-1.0-0-dev, libopenjp2-7-dev, libnss3-dev, libnspr4-dev, libcups2-dev, libevdev-dev, libgcrypt20-dev, libcurl4-openssl-dev, libzstd-dev, fonts-ipafont-gothic, fonts-ipafont-mincho, cross-exe-wrapper \u003ccross\u003e, linux-libc-dev (\u003e= 6.5)"
+  ],
+  "Checksums-Sha1": [
+    "31359ad2933943847c2b44ffbd5bf1eb548d8dc7 441252 chromium_143.0.7499.192-1~deb13u1.debian.tar.xz a9222bf9e5da33c434a6c779b1157f7d43285242 4098 chromium_143.0.7499.192-1~deb13u1.dsc 1d22f335a860c41269e8736583031ba5e00c3e70 714351784 chromium_143.0.7499.192.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "83c3cd641d9e9442179b977df61a2271f933d769f6740009d5fc0131fbdff6fd 441252 chromium_143.0.7499.192-1~deb13u1.debian.tar.xz 10c47f6581260564fbf9e298aac01acf243ee6dc79dff72132b93cc751a0151e 4098 chromium_143.0.7499.192-1~deb13u1.dsc f7f8a7b62fe14877823119c2b3b8b4cc0f321b42e2d68387216f536d831a546d 714351784 chromium_143.0.7499.192.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "dcdb0331bcd681cb001ca75ff812cf25d8412ac6b08f04b4d7c860ad950df08392e453080f5ad999a29f054ccbe4b96868bcba835e389742adcca96e88128d08 441252 chromium_143.0.7499.192-1~deb13u1.debian.tar.xz f1663f58ab07fb26ce1027f68f01955089733e74e1ea21c7323249d621967a4ee5c5cdef4b7535fb7f8468c1e79c6f91892bae4832e1f4fc2dfb253f65d19371 4098 chromium_143.0.7499.192-1~deb13u1.dsc a30def567b6b1ceecbcd0ff7d18ab2f63c8489c5b737ae63c7185f9cc24ee8c8f5ce61fce26951fffb6113f60577c9bf91958495b2a421599dc088195bc2f57f 714351784 chromium_143.0.7499.192.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/chromium"
+  ],
+  "Files": [
+    "90a058b404a65e118fb8afaeb404b606 441252 chromium_143.0.7499.192-1~deb13u1.debian.tar.xz c983fbfdddeb8be1da0d277ccf6235d3 4098 chromium_143.0.7499.192-1~deb13u1.dsc 5bc1cf1c30c1938ea50373a3d09d664d 714351784 chromium_143.0.7499.192.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.chromium.org/Home"
+  ],
+  "Maintainer": [
+    "Debian Chromium Team \u003cchromium@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "chromium"
+  ],
+  "Package-List": [
+    "chromium deb web optional arch=i386,amd64,arm64,armhf,loong64,ppc64el chromium-common deb web optional arch=i386,amd64,arm64,armhf,loong64,ppc64el chromium-driver deb web optional arch=i386,amd64,arm64,armhf,loong64,ppc64el chromium-headless-shell deb web optional arch=i386,amd64,arm64,armhf,loong64,ppc64el chromium-l10n deb localization optional arch=all chromium-sandbox deb web optional arch=i386,amd64,arm64,armhf,loong64,ppc64el chromium-shell deb web optional arch=i386,amd64,arm64,armhf,loong64,ppc64el"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Uploaders": [
+    "Andres Salomon \u003cdilinger@debian.org\u003e, Timothy Pearson \u003ctpearson@raptorengineering.com\u003e, Daniel Richard G. \u003cskunk@iSKUNK.ORG\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/chromium-team/chromium"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/chromium-team/chromium.git"
+  ],
+  "Version": [
+    "143.0.7499.192-1~deb13u1"
+  ]
+}

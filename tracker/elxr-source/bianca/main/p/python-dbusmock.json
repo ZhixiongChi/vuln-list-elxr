@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-dbusmock"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "upower \u003c!nocheck\u003e, python3-dbus, python3-gi \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, gir1.2-glib-2.0 \u003c!nocheck\u003e, dbus-daemon \u003c!nocheck\u003e, libnotify-bin \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "ba466a9c752406ee7d47808ca4d5e714c9ba8c64 8600 python-dbusmock_0.34.3-1.debian.tar.xz 908b53f332db49a82f28645503137e79923b61a4 2370 python-dbusmock_0.34.3-1.dsc ff94ffd105d09fe569b077b3a1fa46d9d27bd91a 111656 python-dbusmock_0.34.3.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "93e6777a820b9beb12c434afa41f0597ab262a593d35c4002395515b8312d1f5 8600 python-dbusmock_0.34.3-1.debian.tar.xz fafd3a2a1f1b54283213ed98f70179f391fd234cf28385a06448e325301f0a4d 2370 python-dbusmock_0.34.3-1.dsc 439127291ec4364cbe3c2f58c47987bbe189e9493ccc6d56629bd484e79a6f8b 111656 python-dbusmock_0.34.3.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "98afd7766721410558f175abe42eb230eb63d4a11a34480c70e13ee3de3c8cf3a18ce520a4cadd303b2b79679ec548edc4f29dea936afe36ac714dd9bc307ca5 8600 python-dbusmock_0.34.3-1.debian.tar.xz acb8c0591358962c0143cadf906a8a1a61f3982af0b7d4b359c5595cdae7e5ddd49d332702de71e8a4f1325f6fe4e0e2c66e3ffa1824ecda3d9d3345f144ff2f 2370 python-dbusmock_0.34.3-1.dsc 96b5ef9b0c41afaa703b608bbc1ec27704359a61b83d633bd10718a314f84b91208961e9e4b5d96718a2ac70b5b96b0e00039b7d6bfd4436470dafd34d28f0e4 111656 python-dbusmock_0.34.3.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/p/python-dbusmock"
+  ],
+  "Files": [
+    "64ac9a0372d29d140db842f4c8d6c1de 8600 python-dbusmock_0.34.3-1.debian.tar.xz 900a4b1f10481f6076da7176877efaf2 2370 python-dbusmock_0.34.3-1.dsc a2de46b58aa39d8337d4104493404249 111656 python-dbusmock_0.34.3.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/martinpitt/python-dbusmock/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-dbusmock"
+  ],
+  "Package-List": [
+    "python3-dbusmock deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.7.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "bluez, libnotify-bin, network-manager, policykit-1, polkitd, python3-pytest, systemd, upower"
+  ],
+  "Uploaders": [
+    "Martin Pitt \u003cmpitt@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-dbusmock"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-dbusmock.git"
+  ],
+  "Version": [
+    "0.34.3-1"
+  ]
+}

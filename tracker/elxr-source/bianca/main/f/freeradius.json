@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "freeradius, freeradius-common, freeradius-config, freeradius-utils, libfreeradius3, libfreeradius-dev, freeradius-dhcp, freeradius-krb5, freeradius-ldap, freeradius-rest, freeradius-postgresql, freeradius-mysql, freeradius-iodbc, freeradius-redis, freeradius-memcached, freeradius-yubikey, freeradius-python3"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), default-libmysqlclient-dev, freetds-dev, libcap-dev, libcurl4-openssl-dev | libcurl4-gnutls-dev, libgdbm-dev, libhiredis-dev, libiodbc2-dev, libjson-c-dev, libkrb5-dev | heimdal-dev, libldap2-dev, libmemcached-dev, libpam0g-dev, libpcap-dev, libperl-dev, libpq-dev, libreadline-dev, libsasl2-dev, libsqlite3-dev, libssl-dev, libsystemd-dev, libtalloc-dev, libwbclient-dev (\u003e\u003e 2:4.19.6+dfsg-2~), libykclient-dev, libyubikey-dev, python3-dev, snmp"
+  ],
+  "Checksums-Sha1": [
+    "7b81e3f029e850a78bd44e6d8356287b0d059d57 58504 freeradius_3.2.7+dfsg-1+deb13u2.debian.tar.xz 21dd68fc2dd6e2c130e40276ce613b23ea047075 3646 freeradius_3.2.7+dfsg-1+deb13u2.dsc ac44238a2fd902f899b383c3010a1e99cb509deb 2065508 freeradius_3.2.7+dfsg.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "65ed301dcf0f1bfc08d526da9ece8816edef33ba8b4fd7296fb7efcd6974e17b 58504 freeradius_3.2.7+dfsg-1+deb13u2.debian.tar.xz 000b0eb794d45fca2790269279ac1c7315f981f57c5ba0c2c73a8c5941827fd2 3646 freeradius_3.2.7+dfsg-1+deb13u2.dsc 93b083224232fa9b2091c86afd56c27e041b8cfd07f60c8e9d095f3a8d69d17a 2065508 freeradius_3.2.7+dfsg.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "d76461f6d51687a909fc8ee06ade5beefd674fbaf551f1134a9bf3d654ad5cd9e384d8b120ef4bdd233c0693462daaa0fd18c3623c628d33357786f52f11fbb5 58504 freeradius_3.2.7+dfsg-1+deb13u2.debian.tar.xz 46be1c426a7a0db6608b22c5f887c5749cab14832413865801d06aa47a545d692aa9419a3ea7fb7268fb16dbbebf69647ae49cab6c4e956cb2de64b9a41dce47 3646 freeradius_3.2.7+dfsg-1+deb13u2.dsc 8c2008a5233198c65ebdbec16988d0801117163471906a44c33fef18c131640cbaf7736952e99e86bebddecbcfb815041527866994e66e79ab5fbc7c655919c3 2065508 freeradius_3.2.7+dfsg.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/freeradius"
+  ],
+  "Files": [
+    "a23e24c4a92e4f3a205297a2ef28858e 58504 freeradius_3.2.7+dfsg-1+deb13u2.debian.tar.xz 933ef3efc396a66fa46f733403b83a50 3646 freeradius_3.2.7+dfsg-1+deb13u2.dsc efa6cbe953f6e848780efcdb408b588a 2065508 freeradius_3.2.7+dfsg.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.freeradius.org/"
+  ],
+  "Maintainer": [
+    "Debian FreeRADIUS Packaging Team \u003cpkg-freeradius-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "freeradius"
+  ],
+  "Package-List": [
+    "freeradius deb net optional arch=any freeradius-common deb net optional arch=all freeradius-config deb net optional arch=any freeradius-dhcp deb net optional arch=any freeradius-iodbc deb net optional arch=any freeradius-krb5 deb net optional arch=any freeradius-ldap deb net optional arch=any freeradius-memcached deb net optional arch=any freeradius-mysql deb net optional arch=any freeradius-postgresql deb net optional arch=any freeradius-python3 deb net optional arch=any freeradius-redis deb net optional arch=any freeradius-rest deb net optional arch=any freeradius-utils deb net optional arch=any freeradius-yubikey deb net optional arch=any libfreeradius-dev deb libdevel optional arch=any libfreeradius3 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "lsb-release, python3, python3-passlib"
+  ],
+  "Uploaders": [
+    "Mark Hymers \u003cmhy@debian.org\u003e, Sam Hartman \u003chartmans@debian.org\u003e, Bernhard Schmidt \u003cberni@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/freeradius"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/freeradius.git"
+  ],
+  "Version": [
+    "3.2.7+dfsg-1+deb13u2"
+  ]
+}

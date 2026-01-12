@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgrpc-dev, libgrpc29t64, libgrpc++-dev, libgrpc++1.51t64, protobuf-compiler-grpc, ruby-grpc, ruby-grpc-tools, python3-grpcio"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), cmake, pkgconf, googletest (\u003e= 1.12~), zlib1g-dev, libssl-dev, libabsl-dev (\u003e= 20220623.1), libprotobuf-dev, protobuf-compiler (\u003e= 3.21.0~), libgflags-dev, libgtest-dev, libbenchmark-dev, libgoogle-perftools-dev, libprotoc-dev (\u003e= 3.21.0~), libc-ares-dev, libre2-dev, gem2deb (\u003e= 1.6~), ruby-google-protobuf (\u003e= 3.21.0~), ruby-googleauth, ruby-googleapis-common-protos-types, ruby-rspec, ruby-simplecov, dh-python, python3-all-dev, cython3, python3-six, python3-setuptools, python3-pkg-resources, python3-sphinx, python3-sphinx-rtd-theme"
+  ],
+  "Checksums-Sha1": [
+    "3018fba7368c801819088a19c76066a79c7e2e47 29224 grpc_1.51.1-6.debian.tar.xz 74fed042bb73097b282c3b21fa4eb4ab277a1155 2856 grpc_1.51.1-6.dsc e5c9daf773d215ffba83b4db8139bdf0379e0768 8550112 grpc_1.51.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "0a4f5e2b34812cddeac7504c9173eed35ea95163f7480e1252a65f5d86b95b94 29224 grpc_1.51.1-6.debian.tar.xz ba7c21a2833c9a4b483135bf2e8757e3fc88fa967413c6bf00fab40392f421c5 2856 grpc_1.51.1-6.dsc b55696fb249669744de3e71acc54a9382bea0dce7cd5ba379b356b12b82d4229 8550112 grpc_1.51.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "32dc3d44f4a1a652fa318758a949437ad410d95b82f9898bdffa266b77b3fe9a0cd18ad42bf45d89176b89b003b8860462c98a2018de904e94fda045943aa95c 29224 grpc_1.51.1-6.debian.tar.xz b017435fcf69d64d18cbb8e1b25844f146b3f0ba1e9a989441a6ce5be288bb803cd3a8cb98784e16d1efcf9030b32856d85d839a987c535bf886dad13e7de136 2856 grpc_1.51.1-6.dsc 1bc8e7a5a15b2dca88527d111cde398b0dc1921bbc945c6df8225b4225b8ac0b43155bcf743230ce7b5962d1ab948e9363229c98a879b1befc7a939a290fb888 8550112 grpc_1.51.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/g/grpc"
+  ],
+  "Files": [
+    "b12357f42fdf0f545f2a2eb25dcff9d8 29224 grpc_1.51.1-6.debian.tar.xz 7f487f3289f198f15ffb2abae46147bb 2856 grpc_1.51.1-6.dsc b8cfe76fe0445e77a1149e2ee556d21b 8550112 grpc_1.51.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.grpc.io/"
+  ],
+  "Maintainer": [
+    "Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e"
+  ],
+  "Package": [
+    "grpc"
+  ],
+  "Package-List": [
+    "libgrpc++-dev deb libdevel optional arch=any libgrpc++1.51t64 deb libs optional arch=any libgrpc-dev deb libdevel optional arch=any libgrpc29t64 deb libs optional arch=any protobuf-compiler-grpc deb libs optional arch=any python3-grpcio deb python optional arch=any ruby-grpc deb ruby optional arch=any ruby-grpc-tools deb ruby optional arch=all"
+  ],
+  "Ruby-Versions": [
+    "all"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-ruby"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/grpc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/grpc.git"
+  ],
+  "Version": [
+    "1.51.1-6"
+  ]
+}

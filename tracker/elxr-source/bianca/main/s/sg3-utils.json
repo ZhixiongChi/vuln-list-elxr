@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "sg3-utils, libsgutils2-1.48, libsgutils2-dev, sg3-utils-udev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libtool, libcam-dev [kfreebsd-any], dpkg-dev (\u003e= 1.16.1~)"
+  ],
+  "Checksums-Sha1": [
+    "a186c4d7b70bbfcf09069b6eb8f64159a29c5877 13808 sg3-utils_1.48-2.debian.tar.xz 4c7ae79034268884172df7ce80135873b40eb358 1614 sg3-utils_1.48-2.dsc eda9e472d403bd27fe3a57da8760572fa8cd61a5 1211028 sg3-utils_1.48.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "697fa8a159692dfad01041394fb54debf2304a58501fc51da645fe359f1e22a0 13808 sg3-utils_1.48-2.debian.tar.xz ae7f280fc5cb9dd4a4aff0949a957f0966afa884dd950b3e7433185e10a4a1bb 1614 sg3-utils_1.48-2.dsc d6b9a41690d540e58d1e99c26ac8db37336c849ef6a03f96ea48ca2fe334dbfa 1211028 sg3-utils_1.48.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "ee8d9e71b9a41e6cb3445b0f8e33c050c3c49282757c31f5f76d42d174c334ca90799141f2301d20a1da8f3e3456f22c5e9b91c863f88f518924f1967cb29802 13808 sg3-utils_1.48-2.debian.tar.xz 5ab3d90a34aef0091e9e0d2ae572dce4a6ea2378ad9fd48666b69f740cddd27ba3f75f09d73af8750eeb5f8cba3c2a4b95062fb8debbfa7fb54f45de1b115e29 1614 sg3-utils_1.48-2.dsc d4f586ac8a4ba9b5de5885657785e25251c8a42913332d6eca38f92b546c06e8e8aa0553c4b5c04f553cf2d0a9e4f34827f65ba596ef65e43dec36b4345f444a 1211028 sg3-utils_1.48.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sg3-utils"
+  ],
+  "Files": [
+    "b9ce0335e34a3f9c845da929b15991a4 13808 sg3-utils_1.48-2.debian.tar.xz b0601a3dc9e99fa57b499924b49bcdd5 1614 sg3-utils_1.48-2.dsc 0024393d2d2942cc081ce613d98db68a 1211028 sg3-utils_1.48.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://sg.danny.cz/sg/"
+  ],
+  "Maintainer": [
+    "Ritesh Raj Sarraf \u003crrs@debian.org\u003e"
+  ],
+  "Package": [
+    "sg3-utils"
+  ],
+  "Package-List": [
+    "libsgutils2-1.48 deb libs optional arch=any libsgutils2-dev deb libdevel optional arch=any sg3-utils deb admin optional arch=any sg3-utils-udev deb admin optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "lsscsi, open-iscsi, targetcli-fb"
+  ],
+  "Uploaders": [
+    "Jonathan McDowell \u003cnoodles@earth.li\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/linux-blocks-team/sg3-utils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/linux-blocks-team/sg3-utils.git"
+  ],
+  "Version": [
+    "1.48-2"
+  ]
+}

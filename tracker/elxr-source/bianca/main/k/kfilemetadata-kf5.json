@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libkf5filemetadata-bin, libkf5filemetadata-data, libkf5filemetadata-dev, libkf5filemetadata-doc, libkf5filemetadata3"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake (\u003e= 3.16~), doxygen, extra-cmake-modules (\u003e= 5.116.0~), libappimage-dev (\u003e= 0.1.10~) [linux-any], libattr1-dev, libavcodec-dev (\u003e= 7:3.1~), libavdevice-dev (\u003e= 3.1~), libavformat-dev (\u003e= 7:3.1~), libavutil-dev, libepub-dev, libexiv2-dev (\u003e= 0.26~), libkf5archive-dev (\u003e= 5.116.0~), libkf5config-dev (\u003e= 5.116.0~), libkf5coreaddons-dev (\u003e= 5.116.0~), libkf5i18n-dev (\u003e= 5.116.0~), libpoppler-qt5-dev (\u003e= 0.12.1), libpostproc-dev, libqmobipocket-dev (\u003e= 4:2.0~), libqt5sql5-sqlite:native, libswscale-dev (\u003e= 7:3.1~), libtag-dev (\u003e= 1.11.1~), pkg-kde-tools (\u003e= 0.15.18), pkgconf, qtbase5-dev (\u003e= 5.15.2~), qttools5-dev, qttools5-dev-tools"
+  ],
+  "Checksums-Sha1": [
+    "4ed0aae457501cba5c931b9c27e5e0c374d46999 16352 kfilemetadata-kf5_5.116.0-1.debian.tar.xz c3a839966239299f9012e69d6b15cf4b2fc88f18 3403 kfilemetadata-kf5_5.116.0-1.dsc d88a53ee7f82f81cec186649b9d91c86fe80107a 527164 kfilemetadata-kf5_5.116.0.orig.tar.xz ca3e1694a67fad271f0dd18cf5ba5e35a63d9d5a 488 kfilemetadata-kf5_5.116.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "4afaf7d6c04a9958340f17bd3328a2bf65464b44b905c97631a41222c1fe5a2d 16352 kfilemetadata-kf5_5.116.0-1.debian.tar.xz 0f5329589394367391db88a8150f282760de3fe8fae7937bff4cc1e55286cf75 3403 kfilemetadata-kf5_5.116.0-1.dsc 195c2c8c4a18a24552fd1c020335f7e1e564c3acfaec4e918319d62c8067ce8f 527164 kfilemetadata-kf5_5.116.0.orig.tar.xz 97adc588b73e8760f28b21844ad06c013a4251a128f9a6ab64b2b97abdb4e7b2 488 kfilemetadata-kf5_5.116.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "afd665cb0acade77218a501c8e8462e902902532d4b0cbdf8137cd3d47e96e8e157218f43f9e5cde98728f50dfa0ed510d13f2e8ce2c5d6b81aae4e038b0836b 16352 kfilemetadata-kf5_5.116.0-1.debian.tar.xz 89498ef39d9ab65f700814c5d2a9f7949277fc6436f378dc46b8385311b7146fdadbaa97c89ae0ebab5fd9e5073041938fbae366c8ec60973fc0cd8b6efd9b3d 3403 kfilemetadata-kf5_5.116.0-1.dsc 1c5d264ad2bc123ba0d85882461009efc10c268441e33f82810823d1e2c6fb30209336542b4e2c1eabb96b53cc9184fc3982c27922872a9b92cac38bafe2da0e 527164 kfilemetadata-kf5_5.116.0.orig.tar.xz cb1bc2372b0e8348f1789f43f2dbe8fc2ca92c276185b62120e38e49474870a7f53343f0d631c8502d3112c771d1f9c37e8fd2e8092ae5473fcb7dc7ca6d2d2f 488 kfilemetadata-kf5_5.116.0.orig.tar.xz.asc"
+  ],
+  "Directory": [
+    "pool/main/k/kfilemetadata-kf5"
+  ],
+  "Files": [
+    "2a995cb6f4e39218934cbe8996afb8e1 16352 kfilemetadata-kf5_5.116.0-1.debian.tar.xz 42bd87537831f1b3af4a229942050696 3403 kfilemetadata-kf5_5.116.0-1.dsc 939bfb4ea00c28bfeed4a2fda43ed466 527164 kfilemetadata-kf5_5.116.0.orig.tar.xz f82ff45dd100289b350bef5b3b95426a 488 kfilemetadata-kf5_5.116.0.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/frameworks/kfilemetadata"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "kfilemetadata-kf5"
+  ],
+  "Package-List": [
+    "libkf5filemetadata-bin deb kde optional arch=any libkf5filemetadata-data deb kde optional arch=all libkf5filemetadata-dev deb libdevel optional arch=any libkf5filemetadata-doc deb doc optional arch=all libkf5filemetadata3 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-acc, exuberant-ctags"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/kfilemetadata"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/kfilemetadata.git"
+  ],
+  "Version": [
+    "5.116.0-1"
+  ]
+}

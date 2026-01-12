@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-swiftclient-doc, python3-swiftclient"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "python3-coverage, python3-hacking, python3-keystoneauth1, python3-keystoneclient, python3-openstackdocstheme, python3-reno, python3-stestr"
+  ],
+  "Checksums-Sha1": [
+    "469009465946b17702fcf8de7661626e66ec193e 6596 python-swiftclient_4.7.0-2.debian.tar.xz b83f154ba41de1022cfc2ccd9bb2bd331cdd52b3 2497 python-swiftclient_4.7.0-2.dsc c3c1c8e920d5ae65ac40939ad159b0760d5855cb 157156 python-swiftclient_4.7.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "7bdc1eea741eb007c2cd161709c4e7195c57e9cdbfb1b4bd5addb0e08fe92ad0 6596 python-swiftclient_4.7.0-2.debian.tar.xz d9c906564b4f7d98a8bb05a0b939c985b29c0bb854291c470346dfd12f782485 2497 python-swiftclient_4.7.0-2.dsc 3cdbff24aeef64f3cb093c4142316d6c2f6c9ea2f314b4a3f0464b10624e79ab 157156 python-swiftclient_4.7.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "a868d4d183df1e5d49eb18c3a4b8a002f1b72a02c0aead93cda0546c279420403700de889981ad38fca8bcf4b966fda666be1681901e0a185d2d750a0e072220 6596 python-swiftclient_4.7.0-2.debian.tar.xz 7001c5f590f081d17b4aa833c15dec219f172374cd602f05cdc87eb61f2bc16e20043d33fdc83ed219ff9e3af1d616d5a1d63436bb354c0f563d4be84f1d7256 2497 python-swiftclient_4.7.0-2.dsc a1531e4dfb1e4621feb36ae0488f30e391680f016fa669215d9dfbe31b2a9c7df89b65f1b5d29d86a9fb4b406ff77fd36b7ca0189ba04744b85fd0dee47b1e34 157156 python-swiftclient_4.7.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-swiftclient"
+  ],
+  "Files": [
+    "6036850dd7d15d564710ac36edea3834 6596 python-swiftclient_4.7.0-2.debian.tar.xz f5c10c2ac14bb76968cd8c21aa57fad3 2497 python-swiftclient_4.7.0-2.dsc 54ce9ea443cd88ecfe01d15d79d967a1 157156 python-swiftclient_4.7.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openstack/python-swiftclient"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-swiftclient"
+  ],
+  "Package-List": [
+    "python-swiftclient-doc deb doc optional arch=all python3-swiftclient deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, Corey Bryant \u003ccorey.bryant@canonical.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/clients/python-swiftclient"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/clients/python-swiftclient.git"
+  ],
+  "Version": [
+    "1:4.7.0-2"
+  ]
+}

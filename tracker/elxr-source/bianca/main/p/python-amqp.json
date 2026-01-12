@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-amqp-doc, python3-amqp"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "libjs-jquery, python3-pytest \u003c!nocheck\u003e, python3-pytest-rerunfailures \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-celery \u003c!nodoc\u003e, python3-vine \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "1f269da6ddde95e104a70975a49b5356ee4a0831 9904 python-amqp_5.3.1-2.debian.tar.xz f8bef31645f70c9b6f895fb7b5aa9263f1365759 2523 python-amqp_5.3.1-2.dsc b913b92e0e54e805cb2e9f2dc4bc39c9eb375215 129013 python-amqp_5.3.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "fe91861185cbd49c87da1fb28cd4115c539627a8c7b0e025e2627e37782736ab 9904 python-amqp_5.3.1-2.debian.tar.xz 2bab6e6ed1f8edfe1dfc72b977927190f0aba08bc7b2107d46b2e96fe8fa2e0d 2523 python-amqp_5.3.1-2.dsc cddc00c725449522023bad949f70fff7b48f0b1ade74d170a6f10ab044739432 129013 python-amqp_5.3.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "4db4c91b2add721916c241f594dec959092057f72e478916f5cfa80119a546e82c40897c2f47d4466c8dac6defe8e650c77c277f26fdba48c6e8db4fe5b14005 9904 python-amqp_5.3.1-2.debian.tar.xz 61288aa23d3305656d9da28d3a924e68ca94aaa9fa070b59dee4ca4defac6cc5828a58d4914e4d4d19ea20643d26c170412c467f2c25820ae039e93acba25e1f 2523 python-amqp_5.3.1-2.dsc 4701ee40a6a88738ab2bb199114512af85f722afb99e2ee1d18c48563ceb6f925052315c5ca289e36db5d02aa72412b798442fd6c2f623d10a0ac43af3c2eca8 129013 python-amqp_5.3.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/p/python-amqp"
+  ],
+  "Files": [
+    "192a4dbc37726efd95aa5522b22fcd6a 9904 python-amqp_5.3.1-2.debian.tar.xz d3bd3076d948300951b6e0af539d3c51 2523 python-amqp_5.3.1-2.dsc 6f23f380ba02c1dbdc035f5f90c31475 129013 python-amqp_5.3.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/celery/py-amqp"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-amqp"
+  ],
+  "Package-List": [
+    "python-amqp-doc deb doc optional arch=all profile=!nodoc python3-amqp deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest, python3-pytest-rerunfailures"
+  ],
+  "Uploaders": [
+    "Michael Fladischer \u003cfladi@debian.org\u003e, Thomas Goirand \u003czigo@debian.org\u003e, Brian May \u003cbam@debian.org\u003e, Christopher Hoskin \u003cmans0954@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-amqp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-amqp.git"
+  ],
+  "Version": [
+    "5.3.1-2"
+  ]
+}

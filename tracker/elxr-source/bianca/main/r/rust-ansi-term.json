@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-ansi-term-dev, librust-ansi-term+derive-serde-style-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 11), dh-cargo (\u003e= 18), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-winapi-0.3+consoleapi-dev (\u003e= 0.3.4-~~) \u003c!nocheck\u003e, librust-winapi-0.3+default-dev (\u003e= 0.3.4-~~) \u003c!nocheck\u003e, librust-winapi-0.3+errhandlingapi-dev (\u003e= 0.3.4-~~) \u003c!nocheck\u003e, librust-winapi-0.3+fileapi-dev (\u003e= 0.3.4-~~) \u003c!nocheck\u003e, librust-winapi-0.3+handleapi-dev (\u003e= 0.3.4-~~) \u003c!nocheck\u003e, librust-winapi-0.3+processenv-dev (\u003e= 0.3.4-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "612d2e5af1bc8cb88d48f2ca0b301dc6ed8f5720 3004 rust-ansi-term_0.12.1-1.debian.tar.xz da8321051520cad13271e9acc3487a880ad4005f 2827 rust-ansi-term_0.12.1-1.dsc fa6af8a593898105594dfb8b057dcbfdf30648a2 24838 rust-ansi-term_0.12.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "20275a2ea767447e8321a87f3db3f9fa80e1d2f2f9ac684f04c0ae83f9b54d97 3004 rust-ansi-term_0.12.1-1.debian.tar.xz 8e84047df971b8ac8046ead25bca8d0a1fe3c533b9705808c3ac1d73316ceb21 2827 rust-ansi-term_0.12.1-1.dsc d52a9bb7ec0cf484c551830a7ce27bd20d67eac647e1befb56b0be4ee39a55d2 24838 rust-ansi-term_0.12.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "c457d68369f96aea51f843cd4ba349b0758fc553d37032dbb9b931e933be386af96c5cf6245f127d47f34693b8f808250117dfb803b20569060316877dd04e1a 3004 rust-ansi-term_0.12.1-1.debian.tar.xz ecd829a1f58bfca3f9bc90cf2d7247e263535848e127b0b8a646734a1c303ff21c13e7df69e539f45327569bcb76e15b2e73da282269e0d93a36ceb41e653e29 2827 rust-ansi-term_0.12.1-1.dsc b840e28b3e7700689a69a39659b1e066560078dd4a58326b91a028915819e7af883399ee53e920db68fd974c58d35bb1ddf8d427af5937d5f696f57c4376b671 24838 rust-ansi-term_0.12.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-ansi-term"
+  ],
+  "Files": [
+    "9d00427af09754db34f79437d86f52b8 3004 rust-ansi-term_0.12.1-1.debian.tar.xz abbbe3e84e6783d57fc302036bcc0696 2827 rust-ansi-term_0.12.1-1.dsc f44e8d1d2e61974b268852797530ea41 24838 rust-ansi-term_0.12.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ogham/rust-ansi-term"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-ansi-term"
+  ],
+  "Package-List": [
+    "librust-ansi-term+derive-serde-style-dev deb rust optional arch=any librust-ansi-term-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.2.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-doc-comment-0.3+default-dev, librust-regex-1+default-dev, librust-serde-json-1+default-dev"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ansi-term"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/ansi-term]"
+  ],
+  "Version": [
+    "0.12.1-1"
+  ]
+}

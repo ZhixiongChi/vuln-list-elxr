@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-clang-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-glob-0.3+default-dev \u003c!nocheck\u003e, librust-libc-0.2-dev (\u003e= 0.2.39-~~) \u003c!nocheck\u003e, libclang-dev \u003c!nocheck\u003e, llvm, clang"
+  ],
+  "Checksums-Sha1": [
+    "d61508290d9fc3faad082bf830779f576179e921 3564 rust-clang-sys_1.8.1-3.debian.tar.xz 301ffc232b4dfc0794f760d25d0cea1a4d2c6287 2427 rust-clang-sys_1.8.1-3.dsc cc9beedc847bdb8dcfa58ae28fab4e1fa8f26fa6 44009 rust-clang-sys_1.8.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "9e0c2165b2c454907290281788bc3e0838130a9fd62ede8ea448e8e5f0c04517 3564 rust-clang-sys_1.8.1-3.debian.tar.xz f03aa795397f4277db9dcee28359068ad077c0e1636890795a2348df4e341352 2427 rust-clang-sys_1.8.1-3.dsc 0b023947811758c97c59bf9d1c188fd619ad4718dcaa767947df1cadb14f39f4 44009 rust-clang-sys_1.8.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "adcec1d30558aaffff54d11b04305d7f390530a50bb7f27feecdf07bf3ab44e90b32c5f3fde8be59c803dfa4969adb075dc80f8105252f90bece632c7bbf7de8 3564 rust-clang-sys_1.8.1-3.debian.tar.xz 0fa5e60b5c6ed052a384d8542bcb63ee57df4bee56e0e1b3e05024dd7558a9bdb1f9ec6ebea49bef45a0d46bc2cdaccf198dca98a54d7a8600a4174b394f6773 2427 rust-clang-sys_1.8.1-3.dsc a68c426c20110fddb8bba07d6631517b0528fad45802e5a34a22561d7e6dad82dc5001387019a03f275e9a671b09ee0a06b6e86793c4fb4ec655700bb0f5e125 44009 rust-clang-sys_1.8.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-clang-sys"
+  ],
+  "Files": [
+    "96060bf275bf5a523e8b086ccda357ae 3564 rust-clang-sys_1.8.1-3.debian.tar.xz 0c736ca463b3347dabd462d0ff1c2660 2427 rust-clang-sys_1.8.1-3.dsc 5354f10053de350a42ecd5f4136ec439 44009 rust-clang-sys_1.8.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-clang-sys"
+  ],
+  "Package-List": [
+    "librust-clang-sys-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "clang, dh-cargo, librust-glob-0.3+default-dev, librust-lazy-static-1+default-dev, librust-tempfile-3+default-dev, llvm"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e, kpcyrd \u003cgit@rxv.cc\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/clang-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/clang-sys]"
+  ],
+  "Version": [
+    "1.8.1-3"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "haproxy, haproxy-doc, vim-haproxy"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), libpcre2-dev, libssl-dev, libcrypt-dev, liblua5.4-dev, libsystemd-dev [linux-any], libjemalloc-dev, python3-sphinx:native, libopentracing-c-wrapper-dev, pkgconf, systemd-dev [linux-any]"
+  ],
+  "Build-Depends-Indep": [
+    "python3, python3-mako"
+  ],
+  "Checksums-Sha1": [
+    "73dfd9dec6f753887a53215e4fd37b0af3006325 85848 haproxy_3.0.11-1+deb13u1.debian.tar.xz 01dbc97447be23b9fc6ae5ace760db21c559320e 2459 haproxy_3.0.11-1+deb13u1.dsc 3a632c7af55cc189807811a5cb9076ba3d734622 4738655 haproxy_3.0.11.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "8a5774b79e08c34c4ecf12377374c9399dbe8c9bc0686f5263a22d4f7054b018 85848 haproxy_3.0.11-1+deb13u1.debian.tar.xz 794a193b175cdd006413fc1412b3e2c173e8cec0c34f6f54b578682fd985d1de 2459 haproxy_3.0.11-1+deb13u1.dsc a133e2d550c5fd9a849b5c7ab17bb945bcdad209ca140d41f45ebf31943ae783 4738655 haproxy_3.0.11.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "7ca1b77c66b6d227c09f49b488ea4fe6af505d27da0c73d10bfdf1fd30ab96699334e5db920b6161faa3b533a9c632fb2422e0d06f194a677b077a40c94728cb 85848 haproxy_3.0.11-1+deb13u1.debian.tar.xz 617e0188bddbab86126c59530b7b77549798a8667a4c6845ba539afe871684f3dbe6e9daac134306b7c7e62c90f7cb46900d468d18f2bc70a4f3516f6a87dcd7 2459 haproxy_3.0.11-1+deb13u1.dsc 3dc9f2367a3601480b302fad47e8cb8172d7a50443970284f4253f0b605dcd7b0e8d4ce825e9c6f4c66f24a65b6e28cf5891cfb659eeab21f8446dbb3c3bf25b 4738655 haproxy_3.0.11.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/h/haproxy"
+  ],
+  "Files": [
+    "7eb10c0accba80909823c16068acd086 85848 haproxy_3.0.11-1+deb13u1.debian.tar.xz cc3ff9e6dab9136d07c04facc9d73b43 2459 haproxy_3.0.11-1+deb13u1.dsc daa269dc9a9b49318b22ad7676ebea5c 4738655 haproxy_3.0.11.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.haproxy.org/"
+  ],
+  "Maintainer": [
+    "Debian HAProxy Maintainers \u003cteam+haproxy@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "haproxy"
+  ],
+  "Package-List": [
+    "haproxy deb net optional arch=any haproxy-doc deb doc optional arch=all vim-haproxy deb net optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.4.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "apache2, gnutls-bin, socat, ssl-cert, wget"
+  ],
+  "Uploaders": [
+    "Apollon Oikonomopoulos \u003capoikos@debian.org\u003e, Prach Pongpanich \u003cprach@debian.org\u003e, Vincent Bernat \u003cbernat@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/haproxy-team/haproxy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/haproxy-team/haproxy.git"
+  ],
+  "Version": [
+    "3.0.11-1+deb13u1"
+  ]
+}

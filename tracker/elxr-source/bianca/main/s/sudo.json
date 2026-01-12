@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "sudo, sudo-ldap, libnss-sudo"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-installnss, libpam0g-dev, libldap2-dev, libsasl2-dev, libapparmor-dev [linux-any], libselinux1-dev [linux-any], autoconf, bison, flex, libaudit-dev [linux-any], zlib1g-dev, po-debconf, pkgconf, systemd-dev, tzdata"
+  ],
+  "Checksums-Sha1": [
+    "3cd9391b59405e0aa284cfe6cc4e72b39cf3b1f5 65952 sudo_1.9.16p2-3.debian.tar.xz f980f2483e7f20275588c6b146d8662a3d0f1baf 2407 sudo_1.9.16p2-3.dsc 56d9978587a5eec56d9488f80fb234a381ae2eec 5398419 sudo_1.9.16p2.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "01a5c1e3a7c51a26f668cef1062a588cca27c00ce3d60d7874a3592bff82d4de 65952 sudo_1.9.16p2-3.debian.tar.xz 07d78038722570d8627d31119e2d0cf3811536df5146fd43b1052670c6e468fc 2407 sudo_1.9.16p2-3.dsc 976aa56d3e3b2a75593307864288addb748c9c136e25d95a9cc699aafa77239c 5398419 sudo_1.9.16p2.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "7b7dd790164ac447712ceea4277971a426072e8822f559939f351d5c90004b3f9dc78a771b138b76b0179f45820ad91ad57aee1341b7b8d10330bcdaa91d3007 65952 sudo_1.9.16p2-3.debian.tar.xz 70846689694f0d5c9d0b43aa01a5bd44f8ccf4d8be6ec341c5adc390b684268f50e613db523a9a414db790b5d3b83cf8143052edaf01e63590bcf86f495fbd44 2407 sudo_1.9.16p2-3.dsc 1e2ea762671890a03b0ea4b95b3849f2d3a4c301432db8767433e9d80c517efd8b7a68e0bbce1b178aff5857907600f1f5e0d889779cb27e38c2f602395f6f06 5398419 sudo_1.9.16p2.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/s/sudo"
+  ],
+  "Files": [
+    "2a4f683db8b913f69e70248b0dfeeee9 65952 sudo_1.9.16p2-3.debian.tar.xz 7605cfe9038f60376943d00babed1c24 2407 sudo_1.9.16p2-3.dsc 52681ba928fb7aba46998f061d9ba85c 5398419 sudo_1.9.16p2.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.sudo.ws/"
+  ],
+  "Maintainer": [
+    "Debian Sudo Maintainers \u003csudo@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "sudo"
+  ],
+  "Package-List": [
+    "libnss-sudo deb admin optional arch=all sudo deb admin optional arch=any sudo-ldap deb admin optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "adduser, cron, ldap-utils, slapd, sssd-common, sssd-ldap"
+  ],
+  "Uploaders": [
+    "Marc Haber \u003cmh+debian-packages@zugschlus.de\u003e, Hanno Wagner \u003cwagner@debian.org\u003e, Hilko Bengen \u003cbengen@debian.org\u003e, Bastian Blank \u003cwaldi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/sudo-team/sudo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/sudo-team/sudo.git"
+  ],
+  "Version": [
+    "1.9.16p2-3"
+  ]
+}

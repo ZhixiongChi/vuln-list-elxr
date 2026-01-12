@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-glanceclient-doc, python3-glanceclient"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "python3-coverage, python3-ddt, python3-fixtures, python3-hacking, python3-keystoneauth1, python3-openssl, python3-openstackdocstheme, python3-os-client-config, python3-oslo.i18n, python3-oslo.utils, python3-prettytable, python3-requests, python3-requests-mock, python3-sphinxcontrib.apidoc, python3-stestr, python3-subunit, python3-tempest, python3-testscenarios, python3-testtools, python3-warlock, python3-wrapt, subunit"
+  ],
+  "Checksums-Sha1": [
+    "09afb487f638ebdc6732f8eddb03474c09a47b0a 29136 python-glanceclient_4.8.0-2.debian.tar.xz 928c8e98bf3b9975899e98137a4d1f8d1a4e7748 2753 python-glanceclient_4.8.0-2.dsc 4d52495a6b820f18a39b232fd9c607a816cafde1 140400 python-glanceclient_4.8.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "31c761d96e9339d6f52e1744fee5eb2e99c7f631f8ad6f62a6974c9bfb0012a3 29136 python-glanceclient_4.8.0-2.debian.tar.xz 874a00cf81daa1affd58d600c6da562f8f95b87f937db7c3c3297347b08c8020 2753 python-glanceclient_4.8.0-2.dsc 95ea4d171e5698aff314a52c2cca4fc64d0b78a0104b590982a92c233b35a202 140400 python-glanceclient_4.8.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "88f0a6a46da7361e2dc7b27f04306a30fac94c425b4fa9c7525cd7b458ce0cc171de8650ffbc59480d6568b4a8b2d2ed720eccb9b9a0f82221e9fd5ae9fbbfce 29136 python-glanceclient_4.8.0-2.debian.tar.xz 447c876db8097c0d99987e0f51440c008728718884112cec31a14960daaf68bb41748dc6a18fc078a2c4585ccbb1246de5b46863f475f427a09b11f9b494fec7 2753 python-glanceclient_4.8.0-2.dsc ac0fb380082840d922fbe25e64a09fe08dce1e81695f1dfada2b54caa716d2a0cc69f2974bd521106c9a7852c48a744f0fe799b2461b5ce82c98b0dded92a8e2 140400 python-glanceclient_4.8.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-glanceclient"
+  ],
+  "Files": [
+    "b897795ba515bb5c50bcdc17b95bef9b 29136 python-glanceclient_4.8.0-2.debian.tar.xz f6f291951b1cf74ebd6d4b5bfd1e5e9e 2753 python-glanceclient_4.8.0-2.dsc f86f9c1f5783e9c0eab7f5a8d53b3b86 140400 python-glanceclient_4.8.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://glance.openstack.org"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-glanceclient"
+  ],
+  "Package-List": [
+    "python-glanceclient-doc deb doc optional arch=all python3-glanceclient deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Corey Bryant \u003ccorey.bryant@canonical.com\u003e, Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/clients/python-glanceclient"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/clients/python-glanceclient.git"
+  ],
+  "Version": [
+    "1:4.8.0-2"
+  ]
+}

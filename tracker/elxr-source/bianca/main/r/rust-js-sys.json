@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-js-sys-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-wasm-bindgen-0.2+default-dev (\u003e= 0.2.87-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "536882c09a5cad3c6b7f24b8f10cf7777f496395 2916 rust-js-sys_0.3.64-1.debian.tar.xz 6f3849b3e8248246877041911b14ac6d14874bcf 2458 rust-js-sys_0.3.64-1.dsc 3bea1be7a3b58e4b30d6b053e0f37658a8aea15f 80313 rust-js-sys_0.3.64.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "4e34b5e042c10374910fbe68adf828607ce86c8d0e334d0cf70233c419d3c711 2916 rust-js-sys_0.3.64-1.debian.tar.xz 1c65b0ac53b4649d67bc33adde8cf3ffe42558d1c33b47e9639df38774a5a5f9 2458 rust-js-sys_0.3.64-1.dsc c5f195fe497f702db0f318b07fdd68edb16955aed830df8363d837542f8f935a 80313 rust-js-sys_0.3.64.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "60e4ca1c94ae3520d4dd1122adb6f673608a0ba14a0bf1115ecdd211b629275f37bf41a3a46f7dd59ed94eeb6b31b23f1298f2b1d924b6bac5beebc4efd2f268 2916 rust-js-sys_0.3.64-1.debian.tar.xz b1161c91bdb37bb56454276eac255937ed98185dd2205f0b245a797ae4083c4ecf345518782acf8881d7340016c352eddd98780cd2823c454f8579ac6a3e5af3 2458 rust-js-sys_0.3.64-1.dsc a4f389a4eb45c2122e7bcf365dccdce8fcf14b1b521b8b839746bba8783296e2f1b959d73bdd874743f49c61a24c4077dec52f63cc7d594cd42e9cd6ea9c2e64 80313 rust-js-sys_0.3.64.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-js-sys"
+  ],
+  "Files": [
+    "494986694f5eee91d8cc1a1019bd768d 2916 rust-js-sys_0.3.64-1.debian.tar.xz 6458053dc4d267172eea6cbcb60bb4b5 2458 rust-js-sys_0.3.64-1.dsc d580c0380408c62e04e018eaaf4258af 80313 rust-js-sys_0.3.64.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://rustwasm.github.io/wasm-bindgen/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-js-sys"
+  ],
+  "Package-List": [
+    "librust-js-sys-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-wasm-bindgen-futures-0.4+default-dev, librust-wasm-bindgen-test-0.3.37+default-dev, librust-web-sys-0.3+default-dev, librust-web-sys-0.3+headers-dev, librust-web-sys-0.3+response-dev, librust-web-sys-0.3+responseinit-dev"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/js-sys"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/js-sys]"
+  ],
+  "Version": [
+    "0.3.64-1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "selinux-utils, libselinux1, libselinux1-dev, libselinux1-udeb, ruby-selinux, python3-selinux"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3 \u003c!nopython\u003e, dh-sequence-ruby \u003c!noruby\u003e, file, libsepol-dev (\u003e= 3.8.1), libpcre2-dev, libpython3-all-dev \u003c!nopython\u003e, pkg-config, python3-all-dev:any \u003c!nopython\u003e, python3-pip \u003c!nopython\u003e, python3-setuptools \u003c!nopython\u003e, swig \u003c!nopython\u003e \u003c!noruby\u003e"
+  ],
+  "Checksums-Sha1": [
+    "5999a5d34d86dbf2379f1a41abe8cb9706721d8d 37812 libselinux_3.8.1-1.debian.tar.xz 6af7920fefad36d817bb5f4e39507de9a08668dd 3013 libselinux_3.8.1-1.dsc e039453ee0b5ebb980ddf082a2b1024171913834 204411 libselinux_3.8.1.orig.tar.gz f43f4b604b59642e23e41713fb7ba465094f5fd3 833 libselinux_3.8.1.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha256": [
+    "1af25952374f083cf3d6d0edd5beb938f2e53c30eb404afa1e32fcd1cb127db7 37812 libselinux_3.8.1-1.debian.tar.xz e430b782a396e266f86c32fa779efadebfd40e6a0d10ddbd786fc47905f723b9 3013 libselinux_3.8.1-1.dsc ec2d2789f931152d21c1db1eb4bc202ce4eccede34d9be9e360e3b45243cee2c 204411 libselinux_3.8.1.orig.tar.gz 7f983714a780d89f7677e7ba140ce29974022b8ba225f60246b6c33de1477dd6 833 libselinux_3.8.1.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha512": [
+    "1af8b9c1c75f3f90fa86da9a10d09f52c8ffabc284e7d006461bd2f6f836b52f71d84ba13b5c037e36db720896aac48f260303850f37b1ab4400b4474be33673 37812 libselinux_3.8.1-1.debian.tar.xz 4fa0806e0ca55a437264d359919dbf0fed36aad39f494cbb7d240b28d1e71527805e09b0a114c1912265a1ea8fc63d77bc5b1421b7b32e3e6febff0ca1881b06 3013 libselinux_3.8.1-1.dsc 646a31dff3b670a530adb9fc2fdc3ca9fe34a58e67e0fac52cc33bc7a01fa63c175987ef254c6c3bc7299cef137bc6f258dc378f4d70ae5c0fa0ece3bef42ab4 204411 libselinux_3.8.1.orig.tar.gz ece79feb7758eafb8cf60092039596971140d8af7049671dfa8a7be6cc3167e928e361d8a9b26abfd855520413533890c280eec1e8107b260e3bbadb79c5159a 833 libselinux_3.8.1.orig.tar.gz.asc"
+  ],
+  "Directory": [
+    "pool/main/libs/libselinux"
+  ],
+  "Files": [
+    "bec01e3f64a9b5bf948df55b6504ac76 37812 libselinux_3.8.1-1.debian.tar.xz 642d85f613c06dc04ffa6bed202f2aa1 3013 libselinux_3.8.1-1.dsc 769362224f270b441859d047197b3ec0 204411 libselinux_3.8.1.orig.tar.gz 67fd76ef0640e8529253627fb24fdb39 833 libselinux_3.8.1.orig.tar.gz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/SELinuxProject"
+  ],
+  "Maintainer": [
+    "Debian SELinux maintainers \u003cselinux-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libselinux"
+  ],
+  "Package-List": [
+    "libselinux1 deb libs optional arch=linux-any libselinux1-dev deb libdevel optional arch=linux-any libselinux1-udeb udeb debian-installer optional arch=linux-any profile=!noudeb python3-selinux deb python optional arch=linux-any profile=!nopython ruby-selinux deb ruby optional arch=linux-any profile=!noruby selinux-utils deb admin optional arch=linux-any"
+  ],
+  "Ruby-Versions": [
+    "all"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config, python3-all"
+  ],
+  "Uploaders": [
+    "Laurent Bigonville \u003cbigon@debian.org\u003e, Russell Coker \u003crussell@coker.com.au\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/selinux-team/libselinux"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/selinux-team/libselinux.git"
+  ],
+  "Version": [
+    "3.8.1-1"
+  ]
+}

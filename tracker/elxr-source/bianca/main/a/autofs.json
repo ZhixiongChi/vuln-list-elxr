@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "autofs, autofs-ldap, autofs-hesiod"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), bison, dpkg-dev (\u003e= 1.16.1.1~), e2fsprogs, flex, libhesiod-dev, libkrb5-dev, libldap-dev, libnsl-dev, libsasl2-dev, libssl-dev, libxml2-dev, pkgconf, sssd-common, libtirpc-dev"
+  ],
+  "Checksums-Sha1": [
+    "bcded547c0f8ea837c756005271cf69390b76d2b 23916 autofs_5.1.9-1.2.debian.tar.xz c6a93975e3b618dbedb63410ff4ce70463894862 2479 autofs_5.1.9-1.2.dsc 191969b8d9ef022f608cdaf465b0cc3ea7dcf04e 331872 autofs_5.1.9.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "f98ca8a8f695c66532e9870c7b9192adaa6497415f6b1ee3d7ebcf82674c6c9f 23916 autofs_5.1.9-1.2.debian.tar.xz ab4881c92c640482cfe3ec73c6a8e827757f151d6b059ae21de816598576d5f7 2479 autofs_5.1.9-1.2.dsc 87e6af6a03794b9462ea519781e50e7d23b5f7c92cd59e1142c85d2493b3c24b 331872 autofs_5.1.9.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "ee642b5a7c354acd08d143dad44a0004c1c735d60133962f7624a0ee5488a5dd1a5c240cf3c11bec3b6c9e3e82fdf751c56efbb085ffdbbdfb71e3793832dbb0 23916 autofs_5.1.9-1.2.debian.tar.xz 00f0508f65af233ff2476a0a0bdd399a0a669e0c4744e2630ec27f17b1a5dcacd34e3dc778fa4f4b63258c2d97d241950458f21b4ae15f1a32b17572ce8d9158 2479 autofs_5.1.9-1.2.dsc 81eb04270727c3fbf9dfb4b07a8dd39beac9068d6289f2f3bb0eabf723c14bec36860d3b2759c46b597bd77e8f3fa521646445e926c95ab63859a3a6c8588dcc 331872 autofs_5.1.9.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/autofs"
+  ],
+  "Files": [
+    "8b66012f16d53997dbbe033f308709b0 23916 autofs_5.1.9-1.2.debian.tar.xz 30e93f4a2a109575f047df844bccc2b6 2479 autofs_5.1.9-1.2.dsc 06fb59a03c82364a0d788435b6853d70 331872 autofs_5.1.9.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.kernel.org/pub/linux/daemons/autofs/v5/"
+  ],
+  "Maintainer": [
+    "Mike Gabriel \u003csunweaver@debian.org\u003e"
+  ],
+  "Package": [
+    "autofs"
+  ],
+  "Package-List": [
+    "autofs deb utils optional arch=linux-any autofs-hesiod deb utils optional arch=linux-any autofs-ldap deb utils optional arch=linux-any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "cifs-utils, nfs-common, nfs-server, samba, smbclient"
+  ],
+  "Uploaders": [
+    "Debian Edu Packaging Team \u003cdebian-edu-pkg-team@lists.alioth.debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/autofs/"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/autofs.git"
+  ],
+  "Version": [
+    "5.1.9-1.2"
+  ]
+}

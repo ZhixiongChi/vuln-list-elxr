@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "dracut-core, dracut, dracut-install, dracut-network, dracut-squash, dracut-live, dracut-config-generic, dracut-config-rescue, dracut-test"
+  ],
+  "Build-Depends": [
+    "asciidoc-base, debhelper-compat (= 13), docbook-xml, docbook-xsl, libkmod-dev, pkgconf, systemd-dev, xsltproc"
+  ],
+  "Checksums-Sha1": [
+    "17e4f61689f4e9e4ad7d8bbe7e635272fe172f13 24564 dracut_106-6elxr1.debian.tar.xz 31a80686aabff0251db3b0e5d0a6d8da41ec6e37 2046 dracut_106-6elxr1.dsc 1aa5928e8cdd419eec4884348687d2143052e4c6 527787 dracut_106.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "c1c20ebc3fc45ae670b1f5d28f0c46bac8ac19ca4bb6fd6941a5baf11261d745 24564 dracut_106-6elxr1.debian.tar.xz 45bc6865d91a0d278d887a370fdbf7751f502a2a507f304acafee57ff77843da 2046 dracut_106-6elxr1.dsc d84018a4f3b6713959e0751f1ee0ca2045bfbfdfb41c6540e27c8e85b9c16d66 527787 dracut_106.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "51f1e36652647ae6195814559cc5f3e4c679129817ffc8401ca257102b4294f93c42acb5cd798a517ebbd4d0976901f0135c1256d57dc088b89d067cd9778c1a 24564 dracut_106-6elxr1.debian.tar.xz 87e678ba5fafd6cf576d8ed99f4c04fe1134be0dbd3587aeec8627440c5b544871511caf1f55f671068ff3390a951243940c25b7aa63df8ab3f99a993c8dc700 2046 dracut_106-6elxr1.dsc b1281a289c1cfe9a9934fd2de674dad1b70f94365313d835ff39e3cad4b0154c5a3d7b4a812276a181cd252a32436f558204968d86c9a9e14b6a1f2da4b14951 527787 dracut_106.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/d/dracut"
+  ],
+  "Files": [
+    "ffae7c0d9c4c5e45bd786d258d98ea1a 24564 dracut_106-6elxr1.debian.tar.xz 0bfe5c4fcd351cfcaafc852a649551e5 2046 dracut_106-6elxr1.dsc 945bf6a6c66546cbcda04e80ab6e2128 527787 dracut_106.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dracut-ng/dracut-ng/wiki"
+  ],
+  "Maintainer": [
+    "Thomas Lange \u003clange@debian.org\u003e"
+  ],
+  "Package": [
+    "dracut"
+  ],
+  "Package-List": [
+    "dracut deb utils optional arch=all dracut-config-generic deb utils optional arch=all dracut-config-rescue deb utils optional arch=all dracut-core deb utils optional arch=any dracut-install deb utils optional arch=any dracut-live deb utils optional arch=all dracut-network deb utils optional arch=all dracut-squash deb utils optional arch=all dracut-test deb utils optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "btrfs-progs, busybox, cryptsetup, dbus, fdisk, iproute2, ipxe-qemu, isc-dhcp-client, isc-dhcp-server, kbd, linux-image-generic, lvm2, make, mdadm, mount, nbd-client, nbd-server, nfs-kernel-server, ovmf, parted, procps, qemu-efi-aarch64, qemu-efi-arm, qemu-kvm, seabios, squashfs-tools, systemd, systemd-boot-efi, systemd-container, systemd-coredump, systemd-cryptsetup, systemd-repart, systemd-sysv, systemd-ukify, sysvinit-utils, util-linux, zstd"
+  ],
+  "Uploaders": [
+    "Benjamin Drung \u003cbdrung@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/dracut"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/dracut.git"
+  ],
+  "Version": [
+    "106-6elxr1"
+  ]
+}

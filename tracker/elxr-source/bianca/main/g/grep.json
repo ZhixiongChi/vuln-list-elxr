@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "grep"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-movetousr, gettext, libpcre2-dev, texinfo \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "3686e9c246f03108dad1379f3e1d666fbd065d91 20468 grep_3.11-4.debian.tar.xz 11e1b405ff336ae264c25f1ee8aed46031f91e11 1642 grep_3.11-4.dsc 955146a0a4887eca33606e391481bbef37055b86 1703776 grep_3.11.orig.tar.xz 55d07b1247899b99e5b6cb956b0720491c235f32 833 grep_3.11.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "f10394b7589c58ca7de4b580692b1b59431f898cb2068e86222c174e093fdf49 20468 grep_3.11-4.debian.tar.xz dd6f8eb933bc05446e483f7792c8bf0a1aba9d498e65c6ccafe64e9bf27ac054 1642 grep_3.11-4.dsc 1db2aedde89d0dea42b16d9528f894c8d15dae4e190b59aecc78f5a951276eab 1703776 grep_3.11.orig.tar.xz 89ec23ffd59b68822732dc8204fc89883c3af30a90ae390feb94346d9d09a589 833 grep_3.11.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "6de805c7b789da79abf333b9c03f3e4e75aaf00a972a8bb6c31086d5ae571b0bdacd939b5c9c8a8b4ad46d2ed0a8358ccfe5f1c9dfad847a50365c2478ebb770 20468 grep_3.11-4.debian.tar.xz cabbf323b0a52e81b40ea54448f67d68a0a2569598a52a4750ee796d4fe16e342b5d63322339b30ff89e8d2f3e3cd977806311285ad55eb6ba195adf6dffd7a7 1642 grep_3.11-4.dsc f254a1905a08c8173e12fbdd4fd8baed9a200217fba9d7641f0d78e4e002c1f2a621152d67027d9b25f0bb2430898f5233dc70909d8464fd13d7dd9298e65c42 1703776 grep_3.11.orig.tar.xz 487aba063373ca0594c519991f19b2a6a33b3da0d74735c890f3828fd0880e7e6f64495d2c8f9efa5da53d1eb2d446609bab2399a4b89dcb4510a632e31ffb54 833 grep_3.11.orig.tar.xz.asc"
+  ],
+  "Directory": [
+    "pool/main/g/grep"
+  ],
+  "Files": [
+    "332d6fe3cff80c3e65baab694da6e037 20468 grep_3.11-4.debian.tar.xz 7825c3c1de83e4ff17b512e49a06207f 1642 grep_3.11-4.dsc 7c9bbd74492131245f7cdb291fa142c0 1703776 grep_3.11.orig.tar.xz dca377728931fa16b0a5c0f1f50f436e 833 grep_3.11.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnu.org/software/grep/"
+  ],
+  "Maintainer": [
+    "Anibal Monsalve Salazar \u003canibal@debian.org\u003e"
+  ],
+  "Package": [
+    "grep"
+  ],
+  "Package-List": [
+    "grep deb utils required arch=any essential=yes"
+  ],
+  "Standards-Version": [
+    "4.6.1.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, fakeroot, libpcre2-8-0, locales-all"
+  ],
+  "Uploaders": [
+    "Santiago Ruano Rincón \u003csantiago@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/grep"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/grep.git"
+  ],
+  "Version": [
+    "3.11-4"
+  ]
+}

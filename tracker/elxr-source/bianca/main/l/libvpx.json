@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libvpx-dev, libvpx9, libvpx-doc, vpx-tools"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), yasm [amd64 i386 hurd-i386], dh-exec"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen"
+  ],
+  "Checksums-Sha1": [
+    "9fda6cfb42a2e1b579d1585404faa7c06d77a604 14096 libvpx_1.15.0-2.1.debian.tar.xz 0240f677dc3f16506891623ba17ac8f9347c3469 2388 libvpx_1.15.0-2.1.dsc 4d7495df8c193aa55af6d709af4c067a3803aafa 4394516 libvpx_1.15.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "269e4f3c22dc9a930fa0bd160f45d10ced3ea21ac01361c707f89e0cb29c83dd 14096 libvpx_1.15.0-2.1.debian.tar.xz 2d41548d2bdb4d0b13428367642c27d7840fdf3a3d7c32c31a88d249e5289d66 2388 libvpx_1.15.0-2.1.dsc a6cfd199c5c567cfa4e6d991ec36690d9af801585b5db959c1494b5b15f821a5 4394516 libvpx_1.15.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "68a93cddc073d5c49069aa3de5d86356b674828ff362558e106daa1487f650df9977ec990cf8915aa49f41995a4cabf8eed537d61fdf9b799d32e3b7a63299ee 14096 libvpx_1.15.0-2.1.debian.tar.xz c1bf0f7340e7dbbc71ec70b5dba89cece18d3e3dd4124cd696b987dc25d5976b1f5214571acfac1fbb085073a01683888825ea7568767283659e7c27aa693fdf 2388 libvpx_1.15.0-2.1.dsc 195c781e9636e890130605ab4061e629db9d46a89856b31809270ef12e6fffcb730a4e6987f0316ca14b5bd119113ff093989a5ed6355ebc229acebc20689f80 4394516 libvpx_1.15.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libv/libvpx"
+  ],
+  "Files": [
+    "c5b56878d9e9346b0b9af2cf4ac9d563 14096 libvpx_1.15.0-2.1.debian.tar.xz fc73ca4573937c68e305089690edeee3 2388 libvpx_1.15.0-2.1.dsc 4ec4568549030119ef9e0568a3fe0eb7 4394516 libvpx_1.15.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.webmproject.org"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "libvpx"
+  ],
+  "Package-List": [
+    "libvpx-dev deb libdevel optional arch=any libvpx-doc deb doc optional arch=all libvpx9 deb libs optional arch=any vpx-tools deb utils optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ffmpeg"
+  ],
+  "Uploaders": [
+    "Sebastian Dröge \u003cslomo@debian.org\u003e, Sebastian Ramacher \u003csramacher@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/libvpx"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/libvpx.git"
+  ],
+  "Version": [
+    "1.15.0-2.1"
+  ]
+}

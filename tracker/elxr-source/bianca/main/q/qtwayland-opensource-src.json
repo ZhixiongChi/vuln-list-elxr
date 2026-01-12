@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "qtwayland5-examples, libqt5waylandclient5, libqt5waylandcompositor5, qml-module-qtwayland-compositor, qml-module-qtwayland-client-texturesharing, libqt5waylandcompositor5-dev, libqt5waylandclient5-dev, qtwayland5-private-dev, qtwayland5-dev-tools, qtwayland5, qtwayland5-doc, qtwayland5-doc-html"
+  ],
+  "Build-Depends": [
+    "dbus \u003c!nocheck\u003e, debhelper-compat (= 13), dpkg-dev (\u003e= 1.17.14), libegl1-mesa-dev, libfontconfig-dev, libglib2.0-dev, libinput-dev, libmtdev-dev [linux-any], libudev-dev [linux-any], libwayland-dev (\u003e= 1.8.0), libxcomposite-dev, libxkbcommon-dev (\u003e= 0.2.0), libxrender-dev, pkg-kde-tools, pkgconf, qtbase5-dev (\u003e= 5.15.15+dfsg~), qtbase5-dev:native (\u003e= 5.15.15+dfsg~), qtbase5-private-dev (\u003e= 5.15.15+dfsg~), qtdeclarative5-private-dev (\u003e= 5.15.15+dfsg~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "qdoc-qt5 (\u003e= 5.15.15~) \u003c!nodoc\u003e, qhelpgenerator-qt5 (\u003e= 5.15.15~) \u003c!nodoc\u003e, qtattributionsscanner-qt5 (\u003e= 5.15.15~) \u003c!nodoc\u003e, qtbase5-doc-html (\u003e= 5.15.15+dfsg~) \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "8ae28e77ef2583f684744feaeecbe48efaca4e52 94504 qtwayland-opensource-src_5.15.15-3.debian.tar.xz 342ca0ffca28d3e2d953c783cb9019a8edffb68d 3792 qtwayland-opensource-src_5.15.15-3.dsc 171583a180bd291a0f21021dfc721b96e1d5a9f1 561048 qtwayland-opensource-src_5.15.15.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "80ed76b87807b7b6a20858f297d19fc8ae60c52addc7d97e1fec02b372324c48 94504 qtwayland-opensource-src_5.15.15-3.debian.tar.xz 883d4ff788f523dd1e133dbcefba873b5555ca4a56f3f2abc8f796ba8d8f40ac 3792 qtwayland-opensource-src_5.15.15-3.dsc bd1b577ec2311c0f615ca4a21aeb108a0b1b5e112c94191ff709cec814599b51 561048 qtwayland-opensource-src_5.15.15.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "a15864c8a8f901501c19dd89fd8f340ec18202246e887f41573852bd6750ea02ba7bb3968fd3bbe19cf1ad787e8313a9d1f09035f7e1e3b4305abb2442ba0ef0 94504 qtwayland-opensource-src_5.15.15-3.debian.tar.xz 7bf08b6b01f7094af4ee6a78896e147d15d99b7af33d4e19800ccf7cc53ac8d672bf5f9aec039585394f0aa2981fae337fd637ca0372856ada9a4ce55c7b57b4 3792 qtwayland-opensource-src_5.15.15-3.dsc ef6f210431fa04d166e814bf7269ee9ed77f355871240f629839c5637ea598a3b71c85c7e53aafbfe2e9c1c8d4f24867da37144707d9b48749be4a883e1b679c 561048 qtwayland-opensource-src_5.15.15.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qtwayland-opensource-src"
+  ],
+  "Files": [
+    "5c369ed4f7dd90186d416a48d43ea4e6 94504 qtwayland-opensource-src_5.15.15-3.debian.tar.xz c78c8da10d77faceb88b12989acbe74b 3792 qtwayland-opensource-src_5.15.15-3.dsc 06ea033e0704ec690bfca536d2836883 561048 qtwayland-opensource-src_5.15.15.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://doc.qt.io/qt-5/wayland-and-qt.html"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "qtwayland-opensource-src"
+  ],
+  "Package-List": [
+    "libqt5waylandclient5 deb libs optional arch=any libqt5waylandclient5-dev deb libdevel optional arch=any libqt5waylandcompositor5 deb libs optional arch=any libqt5waylandcompositor5-dev deb libdevel optional arch=any qml-module-qtwayland-client-texturesharing deb libs optional arch=any qml-module-qtwayland-compositor deb libs optional arch=any qtwayland5 deb libs optional arch=any qtwayland5-dev-tools deb devel optional arch=any qtwayland5-doc deb doc optional arch=all profile=!nodoc qtwayland5-doc-html deb doc optional arch=all profile=!nodoc qtwayland5-examples deb x11 optional arch=any qtwayland5-private-dev deb libdevel optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Dmitry Shachnev \u003cmitya57@debian.org\u003e, Sune Vuorela \u003cdebian@pusling.com\u003e, Pino Toscano \u003cpino@debian.org\u003e, Simon Quigley \u003ctsimonq2@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/qt/qtwayland"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/qt/qtwayland.git"
+  ],
+  "Version": [
+    "5.15.15-3"
+  ]
+}

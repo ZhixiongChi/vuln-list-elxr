@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-smallvec-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "ef0fdabb2e74aee157f219fb296962c5dfdfc74c 4012 rust-smallvec_1.13.2-1.debian.tar.xz f2fa70215ab3054ed6ae265b68adc721d6a7f41c 2183 rust-smallvec_1.13.2-1.dsc bdb4f36b4dfd63e97d686d9a5b1c33bbd3b75deb 35216 rust-smallvec_1.13.2.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "e63475ae919a64a0937c60283c57c340afc262a921ee08a5fdb4811922a7d5e3 4012 rust-smallvec_1.13.2-1.debian.tar.xz 31aee6988d6dc28f17b2956d0ad71e320857f3f2cbf4f00865d8b050da720dff 2183 rust-smallvec_1.13.2-1.dsc 3c5e1a9a646d36c3599cd173a41282daf47c44583ad367b8e6837255952e5c67 35216 rust-smallvec_1.13.2.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "45a563401be4da938b153453e550638949f2e9fea692285e53658107c2dad646f75876043820c09079bfbb4215ab0ee61623aeca1018369afe988f02d5f2ba38 4012 rust-smallvec_1.13.2-1.debian.tar.xz bd4f959f2be0641153f1bfb7a6bb984c153bb55ed7ec7dfe6c91687ced73d826b8a37ac2742167ebe67f7426b5708a26d0d861994bf9f0283929a34e9bb1ab85 2183 rust-smallvec_1.13.2-1.dsc a97c758b668e40ad9eb572e65feeae4954e09200a04ab92e26a13b48894381cd3a3d2571070c4b7a5e181182e1ede9688f990650342ec69ecfe1a264d234c679 35216 rust-smallvec_1.13.2.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-smallvec"
+  ],
+  "Files": [
+    "245a8f6b3389790f6a6da512f83492d3 4012 rust-smallvec_1.13.2-1.debian.tar.xz 04b2a12254ecf2c00e2585b6213ec15e 2183 rust-smallvec_1.13.2-1.dsc 50d5a501f911bb592f0dce2d052c2aa8 35216 rust-smallvec_1.13.2.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-smallvec"
+  ],
+  "Package-List": [
+    "librust-smallvec-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-bincode-1+default-dev"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/smallvec"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/smallvec]"
+  ],
+  "Version": [
+    "1.13.2-1"
+  ]
+}

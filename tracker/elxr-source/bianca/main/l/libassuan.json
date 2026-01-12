@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libassuan9, libassuan-dev, libassuan-mingw-w64-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libgpg-error-dev (\u003e= 1.33)"
+  ],
+  "Build-Depends-Indep": [
+    "libgpg-error-mingw-w64-dev, mingw-w64"
+  ],
+  "Checksums-Sha1": [
+    "40835b78be1a8871636de566921a3cb8b93dc624 17536 libassuan_3.0.2-2.debian.tar.xz 685230cf7412b3c8ad96400ac59d81ba996378a4 2682 libassuan_3.0.2-2.dsc 57fb6f59b1a07e5125115454f5ad4cb0665e0eef 593917 libassuan_3.0.2.orig.tar.bz2 b786d469ab037a8b04bab50db439bfc3b76b6f5f 228 libassuan_3.0.2.orig.tar.bz2.asc"
+  ],
+  "Checksums-Sha256": [
+    "05566fa4ac35ad6af7214ce01beeaffcc2ce1c13d20daac4cf86949c5fad25fc 17536 libassuan_3.0.2-2.debian.tar.xz 4c6b68814cef421d1768628b401a62176c579dc8e1e3026348d7ec159943f0c7 2682 libassuan_3.0.2-2.dsc d2931cdad266e633510f9970e1a2f346055e351bb19f9b78912475b8074c36f6 593917 libassuan_3.0.2.orig.tar.bz2 3799b287fd7d48f750597bd9104621d2cbafd508de83303b1a5f5eef08f06072 228 libassuan_3.0.2.orig.tar.bz2.asc"
+  ],
+  "Checksums-Sha512": [
+    "45fce9ebcc65162f74790c67d6615ead69fd201e5933df68431e3696c76367bfe521c346fe0bf4a8b914139fd9dc644885bfda9805cf32b51de9044493f4f3ba 17536 libassuan_3.0.2-2.debian.tar.xz 73edc82147084f103adf4791ac4ad41f4558edaa31cb3669839df1af46e3e078d7201e051a77dfc910019517974e6147cbd3b0a47c2c223242a8c37ab173bfab 2682 libassuan_3.0.2-2.dsc a591eda350ecbf4fe8568b5087f69830df31f36ec67e2a50672aacea9bee16020f374a0bface459aeac1897c048072415ab5962a97034ce6fa413100b2a427fb 593917 libassuan_3.0.2.orig.tar.bz2 56e0a8288e498bbba504fdaa84060ef6dd30c72efd691d6d0e39069113a394f2da407d83adfd14f7ae25b8e8531f8e9dee859b52471261653dc2ed5f44ef22dc 228 libassuan_3.0.2.orig.tar.bz2.asc"
+  ],
+  "Directory": [
+    "pool/main/liba/libassuan"
+  ],
+  "Files": [
+    "e7cc82b3011057b12d4637f80414ac00 17536 libassuan_3.0.2-2.debian.tar.xz 38d6ba448944b73cd77763897e68a332 2682 libassuan_3.0.2-2.dsc c6f1bf4bd2aaa79cd1635dcc070ba51a 593917 libassuan_3.0.2.orig.tar.bz2 452da78931ffbc3865dbfb0d7fe9fb40 228 libassuan_3.0.2.orig.tar.bz2.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnupg.org/related_software/libassuan/index.html"
+  ],
+  "Maintainer": [
+    "Debian GnuPG-Maintainers \u003cpkg-gnupg-maint@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libassuan"
+  ],
+  "Package-List": [
+    "libassuan-dev deb libdevel optional arch=any libassuan-mingw-w64-dev deb libdevel optional arch=all libassuan9 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, gcc-mingw-w64-i686, gcc-mingw-w64-x86-64, pkg-config, wine32, wine64"
+  ],
+  "Uploaders": [
+    "Eric Dorland \u003ceric@debian.org\u003e, Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e, Andreas Metzler \u003cametzler@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libassuan/tree/debian/unstable"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libassuan.git -b debian/unstable"
+  ],
+  "Version": [
+    "3.0.2-2"
+  ]
+}

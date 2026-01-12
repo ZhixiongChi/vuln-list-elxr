@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libnewt-dev, libnewt-pic, libnewt0.52-udeb, newt-tcl, python3-newt, libnewt0.52, whiptail"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), docbook-utils, automake (\u003e= 1.16), libslang2-dev (\u003e= 2.0.4-2), libpopt-dev, gettext, libfribidi-dev, tcl8.6-dev, dh-sequence-python3 \u003c!nopython\u003e, python3-all-dev:any \u003c!nopython\u003e, python3-all-dbg:any \u003c!nopython\u003e, libpython3-all-dev \u003c!nopython\u003e"
+  ],
+  "Checksums-Sha1": [
+    "506e39d6c7b36ccb73705b9662bbf74eeec748d5 39884 newt_0.52.25-1.debian.tar.xz a330b9c2779b62b64cb77c19c1142b2ec7560cf0 2459 newt_0.52.25-1.dsc 9ebf765b7c15c217e084830388b7f123ffbaaa94 141920 newt_0.52.25.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "9cca738ec014bce35aad2d7a9546f5492716f45230e5e27591aaa509959fa4d3 39884 newt_0.52.25-1.debian.tar.xz ba252653a3bc7ef6557303c728cdb1cf327956f89b7dbe6577bf0fb9343fe5db 2459 newt_0.52.25-1.dsc 93221ec1f76c824eef797f396559d70655a5f9ed9aa57166a906857789c62bd2 141920 newt_0.52.25.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "58754ed4ba493c6c821dbce05e9d4899a1a08918a608c3d112c00f4df8e738772dfbada870858ddd9ccdfd91b9bae49353e02c4cda775554d221ed648a9ea575 39884 newt_0.52.25-1.debian.tar.xz 75c267c8ba1312d6ad00d245745e77b91a196a12cfb78bcbcd048a5d09d922cab41f558352aea0da2f6c87661e468c725718a69b953a7fd0e5d46d24dbfb0fa0 2459 newt_0.52.25-1.dsc be705a75c5485b7b4789ab17305a2f70d5807097cd00c607330c0bce0fc1879610b12e7b35e79d6772d0b9ce76189d3f5e1e522997928d923f704377199112ac 141920 newt_0.52.25.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/n/newt"
+  ],
+  "Files": [
+    "b2ce9c78fa625d81b4da19e81fd58780 39884 newt_0.52.25-1.debian.tar.xz 3ca29a69b46975d5e6e1f3b12d7571a0 2459 newt_0.52.25-1.dsc 4857119244d34d18c67c5c6d6e2d746c 141920 newt_0.52.25.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pagure.io/newt"
+  ],
+  "Maintainer": [
+    "Alastair McKinstry \u003cmckinstry@debian.org\u003e"
+  ],
+  "Package": [
+    "newt"
+  ],
+  "Package-List": [
+    "libnewt-dev deb libdevel optional arch=any libnewt-pic deb libdevel optional arch=any libnewt0.52 deb libs optional arch=any libnewt0.52-udeb udeb debian-installer optional arch=any profile=!noudeb newt-tcl deb interpreters optional arch=any python3-newt deb python optional arch=any profile=!nopython whiptail deb utils optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/mckinstry/newt.git"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/mckinstry/newt.git -b debian/latest"
+  ],
+  "Version": [
+    "0.52.25-1"
+  ]
+}

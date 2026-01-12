@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-designateclient-doc, python3-designateclient"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "python3-cliff, python3-coverage, python3-debtcollector, python3-hacking, python3-jsonschema, python3-keystoneauth1, python3-openstackdocstheme, python3-osc-lib, python3-oslo.config, python3-oslo.utils, python3-oslotest, python3-requests, python3-requests-mock, python3-sphinxcontrib.apidoc, python3-stestr, python3-stevedore, python3-subunit, python3-tempest, subunit"
+  ],
+  "Checksums-Sha1": [
+    "24e1424aa1da1903359aa159532240b354d3be2c 4456 python-designateclient_6.2.0-2.debian.tar.xz 094842e36f6b928df3dd614e99deddb10f7e2488 2794 python-designateclient_6.2.0-2.dsc f2dc74ac7a2aa1bf0363abf88977433006ffdbf8 48596 python-designateclient_6.2.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "5f943d293342a92a1485ab7d8a3b8a4d410e41f6ee4863c49b196d20fc9fb656 4456 python-designateclient_6.2.0-2.debian.tar.xz c69fcb9f68087ad1d313b4e05116c3589a5caa75d0772ecc373be8955aeda42b 2794 python-designateclient_6.2.0-2.dsc 393d650fdf52d29752c8c03ca600b88241f2dc8a04ad264628da614f2630ca16 48596 python-designateclient_6.2.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "3ef91093dddc1592868d8512ad6facfa1aa51276926e0cc54f78b25443277bf34900ef36b256f7ed0f08985e3f2003aea8cb29ae0e6005edd7a4fff3e26210c9 4456 python-designateclient_6.2.0-2.debian.tar.xz 355e9b12257cdee769d9481ec27d7ba15587a876d1707df1e1f6a47242e5e14e6a01cb380517400eaf9237e9a0c159ee788edeab84e488b85e9ea5f125e9d7ed 2794 python-designateclient_6.2.0-2.dsc d37e81aaf2a3d996501f5a6e1a01e37428bc1770eaf17e3db74e1a695c781ba5f7a833f3ef00604c2ac148427ef7052d993a91076175ecfb6cdd68d13595fa00 48596 python-designateclient_6.2.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-designateclient"
+  ],
+  "Files": [
+    "16e934e5d27bd3a98282865630268f9f 4456 python-designateclient_6.2.0-2.debian.tar.xz 94259c54dcb965d3dbcbcdca23be8898 2794 python-designateclient_6.2.0-2.dsc 406e9f48ab6509e529469c7723f650fd 48596 python-designateclient_6.2.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openstack/python-designateclient"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-designateclient"
+  ],
+  "Package-List": [
+    "python-designateclient-doc deb doc optional arch=all python3-designateclient deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, Corey Bryant \u003ccorey.bryant@canonical.com\u003e, David Della Vecchia \u003cddv@canonical.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/clients/python-designateclient"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/clients/python-designateclient.git"
+  ],
+  "Version": [
+    "6.2.0-2"
+  ]
+}

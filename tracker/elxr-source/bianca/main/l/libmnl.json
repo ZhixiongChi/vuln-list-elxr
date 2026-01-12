@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "libmnl-dev, libmnl0, libmnl-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libtool, pkgconf"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "37197ca73f2802dc8c3d9c53193de542f1778d21 10168 libmnl_1.0.5-3.debian.tar.xz 7e54255624abc22a090cc8aa840071a298b56775 2501 libmnl_1.0.5-3.dsc 63c6456b77f7978a7b37e62c1b38346b2ef2d91c 314791 libmnl_1.0.5.orig.tar.bz2 6b2a71ca7734c93fca2dabfcd8dbadce2b80d2a5 833 libmnl_1.0.5.orig.tar.bz2.asc"
+  ],
+  "Checksums-Sha256": [
+    "b5629925e76672654cff2f8c067961c72613c347f053a2b3fe381487bb36139c 10168 libmnl_1.0.5-3.debian.tar.xz a9449e856f44552d40dc91957416f1f21d4996de0736182655b2111fcd0b05b3 2501 libmnl_1.0.5-3.dsc 274b9b919ef3152bfb3da3a13c950dd60d6e2bcd54230ffeca298d03b40d0525 314791 libmnl_1.0.5.orig.tar.bz2 7175ee1de6c831e6d7ffae3540af7fcd9c64f302351af55ff12966ecbe6a5b71 833 libmnl_1.0.5.orig.tar.bz2.asc"
+  ],
+  "Checksums-Sha512": [
+    "afa96ee7ffb81f5f3c35bcd1e02ce250f5ead4b69a89eeb12f194fb205633452e0c3dcdbf3e96d902c4997d019e5a60f412b2d7b0a103e0440ad971c919d0d90 10168 libmnl_1.0.5-3.debian.tar.xz 6e1a6f074677dbc0ca3a92e431926689ab86c17c61e24399e388b7e4b9a08e9e7aee99382043d338497f431da9a3a6452d69e0864d26035b744b2a45ecb33226 2501 libmnl_1.0.5-3.dsc 16fa48e74c9da7724a85c655dfb0abd8369392627934639d65de951543e1447ac3e048d231248f1ce8861443c2ef62654a85a81feeedbbffaf2e5744f6cf4c9f 314791 libmnl_1.0.5.orig.tar.bz2 b9170db804cdc7b019c90db586e60bea09dd868701ec52cac73a1f14c3f5d0c0db608045ce93224e56d8ec842ebdb2aab69e954d327e74ef3b0c65a6ed487961 833 libmnl_1.0.5.orig.tar.bz2.asc"
+  ],
+  "Directory": [
+    "pool/main/libm/libmnl"
+  ],
+  "Files": [
+    "82e32fe227b15e09941685c01f1dea2d 10168 libmnl_1.0.5-3.debian.tar.xz c3ffb177464a2eb7d271f428257065df 2501 libmnl_1.0.5-3.dsc 0bbb70573119ec5d49435114583e7a49 314791 libmnl_1.0.5.orig.tar.bz2 ed1bd729d077c72bb7afd362b6026894 833 libmnl_1.0.5.orig.tar.bz2.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://netfilter.org/projects/libmnl/"
+  ],
+  "Maintainer": [
+    "Debian Netfilter Packaging Team \u003cpkg-netfilter-team@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libmnl"
+  ],
+  "Package-List": [
+    "libmnl-dev deb libdevel optional arch=linux-any libmnl-doc deb doc optional arch=all profile=!nodoc libmnl0 deb libs optional arch=linux-any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Uploaders": [
+    "Neutron Soutmun \u003cneutrons@debian.org\u003e, Arturo Borrero Gonzalez \u003carturo@debian.org\u003e, Jeremy Sowden \u003cazazel@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-netfilter-team/pkg-libmnl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-netfilter-team/pkg-libmnl.git"
+  ],
+  "Version": [
+    "1.0.5-3"
+  ]
+}

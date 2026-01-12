@@ -1,0 +1,47 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libdbd-sqlite3, libdbd-mysql, libdbd-pgsql, libdbd-freetds"
+  ],
+  "Build-Depends": [
+    "automake, debhelper-compat (= 13), docbook-dsssl, freetds-dev, libdbi-dev (\u003e= 0.9.0), default-libmysqlclient-dev, libpq-dev, libsqlite3-dev, libtool, locales-all | language-pack-en, default-mysql-client, default-mysql-server, openjade, postgresql, postgresql-client"
+  ],
+  "Checksums-Sha1": [
+    "f819a65aad66e592ca84b3c744f5af825086da3b 15700 libdbi-drivers_0.9.0-13.debian.tar.xz e9387dac4aa1a84b7e1293a99095187870336af9 2193 libdbi-drivers_0.9.0-13.dsc 8472875d30c216540d48d591b442e40ba4f7df5d 1829864 libdbi-drivers_0.9.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "3f2116fc9e18691164dfe0d55d87f3ea5cc3f7efcf47f5fac8c841f0f3dbb81f 15700 libdbi-drivers_0.9.0-13.debian.tar.xz bc4391665365d176f6611c82b787f7a3356fd1a0626238ad1b1dcba5466973b4 2193 libdbi-drivers_0.9.0-13.dsc 43d2eacd573a4faff296fa925dd97fbf2aedbf1ae35c6263478210c61004c854 1829864 libdbi-drivers_0.9.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "84c4c6854364fee67f6a5d7f6f12c42cb6f9951d3705e69170bd142356fb4581024fec65e50621ea6152ee2160841ba7d2e7b2abf4303b8011fb0fd841fa0a74 15700 libdbi-drivers_0.9.0-13.debian.tar.xz ae19ef008685cc3d4f88433d9989c30ee72c29f6268dfcc86527fdeea2cd84801f2411baf816fc6b100090c442b2718fee6a1fbfe634bfc1123cd328c849280a 2193 libdbi-drivers_0.9.0-13.dsc f4d3aaa71014697c53012a10bf9f0af398bcf5ee5872af165f8f43a682d2fb3045a9172ffea0e068dcbfcad52494878c037d8d90fadfaf176936e42f7f1e85c1 1829864 libdbi-drivers_0.9.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/libd/libdbi-drivers"
+  ],
+  "Files": [
+    "34d9027fc182bf667113cd01972c8f8a 15700 libdbi-drivers_0.9.0-13.debian.tar.xz 96de321f593dba4461e5dd11455e134c 2193 libdbi-drivers_0.9.0-13.dsc 9f47b960e225eede2cdeaabf7d22f59f 1829864 libdbi-drivers_0.9.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://libdbi.sourceforge.net/"
+  ],
+  "Maintainer": [
+    "Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e"
+  ],
+  "Package": [
+    "libdbi-drivers"
+  ],
+  "Package-List": [
+    "libdbd-freetds deb libs optional arch=any libdbd-mysql deb libs optional arch=any libdbd-pgsql deb libs optional arch=any libdbd-sqlite3 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "0.9.0-13"
+  ]
+}

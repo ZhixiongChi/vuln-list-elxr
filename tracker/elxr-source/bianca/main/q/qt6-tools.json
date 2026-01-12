@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libqt6designer6, libqt6designercomponents6, libqt6help6, libqt6uitools6, assistant-qt6, designer-qt6, designer-qt6-plugins, linguist-qt6, qdbus-qt6, qdoc-qt6, qt6-documentation-tools, qt6-l10n-tools, qt6-tools-dev, qt6-tools-private-dev, qt6-tools-dev-tools, qt6-tools-doc, qt6-tools-doc-html, qt6-tools-doc-dev, qt6-tools-examples"
+  ],
+  "Build-Depends": [
+    "clang-19 [amd64 arm64 armel armhf hurd-amd64 hurd-i386 i386 loong64 mips64el powerpc ppc64 ppc64el riscv64 s390x sparc64 x32], cmake (\u003e= 3.24~), debhelper-compat (= 13), libclang-19-dev [amd64 arm64 armel armhf hurd-amd64 hurd-i386 i386 loong64 mips64el powerpc ppc64 ppc64el riscv64 s390x sparc64 x32], libcurl4-openssl-dev | libcurl4-dev, libedit-dev, libgl-dev, libssl-dev, libvulkan-dev [linux-any], libxcb-xkb-dev, libzstd-dev (\u003e= 1.3), llvm-19 [amd64 arm64 armel armhf hurd-amd64 hurd-i386 i386 loong64 mips64el powerpc ppc64 ppc64el riscv64 s390x sparc64 x32], llvm-19-dev [amd64 arm64 armel armhf hurd-amd64 hurd-i386 i386 loong64 mips64el powerpc ppc64 ppc64el riscv64 s390x sparc64 x32], ninja-build, pkgconf, pkg-kde-tools, qt6-base-dev (\u003e= 6.8.2+dfsg~), qt6-base-private-dev (\u003e= 6.8.2+dfsg~), qt6-declarative-dev (\u003e= 6.8.2+dfsg~), qt6-declarative-private-dev (\u003e= 6.8.2+dfsg~)"
+  ],
+  "Build-Depends-Indep": [
+    "qdoc-qt6 (\u003e= 6.8~) \u003c!nodoc\u003e, qt6-base-dev (\u003e= 6.8~) \u003c!nodoc\u003e, qt6-documentation-tools (\u003e= 6.8~) \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "f5ca72359933927d1c73cdb2e7ee120655398e35 41596 qt6-tools_6.8.2-5.debian.tar.xz d14910a0c1fc8708982588f8a284ed3788dd5114 4181 qt6-tools_6.8.2-5.dsc e72ccf249270c965dc88b2fe184e189d5fd02e0e 10297596 qt6-tools_6.8.2.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "b90616ce78caf6a3e890dd4d1b981fef602bd18be48c4e37a398f29aa88d6266 41596 qt6-tools_6.8.2-5.debian.tar.xz 0650a25ccb9906862211b3d54dea3189669558432559cfe33bcd834984752052 4181 qt6-tools_6.8.2-5.dsc 326381b7d43f07913612f291abc298ae79bd95382e2233abce982cff2b53d2c0 10297596 qt6-tools_6.8.2.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "cc3fcc67646b62f90110f6a5c13d73fee301f886568f0e7037271002fc6f7d6b2d99c308ef30e2f8b9f53f472428dc672733a08ef1703c71f798b342c6882e52 41596 qt6-tools_6.8.2-5.debian.tar.xz f6dfda51681ed4003424b3d1091a56dfac1f3018087f66d56e3982e143ab32159d11dd6ebb13e4fece30809ece8734473e45d4e0d193054d2564890c074590b0 4181 qt6-tools_6.8.2-5.dsc ad448af0656640a712eefe81fc4291209dec27fe10d42dfb68c7c31e65003653fb3821996f44c50d8ab4371853a18cfc0b4032f7876ce6c75d0fb9b4fe91ca27 10297596 qt6-tools_6.8.2.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qt6-tools"
+  ],
+  "Files": [
+    "8aa5753a5a8b8acf01adfef6f0506169 41596 qt6-tools_6.8.2-5.debian.tar.xz 14ac2b24ba55a7cdd0f3a04bedcf0d8d 4181 qt6-tools_6.8.2-5.dsc cb53a6abf0350450e76a339f6a43ad5a 10297596 qt6-tools_6.8.2.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.qt.io/developers/"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "qt6-tools"
+  ],
+  "Package-List": [
+    "assistant-qt6 deb devel optional arch=any designer-qt6 deb devel optional arch=any designer-qt6-plugins deb devel optional arch=any libqt6designer6 deb libs optional arch=any libqt6designercomponents6 deb libs optional arch=any libqt6help6 deb libs optional arch=any libqt6uitools6 deb libs optional arch=any linguist-qt6 deb devel optional arch=any qdbus-qt6 deb utils optional arch=any qdoc-qt6 deb utils optional arch=amd64,arm64,armel,armhf,hurd-amd64,hurd-i386,i386,loong64,mips64el,powerpc,ppc64,ppc64el,riscv64,s390x,sparc64,x32 qt6-documentation-tools deb utils optional arch=any qt6-l10n-tools deb utils optional arch=any qt6-tools-dev deb libdevel optional arch=any qt6-tools-dev-tools deb devel optional arch=any qt6-tools-doc deb doc optional arch=all qt6-tools-doc-dev deb libdevel optional arch=all qt6-tools-doc-html deb doc optional arch=all qt6-tools-examples deb misc optional arch=any qt6-tools-private-dev deb libdevel optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Patrick Franz \u003cdeltaone@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/qt6/qt6-tools"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/qt6/qt6-tools.git"
+  ],
+  "Version": [
+    "6.8.2-5"
+  ]
+}

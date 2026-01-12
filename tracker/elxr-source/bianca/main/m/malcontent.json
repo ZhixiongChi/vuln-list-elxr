@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "malcontent, malcontent-gui, libmalcontent-0-0, libmalcontent-0-dev, gir1.2-malcontent-0, libmalcontent-ui-1-1, libmalcontent-ui-dev, gir1.2-malcontentui-1, libpam-malcontent"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, appstream, desktop-file-utils, itstool, libaccountsservice-dev, libadwaita-1-dev (\u003e= 1.6) [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x loong64 ppc64 x32] \u003c!pkg.malcontent.nogui\u003e, libappstream-dev, libdbus-1-dev, libflatpak-dev [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x loong64 ppc64 x32] \u003c!pkg.malcontent.nogui\u003e, libgirepository1.0-dev, libglib-testing-0-dev, libglib2.0-dev (\u003e= 2.60), libgtk-4-dev (\u003e= 4.14.0) [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x loong64 ppc64 x32] \u003c!pkg.malcontent.nogui\u003e, libpam0g-dev, libpolkit-gobject-1-dev, libxml2-utils, meson (\u003e= 1.2.0), polkitd"
+  ],
+  "Checksums-Sha1": [
+    "876a162baaf6331564d7f64ad1d5183e703a8576 8336 malcontent_0.13.0-2+deb13u1.debian.tar.xz 1e3b717bdd751e46d79e296803407839885d8cee 3667 malcontent_0.13.0-2+deb13u1.dsc 803da2fbf28a43e3740a0955379c23b02be48f53 309730 malcontent_0.13.0.orig.tar.bz2"
+  ],
+  "Checksums-Sha256": [
+    "9c736b4b6d5d561f64af8f9d39e1cc6d7dcd46fec0ebd9ac01ff97369981ab4b 8336 malcontent_0.13.0-2+deb13u1.debian.tar.xz f175097e2513e975b15dca5f878d7ce8f083025fcbfd59ddbeead79ec61d730c 3667 malcontent_0.13.0-2+deb13u1.dsc 77dac2d8e4e6ffec323b54c7d5907be3e121185152d3b420a50b61844a96f99f 309730 malcontent_0.13.0.orig.tar.bz2"
+  ],
+  "Checksums-Sha512": [
+    "c602d82c5b2f4f07a55aa61b60b09dc3273d0f129295b7291742717e962250e244f0bbc18ed8f7878326691b8707413467af75f1a378ab35bdf940b8611b0ecc 8336 malcontent_0.13.0-2+deb13u1.debian.tar.xz ebb5e0256225e45900619a2d349fa469624c8f36fcdb1b20e80579294957d76c14f5e2eba8df97991d1b3e85e22289581e5569c77a77cb4ef9e77dd47b6ec7b6 3667 malcontent_0.13.0-2+deb13u1.dsc 29c3cccde50aab5299c0ffb39afe6967bab84f4f9031e415514fe4e5039144633be11f79838499694b7e8407a8205cf7b0efa38688d6a714f0f3e43e81bb54a3 309730 malcontent_0.13.0.orig.tar.bz2"
+  ],
+  "Directory": [
+    "pool/main/m/malcontent"
+  ],
+  "Files": [
+    "5a79a78aea5d006db39bf5bd0a065526 8336 malcontent_0.13.0-2+deb13u1.debian.tar.xz 534683843dc34c7f4a2958a4cf47dd07 3667 malcontent_0.13.0-2+deb13u1.dsc 744beb9479f6223da7e295036f6c9923 309730 malcontent_0.13.0.orig.tar.bz2"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.freedesktop.org/pwithnall/malcontent/"
+  ],
+  "Maintainer": [
+    "Debian freedesktop.org maintainers \u003cpkg-freedesktop-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "malcontent"
+  ],
+  "Package-List": [
+    "gir1.2-malcontent-0 deb introspection optional arch=any gir1.2-malcontentui-1 deb introspection optional arch=amd64,arm64,armel,armhf,i386,loong64,mips64el,ppc64,ppc64el,riscv64,s390x,x32 profile=!pkg.malcontent.nogui libmalcontent-0-0 deb libs optional arch=any libmalcontent-0-dev deb libdevel optional arch=any libmalcontent-ui-1-1 deb libs optional arch=amd64,arm64,armel,armhf,i386,loong64,mips64el,ppc64,ppc64el,riscv64,s390x,x32 profile=!pkg.malcontent.nogui libmalcontent-ui-dev deb libdevel optional arch=amd64,arm64,armel,armhf,i386,loong64,mips64el,ppc64,ppc64el,riscv64,s390x,x32 profile=!pkg.malcontent.nogui libpam-malcontent deb admin optional arch=any malcontent deb admin optional arch=all malcontent-gui deb admin optional arch=amd64,arm64,armel,armhf,i386,loong64,mips64el,ppc64,ppc64el,riscv64,s390x,x32 profile=!pkg.malcontent.nogui"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Uploaders": [
+    "Laurent Bigonville \u003cbigon@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/freedesktop-team/malcontent"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/freedesktop-team/malcontent.git"
+  ],
+  "Version": [
+    "0.13.0-2+deb13u1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-print-bytes-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.63.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "ead202796568c4fbfecfbd5fe4c8df6dc438cde3 3144 rust-print-bytes_1.2.0-1.debian.tar.xz 6aa1b1b34777bc0bd8015262e5512b4cac13be13 2228 rust-print-bytes_1.2.0-1.dsc 6eaffb6a154d8798ce931740350ae1b017174c61 11961 rust-print-bytes_1.2.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "5c1de9085be19b1e75ac51ffb7fe50cad8353512ed33ba45330c47901374553f 3144 rust-print-bytes_1.2.0-1.debian.tar.xz c4d66bb954aff9cb2c8e61d9ac5bf86a23c2853b13394127796239d95801b2d9 2228 rust-print-bytes_1.2.0-1.dsc b47f7a84bcc246a226ab89783a844652453303f2edab6a907f7538a017603728 11961 rust-print-bytes_1.2.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "ed901fe8a6f28313099c6591d93c1854a35353a424f64764a883d8999add2d14d9c755ce826256910a924c3cf97fa770d059572d6dfc13c3dd5f0344cc5dc67b 3144 rust-print-bytes_1.2.0-1.debian.tar.xz e47d920fb84601e863dc754318cf5b8ac75590d612ecd32ef0eb9d5c7aa27e04e9e9764bd01db55c7c6159ed8902b58fdbb421204a1ad7653385a203deae3c38 2228 rust-print-bytes_1.2.0-1.dsc 2452f2c6ddd92a0a6d6c1356c45d89d3a0ea6ed69c073bca19538f3b8b9794ab919569035960256383caade13d093e56b3db80ef0d41d69cdffabd0759d43d09 11961 rust-print-bytes_1.2.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-print-bytes"
+  ],
+  "Files": [
+    "cc1382af58d6198503c73216dbc4c96e 3144 rust-print-bytes_1.2.0-1.debian.tar.xz 077d5ff3bb6fe9c09dd4f1f95ca70245 2228 rust-print-bytes_1.2.0-1.dsc 6d720af32be2592579e06babadffb329 11961 rust-print-bytes_1.2.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-print-bytes"
+  ],
+  "Package-List": [
+    "librust-print-bytes-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-os-str-bytes-6+default-dev"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/print-bytes"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/print-bytes]"
+  ],
+  "Version": [
+    "1.2.0-1"
+  ]
+}

@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libopenhpi3, libopenhpi-dev, openhpid, openhpi-clients, openhpi-plugin-ilo2-ribcl, openhpi-plugin-ipmi, openhpi-plugin-ipmidirect, openhpi-plugin-oa-soap, openhpi-plugin-ov-rest, openhpi-plugin-slave, openhpi-plugin-test-agent, openhpi-plugin-snmp-bc, openhpi-plugin-sysfs, openhpi-plugin-watchdog, openhpi-plugin-simulator, openhpi-plugin-dynamic-simulator, openhpi"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10), dpkg-dev (\u003e= 1.16.1~), autoconf (\u003e= 2.57), automake (\u003e= 1.9), uuid-dev, libglib2.0-dev (\u003e= 2.2), pkgconf, openipmi (\u003e= 2.0.7) \u003c!nocheck\u003e, libopenipmi-dev (\u003e= 2.0.7), libsnmp-dev, libssl-dev, libsysfs-dev (\u003e= 0.3), libxml2-dev, librabbitmq-dev, libcurl4-openssl-dev, libjson-c-dev"
+  ],
+  "Checksums-Sha1": [
+    "44c5fe05ab8acbdde351cd348abb2c625008db2a 16928 openhpi_3.8.0-2.3.debian.tar.xz ad38cf670d508958c3097fbc341a79312e34d53f 3065 openhpi_3.8.0-2.3.dsc 7d6b260b76cf2a75737cc2c0778af1b0cfb86348 8441481 openhpi_3.8.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "4c0f8d3b669ba0c895933ada4c69eecea71b8efa026dcbfc560b97e2677dbc30 16928 openhpi_3.8.0-2.3.debian.tar.xz 4d0b8691c8cedbfe0d711d318d9ad2ed2de123a2fd8a95ca050fc1b458a8cf00 3065 openhpi_3.8.0-2.3.dsc c94332a29160dd75cb799c027e614690c00263b0fabed87417707bec04c38723 8441481 openhpi_3.8.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "e0d871493388efa2c796460498ec346c6220a7ab84ac3ad9b072596047a768280c74546a5429fc45887b001cd679e27af496b117f95493c52d6404106a2c8216 16928 openhpi_3.8.0-2.3.debian.tar.xz d50eedeb9eef3fc5baee38065c3b4c15a39d4f66b72a62dd516df97ba44023fe5898948429250208c81d9eb19efce7a5bc115dc396ea7678482c1f0c33b8b83e 3065 openhpi_3.8.0-2.3.dsc 5e7ed401bd891e19510f94dde27f4086f8a71bb727f02a8cfecc5fe91374d0f298134925c11dc3fca8b5af5390c98756665101953f6df5737aa190f95c74686e 8441481 openhpi_3.8.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/o/openhpi"
+  ],
+  "Files": [
+    "424d8aa351544036dcc0c2e38bcb8b71 16928 openhpi_3.8.0-2.3.debian.tar.xz a0e4d3a3fac240c8e64a6ead40f381fe 3065 openhpi_3.8.0-2.3.dsc fffda3deea8a0d3671a72eea9d13a4df 8441481 openhpi_3.8.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://openhpi.org"
+  ],
+  "Maintainer": [
+    "Mohan Devarajulu \u003cmohan.devarajulu@hpe.com\u003e"
+  ],
+  "Package": [
+    "openhpi"
+  ],
+  "Package-List": [
+    "libopenhpi-dev deb libdevel optional arch=any libopenhpi3 deb libs optional arch=any openhpi deb admin optional arch=all openhpi-clients deb admin optional arch=any openhpi-plugin-dynamic-simulator deb libs optional arch=linux-any openhpi-plugin-ilo2-ribcl deb libs optional arch=any openhpi-plugin-ipmi deb libs optional arch=any openhpi-plugin-ipmidirect deb libs optional arch=any openhpi-plugin-oa-soap deb libs optional arch=any openhpi-plugin-ov-rest deb libs optional arch=any openhpi-plugin-simulator deb libs optional arch=linux-any openhpi-plugin-slave deb libs optional arch=any openhpi-plugin-snmp-bc deb libs optional arch=any openhpi-plugin-sysfs deb libs optional arch=linux-any openhpi-plugin-test-agent deb libs optional arch=any openhpi-plugin-watchdog deb libs optional arch=linux-any openhpid deb admin optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.0.0"
+  ],
+  "Uploaders": [
+    "Khalid Aziz \u003ckhalid@debian.org\u003e"
+  ],
+  "Version": [
+    "3.8.0-2.3"
+  ]
+}

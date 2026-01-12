@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-ddt-doc, python3-ddt"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "python3-aiounittest, python3-coverage, python3-pytest, python3-six, python3-sphinxcontrib.programoutput, python3-yaml (\u003e= 5.3.1)"
+  ],
+  "Checksums-Sha1": [
+    "3151e13db23cfdcde2a3bc2702920f796ddeab38 3888 python-ddt_1.7.2-4.debian.tar.xz 024619eb218f58b6e1a17ba0c6caa876122d4e44 2281 python-ddt_1.7.2-4.dsc 5dd669487b50621e1ee5224f37e259c2a3ea1520 17788 python-ddt_1.7.2.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "eb2ca09809cce3700272e4262c4b2aacc3f2b245882baef3e512a74183403c0b 3888 python-ddt_1.7.2-4.debian.tar.xz 367f680bde09fb51a788ed627b9275c80856af8693ba220573f82eb23fe7d3d3 2281 python-ddt_1.7.2-4.dsc c980992a3ab693ca230f4e28595abebb4b17993f2c1d58349ca993d087f3dd1c 17788 python-ddt_1.7.2.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "94cb8fafa050f3ed382b0ab46a1c404f3cce26b047627c83d2f4d0385d54b69a4b79c339c5e7bf3fb0f398c85bb2ec0439b421591466b48a4a6162e78f394c7a 3888 python-ddt_1.7.2-4.debian.tar.xz 2696744db300bd1c877f0821a931e64ad0837ea8c8246e02b988ac4fcfebfcd13bc6de4eea691ffaeceeb898ba99959d89a8482d92537c1943b5cd9989534dd5 2281 python-ddt_1.7.2-4.dsc a070130e3fb565620dc5f88ae3385943b0fb0d65d2da477575593a0928dc1e640c7bc93d965442d0bee2ca4aaf66e21a130012413048d0eb9eb5ac5381b5c142 17788 python-ddt_1.7.2.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-ddt"
+  ],
+  "Files": [
+    "726dde023188a094f710685f4f08c108 3888 python-ddt_1.7.2-4.debian.tar.xz 4b2b07af823eb40fa68be35478e9ac55 2281 python-ddt_1.7.2-4.dsc 5ec89a73e5ebb77ec43d13d3265d6a5b 17788 python-ddt_1.7.2.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://pypi.python.org/pypi/ddt"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-ddt"
+  ],
+  "Package-List": [
+    "python-ddt-doc deb doc optional arch=all python3-ddt deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.1.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/python/python-ddt"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/python/python-ddt.git"
+  ],
+  "Version": [
+    "1.7.2-4"
+  ]
+}
