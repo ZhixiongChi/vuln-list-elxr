@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "gcr4, libgck-2-dev, libgck-2-doc, libgck-2-2, gir1.2-gck-2, libgcr-4-dev, libgcr-4-doc, libgcr-4-4, gir1.2-gcr-4"
+  ],
+  "Build-Depends": [
+    "dbus \u003c!nocheck\u003e, debhelper-compat (= 13), dh-exec, dh-sequence-gir, dh-sequence-gnome, docbook-xml, gi-docgen, gir1.2-gio-2.0-dev, gir1.2-gobject-2.0-dev, gnupg, gobject-introspection (\u003e= 1.78.1-9~), libdbus-1-dev (\u003e= 1.0), libgcrypt20-dev (\u003e= 1.4.5), libglib2.0-dev (\u003e= 2.74.0), libgtk-4-dev, libp11-kit-dev (\u003e= 0.19.0), libsecret-1-dev (\u003e= 0.20) [linux-any], libsystemd-dev [linux-any], libtasn1-6-dev, libtasn1-bin, meson (\u003e= 0.52), openssh-client, systemd-dev [linux-any], valac, xsltproc"
+  ],
+  "Build-Depends-Indep": [
+    "libglib2.0-doc \u003c!nodoc\u003e, libgtk-4-doc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "3c9af27ee311d10a3ef728a501dcb50745b83ffc 22980 gcr4_4.4.0.1-3.debian.tar.xz c8e9e9ec5913523229afde902895322a2a350b4c 3159 gcr4_4.4.0.1-3.dsc 260c81fd22f9487a2d9c067c4ab35ba1438501ca 745244 gcr4_4.4.0.1.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "b8b1ca8b9dd504fc691db15764ab83ac6a3c72f3784f4120e37d38d69fc84e09 22980 gcr4_4.4.0.1-3.debian.tar.xz f8dba4991c4c7eb854e44e67b3955b385b61cfa1679f25b59a24d7d7686404b4 3159 gcr4_4.4.0.1-3.dsc 0c3c341e49f9f4f2532a4884509804190a0c2663e6120360bb298c5d174a8098 745244 gcr4_4.4.0.1.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "0dd85ad8310726f4010485b01496b4c34b1837fa4d0f7b59550764ad3ea748ab63c86e84c5c5e03c967bf73339d95d2e4bd1813299240f17b98ae7fe64fb1cf5 22980 gcr4_4.4.0.1-3.debian.tar.xz 2acb953528aeef5bbadf8422d3fba5e0d63d56e2fcc26c345c3fe173ed042d7934a85f933a345e47e841bec8fa960b4d659d023911071a386d9cf4f36800f89b 3159 gcr4_4.4.0.1-3.dsc f84724e0e9850c6150ec93430a0c3a714f4b4376df2fd3fd68340463acf04d89de236510b40bab4f3dc8fd82a2e8dc98b53c2684df07fdb9a6a3528ed35652d1 745244 gcr4_4.4.0.1.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gcr4"
+  ],
+  "Files": [
+    "005d91ce0acf605a66cf71bb89d11403 22980 gcr4_4.4.0.1-3.debian.tar.xz 3421841c637fcf7713dedd5324dfb9b6 3159 gcr4_4.4.0.1-3.dsc 01da4445b5b16801c6dcc7d8945b4cc4 745244 gcr4_4.4.0.1.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Projects/GnomeKeyring"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gcr4"
+  ],
+  "Package-List": [
+    "gcr4 deb gnome optional arch=any gir1.2-gck-2 deb introspection optional arch=any gir1.2-gcr-4 deb introspection optional arch=any libgck-2-2 deb libs optional arch=any libgck-2-dev deb libdevel optional arch=any libgck-2-doc deb doc optional arch=all profile=!nodoc libgcr-4-4 deb libs optional arch=any libgcr-4-dev deb libdevel optional arch=any libgcr-4-doc deb doc optional arch=all profile=!nodoc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, dbus, pkg-config"
+  ],
+  "Uploaders": [
+    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gcr4"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gcr4.git"
+  ],
+  "Version": [
+    "4.4.0.1-3"
+  ]
+}

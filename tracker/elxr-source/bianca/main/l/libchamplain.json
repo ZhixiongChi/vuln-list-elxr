@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libchamplain-0.12-0, libchamplain-doc, libchamplain-0.12-dev, gir1.2-champlain-0.12, libchamplain-gtk-0.12-0, libchamplain-gtk-0.12-dev, gir1.2-gtkchamplain-0.12"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, gtk-doc-tools, libcairo2-dev (\u003e= 1.4), libclutter-1.0-dev (\u003e= 1.24), libclutter-gtk-1.0-dev (\u003e= 0.90), libgirepository1.0-dev (\u003e= 0.9.12), libglib2.0-dev (\u003e= 2.68), libgtk-3-dev (\u003e= 2.90), libsoup-3.0-dev (\u003e= 3.0), libsqlite3-dev, meson (\u003e= 0.49.0), valac (\u003e= 0.20)"
+  ],
+  "Build-Depends-Indep": [
+    "libcairo2-doc \u003c!nodoc\u003e, libclutter-1.0-doc \u003c!nodoc\u003e, libgdk-pixbuf2.0-doc \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e, libgtk-3-doc \u003c!nodoc\u003e, libpango1.0-doc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "04e9cae858241eefe9cab471a01ef8edaff503ff 10856 libchamplain_0.12.21-2.debian.tar.xz ee91741f39b712a4a1090d1db4382d4234e6271e 3052 libchamplain_0.12.21-2.dsc 4e4da1d0d210288e04c5ab4478452f12a6ee8039 223748 libchamplain_0.12.21.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "9d08553dfab41e1ecd3e3f9f347b0d90ad964741babaf9220f06eec18cbc2bb8 10856 libchamplain_0.12.21-2.debian.tar.xz a1acc873e46fe65e6102a2895e2f20eeaea9af3ba9b4c46e2d12d6cc708dc4bd 3052 libchamplain_0.12.21-2.dsc a915cd172a0c52944c5579fcb4683f8a878c571bf5e928254b5dafefc727e5a7 223748 libchamplain_0.12.21.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "dcddba93449a4db644e4af7a05e912db49d358f412023fc73acc123bf86ebb2648b422c62bc69034025429fe205a8abc37fda5e395b304e2d567c4606e2f7b7b 10856 libchamplain_0.12.21-2.debian.tar.xz ab291ff00b274b73cc16da074bbdd95e09c77cb846341ed8fe2f72459e9a5b8b89885a3e799fe3d7453836a761ad5c43b47a4d55d21224596c9681eec20f1c81 3052 libchamplain_0.12.21-2.dsc 8e3b4a292056b1d90be128dab347b1953e6acd00b1abf56fcc496eea15688ef232b81afe39147a9d6059ab248e3ceb7e07683c23501671b93797b0a87faccca9 223748 libchamplain_0.12.21.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libc/libchamplain"
+  ],
+  "Files": [
+    "2ca2584afc0eda8a8806c49187edf2f4 10856 libchamplain_0.12.21-2.debian.tar.xz 6283e7a699b6dd99adacedd82739f9ad 3052 libchamplain_0.12.21-2.dsc 2b17ba53d88840f73f22ead3a905f475 223748 libchamplain_0.12.21.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Projects/libchamplain"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libchamplain"
+  ],
+  "Package-List": [
+    "gir1.2-champlain-0.12 deb introspection optional arch=any gir1.2-gtkchamplain-0.12 deb introspection optional arch=any libchamplain-0.12-0 deb libs optional arch=any libchamplain-0.12-dev deb libdevel optional arch=any libchamplain-doc deb doc optional arch=all libchamplain-gtk-0.12-0 deb libs optional arch=any libchamplain-gtk-0.12-dev deb libdevel optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, dbus, xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/libchamplain"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/libchamplain.git"
+  ],
+  "Version": [
+    "0.12.21-2"
+  ]
+}

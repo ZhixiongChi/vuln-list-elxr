@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libkf6configwidgets-data, libkf6configwidgets-dev, libkf6configwidgets-doc, libkf6configwidgets6"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.16~), dbus \u003c!nocheck\u003e, doxygen, extra-cmake-modules (\u003e= 6.13.0~), gettext, libkf6codecs-dev (\u003e= 6.13.0~), libkf6colorscheme-dev (\u003e= 6.13.0~), libkf6config-dev (\u003e= 6.13.0~), libkf6coreaddons-dev (\u003e= 6.13.0~), libkf6guiaddons-dev (\u003e= 6.13.0~), libkf6i18n-dev (\u003e= 6.13.0~), libkf6widgetsaddons-dev (\u003e= 6.13.0~), libxkbcommon-dev, qt6-base-dev (\u003e= 6.6.0~), qt6-base-private-dev (\u003e= 6.6.0~), qt6-tools-dev (\u003e= 6.5.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "a3b73bec64d1e11bc76206aaf5518aaf491627fb 17244 kf6-kconfigwidgets_6.13.0-1.debian.tar.xz 08d51134f3316eb3c7bce9ecb383a58bd679dcb3 3290 kf6-kconfigwidgets_6.13.0-1.dsc 1061eccc52b290258b9f29fc9d62a123e38831f1 2560112 kf6-kconfigwidgets_6.13.0.orig.tar.xz be6e2a23813c2f5f6fe454170758334c3e3e0c9d 228 kf6-kconfigwidgets_6.13.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "8b04119c5b38c6c6cea60b75648976607de4237e7f68a51d7b4d74ecbccc0c19 17244 kf6-kconfigwidgets_6.13.0-1.debian.tar.xz 5707027a70456f1739bed542230ed5121883ec321faf10393a4d006aacac41be 3290 kf6-kconfigwidgets_6.13.0-1.dsc c5df55d73b116fe566863cc3b90bd4edfd5c4989f121ecfd8e0c1f7c8e40365a 2560112 kf6-kconfigwidgets_6.13.0.orig.tar.xz fec9792d8e5f6f37c9fb2a0dc2f97901fdb4f23ce16bdaef9a3844f0c5e9178d 228 kf6-kconfigwidgets_6.13.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "50a8301bdf9f0fe813be8b5d3d5f4ae64c2c5c4451ce5bd122c5885bfdec5f660b64f11f575d3f551e05e9ec80330c355f0a7289768b22e1d4acb96e7fcbe5af 17244 kf6-kconfigwidgets_6.13.0-1.debian.tar.xz 652f3b44de08605a8da6ebe5d6dcedbf825b52990b0ac3984337c398e91150420f6472aa5f89937a3dd8f1faefe8765ea6c049e1d985002cd618044a41064894 3290 kf6-kconfigwidgets_6.13.0-1.dsc 5d77f8872fc53ce1b23b9479199b2ae342bd22a594adec27c493ba8361a8a9a1ccb71505c7af56711ea71f3b448b9087f8b945d1891718c23a655e8206a14001 2560112 kf6-kconfigwidgets_6.13.0.orig.tar.xz 2bd8eb2e9a6bc89a9a9a27810b9a6734d7bf005c0d8bbc9eed6373c0db94b5a3cfb084451f0ad4099d6ed6068e470ccbd764795eb5870d03cd9f27cd250be2f7 228 kf6-kconfigwidgets_6.13.0.orig.tar.xz.asc"
+  ],
+  "Directory": [
+    "pool/main/k/kf6-kconfigwidgets"
+  ],
+  "Files": [
+    "757b5eff5392b08ee6ae4054591bd7cc 17244 kf6-kconfigwidgets_6.13.0-1.debian.tar.xz eec771c3bc6a82f0bad9e3e9c1a6f661 3290 kf6-kconfigwidgets_6.13.0-1.dsc 60ee97fd70d698e8e5318a4f82eb3bb4 2560112 kf6-kconfigwidgets_6.13.0.orig.tar.xz de6c945d823494096f4ff23b1961e9bf 228 kf6-kconfigwidgets_6.13.0.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/frameworks/kconfigwidgets"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "kf6-kconfigwidgets"
+  ],
+  "Package-List": [
+    "libkf6configwidgets-data deb libs optional arch=all libkf6configwidgets-dev deb libdevel optional arch=any libkf6configwidgets-doc deb doc optional arch=all libkf6configwidgets6 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-acc, exuberant-ctags"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/kf6-kconfigwidgets"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/kf6-kconfigwidgets.git"
+  ],
+  "Version": [
+    "6.13.0-1"
+  ]
+}
