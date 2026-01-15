@@ -9,22 +9,22 @@
     "bindgen-0.56, bindgen-0.65, rustc-1.74"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11), devscripts, llvm-19:native, lld-19:native, clang-19:native, clang-format-19:native, libclang-rt-19-dev, libc++-19-dev, rustc-web:any (\u003e= 1.84), libstd-rust-dev (\u003e= 1.84), bindgen:native, python3:any, pkgconf, ninja-build, python3-jinja2:native, python3-pkg-resources, ca-certificates, wget, flex, yasm, xvfb, wdiff, gperf, bison, nodejs:any, node-rollup-plugin-terser:native, rollup, valgrind, xz-utils, xcb-proto, xfonts-base, libdav1d-dev, libx11-xcb-dev, libxshmfence-dev, libgl-dev, libglu1-mesa-dev, libegl1-mesa-dev, libgles2-mesa-dev, libopenh264-dev, generate-ninja:native, mesa-common-dev, rapidjson-dev, libva-dev, libxt-dev, libgbm-dev, libpng-dev, libxss-dev, libelf-dev, libpci-dev, libcap-dev, libffi-dev, libkrb5-dev, libexif-dev, libflac-dev, libudev-dev, libpipewire-0.3-dev, libopus-dev, libxtst-dev, libjpeg-dev, libxml2-dev (\u003c\u003c 2.10), libgtk-3-dev, libxslt1-dev, liblcms2-dev, libpulse-dev, libpam0g-dev, libdouble-conversion-dev, libxnvctrl-dev, libglib2.0-dev, libasound2-dev, libsecret-1-dev, libspeechd-dev, libminizip-dev, libhunspell-dev, libharfbuzz-dev, libxcb-dri3-dev, libusb-1.0-0-dev, libopenjp2-7-dev, libnss3-dev, libnspr4-dev, libcups2-dev, libevdev-dev, libgcrypt20-dev, libcurl4-openssl-dev, libzstd-dev, fonts-ipafont-gothic, fonts-ipafont-mincho, cross-exe-wrapper \u003ccross\u003e"
+    "debhelper (\u003e= 11), devscripts, llvm-19:native, lld-19:native, clang-19:native, clang-format-19:native, libclang-rt-19-dev, libc++-19-dev, rustc-web:any (\u003e= 1.84), libstd-rust-dev (\u003e= 1.84), bindgen:native, rustfmt-web, python3:any, pkgconf, ninja-build, python3-jinja2:native, python3-pkg-resources, ca-certificates, wget, flex, yasm, xvfb, wdiff, gperf, bison, nodejs:any, node-rollup-plugin-terser:native, rollup, valgrind, xz-utils, xcb-proto, xfonts-base, libdav1d-dev, libx11-xcb-dev, libxshmfence-dev, libgl-dev, libglu1-mesa-dev, libegl1-mesa-dev, libgles2-mesa-dev, libopenh264-dev, generate-ninja:native, mesa-common-dev, rapidjson-dev, libva-dev, libxt-dev, libgbm-dev, libpng-dev, libxss-dev, libelf-dev, libpci-dev, libcap-dev, libffi-dev, libkrb5-dev, libexif-dev, libflac-dev, libudev-dev, libpipewire-0.3-dev, libopus-dev, libxtst-dev, libjpeg-dev, libxml2-dev (\u003c\u003c 2.10), libgtk-3-dev, libxslt1-dev, liblcms2-dev, libpulse-dev, libpam0g-dev, libdouble-conversion-dev, libxnvctrl-dev, libglib2.0-dev, libasound2-dev, libsecret-1-dev, libspeechd-dev, libminizip-dev, libhunspell-dev, libharfbuzz-dev, libxcb-dri3-dev, libusb-1.0-0-dev, libopenjp2-7-dev, libnss3-dev, libnspr4-dev, libcups2-dev, libevdev-dev, libgcrypt20-dev, libcurl4-openssl-dev, libzstd-dev, fonts-ipafont-gothic, fonts-ipafont-mincho, cross-exe-wrapper \u003ccross\u003e"
   ],
   "Checksums-Sha1": [
-    "718f6bbf710e9cf588d96469c8774d11e4fc1e03 8528312 chromium_143.0.7499.192-1~deb12u1.debian.tar.xz dff0467793116b41355faa7035c5876ba16232d5 4063 chromium_143.0.7499.192-1~deb12u1.dsc 1d22f335a860c41269e8736583031ba5e00c3e70 714351784 chromium_143.0.7499.192.orig.tar.xz"
+    "4c7f1acdb12210b3dadeeff47b130298f74470be 8531044 chromium_144.0.7559.59-1~deb12u1.debian.tar.xz 1fcd787980f77cc1e0ae832bba85d6abde733372 4069 chromium_144.0.7559.59-1~deb12u1.dsc 5b335937cd5f599303f406166ccaef442e760b18 733515824 chromium_144.0.7559.59.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "364374c8665afae7b8fa3a99629bb1b942297294ee16841e6eebf5d2b33204a0 8528312 chromium_143.0.7499.192-1~deb12u1.debian.tar.xz 70e70343b25a89a681efdea43830792293366667a1956ba6968025cfa486ea3c 4063 chromium_143.0.7499.192-1~deb12u1.dsc f7f8a7b62fe14877823119c2b3b8b4cc0f321b42e2d68387216f536d831a546d 714351784 chromium_143.0.7499.192.orig.tar.xz"
+    "96c28b06b7030ab20be2f27f83aaf1ff9894c53cb3729c0db10ad68dcef6a2d6 8531044 chromium_144.0.7559.59-1~deb12u1.debian.tar.xz 9ee3b77fe8842795ebe2fb8c0fff97686796046749d74a0784e36b74f0e5b74e 4069 chromium_144.0.7559.59-1~deb12u1.dsc b55c35e99d664d45cfdb515b7523ee5188e9887338ca13fddab78c2f83f7640e 733515824 chromium_144.0.7559.59.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "bb18405b0e9b583cb0cd6db398c31d232e0e55c8e7d653741a44807af5680716fe42b53c7300b14cd7c826f62c9159dce4d6b7770902fa4b9a9338adc06f0351 8528312 chromium_143.0.7499.192-1~deb12u1.debian.tar.xz 52448198e00480d74901d4c2764ee97728dcc55975745d594d539547ed3ae4228668826d92e7c9702e98ec296541b46bab98580e543f4f3416624fd225755fcf 4063 chromium_143.0.7499.192-1~deb12u1.dsc a30def567b6b1ceecbcd0ff7d18ab2f63c8489c5b737ae63c7185f9cc24ee8c8f5ce61fce26951fffb6113f60577c9bf91958495b2a421599dc088195bc2f57f 714351784 chromium_143.0.7499.192.orig.tar.xz"
+    "03a5a714bf9d39b8438e9fd55882ce32c8ea90934f9309b0cc14e88f6534112c4d3de87ec279f442a5e47a141e6bddabf1e09cc44375d599c1c0ea801235a56f 8531044 chromium_144.0.7559.59-1~deb12u1.debian.tar.xz 87c8869aa9a4fe07799dc25fb7b83fec1cf2e7c829582f278cbc73701ee08cd928a13228f32b930d05b19f5db71d917d1f0a274084209dd2228f632e59997843 4069 chromium_144.0.7559.59-1~deb12u1.dsc fd6c18c88a9730b827a7e68a66d13e9a033e7206f0fc50906b3dee35251ad04a0ddd92ad647ab5cc38045018430928f005fe1966f614a4c790ed61da7252f455 733515824 chromium_144.0.7559.59.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/c/chromium"
   ],
   "Files": [
-    "a27109041684eb77b8439a88b61852d9 8528312 chromium_143.0.7499.192-1~deb12u1.debian.tar.xz 1f74f7f47ef14199e82304f37bbc7555 4063 chromium_143.0.7499.192-1~deb12u1.dsc 5bc1cf1c30c1938ea50373a3d09d664d 714351784 chromium_143.0.7499.192.orig.tar.xz"
+    "9baa26f654123a895e2e2561b0fcc5e4 8531044 chromium_144.0.7559.59-1~deb12u1.debian.tar.xz cde78e5d774670e42757ac01e6c0bf50 4069 chromium_144.0.7559.59-1~deb12u1.dsc ae058beb7bbe9f3af50f46c5486adf66 733515824 chromium_144.0.7559.59.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/chromium-team/chromium.git"
   ],
   "Version": [
-    "143.0.7499.192-1~deb12u1"
+    "144.0.7559.59-1~deb12u1"
   ]
 }
