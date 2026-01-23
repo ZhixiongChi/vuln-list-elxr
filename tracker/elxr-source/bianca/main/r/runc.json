@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "runc, golang-github-opencontainers-runc-dev"
+  ],
+  "Build-Depends": [
+    "curl, debhelper-compat (= 13), dh-golang, go-md2man, golang-any, pkgconf, golang-dbus-dev, golang-github-checkpoint-restore-go-criu-dev, golang-github-cilium-ebpf-dev (\u003e= 0.6.2~), golang-github-containerd-console-dev, golang-github-coreos-go-systemd-dev (\u003e= 22.3.2~), golang-github-cyphar-filepath-securejoin-dev, golang-github-docker-go-units-dev, golang-github-moby-sys-dev, golang-github-mrunalp-fileutils-dev, golang-github-opencontainers-selinux-dev, golang-github-opencontainers-specs-dev (\u003e= 1.0.2.66~), golang-github-seccomp-libseccomp-golang-dev (\u003e= 0.10.0~), golang-github-sirupsen-logrus-dev, golang-github-urfave-cli-dev (\u003e= 1.22.9~), golang-github-vishvananda-netlink-dev, golang-gocapability-dev, golang-golang-x-net-dev, golang-google-protobuf-dev"
+  ],
+  "Checksums-Sha1": [
+    "ec16fb7eafdbfc166c7949d2efcef94473bbca66 13052 runc_1.1.15+elxr13ds1-0elxr13u1.debian.tar.xz c7ba69f39c64ff5bcaf0750c589e03f76f73ee71 2210 runc_1.1.15+elxr13ds1-0elxr13u1.dsc f9e347204bee1b8039a5e892a3fd52fedc4267dc 641629 runc_1.1.15+elxr13ds1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "2f92cc74f1769006b05cdd67f80e0f7820ed6f867373bb5754ecd14b5e706fab 13052 runc_1.1.15+elxr13ds1-0elxr13u1.debian.tar.xz cd0bc176eb60666850370b53bbd705a4dfb9ccae8e8c70e6b2e326f31603e76e 2210 runc_1.1.15+elxr13ds1-0elxr13u1.dsc 63b68e5b55121ebf9d8583567794b047bc098998ff95cbc59f886358ccdc232e 641629 runc_1.1.15+elxr13ds1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "5d650e0fe19516cf0f761da24505b65e302774043b5799ec9566a80fa2b76d18fd2509762ed6ec06472de87a7ab950838d6d043e11288c43633018dbe2ede9d4 13052 runc_1.1.15+elxr13ds1-0elxr13u1.debian.tar.xz 0ac7fd1aa17629a68e5c001b656158d613108c496f991f32493dc709df020928b8e04cf4ee851f0de27de5f354672224f62c4dc44570bcc3624368a64c558a74 2210 runc_1.1.15+elxr13ds1-0elxr13u1.dsc 2087e3ebf47459bd64452b0a8c1a9028f0c64e0022fc081af33638b291d680dd869856c88c958f92385ca451b5d5c440a1e5987df365f39f34b5acae0616c365 641629 runc_1.1.15+elxr13ds1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/runc"
+  ],
+  "Files": [
+    "48dfca08d3e99fa557dde099a7598fa1 13052 runc_1.1.15+elxr13ds1-0elxr13u1.debian.tar.xz d53b73471d3025af3acc915b04f9a5e4 2210 runc_1.1.15+elxr13ds1-0elxr13u1.dsc 46d2e5060585bf793e37870b4540f10d 641629 runc_1.1.15+elxr13ds1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/opencontainers/runc"
+  ],
+  "Homepage": [
+    "https://github.com/opencontainers/runc"
+  ],
+  "Maintainer": [
+    "Harsh Doshi \u003charsh.doshi@windriver.com\u003e"
+  ],
+  "Package": [
+    "runc"
+  ],
+  "Package-List": [
+    "golang-github-opencontainers-runc-dev deb golang optional arch=all runc deb admin optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-go"
+  ],
+  "Testsuite-Triggers": [
+    "bats, build-essential, ca-certificates, criu, curl, gawk, git, golang-any, jq, libseccomp-dev, pkgconf"
+  ],
+  "Uploaders": [
+    "Alexandre Viau \u003caviau@debian.org\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e, Tim Potter \u003ctpot@hpe.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/runc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/runc.git"
+  ],
+  "Version": [
+    "1.1.15+elxr13ds1-0elxr13u1"
+  ]
+}
