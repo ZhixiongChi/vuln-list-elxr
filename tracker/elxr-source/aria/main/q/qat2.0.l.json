@@ -6,22 +6,22 @@
     "qat2.0.l, qat2.0.l-common, qat2.0.l-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), autotools-dev, pkg-config, libudev-dev, yasm, libssl-dev, libz-dev, pciutils, libboost-dev, perl, openssl, libboost-regex-dev, linux-headers-amd64"
+    "debhelper-compat (= 13), autotools-dev, pkg-config, libudev-dev, yasm, nasm, libssl-dev, libz-dev, pciutils, libboost-dev, perl, openssl, libboost-regex-dev, zlib1g-dev, linux-headers-amd64"
   ],
   "Checksums-Sha1": [
-    "5743e9e8610f1add0552beab028dd2b375e0ea18 8952 qat2.0.l_1.1.40-00018elxr6b1.debian.tar.xz b99802ecb1773ea736c8025e665ede1254cd8c08 1123 qat2.0.l_1.1.40-00018elxr6b1.dsc 73fc18906593234ca533ca833c40accd93e0f338 4063030 qat2.0.l_1.1.40.orig.tar.gz"
+    "b4eb0484238ff4c0f31c56ac9ce2a6c9333a5c24 8636 qat2.0.l_1.2.30-00109elxr1.debian.tar.xz 07b211c7f67dd9518fea4869971dcb78772a66e7 1133 qat2.0.l_1.2.30-00109elxr1.dsc 3eb08d561e9b7711e94aeef9286c279cf83694aa 4947553 qat2.0.l_1.2.30.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "3656f5723f1f6dc3f1406860854fe7e6dc7c2a746f755d21e26aeb76745b491b 8952 qat2.0.l_1.1.40-00018elxr6b1.debian.tar.xz 244eda363d03344bc99e94502c7d313cc277be0d7729883b4883db94fcaa7cd5 1123 qat2.0.l_1.1.40-00018elxr6b1.dsc f1e61cf826beb4c3815c3d52e6d2a7dc140d9443e9555fdcb989d31eb05433cb 4063030 qat2.0.l_1.1.40.orig.tar.gz"
+    "65a7708557a83b6d6c9cf05e89e79731730d9e5d31e6c534b0b57474395ada3b 8636 qat2.0.l_1.2.30-00109elxr1.debian.tar.xz 1563998e33ebf69790ab42e5899b58c2a1145dc42eab05d791df7ee289a89233 1133 qat2.0.l_1.2.30-00109elxr1.dsc 531e01d1d6d3fd14a59f322ffc944ad076d5c9597cc530ffa84e229e409b7f83 4947553 qat2.0.l_1.2.30.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "3a573eb2ae2a7485a3cd384c191cb33206d21114224455de9f210ea22a4cb3c28a2d07fc12e6d83bf02646169e51b9f9942e32efdeec59face6687c0466ebcd7 8952 qat2.0.l_1.1.40-00018elxr6b1.debian.tar.xz 571e514e7ac64f562b2c9fd151a0491e080e0ce0a85b5220c7ec11a8962f36f363f071f95e5756342c0378e40e2971c56e5886095ca583e9ebb945a4b367d177 1123 qat2.0.l_1.1.40-00018elxr6b1.dsc c445b9c2f8edbef9dbd45c2f609c2140a6d592fd4da7f127a4939cea451b65079ecf930a872c24668552d23bb9dbe8603a4ee694667f8f0409034b291dedfcd6 4063030 qat2.0.l_1.1.40.orig.tar.gz"
+    "94df58d8ef59ddd4ab1e5fbfd1d0f551a56fcacbe960d92298d7dccd00295597bef3a8ccade6b1a0bf3c2aa2204c2e9963fad668866e35914b24d34dcbc164d9 8636 qat2.0.l_1.2.30-00109elxr1.debian.tar.xz 813f7e316c9af78329e3d9a993b72bb881b7e7ea7eebdc7dc4f4f714ca8ff6521941cd61a9147536709d4b8db89b425763ff7d67d284fce10cd31b4bca6d1789 1133 qat2.0.l_1.2.30-00109elxr1.dsc f83285c2bd2a2569efbe0ed34d6c096a519238e9177819b74446b79e7a702b9974a222a90e21b7200cb2391291e5b51d7abba1e89815eee2dcc12200eec0586c 4947553 qat2.0.l_1.2.30.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/q/qat2.0.l"
   ],
   "Files": [
-    "bcf9b165d2d9ff076ebfd77f6b22a628 8952 qat2.0.l_1.1.40-00018elxr6b1.debian.tar.xz 6806832c33b371351f749f01623563fb 1123 qat2.0.l_1.1.40-00018elxr6b1.dsc edf7db8ac8772bc7dd1ddc866b5ed5c3 4063030 qat2.0.l_1.1.40.orig.tar.gz"
+    "f1450a8d34c5663eb690c32737acac06 8636 qat2.0.l_1.2.30-00109elxr1.debian.tar.xz 3ab28fb797ae3fe1b1972100e395c814 1133 qat2.0.l_1.2.30-00109elxr1.dsc 02a9f859eeae3afea8561a9e004a50b9 4947553 qat2.0.l_1.2.30.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,6 +39,6 @@
     "4.5.1"
   ],
   "Version": [
-    "1.1.40-00018elxr6b1"
+    "1.2.30-00109elxr1"
   ]
 }
