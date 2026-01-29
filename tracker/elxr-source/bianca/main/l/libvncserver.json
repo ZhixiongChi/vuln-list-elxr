@@ -6,22 +6,22 @@
     "libvncclient1, libvncserver1, libvncserver-dev"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.4), debhelper-compat (= 13), libgnutls28-dev, libjpeg-dev, liblzo2-dev, pkgconf, libgcrypt20-dev, libsasl2-dev, zlib1g-dev"
+    "cmake (\u003e= 3.4), debhelper-compat (= 13), libgnutls28-dev, libjpeg-dev, liblzo2-dev, pkg-config, libgcrypt20-dev, libsasl2-dev, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "e3d6050fb1a0161a851fcc5081a4deeb87ff452f 18056 libvncserver_0.9.15+dfsg-1.debian.tar.xz 8e96a75079944dc0a4ef3f919cdafe7577aa4369 2323 libvncserver_0.9.15+dfsg-1.dsc b3a1a3d93c208c8d9b24ad0cd3cef57a5cfd6f64 446056 libvncserver_0.9.15+dfsg.orig.tar.xz"
+    "09594076f6f929edbd9df9c53a5bc748f77aa2c1 15192 libvncserver_0.9.14+dfsg-1.debian.tar.xz 50bc71f4f66e4c20c273b09443d2c5cb386258d4 2326 libvncserver_0.9.14+dfsg-1.dsc 6b4f56fe4ec43e10fb2c90dbced50b5e4afda3e0 441384 libvncserver_0.9.14+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "df05aa1f28da634ca4ffe8cb97c1858ebdd1122a882b04165e3e64b98896ee9c 18056 libvncserver_0.9.15+dfsg-1.debian.tar.xz b33a02c78abe8dad1464cbf11b5a256bbe25e6dde52b6944a8f2277a5ebe0167 2323 libvncserver_0.9.15+dfsg-1.dsc 522faacc783ca0924d34e2a355c3b1cc2d17115e04ffb78e7935db541af184d0 446056 libvncserver_0.9.15+dfsg.orig.tar.xz"
+    "c9ec224f18946a56d88524a0586f793b9dfe32d351441813eb6ebbab5585edf0 15192 libvncserver_0.9.14+dfsg-1.debian.tar.xz e3f2b3dc8adf914975978ca9847ebfafddb90fd806e186a96f8936a58b30da1c 2326 libvncserver_0.9.14+dfsg-1.dsc 917b1b2cdb7853fd2c5f016a5a2468f74f94970d00e5995397cfba5f4564424d 441384 libvncserver_0.9.14+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "16f4f93596c366a0ce9f49a86f9639ab6d45fa71142fc35d01079b2a65c8e479cf1eeb278dbeb28d9db6023301aa0fc835a9a628af0f9614a6ebae669421ee13 18056 libvncserver_0.9.15+dfsg-1.debian.tar.xz ed949d1cef5da877180532991dee3f4bcf1df78c2f162075aff6e5a0a9f7cc7b69f63c632f89dd3d779362c8f34d6640239999512d42fbe7f62a0626342aa537 2323 libvncserver_0.9.15+dfsg-1.dsc f242dc77d46d624851d77c8358453cad33780e80e8749dfa73de3c78abbcf21819d37e6381408bef366f05dc144c28f746e8fb9b106456185090be904696a465 446056 libvncserver_0.9.15+dfsg.orig.tar.xz"
+    "bbeb69cf82eaa081b13dc214455ba2fd66e122cbec2c7e3784aaa8902f374bcac6fa96fc570c9a2189ad888fea4a5e180a6c6c922e4825dad642f7dd28c50f1a 15192 libvncserver_0.9.14+dfsg-1.debian.tar.xz 480f8b375ea5db99937196cd4cd3ab525f577ca97680e611cde52c387e6111a7d34b3f09fdd6f17066b7b6b43f7e4222f474a2d70bd4aba70583272fd476a800 2326 libvncserver_0.9.14+dfsg-1.dsc 4f8e0c82e30c70cff7b8799014d8bbcb19a151b1c1cfe95d7da141a409f45d6e94f918a95cccab279bfaa22c991ba30f85f21c67fc6ee2c2995cdbd90e3dbe6a 441384 libvncserver_0.9.14+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libv/libvncserver"
   ],
   "Files": [
-    "8c29216994c0ce4194a74075d4b0aefb 18056 libvncserver_0.9.15+dfsg-1.debian.tar.xz 2b1bd847244268aadc181b5e09bda6f0 2323 libvncserver_0.9.15+dfsg-1.dsc b650ea182f01cbf464d9152b0939e738 446056 libvncserver_0.9.15+dfsg.orig.tar.xz"
+    "933620cfc67ee4c6e2e8caa6e0bb0ece 15192 libvncserver_0.9.14+dfsg-1.debian.tar.xz 014503dbdd7da7fc870445072991e22c 2326 libvncserver_0.9.14+dfsg-1.dsc b67ea148c9e3fe34c9ad90a76638ee1e 441384 libvncserver_0.9.14+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libvncclient1 deb libs optional arch=any libvncserver-dev deb libdevel optional arch=any libvncserver1 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian-remote-team/libvncserver.git"
   ],
   "Version": [
-    "0.9.15+dfsg-1"
+    "0.9.14+dfsg-1"
   ]
 }

@@ -6,22 +6,25 @@
     "python3-macaroonbakery"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-fixtures, python3-httmock, python3-nacl, python3-protobuf, python3-pymacaroons, python3-pytest, python3-requests, python3-rfc3339, python3-setuptools, python3-six"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-fixtures, python3-httmock, python3-mock, python3-nacl, python3-protobuf, python3-pymacaroons, python3-pytest, python3-requests, python3-rfc3339, python3-setuptools, python3-six"
   ],
   "Checksums-Sha1": [
-    "6624a3cef810280c928375438ae151faeb01ef38 3384 py-macaroon-bakery_1.3.4-3.debian.tar.xz 60ec55a290643833146ed38fac8c556683e835f1 2320 py-macaroon-bakery_1.3.4-3.dsc 661a833c919a252042b789d050bd5002620b7b67 82143 py-macaroon-bakery_1.3.4.orig.tar.gz"
+    "ec54913aea6589a6d2eb3fca4360b0818a5883fe 3056 py-macaroon-bakery_1.3.1-5.debian.tar.xz fbb8dafc7fda6a3dfc751b6ff33b58ccf5ea83ae 2386 py-macaroon-bakery_1.3.1-5.dsc 8f62e4fe214c467e157daf8bdc226d4ec1995257 79515 py-macaroon-bakery_1.3.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "bc23964b7135c162fbc8092b9499f383420f96d2c9a5f9f87d07763a4733a8dd 3384 py-macaroon-bakery_1.3.4-3.debian.tar.xz c53eb76eb7117ebfd42c1020e26b6ccc9195fdaca765adcb0aa9e06173d5e9d2 2320 py-macaroon-bakery_1.3.4-3.dsc 41ca993a23e4f8ef2fe7723b5cd4a30c759735f1d5021e990770c8a0e0f33970 82143 py-macaroon-bakery_1.3.4.orig.tar.gz"
+    "366a1a11e057527c5ff5a5f57750f8a06b31aa282449c7dbaff60d03b70e7ce9 3056 py-macaroon-bakery_1.3.1-5.debian.tar.xz c9cc3ccc942e30913a3c455fc0bf1c62d2215dcdd0258302c6e23e852e98d022 2386 py-macaroon-bakery_1.3.1-5.dsc 23f38415341a1d04a155b4dac6730d3ad5f39b86ce07b1bb134bdda52b48b053 79515 py-macaroon-bakery_1.3.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "3cfca3cd21c50cf711bbd4fcca718b15e7d7441d90b7a2e99e829473f87d42f9cea523940b0c2d2d0c2100a11e8f49d6ac9759556770da38f0d758b0e3726f10 3384 py-macaroon-bakery_1.3.4-3.debian.tar.xz 17b8c41cec37865a39c957b49b14222dd6450403d538edd9f87b45db93cf912ffe3c9ee83ed878e6cfab710d5536d61f0321fc04be9bc40d54e2f7c3660dee7d 2320 py-macaroon-bakery_1.3.4-3.dsc d5aab9f23346ecc882691fb6233a134c74b18e052117d8f62323e26dd594c790a542e6cb28a2790cf264de4be23b03148dffae9286a92937ad3f8ac6cd063da9 82143 py-macaroon-bakery_1.3.4.orig.tar.gz"
+    "6bd0392065d75bdf9733ce0bc6f10fd6d7bbfe09b2903c835c8e357fd86222528ae6582f4f06d70e383e09217042fdd6580db7c9526ccc6bca2973bfb60391fe 3056 py-macaroon-bakery_1.3.1-5.debian.tar.xz 0b449ee9b93f0bc15a317e02d0488a479d68f8e311557da06657f8017cef6a75448adfa8191ee8ac990b4c7b3df5009f08c71931044e0129291f27e4d314483a 2386 py-macaroon-bakery_1.3.1-5.dsc 19db850bde05db6b6aa7cf46c2aa607036a47f5dd6cafa62ba9bcc9808c763e5c7dc0a0cfdaa88ef830a7062d209623ab8570f7d803dbc8baa9eb086064d8e63 79515 py-macaroon-bakery_1.3.1.orig.tar.gz"
+  ],
+  "Dgit": [
+    "47b5a420347e1032a49366133ad53268345f6c87 debian archive/debian/1.3.1-5 https://git.dgit.debian.org/py-macaroon-bakery"
   ],
   "Directory": [
     "pool/main/p/py-macaroon-bakery"
   ],
   "Files": [
-    "82c45bada34fd661ef58581ee6b0c3c4 3384 py-macaroon-bakery_1.3.4-3.debian.tar.xz e91c48ab9c35bc1ed951282bb8070974 2320 py-macaroon-bakery_1.3.4-3.dsc e529bdb6a8aeec80aa6c701e98c6bcdc 82143 py-macaroon-bakery_1.3.4.orig.tar.gz"
+    "aa706f6419dd1b77b0799ac2f7c536e6 3056 py-macaroon-bakery_1.3.1-5.debian.tar.xz 0907f4b26008bc6a14d64380c2cb0e1b 2386 py-macaroon-bakery_1.3.1-5.dsc 159d9f5fb1d400f06bdab7c9660cd391 79515 py-macaroon-bakery_1.3.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -41,11 +44,8 @@
   "Standards-Version": [
     "4.1.1"
   ],
-  "Testsuite": [
-    "autopkgtest-pkg-pybuild"
-  ],
   "Uploaders": [
-    "Colin Watson \u003ccjwatson@debian.org\u003e,"
+    "Colin Watson \u003ccjwatson@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/py-macaroon-bakery"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/py-macaroon-bakery.git"
   ],
   "Version": [
-    "1.3.4-3"
+    "1.3.1-5"
   ]
 }

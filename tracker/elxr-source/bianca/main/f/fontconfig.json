@@ -6,25 +6,25 @@
     "fontconfig, fontconfig-config, fontconfig-udeb, libfontconfig-dev, libfontconfig1-dev, libfontconfig1, libfontconfig-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libfreetype-dev (\u003e= 2.8.1), libexpat1-dev, uuid-dev, pkgconf, python3:any, gperf, po-debconf"
+    "debhelper-compat (= 11), libfreetype-dev (\u003e= 2.8.1), libexpat1-dev, uuid-dev, pkg-config, python3:any, gperf, po-debconf"
   ],
   "Build-Depends-Indep": [
     "docbook \u003c!nodoc\u003e, docbook-utils \u003c!nodoc\u003e, texlive-formats-extra \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "4f1ffd89cebe8528d946bb66fe0584a66f7a6484 59516 fontconfig_2.15.0-2.3.debian.tar.xz e741d1353a2f56a0c4d344074588a9a7f3f23bc9 2673 fontconfig_2.15.0-2.3.dsc b6137ee5d542c0fe5c96a7724884f2e8e212d275 1447820 fontconfig_2.15.0.orig.tar.xz"
+    "daf995a59cb2cfe6f69cdefaf20680072276c505 55972 fontconfig_2.14.1-4.debian.tar.xz ff4d8477dd8f02b4b068845e9013a3234f8ed66b 2693 fontconfig_2.14.1-4.dsc 1e0c542d35783f25ed3f4d3eb843fd81cb01a81d 1447044 fontconfig_2.14.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "af8e98e3801427f8957f86dc18303fcfbae329c0fab5bc06b5d5a0d26a53295f 59516 fontconfig_2.15.0-2.3.debian.tar.xz d5c3b910e470fdd00048813863f2e25e330c61b5cb3c795edf30cb3c52a657d0 2673 fontconfig_2.15.0-2.3.dsc 63a0658d0e06e0fa886106452b58ef04f21f58202ea02a94c39de0d3335d7c0e 1447820 fontconfig_2.15.0.orig.tar.xz"
+    "9c2421c04c8d26a006166ad39e0be10de5f2e8149f508b6dbd87f1403275f4a5 55972 fontconfig_2.14.1-4.debian.tar.xz 8bb59d9c96ff8ef77df06dc65273fa398bf248f7e2448a8314989ec01ce74a58 2693 fontconfig_2.14.1-4.dsc 298e883f6e11d2c5e6d53c8a8394de58d563902cfab934e6be12fb5a5f361ef0 1447044 fontconfig_2.14.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "cc8c7845a5027d9e738e9fdc15f4d093f937951fa78c3c6c92b9d7bba8d66440c1109c3631677cb9e3f1d4d45d8006bba79a7ac38a151f4db274c89dd2f90669 59516 fontconfig_2.15.0-2.3.debian.tar.xz 5f332cd3793605db0ff0a4c8d646819188eba2273885051521b938654606c507033f881f8916f47d8e537644936345cc44609e58f91122a3bb499eb3aa1dc018 2673 fontconfig_2.15.0-2.3.dsc 754cd5fffa198fc07a39cf7df683e9adfa7f54ab41fdff8c0eacc078fd35d3e01069ba343f2b045e0b40df88d9f1fc1ee0f7565799f9cb194a59cf95b64c4417 1447820 fontconfig_2.15.0.orig.tar.xz"
+    "94d1ee46fd797cd187e01c5dd4e006ef767e7f3cdf83678d3ce00c3518402a0811b7e7f3438ac19a8aeba4a4618f2d61a6a99e20e13091879aefe9b6faf57019 55972 fontconfig_2.14.1-4.debian.tar.xz 85e3dd5c32f111740902b7f6429cedcc203099b9269629c3b3d80ae6f981d8bfc1fbf63ca809095772a6beec43a4668f2851de971d24ba88c5498db85c49f027 2693 fontconfig_2.14.1-4.dsc ba42e6f90ec92914895d2157c872c373adfc17be791b92253bcc40e85674a84e43c08ab2b37c3ae85b53b2e7bd2a7847abb479043f303b732c08eeac3ee733db 1447044 fontconfig_2.14.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/f/fontconfig"
   ],
   "Files": [
-    "3252989d2d0163fb9536234364c7a849 59516 fontconfig_2.15.0-2.3.debian.tar.xz 911b719149a50e709377ff4c32352682 2673 fontconfig_2.15.0-2.3.dsc 5bb3a2829aecb22ae553c39099bd0d6a 1447820 fontconfig_2.15.0.orig.tar.xz"
+    "1a2b652030071dbda5d436718aecb70e 55972 fontconfig_2.14.1-4.debian.tar.xz 34c8ca1f4bb6d3ce1d83442e20de94d6 2693 fontconfig_2.14.1-4.dsc d110d7a2636d420ae6ed9d2cf92002a4 1447044 fontconfig_2.14.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "fontconfig deb fonts optional arch=any fontconfig-config deb fonts optional arch=any fontconfig-udeb udeb debian-installer optional arch=any profile=!noudeb libfontconfig-dev deb libdevel optional arch=any libfontconfig-doc deb doc optional arch=all profile=!nodoc libfontconfig1 deb libs optional arch=any libfontconfig1-dev deb oldlibs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.2.1"
   ],
   "Uploaders": [
     "Keith Packard \u003ckeithp@debian.org\u003e, Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e,"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/freedesktop-team/fontconfig.git"
   ],
   "Version": [
-    "2.15.0-2.3"
+    "2.14.1-4"
   ]
 }

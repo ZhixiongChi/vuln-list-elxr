@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "librust-quickcheck-dev"
+    "librust-quickcheck-dev, librust-quickcheck+default-dev, librust-quickcheck+env-logger-dev, librust-quickcheck+log-dev, librust-quickcheck+regex-dev, librust-quickcheck+use-logging-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-env-logger-0.11+regex-dev \u003c!nocheck\u003e, librust-env-logger-0.11-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-rand-0.8+getrandom-dev \u003c!nocheck\u003e, librust-rand-0.8+small-rng-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 24), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-env-logger-0.9+regex-dev \u003c!nocheck\u003e | librust-env-logger-0.8+regex-dev (\u003e= 0.8.2-~~) \u003c!nocheck\u003e, librust-env-logger-0.9-dev \u003c!nocheck\u003e | librust-env-logger-0.8-dev (\u003e= 0.8.2-~~) \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-rand-0.8+getrandom-dev \u003c!nocheck\u003e, librust-rand-0.8+small-rng-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "6cab1382fdf12408c8b44c7a773cbe6cbc36259a 4020 rust-quickcheck_1.0.3-5.debian.tar.xz d65365a9ab98cb9d4aeb6f4df49041ea63002c59 1839 rust-quickcheck_1.0.3-5.dsc da82822effcb358d942dbcc4652ada0fc1627469 28069 rust-quickcheck_1.0.3.orig.tar.gz"
+    "85a9dacaf9be27587278d4a54bea55721c9594c8 4252 rust-quickcheck_1.0.3-2.debian.tar.xz ca57ad662bfe29ae7b72ea5d4703f442455b471b 3028 rust-quickcheck_1.0.3-2.dsc da82822effcb358d942dbcc4652ada0fc1627469 28069 rust-quickcheck_1.0.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "6cd38336b0cc926b3a0882a07906c624a3b26b1b0b64ef75b99e03f9b7e87205 4020 rust-quickcheck_1.0.3-5.debian.tar.xz 52cb6af8dce2ac5095bdfec998062594e415d63b2a7b56552461d6f2b6620ba9 1839 rust-quickcheck_1.0.3-5.dsc 588f6378e4dd99458b60ec275b4477add41ce4fa9f64dcba6f15adccb19b50d6 28069 rust-quickcheck_1.0.3.orig.tar.gz"
+    "baebda56e84e2cfe893424f4a1db28216aebc8d2c1d0021449092b4a8505ec7f 4252 rust-quickcheck_1.0.3-2.debian.tar.xz da6db2f159b6b0cefd043c0929fc8a2b49b0c70460796e32b709029d869636bc 3028 rust-quickcheck_1.0.3-2.dsc 588f6378e4dd99458b60ec275b4477add41ce4fa9f64dcba6f15adccb19b50d6 28069 rust-quickcheck_1.0.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "4b33adc6c3ebe8221905aa44e341f389e32208c92fef418560c61197683843f35bdf621789c8540046b30fe107fc069ca41443d83e2a0a755fe4f1a7751416a3 4020 rust-quickcheck_1.0.3-5.debian.tar.xz 899eaf5b8dad548032c99d82c21ae0ca6ae62cc862d04dddda8617dde5e338527bd4b147057b05d9445d2f79d46cda355858b27559bd494eef306237962bac70 1839 rust-quickcheck_1.0.3-5.dsc 07dd707c9d3fd0b9cedbba545bc8b4fc1ca2770d169e444f8c96f8306d3161a6a3e9189cc5d0d6b3dc4221f7dbc05887dfe2dedc914f88d5e69ab2b94179185a 28069 rust-quickcheck_1.0.3.orig.tar.gz"
+    "7d6c6eb01b2083aebdf8a43dec70f430e70e772f5323f45599be08d05864630d68f83ec9358e1fb6ebf503dad94074bb2cec51e83269c596c8329f7f0f3401a3 4252 rust-quickcheck_1.0.3-2.debian.tar.xz 12576117063e65978965bbfff3f888d83e5dadd6576259dee755f2d39dc5b6004cd4ebe3539ed4345600351269e3ac5f4e834ff53ffa86c22eb01124b710e9d6 3028 rust-quickcheck_1.0.3-2.dsc 07dd707c9d3fd0b9cedbba545bc8b4fc1ca2770d169e444f8c96f8306d3161a6a3e9189cc5d0d6b3dc4221f7dbc05887dfe2dedc914f88d5e69ab2b94179185a 28069 rust-quickcheck_1.0.3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-quickcheck"
   ],
   "Files": [
-    "3d7ec309841ea92ab170baf3cb0b89f5 4020 rust-quickcheck_1.0.3-5.debian.tar.xz f4c0294970c0241e2a9778d9836728c9 1839 rust-quickcheck_1.0.3-5.dsc 08fb966593abcba7e24aced65041140c 28069 rust-quickcheck_1.0.3.orig.tar.gz"
+    "093e2f5e45615dd07b0f018216034745 4252 rust-quickcheck_1.0.3-2.debian.tar.xz f77139e440894674e4a9471911f82990 3028 rust-quickcheck_1.0.3-2.dsc 08fb966593abcba7e24aced65041140c 28069 rust-quickcheck_1.0.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,16 +36,16 @@
     "rust-quickcheck"
   ],
   "Package-List": [
-    "librust-quickcheck-dev deb rust optional arch=any"
+    "librust-quickcheck+default-dev deb rust optional arch=any librust-quickcheck+env-logger-dev deb rust optional arch=any librust-quickcheck+log-dev deb rust optional arch=any librust-quickcheck+regex-dev deb rust optional arch=any librust-quickcheck+use-logging-dev deb rust optional arch=any librust-quickcheck-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, rustc"
+    "dh-cargo"
   ],
   "Uploaders": [
     "kpcyrd \u003cgit@rxv.cc\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/quickcheck]"
   ],
   "Version": [
-    "1.0.3-5"
+    "1.0.3-2"
   ]
 }

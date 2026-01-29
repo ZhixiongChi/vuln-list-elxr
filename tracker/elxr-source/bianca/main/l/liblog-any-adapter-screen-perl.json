@@ -6,25 +6,22 @@
     "liblog-any-adapter-screen-perl"
   ],
   "Build-Depends": [
-    "perl, debhelper-compat (= 13), liblog-any-perl \u003c!nocheck\u003e"
+    "perl, debhelper-compat (= 13), liblog-any-perl \u003c!nocheck\u003e, liblog-any-perl | liblog-any-adapter-perl \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "ab71cafa354bbb2ad841240fb0f19ab514abb933 4316 liblog-any-adapter-screen-perl_0.141-1.debian.tar.xz ec5486952c7e6cb57ddbe3750f39d5c1f71340b2 2421 liblog-any-adapter-screen-perl_0.141-1.dsc 6cf38f6193ffeb965b40e52a7f4f06e2943ee444 19359 liblog-any-adapter-screen-perl_0.141.orig.tar.gz"
+    "afda0e6221bde1954952dae59cecb38e6f5de09e 4216 liblog-any-adapter-screen-perl_0.140-2.debian.tar.xz 618dd46fbeebb468f44e0a482a703946a8fc8598 2310 liblog-any-adapter-screen-perl_0.140-2.dsc 2e2e465c2ac23fe3047e9302bb935396ff327818 18580 liblog-any-adapter-screen-perl_0.140.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "222057bdd288fbcb55f65aae9b094903dfba6a682a3fb64b07aa2cedfc8b2d86 4316 liblog-any-adapter-screen-perl_0.141-1.debian.tar.xz eb816429dc3af3485729cdef8a69e7bb0b311e9e5679dc0cd42b60fc3b85eec0 2421 liblog-any-adapter-screen-perl_0.141-1.dsc 513934b208e8513883137ae319ab29c5e706cbac3691242dbddbba85b7916487 19359 liblog-any-adapter-screen-perl_0.141.orig.tar.gz"
+    "34b9dfd5868bcb1b97add4e276208ef915c638ea6a70a5b5572d45d71890336b 4216 liblog-any-adapter-screen-perl_0.140-2.debian.tar.xz 367005b453095bf2ff54efe54922ae248effd81f7317e3da725a51173906fa6b 2310 liblog-any-adapter-screen-perl_0.140-2.dsc 992bf35d49684bbdc69c9c84bb7088e57c878b812bc42e631bd2697e1ab088ae 18580 liblog-any-adapter-screen-perl_0.140.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "5f80f579a600804850168d449d713f68b3a890c84461f0e13e573d190e0056fc551dbfee4fd8b51f87d1dc0ed032afd2154232e72791613a84a4bcbde3f3698b 4316 liblog-any-adapter-screen-perl_0.141-1.debian.tar.xz 951c660935d28f8eabcbe8a1347d498f60e64ac277a33175b05acf618f06742b1cac5eac0c679db5eb09063085f615c49afdce9868a22f887623bcf1ad5337bb 2421 liblog-any-adapter-screen-perl_0.141-1.dsc 825a3b71bf418c3f79723e96fb5db985182cf054fb07517bc4e1e2594efbfff37f94f3ca69e122b818feb6f8b5e6eca8fdb63b7997cf54a9ce099cce5d096471 19359 liblog-any-adapter-screen-perl_0.141.orig.tar.gz"
-  ],
-  "Dgit": [
-    "12f1d0930daa31fa38668585ffb05a2c6d032c48 debian archive/debian/0.141-1 https://git.dgit.debian.org/liblog-any-adapter-screen-perl"
+    "7ab782cddb8c551fa3b81e775185fe1325fa27415f8eadfca6366b9f09833206c665352d0b53dd0466a29459863855ee4e78a4d5f46e8970d4ad71a583e8ee04 4216 liblog-any-adapter-screen-perl_0.140-2.debian.tar.xz d4dc643896d06c5f8b08d64967aa738d408c3ebd07add63573341189de7501cbfbc8eaa6f23fe4cda49ceb61b8c770fc9dcb0377bc1563b9e20965eab5dbe19c 2310 liblog-any-adapter-screen-perl_0.140-2.dsc a7ded27bbc548108169e59964783ba6200c3afd798219bcd9daea47c390128db628c30392eb7eaebb93b5e3b59f51c717599518130b3ba31a1765cca3b4c362c 18580 liblog-any-adapter-screen-perl_0.140.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libl/liblog-any-adapter-screen-perl"
   ],
   "Files": [
-    "7fa81ee3f8547d768bbc42042d50c8f0 4316 liblog-any-adapter-screen-perl_0.141-1.debian.tar.xz 73d4d27d56239406ed4d215bc952459c 2421 liblog-any-adapter-screen-perl_0.141-1.dsc c0e06e74002db31a7bfcf38ec0aa4293 19359 liblog-any-adapter-screen-perl_0.141.orig.tar.gz"
+    "f20dcbb9fd5a9eb21fca01a3ea3b138f 4216 liblog-any-adapter-screen-perl_0.140-2.debian.tar.xz 5fa6074c4230821be93ad01ce920112b 2310 liblog-any-adapter-screen-perl_0.140-2.dsc 854746d58a65d94d181c83db07d4c706 18580 liblog-any-adapter-screen-perl_0.140.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +39,7 @@
     "liblog-any-adapter-screen-perl deb perl optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/liblog-any-adapter-screen-perl.git"
   ],
   "Version": [
-    "0.141-1"
+    "0.140-2"
   ]
 }

@@ -6,22 +6,22 @@
     "kleopatra"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-kf6, cmake (\u003e= 3.16~), dbus \u003c!nocheck\u003e, extra-cmake-modules (\u003e= 6.6.0~), gettext, git, libakonadimime-dev (\u003e= 4:24.12.3~), libassuan-dev (\u003e= 2.4.2~), libgpg-error-dev (\u003e= 1.36~), libgpgme-dev (\u003e= 1.21.0~), libgpgmepp-dev (\u003e= 1.23.2~), libkf6codecs-dev (\u003e= 6.6.0~), libkf6colorscheme-dev (\u003e= 6.6.0~), libkf6config-dev (\u003e= 6.6.0~), libkf6coreaddons-dev (\u003e= 6.6.0~), libkf6crash-dev (\u003e= 6.6.0~), libkf6dbusaddons-dev (\u003e= 6.6.0~), libkf6doctools-dev (\u003e= 6.6.0~), libkf6guiaddons-dev (\u003e= 6.6.0~), libkf6i18n-dev (\u003e= 6.6.0~), libkf6iconthemes-dev (\u003e= 6.6.0~), libkf6itemmodels-dev (\u003e= 6.6.0~), libkf6kio-dev (\u003e= 6.6.0~), libkf6notifications-dev (\u003e= 6.6.0~), libkf6statusnotifieritem-dev (\u003e= 6.6.0~), libkf6textwidgets-dev (\u003e= 6.3.0~), libkf6widgetsaddons-dev (\u003e= 6.6.0~), libkf6windowsystem-dev (\u003e= 6.6.0~), libkf6xmlgui-dev (\u003e= 6.6.0~), libkidentitymanagement-dev (\u003e= 24.12.3~), libkleo-dev (\u003e= 4:24.12.3~), libkmailtransport-dev (\u003e= 24.12.3~), libkmime-dev (\u003e= 24.12.3~), libmimetreeparser-dev (\u003e= 24.12.3~), libqgpgmeqt6-dev (\u003e= 1.23.2~), qt6-base-dev (\u003e= 6.7.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+    "cmake (\u003e= 3.16~), dbus, debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.99.0~), gettext, git, libgpgme-dev | libgpgme11-dev, libgpgmepp-dev (\u003e= 1.16.0~) | libqgpgme7-dev, libkf5codecs-dev (\u003e= 5.99.0~), libkf5config-dev (\u003e= 5.99.0~), libkf5configwidgets-dev (\u003e= 5.99.0~), libkf5coreaddons-dev (\u003e= 5.99.0~), libkf5crash-dev (\u003e= 5.99.0~), libkf5dbusaddons-dev (\u003e= 5.99.0~), libkf5doctools-dev (\u003e= 5.99.0~), libkf5i18n-dev (\u003e= 5.99.0~), libkf5iconthemes-dev (\u003e= 5.99.0~), libkf5identitymanagement-dev (\u003e= 22.12.3~), libkf5itemmodels-dev (\u003e= 5.99.0~), libkf5libkleo-dev (\u003e= 4:22.12.3~), libkf5mailtransport-dev (\u003e= 22.12.3~), libkf5mime-dev (\u003e= 22.12.3~), libkf5notifications-dev (\u003e= 5.99.0~), libkf5textwidgets-dev (\u003e= 5.99.0~), libkf5widgetsaddons-dev (\u003e= 5.99.0~), libkf5windowsystem-dev (\u003e= 5.99.0~), libkf5xmlgui-dev (\u003e= 5.99.0~), pkg-kde-tools (\u003e= 0.12), qtbase5-dev (\u003e= 5.15.2~), xauth, xvfb"
   ],
   "Checksums-Sha1": [
-    "87e62e3cb739abe0b857f59ee85caf7226f84860 17208 kleopatra_24.12.3-1+deb13u1.debian.tar.xz b44ef93e07e6053452e21383acbe55dd051c7fdc 3402 kleopatra_24.12.3-1+deb13u1.dsc 61172749a5df44ed26c7be76a785aeba2832e292 2797796 kleopatra_24.12.3.orig.tar.xz 44b74c191edd12112901770d26952561ad0a4921 833 kleopatra_24.12.3.orig.tar.xz.asc"
+    "bd901b7d79f2c9320eb35864304ca389a84a4867 15164 kleopatra_22.12.3-1.debian.tar.xz 66c66f8248dea4458cf922710800191120aad56e 3109 kleopatra_22.12.3-1.dsc e50d7731fda682dc9c3f607a4d34b4eac450b703 2579704 kleopatra_22.12.3.orig.tar.xz af42fd806227bc1cfe62cea14d7480f4e5132753 833 kleopatra_22.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "5d28da46cf823cb9db882bf04f6d5580d6d6491c83cb26c5ba23c746372f3c7a 17208 kleopatra_24.12.3-1+deb13u1.debian.tar.xz 2b45b0e11f275c6c40e71b20cb2a2497ced4d71d3cdd7b376affb8d6d0fc6321 3402 kleopatra_24.12.3-1+deb13u1.dsc 366fcc7ee45afa96ecab5647669db0a5008e609cf7c17f664146ad3aa847d845 2797796 kleopatra_24.12.3.orig.tar.xz 19659b9d47eb54b7963d4f2341d349763bfe1bc6ac735b894b04b596f991eadf 833 kleopatra_24.12.3.orig.tar.xz.asc"
+    "6e598bdbe20f6032b126233d180a78f8caa22737e5b520247b11f2892217e2e8 15164 kleopatra_22.12.3-1.debian.tar.xz 42d6702a9e0a6b897898fa36b218f99e67e5b61c219a6065a30abb6a9b532c3d 3109 kleopatra_22.12.3-1.dsc 31f199ca957fcd3393ea9b4630482347da35e3b85646d46357522cdf8779d996 2579704 kleopatra_22.12.3.orig.tar.xz c3487cb18f85b16880b8488adc5a5fb340714dbe91a382cfc0197b86ac7d8474 833 kleopatra_22.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "dd836a5d2b33d488a50e3241a14101df4618a743539d130584cf125f304327153f6b045c11c3c0a0a44ba4851943a7a4e030637a30f90e167a7972f039fff324 17208 kleopatra_24.12.3-1+deb13u1.debian.tar.xz 06943dd159d8ca7e1ee170724f18f28ac10c95294d76806fe7563dfe8691cf82be645ec4a3369341ec932b14774715dd4ad370e0da0901eb449e23140e39af27 3402 kleopatra_24.12.3-1+deb13u1.dsc 002b63ed26903167e04397af72407cac370bf854b63deff0328ff9148b8e2bd7eb01e297b205b178f5621bdc05ce512423b5dec306f1689624e5816647bfeca6 2797796 kleopatra_24.12.3.orig.tar.xz 4aefdeca75dc9d5456553fb6b00a0f29c4733180cccb3fbb052200a11a3e79b551e51dab427edbf4eac0ca85c3664a3b11eb814fe40aebb9d2966281e8cb23e4 833 kleopatra_24.12.3.orig.tar.xz.asc"
+    "647caffdc69d07688f8b04e4f70943a160ae351d4043ee2d230b1fb345b0d9abccd5cd9633143b8c34658144d5ea17ed2249cd7a41a066e885a4b2e6e1cf60da 15164 kleopatra_22.12.3-1.debian.tar.xz 49841751f484ea33d116768e22f18e9eddbb4132f3cef9bac50ef9a7b5f4ab2a9d59d645ff8bf0fd4d1ea0474ee1c94f3fcefb423a62d3328ccaf6d73d19ed51 3109 kleopatra_22.12.3-1.dsc da674a693111279f3b54ab05301562306472d4d834fc665924c315a92bb88101865e50aef9b1b7003015d75cc4e48fe35a29761ca4c14168e848d14b341e90c2 2579704 kleopatra_22.12.3.orig.tar.xz 53c0043966650e346e1b10eda256aab3b82c043de7305acfc1a27255d1981f2bc389a90d9040f9c6adddeaf7e76fa2929443d6fe775975e8ef926fc184ade718 833 kleopatra_22.12.3.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/k/kleopatra"
   ],
   "Files": [
-    "18d7709686fc20571cd2339e3cb71e76 17208 kleopatra_24.12.3-1+deb13u1.debian.tar.xz 53e06d3e67fbfb028ce96cde5d3109ae 3402 kleopatra_24.12.3-1+deb13u1.dsc 7d69a45a24177f59b28abbf24b5cc143 2797796 kleopatra_24.12.3.orig.tar.xz 409d6da81c61e8ad72fbe3e172c50936 833 kleopatra_24.12.3.orig.tar.xz.asc"
+    "1897a58e1ab98ead94f444533f996540 15164 kleopatra_22.12.3-1.debian.tar.xz 2e772ec2c9839e18bcda4e29506b5b31 3109 kleopatra_22.12.3-1.dsc 25f4a8dad3cdf5e20956aebadbba6740 2579704 kleopatra_22.12.3.orig.tar.xz 875462c5883590a222524b9f323192f6 833 kleopatra_22.12.3.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "kleopatra deb kde optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Uploaders": [
     "Sandro Knauß \u003chefee@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kleopatra.git"
   ],
   "Version": [
-    "4:24.12.3-1+deb13u1"
+    "4:22.12.3-1"
   ]
 }

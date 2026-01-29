@@ -6,25 +6,22 @@
     "auctex, preview-latex-style"
   ],
   "Build-Depends-Indep": [
-    "autoconf, debhelper (\u003e= 12), emacs, eperl, ghostscript, po-debconf, tex-common, texlive-latex-base, texlive-latex-recommended, texlive-extra-utils, texinfo"
+    "autoconf, debhelper (\u003e= 9), emacs, eperl, ghostscript, po-debconf, tex-common (\u003e= 4.01), texlive-latex-base, texlive-extra-utils, texinfo (\u003e= 5)"
   ],
   "Checksums-Sha1": [
-    "be803d48417121d3e0dbfcd563c59687fc8eafe2 58904 auctex_13.2-1.1.debian.tar.xz 136b0d71d0ed824574e0411d34cb6863c3504eae 1566 auctex_13.2-1.1.dsc b18ea543dd95be88adf83baa259f4801447fa25d 946452 auctex_13.2.orig.tar.xz"
+    "ee59ecc4e97c1343bdd9cd07b921ebd4f96b4204 53260 auctex_12.2-1.debian.tar.xz 3ff3cc5ef8e8d205234d3a8c8e56fa79c1cb7493 2043 auctex_12.2-1.dsc f9a72b0005ea0a56731ea059c5b24d1c09c0b37c 1146225 auctex_12.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "9bbad547fde1a1ec63996f667000018d351847d3ede118697340f4ff4cc55ac0 58904 auctex_13.2-1.1.debian.tar.xz cdc0edd366d1989eaef7b24d344ac18d89489c797a0a34eda71affbf56625809 1566 auctex_13.2-1.1.dsc 0332fd9084329c0c5f8b4853b7f870a11bd853fd6d615726f1c90d06175519bf 946452 auctex_13.2.orig.tar.xz"
+    "cc4631b65421fe97656dbabc98977c6b13afaad5fd6c897f4c5fd4885d475706 53260 auctex_12.2-1.debian.tar.xz 39c835406ee69f87bec5b91e25824ed5cb30b23b87da8ec9f5819627869bc9a1 2043 auctex_12.2-1.dsc 4c0c4a3fb9b586d2310dccd3969c72310ac98575ffa6941faefb134650fab795 1146225 auctex_12.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "3fa5fb7607bbd75e1640fd6ea2f3092a4d4f55df63955d528548b6ce10b8c0bf56945016f69988e59ac6a56c2850ed06cb56cca19f83414df10bcfb1ca01cf60 58904 auctex_13.2-1.1.debian.tar.xz f492767f0990314d1a7ae4faa359c9c6bae1eb7dc3e743fb69ce3045c8fe7f84defe208df9abe7c5bf49221dc5f98ab0379f7b19e88a74d191b44ee1ea1366b0 1566 auctex_13.2-1.1.dsc 7a07d4ef5021c3130f49464a44c6a399067cbb5133ea9debfd607f73838886bec5ea338cdbc35d2f60e1d6050579c8ef9acc03c6e5e9d913e849c8107a65f8e5 946452 auctex_13.2.orig.tar.xz"
-  ],
-  "Dgit": [
-    "b4128ac125c8172bd4b8dad3823182676c1bd5a3 debian archive/debian/13.2-1.1 https://git.dgit.debian.org/auctex"
+    "6df3f32e04b057d905ee664f588973f78fe773285a6c79eb05846e011e0f28774c9176a1fe36403c5aad118d3e741204711639792b92c189783edf59b18f3bda 53260 auctex_12.2-1.debian.tar.xz c8118415933350a6ff0a81c7bdf6c5c96159a76f9f9c00a241ca309daccc399cbb1b8f598c698d675de1d82f527413f6c89e4dbc4ca01be59b0ecd674901ee87 2043 auctex_12.2-1.dsc 5928e202448073b30acc75c543fd229fb5e4ba21684d432ed6068c1784e800122a9c49c8b5c672953a0f5a5e42ff62669a01594daa91f26d4885115ebd5c176f 1146225 auctex_12.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/a/auctex"
   ],
   "Files": [
-    "3789203fac15cad2cba4e525ac3842c0 58904 auctex_13.2-1.1.debian.tar.xz d5501977738f5b6da491aec4362e2eee 1566 auctex_13.2-1.1.dsc 078df82b03b68895ddff7bda8a751d9f 946452 auctex_13.2.orig.tar.xz"
+    "9bf2f45bd7da55e1fa34e9524f5eab52 53260 auctex_12.2-1.debian.tar.xz 66caf76e1bba9af3f5175b0bb89dab51 2043 auctex_12.2-1.dsc e2976b29331812af638c895d8df5dc23 1146225 auctex_12.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +39,7 @@
     "auctex deb tex optional arch=all preview-latex-style deb tex optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.5.0"
   ],
   "Uploaders": [
     "OHURA Makoto \u003cohura@debian.org\u003e"
@@ -51,9 +48,9 @@
     "https://salsa.debian.org/salve/auctex"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/salve/auctex.git"
+    "https://salsa.debian.org//salve/auctex.git"
   ],
   "Version": [
-    "13.2-1.1"
+    "12.2-1"
   ]
 }

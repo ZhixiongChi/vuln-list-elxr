@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), dh-golang, golang-any, golang-golang-x-sys-dev"
   ],
   "Checksums-Sha1": [
-    "ed7871f5062947def54ab6aba2dec03d4ef81c6f 2804 golang-github-vishvananda-netns_0.0.5-1.debian.tar.xz 3e4a1e034ac7faa4069dc81084740c2c4ac6301b 2333 golang-github-vishvananda-netns_0.0.5-1.dsc 59bc47cd13f1325fd201d30c67359a003394348f 10028 golang-github-vishvananda-netns_0.0.5.orig.tar.gz"
+    "267e22312b0a08d97da3f248581a2d386759b201 2608 golang-github-vishvananda-netns_0.0~git20211101.5004558-1.debian.tar.xz d412b681186ee36516d3ef1797ed8952e1f2a4ab 1884 golang-github-vishvananda-netns_0.0~git20211101.5004558-1.dsc eddf0ffd635da8ca056c2e059ee68d25744697e0 8260 golang-github-vishvananda-netns_0.0~git20211101.5004558.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "e141fddbde4de2558430f86bd8f24fe8b37fd52f34de69cc6f19fede2ed555bb 2804 golang-github-vishvananda-netns_0.0.5-1.debian.tar.xz 4f64052bbe3a1c8d79675804348d4e75ed04db87240cc2437dbaa3bea925ca66 2333 golang-github-vishvananda-netns_0.0.5-1.dsc 745c35e848d0decde763848ceb0347290ad48287e9640d021628f32e888dd93e 10028 golang-github-vishvananda-netns_0.0.5.orig.tar.gz"
+    "e52c0c2ac4043621c109872e027eb4e6ee13fa235182abc549ef68c3f43ddd84 2608 golang-github-vishvananda-netns_0.0~git20211101.5004558-1.debian.tar.xz f0921649f6929ed1999bb251cc937fa3f5b217f4cdc368681c664cbbdae336d2 1884 golang-github-vishvananda-netns_0.0~git20211101.5004558-1.dsc 9a880ed3b5c2c499dc2922442f04c0a86e599a4852815c338335767e4658ea51 8260 golang-github-vishvananda-netns_0.0~git20211101.5004558.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "703fc613e993e01be196c8bd82569bf5b98efc232ceb17133617b7d8966acf2f4e05e23256a9d9590803f92a4d5314682a3d55ff8bc1ae009cbe97eab6c5f238 2804 golang-github-vishvananda-netns_0.0.5-1.debian.tar.xz cdf53a7bddeff73550d7fba74acc4771bf2cd37a721d1ee4f7cb1ba8788dd11261c0efb33bfaea4a27191b3260e3f8e76cc683553195b9c2d0fba8dfb55d7f10 2333 golang-github-vishvananda-netns_0.0.5-1.dsc 6dde9d113428f32285ca2c1c22ff404f6d390b3c80ee9224c25d49ced26957289c4d0e32a0f671df768091481508940e39fce4979202dcd67d5b8c77a1a95af7 10028 golang-github-vishvananda-netns_0.0.5.orig.tar.gz"
+    "6092611b844ded3bfd50e056015cb84ce39d5ed5c07275957110063c5646efd5487f21dfd22992fdc905ec9bf77714bbd1d51f18366ed1ab52e830ffec945044 2608 golang-github-vishvananda-netns_0.0~git20211101.5004558-1.debian.tar.xz b8faa2bf6a9d8ce0d54d759ad4c9d4fa3497c614a03a0d58f60e0e06c1b4b2128483d00ea20f82c08c19d2233960c5d25335512adaa2adea146ba2943748cdb4 1884 golang-github-vishvananda-netns_0.0~git20211101.5004558-1.dsc 0280e991b7410075159aa3744b9ead88086f035be6b6528bebe0e3f37a763e6e72f672439fcb669bda5c3aa16d20455283a30fdd20f2e74d1b078d887d92168e 8260 golang-github-vishvananda-netns_0.0~git20211101.5004558.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/golang-github-vishvananda-netns"
   ],
   "Files": [
-    "699884a8b62c499a087eb69884985bde 2804 golang-github-vishvananda-netns_0.0.5-1.debian.tar.xz 86f043334935085b4720b70d3da25a7d 2333 golang-github-vishvananda-netns_0.0.5-1.dsc 58dd0e9f502624d0076f574c39d9df06 10028 golang-github-vishvananda-netns_0.0.5.orig.tar.gz"
+    "5b2117b8f44dcae7622f4d90bad6e01c 2608 golang-github-vishvananda-netns_0.0~git20211101.5004558-1.debian.tar.xz e00d51cf1e08300767462b208f69c427 1884 golang-github-vishvananda-netns_0.0~git20211101.5004558-1.dsc 6af87125cef29290d74de32a75588ac2 8260 golang-github-vishvananda-netns_0.0~git20211101.5004558.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "golang-github-vishvananda-netns-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -51,7 +51,7 @@
     "golang"
   ],
   "Uploaders": [
-    "Tim Potter \u003ctpot@hpe.com\u003e,"
+    "Tianon Gravi \u003ctianon@debian.org\u003e, Tim Potter \u003ctpot@hpe.com\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/go-team/packages/golang-github-vishvananda-netns"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-vishvananda-netns.git"
   ],
   "Version": [
-    "0.0.5-1"
+    "0.0~git20211101.5004558-1"
   ]
 }

@@ -3,31 +3,28 @@
     "linux-any"
   ],
   "Binary": [
-    "atm-tools, br2684ctl, libatm1t64, libatm1-dev"
+    "atm-tools, br2684ctl, libatm1, libatm1-dev"
   ],
   "Build-Depends": [
-    "autoconf, automake, bison, debhelper-compat (= 12), dpkg-dev (\u003e= 1.22.5), flex, libfl-dev, libtool, perl"
+    "debhelper-compat (= 12), bison, flex, autoconf, automake, libtool, perl, libfl-dev"
   ],
   "Checksums-Sha1": [
-    "470c58b02efb3967cefc964ce3a3a19fff719d44 12424 linux-atm_2.5.1-7.debian.tar.xz d085aad8a44c0d92c3745ad14ed4298dd33ba26b 2113 linux-atm_2.5.1-7.dsc ecb25c0a9ab52db2cfadebc9e4642f842d665ffe 1308638 linux-atm_2.5.1.orig.tar.gz"
+    "e3c4d72821ef75775204a8e8d2b06681af4f79f0 10708 linux-atm_2.5.1-4.debian.tar.xz 0099c293b24bfc179b64e48b445bd99e930f6548 1930 linux-atm_2.5.1-4.dsc ecb25c0a9ab52db2cfadebc9e4642f842d665ffe 1308638 linux-atm_2.5.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "2253ee03f8b83024d54db1f71dfea1d7d5d52f741433237dffda44b8576f545a 12424 linux-atm_2.5.1-7.debian.tar.xz b9a9f8d2d9d0bbe0ae64ced04d935f0b923cc68b987a122e5e4904a2b504126a 2113 linux-atm_2.5.1-7.dsc 6bc60fe53c9e9c828a6d7f3675da11ad7fb54491863584e01c1051740fe2a286 1308638 linux-atm_2.5.1.orig.tar.gz"
+    "9d2f36dad8a07f319e42113cbf050b7f2e41834fe251967fed9bda2dd876541f 10708 linux-atm_2.5.1-4.debian.tar.xz efac797faf84ffc57e77b5effa2d105e55b71215b84d48efbd636d9f79210da5 1930 linux-atm_2.5.1-4.dsc 6bc60fe53c9e9c828a6d7f3675da11ad7fb54491863584e01c1051740fe2a286 1308638 linux-atm_2.5.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "71b2c31f515c1e6a83ab3c54aff992f8434592c4893f8a2ebbd056f67c8af5366ed807b415e1d43498126adbbd9766297c03ca79a746ea8851c2671207598966 12424 linux-atm_2.5.1-7.debian.tar.xz bc38793f17f5a01740763b6103596da3c4272cc562b1493db4a20fa5366f5fbad5274cdbb492959f669ac0c1f75269e78b5801a493d110df518b1275baefcb09 2113 linux-atm_2.5.1-7.dsc 7a3e931c47651f7a2acc646120f9a8172c2177d1c6b2267a1a0249c0b3c97ef5c4e93c4e213c455984ec2adf3eaebaab34d489dd27161425fa1c5bcd483fa7a3 1308638 linux-atm_2.5.1.orig.tar.gz"
+    "69497441154e2015b0a9d2ef83761ab34b75850c25f1048b4e4da5eed7c1ec04b7a43d4c16fdd0c18888a341004f2f8fa89558291c744c3507ccc983c2104d55 10708 linux-atm_2.5.1-4.debian.tar.xz be2c2ae4d22f7356c41dd5fbbc6ae5ccff6a69a35af2941a3c09f8b0e171ca34407453b45d2e888ab74c42170c04b2d7b15935aab9dc52c832369b8a5c30093a 1930 linux-atm_2.5.1-4.dsc 7a3e931c47651f7a2acc646120f9a8172c2177d1c6b2267a1a0249c0b3c97ef5c4e93c4e213c455984ec2adf3eaebaab34d489dd27161425fa1c5bcd483fa7a3 1308638 linux-atm_2.5.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/l/linux-atm"
   ],
   "Files": [
-    "2fe2e02d014e2fcfb76dd963e0e7762f 12424 linux-atm_2.5.1-7.debian.tar.xz 7dde8b245edea7f70f19a45202bbdc60 2113 linux-atm_2.5.1-7.dsc 9560b0e1f410a05b849dfdab465dd758 1308638 linux-atm_2.5.1.orig.tar.gz"
+    "657033428f39d2ff56599374cbc708da 10708 linux-atm_2.5.1-4.debian.tar.xz eea6544f747b18742fc894834e78c150 1930 linux-atm_2.5.1-4.dsc 9560b0e1f410a05b849dfdab465dd758 1308638 linux-atm_2.5.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://linux-atm.sourceforge.net/"
   ],
   "Maintainer": [
     "Debian QA Group \u003cpackages@qa.debian.org\u003e"
@@ -36,18 +33,12 @@
     "linux-atm"
   ],
   "Package-List": [
-    "atm-tools deb net optional arch=linux-any br2684ctl deb net optional arch=linux-any libatm1-dev deb libdevel optional arch=linux-any libatm1t64 deb libs optional arch=linux-any"
+    "atm-tools deb net optional arch=linux-any br2684ctl deb net optional arch=linux-any libatm1 deb libs optional arch=linux-any libatm1-dev deb libdevel optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.7.0"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/linux-atm"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/linux-atm.git"
+    "4.4.0"
   ],
   "Version": [
-    "1:2.5.1-7"
+    "1:2.5.1-4"
   ]
 }

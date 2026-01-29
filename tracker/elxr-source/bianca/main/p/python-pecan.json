@@ -9,22 +9,22 @@
     "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-setuptools, python3-sphinx"
   ],
   "Build-Depends-Indep": [
-    "gunicorn, python3-genshi, python3-gunicorn, python3-jinja2, python3-kajiki, python3-logutils, python3-mako, python3-markupsafe, python3-pytest, python3-simplegeneric, python3-sqlalchemy, python3-virtualenv, python3-webob, python3-webtest"
+    "gunicorn, python3-genshi, python3-gunicorn, python3-jinja2, python3-kajiki, python3-logutils, python3-mako, python3-markupsafe, python3-mock, python3-pytest, python3-simplegeneric, python3-singledispatch, python3-six, python3-sqlalchemy, python3-unittest2, python3-virtualenv, python3-webob, python3-webtest"
   ],
   "Checksums-Sha1": [
-    "cf765bb5fd23e674f8e0bdfe67087f4cdf918e63 6360 python-pecan_1.5.1-6.debian.tar.xz 743441d68715114be3f19e0a26daed270878ddef 2445 python-pecan_1.5.1-6.dsc 63a21f12174ec3e4d5922b0cd47413dd7431a486 138804 python-pecan_1.5.1.orig.tar.xz"
+    "ccb0a547ab9b506afcf03a63800d3451a951f1ab 6028 python-pecan_1.4.1-1.debian.tar.xz f5bbd4db70cd0d650300006016b4d5f2b069e1f3 2470 python-pecan_1.4.1-1.dsc 90a30d5b1af93c0cba54dceb3a6926eae33acbc9 138984 python-pecan_1.4.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "95d69bc4380853bda81edf8a24daa5b6bff9469f89666b0b5c9e7e7c40a08d33 6360 python-pecan_1.5.1-6.debian.tar.xz 9f125088b3123e64e4a488bfc0476d84951a636a54706c67766e9d6cc2c1a736 2445 python-pecan_1.5.1-6.dsc cc68f594c67f692a7e3d942582544d9f34192049fd4b9b2406260613473bf6ef 138804 python-pecan_1.5.1.orig.tar.xz"
+    "4f5b0078926dbd7a55860d99e42e3ad575ac2d618641b7c492a8b6e8d1b9e988 6028 python-pecan_1.4.1-1.debian.tar.xz 9d15674abb1e471fef2b3e7349becf06dd7404e2ea18565ffbe7968b5022f124 2470 python-pecan_1.4.1-1.dsc 1889ab06b9b4bd10598359529181c23327744c2139f0d2f386dabdbffc196903 138984 python-pecan_1.4.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "04c678ac7fef2e43948520d6904e232a68acc4328e9648b137a20d712c1459fac101d88f17beec824cb13e89aaa6e4c82bb669a31742417d6a762abd43bc821c 6360 python-pecan_1.5.1-6.debian.tar.xz eb7096f8a0ff0f93ab4a8fb7d87ef6d74210f5efd8f43fbf7c8ca1e8269fea9c17a739d2ee2968e6ff3467b2a29105aa3e698d9d5fb605502d2924c3bea032a9 2445 python-pecan_1.5.1-6.dsc ff98f1ae1bcf5d3267239b95337a9015e969b7072a696072eeeda4241ab426ab61c55dc60dd9b6703320f819f77cfcd3223880eaaa0360a13f1340660427e110 138804 python-pecan_1.5.1.orig.tar.xz"
+    "7da582ddae96204dde773d3521af0d5ccba5389e0d35aaeb5ac78b002aa64b8ef5f5d3592037470cea6247d0becef0df36701674bae0cb3eec6a7dd3b2ea3b62 6028 python-pecan_1.4.1-1.debian.tar.xz ea3df2a376742ba1ddd669f993caee4d0975535a55d393ca0bbf90f6486bc9079d04315daeed2c269b510b38f5620129aa58018e97d0baf552b056a94edd14bc 2470 python-pecan_1.4.1-1.dsc 1a7f6bcf6f69776a2fab4d9e7640770f19b69b7e993823abc09bacb6140009f330fb809b12f6e457608d590ed6480398879b8f310d6f20b025be8f9d9dbd4612 138984 python-pecan_1.4.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-pecan"
   ],
   "Files": [
-    "3bc10f4d7bde0ccb8b0475d4b1ed8a2b 6360 python-pecan_1.5.1-6.debian.tar.xz 8e253b11f8a130e09a67d11a3e06cc50 2445 python-pecan_1.5.1-6.dsc 995b411a52b5d1ea01fdcbd1d627f5c6 138804 python-pecan_1.5.1.orig.tar.xz"
+    "e00ae44d6d17aef1b5fea5afb93ba83b 6028 python-pecan_1.4.1-1.debian.tar.xz 6b52fab118b3aed76051aef8af2c439b 2470 python-pecan_1.4.1-1.dsc a690cd64a0f40b4d4d17cefbb083382e 138984 python-pecan_1.4.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,10 +45,7 @@
     "4.1.1"
   ],
   "Testsuite": [
-    "autopkgtest, autopkgtest-pkg-python"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@"
+    "autopkgtest-pkg-python"
   ],
   "Uploaders": [
     "Thomas Goirand \u003czigo@debian.org\u003e,"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/openstack-team/python/python-pecan.git"
   ],
   "Version": [
-    "1.5.1-6"
+    "1.4.1-1"
   ]
 }

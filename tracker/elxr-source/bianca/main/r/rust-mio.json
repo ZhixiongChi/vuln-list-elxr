@@ -6,22 +6,22 @@
     "librust-mio-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.70) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.149-~~) \u003c!nocheck\u003e, librust-log-0.4+default-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.121-~~) \u003c!nocheck\u003e, librust-log-0.4+default-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "cec524cdd819b5b0425e039fc1f081140d3e96ac 5308 rust-mio_1.0.2-3.debian.tar.xz 5671c81aca5d5db96482623367cd1436e9fcc133 1678 rust-mio_1.0.2-3.dsc cd5413f399ee881b9ebe836c81491c7cf3620004 102777 rust-mio_1.0.2.orig.tar.gz"
+    "bd82026c31251f731a4b283f121f739d7ccd9eb2 3388 rust-mio_0.8.4-1.debian.tar.xz c395bbcf8afe98506e3d63093154ea384971c80a 2312 rust-mio_0.8.4-1.dsc 90d19be7a65ba1415a0617715110883c92f9b9c2 93013 rust-mio_0.8.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "380a0e37c370ca2248b09fe053e41a82e0e62432221fc219ac1e0e73854d4996 5308 rust-mio_1.0.2-3.debian.tar.xz 508e67a296a1789b4bd11df12c79e9ffdc81cfdddedce4807e46590342f642fb 1678 rust-mio_1.0.2-3.dsc 80e04d1dcff3aae0704555fe5fee3bcfaf3d1fdf8a7e521d5b9d2b42acb52cec 102777 rust-mio_1.0.2.orig.tar.gz"
+    "f91374b842090e478b1b7499537a21cf2b6b603050c98e7cab1c8dc86f193040 3388 rust-mio_0.8.4-1.debian.tar.xz e148d50e8e41055eb00450c60b9924591c6b15cc47685067dd7dc16e65d6c238 2312 rust-mio_0.8.4-1.dsc 57ee1c23c7c63b0c9250c339ffdc69255f110b298b901b9f6c82547b7b87caaf 93013 rust-mio_0.8.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "978d64c03a171253981997e9646a7f9d1f9666c66e26b5fde8c495962123d1b6c43d92a278f3f7e2351743143e2711bb00d01d4d20507085e6f7a879f5f95e5d 5308 rust-mio_1.0.2-3.debian.tar.xz a2e859a53bebf64325357fee429f1f2364aa39a77f565a56ccbe1fbe82a3d55b259ac670aa340da5c922a77383a22d7ab13ef2f980c2a97fabe9610dc1b556b9 1678 rust-mio_1.0.2-3.dsc 77eae1170a318d4a53550dda3462ae070d25656cda51db4cb2dbcb28210802f9b7e279900e6d6eba68314a0c814c90eb4af7acc561f611535cb364f75ad4e317 102777 rust-mio_1.0.2.orig.tar.gz"
+    "36126565ce4248086506e6ef0d62f327a7c09604dd71958d81ae4f60a36562c3d8ee047a9665515722d47891afb9960d2d40228e713b5448d89f14acdd6dd193 3388 rust-mio_0.8.4-1.debian.tar.xz c36bbffbed221cd1d7a489f086b09a9b915fb77ee3a2a4f2586647754c09c88ee6e77044f7569f88d1b7ee5849eb84a6ab2c91ce7072a4b7f0121ce396b58512 2312 rust-mio_0.8.4-1.dsc b44675c90daa37336a25e7eef53cdc664e6f52590ed4955bac82641baf8099d3d94850da79d985255eb74b61a499b1ea4a9d7309f6ea4c41454b3dbb090b70ee 93013 rust-mio_0.8.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-mio"
   ],
   "Files": [
-    "f70cf8c21d0f89f1cce460ed557bd573 5308 rust-mio_1.0.2-3.debian.tar.xz 90f673e4b37bb329f3b5e21179d9b8f0 1678 rust-mio_1.0.2-3.dsc 608381b826ce567c0774506bf6d016a6 102777 rust-mio_1.0.2.orig.tar.gz"
+    "8974b552d78955d5566b1addc81f0a0d 3388 rust-mio_0.8.4-1.debian.tar.xz e9cfe9016a9301e28228497fe1e23f4f 2312 rust-mio_0.8.4-1.dsc c000987eefc279a40c38c8f90f70af6f 93013 rust-mio_0.8.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "librust-mio-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-env-logger-0.11-dev, librust-rand-0.8+default-dev, rustc"
+    "dh-cargo, librust-env-logger-0.8-dev, librust-env-logger-0.9-dev, librust-rand-0.8+default-dev"
   ],
   "Uploaders": [
     "kpcyrd \u003cgit@rxv.cc\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/mio]"
   ],
   "Version": [
-    "1.0.2-3"
+    "0.8.4-1"
   ]
 }

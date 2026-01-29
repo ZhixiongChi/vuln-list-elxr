@@ -6,22 +6,22 @@
     "golang-github-prometheus-common-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.21~), golang-github-aws-aws-sdk-go-dev, golang-github-go-kit-log-dev, golang-github-google-go-cmp-dev, golang-github-julienschmidt-httprouter-dev, golang-github-munnerz-goautoneg-dev, golang-github-mwitkow-go-conntrack-dev, golang-github-prometheus-client-model-dev (\u003e= 0.6.0), golang-github-prometheus-sigv4-dev, golang-golang-x-net-dev, golang-golang-x-oauth2-dev, golang-google-protobuf-dev, golang-gopkg-alecthomas-kingpin.v2-dev, golang-gopkg-yaml.v2-dev"
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-aws-aws-sdk-go-dev, golang-github-go-kit-log-dev, golang-github-golang-protobuf-1-3-dev, golang-github-julienschmidt-httprouter-dev, golang-github-mwitkow-go-conntrack-dev, golang-github-prometheus-client-golang-dev, golang-github-prometheus-client-model-dev (\u003e= 0.2.0), golang-golang-x-net-dev, golang-golang-x-oauth2-dev, golang-google-protobuf-dev, golang-gopkg-alecthomas-kingpin.v2-dev, golang-gopkg-yaml.v2-dev (\u003e= 2.2.1), golang-protobuf-extensions-dev"
   ],
   "Checksums-Sha1": [
-    "89c9b9bf52dc1baae73cde86a9d4c51bd03dc81b 10900 golang-github-prometheus-common_0.62.0-3.debian.tar.xz 37953846d088f3c564cf78728b9776c22f7e2e7e 2907 golang-github-prometheus-common_0.62.0-3.dsc 2e185f6984ce7ebb714a9497ba37e902171050e6 144731 golang-github-prometheus-common_0.62.0.orig.tar.gz"
+    "dedc0de78cdfa9887c7aa0388647114c75948807 7060 golang-github-prometheus-common_0.39.0-2.debian.tar.xz b445c76ec7ae99ea36d8f7b16ec4cedc3d0e6017 2903 golang-github-prometheus-common_0.39.0-2.dsc 3c1265aba531dbd27186494ab654bd92054e1b27 154059 golang-github-prometheus-common_0.39.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "b3f5501c10d9e0f4ec17e853796a17a635ef2513fa6fd8bd60abb7ba0ffdd8ee 10900 golang-github-prometheus-common_0.62.0-3.debian.tar.xz 4da379a43a8f75f5754652376559e97fda4ba2dc3be065fda2b6fbd40b26ad8e 2907 golang-github-prometheus-common_0.62.0-3.dsc 6a7c94e618901e7fcaeb495ca87813bd7df24fed52a21dbc0459d765f8f2d387 144731 golang-github-prometheus-common_0.62.0.orig.tar.gz"
+    "5020fc39fb061ac3d67809a62cda1ebb542a1b99dcb9a9d2920f9af7cc54f648 7060 golang-github-prometheus-common_0.39.0-2.debian.tar.xz fc29a418df4bd131363615490455918680dd17ea554e077131b84e604c43942c 2903 golang-github-prometheus-common_0.39.0-2.dsc 32d5c7df2d4dc28012a0b61c030e395992961e79f0eedc858562ec623e2b2437 154059 golang-github-prometheus-common_0.39.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "5d4223f96e43b94f7a7401d348b9145ad32ef361eb851ae7a67f3a19180b5e45d9e7b6335137505ce1e5cfa852445ccbcfb66f40f20381fd032a9c9a9973472f 10900 golang-github-prometheus-common_0.62.0-3.debian.tar.xz b1330c88bb8d5f2b8476ac73cf68437a3e5ce0c0f6bdf7a5b2efb233f3306b5537b78730b83cf8b8ad4fe3fe1a22a4d1157d0fcf72b708c8840b552377e0b65b 2907 golang-github-prometheus-common_0.62.0-3.dsc 6d1cb2154593e8eda23cf3904d0feba913574cda434b7e118c11cfd56ecac642e55f30338c093922a69fa96aae42a4ba589410fa86a030a93eb4acf9d965af9e 144731 golang-github-prometheus-common_0.62.0.orig.tar.gz"
+    "871ecea40c07b9ce8ec86ad700f28dd51a703208e82ae86eeb539cd9122a2d77e76c339ea436013855b670df35e201a7aed2e15d1560a510d9071fff107c11c9 7060 golang-github-prometheus-common_0.39.0-2.debian.tar.xz 0f136989beb571ee2f68b1b2ee18628863731f2116093fdf7070ce09915ef9dcc1af95962da9f37128330d7bf63f8c068a84f69fc83ba12e7767252f4c85659c 2903 golang-github-prometheus-common_0.39.0-2.dsc c9b38e2aef1bf0d44386666fbd9fd5187e740871f5bce779001b3137de94d2a8bce77a11978bd62e9655e5de81b78090fb6453a71ee78e012d8f72221e09ecd3 154059 golang-github-prometheus-common_0.39.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-prometheus-common"
   ],
   "Files": [
-    "f5fa1664d6f90f658210b343844f20f8 10900 golang-github-prometheus-common_0.62.0-3.debian.tar.xz c4dbdb1e8b660f98348ae912e4318e56 2907 golang-github-prometheus-common_0.62.0-3.dsc 72aa860fb2756bc8fc2310dceec92261 144731 golang-github-prometheus-common_0.62.0.orig.tar.gz"
+    "8d4ddb4a56a7bee8c4c57d911d764910 7060 golang-github-prometheus-common_0.39.0-2.debian.tar.xz 9958c4cf4aa952a475c7825e629881f0 2903 golang-github-prometheus-common_0.39.0-2.dsc 9bc5e0a4eb10b533c79301eaed7563e6 154059 golang-github-prometheus-common_0.39.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "golang-github-prometheus-common-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-prometheus-common.git"
   ],
   "Version": [
-    "0.62.0-3"
+    "0.39.0-2"
   ]
 }

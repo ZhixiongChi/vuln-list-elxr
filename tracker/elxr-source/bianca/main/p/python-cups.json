@@ -6,22 +6,25 @@
     "python3-cups"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all-dev, python3-setuptools, libcups2-dev"
+    "debhelper-compat (= 13), dh-python, python3-all-dev, libcups2-dev"
   ],
   "Checksums-Sha1": [
-    "a61c625dd7add0a512d82d7b0009172bb5d756ba 5436 python-cups_2.0.4-2.debian.tar.xz 4e9bc39265131301b332776b2de5ed7f66ff047e 2195 python-cups_2.0.4-2.dsc e8208fcca8642f8c8cd29c1fb462f8ad0a2da46a 64159 python-cups_2.0.4.orig.tar.gz"
+    "5fdf93d63bfb1d41245944687c11ece2a99f6068 5540 python-cups_2.0.1-5.debian.tar.xz aa5ae20127078140699de3288296a828d16f3b2c 2231 python-cups_2.0.1-5.dsc 1ddf87180502fe675d993077c2a55c76b2260dd7 63093 python-cups_2.0.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "5011331706de90676cec167275b60af10646c1a89f6e38d22d7ae2e4f5e7075e 5436 python-cups_2.0.4-2.debian.tar.xz affd3b9dae4a67801c6a318b6ee73ff6aa77fd51011b4ed97d7508240c7dd6b5 2195 python-cups_2.0.4-2.dsc 31d9cf62df7884fe430d11970a8c9278282a47a0ff6b1529c58c7d26e8eb4789 64159 python-cups_2.0.4.orig.tar.gz"
+    "45e75fb74a90f611931b2a1cf9a26307a2334235c028fc02de328f8fd6f02a8a 5540 python-cups_2.0.1-5.debian.tar.xz 2623ee02e3dc29582b4aafd8f9e6be5054ff582b2e917100fb79bb61a7176c36 2231 python-cups_2.0.1-5.dsc cf7e63b07e2dbc6811e77f55cc11d7191799298a6565b83fc028ee3c9da0ad78 63093 python-cups_2.0.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "5baefaee170af6340ff2849ae8c3a5cf9a0dcc4bd34725962d29625db22dd5af6cf2768d17b3856bd99d9bfc9fc73c9121cdc3674de6f1ccd7673763d1ffb24c 5436 python-cups_2.0.4-2.debian.tar.xz 67009c64103a09590fbfc36eeac324a6512abf1ac1d0fc808390aef1e283257ab93d1d62313d088a140a9590aa1fd50367760b2800d1db15352f1ec77bb25842 2195 python-cups_2.0.4-2.dsc 2620b44a2d6fabed50fd00b691e134d731ad3e3845f66f0389b15909bc8aee77a06068ad0ef9ca3899c46249490ba4bf7fb9d8c7c74cb7ad6c501c894842bc91 64159 python-cups_2.0.4.orig.tar.gz"
+    "61b75fa52c0eada5a348563b25c5425b8be24cfd81130f7ee71f5415266a584f1f9db53fefa690ce399fb6dbc0ca89131d97eb86a4ae7f67fac779327c8fde9f 5540 python-cups_2.0.1-5.debian.tar.xz 967653d8c87e5b9477a78ed3576193bbe086264133eea2a1edea60f0ec75af163b6148dbea658a4707a32c50bcb3f6555e0ed236f872e1ffcf9d406cf9beab18 2231 python-cups_2.0.1-5.dsc b3bacb2e39a5f662b62c4d735021477ac95a37e1718e19fd5a4729890471ed582a98c78fb373df9ebeb43fc7e1ddb53f1d65afaf456963a2535e27fc7a04e4f6 63093 python-cups_2.0.1.orig.tar.gz"
+  ],
+  "Dgit": [
+    "61f5a49d599d8e1a7523713022a89ebd642598a9 debian archive/debian/2.0.1-5 https://git.dgit.debian.org/python-cups"
   ],
   "Directory": [
     "pool/main/p/python-cups"
   ],
   "Files": [
-    "02791e69902fa509d1d8700b777c3240 5436 python-cups_2.0.4-2.debian.tar.xz 0cd3cba1fd97b3be2735b8112d69b136 2195 python-cups_2.0.4-2.dsc 06698cd721d0f6c2a3850b8a60368ed5 64159 python-cups_2.0.4.orig.tar.gz"
+    "c08f575c23d2e08b3ca87ba206d2cead 5540 python-cups_2.0.1-5.debian.tar.xz 1736aa57cd1676863e9914901d9385c8 2231 python-cups_2.0.1-5.dsc 0d36ad4c8f8c3e3b29527f65abfcb758 63093 python-cups_2.0.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +42,7 @@
     "python3-cups deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.0"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/python-cups.git"
   ],
   "Version": [
-    "2.0.4-2"
+    "2.0.1-5"
   ]
 }

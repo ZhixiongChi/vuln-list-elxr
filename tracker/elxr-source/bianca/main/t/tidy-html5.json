@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libtidy-dev, libtidy58, tidy"
+    "libtidy-dev, libtidy5deb1, tidy"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), xsltproc"
+    "cmake, debhelper-compat (= 12), xsltproc"
   ],
   "Checksums-Sha1": [
-    "a2f156d7475832feac754559259dae1a80362b6b 18972 tidy-html5_5.8.0-2.debian.tar.xz 8a912889197e14ccbaa0135f89fe2e5d8115c7fe 2138 tidy-html5_5.8.0-2.dsc 67320ea9ff8c227a005b54b3105cd18f821d84cc 1008951 tidy-html5_5.8.0.orig.tar.gz"
+    "5d8bba21374b4207c1ec65f655c9f8ca840a3420 22388 tidy-html5_5.6.0-11elxr2.debian.tar.xz 447a0d2fe7179b0300f16f91a733a921b5917ac7 1185 tidy-html5_5.6.0-11elxr2.dsc bd6812f3493095c4ca42be11fe3884d1da11c361 665438 tidy-html5_5.6.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a1930538f0565cf554b51d9cf01d1d0de7975e03b1f55ab811d908cb2749affc 18972 tidy-html5_5.8.0-2.debian.tar.xz 4fbf75d729d3efe65b94ec8fd0d566c833ce7ca3017d6ff7b0eb5ffbee0494fb 2138 tidy-html5_5.8.0-2.dsc 2fc78c4369cde9a80f4ae3961880bd003ac31e8b160f6b9422645bab3be5a6cf 1008951 tidy-html5_5.8.0.orig.tar.gz"
+    "0f254049da52b23d7045a19682c8b5dbf2e3190d0fff873aed2a633863321803 22388 tidy-html5_5.6.0-11elxr2.debian.tar.xz c96f8be4d0764287627688c7e2c5127dff9bc1daf1addac6497cfe671541fa11 1185 tidy-html5_5.6.0-11elxr2.dsc 08a63bba3d9e7618d1570b4ecd6a7daa83c8e18a41c82455b6308bc11fe34958 665438 tidy-html5_5.6.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e3a81336442923196fcae1bb9ea1517ac094459a5ea4b24d715b90cca0b631bff8fa91e8f28765b6f1122fc580374eb467d50853482af46df3abe30fb2abf29f 18972 tidy-html5_5.8.0-2.debian.tar.xz 88c2ed66cdd1cd00892cc8181058c9c86c80498a5ce4235e8ff20fa5a33a6721cf00df60b1d8534c0cc77ff5ee79b910b7c46981a97f199ea59e9216e5f29ca6 2138 tidy-html5_5.8.0-2.dsc 22eb063ff6fc3f41a42b5ecba1dcac74dca99f6a2181f54c7ef41720aaaa31d3463d1c28837e7eb8fded3f7e43caf1e1649537aa5eb1ed1b206680cd39bbeba8 1008951 tidy-html5_5.8.0.orig.tar.gz"
+    "a86bf569380b36034006708573ed613c514572f1361c6c8f8eb2a6811a3213f4785933748d74586e1fdfdfe7f8266ea4a25215ca39bbcba48377a203e9d060ca 22388 tidy-html5_5.6.0-11elxr2.debian.tar.xz cc2ed43611d3d65814762d41418675f68e6d0ee749a8b0830c915bb7c1c3aaf9dae4f036cd4272e2ef428c691452aea4327cd7d24b5b35bfc5340bbd70aba6af 1185 tidy-html5_5.6.0-11elxr2.dsc 179088a6dbd29bb0e4f0219222f755b186145495f7414f6d0e178803ab67140391283d35352d946f9790c6b1b5b462ee6e24f1cc84f19391cb9b65e73979ffd1 665438 tidy-html5_5.6.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/t/tidy-html5"
   ],
   "Files": [
-    "66362909ebd054a2b8c728f6c69a701e 18972 tidy-html5_5.8.0-2.debian.tar.xz 0aca5674dd90beb9c6fb552c47da28cc 2138 tidy-html5_5.8.0-2.dsc 06e6dc80fbeefe47293cbc27e9c23cf1 1008951 tidy-html5_5.8.0.orig.tar.gz"
+    "0bce0e7b08665c44bb21f12513fcc15d 22388 tidy-html5_5.6.0-11elxr2.debian.tar.xz 01f2ad91d54151ed208ed7c494f97e60 1185 tidy-html5_5.6.0-11elxr2.dsc 85c8a163d9ece6a02fe12bc9bddbc455 665438 tidy-html5_5.6.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,13 @@
     "tidy-html5"
   ],
   "Package-List": [
-    "libtidy-dev deb libdevel optional arch=any libtidy58 deb libs optional arch=any tidy deb web optional arch=any"
+    "libtidy-dev deb libdevel optional arch=any libtidy5deb1 deb libs optional arch=any tidy deb web optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.4.1"
   ],
   "Uploaders": [
-    "Ondřej Surý \u003condrej@debian.org\u003e"
+    "Ondřej Surý \u003condrej@debian.org\u003e, Boyuan Yang \u003cbyang@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/tidy-html5"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/tidy-html5.git"
   ],
   "Version": [
-    "2:5.8.0-2"
+    "2:5.6.0-11elxr2"
   ]
 }

@@ -6,25 +6,25 @@
     "keystone, keystone-doc, python3-keystone"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 11), dh-apparmor, dh-python, openstack-pkg-tools (\u003e= 133~), po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+    "debhelper-compat (= 11), dh-apparmor, dh-python, openstack-pkg-tools (\u003e= 123~), po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
   ],
   "Build-Depends-Indep": [
-    "git, python3-bashate, python3-bcrypt, python3-coverage, python3-cryptography, python3-dogpile.cache, python3-fixtures, python3-flask, python3-flask-restful, python3-freezegun, python3-hacking, python3-jsonschema, python3-jwt, python3-keystoneclient, python3-keystonemiddleware, python3-ldap, python3-ldappool, python3-lxml, python3-memcache, python3-msgpack, python3-oauthlib, python3-openstackdocstheme, python3-os-api-ref, python3-oslo.cache, python3-oslo.config, python3-oslo.context, python3-oslo.db, python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging, python3-oslo.middleware, python3-oslo.policy (\u003e= 4.5.0), python3-oslo.serialization, python3-oslo.upgradecheck, python3-oslo.utils, python3-oslotest, python3-osprofiler, python3-pycadf, python3-pymongo, python3-pysaml2, python3-requests, python3-scrypt, python3-sphinx-feature-classification, python3-sphinxcontrib.apidoc, python3-sphinxcontrib.blockdiag, python3-sphinxcontrib.seqdiag, python3-sqlalchemy, python3-stestr, python3-stevedore, python3-tempest, python3-testresources, python3-testscenarios, python3-testtools, python3-tz, python3-webob, python3-webtest, subunit, tempest, xmlsec1"
+    "git, python3-bashate, python3-bcrypt, python3-coverage, python3-cryptography, python3-dogpile.cache, python3-fixtures, python3-flask, python3-flask-restful, python3-freezegun, python3-hacking, python3-jsonschema, python3-jwt, python3-keystoneclient, python3-keystonemiddleware, python3-ldap, python3-ldappool, python3-lxml, python3-memcache, python3-migrate, python3-msgpack, python3-oauthlib, python3-openstackdocstheme, python3-os-api-ref, python3-oslo.cache, python3-oslo.config, python3-oslo.context, python3-oslo.db, python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging, python3-oslo.middleware, python3-oslo.policy (\u003e= 3.10.0), python3-oslo.serialization, python3-oslo.upgradecheck (\u003e= 1.3.0), python3-oslo.utils, python3-oslotest, python3-osprofiler, python3-passlib, python3-pep8, python3-pycadf, python3-pymongo, python3-pysaml2, python3-requests, python3-scrypt, python3-sphinx-feature-classification, python3-sphinxcontrib.apidoc, python3-sphinxcontrib.blockdiag, python3-sphinxcontrib.seqdiag, python3-sqlalchemy, python3-stestr, python3-stevedore, python3-tempest, python3-testresources, python3-testscenarios, python3-testtools, python3-tz, python3-unittest2, python3-webob, python3-webtest, subunit, tempest, xmlsec1"
   ],
   "Checksums-Sha1": [
-    "d88698d69d47dae18ba68ca5b4edd9a8943b27d1 46052 keystone_27.0.0-3+deb13u1.debian.tar.xz 4152c8282356f474ffcf900f849ea23ebd38f44e 3486 keystone_27.0.0-3+deb13u1.dsc 896a6f57c727fa62d0aec10d5c8844b40cc42bdb 1098444 keystone_27.0.0.orig.tar.xz"
+    "d1538763ff5ea660da9d4afd3ae6f27f380da681 54560 keystone_22.0.2-0+deb12u1.debian.tar.xz 0dbf43f96b99cdd729e97afd68868860ec77754f 3565 keystone_22.0.2-0+deb12u1.dsc 0082bb40f85f63bd5bf7d67aa7d0089a229090a3 1055220 keystone_22.0.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "68dc7627f6301469f2bd7b448a614f8cdf72b279873dd1802f13d6f10071052b 46052 keystone_27.0.0-3+deb13u1.debian.tar.xz c42fea98c4283524840695546e15a0f7b5e18cd1899791658aa8955b98965a56 3486 keystone_27.0.0-3+deb13u1.dsc 223b27dc676dabd6c9d67e4409fe086f92b5d47bf71ee8c724c3e0d13f26d635 1098444 keystone_27.0.0.orig.tar.xz"
+    "121449386907f98af2357341b5e190529e92f2465e4a79f2600ff57ea8ed65d7 54560 keystone_22.0.2-0+deb12u1.debian.tar.xz c4ffe21c1893f16a6027b1cc0de4f59f38716380c09445966157a98071afd812 3565 keystone_22.0.2-0+deb12u1.dsc a30c128c86b0d53be1998fb9babd49956d74fd9130ff198dddd9f24c01b0c22f 1055220 keystone_22.0.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "0d8de55af2f1c54726b0fad0aa9a3e90aeafbd33508889624e0ebc184b6ceac7de28775388b793b0ef6d08f7e3db134d64228eb556e07afc638a0dcf4e8166b6 46052 keystone_27.0.0-3+deb13u1.debian.tar.xz 445c6a0dfe11ca06bae7a9753c1cca7b59e924bf03a85721ae865ae09397acac73c517c097f0cd656a2a58e303c597c37a4bb147f02fb77429259aa97a1bf92d 3486 keystone_27.0.0-3+deb13u1.dsc 36fe2736d523bcce7e1641a754175ab11d0ef8fd3192a389f3c1935fa004242e559ddfaf8077e7c7bcc0a92ce9d44eed7a16d62a1be223035bbee0f89dd9b1e5 1098444 keystone_27.0.0.orig.tar.xz"
+    "428170e707fd89020d7259caf3cef69d344b153723304aa51314450101cb5bbdfe6f4e617e269e106b650a7201dfe8233d6a4f1e23d0133fe24dac7cd7ad15a9 54560 keystone_22.0.2-0+deb12u1.debian.tar.xz ea9cbe64bfaa4f11197f505032e6e4f6c49a7b4a998b0ed7ddb7fee88c9f2c771ee8320ef188da750aaadf2d265b42e8d0c1a300d428c731ec208a61c2eb99e3 3565 keystone_22.0.2-0+deb12u1.dsc 597e3d5e9ffd35bb4479cca35824059c3c5a1c2e340dd805fd968209992434717b4553314141c48cb83b5b21d9d2fc41a55860937f14f287e9dc371449dbb025 1055220 keystone_22.0.2.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/k/keystone"
   ],
   "Files": [
-    "6e50154c2164ae3d35d557c3a00bcff4 46052 keystone_27.0.0-3+deb13u1.debian.tar.xz 4ae93baa72760d52a8efd5dbed87366f 3486 keystone_27.0.0-3+deb13u1.dsc d8119041a4ba1c4545ab5dabe9ae65b9 1098444 keystone_27.0.0.orig.tar.xz"
+    "cfc06833ba07339f3eb95fe981f29b57 54560 keystone_22.0.2-0+deb12u1.debian.tar.xz a92dc26e6e4040c70affd18da3a7a9b7 3565 keystone_22.0.2-0+deb12u1.dsc 60a14722d5ffdf9c7893a4568f3e25a9 1055220 keystone_22.0.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/openstack-team/services/keystone.git"
   ],
   "Version": [
-    "2:27.0.0-3+deb13u1"
+    "2:22.0.2-0+deb12u1"
   ]
 }

@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libdv-bin, libdv4t64, libdv4-dev"
+    "libdv-bin, libdv4, libdv4-dev"
   ],
   "Build-Depends": [
-    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), file, libglib2.0-dev, libpopt-dev, libx11-dev, libxext-dev, libxt-dev, libxv-dev, pkg-config, x11proto-core-dev"
+    "debhelper-compat (= 12), file, libglib2.0-dev, libgtk2.0-dev, libpopt-dev, libsdl1.2-dev, libx11-dev, libxext-dev, libxt-dev, libxv-dev, pkg-config, x11proto-core-dev"
   ],
   "Checksums-Sha1": [
-    "60969021e2c3b700738b667ff825ba46a5624307 14696 libdv_1.0.0-17.1.debian.tar.xz acfb5e763f38b8d78110257b9274b5ab97f49c01 2053 libdv_1.0.0-17.1.dsc 2e5ba0e95f665d60e72cbebcf1c4989e0d6c92c8 574565 libdv_1.0.0.orig.tar.gz"
+    "ce38cc0c1533bded4015718cda093fb4dbdbba0b 14072 libdv_1.0.0-15.debian.tar.xz 00ec0665c09943654702ede06eeb58a32bb49577 2047 libdv_1.0.0-15.dsc 2e5ba0e95f665d60e72cbebcf1c4989e0d6c92c8 574565 libdv_1.0.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "3ed3b26f622f93aa21a818243e3f041d5bb57f48e3b57942754d7556d69f810b 14696 libdv_1.0.0-17.1.debian.tar.xz 23189ef3cdca9f2a61bc7cbbcfd6b862f7c81692ce96156b23306c16fcd57d06 2053 libdv_1.0.0-17.1.dsc a305734033a9c25541a59e8dd1c254409953269ea7c710c39e540bd8853389ba 574565 libdv_1.0.0.orig.tar.gz"
+    "6434a3c958e1d505a9386eb92435deec34c2f6e836b3c5071cbe8f23db24cbd6 14072 libdv_1.0.0-15.debian.tar.xz d727d3b2ac49f25d26e9496f49f17d942657b7c073d5796db79dfd3525ceddee 2047 libdv_1.0.0-15.dsc a305734033a9c25541a59e8dd1c254409953269ea7c710c39e540bd8853389ba 574565 libdv_1.0.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8e211ef7c61d3a452deb899d6912513d2a2115b8f78591f226b9b194458be001955fbc3d5c1c189fdb905ebcd64341c6dea19c80b60733f3a8da201c481bb980 14696 libdv_1.0.0-17.1.debian.tar.xz 9acbef4f819e5ce5c1818b62e81d601bb75ce33096040c2ff86990a39de6b3289032b0d585d445dd53f134375e0cdd4d1bf3bc421795adcb7da3a9edc4937412 2053 libdv_1.0.0-17.1.dsc 19887a6f452fa7da8924901ad841f5c4a434a3bde56c932ddb43717592aa744281e3a8ad220231e11d7e6bc3b0e704952a8324e5f85d4e088675edceeeca7dc8 574565 libdv_1.0.0.orig.tar.gz"
+    "cd723a39af3f54ad14eb39496935248b3534f332d14204eff5d53bfa324cac4007919d3cf0585300966707a3b10f186c108c4b20bc01e53022714680f608791b 14072 libdv_1.0.0-15.debian.tar.xz c5c847fc50e635dc80e88af368beb73459a0c5e399aeb0ce639b449053b142b0748a853adb41e0cbc2e0870abe3759fd0f2767a6e8c35c1f30273b090b2cea19 2047 libdv_1.0.0-15.dsc 19887a6f452fa7da8924901ad841f5c4a434a3bde56c932ddb43717592aa744281e3a8ad220231e11d7e6bc3b0e704952a8324e5f85d4e088675edceeeca7dc8 574565 libdv_1.0.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libd/libdv"
   ],
   "Files": [
-    "69de892252151adb74d469f10a359da7 14696 libdv_1.0.0-17.1.debian.tar.xz 9e8373c4536dc0f11ac29cbf954e8509 2053 libdv_1.0.0-17.1.dsc f895162161cfa4bb4a94c070a7caa6c7 574565 libdv_1.0.0.orig.tar.gz"
+    "19d5f3c300a0b7a660f76ec8ccf60149 14072 libdv_1.0.0-15.debian.tar.xz e0972ab4f359eba9ea60c0c9c5351b5b 2047 libdv_1.0.0-15.dsc f895162161cfa4bb4a94c070a7caa6c7 574565 libdv_1.0.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "libdv"
   ],
   "Package-List": [
-    "libdv-bin deb video optional arch=any libdv4-dev deb libdevel optional arch=any libdv4t64 deb libs optional arch=any"
+    "libdv-bin deb video optional arch=any libdv4 deb libs optional arch=any libdv4-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.0"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/libdv"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/libdv.git"
   ],
   "Version": [
-    "1.0.0-17.1"
+    "1.0.0-15"
   ]
 }

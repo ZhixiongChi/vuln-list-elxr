@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "any"
+    "any all"
   ],
   "Binary": [
-    "babeltrace, libbabeltrace1, libbabeltrace-dev, python3-babeltrace"
+    "babeltrace, libbabeltrace1, libbabeltrace-ctf1, libbabeltrace-dev, libbabeltrace-ctf-dev, python3-babeltrace"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, libdw-dev (\u003e= 0.154), libelf-dev (\u003e= 0.154), libglib2.0-dev (\u003e= 2.16), libpopt-dev, python3-all-dev, python3-setuptools, swig (\u003e= 2.0), uuid-dev"
+    "debhelper-compat (= 13), dh-python, libdw-dev (\u003e= 0.154), libelf-dev (\u003e= 0.154), libglib2.0-dev (\u003e= 2.16), libpopt-dev, python3-all-dev, swig (\u003e= 2.0), uuid-dev"
   ],
   "Checksums-Sha1": [
-    "8b6bcc1aadf9e5d8270d42b16e8a333177696573 12628 babeltrace_1.5.11-4.debian.tar.xz 64a62c28a515de9b12b15a1986b7f97c8930a51d 2549 babeltrace_1.5.11-4.dsc 10e08f35832860afb923980614616dbe1bcdbd7a 998592 babeltrace_1.5.11.orig.tar.bz2 3b6389cec5414ac287d13a09b4170a7ce7ae7b42 833 babeltrace_1.5.11.orig.tar.bz2.asc"
+    "548d5e79af766b432fe73e7fd0bc17a087a184a7 12288 babeltrace_1.5.11-1.debian.tar.xz 181afa0109079ca5145c2eedc4b4f8f9f50829aa 2679 babeltrace_1.5.11-1.dsc 10e08f35832860afb923980614616dbe1bcdbd7a 998592 babeltrace_1.5.11.orig.tar.bz2 3b6389cec5414ac287d13a09b4170a7ce7ae7b42 833 babeltrace_1.5.11.orig.tar.bz2.asc"
   ],
   "Checksums-Sha256": [
-    "06182eadbc4f463dc4c3abd34f8a773d1bcc6b14f9de7760d15aa00ed305f853 12628 babeltrace_1.5.11-4.debian.tar.xz c4d2209e9f7fd6b5b5885f75c23814e424e7a8f03201e08e78a4d333ddfa6e19 2549 babeltrace_1.5.11-4.dsc 67b43aaaef5c951fa7af1a557cf7201a11fe89876b7c22ba0a03cbc316db5a9c 998592 babeltrace_1.5.11.orig.tar.bz2 b11744dbee03728bdedd619b442138afb29d25cfebbd2849e9876f4a10530480 833 babeltrace_1.5.11.orig.tar.bz2.asc"
+    "e28ffc5e870dc0c8f8d9fbe47a48c2b838977dab19d279791a34471b0a497f50 12288 babeltrace_1.5.11-1.debian.tar.xz 377424442c518e630b8ea27e7a08a7793ee8e0e2ed59f48d7516a67a7ac175bd 2679 babeltrace_1.5.11-1.dsc 67b43aaaef5c951fa7af1a557cf7201a11fe89876b7c22ba0a03cbc316db5a9c 998592 babeltrace_1.5.11.orig.tar.bz2 b11744dbee03728bdedd619b442138afb29d25cfebbd2849e9876f4a10530480 833 babeltrace_1.5.11.orig.tar.bz2.asc"
   ],
   "Checksums-Sha512": [
-    "af172dc8dfbc420a1fe4b7e0ad33a59322b898305b58084035c38afbbf5f57a5b2df4d0082c7a5571d7d61aa05a3560a5a5b65bf4fa475436cf75b6f2aa0dd49 12628 babeltrace_1.5.11-4.debian.tar.xz e056de37b73393f2443f77dbc849fc163c1e9f9f8f302e1b0ebd3ca5dfb0b4ef4e795f657560f792c763fe6d062ed8636dc4403a2d5d6194cb634397e02f44a6 2549 babeltrace_1.5.11-4.dsc a3158bb9d0306c1cab6ac3d16ba542605ad60b13ecb10fe740a3b95168f0ead87d31483a06d49a15341f7ef6def16765d9a6045f40a60cd8b94070d979c0c3d1 998592 babeltrace_1.5.11.orig.tar.bz2 63b662d53b57f70793e6729c74d9a78a09789f3846589835de87baae423b793b0d7ed7c0e66b118d61e52c5775710b0e7b07b337eb69f6fcc1b382abaf047924 833 babeltrace_1.5.11.orig.tar.bz2.asc"
+    "11e1496dfc57496add5a9f5ca99bed6fd54dccc9828239837d6f8c9313967841e7a917c54ae1d890c412dd778e557b16062444dd52c73272ba2cd9acd6046f70 12288 babeltrace_1.5.11-1.debian.tar.xz 9a8465fd9d69315143817bf68dda1a961254022921ca285cf04459b0158dd4b8a678a0f435ac09685d6ded8627e10ea27509bbd9c0ad34f9e8f1b7f9f47d3ab7 2679 babeltrace_1.5.11-1.dsc a3158bb9d0306c1cab6ac3d16ba542605ad60b13ecb10fe740a3b95168f0ead87d31483a06d49a15341f7ef6def16765d9a6045f40a60cd8b94070d979c0c3d1 998592 babeltrace_1.5.11.orig.tar.bz2 63b662d53b57f70793e6729c74d9a78a09789f3846589835de87baae423b793b0d7ed7c0e66b118d61e52c5775710b0e7b07b337eb69f6fcc1b382abaf047924 833 babeltrace_1.5.11.orig.tar.bz2.asc"
   ],
   "Directory": [
     "pool/main/b/babeltrace"
   ],
   "Files": [
-    "7d748747c3449c5a512d3b8f18916cc0 12628 babeltrace_1.5.11-4.debian.tar.xz 19613ea3d5bf29ac820cfac268a3f6e7 2549 babeltrace_1.5.11-4.dsc ca6b23633a78d3dbcc2aec2cbdc99838 998592 babeltrace_1.5.11.orig.tar.bz2 ee0da80c8ee216d8197730adbe82e87a 833 babeltrace_1.5.11.orig.tar.bz2.asc"
+    "be10c0632a80874e0a280e4d3fabe38f 12288 babeltrace_1.5.11-1.debian.tar.xz 7646454ea064c5cba19c28e7487b15f2 2679 babeltrace_1.5.11-1.dsc ca6b23633a78d3dbcc2aec2cbdc99838 998592 babeltrace_1.5.11.orig.tar.bz2 ee0da80c8ee216d8197730adbe82e87a 833 babeltrace_1.5.11.orig.tar.bz2.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "babeltrace"
   ],
   "Package-List": [
-    "babeltrace deb utils optional arch=any libbabeltrace-dev deb libdevel optional arch=any libbabeltrace1 deb libs optional arch=any python3-babeltrace deb python optional arch=any"
+    "babeltrace deb utils optional arch=any libbabeltrace-ctf-dev deb oldlibs optional arch=all libbabeltrace-ctf1 deb oldlibs optional arch=all libbabeltrace-dev deb libdevel optional arch=any libbabeltrace1 deb libs optional arch=any python3-babeltrace deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.5.0"
   ],
   "Uploaders": [
     "Michael Jeanson \u003cmjeanson@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/babeltrace.git"
   ],
   "Version": [
-    "1.5.11-4"
+    "1.5.11-1"
   ]
 }

@@ -6,43 +6,46 @@
     "gnome-icon-theme"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13)"
+    "debhelper-compat (= 13), gnome-pkg-tools (\u003e= 0.10)"
   ],
   "Build-Depends-Indep": [
-    "gtk-update-icon-cache, icon-naming-utils (\u003e= 0.8.7), intltool (\u003e= 0.40.0), librsvg2-bin, pkgconf"
+    "gettext, gtk-update-icon-cache, icon-naming-utils (\u003e= 0.8.7), intltool (\u003e= 0.40.0), librsvg2-bin, pkg-config"
   ],
   "Checksums-Sha1": [
-    "74b2578098a89ade646bf472b022e4e3a572dd51 16540 gnome-icon-theme_3.12.0-6.debian.tar.xz 14e224c0289a98097a528e9057c4d437c8e8c49b 2093 gnome-icon-theme_3.12.0-6.dsc cc0f0dc55db3c4ca7f2f34564402f712807f1342 17742624 gnome-icon-theme_3.12.0.orig.tar.xz"
+    "9595f4fdb7d37e6a2318696e19abd9083a996d81 16700 gnome-icon-theme_3.12.0-5.debian.tar.xz 7c4162d685dfe2ea4850a10407886a39f90dc024 2250 gnome-icon-theme_3.12.0-5.dsc cc0f0dc55db3c4ca7f2f34564402f712807f1342 17742624 gnome-icon-theme_3.12.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "817a0a3b681ba1defa7ad9005b1cf5e5f982997f2389ee1932f556187d202bf3 16540 gnome-icon-theme_3.12.0-6.debian.tar.xz e785db64c4d96ca2a643923e4273874151cd2f99b8bca53d3377e45ed7ef61e1 2093 gnome-icon-theme_3.12.0-6.dsc 359e720b9202d3aba8d477752c4cd11eced368182281d51ffd64c8572b4e503a 17742624 gnome-icon-theme_3.12.0.orig.tar.xz"
+    "ad21fa60b531cc157c569cb234ca2933f7989f441cbbb505c58d12c842f37c3c 16700 gnome-icon-theme_3.12.0-5.debian.tar.xz 39f5d33986f3de5b0a3896ac9991b0bb25bd95c16267506e2bbc68001ce4ec53 2250 gnome-icon-theme_3.12.0-5.dsc 359e720b9202d3aba8d477752c4cd11eced368182281d51ffd64c8572b4e503a 17742624 gnome-icon-theme_3.12.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "974dab1426652dc0dec327e1f513cbb1ba7be43035fa80adea88b9f0fe2d0cde63b1a43c57ffbd08fc79c28a9939d6bd3ae28dff4e16b7dece4153cf1e938217 16540 gnome-icon-theme_3.12.0-6.debian.tar.xz d48d6fc67073d8c6f4b8206e489cd136bec3f39025e61df519055761000b81c0d1894671d137191ae5c3346e5da5248c895fa69f435ae168ccda9a03a75701c1 2093 gnome-icon-theme_3.12.0-6.dsc 9dab14a5d30b1fa6655fbd44f15357158dc49ef01d27be678eaed35cb4a9f21546dee2a5d7fb50dac5e3595e161b0be7e7bc79daf47b772f0bb37109b0078bea 17742624 gnome-icon-theme_3.12.0.orig.tar.xz"
+    "ee1a99ed992e6f55d72569c06ce1f38f44319749170b5ae7d9fcc4b4ee82aeb78f93325959b9345167b13f7e8708013b88a0e859a30a732a23de866fd64ae7e1 16700 gnome-icon-theme_3.12.0-5.debian.tar.xz 5d1493551b68863b6228b1530af5d8bf04b6a3afdbd691cbd78dae8263dd735af276bc47f429e9128afd7c1fa07c9e15f31933cc47bfa0df495845459cc2e9b2 2250 gnome-icon-theme_3.12.0-5.dsc 9dab14a5d30b1fa6655fbd44f15357158dc49ef01d27be678eaed35cb4a9f21546dee2a5d7fb50dac5e3595e161b0be7e7bc79daf47b772f0bb37109b0078bea 17742624 gnome-icon-theme_3.12.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gnome-icon-theme"
   ],
   "Files": [
-    "4ff68ba9d6e0497820618b599966d08d 16540 gnome-icon-theme_3.12.0-6.debian.tar.xz f45d9f6417247661bfdcbdb46b9df5f6 2093 gnome-icon-theme_3.12.0-6.dsc f14bed7f804e843189ffa7021141addd 17742624 gnome-icon-theme_3.12.0.orig.tar.xz"
+    "6f62ba35a67d5d354bcc0e93ded3547b 16700 gnome-icon-theme_3.12.0-5.debian.tar.xz 8f1a98f667379f35029a98f527a53482 2250 gnome-icon-theme_3.12.0-5.dsc f14bed7f804e843189ffa7021141addd 17742624 gnome-icon-theme_3.12.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
+  "Homepage": [
+    "https://download.gnome.org/sources/gnome-icon-theme"
+  ],
   "Maintainer": [
-    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+    "Leonardo Rodrigues Pereira \u003cleontecnicalonline@gmail.com\u003e"
   ],
   "Package": [
     "gnome-icon-theme"
   ],
   "Package-List": [
-    "gnome-icon-theme deb oldlibs optional arch=all"
+    "gnome-icon-theme deb gnome optional arch=all"
   ],
   "Standards-Version": [
     "4.6.0"
   ],
   "Uploaders": [
-    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
+    "Laurent Bigonville \u003cbigon@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e, Sjoerd Simons \u003csjoerd@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/gnome-icon-theme"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/gnome-team/gnome-icon-theme.git"
   ],
   "Version": [
-    "3.12.0-6"
+    "3.12.0-5"
   ]
 }

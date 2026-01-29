@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "any all"
+    "any"
   ],
   "Binary": [
-    "texinfo, texinfo-lib, info, install-info"
+    "texinfo, info, install-info"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libncurses-dev, gettext, libtext-unidecode-perl, help2man, libperl-dev, desktop-file-utils"
+    "debhelper-compat (= 12), libncurses5-dev | libncurses-dev, gettext, libtext-unidecode-perl, help2man, libperl-dev, desktop-file-utils"
   ],
   "Checksums-Sha1": [
-    "18ed95240f8c087179b80392f1cf7546772f3e54 29116 texinfo_7.1.1-1.debian.tar.xz 0d15ef38166e5dd41525fe10edc5b6bc37c63558 2710 texinfo_7.1.1-1.dsc 4f529fc606bdaa0a0f2cad4eb5d6adf8cad25548 5572864 texinfo_7.1.1.orig.tar.xz 94c2895c92baee9920e43f715dc03a428d5eb101 265 texinfo_7.1.1.orig.tar.xz.asc"
+    "7d426b93b2aca3c0dba0c5127ac26f63da666b00 30780 texinfo_6.8-6.debian.tar.xz 9f4d4f2ac8e5b65ca3bf9d9cd75fecea76376925 2399 texinfo_6.8-6.dsc ce3776715e655400485381b8ae94e34c5632e729 4961528 texinfo_6.8.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "68c85ff312450f8003f8818a5eadd9d3bbb897835d9832f25e44589c30bb7652 29116 texinfo_7.1.1-1.debian.tar.xz b69d39cfab44ce05466980d24318aeeb80b2ce64609631d94fad15feb4cd72c3 2710 texinfo_7.1.1-1.dsc 31ae37e46283529432b61bee1ce01ed0090d599e606fc6a29dca1f77c76a6c82 5572864 texinfo_7.1.1.orig.tar.xz cd2cced6d130fe7cec7583c8691848b8448d930936c8f65cb27f9473ca056a81 265 texinfo_7.1.1.orig.tar.xz.asc"
+    "1399525b5c61cdd10a525370975f11d8dc61e9ea54616beed212fe8e98846894 30780 texinfo_6.8-6.debian.tar.xz 822b333309826598726c77bbfd8f6fa2a38116b86cd312b31c054e3b15578993 2399 texinfo_6.8-6.dsc 8eb753ed28bca21f8f56c1a180362aed789229bd62fff58bf8368e9beb59fec4 4961528 texinfo_6.8.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "867c0faf8a7c7eea9b2250373eca6ca45fde77c9d901e15c4720c2b922f059a32380934ced6bafdfc231338c3d33c1a3f127a6f43a9a2d32609fcce9488e15f0 29116 texinfo_7.1.1-1.debian.tar.xz 5e29ca22b91fdda9de88bb29c56c827197d472df51dea511d84e1732238e9a39f3b373a04924b55d10680a4aab4d9d72ad9dc35c71cd215b20ef499a8b7beedf 2710 texinfo_7.1.1-1.dsc 05d605fba810f2939cab16ed5ddb341e22d397370648e6e0271c807fa573267e933c75ed7ae682c3c9cfecb568311a8df7abeb8c0556a94ef7169737d5b9c52a 5572864 texinfo_7.1.1.orig.tar.xz f2ab2c7bf8e9eb4fb98208c5e2bca916d4ae153e0c3fa57f0198eda156fe68ed382785761e7842decb39ffc0796b3711a9ea06face218e41c6905d45169263f7 265 texinfo_7.1.1.orig.tar.xz.asc"
+    "8f4803bd14de5c04f75390cb7dbbda6dd72680f039e906ab9c50c5e35b457fc4b696a5fbdea5d0a36ea12fb2e4610a982b51264d6a2fcf561619a66c55107844 30780 texinfo_6.8-6.debian.tar.xz 8a2482b054f0afd61ae5ad7f4a9800e8a0baa89d83183a196a2a077a23a63ae0332a46dd1143ff50f424198c44fc717cfaaf1f3b93996029a9c80fd90664cb97 2399 texinfo_6.8-6.dsc 0ff9290b14e4d83e32b889cfa24e6d065f98b2a764daf6b92c6c895fddbb35258398da6257c113220d5a4d886f7b54b09c4b117ca5eacfee6797f9bffde0f909 4961528 texinfo_6.8.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/t/texinfo"
   ],
   "Files": [
-    "427cbc6fde2e2380df6481c91af55436 29116 texinfo_7.1.1-1.debian.tar.xz d890b87e984fcef73154195626bb169d 2710 texinfo_7.1.1-1.dsc e5fc595794a7980f98ce446a5f8aa273 5572864 texinfo_7.1.1.orig.tar.xz ea57fe48b411414b0e4a4c2a06cbc5ea 265 texinfo_7.1.1.orig.tar.xz.asc"
+    "c4ce3a9bf25f511e458657a0641aa6bb 30780 texinfo_6.8-6.debian.tar.xz 83d25aaa53ff82170557cf9e64e7baec 2399 texinfo_6.8-6.dsc a91b404e30561a5df803e6eb3a53be71 4961528 texinfo_6.8.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,19 +36,19 @@
     "texinfo"
   ],
   "Package-List": [
-    "info deb doc important arch=any install-info deb doc important arch=any texinfo deb text optional arch=all texinfo-lib deb text optional arch=any"
+    "info deb doc important arch=any install-info deb doc important arch=any texinfo deb text optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential, gettext, help2man, libncurses-dev, libperl-dev, libtext-unidecode-perl"
+    "build-essential, gettext, libncurses-dev, libperl-dev, libtext-unidecode-perl"
   ],
   "Uploaders": [
-    "Norbert Preining \u003cnorbert@preining.info\u003e, Frank Küster \u003cfrank@debian.org\u003e, Hilmar Preuße \u003chille42@debian.org\u003e"
+    "Norbert Preining \u003cnorbert@preining.info\u003e, Frank Küster \u003cfrank@debian.org\u003e, Hilmar Preusse \u003chille42@web.de\u003e"
   ],
   "Vcs-Browser": [
     "https://github.com/debian-tex/texinfo"
@@ -57,6 +57,6 @@
     "https://github.com/debian-tex/texinfo.git"
   ],
   "Version": [
-    "7.1.1-1"
+    "6.8-6"
   ]
 }

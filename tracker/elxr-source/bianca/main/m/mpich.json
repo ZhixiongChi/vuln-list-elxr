@@ -5,29 +5,26 @@
   "Binary": [
     "libmpich-dev, libmpich12, mpich, mpich-doc"
   ],
-  "Build-Conflicts": [
-    "libamdhip64-dev"
-  ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gfortran, dh-sequence-fortran-mod, hwloc-nox, libhwloc-dev, librdmacm-dev [!hurd-any], libslurm-dev (\u003e= 23.11) [!hurd-any], libibverbs-dev (\u003e= 1.1.7) [!hurd-any], libfabric-dev [!hurd-any !powerpc !sh4], libnuma-dev [!hurd-any], libucx-dev [amd64 arm64 ppc64el riscv64 loong64], libpmix-dev [amd64 arm64 mips64el ppc64el riscv64 s390x loong64 alpha ppc64 sparc64], libxt-dev, procps, python3, quilt, txt2man, valgrind-if-available, x11proto-core-dev"
+    "debhelper-compat (= 13), dh-sequence-fortran-mod, gfortran | fortran-compiler, chrpath, hwloc-nox, libhwloc-dev, librdmacm-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libslurm-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libibverbs-dev (\u003e= 1.1.7) [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libfabric-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386 !powerpc !sh4 !x32], libnuma-dev [!kfreebsd-i386 !kfreebsd-amd64 !hurd-i386], libucx-dev [amd64 ppc64el arm64], libpmix-dev, libxt-dev, procps, python3, quilt, txt2man, valgrind [i386 amd64 powerpc armhf], x11proto-core-dev"
   ],
   "Build-Depends-Indep": [
     "texlive-latex-extra, texlive-latex-recommended, doxygen-latex"
   ],
   "Checksums-Sha1": [
-    "8662bf22d13a272220beb3c2bd009ff4ba4252eb 344684 mpich_4.3.0+really4.2.1-1.debian.tar.xz cc3a25ace08020dd78a5e70cc471f7801d8014da 2894 mpich_4.3.0+really4.2.1-1.dsc 2d6503a4279f610f14900c4616687025a0d6b044 24421244 mpich_4.3.0+really4.2.1.orig.tar.xz"
+    "51a740c8a639c01f08f690d21a322456470446e8 339140 mpich_4.0.2-3.debian.tar.xz 2f0c0446a5f197f4c3f63b953f3aa13ca3524207 2870 mpich_4.0.2-3.dsc f40434976de7a30adecf602706d6537aec6bb121 21800484 mpich_4.0.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "91389a78515981a1212aa9692b7c188cb42712d0a9e8f3ce72dc47c5e686ceea 344684 mpich_4.3.0+really4.2.1-1.debian.tar.xz 4ee05e305abaf9d3c7109c4f5797067ce1dbd551832bd1cf96bc9e01a1f3feaf 2894 mpich_4.3.0+really4.2.1-1.dsc 336c6609d6f9f5b6a668d9d8654f26eb381552de08ff853f41e6af27f5a99b9f 24421244 mpich_4.3.0+really4.2.1.orig.tar.xz"
+    "eaede4567363b3891a28f144d3a9e462caf75d753b2e8086f0d3ea005b429739 339140 mpich_4.0.2-3.debian.tar.xz 67036921ec09db4da04568546691fe05d3118ac7e4a37020bc7b74a43de36cd0 2870 mpich_4.0.2-3.dsc b27039f964afeb6b8a3e009c56b441cbe368c26d6d6476ad3bb7190996875860 21800484 mpich_4.0.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "4bf80657a02cffa7e5adbedd69c97e62cf41668318d87a8f1f764ea720bc08e5d0272e0b97de2441dd3f852213637bba323056d95546ebc598651d089a48d10b 344684 mpich_4.3.0+really4.2.1-1.debian.tar.xz 30ce2826107c759d748e52e6b0409595f37257a8288a7e8f8fa353d881fd03ccd1e358ae66ac37913a876d64142f1eeb18414661ae5a0806e7397cf5b397e873 2894 mpich_4.3.0+really4.2.1-1.dsc ad9a514c924b145c6850e23f00fbfbb2f7f5e9831e3af6bfb86937b9848c23596e4950c202e341071dce09ca005aa2b9a2c437e042fdb40e0a9d68dad4293e5f 24421244 mpich_4.3.0+really4.2.1.orig.tar.xz"
+    "3d47166cfde3ad11db35669299a33fcecc400c1a834c8312dd95892d903cb6befd2adeeda325a84498ede3fa3ebc1e9e804fe566d24ba86dd68d3188e55e13a8 339140 mpich_4.0.2-3.debian.tar.xz 40c2dda1618853f2467a5706b3d560e4dff8382b500fb3e95e3a26c8488352a48dd45890416b954de73ee92dd9f0163338f44c820d7ce34f23984e263b0e34cc 2870 mpich_4.0.2-3.dsc a3436984e05b745791a348be5b4716dbe35e84224c76ca243f9b69cda4526478f7682f3ff9342276873127f92cfc251701ac9d8469427f954b7309799d3c73fd 21800484 mpich_4.0.2.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/m/mpich"
   ],
   "Files": [
-    "5a1847422682c6d87d85660b46e544dc 344684 mpich_4.3.0+really4.2.1-1.debian.tar.xz bb377f270d13b6b110fb5d19b79e385f 2894 mpich_4.3.0+really4.2.1-1.dsc 0284b997c630286c152134be6a94d46b 24421244 mpich_4.3.0+really4.2.1.orig.tar.xz"
+    "1fca42ebd6d98ceb0a7ef41979a3e4bd 339140 mpich_4.0.2-3.debian.tar.xz 68384a3a32d0ae31d4092b1fdfc215d9 2870 mpich_4.0.2-3.dsc 8854168c129fbe94a742d74d042a663e 21800484 mpich_4.0.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,13 +42,13 @@
     "libmpich-dev deb libdevel optional arch=any libmpich12 deb libs optional arch=any mpich deb devel optional arch=any mpich-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "g++, gcc, gfortran, pkgconf"
+    "gcc, gfortran"
   ],
   "Uploaders": [
     "Torquil Macdonald Sørensen \u003ctorquil@gmail.com\u003e, \"Adam C. Powell, IV\" \u003chazelsct@debian.org\u003e, Alastair McKinstry \u003cmckinstry@debian.org\u003e"
@@ -63,6 +60,6 @@
     "https://salsa.debian.org/science-team/mpich.git -b debian/latest"
   ],
   "Version": [
-    "4.3.0+really4.2.1-1"
+    "4.0.2-3"
   ]
 }

@@ -3,34 +3,37 @@
     "all"
   ],
   "Binary": [
-    "fonts-freefont-otf, fonts-freefont-ttf, fonts-freefont-udeb"
+    "fonts-freefont-ttf, fonts-freefont-otf, fonts-freefont-udeb"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13)"
+    "debhelper (\u003e= 11~)"
   ],
   "Build-Depends-Indep": [
-    "fontforge-nox | fontforge, python3-pkg-resources"
+    "fontforge-nox | fontforge"
   ],
   "Checksums-Sha1": [
-    "1fd68047f4282ed193484d9a6fad218d05d13f30 11824 fonts-freefont_20211204+svn4273-2.debian.tar.xz 02e637794e4d6c21076be21960152f1cc400b551 2357 fonts-freefont_20211204+svn4273-2.dsc 8c3285a7b992c2d8f4fe50ef151ecfeaca2abf1d 8745686 fonts-freefont_20211204+svn4273.orig.tar.gz"
+    "f15adf92df7e2f0bed31b5623811ff14a73cd955 18012 fonts-freefont_20120503-10.debian.tar.xz 2fd6c5ea9ffcce1b965f36861ac7bd94cc9a6e63 2028 fonts-freefont_20120503-10.dsc ad0fdd136fd7dc5e9dd483772d65d7bd6d429871 4453956 fonts-freefont_20120503.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "8a999b1191aebe4c2c2a10125a18d46cfc654ced74db7e0c84120e490cbbb245 11824 fonts-freefont_20211204+svn4273-2.debian.tar.xz 085525ac838e0fee10ffa350bf7f78cb6ed98b1ffb362fe36c9e677d9b003d5b 2357 fonts-freefont_20211204+svn4273-2.dsc 41d21ea08cdb64f208dd452c8a6251bfd84bc585baa35eb6378d0ae7a4d7a39e 8745686 fonts-freefont_20211204+svn4273.orig.tar.gz"
+    "1798c185de175d881a5d5bc7f69c0e0abe050e1294d6f12dac6f08d0dd2cc557 18012 fonts-freefont_20120503-10.debian.tar.xz f51ad79e7894c42bbcaad12d8a6184fa38fc28eeff3663dd92426c7c374aedd9 2028 fonts-freefont_20120503-10.dsc b3850d562f2e227720b4cd67f44490bdcb7abd6482714945b9b65cdcfe8ce0d8 4453956 fonts-freefont_20120503.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "7f33c8145c99eb4f117f461df35a32eae737d84875041d49c66ca5fdae4840be70582559447f7af739702c7a24739bacca4fef5101eefd89aa9f04ceade71a98 11824 fonts-freefont_20211204+svn4273-2.debian.tar.xz 5cb1446fb94d193d5d3359a2e5938bee8d57fecceac19d2a6263fd56fad870bb2d7d29a33ba5b9d17aa174184c066142852ca126f02a256fbb83374df9903890 2357 fonts-freefont_20211204+svn4273-2.dsc 7103011a31b4a15619578c7d39a2ea16ff383891ed7b4424ae742eb22136e9f00f425d6627654f5cdc07aa184c690a76693e12a0f7d647a6733123e9bb1a337c 8745686 fonts-freefont_20211204+svn4273.orig.tar.gz"
+    "8d8ac12e212ac5a64bcc32a3bb2bfe61fddf1be1525ae6bf0ea55b6d249f4f4a59372deb49b764bac4d2b512d21d90d6a7538c58cf6d1fc2f8b49f90f7fa882e 18012 fonts-freefont_20120503-10.debian.tar.xz 57777819a675d97b5635ae98d69b76b7a836d2ad190d8db50dd035165aaf94b8c2af2f17e837baab42fa6e11b41e3da4035ebf71634950bb2d6fcc7175277fb1 2028 fonts-freefont_20120503-10.dsc c8a76675d81c2b77b6bb04df0f6f337979859c5a78fad4e11faa7f08069cdad1e562ad42a33b20ad4704dae805266738890836c55fd4f5e25d7ed9eb78b7c783 4453956 fonts-freefont_20120503.orig.tar.xz"
+  ],
+  "Dgit": [
+    "5e5235a53b742ccb720748da10cb6497da5b3ac5 debian archive/debian/20120503-10 https://git.dgit.debian.org/fonts-freefont"
   ],
   "Directory": [
     "pool/main/f/fonts-freefont"
   ],
   "Files": [
-    "e042a22e4bb1ab4cdcd98dd31e67a683 11824 fonts-freefont_20211204+svn4273-2.debian.tar.xz b382a236449e64770fc2564ed7246473 2357 fonts-freefont_20211204+svn4273-2.dsc 50744dbaa9b1d9fe9f5308a3757051ed 8745686 fonts-freefont_20211204+svn4273.orig.tar.gz"
+    "5aac64917e3f74ba6b3c8459eb57021e 18012 fonts-freefont_20120503-10.debian.tar.xz 9c7eaba9ed9a762c15d15fc4d3bdb197 2028 fonts-freefont_20120503-10.dsc 89986f8492f9e5f15c0d6df45757b8f0 4453956 fonts-freefont_20120503.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://savannah.gnu.org/projects/freefont/"
+    "http://savannah.gnu.org/projects/freefont/"
   ],
   "Maintainer": [
     "Debian Fonts Task Force \u003cpkg-fonts-devel@lists.alioth.debian.org\u003e"
@@ -42,10 +45,10 @@
     "fonts-freefont-otf deb fonts optional arch=all fonts-freefont-ttf deb fonts optional arch=all fonts-freefont-udeb udeb debian-installer optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.1.4"
   ],
   "Uploaders": [
-    "Davide Viti \u003czinosat@tiscali.it\u003e, Fabian Greffrath \u003cfabian@debian.org\u003e,"
+    "Davide Viti \u003czinosat@tiscali.it\u003e, Fabian Greffrath \u003cfabian@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/fonts-team/fonts-freefont"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/fonts-team/fonts-freefont.git"
   ],
   "Version": [
-    "20211204+svn4273-2"
+    "20120503-10"
   ]
 }

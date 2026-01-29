@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "dav1d, libdav1d7, libdav1d-dev"
+    "dav1d, libdav1d6, libdav1d-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), meson, ninja-build, nasm [any-amd64 any-i386]"
+    "debhelper-compat (= 13), meson (\u003e= 0.47), ninja-build, nasm (\u003e= 2.14) [any-amd64 any-i386]"
   ],
   "Checksums-Sha1": [
-    "64a29a181437ed96f672ba0a62acb65ee393a69e 8468 dav1d_1.5.1-1.debian.tar.xz 9c7f53325c5a7db7fffa35d1997dbf6cecbb7915 2290 dav1d_1.5.1-1.dsc eaefdc760c0eb26f7b6546eeb9e45aa9cf0dbc55 1020760 dav1d_1.5.1.orig.tar.xz e719ba319edcb372aca86a714f62b09655ab8873 195 dav1d_1.5.1.orig.tar.xz.asc"
+    "b28de95bfbbae96f5b3ff8d989bb9a8940a32266 8908 dav1d_1.0.0-2+deb12u1.debian.tar.xz 39fe31b4e0523e77a89c88a89518f44a631fad9b 2339 dav1d_1.0.0-2+deb12u1.dsc b1217017a84dea9164a756eb252cd04c9593c6f1 810116 dav1d_1.0.0.orig.tar.xz f66f248fd53e77a44909a7285e072f96e8a61f51 195 dav1d_1.0.0.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "41f758fda3a2d9860691cae422365bae656060f42c9a5375f7ac4124005f4e7e 8468 dav1d_1.5.1-1.debian.tar.xz a418ee8fdc8003feee1ba19391eac250e3ef03106c995c8e25b8a42b56de18cf 2290 dav1d_1.5.1-1.dsc 401813f1f89fa8fd4295805aa5284d9aed9bc7fc1fdbe554af4292f64cbabe21 1020760 dav1d_1.5.1.orig.tar.xz 4cad1d03a19a717562c2c80c1df195b629e43898cd1af19296958847f6212554 195 dav1d_1.5.1.orig.tar.xz.asc"
+    "ae53e2bda2a18275cc66570194fced9b9681df2b3b8e041586a26a59d69a727e 8908 dav1d_1.0.0-2+deb12u1.debian.tar.xz 590dba7fc0ce89cac8bdfbd2cd54594d65dff8b0b4becad1f558e033dd506cb4 2339 dav1d_1.0.0-2+deb12u1.dsc 51737db7e4897e599684f873a4725176dd3c779e639411d7c4fce134bb5ebb82 810116 dav1d_1.0.0.orig.tar.xz 208004c32681803aaaf41908d0ec5efe4ee0c20b4ea6258a7ddbf2291925c279 195 dav1d_1.0.0.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "1a1762cb27f8eba157de89bf94983b0e0be6f9c2a43c59df9b7576785728ee5477c93a87bb55cf969255463cbdc14729c7505df2cd4824fe82311f961b3345b3 8468 dav1d_1.5.1-1.debian.tar.xz 6b90870ac1eb2a399fe2c34a6f89c30d81be3e75f818c51e2c7a5a253c93f658ff7a2c48c1050c6d266100f079af145b08491fb77c8adf2e954767877235fe76 2290 dav1d_1.5.1-1.dsc 3582dff4f797ebe2c137b28549a7214f11869ae308e3c78440849a3a501b12c326d3fa604126ccff4b648f37ab260c003c63385c70ba91e11f3442f20ad455db 1020760 dav1d_1.5.1.orig.tar.xz 59bbec346c54a0742342038186a604ce4e1a98276256b1bba78c760c312377cb4dd28cab99c23c091881e97aa117c62405fb1972de96f34b3eb0d54457bb6210 195 dav1d_1.5.1.orig.tar.xz.asc"
+    "ad76e84e555226147058ac84ad22df8f8aca5c09732de9764a045c1635a4e74f1cfc8d991762ad8b8e5aa1eae824b112d9becf83b67bb89772e6ffee7c9835f9 8908 dav1d_1.0.0-2+deb12u1.debian.tar.xz 737af582896d7e527db75f6c57ffee7aa65314e65584067103dad6cfd0e81121e1861c9994cd08fe6427b8ba5f4131c7f8fcf3ea3ff54735e6c2a1576926f3ee 2339 dav1d_1.0.0-2+deb12u1.dsc a3a7e162e45181449cd42af3a4d36669a850a4ee9ab17641dcd63d84406444566e8ebc7caa55b0620ab581039f36d19a90218a40f52ebbe525b37ed9493fb3f3 810116 dav1d_1.0.0.orig.tar.xz 55976d877714ec96b75d0de7b8a2d1c1427193946d7a744e1fa1d6f0a5d47fb87dc176e47f5c988a1855cd84eddfbec9eddb620dfa139fd563964e472320e3de 195 dav1d_1.0.0.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/d/dav1d"
   ],
   "Files": [
-    "4bc63abef12695e0a0cf2283d1ca1a0e 8468 dav1d_1.5.1-1.debian.tar.xz 9d16a37655137d15c1012db0cbbf72ba 2290 dav1d_1.5.1-1.dsc 0ab0617fd17f0aa380a71bdc4a485315 1020760 dav1d_1.5.1.orig.tar.xz fc7a6d21f00c39eddb1e2e73d802ba53 195 dav1d_1.5.1.orig.tar.xz.asc"
+    "1e9804f892484ade4d8c1acc7c9210c9 8908 dav1d_1.0.0-2+deb12u1.debian.tar.xz 3664b0b5ec40a79a1f4e77e3b4186e03 2339 dav1d_1.0.0-2+deb12u1.dsc 424548396e45406fe2f395e248b38121 810116 dav1d_1.0.0.orig.tar.xz 39d4de1a3acc59d41a40f1e43b5230f1 195 dav1d_1.0.0.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "dav1d"
   ],
   "Package-List": [
-    "dav1d deb video optional arch=any libdav1d-dev deb libdevel optional arch=any libdav1d7 deb libs optional arch=any"
+    "dav1d deb video optional arch=any libdav1d-dev deb libdevel optional arch=any libdav1d6 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.0"
   ],
   "Uploaders": [
     "Dylan Aïssi \u003cdaissi@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/multimedia-team/dav1d.git"
   ],
   "Version": [
-    "1.5.1-1"
+    "1.0.0-2+deb12u1"
   ]
 }

@@ -6,22 +6,22 @@
     "proj-data, libproj25, libproj-dev, proj-bin"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), dh-sequence-pkgkde-symbolshelper, libcurl4-gnutls-dev | libcurl-ssl-dev, libgtest-dev, libsqlite3-dev, libtiff-dev, pkg-kde-tools, sharutils, sqlite3, xz-utils"
+    "cmake, debhelper-compat (= 12), libcurl4-gnutls-dev | libcurl-ssl-dev, libgtest-dev, libsqlite3-dev, libtiff-dev, pkg-kde-tools, sharutils, sqlite3, xz-utils"
   ],
   "Checksums-Sha1": [
-    "797cd0a98ab36fade41d2d48df704152ec9f37e6 10214028 proj_9.6.0-1.debian.tar.xz 43d58e9c238f439891209c63a6f0a4550523860e 2254 proj_9.6.0-1.dsc 487b8b528c1b95a8be23b433f057b9cc1f890f9d 5830688 proj_9.6.0.orig.tar.gz"
+    "6a10b25cce30e592d7a1d5da4a00742245e196c8 10210984 proj_9.1.1-1.debian.tar.xz b20d34219e7bd23dc34f6953f21a5824977ba693 2220 proj_9.1.1-1.dsc b458242dff677f00809ff0a17dc24e5a41d8240c 5311995 proj_9.1.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "9ef9ca2a634696c68d52863666c7f044e385a7be4ce1e5676be5b2fee82fb50f 10214028 proj_9.6.0-1.debian.tar.xz 2b51ed54a9465c0fef70a7d8cb1cf57bcf0e82f461443d3a3b6b8fd9dd787cbf 2254 proj_9.6.0-1.dsc d8cae521c311c39513193657e75767f7cfbf2f91bd202fcd4a200028d3b57e14 5830688 proj_9.6.0.orig.tar.gz"
+    "bd47d5a1da1c5d7907dfcd8ff1a51929645249320b0a22add57843fa21d1bd29 10210984 proj_9.1.1-1.debian.tar.xz f23c3adc6ff6d42fa031be921f1a44e681071c7018909f8d45393974e8cde541 2220 proj_9.1.1-1.dsc 003cd4010e52bb5eb8f7de1c143753aa830c8902b6ed01209f294846e40e6d39 5311995 proj_9.1.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "1595fecca7a198b629cb94d5b606f7af25b7e0b9823dadd99b0401ea71a81f96eca99bd027109dcac068f76ce603d21caf2f82ab86fec90c8f40d76a2c3b64e4 10214028 proj_9.6.0-1.debian.tar.xz d633b8468514e222f7d3409701ff5ada5ccf934b018fb69c60e20a797f0dbe65777b314b1c58778aa5431b4847da54dbf4446889c5b8ea6855da6039e8c3abc3 2254 proj_9.6.0-1.dsc c152fc0400f073fe6c980aca00905421f65e8b515adea173c56103279c1af232968781479010e1609ad826f087a5448f7a7b37de8a7a2c7ea671b04c63578988 5830688 proj_9.6.0.orig.tar.gz"
+    "bd538311e4450c45a6eb41257c1cca261ac30759f4b33bac51167c321dbc321106d861331b32442e9a47943f6bc7a7a0dfd0632e57f8efa3d3886bacdadbdc86 10210984 proj_9.1.1-1.debian.tar.xz 7b8a4a16f895fc741fde52b5dcb9c3e10429937377ad533638d89ba643b0ddb54ec0f6f6458607bdddc5f9bc60585c7a4ed984bbd1930172b7c87ca76f6e0153 2220 proj_9.1.1-1.dsc b9d19a999e063e465579eb86da3fd2aa32fd894f0d15ba178733bcbad92246b3b3ea1811a276cd556874e171a5ba7cfd678ce563c0b8626c6db9349a64c04726 5311995 proj_9.1.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/proj"
   ],
   "Files": [
-    "c8dbcbc36893cb7f188164ece730fa8c 10214028 proj_9.6.0-1.debian.tar.xz f8ad750c48c9e970921d48e6d8953dd3 2254 proj_9.6.0-1.dsc f6275f374409cb22efe25c5bc4e29459 5830688 proj_9.6.0.orig.tar.gz"
+    "7556540a3dd67558076193eb388cd87f 10210984 proj_9.1.1-1.debian.tar.xz 795f05ef3cd53f46634c9980912e4e19 2220 proj_9.1.1-1.dsc c8a64896d2b697b46e19d1462a5c2fe0 5311995 proj_9.1.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libproj-dev deb libdevel optional arch=any libproj25 deb libs optional arch=any proj-bin deb science optional arch=any proj-data deb libs optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Uploaders": [
     "Francesco Paolo Lovergine \u003cfrankie@debian.org\u003e, Bas Couwenberg \u003csebastic@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian-gis-team/proj.git"
   ],
   "Version": [
-    "9.6.0-1"
+    "9.1.1-1"
   ]
 }

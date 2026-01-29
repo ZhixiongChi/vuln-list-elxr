@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "chafa, libchafa0t64, libchafa-dev"
+    "chafa, libchafa0, libchafa-dev"
   ],
   "Build-Depends": [
-    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), docbook, gtk-doc-tools, libwebp-dev, libxml2-utils, libglib2.0-dev, libfreetype-dev, libavif-dev, libjpeg-dev, librsvg2-dev, libtiff-dev"
+    "debhelper-compat (= 13), docbook, gtk-doc-tools, libmagickwand-dev, libwebp-dev, libxml2-utils"
   ],
   "Checksums-Sha1": [
-    "92223d0c16c833e6b11955f732d8ee5741d25494 6816 chafa_1.14.5-1.debian.tar.xz f4806bc9aa5e35fe3b5c36e6d223fc97c32e0c4f 2111 chafa_1.14.5-1.dsc d6ed1f8f3efc7916f6a67a46431e0094e88c823f 1861975 chafa_1.14.5.orig.tar.gz"
+    "14344cbc0b1b6de80c2d8dc9210781c1a6b7087c 5752 chafa_1.12.4-1.debian.tar.xz 3edc4f9eee45180022b56f268e1e202fb78c57e8 2016 chafa_1.12.4-1.dsc 4d91e54f6c85e5e987bcd48e5142d3e7fca5f48c 1781287 chafa_1.12.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "27fcbb712b4736650d6487794148b0abceafa960f6fcf0e079dd705eb5d2758f 6816 chafa_1.14.5-1.debian.tar.xz ae3f64df6560896e7aea0687f62d125f2e6f31dc0c1dc0ed0f400cd86c62e6d0 2111 chafa_1.14.5-1.dsc 788cb29e6d9cd29578c2040b3a11f69f4c9408e04f6c93c994c071e2a85d5ba4 1861975 chafa_1.14.5.orig.tar.gz"
+    "06bceda5c4a451b36d42c5d59b8d45acf66e217309dc46e761d74086ec831600 5752 chafa_1.12.4-1.debian.tar.xz d68c4c6bb7acae76c12d5a539490488722c73c3eb05a15d8f8c10512a92cfedc 2016 chafa_1.12.4-1.dsc 6a76719a1d67b772dcf81cd6959cfebae74ea1c92a09759e11b52f30b9345d40 1781287 chafa_1.12.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "2d8e0f0a93d121263756d29d9ec82aa20eb14ae6a44e440157b653d7a28c6ca759b05f1271e5c85316ad0ca025ae26d7fa00999ec1711a659888172bdd0159ec 6816 chafa_1.14.5-1.debian.tar.xz 5ff8771b0f539ba8438d1f562566e32fb45a0af4a93801cc7aa3919cea2f8e984a9a91ed0cf00e9cfca7df1d9e9b55db2922d927f8287c14c34291b50289a512 2111 chafa_1.14.5-1.dsc 00ff6eaa42513ec7bc0acb94eed0b3e1b738fbda1aa4148d8e93dd12a526922fbc187ee3f3e9556b9b935a8bd61318c061b2e1b1862f5cd1cd8fd5d7d106fd33 1861975 chafa_1.14.5.orig.tar.gz"
+    "5f5cddb673d05f7eda95c26c0ec7be3770f70401052305cc86d4194045ece1aed8dec1fc609e69e8cc6e8ac8743bf47a9a1696bf253e074540fe22bc63431295 5752 chafa_1.12.4-1.debian.tar.xz 8542795c0ebb1c741d98cd82f78dcb4e97e2ce44716f1888f3d8724c2a76edac8f8c598f0da511be8fe716aa03b8c8dd7a6a6a521877b4471687ce6127c545d0 2016 chafa_1.12.4-1.dsc 66f7af469b837ab206d05c63550a2ecc73d6b58ea3ec3b6b3f62b84b38223e8cf5a341cb7a7de80a8c9f09e55983009ab41001e6f7cb5f1188c97951c8c7672c 1781287 chafa_1.12.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/c/chafa"
   ],
   "Files": [
-    "1c0834ce01f2658ae994d004bb7f2301 6816 chafa_1.14.5-1.debian.tar.xz 00730a77f698891ee35beaf165c32711 2111 chafa_1.14.5-1.dsc 0e68e2759bf7f3abcabdc32c2a6009db 1861975 chafa_1.14.5.orig.tar.gz"
+    "cf5d765eb2c47674ef74298c7483480b 5752 chafa_1.12.4-1.debian.tar.xz f703831052fb4d58f9e9d81935ccb414 2016 chafa_1.12.4-1.dsc 035ee8a923218a42d9fe2786f0887c4d 1781287 chafa_1.12.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "chafa"
   ],
   "Package-List": [
-    "chafa deb graphics optional arch=any libchafa-dev deb libdevel optional arch=any libchafa0t64 deb libs optional arch=any"
+    "chafa deb graphics optional arch=any libchafa-dev deb libdevel optional arch=any libchafa0 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/chafa.git"
   ],
   "Version": [
-    "1.14.5-1"
+    "1.12.4-1"
   ]
 }

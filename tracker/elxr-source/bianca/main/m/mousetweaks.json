@@ -6,22 +6,22 @@
     "mousetweaks"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gnome, gsettings-desktop-schemas-dev (\u003e= 0.1.0), libglib2.0-dev (\u003e= 2.25.3), libgtk-3-dev (\u003e= 3.0.0), libx11-dev, libxcursor-dev, libxfixes-dev, libxtst-dev"
+    "debhelper-compat (= 13), dh-sequence-gnome, libglib2.0-dev (\u003e= 2.25.3), libgtk-3-dev (\u003e= 3.0.0), libx11-dev, libxcursor-dev, libxfixes-dev, libxtst-dev, gsettings-desktop-schemas-dev (\u003e= 0.1.0)"
   ],
   "Checksums-Sha1": [
-    "7d15508642bb7c3ed68b9617a242cdc7d6e45742 5152 mousetweaks_3.32.0-6.debian.tar.xz 7f6a856bc06b02af9aa294c6f6823c4ff76acb30 2242 mousetweaks_3.32.0-6.dsc bbc97c36b2f7a7f8025eacc8a7efd31debc9190d 372088 mousetweaks_3.32.0.orig.tar.xz"
+    "2b3152f167c4b4485a2b9ad1eff065c02e247ff0 5236 mousetweaks_3.32.0-4.debian.tar.xz 8838ae294bcc47bc706acd16d4d91ceb6a0b3d97 2395 mousetweaks_3.32.0-4.dsc bbc97c36b2f7a7f8025eacc8a7efd31debc9190d 372088 mousetweaks_3.32.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "6d6c925d0f93c732e8b836ef14e1c4bdc25308bee2ba4adc9dbd8b404f5540cc 5152 mousetweaks_3.32.0-6.debian.tar.xz 546c2d9f113defe9880838466a07b019ec15f79c6ed69656b2f9d6f4fb3d2f24 2242 mousetweaks_3.32.0-6.dsc 0ebd5cdef01547787cbc3697ae758c57db1eec10eab613704d4a17b27685ae00 372088 mousetweaks_3.32.0.orig.tar.xz"
+    "8880f02f5489ff5af4979904b5f4a1b5554b466f24bf61e815ab03b30a07625a 5236 mousetweaks_3.32.0-4.debian.tar.xz 1c4739ec92a886b39b422c314c3f22f6cf0c6fab88265c386b631d8f40b68732 2395 mousetweaks_3.32.0-4.dsc 0ebd5cdef01547787cbc3697ae758c57db1eec10eab613704d4a17b27685ae00 372088 mousetweaks_3.32.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "3a979bfca6f63058a22ac87961a3d7139f157915904c6519f794e3ed069ed13cc04417abcbd29a39c3573b93f3e41ce9f04330857aa3f79dfaacb547c8de5413 5152 mousetweaks_3.32.0-6.debian.tar.xz 5f6629a6640ba2e8b5d5a2e0c2f81b8661d39838d384dacdb3890ad7b077a38e9b7f918c5d58a75a9d5bc71dc1f9fa31555ba4607649f9a2edb5ccbebf1e6fc1 2242 mousetweaks_3.32.0-6.dsc 3711c2aa1bc40f80a75857bf8a35dbe24443f8040cf8131e32818c797da44f2bb54d58f804ec8df7a95f66ff2e5db8c48067fca97c16ffa59239ecdf101c4a52 372088 mousetweaks_3.32.0.orig.tar.xz"
+    "a866bd6f1e5ff35748b9a03492b58b4ce9809a97a90049b30fd6324c327c5f693d2174a0f79ef52eb0aa9e441ce3f33d2125b5730a6746af84937f8053661477 5236 mousetweaks_3.32.0-4.debian.tar.xz 25fe987034de370698d17282d749d6c22b6e7b9acc3f030ab6a2283bf6a58766c0b73593382f92460e6b8fd25eebfd7392baaae1bc4b78929ee6b6e1ac0ec77e 2395 mousetweaks_3.32.0-4.dsc 3711c2aa1bc40f80a75857bf8a35dbe24443f8040cf8131e32818c797da44f2bb54d58f804ec8df7a95f66ff2e5db8c48067fca97c16ffa59239ecdf101c4a52 372088 mousetweaks_3.32.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/m/mousetweaks"
   ],
   "Files": [
-    "3f9e3f2950a9152220d6cef32f0c751d 5152 mousetweaks_3.32.0-6.debian.tar.xz b76e68dcb5b18519c5f85a52c56fb0f4 2242 mousetweaks_3.32.0-6.dsc aa671b0c7278a92c12f061d129af1454 372088 mousetweaks_3.32.0.orig.tar.xz"
+    "65884f42f1a0ab6cfbf31632e8a00a65 5236 mousetweaks_3.32.0-4.debian.tar.xz e10132b2991309c6e7cdc9391610b9af 2395 mousetweaks_3.32.0-4.dsc aa671b0c7278a92c12f061d129af1454 372088 mousetweaks_3.32.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "mousetweaks deb gnome optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Uploaders": [
-    "Debian Accessibility Team \u003cpkg-a11y-devel@alioth-lists.debian.net\u003e, Samuel Thibault \u003csthibault@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e,"
+    "Debian Accessibility Team \u003cpkg-a11y-devel@alioth-lists.debian.net\u003e, Samuel Thibault \u003csthibault@debian.org\u003e, Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Josselin Mouette \u003cjoss@debian.org\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e, Sebastian Dröge \u003cslomo@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/mousetweaks"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/mousetweaks.git"
   ],
   "Version": [
-    "3.32.0-6"
+    "3.32.0-4"
   ]
 }

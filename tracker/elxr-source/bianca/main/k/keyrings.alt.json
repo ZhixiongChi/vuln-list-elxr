@@ -6,22 +6,22 @@
     "python3-keyrings.alt"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-jaraco.classes, python3-jaraco.context, python3-keyring (\u003e= 20), python3-pycryptodome, python3-pytest (\u003e= 6), python3-pytest-cov, python3-setuptools (\u003e= 61.2), python3-setuptools-scm (\u003e= 7.1.0)"
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-jaraco.classes, python3-keyring (\u003e= 20), python3-pycryptodome, python3-pytest (\u003e= 6), python3-pytest-cov, python3-setuptools, python3-setuptools-scm (\u003e= 3.4.1), python3-toml"
   ],
   "Checksums-Sha1": [
-    "ebb39438168151d06e5e276a88bdbcfe71feb7c0 4764 keyrings.alt_5.0.2-1.debian.tar.xz dab1c70dd2df84d40627003da6cc76c4877312fb 2360 keyrings.alt_5.0.2-1.dsc ac72c63953502818fbd49d18d2015116efb78fbc 29229 keyrings.alt_5.0.2.orig.tar.gz"
+    "e6f0d7b013bb4f9066a77650c3002aa3627e52ae 4536 keyrings.alt_4.2.0-1.debian.tar.xz 1273a398f40c29688ad3627cad79e5d9016b083e 2344 keyrings.alt_4.2.0-1.dsc f1d48de8d0bd78353b9dca2ad4b86e2ec5806b7d 29855 keyrings.alt_4.2.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "32a2c6956f65b5a8081b82d5034fff7805922fa6e6368743b027456543ee40ca 4764 keyrings.alt_5.0.2-1.debian.tar.xz d90b1c53dac84f0b7b6953c98748051e8401691b73fa1b207cc2e96ca550f1c4 2360 keyrings.alt_5.0.2-1.dsc 8f097ebe9dc8b185106502b8cdb066c926d2180e13b4689fd4771a3eab7d69fb 29229 keyrings.alt_5.0.2.orig.tar.gz"
+    "1ee5852bc73b5d00a3002f1c8c721b3e2da4032190f03c0b3a4f8d91267b1ca0 4536 keyrings.alt_4.2.0-1.debian.tar.xz 6e572ade82ea24e826c992385f0fbebc9beabfeb72f97501dd660eea790a2f62 2344 keyrings.alt_4.2.0-1.dsc 2ba3d56441ba0637f5f9c096068f67010ac0453f9d0b626de2aa3019353b6431 29855 keyrings.alt_4.2.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "56c4adb30385461fdd6c95d5ae9e91daabee349086d80038ba7bdee38bc80f1b3b9d510184304168b29feb6e0c6f9d63b119731ad9d0bc534906a0d4062fabaa 4764 keyrings.alt_5.0.2-1.debian.tar.xz 52fd82554e9a0d9328ac6bde51196f20dd2ed32b297f0374d73cf88acfcfbdc28b86cfd6f4f4a497e1857d3dc220dfe048545d6a8914dd732093339e8143ae43 2360 keyrings.alt_5.0.2-1.dsc 37d101d5315e6b592adcf72333dfc82d4b413e25a8efdec71add3a91e558aeae7af509c20861d6befc77e1989a23659d1e86923570084e738bf4870c1974cf61 29229 keyrings.alt_5.0.2.orig.tar.gz"
+    "0343a0cd77bcdbb5e2f68fb953f9b4dd23218620a60388a3bb9fc050c3ea5e3866a3fa8ce34209ec3538ac7381bb4a34b1f65cd367c323a670845ac7b7d0a7e8 4536 keyrings.alt_4.2.0-1.debian.tar.xz cdd7f3c25ccfe44572c215a524c6797c66f325b62ca9a8175e7f3d8aec512879b40c13923526dd50619422efbefe2c3d7435d413f72d44a41f60092af6ded293 2344 keyrings.alt_4.2.0-1.dsc fe851f77ee0c794254e5197357c29c7f4dc05aac2df4c65825e54ccfea0f8d8a5d93d62a977b8cd0c462a875ac7c8591fa4bcb5d55e391cab77b3a31c006c0b1 29855 keyrings.alt_4.2.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/k/keyrings.alt"
   ],
   "Files": [
-    "540e8a3a50ea327dacf34614f9ada80d 4764 keyrings.alt_5.0.2-1.debian.tar.xz 95ab645ea035c5088ced64137e60bb8e 2360 keyrings.alt_5.0.2-1.dsc aa4bad59d1773bccba6fc32be904228b 29229 keyrings.alt_5.0.2.orig.tar.gz"
+    "c6bf71863965ef501e2ef7af780fe2cd 4536 keyrings.alt_4.2.0-1.debian.tar.xz fed2b5fab12d15e81e57318e8e435b1a 2344 keyrings.alt_4.2.0-1.dsc 44bfe3bdb98a69b517de2c9bd19d65d0 29855 keyrings.alt_4.2.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python3-keyrings.alt deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/keyrings.alt.git"
   ],
   "Version": [
-    "5.0.2-1"
+    "4.2.0-1"
   ]
 }

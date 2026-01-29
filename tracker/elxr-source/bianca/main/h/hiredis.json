@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libhiredis1.1.0, libhiredis-dev"
+    "libhiredis0.14, libhiredis-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libssl-dev, procps \u003c!nocheck\u003e, redis-server [linux-any kfreebsd-any] \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), procps \u003c!nocheck\u003e, redis-server [linux-any kfreebsd-any] \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "07fa8dfde5dd0abaaf0883904a7a4c535bfb8f81 9964 hiredis_1.2.0-6.debian.tar.xz 96491dc35e77a08b7d1b309d29d0f26b5e4486b4 2039 hiredis_1.2.0-6.dsc 1075db1836c83545ab489425dbf4870261edcb95 126216 hiredis_1.2.0.orig.tar.gz"
+    "a84c91f6a6a31abdead2c3609502aeaf4ef5044e 9636 hiredis_0.14.1-3.debian.tar.xz 5640d44811c81f8c565f1a5c7ef45f0801e08349 2029 hiredis_0.14.1-3.dsc a422493d601aa36cd14504a6791e7609093af8ed 64372 hiredis_0.14.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "b0f46b0d467507ee3e1f165664484528e0f8ff33691cbdd19bf85fc96e604187 9964 hiredis_1.2.0-6.debian.tar.xz 9e14f474f15d92c7ad1c9cb7c9ad0f1f8cc202492503103973f1fc08361d1cc6 2039 hiredis_1.2.0-6.dsc 82ad632d31ee05da13b537c124f819eb88e18851d9cb0c30ae0552084811588c 126216 hiredis_1.2.0.orig.tar.gz"
+    "be4e12bce6df66cf42c98386d18b7df4841a499d85a1a9cb909cc9104184260d 9636 hiredis_0.14.1-3.debian.tar.xz 6dee69e4c29f8b71de5e4ac76d1f887a6c545bd49b6801bcf2c03b646c98a235 2029 hiredis_0.14.1-3.dsc 2663b2aed9fd430507e30fc5e63274ee40cdd1a296026e22eafd7d99b01c8913 64372 hiredis_0.14.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "2d4ecfdf7539bfc372abe96d6b4e5be53114d3c010294fcbdc6d39cd79b718f4627a4a9992e34510d53b156c3bfafe7dc679caa6e70133ff3b779e92ec2227c7 9964 hiredis_1.2.0-6.debian.tar.xz ecb6225ee1f2dc37f10d489fe7493aff5e4ef7043415cdd5bcd4fb02cb6762fcdfe15e5d03622167c9c6cae6008d63ac058e5a9732fb1dfac83d0742082ac479 2039 hiredis_1.2.0-6.dsc f8984abb29c09e7e6b56e656616c5155f36c53da4161a2d4c85688486411cadcdf20aa1adb9bda208c500b401c750871be1c8d58ba9df5328634d00e9d1b6589 126216 hiredis_1.2.0.orig.tar.gz"
+    "f6e12e84d08e1bc862c9def982b24f11cf521d7885b65835d76fe8e8fb37406d5b9ea09cd893291d90f5c7abb4cf976dfeb6c75789811855cb5d18f11cc9586f 9636 hiredis_0.14.1-3.debian.tar.xz 32eced580699a70c84765492cced934a4b8c3721166a409bba2814ed3b017768d16ddae6a659e41598bd2b6e24037dfb45b2cc73ad9489c185e6610084d675eb 2029 hiredis_0.14.1-3.dsc a7310f2d65075df0c17636a0220e16487759471a3442b1de2595ab747565f6b6262e37131613b13e396b31050bcbe5529c35d420cd43fd7d500d9d563d469c4f 64372 hiredis_0.14.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/h/hiredis"
   ],
   "Files": [
-    "6372cb1670cdf403f644af45c7630c46 9964 hiredis_1.2.0-6.debian.tar.xz 6c554f714ff665caf51bf1010326711b 2039 hiredis_1.2.0-6.dsc 119767d178cfa79718a80c83e0d0e849 126216 hiredis_1.2.0.orig.tar.gz"
+    "91d022b1238f86ff047d5882157ba3c6 9636 hiredis_0.14.1-3.debian.tar.xz 48b1b48a94d3f5221863daa0834f71a3 2029 hiredis_0.14.1-3.dsc 3e1c541f9df28becb82a611e63e3e939 64372 hiredis_0.14.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "hiredis"
   ],
   "Package-List": [
-    "libhiredis-dev deb libdevel optional arch=any libhiredis1.1.0 deb libs optional arch=any"
+    "libhiredis-dev deb libdevel optional arch=any libhiredis0.14 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/lamby/pkg-hiredis.git"
   ],
   "Version": [
-    "1.2.0-6"
+    "0.14.1-3"
   ]
 }

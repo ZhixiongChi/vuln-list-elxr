@@ -3,31 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libamd3, libbtf2, libcamd3, libcolamd3, libccolamd3, libcholmod5, libcxsparse4, libklu2, libldl3, libumfpack6, librbio4, libspqr4, libsuitesparse-mongoose3, suitesparse-mongoose, mongoose, libspex3, libparu1, libsuitesparseconfig7, libsuitesparse-dev, libsuitesparse-doc, python3-spexpy"
+    "libamd2, libbtf1, libcamd2, libcolamd2, libccolamd2, libcholmod3, libcxsparse3, libklu1, libldl2, libumfpack5, librbio2, libspqr2, libmongoose2, mongoose, libsliplu1, libsuitesparseconfig5, libsuitesparse-dev, libsuitesparse-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake, dh-sequence-python3, python3-setuptools"
-  ],
-  "Build-Depends-Arch": [
-    "pkgconf, gfortran, libblas-dev, liblapack-dev, libgmp-dev, libmpfr-dev"
-  ],
-  "Build-Depends-Indep": [
-    "texlive-latex-extra, texlive-plain-generic, texlive-bibtex-extra, texlive-fonts-extra, ghostscript, texlive-science, texlive-xetex, python3-pygments"
+    "debhelper-compat (= 13), gfortran, libblas-dev, liblapack-dev, libmetis-dev, libgmp-dev, libmpfr-dev, cmake, texlive-latex-extra, texlive-plain-generic, texlive-bibtex-extra, texlive-fonts-extra, ghostscript, texlive-science, texlive-xetex"
   ],
   "Checksums-Sha1": [
-    "fd2729ab6579b52314c675de87171d7028476f82 35300 suitesparse_7.10.1+dfsg-1.debian.tar.xz 8059bff7ba1a9086ef3d9a2fbc49182de456802d 3435 suitesparse_7.10.1+dfsg-1.dsc f3f347e0dde71bf84c40d0cd4354aa799d254958 51432292 suitesparse_7.10.1+dfsg.orig.tar.xz"
+    "ccaa44361531d57464dd9ee4db0ab0f43d06010d 23444 suitesparse_5.12.0+dfsg-2.debian.tar.xz c9ce7f5a678387c063aa74c3aab88b694ebcf10f 3116 suitesparse_5.12.0+dfsg-2.dsc 35b1502ccb5290cfe94198621098df4e7d212d72 39442136 suitesparse_5.12.0+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "84d5c730cd96b3fb3b9aa33e2acca4502fab813b65856d695b4ac533bd2b443b 35300 suitesparse_7.10.1+dfsg-1.debian.tar.xz 80991698eeb8f9b8eec3764e22764db225afa45bb31d5b4b499246dbc47e0613 3435 suitesparse_7.10.1+dfsg-1.dsc f33dc4dbbaa16711861bb986604ac7ea15d949276951c706c6997d5567cebfcc 51432292 suitesparse_7.10.1+dfsg.orig.tar.xz"
+    "2e5836427ac968d6fdf33de80a46cd0f0f74ae43732663d6ec3a198bc99678f3 23444 suitesparse_5.12.0+dfsg-2.debian.tar.xz 8ff049d38f3de1bd2e8a3820281d96d6d1aa75495eb6e1c6237ec8085967c5aa 3116 suitesparse_5.12.0+dfsg-2.dsc bb106c43049138c19675cd70322e72ff8e4fd8bdcab3a096307fd78488913faf 39442136 suitesparse_5.12.0+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "957e3ab7f85e8e468b1823704f2ce6415cb43e5e14d4a8f5d0727139538a5d1086fffc0bdb8430d81a052c7c2f881f942ffecb016497e6efbd501e0a2d2b0a41 35300 suitesparse_7.10.1+dfsg-1.debian.tar.xz 7982426b9f481c0bdd77fbb70f09abc90b1d93c82f9b9b63200b7f8c5df3f5f3c6700093fac0450225f7664cc15ba57ac8674dc42ad1e0687ba4448fc6136481 3435 suitesparse_7.10.1+dfsg-1.dsc 04ffbc4173fcfccb0959ddd1cfaaeca05bfa5e947fb0274476ddfc4fc8670967c56f9fc54fa9fd241b9c6500f0290083f088fc05b497d9143a83f654e8d94a27 51432292 suitesparse_7.10.1+dfsg.orig.tar.xz"
+    "79ef619358cb1104da06baddd705d043f2c76748dff23e8ce2e17cff1bee585ece7800ee57458a0fe057b55fdb6d97f0ea2d358eef9831a88759c4a5a08f5847 23444 suitesparse_5.12.0+dfsg-2.debian.tar.xz 8f30e6372b827615da0cf89ca8214af7288ba1e5aa7c25a112178886947187d7a51e6334003211247177bdc4d0315c3838c22e1b6c253cd134af514b8c618436 3116 suitesparse_5.12.0+dfsg-2.dsc 14dc80d692e0fca311774443cf9bd7883c754cfda19bca25a0fa409ebcc717edb38f7a06ee22cc8d1c513fe668d4e6aae6d9723672f9984ef628d1b762345678 39442136 suitesparse_5.12.0+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/s/suitesparse"
   ],
   "Files": [
-    "c0939e465371745c74e9067a93270e47 35300 suitesparse_7.10.1+dfsg-1.debian.tar.xz 1212e38aa4c2f9aaf2d192b1e636e89e 3435 suitesparse_7.10.1+dfsg-1.dsc 3abf4da9dd09491879b41daf25045839 51432292 suitesparse_7.10.1+dfsg.orig.tar.xz"
+    "d14efafd5ea24f8575c5bac3c3aa7a77 23444 suitesparse_5.12.0+dfsg-2.debian.tar.xz 9d84a2f8c22c4b050f9037b09d3948ac 3116 suitesparse_5.12.0+dfsg-2.dsc 0653449c7ccf09bc72d677bfc0ed2b21 39442136 suitesparse_5.12.0+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +36,10 @@
     "suitesparse"
   ],
   "Package-List": [
-    "libamd3 deb libs optional arch=any libbtf2 deb libs optional arch=any libcamd3 deb libs optional arch=any libccolamd3 deb libs optional arch=any libcholmod5 deb libs optional arch=any libcolamd3 deb libs optional arch=any libcxsparse4 deb libs optional arch=any libklu2 deb libs optional arch=any libldl3 deb libs optional arch=any libparu1 deb libs optional arch=any librbio4 deb libs optional arch=any libspex3 deb libs optional arch=any libspqr4 deb libs optional arch=any libsuitesparse-dev deb libdevel optional arch=any libsuitesparse-doc deb doc optional arch=all libsuitesparse-mongoose3 deb libs optional arch=any libsuitesparseconfig7 deb libs optional arch=any libumfpack6 deb libs optional arch=any mongoose deb oldlibs optional arch=all python3-spexpy deb python optional arch=all suitesparse-mongoose deb math optional arch=any"
+    "libamd2 deb libs optional arch=any libbtf1 deb libs optional arch=any libcamd2 deb libs optional arch=any libccolamd2 deb libs optional arch=any libcholmod3 deb libs optional arch=any libcolamd2 deb libs optional arch=any libcxsparse3 deb libs optional arch=any libklu1 deb libs optional arch=any libldl2 deb libs optional arch=any libmongoose2 deb libs optional arch=any librbio2 deb libs optional arch=any libsliplu1 deb libs optional arch=any libspqr2 deb libs optional arch=any libsuitesparse-dev deb libdevel optional arch=any libsuitesparse-doc deb doc optional arch=all libsuitesparseconfig5 deb libs optional arch=any libumfpack5 deb libs optional arch=any mongoose deb math optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
+    "4.6.1"
   ],
   "Uploaders": [
     "Sébastien Villemot \u003csebastien@debian.org\u003e"
@@ -60,6 +51,6 @@
     "https://salsa.debian.org/science-team/suitesparse.git"
   ],
   "Version": [
-    "1:7.10.1+dfsg-1"
+    "1:5.12.0+dfsg-2"
   ]
 }

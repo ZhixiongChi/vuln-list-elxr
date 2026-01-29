@@ -9,22 +9,22 @@
     "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
   ],
   "Build-Depends-Indep": [
-    "openstack-dashboard (\u003e= 3:20.0.0+git2020.09.21.27036cc0eb), python3-babel, python3-coverage, python3-django, python3-keystoneclient, python3-octavia, python3-openstacksdk (\u003e= 0.53.0), python3-oslo.policy, python3-oslotest, python3-selenium, python3-stestr, python3-testscenarios, python3-testtools, python3-xvfbwrapper, subunit"
+    "openstack-dashboard (\u003e= 3:20.0.0+git2020.09.21.27036cc0eb), python3-babel, python3-barbicanclient, python3-coverage, python3-django, python3-django-nose, python3-keystoneclient, python3-nose-exclude, python3-octavia, python3-openstacksdk (\u003e= 0.53.0), python3-oslo.policy, python3-oslotest, python3-selenium, python3-stestr, python3-testscenarios, python3-testtools, python3-xvfbwrapper, subunit"
   ],
   "Checksums-Sha1": [
-    "7705d8148c571d261505c441fd18603506030161 4772 octavia-dashboard_15.0.0-1.debian.tar.xz c5d950398cd5b65fa2a51d307682d39f11bac368 2557 octavia-dashboard_15.0.0-1.dsc 8a6c25e57da9ec6486d06b1ea883faa5b264db4d 165548 octavia-dashboard_15.0.0.orig.tar.xz"
+    "e56baedaa5bdc0d1a24319dff5614cc2e65cfeb0 4524 octavia-dashboard_10.0.0-1.debian.tar.xz dd9f8743d4e738817bc0790d193dfb62e51d9380 2624 octavia-dashboard_10.0.0-1.dsc f69f1ce18fe3c04977413b7b41dfb2921af17fd2 165080 octavia-dashboard_10.0.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "da276bdd53ce91e729801dc8ab7ea299a223f5011350060d10ca7b0e73ec09a3 4772 octavia-dashboard_15.0.0-1.debian.tar.xz e6bd07918f3e6e0f840570533cbd50650088d6a047256cd9ac7f63435f83b246 2557 octavia-dashboard_15.0.0-1.dsc 745cc9f8570b58de52215cc5432a6f2522d5b460ac92f2c77408b752802ff638 165548 octavia-dashboard_15.0.0.orig.tar.xz"
+    "7440ddbf5e4ab380e3faffd3d39d9c7c166e9c5a992918eeb5922694d43a2433 4524 octavia-dashboard_10.0.0-1.debian.tar.xz 40f871cdefa89f5cca2f80afb1c4840f1b6dc6014c1b58552b076a15987785a4 2624 octavia-dashboard_10.0.0-1.dsc 9ab19066fe035b1a9377088fa8735f482ec6da1c5f8b56126e707f75b1e6ab32 165080 octavia-dashboard_10.0.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "9aa692f78f661ea58a1d51ada279fb2ce718abab596e1d559a23be0e9d253b29117236cd69c6970b1c20295f8bb779f7984d69fe912a43b2ab21ca91dd28d2e4 4772 octavia-dashboard_15.0.0-1.debian.tar.xz c276ce18cca5961185b5ab15bd12dcca23eca81fb7d4587b22c800d8a89e8bbf1ca6740fe933d60cfa4ad617e1b9bfad90fcc81d81ca0e64a25ad4d216925529 2557 octavia-dashboard_15.0.0-1.dsc 172ff05ef171b0294cb81462d10dd23f86c78a8b4cd4b0e755065f416560ca08d3f932551f03159173fec2d505476493c78581092b0be029c6eb1badf0394c1d 165548 octavia-dashboard_15.0.0.orig.tar.xz"
+    "eb09e35daa152247fc5db992fc5e93f12937462bf06d7f321c12158c8befc0637056b2c6c5e8bb8b8e048d6a43bb7dbad098c896a3815da5b00d30ad18d36834 4524 octavia-dashboard_10.0.0-1.debian.tar.xz c9c0daca01f959a7de9940c5dbfa1ad1d7daa47f574d6e59d6dedf833bb80e6308084104fd30de4af309808e0a30cd9591716756c3ca74ff90a094ea8666711f 2624 octavia-dashboard_10.0.0-1.dsc 9a18d42e6d4250ab93d8f322a160ce133580e71131af4515feb151318fb58636c4875257a3710751d4cf9c31a045f449bfdc08de76c7ecdeffaba811bf5496ac 165080 octavia-dashboard_10.0.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/o/octavia-dashboard"
   ],
   "Files": [
-    "cd197ee61b52e7e2d1007e589c67e63d 4772 octavia-dashboard_15.0.0-1.debian.tar.xz ba70807275478847bb5ff2100cf6c474 2557 octavia-dashboard_15.0.0-1.dsc bfd71c92c3c4014eb1925474a229ac66 165548 octavia-dashboard_15.0.0.orig.tar.xz"
+    "e22ef1f987288b2c4cf0ce0fac70f77e 4524 octavia-dashboard_10.0.0-1.debian.tar.xz 1faf35403d69e1ddf511a12ea54a47c6 2624 octavia-dashboard_10.0.0-1.dsc 631d5b8a5d39992fb24a7fdd3589df67 165080 octavia-dashboard_10.0.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/openstack-team/horizon-plugins/octavia-dashboard.git"
   ],
   "Version": [
-    "15.0.0-1"
+    "10.0.0-1"
   ]
 }

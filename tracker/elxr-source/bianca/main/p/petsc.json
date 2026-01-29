@@ -3,28 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "petsc-dev, libpetsc-real-dev, libpetsc-complex-dev, libpetsc-real3.22-dev, libpetsc-real3.22, libpetsc3.22-dev-common, libpetsc3.22-dev-examples, libpetsc-real3.22-dbg, petsc3.22-doc, libpetsc-complex3.22-dev, libpetsc-complex3.22, libpetsc-complex3.22-dbg, petsc64-dev, libpetsc64-real-dev, libpetsc64-complex-dev, libpetsc64-real3.22-dev, libpetsc64-real3.22, libpetsc64-real3.22-dbg, libpetsc64-complex3.22-dev, libpetsc64-complex3.22, libpetsc64-complex3.22-dbg"
+    "petsc-dev, libpetsc-real-dev, libpetsc-complex-dev, libpetsc-real3.18-dev, libpetsc-real3.18, libpetsc3.18-dev-common, libpetsc3.18-dev-examples, libpetsc-real3.18-dbg, petsc3.18-doc, libpetsc-complex3.18-dev, libpetsc-complex3.18, libpetsc-complex3.18-dbg, petsc64-dev, libpetsc64-real-dev, libpetsc64-complex-dev, libpetsc64-real3.18-dev, libpetsc64-real3.18, libpetsc64-real3.18-dbg, libpetsc64-complex3.18-dev, libpetsc64-complex3.18, libpetsc64-complex3.18-dbg"
   ],
   "Build-Depends": [
-    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), python3, gfortran, pkgconf, dh-python, dh-fortran-mod, gdb, mpi-default-dev (\u003e= 1.17), ocl-icd-opencl-dev | opencl-dev, libblas-dev | libopenblas-dev | libatlas-base-dev | libblas.so, liblapack-dev | libopenblas-dev | libatlas-base-dev | liblapack.so, libsuitesparse-dev (\u003e= 1:5.6.0), libhypre-dev (\u003e= 2.21.0), libhypre64m-dev (\u003e= 2.21.0) [amd64 arm64 mips64el ppc64el s390x alpha ia64 loong64 ppc64 riscv64 sparc64], libptscotch-dev, libhdf5-mpi-dev (\u003e= 1.10.6+repack-1), libscalapack-mpi-dev, libmumps-dev (\u003e= 5.2.1~), libmumps64-dev, libfftw3-dev, libfftw3-mpi-dev, libssl-dev, libsuperlu-dev (\u003e= 5.2.1), libsuperlu-dist-dev (\u003e= 6.1.1), libx11-dev, libyaml-dev, valgrind-mpi [amd64 arm64 armhf i386 mips64el mipsel ppc64el s390x powerpc ppc64], sphinx-common | python3-sphinx | dh-sequence-sphinxdoc"
+    "debhelper-compat (= 13), python3, gfortran, pkg-config, dh-python, dh-fortran-mod, gdb, mpi-default-dev (\u003e= 1.0.2), ocl-icd-opencl-dev | opencl-dev, libblas-dev | libopenblas-dev | libatlas-base-dev | libblas.so, liblapack-dev | libopenblas-dev | libatlas-base-dev | liblapack.so, libsuitesparse-dev (\u003e= 1:5.6.0), libhypre-dev (\u003e= 2.21.0), libhypre64m-dev (\u003e= 2.21.0) [amd64 arm64 mips64el ppc64el s390x alpha ia64 ppc64 riscv64 sparc64], libptscotch-dev, libhdf5-mpi-dev (\u003e= 1.10.6+repack-1), libscalapack-mpi-dev, libmumps-dev (\u003e= 5.2.1~), libmumps64-dev, libfftw3-dev, libfftw3-mpi-dev, libssl-dev, libsuperlu-dev (\u003e= 5.2.1), libsuperlu-dist-dev (\u003e= 6.1.1), libtrilinos-ml-dev [amd64 arm64 ppc64el s390x ppc64], libtrilinos-zoltan-dev [amd64 arm64 ppc64el s390x ppc64], libx11-dev, libyaml-dev, valgrind-mpi [amd64 arm64 armhf i386 mips64el mipsel ppc64el s390x powerpc ppc64], sphinx-common | python3-sphinx | dh-sequence-sphinxdoc"
   ],
   "Build-Depends-Indep": [
-    "libjs-sphinxdoc, libjs-mathjax, libjs-jquery, libjs-jquery-ui"
+    "libjs-mathjax, libjs-jquery, libjs-jquery-ui"
   ],
   "Checksums-Sha1": [
-    "5080ecd5ef20e8d1b19a1ea2c638bbf6cf1a1dd5 114196 petsc_3.22.5+dfsg1-2.debian.tar.xz f9092da9dff58077e14c3998c387cfce3192f031 4523 petsc_3.22.5+dfsg1-2.dsc 1090a6bbbb2c9284eeb90d6db47838dd1fc14d2b 39615636 petsc_3.22.5+dfsg1.orig.tar.xz"
+    "407b3ddd5e26598282ffb96e16816dd274958ec5 111744 petsc_3.18.5+dfsg1-1.debian.tar.xz bc0a0c22c4b43b77ccb964fd28d526216cd25119 4539 petsc_3.18.5+dfsg1-1.dsc b253304677fd02ab17988de00c9982e451d3c3d5 38418444 petsc_3.18.5+dfsg1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "549137edd7515e1d679576c59afda70b0c7b370ba4bc120932396b5e67d20601 114196 petsc_3.22.5+dfsg1-2.debian.tar.xz a21e4e1ad998ca9344bc506693693d71481ff3454c2c3fd9e4a27bee28586427 4523 petsc_3.22.5+dfsg1-2.dsc f3692bd85214d9d6372996dad8d9731fffdcb7d0a2d6c638bc51d3185cdcacd4 39615636 petsc_3.22.5+dfsg1.orig.tar.xz"
+    "9383013c05342f2ba5128dee7010a1f43683670dc2003c01b87d9cd0b17c065d 111744 petsc_3.18.5+dfsg1-1.debian.tar.xz 20edd999fbba501659428712927f7281143479834ca8c449e3982ad43022d876 4539 petsc_3.18.5+dfsg1-1.dsc e80001ace81706271c25701d3200e75cb62d69194f9e0ed85e4ae213eecb33b6 38418444 petsc_3.18.5+dfsg1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "6bf1c5156c2b633089b365a090056829c2e8a24aa31c0dbee6b63eba4f4f142026be7965fb85c1e228642a610ece3062dd8dfb8cb46326771d2d00b748a699bf 114196 petsc_3.22.5+dfsg1-2.debian.tar.xz f848d6b0ff135510b090da4f9468b01001714ca5c0225cb510a1d96e48b5b3474d4b0108ca376a58f663e7c6167ccdfabae313e06b5fa7c902e97e53d5263409 4523 petsc_3.22.5+dfsg1-2.dsc 73c7f74edf1891306b49643ca37327aa2c84ec86e59d915549e43bd7dd3d00f6bee8ae98950fbba962f18f8d844bd407e8d8dc0f168dd1f777a8de06f4411a6b 39615636 petsc_3.22.5+dfsg1.orig.tar.xz"
+    "5f2dd3beb1bbbbf93fa52b695c5cd03db41de5b04e7281012f0b048419f0e6636f8d2238898dec6511d609a239b32888eaa9e0adceb0825cdeb51e039bdd9442 111744 petsc_3.18.5+dfsg1-1.debian.tar.xz a298e130000033e982605071fa600c5071e91f160079a9c6c052f46374d27cc6204d08c259bd125561b0a2051e385c0c8f3773ae9273a51c283fee92cf6a467b 4539 petsc_3.18.5+dfsg1-1.dsc dc21baf3f8a1b3b754af0e7a7f52179d0bc84522fb54c518b3a92eb84128b8d947aea6f3b4ab96380e8e6f032ccfc240673b487361359b8243c3983c9072641f 38418444 petsc_3.18.5+dfsg1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/petsc"
   ],
   "Files": [
-    "2ab7658ba2b6043ee19cbe76ce64f8c8 114196 petsc_3.22.5+dfsg1-2.debian.tar.xz b3cd8425fb3e391b6ab3585772eabe3b 4523 petsc_3.22.5+dfsg1-2.dsc 6b8bfe693e102cedaa26d19987b02e66 39615636 petsc_3.22.5+dfsg1.orig.tar.xz"
+    "54ddcf47fb9108be61545505458dd62f 111744 petsc_3.18.5+dfsg1-1.debian.tar.xz 8bb893b52763002b370d3ad12fb9a5e6 4539 petsc_3.18.5+dfsg1-1.dsc 751954aadb69c1177d1232f7024b7a68 38418444 petsc_3.18.5+dfsg1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "petsc"
   ],
   "Package-List": [
-    "libpetsc-complex-dev deb libdevel optional arch=all libpetsc-complex3.22 deb libs optional arch=any libpetsc-complex3.22-dbg deb debug optional arch=any libpetsc-complex3.22-dev deb libdevel optional arch=any libpetsc-real-dev deb libdevel optional arch=all libpetsc-real3.22 deb libs optional arch=any libpetsc-real3.22-dbg deb debug optional arch=any libpetsc-real3.22-dev deb libdevel optional arch=any libpetsc3.22-dev-common deb libdevel optional arch=all libpetsc3.22-dev-examples deb libdevel optional arch=all libpetsc64-complex-dev deb libdevel optional arch=all libpetsc64-complex3.22 deb libs optional arch=any libpetsc64-complex3.22-dbg deb debug optional arch=any libpetsc64-complex3.22-dev deb libdevel optional arch=any libpetsc64-real-dev deb libdevel optional arch=all libpetsc64-real3.22 deb libs optional arch=any libpetsc64-real3.22-dbg deb debug optional arch=any libpetsc64-real3.22-dev deb libdevel optional arch=any petsc-dev deb libdevel optional arch=all petsc3.22-doc deb doc optional arch=all petsc64-dev deb libdevel optional arch=all"
+    "libpetsc-complex-dev deb libdevel optional arch=all libpetsc-complex3.18 deb libs optional arch=any libpetsc-complex3.18-dbg deb debug optional arch=any libpetsc-complex3.18-dev deb libdevel optional arch=any libpetsc-real-dev deb libdevel optional arch=all libpetsc-real3.18 deb libs optional arch=any libpetsc-real3.18-dbg deb debug optional arch=any libpetsc-real3.18-dev deb libdevel optional arch=any libpetsc3.18-dev-common deb libdevel optional arch=all libpetsc3.18-dev-examples deb libdevel optional arch=all libpetsc64-complex-dev deb libdevel optional arch=all libpetsc64-complex3.18 deb libs optional arch=any libpetsc64-complex3.18-dbg deb debug optional arch=any libpetsc64-complex3.18-dev deb libdevel optional arch=any libpetsc64-real-dev deb libdevel optional arch=all libpetsc64-real3.18 deb libs optional arch=any libpetsc64-real3.18-dbg deb debug optional arch=any libpetsc64-real3.18-dev deb libdevel optional arch=any petsc-dev deb libdevel optional arch=all petsc3.18-doc deb doc optional arch=all petsc64-dev deb libdevel optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -51,7 +51,7 @@
     "@builddeps@"
   ],
   "Uploaders": [
-    "\"Adam C. Powell, IV\" \u003chazelsct@debian.org\u003e, Drew Parsons \u003cdparsons@debian.org\u003e, Francesco Ballarin \u003cfrancesco.ballarin@unicatt.it\u003e"
+    "\"Adam C. Powell, IV\" \u003chazelsct@debian.org\u003e, Drew Parsons \u003cdparsons@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/science-team/petsc"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/science-team/petsc.git"
   ],
   "Version": [
-    "3.22.5+dfsg1-2"
+    "3.18.5+dfsg1-1"
   ]
 }

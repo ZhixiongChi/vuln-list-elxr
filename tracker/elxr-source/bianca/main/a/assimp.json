@@ -6,25 +6,25 @@
     "libassimp5, libassimp-dev, libassimp-doc, assimp-utils, python3-pyassimp, assimp-testmodels"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), dh-buildinfo, doxygen \u003c!nodoc\u003e, libboost-dev, libdraco-dev, libminizip-dev, libpugixml-dev, libstb-dev, libutfcpp-dev, pkg-config, rapidjson-dev, zlib1g-dev | libz-dev"
+    "cmake, debhelper-compat (= 13), dh-buildinfo, doxygen, libboost-dev, libdraco-dev, libminizip-dev, libstb-dev, libutfcpp-dev, pkg-config, zlib1g-dev | libz-dev"
   ],
   "Build-Depends-Indep": [
-    "dh-sequence-doxygen \u003c!nodoc\u003e, dh-sequence-python3, python3-all, python3-setuptools"
+    "dh-sequence-python3, python3-all"
   ],
   "Checksums-Sha1": [
-    "c1eb704dab010f785e946cf921756d3515a30132 40560 assimp_5.4.3+ds-2elxr2.debian.tar.xz c0729fe44174daabfabbfd8db52a415198b4bc25 1694 assimp_5.4.3+ds-2elxr2.dsc 96ea5be8aa4f5bf307ee7852ae74f496284228de 25878060 assimp_5.4.3+ds.orig.tar.xz"
+    "aabe3fa69f9cf46bd8d3475ac81be0d498fcb19c 34232 assimp_5.2.5~ds0-1elxr2.debian.tar.xz a2fd2e6d6bf230fd0bb93e96d83e797edbdeb9ac 1618 assimp_5.2.5~ds0-1elxr2.dsc a207c98b07a4b9162926b1d6a731b6b607a078b1 23527844 assimp_5.2.5~ds0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "272f33bfa827b77e997887208f277a82ed973cb1749dc8280289b4b05b90874b 40560 assimp_5.4.3+ds-2elxr2.debian.tar.xz a03486f11a51d165416ff5378e0611cacfbe4e6fa9418b586e0f28fb5374b9df 1694 assimp_5.4.3+ds-2elxr2.dsc 2b373ab10594803516a69911e361edc49e3473ef95053c4a58015ba816de4bd3 25878060 assimp_5.4.3+ds.orig.tar.xz"
+    "6cbff49e80ef9b1969d8e359e179a2cbc54b993c5e4997fa304e8a5a9a2ab607 34232 assimp_5.2.5~ds0-1elxr2.debian.tar.xz d58e1ed22bd33eca22aadab5a99b8c933a9571586029811638001a92f193176b 1618 assimp_5.2.5~ds0-1elxr2.dsc ee20da341210d15296e74304ebaf88563734048401f71f008d7d6ae1da373e1d 23527844 assimp_5.2.5~ds0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "875b6d0d7be919311c6387305a811e180e102596e6fa229acaa83afb455a031fccc129c0cabb06f2e987454e9ec5c09d153f516731ca85dfbd09fd092aa3ef2a 40560 assimp_5.4.3+ds-2elxr2.debian.tar.xz ce95a6527f1f658b767af57f13d1d9825f5f9bd2dba664219fd94b207eb7d8febc5a57eb59b8ecb281625159983fccc2cc43c57ad2c03a25c07a2f4d99c39614 1694 assimp_5.4.3+ds-2elxr2.dsc f385e6f31add6d836667d844198ed86c6b4a6ca0204f513455f0344487fc25881966bc4ff0c1e8fb45d63657eb7f8ca62a32af7fec7e0ea30fbbbac4f932b74c 25878060 assimp_5.4.3+ds.orig.tar.xz"
+    "37ca6d4c8e387f0ba887e92ed0861c408b0aaab3f93c49be33061bc32d5dcd1ca760cdcf9f74f8afc044c27f4d95fa6b382bee04829fa5c66ae7cbdfdb42522e 34232 assimp_5.2.5~ds0-1elxr2.debian.tar.xz 063bed7347e31f3bb8152f3b91a209bd0b7b0a126af32d80cfa754296b38bac0f287360abc993085c6daa48f5238be2bd79f89450ddf4b853038733a219641db 1618 assimp_5.2.5~ds0-1elxr2.dsc e3e649f67ae43a5e40803d220a7d8c29b05a34aa313e249c758fb274263c1302eaa84f6ac21e184d3385cdb12c499190f4eceb32a8b6c741e2353675d24c5ff0 23527844 assimp_5.2.5~ds0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/a/assimp"
   ],
   "Files": [
-    "a9b1c063c6e41e2352b071dec3327699 40560 assimp_5.4.3+ds-2elxr2.debian.tar.xz 73041eadff112dfc0b4d7f10256c9ed6 1694 assimp_5.4.3+ds-2elxr2.dsc db815766c763129ab7eefa01b9d4089d 25878060 assimp_5.4.3+ds.orig.tar.xz"
+    "49f1562fee5ce9a2bfd63c7adda060d6 34232 assimp_5.2.5~ds0-1elxr2.debian.tar.xz 3ff0d1f9cd8b5bf055b4ae520476b6b9 1618 assimp_5.2.5~ds0-1elxr2.dsc 5984f56b1f42b6825a4ed20097771eb5 23527844 assimp_5.2.5~ds0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,16 +39,16 @@
     "assimp"
   ],
   "Package-List": [
-    "assimp-testmodels deb graphics optional arch=all assimp-utils deb utils optional arch=any libassimp-dev deb libdevel optional arch=any libassimp-doc deb doc optional arch=all profile=!nodoc libassimp5 deb libs optional arch=any python3-pyassimp deb python optional arch=all"
+    "assimp-testmodels deb graphics optional arch=all assimp-utils deb utils optional arch=any libassimp-dev deb libdevel optional arch=any libassimp-doc deb doc optional arch=all libassimp5 deb libs optional arch=any python3-pyassimp deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential, cmake, freeglut3-dev, libgl-dev, libgl1-mesa-dev"
+    "build-essential, cmake, freeglut3-dev, libgl-dev, libgl1-mesa-dev, libz-dev, zlib1g-dev"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/assimp"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/assimp.git"
   ],
   "Version": [
-    "5.4.3+ds-2elxr2"
+    "5.2.5~ds0-1elxr2"
   ]
 }

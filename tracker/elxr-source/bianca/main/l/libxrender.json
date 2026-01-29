@@ -6,22 +6,22 @@
     "libxrender1, libxrender1-udeb, libxrender-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), pkgconf, libx11-dev, x11proto-dev, xutils-dev"
+    "debhelper (\u003e= 10), pkg-config, libx11-dev (\u003e= 2:1.6), x11proto-render-dev, x11proto-core-dev, xutils-dev (\u003e= 1:7.5+4)"
   ],
   "Checksums-Sha1": [
-    "c13d65825ccf74257b0eb04fe2b21c9b260de6c4 21464 libxrender_0.9.12-1.diff.gz 4838d870a045ddda776650fb0d5c3c766ceaa50b 2258 libxrender_0.9.12-1.dsc d88cb1675496ebbe85d72a5e3fe58303173d5651 450034 libxrender_0.9.12.orig.tar.gz 389c73bed638df9ed6ff4ec0885e8bd2b816e355 833 libxrender_0.9.12.orig.tar.gz.asc"
+    "49d955092af251cbc2aeaa31aaad87588913567e 15201 libxrender_0.9.10-1.1.diff.gz 25e564c3f837da87a9c5cde5c410a11f9177d38b 2072 libxrender_0.9.10-1.1.dsc 704f4571d70e81fcdb40143db938016231f84a05 373717 libxrender_0.9.10.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "c0d3e91a3aa474772c242dcbb997504dff4c28e177d9b7fbb70c50ce7bf56fc5 21464 libxrender_0.9.12-1.diff.gz 2980c127d296455f4e9bcaf5ba114284fa0735ce3ef5b613dbe99d854bc87ca3 2258 libxrender_0.9.12-1.dsc 0fff64125819c02d1102b6236f3d7d861a07b5216d8eea336c3811d31494ecf7 450034 libxrender_0.9.12.orig.tar.gz 0bbd310ac3974ef398cf4d8a4b362b0b4d60ceb43e6eba393c3cc740b03816fc 833 libxrender_0.9.12.orig.tar.gz.asc"
+    "caf8c84085b3b0d073f738fa12d32d4eca2d8b669cb3c7f1b1cd2ce64b7b10b7 15201 libxrender_0.9.10-1.1.diff.gz 348ab15d05f1d802da485e4c6abdb9d5419691fb7c8ce44ca5b17b2b7f889ce8 2072 libxrender_0.9.10-1.1.dsc 770527cce42500790433df84ec3521e8bf095dfe5079454a92236494ab296adf 373717 libxrender_0.9.10.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "91501f3b9bd7a6e2ae0f6038fa7b4e0ac036dcd9c0e58e4f2dbe2a8b7730a54eb506e61727a2822c7008a3693a1fe0dac107937cc79ea31c611fe2ada7198a10 21464 libxrender_0.9.12-1.diff.gz b8b744c8946fffcaf089dcfe8001a52be38efd3f19bfc87a4d2d454913ad0c8059d83d336de8ccbdd7c7bc92f28981289f63f77c70dfd537d31d7373200c2886 2258 libxrender_0.9.12-1.dsc b7cbe8ead3a4eeb7c42acede8569361cf11818d98d05ede75a5f0c48c3fb6b1c0b3b62bb2ba6aea19b4804938512e63ebed127928b1a553b518e3ab974bd089d 450034 libxrender_0.9.12.orig.tar.gz 299b2654f2bd2b51033072a225a42f75b5e16aff65f6ff171defe9f692f95f69fbcda0b121caf7f4706ee0dd5f9ecef9b2d2ff50a729d40b280fbdeb80ff17cf 833 libxrender_0.9.12.orig.tar.gz.asc"
+    "079ceac53ac1cfa5ab7ba14356af16e581eb64a1a140861b55301a6ec9ecdd79e26b6719e8aabd90cd819a92517d80f25933f6b83f85eb2e1694bcb7540e9b78 15201 libxrender_0.9.10-1.1.diff.gz 0cbb2a8642aad32961e86c36ae69b38b8a78f5894991c4efd54de89864ce3ef1821a6019c365e5e1af23a6c50727fb18045caa2dc261f677b3366ffe05cb0123 2072 libxrender_0.9.10-1.1.dsc 7768e62b500f468460f88f27bc1130170b204b478573d9e4406867e557b5638b7c1e21d88d51f9e774ce2344780a384e3c3be51421275d2ee880f9a978a3a232 373717 libxrender_0.9.10.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libx/libxrender"
   ],
   "Files": [
-    "97c58992c82fd6bfd56b61fd25f71eb0 21464 libxrender_0.9.12-1.diff.gz 116e028ff69d5a0817afc8c994d4bcc5 2258 libxrender_0.9.12-1.dsc 4b81179b01ce9aaf108e73112e719aa9 450034 libxrender_0.9.12.orig.tar.gz 5266b4f1d729b656ac868e23e915e11e 833 libxrender_0.9.12.orig.tar.gz.asc"
+    "9cab2d1755e226da963fc100b2c8c955 15201 libxrender_0.9.10-1.1.diff.gz 4871abc6712e3eb8a6627e40cc287604 2072 libxrender_0.9.10-1.1.dsc 98a14fc11aee08b4a1769426ab4b23a3 373717 libxrender_0.9.10.orig.tar.gz"
   ],
   "Format": [
     "1.0"
@@ -36,15 +36,15 @@
     "libxrender-dev deb libdevel optional arch=any libxrender1 deb libs optional arch=any libxrender1-udeb udeb debian-installer optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "3.9.8"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/xorg-team/lib/libxrender"
+    "https://anonscm.debian.org/cgit/pkg-xorg/lib/libxrender.git"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/xorg-team/lib/libxrender.git"
+    "https://anonscm.debian.org/git/pkg-xorg/lib/libxrender.git"
   ],
   "Version": [
-    "1:0.9.12-1"
+    "1:0.9.10-1.1"
   ]
 }

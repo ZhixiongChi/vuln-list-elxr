@@ -6,28 +6,28 @@
     "seatd, libseat1, libseat-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libsystemd-dev, meson, pkgconf, scdoc (\u003e= 1.9.7)"
+    "debhelper-compat (= 13), libsystemd-dev, meson, pkg-config, scdoc (\u003e= 1.9.7)"
   ],
   "Checksums-Sha1": [
-    "fe4127f3f3bac989ba442c80d683fec7e4b992db 7296 seatd_0.9.1-1.debian.tar.xz 2e3d123b89fe32769b24cc1929352bd35ab60aa4 2021 seatd_0.9.1-1.dsc cde15ad79adf2de055c717ea31b1e1e8ba230b6b 41968 seatd_0.9.1.orig.tar.gz"
+    "102bc6590cd16571c4f7d8f404a79b01ececa8cd 6804 seatd_0.7.0-6.debian.tar.xz 6e96a65fbae7db611be1449a84e391523db128d3 1982 seatd_0.7.0-6.dsc 5f33ac26f18184e9a8ebf930ce81e7066c9ff2b0 39198 seatd_0.7.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a54c18c772e12d0615aea3113aa8ddf773b23681ec6eb6ea0b6b92e2f594ca51 7296 seatd_0.9.1-1.debian.tar.xz caa18065034c84e90329b21b39c51f84bc6e19ded21741877af5d03a1022fc90 2021 seatd_0.9.1-1.dsc 819979c922a0be258aed133d93920bce6a3d3565a60588d6d372ce9db2712cd3 41968 seatd_0.9.1.orig.tar.gz"
+    "2ee46f7eb5033e391c63775d53eb471120d4ce1b82fbeab8b6d15d412eca48a6 6804 seatd_0.7.0-6.debian.tar.xz 1b9762be59d3986d37fd6b1a7c9a8810b209aac0f59c30de12ee78e2343b3481 1982 seatd_0.7.0-6.dsc 210ddf8efa1149cde4dd35908bef8e9e63c2edaa0cdb5435f2e6db277fafff3c 39198 seatd_0.7.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "830316dfad3e835d9dd91847ebc14da45835911c543840a31561048e0a64c1342796b61c30223edcd07c80e002c8c4b3f00309e164067da02b875bd2331ce0f6 7296 seatd_0.9.1-1.debian.tar.xz 52f80a6770cc63ba8383de07c677e3fc34a2602f463d9d33b9a2ae756441c8416a581838b74c533bd0d621660afa03666b3610be21d4e18ba60d0db651c2177a 2021 seatd_0.9.1-1.dsc 15d24a6646fa82a2bcc21d2a99693e1c54e71b9da24a0ba5c847a72c53d803410cbcee31fc847fef468b18d941d9685391bebf745819d4b24d056cd67e08c3fb 41968 seatd_0.9.1.orig.tar.gz"
+    "de3dcc06a5eec44d1eefea37764cb3bf94bc3d6dadc19e3e3415dfc02a3a4d887f533568e60b0b98bf161bbfbd331711c254c3e0ccf7293c924d7596a8209c55 6804 seatd_0.7.0-6.debian.tar.xz 54d8334889cd2b9070a79a3f633442f38ad3e8b34a4fd719d339b01d97a34e6c38496fbc3ea1c82ad8a80081d79545e17f1ecca519165e71152db57ac768b5d5 1982 seatd_0.7.0-6.dsc c81c43994b92672a388bf255edb1fe24d3dba7ece2eb35f9fedc05cc0b8e464e9167ffed037645c4072430fe7b3b8fc80cc99f21fb5100654b5dd23a94742e66 39198 seatd_0.7.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/s/seatd"
   ],
   "Files": [
-    "4a31b24981325f309f393b6baad47d2b 7296 seatd_0.9.1-1.debian.tar.xz 1433bef821a23ce635269601b010c64c 2021 seatd_0.9.1-1.dsc 964a9c59cdfe39f9130508c274e8ae21 41968 seatd_0.9.1.orig.tar.gz"
+    "af3274112161c0dfe57ee12615f36c07 6804 seatd_0.7.0-6.debian.tar.xz 9dec4a977223421003cb36828c753b7f 1982 seatd_0.7.0-6.dsc 922b8a4ca4dfdb1f43a294db9e77bcf7 39198 seatd_0.7.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://sr.ht/~kennylevinsen/seatd/"
+    "https://git.sr.ht/~kennylevinsen/seatd"
   ],
   "Maintainer": [
     "Mark Hindley \u003cleepen@debian.org\u003e"
@@ -39,13 +39,10 @@
     "libseat-dev deb libdevel optional arch=any libseat1 deb libs optional arch=any seatd deb admin optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, pkgconf"
   ],
   "Vcs-Browser": [
     "https://git.devuan.org/devuan/seatd"
@@ -54,6 +51,6 @@
     "https://git.devuan.org/devuan/seatd.git -b debian/master"
   ],
   "Version": [
-    "0.9.1-1"
+    "0.7.0-6"
   ]
 }

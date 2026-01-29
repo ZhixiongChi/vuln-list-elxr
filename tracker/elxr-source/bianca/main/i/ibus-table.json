@@ -6,25 +6,22 @@
     "ibus-table"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, docbook-utils, libibus-1.0-dev, pkgconf, python3:any"
+    "debhelper-compat (= 13), dh-sequence-python3, docbook-utils, libibus-1.0-dev, pkg-config, python3:any"
   ],
   "Checksums-Sha1": [
-    "fb31ca0915734686a529a1933eb8094d8c2a0525 6212 ibus-table_1.17.11-1.debian.tar.xz 9d9d40686712e658cf642e5bcca25ee6050cdd37 2460 ibus-table_1.17.11-1.dsc 7a8794087621e6400da6b85b855301e9f69c6b4d 1426746 ibus-table_1.17.11.orig.tar.gz"
+    "42bba7597717cde287ec41765509280d45356fa7 5348 ibus-table_1.16.14-1.debian.tar.xz 9760c550823fc21cd90a81191771dfd7463142b1 2061 ibus-table_1.16.14-1.dsc 0830df2432e4243c1dbf5aa883da8da1f66e640a 1393703 ibus-table_1.16.14.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "b5a9ffb41325215ca3302f825ab88ec1cccf6a9e8e0dcce39e9dd4362af7fb5b 6212 ibus-table_1.17.11-1.debian.tar.xz a64a176e55205a12cecd5c96adc0c5ce7cb33565e92a66a5d268b65f0feb243b 2460 ibus-table_1.17.11-1.dsc 9a1dd2d783ab1e64bf986971dd8373114f0790032346cd9f0f148eb2dedce49e 1426746 ibus-table_1.17.11.orig.tar.gz"
+    "e9e34492266f8d0cb94ddc58ddba2d0831107027884c6dd786cf1936bb33faa7 5348 ibus-table_1.16.14-1.debian.tar.xz 72519adf2923782c4fc984a9ff9af9db475a5c7312c79d95c714b1df0e62d08c 2061 ibus-table_1.16.14-1.dsc 72f91e04733c0b02949af72240d041c24121a7b7e17de28ab0609b650ae5ac22 1393703 ibus-table_1.16.14.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c542537944ffb5958cf645da1d034287c95a16460f4449b99d32bb7982c8f4433492f537ed9957f989e9c752a4eea402f78d3823eb270f2130778f89b04fb22d 6212 ibus-table_1.17.11-1.debian.tar.xz 00ced74d4e726a075d811b8bd97635845b9085e35cdbd3109e826c5ec0839eaf9cc8b2234bcca38278a6df0a5a8b6256ea09f9123146fc2e321eaf0468405d78 2460 ibus-table_1.17.11-1.dsc f2500eb82f44f2eddd8fef105bb55879bd4a13ebc81363f0757c75d02d8275b3fa41077d72b439b99932d8170a552277b37a16ab63fc965fc03fbad0130e95e5 1426746 ibus-table_1.17.11.orig.tar.gz"
-  ],
-  "Description": [
-    "table engine for IBus IBus-Table is the IM Engine framework for table-based input methods, such as WuBi, ErBi, CangJie and so on. . This package provide the table engine framework and one input method: * Compose: input special character by compose letter and diacritical mark . More input method based on ibus-table can be installed from ibus-table-cangjie, ibus-table-wubi, ..."
+    "1849827ee99262acc59fff430e95fc60c8fb270850a0437a19adabebde888fff7804c7450165a8924e1ef70ad42942b0b6d85ba3b6953e41f68c67ee9118f74e 5348 ibus-table_1.16.14-1.debian.tar.xz c3d74726f6c728bb03df936f7e0a320bff5ca821a7f8860c6870e15c2aff0342f5276bfbc5d188989b69220b22cd8bc060151c76df6591bcb5c035096f1bac5c 2061 ibus-table_1.16.14-1.dsc 2e7ad39d40fd7d8081008848e1710b92e175e43e5fb5f21725f478d7bacccb07133231a389c2adf23509e0ce25941ad9641862c01638d266ec8d010de3c5b39c 1393703 ibus-table_1.16.14.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/i/ibus-table"
   ],
   "Files": [
-    "fc2939b10aa5f3fcb06fb005ae284951 6212 ibus-table_1.17.11-1.debian.tar.xz b3ece1bbfca5f0fa2c28ee07a2b2229f 2460 ibus-table_1.17.11-1.dsc 4da6839a1a0d694b5f813c30446ae9e7 1426746 ibus-table_1.17.11.orig.tar.gz"
+    "8de096012afeb51e74a1ce2610b9fb06 5348 ibus-table_1.16.14-1.debian.tar.xz 9412278a120798efd4055a61e270f105 2061 ibus-table_1.16.14-1.dsc ee292577552239e80c485c13f29f39da 1393703 ibus-table_1.16.14.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +39,7 @@
     "ibus-table deb utils optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Uploaders": [
     "Aron Xu \u003caron@debian.org\u003e, Osamu Aoki \u003cosamu@debian.org\u003e,"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/input-method-team/ibus-table.git"
   ],
   "Version": [
-    "1.17.11-1"
+    "1.16.14-1"
   ]
 }

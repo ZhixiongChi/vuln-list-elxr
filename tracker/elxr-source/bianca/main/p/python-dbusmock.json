@@ -9,22 +9,22 @@
     "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
   ],
   "Build-Depends-Indep": [
-    "upower \u003c!nocheck\u003e, python3-dbus, python3-gi \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, gir1.2-glib-2.0 \u003c!nocheck\u003e, dbus-daemon \u003c!nocheck\u003e, libnotify-bin \u003c!nocheck\u003e"
+    "upower, python3-dbus, python3-gi, gir1.2-glib-2.0, dbus, libnotify-bin"
   ],
   "Checksums-Sha1": [
-    "ba466a9c752406ee7d47808ca4d5e714c9ba8c64 8600 python-dbusmock_0.34.3-1.debian.tar.xz 908b53f332db49a82f28645503137e79923b61a4 2370 python-dbusmock_0.34.3-1.dsc ff94ffd105d09fe569b077b3a1fa46d9d27bd91a 111656 python-dbusmock_0.34.3.orig.tar.gz"
+    "2e4fc195bb88b92b317b0eb9795c1d3fea90f1bc 7004 python-dbusmock_0.28.7-1.debian.tar.xz 05875e03b2b6c858fe9da197e5d5e8b311455db5 2284 python-dbusmock_0.28.7-1.dsc 21c1193b572ed4b56def892cd3439ee787c06af7 91302 python-dbusmock_0.28.7.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "93e6777a820b9beb12c434afa41f0597ab262a593d35c4002395515b8312d1f5 8600 python-dbusmock_0.34.3-1.debian.tar.xz fafd3a2a1f1b54283213ed98f70179f391fd234cf28385a06448e325301f0a4d 2370 python-dbusmock_0.34.3-1.dsc 439127291ec4364cbe3c2f58c47987bbe189e9493ccc6d56629bd484e79a6f8b 111656 python-dbusmock_0.34.3.orig.tar.gz"
+    "4f7ab31636fdb4bf000005b36d5fc27cc8b39a68061b2a02cbd2b1abac50ab0a 7004 python-dbusmock_0.28.7-1.debian.tar.xz 37c49ded02812951586bfe3df645c2ba4c6af6378ad0cfd8407bac289671e924 2284 python-dbusmock_0.28.7-1.dsc 0786977750dbcbde6e2553339a2e66d9a8d4453d5c848b945e8fd1badb736ffd 91302 python-dbusmock_0.28.7.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "98afd7766721410558f175abe42eb230eb63d4a11a34480c70e13ee3de3c8cf3a18ce520a4cadd303b2b79679ec548edc4f29dea936afe36ac714dd9bc307ca5 8600 python-dbusmock_0.34.3-1.debian.tar.xz acb8c0591358962c0143cadf906a8a1a61f3982af0b7d4b359c5595cdae7e5ddd49d332702de71e8a4f1325f6fe4e0e2c66e3ffa1824ecda3d9d3345f144ff2f 2370 python-dbusmock_0.34.3-1.dsc 96b5ef9b0c41afaa703b608bbc1ec27704359a61b83d633bd10718a314f84b91208961e9e4b5d96718a2ac70b5b96b0e00039b7d6bfd4436470dafd34d28f0e4 111656 python-dbusmock_0.34.3.orig.tar.gz"
+    "d174a6c91fca4d36912a8bc8e8d8e862c9f15eb22a291b5fe895cbb4549125b48c6a5cacebc1006936562d3868ff5e2c755b7925bf237c7dae61fc67c547b72c 7004 python-dbusmock_0.28.7-1.debian.tar.xz 896b4133627a5044a34a6ff0a39fa5fab04a8d7172e956600e86a85387f571a8fadcc35ec4f7593917ed0b22c1092c3114fea7bf9f3ee39842f6b79457e487f4 2284 python-dbusmock_0.28.7-1.dsc d0fea9ad3a9f76af75f48a4e645f8ed70efde880043c9b843bc8cac53eca891c45fa9c74cefab63a820397886757ac0dc9c5f43aaf7604aa302c794aedb7bb46 91302 python-dbusmock_0.28.7.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-dbusmock"
   ],
   "Files": [
-    "64ac9a0372d29d140db842f4c8d6c1de 8600 python-dbusmock_0.34.3-1.debian.tar.xz 900a4b1f10481f6076da7176877efaf2 2370 python-dbusmock_0.34.3-1.dsc a2de46b58aa39d8337d4104493404249 111656 python-dbusmock_0.34.3.orig.tar.gz"
+    "9c13b4c57fa0330cbad2170fbf735835 7004 python-dbusmock_0.28.7-1.debian.tar.xz cc6aaddfeb1baca45c44fc7c12d3afbb 2284 python-dbusmock_0.28.7-1.dsc 7a605e4e1555e5b2fac18570422555e4 91302 python-dbusmock_0.28.7.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,13 @@
     "python3-dbusmock deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "bluez, libnotify-bin, network-manager, policykit-1, polkitd, python3-pytest, systemd, upower"
+    "bluez, libnotify-bin, network-manager, ofono, ofono-scripts, policykit-1, polkitd, systemd, upower"
   ],
   "Uploaders": [
     "Martin Pitt \u003cmpitt@debian.org\u003e"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/python-dbusmock.git"
   ],
   "Version": [
-    "0.34.3-1"
+    "0.28.7-1"
   ]
 }

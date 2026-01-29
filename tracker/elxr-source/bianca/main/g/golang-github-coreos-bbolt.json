@@ -6,22 +6,22 @@
     "golang-github-coreos-bbolt-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.21~), golang-github-stretchr-testify-dev (\u003e= 1.8.1), golang-github-etcd-io-gofail-dev (\u003e= 0.1.0), golang-golang-x-sync-dev (\u003e= 0.5.0), golang-golang-x-sys-dev (\u003e= 0.4.0)"
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-golang-x-sys-dev"
   ],
   "Checksums-Sha1": [
-    "d8ea37c0d0d9e4e47eddaba5171ec401247206c8 4696 golang-github-coreos-bbolt_1.3.10-2.debian.tar.xz 5c17392c02a47fbc7e230e5c18ab23e5f1e7efa0 2609 golang-github-coreos-bbolt_1.3.10-2.dsc 015cdf5aaf86640211f1183dc115775d25cfbfbe 125701 golang-github-coreos-bbolt_1.3.10.orig.tar.gz"
+    "af3e2f9c644665b1af8728b92ab00587f7441fa4 4228 golang-github-coreos-bbolt_1.3.6-2.debian.tar.xz 69ed765cf3dc8634866458fc40a80b176d2bdec1 1807 golang-github-coreos-bbolt_1.3.6-2.dsc 93c92751afb31a7305f13550a249cedcb3e5607b 98025 golang-github-coreos-bbolt_1.3.6.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "171a8bb5aa50fa072858193a85244d2fd5076f8be143d0b2e74bb18d0258df06 4696 golang-github-coreos-bbolt_1.3.10-2.debian.tar.xz 0c7c608743b203ba64165b35de78b7fde6bdd0df995da7a5dfcd4a5036fe838f 2609 golang-github-coreos-bbolt_1.3.10-2.dsc 4991a0f2cfb4fd4530c450e3b913cf38fc8566d115c514ecbcef5946a7391400 125701 golang-github-coreos-bbolt_1.3.10.orig.tar.gz"
+    "dfd8f0afa651828542cc1b70deed77ab76dd8469f6c4a10dd65235250903b962 4228 golang-github-coreos-bbolt_1.3.6-2.debian.tar.xz 231c9ae98f76c53adddfdddc42cfef20f7ee882c4b5a00311a91a60c00c632b1 1807 golang-github-coreos-bbolt_1.3.6-2.dsc a2e524f7f32c44fa0765de192ac0789c585010cadd2c2ddcf9518e858a96ec1f 98025 golang-github-coreos-bbolt_1.3.6.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e845d49748cbf67b32d882888d3e4f178ebab2d6f90138c6bbece2dcb295110c96d1d11cb2d788a0a57b9cd1b3cfdb8843861c38f48ddb8e68e43549d8a8565d 4696 golang-github-coreos-bbolt_1.3.10-2.debian.tar.xz 3557e42b8b14cf14caa6f8c2ff47b34fc2c668099560dc058fa432492f7cf0689f14eb027a077fe3c413a64a5a665b10fa9d896e69555ebcc92b6710eef5300b 2609 golang-github-coreos-bbolt_1.3.10-2.dsc 71233742798ed323ba5c28e3b391f1225a663a8109a57b443339655f572e89a040c8264e2bb2be7eac5cd66ff6b157e677bf819862a6a93508bc5bda84fe67de 125701 golang-github-coreos-bbolt_1.3.10.orig.tar.gz"
+    "eb4314daafe1effa264c31a008cc105698145f1e8040db4385d43af9c988c5beec44c65a13c14ed962cbc5cdf20bc987ea79c3f1d51d91c1ee00edf9886c6383 4228 golang-github-coreos-bbolt_1.3.6-2.debian.tar.xz c02a3d1fdb0c8f815815bf3991129c03836c959d40b72cf9ef40d8a57d894a252e5a6dc5bca6a04aecd3a85f0974ab581f6a03d676d1da7760a4d239245bc23f 1807 golang-github-coreos-bbolt_1.3.6-2.dsc e2ad1eba79c90ad0d4a9040aac9682750cfc243c730caa7ca0a0ad2eeebb952e5379e2d2a4873368957359331fa56a4f28d418f94e939c184eb62c47d25d297b 98025 golang-github-coreos-bbolt_1.3.6.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-coreos-bbolt"
   ],
   "Files": [
-    "dab2597cd0280c2650c2fc979bb1ead2 4696 golang-github-coreos-bbolt_1.3.10-2.debian.tar.xz a049d74c50f211b7feac330c7bcf8e5a 2609 golang-github-coreos-bbolt_1.3.10-2.dsc 55452d14821943699b07ec2883f6ed71 125701 golang-github-coreos-bbolt_1.3.10.orig.tar.gz"
+    "55c4189cd643840a4ac759fbb0d62ffd 4228 golang-github-coreos-bbolt_1.3.6-2.debian.tar.xz 1943e471f728f211c1365ed252d4a4f7 1807 golang-github-coreos-bbolt_1.3.6-2.dsc 11c51060217e73afcc2dbbe6a13e93e4 98025 golang-github-coreos-bbolt_1.3.6.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "golang-github-coreos-bbolt-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-coreos-bbolt.git"
   ],
   "Version": [
-    "1.3.10-2"
+    "1.3.6-2"
   ]
 }

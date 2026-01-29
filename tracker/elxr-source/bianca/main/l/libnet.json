@@ -3,31 +3,34 @@
     "any all"
   ],
   "Binary": [
-    "libnet1, libnet1-dev, libnet1-doc"
+    "libnet1, libnet1-dbg, libnet1-dev, libnet1-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libpcap-dev, doxygen \u003c!nodoc\u003e"
+    "debhelper (\u003e= 9), sharutils, libpcap-dev, cdbs (\u003e= 0.4.93~), patchutils, dh-autoreconf"
   ],
   "Checksums-Sha1": [
-    "c34912ed75ddd2a4250e739cef4330b4b21ac8b4 10068 libnet_1.3+dfsg-2.debian.tar.xz 46a0d371ba1faa698f29dcb7041d07fde0fee862 1967 libnet_1.3+dfsg-2.dsc b256b2781dabb775e670194dc49a0d431e16fbf5 251113 libnet_1.3+dfsg.orig.tar.gz"
+    "6d0aedf13a2d8b5bc63842f3f8247260c3298c28 14768 libnet_1.1.6+dfsg-3.2.debian.tar.xz b855d5b86c505a9f277abc5f541fb2b740126023 1528 libnet_1.1.6+dfsg-3.2.dsc 45056bf826409b1f921587a6c99e5e5a0b28291a 660041 libnet_1.1.6+dfsg.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "eff55889659d82ee6143e3297d34347dc0cc188360d43e3852e38e49b50db19f 10068 libnet_1.3+dfsg-2.debian.tar.xz c4d48ecc865851924454867294b81829c5bac31a6829e83506c7dd0c76214571 1967 libnet_1.3+dfsg-2.dsc ef85c60d7b09f5b3ffd7ea4ba8bef162577a38d7305545819d3c9a4fea8cb02e 251113 libnet_1.3+dfsg.orig.tar.gz"
+    "9b7e8a81e1296c8781c0b1c5df4e537438f7ed5e716b2df327273421120071e8 14768 libnet_1.1.6+dfsg-3.2.debian.tar.xz ad3fe1b0abbdf4c402c9b730361b3307f6ecd3a4562632fac124b8c74621ea75 1528 libnet_1.1.6+dfsg-3.2.dsc d585826a6007169b5e32431bc1c575ae20f5b2bbd26d92de6214793d1a8f396d 660041 libnet_1.1.6+dfsg.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "09f47203af036d79cd100c6af6aed2c08d9044af0ef8f2cc394cbd540aff7c7dc56a85054de620112f30026c4a766607ece89f52c8b16eddd8d0225e88f6bd6a 10068 libnet_1.3+dfsg-2.debian.tar.xz 1b727925a3e2140dd888446d6a684ed75d45229c4519049736744d2f5c81b400ffc50a5c3e6c1dc69027ee2816a7369fb7d70833eb77078b3628929c3e9070f5 1967 libnet_1.3+dfsg-2.dsc 3a6dbd655fe49c0e283938fcc44ee096261265fd4b100ffbc61951b29026fc813e0d89524cc5711e03ccecda3cdbafde1a83c28d897a8c8167552b1192c2292c 251113 libnet_1.3+dfsg.orig.tar.gz"
+    "54bfa272505935a9e86c35c6d4da3f8f61d97d9a0ac6341fc27d5e2874bf230836865a2349a836b875c4924a56ffc336da5584d9a99fc9b283c83332b24a5e1d 14768 libnet_1.1.6+dfsg-3.2.debian.tar.xz ed667b05b34d17e8ab7f4265a954cb63ac6f1bfded8dde5bca26afdf4cb3bf0a7d4321da1628d43c118432972884c3d115c7af9b9b204ba55e822ec70d7eb915 1528 libnet_1.1.6+dfsg-3.2.dsc b186a71ada687db08ae3e6e3953abc302e35b65fb91da325ee97fd8ca43aab280c2e6fa8b2cf1b76827d2c21828b5c603955aff7a2f5953e10c7cc8d7754534d 660041 libnet_1.1.6+dfsg.orig.tar.gz"
+  ],
+  "Dgit": [
+    "890e7b9977ef548417aede3d9e5b8a1017876c32 debian archive/debian/1.1.6+dfsg-3.2 https://git.dgit.debian.org/libnet"
   ],
   "Directory": [
     "pool/main/libn/libnet"
   ],
   "Files": [
-    "cc5cd40667a84393a5adc4580471b1f4 10068 libnet_1.3+dfsg-2.debian.tar.xz c76ec9aa0c3b8cb5eb91454b76e2517e 1967 libnet_1.3+dfsg-2.dsc 54c8546d1cb925836e7a792fc83e55a1 251113 libnet_1.3+dfsg.orig.tar.gz"
+    "717b3654ccab3bbe5a824ce1a49e4085 14768 libnet_1.1.6+dfsg-3.2.debian.tar.xz cc57d6bb4af1f44069c2ca6b49670688 1528 libnet_1.1.6+dfsg-3.2.dsc 0e81958b4dd3c5ebe9147658ea0bc30c 660041 libnet_1.1.6+dfsg.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://github.com/libnet/libnet/"
+    "http://libnet-dev.sourceforge.net/"
   ],
   "Maintainer": [
     "Stefanos Harhalakis \u003cv13@v13.gr\u003e"
@@ -36,18 +39,12 @@
     "libnet"
   ],
   "Package-List": [
-    "libnet1 deb libs optional arch=any libnet1-dev deb libdevel optional arch=any libnet1-doc deb doc optional arch=all"
+    "libnet1 deb libs optional arch=any libnet1-dbg deb debug extra arch=any libnet1-dev deb libdevel optional arch=any libnet1-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/libnet"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/libnet.git"
+    "3.9.5"
   ],
   "Version": [
-    "1.3+dfsg-2"
+    "1.1.6+dfsg-3.2"
   ]
 }

@@ -6,22 +6,22 @@
     "usbmuxd"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), pkgconf, libusb-1.0-0-dev [linux-any], udev [linux-any], systemd-dev [linux-any], libusb2-dev (\u003e= 8.0-4) [kfreebsd-any], libplist-dev (\u003e= 2.6), libimobiledevice-dev (\u003e= 1.3.0+git20240701)"
+    "debhelper-compat (= 12), pkg-config, libusb-1.0-0-dev (\u003e= 1.0.9) [linux-any], udev [linux-any], systemd [linux-any], libusb2-dev (\u003e= 8.0-4) [kfreebsd-any], libplist-dev (\u003e= 2.2.0), libimobiledevice-dev (\u003e= 1.3.0)"
   ],
   "Checksums-Sha1": [
-    "798e19d7640046f7bac5904cec360a2ab0a5193c 8212 usbmuxd_1.1.1-6.debian.tar.xz e040fba336949a659128644e92e7bc210bffd67a 1800 usbmuxd_1.1.1-6.dsc 21f68d496c31e383ab3cfdfb9925e3771579d75f 61680 usbmuxd_1.1.1.orig.tar.gz"
+    "cf67143591c0c6cfbcb91ee0a4301d4a0febb7cb 6028 usbmuxd_1.1.1-2.debian.tar.xz 253cc048116a58a6edab76773fa09c95b15aa8c6 1800 usbmuxd_1.1.1-2.dsc 21f68d496c31e383ab3cfdfb9925e3771579d75f 61680 usbmuxd_1.1.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "f5cd1f3b49d7e989f653fe15c4306f13292733b95332957960cfcdf299303deb 8212 usbmuxd_1.1.1-6.debian.tar.xz d49c168e8f26387093f890745db4c2946c25157572138689996a979939fc9660 1800 usbmuxd_1.1.1-6.dsc e7ce30143e69d77fc5aa6fb0cb5f0cfcdbeff47eb1ac7fd90ac259a90de9fadd 61680 usbmuxd_1.1.1.orig.tar.gz"
+    "c1858acc18d7011cfff364f4d11551653f8cc4ebe541356e411aa64a5106d8df 6028 usbmuxd_1.1.1-2.debian.tar.xz eaecd19cadda2d77ce66ebf1e36c38d40702d60dc093ae07f147a52d8098cfc5 1800 usbmuxd_1.1.1-2.dsc e7ce30143e69d77fc5aa6fb0cb5f0cfcdbeff47eb1ac7fd90ac259a90de9fadd 61680 usbmuxd_1.1.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "1765055d05064e6d2a1f31fabcdd4d066da53d5f05c5d74e3541098e6a073f4a9291849e9966d0f9294cb3e85793c37c80d724b312fc9891695ea34a953b8ad0 8212 usbmuxd_1.1.1-6.debian.tar.xz 4bbe3874bd467366d0609eb823fe4f4be43e19cfcb358ce0b6b6e7a03be424745833579b40439905e7999fef8e3a70c6610d7af66fcb8f75ef8975991afb4d1c 1800 usbmuxd_1.1.1-6.dsc 500e5f9a3500ad49bd8c195da71586db88964dd62dd716bb6a30827cc42bfdab38326b98204afdf606b1795d270d7f0261a59576558405de3540f6038a575856 61680 usbmuxd_1.1.1.orig.tar.gz"
+    "d7f601f1c0f5ef573da937c899a0c7cd0e35bddf6ba156e9f98a7c8bc48226ba9231403ed370caf66229397a12eec628d8ec6a586ed51fb65b4c5866ee70ad16 6028 usbmuxd_1.1.1-2.debian.tar.xz 0e82e3ad0f93b57d2bdea782a0538c7f05fd31211abec0a517959e4722abcf4c3fc1c4d4b53930e64a98adf924d50e21d613fd08443e8c4261ddbbc09f9cbaf9 1800 usbmuxd_1.1.1-2.dsc 500e5f9a3500ad49bd8c195da71586db88964dd62dd716bb6a30827cc42bfdab38326b98204afdf606b1795d270d7f0261a59576558405de3540f6038a575856 61680 usbmuxd_1.1.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/u/usbmuxd"
   ],
   "Files": [
-    "1447c4291d17516459692f0b0876f1c0 8212 usbmuxd_1.1.1-6.debian.tar.xz dba86a07253e7ce02ead60c240e22389 1800 usbmuxd_1.1.1-6.dsc c83e97eb82287ff412211816c943bedc 61680 usbmuxd_1.1.1.orig.tar.gz"
+    "86f9794388979c8b3c3edeebfab519ad 6028 usbmuxd_1.1.1-2.debian.tar.xz 1256c18b14140ebcb947decfd30c0b91 1800 usbmuxd_1.1.1-2.dsc c83e97eb82287ff412211816c943bedc 61680 usbmuxd_1.1.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/imobiledevice-team/usbmuxd.git"
   ],
   "Version": [
-    "1.1.1-6"
+    "1.1.1-2"
   ]
 }

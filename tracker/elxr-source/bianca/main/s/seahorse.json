@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), desktop-file-utils, dh-sequence-gnome, docbook-xml, docbook-xsl, gcr (\u003e= 3.4) \u003c!nocheck\u003e, itstool, libavahi-client-dev (\u003e= 0.6), libavahi-glib-dev (\u003e= 0.6), libgck-1-dev (\u003e= 3.11.91), libgcr-3-dev (\u003e= 3.38), libglib2.0-dev (\u003e= 2.66), libgpgme-dev (\u003e= 1.14.0), libgtk-3-dev (\u003e= 3.24), libhandy-1-dev (\u003e= 1.6.0), libldap2-dev, libpwquality-dev, libsecret-1-dev (\u003e= 0.16), libsoup-3.0-dev, libxml2-utils, meson (\u003e= 0.59), openssh-client, valac (\u003e= 0.22), xsltproc"
   ],
   "Checksums-Sha1": [
-    "6409680d0655bba690f1a9141fe88c22d37ed0bf 14864 seahorse_47.0.1-2.debian.tar.xz 34e6621edbabd6acc4e9255c9885ab65dd5a04d2 2391 seahorse_47.0.1-2.dsc 5dedaef5fa547c58a9cf0bf5ddf285c54f16f923 1401872 seahorse_47.0.1.orig.tar.xz"
+    "bec325709438db52cfefee92e9df29d6c40cec40 14776 seahorse_43.0-1.debian.tar.xz 080960fe6180965de24204655f21b2bab14b79c2 2566 seahorse_43.0-1.dsc 9c7f63cdf07275c8f7d45ad1904e06e8fa002c0b 1392460 seahorse_43.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "7f8bdd303b6d7a140b3b86543c3102c2fea4027865ae51026b142e004cff898f 14864 seahorse_47.0.1-2.debian.tar.xz aa0abf89bba32602efebc5c8c9cfe9255fdbb79a5a068a76ffc4186407d9f41b 2391 seahorse_47.0.1-2.dsc 9c1917e4a61f7febb787849ce36ce717fce706c346880b991d056d54dadbcacc 1401872 seahorse_47.0.1.orig.tar.xz"
+    "9535d81a205b7cd3e5d1b37c8e2cab144a0babfe0b42be13a81c8c36788f7fa7 14776 seahorse_43.0-1.debian.tar.xz 1ccaba326aa472e0d00fd44fcd0ea05eb1c53c8bc5fbcaf605ae977d6619ed8f 2566 seahorse_43.0-1.dsc 5b1d1bfba74f3658227f3c82e296f330dd0fcd1ef4636b6a218228fee5ea832d 1392460 seahorse_43.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "a0aa2126e10918179883baab4be04d890671687ceddee1b62e63cc9c49c20d9d82273dedddf2c00c7dec2f69fa07a2369b03744238985c10e83c39f89d36fb8c 14864 seahorse_47.0.1-2.debian.tar.xz 37bfebef2552c2c09a8ef179095d2139e5d5ffb0e1023b34f6b2b9d970931ee1f1865df79016d5f8c6626b7503e68bfd87702731b8333c5acaa951914ac28aa6 2391 seahorse_47.0.1-2.dsc ac2a20f4d9106f26932c77dc11b4fbd18c8a83d15991f31ae89223a487fa1b4d97cb19de858cc6f53435b7ebcc1dd0f16148d0d1d3080436f0b541de5a56bfcb 1401872 seahorse_47.0.1.orig.tar.xz"
+    "764ab50fba5bc20cd5d9244c7b1f66c6ce1d33502e49923b182abe7991a54fa6ad1f3f2bbb84e17961e52c68126dc8ee1db63cf144e701961947fce6dc052388 14776 seahorse_43.0-1.debian.tar.xz 0551d6a3ae1c2fe7a2bd40b0a8a35031875b3e80b88a06ac7b5a2bfc7e878767294b1498a6134340c1edb7ec051cc2ee631a8aeee1c65cb594a3a301b23d105f 2566 seahorse_43.0-1.dsc 168fdfc829134915f513028b1d35b647aa18a0390786cbf512f7ddb7b125b239f3f3d880a847119a5aa22580354f0b594e553fe3940a3afbda5861e69dd88e5d 1392460 seahorse_43.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/s/seahorse"
   ],
   "Files": [
-    "5d76e412dbad670cf1603c2c1691f049 14864 seahorse_47.0.1-2.debian.tar.xz 25bc8c4b0582ec9c891609f97b74060d 2391 seahorse_47.0.1-2.dsc 18cd36abd8d2e25c236934be64c8b916 1401872 seahorse_47.0.1.orig.tar.xz"
+    "aaafc174e01561d41fa00ed411037ac6 14776 seahorse_43.0-1.debian.tar.xz 68f456a89ee564c9c0e00f1374e71e16 2566 seahorse_43.0-1.dsc efa9fea2e1c4291c39d509eb366b9a56 1392460 seahorse_43.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "seahorse deb gnome optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Uploaders": [
-    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
+    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Josselin Mouette \u003cjoss@debian.org\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e, Sebastien Bacher \u003cseb128@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/seahorse"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/seahorse.git"
   ],
   "Version": [
-    "47.0.1-2"
+    "43.0-1"
   ]
 }

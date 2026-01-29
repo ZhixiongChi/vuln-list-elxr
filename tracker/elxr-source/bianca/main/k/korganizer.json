@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "amd64 arm64 armhf i386"
+    "any"
   ],
   "Binary": [
     "korganizer"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-kf5, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.6.0~), gettext, libakonadi-dev (\u003e= 4:24.12.3~), libakonadicalendar-dev (\u003e= 4:24.12.3~), libakonadicontact-dev (\u003e= 4:24.12.3~), libcalendarsupport-dev (\u003e= 4:24.12.3~), libeventviews-dev (\u003e= 4:24.12.3~), libincidenceeditor-dev (\u003e= 24.12.3~), libkcalendarutils-dev (\u003e= 4:24.12.3~), libkdepim-dev (\u003e= 4:24.12.3~), libkf6calendarcore-dev (\u003e= 6.6.0~), libkf6config-dev (\u003e= 6.6.0~), libkf6configwidgets-dev (\u003e= 6.3.0~), libkf6contacts-dev (\u003e= 6.6.0~), libkf6coreaddons-dev (\u003e= 6.6.0~), libkf6crash-dev (\u003e= 6.6.0~), libkf6doctools-dev (\u003e= 6.6.0~), libkf6holidays-dev (\u003e= 6.6.0~), libkf6i18n-dev (\u003e= 6.6.0~), libkf6iconthemes-dev (\u003e= 6.6.0~), libkf6itemviews-dev (\u003e= 6.6.0~), libkf6jobwidgets-dev (\u003e= 6.6.0~), libkf6kcmutils-dev (\u003e= 6.6.0~), libkf6newstuff-dev (\u003e= 6.6.0~), libkf6parts-dev (\u003e= 6.6.0~), libkf6userfeedback-dev (\u003e= 6.6.0~), libkf6widgetsaddons-dev (\u003e= 6.6.0~), libkf6windowsystem-dev (\u003e= 6.6.0~), libkf6xmlgui-dev (\u003e= 6.6.0~), libkidentitymanagement-dev (\u003e= 24.12.3~), libkldap-dev (\u003e= 24.12.2~), libkmailtransport-dev (\u003e= 24.12.3~), libkmime-dev (\u003e= 24.12.3~), libkontactinterface-dev (\u003e= 24.12.3~), libpimcommon-dev (\u003e= 4:24.12.3~), libplasmaactivities-dev (\u003e= 6.1.0~), libx11-dev, pkgconf, qt6-base-dev (\u003e= 6.7.0~), qt6-tools-dev (\u003e= 6.7.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), dh-sequence-kf5, extra-cmake-modules (\u003e= 5.99.0~), gettext, kuserfeedback-dev (\u003e= 1.2.0~), libgrantlee5-dev (\u003e= 5.2~), libkf5akonadi-dev (\u003e= 4:22.12.3~), libkf5akonadicalendar-dev (\u003e= 4:22.12.3~), libkf5akonadicontact-dev (\u003e= 4:22.12.3~), libkf5akonadinotes-dev (\u003e= 4:22.12.3~), libkf5calendarcore-dev (\u003e= 5:5.99.0~), libkf5calendarsupport-dev (\u003e= 4:22.12.3~), libkf5calendarutils-dev (\u003e= 4:22.12.3~), libkf5config-dev (\u003e= 5.99.0~), libkf5configwidgets-dev (\u003e= 5.99.0~), libkf5contacts-dev (\u003e= 5:5.99.0~), libkf5coreaddons-dev (\u003e= 5.99.0~), libkf5crash-dev (\u003e= 5.99.0~), libkf5doctools-dev (\u003e= 5.99.0~), libkf5eventviews-dev (\u003e= 4:22.12.3~), libkf5holidays-dev (\u003e= 1:5.99.0~), libkf5i18n-dev (\u003e= 5.99.0~), libkf5iconthemes-dev (\u003e= 5.99.0~), libkf5identitymanagement-dev (\u003e= 22.12.3~), libkf5incidenceeditor-dev (\u003e= 22.12.3~), libkf5itemviews-dev (\u003e= 5.99.0~), libkf5jobwidgets-dev (\u003e= 5.99.0~), libkf5kcmutils-dev (\u003e= 5.99.0~), libkf5kontactinterface-dev (\u003e= 22.12.3~), libkf5ldap-dev (\u003e= 22.12.3~), libkf5libkdepim-dev (\u003e= 4:22.12.3~), libkf5mailtransport-dev (\u003e= 22.12.3~), libkf5mime-dev (\u003e= 22.12.3~), libkf5newstuff-dev (\u003e= 5.99.0~), libkf5notifications-dev (\u003e= 5.99.0~), libkf5parts-dev (\u003e= 5.99.0~), libkf5pimcommon-dev (\u003e= 4:22.12.3~), libkf5pimtextedit-dev (\u003e= 22.12.3~), libkf5widgetsaddons-dev (\u003e= 5.99.0~), libkf5windowsystem-dev (\u003e= 5.99.0~), libkf5xmlgui-dev (\u003e= 5.99.0~), libphonon4qt5-dev, libx11-dev, pkg-config, qtbase5-dev (\u003e= 5.15.2~), qttools5-dev (\u003e= 5.15.2~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "f63d5a4382c5f0bc24c232d42e73555c6f00e0b9 16952 korganizer_24.12.3-1.debian.tar.xz ac5b28bbe0e9e42cf5ff4262c2881aa67d4db5be 3735 korganizer_24.12.3-1.dsc 8d867219ba213921a8dca5fba32d876cab043b09 2946216 korganizer_24.12.3.orig.tar.xz 11a40909b5becf9c03accc2a212c78ff872036e1 833 korganizer_24.12.3.orig.tar.xz.asc"
+    "f2717b860acfb97c57009cd14a530d73ecc7ed1e 16776 korganizer_22.12.3-1.debian.tar.xz 4015c42ca69d16c21fdfb2fb1dd0a8af0787fe4f 3787 korganizer_22.12.3-1.dsc 8eef6d08cc9af407b1cfcb933a48681d7d7b60ae 2571952 korganizer_22.12.3.orig.tar.xz 1f5df457af7d4a9ff1ab340eee727a541a0dccb9 833 korganizer_22.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "61260e7914f2fcafcbfc1f18df3e9a7f7c8b70a514e407afe42a6b6d7fd823bb 16952 korganizer_24.12.3-1.debian.tar.xz afa61a70754496f15fd48bd2b13e3d25a5812558a3cf0e47efd66d2be7a9091f 3735 korganizer_24.12.3-1.dsc 1971118128338627309fa86fde08d4a6d3c48c08be90c5b8dee06b319e62e514 2946216 korganizer_24.12.3.orig.tar.xz 3f3ab66438678d15d80e57b654536d273c203d250bc8deeb5789db0ae6f56f1f 833 korganizer_24.12.3.orig.tar.xz.asc"
+    "d072e8b7a8e12a473a4f9a4a84b1fa6790292db2e4b3890243feddab2a19d113 16776 korganizer_22.12.3-1.debian.tar.xz 69101939059056d87f78ce879500971aaa271b665137de0911f9ea878ede6f20 3787 korganizer_22.12.3-1.dsc ac4287ba706695034d0383042d1cd0e2f4bdd2d78a75627e17a16e69cfabad42 2571952 korganizer_22.12.3.orig.tar.xz 9d62b396ccaa1c1cd8a551039030d60379aa379d5dac598ebe29447e208243f7 833 korganizer_22.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "80dc9477cdd906b937825fdc39c7cb0a2f2952fbfedbeba3f7f1fb1b05e8baebeb8199eed509047052a5f6d4024ecfea8649d22cbec0bd358528be43864aecd6 16952 korganizer_24.12.3-1.debian.tar.xz 47bcca50a16d3a32d216f2a5d3bd19cd284e188acb09675b79e5ffc82fb351bd2873529474c59161dfab7c09c6d6b328dbf7d4b61433b876c2e0041173bb0014 3735 korganizer_24.12.3-1.dsc 774d3061bf5d4befb9a036f8c17bc135989ab3496ac35637daaceac47ae495dd4c1d8b487800d3e24eab909b36d79e12d5d1c8c019cea3d751312429dda1bb36 2946216 korganizer_24.12.3.orig.tar.xz 0d9646683b49fc1f0fea8118b808d5b216ac3194c8efab4c6b05282d18eb92c0856d2ed6cd14ce0e0a8307b4d9d5d7094561289a1060efc44c7f7892761a9a4c 833 korganizer_24.12.3.orig.tar.xz.asc"
+    "31678da0e2525b537ea38694b0a5decf5f59a51b9a8b1c7ab79de570d83c253c222c3847259cc8e9018c9caa03365cf8ae09e5fbef0880e6a14d88585029b41d 16776 korganizer_22.12.3-1.debian.tar.xz c3e6e9ae5296129bd0417d6cfe672b203b2497c8fa61bc82f16c7b03e90fdb87eedd9a3a36bd50de5dd6160241446fd52dadcb923cadfbe3a3662f39b289ee8d 3787 korganizer_22.12.3-1.dsc f7a18d0d3916f523e7fa8bfefae0142f848ed39e0c96f60f2e276a44970bc224b046864e1b30839307f404d061ef2c29873fa0df599eb44273a48a2c9685a4b1 2571952 korganizer_22.12.3.orig.tar.xz 23a0dca5881b142d7a350c1d70520ba6c060e2b334663f5b66b6a44e660972c762e4186078f0b91b95ab7b371e4fffcffc61738fecc183014f89a74b35606995 833 korganizer_22.12.3.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/k/korganizer"
   ],
   "Files": [
-    "5cddaa03cc3298ded671f2f1f97f8783 16952 korganizer_24.12.3-1.debian.tar.xz b8d5a3529de31a8d4d2d7bff4b6f00dd 3735 korganizer_24.12.3-1.dsc e6b4351714de419f5d64869e5288b7c7 2946216 korganizer_24.12.3.orig.tar.xz 0ae1023e3b141ff05957dc0b7a203ff7 833 korganizer_24.12.3.orig.tar.xz.asc"
+    "71e899d84bf1ac8cd5e8695cf0b588c6 16776 korganizer_22.12.3-1.debian.tar.xz f9838731cac81f37d15d480f14738c28 3787 korganizer_22.12.3-1.dsc 0f7fe39566202b72b0e9e93776bd40f0 2571952 korganizer_22.12.3.orig.tar.xz 27bddd1539982f6692542f367a77a4db 833 korganizer_22.12.3.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "korganizer"
   ],
   "Package-List": [
-    "korganizer deb kde optional arch=amd64,arm64,armhf,i386"
+    "korganizer deb kde optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Uploaders": [
     "Sandro Knauß \u003chefee@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/korganizer.git"
   ],
   "Version": [
-    "4:24.12.3-1"
+    "4:22.12.3-1"
   ]
 }

@@ -6,22 +6,22 @@
     "umockdev, libumockdev0, libumockdev-dev, gir1.2-umockdev-1.0"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, meson, pkgconf, valac (\u003e= 0.16.1), libglib2.0-dev (\u003e= 2.32.0), libudev-dev, libgudev-1.0-dev, libpcap-dev, python3-gi, libgirepository1.0-dev, gir1.2-glib-2.0, gir1.2-gobject-2.0-dev, gir1.2-gudev-1.0, gtk-doc-tools, help2man, udev \u003c!nocheck\u003e, usbutils \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), meson, pkg-config, valac (\u003e= 0.16.1), libglib2.0-dev (\u003e= 2.32.0), libudev-dev, libgudev-1.0-dev, libpcap-dev, python3-gi, gobject-introspection, libgirepository1.0-dev, gir1.2-glib-2.0, gir1.2-gudev-1.0, gtk-doc-tools, help2man, udev \u003c!nocheck\u003e, usbutils \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "092fce042577ee31a735c4f894f041d1c4614c46 9540 umockdev_0.19.1-3.debian.tar.xz 1f01cdd1f5de399189b70efdc3e21fa1bf410525 2483 umockdev_0.19.1-3.dsc 20fb3f8239df1bd2bc26497beb897deee676cd88 496652 umockdev_0.19.1.orig.tar.xz"
+    "814881fe769c06d1118c365048d31acd7fdfb651 8344 umockdev_0.17.16-1.debian.tar.xz 598936005741579271c69d4b8a40736f3af04302 2475 umockdev_0.17.16-1.dsc e8205771bbb93959efcad77d46774432d937b271 491208 umockdev_0.17.16.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "7bf8c576d31cdfa0e38f76555b9458e3643343338ff6503930540009b5f3ec41 9540 umockdev_0.19.1-3.debian.tar.xz d8fb7a4a68c87d8305d007f0b5f10e84f07ac6854a170e4c01835a70c05d1b1d 2483 umockdev_0.19.1-3.dsc 2cece0e8e366b89b4070be74f3389c9f7fa21aca56d8a5357e96e30cd8d4f426 496652 umockdev_0.19.1.orig.tar.xz"
+    "4a4a7b4c13e9b83429bb296870f2b9b7fc4e71c86fff6b5b9075f6812e4826b8 8344 umockdev_0.17.16-1.debian.tar.xz f27aa40a42178ed5fbed5259d56586e19db8aea6c983a32edef0adc6f33a3bb7 2475 umockdev_0.17.16-1.dsc 4f405b8ce9219f8117d8605ecd815b8941cd829dae11b4a26b1a49ff7ea3ae26 491208 umockdev_0.17.16.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "d698516d05e523e121b26718e752586f07a6e0280223b9a5a04b241297b04ed698523d555f951ab86cd7383cc8f6bb922a926807d381feb248a0ef9b44707db4 9540 umockdev_0.19.1-3.debian.tar.xz 9862c4b4c3b9956ee0ce81868d95e6cb15b3b038f7a77cf055c15390b181aeb7e4c5c4e4019dea3d30ababbc00d3eac7076f7602e468dff852cba1f2588fdfb8 2483 umockdev_0.19.1-3.dsc 3e7c892d0999b6a61f802445851d83bff7c5a2ddc9d0b673bebe2a130b3782d7788082f21bf3c4064e3bbf867c43cde9a583bdd54e2eea467ee430c8b5d4db1c 496652 umockdev_0.19.1.orig.tar.xz"
+    "c6bc61bf4bf49f409b547bb3d3ff36e6c6128d91f3e97fd33834f8c2064fda71c55fb9d038d1a03270fd87c51b828530ef30058eaaaeceeedcae26c3ee963133 8344 umockdev_0.17.16-1.debian.tar.xz 3f671ca45f703d8e0ff5d718810a7cacbf9badafc7f312ef1303cf7d2da17caf4232e69a1988ffb73916f037fa12e5a979e4cc0576346e548b5bd81b64908996 2475 umockdev_0.17.16-1.dsc 5d4a094481510f4466e49766512d0959a5a9d9f5a9b7cbd7719bc94e95d9800760482bf3ea2ee97d2138c89680adb4116964688ae13a07e3c1f0ba8e94230584 491208 umockdev_0.17.16.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/u/umockdev"
   ],
   "Files": [
-    "2e043595dfbb46edb724352d7ce67353 9540 umockdev_0.19.1-3.debian.tar.xz ea75d2abb0236f72244e034b20ca0af4 2483 umockdev_0.19.1-3.dsc 05e3edda217c404aae1c78adf7e10d18 496652 umockdev_0.19.1.orig.tar.xz"
+    "b4818a0afabfa5097ee1dfbd44e0ac66 8344 umockdev_0.17.16-1.debian.tar.xz 2fdebf55c6196ce1e4012a565fcfb52d 2475 umockdev_0.17.16-1.dsc 7f504b350a804f14dd18c6d607206b59 491208 umockdev_0.17.16.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "gir1.2-umockdev-1.0 deb introspection optional arch=any libumockdev-dev deb libdevel optional arch=any libumockdev0 deb libs optional arch=any umockdev deb devel optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/umockdev.git"
   ],
   "Version": [
-    "0.19.1-3"
+    "0.17.16-1"
   ]
 }

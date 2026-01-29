@@ -6,28 +6,22 @@
     "liblerc4, liblerc-dev, python3-lerc"
   ],
   "Build-Depends": [
-    "architecture-is-little-endian, cmake, debhelper-compat (= 13), dh-sequence-pkgkde-symbolshelper, pkg-kde-tools, python3-numpy \u003c!nocheck\u003e"
-  ],
-  "Build-Depends-Indep": [
-    "dh-sequence-numpy3, dh-sequence-python3, python3-all, python3-numpy, python3-setuptools"
+    "cmake, debhelper-compat (= 12), dh-python, pkg-kde-tools, python3-all, python3-numpy, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "2a4d7d4be401166643d6d45ea3e7a4d5c86910c9 8576 lerc_4.0.0+ds-5.debian.tar.xz 70535685cd6bc36754c2dd7d32bbd21a4cd3bdd3 2673 lerc_4.0.0+ds-5.dsc 03f7ed1ab6873ef6855462f845bd260863a9be81 348140 lerc_4.0.0+ds.orig.tar.xz"
+    "1eceb7e0263eae7277779de1824f4a555eee5e75 7780 lerc_4.0.0+ds-2.debian.tar.xz 87d6416502b0114fb78a9c5344c187f9969eea24 2224 lerc_4.0.0+ds-2.dsc 03f7ed1ab6873ef6855462f845bd260863a9be81 348140 lerc_4.0.0+ds.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "28ab2b1c19c845cd493e804bb9c43b47f72d5852281ebf832ed68a7576afbf6d 8576 lerc_4.0.0+ds-5.debian.tar.xz 84de8dac3dd5f5edc005c5c02be58c1f549f9365ad4147c138c85e07d624cc12 2673 lerc_4.0.0+ds-5.dsc acf855502fd3b950ee78f0b67bc9e9b39316b3526fbf6d8b8b1a9482fb756723 348140 lerc_4.0.0+ds.orig.tar.xz"
+    "b5676df41934c3c95447a66f766ac8f536cf9fa88063c93b0201e6b4fd25aff6 7780 lerc_4.0.0+ds-2.debian.tar.xz 61c32adc1590f930af4b94b151e6a0a8569ace7d7a4f1961eb049f209b47a417 2224 lerc_4.0.0+ds-2.dsc acf855502fd3b950ee78f0b67bc9e9b39316b3526fbf6d8b8b1a9482fb756723 348140 lerc_4.0.0+ds.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "1092ff9c3265f8c416b105a4e7aaa01cc1412683bb1b5bbe10303b2440799717e98e4af574865f80dd8bc14b7b068dcc16ec2e9d0f7f8e322278293b70f7f12d 8576 lerc_4.0.0+ds-5.debian.tar.xz 0942855ddc8b8a1329a1e9139252c3bd4bdc84ef83664b3b8c147684e387a255a6f95accccbb36ca32cb3137b06f44054fe8aa7cc387a91876d879d4a29e9ebc 2673 lerc_4.0.0+ds-5.dsc d5539360fa92f40319466fea73a66d0d03aedff886fb75985bfcaeeb77ef516b9fa24b8d83da09c114bf6090bbd68e64d9ac2649a19315895134fa86023478e1 348140 lerc_4.0.0+ds.orig.tar.xz"
-  ],
-  "Description": [
-    "Limited Error Raster Compression library LERC is an open-source image or raster format which supports rapid encoding and decoding for any pixel type (not just RGB or Byte). Users set the maximum compression error per pixel while encoding, so the precision of the original input image is preserved (within user defined error bounds)."
+    "f00594e8b07b6c7a7dff3a9184097a199083b6c5be41217db0f12a49e48d1e164478949fa8e95c3775548f3a3873f952e7ac4f25c124fec35efe5a992996820d 7780 lerc_4.0.0+ds-2.debian.tar.xz ed8a40ddd793082296e7e7f7af4f3c42ba7a72c392ac2409256d3aebf34b85280d72c9e23f53f86650030ce6ab292fc51121f432cd966812109fab50ee136255 2224 lerc_4.0.0+ds-2.dsc d5539360fa92f40319466fea73a66d0d03aedff886fb75985bfcaeeb77ef516b9fa24b8d83da09c114bf6090bbd68e64d9ac2649a19315895134fa86023478e1 348140 lerc_4.0.0+ds.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/l/lerc"
   ],
   "Files": [
-    "727b8cd1ec94d773c438b272afb5d362 8576 lerc_4.0.0+ds-5.debian.tar.xz 66c5c0524e2fb1fa080432f753db9dcc 2673 lerc_4.0.0+ds-5.dsc 587b5ce9cad1e4b32c43a73f9a66d512 348140 lerc_4.0.0+ds.orig.tar.xz"
+    "03252d4073121eecd0ed5b8cafd1d182 7780 lerc_4.0.0+ds-2.debian.tar.xz 1fc00b1bb2c86c071f8c72ff76f0bf5a 2224 lerc_4.0.0+ds-2.dsc 587b5ce9cad1e4b32c43a73f9a66d512 348140 lerc_4.0.0+ds.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,10 +39,13 @@
     "liblerc-dev deb libdevel optional arch=any liblerc4 deb libs optional arch=any python3-lerc deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
-    "autopkgtest-pkg-pybuild"
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all"
   ],
   "Uploaders": [
     "Antonio Valentino \u003cantonio.valentino@tiscali.it\u003e"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/debian-gis-team/lerc.git"
   ],
   "Version": [
-    "4.0.0+ds-5"
+    "4.0.0+ds-2"
   ]
 }

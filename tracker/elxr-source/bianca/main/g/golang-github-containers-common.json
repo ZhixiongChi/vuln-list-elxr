@@ -6,25 +6,25 @@
     "golang-github-containers-common, golang-github-containers-common-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-golang, go-md2man, golang-github-appc-cni-dev (\u003e\u003e 1.0~~), golang-github-burntsushi-toml-dev (\u003e\u003e 1.3), golang-github-checkpoint-restore-checkpointctl-dev (\u003e\u003e 1.3~~), golang-github-checkpoint-restore-go-criu-dev (\u003e\u003e 7.2~~), golang-github-container-orchestrated-devices-container-device-interface-dev (\u003e\u003e 0.6.2), golang-github-containerd-platforms-dev, golang-github-containernetworking-plugins-dev, golang-github-containers-image-dev (\u003e\u003e 5.34.2), golang-github-containers-ocicrypt-dev, golang-github-containers-storage-dev (\u003e\u003e 1.57.2), golang-github-coreos-bbolt-dev, golang-github-coreos-go-systemd-dev, golang-github-cyphar-filepath-securejoin-dev, golang-github-davecgh-go-spew-dev, golang-github-disiqueira-gotree-dev, golang-github-docker-distribution-dev, golang-github-docker-docker-dev, golang-github-docker-go-units-dev, golang-github-fsnotify-fsnotify-dev (\u003e\u003e 1.8~~), golang-github-ghodss-yaml-dev, golang-github-godbus-dbus-dev, golang-github-hashicorp-go-multierror-dev, golang-github-jinzhu-copier-dev, golang-github-json-iterator-go-dev, golang-github-moby-sys-dev (\u003e\u003e 0.0~git20240807), golang-github-onsi-ginkgo-dev, golang-github-opencontainers-go-digest-dev, golang-github-opencontainers-image-spec-dev (\u003e\u003e 1.1.0~~), golang-github-opencontainers-runc-dev (\u003e\u003e 1.0.1~~), golang-github-opencontainers-runtime-tools-dev, golang-github-opencontainers-selinux-dev (\u003e\u003e 1.8.0), golang-github-opencontainers-specs-dev, golang-github-pkg-sftp-dev, golang-github-pmezard-go-difflib-dev, golang-github-seccomp-libseccomp-golang-dev, golang-github-sirupsen-logrus-dev, golang-github-skeema-knownhosts-dev (\u003e\u003e 1.3), golang-github-spf13-cobra-dev, golang-github-spf13-pflag-dev, golang-github-stretchr-testify-dev, golang-github-vishvananda-netlink-dev, golang-go (\u003e\u003e 2:1.14), golang-gocapability-dev, golang-golang-x-crypto-dev, golang-golang-x-sync-dev, golang-golang-x-sys-dev, golang-golang-x-term-dev, golang-gomega-dev, gpg"
+    "debhelper-compat (= 13), dh-golang, go-md2man, golang-github-appc-cni-dev (\u003e\u003e 1.0~~), golang-github-burntsushi-toml-dev, golang-github-containerd-containerd-dev, golang-github-containernetworking-plugins-dev, golang-github-containers-image-dev (\u003e\u003e 5.23~~), golang-github-containers-ocicrypt-dev, golang-github-containers-storage-dev (\u003e\u003e 1.43~~), golang-github-coreos-bbolt-dev, golang-github-coreos-go-systemd-dev, golang-github-cyphar-filepath-securejoin-dev, golang-github-davecgh-go-spew-dev, golang-github-disiqueira-gotree-dev, golang-github-docker-distribution-dev, golang-github-docker-docker-dev, golang-github-docker-go-units-dev, golang-github-fsnotify-fsnotify-dev, golang-github-ghodss-yaml-dev, golang-github-godbus-dbus-dev, golang-github-hashicorp-go-multierror-dev, golang-github-jinzhu-copier-dev, golang-github-json-iterator-go-dev, golang-github-onsi-ginkgo-dev, golang-github-opencontainers-go-digest-dev, golang-github-opencontainers-image-spec-dev (\u003e\u003e 1.1.0~~), golang-github-opencontainers-runc-dev (\u003e\u003e 1.0.1~~), golang-github-opencontainers-runtime-tools-dev, golang-github-opencontainers-selinux-dev (\u003e\u003e 1.8.0), golang-github-opencontainers-specs-dev, golang-github-pkg-sftp-dev, golang-github-pmezard-go-difflib-dev, golang-github-seccomp-libseccomp-golang-dev, golang-github-sirupsen-logrus-dev, golang-github-spf13-cobra-dev, golang-github-spf13-pflag-dev, golang-github-stretchr-testify-dev, golang-github-vishvananda-netlink-dev, golang-go (\u003e\u003e 2:1.14), golang-gocapability-dev, golang-golang-x-crypto-dev, golang-golang-x-sync-dev, golang-golang-x-sys-dev, golang-golang-x-term-dev, golang-gomega-dev, gpg"
   ],
   "Checksums-Sha1": [
-    "923a829025e8ee60e3e7881606789bff4a6de741 7780 golang-github-containers-common_0.62.2+ds1-2.debian.tar.xz ae413c83336478364e242161a07689bb5d9e0e17 4493 golang-github-containers-common_0.62.2+ds1-2.dsc 7e667a5a11bab87ed5c709db82431bbf694c5848 1484868 golang-github-containers-common_0.62.2+ds1.orig.tar.xz"
+    "b17face4aa33ae7aff3a2456fdd0aa8f77f59165 6180 golang-github-containers-common_0.50.1+ds1-4.debian.tar.xz 712424e7c2ce3251ecba7cd1583f8552535387a3 4171 golang-github-containers-common_0.50.1+ds1-4.dsc cb6a1fe9b8603a4167316115ecec74f6f94776a4 1153412 golang-github-containers-common_0.50.1+ds1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "2e8f797d7c86c36149e0671402e82985f36c53729475412827f5dc7974ed851b 7780 golang-github-containers-common_0.62.2+ds1-2.debian.tar.xz a577f5c7ee331519a943cf80fd6f37384e10ba2317af5a8635bd3bb15f0cb29c 4493 golang-github-containers-common_0.62.2+ds1-2.dsc d721e0413d9c72cd305f8a110a6ae4f7f9e7794f4886d9bebe97b320a1f3967c 1484868 golang-github-containers-common_0.62.2+ds1.orig.tar.xz"
+    "bb60bd07b568e3504ed54b5e1e5773debc535748fbc918e7b8cca78903e205fc 6180 golang-github-containers-common_0.50.1+ds1-4.debian.tar.xz 7590d6876d1ac67cea624af1034d430d9cba8ec3519d047461f7631f06039787 4171 golang-github-containers-common_0.50.1+ds1-4.dsc bf90be1cd371faf9570538318f46a680a7affeb92c17a037ada3ab04bc30da95 1153412 golang-github-containers-common_0.50.1+ds1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "65374a4b2657318fe17c4e8c6500b22b6a6e494bbe99e3d22b795fe7b843eada10da211bea9302024545a343b03cb3d70501590f3d57758061f505c2a8283178 7780 golang-github-containers-common_0.62.2+ds1-2.debian.tar.xz 04bb69c0fabb77a1f3ebd24e8f88de7709fb197c6d9246e98ee5b59fad0a97a5046b9ebbc22960a198a530c1d5cca91910ec6d5c8a631c4a55ef57271ef9248d 4493 golang-github-containers-common_0.62.2+ds1-2.dsc 1dcc9df001973c85d4fcc4198913496e5235fd0a964ea46d98e92f2c565990b7dd3735ae6ab8d7ec93113801d99dc03f787aa4f7c82c43dc8c3cdfb6d579d3ea 1484868 golang-github-containers-common_0.62.2+ds1.orig.tar.xz"
+    "38e12d2de6eb30e84da775ef8b06fec6251ab068f53d266d6aa7cab92fbef85f8d489c9560860b93ff393fab6f00cf81235b4655b96bade85917d1959f3cb2ab 6180 golang-github-containers-common_0.50.1+ds1-4.debian.tar.xz 055c33651851009bca50c8e24a05c5aa8f681fc5d84877d6f4480df4dad30e5f9f94b05207d37aee064516aedd0540155d43bf54bea4c15ed08444fdfdd3ac0a 4171 golang-github-containers-common_0.50.1+ds1-4.dsc 5b4aef25e054d081f0105fb424b043f309c5ea8fb9a608e53bbaee40fecebcc9c263fecf6809328d588b4e58879aeb0e8ed74d424e25672380adea94aeaccc20 1153412 golang-github-containers-common_0.50.1+ds1.orig.tar.xz"
   ],
   "Dgit": [
-    "4864607e0c1387642bdc154e3dafb5ff72016443 debian archive/debian/0.62.2+ds1-2 https://git.dgit.debian.org/golang-github-containers-common"
+    "363eef42c2540a4fc0a6f43badf5ab0e63b7dd18 debian archive/debian/0.50.1+ds1-4 https://git.dgit.debian.org/golang-github-containers-common"
   ],
   "Directory": [
     "pool/main/g/golang-github-containers-common"
   ],
   "Files": [
-    "0a61d996c40902581deb0862ad3860dc 7780 golang-github-containers-common_0.62.2+ds1-2.debian.tar.xz 9585ef8b125df2a6ecea0e777d7601df 4493 golang-github-containers-common_0.62.2+ds1-2.dsc 46f5569876ee3565e2ec8d775f39fb04 1484868 golang-github-containers-common_0.62.2+ds1.orig.tar.xz"
+    "99034a69ca564a140f04caa1d2ae0f65 6180 golang-github-containers-common_0.50.1+ds1-4.debian.tar.xz ced6b19b11e81d2180c20c28297b22e0 4171 golang-github-containers-common_0.50.1+ds1-4.dsc 7e0b73bb31595d0e2772a382ba81833e 1153412 golang-github-containers-common_0.50.1+ds1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-containers-common.git"
   ],
   "Version": [
-    "0.62.2+ds1-2"
+    "0.50.1+ds1-4"
   ]
 }

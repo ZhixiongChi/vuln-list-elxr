@@ -6,22 +6,22 @@
     "pkg-php-tools"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), perl, php-cli, php-json, php-pear, php-xml"
+    "perl, php-pear, php-cli, php-json, php-xml, debhelper-compat (= 13)"
   ],
   "Checksums-Sha1": [
-    "52919bbb867ed04ef25d3f0bb3a9de3bdb6dc17a 1410 pkg-php-tools_1.49.dsc fd481d4b2ced753abefa070c56a9065923b52756 37836 pkg-php-tools_1.49.tar.xz"
+    "1a5158972cb5f100f6933a4e281ee622d45dc919 1427 pkg-php-tools_1.44.dsc f4a614a6a76d57e51322c15212228c2ec5091ecd 36444 pkg-php-tools_1.44.tar.xz"
   ],
   "Checksums-Sha256": [
-    "80d6c8f2ce95c48b1e3a1d1f9824a2e8368ffbea924cef85f5bb875e3727f8cd 1410 pkg-php-tools_1.49.dsc 17496c96315c35ea05600d7f28545eea8e28bcca988ecb2a11c940313bfac5c7 37836 pkg-php-tools_1.49.tar.xz"
+    "60eca195cde4aae094911dc55262f78a54905b99f3ffdc6cb9f042300ba51ef6 1427 pkg-php-tools_1.44.dsc dd92cffdebe5c04201e48ef6e8beaf9cc4fc649ab33499dc429b064a424c50b2 36444 pkg-php-tools_1.44.tar.xz"
   ],
   "Checksums-Sha512": [
-    "62a075adc101e9f25857e0c1979a7bfc99e5da59aa56399a4915dc71b0783f9061acd5138f364d444d2b46540ce7529ac966240631162171ae6e8961a64109b7 1410 pkg-php-tools_1.49.dsc dccd72ed16ab9575b9541cf5826b048bd66024a527554cadd378cf282a47664d3830f4690fbc8a0763ca973a188711f903e8653f609e3b3bb2d1628e5242864f 37836 pkg-php-tools_1.49.tar.xz"
+    "a1106b59df2adbdf83bd3f4343ca51643d24d3e57d2eb79c6697e6e22f1961e1e1213ab0d366e7f56b0fc65621047822d0362c2dfa459d92d1270c3d87fb84b4 1427 pkg-php-tools_1.44.dsc ca946a60ef45454c1930954bd6c16a6739dd7e7644b0cc658b71190915100eb37f4e0880187911557d73b436f66a6ad29914aa8b46a8135ee8f9a996a94b6c6a 36444 pkg-php-tools_1.44.tar.xz"
   ],
   "Directory": [
     "pool/main/p/pkg-php-tools"
   ],
   "Files": [
-    "89a646c6a1c68db281f757670a8ab062 1410 pkg-php-tools_1.49.dsc 0cc491172aba8f0e9e3bd29816b67cea 37836 pkg-php-tools_1.49.tar.xz"
+    "82f8b85c95118eb708e163b959684a6a 1427 pkg-php-tools_1.44.dsc 9275881dba9b6a367a093ab46efb3163 36444 pkg-php-tools_1.44.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -36,7 +36,7 @@
     "pkg-php-tools deb php optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -51,9 +51,9 @@
     "https://salsa.debian.org/php-team/pear/pkg-php-tools"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/php-team/pear/pkg-php-tools.git"
+    "https://salsa.debian.org/php-team/pear/pkg-php-tools.git -b debian/latest"
   ],
   "Version": [
-    "1.49"
+    "1.44"
   ]
 }

@@ -3,31 +3,28 @@
     "any"
   ],
   "Binary": [
-    "librust-ascii-dev"
+    "librust-ascii-dev, librust-ascii+serde-dev, librust-ascii+serde-test-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "2056f6c08e11956ccdb997211658e20118c056a4 4376 rust-ascii_1.1.0-2.debian.tar.xz 51374f47e28a6b86c84a6cf87426949be9990d41 2188 rust-ascii_1.1.0-2.dsc f7c0a48b84f857bc9adc91961619708383be3a1c 36075 rust-ascii_1.1.0.orig.tar.gz"
+    "38601853b359b934fe9f359f025feb931b49dee3 3280 rust-ascii_1.0.0-1.debian.tar.xz 43feaf3158d6b0d04a9346ebd62732853afb17d1 2385 rust-ascii_1.0.0-1.dsc c80ae0fc3bca306abf20b898094965720233fd33 31727 rust-ascii_1.0.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "6fff69a9136ae034c8c09c0ddc893f3387631c2b289a4f6f447788166a7b2d28 4376 rust-ascii_1.1.0-2.debian.tar.xz e84465a7a82ab18d9d78197fc71c276d87e4d0e37b71734188b6049c36b72d79 2188 rust-ascii_1.1.0-2.dsc d92bec98840b8f03a5ff5413de5293bfcd8bf96467cf5452609f939ec6f5de16 36075 rust-ascii_1.1.0.orig.tar.gz"
+    "662e44a31a1ee54bfb46fe1cd0e86bc8a852c6bd4acb379aec0660ee2b3fac2d 3280 rust-ascii_1.0.0-1.debian.tar.xz 494c2427def8d4402436095e3996561b33abf6702ab55da45387bd682e98f95b 2385 rust-ascii_1.0.0-1.dsc bbf56136a5198c7b01a49e3afcbef6cf84597273d298f54432926024107b0109 31727 rust-ascii_1.0.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "2facceb1f0b3f40c0074f5611a7df420b51946ed0f00522d61ff7133def8c33f76e5734b5ac84bb25029247a8b2d23818cf2c37496bdd5db06c24e984861eb28 4376 rust-ascii_1.1.0-2.debian.tar.xz 565fef9568240e7ff4651b828bb7569b7cd1b4c6ac921077cd75a47541dc0110f29cef5b670edb7d2595f8bbeee275e6a04332d4e6508d555f4c4d235b4fd002 2188 rust-ascii_1.1.0-2.dsc d74982ad87796f0d745bfd654450dc74174fdc6aa2a0047e5d250f76dd6079189dc0f05d02a73a85b1d3a86c163524d1f43f5d014de0153cd69fad4de26cf0ec 36075 rust-ascii_1.1.0.orig.tar.gz"
+    "e8537570d3ea3f7c97f2c2ff53f6e6ca44d705567580f124f2d2897b05f7bf058843879959047d3eab5879805f8c55cf2a7eb52b166c9a81c8c2203dfcd5a769 3280 rust-ascii_1.0.0-1.debian.tar.xz 25a0d2b4e8a3f947d33a4938251e74607fe720208695916028a3df62899dc10714150b18fc0a043d1fe8886f2aa8c72273ca41c47b83853c675997bf8938ebc8 2385 rust-ascii_1.0.0-1.dsc 5696e14883d4946c4acbace84ee4c65af527a6b1725a7d16ab5d5b8cc671ff211324f15f3fb0755cb1c9dcd598a054b32cd51c69ad06391e7e147880f5c97a1b 31727 rust-ascii_1.0.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-ascii"
   ],
   "Files": [
-    "813a923444e08871acb1caefe7dc9418 4376 rust-ascii_1.1.0-2.debian.tar.xz 2f163938ba9f5be90ece3e9f43eb0c4c 2188 rust-ascii_1.1.0-2.dsc 4fb264cde0f88a533504ae9b77a925cc 36075 rust-ascii_1.1.0.orig.tar.gz"
+    "6637c6c8730bc62516662b317ad61372 3280 rust-ascii_1.0.0-1.debian.tar.xz 8080bf3b34f561c56687e02205511fa3 2385 rust-ascii_1.0.0-1.dsc 5ddc3e28a0592a544efefb0d053a1849 31727 rust-ascii_1.0.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/tomprogrammer/rust-ascii"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,16 +33,16 @@
     "rust-ascii"
   ],
   "Package-List": [
-    "librust-ascii-dev deb rust optional arch=any"
+    "librust-ascii+serde-dev deb rust optional arch=any librust-ascii+serde-test-dev deb rust optional arch=any librust-ascii-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, rustc"
+    "dh-cargo"
   ],
   "Uploaders": [
     "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/ascii]"
   ],
   "Version": [
-    "1.1.0-2"
+    "1.0.0-1"
   ]
 }

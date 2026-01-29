@@ -6,22 +6,22 @@
     "python3-lxml, python-lxml-doc"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 10), dh-python, python3-all-dev, libxml2-dev, libxslt1-dev, zlib1g-dev, python3-setuptools, python3-bs4, python3-cssselect, python3-html5lib, cython3, python3-sphinx-autoapi"
+    "debhelper (\u003e= 10), dh-python, python3-all-dev (\u003e= 3.3.3), libxml2-dev, libxslt1-dev, zlib1g-dev, python3-setuptools (\u003e= 0.6.29), python3-bs4, python3-html5lib, cython3, python3-sphinx-autoapi"
   ],
   "Checksums-Sha1": [
-    "5a6a613cf27c1c7866e0dda3d4e7417768011daf 8584 lxml_5.4.0-1.debian.tar.xz 1d9e17bca4f81b73018b08fa8e0162ead2ec4d91 1931 lxml_5.4.0-1.dsc 1d869e16ff6f3a1cae35c01a1fc92ce3098c1c25 3679479 lxml_5.4.0.orig.tar.gz"
+    "020674044af77ce562977eccc988fe949ea9bef0 8216 lxml_4.9.2-1.debian.tar.xz 71d26c25d18541ba4c406dff15e38695a76c4b96 1935 lxml_4.9.2-1.dsc b0242ca2de9868fe8ec9c1e8ddbb394d61e760c0 3682202 lxml_4.9.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "8a422a87c11620ebc35c4527cff5963e4826270e20d97844d532bbc73f7d2f01 8584 lxml_5.4.0-1.debian.tar.xz d3ef17610792b01a9a7ae5f62029317a01a8a40685e3f6eaacbd1e9b97b7ef47 1931 lxml_5.4.0-1.dsc d12832e1dbea4be280b22fd0ea7c9b87f0d8fc51ba06e92dc62d52f804f78ebd 3679479 lxml_5.4.0.orig.tar.gz"
+    "7243de7c8d5dbdf748665d45717c13a094793ce1cae530151aa27e78c4033ade 8216 lxml_4.9.2-1.debian.tar.xz d88a5ca70ce00e8af4ad4208a172c69fc8f6a0b946c7e73e5a0aa8d9a5593a00 1935 lxml_4.9.2-1.dsc 2455cfaeb7ac70338b3257f41e21f0724f4b5b0c0e7702da67ee6c3640835b67 3682202 lxml_4.9.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "cbb3d28ec8be2c436a2525e0cc6df514cee40fddf038426defc0fb29ba5337220e2f118cc81978270f19e4c6f0928ffc68ac7080ecd94eab43b709d98c8bac2a 8584 lxml_5.4.0-1.debian.tar.xz 8aca70340c727dae84f9385ae8a6d271c342fa69f58f2f8f21a4bef03d2880ee9c7375daf10e2ac4650c520336351ab6bfb19a14e67d3357d2ec94eb2cf19230 1931 lxml_5.4.0-1.dsc 3d0bf222d5f213366a8b17d48702d3a5b430355d71b9ac88b4b1980e1a53fe34ba1d02c62053550f60f0320778647635d1af92c682b7f57ebf266521e9ee0d92 3679479 lxml_5.4.0.orig.tar.gz"
+    "3e9e04dd8b2ffafdce9dd46a09addcf37cd7653bf299a3ea299d93e363e3d32d50409d620ae3aed96a1e3f4bc02f68e44c8429feb8e7a44103fbeaaf931fc714 8216 lxml_4.9.2-1.debian.tar.xz 5ef2a084e1be65f054d23390fa0c6d6a5605daadeefab67c6dbfa2685405faa4466b0034c52d941ab604e4d980f639b509e640470cea4cbc4dc603fd9a7bea96 1935 lxml_4.9.2-1.dsc 4597784c96219145fef30607f257097ad312264a6796e65b3dc74463853cd29f55379b6a903b401c1120750126b57f58dd9fc459dd453e57030883fc76b87ea3 3682202 lxml_4.9.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/l/lxml"
   ],
   "Files": [
-    "ef1ed28e3748f09868fa1905c73eea9b 8584 lxml_5.4.0-1.debian.tar.xz 73155366f5e8e519183e6e435b2bb949 1931 lxml_5.4.0-1.dsc 687bd12393569b435290da6c599664f9 3679479 lxml_5.4.0.orig.tar.gz"
+    "8810a985eff0d3e58f6a25d7bceb2f18 8216 lxml_4.9.2-1.debian.tar.xz 2edf9d2ceec70fbf4f17497e823b1b6e 1935 lxml_4.9.2-1.dsc aa84a7ce47581b43cb827145340505c6 3682202 lxml_4.9.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,9 +39,9 @@
     "python-lxml-doc deb doc optional arch=all python3-lxml deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.1"
   ],
   "Version": [
-    "5.4.0-1"
+    "4.9.2-1"
   ]
 }

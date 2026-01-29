@@ -6,22 +6,22 @@
     "cron, cron-daemon-common"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libpam0g-dev, libselinux1-dev [linux-any], libaudit-dev [linux-any], python3:any, docbook-xsl, xsltproc"
+    "debhelper-compat (= 13), libpam0g-dev, libselinux1-dev [linux-any], libaudit-dev [linux-any]"
   ],
   "Checksums-Sha1": [
-    "b935e3f0f3473166ff22504111377dd59cd426e1 139600 cron_3.0pl1-197.debian.tar.xz 24238b657bc307bc1e027bed349005c871918e64 2083 cron_3.0pl1-197.dsc f8d00de4c7c0eae97bedb4a3ec10ea21d43ece84 59245 cron_3.0pl1.orig.tar.gz"
+    "2426345218e36c5d2db4453f4f79ba26523f0ab6 115032 cron_3.0pl1-162.debian.tar.xz e306d00022bdf4ab458c7943305ee8626cd2bc0b 2129 cron_3.0pl1-162.dsc f8d00de4c7c0eae97bedb4a3ec10ea21d43ece84 59245 cron_3.0pl1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "f641ac0aebb2d616f26d54504f47a6fa7d919a5dbc468933bb78da086851c932 139600 cron_3.0pl1-197.debian.tar.xz 2ebfb20742a200680f9f7396ca26e29d66a9db97da1fac6285af0eaaa3711ed5 2083 cron_3.0pl1-197.dsc d931e0688005dfa85cfdb60e19bf0a3848ebfa3ee3415bf2a6ea3ea9e5bcfd21 59245 cron_3.0pl1.orig.tar.gz"
+    "72790571714030f0ba9acd98a14ad1cef835d3cc7056f013f67182adf1a83d3a 115032 cron_3.0pl1-162.debian.tar.xz 5258f1e5e13bc330b66019a631092dc517904214881bbb4a39bef252781a22cd 2129 cron_3.0pl1-162.dsc d931e0688005dfa85cfdb60e19bf0a3848ebfa3ee3415bf2a6ea3ea9e5bcfd21 59245 cron_3.0pl1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "74ff3224aba810d9f48438967717dae315c3ed5803a115223746c780ff030d0a0b9a6bffd7f6ba4260618d71bb27e4e87b78b5e8c7063a645c7163cebdfc5542 139600 cron_3.0pl1-197.debian.tar.xz 6bcafd142186ffa3cd8ede6d7a979ea230df7f2545f3204c5114e592c2dd8733fc2d4e11bc661ac9f223e65864e32df4501ba3f1e5f349ace47b3e105acc5964 2083 cron_3.0pl1-197.dsc aa755d813ed74786914ff2d2373b9fcebd730eeb8b43b72a4bca48dfcfc89b5022924ee9e1354d4fc0386d4f91b83b66ec2f0b2dabb1444393462948aff15aa2 59245 cron_3.0pl1.orig.tar.gz"
+    "152cff0d8e5301f2242f98d1a646933203e5b0f33f1ad970b62cb33e074af06bfd40000a4501c29aa2fb02b9bbb707387e0726b13c3054d4263c76f277c39322 115032 cron_3.0pl1-162.debian.tar.xz ae986dd3dd082f6c742268d7f7cbee784fc113597bd6ff4d3ed8176a979f73b79bb8a050ba8e371a1d0a447f35dfbd597ba99d6384d07dd75bfdee70293177df 2129 cron_3.0pl1-162.dsc aa755d813ed74786914ff2d2373b9fcebd730eeb8b43b72a4bca48dfcfc89b5022924ee9e1354d4fc0386d4f91b83b66ec2f0b2dabb1444393462948aff15aa2 59245 cron_3.0pl1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/c/cron"
   ],
   "Files": [
-    "32f6aeb5bb3cdc1c1673f6911086b461 139600 cron_3.0pl1-197.debian.tar.xz dac57136a0384d59f02ca8ce285be94f 2083 cron_3.0pl1-197.dsc 4c64aece846f8483daf440f8e3dd210f 59245 cron_3.0pl1.orig.tar.gz"
+    "192901ac6a8c01f495638c691bf2e0ec 115032 cron_3.0pl1-162.debian.tar.xz 8d34cb43d47c2219bfc86ca3398e86eb 2129 cron_3.0pl1-162.dsc 4c64aece846f8483daf440f8e3dd210f 59245 cron_3.0pl1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://ftp.isc.org/isc/cron/"
   ],
   "Maintainer": [
-    "Georges Khaznadar \u003cgeorgesk@debian.org\u003e"
+    "Javier Fernández-Sanguino Peña \u003cjfs@debian.org\u003e"
   ],
   "Package": [
     "cron"
@@ -39,13 +39,16 @@
     "cron deb admin important arch=any cron-daemon-common deb admin important arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "apt, binutils, bsdextrautils, exim4, expect, mailutils, rsyslog"
+    "apt, binutils, bsdextrautils, exim4, mailutils, rsyslog"
+  ],
+  "Uploaders": [
+    "Georges Khaznadar \u003cgeorgesk@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/cron"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/debian/cron.git"
   ],
   "Version": [
-    "3.0pl1-197"
+    "3.0pl1-162"
   ]
 }

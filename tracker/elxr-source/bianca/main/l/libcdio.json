@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libcdio-dev, libcdio++-dev, libcdio19t64, libcdio++1t64, libiso9660-dev, libiso9660++-dev, libiso9660-12, libiso9660++1, libudf-dev, libudf0t64, libcdio-utils"
+    "libcdio-dev, libcdio++-dev, libcdio19, libcdio++1, libiso9660-dev, libiso9660++-dev, libiso9660-11, libiso9660++0, libudf-dev, libudf0, libcdio-utils"
   ],
   "Build-Depends": [
-    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), dctrl-tools | grep-dctrl, help2man, libpopt-dev, libncurses-dev, libcam-dev [kfreebsd-any], pkgconf, texinfo"
+    "debhelper-compat (= 13), dctrl-tools | grep-dctrl, libpopt-dev, libncursesw5-dev, libcam-dev [kfreebsd-any]"
   ],
   "Checksums-Sha1": [
-    "93f43bd20f98c9195e6170fd9d1cc70bc5a816be 12752 libcdio_2.2.0-4.debian.tar.xz 82d6188923b04145cc1d58599fca2813720faac4 2584 libcdio_2.2.0-4.dsc e9727bfb1f829e81854b3adfc8469d4182bad3a9 1934924 libcdio_2.2.0.orig.tar.gz"
+    "3b4cbd73e9c9fbf2ac850efca629255073c538b6 13544 libcdio_2.1.0-4.debian.tar.xz 0af136df372f63d4dfb93187fb488359cf508ba5 2521 libcdio_2.1.0-4.dsc cb20ed09edeefa71f78bb1e784913f64a04e8257 1511725 libcdio_2.1.0.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "f91655cd7050212a74d0de45f044be17381367b80345dadf2c64ef0937db545e 12752 libcdio_2.2.0-4.debian.tar.xz 8b715c97b4491b0ee0970d9b7a45b205b53d94f474bc7869f67c320ba769980e 2584 libcdio_2.2.0-4.dsc df007a9b9667797e027e573822cc865e5e106352f8a6fbca67ee8e9e7a1e5b51 1934924 libcdio_2.2.0.orig.tar.gz"
+    "91342575c78a85129cfaad2c954e341b1dac614c6439611d2c68076f34446d2e 13544 libcdio_2.1.0-4.debian.tar.xz 71b3f6eb37c36aae76f906e895ec88b8b6445fb4104efb6fe8b84406ab5e7c10 2521 libcdio_2.1.0-4.dsc 78e246d591b1e8907943b844c68019c5b5a75a6d8cb1aa49a7d659b4ad95838b 1511725 libcdio_2.1.0.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "bc9bc21bda0740d54fa3b9df868f80e10715ecd9c37163300898bc0f34d671ca79c35d0c15559d8782e4563b9d64f170dc3eb7409a1ce5e99e8b53c63a875ab6 12752 libcdio_2.2.0-4.debian.tar.xz fde5466ce184cb2cf3778736d22e9196ca9de24f5bdfb5f1bc6eddb880ffda35cec988b7e84cfe11ad65ad55578eba78e95a11b4c0b86105b4151acdfcad0604 2584 libcdio_2.2.0-4.dsc 9b06f81c8f6b4a6d2af2a00cb15bbb051e77216cfc9dfce91a1c5373c2f429431086fdc58ab7ac4867a5bab7f261ed4fdc211f9dc669e7b671cca386891a6bbf 1934924 libcdio_2.2.0.orig.tar.gz"
+    "d1c8b4bc8edb03e3287759e6030eb5354ef996f2c5e95cc1510c8b093c12530f4e20745ccedd20018938af3f9f74f50b2c05d0513deb5bb572545b8112e191a0 13544 libcdio_2.1.0-4.debian.tar.xz 5b49102cc18921d7c7e3fc09d7004dcfdcec84c57acf0dcdbb10d51f7ca4728501961e8f95a4cbd2b96d92a163b87be64129cb6849bbc9c2c0f02324b11f04b0 2521 libcdio_2.1.0-4.dsc 8d61142f35a0eb27cf0c3ff33d97b2d5261a4cc37dbd9ca2b2dc2b821706b7f70572c167994d2c97b33c8f269b046dfdc55fda9dc0746e2c279f2125ffadd88f 1511725 libcdio_2.1.0.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/libc/libcdio"
   ],
   "Files": [
-    "b0d79445dd359e088e4e82d6e09572f2 12752 libcdio_2.2.0-4.debian.tar.xz 11fd9d5b90c8b971a2e5e57ccceae9f4 2584 libcdio_2.2.0-4.dsc 4d8b34da5132738d3341378c301dbf3e 1934924 libcdio_2.2.0.orig.tar.gz"
+    "a93d9c74a3b50ef6e1173a6e1e8f3d6e 13544 libcdio_2.1.0-4.debian.tar.xz 8fd45a90e5e717b404e42be03f538862 2521 libcdio_2.1.0-4.dsc 61ff6ec98366f15594f58e0a8f8aa72c 1511725 libcdio_2.1.0.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "libcdio"
   ],
   "Package-List": [
-    "libcdio++-dev deb libdevel optional arch=any libcdio++1t64 deb libs optional arch=any libcdio-dev deb libdevel optional arch=any libcdio-utils deb otherosfs optional arch=any libcdio19t64 deb libs optional arch=any libiso9660++-dev deb libdevel optional arch=any libiso9660++1 deb libs optional arch=any libiso9660-12 deb libs optional arch=any libiso9660-dev deb libdevel optional arch=any libudf-dev deb libdevel optional arch=any libudf0t64 deb libs optional arch=any"
+    "libcdio++-dev deb libdevel optional arch=any libcdio++1 deb libs optional arch=any libcdio-dev deb libdevel optional arch=any libcdio-utils deb otherosfs optional arch=any libcdio19 deb libs optional arch=any libiso9660++-dev deb libdevel optional arch=any libiso9660++0 deb libs optional arch=any libiso9660-11 deb libs optional arch=any libiso9660-dev deb libdevel optional arch=any libudf-dev deb libdevel optional arch=any libudf0 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.5.0"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/libcdio"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/libcdio.git"
   ],
   "Version": [
-    "2.2.0-4"
+    "2.1.0-4"
   ]
 }

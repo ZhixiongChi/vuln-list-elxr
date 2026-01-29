@@ -6,22 +6,22 @@
     "libnginx-mod-nchan"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-nginx"
+    "debhelper-compat (= 13), dh-sequence-nginx, nginx-abi-1.22.1-7"
   ],
   "Checksums-Sha1": [
-    "9e1bf2ec757df73a36043ac12daee1ab3a2205b3 5152 libnginx-mod-nchan_1.3.7+dfsg-2.debian.tar.xz 6d7c1f308a099fd792ee90d44bb1df10d3f9b128 2177 libnginx-mod-nchan_1.3.7+dfsg-2.dsc fc5c3b46d7054f3d6933aa09360a79e8863de232 319616 libnginx-mod-nchan_1.3.7+dfsg.orig.tar.xz"
+    "3029be9c356a7ec0a1973083a3634af22490b0d0 4968 libnginx-mod-nchan_1.3.6+dfsg-2.debian.tar.xz ae035170781b4bea36b85775d0f929e06fb75779 2196 libnginx-mod-nchan_1.3.6+dfsg-2.dsc 00b70beab221c65db449610f5fc224b7cb8ded0d 319268 libnginx-mod-nchan_1.3.6+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "3eadc118dc81b4f184bb005697d7dea242b1e6d561e061f55e172f72ce4e59df 5152 libnginx-mod-nchan_1.3.7+dfsg-2.debian.tar.xz 8b276496d75e5cfdd533167a9f9b1fef7a8f5f434e315a017574fd5c66df23d5 2177 libnginx-mod-nchan_1.3.7+dfsg-2.dsc a9a54d29ba2e318423c4ec3328e86ac568a8230afa3a32254ca5000b3bebe928 319616 libnginx-mod-nchan_1.3.7+dfsg.orig.tar.xz"
+    "f5d6e10ac670b44b5bccef64320a2d66d3ec21a6147e6aa81d7b1fc03432bed8 4968 libnginx-mod-nchan_1.3.6+dfsg-2.debian.tar.xz 79457464e05c1522bfa22fae41bbfb6b1b31905a14820af3c9cd7068617b56c7 2196 libnginx-mod-nchan_1.3.6+dfsg-2.dsc 05e70446d96dc22d49ebb597154c4c31804c155508f1ced705c1a4a40733f68b 319268 libnginx-mod-nchan_1.3.6+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "e7ff49e1876a28e8f8ba7e9efe0b9ecd07c5ac1c40b984b0e67fd873f2402bb795fc54a788d5c5614dc1f0fd03c3ec906ae3b47dc4dd349df04b7c6948a8dc51 5152 libnginx-mod-nchan_1.3.7+dfsg-2.debian.tar.xz 92d106e855eb554708ff9a112ea7e08bb8596969e07ef8ec31470020bc17175181c8ea59e8ec4d570b2b6c8e256d98f55e13886d7a65ebdac1d1694d5d5ee66d 2177 libnginx-mod-nchan_1.3.7+dfsg-2.dsc 311f284e287b106610e8ffc25592c85977e37ee5922fa6650eee77e3a46e83c43173adf1952208b857478fd4dd5692ecf0682501bda209cbab883228199c4f4a 319616 libnginx-mod-nchan_1.3.7+dfsg.orig.tar.xz"
+    "742bf3aff6eae61bb49f9be0915f4412557930cc35f6c8a04a74f05c616ef51fb5bb299afe0bb4e7ac90a73ac39eaa33c4532dd0cf588ab5a449f90d20e3adc0 4968 libnginx-mod-nchan_1.3.6+dfsg-2.debian.tar.xz 547635e35317d0f440f56df3402440d62637d1b1f82373ed60148402f323d49b864c180cb54bc5524b7986ec97f51be28bef91ab1a8c7cf216dfa54ff98e786c 2196 libnginx-mod-nchan_1.3.6+dfsg-2.dsc 6d3bfab20e5ed282956e038bfff2a86963b1e12f7f8361264246058986768e74cde26c7d9e7725da9d69cf1b445f594ce7cb52235b4a7a117472e94faf7bd8ca 319268 libnginx-mod-nchan_1.3.6+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libn/libnginx-mod-nchan"
   ],
   "Files": [
-    "cdd109214bda0c99b0877450da24cbc4 5152 libnginx-mod-nchan_1.3.7+dfsg-2.debian.tar.xz dcdfb0ba49c47c4f3f4693aaf241d528 2177 libnginx-mod-nchan_1.3.7+dfsg-2.dsc afda75074e293a365e4a3dd0c8285dcb 319616 libnginx-mod-nchan_1.3.7+dfsg.orig.tar.xz"
+    "3d474ff63c5c330c13cadfba0295808b 4968 libnginx-mod-nchan_1.3.6+dfsg-2.debian.tar.xz 9ffd272c01a424fbf9b6beb8f548d4aa 2196 libnginx-mod-nchan_1.3.6+dfsg-2.dsc 04bddf92be624cbe74f8481805aa4cc4 319268 libnginx-mod-nchan_1.3.6+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libnginx-mod-nchan deb httpd optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "curl, nginx, nginx-core"
   ],
   "Uploaders": [
-    "Jan Mojžíš \u003cjanmojzis@debian.org\u003e,"
+    "Jan Mojžíš \u003cjan.mojzis@gmail.com\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/nginx-team/libnginx-mod-nchan"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/nginx-team/libnginx-mod-nchan.git"
   ],
   "Version": [
-    "1:1.3.7+dfsg-2"
+    "1:1.3.6+dfsg-2"
   ]
 }

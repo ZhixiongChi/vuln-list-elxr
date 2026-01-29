@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), gem2deb (\u003e= 1), rake, ruby-rspec, ruby-rbnacl, ruby-simplecov"
   ],
   "Checksums-Sha1": [
-    "55a180ebf676b4b72c7a7e324e2feaa9f1870672 4568 ruby-jwt_2.7.1-1.debian.tar.xz 4fd8a113a2f3230030a40497171f89b22956bebf 2035 ruby-jwt_2.7.1-1.dsc 831e222cacfc7abc12ff0fe2da261ed0443ed122 75003 ruby-jwt_2.7.1.orig.tar.gz"
+    "ec7b5c0d02c5013f0c65c229c0367e2cf6198705 4468 ruby-jwt_2.5.0-1.debian.tar.xz dc8993b13189f236859b770fb75721b5f441882a 1449 ruby-jwt_2.5.0-1.dsc 5f1e734d7b0eaefc319749967053aa9f1fc0bce6 65165 ruby-jwt_2.5.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "d02583711e073d71895e7d30100239197f6d2be2aa3bea01c66f0226c320b6a8 4568 ruby-jwt_2.7.1-1.debian.tar.xz 908f152382727ba26aa437bba14897ab51a751bf72ada82241fdbe4948581160 2035 ruby-jwt_2.7.1-1.dsc 87a3f68bd13e83094067aaea927ca6205aa4f26593c8875803f2aa304c9761fc 75003 ruby-jwt_2.7.1.orig.tar.gz"
+    "cc57530d586673e10576fbe9d3dc5ad79bae9a433bc36ff361fb2b4251df6f62 4468 ruby-jwt_2.5.0-1.debian.tar.xz 72ef06a2a66097c017dfdfa84083ddd82df62baade0c630381feb419a0b8f1c1 1449 ruby-jwt_2.5.0-1.dsc 46afd8644bf6e47089f13d2fbfa88523fad4d81c8f8e4c28df6f2a1c58dfac01 65165 ruby-jwt_2.5.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "10e141e49fcf4bd60e428473c2a7baaa5dbde9415f8ba6b06a136626fe8ce48356712b889f0809960e3f52921205d8aa89eddc4c090cd1e505a443457453096f 4568 ruby-jwt_2.7.1-1.debian.tar.xz d07a13f9447aebcf031aa6bef3e93dce2a59eb5addbb953622bd2824393f53e0fb46254961b5c17765b0660157dfb13f2b314a222fd9f436b5b9dcdcb8ff70e9 2035 ruby-jwt_2.7.1-1.dsc efcdd81bc472a18764e0033f1040e9e2506952cbfb691acfc1ad90a5b34ebac864911e0cfeb28b82ac2ce1da7e3578a6677c0b113d1e45a81a3f4c4f8fed1047 75003 ruby-jwt_2.7.1.orig.tar.gz"
+    "d7d1d7488a5abc24a823ea315ba638c6800fc7de648f1917dc546779d4772d833d3a55238ea9b267fa7e7c65dac97da1d4c1f97d6a92fdf69ed2009cb6874b9d 4468 ruby-jwt_2.5.0-1.debian.tar.xz 0a03a41a7590cb6c61637c9d2eef53e9b7e1640698ab2a836efa0977def6e1e70df01b8a67972de007aff2f23dc1c41e169d36bd90f095028ccb4d0fb2473f52 1449 ruby-jwt_2.5.0-1.dsc fab73ee33769db297b8c8c7381070c8fcd1dd8e43aff2d241ee82f0327867eff3c1067536a90928ad65a2870dc2638515617f5d5cc92023ab1dfe3b6696f10d8 65165 ruby-jwt_2.5.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/ruby-jwt"
   ],
   "Files": [
-    "651f9a2001caad51f2a7304505e9ba41 4568 ruby-jwt_2.7.1-1.debian.tar.xz 4faa6a082853b4bf89b4a772e985eb20 2035 ruby-jwt_2.7.1-1.dsc ec12ea712cf67b71830c10b44da69d00 75003 ruby-jwt_2.7.1.orig.tar.gz"
+    "950fd4f294200314dc212fbad9e5dacb 4468 ruby-jwt_2.5.0-1.debian.tar.xz 176dd15eb5988fc1ab0c215243b25af9 1449 ruby-jwt_2.5.0-1.dsc b85c64eeb932ce799066234e165114d0 65165 ruby-jwt_2.5.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -38,8 +38,11 @@
   "Package-List": [
     "ruby-jwt deb ruby optional arch=all"
   ],
+  "Ruby-Versions": [
+    "all"
+  ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest-pkg-ruby"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/ruby-team/ruby-jwt.git"
   ],
   "Version": [
-    "2.7.1-1"
+    "2.5.0-1"
   ]
 }

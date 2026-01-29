@@ -6,25 +6,22 @@
     "libfcgi-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libfcgi-client-perl \u003c!nocheck\u003e, libfcgi-dev, libtest-simple-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native"
+    "debhelper-compat (= 13), libfcgi-client-perl \u003c!nocheck\u003e, libfcgi-dev (\u003e= 2.4.2), libtest-simple-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native"
   ],
   "Checksums-Sha1": [
-    "d76f9ce73bbf661c6d1af00ce5877a72285cf09c 5788 libfcgi-perl_0.82+ds-3.debian.tar.xz ad8379d753cf91f6be00d721106d1b4585d0bcd2 2379 libfcgi-perl_0.82+ds-3.dsc 18b4750583ecd42b1f77702fa2ea2cab2ebd99f8 16340 libfcgi-perl_0.82+ds.orig.tar.xz"
+    "ce2c08e618bee991140f529a913be5b77628a208 5632 libfcgi-perl_0.82+ds-2.debian.tar.xz 462b4d86fc9282b58c6288341be025080da7d308 2140 libfcgi-perl_0.82+ds-2.dsc 18b4750583ecd42b1f77702fa2ea2cab2ebd99f8 16340 libfcgi-perl_0.82+ds.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "130c55cbe918d0f7800801ced151cf490b2387effe7631ee3770ea50e8694627 5788 libfcgi-perl_0.82+ds-3.debian.tar.xz 7d38b8e0b931776da42ec4ba6d6b938c3c71b4513fc1f7a87bd5143f0590b638 2379 libfcgi-perl_0.82+ds-3.dsc 2245f723480cbabc1dac5e999e293497e59324627284d76e203d34e06ded94b9 16340 libfcgi-perl_0.82+ds.orig.tar.xz"
+    "90c2d3271d0177ca29f42947c8809878ca4236c7e2cc5014c62ca123dd3d961a 5632 libfcgi-perl_0.82+ds-2.debian.tar.xz fa7d7126857a1beb87264190b7eabc3cf48ad891f9cbea1dd94f1285e7c0e5a3 2140 libfcgi-perl_0.82+ds-2.dsc 2245f723480cbabc1dac5e999e293497e59324627284d76e203d34e06ded94b9 16340 libfcgi-perl_0.82+ds.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "fef3cb2a23210385271106f8cb60f002a41c9242f5e516c1885327a0a921e54f0add2a1cff2dd762d879369c397b8306ffe60f3e205fdab98b959a016b9a3ad3 5788 libfcgi-perl_0.82+ds-3.debian.tar.xz 5832f1ffa3f7d16b588ca34ac3d4efc579666194e216458c78f6ed0cdf13ecc40af8c078216409fd777e7c4428e348351aef90e58c2c512d1cf6cf23041ac514 2379 libfcgi-perl_0.82+ds-3.dsc 8378e1bda01c93654e88ced22ed7f1f8c6a5a187bb180a13fc008a86938e0a6ea2fff890341f5bcb70dd64e03e73a3ea9445d111b0b7d48fd708186190038f4e 16340 libfcgi-perl_0.82+ds.orig.tar.xz"
-  ],
-  "Dgit": [
-    "2627ac4520514d3f20740b164cacc1b14f93dfff debian archive/debian/0.82+ds-3 https://git.dgit.debian.org/libfcgi-perl"
+    "61f55ed93b59a508ce6e64f0258741b92cfd81fadd27885692b9bc995d74f354e5dd6a5f6f88bd5cd7de0756d7a3a6d05d060b4660db8c375f3c5610867f7c04 5632 libfcgi-perl_0.82+ds-2.debian.tar.xz 394e86e65004918c6e9fbceb17a72442c59fb20c5b6ec9aba41257cd4849f1d7557e79a8002a89a67ea92f4863910e23160d1ffc41868c7c210ea5ff2f72148f 2140 libfcgi-perl_0.82+ds-2.dsc 8378e1bda01c93654e88ced22ed7f1f8c6a5a187bb180a13fc008a86938e0a6ea2fff890341f5bcb70dd64e03e73a3ea9445d111b0b7d48fd708186190038f4e 16340 libfcgi-perl_0.82+ds.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libf/libfcgi-perl"
   ],
   "Files": [
-    "3d88f6d60f7217818564befaa0af9070 5788 libfcgi-perl_0.82+ds-3.debian.tar.xz 06a4d0dfa13341c7d645269e069cf77d 2379 libfcgi-perl_0.82+ds-3.dsc 5ac7fb6954fc60493f00e1478125320a 16340 libfcgi-perl_0.82+ds.orig.tar.xz"
+    "7477805700218e9577d94778492a9430 5632 libfcgi-perl_0.82+ds-2.debian.tar.xz ce47b68ae3c0286af3345586ab7b6bc7 2140 libfcgi-perl_0.82+ds-2.dsc 5ac7fb6954fc60493f00e1478125320a 16340 libfcgi-perl_0.82+ds.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +39,7 @@
     "libfcgi-perl deb perl optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libfcgi-perl.git"
   ],
   "Version": [
-    "0.82+ds-3"
+    "0.82+ds-2"
   ]
 }

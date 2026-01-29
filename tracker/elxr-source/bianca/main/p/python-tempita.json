@@ -6,28 +6,28 @@
     "python3-tempita"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, python3, python3-pytest, python3-setuptools"
+    "debhelper-compat (= 13), dh-python"
+  ],
+  "Build-Depends-Indep": [
+    "python3, python3-nose, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "2f291e8f560fe7961b9f2b87079c08029673600a 6556 python-tempita_0.6.0-1.debian.tar.xz ac13f9601889a349f94956eef31d3d5121ffa07b 2104 python-tempita_0.6.0-1.dsc 0fae217c42c7517cd40962460113d8be97416951 19205 python-tempita_0.6.0.orig.tar.gz"
+    "bf784f7f42abead6f2f359a7697709107d3e53a8 5788 python-tempita_0.5.2-7.debian.tar.xz d1d06b263aa10eaa2c68d9376b8944797fa9dd25 2039 python-tempita_0.5.2-7.dsc 8da7851b077af5a540125e3836d9f0f7165eca61 12648 python-tempita_0.5.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "d215cd542e4c17aad9dc0bd4e82a635c65a10306deda2f02a909d5f16ac0b0de 6556 python-tempita_0.6.0-1.debian.tar.xz 30005c8ff0610e7bd115ef89e0c788b884f0ba67358726ee0481b9ed29b427fd 2104 python-tempita_0.6.0-1.dsc 76e15de0137e5011c22949cc15a5161f623fe6a31655751c6d765db6bbac27b6 19205 python-tempita_0.6.0.orig.tar.gz"
+    "d39b5d60308a737f9172c1e3a9b54a10847f7ec0b0da049528feff3ae8fa4b69 5788 python-tempita_0.5.2-7.debian.tar.xz 3b42b7820d985da426eb3ae619ad29f8fa29bd26b80ef880d64386959797013c 2039 python-tempita_0.5.2-7.dsc cacecf0baa674d356641f1d406b8bff1d756d739c46b869a54de515d08e6fc9c 12648 python-tempita_0.5.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "bcf9349a193fde5eb42003b60f6e0aca51461d0a6fdbaba8788529ac427f01b1fc0ad4a8dde5ec4bcfd8170ad04eefb2eb98d6d791884f03e824db4a85930865 6556 python-tempita_0.6.0-1.debian.tar.xz 2591943a357e354651532905027cf185271bd728b3ab0d2e034a1eb4c00709c543c7ff8250436c871a6923546c68acc0f5391a19a9f48935bc8b1324b2b531c2 2104 python-tempita_0.6.0-1.dsc 2a9b504d333db36c483df9484b00b424aeba2955dba5c05a2e8186a02f1dd339e4019e3b32a6e9766ce00717aa44acecfee902dfd76b9caf061bcba3a314789b 19205 python-tempita_0.6.0.orig.tar.gz"
+    "4063e042376225b83f504cac0a8107780164e80bb5f9ed14d500245c11d58e31b064a965ced5c655006735233fef2e1dd3b63d66d5d549a2d316210a35af3fae 5788 python-tempita_0.5.2-7.debian.tar.xz 7fb1be514d55fc062762912cf8230b28d578f059587f48bfda77fc4c7b5a78564f83aef836d451f9eb3dfc48cbfdcd8076edefcd4da9d021d1ebda6fd9d83e43 2039 python-tempita_0.5.2-7.dsc 582d3ca35dfb2ad44491cf9e526db9f9c34c419f2b03a5ce86a7e5183f7760b380262367c062161d577c3fb3e69e39ee99bbf8e493873e1da1a350ef2f63630d 12648 python-tempita_0.5.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-tempita"
   ],
   "Files": [
-    "14d59f6208492d88caeb4b108b667ce6 6556 python-tempita_0.6.0-1.debian.tar.xz 311554f27a607cd03a83804ec98a7b08 2104 python-tempita_0.6.0-1.dsc ca13cc92318415bb560fb874e673a355 19205 python-tempita_0.6.0.orig.tar.gz"
+    "7a137467522d0cec71abdf6965859688 5788 python-tempita_0.5.2-7.debian.tar.xz 4c31ffe84bb6d79affe3b89f3324acec 2039 python-tempita_0.5.2-7.dsc 4c2f17bb9d481821c41b6fbee904cea1 12648 python-tempita_0.5.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/TurboGears/tempita"
   ],
   "Maintainer": [
     "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
@@ -39,7 +39,7 @@
     "python3-tempita deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/python-tempita.git"
   ],
   "Version": [
-    "0.6.0-1"
+    "0.5.2-7"
   ]
 }

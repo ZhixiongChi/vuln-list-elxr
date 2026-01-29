@@ -6,22 +6,22 @@
     "librust-humantime-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 24), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "f24b7a5613ecd6527599d875233ac26dea821ee9 4024 rust-humantime_2.1.0-2.debian.tar.xz 2cb2cd924bd36b6255330b1e2794807654fd2966 1717 rust-humantime_2.1.0-2.dsc 014b36b26bd212b674cc621e502f5c989295943b 16749 rust-humantime_2.1.0.orig.tar.gz"
+    "945810ab3aa1417f7558f1a5a86120bdd593bba3 2784 rust-humantime_2.1.0-1.debian.tar.xz f4467a0dc8119f97770ec34846d31cc1d390bc9f 1670 rust-humantime_2.1.0-1.dsc 014b36b26bd212b674cc621e502f5c989295943b 16749 rust-humantime_2.1.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "8617996fdc79ae1ba8e489bd3e8b86351220e4ba7d574b4b57afa26dd8798b06 4024 rust-humantime_2.1.0-2.debian.tar.xz 5116bace6e1584657f0b5d8d2a9b80c7c975a007b2b12035d0f79cd0d40cb974 1717 rust-humantime_2.1.0-2.dsc 9a3a5bfb195931eeb336b2a7b4d761daec841b97f947d34394601737a7bba5e4 16749 rust-humantime_2.1.0.orig.tar.gz"
+    "d6b68dfd14c32eea96aef72e2391d563c4b9aae2c0eb36102491f40c47434d09 2784 rust-humantime_2.1.0-1.debian.tar.xz 4c7ffb0d5551292d0d431726752cd70d01757a0f42093b6d3acf6dbd003da10a 1670 rust-humantime_2.1.0-1.dsc 9a3a5bfb195931eeb336b2a7b4d761daec841b97f947d34394601737a7bba5e4 16749 rust-humantime_2.1.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "ab423c0ea00775ae60b1c262af904629eb5c8ef1e7d933d7c6f0a5f065cf66d42789c78ed9e6769f46c89a72eded3c56380a5420b254430e133b07e57470e6e6 4024 rust-humantime_2.1.0-2.debian.tar.xz 2fba90faa9f70da50da279ce1bde75ac522808878f5c20974d01141040c3a38852d9919fb1a69b93cbcac9a10ac54a43295464963bd76f96a366d02b88061be9 1717 rust-humantime_2.1.0-2.dsc 3bf29ddd1391d82897c22baa0ff3ed58ef6d6959859f1f8ed54d324caba5b6fb4422e56790511ce82f902cd11467f93c8ab7fc7b0e0bdb719308a4d0a446ae0c 16749 rust-humantime_2.1.0.orig.tar.gz"
+    "6a39fce167457bcf50317f79299e6a209beb12964a18308a411a3087294265cb3bdab6b56af6caf1b9fb851e9c5e7f97533cc0357198447cfee32d4dd84addec 2784 rust-humantime_2.1.0-1.debian.tar.xz 879040f3800a269badd89c47932ef9e5bce7794081a2ba97dbab0e25603dd8d1c2c0e8dafae7838c2414fb51dd593db59d42aeae8df83a4d0800f649bf8a2420 1670 rust-humantime_2.1.0-1.dsc 3bf29ddd1391d82897c22baa0ff3ed58ef6d6959859f1f8ed54d324caba5b6fb4422e56790511ce82f902cd11467f93c8ab7fc7b0e0bdb719308a4d0a446ae0c 16749 rust-humantime_2.1.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-humantime"
   ],
   "Files": [
-    "4e3aaedd7919f711f6c4b83290422f74 4024 rust-humantime_2.1.0-2.debian.tar.xz 9dbb05ff42aaf807788fafec3f124991 1717 rust-humantime_2.1.0-2.dsc c01022fe0357c10ca1d48b16187f81bd 16749 rust-humantime_2.1.0.orig.tar.gz"
+    "c7cacdde50e718f05e2f8e8dfe4e2f0f 2784 rust-humantime_2.1.0-1.debian.tar.xz 4140b6e435d69d41ce1cf48979ad7226 1670 rust-humantime_2.1.0-1.dsc c01022fe0357c10ca1d48b16187f81bd 16749 rust-humantime_2.1.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "librust-humantime-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-chrono-0.4+default-dev, librust-rand-0.8+default-dev, librust-time-0.3+default-dev, librust-time-0.3+formatting-dev, rustc"
+    "dh-cargo, librust-chrono-0.4+default-dev, librust-rand-0.6+default-dev, librust-time-0.1+default-dev"
   ],
   "Uploaders": [
     "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/humantime]"
   ],
   "Version": [
-    "2.1.0-2"
+    "2.1.0-1"
   ]
 }

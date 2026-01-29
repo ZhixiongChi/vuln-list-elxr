@@ -3,25 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "lirc, lirc-doc, liblirc0t64, liblirc-dev, liblirc-client0t64, lirc-x"
+    "lirc, lirc-doc, liblirc0, liblircclient0, liblircclient-dev, liblirc-dev, liblirc-client0, lirc-x"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-exec, dh-python, doxygen, expect [!hurd-any], kmod [linux-any], libasound2-dev [linux-any kfreebsd-any], libftdi1-dev, libpython3-dev (\u003e= 3.5), systemd-dev [linux-any], libsystemd-dev [linux-any], libudev-dev [linux-any], libusb-dev, libusb-1.0-0-dev, libx11-dev, man2html-base, pkgconf, portaudio19-dev, python3-dev:any (\u003e= 3.5), python3-setuptools, python3-yaml:native, socat [!hurd-any], systemd [linux-any], xsltproc, dpkg-dev (\u003e= 1.22.5)"
+    "debhelper (\u003e= 11), dh-exec, dh-python, doxygen, expect [!hurd-any], kmod [linux-any], libasound2-dev [linux-any kfreebsd-any], libftdi1-dev, libsystemd-dev [linux-any], libudev-dev [linux-any], libusb-1.0-0-dev [!kfreebsd-any], libusb-dev [!kfreebsd-any], libx11-dev, man2html-base, pkg-config, portaudio19-dev, python3-dev (\u003e= 3.5), python3-setuptools, python3-yaml, socat [!hurd-any], systemd [linux-any], xsltproc"
   ],
   "Checksums-Sha1": [
-    "125853f5112c603c2172819677e816015595a070 41872 lirc_0.10.2-0.10.debian.tar.xz 34de197e5aa0aa7541e67198918f8d2fb27f0e21 2642 lirc_0.10.2-0.10.dsc 81156038bde1172c3a741f3d490ab6dfafa6732a 2607203 lirc_0.10.2.orig.tar.gz"
+    "c0db22508fba11e0113e6339c9d5d817a7f0be5a 40452 lirc_0.10.1-7.2.debian.tar.xz 6f16eb99ae7f2946f9db2d767d026285ca79d541 2194 lirc_0.10.1-7.2.dsc 0188b9886d3bd0d4f0819050865001e2dc7e85e3 2715271 lirc_0.10.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a06afdbff15589678e288dee0c638757365ee5aafde66531c4ead2a4313def92 41872 lirc_0.10.2-0.10.debian.tar.xz 37f8288dbb8c9eb3f32b82755560236f343ce0bcd22ca2816de2a9d728b83f0a 2642 lirc_0.10.2-0.10.dsc a44a26caf9ba55c2343e065f0a9451425c136572b279ea1e011ad012b36b607e 2607203 lirc_0.10.2.orig.tar.gz"
+    "8a530362056eae728b43ea14d921af131ddb941b8ccddc57190da079c64e9590 40452 lirc_0.10.1-7.2.debian.tar.xz 7a0d1303d94be4d6d934a7e7a75da9d52ccd0be0516a1924bcf1b429bb69a638 2194 lirc_0.10.1-7.2.dsc 25b0a5c761d927e9651e6eb54d0ce4cce3870ebb893afad5c4b181182fc642c1 2715271 lirc_0.10.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "7c1cd02c3392c25d5204d99dfcf434596d6ddf25e32008272b7458d4f7c4b94037b9eedd878045198da24775be2187cd2d3f6b8bce97d324d7d58f9d7132dfa6 41872 lirc_0.10.2-0.10.debian.tar.xz 03d58d4388220c2039f909dc6bf13918c033e78b77f933369030ce4ec993805f3376aef01fa2746a0f7541385ab47291a18cbf5075b44f9cffeff0178e4ab1bb 2642 lirc_0.10.2-0.10.dsc d4d2baf0c268162faa34947f8206df1fd1907fab29a9b8f83dc8852e03f837cc8dcb679cff436aa3aec52479ec579a3357d25bf0e6a83ff769d8eb2c60a12629 2607203 lirc_0.10.2.orig.tar.gz"
+    "73d5552ce12683578a5b9754d27062d3fa3cb287c1391cbf3c163668ff2e5619aab66dc75ad839a52dae01281102ede7a84d7b70052ebe3d267800dac638c1c9 40452 lirc_0.10.1-7.2.debian.tar.xz 1150f3a7e7d596ede08171913fa7bd8176e46950bf004ef3682e1c403367029b6604c4e37c382b3a486758482c77ddc8db49b633ad1a407289537b74451e8757 2194 lirc_0.10.1-7.2.dsc 33d9bd55bccf726ea39625f124d429cd13b64a8427b890a6210752c6307727439b25a04f00d8d26aee84003ed9e2eeb259da81a7d26913f1aa7210fd1fa26a55 2715271 lirc_0.10.1.orig.tar.gz"
+  ],
+  "Dgit": [
+    "c4cddb46c2de21bba000dba004c6c3f56082a3fa debian archive/debian/0.10.1-7.2 https://git.dgit.debian.org/lirc"
   ],
   "Directory": [
     "pool/main/l/lirc"
   ],
   "Files": [
-    "145603875ac195ba53d56a490694484c 41872 lirc_0.10.2-0.10.debian.tar.xz c729d891e43fe57a2a1787dc223e9973 2642 lirc_0.10.2-0.10.dsc 281e43e8428cdbc56660c4c4902ddcea 2607203 lirc_0.10.2.orig.tar.gz"
+    "fcb421771b7bf96757ac7e10894e25b3 40452 lirc_0.10.1-7.2.debian.tar.xz d5bf468ed499b420358151790dbe4a15 2194 lirc_0.10.1-7.2.dsc 2a390b353181fe6c6b5b94dcd10ba743 2715271 lirc_0.10.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,21 +39,21 @@
     "lirc"
   ],
   "Package-List": [
-    "liblirc-client0t64 deb libs optional arch=any liblirc-dev deb libdevel optional arch=any liblirc0t64 deb libs optional arch=any lirc deb utils optional arch=any lirc-doc deb doc optional arch=all lirc-x deb utils optional arch=any"
+    "liblirc-client0 deb libs optional arch=any liblirc-dev deb libdevel optional arch=any liblirc0 deb libs optional arch=any liblircclient-dev deb libdevel optional arch=any liblircclient0 deb libs optional arch=any lirc deb utils optional arch=any lirc-doc deb doc optional arch=all lirc-x deb utils optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.3.0"
   ],
   "Uploaders": [
     "Stefan Lippers-Hollmann \u003cs.l-h@gmx.de\u003e, Alec Leamas \u003cleamas.alec@gmail.com\u003e"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/debian/lirc"
+    "https://gitlab.com/leamas/lirc"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/debian/lirc.git"
+    "https://gitlab.com/leamas/lirc.git"
   ],
   "Version": [
-    "0.10.2-0.10"
+    "0.10.1-7.2"
   ]
 }

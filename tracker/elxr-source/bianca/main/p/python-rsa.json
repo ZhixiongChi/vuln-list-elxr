@@ -6,22 +6,22 @@
     "python3-rsa"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-pyasn1, mypy, python3-poetry-core"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-unittest2, python3-pyasn1, python3-mock, mypy"
   ],
   "Checksums-Sha1": [
-    "d82f56327a9161c8efa1bd96977ece682f3eb6c2 4104 python-rsa_4.9-2.debian.tar.xz af62f77f1d9ef8af581ce7d56a1b485b038714be 2022 python-rsa_4.9-2.dsc 71e3485aa2bbe020426a8604151b5175e157091b 29711 python-rsa_4.9.orig.tar.gz"
+    "d907200a20f741af78cb8b7138faf2f42cfbe655 3936 python-rsa_4.8-1.debian.tar.xz 92394e21d028860f0c2139f3fe3532f67d9f2f3f 2034 python-rsa_4.8-1.dsc d1e0601e99cc41aaf6d62bcf73ed124a844ce0fe 28396 python-rsa_4.8.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "b5f2dda603e064695b5795be11a22d7772b8b78d9e192dcf1f4e4e5ea79586b7 4104 python-rsa_4.9-2.debian.tar.xz f2cec8195160e71fa59b9b134eefbd5478f878af2b1fddcf4c536ee163e78b56 2022 python-rsa_4.9-2.dsc e38464a49c6c85d7f1351b0126661487a7e0a14a50f1675ec50eb34d4f20ef21 29711 python-rsa_4.9.orig.tar.gz"
+    "904f87ad36ebe02bbc40ced4985107f554b713215208aad81138354f866d9c36 3936 python-rsa_4.8-1.debian.tar.xz fcd020f154a9069a77ce13c37b387dbc64be5a0e974f81a8bb2c813286db8b9e 2034 python-rsa_4.8-1.dsc 5c6bd9dc7a543b7fe4304a631f8a8a3b674e2bbfc49c2ae96200cdbe55df6b17 28396 python-rsa_4.8.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "251eb7bf0e5c4dbfa39c10ef1fd09d493cddd6832eb18f65dec2330bb5c3ac0a29da4310896840a97851c06606d9c310f2616e80023e1b068522159db3b036fb 4104 python-rsa_4.9-2.debian.tar.xz 7bfe3df81250f2c4169cd9ca46fcc66df6df5595ddc06216616f857357680cfbe5bda7626221276932897938db7adc4b9e25c9a039f6ceb548d2f14eea91043c 2022 python-rsa_4.9-2.dsc 85f359cc448a42f267f425fcf761597eeeab942523de49284b01d6ea2bcca8bddf0fac26926b487ae91c15889a7c4897a33ee00de859f28fe9cca19ef98c3f19 29711 python-rsa_4.9.orig.tar.gz"
+    "441e165d5f308b5b6aa9674ad61e155dcfcdd18a7001ef9f138f164746035bbad016563c40f032cd8f49e5b5c4847bcc49df531b2ce4560ed9ee35cbca1055ed 3936 python-rsa_4.8-1.debian.tar.xz b5dd8505bea8b1195789b4883e9d128c0047d38a1ee1c7697ad337ebd08e0baa4344163c306d2e085c4cf20d303497c0b1d9bcf0564b13356d9ba32aadf5b1be 2034 python-rsa_4.8-1.dsc 9dd030eb64aefe62aeefca3e8dbf90a363ef2220409a60911b6f3668dd8f36bd03ee40ea243fe8db98776e654131bfa301b781d4fc50e34f2aafd6d47165b6ba 28396 python-rsa_4.8.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-rsa"
   ],
   "Files": [
-    "9ef9f0373f94b900d134d796a5705154 4104 python-rsa_4.9-2.debian.tar.xz 6d84a81ea538895f0c53548ca8eb4ef3 2022 python-rsa_4.9-2.dsc 26a1efb79164a95c363e550c3eefe683 29711 python-rsa_4.9.orig.tar.gz"
+    "d3d87ee571392c3908bbbfec79cd8f9b 3936 python-rsa_4.8-1.debian.tar.xz 593f80268fc0ebfb0b6aaeca4379af41 2034 python-rsa_4.8-1.dsc edb224f927cf8f53ff530ab04d092c69 28396 python-rsa_4.8.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python3-rsa deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.0"
   ],
   "Uploaders": [
     "TANIGUCHI Takaki \u003ctakaki@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/python-team/packages/python-rsa.git"
   ],
   "Version": [
-    "4.9-2"
+    "4.8-1"
   ]
 }

@@ -3,28 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "libssh-4, libssh-dev, libssh-doc"
+    "libssh-4, libssh-gcrypt-4, libssh-dev, libssh-gcrypt-dev, libssh-doc"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), libcmocka-dev \u003c!nocheck\u003e, libkrb5-dev | heimdal-dev, libssl-dev, zlib1g-dev | libz-dev, openssh-client \u003c!nocheck\u003e, openssh-server \u003c!nocheck\u003e, pkgconf, python3:any \u003c!nocheck\u003e"
+    "cmake (\u003e= 2.8.5), debhelper-compat (= 12), libcmocka-dev \u003c!nocheck\u003e, libgcrypt-dev, libkrb5-dev | heimdal-dev, libssl-dev, zlib1g-dev | libz-dev, openssh-client \u003c!nocheck\u003e, openssh-server \u003c!nocheck\u003e, pkg-config, python3:any \u003c!nocheck\u003e"
   ],
   "Build-Depends-Indep": [
     "doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "0583d8530e04f0bd10a9fe9603fb9458fc642a79 33056 libssh_0.11.2-1+deb13u1.debian.tar.xz d41eef50dc620051041107be05be3a5c418dbbaf 2615 libssh_0.11.2-1+deb13u1.dsc ece1eb034eab3b1cc7a283d2a7bd2dc59a57686b 619428 libssh_0.11.2.orig.tar.xz b8030dd740e50343e68cb88d7b67d1a3f8db9aef 833 libssh_0.11.2.orig.tar.xz.asc"
+    "e2f3f43a7d5333822057a3bceed64e8a73bd862d 35196 libssh_0.10.6-0+deb12u2.debian.tar.xz d49167960c39304c6ee0aae2879b553db591ab6a 2774 libssh_0.10.6-0+deb12u2.dsc e8fb3b4750db11d2483cac4b5f046e301c09b72f 561036 libssh_0.10.6.orig.tar.xz ef01c0d5506ae2c6d3fbda6c89dca53079f422d6 833 libssh_0.10.6.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "50f9061d9918afe009442b462d433d0469bb5cd2d3bf341910aebbc0f5d88f3b 33056 libssh_0.11.2-1+deb13u1.debian.tar.xz 7f06a200c1fb7022bf16ce6845e5bb4afbe31d4caa115cab8897f5012173953a 2615 libssh_0.11.2-1+deb13u1.dsc 69529fc18f5b601f0baf0e5a4501a2bc26df5e2f116f5f8f07f19fafaa6d04e7 619428 libssh_0.11.2.orig.tar.xz fd0f8ddd79a118a58b04919a6907da81b8ab9a70f5173a4080fbf5484a26d4ea 833 libssh_0.11.2.orig.tar.xz.asc"
+    "42fab6ba35f5338a63f5c593966f4669c41f6192a1262c5575f719ab33cdc1d5 35196 libssh_0.10.6-0+deb12u2.debian.tar.xz 4e798a40fd3a97317683b818f28a41a6e9658a66da7375c40fe0d45f0168c755 2774 libssh_0.10.6-0+deb12u2.dsc 1861d498f5b6f1741b6abc73e608478491edcf9c9d4b6630eef6e74596de9dc1 561036 libssh_0.10.6.orig.tar.xz 140420406d7796548b0beaf736e73864c32291787cf2bd3983fdbc41741494ae 833 libssh_0.10.6.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "3dc28fc85a03cc14340d84d5cee67dff7d38b5748cba963f412d2bcfbb728f63be9dcca8a910d28971af16fa6a3558bcc6c7415e7f841c24088618c6c40f4823 33056 libssh_0.11.2-1+deb13u1.debian.tar.xz 90d04f1402827b0552b4b5babdb8bea683e417673232224ba6229c808337320bd807d62cc998ee90da474ba8e5caac506b7efd5cba31c187fd477cd82cb68e1f 2615 libssh_0.11.2-1+deb13u1.dsc 15d56c3f82ee81c3ab4af2b17eba054626bb53c3337ef45f829479f8b64c552f6e7cbf307e41c9792bcb3438f282d2690acbe994150bd03a8b6c21ba8b1cfe50 619428 libssh_0.11.2.orig.tar.xz 17becc4548b8247cc6f80ca83180836e3a717ab3a1a0846881e3775c7719326fd40525222b4b3436457cb4c2b87c9af7aa70bc4ac309cf09b993d7e8e18fd379 833 libssh_0.11.2.orig.tar.xz.asc"
+    "73e8fa526dd198a8a303fbfdd4db34e4f498d427de2b759981265467aebe82253766d57ebe5030fd41cf52772358c0662a88a6129c786e259ba00ed0056f659f 35196 libssh_0.10.6-0+deb12u2.debian.tar.xz 11866b6e876bc8109cd4404dbe2e207cb6cd007e8573e2cb386531807b94c131a2a644dd202235b55509ae3c18aba69be03ed26a90e937034d8a300f936a1559 2774 libssh_0.10.6-0+deb12u2.dsc 40c62d63c44e882999b71552c237d73fc7364313bd00b15a211a34aeff1b73693da441d2c8d4e40108d00fb7480ec7c5b6d472f9c0784b2359a179632ab0d6c1 561036 libssh_0.10.6.orig.tar.xz 214d7920bebc80a8e6838c64ed06e070709a96fabfb4fff657b55f9588bc0e1612887fe887d23de73ad3540f3bb85288e62eb6a11ccd4bc80afbd44d34ba70d4 833 libssh_0.10.6.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/libs/libssh"
   ],
   "Files": [
-    "04aa8e8c4cd38df692fa9fc8a3a41ac3 33056 libssh_0.11.2-1+deb13u1.debian.tar.xz 5ca6b97d16d5958a36f5cf550f88f042 2615 libssh_0.11.2-1+deb13u1.dsc 7e9afb4cf63abbcd8bc448124dfdf3fa 619428 libssh_0.11.2.orig.tar.xz 2568a84e31e2bd0f5ae1cf664d26c8e0 833 libssh_0.11.2.orig.tar.xz.asc"
+    "3b83514fce296185b2dfc1dc1ab0d4ca 35196 libssh_0.10.6-0+deb12u2.debian.tar.xz a2d799e17191a880ffcb8a6acea0b252 2774 libssh_0.10.6-0+deb12u2.dsc 5f46371aa8bfa7e6bff7f2a6f3edf80e 561036 libssh_0.10.6.orig.tar.xz 75a12048601da804564cfa523bd77bcf 833 libssh_0.10.6.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "libssh"
   ],
   "Package-List": [
-    "libssh-4 deb libs optional arch=any libssh-dev deb libdevel optional arch=any libssh-doc deb doc optional arch=all profile=!nodoc"
+    "libssh-4 deb libs optional arch=any libssh-dev deb libdevel optional arch=any libssh-doc deb doc optional arch=all profile=!nodoc libssh-gcrypt-4 deb libs optional arch=any libssh-gcrypt-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/debian/libssh.git"
   ],
   "Version": [
-    "0.11.2-1+deb13u1"
+    "0.10.6-0+deb12u2"
   ]
 }

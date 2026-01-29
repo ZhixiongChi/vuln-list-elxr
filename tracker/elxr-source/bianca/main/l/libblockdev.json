@@ -3,25 +3,25 @@
     "linux-any all"
   ],
   "Binary": [
-    "libblockdev3, libblockdev-dev, gir1.2-blockdev-3.0, python3-blockdev, libblockdev-tools, libblockdev-utils3, libblockdev-utils-dev, libblockdev-btrfs3, libblockdev-btrfs-dev, libblockdev-crypto3, libblockdev-crypto-dev, libblockdev-dm3, libblockdev-dm-dev, libblockdev-fs3, libblockdev-fs-dev, libblockdev-loop3, libblockdev-loop-dev, libblockdev-lvm3, libblockdev-lvm-dev, libblockdev-lvm-dbus3, libblockdev-lvm-dbus-dev, libblockdev-mdraid3, libblockdev-mdraid-dev, libblockdev-mpath3, libblockdev-mpath-dev, libblockdev-nvdimm3, libblockdev-nvdimm-dev, libblockdev-nvme3, libblockdev-nvme-dev, libblockdev-part3, libblockdev-part-dev, libblockdev-swap3, libblockdev-swap-dev, libblockdev-smart3, libblockdev-smart-dev, libblockdev-plugins-all"
+    "libblockdev2, libblockdev-dev, gir1.2-blockdev-2.0, python3-blockdev, libblockdev-utils2, libblockdev-utils-dev, libblockdev-part-err2, libblockdev-part-err-dev, libblockdev-btrfs2, libblockdev-btrfs-dev, libblockdev-crypto2, libblockdev-crypto-dev, libblockdev-dm2, libblockdev-dm-dev, libblockdev-fs2, libblockdev-fs-dev, libblockdev-kbd2, libblockdev-kbd-dev, libblockdev-loop2, libblockdev-loop-dev, libblockdev-lvm2, libblockdev-lvm-dev, libblockdev-lvm-dbus2, libblockdev-lvm-dbus-dev, libblockdev-mdraid2, libblockdev-mdraid-dev, libblockdev-mpath2, libblockdev-mpath-dev, libblockdev-nvdimm2, libblockdev-nvdimm-dev, libblockdev-part2, libblockdev-part-dev, libblockdev-swap2, libblockdev-swap-dev, libblockdev-plugins-all"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-python3, libtool, autoconf-archive, python3:any, libglib2.0-dev (\u003e= 2.42.2), libgirepository1.0-dev, libcryptsetup-dev (\u003e= 2.3.0), libkeyutils-dev, libdevmapper-dev (\u003e= 1.02.93), libyaml-dev, libudev-dev (\u003e= 216), libsystemd-dev, libvolume-key-dev, libbytesize-dev, libnss3-dev (\u003e= 3.18.0), libndctl-dev (\u003e= 63-1.2~), libparted-dev (\u003e= 3.1), libfdisk-dev (\u003e= 2.31.0), libmount-dev (\u003e= 2.23.0), libblkid-dev (\u003e= 2.23.0), uuid-dev, libext2fs-dev, libnvme-dev, libpython3-dev, libkmod-dev (\u003e= 19), libatasmart-dev (\u003e= 0.17), gtk-doc-tools, pylint:native \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-python3, libtool, autoconf-archive, python3:any, libglib2.0-dev (\u003e= 2.42.2), libgirepository1.0-dev, libcryptsetup-dev (\u003e= 1.6.7), libdevmapper-dev (\u003e= 1.02.93), libudev-dev (\u003e= 216), libsystemd-dev, libvolume-key-dev, libbytesize-dev, libnss3-dev (\u003e= 3.18.0), libndctl-dev (\u003e= 63-1.2~) [!ia64], libparted-dev (\u003e= 3.1), libmount-dev (\u003e= 2.23.0), libblkid-dev (\u003e= 2.23.0), libpython3-dev, libkmod-dev (\u003e= 19), gtk-doc-tools, pylint"
   ],
   "Checksums-Sha1": [
-    "9da4074bddbc311d26aa25c9e41e50dd175ad189 14460 libblockdev_3.3.0-2.1.debian.tar.xz 09c1034c9fb842201876a1da91e173e73f777096 5878 libblockdev_3.3.0-2.1.dsc 7b675cff98bdbae037f6f164648be411c5b081a9 585629 libblockdev_3.3.0.orig.tar.gz"
+    "1dfa8d985eb95f96ae0c2c4c5360d54ad387878e 11636 libblockdev_2.28-2+deb12u1.debian.tar.xz 8c1fc023e7ff1858906d7583f48f9b0650dc9d8e 5247 libblockdev_2.28-2+deb12u1.dsc 1b4f4214ad7a0c221aa09e8020158c4e8ccaa419 405883 libblockdev_2.28.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "bba8ca7b0a0d46387e206f657701811b963b112f2dcbb5b1f799ace79be2ea2b 14460 libblockdev_3.3.0-2.1.debian.tar.xz 29aa2c4ab5bb7371259533bfbfa3863e527dcc7f9ac57dd352f551f6adbdd41f 5878 libblockdev_3.3.0-2.1.dsc 84e333b172538bf458fec3acbe35a9fbe3b12ba1e467f67ff2970f04b89e858c 585629 libblockdev_3.3.0.orig.tar.gz"
+    "7647e5d80a3473aecaf2bda6e5d8b6cccd4af405c5cfaf6c96f95637c2281186 11636 libblockdev_2.28-2+deb12u1.debian.tar.xz 501a0ea80e41cf6a97243c648b17566d44a63433e56f1936ddf89402208d07c2 5247 libblockdev_2.28-2+deb12u1.dsc 5c7d45713a067f716ad1cc27a831ff5f08cc53014df2e0c2f44baa842e63bda7 405883 libblockdev_2.28.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a19d4a0a0b41aa73d110680db0820a866b9c093a2f7e84b4052d1312aa8f0e437dc774beeff996f3d9166e02461f6a96fd8334f2e5a7c590c1ab95b7a01b1607 14460 libblockdev_3.3.0-2.1.debian.tar.xz aefc6c956552542ee81229148b46c1c5a641c0d6a81bbb0bba57e62469b7ae97b0cd54a4fcd4e15735c3a5d7da4e8be12c6138c49e1893a0ee8cc832caf4badb 5878 libblockdev_3.3.0-2.1.dsc 6d6793adb036a901cff289496b1d220eeeea9811028cd8be43853195c651322908259bba1b8687c0ab48aa9b445863e465e9808ec4565dfe9a65451ff7e0c6be 585629 libblockdev_3.3.0.orig.tar.gz"
+    "6ce4d701788fc5b2bc756be8f8809a14e736dbe4c93729dbcd4e18b5338395b9638ac1395203b71352d044da2a57e8ca5c8b68b10a8e7a59f8c78c6b395645e8 11636 libblockdev_2.28-2+deb12u1.debian.tar.xz c278840e1e70bf573ed5a71d368fa5d8b2ffa77d209c60b4c1b7fc99086f67d6ff7ca61f34da4575777be3a91433c10f6f65648738e9936f8180837ca6ca6a7e 5247 libblockdev_2.28-2+deb12u1.dsc 22d594604ea6cefe7ad5567037cdebaabac6289757cef9f3cc02dcb585aaa418d227b107363943029988a2c5689a730a746444ed141e1b7b644b9e3dd69647b6 405883 libblockdev_2.28.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libb/libblockdev"
   ],
   "Files": [
-    "df36db12ddec42438b6c368a9d091268 14460 libblockdev_3.3.0-2.1.debian.tar.xz 824982e523a11e42a0717544e2c3dec4 5878 libblockdev_3.3.0-2.1.dsc b021585c151adfae31c21f89bb4cdf08 585629 libblockdev_3.3.0.orig.tar.gz"
+    "e921de4781b100ba8ff25dce2a8d72d6 11636 libblockdev_2.28-2+deb12u1.debian.tar.xz c7d4284a04fbf79b9ff5f6181d4c2f19 5247 libblockdev_2.28-2+deb12u1.dsc 7f7fe3135505b6917e8ad9281084dd6c 405883 libblockdev_2.28.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,19 +36,13 @@
     "libblockdev"
   ],
   "Package-List": [
-    "gir1.2-blockdev-3.0 deb introspection optional arch=linux-any libblockdev-btrfs-dev deb libdevel optional arch=linux-any libblockdev-btrfs3 deb libs optional arch=linux-any libblockdev-crypto-dev deb libdevel optional arch=linux-any libblockdev-crypto3 deb libs optional arch=linux-any libblockdev-dev deb libdevel optional arch=linux-any libblockdev-dm-dev deb libdevel optional arch=linux-any libblockdev-dm3 deb libs optional arch=linux-any libblockdev-fs-dev deb libdevel optional arch=linux-any libblockdev-fs3 deb libs optional arch=linux-any libblockdev-loop-dev deb libdevel optional arch=linux-any libblockdev-loop3 deb libs optional arch=linux-any libblockdev-lvm-dbus-dev deb libdevel optional arch=linux-any libblockdev-lvm-dbus3 deb libs optional arch=linux-any libblockdev-lvm-dev deb libdevel optional arch=linux-any libblockdev-lvm3 deb libs optional arch=linux-any libblockdev-mdraid-dev deb libdevel optional arch=linux-any libblockdev-mdraid3 deb libs optional arch=linux-any libblockdev-mpath-dev deb libdevel optional arch=linux-any libblockdev-mpath3 deb libs optional arch=linux-any libblockdev-nvdimm-dev deb libdevel optional arch=linux-any libblockdev-nvdimm3 deb libs optional arch=linux-any libblockdev-nvme-dev deb libdevel optional arch=linux-any libblockdev-nvme3 deb libs optional arch=linux-any libblockdev-part-dev deb libdevel optional arch=linux-any libblockdev-part3 deb libs optional arch=linux-any libblockdev-plugins-all deb libs optional arch=linux-any libblockdev-smart-dev deb libdevel optional arch=linux-any libblockdev-smart3 deb libs optional arch=linux-any libblockdev-swap-dev deb libdevel optional arch=linux-any libblockdev-swap3 deb libs optional arch=linux-any libblockdev-tools deb libs optional arch=linux-any libblockdev-utils-dev deb libdevel optional arch=linux-any libblockdev-utils3 deb libs optional arch=linux-any libblockdev3 deb libs optional arch=linux-any python3-blockdev deb python optional arch=all"
+    "gir1.2-blockdev-2.0 deb introspection optional arch=linux-any libblockdev-btrfs-dev deb libdevel optional arch=linux-any libblockdev-btrfs2 deb libs optional arch=linux-any libblockdev-crypto-dev deb libdevel optional arch=linux-any libblockdev-crypto2 deb libs optional arch=linux-any libblockdev-dev deb libdevel optional arch=linux-any libblockdev-dm-dev deb libdevel optional arch=linux-any libblockdev-dm2 deb libs optional arch=linux-any libblockdev-fs-dev deb libdevel optional arch=linux-any libblockdev-fs2 deb libs optional arch=linux-any libblockdev-kbd-dev deb libdevel optional arch=linux-any libblockdev-kbd2 deb libs optional arch=linux-any libblockdev-loop-dev deb libdevel optional arch=linux-any libblockdev-loop2 deb libs optional arch=linux-any libblockdev-lvm-dbus-dev deb libdevel optional arch=linux-any libblockdev-lvm-dbus2 deb libs optional arch=linux-any libblockdev-lvm-dev deb libdevel optional arch=linux-any libblockdev-lvm2 deb libs optional arch=linux-any libblockdev-mdraid-dev deb libdevel optional arch=linux-any libblockdev-mdraid2 deb libs optional arch=linux-any libblockdev-mpath-dev deb libdevel optional arch=linux-any libblockdev-mpath2 deb libs optional arch=linux-any libblockdev-nvdimm-dev deb libdevel optional arch=linux-any libblockdev-nvdimm2 deb libs optional arch=linux-any libblockdev-part-dev deb libdevel optional arch=linux-any libblockdev-part-err-dev deb libdevel optional arch=linux-any libblockdev-part-err2 deb libs optional arch=linux-any libblockdev-part2 deb libs optional arch=linux-any libblockdev-plugins-all deb libs optional arch=linux-any libblockdev-swap-dev deb libdevel optional arch=linux-any libblockdev-swap2 deb libs optional arch=linux-any libblockdev-utils-dev deb libdevel optional arch=linux-any libblockdev-utils2 deb libs optional arch=linux-any libblockdev2 deb libs optional arch=linux-any python3-blockdev deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "btrfs-progs, cryptsetup-bin, dosfstools, e2fsprogs, exfatprogs, f2fs-tools, gir1.2-glib-2.0, libnss3, libnss3-tools, libvolume-key1, locales-all, lsb-release, lvm2, lvm2-dbusd, mdadm, multipath-tools, ndctl, nilfs-tools, ntfs-3g, nvme-cli, python3, python3-bytesize, python3-dbus, python3-gi, python3-packaging, python3-yaml, targetcli-fb, udftools, vdo, volume-key, xfsprogs"
+    "4.6.1"
   ],
   "Uploaders": [
-    "Martin Pitt \u003cmpitt@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e,"
+    "Martin Pitt \u003cmpitt@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/utopia-team/libblockdev"
@@ -57,6 +51,6 @@
     "https://salsa.debian.org/utopia-team/libblockdev.git"
   ],
   "Version": [
-    "3.3.0-2.1"
+    "2.28-2+deb12u1"
   ]
 }

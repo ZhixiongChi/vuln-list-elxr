@@ -6,31 +6,31 @@
     "python3-libvirt"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pkgconf, pybuild-plugin-pyproject, python3-all-dev, python3-lxml \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, libvirt-dev (\u003e= 4.5.0~)"
+    "debhelper-compat (= 13), dh-sequence-python3, pkg-config, python3-all-dev, python3-lxml \u003c!nocheck\u003e, python3-pytest, python3-setuptools, libvirt-dev (\u003e= 4.5.0~)"
   ],
   "Checksums-Sha1": [
-    "8b75f5dbb0cf1086e71ae79fedf5fff613fa24b5 10840 libvirt-python_11.3.0-1.debian.tar.xz ba68ade2e4bf3944f724b2e4ac9f02eb0683cbcf 2491 libvirt-python_11.3.0-1.dsc 49511bd5a3a462c110d89ea028518b260cbbde99 242218 libvirt-python_11.3.0.orig.tar.gz fd1b7bf4e41d6293996608b955a5c73a30023fa5 833 libvirt-python_11.3.0.orig.tar.gz.asc"
+    "024b878b0892565d658876115d26b79d5846493a 9816 libvirt-python_9.0.0-1.debian.tar.xz 11cbb03b9f0c8c32c9b537817e649b853c5350d5 2322 libvirt-python_9.0.0-1.dsc d84b47c633f3c21204dc44253563ac5a29b6818b 242486 libvirt-python_9.0.0.orig.tar.gz 8042185afdd111057a9ce28ded87123ef761f83b 833 libvirt-python_9.0.0.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "146158ec87bfc59ff636d3c32bb5c973a6c12f1dcb43bfb4093cfb20927076ed 10840 libvirt-python_11.3.0-1.debian.tar.xz 920d5e3fced9bb9f18b49a265f478ec8d50319b95cefa4969b2d7cf16146ffa2 2491 libvirt-python_11.3.0-1.dsc 4cd31e625e8fefbbe168faedb38cb7fa2da3fa7394326eed29dc46e7ca511979 242218 libvirt-python_11.3.0.orig.tar.gz 9da42a5a1cf7e7ba941e6cebb936b94a2b21bf8934f494e9a4dd475e53b3f3b7 833 libvirt-python_11.3.0.orig.tar.gz.asc"
+    "7ba09aff21ffb8cd9c8d52d6c05724d6a4777741aa0b0427f488a63f4e3dd1f3 9816 libvirt-python_9.0.0-1.debian.tar.xz 5b0deca25a4fba6f2d2b77fb4e4d81d0a9296099342705e99292fd63edb64410 2322 libvirt-python_9.0.0-1.dsc 49702d33fa8cbcae19fa727467a69f7ae2241b3091324085ca1cc752b2b414ce 242486 libvirt-python_9.0.0.orig.tar.gz 66fe48c0d4b3ece43fe51b4db9a6e35fe58e0aa6b7995bd178a9f91e12ee73a4 833 libvirt-python_9.0.0.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "7704749e0c68c052a42b2cb406aae29deb03f458280f1d4743a6ae138fc36cd9c739d99212884acf67f566ddbda45b55d2b41e6ba59c7d6b50d702d567b4c754 10840 libvirt-python_11.3.0-1.debian.tar.xz ba0ec6b2d2023401ba3ac6f4821b4ece050991a36bbe13bb92018d8ff9e15f09c6b756c8297217d13408494e53ea4319b1a76ddfc2271dd17126404fd100008a 2491 libvirt-python_11.3.0-1.dsc 8f35d3103135a321fbc3faedebb9f4b1866d008f07a2d967bf62076916318e9d6f4f2b885efba9cb5e8368704aecda68254d028c5e316bdd6d061badc4f35d96 242218 libvirt-python_11.3.0.orig.tar.gz ea73c35f9ea30217e9045b6bfc650c5f795f40220a82900fe2e79b3079d1bc85addeff17e55f0ff4e12924995b7c31cbe50511415465f1c2ea772360cb79bd07 833 libvirt-python_11.3.0.orig.tar.gz.asc"
+    "45ba8f313aa35242308233950e5f628b42802f7305177a9b7040cfa1eaa103e191349de387960c80ef24bf049a4d84222aa26bb8415e15a8f349b305e9765160 9816 libvirt-python_9.0.0-1.debian.tar.xz 5b7f852246ea976b2c867a9e07971e2728d5d454e5c6ba33c8b063a1857f1925c9c743dc44280cb09fa7b5a56940c009d24326d86551774df5a472d618937ce8 2322 libvirt-python_9.0.0-1.dsc 93396d0cced81f2215d3b72d4a643fca15ad42d9c8f130941ac7b02afe9a35c3969ee1e14d5fee5e046590d942dacdbf8aa6cc8bed46a4c90c9197bd5b963d3d 242486 libvirt-python_9.0.0.orig.tar.gz 27ac90fdccc0a218e6d52558cfc7ec9feb79bde6f3758bc1c7953199d9e226d1571cb4c9cda5fb4339beb5358eefcda6a34e190c8d21bde012598d4841eba416 833 libvirt-python_9.0.0.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/libv/libvirt-python"
   ],
   "Files": [
-    "280f061d6a23a1286822e103a5769318 10840 libvirt-python_11.3.0-1.debian.tar.xz b381f6d4b8d59c47450f5809e44e1692 2491 libvirt-python_11.3.0-1.dsc 8e3923ecc7e908a989a49c73370ba803 242218 libvirt-python_11.3.0.orig.tar.gz 427b46a7258858baa020b9643eb72118 833 libvirt-python_11.3.0.orig.tar.gz.asc"
+    "17c030f7eade11a99fe417107df280be 9816 libvirt-python_9.0.0-1.debian.tar.xz 704147df0f801e367924fa2dc3a8235e 2322 libvirt-python_9.0.0-1.dsc fff2cdccf78b4ca73580a08be79d7060 242486 libvirt-python_9.0.0.orig.tar.gz 3c20a397bb6ceacf8363a7b6b2ef9014 833 libvirt-python_9.0.0.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://libvirt.org"
+    "http://libvirt.org"
   ],
   "Maintainer": [
-    "Debian Libvirt Maintainers \u003cpkg-libvirt-maintainers@lists.alioth.debian.org\u003e"
+    "Guido Günther \u003cagx@sigxcpu.org\u003e"
   ],
   "Package": [
     "libvirt-python"
@@ -39,13 +39,10 @@
     "python3-libvirt deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-pybuild"
-  ],
-  "Uploaders": [
-    "Guido Günther \u003cagx@sigxcpu.org\u003e, Pino Toscano \u003cpino@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/libvirt-team/libvirt-python"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/libvirt-team/libvirt-python.git"
   ],
   "Version": [
-    "11.3.0-1"
+    "9.0.0-1"
   ]
 }

@@ -6,25 +6,25 @@
     "libdata-messagepack-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-buildinfo, libmodule-build-perl, libmodule-build-xsutil-perl, libmsgpack-dev, libtest-leaktrace-perl \u003c!nocheck\u003e, libtest-requires-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native"
+    "debhelper-compat (= 13), dh-buildinfo, perl, libmodule-build-perl, libmsgpack-dev (\u003e= 3.1.0), libtest-requires-perl \u003c!nocheck\u003e, libtest-leaktrace-perl \u003c!nocheck\u003e, libmodule-build-xsutil-perl"
   ],
   "Checksums-Sha1": [
-    "74d103dbd989861926b1dc57a46a070b2cfb3fc9 6088 libdata-messagepack-perl_1.02-2.debian.tar.xz 9dc7f325d479e72c39cd584c45966aed9f1f52a2 2588 libdata-messagepack-perl_1.02-2.dsc f443e9a49262394f4d0fe16dbd7f526316fecf3b 76396 libdata-messagepack-perl_1.02.orig.tar.gz"
+    "4eeaaff23d2f19417679620da5b8c140b0a135ae 5980 libdata-messagepack-perl_1.02-1.debian.tar.xz 0546561d424e4cd545e17970a6dab5fd524dfc0a 2611 libdata-messagepack-perl_1.02-1.dsc f443e9a49262394f4d0fe16dbd7f526316fecf3b 76396 libdata-messagepack-perl_1.02.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "c1429ab0b43329d7c088fc09b4629ec471ea9b0b3b88a6d94d5ac7fbf5d0f548 6088 libdata-messagepack-perl_1.02-2.debian.tar.xz 623408a3c3b4e6d8109456d23164bbad1b081d28c2136156a2f9ba42bdbf8ab8 2588 libdata-messagepack-perl_1.02-2.dsc c33db44790aa8d254147882e2378dffe970ad60331350bde062d17953482b1b7 76396 libdata-messagepack-perl_1.02.orig.tar.gz"
+    "1e22aa21361708ac1d299a15e80c67471de2055b127d11043121f29dbe29f636 5980 libdata-messagepack-perl_1.02-1.debian.tar.xz 32aa2c265b7f2a4e1c667a873c22b3b1a62faf9cdaef1b890949a5a583a5d630 2611 libdata-messagepack-perl_1.02-1.dsc c33db44790aa8d254147882e2378dffe970ad60331350bde062d17953482b1b7 76396 libdata-messagepack-perl_1.02.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f143bf4349b2123bdcc44e030e4ca2aa88caabab2040a4cba8e5c62f289d4b190928a30dd3bed10b2c1b2e84c1732b7aa2db42a0cf369a3b577fba267f955ab0 6088 libdata-messagepack-perl_1.02-2.debian.tar.xz 317602a56827abbc5f03c020d8d5f8fa882ec163683c41e6b1599a5ad9c382ec0a6db4cf721b445c00dc4a9a2d3cf85e5432890111d7f51f65729ec6ed8eb7f3 2588 libdata-messagepack-perl_1.02-2.dsc a78a035091f42c888cb3d7b952d89588ba52988a6807e4c6dc347b12a751830b1b1d36ea93b8852339e1601dad197d42c762061b95ca2d8fdb4a6c29f6fda900 76396 libdata-messagepack-perl_1.02.orig.tar.gz"
+    "1c9341790ab55c013f5aef25f09430a40a18e4c050059a3b1d9e6e1943b7bb1d30d7d9ec5c1d0e97033b3ef1b3dee64f4e5d745ac65d7c4663a4db30e3bdffb5 5980 libdata-messagepack-perl_1.02-1.debian.tar.xz 2622cf31ceb67b4e1485fb9cf203b94047019ed502e41e5fbd2a3c35d14204fa2f9ae9ff9f97f65dd3a0c0725c3a209f773623345738266719c25040dd2885e1 2611 libdata-messagepack-perl_1.02-1.dsc a78a035091f42c888cb3d7b952d89588ba52988a6807e4c6dc347b12a751830b1b1d36ea93b8852339e1601dad197d42c762061b95ca2d8fdb4a6c29f6fda900 76396 libdata-messagepack-perl_1.02.orig.tar.gz"
   ],
   "Dgit": [
-    "3b1387f461aff5ddac0f97546047e17b7501cea0 debian archive/debian/1.02-2 https://git.dgit.debian.org/libdata-messagepack-perl"
+    "da57d7a4fd6897f6eff7e82e6f6096753d4e9a42 debian archive/debian/1.02-1 https://git.dgit.debian.org/libdata-messagepack-perl"
   ],
   "Directory": [
     "pool/main/libd/libdata-messagepack-perl"
   ],
   "Files": [
-    "ac367578c4ac43eefd2655a445ad9f74 6088 libdata-messagepack-perl_1.02-2.debian.tar.xz c62fbc1a6ad0c79338c4d50f97571772 2588 libdata-messagepack-perl_1.02-2.dsc 23afe56c52a6e7f345a801710dcfabbe 76396 libdata-messagepack-perl_1.02.orig.tar.gz"
+    "50c6694bbf9a3333192673ee9d59e29f 5980 libdata-messagepack-perl_1.02-1.debian.tar.xz 979c92fc80e67c02148460fdb3c449e8 2611 libdata-messagepack-perl_1.02-1.dsc 23afe56c52a6e7f345a801710dcfabbe 76396 libdata-messagepack-perl_1.02.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,13 @@
     "libdata-messagepack-perl deb perl optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
   ],
   "Uploaders": [
-    "Christopher Hoskin \u003cmans0954@debian.org\u003e"
+    "Jonas Smedegaard \u003cdr@jones.dk\u003e, Christopher Hoskin \u003cmans0954@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/perl-team/modules/packages/libdata-messagepack-perl"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libdata-messagepack-perl.git"
   ],
   "Version": [
-    "1.02-2"
+    "1.02-1"
   ]
 }

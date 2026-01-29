@@ -6,22 +6,22 @@
     "python3-asttokens"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3, python3-astroid, python3-pytest, python3-setuptools, python3-setuptools-scm, python3-toml, python3-wheel"
+    "debhelper-compat (= 13), dh-python, python3, python3-astroid, python3-pytest, python3-setuptools, python3-setuptools-scm, python3-six, python3-toml, python3-wheel"
   ],
   "Checksums-Sha1": [
-    "64a7d2ea68b9ff38a35c8b8aecf30aa4c67cce35 2644 python-asttokens_3.0.0-1.debian.tar.xz ef2eef7c1b34e54dbc2743cb5edb7671cf71169b 2235 python-asttokens_3.0.0-1.dsc 9324f7a1b219fb24c2af3b3aa72965db8057c8ca 61978 python-asttokens_3.0.0.orig.tar.gz"
+    "ec6d54380287837d083ce950d3558450ed245701 2500 python-asttokens_2.2.1-1.debian.tar.xz 8fcbbaf8eb0f872c4f8285259011d21785cd04e5 2187 python-asttokens_2.2.1-1.dsc eda0bf8bf38ecd475e8358d6ce15968c8679ae86 60486 python-asttokens_2.2.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a855c252176f15f7f13d5a2646d322ee343d02cd0fb43e9b49173f2b721d424f 2644 python-asttokens_3.0.0-1.debian.tar.xz 19a996127caafd682d2882b9cfa6a0cbe66c30e3b923b187d46f203a2392ac59 2235 python-asttokens_3.0.0-1.dsc 0dcd8baa8d62b0c1d118b399b2ddba3c4aff271d0d7a9e0d4c1681c79035bbc7 61978 python-asttokens_3.0.0.orig.tar.gz"
+    "69f12274db42490ffc656a1c1f0d72da59cf9687bb66cb9821be18ba46f987f5 2500 python-asttokens_2.2.1-1.debian.tar.xz 54d9ecfd97133cee5b48c52a0d12a5ac141ed6b7ab4b08cca896964522e1db63 2187 python-asttokens_2.2.1-1.dsc 4622110b2a6f30b77e1473affaa97e711bc2f07d3f10848420ff1898edbe94f3 60486 python-asttokens_2.2.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "892cdd7416890ea366903bde46c93b52860e9c44383ddb995736716bde5ee4bbec680818cd05c23e71060ae2d5d4825d12028c388f9e87a87647e7c786f11983 2644 python-asttokens_3.0.0-1.debian.tar.xz cc66ac87eb4cf262454ea1aaca8a6753fbdc2f52109a1d31c89e3c01143353ab0536d3a81a461ecf161e3b20e75f212f04b4d2b049c8863a7315273340da697e 2235 python-asttokens_3.0.0-1.dsc e4cab19517597c446043eab8e8eddd192fc4743dadf338720733f9dd1647829310a01386c2345a346ab242cabceb3454832ea5671cb252f434c59e3866460157 61978 python-asttokens_3.0.0.orig.tar.gz"
+    "f3e60fd17c0559ad4563499734d5dfad0a0c2eb775c7e3b0e886b4a9743a1a66c6298ee6824f04622c1b4cf17648b89ec898fa7710f8c1bc9f45df8cf0ef91eb 2500 python-asttokens_2.2.1-1.debian.tar.xz 4b282e26d3a270e3be7a02d66a9d088d1d9c220a99f15044bf617b6ef22039500371ec05050ce6acdce10f60a7c0c38977cd366677845bb198f5e8516d8c7624 2187 python-asttokens_2.2.1-1.dsc 0bd2b86e8f8170566de3d26ccce4d897362907e37edf2f7a78fc47326cfb5a2003a3c4fe41d022791aae93ee7953d5a7110849afadd2014e63492809712c9dd7 60486 python-asttokens_2.2.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-asttokens"
   ],
   "Files": [
-    "0596a24cb7fed9807dade2bc5774d224 2644 python-asttokens_3.0.0-1.debian.tar.xz c75b470362819f3baa037f9c19b45aa2 2235 python-asttokens_3.0.0-1.dsc 7d99c4c80190c3ba64839138ea827970 61978 python-asttokens_3.0.0.orig.tar.gz"
+    "5d2e3ec37749237ee68ed375f7e84f9a 2500 python-asttokens_2.2.1-1.debian.tar.xz 618a94fad4ebe56ffbd6307292c18add 2187 python-asttokens_2.2.1-1.dsc a9ae6ae0f85398e511bcb9ec87695eed 60486 python-asttokens_2.2.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python3-asttokens deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-python"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/python-asttokens.git"
   ],
   "Version": [
-    "3.0.0-1"
+    "2.2.1-1"
   ]
 }

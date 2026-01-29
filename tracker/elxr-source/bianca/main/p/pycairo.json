@@ -6,25 +6,22 @@
     "python3-cairo, python3-cairo-dev, python3-cairo-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-exec, dh-sequence-python3, libcairo2-dev (\u003e= 1.18.4), libpython3-all-dev, meson, python3-all-dev:native, python3-pytest \u003c!nocheck\u003e"
-  ],
-  "Build-Depends-Indep": [
-    "dh-sequence-sphinxdoc, python3-sphinx, python3-sphinx-rtd-theme"
+    "debhelper-compat (= 13), dh-exec, dh-python, libcairo2-dev, python3-all-dev, python3-pytest \u003c!nocheck\u003e, python3-sphinx, python3-sphinx-rtd-theme, sphinx-common"
   ],
   "Checksums-Sha1": [
-    "7d7858f8c508a5d65c37a0d4f9761a7f9db4f587 15924 pycairo_1.27.0-2.debian.tar.xz 96367e9eaa3018d8f374cf16ca5bb22d64055486 2339 pycairo_1.27.0-2.dsc bf5c0c88c9a07487c8b6c7ee51f75e6700b75088 660434 pycairo_1.27.0.orig.tar.gz"
+    "fec026bc3c6d3ec409054e86f9093587c6cd28ad 14812 pycairo_1.20.1-5.debian.tar.xz 29683d4832ff1e098df10d2e827c12772202c350 2255 pycairo_1.20.1-5.dsc 177770bfed5757330452ed7dc30fe690fcc4159b 342166 pycairo_1.20.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "e06f105da70f6fb9eb2a785a5df7cc079b81f1546618d6db70629840c811ce38 15924 pycairo_1.27.0-2.debian.tar.xz 9e8e29bf4ea0fd6ce0ee98b4796d7af3219f862a037655b3adf37da7bc15ea08 2339 pycairo_1.27.0-2.dsc ce10721e4a5d74c53c8b7241e5ccfd4627fadb2830ecdae72524c077067ca247 660434 pycairo_1.27.0.orig.tar.gz"
+    "23b2c8c2e0042a5b8194cdf33c93900dd4ec055b51f84a1036b0aa029cdc3261 14812 pycairo_1.20.1-5.debian.tar.xz faa817e25923c564a4cdfcc70c50b8910f68d600141840565064c9cc1e95b27f 2255 pycairo_1.20.1-5.dsc 34f0a86ee5d98f3fca1f09dd3960d43ea9937b2df44f5270d2eb94f529677150 342166 pycairo_1.20.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "183b341bcc88fd1fdd3277c36873c7656a51ece5b3b3cd821620e289dacd3c4ec8724f4479abc98d2b6b7375bac792c33aedcb47b244a7619b497e7704a453da 15924 pycairo_1.27.0-2.debian.tar.xz 334624f90bc8f2874d86da146de25b18a2dcf6a34b041a747789cfaa2f9be13df194de62fe9db344da81335a7ac2d0c66b10c7b4cdc6876a4a91cb792e85742c 2339 pycairo_1.27.0-2.dsc d215b3a21a861538379570f22bf943b35748229f69f3166ee361f40c08639e8aed03f78db1f24404d8ffbb230ca8233c68d722c65c97ae5e96fc6adb32ab4a8c 660434 pycairo_1.27.0.orig.tar.gz"
+    "4679dd29a8c6bd229eb0efdeb7498c69c63eeb5714b9145224f9376abacd036b989444a6e11248e2476fc18762fd93e6ad2560e40eb2791e190127ed8afe8add 14812 pycairo_1.20.1-5.debian.tar.xz 8763214fffe84a31c48dd2fd5eeffd520323f526c3f6fddb7420d9f1c61fe7b4f8270045ed9bbe08ed9d586e5d2e00e225817f4ad0820fe1758c3b7161763c35 2255 pycairo_1.20.1-5.dsc 4e030ea16a0c6c431976c07e2a4606a6b35e9acb206f47b9b47b3354b178c60b49c4220f575f998a33955502c4b55c58ce343e44433bda9161e03fc46eb9866f 342166 pycairo_1.20.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/pycairo"
   ],
   "Files": [
-    "8de7a9b1aa298be4e4892b3816f2ddfc 15924 pycairo_1.27.0-2.debian.tar.xz e44d0485ede88ee52ce91dddb4f23d53 2339 pycairo_1.27.0-2.dsc 5a972edaec9b9a3306d5fd93a67478e8 660434 pycairo_1.27.0.orig.tar.gz"
+    "e5a140d52403b0832f213122e2a44424 14812 pycairo_1.20.1-5.debian.tar.xz ccb7e3bf166a1748f166b3b2efdad83b 2255 pycairo_1.20.1-5.dsc 8b65116a16849a7cced6a529c9eee122 342166 pycairo_1.20.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +39,7 @@
     "python3-cairo deb python optional arch=any python3-cairo-dev deb python optional arch=all python3-cairo-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/pycairo.git"
   ],
   "Version": [
-    "1.27.0-2"
+    "1.20.1-5"
   ]
 }

@@ -3,25 +3,25 @@
     "linux-any"
   ],
   "Binary": [
-    "ipset, libipset-dev, libipset13t64"
+    "ipset, libipset-dev, libipset13"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.22.5), libltdl-dev, libmnl-dev, pkgconf"
+    "debhelper-compat (= 13), libltdl-dev, libmnl-dev, pkg-config"
   ],
   "Checksums-Sha1": [
-    "f905e0c6164d34df99f277480af9df34c063e002 16912 ipset_7.22-1.debian.tar.xz 419cfd48a3b3f15fbc19e19bb89fec6b5e4d260f 2195 ipset_7.22-1.dsc 86019446addde445dade20d5a3d8a19d10670c6f 694069 ipset_7.22.orig.tar.bz2"
+    "e63595d25db1a3eaff20fbb0254d8e7c10240b55 16336 ipset_7.17-1.debian.tar.xz 0b4c5b0710dda8d03be847f31ebf6f800a080dd3 2199 ipset_7.17-1.dsc 9730c1411d30b2b964b437a0e819a3afbaeefd6a 684983 ipset_7.17.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "db940be05fd0a4e517362e6f68d28c33bfca3a752640c59e6361196bf65b233b 16912 ipset_7.22-1.debian.tar.xz 7685f185e7ec9808976b30e20463443f4cd90c6e152a6f1dcb7c65b070953293 2195 ipset_7.22-1.dsc f6ac5a47c3ef9f4c67fcbdf55e791cbfe38eb0a4aa1baacd12646a140abacdd9 694069 ipset_7.22.orig.tar.bz2"
+    "6a467a1da129f5103e0479f19ab8727d14b6da6c3c4306fe6f6b5e409b36cf5d 16336 ipset_7.17-1.debian.tar.xz 23c2dbde5a8ad970dd1c452ac81d0eb5542b3b1a3c6f0b61e9fa36da20a36590 2199 ipset_7.17-1.dsc be49c9ff489dd6610cad6541e743c3384eac96e9f24707da7b3929d8f2ac64d8 684983 ipset_7.17.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "7525b32cadb15cf2d0d91d23129830cc17dbc3b00606cb0df157f226102ca18ab74414e75a6a21be4abcc9652998bc0468b0e17ff88bf84798d09c8e3b53f7bc 16912 ipset_7.22-1.debian.tar.xz ebd283254c4cbc1131e882bd8b1fe2dea6d37c75d76e8c2670082fa6417f227117d62d1beacd5d2f37b6ba8fe3701117590c0a4a4c97c430ac6f1c57daf1b9dc 2195 ipset_7.22-1.dsc e375a9110eb7974480147c57eb2cff4bdd03c7704cdae006a3d254cc80fada587aa8aee25a86f7cab29db83f5e283c5f9a47a314297317660ebba5097f623d79 694069 ipset_7.22.orig.tar.bz2"
+    "8a1b8e884609b586f7d0acf7eb25749d35913b5c234b876dd13e4f485ed2f96d104e558bb61b8b2c1b862930c48dd7e7f7730bbf3286f9cc5ac14a7209ae0128 16336 ipset_7.17-1.debian.tar.xz c0ecb36012033c69153e792b77a2959968ecb9aabf269755432966e2be2d71c466c24a4515f231e50e3dd8e7020ec3f8f8f83c309b988c5d060d339941cae5b4 2199 ipset_7.17-1.dsc e308a0d7707ccf7d0cb06a32cf9a822f97862e007abdbab8a91a5a0d5bfbd9f2fb9a3f5e8f36b250ec0d565438c8648a31e8e5b45d8205a76558e90f46e6e597 684983 ipset_7.17.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/i/ipset"
   ],
   "Files": [
-    "fbc37592ea70e9e7b04b061cefdb16e0 16912 ipset_7.22-1.debian.tar.xz bfdad485093128aa3eca0227503baca2 2195 ipset_7.22-1.dsc cfc4714a4198235ba741b1c5bb3b3941 694069 ipset_7.22.orig.tar.bz2"
+    "8e59b33a1a1334b1ceac561df10a3c8e 16336 ipset_7.17-1.debian.tar.xz 693a28bf23fe1a30189c0a44b77317a8 2199 ipset_7.17-1.dsc 077bce9676c6a4cb34c60fbbb01f67c6 684983 ipset_7.17.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "ipset"
   ],
   "Package-List": [
-    "ipset deb net optional arch=linux-any libipset-dev deb libdevel optional arch=linux-any libipset13t64 deb libs optional arch=linux-any"
+    "ipset deb net optional arch=linux-any libipset-dev deb libdevel optional arch=linux-any libipset13 deb libs optional arch=linux-any"
   ],
   "Standards-Version": [
     "4.6.2"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/pkg-netfilter-team/pkg-ipset.git"
   ],
   "Version": [
-    "7.22-1"
+    "7.17-1"
   ]
 }

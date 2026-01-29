@@ -6,25 +6,25 @@
     "python3-wadllib"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-lazr.uri \u003c!nocheck\u003e, python3-multipart (\u003e= 0.1), python3-pytest, python3-setuptools"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-lazr.uri \u003c!nocheck\u003e, python3-pytest, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "f436f50cc0960dd5e37b8b0c4b92782dd77f3171 5404 python-wadllib_2.0.0-3.debian.tar.xz 2e60b3044002638afef998ebe3d3943861959d3c 2275 python-wadllib_2.0.0-3.dsc 4ea5c30fc9fda92faecb487c4a228926b36f96ce 65960 python-wadllib_2.0.0.orig.tar.gz"
+    "de1bbac59728b4181b56c946cab8bfa3cac80012 5416 python-wadllib_1.3.6-4.debian.tar.xz 66239f4abfbb9a73ed922fe1e03aa69baa62a3b8 2266 python-wadllib_1.3.6-4.dsc f16a0aca67b150dad319f63e054c569e0cb2c7b4 62197 python-wadllib_1.3.6.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "0a8d9439401799e5a4146fd410d2a33b627ddd8e83eb7d5ab69d54f57bff3a54 5404 python-wadllib_2.0.0-3.debian.tar.xz b87945e74876450747c35971efef579f92d8b96ff99322c729d36071a400dfa0 2275 python-wadllib_2.0.0-3.dsc 1edbaf23e4fa34fea70c9b380baa2a139b1086ae489ebcccc4b3b65fc9737427 65960 python-wadllib_2.0.0.orig.tar.gz"
+    "29094d9307b6d4c89f9edb918d9263dca93f3d650156689cd659767a48d826d8 5416 python-wadllib_1.3.6-4.debian.tar.xz 1d4112ce4b306ba88a5d86bb8da3649e662a19372365a99ea71743494d036799 2266 python-wadllib_1.3.6-4.dsc acd9ad6a2c1007d34ca208e1da6341bbca1804c0e6850f954db04bdd7666c5fc 62197 python-wadllib_1.3.6.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "ed1a2fc625b422b163c24a6a31cebb457c9928a6476fdcd8e60904a71c112433d1943b64dc15db80c3fd80a28c5a0de8766c28571cc20dfe575fd9f990711375 5404 python-wadllib_2.0.0-3.debian.tar.xz a0476dc00fb05227dbb2ae59b9e4b6f324f71e8edd4fed7303db59d61d7e046d5773c20bc9edf609d14f050676e7ed35ad9a18201221cc71d986c5db25cd5142 2275 python-wadllib_2.0.0-3.dsc c2ca98fea83263af4c1066eacf741bfed1c52d4b1fae9dd2c4e27831eee461742d7f0e96c7dad2cadd43594bb04db42de78f5045931e55d29988154e7dbe6410 65960 python-wadllib_2.0.0.orig.tar.gz"
+    "cd24301395d2e7fca0c8273e197d0a5a9927030a71122d1e634e57a1add9d9bb9944cc55af53ac52d796d4cea29288622034c261213dd384dc9a8a44eaa1de57 5416 python-wadllib_1.3.6-4.debian.tar.xz aea2748a89db91193b97cc30ad8753d9c6f6db7c1e1f6be8f7e6e209ab1b977b8603477d1e8172e558acbfecad7c03bc1ff8e81cd6f7713319e6cff7e4824a44 2266 python-wadllib_1.3.6-4.dsc 9b6a6a21e6d0b45117ba2c1e52308313e249206f710c7f7ee080866762bcd42d4440d723be78a12fe22341206f131893ce694c10a936e5375115883697b7e3a8 62197 python-wadllib_1.3.6.orig.tar.gz"
   ],
   "Dgit": [
-    "90180afc315823093e869df79ab27614eeafca9e debian archive/debian/2.0.0-3 https://git.dgit.debian.org/python-wadllib"
+    "7972bcdf0c9c026b9a0a296e52c97b80c3297e50 debian archive/debian/1.3.6-4 https://git.dgit.debian.org/python-wadllib"
   ],
   "Directory": [
     "pool/main/p/python-wadllib"
   ],
   "Files": [
-    "cf67a1bdf303490d507f808273feb10b 5404 python-wadllib_2.0.0-3.debian.tar.xz d289a3cea555d03a5ae3e6d512190f53 2275 python-wadllib_2.0.0-3.dsc e951a5bb86c912fcf4bef29ccc3848f0 65960 python-wadllib_2.0.0.orig.tar.gz"
+    "27a9757874a7e30221a2f3a26567e7d2 5416 python-wadllib_1.3.6-4.debian.tar.xz 31a131f9596a9df088076267a9bc11df 2266 python-wadllib_1.3.6-4.dsc be085ad2662bda8b0414e00797a79d4c 62197 python-wadllib_1.3.6.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,10 +42,13 @@
     "python3-wadllib deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.1"
   ],
   "Testsuite": [
-    "autopkgtest-pkg-pybuild"
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-zope.testrunner"
   ],
   "Uploaders": [
     "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/python-wadllib.git"
   ],
   "Version": [
-    "2.0.0-3"
+    "1.3.6-4"
   ]
 }

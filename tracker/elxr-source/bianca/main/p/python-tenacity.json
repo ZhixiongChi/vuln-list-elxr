@@ -6,28 +6,25 @@
     "python-tenacity-doc, python3-tenacity"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-setuptools, python3-setuptools-scm, python3-sphinx, python3-tornado, python3-trio, python3-typing-extensions"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-pbr, python3-setuptools, python3-setuptools-scm, python3-sphinx, python3-tornado, python3-typing-extensions"
   ],
   "Build-Depends-Indep": [
-    "python3-pytest, python3-typeguard (\u003e= 3.0)"
+    "python3-pytest, python3-six, python3-typeguard"
   ],
   "Checksums-Sha1": [
-    "4f2aab07d1e9e6cd782c3963b8ec2f6eaa397ebd 30268 python-tenacity_8.4.2+really8.4.1-2.debian.tar.xz 9f990b9f3e415ccf02d030f5bcbcc87388b98297 2776 python-tenacity_8.4.2+really8.4.1-2.dsc 346eb0f9ce9dfd41e5bced6afb8b24a2527cc02a 45426 python-tenacity_8.4.2+really8.4.1.orig.tar.gz"
+    "a0aca57d1499badd5168d0ea33b2dd7be9d3b8f5 29812 python-tenacity_8.2.1-1.debian.tar.xz 943acf66c5cd0e174471870fb8d0368ac2e6288d 2557 python-tenacity_8.2.1-1.dsc ec27c7222a38075293a67347609e9e39af788082 39876 python-tenacity_8.2.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "1f830c998f7449ba74b85af24feb16433ac327d9d34630d350e9c28eaea9a382 30268 python-tenacity_8.4.2+really8.4.1-2.debian.tar.xz 654b8afe9dd1ceb580ca75ced341ecb5d45af5934d08a91e3699eafb29457403 2776 python-tenacity_8.4.2+really8.4.1-2.dsc 54b1412b878ddf7e1f1577cd49527bad8cdef32421bd599beac0c6c3f10582fd 45426 python-tenacity_8.4.2+really8.4.1.orig.tar.gz"
+    "d9af69f9db555c8aaa084449c481f97a6df0e4b766bafa481d88c42bf85af053 29812 python-tenacity_8.2.1-1.debian.tar.xz c93cffa890b878fd1c17956ffd1a4155c39a574c800ea47e149e0e220926bd6d 2557 python-tenacity_8.2.1-1.dsc c7bb4b86425b977726a7b49971542d4f67baf72096597d283f3ffd01f33b92df 39876 python-tenacity_8.2.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "b825310e8069057dee005ecc419248629650b463ba3330027185f515f5652c809c1de18dd8e1e45943f271c720b0b29a434b78ed66a76ae28b42e4af3667149c 30268 python-tenacity_8.4.2+really8.4.1-2.debian.tar.xz 9f5e657abcc8b89c9bc80e1610d4a430d2c98ccd9d8d81011529bb6b1b105109fb23a07b67e91e302a6a4ba27391e407033c1fbd61d1f9d779b1e49f15fa4523 2776 python-tenacity_8.4.2+really8.4.1-2.dsc 7abf17c5c4dbcb45aff3b660f70daa80fc673aa36e0ed95941a566d3740238d051736bc0da330110300bd4beae9a8a56082c4348d24e6bfa20a269bac771d956 45426 python-tenacity_8.4.2+really8.4.1.orig.tar.gz"
-  ],
-  "Dgit": [
-    "e0d73e036a25088f9150c0f0d25d0b18c0eb6856 debian archive/debian/8.4.2+really8.4.1-2 https://git.dgit.debian.org/python-tenacity"
+    "3db3e1d5701f916e5cf2a82da97fe2868278fcad383e10e58ee0602c3abbba75b32aacb38caa77c6dfa645aec54c4bd7c83b2f617af8dc6cb941437ad830cd30 29812 python-tenacity_8.2.1-1.debian.tar.xz 6cc3f9d1c28460ea38150d6c10a23741bf5e61398277db2396b1d80dbf1e053d1bd18f2d2da27a14db1b9964f02ec99ebf27f0af4492cb121f96cfae8593f6d5 2557 python-tenacity_8.2.1-1.dsc 43decc20206544165d7ad4ae67292388c45c70a126d3b1ba529529429897dafc1bf8df72a15b545a80cc1fe0eee766866e592d3f49ee6a24feddcb525dffaab8 39876 python-tenacity_8.2.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-tenacity"
   ],
   "Files": [
-    "6805e3cfbba3e24044f171d08b664468 30268 python-tenacity_8.4.2+really8.4.1-2.debian.tar.xz 28193155c9e4ba197e61a79570b5ec4a 2776 python-tenacity_8.4.2+really8.4.1-2.dsc 8518f0113aec42e26ccadbebc62f8045 45426 python-tenacity_8.4.2+really8.4.1.orig.tar.gz"
+    "d30bafb3286b406025e973405c6f859f 29812 python-tenacity_8.2.1-1.debian.tar.xz d56f4f2509c9a48a0b44c1550e8e4158 2557 python-tenacity_8.2.1-1.dsc 74690e5f5592fa735ae2e957aa5711cf 39876 python-tenacity_8.2.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,16 +42,16 @@
     "python-tenacity-doc deb doc optional arch=all python3-tenacity deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.0"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
   ],
   "Testsuite-Triggers": [
-    "python3-all, python3-pytest, python3-setuptools, python3-tornado, python3-trio, python3-typeguard, python3-typing-extensions"
+    "python3-all, python3-pytest, python3-setuptools, python3-tornado, python3-typeguard, python3-typing-extensions"
   ],
   "Uploaders": [
-    "Thomas Goirand \u003czigo@debian.org\u003e, Michal Arbet \u003cmichal.arbet@ultimum.io\u003e, Ondřej Kobližek \u003ckobla@debian.org\u003e,"
+    "Thomas Goirand \u003czigo@debian.org\u003e, Michal Arbet \u003cmichal.arbet@ultimum.io\u003e, Ondřej Kobližek \u003ckobla@debian.org\u003e, Ondřej Nový \u003conovy@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-tenacity"
@@ -63,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/python-tenacity.git"
   ],
   "Version": [
-    "8.4.2+really8.4.1-2"
+    "8.2.1-1"
   ]
 }

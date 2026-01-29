@@ -6,22 +6,22 @@
     "vmdb2"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, lmodern, pandoc, python3-all, python3-coverage-test-runner (\u003e= 1.13.1-6~), python3-jinja2, python3-yaml, python3-setuptools"
+    "cmdtest, debhelper-compat (= 12), dh-python, lmodern, pandoc (\u003e= 2.1.2~), python3-all, python3-coverage-test-runner, python3-jinja2, python3-yaml"
   ],
   "Checksums-Sha1": [
-    "f766783b1c1f279aa80b89f6c4776b455043346f 4972 vmdb2_0.40-2.debian.tar.xz 4c44972425c91ccabaa5a0b3709832cd7f04f5ae 1490 vmdb2_0.40-2.dsc 08e752912554fa19e57a22109cd143ec2d824166 47044 vmdb2_0.40.orig.tar.xz"
+    "7a63348e9d4971c504df6588470a2bda2969e7a8 6524 vmdb2_0.27+really.0.26-1+deb12u1.debian.tar.xz 3d6873fcb943ef5661e18ff69e52f6a36857d2eb 1592 vmdb2_0.27+really.0.26-1+deb12u1.dsc a76c88855fbf03300b71a32e8a165a86866aa28d 46772 vmdb2_0.27+really.0.26.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "9ec01f66171f5aa4e1f8966fd0d2daaa5c1e004bc5d4a063c88cfbfd1cbaff58 4972 vmdb2_0.40-2.debian.tar.xz 5bd8c4493fa61b5b4f3f95e512a9a7afc4809277d6d9694c61557815cd9c2c99 1490 vmdb2_0.40-2.dsc 8ab53dfb30a811ae5b4d0ace29aba75a5e48b2aa2c978f50b635b1165a86878b 47044 vmdb2_0.40.orig.tar.xz"
+    "57272b7e66260ede0134e36652959a16d8523197faae5d8311e64c3915f2c04c 6524 vmdb2_0.27+really.0.26-1+deb12u1.debian.tar.xz 5a79d207afbc37676bf670889b42be3382a72ce6ef3e4045a566fffbc8b1557d 1592 vmdb2_0.27+really.0.26-1+deb12u1.dsc c0ad3ce30a418f4bb01eacf28a22237a14aafce8f14d77743c6d0dc3be68d0b0 46772 vmdb2_0.27+really.0.26.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "9fefa9ec2b761e5f4347e56c7153734b973ef64d607378a4ec89b6f060ef9a3ac771cb020ce6c3e4feb71ab4cd9b6c4625c0a4f2c31375d3166e10d3d5601178 4972 vmdb2_0.40-2.debian.tar.xz a78c197d0f9f97a289e5791df3f15dee6e8dab2c3fc3b1fe4975339cd948774d4bfa4717119a0af0fdbc59d4c2c752e26958205d1cb18a233b1c0a4dc7d256a3 1490 vmdb2_0.40-2.dsc 029bb15061fb92166ad3ba2fd5113ee2165488e1d38252efc0cac454e947054e7bf2014894c61ef8129c75546faa2300b79e8a918e5d90cc5a23464780add263 47044 vmdb2_0.40.orig.tar.xz"
+    "1b782755c15bb5f604fd859373c55821a1c37a28a02646a5d164a801030ec624be3c46cbd6c8680c8ef4eb13f0dea76bbdd7b5dcfcf9db2c86d89b907c0b1bd4 6524 vmdb2_0.27+really.0.26-1+deb12u1.debian.tar.xz bd887efcb5044466fe2433c7080212d27c11611386dbd7ee010b03eaf353ac856b1e403356b99f6dc1b587862abf0de276d4b247883b81b391e61a626570aa3d 1592 vmdb2_0.27+really.0.26-1+deb12u1.dsc 2874688dce14916d834eee0ed4f5859f2296f255be0436850d4beefc6be60d59b7bbf933c9b0d38f1bdcd6cd95498245f1d001306da688c990bb402e88e31659 46772 vmdb2_0.27+really.0.26.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/v/vmdb2"
   ],
   "Files": [
-    "6991e766043cee8c3360e81a5da0de0c 4972 vmdb2_0.40-2.debian.tar.xz 7c0306bbbd50c99f3138d41cc4a4a100 1490 vmdb2_0.40-2.dsc 3549fa56bb0038b866850e3d319b0051 47044 vmdb2_0.40.orig.tar.xz"
+    "26f926bc1483c836bcaeb374ecf655e5 6524 vmdb2_0.27+really.0.26-1+deb12u1.debian.tar.xz 89516bff3fcf00afe61d9f9f3cab718c 1592 vmdb2_0.27+really.0.26-1+deb12u1.dsc 3bedf915e87783971d1d4a1f9f4fff15 46772 vmdb2_0.27+really.0.26.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "vmdb2 deb admin optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/vmdb2.git"
   ],
   "Version": [
-    "0.40-2"
+    "0.27+really.0.26-1+deb12u1"
   ]
 }

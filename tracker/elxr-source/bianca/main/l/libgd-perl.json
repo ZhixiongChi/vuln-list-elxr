@@ -6,25 +6,25 @@
     "libgd-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libextutils-pkgconfig-perl, libfont-ttf-perl \u003c!nocheck\u003e, libgd-dev (\u003e= 2.3.3-6~), libimage-exiftool-perl \u003c!nocheck\u003e, libregexp-assemble-perl \u003c!nocheck\u003e, libtest-fork-perl \u003c!nocheck\u003e, libtest-nowarnings-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native"
+    "debhelper-compat (= 13), libextutils-pkgconfig-perl, libfont-ttf-perl \u003c!nocheck\u003e, libgd-dev (\u003e= 2.3.3-6~), libimage-exiftool-perl \u003c!nocheck\u003e, libregexp-assemble-perl \u003c!nocheck\u003e, libtest-fork-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native"
   ],
   "Checksums-Sha1": [
-    "7d664f441bcb1efb818af57d71609e39eb291c82 12696 libgd-perl_2.78-1.debian.tar.xz ed6f09c29da1ac7a089755e0aaa6a0ba00b7c856 2510 libgd-perl_2.78-1.dsc 68861feb5316d8b91e8156e34212007ef782a0bc 265773 libgd-perl_2.78.orig.tar.gz"
+    "0c20ddfc169e0206d9f0b2fa156ea96aa803ba93 12580 libgd-perl_2.76-4.debian.tar.xz ad2f44e48fd450d8caae41d52ede99834fa30f85 2474 libgd-perl_2.76-4.dsc 20f7a6d0aca777fa0ccf55187e42ceb9f9fe7902 264364 libgd-perl_2.76.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "01f26f97e9a4b9ba476275e60a4a3b840422b935083c15889bb212a83e859e83 12696 libgd-perl_2.78-1.debian.tar.xz 60fd363e9b0aa3ae027cecc4f26d645b50f0d3ba33eee94f859cca4ba9d3137d 2510 libgd-perl_2.78-1.dsc 6831054bf5424b4f5c23d3627d3d1484480f6f9c2c66632222915f2851be6ee4 265773 libgd-perl_2.78.orig.tar.gz"
+    "fed1c96649002380e94b6e974eb701c78f8212f2b2138392ca823acc17a2296b 12580 libgd-perl_2.76-4.debian.tar.xz 1f182c6130019f8c1c5f08542e2cbd48dfb0c76c7bf3da15ce5d10bd219387a3 2474 libgd-perl_2.76-4.dsc 693d9e3d709e9188a682cb9090a77b70aac12a04e84128677577b94e4331775b 264364 libgd-perl_2.76.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "0f38ae76432ddd4e3209dfa7f8cd7f9033d453dec3a2407394ab64cc9db916410d290791e663a3ed62e93c7287d665ddf90ec063a56924702fa721b537ae4214 12696 libgd-perl_2.78-1.debian.tar.xz d9a7576c2221f9358eea4a241ccdb19331db63052ef9825874ac0c0abae98901cd4de6caafc8b2c80cf9c593a185060077fc1aeff99f3b471ee31011cb66485d 2510 libgd-perl_2.78-1.dsc ef3df42c003f105fd1c313ea9e8b8b1e75912b4fdb274e73f2e4f5664a0adb8479a2e62fae5a493e37c36865f9dc37207d2d31e96316eb18a3c5384e07858591 265773 libgd-perl_2.78.orig.tar.gz"
+    "30dd8078284888150e94f9ee99eda400e733a5995d9f08ea9d767ec96f7fd6d62dbcc335f8c547d7e5a59b14ed7b19631e079a9e0a59ae9a50cff778a1da04e8 12580 libgd-perl_2.76-4.debian.tar.xz 1b957e80279db528f38cdfb1f94edff36f59069b8a9c872fe9d8b9acce8e526333cfb6d738b9173e560dfcd76d8cdf0e51fe1175cf6e915698f3ed80af1c8aea 2474 libgd-perl_2.76-4.dsc 31c2d61440a7fef9804aed677ee5568f6c237e678cf5a2b7f48e98326ef7cddbf3624ce3965e6711ef9cec4148881a0cb4352c19b91ead4b78835fafaeefbe4d 264364 libgd-perl_2.76.orig.tar.gz"
   ],
   "Dgit": [
-    "17864450e54402111f8dc2094f2e88a977694cdc debian archive/debian/2.78-1 https://git.dgit.debian.org/libgd-perl"
+    "8df527e8b470e9f73261293790baa97bcee63fcb debian archive/debian/2.76-4 https://git.dgit.debian.org/libgd-perl"
   ],
   "Directory": [
     "pool/main/libg/libgd-perl"
   ],
   "Files": [
-    "3faa878e4365ee14654234de726d17a9 12696 libgd-perl_2.78-1.debian.tar.xz a47d780b6b8e662e91b4e6a8a73e7799 2510 libgd-perl_2.78-1.dsc e3419198517a1679b5a6a95b60805c3f 265773 libgd-perl_2.78.orig.tar.gz"
+    "cb327e7ecb46deb2c0b6ddc247cfde12 12580 libgd-perl_2.76-4.debian.tar.xz 51620a226c87c37540f65821541fda3f 2474 libgd-perl_2.76-4.dsc fb4bacab10ed4f28d52c2aabdaf866bb 264364 libgd-perl_2.76.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "libgd-perl deb perl optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libgd-perl.git"
   ],
   "Version": [
-    "2.78-1"
+    "2.76-4"
   ]
 }

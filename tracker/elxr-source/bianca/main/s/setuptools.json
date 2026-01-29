@@ -5,23 +5,26 @@
   "Binary": [
     "python-setuptools-doc, python3-pkg-resources, python3-setuptools, python3-setuptools-whl"
   ],
+  "Build-Conflicts": [
+    "pypy-setuptools, python-setuptools, python3-setuptools"
+  ],
   "Build-Depends": [
-    "debhelper (\u003e= 11), dh-python, python3-all, python3-alabaster, python3-sphinx, python3-sphinx-favicon, python3-sphinx-reredirects, python3-sphinx-notfound-page, python3-wheel"
+    "debhelper (\u003e= 11), dh-python, python3-all, python3-alabaster, python3-sphinx, python3-sphinx-reredirects, python3-sphinx-notfound-page, python3-wheel"
   ],
   "Checksums-Sha1": [
-    "11d61d49d906d8079b3b6c8ff4ad94c1c405c091 15532 setuptools_78.1.1-0.1.debian.tar.xz 55337a0aeb077e7d4273d19f82e9b9a5598a6c4a 2843 setuptools_78.1.1-0.1.dsc b752a80ce7dc2541ed53731347844516a80830ab 1368163 setuptools_78.1.1.orig.tar.gz"
+    "b90f10c387408e3f74a3cd77105d1cd4478e4cf7 17020 setuptools_66.1.1-1+deb12u2.debian.tar.xz c49362f351275db924db4e66b36bcf1f6d50a656 2915 setuptools_66.1.1-1+deb12u2.dsc 4cf756cca66ab9766ce3be10ff13e43ea2eea51c 2644145 setuptools_66.1.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "cf74bf9817f5eba7bc9bfcfbdce16ec57ba89c38280e5004b97e7caa9e1c9361 15532 setuptools_78.1.1-0.1.debian.tar.xz d0425d9385c8ad1cd5635b222dd90e1964c03de4ed3b1484317e912f0aac7e39 2843 setuptools_78.1.1-0.1.dsc fcc17fd9cd898242f6b4adfaca46137a9edef687f43e6f78469692a5e70d851d 1368163 setuptools_78.1.1.orig.tar.gz"
+    "59e7b8bb2f2b956289bffd7831dd694ea2ede3c6aa13d1f3e45c36899bfe7d1a 17020 setuptools_66.1.1-1+deb12u2.debian.tar.xz 68a88656f3486fd4af17d56a48c5bc9251557c8915f7a1fc0ec4bcf8f9642247 2915 setuptools_66.1.1-1+deb12u2.dsc ac4008d396bc9cd983ea483cb7139c0240a07bbc74ffb6232fceffedc6cf03a8 2644145 setuptools_66.1.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e83e0a89e4ab232d7e84131da3753843fcae7fef4f71dfef1febfcaaffad434796474a2d7e9414538e53daa3e1ccdd4b3ddc4ec90b5f257af50cd9eeea5c0dac 15532 setuptools_78.1.1-0.1.debian.tar.xz b2a0dde13f2bcbde5787ed43e4e9df22d2579973d8da6707f29f88d524302cf1ee8639750f90c9dc0838d7f8859fe0b2ee7a7f6d9ac79167bae4486f37fb8b70 2843 setuptools_78.1.1-0.1.dsc 0a44bb3f9e5c9b247ada0854552042e7733d6908a8b2ce82d750a7bebbd94a15c9f453343dc131e34cfa641bec300611d57ea8e52ee8ad4971a026ad6cc8b938 1368163 setuptools_78.1.1.orig.tar.gz"
+    "a28271b1bae0d00412f58cf50a6c6d1a74d4e800688ce73981f3ec736d0ba9be784d147ea4fbea39f73eba8efd2cb69e80a4c7d8f99b38138c20173c1641ca9d 17020 setuptools_66.1.1-1+deb12u2.debian.tar.xz 4533fe9daf642912466dca8f279b4d7d609df2285c43f57fc4353684cda3d7d182f239abcc466583344089538654ac665c1c903d62025604139d254fca715bbe 2915 setuptools_66.1.1-1+deb12u2.dsc b36da1623e2034dae9561ebcb3189b335fa65e844def584d172632a1af4aef4061567bbc801ec9125423030f03cf84a6d578a0283084866b8c21de3237feb650 2644145 setuptools_66.1.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/s/setuptools"
   ],
   "Files": [
-    "ca2c4903e55e73eca2a6c2ae6082fc11 15532 setuptools_78.1.1-0.1.debian.tar.xz ccd15c5e3aa5e150002c2612e29fb075 2843 setuptools_78.1.1-0.1.dsc ce1332cf70b71d9a481ff5a9cd3ff7df 1368163 setuptools_78.1.1.orig.tar.gz"
+    "03cdd2e5e9405f1a5fb1d24fc110c6ed 17020 setuptools_66.1.1-1+deb12u2.debian.tar.xz dec8fc622470ffde1e511bd731f56ecd 2915 setuptools_66.1.1-1+deb12u2.dsc 9f21ce5e5f6c6e2ccd3a8c6b63b2dcf2 2644145 setuptools_66.1.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,9 +42,9 @@
     "python-setuptools-doc deb doc optional arch=all python3-pkg-resources deb python optional arch=all python3-setuptools deb python optional arch=all python3-setuptools-whl deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Version": [
-    "78.1.1-0.1"
+    "66.1.1-1+deb12u2"
   ]
 }

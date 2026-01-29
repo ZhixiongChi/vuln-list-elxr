@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), gem2deb, ruby-bundler, ruby-minitest"
   ],
   "Checksums-Sha1": [
-    "1897e0f19d776e5d87823b56793223a2d96240d0 8188 rake_13.2.1-1.debian.tar.xz c7985106b9a47dc0cf2d597aa7d19ef54606db94 2083 rake_13.2.1-1.dsc bc514229789c66900a7ed099c7e9dca8413bbec2 124565 rake_13.2.1.orig.tar.gz"
+    "668d3efd272624cfbd420b46141a1844d80a52f4 8104 rake_13.0.6-3.debian.tar.xz dbd876150009c5c3574a9058ff8475bcfac61eba 2073 rake_13.0.6-3.dsc 5fd61ce575effd314a43742d19a04c00807c60fc 123485 rake_13.0.6.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "94e5bfa57d3acb7f5e34799810edc555e5ab40240271255e76758d7f2c58de3d 8188 rake_13.2.1-1.debian.tar.xz c3735a3b72bc085dff5f36ca9362fa200b74ebcda6693861da2ed32539eb0cc4 2083 rake_13.2.1-1.dsc 158f7bb2e7707e97b94d9edd6053bcf0156b8309ff33d89fb9aec79eedd2f585 124565 rake_13.2.1.orig.tar.gz"
+    "e1f2e91528a55cd8277ea61f1c3317ff3fe527a62dee31042e3075bfde623dce 8104 rake_13.0.6-3.debian.tar.xz dbc1240e94e770b368b6a7ed2cf7a824018b45035578e1f07e7cf3de12fc2a3d 2073 rake_13.0.6-3.dsc a39d555a08a3cbd6961a98d0bf222a01018683760664ede3c1610af5ca5de0cc 123485 rake_13.0.6.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c7be0f27b3a93cc154ca3e21ad3ad9c386827b66e59278806f8a2d1a42fde596f8cb92c059fdf8093a6899c33a93486430657885802d3ae4b4f48d05b184d956 8188 rake_13.2.1-1.debian.tar.xz 028ea0ebe37d6a66e95c2bb17bf1f01c3fef051f859ebd954d48f78bbe0a71350f14801b90cced53f839533b2fb60a769d82b68d77d783a313fcbfa70a1d0961 2083 rake_13.2.1-1.dsc 23948361713d751c6ed83fa84ce2c02031604d2c6f2f8d4db92a50ba2b614214f58b3c156066bb2653dd9728243493100cefbc76ee95ba377ccb90f696974952 124565 rake_13.2.1.orig.tar.gz"
+    "84e24fa598ec8e75ea6c8ca374261e8741654d4df9eafb4fc0b3f4a5368c2294d085389490aa1d6512d485069655ee094b29dbc45918945089782b78f2366c5b 8104 rake_13.0.6-3.debian.tar.xz 9cae9a5ff25d618fe79d9ce37812236706ccf311d6d9e0738f5cc96beb8a5a424bd26d9149bc9409b762608530ba82dee4a0a4c7e443d031123e5049de2eb22d 2073 rake_13.0.6-3.dsc 1b438be96d8cedaf70e961b0bbd2217692b0b5537b2e1d5f599158e7da3e300cf6ab0c5f0c52fea89be0beb675effbbf563d24e55c84fb673b4982013355e03c 123485 rake_13.0.6.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rake"
   ],
   "Files": [
-    "19a7e6366397a81954779b7b5fec43a2 8188 rake_13.2.1-1.debian.tar.xz 146df985ecd76741df5fe13827bf7167 2083 rake_13.2.1-1.dsc 09004cc928ede9fdf9154fbd76f0657c 124565 rake_13.2.1.orig.tar.gz"
+    "d78d6b4bbcff4cb439ef63ca41131473 8104 rake_13.0.6-3.debian.tar.xz a2707def3153d60aaab6913e42b8c738 2073 rake_13.0.6-3.dsc 4b61a4f867c18a908a2b6a48965ccb9b 123485 rake_13.0.6.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -38,8 +38,11 @@
   "Package-List": [
     "rake deb ruby optional arch=all"
   ],
+  "Ruby-Versions": [
+    "all"
+  ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-ruby"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/ruby-team/rake.git"
   ],
   "Version": [
-    "13.2.1-1"
+    "13.0.6-3"
   ]
 }

@@ -6,22 +6,22 @@
     "ovn-central, ovn-common, ovn-controller-vtep, ovn-doc, ovn-docker, ovn-host, ovn-ic, ovn-ic-db"
   ],
   "Build-Depends": [
-    "architecture-is-64-bit, autoconf, automake, bash (\u003e= 5.2.15~), bzip2, debhelper-compat (= 13), dh-python, graphviz, libcap-ng-dev, libnuma-dev [amd64 i386 ppc64el arm64], libpcap-dev [amd64 i386 ppc64el arm64], libssl-dev, libtool, libudev-dev, libunbound-dev, openssl, openstack-pkg-tools, openvswitch-source (\u003e= 3.5.0~), pkgconf, procps, python3-all-dev, python3-scapy, python3-setuptools, python3-sortedcontainers, python3-sphinx, tcpdump"
+    "autoconf, automake, bash (\u003e= 5.2.15~), bzip2, debhelper-compat (= 13), dh-python, graphviz, libcap-ng-dev, libnuma-dev [amd64 i386 ppc64el arm64], libpcap-dev [amd64 i386 ppc64el arm64], libssl-dev, libtool, libudev-dev, libunbound-dev, openssl, openstack-pkg-tools, openvswitch-source (\u003e= 3.1.0-1~), pkg-config, procps, python3-all-dev, python3-setuptools, python3-sortedcontainers, python3-sphinx, tcpdump"
   ],
   "Checksums-Sha1": [
-    "47eb4c7a9a9a51f6e1c72755527e9632c89e3969 17516 ovn_25.03.0-1.debian.tar.xz f0570f56475d6b41ec654b2c9f4870bb454d5a49 3139 ovn_25.03.0-1.dsc e74fd7e9fc87cbe8250c491858a8138af8e3eef3 82332 ovn_25.03.0.orig-ovn-vif.tar.xz 13369247818bb9fa9b04c437f90982ec3216d9d4 1570288 ovn_25.03.0.orig.tar.xz"
+    "1289bb8be46766a6e512b3c29ef3714dd5204631 13828 ovn_23.03.1-1~deb12u2.debian.tar.xz 7812c5fa0b3b9b24b12ab62e158b402e192c3853 2967 ovn_23.03.1-1~deb12u2.dsc 53c16caa073d5378841a0bed70ee95c2c29f2555 82172 ovn_23.03.1.orig-ovn-vif.tar.xz 5f05488748f3d8f540af39f32bd11e30d7546654 1432104 ovn_23.03.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "0478771e732eb9a4b503b10f22c64227b85672192b21c4ecd455f3c8ea942995 17516 ovn_25.03.0-1.debian.tar.xz 3dc7f9b728f374765a821254e84a5879d054935837409c3196a0d2bc7c543a1b 3139 ovn_25.03.0-1.dsc fa4c67051bcc5fbb8fa35494c3c9e347845fb4d25893594fbccb15351aaf88e1 82332 ovn_25.03.0.orig-ovn-vif.tar.xz 29305ab8469191be6941f8c48e8225897841113605fd8d00240e4d48f821556c 1570288 ovn_25.03.0.orig.tar.xz"
+    "9107e28e2560bc9415a087ee600daf8283b862cc5cfa501409a103af52467809 13828 ovn_23.03.1-1~deb12u2.debian.tar.xz fc09b9af5c67480e6be18600de4915ff7283b1faf4f46fd5964d80fe522024bf 2967 ovn_23.03.1-1~deb12u2.dsc f36c6f5521fc4d6d7c100a6ac61686252b91390b38c15872423d661afbbf97c4 82172 ovn_23.03.1.orig-ovn-vif.tar.xz 12cd889e121de9db908ad9f9a0ddc7b54af3c1718202f172b2c9cc94fb4e9917 1432104 ovn_23.03.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "a4dc4ab4408fcddfbb774c876ef753f5cefc58490b675a1f46d1d39854b2daff416536c7f63494c1d75cb8771f7d6e76bfb671578df9114dcdb5551830bab361 17516 ovn_25.03.0-1.debian.tar.xz 4d60f561d028836da5a099fad7f0e0d113e11dfb85c1c86fc03768e939834a197bda3b95416c4a0d253ec64d8c1c9a392cdefd968219979a68de17c12ba1141e 3139 ovn_25.03.0-1.dsc 5ee02d105f323424ad78c74d9d163e4bfadda1972bff5137f3f05d7d8d6cf38f782ff16ab977bc7d66d9acb9e5d8d26dd098a6de45b0f45075623140f972060d 82332 ovn_25.03.0.orig-ovn-vif.tar.xz 3ef34acae9725dcbf907e16b57bc2e768bd34e743f3216a69894182e0e83da42544ea2f32b03387237c535e00acbee684bd6aedb8f6e04a353bbe777665a644d 1570288 ovn_25.03.0.orig.tar.xz"
+    "f671018c847e1531fe5f2b9866778340f974885176c96ca392553fc4daec37f5442e41c52cef3dac9cbeb0d748472a03944c5221ad6905f4a71b88964b644658 13828 ovn_23.03.1-1~deb12u2.debian.tar.xz 5a0c42ea35226c495e5af76e9846498a87948934a4b0c6cd34513776c724bbc99a2f8ce921cb3edbb42345bd2b915c4882ff8427a7ec0676a5a53fcc31d8d656 2967 ovn_23.03.1-1~deb12u2.dsc d6608acb7cd70f51e23dec00074866b21e1b9feb8542859195dc08a9d0f8d87659b45b4a6070a75a64a998b37b2a5b22d7497f39f93f430ee0992f583dcff636 82172 ovn_23.03.1.orig-ovn-vif.tar.xz e70df37b4a9983c58905105eba5db5bb2da959b4f6914389b7a91814cc286c79740526d67f5ae42f7559d337b11cede5a90f09082f2c8c601656db07526f39b0 1432104 ovn_23.03.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/o/ovn"
   ],
   "Files": [
-    "c7ffe0f4eb58f16e72945ee7a855ad26 17516 ovn_25.03.0-1.debian.tar.xz 51a2c2b173ae0103fab3941972d4d0d7 3139 ovn_25.03.0-1.dsc 37eadb59849537c351f232a1297e382f 82332 ovn_25.03.0.orig-ovn-vif.tar.xz da94fa8261f038c85a87fd4696b60eae 1570288 ovn_25.03.0.orig.tar.xz"
+    "85fc44f717ffe8d00956e69ab5652285 13828 ovn_23.03.1-1~deb12u2.debian.tar.xz 0d2fa7a9c6db8f702c123a192972874a 2967 ovn_23.03.1-1~deb12u2.dsc ff36a32f2f729a1d070ddf66dca0eb4e 82172 ovn_23.03.1.orig-ovn-vif.tar.xz a70f2c7563780ebafc613b6a97484784 1432104 ovn_23.03.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -41,12 +41,6 @@
   "Standards-Version": [
     "4.6.2"
   ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "conntrack, curl, dpdk-dev, ethtool, ncat, net-tools, openvswitch-switch-dpdk, python3-pyftpdlib, python3-scapy, tcpdump, wget"
-  ],
   "Uploaders": [
     "Thomas Goirand \u003czigo@debian.org\u003e,"
   ],
@@ -57,6 +51,6 @@
     "https://salsa.debian.org/openstack-team/third-party/ovn.git"
   ],
   "Version": [
-    "25.03.0-1"
+    "23.03.1-1~deb12u2"
   ]
 }

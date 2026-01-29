@@ -6,22 +6,22 @@
     "golang-golang-x-sync-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.18~)"
+    "debhelper-compat (= 13), dh-golang, golang-any"
   ],
   "Checksums-Sha1": [
-    "fc7d617ecdbbeab0492f32f492110e7be9feb652 3536 golang-golang-x-sync_0.7.0-1.debian.tar.xz 7dc86de34a952c41585f238dc17c818beb8d633c 2211 golang-golang-x-sync_0.7.0-1.dsc 95dc0647df9f4b99960045d86c5604eb96206947 18181 golang-golang-x-sync_0.7.0.orig.tar.gz"
+    "b5def77855eeb18b6a84e4ccfeffe9690a7d7206 3140 golang-golang-x-sync_0.1.0-1.debian.tar.xz 44da09922f023d8c4e73ebc110096ea18b17725d 1583 golang-golang-x-sync_0.1.0-1.dsc dfbc5d582704ca5d6ca8df0065654129900da164 17972 golang-golang-x-sync_0.1.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "007a3e61067d3f155ca858fda411c86d95bf1a9ff78ce8095eb31ac930357e19 3536 golang-golang-x-sync_0.7.0-1.debian.tar.xz be10b39be284d47ab368e2ca93abb34731be7190bf34dd365a87d89413733653 2211 golang-golang-x-sync_0.7.0-1.dsc 39bf56d2dc04d16baabbf5eb5d847a2ad68762b5efde7ca3a8fdb24bdcdd9461 18181 golang-golang-x-sync_0.7.0.orig.tar.gz"
+    "b69beb6583b51cc4b7f956701b93bb204d9f30969562c7a8f462fb789e5d9f4e 3140 golang-golang-x-sync_0.1.0-1.debian.tar.xz aeccf841d9942613b01b53787ad5de348ccb0a33c0409f66befeb638cdff1e65 1583 golang-golang-x-sync_0.1.0-1.dsc 8f1eacb85cba396fca77fa7f4e48f95592d4e52f1192150aaa42af9496826dcf 17972 golang-golang-x-sync_0.1.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "8abbd8048a6fb76efdc06436ba208b71e383a0996e23e1e2c97ab661103511111ff68424bfbece27c4081a307164c5b6759005f0386d064af011d87afeaffbcb 3536 golang-golang-x-sync_0.7.0-1.debian.tar.xz c6bd01e6116337447e358a0291a230490bf22ad4ce747d4d9a3c6008f8641c40cdbf2628d06deb852cc5e80081cfa13649c8e370d85d8e25d8c0aaada132ecdc 2211 golang-golang-x-sync_0.7.0-1.dsc ba0ba9cf501f33e967375587f9e98658a9675a889236c3b2500671a7a11d64f903a12948e79b7dcf0ed4878f8fbc34a9675072088c1acf9deb151e36f171f04b 18181 golang-golang-x-sync_0.7.0.orig.tar.gz"
+    "da7c9c513577caad84c14be3e84f78a4fe62e1576ef9261a977b88654d373f556d05e57714819032f018fffc460e10e5b56669e361a282681031657bb08c07a0 3140 golang-golang-x-sync_0.1.0-1.debian.tar.xz ce52b2d8f38809f0cdec8bba0b13952a11e758f4b934aebc959ac749295fc5c073715e7de2383542813bdb1ffb066e49d35d29cb97045ab4b27c80d46f9abe9b 1583 golang-golang-x-sync_0.1.0-1.dsc ae55af37ac98458f8c04c3c1c64e31aeac4b8752d4b3d29f5c74061a5430680efde1f47ed2eec30234f56ec3e315eddd2e9040f60c4c92ef8ced65f961870aaf 17972 golang-golang-x-sync_0.1.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/golang-golang-x-sync"
   ],
   "Files": [
-    "98effc87a231ca4ab5d1bbc2ec604050 3536 golang-golang-x-sync_0.7.0-1.debian.tar.xz d790c82f95f2e5ca1a3a9b55e29e40e4 2211 golang-golang-x-sync_0.7.0-1.dsc 7a89be834b4d9fa79e57d6f6024bc1aa 18181 golang-golang-x-sync_0.7.0.orig.tar.gz"
+    "264b1f77d02f7a4502d005257944ee9a 3140 golang-golang-x-sync_0.1.0-1.debian.tar.xz c8331be2bb6b627836c0d08a2bcc1839 1583 golang-golang-x-sync_0.1.0-1.dsc d7ee617d36c775031b30285655a57f0e 17972 golang-golang-x-sync_0.1.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "golang-golang-x-sync-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-golang-x-sync.git"
   ],
   "Version": [
-    "0.7.0-1"
+    "0.1.0-1"
   ]
 }

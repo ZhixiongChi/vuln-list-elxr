@@ -6,22 +6,22 @@
     "gamemode, gamemode-daemon, libgamemode0, libgamemodeauto0, gamemode-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libinih-dev, libdbus-1-dev, libsystemd-dev, meson, ninja-build, pkgconf, systemd-dev"
+    "debhelper-compat (= 13), libdbus-1-dev, libinih-dev, libsystemd-dev, meson, ninja-build, pkg-config, systemd"
   ],
   "Checksums-Sha1": [
-    "ef2880fd5518238a1d1653c35d9dacd2b7676e87 6408 gamemode_1.8.2-2.debian.tar.xz a13223b98773de2b46084cc803e7e9e29d8be2c4 2357 gamemode_1.8.2-2.dsc 34f38eb4b76a2f121aa301bad7fd73104d0273a1 79878 gamemode_1.8.2.orig.tar.gz"
+    "937419d20f2d8a954a1183044a1a92ebfcf20ef9 6528 gamemode_1.7-2.debian.tar.xz 6d0689d529f03e1004c008b2eb96394ea2d9b487 2311 gamemode_1.7-2.dsc d5e36d0c4ad9557c931115f3eb4da425f6efc810 71738 gamemode_1.7.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "3519db09495033191d794db1386d9429119f093474ef9c6cc8f1b3990149ef40 6408 gamemode_1.8.2-2.debian.tar.xz 3da08bcee7449253573b240e003defb3f2a455827fcbcf0ec6b3f07c1cd3b0f3 2357 gamemode_1.8.2-2.dsc a23a661150ada9441890874a429d01fef39adb0cefd191c43a33e0ca2206af52 79878 gamemode_1.8.2.orig.tar.gz"
+    "be205164ae60ae7e6b61dcd3eede436ceb87288b76dec0182bd9689d1e5ad594 6528 gamemode_1.7-2.debian.tar.xz c59ad1af5cfcc82ac266eae838e229e8f2a0a7369eae10104f4cc124830f4fb6 2311 gamemode_1.7-2.dsc 8a1718c657cb1d3c8269edfd397faf3cb41fccd885198ef0225bf8f82217c42f 71738 gamemode_1.7.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e8b62af27ca36674b4d8edfab557c8391b25a1f7b684fee28193156f54185e78d7467a6281fce8c3b18165deac65e3d3daa52e4649392307aa78b4cb5b8f81bf 6408 gamemode_1.8.2-2.debian.tar.xz 87ed6029fe2751c6b538a682bb98c2025fe54ff91b13b2e2a0014f5d21d7167f6b1a321b20e1a1acb67340a4a180e8d2df3439db310841a779a20b1e66390f49 2357 gamemode_1.8.2-2.dsc 478e680076ae6229c9943a8d92f96e3eaf2b4a9e2fb2ff8f903488bb9c002c020e0674951c53c26c758b4d952aa820ecd92a4c2b03495282676fb11529bf41aa 79878 gamemode_1.8.2.orig.tar.gz"
+    "57158ec8888aa1e76dbeacf7f3e47e337cc7fb596ca50dfdf0c3fadc1ac1dd535da8bd6bd1bdb8a35b2956dca41fe3470dbf1985cd6db90c61731aa0b2127094 6528 gamemode_1.7-2.debian.tar.xz 7caf804ade6342a88bab70f7cd026e1dc4c06cc90f1ca76866594a9d219680176703038c3697e6a32c970e19604407fdc382b913cd3a89ca87e95774d4f5b5ca 2311 gamemode_1.7-2.dsc 243e30715f3a39d105edda5a82aaef69254f901fa4fa45cbdedf97f156ec4fd5baf6a8f632cd79567067cd676cc56b61c63bc155008b49fa2427366cbf6caf94 71738 gamemode_1.7.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/gamemode"
   ],
   "Files": [
-    "2cf3b84b47476c3f875be854e587cedb 6408 gamemode_1.8.2-2.debian.tar.xz 9a5b3184eb933a994c70d69bbe77c889 2357 gamemode_1.8.2-2.dsc 96522bb7cecac18999507f097f8e231f 79878 gamemode_1.8.2.orig.tar.gz"
+    "00a8033053df81da5e143c5fc46e5b2b 6528 gamemode_1.7-2.debian.tar.xz b927b346a6b7d95c07d039b717d05462 2311 gamemode_1.7-2.dsc 3010fd32fe6f99e9b960aa16163adbd6 71738 gamemode_1.7.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://github.com/FeralInteractive/gamemode"
   ],
   "Maintainer": [
-    "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
+    "Debian Games Team \u003cteam+pkg-games@tracker.debian.org\u003e"
   ],
   "Package": [
     "gamemode"
@@ -39,7 +39,7 @@
     "gamemode deb games optional arch=any gamemode-daemon deb misc optional arch=any gamemode-dev deb libdevel optional arch=any libgamemode0 deb libs optional arch=any libgamemodeauto0 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/games-team/gamemode.git"
   ],
   "Version": [
-    "1.8.2-2"
+    "1.7-2"
   ]
 }

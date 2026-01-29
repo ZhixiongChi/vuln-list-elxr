@@ -6,22 +6,22 @@
     "golang-github-subosito-gotenv-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-sequence-golang, golang-any (\u003e= 2:1.18~), golang-github-stretchr-testify-dev (\u003e= 1.7.0)"
+    "debhelper-compat (= 12), dh-golang, golang-any, golang-github-stretchr-testify-dev"
   ],
   "Checksums-Sha1": [
-    "990ac7bdc8d73e3bbb93c26b625196fb72d52988 2832 golang-github-subosito-gotenv_1.3.0-1.debian.tar.xz 0971c03487c15204d03ca488288a0afda7dc79db 2370 golang-github-subosito-gotenv_1.3.0-1.dsc 2a4dc73e26f8ae50a200bceeb739be4c32c06552 8967 golang-github-subosito-gotenv_1.3.0.orig.tar.gz"
+    "a3ac461df34ee3ba27928b50409f787b103c3935 2580 golang-github-subosito-gotenv_1.2.0+git20190917.de67a66-3.debian.tar.xz d62a1010250041c70a1f49c73032cded3008500e 2420 golang-github-subosito-gotenv_1.2.0+git20190917.de67a66-3.dsc ebf1ea5b006c84381425fc2629a9db33aedd260b 7576 golang-github-subosito-gotenv_1.2.0+git20190917.de67a66.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "6a5e7842f6d83e0e2e9664fba889fd341e16f995fcaabfc4966e5234011c7a4d 2832 golang-github-subosito-gotenv_1.3.0-1.debian.tar.xz e251847fa7b62646914c111e966723a2a03524e709ac9adf3d2f61c5ec5b96af 2370 golang-github-subosito-gotenv_1.3.0-1.dsc 04bf4a91fe8c2dba5bcb2a8d89a80d51f914c81bcf42a29e733c0405f99ced3c 8967 golang-github-subosito-gotenv_1.3.0.orig.tar.gz"
+    "de7a0a5612632b1a323afeb15dc2976721b2b92eae396c08460937e62bf14db3 2580 golang-github-subosito-gotenv_1.2.0+git20190917.de67a66-3.debian.tar.xz c9b3ef8a68cf73e53eae6da5a23e769c4e62163d4c9d88f1140d54583ace2cf3 2420 golang-github-subosito-gotenv_1.2.0+git20190917.de67a66-3.dsc 1982018d64610a9f43c8f21dec728011cc5e7f0650938d74b49c927bc750854d 7576 golang-github-subosito-gotenv_1.2.0+git20190917.de67a66.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "af44b4c0a115d90efcd11e43fe70f7dd560be38d7ee6e42d93d3cbbe46492205e746faf41c5b156839d3b9c5914b1c314daacf419c383654ae8147c0409fcc45 2832 golang-github-subosito-gotenv_1.3.0-1.debian.tar.xz d33db0443a73eecf97231d5cdbe3bfe143dbf726a93c94caea4a36dc3907f7abf6ebfff28b46b98bef19e39e5402b6cf6cf896a1ee6274fc616b05d3304f2440 2370 golang-github-subosito-gotenv_1.3.0-1.dsc 7d434a6e41cef13ae0fdebe44d4d6bbcfd0e17ecd1e299229f1def4f372fb4b466ebf20cab1df52278050537ae813ff0326df688dfe5ec455482b2021ac93bce 8967 golang-github-subosito-gotenv_1.3.0.orig.tar.gz"
+    "ba2ac23bb50076307586c36aa8c50de1daf85d88797c70390c4f3f9aef4b792515d3178532396eae2d8c810bd90e01f243f23affdd33fd59b3836d32c4051569 2580 golang-github-subosito-gotenv_1.2.0+git20190917.de67a66-3.debian.tar.xz dbb3acdbc181bd87071b599ca83cabd440693e1669751acf16b1b471a1e1a9e8a18a2e21e6396862f71041dbd54b7a0dd259e8829a0b700457cece60c3d29d76 2420 golang-github-subosito-gotenv_1.2.0+git20190917.de67a66-3.dsc 3152c47fdadbdee46de1cb77c3cc20108b5d53ec48bf55d9be91f6f45407debc96532b8a33e07428d8f2f8365a3ac8744ff0cc5114642c9f822d63128c617104 7576 golang-github-subosito-gotenv_1.2.0+git20190917.de67a66.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/golang-github-subosito-gotenv"
   ],
   "Files": [
-    "e51a991e72b7891833f5afbb49dd3e0b 2832 golang-github-subosito-gotenv_1.3.0-1.debian.tar.xz 61629cae21f0de25a21e3006e5bd2051 2370 golang-github-subosito-gotenv_1.3.0-1.dsc 7bfa2044a20e73ba6edea91ab9fa4d4e 8967 golang-github-subosito-gotenv_1.3.0.orig.tar.gz"
+    "2b2960cbde18182a933a8815d416cf33 2580 golang-github-subosito-gotenv_1.2.0+git20190917.de67a66-3.debian.tar.xz ec4716e7368c6bbf1cd68edb24b060b1 2420 golang-github-subosito-gotenv_1.2.0+git20190917.de67a66-3.dsc e0a5269e6f805fc82404542099ab733d 7576 golang-github-subosito-gotenv_1.2.0+git20190917.de67a66.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,13 @@
     "golang-github-subosito-gotenv-dev deb devel optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.2.1"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
   ],
   "Uploaders": [
-    "Andreas Henriksson \u003candreas@fatal.se\u003e, Anthony Fok \u003cfoka@debian.org\u003e,"
+    "Andreas Henriksson \u003candreas@fatal.se\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/go-team/packages/golang-github-subosito-gotenv"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-subosito-gotenv.git"
   ],
   "Version": [
-    "1.3.0-1"
+    "1.2.0+git20190917.de67a66-3"
   ]
 }

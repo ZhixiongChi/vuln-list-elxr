@@ -3,28 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "libjxl-tools, libjxl-dev, libjxl0.11, jpeg-xl-doc, libjxl-devtools, libjxl-gdk-pixbuf, libjpegxl-java"
+    "libjxl-tools, libjxl-dev, libjxl0.7, jpeg-xl-doc, libjxl-devtools, libjpegxl-java"
   ],
   "Build-Depends": [
-    "asciidoc-base, gcc-13 [hppa powerpc ppc64 riscv64 sparc64 s390x], g++-13 [hppa powerpc ppc64 riscv64 sparc64 s390x], cmake (\u003e= 3.10), debhelper-compat (= 13), default-jdk [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x alpha ia64 m68k powerpc ppc64 sh4 sparc64 x32] \u003c!nojava\u003e, docbook-xml, help2man, libavif-dev (\u003e= 0.10.1), libbrotli-dev, libgdk-pixbuf-2.0-dev, libgflags-dev, libgif-dev (\u003e= 5.1), libgmock-dev \u003c!nocheck\u003e, libgoogle-perftools-dev [amd64 arm64 armel armhf mips64el ppc64el riscv64 s390x loong64 powerpc ppc64 x32], libgtest-dev \u003c!nocheck\u003e, libhwy-dev (\u003e= 1.0.3), libjpeg-dev, libjxl-testdata (\u003e= 0.0~git20240106.ff8d743-2) \u003c!nocheck\u003e, liblcms-dev | liblcms2-dev (\u003e= 2.13), libopenexr-dev, libpng-dev, libwebp-dev (\u003e= 1.3), ninja-build, pkgconf"
+    "asciidoc-base, cmake (\u003e= 3.10), debhelper (\u003e= 11), default-jdk [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x alpha ia64 m68k powerpc ppc64 riscv64 sh4 sparc64 x32], docbook-xml, help2man, libavif-dev (\u003e= 0.10.1), libbrotli-dev, libgflags-dev, libgif-dev (\u003e= 5.1), libgmock-dev \u003c!nocheck\u003e, libgoogle-perftools-dev [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x kfreebsd-amd64 kfreebsd-i386 powerpc ppc64 riscv64], libgtest-dev \u003c!nocheck\u003e, libhwy-dev (\u003e= 1.0.2), libjpeg-dev, libjxl-testdata (\u003e= 0.0~git20221128.81c7e52) \u003c!nocheck\u003e, liblcms-dev | liblcms2-dev (\u003e= 2.13), libopenexr-dev, libpng-dev, libwebp-dev, ninja-build, pkg-config"
   ],
   "Build-Depends-Indep": [
     "doxygen, graphviz"
   ],
   "Checksums-Sha1": [
-    "d877eb3aca5f160942f01ffe583fc3eb4fdaca4b 20376 jpeg-xl_0.11.1-4.debian.tar.xz d48562712772029298672fb626b422e807af6394 3251 jpeg-xl_0.11.1-4.dsc 22cf71721bce4acb4649929db06a9edb754f0295 1876134 jpeg-xl_0.11.1.orig.tar.gz"
+    "3741ff1d8280d5f935caa25d0d66dc2923a59bf8 25008 jpeg-xl_0.7.0-10+deb12u1.debian.tar.xz 5929ebd7c6d33443f1ae84b1d4d464b34825705a 2762 jpeg-xl_0.7.0-10+deb12u1.dsc 43f9515e0c50dc1049de7a55fea1df9b033b0069 1505917 jpeg-xl_0.7.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "c2c811796800dae6f3e2d58a67b866f7f55c222c1331c05429ec1d953e7d0048 20376 jpeg-xl_0.11.1-4.debian.tar.xz f8d1d17e40a987feb9ffc4da8db0d53d350885708b15e9a543fb64fc41e4ecef 3251 jpeg-xl_0.11.1-4.dsc 1492dfef8dd6c3036446ac3b340005d92ab92f7d48ee3271b5dac1d36945d3d9 1876134 jpeg-xl_0.11.1.orig.tar.gz"
+    "146c624d9e6909a5d0779427157a4928e727d9aa422811d433c2081699b0cac5 25008 jpeg-xl_0.7.0-10+deb12u1.debian.tar.xz de02b90d57f87ff1dc74af03cf98aeb24b03c9186a84e99cf5e2919e9c9702ce 2762 jpeg-xl_0.7.0-10+deb12u1.dsc 3114bba1fabb36f6f4adc2632717209aa6f84077bc4e93b420e0d63fa0455c5e 1505917 jpeg-xl_0.7.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "724173131933e1b59d326f1ab5abb024306167cd8173dcae376665a7103edfdcff2097711e5f80464b68d4cd4492a5a1a6cc38278311e418bbec117f69db8620 20376 jpeg-xl_0.11.1-4.debian.tar.xz 8ed546bf4b5f1b070cc11ad97d1ad0f363a33d7c04961d700db4a20aa567bb264a871fa14c6b8c03c29d281610461900c32574c65f9e5fedf0d8fb6b99f626dc 3251 jpeg-xl_0.11.1-4.dsc 0cfd81d9d3b783f96bd04f244d73ffbc12186c89993d46064a2751bef0a446a5e86be05add5c10f60d4482d39333d9bf3f9a866d6eb84f8fa0d4e8b5828fd74c 1876134 jpeg-xl_0.11.1.orig.tar.gz"
+    "b93969b5a09406d2e1aaa6d715748aee00fad313eff8d8b0bb247f970492053149b01143c107634f0696b9e2e994c1e3245f8a101612c8b96bec059486d1c47c 25008 jpeg-xl_0.7.0-10+deb12u1.debian.tar.xz f036b74d07cc5f85696b80fe3533536e1099d4fa1de998626874bb3971f6bf03985fad949263a2cfca103257e29f56fa305611666c9bb954dda6e7a43dfb1179 2762 jpeg-xl_0.7.0-10+deb12u1.dsc c73039606acf7b2cbc331c6787af5167d711fd1af22bc616e1f478c531b087da82c98f2cb7e88c4d1f8bcfdc4e053ae0dc99cc9a811545b7f9658041489ed04b 1505917 jpeg-xl_0.7.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/j/jpeg-xl"
   ],
   "Files": [
-    "81b550f570057601834b6285af38c55d 20376 jpeg-xl_0.11.1-4.debian.tar.xz 90ef89edd84671fe85c2ca3490314a51 3251 jpeg-xl_0.11.1-4.dsc 8f26fc954c2d9cb377544a5f029182ef 1876134 jpeg-xl_0.11.1.orig.tar.gz"
+    "d2e0e607698c2d2e3114b7eaa4b9d373 25008 jpeg-xl_0.7.0-10+deb12u1.debian.tar.xz 2b6da88834552ac80d28584a9d3cc821 2762 jpeg-xl_0.7.0-10+deb12u1.dsc fc56e7db98f6182fc0891dce25833e3a 1505917 jpeg-xl_0.7.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "jpeg-xl"
   ],
   "Package-List": [
-    "jpeg-xl-doc deb doc optional arch=all libjpegxl-java deb java optional arch=amd64,arm64,armel,armhf,i386,mips64el,ppc64el,riscv64,s390x,alpha,ia64,m68k,powerpc,ppc64,sh4,sparc64,x32 libjxl-dev deb libdevel optional arch=any libjxl-devtools deb utils optional arch=any libjxl-gdk-pixbuf deb libs optional arch=any libjxl-tools deb utils optional arch=any libjxl0.11 deb libs optional arch=any"
+    "jpeg-xl-doc deb doc optional arch=all libjpegxl-java deb java optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,s390x,alpha,ia64,m68k,powerpc,ppc64,riscv64,sh4,sparc64,x32 libjxl-dev deb libdevel optional arch=any libjxl-devtools deb utils optional arch=any libjxl-tools deb utils optional arch=any libjxl0.7 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/debian-phototools-team/libjxl.git"
   ],
   "Version": [
-    "0.11.1-4"
+    "0.7.0-10+deb12u1"
   ]
 }

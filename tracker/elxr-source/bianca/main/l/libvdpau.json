@@ -6,25 +6,25 @@
     "libvdpau-dev, libvdpau1, libvdpau-doc, vdpau-driver-all"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), meson, pkgconf, libx11-dev, x11proto-dri2-dev, libxext-dev"
+    "debhelper-compat (= 13), meson, pkg-config, libx11-dev, x11proto-dri2-dev, libxext-dev"
   ],
   "Build-Depends-Indep": [
     "doxygen-latex \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, ghostscript \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "0282c2c02c558667ba5dc4adab71059223c3044e 9440 libvdpau_1.5-3.debian.tar.xz 259a88af85bb725386ee591849b172d4aa94e015 2318 libvdpau_1.5-3.dsc 7c30763796f6abe178dab49268e818378b7c3d4a 143279 libvdpau_1.5.orig.tar.bz2"
+    "346b63b3028d566c86587b197ba16a1f196094b6 9324 libvdpau_1.5-2.debian.tar.xz 21d00d0c90511b11125b28e59cbdc2386422c7c5 2321 libvdpau_1.5-2.dsc 7c30763796f6abe178dab49268e818378b7c3d4a 143279 libvdpau_1.5.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "b2f3f053f1495671a3b9c895986f16aed1b3eb3561c2a116b3ec515b2444469c 9440 libvdpau_1.5-3.debian.tar.xz 11aacd6add414640221750a28c38e5a2370343c2ad41bd9b04c2f57927e78ceb 2318 libvdpau_1.5-3.dsc a5d50a42b8c288febc07151ab643ac8de06a18446965c7241f89b4e810821913 143279 libvdpau_1.5.orig.tar.bz2"
+    "b5265bfe78ece6e8d366dd057c3362639a3ce634c4015c92424a915606110858 9324 libvdpau_1.5-2.debian.tar.xz 6506c94cac87ef30e5b368dec2c06c5688d29e03d5be4df395bf634a8543e011 2321 libvdpau_1.5-2.dsc a5d50a42b8c288febc07151ab643ac8de06a18446965c7241f89b4e810821913 143279 libvdpau_1.5.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "a74dec469ad863d521f967aaef948d6b03e636c0a5604b086b9a81a644ab79bc768859c309d7d4c676e189360526b10cd9ec32bf8b03d9815226b8147a643314 9440 libvdpau_1.5-3.debian.tar.xz 0516f34c806c3ee35c9a4cca35c9859d4f18ebcc2e1160aad419f9ea29b41e5897cf2997938c31ae0ca23069e03a602ff53d80ff413a4840ac7f33e268687705 2318 libvdpau_1.5-3.dsc 7affb14874431eba1be6e8634fcbb6247cbf6956fb88116e06e60de30a7852a407e8598176a369c2ba4bfaef4be58727e51d4bc390f705991ac83d660f611ff5 143279 libvdpau_1.5.orig.tar.bz2"
+    "5e9cc17dc6c12b8fa69c084427720a5847d14523da2cf30388a30728129a50ebb88a3251d9299f03cc4f810a14c9d2837cdde30fc9987ef0e64bad2e50460267 9324 libvdpau_1.5-2.debian.tar.xz cb3efa4d2fc958575322a6a92293937c560b718c074261a33ab945d7d96ab231c1ac710f038a2f329521ce096f0104481895fc5f90c9a79ab5a7e12666d5a661 2321 libvdpau_1.5-2.dsc 7affb14874431eba1be6e8634fcbb6247cbf6956fb88116e06e60de30a7852a407e8598176a369c2ba4bfaef4be58727e51d4bc390f705991ac83d660f611ff5 143279 libvdpau_1.5.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/libv/libvdpau"
   ],
   "Files": [
-    "6d9cc508a3ec56ee9ebc90e80ac4c002 9440 libvdpau_1.5-3.debian.tar.xz c5ad0caea2f30abbd6e3270e5a513f05 2318 libvdpau_1.5-3.dsc 148a192110e7a49d62c0bf9ef916c099 143279 libvdpau_1.5.orig.tar.bz2"
+    "7eff1fe094707a4de789f8eba7a12875 9324 libvdpau_1.5-2.debian.tar.xz 82fe060b3ba69e3f0a70ea42e4bb2393 2321 libvdpau_1.5-2.dsc 148a192110e7a49d62c0bf9ef916c099 143279 libvdpau_1.5.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "libvdpau-dev deb libdevel optional arch=any libvdpau-doc deb doc optional arch=all profile=!nodoc libvdpau1 deb libs optional arch=any vdpau-driver-all deb video optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Uploaders": [
     "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/nvidia-team/libvdpau.git"
   ],
   "Version": [
-    "1.5-3"
+    "1.5-2"
   ]
 }

@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "librust-wasm-bindgen-macro-support-dev"
+    "librust-wasm-bindgen-macro-support-dev, librust-wasm-bindgen-macro-support+extra-traits-dev, librust-wasm-bindgen-macro-support+spans-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.57) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev \u003c!nocheck\u003e, librust-quote-1+default-dev \u003c!nocheck\u003e, librust-syn-2+default-dev \u003c!nocheck\u003e, librust-syn-2+full-dev \u003c!nocheck\u003e, librust-syn-2+visit-dev \u003c!nocheck\u003e, librust-syn-2+visit-mut-dev \u003c!nocheck\u003e, librust-wasm-bindgen-backend-0.2.99+std-dev \u003c!nocheck\u003e, librust-wasm-bindgen-backend-0.2.99-dev \u003c!nocheck\u003e, librust-wasm-bindgen-shared-0.2.99+default-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev \u003c!nocheck\u003e, librust-quote-1+default-dev \u003c!nocheck\u003e, librust-syn-1+default-dev (\u003e= 1.0.67-~~) \u003c!nocheck\u003e, librust-syn-1+full-dev (\u003e= 1.0.67-~~) \u003c!nocheck\u003e, librust-syn-1+visit-dev (\u003e= 1.0.67-~~) \u003c!nocheck\u003e, librust-wasm-bindgen-backend-0.2.83+default-dev \u003c!nocheck\u003e, librust-wasm-bindgen-shared-0.2.83+default-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "606c9d2965fcde375ec3d54eccb7f3d78bde3e00 3348 rust-wasm-bindgen-macro-support_0.2.99-1.debian.tar.xz 6f8580dc071c1b902130ef45d6e2aa09a9f2e9bb 2856 rust-wasm-bindgen-macro-support_0.2.99-1.dsc 7e2bfbf0a2b9d9417511e2c8a38dabd4309e0910 22800 rust-wasm-bindgen-macro-support_0.2.99.orig.tar.gz"
+    "4c60bf27d5f1e69a3680619216d312fc45bac2b9 3464 rust-wasm-bindgen-macro-support_0.2.83-1.debian.tar.xz 91b948e2c7d40b7aabea8586bcd58dbc5ddc05e3 3041 rust-wasm-bindgen-macro-support_0.2.83-1.dsc cb8212e9dae8226297f7b0626557aade9dcd1742 18530 rust-wasm-bindgen-macro-support_0.2.83.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "54d322d5cded4b284dd84bd35e5709efa36058e35f73027b1ef7cee29ed5bce5 3348 rust-wasm-bindgen-macro-support_0.2.99-1.debian.tar.xz 2e579d1667d08209eed3ee01c959efb80dd84b530721d0e857c183312b92a26f 2856 rust-wasm-bindgen-macro-support_0.2.99-1.dsc 30d7a95b763d3c45903ed6c81f156801839e5ee968bb07e534c44df0fcd330c2 22800 rust-wasm-bindgen-macro-support_0.2.99.orig.tar.gz"
+    "7261102a8d4337400b35485127ed45fad1bfdfd481fbd92288140f87f797d27d 3464 rust-wasm-bindgen-macro-support_0.2.83-1.debian.tar.xz bd643a00e031899f4fbea931a922bb70842ad72fa0d174bb54e838fdbde13c18 3041 rust-wasm-bindgen-macro-support_0.2.83-1.dsc 07bc0c051dc5f23e307b13285f9d75df86bfdf816c5721e573dec1f9b8aa193c 18530 rust-wasm-bindgen-macro-support_0.2.83.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "ec15a7e8c4258d5d2b16e9ff7f40c456b141d89ba2c26a558a41fd148783e8e462aa2e6b00851a1bfa76b8fdd92fc09a1e7708b079cad8061ea6e8232f2c7d92 3348 rust-wasm-bindgen-macro-support_0.2.99-1.debian.tar.xz ed9302907383910f9778938bf17b5045787a2b6d6ddce7b4bb2a33afb15f9e6a3bf5ee0ed5252b86789908bcb04838d847b374444eefa6726b3d59e0e57bebc0 2856 rust-wasm-bindgen-macro-support_0.2.99-1.dsc 936ab8211a13fbe8b8f21a870a78c03e24219d0872731561353cfcae245e9f632246f179b67f2b13e106c799e68c5c39f9e388370a8ad3f93f299c4804f5907e 22800 rust-wasm-bindgen-macro-support_0.2.99.orig.tar.gz"
+    "d041a1f248c0e411a12016680a3a54b68dc3eca5f0ef95cc311218d415eaf2e0604d8ae964bbdf736b33214d319eb8d1562ab1806962260456e2836fb4e1587e 3464 rust-wasm-bindgen-macro-support_0.2.83-1.debian.tar.xz d61df992cfbd25cbc69521f564ceae723da5023bf41f1665b6fbbb4bf8ba2cf624fb1b5be9cb95f24ae3d936fa66e7c9938413eb70afea00cf399e63858eed62 3041 rust-wasm-bindgen-macro-support_0.2.83-1.dsc 804014c75ae5f8c1c7f0fad3f3209887fa346d74029e5f6e1830e44f7318719e65c4a643c71d87cf388f131fd370af40d536bbc15fc11c25b91cb785f56a908b 18530 rust-wasm-bindgen-macro-support_0.2.83.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-wasm-bindgen-macro-support"
   ],
   "Files": [
-    "f3e6df4d605c1662e5b44d3175a8f6b3 3348 rust-wasm-bindgen-macro-support_0.2.99-1.debian.tar.xz 2ea6c7c57bb4ce9466a130afdde27d86 2856 rust-wasm-bindgen-macro-support_0.2.99-1.dsc 55793eb8147603f062fe683c88e0f6f1 22800 rust-wasm-bindgen-macro-support_0.2.99.orig.tar.gz"
+    "56b6a3b21e49a183b400e591adaf970b 3464 rust-wasm-bindgen-macro-support_0.2.83-1.debian.tar.xz 2a9d1287f64cd7fb613e2a6856398c4e 3041 rust-wasm-bindgen-macro-support_0.2.83-1.dsc 97b79fe13241e09751a08520ba0e7f28 18530 rust-wasm-bindgen-macro-support_0.2.83.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,16 +36,16 @@
     "rust-wasm-bindgen-macro-support"
   ],
   "Package-List": [
-    "librust-wasm-bindgen-macro-support-dev deb rust optional arch=any"
+    "librust-wasm-bindgen-macro-support+extra-traits-dev deb rust optional arch=any librust-wasm-bindgen-macro-support+spans-dev deb rust optional arch=any librust-wasm-bindgen-macro-support-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, rustc"
+    "dh-cargo"
   ],
   "Uploaders": [
     "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, kpcyrd \u003cgit@rxv.cc\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/wasm-bindgen-macro-support]"
   ],
   "Version": [
-    "0.2.99-1"
+    "0.2.83-1"
   ]
 }

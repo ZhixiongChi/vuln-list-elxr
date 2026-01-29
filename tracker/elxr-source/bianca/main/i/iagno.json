@@ -6,22 +6,22 @@
     "iagno"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), appstream \u003c!nocheck\u003e, desktop-file-utils \u003c!nocheck\u003e, dpkg-build-api (= 1), itstool, libgsound-dev (\u003e= 1.0.2), libglib2.0-dev (\u003e= 2.42.0), libgtk-3-dev (\u003e= 3.24.0), librsvg2-dev (\u003e= 2.32.0), libxml2-utils, meson, valac (\u003e= 0.27.1)"
+    "debhelper-compat (= 13), appstream-util \u003c!nocheck\u003e, desktop-file-utils \u003c!nocheck\u003e, dh-sequence-gnome, itstool, libgsound-dev (\u003e= 1.0.2), libglib2.0-dev (\u003e= 2.42.0), libgtk-3-dev (\u003e= 3.24.0), librsvg2-dev (\u003e= 2.32.0), libxml2-utils, meson, valac (\u003e= 0.27.1)"
   ],
   "Checksums-Sha1": [
-    "5a3b361c4abe3ea81e4166dd08c7240174e28f33 31464 iagno_3.38.1-4.debian.tar.xz bbfc8faeea8a6f3d328b295a82ab9984576b84bb 2178 iagno_3.38.1-4.dsc 3982f982f89951af3d5f487df3d9ab724d075ef3 766188 iagno_3.38.1.orig.tar.xz"
+    "9a79885f1d4d0abe494b89499fd4a60675ef2946 29704 iagno_3.38.1-2.debian.tar.xz f7ac65efcd115876b1bf44f249464d8cd48fe8aa 2124 iagno_3.38.1-2.dsc 3982f982f89951af3d5f487df3d9ab724d075ef3 766188 iagno_3.38.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "95543e894ab49e63a2fdb010dd54ecf7895fd1fa7842316ee4f2033e9ebec429 31464 iagno_3.38.1-4.debian.tar.xz 192795dd2ea54540335b6af5fecd68e66be325d521d6c2421c3547cd124eb637 2178 iagno_3.38.1-4.dsc 84b9f32ce0389758a21d63c7eb1c227db7116b51d3149aa0eae3509168e0ed24 766188 iagno_3.38.1.orig.tar.xz"
+    "d2caf897e487194c2cd7415147bcb92a66b730211a96b317d5e2c10b43ff88d4 29704 iagno_3.38.1-2.debian.tar.xz d3afc2369bfdfceb75ed08a7992c945276601bef9736ad9e11830f96d59c7759 2124 iagno_3.38.1-2.dsc 84b9f32ce0389758a21d63c7eb1c227db7116b51d3149aa0eae3509168e0ed24 766188 iagno_3.38.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "558fc7c90cda80e3afc1a8acc87b9874179a46a52c6f36af9fece49ac122c92db5244eaf67b3e331798349f4ae644b45fdf7573dcf5348d9823952fcd5661a1a 31464 iagno_3.38.1-4.debian.tar.xz 4afc5eb8b009d73b1e3925710730843825267d3a98d07bf910d024dce911f2de91a469ff05f9a79ab5e191b991386a741f87c4ca14c6c0ecc20f1afc1db57506 2178 iagno_3.38.1-4.dsc d36e445c01487a79df6fb6b1b77991118a978716688cf166d593656e1f8dbc3f872d0e739145b9ea9629563457d441918d7f46241d29edae8bdf74f54174d4f1 766188 iagno_3.38.1.orig.tar.xz"
+    "482a1dcc690fc0ef90bed91c820067b4a7d3381aa415e7a3849d3eee11f421ee712248f1bc634c6b1f3acd7fa4189940b1708ebaf7b002b11148b01ac69f0e04 29704 iagno_3.38.1-2.debian.tar.xz a8c8bb190689c238065a788dad4931ef230a0b53d76b2aac007d86c6d1144476557b822fb71492d42a6d27ecf80660eac086e7ec9310f29f8ff02316119de8e2 2124 iagno_3.38.1-2.dsc d36e445c01487a79df6fb6b1b77991118a978716688cf166d593656e1f8dbc3f872d0e739145b9ea9629563457d441918d7f46241d29edae8bdf74f54174d4f1 766188 iagno_3.38.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/i/iagno"
   ],
   "Files": [
-    "b250498425bf4befe41e871dc28435db 31464 iagno_3.38.1-4.debian.tar.xz 40eefb50d15c95896f0b0acbb0ab5ca8 2178 iagno_3.38.1-4.dsc 20b96b6f5863224a118994207c19ebd8 766188 iagno_3.38.1.orig.tar.xz"
+    "b6bfa67a7c695902f5abfe3b4ac61e84 29704 iagno_3.38.1-2.debian.tar.xz c9787bb7e4fc8b700eb7823e10c7009a 2124 iagno_3.38.1-2.dsc 20b96b6f5863224a118994207c19ebd8 766188 iagno_3.38.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "iagno deb games optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.0"
   ],
   "Uploaders": [
-    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
+    "Jeremy Bicha \u003cjbicha@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/iagno"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/iagno.git"
   ],
   "Version": [
-    "1:3.38.1-4"
+    "1:3.38.1-2"
   ]
 }

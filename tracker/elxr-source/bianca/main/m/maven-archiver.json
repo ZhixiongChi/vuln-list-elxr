@@ -6,22 +6,22 @@
     "libmaven-archiver-java"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), default-jdk, junit5 (\u003e= 5.9), libassertj-core-java (\u003e= 3.14), libmaven-shared-utils-java, libmaven3-core-java, libmockito-java, libplexus-archiver-java (\u003e= 4.3), libplexus-interpolation-java, libplexus-utils2-java, maven-debian-helper (\u003e= 2.2)"
+    "debhelper-compat (= 13), default-jdk, junit5 (\u003e= 5.9), libassertj-core-java (\u003e= 3.14), libmaven-shared-utils-java, libmaven3-core-java, libplexus-archiver-java (\u003e= 4.3), libplexus-interpolation-java, libplexus-utils2-java, maven-debian-helper (\u003e= 2.2)"
   ],
   "Checksums-Sha1": [
-    "ebabe8b87a0024c469158e07460987105894d9a3 5624 maven-archiver_3.6.2-1.debian.tar.xz ae71d4d492383dfd82f3149f5c6433339cf7ee8e 2317 maven-archiver_3.6.2-1.dsc 4624b4c15e23bbb0139d5fcce9e0d707b89ed905 43704 maven-archiver_3.6.2.orig.tar.xz"
+    "a65d2e5f7a01c351f737fb3a4097969941a3a11e 5588 maven-archiver_3.6.0-1.debian.tar.xz f774ddcb529e0470cac5b478c071074724a6745b 2301 maven-archiver_3.6.0-1.dsc 342177b36126b5ea555427cbb51e96004847a9eb 44576 maven-archiver_3.6.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "bd8be9056a4d29d03554537a5c8658f36758b757f7b5997794c9124d486aee4b 5624 maven-archiver_3.6.2-1.debian.tar.xz 85c7871b7cc85f39a06ab042ad5c0f9d4c70e25217936cea9804f1f64a6a5bc0 2317 maven-archiver_3.6.2-1.dsc 1bab0316c6668dc5ded3d84e7f21afbd397260482a773d312b690d564d320935 43704 maven-archiver_3.6.2.orig.tar.xz"
+    "46b9321c2726e30cdb0dfef3a0b0b43081e971e497d0fa89e3979224d6e8554f 5588 maven-archiver_3.6.0-1.debian.tar.xz 921cb32bd610dbab3b13b228dc0c73560288d498f000dcab9038cf6f38a66434 2301 maven-archiver_3.6.0-1.dsc 082663d5b22aad0acbc678d11a2121be8a1c24f1001cfb30c66e9ed1cd34d7d5 44576 maven-archiver_3.6.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "1eb60e9172c14850e171bd0569434d1b44fc6e2be3ac042c0059c7719fd21993093e4ea587116cfe82ce9ca2a87682b7ddc2da829885bb6511a7ac74a8e4d456 5624 maven-archiver_3.6.2-1.debian.tar.xz d00c15f44135ae0664dbf2f50b37ecd09d70534b0c4cc2439dc90a9223a3a0631e0aa1eb78b9dbd9ab06e7e8c7edc15900940ae84a3bad457852dfa10f5f231c 2317 maven-archiver_3.6.2-1.dsc a98e840b3cf53f6190a355f917d4cbf62dce46220e4a452ee504def2a54706afcad273154b56c5a7ae3cb3f2b77d6c39d6425d49ce81905c59c58fcb4ec198dc 43704 maven-archiver_3.6.2.orig.tar.xz"
+    "ef7888b57c8872c931ad8d28d1e1fa53f368b86af9b3cffe9ecdae90465d7eddb28deb72f97191724d0d9fe6e1f9c37adcc5b347cd0cdb652efb562011def909 5588 maven-archiver_3.6.0-1.debian.tar.xz 1164e6fffd01882df065db497b558d534d0b578af82d3afd616eac7a6728dac305324b61bd7b8e102fb0f24602c2c14c6b5308658f0bdfcf7be72fae679dc21a 2301 maven-archiver_3.6.0-1.dsc e0fdb823837f4fd222a03b0c324f50857ed005c2b2155e74fd9ef7754efda76b18beebbb2d32037ca6a18594612108353e1a0ab5e57889c0b6cd79663e07ce2d 44576 maven-archiver_3.6.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/m/maven-archiver"
   ],
   "Files": [
-    "adbf49719f5ac85f4fcc7286692cc3b5 5624 maven-archiver_3.6.2-1.debian.tar.xz d5554e3af74f8689893124462ddf1725 2317 maven-archiver_3.6.2-1.dsc acc5593a6e14cdeca28bb1486c31d184 43704 maven-archiver_3.6.2.orig.tar.xz"
+    "6e5af970b90e96817a1754b4aae21f10 5588 maven-archiver_3.6.0-1.debian.tar.xz 4b4b8a60bfa16cc91405839ff4995845 2301 maven-archiver_3.6.0-1.dsc d05dec111c19041e11b3cf0af09c477c 44576 maven-archiver_3.6.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libmaven-archiver-java deb java optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Uploaders": [
     "Torsten Werner \u003ctwerner@debian.org\u003e, Ludovic Claude \u003cludovic.claude@laposte.net\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/java-team/maven-archiver.git"
   ],
   "Version": [
-    "3.6.2-1"
+    "3.6.0-1"
   ]
 }

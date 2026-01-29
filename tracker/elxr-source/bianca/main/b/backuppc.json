@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), iputils-ping | inetutils-ping, libbackuppc-xs-perl (\u003e= 0.62), libcgi-pm-perl, libfile-listing-perl, par2, patch, perl, rrdtool"
   ],
   "Checksums-Sha1": [
-    "99b24d978f0612b143edf403f7b1635f27ddb23e 37924 backuppc_4.4.0-11.debian.tar.xz 786d84762297d56c750fb2f2c09a831005a87785 2169 backuppc_4.4.0-11.dsc 49952907267df93060456c8ef0fefc266f58a4d7 657309 backuppc_4.4.0.orig.tar.gz"
+    "e651d2906c7582eac3f8311eb68312e06fc8cef0 61016 backuppc_4.4.0-8.debian.tar.xz 1443548dd1bd5800e8578e1de9b2171bc039846b 2157 backuppc_4.4.0-8.dsc 49952907267df93060456c8ef0fefc266f58a4d7 657309 backuppc_4.4.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "f278901ca0e14be5197d1322be6c478ab42c82c6d1b582e678d2786fe6e37801 37924 backuppc_4.4.0-11.debian.tar.xz 99710f017aeca1b1d03cdb54fca221ab94883634b34c785eed46ebdabc3f2ce2 2169 backuppc_4.4.0-11.dsc 8bc04cd513d47629508bd2fd6f455ced38316974913638e971f44e37786c6365 657309 backuppc_4.4.0.orig.tar.gz"
+    "c69470e87a38c401112dc754937c5f0ff121af7371e41e31deb5947b12a93418 61016 backuppc_4.4.0-8.debian.tar.xz 4345c96685fbaab64bd31d33c56c9cb799f4016fb145b0de75fc6726b188aa88 2157 backuppc_4.4.0-8.dsc 8bc04cd513d47629508bd2fd6f455ced38316974913638e971f44e37786c6365 657309 backuppc_4.4.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "9686987e8ed9361bf71a3d25c6300da90834b7c08eee53fda0661a1f6dbfa43232dc80e86c67b9ea62ab2d998385e74dfe851e0f2e19fb14336413b802c89cb9 37924 backuppc_4.4.0-11.debian.tar.xz cb0277aec677c3785e2a9ea34dd6ac358d3690d21af8f9944c59d09235efed1e4a0d9d74f369b95dcb5820216d9a721d2952509648583959166cdaccabe49a80 2169 backuppc_4.4.0-11.dsc 0c88447ab000c4a452034d5d8a074cd56801c7b38b0886e686e446c73ecfd0a40f0aa08703f76d16c31b24aec85c10c4ed1815d0cb67be5a1d66e5caeb3de418 657309 backuppc_4.4.0.orig.tar.gz"
+    "976715c74818f06662c409a188c40df72c7381414d73d30177ae025c36f0f77763af0d6d88877834f99068ca46095cf7b72d1e5f29215a7ab480e1f335741b39 61016 backuppc_4.4.0-8.debian.tar.xz 6a133d803dee46f03347df106acb7955f8859757229633cbe22944d304b30b319b11c44ef5cc5fbf61bab1da7c23028199f65e5eac24dedc0a8a2381cef505ce 2157 backuppc_4.4.0-8.dsc 0c88447ab000c4a452034d5d8a074cd56801c7b38b0886e686e446c73ecfd0a40f0aa08703f76d16c31b24aec85c10c4ed1815d0cb67be5a1d66e5caeb3de418 657309 backuppc_4.4.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/b/backuppc"
   ],
   "Files": [
-    "b5f323ef8129e4fdf58d725f0cc01125 37924 backuppc_4.4.0-11.debian.tar.xz 53b0df1c86f5f66df1dbbcb9f8be5cbc 2169 backuppc_4.4.0-11.dsc 96cd69da26b71a609e18cb5e98a813bb 657309 backuppc_4.4.0.orig.tar.gz"
+    "b01ecef5482c8e1da135ba26a4cd8d2f 61016 backuppc_4.4.0-8.debian.tar.xz 18cb9fdbc60e825cfce33e724d0537a3 2157 backuppc_4.4.0-8.dsc 96cd69da26b71a609e18cb5e98a813bb 657309 backuppc_4.4.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "backuppc deb utils optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "procps, samba, smbclient, sudo"
+    "samba, smbclient, sudo"
   ],
   "Uploaders": [
     "Tobias Frost \u003ctobi@debian.org\u003e, Axel Beckert \u003cabe@debian.org\u003e, Jonathan Wiltshire \u003cjmw@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/backuppc.git"
   ],
   "Version": [
-    "4.4.0-11"
+    "4.4.0-8"
   ]
 }

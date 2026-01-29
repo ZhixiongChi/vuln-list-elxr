@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "flatbuffers-compiler, flatbuffers-compiler-dev, libflatbuffers-dev, libflatbuffers23.5.26, python3-flatbuffers"
+    "flatbuffers-compiler, flatbuffers-compiler-dev, libflatbuffers-dev, libflatbuffers2, python3-flatbuffers"
   ],
   "Build-Depends": [
     "cmake, debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "8e6cf8720d62e0474efa68659bf2e574dee430a9 17436 flatbuffers_23.5.26+dfsg-4.debian.tar.xz 7ca341fc5b2c81a436ccc018de034931159d887d 2450 flatbuffers_23.5.26+dfsg-4.dsc 65378ac5bb48d1ec4c2ea0c3656e94c9d170709a 1372852 flatbuffers_23.5.26+dfsg.orig.tar.xz"
+    "f2b75f0845feddce8b6fb182d0e149007ee72c96 13608 flatbuffers_2.0.8+dfsg1-2.debian.tar.xz 28898233bc6388d10d1518b1548853dd5e220097 2368 flatbuffers_2.0.8+dfsg1-2.dsc 4b1e68483048576e32e299b3638849eb0f208b10 1238668 flatbuffers_2.0.8+dfsg1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "8104bff1c43d6dfae854309e7533500da24969ab9f77c7db718d5ef712a58708 17436 flatbuffers_23.5.26+dfsg-4.debian.tar.xz 4d8a3d748d60a1515f19640e8723250c71f4b8a04f445b183376934d242b8747 2450 flatbuffers_23.5.26+dfsg-4.dsc 0d309fd2c47bbbebd450e68d1419c336d53d1b8f5ce47e1f1f7f28f452fc6f3b 1372852 flatbuffers_23.5.26+dfsg.orig.tar.xz"
+    "66a14d34d593b3022ed5effa856ba5f79534d1c680c66ad82fbf54ba8a9e6b8e 13608 flatbuffers_2.0.8+dfsg1-2.debian.tar.xz 3b119ee88f1173fd333c09c7498d9b5f0e8ed2ebdb8f5020230c8997beb27284 2368 flatbuffers_2.0.8+dfsg1-2.dsc 424b8c76568e718a1a05c3fbc6b2070c83b5e55d9b48568fa4f744e9bcd1163a 1238668 flatbuffers_2.0.8+dfsg1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "d035ea908e8264d79523d178964a15ce45381f7082af8584676df1c00dab4f9ebf1bfc4026d03331e4f4012a3d6f00ff7f138e0742b7cd0d1c3b32e3d99a6877 17436 flatbuffers_23.5.26+dfsg-4.debian.tar.xz ec126cc6efc73d8e1ade01538b6487bb1b3943ab99c4787a02d0e2386c9db92f33321f186515dd68a4e283e0ae4054ebc11768b184318e2cf4aa41c9fffe8ee1 2450 flatbuffers_23.5.26+dfsg-4.dsc 50d3d3c0a15ac02308b4262a89122d215d7707b659ff6a2097bbbc434a9502502aea93be05d5956c5ad4aa5e9209d1a3e67267001fc46fac012793a15aac8007 1372852 flatbuffers_23.5.26+dfsg.orig.tar.xz"
+    "e85517949178ced6975c1627541f806f64ef03f0dd7269b1be0b8840f084882b57f14d1fef29ee5ff6fbbc2e3e3a630aa8ff9ef386d08b3233affdb1550a0c4f 13608 flatbuffers_2.0.8+dfsg1-2.debian.tar.xz 74aa80197688016e598e63c3d5d2a6406fb8d840202c838cbd6ee4f5de13b8d5a57e1ea2c731faa3482c4b4bfef487f504394b9921d5520735ae614532a7855a 2368 flatbuffers_2.0.8+dfsg1-2.dsc 73337a9fdf8ce8d31bf3f30824ab007fffbeb4e1ce8943308446d58f46bc3bdc538e1c0d449e514211314e1096bf077d29f5c3fb4de024892f49e6cfc3d0dcab 1238668 flatbuffers_2.0.8+dfsg1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/f/flatbuffers"
   ],
   "Files": [
-    "02347984522a85b176b714f9cc8aecf6 17436 flatbuffers_23.5.26+dfsg-4.debian.tar.xz b9d95456bd58e9009784b0e23a90f695 2450 flatbuffers_23.5.26+dfsg-4.dsc 3199d7be074fc0fc9a68eaf3129b4afd 1372852 flatbuffers_23.5.26+dfsg.orig.tar.xz"
+    "4eb4915567f37dcfb65a3fb35ce825dd 13608 flatbuffers_2.0.8+dfsg1-2.debian.tar.xz f8f55401545270395e8f31a49a1ef25c 2368 flatbuffers_2.0.8+dfsg1-2.dsc b9833d10bbf3bfe8565f3b29b97cfbae 1238668 flatbuffers_2.0.8+dfsg1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,16 +36,10 @@
     "flatbuffers"
   ],
   "Package-List": [
-    "flatbuffers-compiler deb devel optional arch=any flatbuffers-compiler-dev deb devel optional arch=any libflatbuffers-dev deb libdevel optional arch=any libflatbuffers23.5.26 deb libs optional arch=any python3-flatbuffers deb python optional arch=all"
+    "flatbuffers-compiler deb devel optional arch=any flatbuffers-compiler-dev deb devel optional arch=any libflatbuffers-dev deb libdevel optional arch=any libflatbuffers2 deb libs optional arch=any python3-flatbuffers deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "g++, python3-pytest"
+    "4.6.1"
   ],
   "Uploaders": [
     "Nobuhiro Iwamatsu \u003ciwamatsu@debian.org\u003e, Mo Zhou \u003clumin@debian.org\u003e"
@@ -57,6 +51,6 @@
     "https://salsa.debian.org/debian/flatbuffers.git"
   ],
   "Version": [
-    "23.5.26+dfsg-4"
+    "2.0.8+dfsg1-2"
   ]
 }

@@ -6,25 +6,22 @@
     "golang-github-containerd-cgroups-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-golang, golang-any, golang-dbus-dev, golang-google-protobuf-dev, golang-github-cilium-ebpf-dev, golang-github-coreos-go-systemd-dev, golang-github-docker-go-units-dev, golang-github-opencontainers-specs-dev, golang-github-sirupsen-logrus-dev, golang-github-stretchr-testify-dev, golang-uber-goleak-dev, golang-golang-x-sys-dev, libprotobuf-dev, protobuild, protoc-gen-go"
+    "debhelper-compat (= 13), dh-golang, gogoprotobuf, golang-any, golang-dbus-dev, golang-github-cilium-ebpf-dev, golang-github-coreos-go-systemd-dev, golang-github-docker-go-units-dev, golang-github-gogo-protobuf-dev, golang-github-opencontainers-specs-dev, golang-github-sirupsen-logrus-dev, golang-github-stretchr-testify-dev, golang-golang-x-sys-dev, libprotobuf-dev"
   ],
   "Checksums-Sha1": [
-    "a1da692f78eb6e9cdba0bbaa34d0124516de09c7 4488 golang-github-containerd-cgroups_3.0.3-4.debian.tar.xz d4137dd83f27886e5d1c0bfe4b7322e2f59eede1 2882 golang-github-containerd-cgroups_3.0.3-4.dsc e15e91c1473f68ad8228b2ae907eeb9c4925cc84 65144 golang-github-containerd-cgroups_3.0.3.orig.tar.xz"
+    "88e60dce52fac5d72d7535bca8c480c8b106c41f 4252 golang-github-containerd-cgroups_1.0.4-1.debian.tar.xz c4ddf2ee6fa2b499a84d4bc851607138822f042d 2062 golang-github-containerd-cgroups_1.0.4-1.dsc 8e4d0b0b6170e3aa778403d351e72b43d0dfc9fd 68320 golang-github-containerd-cgroups_1.0.4.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "c3f1644cb4429153982bdc76774443dfb4f7d44375b6b2d8fe663c4efec338dd 4488 golang-github-containerd-cgroups_3.0.3-4.debian.tar.xz 95c8b571de45f5aa845724f3ead9a0077dcefdd386858f2dabc88787c1875d6d 2882 golang-github-containerd-cgroups_3.0.3-4.dsc 47eea3d903f4d0a59c242da9272071667cfdf2edf37ffb37b6996560a0b2bc3b 65144 golang-github-containerd-cgroups_3.0.3.orig.tar.xz"
+    "d972c69fb1a0bfad0f83265731b422febb8321eb2fc2135e020121e1b26700e2 4252 golang-github-containerd-cgroups_1.0.4-1.debian.tar.xz a7c4b1e2944b6d2aaf4dfa869a32c12af73a704c1f013bfdda31fcf1d1bcaabb 2062 golang-github-containerd-cgroups_1.0.4-1.dsc 46a2382ae3a812fe919062dee0e560039262f4c8dd66def28adc0a2ccada4683 68320 golang-github-containerd-cgroups_1.0.4.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "ef6044d787547302b7924f1ff72c364faa75ba1df8e9c6d4164a75994fae58c6331117b829a328fa4a286c99612f276c6835d26be798a58e08e6f7f36b15c36a 4488 golang-github-containerd-cgroups_3.0.3-4.debian.tar.xz b642dcaa10ea2538eb7cfe98c939eead24612a20c0bd3df72980c6407c2ba856c53a9b6d040f118f67d50c97a6cb75bb95654f736c5a13f3d8e975d72d81161b 2882 golang-github-containerd-cgroups_3.0.3-4.dsc 12b371a4a10b36ccecd0803bb36ae002e7740cc926e735b269139ea3be4052c80c21089c6a043e50be133909949f6a21be0d3b9b0b7f2d95ee9d75c788c95742 65144 golang-github-containerd-cgroups_3.0.3.orig.tar.xz"
-  ],
-  "Dgit": [
-    "8637b571806390c6bbfc4cd67cd3cb1bdd16e39a debian archive/debian/3.0.3-4 https://git.dgit.debian.org/golang-github-containerd-cgroups"
+    "79452e0576b433d0b1557d20b5d4123d7400fe349dd820eafb5e76c0c1589b9a9566e340d4b0e7a6dc30f28b43cd15cf724e2298c563f4f3cef53ea9f2a167c7 4252 golang-github-containerd-cgroups_1.0.4-1.debian.tar.xz 0d851937209623eaf26737069e59fcfad8276b3d7afb83646ccbd2d2736806d59b42ded245ce108aa3cd016c19487b0968f9dcbe5e71effadae0f32d6e37db43 2062 golang-github-containerd-cgroups_1.0.4-1.dsc 9fee0e2f60bbd1469af88bff26aebefe29ece1da0701a9d73003d6484c9deb4d1b2b130139cc22a0f15d435ded6865ecadaf3d53246dcad4935d038d9c83b36f 68320 golang-github-containerd-cgroups_1.0.4.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/golang-github-containerd-cgroups"
   ],
   "Files": [
-    "40c11d8572ce7ce8adcb79aa05ba83cb 4488 golang-github-containerd-cgroups_3.0.3-4.debian.tar.xz b8814641b599ea1ce62acdb044879d71 2882 golang-github-containerd-cgroups_3.0.3-4.dsc 73f2de7ebb5dd0baa606bff094995abd 65144 golang-github-containerd-cgroups_3.0.3.orig.tar.xz"
+    "4356ca0eda230d636a6223f803d16ee1 4252 golang-github-containerd-cgroups_1.0.4-1.debian.tar.xz f00c153903b6eb1f9142494b6f713f49 2062 golang-github-containerd-cgroups_1.0.4-1.dsc a2fa8a346b8e7758317aa179371e4ae6 68320 golang-github-containerd-cgroups_1.0.4.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,13 +42,13 @@
     "golang-github-containerd-cgroups-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
   ],
   "Uploaders": [
-    "Arnaud Rebillout \u003carnaudr@kali.org\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e, Reinhard Tartler \u003csiretart@tauware.de\u003e,"
+    "Arnaud Rebillout \u003carnaudr@kali.org\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/go-team/packages/golang-github-containerd-cgroups"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-containerd-cgroups.git"
   ],
   "Version": [
-    "3.0.3-4"
+    "1.0.4-1"
   ]
 }

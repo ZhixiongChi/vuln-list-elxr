@@ -6,22 +6,22 @@
     "python3-smbc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, python3-setuptools, pkgconf, python3-pytest, python3-all-dev, libsmbclient-dev (\u003e= 3.2)"
+    "debhelper-compat (= 13), dh-sequence-python3, python3-setuptools, pkg-config, python3-all-dev, libsmbclient-dev (\u003e= 3.2)"
   ],
   "Checksums-Sha1": [
-    "bbeb41e25d742f6abc88ecac5ffa01f97c77e5b7 3708 pysmbc_1.0.25.1-1.debian.tar.xz f79a2527e102f7a9bafb70a3b0ab0cb4b8695157 2129 pysmbc_1.0.25.1-1.dsc b23b899645759735e651591a6001e0e15d427326 31653 pysmbc_1.0.25.1.orig.tar.gz"
+    "6b858eccbef3629bda6f91906d691760462776aa 5784 pysmbc_1.0.23-2.debian.tar.xz a3a7535d5627d73637658b4b0d01e38a5414bb83 2321 pysmbc_1.0.23-2.dsc f3b21a4dd19bb384f3a15a277dfc6fd8df59c051 26219 pysmbc_1.0.23.orig.tar.gz 243ad051f65a03548102ceb40bc4ec2e7d8cb1fd 833 pysmbc_1.0.23.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "32eb137ee7949dea8c20a8e847a405d589722f2bd4bd94ad603a0b941b204f51 3708 pysmbc_1.0.25.1-1.debian.tar.xz 11a1eefdd26ae48f2b91da7e87033b9bdef214ebb7c132fb8fd2f5a091e7c635 2129 pysmbc_1.0.25.1-1.dsc 278866201a9789c47f25076ff8cfb3176b52382e012da4e5ee4ea59e46307b64 31653 pysmbc_1.0.25.1.orig.tar.gz"
+    "a6c6b6e2b9f7bae340705d3a67693e9e0dacb2bd2111442dab224751781740dd 5784 pysmbc_1.0.23-2.debian.tar.xz 34a028bea3d72ff2df8c0277fbe90979bfc66b70d8372d5252181787bc75f03d 2321 pysmbc_1.0.23-2.dsc 08db176281103024b7e8563adef733e56250051d87394c4baec4fd298d0d16f8 26219 pysmbc_1.0.23.orig.tar.gz 8333f1efbed61c081fcc1d65ce614515a1a75e188497b1b4928e473a6f33a6ec 833 pysmbc_1.0.23.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "f6647e5b5cb33cdb071787cce0ce698c76fb4b75eff027384529e4567bf3aa88f4f31c913a01f4a69c8402d321cc98823193270e7a1cb8eea62594c3250fd10e 3708 pysmbc_1.0.25.1-1.debian.tar.xz 3419da87fd2056b6583e0bfc166e4018d9b68548a7741f07c457c3ad514671e137827c9f85b3987f18c763886edbca855c9fc631fc55ce959d76e4e29ca4841b 2129 pysmbc_1.0.25.1-1.dsc ffe6eb2afaf60f523df306b7a3a6de181b5cd17c8535fc6d087701f190174be6b3004ad830931f2ad6d8beee942691c3b74bb5454673a4a3c780ca348b308c70 31653 pysmbc_1.0.25.1.orig.tar.gz"
+    "e7e7c703f299a60b12598f733c8248c66ce732840f560944a0286c181fc591d22915dce9580de0e8ae40d78667240b6634b07afbfbeccc2b5bd7e70a955cb39d 5784 pysmbc_1.0.23-2.debian.tar.xz 668ad8e121799f3e572a7a82f7ffeaa2510fd11ff2b2f3a97f5333b63b259a97fab30127e8a41d199c3b82f9adf1f437b8632522d495579d1a47cba47e999127 2321 pysmbc_1.0.23-2.dsc cfc990440d219ec0b56e158f3fec47e90f7a618cc6f26ab4ae35679fc0803fb8e171e6b1856586f7a33593bb6f58640283118fc34089412a3af1b6a10fa1f5a6 26219 pysmbc_1.0.23.orig.tar.gz 836d9ef9bcce0573b20601365c6cacc69605af56d593908bea41df4646adde9f96bc0ccb1f38268f32b887a8a51ff7a91fd7390a4c5f774cdc9294956e81be40 833 pysmbc_1.0.23.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/p/pysmbc"
   ],
   "Files": [
-    "6653c982bfc912c9ea4406fa8ba586a0 3708 pysmbc_1.0.25.1-1.debian.tar.xz 94fb6e65875eb61bffc1d3b5316f578c 2129 pysmbc_1.0.25.1-1.dsc b428e0925f6aace620b5b7bcc1ff8d10 31653 pysmbc_1.0.25.1.orig.tar.gz"
+    "bb6976889adbffc42ed164af6a3da4d2 5784 pysmbc_1.0.23-2.debian.tar.xz f32a75d88ae73df1ef0b28c973af4e17 2321 pysmbc_1.0.23-2.dsc 75d4bd24161c16b8609a0171d3aff6f1 26219 pysmbc_1.0.23.orig.tar.gz a85b832bccf4b488753a965aee100640 833 pysmbc_1.0.23.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python3-smbc deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-python"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/pysmbc.git"
   ],
   "Version": [
-    "1.0.25.1-1"
+    "1.0.23-2"
   ]
 }

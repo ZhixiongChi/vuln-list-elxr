@@ -6,22 +6,22 @@
     "golang-gomega-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-golang-protobuf-1-5-dev, golang-github-google-go-cmp-dev, golang-golang-x-net-dev, golang-gopkg-yaml.v3-dev"
+    "debhelper-compat (= 12), dh-golang (\u003e= 1.17~), golang-any, golang-golang-x-net-dev, golang-golang-x-xerrors-dev, golang-gopkg-yaml.v2-dev, golang-goprotobuf-dev"
   ],
   "Checksums-Sha1": [
-    "fc41473e40b4e5f0ab5e9ce42626e219319bca19 3344 golang-gomega_1.36.2-1.debian.tar.xz f92da9458571591283eea9ce8293667e0644a7bb 2195 golang-gomega_1.36.2-1.dsc aa01225a4311029ca5511837546898e2b10f7085 329055 golang-gomega_1.36.2.orig.tar.gz"
+    "38aa17d0a00373f2875d789505c69823e6e8c183 3200 golang-gomega_1.10.3-1.debian.tar.xz 837d44e2d70849b9a1ea7d572f4a882a7f63104e 2208 golang-gomega_1.10.3-1.dsc f7e1bbfaf6af6c24c9a6bea25a3081390dd1b8e1 97869 golang-gomega_1.10.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "6fe9604af9eec1ef883e9098966abb069d2a4b6132c7437ac2b508a6bb166db6 3344 golang-gomega_1.36.2-1.debian.tar.xz f2e01fe60ba4df6529f58f900c6b0ea6803269fab1a5a68786ae031a692f49fe 2195 golang-gomega_1.36.2-1.dsc bbcc86c0c513af5185d9c6044207641a07cb59becc27eeb3ab8bbb3c400e0dfb 329055 golang-gomega_1.36.2.orig.tar.gz"
+    "dd1d9d17ea2e490f1fbd7d6b2afffc0698b37c6628291b84cc8ee00e96d373de 3200 golang-gomega_1.10.3-1.debian.tar.xz d8b03997f8c0e825eccd6ad1ab81435b21b549f67e5e8a5292510a1d54d3c7ba 2208 golang-gomega_1.10.3-1.dsc 7f7d2c47869950f02f794ee6064a7c0d3068c6a974c2fb63abfb534a6ded89d8 97869 golang-gomega_1.10.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "44e854c688d87d2a8cc3bfcd1e345fddf1ae52dedc526181fbcabb1fe7233f636b6c86efef52c1e9c03ff3ebb49ca3738d260fe9f1d433d2ef54fcc46afa0c94 3344 golang-gomega_1.36.2-1.debian.tar.xz 9017882231ff2687266f1b19536431b04fab661a4246d758150d0121833a5800c5c88eb3e95c5e162b84c4d8eca6f6c4b554d81343787661787030bfe6be8d3c 2195 golang-gomega_1.36.2-1.dsc e8a22a26170a1b22b7bf68ded3488e921292376857bc3cda1a84e895183427cf2c8ef0eb3b79fde55e0be31dc4c6ed27efb8c13f792da2f039f7f14ca2928624 329055 golang-gomega_1.36.2.orig.tar.gz"
+    "635504e553d6e8040c76391653a6f9ed4d843b41e979fb137042517db400e51f08c60a7d1daca94faeeb906ed93f133fdb9984513ec5b4723c06ddfffea543b8 3200 golang-gomega_1.10.3-1.debian.tar.xz 2e281afe48476035f7fced7e9169ba450f94d313525950893a03ea6d74da4959491eecfa9637911944333496678ba483de77181ccb3f941591d95bd2e474239b 2208 golang-gomega_1.10.3-1.dsc 7cdc3c9d590c89d10b001530f519886248a83a0717d383468aaa3d36bf822a9bd1308d0ec1c38e489e0959519386fee02e399ef7f45fb2d6981262394ca8d07c 97869 golang-gomega_1.10.3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-gomega"
   ],
   "Files": [
-    "06b39e77cbdbe9f3ee6299ea79b45e0f 3344 golang-gomega_1.36.2-1.debian.tar.xz 3cb9c7fa8b2b3b8bb63ef7a587156593 2195 golang-gomega_1.36.2-1.dsc ef44d10975e0125c981b4e14ffd22817 329055 golang-gomega_1.36.2.orig.tar.gz"
+    "501f7d2e2a222c91c745aad5b007fee4 3200 golang-gomega_1.10.3-1.debian.tar.xz 689e936faadd3a68d54f10552842b1bb 2208 golang-gomega_1.10.3-1.dsc cac93998fb8d0eea24fada5ae12a138e 97869 golang-gomega_1.10.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,16 +39,16 @@
     "golang-gomega"
   ],
   "Package-List": [
-    "golang-gomega-dev deb golang optional arch=all"
+    "golang-gomega-dev deb devel optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
   ],
   "Uploaders": [
-    "Martina Ferrari \u003ctina@debian.org\u003e,"
+    "Martín Ferrari \u003ctincho@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/go-team/packages/golang-gomega"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-gomega.git"
   ],
   "Version": [
-    "1.36.2-1"
+    "1.10.3-1"
   ]
 }

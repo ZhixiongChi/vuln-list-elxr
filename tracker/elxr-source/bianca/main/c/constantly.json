@@ -6,25 +6,22 @@
     "python3-constantly"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools, python3-versioneer, python3-twisted \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "d460a9a1d8bbccd58bda1d2382aab91943aa11b3 3300 constantly_23.10.4-2.debian.tar.xz c18d07ad9691ed5468bd407f5b384bd41d04dbd7 2247 constantly_23.10.4-2.dsc bb5f53968016679b87d6a97bcd6396c0ad7b0259 13300 constantly_23.10.4.orig.tar.gz"
+    "93a72657493ac556c4d422cafeabbb3641c19433 2900 constantly_15.1.0-4.debian.tar.xz 422f35595a8760e73e8c5a0f05102f757c491320 2003 constantly_15.1.0-4.dsc 02e60c17889d029e48a52a74259462e087a3dcdd 21465 constantly_15.1.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "278ede8c16919c946523c4464b8ddd236bf991a2d443af55f6f536b1698e1d2d 3300 constantly_23.10.4-2.debian.tar.xz ca52f0dd8d28c2be86f7e85d803a5959456bc2fdd4e30abf92361d0ada223300 2247 constantly_23.10.4-2.dsc aa92b70a33e2ac0bb33cd745eb61776594dc48764b06c35e0efd050b7f1c7cbd 13300 constantly_23.10.4.orig.tar.gz"
+    "8612c33aac96a768a6cde1c484afbf05bc700d99a8403017c13ee54b7d745f8a 2900 constantly_15.1.0-4.debian.tar.xz 4fe1910dd114b169731e50fde317d9f6a230edb406f0730616f6b9a690e3f5a0 2003 constantly_15.1.0-4.dsc 586372eb92059873e29eba4f9dec8381541b4d3834660707faf8ba59146dfc35 21465 constantly_15.1.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "279d886c4190c4cb743986fe4426819448ddab503aeb96e723f29bf217a051007ebf507db146c167f0bba708a2b6f655f9780d9689b81e8de1ac54ab8e6f9254 3300 constantly_23.10.4-2.debian.tar.xz aeed25a7f8d7b1ac7dd1372e8e7539625a0be6ef0d4b4c4d7fe296efc1ce7d8f13725fd6487fa9dbe00e01fb6d110fac8b23912b8c55c698812d63699437a96e 2247 constantly_23.10.4-2.dsc 14c99ec39cf5ec588d24818ca56909ed59c646093fbf1d061a8a6e6bec8e7258c64dafd346e0dbb8aeef35260fe1e03efa649150b60b1fd3e7865fa59e96ce49 13300 constantly_23.10.4.orig.tar.gz"
-  ],
-  "Dgit": [
-    "e374fe1e66a0f6af1c14aad69555d922d8afacf8 debian archive/debian/23.10.4-2 https://git.dgit.debian.org/constantly"
+    "4ad58daf4ec91d633fd69097abb66c508f6ccffd39ab262715790c5e80d4ba63191e4c442e95d826182c6e2987b51788c3ae513bcb18c86da1c4a44e481eb9c6 2900 constantly_15.1.0-4.debian.tar.xz 6fa62497ce21ff8c6a3b16ffbb873568acce2f94e9d3a9f9380e76fc336a12969b741a162acce9fae9fc43218870f7331e869b571d3ca05a42a5065131e33f2b 2003 constantly_15.1.0-4.dsc ccc6f41b0bd552d2bb5346cc9d64cd7b91a59dd30e0cf66b01e82f7e0e079c01c34bc6c66b69c5fee9d2eed35ae5455258d309e66278d708d5f576ddf2e00ac3 21465 constantly_15.1.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/c/constantly"
   ],
   "Files": [
-    "c269d1a7c3ab5e1873321ddb2549e419 3300 constantly_23.10.4-2.debian.tar.xz 74e2204f49b7617fd2ca49888d211379 2247 constantly_23.10.4-2.dsc c090579309b2b34be04385b54b0a5a85 13300 constantly_23.10.4.orig.tar.gz"
+    "cddefe7d5fae2d0d5e14a3d51da263e9 2900 constantly_15.1.0-4.debian.tar.xz df744458b48285caa6003d99a526e36e 2003 constantly_15.1.0-4.dsc f0762f083d83039758e53f8cf0086eef 21465 constantly_15.1.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,10 +39,7 @@
     "python3-constantly deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest-pkg-pybuild"
+    "3.9.8"
   ],
   "Uploaders": [
     "Free Ekanayaka \u003cfreee@debian.org\u003e"
@@ -57,6 +51,6 @@
     "https://salsa.debian.org/python-team/packages/constantly.git"
   ],
   "Version": [
-    "23.10.4-2"
+    "15.1.0-4"
   ]
 }

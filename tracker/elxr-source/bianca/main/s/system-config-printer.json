@@ -6,22 +6,22 @@
     "system-config-printer, system-config-printer-common, python3-cupshelpers, system-config-printer-udev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 13.11.6), debhelper-compat (= 13), dh-sequence-gnome, dh-sequence-python3, autoconf-archive, desktop-file-utils (\u003e= 0.13), libcups2-dev, libglib2.0-dev, libudev-dev (\u003e= 172) [linux-any], libusb-1.0-0-dev, python3-setuptools, xmlto"
+    "debhelper-compat (= 13), autoconf-archive, dh-sequence-gnome, dh-sequence-python3, desktop-file-utils (\u003e= 0.13), libcups2-dev, libglib2.0-dev, libudev-dev (\u003e= 172) [linux-any], libusb-1.0-0-dev, python3-distutils, xmlto"
   ],
   "Checksums-Sha1": [
-    "c3c6667a8e7f60db0864bca67d69a0fd9be6c688 13536 system-config-printer_1.5.18-4.debian.tar.xz 55fb6557ad4c8d05011d5b1ed4bddcb4c7f9efb0 2680 system-config-printer_1.5.18-4.dsc ac248b688ab103da7f034bd0d913e4e299206f4b 1396808 system-config-printer_1.5.18.orig.tar.xz"
+    "abfabdceb54a23cf4f3125a9d7d1cab6cfba3902 13180 system-config-printer_1.5.18-1.debian.tar.xz b1e7b274fcab17c9491caaece1de3f67ed4fcbf8 2654 system-config-printer_1.5.18-1.dsc ac248b688ab103da7f034bd0d913e4e299206f4b 1396808 system-config-printer_1.5.18.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "065b8160b0e278bc3546ce0982dcd9eee0e4332cc8113592587bfb3ec5f56b6e 13536 system-config-printer_1.5.18-4.debian.tar.xz 208239912924ea9ab4536bd8d0e4fd893205f96a028d3c46f4bb43798ffeff3f 2680 system-config-printer_1.5.18-4.dsc b1a69e1b4ec2add569a87aeca811a37c5361ee6ae327ec852b79e64223e34bee 1396808 system-config-printer_1.5.18.orig.tar.xz"
+    "c575fc4ac1c95a4229600fec076d62dcdf14acce3b9bc2107e23708ff2b260d6 13180 system-config-printer_1.5.18-1.debian.tar.xz bcd5dbe9f18490c0a1d9a5cc749a53d8d57a456c4dfb9bf231c0a36720fbe3ef 2654 system-config-printer_1.5.18-1.dsc b1a69e1b4ec2add569a87aeca811a37c5361ee6ae327ec852b79e64223e34bee 1396808 system-config-printer_1.5.18.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "4f83f48c2e6a551d22f8219d7e84d7c568327c0ae4f4093a038b3f7d7830b1e806ffa5d25443e37721f6a8076c2b224fffe0e470b353f03ffca0fad1afa8f647 13536 system-config-printer_1.5.18-4.debian.tar.xz 9f2a03e22b58617fb04bca1aa259df985679556991e143450211d9efcd5d35ea490f148054e60831c04c3ba3c2343c6312d1876405b0c0cfaf92e5e184b5009a 2680 system-config-printer_1.5.18-4.dsc 33dc9c52d92f4234e055fb10a99cadd58424dcdb62554797b44bdd5319f1c3662bd2fa33417ac3a3f5ec51216d64e81e1897f3e671eb49f6be34057d7c38f3f4 1396808 system-config-printer_1.5.18.orig.tar.xz"
+    "44f40a7a6c76519bf0ca415fab630e52f99f807dbc4964edaf5473108d8b8a8c1a3caa298b912a4839c5ae73fdd90cd4995682ef97f0947167673679557732eb 13180 system-config-printer_1.5.18-1.debian.tar.xz f4fc0345cb87915157245ba1d7ebebc972fe3caeb4c25981ab92b44501cc2f73980bf694d828b5d211869d9774f1dd0b4602ecc430d04d0ff3b76e2581c7eafa 2654 system-config-printer_1.5.18-1.dsc 33dc9c52d92f4234e055fb10a99cadd58424dcdb62554797b44bdd5319f1c3662bd2fa33417ac3a3f5ec51216d64e81e1897f3e671eb49f6be34057d7c38f3f4 1396808 system-config-printer_1.5.18.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/s/system-config-printer"
   ],
   "Files": [
-    "52bf13422275a3b6324430194f22820b 13536 system-config-printer_1.5.18-4.debian.tar.xz a09e67cd29461346fe562829f93486d2 2680 system-config-printer_1.5.18-4.dsc ee92ed28a0f89a88ff0478c62c59c599 1396808 system-config-printer_1.5.18.orig.tar.xz"
+    "e7017410d79d2ce8baec4507ae318ffd 13180 system-config-printer_1.5.18-1.debian.tar.xz c05d6a8cd732e751c7da8303209b39d9 2654 system-config-printer_1.5.18-1.dsc ee92ed28a0f89a88ff0478c62c59c599 1396808 system-config-printer_1.5.18.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "python3-cupshelpers deb python optional arch=all system-config-printer deb gnome optional arch=all system-config-printer-common deb gnome optional arch=all system-config-printer-udev deb gnome optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Uploaders": [
-    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Guido Günther \u003cagx@sigxcpu.org\u003e, Dmitry Shachnev \u003cmitya57@debian.org\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
+    "Guido Günther \u003cagx@sigxcpu.org\u003e, Dmitry Shachnev \u003cmitya57@debian.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/system-config-printer"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/system-config-printer.git"
   ],
   "Version": [
-    "1.5.18-4"
+    "1.5.18-1"
   ]
 }

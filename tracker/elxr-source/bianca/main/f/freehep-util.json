@@ -6,31 +6,31 @@
     "libfreehep-util-java"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), default-jdk, maven-debian-helper"
+    "debhelper (\u003e= 10), default-jdk, maven-debian-helper"
   ],
   "Build-Depends-Indep": [
     "junit, libnb-org-openide-util-java"
   ],
   "Checksums-Sha1": [
-    "4b944c98dc7cda5c49ee29f86322454a8c150adf 4004 freehep-util_2.0.2-8.debian.tar.xz 1ef050870b15e742e3cb8e8012bf299ac107113f 2075 freehep-util_2.0.2-8.dsc c47ac53215d01e2127b7d7a1a71f825f8fdba1dd 27868 freehep-util_2.0.2.orig.tar.gz"
+    "371d0d180af34626e350ac9cd09987d346c2d1a5 3892 freehep-util_2.0.2-7.debian.tar.xz dc3bd5c689da00becf336393d8b552a489c3eb16 1509 freehep-util_2.0.2-7.dsc c47ac53215d01e2127b7d7a1a71f825f8fdba1dd 27868 freehep-util_2.0.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "14ad0ac9a96943fa93ad1dbca980be4338215daf95ec0a56d5cb7072e853c228 4004 freehep-util_2.0.2-8.debian.tar.xz 9baa82424b27403e623d0fefd0db3162087ba4e75fc0a9c603f5442c34569cfb 2075 freehep-util_2.0.2-8.dsc 8cbe124951a68e7a47d71d05d8bf624d95804d02ba22593bab50f7e9798dba4b 27868 freehep-util_2.0.2.orig.tar.gz"
+    "69b5390b0db57011642cd3e666232f718c7b5ea11eff3826ab37617c7db822db 3892 freehep-util_2.0.2-7.debian.tar.xz f0111568b354b14649884494d17753d15468a8c1fb78e4b207bf2cbc4ca6e8bf 1509 freehep-util_2.0.2-7.dsc 8cbe124951a68e7a47d71d05d8bf624d95804d02ba22593bab50f7e9798dba4b 27868 freehep-util_2.0.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a7f3c4232ac75ca957a37166200151f5b17767321295e87969b4c3a818d262fea9e242215e6c1832437effd916f33696c083d5a2f0733ed2c0dcf2cce09ec3da 4004 freehep-util_2.0.2-8.debian.tar.xz 4dc9bbe9ac0f3b9a3e67d2cb2cacdd12c2bdd632cc6ed5154f09bbe3b990825878bd46155321a33db6634be6f687db964eb46cb7b7614994c8ea04b40ee40130 2075 freehep-util_2.0.2-8.dsc 2256a46ed60f8ec063410f843a148ac7414e772824a4fff530f2efb7e7db42c269e0eca48efc562c85870a2a59b2555433da464aa8800153a9a70aa06cba9456 27868 freehep-util_2.0.2.orig.tar.gz"
+    "830db3c21d4bc93b5f43a296ca7e8c6a0d7d485bad0d78b9913b0b3ba0e56c2a2e2202f92cc7746ac5dfa3dcbae4d93ff5b67a5d30dbb5a67f6e40587cd2c310 3892 freehep-util_2.0.2-7.debian.tar.xz c6ca48c3a1eaa350dee048f75d8c820bf3880a25b6e857dbf015fd7ef79845947db1c37bf3464b70149a9541128b137916905f291722fe4b4c368dfd3dca4624 1509 freehep-util_2.0.2-7.dsc 2256a46ed60f8ec063410f843a148ac7414e772824a4fff530f2efb7e7db42c269e0eca48efc562c85870a2a59b2555433da464aa8800153a9a70aa06cba9456 27868 freehep-util_2.0.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/f/freehep-util"
   ],
   "Files": [
-    "9688db2fd88852d1bb670b8ec1392a91 4004 freehep-util_2.0.2-8.debian.tar.xz 2eac53b56baa94e2b089f7faa5a00f30 2075 freehep-util_2.0.2-8.dsc d66558d12172e8f24c89bf7938385d23 27868 freehep-util_2.0.2.orig.tar.gz"
+    "98bc3413b6beed029e5dd99380f75e4f 3892 freehep-util_2.0.2-7.debian.tar.xz bb7abac7743c077abf26ed533aa36d8d 1509 freehep-util_2.0.2-7.dsc d66558d12172e8f24c89bf7938385d23 27868 freehep-util_2.0.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://java.freehep.org/"
+    "http://java.freehep.org/"
   ],
   "Maintainer": [
     "Debian Java Maintainers \u003cpkg-java-maintainers@lists.alioth.debian.org\u003e"
@@ -42,18 +42,18 @@
     "libfreehep-util-java deb java optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.1.1"
   ],
   "Uploaders": [
-    "Giovanni Mascellani \u003cgio@debian.org\u003e"
+    "Giovanni Mascellani \u003cgio@debian.org\u003e, Philipp Huebner \u003cdebalance@debian.org\u003e"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/java-team/freehep-util"
+    "https://anonscm.debian.org/git/pkg-java/freehep/freehep-util.git"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/java-team/freehep-util.git"
+    "https://anonscm.debian.org/git/pkg-java/freehep/freehep-util.git"
   ],
   "Version": [
-    "2.0.2-8"
+    "2.0.2-7"
   ]
 }

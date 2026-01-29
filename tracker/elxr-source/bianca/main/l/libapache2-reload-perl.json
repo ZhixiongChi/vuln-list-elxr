@@ -9,25 +9,22 @@
     "debhelper-compat (= 13)"
   ],
   "Build-Depends-Indep": [
-    "apache2-dev, libapache2-mod-perl2 \u003c!nocheck\u003e, libapache2-mod-perl2-dev, perl"
+    "perl, apache2-dev, libapache2-mod-perl2 \u003c!nocheck\u003e, libapache2-mod-perl2-dev"
   ],
   "Checksums-Sha1": [
-    "ed327bd1a6c569edfe4a96e312b0c0ccc4dc547c 4440 libapache2-reload-perl_0.14-1.debian.tar.xz 657997a9c5d8f5163bcb243514676c3fd059a1ef 2555 libapache2-reload-perl_0.14-1.dsc 7cbb4820d17b15a04ddd84415e05ac0d6c789ff1 19343 libapache2-reload-perl_0.14.orig.tar.gz"
+    "c81f0ffb10f98100f652d0bf2e13cb615d1d74ce 4616 libapache2-reload-perl_0.13-4.debian.tar.xz 803fe5b1424b5b9305e8510d0e66101a57165f48 2298 libapache2-reload-perl_0.13-4.dsc 8a486d4aa3b542bb919b1676326f68ef804e600f 18908 libapache2-reload-perl_0.13.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a1b73e9200a843daefc6e091ecb2ee9d86bcea956f123c6097a34d41b1079fb6 4440 libapache2-reload-perl_0.14-1.debian.tar.xz bc96fb12fdd8d5c941a3b08f2cc2a3ff407cab6b6bb8b5b36503088d6c7e04bc 2555 libapache2-reload-perl_0.14-1.dsc f4f56508e4a9fd8f9488aea6be8e7e7180774e820aa982b1afb7a2dd33c4ba61 19343 libapache2-reload-perl_0.14.orig.tar.gz"
+    "6db791597cd720198c4188ae5c44cc2964f7545eb2c113da7915096b3e936a7e 4616 libapache2-reload-perl_0.13-4.debian.tar.xz 07929aaf3d30cb2e45ed43d8566609fd1a55c8beca9b6d9dd9bcfaff844dee6a 2298 libapache2-reload-perl_0.13-4.dsc c8d0bfc1c18f0f0de39f4ad7f374f1a66a22daa3d1120f6deac2b8c550aa296a 18908 libapache2-reload-perl_0.13.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "d2abcc191d9f4a702c87e17b1e227353de656ca4ae067350947e9248cc6fb8fc9a80ec9663a0ac0053b61da6321aef604a88e56521a1d033a0b5b70c7ca0cd8f 4440 libapache2-reload-perl_0.14-1.debian.tar.xz f02b2b9ac7140748af26c39c371c58b697ee19c31dc4fd4b147517d09216345532fa436660e4715751934c6d8b207455d23a240be96077fa69e45b46aff39268 2555 libapache2-reload-perl_0.14-1.dsc 587d044b9c2c91425be2ae89c1674bcdae7ed36b5cde1e1b71dd1ef2b61dddcd9f887a649d904e47b4b06acee2489ddcda12c107043665778995188ab06addf2 19343 libapache2-reload-perl_0.14.orig.tar.gz"
-  ],
-  "Dgit": [
-    "1d777d5614c93d96be5a834231a9b1ce1bf6aa37 debian archive/debian/0.14-1 https://git.dgit.debian.org/libapache2-reload-perl"
+    "1b85e5c50ea2cf9b2c452636cb455b9e14b8030650ea92dc2cbbe564a17d11e2e1dcc88fa24ae091101fd12b089616033469db02477223ef4fafd768d44b76ad 4616 libapache2-reload-perl_0.13-4.debian.tar.xz a64d89ae9a929e1da4f2544e074dc1776630cf4c8318bf21adf75d55cf85e36a931eff271496eda9e81d9b7f9a490095354d86cb633c9c25d0b475c9efdbc362 2298 libapache2-reload-perl_0.13-4.dsc 7209fbd682093cca5f724050ee71d8bd26d101c3edfedb2cdaaf2e09df903e1f12cdf5cb6f4717eb8814802924359a01c89657dd5769f94c46d064db30c9f7e2 18908 libapache2-reload-perl_0.13.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/liba/libapache2-reload-perl"
   ],
   "Files": [
-    "e1c1fb9d7ea8e5d9f855a8929a137566 4440 libapache2-reload-perl_0.14-1.debian.tar.xz 45a1c01a594e99019a337d8162a384a7 2555 libapache2-reload-perl_0.14-1.dsc 3c9527ba565ba3f21d7a8a1ef1d3e7c5 19343 libapache2-reload-perl_0.14.orig.tar.gz"
+    "f455aa61c68be14583997aa7b8cb823e 4616 libapache2-reload-perl_0.13-4.debian.tar.xz cd11bb53c4969b3cf0af413cc64389b2 2298 libapache2-reload-perl_0.13-4.dsc c68a315bc17b2e7419d2820262bbd749 18908 libapache2-reload-perl_0.13.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +42,7 @@
     "libapache2-reload-perl deb perl optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-perl"
@@ -63,6 +60,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libapache2-reload-perl.git"
   ],
   "Version": [
-    "0.14-1"
+    "0.13-4"
   ]
 }

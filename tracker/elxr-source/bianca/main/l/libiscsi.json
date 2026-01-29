@@ -6,22 +6,22 @@
     "libiscsi7, libiscsi-dev, libiscsi-bin"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libcunit1-dev, librdmacm-dev [linux-any]"
+    "debhelper-compat (= 12), libcunit1-dev, librdmacm-dev"
   ],
   "Checksums-Sha1": [
-    "3467823532ea8aa9e40a31aee5325e25c19845de 8692 libiscsi_1.20.0-4.debian.tar.xz 28476e3252ff533f2f4e52534416a0af117a4f55 1992 libiscsi_1.20.0-4.dsc ad205d792373290b84b3e475821ce560822845d5 302381 libiscsi_1.20.0.orig.tar.gz"
+    "6dc162f332de6f0f7ea85719d5850322a2cf2073 12564 libiscsi_1.19.0-3.debian.tar.xz d78249da8dd16048594cbad8ccff25926f076db2 1658 libiscsi_1.19.0-3.dsc 0c1aca9a473a915e6d221de4593b404f7078b22f 284969 libiscsi_1.19.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "e50344e53ef9e9e76848a3e83d8455bf3456733ac8da69aff30ac509a3729a7b 8692 libiscsi_1.20.0-4.debian.tar.xz 33f1d37ef2cc6db84689126ba7747e0da753a7afacbd5bcaa7ba1c9feed523b5 1992 libiscsi_1.20.0-4.dsc 6321d802103f2a363d3afd9a5ae772de0b4052c84fe6a301ecb576b34e853caa 302381 libiscsi_1.20.0.orig.tar.gz"
+    "d918296c95a57151f79307f9da9a6e12e3a3f4d3c578357671a1cb405133f0aa 12564 libiscsi_1.19.0-3.debian.tar.xz 0574e48a986fd2dbf7e473015fb74d8f481c185859e47e794eddd025316a584d 1658 libiscsi_1.19.0-3.dsc c7848ac722c8361d5064654bc6e926c2be61ef11dd3875020a63931836d806df 284969 libiscsi_1.19.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "d0973f32b297d347fb82766cd7fc63214c3f036a3e765d06888313295f8205a8698569aa68e2bad33523efc2e76c0f1841bb235097e3394d7e01735d8bb28e21 8692 libiscsi_1.20.0-4.debian.tar.xz c0c4a0c2570242342f7bc80e2ba08d012f64957db0094c6cb4aa33aa3fcd83890b89130b7a1f171895b85d1e422b926843654ae3b6f4a7f484ca5076410fd025 1992 libiscsi_1.20.0-4.dsc f614f701671da1b1e7beda052886eb2d6a965482a5b7ae656cb6b5449a387d89302397fb8b6e3579307f98274d66b13d8b2a5d423826683185e5df0d9417d737 302381 libiscsi_1.20.0.orig.tar.gz"
+    "e5313614a4c80cbfb962c490653cb9c936e37d4a031fed6aba8ed793e01511fea397b9b823a9059f8c56077b2a59dd4772b45115541a15dc2cd8a72aab9cc685 12564 libiscsi_1.19.0-3.debian.tar.xz 9fd6e1e5367b10fbd9d65a9b1c49553af3bca45eb203257af98f026d497645d334dd683f93ecb7b40fc6860849abe3b44095c3775e4468b9b61c0618d968cad1 1658 libiscsi_1.19.0-3.dsc 2c0e70b7ecf66204524e57edf557a014b5141a8819e5d663b6e50cb2e756fd634ae1db0b1ca6915444d80a9babd54a82619bdd98726d16d4eeaf7b3c89cf3d53 284969 libiscsi_1.19.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libi/libiscsi"
   ],
   "Files": [
-    "5be221a7c65816aaf1994a96247f5086 8692 libiscsi_1.20.0-4.debian.tar.xz 065d19eb22febe96f255e63d87775b4e 1992 libiscsi_1.20.0-4.dsc ed7a9f04d2cb0a5b9856ac3df62df1fc 302381 libiscsi_1.20.0.orig.tar.gz"
+    "b2ba178e3fdf6010f71c177132af29f5 12564 libiscsi_1.19.0-3.debian.tar.xz 4c3c95020ac9b6d6159793b6acde1c72 1658 libiscsi_1.19.0-3.dsc fe0c0c7b677f3b6fbe535e758838ccf2 284969 libiscsi_1.19.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libiscsi-bin deb net optional arch=any libiscsi-dev deb libdevel optional arch=any libiscsi7 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.5.0"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qemu-team/libiscsi"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/qemu-team/libiscsi.git"
   ],
   "Version": [
-    "1.20.0-4"
+    "1.19.0-3"
   ]
 }

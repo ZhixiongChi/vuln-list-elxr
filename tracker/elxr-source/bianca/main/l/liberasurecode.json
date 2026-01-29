@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), libisal-dev [amd64 kfreebsd-amd64 arm64], libjerasure-dev (\u003e= 2.0.0+2017.04.10.git.de1739cc84), zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "3867c0d2ffc4dd2580b98b874795bf13af989172 7612 liberasurecode_1.6.3-1.debian.tar.xz f45b1e2fbfc922cd1aa0708d81d388b0e36e956a 2257 liberasurecode_1.6.3-1.dsc 15cef3ffa2a84cc1d59dce80ed11963f018d8354 210599 liberasurecode_1.6.3.orig.tar.gz"
+    "3a2fe4777d8339301ba5cc91337a727f79d340aa 7596 liberasurecode_1.6.2-1.debian.tar.xz 3b6ae489cb4fc7957223da29cd3495c3c629a61a 2291 liberasurecode_1.6.2-1.dsc a9920837a95c473d5fd533836690de1fea3fdceb 103084 liberasurecode_1.6.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "9b508cdb27dfb86ba30a1f62eb331d0cb6b05097b87f3e2af45f4be9cdc8fe58 7612 liberasurecode_1.6.3-1.debian.tar.xz d11e59c32a09467925542f9d6ed4513335c2e194a2740acb5d67b254cc0c8fdc 2257 liberasurecode_1.6.3-1.dsc 8c1afa0a4d5f4909ae864a5d00381b963b4a179364ba591611ceb634c3c9eb99 210599 liberasurecode_1.6.3.orig.tar.gz"
+    "a297588f39e7f803abc9931e7d7d8bc48ffb37b8a71cf488dfc0245191a5a5a2 7596 liberasurecode_1.6.2-1.debian.tar.xz 46dfbe92bc878f30b57eb32fc0a81c6a35abf4d0476002a85f453eacc16f19b7 2291 liberasurecode_1.6.2-1.dsc 413faefa1930a1c644abdfb16f711751676a23e454af4c1bdc5bcaa605625c26 103084 liberasurecode_1.6.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "352f4e7d5de1a33efe5bc446e6c958c40e662f4d420410b702f7a004db3c83542f68354c3b1fadf9a2736bf8f6a1a95db853670985a1ccccb040846b752e7069 7612 liberasurecode_1.6.3-1.debian.tar.xz 7d2ae48c80e092f920f03edd442613b1af8123d9fadb4f50a6dfff4dd55a8e95ac26b8278afe0fd5a979ada1f6a24c0fd69c3453d463f5130ebd33bc7da59c3a 2257 liberasurecode_1.6.3-1.dsc d5daa962324ef19fd195cfa842ec375d9dd5e62e3391b4a1cbf49a850b852b18cfc9be929ab18786d6b839139f6260d5cb4c88a0ba440c06b0e54e04ffb1bee1 210599 liberasurecode_1.6.3.orig.tar.gz"
+    "90d6844efece30da3008a2fd2e0dbceaa12f204e497c4e23f4f474f2f2f28498fbd9d2845fe46badc45cfe1d839d9eb6f846de32deedb03fa8f9f1fb65615a3d 7596 liberasurecode_1.6.2-1.debian.tar.xz 6d05ea957584910c1897773c959a763283df8f10e41455ad4e61218fc1c9612a79951faf6f506e96d6f9ca1db8f1504a4b5263fb83afbf9561eba9685cc04c1a 2291 liberasurecode_1.6.2-1.dsc 01241817ad633ed62b75088d6f1becb79927caf9e3a6c9897ec72732a593885a74b7cd5343fae53943a230faaab883fcb5f6150cdc5b891e5d9190aa8eadc6ba 103084 liberasurecode_1.6.2.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libe/liberasurecode"
   ],
   "Files": [
-    "a8e189c32cf67844e352f4dad8a2e1b2 7612 liberasurecode_1.6.3-1.debian.tar.xz 1f99870f5028ac6625f9cb61dc734e58 2257 liberasurecode_1.6.3-1.dsc 5056befa1bba928e64bf9c3ac7e6c486 210599 liberasurecode_1.6.3.orig.tar.gz"
+    "8938e55935f9751f0397e060f8a2604a 7596 liberasurecode_1.6.2-1.debian.tar.xz a4f962498ad2646f591f3c4f24daebdc 2291 liberasurecode_1.6.2-1.dsc 81f5ba1122ae961df7bed7b21e8fb624 103084 liberasurecode_1.6.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "liberasurecode-dev deb libdevel optional arch=any liberasurecode1 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "build-essential, libisal-dev, libjerasure-dev"
   ],
   "Uploaders": [
-    "Thomas Goirand \u003czigo@debian.org\u003e,"
+    "Thomas Goirand \u003czigo@debian.org\u003e, Ondřej Nový \u003conovy@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/openstack-team/libs/liberasurecode"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/openstack-team/libs/liberasurecode.git"
   ],
   "Version": [
-    "1.6.3-1"
+    "1.6.2-1"
   ]
 }

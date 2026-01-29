@@ -6,22 +6,22 @@
     "libsigc++-2.0-0v5, libsigc++-2.0-dev, libsigc++-2.0-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gnome, docbook-xml, docbook-xsl, doxygen, graphviz, libxml2-utils \u003c!nocheck\u003e, meson (\u003e= 0.50.0), mm-common (\u003e= 1.0.0), xsltproc"
+    "debhelper-compat (= 13), dh-sequence-gnome, docbook-xml, docbook-xsl, doxygen, graphviz, libxml2-utils \u003c!nocheck\u003e, meson (\u003e= 0.50.0), mm-common (\u003e= 1.0.0), python3-distutils, xsltproc"
   ],
   "Checksums-Sha1": [
-    "81dbe341520d77139a52025c5633a9ec38d7fa8a 10788 libsigc++-2.0_2.12.1-3.debian.tar.xz 910d093f4b2d4d8cb021ea989db54f40d80e2ed0 2284 libsigc++-2.0_2.12.1-3.dsc ffdde55748a5b24204469b110c1a37f9dfd8994f 163980 libsigc++-2.0_2.12.1.orig.tar.xz"
+    "a699c88f7c91157af4c5cdd0f4d0ddebeea9092e 10800 libsigc++-2.0_2.12.0-1.debian.tar.xz 81840b1d39dc48350de207566c86b9f1ea1e22d2 2336 libsigc++-2.0_2.12.0-1.dsc f66e696482c4ff87968823ed17b294c159712824 163724 libsigc++-2.0_2.12.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "04e7e573668ee561bb2dae0b4c1900f9fbcf21eec97c4054ad4c856ba962365d 10788 libsigc++-2.0_2.12.1-3.debian.tar.xz d9499183391d059a3da2233aca10551e5819d1527e833a7febe4b31e55710cdf 2284 libsigc++-2.0_2.12.1-3.dsc e3a303ff4afc74b21ccdf27f1d1557af8450b00234036991e0c6d75597b186df 163980 libsigc++-2.0_2.12.1.orig.tar.xz"
+    "22f61422c0b082fa157eeb0d81cb30a0f2b736244929a96e005bb08d53976ec5 10800 libsigc++-2.0_2.12.0-1.debian.tar.xz 25a4a2d9048797233633955927fd539dee89d8577528fc20dec340250cb3af1d 2336 libsigc++-2.0_2.12.0-1.dsc 4e0b1ac3abe7cdbb7b0b096a5cec0d519ebb1a75b678e7e7c215661d12363a3b 163724 libsigc++-2.0_2.12.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "8adc0cc4e5147c28ded61e2c6bafe155f22a2170a84cf4009603d6987454b101fd035345d5b5895c9bc98138f666a41b54784d5584bc9e49fcb744529c7a969c 10788 libsigc++-2.0_2.12.1-3.debian.tar.xz c8db71336a659da07b2ad8482720907f8880efdcb7d1c49c008184c37ad402230357c50a86df033043b227f9542cff092b1c12339d82b37b4f68861040b54355 2284 libsigc++-2.0_2.12.1-3.dsc d8df9f7c18ac6a4a6c3593fde16e8a526cee324ed5fc02ed0e5f8fe13019faab670a726f82cd407fa7c694c83e62e126d7020cd6216d4c844d7621d6a42aca10 163980 libsigc++-2.0_2.12.1.orig.tar.xz"
+    "bc9d4a5a3051c109a4d0bb159f30344a96241bba7179c698fc75c7d708fd3191db9aad8814bef1ed4f6bfd68f85398a83746682262be72fab4a3f868885eeaa7 10800 libsigc++-2.0_2.12.0-1.debian.tar.xz cedc1f6c894f7e48aa90170203e93baa1b33298c719ff5dde8dc54f2cc745acbc9bb3bf4c0ded2517077799608559c964b2c5a9606bd2439db54000003ac6521 2336 libsigc++-2.0_2.12.0-1.dsc a25c9a620016862736889fc888ff22c0ad887d173b2fbddb76c945f1424c0df9e5f022bdb6220c7edd8011c38d2f789a85643164ce38195792fc8675f15bd5d6 163724 libsigc++-2.0_2.12.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libs/libsigc++-2.0"
   ],
   "Files": [
-    "ebc41637d4a1c70156260ee8d43ead16 10788 libsigc++-2.0_2.12.1-3.debian.tar.xz b5cbdce01101990841e2d3ae9fc935f2 2284 libsigc++-2.0_2.12.1-3.dsc 2d6b182ffb28a842e6b391ecae0f010c 163980 libsigc++-2.0_2.12.1.orig.tar.xz"
+    "d60ca8c15750319f52d3b7eaeb6d99e1 10800 libsigc++-2.0_2.12.0-1.debian.tar.xz 23feb2cc5036384f94a3882c760a7eb4 2336 libsigc++-2.0_2.12.0-1.dsc 8685af8355138b1c48a6cd032e395303 163724 libsigc++-2.0_2.12.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "libsigc++-2.0-0v5 deb libs optional arch=any libsigc++-2.0-dev deb libdevel optional arch=any libsigc++-2.0-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Uploaders": [
-    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
+    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/libsigcplusplus"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/libsigcplusplus.git"
   ],
   "Version": [
-    "2.12.1-3"
+    "2.12.0-1"
   ]
 }

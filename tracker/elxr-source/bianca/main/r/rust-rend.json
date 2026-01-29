@@ -6,28 +6,25 @@
     "librust-rend-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bytecheck-0.6+std-dev (\u003e= 0.6.7-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "e9472a18b2c5c2bae1ebf4c69a3934ace0ddc414 3008 rust-rend_0.5.2-1.debian.tar.xz c6a691f8eb47da30785b494468fff3c8fbb5bac3 1527 rust-rend_0.5.2-1.dsc e6cc66757a98187ebe04087b314f6afbf9700d66 14775 rust-rend_0.5.2.orig.tar.gz"
+    "b41382c143de09c7ab98555f31710322bc348124 2704 rust-rend_0.4.0-1.debian.tar.xz 1c38f0557e7f7e17ceb77db5c5049225e27e4b96 2156 rust-rend_0.4.0-1.dsc 85db16c8b73286e717b91ace4d7b549540dbe3ab 8816 rust-rend_0.4.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "51add90f7fefc7bab098dd0a23a3b7d928e46e88ec2fa2eb27e23ae7939735b9 3008 rust-rend_0.5.2-1.debian.tar.xz 26dd3305d2aaf52a5e63f74caab67ce5f8326cc2d6d90923dfff36079d682bb3 1527 rust-rend_0.5.2-1.dsc a35e8a6bf28cd121053a66aa2e6a2e3eaffad4a60012179f0e864aa5ffeff215 14775 rust-rend_0.5.2.orig.tar.gz"
+    "cd9beb8210a71f73a3b95a9d895ca7c85d1f59b084426859e51f36491ae3d265 2704 rust-rend_0.4.0-1.debian.tar.xz e1e08c02e146771e39c365c8c19f92ff3121dcdd84eefb246d37022dddccea67 2156 rust-rend_0.4.0-1.dsc 581008d2099240d37fb08d77ad713bcaec2c4d89d50b5b21a8bb1996bbab68ab 8816 rust-rend_0.4.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "87dbea2d516c49ffeec9319b7231c70c17311c06392014851af73dab264f77702335b4efa84910f633a6d8ea453bbc92dbed65745d5de5fc7612b1d7c0086d3d 3008 rust-rend_0.5.2-1.debian.tar.xz bd4368ac425640da106f47bbc3c49f6049f8064a4c8e69194d77fb968aab79d29878f56173c89f22c4d4d3544377bc2d346ae16dbe07ecd6ee249bd2d4e5877b 1527 rust-rend_0.5.2-1.dsc 05a67453585c061eceff700a93e14f46906ac64be3bdfeff1c5a2b37f999b4c7e50b14a3adb8e58a5d5151cb4eb50fdc68d1e57eae9e54ec7c5f0a529eb19e56 14775 rust-rend_0.5.2.orig.tar.gz"
+    "ccd6aaf8cbad76ed839cd99dc41e737bb26ccf7743e6e33c02c510211797462edd0a531aec5f43ffb68221a864a1774f87d2532a5cc3aa9d2e5ba08fc7e2fc40 2704 rust-rend_0.4.0-1.debian.tar.xz c271548f0c578434e525ee21ff94b750501bcfabbf59f5e977d521df27c890500a09b40c2dc1f8d413dd90662d70fa9371cb7d696176a5f982a830baf756aef3 2156 rust-rend_0.4.0-1.dsc 81760a50e9957bad30e0c0a02c6be8a26700c87f712e8f8e841be9fa7390cc047e67699f1815021b943a50e570729b0ab16c86f13e5e35cf471432f2760841ee 8816 rust-rend_0.4.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-rend"
   ],
   "Files": [
-    "73f98335ddd425ff2817093db669e9d0 3008 rust-rend_0.5.2-1.debian.tar.xz 05b2931a549a514aab52f81e5747d6d6 1527 rust-rend_0.5.2-1.dsc 93973a79a1644543e142d1f714d5e52c 14775 rust-rend_0.5.2.orig.tar.gz"
+    "27a376b276b5ca9a54ec094262cab8c1 2704 rust-rend_0.4.0-1.debian.tar.xz 6ff0f869c800bb66a980b56154a68f86 2156 rust-rend_0.4.0-1.dsc 409c525819241ff1548c03592b333729 8816 rust-rend_0.4.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/djkoloski/rend"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -39,13 +36,13 @@
     "librust-rend-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, rustc"
+    "dh-cargo"
   ],
   "Uploaders": [
     "Reinhard Tartler \u003csiretart@tauware.de\u003e"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/rend]"
   ],
   "Version": [
-    "0.5.2-1"
+    "0.4.0-1"
   ]
 }

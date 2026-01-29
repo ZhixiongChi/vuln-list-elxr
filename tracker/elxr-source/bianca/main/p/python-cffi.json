@@ -6,25 +6,22 @@
     "python3-cffi, python3-cffi-backend, python-cffi-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, dh-sequence-python3, libffi-dev, libpython3-all-dev, pybuild-plugin-pyproject, python3-all-dev:any, python3-py \u003c!nocheck\u003e, python3-pycparser \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, virtualenv \u003c!nocheck\u003e"
-  ],
-  "Build-Depends-Indep": [
-    "dh-sequence-sphinxdoc \u003c!nodoc\u003e, python3-sphinx \u003c!nodoc\u003e"
+    "debhelper-compat (= 13), dh-python, dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, libffi-dev, python3-all-dev, python3-py \u003c!nocheck\u003e, python3-pycparser \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, virtualenv \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "83cfb26040c26d3541f7953bbdffe7365de13c9a 9036 python-cffi_1.17.1-3.debian.tar.xz ae6927cdcfa08101030b656402b366e6d56760fa 1995 python-cffi_1.17.1-3.dsc 6d35167bdc98f71dd0d0434b729efea62d548e22 516621 python-cffi_1.17.1.orig.tar.gz"
+    "c4fc8d85043a82a4fb4da116520e8809379c351f 9776 python-cffi_1.15.1-5.debian.tar.xz 487211f9be8b6cbc345ed2af3e9c0e66804a52a0 1908 python-cffi_1.15.1-5.dsc c42a46cd11f6153f299cf10e9c236e8b2a143c21 508501 python-cffi_1.15.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "2edcc85676584164c01f9f8f1ec16ee29f033e71b9ebb3564650f3b2e75996ae 9036 python-cffi_1.17.1-3.debian.tar.xz 465ac6632e51996214d8177d1570ece272d1cf5570f0c4759f8365d1e9cd8805 1995 python-cffi_1.17.1-3.dsc 1c39c6016c32bc48dd54561950ebd6836e1670f2ae46128f67cf49e789c52824 516621 python-cffi_1.17.1.orig.tar.gz"
+    "4c15e1d6d7956821e8533f07768478393c1604da99565fd323d226d67a6c8571 9776 python-cffi_1.15.1-5.debian.tar.xz d97407ade523f88b64905b5fa90e535dd5c6929feaaf5694d9f49b84a4d54c67 1908 python-cffi_1.15.1-5.dsc d400bfb9a37b1351253cb402671cea7e89bdecc294e8016a707f6d1d8ac934f9 508501 python-cffi_1.15.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "2ebd204cee79a3ba520f578809065fc861b533a48c2c9b9a25853c56ce7b82e5909b70996aefdf8691b99e09b469c098dd78231a12faffe99de3122dba23a95f 9036 python-cffi_1.17.1-3.debian.tar.xz 69c8b6b5a5a4ff5ef2cf5a71042836a5808349579a087ff9dd22582939b4b9c1cabc59b66a653889b3fc88f1bf54e94c8e676ecbfb3dacafcdbdfca725e0d760 1995 python-cffi_1.17.1-3.dsc 907129891d56351ca5cb885aae62334ad432321826d6eddfaa32195b4c7b7689a80333e6d14d0aab479a646aba148b9852c0815b80344dfffa4f183a5e74372c 516621 python-cffi_1.17.1.orig.tar.gz"
+    "bd8b1109ece50948e4c47f95384e57cf57c0aabf54ca9d602ded9e746d96208cb7760ba7ab631b89eb99070d2d24a00a00ca758ba1b1af30681b0afc1759f672 9776 python-cffi_1.15.1-5.debian.tar.xz 1d098324a8a722e1e0b3d0c61093d6d09172537a820f32e25a148f36e5abf84f24532ce421252c6a9d94dc8d9aece1101e661ea56de20260a8dc37dbe0808891 1908 python-cffi_1.15.1-5.dsc e99cafcb029076abc29e435b490fa0573ee2856f4051b7ca8a5b38cd125d56dd9dae8b189f59ceb3d728a675da8ee83239e09e19f8b0feeddea4b186ab5173a5 508501 python-cffi_1.15.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-cffi"
   ],
   "Files": [
-    "fc7b981c04abd58b9ba9ab43b5be9ac0 9036 python-cffi_1.17.1-3.debian.tar.xz 7ed674029725b5a2704320e07394b1bd 1995 python-cffi_1.17.1-3.dsc 4336ca58b2df0cc3b163884d5fa2e5e2 516621 python-cffi_1.17.1.orig.tar.gz"
+    "a477c4ac28f0321295461d648e4cadfb 9776 python-cffi_1.15.1-5.debian.tar.xz 9ab5dfae74521fa2b823545a54858e28 1908 python-cffi_1.15.1-5.dsc f493860a6e98cd0c4178149568a6b4f6 508501 python-cffi_1.15.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +39,13 @@
     "python-cffi-doc deb doc optional arch=all python3-cffi deb python optional arch=all python3-cffi-backend deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential, python3-all-dbg, python3-all-dev, python3-pip-whl, python3-py, python3-pytest, python3-setuptools, virtualenv"
+    "build-essential, python3-all-dbg, python3-all-dev, python3-py, python3-pytest, python3-setuptools, virtualenv"
   ],
   "Uploaders": [
     "Stefano Rivera \u003cstefanor@debian.org\u003e"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-cffi.git"
   ],
   "Version": [
-    "1.17.1-3"
+    "1.15.1-5"
   ]
 }

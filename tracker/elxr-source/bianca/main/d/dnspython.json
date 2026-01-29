@@ -6,22 +6,22 @@
     "python3-dnspython"
   ],
   "Build-Depends": [
-    "ca-certificates, debhelper-compat (= 13), dh-sequence-python3, netbase, pybuild-plugin-pyproject, python3-aioquic, python3-all, python3-cryptography (\u003e= 43), python3-h2, python3-hatchling (\u003e= 1.21.0), python3-httpcore, python3-httpx, python3-pytest"
+    "ca-certificates, debhelper-compat (= 13), dh-python, netbase, pybuild-plugin-pyproject, python3-all, python3-cryptography, python3-h2, python3-httpx, python3-poetry-core, python3-pytest, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "2d1c981026c36e15eaeb5f46e292389553d6a9a8 6780 dnspython_2.7.0-1.debian.tar.xz 56027d0d3bc057599a04dfc673717c0368c3526a 2512 dnspython_2.7.0-1.dsc f8d925755974425676b66cf11bdb3b529a1a5121 345197 dnspython_2.7.0.orig.tar.gz"
+    "638c6bdf2d01c81eb59788209c612dc9431b1883 6524 dnspython_2.3.0-1.debian.tar.xz e0114a93fee66944bb6df759cdddd75c2a213ce9 2426 dnspython_2.3.0-1.dsc e792904c215f5f50a299af082e6e3c390466e592 312313 dnspython_2.3.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "1878816fc5e9a6813b07e0e578923f16a8a9006d6602f9341139218a2e0f84db 6780 dnspython_2.7.0-1.debian.tar.xz 13b919aa8909b806fcad729e54f5336e8cddf872ff049309b6d6c0aa6ba59b9a 2512 dnspython_2.7.0-1.dsc ce9c432eda0dc91cf618a5cedf1a4e142651196bbcd2c80e89ed5a907e5cfaf1 345197 dnspython_2.7.0.orig.tar.gz"
+    "11661347968a5792263c7ae007c4cf1e22e506e70abdf0e994797cd0de4aa538 6524 dnspython_2.3.0-1.debian.tar.xz c8df2162f1845756161f8a209f69561e45a997e6029f99f58965506b861261be 2426 dnspython_2.3.0-1.dsc 224e32b03eb46be70e12ef6d64e0be123a64e621ab4c0822ff6d450d52a540b9 312313 dnspython_2.3.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "ff677a29bda63a76b5dacf0a7362818f2a3ac98dbf1cf8939207083172b31555affba1932174a4aa704bdf21a9adcf088a983502065c820df2634e46ba2d73b0 6780 dnspython_2.7.0-1.debian.tar.xz faf71ed7d5e2ffce016a22fe5c753f4e1431b2e64a4aaf27166a298161be74a6b678aebf88cbaf6eab6b0a9519a81a77031c71994c93fb9c7e1b6b7d194814e1 2512 dnspython_2.7.0-1.dsc abbd86234fb352be8c01085ed49735f6dea4dc45492f51048d486c52cf20218052e07b487e8ea63fd450306a7ede2f352c874a9896e70de5165dd44d42336274 345197 dnspython_2.7.0.orig.tar.gz"
+    "bf8e3c84fe1a40c30aec20eca8a4ace87cac99ab02aa21ace93b6082ba813f7a86a21c20063240ee7d65568d9fd8b4940f37eea161a9ecb98946ee345f5c152e 6524 dnspython_2.3.0-1.debian.tar.xz 0cd8222322de1802a5c9f1522942e62236af514c73666fc948891824af725e992b3be3ab94332d8bb3604346c037e033039d5576d1e49ad156d3954fe5536b3e 2426 dnspython_2.3.0-1.dsc 533a8cdd11387fa0eba2a12c6bda1beb6d617cd4ef4c4efd7e649da330a31e45567ea4df7eea59a639a6a940706fe2307fe2613dd7b9f60efda0467a8c751154 312313 dnspython_2.3.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/d/dnspython"
   ],
   "Files": [
-    "2beb373ff8c5c16a2d972bf0564fd5b5 6780 dnspython_2.7.0-1.debian.tar.xz ec9b7b14c19f75f8db3bf54f6b0235aa 2512 dnspython_2.7.0-1.dsc 7a8f6f15038a116598744517931420d0 345197 dnspython_2.7.0.orig.tar.gz"
+    "3b4b2997872d33a77c6f45a68f4c3625 6524 dnspython_2.3.0-1.debian.tar.xz 5bef684b82a7cb1d8e2a71b7a21b5ca6 2426 dnspython_2.3.0-1.dsc 203a77c823563229ba96c3e7ea7cfb02 312313 dnspython_2.3.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "python3-dnspython deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "ca-certificates, python3-aioquic, python3-all, python3-cryptography, python3-h2, python3-httpcore, python3-httpx, python3-idna, python3-pytest, python3-requests, python3-requests-toolbelt, python3-trio"
+    "ca-certificates, python3-all, python3-cryptography, python3-h2, python3-httpx, python3-idna, python3-pytest, python3-requests, python3-requests-toolbelt, python3-sniffio, python3-trio"
   ],
   "Uploaders": [
     "Robert S. Edmonds \u003cedmonds@debian.org\u003e, Scott Kitterman \u003cscott@kitterman.com\u003e, Matthew Grant \u003cmatthewgrant5@gmail.com\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/dnspython.git"
   ],
   "Version": [
-    "2.7.0-1"
+    "2.3.0-1"
   ]
 }

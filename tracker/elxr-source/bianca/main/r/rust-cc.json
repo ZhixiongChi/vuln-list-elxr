@@ -3,34 +3,31 @@
     "any"
   ],
   "Binary": [
-    "librust-cc-dev"
+    "librust-cc-dev, librust-cc+jobserver-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo"
-  ],
-  "Build-Depends-Arch": [
-    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.63) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-shlex-1+default-dev (\u003e= 1.3.0-~~) \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "a2f1c9595d3a645d2a77ae5e4ca5c9e080ff6ee0 3724 rust-cc_1.2.19-1.debian.tar.xz 5359dfa41dd0c86d9c9eb23b89edc6ca9b5dfc6a 2310 rust-cc_1.2.19-1.dsc e9d3351f973dd4f4d2067887f74b4a30edde864a 105910 rust-cc_1.2.19.orig.tar.gz"
+    "5bbe138eed1ac6b525ae8bbd2a6e900360b630fd 3708 rust-cc_1.0.73-1.debian.tar.xz c269739456432ba28a5290c1bfc5e189adcd53db 2393 rust-cc_1.0.73-1.dsc 20e71ed7354a47f34a92a28d19dcc560c30f2ff9 57880 rust-cc_1.0.73.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "00b40b4306af3bfe384b709a048349a334bb4f3c047577c2eb21a7569a04f415 3724 rust-cc_1.2.19-1.debian.tar.xz f223feb39c5d81ef3a5fd40469a9059245e21885bbdb633b9643cf170641e6b4 2310 rust-cc_1.2.19-1.dsc 8e3a13707ac958681c13b39b458c073d0d9bc8a22cb1b2f4c8e55eb72c13f362 105910 rust-cc_1.2.19.orig.tar.gz"
+    "2105d8c51fa06fea0401f06afec6c483b2787ea669a7386678534e65560d4bc2 3708 rust-cc_1.0.73-1.debian.tar.xz e471815b0e1c2d4492074632b90cb1fa1c0d9be408779109bbaaa0f818d27677 2393 rust-cc_1.0.73-1.dsc 2fff2a6927b3bb87f9595d67196a70493f627687a71d87a0d692242c33f58c11 57880 rust-cc_1.0.73.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8ce6c8dce011d9c4081d09f7fe8238a98d57dbdafe0abd40e62da04ece98c6f40392f9b491df6084cfced69b336c7d6962c06f0b4a24e4605d2bf2c828170d1c 3724 rust-cc_1.2.19-1.debian.tar.xz 0f323e1e67a080b67a04fd93f8bb1dd8e49495af96742c120e8bce8b1820c39c33ed906b81dc1318123052543150249b116871eadd20f02c078d5c500b979c04 2310 rust-cc_1.2.19-1.dsc d56ebd19090e63bcdf65a738fbe34c03cdd294803ed46d66a6428ff60f2ac14a4eaf3e34870ca0ddb38e489878cb632b5912012e5ffb4e84fd813bb7585f2e2a 105910 rust-cc_1.2.19.orig.tar.gz"
+    "4bdc04ef4c64824fe7559019b84915e62e1092e6da6a9fdaa06e0ac39ffc6657293a40cabca6f471fe59cc8ad222591ffeb44791b79ad276979a0dcb92f72d57 3708 rust-cc_1.0.73-1.debian.tar.xz c43c76349c88c721abcbc8d01cde7dcfe278a830e8e66277360033d665a35865fef97280fa3cf67902b5ea95b14a2153b5ccd84105d72af3b04905b9509d1b3b 2393 rust-cc_1.0.73-1.dsc 980f012b90c6410144f6de4995048337e09214f19603076db6d4edb88e9ef9ac9e8c6e25569f66c2be3a47e99298f5886dafc102e1a9122316179aa26bc1c985 57880 rust-cc_1.0.73.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-cc"
   ],
   "Files": [
-    "334fa08ed29d1a6ba8b248676bc3ee63 3724 rust-cc_1.2.19-1.debian.tar.xz 3c8b5671f4f3b76ceaa031d7b3743f1d 2310 rust-cc_1.2.19-1.dsc 4cb538891f3cd9f945ae3679f11374f6 105910 rust-cc_1.2.19.orig.tar.gz"
+    "ec0cca496283c86cec641b5116575623 3708 rust-cc_1.0.73-1.debian.tar.xz 8bf63a216a2c2ec4ce35996823108ad1 2393 rust-cc_1.0.73-1.dsc 8e3a4d0980acef2c4e74485a45de29a9 57880 rust-cc_1.0.73.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://github.com/rust-lang/cc-rs"
+    "https://github.com/alexcrichton/cc-rs"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -39,16 +36,16 @@
     "rust-cc"
   ],
   "Package-List": [
-    "librust-cc-dev deb rust optional arch=any"
+    "librust-cc+jobserver-dev deb rust optional arch=any librust-cc-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, g++, librust-tempfile-3+default-dev, rustc"
+    "dh-cargo, g++, librust-tempfile-3+default-dev"
   ],
   "Uploaders": [
     "Ximin Luo \u003cinfinity0@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/cc]"
   ],
   "Version": [
-    "1.2.19-1"
+    "1.0.73-1"
   ]
 }

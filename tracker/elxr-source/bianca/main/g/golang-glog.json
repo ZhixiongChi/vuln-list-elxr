@@ -6,25 +6,22 @@
     "golang-glog-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-google-go-cmp-dev"
+    "debhelper-compat (= 13), dh-golang, golang-any"
   ],
   "Checksums-Sha1": [
-    "1cb764b81ba168719e3c576e10cbce66af7e00c3 2864 golang-glog_1.2.4-1.debian.tar.xz 8f9d04ef308c4a81d0d3b900551d30f0149b9846 1642 golang-glog_1.2.4-1.dsc 04ba46a8d92b05bd1250859a4c8b8f6203a86410 33048 golang-glog_1.2.4.orig.tar.xz"
+    "d8d29f59b1eca6fd66807187ca8dfb12434c1c4c 3048 golang-glog_0.0~git20160126.23def4e-5.debian.tar.xz 0d9a3231b1e3866c5f20a0b562a9a9f8b17d1aa4 2249 golang-glog_0.0~git20160126.23def4e-5.dsc 4559f8e060026757296eb48759de8d7e9f9cc138 18072 golang-glog_0.0~git20160126.23def4e.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "c181262124b23a5c305bec3096636bd85a1787af0359d34ccc336626aa41ac76 2864 golang-glog_1.2.4-1.debian.tar.xz e5b5b8a29f311340501debb6e1bab7450e6deb99336b5b70a27bc81c9ae347e5 1642 golang-glog_1.2.4-1.dsc 4ff21feb040f48678b2f9d25786af78c492f457e1931de5c2f6ec5f056b89afb 33048 golang-glog_1.2.4.orig.tar.xz"
+    "d98192df946eb72d25d20a183b666c7a7809f4f02ee817eadec90bcd3a2ada1c 3048 golang-glog_0.0~git20160126.23def4e-5.debian.tar.xz 398ff41a1e96f966034fd86e1033b4475944e6a5edcdb0c3c23473c0c594b305 2249 golang-glog_0.0~git20160126.23def4e-5.dsc a123f86df0d3c8c0547550096863551cf043321c67a5a6952d6c2f422fbfd282 18072 golang-glog_0.0~git20160126.23def4e.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "6f54f64209a499ac9e071ca0f0e62936b04680b5d08b0f8bd391c44d751152220c017df1deed72b9d685ebd241830bb22950f18aac2eb74f3c4d1610c3f9df73 2864 golang-glog_1.2.4-1.debian.tar.xz a9b190deeea34d854036e654754f28d874a8e9c41a718ae5e7f57ec00188e04fd8d71f51db4d0c4adadb924bb1ae2f5309ff980189a5a8b4fe40dc1d48dca6a6 1642 golang-glog_1.2.4-1.dsc 1ffcfc8f5f84b20478a9f24bc534769651a0b4321d88e76b2b3b4feee41b01e013b5f0b77cfd0cfa47f36b26e9d3165f1e4caf048c5e3ddcc2f72603a75b580b 33048 golang-glog_1.2.4.orig.tar.xz"
-  ],
-  "Dgit": [
-    "266178a7ef4e73b6e5faa5041eeeaece32977ac4 debian archive/debian/1.2.4-1 https://git.dgit.debian.org/golang-glog"
+    "b6a416e856f2b55d1d8193e1eadaaf9fc82c69abfa665e86bc889ab8f8df915f9c234cd29dce39fedc5a0167ec73e23ceb38a6f8f001eb38c2885dbc8ae31645 3048 golang-glog_0.0~git20160126.23def4e-5.debian.tar.xz c5912e730dad5962c22a275f7ff9ba6041953203491c5933b53cdd6629707311a748ace74f512051b61093902a890f0dded419aa052d4b3c06c5fcb23b5e00e5 2249 golang-glog_0.0~git20160126.23def4e-5.dsc 5320742281a0249591a28afc89bfdc4bd7ef9fd6713af784918cb130d9c4ddea2bde7dd58664314c34b6a1876591b351e7c3a7279b27572b398cae104cabb489 18072 golang-glog_0.0~git20160126.23def4e.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/golang-glog"
   ],
   "Files": [
-    "0010459df8fa9f828079e6dcf2ea3120 2864 golang-glog_1.2.4-1.debian.tar.xz 60a2d2cbecc889ef0878a7d78f74cc58 1642 golang-glog_1.2.4-1.dsc 16e9b2cfbe95325c65532cc1f74fc1f5 33048 golang-glog_1.2.4.orig.tar.xz"
+    "9f0c62242e81c69374746106c2ca24e5 3048 golang-glog_0.0~git20160126.23def4e-5.debian.tar.xz dda7f36fb93c2aee66531001c06f156c 2249 golang-glog_0.0~git20160126.23def4e-5.dsc deb29d8c49756785b502ea309a054dd3 18072 golang-glog_0.0~git20160126.23def4e.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,13 +42,13 @@
     "golang-glog-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
   ],
   "Uploaders": [
-    "Martina Ferrari \u003ctina@debian.org\u003e, Tim Potter \u003ctpot@hpe.com\u003e, Anthony Fok \u003cfoka@debian.org\u003e,"
+    "Martín Ferrari \u003ctincho@debian.org\u003e, Tim Potter \u003ctpot@hpe.com\u003e, Anthony Fok \u003cfoka@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/go-team/packages/golang-glog"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-glog.git"
   ],
   "Version": [
-    "1.2.4-1"
+    "0.0~git20160126.23def4e-5"
   ]
 }

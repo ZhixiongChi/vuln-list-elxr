@@ -6,22 +6,22 @@
     "python3-wheel, python-wheel-common, python3-wheel-whl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python (\u003e= 6), flit, pybuild-plugin-pyproject, python3-all-dev, python3-packaging (\u003e= 24) \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-setuptools (\u003e= 77) \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, tox (\u003e= 4) \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-python, python3-all-dev, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, tox \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "cafd742e0eb4bbf0a8cf41e6b38963a1ea901025 7296 wheel_0.46.1-2.debian.tar.xz 328fd0db43418f23cdafd87fb94c4eb2938aa156 1853 wheel_0.46.1-2.dsc c4946a33210e28ff5199b851d322be12be6a0f4b 54400 wheel_0.46.1.orig.tar.gz"
+    "35fd28f1212b32e9dc4c9c6b9099fcf9ddc48ad8 7364 wheel_0.38.4-2.debian.tar.xz 182919c0a23a536f3b074a30773a1a35f828b892 1750 wheel_0.38.4-2.dsc ff9a5efeabf8e73e8b1a8646eaa829154f834726 67193 wheel_0.38.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "32cc380ea11c860f051d27321aabadc03f247ee7ceb48ca693624c22e3c2e293 7296 wheel_0.46.1-2.debian.tar.xz 9ee7764f509bc3590a2d99a9e3bab79b9baba61ff53b0cd253ac2a434411cc6a 1853 wheel_0.46.1-2.dsc fd477efb5da0f7df1d3c76c73c14394002c844451bd63229d8570f376f5e6a38 54400 wheel_0.46.1.orig.tar.gz"
+    "d210a907e20551ee2bed0165937551695c2071275d2b542a36162fc656216513 7364 wheel_0.38.4-2.debian.tar.xz dfaf5a3d2a558b32236a100f113b6a0be6cfb9ae044e53878bb9e95e73f8ee40 1750 wheel_0.38.4-2.dsc 965f5259b566725405b05e7cf774052044b1ed30119b5d586b2703aafe8719ac 67193 wheel_0.38.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e60e53167771a4ea45a869bcc28887e051fa38780db54a484cb92fc9fead7746992b7fe743c188e4dfaf8a15bead212815685c049efcfd262687f679203abcea 7296 wheel_0.46.1-2.debian.tar.xz 0175cca1c467312f3539845bb78a22d7e71c8d38b00f001163ca4da04527d0d66b54662d33d2f5a0e6cf5f7b5ba5f81199e9a2555f9a3ae5e33c7f69c64758c4 1853 wheel_0.46.1-2.dsc 69219fb100d47da42999e0d0e4a023ac43489eb7f1755cb08f6d72a26bda1d435b3a9738340379b1a7f0054330711c7ca9865736cb0463a3f49004c25b61ebfe 54400 wheel_0.46.1.orig.tar.gz"
+    "331bb1cba4ba896a87bd6ee6d264555e5d92bc1adc5f8bd7f49886f41645fb9ba0632d97a78e4da92b736704759e47a4d84f58f291aa303a55882960c487cde7 7364 wheel_0.38.4-2.debian.tar.xz b8d26c5fc483a011cfab590bc2f0574798040f1db8d932a717d8ab58ec5f6f8e0287ea32aaa65d0cca6ce765a313dcd7939ca1668cb138303cc91952501729b7 1750 wheel_0.38.4-2.dsc 46d0589868cdc653b231bd3adb63c1e1e65c2d4d2a7696c2a64b6dc42b2512496af4ee28e5cea66d4dcc6c610ce2d567792f044929dea8ba3e22d2f8d6cafe61 67193 wheel_0.38.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/w/wheel"
   ],
   "Files": [
-    "b6bec64c06d5afb701382e9da110fe3f 7296 wheel_0.46.1-2.debian.tar.xz 5e4215268f3c57f561620a07e934e838 1853 wheel_0.46.1-2.dsc 65e09ee84af36821e3b1e9564aa91bd5 54400 wheel_0.46.1.orig.tar.gz"
+    "ea4c02e0b174591ce7ad8bd531e4dfcc 7364 wheel_0.38.4-2.debian.tar.xz 19e20b15ac3060af123be99a1ac925eb 1750 wheel_0.38.4-2.dsc 83bb4e7bd4d687d398733f341a64ab91 67193 wheel_0.38.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python-wheel-common deb python optional arch=all python3-wheel deb python optional arch=all python3-wheel-whl deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/wheel.git"
   ],
   "Version": [
-    "0.46.1-2"
+    "0.38.4-2"
   ]
 }

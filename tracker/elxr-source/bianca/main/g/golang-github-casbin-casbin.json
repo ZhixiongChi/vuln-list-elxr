@@ -6,22 +6,22 @@
     "golang-github-casbin-casbin-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-bmatcuk-doublestar-dev, golang-github-casbin-govaluate-dev, golang-github-golang-mock-dev"
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-golang-mock-dev, golang-github-knetic-govaluate-dev (\u003e= 3.0.0+git20171022.9aa4983)"
   ],
   "Checksums-Sha1": [
-    "544d09fad61843bf4d67a0ff1f664373be667963 2400 golang-github-casbin-casbin_2.104.0-1.debian.tar.xz 33c52605b0299a52413993f43f8ed4bae3ad60df 2368 golang-github-casbin-casbin_2.104.0-1.dsc b2d7e43a9a50dc6f62da9a0b6aaf5471e57501b3 133467 golang-github-casbin-casbin_2.104.0.orig.tar.gz"
+    "eacc83d6270bc59a82611205599e66f505f6a1f9 2176 golang-github-casbin-casbin_2.60.0-1.debian.tar.xz 2b524bc893d2b98b215465f15816ea46322ed28d 2353 golang-github-casbin-casbin_2.60.0-1.dsc 74677213d5f8111a5f6973dae3aa7d1438c56c91 111756 golang-github-casbin-casbin_2.60.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "fb8f5a3977ee737b0f6d83fe2c5691a421764e9869a0dfacd4565df013f5016f 2400 golang-github-casbin-casbin_2.104.0-1.debian.tar.xz c2c27286f5d4c04f51a9e3aef973ff5e7a2641e740a5f7099953b5df59e6020a 2368 golang-github-casbin-casbin_2.104.0-1.dsc 08d1cbcc4badcf690628f2d900289dca4a8db6b08739bbd0cd9ad1050c5c58f1 133467 golang-github-casbin-casbin_2.104.0.orig.tar.gz"
+    "ef669b9c3ce68465b6608a373c9bc0c623792d8a67d012ce4b34dcd5c9b46e9a 2176 golang-github-casbin-casbin_2.60.0-1.debian.tar.xz 1b2dbcd41ade3b51537f8b61ed9319c330418bf5be97d28ffd9d44db98c9fb2e 2353 golang-github-casbin-casbin_2.60.0-1.dsc 772ec3c2effba238ffa6b0e2afa9427ec740d76f421c8c544aceaf6a9777108f 111756 golang-github-casbin-casbin_2.60.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "22aed859c05beaea572c24a8a4b3ed5fbda7618dfd78ddb070340721e3d3c11f1fc2c914a6773581f5e8deb239f301211c5b944c8d4138c3abd88499a2417294 2400 golang-github-casbin-casbin_2.104.0-1.debian.tar.xz fef04e04cc616f7bfec57d6c9fd6fe0763c39ec3d953767ba4b048557d993cbbd47aadaa9a6ffffdd880675dc8504424de5c54cb6189fe247c79a434a6be72fb 2368 golang-github-casbin-casbin_2.104.0-1.dsc 0d800acd5d9e6f7a9b32fa2058438207649b379a7b26b6ff82586c2669bc5eb34056ed9c0e64f36db346ec9a5d1ffdbb4711cb41f4f6cc2e07249f57d994e876 133467 golang-github-casbin-casbin_2.104.0.orig.tar.gz"
+    "63c3c913c2588b7f45e1751f5fc8eba3edc735638dd0f6eddef285470ecec37e696b527e8d92dbe049c9f8a72ea53fb0f27c985af1151882f5a10001449eb6d6 2176 golang-github-casbin-casbin_2.60.0-1.debian.tar.xz c52dcde722f0c61fdbaf93d227971aaccc760894b93c7a19c2bd510578c45d6a984752488ff7a6e8ccf802efe375c75dcff6a9132647143b7d237afe741d03f0 2353 golang-github-casbin-casbin_2.60.0-1.dsc b79212928bd0254729f3d9a8bdf88315e40fbf6749d1b608672dd3caf40de740de816d25423e73a3da3d81cdc0b2e14b0b881a18ef22c98b7dc81b7c7b62b7c9 111756 golang-github-casbin-casbin_2.60.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-casbin-casbin"
   ],
   "Files": [
-    "7537a346cdfe254a8283ed516c7ad9c7 2400 golang-github-casbin-casbin_2.104.0-1.debian.tar.xz 50a114e95315acef1391e1bd91ba7580 2368 golang-github-casbin-casbin_2.104.0-1.dsc 41f7e574c47ff01c8eb31c8f51389363 133467 golang-github-casbin-casbin_2.104.0.orig.tar.gz"
+    "ff930f2b39bbf91a690672eef63827ee 2176 golang-github-casbin-casbin_2.60.0-1.debian.tar.xz 1f7568d7ac41a0ac7e8eb7e4a2d3cedc 2353 golang-github-casbin-casbin_2.60.0-1.dsc 96204439a0c47ea2aa559abae86ad2ea 111756 golang-github-casbin-casbin_2.60.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "golang-github-casbin-casbin-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-casbin-casbin.git"
   ],
   "Version": [
-    "2.104.0-1"
+    "2.60.0-1"
   ]
 }

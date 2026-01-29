@@ -6,28 +6,25 @@
     "python3-roman"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3"
+    "debhelper-compat (= 13), dh-python | dh-sequence-python3"
   ],
   "Build-Depends-Indep": [
-    "pybuild-plugin-pyproject, python3-all, python3-pytest \u003c!nocheck\u003e, python3-setuptools"
+    "dh-python, python3-all, python3-pytest \u003c!nocheck\u003e, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "80dbe3faf1fd477b545db03906155d25bbca2236 7060 python-roman_5.0-1.debian.tar.xz 4572244ca2b1ff8c1569262df82c91176595f746 2226 python-roman_5.0-1.dsc a26b1b7c7d36dee58d740decb3ca0b73fc58675d 8448 python-roman_5.0.orig.tar.gz"
+    "52cb1f68a81f19fe65d3e1f555c497ef5faf03cf 7116 python-roman_3.3-3.debian.tar.xz e2c132ababe1cd60f729ad1b8365ffc23a42114c 1522 python-roman_3.3-3.dsc f0a1fb2f16889cf069678e98a99c6278040f6509 7174 python-roman_3.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "ce5d63b93e353ff4af6d6e73cfa86e44c1099c4dcb73ff268ed6c702748451e6 7060 python-roman_5.0-1.debian.tar.xz 934d1ecee63c1c4481d52bac26ec423900946c5a45399065168bfeb3ea4843bd 2226 python-roman_5.0-1.dsc c9068177a84dd6e676dce132f2cf97533e4518d238284c2d9cdc5b8182ac2629 8448 python-roman_5.0.orig.tar.gz"
+    "d2bc6e1394b6974c0f4946d9f36106a051ffd94d36f6eda9ada6edae5853d92b 7116 python-roman_3.3-3.debian.tar.xz f19d1b4b95f893c29dd6765e813e3817b30f151223d1137693b82fc072fc7105 1522 python-roman_3.3-3.dsc 8846a7491dd9f59dc6bce1a950e055253804c6fcf11d14a088b4e2a7d6e4d29e 7174 python-roman_3.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "ac6b897f7a6c192afd5d802972557de7fcb2f4ee26692a5c328a43a68397fb45f2207aa6113ebabfd0582b4b4204e8d9f1eb898d8d3bdbb66eec2410e1eb5a2f 7060 python-roman_5.0-1.debian.tar.xz ca286554752ba6d2cbe689d5f9eada1fb4d37a5146dd9ba42d0ae1ad81341831f2a9da12aa3797702af4481c493ae3bc2bb4646d5b7b8db22201041fe1123de0 2226 python-roman_5.0-1.dsc bc010d17db80d00d688bc42b4f417a0762e9eb706e378ef633e1555e8ae29a2b04106548f70e2cc90bdd9bba2236eeb84ade484501641b688f0c7d60294493ce 8448 python-roman_5.0.orig.tar.gz"
-  ],
-  "Dgit": [
-    "b030bee12bab35314395f572f66f2dd7aedc1ba4 debian archive/debian/5.0-1 https://git.dgit.debian.org/python-roman"
+    "4f8e1739705a79c89081d1e8fea8d1ad060ff51938af7a43bb605477771bc736a8f4c218400dbcb65915f3c0544c3ed0001083abe39c1211088736f0fd4ccb16 7116 python-roman_3.3-3.debian.tar.xz d8a4c214f590e33f5ad9c36f7cb8aa65b60d6b6baa48421b4c36bed81ce05201720bc5c8491d3f1df89588b8c4b1fdfd9f85739cdd029a0a9f014fb1be22f5c5 1522 python-roman_3.3-3.dsc 90aab322e4135f221f8278c61ee6ebf2c15f3e35c9eabea19af01c08b95fe01e32faf77da479f80897c7fea6d175dc004b4c72a3cf4105db9e9665c3a30d28ed 7174 python-roman_3.3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-roman"
   ],
   "Files": [
-    "b88084e1aa64791b697739bce7704df3 7060 python-roman_5.0-1.debian.tar.xz 513ecc28e73f08cbb4af7d73a869c4c3 2226 python-roman_5.0-1.dsc 702dba6abd14a91100e0445045882ae5 8448 python-roman_5.0.orig.tar.gz"
+    "9f7e0520470523d4fccbe08bb51229a4 7116 python-roman_3.3-3.debian.tar.xz 36209b681e639f180c5459ce6c66de75 1522 python-roman_3.3-3.dsc e4de0518d1d315115c42f411d536c072 7174 python-roman_3.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,7 +45,10 @@
     "4.6.1"
   ],
   "Testsuite": [
-    "autopkgtest-pkg-pybuild"
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all"
   ],
   "Uploaders": [
     "Andrea Colangelo \u003cwarp10@debian.org\u003e"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/python-roman.git"
   ],
   "Version": [
-    "5.0-1"
+    "3.3-3"
   ]
 }

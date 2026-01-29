@@ -6,22 +6,22 @@
     "munge, libmunge-dev, libmunge2"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 13), zlib1g-dev, libbz2-dev, libgcrypt20-dev, procps"
+    "debhelper (\u003e= 11), zlib1g-dev, libbz2-dev, libgcrypt20-dev, procps"
   ],
   "Checksums-Sha1": [
-    "21ca3742aa5df4b82ef41b5d360d050cf3197a14 10460 munge_0.5.16-1.debian.tar.xz 1f87c33d09f3db78f64f8b774bf70f80ee434380 1994 munge_0.5.16-1.dsc 61614142640fa1c3977ff36a5dfa2e498e50ccc5 264415 munge_0.5.16.orig.tar.gz"
+    "af0135d78486c562d35b07d92fb460b188742773 10300 munge_0.5.15-2.debian.tar.xz 99343acf75baa473a0c9d93c6c42994f6fb49a61 2008 munge_0.5.15-2.dsc 1781dfc02d480d53e60c49e149f1cc15f95eeebb 459468 munge_0.5.15.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "97335ba2f40ee49f27d9845a867b945f517a2f1ab9495f1045a5691c667d6048 10460 munge_0.5.16-1.debian.tar.xz 6ac825566c545379a8a9f6e0daec225d9d6bb338e314439b2f0f5f7bde164901 1994 munge_0.5.16-1.dsc fa27205d6d29ce015b0d967df8f3421067d7058878e75d0d5ec3d91f4d32bb57 264415 munge_0.5.16.orig.tar.gz"
+    "129244b0e8f1c08c8706aca349eca9c51e437dc853f299a06deaa5e1b7a9aa9e 10300 munge_0.5.15-2.debian.tar.xz e69f1dfb7ea32b8e861e1e54e4f11ae0752fcaa0a761b08d88c65464bb77cc89 2008 munge_0.5.15-2.dsc 3f979df117a34c74db8fe2835521044bdeb08e3b7d0f168ca97c3547f51da9ba 459468 munge_0.5.15.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "1339857a9670911bfb2b8ea17e4336d3c4bb99d5f10e3111487b04e260515ad5a67c8415933b45b900da4a91ecba8ca72c666052f1cbac849180107cde2a5a43 10460 munge_0.5.16-1.debian.tar.xz 6d907fa0deb43b2b7fa00bec8b0f840b73594bcf06899c54cb30e223c5c15c70410bd9149421cd6a58829b998d80c5a759e4e8f7628956ca935997d656be30a5 1994 munge_0.5.16-1.dsc 2b2ac088c50886205d4bb1bc6494092cd83b092464acfb0889f2c4e00dd8211e88145705591bd0306601ba96b2ecd2975e155d4f584258cd53609aaf178b5507 264415 munge_0.5.16.orig.tar.gz"
+    "e1b959f7c4fdcf350a5d68b441788e9327cd9b4d4666bf3c6a152ddb25e9658b8f3dbaded0a8a44e7c4a3119fc391b02cb21e78fe80fa515cfd0425a55889c62 10300 munge_0.5.15-2.debian.tar.xz f7da34d5487abb9b3fabf75ac361c44b2aeca5725804bd4046602b711526135634ae1af7e379b8140e146be705ed62c9a12c63a2f925a215f459e72b0ea0509f 2008 munge_0.5.15-2.dsc 266af1cf2df30f6bd7338527bd69736c0cf91e7390e7bbeea9a225af4829d456907be77a1e77ecef4716f2fff634d144d4b3d5cc3d0afc12f5c2d1acfd6974e1 459468 munge_0.5.15.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/m/munge"
   ],
   "Files": [
-    "1ec34766d51d4c814fc1d5d31198d764 10460 munge_0.5.16-1.debian.tar.xz 7fc433309e14465a401a686fb7debca8 1994 munge_0.5.16-1.dsc 1822226cd6455935bba1308e079c9581 264415 munge_0.5.16.orig.tar.gz"
+    "f1f20173a4cc74e0eca65fd173ae715a 10300 munge_0.5.15-2.debian.tar.xz 1873bab0b476c0bad768369884e253fc 2008 munge_0.5.15-2.dsc 34c2f68dd5b161e1f0e855e29af55113 459468 munge_0.5.15.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://dun.github.io/munge"
   ],
   "Maintainer": [
-    "Gennaro Oliva \u003coliva@debian.org\u003e"
+    "Gennaro Oliva \u003coliva.g@na.icar.cnr.it\u003e"
   ],
   "Package": [
     "munge"
@@ -39,7 +39,7 @@
     "libmunge-dev deb libdevel optional arch=any libmunge2 deb libs optional arch=any munge deb admin optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/hpc-team/munge.git"
   ],
   "Version": [
-    "0.5.16-1"
+    "0.5.15-2"
   ]
 }

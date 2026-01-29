@@ -3,25 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "gnome-panel, gnome-panel-data, libgnome-panel3, libgnome-panel-dev"
+    "gnome-panel, gnome-panel-data, libgnome-panel0, libgnome-panel-dev, libgnome-panel-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), evolution-data-server-dev (\u003e= 3.45), gnome-pkg-tools (\u003e= 0.17), gsettings-desktop-schemas-dev (\u003e= 42.0), libcairo2-dev (\u003e= 1.10.0), libdconf-dev (\u003e= 0.13.4), libecal2.0-dev (\u003e= 3.45), libedataserver1.2-dev (\u003e= 3.45), libgdk-pixbuf-2.0-dev (\u003e= 2.26.0), libgdm-dev, libgeocode-glib-dev, libglib2.0-dev (\u003e= 2.67.1), libgnome-desktop-3-dev (\u003e= 3.35.3), libgnome-menu-3-dev (\u003e= 3.7.90), libgtk-3-dev (\u003e= 3.22.0), libgweather-4-dev (\u003e= 4.1), libpango1.0-dev (\u003e= 1.15.4), libpolkit-gobject-1-dev, libsm-dev, libsystemd-dev (\u003e= 230), libwnck-3-dev (\u003e= 43.2), libx11-dev, libxau-dev, libxrandr-dev (\u003e= 2:1.3.0), pkgconf, yelp-tools"
+    "debhelper-compat (= 13), evolution-data-server-dev (\u003e= 3.45), gnome-pkg-tools (\u003e= 0.17), gtk-doc-tools (\u003e= 1.25), libcairo2-dev (\u003e= 1.10.0), libdconf-dev (\u003e= 0.13.4), libecal2.0-dev (\u003e= 3.45), libedataserver1.2-dev (\u003e= 3.45), libgdk-pixbuf-2.0-dev (\u003e= 2.26.0), libgdm-dev, libgeocode-glib-dev, libglib2.0-dev (\u003e= 2.67.1), libgnome-desktop-3-dev (\u003e= 2.91.0), libgnome-menu-3-dev (\u003e= 3.7.90), libgtk-3-dev (\u003e= 3.22.0), libgweather-4-dev (\u003e= 4.1), libpango1.0-dev (\u003e= 1.15.4), libpolkit-gobject-1-dev, libsm-dev, libsystemd-dev (\u003e= 230), libwnck-3-dev (\u003e= 43.0), libx11-dev, libxau-dev, libxrandr-dev (\u003e= 2:1.3.0), pkg-config (\u003e= 0.9.0), yelp-tools"
+  ],
+  "Build-Depends-Indep": [
+    "libglib2.0-doc \u003c!nodoc\u003e, libgtk-3-doc \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "1a7f5a2867716f3cd62b65b70cbaa2436626bf54 32492 gnome-panel_3.56.0-1.debian.tar.xz 45030bcb6191b8a1d21addd768f9d5e9ba6cf28b 2858 gnome-panel_3.56.0-1.dsc 3ccd3dffc62cfa04abbf08558c8c7343271f311a 2973688 gnome-panel_3.56.0.orig.tar.xz"
+    "f77eed3ca24cdd28404e83a83cfb2ad4b75a487d 32504 gnome-panel_3.46.0-1.debian.tar.xz 2b5b6cce462781a3224493723c7a6cd7a8e5f349 3005 gnome-panel_3.46.0-1.dsc 00b19f7db263c37bae6b55926a1a8bf16523a77e 2797164 gnome-panel_3.46.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "0b1ba4be3693ff481784bb039ad17f92f269463cdb40c777a74db9be27cbc4f3 32492 gnome-panel_3.56.0-1.debian.tar.xz 2c2d1a9990d5a8720e3bce1e4543ae0fa0813f86941370018ef238cb04c7ec90 2858 gnome-panel_3.56.0-1.dsc 528a6d67dd84edae6c80a5ee656f84fbd942f3b371d60f97a2db6065cf4fd170 2973688 gnome-panel_3.56.0.orig.tar.xz"
+    "e972122317c13bc1f1b4df014a9632e654fdd6428ba72df95baf809746104a53 32504 gnome-panel_3.46.0-1.debian.tar.xz 8503eb2f2efe96328ccddad393c4c569324ad636235080fc4d25e1b51fe52f95 3005 gnome-panel_3.46.0-1.dsc cec7a11b70c524b5e8d76d4d7e4d835ee607abda2eb42f4df7619e62eb06aeb1 2797164 gnome-panel_3.46.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "a388c05a706162bb0f524e0c383c8112d7b2daca086db6fb1eb9d83e722dd4a289e78afd9b7d0a7056f0102e51fdf4f12bbd255686363c2b54b0f3ec7811976f 32492 gnome-panel_3.56.0-1.debian.tar.xz db934b413d127ee1a1cb5b63cf6ee94f0a0d38c47a1cd5c483742215d6ba5d6fe71a63b7ab429d54ae21a39f0613b26e0fe00e85210cc181cc1d2dc306a878eb 2858 gnome-panel_3.56.0-1.dsc c26831ef8c70658b0f5f8ff9e17fb00608e7941ac96226117fd9fa889b141e09245fa77055d96ec7455219df57d2dcb5d6329ac054d5c3fd668099263b8cd827 2973688 gnome-panel_3.56.0.orig.tar.xz"
+    "68a276f31c59de010b36dc7061b224627669fc9a69ccc405b69251e48a4c4b3f5ed382d12789c5db6d41e484022b32ee95cc4d4002812e6edfe9d010ac318c47 32504 gnome-panel_3.46.0-1.debian.tar.xz 08a4c65c567e972aa5b7c47bea1c554b1c3ec2bd3cb32dbd605779aeec07903f3e8cce76c382e24eba5a64b6d063c5030c1c679ad0e2813995f81aac16b40fea 3005 gnome-panel_3.46.0-1.dsc a49f3978bd9561973c41083006b831cf4fcb07408048106ef56dae7e0809fb3ec825c8b4a1c09e818255c7995c45a6d33aa4f47e61f778f4b1f29ccc7c9033f7 2797164 gnome-panel_3.46.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gnome-panel"
   ],
   "Files": [
-    "97670b0847b72ab3f699a8d5099a75df 32492 gnome-panel_3.56.0-1.debian.tar.xz 7d4a6c22caef5c05e483eb354cbcd6d3 2858 gnome-panel_3.56.0-1.dsc ac8ffdd33987a7902bbab5f3a835904d 2973688 gnome-panel_3.56.0.orig.tar.xz"
+    "7af72a4b3ba1ace17809120ca9592804 32504 gnome-panel_3.46.0-1.debian.tar.xz 68c2cf013a3ca8abb2a93672c15df93a 3005 gnome-panel_3.46.0-1.dsc 529cfa62ffcbb2bd3eccbc01e7c50569 2797164 gnome-panel_3.46.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +39,10 @@
     "gnome-panel"
   ],
   "Package-List": [
-    "gnome-panel deb gnome optional arch=any gnome-panel-data deb gnome optional arch=all libgnome-panel-dev deb libdevel optional arch=any libgnome-panel3 deb libs optional arch=any"
+    "gnome-panel deb gnome optional arch=any gnome-panel-data deb gnome optional arch=all libgnome-panel-dev deb libdevel optional arch=any libgnome-panel-doc deb doc optional arch=all profile=!nodoc libgnome-panel0 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.1"
   ],
   "Uploaders": [
     "Dmitry Shachnev \u003cmitya57@debian.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/gnome-team/gnome-panel.git"
   ],
   "Version": [
-    "3.56.0-1"
+    "3.46.0-1"
   ]
 }

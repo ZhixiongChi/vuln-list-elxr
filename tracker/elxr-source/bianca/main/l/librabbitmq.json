@@ -6,22 +6,22 @@
     "amqp-tools, librabbitmq-dev, librabbitmq4"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), xmlto, libpopt-dev, libssl-dev, libtool"
+    "cmake, debhelper-compat (= 13), docbook-to-man, libpopt-dev, libssl-dev, libtool"
   ],
   "Checksums-Sha1": [
-    "0e59f6d409144c5228a7e4257fbecbf9fec4456e 5944 librabbitmq_0.15.0-1.debian.tar.xz 076162f6065cb21105ef31b429821b7a256cd1b5 2084 librabbitmq_0.15.0-1.dsc 26a1d0f61fa1198cbfd22cb246e88f667bb8299e 131818 librabbitmq_0.15.0.orig.tar.gz"
+    "bad98b49b288dee7acb6bb25c2769ee3df1638b6 11380 librabbitmq_0.11.0-1+deb12u1.debian.tar.xz fc8b5d8ba304936c13652a33cc0f9369cf7dee19 2130 librabbitmq_0.11.0-1+deb12u1.dsc f1786acb5242ec2f29a0f39f84bcd3c3760eadac 145638 librabbitmq_0.11.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a1b6deaa63ece724fe96e49b2f0a05c03a9058084be44dca6e01e2f04376e64c 5944 librabbitmq_0.15.0-1.debian.tar.xz 98f2a3c20d3b07cf06ad164ea17eecc2ae524523e0df8455b96602c9fee61fe0 2084 librabbitmq_0.15.0-1.dsc 7b652df52c0de4d19ca36c798ed81378cba7a03a0f0c5d498881ae2d79b241c2 131818 librabbitmq_0.15.0.orig.tar.gz"
+    "209e1595ac20aff8672a4b079856bd52b7747a85e0b4763d73d559563742af0b 11380 librabbitmq_0.11.0-1+deb12u1.debian.tar.xz 506615d681402c13de1323f1d4b4d971323d4389efd1514a50874959535ef876 2130 librabbitmq_0.11.0-1+deb12u1.dsc 437d45e0e35c18cf3e59bcfe5dfe37566547eb121e69fca64b98f5d2c1c2d424 145638 librabbitmq_0.11.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a3e2d6a3a39dfd8e1305ab15572fd621822520fdc081c813b5d2931568aa5022aeedd6fad3bcd7224854a8ea677d3c9738267c278e162cbf18e77de1ec61b795 5944 librabbitmq_0.15.0-1.debian.tar.xz 879a5208f1fdc7bd41aa03f1c4300fb0c2624aeb9090b6d79061a1513bf218f40d9a3684bd2c6da7b7b715971d1df9ba5b7da7964f4575b7f9aadcbdfc3b70d6 2084 librabbitmq_0.15.0-1.dsc 62b4e92fc270c5bdc5343cfaef5245e29a9b6d8983071a47391a93ae1b766ed7b98a6a546e8528befbc284f5ed17da4647595e94341380bfa76598569191e6c0 131818 librabbitmq_0.15.0.orig.tar.gz"
+    "36505e0bc2181b5c3258b3f4bec4df3db361a0ce479f645461cca8fa19422b0d021b0c7e4b95004243c5bfcf26be432482d231d3c1e8be320211101fe11b7f33 11380 librabbitmq_0.11.0-1+deb12u1.debian.tar.xz 59965f7bb4bcfee0e66720d613aebfc3371db46d07dde8a2dc62739a45e100790393b2813ac85831747aaf46a9bcac458d8c86de9431429eba98baa3c547a12f 2130 librabbitmq_0.11.0-1+deb12u1.dsc 0c3dbb6e2b862e9f25e3f76df798ea272bbd81de2865950b95adf1f1e5791eb20d7c9d5a76cb7d2fda54bad5f12bdf69cbfa7e9fd1afdede6f9ec729ca2287de 145638 librabbitmq_0.11.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libr/librabbitmq"
   ],
   "Files": [
-    "c46df5050daab6bfe66ddd6fa4801d7b 5944 librabbitmq_0.15.0-1.debian.tar.xz 9ad605ae78cd4d9cc5ee18284b483843 2084 librabbitmq_0.15.0-1.dsc 719e96cb3cd9e2c16f3e9cf3b47b8746 131818 librabbitmq_0.15.0.orig.tar.gz"
+    "4708c4e0de4b470dbda05b43ffc66c8c 11380 librabbitmq_0.11.0-1+deb12u1.debian.tar.xz c39de2986a2d9e924f09323c74795bd0 2130 librabbitmq_0.11.0-1+deb12u1.dsc e7d9896577aea6351811d7c1d7f0a68a 145638 librabbitmq_0.11.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "amqp-tools deb net optional arch=any librabbitmq-dev deb libdevel optional arch=any librabbitmq4 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.0.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/librabbitmq.git"
   ],
   "Version": [
-    "0.15.0-1"
+    "0.11.0-1+deb12u1"
   ]
 }

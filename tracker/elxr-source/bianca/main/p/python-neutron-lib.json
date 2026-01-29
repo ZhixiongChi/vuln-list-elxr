@@ -6,25 +6,25 @@
     "python-neutron-lib-doc, python3-neutron-lib"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx, python3-sphinxcontrib.apidoc"
+    "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
   ],
   "Build-Depends-Indep": [
-    "python3-coverage, python3-debtcollector (\u003e= 3.0.0), python3-ddt, python3-fixtures, python3-hacking, python3-keystoneauth1, python3-netaddr, python3-openstackdocstheme \u003c!nodoc\u003e, python3-os-api-ref \u003c!nodoc\u003e, python3-os-ken, python3-os-traits, python3-oslo.concurrency, python3-oslo.config, python3-oslo.context, python3-oslo.db, python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging (\u003e= 14.2.0), python3-oslo.policy (\u003e= 4.5.0), python3-oslo.serialization, python3-oslo.service, python3-oslo.utils (\u003e= 7.0.0), python3-oslo.versionedobjects, python3-oslotest, python3-osprofiler, python3-pecan, python3-setproctitle, python3-sqlalchemy, python3-stestr, python3-stevedore, python3-testresources, python3-testscenarios, python3-testtools, python3-webob, subunit"
+    "python3-coverage, python3-fixtures, python3-hacking, python3-keystoneauth1, python3-mock \u003c!nodoc\u003e, python3-netaddr, python3-openstackdocstheme \u003c!nodoc\u003e, python3-os-api-ref \u003c!nodoc\u003e, python3-os-ken, python3-os-traits, python3-oslo.concurrency, python3-oslo.config, python3-oslo.context, python3-oslo.db, python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging, python3-oslo.policy (\u003e= 3.6.2), python3-oslo.serialization, python3-oslo.service, python3-oslo.utils, python3-oslo.versionedobjects, python3-oslotest, python3-osprofiler, python3-pecan, python3-setproctitle, python3-sqlalchemy, python3-stestr, python3-stevedore, python3-testresources, python3-testscenarios, python3-testtools, python3-webob, subunit"
   ],
   "Checksums-Sha1": [
-    "65489f24aa2e30cbe059abd75e31efcc08c8154f 4864 python-neutron-lib_3.18.2-3.debian.tar.xz d35f7864f4cae924f496f4ecc0a68a2cb791dda4 3101 python-neutron-lib_3.18.2-3.dsc 44819fd2db9ac42035933d6e5dc9bbeab90ba23c 360272 python-neutron-lib_3.18.2.orig.tar.xz"
+    "db82fafed792d0d0ad6d57f5596f8e5ecad2933a 3868 python-neutron-lib_3.1.0-2.debian.tar.xz 864477eb02f9059e9cd845d8441627acdc581427 3017 python-neutron-lib_3.1.0-2.dsc d28c39bdf8929c2b1167a2ce51e599fa5639b3ee 345480 python-neutron-lib_3.1.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "fd43e9fece7b1ce7ef7cf5b163cc027348dd8b9b4ae83b0a700de1bcbdcb1198 4864 python-neutron-lib_3.18.2-3.debian.tar.xz b9e466468e2d5ace0b7c607174c51d36d8676d04011bbcdaca22b2b844c8af65 3101 python-neutron-lib_3.18.2-3.dsc 864596c2f2256c8b299714d469e17f12d8472567e96125018262e123a66c0e66 360272 python-neutron-lib_3.18.2.orig.tar.xz"
+    "b8013f74deb67c918823293e387df844f81a954e2a2047042c79ffaba3feaa50 3868 python-neutron-lib_3.1.0-2.debian.tar.xz 01560ccb6240c37354a93f22640d1228084ef8db9949c31ceffd8926c3055228 3017 python-neutron-lib_3.1.0-2.dsc 174c2b6812a782bc24742a0533155d8f57e5b733721425e2b58f46f40b121320 345480 python-neutron-lib_3.1.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "5640585833c0be67ba3c675e622983ba9d93df3c0d3f44e711e6faafc69da47a2b946751a75b8d99a18aea7f1582c95530ccf068e6ba59ae9d016c9664ddbb50 4864 python-neutron-lib_3.18.2-3.debian.tar.xz f6449e047b01d124f39354457db3c1bb4010279490e75a9c0c5814c459d74046ac1e6165b91fd145d563b62b25308ac7fc1a041428dd98426cc5c3290442228a 3101 python-neutron-lib_3.18.2-3.dsc ee980fc77fe11d349cd5059095a79c6b546c9c7a484a129c8e1b1c992e3ae71f005303b910486be63ae3ba8403ff915f0a5bfb0d171fb328c591aa4070d684dc 360272 python-neutron-lib_3.18.2.orig.tar.xz"
+    "07dfe080f422ce1da1c2c3c60e98ed6eb46c6300040a97363120fbb4809dcbf69abb5a272d332d1d4fdc32a58d17e4e0d2858fd2f185b0d6cc7cfc55f5b69c96 3868 python-neutron-lib_3.1.0-2.debian.tar.xz a51359138da8752a4962b710b18cd8f09b6c0a23377c12b3332725de7420a5a8c482870617fa1219ea8facb9b1962d077a49e78f5967a9117889942228fdc168 3017 python-neutron-lib_3.1.0-2.dsc 8e01dd4085523640f580f91d673343537ea7cfeee81b23fc41843042e8b48ffe274bd9aa40cdbcad47bd179e5c98120af22c00f67e746e9d5009a9e97a8b817c 345480 python-neutron-lib_3.1.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-neutron-lib"
   ],
   "Files": [
-    "a4f4b41c278d439e1bd7d7163e938f69 4864 python-neutron-lib_3.18.2-3.debian.tar.xz 838014f826ff9d487e9fba9ed70394f1 3101 python-neutron-lib_3.18.2-3.dsc 626b3a26d8f4bb386d12d981ca33287b 360272 python-neutron-lib_3.18.2.orig.tar.xz"
+    "1fdc3946d221b973268b404ae65cfee8 3868 python-neutron-lib_3.1.0-2.debian.tar.xz f82ac4ba54590089174facb56910d5cd 3017 python-neutron-lib_3.1.0-2.dsc a55efc447f836d8d47bde0da2e01c3b7 345480 python-neutron-lib_3.1.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/openstack-team/libs/python-neutron-lib.git"
   ],
   "Version": [
-    "3.18.2-3"
+    "3.1.0-2"
   ]
 }

@@ -6,31 +6,31 @@
     "python3-sgmllib3k"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-setuptools"
+    "debhelper-compat (= 12), python3-all, python3-setuptools, dh-python"
   ],
   "Checksums-Sha1": [
-    "2be3d684fcc72a975daecf397e5fb11e730c4e57 3136 sgmllib3k_1.0.0-5.debian.tar.xz 892f167a3f1010039afdaa8acd9f660f8ec5115b 2090 sgmllib3k_1.0.0-5.dsc 036530c678e2f66b183dd675887ed7efbb64a7f2 5750 sgmllib3k_1.0.0.orig.tar.gz"
+    "33521bb93b8f03b15307abb80108e13dbe720335 2996 sgmllib3k_1.0.0-4.debian.tar.xz f0550e7d645bb60e006ba6cb979f741b683749a7 2060 sgmllib3k_1.0.0-4.dsc 036530c678e2f66b183dd675887ed7efbb64a7f2 5750 sgmllib3k_1.0.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "d9ad821861847aa55a241267dc03d11f56766e19037cadd399e1f7f66364b54b 3136 sgmllib3k_1.0.0-5.debian.tar.xz c3cbd42029de2fa7f9f1012682ab0cced8c266c25190bd16bb2fb9295783fa2a 2090 sgmllib3k_1.0.0-5.dsc 7868fb1c8bfa764c1ac563d3cf369c381d1325d36124933a726f29fcdaa812e9 5750 sgmllib3k_1.0.0.orig.tar.gz"
+    "749f120ac198c28f8f94d0e0a600cc31d1cf8282b36cb45ce191efee81e12211 2996 sgmllib3k_1.0.0-4.debian.tar.xz b1b5c1346a84febe7e584dd4fdf0fc9a26ee6cda1a12faed444ca376a58aba9b 2060 sgmllib3k_1.0.0-4.dsc 7868fb1c8bfa764c1ac563d3cf369c381d1325d36124933a726f29fcdaa812e9 5750 sgmllib3k_1.0.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f15aab15fcf76f0b518ab1926d26cbb4d889436fafc4dab2c550fae8139515dfabf96bc2561e9f8fef9b26b1816d5df4fe76a94b00a301f9783f668c328df670 3136 sgmllib3k_1.0.0-5.debian.tar.xz 3a771380d7d2f78f0ad8ce43a3318b0a9a3fc4cb4c570efc62c9a5166bdcbe020a67af5e1e66403a08e7d7c43be4884033a835fa8620ff93ad288fe5bcefecc1 2090 sgmllib3k_1.0.0-5.dsc f9238afb831356f66b1c3e55975e0ea88007ffe1469b8b4e325e704d1915eb0ab120f5f9e98f36eeb4bf6204a1938d8a4d5a424f0cc054b141ac94adc8ef8ca9 5750 sgmllib3k_1.0.0.orig.tar.gz"
+    "8a751b59e81dc0aa13e5af04000cd81dc04935c0543b0fb1dd11e7e1e226fd66b2b54223d6dfb16f7a6ca83768608c5ad3fd01879de034ea10d8c60fe6c49f14 2996 sgmllib3k_1.0.0-4.debian.tar.xz 6d89f323c4c8d8e993b41e01b935c8828b52ee84f8c6773189d5e7597e461bc8d27e8c3c3187c1c2847c9f77164c28b6e6542aaa5e5ef671d5a1db1e388b9bdb 2060 sgmllib3k_1.0.0-4.dsc f9238afb831356f66b1c3e55975e0ea88007ffe1469b8b4e325e704d1915eb0ab120f5f9e98f36eeb4bf6204a1938d8a4d5a424f0cc054b141ac94adc8ef8ca9 5750 sgmllib3k_1.0.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/s/sgmllib3k"
   ],
   "Files": [
-    "d33c1b068165f01605d3f55d4d932b78 3136 sgmllib3k_1.0.0-5.debian.tar.xz c71df7ab6dd62ba81a007965b66a314f 2090 sgmllib3k_1.0.0-5.dsc d70efde06e40797f37e867123aa080ec 5750 sgmllib3k_1.0.0.orig.tar.gz"
+    "27a8216a4f36d2839669c703fbf6cde1 2996 sgmllib3k_1.0.0-4.debian.tar.xz 1609f614ed4b542dd518a42f42b4e10d 2060 sgmllib3k_1.0.0-4.dsc d70efde06e40797f37e867123aa080ec 5750 sgmllib3k_1.0.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://hg.hardcoded.net/sgmllib"
+    "https://pypi.org/project/sgmllib3k/"
   ],
   "Maintainer": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+    "Mikhail Gusarov \u003cdottedmag@debian.org\u003e"
   ],
   "Package": [
     "sgmllib3k"
@@ -39,7 +39,7 @@
     "python3-sgmllib3k deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
@@ -48,7 +48,7 @@
     "python3"
   ],
   "Uploaders": [
-    "Alexandre Detiste \u003ctchet@debian.org\u003e,"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/sgmllib3k"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/sgmllib3k.git"
   ],
   "Version": [
-    "1.0.0-5"
+    "1.0.0-4"
   ]
 }

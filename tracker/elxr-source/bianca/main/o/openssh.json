@@ -3,34 +3,34 @@
     "any all"
   ],
   "Binary": [
-    "openssh-client, openssh-client-gssapi, openssh-server, openssh-server-gssapi, openssh-sftp-server, openssh-tests, ssh, ssh-askpass-gnome, openssh-client-udeb, openssh-server-udeb"
+    "openssh-client, openssh-server, openssh-sftp-server, openssh-tests, ssh, ssh-askpass-gnome, openssh-client-udeb, openssh-server-udeb"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 13.1~), debhelper-compat (= 13), dh-exec, dh-runit (\u003e= 2.8.8), dh-sequence-movetousr, libaudit-dev [linux-any], libedit-dev, libfido2-dev (\u003e= 1.5.0) [linux-any], libgtk-3-dev \u003c!pkg.openssh.nognome\u003e, libkrb5-dev | heimdal-dev, libpam0g-dev | libpam-dev, libselinux1-dev [linux-any], libssl-dev (\u003e= 1.1.1), libwrap0-dev | libwrap-dev, libwtmpdb-dev, pkgconf, zlib1g-dev"
+    "debhelper (\u003e= 13.1~), debhelper-compat (= 13), dh-exec, dh-runit (\u003e= 2.8.8), libaudit-dev [linux-any], libedit-dev, libfido2-dev (\u003e= 1.5.0) [linux-any], libgtk-3-dev \u003c!pkg.openssh.nognome\u003e, libkrb5-dev | heimdal-dev, libpam0g-dev | libpam-dev, libselinux1-dev [linux-any], libssl-dev (\u003e= 1.1.0g), libsystemd-dev [linux-any] | libelogind-dev [linux-any], libwrap0-dev | libwrap-dev, pkg-config, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "159c5d2d167065662b354158485b5ccc21ba3a24 198996 openssh_10.0p1-7.debian.tar.xz ebcb58b18af6371f9d27273ebcaf60a0ab3d6608 3654 openssh_10.0p1-7.dsc ac4205e827aea383bf316a33a0e2d5b66b85fcf8 1972675 openssh_10.0p1.orig.tar.gz 9623202a5dd2cee22dc5bdbe73144d15730b1f97 833 openssh_10.0p1.orig.tar.gz.asc"
+    "49d55f9e69d9c4037fb44b043e2b83c350551b70 197308 openssh_9.2p1-2+deb12u7.debian.tar.xz 3305e83199ec1648f79488580a4d318a13f1a1bf 3535 openssh_9.2p1-2+deb12u7.dsc 3b172b8e971773a7018bbf3231f6589ae539ca4b 1852380 openssh_9.2p1.orig.tar.gz 057ac5ac6e2fa0a26a105b085822a09f1a068683 833 openssh_9.2p1.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "09888aeb70db929b83f6acf8439f9de43c69ef7de89bb2f9549ef1bff5688fc5 198996 openssh_10.0p1-7.debian.tar.xz 67fee78460ebb9adbe75726dc764360886dec4721cd3d10217bd0d071db0badb 3654 openssh_10.0p1-7.dsc 021a2e709a0edf4250b1256bd5a9e500411a90dddabea830ed59cef90eb9d85c 1972675 openssh_10.0p1.orig.tar.gz f71cf3240516ce59c2240532143982fcd97e2e286e6eb1eb6c3080a1ec012a04 833 openssh_10.0p1.orig.tar.gz.asc"
+    "38fe612408e19713b7c971d9987d788eecf27bbb13a81a6edca4137fd38a9251 197308 openssh_9.2p1-2+deb12u7.debian.tar.xz 08f5d94dbd2517a25432e8aa0d0eadc50b5459a8b35dcb88336e4cb555cb2da1 3535 openssh_9.2p1-2+deb12u7.dsc 3f66dbf1655fb45f50e1c56da62ab01218c228807b21338d634ebcdf9d71cf46 1852380 openssh_9.2p1.orig.tar.gz 7acc8e9502040972aeecb785fa3b6bb00c069cc01fbd7c214f8f7867033a6dbb 833 openssh_9.2p1.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "21086afd194e56cbbf6d741ac616710a6355dc986ec9675fc6605b2c4a472691f42eefcea23c45c324d38f032628dd8936cc939d5aed3019baa3ead8f7c05c25 198996 openssh_10.0p1-7.debian.tar.xz cfaa771850f2a119dc568987f1e75e397834a9ca3d3f1e7240dcb7d2f4f34ed2796b612d05b64b0f0f1e873bfcc9774993a773b511ccd5fa0a4a43e4e329aa8c 3654 openssh_10.0p1-7.dsc 2daa1fcf95793b23810142077e68ddfabdf3732b207ef4f033a027f72d733d0e9bcdb6f757e7f3a5934b972de05bfaae3baae381cfc7a400cd8ab4d4e277a0ed 1972675 openssh_10.0p1.orig.tar.gz 6ab9deb4233ff159e55a18c9fc07d5ff8a41723dad74aa3d803e1476b585f5662aba34f8a7a1f5fe1d248f3ff3cd663f2c2fb8e399c6a4723b6215b0eb423d13 833 openssh_10.0p1.orig.tar.gz.asc"
+    "fec372fb59e21ffae7fc57ca1eaca7f848449aa13ef7b9b9fe612fc958c0c66b475d4363e7cf2886dca32952f794d7ad7c0c41cf74589f6c7238a032db48acc0 197308 openssh_9.2p1-2+deb12u7.debian.tar.xz 7c07214d881bfca272e7674831221a0165e49b235c589c21ec7840bfd05f4f872fe1e631f5859aa24d6091b5d626e466692fc7ec0d6d726dd37fe1c204642f36 3535 openssh_9.2p1-2+deb12u7.dsc c4b79ef3a05b96bfc477ffb31f734635bffd5be213ab58e043111c3232dbe999ff24665fa1069518237cffa5126ded0dda8984e1b8f098f4f09b8c1dae20e604 1852380 openssh_9.2p1.orig.tar.gz 2a56f8946ed00fcd5a92935e090523d40b5c3747e25661d575b799b1825bf5e47a95eed5e7ed968fe042349c2c7d94d6b0e6bf2d9145b5c6ff5df2ca538d56e5 833 openssh_9.2p1.orig.tar.gz.asc"
   ],
   "Dgit": [
-    "53e29c05c14ec5f29dbd3df5466b55cf4ca488b1 debian archive/debian/1%10.0p1-7 https://git.dgit.debian.org/openssh"
+    "23a4933f1b923e239cec1c2ea8e8c84cff05903c debian archive/debian/1%9.2p1-2+deb12u7 https://git.dgit.debian.org/openssh"
   ],
   "Directory": [
     "pool/main/o/openssh"
   ],
   "Files": [
-    "a6135296076789766d5037281fd6e277 198996 openssh_10.0p1-7.debian.tar.xz ce345ed4c63d1ec10849bd1d4f497b18 3654 openssh_10.0p1-7.dsc 689148621a2eaa734497b12bed1c5202 1972675 openssh_10.0p1.orig.tar.gz 1c0cb23a67bd4e5d25a8dc423ed65a5e 833 openssh_10.0p1.orig.tar.gz.asc"
+    "3affcc62259635fca246ff45374fb2b5 197308 openssh_9.2p1-2+deb12u7.debian.tar.xz 9cf2b743d6c80b6bc1b8706aa2931c71 3535 openssh_9.2p1-2+deb12u7.dsc f78b2acac4bb299629a8c58ddc3fac63 1852380 openssh_9.2p1.orig.tar.gz 4b8baeab4dd1ff732a02e94c227cf788 833 openssh_9.2p1.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Git-Tag-Info": [
-    "tag=47946e04d9c0247fd1c744db37489f1d64f92fa8 fp=ac0a4ff12611b6fccf01c111393587d97d86500b"
+    "tag=bb2faba5900d0a5b0e82014efbe9c73049104623 fp=ac0a4ff12611b6fccf01c111393587d97d86500b"
   ],
   "Git-Tag-Tagger": [
     "Colin Watson \u003ccjwatson@debian.org\u003e"
@@ -45,7 +45,7 @@
     "openssh"
   ],
   "Package-List": [
-    "openssh-client deb net standard arch=any openssh-client-gssapi deb net optional arch=all openssh-client-udeb udeb debian-installer optional arch=any profile=!noudeb openssh-server deb net optional arch=any openssh-server-gssapi deb net optional arch=all openssh-server-udeb udeb debian-installer optional arch=any profile=!noudeb openssh-sftp-server deb net optional arch=any openssh-tests deb net optional arch=any ssh deb net optional arch=all ssh-askpass-gnome deb gnome optional arch=any profile=!pkg.openssh.nognome"
+    "openssh-client deb net standard arch=any openssh-client-udeb udeb debian-installer optional arch=any profile=!noudeb openssh-server deb net optional arch=any openssh-server-udeb udeb debian-installer optional arch=any profile=!noudeb openssh-sftp-server deb net optional arch=any openssh-tests deb net optional arch=any ssh deb net optional arch=all ssh-askpass-gnome deb gnome optional arch=any profile=!pkg.openssh.nognome"
   ],
   "Standards-Version": [
     "4.6.2"
@@ -54,7 +54,7 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "adduser, devscripts, dropbear, haveged, krb5-admin-server, krb5-kdc, openssl, putty-tools, python3-twisted, sudo, sysvinit-utils, xinetd"
+    "devscripts, haveged, krb5-admin-server, krb5-kdc, openssl, putty-tools, python3-twisted, sudo, sysvinit-utils"
   ],
   "Uploaders": [
     "Colin Watson \u003ccjwatson@debian.org\u003e, Matthew Vernon \u003cmatthew@debian.org\u003e,"
@@ -66,6 +66,6 @@
     "https://salsa.debian.org/ssh-team/openssh.git"
   ],
   "Version": [
-    "1:10.0p1-7"
+    "1:9.2p1-2+deb12u7"
   ]
 }

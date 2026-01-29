@@ -6,25 +6,25 @@
     "x11-xkb-utils, x11-xkb-utils-udeb"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), pkgconf, libx11-dev, libxaw7-dev, libxkbfile-dev, libxrandr-dev, bison, quilt, xutils-dev, x11proto-dev"
+    "debhelper-compat (= 13), pkg-config, libx11-dev (\u003e= 2:1.3.3-2), libxaw7-dev (\u003e= 1:1.0.1), libxkbfile-dev (\u003e= 1:1.0.6-2), libxrandr-dev, bison, quilt, xutils-dev (\u003e= 1:7.5+4), x11proto-dev"
   ],
   "Checksums-Sha1": [
-    "7a0aab653e944dcd087bd63b575b5659e7eebcf5 1764 x11-xkb-utils_7.7+9.dsc ddd573c413dcdb577adf367f4ffd9f31c854a18f 356060 x11-xkb-utils_7.7+9.tar.xz"
+    "6fb7668ef8f1917a288cb6c74e378fe28e996d08 1846 x11-xkb-utils_7.7+7.dsc 2316a57d12f22d5c936805676774a1577245f923 1065033 x11-xkb-utils_7.7+7.tar.gz"
   ],
   "Checksums-Sha256": [
-    "80a85d5923a565f0d4515a840fdc548f441896f893d50ed8e0e1003bcbc4cb25 1764 x11-xkb-utils_7.7+9.dsc 27ae7efb512f3b816c66b7c7290f28de4ae811972e06c5e27a9124d2eab766d4 356060 x11-xkb-utils_7.7+9.tar.xz"
+    "bdd5db28c3a5207ba2639b5951457770197cbfd17fde1f757c2007de31d8824f 1846 x11-xkb-utils_7.7+7.dsc 1091d5ae3a9ec94ff81070306a1085b9834ff00028f8e412041b055ee9d7ed2b 1065033 x11-xkb-utils_7.7+7.tar.gz"
   ],
   "Checksums-Sha512": [
-    "b2cb6b4b5fa1f0664a2d80dd276b8eaae5f1e2327ba7508140b81bb54f1598d04dcbca0a312d9ef55eaea98574252d866acfade1198b7d447589fcab770ffa4a 1764 x11-xkb-utils_7.7+9.dsc 24358d85f1db5d3ba4053a07db3e0addfba547264d6cc3c1fec5fb8a1875de5e27f99d23f65614cf917dff13d250c3cde189d860c51b7beec7f50621f3232f24 356060 x11-xkb-utils_7.7+9.tar.xz"
+    "d54ff2223038119005e3ac2eac59eb259af12bcc52e0bc4f9492a1ba76f6ab47ff444b99f7059fa40b0b90452c11a83375d4c7154f93db008ec019d021ba7b95 1846 x11-xkb-utils_7.7+7.dsc e22595f8cbd933ed8be84fb6b8f8dee71de7519b0dc4b30daed9370501bdd6fef44a1b4cfd620de272369b3f76a3fc9ec394a8a3d6becac1d2178d8aaefa7634 1065033 x11-xkb-utils_7.7+7.tar.gz"
   ],
   "Directory": [
     "pool/main/x/x11-xkb-utils"
   ],
   "Files": [
-    "b9b7b261257bcf7d43c27c964ea9ce3a 1764 x11-xkb-utils_7.7+9.dsc dfbcd6ab2b0045686d1d44bc4af53977 356060 x11-xkb-utils_7.7+9.tar.xz"
+    "00c088d519b4b8af9a7a7abf4c7da0b3 1846 x11-xkb-utils_7.7+7.dsc a63dc858fe1771a266c85edac7dfac77 1065033 x11-xkb-utils_7.7+7.tar.gz"
   ],
   "Format": [
-    "3.0 (native)"
+    "1.0"
   ],
   "Maintainer": [
     "Debian X Strike Force \u003cdebian-x@lists.debian.org\u003e"
@@ -36,7 +36,7 @@
     "x11-xkb-utils deb x11 optional arch=any x11-xkb-utils-udeb udeb debian-installer optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.5.0"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/xorg-team/app/x11-xkb-utils"
@@ -45,6 +45,6 @@
     "https://salsa.debian.org/xorg-team/app/x11-xkb-utils.git"
   ],
   "Version": [
-    "7.7+9"
+    "7.7+7"
   ]
 }

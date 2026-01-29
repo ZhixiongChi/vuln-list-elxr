@@ -6,22 +6,22 @@
     "google-guest-agent"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-go-ini-ini-dev, golang-github-golang-groupcache-dev, golang-github-kardianos-service-dev, golang-github-tarm-serial-dev, golang-github-googlecloudplatform-guest-logging-go-dev, golang-google-grpc-dev"
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-go-ini-ini-dev, golang-github-golang-groupcache-dev, golang-github-kardianos-service-dev, golang-github-tarm-serial-dev, golang-google-cloud-dev, golang-github-googlecloudplatform-guest-logging-go-dev, golang-google-grpc-dev, golang-goprotobuf-dev"
   ],
   "Checksums-Sha1": [
-    "14ee5222864eed990b06e91a79d38e0ed86329b6 5936 google-guest-agent_20211116.00-7.debian.tar.xz 8ddc55c14ff5e53339a358ca45fe82c87753aef4 2428 google-guest-agent_20211116.00-7.dsc 6da464060b95466f370fb204f3ac619788de65d7 70380 google-guest-agent_20211116.00.orig.tar.xz"
+    "5d531b7c88d2a3558cfa472fd736ad15c412cdbe 4288 google-guest-agent_20211116.00-6.debian.tar.xz dd9c798457948013a1e21c53882c8e85fa9dbd42 2111 google-guest-agent_20211116.00-6.dsc 6da464060b95466f370fb204f3ac619788de65d7 70380 google-guest-agent_20211116.00.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "cac9c0b77966d0206cb577d98881d74f35d2ce31334d377278e23276a5e8374c 5936 google-guest-agent_20211116.00-7.debian.tar.xz df9c715e4d752f47daa5ac3f90fbc58dfef5448479c2a33e6d76e48b4c166ce1 2428 google-guest-agent_20211116.00-7.dsc 605368bb18bf16831e9b16c5e456ac5e19e51ba60acdf517387db3107d9733fe 70380 google-guest-agent_20211116.00.orig.tar.xz"
+    "c863477571c0031c332c6c4a7788031ea41603cae8e751af27da1a17410c4389 4288 google-guest-agent_20211116.00-6.debian.tar.xz dea7d2c63dbbc2910b06c27bbc4cd69a6447687a3c5b288f1cc9d8fb1b06cb8a 2111 google-guest-agent_20211116.00-6.dsc 605368bb18bf16831e9b16c5e456ac5e19e51ba60acdf517387db3107d9733fe 70380 google-guest-agent_20211116.00.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "63f600b87537784e2bd9d1133e2d60555fcb09f4b9fb12418ccf16f35afeb9243225e455c365621078a4d5fbe0cd8223b7a3617b865ee248a58811ea04c648df 5936 google-guest-agent_20211116.00-7.debian.tar.xz 18b09b862fa4be41c3f80053dccdd5befe430ff427655ffc70a36468bdc04af40c83456b1d10e6dafaa26e75acdfbb75f0736ec4ab194972f41f4e77e50072cd 2428 google-guest-agent_20211116.00-7.dsc d9f95ddbf37f24a9a2fceecf443e76d66fcf91d38c85bc0d495a2280c0a1cc6cbdd8b110dc602fbb0c568d7c93f257350d185e3d9dd07bebb4c724f622b4d6be 70380 google-guest-agent_20211116.00.orig.tar.xz"
+    "05f483d85d3976b58b5238e382c715f1a09c4c6557f6e9d11df06d49ef9694f6ca4b9d8c3934b6c703b300122d36cbe99aba11696c504d16ca1740aefcbb4290 4288 google-guest-agent_20211116.00-6.debian.tar.xz 76fe495e6de417590ac0a5d28bf225c2a26300812fd7e55d3612dbd4096562ca2f8f0a82f6c42e5fd5a426f3a989ba3c735ff6869f66a690d75f0d3750921a0c 2111 google-guest-agent_20211116.00-6.dsc d9f95ddbf37f24a9a2fceecf443e76d66fcf91d38c85bc0d495a2280c0a1cc6cbdd8b110dc602fbb0c568d7c93f257350d185e3d9dd07bebb4c724f622b4d6be 70380 google-guest-agent_20211116.00.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/google-guest-agent"
   ],
   "Files": [
-    "4a57fc7f9e0ecaa88dd75f32a8d52566 5936 google-guest-agent_20211116.00-7.debian.tar.xz c07449bad6ebd5dc82bd616c1b8c5dce 2428 google-guest-agent_20211116.00-7.dsc b31c0220d3cb6c6c63ac6dd0fa8343c0 70380 google-guest-agent_20211116.00.orig.tar.xz"
+    "53d72a28f0fc0355934bd179a3ad4d16 4288 google-guest-agent_20211116.00-6.debian.tar.xz 997bb0483b7993f715d31e8fe833385e 2111 google-guest-agent_20211116.00-6.dsc b31c0220d3cb6c6c63ac6dd0fa8343c0 70380 google-guest-agent_20211116.00.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,7 +48,7 @@
     "autopkgtest-pkg-go"
   ],
   "Uploaders": [
-    "Michael Banck \u003cmbanck@debian.org\u003e, Leandro (Leo) Dorileo \u003cdorileo@google.com\u003e"
+    "Michael Banck \u003cmbanck@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/cloud-team/google-guest-agent"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/cloud-team/google-guest-agent.git"
   ],
   "Version": [
-    "20211116.00-7"
+    "20211116.00-6"
   ]
 }

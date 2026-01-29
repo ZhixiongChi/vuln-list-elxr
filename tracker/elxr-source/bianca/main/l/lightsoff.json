@@ -6,22 +6,22 @@
     "lightsoff"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), appstream \u003c!nocheck\u003e, desktop-file-utils \u003c!nocheck\u003e, itstool, libadwaita-1-dev (\u003e= 1.6.0), libglib2.0-dev (\u003e= 2.38), libgtk-4-dev (\u003e= 4.14), libxml2-utils, meson (\u003e= 0.50.0), valac (\u003e= 0.22)"
+    "debhelper-compat (= 13), appstream-util \u003c!nocheck\u003e, desktop-file-utils \u003c!nocheck\u003e, dh-sequence-gnome, itstool, libglib2.0-dev (\u003e= 2.38), libgtk-3-dev (\u003e= 3.24), librsvg2-dev (\u003e= 2.32.0), libxml2-utils, meson (\u003e= 0.50.0), valac (\u003e= 0.22)"
   ],
   "Checksums-Sha1": [
-    "386279e3dc0b27cf1d8e21daac529365a0bde411 27604 lightsoff_48.1-2.debian.tar.xz 23522218ffee4dd31185e5b81b17c07a2307f759 2221 lightsoff_48.1-2.dsc 77c3530c136744e54db123ad46693df94f9d3891 641652 lightsoff_48.1.orig.tar.xz"
+    "9dd41e393961f6654f27bb15b77dd7387e94302e 27808 lightsoff_40.0.1-1.debian.tar.xz fe6544f09fdb7ff26b1767bd89cdb2e66f38c9c9 2191 lightsoff_40.0.1-1.dsc 177f485773e3f9b93ec03226a30f85ddeb94bee3 562340 lightsoff_40.0.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "f6b6ea8233b41494207fc1cf8a0de7945434212173d9f5f774c82bd21d4d9666 27604 lightsoff_48.1-2.debian.tar.xz 9f48d39fbb70df9d8c21def74cbcc457a910bad3ac701ad7afb08680723bb62e 2221 lightsoff_48.1-2.dsc 2ec99501713dbcd13c5a565a2e118cc4cc2b502836b387a7736cfba40a8b3989 641652 lightsoff_48.1.orig.tar.xz"
+    "ddf24645da4dafe3bc87338c1a4866aa4c046a7ab766dbee5439796ebd029ab4 27808 lightsoff_40.0.1-1.debian.tar.xz cef731432bd04188b89d04981b5a104d715cc1e47b2429f2ba4c533e24bfe6a6 2191 lightsoff_40.0.1-1.dsc acd38d4706f11c6cbb18a1afae77637afbf481d02e0eebfe407595f088f1f1ab 562340 lightsoff_40.0.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "505f32a9080a04dbc067d46c0372db4e499df091f6c952a94638eb00df5d27a34511f5dfdc6c8c8e997a46ea2307c5d4888a3df61f88792cb2607573b39466fd 27604 lightsoff_48.1-2.debian.tar.xz 416c0b830cbf675c6f7e6f49647c1771275f10873a6b6ee56dd13ad701f80e6358c900681230b6e71443091cadb40110fcc8af81a9619a52372597ba20205c9d 2221 lightsoff_48.1-2.dsc fc9c9c4442c764158afbbab02954637c930f2a7cf3cb8b4769bea61a8c6f7e5a74e1776d5949486c6b6667d79668ea301b284cf4155bb4a459013052ec4f0f85 641652 lightsoff_48.1.orig.tar.xz"
+    "6ff5ef9075a301d4d1a0312c7378905301c567f867dc0579461bddbb2539ff35aa1ce7c496a131eae040101b371ee5091b926808d92b042da3ec6bf79d256fa7 27808 lightsoff_40.0.1-1.debian.tar.xz fee809f1850eb673f934494565cb3e91452ad2aef12eaf44b3291f8ed18013011fa1637e61031f61e8cfde398be8c35cea471ccf7069f9cbb1f86db0917298f6 2191 lightsoff_40.0.1-1.dsc ac1f812c3297a42f1e5aa8b8cdda2884b5c2aea2ea0190047ba5a0f47254b191d2105d7d1b548f0233fdee1b0e6033a97265a1cb28503daf403ee4e2c53a1aca 562340 lightsoff_40.0.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/l/lightsoff"
   ],
   "Files": [
-    "438f10c8023914a3f20a0d30c4f17e08 27604 lightsoff_48.1-2.debian.tar.xz f40d1d8428060a0abadcc0cd9c76fd2e 2221 lightsoff_48.1-2.dsc 50c9e29f10104a96c7b9f462abc89c18 641652 lightsoff_48.1.orig.tar.xz"
+    "5cef4db282c39dcda3c23019fb45afef 27808 lightsoff_40.0.1-1.debian.tar.xz 2c1fe874f626c70abbfffad2aa3533e3 2191 lightsoff_40.0.1-1.dsc 19c681b8c4c06263161a20e46d2d7d5f 562340 lightsoff_40.0.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "lightsoff deb games optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.0"
   ],
   "Uploaders": [
-    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
+    "Jeremy Bicha \u003cjbicha@debian.org\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/lightsoff"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/lightsoff.git"
   ],
   "Version": [
-    "1:48.1-2"
+    "1:40.0.1-1"
   ]
 }

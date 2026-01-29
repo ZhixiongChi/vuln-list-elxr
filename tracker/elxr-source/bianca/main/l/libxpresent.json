@@ -6,28 +6,28 @@
     "libxpresent1, libxpresent-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), quilt, pkgconf, xutils-dev, x11proto-dev, libx11-dev, libxext-dev, libxfixes-dev, libxrandr-dev"
+    "debhelper (\u003e= 9), dh-autoreconf, quilt, pkg-config, automake, libtool, xutils-dev, x11proto-present-dev, x11proto-core-dev, x11proto-xext-dev, libx11-dev, libxext-dev, libxfixes-dev, libxrandr-dev"
   ],
   "Checksums-Sha1": [
-    "c5030bffae34b9d1e8fe974b8ae16fdf09a9697b 17924 libxpresent_1.0.1-1.diff.gz b182707957d6a0e627373c48b1d38e69138385b4 2346 libxpresent_1.0.1-1.dsc 3102c66b57ced19b686afe139f94ea6b4074e29b 386385 libxpresent_1.0.1.orig.tar.gz 9be7534ca78eb49dc264a903c54fb05901dfceeb 801 libxpresent_1.0.1.orig.tar.gz.asc"
+    "57ca1fe9d9fa2326539a5886abd26553eba8a517 14867 libxpresent_1.0.0-2.diff.gz e259513bc0db7c0abe91f451eaa4c6291d2a8427 2165 libxpresent_1.0.0-2.dsc 701938f611a458ee79d6a469cea09888e6a69efb 351037 libxpresent_1.0.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "954198e1b50fd3e160b7b85fad4eb101a716f0416e573a43d1d20444442825b7 17924 libxpresent_1.0.1-1.diff.gz 258bf15fd4beeda78ee19a276e0cb9b7e5591619a0461a93e580abce180df08d 2346 libxpresent_1.0.1-1.dsc 8ebf8567a8f6afe5a64275a2ecfd4c84e957970c27299d964350f60be9f3541d 386385 libxpresent_1.0.1.orig.tar.gz 70ac5c28474b1d0f76c996abbfd0090ab96614d5e61424d83df60ffcd5213057 801 libxpresent_1.0.1.orig.tar.gz.asc"
+    "d3ee2b9a4fad45837dde48eae69de0bb72121b304e3f3dcf311e37b055c7105b 14867 libxpresent_1.0.0-2.diff.gz d7ecdccc883b0ec9b083f0a71fe5660f1baaefa7a5a9f4529b9dc63e4fe5bd9f 2165 libxpresent_1.0.0-2.dsc 92f1bdfb67ae2ffcdb25ad72c02cac5e4912dc9bc792858240df1d7f105946fa 351037 libxpresent_1.0.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "31f3a08aad1d4e86640ed0cfe762e5fcdd1760456151c921ad82310cee7d05077d9a05b2def43214cf476bc99de2993a826695cf7850f3ff830b6e39f4cc8e52 17924 libxpresent_1.0.1-1.diff.gz 82b3c554c75e5c62e1751009e2da22c0e7609bf1c2d32519d48ae449161296b681e0e56e89c0ce58729aee5a14bf27a3e6fd31f223c8d22634cd421eec6be56f 2346 libxpresent_1.0.1-1.dsc b7ec4f5f883ff90570d2123f9335fb3c4c296175cc196909b4ba1291d3dc58c303ede57524dda98d69fde6232fb61107c7342e9bc80e2f40c774fc0f239ebfbc 386385 libxpresent_1.0.1.orig.tar.gz 258e3c30eb46bdeefcc35ddf1ef092ba17fc6f34751e3d9f0900855b13db1ccb18c7a1da432088e308016f13db0c410bac583697bfef3660bf36d95a38246f0b 801 libxpresent_1.0.1.orig.tar.gz.asc"
+    "d5450b663caffea7fde32acfc64c471f499bf1756dd0010c2963d7595ca93d256e60824232d4dba00650581f9ffdf649101d1156489c958c3d9ce83a89d1da71 14867 libxpresent_1.0.0-2.diff.gz 8cb7cea69d376e04913b551bf09a63b990159664a41180329e389a15cbf9cd92eed934c51416b9c3c67d4cf40b6a259e846094d32770239d1534a32a9fa6d645 2165 libxpresent_1.0.0-2.dsc aa9c1052032f86a0104100941dc22ec3c67f94d329507801b1c5f865f10d9dd875abe1451e76fe5d9ce8ca2e03804a75ba2194f120edc0b7959a32e7d36a669b 351037 libxpresent_1.0.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libx/libxpresent"
   ],
   "Files": [
-    "496581058befaef077d63001cb728084 17924 libxpresent_1.0.1-1.diff.gz e162808a317b4f003d6e089453f7a248 2346 libxpresent_1.0.1-1.dsc 312f1d9ece56e598e85e2e9a39ca5efc 386385 libxpresent_1.0.1.orig.tar.gz ed487dbbf7214cb32ca4f68413675e84 801 libxpresent_1.0.1.orig.tar.gz.asc"
+    "7b6e6b8cecdc98ef5573468f840a0d4a 14867 libxpresent_1.0.0-2.diff.gz 0b64a117f7ea740e42233cb8eb5686e7 2165 libxpresent_1.0.0-2.dsc 2f543a595c3e6a519e2e38d079002958 351037 libxpresent_1.0.0.orig.tar.gz"
   ],
   "Format": [
     "1.0"
   ],
   "Homepage": [
-    "http://gitlab.freedesktop.org/xorg/lib/libXpresent/"
+    "http://cgit.freedesktop.org/xorg/lib/libXpresent/"
   ],
   "Maintainer": [
     "Debian X Strike Force \u003cdebian-x@lists.debian.org\u003e"
@@ -39,18 +39,18 @@
     "libxpresent-dev deb libdevel optional arch=any libxpresent1 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "3.9.6"
   ],
   "Uploaders": [
     "Julien Cristau \u003cjcristau@debian.org\u003e"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/xorg-team/lib/libxpresent"
+    "https://anonscm.debian.org/cgit/pkg-xorg/lib/libxpresent.git"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/xorg-team/lib/libxpresent.git"
+    "https://anonscm.debian.org/git/pkg-xorg/lib/libxpresent.git"
   ],
   "Version": [
-    "1.0.1-1"
+    "1.0.0-2"
   ]
 }

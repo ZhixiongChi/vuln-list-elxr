@@ -9,19 +9,19 @@
     "debhelper-compat (= 13)"
   ],
   "Checksums-Sha1": [
-    "6a4a99425d19060e723b546dd9c81730521289e3 3496 trivial-features_20250129.git18a5cfa-2.debian.tar.xz 5bc3eed3881a41db5f9002580bcaa2e5149b71a0 2372 trivial-features_20250129.git18a5cfa-2.dsc 101a232733a49b7bebc557a12a93532f145e8e6f 10368 trivial-features_20250129.git18a5cfa.orig.tar.xz"
+    "5582320f97419c4fe3d814a5cd44f77f06742e92 3632 trivial-features_20210228.gitf6e8dd7-2.debian.tar.xz 25f89e7df6b64dc0c7f728764f6364bb840491e6 2246 trivial-features_20210228.gitf6e8dd7-2.dsc 60d83f96fb9aba2e5974ee7e034113c64da7b96d 10348 trivial-features_20210228.gitf6e8dd7.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "478039e86beac68411267985f13ea2b63078beb40b3522bf3e88cdcfe909020c 3496 trivial-features_20250129.git18a5cfa-2.debian.tar.xz 30cd5062e5465fd014a1aa56e612f19f0e64adc418c714ebe44d00c24ab1aabb 2372 trivial-features_20250129.git18a5cfa-2.dsc f428cda6388bb036e7bb21f54caea91927c7fdfecb52381a1d413fc789b965b9 10368 trivial-features_20250129.git18a5cfa.orig.tar.xz"
+    "5da343449616517c948895cf4d1c59ff4f3f1e519c80da9c480589732c65e81e 3632 trivial-features_20210228.gitf6e8dd7-2.debian.tar.xz 1c5c664b04af41b8364d27f32803a54a0d4929c4f1d2ba96ae55cdfdc5e08aba 2246 trivial-features_20210228.gitf6e8dd7-2.dsc 3285619fd75ca50ec794d46e87bf7f738b0cc67e6700fac635c31a955e94e90e 10348 trivial-features_20210228.gitf6e8dd7.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "6be074ba0fbbd64311a72cb1f84277319fea282426a837deb0935c22897eb865820004df1be37d588e8341a61aa268c4214175f13664777539b7d1a0a3d8f54f 3496 trivial-features_20250129.git18a5cfa-2.debian.tar.xz 2c195cea563b18033a825e00f762fe9c59359ea5c3936409074b5b28cad1abb15ef573166051cc2ba355dd0eace02a285b6d6c83df7e4635450b430f9ac6b1ec 2372 trivial-features_20250129.git18a5cfa-2.dsc 85c1087acf1e7f82566767b5883cc0ca5dc92a274b07fd8ef06ccb743ec7b7a5ea01a6aae49bd101303794294c30e1d67e6609ce6a955bbb6d20cc2c685cc11c 10368 trivial-features_20250129.git18a5cfa.orig.tar.xz"
+    "de498d8e39473d73a4eadb8d80019e2eed5d97ffe415560394cc57b99d20cff867d3f8835d436cac6aa3dc192490412b57fa3a7fe0f2d80f962ba33828d856dc 3632 trivial-features_20210228.gitf6e8dd7-2.debian.tar.xz 6f5a0dd81dfc27166101e49680c15cdfb70569a78d3f749edb631c2b90557210053b18bc1cf4679e03a00cb636f8c4927d4f0ddc95d94a3a41ffbb110451977e 2246 trivial-features_20210228.gitf6e8dd7-2.dsc 09c52b5b8ffe21400044594be83ec4568d84107c00725dcc201c1c5b38b7b403ba8fcc19617d97a7e133903bac67ae11fdf8f518aeee4866ee746e5db9a7e9b7 10348 trivial-features_20210228.gitf6e8dd7.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/t/trivial-features"
   ],
   "Files": [
-    "8dbc14c1c44c301f469b92e24ca788e2 3496 trivial-features_20250129.git18a5cfa-2.debian.tar.xz d689c2488d516aee96f339e22729e612 2372 trivial-features_20250129.git18a5cfa-2.dsc 139f65e2f2c5b4b60a6f60367ecdc9e0 10368 trivial-features_20250129.git18a5cfa.orig.tar.xz"
+    "8c59eb63445ae06c32a6b43057d01945 3632 trivial-features_20210228.gitf6e8dd7-2.debian.tar.xz 619ecdc32233bfe578632a122bfd7e53 2246 trivial-features_20210228.gitf6e8dd7-2.dsc dda3ec66d55183aa4fa9e031ff37b58d 10348 trivial-features_20210228.gitf6e8dd7.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "cl-trivial-features deb lisp optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "cl-alexandria, cl-cffi, cl-rt, clisp, ecl, sbcl"
   ],
   "Uploaders": [
-    "Peter Van Eynde \u003cpvaneynd@debian.org\u003e"
+    "Peter Van Eynde \u003cpvaneynd@debian.org\u003e, Sébastien Villemot \u003csebastien@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/common-lisp-team/trivial-features"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/common-lisp-team/trivial-features.git"
   ],
   "Version": [
-    "20250129.git18a5cfa-2"
+    "20210228.gitf6e8dd7-2"
   ]
 }

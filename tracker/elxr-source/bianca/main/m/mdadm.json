@@ -6,31 +6,31 @@
     "mdadm, mdadm-udeb"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libudev-dev, pkgconf, systemd-dev"
+    "debhelper-compat (= 13), libudev-dev, groff-base, po-debconf"
   ],
   "Checksums-Sha1": [
-    "4e93f152be3682938d13efe613c127f04234b6a7 89580 mdadm_4.4-11.debian.tar.xz e25df1d5dad63aa8fd252e468f1ae46401b3cd70 1356 mdadm_4.4-11.dsc 57d7bc2f514a1f01009349e16592393402a4a8eb 468816 mdadm_4.4.orig.tar.xz"
+    "94d8720792344b29adf1191827eb6d29930efcdf 90580 mdadm_4.2-5.debian.tar.xz d71c585559647ba77a0966972ccd488c10b941ef 2013 mdadm_4.2-5.dsc 27cb072cc0b7f567ee4582bcab6d0fe9624b16bf 601091 mdadm_4.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "2ad606187deba0306265469c814ea2dd25bac2431e1f7c5803a2bed05384d49a 89580 mdadm_4.4-11.debian.tar.xz 64b7fd072e71af730fab71715ec6468de670ce77ac9d3561d600372d281a4efc 1356 mdadm_4.4-11.dsc 68d4efd220474c0fda80e6c09d1909a3b3484592ba2815c0caa9e10437543022 468816 mdadm_4.4.orig.tar.xz"
+    "9eee09d92aeeb6c337fee877ba013adac74684d45c909d33d9420c32525ba892 90580 mdadm_4.2-5.debian.tar.xz 188e0c6519fa57c26d045f1d503f9087b5e5363137d778a263353221cd7ed72f 2013 mdadm_4.2-5.dsc c83447797cccc772d1c389b1917a2bfda59bd7545480bdccd792b57b310b428e 601091 mdadm_4.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "6aaa804a3d331e9ddaeefafe7f0d8344c548d4b58bfc5ca63aee9f738c3793bae957988cb05b42b28b269b315d6a0fb9f2599a458e57bcf748d7fcd9c2fcb890 89580 mdadm_4.4-11.debian.tar.xz 9e49eee19e1a471849fbdd7720e51ea528e91cadd961d584edb1abed5215b692a08653f26c9005a9b0d54a956c7e240d7fc80eaa38157da6ed28d6256899c6dc 1356 mdadm_4.4-11.dsc 93fb793414860265e4e59a47cf3767dfc545659f4c0db032f226d1f0a35fdb6e7ad9c05f0f7f0248cfba2ab32e1e28e4045307134a8a21a70241e36ca0123592 468816 mdadm_4.4.orig.tar.xz"
+    "d29a6302f64ac94bdc429db85971294e0661c62037ad8fe8ad2b608b3eda6351b92e51ad0973ff2ac73ef6f58316b7b40be669578c7052b835db344ed49d2a63 90580 mdadm_4.2-5.debian.tar.xz 2e4492238294b12ee78f98bda4dc9f9b5d0625f9f4750c915d19f3bafc499412c5779ff25642f1787ee19c09ad14d32a93591579b944434689f6f95f4716c233 2013 mdadm_4.2-5.dsc 112a897c6943d7343f44ffe32a8d7ef11e1f1624f51385c0f1d27458d661202bb378678a3ddc78ed2e24533be234441ea15cf33769345d5709b72b72ad9ec540 601091 mdadm_4.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/m/mdadm"
   ],
   "Files": [
-    "e0fc8da5f9d7dfaa1e22f320ea165060 89580 mdadm_4.4-11.debian.tar.xz 189780ca44fe5b8a9be07609c772cad9 1356 mdadm_4.4-11.dsc d55e87456bc0906cef41c073bc7ca697 468816 mdadm_4.4.orig.tar.xz"
+    "155d9e1aebb5812733b54ba5c545c3b7 90580 mdadm_4.2-5.debian.tar.xz 6fd9e6cf2eb100f4d36eb09630940f21 2013 mdadm_4.2-5.dsc a5a18322e622949a95448805fa7b221f 601091 mdadm_4.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://github.com/md-raid-utilities/mdadm"
+    "https://raid.wiki.kernel.org/index.php/Linux_Raid"
   ],
   "Maintainer": [
-    "Daniel Baumann \u003cdaniel@debian.org\u003e"
+    "Daniel Baumann \u003cdaniel.baumann@progress-linux.org\u003e"
   ],
   "Package": [
     "mdadm"
@@ -39,21 +39,21 @@
     "mdadm deb admin optional arch=linux-any mdadm-udeb udeb debian-installer optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "fdisk, udev"
+    "fdisk, udev, util-linux"
   ],
   "Vcs-Browser": [
-    "https://forgejo.debian.net/linux/mdadm"
+    "https://salsa.debian.org/debian/mdadm"
   ],
   "Vcs-Git": [
-    "https://forgejo.debian.net/linux/mdadm"
+    "https://salsa.debian.org/debian/mdadm.git -b debian/master"
   ],
   "Version": [
-    "4.4-11"
+    "4.2-5"
   ]
 }

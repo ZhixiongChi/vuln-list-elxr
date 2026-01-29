@@ -6,25 +6,28 @@
     "libclutter-1.0-0, libclutter-1.0-common, libclutter-1.0-dev, libclutter-1.0-doc, clutter-1.0-tests, gir1.2-clutter-1.0"
   ],
   "Build-Depends": [
-    "dbus \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gtk-doc-tools (\u003e= 1.20), libatk1.0-dev (\u003e= 2.5.3), libcairo2-dev (\u003e= 1.14.0), libcogl-dev (\u003e= 1.21.2), libcogl-pango-dev (\u003e= 1.14.0), libcogl-path-dev, libdrm-dev [!hurd-any], libgdk-pixbuf-2.0-dev (\u003e= 2.0), libgirepository1.0-dev (\u003e= 1.35.8), libgl-dev, libglib2.0-dev (\u003e= 2.53.4), libgtk-3-dev (\u003e= 3.16), libgudev-1.0-dev [linux-any], libinput-dev (\u003e= 0.19.0) [linux-any], libjson-glib-dev (\u003e= 0.12.0), libpango1.0-dev (\u003e= 1.30), libudev-dev (\u003e= 136) [linux-any], libxcomposite-dev (\u003e= 1:0.4), libxdamage-dev, libxext-dev, libxi-dev, libxkbcommon-dev, meson (\u003e= 0.49.2), xauth \u003c!nocheck\u003e, xsltproc, xvfb \u003c!nocheck\u003e"
+    "autopoint, dbus \u003c!nocheck\u003e, debhelper-compat (= 13), gnome-pkg-tools, gobject-introspection (\u003e= 1.39.0), gtk-doc-tools (\u003e= 1.20), libatk1.0-dev (\u003e= 2.5.3), libcairo2-dev (\u003e= 1.14.0), libcogl-dev (\u003e= 1.21.2), libcogl-pango-dev (\u003e= 1.14.0), libcogl-path-dev, libdrm-dev [!hurd-any], libgdk-pixbuf-2.0-dev (\u003e= 2.0) | libgdk-pixbuf2.0-dev (\u003e= 2.0), libgirepository1.0-dev (\u003e= 1.35.8), libgl-dev, libglib2.0-dev (\u003e= 2.53.4), libgtk-3-dev (\u003e= 3.16), libgudev-1.0-dev [linux-any], libinput-dev (\u003e= 0.19.0) [linux-any], libjson-glib-dev (\u003e= 0.12.0), libpango1.0-dev (\u003e= 1.30), libudev-dev (\u003e= 136) [linux-any], libxcomposite-dev (\u003e= 1:0.4), libxdamage-dev, libxext-dev, libxi-dev, libxkbcommon-dev, xauth \u003c!nocheck\u003e, xsltproc, xvfb \u003c!nocheck\u003e"
   ],
   "Build-Depends-Indep": [
     "libatk1.0-doc \u003c!nodoc\u003e, libcairo2-doc \u003c!nodoc\u003e, libclutter-gtk-1.0-doc \u003c!nodoc\u003e, libcogl-doc \u003c!nodoc\u003e, libgdk-pixbuf2.0-doc \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e, libgtk-3-doc \u003c!nodoc\u003e, libpango1.0-doc \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "47f8c093095008f2ba5d110c628b1790f4154ff4 28120 clutter-1.0_1.26.4+git2779b932+dfsg-7.debian.tar.xz 6b867560a05d47af2c478273e6927ad9d572ed61 3625 clutter-1.0_1.26.4+git2779b932+dfsg-7.dsc 683a8d19cd1ac74058d5f214dd514a2ab39ac65f 1783556 clutter-1.0_1.26.4+git2779b932+dfsg.orig.tar.xz"
+    "377db816d372bfa95dbf3424b3d200f7005bc0e0 23464 clutter-1.0_1.26.4+dfsg-4.debian.tar.xz 62380e33be2e17d7cfee72e6fea5fccb32aafbca 3622 clutter-1.0_1.26.4+dfsg-4.dsc e6613ed43b421cd2bd8c7edc65c4e11173afaf78 3623520 clutter-1.0_1.26.4+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "e1ba414d7f54ea5a0cdb1fdcf1eaeef235078127cb09f8c4585a7c9436c68307 28120 clutter-1.0_1.26.4+git2779b932+dfsg-7.debian.tar.xz 81bab56a9c19cad7f4d1ad6e1134b5af74467e2ec1d55b061a623bcea6067db1 3625 clutter-1.0_1.26.4+git2779b932+dfsg-7.dsc 2e05c618e20dd15d24ec6c3ebe4f85f3a56912080f2724070100e400e9381c8d 1783556 clutter-1.0_1.26.4+git2779b932+dfsg.orig.tar.xz"
+    "2d3855febbd337b62513912542e1f785866902ceefe88d95f4e19ee11d2bd3f3 23464 clutter-1.0_1.26.4+dfsg-4.debian.tar.xz cca04efd0d92c826e77fa2d5d92a1562fc9324591b2007b417a2cd8385714c43 3622 clutter-1.0_1.26.4+dfsg-4.dsc 3795be3c07042c6d67b191c416c85183b8c3291a214dd5fd7dc1dd1c7a9de290 3623520 clutter-1.0_1.26.4+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "2d81f48c7a206399685482117466097e6cfc3e21fda75b3004dbc60f328670cc60ea260e8abc50b68555ccf5203a998a185d4d562c23848b2e352c921230e252 28120 clutter-1.0_1.26.4+git2779b932+dfsg-7.debian.tar.xz 37148c67e70af564aee16f95ebf5ec0d27cb94f7aae72264f1c273008bf4e9e0383dde1802b3826285fd5b4eee4a1e6690ad2f4d1a6f6bbddaeb3b63e45b1c4e 3625 clutter-1.0_1.26.4+git2779b932+dfsg-7.dsc a6e6e7f133f25361ccf2cf2090030f1d11b4e4b67acb661df59ab8b0c4cd8148f4e851ef9ec0dab94a6860d9d72868586b4365ee1c75d4d35df5dfbadd7380d1 1783556 clutter-1.0_1.26.4+git2779b932+dfsg.orig.tar.xz"
+    "22238a8afe1862e537fc587c01dcbf8c845e572258ae00e22cacdee643bdcf1e8d96401d462297f3a5bae0adc32aa45b2f09c63ffde75634692722aa3f5556fc 23464 clutter-1.0_1.26.4+dfsg-4.debian.tar.xz d43723b0250a078d9ce697d3720ec7c9442558624c14d482c8ff8c519274d695d9452c83a544b5c7007f6e81b9962c4cfbe0854d8563086ea384b8a55a4abb38 3622 clutter-1.0_1.26.4+dfsg-4.dsc 04ced6890921e7afe6cc66ca57d9ba0943d282a054c1535e965797007057c36125240d0636e20df1001870aaddf32aabf93200eebae00c86a731193618d8b88f 3623520 clutter-1.0_1.26.4+dfsg.orig.tar.xz"
+  ],
+  "Dgit": [
+    "e026b5a7ae5ce2741968c6dcfbfd6365323cdbb4 debian archive/debian/1.26.4+dfsg-4 https://git.dgit.debian.org/clutter-1.0"
   ],
   "Directory": [
     "pool/main/c/clutter-1.0"
   ],
   "Files": [
-    "2b6e949d393a0a36212cb621d4416e89 28120 clutter-1.0_1.26.4+git2779b932+dfsg-7.debian.tar.xz 602d599690037ee8e972b9825062be62 3625 clutter-1.0_1.26.4+git2779b932+dfsg-7.dsc abb3ad36fd2011f7add3656667eab5f3 1783556 clutter-1.0_1.26.4+git2779b932+dfsg.orig.tar.xz"
+    "067024fd6564fa8cac1510b337cfae6f 23464 clutter-1.0_1.26.4+dfsg-4.debian.tar.xz a21b837bbddd29b0c2aabd9cdc6dbbca 3622 clutter-1.0_1.26.4+dfsg-4.dsc 9326096cd42e6d353d896499e27cc936 3623520 clutter-1.0_1.26.4+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +45,7 @@
     "clutter-1.0-tests deb misc optional arch=any gir1.2-clutter-1.0 deb introspection optional arch=any libclutter-1.0-0 deb libs optional arch=any libclutter-1.0-common deb libs optional arch=all libclutter-1.0-dev deb libdevel optional arch=any libclutter-1.0-doc deb doc optional arch=all profile=!nodoc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -51,7 +54,7 @@
     "build-essential, dbus, gnome-desktop-testing, libgl1-mesa-dri, xauth, xvfb"
   ],
   "Uploaders": [
-    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e, Sjoerd Simons \u003csjoerd@debian.org\u003e, Rico Tzschichholz \u003cricotz@ubuntu.com\u003e,"
+    "Jeremy Bicha \u003cjbicha@debian.org\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Rico Tzschichholz \u003cricotz@ubuntu.com\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/clutter"
@@ -60,6 +63,6 @@
     "https://salsa.debian.org/gnome-team/clutter.git"
   ],
   "Version": [
-    "1.26.4+git2779b932+dfsg-7"
+    "1.26.4+dfsg-4"
   ]
 }

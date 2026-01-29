@@ -6,22 +6,22 @@
     "libnginx-mod-http-headers-more-filter"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-nginx"
+    "debhelper-compat (= 13), dh-sequence-nginx, nginx-abi-1.22.1-7"
   ],
   "Checksums-Sha1": [
-    "88253b84fb6bfe7ab100dd34abf1789f5a8775a5 3664 libnginx-mod-http-headers-more-filter_0.38-2.debian.tar.xz e1d0fdfdb111293ed1004a3c5d00e388dc0b5262 2364 libnginx-mod-http-headers-more-filter_0.38-2.dsc 3fe341fb6628843f205a1557b114de45c79f2555 29472 libnginx-mod-http-headers-more-filter_0.38.orig.tar.gz"
+    "29775200e4cc28f699db7308b916fbc83301c379 3384 libnginx-mod-http-headers-more-filter_0.34-3.debian.tar.xz bdc13304141bc6f2558a330fe0a4be8287892574 2384 libnginx-mod-http-headers-more-filter_0.34-3.dsc 3933e2ead97c61e8e8194fd6cc293a0c16fad4bd 28827 libnginx-mod-http-headers-more-filter_0.34.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "9927ab4181e5d7f7a8ea75c952e20358a7cb985b320056d46efc2a2cc8f69776 3664 libnginx-mod-http-headers-more-filter_0.38-2.debian.tar.xz 05d31d320f0bb54b936684087c593484b9fb29d010c38a05bee20f59044ec370 2364 libnginx-mod-http-headers-more-filter_0.38-2.dsc febf7271c0c3de69adbd02c1e98ee43e91a60eeb6b27abfb77b5b206fda5215a 29472 libnginx-mod-http-headers-more-filter_0.38.orig.tar.gz"
+    "79f6b6a982b71db0879def36db7a922ab18e5d41f816db893fcfa5996184ef61 3384 libnginx-mod-http-headers-more-filter_0.34-3.debian.tar.xz ce8eccddec666e986f052511ff271c014fcda2eec1935900fed1f6f0a7e83d32 2384 libnginx-mod-http-headers-more-filter_0.34-3.dsc 0c0d2ced2ce895b3f45eb2b230cd90508ab2a773299f153de14a43e44c1209b3 28827 libnginx-mod-http-headers-more-filter_0.34.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "92f7838f12ae767d4a159e2f88069f11622725454ade24fd5c1bbdf5f20b53ef9be609e1bcbd1f16af4e471b416a45a4326d408b4ce719e3f4c994f8373dc4da 3664 libnginx-mod-http-headers-more-filter_0.38-2.debian.tar.xz a782e87bd3286072394cc663a18a5dd1fd8c20d0ecc147a214fcc00d9230b86379efa363b4fe6862403b331fa9020249a0443ee2506e5032b04b0219645efff6 2364 libnginx-mod-http-headers-more-filter_0.38-2.dsc 90948a79b88bbe2004dc1a53a5189474405787d518ba4e0ee802992b29372f3d08a3a1cf3dc0d5a2089de38b3a99e6133a4d6ac2feaf018f7b23600d7ef23948 29472 libnginx-mod-http-headers-more-filter_0.38.orig.tar.gz"
+    "9cdc06ff97535b72120de4773c68e475fd009cc0bfa4faed60ab8bb2d64f653fb4430cb64d72e335b86facaafcc90806670c53dc9b5ab252ec1bfe63aa203ac5 3384 libnginx-mod-http-headers-more-filter_0.34-3.debian.tar.xz f5066141b84101156be3a30a098b7c8aff8c481c7bbf37f825aa3ca2eba69bc0cc6868a9235bfd37518a5a3d52dee8e203f3c61003065af552f195d59063a5f1 2384 libnginx-mod-http-headers-more-filter_0.34-3.dsc 2c0c140feeb29f0154a223dc3020ff956f894d63e0232a7bc0ca33fcb26f8b807bda868159ae30b6cac7456ec25b831c3d299ea18e234202ae5d14c1ff471a4b 28827 libnginx-mod-http-headers-more-filter_0.34.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libn/libnginx-mod-http-headers-more-filter"
   ],
   "Files": [
-    "9a443708f5661eb6787c3bb13db0f8ca 3664 libnginx-mod-http-headers-more-filter_0.38-2.debian.tar.xz 9742dc019df52c1726a5cd20c1832833 2364 libnginx-mod-http-headers-more-filter_0.38-2.dsc 520e4099ea40b62069ec92534d723627 29472 libnginx-mod-http-headers-more-filter_0.38.orig.tar.gz"
+    "d0bac68970f8c4fbaf1f88a7f88d60d0 3384 libnginx-mod-http-headers-more-filter_0.34-3.debian.tar.xz 8db7ddea31310fd2478135c9ceb14df2 2384 libnginx-mod-http-headers-more-filter_0.34-3.dsc a1c5af547af31b058c3e75c40b6f58b1 28827 libnginx-mod-http-headers-more-filter_0.34.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libnginx-mod-http-headers-more-filter deb httpd optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "curl, nginx, nginx-core"
   ],
   "Uploaders": [
-    "Jan Mojžíš \u003cjanmojzis@debian.org\u003e,"
+    "Jan Mojžíš \u003cjan.mojzis@gmail.com\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/nginx-team/libnginx-mod-http-headers-more-filter"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/nginx-team/libnginx-mod-http-headers-more-filter.git"
   ],
   "Version": [
-    "1:0.38-2"
+    "1:0.34-3"
   ]
 }

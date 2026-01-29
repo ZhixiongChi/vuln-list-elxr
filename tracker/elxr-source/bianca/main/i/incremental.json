@@ -6,22 +6,22 @@
     "python3-incremental"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-click, python3-setuptools, python3-twisted"
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-click, python3-setuptools, python3-twisted"
   ],
   "Checksums-Sha1": [
-    "9373b14b1ac971f8d3a47465d1a8a85bc1ad4c72 5108 incremental_24.7.2-3.debian.tar.xz e7666d13cfb5180645ed19878d0d20153a1f8560 2184 incremental_24.7.2-3.dsc fa2f821c506600bcba407264205b58c6939e4907 28157 incremental_24.7.2.orig.tar.gz"
+    "2d57e897ce56ce0bec1b78b85a077c958ad0a3dc 4336 incremental_21.3.0-2.debian.tar.xz 5793930ddd5d035304b4753e933b569768e11cc2 2175 incremental_21.3.0-2.dsc 1567803d434bf0215238d179ced706da2385cd5c 17058 incremental_21.3.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "fb799dc89a0516ad2e83eb918206dba52baebf3ca1e95acdb733c3e9026b654e 5108 incremental_24.7.2-3.debian.tar.xz 248187d9c137afcae3936f5047e569fc9081bf42fb3b75bd4918b4ff85f33fd0 2184 incremental_24.7.2-3.dsc fb4f1d47ee60efe87d4f6f0ebb5f70b9760db2b2574c59c8e8912be4ebd464c9 28157 incremental_24.7.2.orig.tar.gz"
+    "287f31a82eb3ce885674aac1858709b314287e0c6b41376b1f550edc8bc47b24 4336 incremental_21.3.0-2.debian.tar.xz e0ecae33505eae88a3714b19ea9052e5e28f1ff74c274493e35e005ca1946424 2175 incremental_21.3.0-2.dsc 02f5de5aff48f6b9f665d99d48bfc7ec03b6e3943210de7cfc88856d755d6f57 17058 incremental_21.3.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "334ac5cfa71797a7f65d628ab1b2fb84bbd1e62df244b1d1ddf128737a18092a0731b11926f349b56c5164eeeb9573cf73d00a0428493e7775f497ac393460ba 5108 incremental_24.7.2-3.debian.tar.xz 74e064362c38d551923e523364822f4d39112a574a4db01086a4319ff56488abe99a99a1ee8172ed5b9eb184555039848960ab6a6df9cd700b335060aa05a735 2184 incremental_24.7.2-3.dsc d738d32392ff3a3fa15b880598a74c8fe61383ab2ca167612ffdad464edda9d08fbfabfdf5c4939731c4d0489a76ba72a483fe3813351610b3618fbcc9539d82 28157 incremental_24.7.2.orig.tar.gz"
+    "7ec680fc02ade96bf8591705d06c59d53ecd20cd634c7b0e10c4501a2f43ce9f734a4cace566bcbd116d1dd0b8fbb023f63d0b3c4194d9853be4a8e9026ffab8 4336 incremental_21.3.0-2.debian.tar.xz fdd7883edc72b34ff62e2fc5af7629969e8d68792472708ce9df9885c396a828a78aae76170168793026f3049db1b0353dcf00e7ca411d1d610196067afb095a 2175 incremental_21.3.0-2.dsc b8b50151cd2467e552d9268decadbb839b047cf58a450b72e0437ffc5f9af7d78c20a24193c0668cf48dd6264b852d9cee68e59529018e0ca07825e0c185d1e8 17058 incremental_21.3.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/i/incremental"
   ],
   "Files": [
-    "a1293c91175467e10c42c23dfd8d63b2 5108 incremental_24.7.2-3.debian.tar.xz fc4b2180702ec3a3e9be2e0a23bd2950 2184 incremental_24.7.2-3.dsc d946fb1a369c77693b4dab8ac9b13596 28157 incremental_24.7.2.orig.tar.gz"
+    "9c38e4647c4ca7a65afce0e754952008 4336 incremental_21.3.0-2.debian.tar.xz 9eb20b241b7d2b840d728ba64af61a48 2175 incremental_21.3.0-2.dsc 9f7ad12e0c05a12cee52a7350976c4e3 17058 incremental_21.3.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python3-incremental deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "python3-click, python3-twisted"
   ],
   "Uploaders": [
-    "Free Ekanayaka \u003cfreee@debian.org\u003e,"
+    "Free Ekanayaka \u003cfreee@debian.org\u003e, Tristan Seligmann \u003cmithrandi@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/incremental"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/incremental.git"
   ],
   "Version": [
-    "24.7.2-3"
+    "21.3.0-2"
   ]
 }

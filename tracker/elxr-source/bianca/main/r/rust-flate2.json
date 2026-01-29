@@ -3,28 +3,25 @@
     "any"
   ],
   "Binary": [
-    "librust-flate2-dev"
+    "librust-flate2-dev, librust-flate2+libz-sys-dev, librust-flate2+miniz-oxide-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo"
-  ],
-  "Build-Depends-Arch": [
-    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.67.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-crc32fast-1+default-dev (\u003e= 1.2.0-~~) \u003c!nocheck\u003e, librust-miniz-oxide-0.7+with-alloc-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-crc32fast-1+default-dev (\u003e= 1.2.0-~~) \u003c!nocheck\u003e, librust-miniz-oxide-0.6+with-alloc-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "81cd50650e89690741a838f49a7e6272df09b6d7 4900 rust-flate2_1.1.0-1.debian.tar.xz f92d6b220347fa630ecd22c8776c89dc1d022135 1750 rust-flate2_1.1.0-1.dsc 23b00a9166422e8ee53a8ae9255171c97f6a7bcd 110650 rust-flate2_1.1.0.orig.tar.gz"
+    "007a204171a0f8243c3e345f557179313c94a84a 5864 rust-flate2_1.0.25-1.debian.tar.xz 5d90c9b4ebc1aa653c0c3038ad5fe9504c67e161 2519 rust-flate2_1.0.25-1.dsc 69595f580db977e4e3b4245f8129c9dcb3050e05 70210 rust-flate2_1.0.25.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "e075cb0d9f56e5fd0bee4c28bbc4544f69c2de8f2f02adf998d0da382c6ee0d8 4900 rust-flate2_1.1.0-1.debian.tar.xz c4f95688fa13f114d1952c627fcff96d4a5083bdfa4c61b49dd7341331d699b3 1750 rust-flate2_1.1.0-1.dsc 11faaf5a5236997af9848be0bef4db95824b1d534ebc64d0f0c6cf3e67bd38dc 110650 rust-flate2_1.1.0.orig.tar.gz"
+    "bfe9da0ee7a89843676c36e10f8995a6a4a25902476111d0a6e749165d73c891 5864 rust-flate2_1.0.25-1.debian.tar.xz bb6afb661856f477000dc9b297516f506455b99c664d9aa30d52cfc89454b4f7 2519 rust-flate2_1.0.25-1.dsc a8a2db397cb1c8772f31494cb8917e48cd1e64f0fa7efac59fbd741a0a8ce841 70210 rust-flate2_1.0.25.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "98c9be9c10414d68f10f8e5240c811ed04684b5d06848093286dbb3bcc5c4a6f9baafe3b6b4ce4bb9be98ffefd11036e02d925930b50e9d210326a06b82871a9 4900 rust-flate2_1.1.0-1.debian.tar.xz 99d1e12c0f0d1de82afb5faa0da406ede5605bcf3b10d0dbe119ff4d5c495ef37a5c4e9735443af6160bc04fe068bf7266ce97389d1b10de75b0f6a35d372eef 1750 rust-flate2_1.1.0-1.dsc 7f240d413aeead2fd15c0b4cab1ea45b99987c185968ccc22778ecc7e08ff32ad6fd44abcf763a7c708f5bb7c43b325aaaeb30ea9bcea2b0917c9f7542bbcbdb 110650 rust-flate2_1.1.0.orig.tar.gz"
+    "7c03e3b6648d0f00115aea46416f5582b1e47d30be666fe6084ffc0cdbfd0e1af77766fb8549d0e196a2dfa039c9ce39d1c1d9a0c7f6cd789e28f02e9e3fe8fe 5864 rust-flate2_1.0.25-1.debian.tar.xz 8658cdea59d991755146cedd3ae76b7d40dbd6994ef16221219e67895de7b47e2c108ccc0f98c18cddceb4ea45bd5b41847980bf85110ad3338bd53a3a507747 2519 rust-flate2_1.0.25-1.dsc d81a463360ee2778f609ff297e04548120d1fda1f9e020fb2f429ea51189b8fe6cae57252fcd924d71fb65ad0f93ff7cdc7235913f8b78fa82925939cf884af7 70210 rust-flate2_1.0.25.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-flate2"
   ],
   "Files": [
-    "6f8ac5a863a7d280b1821e9cc1874543 4900 rust-flate2_1.1.0-1.debian.tar.xz 281e867f2d8b33691c00ef12459335cd 1750 rust-flate2_1.1.0-1.dsc 27e0339caa0bd9bc4b07d0d44d0d6611 110650 rust-flate2_1.1.0.orig.tar.gz"
+    "5ba9546e681f90e10d254037441e0733 5864 rust-flate2_1.0.25-1.debian.tar.xz 72e0a9efd3c261d8aa60b4c81f550872 2519 rust-flate2_1.0.25-1.dsc 40290701abf90017215441da33b0dc15 70210 rust-flate2_1.0.25.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,16 +36,16 @@
     "rust-flate2"
   ],
   "Package-List": [
-    "librust-flate2-dev deb rust optional arch=any"
+    "librust-flate2+libz-sys-dev deb rust optional arch=any librust-flate2+miniz-oxide-dev deb rust optional arch=any librust-flate2-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-quickcheck-1-dev, librust-rand-0.8+default-dev, rustc"
+    "dh-cargo, librust-quickcheck-1-dev, librust-rand-0.8+default-dev"
   ],
   "Uploaders": [
     "Paride Legovini \u003cparide@debian.org\u003e"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/flate2]"
   ],
   "Version": [
-    "1.1.0-1"
+    "1.0.25-1"
   ]
 }

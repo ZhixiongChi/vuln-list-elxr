@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libfreetype6, libfreetype-dev, freetype2-demos, freetype2-doc, libfreetype6-udeb"
+    "libfreetype6, libfreetype-dev, libfreetype6-dev, freetype2-demos, freetype2-doc, libfreetype6-udeb"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), autoconf, bzip2, gettext, libbrotli-dev, libbz2-dev, libpng-dev, libtool, libx11-dev \u003c!pkg.freetype.nodemos\u003e, pkgconf, x11proto-core-dev \u003c!pkg.freetype.nodemos\u003e, zlib1g-dev | libz-dev"
+    "debhelper-compat (= 13), autoconf, bzip2, gettext, libbrotli-dev, libpng-dev, libtool, libx11-dev \u003c!pkg.freetype.nodemos\u003e, zlib1g-dev | libz-dev, pkg-config, x11proto-core-dev \u003c!pkg.freetype.nodemos\u003e"
   ],
   "Checksums-Sha1": [
-    "aecd6530d68f0c7317232465e6e4931135e91b7f 43904 freetype_2.13.3+dfsg-1.debian.tar.xz 995685c77dbb888190cb6642f8a2cfc342c5931a 3680 freetype_2.13.3+dfsg-1.dsc 13772801af6b9341a20300ed89f36157f2506376 342404 freetype_2.13.3+dfsg.orig-ft2demos.tar.xz 23ef17897819135ac8f6f99f57702ae7cd24c9a4 833 freetype_2.13.3+dfsg.orig-ft2demos.tar.xz.asc 7e1c8bc2bba9425864c861438fce76db76fe33c2 2173852 freetype_2.13.3+dfsg.orig-ft2docs.tar.xz 75a45eb7bd6ee570366654ecb14327f7e948e6ce 833 freetype_2.13.3+dfsg.orig-ft2docs.tar.xz.asc 66e7e402e4f262f2dbb7577734717c98cfbeb59c 2201416 freetype_2.13.3+dfsg.orig.tar.xz"
+    "3e1668250841ea6f6d4e6504d169026bdee9403b 44844 freetype_2.12.1+dfsg-5+deb12u4.debian.tar.xz 71d7294448b289f9da8768d0a87c0508812b5999 3918 freetype_2.12.1+dfsg-5+deb12u4.dsc ce009767b7dda246ab7cec111702c5f1d78d2431 263656 freetype_2.12.1+dfsg.orig-ft2demos.tar.xz d7134b198e904f1fd0d7a4bd337daeb08944ed01 833 freetype_2.12.1+dfsg.orig-ft2demos.tar.xz.asc f4e85a958f926701ca5751cda445c29bd28e7fd9 2038632 freetype_2.12.1+dfsg.orig-ft2docs.tar.xz a885a348657b58aaa6814a35946aeab0080ccc45 833 freetype_2.12.1+dfsg.orig-ft2docs.tar.xz.asc f6569c1e046012c6c2c78e673ebb4f6798eeb2bd 2188492 freetype_2.12.1+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "e2de836c8bb52c5a59173465bfddbf476a277f3f065ba322d111c5046ef8b8c8 43904 freetype_2.13.3+dfsg-1.debian.tar.xz 122104ec96184391361f4ee9e5c70e83b05a5c0b90030f2b94befb0fad0664c3 3680 freetype_2.13.3+dfsg-1.dsc 8775e5ffded1a885ba2ccb3ea0e82c73306a03b764080c3e4c79da15b5c9a28a 342404 freetype_2.13.3+dfsg.orig-ft2demos.tar.xz 931bfa17e59c0ec7db391160f43977e0907f36ea3c39d7e6063731cd4612dd51 833 freetype_2.13.3+dfsg.orig-ft2demos.tar.xz.asc b7b66149bea769e226fd3d6d1eee6160e5b6beb4249b088071434fbe85fd1070 2173852 freetype_2.13.3+dfsg.orig-ft2docs.tar.xz 65c66aec6244d247540430b21d3e80b677f1361906347a5be7fad371d46655da 833 freetype_2.13.3+dfsg.orig-ft2docs.tar.xz.asc 686ec73cbf6783b245dd068a09ce807b729ac0f8a46dd70f7867923c32fdf4de 2201416 freetype_2.13.3+dfsg.orig.tar.xz"
+    "c625a97a78e4c74acd32e5b63b3973c9ea8a5c3d7b7f8f7c02def4421589c61b 44844 freetype_2.12.1+dfsg-5+deb12u4.debian.tar.xz eead829b4bc79107e8e79c4da006110dffe264f9d48b3ba02f76cf7e84b64389 3918 freetype_2.12.1+dfsg-5+deb12u4.dsc ce729d97f166a919a6a3037c949af01d5d6e1783614024d72683153f0bc5ef05 263656 freetype_2.12.1+dfsg.orig-ft2demos.tar.xz 0303e45fe1dc659f14353c276ac0ea1025b30e19ac8138c52d5df79b55726f14 833 freetype_2.12.1+dfsg.orig-ft2demos.tar.xz.asc 6664a32e4eedaa89f45422c1150e32da46fd301c972cbfd19d2dcc6dd96f07d1 2038632 freetype_2.12.1+dfsg.orig-ft2docs.tar.xz e686683830c782c30cdd83278c8d5ed7ab930ae7d548682565b706322f44007f 833 freetype_2.12.1+dfsg.orig-ft2docs.tar.xz.asc 7dedb6b9adf331559daea614a83b8de42a753e685ec8e1c4bdb4529eb880b0d1 2188492 freetype_2.12.1+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "b701ab41be470caf67fdf2efcd37f7504145d45872ce52d409a8e2a73b49031bc7159d0b1be02b4cc2b2abd82ca93e43d86b26bc3d3e7a08749f52ae5e3c9367 43904 freetype_2.13.3+dfsg-1.debian.tar.xz da953f9b177530c782fc32e09d5b53155c36f20664f35bf408a9ebe3d1f006d7df9d452ab358a7f707f1ff65223062b57cf1c8c55115dac9a493c593e76e63fd 3680 freetype_2.13.3+dfsg-1.dsc e662a20ad2ff80534e8ea0df2f299e8f61350f13d279f80f8257b18352e863dd2c266791b85d3410b0c83966cb12e3ff49cf398b83a651dc73772df9fcf5936c 342404 freetype_2.13.3+dfsg.orig-ft2demos.tar.xz c676452fb04b49824ce0a7287b46dc0234cee301bf80d31da01f5a1e7009ddbc0479866bfca62086fe23105436b0c02b9fb729b8fa24e7ca703c0fc357fe3675 833 freetype_2.13.3+dfsg.orig-ft2demos.tar.xz.asc 54ef9e3a4f0c298893268ed409f59aa1620a60c656ee3f8bdddbb91ffb2e70eea2f016a85c0a02eef699de362abee4aabae4482f0fa1cbf42967b5873fc84f2d 2173852 freetype_2.13.3+dfsg.orig-ft2docs.tar.xz bd1699aa0bf9f93a02b87a9c59ee6b69e4b24626fbcfbf9e0a0739f2634923bd397ee51379f57aae88465823ceb6bfe5cf6708a2bfa32d76f4a64ad6a9c08e3b 833 freetype_2.13.3+dfsg.orig-ft2docs.tar.xz.asc 634c2644bb70b93a605fae4d3e731cb13d149af4d01029ecf2d166b2e07cba07489303440a836057adc54f9bdabcceb7fde102dc5e5bf69f35c99ebae66f7293 2201416 freetype_2.13.3+dfsg.orig.tar.xz"
+    "49cdbdeef45f7606b73ce1949c5efde3b1a771354211d428787316b3afd147d272c0b74c5d94867941fa76b7c452712900f4def14d87b8abb173c92d7ea2f411 44844 freetype_2.12.1+dfsg-5+deb12u4.debian.tar.xz ff4a8064b557eabddade8b2446024fac599070992ee6ee1b47f4e217551ea29d63f0409d8fa31f3115701757ea4be476c38108a215eb3ec32be8dff3233834b3 3918 freetype_2.12.1+dfsg-5+deb12u4.dsc cd9356152a64d807c75b797d005ca1dd0bde69cc2fadedec101d125cb54b2aaff1f7afa2f20839caba7db66325df7c11ed4883b7e906110356b28d9900caaae7 263656 freetype_2.12.1+dfsg.orig-ft2demos.tar.xz 7e21a0136aef896f400099c80ce40ae61f226cdd1c807915bf4d856707b79ef0a1ea15a66539a4aeb55d2d1f12ba0706bd2f205d6f7545d8abb0c5c1298e9310 833 freetype_2.12.1+dfsg.orig-ft2demos.tar.xz.asc 276b91b93e375096bc0f9fa76408a6ea9fa89d4d06e9c9179f88d27d41df3f3bc0ce6939ea7a3fd7c93cb694e78fd6bfb154e969188279e2bca82dcc3afd108d 2038632 freetype_2.12.1+dfsg.orig-ft2docs.tar.xz 39ccd90fde04074f30029a1a92b09c0d5a1bae7e2fbd965d02591e2cccda80c11588679fb0a9541a6307f120f5c8e386ba50375dc27fbd9e5c5cc3cdee5f2d82 833 freetype_2.12.1+dfsg.orig-ft2docs.tar.xz.asc 0f7e7522508c716d90e0051d255904039fc548378489bc20531268d738e2deb196b81f521e31552de42fde3c955c22745585f3c5324b6968c7de6b029ce4bc92 2188492 freetype_2.12.1+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/f/freetype"
   ],
   "Files": [
-    "acecf79a87998ecfc1ac0036e41c9d12 43904 freetype_2.13.3+dfsg-1.debian.tar.xz 60ee6b386f9ca28e40e82ddb008d61b2 3680 freetype_2.13.3+dfsg-1.dsc 0e4e6017813b7d134a1029d336dbc38a 342404 freetype_2.13.3+dfsg.orig-ft2demos.tar.xz 38aeeebd44429eda1da9ad6b21604572 833 freetype_2.13.3+dfsg.orig-ft2demos.tar.xz.asc 6affe0d431939398cc3c7cdd58d824f8 2173852 freetype_2.13.3+dfsg.orig-ft2docs.tar.xz 5b769f78b7daa734e94f2bb533ad662b 833 freetype_2.13.3+dfsg.orig-ft2docs.tar.xz.asc 21d424a215ee12f59f133c218f5d456f 2201416 freetype_2.13.3+dfsg.orig.tar.xz"
+    "45b4ef06200ee16872d03d5b1220e77d 44844 freetype_2.12.1+dfsg-5+deb12u4.debian.tar.xz de41707da0c18df607c3bbceb20d94ec 3918 freetype_2.12.1+dfsg-5+deb12u4.dsc e5633cd0ce16f80593a3fdfece5310d0 263656 freetype_2.12.1+dfsg.orig-ft2demos.tar.xz 6080d79b58ac5ba9c8ff38b416d1c0bc 833 freetype_2.12.1+dfsg.orig-ft2demos.tar.xz.asc 7608f3c28e29d67f11d85891b7b00183 2038632 freetype_2.12.1+dfsg.orig-ft2docs.tar.xz b145d25e2a43c1f75e471d66005debef 833 freetype_2.12.1+dfsg.orig-ft2docs.tar.xz.asc c487c9a42cfbf96c4766e5f594afa20f 2188492 freetype_2.12.1+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,22 +30,22 @@
     "https://freetype.org"
   ],
   "Maintainer": [
-    "Hugh McMaster \u003chmc@debian.org\u003e"
+    "Hugh McMaster \u003chugh.mcmaster@outlook.com\u003e"
   ],
   "Package": [
     "freetype"
   ],
   "Package-List": [
-    "freetype2-demos deb utils optional arch=any profile=!pkg.freetype.nodemos freetype2-doc deb doc optional arch=all libfreetype-dev deb libdevel optional arch=any libfreetype6 deb libs optional arch=any libfreetype6-udeb udeb debian-installer optional arch=any profile=!noudeb"
+    "freetype2-demos deb utils optional arch=any profile=!pkg.freetype.nodemos freetype2-doc deb doc optional arch=all libfreetype-dev deb libdevel optional arch=any libfreetype6 deb libs optional arch=any libfreetype6-dev deb oldlibs optional arch=any libfreetype6-udeb udeb debian-installer optional arch=any profile=!noudeb"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential, pkgconf"
+    "build-essential, pkg-config"
   ],
   "Uploaders": [
     "Anthony Fok \u003cfoka@debian.org\u003e, Keith Packard \u003ckeithp@keithp.com\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/freetype.git"
   ],
   "Version": [
-    "2.13.3+dfsg-1"
+    "2.12.1+dfsg-5+deb12u4"
   ]
 }

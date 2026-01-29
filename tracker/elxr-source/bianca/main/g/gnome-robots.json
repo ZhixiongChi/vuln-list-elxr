@@ -6,22 +6,22 @@
     "gnome-robots"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), appstream \u003c!nocheck\u003e, cargo:native, desktop-file-utils, dpkg-build-api (= 1), itstool, librsvg2-dev (\u003e= 2.59.2), librust-gettext-rs-0.7+gettext-system-dev, librust-gtk4-0.9+gnome-47-dev, librust-libadwaita-0.7+v1-6-dev, librust-librsvg-dev (\u003e= 2.59.2), librust-rand-0.8-dev, librust-serde-1+derive-dev, librust-toml-0.8-dev, meson (\u003e= 0.59.0), rustc:native (\u003e= 1.70)"
+    "debhelper-compat (= 13), appstream-util \u003c!nocheck\u003e, desktop-file-utils \u003c!nocheck\u003e, dh-sequence-gnome, itstool, libgee-0.8-dev, libglib2.0-dev (\u003e= 2.32), libgnome-games-support-1-dev (\u003e= 1.7.1), libgsound-dev (\u003e= 1.0.2), libgtk-3-dev (\u003e= 3.24), librsvg2-dev (\u003e= 2.36.2), meson, valac"
   ],
   "Checksums-Sha1": [
-    "5162f338679bfa37272ced6fe1069a536f57bfd1 21808 gnome-robots_41.2-2.debian.tar.xz 49af6a1b5c741e2a8efa21edf7d0495aa5f433ce 2345 gnome-robots_41.2-2.dsc 4fc3526b406a4f25c6d537946235b5904be1628b 475048 gnome-robots_41.2.orig.tar.xz"
+    "cf187f11614aaaacdad491bc49f22c1b9311907e 20676 gnome-robots_40.0-2.debian.tar.xz 2444a04903326364b09b9aa68777f5b41be0d643 2214 gnome-robots_40.0-2.dsc f532f868a77be7f201761f69131ad282e993ce95 420024 gnome-robots_40.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "9d671b0edace5c3449801d23dc9c79da3f2571eb035b11d71b34f6730cc81081 21808 gnome-robots_41.2-2.debian.tar.xz 345d167a7906606da598eccc9af9eda5df5007674db6c12ba1aa6d1fd1cb92cf 2345 gnome-robots_41.2-2.dsc 9121c2f836812043feef2ba661cd5d0fd48e3d6319c43941b9fdd158b9b0eb91 475048 gnome-robots_41.2.orig.tar.xz"
+    "78349dd6ea1363dc7ce6621adb46e3e4e636d26254a71539c3f90bf5bf758220 20676 gnome-robots_40.0-2.debian.tar.xz 82b7a74c6a3765d4ac68605ac2bcea77b5a0e3100f0a7477c0d07c765f7aa447 2214 gnome-robots_40.0-2.dsc 6fbf2f885750f1a5110a724f8f35addd9bc61184ee31cf0c0cb89953e4f4cb11 420024 gnome-robots_40.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "6ee7c3d5150d714f04f5752000a9ac4271dd3412d037959f7730548ded4d8a4a7cad83c79218757bf469ab77e4164a14a397b841113ee03c748ec353e1f62720 21808 gnome-robots_41.2-2.debian.tar.xz 6eb72e5732f15e4e7a39504a5eb93339f9de6f4be9c2429d0b32edc8c6209e597e164e4097b6e1d3d428ebc4948b1401b9fe9b098c4dbf56fefde3e9ec478bee 2345 gnome-robots_41.2-2.dsc 737d7dffc56a07fa0fba7084c00d88969176590539f31210c1e3ae511ebe525aaa66b0f21c0f6ac6a389f3255cd227338bc5890bae5d3524b534ed802f67c614 475048 gnome-robots_41.2.orig.tar.xz"
+    "9652c7708193a45e60e117d4b9bf6c8defe956c78cc163ebb201dd1945baf1eed8e7124bf345f508daef8b865b0fc7a9ffef64b759ea2ee748be985fce3079dd 20676 gnome-robots_40.0-2.debian.tar.xz ec44f30e4b6a46d921443879a94c59102c13f266a330ba849ca233cbb694052947bc21655c7ac94bc2ee4de0778abda0b4258727fd416a6b6d2e286f153e6d27 2214 gnome-robots_40.0-2.dsc bff0caf40976b420f564abbfaa96ae1627da89cfa19a7ff3c14c313f7bbdd1d0452452d49ca7b150493915ae7eebdd022aada673405e0794e4c3abd8f5c39b4f 420024 gnome-robots_40.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gnome-robots"
   ],
   "Files": [
-    "143be95782117c47402f98d99ffc1c11 21808 gnome-robots_41.2-2.debian.tar.xz 8c341cc927b75bea2e060133f1156ef8 2345 gnome-robots_41.2-2.dsc 8ec5ea7ebbf13d5d979a45374c3146f1 475048 gnome-robots_41.2.orig.tar.xz"
+    "7d2ebaaf895890a54f94b56b4aec2020 20676 gnome-robots_40.0-2.debian.tar.xz 8d915ef6ae4f126a56663d608d107969 2214 gnome-robots_40.0-2.dsc 041b5df6329df23434edb267bafab3eb 420024 gnome-robots_40.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "gnome-robots deb games optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.4.0"
   ],
   "Uploaders": [
-    "Jeremy Bícha \u003cjbicha@debian.org\u003e"
+    "Jeremy Bicha \u003cjbicha@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/gnome-robots"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/gnome-robots.git"
   ],
   "Version": [
-    "1:41.2-2"
+    "1:40.0-2"
   ]
 }

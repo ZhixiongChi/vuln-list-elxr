@@ -1,6 +1,6 @@
 {
   "Architecture": [
-    "amd64 arm64 armhf i386 loong64 ppc64el powerpc riscv64 s390x"
+    "amd64 arm64 armhf i386 ppc64el powerpc riscv64 s390x"
   ],
   "Binary": [
     "cpu-checker"
@@ -9,19 +9,19 @@
     "debhelper (\u003e= 9)"
   ],
   "Checksums-Sha1": [
-    "b0b8efa3b174574468df405169d3557909d91d79 4768 cpu-checker_0.7-1.4.debian.tar.xz cceb0e75b84b8bb83755628530c01fd9bf41bc76 1957 cpu-checker_0.7-1.4.dsc 72614965511a01524fb02ff01aa9a139bfad3901 652528 cpu-checker_0.7.orig.tar.gz"
+    "afc8f4072c83db0e6dc4d654128919e51c2df533 4572 cpu-checker_0.7-1.3.debian.tar.xz f70b62e24f4f86a4dad0d6b9822bcee05b02511f 1962 cpu-checker_0.7-1.3.dsc 72614965511a01524fb02ff01aa9a139bfad3901 652528 cpu-checker_0.7.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "aa3ff588bf77c83a572903ad664168686e103d2e98c1d0ee0323ecc96e1ac756 4768 cpu-checker_0.7-1.4.debian.tar.xz 5031665f24cdaa3177820641590359d6f8672f7ae6fe0d340669201bc95017cf 1957 cpu-checker_0.7-1.4.dsc 7e8cafe3c1a87650d128b41916a969885e2354be1daf5d041b4f185ba7b8bf7d 652528 cpu-checker_0.7.orig.tar.gz"
+    "f8c3839eec4f3ade49438f4830357448c2f5d6e54513c0ab3e0f9310e7a210cc 4572 cpu-checker_0.7-1.3.debian.tar.xz 3aadde1ae9bd9918bda7941adb4a222d92c52bc7214e18730e35a04ba2d31203 1962 cpu-checker_0.7-1.3.dsc 7e8cafe3c1a87650d128b41916a969885e2354be1daf5d041b4f185ba7b8bf7d 652528 cpu-checker_0.7.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "955fd03e974c6ddfe0a08bd8d2592be221d0ec89553b5f60678aa097bfc46dc7eb1e3faa9c0a9dc0c9575a0ef0c35df7778f018804cf5f0b9488e3861fcbdfa3 4768 cpu-checker_0.7-1.4.debian.tar.xz dd07dd59d0c0c55d225448f2ed75ee8e7bae8e78903ae990c23c029ce54c99f5b447ec8572670a5d29ad2f0c18f5efc5f937543761dc8f3a7931f4e4a19eb5d3 1957 cpu-checker_0.7-1.4.dsc 84bd4cbfb871e41e9e06060b893a37345cfba2962f2c53ab78ee115681b3667793b5286535e98cc21b18d4a3fc1e627c34943e50902fc76a27a8914bba2edcc3 652528 cpu-checker_0.7.orig.tar.gz"
+    "85f2d470d0d2cb77bb9e75cbbf1ce33b5e5f30b57f7ad6623f2cf26ed7b772b98060a7e20497f7d38242914a1334366bbdfa9485a453c777058ef743ddc8c88f 4572 cpu-checker_0.7-1.3.debian.tar.xz 7935610884fd8684040024c228abba9d69c950c0a09ff1c6ee50ca2ec1f6275bfe31a6ab3220be4f99c679be16a3eb5e48f5fdd9fe6857bf537327b25f958864 1962 cpu-checker_0.7-1.3.dsc 84bd4cbfb871e41e9e06060b893a37345cfba2962f2c53ab78ee115681b3667793b5286535e98cc21b18d4a3fc1e627c34943e50902fc76a27a8914bba2edcc3 652528 cpu-checker_0.7.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/c/cpu-checker"
   ],
   "Files": [
-    "e6124fbc270b243b700b51c08699d719 4768 cpu-checker_0.7-1.4.debian.tar.xz c67a1f709064271c8f51d2397f66087a 1957 cpu-checker_0.7-1.4.dsc 8ed6057b4ad6219d59e3495393f50b2c 652528 cpu-checker_0.7.orig.tar.gz"
+    "e9236c8c3775f2eb0fc4eba9ea19dd55 4572 cpu-checker_0.7-1.3.debian.tar.xz 8cd11eade610583c118f770e55758063 1962 cpu-checker_0.7-1.3.dsc 8ed6057b4ad6219d59e3495393f50b2c 652528 cpu-checker_0.7.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "cpu-checker"
   ],
   "Package-List": [
-    "cpu-checker deb utils optional arch=amd64,arm64,armhf,i386,loong64,ppc64el,powerpc,riscv64,s390x"
+    "cpu-checker deb utils optional arch=amd64,arm64,armhf,i386,ppc64el,powerpc,riscv64,s390x"
   ],
   "Standards-Version": [
     "3.9.4"
@@ -48,6 +48,6 @@
     "lp:~cpu-checker-dev/cpu-checker/trunk"
   ],
   "Version": [
-    "0.7-1.4"
+    "0.7-1.3"
   ]
 }

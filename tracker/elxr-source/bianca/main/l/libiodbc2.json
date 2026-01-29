@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libiodbc2, libiodbc2-dev"
+    "iodbc, libiodbc2, libiodbc2-dev"
   ],
   "Build-Depends": [
-    "autotools-dev, debhelper (\u003e= 9), dh-acc, dh-autoreconf, pkg-kde-tools"
+    "autotools-dev, debhelper (\u003e= 9), dh-acc, dh-autoreconf, libgtk2.0-dev, pkg-kde-tools"
   ],
   "Checksums-Sha1": [
-    "b125fb93be75981ba40e9396c7f8e0f603191957 9448 libiodbc2_3.52.9-4.debian.tar.xz 122d880b79984d24b7ecf7d478a78a01efec19c0 1793 libiodbc2_3.52.9-4.dsc 82be6d6ff22926f087020dd310e1e9f64b2a283e 1094234 libiodbc2_3.52.9.orig.tar.gz"
+    "fd458f8c941f500f4408915f85a5a8fbfd97b285 9708 libiodbc2_3.52.9-3.debian.tar.xz 6c26a38146c9554e2fd1689d67a8e5d6e943e2ef 2028 libiodbc2_3.52.9-3.dsc 82be6d6ff22926f087020dd310e1e9f64b2a283e 1094234 libiodbc2_3.52.9.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "4a746836c382ad78fdc77ca08b000f45158b3a0624a594df31ae96b06bd322cf 9448 libiodbc2_3.52.9-4.debian.tar.xz 683e0a377071412fed62fc365b455e7f89e0609d32daff9bd7193518f13d4ce3 1793 libiodbc2_3.52.9-4.dsc 33207d9f477aa5fa76962ff644baa38e59255b96812f28574794659fb61a7ab2 1094234 libiodbc2_3.52.9.orig.tar.gz"
+    "cc76f7a9632f0e99b0dae7ef31a96997898f5286455a986abbcd284e2e9ffaa1 9708 libiodbc2_3.52.9-3.debian.tar.xz d5884324052caf2f4ad21b7ce856e04eeb86bf68ad96c7544e9529c933743523 2028 libiodbc2_3.52.9-3.dsc 33207d9f477aa5fa76962ff644baa38e59255b96812f28574794659fb61a7ab2 1094234 libiodbc2_3.52.9.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "922d3e1bd7edf42ed9c06fa5089e36d6e88eaff01201ebd7ee2ee6296fe21887d710c37ecab1475bffbe43ef6bd1ed90e551b731ff1adf28c7dd6d030385005e 9448 libiodbc2_3.52.9-4.debian.tar.xz 4f3636699e44c3cad4c5739721424ce075e06c5495f671e43e8321cbab25f6a4f08b729a84e585dd44a70f9c70ac06db97631ed0a077748f6b870cade8401a9a 1793 libiodbc2_3.52.9-4.dsc 94d45b022906d4e59b85bd845255f5f97b969a66fd7b5f4899d8d1ed22b3300c0d5a51f178c60981e7c22b4a60bf6ae7b6884eb257fe7490fbd7e8c23374f19a 1094234 libiodbc2_3.52.9.orig.tar.gz"
+    "522a2982136f0cb78b6190aaaa22c0dc15a9e7307dfc93e7509913bd5b2fcd6b1ef4c172efbf03ec95b3ae8d60ac3bb04305cda397e3419f97c60f5c8b79f996 9708 libiodbc2_3.52.9-3.debian.tar.xz 6f8cfb687638e98ac3692b9871a93fcff84d41f8e471c81ceae4ae55534f8c5b1cbd02baff9aaef31b82b8d8b67b232527556834ce77050abea2f44b47fbf156 2028 libiodbc2_3.52.9-3.dsc 94d45b022906d4e59b85bd845255f5f97b969a66fd7b5f4899d8d1ed22b3300c0d5a51f178c60981e7c22b4a60bf6ae7b6884eb257fe7490fbd7e8c23374f19a 1094234 libiodbc2_3.52.9.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libi/libiodbc2"
   ],
   "Files": [
-    "f28c59ee365edcdd97afa3e59bd3d20e 9448 libiodbc2_3.52.9-4.debian.tar.xz 75ec79c33a239e4b516bc79a3e981168 1793 libiodbc2_3.52.9-4.dsc 98a681e06a1df809af9ff9a16951b8b6 1094234 libiodbc2_3.52.9.orig.tar.gz"
+    "ac3b6a5e6459cee61e21f034c2c4881d 9708 libiodbc2_3.52.9-3.debian.tar.xz b7b59a9d8e98e9e2fade52454abc55f2 2028 libiodbc2_3.52.9-3.dsc 98a681e06a1df809af9ff9a16951b8b6 1094234 libiodbc2_3.52.9.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "libiodbc2"
   ],
   "Package-List": [
-    "libiodbc2 deb libs optional arch=any libiodbc2-dev deb libdevel optional arch=any"
+    "iodbc deb misc optional arch=any libiodbc2 deb libs optional arch=any libiodbc2-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
     "3.9.5"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/libiodbc2.git"
   ],
   "Version": [
-    "3.52.9-4"
+    "3.52.9-3"
   ]
 }

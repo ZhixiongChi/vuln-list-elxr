@@ -6,25 +6,25 @@
     "golang-github-rivo-uniseg-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang"
+    "debhelper-compat (= 13), dh-golang"
   ],
   "Build-Depends-Indep": [
-    "golang-any (\u003e= 2:1.18~)"
+    "golang-any"
   ],
   "Checksums-Sha1": [
-    "06c7b116dd9a87384dec392422e24962366e11ac 2684 golang-github-rivo-uniseg_0.4.7-1.debian.tar.xz 1c6fa0b0cc124839874f992be0f6136e68b5aab2 2367 golang-github-rivo-uniseg_0.4.7-1.dsc 34d71d49826d0ea080b9dd5534f6784b80828108 458088 golang-github-rivo-uniseg_0.4.7.orig.tar.gz"
+    "0cda4075fc403b92455934ef10fa0e8bc7f22246 2460 golang-github-rivo-uniseg_0.4.2-1.debian.tar.xz d85a2f4d843c1860800408cf2ced4d56d2480ea3 2289 golang-github-rivo-uniseg_0.4.2-1.dsc e150da85491db287e92631836cff52815b1d01de 452107 golang-github-rivo-uniseg_0.4.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "8f604028be04d1ea7e59dcd9ff7ff5e79c729371e7bdfa4ec619cb5a33d6f680 2684 golang-github-rivo-uniseg_0.4.7-1.debian.tar.xz 44307323ad01cb48ae5d9b817ac7c5346a9f5a8b294f9f9d892d83229bd75c75 2367 golang-github-rivo-uniseg_0.4.7-1.dsc dc7aedce4a8c174b01df8406ff7d92779e2df76cee2ad17fa2ff6777feddadec 458088 golang-github-rivo-uniseg_0.4.7.orig.tar.gz"
+    "5009797f8bfe405749c898b7157e53c79a614d2aa15e87c68133b3bd3b350e6e 2460 golang-github-rivo-uniseg_0.4.2-1.debian.tar.xz e497d1740bb24425829f6f2b6ffc8c6bd621ce28c92bc2ab392fcc376070b2c0 2289 golang-github-rivo-uniseg_0.4.2-1.dsc 3b9f5acaea9c00eeafb6532115a88c1d3ec7d97c0eff0a780049809c4781de7a 452107 golang-github-rivo-uniseg_0.4.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8b9d16694540b9eff5d5c366d8a15185529b09e5cdb3edb8b0d4bf2ba9f3868ec0a4c75c1f03fe1db24099b22b2290c19fb5d83397c5ee867e5dda6e2fed2621 2684 golang-github-rivo-uniseg_0.4.7-1.debian.tar.xz 0c26a6859dadf05c8dbf9b815bdb12168e4de67cbe2c2ada548e9b4041192c17ce266e6a44956ac535bc4187ed00d5c17081c8f5a74790a7974e6c1c6457781e 2367 golang-github-rivo-uniseg_0.4.7-1.dsc 22f83f37cd498b32efaf18744b8992b45713789a6c91a1bde30aa0127492d9417d21dedd37d1a991c2be6a25373b688200262299077fd9f8000b51d8cbdc604b 458088 golang-github-rivo-uniseg_0.4.7.orig.tar.gz"
+    "7ea5adc6b81ae96ae977e3e6bce61658cb330fc4d77b24cfee7205015a7aace3d4f52b3d582acd7b1b8592300259c9d4cf1fdb74308410ba7085ccea5dcdd91e 2460 golang-github-rivo-uniseg_0.4.2-1.debian.tar.xz 0f553c5f4d05daa9acb4d34bb182be3e62f912b6c5c2c85fd52e47d43da24972343f936fee9cd5e90a22d58fd20a1205c6fef4ea943fd4518bcfd54d48dca33a 2289 golang-github-rivo-uniseg_0.4.2-1.dsc 99878963ca2258276635868ba536c6d001c009f2ffb7abd97b0f61cfbb66741b04bde4bedc3375cc2d7feb1c0f5b94c65f157086ae321c256f5b385e31d5d4d0 452107 golang-github-rivo-uniseg_0.4.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-rivo-uniseg"
   ],
   "Files": [
-    "5f907a58a0746e738722ba77f29ba8b4 2684 golang-github-rivo-uniseg_0.4.7-1.debian.tar.xz 9d0550540a100fb2af043ee93ead6c50 2367 golang-github-rivo-uniseg_0.4.7-1.dsc 3751c82dd342cd5823703910b9da173d 458088 golang-github-rivo-uniseg_0.4.7.orig.tar.gz"
+    "2e0fd387d8d11baf263f0b750e494632 2460 golang-github-rivo-uniseg_0.4.2-1.debian.tar.xz 06897411fdc38fafe26b873a1249fac1 2289 golang-github-rivo-uniseg_0.4.2-1.dsc 0dd142aa7d0e84264cad8d245d36763a 452107 golang-github-rivo-uniseg_0.4.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,13 +45,13 @@
     "golang-github-rivo-uniseg-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
   ],
   "Uploaders": [
-    "Jongmin Kim \u003cjmkim@pukyong.ac.kr\u003e, Thorsten Alteholz \u003cdebian@alteholz.de\u003e, Daniel Milde \u003cdaniel@milde.cz\u003e, Anthony Fok \u003cfoka@debian.org\u003e,"
+    "Jongmin Kim \u003cjmkim@pukyong.ac.kr\u003e, Thorsten Alteholz \u003cdebian@alteholz.de\u003e, Daniel Milde \u003cdaniel@milde.cz\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/go-team/packages/golang-github-rivo-uniseg"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-rivo-uniseg.git"
   ],
   "Version": [
-    "0.4.7-1"
+    "0.4.2-1"
   ]
 }

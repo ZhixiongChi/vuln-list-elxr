@@ -6,25 +6,25 @@
     "libsrt1.5-openssl, libsrt1.5-gnutls, libsrt-openssl-dev, libsrt-gnutls-dev, libsrt-doc, srt-tools"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake, help2man, libgnutls28-dev, libgtest-dev, libssl-dev, pkgconf"
+    "debhelper-compat (= 13), cmake, help2man, libgnutls28-dev, libgtest-dev, libssl-dev, pkg-config"
   ],
   "Build-Depends-Indep": [
     "python3-sphinx"
   ],
   "Checksums-Sha1": [
-    "b641de289747e5f896149c9ee463cbbc8d644243 16200 srt_1.5.4-1.debian.tar.xz 2f11b845bdc2f45192523b1250b255c2500ba6bf 2317 srt_1.5.4-1.dsc 04a1ac57e866d2790a9d245ac29bddee8e1db61c 1743040 srt_1.5.4.orig.tar.gz"
+    "f210378eabfb6f9f286d428224318361853cb746 15976 srt_1.5.1-1+deb12u1.debian.tar.xz 83f42a2203a693309f32baec06202af000158a1b 2354 srt_1.5.1-1+deb12u1.dsc 4dad41bcff870494be5e8816f9e83803b5922a5b 1694199 srt_1.5.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "c516b205b5a71e500420c8d46e98db757819317ca819ac207e1675ad06fcd845 16200 srt_1.5.4-1.debian.tar.xz 5e68206001a469176da0d211313542a8f9a015615c366cc691ce0c0cf021ac8f 2317 srt_1.5.4-1.dsc d0a8b600fe1b4eaaf6277530e3cfc8f15b8ce4035f16af4a5eb5d4b123640cdd 1743040 srt_1.5.4.orig.tar.gz"
+    "b0aaf97c8289f3be4eb80d4717505c38f68018c1878956ffea2a29dcdc22098f 15976 srt_1.5.1-1+deb12u1.debian.tar.xz a7a204aeca9300ec2acfad9957c720b3ec98a386f87202c7bbeb37f2dcaf44e5 2354 srt_1.5.1-1+deb12u1.dsc af891e7a7ffab61aa76b296982038b3159da690f69ade7c119f445d924b3cf53 1694199 srt_1.5.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "df84f47044218e2bdf97f55c8c4aa5f37fb475a0c9bd6bce5f2654d7cbe6329a4ffafdecd214cf65a56122a162a1bcd440888e0b2c94159d8d6de4d8ac36ebbb 16200 srt_1.5.4-1.debian.tar.xz 89e1b6f62bf8e6d5c5fd75bc6724c9b571a000d5bd005ab690f263f2803ecb21477f51c3646fe1b140da25a44183fad584f20550c96996ceb682a20244bfcdcc 2317 srt_1.5.4-1.dsc ec4e5923531a8a7fd7778c739cb52208d24a91c569f31f3995d6e0695dffd83492e5eca2530b2e112ca37f1fd4520061d89ef42d1ded95e2516a9acda009bcaf 1743040 srt_1.5.4.orig.tar.gz"
+    "1e02a0075566b113a40b66ab5aed2bdfda56a06ee7cf103f3ea3bae7dbf59a989a575b82162ed3350fd79f3c44e660be70ae22a923b1efd12e3ff6736e2a5195 15976 srt_1.5.1-1+deb12u1.debian.tar.xz 0ce4d29ce812fb285d02220118950bcdeb944689ec0c7dd916b4b719c1b5e0dd6d4ec49b00288efe7d35b29d9d833e9be7b15839da94bba6d002503167e987eb 2354 srt_1.5.1-1+deb12u1.dsc f3aa1f7773540e2dd31cd19b124eec3c3d830f59c08d953cae01e129a58db7e639bdf94c8a5a678435ae9a1d2402e2c77196fc9c4e75b42aa37d8eafcc16f436 1694199 srt_1.5.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/s/srt"
   ],
   "Files": [
-    "149f918438c8cc962312c1213a4c06f4 16200 srt_1.5.4-1.debian.tar.xz 9b8068489080210a6717db4feb80efaf 2317 srt_1.5.4-1.dsc 08e946bbcdb6f9dc3863de5dd8a48aa3 1743040 srt_1.5.4.orig.tar.gz"
+    "f1ded192827e2bb2a31832b307379cb0 15976 srt_1.5.1-1+deb12u1.debian.tar.xz 7b2a01e3f954c00282b0f8f35f7e204b 2354 srt_1.5.1-1+deb12u1.dsc 9d746de8bbc94ad327215d89801ac2fb 1694199 srt_1.5.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "libsrt-doc deb doc optional arch=all libsrt-gnutls-dev deb libdevel optional arch=any libsrt-openssl-dev deb libdevel optional arch=any libsrt1.5-gnutls deb libs optional arch=any libsrt1.5-openssl deb libs optional arch=any srt-tools deb utils optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/libsrt.git"
   ],
   "Version": [
-    "1.5.4-1"
+    "1.5.1-1+deb12u1"
   ]
 }

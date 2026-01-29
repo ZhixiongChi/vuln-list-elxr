@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "any all"
+    "any"
   ],
   "Binary": [
-    "libkidentitymanagement-data, libkidentitymanagement-dev, libkpim6identitymanagementcore6, libkpim6identitymanagementquick6, libkpim6identitymanagementwidgets6, qml6-module-org-kde-kidentitymanagement"
+    "libkf5identitymanagement-dev, libkf5identitymanagement5, libkf5identitymanagementwidgets5"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-qmldeps, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.6.0~), gettext, kirigami-addons-dev (\u003e= 1.0.0), libkf6codecs-dev (\u003e= 6.6.0~), libkf6config-dev (\u003e= 6.6.0~), libkf6coreaddons-dev (\u003e= 6.6.0~), libkf6i18n-dev (\u003e= 6.6.0~), libkf6kio-dev (\u003e= 6.6.0~), libkf6xmlgui-dev (\u003e= 6.6.0~), libkpimtextedit-dev (\u003e= 24.12.3~), libktextaddons-dev (\u003e= 1.5.4~), qt6-base-dev (\u003e= 6.7.0~), qt6-declarative-dev (\u003e= 6.6.0+dfsg~), qt6-declarative-private-dev, xauth, xvfb"
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.99.0~), gettext, libkf5codecs-dev (\u003e= 5.99.0~), libkf5config-dev (\u003e= 5.99.0~), libkf5coreaddons-dev (\u003e= 5.99.0~), libkf5kio-dev (\u003e= 5.99.0~), libkf5pimtextedit-dev (\u003e= 22.12.3~), libkf5textwidgets-dev (\u003e= 5.99.0~), libkf5xmlgui-dev (\u003e= 5.99.0~), pkg-kde-tools (\u003e\u003e 0.15.15), qtbase5-dev (\u003e= 5.15.2~), xauth, xvfb"
   ],
   "Checksums-Sha1": [
-    "60efd440346a2a8fe4278b17aef2e67705e81b3f 16776 kidentitymanagement_24.12.3-1.debian.tar.xz 5ffa4050485851a92d04034a24b2364e3cbf06d7 3465 kidentitymanagement_24.12.3-1.dsc bd4b08eb557da53fae10840b6a92032b8caee3d0 196856 kidentitymanagement_24.12.3.orig.tar.xz 9e256b2ccbe51b74a295c3cac7e51de591e6459f 833 kidentitymanagement_24.12.3.orig.tar.xz.asc"
+    "0c78f42557dfe43ddb1ee59a8d3e85afad65c756 14808 kidentitymanagement_22.12.3-1.debian.tar.xz 0306004a28e6203636b6a1cca86cd26b5ad7b214 2937 kidentitymanagement_22.12.3-1.dsc 9b6d1b314e8a311642371f9ac22f8db85b1304e6 162656 kidentitymanagement_22.12.3.orig.tar.xz ffcfb64993e8d44164b575ec5ed42079b9a4cb00 833 kidentitymanagement_22.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "eaec571b246eb9f78cab3c79d23807f67c67f0c100927e87979a64a195dfd291 16776 kidentitymanagement_24.12.3-1.debian.tar.xz 64050d4a48939c2cf0c59923b2f6dc62bd69259e72f45b539419b42ca269957f 3465 kidentitymanagement_24.12.3-1.dsc 501bcb321b1f41bba14d14084c3a2708f4a84666ad62eab299d7730bd181407f 196856 kidentitymanagement_24.12.3.orig.tar.xz ce18f58b3a1e1f31c33d8033b37f6c66600c966c416d69233d0730b0265b226a 833 kidentitymanagement_24.12.3.orig.tar.xz.asc"
+    "b483999d66b0f5802dee8f5883dd8b7b05725d96a6d19e9732f1ca2bc0345728 14808 kidentitymanagement_22.12.3-1.debian.tar.xz 070284b3a2e3765281c5b5d0b43831a3c90a21a20130fb1e2f523350ccd15ab7 2937 kidentitymanagement_22.12.3-1.dsc ee86fd79a5801dbf56da3a565a41f12cb3aadd0fadb7337f029658a9c409215b 162656 kidentitymanagement_22.12.3.orig.tar.xz bfd023dcd62b0433e6481cce8d85fd4029af6ec5592a86a0baf71838c7cc2f5b 833 kidentitymanagement_22.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "ba57a35b7c3a43b2f6b79d47e5d3a73d2ea2236d68e147370633d317358f45b9d064afb2da165eecce59f6e5a25a62dd851b95c000cc4b58ab5528ee16af0cb4 16776 kidentitymanagement_24.12.3-1.debian.tar.xz d96696dd92d5f5a46ed84c581728d815d63de5f71a5e123548809caef88582a4c33413fe902c2abd06f3f2d664d058ac69b9c8788ec4ba5b63992228c7271073 3465 kidentitymanagement_24.12.3-1.dsc f486018f4c5bffaf1e147213851153cb58156e86bb16bed88e382c7926d1cb2416f43e6efb26c605284507344b96ab2e02c09cec8496f8c37d400e2ba33cf3a9 196856 kidentitymanagement_24.12.3.orig.tar.xz a72cc80df229035a8c4010583ad1210e000243a66175078f973ade8c6d39516bf5f99fa417d91212c939db524f9d1e2415558beccd85058c699c08397d8e6bf2 833 kidentitymanagement_24.12.3.orig.tar.xz.asc"
+    "19919dbb7b658f8d7b3a01c40e2f9c203c3b8facbce942925d79e90e41468fb3afcb5643d0e1a9587a03ae54458218c85686a486f0825a2c82fdec7d0479f549 14808 kidentitymanagement_22.12.3-1.debian.tar.xz f7b37f1b8055f9c2de74d7bf5c1c07fbff37843b01cb1e4b50518e734ea55631ac3626fc0fe19ecb4672d36ee2e0415ee7f1bf8d19a6344c90917a403caf951d 2937 kidentitymanagement_22.12.3-1.dsc c2d855b651f0103bc380d71dea5010f4288ce1277589c88c398ffedf334d01bff97e22c12feb5c5d0637faef1ed179d5f2f873081aaddecaeaea31a4cd9ee04e 162656 kidentitymanagement_22.12.3.orig.tar.xz 9fef3070328d7c2cfbca118341c8c685e6c3f8250de45bad5088a36452e1c07d8a004df3a108c17e26823d3e4aff159182654c0cbaf73aa6df3680a830800fc2 833 kidentitymanagement_22.12.3.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/k/kidentitymanagement"
   ],
   "Files": [
-    "1670e0ae7d6bc0504074227142f8893b 16776 kidentitymanagement_24.12.3-1.debian.tar.xz ce6e1e687dc4c7e0757e5f58a33e66e6 3465 kidentitymanagement_24.12.3-1.dsc 7d0d4ba940f18eefcfccf1a9f3af1361 196856 kidentitymanagement_24.12.3.orig.tar.xz f82a4b6dd4f2686f461a8e62504751e0 833 kidentitymanagement_24.12.3.orig.tar.xz.asc"
+    "22f5f7588cdcf60f1ccedccbc690d63d 14808 kidentitymanagement_22.12.3-1.debian.tar.xz 647ee9f608f9a5b0e8f4cd25322d5557 2937 kidentitymanagement_22.12.3-1.dsc 3f6bec58e0463754c9a6d6dc6ed71e18 162656 kidentitymanagement_22.12.3.orig.tar.xz f6c8c9e2205b01600b036ddf39054dcd 833 kidentitymanagement_22.12.3.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "kidentitymanagement"
   ],
   "Package-List": [
-    "libkidentitymanagement-data deb libs optional arch=all libkidentitymanagement-dev deb libdevel optional arch=any libkpim6identitymanagementcore6 deb libs optional arch=any libkpim6identitymanagementquick6 deb libs optional arch=any libkpim6identitymanagementwidgets6 deb libs optional arch=any qml6-module-org-kde-kidentitymanagement deb libs optional arch=any"
+    "libkf5identitymanagement-dev deb libdevel optional arch=any libkf5identitymanagement5 deb libs optional arch=any libkf5identitymanagementwidgets5 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Uploaders": [
     "Sandro Knauß \u003chefee@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kidentitymanagement.git"
   ],
   "Version": [
-    "24.12.3-1"
+    "22.12.3-1"
   ]
 }

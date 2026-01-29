@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "any"
+    "all"
   ],
   "Binary": [
     "python3-tomli"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-all-dev:native, libpython3-all-dev, python3-mypy, python3-setuptools, pybuild-plugin-pyproject, python3-pytest-xdist \u003c!nocheck\u003e, flit"
+    "debhelper-compat (= 13), dh-python, python3-all, flit (\u003e= 3.2.0), pybuild-plugin-pyproject, python3-pytest-xdist \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "8672e848ad0157cb44bb62ab74be7863fbfae660 3456 python-tomli_2.2.1-2.debian.tar.xz 8b6fa9c10bfa3c51062dfb260b93e22a5db899ad 2173 python-tomli_2.2.1-2.dsc ac394e22ff46522f4c31a749919f1e213b41d425 137745 python-tomli_2.2.1.orig.tar.gz"
+    "9238f44c49d2dcdd0fbc82578af84c2e27ec6ae5 2868 python-tomli_2.0.1-2.debian.tar.xz f75ddf9e12f8cb6b9d15c9cea3100fc30e7bfdce 1544 python-tomli_2.0.1-2.dsc 234c9caf7ba15e7892a0ae3ed1f0381d9fb5e61c 133685 python-tomli_2.0.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "48c22fc689b0b852d13fa86257ab9a7bd3ee6918e10e37ff54808e6f11eddcba 3456 python-tomli_2.2.1-2.debian.tar.xz a9da859728dfaffbf10d6635c915f1613c45aa97ab05419f7c2aeca5b8c132ea 2173 python-tomli_2.2.1-2.dsc 3af7c4b571d1ccddaba020c558da0ce5b5e24edc830e478a903d82dc2d9013ae 137745 python-tomli_2.2.1.orig.tar.gz"
+    "81a920d1fa22e9c774e30c5420421ebf23089d06017d303b51b695b4917513a8 2868 python-tomli_2.0.1-2.debian.tar.xz cd054e26400697e3ee78260747bdca0bdb94051b5f5a9d752bbd2738461cf327 1544 python-tomli_2.0.1-2.dsc ad22dbc128623e0c156ffaff019f29f456eba8a5d5a05164dd34f63e560449df 133685 python-tomli_2.0.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "186bf38b93372b72a380bf2c74dcf5b545ccb8c52aab8c7f4983c2fab7da72fe073f4104c20252a5f60d8ef1ab564154dff208271eb0eb0ac7e9d089acf1f1e1 3456 python-tomli_2.2.1-2.debian.tar.xz b5a9addf61e1c9f4dc547580f17184c0182f2aafc595f4150ee59dda880046dd8645bd37a0ab92b190b9125f34a48e20812f6923a8cbebc5e662f02203685832 2173 python-tomli_2.2.1-2.dsc 6bd2600b06b9d41f45ae34172380d3ec162d0e25a7602e8e77ee37bbe165674ff17afc39c4d1f87c9cec9bd1f02003ba5ebaa313a60efca64ef5124f77a2c887 137745 python-tomli_2.2.1.orig.tar.gz"
+    "09fa06b04dd34d6f219b6a523bd0f4e68b186aa4c64deb0303f6aa822efb30cc79df5bba73c1e18e73beaf2cf89b010974e8f1ddd835682e6c21baa67f47d7c3 2868 python-tomli_2.0.1-2.debian.tar.xz 24861d38163d68cbd2454f1d16abba973ac15259a2683fcef9098c2282a321aba12fecdca54630b45b85645a43aefeb7d035341a233137f7aac4fd95dec7212f 1544 python-tomli_2.0.1-2.dsc a467f8d48cdbd7213bd9b6f85fd48ba142ab7c9656c40bb30785e1c4b37a9e29eaed420f183458ad20112baee8413ebbec87755332795c8f02235d1018c3aa5c 133685 python-tomli_2.0.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-tomli"
   ],
   "Files": [
-    "a7f43a18415cdf14ab2f68837ac8e6a1 3456 python-tomli_2.2.1-2.debian.tar.xz dade84026b0711415de984ec7fabdec8 2173 python-tomli_2.2.1-2.dsc eca0c8d76e258468006d401ad4467ab9 137745 python-tomli_2.2.1.orig.tar.gz"
+    "afcba8b9580d7732637539003ea5dd0e 2868 python-tomli_2.0.1-2.debian.tar.xz 87149ab69debf30d3356c027ed86768a 1544 python-tomli_2.0.1-2.dsc b32f504876fd88ea1ca0c2fab4ce8e27 133685 python-tomli_2.0.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,16 @@
     "python-tomli"
   ],
   "Package-List": [
-    "python3-tomli deb python optional arch=any"
+    "python3-tomli deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
-    "autopkgtest-pkg-pybuild"
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "python3-pytest-xdist"
   ],
   "Uploaders": [
     "Michael R. Crusoe \u003ccrusoe@debian.org\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-tomli.git"
   ],
   "Version": [
-    "2.2.1-2"
+    "2.0.1-2"
   ]
 }

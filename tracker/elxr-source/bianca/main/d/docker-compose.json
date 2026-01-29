@@ -1,65 +1,59 @@
 {
   "Architecture": [
-    "any"
+    "all"
   ],
   "Binary": [
     "docker-compose"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-exec, dh-sequence-golang, golang-any, golang-github-acarl005-stripansi-dev, golang-github-alecaivazis-survey-dev, golang-github-buger-goterm-dev, golang-github-compose-spec-compose-go-dev, golang-github-containerd-console-dev, golang-github-containerd-containerd-dev, golang-github-davecgh-go-spew-dev, golang-github-distribution-reference-dev, golang-github-docker-buildx-dev, golang-github-docker-cli-docs-tool-dev, golang-github-docker-docker-dev, golang-github-docker-go-connections-dev, golang-github-docker-go-units-dev, golang-github-docker-notary-dev, golang-github-eiannone-keyboard-dev, golang-github-fsnotify-fsnotify-dev, golang-github-google-go-cmp-dev, golang-github-gotestyourself-gotest.tools-dev \u003c!nocheck\u003e, golang-github-hashicorp-go-multierror-dev, golang-github-hashicorp-go-version-dev, golang-github-jonboulle-clockwork-dev, golang-github-mattn-go-shellwords-dev, golang-github-mitchellh-mapstructure-dev, golang-github-moby-patternmatcher-dev, golang-github-moby-term-dev, golang-github-morikuni-aec-dev, golang-github-opencontainers-go-digest-dev, golang-github-opencontainers-image-spec-dev, golang-github-otiai10-copy-dev, golang-github-r3labs-sse-dev, golang-github-skratchdot-open-golang-dev, golang-github-spf13-cobra-dev, golang-github-spf13-pflag-dev, golang-github-stretchr-testify-dev, golang-go.uber-mock-dev, golang-golang-x-exp-dev, golang-golang-x-sync-dev, golang-google-grpc-dev, golang-gopkg-yaml.v3-dev, golang-logrus-dev, golang-opentelemetry-contrib-dev, golang-opentelemetry-otel-dev, golang-uber-goleak-dev"
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-cached-property (\u003e= 1.2.0), python3-setuptools (\u003e= 0.6b3), python3-distro (\u003e= 1.5.0), python3-docker (\u003e= 5), python3-dockerpty (\u003e= 0.4.1), python3-docopt (\u003e= 0.6.1), python3-dotenv (\u003e= 0.13.0), python3-yaml (\u003e= 3.10), python3-requests (\u003e= 2.20.0), python3-texttable (\u003e= 0.9.0), python3-websocket (\u003e= 0.32.0), python3-mock (\u003e= 1.0.1), python3-flake8"
   ],
   "Checksums-Sha1": [
-    "1c0597df9858363d3573b74211bc67ee8f348aea 9600 docker-compose_2.26.1-4.debian.tar.xz 5d946c7de87b6492a73618ae5e1f3f4b11c8cc1e 3168 docker-compose_2.26.1-4.dsc 865754e35434ed961958d1a9c24d6885e470bd7e 283860 docker-compose_2.26.1.orig.tar.xz"
+    "b5dc5f835087a60d2179ab9c80c3273ae1f36a84 6236 docker-compose_1.29.2-3.debian.tar.xz a347e21c262aedbbc8e77a74928c436301d5a508 1933 docker-compose_1.29.2-3.dsc 831c81a1bf634005a3ceaef0b41cc54bb606be0c 320320 docker-compose_1.29.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "eed0eb7deed0869aff7ce0ec9d70e45c5c1ef9a2900df9fa9a9ad46220c1fb64 9600 docker-compose_2.26.1-4.debian.tar.xz c56d7ad12037d8519b5314adf4338318ad511971cc950c4bdb8825d067c7b4fd 3168 docker-compose_2.26.1-4.dsc 9b2f3ec4ccced49125d8ae46e09d45d435623a4c58ba609b3ec160baeb400242 283860 docker-compose_2.26.1.orig.tar.xz"
+    "56b24c8e113dba9fb05bbef3c32c187551c4769cea4ac7349607a9e879ae8b36 6236 docker-compose_1.29.2-3.debian.tar.xz 2cf7acfaadf7bc2ed2284ccfe6ae2503de9163db49fd3ecf2fe4f8cadbf57449 1933 docker-compose_1.29.2-3.dsc 99a9b91d476062d280c889ae4e9993d7dd6a186327bafb2bb39521f9351b96eb 320320 docker-compose_1.29.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a517d2de854230a96757dc4d1ece8351602a162459dc5c99d7a29719e3f9c4264cfa3e265209d85697c33b110c07b55691cf8dbee6e5c8fbb804322dfbd12add 9600 docker-compose_2.26.1-4.debian.tar.xz 44570299c38fca17e2aee609cb4ea0bc1c269327e2bfa9459cfdf1fb5efbd561adbc5340a9ae494935dd143a4c7a1724586839e74e8007793be3b707fc37f6d1 3168 docker-compose_2.26.1-4.dsc d106b191a1b6b3a239e55d45af84b1c04f5438c9af804434e2406a3f487eae8464a85432994d2eef769ff78a8c2c152a822dc75e45aeba275a90d474bea2fb0c 283860 docker-compose_2.26.1.orig.tar.xz"
+    "ab2cb5ed37ebb9c97b8a9fe2dd270284410b259f371bd28760229a0f2c6d4ededd6b9a98807600d370c690d6d59a775641c214006be5a7d240763755ec3cee0d 6236 docker-compose_1.29.2-3.debian.tar.xz 1a146df99ede5d6928b396d2480c62256806d826a45b769b0b152552ebb7fd00ba4b20d1443b9c604f065b8ef7a2e8a520b1dd5db96a3389ca7d75d1ef8e26d5 1933 docker-compose_1.29.2-3.dsc 09f2ae2ae7a17ab5fb3e22580f7a80f1a8253f7ad9fc8f29aca432911bcde46ed22030ff3073cdd7eff3d55aaba17f56e628a178ec05c3a9b4f28495d6045111 320320 docker-compose_1.29.2.orig.tar.gz"
   ],
   "Dgit": [
-    "2ed5b44fe98654fc364ed253949b476d7d985c1d debian archive/debian/2.26.1-4 https://git.dgit.debian.org/docker-compose"
+    "5c5b5d31f1cc1622059bcddf7456f9c988ad64b2 debian archive/debian/1.29.2-3 https://git.dgit.debian.org/docker-compose"
   ],
   "Directory": [
     "pool/main/d/docker-compose"
   ],
   "Files": [
-    "f0cd3e0942743cf79da31346202248eb 9600 docker-compose_2.26.1-4.debian.tar.xz d3cb610fbb247744c065be72e658a54d 3168 docker-compose_2.26.1-4.dsc e2e7a4cfeb7a6a3b88a3d8ec1e58476f 283860 docker-compose_2.26.1.orig.tar.xz"
+    "4c1b4711fecf710206c9b47a93983dc1 6236 docker-compose_1.29.2-3.debian.tar.xz 4bf5aa50d4e1327d1a739df3bab08906 1933 docker-compose_1.29.2-3.dsc 551e40d0740fedc4927f434836038324 320320 docker-compose_1.29.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
-  "Go-Import-Path": [
-    "github.com/docker/compose"
-  ],
   "Homepage": [
-    "https://github.com/docker/compose"
+    "https://docs.docker.com/compose/"
   ],
   "Maintainer": [
-    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+    "Docker Compose Team \u003cteam+docker-compose@tracker.debian.org\u003e"
   ],
   "Package": [
     "docker-compose"
   ],
   "Package-List": [
-    "docker-compose deb admin optional arch=any"
+    "docker-compose deb admin optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
-  ],
-  "Testsuite": [
-    "autopkgtest-pkg-go"
+    "4.6.0"
   ],
   "Uploaders": [
-    "Nicolas Peugnet \u003cnicolas@club1.fr\u003e, Reinhard Tartler \u003csiretart@tauware.de\u003e"
+    "Jason Pleau \u003cjason@jpleau.ca\u003e, Andrej Shadura \u003candrewsh@debian.org\u003e"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/go-team/packages/docker-compose"
+    "https://salsa.debian.org/docker-compose-team/docker-compose"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/go-team/packages/docker-compose.git"
+    "https://salsa.debian.org/docker-compose-team/docker-compose.git"
   ],
   "Version": [
-    "2.26.1-4"
+    "1.29.2-3"
   ]
 }

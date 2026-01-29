@@ -3,28 +3,28 @@
     "linux-any all"
   ],
   "Binary": [
-    "libwpewebkit-2.0-dev, libwpewebkit-2.0-1, wpewebkit-webdriver, libwpewebkit-doc, libwpewebkit-1.0-doc, wpewebkit-driver"
+    "libwpewebkit-1.1-dev, libwpewebkit-1.1-0, wpewebkit-driver, libwpewebkit-1.0-doc"
   ],
   "Build-Depends": [
-    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), bubblewrap [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hppa ppc64 x32], xdg-dbus-proxy [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hppa ppc64 x32], libseccomp-dev [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hppa ppc64 x32], cmake (\u003e= 3.16), flite1-dev, gperf, libatk-bridge2.0-dev, libatk1.0-dev, libavif-dev, libcairo2-dev, libepoxy-dev, libgbm-dev, libgcrypt20-dev, libgstreamer-plugins-bad1.0-dev, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libharfbuzz-dev, libicu-dev, libjpeg-dev, libjxl-dev, liblcms2-dev, libopenjp2-7-dev, libsoup-3.0-dev, libsqlite3-dev, libsystemd-dev, libtasn1-6-dev, libwayland-dev, libwebp-dev, libwoff-dev, libwpe-1.0-dev, libwpebackend-fdo-1.0-dev, libxslt1-dev, ninja-build, ruby:native, unifdef, wayland-protocols"
+    "debhelper-compat (= 12), bubblewrap (\u003e= 0.3.1) [!alpha !ia64 !m68k !riscv64 !sh4 !sparc64], xdg-dbus-proxy [!alpha !ia64 !m68k !riscv64 !sh4 !sparc64], libseccomp-dev [!alpha !ia64 !m68k !riscv64 !sh4 !sparc64], cmake (\u003e= 3.10), gperf, jdupes, libatk-bridge2.0-dev, libatk1.0-dev, libcairo2-dev (\u003e= 1.14.0), libepoxy-dev, libgbm-dev, libgcrypt20-dev (\u003e= 1.7.0), libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libharfbuzz-dev (\u003e= 0.9.18), libicu-dev, libjpeg-dev, liblcms2-dev, libopenjp2-7-dev (\u003e= 2.2.0), libsoup-3.0-dev, libsqlite3-dev, libsystemd-dev, libtasn1-6-dev, libwayland-dev, libwebp-dev, libwoff-dev (\u003e= 1.0.2), libwpe-1.0-dev, libwpebackend-fdo-1.0-dev, libxslt1-dev (\u003e= 1.1.7), ninja-build, ruby:native, wayland-protocols"
   ],
   "Build-Depends-Indep": [
-    "gi-docgen, gobject-introspection, libgirepository1.0-dev, libglib2.0-doc, libsoup-3.0-doc, jdupes"
+    "gi-docgen, gobject-introspection, libgirepository1.0-dev, libglib2.0-doc, libsoup-3.0-doc"
   ],
   "Checksums-Sha1": [
-    "36ad5cdd98c2bc0fad2a8472116fd6404b67084f 50100 wpewebkit_2.48.3-1.debian.tar.xz 3b5de8d206a800caadf1b467b98711793f7631da 3568 wpewebkit_2.48.3-1.dsc 8a90b9ff8809c99c306defc1a08e50a31a09c590 42211124 wpewebkit_2.48.3.orig.tar.xz aad51f427f80d494cfd9237a23dc715a8ed5dc0a 195 wpewebkit_2.48.3.orig.tar.xz.asc"
+    "39495036cf5fa8b1a7c6fbd20227225ef0e247a1 44768 wpewebkit_2.38.6-1.debian.tar.xz e033daa0390e71b0700dbc534c3b7581a714b070 3294 wpewebkit_2.38.6-1.dsc 5c541a10e216d8d9ca48572b3dc0f82bfb2236c5 30521576 wpewebkit_2.38.6.orig.tar.xz 22935669830a63684606911864bf469b0a20027f 195 wpewebkit_2.38.6.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "ed7ce0b8f51db84b7a22cec65abc8ea867ba9cb790e39a2602c89234e4b4dfb9 50100 wpewebkit_2.48.3-1.debian.tar.xz dde35d7581c0c35d95f0468b9f90186c361ac82a36ac9eb0e43991270d49547e 3568 wpewebkit_2.48.3-1.dsc 807571f07e87823b8fb79564692c9b1ef81ee62edbf51345a15bd0e7e1f2e07b 42211124 wpewebkit_2.48.3.orig.tar.xz abb7fc0c67f93b8ed57580486b3f065a4117dcaff980e4ab4df4dcf133c33f8e 195 wpewebkit_2.48.3.orig.tar.xz.asc"
+    "3a120e49ca50eb61bd1cbe3fc2a0bf9cd595d34bd63e93fba18ec483b277e759 44768 wpewebkit_2.38.6-1.debian.tar.xz 333dcfda037681dd3e5d85fc9d11cbcbfa39b9d44ec752a6bdba422b1bed81af 3294 wpewebkit_2.38.6-1.dsc dcb6591456393c5366ad9abc62a808137d4fea039cbc7ef4c8d64ead506d035b 30521576 wpewebkit_2.38.6.orig.tar.xz bffa59b9f1a54e4d5f5702805f0e79158f8f5c312e31b40a342ea960c7e84b51 195 wpewebkit_2.38.6.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "3cd5a50b1d9cf0b7b556db3891158c90eaa3b376a6d10dd1c133580a935a338e371a1fdc5dc8a2bdba797269719af86acb93e0e5f0349e3ca6a959524ff61617 50100 wpewebkit_2.48.3-1.debian.tar.xz 9fcf7c17fcd6a843700f19ee8f3258b44b64ef9dce72cf4479ae328020418d1f0c13c52ddb9dbf6557c1bb9d0753c28d093ac1dd2784a8a83c91d39e547cf7bd 3568 wpewebkit_2.48.3-1.dsc fe96377d0f9f6b6ce4bfbf7c67e1828c8b397ef246282a8748ce8b4f9fbcfc6ebeadba4176428b17a9e0850e1d2ea8ba52a1c75bb405f6c4ba1a644e4a5a7b04 42211124 wpewebkit_2.48.3.orig.tar.xz 2de98df4c18f80b55cad9f446bc52bd4e8daf9080c1bb743e88bb08d0e58139beb95d2758816abd791c3a7841cd54cb824d12f2452cc2fc8365d8e5b4828c0f3 195 wpewebkit_2.48.3.orig.tar.xz.asc"
+    "78c2522148ed89c4d6b925001bf7899523ef6e2ad1f091f417ca32e0a0e202cb757b3d58e6aafedffddd0c3d9aa37c0ea5b29037e1c5d0ac975d8d06d75971c9 44768 wpewebkit_2.38.6-1.debian.tar.xz 60fa9d85b34c733e994a2bbe56ffac69f83c98a6e278de05d2ec055c17b9761e6d619b8facc198c1cd20149ed1d69b3d165eab519e38d208bb93a9eca10cf17c 3294 wpewebkit_2.38.6-1.dsc 2c32830de45ece660ab97c13f72b4294e88c5a4ecdbd33472616ebd7df8b1d69cc866a0a08f228068d42457ff11369688404ca4b2e00431c591577285fe7a7b3 30521576 wpewebkit_2.38.6.orig.tar.xz cb1b6643f4206c39568ae22a378983ac7457f9041df4ece2ff662b7d750b9463c830c5aeeac5acfef38b71c09c3010b66d2f3ae57b93afa770900c1970bcad3e 195 wpewebkit_2.38.6.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/w/wpewebkit"
   ],
   "Files": [
-    "7b7f8bd7a12f577b431c20289a9b3e6f 50100 wpewebkit_2.48.3-1.debian.tar.xz af38e5cac2a6f1c9d6f61cc40a500fad 3568 wpewebkit_2.48.3-1.dsc 2d3b7fa3c62886546f918fcc289cabbe 42211124 wpewebkit_2.48.3.orig.tar.xz ad03c703ff24375ce195f0f136a851ff 195 wpewebkit_2.48.3.orig.tar.xz.asc"
+    "8b4c8a3cf40168eb0e8bbbf31b00c47f 44768 wpewebkit_2.38.6-1.debian.tar.xz 97c68313075395d33368a4844c902e8e 3294 wpewebkit_2.38.6-1.dsc eb44d3132208218f3752170cae3220b8 30521576 wpewebkit_2.38.6.orig.tar.xz 096fe68b05521cb06d97d272d6d2a9d7 195 wpewebkit_2.38.6.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "wpewebkit"
   ],
   "Package-List": [
-    "libwpewebkit-1.0-doc deb oldlibs optional arch=all profile=!nodoc libwpewebkit-2.0-1 deb libs optional arch=linux-any libwpewebkit-2.0-dev deb libdevel optional arch=linux-any libwpewebkit-doc deb doc optional arch=all profile=!nodoc wpewebkit-driver deb oldlibs optional arch=all wpewebkit-webdriver deb web optional arch=linux-any"
+    "libwpewebkit-1.0-doc deb doc optional arch=all profile=!nodoc libwpewebkit-1.1-0 deb libs optional arch=linux-any libwpewebkit-1.1-dev deb libdevel optional arch=linux-any wpewebkit-driver deb web optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Uploaders": [
     "Alberto Garcia \u003cberto@igalia.com\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/webkit-team/webkit.git -b wpe/unstable"
   ],
   "Version": [
-    "2.48.3-1"
+    "2.38.6-1"
   ]
 }

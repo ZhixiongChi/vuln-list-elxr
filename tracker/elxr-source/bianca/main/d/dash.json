@@ -1,30 +1,30 @@
 {
   "Architecture": [
-    "any"
+    "any all"
   ],
   "Binary": [
-    "dash"
+    "dash, ash"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), po-debconf"
+    "debhelper-compat (= 12), dpkg-dev (\u003e= 1.16.1), po-debconf"
   ],
   "Checksums-Sha1": [
-    "0302a1006f740bc89faf8f4cf3d8f3f5dd1cbfd2 47300 dash_0.5.12-12.debian.tar.xz 6dfbaf7435adb82d03033aabb3f06783fc7cbb23 1460 dash_0.5.12-12.dsc e15444a93853f693774df003f87d9040ab600a5e 246054 dash_0.5.12.orig.tar.gz"
+    "3d892a207a28afa4894296c76c0a3c322b892a6a 38512 dash_0.5.12-2.debian.tar.xz fa572b2b5f629af9618ea08693bb83b93a4cba7a 1520 dash_0.5.12-2.dsc e15444a93853f693774df003f87d9040ab600a5e 246054 dash_0.5.12.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a278acb5d9a1f5d9a086d36a547287cbf3105b8f33c0e62d86d264decf5ba1ad 47300 dash_0.5.12-12.debian.tar.xz 589efc4d87a4ae4745c273bdb33198d7c4f28a71736a8ece81d3677cf9c6e5ce 1460 dash_0.5.12-12.dsc 6a474ac46e8b0b32916c4c60df694c82058d3297d8b385b74508030ca4a8f28a 246054 dash_0.5.12.orig.tar.gz"
+    "bddd9129215eb60f4cc43a0ffdcc42d8f25e0bd09730520d599a2b7bc492e375 38512 dash_0.5.12-2.debian.tar.xz 25c0fb805c735fdb7470ce485ce76dae1a7b6c04efdfb0fdac5eab921cbd78a5 1520 dash_0.5.12-2.dsc 6a474ac46e8b0b32916c4c60df694c82058d3297d8b385b74508030ca4a8f28a 246054 dash_0.5.12.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "865cef4ac5e8eaa5ea34c7c1c2cbd9077b5d442c7b4455f62b3e419d0acf0aadeaf4185d7362bee62b99ce9d85296a5ed8d21f8781ffe8b03c174b2157520734 47300 dash_0.5.12-12.debian.tar.xz 7c971b661c9451d2fa92e5f8343972328652cf8d2a6992d9f72dbcc8a181012254746204aafac31dbbc58eddb252720ca65518931b2349b8e16e4514485dba11 1460 dash_0.5.12-12.dsc 13bd262be0089260cbd13530a9cf34690c0abeb2f1920eb5e61be7951b716f9f335b86279d425dbfae56cbd49231a8fdffdff70601a5177da3d543be6fc5eb17 246054 dash_0.5.12.orig.tar.gz"
+    "7f4def6b962465a1695a6de95c6e08ac2c24f9a60ce92002220ef0b9b134234d0daf4dcba3e3db5853cd194da0ae1a1d04d1aee58b4aaae5f418ccc5b23f10b7 38512 dash_0.5.12-2.debian.tar.xz 81f6d0297840b24864528b8a0579b7eeb4fb72ae45470b81f95860fe1966afb4a0c776af23c6361a1503f6e41d9d536113a3cf37f9ca3d11e4f284dc1f120725 1520 dash_0.5.12-2.dsc 13bd262be0089260cbd13530a9cf34690c0abeb2f1920eb5e61be7951b716f9f335b86279d425dbfae56cbd49231a8fdffdff70601a5177da3d543be6fc5eb17 246054 dash_0.5.12.orig.tar.gz"
   ],
   "Dgit": [
-    "7af32f24b87fc5bca8ef285a6bfbeff7d3ca1e87 debian archive/debian/0.5.12-12 https://git.dgit.debian.org/dash"
+    "c287961a66d2fe099230522b4bfa14edfa695cb3 debian archive/debian/0.5.12-2 https://git.dgit.debian.org/dash"
   ],
   "Directory": [
     "pool/main/d/dash"
   ],
   "Files": [
-    "f1757a8fe3e053b82f42292c9b5c73d2 47300 dash_0.5.12-12.debian.tar.xz ecd2b43069b15a0f6bd334f16343e550 1460 dash_0.5.12-12.dsc 57222b768b84003ea4b801e5d5e0e52b 246054 dash_0.5.12.orig.tar.gz"
+    "54efe6439b0ddae0eef83f6635609371 38512 dash_0.5.12-2.debian.tar.xz c9bc18de18ef1473455b481ab1a8ede1 1520 dash_0.5.12-2.dsc 57222b768b84003ea4b801e5d5e0e52b 246054 dash_0.5.12.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "dash"
   ],
   "Package-List": [
-    "dash deb shells required arch=any essential=yes"
+    "ash deb shells optional arch=all dash deb shells required arch=any essential=yes"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.2.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/debian/dash.git"
   ],
   "Version": [
-    "0.5.12-12"
+    "0.5.12-2"
   ]
 }

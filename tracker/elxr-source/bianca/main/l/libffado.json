@@ -6,25 +6,25 @@
     "libffado-dev, libffado2, ffado-tools, ffado-dbus-server, ffado-mixer-qt4"
   ],
   "Build-Depends": [
-    "dbus \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-python3, libconfig++-dev, libdbus-1-dev, libdbus-c++-bin, libdbus-c++-dev, libiec61883-dev, libraw1394-dev, libxml++2.6-dev, libxml2-dev, pkgconf, python3, python3-setuptools, scons"
+    "dbus \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-python3, libconfig++-dev, libdbus-1-dev, libdbus-c++-bin, libdbus-c++-dev, libiec61883-dev, libraw1394-dev, libxml++2.6-dev, libxml2-dev, pkg-config, python3, scons"
   ],
   "Build-Depends-Indep": [
     "pyqt5-dev-tools, python3-dbus, python3-dbus.mainloop.pyqt5, python3-pyqt5"
   ],
   "Checksums-Sha1": [
-    "a4453e7ea80a8f1a8238c9c1580bd33e9cd227e6 13688 libffado_2.4.9-2.debian.tar.xz 90d3b986c167dac7a2681ceba07e442e7b3882c9 2423 libffado_2.4.9-2.dsc d5a9ebd76207af5480687d2c0e0951ac45d14d67 886660 libffado_2.4.9.orig.tar.xz"
+    "2207b520d804951bd99b9f728b0dbfaedc92e975 12996 libffado_2.4.7-1.debian.tar.xz 5edb17a0aa8847d7fd240b59d10f4901b7811889 2558 libffado_2.4.7-1.dsc 41a8670d9d4d3fe1c297dc95c9cdf6e38b6b639c 1231931 libffado_2.4.7.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "39785693d11f9a2917231f1adb04f85ee9269a15abc923458d45cbb6422820e3 13688 libffado_2.4.9-2.debian.tar.xz 20ddc23cd6bdb62d22192ff6797cd8e8dc4d679a71e378d9a45b8ebc39476f8a 2423 libffado_2.4.9-2.dsc ab8b1aa31dd061dbbfbb7de439a7847baa7f3cc40106a0df6daafe853b6d1686 886660 libffado_2.4.9.orig.tar.xz"
+    "1cf265ad38318b18f3e72e9877fc46898ef8812c60f4bf7832c00a5940e66e4a 12996 libffado_2.4.7-1.debian.tar.xz ac67da40be50f5d6875a25e1b0e26941231d64891f2559b4df2c4ce5342fb7c6 2558 libffado_2.4.7-1.dsc 7a08c634ce8e74eb5b2c9b19e2df5a6755aadb69d3e104313dc799278a1f566f 1231931 libffado_2.4.7.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a60ddebd4d33df52ace8b2f3b8a731e516444913892a1073cebfc44c56f18f91132ff42d19f1fcf6aaec94a4ac0b816f1234866082031dd714a293379190e10b 13688 libffado_2.4.9-2.debian.tar.xz 4aee53b8a380b332d7ee89ff3f6a0d34b26b3f871f0caad55e17b451647d0b378f6f982cf984454c0d80ec3fb65bfaf4f7fdc31f13cb7026c61ceb1954ee91d8 2423 libffado_2.4.9-2.dsc 29a006323bd18b5afacf207cd4882c5feb4d7e9870f3f5783e795f01be3ba98826f5fccac0cbb29552d80222e67716e8180dfab6d9b58c60a487f930442ae2b5 886660 libffado_2.4.9.orig.tar.xz"
+    "a5e9787f65f887ddff2940a061dec09851c78349896e6edc72a86f2e2867cfc435faaecf933e3763185a49db6170a261f159b61865c843a9979e0d28059edb3e 12996 libffado_2.4.7-1.debian.tar.xz c00c6d692545ce59745bc377554d81d6fe0429adb4584432bde650a351f2e9c9e2aed40df30893d462c034c8502ad2e8ae0be1a7ccca53afbd06b89fcbf35c9c 2558 libffado_2.4.7-1.dsc 424a9ca7ded12e72d77a50d7ddf4e50dc0d55b80d725499df7609ce60d0eac8b24a41d9b8e4e74f78bdefe114b61bd5f1ec09a6d083f4a58475e66d61153f075 1231931 libffado_2.4.7.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libf/libffado"
   ],
   "Files": [
-    "e81a144d9ae00527295112ab139098d0 13688 libffado_2.4.9-2.debian.tar.xz b94c0a6fef561b9bc57177568005e354 2423 libffado_2.4.9-2.dsc 06019e6e482642e643aea5baeaf2edf5 886660 libffado_2.4.9.orig.tar.xz"
+    "8b0f91a3d69ccc09ad6e7eb889dd6539 12996 libffado_2.4.7-1.debian.tar.xz c00fea736a1d18ac9825a621b7da5286 2558 libffado_2.4.7-1.dsc 24b6d89623f87687bb772e8d4430a6f1 1231931 libffado_2.4.7.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "ffado-dbus-server deb sound optional arch=linux-any ffado-mixer-qt4 deb sound optional arch=all ffado-tools deb sound optional arch=linux-any libffado-dev deb libdevel optional arch=linux-any libffado2 deb libs optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Uploaders": [
     "Adrian Knoth \u003cadi@drcomp.erfurt.thur.de\u003e, Free Ekanayaka \u003cfreee@debian.org\u003e, Sebastian Ramacher \u003csramacher@debian.org\u003e,"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/multimedia-team/ffado.git"
   ],
   "Version": [
-    "2.4.9-2"
+    "2.4.7-1"
   ]
 }

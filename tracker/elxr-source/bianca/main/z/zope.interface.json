@@ -6,25 +6,25 @@
     "python3-zope.interface"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, libpython3-all-dev, pybuild-plugin-pyproject, python3-all-dev:any, python3-coverage, python3-pytest, python3-setuptools, python3-zope.event, python3-zope.testing"
+    "debhelper-compat (= 13), dh-python, libpython3-all-dev, python3-all-dev:any, python3-coverage (\u003e= 5.0.3), python3-pytest, python3-setuptools, python3-zope.event, python3-zope.testing"
   ],
   "Checksums-Sha1": [
-    "bf560a2eaad62e8e22e24fae16fb6b8b4669cb45 7172 zope.interface_7.2-1.debian.tar.xz a3743259fd49b3e17d7912b679fbfe59c86261f4 2375 zope.interface_7.2-1.dsc 05ea4b68c77462510a34cc4f31e197bb7cf15757 228730 zope.interface_7.2.orig.tar.gz"
+    "dbdc53775fe77cddd172c961eca2c6faadf17ca4 6732 zope.interface_5.5.2-1.debian.tar.xz b09ae5701a9ceb6cc4cfdb4160f79debbcf93ebe 2315 zope.interface_5.5.2-1.dsc 6d1c47de9b36f19632ce4bd2b49ee43cb0efaa35 231078 zope.interface_5.5.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "844e2258ea4a04a5dff2d066375fa69644057331f04c3d379587861f4c1b8ed9 7172 zope.interface_7.2-1.debian.tar.xz dde0377da6b21eee42eb05630a9bca4526c21cf8a801397c841ceba920792bf5 2375 zope.interface_7.2-1.dsc ddc24f938c4ba7249cea64b5c010449a4cba712e252f34ded202cd05073f4028 228730 zope.interface_7.2.orig.tar.gz"
+    "b5be7a92aea9b55b299b37d2c19216a6c78a724ff037631434ea957d1732706c 6732 zope.interface_5.5.2-1.debian.tar.xz a5e146a954df30b56f6b5e019c656414ff56af5ea6ea267fe0482ba801724288 2315 zope.interface_5.5.2-1.dsc 1b3486c6fbdb737dca12a51e475079c77dd5385a15cfd3bef2b4912d79e5ac49 231078 zope.interface_5.5.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c260c76913266a1fdbceddd1854dfd57123a1b8002bd07664c5387575ef1e097bdcea5274b14d5d00c3789f182c88bcd10f05d123d26295075419968ef7f5c93 7172 zope.interface_7.2-1.debian.tar.xz 30d693e67236a0384e7236033e93ce98f6149bb70853d9d8007dcada11c56098b31fe2c8937b9143211f296b3fe3c89ca37bf73e2e50d7c4e11a75ddd3de559d 2375 zope.interface_7.2-1.dsc 4fed40f4eeae27cdd1daf864e66cf1211b899ab3a5ee76f6a03f90fc281fb995520450858e7e59c4fa20b5bb8618edfbc2a973abce3def3178497d14b7652bb0 228730 zope.interface_7.2.orig.tar.gz"
+    "78bf11d8a7e27d0d8b6bdb36fbdcc2bbf2de0647a953655962393bf139171fafd2f72e9b909cd6f50d7eaf57f83c2410de7077dc4c3e9877ae30a226632dd245 6732 zope.interface_5.5.2-1.debian.tar.xz 3dff8794ede19f51de59002f66109bb8103fa7affa8b570be3a8ac002c6e20a824c648564612a100f22fa21dee5d287bc3f163bce977293e5c41e4c8f054bd54 2315 zope.interface_5.5.2-1.dsc cd384ca1b5dbbcc53cb388a3543a7d09240d33c123b70b164df2612430e523df16bdf6c31fb2d7c69a72e455774e5ac11b62035b208f3a3c45f76a6fc5c315d4 231078 zope.interface_5.5.2.orig.tar.gz"
   ],
   "Dgit": [
-    "9ad4f72aa91304707369a6072b6c0893acd3f0e7 debian archive/debian/7.2-1 https://git.dgit.debian.org/zope.interface"
+    "c29d74e574c6b249e2e830e0dc66a17e26b7b1db debian archive/debian/5.5.2-1 https://git.dgit.debian.org/zope.interface"
   ],
   "Directory": [
     "pool/main/z/zope.interface"
   ],
   "Files": [
-    "eeed0d8e4c5df51a5ef6e75331617a62 7172 zope.interface_7.2-1.debian.tar.xz 7de7a3fe908dcb38a5d14517c496c992 2375 zope.interface_7.2-1.dsc f9645efbe2b56213bb89e804afbf2487 228730 zope.interface_7.2.orig.tar.gz"
+    "4daa31244dc5d23ae4b722768f9582c5 6732 zope.interface_5.5.2-1.debian.tar.xz d26af944303d0f049e2df49bc3a5ffd3 2315 zope.interface_5.5.2-1.dsc 0184a255b649fd4caaf1fef8c2d5a079 231078 zope.interface_5.5.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,13 @@
     "python3-zope.interface deb zope optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.0"
   ],
   "Testsuite": [
-    "autopkgtest, autopkgtest-pkg-pybuild"
+    "autopkgtest"
   ],
   "Uploaders": [
-    "Pierre-Elliott Bécue \u003cpeb@debian.org\u003e, Colin Watson \u003ccjwatson@debian.org\u003e"
+    "Pierre-Elliott Bécue \u003cpeb@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/zope.interface"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/zope.interface.git"
   ],
   "Version": [
-    "7.2-1"
+    "5.5.2-1"
   ]
 }

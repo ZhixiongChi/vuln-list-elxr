@@ -6,22 +6,22 @@
     "ruby-thor"
   ],
   "Build-Depends": [
-    "ruby-bundler, debhelper-compat (= 13), gem2deb (\u003e= 1), rake, ruby-diff-lcs, ruby-rspec, ruby-simplecov, ruby-webmock"
+    "ruby-bundler, debhelper-compat (= 13), gem2deb (\u003e= 1), rake, ruby-diff-lcs, ruby-fakeweb, ruby-rspec, ruby-simplecov, ruby-webmock"
   ],
   "Checksums-Sha1": [
-    "de06a7ce904c71bd2f39469f12b992f12b2ca2ce 6624 ruby-thor_1.3.2-2.1.debian.tar.xz d43e4f4c9b894fa9d69869f18baf61b76f1149c3 1891 ruby-thor_1.3.2-2.1.dsc fe87cb3f52990cb0f5e4749c9e3907f8ebf5b45f 103619 ruby-thor_1.3.2.orig.tar.gz"
+    "c0b61b40ab743dc04a66a1c6ea8f1c5192d36a62 8132 ruby-thor_1.2.1-2.debian.tar.xz 02bd256637a3d8d1a11dc452abcd0e6de97a711e 2044 ruby-thor_1.2.1-2.dsc 9380d8f3200dc38caff171c0e2eded39944040f5 96638 ruby-thor_1.2.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "c77ffc217b81a59709a93fd8ee0f6ed01a2e3df8462c6e5cf5d21dd02bc6ce7f 6624 ruby-thor_1.3.2-2.1.debian.tar.xz 5e7a1989250796a305cf409d2fcbca2fc02057e093554f428c5e333acde871f3 1891 ruby-thor_1.3.2-2.1.dsc 08fb714bef57b8a4b9a91862cee79fbb8a3e6f2548a86430394702fdba00acbb 103619 ruby-thor_1.3.2.orig.tar.gz"
+    "43762f735da8326d910e075ae7bafe8a0403c641ce8538a01bfc9ec8b1cf33b7 8132 ruby-thor_1.2.1-2.debian.tar.xz e89228156b7ebbc066bee486f65cc4632ea8f0e7356398ed30e7920c3da2ce0b 2044 ruby-thor_1.2.1-2.dsc 06a3c88920491f8604cb1a47abfbbc4c59c6209ab75ee0932be7bfe4321fd151 96638 ruby-thor_1.2.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c77159e7fc0e4b7e31de83aa82c246f6bce0c69d8fec1e05fa41bce263a9650da5a6494153109bd45b375bc4871521ad260718a2b158c8f332484d4c3eba080e 6624 ruby-thor_1.3.2-2.1.debian.tar.xz 36c5bc992b48e58bfb186d7e40d0957932b3f238d2a4456031dfaaef345dbe0300cf2563d32b23cfa890db69d990bbd66e66cc3d3a8656f8639b67472e4f1f2b 1891 ruby-thor_1.3.2-2.1.dsc fb2aff3cf8c14f1a8b38db77579e4b27292f9578c7abf8fb892da888bee7e24412c4bdbf85ce9e43982348f72e038cacc856500268fc204e44fa61f3f9405c32 103619 ruby-thor_1.3.2.orig.tar.gz"
+    "aba46f44fd97ac691128ddc8a02a04c428dbed2dfd9477d00f030716498ae8226dce3f7666849742ad7bb679605e764418b471890f8ab0a44126b78333034846 8132 ruby-thor_1.2.1-2.debian.tar.xz 9a1b72dc4e29fa5626ad0ea2033a2d7037a1a17ebf9bfcb4f8d54b3c5a2644c73550d37d22b9eeede2a00f251a3ed967f2dbdea2133e4eb51979f2b208989687 2044 ruby-thor_1.2.1-2.dsc 88e58b6ca6c812cb84ab59e0ee8afcd8fa70b6c24d403cd5ea05d1d40ac30e85f2c7412611cc176eb541d16878e309d25c7e4284f64c760475925ffe359250b9 96638 ruby-thor_1.2.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/ruby-thor"
   ],
   "Files": [
-    "7055430ddd1dd0fbda3e1b435855c039 6624 ruby-thor_1.3.2-2.1.debian.tar.xz 0eff1e05173ab6fa631553db35fac9cc 1891 ruby-thor_1.3.2-2.1.dsc f034fca9a14a40207976832f9d509744 103619 ruby-thor_1.3.2.orig.tar.gz"
+    "e1468afd125f3aac1d9f0a8f13c09b3c 8132 ruby-thor_1.2.1-2.debian.tar.xz bb1c71c4e1a823d8344cc3e6c5d29df0 2044 ruby-thor_1.2.1-2.dsc 9dc9a9f7361f3237d256f8e79cbdb71f 96638 ruby-thor_1.2.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "ruby-thor deb ruby optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest-pkg-ruby"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/ruby-team/ruby-thor.git"
   ],
   "Version": [
-    "1.3.2-2.1"
+    "1.2.1-2"
   ]
 }

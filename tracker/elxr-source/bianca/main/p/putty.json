@@ -6,40 +6,31 @@
     "pterm, putty, putty-tools, putty-doc"
   ],
   "Build-Depends": [
-    "cmake, debhelper (\u003e= 13.1), debhelper-compat (= 13), dh-exec, dh-sequence-zz-debputy-rrr (\u003e= 0.1.23~), dpkg-dev (\u003e= 1.15.7~), python3 \u003c!nocheck\u003e"
+    "cmake, debhelper (\u003e= 13.1), debhelper-compat (= 13), dh-exec, dpkg-dev (\u003e= 1.15.7~), python3 \u003c!nocheck\u003e"
   ],
   "Build-Depends-Arch": [
-    "imagemagick, libgtk-3-dev, libx11-dev, pkgconf, python3:any, x11proto-core-dev"
+    "imagemagick, libgtk-3-dev, libx11-dev, pkg-config, python3:any, x11proto-core-dev"
   ],
   "Build-Depends-Indep": [
     "halibut"
   ],
   "Checksums-Sha1": [
-    "e344be86867bbcfdf5766d83e22fda92622cc2d5 22012 putty_0.83-3.debian.tar.xz c22cbeba438b6fb20c6358e72fe41a80a826b441 2700 putty_0.83-3.dsc f9fd9ab5e3849bf8c22b218cdb7697dcdd1d8c9e 3007178 putty_0.83.orig.tar.gz 9360008da4c2c40310663b07c8dccebb702fcbf7 659 putty_0.83.orig.tar.gz.asc"
+    "aa986da546af967b9dc7619f6549c9e6bea9ccdb 56528 putty_0.78-2+deb12u2.debian.tar.xz 66d4b247abd2bb056cc81f21630164ac5da50c4a 2455 putty_0.78-2+deb12u2.dsc 198f01db6bea708e480fb11dd23026eda7b3f49f 2811628 putty_0.78.orig.tar.gz 38abce144331dbe3d7159e106bc3cbae040190b7 659 putty_0.78.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "be5d4bedc8a72e1cd4ac4b9cb5ca5ce93255a138cdc59647a791b332579f9f93 22012 putty_0.83-3.debian.tar.xz 6f48aa7a1cbaf17f7a9f39da5be1634d3dc960dfa6e6bca32f0017f35818d904 2700 putty_0.83-3.dsc 718777c13d63d0dff91fe03162bc2a05b4dfc8b0827634cd60b51cefdff631c6 3007178 putty_0.83.orig.tar.gz 9fdfa76112d88d96349bdb8e9b5d1b5f8f0b80033de2c3ba0ef7ea52bc14c99c 659 putty_0.83.orig.tar.gz.asc"
+    "114c028e708ab87c60d4bc7309710c53e124f89573b739ee5c4ce3398b9598e7 56528 putty_0.78-2+deb12u2.debian.tar.xz e589b49ae60a609fc52386dd77fb8d361068632d49700fba0d5b97fed35ca8d5 2455 putty_0.78-2+deb12u2.dsc 274e01bcac6bd155dfd647b2f18f791b4b17ff313753aa919fcae2e32d34614f 2811628 putty_0.78.orig.tar.gz f5b83cfbc2e7a731620b35626560996e37e653909dd84e54a25ec97981dff45b 659 putty_0.78.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "de2cdad428f1ca9154bc27bb25d840977bdcb2d001a5ee1e77236bd4bde5d3d83e2627a8f6e948a91ffa958a984458a43d990b0761b53fe6d9d02c82506a6760 22012 putty_0.83-3.debian.tar.xz 6e87116bff5d6f5c4cde9c6a6b95c11d7c2552322b286092785a0727fb9ed64c9f9837679400dc418dfff0b0eb871c7e2d0182a519a5b458bcd5fcd9b4eca29a 2700 putty_0.83-3.dsc 4781616b7e9c5a779a54e6a8486513e0aa947d4a36e9dbfd4ffc0d32981a5ad4868cddbde0363467236ed67c43f990408a9326d10354954be716a270d587c0a6 3007178 putty_0.83.orig.tar.gz 482f1ad32588de278bf3c7cbdbfd29d24b7c216a8a88cebc8e2761cd7772162e18bd9eb6c489094b6ea1b3ec7a51dbad63082f395a22a2f534f0d82532955516 659 putty_0.83.orig.tar.gz.asc"
-  ],
-  "Dgit": [
-    "eccb46f641f67a301d03d4cc07701e4a8b42ccce debian archive/debian/0.83-3 https://git.dgit.debian.org/putty"
+    "cd6cbb4e5580158177515f6086a2cc1ae1e952ee40aa50a7c92a02bba25be90458f5823421170764f9ae5fb524e072fcbe59002411f018e7a75ac162f916aaf4 56528 putty_0.78-2+deb12u2.debian.tar.xz f0e2ef3aaa9a3c7e4b94fc984a6b2d264bf19fcf0b9e1a31aff2d3da4d5f3d6460e812637d8c66ad52f9c0398c6ca207324359af9c88b5244ef2bbdb86e3766a 2455 putty_0.78-2+deb12u2.dsc d7a3e2eabd5f1f65fc0f3f1ee0789c30fbe891b57f63ddeac0b92befcb6aecd4a748f04a21c76ee42d992deb77c2e1a0454a71cc620ef26fbf23af660bd84bb5 2811628 putty_0.78.orig.tar.gz 69ee5cd2a8262705bab869eb2be2bdabbd53cb8ed7d240f48c05a9b6a47b8d0ee4b735a0d9b98a79bd4e96147c106643be91813397dc360a3ccb12f970ff13f7 659 putty_0.78.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/p/putty"
   ],
   "Files": [
-    "96bfedc072eba823794a0b00989e2c13 22012 putty_0.83-3.debian.tar.xz 4cc42039a4417464733a9d5aa9983958 2700 putty_0.83-3.dsc 359980711bed6be12a015ae50a1d9be5 3007178 putty_0.83.orig.tar.gz 57f0cc4eaf487df59622a2e0f8887bd7 659 putty_0.83.orig.tar.gz.asc"
+    "ee6888836cac4940134f66497ac41ce2 56528 putty_0.78-2+deb12u2.debian.tar.xz bbf1c2bc92136a3318cf1782ddad6dc0 2455 putty_0.78-2+deb12u2.dsc 6de073540eaf1ee182f9a4da61982211 2811628 putty_0.78.orig.tar.gz 7ca6f990320c493a70472a1e3ef9f62f 659 putty_0.78.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
-  ],
-  "Git-Tag-Info": [
-    "tag=fb8dfe92e72ca94c52f2ce43b23dd062a10641e6 fp=ac0a4ff12611b6fccf01c111393587d97d86500b"
-  ],
-  "Git-Tag-Tagger": [
-    "Colin Watson \u003ccjwatson@debian.org\u003e"
   ],
   "Homepage": [
     "https://www.chiark.greenend.org.uk/~sgtatham/putty/"
@@ -63,6 +54,6 @@
     "https://salsa.debian.org/ssh-team/putty.git"
   ],
   "Version": [
-    "0.83-3"
+    "0.78-2+deb12u2"
   ]
 }

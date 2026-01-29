@@ -6,31 +6,25 @@
     "libaudio2, nas, libaudio-dev, nas-bin, nas-doc"
   ],
   "Build-Depends": [
-    "libxau-dev, libsm-dev, libice-dev, libx11-dev, libxt-dev, libxaw7-dev, xutils-dev, bison, flex, file, po-debconf, dpkg-dev (\u003e= 1.16.0), debhelper-compat (= 12)"
+    "dh-autoreconf, libxau-dev, libsm-dev, libice-dev, libx11-dev, libxt-dev, libxaw7-dev, xutils-dev, bison, flex, file, po-debconf, dpkg-dev (\u003e= 1.16.0), debhelper (\u003e= 9)"
   ],
   "Checksums-Sha1": [
-    "b49611bf1cb47078995f91c16def15b05ff06185 32060 nas_1.9.4-9.debian.tar.xz 728f6f705bba89c0737d89694ff1205401d92d09 2214 nas_1.9.4-9.dsc a251c5b771f9d7fa98f65e5830a039b28f8a6995 1464598 nas_1.9.4.orig.tar.gz"
+    "d9f5e2958ef20d9f118f72c50a82886d6dab5997 26476 nas_1.9.4-7.debian.tar.xz a78bac9a480cd875d3cb05c9f559176404ce8406 1731 nas_1.9.4-7.dsc a251c5b771f9d7fa98f65e5830a039b28f8a6995 1464598 nas_1.9.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "5c4b31a506158f7cff6c334522c737c4cc96b738aaf80a932124185202b7aaca 32060 nas_1.9.4-9.debian.tar.xz 9938c357821efdb35fb569f2fc019bf9041f21313dd384f91f941268e499cae4 2214 nas_1.9.4-9.dsc cf36ea63751ce86cfd3b76c1659ce0d6a361a2e7cb34069854e156532703b39d 1464598 nas_1.9.4.orig.tar.gz"
+    "254046be10e623233912d328d12d59c91169ae1b5e566d9cd78d9522397a0c28 26476 nas_1.9.4-7.debian.tar.xz 2091288c93d528836456eb8f2dcec5c354448dc439f949dba691198c1104057b 1731 nas_1.9.4-7.dsc cf36ea63751ce86cfd3b76c1659ce0d6a361a2e7cb34069854e156532703b39d 1464598 nas_1.9.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "ef1a94f5872c7822a2fb24afa08f9c330a6c47ebb55cc94c81578fe8a8f1cc6e2f5b68a0a3b27589a3a98a4c3b276c135fb9ee9a1414045efe4801b7a2ea0eeb 32060 nas_1.9.4-9.debian.tar.xz 72acb918199666d570d8225c9b6e18048ba30aa1c0956fc769c75ea64db1dede9f04a93ca3e6d821ec0f93d35855807ad611165886f83f8242eb79713a9e007d 2214 nas_1.9.4-9.dsc 3f8bd60f8ce0f25a2605af17caaadfe4f21223ba4cd3fa02078d1427b17cdf33ebda887e5dc30cd68eb7f64bfad80aafc9071ff0a26f0d3a4a93caacac03b5bb 1464598 nas_1.9.4.orig.tar.gz"
-  ],
-  "Dgit": [
-    "dab51df09f641274cec8301aa43524d3769e0032 debian archive/debian/1.9.4-9 https://git.dgit.debian.org/nas"
+    "0f71819b02d5de807dfcf47dc30f38cfcf1c1972a551ba828d922f601564f4ba9d750bbbc2d2f0952b02f5326845de6fa287209db580a606710c0ba6baca6008 26476 nas_1.9.4-7.debian.tar.xz 28707ff706887fe34a0ca6db9ffadeeb071a37a9b46b03858813c0bb5803ade8af2008286a49054f32701a9a788e0c8066da02a1f2238b74e7612b619fc3ebad 1731 nas_1.9.4-7.dsc 3f8bd60f8ce0f25a2605af17caaadfe4f21223ba4cd3fa02078d1427b17cdf33ebda887e5dc30cd68eb7f64bfad80aafc9071ff0a26f0d3a4a93caacac03b5bb 1464598 nas_1.9.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/n/nas"
   ],
   "Files": [
-    "f44448109b7144cf8f9d5524541ce9b6 32060 nas_1.9.4-9.debian.tar.xz 5b0192347f2127b97373ad7726e2939c 2214 nas_1.9.4-9.dsc dac0e6cd3e5d6a37ae1dff364236a752 1464598 nas_1.9.4.orig.tar.gz"
+    "3657be406b1b2cfe5fc051265c0f7933 26476 nas_1.9.4-7.debian.tar.xz 69d8c06c8ac4e2c9667f6b1694a5e49a 1731 nas_1.9.4-7.dsc dac0e6cd3e5d6a37ae1dff364236a752 1464598 nas_1.9.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://radscan.com/nas.html"
   ],
   "Maintainer": [
     "Steve McIntyre \u003c93sam@debian.org\u003e"
@@ -42,7 +36,7 @@
     "libaudio-dev deb libdevel optional arch=any libaudio2 deb libs optional arch=any nas deb sound optional arch=any nas-bin deb sound optional arch=any nas-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "3.9.2.0"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/nas"
@@ -51,6 +45,6 @@
     "https://salsa.debian.org/debian/nas.git"
   ],
   "Version": [
-    "1.9.4-9"
+    "1.9.4-7"
   ]
 }

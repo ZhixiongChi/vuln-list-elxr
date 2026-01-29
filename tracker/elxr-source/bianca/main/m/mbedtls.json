@@ -3,10 +3,10 @@
     "any all"
   ],
   "Binary": [
-    "libmbedtls-dev, libmbedcrypto16, libmbedtls21, libmbedx509-7, libmbedtls-doc"
+    "libmbedtls-dev, libmbedcrypto7, libmbedtls14, libmbedx509-1, libmbedtls-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dpkg-build-api (= 1), dpkg-dev (\u003e= 1.22.5), cmake"
+    "cmake, debhelper-compat (= 13)"
   ],
   "Build-Depends-Arch": [
     "faketime \u003c!nocheck\u003e, python3:any"
@@ -15,19 +15,19 @@
     "doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, python3"
   ],
   "Checksums-Sha1": [
-    "17e958fe318147ba77fedef3591a9c7b82059f41 18856 mbedtls_3.6.5-0.1~deb13u1.debian.tar.xz a6ff3d7c7859254e36fa1ff813f27fa04cfb5763 2490 mbedtls_3.6.5-0.1~deb13u1.dsc 3d6cd31c225129741be7aea004546f081408b998 5367178 mbedtls_3.6.5.orig.tar.bz2"
+    "91c019cd02af7f883a64669318257a24c70ae955 18792 mbedtls_2.28.3-1elxr1.debian.tar.xz 52665592cb2cbc021fbf7e9fb054ea5797513fd4 1426 mbedtls_2.28.3-1elxr1.dsc d46536829f736d1cb1507e15d3a42ea6994e6c75 3952799 mbedtls_2.28.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "e4c153b9685a6f3a2ad061fe0936309e7d84a6de7c320c45749912d41f3a808d 18856 mbedtls_3.6.5-0.1~deb13u1.debian.tar.xz a141b94159d8eccb9e97631dad083cb531ecd034164f7428fdfc9db6a7859b5f 2490 mbedtls_3.6.5-0.1~deb13u1.dsc 4a11f1777bb95bf4ad96721cac945a26e04bf19f57d905f241fe77ebeddf46d8 5367178 mbedtls_3.6.5.orig.tar.bz2"
+    "f759e67035eafa7c8008b2def8b6438591a78efc932833d5e45828efc100e24f 18792 mbedtls_2.28.3-1elxr1.debian.tar.xz 594befb42e5ab1a1626b0e3d8396f7b9c416794d6673c6048df9cf1e38c97ada 1426 mbedtls_2.28.3-1elxr1.dsc 3b4953aa55a681e084d31892d9904cc5328d6b4958ea57b90ae4b4f94ae69a8d 3952799 mbedtls_2.28.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "72cba96ee2dca258593d2758a694942f1aca8d429433659f1e745b18dffb54e1a3682e8ddcb2c759631614d7709c51d22465256d9a3ebb10f854e39c72293c8a 18856 mbedtls_3.6.5-0.1~deb13u1.debian.tar.xz 03b455fea1cae50827f22ae1b4e13ea05d2f1bb1ea912bd62379723afedd1646c8c3fd59e1ebd02ef9ef05bb286ccc399cd9f255d5535e1b94ea479890223256 2490 mbedtls_3.6.5-0.1~deb13u1.dsc acc6d49cba57379f27185d6a381073132f3013c91bb21d14f57ca4f9f4b75cd27df6bf0bb598ffa347ebeb34d9d3a444ef230592813c5611c918f7714ed4a8df 5367178 mbedtls_3.6.5.orig.tar.bz2"
+    "588262ce308aadd7fcda2aa74b44bf1d1310ee99b5d7109858f74abda92aecf9d6c8dbeab78748895ec7cdf285528728b2ffc2c48e2c8888f847d7c73538cb8d 18792 mbedtls_2.28.3-1elxr1.debian.tar.xz 56ab837313de1cd895f9a1abe0d5db5c540add8b6f4db98a2b06fd409f30ca93a72e7becf8518fb816680ae2810ddd528388c219f4ded1c8c46e3dd95e659c7b 1426 mbedtls_2.28.3-1elxr1.dsc 62ba9937060b4089e6bd75c4495949fd4a51700dbe8b66e3efef58e1d2321143da0ef0800c4d7188064b872555ad65c36b21a706149dde81d821ba38d678d3ef 3952799 mbedtls_2.28.3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/m/mbedtls"
   ],
   "Files": [
-    "182d945f2349d39edb85892f9aa4a2a6 18856 mbedtls_3.6.5-0.1~deb13u1.debian.tar.xz ec99577af12d7bc98d0eef0a1040d2d0 2490 mbedtls_3.6.5-0.1~deb13u1.dsc bc79602daf85f1cf35a686b53056de58 5367178 mbedtls_3.6.5.orig.tar.bz2"
+    "316c33cc9ff8abf8a317d0a2a1406eaa 18792 mbedtls_2.28.3-1elxr1.debian.tar.xz 931a5b8deef6b262a4b0f5c83b053acc 1426 mbedtls_2.28.3-1elxr1.dsc 9a3ae2c6b2f6eaf64ad05c773a0ce954 3952799 mbedtls_2.28.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,33 +36,30 @@
     "https://www.trustedfirmware.org/projects/mbed-tls/"
   ],
   "Maintainer": [
-    "Debian IoT Maintainers \u003cdebian-iot-maintainers@alioth-lists.debian.net\u003e"
+    "Andrea Pappacoda \u003candrea@pappacoda.it\u003e"
   ],
   "Package": [
     "mbedtls"
   ],
   "Package-List": [
-    "libmbedcrypto16 deb libs optional arch=any libmbedtls-dev deb libdevel optional arch=any libmbedtls-doc deb doc optional arch=all libmbedtls21 deb libs optional arch=any libmbedx509-7 deb libs optional arch=any"
+    "libmbedcrypto7 deb libs optional arch=any libmbedtls-dev deb libdevel optional arch=any libmbedtls-doc deb doc optional arch=all libmbedtls14 deb libs optional arch=any libmbedx509-1 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "cmake, gcc, libc-dev, libc6-dev, pkg-config"
-  ],
-  "Uploaders": [
-    "Andrea Pappacoda \u003ctachi@debian.org\u003e,"
+    "gcc, libc-dev, libc6-dev"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/debian-iot-team/mbedtls"
+    "https://salsa.debian.org/debian/mbedtls"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/debian-iot-team/mbedtls.git"
+    "https://salsa.debian.org/debian/mbedtls.git"
   ],
   "Version": [
-    "3.6.5-0.1~deb13u1"
+    "2.28.3-1elxr1"
   ]
 }

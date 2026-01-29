@@ -3,31 +3,31 @@
     "any"
   ],
   "Binary": [
-    "cjs, cjs-tests, libcjs-dev, libcjs0"
+    "cjs, libcjs-dev, libcjs0"
   ],
   "Build-Depends": [
-    "at-spi2-core \u003c!nocheck\u003e, dbus-daemon \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-gir, gir1.2-cairo-1.0-dev, gir1.2-gio-2.0-dev, gir1.2-girepository-2.0-dev, gir1.2-gobject-2.0-dev, gir1.2-gtk-3.0, gobject-introspection (\u003e= 1.71), libcairo2-dev, libffi-dev, libgirepository-1.0-dev (\u003e= 1.71), libglib2.0-dev, libmozjs-128-dev, libreadline-dev, meson, libsysprof-capture-4-dev (\u003e= 3.38.0) [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hppa loong64 powerpc ppc64 sh4], xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+    "at-spi2-core \u003c!nocheck\u003e, dbus \u003c!nocheck\u003e, dbus-x11 \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gir1.2-gtk-3.0, gobject-introspection (\u003e= 1.64), libcairo2-dev, libffi-dev (\u003e= 3.3), libgirepository1.0-dev (\u003e= 1.64), libglib2.0-dev (\u003e= 2.66.0), libmozjs-78-dev (\u003e= 78.2.0), libreadline-dev, meson (\u003e= 0.52.0), pkg-config (\u003e= 0.28), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "f82467fedf70ee63721d77964d6258540a58a288 12184 cjs_128.0-1.debian.tar.xz 1dd8e44197a89b138f23a50be4a64bb3bdad8311 2787 cjs_128.0-1.dsc 250903b3a7a23e1b731a005e5ec30a14bbfbe005 984782 cjs_128.0.orig.tar.gz"
+    "dd179dc8a507590aafb41f2d5cb87b499a120f4d 12364 cjs_5.6.0-1.debian.tar.xz 9d2decb9a538707a12ff54220a3ada6b11c1b5e2 2576 cjs_5.6.0-1.dsc 6608ee5c743e017f030fc82e62c26c51c5f71e76 787757 cjs_5.6.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "2efcf223d5c722153a20c8f3ea6f3538a285a8db53cba05e4c5b4066985bdf51 12184 cjs_128.0-1.debian.tar.xz 7f31889f03fad96ba8b5fbb146b97a587c39785437ddd01ebec64ea678fe1cd9 2787 cjs_128.0-1.dsc f7b830ba2be7a5825df48ebae25e8b580526c14d49f084a1a7672a03700bb81f 984782 cjs_128.0.orig.tar.gz"
+    "0e7bffcbd800539cabfc371e9dccf1244248fd9e9edef6edd86df3879dc1fdf8 12364 cjs_5.6.0-1.debian.tar.xz 7059a0a9562a732f16f8095f9ea55f234ba4d206067be61cab36f75ef6f990ac 2576 cjs_5.6.0-1.dsc f1bd27d9c16c843e862a215164599b9e638d26b2323a3a94c6415f8d903e375f 787757 cjs_5.6.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "56cc29c2d51eab4c32fa77d7474e9b8ed9bd62d746d4577033c9b0555d94cb402073e042f0427c4dbce2a2bed5da4f5ac00745f6731f613555488a2297f02d41 12184 cjs_128.0-1.debian.tar.xz 0112828338e725546c08c19c7811c02a04ff0508ca9e455f67b02679aee8e04e06ac851273c0fa32d893b085eaee01f22b3b5c4ab9c7992322b16e2dbe5c9995 2787 cjs_128.0-1.dsc b9a9fee099aada66198cf78466a5a8325ad6abd207e18fb8666508dc025044b80515179f4bbddafa977e251e39fb276b248a5b32db9766f9306933879ba76aa5 984782 cjs_128.0.orig.tar.gz"
+    "15006870a15444581ac835df199a4548853a4b8fa97374abb5b58ec01404ae5ffed47e862d39d7560d35974a9536b8616ff2773aca39b9c69bf35eed85bc5279 12364 cjs_5.6.0-1.debian.tar.xz e315646438cc92c919670d1d60fa1b26716aa202819dc02558889b6caef012399d5336884303cbea892c52fe92070b395d9960e16d24a4f56e38e1045562b849 2576 cjs_5.6.0-1.dsc 05bb68e43e1421148f4e16e7a6b708da38d16e38d5538142b597a8f5b53c0c31900a31ff3e18ef994a3b3d91ec8b3821d58706d3bef0565cbb3a5be2457ec1e4 787757 cjs_5.6.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/c/cjs"
   ],
   "Files": [
-    "7488da19ce3105cdfb040495e1a2e961 12184 cjs_128.0-1.debian.tar.xz b16acc5e5a4599eccc8cc13289ec4dd6 2787 cjs_128.0-1.dsc 061af9d1e49781c1c8733b0251d01ff0 984782 cjs_128.0.orig.tar.gz"
+    "2827b33711b789bd5d7abf9bbb20b886 12364 cjs_5.6.0-1.debian.tar.xz 8049e2d3657e03aef5188f936d798f41 2576 cjs_5.6.0-1.dsc 1ef7272dd507c4e818cde10385c591a8 787757 cjs_5.6.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://github.com/linuxmint/cjs"
+    "http://cinnamon.linuxmint.com/"
   ],
   "Maintainer": [
     "Debian Cinnamon Team \u003cdebian-cinnamon@lists.debian.org\u003e"
@@ -36,16 +36,16 @@
     "cjs"
   ],
   "Package-List": [
-    "cjs deb interpreters optional arch=any cjs-tests deb interpreters optional arch=any libcjs-dev deb libdevel optional arch=any libcjs0 deb libs optional arch=any"
+    "cjs deb interpreters optional arch=any libcjs-dev deb libdevel optional arch=any libcjs0 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential, dbus-daemon, gnome-desktop-testing, xauth, xvfb"
+    "build-essential, dh-acc, exuberant-ctags"
   ],
   "Uploaders": [
     "Maximiliano Curia \u003cmaxy@debian.org\u003e, Margarita Manterola \u003cmarga@debian.org\u003e, Fabio Fantoni \u003cfantonifabio@tiscali.it\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Joshua Peisach \u003citzswirlz2020@outlook.com\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/cinnamon-team/cjs.git"
   ],
   "Version": [
-    "128.0-1"
+    "5.6.0-1"
   ]
 }

@@ -3,31 +3,31 @@
     "any all"
   ],
   "Binary": [
-    "perl-base, perl-doc, perl-debug, libperl5.40, libperl-dev, perl-modules-5.40, perl"
+    "perl-base, perl-doc, perl-debug, libperl5.36, libperl-dev, perl-modules-5.36, perl"
   ],
   "Build-Depends": [
-    "file, cpio, dpkg-dev (\u003e= 1.22.5), libcrypt-dev, libdb-dev, libgdbm-dev (\u003e= 1.18-3), libgdbm-compat-dev, netbase \u003c!nocheck\u003e, procps [!hurd-any] \u003c!nocheck\u003e, debhelper-compat (= 13), zlib1g-dev | libz-dev, libbz2-dev, dist (\u003e= 3.5-236), libc6-dev (\u003e= 2.37-8) [ppc64el], libc6-dev (\u003e= 2.19-9) [s390x]"
+    "file, cpio, libdb-dev, libgdbm-dev (\u003e= 1.18-3), libgdbm-compat-dev, netbase \u003c!nocheck\u003e, procps [!hurd-any] \u003c!nocheck\u003e, debhelper-compat (= 13), zlib1g-dev | libz-dev, libbz2-dev, dpkg-dev (\u003e= 1.17.14), dist (\u003e= 3.5-236), libc6-dev (\u003e= 2.19-9) [s390x]"
   ],
   "Checksums-Sha1": [
-    "291c163659c638fb44479a1250f04348e63c8683 172892 perl_5.40.1-6.debian.tar.xz 10809b4fcb6d915995e97e4525c52277ebfb0984 2372 perl_5.40.1-6.dsc 82d1edc45031c917619d2c412c6d5c34a50fde0a 421056 perl_5.40.1.orig-regen-configure.tar.xz 4ffe5246c791df884363aed05ba81ba41cb02084 13930924 perl_5.40.1.orig.tar.xz"
+    "c7401b98577dbb216dcd9f30c44d777328c1d7fb 177092 perl_5.36.0-7+deb12u3.debian.tar.xz b9f6dd6ec873f106643ee6d0599fa9beea3f733a 2357 perl_5.36.0-7+deb12u3.dsc 482ccf337df6318fad5c2621afbe6794d58a0ec5 417784 perl_5.36.0.orig-regen-configure.tar.xz 938c56a77ae094eb7f5019318a5e4efb2d9c74fa 13051500 perl_5.36.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "3071cd0d0ddb2bc58a739d331c5e8c5b549f679714b7d8f698b7f8f7ab27b3a3 172892 perl_5.40.1-6.debian.tar.xz b521581cdc0d45d234ebba4d3c7d1e107fd9f18e1322c1bbaf7101483a7fdf08 2372 perl_5.40.1-6.dsc 4ea023d08101443f6ed9dc3bdd9bb5f5e08087678dc9e443d195df22da36209a 421056 perl_5.40.1.orig-regen-configure.tar.xz dfa20c2eef2b4af133525610bbb65dd13777ecf998c9c5b1ccf0d308e732ee3f 13930924 perl_5.40.1.orig.tar.xz"
+    "5dfbe06b76fd23a4cc4aef586220845de535b245a9066ec0658eb60fbe21be1b 177092 perl_5.36.0-7+deb12u3.debian.tar.xz ac13a1eb3d4bb63ca8c91a3695ad563b10792a3e0f2f8b74d9600625a98a68fb 2357 perl_5.36.0-7+deb12u3.dsc 10ac353bc5a933403afe60ed1817e7a456f99bdbcaf80c1cdb0eb3a08ea56d4e 417784 perl_5.36.0.orig-regen-configure.tar.xz 0f386dccbee8e26286404b2cca144e1005be65477979beb9b1ba272d4819bcf0 13051500 perl_5.36.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "30e13c93387f78c6d077fa154f2a646b17f0912dd0236b4424faa01ea3eedbcc7be309adaf4b8794b91a0abc586ecd3466164fd88977bb3196050ee70122b7ed 172892 perl_5.40.1-6.debian.tar.xz fe93e98e727db27f8c144f7a1579c8865cfdca2adb72f2e1b067632a6afe248b02e65ade086dd9dec815ac4f35783129563293920be9ee23ce198f132ccfd0d5 2372 perl_5.40.1-6.dsc 933261779f476b0edda581270949c92e8e7dbe4bcaf1417398e708a321cdb748fe329acb703b2e74446cdfb03c20cefcab1eb972b852418ed3ea9b870db1fa86 421056 perl_5.40.1.orig-regen-configure.tar.xz 3ff16b3462ce43ff38dab21b3dfc20f81772b8c9eac19ab96ba2d5e6cbb390e2302fa76c4879f915249357cd11c7ec0d548bcbf3ab2c156df1b9fca95da3f545 13930924 perl_5.40.1.orig.tar.xz"
+    "0160a9f39db7d59bd0aad98758146839be065cb0b8380ce8fab49e1113bf3b62e89e454b0573123255524770b57d2fd914237a5ee034b28befbd19887b5f1d76 177092 perl_5.36.0-7+deb12u3.debian.tar.xz 48eb4cdf80b52b4c16dd477f52f2d2b0e8aa6d89869f5d3fc1390c5863f70e1b5a1c3cda4e7a48692e54e8253b6de800494c6006709c2ea9b2b120698d5d9dd4 2357 perl_5.36.0-7+deb12u3.dsc 4d16685f569a5b1dea79d607b6d62718111c32efaf5547bb9e1528bd755acf0c8fc74a1cc1f4d68fcb10aef9da7d8fea17a5cc10dabce6efa4721ab45ab03a65 417784 perl_5.36.0.orig-regen-configure.tar.xz 6dd6ac2a77566c173c5ab9c238cf555f2c3e592e89abb5600bc23ce1cbd0c349e0233f6417cbbf1f6d0aefc6a734ba491285af0d3dc68a605b658b65c89f1dab 13051500 perl_5.36.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/perl"
   ],
   "Files": [
-    "2d7afd2806329c5aba18ab5347b26b60 172892 perl_5.40.1-6.debian.tar.xz 021dd8e786b7441ddc42e50fb62aff8e 2372 perl_5.40.1-6.dsc 9b3f5231e0354423504e64e80b0a8be6 421056 perl_5.40.1.orig-regen-configure.tar.xz bab3547a5cdf2302ee0396419d74a42e 13930924 perl_5.40.1.orig.tar.xz"
+    "7c9d71a9401ddacf2207c30cf185df65 177092 perl_5.36.0-7+deb12u3.debian.tar.xz ecd3cd630981bd322b436d565f6fa23f 2357 perl_5.36.0-7+deb12u3.dsc 4cb6eb41483cc04369cf93367ea6e019 417784 perl_5.36.0.orig-regen-configure.tar.xz 826e42da130011699172fd655e49cfa2 13051500 perl_5.36.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://dev.perl.org/perl5/"
+    "http://dev.perl.org/perl5/"
   ],
   "Maintainer": [
     "Niko Tyni \u003cntyni@debian.org\u003e"
@@ -36,7 +36,7 @@
     "perl"
   ],
   "Package-List": [
-    "libperl-dev deb libdevel optional arch=any libperl5.40 deb libs optional arch=any perl deb perl standard arch=any perl-base deb perl required arch=any essential=yes perl-debug deb devel optional arch=any perl-doc deb doc optional arch=all perl-modules-5.40 deb libs optional arch=all"
+    "libperl-dev deb libdevel optional arch=any libperl5.36 deb libs optional arch=any perl deb perl standard arch=any perl-base deb perl required arch=any essential=yes perl-debug deb devel optional arch=any perl-doc deb doc optional arch=all perl-modules-5.36 deb libs optional arch=all"
   ],
   "Standards-Version": [
     "3.9.8"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/perl-team/interpreter/perl.git"
   ],
   "Version": [
-    "5.40.1-6"
+    "5.36.0-7+deb12u3"
   ]
 }

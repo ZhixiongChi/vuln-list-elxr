@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "lua5.4, liblua5.4-dev, liblua5.4-0"
+    "lua5.4, liblua5.4-dev, liblua5.4-0, liblua5.4-0-dbg"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libreadline-dev"
+    "debhelper (\u003e= 12), quilt (\u003e= 0.40), libtool, libreadline-dev, autoconf"
   ],
   "Checksums-Sha1": [
-    "57dab1954e654a93f1c6fc5674a7b90a3c13d3e7 13108 lua5.4_5.4.7-1.debian.tar.xz dd865d3868e03dd44d8b0442b4655c11e866b10f 2051 lua5.4_5.4.7-1.dsc 29b54f97dab8631f52ee21a44871622eaefbe235 374097 lua5.4_5.4.7.orig.tar.gz"
+    "44296121979779aeb429bcc6a9f1c4f5b3f8d2a2 9888 lua5.4_5.4.4-3+deb12u1.debian.tar.xz 8933b7f50ca66f65a2f6c893cd1fdb3e02a8e89f 2120 lua5.4_5.4.4-3+deb12u1.dsc 03c27684b9d5d9783fb79a7c836ba1cdc5f309cd 360876 lua5.4_5.4.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "e24c2e5e5ea12d90ce0bf88af62a9b2d1bebf204582dab46212370730161a928 13108 lua5.4_5.4.7-1.debian.tar.xz 40b41bc566ac7246d748a954573ca9b10afa015112541f8d957bd41d8a56f767 2051 lua5.4_5.4.7-1.dsc 9fbf5e28ef86c69858f6d3d34eccc32e911c1a28b4120ff3e84aaa70cfbf1e30 374097 lua5.4_5.4.7.orig.tar.gz"
+    "2d8e0e380722c648cfeffb8d58287865619b4d035544d93d7ef3a2eaf627abe6 9888 lua5.4_5.4.4-3+deb12u1.debian.tar.xz d47c50154294a68c8a209c5d61bc09e5b22891c01b7c47501ac3f9725eb4a813 2120 lua5.4_5.4.4-3+deb12u1.dsc 164c7849653b80ae67bec4b7473b884bf5cc8d2dca05653475ec2ed27b9ebf61 360876 lua5.4_5.4.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a281ff3add12b8e2a6ffd7670e215206141228e2594862426ffd7cba106f25f1c9e1188e56f40976121edc3c5f35aa59d396bfdf93d2e7bc3e4e82c21fc1b6d9 13108 lua5.4_5.4.7-1.debian.tar.xz 5552866fea5e4f18fd6e3ba52c66b54b85895f12dcd2d9fc81be4faba4918148edea98c23312b6dc4cf22d20c7d5a591a22ed7cfd14c2e61cb98e6032521d36d 2051 lua5.4_5.4.7-1.dsc 98c5c8978dfdf867e37e9eb3b3ec83dee92d199243b5119505da83895e33f10d43c841be6a7d3b106daba8a0b2bd25fe099ebff8f87831dcc55c79c78b97d8b8 374097 lua5.4_5.4.7.orig.tar.gz"
+    "c94f689a7ca9410b7e82f7df73ec5ccaecff146131478bbee63d845fdca5c45835f9c011fe5fca38e921651a082eb4e5c3858880e420431fcbf328b2db950776 9888 lua5.4_5.4.4-3+deb12u1.debian.tar.xz dadea39ed63ccf97169c6f7f0e0f294aa904327d87bb492a41eaed5d01dfa65940cc6d16f8b3576dd451f62d6ee26d91770edc1c37f2486567cf7f7d4ab6ad80 2120 lua5.4_5.4.4-3+deb12u1.dsc af0c35d5ba00fecbb2dd617bd7b825edf7418a16a73076e04f2a0df58cdbf098dc3ff4402e974afd789eb5d86d2e12ec6df9c84b99b23656ea694a85f83bcd21 360876 lua5.4_5.4.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/l/lua5.4"
   ],
   "Files": [
-    "5d5e59c6799f745a94afea5d1e959770 13108 lua5.4_5.4.7-1.debian.tar.xz 278fa9ccd90113789921c8fdce3e03e9 2051 lua5.4_5.4.7-1.dsc fc3f3291353bbe6ee6dec85ee61331e8 374097 lua5.4_5.4.7.orig.tar.gz"
+    "c524a0e5daaa6ad23bd42eb487e2ec8b 9888 lua5.4_5.4.4-3+deb12u1.debian.tar.xz 9b02784015978b503273d54038e65767 2120 lua5.4_5.4.4-3+deb12u1.dsc bd8ce7069ff99a400efd14cf339a727b 360876 lua5.4_5.4.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,16 +36,10 @@
     "lua5.4"
   ],
   "Package-List": [
-    "liblua5.4-0 deb libs optional arch=any liblua5.4-dev deb libdevel optional arch=any lua5.4 deb interpreters optional arch=any"
+    "liblua5.4-0 deb libs optional arch=any liblua5.4-0-dbg deb debug optional arch=any liblua5.4-dev deb libdevel optional arch=any lua5.4 deb interpreters optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "g++, gcc"
+    "4.5.0"
   ],
   "Uploaders": [
     "Sergei Golovan \u003csgolovan@debian.org\u003e"
@@ -57,6 +51,6 @@
     "https://salsa.debian.org/lua-team/lua5.4.git"
   ],
   "Version": [
-    "5.4.7-1"
+    "5.4.4-3+deb12u1"
   ]
 }

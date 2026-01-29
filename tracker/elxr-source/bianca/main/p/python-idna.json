@@ -6,22 +6,22 @@
     "python3-idna"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, flit, pybuild-plugin-pyproject, python3-all, python3-setuptools"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "594bfd4d931b84b7e9fab4b3076a83ab7881b654 5480 python-idna_3.10-1.debian.tar.xz 5d9f2c43a37285ce12d1441dbb5eda9fb1399cb2 1518 python-idna_3.10-1.dsc fb47f75d124a8141fa1964e3381a40d86d747676 138704 python-idna_3.10.orig.tar.xz"
+    "045704569ab11426059de55cb0bcbe8bc055d555 9184 python-idna_3.3-1+deb12u1.debian.tar.xz f1f8b4ffef9975647a9145fea0f9e1a7990ed099 2126 python-idna_3.3-1+deb12u1.dsc 08c0449533fc94462f78652dea209099754d9ee4 286689 python-idna_3.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "0c3e70e8a9af64ac9d7432030349d07cd43e09bc1bdc9d5fa0dbf20c83b90888 5480 python-idna_3.10-1.debian.tar.xz cc3b5b8ad17168dbd0fdcac4140b8adc922870436784f7e2f3f68580ebbe0073 1518 python-idna_3.10-1.dsc 03af80a86108713070c5b404a22864a5164d7f693c7f7504c2dc839533a184ad 138704 python-idna_3.10.orig.tar.xz"
+    "1497f30f804425163e2b520ca50b840a894d49fb943f8c854f28bc32194a4106 9184 python-idna_3.3-1+deb12u1.debian.tar.xz 7e6deaf1f55c3ff16dde1d0bf26a6eb050535be4abe3b15363655ed4ec93b66a 2126 python-idna_3.3-1+deb12u1.dsc 9d643ff0a55b762d5cdb124b8eaa99c66322e2157b69160bc32796e824360e6d 286689 python-idna_3.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "1557197b1eb0dd9d97d36eb826e7a93075e41cdeec1720d1d11ad677954a0e0c8b38c37e2893f5373f2db5a49945f971b3e7e19f585d13e8674c801f5984a209 5480 python-idna_3.10-1.debian.tar.xz ce7f10a452a8b50da71f07e10303075061568699b835e818cf09eeacea24fa53e60fd60de5b46f2362a465f619decb613507fc8734f94e87dcdc474d1b79b95c 1518 python-idna_3.10-1.dsc b876d7f38cf86baf5626bf61afa8256c4317528b962278c25967055c53ec3534464a4c680c92b81461d4e6c1abeda49f63e8037625f36c979ae31cd30699f616 138704 python-idna_3.10.orig.tar.xz"
+    "79b2a4c481aff7985968ccc3fd5e225efe14130a735076de56490d8647a77c1022fc452d6995b5ead94a5699639e4b8d0d1236b20ccdcdc0d73c86300ec5dadd 9184 python-idna_3.3-1+deb12u1.debian.tar.xz 7ce147b8793b312acda790fd4136d4fb82e9c2299433a6992d8f6e26c23d63ce970fae84baadf92cd959378cee7a7a17af556e89af7c00c8faa4f233c4ad7f91 2126 python-idna_3.3-1+deb12u1.dsc 70b7cc8718e7d7899c75cfe476f044eae5a2fa03801fc9c12e3a092627ca943ffc4a578f9b8a55e181a11564835e125cfaaa577c02a6461dbb97366e620e53ad 286689 python-idna_3.3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-idna"
   ],
   "Files": [
-    "3f5fe54dc1a3a88b73e4817a1e502580 5480 python-idna_3.10-1.debian.tar.xz 361f3df513af0ccf6b3e339c137bf8fe 1518 python-idna_3.10-1.dsc 8a968e3d8edcfa8757e57bf5d016654f 138704 python-idna_3.10.orig.tar.xz"
+    "d84d9b225ee180d7c52895d1a315048f 9184 python-idna_3.3-1+deb12u1.debian.tar.xz 0ab0386bd13f1d8205a8befb2075cfdc 2126 python-idna_3.3-1+deb12u1.dsc 5856306eac5f25db8249e37a4c6ee3e7 286689 python-idna_3.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python3-idna deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
@@ -48,7 +48,7 @@
     "python3-all"
   ],
   "Uploaders": [
-    "Thomas Goirand \u003czigo@debian.org\u003e,"
+    "Tristan Seligmann \u003cmithrandi@debian.org\u003e, Thomas Goirand \u003czigo@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-idna"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-idna.git"
   ],
   "Version": [
-    "3.10-1"
+    "3.3-1+deb12u1"
   ]
 }

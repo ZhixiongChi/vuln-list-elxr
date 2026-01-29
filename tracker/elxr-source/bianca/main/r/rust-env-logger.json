@@ -3,31 +3,28 @@
     "any"
   ],
   "Binary": [
-    "librust-env-logger-dev"
+    "librust-env-logger-dev, librust-env-logger+atty-dev, librust-env-logger+default-dev, librust-env-logger+humantime-dev, librust-env-logger+regex-dev, librust-env-logger+termcolor-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.71) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-anstream-0.6+auto-dev (\u003e= 0.6.7-~~) \u003c!nocheck\u003e, librust-anstream-0.6-dev (\u003e= 0.6.7-~~) \u003c!nocheck\u003e, librust-anstyle-1+default-dev (\u003e= 1.0.6-~~) \u003c!nocheck\u003e, librust-env-filter-0.1+regex-dev \u003c!nocheck\u003e, librust-env-filter-0.1-dev \u003c!nocheck\u003e, librust-humantime-2+default-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev (\u003e= 0.4.21-~~) \u003c!nocheck\u003e, librust-log-0.4+std-dev (\u003e= 0.4.21-~~) \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-atty-0.2+default-dev (\u003e= 0.2.5-~~) \u003c!nocheck\u003e, librust-humantime-2+default-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-log-0.4+std-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-1+perf-dev (\u003e= 1.0.3-~~) \u003c!nocheck\u003e, librust-regex-1+std-dev (\u003e= 1.0.3-~~) \u003c!nocheck\u003e, librust-termcolor-1+default-dev (\u003e= 1.1.1-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "c45b30424f4efa5748c6f1ed9381e6ceb1fd34e9 4016 rust-env-logger_0.11.6-1.debian.tar.xz f6666ea08d1b393a8da9ff180c6fe97fa74beeba 2652 rust-env-logger_0.11.6-1.dsc 4e4d4404485aad9aa0e530df0e3e5977ca33667d 31105 rust-env-logger_0.11.6.orig.tar.gz"
+    "564bdff04e1ec2def28094ad274481bc5aed2099 3392 rust-env-logger_0.9.3-1.debian.tar.xz f6ab17383a55e70bbe3d40570636c14d64a7048d 2990 rust-env-logger_0.9.3-1.dsc d4e036865058ee95e4bf32b0b58b5ff11fddda0c 33291 rust-env-logger_0.9.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a1b9402b1ec298928248c9c15f96df177defb849f5693ec0493aa0fd9eaaa2bb 4016 rust-env-logger_0.11.6-1.debian.tar.xz aaea61b47e75384c32663b1039dae78b52ef9386cfe50fc2c91df11e124a0307 2652 rust-env-logger_0.11.6-1.dsc dcaee3d8e3cfc3fd92428d477bc97fc29ec8716d180c0d74c643bb26166660e0 31105 rust-env-logger_0.11.6.orig.tar.gz"
+    "341fb5fe48d4ea7081c6d3bfec0c77010febbff8fa2ade82b2ff672b8b5dfce8 3392 rust-env-logger_0.9.3-1.debian.tar.xz 81fe7ee569e94aaa39c90077700957657c6608fe02f428762c71cf331e240564 2990 rust-env-logger_0.9.3-1.dsc a12e6657c4c97ebab115a42dcee77225f7f482cdd841cf7088c657a42e9e00e7 33291 rust-env-logger_0.9.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "3792d911283a84445bdfc47c11e5f4a29276cac65acdec507c33a54236ed740d3e5673cdafd7e6b93f04b7cd7a9d02073fc89a12b3ccfaf3d25d6da86ac29c35 4016 rust-env-logger_0.11.6-1.debian.tar.xz 78615fbaf6f874f3b5843a56db2778be4c616f012ba5358fe63d292b5de1044e0792e886fa980c69545765e94adbda60205d1661a17af9bbd4e8c045865e6c84 2652 rust-env-logger_0.11.6-1.dsc 1ec41e4c4eee4ea6bea38d40e739b1f324ef236fc786553fd77c6bacf6303f13d35c1626d3408a18346d42ebf5c896869deba133ef34b8cccf3729957c72de0e 31105 rust-env-logger_0.11.6.orig.tar.gz"
+    "eabbd366a118e97db6e69d1f315c6adf75c1929f8155c049d9ae34aa4133e75b766d6ecab949b789b012528963c82ee9e39ae6b2d7047742e8afc0797ab7c959 3392 rust-env-logger_0.9.3-1.debian.tar.xz 579724ec9ca4809bfba6704861c87322a75d1664db5d46e91735a5b0463826135493ca4b4d337119f54dedf8ab27fea0a919fd9f79c0469f5b4e318fd240e371 2990 rust-env-logger_0.9.3-1.dsc a3ee86e77d980c2eefe4be32d75422aa0f9a60a43fd11bafaa3c9e556584cf65c36976a6aa650f87426edfd82de0cbb919e0906cdba6db8b486b4dd4b2583bbe 33291 rust-env-logger_0.9.3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-env-logger"
   ],
   "Files": [
-    "4606e2c2b6059514c706cc8d6491874d 4016 rust-env-logger_0.11.6-1.debian.tar.xz 4761b4a527edcf3e5dbd5bd209313ef6 2652 rust-env-logger_0.11.6-1.dsc 7b3765e0d09bb2171021062935ea440b 31105 rust-env-logger_0.11.6.orig.tar.gz"
+    "b25e7de1053b6419f5b0677575131c9e 3392 rust-env-logger_0.9.3-1.debian.tar.xz be733a52218d7570765e37e70789d8a9 2990 rust-env-logger_0.9.3-1.dsc c25e1a69f2d40b3f6f8dae4b4459413d 33291 rust-env-logger_0.9.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/rust-cli/env_logger"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,16 +33,16 @@
     "rust-env-logger"
   ],
   "Package-List": [
-    "librust-env-logger-dev deb rust optional arch=any"
+    "librust-env-logger+atty-dev deb rust optional arch=any librust-env-logger+default-dev deb rust optional arch=any librust-env-logger+humantime-dev deb rust optional arch=any librust-env-logger+regex-dev deb rust optional arch=any librust-env-logger+termcolor-dev deb rust optional arch=any librust-env-logger-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, rustc"
+    "dh-cargo"
   ],
   "Uploaders": [
     "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/env-logger]"
   ],
   "Version": [
-    "0.11.6-1"
+    "0.9.3-1"
   ]
 }

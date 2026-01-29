@@ -6,31 +6,31 @@
     "python3-linux-procfs"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, python3-setuptools, python3-all-dev, asciidoc-base, libxml2-utils, docbook-xml, docbook-xsl, xsltproc"
+    "debhelper-compat (= 13), dh-sequence-python3, python3-setuptools, python3-six, python3-all-dev, asciidoc-base, libxml2-utils, docbook-xml, docbook-xsl, xsltproc"
   ],
   "Checksums-Sha1": [
-    "3d51e4f3e56bac95d5fb7dc4ac8220da962aacf4 3480 python-linux-procfs_0.7.3-3.debian.tar.xz 604495da09423d7d2389c4f1a6e4f77b53c48598 2249 python-linux-procfs_0.7.3-3.dsc 916fa1e2a1fc396f268ab262dfd6ccd0b1406257 12609 python-linux-procfs_0.7.3.orig.tar.gz"
+    "2c9a133b720e3366fa26a21417f23fe07a551e8f 3144 python-linux-procfs_0.6.3-1.1.debian.tar.xz 62fc2ea7fe2da8accacd4e5ae607094d766fa4ff 2223 python-linux-procfs_0.6.3-1.1.dsc 01c131bf4f6a90ee5347eac7add71e288f1f34e8 21047 python-linux-procfs_0.6.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "27352633fdabb7efc9a273dea5442935118c8a0eb7e2f3a80d1a58a8de3f05bc 3480 python-linux-procfs_0.7.3-3.debian.tar.xz 63be88c5b096a4a6f8a7de80625e4463637ffcf4a1de76c70cf12f00a8f0817c 2249 python-linux-procfs_0.7.3-3.dsc a8750f07f6b1a4c1cda6c50a33af9dc92a1a9c6cf538fd269c0db8d4c93d8ede 12609 python-linux-procfs_0.7.3.orig.tar.gz"
+    "0edcb06f2fb298eccdba26b27346aecb250d46e887073c9138959b72e07885e0 3144 python-linux-procfs_0.6.3-1.1.debian.tar.xz ef38076d1d82b6491da642a88598bcc3536f76acc8c96487411a4f6889b34ab9 2223 python-linux-procfs_0.6.3-1.1.dsc ba16d20903433f031b80ed8a1fdb25d80e82b4d1383f144c7082df5192df4a3e 21047 python-linux-procfs_0.6.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "ea0addaa5ddb331244a0372d52ec8b4dfad39d3db6a9bad7390b3c0701ae306711c4f24f71f6c9e52aaacb0fa1525ab114e4d41e8dcc9a675eb825c477276d3f 3480 python-linux-procfs_0.7.3-3.debian.tar.xz bc1434820c1594edeb9605dc3d11dd8521e8e7d58e66ba615a871299cac705fe0920da5c7906d95551c67d99d03ba86c07831be795cc03be894054c2f3708713 2249 python-linux-procfs_0.7.3-3.dsc 650c4d965177c2422961d7131a77c23af8cf583194d2ddcc0472ee3369978427b8d2f88a0ce6651e1141274a8f56a33adc4ce8b1f20534c737a09a7672b5818d 12609 python-linux-procfs_0.7.3.orig.tar.gz"
+    "97c8905d5a4c660b7a6c965a7465f85fe4dc6131a0bba79d1a215df0814368526d110e5be45f5e1c67fa29be1c105a79a5840846ecb0a29b2613f35cf6577c44 3144 python-linux-procfs_0.6.3-1.1.debian.tar.xz c803b5d23ea2d1a5e7bf80d17c24aaa3d58d788a906aa59e71977d645fc44dbf2cd9056f36d2bdcff3913db3fd97affd7a8311caf299c7ab17ee238c53b69af7 2223 python-linux-procfs_0.6.3-1.1.dsc fd6bdb75258bdf2ff53e865e520d9deba2167e592bc81dccd870e53fb514330c63e7e781c461273be3b12f1d0b47785bce45e24aeeffdc9996b0197c956b4823 21047 python-linux-procfs_0.6.3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-linux-procfs"
   ],
   "Files": [
-    "87eefe5127d8b085b552a05b90be140a 3480 python-linux-procfs_0.7.3-3.debian.tar.xz fb42fef1fd073c860c5e36510f997348 2249 python-linux-procfs_0.7.3-3.dsc d9cc887fba81e179218955f5b101965e 12609 python-linux-procfs_0.7.3.orig.tar.gz"
+    "93d5ba0257137e160c1abf118faec60a 3144 python-linux-procfs_0.6.3-1.1.debian.tar.xz 6fc82e85b1335c792bf3ac031c283c92 2223 python-linux-procfs_0.6.3-1.1.dsc c38c2b8e133c81b4823e467b70317451 21047 python-linux-procfs_0.6.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://git.kernel.org/pub/scm/libs/python/python-linux-procfs/python-linux-procfs.git/"
+    "https://rt.wiki.kernel.org/index.php/Tuna"
   ],
   "Maintainer": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+    "Stewart Ferguson \u003cstew@ferg.aero\u003e"
   ],
   "Package": [
     "python-linux-procfs"
@@ -39,10 +39,10 @@
     "python3-linux-procfs deb python optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.5.1"
   ],
   "Uploaders": [
-    "Stewart Ferguson \u003cstew@ferg.aero\u003e,"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-linux-procfs"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/python-team/packages/python-linux-procfs.git"
   ],
   "Version": [
-    "0.7.3-3"
+    "0.6.3-1.1"
   ]
 }

@@ -6,28 +6,28 @@
     "librust-rustc-demangle-dev, librust-rustc-demangle+compiler-builtins-dev, librust-rustc-demangle+core-dev, librust-rustc-demangle+rustc-dep-of-std-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "f77618c8928bcb3a9f4537d52617c75d18f23846 3432 rust-rustc-demangle_0.1.24-1.debian.tar.xz 6cb27f2db8c78fdd24e9e13768836fdc5bc9a796 2644 rust-rustc-demangle_0.1.24-1.dsc 48616819d30e5142f01f85c63bab8ca64e2e2e9d 29047 rust-rustc-demangle_0.1.24.orig.tar.gz"
+    "42d609f450eb248cdd5e38c17235c46e1ab3e8a2 3376 rust-rustc-demangle_0.1.21-1.debian.tar.xz 738ca83352781a0054475275b7e98f0a1fa7b3e9 2633 rust-rustc-demangle_0.1.21-1.dsc dddd316be60185a1ee48ff56bc396bf5a8fb2b3e 27920 rust-rustc-demangle_0.1.21.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "e146bfa2c32e215d54ada686d1a0a9695228956942736bfb239bb1784a14b572 3432 rust-rustc-demangle_0.1.24-1.debian.tar.xz 1875732051854ae1087e5780f36bd5b098be9559b0a7a7ffcdf32e5a7dc79360 2644 rust-rustc-demangle_0.1.24-1.dsc 719b953e2095829ee67db738b3bfa9fa368c94900df327b3f07fe6e794d2fe1f 29047 rust-rustc-demangle_0.1.24.orig.tar.gz"
+    "ce23d8f13718c0657d5ec536bc02dc398bf66dba3b7e2a9e5b19805d36e26d0d 3376 rust-rustc-demangle_0.1.21-1.debian.tar.xz 243c28a35d68ac443ca59cdcae2c640b9f9bcd3feffa944097304af9b04a853d 2633 rust-rustc-demangle_0.1.21-1.dsc 7ef03e0a2b150c7a90d01faf6254c9c48a41e95fb2a8c2ac1c6f0d2b9aefc342 27920 rust-rustc-demangle_0.1.21.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "594b0160ae3f1d6e15f532005d9e1eb2f877b532b24cc25831ae4940e05c03a5550e371f3809bfdee3fbf7d64dbf653e92383e3705177cc89b4c42af6bdf31d6 3432 rust-rustc-demangle_0.1.24-1.debian.tar.xz 60e0cf1ca693f6c099699db90a7f990c81567776c486acb8eaac74e55b3180a203bec88d12f88da5244ea9d2887da89f4a3455d9f2223269cb0d74e8dfb71d89 2644 rust-rustc-demangle_0.1.24-1.dsc eb897c35300b87766e6105917a907fca1c5b1f7691fc03c6c1aaf38075ac883a73d1eb54a245d13ba59c7b0f0333d6543e23fc1b1c542fbbd5c750a84660b9e8 29047 rust-rustc-demangle_0.1.24.orig.tar.gz"
+    "c06d735b2c17dc604f67f76b4a947e95718c19e13ba2ff20ca6d5c1f48e64b4323e2a109fec229f678fdec536e4efac7109be884f548fe341695304e8ef4238a 3376 rust-rustc-demangle_0.1.21-1.debian.tar.xz 74832e185c1e98cf8874bed1740b1aea8138909904690e4772c5348605489e4c8d20fa99b20ff1288e6e9a9aa8840d3b4f3bca26b6880f0317f4d09848e0e269 2633 rust-rustc-demangle_0.1.21-1.dsc 4031b26863a726cc6d3398b48682e0f0f9e5665abf20a5d35343a904ebd7c0d3752dcdd3a049b2bfa3e2a303214dc39a2980700bcc64464f7029be3c7f34727c 27920 rust-rustc-demangle_0.1.21.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-rustc-demangle"
   ],
   "Files": [
-    "b8cc95d40159d7054bdd8373337019a8 3432 rust-rustc-demangle_0.1.24-1.debian.tar.xz b253d041db3dfa58014567cc4c9863c4 2644 rust-rustc-demangle_0.1.24-1.dsc b400c455aaf7d3e6a216261f07c4bc93 29047 rust-rustc-demangle_0.1.24.orig.tar.gz"
+    "3735f1ac365b5b05f5bcb0bdb6b59ff0 3376 rust-rustc-demangle_0.1.21-1.debian.tar.xz 9faafe60d879531368baa05d8129efaf 2633 rust-rustc-demangle_0.1.21-1.dsc 6eb014e73f66bc13226e0ef6d815d375 27920 rust-rustc-demangle_0.1.21.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://github.com/rust-lang/rustc-demangle"
+    "https://github.com/alexcrichton/rustc-demangle"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -39,13 +39,13 @@
     "librust-rustc-demangle+compiler-builtins-dev deb rust optional arch=any librust-rustc-demangle+core-dev deb rust optional arch=any librust-rustc-demangle+rustc-dep-of-std-dev deb rust optional arch=any librust-rustc-demangle-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, rustc"
+    "dh-cargo"
   ],
   "Uploaders": [
     "kpcyrd \u003cgit@rxv.cc\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/rustc-demangle]"
   ],
   "Version": [
-    "0.1.24-1"
+    "0.1.21-1"
   ]
 }

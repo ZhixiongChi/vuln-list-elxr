@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "liblc3-1, liblc3-dev, liblc3-tools"
+    "liblc3-0, liblc3-dev, liblc3-tools"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), meson, libpython3-dev [amd64 arm64 armhf] \u003c!nocheck\u003e, python3-numpy [amd64 arm64 armhf] \u003c!nocheck\u003e, python3-scipy [amd64 arm64 armhf] \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), meson"
   ],
   "Checksums-Sha1": [
-    "f2b7d43c3286625a60f8ec871353736de1ea9953 3276 liblc3_1.1.3+dfsg-1.debian.tar.xz be5a32ad48589e8cee910d9667b501a39436c55a 2243 liblc3_1.1.3+dfsg-1.dsc c44ea10c3a77f00d4f965956283b966d134de5ba 208052 liblc3_1.1.3+dfsg.orig.tar.xz"
+    "2c036f1d87d145d5448cea0ef0186f451ff82472 2208 liblc3_1.0.1-1.debian.tar.xz 50c5a18e7ef65eac4e4d7d2b3d2e8ae3fa9d1284 2014 liblc3_1.0.1-1.dsc f3ff642aaa6134d95ea8c2c11677121d8e66f519 259946 liblc3_1.0.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "b543c913354d61408448f6bccb4d15eda94061bc79a0c8acb34c2249ca5340f2 3276 liblc3_1.1.3+dfsg-1.debian.tar.xz 58f2e89dfd512f1a30bdf7c7eebfdc28a22275920e582bfe298ebf79e34b3ead 2243 liblc3_1.1.3+dfsg-1.dsc 3b8b36c405bf08e5756bf416b01547dab92e6f57ebf51d7580e18a1cadba6c96 208052 liblc3_1.1.3+dfsg.orig.tar.xz"
+    "c84dae20f6cab9020faf21985f23b24e552ae4f34e598e3522047e01b0320868 2208 liblc3_1.0.1-1.debian.tar.xz 5cf58c5b1c12203fe7f39bfb8e39cebbb478c43b16937932d9d8b4245bcc6382 2014 liblc3_1.0.1-1.dsc 3a8a6973c57585370dc9abe1373f8762f90ab0893a6ede410fdd22501caa7cfc 259946 liblc3_1.0.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "6e7a28b6558322a4943beafa15d1530aa05436af09a69a14107a14563b3438f74157816ea62babfe27abd6c78daf8958ac0ce774b4540d28353c947e7c429334 3276 liblc3_1.1.3+dfsg-1.debian.tar.xz 865cb50da1cc2390f5a8be8551b3b8cdf83e1853884b027d49b8ad3bfe6d13852650142b98d0922a6c03432fa60cfd150aa0dfa2de3bd402cd7bed523a841a01 2243 liblc3_1.1.3+dfsg-1.dsc 52b35d8cea8c3570902e562bf7636fbca5aaebae5b6b070d1a0229ae38bcdf90ebdd701626b60d24ca453d48ed5bb99dc53d5a2615e4ebda6a12cc190768e118 208052 liblc3_1.1.3+dfsg.orig.tar.xz"
+    "39fa0b3e96870c4de9f596d7c414caa1250cc274356522e64b4feb4e0a9ca6ca341f90095890cfcc04d3e635b5140a44a526733e2ad7a08f0d9bfcefff31609e 2208 liblc3_1.0.1-1.debian.tar.xz c4e9ca1827881317e1c4c3ab3b170332635522b0de136c7e3712d4dc6bb9413cf932ec949d5173a6954b34a675788bd17c100ecc04be3ee209469c4183e2ef82 2014 liblc3_1.0.1-1.dsc a487ce4e5efeb7786c3db1b35e46879ca55add8a4a40fd8941a3119bb556729daa00ac83dc74b0049a88254cc109440d1392205a7265625dfe77f9328b78010e 259946 liblc3_1.0.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libl/liblc3"
   ],
   "Files": [
-    "37ca47ccba3e8980d4545c446fe8c08b 3276 liblc3_1.1.3+dfsg-1.debian.tar.xz 44757be963ceebf52b9160a42a1e30e3 2243 liblc3_1.1.3+dfsg-1.dsc b59aae8dd71eced1f11369822cc67bd7 208052 liblc3_1.1.3+dfsg.orig.tar.xz"
+    "98b52a447fb77861c943b98c2d6910d1 2208 liblc3_1.0.1-1.debian.tar.xz 1228be93e57af3e40aa00c5a2239e567 2014 liblc3_1.0.1-1.dsc 4302011234bda6b727fa49f1713752a8 259946 liblc3_1.0.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,16 +36,10 @@
     "liblc3"
   ],
   "Package-List": [
-    "liblc3-1 deb libs optional arch=any liblc3-dev deb libdevel optional arch=any liblc3-tools deb sound optional arch=any"
+    "liblc3-0 deb libs optional arch=any liblc3-dev deb libdevel optional arch=any liblc3-tools deb sound optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@"
+    "4.6.1"
   ],
   "Uploaders": [
     "Dylan Aïssi \u003cdaissi@debian.org\u003e"
@@ -57,6 +51,6 @@
     "https://salsa.debian.org/multimedia-team/liblc3.git"
   ],
   "Version": [
-    "1.1.3+dfsg-1"
+    "1.0.1-1"
   ]
 }

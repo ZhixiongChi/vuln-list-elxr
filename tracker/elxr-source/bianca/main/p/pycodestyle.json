@@ -6,16 +6,16 @@
     "pycodestyle, python3-pycodestyle"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-pytest \u003c!nocheck\u003e, python3-setuptools"
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "cc00912e9e51837d9d055e5ed7fefed88444f741 5836 pycodestyle_2.12.1-2.debian.tar.xz 9efd6a8dc3834a6749b0f8b56a22093b09cbd02d 2393 pycodestyle_2.12.1-2.dsc 64ad873931f8c775b121be1000d0d065e67e1bcf 80511 pycodestyle_2.12.1.orig.tar.gz"
+    "0dc9c31da39c83d148723769948d5f5329d4cb51 4556 pycodestyle_2.10.0-1.debian.tar.xz c2115e094248fd5407dde3d8a2a8240e0c0fae8a 2363 pycodestyle_2.10.0-1.dsc 1967bdc30d8eba3f9ba179bdd7c42242f6c1daf1 101916 pycodestyle_2.10.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "bf932527d8647ea9b9f2ede1f065d3a8fa1d1148aa9e52b9bedd785d1d419029 5836 pycodestyle_2.12.1-2.debian.tar.xz 00b25813f3029f0326404f51d9d124ff1db7bb7258eafb7566f65422ba5e2377 2393 pycodestyle_2.12.1-2.dsc fc4ee85ef4942be9bcc9da138d26c027b64fef6185b5796f1edb4882b8774443 80511 pycodestyle_2.12.1.orig.tar.gz"
+    "134f0e172cb061126e08fe293f9996d4b0fe61866cab23a370dd3e03e0997ce5 4556 pycodestyle_2.10.0-1.debian.tar.xz 74a748fe88526bf2ab10d6a9b61b6bb9cbc06f8d0d6aab91f350677ef36ecd99 2363 pycodestyle_2.10.0-1.dsc 347187bdb476329d98f695c213d7295a846d1152ff4fe9bacb8a9590b8ee7053 101916 pycodestyle_2.10.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "acbaadcd0f0535a75d11c393ed1bc121e33911b86e00a81295fc7318e30b713d01ed6700b43f416463b7d661e873e91d4d7cd475d199079edeb46b79324d4fb9 5836 pycodestyle_2.12.1-2.debian.tar.xz ce15cb7e5e78aa4e9a9e02a544703000dbe13e90793f56b1f45cae4d86049c1625bb7a1e2f8e2a7a365f77a23671421ae57c7fdebe954e6cbcb8bcc184cfb8ff 2393 pycodestyle_2.12.1-2.dsc fb426b9fbb6bbfdc5110316d083de0e2689367ae7b618268665ad7b24c7d6aca69adfee648c368be0776553bff53d08a7c73fa4e2e4e0db847905b14d1c06aac 80511 pycodestyle_2.12.1.orig.tar.gz"
+    "5513df3a4d5af627a500303000eae8b14b985e2894e34f1cc4cd0893eebb0bec8a892523fc72aa480f17adadc762f085ab7cd597b61b4f8772e49da3adced27b 4556 pycodestyle_2.10.0-1.debian.tar.xz be8dfa3784c1896c36c2127f2c71c40667b0295ef35035a5827cd8960cc0ef8f7a2fc7d57d2076ab58b6f6496374653390050f5de4ad35a5ee71d377692d8db0 2363 pycodestyle_2.10.0-1.dsc b0c3ee7ac56942db1e8cb5f3a59c2bd2a44b7467e73b46ab7b6f932603beefbbd29f2760ee49907447af1a5987dc1961f00788b01456bdd0aed7690e2d54446b 101916 pycodestyle_2.10.0.orig.tar.gz"
   ],
   "Description": [
     "Python style guide checker (formerly called pep8) Features a plugin architecture allowing for adding new checks is easily. Parseable output listing line numbers of the error location. Consists of just one Python file, and requires only stdlib."
@@ -24,7 +24,7 @@
     "pool/main/p/pycodestyle"
   ],
   "Files": [
-    "7d393d0380fb7412041332a4cc27e6e7 5836 pycodestyle_2.12.1-2.debian.tar.xz dc2d782ae7810486e03cf45cb5664a9c 2393 pycodestyle_2.12.1-2.dsc a82257496a2c8ac9ab3917ac9e8a3133 80511 pycodestyle_2.12.1.orig.tar.gz"
+    "a864935585a8fafc502673ac1ef470a8 4556 pycodestyle_2.10.0-1.debian.tar.xz 501480dff9382a308971254785faf7d8 2363 pycodestyle_2.10.0-1.dsc b7325c5483f38d6d1f61f6b8fe772f39 101916 pycodestyle_2.10.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +45,10 @@
     "4.6.2"
   ],
   "Testsuite": [
-    "autopkgtest, autopkgtest-pkg-pybuild"
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Ondřej Nový \u003conovy@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/pycodestyle"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/pycodestyle.git"
   ],
   "Version": [
-    "2.12.1-2"
+    "2.10.0-1"
   ]
 }

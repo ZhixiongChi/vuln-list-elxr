@@ -6,25 +6,25 @@
     "python-gnocchiclient-doc, python3-gnocchiclient"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, pybuild-plugin-pyproject, python3-setuptools, python3-setuptools-scm, python3-sphinx"
+    "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
   ],
   "Build-Depends-Indep": [
-    "python3-cliff, python3-dateutil, python3-debtcollector, python3-futurist, python3-hacking, python3-iso8601, python3-keystoneauth1, python3-keystonemiddleware \u003c!nocheck\u003e, python3-openstackclient, python3-osc-lib, python3-pytest \u003c!nocheck\u003e, python3-pytest-xdist \u003c!nocheck\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-testscenarios \u003c!nocheck\u003e, python3-ujson"
+    "python3-cliff, python3-dateutil, python3-debtcollector, python3-distutils, python3-futurist, python3-hacking, python3-iso8601, python3-keystoneauth1, python3-keystonemiddleware \u003c!nocheck\u003e, python3-monotonic, python3-openstackclient, python3-osc-lib, python3-pytest \u003c!nocheck\u003e, python3-pytest-xdist \u003c!nocheck\u003e, python3-six, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-testscenarios \u003c!nocheck\u003e, python3-ujson"
   ],
   "Checksums-Sha1": [
-    "3e363e5bfa2952bcba1e7c2f61450c25afa90b7c 4484 python-gnocchiclient_7.1.0-3.debian.tar.xz 2cfd8ad0af9e0ffbb564655402f9956ebd4c9713 2655 python-gnocchiclient_7.1.0-3.dsc 9ad52938d49bf3b9a5094f340aa0cdc7bd96f7d0 144940 python-gnocchiclient_7.1.0.orig.tar.xz"
+    "7b3439651aa79e9fa0cdf8c7ea6b260ba8b95adb 4204 python-gnocchiclient_7.0.7-3.debian.tar.xz db83a69b5a5334b5dff62e6b940dc5255608ee14 2669 python-gnocchiclient_7.0.7-3.dsc a4241d3522d5262a2986dc4c251f48bd121ce749 145172 python-gnocchiclient_7.0.7.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "1531e60a733a4696f099dc1b80d70629a0e5aa18a5b0e573834d29c181ea7bd5 4484 python-gnocchiclient_7.1.0-3.debian.tar.xz c30cecc03de5c3b68d52afee6d822ba862be25b5c4c51d0d51d7a3809c75c5f8 2655 python-gnocchiclient_7.1.0-3.dsc fe258f19c450e58a189449fb5fc2f051a4af6203b8df57cc3e6ca70458d8f101 144940 python-gnocchiclient_7.1.0.orig.tar.xz"
+    "afb6875310f021454877d0ade317bc042bab2f187504d17cb53bf62ba1787224 4204 python-gnocchiclient_7.0.7-3.debian.tar.xz a6020ec4b2c72ff0f45261145bfcfd48361fb0e1f6e9743f44076b251e47d8bd 2669 python-gnocchiclient_7.0.7-3.dsc 3484f979af89d5bb289eb9239e5efce8e48e10e4e745a34de818b2a2a58af361 145172 python-gnocchiclient_7.0.7.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "8a78180a6cf9684582a0e0f6afe03311fba536946dc3dec2da925ecac2be4359dee2474a9bb65ec3486dfb64c14036c2ce4171f731dc58806b5c9daba1314d64 4484 python-gnocchiclient_7.1.0-3.debian.tar.xz bb2af2d0c32741ae9218d063eee098f877734306e32096ec8b3b8914507729602128134bd786dd7d8b2bb68941f9e6aed5e955be3c252ddbb07709d768d57adb 2655 python-gnocchiclient_7.1.0-3.dsc 498b5e38a04ff4fd0e3c21735223b299f6ec83b3d0a2ffd76a44e01a72c0845b9511bb0ecfb3b96f3e9dcbd4d77e2d05ee63053ad71facacd5c7f92f58e1a11c 144940 python-gnocchiclient_7.1.0.orig.tar.xz"
+    "d9355dd4b7bbdd2970bc88182eb09e5575de78ac3be10e13c7a613795538368f1231ef2c7f19407b2c59ed9be9722b9a885bc6c5b1fe979cecc37cda4a584750 4204 python-gnocchiclient_7.0.7-3.debian.tar.xz 3a6539bca5452b2114e0e96ba8c5f7635899aca90fc835cdedefa555f43ffb5d2ac525493d14f8cdeb43223a686e8e076d56e073b18dd6a1cda63d3d11fce6ce 2669 python-gnocchiclient_7.0.7-3.dsc 4022f77c1c47ad0360b6c23e823db7732af1f43d26f1933c3012a6db5fe07b92e1d54bc8e909495146fffb2c0d843c183f3980ee1c3c645bda2fa8fcb648e551 145172 python-gnocchiclient_7.0.7.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-gnocchiclient"
   ],
   "Files": [
-    "3ec304ad3b070381d42b8bb3dd37f8a5 4484 python-gnocchiclient_7.1.0-3.debian.tar.xz cfc73078e4d5c185efd5147e93ad820a 2655 python-gnocchiclient_7.1.0-3.dsc 957da6667588f5fea9a922d401e4bb62 144940 python-gnocchiclient_7.1.0.orig.tar.xz"
+    "2f5b82dfade404bb8308cb30e4fe1364 4204 python-gnocchiclient_7.0.7-3.debian.tar.xz 8d076ccb8665f6f72af216dbf2546eb5 2669 python-gnocchiclient_7.0.7-3.dsc 93b3283c8aebd63c09a7a53cb1817a59 145172 python-gnocchiclient_7.0.7.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/openstack-team/clients/python-gnocchiclient.git"
   ],
   "Version": [
-    "7.1.0-3"
+    "7.0.7-3"
   ]
 }

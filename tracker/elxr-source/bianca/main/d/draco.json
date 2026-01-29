@@ -3,19 +3,19 @@
     "any"
   ],
   "Binary": [
-    "draco, libdraco8, libdraco-dev"
+    "draco, libdraco7, libdraco-dev"
   ],
   "Build-Depends": [
     "cmake, debhelper-compat (= 13), googletest, libeigen3-dev (\u003e= 3.4), libstb-dev, libtinygltf-dev, nlohmann-json3-dev"
   ],
   "Checksums-Sha1": [
-    "898233a8a4ab5f2c0ef816ed4bc2f286625c2ffa 12288 draco_1.5.6+dfsg-3.debian.tar.xz 33951b2c29980bf6efb5cd333f57c84aaa047f8a 2746 draco_1.5.6+dfsg-3.dsc d5a3987afb1f575d4b51bf913c355db427403065 37816292 draco_1.5.6+dfsg.orig.tar.xz"
+    "30f0bc977ebe8bdddad175aa46b396af24a9b166 11916 draco_1.5.5+dfsg-2.debian.tar.xz 5ae281918c21109ec214b693f876d5bb6d91125a 2746 draco_1.5.5+dfsg-2.dsc 93571587ff2c978894404b910246dd1570a17862 37233640 draco_1.5.5+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "817d448a6e940d078bcd907252080a4350a924185bce8e1ae25393e54f4ebd40 12288 draco_1.5.6+dfsg-3.debian.tar.xz 3132c3ca7081d7a419f6e5668fd022b6107f8e0fb827ec02fd17a2d830df81ce 2746 draco_1.5.6+dfsg-3.dsc 6c4de20c08bc53a7c591b411172ad33653cf944036fee8b037ed2318fa5c0107 37816292 draco_1.5.6+dfsg.orig.tar.xz"
+    "f1703de31f3574ff552f0d01123a9a7e94bd5e21f4fa6d78934dd12062d6612d 11916 draco_1.5.5+dfsg-2.debian.tar.xz 169bca5d8f1e8886266ddad8c2415ab7a7ce10c8ed01607b64ced44a20610a87 2746 draco_1.5.5+dfsg-2.dsc 0d4ff5b218a2f9d836c6f44202918402591407b5f59a5103ec288c5600ab087f 37233640 draco_1.5.5+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "10d2c1db50bea75d4a2c1c10c03ef396418692590f96ae799206436457ed5747a2c1cf346292d95e4a4d584fd42a60d87ba88fb8d811d84fd707403a5e032c75 12288 draco_1.5.6+dfsg-3.debian.tar.xz 2859ca3a9e425245aec740c7c0385affa7c2a6ea759cc81668139e25c52b64826ced763a3e7d931d06e75e1c9b2e5f8754f9c04153c97b10298949d68f926b04 2746 draco_1.5.6+dfsg-3.dsc bf495407e678dfeed8b202bac2f24b699b8a02d4726a676c9f6097614593cfcb46a32f7337109f69588939b307d6fdf58d0730f2bcb393cb68eac111f761f9cf 37816292 draco_1.5.6+dfsg.orig.tar.xz"
+    "384e6a7042c54d7b3d11812720f34bf8c6e5feeaa178203e9445784426a0acadd189cdc95ad454e2de2ea5492bab98087f470bd1553870348265e6e33a6ab750 11916 draco_1.5.5+dfsg-2.debian.tar.xz a8c642a613ce1a0df1598537ba8bc43fd5db4a34cc60ff75f46cef13cc7b534c898003423a4d64a317200eb057dd332d425cec91c1dad73d054741c57c99548c 2746 draco_1.5.5+dfsg-2.dsc e401bba99835f8c335f07dcd7d7f1a42ba02f2e3c94f6d3a36aa763e0528731e36cc40f8dcf4efd6756e0f6531bdb3985cf6f26b14142d8b0345ea2f98706f99 37233640 draco_1.5.5+dfsg.orig.tar.xz"
   ],
   "Description": [
     "Library for compressing 3D geometric meshes and point clouds Draco is a library for compressing and decompressing 3D geometric meshes and point clouds. It is intended to improve the storage and transmission of 3D graphics. . Draco is designed and built for compression efficiency and speed. The code supports compressing points, connectivity information, texture coordinates, color information, normals, and any other generic attributes associated with geometry. With Draco, applications using 3D graphics can be significantly smaller without compromising visual fidelity. For users, this means apps can now be downloaded faster, 3D graphics in the browser can load quicker, and VR and AR scenes can now be transmitted with a fraction of the bandwidth and rendered quickly."
@@ -24,7 +24,7 @@
     "pool/main/d/draco"
   ],
   "Files": [
-    "3134b67cbcce188e23dafba91d7117bc 12288 draco_1.5.6+dfsg-3.debian.tar.xz 429b236476e7a3d37bc7e2a47d263bbf 2746 draco_1.5.6+dfsg-3.dsc a920e9f2191b80faff5e5117e6fd899c 37816292 draco_1.5.6+dfsg.orig.tar.xz"
+    "33667f4f994de0be2103ad0c1723d005 11916 draco_1.5.5+dfsg-2.debian.tar.xz ac2726319efdba614be2ca7415986f49 2746 draco_1.5.5+dfsg-2.dsc d90420248d5c748715687571e2d2419a 37233640 draco_1.5.5+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "draco"
   ],
   "Package-List": [
-    "draco deb graphics optional arch=any libdraco-dev deb libdevel optional arch=any libdraco8 deb libs optional arch=any"
+    "draco deb graphics optional arch=any libdraco-dev deb libdevel optional arch=any libdraco7 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/roehling/draco.git"
   ],
   "Version": [
-    "1.5.6+dfsg-3"
+    "1.5.5+dfsg-2"
   ]
 }

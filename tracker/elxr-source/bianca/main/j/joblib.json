@@ -3,28 +3,25 @@
     "all"
   ],
   "Binary": [
-    "python3-joblib, python-joblib-doc"
+    "python3-joblib"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, cython3, procps, pybuild-plugin-pyproject, python3-all, python3-lz4, python3-numpy, python3-psutil, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-threadpoolctl \u003c!nocheck\u003e"
-  ],
-  "Build-Depends-Indep": [
-    "dh-sequence-sphinxdoc, python-distributed-doc, python-numpy-doc, python-scipy-doc, python3-doc, python3-numpydoc, python3-pandas, python3-sphinx, python3-sphinx-autodoc-typehints, python3-sphinx-gallery"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-pytest, python3-numpy, python3-psutil, python3-lz4, python3-threadpoolctl \u003c!nocheck\u003e, cython3, procps"
   ],
   "Checksums-Sha1": [
-    "b47155e8f1acec7edf885f356d404d5d45365bf2 11620 joblib_1.4.2-4.debian.tar.xz 3c375c54b69cd569bc8defff70ad57cb6b5cb13f 2239 joblib_1.4.2-4.dsc 5a322a34a0335f76931652608fad52ba80c70570 359883 joblib_1.4.2.orig.tar.gz"
+    "6385fbf27ad893bcf7d432aa9dd0d8794481e2b9 7828 joblib_1.2.0-4+deb12u1.debian.tar.xz 474c1baa6ed36eaf01996ba08b10338f1d89bf5e 1931 joblib_1.2.0-4+deb12u1.dsc 268888a23da574bf0cd83c5907e8d7ab7f0bdedd 345345 joblib_1.2.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "91d470e720e3a2be0b6630e3e4cb2525aa931f776d9e7ccd0942382f23073870 11620 joblib_1.4.2-4.debian.tar.xz 4394a6586a1744e136092a9b6185a418ff01d56ae9421a46e9861cd34b0f175a 2239 joblib_1.4.2-4.dsc 1d95f5f3ab303be89aa4666956bf05a589f56e52c29b836267c8e3885223ff90 359883 joblib_1.4.2.orig.tar.gz"
+    "dc0e627c6feeeef1897af051e43eafb719d805ca356b4722dfa20e9cd1e25a75 7828 joblib_1.2.0-4+deb12u1.debian.tar.xz ea1da30db425ce9f6085eb2fd18bf249b4f775df908347e42b2b1b57de9d5d62 1931 joblib_1.2.0-4+deb12u1.dsc 574eca5aaeb0a06c4fe0a8e8e67b24715218fb0f9d0fdc9d4f30519100885e53 345345 joblib_1.2.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f0ecfa9d9c4efdd1a450669f42b2337ced591f3967fc7ca21be1af8cb3be7897741f9106985f5f1c21427c6e638ddd528d0bd3ad462eaf085d91fda532c962f0 11620 joblib_1.4.2-4.debian.tar.xz f3ce1930d41eca8b71ab7d1a4382d74d3de44946c1a8cf13e1bd95b45b264dd94a347a43277dac5dc9edea678bfb4eab0d7a9c464e264f0ae6736626513191e4 2239 joblib_1.4.2-4.dsc b1253dab556420f9e42872ee53c478bdc491c10b447f932cbf0a443c565988f597fe4e09131893af8c5ae418509447f678de5959cafbcb019180c2ef15d8ed27 359883 joblib_1.4.2.orig.tar.gz"
+    "d77e4c06a3b16e6a11f5748f86e4ab7869dba8775da05e2dbe2aca34481ae387dd2948170151cb7c013841172dd11065980729f44c47a503d90adddd0d3c33c4 7828 joblib_1.2.0-4+deb12u1.debian.tar.xz 96abd489ada380264ff71780197e6c3fb709b196111b5a143bb6df382351573127d8f8296353c14688a8826a90579c2e684002a657f858aae52b8bc3781bac7e 1931 joblib_1.2.0-4+deb12u1.dsc de882f2ff8dd936b4f98352b9ee1cc56c3a734f215a74257cf90a25736afd9e6b93e6538929b7a29f5956e6fccbdfcbf8b39c8fd68035a8857721f7a76066133 345345 joblib_1.2.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/j/joblib"
   ],
   "Files": [
-    "8cf06fdcd44b56e50062ef2104593b1b 11620 joblib_1.4.2-4.debian.tar.xz 169b51e1448b4d6d2f26bb943b4d29c7 2239 joblib_1.4.2-4.dsc c3e5f9a7d2b6b54adabd492c6d70ddf2 359883 joblib_1.4.2.orig.tar.gz"
+    "c02eaf941341dca5c2f9d894847fed7a 7828 joblib_1.2.0-4+deb12u1.debian.tar.xz 6c78ca88e513530137fd62ffdba46446 1931 joblib_1.2.0-4+deb12u1.dsc d51f8e86fe75ed94b88be83604c3f43d 345345 joblib_1.2.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +36,10 @@
     "joblib"
   ],
   "Package-List": [
-    "python-joblib-doc deb doc optional arch=all python3-joblib deb python optional arch=all"
+    "python3-joblib deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
@@ -51,7 +48,7 @@
     "python3-all, python3-lz4, python3-numpy, python3-psutil, python3-pytest, python3-threadpoolctl"
   ],
   "Uploaders": [
-    "Yaroslav Halchenko \u003cdebian@onerussian.com\u003e,"
+    "Yaroslav Halchenko \u003cdebian@onerussian.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/science-team/joblib"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/science-team/joblib.git"
   ],
   "Version": [
-    "1.4.2-4"
+    "1.2.0-4+deb12u1"
   ]
 }

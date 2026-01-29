@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), dh-apparmor, dpkg-dev (\u003e= 1.16.1~), libpcap0.8-dev (\u003e= 1.9.1), libssl-dev"
   ],
   "Checksums-Sha1": [
-    "97d1275a0819bf7e266916c01736d2e231c049b7 18452 tcpdump_4.99.5-2.debian.tar.xz 9a7028757d232c4b058306fafc5d1e2874dcb4a4 1937 tcpdump_4.99.5-2.dsc 8a0d390a0feef71b6060c3d3c4097f97be4f8d4e 1418476 tcpdump_4.99.5.orig.tar.xz"
+    "ba3bf015bbf4a7df48e1b3024ee5156656f03e5f 17896 tcpdump_4.99.3-1.debian.tar.xz 299bc6e3166cbcc363b357266d5559b9def5bf8c 2172 tcpdump_4.99.3-1.dsc 8110fb566415caa5f9e887e6bd233f5f929983a3 1901814 tcpdump_4.99.3.orig.tar.gz 8a486a2bb2e84ef9367c6f9e62c0bd92553a6b1e 442 tcpdump_4.99.3.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "d4d23930dccb9f9ff9099fc36fc9d30e675008789d72f5924705979e49334f0d 18452 tcpdump_4.99.5-2.debian.tar.xz 024dd6305a677c0f3dd8d46ebbe5f09aa3f904cac38005163a5db3ef19be2dad 1937 tcpdump_4.99.5-2.dsc d76395ab82d659d526291b013eee200201380930793531515abfc6e77b4f2ee5 1418476 tcpdump_4.99.5.orig.tar.xz"
+    "e5802119ac5b68038bbe9a048f642883e05bb22a66687d7097e94ddc44e0ffdb 17896 tcpdump_4.99.3-1.debian.tar.xz e5a75fad08aacff81a58799bedaacc61fa281839d8f68cdf1c9df45deb66afd1 2172 tcpdump_4.99.3-1.dsc ad75a6ed3dc0d9732945b2e5483cb41dc8b4b528a169315e499c6861952e73b3 1901814 tcpdump_4.99.3.orig.tar.gz b642ec2a866f56dd13829a9baf7dc09e65107404ab97e4f731d7d22bf3654760 442 tcpdump_4.99.3.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "7bed2e473338152dca441fe7ba4ddae68c6a2a1406b33c126ca78e2dfefce28a2003a789686f6a3dd1d175ebbbf6662f90f0e21765447b54f7cae5e6bd9ecb2f 18452 tcpdump_4.99.5-2.debian.tar.xz 216bd218b5a0d4c8770f26394864c9f1b69665f45e31f731eeeb4023eba97dfad292fc0abfd793a3d6933fb557f4e56710a8509762835affb4b7c808694a56d1 1937 tcpdump_4.99.5-2.dsc e0516eb5384371486388c8a458af2a81183a1275b2db5a79d54fe6bc892b32ae31b061e70554b10f649a3674517c14e35aea1aff67b662057eaff7a30989b420 1418476 tcpdump_4.99.5.orig.tar.xz"
+    "2e77ab6d0a3c089df1ff0a999c87ba1d17fcb0c6fcf6eacecf43be9d1bf366809cbfbb519f2d04b1b0b410be9b4dd58fa5e04e594e609af06801bd54b6429b44 17896 tcpdump_4.99.3-1.debian.tar.xz 1b3b0d9549064b5b73d79715d76648528d0918cb846c2581fa5ad0b47bd2e80872fbc8f5de440acad299981b0b3dd602b04cb42029e86a28c400ba1c16e0bfaa 2172 tcpdump_4.99.3-1.dsc e1442e923d89f367cfe403dc460d0d46e19a241470d56b30b7a411bedd8d21a78c428f20ffe725cbb4fa5068f7dcc5c93d206e1a8d53feb9bccc6f0cda8bf0f9 1901814 tcpdump_4.99.3.orig.tar.gz a7dfd95c11fa9066740552acc9ebfa1c674ba9242dfb6dddf27658845245b8677b4c2da392cfe1447f32b929e108e9ff5326a94cdc0be9502a05e0efc15a5934 442 tcpdump_4.99.3.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/t/tcpdump"
   ],
   "Files": [
-    "c9176ddac5508a736f874900ce9c0263 18452 tcpdump_4.99.5-2.debian.tar.xz f798bd0cdd4cf1e03a743483b8ed5151 1937 tcpdump_4.99.5-2.dsc f7770483dc8380e529fe2bdebb974287 1418476 tcpdump_4.99.5.orig.tar.xz"
+    "d492eba9a3743ebc2f9a9d4f9dd3416f 17896 tcpdump_4.99.3-1.debian.tar.xz 276142560cd1ab35bc852494352f3142 2172 tcpdump_4.99.3-1.dsc 491aeb15c1c72d59b9288a5a6953e8a9 1901814 tcpdump_4.99.3.orig.tar.gz bf355d6624b945f4e368707bb433a1e5 442 tcpdump_4.99.3.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://www.tcpdump.org/"
   ],
   "Maintainer": [
-    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
+    "Romain Francoise \u003crfrancoise@debian.org\u003e"
   ],
   "Package": [
     "tcpdump"
@@ -39,18 +39,18 @@
     "tcpdump deb net optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/debian/tcpdump"
+    "https://salsa.debian.org/rfrancoise/tcpdump"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/debian/tcpdump.git"
+    "https://salsa.debian.org/rfrancoise/tcpdump.git"
   ],
   "Version": [
-    "4.99.5-2"
+    "4.99.3-1"
   ]
 }

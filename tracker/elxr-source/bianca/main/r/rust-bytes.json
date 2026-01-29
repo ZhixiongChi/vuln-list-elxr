@@ -3,31 +3,28 @@
     "any"
   ],
   "Binary": [
-    "librust-bytes-dev"
+    "librust-bytes-dev, librust-bytes+serde-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.39) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "9f96d0cddeb7b6d0067db66b07375acd0cc8823c 3344 rust-bytes_1.9.0-1.debian.tar.xz 12c89074472cd848e885e55c7f8d64ad899ec868 2256 rust-bytes_1.9.0-1.dsc 9210e9a4a7994a15ade02f8ff875532e7136f4f9 67320 rust-bytes_1.9.0.orig.tar.gz"
+    "179d3b821590ddfd55fc1f9acdce8f3d5cf5b798 3012 rust-bytes_1.2.1-1.debian.tar.xz 6cbae3fb695bb808288355adc12734811af1ac1a 2307 rust-bytes_1.2.1-1.dsc 843a84c0da966e5fa87097c13f1fcfbcf80b9809 54857 rust-bytes_1.2.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "e2f6043b29e3174a6920487b0a90ec120e673084d8e8eaaa5042cc15248ea0a5 3344 rust-bytes_1.9.0-1.debian.tar.xz d7c0c1e752922d44a2c46a60f2c157de40a604713fec01cb560d2f685395060e 2256 rust-bytes_1.9.0-1.dsc 325918d6fe32f23b19878fe4b34794ae41fc19ddbe53b10571a4874d44ffd39b 67320 rust-bytes_1.9.0.orig.tar.gz"
+    "fa42af58b9fa4b8c4ca24014964bfe41c6c1d52ac1bd411d628e61ede0a172db 3012 rust-bytes_1.2.1-1.debian.tar.xz cc597c71e179a6862c740f90011de3282c64d49928135ba929082a97cfa7dd17 2307 rust-bytes_1.2.1-1.dsc ec8a7b6a70fde80372154c65702f00a0f56f3e1c36abbc6c440484be248856db 54857 rust-bytes_1.2.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "5e5ca0cf779aaf2029818f7da3e4879c2ec1adfcc0bfbc77427349ce419a9096bc50566e39f4e4fd7e3d79f6ded9941985c6fa41ad425bce2acd2a49788a26bb 3344 rust-bytes_1.9.0-1.debian.tar.xz 1e5817691619651077dddd3ad03684354213a16be19c966dcf70affa75640976f4768d092104746991f6783b1c3baeec6b4d7c41170765ae661c1c1df5b58457 2256 rust-bytes_1.9.0-1.dsc e6c0681c535db6035c1fb1c0481725bb8ab341b6324acde07ac4b60cc4f490ec6ff01478bc00fae00ade2bc5420f9d14cc44438e5d156bcce91cc0f06118296b 67320 rust-bytes_1.9.0.orig.tar.gz"
+    "6bb354f75b1912b527ebcf9a4a445f97424ab86c02f0d8b454010eee21d69eaeb82f58c05f49ad26c10ca66c56543b6c24f4642aa4159866c4aa1e8086eeac77 3012 rust-bytes_1.2.1-1.debian.tar.xz f194e66495e8d93554037a38d46e0b5dba3adca6224979bc3df5c2932c67f0177940622dc41b57aaff92d647dace648e60e360c1f7b9804b93c8155ab62429f5 2307 rust-bytes_1.2.1-1.dsc 39c19594f52af24b04eab319ab329e8ecb5732e4531184eb376677f57c8a6402c15bd171282498e69a4a472d82e308d0dc8140df0b7d923dca588aec90c4fd31 54857 rust-bytes_1.2.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-bytes"
   ],
   "Files": [
-    "ec94d0dae3d3175d35d1204d7d681237 3344 rust-bytes_1.9.0-1.debian.tar.xz 0c2da4df5b84231f266466e7698e7bad 2256 rust-bytes_1.9.0-1.dsc 8dc53ad58daeb79ef49836852ffc2962 67320 rust-bytes_1.9.0.orig.tar.gz"
+    "380c40aacf449fe4a8356205b9d780ae 3012 rust-bytes_1.2.1-1.debian.tar.xz fa5f5d5afcd3c2e840580da0967923c6 2307 rust-bytes_1.2.1-1.dsc 91d4b2bb0c615a1ed359967b054dd61a 54857 rust-bytes_1.2.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/tokio-rs/bytes"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,16 +33,16 @@
     "rust-bytes"
   ],
   "Package-List": [
-    "librust-bytes-dev deb rust optional arch=any"
+    "librust-bytes+serde-dev deb rust optional arch=any librust-bytes-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-serde-test-1+default-dev, rustc"
+    "dh-cargo, librust-loom-0.5+default-dev, librust-serde-test-1+default-dev"
   ],
   "Uploaders": [
     "Ximin Luo \u003cinfinity0@debian.org\u003e, kpcyrd \u003cgit@rxv.cc\u003e, Robin Krahl \u003crobin.krahl@ireas.org\u003e"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/bytes]"
   ],
   "Version": [
-    "1.9.0-1"
+    "1.2.1-1"
   ]
 }

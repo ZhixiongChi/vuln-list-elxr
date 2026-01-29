@@ -6,22 +6,22 @@
     "librust-console-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.66) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.99-~~) \u003c!nocheck\u003e, librust-once-cell-1+default-dev (\u003e= 1.8-~~) \u003c!nocheck\u003e, librust-unicode-width-0.2+default-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-encode-unicode-0.3+default-dev \u003c!nocheck\u003e, librust-lazy-static-1+default-dev (\u003e= 1.4.0-~~) \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.30-~~) \u003c!nocheck\u003e, librust-terminal-size-0.2+default-dev \u003c!nocheck\u003e, librust-unicode-width-0.1+default-dev \u003c!nocheck\u003e, librust-winapi-0.3+consoleapi-dev \u003c!nocheck\u003e, librust-winapi-0.3+default-dev \u003c!nocheck\u003e, librust-winapi-0.3+processenv-dev \u003c!nocheck\u003e, librust-winapi-0.3+winbase-dev \u003c!nocheck\u003e, librust-winapi-0.3+wincon-dev \u003c!nocheck\u003e, librust-winapi-0.3+winuser-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "6c800ca783751051c6a0d04575189153b317946f 4084 rust-console_0.15.10-1.debian.tar.xz 4720e022cec842d75bf8141cd1fa2a1709cd6970 1857 rust-console_0.15.10-1.dsc d03f4984e27457c8d08cc064b9ffc40b4de0a0a9 35678 rust-console_0.15.10.orig.tar.gz"
+    "ac8c28817aab43cb6631d13772ed1f6f209f1985 3476 rust-console_0.15.2-2.debian.tar.xz 45571874c85b8c4a1b48705a0e3263e1d3601753 2835 rust-console_0.15.2-2.dsc dd876ff2e9870aede814b14817a91d9e0ac3235d 30886 rust-console_0.15.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "ada05ee18ee51f3e4674e1872e82ed3cb7aedfd198ddb272c47e648598913c96 4084 rust-console_0.15.10-1.debian.tar.xz 7fbbbbb9a3dfe55785f47b6f63483f42d246550068a7fbee53736ec73779def3 1857 rust-console_0.15.10-1.dsc 107a7f2260a280e54a3dc2c04fee2202c1343292752c3944a5ca8190b7ea22aa 35678 rust-console_0.15.10.orig.tar.gz"
+    "fce6a532edadff3f809a822f866a5caadbc944189e5eeafebec6542caeb77961 3476 rust-console_0.15.2-2.debian.tar.xz 2a05f9b537412096c550986ed20451cd0abd1bd9ee13746b00cc659cae532675 2835 rust-console_0.15.2-2.dsc f3e9ce8011449c95af209891ba4f15fc8087670c42238bf5c0b5a7de6ab180b8 30886 rust-console_0.15.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "45a68721b20fa9b3b4b8d56053b51c79d13df5adcdab49e1e548b2c40d06dd72f17be7f7931892e19fec2ebce3f50ca3afd44d86fbc035296e912c4a77bc1a8c 4084 rust-console_0.15.10-1.debian.tar.xz 52a9131164e219da8a21164eca3fbfd57f99d827a2095016111869a4f568d7460c4bbeb25a7b1e6de56739b609168f7dc60531f091e1a3c942256b9eea28af9a 1857 rust-console_0.15.10-1.dsc 8e5c437925f0baff373587507d1ac6b6b928fbd0894b637abe214fb97c5a9a6eece922c95bec159869b8e54afe002add30f13911b9338bcb57387a0909677bdb 35678 rust-console_0.15.10.orig.tar.gz"
+    "37d84c39ccb57781d2a8550b081db043621df45d2c864c1fcfb58d9885995cf1d9bf4c6f13dd4ed322ea02f7d23e56736a577edbfd073269ecc1648ff13e9c47 3476 rust-console_0.15.2-2.debian.tar.xz 25320c165bf6a2f71bdaa7db427519cecb8046da2c1cd63581f21ab03904d5708cbf875a612db941c9dea9fe5ebfa4a48cad245e3ba99085c43c955580e0204a 2835 rust-console_0.15.2-2.dsc bd3b6d4495b975518540f50da2267522e26ae28a67aa10357ac1dc8a0ab5a345c5db78a79613da48900ad73c565464c0f62756425ef36136b5fe8d51a660ae3e 30886 rust-console_0.15.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-console"
   ],
   "Files": [
-    "7c332726a8ef2450bf72a5b5258842a1 4084 rust-console_0.15.10-1.debian.tar.xz 9b4b6925b93418deb0fdfa7872901352 1857 rust-console_0.15.10-1.dsc 4ab0a390842f9d4ac63a79997eab486b 35678 rust-console_0.15.10.orig.tar.gz"
+    "73390c77a1686f7dea5e9dedb94df421 3476 rust-console_0.15.2-2.debian.tar.xz 9ba271cf092ff3cd3ddc35341c6feebc 2835 rust-console_0.15.2-2.dsc d75b5926306891d18810b9c64edcf584 30886 rust-console_0.15.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "librust-console-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-proptest-1+bit-set-dev, librust-proptest-1+std-dev, librust-regex-1+default-dev, rustc"
+    "dh-cargo, librust-criterion-0.3+default-dev, librust-proptest-1+default-dev, librust-regex-1+default-dev"
   ],
   "Uploaders": [
     "Paride Legovini \u003cparide@debian.org\u003e, kpcyrd \u003cgit@rxv.cc\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/console]"
   ],
   "Version": [
-    "0.15.10-1"
+    "0.15.2-2"
   ]
 }

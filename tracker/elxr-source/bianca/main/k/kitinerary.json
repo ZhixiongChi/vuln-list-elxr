@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "hurd-any alpha amd64 arm64 armel armhf hppa loong64 m68k mips64el powerpc ppc64 ppc64el riscv64 s390x sh4 sparc64 all"
+    "any all"
   ],
   "Binary": [
-    "libkitinerary-bin, libkitinerary-data, libkitinerary-dev, libkpim6itinerary6"
+    "libkpimitinerary-bin, libkpimitinerary-data, libkpimitinerary-dev, libkpimitinerary5"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-kf6, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.6.0~), gettext, iso-codes, libkf6calendarcore-dev (\u003e= 6.6.0~), libkf6contacts-dev (\u003e= 6.6.0~), libkf6i18n-dev (\u003e= 6.6.0~), libkmime-dev (\u003e= 24.12.3~), libkpkpass-dev (\u003e= 24.12.3~), libphonenumber-dev, libpoppler-private-dev, libpoppler-qt6-dev, libssl-dev (\u003e= 1.1~), libxkbcommon-dev, libxml2-dev, libzxing-dev (\u003e= 2.0~), pkgconf, qml6-module-qtqml \u003c!nocheck\u003e, qml6-module-qtqml-models \u003c!nocheck\u003e, qml6-module-qtqml-workerscript \u003c!nocheck\u003e, qt6-base-dev (\u003e= 6.7.0~), qt6-declarative-dev (\u003e= 6.7.0~), shared-mime-info (\u003e= 1.3~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e, zlib1g-dev"
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), dh-sequence-kf5, extra-cmake-modules (\u003e= 5.91.0~), gettext, iso-codes, libkf5calendarcore-dev (\u003e= 5:5.91.0~), libkf5contacts-dev (\u003e= 5:5.91.0~), libkf5i18n-dev (\u003e= 5.91.0~), libkf5mime-dev (\u003e= 22.12.3~), libkpimpkpass-dev (\u003e= 22.12.3~), libphonenumber-dev, libpoppler-private-dev, libpoppler-qt5-dev, libssl-dev (\u003e= 1.1~), libxml2-dev, libzxingcore-dev, pkg-config, qml-module-qtqml \u003c!nocheck\u003e, qtbase5-dev (\u003e= 5.15.2~), qtbase5-private-dev (\u003e= 5.15.2~), qtdeclarative5-dev (\u003e= 5.15.2~), qtdeclarative5-private-dev (\u003e= 5.15.2~), shared-mime-info (\u003e= 1.3~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "f861a2691bc027c4f700a14c74a78e49d64362e3 24128 kitinerary_24.12.3-1.debian.tar.xz 01dd4e459a9657d7a39e8a89d49b798bcd46bb36 3645 kitinerary_24.12.3-1.dsc f3dbf7de9aedaddc589e577f8f14afff3bf26b08 2007392 kitinerary_24.12.3.orig.tar.xz ed0cd339871837cccaff14b28fd921371d0297d8 833 kitinerary_24.12.3.orig.tar.xz.asc"
+    "df854065e9d16037edf22f75f997311c35d6b631 14864 kitinerary_22.12.3-1.debian.tar.xz dce29ef843d135e7897edf5537e1c96e87ffc1cc 3109 kitinerary_22.12.3-1.dsc c51de061d592223730e264bc40c39a1082f10402 1724024 kitinerary_22.12.3.orig.tar.xz 5d61499b26c949c5f415d096b3203238d2877314 833 kitinerary_22.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "d6768e05600047334f48afaeb67dc31ad059f1be309d329fa0754b423b908448 24128 kitinerary_24.12.3-1.debian.tar.xz 20d01e59e249b8f30b653f4cffebbb9fbf1b11c375674f2c316bac358fa98546 3645 kitinerary_24.12.3-1.dsc da895934f27f99ba7b463a4df8f365fb4b12f15458c266e910c13ebb8ef00784 2007392 kitinerary_24.12.3.orig.tar.xz 1b1fd0e85dec53bbb5d107fe6e7afade5f18d85e1d32acfff90ebdaace8a25e0 833 kitinerary_24.12.3.orig.tar.xz.asc"
+    "05ce5330128dea7938c01c1415785cb65f6432bc10d895209b1fce0c3122aadd 14864 kitinerary_22.12.3-1.debian.tar.xz c6b60202784cbdb1a659208abebd94af1ec81bf42d99542f9451c922c6d4290d 3109 kitinerary_22.12.3-1.dsc a697a4133575b39e444693c6035af19fc77293322463a3db53543f975c862e63 1724024 kitinerary_22.12.3.orig.tar.xz 5c09d9b5ebb65b060db3e74a07d939fc2637208784b71a902954cf0a0eabfb3f 833 kitinerary_22.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "60cb272b88ec457a2f33c62283a3f107b31341a0c35f3e03c8151549efa5af40ecf68826b3721becd4032890db9675eb6b92dae150659488b540cbfeb5f963a9 24128 kitinerary_24.12.3-1.debian.tar.xz 57ebb563ffddf9cc0b19861714705a2224e94644f645e06957d97b881c34410fed33dd1fb7bdad24a0ef76355466c6b57753b4d514918cde0bab09ec8762aa96 3645 kitinerary_24.12.3-1.dsc dd3ed4d70bf231c61814f37d2c797b9c3462c3992466abda36eed57d7bdd43769161d8b9203e411966108af37cd0233c3aef58d91b919359a81b2510d3295a27 2007392 kitinerary_24.12.3.orig.tar.xz 14c47430c43c08bde10dba9696532b03329545d19fa3be155c78aca1e81717bce505c7d2939866537bcdaafd6099dd6369d6018f3b6438feec2e505deba73d10 833 kitinerary_24.12.3.orig.tar.xz.asc"
+    "d472279cf28e297739a4c78dcfe66ef5eb83b197c8195ac2c89a9d2acfa6982d48e31df340ad159dce5cb22a2b8bc0a468ff48d972152ada4d267ccd9d4a7b61 14864 kitinerary_22.12.3-1.debian.tar.xz d3dc5b7cde0df143ad7ef4ff1445e16f3dbbbdae1ce74338195d9c838ad544a606a530ad383f9530ebc67cb039edb6c3d74903d33d003a82afb8877638bbdf95 3109 kitinerary_22.12.3-1.dsc f2932c26b6100d167ce421996704e76942ce90457cceaae2268193d396573a7b8c2d2f722cdc838da50148358cae1d8bdf62676e3cb1ae8994e39f50313a84df 1724024 kitinerary_22.12.3.orig.tar.xz 87996ea9b7476e9763b9b01f136da05c5be8dd02c903d87ac37762870b3c4ff53b47747c06778e0aa46e947a33251ed22ff57d908568218c06cf6426fb609248 833 kitinerary_22.12.3.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/k/kitinerary"
   ],
   "Files": [
-    "0299f3b8836f206dfc252dda3a2882e4 24128 kitinerary_24.12.3-1.debian.tar.xz 4914268908d44b46bc6f2207f6886b2a 3645 kitinerary_24.12.3-1.dsc 1a63a47dbfcc0ea1d65c8237476de1fb 2007392 kitinerary_24.12.3.orig.tar.xz d8161eb07c083524de4f6c3c748de9a1 833 kitinerary_24.12.3.orig.tar.xz.asc"
+    "847ce7f8c84a04708a6367a3475660bf 14864 kitinerary_22.12.3-1.debian.tar.xz 1e49cd3e7024bccc8a342efa0f7de3a4 3109 kitinerary_22.12.3-1.dsc ccfc059775497bffa00d2b7b91988078 1724024 kitinerary_22.12.3.orig.tar.xz bd1fccedfb4d1f5ae516409187ccf1c1 833 kitinerary_22.12.3.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "kitinerary"
   ],
   "Package-List": [
-    "libkitinerary-bin deb libs optional arch=hurd-any,alpha,amd64,arm64,armel,armhf,hppa,loong64,m68k,mips64el,powerpc,ppc64,ppc64el,riscv64,s390x,sh4,sparc64 libkitinerary-data deb libs optional arch=all libkitinerary-dev deb libdevel optional arch=hurd-any,alpha,amd64,arm64,armel,armhf,hppa,loong64,m68k,mips64el,powerpc,ppc64,ppc64el,riscv64,s390x,sh4,sparc64 libkpim6itinerary6 deb libs optional arch=hurd-any,alpha,amd64,arm64,armel,armhf,hppa,loong64,m68k,mips64el,powerpc,ppc64,ppc64el,riscv64,s390x,sh4,sparc64"
+    "libkpimitinerary-bin deb libs optional arch=any libkpimitinerary-data deb libs optional arch=all libkpimitinerary-dev deb libdevel optional arch=any libkpimitinerary5 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Uploaders": [
     "Sandro Knauß \u003chefee@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kitinerary.git"
   ],
   "Version": [
-    "24.12.3-1"
+    "22.12.3-1"
   ]
 }

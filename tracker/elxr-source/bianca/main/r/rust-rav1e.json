@@ -3,31 +3,31 @@
     "any"
   ],
   "Binary": [
-    "librust-rav1e-dev, librav1e0.7, librav1e-dev, rav1e"
+    "librust-rav1e-dev, librav1e0, librav1e-dev, rav1e"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native, rustc:native (\u003e= 1.70.0), libstd-rust-dev, librust-arg-enum-proc-macro-0.3+default-dev (\u003e= 0.3.4-~~), librust-arrayvec-0.7+default-dev, librust-av-metrics-0.9-dev (\u003e= 0.9.1-~~), librust-av1-grain-0.2+default-dev (\u003e= 0.2.2-~~), librust-bitstream-io-2+default-dev, librust-cc-1+default-dev, librust-cc-1+parallel-dev, librust-cfg-if-1+default-dev, librust-clap-4+color-dev (\u003e= 4.4.11-~~), librust-clap-4+derive-dev (\u003e= 4.4.11-~~), librust-clap-4+std-dev (\u003e= 4.4.11-~~), librust-clap-4+wrap-help-dev (\u003e= 4.4.11-~~), librust-clap-complete-4+default-dev (\u003e= 4.4.5-~~), librust-console-0.15+default-dev, librust-fern-0.6+default-dev, librust-itertools-0+default-dev (\u003e= 0.10-~~), librust-ivf-0.1+default-dev, librust-libc-0.2+default-dev, librust-log-0.4+default-dev, librust-nasm-rs-0.2+default-dev, librust-nasm-rs-0.2+parallel-dev, librust-new-debug-unreachable-1+default-dev (\u003e= 1.0.4-~~), librust-nom-7+default-dev (\u003e= 7.1.3-~~), librust-noop-proc-macro-0.3+default-dev, librust-num-derive-0.3+default-dev, librust-num-traits-0.2+default-dev, librust-once-cell-1+default-dev (\u003e= 1.19.0-~~), librust-paste-1+default-dev, librust-rayon-1+default-dev, librust-scan-fmt-0.2-dev (\u003e= 0.2.6-~~), librust-signal-hook-0.3+default-dev, librust-simd-helpers-0.1+default-dev, librust-system-deps-7+default-dev, librust-thiserror-1+default-dev, librust-v-frame-0.3+default-dev (\u003e= 0.3.7-~~), librust-y4m-0.8+default-dev, cargo-c:native (\u003e= 0.9.29), librust-aom-sys-0.3-dev, librust-assert-cmd-2-dev, librust-dav1d-sys-0.7-dev, librust-interpolate-name-0.2-dev, librust-ivf-0.1-dev, librust-pretty-assertions-1-dev, librust-quickcheck-1-dev, librust-quickcheck-macros-1-dev, librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-serde-big-array-0.5+default-dev (\u003e= 0.5.1-~~), librust-semver-1+default-dev"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native, rustc:native, libstd-rust-dev, librust-arg-enum-proc-macro-0.3+default-dev, librust-arrayvec-0.7+default-dev, librust-av-metrics-0.9-dev, librust-bitstream-io-1+default-dev, librust-cc-1+default-dev, librust-cc-1+parallel-dev, librust-cfg-if-1+default-dev, librust-clap-2+color-dev, librust-console-0.15+default-dev, librust-fern-0.6+default-dev, librust-itertools-0.10+default-dev, librust-ivf-0.1+default-dev, librust-libc-0.2+default-dev, librust-log-0.4+default-dev, librust-nasm-rs-0.2+default-dev, librust-nasm-rs-0.2+parallel-dev, librust-noop-proc-macro-0.3+default-dev, librust-num-derive-0.3+default-dev, librust-num-traits-0.2+default-dev, librust-paste-1+default-dev, librust-rayon-1+default-dev, librust-regex-1+default-dev, librust-rustc-version-0.4+default-dev, librust-scan-fmt-0.2-dev (\u003e= 0.2.3-~~), librust-signal-hook-0.3+default-dev, librust-simd-helpers-0.1+default-dev, librust-system-deps-6+default-dev, librust-thiserror-1+default-dev, librust-v-frame-0.3+default-dev, librust-y4m-0.7+default-dev, cargo-c:native, librust-aom-sys-0.3-dev, librust-assert-cmd-2-dev, librust-dav1d-sys-0.7-dev, librust-interpolate-name-0.2-dev, librust-ivf-0.1-dev, librust-pretty-assertions-1-dev"
   ],
   "Checksums-Sha1": [
-    "0483b5205ef40ca4db1f5ab42d97f16c863055d9 18556 rust-rav1e_0.7.1-9.debian.tar.xz c0e9ff84bde10e7e820d3d81132aba75eea62bb9 3714 rust-rav1e_0.7.1-9.dsc db5bbba29eb6c8d49fb2d468bbbe51102f9f866c 1472522 rust-rav1e_0.7.1.orig.tar.gz"
+    "1d138c98c25482a4e5937850672feaec09b7e5a3 18016 rust-rav1e_0.5.1-6.debian.tar.xz 92006119040476cefda31091b533488724c97b72 3641 rust-rav1e_0.5.1-6.dsc 052898273a14e47922f6c2729da004ea6d78f9c7 1125938 rust-rav1e_0.5.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "0eb6397cfe3dc7ed564336a779944f623fc245e07a62ee0fec77f886a313838e 18556 rust-rav1e_0.7.1-9.debian.tar.xz bf661313981689fe126bb48b4b2cb36de1b937e48aef8adb66a0b2a631b608cb 3714 rust-rav1e_0.7.1-9.dsc cd87ce80a7665b1cce111f8a16c1f3929f6547ce91ade6addf4ec86a8dda5ce9 1472522 rust-rav1e_0.7.1.orig.tar.gz"
+    "4454f8ed8b74c6426b5193324cec7bbf41f6c49d8a09fd900a8361c319fd2192 18016 rust-rav1e_0.5.1-6.debian.tar.xz c9e8d1899a0392a4b97cb074b8856f18b8cd0aa8ea6ebb91a96d87a9a128f189 3641 rust-rav1e_0.5.1-6.dsc 56639427b5c9ad5734686eac009758593e2ba80eab08f6d083173c2e2b73cb00 1125938 rust-rav1e_0.5.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "b7a8ab8238c93c114e900037141b9a342b79bc7bcf79a3e9a0deed12a60ae7f95036137be4ebabe9be343e181f6c420104d3148fee92d325f62f059955c3918a 18556 rust-rav1e_0.7.1-9.debian.tar.xz bca179ec8a98f1c03aa0b5a63c7692c976cd4c66f6a53b2ec5d8b39afb905666afa6a8c8fa42e1cdcb177223906296869e39d072c5a77d9cb050014577cc89de 3714 rust-rav1e_0.7.1-9.dsc 23b0f5827945bae8b3d2109e46d67fbdc85e961a5d3c6a0e0322ee8c568d7b807f62b0b2abe199bc4eca00dd5eb5bca0bd9d509b2b9ff1975b38092224850ee0 1472522 rust-rav1e_0.7.1.orig.tar.gz"
+    "d9c8a9e0843656d2bfb11ed8d8f5e400e72edb9c7fc35a6f160ca2e8221b34d0ee82277814f80eb61c4f5215d38cde64b4d509a57084bc2903e2d6bfa5f5caeb 18016 rust-rav1e_0.5.1-6.debian.tar.xz f178d17981246a4e217f0708b0316f08c13d808d3b614017917d3ac2337a791f9214800a9556768e38c90101d5a4b6a37304528f22eeba3fe73ffce350faccf9 3641 rust-rav1e_0.5.1-6.dsc 83a5117f82840575fe6d62b7d959cec94d0e86a9b6f89e400b261ac681f821b6be1a65689b75c12fd2f2e4f0f49daa05a1e0d020612ef790ba66722288115365 1125938 rust-rav1e_0.5.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-rav1e"
   ],
   "Files": [
-    "5e5517f24608aa6a51a4d35be509161c 18556 rust-rav1e_0.7.1-9.debian.tar.xz 9430452cba46ad9e9778e57b35ade9b3 3714 rust-rav1e_0.7.1-9.dsc f48a7946361f41a1c5e5ff26a6abcf3b 1472522 rust-rav1e_0.7.1.orig.tar.gz"
+    "e6ef8880f22c1f309b1fcbcd6b542f53 18016 rust-rav1e_0.5.1-6.debian.tar.xz 8fd923e9c1e3c7df36ce8740a1b85b25 3641 rust-rav1e_0.5.1-6.dsc 3a7cea887391d578d49303eb340a509b 1125938 rust-rav1e_0.5.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://github.com/xiph/rav1e/"
+    "https://github.com/xiph/rav1e"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,16 +36,16 @@
     "rust-rav1e"
   ],
   "Package-List": [
-    "librav1e-dev deb libdevel optional arch=any librav1e0.7 deb libs optional arch=any librust-rav1e-dev deb rust optional arch=any rav1e deb video optional arch=any"
+    "librav1e-dev deb libdevel optional arch=any librav1e0 deb libs optional arch=any librust-rav1e-dev deb rust optional arch=any rav1e deb video optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-assert-cmd-2+default-dev, librust-interpolate-name-0.2+default-dev, librust-nom-7+default-dev, librust-pretty-assertions-1+default-dev, librust-quickcheck-1+default-dev, librust-rand-0.8+default-dev, librust-rand-chacha-0.3+default-dev, librust-semver-1+default-dev, rustc"
+    "dh-cargo, librust-assert-cmd-2+default-dev, librust-interpolate-name-0.2+default-dev, librust-pretty-assertions-1+default-dev, librust-rand-0.8+default-dev, librust-rand-chacha-0.3+default-dev, librust-semver-1+default-dev"
   ],
   "Uploaders": [
     "Sebastian Ramacher \u003csramacher@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/rav1e]"
   ],
   "Version": [
-    "0.7.1-9"
+    "0.5.1-6"
   ]
 }

@@ -6,22 +6,22 @@
     "golang-go.opencensus-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-google-go-cmp-dev (\u003e= 0.5.3), golang-github-golang-groupcache-dev, golang-github-stretchr-testify-dev (\u003e= 1.8.1), golang-golang-x-net-dev, golang-google-grpc-dev (\u003e= 1.33.2), golang-github-golang-protobuf-1-5-dev"
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-google-go-cmp-dev (\u003e= 0.5.3), golang-github-golang-groupcache-dev, golang-github-stretchr-testify-dev (\u003e= 1.8.1), golang-golang-x-net-dev, golang-google-grpc-dev (\u003e= 1.33.2), golang-github-golang-protobuf-1-3-dev"
   ],
   "Checksums-Sha1": [
-    "6fbff69a7c9ba335a1305f61245849cdb60f25a8 4060 golang-go.opencensus_0.24.0-2.debian.tar.xz d14cb91d8d47caf1021a3c8c73e4c1ccbff7f349 2451 golang-go.opencensus_0.24.0-2.dsc 64f0dbcdbc7a92e20f24f3e8667fbfb35b770dd1 176752 golang-go.opencensus_0.24.0.orig.tar.gz"
+    "bec18e769be6accc20c58b7e6afb630b28aabaf0 4032 golang-go.opencensus_0.24.0-1.debian.tar.xz 902cbd20008871e6eda72ec5d2b2a8039dff0f86 2451 golang-go.opencensus_0.24.0-1.dsc 64f0dbcdbc7a92e20f24f3e8667fbfb35b770dd1 176752 golang-go.opencensus_0.24.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "5336dcf09ed74323922b18d58460175219b2ef6a1be568098943cb85d50fab1f 4060 golang-go.opencensus_0.24.0-2.debian.tar.xz 4e59fc092294b835fa53d380738b4f1888fae0482677c929e9c9c4660d2e98be 2451 golang-go.opencensus_0.24.0-2.dsc 048708914541817193330ce052026deb0c617c9d953ac15ae601ab2bde5788d1 176752 golang-go.opencensus_0.24.0.orig.tar.gz"
+    "7bbabd3648e51c39e206c08a769971b4fc2c3b96056045d34beada3be71c964d 4032 golang-go.opencensus_0.24.0-1.debian.tar.xz 9adda96257fd9b4a7cf8aec1dbc67873b04ffff6735ea242a584c16dadcc64ad 2451 golang-go.opencensus_0.24.0-1.dsc 048708914541817193330ce052026deb0c617c9d953ac15ae601ab2bde5788d1 176752 golang-go.opencensus_0.24.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "25830db9f057013c4cf33ce2b8b96162bd39bb3cc068f0a67ac123c5b58bbb22c3a494e701d8653b21cfbce88808652623e97cf82500be2d8d4067c8b3d0d75b 4060 golang-go.opencensus_0.24.0-2.debian.tar.xz a7ab276940016fd8a27ac3fb7a781ebd33cac19dfcf18b21dd7d0222c840967e0dcd39bcbc0ea147263a734a072524cbefdb9fb1038c428aecae81abc838f546 2451 golang-go.opencensus_0.24.0-2.dsc fefbfcb7162fd3626b976248000f4c8c4c555c2b6315867e15df764208795c9bbe030d8cec5eec4774743e36581adedf89927c69658bf698a904d52d71d7ae0a 176752 golang-go.opencensus_0.24.0.orig.tar.gz"
+    "1af5cf0705516853f0f2e890986825004cb66b12697cffd0506e99f9508cf39de2cdfa8e006cc37c1b6814763c0ed1ea705a20cfca4df910b40c3398d50d9f47 4032 golang-go.opencensus_0.24.0-1.debian.tar.xz ae32c62e30394a1e890bc6c8df839d66e847c2c7461b9f0db4e07e8f83744c83ac303eaed1b3799babe6701d018bf3ac47daf7995865175648e7211473fcca14 2451 golang-go.opencensus_0.24.0-1.dsc fefbfcb7162fd3626b976248000f4c8c4c555c2b6315867e15df764208795c9bbe030d8cec5eec4774743e36581adedf89927c69658bf698a904d52d71d7ae0a 176752 golang-go.opencensus_0.24.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-go.opencensus"
   ],
   "Files": [
-    "6773ea2e0d3c4ac4efffbceefcd2a315 4060 golang-go.opencensus_0.24.0-2.debian.tar.xz a19c501e86b885c2495125b13464ba4e 2451 golang-go.opencensus_0.24.0-2.dsc 3a4649cb9f910e5167d8b2bfa651567a 176752 golang-go.opencensus_0.24.0.orig.tar.gz"
+    "c0388ac69f8b6e30856845c9d0072b1d 4032 golang-go.opencensus_0.24.0-1.debian.tar.xz d9470c16708bf29bac5f46bc280726bf 2451 golang-go.opencensus_0.24.0-1.dsc 3a4649cb9f910e5167d8b2bfa651567a 176752 golang-go.opencensus_0.24.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "golang-go.opencensus-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-go.opencensus.git"
   ],
   "Version": [
-    "0.24.0-2"
+    "0.24.0-1"
   ]
 }

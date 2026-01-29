@@ -6,28 +6,28 @@
     "jq, libjq1, libjq-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), bison, flex, libonig-dev, libtool, python3-jinja2, python3-yaml, python3-markdown, python3-lxml, python3-jsonschema, valgrind [amd64]"
+    "debhelper-compat (= 13), bison, flex, libonig-dev, libtool, rake, ruby-ronn:native, valgrind [amd64 i386]"
   ],
   "Checksums-Sha1": [
-    "9cf2963bac773955c1161915a705a439d96d69c5 16436 jq_1.7.1-6+deb13u1.debian.tar.xz b9132b8b4b8fc6e4998ab1982ed3a1cdf5799fc8 2032 jq_1.7.1-6+deb13u1.dsc b84066c8abfda37b1eff2d4f9bc2187951e281e2 1323338 jq_1.7.1.orig.tar.gz"
+    "2aa534083d27a7191be8dc3120e7ec40ad97f83c 14344 jq_1.6-2.1+deb12u1.debian.tar.xz f83130a2749fe3a92516ecf34dd1feeebde17a00 1973 jq_1.6-2.1+deb12u1.dsc 2fdbf962ec939eafb2c37427adcd7fab94293cd4 419859 jq_1.6.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "9d2a2534be2dee0484f6d384b6680630b556985c58a0e5b794ac0b3d240e4512 16436 jq_1.7.1-6+deb13u1.debian.tar.xz cce780e46a9af23bb424643411db0a5ebb1c3038095e2f6e3a418fe6628afa63 2032 jq_1.7.1-6+deb13u1.dsc fc75b1824aba7a954ef0886371d951c3bf4b6e0a921d1aefc553f309702d6ed1 1323338 jq_1.7.1.orig.tar.gz"
+    "62a4adfa825addc21258cefc89413ec0d8734fb4da0f1721626dd3df74f05ddf 14344 jq_1.6-2.1+deb12u1.debian.tar.xz 9ffdf70a4593f367f89b7896e7263997563c595ce2b9d203692b3d0d83492d71 1973 jq_1.6-2.1+deb12u1.dsc 3ba940b97571c866923f0409678033d33b5a98758dfc174fad8397ed908bc4d9 419859 jq_1.6.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "63a6b7b0e0a7ee7556fd6233eb3a40f6595b349362a3348f1b2df6109f9a1f6a58794fee59b9bc9aff294da51bd2b627f6ed9d3e6588710d9a6be70b773d7900 16436 jq_1.7.1-6+deb13u1.debian.tar.xz 28cc34d90a34c07d2780a8eb647d5021ddcbc7845711be35f75a811b513df03bc90394008fc3b5583ad95be62c4caf511031f472518e9e9e913417364373224e 2032 jq_1.7.1-6+deb13u1.dsc af9c444e5306423182f467a53acdf45bb8aefa058a47f490ce16395f0aebfb7627e3843f65e96f41cd9d4b72b8ad274ab0bdb061abc6990b1158f86d2256d4ec 1323338 jq_1.7.1.orig.tar.gz"
+    "6616b0c7dd5a6fe18a08f6a87ea2c450e24c3f9cc9e9151c629c39899d1d828fe1a2adcbe754a03b86da939c14778ff02192b383a591a72713cf8409ea913fdc 14344 jq_1.6-2.1+deb12u1.debian.tar.xz db886bd5eb05108fa73f574761f685edcfb19f58316e29871c725e44d0ae1409a9d8c31157e069ce51aea30bd94313c7a8096c18c8abc9cee31a649b4c9c55de 1973 jq_1.6-2.1+deb12u1.dsc 1a67af3ca16b7b4bf125868cea2185f7e98576d195f30d3e202a3f8a788ac98aa90db6685d36e9261eb85809e48b1ffc85ad30f6ebe0a76b9257fc3f92834dd0 419859 jq_1.6.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/j/jq"
   ],
   "Files": [
-    "4ad07f576e224968270c22d9ca18dd7b 16436 jq_1.7.1-6+deb13u1.debian.tar.xz 8f9976d8df89375d7228c44ea21dd6d7 2032 jq_1.7.1-6+deb13u1.dsc 6298967cd176a8e9f3e83b98f42295b6 1323338 jq_1.7.1.orig.tar.gz"
+    "8f9f10a64b5ba43c572c33a08b9a5a4c 14344 jq_1.6-2.1+deb12u1.debian.tar.xz 66c1bab1ffaa676e0ecc271b92f2d72b 1973 jq_1.6-2.1+deb12u1.dsc 430dd5b73f36db64fd7c128a0313e98e 419859 jq_1.6.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://jqlang.github.io/jq"
+    "https://github.com/stedolan/jq"
   ],
   "Maintainer": [
     "ChangZhuo Chen (陳昌倬) \u003cczchen@debian.org\u003e"
@@ -39,7 +39,7 @@
     "jq deb utils optional arch=any libjq-dev deb libdevel optional arch=any libjq1 deb utils optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.5.0"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/jq"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/jq.git"
   ],
   "Version": [
-    "1.7.1-6+deb13u1"
+    "1.6-2.1+deb12u1"
   ]
 }

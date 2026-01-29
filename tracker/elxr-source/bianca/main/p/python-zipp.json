@@ -6,25 +6,22 @@
     "python3-zipp"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-jaraco.functools, python3-jaraco.itertools, python3-more-itertools, python3-pytest, python3-setuptools, python3-setuptools-scm"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-more-itertools, python3-setuptools, python3-setuptools-scm"
   ],
   "Checksums-Sha1": [
-    "ee7778b7e52e5dc6ab549de4712cbb805dd7ee8e 3672 python-zipp_3.21.0-1.debian.tar.xz ec5473ee2b99c67391c35ef557f8ec8c666a42b0 2292 python-zipp_3.21.0-1.dsc 12edcc7d392db95684d4c447511198c0924866e9 24545 python-zipp_3.21.0.orig.tar.gz"
+    "85a887d1983df94ae82a6b1b62d08c8d6d994236 4092 python-zipp_1.0.0-6+deb12u1.debian.tar.xz 9101f06336dea78c30c540123e57736bc2516e07 2138 python-zipp_1.0.0-6+deb12u1.dsc 637bb8e7018a13d45ebdadb4cbb109ce3bee2c5d 10821 python-zipp_1.0.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "dcfa46b60a13918c014e57a2a9c55d8df969df3ee567ddab3c00a7b695f080a4 3672 python-zipp_3.21.0-1.debian.tar.xz be0a1f257273df51b3c6d46506819f107faff4ecd79ca00bab0de1605dc94743 2292 python-zipp_3.21.0-1.dsc 2c9958f6430a2040341a52eb608ed6dd93ef4392e02ffe219417c1b28b5dd1f4 24545 python-zipp_3.21.0.orig.tar.gz"
+    "073a3ab947491ca8aafad53c599443c32eee81e25019151b0f518c9acef05d0c 4092 python-zipp_1.0.0-6+deb12u1.debian.tar.xz 35d64b6d5679b054f6e99806ac76c4f038396a6d7de8b2a0a24385caa6c840b7 2138 python-zipp_1.0.0-6+deb12u1.dsc d38fbe01bbf7a3593a32bc35a9c4453c32bc42b98c377f9bff7e9f8da157786c 10821 python-zipp_1.0.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "47c8bd0ff16982e8a30a55badf5b068a64e8e95a5f06ba7822ea66ac6b8b79e6a2398b8b1ddda0f643ce202b38f9b03a48eef27c0cf1186dd791b46ede33e987 3672 python-zipp_3.21.0-1.debian.tar.xz 3f12844db40dd672f376083b4746b6620ed4b1dfddd0589c09863cc15adde3b195dae8d804f5fb109006c052a69e6db76170476c9c0ef62a0e1a46fd4174bfa8 2292 python-zipp_3.21.0-1.dsc f57489283d979dbeb3234f66f5b6b298876209ba79cf0d7a2562f0ce4747a87fd1494d26a35734c6729620d1edfa3bf8f56769de2ae9576ac9cff074caa39331 24545 python-zipp_3.21.0.orig.tar.gz"
-  ],
-  "Dgit": [
-    "e6b9a980ebaebf325f161baac3d3389c57278790 debian archive/debian/3.21.0-1 https://git.dgit.debian.org/python-zipp"
+    "78199bb3f0a300696ba7f5f49f4066ad84cd7946e7ffe711224533f9f3082fdb6ae65885da8a3bda8cb653963b1aeb0f3f50575cf8419c38b602cc31d07a019b 4092 python-zipp_1.0.0-6+deb12u1.debian.tar.xz 48d22128360b060ca16f4980a217399d43422e201d17e03a8f57acc7a56f03f5d045e67e3b3de8b108f98a7183c6663acc0c44d07112beb82bc09e1bb3ca182c 2138 python-zipp_1.0.0-6+deb12u1.dsc dbfadfedd30ca4cb31ac4163f367134d96e57405ef00d5f4c19c0af7a141f78487dec29a0ba94975584fcb462d22c8b536bf29c67b7e298368072e897b0e9d82 10821 python-zipp_1.0.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-zipp"
   ],
   "Files": [
-    "0ccb080f970274de9995caf6746d5835 3672 python-zipp_3.21.0-1.debian.tar.xz c26cfdbe7ee08e42fd90ee0b18265d39 2292 python-zipp_3.21.0-1.dsc a758089a5cbb8fab61d73c8ff345eee2 24545 python-zipp_3.21.0.orig.tar.gz"
+    "b65f04190ba7207a211fbf0626a481de 4092 python-zipp_1.0.0-6+deb12u1.debian.tar.xz 2ef92490e955d65c02385aa34463905f 2138 python-zipp_1.0.0-6+deb12u1.dsc 49b29a0469c1af728fdf681187fb3a5e 10821 python-zipp_1.0.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +39,13 @@
     "python3-zipp deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
-    "Martin \u003cdebacle@debian.org\u003e"
+    "Ondřej Nový \u003conovy@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-zipp"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/python-zipp.git"
   ],
   "Version": [
-    "3.21.0-1"
+    "1.0.0-6+deb12u1"
   ]
 }

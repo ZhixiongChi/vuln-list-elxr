@@ -6,25 +6,25 @@
     "libclone-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libb-cow-perl \u003c!nocheck\u003e, libtaint-runtime-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native"
+    "debhelper-compat (= 13), libb-cow-perl (\u003e= 0.004) \u003c!nocheck\u003e, libtaint-runtime-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native"
   ],
   "Checksums-Sha1": [
-    "392216eb17777e7219236315719ebcda74c96b4c 4184 libclone-perl_0.47-1.debian.tar.xz 82f5bb73355633a74b30216fb7f5bba3dfb42f7b 2425 libclone-perl_0.47-1.dsc b77182eecbb82c3824eb86318bb8007d63b09536 139080 libclone-perl_0.47.orig.tar.gz"
+    "d501cdf413ecfb05718fa592fb513bd90b8e9f23 4136 libclone-perl_0.46-1.debian.tar.xz 68b50ca104d84aa0576b5073c14db70337fec434 2436 libclone-perl_0.46-1.dsc b9a609f7052a5d4f882ad32fe0232b08085f9c12 138722 libclone-perl_0.46.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "6e37a40b7581eeca636e1fa2c080d1f8646d046a011131f39e63b658d1db48b7 4184 libclone-perl_0.47-1.debian.tar.xz 34c7c525fdb9fa45ed9d8bbec028c38acfc103584cb809359912309f5478c489 2425 libclone-perl_0.47-1.dsc 4c2c0cb9a483efbf970cb1a75b2ca75b0e18cb84bcb5c09624f86e26b09c211d 139080 libclone-perl_0.47.orig.tar.gz"
+    "b0cf1dabe8e47f153449b6b19b06b6ed26506faa3750471a846d4e1dfafa434c 4136 libclone-perl_0.46-1.debian.tar.xz 7ba8175f0f750bdb0642e342fe93345927ad9038b0acdda5b939f5bb2ce5edcf 2436 libclone-perl_0.46-1.dsc aadeed5e4c8bd6bbdf68c0dd0066cb513e16ab9e5b4382dc4a0aafd55890697b 138722 libclone-perl_0.46.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "5f4b1f14ac7c0a2962f8fb0ce73198137fac99e768c0c81dd3f3f6ab98ff9d4c32ae5f88e4fa4cfe3689874f3fff8d3b07655f07a9fbfa5e85fb93aea25bc75a 4184 libclone-perl_0.47-1.debian.tar.xz f7d7a5ae51b2e78c627e0a620cb7247772f81b2bdcb014126e79cd58771e71fa197b3d322cef8d1fcecce562433fbd78d0dd48cf58ef392bd0d8abee9129a84a 2425 libclone-perl_0.47-1.dsc dc5ebde05ecafbd3089cdb978083584ad77e1e4dce2e95e466b1cc8357092422a36489d2e9cda99c8009a8d7a0bd18466e3c21b580b95c29fb9ad843911bb9fe 139080 libclone-perl_0.47.orig.tar.gz"
+    "cd4ae2328068443713fc5241b369920cf911debdf52943f1ae12fe6913ce17eb5f642aa7de35acd6c696028d81c5d053d6ed8378ee363ef6ccdbb92599989dbb 4136 libclone-perl_0.46-1.debian.tar.xz 5a859bf602882456a58048d5ed7d14af9311529c6886675c37a435237319145a5608a654519dba853e6c90b62aec5c0a2069ecef47a94bb090dc1825b763629d 2436 libclone-perl_0.46-1.dsc f8bb1010364e94c7cc8bba25681cd9fd737ec2935a8be960ac53099359729fc679190a115dd082fccd239b35762dee2b3be3adbddce37e4ceae6fe934fbad545 138722 libclone-perl_0.46.orig.tar.gz"
   ],
   "Dgit": [
-    "c6ad24277b802e9c1f7e679cf4e7200a095ff2e6 debian archive/debian/0.47-1 https://git.dgit.debian.org/libclone-perl"
+    "a1aa5d13ae0c6eb92fafc162c25564351437f251 debian archive/debian/0.46-1 https://git.dgit.debian.org/libclone-perl"
   ],
   "Directory": [
     "pool/main/libc/libclone-perl"
   ],
   "Files": [
-    "6c1024c005521a127428e192b2980d86 4184 libclone-perl_0.47-1.debian.tar.xz 3e8a6cbcc711afcc243ab6641eab16df 2425 libclone-perl_0.47-1.dsc 62ff032a4df0c4abb74f76adf519361e 139080 libclone-perl_0.47.orig.tar.gz"
+    "a48e62b62dd7238cbdc20e6142f2131e 4136 libclone-perl_0.46-1.debian.tar.xz b4f1f32199ce18cf452f645ff82094d0 2436 libclone-perl_0.46-1.dsc cafa8984a2c2e005e54b27dd1e3f0afe 138722 libclone-perl_0.46.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "libclone-perl deb perl optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libclone-perl.git"
   ],
   "Version": [
-    "0.47-1"
+    "0.46-1"
   ]
 }

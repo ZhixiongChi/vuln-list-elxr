@@ -6,22 +6,22 @@
     "python3-gtkspellcheck, python-gtkspellcheck-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3, python3-sphinx, python3-enchant, python3-gi, gir1.2-gtk-3.0, python3-poetry-core, python3-sphinx-rtd-theme, python3-myst-parser, libxapp-gtk3-module \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-python, python3, python3-sphinx, python3-enchant, python3-gi, gir1.2-gtk-3.0"
   ],
   "Checksums-Sha1": [
-    "64ba40102d15c9c88df7bf0593d94cdeec201398 4288 pygtkspellcheck_5.0.3-1.debian.tar.xz d714290f2c7b0462637e6dfe0d4573c8939409f0 2367 pygtkspellcheck_5.0.3-1.dsc f4d17d2d2431a93f5ea917778b1bcc7f93992823 112808 pygtkspellcheck_5.0.3.orig.tar.xz"
+    "1129a0ca3f40337ea4c3e7c7f523a0850924a611 3620 pygtkspellcheck_4.0.5-3.debian.tar.xz 96f34c23c7e831110e91bb9f26341100c29d8fed 2172 pygtkspellcheck_4.0.5-3.dsc e7f1a5f7fc0e30366fb3faad003482df10b129dd 167181 pygtkspellcheck_4.0.5.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "49d9077151f35ab47d5f3706ef7581f365efeeaa826e32ceb2e452060e8e235b 4288 pygtkspellcheck_5.0.3-1.debian.tar.xz 92d3605702e7d07afdfa7666ad7e4c6c8ab149e6e7f09a5b098ead2831aea691 2367 pygtkspellcheck_5.0.3-1.dsc 5dbc9104f975caefb1a21f540d14cdb65ce23dff5c5ff6dc588466927ec4ac32 112808 pygtkspellcheck_5.0.3.orig.tar.xz"
+    "088d96ddff11ecf0c5ac2584383860eb00e4ab3c6ff3a72b84e2324134c3342e 3620 pygtkspellcheck_4.0.5-3.debian.tar.xz 505fbac12d069c4431bd77050992d1117b1c50e90d949a38428223008d1c3550 2172 pygtkspellcheck_4.0.5-3.dsc af90465c11cd0362a802d19d60166d5e22ab58c0e610e731d29f6ffcf97c372b 167181 pygtkspellcheck_4.0.5.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "3605c53f5d861b6ea5119eee6dfeea4cb87288ed395dabe6653e95098afc0747980a9c87b69c9bcbb496865824b2bf616e691058d829be713aa8374bb90a2ed0 4288 pygtkspellcheck_5.0.3-1.debian.tar.xz 1e9d987ac875dc6d8c51feeebe0fa2f7e83c07bce971bee3ab552c6c3600a0864b61398f6411e6ef9b95bc3083e939768bc7afb1f345ff6c0d6f16ba21d77b39 2367 pygtkspellcheck_5.0.3-1.dsc 3d194f75172e370dda865c3f55cac8612f34abf0dd2d352adcb89b84e2c999e965494bebe557ce6605b550d1172d78a498b2336cb764cf23017980017eb7bbc4 112808 pygtkspellcheck_5.0.3.orig.tar.xz"
+    "56cf1b4981a7d90197cb57cf70e16427c9b32f9d18401aa8249aa47e39444bbbabecd43127c9a65f93e0f425aacb54fd27aac6f8e3ecbf44120a1ff60c8ceeb8 3620 pygtkspellcheck_4.0.5-3.debian.tar.xz 5b1a3199ef54f5c7a479cc7b96954bec1b774207f7dee28a81078aae8f9118adc8d70e38129aaa79775e57d5ac3bf6b982a3e77c1da0aa4a2882b1901d7cbaec 2172 pygtkspellcheck_4.0.5-3.dsc 8f6fbe1df5a93132fdb79d6a245d977be49d1212326c78cd77a436150b5f4c15b6495263d3886e80d72b56c030c136d775dc1fff400864b0e65fd83252af872d 167181 pygtkspellcheck_4.0.5.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/pygtkspellcheck"
   ],
   "Files": [
-    "be8d57c37268e2b25cd7a015b16da4b5 4288 pygtkspellcheck_5.0.3-1.debian.tar.xz 245c6c5ac0dee8531906aa4f68ba83f2 2367 pygtkspellcheck_5.0.3-1.dsc 5557a40e7ffc235a5d582cd4698dc5da 112808 pygtkspellcheck_5.0.3.orig.tar.xz"
+    "09d2a66b55f03e99bdd9cc7af59c6a86 3620 pygtkspellcheck_4.0.5-3.debian.tar.xz cce99ae0abcb80e3a4485a4d9ab8481b 2172 pygtkspellcheck_4.0.5-3.dsc c04e968cbc49fd1c44d4f0acd25a52b7 167181 pygtkspellcheck_4.0.5.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,7 @@
     "python-gtkspellcheck-doc deb doc optional arch=all python3-gtkspellcheck deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest-pkg-python"
+    "3.9.8"
   ],
   "Uploaders": [
     "Raphaël Hertzog \u003chertzog@debian.org\u003e"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/python-team/packages/pygtkspellcheck.git"
   ],
   "Version": [
-    "5.0.3-1"
+    "4.0.5-3"
   ]
 }

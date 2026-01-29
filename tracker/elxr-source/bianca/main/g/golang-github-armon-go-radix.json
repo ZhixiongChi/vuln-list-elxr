@@ -6,22 +6,22 @@
     "golang-github-armon-go-radix-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any"
+    "debhelper-compat (= 12), dh-golang, golang-any"
   ],
   "Checksums-Sha1": [
-    "6841138ae464db0058b3e2ce7f7040bb6f0bbda6 3088 golang-github-armon-go-radix_1.0.0+git20221118.54df44f-1.debian.tar.xz 9548727becc0d96ca13962f7d443824f137ff11b 2426 golang-github-armon-go-radix_1.0.0+git20221118.54df44f-1.dsc 14e24d700ff672e9ee8ea3c0a67c5836b456000f 6224 golang-github-armon-go-radix_1.0.0+git20221118.54df44f.orig.tar.xz"
+    "4bde4b1d99fa31f631a52ecfd58fa49c81508e03 2756 golang-github-armon-go-radix_1.0.0-2.debian.tar.xz 4fcfae85951bca70e57077085c8ffd546787cd57 2220 golang-github-armon-go-radix_1.0.0-2.dsc f3abf56bc84c2c1872a914d86488e45a0a2a0cab 5992 golang-github-armon-go-radix_1.0.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "54a6f746012b9dc7f9bbd2e156958dfd12dd9c63ae66881207a9d207cc945cbd 3088 golang-github-armon-go-radix_1.0.0+git20221118.54df44f-1.debian.tar.xz cd2ef65a91f5d4c8f22c010fae9da103e1d1408bb2b68bd73425fc8bf152e47f 2426 golang-github-armon-go-radix_1.0.0+git20221118.54df44f-1.dsc 73157a9952dda9fc3a66675d9c333c1fba663123c2278f0da160a0a1a50e9544 6224 golang-github-armon-go-radix_1.0.0+git20221118.54df44f.orig.tar.xz"
+    "f4aadc0c4db009d216fc9b7b5101ef8eb7627602fd49fb1a40534febe301df49 2756 golang-github-armon-go-radix_1.0.0-2.debian.tar.xz 8d083f663f6f177fe01df42631b0ba15866be00a81ba32e68864e55f31e734ef 2220 golang-github-armon-go-radix_1.0.0-2.dsc 5f46692d06e8ae03ab37da3183435b69c18e69bd46aaca34945ffbbbae8dbde5 5992 golang-github-armon-go-radix_1.0.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "79f6a22523ba3a6acbe2895eb0ebeb6e40b2fdeab8186bcb8dfb091bdc4a32f4a57d7e3a5aa4aa1661c90cc5ee0d05d2a908fa165b204f3556eabd89ea87bf79 3088 golang-github-armon-go-radix_1.0.0+git20221118.54df44f-1.debian.tar.xz 338cfa2d38bb21c97b2b437a2beeb7c35e21f39d1392047b8ae717b9a522c9d70e9d20617c626a9526a35e91a36e45f3d1a68a67b8c5b251ccc938bcbf0dfe9e 2426 golang-github-armon-go-radix_1.0.0+git20221118.54df44f-1.dsc 77d4d0b0409aad398038413c2e42a444ce69eae891eae5003920922cae46c4f9d5e123b37be3992081691cccf5353f9ab66d963acb3ce35e059d2e280f71357c 6224 golang-github-armon-go-radix_1.0.0+git20221118.54df44f.orig.tar.xz"
+    "437da1349d89eed6592fb5a6f6c5548609b5cfa01259b4c6e96bdcf2526402382862eaf131a24a9cd61e63d417f82e34ffc0c16eeba63657adbac6f8b2c48bcc 2756 golang-github-armon-go-radix_1.0.0-2.debian.tar.xz 9d11ee28606c137db0b5550a9b85d3bca490b7d5d47f7a44f81c749bc6fc1d78beef33c5c7cb2a8fa222786fa03509699f0afa90c60a929e614777304cea72d2 2220 golang-github-armon-go-radix_1.0.0-2.dsc 3f257ea2177676c1f171e846887c7b711381d837c4d469fa7c74f024dfcde4b51f8a915971981ca70aa0df716fd40fd81d7231eb27c18101dec085fcd1c32bad 5992 golang-github-armon-go-radix_1.0.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-armon-go-radix"
   ],
   "Files": [
-    "e615585eb9da3115aab017f17b712ca7 3088 golang-github-armon-go-radix_1.0.0+git20221118.54df44f-1.debian.tar.xz 31d1d9d065ef5da5758c7e28da3b2d42 2426 golang-github-armon-go-radix_1.0.0+git20221118.54df44f-1.dsc a22d7cfba73462a14c55da00631fa163 6224 golang-github-armon-go-radix_1.0.0+git20221118.54df44f.orig.tar.xz"
+    "deaae276f38a974b5ce1c6b0d39eda74 2756 golang-github-armon-go-radix_1.0.0-2.debian.tar.xz 36758949260b3894f761d84d9ae44ca3 2220 golang-github-armon-go-radix_1.0.0-2.dsc 23bef4f31e92bbc1ed553b32f2d0c256 5992 golang-github-armon-go-radix_1.0.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,16 +39,16 @@
     "golang-github-armon-go-radix"
   ],
   "Package-List": [
-    "golang-github-armon-go-radix-dev deb golang optional arch=all"
+    "golang-github-armon-go-radix-dev deb devel optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.2.1"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
   ],
   "Uploaders": [
-    "Tim Potter \u003ctpot@hpe.com\u003e, Anthony Fok \u003cfoka@debian.org\u003e,"
+    "Tim Potter \u003ctpot@hpe.com\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/go-team/packages/golang-github-armon-go-radix"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-armon-go-radix.git"
   ],
   "Version": [
-    "1.0.0+git20221118.54df44f-1"
+    "1.0.0-2"
   ]
 }

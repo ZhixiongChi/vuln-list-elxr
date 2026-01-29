@@ -6,25 +6,22 @@
     "python3-importlib-metadata"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-packaging, python3-pyfakefs, python3-setuptools, python3-setuptools-scm, python3-toml, python3-zipp (\u003e= 0.5)"
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-packaging, python3-pyfakefs, python3-setuptools, python3-setuptools-scm, python3-toml, python3-zipp (\u003e= 0.5)"
   ],
   "Checksums-Sha1": [
-    "6b043db56c066aa2855e3beb74f54194ec7bb25a 4076 python-importlib-metadata_8.7.0-1.debian.tar.xz 33b1c0c615be302f4e760334fae7810c0cede559 2697 python-importlib-metadata_8.7.0-1.dsc 6be7b3d3f4605d38ca75eedaa97e295a0136e2a5 56641 python-importlib-metadata_8.7.0.orig.tar.gz"
+    "14d19b19b7f3b4d9e8041065c5440a6f814896e5 3080 python-importlib-metadata_4.12.0-1.debian.tar.xz 6a4073ba263ceb55d479c2f5036b08b1add3572c 2416 python-importlib-metadata_4.12.0-1.dsc ec68de1ec1800048de8656b9d211e22b7fe7c53e 48153 python-importlib-metadata_4.12.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "bb459339e5dd7f57210a29c0ce28d15d667dcb1bafebb8a10ea5e73044aceee3 4076 python-importlib-metadata_8.7.0-1.debian.tar.xz 4e550bcf68b18737dcf1bec06250ad6a7d85236adaf3f77dc1f8957e1f6485e4 2697 python-importlib-metadata_8.7.0-1.dsc d13b81ad223b890aa16c5471f2ac3056cf76c5f10f82d6f9292f0b415f389000 56641 python-importlib-metadata_8.7.0.orig.tar.gz"
+    "e8f0c5225f6b9824c22e0d594e5b88c8fcc52cdad54f791cde81272dd6ff7988 3080 python-importlib-metadata_4.12.0-1.debian.tar.xz 47a3da3a8eaa9c91c888b13d33463dd42d05540ca01259e772c71733250d7836 2416 python-importlib-metadata_4.12.0-1.dsc 637245b8bab2b6502fcbc752cc4b7a6f6243bb02b31c5c26156ad103d3d45670 48153 python-importlib-metadata_4.12.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f3c64e55a20f787800cdf50bb4a144361109fd8b2821a56c1b30e3fd6a5c33557fecbc5ceedfb385375a7bd5db785b5c3a6ebeaf2aac2671ec024c3ad44f756b 4076 python-importlib-metadata_8.7.0-1.debian.tar.xz 61a5eb34f27769e79519fee11054e97ee26f7b376c5bb4e14055d9d8bb2e916464a09fb2fed02413c5d08a6530d04d8e8391e9590b7562f188149f9e0db1b33f 2697 python-importlib-metadata_8.7.0-1.dsc f23579486a4529135b063605728e232ba798cdda0886562e14c20ca1d4cbff65ae464543c2a2adc37bd41b9e5c5519b1700b936c6fdcaab96b317c80c484c611 56641 python-importlib-metadata_8.7.0.orig.tar.gz"
-  ],
-  "Description": [
-    "library to access the metadata for a Python package Provides an API for accessing an installed package’s metadata, such as its entry points or its top-level name. This functionality intends to replace most uses of pkg_resources entry point API and metadata API."
+    "a2d87c1e950bde8f8e5da829938a78e694e12cea730712e9355ad6f0ca1f854760e67f9c6ea122db50b82bc0e6548eea1cdac7244033f1274e86ed4486a304ba 3080 python-importlib-metadata_4.12.0-1.debian.tar.xz 20d40504230bd82d74b23b67e236177a8f4346a49f909be769da9c2fc6d4ccf77ab78d45e507d149ee5bc340e6c15bddcbe6cf06e4bfaaf9b4229a74f1a19501 2416 python-importlib-metadata_4.12.0-1.dsc a7e3b8876665880a42bab885014199eed90efafcb386b89fddf62f3a6dbf51b192a0b9d208a40fd1f8b6db9d1bf80cf6d6753c1073196daa54dffa22a627443f 48153 python-importlib-metadata_4.12.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-importlib-metadata"
   ],
   "Files": [
-    "fe08f41ac7434566a4d7f849fbb3290d 4076 python-importlib-metadata_8.7.0-1.debian.tar.xz 822d26e56568c63837853d8b64cfb7cf 2697 python-importlib-metadata_8.7.0-1.dsc 4be81d3e32fd72eac56559be49ccb920 56641 python-importlib-metadata_8.7.0.orig.tar.gz"
+    "520dd7e22845ad951f9c1502250d6536 3080 python-importlib-metadata_4.12.0-1.debian.tar.xz 3e7fe936c71b59d5e1b13d872d9ad64c 2416 python-importlib-metadata_4.12.0-1.dsc cfcf29185e13439c76d09c94bc8d81f4 48153 python-importlib-metadata_4.12.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +39,7 @@
     "python3-importlib-metadata deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
@@ -51,7 +48,7 @@
     "python3-all, python3-packaging, python3-pyfakefs, python3-toml"
   ],
   "Uploaders": [
-    "Boyuan Yang \u003cbyang@debian.org\u003e,"
+    "Ondřej Nový \u003conovy@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-importlib-metadata"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-importlib-metadata.git"
   ],
   "Version": [
-    "8.7.0-1"
+    "4.12.0-1"
   ]
 }

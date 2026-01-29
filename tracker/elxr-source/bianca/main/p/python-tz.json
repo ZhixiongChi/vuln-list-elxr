@@ -3,25 +3,25 @@
     "all"
   ],
   "Binary": [
-    "python3-pytz, python3-tz"
+    "python3-tz"
   ],
   "Build-Depends": [
     "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-pytest, python3-setuptools, tzdata"
   ],
   "Checksums-Sha1": [
-    "cba0dbe806a99fabab029f7144bd44acdebbd76c 12424 python-tz_2025.2-3.debian.tar.xz 5542e3107e4bb8f00c8b7bd743fde633c31f3dc5 2256 python-tz_2025.2-3.dsc 5fa1205d64a49186af33e9bb4f34ddb20b30bb6a 521812 python-tz_2025.2.orig.tar.xz"
+    "9c2c00bf226b25312a0404f6599977a1eac314a1 12924 python-tz_2022.7.1-4.debian.tar.xz 8352ba8b3fe811afd8ab2061b18a012ea55bbe02 2238 python-tz_2022.7.1-4.dsc 969f8d38811cb9ccc283c2c3ff41701d3a8cbea2 133560 python-tz_2022.7.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "8dfb62ab7a2686da8e05c320595c484f4fd858697524edbd01f7e6d76788617c 12424 python-tz_2025.2-3.debian.tar.xz 9a74430d32ddea9b8f8612dc70cd112254391417207a3507e86b275756aed25d 2256 python-tz_2025.2-3.dsc e5c7c4a3d06c6ba3cbde0f7a105d2316e60fb0ad9ea6ef1603a8bf659c21c2cf 521812 python-tz_2025.2.orig.tar.xz"
+    "5be385becc509dcf79b270e06c8853a49e46d305a4489e757f3d8015e33384a8 12924 python-tz_2022.7.1-4.debian.tar.xz 79c76f5016f88eca0d47b734956730a613d54ddd838c1bf418b0c2c21047dd8b 2238 python-tz_2022.7.1-4.dsc 9b46b0710d65337d2435890ee2f9616899f77c6f42b4db2d43ffcd481374a222 133560 python-tz_2022.7.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "6311fa3ac7b0a419a39caa45be7c6d61005fe4db72a668d70e348b4ecd3465a66876df29877fdc04ccdb1c58a39314bcc12e9bead8c141cced1cf76b29239fc2 12424 python-tz_2025.2-3.debian.tar.xz 4384aaa55f90a5054e3956ac8c77e77cb70e0b5bdbbeb9afcb84e9846e03ce2e383a52505dd159d4f344a570ef2c17f6d73c8f3825cb22be35bf3302b7c574ae 2256 python-tz_2025.2-3.dsc efe108c731e8e02d6fb3671ef7ef8436d8f212f6c00d0399465d5322822da51b5215a927530212229c6b99aa4e7185b708828cc6424063b377920ec28e4a33d4 521812 python-tz_2025.2.orig.tar.xz"
+    "60f74e9cb04a118e9b52f2ac5d8b5e03d38a9ad1555a00bcba6e4c6b8d79b699d8b98efe8c65da0fc1230bf33cf75a702b71b0b51f527dad3a0bd93e1cf50e06 12924 python-tz_2022.7.1-4.debian.tar.xz 5f4ffa01b38479e4dfdc32426cfce879aa10f4541e11b27662276e5457f3aecfdc309f95854b32979d5e90ab227d3438c6f659180a9913e3e4136d92b9a3ea50 2238 python-tz_2022.7.1-4.dsc c7483ac55dcce740d79e730f849dc78f49b2669109b1420f3184c96d7b9fdce31ae58b51e86c36741a2125c23c32c5c8f5e662f7d0228e8de973a543cbc69623 133560 python-tz_2022.7.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-tz"
   ],
   "Files": [
-    "ee7bdcb3778aa664e34ccd20a8dd57c9 12424 python-tz_2025.2-3.debian.tar.xz db9704c160da14deacb90a2cea05e275 2256 python-tz_2025.2-3.dsc 228a61ec470ba56de316bfe5af447cd1 521812 python-tz_2025.2.orig.tar.xz"
+    "5c0e8b02dcf3a3818c6010a266d84d41 12924 python-tz_2022.7.1-4.debian.tar.xz 5bef45bb209f3f9d1566951ef0357659 2238 python-tz_2022.7.1-4.dsc d3b6d7480133abc0a652f0a87fd9d84c 133560 python-tz_2022.7.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,25 +30,25 @@
     "https://pythonhosted.org/pytz/"
   ],
   "Maintainer": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+    "Debian  Python Team \u003cteam+python@tracker.debian.org\u003e"
   ],
   "Package": [
     "python-tz"
   ],
   "Package-List": [
-    "python3-pytz deb python optional arch=all python3-tz deb oldlibs optional arch=all"
+    "python3-tz deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "python3, tzdata-legacy"
+    "python3"
   ],
   "Uploaders": [
-    "Alastair McKinstry \u003cmckinstry@debian.org\u003e, Debian/Ubuntu Zope Team \u003cpkg-zope-developers@lists.alioth.debian.org\u003e"
+    "Alastair McKinstry \u003cmckinstry@debian.org\u003e, Debian/Ubuntu Zope Team \u003cpkg-zope-developers@lists.alioth.debian.org\u003e, Fabio Tranchitella \u003ckobold@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-tz"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-tz.git -b debian/latest"
   ],
   "Version": [
-    "2025.2-3"
+    "2022.7.1-4"
   ]
 }

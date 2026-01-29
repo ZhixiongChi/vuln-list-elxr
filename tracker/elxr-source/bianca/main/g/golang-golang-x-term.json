@@ -6,22 +6,22 @@
     "golang-golang-x-term-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.18~), golang-golang-x-sys-dev (\u003e= 0.22.0)"
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-golang-x-sys-dev (\u003e= 0.0~git20210615.665e8c7)"
   ],
   "Checksums-Sha1": [
-    "f9ad66354cb99ef40801014b5e6b5364317c91a3 2896 golang-golang-x-term_0.22.0-1.debian.tar.xz bebd9058e1ab714cacaa99d3f82d87425dab4e3b 2257 golang-golang-x-term_0.22.0-1.dsc e2bba1e8c79b88c85a6e8657951078f3e6c4458a 13740 golang-golang-x-term_0.22.0.orig.tar.xz"
+    "3a1e42ab548cb0cc34300af998c85e576afbc935 2616 golang-golang-x-term_0.3.0-1.debian.tar.xz 527e1f37cb2ddebd475bea67a195c5638a6d5e91 1648 golang-golang-x-term_0.3.0-1.dsc 6511b444677be5fce98fab9abd77115e5cd909ff 13800 golang-golang-x-term_0.3.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "27239da99233f82f1685ae619fbf540dbaed20e7e74e400876470c44a04a832d 2896 golang-golang-x-term_0.22.0-1.debian.tar.xz 0a3df0ee53b2ad45b8d0fe39e0727ce7478cf1f705f172e2ead00510b27c824f 2257 golang-golang-x-term_0.22.0-1.dsc 65bd67e3ba1652276d54cee477ea119da8ff0d89290521c5abaef9f475cc60c8 13740 golang-golang-x-term_0.22.0.orig.tar.xz"
+    "fcaf662e93994bb7491316e6a189e1519f150fd54d64b796a570b7d7a3509b13 2616 golang-golang-x-term_0.3.0-1.debian.tar.xz 2203b38fcd6cc344c37ee6a7e871292714cb46d84fa6ca83fd6ce0df95c73805 1648 golang-golang-x-term_0.3.0-1.dsc 94476bee9fdc3dc9c70b84360af270c748e92ceb517b0feec284f4aaed1c6345 13800 golang-golang-x-term_0.3.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "230c70d1acede2808703cd5a663ff253ffa5591734fb8f3e8fe06d8b500fa96f41b237cbd42c314fff44ec60cf6cf8deca3c135f827f98011922244992193e78 2896 golang-golang-x-term_0.22.0-1.debian.tar.xz f080c5dbeb94a2cc7780c564ef7b2937e88b4a2d052c4d80138ce29301beaa3cc9ac800c57b0b91aef018a01ed6c4dfef706c682b5b4ff2e22610bc640363fae 2257 golang-golang-x-term_0.22.0-1.dsc d053c46b2f39ab4deeb4c3f2f2d3fbd44157d8360820a666e4f263cfe140b5a9ef635e2f1185cd617849b497bcb971e897c0b31b13ef84dc87226baad935f6cb 13740 golang-golang-x-term_0.22.0.orig.tar.xz"
+    "551ec06def6cd45274f539c230d5fdf4699ff7ece0ac23622151d6980548269efe98f47c5aa34fe4f4ec598d47b2fb83843c0870b4a1301a38eb2757c7bb6345 2616 golang-golang-x-term_0.3.0-1.debian.tar.xz 55e807464333c9871588faf825a09434fce1bb88b58cfcf0f9a597ce51f112ca5fdc506ec7ae14414c2fe6590f3ffe0fa0eee61045363f7867bba835d8dde37f 1648 golang-golang-x-term_0.3.0-1.dsc ec472d0410224935330232f264910cc9b1f4554a1d2bb1bf7ffaec25ed1e3b4d6d8975a162c272a2a0ad3ad1b3a697c4e4c1e7041e8e3805dde554ea3840e9b7 13800 golang-golang-x-term_0.3.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/golang-golang-x-term"
   ],
   "Files": [
-    "c97b6403db029388b7106381e84f5e85 2896 golang-golang-x-term_0.22.0-1.debian.tar.xz 50e53cf33d9bcacf8647719d2a51d134 2257 golang-golang-x-term_0.22.0-1.dsc 4eae372e0d7c97f1bd4894bc90604aae 13740 golang-golang-x-term_0.22.0.orig.tar.xz"
+    "399df95a72c118f6914a17e884eaf4a8 2616 golang-golang-x-term_0.3.0-1.debian.tar.xz abd6af33426a630cc4d948ca234c793d 1648 golang-golang-x-term_0.3.0-1.dsc a57fcea33fbeeb3029d5f656b7b9ec11 13800 golang-golang-x-term_0.3.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "golang-golang-x-term-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-golang-x-term.git"
   ],
   "Version": [
-    "0.22.0-1"
+    "0.3.0-1"
   ]
 }

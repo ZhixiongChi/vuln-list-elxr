@@ -6,22 +6,22 @@
     "golang-github-fatih-color-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-mattn-go-colorable-dev (\u003e= 0.1.13), golang-github-mattn-go-isatty-dev (\u003e= 0.0.20), golang-golang-x-sys-dev (\u003e= 0.18.0)"
+    "debhelper-compat (= 12), dh-golang (\u003e= 1.10~), golang-any, golang-github-mattn-go-colorable-dev, golang-github-mattn-go-isatty-dev (\u003e= 0.0.2)"
   ],
   "Checksums-Sha1": [
-    "61e95db75f271b51916fe1c0483a637c80764918 3196 golang-github-fatih-color_1.17.0-1.debian.tar.xz b75c7916c67fc1fbcb9a667fbd1d2a1e2140bf4e 2522 golang-github-fatih-color_1.17.0-1.dsc 0251182a82155197b68229e5dd32e54c20cecebc 12341 golang-github-fatih-color_1.17.0.orig.tar.gz"
+    "8df0f329ca52a1ebab316895257cad8998cc6b78 2924 golang-github-fatih-color_1.7.0-1.debian.tar.xz 7b2dd213dedb6c01b7f119c875402b4af242aeab 2419 golang-github-fatih-color_1.7.0-1.dsc f5143a7ce355cdbbd1539c668a3316ce29eeeebe 8940 golang-github-fatih-color_1.7.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "00b112125d986306fa31afb2624d6cf6829e95c3e0b4cab6bc9fcefb2ef6855e 3196 golang-github-fatih-color_1.17.0-1.debian.tar.xz 94ae69acbe30eb4d847d84e497a039bbf00fb9c9d68c57b6fd4cdaf739f27a8e 2522 golang-github-fatih-color_1.17.0-1.dsc 82e284c6679ac3eb4cbbb5e15b142bb1e6a68f957fe0d2db8ec4fe17e7f78e88 12341 golang-github-fatih-color_1.17.0.orig.tar.gz"
+    "8c180d71cf822e1b014156d7714b5fbd9e6a581aecda7821ffc3fb2592302038 2924 golang-github-fatih-color_1.7.0-1.debian.tar.xz f40ebcf98b213a97a26b47d66a6a1e083863b404b21229fb1d1005e540c22e58 2419 golang-github-fatih-color_1.7.0-1.dsc 9ae4186ecdbd47657602d8185eeecbf09b10d393ede685fc27bd5bb8a18a626d 8940 golang-github-fatih-color_1.7.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "dda3b9dea14067ac94c5bfe0b39829ade8777d4d8570b49a875b5017b189f7b877c69b79d143c4e0708d0333ed7aee55729e4cb3d4a95c94c8000edbb0f7dda6 3196 golang-github-fatih-color_1.17.0-1.debian.tar.xz d2a993c184c15b139cc9c3cc568f6bcea700a6ec165f007ec276278e423d7c471adb4fe7089b78b778cc0959577945986c3ea9d0cbc1fcb4ba64c464423bdad7 2522 golang-github-fatih-color_1.17.0-1.dsc dd0ef85f52ee2b67e38f0f1bacf34d4ce47c7bd492781f6aa13540749a0110d3513df6842519536d91a2a92ea7bc218285e05c092d4bbfb63b51a0fa95a7b264 12341 golang-github-fatih-color_1.17.0.orig.tar.gz"
+    "1db2892243728b9e18583bade03542dacb067aa182694aefe257e0a84c3387e8e5c0552e54cf15d9fc1e8a44a4aab10c2d5cbce9c18628df74728116271443ff 2924 golang-github-fatih-color_1.7.0-1.debian.tar.xz be66dcdfb84e4ef97123206cee4fab131c529639b49f78a1f869365c236cab9729d5024ebb8ddd44bea354f41cde01537b9e01e7256b217756c54e1d44bc5c94 2419 golang-github-fatih-color_1.7.0-1.dsc 06ddfc69462cafdd3481d3179cd98562c40a2f79b513e9c4d79dd101cbdbbeabd998fd47b270c5061a730cf24f2920ce1dec78910a2b0a981920365fa9c056af 8940 golang-github-fatih-color_1.7.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/golang-github-fatih-color"
   ],
   "Files": [
-    "0800c20ba0bc86752a81a213653541e7 3196 golang-github-fatih-color_1.17.0-1.debian.tar.xz 09063b6632c1fa0577c04d2cbbac7679 2522 golang-github-fatih-color_1.17.0-1.dsc 289cae2b64324decc1e6e1cf2bdbd624 12341 golang-github-fatih-color_1.17.0.orig.tar.gz"
+    "cd78143a471fcf457b9f269454093bd8 2924 golang-github-fatih-color_1.7.0-1.debian.tar.xz dbb0fc351c69ab30100e3993494b9408 2419 golang-github-fatih-color_1.7.0-1.dsc 638b7377f31c953f28bb71e402376ad6 8940 golang-github-fatih-color_1.7.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -33,22 +33,22 @@
     "https://github.com/fatih/color"
   ],
   "Maintainer": [
-    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+    "Debian Go Packaging Team \u003cpkg-go-maintainers@lists.alioth.debian.org\u003e"
   ],
   "Package": [
     "golang-github-fatih-color"
   ],
   "Package-List": [
-    "golang-github-fatih-color-dev deb golang optional arch=all"
+    "golang-github-fatih-color-dev deb devel optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.4.1"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
   ],
   "Uploaders": [
-    "Andrew Starr-Bochicchio \u003casb@debian.org\u003e, Peter Colberg \u003cpeter@colberg.org\u003e, Diego M. Rodriguez \u003cdiego.plan9@gmail.com\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e, Anthony Fok \u003cfoka@debian.org\u003e,"
+    "Andrew Starr-Bochicchio \u003casb@debian.org\u003e, Peter Colberg \u003cpeter@colberg.org\u003e, Diego M. Rodriguez \u003cdiego.plan9@gmail.com\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/go-team/packages/golang-github-fatih-color"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-fatih-color.git"
   ],
   "Version": [
-    "1.17.0-1"
+    "1.7.0-1"
   ]
 }

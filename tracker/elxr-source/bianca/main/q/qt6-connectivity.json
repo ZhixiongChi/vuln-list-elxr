@@ -1,30 +1,27 @@
 {
   "Architecture": [
-    "linux-any all"
+    "linux-any"
   ],
   "Binary": [
-    "libqt6bluetooth6, libqt6bluetooth6-bin, libqt6nfc6, qt6-connectivity-dev, qt6-connectivity-doc, qt6-connectivity-doc-html, qt6-connectivity-examples"
+    "libqt6bluetooth6, libqt6bluetooth6-bin, libqt6nfc6, qt6-connectivity-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake (\u003e= 3.24~), libbluetooth-dev [linux-any], libgl-dev, libpcsclite-dev, libssl-dev, libvulkan-dev [linux-any], ninja-build, pkg-kde-tools, pkgconf, qt6-base-dev (\u003e= 6.8.2+dfsg~), qt6-base-private-dev (\u003e= 6.8.2+dfsg~), qt6-declarative-dev (\u003e= 6.8.2+dfsg~), qt6-declarative-private-dev"
-  ],
-  "Build-Depends-Indep": [
-    "qt6-base-dev (\u003e= 6.8~) \u003c!nodoc\u003e, qt6-documentation-tools (\u003e= 6.8~) \u003c!nodoc\u003e"
+    "cmake (\u003e= 3.24~), debhelper-compat (= 13), libbluetooth-dev [linux-any], libgl-dev, libqt6opengl6-dev (\u003e= 6.4.2+dfsg~), libssl-dev, libvulkan-dev [linux-any], ninja-build, pkg-config, pkg-kde-tools, qt6-base-dev (\u003e= 6.4.2+dfsg~), qt6-base-private-dev (\u003e= 6.4.2+dfsg~), qt6-declarative-dev (\u003e= 6.4.2+dfsg~)"
   ],
   "Checksums-Sha1": [
-    "ea7f34da4c55d7a651bc63707361f8b1484e049d 12672 qt6-connectivity_6.8.2-3.debian.tar.xz 16fc5327299e69d5f408b419c82163c6df4365d3 2889 qt6-connectivity_6.8.2-3.dsc 7a5f45c0d0b059459b73540a0eadd06a230fac7e 1069068 qt6-connectivity_6.8.2.orig.tar.xz"
+    "f68e883777d2f50b310c42b9db45cfec4003ff4d 11020 qt6-connectivity_6.4.2-1.debian.tar.xz 3cb297d7e0df677f2c6fd1cfb2a9272c548f313f 2543 qt6-connectivity_6.4.2-1.dsc 4e94488798f523fe69ab98cbb101480dcee9497b 1108932 qt6-connectivity_6.4.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "07fbeb2789d5833e0ea2176bab519c3db09677e239bcc7dc1c8e5888679e8cdf 12672 qt6-connectivity_6.8.2-3.debian.tar.xz 762e2ee9959e7e35fc4b32b341015604ae353fbc3a7295c5fd6cc0a8ab3460bc 2889 qt6-connectivity_6.8.2-3.dsc e617120e084ac369fd6064f2c177de9e1c2cd9989a1f1774eea131800d52812a 1069068 qt6-connectivity_6.8.2.orig.tar.xz"
+    "c32f9b524bf2e4947857058e205fe228af047aa30b27b1dee7bda3c912a6c9e1 11020 qt6-connectivity_6.4.2-1.debian.tar.xz f045b79dab702b510b7479d16fbce3af2d06b2c40d8c6a84937b26cb7b476f8f 2543 qt6-connectivity_6.4.2-1.dsc 8c9b44b239e42b4c4d6fca5f427904e688890b2a1bfb6bcbe5e6e2afcdc5d7af 1108932 qt6-connectivity_6.4.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "e6dd067e1a92cb292c326f7cd5bd5191d712a060a7f7b423b26b8511d36d9b8049e0075488d40b2d541d58ba603b8e8f13acfdd0869ed3678b5594e1d63f70bd 12672 qt6-connectivity_6.8.2-3.debian.tar.xz d08ce3c0df558ba6e6228babf2cf83e63e6e449fb6c7017874b4bb0e89641c05b7f5e22625c3204ef498e64fcf973bdd86229f0e5bc0c5db79aa066f4afca71d 2889 qt6-connectivity_6.8.2-3.dsc b1310fc90c7a64a4d89586fd38119377b3b67ead57271c6713897d649b2154cd55bd07c97a53f12e7a9d720a1b8b6b630eeea43e44c6798f6313ea8e70e10767 1069068 qt6-connectivity_6.8.2.orig.tar.xz"
+    "8f9a4296d66fc7cdde4a3c5959ad7126b1d1326d052e6e244781e361eab6196bbc71d35f5645636a4627977aac07eb48db81197076ea934d8231c7af2aa2d1c1 11020 qt6-connectivity_6.4.2-1.debian.tar.xz cf47dad2932dc25e3af78e34d69d7a874ee082b5082e890d39c06f0c75e471627d676a9fe64cc64f7178fae1a14f4d215cc9417f43a1c45e20e5647706e48701 2543 qt6-connectivity_6.4.2-1.dsc 8b6312120773aa813abb8211734ac473ec1038dcb48fe7b57840a4c7aa706842c27f3ff42d4ec6597e1b38dd680a4d620c9adfb4d52da974ac7feca535af0cc8 1108932 qt6-connectivity_6.4.2.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/q/qt6-connectivity"
   ],
   "Files": [
-    "b09bda24760804ec4e24f6e80609d66c 12672 qt6-connectivity_6.8.2-3.debian.tar.xz 30a7ec4e96f9f6ff35ed0e2098fcddd0 2889 qt6-connectivity_6.8.2-3.dsc 4a12e44340771a60da2054196716eca4 1069068 qt6-connectivity_6.8.2.orig.tar.xz"
+    "280d0ef90d465baf321f3bfd415eb5a3 11020 qt6-connectivity_6.4.2-1.debian.tar.xz 751415f2e507ad92782618039e2f9aa6 2543 qt6-connectivity_6.4.2-1.dsc 7de67a1a92d0b68208ed58fd31f4cc8c 1108932 qt6-connectivity_6.4.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +36,13 @@
     "qt6-connectivity"
   ],
   "Package-List": [
-    "libqt6bluetooth6 deb libs optional arch=linux-any libqt6bluetooth6-bin deb utils optional arch=linux-any libqt6nfc6 deb libs optional arch=linux-any qt6-connectivity-dev deb libdevel optional arch=linux-any qt6-connectivity-doc deb doc optional arch=all qt6-connectivity-doc-html deb doc optional arch=all qt6-connectivity-examples deb misc optional arch=linux-any"
+    "libqt6bluetooth6 deb libs optional arch=linux-any libqt6bluetooth6-bin deb utils optional arch=linux-any libqt6nfc6 deb libs optional arch=linux-any qt6-connectivity-dev deb libdevel optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Uploaders": [
-    "Patrick Franz \u003cdeltaone@debian.org\u003e, Lu YaNing \u003cdluyaning@gmail.com\u003e,"
+    "Patrick Franz \u003cdeltaone@debian.org\u003e, Lu YaNing \u003cdluyaning@gmail.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/qt6/qt6-connectivity"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/qt6/qt6-connectivity.git"
   ],
   "Version": [
-    "6.8.2-3"
+    "6.4.2-1"
   ]
 }

@@ -6,25 +6,25 @@
     "libgd-text-perl"
   ],
   "Build-Depends": [
-    "perl, debhelper-compat (= 13), fonts-dustin \u003c!nocheck\u003e, libgd-perl | libgd-gd2-noxpm-perl | libgd-gd2-perl"
+    "cdbs, devscripts, perl, debhelper (\u003e= 10~), dh-buildinfo, fonts-dustin \u003c!nocheck\u003e, licensecheck, libgd-perl | libgd-gd2-noxpm-perl | libgd-gd2-perl"
   ],
   "Checksums-Sha1": [
-    "be5049bdfe9363e1aecc61f77448ff59d2201d88 7028 libgd-text-perl_0.86-11.debian.tar.xz bf7b9f104f602975aa8d804ab6b4a903d9f13619 2376 libgd-text-perl_0.86-11.dsc 7f2132e64e07149997180ff71c0b3356480145ac 64698 libgd-text-perl_0.86.orig.tar.gz"
+    "acc671a2295c4c79f1656feb9a7599e56e75b58d 7412 libgd-text-perl_0.86-10.debian.tar.xz 4f770d4c2c8fe2e364ca9722f4eb11ad8abf6250 2417 libgd-text-perl_0.86-10.dsc 7f2132e64e07149997180ff71c0b3356480145ac 64698 libgd-text-perl_0.86.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "4272327553064f678bb17bf1853bc35e64f50d1234b4379dc83df1b7e60d3a74 7028 libgd-text-perl_0.86-11.debian.tar.xz 7e9347dec70c2b5c8faa3ef18206d31badc494adb870856a5506e397399705cb 2376 libgd-text-perl_0.86-11.dsc 886ecbf85cfe94f4135ee5689c4847a9ae783ecb99e6759e12c734f2dd6116bc 64698 libgd-text-perl_0.86.orig.tar.gz"
+    "45bc14db4063383ecaa428b43a08b3f2f182c4b57017e5c986a19f418a6674d8 7412 libgd-text-perl_0.86-10.debian.tar.xz 63a0be9efec738b1273c5da6c5da903bc226052a996c8a489193df4c1aac6a60 2417 libgd-text-perl_0.86-10.dsc 886ecbf85cfe94f4135ee5689c4847a9ae783ecb99e6759e12c734f2dd6116bc 64698 libgd-text-perl_0.86.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "3d57f3af6b296c7975b3bc3fccee7ace8a5a959afed70c55a118db912641deed5bfbec2d3b7e651fba7f287f5fa1bb7edf0f379d7cf277cadc8be495f08eb4b1 7028 libgd-text-perl_0.86-11.debian.tar.xz 8275400fb3e1deaf3d0e39e7c514d89400c65a0d111b83157810787a0f9f2e9724514893336991cfe983806ed40358b0cd6fd018bf4da7d181f1648a6206d11f 2376 libgd-text-perl_0.86-11.dsc 0c503df81249b0b53a8e87d65f684cf7ff01184ef1fc0166d2f295332d4cb553b6b714f42d6915cd0798f899213cd9cffef12bd30f5fcab0abfa4d0be97c8b18 64698 libgd-text-perl_0.86.orig.tar.gz"
+    "8aa8ed3f2f546674fe3bd3da612284dfdcc8f5c03d91b1240949aaa3310ff94d0aa7879741666352043b75db00fb6bf61ff9814171c5ad8ea4de95ea12024402 7412 libgd-text-perl_0.86-10.debian.tar.xz f0d772531dc7c26971a7ea7d332cf7c4fcf3aa900fd524888b1ae64f33ab793b709da25caa10f4b2fc2d4b207aa94e0f800b57a9128b476b974a5a3218856780 2417 libgd-text-perl_0.86-10.dsc 0c503df81249b0b53a8e87d65f684cf7ff01184ef1fc0166d2f295332d4cb553b6b714f42d6915cd0798f899213cd9cffef12bd30f5fcab0abfa4d0be97c8b18 64698 libgd-text-perl_0.86.orig.tar.gz"
   ],
   "Dgit": [
-    "8a3d67da9c30b464bdc33cc05d40132504d81ae8 debian archive/debian/0.86-11 https://git.dgit.debian.org/libgd-text-perl"
+    "657846a585475bf6fe711c23f18e392de9c73618 debian archive/debian/0.86-10 https://git.dgit.debian.org/libgd-text-perl"
   ],
   "Directory": [
     "pool/main/libg/libgd-text-perl"
   ],
   "Files": [
-    "e567c3215e88386193855f54c5eea06d 7028 libgd-text-perl_0.86-11.debian.tar.xz 4a7e80ec2ecee6072c7fa609f65ee40f 2376 libgd-text-perl_0.86-11.dsc 941ad06eadc86b47f3a32da405665c41 64698 libgd-text-perl_0.86.orig.tar.gz"
+    "4652ad463a805997b9199fbcdb1ed2c9 7412 libgd-text-perl_0.86-10.debian.tar.xz 9cd4421471110aa7764ccbae9e849ce3 2417 libgd-text-perl_0.86-10.dsc 941ad06eadc86b47f3a32da405665c41 64698 libgd-text-perl_0.86.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libgd-text-perl.git"
   ],
   "Version": [
-    "0.86-11"
+    "0.86-10"
   ]
 }

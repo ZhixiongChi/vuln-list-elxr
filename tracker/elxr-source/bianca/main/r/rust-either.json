@@ -6,22 +6,22 @@
     "librust-either-dev, librust-either+serde-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.37) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "0fd075c62026635309b310588f955551e53424aa 3056 rust-either_1.13.0-1.debian.tar.xz 3a4455ae09aedb26336eecd89e6bf0b580573bbf 2249 rust-either_1.13.0-1.dsc d80680703d332946e15651a33a48f21bfade5e1f 19169 rust-either_1.13.0.orig.tar.gz"
+    "4f575f865440bdaa85d1358b34e0dc6593b946fa 2940 rust-either_1.6.1-1.debian.tar.xz 377718ded98ccdf34f4b0f097d23f724009a0391 2203 rust-either_1.6.1-1.dsc 8bc23c16c8bacea8d0d9cee2553a563071cdde7b 13641 rust-either_1.6.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "cad3ba56f1217f3c27c36d03c4476bcb20ac6f0b72ef39f129495878f05c91c0 3056 rust-either_1.13.0-1.debian.tar.xz 635f00032f19696081924e0a9503287c506bb9ec62a78359d286a35d12056b74 2249 rust-either_1.13.0-1.dsc 60b1af1c220855b6ceac025d3f6ecdd2b7c4894bfe9cd9bda4fbb4bc7c0d4cf0 19169 rust-either_1.13.0.orig.tar.gz"
+    "6096416de768bbfc7c79cae60f937eb3dd625488867a9954789a0277b509aa1b 2940 rust-either_1.6.1-1.debian.tar.xz 6410660d5ac9fc7a054303bdd7513c71000a364a5fbc07dde31a2e781e3bbca7 2203 rust-either_1.6.1-1.dsc e78d4f1cc4ae33bbfc157ed5d5a5ef3bc29227303d595861deb238fcec4e9457 13641 rust-either_1.6.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "25faab30da595d49b165b15ca4068b7bf928504beb93e8587e0a83369591b6e4e9605eef56cc3f14e0603c0ced3c10cf3faa0ebacd3e519f367237f4f418d97f 3056 rust-either_1.13.0-1.debian.tar.xz a405973cf518e8d642587cceb133337ac4d9b737d08d1ddbc4d706de0a1eda18cfbe7c483f95910cd5428cfa939ea6cf8fd92284654fb1fe082f9ededef2abeb 2249 rust-either_1.13.0-1.dsc 72e803079bae621d282136ab1e423ba71415bf12038b6f386f294cae68a67ad9ff16e4fdf4344eb3fee4418e853f9cac344c248f6befa3006d1c954668b36322 19169 rust-either_1.13.0.orig.tar.gz"
+    "b7cd4bc94e8a26c12b463c1612d9e294e59c87deec70bc301807eda5988026519fc04757da0d681fa93f35f0770c038ee858da95356181410ecb525a6fc8482f 2940 rust-either_1.6.1-1.debian.tar.xz 3a136833f5fc05cb536fa10018f2fcd48d64fba3ed3b94276d8ca9517cfb2999b1d5f07e387e5ffb8d8683c66a9b3b116abe0dc55665d0a85c51e3d768405a5e 2203 rust-either_1.6.1-1.dsc 4bfe56920e30cbc8eb4f90162db618f7dca653b42db35ab6a7045d3fd9a24ceb1778b1f79613850bdb1a87ad3794fa0d73015e46c48d513f368d8c3776fc9ddf 13641 rust-either_1.6.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-either"
   ],
   "Files": [
-    "ae72bc05038fee06d0f3f0d9d4ee5782 3056 rust-either_1.13.0-1.debian.tar.xz aaa3c7967883208ca263f40ada8dc708 2249 rust-either_1.13.0-1.dsc 6d28dbfa9d67ad11061716672a7a1519 19169 rust-either_1.13.0.orig.tar.gz"
+    "8abe0068b8606c1d77fbf38a8917b6cc 2940 rust-either_1.6.1-1.debian.tar.xz 20c5e4010bbd51f70a3ed3cabf96d2e5 2203 rust-either_1.6.1-1.dsc b4e2b229c362ad0dd313ff631816d5db 13641 rust-either_1.6.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "librust-either+serde-dev deb rust optional arch=any librust-either-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/either]"
   ],
   "Version": [
-    "1.13.0-1"
+    "1.6.1-1"
   ]
 }

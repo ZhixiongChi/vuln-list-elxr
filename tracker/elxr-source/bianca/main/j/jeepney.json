@@ -6,22 +6,22 @@
     "python3-jeepney, jeepney-doc"
   ],
   "Build-Depends": [
-    "dbus, debhelper-compat (= 13), dh-python (\u003e= 5.20211214), flit (\u003e= 3.11), pybuild-plugin-pyproject, python3-all, python3-doc, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio (\u003e= 0.17) \u003c!nocheck\u003e, python3-pytest-trio \u003c!nocheck\u003e, python3-sphinx, python3-sphinx-rtd-theme, python3-testpath \u003c!nocheck\u003e, python3-trio"
+    "dbus, debhelper-compat (= 13), dh-python (\u003e= 5.20211214), flit, pybuild-plugin-pyproject, python3-all, python3-async-timeout, python3-doc, python3-pytest, python3-pytest-asyncio (\u003e= 0.17), python3-sphinx, python3-sphinx-rtd-theme, python3-testpath, python3-trio"
   ],
   "Checksums-Sha1": [
-    "4553f713636057648b322d58e8a267ecd8e1c2b3 4456 jeepney_0.9.0-1.debian.tar.xz 9216e6a273b60916f544920b50851a903a9ec4be 2449 jeepney_0.9.0-1.dsc f82634f7326fd6ed5274e6d6595a4d6649be29dd 106758 jeepney_0.9.0.orig.tar.gz"
+    "a2a24ce2f7a6901c6403d1143d3eeaf30326b01b 4020 jeepney_0.8.0-3.debian.tar.xz 802576a984583634f0542530fb1f0f01ede5cf56 1765 jeepney_0.8.0-3.dsc 27611c47ba2349e10af02a7e3cfc26ac63383708 106005 jeepney_0.8.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "0899a1e7546fec2bac3d3eaa43933ab7d36ee7d158c89f5d76003741003808c1 4456 jeepney_0.9.0-1.debian.tar.xz b7f3b4973dc2f9c668fd124523e1381c1d0e7f00622ef49976670a8aca969d00 2449 jeepney_0.9.0-1.dsc cf0e9e845622b81e4a28df94c40345400256ec608d0e55bb8a3feaa9163f5732 106758 jeepney_0.9.0.orig.tar.gz"
+    "8f4a9d106187dfd04181a5d54a82458e805617949c642e08817228504d4cd78b 4020 jeepney_0.8.0-3.debian.tar.xz c2cfd3238e292c3390e3e5e153176ea7a72604be162ecb511aa3160ef8b8f990 1765 jeepney_0.8.0-3.dsc 5efe48d255973902f6badc3ce55e2aa6c5c3b3bc642059ef3a91247bcfcc5806 106005 jeepney_0.8.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "94856ea61e069ebe608ef25613597cc245a49cf7c2d276b92bff766f2cd74fc42011a9d4f1ba06ccc9934845e91fd7c633391cf6a022a13578490e71c3cc099a 4456 jeepney_0.9.0-1.debian.tar.xz ab9981c57576d50f62e198d6141a125d737377badd05017087c10839f71e3b582eb2cf32316ec9054caf25dd741122ddb9fb7cbb714b5dbfeb215a7f81574f54 2449 jeepney_0.9.0-1.dsc 2d47ba3f8b652abe5b5b5cde5cb66600c2914207a45973e3ca28a0561e61d98827751ff32c6019ef9e2507ee5c2879ef1ef0d732870d208b500f7b52f3c6229c 106758 jeepney_0.9.0.orig.tar.gz"
+    "935d981da531c5129c7f3ec7f10c065dcd096a559c41cb106577f384d478ede25bd5c89e276d517764cee47a8e6dae4b7939f5a2f3fd89702c4e5911ffd563e4 4020 jeepney_0.8.0-3.debian.tar.xz b4fe9216e58a940ab87116dbc33b21e84df2f45d800720b77d6c0f78f004f2885f81710a5a07235b36d41bd63bbafd1f42e650dc56207eb4b25786eee02f1dcf 1765 jeepney_0.8.0-3.dsc 823675f262c2c9778ccf9c1083601d936cca534fc0d2d9309b52aa6beeb7f73d225a37c5f18f6b0683c4829a93b1299a2cb4f8f341e55b92bedf58c8dce0aa75 106005 jeepney_0.8.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/j/jeepney"
   ],
   "Files": [
-    "aaf6314f82485dcfec31d7d717889501 4456 jeepney_0.9.0-1.debian.tar.xz a63c43ddb93aed1b2a8f4e44060afc4b 2449 jeepney_0.9.0-1.dsc d0c0d388ee003d6475750aebe56fc699 106758 jeepney_0.9.0.orig.tar.gz"
+    "7f1471c4bfd4fb8af9b2cc612f52b6ab 4020 jeepney_0.8.0-3.debian.tar.xz c166ef19064180ffd4b6dc875c5da226 1765 jeepney_0.8.0-3.dsc 7e2151e9197c751ceca6550bc6b3294c 106005 jeepney_0.8.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "jeepney-doc deb doc optional arch=all python3-jeepney deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dbus, python3-all, python3-pytest, python3-pytest-asyncio, python3-pytest-trio, python3-testpath, python3-trio"
+    "dbus, python3-all, python3-async-timeout, python3-pytest, python3-pytest-asyncio, python3-testpath, python3-trio"
   ],
   "Uploaders": [
     "Dmitry Shachnev \u003cmitya57@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/jeepney.git"
   ],
   "Version": [
-    "0.9.0-1"
+    "0.8.0-3"
   ]
 }

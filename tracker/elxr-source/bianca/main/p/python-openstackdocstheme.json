@@ -6,25 +6,25 @@
     "python3-openstackdocstheme"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+    "debhelper (\u003e= 10), dh-python, openstack-pkg-tools, python3-sphinx, python3-all, python3-pbr, python3-setuptools"
   ],
   "Build-Depends-Indep": [
     "python3-requests"
   ],
   "Checksums-Sha1": [
-    "8a326896a25d0ce61dd763c194c8f8fc5b5bb6a4 6812 python-openstackdocstheme_3.2.0-3.debian.tar.xz 7314fc8d57628d29fca43c5b7354653b393653f8 2271 python-openstackdocstheme_3.2.0-3.dsc 213c906f68edb309cfc1742daba5a5f80061b1a4 1093836 python-openstackdocstheme_3.2.0.orig.tar.xz"
+    "3d2aa51c0ed2709edf76d2d1fa5f97665e1e016e 14640 python-openstackdocstheme_1.20.0-5.debian.tar.xz 33419fa8e9e4bbf088e57eddd6e6b69b9a062620 2275 python-openstackdocstheme_1.20.0-5.dsc 140db9fa3cd76ec772d5aab7a3b0472e70b6af07 1072580 python-openstackdocstheme_1.20.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "b0e5af05ec3d083e70b39074a3251ac5c9f776f9163842aa2e6e52819eedc141 6812 python-openstackdocstheme_3.2.0-3.debian.tar.xz 1d135803e70bdee9617fbc40e07a11ffa43793fcedb280fe7170382f488322a9 2271 python-openstackdocstheme_3.2.0-3.dsc ce382d0ad17a89d045f227107a309273a234c65fc00e8ee758e8bedb499396aa 1093836 python-openstackdocstheme_3.2.0.orig.tar.xz"
+    "a3a4538c59c387c8c1bbdeb7a30568aec6d15da6ad3c41306a80f17107b2c2e6 14640 python-openstackdocstheme_1.20.0-5.debian.tar.xz ceef13ba55caeaefed9a99e4b157b501110cdc46270d997ca15d02e69dd916b8 2275 python-openstackdocstheme_1.20.0-5.dsc b1ef11e5a4cb032e26aa78eaa1579bad31b35789b74f84eab45a3b32440c6fbe 1072580 python-openstackdocstheme_1.20.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "f3620c6b89b9980fcbe4d58e21cbc2a58459c2658ede81a00133d8b235b6eaa337f4325d306541ca624d190f8942e0d29c5cfbd83d2777510535da17eb559cb3 6812 python-openstackdocstheme_3.2.0-3.debian.tar.xz 43477a292f2af916d742d0d16b21197e277c37d06ca718a6f01c6b7078d0c83899ed50c3d0d558f8bc6acd69735e9c3621c3aeda829b9422dd9f2b9093635694 2271 python-openstackdocstheme_3.2.0-3.dsc f7faefbc3e2ada7a45985761ebf7e4b048437889764521cbad7181b56427256634c83799697de12ed0b66964b43310a34a83a92d820dbbb9b970f76b27037456 1093836 python-openstackdocstheme_3.2.0.orig.tar.xz"
+    "bad8c4e1091d9fb03f1eff841fd55a796cc23a38021021a4619941f29af0a296bdd60affd0025a160e405cdaba1aac1fc5527034fc2072a29b43075520575c91 14640 python-openstackdocstheme_1.20.0-5.debian.tar.xz 8ab9ac84e1effea25a4c73ab660046049eadbab985429ba6415cccb0a581a2d5dfac2746e9cacb055cb84cd0bb881d11c2c74518df6407dcfa21fcb5c15b2973 2275 python-openstackdocstheme_1.20.0-5.dsc a5f92ffa0af2de2f607726fac0ae5f19753d3d644b6aa6a724cafa6adfb77729440e900c3674f728288e79a40f9ad8cfed607d500685563b825d152e3a122f86 1072580 python-openstackdocstheme_1.20.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-openstackdocstheme"
   ],
   "Files": [
-    "f7dbbb687eb1506027659e5590bcaee1 6812 python-openstackdocstheme_3.2.0-3.debian.tar.xz 07fba6e02bb07f2c8d7b3dc257de30e6 2271 python-openstackdocstheme_3.2.0-3.dsc 19fcc8e3f92389a1c1d622c3e28fc3da 1093836 python-openstackdocstheme_3.2.0.orig.tar.xz"
+    "3b85cd57d408aa7f6bf62f2dc288f862 14640 python-openstackdocstheme_1.20.0-5.debian.tar.xz 33c5bfb7502f11cc5be62ffef5ebd709 2275 python-openstackdocstheme_1.20.0-5.dsc f9e3afba4300775761d8be1e6eaffc85 1072580 python-openstackdocstheme_1.20.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "python3-openstackdocstheme deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.4.1"
+    "4.3.0"
   ],
   "Uploaders": [
     "Thomas Goirand \u003czigo@debian.org\u003e, David Della Vecchia \u003cddv@canonical.com\u003e,"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/openstack-team/libs/python-openstackdocstheme.git"
   ],
   "Version": [
-    "3.2.0-3"
+    "1.20.0-5"
   ]
 }

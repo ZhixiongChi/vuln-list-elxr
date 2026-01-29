@@ -6,28 +6,28 @@
     "pulseaudio, pulseaudio-utils, pulseaudio-module-zeroconf, pulseaudio-module-jack, pulseaudio-module-lirc, pulseaudio-module-gsettings, pulseaudio-module-raop, pulseaudio-module-bluetooth, pulseaudio-equalizer, libpulse0, libpulse-mainloop-glib0, libpulse-dev, libpulsedsp"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), meson, ninja-build, check \u003c!nocheck\u003e, desktop-file-utils \u003c!nocheck\u003e, dh-exec, intltool, libasound2-dev [linux-any], libasyncns-dev, libavahi-client-dev, libbluetooth-dev [linux-any] \u003c!stage1\u003e, libsbc-dev [linux-any], libcap-dev [linux-any], libfftw3-dev, libglib2.0-dev, libgstreamer1.0-dev, libgstreamer-plugins-base1.0-dev, libgtk-3-dev, libice-dev, libjack-dev, liblirc-dev, libltdl-dev, liborc-0.4-dev, libsndfile1-dev, libsoxr-dev, libspeexdsp-dev, libssl-dev, libsystemd-dev [linux-any], libtdb-dev, libudev-dev [linux-any], libwebrtc-audio-processing-dev (\u003e= 1.0) [linux-any], libwrap0-dev, libx11-xcb-dev, libxcb1-dev, libxml2-utils \u003c!nocheck\u003e, libxtst-dev, systemd-dev [linux-any]"
+    "debhelper-compat (= 13), meson, ninja-build, check \u003c!nocheck\u003e, desktop-file-utils \u003c!nocheck\u003e, dh-exec, dpkg-dev (\u003e= 1.17.14), intltool, libasound2-dev [linux-any], libasyncns-dev, libavahi-client-dev, libbluetooth-dev [linux-any] \u003c!stage1\u003e, libsbc-dev [linux-any], libcap-dev [linux-any], libfftw3-dev, libglib2.0-dev, libgstreamer1.0-dev (\u003e= 1.14), libgstreamer-plugins-base1.0-dev, libgtk-3-dev, libice-dev, libjack-dev, liblircclient-dev, libltdl-dev, liborc-0.4-dev, libsndfile1-dev, libsoxr-dev (\u003e= 0.1.1), libspeexdsp-dev (\u003e= 1.2~rc1), libssl-dev, libsystemd-dev [linux-any], libtdb-dev, libudev-dev [linux-any], libwebrtc-audio-processing-dev (\u003e= 0.2) [linux-any], libwrap0-dev, libx11-xcb-dev, libxcb1-dev, libxml2-utils \u003c!nocheck\u003e, libxtst-dev, systemd [linux-any]"
   ],
   "Checksums-Sha1": [
-    "f085130256ebd0a95db63156d6433a6698c4202e 41188 pulseaudio_17.0+dfsg1-2.debian.tar.xz 5f4bdaca1939db12e83821f616e21984a5257414 3774 pulseaudio_17.0+dfsg1-2.dsc 3eca8dc561e0a98abe90073b77e51d9d2f7f3c78 1459260 pulseaudio_17.0+dfsg1.orig.tar.xz"
+    "c8afc1fbb5679e7811a70c2acdcbf9a9a35d6e6f 36424 pulseaudio_16.1+dfsg1-2.debian.tar.xz 9bb5c2e1e5795b42737a8de054329f6b86691908 3746 pulseaudio_16.1+dfsg1-2.dsc 921990eedeafd42278ae6ca71487ebdf74b340e0 1437216 pulseaudio_16.1+dfsg1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "011e00b40902c9401eaf5c61921e2738c1782e7959581526cd701a74bfb6ba92 41188 pulseaudio_17.0+dfsg1-2.debian.tar.xz f3aa32ade32bf1b3bbd650ebb2ab368f1cef9300636af3b2130db3c8adb9eaca 3774 pulseaudio_17.0+dfsg1-2.dsc 24a25d3cf8fcede801f6b3d05ca6d22b0a43ad2f710a4fbf2ec251debc9cff5b 1459260 pulseaudio_17.0+dfsg1.orig.tar.xz"
+    "520b0bc73500c955fa5ce44226a87d0e363fd7c6613c13fd9f36d440e0824c15 36424 pulseaudio_16.1+dfsg1-2.debian.tar.xz 70e7efcd7e97333c35873f5db7832bb3430f6016d963f8f7f89ce52d231c3906 3746 pulseaudio_16.1+dfsg1-2.dsc e471c61c47b6d95089be52a5122c87161a695b60534a0c8a36fe344310fd3d06 1437216 pulseaudio_16.1+dfsg1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "02aec316d35f9d00d1195c54a1f0046abed427f5df4b8b31760500d91df0bd82d530087e76452303bbf6a43ff5f77fa6220940ccf7f29e9748938134c8509064 41188 pulseaudio_17.0+dfsg1-2.debian.tar.xz 0235881123e9476300e4f1770223351bc57feb64b4a95224a0892eb94ddae34f88a023c904d7f52a9352eb4b2e0ecac9097e8b0dda54ab3c977184174a8237a0 3774 pulseaudio_17.0+dfsg1-2.dsc eb26d0bb30ce8acfc76443dfa481edb39834a24edcf522c428a75c90a0d17cfbcdc824170ea99270ebed50dbf523821f1143f130db1d7441710d2adb18bd6dbe 1459260 pulseaudio_17.0+dfsg1.orig.tar.xz"
+    "5393f113a146644f0c29cf1fea8949e8f11d38b5d060707526fe01666948b48c97b1ce9518ed0a9a97b6642c9c96300777a02236cf81f60c9bacbf796236171c 36424 pulseaudio_16.1+dfsg1-2.debian.tar.xz 9c0ecc6fb942f5e454fe18b61516f1567d183c4015d70089b96e55892882288e4f56b8af8b214e02a489c383e2c9af03d8e866ab51968af1d4f2ae0045f7ddbb 3746 pulseaudio_16.1+dfsg1-2.dsc 9ffdfd8e0c05934c6ca1073822f3eb55c4b95cc7c8f399b744507e33e836156d78b6da904457af85efe727cddfd0c838688603e261305e85070dc0fddf61e914 1437216 pulseaudio_16.1+dfsg1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/pulseaudio"
   ],
   "Files": [
-    "2a7cd69cc37bd685aa30c7b6e1f54bc6 41188 pulseaudio_17.0+dfsg1-2.debian.tar.xz 8aca1f32a6d90758a1b1a39a354cb281 3774 pulseaudio_17.0+dfsg1-2.dsc 1dd3c05d50f988b0ff438808d143d6e4 1459260 pulseaudio_17.0+dfsg1.orig.tar.xz"
+    "75394932e23e15107fcb2871cf40a1d4 36424 pulseaudio_16.1+dfsg1-2.debian.tar.xz ffc2281542bcd142e158f188c448dd6a 3746 pulseaudio_16.1+dfsg1-2.dsc 436f9a32a0d1588f4ac956b97c6282ea 1437216 pulseaudio_16.1+dfsg1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://pulseaudio.org"
+    "https://www.pulseaudio.org"
   ],
   "Maintainer": [
     "Pulseaudio maintenance team \u003cpkg-pulseaudio-devel@lists.alioth.debian.org\u003e"
@@ -36,10 +36,10 @@
     "pulseaudio"
   ],
   "Package-List": [
-    "libpulse-dev deb libdevel optional arch=any libpulse-mainloop-glib0 deb libs optional arch=any libpulse0 deb libs optional arch=any libpulsedsp deb libs optional arch=amd64,arm64,i386,mips64el,ppc64el,riscv64,s390x,alpha,hurd-amd64,ia64,loong64,ppc64,sparc64,x32 pulseaudio deb sound optional arch=any pulseaudio-equalizer deb sound optional arch=any pulseaudio-module-bluetooth deb sound optional arch=linux-any profile=!stage1 pulseaudio-module-gsettings deb sound optional arch=any pulseaudio-module-jack deb sound optional arch=any pulseaudio-module-lirc deb sound optional arch=any pulseaudio-module-raop deb sound optional arch=any pulseaudio-module-zeroconf deb sound optional arch=any pulseaudio-utils deb sound optional arch=any"
+    "libpulse-dev deb libdevel optional arch=any libpulse-mainloop-glib0 deb libs optional arch=any libpulse0 deb libs optional arch=any libpulsedsp deb libs optional arch=any pulseaudio deb sound optional arch=any pulseaudio-equalizer deb sound optional arch=any pulseaudio-module-bluetooth deb sound optional arch=linux-any profile=!stage1 pulseaudio-module-gsettings deb sound optional arch=any pulseaudio-module-jack deb sound optional arch=any pulseaudio-module-lirc deb sound optional arch=any pulseaudio-module-raop deb sound optional arch=any pulseaudio-module-zeroconf deb sound optional arch=any pulseaudio-utils deb sound optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/pulseaudio-team/pulseaudio.git"
   ],
   "Version": [
-    "17.0+dfsg1-2"
+    "16.1+dfsg1-2"
   ]
 }

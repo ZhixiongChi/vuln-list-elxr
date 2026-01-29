@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "runit, runit-run, getty-run, runit-init"
+    "runit, runit-run, runit-systemd, getty-run, runit-init"
   ],
   "Build-Depends": [
-    "bash-completion, debhelper-compat (= 13), dh-exec, dh-runit (\u003e= 2.10.2), dh-sysuser (\u003e= 1.6.0), doc-base"
+    "bash-completion, debhelper-compat (= 13), dh-exec, dh-runit (\u003e= 2.10.2), dh-sysuser (\u003e= 1.3.6+really1.4.0), dh-buildinfo (\u003e= 0.11+nmu1), doc-base"
   ],
   "Checksums-Sha1": [
-    "297f180f59eff10b5b9e604692c11fdc35e7099f 70008 runit_2.2.0-3.debian.tar.xz 56b2548dd799e66488e43d6ad5ac3fe63d3b7fc5 2053 runit_2.2.0-3.dsc 9864312f437f9d4d4b669c66c304a224e6f0979f 111395 runit_2.2.0.orig.tar.gz"
+    "8029332ec631407d0e660a95ca8ebe3a9b04fa31 63024 runit_2.1.2-54.debian.tar.xz 31813dffdb16fc511349eed21cb2fc02ae63e3e7 2294 runit_2.1.2-54.dsc 398f7bf995acd58797c1d4a7bcd75cc1fc83aa66 110916 runit_2.1.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a370d97ade1e0d98eff99ad809a4486599e0512262b6d3d8385c73f35598cac0 70008 runit_2.2.0-3.debian.tar.xz 10caac92fd7ce53231d3113f816ea2cacca03c4ba3de98729d47cf4bc6961c68 2053 runit_2.2.0-3.dsc 95ef4d2868b978c7179fe47901e5c578e11cf273d292bd6208bd3a7ccb029290 111395 runit_2.2.0.orig.tar.gz"
+    "0492a34f7c7b9dad3bf478cc43ee69b33ca259a5f73d137b319c47516784e003 63024 runit_2.1.2-54.debian.tar.xz 5e6bf9bd2149d49762f39e7cb55c4727a21514b11483c5aad644f41eb7546884 2294 runit_2.1.2-54.dsc 6fd0160cb0cf1207de4e66754b6d39750cff14bb0aa66ab49490992c0c47ba18 110916 runit_2.1.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "5cd5358683dcd93265f13182a52cdda3a169f5d6ccbc03dcb1747302a1dfb10a5c26eb61eb257ae0a44061609d2aac307e25c8283963e2a4812176ae908c4c68 70008 runit_2.2.0-3.debian.tar.xz 325a2a563b304c04a2966947fac75d2d42ae13c84c6a0e667d25827e5b1bb8b7c184101aaa7641c0118701f2277b0de281f152b47fdeefa90c25885f3baf513c 2053 runit_2.2.0-3.dsc cedfe6d3505aca754ff11d791055f023a7be42e2fbdd2e4964b3460692474371a72363cf181ae2dfae5c02df45ebf568cdab72a5000d1b48e26e12217d4e9a3d 111395 runit_2.2.0.orig.tar.gz"
+    "939359a91ec63dcb3f61402bf9530db22d972cd8b2ce3261fef493c3ae6f1bb7d2ddc33411183f1b242b370d4c109e3ed0b606be4bb56150f1aa8f3314b7d023 63024 runit_2.1.2-54.debian.tar.xz 6e89c4711ab5ac3e11a0f68b115723ea7454240c6d0895d76f49edc7f8de185f2f069bdf04d5923b73563882129ff3d724c99de8831a1dc1a209df432063dc12 2294 runit_2.1.2-54.dsc a18773ebf1aa22305dd89ed67363165b9fcf86c192b2be4e268d08005dd82d51265160c637abe072f2f2e378c4b315a75bd3d3e602c3e75bdd451a3b0190f8cf 110916 runit_2.1.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/runit"
   ],
   "Files": [
-    "a1d6f9d125984eb479bc5b5c8670d1dd 70008 runit_2.2.0-3.debian.tar.xz 10e8d5db0cde480d3e2f8547e2d9d117 2053 runit_2.2.0-3.dsc a3f8d44f0c2f3bb530f31fbb58f709ba 111395 runit_2.2.0.orig.tar.gz"
+    "da47d065d60824f03c4bde8681d14e61 63024 runit_2.1.2-54.debian.tar.xz 836cf34a9ad643c5c38cb427fe2027f9 2294 runit_2.1.2-54.dsc 6c985fbfe3a34608eb3c53dc719172c4 110916 runit_2.1.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "runit"
   ],
   "Package-List": [
-    "getty-run deb admin optional arch=all runit deb admin optional arch=any runit-init deb admin optional arch=any protected=yes runit-run deb admin optional arch=all"
+    "getty-run deb admin optional arch=all runit deb admin optional arch=any runit-init deb admin optional arch=any runit-run deb admin optional arch=all runit-systemd deb oldlibs optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/runit.git"
   ],
   "Version": [
-    "2.2.0-3"
+    "2.1.2-54"
   ]
 }

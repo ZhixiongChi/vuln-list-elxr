@@ -6,22 +6,22 @@
     "wodim, genisoimage, icedax, cdrkit-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libbz2-dev, zlib1g-dev, cmake, libcap2-dev [linux-any], libcam-dev [kfreebsd-any], libmagic-dev"
+    "debhelper-compat (= 13), libbz2-dev, zlib1g-dev, cmake (\u003e= 2.4.2), libcap2-dev [linux-any], libcam-dev [kfreebsd-any], libmagic-dev"
   ],
   "Checksums-Sha1": [
-    "785a5cfc71d95c5ba436f2be8c56f2f14b639b76 29888 cdrkit_1.1.11-4.debian.tar.xz b24f2a12164f22598a3760933c3207826ccce9c2 2127 cdrkit_1.1.11-4.dsc 3f7ddc06db0272942e1a4cd98c3c96462df77387 1445133 cdrkit_1.1.11.orig.tar.gz"
+    "1548fc819544254cf76496c2fd77486b130de45f 28420 cdrkit_1.1.11-3.4.debian.tar.xz 4bacd381cf811e882f12255d2a228b8a02fd42bd 2046 cdrkit_1.1.11-3.4.dsc 3f7ddc06db0272942e1a4cd98c3c96462df77387 1445133 cdrkit_1.1.11.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "734912e1c2d43e7075e9c54b1d82e3dd6f027d776b1e822f2d0bd162073c37f6 29888 cdrkit_1.1.11-4.debian.tar.xz 29c99a928373c122b15091fbd7eac4711667bc73bb6fbee3ce2642b617aea040 2127 cdrkit_1.1.11-4.dsc d1c030756ecc182defee9fe885638c1785d35a2c2a297b4604c0e0dcc78e47da 1445133 cdrkit_1.1.11.orig.tar.gz"
+    "2f4743f114b84f239101b0316d6b961750941bb7ee1283fa6c7fd8765fa3160e 28420 cdrkit_1.1.11-3.4.debian.tar.xz a3e2dc47e7121bfe929181ee45c7c41419ff970000c30b38d6d55bbae2a6d06b 2046 cdrkit_1.1.11-3.4.dsc d1c030756ecc182defee9fe885638c1785d35a2c2a297b4604c0e0dcc78e47da 1445133 cdrkit_1.1.11.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "4e1811eca328f5dfc16e4eed35d0970d1d0ea21148dac52e5e0ce049cc0d3809dc51552d370927f8174b4bb81e1e6c3164c7790ea94efd80bd27d4ad9910432c 29888 cdrkit_1.1.11-4.debian.tar.xz d157a4102f5254b76c78a335889f6acaf35cb4769693b9b58d7f01a3e8d30d06df2a3f941c704510b93ad780437d8a79dfef8c75db520d35d4e3268cc6a266a9 2127 cdrkit_1.1.11-4.dsc e5afcd2cb68d39aeff680a0d5b0a7877f94cf6de111b3cb7388261c665fbd3209ce98a20a01911875af7d6b832a156801b1fa46a4481f7c8ba60b22eac0a5b05 1445133 cdrkit_1.1.11.orig.tar.gz"
+    "514b20f8b65006f9905ed73b8482a416783b86b63896e7cdf18e8b305e1decd1b6a91a508610c9524f5e408b563fe0dab569d85e15cbafe5859447ae51d14d76 28420 cdrkit_1.1.11-3.4.debian.tar.xz 02b9f3ca614c043167f83981193a3a7a3d1e8125eeb6d7c5bb1c37e7566f350c6b2afbf494c1ea0c3c28d50c927d5aae52c9b35b870af48e072265a768b5074d 2046 cdrkit_1.1.11-3.4.dsc e5afcd2cb68d39aeff680a0d5b0a7877f94cf6de111b3cb7388261c665fbd3209ce98a20a01911875af7d6b832a156801b1fa46a4481f7c8ba60b22eac0a5b05 1445133 cdrkit_1.1.11.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/c/cdrkit"
   ],
   "Files": [
-    "bc98d23d33cd5aec19dbf929701a79a9 29888 cdrkit_1.1.11-4.debian.tar.xz 38f8cf0ed6d33fc0439ddf2a16590004 2127 cdrkit_1.1.11-4.dsc efe08e2f3ca478486037b053acd512e9 1445133 cdrkit_1.1.11.orig.tar.gz"
+    "c36ea78cea04e2f0b12c8b56d0e9e73d 28420 cdrkit_1.1.11-3.4.debian.tar.xz 8e6bcf7e5a53a502923df956ee02e4e7 2046 cdrkit_1.1.11-3.4.dsc efe08e2f3ca478486037b053acd512e9 1445133 cdrkit_1.1.11.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,18 +36,12 @@
     "cdrkit-doc deb doc optional arch=all genisoimage deb otherosfs optional arch=any icedax deb sound optional arch=any wodim deb otherosfs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "3.9.2"
   ],
   "Uploaders": [
     "Eduard Bloch \u003cblade@debian.org\u003e, Steve McIntyre \u003c93sam@debian.org\u003e"
   ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/cdrkit"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/cdrkit.git"
-  ],
   "Version": [
-    "9:1.1.11-4"
+    "9:1.1.11-3.4"
   ]
 }

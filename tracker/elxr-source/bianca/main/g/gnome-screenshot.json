@@ -6,22 +6,22 @@
     "gnome-screenshot"
   ],
   "Build-Depends": [
-    "appstream, debhelper-compat (= 13), libglib2.0-dev (\u003e= 2.35.1), libgtk-3-dev (\u003e= 3.10.0), libhandy-1-dev (\u003e= 1.5.90), libxext-dev, libxml2-utils, libx11-dev, meson (\u003e= 0.50)"
+    "appstream, debhelper-compat (= 13), dh-sequence-gnome, libglib2.0-dev (\u003e= 2.35.1), libgtk-3-dev (\u003e= 3.10.0), libhandy-1-dev (\u003e= 0.90), libxext-dev, libxml2-utils, libx11-dev, meson (\u003e= 0.50)"
   ],
   "Checksums-Sha1": [
-    "4e9f508ca69b371cc952fa8a5fff52cb0e61bf75 14908 gnome-screenshot_41.0-3.debian.tar.xz b5db0589e21dea468cd1faa8cac380e24c039eb1 2158 gnome-screenshot_41.0-3.dsc 6b4646d6ed0bb4c9c4ab11ffa5e9a1acbbe85373 359500 gnome-screenshot_41.0.orig.tar.xz"
+    "ca5ba78b6508ae352e4261be58c0674e8c457ee7 14820 gnome-screenshot_41.0-2.debian.tar.xz f3d07c2aa14841c51efab4ed0896db5cbabaf0f7 2247 gnome-screenshot_41.0-2.dsc 6b4646d6ed0bb4c9c4ab11ffa5e9a1acbbe85373 359500 gnome-screenshot_41.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "3d185c0d1e8aab8381b9d530f12b4ae4c1049bd5054768197169a95fe2df5b9d 14908 gnome-screenshot_41.0-3.debian.tar.xz 978f230fcd1d167a1368efedbf69ebfd963f12abf85ee84cddd29ee590815f2c 2158 gnome-screenshot_41.0-3.dsc 4adb7dec926428f74263d5796673cf142e4720b6e768f5468a8d0933f98c9597 359500 gnome-screenshot_41.0.orig.tar.xz"
+    "d59b5dff8f337feeb76bb124a6281ed0c33ec4fc685bfa88217dae169a0269a3 14820 gnome-screenshot_41.0-2.debian.tar.xz 434c44bcdfc203ef66c726cabb372d36420b00a713e991065e8283cbe9cbf5e3 2247 gnome-screenshot_41.0-2.dsc 4adb7dec926428f74263d5796673cf142e4720b6e768f5468a8d0933f98c9597 359500 gnome-screenshot_41.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "d17b29a03b68bcb8e48e8da0bd1387ddef022275f60f5ce426b0cb2db3640697d27dbb744632d8d76d774160bfa7f90157f6d87dfac6c2a73fa4208216734fc7 14908 gnome-screenshot_41.0-3.debian.tar.xz bbb85297ac55c527812970a4d10a308b783f993c7e713a61ea9f29f253906f7fdae88eef24d701edb754c743d08e33aea0796ff1fb0e500f47ee8a9f07bb0767 2158 gnome-screenshot_41.0-3.dsc ab6c7e22cbca2739844707e59329ecd67901e04f968bd0b20a07dffff825e9772697ebf20a1ab2a920fa839ea40d0bd872d17db2b4cb7856a6f8ee4ec1426d19 359500 gnome-screenshot_41.0.orig.tar.xz"
+    "dbbd84b82a8536c724e7b8b21c43b4cc94e9dfb991828b95d363870dd4337f352806c1bde78bf2cc61792e4b1c1e3f74c4c1694c389109d18151cfa94f989e2a 14820 gnome-screenshot_41.0-2.debian.tar.xz a7fa02f972e12d2322057142c8e193bfebb812022a2895b4a4f3b59f3e20a303d8837dd9dcdaecb700ea129c930410f73ab228d4365a55c2fb82a5cc773b3ac4 2247 gnome-screenshot_41.0-2.dsc ab6c7e22cbca2739844707e59329ecd67901e04f968bd0b20a07dffff825e9772697ebf20a1ab2a920fa839ea40d0bd872d17db2b4cb7856a6f8ee4ec1426d19 359500 gnome-screenshot_41.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gnome-screenshot"
   ],
   "Files": [
-    "695eb4217567dc8f1810ce50061df64f 14908 gnome-screenshot_41.0-3.debian.tar.xz dbf3a2bfa714cd864d5204674aca892c 2158 gnome-screenshot_41.0-3.dsc 3d0199188d8ba07399e468a61e0174e8 359500 gnome-screenshot_41.0.orig.tar.xz"
+    "b366cc79c4538798ca7a7f699d618a38 14820 gnome-screenshot_41.0-2.debian.tar.xz 96aec417cc9b10ed7ce08b4125457639 2247 gnome-screenshot_41.0-2.dsc 3d0199188d8ba07399e468a61e0174e8 359500 gnome-screenshot_41.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "gnome-screenshot deb gnome optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.0"
   ],
   "Uploaders": [
-    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
+    "Jeremy Bicha \u003cjbicha@debian.org\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/gnome-screenshot"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/gnome-screenshot.git"
   ],
   "Version": [
-    "41.0-3"
+    "41.0-2"
   ]
 }

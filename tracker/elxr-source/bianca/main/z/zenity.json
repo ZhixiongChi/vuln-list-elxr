@@ -6,22 +6,22 @@
     "zenity, zenity-common"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gnome, help2man, itstool, libadwaita-1-dev (\u003e= 1.2), libglib2.0-dev, meson"
+    "debhelper-compat (= 13), dh-sequence-gnome, itstool, libglib2.0-dev, libgtk-3-dev (\u003e= 3.16.0), libnotify-dev (\u003e= 0.6.1), libwebkit2gtk-4.1-dev (\u003e= 2.8.1) [!hurd-i386 !ia64 !kfreebsd-any !sh4], meson (\u003e= 0.53.0)"
   ],
   "Checksums-Sha1": [
-    "65e8675e6a52b7a88c253951df634d6b0651a570 8988 zenity_4.1.90-1.debian.tar.xz 39879bd560fd8b3746e29e1c51cb822959082951 2133 zenity_4.1.90-1.dsc fb7620cb57e99ec2a7605f82708abe2756c75e60 2635548 zenity_4.1.90.orig.tar.xz"
+    "2e34888837cd8cff395d9ecbb00c4b775bd71523 7944 zenity_3.44.0-1.debian.tar.xz 545f6b592cb2de98f6d90a99e7702f1056eab0cd 2265 zenity_3.44.0-1.dsc 68d89138a63dace96291f4795bf00e927c381ab4 3096684 zenity_3.44.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "f9fb38d5273969461026f76a3410c71bffb31189295a97197cd5d3b5e40801ce 8988 zenity_4.1.90-1.debian.tar.xz 04a95a7308927013cb8c088cb63c6d0650bae8ce203fb4683152ef16207c5384 2133 zenity_4.1.90-1.dsc bf3679c6205ff48dcebd1e1dff3a3a4a6a0b3a53e1cbc3b098a9ec0b62bd7236 2635548 zenity_4.1.90.orig.tar.xz"
+    "18fb090f66ba5a0134fef880a8c51311c3345ed47253ef2c447b710741a0bd2c 7944 zenity_3.44.0-1.debian.tar.xz 740fda5e8dbb2577b61187630c07e72aa6a1287fbf2b093265107e23a041d382 2265 zenity_3.44.0-1.dsc c15582301ed90b9d42ce521dbccf99a989f22f12041bdd5279c6636da99ebf65 3096684 zenity_3.44.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "ee94c95b67ca96194b08e3b794e17909fad13543aa973c09dd2ea78dfc5bef56550d69c546b7c3d673ab9caf727eff34cccadb7cabc1a98cafb8a77629e5bce7 8988 zenity_4.1.90-1.debian.tar.xz 77f84156e26056190e64c3b26bc02aaf0505335e24c82e306fdc97b566dcba1b910341136f95e12ffccb984002a6c86c94e6b4907a2440be39f4ad36e3d45a06 2133 zenity_4.1.90-1.dsc 0a0dc4c184b11dd9b928b56f42d9240ac08b0e09a415165951cabbc5fb95655cc503923fd61c165585748765657612f69447ef914837ecb8a5df72c7e402444b 2635548 zenity_4.1.90.orig.tar.xz"
+    "1303f0c31cdc45ab8f8f88427c50aa5f545708c0df2d7f4a4db48869cb15e90282cf73235d34f0ef606153307cc1b84fbbc468af7fac16764c59e6d40b836a3b 7944 zenity_3.44.0-1.debian.tar.xz b36a77240d808827ea2fd06356feb983990a04721a1f9048fdb7270a386bf12a173c18e1878f0e82d49e284f4925002c1e7129f443cfff8c05a45949fd05e7dc 2265 zenity_3.44.0-1.dsc 806fff8f239dfa5da32e75bbc1fc3a6dc50b49ea8e6ca64cead9dd40adfe4741237c25ae5caaac1997ec7f274e9379b6607d254caf8a509aa01f3eba03cb3e7c 3096684 zenity_3.44.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/z/zenity"
   ],
   "Files": [
-    "800e132a799cc112aed5a6b14f2fc6fb 8988 zenity_4.1.90-1.debian.tar.xz 32cbfbe1aa18b7393423065221d7b0c1 2133 zenity_4.1.90-1.dsc 247e96d397fe1ebf840a97c4a2c2b939 2635548 zenity_4.1.90.orig.tar.xz"
+    "4eb09c2d760f6aadfd6549bdd318aef6 7944 zenity_3.44.0-1.debian.tar.xz 2c44239b9d1770fa289d7969fa4d44f4 2265 zenity_3.44.0-1.dsc fcd10c4b0e0ab660dcf7557e2623cae3 3096684 zenity_3.44.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "zenity deb gnome optional arch=any zenity-common deb gnome optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Uploaders": [
-    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Sebastien Bacher \u003cseb128@debian.org\u003e"
+    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e, Sebastien Bacher \u003cseb128@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/zenity"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/zenity.git"
   ],
   "Version": [
-    "4.1.90-1"
+    "3.44.0-1"
   ]
 }

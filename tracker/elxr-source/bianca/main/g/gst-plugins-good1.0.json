@@ -6,22 +6,22 @@
     "gstreamer1.0-pulseaudio, gstreamer1.0-qt5, gstreamer1.0-qt6, gstreamer1.0-gtk3, gstreamer1.0-plugins-good"
   ],
   "Build-Depends": [
-    "debhelper, debhelper-compat (= 13), dpkg-dev (\u003e= 1.15.1), meson (\u003e= 0.62), pkgconf (\u003e= 0.11.0), xvfb, xauth, libgirepository1.0-dev, libglib2.0-dev (\u003e= 2.62), libgstreamer1.0-dev (\u003e= 1.26.0), libgstreamer-plugins-base1.0-dev (\u003e= 1.26.0), gstreamer1.0-plugins-base (\u003e= 1.26.0), liborc-0.4-dev (\u003e= 1:0.4.17), libcairo2-dev (\u003e= 1.10.0), libcaca-dev, libspeex-dev (\u003e= 1.1.6), libpng-dev, libshout-dev, libjpeg-dev, libaa1-dev (\u003e= 1.4p5), libflac-dev (\u003e= 1.1.4), libdv4-dev | libdv-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxml2-dev, libxv-dev, libx11-xcb-dev, libgtk-3-dev (\u003e= 3.15), libtag1-dev (\u003e= 1.5), libwavpack-dev (\u003e= 4.60), libpulse-dev (\u003e= 2.0), libbz2-dev, libjack-jackd2-dev, libvpx-dev (\u003e= 1.7), libmp3lame-dev, libmpg123-dev (\u003e= 1.13), libtwolame-dev (\u003e= 0.3.10), libopencore-amrnb-dev, libopencore-amrwb-dev, qtbase5-dev [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hurd-amd64 hurd-i386 powerpc ppc64 sparc64], qtbase5-private-dev [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hurd-amd64 hurd-i386 powerpc ppc64 sparc64], qtdeclarative5-dev [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hurd-amd64 hurd-i386 powerpc ppc64 sparc64], qttools5-dev [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hurd-amd64 hurd-i386 powerpc ppc64 sparc64], qt6-base-private-dev [amd64 arm64 armel armhf mips64el ppc64el riscv64 s390x hurd-amd64 hurd-i386 powerpc ppc64 sparc64], qt6-declarative-dev [amd64 arm64 armel armhf mips64el ppc64el riscv64 s390x hurd-amd64 hurd-i386 powerpc ppc64 sparc64], qt6-shader-baker [amd64 arm64 armel armhf mips64el ppc64el riscv64 s390x hurd-amd64 hurd-i386 powerpc ppc64 sparc64], qt6-tools-dev [amd64 arm64 armel armhf mips64el ppc64el riscv64 s390x hurd-amd64 hurd-i386 powerpc ppc64 sparc64], qt6-wayland-dev [amd64 arm64 armel armhf mips64el ppc64el riscv64 s390x powerpc ppc64 sparc64], libqt5x11extras5-dev [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hurd-amd64 hurd-i386 powerpc ppc64 sparc64], libqt5waylandclient5-dev [amd64 arm64 armel armhf mips64el ppc64el riscv64 s390x powerpc ppc64 sparc64], libraw1394-dev (\u003e= 2.0.0) [linux-any], libiec61883-dev (\u003e= 1.0.0) [linux-any], libavc1394-dev [linux-any], libv4l-dev [linux-any], libgudev-1.0-dev (\u003e= 147) [linux-any], nasm (\u003e= 2.13) [any-amd64]"
+    "debhelper, debhelper-compat (= 13), dpkg-dev (\u003e= 1.15.1), meson (\u003e= 0.62), pkg-config (\u003e= 0.11.0), xvfb, xauth, libgirepository1.0-dev, libglib2.0-dev (\u003e= 2.62), libgstreamer1.0-dev (\u003e= 1.22.0), libgstreamer-plugins-base1.0-dev (\u003e= 1.22.0), gstreamer1.0-plugins-base (\u003e= 1.22.0), liborc-0.4-dev (\u003e= 1:0.4.17), libcairo2-dev (\u003e= 1.10.0), libcaca-dev, libspeex-dev (\u003e= 1.1.6), libpng-dev, libshout3-dev, libjpeg-dev, libaa1-dev (\u003e= 1.4p5), libflac-dev (\u003e= 1.1.4), libdv4-dev | libdv-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxml2-dev, libxv-dev, libx11-xcb-dev, libgtk-3-dev (\u003e= 3.15), libtag1-dev (\u003e= 1.5), libwavpack-dev (\u003e= 4.60), libpulse-dev (\u003e= 2.0), libbz2-dev, libjack-jackd2-dev, libvpx-dev (\u003e= 1.7), libmp3lame-dev, libmpg123-dev (\u003e= 1.13), libtwolame-dev (\u003e= 0.3.10), qtbase5-dev [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x hurd-i386 powerpc ppc64 riscv64 sparc64], qtbase5-private-dev [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x hurd-i386 powerpc ppc64 riscv64 sparc64], qtdeclarative5-dev [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x hurd-i386 powerpc ppc64 riscv64 sparc64], qt6-base-dev [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x hurd-i386 powerpc ppc64 riscv64 sparc64], qt6-declarative-dev [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x hurd-i386 powerpc ppc64 riscv64 sparc64], qt6-tools-dev [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x hurd-i386 powerpc ppc64 riscv64 sparc64], libqt5x11extras5-dev [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x hurd-i386 powerpc ppc64 riscv64 sparc64], libqt5waylandclient5-dev [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x powerpc ppc64 riscv64 sparc64], libraw1394-dev (\u003e= 2.0.0) [linux-any], libiec61883-dev (\u003e= 1.0.0) [linux-any], libavc1394-dev [linux-any], libv4l-dev [linux-any], libgudev-1.0-dev (\u003e= 147) [linux-any], nasm (\u003e= 2.13) [any-amd64]"
   ],
   "Checksums-Sha1": [
-    "43b64896cea089014d71dd97a075ee30e5549684 42592 gst-plugins-good1.0_1.26.2-1.debian.tar.xz e94c9247f442a57f5ee7061afced3a55fcba72bc 5231 gst-plugins-good1.0_1.26.2-1.dsc 0b55df1cee4964864c56c453df2b676916c2aa39 2983396 gst-plugins-good1.0_1.26.2.orig.tar.xz 909fc1a7d54483e3ef6c378c2ebf0fb82a60e533 833 gst-plugins-good1.0_1.26.2.orig.tar.xz.asc"
+    "63e0e6bdbdde6ea92e79944d432d33fab5840bc6 55260 gst-plugins-good1.0_1.22.0-5+deb12u3.debian.tar.xz ea77e17d0b007b965c1dd885730395ceefeba1ee 4826 gst-plugins-good1.0_1.22.0-5+deb12u3.dsc b6965318a0b7a568cdd36047e35ebf66fa13cf35 2795268 gst-plugins-good1.0_1.22.0.orig.tar.xz 63b41d0e3c1a4c288699a4af688de7b1ff9910f4 833 gst-plugins-good1.0_1.22.0.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "387c5e11187ad50e054f159e712b52dc2d4845dd3289725968c7102bc94548c9 42592 gst-plugins-good1.0_1.26.2-1.debian.tar.xz 86bb7ccfeb54c5113241eedcf95068fd34c046efd7a11a21bd9c30ee968cc992 5231 gst-plugins-good1.0_1.26.2-1.dsc d864b9aec28c3a80895468c909dd303e5f22f92d6e2b1137f80e2a1454584339 2983396 gst-plugins-good1.0_1.26.2.orig.tar.xz a52f49271f6831942bad02fa2d6c54675b1bda054396ed76a9f0515b3d3888c4 833 gst-plugins-good1.0_1.26.2.orig.tar.xz.asc"
+    "1d2f05661cab27638a44d89170e34f2c34f73fd68968d407391e320f7d6dd9d8 55260 gst-plugins-good1.0_1.22.0-5+deb12u3.debian.tar.xz e588ced00d927ea420c4c6a3c341ae35ed08351f0e7c6e17f6d477f109ae8e84 4826 gst-plugins-good1.0_1.22.0-5+deb12u3.dsc 582e617271e7f314d1a2211e3e3856ae2e4303c8c0d6114e9c4a5ea5719294b0 2795268 gst-plugins-good1.0_1.22.0.orig.tar.xz 524118ced8783927ca1a9829b68608f0690f2de78ae065d9cb8d06cc4e24f099 833 gst-plugins-good1.0_1.22.0.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "7420b7c0ef14a7ae43714b32fdb49f244e7fb80b068d7bd8727e633ad60d2cce5c225cbdeabd9a8d448466e9b31bbe6ca1ce98a155bb969ed26d27918a60df09 42592 gst-plugins-good1.0_1.26.2-1.debian.tar.xz 9f3dcbc99f781ddee656a52e2be32a03db8c74aad280b2d32aaab1116fd0db3732691ee1403cdd70b311dc4c3590761e800f74713cd19007555cdcdc951644f3 5231 gst-plugins-good1.0_1.26.2-1.dsc f96d3d5bff134075273bff64dafac932cb2577f61d7bdb3d4b8d4cad9166c67822c22c8b25fb836094407c7d2a62410fb93ad814827775bd9dcee146078cee4d 2983396 gst-plugins-good1.0_1.26.2.orig.tar.xz b2d5c5b34d92d4a2798a4e463fe187f7771399c59b20e23763e0774eaae1e5be052ff5d2fd976b1289f0e58fcb9e00fb9089f071967781633fbf0a5eb6320e74 833 gst-plugins-good1.0_1.26.2.orig.tar.xz.asc"
+    "e185e29d80bd295adae8000ad7bf7e08613477da1f95e47311f2d309e303d39412bef45e5f43cf65f56eabbc0a830aeef7d6b1cacdcbb6973d63748d7c74415b 55260 gst-plugins-good1.0_1.22.0-5+deb12u3.debian.tar.xz b05dabd8fce34144e919ec854def11284792f21bff86a76c97ace8074671a4dbb622701c9347a28f1bd184ecceb71c3ae9efafd00291750ed7da60e93caec797 4826 gst-plugins-good1.0_1.22.0-5+deb12u3.dsc 1cad9a6797d4383236704b87870bf7ab4a23adda1dfdb9928bcf3479013662e6d55ff6f779297cfd9204636cc070795fead4a5935e8953a986aaf7b2eea4572b 2795268 gst-plugins-good1.0_1.22.0.orig.tar.xz 17a7b79b99453078b1863442cd3e24074d1ea3962d6545131461c4098a779991328e51b87c1e3e9d22bf1238fde8c9d7d7a1cd461ad8362a3d9f754019ed54c8 833 gst-plugins-good1.0_1.22.0.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/g/gst-plugins-good1.0"
   ],
   "Files": [
-    "670cf7dd415ab551b9817ba6f0b3c536 42592 gst-plugins-good1.0_1.26.2-1.debian.tar.xz 27a63d598347a2d8da331b6228e8ec3a 5231 gst-plugins-good1.0_1.26.2-1.dsc 7062bc600dddee1f2a33df6fed7c27cc 2983396 gst-plugins-good1.0_1.26.2.orig.tar.xz f72aeca6265ecbbe9f0c992e6bc05aa6 833 gst-plugins-good1.0_1.26.2.orig.tar.xz.asc"
+    "9672616fa9f3f83e9a94171c582cc207 55260 gst-plugins-good1.0_1.22.0-5+deb12u3.debian.tar.xz fb44c69127a3df01352999d52d158ce8 4826 gst-plugins-good1.0_1.22.0-5+deb12u3.dsc 4034320097501bccb2272a52874caaea 2795268 gst-plugins-good1.0_1.22.0.orig.tar.xz 5e7ae40f8378287a1964fdc8dcb75976 833 gst-plugins-good1.0_1.22.0.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,13 @@
     "gst-plugins-good1.0"
   ],
   "Package-List": [
-    "gstreamer1.0-gtk3 deb graphics optional arch=any gstreamer1.0-plugins-good deb libs optional arch=any gstreamer1.0-pulseaudio deb oldlibs optional arch=any gstreamer1.0-qt5 deb graphics optional arch=amd64,arm64,armel,armhf,i386,mips64el,ppc64el,riscv64,s390x,hurd-amd64,hurd-i386,powerpc,ppc64,sparc64 gstreamer1.0-qt6 deb graphics optional arch=amd64,arm64,armel,armhf,mips64el,ppc64el,riscv64,s390x,hurd-amd64,hurd-i386,powerpc,ppc64,sparc64"
+    "gstreamer1.0-gtk3 deb graphics optional arch=any gstreamer1.0-plugins-good deb libs optional arch=any gstreamer1.0-pulseaudio deb oldlibs optional arch=any gstreamer1.0-qt5 deb graphics optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,s390x,hurd-i386,powerpc,ppc64,riscv64,sparc64 gstreamer1.0-qt6 deb graphics optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,s390x,hurd-i386,powerpc,ppc64,riscv64,sparc64"
   ],
   "Standards-Version": [
     "4.6.2"
   ],
   "Uploaders": [
-    "Sebastian Dröge \u003cslomo@debian.org\u003e, Sjoerd Simons \u003csjoerd@debian.org\u003e, Marc Leeman \u003cmarc.leeman@gmail.com\u003e,"
+    "Sebastian Dröge \u003cslomo@debian.org\u003e, Sjoerd Simons \u003csjoerd@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gstreamer-team/gst-plugins-good1.0/"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gstreamer-team/gst-plugins-good1.0.git"
   ],
   "Version": [
-    "1.26.2-1"
+    "1.22.0-5+deb12u3"
   ]
 }

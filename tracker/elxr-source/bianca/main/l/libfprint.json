@@ -3,28 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "libfprint-2-2, libfprint-2-dev, libfprint-2-doc, gir1.2-fprint-2.0, libfprint-2-tests"
+    "libfprint-2-2, libfprint-2-dev, libfprint-2-doc, gir1.2-fprint-2.0"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, gir1.2-gobject-2.0-dev, gir1.2-gio-2.0-dev, gtk-doc-tools, libcairo-dev \u003c!nocheck\u003e, libgirepository1.0-dev, libglib2.0-dev, libgudev-1.0-dev, libgusb-dev, libpixman-1-dev, libssl-dev, meson, python3 \u003c!nocheck\u003e, python3-cairo \u003c!nocheck\u003e, python3-gi \u003c!nocheck\u003e, systemd-dev, umockdev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), gobject-introspection, gtk-doc-tools, libcairo-dev \u003c!nocheck\u003e, libgirepository1.0-dev, libglib2.0-dev (\u003e= 2.56), libgudev-1.0-dev, libgusb-dev (\u003e= 0.3.0), libnss3-dev, libpixman-1-dev, meson (\u003e= 0.49.0), python3 \u003c!nocheck\u003e, python3-cairo \u003c!nocheck\u003e, python3-gi \u003c!nocheck\u003e, umockdev \u003c!nocheck\u003e"
   ],
   "Build-Depends-Indep": [
     "libglib2.0-doc \u003c!nodoc\u003e, libgusb-doc \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "d7bb57a737a73eb4ad6f7d8a8377a192d6f0f503 13416 libfprint_1.94.9-1.debian.tar.xz ac90ae5a44c9104d9452baf1e9d8f11de8efafb0 2633 libfprint_1.94.9-1.dsc 153d3efa4727c1b4dc1016233c36625898364642 7007960 libfprint_1.94.9.orig.tar.xz"
+    "adbb1785a42c25c3f48e4b0559a6413a923a7d23 15340 libfprint_1.94.5-1.debian.tar.xz fa50331bfaf4ead47bf84edae9cff72e46bdcf5d 2554 libfprint_1.94.5-1.dsc 4122f0dc127eb31ef610671925b6134f6492eed9 8922994 libfprint_1.94.5.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "7844cc72add6be4c32e3a359cd63c73ec6ea6fa5de1856c6c1c2dbf0c7930bab 13416 libfprint_1.94.9-1.debian.tar.xz bd515a24464b71b1d4c2ca2ffa70bd0ff7c07b0e57d59b308a0c63f6416aa18e 2633 libfprint_1.94.9-1.dsc 0af811e8b70e8e27d711d0b50d4e628c4092332a1a7e25927ab1b1726b0b515f 7007960 libfprint_1.94.9.orig.tar.xz"
+    "eddcb8a76994bb82077fa293b2f4e4a9a4f2ff62319937ff84523c1023ff22a5 15340 libfprint_1.94.5-1.debian.tar.xz 2a7f843b3ae7bc10fc78f2d564031c48351717769efd1a5b7b9c29261194df55 2554 libfprint_1.94.5-1.dsc 707309cc58012c4c22a318fdb0c6b43b2c96c8e70349ca5edb1feabb65afb63a 8922994 libfprint_1.94.5.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "a5a28429c8fd681278097426a5f40c6f9e5e61bef96d7cf86cdaf80b45123be3321bd958bc2a7c87237d11aef808d4385eab2a439362c1520f89f2e3bd3d9cb3 13416 libfprint_1.94.9-1.debian.tar.xz c65d18c20a2af4534c46147bd3ab024eaa860fecffeee1a556d94fa43b8510195a40bdf21a250df2f0364a4cf0e32766aeb55511660008b375e824d37a04e403 2633 libfprint_1.94.9-1.dsc 19904192db7a64cefd316280a7a5bcd942b44b1644105717bcc7ad139788644eb038711c832f795fe811c31b7c031fd53069a0d5c4f34ab0463a8e91596c79a1 7007960 libfprint_1.94.9.orig.tar.xz"
+    "dba8956693ae5e8bb432c1a6d1763672322d3edaf31332949995efe68571e77e825585f9d53ce5ffae9ef69c3990698dad24dfb5415e6bf52342687331494eee 15340 libfprint_1.94.5-1.debian.tar.xz 13719655aca44af8d9e0a50199b00d1be7e723db1378f1555fc31d35cbbbcd8e07e83bf3e3a16bbb65ee685da01986051d8fa5104f287cfbaa6dbe7b7f3f4b75 2554 libfprint_1.94.5-1.dsc 6a73b3d05bd61b5c74e64d52eba7dab6e97dcf149e32c882e05f15dc7241fd8e78f115957ed52a9657ff0b21642ec633c27cc905cbd4697ed41369508957c989 8922994 libfprint_1.94.5.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/libf/libfprint"
   ],
   "Files": [
-    "bd653819413cea5ae4e64ef79959c3ba 13416 libfprint_1.94.9-1.debian.tar.xz 99ad6e88fd2dc225ece065a98493d448 2633 libfprint_1.94.9-1.dsc 18922cce3eb8619569d67554f0b0f541 7007960 libfprint_1.94.9.orig.tar.xz"
+    "89b18e39cc2848942ed0b05d10fdb72e 15340 libfprint_1.94.5-1.debian.tar.xz aac3727bec4ea82239c2815f54267ca9 2554 libfprint_1.94.5-1.dsc 0c7d1dca0e1d7b2e28e659ae75bb93b9 8922994 libfprint_1.94.5.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "libfprint"
   ],
   "Package-List": [
-    "gir1.2-fprint-2.0 deb introspection optional arch=any libfprint-2-2 deb libs optional arch=any libfprint-2-dev deb libdevel optional arch=any libfprint-2-doc deb doc optional arch=all libfprint-2-tests deb libs optional arch=any"
+    "gir1.2-fprint-2.0 deb introspection optional arch=any libfprint-2-2 deb libs optional arch=any libfprint-2-dev deb libdevel optional arch=any libfprint-2-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Uploaders": [
     "Ulises Vitulli \u003cdererk@debian.org\u003e, Marco Trevisan \u003cmarco@ubuntu.com\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/libfprint.git"
   ],
   "Version": [
-    "1:1.94.9-1"
+    "1:1.94.5-1"
   ]
 }

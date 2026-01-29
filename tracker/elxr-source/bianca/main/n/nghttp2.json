@@ -6,25 +6,25 @@
     "libnghttp2-dev, libnghttp2-doc, libnghttp2-14, nghttp2-client, nghttp2-proxy, nghttp2-server, nghttp2"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 13), debhelper-compat (= 13), libc-ares-dev, libcunit1-dev \u003c!nocheck\u003e, libev-dev, libjansson-dev, libjemalloc-dev [!hurd-i386], libssl-dev, libsystemd-dev, libxml2-dev, pkgconf, zlib1g-dev"
+    "debhelper (\u003e= 13), debhelper-compat (= 13), libc-ares-dev, libcunit1-dev \u003c!nocheck\u003e, libev-dev, libjansson-dev, libjemalloc-dev [!hurd-i386], libssl-dev, libsystemd-dev, libxml2-dev, pkg-config, zlib1g-dev"
   ],
   "Build-Depends-Indep": [
     "python3-sphinx, python3-sphinx-rtd-theme"
   ],
   "Checksums-Sha1": [
-    "9e3beebbb5f64ec9f2af0447635a5f39875f5e18 39356 nghttp2_1.64.0-1.1.debian.tar.xz 514dcf11f0436db340ff988fb6b6fcd85bd9fedd 2514 nghttp2_1.64.0-1.1.dsc 422ab3102d4d22ff363fbababe9f66e2ae38db45 1069782 nghttp2_1.64.0.orig.tar.gz"
+    "1df1e9cb689ef10c1722485a469f849d3885db80 19076 nghttp2_1.52.0-1+deb12u2.debian.tar.xz 77adc56fe3c4b03d8ab4a8d3a5b492daf3ebe54b 2541 nghttp2_1.52.0-1+deb12u2.dsc 88b51cc1f474df906ce3c3dc363bdf0cae3d76d0 1064232 nghttp2_1.52.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "02b15d82ad6b62a149481fd2871bda26486457821e9a4fa28897f55e1294f379 39356 nghttp2_1.64.0-1.1.debian.tar.xz 1d0393fc66b1db3e9e842a2a02bf41e7c25b020704ef601b7e5d3f5a0e74cc00 2514 nghttp2_1.64.0-1.1.dsc b452dc69a1fcbc9375389b8b154175d8b7b125cdd713fc426774c2b79a1ebd77 1069782 nghttp2_1.64.0.orig.tar.gz"
+    "37335fd2f60de4e4aada982cbe0f6111437bacf16cba055ea535be9dd2df98c7 19076 nghttp2_1.52.0-1+deb12u2.debian.tar.xz 7105204227770127b9b71c01d5554a2b4c735b074e1e69d5c74939b78b9f84c3 2541 nghttp2_1.52.0-1+deb12u2.dsc 6b71561a9950b4a90fa36aa3160763f1437f3730d7a12434e416aa3f4ab145e0 1064232 nghttp2_1.52.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c3d5633ef15b6e724c082e1ce818914dcfc9b621697f60744358fbb5758e4eddd3743e8db60705a1c02fd2edba086009c421d9d43be884de9888c8e78e6449e9 39356 nghttp2_1.64.0-1.1.debian.tar.xz 210ea3d7805e79fdf45c1cca4f13133334008e083c0bdb57c735157f3dec37361e5d289ea02a45d8fbda1043330ad6756de4d244ada806c2d53e4bfb0f88933a 2514 nghttp2_1.64.0-1.1.dsc 35f8230a0fa2825f0bc400d4852d8e8b484f659c67b00639ccd074a0029088f016e967db2f62b6b64af1f8ef684f5809a833e7f922e38b9405f7cc7756bcfb75 1069782 nghttp2_1.64.0.orig.tar.gz"
+    "acad944b08f88210465db64f2a93ac45876724e127ab0aeed4acf2d87434446323fffb6a933b2bca10964c68ddeb8dfc8020d1931987ee06e55be11b5e05a7a5 19076 nghttp2_1.52.0-1+deb12u2.debian.tar.xz e063b6a8434372c07a6841cc77b3bdba484bf40c738719e54e677491ec9b7b58540cfc023ffc5a37f789d336227be4fa9cbd5963892283f5332ac4327ff804d6 2541 nghttp2_1.52.0-1+deb12u2.dsc cbd3fbc3e4987ef092d6fe6627eec49a14279f345c555f9b77b791e4ac3b2bd358008e3bb9df86946496b1f6223b30462bb6a4ed4d56703e8e2bf6ce72d5aeac 1064232 nghttp2_1.52.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/n/nghttp2"
   ],
   "Files": [
-    "93fd5eeaf78a76619c025cdaf9830bf7 39356 nghttp2_1.64.0-1.1.debian.tar.xz 4189127302966ca1e519ccb79b1c67e3 2514 nghttp2_1.64.0-1.1.dsc a4c2bb361820eedd872af2a4192070b7 1069782 nghttp2_1.64.0.orig.tar.gz"
+    "e2c84e257490c104e20e8abe19df5276 19076 nghttp2_1.52.0-1+deb12u2.debian.tar.xz 69eb01709616cef0d3a99c424fcc21ca 2541 nghttp2_1.52.0-1+deb12u2.dsc 1a6b9d0a167cda033c7525818576dbd7 1064232 nghttp2_1.52.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "libnghttp2-14 deb libs optional arch=any libnghttp2-dev deb libdevel optional arch=any libnghttp2-doc deb doc optional arch=all nghttp2 deb httpd optional arch=all nghttp2-client deb httpd optional arch=any nghttp2-proxy deb httpd optional arch=any nghttp2-server deb httpd optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/debian/nghttp2.git"
   ],
   "Version": [
-    "1.64.0-1.1"
+    "1.52.0-1+deb12u2"
   ]
 }

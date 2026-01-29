@@ -3,28 +3,25 @@
     "arm64"
   ],
   "Binary": [
-    "linux-headers-imx-arm64, linux-headers-rt-imx-arm64, linux-image-6.12.48+deb13-imx-arm64, linux-image-6.12.48+deb13-rt-imx-arm64, linux-image-imx-arm64, linux-image-rt-imx-arm64"
+    "linux-image-6.1.0-41-imx-arm64, linux-image-imx-arm64, linux-headers-imx-arm64, linux-image-6.1.0-41-rt-imx-arm64, linux-image-rt-imx-arm64, linux-headers-rt-imx-arm64"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), python3:any, sbsigntool [amd64 arm64]"
-  ],
-  "Build-Depends-Arch": [
-    "linux-image-6.12.48+deb13-imx-arm64-unsigned (= 6.12.48-elxr1-1) [arm64] \u003c!pkg.linux.nokernel\u003e, kernel-wedge (\u003e= 2.105~) [arm64] \u003c!pkg.linux.nokernel\u003e, kmod [arm64] \u003c!pkg.linux.nokernel\u003e, rsync [arm64] \u003c!pkg.linux.nokernel\u003e, linux-image-6.12.48+deb13-rt-imx-arm64-unsigned (= 6.12.48-elxr1-1) [arm64] \u003c!pkg.linux.nokernel !pkg.linux.quick\u003e"
+    "debhelper-compat (= 12), dh-exec, python3:any, rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (\u003e= 2.102~), linux-imx-support-6.1.0-41 (= 6.1.158-elxr2-1), linux-image-6.1.0-41-imx-arm64-unsigned (= 6.1.158-elxr2-1) [arm64], linux-image-6.1.0-41-rt-imx-arm64-unsigned (= 6.1.158-elxr2-1) [arm64]"
   ],
   "Checksums-Sha1": [
-    "cee8e1bdefd2833625eee5a7859f51d75bf53097 2124 linux-imx-signed-arm64_6.12.48+elxr1+1.dsc d25377ba6a3f85a9c7d852db98a02d6c7af7266e 834644 linux-imx-signed-arm64_6.12.48+elxr1+1.tar.xz"
+    "2079c8e32ee4fb1c81a94e12f34cef65d24d0aff 1689 linux-imx-signed-arm64_6.1.158+elxr2+1.dsc b26cf29e1aa5ec4c6446894a4de68e794bbc0693 779676 linux-imx-signed-arm64_6.1.158+elxr2+1.tar.xz"
   ],
   "Checksums-Sha256": [
-    "467a72255df4119fd610edd7515036d8a490176c9eb0d7bdf8832293688179b1 2124 linux-imx-signed-arm64_6.12.48+elxr1+1.dsc 1f0ca8ce062c78dca96b696373190689aa8406c8d416508a62a0a5df615ed35c 834644 linux-imx-signed-arm64_6.12.48+elxr1+1.tar.xz"
+    "8cf8ea6cb23ef39b585f99f0470a37525a9e9373faef2651126a803f7fc83a62 1689 linux-imx-signed-arm64_6.1.158+elxr2+1.dsc 3d812e4080e0fab27bb1256073e79bd0a71046677e06a1724f187361590d4b30 779676 linux-imx-signed-arm64_6.1.158+elxr2+1.tar.xz"
   ],
   "Checksums-Sha512": [
-    "5af617e3aaf345d1f8cd2c28bed4839c6e4d11daf7b799fce0bf181895b584a7466332262020f44d5bd4a93dfaef69179ca11c8dfd321655ddade2acb3ecd266 2124 linux-imx-signed-arm64_6.12.48+elxr1+1.dsc e7f73f2271865eb247b5369c33efa5ecc48dc2d911fd26c4190670f4bb5bb18106ba6cfedf55bf4c9c43ac2614b7f409f17c96bf7dcdbb88aa09816398aa6b59 834644 linux-imx-signed-arm64_6.12.48+elxr1+1.tar.xz"
+    "84f4cda445119d6a9681a0c8bac2a6b7fbc5efb899ee54f5bf5f1d358fd20aaeb28cb9df9596f6219d64c8dfaa1fba1bf7201994988befb8df89c2ae8c01c334 1689 linux-imx-signed-arm64_6.1.158+elxr2+1.dsc 313b6fa10e6ceeb91e6d4c8c736d3c2559a7fdaa7cba68ce068cdc974745d23d6da1e04f7ddc5484ced383966afa55fa3645ac28f22fde8fa2f095e30abb778c 779676 linux-imx-signed-arm64_6.1.158+elxr2+1.tar.xz"
   ],
   "Directory": [
     "pool/main/l/linux-imx-signed-arm64"
   ],
   "Files": [
-    "52e428a25ab63fec9aa28a4bd7763640 2124 linux-imx-signed-arm64_6.12.48+elxr1+1.dsc 871467af26d2088e935253a83e755985 834644 linux-imx-signed-arm64_6.12.48+elxr1+1.tar.xz"
+    "cee32efef53785eba4ab8285f92e22d1 1689 linux-imx-signed-arm64_6.1.158+elxr2+1.dsc 79eb6cbb74133ae7995e70fbf1b4587d 779676 linux-imx-signed-arm64_6.1.158+elxr2+1.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -39,7 +36,7 @@
     "linux-imx-signed-arm64"
   ],
   "Package-List": [
-    "linux-headers-imx-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.nometa linux-headers-rt-imx-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.nometa,!pkg.linux.quick linux-image-6.12.48+deb13-imx-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel linux-image-6.12.48+deb13-rt-imx-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.quick linux-image-imx-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.nometa linux-image-rt-imx-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.nometa,!pkg.linux.quick"
+    "linux-headers-imx-arm64 deb kernel optional arch=arm64 linux-headers-rt-imx-arm64 deb kernel optional arch=arm64 linux-image-6.1.0-41-imx-arm64 deb kernel optional arch=arm64 linux-image-6.1.0-41-rt-imx-arm64 deb kernel optional arch=arm64 linux-image-imx-arm64 deb kernel optional arch=arm64 linux-image-rt-imx-arm64 deb kernel optional arch=arm64"
   ],
   "Standards-Version": [
     "4.2.0"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/kernel-team/linux.git"
   ],
   "Version": [
-    "6.12.48+elxr1+1"
+    "6.1.158+elxr2+1"
   ]
 }

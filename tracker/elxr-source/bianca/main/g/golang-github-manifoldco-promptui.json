@@ -6,22 +6,25 @@
     "golang-github-manifoldco-promptui-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-chzyer-readline-dev"
+    "debhelper-compat (= 12), dh-golang, golang-any, golang-github-chzyer-readline-dev, golang-github-juju-ansiterm-dev"
   ],
   "Checksums-Sha1": [
-    "f42cf8fd7558e17826c67c6ce91822c58c25c8d3 2728 golang-github-manifoldco-promptui_0.9.0-1.debian.tar.xz c23a7b4d25cbe499d9c30abc39e881cc591e253f 2369 golang-github-manifoldco-promptui_0.9.0-1.dsc a8ca391b5a96588c942b45f5b7b2f22ef563d1a4 25926 golang-github-manifoldco-promptui_0.9.0.orig.tar.gz"
+    "d0688cc868c3e6d5278f7053883659bff21eb43d 2668 golang-github-manifoldco-promptui_0.8.0-2.debian.tar.xz 71c4818c09493355df9e38c2e3c5775f8bc7b29d 2536 golang-github-manifoldco-promptui_0.8.0-2.dsc 170555188866cbf1abc0c166efcea940e37f0c1b 26830 golang-github-manifoldco-promptui_0.8.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "b949677287d742233a515115ba38ac4424910164995a4547dd8795636607dc99 2728 golang-github-manifoldco-promptui_0.9.0-1.debian.tar.xz 7edcb957fcbe48bfc36dcb5d3ba0d4f5857fc6cded3184b1ce09c4467d329e5d 2369 golang-github-manifoldco-promptui_0.9.0-1.dsc 84a72dfb56f61436a04fdde28f62b32aa07af75895e3423f199f7872aea43114 25926 golang-github-manifoldco-promptui_0.9.0.orig.tar.gz"
+    "c3613a505fdec056483d30eb0c0ac14601240ab6e15c0515e2407b5bbeeef127 2668 golang-github-manifoldco-promptui_0.8.0-2.debian.tar.xz e4ab30a5371ba08373b9ff60c2148bbbe04c09172ae69cfccdf2ad2e4a8bc0c7 2536 golang-github-manifoldco-promptui_0.8.0-2.dsc 3ef92d9991f3fe9fa85bdeb8546ae5b2c81a5a478c6ebcf356b2a6c25a59f219 26830 golang-github-manifoldco-promptui_0.8.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "664e9b9ec1b6bde733b0707a5659c914fa60963bcb90e40b7ed7efd07bd0379ade557e8ed91b2d47a896beac38c6e64088774fe4de81fe50573a7fc16a7e2eea 2728 golang-github-manifoldco-promptui_0.9.0-1.debian.tar.xz c4e72b8d327226f0439fc69e99907fb0a364dcc8c36ba43ee98d0d79c92e6d1b031a268369fd2b31616f8c123631e0fb03920d1796b5dd273462cb3b90b777c4 2369 golang-github-manifoldco-promptui_0.9.0-1.dsc 617327beb5a91bdb552746d6b9ee3e61c55d0b0ae9f1488220d001d20f31fd0f5782a6557712b4b98bb27361fbc005c6d3025b41f0a73d6598159bc26c481585 25926 golang-github-manifoldco-promptui_0.9.0.orig.tar.gz"
+    "fe5a522d5c083942debed91b4d7e8756390ae868282febea6645ac7fd2aad98ddf7dbc2d9609af17570162c31d6b5af779bfdcd1121ac1f5b92b4045143aae5f 2668 golang-github-manifoldco-promptui_0.8.0-2.debian.tar.xz f6c952412b94f179ae3f1322ebf51f2ad17734ce9cb4e1d1051f493f4077c052d3259b8960791ff1e70bcb4676de9e89052f822499eaa4c8e20ce3bdd0c50227 2536 golang-github-manifoldco-promptui_0.8.0-2.dsc 052249664117b01479f95a6f0a0cc14bbf09f56dd72373fa71dbec8b6f912ca46456f266295db36fee0b6668176894c419d69b69d56aa23389794e00e4d0315a 26830 golang-github-manifoldco-promptui_0.8.0.orig.tar.gz"
+  ],
+  "Dgit": [
+    "3400eb8d184b01c0a886c2a7080dd43b98e5a3bb debian archive/debian/0.8.0-2 https://git.dgit.debian.org/golang-github-manifoldco-promptui"
   ],
   "Directory": [
     "pool/main/g/golang-github-manifoldco-promptui"
   ],
   "Files": [
-    "d2fb6e1985c8a4901a819555cbdf5c63 2728 golang-github-manifoldco-promptui_0.9.0-1.debian.tar.xz 1266dfa785da6c61b12f855ebc1ae6f5 2369 golang-github-manifoldco-promptui_0.9.0-1.dsc 8865d339adb14dfc52f9f22b59a41e94 25926 golang-github-manifoldco-promptui_0.9.0.orig.tar.gz"
+    "99d993da197ae37b48a2fe62c87eb8b3 2668 golang-github-manifoldco-promptui_0.8.0-2.debian.tar.xz 4aee713eaeb3887496ecd414010ae970 2536 golang-github-manifoldco-promptui_0.8.0-2.dsc cfdee83a7d16fd29808cc353e7800e1e 26830 golang-github-manifoldco-promptui_0.8.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +45,7 @@
     "golang-github-manifoldco-promptui-dev deb devel optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.5.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-manifoldco-promptui.git"
   ],
   "Version": [
-    "0.9.0-1"
+    "0.8.0-2"
   ]
 }

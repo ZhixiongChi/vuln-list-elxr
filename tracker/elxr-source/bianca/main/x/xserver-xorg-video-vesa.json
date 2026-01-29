@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "any-amd64 any-i386 hurd-any kfreebsd-any"
+    "any"
   ],
   "Binary": [
     "xserver-xorg-video-vesa, xserver-xorg-video-vesa-udeb"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), pkgconf, xserver-xorg-dev (\u003e= 2:1.11), x11proto-dev, xutils-dev (\u003e= 1:7.5+4), quilt, libpciaccess-dev (\u003e= 0.12.901)"
+    "debhelper-compat (= 12), pkg-config, xserver-xorg-dev (\u003e= 2:1.11), x11proto-dev, xutils-dev (\u003e= 1:7.5+4), quilt, libpciaccess-dev (\u003e= 0.12.901)"
   ],
   "Checksums-Sha1": [
-    "0e998f2decf87eebf5f7543d71433c6966b1ad48 13915 xserver-xorg-video-vesa_2.6.0-2.diff.gz aef0a26fb51ffc2d96caf819d8beca2c62b1c0f4 2242 xserver-xorg-video-vesa_2.6.0-2.dsc 86610efb676fb72da181ff358e6f63e7c1e5054a 407558 xserver-xorg-video-vesa_2.6.0.orig.tar.gz"
+    "7ea428964bd5ad7bb52a5eca208bc2b4fe0c18ac 11238 xserver-xorg-video-vesa_2.5.0-1.diff.gz 421e68f83e4a23b6abcf30d90db4109368540ff9 2485 xserver-xorg-video-vesa_2.5.0-1.dsc 62ae49bf376c8b0652ddf320bb0f1c856dd0d56b 398587 xserver-xorg-video-vesa_2.5.0.orig.tar.gz d1c9eadb9e67d540c8ef0adb073993ea19468e57 659 xserver-xorg-video-vesa_2.5.0.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "d64d5e6b98344c22d105437377d52a5f16af2fff226ec7c22cb7ca8d9287d8df 13915 xserver-xorg-video-vesa_2.6.0-2.diff.gz 12a7140a23ab40a038c0cba8d7488a237a5726a69d5279b3baefa149dfeefd51 2242 xserver-xorg-video-vesa_2.6.0-2.dsc dbf3f95bd0b598ac7e7fc9774b37dc387eb4f805f63e93f720a577c23500881c 407558 xserver-xorg-video-vesa_2.6.0.orig.tar.gz"
+    "adc0eae6394040ec7c1667f34c3cdc1b16eb773aa8d74b89a499c2b7a491d9d8 11238 xserver-xorg-video-vesa_2.5.0-1.diff.gz b5a12168b65b8d1a7c67d7873c28949d6d491f26239d12848bc1f44154c787f4 2485 xserver-xorg-video-vesa_2.5.0-1.dsc be10771dbfdec9e8c4f1b56653b0e6b05b3e5f79c26507e3184ad27b4f00c09d 398587 xserver-xorg-video-vesa_2.5.0.orig.tar.gz cd31765de523d5a35052fefeb0c315b99d588c312bb578ab49c3172c2601c47b 659 xserver-xorg-video-vesa_2.5.0.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "e5bf594630443b7f2cad653e22a433f1e54d48db12be0e7871fa6292d5d1f8b0af989b8ae4f70444bf535974e33287decf39e9c5c148f07306be8d095556a544 13915 xserver-xorg-video-vesa_2.6.0-2.diff.gz 35866731a9f6f7786056838f692f79ecfde15b33d0b2a98755a89bd4ab0f42ded8388292f5918002bb400a9cff3e7fb4ff7471fc2fd261e40a8a467e5f78d9d2 2242 xserver-xorg-video-vesa_2.6.0-2.dsc 229535ad7721e5bb7ba223cae7134fc2984a60d765ced10917a69c04173915a5799472263a1623d4339325d6390d4aaf4ce400b67c1225ab2b31a13e0e928f2f 407558 xserver-xorg-video-vesa_2.6.0.orig.tar.gz"
+    "b61267fc774770196f18e57c71d2cd08eefacc0d3b80c7b433e29b596cabb1efe2d4c70696be7d60e4e0a70ac0a22b751f56b67068ac32b412c01b4600b7a7ba 11238 xserver-xorg-video-vesa_2.5.0-1.diff.gz 40cdf3976923f48e6b9621a84c9d9fc005f491b0908b75b92e165aceb35ddb0aec5585df85ef2953bdf66b70be9dcd643bd8481e8ebd6be6f38e010815ee2618 2485 xserver-xorg-video-vesa_2.5.0-1.dsc 446344bd7fb6f1f39561b5be1c7eaf95a8cb9804c8d292c4f899bfe2099c68d2480642205d8ba5338f7b7dda2830c0c5a9383973fd58a915611b78b15cc553c9 398587 xserver-xorg-video-vesa_2.5.0.orig.tar.gz 57485b5552d0b856560e3f48f31e55a930fb4cfe1eab7814f1c59dc4804bc993f9dc1e3dd00b37bb8be150c14fcdf413babb17f926607d12fbd9c35638f74126 659 xserver-xorg-video-vesa_2.5.0.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/x/xserver-xorg-video-vesa"
   ],
   "Files": [
-    "c7e9794a56d91682e9208f51a5119434 13915 xserver-xorg-video-vesa_2.6.0-2.diff.gz fc2c05eabd92ddfec9d63cfd3b28ecd9 2242 xserver-xorg-video-vesa_2.6.0-2.dsc d4724e0178d5f3fe0d0da0e9a202d84f 407558 xserver-xorg-video-vesa_2.6.0.orig.tar.gz"
+    "8028d8bd51bb67f1800afacba8530454 11238 xserver-xorg-video-vesa_2.5.0-1.diff.gz deced100b1e7f0b58ee7d426ae1e937d 2485 xserver-xorg-video-vesa_2.5.0-1.dsc 1cc6d82b149d3c2cf900e7771e154e1a 398587 xserver-xorg-video-vesa_2.5.0.orig.tar.gz 46f1419a0ca7639a5f460564a5bfaf84 659 xserver-xorg-video-vesa_2.5.0.orig.tar.gz.asc"
   ],
   "Format": [
     "1.0"
@@ -33,10 +33,10 @@
     "xserver-xorg-video-vesa"
   ],
   "Package-List": [
-    "xserver-xorg-video-vesa deb x11 optional arch=any-amd64,any-i386 xserver-xorg-video-vesa-udeb udeb debian-installer optional arch=hurd-any,kfreebsd-any"
+    "xserver-xorg-video-vesa deb x11 optional arch=any xserver-xorg-video-vesa-udeb udeb debian-installer optional arch=hurd-any,kfreebsd-any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.5.0"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/xorg-team/driver/xserver-xorg-video-vesa"
@@ -45,6 +45,6 @@
     "https://salsa.debian.org/xorg-team/driver/xserver-xorg-video-vesa.git"
   ],
   "Version": [
-    "1:2.6.0-2"
+    "1:2.5.0-1"
   ]
 }

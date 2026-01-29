@@ -6,25 +6,22 @@
     "golang-google-protobuf-dev, protoc-gen-go"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-google-go-cmp-dev"
+    "debhelper-compat (= 13), dh-golang (\u003e= 1.48~), golang-any, golang-github-google-go-cmp-dev (\u003e= 0.5.0)"
   ],
   "Checksums-Sha1": [
-    "f5f7ada7597180c6de735e86a749aee478fa57b4 4068 golang-google-protobuf_1.36.5-1.debian.tar.xz f43497bbd736d6e0b5b7bffd07c028afeee9ed68 1881 golang-google-protobuf_1.36.5-1.dsc 17d480af68b1122650f7330915a69f9c2cc5bf2e 977592 golang-google-protobuf_1.36.5.orig.tar.xz"
+    "6b8d7f16e0644e1e391766caef72b896205c3e7a 4436 golang-google-protobuf_1.28.1-3.debian.tar.xz 3b6b8e0e517617ea0e008ef642ca663376d23a38 1735 golang-google-protobuf_1.28.1-3.dsc a4f6891ee367b8a73be5210ddb661b3cf2098603 1280817 golang-google-protobuf_1.28.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "9a9d6df5830241f04d648ab6015369b12e8f75dd3f1969476fcefe5b390d3f41 4068 golang-google-protobuf_1.36.5-1.debian.tar.xz 423602c8b3eee246901d1c5d9d75c3862ec095861f9608b48e10c2766e669c16 1881 golang-google-protobuf_1.36.5-1.dsc 5a598f917fc356c8be8565609de5c53dc57e164461ac5687cdc46380d9b2cccb 977592 golang-google-protobuf_1.36.5.orig.tar.xz"
+    "a2de13ca581c981d00d44fc292d8d8983d05fc0656a597436edb96b1012dd1e3 4436 golang-google-protobuf_1.28.1-3.debian.tar.xz 4a5f0c22dcd518a39456b647577c2d81e9d2dec5ac86939ae04b66bf5e40aad8 1735 golang-google-protobuf_1.28.1-3.dsc bfa538fd1bc83975825d3ef7d62c35f348340c40d4d5cd3a079d7e4963ce8d99 1280817 golang-google-protobuf_1.28.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "5d3b618e80b3a42be58535c683548c45f3956e1cb2748fb4809c488b6f8c05ea99ff599540b5ce6f5789d5897570e07c3e266faba78ec5cd43b0d033615f0b2c 4068 golang-google-protobuf_1.36.5-1.debian.tar.xz d9fe1d36fe49fae487b4d86bf08f01276f0422a39edc83b9531f18124db4807f3fbc8c7e9cab246ccfa0fb92c87105142d8567d00409fe8a7fa6642fc3b5277e 1881 golang-google-protobuf_1.36.5-1.dsc 9315d1088d4d3ff6c5d97cdb14cc45fec72e13a0713d52387bd0e5dd23cb0850c870a667a587c920e87f4841a56cba67f0c3253c22caf7b956a936d783697d77 977592 golang-google-protobuf_1.36.5.orig.tar.xz"
-  ],
-  "Dgit": [
-    "3a010202174e70fc0638e80f96f2476d1b81dce5 debian archive/debian/1.36.5-1 https://git.dgit.debian.org/golang-google-protobuf"
+    "4cc78be92b06427ab860d9d76d53d7adc0eaec74299f9a0f5618a1ed2f651e4cce1fa049e7169a006c9b041d219de729b3e2b9ddb969158106430c2895fb2f38 4436 golang-google-protobuf_1.28.1-3.debian.tar.xz 9b231bf89fcb8273fbf3b3d670c126932b0a1b4ea7e2257e5a058641e07db83056681f5df6004dbf96a715f4aafd0a9e96638ea2e89e8a7c543648d03da75a29 1735 golang-google-protobuf_1.28.1-3.dsc 1de1d7070602c8f149182a83383798435f5c22e4ff48e30dbafc168f58a3aee68a8bb13a7c012279faf505c669b6f88080aa56f68a12809922f00d79db5ec289 1280817 golang-google-protobuf_1.28.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-google-protobuf"
   ],
   "Files": [
-    "3b93738a7c51ec6dc75e0d19567da11e 4068 golang-google-protobuf_1.36.5-1.debian.tar.xz cb16beae8bf9332313b8fefc3e6c178a 1881 golang-google-protobuf_1.36.5-1.dsc 3177de26935bc1be3261316818cc56f9 977592 golang-google-protobuf_1.36.5.orig.tar.xz"
+    "56b44a9b88ed0720ac869d609b8f8ca0 4436 golang-google-protobuf_1.28.1-3.debian.tar.xz 70f4fcbec9f7d279fbfa638683eb9bb0 1735 golang-google-protobuf_1.28.1-3.dsc a961cb63ce68e6249fab90f1b88d37a4 1280817 golang-google-protobuf_1.28.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,7 +48,7 @@
     "autopkgtest-pkg-go"
   ],
   "Uploaders": [
-    "Shengjing Zhu \u003czhsj@debian.org\u003e, Anthony Fok \u003cfoka@debian.org\u003e, Anton Gladky \u003cgladk@debian.org\u003e"
+    "Shengjing Zhu \u003czhsj@debian.org\u003e, Anthony Fok \u003cfoka@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/go-team/packages/golang-google-protobuf"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-google-protobuf.git"
   ],
   "Version": [
-    "1.36.5-1"
+    "1.28.1-3"
   ]
 }

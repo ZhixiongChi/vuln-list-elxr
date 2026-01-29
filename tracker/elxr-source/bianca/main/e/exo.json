@@ -6,22 +6,22 @@
     "libexo-2-dev, libexo-2-0, exo-utils, libexo-common"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gettext, gtk-doc-tools, libglib2.0-dev, libgtk-3-dev, libtool, libxfce4ui-2-dev, libxfce4util-dev (\u003e= 4.17.0~), xfce4-dev-tools"
+    "debhelper-compat (= 13), gtk-doc-tools, intltool, libglib2.0-dev, libgtk-3-dev, libtool, libxfce4ui-2-dev, libxfce4util-dev (\u003e= 4.17.0~), xfce4-dev-tools"
   ],
   "Checksums-Sha1": [
-    "aefa996b48e3f2d01b07012cc610087f917a250c 13088 exo_4.20.0-1.debian.tar.xz 7a0b8e290fe7503646d9ca0c2e2228556ef09d72 1843 exo_4.20.0-1.dsc 9e7a661d46cce3a9a3f67e72ec24066a8cf6de3a 1100703 exo_4.20.0.orig.tar.bz2"
+    "73d2d90895377789f80ccfa8f7b9b7d414880d20 13036 exo_4.18.0-1.debian.tar.xz 96ef406f6b0a9c03512508b2ba9b8a555c6cad18 2186 exo_4.18.0-1.dsc af23142e0b149500b9d638821830fdff05789734 896849 exo_4.18.0.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "285fb4e458364595bb3c976bd43cfb21880b44f0474e935d69dd2123c9d9066a 13088 exo_4.20.0-1.debian.tar.xz 24773343892aaaac9b3cfb41ea448e0dba2b4cb663310a16516c4043000318bb 1843 exo_4.20.0-1.dsc 4277f799245f1efde01cd917fd538ba6b12cf91c9f8a73fe2035fd5456ec078d 1100703 exo_4.20.0.orig.tar.bz2"
+    "de2cf27f4a58cc867eb511b47b914a36872bdbeb76ab43d754bf0f4a420891d0 13036 exo_4.18.0-1.debian.tar.xz e43997936be8c8a5d4d60797c856f0abb5e440e3c879c562659be42f2582b927 2186 exo_4.18.0-1.dsc 4f2c61d045a888cdb64297fd0ae20cc23da9b97ffb82562ed12806ed21da7d55 896849 exo_4.18.0.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "5ae3d9e89a9519bf7f1a4545818b0995c0a6b83b71d56a482f30a290406de545941bd8c0fa20735d1a2d00e46e577102bdaa64869f3d1bcec6cd3008203291f7 13088 exo_4.20.0-1.debian.tar.xz dbf5ae956f26c21330b19995f9a086f2dd36f1224fee2347f40bb3dcf6db5e6bff7666067fcb113778cae8c666f7e4f116403b43d5c4d81b4a4a67930fb47d1c 1843 exo_4.20.0-1.dsc 7481f47bb0c8eb5cdc8d7db3e67c1cdaa81e3ef0833281b5380f3eab41e3c2f7112a22b37a3ce305a052b261444fd9f11c130150663deb1b4a220a998321284b 1100703 exo_4.20.0.orig.tar.bz2"
+    "1d7dc5bd2e5b78854931db0c895078e0f9b65047f5e3a6955406e3660f5a6224dc6c6e669dbb671569bcb3dbc16b9fe6b6f440ffdee42d036f507d1e83f75bca 13036 exo_4.18.0-1.debian.tar.xz b11466983be6c5c690409a014683031eb582eca134c1aadee922a227f84f4aa7f6f55c8882d7d712fe185ad28f4da0ed54a7714ee29e5a810bdaba1bcfeebc5c 2186 exo_4.18.0-1.dsc 32f3a319ff31a37cdaf8e2e7bdbdbaa9b797d6731a27854838b47d6078f45af83ed1a664aef4663f616fd9abcae9233c6f68ab2cc18599f1b2ced487602c51ce 896849 exo_4.18.0.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/e/exo"
   ],
   "Files": [
-    "0e165805533c8fbea31de82b84875920 13088 exo_4.20.0-1.debian.tar.xz 40c9c36d84edcf6aae9f79a706ca9637 1843 exo_4.20.0-1.dsc f059ec3d8686d4b322c42d19ebec0366 1100703 exo_4.20.0.orig.tar.bz2"
+    "ee1be7a6bd92bc0339c1e7a22da84030 13036 exo_4.18.0-1.debian.tar.xz 06aa598f5199047b6f2686424730125c 2186 exo_4.18.0-1.dsc 9d0be4e885eaf991e12dbc14d3fc628d 896849 exo_4.18.0.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "exo-utils deb xfce optional arch=any libexo-2-0 deb libs optional arch=any libexo-2-dev deb libdevel optional arch=any libexo-common deb libs optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Uploaders": [
     "Yves-Alexis Perez \u003ccorsac@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/xfce-team/desktop/exo.git"
   ],
   "Version": [
-    "4.20.0-1"
+    "4.18.0-1"
   ]
 }

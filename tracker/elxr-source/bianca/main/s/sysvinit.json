@@ -6,22 +6,22 @@
     "sysvinit-core, sysvinit-utils, sysv-rc, initscripts, bootlogd"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libcrypt-dev, libselinux1-dev [linux-any], po4a"
+    "debhelper-compat (= 13), libselinux1-dev [linux-any], po-debconf, po4a"
   ],
   "Checksums-Sha1": [
-    "03d7606ab74829d04a9db953e2151c15b4391ca4 122156 sysvinit_3.14-4.debian.tar.xz f8c0e7ebbc91f5312e19f9d97bd4747d007c6b24 2375 sysvinit_3.14-4.dsc 23f55970b5e4fbd904934845950713a43d76ba07 516357 sysvinit_3.14.orig.tar.gz"
+    "d9431d3921bac49b0d340c6d0bad4a12ec094fb1 134904 sysvinit_3.06-4.debian.tar.xz 00631229c6f1e13d72cab7d5e4943f8e9cb05a5a 2359 sysvinit_3.06-4.dsc a6268eb72c2ac7f801884a69e67ef3f072f7cd76 466092 sysvinit_3.06.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "2ba0aa763232112696bce50ee5acc707a515fcbd5b2c194193bfa7a0a525bff6 122156 sysvinit_3.14-4.debian.tar.xz 1cfe65682218077e6f76011f0c5caacc9f2ab214d55893307d4a54c93312ac92 2375 sysvinit_3.14-4.dsc 4e90a148707cf64113fc97343c053f9c0c9589551936b053999dcc69731f295f 516357 sysvinit_3.14.orig.tar.gz"
+    "a64de1c40fe55a5b5f1ed0aaf471a7b35a294292530637fab016cbcebd600a43 134904 sysvinit_3.06-4.debian.tar.xz f153cd1ef48698089494aac14cebdcb8130ce4d4af5533a41cd3f1950e9e42fa 2359 sysvinit_3.06-4.dsc 233d784ca152ce2b4b42a0723948f0cd2d36d4eae5acb9dab1457c1dd85b1a66 466092 sysvinit_3.06.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "d2fbd2bda590eff69e426aed5a144075019752d4c85783bd1d958d5236d1a58c5cb1a2df6b43d9c889559e96aaaa19b879991300d6b16f63c2e1fa2b9419880a 122156 sysvinit_3.14-4.debian.tar.xz d63361dbf98d126c9578f9ec7445d03790d2e638bb04e12d1537802f28eb1c6169926758919f4a15f6b517af28141048e4f30a1d5a706de1ba44299069572633 2375 sysvinit_3.14-4.dsc 557b6ed9090e6594806b71c9fd054f32972fc6e7bffa4ef92a9dda42c5db08100f226b7b43c0433c1a1e9b16a3ebc483cb42d9aa29a5a3cfd5fc1c60984ef478 516357 sysvinit_3.14.orig.tar.gz"
+    "5ec59e7c527c1613e2740ead8fc146202ac2b0ae4f84d4d619c85804315e1df50c72a24a20c97aef3c0b61fb0f13828cfb7e9a0dba4b3f0fc8f73e2de81616b8 134904 sysvinit_3.06-4.debian.tar.xz f82843ef007a611648c280207ff392be57d7996fb53299df79b11227e3728f712cdb8a99054b42a6bffc88fa2561a88ae33d43a4c3e179ae3fa58c9dce1f7cfa 2359 sysvinit_3.06-4.dsc 9f1111ea05cbb405e3fe2423ee2d281832f3d15a69e39c5c6896e1ee7c0d56369046d39d7a2203f66db05304836dd33f1664652726cadf8a29cb0eea27ce822f 466092 sysvinit_3.06.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/s/sysvinit"
   ],
   "Files": [
-    "9d96c16f99794ff571d29e2a76b67cb3 122156 sysvinit_3.14-4.debian.tar.xz 6317c217263d5761abbbbf5b3c5da210 2375 sysvinit_3.14-4.dsc 06e98339422bd20c8d7609fd5de29665 516357 sysvinit_3.14.orig.tar.gz"
+    "aeabead34a829289a99fa1778e4a8e12 134904 sysvinit_3.06-4.debian.tar.xz 703b9aafe57fac851439db152c19c131 2359 sysvinit_3.06-4.dsc d8e5bef166351a044689bb0d034af967 466092 sysvinit_3.06.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "sysvinit"
   ],
   "Package-List": [
-    "bootlogd deb admin optional arch=any initscripts deb admin optional arch=all sysv-rc deb admin optional arch=all sysvinit-core deb admin optional arch=any protected=yes sysvinit-utils deb admin required arch=any essential=yes"
+    "bootlogd deb admin optional arch=any initscripts deb admin optional arch=all sysv-rc deb admin optional arch=all sysvinit-core deb admin optional arch=any sysvinit-utils deb admin required arch=any essential=yes"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Uploaders": [
     "Ian Jackson \u003cijackson@chiark.greenend.org.uk\u003e, Benda Xu \u003cheroxbd@gentoo.org\u003e, Adam Borowski \u003ckilobyte@angband.pl\u003e, Vincenzo (KatolaZ) Nicosia \u003ckatolaz@freaknet.org\u003e, Mark Hindley \u003cleepen@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/sysvinit.git"
   ],
   "Version": [
-    "3.14-4"
+    "3.06-4"
   ]
 }

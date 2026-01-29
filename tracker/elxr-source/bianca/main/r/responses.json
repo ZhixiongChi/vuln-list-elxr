@@ -6,25 +6,22 @@
     "python3-responses"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-httpserver \u003c!nocheck\u003e, python3-requests, python3-setuptools, python3-tomli-w \u003c!nocheck\u003e, python3-urllib3 (\u003e= 1.25.10), python3-yaml"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-mock, python3-pytest (\u003e= 4.6), python3-pytest-localserver, python3-requests, python3-setuptools, python3-urllib3 (\u003e= 1.25.10)"
   ],
   "Checksums-Sha1": [
-    "6c65bb145b55b976c33e6df59469f1c84d357e62 3976 responses_0.25.7-1.debian.tar.xz 182fb0894d7218ca31392d9f29ffc696af420a4c 2356 responses_0.25.7-1.dsc 499f4fe514de965cc78b9799de0205852f163840 79203 responses_0.25.7.orig.tar.gz"
+    "84c1059492cd3b148f1cefecff5a151bdf5f46a1 3592 responses_0.18.0-1.debian.tar.xz 03f80fba52f6a4af85852b89dfa5348a5857964f 2138 responses_0.18.0-1.dsc e6eab127f7bd667777f4fcf040b69c4024a6c890 45885 responses_0.18.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "60ad01f18dcc94189a70d6da6ee852425dd1c377d988f960890648373049c8de 3976 responses_0.25.7-1.debian.tar.xz edb2e090360401dcbdc104b3b8f0372f98aab4b569b1d5407e7263c428278465 2356 responses_0.25.7-1.dsc 8ebae11405d7a5df79ab6fd54277f6f2bc29b2d002d0dd2d5c632594d1ddcedb 79203 responses_0.25.7.orig.tar.gz"
+    "294051fedd2f7dc3644d27ac6fc5aa2cc2fdcdf7cb18b02963e297c8e03f5fd7 3592 responses_0.18.0-1.debian.tar.xz 6252210a27ca055e0c473736adc3904def2377646bd69563127dcb9813b75618 2138 responses_0.18.0-1.dsc 380cad4c1c1dc942e5e8a8eaae0b4d4edf708f4f010db8b7bcfafad1fcd254ff 45885 responses_0.18.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "df0b9c5d0a9d29b3c85b1c3e92b9685d2f918f5d220155ac14b6304828c1bb769550a84bb6b17b752d7c6f4cd7945e9b4f541cad966e78168656d1ca18cb52ed 3976 responses_0.25.7-1.debian.tar.xz 6da6eaef6709bd26bfe8729d9c2952aaf48fea2fbccbed031463929bd138961afcb29b0c0a507360b8458c43bbe3c3b45fc8c0cee4039da9e6c153d37a7b7d81 2356 responses_0.25.7-1.dsc 929d516b3670619b6ce399a7df1145b38aa498ffe7f7f5e16608c72e31f16bed5a1c2825ca9db84b51cd56c819ffd34f293679563d08895cd53b1c683f21578b 79203 responses_0.25.7.orig.tar.gz"
-  ],
-  "Dgit": [
-    "137e22138311a9bc101c1fc3fd0e283d0f94a420 debian archive/debian/0.25.7-1 https://git.dgit.debian.org/responses"
+    "3dbb3adf8846c4b6f6a5cb9a9752cccd48f37d33e0a7e6ed4d2ef770faf5a6aa620181a79d659369b8e5585976ccd6d83dfe950b02b3551e5756d38bf24d5b5f 3592 responses_0.18.0-1.debian.tar.xz 0ceca435580140826b425849875888e1d0c9bd5a0c03f8000d63af4ff92efb4a61a0dfa4951a00a92b8cb8f5f8bdbbf7b3f408442bda28f5c010e69cc47f7a39 2138 responses_0.18.0-1.dsc c443c01c0bf5d8aba4159817bf5ec6b3e83fc02db0349f6aa138afe74c9cba72347561c02511994b1aa3dc54d77ba4c1c89ccb73197ecaeec9244d919cabd3ae 45885 responses_0.18.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/responses"
   ],
   "Files": [
-    "f66293da192d925c1967e0c69445012f 3976 responses_0.25.7-1.debian.tar.xz 8e377bcad95a1f04317f1aea3df779e1 2356 responses_0.25.7-1.dsc 1a3644ec3417c6e91b825c5fa97d49e9 79203 responses_0.25.7.orig.tar.gz"
+    "9c7d95a2548b3bf7698f0196fea9f5fc 3592 responses_0.18.0-1.debian.tar.xz 08207c3b6d3b3528109f1556415a2cc5 2138 responses_0.18.0-1.dsc af82e912bb5c27e9110bce21d9660744 45885 responses_0.18.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +39,7 @@
     "python3-responses deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/responses.git"
   ],
   "Version": [
-    "0.25.7-1"
+    "0.18.0-1"
   ]
 }

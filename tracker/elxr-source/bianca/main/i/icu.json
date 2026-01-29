@@ -3,31 +3,31 @@
     "any all"
   ],
   "Binary": [
-    "libicu76, libicu-dev, icu-devtools, icu-doc"
+    "libicu72, libicu-dev, icu-devtools, icu-doc"
   ],
   "Build-Conflicts": [
     "clang"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), autoconf-archive, pkgconf, python3 \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), autoconf-archive, pkg-config, python3-distutils"
   ],
   "Build-Depends-Indep": [
-    "doxygen"
+    "doxygen (\u003e= 1.7.1)"
   ],
   "Checksums-Sha1": [
-    "15a8ad0d7dedf68feab8e643c5581a95b92f9b59 65216 icu_76.1-4.debian.tar.xz b34171ef258f7d6f36bb2a4afd7a63ad521db1ec 2236 icu_76.1-4.dsc f7764341d196112573605881dbbf10e586d84841 27437767 icu_76.1.orig.tar.gz 0c799334c1dbc3b03db35a6ad0d1582e7d45a6e7 228 icu_76.1.orig.tar.gz.asc"
+    "bef4f273249ae00e5c1e63117a0d4c8b1ee0d309 63620 icu_72.1-3+deb12u1.debian.tar.xz f641dd534dc97239959c4a964cb99263229cc71f 2284 icu_72.1-3+deb12u1.dsc a97546f0119c37a3526143bc29fb573a4417ff84 26303933 icu_72.1.orig.tar.gz 839c365644536d46364f5993ec3e5b825cd3957f 659 icu_72.1.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "5f9ff8b3a8e89a01b52c84bfebd35e7825ac561669d24e5a3d5f25d158e4f412 65216 icu_76.1-4.debian.tar.xz 2587ef23962b42a074ceab2f0407058f8e3fca0e6edd5d7c0bc1df6c683724a6 2236 icu_76.1-4.dsc dfacb46bfe4747410472ce3e1144bf28a102feeaa4e3875bac9b4c6cf30f4f3e 27437767 icu_76.1.orig.tar.gz 6ef6ef96376eb6550f2b450e08b84c29238f60a77b89273f1521e1b57db73472 228 icu_76.1.orig.tar.gz.asc"
+    "bd6b27fc0a18f6044a47cd96c7d687720b95e4f592718bf8e34c6391b7753a1d 63620 icu_72.1-3+deb12u1.debian.tar.xz 8fd50a21664422b2dd5df4e20175dce3396c89a3a85363db26dd4529bba62a92 2284 icu_72.1-3+deb12u1.dsc a2d2d38217092a7ed56635e34467f92f976b370e20182ad325edea6681a71d68 26303933 icu_72.1.orig.tar.gz 87b6ff610d587292cec0444fa8cbbfb12994cb89bade40578f5ba6470de245c7 659 icu_72.1.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "7bebbd29cb53c13a76f9b2d75f12cf53c4d6bf4b682df2419519bda235bd156ed9236c73393d3d70d678adf17a7c865e71604c118628fbd37c29dbf8be790b9b 65216 icu_76.1-4.debian.tar.xz dd7bd937422d341eaf4bcf871b5dd78d443d059857f8530d124453f9e585a25cd00488fb6807667e578b1730f70d2d1aa1c6c46cb187eeba79b1edf3e8e5f4af 2236 icu_76.1-4.dsc b702ab62fb37a1574d5f4a768326d0f8fa30d9db5b015605b5f8215b5d8547f83d84880c586d3dcc7b6c76f8d47ef34e04b0f51baa55908f737024dd79a42a6c 27437767 icu_76.1.orig.tar.gz c4bd81d4e98d7e37a6ba9540748c4ce1eb740d70bd689a13e2e51da76503b6e0287afd4d1cd3af4540210f37626dec998fcbd7269976cb801f238b789e604489 228 icu_76.1.orig.tar.gz.asc"
+    "701808d68d56425c45da76c8e94ca64f84c47eebe3b12d6bea3e4f2ae6121bcb604c6538238a4041f63ec1328b917ceb74333759c607357d417d0296494a824c 63620 icu_72.1-3+deb12u1.debian.tar.xz 85755b5eca9a10bb5ab99c7de41ee5a205eb0af09993106763236786f962e597dc945df7a4933ae342e61e203c4989c2b31e548c919814e9b187741e9d464bd5 2284 icu_72.1-3+deb12u1.dsc 848c341b37c0ff077e34a95d92c6200d5aaddd0ee5e06134101a74e04deb08256a5e817c8aefab020986abe810b7827dd7b2169a60dacd250c298870518dcae8 26303933 icu_72.1.orig.tar.gz 8b5e841a3baa317a13cadf7deb3582a80cfab8e5bdae6bd04612ee7be3006d9acf07b015de01a94990fa350109a3c11e547482e4cb4ca986161cc701a8cd427b 659 icu_72.1.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/i/icu"
   ],
   "Files": [
-    "5b726a11431db849347a9d1a0219bee8 65216 icu_76.1-4.debian.tar.xz 8bb09a8859e645b8ceb4f991128f1877 2236 icu_76.1-4.dsc 857fdafff8127139cc175a3ec9b43bd6 27437767 icu_76.1.orig.tar.gz 5e8b878c9a452c1bb97eb364e3673941 228 icu_76.1.orig.tar.gz.asc"
+    "18624c19b3f18f7364c04643dd6531cd 63620 icu_72.1-3+deb12u1.debian.tar.xz 1c24ff27ae592e1c2d89ed9e07f9684c 2284 icu_72.1-3+deb12u1.dsc 4de6484a6c460d3d1468a6fe50369439 26303933 icu_72.1.orig.tar.gz 40202677f928ebb561180b8c3c1ccca6 659 icu_72.1.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,18 +42,18 @@
     "icu"
   ],
   "Package-List": [
-    "icu-devtools deb libdevel optional arch=any icu-doc deb doc optional arch=all libicu-dev deb libdevel optional arch=any libicu76 deb libs optional arch=any"
+    "icu-devtools deb libdevel optional arch=any icu-doc deb doc optional arch=all libicu-dev deb libdevel optional arch=any libicu72 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential, pkgconf"
+    "build-essential, pkg-config"
   ],
   "Version": [
-    "76.1-4"
+    "72.1-3+deb12u1"
   ]
 }

@@ -6,31 +6,25 @@
     "librust-os-str-bytes-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo"
-  ],
-  "Build-Depends-Arch": [
-    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.74.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-memchr-2+default-dev (\u003e= 2.3.5-~~) \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-memchr-2+default-dev (\u003e= 2.4-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "d6a22626ef18048fcbd5cf155b23e18ca245dafc 3232 rust-os-str-bytes_7.1.0-1.debian.tar.xz 605ab1769a26ba52af2b604cec575916f5370fce 1804 rust-os-str-bytes_7.1.0-1.dsc ad2dca1e52ab5727e12d078e261d61d163b978dd 28150 rust-os-str-bytes_7.1.0.orig.tar.gz"
+    "bec5b1edc4b42e1596243723d0bfa1d960a13a40 2760 rust-os-str-bytes_6.0.0-1.debian.tar.xz 40ab3248613a74a41d6d60f23ecf2c0ee1d0153e 2250 rust-os-str-bytes_6.0.0-1.dsc 697d09fec933254a28165e0b2288da168dc97c9d 21046 rust-os-str-bytes_6.0.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "f728944a39c67fc71e27e28a13f468e5d6a0f5f4f2b58a1d87166c4739bf1219 3232 rust-os-str-bytes_7.1.0-1.debian.tar.xz 275318f8c20a70385a71ad9a28e28d9bd62d705215e84db289ef8e232f727e05 1804 rust-os-str-bytes_7.1.0-1.dsc c86e2db86dd008b4c88c77a9bb83d9286bf77204e255bb3fda3b2eebcae66b62 28150 rust-os-str-bytes_7.1.0.orig.tar.gz"
+    "4a21dc72abc24f098bb22b087433066353e5e2d4b9fd4fd410cbf40abd9d9850 2760 rust-os-str-bytes_6.0.0-1.debian.tar.xz 554b3643d70d55c0e7e740efc66eaf0f97463ff78432c49ddb29a20eec9365fe 2250 rust-os-str-bytes_6.0.0-1.dsc 8e22443d1643a904602595ba1cd8f7d896afe56d26712531c5ff73a15b2fbf64 21046 rust-os-str-bytes_6.0.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "25d50f2b512e64244fc4f79e01bbae0d343a1c128a3d8a5012685b534cfe190e47e8aef89ee508bf132b365953b1c3104af5ee2fa029ad7c8b2f391c10669d02 3232 rust-os-str-bytes_7.1.0-1.debian.tar.xz 7fadc411e8d04ba69fa7aa7282b3897b39a54789821c496c340441b4f17c826ded387b013b5a1a469153d1d6f03e2451309f089862640f5b3c754dbcaa604a10 1804 rust-os-str-bytes_7.1.0-1.dsc e8eb37b2b86c6b7b7b82734b9db6db5207aabfc0c3d4dad1b3395ade2e9e63bf2776d3ed901959ed7a95509d9186e1727c6cdd87a665d11e7e74eb8b07dc03b3 28150 rust-os-str-bytes_7.1.0.orig.tar.gz"
+    "91a52d94a83015c729c408d67e45d4d7082d3de9fc6984915a4506547e38426770728937bd7e489b144b4bc0bcfc5f476b585cddd8b4de37cc4cb9e722ba1958 2760 rust-os-str-bytes_6.0.0-1.debian.tar.xz f7a24f928907c4883191ce2fccb3878a65fe33ff5896b4b5b99afc97d79f10997644cdd905fa0a6c27a75dbaa64033a891552e3ea7bfce72be1b5e8b0d8a75ab 2250 rust-os-str-bytes_6.0.0-1.dsc d2d3741a1190092cf251e035d2c55a7d022d99512160ed4ddccccb44ca85f664f94f8a937a76eff88581b593e2ebaddab6e753009f3046a8a2ebf451418e41d8 21046 rust-os-str-bytes_6.0.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-os-str-bytes"
   ],
   "Files": [
-    "82ed3a3c0181b4943704a62649495f04 3232 rust-os-str-bytes_7.1.0-1.debian.tar.xz 7faa8aa487be23df7a0708d0391810fc 1804 rust-os-str-bytes_7.1.0-1.dsc ee0cfdb91e6adafeef92b8fc18ed36a2 28150 rust-os-str-bytes_7.1.0.orig.tar.gz"
+    "42f107b170b9cbb10730ca22f085de55 2760 rust-os-str-bytes_6.0.0-1.debian.tar.xz 4fcb11556b05252fc480038c5173c486 2250 rust-os-str-bytes_6.0.0-1.dsc 8ee1436104d86d91d56bafc3b0322e4f 21046 rust-os-str-bytes_6.0.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/dylni/os_str_bytes"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -42,13 +36,13 @@
     "librust-os-str-bytes-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-fastrand-2+default-dev, librust-lazy-static-1+default-dev, librust-tempfile-3+default-dev, rustc"
+    "dh-cargo, librust-getrandom-0.2+default-dev"
   ],
   "Uploaders": [
     "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
@@ -60,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/os-str-bytes]"
   ],
   "Version": [
-    "7.1.0-1"
+    "6.0.0-1"
   ]
 }

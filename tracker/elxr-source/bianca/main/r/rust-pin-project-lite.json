@@ -9,19 +9,19 @@
     "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "ccac22b61b38c419a7e9dcae625052852eebea2c 3508 rust-pin-project-lite_0.2.13-1.debian.tar.xz 449b025fefb4a58023ac834ab7b864a6f4797eb7 2516 rust-pin-project-lite_0.2.13-1.dsc 97539261a04c72f2d2742a15ba0d3ea650cf07c3 29141 rust-pin-project-lite_0.2.13.orig.tar.gz"
+    "5ae81f5e1b673caa5f35960599159f425cd091e1 2720 rust-pin-project-lite_0.2.9-1.debian.tar.xz 99d2cc7d687fb51b68e3f01d1d5dacf630e37318 2353 rust-pin-project-lite_0.2.9-1.dsc 1aa65aea84aeb50a19a722d0e1cc920dcf842a10 27713 rust-pin-project-lite_0.2.9.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "79049e2b3930002a1b5275334c43cd07109394f039258d0c1c77ce1be94f422d 3508 rust-pin-project-lite_0.2.13-1.debian.tar.xz f53ff3ecfd781122cde0fe40b3e84ef6eb9c747f221d8f3f2d01c97c546a0811 2516 rust-pin-project-lite_0.2.13-1.dsc 8afb450f006bf6385ca15ef45d71d2288452bc3683ce2e2cacc0d18e4be60b58 29141 rust-pin-project-lite_0.2.13.orig.tar.gz"
+    "1cdfa96fb79c7b6c573a14fe38dc761f81fc0ebd2fd3bd52bf048f4a13532c79 2720 rust-pin-project-lite_0.2.9-1.debian.tar.xz e20218f8f1dab051fda5dff232e865d7d09705b8aa6d1c1d46be7baf111bd120 2353 rust-pin-project-lite_0.2.9-1.dsc e0a7ae3ac2f1173085d398531c705756c94a4c56843785df85a60c1a0afac116 27713 rust-pin-project-lite_0.2.9.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c23881808bbb982d07fd4a075a265640b9c4f60fc634bf1a92a982dff08b9a951722ee4399734ab41dfc1ae0c04ab1cf859b36ed2aefe03c9afb070ed13136f4 3508 rust-pin-project-lite_0.2.13-1.debian.tar.xz d261c58ed491771a95303ed2a8e3f58e0ced673179e3113d200f25635af6b05bb039f23d2da5eac2d80f62d4e3de5d882408bdf8d31f6758f0691394901c960f 2516 rust-pin-project-lite_0.2.13-1.dsc 7f12595d751d315de6c0d380e2f501b74154661eb676987d2cab6fdc956091a68c9cac658df45dbff73615e982e6ae2ea138c09ebb708cd6c351f0d18dbbdbee 29141 rust-pin-project-lite_0.2.13.orig.tar.gz"
+    "01d1c75d3bc931d73118eb896a13cd8b7ab0dbadc7c861201c3ee9378f7b55319dcd308c132948109f27fbdaeb3af0c02e8d353e57f1c14a1794d3edb8bf913c 2720 rust-pin-project-lite_0.2.9-1.debian.tar.xz 6deb0f9dfb073e1c41c9e789f95e3365affce7511864f6167ab164fd40ca62c48029f0b3cca174c104b22354b923ab835c42cf4bddf5b985bf9f24a3488ed621 2353 rust-pin-project-lite_0.2.9-1.dsc cef0b77233adca712db1183f780732ea577cf1b27c2643de221d54c837c75ce749f907e24a967be7474812c7682cba613a3fc5d553a9578a1b80569da0e562e4 27713 rust-pin-project-lite_0.2.9.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-pin-project-lite"
   ],
   "Files": [
-    "780130367462b688cb9238dc4ac87716 3508 rust-pin-project-lite_0.2.13-1.debian.tar.xz 2b41a198bfc6485573efee4c76c66d14 2516 rust-pin-project-lite_0.2.13-1.dsc ffc7c4e1b2639ba6c8579a1c47c5f97c 29141 rust-pin-project-lite_0.2.13.orig.tar.gz"
+    "404f9bfc4746c6914d0a11ba68d88166 2720 rust-pin-project-lite_0.2.9-1.debian.tar.xz 8fb34708fa5abb6663a5afdb6dd78b95 2353 rust-pin-project-lite_0.2.9-1.dsc ce6dde2ea2691fdd97632fb8c9b3e042 27713 rust-pin-project-lite_0.2.9.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-once-cell-1+default-dev, librust-proc-macro2-1+default-dev, librust-quote-1+default-dev, librust-rustversion-1+default-dev, librust-serde-1+default-dev, librust-static-assertions-1+default-dev, librust-toml-0.5+default-dev, librust-trybuild-1+default-dev"
+    "dh-cargo, librust-rustversion-1+default-dev, librust-static-assertions-1+default-dev, librust-trybuild-1+default-dev"
   ],
   "Uploaders": [
     "Fabian Grünbichler \u003cf.gruenbichler@proxmox.com\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/pin-project-lite]"
   ],
   "Version": [
-    "0.2.13-1"
+    "0.2.9-1"
   ]
 }

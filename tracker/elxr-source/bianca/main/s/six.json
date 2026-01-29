@@ -6,25 +6,22 @@
     "python3-six, python-six-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, pybuild-plugin-pyproject, python3, python3-all, python3-pytest, python3-setuptools, python3-sphinx"
+    "debhelper-compat (= 13), dh-python, python3 (\u003e= 3.1.2-8~), python3-all, python3-pytest, python3-setuptools, python3-sphinx"
   ],
   "Checksums-Sha1": [
-    "9032aa143b05e6f89dd865133983184681ab9fdc 5192 six_1.17.0-1.debian.tar.xz 5dc794040e2f4b97864d9bc91df8b4eccd501881 2226 six_1.17.0-1.dsc 8c9bedf28312097645a0e272fec84ac9b1fee76b 34031 six_1.17.0.orig.tar.gz"
+    "a161d1b386a5ca9cdbceda921f8fdfc06830cf59 4840 six_1.16.0-4.debian.tar.xz 077cc3ad9b7cce95367f5f1d6c84184c5e89b32b 2069 six_1.16.0-4.dsc 06fa0bb50f2a4e2917fd14c21e9d2d5508ce0163 34041 six_1.16.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "b0999209b38c95b4907ddc3a06a824d26bada58ae00aed22b4af8f6b9564b688 5192 six_1.17.0-1.debian.tar.xz a250771eee8723fe939b046f0bfea5415b82272d98f76731c66d38ff16dca52b 2226 six_1.17.0-1.dsc ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81 34031 six_1.17.0.orig.tar.gz"
+    "6b01272d7276c0aba96670bfa20705823e18d41a72ca2522ca49c0be20ea1152 4840 six_1.16.0-4.debian.tar.xz ccb3c763da6b957f9d249454f7e6e40189742d52216d26e3b1580ed435e49ac6 2069 six_1.16.0-4.dsc 1e61c37477a1626458e36f7b1d82aa5c9b094fa4802892072e49de9c60c4c926 34041 six_1.16.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "de539bbc069681ea8a036e72d3acf2885a3b8f9bb0a5e124846c9bb550dc73ec5299d7faba775ca5e646b4b1526b792474dd6bd3b8df917175bc9a48716167a6 5192 six_1.17.0-1.debian.tar.xz 1b5eb0d2e87fdea78d5f4f4b763a109ea8cbb2f90b9b8455d155b0ab30ced9ea873249386da21501d5c807f6913639eaf3a5305d5e49f6cce78ae1e4b735f80c 2226 six_1.17.0-1.dsc fcfa58b03877ac3ac00a4f85b5fea4fecb2a010244451aa95013637a0aa21529f3dcfe25c0a07c72da46da1fa12bc0c16b6c641c40c6ab2133e5b5cbb5a71e4b 34031 six_1.17.0.orig.tar.gz"
-  ],
-  "Dgit": [
-    "ec8401628de73b9948b1e84b9e2c7d27779ce45e debian archive/debian/1.17.0-1 https://git.dgit.debian.org/six"
+    "3fc6474d75304c5f9604fb096c8b557d69d15f25c9d2e90e9c2238f52cf45aa26668750569a19b34b55c4d157c9d5f9cd1d1c06ccd6c2cdd51e8ee0f5152dd81 4840 six_1.16.0-4.debian.tar.xz e17664b1ad4ebbbd878a87b13196f0d3a4345aef6461fe3bac7f18ff045a146d69062422913d53ce4f65960949ddc74deaa91f984b36e9bf255b4fc8c5ae5df4 2069 six_1.16.0-4.dsc 076fe31c8f03b0b52ff44346759c7dc8317da0972403b84dfe5898179f55acdba6c78827e0f8a53ff20afe8b76432c6fe0d655a75c24259d9acbaa4d9e8015c0 34041 six_1.16.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/s/six"
   ],
   "Files": [
-    "b96d307050c84a32e037d8639afc7a23 5192 six_1.17.0-1.debian.tar.xz 850c276cbaeaace452d8232b02a5dd65 2226 six_1.17.0-1.dsc a0387fe15662c71057b4fb2b7aa9056a 34031 six_1.17.0.orig.tar.gz"
+    "8051d912785a5a45a8837bf58339b25a 4840 six_1.16.0-4.debian.tar.xz 077a78d2a144d57d7a3a1249dac88e9c 2069 six_1.16.0-4.dsc a7c927740e4964dd29b72cebfc1429bb 34041 six_1.16.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +39,13 @@
     "python-six-doc deb doc optional arch=all python3-six deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
-    "autopkgtest-pkg-pybuild"
+    "autopkgtest-pkg-python"
   ],
   "Uploaders": [
-    "Colin Watson \u003ccjwatson@debian.org\u003e,"
+    "Colin Watson \u003ccjwatson@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/six"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/six.git"
   ],
   "Version": [
-    "1.17.0-1"
+    "1.16.0-4"
   ]
 }

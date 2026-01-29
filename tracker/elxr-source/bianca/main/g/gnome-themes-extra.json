@@ -6,22 +6,25 @@
     "gnome-themes-extra, gnome-themes-extra-data, gnome-accessibility-themes"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), intltool, libgtk-3-dev, libgtk2.0-dev, gtk-update-icon-cache, libcairo2-dev, libgdk-pixbuf-2.0-dev, libglib2.0-dev, librsvg2-dev"
+    "debhelper-compat (= 13), dh-sequence-gnome, intltool (\u003e= 0.40.0), libgtk-3-dev (\u003e= 3.9.12), libgtk2.0-dev (\u003e= 2.24.15), gtk-update-icon-cache, libcairo2-dev, libgdk-pixbuf-2.0-dev, libglib2.0-dev, librsvg2-dev"
   ],
   "Checksums-Sha1": [
-    "c35d593588293127118f4976fd5b0494aae7fd08 7552 gnome-themes-extra_3.28-4.debian.tar.xz 42a0700d5a3e5c8434643209fc8bf2df612b4b03 2390 gnome-themes-extra_3.28-4.dsc 8c69c3e2c84bc0fc3853ce5f1e529fa2471571c3 2953272 gnome-themes-extra_3.28.orig.tar.xz"
+    "d209b5257262b9dd79d2b79f581fdd68e3b6e019 7400 gnome-themes-extra_3.28-2.debian.tar.xz 25847b08a69c4ef3ff95b74cf9f797bd14eab48a 2569 gnome-themes-extra_3.28-2.dsc 8c69c3e2c84bc0fc3853ce5f1e529fa2471571c3 2953272 gnome-themes-extra_3.28.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "a29df096aeccb691b5203bb7c46bfc4a9192e104cbb2dd6c4ca591c9afa9e578 7552 gnome-themes-extra_3.28-4.debian.tar.xz 20c56ba8bf6578c3b09d992de0713801e11e502249f8cd0e56106ec667a1896f 2390 gnome-themes-extra_3.28-4.dsc 7c4ba0bff001f06d8983cfc105adaac42df1d1267a2591798a780bac557a5819 2953272 gnome-themes-extra_3.28.orig.tar.xz"
+    "ae5833b98ebe3765d50b6dfcbdc19e26d5f156d6b0ccf34fa50772c85a9df70f 7400 gnome-themes-extra_3.28-2.debian.tar.xz c6678b26a0221c34fe98d58cd2abc1d08cd0d28924a7875f1a0becb047126fae 2569 gnome-themes-extra_3.28-2.dsc 7c4ba0bff001f06d8983cfc105adaac42df1d1267a2591798a780bac557a5819 2953272 gnome-themes-extra_3.28.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "c2b00e1d7e17ab731c34ddf575d48a71ac18bf4e6d07313b2e45e9d726ba8bc2b3236b8cface26af5f6cfc9d0fd1d29e09f947cf15738eb5c4a296fea1bf6b97 7552 gnome-themes-extra_3.28-4.debian.tar.xz 19539a8b0414266860e445bab520627b21b47f3f3b18bca200a250732cabf7df2b662305b3643a5e33ff35541804699e70dc4f47a9262a5cef5c4f2c686fa7ea 2390 gnome-themes-extra_3.28-4.dsc bccc446e86b12476b86a0fe2e3354500c8fb3eef62a85c3823d69aaa259e032e1f94e7993bf633397b669c425ef42635b0cf17b376f0b7cf1869bb1d7160ede0 2953272 gnome-themes-extra_3.28.orig.tar.xz"
+    "5814c654cbcc303326f07f081d2669fea0c61ee125aa895d2d8f4caf4297777f85ce047c1d217b3c6dc053c3e331d4d8695bc5af75a65c8610deda974f07ab6c 7400 gnome-themes-extra_3.28-2.debian.tar.xz c53f963e78327bf67601886b1de2b614cb6a26b19cb406ce412202201cdea21e5777708ff587aa3841f867d0dc73fceb42f5f401501e4baaf1a6213aeadcec79 2569 gnome-themes-extra_3.28-2.dsc bccc446e86b12476b86a0fe2e3354500c8fb3eef62a85c3823d69aaa259e032e1f94e7993bf633397b669c425ef42635b0cf17b376f0b7cf1869bb1d7160ede0 2953272 gnome-themes-extra_3.28.orig.tar.xz"
+  ],
+  "Dgit": [
+    "a8f549b8e3006581b2d1f216195ed2fdc8c04949 debian archive/debian/3.28-2 https://git.dgit.debian.org/gnome-themes-extra"
   ],
   "Directory": [
     "pool/main/g/gnome-themes-extra"
   ],
   "Files": [
-    "0816da3a0cbdc365b59215ae89d314d3 7552 gnome-themes-extra_3.28-4.debian.tar.xz 96e197c666b1370875564784389cb500 2390 gnome-themes-extra_3.28-4.dsc f9f2c6c521948da427f702372e16f826 2953272 gnome-themes-extra_3.28.orig.tar.xz"
+    "2d1e2a0dd121e2138f8ab1161e9dfa24 7400 gnome-themes-extra_3.28-2.debian.tar.xz 9b502b38a76eb30497e3290a1184ea39 2569 gnome-themes-extra_3.28-2.dsc f9f2c6c521948da427f702372e16f826 2953272 gnome-themes-extra_3.28.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +39,7 @@
     "gnome-accessibility-themes deb gnome optional arch=all gnome-themes-extra deb gnome optional arch=any gnome-themes-extra-data deb gnome optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Uploaders": [
     "Dmitry Shachnev \u003cmitya57@debian.org\u003e, Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
@@ -48,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/gnome-themes-extra.git"
   ],
   "Version": [
-    "3.28-4"
+    "3.28-2"
   ]
 }

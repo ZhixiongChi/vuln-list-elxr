@@ -6,22 +6,22 @@
     "meson"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), python3:any (\u003e= 3.7), dh-exec, dh-python, python3-setuptools, ninja-build (\u003e= 1.6), bash-completion, python3-pytest-xdist \u003c!nocheck\u003e, zlib1g-dev \u003c!nocheck\u003e, pkgconf \u003c!nocheck\u003e, libboost-dev \u003c!nocheck\u003e, libboost-thread-dev \u003c!nocheck\u003e, libboost-test-dev \u003c!nocheck\u003e, libboost-log-dev \u003c!nocheck\u003e, libboost-python-dev \u003c!nocheck\u003e, libboost-regex-dev \u003c!nocheck\u003e, gobjc \u003c!nocheck\u003e, gobjc++ \u003c!nocheck\u003e, gnustep-make \u003c!nocheck\u003e, libgnustep-base-dev \u003c!nocheck\u003e, googletest \u003c!nocheck\u003e, qtbase5-dev \u003c!nocheck\u003e, qtbase5-private-dev \u003c!nocheck\u003e, qtbase5-dev-tools \u003c!nocheck\u003e, qttools5-dev-tools \u003c!nocheck\u003e, protobuf-compiler \u003c!nocheck\u003e, libprotobuf-dev \u003c!nocheck\u003e, default-jdk-headless [!hurd-i386] \u003c!nocheck\u003e, valac \u003c!nocheck\u003e, gobject-introspection \u003c!nocheck\u003e, libgirepository1.0-dev \u003c!nocheck\u003e, gfortran \u003c!nocheck\u003e, flex \u003c!nocheck\u003e, bison \u003c!nocheck\u003e, libwxgtk3.2-dev \u003c!nocheck\u003e, python3-gi \u003c!nocheck\u003e, gtk-doc-tools \u003c!nocheck\u003e, rustc [i386 amd64 arm64 armhf] \u003c!nocheck\u003e | bash-doc \u003c!nocheck\u003e, python3-dev \u003c!nocheck\u003e, cython3 \u003c!nocheck\u003e, gdc [amd64 armhf i386] \u003c!nocheck\u003e, itstool \u003c!nocheck\u003e, libgtk-3-dev \u003c!nocheck\u003e, g++-arm-linux-gnueabihf [!armhf] \u003c!nocheck\u003e | bash-doc \u003c!nocheck\u003e, valgrind [amd64 i386] \u003c!nocheck\u003e, llvm-dev \u003c!nocheck\u003e, libsdl2-dev \u003c!nocheck\u003e, openmpi-bin \u003c!nocheck\u003e, openssh-client \u003c!nocheck\u003e, libvulkan-dev \u003c!nocheck\u003e, libpcap-dev \u003c!nocheck\u003e, libcups2-dev \u003c!nocheck\u003e, libwmf-dev \u003c!nocheck\u003e, git \u003c!nocheck\u003e, mercurial \u003c!nocheck\u003e, gcovr \u003c!nocheck\u003e, lcov \u003c!nocheck\u003e, doxygen \u003c!nocheck\u003e, nasm \u003c!nocheck\u003e, cmake \u003c!nocheck\u003e, clang-format \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), python3:any (\u003e= 3.5), dh-exec, dh-python, python3-setuptools, ninja-build (\u003e= 1.6), bash-completion, zlib1g-dev \u003c!nocheck\u003e, pkg-config \u003c!nocheck\u003e, libboost-dev \u003c!nocheck\u003e, libboost-thread-dev \u003c!nocheck\u003e, libboost-test-dev \u003c!nocheck\u003e, libboost-log-dev \u003c!nocheck\u003e, libboost-python-dev \u003c!nocheck\u003e, libboost-regex-dev \u003c!nocheck\u003e, gobjc \u003c!nocheck\u003e, gobjc++ \u003c!nocheck\u003e, gnustep-make \u003c!nocheck\u003e, libgnustep-base-dev \u003c!nocheck\u003e, googletest \u003c!nocheck\u003e, qtbase5-dev \u003c!nocheck\u003e, qtbase5-private-dev \u003c!nocheck\u003e, qtbase5-dev-tools \u003c!nocheck\u003e, qttools5-dev-tools \u003c!nocheck\u003e, protobuf-compiler \u003c!nocheck\u003e, libprotobuf-dev \u003c!nocheck\u003e, default-jdk-headless [!hurd-i386] \u003c!nocheck\u003e, valac \u003c!nocheck\u003e, gobject-introspection \u003c!nocheck\u003e, libgirepository1.0-dev \u003c!nocheck\u003e, gfortran \u003c!nocheck\u003e, flex \u003c!nocheck\u003e, bison \u003c!nocheck\u003e, mono-mcs \u003c!nocheck\u003e, mono-devel \u003c!nocheck\u003e, libwxgtk3.2-dev \u003c!nocheck\u003e, python3-gi \u003c!nocheck\u003e, gtk-doc-tools \u003c!nocheck\u003e, rustc [i386 amd64 arm64 armhf] \u003c!nocheck\u003e | bash-doc \u003c!nocheck\u003e, python3-dev \u003c!nocheck\u003e, cython3 \u003c!nocheck\u003e, gdc [amd64 armhf i386] \u003c!nocheck\u003e, itstool \u003c!nocheck\u003e, libgtk-3-dev \u003c!nocheck\u003e, g++-arm-linux-gnueabihf [!armhf] \u003c!nocheck\u003e | bash-doc \u003c!nocheck\u003e, valgrind [amd64 i386] \u003c!nocheck\u003e, llvm-dev \u003c!nocheck\u003e, libsdl2-dev \u003c!nocheck\u003e, openmpi-bin \u003c!nocheck\u003e, openssh-client \u003c!nocheck\u003e, libvulkan-dev \u003c!nocheck\u003e, libpcap-dev \u003c!nocheck\u003e, libcups2-dev \u003c!nocheck\u003e, gtk-sharp2 \u003c!nocheck\u003e, gtk-sharp2-gapi \u003c!nocheck\u003e, libglib2.0-cil-dev \u003c!nocheck\u003e, libwmf-dev \u003c!nocheck\u003e, git \u003c!nocheck\u003e, mercurial \u003c!nocheck\u003e, gcovr \u003c!nocheck\u003e, lcov \u003c!nocheck\u003e, doxygen \u003c!nocheck\u003e, nasm \u003c!nocheck\u003e, cmake \u003c!nocheck\u003e, clang-format \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "e2de331c175cfe0a05d3d5208538c44ad87331f2 16208 meson_1.7.0-1.debian.tar.xz 35918203df06e80eb10fa56d0c855480c46a01db 3375 meson_1.7.0-1.dsc df69d7e60fd4d502d2b717b35d35924c017f3068 2293975 meson_1.7.0.orig.tar.gz"
+    "0e952627277fa7e183a5c3cf184f930058d6685f 16704 meson_1.0.1-5.debian.tar.xz 05d778bde06c58e6b49a299e0378248e42e9d075 3471 meson_1.0.1-5.dsc a2d102eb6a37307c9b67283e9764ed57cf286223 2104183 meson_1.0.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "5d8e715f0998177623ba13e941879df1c78f2a6da2e2ae9374716833464b774f 16208 meson_1.7.0-1.debian.tar.xz b3ee18c41a0e446d0abe1179e0174c1e19a1b6229629a582a03ea9334eef4981 3375 meson_1.7.0-1.dsc 08efbe84803eed07f863b05092d653a9d348f7038761d900412fddf56deb0284 2293975 meson_1.7.0.orig.tar.gz"
+    "f78e1ebb59e25a7a9497cbc954ae04a11156e369b0559f2392131b1939f1cc48 16704 meson_1.0.1-5.debian.tar.xz 1fca26f595c67cf10306c66f2d56c909ec2b443cdd8f23cc4c248e0e2a201c34 3471 meson_1.0.1-5.dsc d926b730de6f518728cc7c57bc5e701667bae0c3522f9e369427b2cc7839d3c1 2104183 meson_1.0.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "044d544b80337820f3b97e3bf87946f708bc04ce8942446fffd510c8eee8ecacb5821054979beef346015b1fe08699c50857ccd9fdcf562f7b803e99c12c4c28 16208 meson_1.7.0-1.debian.tar.xz 0a22fc20f1526e8cc22a3e16819d5fbce625862e7e60b32564e364ac09a71872958dc37d844e9c2d52ceafc671330df3b9063c0dd368f817330590d539a2bdb6 3375 meson_1.7.0-1.dsc a5d1f00b193ca37ae64f85c9dfc29a2661c167d82d9953b9acd1393b222b05fa5fc03ffdf00fd1ae7a2014da3a7366c35f70bf02e3204e929b74f7b00c17c840 2293975 meson_1.7.0.orig.tar.gz"
+    "0ba0d19d0238cfea47add42cf00727cead864ee67b3476b9bf6494ef1bac4bbe368aded0bc427a72afcd06b25eddf81b30a096cad02bdf21d4c0348794aec8ec 16704 meson_1.0.1-5.debian.tar.xz 7ff777988c096afa8c5d5d081433c9b201056cca82cfcfc0c916f25dabada20cdcafc2dacd6443d7efca380e429679714bd688d9416b010b1f28bdcaa0cedd8d 3471 meson_1.0.1-5.dsc 3d2e2630f9eacf2fd999d5068d82b2a719400a55cfdea5d38253410a3ee74def638ac09622bceb72edf7bc867ae3de6a5f48c1846601e7e4b5afdf3ac9339ebc 2104183 meson_1.0.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/m/meson"
   ],
   "Files": [
-    "7f1f0016fcdf74d3e00bf18808d32c02 16208 meson_1.7.0-1.debian.tar.xz 3c70831a509f0bdd43f02c83b5740d17 3375 meson_1.7.0-1.dsc c20f3e5ebbb007352d22f4fd6ceb925c 2293975 meson_1.7.0.orig.tar.gz"
+    "85bd2b7d568f44a338139e25aaea92a9 16704 meson_1.0.1-5.debian.tar.xz ff17a313b146fa1d798eb7f1ef2bad9f 3471 meson_1.0.1-5.dsc 843ba549bb2a199d9e04092116a7e749 2104183 meson_1.0.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "meson deb devel optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,6 +48,6 @@
     "@builddeps@, clang, g++, g++-arm-linux-gnueabihf, ldc, rustc, valac"
   ],
   "Version": [
-    "1.7.0-1"
+    "1.0.1-5"
   ]
 }

@@ -6,22 +6,22 @@
     "smartmontools"
   ],
   "Build-Depends": [
-    "autoconf, automake, debhelper-compat (= 13), freebsd-glue [kfreebsd-any], libcam-dev [kfreebsd-any], libcap-ng-dev [linux-any], libselinux1-dev [linux-any], libusb2-dev [kfreebsd-any], libsystemd-dev [linux-any], pkgconf"
+    "autoconf, automake, debhelper-compat (= 12), freebsd-glue [kfreebsd-any], libcam-dev [kfreebsd-any], libcap-ng-dev [!kfreebsd-any !hurd-i386 !sparc !avr32], libselinux1-dev [linux-any], libusb2-dev [kfreebsd-any], libsystemd-dev [!kfreebsd-any], pkg-config"
   ],
   "Checksums-Sha1": [
-    "1044a1e58af3f0f47408d1a70a57bba1ac56b310 37612 smartmontools_7.4-3.debian.tar.xz 6f2b865f0ef49dfa0c2726afb441546c6d01e511 2150 smartmontools_7.4-3.dsc 625a79f2e8a4e544eeff427c20d3341d07cc7a44 809336 smartmontools_7.4.orig.tar.xz"
+    "40cdf9c74f7517b8d4960a609b1e4ade76834eac 36636 smartmontools_7.3-1.debian.tar.xz 73e0c1c1ef367c56113497a71c7be6dba6d21dbd 2186 smartmontools_7.3-1.dsc a4353360238533e97bc985ea5b3e052d99114970 772232 smartmontools_7.3.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "5cb1450dad00bde6423faf79343a88a675b2168d354f912ba39850c67eb235c9 37612 smartmontools_7.4-3.debian.tar.xz f412e784ea01700bc555dbe6666239bc0d38e5c11e3269db7e04f6fad19b8f81 2150 smartmontools_7.4-3.dsc 0b509b802d7c34aa1d3ceba21bf57169fddcc76badff33655dbc5d09f48e3e56 809336 smartmontools_7.4.orig.tar.xz"
+    "b85be59f445005fb7f129565d000b87a17fb4df142aea8340a5bcde5b1d71cdb 36636 smartmontools_7.3-1.debian.tar.xz 05408b39b18aecf7f4f54e268c64c05209ba9a67b0982853eac2e8cfda8865fe 2186 smartmontools_7.3-1.dsc d507f2c55fb2fb644ec9759bf188283e06381901cb337c622e3ea0e17b4ac01f 772232 smartmontools_7.3.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "976e80e22da20813c3d672e31ec71d75ca72787962ce548c35fa61b5dbd43e7a2187e2ab1f5ccacf0c63de0a3542876ab735f57923c040eb66fbe358ffda6b69 37612 smartmontools_7.4-3.debian.tar.xz eca4ddb2db96dff123a82ad4d3f7dc1f59b7d3ae000b7252ed29b8bdcef7ae138bd513abeba2a4201e8b1a989075fd6bf99884f7a39488b0d5c60d5ddf42c6df 2150 smartmontools_7.4-3.dsc 23991f093b18439f199c6873ea3c570941a28291c1fec56dff5237acccc90b3f73d03ffe1d9673226654b06208e42ababc918f3b16e73d789588a011633a98a5 809336 smartmontools_7.4.orig.tar.xz"
+    "b020fccd9f0ed07d75ead96ebaa1266c2dba8fd2ac8c3a6b13b5664040f223cebb16020efffe62b57e60eac6b8e8452b4f06d53189d9dd3e1c81c6513b474a97 36636 smartmontools_7.3-1.debian.tar.xz 747d49787b2b43e071b21d6a55e436800de23c746a54d3cac288e6c2db19ce8cd34e03c861f165212cf605cb1569a27765dd2f85607754d6ce7363dc97fb1f12 2186 smartmontools_7.3-1.dsc 9162a5a280307ea32e6c0c78da16f9240fa8500aa2d61be19fe254f68a3c0708fcd0fe296c549fbd92b7be60d0c2d51778265effb3ef53ec0f124bf7f539f2c5 772232 smartmontools_7.3.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/s/smartmontools"
   ],
   "Files": [
-    "71759597282c4700c54e67755519a5da 37612 smartmontools_7.4-3.debian.tar.xz d700f206376ee0d042aab9e55e844d27 2150 smartmontools_7.4-3.dsc 865fc5ba985c85271bd1f8eb6edf1750 809336 smartmontools_7.4.orig.tar.xz"
+    "eb414ebe551665f2e542f554afeaa30b 36636 smartmontools_7.3-1.debian.tar.xz eee7ec965d7560933e2fc4e484a61fce 2186 smartmontools_7.3-1.dsc ff014a1512bfc6af958236103a238ddc 772232 smartmontools_7.3.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/smartmontools.git"
   ],
   "Version": [
-    "7.4-3"
+    "7.3-1"
   ]
 }

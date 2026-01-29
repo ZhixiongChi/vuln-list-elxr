@@ -6,22 +6,22 @@
     "librust-io-lifetimes-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.63) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.96-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "8326b3d1357412e9d8020c93ab12de1aad6daab2 4572 rust-io-lifetimes_2.0.3-1.debian.tar.xz f507a55701deebf32c017e054ea213b9043a7d0f 2184 rust-io-lifetimes_2.0.3-1.dsc be1fd13430c086de2f4e9994735837b6bba34710 29216 rust-io-lifetimes_2.0.3.orig.tar.gz"
+    "69eaf938e237f6416569d2e8859ecbf79896b582 4136 rust-io-lifetimes_0.7.2-3.debian.tar.xz cc9f3708f2d66b229598c1b6faded7b9814a14d4 2216 rust-io-lifetimes_0.7.2-3.dsc 759667e12316ce6089229b398fd71e5f5502db79 40632 rust-io-lifetimes_0.7.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a693c43ff0c9c3db10b2f3e06b9771c101ec488bd45de526f901f455f5fc4e38 4572 rust-io-lifetimes_2.0.3-1.debian.tar.xz 4515508929592fa7647de4848b157c47996c74f2d778f9e6c33d92ffe4076380 2184 rust-io-lifetimes_2.0.3-1.dsc 5a611371471e98973dbcab4e0ec66c31a10bc356eeb4d54a0e05eac8158fe38c 29216 rust-io-lifetimes_2.0.3.orig.tar.gz"
+    "561a7fceb5a85df21d6ab7111e5832362c53f9fbd6ed2457e6fe7590c6e3fc6b 4136 rust-io-lifetimes_0.7.2-3.debian.tar.xz b8dd7bc4687fd62a80b7dedeeb1a2f34ccc9b0f60d6599f79659fd2e0d477fe7 2216 rust-io-lifetimes_0.7.2-3.dsc 24c3f4eff5495aee4c0399d7b6a0dc2b6e81be84242ffbfcf253ebacccc1d0cb 40632 rust-io-lifetimes_0.7.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "82b68453ef8cabba2d464246a09d9323666ffb02a1a81baf486a52f21be270bd7880f915f5aa9671a819f3e88262054794bb89f24a08f6d7ae71928ec8b5ba78 4572 rust-io-lifetimes_2.0.3-1.debian.tar.xz 4e33cf977476a9727cb77561f15d6f6bbc09f0dd33fa2891b2196ab3cfa543b7bea9cddb4a5cf9cf903daad1ff59982343d06a4f7c06ed7bbd3d2908b08871ca 2184 rust-io-lifetimes_2.0.3-1.dsc 00b807764d4db5ffc01823615c96beacf4d029b834069ee4e9ff2584038c59cbd48db49af8eb6aaae92903d27446bad86fd69b8c7bcbf4c9e5e697abfddad772 29216 rust-io-lifetimes_2.0.3.orig.tar.gz"
+    "fedabce5e942493f2a00e9f94a73bb80bb3ad4cf3d00c64b3fdba467305ce6dea124d369d49c74a8bd679ac4997c776cc34f04ab27a466b692ddf27b383bef6a 4136 rust-io-lifetimes_0.7.2-3.debian.tar.xz e00c2f74ac674fc01df0feeb3e40474eb0c213a9708b8e976ffcbefd61d5af7009059a5d29d79959ec6ee8b960f1624fa493c14f9334f7fc6e947e9dbdd7f946 2216 rust-io-lifetimes_0.7.2-3.dsc 56b4776909ef9986e4aa343391bb839861e0486f8bcb6307dd68cfd39d186ce70c3da669ebf324f5a0d07e720f8cc87f7c4f7e15a0e7440db712b3029c80fb01 40632 rust-io-lifetimes_0.7.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-io-lifetimes"
   ],
   "Files": [
-    "a4d916cc6ee5eb2a994a95b35028c3b2 4572 rust-io-lifetimes_2.0.3-1.debian.tar.xz 0f44dd93b0788805aeb4484ec1f874fc 2184 rust-io-lifetimes_2.0.3-1.dsc 610f71434792f8fb9b0e200cbc0d9dcc 29216 rust-io-lifetimes_2.0.3.orig.tar.gz"
+    "6a042bbdb5490436ca7f08f50b423afa 4136 rust-io-lifetimes_0.7.2-3.debian.tar.xz cd6c06c251a0bb0e92cc8e28d9cf36af 2216 rust-io-lifetimes_0.7.2-3.dsc bee9ede43e22a7532131497d93d7dc80 40632 rust-io-lifetimes_0.7.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,13 @@
     "librust-io-lifetimes-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, rustc"
+    "dh-cargo"
   ],
   "Uploaders": [
     "John Goerzen \u003cjgoerzen@complete.org\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/io-lifetimes]"
   ],
   "Version": [
-    "2.0.3-1"
+    "0.7.2-3"
   ]
 }

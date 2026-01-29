@@ -6,25 +6,25 @@
     "cinder-api, cinder-backup, cinder-common, cinder-doc, cinder-scheduler, cinder-volume, python3-cinder"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 11), dh-python, openstack-pkg-tools (\u003e= 123~), po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+    "debhelper-compat (= 10), dh-python, openstack-pkg-tools (\u003e= 123~), po-debconf, python3-all, python3-pbr (\u003e= 5.8.0), python3-setuptools, python3-sphinx"
   ],
   "Build-Depends-Indep": [
-    "bandit, python3-barbicanclient, python3-boto3, python3-castellan, python3-coverage, python3-cryptography, python3-cursive, python3-ddt, python3-decorator, python3-distro, python3-doc8, python3-eventlet, python3-fixtures, python3-glanceclient, python3-googleapi, python3-google-auth, python3-greenlet, python3-hacking, python3-importlib-metadata, python3-iso8601, python3-jsonschema, python3-keystoneauth1, python3-keystoneclient, python3-keystonemiddleware, python3-lxml, python3-mypy (\u003e= 1.7.0), python3-mysqldb, python3-novaclient (\u003e= 2:18.2.0), python3-openstackdocstheme, python3-os-api-ref, python3-os-brick (\u003e= 6.10.0), python3-os-win, python3-oslo.concurrency, python3-oslo.config, python3-oslo.context, python3-oslo.db, python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging (\u003e= 14.1.0), python3-oslo.middleware, python3-oslo.policy (\u003e= 4.5.0), python3-oslo.privsep, python3-oslo.reports (\u003e= 3.2.0), python3-oslo.rootwrap, python3-oslo.serialization, python3-oslo.service, python3-oslo.upgradecheck, python3-oslo.utils, python3-oslo.versionedobjects, python3-oslo.vmware, python3-oslotest, python3-osprofiler, python3-packaging, python3-paramiko, python3-paste, python3-pastedeploy, python3-psycopg2, python3-pygments, python3-pymysql, python3-pyparsing, python3-reno, python3-requests, python3-routes, python3-rtslib-fb, python3-sphinx-feature-classification, python3-sphinxcontrib.apidoc, python3-sqlalchemy, python3-sqlalchemy-utils, python3-stestr, python3-stevedore, python3-swiftclient, python3-tabulate, python3-taskflow, python3-tenacity, python3-testtools, python3-tooz, python3-tz, python3-webob, python3-zstd, qemu-utils, subunit"
+    "bandit, python3-barbicanclient, python3-boto3, python3-castellan (\u003e= 3.7.0), python3-coverage, python3-cryptography, python3-cursive, python3-ddt (\u003e= 1.4.4), python3-decorator, python3-doc8, python3-eventlet (\u003e= 0.30.1), python3-fixtures, python3-glanceclient, python3-googleapi, python3-greenlet, python3-hacking, python3-httplib2, python3-importlib-metadata, python3-iso8601, python3-jsonschema, python3-keystoneauth1, python3-keystoneclient, python3-keystonemiddleware, python3-lxml, python3-migrate, python3-mypy (\u003e= 0.960), python3-mysqldb, python3-novaclient, python3-oauth2client (\u003e= 4.1.3), python3-openstackdocstheme, python3-os-api-ref (\u003e= 2.1.0), python3-os-brick (\u003e= 6.1.0), python3-os-win (\u003e= 5.5.0), python3-oslo.concurrency (\u003e= 4.5.0), python3-oslo.config, python3-oslo.context (\u003e= 3.4.0), python3-oslo.db (\u003e= 11.0.0), python3-oslo.i18n (\u003e= 5.1.0), python3-oslo.log (\u003e= 4.6.1), python3-oslo.messaging, python3-oslo.middleware, python3-oslo.policy (\u003e= 3.8.1), python3-oslo.privsep (\u003e= 2.6.2), python3-oslo.reports, python3-oslo.rootwrap, python3-oslo.serialization (\u003e= 4.2.0), python3-oslo.service (\u003e= 2.8.0), python3-oslo.upgradecheck, python3-oslo.utils (\u003e= 4.12.1), python3-oslo.versionedobjects, python3-oslo.vmware (\u003e= 3.10.0), python3-oslotest (\u003e= 1:4.5.0), python3-osprofiler, python3-packaging, python3-paramiko, python3-paste, python3-pastedeploy, python3-pep8, python3-psutil, python3-psycopg2, python3-pygments, python3-pymysql (\u003e= 0.10.0), python3-pyparsing, python3-reno, python3-requests, python3-routes, python3-rtslib-fb (\u003e= 2.1.74), python3-six, python3-sphinx-feature-classification (\u003e= 1.1.0), python3-sphinxcontrib.apidoc, python3-sqlalchemy (\u003e= 1.4.23), python3-sqlalchemy-utils (\u003e= 0.37.8), python3-stestr (\u003e= 3.2.1), python3-stevedore, python3-swiftclient, python3-tabulate, python3-taskflow, python3-tenacity (\u003e= 6.3.1), python3-testtools, python3-tooz, python3-tz, python3-webob, python3-zstd, qemu-utils, subunit"
   ],
   "Checksums-Sha1": [
-    "dbd29b658815262e71e03a2f43b2ba085bf72b2a 49484 cinder_26.0.0-2.debian.tar.xz eb4726cfe5e915d81e8fb2f3f2980ef7c84bd423 4163 cinder_26.0.0-2.dsc 98037c1ba3a59c7f79323145d55bae79572e5ce9 4368208 cinder_26.0.0.orig.tar.xz"
+    "42c5333a820ddad3ff54098754a11a0292b480a9 67164 cinder_21.3.1-1~deb12u1.debian.tar.xz f1571dc5ed5def7e335624cf3c39185b7d0a87e1 4450 cinder_21.3.1-1~deb12u1.dsc b46d389cbe724b3f593646f2165f06f764da5cb4 4161296 cinder_21.3.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "fb88ddec286515a96740ce9979642eea0d278fd72a55e6d4cc4cfe21abe2aadd 49484 cinder_26.0.0-2.debian.tar.xz 81e03900822e5524db59d605c631c6afff1caa98c5d5fc3e23f1239665938a40 4163 cinder_26.0.0-2.dsc fe9ea1c5af215aa5d47f3316126e26f0b49ad08b53434b1621ef8b540e14e4db 4368208 cinder_26.0.0.orig.tar.xz"
+    "fcfb8d4af0299c06d1ae715a36497e8712cd860a9b05cfa0242031468150a690 67164 cinder_21.3.1-1~deb12u1.debian.tar.xz 43e962eadb1821e58a52e479b14e8b282c8877b4358bc9b8bbd3adf3784dd2f2 4450 cinder_21.3.1-1~deb12u1.dsc 11a30407dfe5167e0a96eee1e96d838b483c32d76eeb1274f68cb43290d5128d 4161296 cinder_21.3.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "34557ebe77e5d4dfbe368607c8cc641e8a04a8a0c30c26995956bcfc44d70eb5d6fdbff5d62b5fd2426c4233d2af1279b51ec8fbdf5fafd3e2b2183e4f572dc4 49484 cinder_26.0.0-2.debian.tar.xz 592e2db7ceacb6119dc9ce95ba452a5489c3c7968fb0d0c6e7c7bccb8345628f486fec1b3c3c5bd5d316d9f17c463375d4d075cf138394ec097314e72ecd6e9f 4163 cinder_26.0.0-2.dsc 64810445fcf69a02f1a1d608b9ab5490b5a6388f6ca5528def4c5444e4a07b8751d7a13f975730ef0b185c68199b54a5b5294c16a3b1a161b5fac7a57ff50787 4368208 cinder_26.0.0.orig.tar.xz"
+    "8a6bf4020097bd064e221764568c1cde6610a1b9e9f910ac92f8a172cc5c59ed06f67d194dffb5ecd686546c4066b277d11f3b53c9abbf81aa1351ffb55f4370 67164 cinder_21.3.1-1~deb12u1.debian.tar.xz f5729d127d0c5ba27ba9f8d7a528086a3c6fa591b8ccc3886bc9541b43d199ea6acca5114c4e503565958b1d31831c03e5660ce1b98e929fd897ed4adc7caa41 4450 cinder_21.3.1-1~deb12u1.dsc c4aa26c4caa72629159e33ddd7f0c75bda81813741f34ba6c8f4c9de7d7ccc32c712284c9f70f708d15f74c2e1092b89df7599352660a7a91e423de6eccb476a 4161296 cinder_21.3.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/c/cinder"
   ],
   "Files": [
-    "d210b29dbd489d6d9748a1ad61a3ad39 49484 cinder_26.0.0-2.debian.tar.xz 2feb5fd036a167673f96f3ebd793308e 4163 cinder_26.0.0-2.dsc 48fcf8b8753a451b47935383930afa56 4368208 cinder_26.0.0.orig.tar.xz"
+    "63cd23b24f3f3c93a5f876e1c78c23c9 67164 cinder_21.3.1-1~deb12u1.debian.tar.xz ec5779d2965d09ad0eb26b89371c1815 4450 cinder_21.3.1-1~deb12u1.dsc 14aa8b46b946beec32ca38d13e196ce5 4161296 cinder_21.3.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,7 @@
     "cinder-api deb net optional arch=all cinder-backup deb net optional arch=all cinder-common deb net optional arch=all cinder-doc deb doc optional arch=all profile=!nodoc cinder-scheduler deb net optional arch=all cinder-volume deb net optional arch=all python3-cinder deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@"
+    "4.4.1"
   ],
   "Uploaders": [
     "Thomas Goirand \u003czigo@debian.org\u003e, Michal Arbet \u003cmichal.arbet@ultimum.io\u003e,"
@@ -60,6 +54,6 @@
     "https://salsa.debian.org/openstack-team/services/cinder.git"
   ],
   "Version": [
-    "2:26.0.0-2"
+    "2:21.3.1-1~deb12u1"
   ]
 }

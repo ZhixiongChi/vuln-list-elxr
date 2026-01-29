@@ -6,22 +6,22 @@
     "xfce4-whiskermenu-plugin"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), gettext, libexo-2-dev, libgarcon-1-dev, libgtk-3-dev, libgtk-layer-shell-dev, libxfce4panel-2.0-dev, libxfce4ui-2-dev, libxfce4util-dev, pkgconf"
+    "cmake, debhelper-compat (= 13), gettext, libexo-2-dev, libgarcon-1-0-dev, libgtk-3-dev, libxfce4panel-2.0-dev, libxfce4ui-2-dev, libxfce4util-dev, pkg-config"
   ],
   "Checksums-Sha1": [
-    "3219c34cce89f9645ea64c78b009bdd43d121b29 4168 xfce4-whiskermenu-plugin_2.9.2-1.debian.tar.xz 4b84e06626830b421c63de60b373774b5261f517 1926 xfce4-whiskermenu-plugin_2.9.2-1.dsc 9ddb696f3cce68dad8844734742ea7f45fb170d5 193188 xfce4-whiskermenu-plugin_2.9.2.orig.tar.bz2"
+    "d82f8d13b2bd23b79cb22edc947088479d0adcf0 3916 xfce4-whiskermenu-plugin_2.7.2-1.debian.tar.xz a203e2d661e0d6395a8b213987ec2424fb1eb7a6 2252 xfce4-whiskermenu-plugin_2.7.2-1.dsc 9ca5e065699e0177f5cdc84aa18e5fd3f649bbef 180151 xfce4-whiskermenu-plugin_2.7.2.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "573c608f813d9bd8bebb1e7c88963fd8343d8925aa86d92ab4ed9fb3893610d9 4168 xfce4-whiskermenu-plugin_2.9.2-1.debian.tar.xz 9b8c2ff7bf74de101c06b4a350ac19a2ecd2a4a2bcdbfaab506f63fed32e58fa 1926 xfce4-whiskermenu-plugin_2.9.2-1.dsc e2f28c066709bdcfe30236307026a562ec9aed790f9929a4e40aa411a5c7e3de 193188 xfce4-whiskermenu-plugin_2.9.2.orig.tar.bz2"
+    "edeebd58b9a283252088489b41499b8806a07a08a21161b54859792ce933f463 3916 xfce4-whiskermenu-plugin_2.7.2-1.debian.tar.xz 756daade3be7846457a18e7431fb8826aa423d2eea7d17f59cc81013bcda5dad 2252 xfce4-whiskermenu-plugin_2.7.2-1.dsc 158571a510a973a68a8b18611a0611b37bae1dda548ef953210ca8f94a3ff98b 180151 xfce4-whiskermenu-plugin_2.7.2.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "b4457ee1627820429c577a7d8adf183bc100cf3addf124fc3ca9c129edca8acfcfc8f1f38e7e353412d3159b12d6fde22e61f517dd81ff025df716d4ec82fdb5 4168 xfce4-whiskermenu-plugin_2.9.2-1.debian.tar.xz 4fb3d99bab6483f5e00fb7b008ef9e69396b4c69e9682f804cf391b4f9302f78fae01021b5ac75f69461b57ac44f01d9a20705c9307dced6c1376699324ef69b 1926 xfce4-whiskermenu-plugin_2.9.2-1.dsc 771035b30afe9cd16dd466a957b6628c97bf2393c5eae97a187b880f0624421f0cc56e04f0b57c80dbe0c301d37552ad9a1b162434ab6b9864dceb5fa0109c0f 193188 xfce4-whiskermenu-plugin_2.9.2.orig.tar.bz2"
+    "ee700c71a900e255ec4e2c4e78261670f927d0b933cecfe58ee1fb109b151564b439fad312ff83fd1554b39598c40683b8a83163d089d674c20856a5b6eb855e 3916 xfce4-whiskermenu-plugin_2.7.2-1.debian.tar.xz 0b4a09776f8c02f83facca9c0d345a14f026ebce5adfc0781d5074b1f5c1f6ba512ba24909f1c19c603564f4c850bfa581bab5fa68e751008c2a231cc6881e3e 2252 xfce4-whiskermenu-plugin_2.7.2-1.dsc 970734e91ae9e1681d5287e7c93ab7abd143b125f0cf7f0ed77e0552b94c9152ef4f1c5aa970a6d3f1a803ede1e5c5dc8d2c0146f8ab51ecfe4e6934716a190c 180151 xfce4-whiskermenu-plugin_2.7.2.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/x/xfce4-whiskermenu-plugin"
   ],
   "Files": [
-    "d0eac3d1fdd7bd28b48842489fb6fe9f 4168 xfce4-whiskermenu-plugin_2.9.2-1.debian.tar.xz 8c4495772c6af6d22a456cce1302eccb 1926 xfce4-whiskermenu-plugin_2.9.2-1.dsc fb24725efebb68bd10b9d097b39d8ac3 193188 xfce4-whiskermenu-plugin_2.9.2.orig.tar.bz2"
+    "0d10ef6dea90b79b9c8b232708f2b6b3 3916 xfce4-whiskermenu-plugin_2.7.2-1.debian.tar.xz 2ad136a9b7829816346d69fe70b936e9 2252 xfce4-whiskermenu-plugin_2.7.2-1.dsc 4e6d142c87c500270d85e2b9829a3e81 180151 xfce4-whiskermenu-plugin_2.7.2.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "xfce4-whiskermenu-plugin deb xfce optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.1"
+    "4.6.2"
   ],
   "Uploaders": [
     "Yves-Alexis Perez \u003ccorsac@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/xfce-team/goodies/xfce4-whiskermenu-plugin.git"
   ],
   "Version": [
-    "2.9.2-1"
+    "2.7.2-1"
   ]
 }

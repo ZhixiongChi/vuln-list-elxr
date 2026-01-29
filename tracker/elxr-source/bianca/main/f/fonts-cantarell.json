@@ -6,25 +6,25 @@
     "fonts-cantarell"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), meson, pkgconf"
+    "debhelper-compat (= 13), meson, pkg-config, python3-distutils"
   ],
   "Build-Depends-Indep": [
-    "afdko-bin, appstream, fontmake, psautohint, python3-statmake"
+    "afdko-bin, appstream, fontmake (\u003e= 1.5.1), psautohint (\u003e= 1.7)"
   ],
   "Checksums-Sha1": [
-    "7d44108c23f07fb901dd48b813a40aaa3f2557af 7872 fonts-cantarell_0.303.1-4.debian.tar.xz 9484055120870cd1a908953af591438520eb65f4 2227 fonts-cantarell_0.303.1-4.dsc b5a89e384788777f8e3caf1193cb176cf46a190b 338316 fonts-cantarell_0.303.1.orig.tar.xz"
+    "788d3fb066fe711eb1eac5cc730b1503681d429d 7524 fonts-cantarell_0.303.1-1.debian.tar.xz 9ac6851c8511ffdb3554421260020157b11846c1 2225 fonts-cantarell_0.303.1-1.dsc b5a89e384788777f8e3caf1193cb176cf46a190b 338316 fonts-cantarell_0.303.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "60eecee6eeb52a3897bf9608306e0065c35e66402021280a7583c16e3634f2e8 7872 fonts-cantarell_0.303.1-4.debian.tar.xz 9d3b03790b020806f132c751d48794733cf9e4cb0f6d03fafbf3b17129f32e1d 2227 fonts-cantarell_0.303.1-4.dsc f9463a0659c63e57e381fdd753cf1929225395c5b49135989424761830530411 338316 fonts-cantarell_0.303.1.orig.tar.xz"
+    "8f76d05b7023671d17b2d67d5fae700874abed98fce836d1f1a0370836e5a5ca 7524 fonts-cantarell_0.303.1-1.debian.tar.xz 05451ad91ea9bc4b4e6c8214e31620732d80d5701a7c68ab9b9fe645e5a76899 2225 fonts-cantarell_0.303.1-1.dsc f9463a0659c63e57e381fdd753cf1929225395c5b49135989424761830530411 338316 fonts-cantarell_0.303.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "ad3b9223b1339a0a6dd87f73c3244a6b89c03bc2983ab878671d0b4ea77e42e2a86d4e0fe9354270e67a5f143fd7fbb118c578eba6684a631dd617eabb7c159d 7872 fonts-cantarell_0.303.1-4.debian.tar.xz 2588581a84df40a4af3cb0a659a406d0159417bfeee97cc2f119a5260cf90b45abec54239e522e0bf077d9784000d01aabf8652ed42ae1d1cc82a27a25ef60aa 2227 fonts-cantarell_0.303.1-4.dsc f61c2df6bb04167a9623bac141773211486059a5569106c0ed096d6d1a5d57e599cc5b75b06be954859aef13c649f7617ae067d9936932faec0b2ce896fd31b5 338316 fonts-cantarell_0.303.1.orig.tar.xz"
+    "2af72c1807369e25ffc9947e5c74e36188cf4a2337d249e9db2844debe9ec9aa4dfb24ebc1f7fba491a8764f568a93906c7cee40d4142ba7ac2d226dfe0d6d00 7524 fonts-cantarell_0.303.1-1.debian.tar.xz 7b7fdf092e9144326cc2f3a6871a9587905070905f8db86095238416f8077242e95565c615a5f07d1ce250150ba678d022f62c91f5674700792d0b5f3be0b59e 2225 fonts-cantarell_0.303.1-1.dsc f61c2df6bb04167a9623bac141773211486059a5569106c0ed096d6d1a5d57e599cc5b75b06be954859aef13c649f7617ae067d9936932faec0b2ce896fd31b5 338316 fonts-cantarell_0.303.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/f/fonts-cantarell"
   ],
   "Files": [
-    "2d79c22c589e76c1d4f517ca40453436 7872 fonts-cantarell_0.303.1-4.debian.tar.xz 533e50509eeb8059a3623d03608c1ef8 2227 fonts-cantarell_0.303.1-4.dsc a9be59ddb29204dcfd3357f201949b8c 338316 fonts-cantarell_0.303.1.orig.tar.xz"
+    "acbb7a542a3806a79bf76a87522aeb48 7524 fonts-cantarell_0.303.1-1.debian.tar.xz 9fcbd130e05184c42eb8a9a61f8fbbd0 2225 fonts-cantarell_0.303.1-1.dsc a9be59ddb29204dcfd3357f201949b8c 338316 fonts-cantarell_0.303.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,10 +42,10 @@
     "fonts-cantarell deb fonts optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Uploaders": [
-    "Hideki Yamane \u003chenrich@debian.org\u003e, Nicolas Spalinger \u003cnicolas.spalinger@sil.org\u003e, Fabian Greffrath \u003cfabian@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
+    "Hideki Yamane \u003chenrich@debian.org\u003e, Nicolas Spalinger \u003cnicolas.spalinger@sil.org\u003e, Fabian Greffrath \u003cfabian@debian.org\u003e, Jeremy Bicha \u003cjbicha@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/fonts-team/fonts-cantarell"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/fonts-team/fonts-cantarell.git"
   ],
   "Version": [
-    "0.303.1-4"
+    "0.303.1-1"
   ]
 }

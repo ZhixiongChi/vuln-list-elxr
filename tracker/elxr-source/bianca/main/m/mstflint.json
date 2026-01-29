@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "linux-any all"
+    "linux-any"
   ],
   "Binary": [
-    "mstflint, mstflint-dkms"
+    "mstflint"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-dkms, libboost-filesystem-dev, libboost-regex-dev, libboost-system-dev, libexpat1-dev, libibmad-dev, libjsoncpp-dev, liblzma-dev, libmuparser-dev, libsqlite3-dev, libssl-dev, pkgconf, zlib1g-dev"
+    "debhelper-compat (= 13), libboost-filesystem-dev, libboost-regex-dev, libboost-system-dev, libexpat1-dev, libibmad-dev, libjsoncpp-dev, liblzma-dev, libmuparser-dev, libsqlite3-dev, libssl-dev, libiniparser-dev, pkg-config, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "bb56399a430066ac3a90407ead5dd27b3ce92869 14076 mstflint_4.31.0+1-4.debian.tar.xz 27c1cd9782225d5d683399cec0640395ed8324c5 2146 mstflint_4.31.0+1-4.dsc 5d6bcd993cdba75ab55fae02be344419cf0a4ca4 7689210 mstflint_4.31.0+1.orig.tar.gz"
+    "9fe5fdc2c1ee204887a9053c9904fed147ccd118 11312 mstflint_4.21.0+1-1.debian.tar.xz ebb1adf6c4a1b0ed783b3564325a72c32a5b6f1b 1993 mstflint_4.21.0+1-1.dsc 05fb6857eeac10376c9c9b19aa56f07359425185 6641425 mstflint_4.21.0+1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "6176ce8d8a66aec8b24212fbad25ccf85b2ff98a8d01f64af41ac74aa5e87a4a 14076 mstflint_4.31.0+1-4.debian.tar.xz c7d035b74f0e3aca0e03c01a56ea09ceee6b75399713976f443ff032ba9c6c82 2146 mstflint_4.31.0+1-4.dsc 10f2611f9f60fbb9f74dfd33d08438d7f85418351b2d735947d4cd2165a50d98 7689210 mstflint_4.31.0+1.orig.tar.gz"
+    "25104d236f6fef85ce0d4000df6ea78404c3e61c5beec28b08d4ca2b2a9bbafb 11312 mstflint_4.21.0+1-1.debian.tar.xz 8fb3033f7f8305b5230bae23aa2942a61caa322295891aeb1bf343f395b97ebc 1993 mstflint_4.21.0+1-1.dsc 070449e3b85adfaed650292bc748e7f4d2fb17763af9311914e4ef97ee2a765e 6641425 mstflint_4.21.0+1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "448366f2fb5c875fd2135dc3b888be80cc218316c45a2c95f52be5497d63db58e70e8fee3418fca0b01680551e073b598a14edbc0a2612bee4a6f1ecb3949f21 14076 mstflint_4.31.0+1-4.debian.tar.xz 766eabd985e17b64f9d32818e180bda05fa7938e7b8264e94ef205f57d283ed35882916f0e41714214016471a3b5e69f611fc58e265e8be6fcb16f777c8d9d51 2146 mstflint_4.31.0+1-4.dsc 61d0c4642692e2885f09dde44c5330485603c57c66d14533067f9e62ed4215384c3152e2b5c8e9ea5152edfd472efeee17fc19c69d5ff34c8fa0ae9e722a9016 7689210 mstflint_4.31.0+1.orig.tar.gz"
+    "6db6673d5254d756dbdf01149d341de841adfcf7bd4d1425c5d1e3faf39cb5117037e087b1e9d46c4636019ca0fd14b7178c5b6768569c0a7d74214d60e33867 11312 mstflint_4.21.0+1-1.debian.tar.xz 91035299ec14c615a4f572cc4ebc4df2850c6ebd36e1915838da4fa0e584986ea9bd2adb117769e4cf8fefeb2cb06da8af413f7c76378310c0639905992d28e5 1993 mstflint_4.21.0+1-1.dsc c9f13e0187bb15c9df2e0ea9d1d91f99f6fd6fcad76a607d3071568d22dc8256110a9c007826ee0fe302c369f0baf060cffac9dedaeedfff787c03b09307815c 6641425 mstflint_4.21.0+1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/m/mstflint"
   ],
   "Files": [
-    "7374b5e3f7c1553f775eb9a58d68231c 14076 mstflint_4.31.0+1-4.debian.tar.xz 532be428a5ae9a854db3cc9a84f3a363 2146 mstflint_4.31.0+1-4.dsc 938ad6208548decda8f6e4dd70fc1d31 7689210 mstflint_4.31.0+1.orig.tar.gz"
+    "6582a90fd13eebc3eccf7482a853d9c4 11312 mstflint_4.21.0+1-1.debian.tar.xz bd7a18eb454d238a9d3a5f2163990f3a 1993 mstflint_4.21.0+1-1.dsc 52644e1a715168a6b118389b294851b2 6641425 mstflint_4.21.0+1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,16 +36,10 @@
     "mstflint"
   ],
   "Package-List": [
-    "mstflint deb net optional arch=linux-any mstflint-dkms deb kernel optional arch=all"
+    "mstflint deb net optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.7.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "linux-headers-generic, linux-headers-rpi, openssl"
+    "4.5.1"
   ],
   "Uploaders": [
     "Mehdi Dogguy \u003cmehdi@debian.org\u003e, Tzafrir Cohen \u003ctzafrir@debian.org\u003e"
@@ -57,6 +51,6 @@
     "https://salsa.debian.org/hpc-team/mstflint.git"
   ],
   "Version": [
-    "4.31.0+1-4"
+    "4.21.0+1-1"
   ]
 }

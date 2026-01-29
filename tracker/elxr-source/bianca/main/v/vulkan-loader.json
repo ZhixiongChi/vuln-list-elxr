@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "any"
+    "linux-any"
   ],
   "Binary": [
     "libvulkan1, libvulkan-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), cmake, googletest \u003c!nocheck\u003e, libwayland-dev [linux-any], libx11-dev, libxcb1-dev, libxrandr-dev, pkgconf, python3"
+    "debhelper-compat (= 12), cmake, googletest \u003c!nocheck\u003e, libwayland-dev, libx11-dev, libxcb1-dev, libxrandr-dev, pkg-config, python3"
   ],
   "Checksums-Sha1": [
-    "0d50fa100e6a4cf0189dbe3771780d16e71a7fd0 9536 vulkan-loader_1.4.309.0-1.debian.tar.xz 1401fb9bb32c4ec48c083089923be24f371cdcc4 2243 vulkan-loader_1.4.309.0-1.dsc c8184b1f95ae9f1389682a06761b8d933b2b29cf 2930248 vulkan-loader_1.4.309.0.orig.tar.xz"
+    "ae8a7fadb0547dff24482677dbb30a5bd4800858 8956 vulkan-loader_1.3.239.0-1.debian.tar.xz d3c9099523672cc9598b57548d116accf38626cc 2252 vulkan-loader_1.3.239.0-1.dsc 770fad084c73668751463d508d78a323d094ec9f 2422936 vulkan-loader_1.3.239.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "16cf72cbf5318a60403303d5ec5c234fd70d8f5333cdd780775192e6711b051d 9536 vulkan-loader_1.4.309.0-1.debian.tar.xz 0f0c958cf579c47b6c8da0332bb37d8dbc86320561e1ce1275238f004f0a1063 2243 vulkan-loader_1.4.309.0-1.dsc 6e37284e5c8ef5f06cef273cc207f0b31cb3b63c1ea2875639e843b01da4e6d7 2930248 vulkan-loader_1.4.309.0.orig.tar.xz"
+    "c38c319e1137549ddea481b811cfb39bca015ddc11876a915ad78c664cb7746e 8956 vulkan-loader_1.3.239.0-1.debian.tar.xz 991b9b9043c2b4b4e8bcb455b42cb01d2a83a7a54355bb8b6037eba1e8cfe08d 2252 vulkan-loader_1.3.239.0-1.dsc 90ca97151d774ea3f00129ad32be03cdfa310215651ceec0cd9fc2d0d1804d86 2422936 vulkan-loader_1.3.239.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "a776a052f488a22359dbfbbf1bb75708f17772227e214e177ab14fb5ddbf3003277c47d6cf9777266e7a4224a8e895aee63ed0ea86c0fbed407fe5a8fc13ca29 9536 vulkan-loader_1.4.309.0-1.debian.tar.xz cb380a2578e0ef20bdc58eaa59fa16434146c114b22c09b3713640f392e204cbe753fc3006ca616ba63896387762cc742c6dc4a312a557e107145031a7ede896 2243 vulkan-loader_1.4.309.0-1.dsc af8416ed4be3b5d6582ef15ab9c37e2845814f1d68f1b741bd7a681861237b8a4be1802354f3dae3906d7aa9dfa996e17e4e81708f1cb42049143da02388e9d8 2930248 vulkan-loader_1.4.309.0.orig.tar.xz"
+    "80f32a17c2fa4e650446b23a5aa602f1b94d0ba11f88faff921f6add4755141fe2162e661eb1ac853cf7b0d68195ef47b8798851270536196b516e95e806d1e8 8956 vulkan-loader_1.3.239.0-1.debian.tar.xz 5ca72fea44ab8ce03f6d24a1d2071274ef70abceee9b3589fa4eb85f9640a8ba727216005331eda102c59a8f460935a27aba7bd9f59e0e409fe6f97c95014134 2252 vulkan-loader_1.3.239.0-1.dsc 0c17ba382a2c0b48c9abbfa5c3a8f893be9cf8ad8faa2022c314120dc7e2bba1875296bcdf8ce991dd71ec30bf5b0fcdb1a3e11dd7e8336c19bdc28597d832ac 2422936 vulkan-loader_1.3.239.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/v/vulkan-loader"
   ],
   "Files": [
-    "2a803da884f91d150add5be588479bd4 9536 vulkan-loader_1.4.309.0-1.debian.tar.xz e83595c19fb63206e295f32be730cb14 2243 vulkan-loader_1.4.309.0-1.dsc 771e0a20be4aca23df9c3fe806a38b29 2930248 vulkan-loader_1.4.309.0.orig.tar.xz"
+    "72fa677bfe84e128865d188af6fd9257 8956 vulkan-loader_1.3.239.0-1.debian.tar.xz f9e7a178cc6fb05b9f558a6e60654db1 2252 vulkan-loader_1.3.239.0-1.dsc a3da3e1b51e04857ca9a9a94c879b96f 2422936 vulkan-loader_1.3.239.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "vulkan-loader"
   ],
   "Package-List": [
-    "libvulkan-dev deb libdevel optional arch=any libvulkan1 deb libs optional arch=any"
+    "libvulkan-dev deb libdevel optional arch=linux-any libvulkan1 deb libs optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/xorg-team/vulkan/vulkan-loader.git"
   ],
   "Version": [
-    "1.4.309.0-1"
+    "1.3.239.0-1"
   ]
 }

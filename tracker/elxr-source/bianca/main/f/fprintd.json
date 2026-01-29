@@ -6,25 +6,25 @@
     "fprintd, libpam-fprintd, fprintd-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-exec, libfprint-2-dev (\u003e= 1:1.94.9), libglib2.0-dev (\u003e= 2.64), libpam0g-dev, libpolkit-gobject-1-dev, libsystemd-dev (\u003e= 235) [linux-any], meson (\u003e= 0.50.0), python3, python3-cairo, python3-dbus, python3-dbusmock, python3-gi \u003c!nocheck\u003e, python3-pypamtest, libpam-wrapper, libxml2-utils \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-exec, libfprint-2-dev (\u003e= 1:1.94.0), libglib2.0-dev (\u003e= 2.56), libpam0g-dev, libpolkit-gobject-1-dev, libsystemd-dev (\u003e= 235) [linux-any], meson (\u003e= 0.50.0), policykit-1, python3, python3-cairo, python3-dbus, python3-dbusmock, python3-gi \u003c!nocheck\u003e, python3-pypamtest, libpam-wrapper, libxml2-utils \u003c!nocheck\u003e"
   ],
   "Build-Depends-Indep": [
     "gtk-doc-tools \u003c!nodoc\u003e, xsltproc \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "97430245d0e6e64469a0bd911e1ed0c1cdcf8ab2 32964 fprintd_1.94.5-2.debian.tar.xz ba66ca38bac242e5af3e794615aa900c4458b34a 2412 fprintd_1.94.5-2.dsc e20a3b3d68f66499830d149fc13ffd2cbae4e1ba 661981 fprintd_1.94.5.orig.tar.bz2"
+    "4c12a6d0a6e33aa047f1d5c4625bb962c27256bb 10544 fprintd_1.94.2-2.debian.tar.xz fd34b0fd9688ae3f72b9aa4eec7e7ca9a74f3e58 2425 fprintd_1.94.2-2.dsc 16ae3a51ea52f28ce4e461828b8997f17731fbc9 657989 fprintd_1.94.2.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "bd16c2d5d4ef27bd364c8268331564d6ffaac68248762e790f0c53976b20db0f 32964 fprintd_1.94.5-2.debian.tar.xz 1009c796d6ae8c6a2b7e800dd1631e1a3fc715502326a1425f08801ae433b321 2412 fprintd_1.94.5-2.dsc 597466f61fdd5bd1d8af4fe96d982eb07528d28e915200ad789279ed7d8dfb6d 661981 fprintd_1.94.5.orig.tar.bz2"
+    "a06ebb92d765d752be5230ebdb5f51a99f6be37f77c24ad0b028574d7bb2ffb6 10544 fprintd_1.94.2-2.debian.tar.xz f65f74d796afa0712bede8b91d6316b53c2c0ae903e3647294b69e0026d3edaf 2425 fprintd_1.94.2-2.dsc e388694c60322359c632386fa71c8e1e2cf2abe34363028f1046b0203d3fc640 657989 fprintd_1.94.2.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "0186699ca10305772148061dc0e12ab3d0ae2e9f025ad26929356d286d693a561d907ff7c504f6c2f5c38e3109ef02ce2b596488c9b4d8546805171d732652ae 32964 fprintd_1.94.5-2.debian.tar.xz 241bff1218c5d81b71e6e8905db80f14b4e0075b46c5e78e1f66db7733791c4faca7b4ee793c83ce9f4dfd00042e7ee16a7d8312b878effff6f5ce0eb2f14045 2412 fprintd_1.94.5-2.dsc b1c78917d6215d1fd1fb66f24fa2c48c2f22ac63ca6dadbaabe3cabdec1800d3870837b3f789b38612eb61a36cc5f2a18c56b0c6e3c13dab5d3d804051f4639e 661981 fprintd_1.94.5.orig.tar.bz2"
+    "ad179bb7da56bafb5ecd5b146fd19165b07b647cbc8276e04e5d3ef30e0c711d20d73ebedbb9cd86619c83700feb356708971a4f9b4162928c36577d5ee682fc 10544 fprintd_1.94.2-2.debian.tar.xz 975ff6b6d4180d6edb9217f1062da69008762a097fca97e2ff7cceb26732c06866dbbd10cd4301efaf439d4656b9ef86c49a6962d6e2988ee0f2036fb8a398d2 2425 fprintd_1.94.2-2.dsc 0b5ebc595b617fbe9167c41a80e31ae74e7bdc87350b0420839e1a6229d7709e51ff2836858c46d8d30549a1f0811b0f697034fcdd09512b5c1099f0f0a3b112 657989 fprintd_1.94.2.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/f/fprintd"
   ],
   "Files": [
-    "f5e0de364eac06c919969b9cb96a41d7 32964 fprintd_1.94.5-2.debian.tar.xz 395b2adf0f52acf9ca85ce23081a527b 2412 fprintd_1.94.5-2.dsc b5f12116acbfa0f05b6a5f8ebd687b19 661981 fprintd_1.94.5.orig.tar.bz2"
+    "dfcce40aa25f3bccc0329ddce7d36890 10544 fprintd_1.94.2-2.debian.tar.xz ff65cf099ba7a0a13d33159febc0bcf9 2425 fprintd_1.94.2-2.dsc ec23762382a3119ccec0a8f614b9be09 657989 fprintd_1.94.2.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "fprintd deb misc optional arch=any fprintd-doc deb doc optional arch=all profile=!nodoc libpam-fprintd deb admin optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Uploaders": [
     "Marco Trevisan \u003cmarco@ubuntu.com\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/fprintd.git"
   ],
   "Version": [
-    "1.94.5-2"
+    "1.94.2-2"
   ]
 }

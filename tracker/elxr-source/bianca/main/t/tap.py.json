@@ -6,25 +6,25 @@
     "python-tap-doc, python3-tap, tappy"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12.5), debhelper-compat (= 13), dh-exec, dh-python, dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-hatchling, python3-more-itertools \u003c!nocheck\u003e, python3-setuptools, python3-sphinx, python3-yaml \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12.5), debhelper-compat (= 13), dh-exec, dh-python, dh-sequence-python3, python3-all, python3-more-itertools \u003c!nocheck\u003e, python3-setuptools, python3-sphinx, python3-yaml (\u003e= 5.1) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "ba56ac62bd0b6bde6f5bc154cb946c3e2e71491f 7164 tap.py_3.2.1-1.debian.tar.xz 7fd5049b5060b9e4a9f167b3e1a78284d2346b04 2487 tap.py_3.2.1-1.dsc 23e0d89042b9c7ac36c79d71d6e088919d5bc1a9 125390 tap.py_3.2.1.orig.tar.gz"
+    "3838fa9d4f1371e9ad3bfbda07f9aa963f72e8bd 6800 tap.py_3.1-1.debian.tar.xz e56697be86339e40fa9793286990226ae0cf681b 2435 tap.py_3.1-1.dsc d7bc340bdc29b41449468f000473891cbabf099b 133208 tap.py_3.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "591ea8239f3ad0ff9658fdf93a29ee52cb324be0b67b49a3b99131f49cb732c9 7164 tap.py_3.2.1-1.debian.tar.xz a2e33f1c2ad7114ffd9b9a18964f76689d18680677022a5e39762f056255e59d 2487 tap.py_3.2.1-1.dsc d03c9e6af0a56fad994f1c69f14041e676811d73eeeef20bf4077c43d621d608 125390 tap.py_3.2.1.orig.tar.gz"
+    "dc00a13d2476fc394ba3ec5374f9bd2fa132ce2ce9b9977bc9b163ee07acd144 6800 tap.py_3.1-1.debian.tar.xz 8109caf2b56ca95aced614fa0d5ac00fed66b1c7fa20c4307f81e8d0e3e208e5 2435 tap.py_3.1-1.dsc 3c0cd45212ad5a25b35445964e2517efa000a118a1bfc3437dae828892eaf1e1 133208 tap.py_3.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8080e7d6950ef0db9c375eee7444642c4d633e06b950eb51272a8372cdea5d72922f20653ead12a8ff181c10ae05dc7d234788eb4fdef122952c8a7c6fbdda10 7164 tap.py_3.2.1-1.debian.tar.xz 6c8c59ee3826720a613b701e9ee7c01d2a5755707412e9cf54e6009b2158a6243aaa66ce82ec2849e21f3ab93164e63da1e7af57634fdd2c03989a52e5c15612 2487 tap.py_3.2.1-1.dsc 231bffc49eb93f024d661b4f9e7b3bff61c84f00e31bfe25c8ac0a51d9548f31fb47c9b5d515c089c80fc748acfe5841e0be169ec9a1f6691c9509f3eacfe36d 125390 tap.py_3.2.1.orig.tar.gz"
+    "aa7919240e9a866a462cb7890614edcddbd32475d3903f207ea5c41b88abaf072e65da6bce18427e1b31eb5e5bb60ccfa3381df260ee81f6e51b06b15c530d3b 6800 tap.py_3.1-1.debian.tar.xz e33ce64b6b95aeb195814e95d1a75595525d26b9b613cfa8af55ef84ea0b160f7a16d2f05336d5486b46ee7cc4f2b68ec4f331fef8f94182bd236530f9c83b92 2435 tap.py_3.1-1.dsc 4a3b5c5fb54ee1343cfee9bc154e812066d745c020a2c3391761c3e407b7b8428412c799df4963a385e4563ffe3b31e16055cb76ab5940ab6156e57dcf4a4d3a 133208 tap.py_3.1.orig.tar.gz"
   ],
   "Dgit": [
-    "8a05b1c58c1e743e293ad2dc2dbf93dbb892dde0 debian archive/debian/3.2.1-1 https://git.dgit.debian.org/tap.py"
+    "9fd5e3ac87ea0f53af49fc3ab59aae271be0ede5 debian archive/debian/3.1-1 https://git.dgit.debian.org/tap.py"
   ],
   "Directory": [
     "pool/main/t/tap.py"
   ],
   "Files": [
-    "5d53a17d552de1e6a57a39e68638adef 7164 tap.py_3.2.1-1.debian.tar.xz ee2dac96ef03ffff0e0c78e069500795 2487 tap.py_3.2.1-1.dsc b7775663192de6d8182614410a12d246 125390 tap.py_3.2.1.orig.tar.gz"
+    "3a5ec3f9eb3b2b298c65bb8cafec9e90 6800 tap.py_3.1-1.debian.tar.xz fd5551c7ec9953a9550382977954b6d8 2435 tap.py_3.1-1.dsc a6bccfef21376d57b967bf42343dd3b8 133208 tap.py_3.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "python-tap-doc deb doc optional arch=all python3-tap deb python optional arch=all tappy deb devel optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/tap.py.git"
   ],
   "Version": [
-    "3.2.1-1"
+    "3.1-1"
   ]
 }

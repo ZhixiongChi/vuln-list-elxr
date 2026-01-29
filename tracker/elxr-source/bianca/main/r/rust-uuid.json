@@ -6,22 +6,22 @@
     "librust-uuid-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.60.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "478828ef7c5f70adee51b26073faf1029ccb9f9a 4876 rust-uuid_1.10.0-1.debian.tar.xz d5b61cca0bfc562db85c9bcd5b3f0a983ab22d09 2467 rust-uuid_1.10.0-1.dsc 1ecd45a300c59f42c3554cd8610c4f0b305649fa 47648 rust-uuid_1.10.0.orig.tar.gz"
+    "7a01d706583cfc293eb3a92b66724cc1a0973090 4852 rust-uuid_1.2.1-1.debian.tar.xz dd1360514943f398f10fd2d0169a863306b02102 2347 rust-uuid_1.2.1-1.dsc 82636f1b1b6a146f914dff46c2bab9ae2d5e2280 53789 rust-uuid_1.2.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "ba222d6073c156f75b3504736b7e5b258777ef6c0dd8b5037d051652d11cbfc4 4876 rust-uuid_1.10.0-1.debian.tar.xz 55392eaaa64e7062342f6f7a92548a6124a3c421f0c654fd7d09ffe8ef9137e7 2467 rust-uuid_1.10.0-1.dsc 81dfa00651efa65069b0b6b651f4aaa31ba9e3c3ce0137aaad053604ee7e0314 47648 rust-uuid_1.10.0.orig.tar.gz"
+    "5763dc976e802987c26252c6deda8494174f9d6e99550fcc0ac09f29877a0736 4852 rust-uuid_1.2.1-1.debian.tar.xz 1557b378b3b7a950e449c85433208f72faeeeea2a169fdc1302b3b51392d39e2 2347 rust-uuid_1.2.1-1.dsc feb41e78f93363bb2df8b0e86a2ca30eed7806ea16ea0c790d757cf93f79be83 53789 rust-uuid_1.2.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "ceb6d3b80a05240f122b123aca084c2a5be6ebaf6621a0e81499dbbeb2e983ea9ceae5fcd3d8bf1b108ad1fb4545f0f7ce1ed6441c6621f723e4e5a264f7505f 4876 rust-uuid_1.10.0-1.debian.tar.xz affc00efe55d0cca4613f411fb927b689c0b4e51d6eb0635ce8ccf815f7ac69ff8235c1d375f59be74d36d91b3b362b36ace9e23391ee302dfbe4e59314ca402 2467 rust-uuid_1.10.0-1.dsc e17db9433d919b51468acaebd240a2cb218d07f099fade49118ca9313f8cdf6aa3103e7aa24440be65a4f25a25f8f511e36dba08cbef27747f9e43b849cd612b 47648 rust-uuid_1.10.0.orig.tar.gz"
+    "0469d5d47d2ceaaa30934126502ac69f851d01024a84055b00553c47ca10c7aa833beb96ebeed469acd46e4ecd3875d775213bad619d81c1409e6cf2a3adcc6f 4852 rust-uuid_1.2.1-1.debian.tar.xz 220f9618b1f9910dde5e4c4630fb8e30d826a96c77e486c191cf7f8b5b6c30687652e7e1a85cd16512993733dbcc92381abe0498d8fa23127cab7d2a77d4ac27 2347 rust-uuid_1.2.1-1.dsc e45b17d1fee6f32efbb0c4d556ff04d90ae94521890f0cbb7253171f3d469a202251cbdfc8d422e5ac39eea7b912a9ebd47fa749d6d183d05f8445d8e09a98cf 53789 rust-uuid_1.2.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-uuid"
   ],
   "Files": [
-    "17cffa953b1f3a6ca8454898ba58be96 4876 rust-uuid_1.10.0-1.debian.tar.xz 1becf074960dfe721e91af92acea514f 2467 rust-uuid_1.10.0-1.dsc 94b5cc6f38b1ebeba1b35cc7692ec9a7 47648 rust-uuid_1.10.0.orig.tar.gz"
+    "6f0fc303ca8651a5e397c50c72a705d1 4852 rust-uuid_1.2.1-1.debian.tar.xz c1f2b336d0a463a1141faf50480ace2f 2347 rust-uuid_1.2.1-1.dsc 7f2f493628fb9a107b240d66d6a7fbcf 53789 rust-uuid_1.2.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "librust-uuid-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/uuid]"
   ],
   "Version": [
-    "1.10.0-1"
+    "1.2.1-1"
   ]
 }

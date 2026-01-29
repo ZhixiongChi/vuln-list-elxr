@@ -6,22 +6,22 @@
     "librust-hostname-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-match-cfg-0.1+default-dev \u003c!nocheck\u003e, librust-winapi-0.3+default-dev \u003c!nocheck\u003e, librust-winapi-0.3+sysinfoapi-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 24), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-match-cfg-0.1+default-dev \u003c!nocheck\u003e, librust-winapi-0.3+default-dev \u003c!nocheck\u003e, librust-winapi-0.3+sysinfoapi-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "60e9231ebd8cbe08e4eddf25a119927b0be8f7ae 2952 rust-hostname_0.3.1-2.debian.tar.xz 74cf752885e4e1d5c99bc2dfb1912e6c566c94ce 2339 rust-hostname_0.3.1-2.dsc 869c9f98c93e2f505489655e72b7ebdde26bc094 9272 rust-hostname_0.3.1.orig.tar.gz"
+    "2b0794154c43c2b95b249dd3362c41840a23a88d 2696 rust-hostname_0.3.1-1.debian.tar.xz 90de1e256dedb1e2b2acef3c80ad749361ef35f8 2310 rust-hostname_0.3.1-1.dsc 869c9f98c93e2f505489655e72b7ebdde26bc094 9272 rust-hostname_0.3.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "2aa1e29c9c0421a22360be5128bbe94bd27575498bb8775c921fab8d5a557cff 2952 rust-hostname_0.3.1-2.debian.tar.xz c5cba85dc330d76c509f0c9e9416aa44c9778c4833de1fb5006a6e829920b77d 2339 rust-hostname_0.3.1-2.dsc 3c731c3e10504cc8ed35cfe2f1db4c9274c3d35fa486e3b31df46f068ef3e867 9272 rust-hostname_0.3.1.orig.tar.gz"
+    "b597080c65842de89dbe567ba25d87e697bc5a0e905afe8e8bcc733413a1f29d 2696 rust-hostname_0.3.1-1.debian.tar.xz 0e9a63a9717072bc711b79db7521cdba076a3cab2c9fb01c374aa212de802378 2310 rust-hostname_0.3.1-1.dsc 3c731c3e10504cc8ed35cfe2f1db4c9274c3d35fa486e3b31df46f068ef3e867 9272 rust-hostname_0.3.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c2a2de13c933d7e8e7c506f756e927c0282c7f358ec02f625ee001d423e13c7d0f55cb49211091fd36049cf57f8f5db8737fc20d67ed01189e09e56f67a0ddda 2952 rust-hostname_0.3.1-2.debian.tar.xz 33cd10ca832ad28392e8e05e1636dd850cb1a65f8bd8bf41612b24ea377f6e5d6243efdca91678b6034b1a2cd07d02263c2030ebfac42ab931360cebb84ee457 2339 rust-hostname_0.3.1-2.dsc a90407996353c9bcf5b76be03713e3a0455ac80a50892e77a508744cf436a938ddb87ef97d8cc91ec7dc4353cfb7bca0fd28c90a72f8a9ecd4f29220d174edf2 9272 rust-hostname_0.3.1.orig.tar.gz"
+    "373bc51488cce686c0c8be73eff1a8762e44c6a81a8b163d74ff4360ce08f0725a136a6987c688f573ece6b98a239c74a43879f97563b1be73d65f8edc86626a 2696 rust-hostname_0.3.1-1.debian.tar.xz fa3c97c5c96cea348d0ebebefc47fe3686bba764fe54bbbca91b319aaffa1766fabf401f084b2bc03a0afdb0dbc5ade3bfe240504a8029db5db69f814b23463e 2310 rust-hostname_0.3.1-1.dsc a90407996353c9bcf5b76be03713e3a0455ac80a50892e77a508744cf436a938ddb87ef97d8cc91ec7dc4353cfb7bca0fd28c90a72f8a9ecd4f29220d174edf2 9272 rust-hostname_0.3.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-hostname"
   ],
   "Files": [
-    "366a83b00876ecd11234b64b0bdef32d 2952 rust-hostname_0.3.1-2.debian.tar.xz 856580ee1f2fe9eaa59d0607a3ab5d10 2339 rust-hostname_0.3.1-2.dsc d15066ccf2d33bbd8afdb9036ba47da5 9272 rust-hostname_0.3.1.orig.tar.gz"
+    "5fcdd6bec484082a0a72d95ec9f8669d 2696 rust-hostname_0.3.1-1.debian.tar.xz 847574018c3edb27589ee2310546d992 2310 rust-hostname_0.3.1-1.dsc d15066ccf2d33bbd8afdb9036ba47da5 9272 rust-hostname_0.3.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,13 @@
     "librust-hostname-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.5.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-version-sync-0.9+default-dev"
+    "dh-cargo, librust-version-sync-0.8+default-dev"
   ],
   "Uploaders": [
     "kpcyrd \u003cgit@rxv.cc\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/hostname]"
   ],
   "Version": [
-    "0.3.1-2"
+    "0.3.1-1"
   ]
 }

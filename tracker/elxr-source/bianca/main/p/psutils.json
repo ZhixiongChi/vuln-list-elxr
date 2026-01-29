@@ -1,27 +1,30 @@
 {
   "Architecture": [
-    "all"
+    "any"
   ],
   "Binary": [
-    "python3-psutils, psutils"
+    "psutils"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-argparse-manpage, python3-puremagic, python3-pypdf, python3-setuptools, libpaper-utils, libpaper-dev"
+    "cdbs (\u003e= 0.4.106~), debhelper (\u003e\u003e 9), libpaper-dev"
   ],
   "Checksums-Sha1": [
-    "d0737c39eb7788b18bbdcb9bfd224d772f09b0a9 7528 psutils_3.3.8-1.debian.tar.xz 262f814975b24f5ba149ff71c97a830870c31204 1951 psutils_3.3.8-1.dsc e94ed6d533e294a0c0e074dfead9d2595662f420 184384 psutils_3.3.8.orig.tar.xz"
+    "de7f08b7e822cdc0022aeeac6d76e2e177fc58bb 23392 psutils_1.17.dfsg-4.debian.tar.xz 6a34bfd09cd032dd9e21d21ef614174487c3b170 1544 psutils_1.17.dfsg-4.dsc e54570379262e443c0a31d6493719306fcbdc76b 40296 psutils_1.17.dfsg.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "bdaf1293d432ced25a00ca19dd9d388ffc1d5335c5d8dff1455ee315c2883276 7528 psutils_3.3.8-1.debian.tar.xz abd63fa7c7c564bd224615e0efc3bfc7eff7fe878774ae33f2b9d47f52427d95 1951 psutils_3.3.8-1.dsc 56aad427ac73f9d977bae27bfff62240cea3b656995767ef9317c7172be91183 184384 psutils_3.3.8.orig.tar.xz"
+    "4f68c68f8b89b305068d64fab43e5a56579120137ec06c5e880c7e62775487dc 23392 psutils_1.17.dfsg-4.debian.tar.xz ed248b645c93b2a1686d9dffdca6403174c50e5a6f388919ed01a29b55d2f7f2 1544 psutils_1.17.dfsg-4.dsc 53e24aff04895b47fb2178dc9df3acb78d91c33c2d6bd524c49e9641479c4f6c 40296 psutils_1.17.dfsg.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8180e2ef7db098d452c7ef5feeb218b8a8ec2238ab9f5e6c3492f945e3cfb954c541b7bd87d2413bf45bb10707d78cac6a5624cd271ace254526297581f6abab 7528 psutils_3.3.8-1.debian.tar.xz 0c51fdf1a2a20d6e5ff4bacbb511f8757a5b96b360a6758fb0cd12ce03c6da1264675379f6f6893ac4c0f32e113d5718c03a3d65b2e1637bf704dbf2d6eee776 1951 psutils_3.3.8-1.dsc 4610666ce59ca84f660ff104d75f192949423d5ef5ad05480d6c7f5fe675ce09061df306bfa6ffbd6dcec298329aae964d296fbc190b8fd6090e637e757b5f0c 184384 psutils_3.3.8.orig.tar.xz"
+    "67cfad2ecfa271ca46c098f2ed4a700b50d0f06e743307147dc2fc33b936f6642199cf84dae781a01c13a43100d83423ecda2cdb79aa06fcaab6955ce165684e 23392 psutils_1.17.dfsg-4.debian.tar.xz 7d144d69c62a2fffa8d78ad0a0d19bb48ba74d46229db2e2c7098c3570debee8ebb355acab9d4ab02a712fbb9a7ec1388dc8fd8a2a065c85e631068fffe0bfd2 1544 psutils_1.17.dfsg-4.dsc a4ee49ecea9a948c0cfb8b51d10471409ec461a07bb94c1158c64e433f02ede4770fcb961d6ec79088bf247176db9757389d3e1cf5b64246b3b90b5584b59ff3 40296 psutils_1.17.dfsg.orig.tar.gz"
+  ],
+  "Dgit": [
+    "27566c4adf83ed05dbb8a2f3ce76b6923870cc94 debian archive/debian/1.17.dfsg-4 https://git.dgit.debian.org/psutils"
   ],
   "Directory": [
     "pool/main/p/psutils"
   ],
   "Files": [
-    "35eb960eaebcbf3b0a872acb7b54e851 7528 psutils_3.3.8-1.debian.tar.xz e320bbe889efb57d6fb1c3986c0d4a43 1951 psutils_3.3.8-1.dsc a87c40b956ffeff9eb90cb4c86a254e3 184384 psutils_3.3.8.orig.tar.xz"
+    "4bcbd3e85ad9135c5378e4034e789831 23392 psutils_1.17.dfsg-4.debian.tar.xz 4f5e917052bf9bb77e1c272410d70239 1544 psutils_1.17.dfsg-4.dsc 23776009133d428f9217818298a2e4f4 40296 psutils_1.17.dfsg.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,21 +39,12 @@
     "psutils"
   ],
   "Package-List": [
-    "psutils deb text optional arch=all python3-psutils deb python optional arch=all"
+    "psutils deb text optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
-  ],
-  "Uploaders": [
-    "Bastian Germann \u003cbage@debian.org\u003e"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/psutils"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/psutils.git"
+    "3.9.5"
   ],
   "Version": [
-    "3.3.8-1"
+    "1.17.dfsg-4"
   ]
 }

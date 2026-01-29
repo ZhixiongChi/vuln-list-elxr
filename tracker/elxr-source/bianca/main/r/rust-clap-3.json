@@ -6,31 +6,28 @@
     "librust-clap-3-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo"
-  ],
-  "Build-Depends-Arch": [
-    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56.1) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-atty-0.2+default-dev \u003c!nocheck\u003e, librust-bitflags-1+default-dev (\u003e= 1.2-~~) \u003c!nocheck\u003e, librust-clap-lex-0.7+default-dev \u003c!nocheck\u003e, librust-indexmap+default-dev (\u003e= 1.0-~~) \u003c!nocheck\u003e, librust-indexmap+std-dev (\u003e= 1.0-~~) \u003c!nocheck\u003e, librust-once-cell-1+default-dev (\u003e= 1.12.0-~~) \u003c!nocheck\u003e, librust-strsim-0.11+default-dev \u003c!nocheck\u003e, librust-termcolor-1+default-dev (\u003e= 1.1.1-~~) \u003c!nocheck\u003e, librust-textwrap-dev (\u003c\u003c 0.17-~~) \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-atty-0.2+default-dev \u003c!nocheck\u003e, librust-bitflags-1+default-dev (\u003e= 1.2-~~) \u003c!nocheck\u003e, librust-clap-lex-0.3+default-dev \u003c!nocheck\u003e, librust-indexmap-1+default-dev \u003c!nocheck\u003e, librust-indexmap-1+std-dev \u003c!nocheck\u003e, librust-once-cell-1+default-dev (\u003e= 1.12.0-~~) \u003c!nocheck\u003e, librust-strsim-0.10+default-dev \u003c!nocheck\u003e, librust-termcolor-1+default-dev (\u003e= 1.1.1-~~) \u003c!nocheck\u003e, librust-textwrap-dev (\u003c\u003c 0.17-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "69592c20fbc5338d98a9f211cc9fee2de251f5c5 9344 rust-clap-3_3.2.25-10.debian.tar.xz 75fef6da032424e9c7ed8b8b33cef3e8ee38824c 2242 rust-clap-3_3.2.25-10.dsc eaf8e801eb2189e31ad2a596f202fc9d6b95d8ba 219403 rust-clap-3_3.2.25.orig.tar.gz"
+    "42d1860afb382c34913235487d7bfe127179c4a4 6164 rust-clap-3_3.2.23-4.debian.tar.xz 0af1a9d09809250f8dfff6babc9807c1e70a2deb 2507 rust-clap-3_3.2.23-4.dsc e7309b9c861f55c39a11c5d2dd39becc31287efd 219435 rust-clap-3_3.2.23.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "bec2e1cf5b5738b89ff8c83333d5074e8c068687353280c51eb2e68a2f9b632e 9344 rust-clap-3_3.2.25-10.debian.tar.xz d278ab6afca5280028d61f58800216f80085c8214d3005b90585f5186b377707 2242 rust-clap-3_3.2.25-10.dsc 4ea181bf566f71cb9a5d17a59e1871af638180a18fb0035c92ae62b705207123 219403 rust-clap-3_3.2.25.orig.tar.gz"
+    "f77f029a4aaeeb752b7cd5e02391137aa20e765e93d52267782ff5fbf530ff24 6164 rust-clap-3_3.2.23-4.debian.tar.xz 455de12a3b5f47c77d425d21b506720b40342fb14be3696626c471b3bdf8625c 2507 rust-clap-3_3.2.23-4.dsc 71655c45cb9845d3270c9d6df84ebe72b4dad3c2ba3f7023ad47c144e4e473a5 219435 rust-clap-3_3.2.23.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "5d3c8b492537475cc467642771534f431e54b919b50f0b3127147c332b2b0d8c9644cfd7aad91bc2fd0c6c6f7f13e02ffb1c495f5d6692d36c49385e0ae32fbc 9344 rust-clap-3_3.2.25-10.debian.tar.xz 7e4e26c5d9d57c3a8c6c53f17f2a917c5d4ec0fbafd2b651e62a70cbdcff76fb6fc7aae4139fbab83486f44902deb9f0de3acb0f91781af07cfa3aacd3eaca9c 2242 rust-clap-3_3.2.25-10.dsc 557c8932175d7ecd077b32b68904924e52dd46d04fd04ba36b3a9dfd7ab1dbe8c2128fecfd75d0388b21fca4aee55a941794181cc2910a4d4eb3c54e9c7e73ea 219403 rust-clap-3_3.2.25.orig.tar.gz"
+    "b4fd91fcb1218b2e2ba2105418ab2a130f700079d3253fa66f43613a4352e0fa51ea593e73af6baba8d07c584320bd5a831bed92c68b63ca42babc2539c9814a 6164 rust-clap-3_3.2.23-4.debian.tar.xz 9b7dc24c039554df279fd8a068b29cc318a399bf4ddbe8b6cd8003e4c768268a38164e392d4d291905dbb0139ae5c1b6ee3ed86f1d4570d29e4cc41eaa15cd98 2507 rust-clap-3_3.2.23-4.dsc 1f1f2ad07a0f8fbe8672f4252edf260ffb5e024a20d6673fb846d59e245a226a43675539ccd3cb252571766b1f6511c68c5cb0f2351c8086955d49c37f87338a 219435 rust-clap-3_3.2.23.orig.tar.gz"
+  ],
+  "Dgit": [
+    "0a2229f8f224f1190d717b859af1b2b47ffc73c4 debian archive/debian/3.2.23-4 https://git.dgit.debian.org/rust-clap-3"
   ],
   "Directory": [
     "pool/main/r/rust-clap-3"
   ],
   "Files": [
-    "40a0690f2fd8f3e469aee5f0fbdbf5f8 9344 rust-clap-3_3.2.25-10.debian.tar.xz 93be83d356ba5cb0021dd3941e736476 2242 rust-clap-3_3.2.25-10.dsc f74bde8201e1c944db1108f1014dfb8e 219403 rust-clap-3_3.2.25.orig.tar.gz"
+    "27e5161952db9afa39d3c39aaf298f0f 6164 rust-clap-3_3.2.23-4.debian.tar.xz 5a324c484c204b24a6c916aaa9f2f69f 2507 rust-clap-3_3.2.23-4.dsc 4d1f211abd7fd3f68016d5bfb2577d3b 219435 rust-clap-3_3.2.23.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/clap-rs/clap"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -42,13 +39,13 @@
     "librust-clap-3-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-humantime-2+default-dev, librust-regex-1+default-dev, librust-rustversion-1+default-dev, librust-shlex-1+default-dev, librust-static-assertions-1+default-dev, librust-trybuild-1+default-dev, rustc"
+    "dh-cargo, librust-humantime-2+default-dev, librust-regex-1+default-dev, librust-rustversion-1+default-dev, librust-shlex-1+default-dev, librust-static-assertions-1+default-dev, librust-trybuild-1+default-dev"
   ],
   "Uploaders": [
     "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/clap-3]"
   ],
   "Version": [
-    "3.2.25-10"
+    "3.2.23-4"
   ]
 }

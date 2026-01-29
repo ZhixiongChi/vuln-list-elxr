@@ -9,22 +9,22 @@
     "debhelper-compat (= 11), dh-python, openstack-pkg-tools (\u003e= 123~), po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
   ],
   "Build-Depends-Indep": [
-    "alembic, bandit, curl, procps, python3-alembic, python3-boto3, python3-castellan, python3-coverage, python3-cryptography, python3-cursive, python3-ddt, python3-debtcollector, python3-defusedxml, python3-elasticsearch, python3-eventlet (\u003e= 0.33.3), python3-fixtures, python3-futurist, python3-glance-store (\u003e= 4.9.0), python3-hacking, python3-httplib2, python3-jsonschema, python3-keystoneauth1, python3-keystoneclient, python3-keystonemiddleware, python3-monotonic, python3-mysqldb, python3-openstackdocstheme, python3-os-api-ref, python3-oslo.concurrency, python3-oslo.config, python3-oslo.context, python3-oslo.db, python3-oslo.i18n, python3-oslo.limit, python3-oslo.log, python3-oslo.messaging, python3-oslo.middleware, python3-oslo.policy (\u003e= 4.5.0), python3-oslo.reports, python3-oslo.upgradecheck, python3-oslo.utils (\u003e= 7.3.0), python3-oslotest, python3-osprofiler, python3-paste, python3-pastedeploy, python3-prettytable, python3-psutil, python3-psycopg2, python3-pygments, python3-pymysql, python3-requests, python3-retrying, python3-routes, python3-sendfile, python3-sphinxcontrib.apidoc, python3-sqlalchemy, python3-stestr, python3-stevedore, python3-swiftclient, python3-taskflow, python3-testresources, python3-testscenarios, python3-testtools, python3-webob, python3-wsme, python3-xattr, qemu-utils, sqlite3, subunit"
+    "alembic, bandit, curl, procps, python3-alembic, python3-boto3, python3-castellan, python3-coverage, python3-cryptography, python3-cursive, python3-ddt, python3-debtcollector, python3-defusedxml, python3-elasticsearch, python3-eventlet, python3-fixtures, python3-futurist, python3-glance-store, python3-hacking, python3-httplib2, python3-iso8601, python3-jsonschema, python3-keystoneauth1, python3-keystoneclient, python3-keystonemiddleware, python3-migrate, python3-monotonic, python3-mysqldb, python3-openssl, python3-openstackdocstheme, python3-os-api-ref, python3-oslo.concurrency (\u003e= 4.5.1), python3-oslo.config, python3-oslo.context, python3-oslo.db, python3-oslo.i18n, python3-oslo.limit (\u003e= 1.6.0), python3-oslo.log (\u003e= 4.6.0), python3-oslo.messaging, python3-oslo.middleware, python3-oslo.policy (\u003e= 3.8.1), python3-oslo.reports, python3-oslo.upgradecheck (\u003e= 1.3.0), python3-oslo.utils (\u003e= 4.7.0), python3-oslotest, python3-osprofiler, python3-paste, python3-pastedeploy, python3-pep8, python3-prettytable, python3-psutil, python3-psycopg2, python3-pygments, python3-pymysql, python3-requests, python3-retrying, python3-routes, python3-sendfile, python3-sphinxcontrib.apidoc, python3-sqlalchemy, python3-sqlparse, python3-stestr, python3-stevedore, python3-swiftclient, python3-taskflow, python3-testresources, python3-testscenarios, python3-testtools, python3-webob, python3-wsme, python3-xattr, qemu-utils, sqlite3, subunit"
   ],
   "Checksums-Sha1": [
-    "6f5eae70dc045eb119eafd573def923c920c41bb 18388 glance_30.0.0-3.debian.tar.xz 78e962a356099b2c2fff194897b7946a0bc80e52 3693 glance_30.0.0-3.dsc 41dbef805d575f44e768282a90efcbafb23ecc03 1494388 glance_30.0.0.orig.tar.xz"
+    "3e5093da9435419ed6d909b01de7f82dd09067b0 31044 glance_25.1.0-2+deb12u1.debian.tar.xz 936f491b51756914ecbb69f26d9d3c3cdc5aeaa5 3829 glance_25.1.0-2+deb12u1.dsc 26e73a82389323bec8bc203b298c23ae46c6dc12 1504620 glance_25.1.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "aa68fad97aa9f556c19bb9ec7bcdc0558f55925e3f1ed494099e1018119476ba 18388 glance_30.0.0-3.debian.tar.xz f5007c4f53b62aa8f4df30fa38fc86d6c4efd5b36f54a63779bd57d016ec578e 3693 glance_30.0.0-3.dsc a4b07e8190acacd22cf8ba6db034967e2eb3798e49c9d6461565fe75ed96e295 1494388 glance_30.0.0.orig.tar.xz"
+    "7c3d97fdae84dd3e31b5ae41201dacfcb705324781557e7c72dfb8cccc29b6df 31044 glance_25.1.0-2+deb12u1.debian.tar.xz 7f28e6a54f44845d7b8257198ca45bcec9a957867ee4e9a0387ff9970e52dc4b 3829 glance_25.1.0-2+deb12u1.dsc d90dc2acf25282337cf0394abd025bb6a35aa339beb920817eab70465ff3e119 1504620 glance_25.1.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "5ac58979fdbffb3912b6e16aa171d9292f6e3aeb2992d28fa7b69a5bfa7af4596c2376a08a3e9fb7b88bb0d2c8a2ad53ddfda979f65f7bd4bce34accc5763031 18388 glance_30.0.0-3.debian.tar.xz 614a7b5248fbf32454e76448c1ea84a3d2b487f5eb4168d7351aa80d5f3570cfc59a0dfca42fbc774fe4b39cb9fa58b4ca4a8a2b714b5e94f63e5d4cea7d61db 3693 glance_30.0.0-3.dsc 650ab525fb7adfea8ebdbd11957c367caf5935a8d8b2932bcf7a045214d5288abe9c51fbb3814bc6fc7bb60cac20da3a83d2d91189cb890112852ce9ad0ae1c9 1494388 glance_30.0.0.orig.tar.xz"
+    "7282889e042d6995869ea2037daa9260d5ff6235b05af14ed9bde763d9cf8d063ed02d043fdc6a3d473beb63684c25bf1b6c72e8d6dbb5bfbcf57a03ede73e3c 31044 glance_25.1.0-2+deb12u1.debian.tar.xz e33065aa67a5e9ddb4af2d44abca8b71cefc6c60a6ac11b117fc5cc39b8a022e95e5bf6ba1d1319caa796aba030f498881243fde752102b0506f567c497c01a1 3829 glance_25.1.0-2+deb12u1.dsc bfcf14e73cda9b85c8069b452307f928cba8c03af2e0b1222ae62191b1e87df0dc34e64f65c0aa73a5968a11bace369f8ee1a3f87d2405622cb30d0f1e31556a 1504620 glance_25.1.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/glance"
   ],
   "Files": [
-    "16ef9e75fcbafc448888276e47409021 18388 glance_30.0.0-3.debian.tar.xz 8a2b24beaf098592b830f9489628214b 3693 glance_30.0.0-3.dsc 3bf4cd95c712dfb75ee3c6f824335960 1494388 glance_30.0.0.orig.tar.xz"
+    "a43cfd5763f024aaa021b2b6c6d1ea23 31044 glance_25.1.0-2+deb12u1.debian.tar.xz 161d2545294165e4bac8fbfca9bbab1e 3829 glance_25.1.0-2+deb12u1.dsc 6dbe10c1a179ad92f1b97cf0375ace95 1504620 glance_25.1.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/openstack-team/services/glance.git"
   ],
   "Version": [
-    "2:30.0.0-3"
+    "2:25.1.0-2+deb12u1"
   ]
 }

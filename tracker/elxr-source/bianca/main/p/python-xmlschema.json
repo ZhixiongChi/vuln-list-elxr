@@ -6,22 +6,22 @@
     "python3-xmlschema, python-xmlschema-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, dh-sequence-python3, dh-sequence-sphinxdoc, help2man, pybuild-plugin-pyproject, python3-all, python3-elementpath (\u003e= 4.4.0), python3-jinja2, python3-lxml, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, wget"
+    "debhelper-compat (= 13), dh-python, help2man, python3-all, python3-elementpath (\u003e= 2.5.0), python3-jinja2, python3-lxml, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, wget"
   ],
   "Checksums-Sha1": [
-    "c16901abe07c5f2623aa7dc96e74e164041d8354 7288 python-xmlschema_3.4.5-1.debian.tar.xz bbb55c08a7257b4f0857cddea9f739505ddfa25c 2393 python-xmlschema_3.4.5-1.dsc 43118cfce4fd1da819d90a75fdece3a8360c84d6 574180 python-xmlschema_3.4.5.orig.tar.gz"
+    "c1d6720be629d5a4a375bccb4e2821ee84f917fb 7460 python-xmlschema_1.10.0-6.debian.tar.xz 3eaadf70ef6bc2ba60b1dc050a12b3c3ef728ab8 2389 python-xmlschema_1.10.0-6.dsc 073b77a6c5661fdc0075dc3f0abfa9cd50962355 386312 python-xmlschema_1.10.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "ca1df9df1d56bbb0acbe898fe0678ef3c6a2f473c0a2cc733f770a1e235fa196 7288 python-xmlschema_3.4.5-1.debian.tar.xz 35825d781aa911d743d904eb114555a26df900b22f12ff3505fe0cced5f23128 2393 python-xmlschema_3.4.5-1.dsc a2a778fd015858109db3011412b26cb96e05bb39c3c6e11f62788387f3a49f6c 574180 python-xmlschema_3.4.5.orig.tar.gz"
+    "67358ff0649e464c17a911fee0380ecf4618b44cd2f057a57e371a845cb164f8 7460 python-xmlschema_1.10.0-6.debian.tar.xz 1566b0afaf838ee9ee719f1f1dea46b222bc94ff347461e2db95518adaa77930 2389 python-xmlschema_1.10.0-6.dsc a76aca3fabe8541a6f69ecddc44d20ccb12ff15f8494dac17724fdb409b8dfc4 386312 python-xmlschema_1.10.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "01b9bde7d0b4a5d9635b858ae2618d53b0a29aae7b8a282608ec6bd385e40d82e91a841acca33cf3dcd5e7bf7f10a8ae7ddd07e3fe77eae0e694c92befa75a0e 7288 python-xmlschema_3.4.5-1.debian.tar.xz 351deae62811712824d75fbef38e990ef656ced9cc9306d42d05ea73f1eb17b9ceb925fd8bbad4eaae6cff515be3645ae9c1f0bb8a1d8020af078e04de4b4f08 2393 python-xmlschema_3.4.5-1.dsc 198546603fe0dab53ad3dd8cf1399237bac33df6bee0f37d924a1e40bfc91bdc539fa1dc034d75b6e14daf4747c4a8e5164ed0ef0879355960a66b0b06c5cf87 574180 python-xmlschema_3.4.5.orig.tar.gz"
+    "b2899add2235152511ae24b4259cbd3ac2ba3622b808fd4f93989ec9ce349045ad8358b993f380a942a8bda43878b1bbdc6b6adc3a822e4a47d76f57b087b2a0 7460 python-xmlschema_1.10.0-6.debian.tar.xz 2d681dde5bc1950b6e78edd05cbb0c264d09b7f8adfd9e4d5012b4c214bb26b75a8db39b46117e26198d4bbc23bd8246b545f791183d8cefbcb0a474490079ae 2389 python-xmlschema_1.10.0-6.dsc 30ad347d809eed14bb02a87f0aef4adaed328381a6c82941ea046dbbc8f5fa080c67eecb10b6d8770ebf6638925ac3f69d159ce033da2b823f7162335cd6f1ac 386312 python-xmlschema_1.10.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-xmlschema"
   ],
   "Files": [
-    "0a61fd5a27325e333fefe7605647e3b9 7288 python-xmlschema_3.4.5-1.debian.tar.xz ce475b95ee60367f9eeb232cb2339dbe 2393 python-xmlschema_3.4.5-1.dsc a1ad49b159e1fe1f82e23c53254b4e64 574180 python-xmlschema_3.4.5.orig.tar.gz"
+    "11f7fd18b92f416700e05994920b3f2b 7460 python-xmlschema_1.10.0-6.debian.tar.xz 68fe233d04236d1af423a25268eeea81 2389 python-xmlschema_1.10.0-6.dsc dca263e1d9472096b0964ae51f10a139 386312 python-xmlschema_1.10.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,13 @@
     "python-xmlschema-doc deb doc optional arch=all python3-xmlschema deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Testsuite": [
-    "autopkgtest-pkg-pybuild"
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-elementpath, python3-lxml"
   ],
   "Uploaders": [
     "Christian Kastner \u003cckk@debian.org\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-xmlschema.git"
   ],
   "Version": [
-    "3.4.5-1"
+    "1.10.0-6"
   ]
 }

@@ -1,30 +1,27 @@
 {
   "Architecture": [
-    "any all"
+    "any"
   ],
   "Binary": [
-    "libqt6core5compat6, qml6-module-qt5compat-graphicaleffects, qt6-5compat-dev, qt6-5compat-doc, qt6-5compat-doc-html, qt6-5compat-examples"
+    "libqt6core5compat6, qml6-module-qt5compat-graphicaleffects, qt6-5compat-dev"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.24~), debhelper-compat (= 13), dh-sequence-qmldeps, dh-sequence-pkgkde-symbolshelper, libgl-dev, libicu-dev, libssl-dev, libvulkan-dev [linux-any], ninja-build, pkg-kde-tools, pkgconf, qt6-base-dev (\u003e= 6.8.2+dfsg~), qt6-base-private-dev (\u003e= 6.8.2+dfsg~), qt6-declarative-dev (\u003e= 6.8.2+dfsg~), qt6-declarative-private-dev (\u003e= 6.8.2+dfsg~), qt6-shadertools-dev (\u003e= 6.8.2~)"
-  ],
-  "Build-Depends-Indep": [
-    "qt6-base-dev (\u003e= 6.8~) \u003c!nodoc\u003e, qt6-documentation-tools (\u003e= 6.8~) \u003c!nodoc\u003e"
+    "cmake (\u003e= 3.24~), debhelper-compat (= 13), libgl-dev, libicu-dev, libqt6opengl6-dev (\u003e= 6.4.2+dfsg~), libssl-dev, libvulkan-dev [linux-any], ninja-build, pkg-config, pkg-kde-tools, qml6-module-qtquick (\u003e= 6.4.2+dfsg~), qml6-module-qttest (\u003e= 6.4.2+dfsg~), qt6-base-dev (\u003e= 6.4.2+dfsg~), qt6-base-private-dev (\u003e= 6.4.2+dfsg~), qt6-declarative-dev (\u003e= 6.4.2+dfsg~), qt6-declarative-private-dev (\u003e= 6.4.2+dfsg~), qt6-shadertools-dev (\u003e= 6.4.2~)"
   ],
   "Checksums-Sha1": [
-    "cf5ae265ecdedc0b91ba8a7981f5f41f97a60ec9 9212 qt6-5compat_6.8.2-3.debian.tar.xz e7681f199c71814eb3f5a600cbed5674597d3970 2826 qt6-5compat_6.8.2-3.dsc 30f213f16092c6e367c306ba198887df7b0bad47 14637788 qt6-5compat_6.8.2.orig.tar.xz"
+    "e2d4e1a82df31ab68864fb201aa9493fcb30c86c 8004 qt6-5compat_6.4.2-1.debian.tar.xz a34f5a7e97b36f29e2cef39b609477f49e31be60 2582 qt6-5compat_6.4.2-1.dsc bfc5d618a7abe013d745cd0ba43bcb5900a79589 14638200 qt6-5compat_6.4.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "2095c8f541f512fa23792ccd6009bff18e7953fc5f6a984adff2d180a050ea45 9212 qt6-5compat_6.8.2-3.debian.tar.xz 550ddeb7b2549d6d5be0c291e02ffef2d2dd3727e1ce9f962e8f9a904532722d 2826 qt6-5compat_6.8.2-3.dsc b53154bc95ec08e2ddc266bef250fbd684b4eb2df96bc8c27d26b1e953495316 14637788 qt6-5compat_6.8.2.orig.tar.xz"
+    "0d59873ff3b102a1eb6c006ca39d42b22ba7d723b1a41595fb2413fe6a943d4c 8004 qt6-5compat_6.4.2-1.debian.tar.xz 6438b12e510436c5c0f7796fcc1cc467c961a0f0f4a43eadb3587fdc6bdb6afa 2582 qt6-5compat_6.4.2-1.dsc f51f505c8e985b51b7d733e27d782c6fce181beef53364acb0368cc892c4b792 14638200 qt6-5compat_6.4.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "81331756eba9dbd630e97b5b9ab43bf65989238f8fc0b2b1df01c13e27bda8e22007e4aac7808511032c4d89e10480205cb9c28e42758d2eb4ac0ded1d93c8e3 9212 qt6-5compat_6.8.2-3.debian.tar.xz 5dad93fe7edc0de482d395f542cadb9b31a5b1557c11495f9000606c5bf552ab985503869fb226278cba77e4bcdcf4045b832cdf696e830c9e4653207c54ecb5 2826 qt6-5compat_6.8.2-3.dsc 60599cf99210e1465edabfdc7abbff1d4ebfecca1c5e4b7efc5c1cb5d6915b6e7e7917878cee002a7da86e3a32af23bd3ea1f485309f001dcb96875d677676c7 14637788 qt6-5compat_6.8.2.orig.tar.xz"
+    "b94675558abb570a5a5cca70614a0b89709c529dcff3630d94e374be51376693f22469b746e9db18796bf9182585f7641b36d73688dc6158d475a388af9bcd97 8004 qt6-5compat_6.4.2-1.debian.tar.xz c0a3859ed64cf489e795901aafb04a9aa4cd092e9f3126b6621ccfbf092e9e6685857aaf731b00470a8d37aa5a71a0e2bf5b2a1abe92e3fe93a099a85400df60 2582 qt6-5compat_6.4.2-1.dsc 8aa49cbbe92e628be3b502bbf0a9668b7664829a12c8cf0eced816cda880d034d567f287d2a1bd1efb7d693b3de7e583d2c2d69e2437cdeda737c67d7949ca56 14638200 qt6-5compat_6.4.2.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/q/qt6-5compat"
   ],
   "Files": [
-    "17df3a7078a321f04316341028fb3bef 9212 qt6-5compat_6.8.2-3.debian.tar.xz 54c8eb6d58036c1f440e8d1185604f8a 2826 qt6-5compat_6.8.2-3.dsc fb55ae9541e39da23426ff913e07ff91 14637788 qt6-5compat_6.8.2.orig.tar.xz"
+    "c520b0c61233b887951453bf23b371ea 8004 qt6-5compat_6.4.2-1.debian.tar.xz 6783849c90ffb472916ddcec12feb6af 2582 qt6-5compat_6.4.2-1.dsc 596253842e130b3557af57691d2f642f 14638200 qt6-5compat_6.4.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +36,13 @@
     "qt6-5compat"
   ],
   "Package-List": [
-    "libqt6core5compat6 deb libs optional arch=any qml6-module-qt5compat-graphicaleffects deb libs optional arch=any qt6-5compat-dev deb libdevel optional arch=any qt6-5compat-doc deb doc optional arch=all qt6-5compat-doc-html deb doc optional arch=all qt6-5compat-examples deb misc optional arch=any"
+    "libqt6core5compat6 deb libs optional arch=any qml6-module-qt5compat-graphicaleffects deb libs optional arch=any qt6-5compat-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Uploaders": [
-    "Patrick Franz \u003cdeltaone@debian.org\u003e, Lu YaNing \u003cdluyaning@gmail.com\u003e,"
+    "Patrick Franz \u003cdeltaone@debian.org\u003e, Lu YaNing \u003cdluyaning@gmail.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/qt6/qt6-5compat"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/qt6/qt6-5compat.git"
   ],
   "Version": [
-    "6.8.2-3"
+    "6.4.2-1"
   ]
 }

@@ -6,22 +6,25 @@
     "golang-github-gorilla-mux-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-golang, golang-any"
+    "debhelper-compat (= 13), dh-golang"
+  ],
+  "Build-Depends-Indep": [
+    "golang-any"
   ],
   "Checksums-Sha1": [
-    "ced264adf684d1299bc1f258b68511b130faa1d9 4184 golang-github-gorilla-mux_1.8.1-1.debian.tar.xz 7bf35b192357aba4ce321ed1c1b73a1759643903 2292 golang-github-gorilla-mux_1.8.1-1.dsc 6365a6aff238cb63eb8ac808f707f417317b24b1 47033 golang-github-gorilla-mux_1.8.1.orig.tar.gz"
+    "37ea5d1e0a1e116d61e02ad41e2e503549cd2829 4560 golang-github-gorilla-mux_1.8.0-1.debian.tar.xz 0a85ce2ffea9fe8c42c3d331a0ac9a5bd268221d 2348 golang-github-gorilla-mux_1.8.0-1.dsc 1819947946ac0fd15e008896e41d3d96fdd3d6a3 45517 golang-github-gorilla-mux_1.8.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "e4312efe5dce44edbeecd8dbc6392dde5b7dfb9547d5138c97f11c0f3367158d 4184 golang-github-gorilla-mux_1.8.1-1.debian.tar.xz fb26e2bbbdb9f1798d3ecfdf90220b796c15e7c30865fc05d07fad7cd7d4ad48 2292 golang-github-gorilla-mux_1.8.1-1.dsc c2a09e78d1886abb2d291b472eba3ac9185acb35234c1f5616669664ba893d6d 47033 golang-github-gorilla-mux_1.8.1.orig.tar.gz"
+    "58dc6c7b7044420181cada4cd3c323658d4282a72406a90b62f2aee26810a25d 4560 golang-github-gorilla-mux_1.8.0-1.debian.tar.xz 96e99e27c4d1b6fc7e3a34f323d8d5750e7445f22b9b82c225a0036dc0a1e2c9 2348 golang-github-gorilla-mux_1.8.0-1.dsc ea2639259d2ce6f402636655e91eb93ba69c139e3cbf80b044ee393ada53757b 45517 golang-github-gorilla-mux_1.8.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "26b9585fe89c803401b7260f23165e7c9496fcc0561cf329487f3c0f6c4d43d34863052a7264e91f22c62a85b9a64037264daea02e25210a7bde845b4e62e53b 4184 golang-github-gorilla-mux_1.8.1-1.debian.tar.xz 6533c393043d712cdbe587b118a522d35ee46862ad43c7b2ca2843ee55cf468f05695f75882cf25a3d12173c1029fb8754e61cf4c2d29ba5f6693aa6ab1da052 2292 golang-github-gorilla-mux_1.8.1-1.dsc 8497299ad38d8e923062812c92ae2dc3a483416fd1f62126a92e836601626e25c496b5dcfb32c371806439f6bd184d317a1072a1fe5e1b672e82e3dc87bb2e4e 47033 golang-github-gorilla-mux_1.8.1.orig.tar.gz"
+    "e7aa5995992d31aa5a741b8594ff85d90e0369b81fb75f5f902be99bf015aceb4dfaab56d9ccecc3c018c25f698f2a8f47f149c8f9301c9da83a4244e09075b8 4560 golang-github-gorilla-mux_1.8.0-1.debian.tar.xz 4f688ae8c15e2f65375de7cc9d02a5c5eff3618e24fa322b29ef6a70e063665b8375dc58729f8f184bb903702c815af07b17e00f27133fb9c43c58131b396a9a 2348 golang-github-gorilla-mux_1.8.0-1.dsc d0c470c28813c72622830253fdc91ef60b54868ce84234351f62478a73311c15bf734fed6bd57d59afb10df54b0b21efeeacea642b7c0b3637082c4b53229176 45517 golang-github-gorilla-mux_1.8.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-gorilla-mux"
   ],
   "Files": [
-    "bc784309dafbdfd3d7cca086c2a4c22f 4184 golang-github-gorilla-mux_1.8.1-1.debian.tar.xz b81430fa1229a53c8f2e5edd84a31e53 2292 golang-github-gorilla-mux_1.8.1-1.dsc cd1537f90b41449239d11581a02c2800 47033 golang-github-gorilla-mux_1.8.1.orig.tar.gz"
+    "fe6ea81913f95a4a61c2248e5cdc06ce 4560 golang-github-gorilla-mux_1.8.0-1.debian.tar.xz 56ba985b6a6035a1dc09bf84e9646e09 2348 golang-github-gorilla-mux_1.8.0-1.dsc 9cbfcddaa9469899614e93aefa5a358a 45517 golang-github-gorilla-mux_1.8.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +45,13 @@
     "golang-github-gorilla-mux-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
   ],
   "Uploaders": [
-    "Arnaud Rebillout \u003carnaud.rebillout@collabora.com\u003e, Tim Potter \u003ctpot@hpe.com\u003e, Anthony Fok \u003cfoka@debian.org\u003e,"
+    "Arnaud Rebillout \u003carnaud.rebillout@collabora.com\u003e, Tianon Gravi \u003cadmwiggin@gmail.com\u003e, Tim Potter \u003ctpot@hpe.com\u003e, Anthony Fok \u003cfoka@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/go-team/packages/golang-github-gorilla-mux"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-gorilla-mux.git"
   ],
   "Version": [
-    "1.8.1-1"
+    "1.8.0-1"
   ]
 }

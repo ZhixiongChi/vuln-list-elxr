@@ -6,28 +6,28 @@
     "libdrm-dev, libdrm2, libdrm-common, libdrm-tests, libdrm2-udeb, libdrm-intel1, libdrm-nouveau2, libdrm-radeon1, libdrm-omap1, libdrm-freedreno1, libdrm-exynos1, libdrm-tegra0, libdrm-amdgpu1, libdrm-etnaviv1"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), meson, libpciaccess-dev, libudev-dev [linux-any], libx11-dev, pkgconf, python3-docutils, python3-setuptools"
+    "debhelper-compat (= 13), meson, quilt, xsltproc, libx11-dev, pkg-config, python3-setuptools, xutils-dev (\u003e= 1:7.6+2), libudev-dev [linux-any], libpciaccess-dev, python3-docutils"
   ],
   "Checksums-Sha1": [
-    "b0aad0a7499c794532c840490a1f2a8fcb063e9a 76952 libdrm_2.4.124-2.debian.tar.xz bc8867d380531c53f0420a0522963103f2e71b66 3173 libdrm_2.4.124-2.dsc 4c231ef4e652e66bd53bf5dd70c8c41238d3e94d 481244 libdrm_2.4.124.orig.tar.xz ab647d9848531ebd993d6ac46567feebfd1096d6 358 libdrm_2.4.124.orig.tar.xz.asc"
+    "25c975a57e36bcce4a7a03efa1aea5d11aebe8a9 60032 libdrm_2.4.114-1.debian.tar.xz b30c18d6246f8143ed221a8785cbcc7d47410d9c 3296 libdrm_2.4.114-1.dsc ef3d35d9aeae48be1294724007e5e66f17fa53a4 471664 libdrm_2.4.114.orig.tar.xz 1a2ffd3be38c598d94994671f59fccc269aa8b3e 833 libdrm_2.4.114.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "5f593aed87a1814068f8a29ab8b73c78630911a24ed8461d1d0e1c892c4b3c21 76952 libdrm_2.4.124-2.debian.tar.xz 0eed1a7c8557fc6e1637a882753e406685f43d2174fa12c060f3e7c741a12144 3173 libdrm_2.4.124-2.dsc ac36293f61ca4aafaf4b16a2a7afff312aa4f5c37c9fbd797de9e3c0863ca379 481244 libdrm_2.4.124.orig.tar.xz 147fcfb0650ea0c667c91685da28b6eef0c20989ee1b34e1f00ff3f7f923cc7d 358 libdrm_2.4.124.orig.tar.xz.asc"
+    "35bfc56b7dccd6f374c3bd74bd0b96105561899a26a13411eb56e5179eff596c 60032 libdrm_2.4.114-1.debian.tar.xz b75e05ea6f6cac0643fc07c234b645c6a0f59b53e13abd4e3b76c11439e74a9a 3296 libdrm_2.4.114-1.dsc 3049cf843a47d12e5eeefbc3be3496d782fa09f42346bf0b7defe3d1e598d026 471664 libdrm_2.4.114.orig.tar.xz 61f65cd5f26793c84f997e99943f139d651bb0f7026df2b713ec45a49804c1eb 833 libdrm_2.4.114.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "b81930d7b006aa545f343100ff795cbdec541afc7ee9ce3e78125ad695ce108e75237cf7cb00a5d87b082231ddc07049d3f52698359c5c7eaa9400c4e009fa27 76952 libdrm_2.4.124-2.debian.tar.xz 601d3a1a607d6c5f051a66d57a7b50cde185f4ef45c4db04a77e63532263d6f65be44259688d493f4b24c438f19082b7de0a7f26720d9a0ceefd4561ddee542d 3173 libdrm_2.4.124-2.dsc 0408c3ae5780c57d19321a9a7b046d656e252b2f48e520b2beb18f83495bea39c445deb9a9a6795b46194051c2ea4da476e08c63972daf841064099df6dff365 481244 libdrm_2.4.124.orig.tar.xz 0fff2cc036de7dfa0c6602c75c98b558763be003e0cafd42cab89ef4856a9c41d345f57d223a8e3eeace86689e65120831772e75cbedacd71c926a76eca894f6 358 libdrm_2.4.124.orig.tar.xz.asc"
+    "d13681f0dc9e8b9be71ba93ce1cda7e8374aa7f061ec5d1587a7df133fcb682ca563f9aa4992ae3b89075d8ef823221dd3ff1172e5145e45b19d465c4ed503f1 60032 libdrm_2.4.114-1.debian.tar.xz a9b9702c04469bb552b91056ea94edb73f28807b4831ca8d1745ceba305b64739d4d050a96eb3a8e6b4a4247b7d268c44eb0fa5b651b5de33d8c8e825fd6c5c6 3296 libdrm_2.4.114-1.dsc 8dcd4be5674e3ea2ab4394fa8f461914e5aa7f4f57a2f448c5216d84ee6682e16b45eafabf97b7d9f5c062183d9a6bf3f0c97499d4cb01c19807a51209a0f644 471664 libdrm_2.4.114.orig.tar.xz 3ec7925b8e38a5bf45258210de15564636f85dbc86af83fd33255a003501f4c5f2c022d968e3597362a61b0e514c4bdc85c617b94fed56f2feee05f6ae1f78fb 833 libdrm_2.4.114.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/libd/libdrm"
   ],
   "Files": [
-    "d371b815c292dbc22193491fd89914bc 76952 libdrm_2.4.124-2.debian.tar.xz 2f86e5e588e026595c44b83b7f9f35ab 3173 libdrm_2.4.124-2.dsc 78f7f7ee6aff711696d4b34465b40728 481244 libdrm_2.4.124.orig.tar.xz 45abb691e8967b6c0f6ae5059a973b5b 358 libdrm_2.4.124.orig.tar.xz.asc"
+    "945512b1b89acf6873b0cb6ba7932cac 60032 libdrm_2.4.114-1.debian.tar.xz 7768a48cc2cd34404f9a660c5c32086a 3296 libdrm_2.4.114-1.dsc 07759750351465e5dd39f4fe40f000ea 471664 libdrm_2.4.114.orig.tar.xz 35e6f89cb851372c0832e298db5a4728 833 libdrm_2.4.114.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://gitlab.freedesktop.org/mesa/drm/"
+    "https://cgit.freedesktop.org/mesa/drm/"
   ],
   "Maintainer": [
     "Debian X Strike Force \u003cdebian-x@lists.debian.org\u003e"
@@ -36,10 +36,10 @@
     "libdrm"
   ],
   "Package-List": [
-    "libdrm-amdgpu1 deb libs optional arch=linux-any,hurd-any libdrm-common deb libs optional arch=all libdrm-dev deb libdevel optional arch=linux-any,hurd-any libdrm-etnaviv1 deb libs optional arch=armhf,arm64 libdrm-exynos1 deb libs optional arch=any-arm libdrm-freedreno1 deb libs optional arch=any-arm,arm64 libdrm-intel1 deb libs optional arch=amd64,arm64,i386,hurd-i386,x32,riscv64 libdrm-nouveau2 deb libs optional arch=linux-any libdrm-omap1 deb libs optional arch=any-arm libdrm-radeon1 deb libs optional arch=linux-any,hurd-any libdrm-tegra0 deb libs optional arch=any-arm,arm64 libdrm-tests deb libs optional arch=any libdrm2 deb libs optional arch=linux-any,hurd-any libdrm2-udeb udeb debian-installer optional arch=linux-any,hurd-any"
+    "libdrm-amdgpu1 deb libs optional arch=linux-any,kfreebsd-any,hurd-any libdrm-common deb libs optional arch=all libdrm-dev deb libdevel optional arch=linux-any,kfreebsd-any,hurd-any libdrm-etnaviv1 deb libs optional arch=armhf,arm64 libdrm-exynos1 deb libs optional arch=any-arm libdrm-freedreno1 deb libs optional arch=any-arm,arm64 libdrm-intel1 deb libs optional arch=amd64,i386,kfreebsd-amd64,kfreebsd-i386,hurd-i386,x32 libdrm-nouveau2 deb libs optional arch=linux-any libdrm-omap1 deb libs optional arch=any-arm libdrm-radeon1 deb libs optional arch=linux-any,kfreebsd-any,hurd-any libdrm-tegra0 deb libs optional arch=any-arm,arm64 libdrm-tests deb libs optional arch=any libdrm2 deb libs optional arch=linux-any,kfreebsd-any,hurd-any libdrm2-udeb udeb debian-installer optional arch=linux-any,kfreebsd-any,hurd-any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.0"
   ],
   "Uploaders": [
     "Andreas Boll \u003caboll@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/xorg-team/lib/libdrm"
   ],
   "Version": [
-    "2.4.124-2"
+    "2.4.114-1"
   ]
 }

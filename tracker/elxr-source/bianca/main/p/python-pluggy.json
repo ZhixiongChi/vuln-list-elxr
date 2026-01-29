@@ -6,28 +6,22 @@
     "python3-pluggy"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm"
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-pytest, python3-setuptools, python3-setuptools-scm"
   ],
   "Checksums-Sha1": [
-    "ad58a15b8f196a1ac0636da11c8f7c813598822a 3784 python-pluggy_1.5.0-1.debian.tar.xz 64ddb10b17665d898c1c5f3021f241b4dc06d0ca 2882 python-pluggy_1.5.0-1.dsc 8b6c7973f56df0ed87cf635cc485580ad0099caa 63170 python-pluggy_1.5.0.orig.tar.gz"
+    "5a91da8522c8308702e41d6642197eb685d63b7f 3348 python-pluggy_1.0.0+repack-1.debian.tar.xz 13a27b98a77114d756700e4d8c65fe4c4cff3b70 2106 python-pluggy_1.0.0+repack-1.dsc 5ea8626f43785a6e5af1b751e690c6ab8e4cf010 47315 python-pluggy_1.0.0+repack.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "290851ee271173b1ae53b454316bd7810eb948aecbb5986093aab904e2c9c4fc 3784 python-pluggy_1.5.0-1.debian.tar.xz 8b0bcd2bf5f06eccad9f4f013dc5f9aaa2b62a419b8f83a41c28c50a86671c18 2882 python-pluggy_1.5.0-1.dsc 6e9b6c46ae3b0c82087df05d866a8ba2787480dfb2c93b51b78ffc15deaf51b9 63170 python-pluggy_1.5.0.orig.tar.gz"
+    "cdf86abcad4ff5e3b129fc86de40094c1983e089405368884bd88ae87aaa9eb8 3348 python-pluggy_1.0.0+repack-1.debian.tar.xz ead823eb9ca0ab663d83ae81d770fc5476447d639d21db3004799ad8e4cfb05d 2106 python-pluggy_1.0.0+repack-1.dsc 65364113f26631378d568353e7ba543db183613f351a0b1ece03ddda9a23f21c 47315 python-pluggy_1.0.0+repack.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c1c56d6d6bcd33cd82d27b9520f85747d894d1b80a1ed943ce8cb80f01d0cc05140461ba8cd55c41513037226f67c2c24e63553e2a4090b966fd47a354bd4301 3784 python-pluggy_1.5.0-1.debian.tar.xz cb6bc3e55ecdaac401d5bf19ff4d8c604f398f1b73a5a36c256ba89642e605aee47ada517022dd889b7bab93ddbe1df1783dc02d70f46f962d37b0c4f4f6ca4c 2882 python-pluggy_1.5.0-1.dsc 81369ec92c3c0fd94f1602ea964abbb058f19f7f7cd53fde1e07713908b6d63aba92b576d853d9115e73869cc43ab645e08b7e8462a6f38fed7c6f7d3951e9b4 63170 python-pluggy_1.5.0.orig.tar.gz"
-  ],
-  "Description": [
-    "plugin and hook calling mechanisms for Python pluggy is the crystallized core of plugin management and hook calling for pytest. It enables 1400+ plugins to extend and customize pytest’s default behaviour. Even pytest itself is composed as a set of pluggy plugins which are invoked in sequence according to a well defined set of protocols. . It gives users the ability to extend or modify the behaviour of a host program by installing a plugin for that program. The plugin code will run as part of normal program execution, changing or enhancing certain aspects of it."
-  ],
-  "Dgit": [
-    "8111f944a930e3eadd61a8f61c7e5ec2ecf83dc9 debian archive/debian/1.5.0-1 https://git.dgit.debian.org/python-pluggy"
+    "ae7a941cfd4bea2c86f0e49356fda660444c3490a4fd52507d3e2635cf31d72ce9919208adb4052fce557ca511dd88a8d21ac155184f56073a92b58cc8aa5368 3348 python-pluggy_1.0.0+repack-1.debian.tar.xz 96a34102440d4d6898573850be37d6b38af6096afd2d431430b162b3008b2a68991d9ee9daff6224d0c542cf1ae8e03e9608d9585069828e79c1ea5fc8922760 2106 python-pluggy_1.0.0+repack-1.dsc 88f1180d2607115d6516cba07fa7c1f0e284d1e16fb7ed42c4a05d5d2b0dc1419d2bdbdadc34e2eb7f6b0cc9fc97715c6b184542c01f6bc33242a872c46d7903 47315 python-pluggy_1.0.0+repack.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-pluggy"
   ],
   "Files": [
-    "1229f9aa47b759c555e15ef7ee8efa26 3784 python-pluggy_1.5.0-1.debian.tar.xz 63c65f54139c0cf6f661415c35ec9e95 2882 python-pluggy_1.5.0-1.dsc 79ba46c32ad69802ede72399e2ab1cac 63170 python-pluggy_1.5.0.orig.tar.gz"
+    "eb1b3bd31ac26f08c9335a5c28c3504b 3348 python-pluggy_1.0.0+repack-1.debian.tar.xz 49fb89d6cdbb22a90362b7dae8bc795e 2106 python-pluggy_1.0.0+repack-1.dsc 2a8ff5b8c41f82e0a41db263bbc499ea 47315 python-pluggy_1.0.0+repack.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,13 +39,10 @@
     "python3-pluggy deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
-    "autopkgtest-pkg-pybuild"
-  ],
-  "Uploaders": [
-    "Timo Röhling \u003croehling@debian.org\u003e,"
+    "autopkgtest-pkg-python"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-pluggy"
@@ -60,6 +51,6 @@
     "https://salsa.debian.org/python-team/packages/python-pluggy.git"
   ],
   "Version": [
-    "1.5.0-1"
+    "1.0.0+repack-1"
   ]
 }

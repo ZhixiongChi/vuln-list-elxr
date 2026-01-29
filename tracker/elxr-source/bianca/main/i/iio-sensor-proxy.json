@@ -6,22 +6,22 @@
     "iio-sensor-proxy"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libgudev-1.0-dev, locales-all, meson, systemd-dev, gtk-doc-tools, libgtk-3-dev, libpolkit-gobject-1-dev"
+    "debhelper-compat (= 12), libgudev-1.0-dev, udev, systemd, gtk-doc-tools (\u003e= 1.0), libgtk-3-dev"
   ],
   "Checksums-Sha1": [
-    "336acfffb73b9ea63d63e7cb249585cc20e4035a 8812 iio-sensor-proxy_3.7-3.debian.tar.xz 112053aec9c393c01494c182931e236da9d9c696 2102 iio-sensor-proxy_3.7-3.dsc f2fe00c1495cabfead923e13c66b8fed636b153f 64610 iio-sensor-proxy_3.7.orig.tar.bz2"
+    "9827ee2f7193f5cec2e790f2382b37421af2a184 4436 iio-sensor-proxy_3.0-2.debian.tar.xz 23e6a0b40e16ee6583eb6f470788510edf2d19f4 2001 iio-sensor-proxy_3.0-2.dsc 39673ae85a3ec76bf4ee66b4402d62f7395fbda1 218504 iio-sensor-proxy_3.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "62c01e7990974650c2b34896ca06facb32113ef6e48d0133c28e4ca3051872be 8812 iio-sensor-proxy_3.7-3.debian.tar.xz c6e3b5fd5fa8af01516f4ec5d8527754e2ef3f97c4ce4fb32fa47c543fb395bd 2102 iio-sensor-proxy_3.7-3.dsc a994a453a5aa77371e1a40faf23ab5fb8cb345d24fce060349621776dc4a0d61 64610 iio-sensor-proxy_3.7.orig.tar.bz2"
+    "30724d5750fd4df37e53ade81fd41155230399c751185c5384ae0401ec023eae 4436 iio-sensor-proxy_3.0-2.debian.tar.xz a9876ec0d1d10bd4cdc0be2c929f4b46cad8d5b4e5713435fb76aae61f31c3ac 2001 iio-sensor-proxy_3.0-2.dsc bd385107f414fdf3275da4c57674e0312f739d83efa469dc50d4cb8ea501a109 218504 iio-sensor-proxy_3.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "711ceaa69210240dff0cdf88fa804e607c68626bf0029e5c5420c0c54b71736ff8b1456db4d4d75568764bb5d7140c9f26cf7e4b4ffcc500285485069e96c5ca 8812 iio-sensor-proxy_3.7-3.debian.tar.xz 1095e3aa76ee07b62a0256bc1df4ec69cac11e3c40b90c3794d5b1d3137386ebd51132a643442cc544b8f3503021588c2ff8ad4e26696bc57876003e518e088f 2102 iio-sensor-proxy_3.7-3.dsc f66465a05c4e28fc7db9bcc950915e4740089f834f87414a8b09b0e5605e8ed29f72e0d8084a241f8051c27f4109d300a1d7781c28429d3a82c907761b2bb783 64610 iio-sensor-proxy_3.7.orig.tar.bz2"
+    "1247c5af5c6912ee6f078aec931f5907da6ec3455cc96745de3ec8d0a7e4aa7270d9d42e68abd4600bce791660d48a6bcb9aac820a74b4c43ad5e5e831b6aee7 4436 iio-sensor-proxy_3.0-2.debian.tar.xz d100ce4da23d9a98d201e7e2e2bd53fd64513f287559b2dd60df78a7f31d6188ba2fe8eaa74b163d43b52f183748824ef0c9b4097076d0199ae1e3425b5bdb48 2001 iio-sensor-proxy_3.0-2.dsc 50e84a5df006c34db07532bdb583142723ad610ade7dc495d0c1b076c7ef84564a60202a8be378173a429bd04dee10e8b33e5b7acc4b3dd810755cb831ebf2ea 218504 iio-sensor-proxy_3.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/i/iio-sensor-proxy"
   ],
   "Files": [
-    "93fd5f61aeba7d1380c57e85c4ef4127 8812 iio-sensor-proxy_3.7-3.debian.tar.xz 21d4358ddba236dc4809cf403d6377d5 2102 iio-sensor-proxy_3.7-3.dsc 9dce1c29f8217bbbcbcdc2175a991626 64610 iio-sensor-proxy_3.7.orig.tar.bz2"
+    "57c6c2654e9ed35ea4594a8cd797934a 4436 iio-sensor-proxy_3.0-2.debian.tar.xz e75f5caa33344accf8fc4369aa4c6a41 2001 iio-sensor-proxy_3.0-2.dsc 77eb3efd950c8eaf4f89c0ce3b2b914c 218504 iio-sensor-proxy_3.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,7 @@
     "iio-sensor-proxy deb utils optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Uploaders": [
-    "Guido Günther \u003cagx@sigxcpu.org\u003e"
+    "4.5.1"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/iio-sensor-proxy/"
@@ -54,6 +48,6 @@
     "https://salsa.debian.org/debian/iio-sensor-proxy.git"
   ],
   "Version": [
-    "3.7-3"
+    "3.0-2"
   ]
 }

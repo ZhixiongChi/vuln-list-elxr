@@ -6,22 +6,22 @@
     "python-openssl-doc, python3-openssl"
   ],
   "Build-Depends": [
-    "ca-certificates \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, openssl \u003c!nocheck\u003e, python3-all, python3-cffi \u003c!nocheck\u003e, python3-cryptography (\u003c\u003c 45), python3-cryptography (\u003e= 41.0.5), python3-pretend \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-rerunfailures \u003c!nocheck\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-cffi, python3-cryptography (\u003e= 37.0.2), python3-flaky, python3-pretend, python3-pytest (\u003e= 3.0.1), python3-setuptools, python3-six, python3-sphinx (\u003e= 1.0.7+dfsg), python3-sphinx-rtd-theme"
   ],
   "Checksums-Sha1": [
-    "6e4f09653991a5bf6848c4005f1cebbe7b8d7ad9 9264 pyopenssl_25.0.0-1.debian.tar.xz 7a3135973a313f92461a6150c16e87b456780650 2416 pyopenssl_25.0.0-1.dsc 354b6811cde3699fc1664b409024d40171234293 174742 pyopenssl_25.0.0.orig.tar.gz"
+    "5466f0716b8a911f83b41c6f30d0c45811f1e6d1 9276 pyopenssl_23.0.0-1.debian.tar.xz cf9ba8ff0d1b93d9b9c7f747e8fe3c0269e3f9e8 2220 pyopenssl_23.0.0-1.dsc 2165d54e619c08b2b6cbf28df921b0be8d479369 146544 pyopenssl_23.0.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "de3d23ec040c2ab394ff867500faca22f1dee8751cd86be3e0f457486e19c183 9264 pyopenssl_25.0.0-1.debian.tar.xz b5d1ed5a44613e5ca565e7d5ce3ab88f92911feedee51f0dd03a974c2ca172a2 2416 pyopenssl_25.0.0-1.dsc cb11b16570a360f337be9dc1b071d3239970de1f8e0ce72c5336b30f913d3b9e 174742 pyopenssl_25.0.0.orig.tar.gz"
+    "ec0932fd3e4717fbea4400930404b0147926052a8d592610c4b94bf8762c3807 9276 pyopenssl_23.0.0-1.debian.tar.xz 78e2952a516a09fa6b90b7b471036d4315148bfe94b98f3ed5c3dc8f673bb039 2220 pyopenssl_23.0.0-1.dsc 46a4b31b413ad3844435acabfee7ab5eb271857cf133a672747b8947cd5e1e58 146544 pyopenssl_23.0.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "8c5089228c4d1b496932ac82d59a77b489512fc72c9f90fbb4812deb20816562480a58a9bc6a78b483a9fa8a25dc8fef382756b526dbff8ea395ed198b19d9ff 9264 pyopenssl_25.0.0-1.debian.tar.xz c40e03abecd41c19186617401f366f0ad00839973a8b83d7605d21787fbade38ab7ea83a18eca04414f31efbdfb61fb5c885c724fe637df2ccfe12a79bd9c7b5 2416 pyopenssl_25.0.0-1.dsc d0d2029467082801f0f3e31bf464431717c7d05c27edca8bdc7a84224241f79ddb6acb390e6c5d59db5b661c30e3c716389af342af9b17a2505dec7db2e934ee 174742 pyopenssl_25.0.0.orig.tar.gz"
+    "668bf2a9ba519ede6c6eb6d1f996ebe077e674e4804400172e912aa56d4ade9facc43bf9546e7de2bb73f9bbb7fd38ba4f75b6a7f1a87cb375444ba4e315a67d 9276 pyopenssl_23.0.0-1.debian.tar.xz cecd06333d700a663ab2fe22fde4a5cfcb4bb3e70e5b8a46844c94a5546ccc821d84343830c66fec9bb4f05440705854b926002ca5d820193f595fda8eb3321d 2220 pyopenssl_23.0.0-1.dsc a832af4a26eb3efab154498618fa02e4757d93ba5054d5b860a173e3df7973b916c210379408af9f4586947d1568d2c5d99a6660b760d0961994d97b0f4f0ddf 146544 pyopenssl_23.0.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/pyopenssl"
   ],
   "Files": [
-    "d2227d70c96cb25af27cb3d810880dc1 9264 pyopenssl_25.0.0-1.debian.tar.xz 7740e476f2d6c0fd430515d6804f098d 2416 pyopenssl_25.0.0-1.dsc 98f30112fc7fd79534d21ad33d96d9b1 174742 pyopenssl_25.0.0.orig.tar.gz"
+    "b3e52893d41b42204b02e43cafc2e68a 9276 pyopenssl_23.0.0-1.debian.tar.xz 24dbf544d99c892f95673cd2b5bea381 2220 pyopenssl_23.0.0-1.dsc b6b8068dd8978c7a462ff51e2ccfc19a 146544 pyopenssl_23.0.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://pyopenssl.org/"
   ],
   "Maintainer": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+    "Sandro Tosi \u003cmorph@debian.org\u003e"
   ],
   "Package": [
     "pyopenssl"
@@ -39,13 +39,10 @@
     "python-openssl-doc deb doc optional arch=all python3-openssl deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
-  ],
-  "Testsuite": [
-    "autopkgtest-pkg-pybuild"
+    "4.6.1.0"
   ],
   "Uploaders": [
-    "Andrey Rakhmatullin \u003cwrar@debian.org\u003e"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/pyopenssl"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/python-team/packages/pyopenssl.git"
   ],
   "Version": [
-    "25.0.0-1"
+    "23.0.0-1"
   ]
 }

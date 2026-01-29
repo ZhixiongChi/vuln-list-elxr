@@ -6,22 +6,22 @@
     "python3-netaddr"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, ieee-data, localehelper, pybuild-plugin-pyproject, python3-all, python3-pytest \u003c!nocheck\u003e, python3-setuptools"
+    "debhelper-compat (= 9), dh-python, ieee-data, localehelper, python3-all (\u003e= 3.2), python3-pytest, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "a2c8527de713e1ae1dc2c385e582b53ba13203a2 6236 python-netaddr_1.3.0-1.debian.tar.xz 756c02ca508969618a4ecd0d3730c5dba6635aa2 2250 python-netaddr_1.3.0-1.dsc 9993d1915b79cd018de145b334a294d55e8e5024 1500468 python-netaddr_1.3.0.orig.tar.xz"
+    "2dcef536f7156ab359a37b88be6c528fa88dd30b 5328 python-netaddr_0.8.0-2.debian.tar.xz de449e5bd736b4456f1a13a34d6e6eb6bd184033 2081 python-netaddr_0.8.0-2.dsc 16f10a1bfaf95052f368b3786188f9fbdda108c3 1891561 python-netaddr_0.8.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "f6d359d4398418094a20aeab41aa9ca821bdfec1462335932186fff2e20463a7 6236 python-netaddr_1.3.0-1.debian.tar.xz 7df5c9825a34d186e5b89d17826d5267b7772ab5bf3864cd56a8ed29b72539ad 2250 python-netaddr_1.3.0-1.dsc 6356dd89f53bc2a376779a1d3255b975ee0ba48911dd5f75fcd5cf41e38a19d1 1500468 python-netaddr_1.3.0.orig.tar.xz"
+    "8e84b43f6942d541ba5e3e2c85f14bb974a66f0bb904977df7aea473df101e3b 5328 python-netaddr_0.8.0-2.debian.tar.xz ea1bf4343dd0e86c7ed1d4d10d6b1c64e3ca710a26e3263f074bba7b86fc9a37 2081 python-netaddr_0.8.0-2.dsc d6cc57c7a07b1d9d2e917aa8b36ae8ce61c35ba3fcd1b83ca31c5a0ee2b5a243 1891561 python-netaddr_0.8.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "b343e0fbf7c8764b22c0a1abe519eeeec50776b51ddc3b80a0bee7359dbdc637f8bad1d51fb0adc46c866f421b5e70c46584c9ab78d5f6ff51dbbe6e405ea8c6 6236 python-netaddr_1.3.0-1.debian.tar.xz 1ed4a7bb39cbd9a1399b7b8a7b1005f7e67c90ec523fb0e41d22ccc7e6a5dc42f604b0ae9412f2d31f97f5a99c7291610bcd1363cf3903c5e8521c4e953bc2f0 2250 python-netaddr_1.3.0-1.dsc 478cce2eab0cb8aa8d5122adc3718b5c1aa32dbedd3908bd3a17b0c15ff9fa80640cd42350f9def108a4790899420d78a1dc7aa63912e7712c402e659fe69477 1500468 python-netaddr_1.3.0.orig.tar.xz"
+    "bbef2039cbb7bb0a2c70bbece47033cd043bd1755c0b4e3d27019f89e09de618e924d640b78fb4e6483f322d516bca89f22e23b9aca4b38601705125273fbf56 5328 python-netaddr_0.8.0-2.debian.tar.xz 0e669bb000c2952e471b7d9b73636af5264b2235efd250ef2348a5c178d5ab2708406de3bb48c28f05292cae0f49b8070ea5893415e078211105ee2b6217ee41 2081 python-netaddr_0.8.0-2.dsc a158bef87e862330c583f8b6709c4f575ec036dd31d725dad679e583ad4bef1a34f43225453bc93970ab720ae5f9f0fc2a6a3b92cbb922ed6f201414fd1e96d3 1891561 python-netaddr_0.8.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-netaddr"
   ],
   "Files": [
-    "76000398afe7ffaf552999fb07bfcbce 6236 python-netaddr_1.3.0-1.debian.tar.xz ca21ece3c364ac1adf60485b2067e803 2250 python-netaddr_1.3.0-1.dsc 72738b944a616ce9843c64ff183b336d 1500468 python-netaddr_1.3.0.orig.tar.xz"
+    "369fe4ff1eed316a42e4d4827df0aadc 5328 python-netaddr_0.8.0-2.debian.tar.xz f6392713078bdf118f24d6fdefadca97 2081 python-netaddr_0.8.0-2.dsc 34cad578473b66ad77bc3b2a7613ed4a 1891561 python-netaddr_0.8.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://github.com/drkjam/netaddr/"
   ],
   "Maintainer": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+    "Vincent Bernat \u003cbernat@debian.org\u003e"
   ],
   "Package": [
     "python-netaddr"
@@ -41,14 +41,8 @@
   "Standards-Version": [
     "4.1.1"
   ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python3-all, python3-pytest"
-  ],
   "Uploaders": [
-    "Thomas Goirand \u003czigo@debian.org\u003e, Vincent Bernat \u003cbernat@debian.org\u003e,"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-netaddr"
@@ -57,6 +51,6 @@
     "https://salsa.debian.org/python-team/packages/python-netaddr.git"
   ],
   "Version": [
-    "1.3.0-1"
+    "0.8.0-2"
   ]
 }

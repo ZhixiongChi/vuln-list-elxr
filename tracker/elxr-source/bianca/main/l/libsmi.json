@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "smitools, smistrip, libsmi2t64, libsmi2-dev, libsmi2-common"
+    "smitools, smistrip, libsmi2ldbl, libsmi2-dev, libsmi2-common"
   ],
   "Build-Depends": [
-    "dpkg-dev (\u003e= 1.22.5), flex, bison, debhelper (\u003e= 9), dh-autoreconf"
+    "flex, bison, debhelper (\u003e= 9), dh-autoreconf"
   ],
   "Checksums-Sha1": [
-    "2af2835855da8de6140ff9794c5267a17bffc25d 13980 libsmi_0.4.8+dfsg2-17.debian.tar.xz 6a2b62ed7084a50767438de5fb135172e42bd5d9 2050 libsmi_0.4.8+dfsg2-17.dsc a51044ae2d5f4a045354fa16245f3ae040999c40 1803126 libsmi_0.4.8+dfsg2.orig.tar.gz"
+    "a8ea9304d88f340488575e80834c78c73cb22274 13800 libsmi_0.4.8+dfsg2-16.debian.tar.xz 8ff65cdf2849599ce07de9aea8dd20460bdceaa2 2030 libsmi_0.4.8+dfsg2-16.dsc a51044ae2d5f4a045354fa16245f3ae040999c40 1803126 libsmi_0.4.8+dfsg2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "e6504a6002e2ff2c43192fd174b47f0480ca5465dd2559fd4e7c3dd846968dd8 13980 libsmi_0.4.8+dfsg2-17.debian.tar.xz 5e733c9f4dceb62941005b3955af6e6a1e2a8bd96ab06a52dbb01d705549e346 2050 libsmi_0.4.8+dfsg2-17.dsc 1d6894aa4aa73f8949ccb420a57e4e1275f8099c187771a41838e30a703269e8 1803126 libsmi_0.4.8+dfsg2.orig.tar.gz"
+    "8d3f596123d95526ed7802ab14880a16f87718a08fc8ac3e8182d5175256abdd 13800 libsmi_0.4.8+dfsg2-16.debian.tar.xz 98812e0d5a991c53857efc1455972b035e3562f80edb112718db013a291ec8f7 2030 libsmi_0.4.8+dfsg2-16.dsc 1d6894aa4aa73f8949ccb420a57e4e1275f8099c187771a41838e30a703269e8 1803126 libsmi_0.4.8+dfsg2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "13d7d6a1d8cff2586bee71272b32dd83742c2d189daca155786a8235115ac55cd706f171b4c4f670a3e3c9b811f6070c87a69b207b80a9f483f03a3321a6fe32 13980 libsmi_0.4.8+dfsg2-17.debian.tar.xz 2421cc41fa02d0b4d98deb5a020df18c8ae2957b8c6800dbd8f0592f8df3da9d3c1b4b5a75c873817d847d5d1d726c4474baa75fa2afb351a28987877e980bc8 2050 libsmi_0.4.8+dfsg2-17.dsc 3d1e84c0b27ee42a41222c83a7cb7c93558f7bc9ab055174f6f8c0bb012cc224ae9f0e5fb87f1829a63c5867ff4a5426590a88440f774e35bd5d0ba156bb4a13 1803126 libsmi_0.4.8+dfsg2.orig.tar.gz"
+    "96128680547944a15e8e3843209eb2bccd155b5686ea4b8b4c0096abbad61f839d50ea876849ff68f69baeb2db0cfa3ac1f675f7ede410dd98f39e736daa9df4 13800 libsmi_0.4.8+dfsg2-16.debian.tar.xz 832068de09de40e090eb720802698327573877177b478459289e23061f63e4d418e2a4ec8c3f3c3a1d09e97caad5778f57a887f203238c3587165ca7d1956a1f 2030 libsmi_0.4.8+dfsg2-16.dsc 3d1e84c0b27ee42a41222c83a7cb7c93558f7bc9ab055174f6f8c0bb012cc224ae9f0e5fb87f1829a63c5867ff4a5426590a88440f774e35bd5d0ba156bb4a13 1803126 libsmi_0.4.8+dfsg2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libs/libsmi"
   ],
   "Files": [
-    "ebe945abd0a43d795443fc699d9bc30a 13980 libsmi_0.4.8+dfsg2-17.debian.tar.xz a4abd2088df2647b553125ed87001b2b 2050 libsmi_0.4.8+dfsg2-17.dsc bc3c2e63930dfd97e44bd81480f503b6 1803126 libsmi_0.4.8+dfsg2.orig.tar.gz"
+    "0397dcc3e551e6e29723254ba2c5a99a 13800 libsmi_0.4.8+dfsg2-16.debian.tar.xz 2fd67c840e5b3dc10601844b97dd1d6c 2030 libsmi_0.4.8+dfsg2-16.dsc bc3c2e63930dfd97e44bd81480f503b6 1803126 libsmi_0.4.8+dfsg2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,12 +36,12 @@
     "libsmi"
   ],
   "Package-List": [
-    "libsmi2-common deb oldlibs optional arch=all libsmi2-dev deb libdevel optional arch=any libsmi2t64 deb libs optional arch=any smistrip deb libs optional arch=all smitools deb libs optional arch=any"
+    "libsmi2-common deb oldlibs optional arch=all libsmi2-dev deb libdevel optional arch=any libsmi2ldbl deb libs optional arch=any smistrip deb libs optional arch=all smitools deb libs optional arch=any"
   ],
   "Standards-Version": [
     "3.9.8"
   ],
   "Version": [
-    "0.4.8+dfsg2-17"
+    "0.4.8+dfsg2-16"
   ]
 }

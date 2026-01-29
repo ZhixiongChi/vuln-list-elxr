@@ -6,22 +6,22 @@
     "python3-maxminddb, python-maxminddb-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, pybuild-plugin-pyproject, python3-all-dev, python3-setuptools, python3-setuptools-scm, python3-wheel, python3-pytest \u003c!nocheck\u003e, python3-docutils \u003c!nodoc\u003e, python3-sphinx \u003c!nodoc\u003e, libmaxminddb-dev"
+    "debhelper-compat (= 13), dh-python, dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, python3-all-dev, python3-setuptools, python3-pytest \u003c!nocheck\u003e, python3-docutils \u003c!nodoc\u003e, python3-sphinx \u003c!nodoc\u003e, libmaxminddb-dev"
   ],
   "Checksums-Sha1": [
-    "10ae6471fb09bef5c387e54247b9f3ed78cf63e4 10724 python-maxminddb_2.6.3-1.debian.tar.xz ad3e2e1e7ac4bc283cda47cf0db2a2179e4f10d7 2310 python-maxminddb_2.6.3-1.dsc 97dcd787f2c6a8143dc376862ba5f4bf38087a04 663829 python-maxminddb_2.6.3.orig.tar.gz"
+    "173c78064475857b02f64cc75927116e0d8f0833 10944 python-maxminddb_2.2.0-1.debian.tar.xz 9f5a13d1dd56ae9b4079d27e59180ef434bc83b4 2335 python-maxminddb_2.2.0-1.dsc d73d67eb89c8742e01c4bc011be1f089540181f2 279910 python-maxminddb_2.2.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "67b1be6770d94bad54c484909eb002207b1de4faf7282be1d39b0533e6a98a98 10724 python-maxminddb_2.6.3-1.debian.tar.xz 7cddd22a0ce17d873b167c09d0a2c52497c118f4ea5db00f51c0e0987e71734a 2310 python-maxminddb_2.6.3-1.dsc db58bea4925f182aa5e71de0b5a513be21d8c54637d9513d76935e20b41510a8 663829 python-maxminddb_2.6.3.orig.tar.gz"
+    "5c6ca7f26a55f080986fa078b755292c19bd02b841bc1c4941f74a8d2de92855 10944 python-maxminddb_2.2.0-1.debian.tar.xz 162f0cc3d4111550cbe25881aeaffc82778eef4ba706d70113af5a8e27cc830b 2335 python-maxminddb_2.2.0-1.dsc ebbd10e56df55ecc6ae82a6754461e70a0fcb8cc7953cb93c81800c42690362f 279910 python-maxminddb_2.2.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c74b4a16c7ac5d3acb563fe7aacae654de2f711396aa2019ddb8c9071bb2120ae6c4b3853173b9cb273a6470fd8d53ba2350f87ce27365aca2e48a46df74411b 10724 python-maxminddb_2.6.3-1.debian.tar.xz f0756dfe5a32a17ed83de5e9c715fed21d3debf4d54f1dfc881887e3d47d499ea95f32d49f6dcacf436321138f1c8db062f5b2636da8c01cef17e88f53fb158f 2310 python-maxminddb_2.6.3-1.dsc 0ac94faeade99e65fa000f63ad1c6e47e7523a67ff50f2492614480a6b6fbecd4a8ae8c8ac0b3287aa651e6d8fae03fdf5af1b4e4ad6c45395df0bcc3b4814ed 663829 python-maxminddb_2.6.3.orig.tar.gz"
+    "fade93a3e781ff7760dd8b9eba8d17dd1ef899db8555f697eba68de32ce853c213b7f4c73331f9225b1a1e21ee8b43c7108b4e4c1f6a1d34b36adf62ffbba979 10944 python-maxminddb_2.2.0-1.debian.tar.xz a6ef339c7b55bc199cb2c9b58fce780e0d22dd4a884f31f5c5f8b933a86ae93e62d0cb750ebda1e8df6e6298810e8d27603220e645008943b916ffd9070d5be0 2335 python-maxminddb_2.2.0-1.dsc ad576616cf1406d85cde7df2cc141528018071540afe95cc8dcb7a8bd840722ce811552abb17bb276db6a4c41177b521f7de7ebbeb567e910643dcad34ea26e5 279910 python-maxminddb_2.2.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-maxminddb"
   ],
   "Files": [
-    "592856f64808dbb87a98ad5e064a8358 10724 python-maxminddb_2.6.3-1.debian.tar.xz 60be6359548bdd0fd50d5e45d8bba00e 2310 python-maxminddb_2.6.3-1.dsc 8f5e27e79bbd69c94458e82096b0f546 663829 python-maxminddb_2.6.3.orig.tar.gz"
+    "6afa4dbd4954d05a2acb33c38c2bee7e 10944 python-maxminddb_2.2.0-1.debian.tar.xz 62845777ddb11e0dc656f6911edca002 2335 python-maxminddb_2.2.0-1.dsc 4d074feb26188cd4519df0124999eada 279910 python-maxminddb_2.2.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,13 @@
     "python-maxminddb-doc deb doc optional arch=all python3-maxminddb deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Ondřej Nový \u003conovy@debian.org\u003e, Sergio Durigan Junior \u003csergiodj@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/python-maxminddb"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/debian/python-maxminddb.git"
   ],
   "Version": [
-    "2.6.3-1"
+    "2.2.0-1"
   ]
 }

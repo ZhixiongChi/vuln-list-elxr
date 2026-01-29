@@ -6,25 +6,25 @@
     "python3-repoze.who"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-python, openstack-pkg-tools, python3-all, python3-setuptools, python3-sphinx"
+    "debhelper-compat (= 12), dh-python, python3-all, python3-setuptools, python3-sphinx"
   ],
   "Build-Depends-Indep": [
-    "python3-paste, python3-repoze.sphinx.autointerface, python3-pytest, python3-webob, python3-zope.interface"
+    "python3-nose, python3-paste, python3-repoze.sphinx.autointerface, python3-webob, python3-zope.interface"
   ],
   "Checksums-Sha1": [
-    "537d4c4489109a79eeffb23b033883e0ca11c2bc 5096 python-repoze.who_3.0.0-4.debian.tar.xz fe79ef3319d7b5de580c97115b70c81c14b33c2a 2249 python-repoze.who_3.0.0-4.dsc 0376d03d14d29945c74215f46f72cef9ba6a69f5 315628 python-repoze.who_3.0.0.orig.tar.gz"
+    "60f4160fda91cfa9960eb8e79eb5b8f14fd4470f 4216 python-repoze.who_2.2-4.debian.tar.xz de1d143576cf33f361542957616364940ba41dd3 2212 python-repoze.who_2.2-4.dsc e3b966e4d11a12b06e7e799c9726fa888f6437d9 308593 python-repoze.who_2.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "71282f71d08374eab107f8bd26c05588c709d335a658cf3d12aae3da7735697f 5096 python-repoze.who_3.0.0-4.debian.tar.xz 301dd06d8f7234b9e8dd021059b2604af746f854e96c0cab0e1602973e47643a 2249 python-repoze.who_3.0.0-4.dsc e955adf00c1f0b0c715e828979a237ec4bf7ee70827bd97f5e17bf82760dcb30 315628 python-repoze.who_3.0.0.orig.tar.gz"
+    "0cc60885fcf285a9e440b07329cee90b9e19edbc7ae63ce9d9212fc68d4a899e 4216 python-repoze.who_2.2-4.debian.tar.xz 98c9dfc69b76fd7883b73db0be1391ec771586a57ab034376e0721068b70eda4 2212 python-repoze.who_2.2-4.dsc 322629ec7c779dce4700e8f3ba531002b724d2429178c1cbb0dc169255dc9a8b 308593 python-repoze.who_2.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "834171b3b99f43ca9541165f70271e9f6c8a9362e069b188ecb9cd41a0f759d0d162ed4cde7b4a04384ded095ee45d03dece7998b88911edd5481bfc60877a10 5096 python-repoze.who_3.0.0-4.debian.tar.xz 874012105606c0f6da40de3bd91ca05a35725333a7b1798b2e78117601fadbd59090fca196b93fe8939ee9b88cee99080b0fc559f45fbe3d053244b2f92bf799 2249 python-repoze.who_3.0.0-4.dsc 71b9e56d41256b4ecefeb2280d1055e0ffab9a95e5aef8573638d7b95cfa12395a6ad2b11d311ca29b3197dddeb080b0b5f2fbba2b3f256f5ace33dbc164a2a2 315628 python-repoze.who_3.0.0.orig.tar.gz"
+    "d596a68e31675855226f4219f17d6810dad2b59840dc0a89195e70aa0ee5141f67ce173481407312a43dca1394cf050f30ad87c7ecb4f724b9fc9db9dbc4caa2 4216 python-repoze.who_2.2-4.debian.tar.xz b403ba9e94244193c06841859518c0e774676a5c7665ea93146c95aef2d7a60603a678fc3259b0af89d4be790d8a185971124e5691da0e192c66a46a28c4664b 2212 python-repoze.who_2.2-4.dsc 1d4ea83e0b5c0d57ff56e19b9922d88b37bca4dfd5ec49df2bf5a1f2aeae15a5698f839e0071cda8cedee69fe4abbfdcb3fa632d4d4c8407739999853df87f63 308593 python-repoze.who_2.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-repoze.who"
   ],
   "Files": [
-    "3d3539bddba1eec213f8fda650081c07 5096 python-repoze.who_3.0.0-4.debian.tar.xz 32c9585197effdbac478bb57f704f3db 2249 python-repoze.who_3.0.0-4.dsc 36bfe07d9fcc8138ea3ae2123fac46a4 315628 python-repoze.who_3.0.0.orig.tar.gz"
+    "1ce7a9336ffeec201415c66573bd85fd 4216 python-repoze.who_2.2-4.debian.tar.xz c6b211a038bf19d9ce4e47e1c318867d 2212 python-repoze.who_2.2-4.dsc c677ac4d4a32b6f6880a8f9cf20adffb 308593 python-repoze.who_2.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "python3-repoze.who deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.4.1"
+    "4.4.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-python"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/openstack-team/python/python-repoze.who.git"
   ],
   "Version": [
-    "3.0.0-4"
+    "2.2-4"
   ]
 }

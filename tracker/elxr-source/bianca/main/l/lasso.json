@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "liblasso3-dev, liblasso3t64, python3-lasso, liblasso-perl"
+    "liblasso3-dev, liblasso3, python3-lasso, liblasso-perl"
   ],
   "Build-Depends": [
-    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 12), dh-python, liberror-perl, gtk-doc-tools, libxml2-dev, libxslt1-dev, libxmlsec1-dev, libglib2.0-dev, perl-xs-dev, python3-all-dev (\u003e= 3.2), python3-setuptools, libexpat1-dev, python3-all, python3-lxml, chrpath"
+    "debhelper-compat (= 12), dh-python, liberror-perl, gtk-doc-tools, libxml2-dev, libxslt1-dev, libxmlsec1-dev, libxmlsec1-openssl, libglib2.0-dev, python3-all-dev (\u003e= 3.2), libexpat1-dev, python3-lxml, python3-six, chrpath"
   ],
   "Checksums-Sha1": [
-    "0d42bd174642c3ed263e4bb50d396425dc3f482d 33192 lasso_2.8.2-9+deb13u1.debian.tar.xz 5dfd88399aa49fd8f9287860426229cffa02aa51 2354 lasso_2.8.2-9+deb13u1.dsc a7744a8e61c3e8c0c197cbaf6ed9d8e239788eeb 4023587 lasso_2.8.2.orig.tar.gz"
+    "b3c1772d35f4ab008a746c7895b8134b5a908bfb 14836 lasso_2.8.1-1+deb12u1.debian.tar.xz 3cef2b4846bf409f9147d070252628514ef79e1c 2281 lasso_2.8.1-1+deb12u1.dsc d6c130ff3947046a1eef10c1f275e0ffc9122322 4022868 lasso_2.8.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "852985305a4ad075d1f5218d2e0f572959ce0560683f4e21c24a71003c3948e0 33192 lasso_2.8.2-9+deb13u1.debian.tar.xz 507965befd9935102f633bd4d98b888c34ebfa48a7d707d0fd87cd8c8a036d79 2354 lasso_2.8.2-9+deb13u1.dsc 6a1831bfdbf8f424c7508aba47b045d51341ec0fde9122f38b0b86b096ef533e 4023587 lasso_2.8.2.orig.tar.gz"
+    "415dcbaf3ef6d0212a4cc0ec26c4d57c0679f46b91c6e7c416d49aaafcc21b7f 14836 lasso_2.8.1-1+deb12u1.debian.tar.xz a3f8fc9d8ff8db60629a8520822713269ee8c84b847abf871284cf9f1242af85 2281 lasso_2.8.1-1+deb12u1.dsc b7d0c98f6c6614faeeb292a18f2d836c0bc378d59a5d7481e810bb6c69ec9ddf 4022868 lasso_2.8.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "4ac05acc3174797fb5ec87397724bdf2229f99c02e353fd3b1c5a65f9dd065ed5f4c27575e3272d90f114cc57cd2717d67751a3822bfcaf8cefcea3823ce4570 33192 lasso_2.8.2-9+deb13u1.debian.tar.xz 7bc40e0d9f77c5f3cdb0c481cdf243243a0b6d4e9c99e705ea6546e85389f50b77540cfd8d4f15f1c40758fd72a482c431ef4d6f388ada1ce390c07dcb30fb6a 2354 lasso_2.8.2-9+deb13u1.dsc f56b5fef68fd1e6025a7cfb0f84d65be9ddf195f0e80d38d60c31d43fcd4377be5a0d67140bc654c224331230f06c10e4eb498671a10ebfadc1d93decadf4c72 4023587 lasso_2.8.2.orig.tar.gz"
+    "f710b150c103f6639cc448bca2bb0fc75ed7fc4694b6761ab5f454ca7247a4d2bb2075907acd0dd8706240d7457985702800a2b9d22a598e1d76b2ce06a97aee 14836 lasso_2.8.1-1+deb12u1.debian.tar.xz b51278fbf184fd021509f460a102899e54eb3bee608f8a106adc5e03ca7ee3f01704002b1d28ea9bd75d27b14c7c3866860495c564f8db3e8ed73f4e63d94075 2281 lasso_2.8.1-1+deb12u1.dsc 1cb29b27fbe04fc1103a87d6901a1f8101a41a97be8fd89f0b66ed947962e90f246a5ecfc94512882658e073b980159a0d413b1ab3f0d5d0aa3dcdb814fd99e8 4022868 lasso_2.8.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/l/lasso"
   ],
   "Files": [
-    "bd936dafe6a67bfe42e52efdf8a6dae2 33192 lasso_2.8.2-9+deb13u1.debian.tar.xz 4d6b118505419e638ee4537253055fbd 2354 lasso_2.8.2-9+deb13u1.dsc ad2e167973cc1c21cd16329bfbcd3d16 4023587 lasso_2.8.2.orig.tar.gz"
+    "123abd1731363d332c76aa87225a1e14 14836 lasso_2.8.1-1+deb12u1.debian.tar.xz 66c97c2c5bfca3785597b2dbccaf84a6 2281 lasso_2.8.1-1+deb12u1.dsc ecc5c663753477f52bdc27e14588e571 4022868 lasso_2.8.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "lasso"
   ],
   "Package-List": [
-    "liblasso-perl deb perl optional arch=any liblasso3-dev deb libdevel optional arch=any liblasso3t64 deb libs optional arch=any python3-lasso deb python optional arch=any"
+    "liblasso-perl deb perl optional arch=any liblasso3 deb libs optional arch=any liblasso3-dev deb libdevel optional arch=any python3-lasso deb python optional arch=any"
   ],
   "Standards-Version": [
     "4.6.0"
@@ -44,10 +44,7 @@
   "Testsuite": [
     "autopkgtest"
   ],
-  "Testsuite-Triggers": [
-    "python3-all"
-  ],
   "Version": [
-    "2.8.2-9+deb13u1"
+    "2.8.1-1+deb12u1"
   ]
 }

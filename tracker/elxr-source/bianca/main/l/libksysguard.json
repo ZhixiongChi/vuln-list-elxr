@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libksysguard-bin, libksysguard-data, libksysguard-dev, libprocesscore10, libksysguardformatter2, libksysguardsensors2, libksysguardsensorfaces2, libksysguardsystemstats2, qml6-module-org-kde-ksysguard"
+    "libkf5sysguard-bin, libkf5sysguard-data, libkf5sysguard-dev, libksgrd9, libksignalplotter9, liblsofui9, libprocesscore9, libprocessui9, libksysguardformatter1, libksysguardsensors1, libksysguardsensorfaces1, libksysguardsystemstats1, qml-module-org-kde-ksysguard"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-exec, dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, dh-sequence-qmldeps, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.10.0~), gettext, libcap-dev [linux-any], libcap2-bin [linux-any], libkf6auth-dev (\u003e= 6.10.0~), libkf6config-dev (\u003e= 6.10.0~), libkf6coreaddons-dev (\u003e= 6.10.0~), libkf6i18n-dev (\u003e= 6.10.0~), libkf6newstuff-dev (\u003e= 6.10.0~), libkf6package-dev (\u003e= 6.10.0~), libkf6service-dev (\u003e= 6.10.0~), libkf6solid-dev (\u003e= 6.10.0~), libnl-3-dev [linux-any], libnl-route-3-dev [linux-any], libpcap-dev [linux-any], libsensors-dev [linux-any], libx11-dev, libxkbcommon-dev, libxres-dev, qml6-module-org-kde-kitemmodels, qml6-module-org-kde-quickcharts, qml6-module-qt5compat-graphicaleffects, qt6-base-dev (\u003e= 6.7.0~), qt6-declarative-dev (\u003e= 6.7.0~), qt6-declarative-private-dev, zlib1g-dev"
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), dh-exec, dh-sequence-kf5, extra-cmake-modules (\u003e= 5.102.0~), gettext, libcap-dev [linux-any], libkf5auth-dev (\u003e= 5.102.0~), libkf5completion-dev (\u003e= 5.102.0~), libkf5config-dev (\u003e= 5.102.0~), libkf5configwidgets-dev (\u003e= 5.102.0~), libkf5coreaddons-dev (\u003e= 5.102.0~), libkf5globalaccel-dev (\u003e= 5.102.0~), libkf5i18n-dev (\u003e= 5.102.0~), libkf5iconthemes-dev (\u003e= 5.102.0~), libkf5jobwidgets-dev (\u003e= 5.102.0~), libkf5kio-dev (\u003e= 5.102.0~), libkf5newstuff-dev (\u003e= 5.102.0~), libkf5package-dev (\u003e= 5.102.0~), libkf5service-dev (\u003e= 5.102.0~), libkf5widgetsaddons-dev (\u003e= 5.102.0~), libkf5windowsystem-dev (\u003e= 5.102.0~), libnl-3-dev [linux-any], libnl-route-3-dev [linux-any], libpcap-dev [linux-any], libqt5webchannel5-dev (\u003e= 5.15.2~), libqt5x11extras5-dev (\u003e= 5.15.2~), libsensors-dev [linux-any], libx11-dev, libxres-dev, pkg-kde-tools (\u003e= 0.15.18~), qtbase5-dev (\u003e= 5.15.2~), qtdeclarative5-dev (\u003e= 5.15.2~), qttools5-dev, qtwebengine5-dev (\u003e= 5.15.2~) [amd64 arm64 armhf i386 mipsel], zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "812c2afeb2f838c4466bd9638c2a530d74bd6bdf 26512 libksysguard_6.3.5-1.debian.tar.xz d913e5f97aa34b121ccc9f678432c8682509868e 3697 libksysguard_6.3.5-1.dsc 53f2405cdb281417310f71bd64ed0b2e2ff399cc 329212 libksysguard_6.3.5.orig.tar.xz 4cb9071f5c6ba005c53f1ece6e338527d9d02fc6 833 libksysguard_6.3.5.orig.tar.xz.asc"
+    "5710e6becd6e1b67ea02c88daf7ad6c59d983ce0 30376 libksysguard_5.27.5-2.debian.tar.xz 906c0106f1d3788c4835f44318431ef24496ab61 4151 libksysguard_5.27.5-2.dsc 77588fa875480201342cba415041fb594ed7015a 875116 libksysguard_5.27.5.orig.tar.xz 1026a80a36b16dfd6972c24f2fba158a62232c33 833 libksysguard_5.27.5.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "4a1d303691e47da22f2f023a0ec498d0faea3e1bb8514eaf1866da7011eed986 26512 libksysguard_6.3.5-1.debian.tar.xz 50bc9b855381a8a902b313cdc1ffc307d94b8865effde7e5e38a371081e7f1e9 3697 libksysguard_6.3.5-1.dsc 36c01f8c8218c175062e8a0db2c07ca39abeac34fc62d7e6b48194f053bc3523 329212 libksysguard_6.3.5.orig.tar.xz 65d32ee0b7482ccdd4fc1cf7e1ec33b9ae86bac6653e100d237bd84e34dd6305 833 libksysguard_6.3.5.orig.tar.xz.asc"
+    "81e53a61425918ffc5d5980de37878ee9ad5e3b2c1b75967f35a213171dd9706 30376 libksysguard_5.27.5-2.debian.tar.xz 8809339438c444a20bec473e656b0f7555e9b439275b07a841763981d9b8a499 4151 libksysguard_5.27.5-2.dsc 7e7eb53af05fefcfea6b38fed4947409370ad303247892e4719bc2a809e85e14 875116 libksysguard_5.27.5.orig.tar.xz e22266fa7085f54a94b997bce86779e3077ac3785f3f21b64ce9779f3e72b3d3 833 libksysguard_5.27.5.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "42d2977cd8a074a73035d05252417d97bcbc5379060d86be24af21b6266a70dfab024a597be4658c6ea46900dc7094abdc54ea377f17ad5c5cb4665b81401227 26512 libksysguard_6.3.5-1.debian.tar.xz 0623ae5bf5c255c212f31400ed1f39ef389c62fc3e9d0a15a8884eb332f39f77a676e1650fa3a06de6e7884be232c0d10abe86c90ad437c2360022f44b0e5eef 3697 libksysguard_6.3.5-1.dsc bb8216ce9702b33fbce0048777ea8a6c9a006b341705d814ae24ec116581b2b4a16bf8066a424720dee358446130b1c7e401ec23013e64d13373caa9c0482157 329212 libksysguard_6.3.5.orig.tar.xz d51e7cdd222c9922c40f9f7fb63f372d856899ba11cb26bb2dea152ec299c28fa0dbd4df5fdf78c71b9e6ae4a0e5dd50c49e2b2f58fec2f3194d3be0bc8b7fab 833 libksysguard_6.3.5.orig.tar.xz.asc"
+    "3679c439695bf4ff7a08558d1bbd45cb6a6629aa4f9c3ec3f10ea00a08ccd4e090f8b4a738b46645241a3fba03aae66e1b51f0da31786589c94a00ad93f11dd0 30376 libksysguard_5.27.5-2.debian.tar.xz 88778322eafe3a398591eb020832ec03199ff39755b73bf3d48f750730739699d66d62807a6c26afc68f38c75fdc432f4827d164daaf24a1ca6d03c9a3ada47f 4151 libksysguard_5.27.5-2.dsc 3a9c48e6e10b5b82d079e045f625281004d4253514244f318833a5176bdb423a97d0307738c0d803257c952277c2d9c08728f88cb4a3bb64df1d1e5dabb7937c 875116 libksysguard_5.27.5.orig.tar.xz 99d4a19d4938c0f8a41233bae851fdea0de50d6da3122969987f1b0596b82c37bacfaf113c57f4862c00ce2c1b20677519106ba9660d8fe8939a70bc8a37099e 833 libksysguard_5.27.5.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/libk/libksysguard"
   ],
   "Files": [
-    "0f6c7a4dae2fd59e24451884efc6f118 26512 libksysguard_6.3.5-1.debian.tar.xz 9ebf1542f1f7191384e7b09d2d485c2a 3697 libksysguard_6.3.5-1.dsc c29885dbb2bf812a442eb77e6b0e0b50 329212 libksysguard_6.3.5.orig.tar.xz c0f4b87ab9e99a9b99bfb4dfea6cb12a 833 libksysguard_6.3.5.orig.tar.xz.asc"
+    "3ce711a7e8d8a461c1f4aa60c2755866 30376 libksysguard_5.27.5-2.debian.tar.xz abcb0ec14cc31041ae17f1dae51de637 4151 libksysguard_5.27.5-2.dsc b7247c962c5d25adab4319b61658a084 875116 libksysguard_5.27.5.orig.tar.xz 10d5f00d5ee67de4e48bf20a5a5a7d4b 833 libksysguard_5.27.5.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "libksysguard"
   ],
   "Package-List": [
-    "libksysguard-bin deb libs optional arch=any libksysguard-data deb libs optional arch=all libksysguard-dev deb libdevel optional arch=any libksysguardformatter2 deb libs optional arch=any libksysguardsensorfaces2 deb libs optional arch=any libksysguardsensors2 deb libs optional arch=any libksysguardsystemstats2 deb libs optional arch=any libprocesscore10 deb libs optional arch=any qml6-module-org-kde-ksysguard deb libs optional arch=any"
+    "libkf5sysguard-bin deb libs optional arch=any libkf5sysguard-data deb libs optional arch=all libkf5sysguard-dev deb libdevel optional arch=any libksgrd9 deb libs optional arch=any libksignalplotter9 deb libs optional arch=any libksysguardformatter1 deb libs optional arch=any libksysguardsensorfaces1 deb libs optional arch=any libksysguardsensors1 deb libs optional arch=any libksysguardsystemstats1 deb libs optional arch=any liblsofui9 deb libs optional arch=any libprocesscore9 deb libs optional arch=any libprocessui9 deb libs optional arch=any qml-module-org-kde-ksysguard deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Uploaders": [
     "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/libksysguard.git"
   ],
   "Version": [
-    "4:6.3.5-1"
+    "4:5.27.5-2"
   ]
 }

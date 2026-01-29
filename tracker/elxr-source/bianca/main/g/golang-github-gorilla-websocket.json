@@ -6,22 +6,22 @@
     "golang-github-gorilla-websocket-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.20~), golang-golang-x-net-dev (\u003e= 1:0.17.0)"
+    "debhelper-compat (= 13), dh-golang, golang-any"
   ],
   "Checksums-Sha1": [
-    "260e174d779f2438acaf647c92e6c22d08e332bf 4216 golang-github-gorilla-websocket_1.5.3-1.debian.tar.xz 1d5eb628249f695f65b4eb2f07f3401a9a8233db 2388 golang-github-gorilla-websocket_1.5.3-1.dsc bb987bcaedf8397a13acfb0f93b0fa2e754f7f58 54884 golang-github-gorilla-websocket_1.5.3.orig.tar.gz"
+    "0e61c53427fbf1a2bc9b5519a05a3e29bb298e99 3956 golang-github-gorilla-websocket_1.5.0-2.debian.tar.xz 452b7f44bf1514c0b86f88177d4463054740d220 2301 golang-github-gorilla-websocket_1.5.0-2.dsc bc464f6264f7f6649a80c8c55735e866a93d6cec 54155 golang-github-gorilla-websocket_1.5.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "62a431a497f68d77912decb39b8316dd35f8e590dda59e65b4f52abb08984dc8 4216 golang-github-gorilla-websocket_1.5.3-1.debian.tar.xz 34f0082872bf11e93556f73fd5bd0813c8eeb17d5bf731f33a232612bf767a4b 2388 golang-github-gorilla-websocket_1.5.3-1.dsc 707f217e9a46c516c289b71c45a4e51b11b5e0fcec54c1fbfecde47b8a001799 54884 golang-github-gorilla-websocket_1.5.3.orig.tar.gz"
+    "86029ed7c436fb5f86faa235b3de6ffed848e2cdfbd83d7d66f4856cda0aa3b3 3956 golang-github-gorilla-websocket_1.5.0-2.debian.tar.xz 8688a01dfc5c99888308f769efd463bd2f2660897a11e5ff930b34fcabd5ef45 2301 golang-github-gorilla-websocket_1.5.0-2.dsc 5d86f9e1c76ff7ceca0747f78b79864fbaec9d440f4fdb03197466e5102a86b0 54155 golang-github-gorilla-websocket_1.5.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f9173ad4b0ba775615b27c86e9964db4ccdfed48ae5d47b40a6b3cd9a306f20ee7db802f627426954e3fdb2dc19c34a93d7549fe081c27e5f02e8090d68e4c87 4216 golang-github-gorilla-websocket_1.5.3-1.debian.tar.xz a8a48cb18f4e89f78706d4d68fdec274e29526038b7e1ce02375d8736a49634c2b637f22b318dd284d1b47ce34906e30aa224592b9ba57a2c8c6503fc94ce980 2388 golang-github-gorilla-websocket_1.5.3-1.dsc 678d31c0de7d75e0a36bba1457e26def0ca4c4b45d404d287507fcdcc0cfaec607f84b03fc16b245d9fe5244b1cd96699ac79ce78b10a62823ce261c7f951ef5 54884 golang-github-gorilla-websocket_1.5.3.orig.tar.gz"
+    "d4668634f0a2d01cb3ecb7db19dcb04c7b7fe0afb8e7d6cc3cb71e2e0d03d2353ed90252411378cce3c32adb52d0d87e0b597b4489b6319fc3479720e186c7a7 3956 golang-github-gorilla-websocket_1.5.0-2.debian.tar.xz cd9ea447f9c6fac56d029365b4bd05e4532e61f6e1a4109d8f82bbdabfa12ee50eb449b2256f9f87e13eb4c657e65dfabf75a2b44e85604fed763ac0f82aab06 2301 golang-github-gorilla-websocket_1.5.0-2.dsc b78b9aa1efd98db560a45a17a60996bf71ba0651fe1f39921c9895a24d0ecf36501c97709f65cf11fe64ec37bf6aef60d5017d6f6b8dcf100a34f70402f36fde 54155 golang-github-gorilla-websocket_1.5.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-gorilla-websocket"
   ],
   "Files": [
-    "2038e709adeb81fb77ddb6353bb44c53 4216 golang-github-gorilla-websocket_1.5.3-1.debian.tar.xz 29cf18300875fce9f54ef952ef59a41d 2388 golang-github-gorilla-websocket_1.5.3-1.dsc 78f070a63f7d4b9ebbe92fad46ea2e7e 54884 golang-github-gorilla-websocket_1.5.3.orig.tar.gz"
+    "b26cb9c1a8882cbc618dd2784988ed30 3956 golang-github-gorilla-websocket_1.5.0-2.debian.tar.xz d3002e8073ee51dfa5c6e57032d9d472 2301 golang-github-gorilla-websocket_1.5.0-2.dsc 11f202db2e908f83270784cf85032b4b 54155 golang-github-gorilla-websocket_1.5.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "golang-github-gorilla-websocket"
   ],
   "Package-List": [
-    "golang-github-gorilla-websocket-dev deb golang optional arch=all"
+    "golang-github-gorilla-websocket-dev deb devel optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-gorilla-websocket.git"
   ],
   "Version": [
-    "1.5.3-1"
+    "1.5.0-2"
   ]
 }

@@ -6,22 +6,22 @@
     "libjaylink-dev, libjaylink0"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), pkgconf, libusb-1.0-0-dev"
+    "debhelper-compat (= 12), pkg-config, libusb-1.0-0-dev"
   ],
   "Checksums-Sha1": [
-    "93e148dac539b7608f2a3e1484ec5abe771b6834 2604 libjaylink_0.4.0-1.debian.tar.xz 742ac9d8364325ebf3d955f4ea813248d08b2967 1462 libjaylink_0.4.0-1.dsc 48f42d7aed2ec2e4aed6c6e108ac0f0bb6fe5313 62328 libjaylink_0.4.0.orig.tar.bz2"
+    "fda38f3707a9a688f46e89b559cbaa498c7accd1 2476 libjaylink_0.3.1-1.debian.tar.xz 70dd918624e86e345261ae1be9a0cef21b7a973d 2067 libjaylink_0.3.1-1.dsc 8592bb4b2b45a3527a9f7bc2ed48ceda5c01d61a 61696 libjaylink_0.3.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "2ec65b38e9577bfdf61c8d3f0b8fe1b8d51afa08df4faf88718175363c8ba2c0 2604 libjaylink_0.4.0-1.debian.tar.xz c076667713191a1c8b92a726b6f81aa2ca8bc35fd599032a64af634bc0199dd4 1462 libjaylink_0.4.0-1.dsc 492da550fe1093a9b2d958304deb386380abea13ef7ce694b2ef68bfdaec664d 62328 libjaylink_0.4.0.orig.tar.bz2"
+    "3cf0c068b8dc3e2236a3eed6b854dc241a7d7417a4bed99937f371be8b2b0dc9 2476 libjaylink_0.3.1-1.debian.tar.xz e7c8f93f9ea38cd7256f55e723df06e67c7aecc4265592c7414ee935167bd3e3 2067 libjaylink_0.3.1-1.dsc dd211d3f4e8fcd53c97e9d8b7967061e4bdad6c0823d92ce99406577aaf7f254 61696 libjaylink_0.3.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "fb5580819784ad9ca3e193abd62638392d5257a826e3a7d4e498a5b90d4497edf871bbad8eb3dd484e87cd6a8ec1f65d6c35cfb0ff6fb7a89110964bc61fa83b 2604 libjaylink_0.4.0-1.debian.tar.xz 7744f5a252f7b576b2e9031f305b8302a2eaf5f23227e73a128f44df602e06b485246e83cc695a4e05492749eb49ba1b48f77e6a692925ff3c8441f84cb3433b 1462 libjaylink_0.4.0-1.dsc 47995b872344fcb94bff9d358445702837236165b3d15ebc3d63ee0a92ded5152804937a7e04b17ca29b018d78780499f921bbe3c542b17acb6e6eede516028a 62328 libjaylink_0.4.0.orig.tar.bz2"
+    "fcce947845b37be39c3f08d43dad94b17fe0daaa476cdb2c3c96756229a6665faba73dc4991573b09702b1fc4ba3daf4570cd9deb8ea0149e9476ef637413a19 2476 libjaylink_0.3.1-1.debian.tar.xz d657fef1217c56c6480a7d72fa4d78ec4f7c387bf7a6297a3cc567e0ed98d5482d5b09f663624e6922d9f48408e7dbc94493304aa320b20168fd1cd5852502ae 2067 libjaylink_0.3.1-1.dsc 21cbba6b211a0924a320778da07c7d546d97c15ecd2b71a704530f7691fc0131da7c90c3d1ba9d6da3caed7586f48620384f398b71ed59766f530c2e79d47c95 61696 libjaylink_0.3.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libj/libjaylink"
   ],
   "Files": [
-    "d9ef7769f1541d5e282314846c78a82e 2604 libjaylink_0.4.0-1.debian.tar.xz 832125aa206887179c7b61750de91abf 1462 libjaylink_0.4.0-1.dsc ca10f51333ccd95897786d84ac8e853f 62328 libjaylink_0.4.0.orig.tar.bz2"
+    "31d76a2209779c9b75545643e88a1d96 2476 libjaylink_0.3.1-1.debian.tar.xz f25f23e2811e9825e0a2ceab404838f0 2067 libjaylink_0.3.1-1.dsc 7b6874e14a0d9eea765761baffac76e9 61696 libjaylink_0.3.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libjaylink-dev deb libdevel optional arch=any libjaylink0 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.0"
   ],
   "Uploaders": [
     "Jonathan McDowell \u003cnoodles@earth.li\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/electronics-team/libjaylink.git -b debian"
   ],
   "Version": [
-    "0.4.0-1"
+    "0.3.1-1"
   ]
 }

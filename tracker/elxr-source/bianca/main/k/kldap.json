@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "kio-ldap, libkldap-data, libkldap-dev, libkldap-doc, libkpim6ldapcore6, libkpim6ldapwidgets6"
+    "kio-ldap, libkf5ldap-data, libkf5ldap-dev, libkf5ldap-doc, libkf5ldap5abi1"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-kf6, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.6.0~), gettext, libkf6doctools-dev (\u003e= 6.6.0~), libkf6i18n-dev (\u003e= 6.6.0~), libkf6kio-dev (\u003e= 6.6.0~), libkf6widgetsaddons-dev (\u003e= 6.6.0~), libldap2-dev, libsasl2-dev, qt6-base-dev (\u003e= 6.6.0+dfsg~), qtkeychain-qt6-dev (\u003e= 0.14.2~)"
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.99.0~), gettext, libkf5doctools-dev (\u003e= 5.99.0~), libkf5i18n-dev (\u003e= 5.99.0~), libkf5kio-dev (\u003e= 5.99.0~), libkf5widgetsaddons-dev (\u003e= 5.99.0~), libldap2-dev, libsasl2-dev, pkg-kde-tools (\u003e\u003e 0.15.15), qt5keychain-dev, qtbase5-dev"
   ],
   "Checksums-Sha1": [
-    "750a5650fe20918357209e0b292a42bcbb9c6cfe 16848 kldap_24.12.3-1.debian.tar.xz 1881b2895d24e99b55aa8073478fd3dcf93602ce 2879 kldap_24.12.3-1.dsc 56773b14b8e957d2b88b8080f35a350d988bfcbc 190472 kldap_24.12.3.orig.tar.xz c2b7d60b572c14fd822016ba8f2e6ceb01260e66 833 kldap_24.12.3.orig.tar.xz.asc"
+    "66ae6d5348ed7c2c5658740e92b7d7c4d99c95c3 16156 kldap_22.12.3-1.debian.tar.xz c6e524c7ff504acf531484104372771663af23aa 2700 kldap_22.12.3-1.dsc dc9d8080d6700a936d2c4683588666664e1751ee 181556 kldap_22.12.3.orig.tar.xz e6f77cf206592642d4935ee74427dffea0196348 833 kldap_22.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "9fdd50757ef419974c5553a276b25adf9271bfedb5f992880b96770ab7ee96af 16848 kldap_24.12.3-1.debian.tar.xz cff0cf403e26dd7230a26481df4ad59e19986e4060dcce4586a02016e9cdbf39 2879 kldap_24.12.3-1.dsc 764d4dbc4807dff69c65b11f379115f5c9d4c40cd9c64a0ae7f23ac5eda27828 190472 kldap_24.12.3.orig.tar.xz 2278cafd9d5d2a4fd534e02a26eb4478ba095f3c0acae833bfffa657cd1e269b 833 kldap_24.12.3.orig.tar.xz.asc"
+    "184c99c0a429c519621c151db5c57045458a42123768925db8de36163fcdfa7b 16156 kldap_22.12.3-1.debian.tar.xz 1ec81e36ef434f8b3c373aa2fcba4b8c2db039761a5ee1f12a4010e400109fba 2700 kldap_22.12.3-1.dsc 0d33ee1ccade2c07afd99e05873ac78d088c8b7176ed372b60675eb94fae0c28 181556 kldap_22.12.3.orig.tar.xz 5421b23f9a9fd0d3f66c17ae6ab38818762c96c17cd4241ccfc46d6b06bd9407 833 kldap_22.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "4096d3d644bb44e092771faa0c20858c6a1da6233d06f1888aa4db5968874a477eaea0c2b15d5135bd79e353003c377854e8a38e8d641ed9a881a02b83120d36 16848 kldap_24.12.3-1.debian.tar.xz 550397a628c848a7abb6c5e6c3fe384e0675c579ebae19aa5bb1e0042e3803d5a02720f263fd11cd606025b85aa69b0561d5e89f2cfca747068ada96a34ad080 2879 kldap_24.12.3-1.dsc ce8c04ca18b49bfd05d47768fd0e05607f9ccf62463870b8338c0bddfe3e5e40eb76560c7197e3bb444360cfe5a5aca9464cc9fea61d60df1d8fecd9fa4d15a8 190472 kldap_24.12.3.orig.tar.xz f498b1b3ec7bce5eca327d1d682e6e9700c31615ae28498df448e00acb745b790298447d348237c50af2ca911ca0be359547a7b01e4778997491964f6f6754bd 833 kldap_24.12.3.orig.tar.xz.asc"
+    "94bda00e25b8e078918394fc7b38cad3b22d421f5a28a15075abddbc2f2079dc82e59d396006cc3e00490ffb1801eb4f61114af6b56fd5468d4fd81c5f987f98 16156 kldap_22.12.3-1.debian.tar.xz 30ec4a973921868da5aaba28aa0d13e3bf49ded46cf978439d09b8e979d0b1d242ea1108bda8d74f364156117a584c0e9ce6d5bb490bcb2770fc1a6917d59a6d 2700 kldap_22.12.3-1.dsc 52c0adb0205a9aef701b5fd0bb4ac5363733cfec3e8ea51ca095cb83fe2dcbc96f150e85fce630c5868e99312f1df262729bb8c4d51dc92ddefe190d564a0596 181556 kldap_22.12.3.orig.tar.xz a01f8fe239c7f0b23a4e6fcb027b88c1e475a24b5231c8e15875cc80ecf531396be9c0271f3073cd912ba562bc72a123e6cee11328e577ab86d186420f79d0dd 833 kldap_22.12.3.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/k/kldap"
   ],
   "Files": [
-    "a115660ee45e5ceef63e05c117c2cdee 16848 kldap_24.12.3-1.debian.tar.xz 50aa97978d67335c53dc0d6577bac57e 2879 kldap_24.12.3-1.dsc 46f4feb61ec8e0302190c4a2db31f85d 190472 kldap_24.12.3.orig.tar.xz 24b03d41a74d8b2250ab6e2272be3f5d 833 kldap_24.12.3.orig.tar.xz.asc"
+    "8b4e8111961b4e75bd0321aeef7f6406 16156 kldap_22.12.3-1.debian.tar.xz 7ed6156ce31421ba919909732d67d9fa 2700 kldap_22.12.3-1.dsc ed6add26a532e929128835823ecc33e8 181556 kldap_22.12.3.orig.tar.xz b8534d88d8f3290a2200d156926d5de5 833 kldap_22.12.3.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "kldap"
   ],
   "Package-List": [
-    "kio-ldap deb libs optional arch=any libkldap-data deb libs optional arch=all libkldap-dev deb libdevel optional arch=any libkldap-doc deb doc optional arch=all libkpim6ldapcore6 deb libs optional arch=any libkpim6ldapwidgets6 deb libs optional arch=any"
+    "kio-ldap deb libs optional arch=any libkf5ldap-data deb libs optional arch=all libkf5ldap-dev deb libdevel optional arch=any libkf5ldap-doc deb doc optional arch=all libkf5ldap5abi1 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Uploaders": [
     "Sandro Knauß \u003chefee@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kldap.git"
   ],
   "Version": [
-    "24.12.3-1"
+    "22.12.3-1"
   ]
 }

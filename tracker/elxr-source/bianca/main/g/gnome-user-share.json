@@ -6,22 +6,22 @@
     "gnome-user-share"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), apache2-bin (\u003e= 2.4), cargo, itstool, libdbus-1-dev (\u003e= 1.1.1), libglib2.0-dev (\u003e= 2.74.0), librust-gettext-rs-0.7+gettext-system-dev, librust-gio-0.20+v2-74-dev, librust-libc-dev, librust-selinux-0.4-dev, libselinux1-dev [linux-any], libxt-dev, meson (\u003e= 0.57.0), pkgconf, rustc"
+    "debhelper-compat (= 13), dh-sequence-gnome, apache2-bin (\u003e= 2.4), itstool, libxt-dev, meson (\u003e= 0.57.0), pkg-config, libdbus-1-dev (\u003e= 1.1.1), libglib2.0-dev (\u003e= 2.71.3), libselinux1-dev [linux-any]"
   ],
   "Checksums-Sha1": [
-    "ebbf57c514de7e93a574a7526b8eba412ae89ff3 8308 gnome-user-share_48.0-1.debian.tar.xz ee17cd0273080dc319e8c09a48046f88fde97223 2344 gnome-user-share_48.0-1.dsc e0d61e701696ac8f7704bdb1f89b71a95cec9c19 115880 gnome-user-share_48.0.orig.tar.xz"
+    "90f0c536edaa00af93a18b70711e6c924d8e222a 7760 gnome-user-share_43.0-1.debian.tar.xz ce12f2edfa812faf135815f636e8cad4e1b845c4 2271 gnome-user-share_43.0-1.dsc 7dc3810bfa7163c099d1fbdff7101f9cc29f385f 107912 gnome-user-share_43.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "cea82e7624c1751fd9498bcef6c52e0c6155f46b9a97988429caa3b64721a773 8308 gnome-user-share_48.0-1.debian.tar.xz c962d35375a80e1f82fdaeb53ba72c5e82892dffeaca76d74568c920aded9d02 2344 gnome-user-share_48.0-1.dsc b55805070195c2f658415b9cd2c85b2cd14ea981d61823a500d4d62b8bf83801 115880 gnome-user-share_48.0.orig.tar.xz"
+    "2971f42d5974e9a4a16939da7fbf40f2810057d606f34da3bc84a01c1cb8f82e 7760 gnome-user-share_43.0-1.debian.tar.xz 4be410d90e9394ff49901d903acbbef6567911733d08dc7a50534b9a4b21896c 2271 gnome-user-share_43.0-1.dsc 0df306aa0558313f353ef7f51bfa27c036281adc45677e1cfbfa7c9f861538ce 107912 gnome-user-share_43.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "6476a422a16305021798e94fac50ba61c0df71d21414b9c68a5dda560d9b915c0e0534b3d9e28de9141530a3d926969c41c24b804bc1058f388ed58dd9e18e98 8308 gnome-user-share_48.0-1.debian.tar.xz 7b17e9235f74c825d5c9b2c45420e7888b3fbce2661dbaea96e28d30b6100b73069bc35a4bd25639cb785f840716b2afe7925170c31a0ef910e499297e5290a6 2344 gnome-user-share_48.0-1.dsc 1a23ebbdf0942d0742dca2745b481ae22801d94a8ee39dcf1606daf4fb29dce9b6122e0d2ec2a4dd25d8e079f7ec8a132494124654ab0f6cdead85c472edb4a3 115880 gnome-user-share_48.0.orig.tar.xz"
+    "ac5751be7125799529037db6ee482a7ff192ac56369f7fa81ec4ec35bbb33e6b329d0efab3a62aedbc07d69a0385c6b1c321eb9733a65242e50cdbfefb29aa22 7760 gnome-user-share_43.0-1.debian.tar.xz ae2d70c8875c026e39b7e753e26b449852adcc629c177d6cb66b5a7ac6cee70ce6c04e6f34cfd74bd4c562e13e4d11867502353a093a4ac6c25011fb975c5871 2271 gnome-user-share_43.0-1.dsc a63b2ad6502a907f2e476ac9dd49beaa74da6169d929783b744877558d52087198a6e95bf206af0c3fc0d6875d3d864948374dbe94734379431399939e4749ae 107912 gnome-user-share_43.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gnome-user-share"
   ],
   "Files": [
-    "af042df376e1c01445056a612fecf9e8 8308 gnome-user-share_48.0-1.debian.tar.xz d89f445856967de99e8025368434e034 2344 gnome-user-share_48.0-1.dsc efc5a2f41efa58bf52405518b9aa69e0 115880 gnome-user-share_48.0.orig.tar.xz"
+    "380629332c7b1181772c4e0b406a73b6 7760 gnome-user-share_43.0-1.debian.tar.xz a22bf166c3516320bd8ad2f43c137f39 2271 gnome-user-share_43.0-1.dsc e0d3bd369289670e936e4321ab2de44d 107912 gnome-user-share_43.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "gnome-user-share deb gnome optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.0"
   ],
   "Uploaders": [
-    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Tim Lunn \u003ctim@feathertop.org\u003e"
+    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e, Tim Lunn \u003ctim@feathertop.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/gnome-user-share"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/gnome-team/gnome-user-share.git"
   ],
   "Version": [
-    "48.0-1"
+    "43.0-1"
   ]
 }

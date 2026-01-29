@@ -6,22 +6,22 @@
     "python3-consul"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, python3-aiohttp, python3-all, python3-pytest, python3-pytest-asyncio, python3-pytest-cov, python3-pytest-rerunfailures, python3-pytest-xdist, python3-setuptools, python3-requests"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-pytest, python3-setuptools, python3-requests, python3-six"
   ],
   "Checksums-Sha1": [
-    "b4cbc19f7765df475b067b2abe9c53da62460a13 3204 python-consul_1.5.5-1.debian.tar.xz 3502deb4240cf3fee42aa1c7221749c8f6ad2604 2278 python-consul_1.5.5-1.dsc 0ca48c8d9659a82fd3fe363410d4a727c6577438 59112 python-consul_1.5.5.orig.tar.xz"
+    "a7ea64df04ade9bdec56a5c484a975cdd9484f1e 2496 python-consul_0.7.1-2.debian.tar.xz 8ddc81efd9abce6a1ac3d53c2d06b0e4080e47d6 2075 python-consul_0.7.1-2.dsc b66fe74c07c8403c543759b71b24bb9ba973e139 9319964 python-consul_0.7.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "d6d33b8e55d244a746f54b21bda52b51016887a1d447f651b17168201297f327 3204 python-consul_1.5.5-1.debian.tar.xz 9a579c102da7542036e34029365c635d43ef6159101358a51a1931a89aad3b63 2278 python-consul_1.5.5-1.dsc c5c07e13d44da65c173210631bd3fa866c5ce60b3c4f3644f25964c3727232d0 59112 python-consul_1.5.5.orig.tar.xz"
+    "6c89b4917b3a326a8260425a0f2a2453c9dac37757ee0c91c2ff043ae2d6d53a 2496 python-consul_0.7.1-2.debian.tar.xz b56d62ddd94e2df6b843280590bbab3be18cb2ba154fce1ef52ff4fdc97d2a35 2075 python-consul_0.7.1-2.dsc d6390761443c192d8ebc9082ffcaec1adfd4e46e3d87c3e8c273f456d837045c 9319964 python-consul_0.7.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "0d275755e99dffda331a7f69876c03be0883dfbbb7dba93f1b35c66eb18a7ba00a653b3d942f2130a9aa25fdca8fe8b02967c913dbe61f778415793510263cf2 3204 python-consul_1.5.5-1.debian.tar.xz aeff46003af6b3b4db80d1bec2955c609b4b6d79cd6b2bb9389118b69a906323b9c3073b8fce3d021b0a2cc7d805e5472b2d2daefef1d55e107e37954335ec6a 2278 python-consul_1.5.5-1.dsc fa6c6e5caa984743e86777dda2d7711b3837e19b14edf20ff0eff0266618f622c9413200d14fc7b2f93bcc062286fa90e11df1bc6b7c10f3dce292e664769217 59112 python-consul_1.5.5.orig.tar.xz"
+    "7f91d442d8c96ca432a726a6315174be93ee06c5c646aaba85b3143d61a93a712b1119406da8bc6c3077237d6018bb766581066be0902c052c710b603b8e3802 2496 python-consul_0.7.1-2.debian.tar.xz d5e9b22a1a5adc4d7ec25a0d94e572ce9fb9ef7af653aa29c0777fa7cf0abe1f0b4afba709fa99c9439996014a48bd32d5e3532982c9086d0dc3024c53c85e14 2075 python-consul_0.7.1-2.dsc 05dd6eb370bcc19a75f2570fc24d0fa4f67e75bab763fb589a5e471fc9663bf95edb42bd91fd0532bf9c8917823b9fe4e5e31c8488ceecae16d7dc27c1a44f3c 9319964 python-consul_0.7.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-consul"
   ],
   "Files": [
-    "596d9ad953da6932cc2d267ae0a50e2e 3204 python-consul_1.5.5-1.debian.tar.xz 3ee522d6e8577a63317c5937c0fbbde0 2278 python-consul_1.5.5-1.dsc cbf66f17e90d97745dc9027d0e10396b 59112 python-consul_1.5.5.orig.tar.xz"
+    "b33b34926b8e36015031b6981159eac6 2496 python-consul_0.7.1-2.debian.tar.xz 4b1209b17aff3307359db801bc13b14d 2075 python-consul_0.7.1-2.dsc 1048f39658e1ba2ea2e0049dc7c94c94 9319964 python-consul_0.7.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python3-consul deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.0.0"
   ],
   "Uploaders": [
     "Olivier Sallou \u003cosallou@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/python-team/packages/python-consul.git"
   ],
   "Version": [
-    "1.5.5-1"
+    "0.7.1-2"
   ]
 }

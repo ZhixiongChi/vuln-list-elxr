@@ -6,22 +6,22 @@
     "librust-js-sys-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-wasm-bindgen-0.2+default-dev (\u003e= 0.2.87-~~) \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-wasm-bindgen-0.2+default-dev (\u003e= 0.2.83-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "536882c09a5cad3c6b7f24b8f10cf7777f496395 2916 rust-js-sys_0.3.64-1.debian.tar.xz 6f3849b3e8248246877041911b14ac6d14874bcf 2458 rust-js-sys_0.3.64-1.dsc 3bea1be7a3b58e4b30d6b053e0f37658a8aea15f 80313 rust-js-sys_0.3.64.orig.tar.gz"
+    "f9d170e11dd7ea1820b6ee37d9db45ff7b57fdbd 2888 rust-js-sys_0.3.60-1.debian.tar.xz a04d0ca25fc1615e3df7ed9be50aced4847c2b70 2458 rust-js-sys_0.3.60-1.dsc 9a50a3d3e3bac4a89fea01688f0063aadde94ff3 79257 rust-js-sys_0.3.60.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "4e34b5e042c10374910fbe68adf828607ce86c8d0e334d0cf70233c419d3c711 2916 rust-js-sys_0.3.64-1.debian.tar.xz 1c65b0ac53b4649d67bc33adde8cf3ffe42558d1c33b47e9639df38774a5a5f9 2458 rust-js-sys_0.3.64-1.dsc c5f195fe497f702db0f318b07fdd68edb16955aed830df8363d837542f8f935a 80313 rust-js-sys_0.3.64.orig.tar.gz"
+    "42e53452d9a2716d51ebe97b0b5b01179a0147d8716f46f7e7cbe0ceaea08ed6 2888 rust-js-sys_0.3.60-1.debian.tar.xz 7f40f5aefd053d21686bb413a5f76b33366fdabf35a06ad31d94ed65cd027be5 2458 rust-js-sys_0.3.60-1.dsc 49409df3e3bf0856b916e2ceaca09ee28e6871cf7d9ce97a692cacfdb2a25a47 79257 rust-js-sys_0.3.60.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "60e4ca1c94ae3520d4dd1122adb6f673608a0ba14a0bf1115ecdd211b629275f37bf41a3a46f7dd59ed94eeb6b31b23f1298f2b1d924b6bac5beebc4efd2f268 2916 rust-js-sys_0.3.64-1.debian.tar.xz b1161c91bdb37bb56454276eac255937ed98185dd2205f0b245a797ae4083c4ecf345518782acf8881d7340016c352eddd98780cd2823c454f8579ac6a3e5af3 2458 rust-js-sys_0.3.64-1.dsc a4f389a4eb45c2122e7bcf365dccdce8fcf14b1b521b8b839746bba8783296e2f1b959d73bdd874743f49c61a24c4077dec52f63cc7d594cd42e9cd6ea9c2e64 80313 rust-js-sys_0.3.64.orig.tar.gz"
+    "c93ea0f5008a37c3c6b192e8db0af31530827a5134bf891a164a2643ebf10670b466ba9e4ad9ff0cebb773288d0c6b9f138befbf1cd4e09e7845d28a713b4da2 2888 rust-js-sys_0.3.60-1.debian.tar.xz 545312b48a46c58f3e865686a12d547c698a7b84cf741a55583f0c04573aa2ed3642a8a516778b1800e9e78ed0f5f989ebf52a9bc715e80c4d97365e86268b69 2458 rust-js-sys_0.3.60-1.dsc 543dfd444539fad27bafcbbf112366f53d4ccf4bc63f8bb17820d818c3e1804656697ed6268a793f383ddf6b6227f7e9b3a11fb6fbb24e10732fdbd971801665 79257 rust-js-sys_0.3.60.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-js-sys"
   ],
   "Files": [
-    "494986694f5eee91d8cc1a1019bd768d 2916 rust-js-sys_0.3.64-1.debian.tar.xz 6458053dc4d267172eea6cbcb60bb4b5 2458 rust-js-sys_0.3.64-1.dsc d580c0380408c62e04e018eaaf4258af 80313 rust-js-sys_0.3.64.orig.tar.gz"
+    "791e88520550e4e0deb8745c5729d72f 2888 rust-js-sys_0.3.60-1.debian.tar.xz 4f5d185805127b1873405554d1925927 2458 rust-js-sys_0.3.60-1.dsc b758e6307968eb4b33e5fbe08ac79878 79257 rust-js-sys_0.3.60.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "librust-js-sys-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-wasm-bindgen-futures-0.4+default-dev, librust-wasm-bindgen-test-0.3.37+default-dev, librust-web-sys-0.3+default-dev, librust-web-sys-0.3+headers-dev, librust-web-sys-0.3+response-dev, librust-web-sys-0.3+responseinit-dev"
+    "dh-cargo, librust-wasm-bindgen-futures-0.4+default-dev, librust-wasm-bindgen-test-0.3.33+default-dev, librust-web-sys-0.3+default-dev, librust-web-sys-0.3+headers-dev, librust-web-sys-0.3+response-dev, librust-web-sys-0.3+responseinit-dev"
   ],
   "Uploaders": [
     "kpcyrd \u003cgit@rxv.cc\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/js-sys]"
   ],
   "Version": [
-    "0.3.64-1"
+    "0.3.60-1"
   ]
 }

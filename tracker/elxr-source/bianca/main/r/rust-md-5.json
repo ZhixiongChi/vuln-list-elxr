@@ -6,22 +6,22 @@
     "librust-md-5-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e, librust-digest-0.10+default-dev (\u003e= 0.10.7-~~) \u003c!nocheck\u003e, librust-digest-0.10+std-dev (\u003e= 0.10.7-~~) \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-digest-0.10+default-dev (\u003e= 0.10.3-~~) \u003c!nocheck\u003e, librust-digest-0.10+std-dev (\u003e= 0.10.3-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "ff7544e385afa11dbf06df720a7f3c46e4811576 3312 rust-md-5_0.10.6-1.debian.tar.xz 67137696a57f537ffb871774030e590eae1a1fd3 2345 rust-md-5_0.10.6-1.dsc ce233cfba5f2a7e366373809689ca5b2763f1554 16161 rust-md-5_0.10.6.orig.tar.gz"
+    "696ae9c0022576e1b2a473497f4c1979972bf3d9 2844 rust-md-5_0.10.1-1.debian.tar.xz 650c88bbfefeb250df626c875d40c032347e13d6 2275 rust-md-5_0.10.1-1.dsc 7348a09c9ec8de5f849708f8e91bb651aa28d12c 14184 rust-md-5_0.10.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "7b9e95dd4b1a362b0e5da46580c35cf84e3a6e5d246ac8af0fcd425bb292ab52 3312 rust-md-5_0.10.6-1.debian.tar.xz 82470eb21d288ca31a4bab5078b28a8f0c73a81bf397e4b94eb19c167fdcf7a6 2345 rust-md-5_0.10.6-1.dsc d89e7ee0cfbedfc4da3340218492196241d89eefb6dab27de5df917a6d2e78cf 16161 rust-md-5_0.10.6.orig.tar.gz"
+    "74c143c2f894ff127bd4d11016b2569398de14efb154c06f4d00487b31a35121 2844 rust-md-5_0.10.1-1.debian.tar.xz 55e5c62859746e0175578dbb9643d92e7d318a1859e3879082357a2ceda85b10 2275 rust-md-5_0.10.1-1.dsc 658646b21e0b72f7866c7038ab086d3d5e1cd6271f060fd37defb241949d0582 14184 rust-md-5_0.10.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e6f2db6299d287e26288fd679711b3ac4e4ab21cad96a6f7f9112b0337b3a31c4ed7ac4b1d9da72e226186971f2df7c4740d06906a1d6d0a9b842646c89264ad 3312 rust-md-5_0.10.6-1.debian.tar.xz 1237e9878beebd1bb49b52363731617d717366c2f5649c54d4aa6d2147b435a3596a04ca643eadc8905706993bea3f70ae22c5b358496e55fe296381d0b43061 2345 rust-md-5_0.10.6-1.dsc 024a9e14aaf860e748f64dddbb8aec01bb9f40d702d8de31497fde1d66a663e97ca1b06b600d8a818a0c707d1ef02eb0f210befaeacada458acba69ccbf476ca 16161 rust-md-5_0.10.6.orig.tar.gz"
+    "99b87cda5d45f3d53716d86ee3f26f669d739b4b6db7b2ea8b086f10600be7cbed206d0a8797cc56b8afa3358fed2a7dfd3181bc5b6b592e4f7a2b6efc9f4e48 2844 rust-md-5_0.10.1-1.debian.tar.xz 802277d4d26b7a5dc9841a92c78f6e3e7300f06bd12dfc7463fbc938891be7199b7913cf3098b5bd8a0bdb416b7f365a684820bfec551adb81cdae6e407fcd7a 2275 rust-md-5_0.10.1-1.dsc 51e75f65363b3a7f4f12c7d8b563bd17cb717cdfec11fbc9dd267dc97bc933fb197c26c6e823dbe4f5e2af6261ec1b9cc003182b027be4c0ceef2d6e07bcb9df 14184 rust-md-5_0.10.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-md-5"
   ],
   "Files": [
-    "d712f4ac43dd0ce18c443452135b604d 3312 rust-md-5_0.10.6-1.debian.tar.xz 9af66b923134c9aebb03b9ba6609eb30 2345 rust-md-5_0.10.6-1.dsc e595ddf1b635868eb7e2f237f71aeb21 16161 rust-md-5_0.10.6.orig.tar.gz"
+    "24021259ab575d20499a424b676e2e37 2844 rust-md-5_0.10.1-1.debian.tar.xz 0ff6af92a404c2cf33206c62dcfbc136 2275 rust-md-5_0.10.1-1.dsc c0b5fab2f5dcf8f976c8af0d2136bd9d 14184 rust-md-5_0.10.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,13 @@
     "librust-md-5-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-digest-0.10+default-dev, librust-digest-0.10+dev-dev, librust-hex-literal-0.4+default-dev"
+    "dh-cargo, librust-digest-0.10+default-dev, librust-digest-0.10+dev-dev, librust-hex-literal-0.2+default-dev"
   ],
   "Uploaders": [
     "kpcyrd \u003cgit@rxv.cc\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/md-5]"
   ],
   "Version": [
-    "0.10.6-1"
+    "0.10.1-1"
   ]
 }

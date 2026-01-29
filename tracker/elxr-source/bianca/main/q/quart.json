@@ -6,25 +6,22 @@
     "python-quart-doc, python3-quart"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, flit, pybuild-plugin-pyproject, python3-aiofiles, python3-all, python3-blinker, python3-click, python3-dotenv, python3-flask \u003c!nodoc\u003e, python3-hypercorn, python3-hypothesis, python3-itsdangerous, python3-jinja2, python3-markupsafe, python3-myst-parser \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-toml, python3-werkzeug (\u003e= 2.2.0~)"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-aiofiles, python3-all (\u003e= 3.7), python3-blinker, python3-click, python3-dotenv, python3-hypercorn (\u003e= 0.11.2~), python3-hypothesis, python3-itsdangerous, python3-jinja2, python3-markupsafe, python3-poetry, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-toml, python3-werkzeug (\u003e= 2.2.0~)"
   ],
   "Checksums-Sha1": [
-    "d40ed0f6bf6262c875aafff5af599dc3543bf03e 6412 quart_0.20.0-1.debian.tar.xz 510afc318a58363ba836f8502e15cae33b0d1892 2651 quart_0.20.0-1.dsc 4025437bc4abd517122f534e0829fd82d2da9a12 596836 quart_0.20.0.orig.tar.xz"
+    "77b411f87c8002c8ec75c857fa55420598c1e3e8 5364 quart_0.18.3-2.debian.tar.xz eb16fd06d18d931623a86c8fa92c1c4e073f9f26 2519 quart_0.18.3-2.dsc adc421a6cd518a94ee059a064a2d004732a30afe 513950 quart_0.18.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "c8f44318842911c4c8b6426b01f846094e991fb96dea2f9647f9726fc9516f75 6412 quart_0.20.0-1.debian.tar.xz b09cd9fc51aee69008c13778a160fdbbbb25755b25ffa7ef1215c03ba7297df5 2651 quart_0.20.0-1.dsc 5e0a6b984cc4f001d5f59d73153d18744b57e3c6ec5944d354c42cc61e463b17 596836 quart_0.20.0.orig.tar.xz"
+    "85dae5cd574ac4a66226dc7efca50f71b354d30492ab711bffa8e26dd8d065fa 5364 quart_0.18.3-2.debian.tar.xz 95b0bb35363fa3ff0cbc830cd710f3e6f4907807324cff0801151117946705a3 2519 quart_0.18.3-2.dsc 68ce4e6f786d5bf4a6056569e07e7055e1dfbb7136a531a18087345d8ba34c5c 513950 quart_0.18.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f1e92fbaa0fde7cbd53150bc1c31f4968e10ede041bf0dc836bef0ff8506f3d1e34310fc549a069f9f6cfb8840e7777ab13e30bcffce72cfe222730d869c8115 6412 quart_0.20.0-1.debian.tar.xz 875d705d1d348db842d11d0a778908667a823928cddb19ea843ff564a1c93865460af3e470f485989853b8b0a5b8eba182db9998c2633f46a7f904c754fe5751 2651 quart_0.20.0-1.dsc 6b5e77795e6a7eed68f1bbb593735ea5fbde8e028f1ff5042c10a77617a44fd14d6b9dd4f090d846d5fb1c452f2c86f1d6ffe24c8330c26418b2019eabb91b38 596836 quart_0.20.0.orig.tar.xz"
-  ],
-  "Dgit": [
-    "8bc10651917e04a218d847b84c3cb94f03b0ee5b debian archive/debian/0.20.0-1 https://git.dgit.debian.org/quart"
+    "0bf9fd91f57e4b104f673db1e93bc42ee7f557fa92853f4ccbbafdeb2d3e382525c5a71e3387ad33f878e1bf7cb4e6b334920556f0694d55288df45828922109 5364 quart_0.18.3-2.debian.tar.xz 70a1a300a7097ddf841fa49e373cfc0a6ae474398750f21ebfa0eafdeb7dde5d29ac53fbcd76aef169daf965e9d130a3f440f41ec59205365251608b52147633 2519 quart_0.18.3-2.dsc a2ccf1f73031294f9030e595702cd4a3bb178d96d995cef57f9a695f469fb818f657dbab516a635b4d00ba0298fe78b6460d5689b6836a62535b9ff68cb33f03 513950 quart_0.18.3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/q/quart"
   ],
   "Files": [
-    "3f34b50b4669b9c641f042acd467248c 6412 quart_0.20.0-1.debian.tar.xz 82604fd934436ce1fbf7a7c14db5b58d 2651 quart_0.20.0-1.dsc 0dd2396127d68f35a04a1c7a60782ca7 596836 quart_0.20.0.orig.tar.xz"
+    "b3f75f0c57b9ee972b61ce6af793c8a5 5364 quart_0.18.3-2.debian.tar.xz fe282e85562d8196d891117d81ef4f85 2519 quart_0.18.3-2.dsc 2347ca82b5948e84e2f8eb6769ecf565 513950 quart_0.18.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +39,7 @@
     "python-quart-doc deb doc optional arch=all python3-quart deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
@@ -51,7 +48,7 @@
     "@builddeps@, python3-all"
   ],
   "Uploaders": [
-    "Andrej Shadura \u003candrewsh@debian.org\u003e"
+    "Andrej Shadura \u003candrewsh@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/quart"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/quart.git"
   ],
   "Version": [
-    "0.20.0-1"
+    "0.18.3-2"
   ]
 }

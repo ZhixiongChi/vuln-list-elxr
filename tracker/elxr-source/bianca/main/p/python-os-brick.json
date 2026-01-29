@@ -6,25 +6,25 @@
     "os-brick-common, python-os-brick-doc, python3-os-brick"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+    "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr (\u003e= 5.8.0), python3-setuptools, python3-sphinx"
   ],
   "Build-Depends-Indep": [
-    "python3-babel, python3-castellan, python3-coverage, python3-ddt, python3-eventlet, python3-hacking, python3-openstackdocstheme \u003c!nodoc\u003e, python3-os-win, python3-oslo.concurrency, python3-oslo.config, python3-oslo.context, python3-oslo.i18n, python3-oslo.log, python3-oslo.privsep, python3-oslo.serialization, python3-oslo.service, python3-oslo.utils, python3-oslo.vmware, python3-oslotest \u003c!nocheck\u003e, python3-psutil, python3-reno, python3-requests, python3-retrying, python3-stestr \u003c!nocheck\u003e, python3-tenacity, python3-testscenarios \u003c!nocheck\u003e, python3-testtools \u003c!nocheck\u003e, subunit"
+    "python3-babel, python3-castellan (\u003e= 3.10.0), python3-coverage (\u003e= 5.1), python3-ddt, python3-eventlet (\u003e= 0.30.1), python3-hacking, python3-openstackdocstheme \u003c!nodoc\u003e, python3-os-win (\u003e= 5.5.0), python3-oslo.concurrency (\u003e= 4.5.0), python3-oslo.config, python3-oslo.context (\u003e= 3.4.0), python3-oslo.i18n (\u003e= 5.1.0), python3-oslo.log (\u003e= 4.6.1), python3-oslo.privsep (\u003e= 2.6.2), python3-oslo.serialization (\u003e= 4.2.0), python3-oslo.service (\u003e= 2.8.0), python3-oslo.utils (\u003e= 4.12.1), python3-oslo.vmware (\u003e= 3.10.0), python3-oslotest (\u003e= 1:4.5.0) \u003c!nocheck\u003e, python3-reno, python3-requests, python3-retrying, python3-stestr (\u003e= 3.2.1) \u003c!nocheck\u003e, python3-tenacity (\u003e= 6.3.1), python3-testscenarios \u003c!nocheck\u003e, python3-testtools \u003c!nocheck\u003e, subunit"
   ],
   "Checksums-Sha1": [
-    "8e1d58008fe7ba885f6e189790067b8b73a7f356 5024 python-os-brick_6.11.0-2.debian.tar.xz 2565f8fc395c8c17c10a42cf97077087b6ecddc8 2924 python-os-brick_6.11.0-2.dsc 22a418cd2fa239410f5021d2206f1af05f85e078 192524 python-os-brick_6.11.0.orig.tar.xz"
+    "beebf0fcb1388d8bafb876835123892b772176dc 8740 python-os-brick_6.1.0-3.debian.tar.xz 07f585c69f218831992fb159c231ac68fd420a57 3092 python-os-brick_6.1.0-3.dsc 5c9afe300f2addf08fdc363075b56760bcf1885b 174788 python-os-brick_6.1.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "dfc02da84ba9008042debade87e39255ceeb074d5ce3859ea13dd330a7a04cb5 5024 python-os-brick_6.11.0-2.debian.tar.xz c155bbc4a1d5b772789181515cc4de44b7214d2ffa2c055da2c7fea4902316f6 2924 python-os-brick_6.11.0-2.dsc a3cfb104c5202bc70d887e25b212ab866aba6e598028f7ba55d165e54eb27b76 192524 python-os-brick_6.11.0.orig.tar.xz"
+    "35d9322d45668777ad276148fe0aa9465765d4d3f8da9b08a96ca75826ce1c2b 8740 python-os-brick_6.1.0-3.debian.tar.xz 2e6353bdb9dde3f22599daea603b523bbcbbef7a5872f172e924acb0b1a6d836 3092 python-os-brick_6.1.0-3.dsc 48db639f9f4017fc8fcfb21dce7bce806dd6af5fbd7e78df5db576ec1f81ebc6 174788 python-os-brick_6.1.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "f514d1f8a9efcead3dfdb6add15acfbdc2ddfef8bff0fe1e7f0db2b704319c0d1c366e8912d195eefe7750f8eee36032f3451f0f4ff1f2319d83e191dc3e0397 5024 python-os-brick_6.11.0-2.debian.tar.xz d58929c12cf07fac1ef38af4787a8692e90d92eb0bfe5ff2b6161b5646b1f3587293e3982f454aa61e6c8387ff29a480ab7a43b7c57607fd950605f863c7fcdf 2924 python-os-brick_6.11.0-2.dsc f9b9c06b3ab30fd952f1acdfb7b3e09f22c16d0983ea1f7b187f6ec8a5fff8bfd8822ea3384e7f9fde6f5d77c8046372bb1f474f1242b541549181bd971fb8f1 192524 python-os-brick_6.11.0.orig.tar.xz"
+    "b8f845a335aba3c49e87b853e0b9cfd0bf1f3273ac776e4ece9d8b5e73a11f497d514fcda6279c0584c483f041c48b7a4469b703f7dd3987ad3d44aac4e3abc6 8740 python-os-brick_6.1.0-3.debian.tar.xz 74373fd05b556b2027f3b14ebb9aac211e69b6c7f36f7808fda6aa49bbd64b4f71f997d4e500f624b5f1b400f1966b639d5fd08286cb506403e47960c7835e8e 3092 python-os-brick_6.1.0-3.dsc 18e506c461690ab7af6e439b1e35d088464ddfc0669b1432474b8ba35db20f05c634e0e28561a6eb7ef60ab3e5acbfb29373461e218f1f8c339d77ee3a94b777 174788 python-os-brick_6.1.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-os-brick"
   ],
   "Files": [
-    "f344aaaf696f502834f0b73b44dbe8a8 5024 python-os-brick_6.11.0-2.debian.tar.xz 705c6fee048e9d7a66bd5122bd65ac9b 2924 python-os-brick_6.11.0-2.dsc 6c6da7de7fde43404ed828798f468add 192524 python-os-brick_6.11.0.orig.tar.xz"
+    "808d241f4dfd5700a1b7c02a1597d152 8740 python-os-brick_6.1.0-3.debian.tar.xz 731438c92fbc4c9327b53401803ddd47 3092 python-os-brick_6.1.0-3.dsc 3bb19859299255e0fcccc768f9106d1f 174788 python-os-brick_6.1.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/openstack-team/libs/python-os-brick.git"
   ],
   "Version": [
-    "6.11.0-2"
+    "6.1.0-3"
   ]
 }

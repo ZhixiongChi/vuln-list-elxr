@@ -6,28 +6,28 @@
     "cloud-initramfs-rescuevol, cloud-initramfs-growroot, overlayroot, cloud-initramfs-dyn-netconf"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13)"
+    "debhelper-compat (= 12), quilt"
   ],
   "Checksums-Sha1": [
-    "b70fab24fad601a4ea1c450510dac58bcd89d555 2051 cloud-initramfs-tools_0.18.debian14.dsc a27480c555311b1f0a2f6b8148acfabefd9339cd 34108 cloud-initramfs-tools_0.18.debian14.tar.xz"
+    "d7f3c1d8c16570fda313b83716845d9447c10dd2 2089 cloud-initramfs-tools_0.18.debian13+deb12u1.dsc cb14d884d543918a01da8cb4451bfde6b7ad5f0f 33976 cloud-initramfs-tools_0.18.debian13+deb12u1.tar.xz"
   ],
   "Checksums-Sha256": [
-    "0fe02faf5e536ed0e27728cbbc50c0ddca48d96df8a6c5ed43d9d06214d7e2a6 2051 cloud-initramfs-tools_0.18.debian14.dsc baae920ccd9a38c54a2b6dbef26e0ef3a26b722571a9e10705a32f6413d6a74e 34108 cloud-initramfs-tools_0.18.debian14.tar.xz"
+    "b6510f0da0b26915579613c086bd454fc54de0c2fc21378f5ab006eceb146e7e 2089 cloud-initramfs-tools_0.18.debian13+deb12u1.dsc 2c6b50d0500088092900cb8d1eb5ea90db0897b5b495f5b724e13e2105929f38 33976 cloud-initramfs-tools_0.18.debian13+deb12u1.tar.xz"
   ],
   "Checksums-Sha512": [
-    "10f849e2594b097cdae653247f39800eeab59939a02e288de91433385ce058173b062a237aaecb72ccb7239e73d9fd41434f2767db74603af245fa67dfdfb5cc 2051 cloud-initramfs-tools_0.18.debian14.dsc 2ab78c4e2960ae7f1a3b3db62e91271e13a456138c30f20701717f232142faf012e60a64929e0efb217e7328d429f9e5e46e13344ba7980295e1c00b8e65f378 34108 cloud-initramfs-tools_0.18.debian14.tar.xz"
+    "65c8448f006c83414bad7d72ffa4c36f402a94e893b1ec9fa37b54f77a11493f4bfd612f445b89e57d10a649e2edcb196ef9b9f8ee253b238e72043590b193eb 2089 cloud-initramfs-tools_0.18.debian13+deb12u1.dsc b2bbdc5d4eb103d1a0b8ba9bfd97b1b72a4bd9bf5c002de54e06d183c0c148a9f6fda42f80ae39298b880ae7e2e463f994e3ad048621b0e30a366d317c124dd5 33976 cloud-initramfs-tools_0.18.debian13+deb12u1.tar.xz"
   ],
   "Directory": [
     "pool/main/c/cloud-initramfs-tools"
   ],
   "Files": [
-    "a79a258fbab9bf159bcf76fc77674266 2051 cloud-initramfs-tools_0.18.debian14.dsc ac7ce2a8621e6a1329d7cd385bdcea7a 34108 cloud-initramfs-tools_0.18.debian14.tar.xz"
+    "35df832bddc44fee8ee27fef026d98cc 2089 cloud-initramfs-tools_0.18.debian13+deb12u1.dsc 933e1ec8d1632fae9d889dc83c089f01 33976 cloud-initramfs-tools_0.18.debian13+deb12u1.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
   ],
   "Homepage": [
-    "https://launchpad.net/cloud-initramfs-tools"
+    "http://launchpad.net/cloud-initramfs-tools"
   ],
   "Maintainer": [
     "Debian Cloud \u003cdebian-cloud@lists.debian.org\u003e"
@@ -39,7 +39,7 @@
     "cloud-initramfs-dyn-netconf deb admin optional arch=all cloud-initramfs-growroot deb admin optional arch=all cloud-initramfs-rescuevol deb admin optional arch=all overlayroot deb admin optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.0"
   ],
   "Uploaders": [
     "Thomas Goirand \u003czigo@debian.org\u003e, Noah Meyerhans \u003cnoahm@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/cloud-team/cloud-initramfs-tools.git"
   ],
   "Version": [
-    "0.18.debian14"
+    "0.18.debian13+deb12u1"
   ]
 }

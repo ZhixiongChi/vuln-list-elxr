@@ -6,25 +6,22 @@
     "librust-clap-2-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo"
-  ],
-  "Build-Depends-Arch": [
-    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-ansi-term-0.12+default-dev \u003c!nocheck\u003e, librust-atty-0.2+default-dev (\u003e= 0.2.2-~~) \u003c!nocheck\u003e, librust-bitflags-1+default-dev \u003c!nocheck\u003e, librust-strsim+default-dev (\u003c\u003c 0.12-~~) \u003c!nocheck\u003e, librust-strsim+default-dev (\u003e= 0.7-~~) \u003c!nocheck\u003e, librust-textwrap-0.16+default-dev \u003c!nocheck\u003e, librust-unicode-width-0.1+default-dev (\u003e= 0.1.4-~~) \u003c!nocheck\u003e, librust-vec-map-0.8+default-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-ansi-term-0.12+default-dev \u003c!nocheck\u003e, librust-atty-0.2+default-dev (\u003e= 0.2.2-~~) \u003c!nocheck\u003e, librust-bitflags-1+default-dev \u003c!nocheck\u003e, librust-strsim-0.10+default-dev \u003c!nocheck\u003e | librust-strsim-0.9+default-dev \u003c!nocheck\u003e | librust-strsim-0.8+default-dev \u003c!nocheck\u003e | librust-strsim-0.7+default-dev \u003c!nocheck\u003e, librust-textwrap-0.16+default-dev \u003c!nocheck\u003e, librust-unicode-width-0.1+default-dev (\u003e= 0.1.4-~~) \u003c!nocheck\u003e, librust-vec-map-0.8+default-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "6fceff3eb42a3d770e88ba67c159c211e5d137c4 4424 rust-clap-2_2.34.0-6.debian.tar.xz 415f7fecb36fe40d5b532667ca1161e5a2bc23e4 2028 rust-clap-2_2.34.0-6.dsc a5688448cc05a59655ee9dcdeec00ab7550925cd 202210 rust-clap-2_2.34.0.orig.tar.gz"
+    "1a2d95d4284df2fa9eb9a09aa114c657c0b59323 4320 rust-clap-2_2.34.0-3.debian.tar.xz d76d75262fc3d76c2a7e00d40e9ce607fc5a7dc4 2701 rust-clap-2_2.34.0-3.dsc a5688448cc05a59655ee9dcdeec00ab7550925cd 202210 rust-clap-2_2.34.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "5207e68ab529deaaa9d624da6d84307039fd2e9ebc1e5adbe8d048c53a7744e4 4424 rust-clap-2_2.34.0-6.debian.tar.xz 73e7c9308baf31e59c81d3b1e3812a40c6708aa4b54006e3ab7ea3ebf3dc551f 2028 rust-clap-2_2.34.0-6.dsc a0610544180c38b88101fecf2dd634b174a62eef6946f84dfc6a7127512b381c 202210 rust-clap-2_2.34.0.orig.tar.gz"
+    "ccf281be6ab5c80bae8903a8e8c6a201f5f2fe5b8b9e87dd099df90d95d8c77e 4320 rust-clap-2_2.34.0-3.debian.tar.xz 796fe3c06a5627b38ca04fe0e60ce6ef4131a6bd8070f3d564a8bd0ff7fef02f 2701 rust-clap-2_2.34.0-3.dsc a0610544180c38b88101fecf2dd634b174a62eef6946f84dfc6a7127512b381c 202210 rust-clap-2_2.34.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "410ed95f1e1ebc10f7e8d9e5330e0ab4c16e4e57df6910686b6ffba351499e958f622cd5b63d4c4554df6fb5eb871b8dfc8df641a85986f07ac52b5ade7bc196 4424 rust-clap-2_2.34.0-6.debian.tar.xz c053a24a9a323c8f6f730f1d43a2ebe0ed1d651e587b14ce84a341312c4dc6372071eb4a43e76bccb500876550af163620ee020543377298b3f176b0e1ec2964 2028 rust-clap-2_2.34.0-6.dsc c648a761b9996a7e7464a538bb53621bae22090b846a42c3b729beca3363958ae67e3da9f93f58b10a10e043cadf7ff930388680d168646178c2824177832db8 202210 rust-clap-2_2.34.0.orig.tar.gz"
+    "e24ea649d2a50075858049789b6e7b980419def7393f75a8f68574778b3ced212780816bf765e8a8942d117be664c80788b3275905ac35e27c9d58b7b1816515 4320 rust-clap-2_2.34.0-3.debian.tar.xz 9e7dd5b6fd4f7a532fe5d6b70a8281b4f12d65a42cda3202b2f3763c49596efb4e88d2fe909bef73f067a9a1c2b0cc06256ff0eef7cb48d168ed51044ec29d36 2701 rust-clap-2_2.34.0-3.dsc c648a761b9996a7e7464a538bb53621bae22090b846a42c3b729beca3363958ae67e3da9f93f58b10a10e043cadf7ff930388680d168646178c2824177832db8 202210 rust-clap-2_2.34.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-clap-2"
   ],
   "Files": [
-    "d89dc8ce29391b9d04cc88e732a9ce83 4424 rust-clap-2_2.34.0-6.debian.tar.xz 2ef498cc3334963a61a7afc559a0c10b 2028 rust-clap-2_2.34.0-6.dsc 59ae9122b2946d4d52bc48a1da5c5e06 202210 rust-clap-2_2.34.0.orig.tar.gz"
+    "ec4cbb265a2efe29ea0b7eadc51dd7d8 4320 rust-clap-2_2.34.0-3.debian.tar.xz 06795628acfa8133ad3182b47f3adbe3 2701 rust-clap-2_2.34.0-3.dsc 59ae9122b2946d4d52bc48a1da5c5e06 202210 rust-clap-2_2.34.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +39,13 @@
     "librust-clap-2-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-lazy-static-1+default-dev, librust-regex-1+default-dev, rustc"
+    "dh-cargo, librust-lazy-static-1+default-dev, librust-regex-1+default-dev"
   ],
   "Uploaders": [
     "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/clap-2]"
   ],
   "Version": [
-    "2.34.0-6"
+    "2.34.0-3"
   ]
 }

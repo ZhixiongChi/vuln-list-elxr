@@ -6,22 +6,22 @@
     "libgeotiff-dev, libgeotiff5, geotiff-bin"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libjpeg-dev, libproj-dev (\u003e= 6.0.0), libtiff-dev, pkgconf, zlib1g-dev"
+    "debhelper-compat (= 12), libjpeg-dev, libproj-dev (\u003e= 6.0.0), libtiff-dev, pkg-config, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "5ff8cf6584cb76e4d299325d284e7b4d81c5cb0c 9368 libgeotiff_1.7.4-1.debian.tar.xz 31e6290090d57a349cef65eb1bc3c25e17ea8acd 2235 libgeotiff_1.7.4-1.dsc 9165c87b35a6348e00e07b001f03e8c8f96f561c 549848 libgeotiff_1.7.4.orig.tar.gz"
+    "e82471d585414b339761d333c7b8dbc413533a19 10108 libgeotiff_1.7.1-2.debian.tar.xz 3a5ad0f59567c953b9fa3cdf58eea0110380acc2 2218 libgeotiff_1.7.1-2.dsc 75b2bdc9478b9e8b3c684b9ad0e9b154e75bd843 542779 libgeotiff_1.7.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "d9405c7f4fdf3e336f0a463c325c53e00089174b3555f83e531a1ee2077cec38 9368 libgeotiff_1.7.4-1.debian.tar.xz 77e72019b7f4477896378b3a547e73fe423d35593b2d8b416cf01d47cf36a37a 2235 libgeotiff_1.7.4-1.dsc c598d04fdf2ba25c4352844dafa81dde3f7fd968daa7ad131228cd91e9d3dc47 549848 libgeotiff_1.7.4.orig.tar.gz"
+    "5a0060153130b68d9794765809de404104bf964f29d34a871b690482726f4029 10108 libgeotiff_1.7.1-2.debian.tar.xz fe7f92fdd612fa1115ea4ab3fd4f90adcae5d3c545f7262960edf1dffd15ecef 2218 libgeotiff_1.7.1-2.dsc 05ab1347aaa471fc97347d8d4269ff0c00f30fa666d956baba37948ec87e55d6 542779 libgeotiff_1.7.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "d5dec6ac1beee5c14bf7705c514a0318876fdfb0aeca44fe5c11b42bcf5ede00851adddd18bef63f672f9813712770abce7649ac70d5b19947cfade46e5cf2d0 9368 libgeotiff_1.7.4-1.debian.tar.xz 89883b7a17f9ca3e10ec8fd228855a9e005e9c44d63ff362a43dadde1f2cc9b647da823d5897af3c9d850dcfe6d60460853657e9f40d9bcd59d9de8ecbfe7e5c 2235 libgeotiff_1.7.4-1.dsc 72e81075348ef92c56f84c51bb8234eaf38e10fd88dc786c317ee6c1cf9fb1c07178b8cf4fc6348b1ddf6e42d5888861f8c57dac57273a278d157c59e9803eb1 549848 libgeotiff_1.7.4.orig.tar.gz"
+    "b911088f6a043af42a63cf952dbaec1542857b85f68845aef41540bfc8d814d611e5f91cfd278b7f9892e6f6440bf89f9a9c2624123bb8e939c74373929b8f8d 10108 libgeotiff_1.7.1-2.debian.tar.xz 91ad8caa69c4527daf0ce224ec76c44143256e68ca0c8978db1067bedffeba5d395bc7795771e7adf56c46768a3475376628a8f66ce850e19c1d2b5ddff24b76 2218 libgeotiff_1.7.1-2.dsc af119040598f4349124848d9788ea1d0d2019e23fc48eaf4b0445320c51e91afa6c7e25b49738bdaf0aa4467a19104b00838d669da27dee77898c489fe5fe4c1 542779 libgeotiff_1.7.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libg/libgeotiff"
   ],
   "Files": [
-    "7e0e32420bc343370d29718ad2f0ee81 9368 libgeotiff_1.7.4-1.debian.tar.xz 7398e060324a7cefd81aa51ddb66e2c7 2235 libgeotiff_1.7.4-1.dsc 7806cc2c153b88eef63698d5edaa5913 549848 libgeotiff_1.7.4.orig.tar.gz"
+    "d7d0b66be6f578bb730bbcc95d5a111f 10108 libgeotiff_1.7.1-2.debian.tar.xz 187ba547f623e88591fcf2a14ccda197 2218 libgeotiff_1.7.1-2.dsc 22879ac6f83460605f9c39147a2ccc7a 542779 libgeotiff_1.7.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,7 @@
     "geotiff-bin deb science optional arch=any libgeotiff-dev deb libdevel optional arch=any libgeotiff5 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
+    "4.6.1"
   ],
   "Uploaders": [
     "Francesco Paolo Lovergine \u003cfrankie@debian.org\u003e, Alan Boudreault \u003caboudreault@mapgears.com\u003e, Bas Couwenberg \u003csebastic@debian.org\u003e"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/debian-gis-team/libgeotiff.git"
   ],
   "Version": [
-    "1.7.4-1"
+    "1.7.1-2"
   ]
 }

@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libgeos-dev, libgeos++-dev, libgeos-c1t64, libgeos3.13.1, libgeos-doc, geos-bin"
+    "libgeos-dev, libgeos++-dev, libgeos-c1v5, libgeos3.11.1, libgeos-doc, geos-bin"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-pkgkde-symbolshelper, dpkg-dev (\u003e= 1.22.5), cmake, doxygen, pkg-kde-tools"
+    "debhelper-compat (= 12), cmake, doxygen, pkg-kde-tools"
   ],
   "Checksums-Sha1": [
-    "83f1bd10d5d1f132b6ce31141532feb1afcb417b 78032 geos_3.13.1-1.debian.tar.xz 2c3ebc4daa9fb7ed631252900e7ca3e2674e6af6 2312 geos_3.13.1-1.dsc 92f3de2f5fc341981d7ffac3ef971d5be22cbe5e 6839955 geos_3.13.1.orig.tar.bz2"
+    "ab518f920d796a3a02ae07a3ae04abb712e7a009 62664 geos_3.11.1-1.debian.tar.xz 6b40cdf5e2f20131211c89b8133eaabbc8e83cd7 2254 geos_3.11.1-1.dsc d22faaa5892014d35dcc8ff845c98b7427477dd7 6753232 geos_3.11.1.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "2895799369803d3b156552238beaf39fa99d15d26204c90939a0d34df27f928b 78032 geos_3.13.1-1.debian.tar.xz 4ee8da76cf819fecd5a808058fb69049681018d384edd971e80312bb2f9af341 2312 geos_3.13.1-1.dsc df2c50503295f325e7c8d7b783aca8ba4773919cde984193850cf9e361dfd28c 6839955 geos_3.13.1.orig.tar.bz2"
+    "17535f9b6d6e162d66c1f04a0c694925742334c300fb739d1359f7a803f1be10 62664 geos_3.11.1-1.debian.tar.xz ab9efb0785cc49745a609b7250e3ecd258d151b162547d5a5a5cc1e84808a8e5 2254 geos_3.11.1-1.dsc 6d0eb3cfa9f92d947731cc75f1750356b3bdfc07ea020553daf6af1c768e0be2 6753232 geos_3.11.1.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "ea960daf398fb2823453bd6d133ba59480da9f8b08eccf92c336a5fab7b1afd3db80eea6dae9fc0b6614659f83907c197fdfef2f65d83c188187c335f94de0eb 78032 geos_3.13.1-1.debian.tar.xz 1ee448f490c0dab0c5d71908060f9632b799fafdb4daaff164129e14ad95364333253c085fb6855bad84061b218440bc57f934484d771179f74f338c1d04f5a8 2312 geos_3.13.1-1.dsc 38a6d8bb05b374160c6e5eb82e5f601915ee44e75bdba0414bb7b1096a62f3cdfbb877389998bd3ff4c77c98927ce95a8d8298dd599a0fcb8ea0e83f174f1744 6839955 geos_3.13.1.orig.tar.bz2"
+    "7595f72b8448750b8ef5f5ee551f04cdf2333d18d6900bcfbbf85220a789a494d3e80d7903fa7a963b9512a77588a242a2e5bd1b538c073ec933f7aadfebf522 62664 geos_3.11.1-1.debian.tar.xz a572353ad85372340fa1d1d3570b0af6260864dae4a7631dd2a9393447272695b0059c62592a6a6b72cfa8744a3d4767a373d16bea2fa11dc3b5622e00c9433f 2254 geos_3.11.1-1.dsc 708500aba9b04208ee46a531d55ddf63a213dfaa2922dae937b524300b2b46c95143ed6cd3ff1414e9099f2be95e5df5a2e0b49df43acf93a9478215259f20d3 6753232 geos_3.11.1.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/g/geos"
   ],
   "Files": [
-    "b47ece39cee9bc793165649e57dc4d9b 78032 geos_3.13.1-1.debian.tar.xz 8f1601978cba697eca0882e4e9b2c65b 2312 geos_3.13.1-1.dsc 98d017b683040f051bdfa4bdf07a3fde 6839955 geos_3.13.1.orig.tar.bz2"
+    "d2186374afbf46d776313d8b98148e9f 62664 geos_3.11.1-1.debian.tar.xz 02c35ada1f9822be93e9ffcbffd353c7 2254 geos_3.11.1-1.dsc 5732ec96b391ecddc35bda9795b654ea 6753232 geos_3.11.1.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "geos"
   ],
   "Package-List": [
-    "geos-bin deb utils optional arch=any libgeos++-dev deb libdevel optional arch=any libgeos-c1t64 deb libs optional arch=any libgeos-dev deb libdevel optional arch=any libgeos-doc deb doc optional arch=all libgeos3.13.1 deb libs optional arch=any"
+    "geos-bin deb utils optional arch=any libgeos++-dev deb libdevel optional arch=any libgeos-c1v5 deb libs optional arch=any libgeos-dev deb libdevel optional arch=any libgeos-doc deb doc optional arch=all libgeos3.11.1 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Uploaders": [
     "Francesco Paolo Lovergine \u003cfrankie@debian.org\u003e, Bas Couwenberg \u003csebastic@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian-gis-team/geos.git"
   ],
   "Version": [
-    "3.13.1-1"
+    "3.11.1-1"
   ]
 }

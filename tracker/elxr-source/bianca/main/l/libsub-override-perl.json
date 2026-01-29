@@ -9,25 +9,22 @@
     "debhelper-compat (= 13)"
   ],
   "Build-Depends-Indep": [
-    "libscalar-list-utils-perl \u003c!nocheck\u003e, libtest-fatal-perl \u003c!nocheck\u003e, libtest-simple-perl \u003c!nocheck\u003e, perl"
+    "perl, libtest-fatal-perl, libtest-pod-perl, libtest-pod-coverage-perl"
   ],
   "Checksums-Sha1": [
-    "9e430317aa9f46967db11054d79b32a75f528805 3000 libsub-override-perl_0.12-1.debian.tar.xz fc3b2ff6ef5f3df528000470f10a5e616f848f86 2519 libsub-override-perl_0.12-1.dsc 4198e47c80b11f5060b427e0d76f84a2373b14b5 9003 libsub-override-perl_0.12.orig.tar.gz"
+    "d838dfdd09558ad8d237c1406ac390eb3f1b7f0d 2752 libsub-override-perl_0.09-4.debian.tar.xz 5a3354bb55667733e9b3f73e7c78a1cbe5856455 2228 libsub-override-perl_0.09-4.dsc 4f7de247019c2753c37623402ed19645d3b1b1e9 6462 libsub-override-perl_0.09.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "c76422a62ab338d64a3423e3e64f0105bc451d2bacb17549095533003d05e12d 3000 libsub-override-perl_0.12-1.debian.tar.xz d57b8d27ad8f668f6351d8b2fa9b00c2fbd083d9191bd2f789a2599a70c9e958 2519 libsub-override-perl_0.12-1.dsc d922dc6ef0e51f6385e111310845c3393be6b7a4d4ebda2a9e47c05bf62f79e3 9003 libsub-override-perl_0.12.orig.tar.gz"
+    "ba4c11846679e077035878e7cb38d33e1744530b0cb35423d48fc6736cf808ec 2752 libsub-override-perl_0.09-4.debian.tar.xz af858f59e3424a203fe544d9fcfa16f580e9282627b143d398ef8716e872c40d 2228 libsub-override-perl_0.09-4.dsc 939a67c1f729968e0cc81b74958db750e1bdb7c020bee1a263332f422c2e25b5 6462 libsub-override-perl_0.09.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "91f8dbf1a9f3ad5b91cc0ca0ff868000f15db6863f1a48ccbc1135b3d38235621fa980203574952f09695b460c4ea7c93690bc2663a19e5ea863d702c7e6db57 3000 libsub-override-perl_0.12-1.debian.tar.xz d22611a40c7850a7614b5b4d56887193351e26917f5524bee012b0b18ca6b223ad90d4fd74c58a6ae10e0afaff11073f5099f46169110b5f5b0c587729a58a65 2519 libsub-override-perl_0.12-1.dsc 3164764c54435c96b87a28b266bf39d3c1775008292605c17ab9f2077f6695a7d730202fd36d4b97638ca0e6b14db3ad3d62461ec855ddca938d9a31af1ee2c5 9003 libsub-override-perl_0.12.orig.tar.gz"
-  ],
-  "Dgit": [
-    "17775858f4ff19a889d8fd069f9ea3ea91b16508 debian archive/debian/0.12-1 https://git.dgit.debian.org/libsub-override-perl"
+    "6a4ba5fa409f39b9aeebdac9d83a47e5ac35953abcaaf2631a650ed1d7ecb5bf903d4a4bf7c72a5255df267cea2f59b8b57ebb43464067c49522a07b782fbf8f 2752 libsub-override-perl_0.09-4.debian.tar.xz c60f8b4dd8e187dca56f7eab3bf1fd356e92da24c97338712048190dd2ec8ce88dec6d476f4ee6ea0f1f4673c6f4efbe0e8812c323622b54437cbfb919ee3d8a 2228 libsub-override-perl_0.09-4.dsc 35000e8cabb6ca4cc0cac53af99fc9cb8ac14b1e71dbfa27dc58a339cb1b54e439064f2241798e351cc5ad297a2f9e4fde870ca97e2eb09a2430c11af589d412 6462 libsub-override-perl_0.09.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libs/libsub-override-perl"
   ],
   "Files": [
-    "87d88a39b1c50755f7d8ea5a25437922 3000 libsub-override-perl_0.12-1.debian.tar.xz 25d2a6ff12eae98babb43c37aca3f6a7 2519 libsub-override-perl_0.12-1.dsc 377830b3bc7d7b635c479b943a48ff18 9003 libsub-override-perl_0.12.orig.tar.gz"
+    "8c118bb6df20d2e6ebbbe863348a6ad1 2752 libsub-override-perl_0.09-4.debian.tar.xz 3ad3bfabbe06164cfdf6098a57dfa318 2228 libsub-override-perl_0.09-4.dsc 6889e2526c0e4f70da157fdf712542d3 6462 libsub-override-perl_0.09.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +42,7 @@
     "libsub-override-perl deb perl optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.1.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libsub-override-perl.git"
   ],
   "Version": [
-    "0.12-1"
+    "0.09-4"
   ]
 }

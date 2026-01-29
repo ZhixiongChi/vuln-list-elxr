@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libgarcon-1-dev, libgarcon-gtk3-1-dev, libgarcon-1-0, libgarcon-gtk3-1-0, gir1.2-garcon-1.0, gir1.2-garcongtk-1.0, libgarcon-common"
+    "libgarcon-1-dev, libgarcon-1-0-dev, libgarcon-gtk3-1-dev, libgarcon-1-0, libgarcon-gtk3-1-0, gir1.2-garcon-1.0, gir1.2-garcongtk-1.0, libgarcon-common"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gettext, gir1.2-gio-2.0-dev, gir1.2-gobject-2.0-dev, gir1.2-gtk-3.0-dev, gobject-introspection, gtk-doc-tools, libgirepository1.0-dev, libglib2.0-dev, libgtk-3-dev, libxfce4ui-2-dev, libxfce4util-dev, pkgconf, xfce4-dev-tools"
+    "debhelper-compat (= 13), gobject-introspection, gtk-doc-tools, intltool, libgirepository1.0-dev, libglib2.0-dev, libgtk-3-dev, libxfce4ui-2-dev, libxfce4util-dev, pkg-config, xfce4-dev-tools"
   ],
   "Checksums-Sha1": [
-    "8df8c046c0acbacb3f8947e28874e97dbe5703c0 6176 garcon_4.20.0-1.debian.tar.xz 516244dab67322af67bd07fa944de27cfac09893 2230 garcon_4.20.0-1.dsc 083c7db0a04d4721c01841ce238eacbbe6956e84 659796 garcon_4.20.0.orig.tar.bz2"
+    "61d89f84a48bc180b5d28892e4f5e9255db91b72 6072 garcon_4.18.0-1.debian.tar.xz abd02812079218014252ebc96909314e926b333c 2583 garcon_4.18.0-1.dsc 0a3388a4fc604e64d1671df648758bd290ecb5b9 550674 garcon_4.18.0.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "457286feaa9d9ebd5b7c9edae644dc8cdf79d1df40176628ed5ff59e0f4ddb39 6176 garcon_4.20.0-1.debian.tar.xz e440915c151f681e9a6276edfd181947fa6558b532ccd44e25d57bc15adcf23c 2230 garcon_4.20.0-1.dsc 7fb8517c12309ca4ddf8b42c34bc0c315e38ea077b5442bfcc4509415feada8f 659796 garcon_4.20.0.orig.tar.bz2"
+    "a78fa8d355c5199db8a35a35a3c6a85c5dacf99d18457b6c29947270c96e7d70 6072 garcon_4.18.0-1.debian.tar.xz c7b2b3862f3c8558e89875a3fa4b6b83d7b763a778c0d420ebb09efc1f2fcdde 2583 garcon_4.18.0-1.dsc 54633487566a8b8502b71c11a7f719efe27c069bd5773cc95f11ff4ea8f11a14 550674 garcon_4.18.0.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "04c421eef3c3990b9f868e9667362b35bc0f402c2263383b6c8ea4269534cda3d0dbe6c5fc42b29a3cb40cd6b719d5124078f56b63bfa31d11e043e4b0a93876 6176 garcon_4.20.0-1.debian.tar.xz e902ce3e43ab2b4de6681b35f8bc98ee0876901080fb21dc1053712b72e02357966004cb37754a76f76d81d385bb8dcbd099368eb54ee1197e7e1573c18d7867 2230 garcon_4.20.0-1.dsc 5ed8b031cceb5943af56d006b05dc9f8ac28695a35d17a8f27f8bde1a0a75067fc4d307c87250a436d1b317f92d501f01ce4078b5c961e4e9daccd175f2f261a 659796 garcon_4.20.0.orig.tar.bz2"
+    "481ad28d59c84e1672788f38439de3ec2333c890955d2e17756f4d260a3027930b16967489a764e30be5407519e10f9598cc53fc5dfea5423ada68a66ec5a5db 6072 garcon_4.18.0-1.debian.tar.xz 236009e5febae08b242b76c71ec9f7f3140c398d86eaed98e72cc4d82a285611d6a6b9b4e3065c5163b5f12189efe17a1fbd47a2d9504c79132cf55b239ac3e8 2583 garcon_4.18.0-1.dsc c4b49ba47ac33823199a68ef9bdcba3acfcedde62a96a8a8b3af2bb1f28b3a5fe3e960ee93bdb964fbc01b039047d77f58fbe5b1f9fbd2ccd3d3f968e416a55c 550674 garcon_4.18.0.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/g/garcon"
   ],
   "Files": [
-    "7c14ed73bebc24e0d696bf5a4643ad79 6176 garcon_4.20.0-1.debian.tar.xz a2661c681a5e5a10c3d50cf13c687eed 2230 garcon_4.20.0-1.dsc fe17e9cb15a62013e0086183a446e89e 659796 garcon_4.20.0.orig.tar.bz2"
+    "31fb5a74ac2c84c8f37a14545b9d1513 6072 garcon_4.18.0-1.debian.tar.xz 2043664926a07f4fdc21d9ef59d7dcc2 2583 garcon_4.18.0-1.dsc 9e4b72757b3874cb7e0e21eb43164c49 550674 garcon_4.18.0.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "garcon"
   ],
   "Package-List": [
-    "gir1.2-garcon-1.0 deb introspection optional arch=any gir1.2-garcongtk-1.0 deb introspection optional arch=any libgarcon-1-0 deb libs optional arch=any libgarcon-1-dev deb libdevel optional arch=any libgarcon-common deb libs optional arch=all libgarcon-gtk3-1-0 deb libs optional arch=any libgarcon-gtk3-1-dev deb libdevel optional arch=any"
+    "gir1.2-garcon-1.0 deb introspection optional arch=any gir1.2-garcongtk-1.0 deb introspection optional arch=any libgarcon-1-0 deb libs optional arch=any libgarcon-1-0-dev deb oldlibs optional arch=any libgarcon-1-dev deb libdevel optional arch=any libgarcon-common deb libs optional arch=all libgarcon-gtk3-1-0 deb libs optional arch=any libgarcon-gtk3-1-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Uploaders": [
     "Yves-Alexis Perez \u003ccorsac@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/xfce-team/desktop/garcon.git"
   ],
   "Version": [
-    "4.20.0-1"
+    "4.18.0-1"
   ]
 }

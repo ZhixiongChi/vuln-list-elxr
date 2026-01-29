@@ -6,28 +6,28 @@
     "libavalon-framework-java, libavalon-framework-java-doc"
   ],
   "Build-Depends": [
-    "ant-optional, debhelper-compat (= 13), default-jdk, junit, libexcalibur-logkit-java, liblog4j1.2-java, libxalan2-java, maven-repo-helper"
+    "ant-optional, debhelper (\u003e= 10), default-jdk, junit, libexcalibur-logkit-java, liblog4j1.2-java, libxalan2-java, maven-repo-helper"
   ],
   "Checksums-Sha1": [
-    "bbb3eb585ee184700d11043d7c0d0af2af894ded 5800 avalon-framework_4.2.0+ds-1.debian.tar.xz d2b9b3825138a342613a7621eaa975d6b1bb822a 2254 avalon-framework_4.2.0+ds-1.dsc b7dafd3bed9503aefaa0c0ee9c315f055321a229 51832 avalon-framework_4.2.0+ds.orig.tar.xz"
+    "2a0e870e50e11ce12c044fa1eae9309f70705dd1 5512 avalon-framework_4.2.0-10.debian.tar.xz 8cdfd30aac8c27a8dcbbdc1373f0b2653eaa4641 2241 avalon-framework_4.2.0-10.dsc 0a9dc2b80c4cc6365134a8f3b06f1d1c84ddd8c4 68887 avalon-framework_4.2.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "8ddd4379c044e3e3a30e8eaa62b7b479281c6eb0673cb16a229498a3d5fd2b94 5800 avalon-framework_4.2.0+ds-1.debian.tar.xz fddeac24ffd716366183cc3a6810201d51a9e86e26a70414b599becaa17cb939 2254 avalon-framework_4.2.0+ds-1.dsc 6edc017ec836381e19a7225c9ea7af12e15636798d1d7dae47f455cc8116860f 51832 avalon-framework_4.2.0+ds.orig.tar.xz"
+    "7d47f6ec19d58e9d26b9bddbc63aab9724e9e611c45b07dc28641d8e6bf946dd 5512 avalon-framework_4.2.0-10.debian.tar.xz 3982b86e0c2f039a9f1535dc586cdfe608a28606eb0c6be39bbc1378915da147 2241 avalon-framework_4.2.0-10.dsc 16374c0a1f67e21c5d44030ba2a01df614775a9c3ec3a387632c3c6e592d8e7d 68887 avalon-framework_4.2.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f83b180a69e7107ec5cb3af12cb02d38a4657f5dfa8e95c7f2ccd86344528d0cfa02437bbaaff5d13c4cbdc7c64027114c8f9a7be3a3298fe804c176a3bc28ba 5800 avalon-framework_4.2.0+ds-1.debian.tar.xz 3082f0e3b0363e58821ca52d7ccf50f7a1c3fa4c29dc8db47223274d9af502b4c261b8ca2d5b31cf0803ca385b3f75ed1ca3302e899371d300bb00658c9b59d5 2254 avalon-framework_4.2.0+ds-1.dsc f6883214781951991068051c34e3a417c44228f90e816d1c6040c4225d8ab022fc1c1ff96214150042da00d50843619904fa2040e29c39ffb9c17e7d9244b438 51832 avalon-framework_4.2.0+ds.orig.tar.xz"
+    "8bb53bf607261efba3374c470d3bdae16258a0b295a5fd1034b8d610bc517ca14c35a7ac2a04f9813995a57e4c1a0df427ad24a0cc9cbfe4bb339ab55075589c 5512 avalon-framework_4.2.0-10.debian.tar.xz 3848d3bd5402cb227c2638ad77d688e15284c81ca6264b89c896596e3650ca8a571a5731b489b0d8afa404a56af8be0b66ecba1344aaae302b9f4645f95524bc 2241 avalon-framework_4.2.0-10.dsc b53dc20ecec058ef0b35a626bea6e04f85f6ae8b3645d7dc5c33c194db49b42071093cd305ef718f925b948ec1b885b2a0d8bec534592f97dc48d6e93db45671 68887 avalon-framework_4.2.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/a/avalon-framework"
   ],
   "Files": [
-    "b796dd9f968a6f603672a9a9605f1f41 5800 avalon-framework_4.2.0+ds-1.debian.tar.xz 50f1d547ff4c6318892171ba68322c01 2254 avalon-framework_4.2.0+ds-1.dsc 319a6c438b5a4c79d6630bfc54558f49 51832 avalon-framework_4.2.0+ds.orig.tar.xz"
+    "de33277b5b28cdde222c52e328b41b0f 5512 avalon-framework_4.2.0-10.debian.tar.xz b823bb2b7c609223744541406abaa9a6 2241 avalon-framework_4.2.0-10.dsc fd42e4ed9d9cd7a4d2e7fca7ab8e847f 68887 avalon-framework_4.2.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://excalibur.apache.org"
+    "http://excalibur.apache.org"
   ],
   "Maintainer": [
     "Debian Java Maintainers \u003cpkg-java-maintainers@lists.alioth.debian.org\u003e"
@@ -39,18 +39,18 @@
     "libavalon-framework-java deb java optional arch=all libavalon-framework-java-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.1.1"
   ],
   "Uploaders": [
     "Emmanuel Bourg \u003cebourg@apache.org\u003e"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/java-team/avalon-framework"
+    "https://anonscm.debian.org/cgit/pkg-java/avalon-framework.git"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/java-team/avalon-framework.git"
+    "https://anonscm.debian.org/git/pkg-java/avalon-framework.git"
   ],
   "Version": [
-    "4.2.0+ds-1"
+    "4.2.0-10"
   ]
 }

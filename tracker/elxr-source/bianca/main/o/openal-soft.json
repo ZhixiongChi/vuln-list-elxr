@@ -3,31 +3,31 @@
     "any all"
   ],
   "Binary": [
-    "libopenal-dev, libopenal1, openal-tools, libopenal-data"
+    "libopenal-dev, libopenal1, openal-info, makehrtf, libopenal-data"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), libasound2-dev [linux-any], libdbus-1-dev [linux-any], libmysofa-dev, libpipewire-0.3-dev [linux-any], libpulse-dev, libsndio-dev, portaudio19-dev"
+    "debhelper-compat (= 13), libasound2-dev [linux-any], cmake, portaudio19-dev, libpulse-dev, libsndio-dev"
   ],
   "Checksums-Sha1": [
-    "61bfaad046d3263cce95cf5439d77cc6e1448e8a 12132 openal-soft_1.24.2-1.debian.tar.xz bb0ade36705104669ab4e623fb35f33b2f1b392f 2389 openal-soft_1.24.2-1.dsc 30f5982dcfdd6f28d267a2cfa1ebe267dcd7e2a4 1246875 openal-soft_1.24.2.orig.tar.gz"
+    "3ddb224c8d628b9bfa1378ab2818c343f6c63596 12836 openal-soft_1.19.1-2.debian.tar.xz 68d46dc596793a5cb4c415f5266779cc87fdd960 2526 openal-soft_1.19.1-2.dsc 436ee636215555a351ac2ec3ea06611ad63d4bc7 683061 openal-soft_1.19.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "81de07bdded43298221f34b43ffcebcd2f1c9a18092b38f0846198d590cc34a8 12132 openal-soft_1.24.2-1.debian.tar.xz af19e9fbd78745f494bb13cfe7a92369c0bc50d60227245e51d606b0b1d3cfd1 2389 openal-soft_1.24.2-1.dsc 7efd383d70508587fbc146e4c508771a2235a5fc8ae05bf6fe721c20a348bd7c 1246875 openal-soft_1.24.2.orig.tar.gz"
+    "9d8a56f44caa0104f9d3a5e53e6c2edf2b1c631229a2b60c0396b7b9c6af5a89 12836 openal-soft_1.19.1-2.debian.tar.xz d014f787306e55bbd034dbb3aeeeff1bfbde1e941f5fb5975572475c67c117b1 2526 openal-soft_1.19.1-2.dsc 9f3536ab2bb7781dbafabc6a61e0b34b17edd16bd6c2eaf2ae71bc63078f98c7 683061 openal-soft_1.19.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "2da3fd283033f8d87f7030d89484da89f854b093b7bc7d6de6ebe3fcf913c3c64a70efd03d1afa3a3475d25ebcba317e7272935553c7d6847d9a9b27777239e7 12132 openal-soft_1.24.2-1.debian.tar.xz bc4642040da193d3040f6cae2ca6d0af0dacacb58b038f6a6905cd1294fc935b2e8796234307b5747dcad9418055752ee371e95b5865062b667ac343f1de1a1f 2389 openal-soft_1.24.2-1.dsc e0b1cb08fe65e71ffd49a1dd90a1b1d2119a1dd8e5d1e10850d6c5bf04eea3335cc3051636a0479617ee5af95536a09fcad2a80d8009a10bc1fbe35a42cfe611 1246875 openal-soft_1.24.2.orig.tar.gz"
+    "e29b6a00744e5ccc83b7b3216b8523121ceba565373bcf22db1be518ade4e656b7dc480c26c4f34362eb9e61b1c39cdc4a0639fedce09967d04bd8b1df44a0d1 12836 openal-soft_1.19.1-2.debian.tar.xz 043b7cf11a41d958158fcb17ab0c18e543640710b0f1408a6228049a4c6a290192141fa23c8b5e291beec0c178774f5a622d905bd884a9977dd6e3ba46b4a51f 2526 openal-soft_1.19.1-2.dsc 4a64cc90ddeaa3773610b0bc8023d231100f3396f3fc5bd079db81600f80a789c75e6af03391bfc78a903c96bb71f8052a9ae802ea81422028e5b12b7eb6c47b 683061 openal-soft_1.19.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/o/openal-soft"
   ],
   "Files": [
-    "8d3daec40edb3de00cd7f2688f71e6f4 12132 openal-soft_1.24.2-1.debian.tar.xz 3f61cc98d3204c4e1c89848803a182ee 2389 openal-soft_1.24.2-1.dsc 2befc873d26f4eed10c06f272c48c5ec 1246875 openal-soft_1.24.2.orig.tar.gz"
+    "988180b4370eb5f6ab869a544d1417be 12836 openal-soft_1.19.1-2.debian.tar.xz cfba02fbf462cd6682fff3ad8e428405 2526 openal-soft_1.19.1-2.dsc 616ecdccb6fb4ac42a04d74f54c9a188 683061 openal-soft_1.19.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://github.com/kcat/openal-soft"
+    "http://kcat.strangesoft.net/openal.html"
   ],
   "Maintainer": [
     "Debian Games Team \u003cpkg-games-devel@lists.alioth.debian.org\u003e"
@@ -36,13 +36,13 @@
     "openal-soft"
   ],
   "Package-List": [
-    "libopenal-data deb libs optional arch=all libopenal-dev deb libdevel optional arch=any libopenal1 deb libs optional arch=any openal-tools deb sound optional arch=any"
+    "libopenal-data deb libs optional arch=all libopenal-dev deb libdevel optional arch=any libopenal1 deb libs optional arch=any makehrtf deb sound optional arch=any openal-info deb sound optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.5.0"
   ],
   "Uploaders": [
-    "Bruno \"Fuddl\" Kleinert \u003cfuddl@tauware.de\u003e, Reinhard Tartler \u003csiretart@tauware.de\u003e, Bret Curtis \u003cpsi29a@gmail.com\u003e,"
+    "Bruno \"Fuddl\" Kleinert \u003cfuddl@tauware.de\u003e, Reinhard Tartler \u003csiretart@tauware.de\u003e, Gonéri Le Bouder \u003cgoneri@rulezlan.org\u003e, Bret Curtis \u003cpsi29a@gmail.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/games-team/openal-soft"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/games-team/openal-soft.git"
   ],
   "Version": [
-    "1:1.24.2-1"
+    "1:1.19.1-2"
   ]
 }

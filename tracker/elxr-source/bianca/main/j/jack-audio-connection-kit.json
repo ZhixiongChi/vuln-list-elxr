@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), dh-exec, dh-sequence-bash-completion, doxygen, libasound2-dev [linux-any], libdb-dev, libffado-dev [linux-any], libraw1394-dev [linux-any], libreadline-dev, libsamplerate-dev, libsndfile1-dev, libtool, libzita-alsa-pcmi-dev [linux-any], libzita-resampler-dev [linux-any], po-debconf"
   ],
   "Checksums-Sha1": [
-    "f9cb7980cc7005e00b0d6ebdc908b740d4d1f5f1 34348 jack-audio-connection-kit_0.126.0-4.debian.tar.xz 9b6d5b2db5830f6bb4be57ed1f13c39ee125edd5 2087 jack-audio-connection-kit_0.126.0-4.dsc 6c6c24a0017a942d72c81baf92bee35277c97a34 927245 jack-audio-connection-kit_0.126.0.orig.tar.gz"
+    "7becbf28784d4a7f3de63b6ece2c217a8bc1b5a4 33524 jack-audio-connection-kit_0.126.0-2.debian.tar.xz e464e0f64cebc72c3bb3f2ca965918d3a10cb87f 2712 jack-audio-connection-kit_0.126.0-2.dsc 6c6c24a0017a942d72c81baf92bee35277c97a34 927245 jack-audio-connection-kit_0.126.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "29ff35a3f5a31dde2037b58967e7c03654bfff16f00368fe28e651de34a7161b 34348 jack-audio-connection-kit_0.126.0-4.debian.tar.xz dae5f7bc6879988c4e3dd232a78c53c963a106a96936caf8861acfcf6a276905 2087 jack-audio-connection-kit_0.126.0-4.dsc 7b290e9dc7b9262ac328d41eef80c1053c97013efacbefa30477cb9b2a5445ea 927245 jack-audio-connection-kit_0.126.0.orig.tar.gz"
+    "230f2558a787d423b596e15a172872e5d798f05f4338dbbad593f5fdb69ae63c 33524 jack-audio-connection-kit_0.126.0-2.debian.tar.xz 187fed2da5afffb3cee09734cd0db82dd4a585e413e6ce4a7b01f6a62d4f93ab 2712 jack-audio-connection-kit_0.126.0-2.dsc 7b290e9dc7b9262ac328d41eef80c1053c97013efacbefa30477cb9b2a5445ea 927245 jack-audio-connection-kit_0.126.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e8b9d81d273d1ec978c6514d0936d781385db0d8965d721eea930bba791023cac768e9a0329b473fa1802d3af543feb383bc51085b086141d844e981a87c5863 34348 jack-audio-connection-kit_0.126.0-4.debian.tar.xz 408bb6c006e0724e5b4e095fcff94ba54b4e25d685c98a8f8da40cbd4a18024a417854dacab825595011820fabf151a2253131aa4755a74eea06be8e2e3e9aa0 2087 jack-audio-connection-kit_0.126.0-4.dsc 19fec17866aa19ebc52f096178efdf770dbc3944dec61d0f63008b47798b51849d7984d0711470d09c5e0e16117ea89ec3ac398743b9f315bd943d4f965b8217 927245 jack-audio-connection-kit_0.126.0.orig.tar.gz"
+    "956a07f6bdf8b63a12e9c661c02129e8e6ea71e3561b4dc6cf72b3976e74b12426cd8ec8dd0f0ccb163dd08970385cd65609d5efdeb2f49a500bc563c2db8368 33524 jack-audio-connection-kit_0.126.0-2.debian.tar.xz fedef1dd69dafef12b1a96afbe65f650cce8ab777fe477c94484223db22f580d4b340bc54d6ff09eca6a7d135105e815b81f2b06a7dac7fa9a53cafe8ff5615b 2712 jack-audio-connection-kit_0.126.0-2.dsc 19fec17866aa19ebc52f096178efdf770dbc3944dec61d0f63008b47798b51849d7984d0711470d09c5e0e16117ea89ec3ac398743b9f315bd943d4f965b8217 927245 jack-audio-connection-kit_0.126.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/j/jack-audio-connection-kit"
   ],
   "Files": [
-    "25dffe05bb74fe51ddf8b3edbbf47a1f 34348 jack-audio-connection-kit_0.126.0-4.debian.tar.xz 8cb8bf485fa79fe0b0c9eadad42833e4 2087 jack-audio-connection-kit_0.126.0-4.dsc 5913c06644855f472894da53a624e63f 927245 jack-audio-connection-kit_0.126.0.orig.tar.gz"
+    "3c019a47f70983e009e481db6b479d06 33524 jack-audio-connection-kit_0.126.0-2.debian.tar.xz 2e7cbaaa1f51d80d6112e231ca934c89 2712 jack-audio-connection-kit_0.126.0-2.dsc 5913c06644855f472894da53a624e63f 927245 jack-audio-connection-kit_0.126.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "jackd1 deb sound optional arch=any jackd1-firewire deb sound optional arch=amd64,i386,powerpc libjack-dev deb libdevel optional arch=any libjack0 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Uploaders": [
     "Adrian Knoth \u003cadi@drcomp.erfurt.thur.de\u003e, Free Ekanayaka \u003cfreee@debian.org\u003e, Jonas Smedegaard \u003cdr@jones.dk\u003e, Junichi Uekawa \u003cdancer@debian.org\u003e, Reinhard Tartler \u003csiretart@tauware.de\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/multimedia-team/jack-audio-connection-kit.git"
   ],
   "Version": [
-    "1:0.126.0-4"
+    "1:0.126.0-2"
   ]
 }

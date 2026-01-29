@@ -6,22 +6,22 @@
     "ibus-libpinyin"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, gettext, gnome-common, libgtk-3-dev, libibus-1.0-dev, libjson-glib-dev, liblua5.4-dev, libopencc-dev (\u003e= 1.1.9~), libpinyin15-dev (\u003e= 2.7.92), libsoup-3.0-dev, libsqlite3-dev, libtool, pkgconf, python3-gi, python3:any, sqlite3, uuid-dev"
+    "debhelper-compat (= 13), dh-sequence-python3, gettext, gnome-common, libgtk-3-dev, libibus-1.0-dev, libjson-glib-dev, liblua5.4-dev [!armel !armhf], libopencc-dev, libpinyin15-dev (\u003e= 2.7.92), libsoup2.4-dev, libsqlite3-dev, libtool, python3:any, python3-gi, sqlite3, uuid-dev"
   ],
   "Checksums-Sha1": [
-    "fc6800e7964705c2eac2c9095452cf72d74fe3de 4564 ibus-libpinyin_1.15.8-2.debian.tar.xz ca00d9b776017694e42d5a129d7e7b93920622e3 2312 ibus-libpinyin_1.15.8-2.dsc c9c68d4379ffd4a39d66d76d5ac4d8a91791e5f1 1306092 ibus-libpinyin_1.15.8.orig.tar.gz"
+    "11df4b8325eee4d7e06e073793246b828b24a0b2 4140 ibus-libpinyin_1.15.1-1.debian.tar.xz 3d130079982309c4420f4811b2f1acbd5a9cb8d6 1959 ibus-libpinyin_1.15.1-1.dsc 186f18b5fc189f8c72b648b7d5474265b3e53c95 1292974 ibus-libpinyin_1.15.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "9a44f12eb9c066e74d6eeabf63ff5c4081cc380feb853c8a4766b6ed23a82198 4564 ibus-libpinyin_1.15.8-2.debian.tar.xz b765f270cd20ad6185fa1fc7d693613994118972c52d56cd799c468cbb39d958 2312 ibus-libpinyin_1.15.8-2.dsc 1d32eb82a09bc043da0e2b65849bc61c8820b99f30a8cff10d807a1c44848bfa 1306092 ibus-libpinyin_1.15.8.orig.tar.gz"
+    "caf4d230775b468cd14a16c0b52791785773f13210cb6eba1ec99e9bf9b5329e 4140 ibus-libpinyin_1.15.1-1.debian.tar.xz cceb356b2259fe85949a3153cb6bbfa5fc3f8bee639db305011d852d7d3f3363 1959 ibus-libpinyin_1.15.1-1.dsc b86bdda4fc19ef90aaf4657a39be82c7145deee31dd6c5d091781f2e12e86e49 1292974 ibus-libpinyin_1.15.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "0bab0fcd98b664ec0756b9c930b9f6ef727f7d1c0bf2978e66524f6e01eebfb1e0f6b6d22893118f81a24540bf24a2a5c386d208881a81432aa1a91ee2eeed3b 4564 ibus-libpinyin_1.15.8-2.debian.tar.xz df98c1ac917556d509bcd9be1c3997a1034079f63bb7e9a305c4d1798f68aa9eef664f15d3af17d4f52c5d363b0a144662166a6405c0a1c6cee0e09ea254f7c3 2312 ibus-libpinyin_1.15.8-2.dsc 17044077778e76cfa5f7ae6c9e2fd09d1ceece1f9713a50ea18497faa9c93f213f38eb07c6845715f9960ee9c42147d374b22002fc6a03a74949f717b2d02225 1306092 ibus-libpinyin_1.15.8.orig.tar.gz"
+    "ea94c2b98b847de2da94cfee7de633ba3b43d6c2cd978745594387e8ebc34154b08d5fc968af9c6a0afd657481337caa839a1d68fd2877e22c0a4d157670ab0d 4140 ibus-libpinyin_1.15.1-1.debian.tar.xz b7d1263e965a78a1c26372c7c43c57f8df416a585fb15304a802c2136c32db6e0bcb220a415828a5aaffab189d892874dd7ffc7b696e76cab57945ae147e1fbe 1959 ibus-libpinyin_1.15.1-1.dsc c11bb1a022d36f1622bca408f2cfd153be1dd1faa514a43f8bc2bdade37712d201ea1c6b53e6c5f8ea35909cd2f46112b637425620b29f81247b84bf7ef93018 1292974 ibus-libpinyin_1.15.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/i/ibus-libpinyin"
   ],
   "Files": [
-    "713cf863b9aa07bd1c4ba30fb5e08c3d 4564 ibus-libpinyin_1.15.8-2.debian.tar.xz b4105990d455c418d212894aa860c4d4 2312 ibus-libpinyin_1.15.8-2.dsc b4394dd1a8398bb298b0843e92a9dcef 1306092 ibus-libpinyin_1.15.8.orig.tar.gz"
+    "4ceb6c34468bbf69cae020a5403fe097 4140 ibus-libpinyin_1.15.1-1.debian.tar.xz b1b309ad122c504d9a86a01d56027446 1959 ibus-libpinyin_1.15.1-1.dsc 7d00946cfce322096297988428e1ccfe 1292974 ibus-libpinyin_1.15.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "ibus-libpinyin deb utils optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Uploaders": [
-    "Asias He \u003casias@debian.org\u003e, Aron Xu \u003caron@debian.org\u003e, ChangZhuo Chen (陳昌倬) \u003cczchen@debian.org\u003e,"
+    "Asias He \u003casias@debian.org\u003e, Aron Xu \u003caron@debian.org\u003e, ChangZhuo Chen (陳昌倬) \u003cczchen@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/ibus-libpinyin"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/ibus-libpinyin.git"
   ],
   "Version": [
-    "1.15.8-2"
+    "1.15.1-1"
   ]
 }

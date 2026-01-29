@@ -6,22 +6,22 @@
     "libecap3-dev, libecap3"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13)"
+    "debhelper (\u003e= 9), autotools-dev, cdbs, dh-autoreconf"
   ],
   "Checksums-Sha1": [
-    "80528977408e1caec3d5d9b451230dffc5c5ef04 4300 libecap_1.0.1-4.debian.tar.xz a3f113247d53c67380b2c2be3b071f677124abde 1884 libecap_1.0.1-4.dsc 8e4924f35164e26a0633eedf7eaf0f3a45fed77b 338972 libecap_1.0.1.orig.tar.gz"
+    "fe413668f693077fbd005727fdcd4739cdb9d9a5 5252 libecap_1.0.1-3.4.debian.tar.xz 74ee8e77b5816aba05acb5e6bbd1fcc974b008c3 1640 libecap_1.0.1-3.4.dsc 8e4924f35164e26a0633eedf7eaf0f3a45fed77b 338972 libecap_1.0.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "82448d67cce1117545d02b654f684b780dadd02641f53571118a74b2141f03c0 4300 libecap_1.0.1-4.debian.tar.xz fe587109d68cd01bf501f454c97e07ea7424fb93a5cdfe4b6c508921d918e45b 1884 libecap_1.0.1-4.dsc 675f1a40a74a103864cb771ff30162bcdd1caeef4c808799a8293a9e9fe57d8c 338972 libecap_1.0.1.orig.tar.gz"
+    "98b77008513ea81ec9fe57c4992fa59dbae8e959e853e41ce36f1a723f27dc4c 5252 libecap_1.0.1-3.4.debian.tar.xz 48837111de219b5d7548935412fcc0f9d4ec20dacb7b43ef786dd100d94f090d 1640 libecap_1.0.1-3.4.dsc 675f1a40a74a103864cb771ff30162bcdd1caeef4c808799a8293a9e9fe57d8c 338972 libecap_1.0.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "0b260344bf4c87568874582fe5f1cc336c74456f8c07b451e1e463025fa11c51544c7a41982bdd65d871cf910eae5cda428b6cbed045278367eb091c82fd4c06 4300 libecap_1.0.1-4.debian.tar.xz 53095b4fd9af9f0de0cc9b19fe4f40c1096e476dccb29f19b5e5a7ed38771eeb8df81cecee556295fde22451cdb4d8a05326f75ae2abd6330a282d2d2ac42f91 1884 libecap_1.0.1-4.dsc df8bde7a33741f021bd31b3a6935a20fcb558b419dd85612158145de9437c1fefd6334b3823502e0e476f9389a3752284499ea9577d64f50a4b7874c250f9914 338972 libecap_1.0.1.orig.tar.gz"
+    "1801b83856e7432cfae75ffb8da780d4f93de5dc25a70bf19eebeb5cdffb8b1b29b53baf37cbba11152bf1021e1ac5c9344fc9bc5d4ffd03eb1cf1dc327de515 5252 libecap_1.0.1-3.4.debian.tar.xz ff4afabf1417acd6619d5c903a7b71ddb150eb8d69192bedd61c39e7565b445614e39f44dfdcad7876eaf510c7313dee5bde75855eb0685d3f701bd6cd572a2f 1640 libecap_1.0.1-3.4.dsc df8bde7a33741f021bd31b3a6935a20fcb558b419dd85612158145de9437c1fefd6334b3823502e0e476f9389a3752284499ea9577d64f50a4b7874c250f9914 338972 libecap_1.0.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libe/libecap"
   ],
   "Files": [
-    "36874ebaa3421635eea9e0465b6a02ce 4300 libecap_1.0.1-4.debian.tar.xz 6b705fddf6399753e1b07a41b0962508 1884 libecap_1.0.1-4.dsc 7e65d1215fd8d8609b198760fda0c264 338972 libecap_1.0.1.orig.tar.gz"
+    "4c1b2630b507ad73d16214016cc17e9d 5252 libecap_1.0.1-3.4.debian.tar.xz c50ca730f059b1041779cfb153a6696a 1640 libecap_1.0.1-3.4.dsc 7e65d1215fd8d8609b198760fda0c264 338972 libecap_1.0.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,15 +39,9 @@
     "libecap3 deb libs optional arch=any libecap3-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/libecap"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/libecap.git"
+    "3.9.8"
   ],
   "Version": [
-    "1.0.1-4"
+    "1.0.1-3.4"
   ]
 }

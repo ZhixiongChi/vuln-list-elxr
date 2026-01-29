@@ -6,22 +6,22 @@
     "bolt, bolt-tests"
   ],
   "Build-Depends": [
-    "asciidoc-base \u003c!nodoc\u003e, debhelper-compat (= 13), docbook-xml \u003c!nodoc\u003e, libglib2.0-dev, libpolkit-gobject-1-dev, libudev-dev, libumockdev-dev, libxml2-utils \u003c!nodoc\u003e, meson, pkgconf, python3-dbus \u003c!nocheck\u003e, python3-dbusmock \u003c!nocheck\u003e, python3-gi \u003c!nocheck\u003e, systemd-dev, umockdev \u003c!nocheck\u003e, xmlto \u003c!nodoc\u003e, xsltproc \u003c!nodoc\u003e"
+    "asciidoc-base \u003c!nodoc\u003e, debhelper-compat (= 13), docbook-xml \u003c!nodoc\u003e, libglib2.0-dev, libpolkit-gobject-1-dev, libudev-dev, libumockdev-dev, libxml2-utils \u003c!nodoc\u003e, meson, python3-dbus \u003c!nocheck\u003e, python3-dbusmock \u003c!nocheck\u003e, python3-gi \u003c!nocheck\u003e, systemd, udev, umockdev \u003c!nocheck\u003e, xmlto \u003c!nodoc\u003e, xsltproc \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "e80e0d419f103f169c7de9d3ade3e5e06d33346a 4484 bolt_0.9.8-1.debian.tar.xz 9fe1922a9717f05b6fc4e3946d15b9ffb0c06ba3 2395 bolt_0.9.8-1.dsc 0c800f5d0988a994d312d94a28cea5b13fef9bc9 192836 bolt_0.9.8.orig.tar.bz2"
+    "4db021a795f85bdef1f3a158335a53e2be0037e6 4180 bolt_0.9.5-1.debian.tar.xz 76cba8d7244f904ed9d147edec4dd66fccb54dad 2387 bolt_0.9.5-1.dsc 280fdd219e6afadaa0192d6c581bd93d24fbe57a 192091 bolt_0.9.5.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "c7197019dd3f6b8ae534f88ec9e8cc3a8f93cb6ff16d7c2165cc2b9eb557e674 4484 bolt_0.9.8-1.debian.tar.xz fe01c78a4a290e70785a1ac8cd76bd2d64478dda03306e27cefcc92def426f74 2395 bolt_0.9.8-1.dsc 91802883ea347bae5e4226029441cd870ba058347badf5b5df7c57b94c251acf 192836 bolt_0.9.8.orig.tar.bz2"
+    "e650a12af1bba2fa4cd0bb8f99aa94bd61eb65118c567444298c7e9df25a9399 4180 bolt_0.9.5-1.debian.tar.xz 9a14567a5200a7fa1a71fa0acfa79ab21801dedd5398b298a41d535a1973d696 2387 bolt_0.9.5-1.dsc db857886898a6e3ee328031c131e50f22e884cf27945b898c1c2f371e0d6aed3 192091 bolt_0.9.5.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "f667e96e0f6cfc9a782aeacd4ee171efd1421cf59af6ce44f6b50082610261f495beded062dd7bccf5bdeae290c3c018b79884a097356f997564e1bbccc48d22 4484 bolt_0.9.8-1.debian.tar.xz da0f5a17b52bb93bf551eb29b68ecfbf45a728ca3cb0340be57a12886811497924c8fd64c6e07ffe7c6ac20090a2e3c144760ebbe4c0e70c62b6fa0e274ad632 2395 bolt_0.9.8-1.dsc e9b2ccca66930ee40fd283b09e4bd2bffe1f496e4f898a9d4e069e673a2c9320d456b9ad4b33c4e3e26d25f363985a798c6c860c4c0b103558dbbab78f02ba2b 192836 bolt_0.9.8.orig.tar.bz2"
+    "f3a6d67ee8ddc374e8a0fc51f156dd7dd9223b846793fb4fac7680a47f1a8b4ad9668ddf82619f397a545edfcffeeee734cf583498c2a9cb8e661dd821347372 4180 bolt_0.9.5-1.debian.tar.xz b372a2538a0792f20b045180a1f0c0a31103669cff1445d294552be0c360e4599eef54189415b63e0788a8a0d349220d6c94d0d10f1c7a98f5770717a59055d6 2387 bolt_0.9.5-1.dsc 2aad54a9026f421b23fd72861fa5b947c9bcd5d2235129768648469f81d056f7b417246bc6c599efebc69ad54f7615813f59550cf37edd214cefbf7195897383 192091 bolt_0.9.5.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/b/bolt"
   ],
   "Files": [
-    "cbf8882136c643cc5782181a2ea8e042 4484 bolt_0.9.8-1.debian.tar.xz 7de3f11f65d2d47c4787c5fe9105b981 2395 bolt_0.9.8-1.dsc 6416bdb2bed13e08367bdce20ea4e2cf 192836 bolt_0.9.8.orig.tar.bz2"
+    "3523e4a61b51cb26d5033ce157d6c40e 4180 bolt_0.9.5-1.debian.tar.xz e333ba00591fed01ac6eac59445ab2dd 2387 bolt_0.9.5-1.dsc 152b8fd0fe5c3fc2d0bebd761228b612 192091 bolt_0.9.5.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "bolt deb admin optional arch=linux-any bolt-tests deb admin optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "dpkg-dev, gir1.2-umockdev-1.0, python3-dbus, python3-dbusmock, python3-gi, umockdev"
   ],
   "Uploaders": [
-    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
+    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/freedesktop-team/bolt"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/freedesktop-team/bolt.git"
   ],
   "Version": [
-    "0.9.8-1"
+    "0.9.5-1"
   ]
 }

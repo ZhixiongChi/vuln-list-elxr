@@ -3,7 +3,7 @@
     "any all"
   ],
   "Binary": [
-    "unixodbc, libodbc2, libodbccr2, libodbcinst2, odbcinst, unixodbc-common, unixodbc-dev"
+    "unixodbc, libodbc1, libodbc2, libodbccr2, libodbcinst2, odbcinst, odbcinst1debian2, unixodbc-common, unixodbc-dev"
   ],
   "Build-Conflicts": [
     "unixodbc-dev"
@@ -12,37 +12,37 @@
     "debhelper-compat (= 13), libreadline-dev, libltdl-dev"
   ],
   "Checksums-Sha1": [
-    "5b64bfd29b71d3d75115add09bbe159cdd2d68f0 17468 unixodbc_2.3.12-2.debian.tar.xz 2636c2916ba49d7f6b772b20a6dcc5871e2b97c4 2228 unixodbc_2.3.12-2.dsc 0920b3c4ef6568b7e5563faae4aed3fffcd5fc62 866774 unixodbc_2.3.12.orig.tar.gz"
+    "746597603a514ed7c6c2d665414a8b3559271a91 16808 unixodbc_2.3.11-2+deb12u1.debian.tar.xz e7486f3ba90952e5b86cd6589704ba4bfb709378 2403 unixodbc_2.3.11-2+deb12u1.dsc ac66052153c4aa41bdcce7ca86a6ed4e3fcc6be5 861766 unixodbc_2.3.11.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "5f81c0ae66711b90d9896d9baffacf2f6aa7538697fe0f6bf576806f1d86b069 17468 unixodbc_2.3.12-2.debian.tar.xz 3bbee2b01af0fe0e48097c07d5154b0758d61515073032c8e732aab4ab9a648a 2228 unixodbc_2.3.12-2.dsc b72ffed23f6e86c08a5c5d5db3f57b579a680b893dec38c9ae89230de49412df 866774 unixodbc_2.3.12.orig.tar.gz"
+    "35453df4cae6487f1979fa4f5cfdb7ce73043f13f4cacdc69e7f0bc8b1258015 16808 unixodbc_2.3.11-2+deb12u1.debian.tar.xz bae46f383360cb2eceb508568fc407407205cb48ee629ce3ff6375004363560c 2403 unixodbc_2.3.11-2+deb12u1.dsc 8f625f72c6bfdbb0e5fb59e66eb8d7df0a84435178e33bf40cd2be7e76f677e0 861766 unixodbc_2.3.11.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "59192d19815152d40187650782c9638b8f69517dd137a8ebe694068860268e4a4bb3b297a5004c2a009f112c06df41406e770653aefbe85d568654f65d82f6f6 17468 unixodbc_2.3.12-2.debian.tar.xz a22f2a905c014f0ffe55601fe839a531e6ca9b80ba6fa5c50e25be65f3a7d3202e72deb8038e4736c5019a4f9a5aa1195f97c4226e25768fa61defe1a08ea2cc 2228 unixodbc_2.3.12-2.dsc f0c0a995c90ff3abd00a031430e2f2034d45ca96c7fba34adc826a668c4eeb77ee2e1be27b7b1817c706f43df4fa434746362e746a39e779256e006deeb790c7 866774 unixodbc_2.3.12.orig.tar.gz"
+    "97055d8ffde8bafb4eff1b2f4e129e1a319f968163770d3b5747ccb009dc663fa6d325a0159fbf98758cb436ba9d2f9cf3b782707fdf0beec4f4bc5f9f4565a4 16808 unixodbc_2.3.11-2+deb12u1.debian.tar.xz 6ac6f2a5f6a3fb19a6faf947733cdc97d375e03521435aa0a2337c5fc83e56854758803ccae5b6c36875d6ddb5e5089be3a345901132e049972169a1cefd72c5 2403 unixodbc_2.3.11-2+deb12u1.dsc b8c0a6e8c3bfb1b9648800add85fa0324b90bc1056505d7e05c7ed465054919ab9357a07d281ff1632f1b2284c12aaa074870fed45d5ca69ccb7a7666c9c58aa 861766 unixodbc_2.3.11.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/u/unixodbc"
   ],
   "Files": [
-    "ab9979c8c8e014f078507ec0653dd81c 17468 unixodbc_2.3.12-2.debian.tar.xz 66ad7e8ae3189171bced1a02b789ff4b 2228 unixodbc_2.3.12-2.dsc 53fdfeeb790be8d803dd169cd454d2da 866774 unixodbc_2.3.12.orig.tar.gz"
+    "3d189d4b6a2793c349b58ed2e1749485 16808 unixodbc_2.3.11-2+deb12u1.debian.tar.xz 9346c5b8ca16ca91471e8f31279f39f1 2403 unixodbc_2.3.11-2+deb12u1.dsc 4ac00d5315745d5d353b89bfb70aba5b 861766 unixodbc_2.3.11.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://www.unixodbc.org"
+    "http://www.unixodbc.org/"
   ],
   "Maintainer": [
-    "Hugh McMaster \u003chmc@debian.org\u003e"
+    "Hugh McMaster \u003chugh.mcmaster@outlook.com\u003e"
   ],
   "Package": [
     "unixodbc"
   ],
   "Package-List": [
-    "libodbc2 deb libs optional arch=any libodbccr2 deb libs optional arch=any libodbcinst2 deb libs optional arch=any odbcinst deb utils optional arch=any unixodbc deb database optional arch=any unixodbc-common deb libs optional arch=all unixodbc-dev deb libdevel optional arch=any"
+    "libodbc1 deb oldlibs optional arch=any libodbc2 deb libs optional arch=any libodbccr2 deb libs optional arch=any libodbcinst2 deb libs optional arch=any odbcinst deb utils optional arch=any odbcinst1debian2 deb oldlibs optional arch=any unixodbc deb database optional arch=any unixodbc-common deb libs optional arch=all unixodbc-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/unixodbc"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/unixodbc.git"
   ],
   "Version": [
-    "2.3.12-2"
+    "2.3.11-2+deb12u1"
   ]
 }

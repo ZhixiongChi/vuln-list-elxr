@@ -6,28 +6,28 @@
     "libm17n-0, libm17n-dev, m17n-lib-bin, m17n-lib-mimx"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), ispell, libanthy-dev, libfontconfig-dev, libfreetype-dev, libfribidi-dev, libgd-dev, libotf-dev, libthai-dev, libx11-dev, libxaw7-dev, libxft-dev, libxml2-dev, libxmu-dev, libxrender-dev, libxt-dev, m17n-db, pkgconf"
+    "debhelper-compat (= 13), ispell, libanthy-dev, libfontconfig-dev, libfreetype-dev, libfribidi-dev, libgd-dev, libotf-dev (\u003e= 0.9.11), libthai-dev, libx11-dev, libxaw7-dev, libxft-dev, libxml2-dev, libxmu-dev, libxrender-dev, libxt-dev, m17n-db, pkg-config (\u003e= 0.22)"
   ],
   "Checksums-Sha1": [
-    "970d2e1ca5ae7c1fa5a35bc520d14426ff1baa03 11080 m17n-lib_1.8.5-1.debian.tar.xz 248d18cc868a5e4e4b230822bd9f2bd32bb4fd12 2318 m17n-lib_1.8.5-1.dsc 3b4227544602f1c47a55d5a56d738973a860fc12 1122339 m17n-lib_1.8.5.orig.tar.gz"
+    "c0aea19392cd89e649d1564915e59c3a23089743 11968 m17n-lib_1.8.0-6.debian.tar.xz 89aca3a227fa21f250adaaa5b589b299f1a1023b 2371 m17n-lib_1.8.0-6.dsc 298923e2f7f6b8763769b74c8b2da8fe4d13ecce 1091731 m17n-lib_1.8.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "2247085028804fd27a509ae32035cc91ca48f3acc418c43156fba4b85f24acb7 11080 m17n-lib_1.8.5-1.debian.tar.xz d2b70b83fc20c7aceee9f9a0634469fead6835f12ae3066eaf74f739d771b81c 2318 m17n-lib_1.8.5-1.dsc 7b6c425f792d06d14e4f5b17204d3627e2c8ebb423ebdae92c0c646710d3d6c7 1122339 m17n-lib_1.8.5.orig.tar.gz"
+    "8d66d150c1f315c96b1bd44a576ddf299a2f04c2a1f4182057fa33d21431c958 11968 m17n-lib_1.8.0-6.debian.tar.xz c7cfe235447dd460e25f2ef4c2fb663af162e2eaec7af961227a3ab52840b3df 2371 m17n-lib_1.8.0-6.dsc 78bacae7451822dfff62482ce4f9433c5ae82846e4c64b590541e29e800fe64a 1091731 m17n-lib_1.8.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "7d0d932ef119ab68dec5f7dd6c509b3dd2ca518445c5b1544cd6f877f39628e6567469a2e8cd360d830b1c2c3856ea957f9701945bed548ede7b6bd3587ae9f1 11080 m17n-lib_1.8.5-1.debian.tar.xz 3d722afb1ee9cf9d9369f6825e4fdede5721fa7f1a43fb5080a5cecf23c6aa089bdc45e54fee7cb176f947641d26e5e2cdcc71e2c62815f4866934188d20750f 2318 m17n-lib_1.8.5-1.dsc 047e69b911b24094fc379127dae14438a7f27b60d312aee505bb3805a556ecec6d909c620a8f6fc25285c9fcaf0eda0d53c53811b04dbf5df37d55fe5efc4caa 1122339 m17n-lib_1.8.5.orig.tar.gz"
+    "9dd0f38e2492d7723b12d1db73bc10ec42ad731ef67317ecde7c173df031a34ab30efba577ff5dbdbf90b223d5a93ef87c946326180106f9f707b523af268b67 11968 m17n-lib_1.8.0-6.debian.tar.xz 3cabb1fd0a0689dc7509618a115839ab0956afa541a0371052b64f38edd970184ce21060dd02cc958c752a5864e685b96d2bafb2ac16e650e783bda10f9aa9d9 2371 m17n-lib_1.8.0-6.dsc 8aba862888393232172c03cdf52531e29ea969c4327e6f69879ecf7438eafee32782f509ec292b3e1b7cd3202e2764984d7a59e85cdb87a7c8bfcbac5b0ee6fd 1091731 m17n-lib_1.8.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/m/m17n-lib"
   ],
   "Files": [
-    "00db1465713963f245ccbbc44f51485c 11080 m17n-lib_1.8.5-1.debian.tar.xz c30fdd2b05ec556f82919181fea428bf 2318 m17n-lib_1.8.5-1.dsc 5cb74cdfe934288d8f1742fcc40ed4ab 1122339 m17n-lib_1.8.5.orig.tar.gz"
+    "a4eade0353274e0242b5af95825d6e29 11968 m17n-lib_1.8.0-6.debian.tar.xz a4c159a41bf6aab49a28f8b62555b627 2371 m17n-lib_1.8.0-6.dsc 35a7c29b4c5892c643153eeaefd1f787 1091731 m17n-lib_1.8.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://www.nongnu.org/m17n/"
+    "http://www.nongnu.org/m17n/"
   ],
   "Maintainer": [
     "Debian Input Method Team \u003cdebian-input-method@lists.debian.org\u003e"
@@ -39,7 +39,7 @@
     "libm17n-0 deb libs optional arch=any libm17n-dev deb libdevel optional arch=any m17n-lib-bin deb utils optional arch=any m17n-lib-mimx deb utils optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Uploaders": [
     "Harshula Jayasuriya \u003charshula@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/input-method-team/m17n-lib.git"
   ],
   "Version": [
-    "1.8.5-1"
+    "1.8.0-6"
   ]
 }

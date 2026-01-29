@@ -6,22 +6,22 @@
     "librust-crossbeam-utils-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.60) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "8bf93d0159921cc684366730a78b6dcd75dac5e4 3564 rust-crossbeam-utils_0.8.19-1.debian.tar.xz 458b87eeace3a210d1d7af6033767337ddc8ed4d 2453 rust-crossbeam-utils_0.8.19-1.dsc c40062ee3e9c6fbe1e722d4aeaa753662b13df51 42328 rust-crossbeam-utils_0.8.19.orig.tar.gz"
+    "961a3dfd8664338b23a3e93db94c11df4c8fbb05 3568 rust-crossbeam-utils_0.8.12-1.debian.tar.xz 9f0fd63fcc47a598bfa85cbc6c6f827bd41c9014 2620 rust-crossbeam-utils_0.8.12-1.dsc 25cb9d057e383e3bdbb742846cf2dd1569db9bac 41785 rust-crossbeam-utils_0.8.12.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "56a5cd6fa1fb23b819557ab25ba39486d28b535d535a497497b7da862b60278a 3564 rust-crossbeam-utils_0.8.19-1.debian.tar.xz 0e8d6f86d0c9083053dc189f9470aa3d21f742d46a13c023b4561dcc05d0ab6f 2453 rust-crossbeam-utils_0.8.19-1.dsc 248e3bacc7dc6baa3b21e405ee045c3047101a49145e7e9eca583ab4c2ca5345 42328 rust-crossbeam-utils_0.8.19.orig.tar.gz"
+    "f4771d1f9d2b5aef529ce4a75e978e296bd0bf26c72d1b2a26a6916eb0877e0f 3568 rust-crossbeam-utils_0.8.12-1.debian.tar.xz dfee6fde4b2faa6225aa5ec60caa4436ce1f3eed415b34e576e68dde83b6ed72 2620 rust-crossbeam-utils_0.8.12-1.dsc edbafec5fa1f196ca66527c1b12c2ec4745ca14b50f1ad8f9f6f720b55d11fac 41785 rust-crossbeam-utils_0.8.12.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "06a6e3324a45b1ee0e7f7eee5d18ff723ed7af21abf54754d3aa8816f30b9531e4c0a433e6d1013297372c4ba4aaefe2b89c6e778ffe70f784b0ae671d1de75f 3564 rust-crossbeam-utils_0.8.19-1.debian.tar.xz ee0c11ef1e21d9ee6cd43bf4b5bbf1fca947aaa32a994e47a47cef83972696d007921cfa19b74c920dac4d4a0d329980d55c0bebb2c5b3ff9ed553ac32fa5b1b 2453 rust-crossbeam-utils_0.8.19-1.dsc 6e742fbb0d2a6371db87e81f8ac583259530a288237d0e8347394581c60004703a822318ec945936c410bb44001b115d8d986bb264e5b2d8091bb63a8edd93a9 42328 rust-crossbeam-utils_0.8.19.orig.tar.gz"
+    "b233030a677a22d428c5acaf843971e0f583016096e7a26e520e9a7b65375fdd92431b440b94099e1fc6c9783f62ce7f16553b8a34dd5175263625654db32cd1 3568 rust-crossbeam-utils_0.8.12-1.debian.tar.xz 08c01dd4312079c4dad0714f860e60b3d5edca973faca21dad4debbce7d832756769f030b51b2047c82eb1a8c34e1914ae778b59addbdae20b87832bc27e3e6d 2620 rust-crossbeam-utils_0.8.12-1.dsc 0e1f17887615b1883c3a0c4f0fb908999d550bd0041e8333eebbe43a964838d948fc1e5892e4ebd31e59ad53e5fbb5ebf6741dc1dd8b61907429f691c84de2d2 41785 rust-crossbeam-utils_0.8.12.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-crossbeam-utils"
   ],
   "Files": [
-    "103ffccb6e26949cfbd17b7fdbc027c2 3564 rust-crossbeam-utils_0.8.19-1.debian.tar.xz fae23142c6e3470a194c8a94c5aeb19a 2453 rust-crossbeam-utils_0.8.19-1.dsc 398f4cce1d3067cc7a56662e52a33384 42328 rust-crossbeam-utils_0.8.19.orig.tar.gz"
+    "5eddc85c37f495591cfb7031802add06 3568 rust-crossbeam-utils_0.8.12-1.debian.tar.xz aa5f44ba96117e8e826139c9f19b3d47 2620 rust-crossbeam-utils_0.8.12-1.dsc 5dc694071fea9eb300bb47b221f05373 41785 rust-crossbeam-utils_0.8.12.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "librust-crossbeam-utils-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-rand-0.7+default-dev, librust-rand-0.8+default-dev"
+    "dh-cargo, librust-rand-0.7+default-dev, librust-rand-0.8+default-dev, librust-rustversion-1+default-dev"
   ],
   "Uploaders": [
     "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, kpcyrd \u003cgit@rxv.cc\u003e, Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/crossbeam-utils]"
   ],
   "Version": [
-    "0.8.19-1"
+    "0.8.12-1"
   ]
 }

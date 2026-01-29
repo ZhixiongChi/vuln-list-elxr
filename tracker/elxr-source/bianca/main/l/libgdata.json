@@ -6,25 +6,25 @@
     "libgdata22, libgdata-common, libgdata-dev, libgdata-doc, libgdata-tests, gir1.2-gdata-0.0"
   ],
   "Build-Depends": [
-    "ca-certificates \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, meson (\u003e= 0.50), pkgconf, libglib2.0-dev (\u003e= 2.44.0), libgcr-4-dev, libgoa-1.0-dev (\u003e= 3.12.0), libjson-glib-dev (\u003e= 0.15), libxml2-dev, libsoup2.4-dev (\u003e= 2.56.0), libgdk-pixbuf-2.0-dev, libuhttpmock-0.0-dev (\u003e= 0.5.0), libgirepository1.0-dev (\u003e= 0.10.7-1~), valac"
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, meson (\u003e= 0.50), pkg-config (\u003e= 0.14), libglib2.0-dev (\u003e= 2.44.0), libgcr-3-dev, libgoa-1.0-dev (\u003e= 3.12.0), libjson-glib-dev (\u003e= 0.15), libxml2-dev, libsoup2.4-dev (\u003e= 2.56.0), libgdk-pixbuf2.0-dev, libuhttpmock-0.0-dev (\u003e= 0.5.0), libgirepository1.0-dev (\u003e= 0.10.7-1~), valac"
   ],
   "Build-Depends-Indep": [
     "gtk-doc-tools (\u003e= 1.25) \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e, libgoa-1.0-doc \u003c!nodoc\u003e, libjson-glib-doc \u003c!nodoc\u003e, libsoup2.4-doc \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "c8c8b2be0041e6ce6725dcadc5f53d7dde3344f2 24648 libgdata_0.18.1-9.debian.tar.xz 4588de4ce2e16362f678a00320d0da0212474127 2664 libgdata_0.18.1-9.dsc 83884ff5defe2c1b3a5f9586d615e21474b608e5 851584 libgdata_0.18.1.orig.tar.xz"
+    "e6ee37a557b5cbfd2036a097e52822a3c742bf51 13328 libgdata_0.18.1-2.debian.tar.xz 78d60d0472c280d3132dc104ac10ecec96e31901 2651 libgdata_0.18.1-2.dsc 83884ff5defe2c1b3a5f9586d615e21474b608e5 851584 libgdata_0.18.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "c9864804add4b88ac69e88212d92759ca0320c2477d0b849cc7308e03a55af7b 24648 libgdata_0.18.1-9.debian.tar.xz c9a1ae6fc45e688c53b392c1afe2bad06ec2bc05573e783dde5cf2c8d33687d4 2664 libgdata_0.18.1-9.dsc dd8592eeb6512ad0a8cf5c8be8c72e76f74bfe6b23e4dd93f0756ee0716804c7 851584 libgdata_0.18.1.orig.tar.xz"
+    "b7ce931c8d98edf3e97ee4d118da02d67c5668326f6069ab6cdc5fd4ff8e7c21 13328 libgdata_0.18.1-2.debian.tar.xz 95d27967810093b34b599b2259c4ec61e45d8cac92f8711b5da99f7fe5acf40f 2651 libgdata_0.18.1-2.dsc dd8592eeb6512ad0a8cf5c8be8c72e76f74bfe6b23e4dd93f0756ee0716804c7 851584 libgdata_0.18.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "33295b86af9b4586c4f170c6a612ddb12522fcb793fcf76927269bb6fc219a360ab165c1a65e145a2d4555d2ac6f5a44a995294b0453680e30c7daf520dd6318 24648 libgdata_0.18.1-9.debian.tar.xz bef4c2d272b4d7e86c7a11b6bd3e64f86c0bf5b3bdcfa5b059e399b006a89eedc029ab3b4cc769ed37fb90569c3ba1a22662dae5a80859628d0c50b20e18e9f1 2664 libgdata_0.18.1-9.dsc 15ff708760ca5023b692fd565c26a7c3acf035073534c0cd3f1f90e46ee0c60d14dedf360d3ac146d37135e200d9c2bc4b657e81468d0efde4821a9219875b98 851584 libgdata_0.18.1.orig.tar.xz"
+    "64ee0106256490ad878ba58aee8cd6072345a9f2c03f1f656c145721a0f0e550e1dbb36b3b63bbe5c61247c34c61fa9173ddfd2ad27dff69438c99566bf844eb 13328 libgdata_0.18.1-2.debian.tar.xz 75bebb4ef5db36735e1dc6a50f7c23ee96b6c68dda3a4f4d851930428833e619e816f998e77a837e6cf1b237b5e762e1dc22b3c6ab2328e31069f1ce802f17d6 2651 libgdata_0.18.1-2.dsc 15ff708760ca5023b692fd565c26a7c3acf035073534c0cd3f1f90e46ee0c60d14dedf360d3ac146d37135e200d9c2bc4b657e81468d0efde4821a9219875b98 851584 libgdata_0.18.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libg/libgdata"
   ],
   "Files": [
-    "874a4dfe7c45f7dca4ee75a9da818f1c 24648 libgdata_0.18.1-9.debian.tar.xz d92e8434485109361dd1d0f57c361879 2664 libgdata_0.18.1-9.dsc 92b058d1a0af5d1b96c86c21820f1eff 851584 libgdata_0.18.1.orig.tar.xz"
+    "1719e28d4ce1456eb0b6fe434239097a 13328 libgdata_0.18.1-2.debian.tar.xz d3ba330586bdeb0c8efa9bce7e4a6f44 2651 libgdata_0.18.1-2.dsc 92b058d1a0af5d1b96c86c21820f1eff 851584 libgdata_0.18.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "gir1.2-gdata-0.0 deb introspection optional arch=any libgdata-common deb libs optional arch=all libgdata-dev deb libdevel optional arch=any libgdata-doc deb doc optional arch=all profile=!nodoc libgdata-tests deb libs optional arch=any libgdata22 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -51,7 +51,7 @@
     "build-essential, dpkg-dev, gnome-desktop-testing, libuhttpmock-0.0-0, pkg-config, umockdev"
   ],
   "Uploaders": [
-    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Sebastien Bacher \u003cseb128@debian.org\u003e"
+    "Jeremy Bicha \u003cjbicha@debian.org\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e, Sebastien Bacher \u003cseb128@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/libgdata"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/gnome-team/libgdata.git"
   ],
   "Version": [
-    "0.18.1-9"
+    "0.18.1-2"
   ]
 }

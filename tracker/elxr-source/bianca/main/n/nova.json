@@ -9,25 +9,25 @@
     "python3-cjson"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 11), dh-python, openstack-pkg-tools (\u003e= 123~), po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools (\u003e= 123~), po-debconf, python3-all, python3-pbr (\u003e= 5.8.0), python3-setuptools, python3-sphinx"
   ],
   "Build-Depends-Indep": [
-    "alembic, bandit, genisoimage, graphviz, libvirt-daemon-system, openssh-client, procps, python3-barbicanclient, python3-castellan, python3-cinderclient, python3-coverage, python3-cryptography, python3-cursive, python3-dateutil, python3-ddt, python3-decorator, python3-eventlet, python3-fixtures, python3-futurist, python3-gabbi, python3-glanceclient, python3-greenlet, python3-hacking, python3-iso8601, python3-jinja2, python3-jsonschema (\u003e= 4.0.0), python3-keystoneauth1, python3-keystonemiddleware, python3-lxml, python3-memcache, python3-microversion-parse, python3-mysqldb, python3-netaddr, python3-neutronclient, python3-novaclient, python3-openstackdocstheme, python3-openstacksdk (\u003e= 4.4.0), python3-os-api-ref, python3-os-brick (\u003e= 6.10.0), python3-os-resource-classes, python3-os-service-types, python3-os-traits (\u003e= 3.3.0), python3-os-vif (\u003e= 3.1.0), python3-oslo.cache, python3-oslo.concurrency, python3-oslo.config (\u003e= 1:9.6.0), python3-oslo.context, python3-oslo.db, python3-oslo.i18n, python3-oslo.limit, python3-oslo.log, python3-oslo.messaging (\u003e= 14.1.0), python3-oslo.middleware, python3-oslo.policy (\u003e= 4.5.0), python3-oslo.privsep, python3-oslo.reports, python3-oslo.rootwrap, python3-oslo.serialization, python3-oslo.service, python3-oslo.upgradecheck, python3-oslo.utils (\u003e= 8.0.0), python3-oslo.versionedobjects, python3-oslo.vmware, python3-oslotest, python3-osprofiler, python3-paramiko, python3-paste, python3-pastedeploy, python3-pil, python3-prettytable, python3-psutil, python3-psycopg2, python3-pymysql, python3-requests, python3-requests-mock, python3-retrying, python3-rfc3986, python3-routes, python3-sphinx-feature-classification, python3-sphinxcontrib.actdiag, python3-sphinxcontrib.seqdiag, python3-sqlalchemy, python3-stestr, python3-stevedore, python3-testresources, python3-testscenarios, python3-testtools, python3-tooz, python3-webob, python3-websockify, python3-wsgi-intercept, python3-yaml, qemu-utils, sqlite3, subunit"
+    "alembic (\u003e= 1.5.0), bandit, genisoimage, libvirt-daemon-system, openssh-client, procps, python3-barbicanclient, python3-castellan, python3-cinderclient, python3-coverage, python3-cryptography, python3-cursive, python3-dateutil, python3-ddt, python3-decorator, python3-eventlet (\u003e= 0.30.1), python3-fixtures, python3-futurist, python3-gabbi, python3-glanceclient, python3-greenlet, python3-hacking, python3-ironicclient, python3-iso8601, python3-jinja2, python3-jsonschema, python3-keystoneauth1, python3-keystonemiddleware, python3-lxml, python3-memcache, python3-microversion-parse, python3-migrate, python3-mysqldb, python3-netaddr, python3-netifaces, python3-neutronclient, python3-novaclient, python3-openstackdocstheme, python3-openstacksdk, python3-os-api-ref, python3-os-brick (\u003e= 5.2.0), python3-os-resource-classes (\u003e= 1.1.0), python3-os-service-types, python3-os-traits (\u003e= 2.9.0), python3-os-vif, python3-os-win (\u003e= 5.5.0), python3-oslo.cache, python3-oslo.concurrency (\u003e= 5.0.1), python3-oslo.config (\u003e= 1:8.6.0), python3-oslo.context (\u003e= 3.4.0), python3-oslo.db (\u003e= 10.0.0), python3-oslo.i18n (\u003e= 5.1.0), python3-oslo.limit (\u003e= 1.5.0), python3-oslo.log (\u003e= 4.6.1), python3-oslo.messaging, python3-oslo.middleware, python3-oslo.policy (\u003e= 3.7.0), python3-oslo.privsep (\u003e= 2.6.2), python3-oslo.reports, python3-oslo.rootwrap, python3-oslo.serialization (\u003e= 4.2.0), python3-oslo.service (\u003e= 2.8.0), python3-oslo.upgradecheck (\u003e= 1.3.0), python3-oslo.utils (\u003e= 4.12.1), python3-oslo.versionedobjects, python3-oslo.vmware, python3-oslotest, python3-osprofiler, python3-packaging, python3-paramiko, python3-paste, python3-pastedeploy, python3-pep8, python3-pil, python3-prettytable, python3-psutil, python3-psycopg2, python3-pymysql, python3-requests, python3-requests-mock, python3-retrying, python3-rfc3986, python3-routes, python3-sphinx-feature-classification, python3-sphinxcontrib.actdiag, python3-sphinxcontrib.seqdiag, python3-sqlalchemy (\u003e= 1.4.13), python3-stestr, python3-stevedore, python3-testresources, python3-testscenarios, python3-testtools (\u003e= 2.5.0), python3-tooz, python3-webob, python3-websockify, python3-wsgi-intercept, python3-yaml, qemu-utils, sqlite3, subunit"
   ],
   "Checksums-Sha1": [
-    "d76e47f21f1704aa6933d13182d5feecf07a312a 70836 nova_31.0.0-6+deb13u1.debian.tar.xz 2520760e4876c58fdd32a3252a87cdc61320d587 4854 nova_31.0.0-6+deb13u1.dsc 9bfd90e7c79db45773b7ef1a24814974c9a0aa62 6124328 nova_31.0.0.orig.tar.xz"
+    "a8f7e5dfeeb5675abe20a6b115934619557a653b 88612 nova_26.2.2-1~deb12u3.debian.tar.xz f311d2c06987ffb500685026bd86d04962cba99a 5096 nova_26.2.2-1~deb12u3.dsc a6796c58f74ec57267a33af7b0db4e63e6bfb552 6000800 nova_26.2.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "bfe857aafd0e60da1b054e2f5d81e26ffcdd3d4c806d8a9d6c90b7ad48ed5fff 70836 nova_31.0.0-6+deb13u1.debian.tar.xz 8bb27d885d948b426e478262bca1c257fba97a7d8aa9a4134237bb597154c7cc 4854 nova_31.0.0-6+deb13u1.dsc 51662e6eafcb3a278f6629683494094f587188fda4e8812ab23709a30dc579bc 6124328 nova_31.0.0.orig.tar.xz"
+    "972ffa25b7de3a496cca7386df03c7d1fdb9675b6d8ace6fc4a5de161350dfe1 88612 nova_26.2.2-1~deb12u3.debian.tar.xz 3a6637f087ad5bd64c12ac1ce7215f051ee592cd6aef5213da0476c3f7b3bfaa 5096 nova_26.2.2-1~deb12u3.dsc d0fab415e15bfa70089b22e094d88ed3c7b66df0742bec52b4d9ff789e347571 6000800 nova_26.2.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "d0c69258d759b5dd7d0101d64e7291fff9366f6ad19f1dd2a15bc8eece82ee28f4a389250fb24addec726ff55600373a70c396e82530fb4ba5dcff5b0ea46d73 70836 nova_31.0.0-6+deb13u1.debian.tar.xz 68307ba10a1f8b0fd505fd17faff9f1cca54dca2038896c3eb1ca81217f20d36d7ab571e2c7bac9eadbf0647267a583a9dc17c1c0aa332fd73f08639afc313b4 4854 nova_31.0.0-6+deb13u1.dsc 144bc1ab36791bd64cbc1e43dec0a4a3686651d51561f71d3bbd56ecd5770c1b83dc796ff19c390b0a44d65cbfc058a36eb6f99086cd03007d16882a2b16e002 6124328 nova_31.0.0.orig.tar.xz"
+    "6ebe6c65d445b58b8a4bc9c234710e0278795c901f1ff7bfcd4e8690964adac23ec1a54d3db452569e1acdb50cdfe9b5e54f9757e1b92ea80e944f494c83f1b3 88612 nova_26.2.2-1~deb12u3.debian.tar.xz bdd6a82e54fec867bf0574ca09aa122a906c0593cf7023988390bbf64b1e75d11b01d7e730c2de53b1a51119fb05eb19cad6c4e56ef38ed7da6013c509e87edf 5096 nova_26.2.2-1~deb12u3.dsc 1d8db273c160191baecea9b02804706aae47e7afe326b0d8bd2d28427854ebcd2df9c76c3b82cc16d27723b35b215e92de2686e73362f714de6e9e5009d853a7 6000800 nova_26.2.2.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/n/nova"
   ],
   "Files": [
-    "0999f4fe81c44a368ce0cb0b8d4948b0 70836 nova_31.0.0-6+deb13u1.debian.tar.xz 96107987b8aac8bfa60574a2016ed88f 4854 nova_31.0.0-6+deb13u1.dsc 3d75440c9b58a64b74b46a13a74c55ce 6124328 nova_31.0.0.orig.tar.xz"
+    "599563ef4e9b6109fe876624d70a17d3 88612 nova_26.2.2-1~deb12u3.debian.tar.xz f763dbef10f0aa3bd36f439510ec94ed 5096 nova_26.2.2-1~deb12u3.dsc fddc994a8d3d81c2c41a93eafad1ea29 6000800 nova_26.2.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -63,6 +63,6 @@
     "https://salsa.debian.org/openstack-team/services/nova.git"
   ],
   "Version": [
-    "2:31.0.0-6+deb13u1"
+    "2:26.2.2-1~deb12u3"
   ]
 }

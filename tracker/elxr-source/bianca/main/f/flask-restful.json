@@ -6,25 +6,22 @@
     "python3-flask-restful, python-flask-restful-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-aniso8601, python3-blinker, python3-pycryptodome, python3-doc, python3-flask, python3-pytest, python3-setuptools, python3-sphinx, python3-tz"
-  ],
-  "Build-Depends-Indep": [
-    "python-flask-doc \u003c!nodoc\u003e, python-werkzeug-doc \u003c!nodoc\u003e"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-aniso8601, python3-blinker, python3-pycryptodome, python3-doc, python3-flask, python3-mock, python3-pytest, python3-setuptools, python3-sphinx, python3-six, python3-tz"
   ],
   "Checksums-Sha1": [
-    "2af00c0ab3f3e49798c4d26e6a9aa667b0c1d547 13396 flask-restful_0.3.10-5.debian.tar.xz d5de0666e416b13b19828637569848032d94e7f7 2449 flask-restful_0.3.10-5.dsc c75192aca33ac3236d68900390b76699dd5390e5 118694 flask-restful_0.3.10.orig.tar.gz"
+    "f80f114fa08caea35e4cb259f0bdf99c3627d2da 9856 flask-restful_0.3.9-6.debian.tar.xz f0f57ce1bc160554f9baeb2013af57d7db62d34a 2353 flask-restful_0.3.9-6.dsc c126f06e5f8323fe8c88c078dd1b917dcad292c4 118195 flask-restful_0.3.9.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "068dec32a229da4b78a5fb213c8cce868c0be287566ce8b7e36fdec5d36fe992 13396 flask-restful_0.3.10-5.debian.tar.xz 9a45ee551703c8dc408044375bbeadb6d730e423c76d97a813a37b85306e263f 2449 flask-restful_0.3.10-5.dsc f0b709993627cfa8141aba6c4cae46d918b0fd07f158fe5ea3195b041ddd831b 118694 flask-restful_0.3.10.orig.tar.gz"
+    "83e0e2cc283f74f7545fb5b40744d71d149afb7f8f2aded10d84fb0abc53c9ae 9856 flask-restful_0.3.9-6.debian.tar.xz 02a55241cdd8a314841777863b93b8cfe4b2eeb6bb6576d9d36b04bc7a9e6497 2353 flask-restful_0.3.9-6.dsc 1da71d0996312118336604a395f5ba9f43434dc26b34af5ccaed5c723757acbb 118195 flask-restful_0.3.9.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8f6a8215ade662590326fed9822dff2db04981aae44a5e6ac4629ccae1dbdbcbdfa72426563564614b5672bb8c027793eafcd7074bb7f66b2f87a24176c63cf0 13396 flask-restful_0.3.10-5.debian.tar.xz 3885dd2fc04acd81c56bfb8570aeecca6de3d9d3a262423afcf6670d4648fe250db77bba7953ddad343c9fc1088f985a6d6fc117ddf8557854d181f6de084e06 2449 flask-restful_0.3.10-5.dsc 5f9daf9d7dd2ef603c591d0c4fc49e4880c57a5da48eb21a280ffbcc36807262039074754eaa0fde8f3b1019fcfc48753a99c25c4b0ed36815dcbdd6797fb509 118694 flask-restful_0.3.10.orig.tar.gz"
+    "a7cbdbefd321260e7edbcb74a251cab8d96191d48314acc5222d9e2a6da2813fb84cf1826651339e27fe71bd13289fe89f32729f3a6379f5d6107e53b28cf724 9856 flask-restful_0.3.9-6.debian.tar.xz 95828b3120a6bd0f9ab3a016278408fb486138b6770d6572dd9a949d33f8e577969e98a64dfaaf29390e85608fd54425aa9054ee6f8455c3616a872c3aed6ca2 2353 flask-restful_0.3.9-6.dsc 34bea8ed6e9de3ad1c2ca63e7af67ed2a175f84c433b08ff643f91d88feda0e3c1c3967deb2fe5ad308b05f373b10c08245edf65ed97a7c5a3683aa900e9edf2 118195 flask-restful_0.3.9.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/f/flask-restful"
   ],
   "Files": [
-    "da3df78a492dbbd745ecbd21465f69c5 13396 flask-restful_0.3.10-5.debian.tar.xz 92d06310410c6ca1e32f3f5748ac151f 2449 flask-restful_0.3.10-5.dsc 2a114b0731e26fe6b2267f98a52a3369 118694 flask-restful_0.3.10.orig.tar.gz"
+    "4ef9d53cbf925c19a4760b920e40a396 9856 flask-restful_0.3.9-6.debian.tar.xz 7975c22e46ba8d1290fa4efa92574a72 2353 flask-restful_0.3.9-6.dsc 09b5e080a3b6c970d8a7faf72d83366d 118195 flask-restful_0.3.9.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,10 +39,10 @@
     "python-flask-restful-doc deb doc optional arch=all python3-flask-restful deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.1"
   ],
   "Testsuite": [
-    "autopkgtest, autopkgtest-pkg-pybuild"
+    "autopkgtest, autopkgtest-pkg-python"
   ],
   "Testsuite-Triggers": [
     "curl, python3-all"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/flask-restful.git"
   ],
   "Version": [
-    "0.3.10-5"
+    "0.3.9-6"
   ]
 }

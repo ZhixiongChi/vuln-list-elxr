@@ -6,22 +6,25 @@
     "printer-driver-splix"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libcupsimage2-dev, libjbig-dev"
+    "debhelper (\u003e= 7), libcupsimage2-dev, libjbig-dev"
   ],
   "Checksums-Sha1": [
-    "0f866304a7ceba906565cba2c8932c75edfb1b6c 6908 splix_2.0.1-1.debian.tar.xz e519c4f878cba1a0fcc4c4acf45aa71c0ecf0b38 2121 splix_2.0.1-1.dsc b116599080d8d53dee98da9d27e0f5a1b2a398f0 283710 splix_2.0.1.orig.tar.gz"
+    "cb2b9e8062dbce2901082747d9b0d24980f16cfa 7508 splix_2.0.0+svn315-7.debian.tar.xz 14303f55195f02f086ec4a6490c565e0684acf39 1908 splix_2.0.0+svn315-7.dsc 4f706b90a92706397ae6106d23983c36c7c5b688 232905 splix_2.0.0+svn315.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "73610eff06ede0ddcc56e844a9d951993040e28a4f09630b284089c6b7527b0a 6908 splix_2.0.1-1.debian.tar.xz 61ed0b875e0199e1869d9bf39a9ad20d0cc44e6e91301133b051e5879e79a6be 2121 splix_2.0.1-1.dsc b672501f16f07f3c43543708248b789d15467eacfe18f25ab8f83f0209da1f8a 283710 splix_2.0.1.orig.tar.gz"
+    "e092e9c603ea22ec74e02cb8d748f5708cce6a1e7de2bb43100c4f67125f7af1 7508 splix_2.0.0+svn315-7.debian.tar.xz 66fb951f4873079907615de6f4b3b9db347021173b5b71f9065c6b48c94843f1 1908 splix_2.0.0+svn315-7.dsc 578a81bd5b1b97756a539c3bb6339fd109d54419887a73e705941da8aa7fac52 232905 splix_2.0.0+svn315.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "6a4850a4a553ac58b6f6032099f178e732724c20a1fad1a0f38e4966cc150c177d2539ebd70ce3bc222b95ae15131c02142287155c0ad9792d1de60e983cd947 6908 splix_2.0.1-1.debian.tar.xz 404add3d12d5ab3fadbc348b01b8eab1a5947acfa8e97662b33ae834efdd7067eb13337bfb3b3af7ff9809a4353b9f5b83dbe3eafe8205abea8ce28d49a359e9 2121 splix_2.0.1-1.dsc 5d4c0a593d0c29bd069786a83e71768c454a909e74e9184fe3d082b8ab1674e31b537ce44f50bdb2ed6da83fc6d349805de149aa9fd3db5486292dade1a8345a 283710 splix_2.0.1.orig.tar.gz"
+    "451aa91f9d7d0e33e0bbc6e397143cdc02b66aa0d84cbfd0e2af22a2cea13bf5ad15582905f16e0708552d4746f12c6698ff5464f74194a81c2753fa655fb31a 7508 splix_2.0.0+svn315-7.debian.tar.xz af0b241b33be37cae58505b796b683d372119edb478f306f71bec2ae9db890e018d379ed6ecaabd5d7c4fb15ece30c1b4e950a392c6212d744ea11a3864cf4db 1908 splix_2.0.0+svn315-7.dsc 3ea4cee4f24c44dacdc3d474e1b8c0bed016d6673f2a84a1b33b45d7746897a7511725f830748a90de7be0a6ae5f29a7364ab60f1683398c435af2cf46d84be7 232905 splix_2.0.0+svn315.orig.tar.gz"
+  ],
+  "Dgit": [
+    "28411f4f74cda0e1b0042369391bfc575ad3989e debian archive/debian/2.0.0+svn315-7 https://git.dgit.debian.org/splix"
   ],
   "Directory": [
     "pool/main/s/splix"
   ],
   "Files": [
-    "36bd89237cfb8140455c0f0db22fedc1 6908 splix_2.0.1-1.debian.tar.xz 2b6de41937c15bca644289cf7f1321d9 2121 splix_2.0.1-1.dsc acfee35b2bd183411eff30e9305fe6ac 283710 splix_2.0.1.orig.tar.gz"
+    "634dd359dd342ec42edd49226f8dd373 7508 splix_2.0.0+svn315-7.debian.tar.xz 0777c123d5bb0680c43c2775623c57e1 1908 splix_2.0.0+svn315-7.dsc 295800ca2240eb888661989f6e33f686 232905 splix_2.0.0+svn315.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +42,10 @@
     "printer-driver-splix deb text optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.1.3"
   ],
   "Uploaders": [
-    "Luca Niccoli \u003clultimouomo@gmail.com\u003e, Thorsten Alteholz \u003cdebian@alteholz.de\u003e"
+    "Luca Niccoli \u003clultimouomo@gmail.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/printing-team/splix"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/printing-team/splix.git"
   ],
   "Version": [
-    "2.0.1-1"
+    "2.0.0+svn315-7"
   ]
 }

@@ -3,31 +3,31 @@
     "any all"
   ],
   "Binary": [
-    "libcbor0.10, libcbor-dev, libcbor-doc"
+    "libcbor0.8, libcbor-dev, libcbor-doc"
   ],
   "Build-Depends": [
     "debhelper-compat (= 13)"
   ],
   "Build-Depends-Arch": [
-    "cmake, debhelper (\u003e= 13.12~) \u003cnocheck\u003e, libcmocka-dev \u003c!nocheck\u003e"
+    "cmake, libcmocka-dev \u003c!nocheck\u003e"
   ],
   "Build-Depends-Indep": [
     "dh-sequence-sphinxdoc, doxygen, python3-sphinx, python3-sphinx-rtd-theme, python3-breathe"
   ],
   "Checksums-Sha1": [
-    "72f32da368d58eccb19c017f9e63e9ac8061ef55 6148 libcbor_0.10.2-2.debian.tar.xz daefc37a88cf39a7de4d23fde0921f61f9a06209 2156 libcbor_0.10.2-2.dsc 926051e0ad493c19b7e19b4ff0c360e3b1afa70c 289450 libcbor_0.10.2.orig.tar.gz"
+    "7d50deff3b428839a3509d861f925b90478e1a0e 4024 libcbor_0.8.0-2.debian.tar.xz f6b0c08a814fa6a425231461feacee326dc488e7 2114 libcbor_0.8.0-2.dsc 7ef8ab1d41973da933b27516b3398cbdeade6cb1 267044 libcbor_0.8.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "85c84ec8bafc8369fddb183ddb4c173cb23b1fc5f57bdd94e2763c4bdbccc6ad 6148 libcbor_0.10.2-2.debian.tar.xz 45d6e3f92a54584c5a19ea861095d04415d1eb380658a0e6ee61f690f378cba3 2156 libcbor_0.10.2-2.dsc e75f712215d7b7e5c89ef322a09b701f7159f028b8b48978865725f00f79875b 289450 libcbor_0.10.2.orig.tar.gz"
+    "48df3ff85250d1e6274a19d9bcc18b5b582a368667120b7bd21d798ca6feccb0 4024 libcbor_0.8.0-2.debian.tar.xz ea9cbadf7d9cd9a3f7dcf7467f3e71dd7aab6d06cad15d01b2f0c19a0ad749a7 2114 libcbor_0.8.0-2.dsc 618097166ea4a54499646998ccaa949a5816e6a665cf1d6df383690895217c8b 267044 libcbor_0.8.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "dc9396164b5d86de7fe221998b429d298eb2329f1492471e57da77a5c2a70450002feaf3f048c8607192679851442d6564ca442d4255c06fe8504a222d93940b 6148 libcbor_0.10.2-2.debian.tar.xz bb25c95b3d5bca9762b9d76c2bbb751538c60bda1c155fe4937feb697d07e5d74a128eb7d036e3c3499ca239c4059a0d2a2d12b29a488d625ee1fa7056bc416b 2156 libcbor_0.10.2-2.dsc 23c6177443778d4b4833ec7ed0d0e639a0d4863372e3a38d772fdce2673eae6d5cb2a31a2a021d1a699082ea53494977c907fd0e94149b97cb23a4b6d039228a 289450 libcbor_0.10.2.orig.tar.gz"
+    "4aaa2f6844e570f924f6108330da0b6057a857577111a1f5815ab3abd5e339b06a10226b7912d24dea0b5b0d6cfe2a093b0d0f6212332868d2db44c486e29af9 4024 libcbor_0.8.0-2.debian.tar.xz 0c4d5dbe3b5f273a067aeab441d85b468ca8d7cbdea76195873cb32fcac67f21e20903b512df95b4c5cddb0cc850ff99e79b4e9f0c9138bc13d3d0c5b5d248ee 2114 libcbor_0.8.0-2.dsc 694d2d3a78d80072f96e0afb73590ca1f3572e41d2117330ef4313ed06271743b048d3ba3259c6ffe9a802d5e441379d0e54787d1d42fed08dc81ac4f06c6dbc 267044 libcbor_0.8.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libc/libcbor"
   ],
   "Files": [
-    "b2c9cb13430e047365835c476a2c1ba5 6148 libcbor_0.10.2-2.debian.tar.xz 41e29c9c1f4b42151df4c3225a9dba6c 2156 libcbor_0.10.2-2.dsc da3a6a64614678b4f67eced25f52c53b 289450 libcbor_0.10.2.orig.tar.gz"
+    "29bcd3413471744132adea096b33358d 4024 libcbor_0.8.0-2.debian.tar.xz b84be43e4d4d7d34f6c8c027d0f3fda3 2114 libcbor_0.8.0-2.dsc 28348bcbc40c5f0d9760099f87c547a6 267044 libcbor_0.8.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,10 +42,10 @@
     "libcbor"
   ],
   "Package-List": [
-    "libcbor-dev deb libdevel optional arch=any libcbor-doc deb doc optional arch=all libcbor0.10 deb libs optional arch=any"
+    "libcbor-dev deb libdevel optional arch=any libcbor-doc deb doc optional arch=all libcbor0.8 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.5.0"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/libcbor"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/libcbor.git"
   ],
   "Version": [
-    "0.10.2-2"
+    "0.8.0-2"
   ]
 }

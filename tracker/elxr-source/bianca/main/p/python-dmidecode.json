@@ -6,22 +6,22 @@
     "python3-dmidecode, python-dmidecode-data"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, liblzma-dev, libxml2-dev, pkgconf, python3-all-dev, python3-libxml2, python3-setuptools"
+    "debhelper-compat (= 12), dh-python, liblzma-dev, libxml2-dev, pkg-config, python3-all-dev, python3-libxml2"
   ],
   "Checksums-Sha1": [
-    "6f82c255b188d199c1de780ca18095a525b671cc 7432 python-dmidecode_3.12.3-4.debian.tar.xz 5eff1a246328da2e3b4b30bed8dc3249bbc2fc4a 2267 python-dmidecode_3.12.3-4.dsc f06f73840beba1575ff0109c23a9de0e7b8ab21f 156670 python-dmidecode_3.12.3.orig.tar.gz"
+    "25a4122e7fd5ca238c38dd76b475725c993ea652 7916 python-dmidecode_3.12.2-13.debian.tar.xz 282a2751a6745e312491877334ad103119936de1 1604 python-dmidecode_3.12.2-13.dsc e0a5f9bca278b1a6eb3e899b32e181c9eb5eabbd 147096 python-dmidecode_3.12.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a5e8dfcf2c0c4d7d91a1b03caaafc38a0f5ac258004337ded11dc5e18ae769b1 7432 python-dmidecode_3.12.3-4.debian.tar.xz 5194c679371564c2e29df1a364b67ad856bcfe7e15da1d6dc9c6dfcf97851ecc 2267 python-dmidecode_3.12.3-4.dsc 44d45d7d8344290c259c989d3af3f614c7837cbd85052d486adfa46a1c777164 156670 python-dmidecode_3.12.3.orig.tar.gz"
+    "6c7a56e243a7655f1a3eca48feb257b0ceb659ed651a1ca23d0783e8eb39b08b 7916 python-dmidecode_3.12.2-13.debian.tar.xz 632fb64c848584a9943e115358e3b3ad88b1bdb791fda869dd53b91f77845e0b 1604 python-dmidecode_3.12.2-13.dsc 2f9d311f09988a645707dbed883d513daca9729ab84efe8317fe5393eae9769d 147096 python-dmidecode_3.12.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "15f44d0a3752883881adb76e844b833f95efde9b46c04ad1cad3d7bcbbf3e4e5c5d831ee2ae4bcb1021b89bc1bddc7113733f3798de9058d4d9d7cc56eee6b0f 7432 python-dmidecode_3.12.3-4.debian.tar.xz 7ccf517b68aa784226d54af708175190a63e79715769b780ead7ba7b7f13f238579fd8b47d8d54257edbeaed9d6572dde8582c1d5a0114d7f93d4b94e055744d 2267 python-dmidecode_3.12.3-4.dsc b9436236851f9a225340279e50ae3a4a8def10e5a75d918d7b1cf77c8c2213632acd72ece58eaf09f2dc5f26d93ce44d9da9249182bb00147ed9249cd40449cf 156670 python-dmidecode_3.12.3.orig.tar.gz"
+    "72c77756cd489e58ffd81186f650aca863f9321bcc5ad9e906b9f6818ba865d54b4c51d518c791c1bdb1a3bb090c16acb17353d61edf269a8a5df4e733d81737 7916 python-dmidecode_3.12.2-13.debian.tar.xz 91a4276bed9f0236ef6f8cd130780b3ea63ad0fa25f6fc2d6de8a57e619d6e601fadefe4950c374a930a6540650900339358e3a37ad097dfd583f9ac79cd9510 1604 python-dmidecode_3.12.2-13.dsc da5c4d52d74b77c3aa6fc7b63b9fd29150a6e915286efbcfc4284caa0bacf8a1bc077614c83ee93f14e7d9502713a37f135885a075b96b1bf73bd0704e5a258f 147096 python-dmidecode_3.12.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-dmidecode"
   ],
   "Files": [
-    "6639509bba2ef890e9959ada976f1444 7432 python-dmidecode_3.12.3-4.debian.tar.xz 244bfdc4b74d99390ffe84fcf8d93539 2267 python-dmidecode_3.12.3-4.dsc 9361ae70c679e50c5b0e7f110ea22769 156670 python-dmidecode_3.12.3.orig.tar.gz"
+    "aef410472bf444f5e9073bccb2bae7ee 7916 python-dmidecode_3.12.2-13.debian.tar.xz 39313cef4ac457310fb87bd34b3ed72a 1604 python-dmidecode_3.12.2-13.dsc 458d83ac45316ec40df327b183b2030e 147096 python-dmidecode_3.12.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://github.com/nima/python-dmidecode"
   ],
   "Maintainer": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
+    "Sandro Tosi \u003cmorph@debian.org\u003e"
   ],
   "Package": [
     "python-dmidecode"
@@ -39,13 +39,10 @@
     "python-dmidecode-data deb python optional arch=all python3-dmidecode deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
-  ],
-  "Testsuite": [
-    "autopkgtest-pkg-python"
+    "4.5.0"
   ],
   "Uploaders": [
-    "Emmanuel Arias \u003ceamanu@debian.org\u003e"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-dmidecode"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/python-team/packages/python-dmidecode.git"
   ],
   "Version": [
-    "3.12.3-4"
+    "3.12.2-13"
   ]
 }

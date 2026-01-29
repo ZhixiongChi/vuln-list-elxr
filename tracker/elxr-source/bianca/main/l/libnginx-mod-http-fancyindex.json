@@ -6,22 +6,22 @@
     "libnginx-mod-http-fancyindex"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-nginx"
+    "debhelper-compat (= 13), dh-sequence-nginx, nginx-abi-1.22.1-7"
   ],
   "Checksums-Sha1": [
-    "6f5614007abe67566d2cd0cda2c2b29012d9f560 4328 libnginx-mod-http-fancyindex_0.5.2-6.debian.tar.xz 96560d73e442a7acd135a6e6ee05120f48e5fd55 2260 libnginx-mod-http-fancyindex_0.5.2-6.dsc 02dcc1ace7df66240e9a576e7e52832081021066 29052 libnginx-mod-http-fancyindex_0.5.2.orig.tar.gz"
+    "084685f179519e76c157ae2fc79aacc4eb2b97ee 4204 libnginx-mod-http-fancyindex_0.5.2-3.debian.tar.xz c3e05e1e996a1934e40b980c8664f994fa4ab407 2280 libnginx-mod-http-fancyindex_0.5.2-3.dsc 02dcc1ace7df66240e9a576e7e52832081021066 29052 libnginx-mod-http-fancyindex_0.5.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "342baedd3fdb1e78e3a6512d9d656b85f2afd0c2d54c41564dc42224328fdb8a 4328 libnginx-mod-http-fancyindex_0.5.2-6.debian.tar.xz 89f059037d2cbd462dafe53d4d67021fcc990b707201bf15d371227cf9fd7a2f 2260 libnginx-mod-http-fancyindex_0.5.2-6.dsc c3dd84d8ba0b8daeace3041ef5987e3fb96e9c7c17df30c9ffe2fe3aa2a0ca31 29052 libnginx-mod-http-fancyindex_0.5.2.orig.tar.gz"
+    "55f943508dfe8dfd09106f6fce5add5608300723150a519cd4d6274daf3207c3 4204 libnginx-mod-http-fancyindex_0.5.2-3.debian.tar.xz dc6384ccc46f4a5c969c5d5696992c50180b1bb32ced25e0b6e367306ab9ecf1 2280 libnginx-mod-http-fancyindex_0.5.2-3.dsc c3dd84d8ba0b8daeace3041ef5987e3fb96e9c7c17df30c9ffe2fe3aa2a0ca31 29052 libnginx-mod-http-fancyindex_0.5.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e2bd0de4d58c868ae3b9a23848888a356835d7a009f84af9b564832d4b8728f3d385ece333fc648cb66c607e61888c42d97f130d7e7f53be832f5d301fdabccb 4328 libnginx-mod-http-fancyindex_0.5.2-6.debian.tar.xz 159e67f1397ee35c755f04b7dfa38f04b8af15d0b906f38e8f5e89def6c294848f3dc0006ecad0c7a58f66196f270ef96fcb52eff8b9b429438b3b4a2877d892 2260 libnginx-mod-http-fancyindex_0.5.2-6.dsc c208cdf3e245527d7b313f9ef1f5d36ca26e3bdafe67df56492a13b7726587538665e5d9fd50f295fc933f218dc33394f2fe442713d15631701dbfc4a156799b 29052 libnginx-mod-http-fancyindex_0.5.2.orig.tar.gz"
+    "51b3eebc717e51de6c2eb97d806fdc601f7cb2bc7c00964de2dfc6e703aef42757673d7f500d63471faad1e24ea4bab0b6b2b1fc5c3f27ca75d1c8e497a668c6 4204 libnginx-mod-http-fancyindex_0.5.2-3.debian.tar.xz 7f92dbc13445d67e6b1f357e8a9ce613a76e2b781c550970412f809d04ca2d331111a5021c8cdaf6012c18f983ebedfd911b58c27ec8181da9396240d53ca686 2280 libnginx-mod-http-fancyindex_0.5.2-3.dsc c208cdf3e245527d7b313f9ef1f5d36ca26e3bdafe67df56492a13b7726587538665e5d9fd50f295fc933f218dc33394f2fe442713d15631701dbfc4a156799b 29052 libnginx-mod-http-fancyindex_0.5.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libn/libnginx-mod-http-fancyindex"
   ],
   "Files": [
-    "24941db36d2b3e1c082f34bece0692b4 4328 libnginx-mod-http-fancyindex_0.5.2-6.debian.tar.xz 12b91d05d894af2d8e1fa415b2912ff5 2260 libnginx-mod-http-fancyindex_0.5.2-6.dsc 5d29c959724b7f1b23879cd122bd0b1d 29052 libnginx-mod-http-fancyindex_0.5.2.orig.tar.gz"
+    "f1657b2e50074b5b8bfb035598c9d6d0 4204 libnginx-mod-http-fancyindex_0.5.2-3.debian.tar.xz 7354376e2a876bf66185620bc5a95121 2280 libnginx-mod-http-fancyindex_0.5.2-3.dsc 5d29c959724b7f1b23879cd122bd0b1d 29052 libnginx-mod-http-fancyindex_0.5.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libnginx-mod-http-fancyindex deb httpd optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "curl, nginx, nginx-core"
   ],
   "Uploaders": [
-    "Jan Mojžíš \u003cjanmojzis@debian.org\u003e,"
+    "Jan Mojžíš \u003cjan.mojzis@gmail.com\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/nginx-team/libnginx-mod-http-fancyindex"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/nginx-team/libnginx-mod-http-fancyindex.git"
   ],
   "Version": [
-    "1:0.5.2-6"
+    "1:0.5.2-3"
   ]
 }

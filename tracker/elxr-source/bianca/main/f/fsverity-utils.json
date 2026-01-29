@@ -6,28 +6,28 @@
     "fsverity, libfsverity0, libfsverity-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libssl-dev (\u003e= 1.0), pkgconf"
+    "debhelper-compat (= 13), libssl-dev (\u003e= 1.0), pkg-config, pandoc"
   ],
   "Checksums-Sha1": [
-    "1c3a673984a2810d5a2480cc94faa6a4b6361ac3 3132 fsverity-utils_1.6-1.2.debian.tar.xz aaae5be11b93b611ea43153c8c62ee8f31b19155 2098 fsverity-utils_1.6-1.2.dsc c050ac1646dfbf2e2d87ec6085df12307ce12dd1 38476 fsverity-utils_1.6.orig.tar.xz"
+    "f5f28ae8fb32c7bccb4c2bac8a6434e1dee04b98 2968 fsverity-utils_1.5-1.1.debian.tar.xz 7758507ad3f5544afd301923519cc7f8cc6620ef 2124 fsverity-utils_1.5-1.1.dsc 9d19e1f47df087f3ceb1f5680dee4410f13522d5 38124 fsverity-utils_1.5.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "92b57cc7aad828af461e1b334398c008371ed099f2a07aee9fd1560b696704b2 3132 fsverity-utils_1.6-1.2.debian.tar.xz 5869b70d13910d450ce1ed5cf452a6695b5794281e50d34f43b8539d0d25fe13 2098 fsverity-utils_1.6-1.2.dsc b46617dffe73c3b8a0c8e12cbdc63e4cf106529c790771ca50b27336ff88f0ec 38476 fsverity-utils_1.6.orig.tar.xz"
+    "e2e1991d4edd581fe0994b2b36dc52999b43eb7506b0ea4106445dc68f3ef573 2968 fsverity-utils_1.5-1.1.debian.tar.xz 0b1698abb355e37dbfb40b8fd39df19f7c0d545ac90ed6c4afc9f490bab122ce 2124 fsverity-utils_1.5-1.1.dsc 3f8ecd55d05b87b68cea240486f18aba7c9bc153f6ee9f50e0556fdaaf741f36 38124 fsverity-utils_1.5.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "46404402f22685e3d980fcc615bb7b1ebbf49ee8116adfa9f82eb8d28fb74316a257649032b1ea6f09bd0efe1af0f1815fe74feacc269af90d2c66b3966ffadf 3132 fsverity-utils_1.6-1.2.debian.tar.xz dae168c1e10d1e07b760876840ba5cb3bd6a95995528fc85fcca9a9f1b9dbfaed383e685e4f5b637fac6e9b8f8e35b20f8c684e80177071f37db2384a2879d99 2098 fsverity-utils_1.6-1.2.dsc d4b5724785fd05fbc53445914573e17cc1819979293dd1a4be8f553d161439fbea8cb072c1fd91c355934c43dedbeecb2da3d66df2ea974d6376077664b895cb 38476 fsverity-utils_1.6.orig.tar.xz"
+    "0a3c72bc3cb57260efcc425e3b8fca26a161a7b2b7b9017ff06eedda5b3e23ec0d34873a6239fffad8aa1bbb5f6bdbf6bb8a5ddbb242286d939e03d7ab5ff77c 2968 fsverity-utils_1.5-1.1.debian.tar.xz 1ebd63dba773b319c974499aa2dd546a0d2fab7631f9d325932ffc747832be4fad88f183b93c09eb408d676a25108aafdae4ec3008623643066108059d6d0349 2124 fsverity-utils_1.5-1.1.dsc c9a02452c4d55f60a72fcc1ccc6e05ff803c245e499914c8d36823ba73f4011cd7299f11f84d94c7589ba3e8acea65cafdfe9c8934c0999055bc5db251512245 38124 fsverity-utils_1.5.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/f/fsverity-utils"
   ],
   "Files": [
-    "c5a910d165763a80ac4be042b07e4c47 3132 fsverity-utils_1.6-1.2.debian.tar.xz a68d89b934199ab649e9178b825260c0 2098 fsverity-utils_1.6-1.2.dsc 7c4170974e26a0fdb112882f5b6f1e70 38476 fsverity-utils_1.6.orig.tar.xz"
+    "48b1400e78950cbb0b1bb2e375211d61 2968 fsverity-utils_1.5-1.1.debian.tar.xz 26768f93a7cbe9e3c251b1ecf887231c 2124 fsverity-utils_1.5-1.1.dsc 40eef80492323ce8fee8e941fe8e80a3 38124 fsverity-utils_1.5.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://git.kernel.org/pub/scm/fs/fsverity/fsverity-utils.git"
+    "https://git.kernel.org/pub/scm/linux/kernel/git/ebiggers/fsverity-utils.git"
   ],
   "Maintainer": [
     "Romain Perier \u003cromain.perier@gmail.com\u003e"
@@ -39,7 +39,7 @@
     "fsverity deb admin optional arch=linux-any libfsverity-dev deb libdevel optional arch=linux-any libfsverity0 deb libs optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/fsverity-utils"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/fsverity-utils.git"
   ],
   "Version": [
-    "1.6-1.2"
+    "1.5-1.1"
   ]
 }

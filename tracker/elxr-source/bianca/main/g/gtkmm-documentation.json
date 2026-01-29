@@ -6,22 +6,22 @@
     "gtkmm-documentation"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), docbook-xsl, itstool, libglibmm-2.68-dev, libgtkmm-4.0-dev, libxml2-utils, meson, mm-common (\u003e= 0.9.10), xsltproc"
+    "debhelper (\u003e= 11), gnome-pkg-tools (\u003e= 0.11), yelp-tools, libglibmm-2.4-dev (\u003e= 2.50.0), libgtkmm-3.0-dev (\u003e= 3.24.0), mm-common (\u003e= 0.9.10)"
   ],
   "Checksums-Sha1": [
-    "846a18f4da3e289e88734f2aaccd08617f16131a 5376 gtkmm-documentation_4.12.0-1.debian.tar.xz 9471fa30b028d1d42e2c5be23ba0fe9f6c56bdf0 2146 gtkmm-documentation_4.12.0-1.dsc 800adbfafeb888ce516910ebaf8a73a79f10c712 2955452 gtkmm-documentation_4.12.0.orig.tar.xz"
+    "8321230beb67d5b2afd4efd2e64239dca62404a5 5160 gtkmm-documentation_3.24.0-1.debian.tar.xz 3e0df817b5c88b610ac15f6814e5892786622feb 2181 gtkmm-documentation_3.24.0-1.dsc 5da44989c9ff9e913b44f507abc080e33dbd4644 2414504 gtkmm-documentation_3.24.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "919123a410ca413195530d2a39fc17271438ddeca6943abc4d2417ae725b473a 5376 gtkmm-documentation_4.12.0-1.debian.tar.xz 47fb990715e0c4b311c9a08ed16439537456fad8a62ca5c16b045ee8f8b425df 2146 gtkmm-documentation_4.12.0-1.dsc fe097bb991dcda535ae50f59d7707fd0dd60839d26ddc70d8004c269bd69ff53 2955452 gtkmm-documentation_4.12.0.orig.tar.xz"
+    "2530bb7e2e70e94e44c6403913ce2689004a49d5e62dd102ff799ef0f53eb6f4 5160 gtkmm-documentation_3.24.0-1.debian.tar.xz 7e40c9a3af69e2530bb2fde0f5fe7baa059eea851f5b29038c13f6ccdb65f5bc 2181 gtkmm-documentation_3.24.0-1.dsc c4e0e18c3dda6e20c0122bc7f59663b14dddcc3abc9c60d3e1eb88ca67a31ba8 2414504 gtkmm-documentation_3.24.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "3174d66b7e76ec63dd6598649537a81f60c2c6920ecb4ff9d9db37867561e49ac70e2035bc9b121f529dcafc3359f1a294d6a4ea832296101b1ba0a98f4ee6ad 5376 gtkmm-documentation_4.12.0-1.debian.tar.xz 240b6bb495503b3d02abe398f9c0547fb58ebcdbb3c6af8ff29efc6782ad0cebbd67bbb249ffea8989a4fd4369037244ce4c72408916d65dcb6f86cf347e33f9 2146 gtkmm-documentation_4.12.0-1.dsc 43e4b3cd12c441b55aee155595ca3340569a09ec73f74fc1a965ed65498e5c990f544a3a6e30c84217600c24455f1dbb12baac1849d239b82f76cf0851996711 2955452 gtkmm-documentation_4.12.0.orig.tar.xz"
+    "e2a4e52aba5df23fb246a36a5bb61a250dc6dc75f5758f2eaee188fdfe57a97092c8abddb2aafea3e121a76a55c2eef7e2065cd22604199af5aca3cd1bcd7b61 5160 gtkmm-documentation_3.24.0-1.debian.tar.xz 50edfa2849633e24da27f5cfa73d9169c6277c5739fdd5b95dc3817cffcc3ed52d95920dd500a566cb44b224d7b1dca34e4d414a5c639beeb3515a69243b531b 2181 gtkmm-documentation_3.24.0-1.dsc 34f1e0018bbf03c67dfb5da81fee944ac679cfa490a655813e452108c841c479a0a623f595357ac78533cac3df71f1742a2686cb7a821f56402b18802d37e2ac 2414504 gtkmm-documentation_3.24.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gtkmm-documentation"
   ],
   "Files": [
-    "685626de81b941fe009b4776ce14dfb2 5376 gtkmm-documentation_4.12.0-1.debian.tar.xz 8f6dc21ee1a908ddc0cbdc99f56449d9 2146 gtkmm-documentation_4.12.0-1.dsc 4e8ee765d943012a99fa1d0fe954b71b 2955452 gtkmm-documentation_4.12.0.orig.tar.xz"
+    "871b722191e4810a79d942763eb005ab 5160 gtkmm-documentation_3.24.0-1.debian.tar.xz 67a6e33be32f9faac51fab794e4fb686 2181 gtkmm-documentation_3.24.0-1.dsc da045a28d698c985eb3f4bc84a22507f 2414504 gtkmm-documentation_3.24.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "gtkmm-documentation deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.2.1"
   ],
   "Uploaders": [
-    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
+    "Jeremy Bicha \u003cjbicha@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/gtkmm-documentation"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/gtkmm-documentation.git"
   ],
   "Version": [
-    "4.12.0-1"
+    "3.24.0-1"
   ]
 }

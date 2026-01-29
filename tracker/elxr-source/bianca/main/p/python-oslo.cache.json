@@ -9,22 +9,22 @@
     "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx \u003c!nodoc\u003e"
   ],
   "Build-Depends-Indep": [
-    "python3-binary-memcached, python3-debtcollector, python3-dogpile.cache (\u003e= 1.3.3), python3-etcd3gw, python3-hacking, python3-memcache, python3-openstackdocstheme \u003c!nodoc\u003e, python3-oslo.config, python3-oslo.i18n, python3-oslo.log, python3-oslo.utils, python3-oslosphinx, python3-oslotest, python3-pymemcache, python3-pymongo, python3-redis, python3-sphinxcontrib.apidoc, subunit, testrepository"
+    "python3-binary-memcached, python3-dogpile.cache (\u003e= 1.1.5), python3-etcd3gw, python3-hacking, python3-memcache, python3-openstackdocstheme \u003c!nodoc\u003e, python3-oslo.config, python3-oslo.i18n, python3-oslo.log, python3-oslo.utils, python3-oslosphinx, python3-oslotest, python3-pymemcache (\u003e= 3.5.0), python3-pymongo, python3-sphinxcontrib.apidoc, subunit, testrepository"
   ],
   "Checksums-Sha1": [
-    "e78a67a7fd1757fc5abea4e281acbc7455420339 5644 python-oslo.cache_3.10.1-3.debian.tar.xz f8206598d295dc636270ce8093ba2a144e0553e4 2712 python-oslo.cache_3.10.1-3.dsc 0f359cf4692fd9ad2f97d7a1e1f120f3fb2c31f2 51288 python-oslo.cache_3.10.1.orig.tar.xz"
+    "e83fd80249d50e3619e16989e64a533317407edd 4324 python-oslo.cache_3.2.0-1.debian.tar.xz d232f2f29e037dc3963ae06e3b0df83a179c4248 2678 python-oslo.cache_3.2.0-1.dsc 458eb43da7c162b9abac119d9e5936cbb49276d9 47100 python-oslo.cache_3.2.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "50619647f1e80c5bf3db9182c22b5b623274fac0320aa155168b056e510e2341 5644 python-oslo.cache_3.10.1-3.debian.tar.xz d68a329f65c74ead842f8c6e56db2ee339f42300805c3de31a462b5de6b857cd 2712 python-oslo.cache_3.10.1-3.dsc b1801e90b6ffed33593919400cd0270917628dd76650962b05ebb6eb57e6552c 51288 python-oslo.cache_3.10.1.orig.tar.xz"
+    "877bd8072b79e58e7780f6c7a587d1e577c15d27d531778eae47663eabf4e9ae 4324 python-oslo.cache_3.2.0-1.debian.tar.xz 6bd5dc55dd0300ef0dbc61894e083c70810150c4c0b39e0c7697fb2748a4b8ff 2678 python-oslo.cache_3.2.0-1.dsc 53abd1614c92c933c1a9facf1f97a7d4db5fb298418bfcb71641088ee5e31e58 47100 python-oslo.cache_3.2.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "b5c631edad610ff17559f49e3cb4460a9e2f0933b9aad51dc72959f1fcd5a1589d2bc6c91772505f3e6a90258dd43a44f5e5ca61eda1bb7c7ef9f386b4f3d06e 5644 python-oslo.cache_3.10.1-3.debian.tar.xz 105c1929b8187aa3038b5a13a42aa440d652e9e7e5a5406c0c2bea9fc33851e6506b2eb678ed08b77f48ae88e59b84c8645471931cb14ba3494e484ba4f6ebe5 2712 python-oslo.cache_3.10.1-3.dsc 30d7eccd9db0771145d0f70e905dbd85178319d70f3319e340d37579eaa5002332d0a237c66180c76d0aefaff768c388d019cee361eb7b30545e7102d716e5f6 51288 python-oslo.cache_3.10.1.orig.tar.xz"
+    "eeace241ce5d340e9591db2589e46dd8ef2b5949fdaf42c86f1e89eada4c76e37b537d6261e9aa64341c7a4b8e0ea223b5a49d35bf1a7b5adcfbe603af34e682 4324 python-oslo.cache_3.2.0-1.debian.tar.xz 050ccbc65b672cd53c3be1cf9e51e9a30f1a716893fa276b8a1d340d6edf87a06233e0385794f25b77c45c8ddf6e5bc5786d1179d3edc0ff1e220779448592f8 2678 python-oslo.cache_3.2.0-1.dsc 809d8fa02afe202d2002a96b503520d4280972c34fc540b9e70eb618ea1295ef5174ab6ba2d34417511ae622444287e7004f7bd621c881d00276a02dad650394 47100 python-oslo.cache_3.2.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-oslo.cache"
   ],
   "Files": [
-    "4ee69a1275fac85c0be5d7dd49474dd8 5644 python-oslo.cache_3.10.1-3.debian.tar.xz 1a6089c9b23d530f689c9612ef2a4ef5 2712 python-oslo.cache_3.10.1-3.dsc b0b41674957898bc60ceda9583200853 51288 python-oslo.cache_3.10.1.orig.tar.xz"
+    "3233fc70e42e222b0b832846668a5984 4324 python-oslo.cache_3.2.0-1.debian.tar.xz 1f021b6418e95b047bc08767d7f3bd45 2678 python-oslo.cache_3.2.0-1.dsc 613ba34d9634c107a95d9e3576de3500 47100 python-oslo.cache_3.2.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/openstack-team/oslo/python-oslo.cache.git"
   ],
   "Version": [
-    "3.10.1-3"
+    "3.2.0-1"
   ]
 }

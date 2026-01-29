@@ -9,19 +9,19 @@
     "debhelper-compat (= 12), dh-golang, golang-any, golang-github-miekg-dns-dev, golang-golang-x-net-dev"
   ],
   "Checksums-Sha1": [
-    "bbca270aa8d2896b93666d881f23b0d800f96b46 3024 golang-github-hashicorp-mdns_1.0.5-1.debian.tar.xz aea15c00d46f72e0d5a31fcdb770dc05436e8b1d 2339 golang-github-hashicorp-mdns_1.0.5-1.dsc 20cd6dd6446a774dab9a4526b34f94cc863e5f81 11985 golang-github-hashicorp-mdns_1.0.5.orig.tar.gz"
+    "6b280d0b2ca4296c850e79a352b33cc9efd3f975 3080 golang-github-hashicorp-mdns_1.0.3-2.debian.tar.xz f40e06cb3419517ec3fcee5940099c6b22572d5e 2360 golang-github-hashicorp-mdns_1.0.3-2.dsc 69fbdff733bf55d488fc3372961598916c1d9701 11192 golang-github-hashicorp-mdns_1.0.3.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "9ba71c6213a17dbbb85ebf4b7eb7e36bd69c0f9a788c54e24a05ab51d116d6a7 3024 golang-github-hashicorp-mdns_1.0.5-1.debian.tar.xz 3c62f41b6e18fe3f850cc5ab3ab2d40c7844599752cde1b82edb54129e1fcab9 2339 golang-github-hashicorp-mdns_1.0.5-1.dsc 56609149683669267b9214a649d0efd52da361778aeac20d09f94d1e5dd2efff 11985 golang-github-hashicorp-mdns_1.0.5.orig.tar.gz"
+    "3a80b6527f950e80d131aa3ad9d29eaf54ab763c6a6fb0135db84bd2b2bdc94b 3080 golang-github-hashicorp-mdns_1.0.3-2.debian.tar.xz e467ffb2321864e70979bb1cd2559cb4a3a2f5303e935dd37d3f7829ca9f1fea 2360 golang-github-hashicorp-mdns_1.0.3-2.dsc d868b53cf830dc1373ae87dbf6cde8817291cdc89f71c5068333e5908bde8512 11192 golang-github-hashicorp-mdns_1.0.3.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "487810951cc0e654270437202a4cd4a71d64a4e39585748576ac04aa66080d4e8e81a05e237cac488248f06ed0354de2a78fc70af53fc99716b1808aae66626d 3024 golang-github-hashicorp-mdns_1.0.5-1.debian.tar.xz ca3e933fb2e2b9059358b121991189181205112692884741b6f9be140f2aa56418fb061debe79e78c5cf62fa054f3d2b6a7556c6a8471d52347375b3df720bd7 2339 golang-github-hashicorp-mdns_1.0.5-1.dsc bbe7314c810419e9fdfcf1173b68376db36d51fad7bc1df6fde21239fa9472bd194e06f495dcdf442b709e721dafef0bc5cde0680dd9ec7e2102aef10ac02e5e 11985 golang-github-hashicorp-mdns_1.0.5.orig.tar.gz"
+    "12e9e620d9ce013841421254b779d93edaf67269332a57284c722f7c2a9a42e2760f578654c21cd52412f47683657d8fc428dcc90dba0201d209a82369bf494a 3080 golang-github-hashicorp-mdns_1.0.3-2.debian.tar.xz d8c952ee364d06997996a3b0e8b4db1c498fc842e33bfb50316e0eb5323a7658e2d6282d3134e6a148b88a611b514feb9c9a652fd5ae3a46e59e364c16a32b97 2360 golang-github-hashicorp-mdns_1.0.3-2.dsc be15da03b8d4dd19bbe5e4bc4ee0af57bc966b18bcd728afbd8bb848a109a37f5cac282aa28d2f9b943f174818734511b825fffeb47fe3af0dbf1c86fe683f00 11192 golang-github-hashicorp-mdns_1.0.3.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/golang-github-hashicorp-mdns"
   ],
   "Files": [
-    "9e6101fb215d7c0872796cd5181e4747 3024 golang-github-hashicorp-mdns_1.0.5-1.debian.tar.xz 14f006de1cfedf89d107fd1dacc83ee3 2339 golang-github-hashicorp-mdns_1.0.5-1.dsc c2945b9187cad08c66b7e9f046064149 11985 golang-github-hashicorp-mdns_1.0.5.orig.tar.gz"
+    "5a911f2f0f55fb34fdc5c53c36af825c 3080 golang-github-hashicorp-mdns_1.0.3-2.debian.tar.xz 1f77b92046065c827f608e0355f0282e 2360 golang-github-hashicorp-mdns_1.0.3-2.dsc cfe239626133fca250739a3d9115decc 11192 golang-github-hashicorp-mdns_1.0.3.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -33,7 +33,7 @@
     "https://github.com/hashicorp/mdns"
   ],
   "Maintainer": [
-    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+    "Debian Go Packaging Team \u003cpkg-go-maintainers@lists.alioth.debian.org\u003e"
   ],
   "Package": [
     "golang-github-hashicorp-mdns"
@@ -48,7 +48,7 @@
     "autopkgtest-pkg-go"
   ],
   "Uploaders": [
-    "Tim Potter \u003ctpot@hpe.com\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e,"
+    "Tianon Gravi \u003ctianon@debian.org\u003e, Tim Potter \u003ctpot@hpe.com\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/go-team/packages/golang-github-hashicorp-mdns"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-hashicorp-mdns.git"
   ],
   "Version": [
-    "1.0.5-1"
+    "1.0.3-2"
   ]
 }

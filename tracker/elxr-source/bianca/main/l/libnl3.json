@@ -3,34 +3,31 @@
     "linux-any"
   ],
   "Binary": [
-    "libnl-3-200, libnl-cli-3-200, libnl-utils, libnl-genl-3-200, libnl-idiag-3-200, libnl-nf-3-200, libnl-route-3-200, libnl-xfrm-3-200, libnl-3-dev, libnl-cli-3-dev, libnl-genl-3-dev, libnl-idiag-3-dev, libnl-nf-3-dev, libnl-route-3-dev, libnl-xfrm-3-dev, libnl-3-200-udeb, libnl-genl-3-200-udeb"
-  ],
-  "Build-Conflicts": [
-    "check"
+    "libnl-3-200, libnl-cli-3-200, libnl-utils, libnl-genl-3-200, libnl-idiag-3-200, libnl-nf-3-200, libnl-route-3-200, libnl-xfrm-3-200, libnl-3-dev, libnl-cli-3-dev, libnl-genl-3-dev, libnl-idiag-3-dev, libnl-nf-3-dev, libnl-route-3-dev, libnl-xfrm-3-dev, libnl-3-200-dbg, libnl-3-200-udeb, libnl-genl-3-200-udeb"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), bison, flex, linux-libc-dev (\u003e= 3.2.41), pkgconf"
+    "debhelper (\u003e= 9), dh-exec (\u003e= 0.3), cdbs (\u003e= 0.4.93~), bison, flex, automake, autoconf, dh-autoreconf, linux-libc-dev (\u003e= 3.2.41), pkg-config"
   ],
   "Checksums-Sha1": [
-    "c128548072cb538c1db69f3eddc9bfec3c73aeb2 22312 libnl3_3.7.0-2.debian.tar.xz 0ffdf51edbf852dc32269c2465e0e62d95632336 3091 libnl3_3.7.0-2.dsc 34c0fa84005b1522175d42165f6e885f75b1b8e3 1000913 libnl3_3.7.0.orig.tar.gz"
+    "5ea18edfbf6492fb0e67a752461bc6949aa1dc85 26320 libnl3_3.7.0-0.2.debian.tar.xz d41012a03d009f6c16a0ee99c570ecd4a643d272 3329 libnl3_3.7.0-0.2.dsc 34c0fa84005b1522175d42165f6e885f75b1b8e3 1000913 libnl3_3.7.0.orig.tar.gz b3c954840541a29a366d3acd4a971fedc2e57089 862 libnl3_3.7.0.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "3055cc313bcdf37237a09adef5868a4743d58a36174c3d71242963883b0704f4 22312 libnl3_3.7.0-2.debian.tar.xz 5287128322f6236a8bcd272ab4f532cf0ad06fb9c99c9420e670977053e6d3cf 3091 libnl3_3.7.0-2.dsc 9fe43ccbeeea72c653bdcf8c93332583135cda46a79507bfd0a483bb57f65939 1000913 libnl3_3.7.0.orig.tar.gz"
+    "35ae5b6ee3a56abd3ae8603fd47c3e38c9302d02a2d498fb88a3e2f2791ac2f0 26320 libnl3_3.7.0-0.2.debian.tar.xz dd41ed81344119f158f3ed194dad966247f21a1d1ee078295d347b4ec7c2adef 3329 libnl3_3.7.0-0.2.dsc 9fe43ccbeeea72c653bdcf8c93332583135cda46a79507bfd0a483bb57f65939 1000913 libnl3_3.7.0.orig.tar.gz abdf098b3a7802a1e77086e5f92835ad25a2da6a59a05d6a5a086d66a323bffc 862 libnl3_3.7.0.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "79807f148fb785a88afc4ad1ae509a4e0a09f2ddcdee6461df435b56f554735f64fb5249e337c4bafd47355f6c56b4308bd20d29e7763bfca4f501e15839a3e2 22312 libnl3_3.7.0-2.debian.tar.xz f5d558630da82045ad5a6e6b2b50903fe34ba4991a12af77acf53a0104a2db9771d65a23207b95bd719e4dde08aa192ea452e7842805ecdb315bbbbdf89bdb1b 3091 libnl3_3.7.0-2.dsc 80fbbc079299c90afd2a5eda62e4d4f98bf4ef23958c3ce5101f4ed4d81d783af733213bb3bab15f218555d8460bc2394898f909f4ac024fc27281faec86a041 1000913 libnl3_3.7.0.orig.tar.gz"
+    "e7ba4045359b233349fa676a6aad2c01ff444dc80073155dbea7199fd79c09068a4b5b501b11c53f863bef139d764ad96eb97c2d221f78995a66d24ab4cf223f 26320 libnl3_3.7.0-0.2.debian.tar.xz 00c7c455043edb387893b98c32a79ea425a645089a912f5e0458376caeae488bf67e0e9bd99b8e7dbd6939e094dab4817146f83370533eed72f1d05eb0fb6d10 3329 libnl3_3.7.0-0.2.dsc 80fbbc079299c90afd2a5eda62e4d4f98bf4ef23958c3ce5101f4ed4d81d783af733213bb3bab15f218555d8460bc2394898f909f4ac024fc27281faec86a041 1000913 libnl3_3.7.0.orig.tar.gz 8934b6fb3a9c2aac9519f0eed80da79ae407ee53900c910a238d5c7767b8b0ae642889b78aef5af00a6de74e11ba4d2066ac75e5fa2cb8ed2eb7301da9ac4e5e 862 libnl3_3.7.0.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/libn/libnl3"
   ],
   "Files": [
-    "870ff05a7c47af10e7ab94097c65df51 22312 libnl3_3.7.0-2.debian.tar.xz 292c42504e578681ac60ac9fd8f492d8 3091 libnl3_3.7.0-2.dsc b381405afd14e466e35d29a112480333 1000913 libnl3_3.7.0.orig.tar.gz"
+    "a36598f37197fcad7228f22196dd7f2f 26320 libnl3_3.7.0-0.2.debian.tar.xz 2d88ff65e3531c5dd0095cabac6ed27a 3329 libnl3_3.7.0-0.2.dsc b381405afd14e466e35d29a112480333 1000913 libnl3_3.7.0.orig.tar.gz d68e65e8f10f59d374d2611cafe9a421 862 libnl3_3.7.0.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://github.com/thom311/libnl"
+    "http://www.infradead.org/~tgr/libnl/"
   ],
   "Maintainer": [
     "Heiko Stuebner \u003cmmind@debian.org\u003e"
@@ -39,21 +36,12 @@
     "libnl3"
   ],
   "Package-List": [
-    "libnl-3-200 deb libs optional arch=linux-any libnl-3-200-udeb udeb debian-installer optional arch=linux-any libnl-3-dev deb libdevel optional arch=linux-any libnl-cli-3-200 deb libs optional arch=linux-any libnl-cli-3-dev deb libdevel optional arch=linux-any libnl-genl-3-200 deb libs optional arch=linux-any libnl-genl-3-200-udeb udeb debian-installer optional arch=linux-any libnl-genl-3-dev deb libdevel optional arch=linux-any libnl-idiag-3-200 deb libs optional arch=linux-any libnl-idiag-3-dev deb libdevel optional arch=linux-any libnl-nf-3-200 deb libs optional arch=linux-any libnl-nf-3-dev deb libdevel optional arch=linux-any libnl-route-3-200 deb libs optional arch=linux-any libnl-route-3-dev deb libdevel optional arch=linux-any libnl-utils deb libs optional arch=linux-any libnl-xfrm-3-200 deb libs optional arch=linux-any libnl-xfrm-3-dev deb libdevel optional arch=linux-any"
+    "libnl-3-200 deb libs optional arch=linux-any libnl-3-200-dbg deb debug optional arch=linux-any libnl-3-200-udeb udeb debian-installer optional arch=linux-any libnl-3-dev deb libdevel optional arch=linux-any libnl-cli-3-200 deb libs optional arch=linux-any libnl-cli-3-dev deb libdevel optional arch=linux-any libnl-genl-3-200 deb libs optional arch=linux-any libnl-genl-3-200-udeb udeb debian-installer optional arch=linux-any libnl-genl-3-dev deb libdevel optional arch=linux-any libnl-idiag-3-200 deb libs optional arch=linux-any libnl-idiag-3-dev deb libdevel optional arch=linux-any libnl-nf-3-200 deb libs optional arch=linux-any libnl-nf-3-dev deb libdevel optional arch=linux-any libnl-route-3-200 deb libs optional arch=linux-any libnl-route-3-dev deb libdevel optional arch=linux-any libnl-utils deb libs optional arch=linux-any libnl-xfrm-3-200 deb libs optional arch=linux-any libnl-xfrm-3-dev deb libdevel optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.7.2"
-  ],
-  "Uploaders": [
-    "Chris Hofstaedtler \u003czeha@debian.org\u003e"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/libnl3"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/libnl3.git"
+    "4.1.4"
   ],
   "Version": [
-    "3.7.0-2"
+    "3.7.0-0.2"
   ]
 }

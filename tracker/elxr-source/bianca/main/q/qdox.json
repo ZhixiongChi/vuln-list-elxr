@@ -3,25 +3,25 @@
     "all"
   ],
   "Binary": [
-    "libqdox-java"
+    "libqdox-java, libqdox-java-doc"
   ],
   "Build-Depends": [
-    "byacc-j, debhelper-compat (= 13), default-jdk, jflex (\u003e= 1.6.1), junit (\u003e= 3.8.1), libjmock-java (\u003e= 1.0.1), libmaven-antrun-plugin-java, maven-debian-helper (\u003e= 2.2)"
+    "byacc-j, debhelper (\u003e= 10), default-jdk, default-jdk-doc, jflex (\u003e= 1.6.1), junit (\u003e= 3.8.1), libjmock-java (\u003e= 1.0.1), libmaven-antrun-plugin-java, libmaven-javadoc-plugin-java, maven-debian-helper (\u003e= 2.2)"
   ],
   "Checksums-Sha1": [
-    "6f3b6f8ab66ac5d624d975d0fb4c67e9ca6e9503 3980 qdox_1.12.1-4.debian.tar.xz fd6804602ba6dd28ed1db932c57cd09c30f5a32a 2106 qdox_1.12.1-4.dsc 1f013bc4cf8068486f7af4dafe06dce70b9b5454 150598 qdox_1.12.1.orig.tar.gz"
+    "3548578be3b2fb16408ecaa501242aa60f62cf57 4136 qdox_1.12.1-3.debian.tar.xz 4e1c5fe5407b0fff472908639a3625d9766115c1 2225 qdox_1.12.1-3.dsc 1f013bc4cf8068486f7af4dafe06dce70b9b5454 150598 qdox_1.12.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "aed98e98b78b26f024c227dd452a78324dd45fee0af0730066b6f43f1df16f03 3980 qdox_1.12.1-4.debian.tar.xz 007b628f9999e24f3503f39fff370601603baa6892d18462fe7c9ff91929d311 2106 qdox_1.12.1-4.dsc 702ee0a71479021a4f87cae949944d76d54cc0b6f1f3d9a08fd52b2077b899a2 150598 qdox_1.12.1.orig.tar.gz"
+    "56171f439f45294d29e254351079e7c7b497bf8e67d58386f7bd83b19eca0479 4136 qdox_1.12.1-3.debian.tar.xz f9665465fc4b8cf61f60a1a746a7b8dd79dab5fdfcc6db9c9ce875d472b9a7fc 2225 qdox_1.12.1-3.dsc 702ee0a71479021a4f87cae949944d76d54cc0b6f1f3d9a08fd52b2077b899a2 150598 qdox_1.12.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "77ef000372767bf0fb6ea89f4268b4206ae34150385963e8aed5a0c21ef26c8356951df8df8f7011026e3e1e67d9d2bfa65a74544530a3c10c5ad9886ff24f05 3980 qdox_1.12.1-4.debian.tar.xz 80b4769576a5d2d7070bae81c754b825bb909d6305fc8ef074fd95cd2563c22771b5a0524270ca7615cece3ee96716c41037f43ef76ab8c533bdd15cac8aa2bb 2106 qdox_1.12.1-4.dsc 287e9d89e9fcdf7e2e90a42e8f470d8c333b9fe4e7d2e495554bd71ec434df9f96ddb980be9ff278900dc0ae590ad5923d740d9212132fd30a81f15afa6ace46 150598 qdox_1.12.1.orig.tar.gz"
+    "71e9b0868cf07f731803f67d8ddea7f3288af7796843926293a87ffe141adb95dea0f80c922a2a3e6c55ca6964d0e14885ca072f894ac474f900eec9953f53d7 4136 qdox_1.12.1-3.debian.tar.xz 1f05fabeaf55b48e23475fbb6e411a35a18bae0b79203b1fa7ee62bbd3afd44f983463bab6748c846ec4531d186dc10d7c7ff9d4e8dad645d15ecc0b3b7273ca 2225 qdox_1.12.1-3.dsc 287e9d89e9fcdf7e2e90a42e8f470d8c333b9fe4e7d2e495554bd71ec434df9f96ddb980be9ff278900dc0ae590ad5923d740d9212132fd30a81f15afa6ace46 150598 qdox_1.12.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/q/qdox"
   ],
   "Files": [
-    "52daf45ec7da6dd0b9eab8bafa4cad52 3980 qdox_1.12.1-4.debian.tar.xz d2d53a8e7d72ed65aa4d99f2236d3ed3 2106 qdox_1.12.1-4.dsc dee350e0ebd022c2d6ec21a53773411b 150598 qdox_1.12.1.orig.tar.gz"
+    "0b1b8e40323676b3921e2fa3158f2d9f 4136 qdox_1.12.1-3.debian.tar.xz 87b0355e968fc16d9f2068b70df8ca90 2225 qdox_1.12.1-3.dsc dee350e0ebd022c2d6ec21a53773411b 150598 qdox_1.12.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,21 +36,21 @@
     "qdox"
   ],
   "Package-List": [
-    "libqdox-java deb java optional arch=all"
+    "libqdox-java deb java optional arch=all libqdox-java-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.0.0"
   ],
   "Uploaders": [
     "Ludovic Claude \u003cludovic.claude@laposte.net\u003e, Damien Raude-Morvan \u003cdrazzib@debian.org\u003e"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/java-team/qdox"
+    "https://anonscm.debian.org/cgit/pkg-java/qdox.git"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/java-team/qdox.git"
+    "https://anonscm.debian.org/git/pkg-java/qdox.git"
   ],
   "Version": [
-    "1.12.1-4"
+    "1.12.1-3"
   ]
 }

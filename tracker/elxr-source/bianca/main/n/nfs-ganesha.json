@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "nfs-ganesha, nfs-ganesha-ceph, nfs-ganesha-doc, nfs-ganesha-gluster, nfs-ganesha-gpfs, nfs-ganesha-mem, nfs-ganesha-mount-9p, nfs-ganesha-nullfs, nfs-ganesha-proxy-v4, nfs-ganesha-rados-grace, nfs-ganesha-rgw, nfs-ganesha-vfs, python3-nfs-ganesha"
+    "nfs-ganesha, nfs-ganesha-mount-9p, nfs-ganesha-gluster, nfs-ganesha-ceph, nfs-ganesha-rgw, nfs-ganesha-vfs, nfs-ganesha-rados-grace, nfs-ganesha-nullfs, nfs-ganesha-mem, nfs-ganesha-proxy-v4, nfs-ganesha-gpfs, python3-nfs-ganesha, nfs-ganesha-doc"
   ],
   "Build-Depends": [
-    "bison, cmake, debhelper (\u003e= 10), dh-python, flex, libacl1-dev, libattr1-dev, libblkid-dev, libcap-dev, libcephfs-dev [amd64 arm64 loong64 mips64el ppc64el riscv64 s390x], libdbus-1-dev, libglusterfs-dev (\u003e= 9.0) [amd64 arm64 ia64 loong64 mips64el ppc64 ppc64el riscv64 s390x sparc64], libkrb5-dev, liblttng-ctl-dev, liblttng-ust-dev, libnfsidmap-dev, libntirpc-dev (\u003e= 6.0), libpython3-all-dev, librados-dev [amd64 arm64 loong64 mips64el ppc64el riscv64 s390x], librgw-dev [amd64 arm64 loong64 mips64el ppc64el riscv64 s390x], liburcu-dev, libwbclient-dev, lttng-tools, pkgconf, pyqt5-dev-tools, python3-all-dev, python3-pyqt5, python3-setuptools, python3-sphinx, uuid-dev, xfslibs-dev"
+    "debhelper (\u003e= 10), bison, flex, cmake, libdbus-1-dev, libnfsidmap-dev, libwbclient-dev, libntirpc-dev (\u003e= 4.3), libkrb5-dev, libblkid-dev, libattr1-dev, libacl1-dev, lttng-tools, liblttng-ust-dev, liblttng-ctl-dev, liburcu-dev, xfslibs-dev, uuid-dev, libcap-dev, libglusterfs-dev (\u003e= 9.0), librados-dev, libcephfs-dev, librgw-dev, dh-python, python3-all-dev, libpython3-all-dev, python3-setuptools, python3-sphinx, python3-pyqt5, pyqt5-dev-tools, pkgconf"
   ],
   "Checksums-Sha1": [
-    "6102c685ea46ede9a18478a30ab8a736f7f48b36 19228 nfs-ganesha_6.5-5.debian.tar.xz 6ca638e8f3f0b790e40be3ad72219a2dfce02f82 3593 nfs-ganesha_6.5-5.dsc c7e6a7337cae28af4473bd8d109e5985f8f3ad97 2104335 nfs-ganesha_6.5.orig.tar.gz"
+    "4c0db493bcd1565e579e45b884a00df08a044d1f 18500 nfs-ganesha_4.3-2.debian.tar.xz bdd97a525b6d4580e194ee3a9ee5181bd1e2d7f6 3138 nfs-ganesha_4.3-2.dsc 962ffd9b8ac6b940cf07d10ae1cfe76864ecdd4b 1895017 nfs-ganesha_4.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "20684015586e65e94073f8d098a8649acbb7a7835b41f15e1de481108bd84126 19228 nfs-ganesha_6.5-5.debian.tar.xz 73da1e51578f6cfe5cc7e393571a71e4630fe48d00b2dcd4ad9f6c659458c5b2 3593 nfs-ganesha_6.5-5.dsc ece6cf138dd8602f33294eee75233051229867ea7fd1b3f7d6545e989303bfd9 2104335 nfs-ganesha_6.5.orig.tar.gz"
+    "45421606d92d9e33a25ec55e18bd8bcc8dcbe9472beba344ef60b7b2cdc635ee 18500 nfs-ganesha_4.3-2.debian.tar.xz 04a8a5eb73451b044f2f577c14ac8b27a093005198d1bd1f1b66a6fa154017cd 3138 nfs-ganesha_4.3-2.dsc d4efd020edf4dfe65abfd0f0f66eb4390613360f99dce4354467ab297e0e1c0f 1895017 nfs-ganesha_4.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "6fb54136425a90f9d802533d9ffc310543c74d048872e5ad0f9283b307247b7fa6745144e015e899c51322fa7fd6b96077a2bcf69e28658845ec63ce1ef29bb8 19228 nfs-ganesha_6.5-5.debian.tar.xz 0c727b3a844478d95b1cd91c7249d6eca7d25a69c06dbcd8d47713d42803d3d407100c41a61511059d1fc4aca570455abac9b8fa75e7c1965d62c78e39e0ec99 3593 nfs-ganesha_6.5-5.dsc 695bd4afa0a4e0d839e64a5ea30571c4cfe933bc4f6a5447378ff473f0ee6b6d3f43d96c1d6f88efd74af1605f27be29a95394495db66d755916f880113bbcf6 2104335 nfs-ganesha_6.5.orig.tar.gz"
+    "341e1549261a113b5c980fcb456120e67ad2cd1b8789a71e5bd5607dcb9fa03a4f505c3cd8f6be58316d49c3fbf016fb940dd69d19b3dd6512f8a51a75f7d362 18500 nfs-ganesha_4.3-2.debian.tar.xz d3ab86ad60dd49278f674f98de1c09ec724144e9ff2726f40112b30e8abc6cb98915dc9484a6cbf5c3de15c4d4195b55de1d3b40b4a2710a78d8e6dfc5f4bdcb 3138 nfs-ganesha_4.3-2.dsc bf1ced3612f5c3599a67b279849163aa6c9176961485505d682c18d2616725f36f8b0cef4610f1af80f3e8978be0731e6e0e00a5d85e5b326d790d8c22b7ee59 1895017 nfs-ganesha_4.3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/n/nfs-ganesha"
   ],
   "Files": [
-    "61c6b4da78293db9c4f5d51e9e13c1b9 19228 nfs-ganesha_6.5-5.debian.tar.xz 29039a24bea1743fa7da11d86d37a9c3 3593 nfs-ganesha_6.5-5.dsc 0707b8f87ead8505990137def9a9e63a 2104335 nfs-ganesha_6.5.orig.tar.gz"
+    "b61778c413630cf8acafe9d4ee03525d 18500 nfs-ganesha_4.3-2.debian.tar.xz 6d2529401e6236aec46452541ecadb06 3138 nfs-ganesha_4.3-2.dsc 6eadbb507af79186c7289193d0ac664d 1895017 nfs-ganesha_4.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,16 +30,19 @@
     "https://github.com/nfs-ganesha/nfs-ganesha"
   ],
   "Maintainer": [
-    "Christoph Martin \u003cchrism@debian.org\u003e"
+    "Philippe Deniel \u003cphilippe.deniel@cea.fr\u003e"
   ],
   "Package": [
     "nfs-ganesha"
   ],
   "Package-List": [
-    "nfs-ganesha deb net optional arch=any nfs-ganesha-ceph deb libs optional arch=amd64,arm64,loong64,mips64el,ppc64el,riscv64,s390x nfs-ganesha-doc deb doc optional arch=all nfs-ganesha-gluster deb libs optional arch=amd64,arm64,ia64,loong64,mips64el,ppc64,ppc64el,riscv64,s390x,sparc64 nfs-ganesha-gpfs deb libs optional arch=amd64,arm64,i386,ia64,loong64,mips64el,ppc64,ppc64el,riscv64,s390x,sparc64 nfs-ganesha-mem deb libs optional arch=any nfs-ganesha-mount-9p deb net optional arch=all nfs-ganesha-nullfs deb libs optional arch=any nfs-ganesha-proxy-v4 deb libs optional arch=any nfs-ganesha-rados-grace deb net optional arch=amd64,arm64,loong64,mips64el,ppc64el,riscv64,s390x nfs-ganesha-rgw deb libs optional arch=amd64,arm64,loong64,mips64el,ppc64el,riscv64,s390x nfs-ganesha-vfs deb libs optional arch=any python3-nfs-ganesha deb python optional arch=all"
+    "nfs-ganesha deb net optional arch=any nfs-ganesha-ceph deb libs optional arch=any nfs-ganesha-doc deb doc optional arch=all nfs-ganesha-gluster deb libs optional arch=any nfs-ganesha-gpfs deb libs optional arch=any nfs-ganesha-mem deb libs optional arch=any nfs-ganesha-mount-9p deb net optional arch=all nfs-ganesha-nullfs deb libs optional arch=any nfs-ganesha-proxy-v4 deb libs optional arch=any nfs-ganesha-rados-grace deb net optional arch=any nfs-ganesha-rgw deb libs optional arch=any nfs-ganesha-vfs deb libs optional arch=any python3-nfs-ganesha deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
+  ],
+  "Uploaders": [
+    "Christoph Martin \u003cmartin@uni-mainz.de\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/nfs-ganesha"
@@ -48,6 +51,6 @@
     "https://salsa.debian.org/debian/nfs-ganesha.git"
   ],
   "Version": [
-    "6.5-5"
+    "4.3-2"
   ]
 }

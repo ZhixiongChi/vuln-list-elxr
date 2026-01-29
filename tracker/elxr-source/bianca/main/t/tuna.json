@@ -6,22 +6,22 @@
     "tuna"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, gir1.2-gtk-3.0 \u003c!nocheck\u003e, python3-dev, python3-gi \u003c!nocheck\u003e, python3-linux-procfs \u003c!nocheck\u003e, python3-setuptools"
+    "debhelper-compat (= 13), dh-python, python3-dev, python3-setuptools, python3-six"
   ],
   "Checksums-Sha1": [
-    "c953f37fa7a27f9994d2cbbd200cf986ec232a28 4412 tuna_0.19-1.debian.tar.xz 1feed4a165320a3f241c3fcf3207482e03491a10 2032 tuna_0.19-1.dsc c47ae6779e0ddfa260a7c07918e016f85dfdc788 233953 tuna_0.19.orig.tar.gz"
+    "864e6395961f4acaf3e3f4646f0ce09c446d8a43 4200 tuna_0.15-1.debian.tar.xz b78137d763730fbef2f9c5cb3eabed13e9479ed8 1926 tuna_0.15-1.dsc d7dd7e4fb094171190c6dbafb56f184c44117056 230503 tuna_0.15.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "2b68026934b645a910c437ca48d75615f1b40c134d24f2b1a5e9a9f957c64bdf 4412 tuna_0.19-1.debian.tar.xz 6c3b93ff4979bb1da8ca712026e004baaacb7672d173323427066a26fba383ef 2032 tuna_0.19-1.dsc 8d5195952924a595f5776b830f3c4e23c2f7ca6eab8568589b5cdad94ad7fc25 233953 tuna_0.19.orig.tar.gz"
+    "e4ed34f3d66152c33874b8179d3b7477c6b2aed05f5f4363437a883563937854 4200 tuna_0.15-1.debian.tar.xz bc3a2e42a8adf0ed3d96703882875da40d6f23a8449df40fbeddf9225a67e138 1926 tuna_0.15-1.dsc 6f5b3caababd39f52cf408d2ce45c2819cbb4565a18ec9ca77dafd135ca22208 230503 tuna_0.15.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "fb6e33cb7a5b05175cec622a5912be2370712b5826edc499ff9190f19fc203c45291a07c28dff4386a76f362fe4cfc46bb640903f0b9b118149a8cea5997fb9e 4412 tuna_0.19-1.debian.tar.xz 8450213590e54026c3ee149ab60b71397caaa2ddc517cb2f09c91ec8bd02bc28a662ceb96d40cf377d5db8a9363cf490921ee606748e112f46e7a6cda04ecebc 2032 tuna_0.19-1.dsc b0c79ed10a72b4eebcc26217adf17fe9b66a06d308bfa9d294971892fb79353700e4eed9de84388bcb05275c141dfab4e6709d4faa4dd0079ea41adc342ec2aa 233953 tuna_0.19.orig.tar.gz"
+    "5574438d763a0c455d22876ae34189a6e16160985eb5b9b00c7cf24e9102b176126ea363a89e2936ca1c2c4d1f14dff4d9eef977e8d647eaff03228555c63224 4200 tuna_0.15-1.debian.tar.xz 1ecd8118228f7e67cd8a8b8db10a68dc7318a87195cea4a24e672a9c880bfa240a0a6c46ac4beb8dade71d7234448645f2c1850b78bf534fb4248cc0c53fb62b 1926 tuna_0.15-1.dsc 2208a9932d35b7d8e11a65d487689fdcf32efda61687780a9ab404e537968449e534e836ff1fbfc7bfcbbd50435ed4958cbbc14e04254350a07242d1e3f1dede 230503 tuna_0.15.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/t/tuna"
   ],
   "Files": [
-    "3131ad6308c209cbbc1deb1a5cabeb80 4412 tuna_0.19-1.debian.tar.xz 0fc3032ec27d8374b0a036654a1dec51 2032 tuna_0.19-1.dsc b31d3f8a0b3fd292635e06a3095cf49a 233953 tuna_0.19.orig.tar.gz"
+    "282052ce51ac15b6850ebaa9be927631 4200 tuna_0.15-1.debian.tar.xz c2de07dc0f8cbbcc73494d5fc650c6e2 1926 tuna_0.15-1.dsc 386aebfbce1a8ae1616514ba8d220643 230503 tuna_0.15.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://rt.wiki.kernel.org/index.php/Tuna"
   ],
   "Maintainer": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+    "Stewart Ferguson \u003cstew@ferg.aero\u003e"
   ],
   "Package": [
     "tuna"
@@ -39,10 +39,10 @@
     "tuna deb utils optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.5.1"
   ],
   "Uploaders": [
-    "Stewart Ferguson \u003cstew@ferg.aero\u003e,"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/tuna"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/python-team/packages/tuna.git"
   ],
   "Version": [
-    "0.19-1"
+    "0.15-1"
   ]
 }

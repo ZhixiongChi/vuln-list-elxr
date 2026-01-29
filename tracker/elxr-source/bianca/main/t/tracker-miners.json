@@ -1,33 +1,33 @@
 {
   "Architecture": [
-    "any all"
+    "any"
   ],
   "Binary": [
-    "tracker-extract, tracker-test-utils, tracker-miner-fs"
+    "tracker-extract, tracker-miner-fs"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gnome, gir1.2-glib-2.0 \u003c!nocheck\u003e, meson (\u003e= 0.50), pkgconf, libglib2.0-dev (\u003e= 2.62.0), libgirepository-1.0-dev, libgstreamer1.0-dev (\u003e= 1.20.0), libgstreamer-plugins-base1.0-dev (\u003e= 1.20.0), libgudev-1.0-dev, libstemmer-dev, libtinysparql-dev (\u003e= 3.8.2), libtracker-sparql-3.0-dev (\u003e= 3.8.2) \u003c!nocheck\u003e, libpoppler-glib-dev (\u003e= 0.16.0), libgsf-1-dev (\u003e= 1.14.24), libexif-dev (\u003e= 0.6), libgexiv2-dev, libnm-dev [linux-any], libpng-dev (\u003e= 1.2), libtiff-dev, libdbus-1-dev (\u003e= 1.3.1), libtotem-plparser-dev, libexempi-dev (\u003e= 2.1.0), libxml2-dev (\u003e= 2.6), libupower-glib-dev (\u003e= 0.9.0), libicu-dev (\u003e= 4.8.1.1), libiptcdata0-dev, tinysparql (\u003e= 3.8), libgif-dev, libgxps-dev, libosinfo-1.0-dev (\u003e= 0.2.9), libcue-dev (\u003e= 2.0.0), libseccomp-dev (\u003e= 2.0) [!hurd-any !kfreebsd-any !linux-alpha !linux-ia64 !linux-m68k !linux-sh4 !linux-sparc64], asciidoc-base, xsltproc, docbook-xsl, dbus (\u003e= 1.3.1) \u003c!nocheck\u003e, dbus-x11 (\u003e= 1.3.1) \u003c!nocheck\u003e, gstreamer1.0-libav (\u003e= 1.20.0) \u003c!nocheck\u003e, gstreamer1.0-plugins-good (\u003e= 1.20.0) \u003c!nocheck\u003e, gstreamer1.0-tools (\u003e= 1.20.0) \u003c!nocheck\u003e, procps \u003c!nocheck\u003e, python3-gi \u003c!nocheck\u003e, python3-tap \u003c!nocheck\u003e, shared-mime-info \u003c!nocheck\u003e, systemd-dev (\u003e= 242)"
+    "debhelper-compat (= 13), dh-sequence-gnome, gir1.2-glib-2.0 \u003c!nocheck\u003e, meson (\u003e= 0.50), pkg-config, intltool (\u003e= 0.40.0), libblkid-dev, libglib2.0-dev (\u003e= 2.62.0), libgstreamer1.0-dev (\u003e= 1.20.0), libgstreamer-plugins-base1.0-dev (\u003e= 1.20.0), libstemmer-dev, libtracker-sparql-3.0-dev (\u003e= 3.4.0~), libpoppler-glib-dev (\u003e= 0.16.0), libgsf-1-dev (\u003e= 1.14.24), libexif-dev (\u003e= 0.6), libgexiv2-dev, libnm-dev [linux-any], libpng-dev (\u003e= 1.2), libtiff-dev, libdbus-1-dev (\u003e= 1.3.1), libtotem-plparser-dev, libexempi-dev (\u003e= 2.1.0), libxml2-dev (\u003e= 2.6), libupower-glib-dev (\u003e= 0.9.0), libicu-dev (\u003e= 4.8.1.1), libiptcdata0-dev, tracker (\u003e= 3.4.0~), libgif-dev, libgxps-dev, libosinfo-1.0-dev (\u003e= 0.2.9), libcue-dev (\u003e= 2.0.0), libseccomp-dev (\u003e= 2.0) [!hurd-any !kfreebsd-any !linux-alpha !linux-ia64 !linux-m68k !linux-sh4 !linux-sparc64], asciidoc-base, xsltproc, docbook-xsl, dbus (\u003e= 1.3.1) \u003c!nocheck\u003e, dbus-x11 (\u003e= 1.3.1) \u003c!nocheck\u003e, gstreamer1.0-libav (\u003e= 1.20.0) \u003c!nocheck\u003e, gstreamer1.0-plugins-good (\u003e= 1.20.0) \u003c!nocheck\u003e, gstreamer1.0-tools (\u003e= 1.20.0) \u003c!nocheck\u003e, procps \u003c!nocheck\u003e, python3-gi \u003c!nocheck\u003e, python3-tap \u003c!nocheck\u003e, shared-mime-info \u003c!nocheck\u003e, tracker-test-utils \u003c!nocheck\u003e, systemd (\u003e= 242) [linux-any]"
   ],
   "Checksums-Sha1": [
-    "c07abef20f8bd96bf5fc2d38fa9fda9a7de67f5b 15284 tracker-miners_3.8.2-4.debian.tar.xz dfcd1619dcf89ef2ccc5eb8aad1bdcf34088434b 3387 tracker-miners_3.8.2-4.dsc ac0d8ef922e288d944f6520b647026365fbbe2d2 4547012 tracker-miners_3.8.2.orig.tar.xz"
+    "a94cb6834c5b57b759d4d2d948b5c30f7e6814fa 11684 tracker-miners_3.4.3-1.debian.tar.xz c43c8165e90f700a8802d3fa83480cc1b9b119ab 3258 tracker-miners_3.4.3-1.dsc a9727abb3a9f6c7a54f0c315bca398551b137493 7244744 tracker-miners_3.4.3.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "734792fd81932eb9609c43ebfcc7e7cfc76b5595dbde6a6a2b90ae8bf5376ba3 15284 tracker-miners_3.8.2-4.debian.tar.xz be39999e775bada80c49ce0209222cf09b72f4cd5b7a713af96d94601aa9546a 3387 tracker-miners_3.8.2-4.dsc cda69195f6845357a8d91c023670efe92238f4d138a1ef7a1401f45a2a8403ce 4547012 tracker-miners_3.8.2.orig.tar.xz"
+    "758f859d408487d163a499ce8462bcee813d9318dd8d38b41e223b34a446f214 11684 tracker-miners_3.4.3-1.debian.tar.xz 7def08300d1a50e0c7698e87b880f5ddb11021a075c028e518e67dcf65112903 3258 tracker-miners_3.4.3-1.dsc 8e4f3976472641b648d0f8f20debae1b1629ca5b560b8616e117d29d756fbeeb 7244744 tracker-miners_3.4.3.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "ee03a4fe760391ee3b7f4923670fd4ee478c1e1cd4dc81af44cc51b6e8ede0421a8fcb9d629eb08749eaaa6b6ac9e23dfbafee3e24a133fd92ef0905fcb64aa8 15284 tracker-miners_3.8.2-4.debian.tar.xz 0ab422e72fd125f08bf2b25f98cd59362e414ee789a5e99c68ecf029da675df16050458ba2fb0a3f700f9713ef63674451c31df65c40584bb475268e7b6ff7a9 3387 tracker-miners_3.8.2-4.dsc d037b81467987e31294dfc2ea540db5581e5bbcd1688578d8a338352c3f0841270d78eb54fd8ec1aaa4807e7d15cc787c6ed414b295c9e0c93d286be1a87c661 4547012 tracker-miners_3.8.2.orig.tar.xz"
+    "f11910d905640c1495c16bd0779e1e63094cd7f6281763a5f19668e259b0d164d7e11af153d5ecaf9cb42f1012dddd8cff270b89c3eeb2f88598d39e16f0b50b 11684 tracker-miners_3.4.3-1.debian.tar.xz 480c827bcada98986ba9734147133ff50fb6253520ae40eebf17f973334d5c3e27f78c5f7b73b734cb46658f99160cdd180e9fd1ce067baf198cfe8015d06c61 3258 tracker-miners_3.4.3-1.dsc b7287bd14be9c14be582109b660166b38c515199b809503a7b06e411f4cc1e0c1f59ce95ab70e1b404d7440b7f23312f1150a4e033e38cabfc0f396e3c1edc3c 7244744 tracker-miners_3.4.3.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/t/tracker-miners"
   ],
   "Files": [
-    "1a388f0cd6371533d9a344f3962007ad 15284 tracker-miners_3.8.2-4.debian.tar.xz 539dda185778dbc49fef278ba6529b2f 3387 tracker-miners_3.8.2-4.dsc 56dfb5a30b3ab5ba33939d9f6bc21016 4547012 tracker-miners_3.8.2.orig.tar.xz"
+    "28eefa6f852d08c586fc1afd078a7b5e 11684 tracker-miners_3.4.3-1.debian.tar.xz 330749cf75d95c19cbb2fed7fe42b17b 3258 tracker-miners_3.4.3-1.dsc 12978674553320dc90c283dbd2605b1d 7244744 tracker-miners_3.4.3.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://tracker.gnome.org/"
+    "https://wiki.gnome.org/Projects/Tracker"
   ],
   "Maintainer": [
     "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
@@ -36,21 +36,21 @@
     "tracker-miners"
   ],
   "Package-List": [
-    "tracker-extract deb utils optional arch=any tracker-miner-fs deb oldlibs optional arch=all tracker-test-utils deb libs optional arch=any"
+    "tracker-extract deb utils optional arch=any tracker-miner-fs deb utils optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Uploaders": [
-    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
+    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/gnome-team/localsearch"
+    "https://salsa.debian.org/gnome-team/tracker-miners"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/gnome-team/localsearch.git"
+    "https://salsa.debian.org/gnome-team/tracker-miners.git"
   ],
   "Version": [
-    "3.8.2-4"
+    "3.4.3-1"
   ]
 }

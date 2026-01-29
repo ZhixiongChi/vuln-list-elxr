@@ -6,31 +6,31 @@
     "tango-icon-theme"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), icon-naming-utils (\u003e= 0.8.90), imagemagick"
+    "debhelper-compat (= 13), gettext, graphicsmagick-libmagick-dev-compat, hicolor-icon-theme, imagemagick, icon-naming-utils (\u003e= 0.8.90), libxml-parser-perl"
   ],
   "Checksums-Sha1": [
-    "23ecf8ddfae1c231685b807670b11fc53caac7bf 5208 tango-icon-theme_0.9.0-1.debian.tar.xz e7a58cf62ea44ee8d7b48eab93a0dcce9da6e068 1983 tango-icon-theme_0.9.0-1.dsc 6810659330f97f8fffcdbbf24c7573ed880f6cc9 1618248 tango-icon-theme_0.9.0.orig.tar.xz"
+    "1ce17f9855222cb2ceca5257d73ab39e63149438 8168 tango-icon-theme_0.8.90-11.debian.tar.xz 642ec4ea8c25a66c4cbc9fc37d6ee7d2e3accd28 1796 tango-icon-theme_0.8.90-11.dsc acdfbf3749885d36349263188334f6d6be405acc 1790489 tango-icon-theme_0.8.90.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "7de845b293232aa8e3256f2a9dffcac8ea4a2b8c6546ab119d9d899c72e88419 5208 tango-icon-theme_0.9.0-1.debian.tar.xz 13b2a0d9177b24df2a61b8c2ea4c942a235477d113a756810a20ec8881af34d9 1983 tango-icon-theme_0.9.0-1.dsc 82c5c17fe905961c099fa4100192335e7d376478e8b806ed8465f4d861ed4b92 1618248 tango-icon-theme_0.9.0.orig.tar.xz"
+    "74705e2904280d48687454448cbd1a589cca86bcbbb2b3604b4f75cc0ff0dacc 8168 tango-icon-theme_0.8.90-11.debian.tar.xz 8644603adb86be13fac0db2a026427421f6d246b83a36c84c439c2fb36b06941 1796 tango-icon-theme_0.8.90-11.dsc 6e98d8032d57d818acc907ec47e6a718851ff251ae7c29aafb868743eb65c88e 1790489 tango-icon-theme_0.8.90.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "3831ff9732d6acd040bfd1bac085f60e0adf97da946828f49d66e06adff3e3f601e7ae64cb3f69fc8edf395b29de69da74cacea5412ae7e45287036aae70e1e4 5208 tango-icon-theme_0.9.0-1.debian.tar.xz 0281e9066b91eaf99b4eb75d67607e1b0a28017f5d3a03058fb0cd59dd49c91a53923a29ea865ae870304917d73831f06e8ac18f76361332019b9908c13133e3 1983 tango-icon-theme_0.9.0-1.dsc 12c2227df5dda43f2e1207c47719dc773bec6f9934d55eff6ea9f67b652dec90b85c484b1628ffdca8e0ec562fd6591f28cc579ed2a90ff1bdfebfa932aac25b 1618248 tango-icon-theme_0.9.0.orig.tar.xz"
+    "2ba9d4c2e6a7c8ebd3199c706a4ca53afd7cde4cb213338ebfdaa7ce9a7a57613e5c2a5378f6b86e9b0cef583de2ba2ed7c484aa782d37e529ad1fa5ab67abb2 8168 tango-icon-theme_0.8.90-11.debian.tar.xz b9310e9a6ba46cadfe392ab66bb1606f069b759da719c7760a95ba597ac8b393c622f988f26675ebc3d07a64aa3e71a8db4f0df018ddcdb275467d86f5865cd4 1796 tango-icon-theme_0.8.90-11.dsc 78b909bfc8b126060f8a320f5465ee6af98533b5229ebe46952469ba9f08796189b1ad8110e0ffa1e5745d083cad292396af887c4f8792595b0b8d2891258a52 1790489 tango-icon-theme_0.8.90.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/t/tango-icon-theme"
   ],
   "Files": [
-    "763fb7cb2d375de565c6722967b39f2e 5208 tango-icon-theme_0.9.0-1.debian.tar.xz 89818125d42088a8718c3d4ea69314a6 1983 tango-icon-theme_0.9.0-1.dsc 263cd2c28b0b056f3e5dc673f50f434f 1618248 tango-icon-theme_0.9.0.orig.tar.xz"
+    "0ffcec930fa34578da2e57c7ae51cdd2 8168 tango-icon-theme_0.8.90-11.debian.tar.xz b8e394d7c6513aa2d2a18dfc5b61cfa7 1796 tango-icon-theme_0.8.90-11.dsc 0795895d2f20eddcbd2bffe94ed431a6 1790489 tango-icon-theme_0.8.90.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://git.golem.linux.it/matteobin/tango-icon-theme"
+    "http://tango.freedesktop.org/Tango_Icon_Library"
   ],
   "Maintainer": [
-    "Matteo Bini \u003cmatteobin@tiepi.it\u003e"
+    "Matteo Bini \u003cmatteobin@protonmail.com\u003e"
   ],
   "Package": [
     "tango-icon-theme"
@@ -39,15 +39,9 @@
     "tango-icon-theme deb x11 optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
-  ],
-  "Vcs-Browser": [
-    "https://git.golem.linux.it/matteobin/tango-icon-theme"
-  ],
-  "Vcs-Git": [
-    "https://git.golem.linux.it/matteobin/tango-icon-theme.git"
+    "4.6.1"
   ],
   "Version": [
-    "0.9.0-1"
+    "0.8.90-11"
   ]
 }

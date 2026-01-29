@@ -6,22 +6,22 @@
     "golang-github-aws-aws-sdk-go-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.19~), golang-github-jmespath-go-jmespath-dev (\u003e= 0.4.0), golang-golang-x-net-dev (\u003e= 1:0.17.0)"
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-jmespath-go-jmespath-dev (\u003e= 0.4.0), golang-github-pkg-errors-dev (\u003e= 0.9.1), golang-golang-x-net-dev (\u003e= 1:0.1.0)"
   ],
   "Checksums-Sha1": [
-    "c27edaf21bc72a0bc6c2f2ca85db0ccf1d1a3d94 7772 golang-github-aws-aws-sdk-go_1.49.0-2.debian.tar.xz db525f5071cce016da68e9441fcd8b456f04cb81 2485 golang-github-aws-aws-sdk-go_1.49.0-2.dsc 7b23321ab3512e2536e0616314fe34ef64014d7f 31500237 golang-github-aws-aws-sdk-go_1.49.0.orig.tar.gz"
+    "44e0bb2637249816f62ab29037e44649af03a37b 7124 golang-github-aws-aws-sdk-go_1.44.133-1.debian.tar.xz 3869184711cc6ce3d1ef65f1dfa4dfb45cb565c4 2493 golang-github-aws-aws-sdk-go_1.44.133-1.dsc 8f1524d4e891082e8bde78d284f72c5a37405714 25089675 golang-github-aws-aws-sdk-go_1.44.133.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "39d753c1868949ee5c9584a51e88b1e8dc411237c1aed0cb8b0bf128855d620c 7772 golang-github-aws-aws-sdk-go_1.49.0-2.debian.tar.xz 1867b95fda68cdcbb5b1db39736f5559a6485bd33002bdea079b21c8cf0f9bbd 2485 golang-github-aws-aws-sdk-go_1.49.0-2.dsc f9a64078f257ea281d75dbe0a0b268de7c0cd3ffb356068e261a9786e5399e11 31500237 golang-github-aws-aws-sdk-go_1.49.0.orig.tar.gz"
+    "a9544ef649fec69f1dea490e68b4e3c014fc3ec42c4d886352cb4258dc2510da 7124 golang-github-aws-aws-sdk-go_1.44.133-1.debian.tar.xz a1b12503d52cb827fb2d1c41e6c5a62f374ccbe05d883c4645de892aebda1f09 2493 golang-github-aws-aws-sdk-go_1.44.133-1.dsc 9019d44fdceb94d40c1ae60d625a143e6973012847adc34e797f07e30f07fa8d 25089675 golang-github-aws-aws-sdk-go_1.44.133.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e30421a329042b85cb473fdd6c05455e2e995b19febf014376d0f7a57f6faf36a1d69badbea08d2b189d4fa90da8677e061a87c35e343e0668b7012fb725689a 7772 golang-github-aws-aws-sdk-go_1.49.0-2.debian.tar.xz 07e4417391c41280354f0ddabaf3113e21f8fbe405a0f0e5bcb43b6b450b7663532d36cb89035e042b54256a086e5f63526606f4f65651abde1712a8a46c7c49 2485 golang-github-aws-aws-sdk-go_1.49.0-2.dsc 35a9be895ef6de49f051727a7c790ee7d3c75e1e5414c99aec7049acd209926a47dc06a85f22b317a29d7c97eceed9e89c99ea3f82fe0f13e086c9c66a92a4ec 31500237 golang-github-aws-aws-sdk-go_1.49.0.orig.tar.gz"
+    "0da5eabd8f6455439710770888824344a38a6abc4f10d3deba7da223c59fb48cae76d7d27a17284ff6d507190765709723a7ec453e7254d487836c2fdcb4b138 7124 golang-github-aws-aws-sdk-go_1.44.133-1.debian.tar.xz b44fd23f8d856cc7fc60d86129bb16121aca8ddd2f31d8f4c804048cf2afea787ce88b1913fc1127f4a3d0c75813ed0df40eda6018dab2a33b0d3df1c7584b39 2493 golang-github-aws-aws-sdk-go_1.44.133-1.dsc ee80bd36b9d0208a0e94b9019381a5302faf0c3156428a1a5e59d4718131fa18838d79ee5bd860d5c9984b25b760a34acaaa1f3d8b04fdb1f5efc830182004f9 25089675 golang-github-aws-aws-sdk-go_1.44.133.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-aws-aws-sdk-go"
   ],
   "Files": [
-    "c6909e319cf1bfb37671422ab12812e2 7772 golang-github-aws-aws-sdk-go_1.49.0-2.debian.tar.xz fe371cfc22d4da3f02bda1ab7480fdf4 2485 golang-github-aws-aws-sdk-go_1.49.0-2.dsc 25cfe7544771aad40b458685e4d5ca0e 31500237 golang-github-aws-aws-sdk-go_1.49.0.orig.tar.gz"
+    "c31fc81cf6b4847d906d822373482593 7124 golang-github-aws-aws-sdk-go_1.44.133-1.debian.tar.xz badf14a724e0bfafab7dfa257fa38214 2493 golang-github-aws-aws-sdk-go_1.44.133-1.dsc 651ee557a03a374ca19844b85aa2f991 25089675 golang-github-aws-aws-sdk-go_1.44.133.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "golang-github-aws-aws-sdk-go-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-aws-aws-sdk-go.git"
   ],
   "Version": [
-    "1.49.0-2"
+    "1.44.133-1"
   ]
 }

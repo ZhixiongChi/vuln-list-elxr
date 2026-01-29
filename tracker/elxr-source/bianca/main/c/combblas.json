@@ -3,28 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libcombblas-dev, libcombblas2.0.0t64, libcombblas-docs"
+    "libcombblas-dev, libcombblas1.16.0, libcombblas-docs"
   ],
   "Build-Depends": [
-    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), cmake (\u003e= 3.3), mpi-default-dev (\u003e= 1.17)"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen, graphviz"
+    "debhelper-compat (= 13), cmake (\u003e= 3.3), doxygen, graphviz, mpi-default-dev"
   ],
   "Checksums-Sha1": [
-    "c58b7a0b67719062a407aacac69966128a9b15b5 33749208 combblas_2.0.0-6.debian.tar.xz 6cb5bdd780f8e52f2795657ed697074631066e4c 2289 combblas_2.0.0-6.dsc da1211de9a38818992e211cc3e228317a4bbe460 43777234 combblas_2.0.0.orig.tar.gz"
+    "769ed4977684e0801b963b97e4d572105344e250 33747824 combblas_1.6.2-8.debian.tar.xz 73ee6d880d689a02277650f84e3be61841bd8fd2 2231 combblas_1.6.2-8.dsc eec8ddcb4371de8ebc2867cfd8d6a0ff5036e560 1555398 combblas_1.6.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "fcd10dd78d0414f42b4ad359c8eb676fd2e70559f8253f759da324dbb9c2c993 33749208 combblas_2.0.0-6.debian.tar.xz b21ac6dba6becdadf7575f76252e79a7402ea46182815cadec20def34c32b194 2289 combblas_2.0.0-6.dsc 3f955db1c0ec351713d88affd37f3fbb70b3bb3970527c04ed9e507057156afe 43777234 combblas_2.0.0.orig.tar.gz"
+    "bf15307641a321b6c483209e7e00b5060544369152d98017333a664c168ca2d3 33747824 combblas_1.6.2-8.debian.tar.xz 90769c905a37d930f2242dadb38e8f1558c72a36a3bfef378f28e816067d8375 2231 combblas_1.6.2-8.dsc 2a35c725606f18d010c110c66814b6558dae26f6807ac01c843c788fdb5b3ca9 1555398 combblas_1.6.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "32f23f0c238af37dfde088f861361c9b9c2ee03c2d4bb4fd0b99577db448738648cfb1b6e8e05edd0adc897d39a06d4e0f6b7c7dbf3a9dc4b9f7aa5cbbf1782b 33749208 combblas_2.0.0-6.debian.tar.xz a0bcb9e560e37c41c835d60901ba3ae3050a9c310db926161dfe37f19c8b68afea15b177716aa29fe2d5199a2e956ae9d8f7efd30d497cefaf30992fdecd824e 2289 combblas_2.0.0-6.dsc 50ae51279b8f46b1b65071476dea534dd74835f0c6dc6706babe3e7e36f6100d07ca7ca989ae4fbbe8749e172080d60f010aa2833cb18f7a2cb6ee93f02ee07d 43777234 combblas_2.0.0.orig.tar.gz"
+    "0f899256da00e146383fafc24d5abd38596cda5fa04a4d7ec5cf76ba00824bcb476898c9781e24176361e4155a08e955b1352a1c5ddde20f551c606dabd8b519 33747824 combblas_1.6.2-8.debian.tar.xz db2e083006d5e23beb148a2d0670d777d0e57cb0ae6042cc2c254b04e2d096b32688d5483710b7f70ea067ad5b4e8efa3144bda8b560201935cff5772e66748b 2231 combblas_1.6.2-8.dsc de63b6da77563cd1e074f44d6892c8d1dcb7aa9475f617b2de60239485e6dbd5965a305471f933fe175778a12fc6bb987a75f3631487b6461a382c5419b267aa 1555398 combblas_1.6.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/c/combblas"
   ],
   "Files": [
-    "1ed2f4d8e6588aa15e70d4e12007c13b 33749208 combblas_2.0.0-6.debian.tar.xz e8fff8d8cfec9664fa965c0f46a7d469 2289 combblas_2.0.0-6.dsc 346d92b3ea85c4932793da48ce93a05d 43777234 combblas_2.0.0.orig.tar.gz"
+    "6e3c6945ae225f07964536e0678474e9 33747824 combblas_1.6.2-8.debian.tar.xz 39434fd36f5b14abd3186dba4df52344 2231 combblas_1.6.2-8.dsc 08554bb2fc66ff141ef9c3e6d3f2bc4d 1555398 combblas_1.6.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +36,10 @@
     "combblas"
   ],
   "Package-List": [
-    "libcombblas-dev deb libdevel optional arch=any libcombblas-docs deb libdevel optional arch=all libcombblas2.0.0t64 deb libs optional arch=any"
+    "libcombblas-dev deb libdevel optional arch=any libcombblas-docs deb libdevel optional arch=all libcombblas1.16.0 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/science-team/combblas.git"
   ],
   "Version": [
-    "2.0.0-6"
+    "1.6.2-8"
   ]
 }

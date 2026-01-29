@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "librust-unicode-width-dev"
+    "librust-unicode-width-dev, librust-unicode-width+compiler-builtins-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "0825caf92d136ace52ad0d2182aa5954e41f54ed 4236 rust-unicode-width_0.2.0-1.debian.tar.xz 4345698f509958f1278c9dd6263f2597175cbdba 2267 rust-unicode-width_0.2.0-1.dsc 82f6690d20fb348a2f8a7962993ec2089742863f 271509 rust-unicode-width_0.2.0.orig.tar.gz"
+    "f9e203cd29b9e02160c6003a03e87b2d5a76bfea 4160 rust-unicode-width_0.1.10-1.debian.tar.xz 02f91de998da559c6f28f7003e5d10dad6907fb2 2482 rust-unicode-width_0.1.10-1.dsc 82560ed0ea6a3c678a3a151c86eedbb9c3404504 18968 rust-unicode-width_0.1.10.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "928202371743efc1713653d5eb48faefa136b5c2693185ca6619874b9cc86014 4236 rust-unicode-width_0.2.0-1.debian.tar.xz a95a77f696c1a43ccb49172f3d6d4aa109c7883e72e086be3bc78170c785a91b 2267 rust-unicode-width_0.2.0-1.dsc 1fc81956842c57dac11422a97c3b8195a1ff727f06e85c84ed2e8aa277c9a0fd 271509 rust-unicode-width_0.2.0.orig.tar.gz"
+    "c0621cd00acae256b5a5d718d0596a71723c251a95553787c574d5aa20a41283 4160 rust-unicode-width_0.1.10-1.debian.tar.xz 789d9051bd835dac95aa7b50a821d24ece1ed6a2819f793d2b684136f66aa81c 2482 rust-unicode-width_0.1.10-1.dsc c0edd1e5b14653f783770bce4a4dabb4a5108a5370a5f5d8cfe8710c361f6c8b 18968 rust-unicode-width_0.1.10.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "b99a538e121fe8969041fc3756524b135e425f8303e770194d871e5996ca0b2dd55ec8afb654540b4cb170cfa817099cf4e545c50902d86d9db22300fbdc24f6 4236 rust-unicode-width_0.2.0-1.debian.tar.xz e7f441e67d546892f8e22a4fe7fdca6e1f06c4bd43ba3a33e8f93db22fb318f2f6fa0472a7c03300e2f751b5516b314bd1093df9403e0463ebb74ff901cd0a3c 2267 rust-unicode-width_0.2.0-1.dsc 38149ad512a44fc79b2c991c6b5667da2e8f8b442ab6bb7e4f404e7fbb034f7540c7e0e8b9e72a1ff6117b899d6034862239f43b6423fa89d55dcf489caff37d 271509 rust-unicode-width_0.2.0.orig.tar.gz"
+    "c8a6f1c27a533ec580ada61cf049987a286fee0f8d0805a6630790162fa9125fe834b01ab6ae2c40dd8218eb3bf5258e763c3077b289a773e9babe686449f314 4160 rust-unicode-width_0.1.10-1.debian.tar.xz c3c78fd0e33dedb1f494ea6092271b48511b419623d6d8b9420ab736093281884c33961eb4002eeb23c498b5dc4eeccd43f0a200e625c22eaaaa4c945ea5a231 2482 rust-unicode-width_0.1.10-1.dsc 9836a8d489d18ea1ecfe1957ed6d5da7dce825e138cd1848aef093fa8d2eb83fcf01eabb1a2446df4f5ede4e67316e9e81b5d58b59d4e8c5d67870e8fa5dca3b 18968 rust-unicode-width_0.1.10.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-unicode-width"
   ],
   "Files": [
-    "79cdab7b4ebae60ea161e1ca480c7088 4236 rust-unicode-width_0.2.0-1.debian.tar.xz 29c52fb74c7eef34d5f57c8c05ce7e99 2267 rust-unicode-width_0.2.0-1.dsc 8261fb5df8f4203bdfb771a2eb757a10 271509 rust-unicode-width_0.2.0.orig.tar.gz"
+    "f3c24032f649de76101ef5b89da35fe3 4160 rust-unicode-width_0.1.10-1.debian.tar.xz 5c2fc011453d8982e66be78e56689c56 2482 rust-unicode-width_0.1.10-1.dsc 7d6d4fc9fad200d6e295f6930e97e022 18968 rust-unicode-width_0.1.10.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,16 +36,16 @@
     "rust-unicode-width"
   ],
   "Package-List": [
-    "librust-unicode-width-dev deb rust optional arch=any"
+    "librust-unicode-width+compiler-builtins-dev deb rust optional arch=any librust-unicode-width-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, rustc"
+    "cargo, dh-cargo"
   ],
   "Uploaders": [
     "Ximin Luo \u003cinfinity0@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/unicode-width]"
   ],
   "Version": [
-    "0.2.0-1"
+    "0.1.10-1"
   ]
 }

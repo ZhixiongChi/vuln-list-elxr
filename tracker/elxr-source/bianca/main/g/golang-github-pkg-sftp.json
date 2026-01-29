@@ -6,22 +6,22 @@
     "golang-github-pkg-sftp-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-kr-fs-dev (\u003e= 0.1.0), golang-github-stretchr-testify-dev (\u003e= 1.8.0), golang-golang-x-crypto-dev (\u003e= 1:0.1.0)"
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-kr-fs-dev (\u003e= 0.1.0), golang-github-stretchr-testify-dev (\u003e= 1.7.0), golang-golang-x-crypto-dev (\u003e= 1:0.1.0~)"
   ],
   "Checksums-Sha1": [
-    "382af2fc4716e40777b5e279fa21a74581f25991 3560 golang-github-pkg-sftp_1.13.6-1.debian.tar.xz a4d22225089ad3e8f19f205fa8f7f8ded3454f5f 2317 golang-github-pkg-sftp_1.13.6-1.dsc 697cb989a0b101fb27f3c788b7aedb3d829446cc 122137 golang-github-pkg-sftp_1.13.6.orig.tar.gz"
+    "9851654c126f56ae8d643869a4f4d782051176fc 3444 golang-github-pkg-sftp_1.13.5-2.debian.tar.xz 9ccab78f6d2a324f2404b15b77c6afcd211ecfab 2283 golang-github-pkg-sftp_1.13.5-2.dsc 3e72288e5e52f74bfb3041362dcd0d53a102c5cc 116617 golang-github-pkg-sftp_1.13.5.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "0b88dd20cf729f58edd322521f7d97dae4cf9436734d60e9994771c4629877b3 3560 golang-github-pkg-sftp_1.13.6-1.debian.tar.xz 13bdb2aa0a541d9bb67739642e1d34fc07b0c0e6cb05f248b0622044232e306a 2317 golang-github-pkg-sftp_1.13.6-1.dsc e7deacdc4b11286c0f9269338e156da33a774d1e5b4995d1904d69ac68bac551 122137 golang-github-pkg-sftp_1.13.6.orig.tar.gz"
+    "1d1fda3c5e74aa22fde389d0d62e5af33eafdb90b5215bc52986b35a5593da07 3444 golang-github-pkg-sftp_1.13.5-2.debian.tar.xz bae051b996f64f1c2d4ffae3aa3e9e16813c3c138ebcc3302c7ea230fae37a30 2283 golang-github-pkg-sftp_1.13.5-2.dsc c7317ec28d40a2db47c099bd1eff8a72f31dd1cb8d4ce6a84379e15dfd4922a9 116617 golang-github-pkg-sftp_1.13.5.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "3aeb0e47fbd544a0944f943090b451d01c8cc4bc5cc393b9c48e1122de35ebd57e94aa1f14af56cd123ade4dc9a421b8e653616c89e9ec3430cf50381f7b267b 3560 golang-github-pkg-sftp_1.13.6-1.debian.tar.xz 8d1fe1e50329236fac2605addf942a79ed180e1b9c349e8f641dc7e7c56a195bede0498ca55d9c3652e22157160e156dd004c291049406e6c710756b23890950 2317 golang-github-pkg-sftp_1.13.6-1.dsc a17ed875cdc9bffb7bef71061727fbc0f8f574fb467172f24615ec93d56931b2a2644ea02881ba99065ec561f10db6cb4cfd047d50e6dff111ff7f5da28ffffc 122137 golang-github-pkg-sftp_1.13.6.orig.tar.gz"
+    "bc11c9f138f349172158714db48718b95d4fe4b6c3dba7d918952359e74a9a8fb5ffd29ee8920c40d6d2548e5c2b0cc33e514aaa9a0de5bdce93cf6314fdf2a4 3444 golang-github-pkg-sftp_1.13.5-2.debian.tar.xz 4f7159ec0235b76990075c6ec12c376ca1679103a1ee825c31551dcf1af4973e41c1ad9368c2fdd4504fcb433aba324fc6faf56bccbd6fb15e933d58fc86c579 2283 golang-github-pkg-sftp_1.13.5-2.dsc d72eab684185e368329de9e35138b75eddc709b8114985fc41daea1d421cc7b3f7e556503be44cf1d383e59db15de1e77536a12b7c7751211d02ec044b429e97 116617 golang-github-pkg-sftp_1.13.5.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-pkg-sftp"
   ],
   "Files": [
-    "10018f5093626f51ae764bdb8034d1af 3560 golang-github-pkg-sftp_1.13.6-1.debian.tar.xz 200ab19b0004c127667903c009861a67 2317 golang-github-pkg-sftp_1.13.6-1.dsc 713b7515770c16dd21de2ea461bfca2f 122137 golang-github-pkg-sftp_1.13.6.orig.tar.gz"
+    "df9962ad343d3b1f8c7d487a5648fb30 3444 golang-github-pkg-sftp_1.13.5-2.debian.tar.xz 9d49ff1a94d1437fba15a22d8187a101 2283 golang-github-pkg-sftp_1.13.5-2.dsc 504a4eb36a3c393a079ebb532095d01a 116617 golang-github-pkg-sftp_1.13.5.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "golang-github-pkg-sftp"
   ],
   "Package-List": [
-    "golang-github-pkg-sftp-dev deb golang optional arch=all"
+    "golang-github-pkg-sftp-dev deb devel optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-pkg-sftp.git"
   ],
   "Version": [
-    "1.13.6-1"
+    "1.13.5-2"
   ]
 }

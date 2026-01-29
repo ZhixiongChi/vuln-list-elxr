@@ -6,54 +6,48 @@
     "cups-pk-helper"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gnome-common, intltool, libglib2.0-dev, libpolkit-gobject-1-dev, libcups2-dev"
+    "debhelper (\u003e= 7.0.50~), autotools-dev, dh-autoreconf, gnome-common, intltool, libglib2.0-dev (\u003e= 2.29.8), libpolkit-gobject-1-dev, libcups2-dev"
   ],
   "Checksums-Sha1": [
-    "af6fab9bd140f3074f1014875c68bd78bebda00c 7704 cups-pk-helper_0.2.6-2.1.debian.tar.xz 53b22826b7abc2181ca42b1e24cd5dcc56085cf0 1855 cups-pk-helper_0.2.6-2.1.dsc b8bc47688ad692530ec33336543edf9ef4d636fb 162368 cups-pk-helper_0.2.6.orig.tar.xz"
+    "37cd4903b0bee77a40e7f89288e1db815ea494bd 5492 cups-pk-helper_0.2.6-1.debian.tar.xz 2976dadcf8d91b5910623527bd6ab32c2a682a39 2014 cups-pk-helper_0.2.6-1.dsc b8bc47688ad692530ec33336543edf9ef4d636fb 162368 cups-pk-helper_0.2.6.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "1bf70701bac6721db95c568d87b219b87c77a6a689368b7277ecdccaff694190 7704 cups-pk-helper_0.2.6-2.1.debian.tar.xz 2ef8dd1cd7b58f2ce630667b29f7386d5e89a473ab7976fa5cf6fb376b17353f 1855 cups-pk-helper_0.2.6-2.1.dsc 959af8f2f5a2761e7e498b61c9caf25ae963335031eae9972d999e9a0d97a228 162368 cups-pk-helper_0.2.6.orig.tar.xz"
+    "c62ed3ea09f1c4d3cf5221916f97123fabad5ed6d3e4a11e2229912752ba8b14 5492 cups-pk-helper_0.2.6-1.debian.tar.xz 7bb98a6c37790b94c2739c5df7cbea4b27c88dcfa9094086181c291d75a772b1 2014 cups-pk-helper_0.2.6-1.dsc 959af8f2f5a2761e7e498b61c9caf25ae963335031eae9972d999e9a0d97a228 162368 cups-pk-helper_0.2.6.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "ff4fa3f2761b776084ff730c21387e0b3ba1ab0751bdc6347c0c8433cd72aafe2173681bcb2cbce4dab903219325e55ea432c3d696b1c987ac0de3460b52860c 7704 cups-pk-helper_0.2.6-2.1.debian.tar.xz 204b04d35a2f458a445f638cd9012475722b65e2af2455177c5261c7b3219e3c3ea5b84c8d70b3f836bf29145df63577de676e88e70565dd03070f410675265f 1855 cups-pk-helper_0.2.6-2.1.dsc 33f1b6f58f4772148bd1cfb8163dacaffd3cc62f2d03731710c98b765ebb8b87541cb9cf43e886880134c32db91a43c7142b1556a0abdf1449068031b0d5fbd3 162368 cups-pk-helper_0.2.6.orig.tar.xz"
-  ],
-  "Dgit": [
-    "92add146238ab7df2879667f561916b33b10ca61 debian archive/debian/0.2.6-2.1 https://git.dgit.debian.org/cups-pk-helper"
+    "1bb89aa7da12c1279260355ad90f8a99dc9a3a7bbe62d61ebe22f825f8f98315284fff599762db83328417ee5953d6fd42d74ab5e1c9268fd8c34cfe01a4351e 5492 cups-pk-helper_0.2.6-1.debian.tar.xz dc9991ae10bb94d9f2c79b312d8cf91d9476c2ab90ed3cad468b5b324eabc41b1e0b90120eabd71646cc14777bed95b1215befefd6ea5a2ad3d5e99a6301d252 2014 cups-pk-helper_0.2.6-1.dsc 33f1b6f58f4772148bd1cfb8163dacaffd3cc62f2d03731710c98b765ebb8b87541cb9cf43e886880134c32db91a43c7142b1556a0abdf1449068031b0d5fbd3 162368 cups-pk-helper_0.2.6.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/c/cups-pk-helper"
   ],
   "Files": [
-    "f01858d5118d9b3ab3244b7faa84fd9a 7704 cups-pk-helper_0.2.6-2.1.debian.tar.xz 86bbfed75d354fae959c551ed5875384 1855 cups-pk-helper_0.2.6-2.1.dsc a9045c7db6e502d6496da8fc71d8820e 162368 cups-pk-helper_0.2.6.orig.tar.xz"
+    "a50d5f61411fa74a77c31557cd2ac6c4 5492 cups-pk-helper_0.2.6-1.debian.tar.xz 789a5460a72284bb58043c315517f070 2014 cups-pk-helper_0.2.6-1.dsc a9045c7db6e502d6496da8fc71d8820e 162368 cups-pk-helper_0.2.6.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://www.freedesktop.org/wiki/Software/cups-pk-helper"
+    "http://www.freedesktop.org/wiki/Software/cups-pk-helper"
   ],
   "Maintainer": [
-    "Debian Printing Group \u003cdebian-printing@lists.debian.org\u003e"
+    "Guido Günther \u003cagx@sigxcpu.org\u003e"
   ],
   "Package": [
     "cups-pk-helper"
   ],
   "Package-List": [
-    "cups-pk-helper deb gnome optional arch=any"
+    "cups-pk-helper deb gnome extra arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
-  ],
-  "Uploaders": [
-    "Guido Günther \u003cagx@sigxcpu.org\u003e"
+    "3.9.0"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/printing-team/cups-pk-helper"
+    "http://anonscm.debian.org/gitweb/?p=users/agx/cups-pk-helper.git"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/printing-team/cups-pk-helper.git"
+    "git://anonscm.debian.org/users/agx/cups-pk-helper.git"
   ],
   "Version": [
-    "0.2.6-2.1"
+    "0.2.6-1"
   ]
 }

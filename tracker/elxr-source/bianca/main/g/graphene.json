@@ -6,25 +6,25 @@
     "libgraphene-1.0-0, libgraphene-1.0-dev, libgraphene-doc, graphene-tests, gir1.2-graphene-1.0"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-python3, gir1.2-gobject-2.0-dev, gobject-introspection, gobject-introspection (\u003e= 1.78.1-9~) \u003ccross\u003e, libglib2.0-dev, meson, pkgconf"
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, libglib2.0-dev, libgirepository1.0-dev, meson (\u003e= 0.50.1), pkg-config"
   ],
   "Build-Depends-Indep": [
     "gtk-doc-tools \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "3a2b2b93b8f804d2630c3264641d947d8710a9b2 8184 graphene_1.10.8-5.debian.tar.xz 0efca75ea6f087fd2033e9873879cbcc35e70622 2616 graphene_1.10.8-5.dsc fa78b8e2a7ed1475c37ad0d75b1cc3da9d5761a7 248540 graphene_1.10.8.orig.tar.xz"
+    "7999c00bbb8480bebfe83324e91a494476fe873e 7476 graphene_1.10.8-1.debian.tar.xz ee35fa348084e328f99b27fb4417f453b7fadbfc 2560 graphene_1.10.8-1.dsc fa78b8e2a7ed1475c37ad0d75b1cc3da9d5761a7 248540 graphene_1.10.8.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "51209e30b2ce44cc8243e4801dea074abafd7e7c02f3a16188844ab441986ed1 8184 graphene_1.10.8-5.debian.tar.xz 778ed44f33c6af5723a3a115f1ef1bbe1beb11f0f6124f6873b855c3fd4f5e39 2616 graphene_1.10.8-5.dsc 52e3f69828a2e1895a29d08d8a457ecad7a7a554901596069284fd9cf092fcf9 248540 graphene_1.10.8.orig.tar.xz"
+    "86a328a846f666393364e5cc384f2aba3218a8da3f5907f98e6d4075a7ce44ae 7476 graphene_1.10.8-1.debian.tar.xz 8dfea0d0b4093c1776157f80136b2e36053cefc52194b2940f924a3139f6e4e7 2560 graphene_1.10.8-1.dsc 52e3f69828a2e1895a29d08d8a457ecad7a7a554901596069284fd9cf092fcf9 248540 graphene_1.10.8.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "ae7e29a59da084823aa5c00664f12b9efbd274e2787073b0bb4a29c344ea7d6d3c2a2b3e9e13fc3778745ee48024e598c90abaab281cc0c2f63010d15be0e06a 8184 graphene_1.10.8-5.debian.tar.xz 5e027cda46637e50c4415b58395455e58006b5ebaf1b331bc4d14d2bbec934a01de2ef87f351ba874f915c341059a50b723fce5dfed81c510a37ebee351d7565 2616 graphene_1.10.8-5.dsc 691a4125d6ce64694a7c37166c7919d433e40a714027ef681b75537fe17b5ff4d430bf44458159ba1d70bec329752f4479f936bc1bace564ddc59e3fd53f9d97 248540 graphene_1.10.8.orig.tar.xz"
+    "40d834c2604cbc6b4a70ef653508ce46013585298c008a587b22160f092777612ddda521c0963b56347bb936b9e93ecdfc01297a47935b09b461c078953c3640 7476 graphene_1.10.8-1.debian.tar.xz 683dcb83a1778cea74df189d4e5bf99bb4d5b80d39de1fd5d109112a02404fe025903d79316cf9b256e152738a30b8a57edb72f006f63bd50d325653f8cb4591 2560 graphene_1.10.8-1.dsc 691a4125d6ce64694a7c37166c7919d433e40a714027ef681b75537fe17b5ff4d430bf44458159ba1d70bec329752f4479f936bc1bace564ddc59e3fd53f9d97 248540 graphene_1.10.8.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/graphene"
   ],
   "Files": [
-    "8d5594f34d111f501a2aae53931f9264 8184 graphene_1.10.8-5.debian.tar.xz aceca50236d2379745be3e72e416c533 2616 graphene_1.10.8-5.dsc daf48c12b6e0b0bf6115fd4275dbadb4 248540 graphene_1.10.8.orig.tar.xz"
+    "89960ca56fa1dec7cf34b9095d9da856 7476 graphene_1.10.8-1.debian.tar.xz 93f3e64d4242a7f745277bfbaaf8a391 2560 graphene_1.10.8-1.dsc daf48c12b6e0b0bf6115fd4275dbadb4 248540 graphene_1.10.8.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "gir1.2-graphene-1.0 deb introspection optional arch=any graphene-tests deb libs optional arch=any libgraphene-1.0-0 deb libs optional arch=any libgraphene-1.0-dev deb libdevel optional arch=any libgraphene-doc deb doc optional arch=all profile=!nodoc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/gnome-team/graphene.git"
   ],
   "Version": [
-    "1.10.8-5"
+    "1.10.8-1"
   ]
 }

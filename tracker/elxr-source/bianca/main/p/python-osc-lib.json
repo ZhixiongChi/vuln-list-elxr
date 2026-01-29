@@ -9,22 +9,22 @@
     "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
   ],
   "Build-Depends-Indep": [
-    "python3-cliff, python3-coverage, python3-fixtures, python3-hacking, python3-keystoneauth1, python3-openstackdocstheme, python3-openstacksdk, python3-stestr, python3-oslo.i18n, python3-oslo.utils, python3-oslotest, python3-osprofiler, python3-requests, python3-requests-mock, python3-sphinxcontrib.apidoc, python3-stevedore, python3-testtools"
+    "python3-cliff, python3-coverage, python3-fixtures, python3-hacking, python3-keystoneauth1, python3-openstackdocstheme, python3-openstacksdk, python3-stestr, python3-oslo.i18n, python3-oslo.utils, python3-oslotest, python3-osprofiler, python3-requests-mock, python3-simplejson, python3-sphinxcontrib.apidoc, python3-stevedore, python3-testtools"
   ],
   "Checksums-Sha1": [
-    "23aabd673bb6f9fda991f7a51f366660fba7d5fe 3864 python-osc-lib_3.2.0-2.debian.tar.xz 7be300d67ca321a3a5076933f7d4e8d386415f52 2566 python-osc-lib_3.2.0-2.dsc ea6b7f259a61a7f2588fdd03aeedb0cd345c799d 64428 python-osc-lib_3.2.0.orig.tar.xz"
+    "90b693529815899a0ea17a88dfdeb409d117dc26 3568 python-osc-lib_2.6.2-2.debian.tar.xz dd4d7394773e6035cab4f7d0f20eb814128eb9e5 2568 python-osc-lib_2.6.2-2.dsc ffc8dfc7fc40ff34d1039b94b5cab54fe10504b5 64764 python-osc-lib_2.6.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "1b9bb4890df264e5d2964039ea7ad5604c20260220dc6cd0497184e10f5352f8 3864 python-osc-lib_3.2.0-2.debian.tar.xz 4a64c3b0c08b429077ceacedfa0288f6a47e7a0c34f2e51a41a430847ac122fd 2566 python-osc-lib_3.2.0-2.dsc b1826fe9e9a971017c58fa26030451b741516b9f3778c07bd50b5ccff61822a0 64428 python-osc-lib_3.2.0.orig.tar.xz"
+    "5b012f67605be141fbd707e570d3ae9da77e0c1552441a591a910a65403881fa 3568 python-osc-lib_2.6.2-2.debian.tar.xz 9494c960b987ecb60a0b1af2730095ed4ad8b5d651679190f93e4fe6619264c3 2568 python-osc-lib_2.6.2-2.dsc e6eb7a992139d2086fd31ad92627bc04fc4743a3b3b1dced91f939cfc0e5215d 64764 python-osc-lib_2.6.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "c7729d2288920bda3823d75b5ee02d1eb0aef0b964e7429eb64b4dfb657c7a1fcfe3e11282d07af90f9999a2e36b0af4fc6206ad939923780d45a6e485ca02c8 3864 python-osc-lib_3.2.0-2.debian.tar.xz 03e2acaf5817875702bf9e0e6d7712c3a8fe03b69f8c7d0b26c2b1b86e5c439744da6286dacd2daf52ad1a195dd32c4db6ef5b2119c1c85d062ffbfdc558b653 2566 python-osc-lib_3.2.0-2.dsc 7ece0cfa87b8d278bb186b39b8a113c810cdcc912146f2a1c27868c97bd780b4cb6e4a67a352a5cfb2c2637ab48ff2caa2578ed7fd2e53ef670ee3547c727c8f 64428 python-osc-lib_3.2.0.orig.tar.xz"
+    "9243f205be0737a8b1b8928f1deb0e693a3dfda65aec1f5829973124633ebbdd4778ccb47cc7d4d89ed3c497561a3304f5863b0e3a151d92b0028a186bdb4a4f 3568 python-osc-lib_2.6.2-2.debian.tar.xz c538addb64d3ea100c2dcd998f412070ba6c45577ff488fe0fc8de746a56a8d394505eb11e775514a9c8821b49ad3a740e7aca68024bf5e0b06b35726d128c00 2568 python-osc-lib_2.6.2-2.dsc fc7488e0dda97f1cd77b7a6a81b6ac441a1c2ec416fbadd5f61d2ad9c69ba76bffd4fc89e4c1d2fa7578a33f2bb4c5769dee489b24418cfb30666f617ab230ae 64764 python-osc-lib_2.6.2.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-osc-lib"
   ],
   "Files": [
-    "ffcf0589d7bf351d4911f811a8a3f53c 3864 python-osc-lib_3.2.0-2.debian.tar.xz 90f87c1fa8157cdfe2a80ccbefdffab2 2566 python-osc-lib_3.2.0-2.dsc 792fa9fa4f322713e31872077b48bdc5 64428 python-osc-lib_3.2.0.orig.tar.xz"
+    "e824debad1b619404ed3bcdf3e972e32 3568 python-osc-lib_2.6.2-2.debian.tar.xz 0fbfb63b71cf157af9a9553eae71140a 2568 python-osc-lib_2.6.2-2.dsc 7c27c049192f6395ab1a2ff54deb58d0 64764 python-osc-lib_2.6.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/openstack-team/libs/python-osc-lib.git"
   ],
   "Version": [
-    "3.2.0-2"
+    "2.6.2-2"
   ]
 }

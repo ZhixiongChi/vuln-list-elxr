@@ -3,25 +3,25 @@
     "all"
   ],
   "Binary": [
-    "gnome-shell-extensions, gnome-classic, gnome-classic-xsession, gnome-shell-extensions-common, gnome-shell-extension-apps-menu, gnome-shell-extension-auto-move-windows, gnome-shell-extension-drive-menu, gnome-shell-extension-launch-new-instance, gnome-shell-extension-light-style, gnome-shell-extension-native-window-placement, gnome-shell-extension-places-menu, gnome-shell-extension-screenshot-window-sizer, gnome-shell-extension-status-icons, gnome-shell-extension-system-monitor, gnome-shell-extension-user-theme, gnome-shell-extension-window-list, gnome-shell-extension-windows-navigator, gnome-shell-extension-workspace-indicator"
+    "gnome-shell-extensions"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gnome, dpkg-build-api (= 1), libglib2.0-bin, meson (\u003e= 1.1.0), sassc"
+    "debhelper-compat (= 13), dh-sequence-gnome (\u003e= 0.22), meson (\u003e= 0.53.0), sassc"
   ],
   "Checksums-Sha1": [
-    "11193b38aa273c84c167e53607f28a57a90e6cdf 12416 gnome-shell-extensions_48.2-1.debian.tar.xz 964c89d3d7601473cd96829c31ec96f360089ecf 3982 gnome-shell-extensions_48.2-1.dsc 24c6bd39891c73dd5fa08736bedf3a9ac725af9c 231188 gnome-shell-extensions_48.2.orig.tar.xz"
+    "42e3a03e7bf7f76d78a84fae8182fe315f970d89 9312 gnome-shell-extensions_43.1-1.debian.tar.xz 6c73a70d95ab463f1fdfdae9351d0427d4f61ae6 2173 gnome-shell-extensions_43.1-1.dsc 009d6e362a31df6f5b3b09aab3847605705460a6 217552 gnome-shell-extensions_43.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "bd70e997fd137dda667d7ca2c3b0b84b6ab3eb55b80839e07f61f6140784b287 12416 gnome-shell-extensions_48.2-1.debian.tar.xz 9fc85f48ac88b1c81d5632fb41664b1d6058508ecf52556dfbdc60b8d85e0690 3982 gnome-shell-extensions_48.2-1.dsc e9287e863489e5fa6a2c55ae5bea1ca910ae4016deeb3417362678b04a91ecff 231188 gnome-shell-extensions_48.2.orig.tar.xz"
+    "b5bc9ad22cb7d1ea6902f295ade529ef2555ffc515ebe7f6a0e85a433f3b969a 9312 gnome-shell-extensions_43.1-1.debian.tar.xz e42282274b5e6351c37b63c5031b920313a87d6f0eda0e029dc539f7ca3f83b9 2173 gnome-shell-extensions_43.1-1.dsc 6bff851156e6977e0119813b7dadd8bb3bd6cad6aa8c0870d055b2d4917d797c 217552 gnome-shell-extensions_43.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "ed7b6ab6e0658915fc84d5c297a4d84eccb0a94b105a57eeabbb0f46a9070ecfab019a7007056886fa82f3ab54b19065b8be87298ae09667bed3ac61207a9055 12416 gnome-shell-extensions_48.2-1.debian.tar.xz 016a26b096bf0eeea4ff4ece50a3b79539cf696a0153e486775399e2fc59b1e64e436ddfcba8418d0a4420f96466ad4c9f4a4321907844ed7070f0f6093c9e7c 3982 gnome-shell-extensions_48.2-1.dsc 10b04faff6ce84b601b69e0c6bb8fec28d2a786ead3c07c928817dd41deff4026e0e8ed386ecef90c5296c26f5f4f908ae35180457643b387e22604c7502c5c1 231188 gnome-shell-extensions_48.2.orig.tar.xz"
+    "877a863ed72be70ccd06ffe2e583c59c7f4865009606ff42ca73f343e8c6443d1ad34ec9bf03020fecabb8930ffff91ccdf6e1e1fad29ff7996f305e3c287068 9312 gnome-shell-extensions_43.1-1.debian.tar.xz 7a47b70368ae030a7947189553cadb54f0193ad6dbbae4e8f094adb9497cc5838fd8097c7c24749ef29480f7df207c55b7f27bcbac196bcebe842d21105ea520 2173 gnome-shell-extensions_43.1-1.dsc 4390c25cb156277f1baafe5ee7f30785df4efc859d525168549aee5a0a3193e5f1d3bddba8d9e6db438b2d349904f69287e21db40dde83d37fd578a4e7f10d8d 217552 gnome-shell-extensions_43.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gnome-shell-extensions"
   ],
   "Files": [
-    "27f0daae57ef43e25a2e33a3f838e80a 12416 gnome-shell-extensions_48.2-1.debian.tar.xz 51a7231e114d2cac3a0f9e90139260f7 3982 gnome-shell-extensions_48.2-1.dsc 08aad8787870c63e0e4757d1efb1f48f 231188 gnome-shell-extensions_48.2.orig.tar.xz"
+    "2e35851dce647a52e7946f60d6a8e0f0 9312 gnome-shell-extensions_43.1-1.debian.tar.xz 99b9e0166fee536137820fe1e63dd32e 2173 gnome-shell-extensions_43.1-1.dsc d3ed7ea91031dd94af533e9423c09df4 217552 gnome-shell-extensions_43.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,13 @@
     "gnome-shell-extensions"
   ],
   "Package-List": [
-    "gnome-classic deb gnome optional arch=all gnome-classic-xsession deb gnome optional arch=all gnome-shell-extension-apps-menu deb gnome optional arch=all gnome-shell-extension-auto-move-windows deb gnome optional arch=all gnome-shell-extension-drive-menu deb gnome optional arch=all gnome-shell-extension-launch-new-instance deb gnome optional arch=all gnome-shell-extension-light-style deb gnome optional arch=all gnome-shell-extension-native-window-placement deb gnome optional arch=all gnome-shell-extension-places-menu deb gnome optional arch=all gnome-shell-extension-screenshot-window-sizer deb gnome optional arch=all gnome-shell-extension-status-icons deb gnome optional arch=all gnome-shell-extension-system-monitor deb gnome optional arch=all gnome-shell-extension-user-theme deb gnome optional arch=all gnome-shell-extension-window-list deb gnome optional arch=all gnome-shell-extension-windows-navigator deb gnome optional arch=all gnome-shell-extension-workspace-indicator deb gnome optional arch=all gnome-shell-extensions deb oldlibs optional arch=all gnome-shell-extensions-common deb gnome optional arch=all"
+    "gnome-shell-extensions deb gnome optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.0"
   ],
   "Uploaders": [
-    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e"
+    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/gnome-shell-extensions"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/gnome-shell-extensions.git"
   ],
   "Version": [
-    "48.2-1"
+    "43.1-1"
   ]
 }

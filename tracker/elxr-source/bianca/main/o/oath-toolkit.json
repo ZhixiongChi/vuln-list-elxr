@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "liboath-dev, liboath0t64, libpam-oath, libpskc-dev, libpskc0t64, oathtool, pskctool"
+    "liboath-dev, liboath0, libpam-oath, oathtool, libpskc-dev, libpskc0, pskctool"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.22.5), faketime \u003c!nocheck\u003e, gengetopt, help2man, libpam0g-dev, libxml2-utils, libxmlsec1-dev, pkgconf"
+    "datefudge \u003c!nocheck\u003e, debhelper-compat (= 13), pkg-config, gengetopt, libpam0g-dev, libxml2-utils, libxmlsec1-dev"
   ],
   "Checksums-Sha1": [
-    "8b201b29138ad7d4ba081cb7c9fa6ad34a727fb8 13672 oath-toolkit_2.6.12-1.debian.tar.xz 5ae3896858b9eb68b91fd468a899344260b5f1bf 2152 oath-toolkit_2.6.12-1.dsc 0bfb6ad29d59628487c9e180c7a43f4ca301e4d1 4706950 oath-toolkit_2.6.12.orig.tar.gz 19ee83eeb716114abf5deb35018933a8d1e2da6c 228 oath-toolkit_2.6.12.orig.tar.gz.asc"
+    "3a9d5ea1188f1a9ea81dba098ac0f6c3b9608e38 15580 oath-toolkit_2.6.7-3.1+deb12u1.debian.tar.xz 499c97a2921098fed3673b577eccdf8694b025ea 2128 oath-toolkit_2.6.7-3.1+deb12u1.dsc 43daea1daab55ff3d5282fdcaec5f23764ff8fb4 5625279 oath-toolkit_2.6.7.orig.tar.gz d4740d41465af122f6c6b3ad5a103e8e0823bd61 119 oath-toolkit_2.6.7.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "e79ddc4dde15fb1df3dd14f32f0211d8121be28a43e5b69bebf9ca5376c9312f 13672 oath-toolkit_2.6.12-1.debian.tar.xz 66f2d2931fb676576041d776b33c703bb39fc1adfe0fcee9a48f4b153f5be305 2152 oath-toolkit_2.6.12-1.dsc cafdf739b1ec4b276441c6aedae6411434bbd870071f66154b909cc6e2d9e8ba 4706950 oath-toolkit_2.6.12.orig.tar.gz 8c3e3d47e3105cdc0a9b92b87fc8020567806dfa735566e12cf727450cf557dd 228 oath-toolkit_2.6.12.orig.tar.gz.asc"
+    "70452ce94bd1620ecbc77415a5b07d51d600a22180411839274b72d8509d76a3 15580 oath-toolkit_2.6.7-3.1+deb12u1.debian.tar.xz eb7a06a36ba537b83acf7c754d2b6d7789664a9641300bd689a2300855ae581e 2128 oath-toolkit_2.6.7-3.1+deb12u1.dsc 36eddfce8f2f36347fb257dbf878ba0303a2eaafe24eaa071d5cd302261046a9 5625279 oath-toolkit_2.6.7.orig.tar.gz d5dd2444d30fe598e4d0949afcd2c0e8dfb4a322198d30beb9acdab3a3ee14ff 119 oath-toolkit_2.6.7.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "0243a64ca3f53037c9e3dbcc4a0d2a3b790f7a83807eb1f425b403ce28d3bfa3427c637d7cc90ea02b03c8b4ecaea17346cf96becd4a10824d048854467a220e 13672 oath-toolkit_2.6.12-1.debian.tar.xz d7a0379e5c1198265131388a1141a8808268c5509b93dfc1074c349abe90098a402b70e8a339430db8727065693994153887bd84cbd1dfc49c4fff18795ddd82 2152 oath-toolkit_2.6.12-1.dsc f82967e4b86bac57bec4b048fedd351ca7ae6f368f4b3a61135057c28c531a2c9845b51660dee2a6f5db66d5065619d22921b94229c672d1889077a710a0f0ce 4706950 oath-toolkit_2.6.12.orig.tar.gz fa2172b4ea860d885585fd9dd3a7ebc84e0d9226e0d2dc25ea2fb6ff72f03414ee2559bd3eafd5928f1db5bef8d51a859b2f6fb149aab61ebe5ffcbed6948c7d 228 oath-toolkit_2.6.12.orig.tar.gz.asc"
+    "40941b770da5022db1fea44a00184518248f82254c8731641c6a191ceae6ffece363be2535c6d221c2e58aa66caec8b29059952d9695bb8ffe94f3eb6e328961 15580 oath-toolkit_2.6.7-3.1+deb12u1.debian.tar.xz 35d14cde4aa7976a23b8b4300cfd7f604ff06dec45c5ce11bd81c96bf84eae9174a4093495eff0d8b19ec6314a69dc8ac423038091c457ce78a367d1b54d4841 2128 oath-toolkit_2.6.7-3.1+deb12u1.dsc 50edff75c8366887d69cf4740c4cc3bdfc3e43cbd4910ff40f735bca489f0953d7e5a21130f12782ac7a1f2fb00f0db313aff139085f23daba78a69bc7b2eb12 5625279 oath-toolkit_2.6.7.orig.tar.gz c23a4a8ada274072d46e5f2f02e1c0ede0fa5b9ef3560c73f0a995f89847c5c1aa149683a68f84b23f0a8c72d75bc8bba401cdd23ac4ffdd57ede64d9c4d222c 119 oath-toolkit_2.6.7.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/o/oath-toolkit"
   ],
   "Files": [
-    "d7964acbcb32d7c4aab7c777de77ba3c 13672 oath-toolkit_2.6.12-1.debian.tar.xz 4363d19694c3fe3c3d392f395c1fff2d 2152 oath-toolkit_2.6.12-1.dsc b34cefe4d92762c6b81e9a3cb5fb753c 4706950 oath-toolkit_2.6.12.orig.tar.gz e6dd2d7939d85bcf856dd508797004be 228 oath-toolkit_2.6.12.orig.tar.gz.asc"
+    "88bd97f17f66fdf48625652fd12de95c 15580 oath-toolkit_2.6.7-3.1+deb12u1.debian.tar.xz 49873425089ba2964fc930bf3037c279 2128 oath-toolkit_2.6.7-3.1+deb12u1.dsc 0a3c0d9e1f8095c88657bfea8ad5d59f 5625279 oath-toolkit_2.6.7.orig.tar.gz 594c903ee0288cdb27a1bc15d5fa3bc8 119 oath-toolkit_2.6.7.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,16 +30,16 @@
     "https://www.nongnu.org/oath-toolkit/"
   ],
   "Maintainer": [
-    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
+    "OATH Toolkit Team \u003coath-toolkit-help@nongnu.org\u003e"
   ],
   "Package": [
     "oath-toolkit"
   ],
   "Package-List": [
-    "liboath-dev deb libdevel optional arch=any liboath0t64 deb libs optional arch=any libpam-oath deb admin optional arch=any libpskc-dev deb libdevel optional arch=any libpskc0t64 deb libs optional arch=any oathtool deb devel optional arch=any pskctool deb devel optional arch=any"
+    "liboath-dev deb libdevel optional arch=any liboath0 deb libs optional arch=any libpam-oath deb admin optional arch=any libpskc-dev deb libdevel optional arch=any libpskc0 deb libs optional arch=any oathtool deb devel optional arch=any pskctool deb devel optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "build-essential, man, pkg-config"
   ],
   "Uploaders": [
-    "Simon Josefsson \u003csimon@josefsson.org\u003e,"
+    "Simon Josefsson \u003csimon@josefsson.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/oath-toolkit"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/oath-toolkit.git"
   ],
   "Version": [
-    "2.6.12-1"
+    "2.6.7-3.1+deb12u1"
   ]
 }

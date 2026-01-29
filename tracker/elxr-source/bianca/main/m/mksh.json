@@ -6,22 +6,22 @@
     "mksh"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), file, dietlibc-dev [alpha amd64 arm arm64 armeb armel armhf hppa i386 ia64 mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390 s390x sparc sparc64 x32], libklibc-dev [alpha amd64 arm64 armel armhf hppa i386 ia64 loong64 m68k mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390 s390x sh4 sparc sparc64 x32], musl-tools [amd64 arm64 armel armhf i386 loong64 m68k mips mips64el mipsel ppc64el riscv64 s390x sh4], bsdextrautils, ed"
+    "debhelper-compat (= 13), dietlibc-dev [alpha amd64 arm arm64 armeb armel armhf hppa i386 ia64 mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390 s390x sparc sparc64 x32], libklibc-dev (\u003c\u003c 2.0.10) [alpha amd64 arm64 armel armhf hppa i386 ia64 m68k mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390 s390x sh4 sparc sparc64 x32] | libklibc-dev (\u003e\u003e 2.0.11) [alpha amd64 arm64 armel armhf hppa i386 ia64 m68k mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el riscv64 s390 s390x sh4 sparc sparc64 x32], musl-tools [amd64 arm64 armel armhf i386 m68k mips mips64el mipsel ppc64el riscv64 s390x sh4], bsdextrautils, ed"
   ],
   "Checksums-Sha1": [
-    "bd1db13e807d9a64e6178d11d0dbd18072cd26b1 319732 mksh_59c-41.debian.tar.xz c1785db9254830679ccae8f96ff39276bb7959de 2327 mksh_59c-41.dsc 8d5a26fe67ca030bd9e3deff9f3f6e8895183b98 442736 mksh_59c.orig.tar.gz"
+    "79290e6affbdf5addaadadcd45e5c12d5b660779 293172 mksh_59c-28+deb12u1.debian.tar.xz 1cfed41379cd1da4c6f952fc2fae3ef49a2ba5a1 2599 mksh_59c-28+deb12u1.dsc 8d5a26fe67ca030bd9e3deff9f3f6e8895183b98 442736 mksh_59c.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "5f51ec6ef27154a6e64ce37e34da16195a1381795a25cf7be1e85c1f8eb3f17e 319732 mksh_59c-41.debian.tar.xz 1bb169e80d3cdd97f76dee7c06318be8ca4f5a448c70dd29ebf6a6e82a2fc4f1 2327 mksh_59c-41.dsc 77ae1665a337f1c48c61d6b961db3e52119b38e58884d1c89684af31f87bc506 442736 mksh_59c.orig.tar.gz"
+    "5ebb7d3b98f48e9a4cae1cc0ef6ec979f46322fbdc2faf51a6264bf8a2173578 293172 mksh_59c-28+deb12u1.debian.tar.xz c867075fce56478c14435619fc7821af7df0f742a3f11df9b2d3080b5c4f2e68 2599 mksh_59c-28+deb12u1.dsc 77ae1665a337f1c48c61d6b961db3e52119b38e58884d1c89684af31f87bc506 442736 mksh_59c.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "1987f3929c54bfa4fd2a4ad6f2baba4b9e7b80217d4f81aa4326e8de7b11eb3d0acb46c886bbe3c37928aeb3690ba6250b0c158f4b7ed34945330f84d222117f 319732 mksh_59c-41.debian.tar.xz 6ab22fcb9293b708373826caea7a432ec5fdf7e01a365f69e673aa6c05f7ce8c6d8af93ceacd92d5e9f92404b9ce69eaccf76a686798ad56b7c4ad36e69efae4 2327 mksh_59c-41.dsc f56b6956f9e1dd88ddce2294301a5eb698050d9d4f49286fdcd8f9df8554eabbcc71d37e2bf3eb7234e3968a17231cc6de8aa7efbf17768834a90b14e8cdf340 442736 mksh_59c.orig.tar.gz"
+    "0dd64fda7777f724c9a795ddaf68c071b88428a95b2a09074e33c36d64a731cc50b8bf08d0fbd041027db363f1c1f2659ae3a8558e5ac9a8d33ad6a080d98046 293172 mksh_59c-28+deb12u1.debian.tar.xz 6400396aa2a92bacc531e3c5c30ca536a59e7856dd2f897bd356eb39a4477a5d9ee0da9ac2f0fe0cf182359aa4901bbb67edcceaacc9fcb21023f27d0ff10e51 2599 mksh_59c-28+deb12u1.dsc f56b6956f9e1dd88ddce2294301a5eb698050d9d4f49286fdcd8f9df8554eabbcc71d37e2bf3eb7234e3968a17231cc6de8aa7efbf17768834a90b14e8cdf340 442736 mksh_59c.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/m/mksh"
   ],
   "Files": [
-    "0eadd5cf51f46c5141537a4334282ae9 319732 mksh_59c-41.debian.tar.xz 1c0f0ddcaeff45f74594ea4e104b1f80 2327 mksh_59c-41.dsc 99f8ac3c1d8a30b913d509f1969a4aaa 442736 mksh_59c.orig.tar.gz"
+    "148a4a75ffffb551a4a07a8b39a8d13a 293172 mksh_59c-28+deb12u1.debian.tar.xz cbd3b14226f3c01f4ce695bc108fd73b 2599 mksh_59c-28+deb12u1.dsc 99f8ac3c1d8a30b913d509f1969a4aaa 442736 mksh_59c.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "mksh deb shells optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "ed, grep, perl-modules"
+    "ed, pcregrep, perl-modules"
   ],
   "Vcs-Browser": [
     "https://evolvis.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=alioth/mksh.git;a=shortlog;h=refs/heads/master"
@@ -54,6 +54,6 @@
     "https://evolvis.org/anonscm/git/alioth/mksh.git -b master"
   ],
   "Version": [
-    "59c-41"
+    "59c-28+deb12u1"
   ]
 }

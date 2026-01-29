@@ -3,31 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "openmpt123, libopenmpt0t64, libopenmpt-dev, libopenmpt-doc"
+    "openmpt123, libopenmpt0, libopenmpt-dev, libopenmpt-doc"
   ],
   "Build-Conflicts": [
     "autoconf-archive"
   ],
   "Build-Depends": [
-    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), libflac-dev, libmpg123-dev, libogg-dev, libpulse-dev, libsndfile1-dev, libvorbis-dev, pkgconf, portaudio19-dev, zlib1g-dev"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen"
+    "debhelper-compat (= 13), doxygen, libflac-dev, libmpg123-dev, libogg-dev, libpulse-dev, libsndfile1-dev, libvorbis-dev, pkg-config, portaudio19-dev, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "50e8d7e05597a5fbd806d8316a228cabebb13a39 11768 libopenmpt_0.7.13-1.debian.tar.xz 70db957038473fbdbdbaa0bb7eaaa07988425347 1859 libopenmpt_0.7.13-1.dsc 6055ff495295596e3a7252d2436fd3ca3c8d0bc1 1156276 libopenmpt_0.7.13.orig.tar.xz"
+    "e5850df90b22b795a97379ef845c3e9b22a6bd51 11304 libopenmpt_0.6.9-1.debian.tar.xz aa39d104c55185976ac95168d70c1a68af3fbbfa 1807 libopenmpt_0.6.9-1.dsc 66cc5f2cdb572e86d4df3d1ac1fc5a3824081793 1555604 libopenmpt_0.6.9.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "99d97b4aad4e1e72087494a0783dcebe609b0dd9d0a231731085fb3a71d3fd5c 11768 libopenmpt_0.7.13-1.debian.tar.xz f6a2a6730f57655c358539eceacb9bc46c8e754fef43a0eb965ada8be012d826 1859 libopenmpt_0.7.13-1.dsc 296866dcc3e73c7125bcf21e3bed81f950c7d84a4193a1c4dafb9dfb539d82fb 1156276 libopenmpt_0.7.13.orig.tar.xz"
+    "10b160e5686d7e2370dce941434c843b0baaa1bbb410061ecf769eeda3063e0f 11304 libopenmpt_0.6.9-1.debian.tar.xz f0504c2883443edfe81df5a8940b281707a223304f68dc2d53b37b617cc1e557 1807 libopenmpt_0.6.9-1.dsc 479e975abb7dc0fa9cad41bdd31f255d78d43e0726546208058d3c3fcf7b6e5a 1555604 libopenmpt_0.6.9.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "73651d531b4c5812f73e2a3c9de4b102ec490c464960ffbf4674479452428478c93b8d17eb3215f88e2764ad529d52a35a3541f889bf279c95c285184dd38f8e 11768 libopenmpt_0.7.13-1.debian.tar.xz 017fb86bd61a83f32780bc556082f735af04b980e5bd4cec11b616faa2680341c47424fac96b14fa709f2a0488cabaaa58b757a80bf37388c279122475978997 1859 libopenmpt_0.7.13-1.dsc e125d45be17c1cfc2cd3b84a1553b2dcee532f1a128cc2e68a5ae1160e560ba9f47c61c33089976383742e2474920b4eaab730cbbeeb3eec0e5981568cf51e9e 1156276 libopenmpt_0.7.13.orig.tar.xz"
+    "088e91c78dc2dfdeffa02717907d5bd438d27a658025914af0cf581c244cb749eff5a741d72311a7b02fbe009fcf9fc32bb9d07665231cfe4d57e59b7e83476c 11304 libopenmpt_0.6.9-1.debian.tar.xz a07d541ddb4bc5d66f025810f78ce52e00183ea3890fe179321db3f00141acdc17eb9c3fd7f9ef3ca73ef777fe099c3ae6096e88b03caf3c7ed8dbed50f750f9 1807 libopenmpt_0.6.9-1.dsc 89d44bae0e705b6b8aa54a0939fdf435a879f5197c30c3343f7f6c273511cf3d07e5b64e8859fc9e24842a5f845133723b5cdd36b65112c34c9350607f1e0fea 1555604 libopenmpt_0.6.9.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libo/libopenmpt"
   ],
   "Files": [
-    "b23240463490c2d2f856462ec9a5a949 11768 libopenmpt_0.7.13-1.debian.tar.xz d37fa913150c62544bae6c9c09a2a9e2 1859 libopenmpt_0.7.13-1.dsc 8a888363517c6cddb78bbd53a8a12e57 1156276 libopenmpt_0.7.13.orig.tar.xz"
+    "e6188f9545359bb13ae636f4ca24443f 11304 libopenmpt_0.6.9-1.debian.tar.xz 04ba8024858a6c8d3333661b60629122 1807 libopenmpt_0.6.9-1.dsc cad469bef72baeefc43a651dbe9b225c 1555604 libopenmpt_0.6.9.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,10 +39,10 @@
     "libopenmpt"
   ],
   "Package-List": [
-    "libopenmpt-dev deb libdevel optional arch=any libopenmpt-doc deb doc optional arch=all libopenmpt0t64 deb libs optional arch=any openmpt123 deb sound optional arch=any"
+    "libopenmpt-dev deb libdevel optional arch=any libopenmpt-doc deb doc optional arch=all libopenmpt0 deb libs optional arch=any openmpt123 deb sound optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -63,6 +60,6 @@
     "https://salsa.debian.org/multimedia-team/libopenmpt.git"
   ],
   "Version": [
-    "0.7.13-1"
+    "0.6.9-1"
   ]
 }

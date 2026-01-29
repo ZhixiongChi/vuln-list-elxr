@@ -6,28 +6,28 @@
     "librust-strsim-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "1cfbf96fccec33b40d08e56016cfcd76b24847c7 2932 rust-strsim_0.11.1-1.debian.tar.xz a803edbd4729f8b8b7bb5a37f31d0eac621045dd 1655 rust-strsim_0.11.1-1.dsc 18877f53441f6f2943bc8977b2b7f1c2cea87d90 14266 rust-strsim_0.11.1.orig.tar.gz"
+    "b54c47b649160f9f8560f9f1e610acea5c743718 2788 rust-strsim_0.10.0-1.debian.tar.xz bf731c4e60a4912b74166f97752b01d304ecb5ca 2277 rust-strsim_0.10.0-1.dsc 379c3a5fe30e4f6dc378d476dbb4be8fabbc0729 11355 rust-strsim_0.10.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "724c648da228a401670cee0dea00d596201356bb1354be4e90357029e57c6bb8 2932 rust-strsim_0.11.1-1.debian.tar.xz fd42dec2d33143a6608aa217009694f1b778b47da99596ecae9ec85b82e8d2da 1655 rust-strsim_0.11.1-1.dsc 7da8b5736845d9f2fcb837ea5d9e2628564b3b043a70948a3f0b778838c5fb4f 14266 rust-strsim_0.11.1.orig.tar.gz"
+    "9e7c661a50ff506489f8af2d3d33e131024c1a709ca34ca2f706dc116adb7713 2788 rust-strsim_0.10.0-1.debian.tar.xz 51585d5eee5f637e9922bf5aa0e7615f160ba5beb250f0f48249126d1f8b1830 2277 rust-strsim_0.10.0-1.dsc 73473c0e59e6d5812c5dfe2a064a6444949f089e20eec9a2e5506596494e4623 11355 rust-strsim_0.10.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "29c8a58eb48dd4457a562aad82b35f34fced9bc4bc652999eb57cc7a7a38b995ad20af85ee1fdb3e5c095a7026bdd62bd8eb20855dbba95521eb148919ccca1c 2932 rust-strsim_0.11.1-1.debian.tar.xz 8a9b6a507a5ba5e5cc1810d81eae682eb1b931092c803b131428d862e4115f4e4157b2025c7912791b0a07a6fe6aa3f9a0cf689967583a428f9387a0f5329c1d 1655 rust-strsim_0.11.1-1.dsc 0cebe0155a92640e56db9a599ae62078cbb32e1d2da8bfa67ed0e8f410a7558dfcf7b3c2720ff5913282e291ecf076aed9fe9bf84c8d44e814a642b1bed3335c 14266 rust-strsim_0.11.1.orig.tar.gz"
+    "e96a249aec9336d0e02980d81fba0390393356e37dcc10f261461fb5fcc4ffb07cefb07a63a1f31540930faab24a9aeefbedeb530e8eb6bb3a97721ce714d17c 2788 rust-strsim_0.10.0-1.debian.tar.xz e4069e1330b28a51dfc4d6bf2fb7202a8ee6c9fd428393588c713f1270bf71a703adaac464334d6c0a1554dfa3e2a2d087ca166e5c5d1affa67ed32cae682559 2277 rust-strsim_0.10.0-1.dsc 78b318532addfcf5c1ccc1e14539e258aab9d3cd893cc45d82342549bde838c177d90f13c560671f8f32929af47d0b467db35e6876bd7697d8b3f9e055aeeac1 11355 rust-strsim_0.10.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-strsim"
   ],
   "Files": [
-    "d9998763ccad47536c13b29351916b73 2932 rust-strsim_0.11.1-1.debian.tar.xz bb3c441377ded8562b10e4ed8c5ec617 1655 rust-strsim_0.11.1-1.dsc fbe5da24bd1beef6125107ee41118187 14266 rust-strsim_0.11.1.orig.tar.gz"
+    "fc3cc50d3717a159fbffe557639598c8 2788 rust-strsim_0.10.0-1.debian.tar.xz 515d332bdde15d5ffceb2ecbccf8fc5d 2277 rust-strsim_0.10.0-1.dsc 82d98dc87dc8503400aa095f5aa70f13 11355 rust-strsim_0.10.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://github.com/rapidfuzz/strsim-rs"
+    "https://github.com/dguo/strsim-rs"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -39,7 +39,7 @@
     "librust-strsim-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/strsim]"
   ],
   "Version": [
-    "0.11.1-1"
+    "0.10.0-1"
   ]
 }

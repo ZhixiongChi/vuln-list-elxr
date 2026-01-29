@@ -9,25 +9,25 @@
     "debhelper-compat (= 13), docbook-xml \u003c!nodoc\u003e, docbook-xsl \u003c!nodoc\u003e, xsltproc \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "2125db934f44cdbd0cd46a20189093d50b2c7e6c 16064 jemalloc_5.3.0-3.debian.tar.xz 8088e723ba63e1fe2f82b0957bb91a1dcd9c4eb8 2030 jemalloc_5.3.0-3.dsc 1c8f2d0dfbf39fa8cd86363bf3314351ab21f8d4 736023 jemalloc_5.3.0.orig.tar.bz2"
+    "006bb0eb9df9ab26a9660680298e0643d73b7c3c 15268 jemalloc_5.3.0-1.debian.tar.xz e029adc735fc88dd5eb10639ee55129af7c1920b 1977 jemalloc_5.3.0-1.dsc 1c8f2d0dfbf39fa8cd86363bf3314351ab21f8d4 736023 jemalloc_5.3.0.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "9c71e65b798052e412478b2dce84226c95414f87bd15ed229d7f50cb531f1095 16064 jemalloc_5.3.0-3.debian.tar.xz e83aab73c22240f9600c1265fd3120649f2da95fc8196c8f5c254355aafad183 2030 jemalloc_5.3.0-3.dsc 2db82d1e7119df3e71b7640219b6dfe84789bc0537983c3b7ac4f7189aecfeaa 736023 jemalloc_5.3.0.orig.tar.bz2"
+    "4e87f3aa3709ce9ae9de501a56202de3b81f565aba441c579c57c29bda00006e 15268 jemalloc_5.3.0-1.debian.tar.xz 439f07beae27fc3643932de2ef6d095c15f852cdf1a39c2949b8f6fbc51d6f0d 1977 jemalloc_5.3.0-1.dsc 2db82d1e7119df3e71b7640219b6dfe84789bc0537983c3b7ac4f7189aecfeaa 736023 jemalloc_5.3.0.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "741e2d9613393011ef4b77f476d9683d12ca11645b23fd1b2f624bd816c2a20db7468fcb41e0b4ddd09943474d5bda5c73d010762557ac6a025d4731712fbd9f 16064 jemalloc_5.3.0-3.debian.tar.xz 54d7b86ee010959bbf3cac499b595a52a3e8aa914365abb9d5622a1a1ca71d4316a960aa09a9ab546a8fada70e0d581acf0bd6e32e1a97777805217763389ae9 2030 jemalloc_5.3.0-3.dsc 22907bb052096e2caffb6e4e23548aecc5cc9283dce476896a2b1127eee64170e3562fa2e7db9571298814a7a2c7df6e8d1fbe152bd3f3b0c1abec22a2de34b1 736023 jemalloc_5.3.0.orig.tar.bz2"
+    "9518996cfff056acd7a09439fc7c1122e2851d32dbcc3ba709d78be483e5afb881576ad3cf50d2499d8fdfe82275f32738f728da9debef4edf6dd1f0e4dd635d 15268 jemalloc_5.3.0-1.debian.tar.xz 8d028e950e3a30ec5906ab850fd976bb95edf30d199f4dacbc5a089d950bad2777f1d66df184701cb54fee9e806871d22c27adacb8dc896e108577a86bcf7894 1977 jemalloc_5.3.0-1.dsc 22907bb052096e2caffb6e4e23548aecc5cc9283dce476896a2b1127eee64170e3562fa2e7db9571298814a7a2c7df6e8d1fbe152bd3f3b0c1abec22a2de34b1 736023 jemalloc_5.3.0.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/j/jemalloc"
   ],
   "Files": [
-    "c8a1dbbf5647bf1a5870d55e5c49a09d 16064 jemalloc_5.3.0-3.debian.tar.xz e14fd7e3d7631b0e03e66978c8be658f 2030 jemalloc_5.3.0-3.dsc 09a8328574dab22a7df848eae6dbbf53 736023 jemalloc_5.3.0.orig.tar.bz2"
+    "aab066d79806039c7c147b86f4a4219f 15268 jemalloc_5.3.0-1.debian.tar.xz 63e8dbe924c440eefff68667aa691926 1977 jemalloc_5.3.0-1.dsc 09a8328574dab22a7df848eae6dbbf53 736023 jemalloc_5.3.0.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://jemalloc.net/"
+    "http://jemalloc.net/"
   ],
   "Maintainer": [
     "Faidon Liambotis \u003cparavoid@debian.org\u003e"
@@ -39,13 +39,10 @@
     "libjemalloc-dev deb libdevel optional arch=any libjemalloc2 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, perl, sharness"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/jemalloc"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/debian/jemalloc.git"
   ],
   "Version": [
-    "5.3.0-3"
+    "5.3.0-1"
   ]
 }

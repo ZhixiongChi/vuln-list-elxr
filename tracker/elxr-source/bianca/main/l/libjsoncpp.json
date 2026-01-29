@@ -3,7 +3,7 @@
     "any all"
   ],
   "Binary": [
-    "libjsoncpp26, libjsoncpp-dev, libjsoncpp-doc"
+    "libjsoncpp25, libjsoncpp-doc, libjsoncpp-dev"
   ],
   "Build-Depends": [
     "cmake, debhelper-compat (= 13), python3:any"
@@ -12,22 +12,19 @@
     "doxygen"
   ],
   "Checksums-Sha1": [
-    "feaeb7eaaf1577ca94c87f18efba6e3d21050f41 8260 libjsoncpp_1.9.6-3.debian.tar.xz 29789cb691eb296325fbfd4570a36ffd388494db 2246 libjsoncpp_1.9.6-3.dsc fb695d42da4a60e1d25d0757eff8308827f07240 212682 libjsoncpp_1.9.6.orig.tar.gz"
+    "28686e1d3a6d633ae70e1b498d4bbeccad6476df 7316 libjsoncpp_1.9.5-4.debian.tar.xz 7b8cfd912948f07dea2a50ef7c797a80f9fbcdb1 1955 libjsoncpp_1.9.5-4.dsc 5c0c95ff3dd6b5dc18644e90f21b7b0e252e5de9 216055 libjsoncpp_1.9.5.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "12a9eecbde3e2b6fb815bce4544d3a8180b965ab51ac0f26ea11f33ea963dcbc 8260 libjsoncpp_1.9.6-3.debian.tar.xz fd8e28f65bd38ebd0cb1830d160626d9e87020171ad14f39f6bfedb1ccc6c64e 2246 libjsoncpp_1.9.6-3.dsc f93b6dd7ce796b13d02c108bc9f79812245a82e577581c4c9aabe57075c90ea2 212682 libjsoncpp_1.9.6.orig.tar.gz"
+    "7b2c69f8da928f65230395d910d4e0b51b1ea0194f6e6e3315a817a55fc8d8a8 7316 libjsoncpp_1.9.5-4.debian.tar.xz 04ebf5df2f9336f2c8959258b922fd4a9de9b77a0cf19139939a5d4c30ab762b 1955 libjsoncpp_1.9.5-4.dsc f409856e5920c18d0c2fb85276e24ee607d2a09b5e7d5f0a371368903c275da2 216055 libjsoncpp_1.9.5.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "d8cf359df261be97372b5777a1fd7eb3360d9c28478d4f741dfb20386931b3166db5028574c9c92034625d000f1e20cb19207c984b74d293f747721ab63d504a 8260 libjsoncpp_1.9.6-3.debian.tar.xz 3eefb6aec86de500b654445741e4ca545a09d7b9dfbcb215c52e8d20f871957ae8c0bc01ac275db6f91fb3aa46efc59eea53b86db4d82441ea58900db414b51a 2246 libjsoncpp_1.9.6-3.dsc 006d81f9f723dcfe875ebc2147449c07c5246bf97dd7b9eee1909decc914b051d6f3f06feb5c3dfa143d28773fb310aabb04a81dc447cc61513309df8eba8b08 212682 libjsoncpp_1.9.6.orig.tar.gz"
-  ],
-  "Dgit": [
-    "00baee5ae2a812288ca78476ddc83c4f8b32d5b0 debian archive/debian/1.9.6-3 https://git.dgit.debian.org/libjsoncpp"
+    "e586f5267335805201ed1f8a6e761d49616b8cfefffa6920404e336cef07688c4e19c01c4cd5f74d8b4dbcb12c719b5758e77c09ca2072ef0b51969439dcf82f 7316 libjsoncpp_1.9.5-4.debian.tar.xz 25c3c6d9818e56b3e31896d17a44b918f4e0bac7229fd7ecf2903e0eed452f97d68022dae847e8c216606ee7c17ef81eb5a733591086c834c187d39315e3f569 1955 libjsoncpp_1.9.5-4.dsc 1d06e044759b1e1a4cc4960189dd7e001a0a4389d7239a6d59295af995a553518e4e0337b4b4b817e70da5d9731a4c98655af90791b6287870b5ff8d73ad8873 216055 libjsoncpp_1.9.5.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libj/libjsoncpp"
   ],
   "Files": [
-    "3ca595ede4a992df9c46fd62d6a83cb9 8260 libjsoncpp_1.9.6-3.debian.tar.xz c8ff1d2814f6a2e7260078b4373ca045 2246 libjsoncpp_1.9.6-3.dsc bf641b36615341b31ef917f104318608 212682 libjsoncpp_1.9.6.orig.tar.gz"
+    "b2595c4fc7f87db711cc38a3faef6d1f 7316 libjsoncpp_1.9.5-4.debian.tar.xz cfb726edaaeef1267859fa17d2e8a825 1955 libjsoncpp_1.9.5-4.dsc d6c8c609f2162eff373db62b90a051c7 216055 libjsoncpp_1.9.5.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,10 +39,10 @@
     "libjsoncpp"
   ],
   "Package-List": [
-    "libjsoncpp-dev deb libdevel optional arch=any libjsoncpp-doc deb doc optional arch=all libjsoncpp26 deb libs optional arch=any"
+    "libjsoncpp-dev deb libdevel optional arch=any libjsoncpp-doc deb doc optional arch=all libjsoncpp25 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/debian/libjsoncpp.git"
   ],
   "Version": [
-    "1.9.6-3"
+    "1.9.5-4"
   ]
 }

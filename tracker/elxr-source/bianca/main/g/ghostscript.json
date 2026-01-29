@@ -3,28 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "ghostscript, ghostscript-doc, libgs10, libgs-common, libgs10-common, libgs-dev"
+    "ghostscript, ghostscript-doc, libgs10, libgs-common, libgs10-common, libgs-dev, ghostscript-x, libgs9-common"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-linktree, dh-sequence-pkgkde-symbolshelper, fonts-urw-base35, freeglut3-dev, libcups2-dev [!kfreebsd-any], libcupsimage2-dev [!kfreebsd-any], libexpat-dev, libfontconfig-dev, libfreetype-dev, libice-dev, libidn-dev, libijs-dev, libjbig2dec0-dev (\u003e= 0.19), libjpeg-dev, liblcms2-dev, libopenjp2-7-dev, libpaper-dev, libpng-dev, libsm-dev, libtiff-dev, libx11-dev, libxext-dev, libxt-dev, pkgconf, rename, zlib1g-dev:native"
+    "debhelper-compat (= 13), dh-linktree, dh-sequence-pkgkde-symbolshelper, fonts-urw-base35, freeglut3-dev, libcups2-dev [!kfreebsd-any], libcupsimage2-dev [!kfreebsd-any], libexpat-dev, libfontconfig1-dev, libfreetype-dev, libice-dev, libidn11-dev, libijs-dev, libjbig2dec0-dev (\u003e= 0.19), libjpeg-dev, liblcms2-dev, libopenjp2-7-dev, libpaper-dev, libpng-dev, libsm-dev, libtiff-dev, libx11-dev, libxext-dev, libxt-dev, pkg-config, rename, zlib1g-dev:native"
   ],
   "Build-Depends-Indep": [
-    "python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-sphinx-copybutton \u003c!nodoc\u003e, rst2pdf \u003c!nodoc\u003e"
+    "python3-sphinx, python3-sphinx-rtd-theme, rst2pdf"
   ],
   "Checksums-Sha1": [
-    "94a983bd014d079435450b770b593ec62f691e0a 87492 ghostscript_10.05.1~dfsg-1+deb13u1.debian.tar.xz 4b5c82fd42bf3c338b83abd04af0f5996ae38386 3034 ghostscript_10.05.1~dfsg-1+deb13u1.dsc 2a57abc10000affa2cb70de4f18c962e94fa5077 28467224 ghostscript_10.05.1~dfsg.orig.tar.xz"
+    "6122612421398161c7a1dd6704456838905acb0e 110332 ghostscript_10.0.0~dfsg-11+deb12u8.debian.tar.xz 45f71a36b85cf3e2c3fadf6257b589b452620e38 3022 ghostscript_10.0.0~dfsg-11+deb12u8.dsc 7aa37250cc830f3c9914b083ef468cfe30e6a00f 26688456 ghostscript_10.0.0~dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "6490004f76429ef07f78d13d31ad4b55652414065460bd625d561009a0a6215e 87492 ghostscript_10.05.1~dfsg-1+deb13u1.debian.tar.xz 368616b13123e2887c54524a685e40856ea9401be3cb3cd0b9c39ba15fcfa818 3034 ghostscript_10.05.1~dfsg-1+deb13u1.dsc ca4ff3a4c2b536baedd3029cb9b7bdd3bd9b27a03b53956efda062140843add1 28467224 ghostscript_10.05.1~dfsg.orig.tar.xz"
+    "94f131ca44c0c0a9379cb8ad2841b98e15f0bf2a0c157b1fd11f8dbefefe6399 110332 ghostscript_10.0.0~dfsg-11+deb12u8.debian.tar.xz 8cb8f619dffe09825e56014b9fc34381ba9fa75048b11b00a275abeaf9785cd4 3022 ghostscript_10.0.0~dfsg-11+deb12u8.dsc 67a288151fd88f0d44e165429c48cc85d69b3e4d3765c95e60839a094bfb8df3 26688456 ghostscript_10.0.0~dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "67d88bdbe212f9c52397676d1096ea10f2fedb975496a2f250cc8bb1a162fc883ba0f4d81c9ea8540d8a5444c3c6b0a11d62fdd20146dc83aa044356dbc5c431 87492 ghostscript_10.05.1~dfsg-1+deb13u1.debian.tar.xz 9f993dc05332287ca14ea27ea8222011fcb8a92ee0d4ea566355535bb0561d950ee10d6ea4dc3cac75e518a2d71c878e7df7b4ca9c61dc85b42d69053943c3c2 3034 ghostscript_10.05.1~dfsg-1+deb13u1.dsc b82fbd7c3b2302cf2fb473b7309725cf93ddc988dbee68c7a3e9de39efe823186a1a11acccfeb74f8adb9d27b45b0111941518a991c8bfc72a5413cc379da4ce 28467224 ghostscript_10.05.1~dfsg.orig.tar.xz"
+    "d04cb988efff513fa34f9a3ad9cd5a0ca1db3aa9e5d929b4a7a6834e7afa54d111b1e4ee61b07068e6cf69ac115628c1b00c1a38e13630cf1ffebc94c552ca9a 110332 ghostscript_10.0.0~dfsg-11+deb12u8.debian.tar.xz 8c5b0b7467950fcfeb28ec965933380b15003631f8fc1063c2f02f40fdaac69bf1fa145fb5a459f4ac3562a5be72262dda9500acf7e92d17245fb97b73cb87c6 3022 ghostscript_10.0.0~dfsg-11+deb12u8.dsc 256823d19a628a03cf6b262b5cea897518428bf4282d226d64e7cd560f0de3aad2940ca7b22f283bb7f4bd130e678471f3565b9faddd1ef7204942149d554881 26688456 ghostscript_10.0.0~dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/ghostscript"
   ],
   "Files": [
-    "14739590abd9ad1daf12854cea7801c6 87492 ghostscript_10.05.1~dfsg-1+deb13u1.debian.tar.xz 2138419400bedde698cc45ca559dc451 3034 ghostscript_10.05.1~dfsg-1+deb13u1.dsc 9598181badf7ef0895e59c88a2256a4d 28467224 ghostscript_10.05.1~dfsg.orig.tar.xz"
+    "1f17de20dc37263ce870ebd9335f1705 110332 ghostscript_10.0.0~dfsg-11+deb12u8.debian.tar.xz b920842fa2d4d4247cf32ae2c4d0478e 3022 ghostscript_10.0.0~dfsg-11+deb12u8.dsc ef38488b0a39c7064a027f4a4c9b9151 26688456 ghostscript_10.0.0~dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -33,22 +33,19 @@
     "https://www.ghostscript.com/"
   ],
   "Maintainer": [
-    "Debian Printing Team \u003cdebian-printing@lists.debian.org\u003e"
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
   ],
   "Package": [
     "ghostscript"
   ],
   "Package-List": [
-    "ghostscript deb text optional arch=any ghostscript-doc deb doc optional arch=all profile=!nodoc libgs-common deb libs optional arch=all libgs-dev deb libdevel optional arch=any libgs10 deb libs optional arch=any libgs10-common deb libs optional arch=all"
+    "ghostscript deb text optional arch=any ghostscript-doc deb doc optional arch=all ghostscript-x deb oldlibs optional arch=any libgs-common deb libs optional arch=all libgs-dev deb libdevel optional arch=any libgs10 deb libs optional arch=any libgs10-common deb libs optional arch=all libgs9-common deb oldlibs optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
-  ],
-  "Uploaders": [
-    "Steve M. Robbins \u003csmr@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/ghostscript"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/debian/ghostscript.git"
   ],
   "Version": [
-    "10.05.1~dfsg-1+deb13u1"
+    "10.0.0~dfsg-11+deb12u8"
   ]
 }

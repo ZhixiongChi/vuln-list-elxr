@@ -6,22 +6,22 @@
     "python3-routes"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools, python3-sphinx (\u003e= 1.3), python3-pytest, python3-repoze.lru, python3-coverage, python3-webob, python3-webtest"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-sphinx (\u003e= 1.3), python3-nose, python3-repoze.lru, python3-coverage, python3-webob, python3-webtest, python3-six"
   ],
   "Checksums-Sha1": [
-    "bc40d297618a3bc32699e97f72ca4849b207c765 9740 routes_2.5.1-7.debian.tar.xz d43126f125b4043920c197c7983e1d52016ee996 2157 routes_2.5.1-7.dsc 3ee4f935959b0a3751511c8b9ac892df1b81437c 190905 routes_2.5.1.orig.tar.gz"
+    "e27b9b5b99e44c6333b36e452815f33068fd1223 5988 routes_2.5.1-3.debian.tar.xz e591b2f69b1a507afa8a8b6afd38671136dd12bc 2072 routes_2.5.1-3.dsc 3ee4f935959b0a3751511c8b9ac892df1b81437c 190905 routes_2.5.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "135a49c40df760ab6206da0a1ef525812cbe49b0a1693b8cc71f5146602da7f8 9740 routes_2.5.1-7.debian.tar.xz 9cf4543d4f0c02159aea923b0d987360a5612608f27556ff2fff05adad146ba5 2157 routes_2.5.1-7.dsc b6346459a15f0cbab01a45a90c3d25caf980d4733d628b4cc1952b865125d053 190905 routes_2.5.1.orig.tar.gz"
+    "c76775989b86b0592198a935c00deac98c75977385aca9956c2c20d6fad404e0 5988 routes_2.5.1-3.debian.tar.xz c4242332dd2c72aa7b7e5022164f3eba5921b276445a25a8f5d3b41f36baf762 2072 routes_2.5.1-3.dsc b6346459a15f0cbab01a45a90c3d25caf980d4733d628b4cc1952b865125d053 190905 routes_2.5.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "3f2ee7b5be34b5e10be1d7298f7b20bfa8d079877b224d95e39bc43752ce7d6adeb2e61a1a52c90a51a7e891081cb9211c73ea9bf1fb955e8e358fcd023fab4e 9740 routes_2.5.1-7.debian.tar.xz 6faee629e8ffa4d4c45f7e936ae119366d036f7389f841b0c687207325f89eb55ff6e43c8d23b45aab8421e8a2cc4c1d2fe5ecd8938d90d532d699558240ed13 2157 routes_2.5.1-7.dsc 06ec9a8426ced86524096703de47e3da2fa08bd0ed8c962d451b4338966804245b5074077021fb58a5afcb63acd6dcffa05a89703b8b54841a69a4cdff12b755 190905 routes_2.5.1.orig.tar.gz"
+    "0842b4c4ccaf6c2cddc7488efa1f42b505f2263d2cf56ee83c971bceb7ec8614783c5559c5497821a86560c079681db1e2f47096aa60a28f28e7271e08c06129 5988 routes_2.5.1-3.debian.tar.xz 4d2f2be3b5eb38d67ac6e2f48e35baa314f8e75a53481ea1a777a94c1b8069ae2140c2cbc326bb5ee4fd04d8a80b59d4ea178f8873c350d3e3161e8b026365cc 2072 routes_2.5.1-3.dsc 06ec9a8426ced86524096703de47e3da2fa08bd0ed8c962d451b4338966804245b5074077021fb58a5afcb63acd6dcffa05a89703b8b54841a69a4cdff12b755 190905 routes_2.5.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/routes"
   ],
   "Files": [
-    "7a91d02d0336471f0557d4a602f17c3d 9740 routes_2.5.1-7.debian.tar.xz 52a6bbaa878ffd7af6c2f357cd9dff18 2157 routes_2.5.1-7.dsc 8f1fab1924e00d11b14719a469a3e0a2 190905 routes_2.5.1.orig.tar.gz"
+    "e002e0908ae17c34ab69f41cf952fe2e 5988 routes_2.5.1-3.debian.tar.xz f203b87e8b1598e209f622169e746c88 2072 routes_2.5.1-3.dsc 8f1fab1924e00d11b14719a469a3e0a2 190905 routes_2.5.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,7 @@
     "python3-routes deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
-  ],
-  "Testsuite": [
-    "autopkgtest-pkg-pybuild"
+    "4.5.1"
   ],
   "Uploaders": [
     "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/python-team/packages/routes.git"
   ],
   "Version": [
-    "2.5.1-7"
+    "2.5.1-3"
   ]
 }

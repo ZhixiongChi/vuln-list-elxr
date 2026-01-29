@@ -6,22 +6,22 @@
     "googletest, libgtest-dev, libgmock-dev, google-mock"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake, python3:native"
+    "debhelper (\u003e= 13), cmake, python3:native"
   ],
   "Checksums-Sha1": [
-    "2ff71d1fd7fa956cc7b92a7222521dee49f5bd27 11332 googletest_1.16.0-1.debian.tar.xz a508125bbac7081dadf7e449beb8574c4b1a95ab 2131 googletest_1.16.0-1.dsc 578667c35c8db30198468d65bd078f9da89e6450 876235 googletest_1.16.0.orig.tar.gz"
+    "5bfc177bad47a1d1a81f59ba0cbee873ac8c7208 10144 googletest_1.12.1-0.2.debian.tar.xz 9e933b0461e91de9f8642cbb90367c1dd15e9f17 2112 googletest_1.12.1-0.2.dsc cdddd449d4e3aa7bd421d4519c17139ea1890fe7 854944 googletest_1.12.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "6db54dc3cfc0b69c26a29a843403bacba7f3ff53df4ad141f48b73d45509353d 11332 googletest_1.16.0-1.debian.tar.xz 3e3998821e578548ba028f1196cb322e470e55e0fae28cdc303d2667c2c31e51 2131 googletest_1.16.0-1.dsc 2f54382b5d13d6cd0be2afc524f1e510d37f8ba78c2d439c5bea64ef37e30d01 876235 googletest_1.16.0.orig.tar.gz"
+    "03dca2d4c5d2add5afcca67a09c5664b04998ef2063b6bec0cb84563e6eef422 10144 googletest_1.12.1-0.2.debian.tar.xz cc90251040c145be18d5090787d9ec79e48217c6cef3ae78eb20f0e31551404c 2112 googletest_1.12.1-0.2.dsc 81964fe578e9bd7c94dfdb09c8e4d6e6759e19967e397dbea48d1c10e45d0df2 854944 googletest_1.12.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "cdab717c96d597f5737143a031c2dff63616953d7b143ee5128fc6137f6bd6403d80450ab6d430a200ce8d67de72ed1deb1e16868bab5403dd22fa45e044e7bf 11332 googletest_1.16.0-1.debian.tar.xz d7240116e54aa6740499a412f11e05de23cbdda6175203925b2d2b7ade57d34cd320a7f36a845df526b48b2cbbc8429eac0bde51c8f322a5cf547e6535e66696 2131 googletest_1.16.0-1.dsc 0d69309ab20866bd7ae86d85e5d68e8e605231c7cccdbfa0213cbf7d13060f26988854d60b78c8a8690c9e352c7a83e09318d7a09a8c4a0afc54fe89f5b518d1 876235 googletest_1.16.0.orig.tar.gz"
+    "48575939814c0e090a2a22fd4cca854c8da5346f15c382c0c35983d275352ba18adda09d9de034c78890de9426bf700864fff20d9adc55267ecaec75af16b622 10144 googletest_1.12.1-0.2.debian.tar.xz f70e817fc5a23e07842a1ac6b94b1072bacec967857d5797d0c62522008c5929f32c36eabe0a3e09f191136317c91719dd2b3d975fb7779ed63e18ab2362a255 2112 googletest_1.12.1-0.2.dsc a9104dc6c53747e36e7dd7bb93dfce51a558bd31b487a9ef08def095518e1296da140e0db263e0644d9055dbd903c0cb69380cb2322941dbfb04780ef247df9c 854944 googletest_1.12.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/googletest"
   ],
   "Files": [
-    "b676cc1f1de6f06e475019f5561269e2 11332 googletest_1.16.0-1.debian.tar.xz 3d6fc935884cec05138d2e4e376df02c 2131 googletest_1.16.0-1.dsc a96f7601f88304e7f46e12a86c6dabf3 876235 googletest_1.16.0.orig.tar.gz"
+    "c9c51c318537b651e8b3a9f7fc169ecd 10144 googletest_1.12.1-0.2.debian.tar.xz 55dc36cf247793d7dd28593a6fbeae7d 2112 googletest_1.12.1-0.2.dsc e82199374acdfda3f425331028eb4e2a 854944 googletest_1.12.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "google-mock deb oldlibs optional arch=any googletest deb libdevel optional arch=all libgmock-dev deb libdevel optional arch=any libgtest-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Uploaders": [
     "Fredrik Hallenberg \u003challon@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/googletest.git"
   ],
   "Version": [
-    "1.16.0-1"
+    "1.12.1-0.2"
   ]
 }

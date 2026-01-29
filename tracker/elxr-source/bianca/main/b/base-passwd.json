@@ -6,31 +6,31 @@
     "base-passwd"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), docbook \u003c!nodoc\u003e, docbook-utils \u003c!nodoc\u003e, libdebconfclient0-dev, libselinux1-dev [linux-any], po4a"
+    "debhelper-compat (= 13), docbook-utils, libdebconfclient0-dev, libselinux1-dev [linux-any], po4a, w3m"
   ],
   "Checksums-Sha1": [
-    "c9a3fe0b6da25cfac124b9ace5c5882606f9235b 1891 base-passwd_3.6.7.dsc 96b8461fab82edcbd97e75db607c4c134b40e990 60872 base-passwd_3.6.7.tar.xz"
+    "1c42cf967d28d02003f097dec4186b738df32d7f 1740 base-passwd_3.6.1.dsc a1a29d01d06476ff5f65be3683b51fc77bbfb6ac 56072 base-passwd_3.6.1.tar.xz"
   ],
   "Checksums-Sha256": [
-    "23dafe71f85d7595d9e20efba17729c1c975a33bd469cf09bfad9e96b1f542f3 1891 base-passwd_3.6.7.dsc cf869870fed7862b57bfa9e99cd5cd6f365e2349705a1b65af7fc182629bd1ab 60872 base-passwd_3.6.7.tar.xz"
+    "b4e5fcdba73369657b241743033e8e7a65c26da43285503c652fa1436ce75d1f 1740 base-passwd_3.6.1.dsc 6ff369be59d586ba63c0c5fcb00f75f9953fe49db88bc6c6428f2c92866f79af 56072 base-passwd_3.6.1.tar.xz"
   ],
   "Checksums-Sha512": [
-    "e56a81c1b38b1a83dd66119a7e7359843f27b5504a0423d5c8679a6c7ef3f5c27814bb6c3e3cbae7633dd61df67ebbcfd19d746f0cda7faf402f88479e7f4f62 1891 base-passwd_3.6.7.dsc 9a0f6c0b33396828e7aca57041ab3cf3dc800b2f9057360df2350558c668798c29774f540890f524643405c4b969e80b28c649757cf67cf1edc5e498718990e7 60872 base-passwd_3.6.7.tar.xz"
+    "b631fac3bb17d25bca3a04d74a542dcb7a97f29bd98da38dabd4c38ebfeb9638466876e20e60ea9b86f8168cc50f5ae2153a9a59d635114ff10bc9425a7a998e 1740 base-passwd_3.6.1.dsc f26df2acbd103c60dd2003bc72ce043c05f66009464245d2740e4389374687e7c67114ee2120dab79546a29f9b5bd29fd8321f758fc7db32165125c4286593a8 56072 base-passwd_3.6.1.tar.xz"
   ],
   "Dgit": [
-    "db2530d5af65dc579ecf3e195dc7ca44cdac5d29 debian archive/debian/3.6.7 https://git.dgit.debian.org/base-passwd"
+    "8f07b66c4021db6ff6d0f30e2217fe45d8a5fd91 debian archive/debian/3.6.1 https://git.dgit.debian.org/base-passwd"
   ],
   "Directory": [
     "pool/main/b/base-passwd"
   ],
   "Files": [
-    "00b183c9bb0570f08baefabb05ce06ad 1891 base-passwd_3.6.7.dsc 3dc4c61f2e2c4ac6a7a5cd5d2f882577 60872 base-passwd_3.6.7.tar.xz"
+    "df15746c131821412ee61b497ff59553 1740 base-passwd_3.6.1.dsc 221c7bfc2499b05910019702be5056e3 56072 base-passwd_3.6.1.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
   ],
   "Maintainer": [
-    "Shadow package maintainers \u003cpkg-shadow-devel@lists.alioth.debian.org\u003e"
+    "Colin Watson \u003ccjwatson@debian.org\u003e"
   ],
   "Package": [
     "base-passwd"
@@ -41,9 +41,6 @@
   "Standards-Version": [
     "3.9.8"
   ],
-  "Uploaders": [
-    "Colin Watson \u003ccjwatson@debian.org\u003e, Marc Haber \u003cmh+debian-packages@zugschlus.de\u003e,"
-  ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/base-passwd"
   ],
@@ -51,6 +48,6 @@
     "https://salsa.debian.org/debian/base-passwd.git"
   ],
   "Version": [
-    "3.6.7"
+    "3.6.1"
   ]
 }

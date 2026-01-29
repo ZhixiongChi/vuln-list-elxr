@@ -9,22 +9,22 @@
     "debhelper-compat (= 13)"
   ],
   "Build-Depends-Arch": [
-    "libfreetype-dev, zlib1g-dev, libx11-dev, libexpat1-dev, libjpeg-dev, libpng-dev, libgdk-pixbuf-2.0-dev"
+    "libfreetype-dev, zlib1g-dev, libx11-dev, libexpat1-dev, libjpeg-dev, libpng-dev, libgtk2.0-dev (\u003e= 2.21.5), libgdk-pixbuf2.0-dev (\u003e= 2.21.6)"
   ],
   "Checksums-Sha1": [
-    "f3521d9f9bbdec8ebae407595f1b5a3aa2a05abd 25784 libwmf_0.2.13-1.1.debian.tar.xz c3c0ddddd028fd437caefeb45b4455f5d643c768 2345 libwmf_0.2.13-1.1.dsc fbabff335a3e46427c506cd33322949c7d34b25f 3044235 libwmf_0.2.13.orig.tar.gz"
+    "dbc9aac1433f5236c9e52b918ecca760e6c96f25 26112 libwmf_0.2.12-5.1.debian.tar.xz 9b976dd025c08c7ddabd751032825687048e76cf 2533 libwmf_0.2.12-5.1.dsc 490a26175ad667fbc0c009d390bf56644919bed6 3043572 libwmf_0.2.12.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "0032481fbf98810ca446ab8931392acd13bfee29d1df4000fb783b7126f8e0f4 25784 libwmf_0.2.13-1.1.debian.tar.xz 05907248aae50ef26e44f518b628008b86cb8666513e568473fb62dfdee504af 2345 libwmf_0.2.13-1.1.dsc 18ba69febd2f515d98a2352de284a8051896062ac9728d2ead07bc39ea75a068 3044235 libwmf_0.2.13.orig.tar.gz"
+    "2d3ae3bc9b9b24b7a78d2c5fa5c0f06380f7864e15aa44d02a2f3ce0ed951bd5 26112 libwmf_0.2.12-5.1.debian.tar.xz 00d1c77e1a97ac04a962fd167b88e905b7b1ae590a0b3b6634c8fce24f4a52a1 2533 libwmf_0.2.12-5.1.dsc 464ff63605d7eaf61a4a12dbd420f7a41a4d854675d8caf37729f5bc744820e2 3043572 libwmf_0.2.12.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e73216fad961b5ce6f1451049dc476e3aa8632ca79d8984767fc53156cbcab4a0db61e52449afce8f266a7383ab8fa9920d85c7dd82bb505163d88f48288e573 25784 libwmf_0.2.13-1.1.debian.tar.xz 2e50190bbdc38f95e5a5b3da87889164b2d837a72a2b5cb97bf1db4ba08a762c98b8d2d828398401ee353897dfcf2b3e4a0ae95d9513d615bb15a72d713f9251 2345 libwmf_0.2.13-1.1.dsc f45a936c9bc98fc1a5f2b0808b497119e4dcd3c132615fdddb7583e5719c7d1d7f85c16ebf313cad453e5b7ae3508bf6b80c4ed2b42322b7dec295d8f4eb86ce 3044235 libwmf_0.2.13.orig.tar.gz"
+    "9993dc11ced878193ac9acc22b9695713466406e12cf119aba8668a7dcd26cda99a725be23cdbd31dae344ceb33bc67f3be865bf02a66ea44a693eccde3f7cf2 26112 libwmf_0.2.12-5.1.debian.tar.xz c34e0edf04cc2ce75887f75a1221ff4da1380978b5eda47c27cc92dd037494fa0b68b2cb48f6d7af35f14b6414c0f008e668283ca24cc6ee7013bd00a0e1021e 2533 libwmf_0.2.12-5.1.dsc 9280851e560becc91546906b911e0c59a1abd690e10680f6d94a335d66aeaec5eb12ccf2214ee7af2a15729a7b5f8b906022822399b4e2bc12c75a2d75748cab 3043572 libwmf_0.2.12.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libw/libwmf"
   ],
   "Files": [
-    "a81f500aa22c64f9097671a92b93fd1e 25784 libwmf_0.2.13-1.1.debian.tar.xz ae2be3ec80070c5238b8b85020e5e05e 2345 libwmf_0.2.13-1.1.dsc 1c95363fd3c2f7b92bb4f4026aeab8d6 3044235 libwmf_0.2.13.orig.tar.gz"
+    "4d5f0c250efafdeb134b23906c6f8797 26112 libwmf_0.2.12-5.1.debian.tar.xz 4067d74856d582e6f042a081a2576df0 2533 libwmf_0.2.12-5.1.dsc fa5c642447ef6c37737c6ac767d4ba3a 3043572 libwmf_0.2.12.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "libwmf-0.2-7 deb libs optional arch=any libwmf-0.2-7-gtk deb libs optional arch=any libwmf-bin deb graphics optional arch=any libwmf-dev deb libdevel optional arch=any libwmf-doc deb doc optional arch=all libwmf0.2-7 deb oldlibs optional arch=any libwmf0.2-7-gtk deb oldlibs optional arch=any libwmflite-0.2-7 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/yangfl-guest/libwmf.git"
   ],
   "Version": [
-    "0.2.13-1.1"
+    "0.2.12-5.1"
   ]
 }

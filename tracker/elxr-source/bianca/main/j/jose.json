@@ -6,22 +6,22 @@
     "jose, libjose0, libjose-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), asciidoctor, jq, libjansson-dev (\u003e= 2.10), libssl-dev (\u003e= 1.0.2), meson, pkgconf, zlib1g-dev"
+    "debhelper-compat (= 13), asciidoctor, jq, libjansson-dev (\u003e= 2.10), libssl-dev (\u003e= 1.0.2), meson, pkg-config, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "52e4d5ea00bbae3bd47d9898e572d151a15d0bed 4440 jose_14-2.debian.tar.xz adcc5364e929a0b3204db06f8bb25eac29e5a0ba 2050 jose_14-2.dsc 7903472e1c1b94f5ae43c64784fe287cc6681b6f 764940 jose_14.orig.tar.xz"
+    "36d75139906c45267092bbfbc636a033bf16d1e4 5544 jose_11-2+deb12u1.debian.tar.xz ef328a73f36fff1839897af88ba59029e4027439 2085 jose_11-2+deb12u1.dsc 4aef660fa140c8897d76039b651cd093207ad456 762256 jose_11.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "e9cb1a16502c55ab2b26537d590aae9529a82f24c1c0a4c6f2748d560add4d02 4440 jose_14-2.debian.tar.xz 13597615e926e89295a34434713ad19813983cc7c8797e2925d046123ddbcfec 2050 jose_14-2.dsc cee329ef9fce97c4c025604a8d237092f619aaa9f6d35fdf9d8c9052bc1ff95b 764940 jose_14.orig.tar.xz"
+    "c5cf641ca5c6b4db41762e418ebc183a388c6dde358ad41821077d7870a44c7b 5544 jose_11-2+deb12u1.debian.tar.xz 4208c6845b3bf688cf75e3642d314c8a88a9391d8bf71d06d9a5e3ff735aabde 2085 jose_11-2+deb12u1.dsc e272afe7717e22790c383f3164480627a567c714ccb80c1ee96f62c9929d8225 762256 jose_11.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "b6498a81325287da26faaf0c78b0cc01657d3c27b61bef3f97548cbbf2e0750017cd4d7d9991c0dcdd4e589b601f11d559f5ca83dab50089a331a5a40ddce3e3 4440 jose_14-2.debian.tar.xz 4b7173ed779b3ba9ad45be34894445c252cec89f76f4ec88b45c01fa338e4527cce8e42e7d25775d1a235f136ee054a67053c67eb8aba2be91b4c0ad5f769be7 2050 jose_14-2.dsc 2948c001c2046cc35283564149cf3c670d2272929549796506c4cebd003eae115a539d96129382f803d6634954f1fc48f4bf8bc34e823010fb49dc0b52b3199e 764940 jose_14.orig.tar.xz"
+    "0485a87a4530cb7d6b10619245dd0117a572b95b6019d14bef357547074af265ccf673c1a9e19757e20ca90d2e253470ea38e13e6ef6d6a0651acd4a4c0c627b 5544 jose_11-2+deb12u1.debian.tar.xz bb0c2ed8b4910aa164edbeec0fc166364ba4af1996d1b53db49b256bc3e990faafeb42c576d08d1809a5effa51b32ff6a9855b6e0675995b0fd034a2400cde86 2085 jose_11-2+deb12u1.dsc 61aa7aad85694e693f451e328e81dc7d84d4bd7662152213f1ef45fd010db7180a93d67398888fc9476ee04e4eb7dd7483cfcebc47d5773cfe04b8b5f3786006 762256 jose_11.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/j/jose"
   ],
   "Files": [
-    "7b3c600dd80aaa55dc7c5d6f1d84a62e 4440 jose_14-2.debian.tar.xz efcd0b4de984e873af8b2f262f4c418d 2050 jose_14-2.dsc 6efd8115360e6f04f2851f90ce9d62db 764940 jose_14.orig.tar.xz"
+    "b73e70f0945729b7e1792c4134604796 5544 jose_11-2+deb12u1.debian.tar.xz a4325c2d0e73d86bd7340f07d37459e1 2085 jose_11-2+deb12u1.dsc 6ce9aa34080b2f3ac58f18ad776a29db 762256 jose_11.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "jose deb net optional arch=any libjose-dev deb libdevel optional arch=any libjose0 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://git.in-ulm.de/cbiedl/jose.git"
   ],
   "Version": [
-    "14-2"
+    "11-2+deb12u1"
   ]
 }

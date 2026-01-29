@@ -6,22 +6,22 @@
     "golang-github-pelletier-go-toml-dev, golang-github-pelletier-go-toml"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-burntsushi-toml-dev (\u003e= 0.3.1), golang-gopkg-yaml.v2-dev (\u003e= 2.3.0)"
+    "debhelper-compat (= 13), dh-golang (\u003e= 1.48~), golang-any, golang-github-burntsushi-toml-dev (\u003e= 0.3.1), golang-gopkg-yaml.v2-dev (\u003e= 2.3.0)"
   ],
   "Checksums-Sha1": [
-    "9f98b007f61b690ef239ea0bb8d5a00d8dfb9e03 5296 golang-github-pelletier-go-toml_1.9.5-1.debian.tar.xz e7ecfa2a44a9fbc306311b917ae9d2bc5e841cf7 2526 golang-github-pelletier-go-toml_1.9.5-1.dsc f6bbc0e76f3aa4966ce08ab423b7947ecc94bb13 106932 golang-github-pelletier-go-toml_1.9.5.orig.tar.gz"
+    "5bb7db4f30c487091449f51cf2131e7dc2da8b71 5464 golang-github-pelletier-go-toml_1.9.4-1.debian.tar.xz 80527f374dadff28e561d0a71f366bc4aa478e4d 2528 golang-github-pelletier-go-toml_1.9.4-1.dsc 3a679b70470e64b9ba3f6c89962693e22dda6a83 106507 golang-github-pelletier-go-toml_1.9.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "4ed76961f10a4d64b410841d206e597cac234ddd195ce4736d757244a69d3999 5296 golang-github-pelletier-go-toml_1.9.5-1.debian.tar.xz f1cc1d4f92293adfbbb4734d2946d7d6d98d5f8e4f0f21eed51d39124807d4cf 2526 golang-github-pelletier-go-toml_1.9.5-1.dsc 7ee5ee9344a5c18eebf9487782e00b2dbeaaf19be64b447a1e1d90f8aed710e8 106932 golang-github-pelletier-go-toml_1.9.5.orig.tar.gz"
+    "80df99f08c6c32b3f38ec7515c0da01c6ff66b666fb6b4154e09f6ac599ea581 5464 golang-github-pelletier-go-toml_1.9.4-1.debian.tar.xz 319a9ef0c8b22ad0d8bab178ba9ce5595fb4e0940e1327ce84b595e8d089eeca 2528 golang-github-pelletier-go-toml_1.9.4-1.dsc 2b00521c81b994a72d0f3bd3aa9273cb17fab61a5e9749aff1108117a8d7c397 106507 golang-github-pelletier-go-toml_1.9.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "292ae7af0ea215313542207ae4c7041649904ec4e7a6b81cf65f61958bed31895cbd35b41b61fdb26ddcca2e813ece4c42b66e4fc6aa1e8a971117ffda0c44ff 5296 golang-github-pelletier-go-toml_1.9.5-1.debian.tar.xz 47ecd0bf1bffaa112cff9c8c721db08331a8516c3efaf37aa23f8b8beb92aed5c7928288786597bee882791eda98f45907a18f97f7d412c170d296196e85d1db 2526 golang-github-pelletier-go-toml_1.9.5-1.dsc 27e5bd611e07f6acf73e79f7665659963cc4b3cade2cb7686733f959edc5376de1679c345c7ee676f28e980f79d8a4419d7e1ac28d4448b710bf343048f56003 106932 golang-github-pelletier-go-toml_1.9.5.orig.tar.gz"
+    "5bb235e51af2b1e94deea408299b49e4dc3219339775c82b3d6559ba5e274c1b08840eced8c0e33109f985ccffb329ef2456ded0a3d329590babcfb2f6c1200a 5464 golang-github-pelletier-go-toml_1.9.4-1.debian.tar.xz 015f65002740bc06a2d44060552ed2fd86158f5e2b2d22301381dd5b8e5273a41a381685578485df30eadf9d0e612784669da876419d1fdb7400b3440c39fecf 2528 golang-github-pelletier-go-toml_1.9.4-1.dsc 4684a97714102fde48d70f6a82e12fc25deb6d20fd43bbd86a4408526f275e3c1c52fc4aeaf37d5fcd1f38e0d11dcb065bac439d5b3b0a8a092df29c48d048f0 106507 golang-github-pelletier-go-toml_1.9.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-pelletier-go-toml"
   ],
   "Files": [
-    "e664f6fbcd8acff31969278d1787b8a5 5296 golang-github-pelletier-go-toml_1.9.5-1.debian.tar.xz 3392e3ae9f41626194155ca27a9bb80f 2526 golang-github-pelletier-go-toml_1.9.5-1.dsc b2324c8d01d25625ccf0f2d36f20df25 106932 golang-github-pelletier-go-toml_1.9.5.orig.tar.gz"
+    "5de0e044f48a305faf13ed423a9841f4 5464 golang-github-pelletier-go-toml_1.9.4-1.debian.tar.xz c39d3fc99f77931a18b0956c2d1aae23 2528 golang-github-pelletier-go-toml_1.9.4-1.dsc db4f4f8c619142caaceda52cded818f3 106507 golang-github-pelletier-go-toml_1.9.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "golang-github-pelletier-go-toml deb golang optional arch=any golang-github-pelletier-go-toml-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-pelletier-go-toml.git"
   ],
   "Version": [
-    "1.9.5-1"
+    "1.9.4-1"
   ]
 }

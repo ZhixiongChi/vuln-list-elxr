@@ -9,22 +9,22 @@
     "autopkgtest, debhelper-compat (= 13), dh-python, openstack-pkg-tools, pybuild-plugin-pyproject, python3-all, python3-poetry-core, python3-setuptools, python3-setuptools-scm, python3-sphinx"
   ],
   "Build-Depends-Indep": [
-    "python3-attr, python3-hatch-fancy-pypi-readme, python3-hatch-vcs, python3-hatchling, python3-idna, python3-json-pointer, python3-jsonschema-specifications, python3-lxml, python3-pip, python3-pyrsistent, python3-pytest, python3-referencing, python3-rfc3987, python3-rpds-py, python3-sphinx-autodoc-typehints, python3-sphinx-copybutton, python3-sphinxext-opengraph, python3-twisted, python3-uritemplate, python3-webcolors"
+    "python3-attr, python3-hatch-vcs, python3-hatchling, python3-idna, python3-json-pointer, python3-lxml, python3-mock, python3-nose, python3-pip, python3-pkg-resources, python3-pyrsistent, python3-pytest, python3-rfc3987, python3-six, python3-sphinx-autodoc-typehints, python3-twisted, python3-uritemplate, python3-webcolors"
   ],
   "Checksums-Sha1": [
-    "68ac58e0d7692ba4a1d8a5e2b96904d4211888e1 7752 python-jsonschema_4.19.2-6.debian.tar.xz 32070e91aa9e910846d4c1b6a2528f1d094fba9e 2811 python-jsonschema_4.19.2-6.dsc 3e419a565ef1e9ab041c5ae7af51f7ea42f4c797 157500 python-jsonschema_4.19.2.orig.tar.xz"
+    "abfe47c800bec2130fcd01fa4166a03f6be2d58d 7236 python-jsonschema_4.10.3-1.debian.tar.xz c002a61574d2d8a4b4cb30eacf27ec51bb1a9d95 2808 python-jsonschema_4.10.3-1.dsc 280a0fb03cb6bb1d26ff1f6c43f7b287ff819a23 296051 python-jsonschema_4.10.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "b7a03782c1b349d2316fa212c80731c2d118586d9241950b7bb5e6cbd417b8f6 7752 python-jsonschema_4.19.2-6.debian.tar.xz bf9976fd1bea1ace70248392afc004e5868fde743cde9526c3d50cbde83d6ca0 2811 python-jsonschema_4.19.2-6.dsc b1edf8ebe4ce68aeab4c2a55226c032bec4b10c8e5bd4b754d72565d9be6d2d1 157500 python-jsonschema_4.19.2.orig.tar.xz"
+    "0ba496bbc60fb17c8b76ed5dfeae053d6f770f30b1db618207677d77ea8245b1 7236 python-jsonschema_4.10.3-1.debian.tar.xz b84fcdd1a3aaa1ccd2799ac9934a36cbbf8d801094012a94d18ca8d0b08879b1 2808 python-jsonschema_4.10.3-1.dsc 74c549a6725c2aa61fa6b6810822edee71ab346c816951d181d13b1afafbff81 296051 python-jsonschema_4.10.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "bd3a8b68859d596a7fcffca00cfdf4bebb6600f34e8952f98a4583b86757dc56df00f4dceb396da8ee51e7b53cb4525e8e2ee121dbe637136ff0bff7644897ad 7752 python-jsonschema_4.19.2-6.debian.tar.xz 29426477a102a1d4445065aa8061c3bf8f311d92d35f183ca56727a8e8f4f05d0037ac180056a011c73e84c6af2402b7f095d9e097a0706843f03b6f444bf9fc 2811 python-jsonschema_4.19.2-6.dsc e354f27ebd5546dee5621e97b1ccad0c221ac4bbebb70cd2f3e0f3e05043523ba6dc10762c0489923c37210fa3e0a803b149fa0ab7b6d85c7601da6e2e2261db 157500 python-jsonschema_4.19.2.orig.tar.xz"
+    "c02369fa359c7058f5a8aa544526c8447c1e5f900403fda7203d08cc417a2e1fcddc836090819d8a3402c3b7da6b7ffdf06923e48fe7dd6400bf0cded4c02ccf 7236 python-jsonschema_4.10.3-1.debian.tar.xz 55d0e76cc43b48000391629a6d5240ce5ddfd6e1b3a57b7b9566cbed506d60b04022c278b7e02902c668bc3ab36bb01f312acf53c70edc2aa6c264d428a81aa0 2808 python-jsonschema_4.10.3-1.dsc 990c8b3108e9539b720079981e332174a87786d7b94695b19f38015fe48168e25e52f8a9b35786ed97da6775606ff5d458550f6c296b1369c28d68cdb8e13487 296051 python-jsonschema_4.10.3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-jsonschema"
   ],
   "Files": [
-    "7c99588055e8119e513b16dd53359eed 7752 python-jsonschema_4.19.2-6.debian.tar.xz 2a22daec33172df4d26c18b7cd3ae344 2811 python-jsonschema_4.19.2-6.dsc 58ef0b90fa94971dbda103f49b561999 157500 python-jsonschema_4.19.2.orig.tar.xz"
+    "a0c823257ef864bc324c32a700c8e0ce 7236 python-jsonschema_4.10.3-1.debian.tar.xz b7b36b0337707c6109a6c196618c603b 2808 python-jsonschema_4.10.3-1.dsc 8f9b1bc9bf0f86017403e582017d56a7 296051 python-jsonschema_4.10.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,7 +48,7 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "@builddeps@"
+    "python3-lxml, python3-mock, python3-nose, python3-pip, python3-pyrsistent, python3-pytest, python3-twisted"
   ],
   "Uploaders": [
     "Thomas Goirand \u003czigo@debian.org\u003e, Michal Arbet \u003cmichal.arbet@ultimum.io\u003e,"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/openstack-team/third-party/python-jsonschema.git"
   ],
   "Version": [
-    "4.19.2-6"
+    "4.10.3-1"
   ]
 }

@@ -6,22 +6,22 @@
     "python-blinker-doc, python3-blinker"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, flit, pybuild-plugin-pyproject, python3-all, python3-pallets-sphinx-themes \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinxcontrib-log-cabinet \u003c!nodoc\u003e"
+    "debhelper-compat (= 13), pybuild-plugin-pyproject, python3-all, python3-pallets-sphinx-themes \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "d551ae32a45a34e428fd6e1fe874b780f255ada0 5444 blinker_1.9.0-1.debian.tar.xz bffe96307fe524ddb7690ceed055e3411ba90fc1 2385 blinker_1.9.0-1.dsc 848b02ede8aadedc8530d96666b96bd558cdc30c 24779 blinker_1.9.0.orig.tar.gz"
+    "4992c01039cd92046fc63098b7bdab4406174d8e 5624 blinker_1.5-1.debian.tar.xz 52d65c65b5a6527e0200c39c46ce60e9eb842fe0 2229 blinker_1.5-1.dsc 2afe9c9e4616420cf773e318ce2d5744fe907796 25094 blinker_1.5.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "32f45a3a331610499003c6ae422699c74e7e8a59f8863afdfafeb5cd3125e00d 5444 blinker_1.9.0-1.debian.tar.xz 52ac67a34976abfa099ba7a1f59f3ffd9392e3751186cdc144ca4be5843397d5 2385 blinker_1.9.0-1.dsc aa6567d896a5238caf18f8507693966025743567bdf3720ff7c695088b7baca8 24779 blinker_1.9.0.orig.tar.gz"
+    "c35bca33ec4c7cba8b1c4d5249e422ab857b625b0bad004796f694afb578eeaf 5624 blinker_1.5-1.debian.tar.xz f75be1bce97602b699f829d5a7400a819523fb61d6fc9f37b400184160176143 2229 blinker_1.5-1.dsc 96e236b53f83c48d2433710e38e39c897491581b638c3d8260eb60650adb3afe 25094 blinker_1.5.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "501496f482e40df20e03a837673e241f2573cae323b07f385e26b4ba95bbd88f51cb5c511d498b96340b34bc92e10e4be2057bde109b49ee7eea63fc95f74863 5444 blinker_1.9.0-1.debian.tar.xz 891ef465c5af17b5ca0e092aa25a3349d1c1c2c86fe14d115ffb6d21442c0c52a81f8ae6249b5065dda1ea7616bfb6037dcea4b5c94bc701bc2b3af89878d3a6 2385 blinker_1.9.0-1.dsc 27fb354d94aafd6ee7aee81b3e1a2a9cadd98cb6ee689d12b0cfb5cf8300fd7d04a54c63df62850510c1192becb3f54e7baffc7e036ec95f32a5ad067412dcc1 24779 blinker_1.9.0.orig.tar.gz"
+    "d9b9bddc70d040b4b7dd191d5dcf525756fc60bd2c406a42ade41a3937405f2b8b89479751dcdaeba349b030f9862cce1a032066f419ffd61f073f6ed6e0bf4d 5624 blinker_1.5-1.debian.tar.xz 1ee667d431de5ae02fea022efbb969141ad3392ecde806ab3065df1f02ce65252b8c0933eda74e877ef61a6cc172dc2bf48a1fed193f27405ea5a09f9b2649aa 2229 blinker_1.5-1.dsc f18e8db8ac7b8c8c76e921f1531a56ad331fc95e4d9461020f608bdc22a8af761111f030a3d2f840513d4239218bbe486f014aae787658772e65f7729d03211c 25094 blinker_1.5.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/b/blinker"
   ],
   "Files": [
-    "9f6598436ea9a7495db33f4f5642fa1f 5444 blinker_1.9.0-1.debian.tar.xz 37f74dda820eab9b9c227f2775336d96 2385 blinker_1.9.0-1.dsc 7d093e38e64ff34f2db223ce8c711d48 24779 blinker_1.9.0.orig.tar.gz"
+    "3f54dd6649d5719410b034ecb1898cd7 5624 blinker_1.5-1.debian.tar.xz f162424da9cd0b551c543a66dcee2f49 2229 blinker_1.5-1.dsc 5043776b4eba26025f34d1f8c4b802c7 25094 blinker_1.5.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "python-blinker-doc deb doc optional arch=all python3-blinker deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "python3-all, python3-pytest, python3-pytest-asyncio"
+    "python3-all, python3-pytest"
   ],
   "Uploaders": [
     "Ondřej Surý \u003condrej@debian.org\u003e,"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/blinker.git"
   ],
   "Version": [
-    "1.9.0-1"
+    "1.5-1"
   ]
 }

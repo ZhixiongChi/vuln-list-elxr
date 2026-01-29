@@ -6,22 +6,22 @@
     "golang-golang-x-oauth2-dev, golang-golang-x-oauth2-google-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.18~), golang-github-google-go-cmp-dev (\u003e= 0.5.9)"
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.17~), golang-golang-x-net-dev (\u003e= 1:0.0+git20220624.1bab6f3)"
   ],
   "Checksums-Sha1": [
-    "146760c28fc83a7dc28c1ec19ab05b68c0143765 4772 golang-golang-x-oauth2_0.27.0-1.debian.tar.xz a1a4692bac530153fccc3164452c9af964fe4922 2564 golang-golang-x-oauth2_0.27.0-1.dsc 77c2145b900da6fa2292f55024de38be5e339ae0 77072 golang-golang-x-oauth2_0.27.0.orig.tar.xz"
+    "2d40c8b47192195efaf4110affe3a7a240a7ba1c 4280 golang-golang-x-oauth2_0.3.0-1.debian.tar.xz 7e4e12a59233de389f4f871e38c3748df7f5a99d 1851 golang-golang-x-oauth2_0.3.0-1.dsc 4696cf111264652e51bf0d8c8ec17cdce6617d87 69044 golang-golang-x-oauth2_0.3.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "f6ea4fa0cd6c264a288278ddc4cd436ba65c2f0bcf226147facb7689a5490ba4 4772 golang-golang-x-oauth2_0.27.0-1.debian.tar.xz b389a99bcd786c182caf1c58ed62b6e585662844599b5437d78bbc056fb33125 2564 golang-golang-x-oauth2_0.27.0-1.dsc 38a136141c3c35101638719a18eb60aa16179fe40d5b66fb807c320438fa4e89 77072 golang-golang-x-oauth2_0.27.0.orig.tar.xz"
+    "d653c348f8a4da05a62a2a77fc44188769a7e2a52dc636eef6b409a6bce83793 4280 golang-golang-x-oauth2_0.3.0-1.debian.tar.xz 5a5c4bd123de99c3a910e52f3b2aaf992445426be0a86ca32c1b7d0e8de569ed 1851 golang-golang-x-oauth2_0.3.0-1.dsc 8aab634abb9ff0c1560cb8bb9bd01e7413f59d1c8236c695f585d861349de79a 69044 golang-golang-x-oauth2_0.3.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "78a376469f15643adb787e877df78bbcdbecba62d65d293893883ce3ab0ea9c1d51cb77f99add7e7ef8dfee12b8dfcf5231331f7bdaa560e564128bc1c11b731 4772 golang-golang-x-oauth2_0.27.0-1.debian.tar.xz e78c734a6640c74ea1dd671a0c1fed33fe7c4d794fd4b0ca5e2e00006d787090e561f8dce3e8224d55513f7f5a07ede88f0f025fd3bdece75007bc7bf0600898 2564 golang-golang-x-oauth2_0.27.0-1.dsc 0adc016212e769d8d85bc92e7e22e173d1bd73c5e863a16b1a5b9c13afaef337584c21b164e0d71b548eacca153f45473a4edac212efd73d77869764f721ceef 77072 golang-golang-x-oauth2_0.27.0.orig.tar.xz"
+    "78a0aeaadfc28f517b63d26f98692f234904bf9070e13fa7512f0432455894775d74d9b09b29701935a722761ebe47f63671d3ac0869aa3cda6c7685d0c93e88 4280 golang-golang-x-oauth2_0.3.0-1.debian.tar.xz 631a3b93491ba5fbd346a7c5113700e13c688f3bc7f924805a87b88241ed9061611d546a1727dae06d908b85b43303d547724aadb25de9c8588ef2230b963a1c 1851 golang-golang-x-oauth2_0.3.0-1.dsc 6e9ac10445f1b09209e7639f8617c45c819697ec36ada0cf32ad7f04451655347a503eec50ee51a757e26d37250149c7dd9f6c7333f91af83686af539412d3df 69044 golang-golang-x-oauth2_0.3.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/golang-golang-x-oauth2"
   ],
   "Files": [
-    "cf0c9b9b25dac8631cc1ea34e3e6fe52 4772 golang-golang-x-oauth2_0.27.0-1.debian.tar.xz 12fab39424f430e9b7b54edc63902de1 2564 golang-golang-x-oauth2_0.27.0-1.dsc fd6674f85d0afbe5cd39237a5dd555e1 77072 golang-golang-x-oauth2_0.27.0.orig.tar.xz"
+    "b2641aa60cc6018e3e7bc42ccb6918bd 4280 golang-golang-x-oauth2_0.3.0-1.debian.tar.xz 7d0d56fee0a2a4f1d3ee95dcd6fdbd1d 1851 golang-golang-x-oauth2_0.3.0-1.dsc 5fdd3ebd3169bd0f21a971d6f4392a99 69044 golang-golang-x-oauth2_0.3.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,13 @@
     "golang-golang-x-oauth2-dev deb golang optional arch=all golang-golang-x-oauth2-google-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
   ],
   "Uploaders": [
-    "Martina Ferrari \u003ctina@debian.org\u003e, Michael Stapelberg \u003cstapelberg@debian.org\u003e, Tim Potter \u003ctpot@hpe.com\u003e, Anthony Fok \u003cfoka@debian.org\u003e, Guillem Jover \u003cgjover@sipwise.com\u003e,"
+    "Martina Ferrari \u003ctina@debian.org\u003e, Michael Stapelberg \u003cstapelberg@debian.org\u003e, Tim Potter \u003ctpot@hpe.com\u003e, Anthony Fok \u003cfoka@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/go-team/packages/golang-golang-x-oauth2"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-golang-x-oauth2.git"
   ],
   "Version": [
-    "0.27.0-1"
+    "0.3.0-1"
   ]
 }

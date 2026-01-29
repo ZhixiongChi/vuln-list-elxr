@@ -1,30 +1,27 @@
 {
   "Architecture": [
-    "any all"
+    "any"
   ],
   "Binary": [
-    "libqt6webchannel6, libqt6webchannelquick6, qml6-module-qtwebchannel, qt6-webchannel-dev, qt6-webchannel-doc, qt6-webchannel-doc-html, qt6-webchannel-doc-dev, qt6-webchannel-examples"
+    "libqt6webchannel6, qml6-module-qtwebchannel, qt6-webchannel-dev"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.24~), debhelper-compat (= 13), dh-sequence-qmldeps, dh-sequence-pkgkde-symbolshelper, libgl-dev, libssl-dev, libvulkan-dev [linux-any], libxcb-xkb-dev, ninja-build, pkgconf, pkg-kde-tools, qt6-base-dev (\u003e= 6.8.2+dfsg~), qt6-base-private-dev (\u003e= 6.8.2+dfsg~), qt6-declarative-dev (\u003e= 6.8.2+dfsg~), qt6-websockets-dev (\u003e= 6.8.2~)"
-  ],
-  "Build-Depends-Indep": [
-    "qt6-base-dev (\u003e= 6.8~) \u003c!nodoc\u003e, qt6-documentation-tools (\u003e= 6.8~) \u003c!nodoc\u003e"
+    "cmake (\u003e= 3.24~), debhelper-compat (= 13), libgl-dev, libqt6opengl6-dev (\u003e= 6.4.2+dfsg~), libssl-dev, libvulkan-dev [linux-any], libxcb-xkb-dev, ninja-build, pkg-config, pkg-kde-tools, qt6-base-dev (\u003e= 6.4.2+dfsg~), qt6-base-private-dev (\u003e= 6.4.2+dfsg~), qt6-declarative-dev (\u003e= 6.4.2+dfsg~), qt6-websockets-dev (\u003e= 6.4.2~)"
   ],
   "Checksums-Sha1": [
-    "7e8b6c7d37d5a5cc777e286f7106d8d0a786162f 7588 qt6-webchannel_6.8.2-2.debian.tar.xz c7f608f21c6a5e9bb2d47d2b8c208b20da253935 2919 qt6-webchannel_6.8.2-2.dsc d7ad4e8983a9f0131f43feead57b4a0fd916398d 207372 qt6-webchannel_6.8.2.orig.tar.xz"
+    "33c190b98e4d0669ee8cf86537767bef94f6baf4 6116 qt6-webchannel_6.4.2-1.debian.tar.xz c24c5824f49e6c45e78fe4194826d0f2ebc95e31 2428 qt6-webchannel_6.4.2-1.dsc 911ac45091ac3bdec10a24635722e19c35e5df97 213124 qt6-webchannel_6.4.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "d524eb21f42ec0111f6edecea825ac3788020dab168918c1be44097aa29adf80 7588 qt6-webchannel_6.8.2-2.debian.tar.xz eab6dd01b84c39f551b6daf4d003f484e704fd7041a10812fc6ec4cb1c132a73 2919 qt6-webchannel_6.8.2-2.dsc 869f1e53f44673a57670005b1239cd67b9a5f372c8cae799c1e4af3f1c68b7ac 207372 qt6-webchannel_6.8.2.orig.tar.xz"
+    "b6cef6c98f9e0fe61179fadbbc9ab862693602326a2a04c02c6fbefd4f2d54c6 6116 qt6-webchannel_6.4.2-1.debian.tar.xz 5d4e92c1d6a00d30557377168fb3e7adc9d3739c6489e0c79c2f4750fcfd2fb0 2428 qt6-webchannel_6.4.2-1.dsc 06657b2b2509f26c733b7c40da0dbb8571a215b97f99685a6fc3bc51dcbebd87 213124 qt6-webchannel_6.4.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "44fec765627be836256a1909aa4a8920e8a5bd5643ba1a69422b1e35ccf964688e4a52a4d8c95482b31e79011401296e7550cef3f2bead2dfeb1dff2866d2524 7588 qt6-webchannel_6.8.2-2.debian.tar.xz e401d2da2246edf95b73194381dbc37dbf48e90e34333a8d2fe3148531e46a9559ab80658baa30a624750e0207d3f462262b273a9dd1614fd692cd4e0256d28d 2919 qt6-webchannel_6.8.2-2.dsc 3c546639d65722612fdd6b0dd1d594e963c07b4f92366715fdad10c6ac6d427cdaec9557501e505dafd099cd67f3efa415ec1f7a3561fd4da76010b7ef3c107d 207372 qt6-webchannel_6.8.2.orig.tar.xz"
+    "c8dd9a05a2d409c6d951c2124d3d308717a05fd352c5bc0a84cf53c3b0912cb2e777c6112f1d3e535af3be3182967d99651f07fd4b1020be6c4a907aa4fc3f8d 6116 qt6-webchannel_6.4.2-1.debian.tar.xz b207be13fcccd71d7ddcec608188c5497cbf488d1909aa4e4a447af21b0608cec0081b03036cc67b58712432044064a20d9606f3574aa4446ec0f8ca70d293f9 2428 qt6-webchannel_6.4.2-1.dsc 5cde582d77c55bdf4d69a31f04b293c267da00f6a18ab0d677ea1b9b6348cddca8fb9ad453128607f5dc191aeb5e685d8d8fbcade0affeb54ec2fd06035a5c75 213124 qt6-webchannel_6.4.2.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/q/qt6-webchannel"
   ],
   "Files": [
-    "1b4ddc27029798fb4f24f24a6d677bf1 7588 qt6-webchannel_6.8.2-2.debian.tar.xz 9cd66beb0b6f58ecffafd9086e4f7c9f 2919 qt6-webchannel_6.8.2-2.dsc 34a43c693615e586e9dbc8308bf1c8a4 207372 qt6-webchannel_6.8.2.orig.tar.xz"
+    "341191b7c999079b52fdbb4006d80d0d 6116 qt6-webchannel_6.4.2-1.debian.tar.xz 08653901cd2f9ac40ba21c9bdd17c674 2428 qt6-webchannel_6.4.2-1.dsc 4e46155efdb20e920cc423b5a10e38ef 213124 qt6-webchannel_6.4.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +36,13 @@
     "qt6-webchannel"
   ],
   "Package-List": [
-    "libqt6webchannel6 deb libs optional arch=any libqt6webchannelquick6 deb libs optional arch=any qml6-module-qtwebchannel deb libs optional arch=any qt6-webchannel-dev deb libdevel optional arch=any qt6-webchannel-doc deb doc optional arch=all qt6-webchannel-doc-dev deb libdevel optional arch=all qt6-webchannel-doc-html deb doc optional arch=all qt6-webchannel-examples deb misc optional arch=any"
+    "libqt6webchannel6 deb libs optional arch=any qml6-module-qtwebchannel deb libs optional arch=any qt6-webchannel-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Uploaders": [
-    "Patrick Franz \u003cdeltaone@debian.org\u003e,"
+    "Patrick Franz \u003cdeltaone@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/qt6/qt6-webchannel"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/qt6/qt6-webchannel.git"
   ],
   "Version": [
-    "6.8.2-2"
+    "6.4.2-1"
   ]
 }

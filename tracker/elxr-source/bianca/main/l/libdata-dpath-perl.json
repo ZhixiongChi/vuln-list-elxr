@@ -9,25 +9,22 @@
     "debhelper-compat (= 13)"
   ],
   "Build-Depends-Indep": [
-    "libaliased-perl \u003c!nocheck\u003e, libclass-xsaccessor-perl \u003c!nocheck\u003e, libiterator-util-perl \u003c!nocheck\u003e, libsub-exporter-perl \u003c!nocheck\u003e, libtest-deep-perl \u003c!nocheck\u003e, perl"
+    "libaliased-perl, libclass-xsaccessor-perl, libiterator-util-perl, libsub-exporter-perl, libtest-deep-perl, perl"
   ],
   "Checksums-Sha1": [
-    "d49f0a4791d8586aa93af98027f7725abc77c755 2608 libdata-dpath-perl_0.60-1.debian.tar.xz c4ffa7eea8d366305df72505c3841e490661ea52 2514 libdata-dpath-perl_0.60-1.dsc f7d356b8ec9e459d87789216996f820a0d1d2d2e 288296 libdata-dpath-perl_0.60.orig.tar.gz"
+    "fa8c50c458283361dfef284183050aff72f45fa3 2512 libdata-dpath-perl_0.58-2.debian.tar.xz 5ca91f54c59169204727bc41cac0fe93cb617c8d 2206 libdata-dpath-perl_0.58-2.dsc 3028d8ee3edf60b04bd2cac61c19ed8368e00ede 288688 libdata-dpath-perl_0.58.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "de438d9c973cc097cdb1db180b67f675e06fa35318fef5bd5e6ebd9105aa9487 2608 libdata-dpath-perl_0.60-1.debian.tar.xz 6a0a0180508c8be953157e32dd1d7a31f01ea2da34bdfa89a9e9e3c79cd04401 2514 libdata-dpath-perl_0.60-1.dsc 99f4426d458c5bb8d4c510e0c2629c8a88ae4f4661c0b1e45c5550362f92ecc1 288296 libdata-dpath-perl_0.60.orig.tar.gz"
+    "d02f0d3b35bcd5089affdc94feb7f05f0819af2b421ce5b4653e2cf3ba4818ae 2512 libdata-dpath-perl_0.58-2.debian.tar.xz 516d22c759d50bfc92e35428fd347ee8b21b99e29d3676d69ec3277dfd97f85a 2206 libdata-dpath-perl_0.58-2.dsc 8900345747571330ea37654c6b44c1e8b85801bbdeb453cb6bf1d579bd95f8c2 288688 libdata-dpath-perl_0.58.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "1ab75e704aea3cf6e06de503af647ce64cadd4d0403eb7a5decff799f30a96cf19bcab080a51c0e2f35501f58ed6164df2041805ca29913b15d086e759e57de5 2608 libdata-dpath-perl_0.60-1.debian.tar.xz 5cb05d47a56df3f16ffcb35fe3e59c8393850ccb295d2775b58ec5a63bb0d364ef682ccfa69fcfa70cc21b51247f4747ad8404add8bfe01849ea13298717d01a 2514 libdata-dpath-perl_0.60-1.dsc 4c5beaa2e9f035369cf5005ceabcce6b7f23226c554d20408f5254563b2d67e7811d1b47acf2188b917293d548f628f3721e6109b3c15a4bebaf843352ed26bd 288296 libdata-dpath-perl_0.60.orig.tar.gz"
-  ],
-  "Dgit": [
-    "6719346f58acc955a89a6b2dbfc1ff9d68292934 debian archive/debian/0.60-1 https://git.dgit.debian.org/libdata-dpath-perl"
+    "c9418bbaef42e3cb3e8b9adb5fe4d1eed743682835c68981f2ce38b3eea5cc98a0e543e3b6b43bcd3721cc544509c2362e40ba594d1b4bbe4e703479d7714db2 2512 libdata-dpath-perl_0.58-2.debian.tar.xz ecb97028595d2fecc3a218fab144d47319d9a7623e188a1f6f26f94b58514d31ffb6179f09718e0aea328e233779340a973253b38df9745c66fe641c94402866 2206 libdata-dpath-perl_0.58-2.dsc 0681aaf0a32c028c874dff10fab069d9791f68cb1a01da10dd992de18a8eca9be6f298fd046b109c0dc0982964543174abe905aeba26eaa3842b9d00da54b05a 288688 libdata-dpath-perl_0.58.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libd/libdata-dpath-perl"
   ],
   "Files": [
-    "31a5a07bac3d70a19c5d00af0a4a29a9 2608 libdata-dpath-perl_0.60-1.debian.tar.xz 637c2128f070d8ca2f313b9b7dfadf1e 2514 libdata-dpath-perl_0.60-1.dsc 4023037e2fbe5ccd994f89de6fd37a05 288296 libdata-dpath-perl_0.60.orig.tar.gz"
+    "72fcbefd3b4be477fde51d855c57ab92 2512 libdata-dpath-perl_0.58-2.debian.tar.xz 1f205230e2c5e282804c569ff7d0e141 2206 libdata-dpath-perl_0.58-2.dsc 16dd8c6c25247f3e838ad10aa2291f89 288688 libdata-dpath-perl_0.58.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +42,7 @@
     "libdata-dpath-perl deb perl optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libdata-dpath-perl.git"
   ],
   "Version": [
-    "0.60-1"
+    "0.58-2"
   ]
 }

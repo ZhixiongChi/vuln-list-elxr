@@ -3,7 +3,7 @@
     "any all"
   ],
   "Binary": [
-    "git, git-man, git-doc, git-cvs, git-svn, git-mediawiki, git-email, git-gui, gitk, gitweb, git-all"
+    "git, git-man, git-doc, git-cvs, git-svn, git-mediawiki, git-email, git-daemon-run, git-daemon-sysvinit, git-gui, gitk, gitweb, git-all"
   ],
   "Build-Depends": [
     "libz-dev, gettext, libpcre2-dev | libpcre3-dev, libcurl4-gnutls-dev, libexpat1-dev, subversion, libsvn-perl, libyaml-perl, tcl, python3, libhttp-date-perl | libtime-parsedate-perl, libcgi-pm-perl, liberror-perl, libmailtools-perl, cvs, cvsps, libdbd-sqlite3-perl, unzip, libio-pty-perl, debhelper-compat (= 10), dh-exec (\u003e= 0.7), dh-apache2, dpkg-dev (\u003e= 1.16.2~)"
@@ -12,19 +12,19 @@
     "asciidoc (\u003e= 8.6.10), xmlto, docbook-xsl"
   ],
   "Checksums-Sha1": [
-    "7242067a7c86f70fbd239d3d479a855b0ce320b9 793112 git_2.47.3-0+deb13u1.debian.tar.xz ee3209ec18d30a2cd71330998debf84c51431edc 2702 git_2.47.3-0+deb13u1.dsc 408774745b5dadeddcf1e7223201927123e504ea 7657416 git_2.47.3.orig.tar.xz"
+    "1610a3976fc1aea4fd55094520bcf89798ad6b39 761364 git_2.39.5-0+deb12u3.debian.tar.xz 24b55c5692376eac18ea6d478d2f09ae55279151 3523 git_2.39.5-0+deb12u3.dsc e78eca649e2b7841bf22cfc1b3b9b9f1a2a3d825 7171400 git_2.39.5.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "db44b90ab928d41959f5945a49fcaa101385a4bd085b118b5fd40162a0a84066 793112 git_2.47.3-0+deb13u1.debian.tar.xz 41ee783af84774dfab31ff6af54a07f70513dd09914e2d622626f4dfecae0a86 2702 git_2.47.3-0+deb13u1.dsc 9c2eb1250781b3e5bfef098572d07fdf132d67e6c065e4307332ade9819a1501 7657416 git_2.47.3.orig.tar.xz"
+    "b19cbf9a483a6625d924119ebe99f997acfe83616906d33d2079ca3d7d668d22 761364 git_2.39.5-0+deb12u3.debian.tar.xz 183f02891326496b439a24c87843fb8849178b21517640fc703787754aad6bd1 3523 git_2.39.5-0+deb12u3.dsc c58da92c378df4a986ca33266897a7397e86c22ee266a284d8c2432c39066b59 7171400 git_2.39.5.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "dc1b50daba18b46cd62a78d87338d999763799b899b2b1a4dfd6e3d16861ed2565597e2016e72aadff5cc9a876bc9443a3556c8e8987e67c0c602ccdaa51b937 793112 git_2.47.3-0+deb13u1.debian.tar.xz 936e65d52b1598c008240cda0afcb15e45d94a53d7b747f7df3e0fd23aa4228da6abb788a9735dafbc557a2321b4fc85984209f82a6cae4b9e5e96ca11902e68 2702 git_2.47.3-0+deb13u1.dsc 9c0e1e42e3bc10eb912c1ca9737d55b2e5d994f56825fa659d6cf5cbec220c67cc9aa3217fc136ae28c90c0b4969cff3661dc92ed6e2774f7432170f1d9e2a55 7657416 git_2.47.3.orig.tar.xz"
+    "31cdcbba3d3816ce5611523913ce067131412ecd376144f5dbc71a0d40712775101de9d24192de15dbe83ca7c6c770c0da942cb05851c14c1b1d4bac091a8194 761364 git_2.39.5-0+deb12u3.debian.tar.xz 9d6d03c19deaa1d7a5be356772284936d3071f2b8d512b758e9b76e5717690ef8c8257338898276ac26779a16550ef628ee402c6316dee8aecc03db6cc51ba0f 3523 git_2.39.5-0+deb12u3.dsc f866789971e1fb83a482beca54f19fb02f23b5d1d06dec5bcb10fcf262e24c746cb470a81beae97a48884188b5826437f76f70b4f62a78b578a18557233730d6 7171400 git_2.39.5.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/git"
   ],
   "Files": [
-    "f42dbbc65c6800848bb2aa481e3fd8e4 793112 git_2.47.3-0+deb13u1.debian.tar.xz 14b7604dd821e2f027cf46b336f9413b 2702 git_2.47.3-0+deb13u1.dsc 467860ca61d8840cda3fb10db687f771 7657416 git_2.47.3.orig.tar.xz"
+    "409d3d23098b3c36d7d0bc3724dfafdf 761364 git_2.39.5-0+deb12u3.debian.tar.xz 6b6e72396043bbad6198a841f89b5f74 3523 git_2.39.5-0+deb12u3.dsc a2bdc21bd3772270b5c4f025cb87126d 7171400 git_2.39.5.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "git"
   ],
   "Package-List": [
-    "git deb vcs optional arch=any git-all deb vcs optional arch=all git-cvs deb vcs optional arch=all git-doc deb doc optional arch=all git-email deb vcs optional arch=all git-gui deb vcs optional arch=all git-man deb doc optional arch=all git-mediawiki deb vcs optional arch=all git-svn deb vcs optional arch=all gitk deb vcs optional arch=all gitweb deb vcs optional arch=all"
+    "git deb vcs optional arch=any git-all deb vcs optional arch=all git-cvs deb vcs optional arch=all git-daemon-run deb vcs optional arch=all git-daemon-sysvinit deb vcs optional arch=all git-doc deb doc optional arch=all git-email deb vcs optional arch=all git-gui deb vcs optional arch=all git-man deb doc optional arch=all git-mediawiki deb vcs optional arch=all git-svn deb vcs optional arch=all gitk deb vcs optional arch=all gitweb deb vcs optional arch=all"
   ],
   "Standards-Version": [
     "4.3.0.1"
@@ -54,6 +54,6 @@
     "https://repo.or.cz/r/git/debian.git/"
   ],
   "Version": [
-    "1:2.47.3-0+deb13u1"
+    "1:2.39.5-0+deb12u3"
   ]
 }

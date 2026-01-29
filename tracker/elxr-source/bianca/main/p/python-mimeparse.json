@@ -6,22 +6,22 @@
     "python3-mimeparse"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-pytest, python3-setuptools"
+    "debhelper-compat (= 12), python3-all, python3-setuptools, dh-python, python3-pytest"
   ],
   "Checksums-Sha1": [
-    "6d83416788cb8324d1f997b7fef12285a72892e3 3520 python-mimeparse_2.0.0-2.debian.tar.xz 3f6d302ba5c34a5eed8ccce6c911fd8ac0297e38 2204 python-mimeparse_2.0.0-2.dsc e09f43a1b5a3c8d8d8e1d26fb07498800021f628 7162 python-mimeparse_2.0.0.orig.tar.gz"
+    "293e929e50d0e1bfb9200e1e6e343739589ab412 3136 python-mimeparse_1.6.0-3.debian.tar.xz 7243c266cea252b319a73a6d22d0f8c174b694af 2048 python-mimeparse_1.6.0-3.dsc b3f7ec8959a2f07b12e480bdb41a7b54572c3a5b 6468 python-mimeparse_1.6.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "321510ae7ac60d9b936d9409dfd0a1ca86264ffa90b95124f4a79dccae9aee2a 3520 python-mimeparse_2.0.0-2.debian.tar.xz 378f49e4b23adb4653db5e221aa0a0f6cade59159dac8798f71b0f8f07bc0b58 2204 python-mimeparse_2.0.0-2.dsc 5b9a9dcf7aa82465e31bd667f5cb7000604811dce83554f1c8a43693a32cb303 7162 python-mimeparse_2.0.0.orig.tar.gz"
+    "840c96d998982cdce5aebd0dbb9651a2299a4f25ea139b3a7f614cfc775746c7 3136 python-mimeparse_1.6.0-3.debian.tar.xz 9379bc6ed63d4d4517a81f9925602eb2baffd844b8c85953dd3de5a28430ad34 2048 python-mimeparse_1.6.0-3.dsc 515b964bbcf0d7b6bf2a148a7d53c72ff64402e276f6202b95810545a1576b9d 6468 python-mimeparse_1.6.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "d05a10504448984087c56ba0e1b653f3a76e408b1c53b6257d2bab70a5693ad28f9bebe327470e1887388122a9c1b3292816df8217c5414da001deab34366e32 3520 python-mimeparse_2.0.0-2.debian.tar.xz d1d031a9c4ab499017d326af0857347e29e6aa61371d6d435233437b25ac89920181b2662d7d2d9379bc4066705a0017f69e8eb861a50ddf876e25207f72dd97 2204 python-mimeparse_2.0.0-2.dsc 02fd28d6a5b1754ab9317571037b38dae94309694bc5d758c189acdda596a5e1e9c4cb2439abb9e932ddf1d6926930874f00d3c685a7edf568d339f9fe0c712a 7162 python-mimeparse_2.0.0.orig.tar.gz"
+    "02321dcf14becedd5f3fd29a91c67c12de43e12d711f885a0bae98ef91d6af2e218dbd43722fd446ae82961b3ea6f5ccf8b0108b9c99d093dfbcbbb45188edb7 3136 python-mimeparse_1.6.0-3.debian.tar.xz 4c29af55ed08ca23864a034c9313a78d075d96ba62c25f3eb1c2b3c6fb461ad4af6d04bcca84ea8f68bb3394628eb538d3d8f6c2789f1ee2e9721e263547c796 2048 python-mimeparse_1.6.0-3.dsc 31752e6019be3a766fa429d27eab071bb77e1c812e6a241d8b84838eda206549877fb3369200338a603d4d93fbbbaaa16f6cf47391aeac65675fd271a5f39259 6468 python-mimeparse_1.6.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-mimeparse"
   ],
   "Files": [
-    "a208ab4a903286114e9cc7df904f6750 3520 python-mimeparse_2.0.0-2.debian.tar.xz d60639a08de35ce58be0e2f0507b5433 2204 python-mimeparse_2.0.0-2.dsc e3d6505e9af0629a15b4d56d7f34b2ef 7162 python-mimeparse_2.0.0.orig.tar.gz"
+    "f0f7c36e8a8f5f8e5ef9eb227a5a0226 3136 python-mimeparse_1.6.0-3.debian.tar.xz 4db755ed05437ee090ad20ba38830b4a 2048 python-mimeparse_1.6.0-3.dsc 554c116437eb2bc76ca8d0bdc46c569a 6468 python-mimeparse_1.6.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://pypi.python.org/pypi/python-mimeparse"
   ],
   "Maintainer": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+    "Mathias Ertl \u003cmati@restauth.net\u003e"
   ],
   "Package": [
     "python-mimeparse"
@@ -39,18 +39,18 @@
     "python3-mimeparse deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.4.0"
   ],
   "Uploaders": [
-    "Mathias Ertl \u003cmati@restauth.net\u003e, Free Ekanayaka \u003cfreee@debian.org\u003e, Alexandre Detiste \u003ctchet@debian.org\u003e,"
+    "Free Ekanayaka \u003cfreee@debian.org\u003e"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/python-team/packages/python-mimeparse"
+    "https://salsa.debian.org/python-team/modules/python-mimeparse"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/python-team/packages/python-mimeparse.git"
+    "https://salsa.debian.org/python-team/modules/python-mimeparse.git"
   ],
   "Version": [
-    "2.0.0-2"
+    "1.6.0-3"
   ]
 }

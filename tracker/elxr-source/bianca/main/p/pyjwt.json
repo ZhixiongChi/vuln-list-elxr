@@ -3,25 +3,25 @@
     "all"
   ],
   "Binary": [
-    "python-jwt-doc, python3-jwt"
+    "python3-jwt"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, pybuild-plugin-pyproject, python3-all, python3-cryptography, python3-doc \u003c!nodoc\u003e, python3-exceptiongroup, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-pytest-runner \u003c!nocheck\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-zope.interface \u003c!nodoc\u003e"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-cryptography, python3-exceptiongroup, python3-pytest, python3-pytest-cov, python3-pytest-runner, python3-setuptools, python3-tomli"
   ],
   "Checksums-Sha1": [
-    "9509a15c67d18a0fa0ea9a49255a4a2eafcbb26c 6064 pyjwt_2.10.1-2.debian.tar.xz b538886426cf612dad83c42a7c26e238f838f94d 2390 pyjwt_2.10.1-2.dsc 32480aca964381c48a8d34ed501947ce5ebb6379 87172 pyjwt_2.10.1.orig.tar.gz"
+    "b777a96be792704fc1ca9f6769756ed77c3f194a 4504 pyjwt_2.6.0-1.debian.tar.xz fbf0b9a17be917b60baa9ae0f34d849d998a4ac9 2254 pyjwt_2.6.0-1.dsc 014819b05552f6ed1696738e80fcdfc3b044ea79 72984 pyjwt_2.6.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "b540ade53b39b69d26fe4acb8b9a2f2ecb08df2e43b90bd99de11cc84f33ff97 6064 pyjwt_2.10.1-2.debian.tar.xz 18c7ac34d689629fef29f06a3de41a4c998c2a4ee42f9c36d7ebcaa12e051e8c 2390 pyjwt_2.10.1-2.dsc f1f537d12a83da1bb194f19474be5cb48ba772ffa46e21025928964ea504da52 87172 pyjwt_2.10.1.orig.tar.gz"
+    "81d5a012e1eeb0539753851c7991a82abb24924630e1205ac6928d1e03e7aff9 4504 pyjwt_2.6.0-1.debian.tar.xz f4ea4d08d94cf8f45ddbe7af22820abea98858a084511c0cf8eac906d386b6ed 2254 pyjwt_2.6.0-1.dsc 69285c7e31fc44f68a1feb309e948e0df53259d579295e6cfe2b1792329f05fd 72984 pyjwt_2.6.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "6137fe05b9f765d665d9b8b84b15820b83644827efa40601f136fd18ff2ddc587840ca57eb227a231dc3ab0982899d699f5f43135b53fde1c7455a2ed2f9b80c 6064 pyjwt_2.10.1-2.debian.tar.xz e65224cfdcf6a9e10dc93efece4ccdaf11e4a1007f06476892cfa2e647150d82569b0c91c37089a37ae79591c351a49a0e325b0b49cf0ff59dde2444075ec1ba 2390 pyjwt_2.10.1-2.dsc d594fd0fa1b632c18d04c68989e6d59551dac5863397ad15dd98ad232e757e80637c6ee2dc8977ac52e91a996c25f9cf2c53cfa5d55c392816d7991080c9fa95 87172 pyjwt_2.10.1.orig.tar.gz"
+    "5a8601aa64dc2dd650b64b44b291919457953d7e3d8bdf11785ea1d841b5071796bcaa42653be542925c089fb3984965c4a8bd2a68b1dc3a5cf6951964fa78d1 4504 pyjwt_2.6.0-1.debian.tar.xz d3cf89866243d367641d11e18cf095f35c96027804254c6464f7fd09326875bff62935a7cfd91ed485c5de7372f55d5e94cbcfa32bd5894d807f8d3f1f98e5f7 2254 pyjwt_2.6.0-1.dsc c2f797bbb84469db1332bad61807740d859d0e1fa500ba17981d6c1a7a30a6fab345ff241200e24ce1ffe686591642a858e5eb2e9462fa1ceda7fcd00ae55d30 72984 pyjwt_2.6.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/pyjwt"
   ],
   "Files": [
-    "b431b916e66ff554931924b84b15cbae 6064 pyjwt_2.10.1-2.debian.tar.xz 1dd7eb9413a1831538d87c7a1627d266 2390 pyjwt_2.10.1-2.dsc ea9e1857990966e3258e598277a03572 87172 pyjwt_2.10.1.orig.tar.gz"
+    "cc1d3b6c866cfbfd9ba7fffb7fb87f2b 4504 pyjwt_2.6.0-1.debian.tar.xz 9faa606bde6d7be63851cd56fc6c340c 2254 pyjwt_2.6.0-1.dsc aeed6d3a581ae383b2288a2079fa562d 72984 pyjwt_2.6.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,16 +36,19 @@
     "pyjwt"
   ],
   "Package-List": [
-    "python-jwt-doc deb doc optional arch=all python3-jwt deb python optional arch=all"
+    "python3-jwt deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
-    "autopkgtest-pkg-pybuild"
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-cryptography, python3-exceptiongroup, python3-pytest, python3-pytest-cov, python3-pytest-runner, python3-tomli"
   ],
   "Uploaders": [
-    "Daniele Tricoli \u003ceriol@debian.org\u003e,"
+    "Daniele Tricoli \u003ceriol@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/pyjwt"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/pyjwt.git"
   ],
   "Version": [
-    "2.10.1-2"
+    "2.6.0-1"
   ]
 }

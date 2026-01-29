@@ -3,28 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "emacs, emacs-lucid, emacs-nox, emacs-gtk, emacs-pgtk, emacs-bin-common, emacs-common, emacs-el"
+    "emacs, emacs-lucid, emacs-nox, emacs-gtk, emacs-bin-common, emacs-common, emacs-el"
   ],
   "Build-Depends": [
-    "autoconf, automake, bsd-mailx | mailx, ca-certificates, dbus-x11, gcc-14, debhelper-compat (= 13), dpkg-dev (\u003e\u003e 1.10.0), git, gnupg-agent, imagemagick, libacl1-dev, libasound2-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], libcairo-dev, libdbus-1-dev, libgccjit-14-dev, libgif-dev, libgmp-dev, libgnutls28-dev, libgpm-dev [linux-any], libgtk-3-dev, libharfbuzz-dev, libjpeg-dev, liblcms2-dev, liblockfile-dev, libm17n-dev, libncurses-dev, liboss4-salsa-dev [hurd-i386 kfreebsd-i386 kfreebsd-amd64], libotf-dev, libpng-dev, librsvg2-dev, libselinux1-dev [linux-any], libsqlite3-dev, libsystemd-dev, libtiff-dev, libtree-sitter-dev, libwebp-dev, libxaw7-dev, libxml2-dev, procps, quilt (\u003e= 0.42), sharutils, texinfo, xaw3dg-dev, zlib1g-dev"
+    "autoconf, automake, bsd-mailx | mailx, ca-certificates, dbus-x11, debhelper (\u003e= 10), dpkg-dev (\u003e\u003e 1.10.0), git, gnupg-agent, imagemagick, libacl1-dev, libasound2-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], libcairo-dev, libdbus-1-dev, libgccjit-12-dev, libgif-dev, libgmp-dev, libgnutls28-dev, libgpm-dev [linux-any], libgtk-3-dev, libharfbuzz-dev, libjansson-dev, libjpeg-dev, liblcms2-dev, liblockfile-dev, libm17n-dev, libncurses5-dev, liboss4-salsa-dev [hurd-i386 kfreebsd-i386 kfreebsd-amd64], libotf-dev, libpng-dev, librsvg2-dev, libselinux1-dev [linux-any], libsystemd-dev, libtiff-dev, libxaw7-dev, libxml2-dev, procps, quilt (\u003e= 0.42), sharutils, texinfo, xaw3dg-dev, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "474a2630eb0834269a74d49b94a711580bb2a739 69728 emacs_30.1+1-6.debian.tar.xz 5ce1a4e78fa32073100612097a75f94859c725a3 3087 emacs_30.1+1-6.dsc 09c8a2c6420edf1c0eafbe02c108fdaaf9d3a105 31081984 emacs_30.1+1.orig.tar.xz"
+    "9c0f78e167c6ed1db9e9f65922322e3b9157cb56 136860 emacs_28.2+1-15+deb12u4.debian.tar.xz c721c5bb9373acd2d43d332d261d9b488bfab951 2949 emacs_28.2+1-15+deb12u4.dsc d7f49858bdec2d47110c2ed7b1d0005f157e20c3 26988304 emacs_28.2+1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "c7fe1a2b597a2aebeff213950ba8d8462b00f33289f641e9da1453896afa53ae 69728 emacs_30.1+1-6.debian.tar.xz 48cf9169e6a64fc9bef2361bc764057609a496a13caa90ec19e02bc64c42bd67 3087 emacs_30.1+1-6.dsc 902fe6e82528f9bc89b0f57227488a08f5bc07126c2c47eb6b5e8a368582324c 31081984 emacs_30.1+1.orig.tar.xz"
+    "b68efd7e1afed962c17b2d8e13bebb507fd318b5df89bcbd3db84b57dfa126e8 136860 emacs_28.2+1-15+deb12u4.debian.tar.xz 9ac8ed3fb0b75c65bdfd1612ea2e0a0d771dff69d6fef1afc2ffbf15cc928625 2949 emacs_28.2+1-15+deb12u4.dsc 54a21ceabe3d93a6ba164e8874d6a2cbb094e42d73d4a8978a4ff7dd75d90666 26988304 emacs_28.2+1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "fbdf45e4a85089eb286b235e6f16cd0d2e68e94d3b0b9cd0b51e7d1c3e578831ecb2784c5a6836db7553c9a9d915fefaecd2851ee72b2c95cd626125a50ea02f 69728 emacs_30.1+1-6.debian.tar.xz 4d1f859c6e1f0fd4a8f821546e3890e16fc21a479ece3cadd4d85ee87e208de2cd7d3787f1eea8a5c8583c066105a395e2810adc98d9658577a549410ce391e1 3087 emacs_30.1+1-6.dsc 21e48f2e8e2fb3666235db7dc0c3cbfc49dc5dc1a4e991a838ab3fa985b70bb278a8bc89b443dba07f3268afc3e5c18c10dd0dfaf297d41e1687ac136f6adb5d 31081984 emacs_30.1+1.orig.tar.xz"
-  ],
-  "Dgit": [
-    "9ce07bf7c2dd61ec622119f4c0504ff933c9496a debian archive/debian/1%30.1+1-6 https://git.dgit.debian.org/emacs"
+    "722bfbee30b66709009f1e32b3e6892ea0ea5370e03d9db8e9ca32b7749968366eeb87803c6e35727929da92dc8466c1a1161cfa64cb151ea419f272af3f83d5 136860 emacs_28.2+1-15+deb12u4.debian.tar.xz 20cb8c0e14dfa9aa34ea4c9f48121c915096478dc53b5032dccd0af9df8d8cc698306645cec220924b70c52235bc93f9ae0bd7a555544f8d90441b080920b50f 2949 emacs_28.2+1-15+deb12u4.dsc 8f16b62806840cef6fe927a9e6baf0747e2a5f6ab8f97cdb3932c6f3632387b80704a7fbc4a16dd684e9b5473d95a0e49eb1346a38e08164e491c43106ab9637 26988304 emacs_28.2+1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/e/emacs"
   ],
   "Files": [
-    "2b12d5b7ee5a52c24eaddfba9551362e 69728 emacs_30.1+1-6.debian.tar.xz fe490035d32b588c4483a591b06b028f 3087 emacs_30.1+1-6.dsc 09b123423ed0e3aba5ae618afbed30ec 31081984 emacs_30.1+1.orig.tar.xz"
+    "86f0f068b40f4363947d5cad8f6b280e 136860 emacs_28.2+1-15+deb12u4.debian.tar.xz 9f66d612d9ae5b90f61e59a57d20c364 2949 emacs_28.2+1-15+deb12u4.dsc 1392c949265565fc162e693e7826ba55 26988304 emacs_28.2+1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +36,7 @@
     "emacs"
   ],
   "Package-List": [
-    "emacs deb editors optional arch=all emacs-bin-common deb editors optional arch=any emacs-common deb editors optional arch=all emacs-el deb editors optional arch=all emacs-gtk deb editors optional arch=any emacs-lucid deb editors optional arch=any emacs-nox deb editors optional arch=any emacs-pgtk deb editors optional arch=any"
+    "emacs deb editors optional arch=all emacs-bin-common deb editors optional arch=any emacs-common deb editors optional arch=all emacs-el deb editors optional arch=all emacs-gtk deb editors optional arch=any emacs-lucid deb editors optional arch=any emacs-nox deb editors optional arch=any"
   ],
   "Standards-Version": [
     "3.7.2"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/rlb/deb-emacs.git"
   ],
   "Version": [
-    "1:30.1+1-6"
+    "1:28.2+1-15+deb12u4"
   ]
 }

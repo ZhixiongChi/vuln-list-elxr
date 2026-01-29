@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "librust-regex-dev"
+    "librust-regex-dev, librust-regex+aho-corasick-dev, librust-regex+default-dev, librust-regex+memchr-dev, librust-regex+perf-dev, librust-regex+perf-literal-dev, librust-regex+unicode-dev, librust-regex+unicode-age-dev, librust-regex+unicode-bool-dev, librust-regex+unicode-case-dev, librust-regex+unicode-gencat-dev, librust-regex+unicode-perl-dev, librust-regex+unicode-script-dev, librust-regex+unicode-segment-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.65) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-aho-corasick-1+std-dev \u003c!nocheck\u003e, librust-aho-corasick-1-dev \u003c!nocheck\u003e, librust-memchr-2+std-dev (\u003e= 2.6.0-~~) \u003c!nocheck\u003e, librust-memchr-2-dev (\u003e= 2.6.0-~~) \u003c!nocheck\u003e, librust-regex-automata-0.4+alloc-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-automata-0.4+dfa-onepass-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-automata-0.4+hybrid-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-automata-0.4+meta-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-automata-0.4+nfa-backtrack-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-automata-0.4+nfa-pikevm-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-automata-0.4+perf-inline-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-automata-0.4+perf-literal-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-automata-0.4+std-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-automata-0.4+syntax-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-automata-0.4+unicode-age-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-automata-0.4+unicode-bool-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-automata-0.4+unicode-case-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-automata-0.4+unicode-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-automata-0.4+unicode-gencat-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-automata-0.4+unicode-perl-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-automata-0.4+unicode-script-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-automata-0.4+unicode-segment-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-automata-0.4+unicode-word-boundary-dev (\u003e= 0.4.8-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.8+default-dev (\u003e= 0.8.5-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.8+std-dev (\u003e= 0.8.5-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.8+unicode-age-dev (\u003e= 0.8.5-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.8+unicode-bool-dev (\u003e= 0.8.5-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.8+unicode-case-dev (\u003e= 0.8.5-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.8+unicode-dev (\u003e= 0.8.5-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.8+unicode-gencat-dev (\u003e= 0.8.5-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.8+unicode-perl-dev (\u003e= 0.8.5-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.8+unicode-script-dev (\u003e= 0.8.5-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.8+unicode-segment-dev (\u003e= 0.8.5-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.8-dev (\u003e= 0.8.5-~~) \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-aho-corasick-0.7+default-dev (\u003e= 0.7.18-~~) \u003c!nocheck\u003e, librust-memchr-2+default-dev (\u003e= 2.4.0-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.6+default-dev (\u003e= 0.6.27-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.6+unicode-age-dev (\u003e= 0.6.27-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.6+unicode-bool-dev (\u003e= 0.6.27-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.6+unicode-case-dev (\u003e= 0.6.27-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.6+unicode-dev (\u003e= 0.6.27-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.6+unicode-gencat-dev (\u003e= 0.6.27-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.6+unicode-perl-dev (\u003e= 0.6.27-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.6+unicode-script-dev (\u003e= 0.6.27-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.6+unicode-segment-dev (\u003e= 0.6.27-~~) \u003c!nocheck\u003e, librust-regex-syntax-0.6-dev (\u003e= 0.6.27-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "45e59a9b9c7e4336faaac5b9ca1a07b2e554ccbd 6512 rust-regex_1.11.1-2.debian.tar.xz 9f7c6f1a583f56dcf0dc7d581e2e8dd12c06dc14 4070 rust-regex_1.11.1-2.dsc 07cb85115de008ec2cd9ca118fb68b73706e6aed 254170 rust-regex_1.11.1.orig.tar.gz"
+    "dbb7fef2c8820ff9977983ebe9fc921fb7dd95f3 4904 rust-regex_1.7.1-1.debian.tar.xz b4e8b7c0b45f88f4bf79e7d64e0a4ea3f2fa2f78 4329 rust-regex_1.7.1-1.dsc d50fb5124347bd4395f29f8a2b3edd0cb486ae10 239648 rust-regex_1.7.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "26f774f2a703482181b21b5aff7d2b9126e8cae8269a93f848cbba8991d2279c 6512 rust-regex_1.11.1-2.debian.tar.xz 091cc8f5f2cff589a949d39f38b5c55c350e3eee5aa8d870d94058a37db34df7 4070 rust-regex_1.11.1-2.dsc b544ef1b4eac5dc2db33ea63606ae9ffcfac26c1416a2806ae0bf5f56b201191 254170 rust-regex_1.11.1.orig.tar.gz"
+    "8e63ffd7a848472cbbc8c3d542a8248e368d890ce21168a1509eba220b0bc53a 4904 rust-regex_1.7.1-1.debian.tar.xz b0a7a3cc7ef77c82a925779bf85ab9914bd5db18b5e9fdddee3d0e5f9e8dff71 4329 rust-regex_1.7.1-1.dsc 48aaa5748ba571fb95cd2c85c09f629215d3a6ece942baa100950af03a34f733 239648 rust-regex_1.7.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "314b3b7c3113a4b7286893322baed1ecffda757501431c7548ed120ac46886a8ad8aa8c0d0a9beec1f66ee208cec9dc970c4a79086b61d1bc15db70c23699092 6512 rust-regex_1.11.1-2.debian.tar.xz cee9e7efc3fabb4c303fec4ff7bbe966708a0409764fad6c74ac12c81d26ddf82fd779f8b76720d67d6aa98032fff8cc12e0f54e015cd307fb5224c30f928b47 4070 rust-regex_1.11.1-2.dsc d065f6dc405771518260425f39a5eaaf8cab62e78c91ceed3b3994a9a121674d2484cadaaf816bdad89c87a40550d57b66a3d9de6618a7119a658301ce7e67d8 254170 rust-regex_1.11.1.orig.tar.gz"
+    "9ad7e116dc48b69f2e0292c65b622a647df0ad1b0e1560bc997c98e000fabac2b9f1ebe5aacc58a12dabb79eb68c241a175982caed67638874bff85fd064198a 4904 rust-regex_1.7.1-1.debian.tar.xz 9acc0057b90c9702a4fc9f380a6f5cd79779ee4303d14283d5998fe9f0b5131105a04feb4f982d0013df249d4c9762fb5732ad9b4d2137d1d6310d207555b3a5 4329 rust-regex_1.7.1-1.dsc ee19bc6d24b981a151324ad4115488383227ec33dfba0225b35b6252f0d363b8d906db59a45170139c7a687fe681a983c2392d2921c7365db38c7c0e9745066f 239648 rust-regex_1.7.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-regex"
   ],
   "Files": [
-    "339d7fbc6a282baf7f69c626a14b49fa 6512 rust-regex_1.11.1-2.debian.tar.xz ed579c5735061d4f9f9ed488149386c9 4070 rust-regex_1.11.1-2.dsc 83ecafda24e071eea2198d9b440739ce 254170 rust-regex_1.11.1.orig.tar.gz"
+    "3900a369149e62bcf70c0d5b0d82d15e 4904 rust-regex_1.7.1-1.debian.tar.xz a6b2a8d1bca780edc3eed056107e4fc9 4329 rust-regex_1.7.1-1.dsc 267efbd05da2900424b1fa6e841d1280 239648 rust-regex_1.7.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,16 +36,16 @@
     "rust-regex"
   ],
   "Package-List": [
-    "librust-regex-dev deb rust optional arch=any"
+    "librust-regex+aho-corasick-dev deb rust optional arch=any librust-regex+default-dev deb rust optional arch=any librust-regex+memchr-dev deb rust optional arch=any librust-regex+perf-dev deb rust optional arch=any librust-regex+perf-literal-dev deb rust optional arch=any librust-regex+unicode-age-dev deb rust optional arch=any librust-regex+unicode-bool-dev deb rust optional arch=any librust-regex+unicode-case-dev deb rust optional arch=any librust-regex+unicode-dev deb rust optional arch=any librust-regex+unicode-gencat-dev deb rust optional arch=any librust-regex+unicode-perl-dev deb rust optional arch=any librust-regex+unicode-script-dev deb rust optional arch=any librust-regex+unicode-segment-dev deb rust optional arch=any librust-regex-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-anyhow-1+default-dev, librust-doc-comment-0.3+default-dev, librust-env-logger-0.11+auto-color-dev, librust-env-logger-0.11+humantime-dev, librust-once-cell-1+default-dev, librust-quickcheck-1-dev, rustc"
+    "dh-cargo, librust-lazy-static-1+default-dev, librust-quickcheck-1-dev, librust-rand-0.8+getrandom-dev, librust-rand-0.8+small-rng-dev"
   ],
   "Uploaders": [
     "Sylvestre Ledru \u003csylvestre@debian.org\u003e, Robin Krahl \u003crobin.krahl@ireas.org\u003e, kpcyrd \u003cgit@rxv.cc\u003e, Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/regex]"
   ],
   "Version": [
-    "1.11.1-2"
+    "1.7.1-1"
   ]
 }

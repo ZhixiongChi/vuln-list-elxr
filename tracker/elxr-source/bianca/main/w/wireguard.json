@@ -6,22 +6,22 @@
     "wireguard, wireguard-tools"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), pkgconf, systemd-dev"
+    "debhelper-compat (= 13), pkg-config, systemd"
   ],
   "Checksums-Sha1": [
-    "6a5a2575ed4b426b8401915622e36074e1961439 12912 wireguard_1.0.20210914-3.debian.tar.xz a2fc3ace5280fffa109c37fde626cdc7efccf09f 2088 wireguard_1.0.20210914-3.dsc 6f8066936847e52e00253fe4af6cf4a9da9e1d26 99796 wireguard_1.0.20210914.orig.tar.xz"
+    "e0a98e4d948bbf8b570fbd04a5632b5a167bc715 11312 wireguard_1.0.20210914-1.debian.tar.xz 5c3aa24cfb210c30afcc41e84c8b4b5c70a569f4 2044 wireguard_1.0.20210914-1.dsc 6f8066936847e52e00253fe4af6cf4a9da9e1d26 99796 wireguard_1.0.20210914.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "9390d6658a7c3e5a21ca734982e5f7b80a133223c6c3daa8d812d4ea775f0bcf 12912 wireguard_1.0.20210914-3.debian.tar.xz 04de1b05bd1de6ffe57ec91595b9fb18ebde43b8e358fde9863fefdf3258bb0f 2088 wireguard_1.0.20210914-3.dsc e7d89a601978dddb3cfa33a91cb8f4001dbaabb3da7f570811a7d09c22a509d9 99796 wireguard_1.0.20210914.orig.tar.xz"
+    "604df7f42b438569888b9d76f3222c026b138236b762d2ab2e643b4a6b4c3600 11312 wireguard_1.0.20210914-1.debian.tar.xz cf28d805d3ad834d713e43eb5c354c0cb762504c5c739eb17725c16ccb00da43 2044 wireguard_1.0.20210914-1.dsc e7d89a601978dddb3cfa33a91cb8f4001dbaabb3da7f570811a7d09c22a509d9 99796 wireguard_1.0.20210914.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "3eff65661d8a80981ddf72613c7ed4b05c8949a17e811c265c6502389935bf5e09bb15e0082f7c6cc646779d7747004d8d115f67b1f96cf75a1fd2faf6aa4286 12912 wireguard_1.0.20210914-3.debian.tar.xz 8b947148f3f191819ee3d792873ca850fdefbd39cc169546b69b90bcafaeb722ba722f4ad41e7f7efd0ad3e0e02ed7088836873a254c298ee5b6a0d26d8f6e6f 2088 wireguard_1.0.20210914-3.dsc 9ee5c967a8cddd77540aba8c5f72a42990c6a63e077c42c93481e68d76b3158ce83f4b8d42e436824336738763149e28c29a7c105c48c81ca37b75381c17ccd4 99796 wireguard_1.0.20210914.orig.tar.xz"
+    "9df340830a060f7c87949582e1dc4e2492f0c7388cebfe2e449f43c2fa35a31d64b38d26385b428f4169cdfdadcb10361ae9644ca4df2b2bd8ea737555d9d1dc 11312 wireguard_1.0.20210914-1.debian.tar.xz 502091646a9958f932061857ddf0f90eb53e8e4867611c1dfcfe0f11109d43c88f6a559926c74835c130a4a8883d7ec507839653592e0693d311880102b63b48 2044 wireguard_1.0.20210914-1.dsc 9ee5c967a8cddd77540aba8c5f72a42990c6a63e077c42c93481e68d76b3158ce83f4b8d42e436824336738763149e28c29a7c105c48c81ca37b75381c17ccd4 99796 wireguard_1.0.20210914.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/w/wireguard"
   ],
   "Files": [
-    "f8037e63c790d9a00a64252c9d03d57f 12912 wireguard_1.0.20210914-3.debian.tar.xz dfddf41774c021e62019b8a222875f09 2088 wireguard_1.0.20210914-3.dsc c4fcc67b0169a991b606276dcc0d0a48 99796 wireguard_1.0.20210914.orig.tar.xz"
+    "e78bc45139792f1d02457c27500f0b2f 11312 wireguard_1.0.20210914-1.debian.tar.xz bbfeee8249160924eebc12fcb1bea051 2044 wireguard_1.0.20210914-1.dsc c4fcc67b0169a991b606276dcc0d0a48 99796 wireguard_1.0.20210914.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,10 @@
     "wireguard deb net optional arch=all wireguard-tools deb net optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "iproute2, iputils-ping"
   ],
   "Uploaders": [
     "Unit 193 \u003cunit193@debian.org\u003e,"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/debian/wireguard.git"
   ],
   "Version": [
-    "1.0.20210914-3"
+    "1.0.20210914-1"
   ]
 }

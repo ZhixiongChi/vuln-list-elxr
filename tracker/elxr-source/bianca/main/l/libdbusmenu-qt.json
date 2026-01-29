@@ -6,25 +6,22 @@
     "libdbusmenu-qt5-2, libdbusmenu-qt5-dev, libdbusmenu-qt5-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake (\u003e= 2.8.11), qtbase5-dev, pkgconf"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen"
+    "debhelper (\u003e= 9), cmake (\u003e= 2.8.11), qtbase5-dev, pkg-config, doxygen"
   ],
   "Checksums-Sha1": [
-    "2070d53852d26b2898bbeb51a92c20a92930b9bb 5772 libdbusmenu-qt_0.9.3+16.04.20160218-3.debian.tar.xz 0a5c879e7adb6d38a1ca483b4f33a9397d268b70 2301 libdbusmenu-qt_0.9.3+16.04.20160218-3.dsc 8e2c085faed31ffc73407286586c851a9e3f69c6 46438 libdbusmenu-qt_0.9.3+16.04.20160218.orig.tar.gz"
+    "c93c2fc1271edb46377b287ea59e7cb9f114946b 5268 libdbusmenu-qt_0.9.3+16.04.20160218-2.debian.tar.xz d0b7622b158873892a71ba9c3875841d05612098 2359 libdbusmenu-qt_0.9.3+16.04.20160218-2.dsc 8e2c085faed31ffc73407286586c851a9e3f69c6 46438 libdbusmenu-qt_0.9.3+16.04.20160218.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "4df1adc96b2fef3ca00bdd7965e418ca1a9022bd89f422cf04051ebc95de2d23 5772 libdbusmenu-qt_0.9.3+16.04.20160218-3.debian.tar.xz b647fabaa47a9de24cdca9729b382882d49dbbb6313a1dde9382057164becdbc 2301 libdbusmenu-qt_0.9.3+16.04.20160218-3.dsc a8e6358a31c44ccdf1bfc46c95a77a6bfc7fc1f536aadb913ed4f4405c570cf6 46438 libdbusmenu-qt_0.9.3+16.04.20160218.orig.tar.gz"
+    "a7bc4f85ab574005b277b56dd24a1ec9720ca98446adb185f8dd3c2ae064b9f5 5268 libdbusmenu-qt_0.9.3+16.04.20160218-2.debian.tar.xz 485ab4c4c624955571d8de5151ac2486edefcdeba7062f05546bff0b18cf43a7 2359 libdbusmenu-qt_0.9.3+16.04.20160218-2.dsc a8e6358a31c44ccdf1bfc46c95a77a6bfc7fc1f536aadb913ed4f4405c570cf6 46438 libdbusmenu-qt_0.9.3+16.04.20160218.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e57b39573059be45a41453c93eec5bbba4962cb3dbff394f74b0a185c4f0cb21de444abaa47c2c04b4073cdd3e27226c279e9894d4c2de01622c367d33b62798 5772 libdbusmenu-qt_0.9.3+16.04.20160218-3.debian.tar.xz 0836cc8e461ecd47972f55a2f56dc2795d154bd330e96d4cb9a68369789f0844c188a0ab24d9f2852270b01ae04e3852b826a72de1a7a01ab71028f0852639e2 2301 libdbusmenu-qt_0.9.3+16.04.20160218-3.dsc dfaba59cedd320e6a3b5a9c0a5e13fb9e0952224e39cdd6ee3b32b03d95ac850a533e2a73835a7c0ead93b2283b9c235472bacb84e3d761ebe9e9398345314a9 46438 libdbusmenu-qt_0.9.3+16.04.20160218.orig.tar.gz"
+    "7e5ca268347cd260eb2ae48aade9517c41a50904d9ca672f1e8de16a71e94ab220403caddc21834008be1ec08396fb211319f6e26a2b62bca9795b0949e50b37 5268 libdbusmenu-qt_0.9.3+16.04.20160218-2.debian.tar.xz 12223e9ef22e731559a544b25f158f4f0f6c8e097a554f6405dedc281e3a535d3aecad64a7f222a436875784ac9c2cc28a63bea51e88b88068df528261147721 2359 libdbusmenu-qt_0.9.3+16.04.20160218-2.dsc dfaba59cedd320e6a3b5a9c0a5e13fb9e0952224e39cdd6ee3b32b03d95ac850a533e2a73835a7c0ead93b2283b9c235472bacb84e3d761ebe9e9398345314a9 46438 libdbusmenu-qt_0.9.3+16.04.20160218.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libd/libdbusmenu-qt"
   ],
   "Files": [
-    "d17704930c6343ecea1f8d13306957f4 5772 libdbusmenu-qt_0.9.3+16.04.20160218-3.debian.tar.xz 654826e6133614d39ab3ff18186c9fe9 2301 libdbusmenu-qt_0.9.3+16.04.20160218-3.dsc 8b90312bd8654e026d814d4db986ce5e 46438 libdbusmenu-qt_0.9.3+16.04.20160218.orig.tar.gz"
+    "4ecf4427202e276a63251e294254c5ac 5268 libdbusmenu-qt_0.9.3+16.04.20160218-2.debian.tar.xz 85a0b65ab5786716816aabe554ed1d19 2359 libdbusmenu-qt_0.9.3+16.04.20160218-2.dsc 8b90312bd8654e026d814d4db986ce5e 46438 libdbusmenu-qt_0.9.3+16.04.20160218.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,10 +39,10 @@
     "libdbusmenu-qt5-2 deb libs optional arch=any libdbusmenu-qt5-dev deb libdevel optional arch=any libdbusmenu-qt5-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "3.9.6"
   ],
   "Uploaders": [
-    "Pino Toscano \u003cpino@debian.org\u003e"
+    "Praveen Arimbrathodiyil \u003cpravi.a@gmail.com\u003e, Modestas Vainius \u003cmodax@debian.org\u003e, Pino Toscano \u003cpino@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/extras/libdbusmenu-qt"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/extras/libdbusmenu-qt.git"
   ],
   "Version": [
-    "0.9.3+16.04.20160218-3"
+    "0.9.3+16.04.20160218-2"
   ]
 }

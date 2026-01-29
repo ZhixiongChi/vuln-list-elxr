@@ -9,22 +9,22 @@
     "debhelper-compat (= 13), dh-python"
   ],
   "Build-Depends-Indep": [
-    "python3-all, python3-changelog \u003c!nodoc\u003e, python3-markupsafe \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-paramlinks \u003c!nodoc\u003e, python3-sphinxcontrib.jquery \u003c!nodoc\u003e, python3-zzzeeksphinx \u003c!nodoc\u003e"
+    "python3-all, python3-changelog \u003c!nodoc\u003e, python3-markupsafe \u003c!nocheck\u003e, python3-mock \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-paramlinks \u003c!nodoc\u003e, python3-zzzeeksphinx \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "2cdb4778c6f8972de82930003725d29368c766c0 13364 mako_1.3.9-1.debian.tar.xz b9bda6361a519988249d726a3abd834d6cd05fe7 2360 mako_1.3.9-1.dsc 268338dae6dd5d4a32cc5dea846c028c325ddbfd 201321 mako_1.3.9.orig.tar.gz"
+    "74ea97fd2538b13d4cc185670f64547e81b04609 13120 mako_1.2.4+ds-1.debian.tar.xz 44319c6f595dda3eb5035f9e005f7e89a684ef80 2381 mako_1.2.4+ds-1.dsc cc18f8645d532359991662bd0cbdeb445ffaae69 197349 mako_1.2.4+ds.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "28c2da0f30172e3fbde21c3fbb7fb27a1a6197e644c9acaf81aeb9df2935f86a 13364 mako_1.3.9-1.debian.tar.xz ebafd29e4a6e06f1ff1712febfb3b16a3d82e81ab22365190213534a7961f54c 2360 mako_1.3.9-1.dsc f1784fccd5512e5e11bf7984c397161a6df4b5b0611ba2aa3e2da7314dbf4f9c 201321 mako_1.3.9.orig.tar.gz"
+    "0d7dca172b3d02731d238e9ee7f8639bd94a75732494b20013828ea51012fdc2 13120 mako_1.2.4+ds-1.debian.tar.xz c5df8fbe29c23408c9b61ae7723eda4b79740821c2eb11445bd31921ce362226 2381 mako_1.2.4+ds-1.dsc 4306f78852944384e39fd5b58fcf8f5d2a7ef1ad6a5651970f04ade9b6a1c562 197349 mako_1.2.4+ds.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "5c9f377a186126ea1366771d9b91d7b580d68b8c1587be0af3fa598580d3c4aa98455d8b17aed645c5d8ab42b6934879a8b67e8171b4c95875d818d49734724f 13364 mako_1.3.9-1.debian.tar.xz 0bc9db14f358c6ffbbbcacd51737142ae48449dfcd39cddd279d4d5e113d5203ca01bc92d298b4eeea7fd9ba0ff686bf7efe176d7ee545a0f064c8d5c83ee225 2360 mako_1.3.9-1.dsc 54956750fad1e6de28ac1887f2d05758b026919a9534bab452caff7ac5c9f6aa4b5b268e53734da074d434858f5ddc65badf27e82012a97b2bbf1ff8271f190a 201321 mako_1.3.9.orig.tar.gz"
+    "4285796ac8d5e5ef867c41c679037ee80d553cb944b09cc3579447b8adaa172bf172752283ecc9c7a6f6f0f8843b8b1f0d4f7b0059978c9d4d0d729f8e1c43ec 13120 mako_1.2.4+ds-1.debian.tar.xz 206f8c7e814ec289017b3bcac13227d23f28f1d8702b0730ed3410d55043cc04eee12cd2c47607f0eeddba0284981354b6182d2fffe9aec644cb67b5404d619a 2381 mako_1.2.4+ds-1.dsc 0a0fc1bb2409e26d4d4827bdf762df7e17390a3c39a5b0f7ee208eca7df7620f036771f7a35a1954f4088d9d4e6f9b1528e848908a91a6a5c69f7a929061ac04 197349 mako_1.2.4+ds.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/m/mako"
   ],
   "Files": [
-    "207d1d05391754f3eb9f378717d05e31 13364 mako_1.3.9-1.debian.tar.xz 3fc70352c53cd48c795590de5476288b 2360 mako_1.3.9-1.dsc f8a5b0fda9cc3310bb27107a95f24542 201321 mako_1.3.9.orig.tar.gz"
+    "ea4d14de915aaa19de1901dd2905d5a2 13120 mako_1.2.4+ds-1.debian.tar.xz 282e7f664570fbe0d4e768bee3f8d0b5 2381 mako_1.2.4+ds-1.dsc 11bda411e1365ebee0581e6d7f76f24a 197349 mako_1.2.4+ds.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,13 @@
     "python-mako-doc deb doc optional arch=all profile=!nodoc python3-mako deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
   ],
   "Testsuite-Triggers": [
-    "python3-all, python3-markupsafe, python3-pytest"
+    "python3-all, python3-markupsafe, python3-mock, python3-pytest"
   ],
   "Uploaders": [
     "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/mako.git"
   ],
   "Version": [
-    "1.3.9-1"
+    "1.2.4+ds-1"
   ]
 }

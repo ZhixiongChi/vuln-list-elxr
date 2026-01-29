@@ -6,28 +6,31 @@
     "gjs, gjs-tests, libgjs0g, libgjs-dev"
   ],
   "Build-Depends": [
-    "at-spi2-core \u003c!nocheck\u003e, dbus-daemon \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-gir, gir1.2-cairo-1.0-dev, gir1.2-gio-2.0-dev, gir1.2-girepository-2.0-dev, gir1.2-gobject-2.0-dev, gir1.2-gtk-3.0, gobject-introspection (\u003e= 1.71), libcairo2-dev, libffi-dev, libgirepository-1.0-dev (\u003e= 1.71), libglib2.0-dev, libmozjs-128-dev, libreadline-dev, meson, libsysprof-capture-4-dev (\u003e= 3.38.0) [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hppa loong64 powerpc ppc64 sh4], xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, pkg-config (\u003e= 0.28), libcairo2-dev, libffi-dev (\u003e= 3.3), libglib2.0-dev (\u003e= 2.58.0), libgirepository1.0-dev (\u003e= 1.64), gir1.2-gtk-3.0, gobject-introspection (\u003e= 1.64), libmozjs-102-dev, libreadline-dev, meson (\u003e= 0.54.0), dbus-daemon \u003c!nocheck\u003e, dbus-x11 \u003c!nocheck\u003e, at-spi2-core \u003c!nocheck\u003e, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "101518d0c54da039baeeb73d2d38f950736821f0 23444 gjs_1.82.3-1.debian.tar.xz cbfeddca75ac0a8d9a7cf17b0423bae5439057a8 2713 gjs_1.82.3-1.dsc 7c0e11fe5eae40eefcdf59a037f3b6943c881421 729556 gjs_1.82.3.orig.tar.xz"
+    "6c852d445e3621ef664f358aa04c6b37a8f90964 22136 gjs_1.74.2-1+deb12u1.debian.tar.xz bfa7964abbb732455b228a96b226115c35a132dd 2742 gjs_1.74.2-1+deb12u1.dsc bcdf5c9981137fe878b7b2d7b000346c33480d8f 639012 gjs_1.74.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "715f5579b588b1b05ee2eb270e32a826d80a4283cb32f892a8f04153024d6ff0 23444 gjs_1.82.3-1.debian.tar.xz d9776fea1fbf417a49cf1b12d6a15e5faf614d641731bccdfd76e73334795665 2713 gjs_1.82.3-1.dsc 63e84b9c82a60d166c8704322f8907945e25d9bbd0b80485468d3126505c027d 729556 gjs_1.82.3.orig.tar.xz"
+    "0374e3c217df4a7ab69befb804307c8fb17458cd899f2e2d9816dd26ffd14f52 22136 gjs_1.74.2-1+deb12u1.debian.tar.xz ba394b89b575fe99486a9dc8c120c459c9fbd5bd2a6b01bc3cd6b09c2a1a3fe4 2742 gjs_1.74.2-1+deb12u1.dsc a406fd6a1652cf66dcab228062bd16a75f5b3378248dfbbbe016b212744a30b6 639012 gjs_1.74.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "040453dab7d89265e6b7f40df352b8d0cc013ca0437eae8dab54e955dc54eae6a458b09a1db66e37858dc68d50881d78187d60fa22c9eefebbc29d36ee52c454 23444 gjs_1.82.3-1.debian.tar.xz 8c4781e2a1e026331c11d24841c21f9eef1538236eec4d7e48e10ae1a56d228de837b030f27a67e1e1c8ac6bfd29153942b2fe0d06d426a58d175b94e92e694f 2713 gjs_1.82.3-1.dsc 576f974a00b3bb1e3187c9c23d49281ed0eecd64949a91959638018bd57be18c61ff04a3e508933e0f59f7fe2502a2242282e964917d16358f079fe9d6397bd8 729556 gjs_1.82.3.orig.tar.xz"
+    "347a62a07c658c9f950e2796c2814ec7039695bf526ade9cb6a040ebc8e43ae2bdcd5ef3c115f31bfeed378ba1405729007bda5d89644819526b2fd556077a8c 22136 gjs_1.74.2-1+deb12u1.debian.tar.xz 16cd10e61a736098330bdbb74a4126b40449ab369de45e283fef52137934b0448b9c4b8e203367fdd1fd8b6171e4199a69686b03cf9782e7b5722116e71fad50 2742 gjs_1.74.2-1+deb12u1.dsc 738176aabcc8d0147cf77b7af3271c93ca4e8a473b2d35722b4cf9a15dcdc9f87962a29dd949607d947256df9ffcfd499d7189b6eff7ac416bbad594a2bc8ea9 639012 gjs_1.74.2.orig.tar.xz"
+  ],
+  "Dgit": [
+    "07fa33b07def63b665ab0464d9b492736ad07819 debian archive/debian/1.74.2-1+deb12u1 https://git.dgit.debian.org/gjs"
   ],
   "Directory": [
     "pool/main/g/gjs"
   ],
   "Files": [
-    "52054d52903e1f215fba73346f08b864 23444 gjs_1.82.3-1.debian.tar.xz c86a0efe350f1430f1669b4a4111ecf7 2713 gjs_1.82.3-1.dsc 131d1639dc3915fc7ca46eabba895fd5 729556 gjs_1.82.3.orig.tar.xz"
+    "c77e938e4db9e6fc0cf066b0a35cf08d 22136 gjs_1.74.2-1+deb12u1.debian.tar.xz 8dbf76c84375444011bd2bae33ac94ba 2742 gjs_1.74.2-1+deb12u1.dsc 91ba17aa00a661be5648f6f91c04ae37 639012 gjs_1.74.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://gitlab.gnome.org/GNOME/gjs/-/blob/master/doc/README.md"
+    "https://gitlab.gnome.org/GNOME/gjs/wikis"
   ],
   "Maintainer": [
     "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
@@ -39,24 +42,24 @@
     "gjs deb interpreters optional arch=any gjs-tests deb interpreters optional arch=any libgjs-dev deb libdevel optional arch=any libgjs0g deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential, dbus-daemon, gnome-desktop-testing, xauth, xvfb"
+    "build-essential, dbus-daemon, dbus-x11, gnome-desktop-testing, xauth, xvfb"
   ],
   "Uploaders": [
-    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e"
+    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/gnome-team/gjs"
+    "https://salsa.debian.org/gnome-team/gjs/tree/debian/bookworm"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/gnome-team/gjs.git"
+    "https://salsa.debian.org/gnome-team/gjs.git -b debian/bookworm"
   ],
   "Version": [
-    "1.82.3-1"
+    "1.74.2-1+deb12u1"
   ]
 }

@@ -6,25 +6,22 @@
     "paramiko-doc, python3-paramiko"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-bcrypt (\u003e= 3.1.3), python3-cryptography (\u003e= 2.5), python3-ecdsa (\u003e= 0.11), python3-icecream \u003c!nocheck\u003e, python3-invoke \u003c!nocheck\u003e, python3-nacl (\u003e= 1.0.1), python3-pyasn1 (\u003e= 0.1.7), python3-pytest \u003c!nocheck\u003e, python3-pytest-relaxed \u003c!nocheck\u003e, python3-setuptools"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-bcrypt (\u003e= 3.1.3), python3-cryptography (\u003e= 2.5), python3-ecdsa (\u003e= 0.11), python3-invoke \u003c!nocheck\u003e, python3-mock \u003c!nocheck\u003e, python3-nacl (\u003e= 1.0.1), python3-pyasn1 (\u003e= 0.1.7), python3-pytest \u003c!nocheck\u003e, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "53a166d7e5bd5b87b0685a2412fc33bd99ec265c 9052 paramiko_3.5.1-3.debian.tar.xz 68e93b3bda0861cdb87db775c66de71230828de6 2529 paramiko_3.5.1-3.dsc 287615fcb676d5b0858aad106fbb614021e1d201 376472 paramiko_3.5.1.orig.tar.gz"
+    "6574954c7b629b5b732efeb2b1ba90c740c1ee4b 7884 paramiko_2.12.0-2.debian.tar.xz 41162897def21979589c4a2042bb8f2075d314ce 2357 paramiko_2.12.0-2.dsc 79b2696ed38d8692cc3d4045b2fe4af8477807ed 268256 paramiko_2.12.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "7332dc83664b5bf7f92086dbcec0e80854da2687574987579800b76936caf481 9052 paramiko_3.5.1-3.debian.tar.xz 61e94701df6493ba3fbacd76ebe88e052db6b0e77c1ba6db8a25c585adf2e22f 2529 paramiko_3.5.1-3.dsc 364658d3cabb7bf5a9e4dbbf7fdb8f9ef646c6af06a15c5a2cf8305666d5635a 376472 paramiko_3.5.1.orig.tar.gz"
+    "840120bce48f4eb6d503d7b37be9ce5fb61953147b66da82533806a901d1bb31 7884 paramiko_2.12.0-2.debian.tar.xz cc64e7e66e42b63588bbf851ea79a6801922286ad535bde675388ff71dc164d0 2357 paramiko_2.12.0-2.dsc 468528d13b4d44cb25566fdf2e98fc476be9231a80327c4c284e90f893bbc5d0 268256 paramiko_2.12.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "f3e8704d9deaeaa73b93b6c5675b944e0eb7aeeec5a7caace67efc932483c12afa4cfa82c1f843b51cb294178dcb77c7b970bb27270100ceb557d1958b534a84 9052 paramiko_3.5.1-3.debian.tar.xz 8b5d36fc2943b8f33d78b5a4d274a9290b26e3d7736a47e511290109e3c4b481cf2eb0bc48167193c2dcad15c97d25488d8863b7f4cce17e722e311454c4a4e4 2529 paramiko_3.5.1-3.dsc a1198f7f21cfbdbb843acb59cc431f9af0a47d687a7e9702244f36b555bb37b75149c0e22302040400f20df50dee1d83154e5acd582982ca44f6cf68ff592675 376472 paramiko_3.5.1.orig.tar.gz"
-  ],
-  "Dgit": [
-    "527ec1553aa4069e5326a9410550f9b647213316 debian archive/debian/3.5.1-3 https://git.dgit.debian.org/paramiko"
+    "75ea1a3deed820e9b5a6a3438c5a0f6ab60b4c98f86c92843f6f406794bcd4e79104638f5f0966f5592d1ef742f000e33a4c4f755d4daaa903d9288b5a795667 7884 paramiko_2.12.0-2.debian.tar.xz 4c068fde528b2f462b8dfff48bd5de89f03e7ca2b473be8b9a456b84d758d2d984cd22526d3506081b2a3f17925214606228405894e20c369bb04c655bd329b3 2357 paramiko_2.12.0-2.dsc 18b51318648a34554203691dd2ce4aa615fb74cfbde67a016df5a14bea2aa7c1c143894d16eb9b4b15d18ecc09dc0ae98b0cea241465ff519fb5168493ff8bf5 268256 paramiko_2.12.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/paramiko"
   ],
   "Files": [
-    "3b36fee2177620de7a68c79e6e9b5a48 9052 paramiko_3.5.1-3.debian.tar.xz 0411b2d072b4ef37491cdb45591d2d26 2529 paramiko_3.5.1-3.dsc 618d4099ac74eb35b9beb9a3a7d4612a 376472 paramiko_3.5.1.orig.tar.gz"
+    "d79b4e2a641dcc6d06f7b1d58d41f734 7884 paramiko_2.12.0-2.debian.tar.xz 709fe14b53eb5615598fbede2e692d1a 2357 paramiko_2.12.0-2.dsc 60273b4bc2d42406b2ddaf9af4e9e799 268256 paramiko_2.12.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,7 +45,7 @@
     "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
-    "Jeremy T. Bouse \u003cjbouse@debian.org\u003e, Guido Guenther \u003cagx@debian.org\u003e, Santiago Ruano Rincón \u003csantiagorr@riseup.net\u003e,"
+    "Jeremy T. Bouse \u003cjbouse@debian.org\u003e, Guido Guenther \u003cagx@debian.org\u003e, Sandro Tosi \u003cmorph@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/paramiko"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/paramiko.git"
   ],
   "Version": [
-    "3.5.1-3"
+    "2.12.0-2"
   ]
 }

@@ -6,25 +6,22 @@
     "gnome-remote-desktop"
   ],
   "Build-Depends": [
-    "asciidoc-base, dbus-daemon \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-gnome, docbook-xml, freerdp3-dev (\u003e= 3.1.0), glslc, libcairo2-dev, libdbus-1-dev, libdrm-dev, libei-dev (\u003e= 1.2.0), libepoxy-dev (\u003e= 1.4), libffmpeg-nvenc-dev (\u003e= 11.1.5), libfuse3-dev (\u003e= 3.9.1), libgbm-dev, libglib2.0-dev (\u003e= 2.75.0), libgudev-1.0-dev, libnotify-dev, libopus-dev, libpipewire-0.3-dev (\u003e= 1.2.0), libpolkit-gobject-1-dev (\u003e= 122), libsecret-1-dev, libsystemd-dev, libtss2-dev, libva-dev, libvulkan-dev (\u003e= 1.2.0), libxkbcommon-dev (\u003e= 1.0.0), meson (\u003e= 0.47.0), mutter (\u003e= 48~beta) \u003c!nocheck\u003e, openssl \u003c!nocheck\u003e, pipewire (\u003e= 1.2.0) \u003c!nocheck\u003e, python3-dbus \u003c!nocheck\u003e, python3-gi \u003c!nocheck\u003e, spirv-tools, systemd-dev, wireplumber \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), asciidoc-base, dh-sequence-gnome, freerdp2-dev (\u003e= 2.8.0), docbook-xml, libcairo2-dev, libdrm-dev, libepoxy-dev (\u003e= 1.4), libffmpeg-nvenc-dev (\u003e= 11.1.5), libfuse3-dev (\u003e= 3.9.1), libgbm-dev, libglib2.0-dev (\u003e= 2.68), libgudev-1.0-dev \u003c!nocheck\u003e, libnotify-dev, libpipewire-0.3-dev, libsecret-1-dev, libtss2-dev, libwinpr2-dev (\u003e= 2.3.0), libxkbcommon-dev (\u003e= 1.0.0), meson (\u003e= 0.47.0), systemd"
   ],
   "Checksums-Sha1": [
-    "b186a5eb764015744d79f86a0e1e4fa4a351cdee 11664 gnome-remote-desktop_48.1-4.debian.tar.xz 107f3cb653ba1027e98911781eab830ebdd6d70a 3046 gnome-remote-desktop_48.1-4.dsc 823e67a07a12fb9e00cbfe3a8d8c9e51eef8196d 341944 gnome-remote-desktop_48.1.orig.tar.xz"
+    "a99829efbde43656e0ab3e4cb4cc08c09de443ef 5324 gnome-remote-desktop_43.3-1.debian.tar.xz 57a3f665d8c1666144c00e56bbb6fd4a10e84f31 2464 gnome-remote-desktop_43.3-1.dsc 7b6fbbde3a5d8876127d6d30286977d9a9ee9763 196540 gnome-remote-desktop_43.3.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "be873d7f1e63d2a672e4f585756d90ab2e05ddbe7a01eb87a63925016e50722d 11664 gnome-remote-desktop_48.1-4.debian.tar.xz 18b5731bc1d682981756329f8176dbcf8728ebe577be79c68690aa77264816cd 3046 gnome-remote-desktop_48.1-4.dsc bcf3770fca0faeda2fae3b1a3ff6f2e90a02778f76a42e8fd103cae18628f4f2 341944 gnome-remote-desktop_48.1.orig.tar.xz"
+    "322f835a199133ef3a9b18e917cc417bd78e0f051b0c61322ee80b827a8aa6cb 5324 gnome-remote-desktop_43.3-1.debian.tar.xz 87eff9b22d84bbc938a254b7c9885e030adf341702ff800569da16e4579201e5 2464 gnome-remote-desktop_43.3-1.dsc 11d451d1fde44f1809ebf61aff4bea5f9ef4fdc02359a89647f6e9e7d45429ac 196540 gnome-remote-desktop_43.3.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "ab22e4a8cbef0f4885b752e48fde98703d0392dea7df6d1648e8a46f52bf6b2fccad27087e4d4f73712702a101a4ffe6a5a277ea98ee5492d835eaf3ca9293a3 11664 gnome-remote-desktop_48.1-4.debian.tar.xz 29fec8eb22bb6daff0365ff83823375c366beb7ca4b129a9ca52d888f9c15bd873d04f4dcfe26d32417e7334126eccee5d421acaefdfea3c87dda6604a51bfac 3046 gnome-remote-desktop_48.1-4.dsc 48cd8320df76fbe2a4bf664ab3ed58ef0517b2f70765e4c00828313403a96da476e07e270d9b4633b3d12ea27f34b09ed07d9e8983032c3ed9a631a4574f4edd 341944 gnome-remote-desktop_48.1.orig.tar.xz"
-  ],
-  "Dgit": [
-    "a6fdfa50cd103b92c5c14c99835af9b59b59cdc6 debian archive/debian/48.1-4 https://git.dgit.debian.org/gnome-remote-desktop"
+    "42fe05c4d681d144dc09b52890eeb8a9d115aefb59976a29debd7d9b3f93100ae4715d1bb149b2c2b81e0f59448def906aacc0ecb004a2c547fe5b2102976541 5324 gnome-remote-desktop_43.3-1.debian.tar.xz 13873ef2e8808e79e2566c0c141aad3f8485fb56d3f498ba241021921f9da43b23ef0b0b0c716b45f22755004f4046dd410ecf3eed42fe4fafb7ef87beb73fd8 2464 gnome-remote-desktop_43.3-1.dsc 67dc7c4ab7d2db9ef843e30b688e024ed91341c09fbf4c7d33f4c1d8b7d9d3564fb64bc948b12f2aee3ca8a545fb21842ce79970ec1ddaf99fd64c41a44b8f59 196540 gnome-remote-desktop_43.3.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gnome-remote-desktop"
   ],
   "Files": [
-    "98499a37f4d6c95000d9af7fc273f29d 11664 gnome-remote-desktop_48.1-4.debian.tar.xz 0fee5afc9eed75d00a6c3f9f648b1862 3046 gnome-remote-desktop_48.1-4.dsc 7c4bdd84ddbf1e3e52ac4599513b8adf 341944 gnome-remote-desktop_48.1.orig.tar.xz"
+    "b5aeb1e3e10cf60f058dca90d6245c99 5324 gnome-remote-desktop_43.3-1.debian.tar.xz 04f671c92a89cb069233af6f47565b03 2464 gnome-remote-desktop_43.3-1.dsc 943cab85e577cde1cf5b66c5d086d274 196540 gnome-remote-desktop_43.3.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,16 +39,10 @@
     "gnome-remote-desktop deb gnome optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.7.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "@builddeps@"
+    "4.6.0"
   ],
   "Uploaders": [
-    "Amin Bandali \u003cbandali@ubuntu.com\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e"
+    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/gnome-remote-desktop"
@@ -60,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/gnome-remote-desktop.git"
   ],
   "Version": [
-    "48.1-4"
+    "43.3-1"
   ]
 }

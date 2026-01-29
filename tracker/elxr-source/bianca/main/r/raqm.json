@@ -6,22 +6,22 @@
     "libraqm0, libraqm-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), pkgconf, libfreetype-dev (\u003e= 2.4.2), libfribidi-dev, libharfbuzz-dev (\u003e= 5.2), python3, gtk-doc-tools (\u003e= 1.15), meson (\u003e= 0.56.0)"
+    "debhelper-compat (= 12), pkg-config, libfreetype6-dev (\u003e= 2.4.2), libfribidi-dev, libharfbuzz-dev (\u003e= 5.2), python3, gtk-doc-tools (\u003e= 1.15)"
   ],
   "Checksums-Sha1": [
-    "99dda9eaf8ee79ef7f4ee8503a5a6c422c4b745d 4332 raqm_0.10.2-1.debian.tar.xz e44190c986b22a355918f75a2231403e5960237d 1815 raqm_0.10.2-1.dsc 1ded9fa0e1b2f911ba26fdb61ced206a5fcc5366 216932 raqm_0.10.2.orig.tar.xz"
+    "7756114a4a43bfb0e77ce08a1dbfa90d86367a7a 4548 raqm_0.7.0-4.1.debian.tar.xz d803476afdda241d17be976ca78225043452ce0b 2101 raqm_0.7.0-4.1.dsc 47ec51ce4567d4af828c90100f771f3de75f4ed9 683634 raqm_0.7.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a29db11cb3c6eb7d94906b469e2ddf58f453d4fb6ee7a95c41589ff967b51aa0 4332 raqm_0.10.2-1.debian.tar.xz 74d7ceca672b8e3a3b65cb1d5ce6eb46fac1f1f22e079dbfa98d4fa3645e4a58 1815 raqm_0.10.2-1.dsc 3e936f2c4e585c3168dbe121fcb7d6c55702027c68e491076381da5c4060559c 216932 raqm_0.10.2.orig.tar.xz"
+    "be3ef726099a4ba55ea55e6f761949e1db52af18f5764ed68675379be69b2a8b 4548 raqm_0.7.0-4.1.debian.tar.xz ac7894bde400421d168c679fae335f59c1ef63340932d693e5dedaf32746f4e6 2101 raqm_0.7.0-4.1.dsc e28575ecdd4e8a1d277d9be8268bb663ce1e476aaf55eb0456787821ddf0f941 683634 raqm_0.7.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "b3654a69ad0e422d7564287b212a4cb4b82eeb692402e02f28b8d38daeeb8e053368a3d589826be5f53e9ee2777130bd381734943f8cd2ec3a70b72f4ae6ecf1 4332 raqm_0.10.2-1.debian.tar.xz 8d59697b680157935eb29361e12310f6286a1506813ae6db8c5dc80dc8bc23ba81963ce8689f8d90041e2c4876d39013dd9b15c67a6b4211f995589adadc4a7c 1815 raqm_0.10.2-1.dsc 5dfec231f3a0f9f64d4ff0e3f233d9348c954f77cdf5f0db445c80b5dc26d330d6ebd206432a8fe4d256da7a43a0c1f33e13851dc6d5ec8353687876146eae99 216932 raqm_0.10.2.orig.tar.xz"
+    "50e317d49d14158ed3842fa13e215b5db7d5bb865e815399b432308b8cc0e197a0f5269911039795d7d6e5424e344d7d8c498b8a924584145ca2ac6ae709ecc1 4548 raqm_0.7.0-4.1.debian.tar.xz 4f038e8760a2c18700c5fedace498de1124f0c1ed78a095312b668420eb434598ebc15a2281911b2197462ccef5d22ed729d9f522fff7fba5a648ea075128f13 2101 raqm_0.7.0-4.1.dsc 4aed401df0b53cc95423afa5980164b54102776eca675119fc483c410334a635ca95ef6564ee9b54666c13c916eb52a0a1cd24f288230946c53825fb10451161 683634 raqm_0.7.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/raqm"
   ],
   "Files": [
-    "cb369990afca9934eba60122a8551713 4332 raqm_0.10.2-1.debian.tar.xz a9ce12e55d5d1b9d0d170165cdd6b149 1815 raqm_0.10.2-1.dsc ad99436e043caebbee6392a530c86d8e 216932 raqm_0.10.2.orig.tar.xz"
+    "f1f0a4228293d71e33f980c6761f1e13 4548 raqm_0.7.0-4.1.debian.tar.xz b6e9be530d273ec43b67131db89f5cfb 2101 raqm_0.7.0-4.1.dsc d75dbe365fabebd053a9aecfc3d9e09f 683634 raqm_0.7.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libraqm-dev deb libdevel optional arch=any libraqm0 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.4.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/raqm.git"
   ],
   "Version": [
-    "0.10.2-1"
+    "0.7.0-4.1"
   ]
 }

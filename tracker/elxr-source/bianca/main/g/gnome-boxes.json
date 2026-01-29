@@ -6,28 +6,28 @@
     "gnome-boxes"
   ],
   "Build-Depends": [
-    "appstream \u003c!nocheck\u003e, debhelper (\u003e= 13.17), desktop-file-utils \u003c!nocheck\u003e, dh-sequence-user-session-migration, gobject-introspection (\u003e= 0.9.6), itstool, libarchive-dev (\u003e= 3.0.0), libgirepository1.0-dev, libglib2.0-dev (\u003e= 2.52.0), libgtk-3-dev (\u003e= 3.22.20), libgudev-1.0-dev (\u003e= 165), libhandy-1-dev (\u003e= 1.5.90), libosinfo-1.0-dev (\u003e= 1.10.0-2~), libportal-gtk3-dev (\u003e= 0.7), libsecret-1-dev, libspice-client-gtk-3.0-dev (\u003e= 0.41-2~), libusb-1.0-0-dev (\u003e= 1.0.9), libvirt-dev, libvirt-glib-1.0-dev (\u003e= 5.0.0), libvte-2.91-dev (\u003e= 0.40.2), libwebkit2gtk-4.1-dev, libxml2-dev (\u003e= 2.7.8), libxml2-utils, meson (\u003e= 0.59.0), valac (\u003e= 0.36.0)"
+    "appstream-util \u003c!nocheck\u003e, debhelper-compat (= 13), desktop-file-utils \u003c!nocheck\u003e, dh-sequence-gnome, freerdp2-dev, gobject-introspection (\u003e= 0.9.6), itstool, libarchive-dev (\u003e= 3.0.0), libgirepository1.0-dev, libglib2.0-dev (\u003e= 2.52.0), libgtk-3-dev (\u003e= 3.22.20), libgtk-vnc-2.0-dev (\u003e= 0.4.4), libgudev-1.0-dev (\u003e= 165), libhandy-1-dev (\u003e= 1.5.90), libosinfo-1.0-dev (\u003e= 1.10.0-2~), libsecret-1-dev, libspice-client-gtk-3.0-dev (\u003e= 0.41-2~), libtracker-sparql-3.0-dev, libusb-1.0-0-dev (\u003e= 1.0.9), libvirt-dev, libvirt-glib-1.0-dev (\u003e= 4.0.0), libvte-2.91-dev (\u003e= 0.40.2), libwebkit2gtk-4.1-dev, libxml2-dev (\u003e= 2.7.8), libxml2-utils, meson (\u003e= 0.59.0), valac (\u003e= 0.36.0)"
   ],
   "Checksums-Sha1": [
-    "9c86e13f9d7cd7f2dd11b87d9834744100276d28 20888 gnome-boxes_48.0-3.debian.tar.xz 09f01a12ce51c3e7b50e48f9b5d2c33959cf5eb4 2685 gnome-boxes_48.0-3.dsc 62d23f54d6526cc9333563edea07fdb3379a05a6 1248816 gnome-boxes_48.0.orig.tar.xz"
+    "3b2371334b203f12ac15a4c05f89babd2f860c11 19696 gnome-boxes_43.2-1.debian.tar.xz 4e1df945ed0f7509c9a00043cc21ff705958438a 2663 gnome-boxes_43.2-1.dsc aacd56ef05a18997280c7fdd7eeba34d9eaee036 1235424 gnome-boxes_43.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "bd745a8191c24dc37327316384053fc981ed10c54a15bdf00e1d462a2bf0fa29 20888 gnome-boxes_48.0-3.debian.tar.xz b331f2efa0b20447369943298790e605c1ef7d6409a0a68e717439566e8125c9 2685 gnome-boxes_48.0-3.dsc d05f5f42568fafbf6d88771161b06ed5f739d43121278d418cae95c56e513ead 1248816 gnome-boxes_48.0.orig.tar.xz"
+    "f86b89d258cc52676acb697164cdaa4b82b7230debc1d003073767e1d98c13bd 19696 gnome-boxes_43.2-1.debian.tar.xz 1b6003d659b130503d87802b45c2b6773ee2bbd04f828392a6324a288c4898bc 2663 gnome-boxes_43.2-1.dsc 9c3e0e9433c1853a99ed52edec13263f443f856dbca3b2165c2e3a70b8632b30 1235424 gnome-boxes_43.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "f18076db8c5f743dd7979a867a9dec13dae0210c60237c7783ff97d5c5415ac226a659982c451d68fd21d385c3d6c0d4cd137a7b3b4262fb943f79edf133bc73 20888 gnome-boxes_48.0-3.debian.tar.xz 7c6079ed3552383bcdf49eefdc9e349d99357434745ea1a162e61cbd6f451195a2a07b263975f3eab44ac40c087c902ac036c73d4db6d2f5b5f86753dce5501e 2685 gnome-boxes_48.0-3.dsc e019e491a667a76a4ef1c10b7dabf1c8528110768afcc684aba64a767329a7da57d5a78615e5f73c5c12c56ccfc044df5553746266f1bc207d8d986ea386c407 1248816 gnome-boxes_48.0.orig.tar.xz"
+    "adebe506ff1e147776b1b8a29da821112b83675407f5ead332bdb1124851e792608929ff9fa70f96855ae783730c0586610fabdd774258b907a3b1f0e81df3c9 19696 gnome-boxes_43.2-1.debian.tar.xz 7bcebc450cdc486c7f572b26803d6c45a8e2baea0047465b74d1e7b9fb0e714a49163cd8351638caf38663783d0a3e5b03e209c405b268b1affc090e3e33d4b2 2663 gnome-boxes_43.2-1.dsc edddf5980adf6bce516a4fd35be14e7b261c6cf886f1f1e7fc9cd79089b8320e781c98f2a040babc1661af6ae1f331dec3a2ecd728bcdb26d9a9031175c8e1be 1235424 gnome-boxes_43.2.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gnome-boxes"
   ],
   "Files": [
-    "f49087106e31892f92aa20ac5fd8313b 20888 gnome-boxes_48.0-3.debian.tar.xz e6aa812a8fc92023b771320b024b04ae 2685 gnome-boxes_48.0-3.dsc 2436442ab2e7b0688338cb41cc8267ea 1248816 gnome-boxes_48.0.orig.tar.xz"
+    "d3da9dbb9b243fa0cc8b9b5973897c5e 19696 gnome-boxes_43.2-1.debian.tar.xz 4450960dfa1511cd883f6a1c37c61d16 2663 gnome-boxes_43.2-1.dsc c7c3f18851404982bebc64fd206e01e0 1235424 gnome-boxes_43.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://apps.gnome.org/Boxes/"
+    "https://wiki.gnome.org/Apps/Boxes"
   ],
   "Maintainer": [
     "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
@@ -39,10 +39,10 @@
     "gnome-boxes deb gnome optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Uploaders": [
-    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Sebastien Bacher \u003cseb128@debian.org\u003e"
+    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/gnome-boxes"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/gnome-boxes.git"
   ],
   "Version": [
-    "48.0-3"
+    "43.2-1"
   ]
 }

@@ -6,28 +6,25 @@
     "librust-arbitrary-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.63.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "4ff848265c073303c2219792a9bdd7886e8a4cc7 3792 rust-arbitrary_1.4.1-1.debian.tar.xz f7cf4d17e25cfe46bbce980da7fb1375ee588cde 2234 rust-arbitrary_1.4.1-1.dsc c98168909320200f978ec4d2b8c57faba9ee266f 36816 rust-arbitrary_1.4.1.orig.tar.gz"
+    "d92c4424338ca36cb181cca2a688498c13152634 3024 rust-arbitrary_1.1.3-1.debian.tar.xz fe2eb1f6eee33ee2df2be3d001301fd57207c96a 2158 rust-arbitrary_1.1.3-1.dsc c82e4044a9a5ada1d89ca72a2e6cad8ace15e14c 27602 rust-arbitrary_1.1.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "ef3c873c6e442843b9f8c455d5c82b93e68c0a9544e4dc87b0a3b225de6a3010 3792 rust-arbitrary_1.4.1-1.debian.tar.xz 3f663cf569aa00d813b6bb4d5d9c0b9ef73851978e816ddba0a2a5e9a3b16137 2234 rust-arbitrary_1.4.1-1.dsc dde20b3d026af13f561bdd0f15edf01fc734f0dafcedbaf42bba506a9517f223 36816 rust-arbitrary_1.4.1.orig.tar.gz"
+    "e366b9dbcea42acd15b1251fd62a6f4178a1956b278fdc341bb92d3a5150e19a 3024 rust-arbitrary_1.1.3-1.debian.tar.xz 8fdadf7c9701ace11e959ea08fc5b2a240d9df017ddd7caacdbc7f7ef55b9095 2158 rust-arbitrary_1.1.3-1.dsc 5a7924531f38b1970ff630f03eb20a2fde69db5c590c93b0f3482e95dcc5fd60 27602 rust-arbitrary_1.1.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "63d9e6012d22eeedfbae0ecbf804cef73be20afa1ae31110c0909e9ffd908ec74187e36861e77edec228149461dc54feaede60bd4f3bcf3990058120eb49f1c7 3792 rust-arbitrary_1.4.1-1.debian.tar.xz ab5dac13c6c9e3bd74b8776feafb18e81ddbf03054416e697c16ef944368f7b6d3e35b3477d4d252bc0d610e3a40c64e8c80211fdbe0b560f8042f0ccfd95b99 2234 rust-arbitrary_1.4.1-1.dsc a3507aa0ab684464c3559376beabc0992bbb589ddc85d2426b26238d7c5d1d856df5d9226603fe7ad2b17ac6570d62e86ba4f5a2e65f3cbc9ad52bbe294f8123 36816 rust-arbitrary_1.4.1.orig.tar.gz"
+    "be8dd92f7bfe9617c64258d8d28110a9ae8a531f6dd2d6e306d37c0a3dc87c6f303ca095cc5843161c5a4bae3c205c56f6c3775544deb3e2a7176f5cea2f8e34 3024 rust-arbitrary_1.1.3-1.debian.tar.xz 9be862d2a51fea2afa37bb2ea76a7df7f0866c325720910d970c85b80a7c2c4b7a817b09319eec684b1abb1871f972584aaaf1190a2314c406a0ced8a014e30e 2158 rust-arbitrary_1.1.3-1.dsc 31083a9430e81908dbbb49320faf3dabbad42e50e93ce000e6f8af1d652bc0cbdda3f28ab1f9e93b1f079a61ba53ceb29f8ef8f3cf929689e09bcee92a8069fd 27602 rust-arbitrary_1.1.3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-arbitrary"
   ],
   "Files": [
-    "832cb086e5111e8011f3bf659d4dccdf 3792 rust-arbitrary_1.4.1-1.debian.tar.xz 73f29dd33554db3a57a86dfd2707291d 2234 rust-arbitrary_1.4.1-1.dsc da82510ef455c94807d8ab0c38ea096f 36816 rust-arbitrary_1.4.1.orig.tar.gz"
+    "320af0b5dcebcc61710df1612f69eb9c 3024 rust-arbitrary_1.1.3-1.debian.tar.xz 023affa17cab03d5a10de8eabe97ace2 2158 rust-arbitrary_1.1.3-1.dsc 6ae71261398b0b344ef6fb2b9bbbeb7a 27602 rust-arbitrary_1.1.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/rust-fuzz/arbitrary/"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -39,13 +36,13 @@
     "librust-arbitrary-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, rustc"
+    "dh-cargo"
   ],
   "Uploaders": [
     "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/arbitrary]"
   ],
   "Version": [
-    "1.4.1-1"
+    "1.1.3-1"
   ]
 }

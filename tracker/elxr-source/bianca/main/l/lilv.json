@@ -1,36 +1,33 @@
 {
   "Architecture": [
-    "any all"
+    "any"
   ],
   "Binary": [
-    "liblilv-0-0, liblilv-dev, liblilv-doc, lilv-utils, python3-lilv"
+    "liblilv-0-0, liblilv-dev, lilv-utils"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, libsndfile1-dev, libserd-dev, libsord-dev, libsratom-dev, libzix-dev, lv2-dev (\u003e= 1.18.0~), meson, ninja-build, pkgconf, python3:any"
-  ],
-  "Build-Depends-Indep": [
-    "doxygen, graphviz, python3-sphinx, sphinxygen"
+    "debhelper-compat (= 13), libsndfile1-dev, libserd-dev (\u003e= 0.22.0~), libsord-dev (\u003e= 0.14.0~), libsratom-dev (\u003e= 0.4.0~), lv2-dev (\u003e= 1.18.0~), pkg-config, python3:native"
   ],
   "Checksums-Sha1": [
-    "1306206c495c4feb2356ea96928d839be2d79d04 13384 lilv_0.24.26-1.debian.tar.xz 2622172bb2fbb0c469583312721f37acdd82c355 2680 lilv_0.24.26-1.dsc 4e4556d71f8ea5b753ae4e7e67a08da4c5e5ad47 106044 lilv_0.24.26.orig.tar.xz 4fc215d9786e11c691314297adc6d067eedc94a1 833 lilv_0.24.26.orig.tar.xz.asc"
+    "75ec8b65551686d85addbf43d75052464cc0a03b 13384 lilv_0.24.14-1.debian.tar.xz cb409b8587ffb255dd0ca1753b4b688b2aa09c5a 2517 lilv_0.24.14-1.dsc 4157c25e8ce2da904727bb4c26e9e364966601b0 428004 lilv_0.24.14.orig.tar.bz2 ca0faab0626582d1164ced3002398fbdfb6bfdae 833 lilv_0.24.14.orig.tar.bz2.asc"
   ],
   "Checksums-Sha256": [
-    "fcec7160738795c5c063ae873d8e9a0007dfe403fe7d67da67ecb244ad11fd81 13384 lilv_0.24.26-1.debian.tar.xz 71720a99fe5b2972b91aa2d24cd953b07afe3d45455f6dc7a4f6caba9b8a2f8b 2680 lilv_0.24.26-1.dsc 22feed30bc0f952384a25c2f6f4b04e6d43836408798ed65a8a934c055d5d8ac 106044 lilv_0.24.26.orig.tar.xz 1c138611ad60255cf1df692880188d8b3e9bd8a4dbf7bed761d04078ef0049f7 833 lilv_0.24.26.orig.tar.xz.asc"
+    "9c22637e174689311e74f9c4837d4d7585607f1c75dd1dfe1d1442854f9713d2 13384 lilv_0.24.14-1.debian.tar.xz da06f1afb7737574cd4c011d936c2bbf2216263350f4c5ad7d32a476dafbaa2f 2517 lilv_0.24.14-1.dsc 6399dfcbead61a143acef3a38ad078047ab225b00470ad5d33745637341d6406 428004 lilv_0.24.14.orig.tar.bz2 dca73847991f03798436a1567251ef5edbdb5bde6ffa0416d8ed9edfb17a3bf5 833 lilv_0.24.14.orig.tar.bz2.asc"
   ],
   "Checksums-Sha512": [
-    "c3e77827bb78506ef9e6fdb5a8bb4d8126dfbe9c1976d0e14f5287372663f29cec24c8e4205d70141cc45534406c12bfe4f0b8fa0193fc10f07ed6fe504f692e 13384 lilv_0.24.26-1.debian.tar.xz 5fc17f1bd18fe342b01648b7888909704f3fdc1ed332f3a6cba0c2cc8c31d9157e5803cb839e644a2bf16e52c8f50e5eaf92caaa5bae96b24e212c2a72a9c600 2680 lilv_0.24.26-1.dsc 3d360d63391554f62d1dd44b9ba0fc28e4ccde9640da1e28ef3f127c23c9f03974b66c5bbb83f022f18810284a0e25060127d580ca2fad6213fe88920618c2ae 106044 lilv_0.24.26.orig.tar.xz ec733e00ce5ec310f1e2ca03953eefe2cfa0ab61d14897907f47c4d7d51842a8e24eb5b1a86efbb2bb0c188c580adc3ec5512a4de11ccde30ea0082fb5c17e49 833 lilv_0.24.26.orig.tar.xz.asc"
+    "0669c9cb85283d66e8a03e0c3dae3da751db3ae096f1ca8c96aa8f4cc1a01e8559168620a2fb8bfae9280de49e338a45b7e881af258440ea7ccb4d7b3f6d8296 13384 lilv_0.24.14-1.debian.tar.xz 5d14f08d800d2f57d4b6f929afcf00a314ba9e3a6029bfb5d654b198fb2b5fcf243b215a54d3d282b06a906df2a102c16fb91dc23ff03b4654e54d203951afe3 2517 lilv_0.24.14-1.dsc f266e91f3cbc325c25dd7d08bde5033091cb3072c2dcb1490e9474f562b798dbc71c45ca7d971ed4dfd6bb16f5f6725ae242a58c4486684b71350e73f1469f47 428004 lilv_0.24.14.orig.tar.bz2 2faa4f921a1928845e5753f95b562e1f681661e4fc259f97a737d610f0cbefdffdb27b011aa348eb6cda416f64d803951e4d67357357b36b9d540280c970a761 833 lilv_0.24.14.orig.tar.bz2.asc"
   ],
   "Directory": [
     "pool/main/l/lilv"
   ],
   "Files": [
-    "74dcee85e2506219b3f718758752a8dd 13384 lilv_0.24.26-1.debian.tar.xz adf10214b76db0759df99d972d693a3f 2680 lilv_0.24.26-1.dsc 21e9e9189ae28c876fdc7657dcd72380 106044 lilv_0.24.26.orig.tar.xz ae10243a965266b353b7ecaddc499e30 833 lilv_0.24.26.orig.tar.xz.asc"
+    "9278f140466ab96b8ed89d41219a7856 13384 lilv_0.24.14-1.debian.tar.xz d8127744713db0832c00fcc8a146ac78 2517 lilv_0.24.14-1.dsc 2b129163c0ea2a13a06d70025170cb87 428004 lilv_0.24.14.orig.tar.bz2 ed17be24d737210a085d36b1ecd43b00 833 lilv_0.24.14.orig.tar.bz2.asc"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://drobilla.net/software/lilv.html"
+    "https://drobilla.net/software/lilv/"
   ],
   "Maintainer": [
     "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
@@ -39,13 +36,13 @@
     "lilv"
   ],
   "Package-List": [
-    "liblilv-0-0 deb libs optional arch=any liblilv-dev deb libdevel optional arch=any liblilv-doc deb doc optional arch=all lilv-utils deb sound optional arch=any python3-lilv deb python optional arch=all"
+    "liblilv-0-0 deb libs optional arch=any liblilv-dev deb libdevel optional arch=any lilv-utils deb sound optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Uploaders": [
-    "Alessio Treglia \u003calessio@debian.org\u003e, Jaromír Mikeš \u003cmira.mikes@seznam.cz\u003e, Dennis Braun \u003csnd@debian.org\u003e"
+    "Alessio Treglia \u003calessio@debian.org\u003e, Jaromír Mikeš \u003cmira.mikes@seznam.cz\u003e, Dennis Braun \u003cd_braun@kabelmail.de\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/multimedia-team/lilv"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/multimedia-team/lilv.git"
   ],
   "Version": [
-    "0.24.26-1"
+    "0.24.14-1"
   ]
 }

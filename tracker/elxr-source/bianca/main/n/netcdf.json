@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "netcdf-doc, libnetcdf22, libnetcdf-dev, netcdf-bin"
+    "netcdf-doc, libnetcdf19, libnetcdf-dev, netcdf-bin"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.6.1), chrpath, debhelper-compat (= 13), doxygen, graphviz, libcurl4-gnutls-dev | libcurl-ssl-dev, libhdf5-dev, libxml2-dev, m4"
+    "debhelper-compat (= 12), cmake (\u003e= 3.6.1), chrpath, m4, doxygen, graphviz, libcurl4-gnutls-dev | libcurl-ssl-dev, libhdf5-dev, libxml2-dev"
   ],
   "Checksums-Sha1": [
-    "2937531ac9ed35cddf89cd3723bb4e741620c4ae 35440 netcdf_4.9.3-1.debian.tar.xz 660885da74ea1cd134597f5c1c41bb8560a149f3 2355 netcdf_4.9.3-1.dsc 154077e50adc53505a26b83e011ffa50280c6ec9 25619216 netcdf_4.9.3.orig.tar.gz"
+    "4ad5916f891c530d2a9ab75206c90e2d1bc407d1 33404 netcdf_4.9.0-3.debian.tar.xz 6afa551016731bca2ae8f1d1bad5eef2eeb6f93d 2298 netcdf_4.9.0-3.dsc af2a89f1bb61f34e58b01c3603b98c4fbc2232b8 19491744 netcdf_4.9.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "8d5610a74b35054d4ce7202b2f5416436aaae58a62d1b59e855630548c0860c7 35440 netcdf_4.9.3-1.debian.tar.xz b3290b4c26f8b114f52c59c226da7c65138f4537875bc3a49b07baf03d30a01d 2355 netcdf_4.9.3-1.dsc 990f46d49525d6ab5dc4249f8684c6deeaf54de6fec63a187e9fb382cc0ffdff 25619216 netcdf_4.9.3.orig.tar.gz"
+    "7c6386e575156d0fd4a3badbca5be129a8c2edfc9bc4c33e953dd59fa6e64b8d 33404 netcdf_4.9.0-3.debian.tar.xz 71a8f859c4d1a8e9749f27cb17717cfed0deffbd25b0c05ee4fca6db31256753 2298 netcdf_4.9.0-3.dsc 9f4cb864f3ab54adb75409984c6202323d2fc66c003e5308f3cdf224ed41c0a6 19491744 netcdf_4.9.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "142cf4bae5c8da0926054e6ef3a45bcd6cccabd8b6783fdf10d07994133e2dcf0f6f6bff187bbe1bc08b22fe1ca3eaca51aafca90085885dc97b97505d0a108b 35440 netcdf_4.9.3-1.debian.tar.xz a2807611d0bbd0a88944dfa5cdb05ffd54b07c2ee40625de25c43ea61bf17fa36c4b693d471b979c573442df8bb42ec8b6697d28a1e2fc3d81b51ba37f50693e 2355 netcdf_4.9.3-1.dsc c82d77572a10e8d84f5c2db205f3b486add97195c1c29ee4747a6e435fbfb03e111ddb652e137086db04d820eb7542ffbac310e48fae01474f0892abad099ed6 25619216 netcdf_4.9.3.orig.tar.gz"
+    "314f065e3938c83347c5aa6100d85ccb53c526d421167be809c5579e311a99f104b392c2cc287d57a81d2e4746681d59fa27c0c9e48a9b4950ca57dbb969100c 33404 netcdf_4.9.0-3.debian.tar.xz eb75ef5f5f7a1d7bba848ff1cd074a8c087b9dfa1f1e17eb7af6ffb73cd4386170652da713006fb75877f107238dca27b0c3497de6610ddb5c38d06b9c607a88 2298 netcdf_4.9.0-3.dsc 62cb593b99a6e9c56426175d141907572d3974de8dc39549c85337acf410539f9b7dcd9a375808e271da1d0dc93fce7586b955eddd2bb45901d9cc48a72db705 19491744 netcdf_4.9.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/n/netcdf"
   ],
   "Files": [
-    "1c413d2df2989b280fc77792d21b7cfe 35440 netcdf_4.9.3-1.debian.tar.xz c606a8963ddb890759b17733c69c12af 2355 netcdf_4.9.3-1.dsc bc9eb96e1983bf90fb3a99cc358c5ac3 25619216 netcdf_4.9.3.orig.tar.gz"
+    "7cdd7cb6c234435fea5f50bf7ecbbced 33404 netcdf_4.9.0-3.debian.tar.xz b97c967e858be7edcc6a2384e7a33500 2298 netcdf_4.9.0-3.dsc 27baa260ae527b405c38d1e103c1348b 19491744 netcdf_4.9.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,16 +36,10 @@
     "netcdf"
   ],
   "Package-List": [
-    "libnetcdf-dev deb libdevel optional arch=any libnetcdf22 deb libs optional arch=any netcdf-bin deb science optional arch=any netcdf-doc deb doc optional arch=all"
+    "libnetcdf-dev deb libdevel optional arch=any libnetcdf19 deb libs optional arch=any netcdf-bin deb science optional arch=any netcdf-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
-  ],
-  "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "gmt-gshhg-low"
+    "4.6.1"
   ],
   "Uploaders": [
     "Francesco Paolo Lovergine \u003cfrankie@debian.org\u003e, Nico Schlömer \u003cnico.schloemer@gmail.com\u003e, Bas Couwenberg \u003csebastic@debian.org\u003e"
@@ -57,6 +51,6 @@
     "https://salsa.debian.org/debian-gis-team/netcdf.git"
   ],
   "Version": [
-    "1:4.9.3-1"
+    "1:4.9.0-3"
   ]
 }

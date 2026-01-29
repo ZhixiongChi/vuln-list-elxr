@@ -6,22 +6,22 @@
     "dlm-controld, libdlm3, libdlm-dev, libdlmcontrol3, libdlmcontrol-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libcfg-dev (\u003e= 1.99), libcmap-dev (\u003e= 1.99), libcpg-dev (\u003e= 1.99), libquorum-dev (\u003e= 1.99), libsystemd-dev, libxml2-dev, pacemaker-dev, pkgconf, systemd-dev, uuid-dev"
+    "debhelper-compat (= 13), libcfg-dev (\u003e= 1.99), libcmap-dev (\u003e= 1.99), libcpg-dev (\u003e= 1.99), libquorum-dev (\u003e= 1.99), libsystemd-dev, libxml2-dev, pacemaker-dev, pkg-config, uuid-dev"
   ],
   "Checksums-Sha1": [
-    "eabffb59f7968f0963066dc0b4114a88354c9ed5 8380 dlm_4.3.0-3.debian.tar.xz 80be6628eda610cb169d0687e7cdcaa6c9efdbc8 2371 dlm_4.3.0-3.dsc cfcf0a3ad4ed838703e5b4d9117fa1bf6450646b 146520 dlm_4.3.0.orig.tar.gz"
+    "ccdb37c857f85963169e9cdbb64637566465eab2 7936 dlm_4.2.0-2.debian.tar.xz 091700335ba8cba279d07a68ae48643f30eaad31 2361 dlm_4.2.0-2.dsc 9239bf86ecd26fd532528fbcd64712d79e389ff3 135774 dlm_4.2.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "25cafbd891efa40bf271bb2dcab426b13340ca1ff1afea53d266b64e8ed9ea91 8380 dlm_4.3.0-3.debian.tar.xz a3ffee05024aaa4817a746ca5f5efa537956cf4dcbfbd3539493f6515f826a34 2371 dlm_4.3.0-3.dsc ea27de56eaa3a24e39c4d4223e516f5c46bd6a2b056e6b4fae9a36797b6a9fec 146520 dlm_4.3.0.orig.tar.gz"
+    "2cfac131bde310270827a502b9b5b9e2524e8210abaf4daf51c598d1b2d58e2a 7936 dlm_4.2.0-2.debian.tar.xz 5dc0ac59bf76b4ab2a22de352e05472aa441fc028be63e4d54474ca892975a29 2361 dlm_4.2.0-2.dsc 6ec801bff8e93885b31da7e12dbb6a429ec8cdc1237b825a4d2ba8a0e49a9945 135774 dlm_4.2.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c56b5c9d2f882691a0d3a4e37aeb9a3e38449e872c9fc4d861a4f880583124467a18b0fcde217ac0e9528ba1cf5f1b858ff8cd83f266ec1f58e2a8c946bd5a83 8380 dlm_4.3.0-3.debian.tar.xz 9bec3d6d550246672700b978dc50af056dd57523b3f6899c5eb5f9b9f11109f2b84a69ae26285d374c4cb79c80ebbdda2a28fda762c5d1da5dd8c119584e2742 2371 dlm_4.3.0-3.dsc 8c1ef71caaa58fee952535c7e3e40e14d632a8769fa100239e8e79476331bac2c09ca41a1172b857d0e57ecaa74b05dfc1fb1fa6994b72d24ea71585b449fdc4 146520 dlm_4.3.0.orig.tar.gz"
+    "7a006c0af5533bf7a113fa97f6e4f83d3170878bf701256f17037ea3668e9483938b7a9ef4eb2a0f547f8028b2e2419a60c59373c34d742465d7f2714003f667 7936 dlm_4.2.0-2.debian.tar.xz ccaf6ad021955d0e15f76ab43b75cd0479343eea284ff77ce2c1a23df658953200560f835dc07b23224f7d15fe67ad3d29e68a0e2dedeb278f05c049669dc33b 2361 dlm_4.2.0-2.dsc b437373d292a6020c47bec2d2c3d630460332d2f0158033d719d156e3a6bead9bd37452ef7679da2cbac5d96a9d056a7daff203e45ddfe6dab47cc230abf48b9 135774 dlm_4.2.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/d/dlm"
   ],
   "Files": [
-    "b7f1d735bec5ce4032f5077793b831c3 8380 dlm_4.3.0-3.debian.tar.xz 0e7cff8616af559488a12cab61719265 2371 dlm_4.3.0-3.dsc 6d6c65aff64971c7eceea2c00c73ecbd 146520 dlm_4.3.0.orig.tar.gz"
+    "c8232cadfa35064005da632695b797e3 7936 dlm_4.2.0-2.debian.tar.xz 965c3028c2f67a490fce12379e2329df 2361 dlm_4.2.0-2.dsc 53ebc520ebf94b961281ef566a1d9fea 135774 dlm_4.2.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "dlm-controld deb admin optional arch=linux-any libdlm-dev deb libdevel optional arch=linux-any libdlm3 deb libs optional arch=linux-any libdlmcontrol-dev deb libdevel optional arch=linux-any libdlmcontrol3 deb libs optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/ha-team/dlm.git"
   ],
   "Version": [
-    "4.3.0-3"
+    "4.2.0-2"
   ]
 }

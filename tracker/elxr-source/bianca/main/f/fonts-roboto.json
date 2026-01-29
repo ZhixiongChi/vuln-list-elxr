@@ -3,25 +3,28 @@
     "all"
   ],
   "Binary": [
-    "fonts-roboto, fonts-roboto-unhinted"
+    "fonts-roboto, fonts-roboto-hinted, fonts-roboto-unhinted"
   ],
   "Build-Depends": [
-    "cdbs, licensecheck, debhelper, libregexp-assemble-perl, libimage-exiftool-perl, libfont-ttf-perl"
+    "cdbs, licensecheck, debhelper, dh-buildinfo, libregexp-assemble-perl, libimage-exiftool-perl, libfont-ttf-perl"
   ],
   "Checksums-Sha1": [
-    "2ba10b65e69e248ad1202e2448ce3d55c36f3580 20328 fonts-roboto_0~20170802-4.debian.tar.xz 46cc7239568f387e50c69b753f44132e7b95e39d 2027 fonts-roboto_0~20170802-4.dsc 38f62c4f7037103ec62c57f0ed146dafc87cabea 5960112 fonts-roboto_0~20170802.orig.tar.xz"
+    "3cb9213e25f36bb974266c35e59f382bcc26e4a4 20488 fonts-roboto_0~20170802-3.debian.tar.xz f664743d0ab27eebc640fe9ce4dc501bdd93bc0b 2043 fonts-roboto_0~20170802-3.dsc 38f62c4f7037103ec62c57f0ed146dafc87cabea 5960112 fonts-roboto_0~20170802.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "a68e350bb8efb3d899ee085983f78cea92e5ff58a341563e955681d4df8f1477 20328 fonts-roboto_0~20170802-4.debian.tar.xz 39e0676aed7b077ba10ab6611a750fb55a89130445e2e885a34ac6b79f6ab89f 2027 fonts-roboto_0~20170802-4.dsc 28729751815fa424282f9e534ac21ce11313969b67bb4ab278268fdcb23967e1 5960112 fonts-roboto_0~20170802.orig.tar.xz"
+    "33d09403f2e68773e97b40421dfe79d85ed596f7fa8d29aff0549894d2076750 20488 fonts-roboto_0~20170802-3.debian.tar.xz 86f6bda68337b337d6906bacdb8f0293db8d97c9f15a77e3c30f83c1b1104464 2043 fonts-roboto_0~20170802-3.dsc 28729751815fa424282f9e534ac21ce11313969b67bb4ab278268fdcb23967e1 5960112 fonts-roboto_0~20170802.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "ebb12d391fba12f9543b2e2b9fe21fbbee546ac9f05f3db74e285035786dd22f8edd0c06692baab54b8154b3fb9b806a7c3bdf7014ecaa82393bc26f187d83af 20328 fonts-roboto_0~20170802-4.debian.tar.xz 7af20e9648a4f14081beec86ba30a1e6a31c6890e3467f4c7681ef1b0f85fe09f9a9eb1d791c4b3103615cf71f8242011bd4537df4dd09b5ee1512528b664d6c 2027 fonts-roboto_0~20170802-4.dsc a61189628869acac05551617acc882ec950e9dd6236f51762a71144f74e89bb3861320640e41743d34973b2555ac6522fb58fc23dad3c23a2675e4ab44b9c2cb 5960112 fonts-roboto_0~20170802.orig.tar.xz"
+    "084c73517868dc59378e56062f954dc5c267c2c68c59022a7675f1712da1b81e64c32d49f2e3f78a0059bb7c792739e6f448564d465cfc42e2077bacfca8b255 20488 fonts-roboto_0~20170802-3.debian.tar.xz 77add66bb6218c0c6b8e9c9f4bc0d739c0745627248707d3ca1532b242c954e4dc6a289b43e73b012066459c7bdb38baac910b848a24af2106249f1b7992f6d5 2043 fonts-roboto_0~20170802-3.dsc a61189628869acac05551617acc882ec950e9dd6236f51762a71144f74e89bb3861320640e41743d34973b2555ac6522fb58fc23dad3c23a2675e4ab44b9c2cb 5960112 fonts-roboto_0~20170802.orig.tar.xz"
+  ],
+  "Dgit": [
+    "15e01e42a7113f7d3974157dfa68031afeab4934 debian archive/debian/2%0_20170802-3 https://git.dgit.debian.org/fonts-roboto"
   ],
   "Directory": [
     "pool/main/f/fonts-roboto"
   ],
   "Files": [
-    "8f3c99d40b394e035009c36b130f916e 20328 fonts-roboto_0~20170802-4.debian.tar.xz bf033c762ceee485c6c4cc08b4cd9ae2 2027 fonts-roboto_0~20170802-4.dsc 75cad34fa686a7b7792fcc7d948c54f5 5960112 fonts-roboto_0~20170802.orig.tar.xz"
+    "485fbf26970e8117de24d56a156cd32f 20488 fonts-roboto_0~20170802-3.debian.tar.xz 4e3c80ff244d80ba3a3d1347afe5305b 2043 fonts-roboto_0~20170802-3.dsc 75cad34fa686a7b7792fcc7d948c54f5 5960112 fonts-roboto_0~20170802.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +39,7 @@
     "fonts-roboto"
   ],
   "Package-List": [
-    "fonts-roboto deb fonts optional arch=all fonts-roboto-unhinted deb fonts optional arch=all"
+    "fonts-roboto deb fonts optional arch=all fonts-roboto-hinted deb oldlibs optional arch=all fonts-roboto-unhinted deb fonts optional arch=all"
   ],
   "Standards-Version": [
     "3.9.6"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/fonts-team/fonts-roboto.git"
   ],
   "Version": [
-    "2:0~20170802-4"
+    "2:0~20170802-3"
   ]
 }

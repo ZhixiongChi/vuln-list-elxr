@@ -6,25 +6,25 @@
     "python3-ncclient, python-ncclient-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-setuptools, python3-sphinx"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-sphinx"
   ],
   "Build-Depends-Indep": [
-    "python3-lxml, python3-pytest, python3-paramiko"
+    "python3-lxml, python3-mock, python3-nose, python3-paramiko, python3-six"
   ],
   "Checksums-Sha1": [
-    "6ec8605480e5c8a57b02d28aa88536be2a1b1d63 7060 python-ncclient_0.6.17-1.debian.tar.xz fdd0746e941b31867161237e4e3f2f823d5717c3 2239 python-ncclient_0.6.17-1.dsc a4dba6e4db645f4b682ebca384450607ba323e3c 142622 python-ncclient_0.6.17.orig.tar.gz"
+    "46a18a35677f205c6a4ed16b2e103fb5e68533d8 4344 python-ncclient_0.6.13-1.debian.tar.xz 57f44f38f3070ade2a8269d32b5752e994990c81 2168 python-ncclient_0.6.13-1.dsc 93a71d307c90a557086668828caf80ae958fad18 130399 python-ncclient_0.6.13.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "277e408be1d519a6e4f8555f30f917a2174044edab9aa189eb89f94789c221bd 7060 python-ncclient_0.6.17-1.debian.tar.xz 12d8a10cab388d04f69081e212781f44e446007ad390bde41b101ae682557175 2239 python-ncclient_0.6.17-1.dsc 9ed91bdb5a108e58ee294ba92a205346a38d99fe05e9322ae3aba650757fbef1 142622 python-ncclient_0.6.17.orig.tar.gz"
+    "c788220b6da1f980074240decd72ac28e34b511a28867afb0cfd61d34e9531be 4344 python-ncclient_0.6.13-1.debian.tar.xz bc2f01a6bd2cfec782387b9aa3339e092d5effd5482867917be9b199b9f54c2d 2168 python-ncclient_0.6.13-1.dsc 924617320054f1b09d846400eed89fc9eea8bb8ef490fc21a51c62ca15d6b81d 130399 python-ncclient_0.6.13.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "ab5ffa9adbe0b772f70aebe2b0059c9254df053eea3e5f9edb153c7429b973e0c43d97d72cb320fe1a08e5ed8fbfcb09ab68ec18e50ad0f842c64100ff93d071 7060 python-ncclient_0.6.17-1.debian.tar.xz 46c8c61f8e8b5ce6f248e861dc61e2c721917b56e8d22818e99b43c854aaadaa2957e542dbb9788c433a51104620604f2bdbcb52abe83e3f72c64e6e5251b83d 2239 python-ncclient_0.6.17-1.dsc 6492f4654953dae27c86032c191a11c2e193792b461cba3060b0808df7917bce4d0abe12c2ed33b9c66efd822bcc4684578bf439d3f9f17b41372f93640de268 142622 python-ncclient_0.6.17.orig.tar.gz"
+    "c0580f07db6980e4668826871f6ee519eca1e1fd231895704c68a2716503d6c418598de53819ca1dc22af6bc6e4e50d34840eb75ba4e7b7b06c45414fde02f3c 4344 python-ncclient_0.6.13-1.debian.tar.xz 0664c37b47d636e1d2a0a4bdea0c73491b3535d7c608526e35a1522144040417082d2d880148abd13f8bb31d7fd90759ea17e10229d06a07fb4e6f1cc890a227 2168 python-ncclient_0.6.13-1.dsc 650d07477d48cd209ef758ebd1716e48c4021c3d681f0ce2e9065ca5f34ace82079f5577884d26fc99e552c6f4cd7b59a9bf8866008e7b2985f1d8b23cc8d61f 130399 python-ncclient_0.6.13.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-ncclient"
   ],
   "Files": [
-    "29147e81e08ff106498940ca5d99a76e 7060 python-ncclient_0.6.17-1.debian.tar.xz 56f6142ad404aef5d19a6f05fedc9232 2239 python-ncclient_0.6.17-1.dsc f26d1cfb16721d35dcfef4cf1fb95a61 142622 python-ncclient_0.6.17.orig.tar.gz"
+    "dc6e92d995778cfc3809bcc8eb513158 4344 python-ncclient_0.6.13-1.debian.tar.xz 7333b56a9e85c89c4cb3dc080ca6d872 2168 python-ncclient_0.6.13-1.dsc 5cc6e42e70f62b67855957f3d459edea 130399 python-ncclient_0.6.13.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,10 @@
     "python-ncclient-doc deb doc optional arch=all python3-ncclient deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.1"
   ],
   "Testsuite": [
-    "autopkgtest, autopkgtest-pkg-python"
-  ],
-  "Testsuite-Triggers": [
-    "python3-all, python3-pytest"
+    "autopkgtest-pkg-python"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/python-ncclient"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/debian/python-ncclient.git"
   ],
   "Version": [
-    "0.6.17-1"
+    "0.6.13-1"
   ]
 }

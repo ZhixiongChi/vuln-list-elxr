@@ -6,22 +6,22 @@
     "librepo-dev, librepo0, librepo-doc, python3-librepo, python3-librepo-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-package-notes, dh-sequence-python3, python3-dev, libpython3-dev, cmake, pkgconf, libglib2.0-dev, libssl-dev, libcurl4-gnutls-dev, doxygen, libattr1-dev, libgpgme-dev, python3-sphinx, check, libxml2-dev, python3-flask, python3-pyxattr, python3-gpg, libselinux1-dev [linux-any]"
+    "debhelper-compat (= 13), dh-python, python3-dev, libpython3-dev, cmake, pkg-config, libglib2.0-dev, libssl-dev, libcurl4-gnutls-dev, doxygen, libattr1-dev, libgpgme-dev, python3-sphinx, check, libxml2-dev, python3-flask, python3-nose, python3-pyxattr, python3-gpg"
   ],
   "Checksums-Sha1": [
-    "dff0001baa0c6eb1c12dc175ecfc7318a0256c79 7312 librepo_1.20.0-1~deb13u1.debian.tar.xz 98d3ade355e04a884dfc88deffe9f0ec65562d01 2544 librepo_1.20.0-1~deb13u1.dsc fc0a900bbe5fbc7ae340a20c312d0c3406f67a47 844583 librepo_1.20.0.orig.tar.gz"
+    "47e5999ef525b50d2bb7cfc6ea992f9b68e8935a 7700 librepo_1.14.5-3.debian.tar.xz 9c2aa499db510286b18fa1cf262eedddc58f09d0 2338 librepo_1.14.5-3.dsc fa072a20718ae6af54a65d53b1c9686a730400bf 824267 librepo_1.14.5.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "9e8077841585b3db1eacf343cd84e4ee5b0812250351c938514ec9829f763422 7312 librepo_1.20.0-1~deb13u1.debian.tar.xz 04ec9e4e162341e80d1ab1ea4afb883628ebeb9e33734257b17b53b71241f58c 2544 librepo_1.20.0-1~deb13u1.dsc c21dd3caefe97ea58bc865f92095a9d2db2ec8aab49d0c714d4742094db930b6 844583 librepo_1.20.0.orig.tar.gz"
+    "df710010afdba7a1392097a10b2efdc0640ddc800bab9b30361775b692639313 7700 librepo_1.14.5-3.debian.tar.xz 5854d1e7d58ee24dbccceb3be718112e064e05cb4a524e188f501cea19d9921d 2338 librepo_1.14.5-3.dsc 6fb7dbbcfa48e333633beabf830d75f20b347ae5b9734ffde3164fef8d093391 824267 librepo_1.14.5.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "cf8d62a5c4c982dce45d54d3a5aacd803af8bdebf41ebcc72461a7f3f63e04486b8b775fb73d76310ff025e3872e187c7ff65670647eb4f614915800a08ad2fa 7312 librepo_1.20.0-1~deb13u1.debian.tar.xz 295054aae1dcb35441eb5fbc75507619488fd2d6ef198051baf23c5bd392164b83d4f5e32c620de55884104ba3b6ee5b30d2eca4c74bb34a414434c418a0dadc 2544 librepo_1.20.0-1~deb13u1.dsc 994b7c17b57d6ae28c09fc9f3463647bde8bb3ac74ca156df28fadc2ac8d3e49dd8b5f42d90759b4eaab84804489e6740d9ad7fdb011090fb3aa6f19cf603123 844583 librepo_1.20.0.orig.tar.gz"
+    "2cb81c0e0d9c134af701b3723c18f62cf3b4ad6e169a51517cc4d74dedb2d73bff661b5e673bad438babffc3a0d39655177b0f196785b4fe13e21bfa23ebdfb5 7700 librepo_1.14.5-3.debian.tar.xz 05f28f111c87ee7c5dbb307ad3bad31f5a40c4b111e0e2922017f0db114db5ee9a54342b8b75a59d3d90190f3eee57b84734fa873f753535f2a98015bee2c769 2338 librepo_1.14.5-3.dsc 9dda5067142b04e46e8ee344a47df21dae89a9c26e91588fc92bcbaee5291348a38ee79a5e807d7a8cba6cb13af78985e8b2e9b23d7f9eabecd0123459c43935 824267 librepo_1.14.5.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libr/librepo"
   ],
   "Files": [
-    "fd89a7ef73cd91f7be0bc07e3bdef5c5 7312 librepo_1.20.0-1~deb13u1.debian.tar.xz 3a3bc5795c603e92d64828ee5ebd58ec 2544 librepo_1.20.0-1~deb13u1.dsc 0a9c8dec0890caf67f96a680fb74ea15 844583 librepo_1.20.0.orig.tar.gz"
+    "dec6ddc7e8dfc29aa8f77ec9e55c6d62 7700 librepo_1.14.5-3.debian.tar.xz f35bc2fc96b378ee0d193a7302f8cb00 2338 librepo_1.14.5-3.dsc 7148ead949ad4a711a593cd66349bcda 824267 librepo_1.14.5.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://github.com/rpm-software-management/librepo"
   ],
   "Maintainer": [
-    "RPM packaging team \u003cteam+pkg-rpm@tracker.debian.org\u003e"
+    "Frédéric Pierret \u003cfrederic.pierret@qubes-os.org\u003e"
   ],
   "Package": [
     "librepo"
@@ -39,18 +39,15 @@
     "librepo-dev deb libdevel optional arch=any librepo-doc deb doc optional arch=all librepo0 deb libs optional arch=any python3-librepo deb python optional arch=any python3-librepo-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
-  ],
-  "Uploaders": [
-    "Frédéric Pierret \u003cfrederic.pierret@qubes-os.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
+    "4.5.1"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/pkg-rpm-team/librepo"
+    "https://salsa.debian.org/fepitre/librepo"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/pkg-rpm-team/librepo.git"
+    "https://salsa.debian.org/fepitre/librepo.git"
   ],
   "Version": [
-    "1.20.0-1~deb13u1"
+    "1.14.5-3"
   ]
 }

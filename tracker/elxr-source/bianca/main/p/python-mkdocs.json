@@ -6,31 +6,31 @@
     "mkdocs, mkdocs-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all"
+    "debhelper-compat (= 13), python3-all"
   ],
   "Build-Depends-Indep": [
-    "ghp-import (\u003e= 1.0) \u003c!nocheck\u003e, mkdocs-autorefs \u003c!nodoc\u003e, mkdocs-get-deps \u003c!nocheck\u003e, mkdocs-click \u003c!nocheck\u003e \u003c!nodoc\u003e, mkdocs-literate-nav \u003c!nodoc\u003e, mkdocs-redirects \u003c!nodoc\u003e, mkdocstrings \u003c!nodoc\u003e, mkdocstrings-python-handlers \u003c!nodoc\u003e, python3-babel, python3-click \u003c!nodoc\u003e, python3-hatchling, python3-jinja2 \u003c!nocheck\u003e, python3-markdown \u003c!nocheck\u003e, python3-markdown-callouts \u003c!nodoc\u003e, python3-mergedeep \u003c!nocheck\u003e, python3-platformdirs \u003c!nocheck\u003e, python3-pymdownx \u003c!nocheck\u003e, python3-pyyaml-env-tag \u003c!nocheck\u003e, python3-setuptools, python3-watchdog \u003c!nocheck\u003e, python3-yaml \u003c!nocheck\u003e"
+    "dh-sequence-python3, ghp-import (\u003e= 1.0), mkdocs-autorefs, mkdocs-click, mkdocs-literate-nav, mkdocs-redirects, mkdocstrings, mkdocstrings-python-handlers, pybuild-plugin-pyproject, python3-babel, python3-click, python3-hatchling, python3-jinja2 (\u003e= 2.10.1), python3-markdown (\u003e= 3.2.1), python3-markdown-callouts, python3-mergedeep, python3-packaging, python3-pkg-resources, python3-pymdownx, python3-pyyaml-env-tag, python3-watchdog, python3-yaml"
   ],
   "Checksums-Sha1": [
-    "bd60cc5683409a0d97a85d11e99b8702ff4eefba 41056 python-mkdocs_1.6.1+dfsg1-2.debian.tar.xz 1a6e0103addf92c8a41202f28c99870b07383b9e 2860 python-mkdocs_1.6.1+dfsg1-2.dsc c79ae57454a2ee46429766ea8557db31e1c1a350 4279036 python-mkdocs_1.6.1+dfsg1.orig.tar.gz"
+    "84cff63a193a3d0b325af685cc906a7c66bee2ac 17428 python-mkdocs_1.4.2+dfsg-2.debian.tar.xz 8d6c1b442c7b450f53514fb7bad52c4251d4d2d5 2577 python-mkdocs_1.4.2+dfsg-2.dsc 55ca93c50062cb4a3f3ba30c1298c392112e92b2 3317207 python-mkdocs_1.4.2+dfsg.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "38543aed40e8243e0685dbd831e30ba10448ec192ad105d4f9bbcf9fb945a0dd 41056 python-mkdocs_1.6.1+dfsg1-2.debian.tar.xz afaeff5fd36eb46df09c29222c69b3f6e2fec1f15f0d9b469e4cfa670913cd0c 2860 python-mkdocs_1.6.1+dfsg1-2.dsc 5a094187cb7ac5c70375d564a8dbf0f127bfe1598adfd7b74e60953531d060e2 4279036 python-mkdocs_1.6.1+dfsg1.orig.tar.gz"
+    "c3ee0d677c584dbf03b67997c8c1c1af6d02fdec7417d41f4d50fd3865016e74 17428 python-mkdocs_1.4.2+dfsg-2.debian.tar.xz fa824d644aaf38c815a134b609c9c381f077f607e95d9e644b40de3389ea5f47 2577 python-mkdocs_1.4.2+dfsg-2.dsc b47aca846910b2500a516ef7fb645b2cdee0de6594e1d2189db66e61ca0d8dea 3317207 python-mkdocs_1.4.2+dfsg.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f2f3f1ae12fc64790e2315eb146e5a1a15630ccfb8fc35db00a9ea1048c42de5b54ef261dfc19bc30fad4dceba30110f5463a9a482cd8b6ea36b3f21ab63261b 41056 python-mkdocs_1.6.1+dfsg1-2.debian.tar.xz 369fc670d6c56f9e34e2736943d102d6c7e0c8f4a26ac120e06e8d2b58176bea45496b4566eb10507d762711df5a8985ba310566bb72c2b826146b98af91069f 2860 python-mkdocs_1.6.1+dfsg1-2.dsc 4265ed6507f8fd21567693a4511f07760348bedae8061bf7872f27c83864962fd0492f1d7ceec2a5984987ece0cd10fef8266cf3387e9d2b83d9d5afa914a75b 4279036 python-mkdocs_1.6.1+dfsg1.orig.tar.gz"
+    "dd597ebf96007847cf8fd25d3810ef02422a12c1679ff122a107c6b6621c32eaa068e95347f20b774ef203fb3a1a013412b4e75393e5af028272d1f663d8a3f5 17428 python-mkdocs_1.4.2+dfsg-2.debian.tar.xz b57d0aa7f7072d9b36be8261bbf72d62a64b2ac25b86d7af68ca0ee979a5256d53fa756d02c716eda4ab66d78d5932a745c28dfc1104825fa9aa22845f1fdd5d 2577 python-mkdocs_1.4.2+dfsg-2.dsc bc5c6fe6aead764cc9b8d25b482797b3b6480346ba27b0268d338620afee238242d657c34b2a4b95be743a3d65ba957d29f35ef95bf2ae1b01beefc287841f40 3317207 python-mkdocs_1.4.2+dfsg.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-mkdocs"
   ],
   "Files": [
-    "bc3ad2c95d2a9c5261ba1e51001a75dd 41056 python-mkdocs_1.6.1+dfsg1-2.debian.tar.xz d2180a814bd33b667f4912203147a5e1 2860 python-mkdocs_1.6.1+dfsg1-2.dsc f48d48e667e807d222388e628c81e41b 4279036 python-mkdocs_1.6.1+dfsg1.orig.tar.gz"
+    "e762296d3996be53c7e40af77eddc74d 17428 python-mkdocs_1.4.2+dfsg-2.debian.tar.xz f4cd3fba1b042460a34e97acaae0500f 2577 python-mkdocs_1.4.2+dfsg-2.dsc e3bd3ae705d9454b10c1cd982311e424 3317207 python-mkdocs_1.4.2+dfsg.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://github.com/mkdocs/mkdocs"
+    "https://www.mkdocs.org/"
   ],
   "Maintainer": [
     "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
@@ -42,7 +42,7 @@
     "mkdocs deb text optional arch=all mkdocs-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -51,7 +51,7 @@
     "@builddeps@, python3-all"
   ],
   "Uploaders": [
-    "Brian May \u003cbam@debian.org\u003e, Carsten Schoenert \u003cc.schoenert@t-online.de\u003e,"
+    "Brian May \u003cbam@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-mkdocs"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/python-mkdocs.git"
   ],
   "Version": [
-    "1.6.1+dfsg1-2"
+    "1.4.2+dfsg-2"
   ]
 }

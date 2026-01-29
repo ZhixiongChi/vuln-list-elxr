@@ -6,22 +6,22 @@
     "python3-parted, python-parted-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, libparted-dev, libpython3-all-dev, parted, pkgconf, python3-all-dev:any, python3-setuptools"
+    "debhelper-compat (= 12), dh-python, libparted-dev, libpython3-all-dev, parted, pkg-config, python3-all-dev:any, python3-setuptools, python3-six"
   ],
   "Checksums-Sha1": [
-    "82e02853d316d8dbb410d598a4b1df53a375855a 13608 pyparted_3.13.0-1.debian.tar.xz b928e742b2bf44cf324f9a3843ad3660dc7875d1 2332 pyparted_3.13.0-1.dsc 1a9cddb8995a74efa6385bedb4c0f536e6e50ddb 99605 pyparted_3.13.0.orig.tar.gz 41a02fce9b58c0decea934d1d59437bec7e539bd 833 pyparted_3.13.0.orig.tar.gz.asc"
+    "1a0581794c49e049d83f841c96064fa60e605434 12684 pyparted_3.12.0-4.debian.tar.xz 24b13e1a8319f01fb6c0a516d56b1c8bbe5a49a5 2004 pyparted_3.12.0-4.dsc c52dfa02064a67d5a09b5fbe4d85f9bdea104db9 100725 pyparted_3.12.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "c7a793e2393d2b6cec350fc357d18921e6cd89f6c85a9ba510532b7660c86f98 13608 pyparted_3.13.0-1.debian.tar.xz f167dfdc6533bd3acdddde5f50e2f2910d2494f1a9593934a8cdb7068c35a3fa 2332 pyparted_3.13.0-1.dsc 8fc6758abd16c7b0429fd4c07b6a7672678d493bfe1811040cd77d45e04964ea 99605 pyparted_3.13.0.orig.tar.gz 5d23cced3ced5ed45276b48cf53f4250d28028cc23279c9c347ffb48fb0e5c9d 833 pyparted_3.13.0.orig.tar.gz.asc"
+    "647cff5b91b8c924e5e140d95f53d503ffccbaae106016370fecab725a983e9a 12684 pyparted_3.12.0-4.debian.tar.xz 6d74ccc8ffeedff51503237f0070cfa453c9e87d6b10a12bc8dfe1b96ebbe688 2004 pyparted_3.12.0-4.dsc da985e116beb733371feb605b174db9eec8bd0eedffc8f739f8e603f51b521e7 100725 pyparted_3.12.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "00b80edbbca22a7b3251545726f393e41a9ae2a8c750e023c858a4bc1800bfa3bbe76f5ef9ab9ea5120cd734c18bd59c8d29cdba2b2da18245bbd34c628a1f42 13608 pyparted_3.13.0-1.debian.tar.xz fcb6435adf8cd77368cba15b42e7cac7fceb4660d0ba286412175faa225a206ea75f6e20da7145ef21d4a899f3563b2d319b4331f8488b6f2d14971474fc2cb3 2332 pyparted_3.13.0-1.dsc a9162afdbee48de5474de98ae8c08df028d485e122fcafae8421dddd47c9ed00d8dd9f40d854b14d4582483d8ea3469128a912491371385e4f18a0dbbbafbfd5 99605 pyparted_3.13.0.orig.tar.gz 6f3e973b52584450c3eed97d64266df832d8820a6a72f731fbb9fbd9be06f93f2d53b47bcae01b78a831e3e3cedca3ae8629dc5f9fe35dcc3ed11226a11fd952 833 pyparted_3.13.0.orig.tar.gz.asc"
+    "81ee031c20b6e8154ba511ac0c779c92b848e936200d42e777e20bd31fb6f906c29502110e1faa199fe06a1d08fbab3d20f8f1f2b065b47f79374fe5f97104ec 12684 pyparted_3.12.0-4.debian.tar.xz ba4c6918df10ee2d42a387317068ea6c78544c15e012218b55fcdd8122a6d1e256994415f88a4e487fc090cf09aaaca9fbd59935125c2bedfc5d4d5a7054c799 2004 pyparted_3.12.0-4.dsc 0179e5334be8c04287b10b47d407ad339933cd3e20514d2142fe968acf8a36c40e541ee5165e2b3699a40b133d8f1948d8d12ccf307d3a1736090fb33f28b7e7 100725 pyparted_3.12.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/pyparted"
   ],
   "Files": [
-    "b48e6d0ad0ce74d3e4dfd8960b98f465 13608 pyparted_3.13.0-1.debian.tar.xz 8f4afc943ba92ec4e43be63125b1ec7f 2332 pyparted_3.13.0-1.dsc 2984e0ed4223e705e5e4fb42747a585e 99605 pyparted_3.13.0.orig.tar.gz 1628bf5eb2ecdf39805e6bdf61d945b7 833 pyparted_3.13.0.orig.tar.gz.asc"
+    "a9373dc7ed8131516538c385c9a762e0 12684 pyparted_3.12.0-4.debian.tar.xz 9978d92cdcc8c523bcad9d5d6622ae85 2004 pyparted_3.12.0-4.dsc 97df779564210100ea3e4eda0d33f7b9 100725 pyparted_3.12.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://github.com/dcantrell/pyparted"
   ],
   "Maintainer": [
-    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
   ],
   "Package": [
     "pyparted"
@@ -39,10 +39,16 @@
     "python-parted-doc deb doc optional arch=all python3-parted deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.3.0"
   ],
   "Testsuite": [
     "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-six"
+  ],
+  "Uploaders": [
+    "Bastian Germann \u003cbage@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/pyparted"
@@ -51,6 +57,6 @@
     "https://salsa.debian.org/debian/pyparted.git"
   ],
   "Version": [
-    "3.13.0-1"
+    "3.12.0-4"
   ]
 }

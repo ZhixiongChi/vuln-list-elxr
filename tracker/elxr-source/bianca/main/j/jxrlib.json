@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libjxr0t64, libjxr-dev, libjxr-tools"
+    "libjxr0, libjxr-dev, libjxr-tools"
   ],
   "Build-Depends": [
-    "dpkg-dev (\u003e= 1.22.5), antiword, cmake (\u003e= 3.13), debhelper-compat (= 13), help2man"
+    "antiword, cmake (\u003e= 3.13), debhelper-compat (= 13), dpkg-dev (\u003e= 1.18), help2man"
   ],
   "Checksums-Sha1": [
-    "cf7e770757d093201191e181f4054be7f740f93e 14640 jxrlib_1.2~git20170615.f752187-5.3.debian.tar.xz c4f496c465055f67ba36197aa59d31dae380f08f 2238 jxrlib_1.2~git20170615.f752187-5.3.dsc 0a935a76ffbb20752a384b50dddda6c20ddedab8 201236 jxrlib_1.2~git20170615.f752187.orig.tar.xz"
+    "41337d9560bfc8cb47afe1182ca114d960f99fb0 12972 jxrlib_1.2~git20170615.f752187-5.debian.tar.xz 1ec77ed0b80e2650fb8aa2cbc283559f919c86d3 2247 jxrlib_1.2~git20170615.f752187-5.dsc 0a935a76ffbb20752a384b50dddda6c20ddedab8 201236 jxrlib_1.2~git20170615.f752187.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "6ca2a0aedede8726339e978fd5449fca574b0bf565d1e1b7ceb740d29e909144 14640 jxrlib_1.2~git20170615.f752187-5.3.debian.tar.xz 0cde61b24027e01bdb20aa02bfee56230e73a5901798c255d1f5aeb01a0e85a6 2238 jxrlib_1.2~git20170615.f752187-5.3.dsc 3e3c9d3752b0bbf018ed9ce01b43dcd4be866521dc2370dc9221520b5bd440d4 201236 jxrlib_1.2~git20170615.f752187.orig.tar.xz"
+    "3b6d64904a027826f36ea49072a78fcd7bbc613f0ddc5a99c4c4870b98df19a6 12972 jxrlib_1.2~git20170615.f752187-5.debian.tar.xz ad3b71a542564db96c7e8e70b560aaa9cda2f63d449e389c2e6279180bacee15 2247 jxrlib_1.2~git20170615.f752187-5.dsc 3e3c9d3752b0bbf018ed9ce01b43dcd4be866521dc2370dc9221520b5bd440d4 201236 jxrlib_1.2~git20170615.f752187.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "c41f3c526f9e8d0e54b0375f1d10baf57954f99194ab783b3871b101505ea5d6f411c9932f01aa714f73917c9422b88be1afe92b62406d145ba47b552a64af5c 14640 jxrlib_1.2~git20170615.f752187-5.3.debian.tar.xz eb4ced4dbb4a87e841e3ecab22db44f73dce310699b9547192e16965f01b868f258ee46dd83e0640404a45f9db4b98a3035fd0ca270b31dd59f2836404549b5e 2238 jxrlib_1.2~git20170615.f752187-5.3.dsc 0f97ab8ee84fa8a543e8915cf1064894760435526f5d8331fbc4cbf1f2544b0a24d9a4ca58d5c2c159ea3288541438fe57201bdd1186c3dac61bd55c66330ce5 201236 jxrlib_1.2~git20170615.f752187.orig.tar.xz"
+    "710626cf2297f5f630d2d8f485f0b04882424d0e8586909eb9c9a07d419ac04576f7946a8f443735684f9223b018f5d4c0108d755bdfa2fec85ab287322db260 12972 jxrlib_1.2~git20170615.f752187-5.debian.tar.xz d035b8f19c0b028fba9cb04a303b2643ca4eff41043d104a1d03636f0caf96cf81287c76bbf4d6cc3214c48f698ee826638189840d4e2f40c3ff089a436e2972 2247 jxrlib_1.2~git20170615.f752187-5.dsc 0f97ab8ee84fa8a543e8915cf1064894760435526f5d8331fbc4cbf1f2544b0a24d9a4ca58d5c2c159ea3288541438fe57201bdd1186c3dac61bd55c66330ce5 201236 jxrlib_1.2~git20170615.f752187.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/j/jxrlib"
   ],
   "Files": [
-    "1ac09d0741f66ca1b8422edce85a9510 14640 jxrlib_1.2~git20170615.f752187-5.3.debian.tar.xz 0fc2b0019a65f5ee71180f63f4c42c0e 2238 jxrlib_1.2~git20170615.f752187-5.3.dsc 6ce073cf5ed07c4480fb00653e9acff4 201236 jxrlib_1.2~git20170615.f752187.orig.tar.xz"
+    "f9b75fa973ed6bcce5b8eb1a33b81070 12972 jxrlib_1.2~git20170615.f752187-5.debian.tar.xz 26f15a223e3ade6fe87ef593bb16057e 2247 jxrlib_1.2~git20170615.f752187-5.dsc 6ce073cf5ed07c4480fb00653e9acff4 201236 jxrlib_1.2~git20170615.f752187.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "jxrlib"
   ],
   "Package-List": [
-    "libjxr-dev deb libdevel optional arch=any libjxr-tools deb utils optional arch=any libjxr0t64 deb libs optional arch=any"
+    "libjxr-dev deb libdevel optional arch=any libjxr-tools deb utils optional arch=any libjxr0 deb libs optional arch=any"
   ],
   "Standards-Version": [
     "4.6.0"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian-phototools-team/jxrlib.git"
   ],
   "Version": [
-    "1.2~git20170615.f752187-5.3"
+    "1.2~git20170615.f752187-5"
   ]
 }

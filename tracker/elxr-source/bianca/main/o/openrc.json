@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "openrc, librc1t64, librc-dev, libeinfo1, libeinfo-dev"
+    "openrc, librc1, librc-dev, libeinfo1, libeinfo-dev"
   ],
   "Build-Depends": [
-    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), dh-exec, libaudit-dev [linux-any], libcap-dev [linux-any], libpam0g-dev [linux-any], libselinux1-dev [linux-any], meson, pkgconf"
+    "debhelper-compat (= 13), dh-exec, libaudit-dev [linux-any], libpam0g-dev [linux-any], libselinux1-dev [linux-any], meson, pkg-config"
   ],
   "Checksums-Sha1": [
-    "3ba4bff1c290a0e99e80a5e38b15f1f8d2327edd 27912 openrc_0.56-1.debian.tar.xz f55d5033452191992650967cf1132ebda55f2358 2342 openrc_0.56-1.dsc 173d46d02c61f58ef48d532d3a78fa9df37c075b 194752 openrc_0.56.orig.tar.xz"
+    "9ab9b1f5ee60e79aaf782ccb1593d13b5f1e6d19 25220 openrc_0.45.2-2+deb12u1.debian.tar.xz 8edd92312377dd9885565c82a79fb9af612c08ff 2339 openrc_0.45.2-2+deb12u1.dsc f61b8f40e9b2bd94a09a2ddd834d42c76a45b2d4 192020 openrc_0.45.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "da19b76173be432647751d8f841e4d1b3785580f1a2bff23a8ad3e3878f4832e 27912 openrc_0.56-1.debian.tar.xz d355e8cee5bbb8d17fa51d8df871299eba3f3b22b3390409ce39f452e2bd5b0a 2342 openrc_0.56-1.dsc 9d43184b83719651757b9a377b2b839c6f570da63e9ca3aedf0e8caffa9018fd 194752 openrc_0.56.orig.tar.xz"
+    "48ce1226b1591df10a1a44e2c01faf05aa9040f3f95361edb6ca92144df01a07 25220 openrc_0.45.2-2+deb12u1.debian.tar.xz d86c5c85776f81157dec230390a27c5ec5d9d06d2e7c27238ce8dd0121bc1d22 2339 openrc_0.45.2-2+deb12u1.dsc 2a47fbf6ef2d252bbee1232e7626f8cc445eaeeeabb49ced1e7b0d598dafeb66 192020 openrc_0.45.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "3f0cfd4c476d724e5950492e5c184a0f75c0d38d2245396ca4ff4c3fa77abe94b08fb9dbc937eec5bc215b8673abed642b26122e6228d829adc816fee9b7ba7d 27912 openrc_0.56-1.debian.tar.xz dee234b56ebee308c17a6ced191284b0cdc00662698b9fd61a4f9ec3eeb3134519bd6f702d088254a6a59d441aef9533f018109f8a8846e29b8705439ebbc417 2342 openrc_0.56-1.dsc 148ff5fa0ad3174ea9e0214c9c178c669e58f776794fdba671177501d2b3ca132601c5831894e76c33201f6001bc34d21da3c01ad0d99c5a838639c09fa8070d 194752 openrc_0.56.orig.tar.xz"
+    "bdd3249084c727f4f763a661286d4dc99fcbf58fedca258cf61d606793d2be8d47e703fad714c9802121ca4cd5fbf1daeb8814631fe61c449cb3f7526246fb19 25220 openrc_0.45.2-2+deb12u1.debian.tar.xz 397e850937fbcba3dfdc48d976bbccb957379d86a850968994caa0e4cf7c8fabbf17f623de6d08cb2aa9c323bba5e819a70f0b311a219f62924648c727972dfe 2339 openrc_0.45.2-2+deb12u1.dsc e1ea699cf7358983dcc66dd52233d947c6b1be6b1eb33ea41676449a9304a200c7ad2ddbe45eb3ba4d4a723d3bf966e3cc088bcc65d55a64cc31314efdc7b0fa 192020 openrc_0.45.2.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/o/openrc"
   ],
   "Files": [
-    "0dc7eb4cd4e5306bff3ec24137151d6e 27912 openrc_0.56-1.debian.tar.xz a07589b430eae0be511136def1a9ae3e 2342 openrc_0.56-1.dsc 7d1854cdfbcd7f73376fe453108492a5 194752 openrc_0.56.orig.tar.xz"
+    "16fe468be3aef38809d4755696fb7121 25220 openrc_0.45.2-2+deb12u1.debian.tar.xz 7501db097fef06ecde59d39f0b89112f 2339 openrc_0.45.2-2+deb12u1.dsc 66c00b46950bf954d3e47b68999aa44a 192020 openrc_0.45.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "openrc"
   ],
   "Package-List": [
-    "libeinfo-dev deb libdevel optional arch=any libeinfo1 deb libs optional arch=any librc-dev deb libdevel optional arch=any librc1t64 deb libs optional arch=any openrc deb admin optional arch=any"
+    "libeinfo-dev deb libdevel optional arch=any libeinfo1 deb libs optional arch=any librc-dev deb libdevel optional arch=any librc1 deb libs optional arch=any openrc deb admin optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/openrc.git"
   ],
   "Version": [
-    "0.56-1"
+    "0.45.2-2+deb12u1"
   ]
 }

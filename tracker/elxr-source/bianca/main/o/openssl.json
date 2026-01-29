@@ -3,31 +3,31 @@
     "any all"
   ],
   "Binary": [
-    "openssl, openssl-provider-legacy, openssl-provider-fips, libssl3t64, libcrypto3-udeb, libssl3-udeb, libssl-dev, libssl-doc"
+    "openssl, libssl3, libcrypto3-udeb, libssl3-udeb, libssl-dev, libssl-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.22.5), libzstd-dev, zlib1g-dev"
+    "debhelper-compat (= 13), m4, bc, dpkg-dev (\u003e= 1.15.7)"
   ],
   "Checksums-Sha1": [
-    "b932baa8ccbd0c671add26715633ef410a966f29 49900 openssl_3.5.4-1~deb13u1.debian.tar.xz c464bd9986bc36cc1e584bcb3acf3d6067cd1bcb 2669 openssl_3.5.4-1~deb13u1.dsc b75daac8e10f189abe28a076ba5905d363e4801f 53190367 openssl_3.5.4.orig.tar.gz 5f2dc895c3124ec1a04e17f2aa679f86ec49227c 833 openssl_3.5.4.orig.tar.gz.asc"
+    "d22aeeaa2cf5d737c261f1689ffb25876b38d1ea 60008 openssl_3.0.18-1~deb12u2.debian.tar.xz 18c7815fc97ab4f4b1c1d64ec55caf064bdb3f85 2539 openssl_3.0.18-1~deb12u2.dsc 7f81507dc4e9998eec0b2a646578e045e5e26afc 15348046 openssl_3.0.18.orig.tar.gz 2699dfa57dde292ccf0ceb5fe9b4736df8bda747 833 openssl_3.0.18.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "3659d7e13ee91c9a97570b084f6e32c4f4a5fb29cd846be05863323ad312ce4e 49900 openssl_3.5.4-1~deb13u1.debian.tar.xz 3ae8c547928de96ab95f8ab281501c95dd76050cbf569dddadf05c1950dd7779 2669 openssl_3.5.4-1~deb13u1.dsc 967311f84955316969bdb1d8d4b983718ef42338639c621ec4c34fddef355e99 53190367 openssl_3.5.4.orig.tar.gz cfcabcfc6e43237392e0ab42e2326fceb71037036c2adaa7ecc7e251778e38f4 833 openssl_3.5.4.orig.tar.gz.asc"
+    "d98e15795a2c379039e62ec061ca750c310d3e7c962812bc15677d5e2dcf1794 60008 openssl_3.0.18-1~deb12u2.debian.tar.xz 506cc0573793b9e6b7f2f8fc7467ec36ade27bff46c6eed0c4244e29c682735f 2539 openssl_3.0.18-1~deb12u2.dsc d80c34f5cf902dccf1f1b5df5ebb86d0392e37049e5d73df1b3abae72e4ffe8b 15348046 openssl_3.0.18.orig.tar.gz 2e6cdbdf18511d435bac10990be4a789f769b321c0db734c234cd736a73674de 833 openssl_3.0.18.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "06369978d916d0767fc0a851d3152a35f02531450840bed7a8354763f6abc29bde1fd472a8f165cd594150e7d4d005c1bd71ec17e00fc7ce7b60096443a47c98 49900 openssl_3.5.4-1~deb13u1.debian.tar.xz 8a17827d473ec1da3bda29be97744faa7527bef5adce944920415ee4d063ed64b728b204ec332c492d61c951a7472f6ff6b0e124463f00f81fb9ffec48f16797 2669 openssl_3.5.4-1~deb13u1.dsc 365aca6f2e59b5c8261fba683425d177874cf6024b0d216ca309112b879c1f4e8da78617e23c3c95d0b4a26b83ecd0d8348038b999d30e597d19f466c4761227 53190367 openssl_3.5.4.orig.tar.gz 7bf10c965e5f376979c8cd0a24560ba9d0169ee41d43c54f78642d50d9a27bf111c5553b1ee4c6c1b459b00d465681dea8ba983d0a0396ecc52b9e561769ffe5 833 openssl_3.5.4.orig.tar.gz.asc"
+    "4272227cfcd5a01cb492adb5c775cc5b972aef478298beeddee90c4654c96989393b55f029929490288ad46c1843e180938dfd5566ad577697887f3a9f7eef64 60008 openssl_3.0.18-1~deb12u2.debian.tar.xz 9274c6c8a41b0819b5b57c7268ccd38504967baf17cd90423d2ece0a2c872ffafbcd89604b66c89673d11a6c15f9a3138195ac71bfb1fbc1013f77b8e2a158f9 2539 openssl_3.0.18-1~deb12u2.dsc 6bdd16f33b83ae2a12777230c4ff00d0595bbc00253ac8c3ac31e1375e818fc74d7f491bd2e507ff33cab9f0498cfb28fa8690f75a98663568d40901523cdf3c 15348046 openssl_3.0.18.orig.tar.gz cd4cd8afab68cbe0a5b034039112901cf8a25711c55556681f86b04e47389bcffae85a98f155a517156dd9fb29ceb82f627e371881feb928e887053f145bddfd 833 openssl_3.0.18.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/o/openssl"
   ],
   "Files": [
-    "c0902825e5fb7c0ea768556bb65e717d 49900 openssl_3.5.4-1~deb13u1.debian.tar.xz 656b382988f305521d2eb13e1b95757f 2669 openssl_3.5.4-1~deb13u1.dsc 570a7ab371147b6ba72c6d0fed93131f 53190367 openssl_3.5.4.orig.tar.gz fc505832a9796504dcd48c14fd34c4cb 833 openssl_3.5.4.orig.tar.gz.asc"
+    "e0fd90db71ff29ff5db82eddf37cd40e 60008 openssl_3.0.18-1~deb12u2.debian.tar.xz 7fbb9c1a97926929c94bce19dc09cbb8 2539 openssl_3.0.18-1~deb12u2.dsc 2d36cbf0f4da1be108f174f58e0637fb 15348046 openssl_3.0.18.orig.tar.gz ecfec862c3c310be79c9c7e1850c1797 833 openssl_3.0.18.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://openssl-library.org"
+    "https://www.openssl.org/"
   ],
   "Maintainer": [
     "Debian OpenSSL Team \u003cpkg-openssl-devel@alioth-lists.debian.net\u003e"
@@ -36,10 +36,10 @@
     "openssl"
   ],
   "Package-List": [
-    "libcrypto3-udeb udeb debian-installer optional arch=any profile=!noudeb libssl-dev deb libdevel optional arch=any libssl-doc deb doc optional arch=all libssl3-udeb udeb debian-installer optional arch=any profile=!noudeb libssl3t64 deb libs optional arch=any openssl deb utils optional arch=any openssl-provider-fips deb utils optional arch=any openssl-provider-legacy deb utils optional arch=any"
+    "libcrypto3-udeb udeb debian-installer optional arch=any profile=!noudeb profile:v1=!noudeb libssl-dev deb libdevel optional arch=any libssl-doc deb doc optional arch=all libssl3 deb libs optional arch=any libssl3-udeb udeb debian-installer optional arch=any profile=!noudeb profile:v1=!noudeb openssl deb utils optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/openssl.git"
   ],
   "Version": [
-    "3.5.4-1~deb13u1"
+    "3.0.18-1~deb12u2"
   ]
 }

@@ -6,22 +6,22 @@
     "python-livereload-doc, python3-livereload"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, furo \u003c!nodoc\u003e, help2man, python3-all, python3-myst-parser \u003c!nodoc\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinxcontrib.programoutput \u003c!nodoc\u003e, python3-tornado"
+    "debhelper-compat (= 13), dh-python, help2man, python3-all, python3-setuptools, python3-sphinx, python3-tornado"
   ],
   "Checksums-Sha1": [
-    "251fb2d56313d9239860a8ea02696400c29dcc1f 6680 python-livereload_2.7.1-0.1.debian.tar.xz 288ff8548f76febe8d5f888cb282f3505ab2ac85 2374 python-livereload_2.7.1-0.1.dsc b170363d5cd3246108630f03bc539f0befa70297 26793 python-livereload_2.7.1.orig.tar.gz"
+    "c43fed18ac7ebc433b80ff7dfa4c9a22559b7101 6200 python-livereload_2.6.3-2.debian.tar.xz 7db511bd760797d50b29a36222664d83024d9237 2272 python-livereload_2.6.3-2.dsc 5f0076f6e6cd1491c19f926ae972b2ded0844eac 29407 python-livereload_2.6.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "169d7b0e3dbb997bfa24cabc1f141dba0eb7d3a0a0bc9f895a380e57712a55be 6680 python-livereload_2.7.1-0.1.debian.tar.xz ec3a633006785ec2dc9e0b15f8fcae66a8810a8391a05903759f34b760d6c742 2374 python-livereload_2.7.1-0.1.dsc 075008c7cd8c322cac04dd370a86404f11bc614898399acc6075fcf8e4e8e304 26793 python-livereload_2.7.1.orig.tar.gz"
+    "78d000ea30194dbe462e97eeea4038ac775dcbe56a2ea903c5ea11d62e8ad123 6200 python-livereload_2.6.3-2.debian.tar.xz 685710a8cc468f7b23234216bb16ad15ea80b52e37a864151e3f38fc59bc60a6 2272 python-livereload_2.6.3-2.dsc 1d31d598d8dea0445e5d53e592e5fce5befd2265b001ce8995462200d3d247bf 29407 python-livereload_2.6.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e5b8d720696ae13e7b95ea870fa094377fcaf591ef29c9ccf42cd768e8d3946ec9036fc91be84e44d3be073d5966878fa4874ad594da38fa7d15d724b95f6e2a 6680 python-livereload_2.7.1-0.1.debian.tar.xz 4ed6d9081a0421430b55d8fbac4d598fea740674bf9b2cba998ffffad62da3b111e6ff4ed17f1925e7a0c9586b0f151d8568529aaa957e60a7d095dc704899bd 2374 python-livereload_2.7.1-0.1.dsc a0c5a316ad5d34518b6ca44cddff51ba45d60a8ba24de767e791aa529e4ab22accf15916321fea755e67f4fd0aecb1e0ed840142662c27c8eaa6cad5dc2a7399 26793 python-livereload_2.7.1.orig.tar.gz"
+    "ed6f5500171fc09c3aea15ffc088bddc27bb6987bb45d50163bd309bcb26833467ca40ec19fecc45750a39900e9cc9ebf8f11fdf98517fb81c2fba745f8db56a 6200 python-livereload_2.6.3-2.debian.tar.xz abf774943d2db381500c685ca12aefde3e5b4a3d7765ef8c4242948d85b554d2191019dd0c210f5d3e87d315ebb8dfc0a0cdea539170a8b1d045e8cd1b33a057 2272 python-livereload_2.6.3-2.dsc ccccb17cb4d835eb9e812f8076f871164f6afb2fdc1aee9e35c5ef2d75be2c0403cee51d4eb30b029d7b35522f357ee8c3e9df926fd93511ba7d010ed2a69e8e 29407 python-livereload_2.6.3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-livereload"
   ],
   "Files": [
-    "0b56ecacc1afd109d1d24767a33a34d1 6680 python-livereload_2.7.1-0.1.debian.tar.xz 8ffc3acd1ac6a9183cd82fc0986e2539 2374 python-livereload_2.7.1-0.1.dsc 28bdee03b548970dbd1b3e7dac35ce51 26793 python-livereload_2.7.1.orig.tar.gz"
+    "fe38c5b9034a0065ca7623806340deff 6200 python-livereload_2.6.3-2.debian.tar.xz c3a73582981098722b5a5b3fc100d30e 2272 python-livereload_2.6.3-2.dsc 53cf459a56719332473cc891a401339d 29407 python-livereload_2.6.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python-livereload-doc deb doc optional arch=all python3-livereload deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.5.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/python-livereload.git"
   ],
   "Version": [
-    "2.7.1-0.1"
+    "2.6.3-2"
   ]
 }

@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "any-amd64 any-i386 any-arm64 any-riscv64 any-loong64 any-ia64 armhf"
+    "any-amd64 any-i386 any-arm64 any-riscv64 any-ia64 armhf"
   ],
   "Binary": [
     "gnu-efi"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), gcc-multilib [any-amd64 i386]"
+    "debhelper-compat (= 12), binutils, gcc-multilib [any-amd64 i386]"
   ],
   "Checksums-Sha1": [
-    "e8682cd991df55d380ee6d4378cc4ee87bc6c047 7916 gnu-efi_3.0.18-1.debian.tar.xz 8a92a278d6ec0e1c74498fe5304955bbdf11017c 2114 gnu-efi_3.0.18-1.dsc 4f12dc4ab3e7940070c87affea17bf8a6209957a 167567 gnu-efi_3.0.18.orig.tar.bz2"
+    "8d423814244dceffddacde7d3c28935bb9d0c125 7740 gnu-efi_3.0.15-1.debian.tar.xz 24b8fd183327951b42678dfcfce0593bc690814d 2057 gnu-efi_3.0.15-1.dsc 40c8a4715cf8c409a093c8d2ca9f5d5b24d73058 159399 gnu-efi_3.0.15.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "169644b2790ab13252a549142695961109015a60967cb07ebe0379aa1fa8996d 7916 gnu-efi_3.0.18-1.debian.tar.xz dd2f9803d7b7161a8ec9f6809198901c193e97cb07dacbfa89351bf30e9b8200 2114 gnu-efi_3.0.18-1.dsc 7f212c96ee66547eeefb531267b641e5473d7d8529f0bd8ccdefd33cf7413f5c 167567 gnu-efi_3.0.18.orig.tar.bz2"
+    "0d70568e123bd9903b369cfb5568f17fa369fed8263fafb5c6465f39d285ee33 7740 gnu-efi_3.0.15-1.debian.tar.xz 433551627443179b3394244b9505644f89ac5ad9975114e1cbb038137e1e74cf 2057 gnu-efi_3.0.15-1.dsc 931a257b9c5c1ba65ff519f18373c438a26825f2db7866b163e96d1b168f20ea 159399 gnu-efi_3.0.15.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "1f497a0bb89855cf875f778828c41e2a4dd840866dfd13840e803a7c1002aae39a67f45f9bd336435e55341c38e5a3aded25c7e6b79fb82ae55ad8117ee31499 7916 gnu-efi_3.0.18-1.debian.tar.xz a6bdafea80d2e2c0944214cf4e37fce9712e6ca6e8e8b0c63823de307309f5ca2348f0792ba26949e16ec9c03426f29e139f54a452876625273861a68800f7b6 2114 gnu-efi_3.0.18-1.dsc 39f9fa14b880441a94a04400ff8850efdd9474929e5501dfd05af06e7747b4d0f7cb742ac811c7026cf52d00508efb73018be4d61d63a1211de0cd931cbc473d 167567 gnu-efi_3.0.18.orig.tar.bz2"
+    "aca75be40e368664f45d30bf8b192568b6766da9267d8e7ec2f78e87ee1e840b22676c07be09b8dc4e28d56c529aa965292b7f39f7513ab5e430c1a2dafe052d 7740 gnu-efi_3.0.15-1.debian.tar.xz 9ef8b6107b3e9c306db82017555e513a4d9057cb22f24036b0e21cf33c1182802d1cc042c8c50acd149679de6334789cc7f954d6536e0c5892ab1fd151aaa6a0 2057 gnu-efi_3.0.15-1.dsc 64d408b6d115bdc6eebae12fbd6cd907ed5f847f54e506c1e8f8ea5de38a95cf6fac66ab1009bd1d0bd2d54ad45ad598d29bcc303926a5899bf5cc25448cbb2f 159399 gnu-efi_3.0.15.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/g/gnu-efi"
   ],
   "Files": [
-    "0a1144c0559f45165105bf2a0c36ee6a 7916 gnu-efi_3.0.18-1.debian.tar.xz 74d50df63fc532ecad4e880363c9b1f4 2114 gnu-efi_3.0.18-1.dsc 0b93ad70dff96991dd87978fc4275bd1 167567 gnu-efi_3.0.18.orig.tar.bz2"
+    "ba362b97f346ec64f7dc512dcda767e0 7740 gnu-efi_3.0.15-1.debian.tar.xz 9b75f092ba07915af874cea0d7cc4e53 2057 gnu-efi_3.0.15-1.dsc 192d94e995ddd4ebdce4903adfd06039 159399 gnu-efi_3.0.15.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,13 @@
     "gnu-efi"
   ],
   "Package-List": [
-    "gnu-efi deb devel optional arch=any-amd64,any-i386,any-arm64,armhf,any-riscv64,any-loong64,any-ia64"
+    "gnu-efi deb devel optional arch=any-amd64,any-i386,any-arm64,armhf,any-riscv64,any-ia64"
   ],
   "Standards-Version": [
     "4.1.1"
   ],
   "Uploaders": [
-    "Julian Andres Klode \u003cjak@debian.org\u003e, Mario Limonciello \u003csuperm1@gmail.com\u003e"
+    "Julian Andres Klode \u003cjak@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/efi-team/gnu-efi"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/efi-team/gnu-efi.git"
   ],
   "Version": [
-    "3.0.18-1"
+    "3.0.15-1"
   ]
 }

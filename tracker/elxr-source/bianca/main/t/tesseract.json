@@ -6,22 +6,22 @@
     "tesseract-ocr, libtesseract-dev, libtesseract5, tesseract-ocr-all"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libleptonica-dev (\u003e= 1.75.3), automake, libtool, libarchive-dev, libpango1.0-dev, libcairo2-dev, libicu-dev, libpng-dev, zlib1g-dev, asciidoc, xsltproc, docbook-xsl, docbook-xml, tesseract-ocr-eng (\u003e= 5.0.0~), autoconf-archive, libcurl4-openssl-dev"
+    "debhelper-compat (= 12), libleptonica-dev (\u003e= 1.75.3), automake, libtool, libarchive-dev, libpango1.0-dev, libcairo2-dev, libicu-dev, libpng-dev, libjpeg-dev, libtiff-dev, zlib1g-dev, git, asciidoc, xsltproc, docbook-xsl, docbook-xml, tesseract-ocr-eng (\u003e= 5.0.0~), dh-autoreconf, autoconf-archive, libcurl4-openssl-dev"
   ],
   "Checksums-Sha1": [
-    "f785f528b3437b9399754bde04e891b9ff12e974 55240 tesseract_5.5.0-1.debian.tar.xz fec18280b9fa7f5613bb070a237ce4b8439306b3 2307 tesseract_5.5.0-1.dsc 4593eb666949c3b8a7e18915d5049828d6f38446 14949199 tesseract_5.5.0.orig-test.tar.gz 125ac55842b51698e4337c24bd53d758298589c4 1905018 tesseract_5.5.0.orig.tar.gz"
+    "33598b12721ce2b969549946c8abce598cf2bfa5 54228 tesseract_5.3.0-2.debian.tar.xz ef31ba29ac1305aca8e7783b4818ba5166c5c9cc 2354 tesseract_5.3.0-2.dsc 4593eb666949c3b8a7e18915d5049828d6f38446 14949199 tesseract_5.3.0.orig-test.tar.gz bbaae91c2830a3a6ad34cf1d9fb0b7f31dae6921 1913678 tesseract_5.3.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "339c1e99003ed57552296f0ce758650b8c62d5f1222bb22c6c93a519dc90d20d 55240 tesseract_5.5.0-1.debian.tar.xz 80dc6a0e5d6189b3fe9df632a114642b17ed8582a43b55e45ca508efb995cf1c 2307 tesseract_5.5.0-1.dsc 2788d27de6e448f8ffa7dd19a22c5781768440dee60a34607099f0c66d44b911 14949199 tesseract_5.5.0.orig-test.tar.gz f2fb34ca035b6d087a42875a35a7a5c4155fa9979c6132365b1e5a28ebc3fc11 1905018 tesseract_5.5.0.orig.tar.gz"
+    "25f7cc88884a1873a2f8f6ea9175655f99b0613e8b6cf612d9a9cf6ebd120fe5 54228 tesseract_5.3.0-2.debian.tar.xz 1953764e1eb1638cb0aa26d1aea70babe518d124e72d6aa216846132eb7a5304 2354 tesseract_5.3.0-2.dsc 2788d27de6e448f8ffa7dd19a22c5781768440dee60a34607099f0c66d44b911 14949199 tesseract_5.3.0.orig-test.tar.gz 7e70870f8341e5ea228af2836ce79a36eefa11b01b56177b4a8997f330c014b8 1913678 tesseract_5.3.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "4c97965abc6cdd147ac3ecbd80103f94d13be8eb6b38ccd5f27b1b155dcd20c411befedc8247820f4f3ddacae05b34e5ebdaa90f6376ee69950f25abc3629c6c 55240 tesseract_5.5.0-1.debian.tar.xz b825e8081b4f0be9ac4ec4d0cc11ee5169f1580798ac57b5a71ebd8aa198880747cc6e11812d322d2a67858e7e9a2ab1f4386b68d68673c199f98b219190a165 2307 tesseract_5.5.0-1.dsc a0f40b32838c349380cce4817fb7b09a1e33b3adab41bc101421da3841c1167191bc8793c02aed8686c3ae88a94cbb9dd10ee46d16edd783d91fcd9a80c41455 14949199 tesseract_5.5.0.orig-test.tar.gz 206e7da2d28a6271217ff384b482aa45a50beee0c53327aa4fd3da7082dce83386c8b7600194cbc30282134013b6182a1bed9d128ed6378f2957d0b8d1770b2d 1905018 tesseract_5.5.0.orig.tar.gz"
+    "599eab3a1290f027fce76e9e72bed5842c5ca0d6e02651b0c8313890565be36811b8de4116f058e5d7d9cda4c1947f09721c8e213b128f7f44554167501a08bd 54228 tesseract_5.3.0-2.debian.tar.xz 06175b85c63c5144edc12230ed815ccf1f2ed03f53525bad3972b118e29a2e363a24cda222ba61289fe69f063173a4e3e19a991624484c2602a4b141e1f70b4f 2354 tesseract_5.3.0-2.dsc a0f40b32838c349380cce4817fb7b09a1e33b3adab41bc101421da3841c1167191bc8793c02aed8686c3ae88a94cbb9dd10ee46d16edd783d91fcd9a80c41455 14949199 tesseract_5.3.0.orig-test.tar.gz fc0cfda980059390b7d6d3d8e475b4ecc9dcfee1abc3b16fc9ffc8904db0a0847a5f6f1b32bd2e1f6f5a714a8c4df0fb3dc7c6aa25ece6162bf52fe86b4d0f34 1913678 tesseract_5.3.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/t/tesseract"
   ],
   "Files": [
-    "139e9f6b05604b496eb98fdcc8cdfd5b 55240 tesseract_5.5.0-1.debian.tar.xz 1297fe65c4f9a00efe82a74e7b9124be 2307 tesseract_5.5.0-1.dsc 99bf2e67515db47ab114a7e17c0dd42d 14949199 tesseract_5.5.0.orig-test.tar.gz 17a6d7b78793ff587686449b29d51894 1905018 tesseract_5.5.0.orig.tar.gz"
+    "ddf6d63990fb1b5062bac37bd82725e6 54228 tesseract_5.3.0-2.debian.tar.xz db0b6f812c48b3a59eddec21cc04e34d 2354 tesseract_5.3.0-2.dsc 99bf2e67515db47ab114a7e17c0dd42d 14949199 tesseract_5.3.0.orig-test.tar.gz a65c197a4eb6795b2e49f458a7816a7e 1913678 tesseract_5.3.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,9 +39,9 @@
     "libtesseract-dev deb libdevel optional arch=any libtesseract5 deb libs optional arch=any tesseract-ocr deb graphics optional arch=any tesseract-ocr-all deb graphics optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Version": [
-    "5.5.0-1"
+    "5.3.0-2"
   ]
 }

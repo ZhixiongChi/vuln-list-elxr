@@ -6,31 +6,25 @@
     "librust-syn-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo"
-  ],
-  "Build-Depends-Arch": [
-    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.61) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+proc-macro-dev (\u003e= 1.0.91-~~) \u003c!nocheck\u003e, librust-proc-macro2-1-dev (\u003e= 1.0.91-~~) \u003c!nocheck\u003e, librust-quote-1+proc-macro-dev (\u003e= 1.0.35-~~) \u003c!nocheck\u003e, librust-quote-1-dev (\u003e= 1.0.35-~~) \u003c!nocheck\u003e, librust-unicode-ident-1+default-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+proc-macro-dev (\u003e= 1.0.46-~~) \u003c!nocheck\u003e, librust-proc-macro2-1-dev (\u003e= 1.0.46-~~) \u003c!nocheck\u003e, librust-quote-1+proc-macro-dev \u003c!nocheck\u003e, librust-quote-1-dev \u003c!nocheck\u003e, librust-unicode-ident-1+default-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "60114219c88335f2b5bed29949118d074c93e850 7204 rust-syn_2.0.98-1.debian.tar.xz d018b4b364d32ee6bafbaebd8ff2b21e0c5c853e 2163 rust-syn_2.0.98-1.dsc c03c1d35a9592b166cc4f97dcfbf96285fb7c5ae 297807 rust-syn_2.0.98.orig.tar.gz"
+    "36fb12c6586c6d91448aea5dcbe173173eaa90dd 5164 rust-syn_1.0.107-1.debian.tar.xz b21b8c8df2faa0729f4d8faf3e55e0abe6aae57a 2769 rust-syn_1.0.107-1.dsc 46ee70b0df0068424d4f1562e9fb45f6c8a0bb59 237539 rust-syn_1.0.107.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "38d8126240e070d15544056e5be0e57711920d70cfe52133d32a887f7a7cf9dd 7204 rust-syn_2.0.98-1.debian.tar.xz 7cbf43feacfcd59199ea7cc04b485bcfc7d004127b9a4811c7c51f5048fb09e4 2163 rust-syn_2.0.98-1.dsc 36147f1a48ae0ec2b5b3bc5b537d267457555a10dc06f3dbc8cb11ba3006d3b1 297807 rust-syn_2.0.98.orig.tar.gz"
+    "ea1db6ba7b128d61cadc40fe4ef4e7fe6db4ca598ef9c7f72420a2451fb271ef 5164 rust-syn_1.0.107-1.debian.tar.xz cba0f643ae799f3321a36804a385f45469a59a44d5d1ff8e62832bd0b26bef95 2769 rust-syn_1.0.107-1.dsc 1f4064b5b16e03ae50984a5a8ed5d4f8803e6bc1fd170a3cda91a1be4b18e3f5 237539 rust-syn_1.0.107.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "708c4e03e59b0629053950ebfbaa7455a8d5b94950a3753d99377436d21c0a3280f0d475c4a3b66ba9aa40004a695a46d904be43ae41b267f82f80bff9477c04 7204 rust-syn_2.0.98-1.debian.tar.xz 30e2363c83105f8fe69180b4047cd2d27b1adf881fe85298a0a08c400cae83d4a85ca4c400c38d01bf0899b4ba8a6d2b2f4f9c6862e1ee54581291af9008ea16 2163 rust-syn_2.0.98-1.dsc 792dc70249d55face151b5481b0ebabbd3d290de78cff8b5dad8bee08e5a932ee22e54ca5fc5980e0b218197d19822c3672e02eb92ca74c8ac1328081d4d2cbf 297807 rust-syn_2.0.98.orig.tar.gz"
+    "9f1b1de6c3f8e32595bb737ed042dd0fd412dc767c4f0cf770b760c53367815b76780952edc897ef013c1fa8b3c750738f7ee4ccad2bb2b4e37a5383ba0a24b7 5164 rust-syn_1.0.107-1.debian.tar.xz dd4e46d8efa379f5b2518e19cdcfd4140ea8d512f857fc4d6449e60819dee46fd3199cd7aae3e9823e382e506a8e6dd7f7e8725b72245cf3a6f4e261ab498380 2769 rust-syn_1.0.107-1.dsc 58132adb76643521a6a9cbc0316431318ac25f8517bba3cbb98e7e28ed536f9e24f643e898fa21a2f74cc8c1aeafaecf9b4199b23048c7be8c0bab2fe3aa7623 237539 rust-syn_1.0.107.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-syn"
   ],
   "Files": [
-    "c8d7ec4768716dccec6fa0e69bbeaf70 7204 rust-syn_2.0.98-1.debian.tar.xz a042596ef3e35419b313a7168836b499 2163 rust-syn_2.0.98-1.dsc 8db13dd2b632de6d77872bf08771aecf 297807 rust-syn_2.0.98.orig.tar.gz"
+    "5acce562f657801a62df88894d7a6ee5 5164 rust-syn_1.0.107-1.debian.tar.xz 0908830aa8f34e41d90cbb2ecf2160eb 2769 rust-syn_1.0.107-1.dsc 8efa8e23cddda0540efe4ba8ff60840b 237539 rust-syn_1.0.107.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "https://github.com/dtolnay/syn"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -42,13 +36,13 @@
     "librust-syn-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-anyhow-1+default-dev, librust-automod-1+default-dev, librust-flate2-1+default-dev, librust-insta-1+default-dev, librust-rayon-1+default-dev, librust-ref-cast-1+default-dev, librust-rustversion-1+default-dev, librust-tar-0.4+default-dev, librust-termcolor-1+default-dev, librust-walkdir-2+default-dev, rustc"
+    "dh-cargo, librust-anyhow-1+default-dev, librust-automod-1+default-dev, librust-flate2-1+default-dev, librust-insta-1+default-dev, librust-rayon-1+default-dev, librust-ref-cast-1+default-dev, librust-regex-1+default-dev, librust-reqwest-0.11+blocking-dev, librust-reqwest-0.11+default-dev, librust-tar-0.4+default-dev, librust-termcolor-1+default-dev, librust-walkdir-2+default-dev"
   ],
   "Uploaders": [
     "nicoo \u003cnicoo@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
@@ -60,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/syn]"
   ],
   "Version": [
-    "2.0.98-1"
+    "1.0.107-1"
   ]
 }

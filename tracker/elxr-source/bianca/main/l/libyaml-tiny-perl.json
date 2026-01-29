@@ -6,28 +6,25 @@
     "libyaml-tiny-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13)"
+    "debhelper (\u003e= 10)"
   ],
   "Build-Depends-Indep": [
-    "libjson-maybexs-perl \u003c!nocheck\u003e, perl"
+    "libjson-maybexs-perl, perl"
   ],
   "Checksums-Sha1": [
-    "94af9151f15ba94bf35a9246c5f2abfc64b2133e 4260 libyaml-tiny-perl_1.76-1.debian.tar.xz 14c4dd09438703781f42da3c05ad1e4ce65c2704 2370 libyaml-tiny-perl_1.76-1.dsc 46ec63b9906df33e90f0371622135c5638c8889f 75559 libyaml-tiny-perl_1.76.orig.tar.gz"
+    "4e2513c7e5c698d5d0206ff23207e2a4609ebfb5 4104 libyaml-tiny-perl_1.73-1.debian.tar.xz b2506d8c522f73fdfc0374f597c3c58711025115 2231 libyaml-tiny-perl_1.73-1.dsc 32ee7a7d499c7d8c2b4672f9735901fb4de1ab88 73708 libyaml-tiny-perl_1.73.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a6bb4315ad76e331be4bee79c68336a74e1319ba1e5d8580f80d2110013fa4c2 4260 libyaml-tiny-perl_1.76-1.debian.tar.xz 8f6c62095126933a6d015f5cb7b8df4fd939bf34756651e6156a841d9c588884 2370 libyaml-tiny-perl_1.76-1.dsc a8d584394cf069bf8f17cba3dd5099003b097fce316c31fb094f1b1c171c08a3 75559 libyaml-tiny-perl_1.76.orig.tar.gz"
+    "0b803dc939d25bcef563d816c129893757857bbfad2d9f24f1862dd5d2093922 4104 libyaml-tiny-perl_1.73-1.debian.tar.xz a3ddcb1ebc8fc3438705f78245089bf946bc60c5629c3080defed645f610be26 2231 libyaml-tiny-perl_1.73-1.dsc bc315fa12e8f1e3ee5e2f430d90b708a5dc7e47c867dba8dce3a6b8fbe257744 73708 libyaml-tiny-perl_1.73.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "570d60599273ec2283c4f0e549b3f2e6c6ae719dfef280fa039e745273dcb5d433e95e893eefc080396f9178b17510135be6a3688d365bdd33dcc2b1825ac968 4260 libyaml-tiny-perl_1.76-1.debian.tar.xz 7bd5c89ae0dc500313dd0d8c2654915d895cb5cb473b946b72c67d28e10eea67d1b6c7179d401dac851ee5c6a5450bd92472cbf1c16c7efb6e6e7b79cdac1dd8 2370 libyaml-tiny-perl_1.76-1.dsc dff7f494bd2640b1577f793e4d8a11de381e7b928db1f62a60ce2e19636b4355df7fffb5613a496dda7e98dc404d7106d1538a0610dec210a8e922d5ec5c06a1 75559 libyaml-tiny-perl_1.76.orig.tar.gz"
-  ],
-  "Dgit": [
-    "22fd8872e6278b48d5492b0324ea46001dde8a7b debian archive/debian/1.76-1 https://git.dgit.debian.org/libyaml-tiny-perl"
+    "4c44dfffcaca62c205741ee94c3b5957da519f3c5c0850fb7200dfb08dcdab50fd3063681e88887ae8e7fc9055047373276103873d11d1711af9d7e63dd5c784 4104 libyaml-tiny-perl_1.73-1.debian.tar.xz ba5c9f747777840625730f5659217ef13ae40a028322a6d559f4712460dab16acbaa5d64d6baa30c700533712b380da767450e5738200ffe6451e004ccfa2c2c 2231 libyaml-tiny-perl_1.73-1.dsc 5999e220025aa8076e5e0e9e73e80c2da21660e77f6744d73e8e29962221d02d33a36e9829c44abf7d4f45abae069d8e121c8019bd1600b7e64db5e54efd9987 73708 libyaml-tiny-perl_1.73.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/liby/libyaml-tiny-perl"
   ],
   "Files": [
-    "55f3dc1b583bfe9015b5d8e69bb0f64f 4260 libyaml-tiny-perl_1.76-1.debian.tar.xz 2cbf4498cc8f23bff4f0a66febfa7a81 2370 libyaml-tiny-perl_1.76-1.dsc 0ba27f37b09d84720a4f257fae7045f7 75559 libyaml-tiny-perl_1.76.orig.tar.gz"
+    "b0f03de67aa6946496cc0717a4a3d1b7 4104 libyaml-tiny-perl_1.73-1.debian.tar.xz 9ac68d802bef3c762a2f3d4aca28e17e 2231 libyaml-tiny-perl_1.73-1.dsc d1bb2525e4ab46bfab4b22842c467529 73708 libyaml-tiny-perl_1.73.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +42,7 @@
     "libyaml-tiny-perl deb perl optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.1.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libyaml-tiny-perl.git"
   ],
   "Version": [
-    "1.76-1"
+    "1.73-1"
   ]
 }

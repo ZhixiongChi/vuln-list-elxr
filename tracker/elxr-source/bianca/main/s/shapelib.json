@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "shapelib, libshp-dev, libshp4"
+    "shapelib, libshp-dev, libshp2"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), ronn (\u003e= 0.9.0)"
+    "debhelper-compat (= 12), ronn (\u003e= 0.9.0)"
   ],
   "Checksums-Sha1": [
-    "559dac0b1c3c452c31cd3ba839d9db094f203024 16660 shapelib_1.6.1-1.debian.tar.xz 46405fb6f018abdf5fe333adeb5235273ad0d6b4 2084 shapelib_1.6.1-1.dsc e7272d25147a9aa2493feff253c8bd5bceea2070 1036372 shapelib_1.6.1.orig.tar.gz"
+    "533c26632a489e7f4289e348ecb0ccacfbb246cd 16060 shapelib_1.5.0-3.debian.tar.xz f4fc78716259ca9577f3a08559012ff63c4248d0 2081 shapelib_1.5.0-3.dsc f5a9ad69faab0e8e0924fe9399ce32b9b7655d5c 547686 shapelib_1.5.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "99a2351d56c3354f6596dabff5dc4c1f5de26f559bd09f6346f0a2dcad840727 16660 shapelib_1.6.1-1.debian.tar.xz 96e648333e203aad7ec0889c9a6fc326a5a1525044812882ef236470221be3c1 2084 shapelib_1.6.1-1.dsc 5da90a60e25440f108f4e8e95732bfa83ede13c8e0c2bcf80ae41006cc8ebc20 1036372 shapelib_1.6.1.orig.tar.gz"
+    "b9df27d84148e0a136bd05ac7ccdad7240a6e7223addd06ce827048ececa8b2b 16060 shapelib_1.5.0-3.debian.tar.xz cc50607e91f60fe5eb4dd028df45934d91af83b8511e411a481ce11f7e164d42 2081 shapelib_1.5.0-3.dsc 1fc0a480982caef9e7b9423070b47750ba34cd0ba82668f2e638fab1d07adae1 547686 shapelib_1.5.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "109cd3b39faef8fc95f320bcf84db7c176640ccd6fe92062694073f5096cf52492587e5d552dbf45639770d10c352621dfba9482d69c858627036c69b4577ec3 16660 shapelib_1.6.1-1.debian.tar.xz c8242593137577a36550e15e6f7f7cdfc587b407d2f50c3a283938f16faf419d50f24f18a3f743d5d21556ef00586aace76b3057de6a6433816fa0b3c9a1638d 2084 shapelib_1.6.1-1.dsc 66823f67e7c46017b16683a28d5c5783a799756d220c8ed1aa6dd7f971b41ca73dfd8c5674f214a0a35339f885b095e12b2ac52263968a6247b6895d43136e3f 1036372 shapelib_1.6.1.orig.tar.gz"
+    "d9bcda828e0e80031b8ad10ce6189df4f40dfc1cccc3ffb6c1e22cde8205e7c36aba1d10cb49557e9c892c25b9dd54d829da69043270f5ebea9fa62e1252cb0a 16060 shapelib_1.5.0-3.debian.tar.xz f95e78024c078cd4d4406dda9c5c17ad59f733dd47a5722826847460723785c7ef76ba388063f291405b0e96ac2d8103a79103904ef4bb8ddc709ba8e275fe0f 2081 shapelib_1.5.0-3.dsc 6dbd5fc7929ca403e65017ef58211f351608d9ad08221bf68bde047ceecfd27013ce731f9ae4edcfd040bc3db7fe9054b5d96e46128d2968788bef19532b1721 547686 shapelib_1.5.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/s/shapelib"
   ],
   "Files": [
-    "ae3b2db6ad0f60d9c09668e9bbe53155 16660 shapelib_1.6.1-1.debian.tar.xz fc664533dcbc89d1dd2945db8e7df2d5 2084 shapelib_1.6.1-1.dsc 39065725a4b9211e29c9e8b0dfef6deb 1036372 shapelib_1.6.1.orig.tar.gz"
+    "f5bce03d79dd86504c6fa888dd7a9755 16060 shapelib_1.5.0-3.debian.tar.xz da0101abdba9f029a10b0a2b21ac036c 2081 shapelib_1.5.0-3.dsc e397d4e7e734537ec36d0491d524b4ea 547686 shapelib_1.5.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "shapelib"
   ],
   "Package-List": [
-    "libshp-dev deb libdevel optional arch=any libshp4 deb libs optional arch=any shapelib deb graphics optional arch=any"
+    "libshp-dev deb libdevel optional arch=any libshp2 deb libs optional arch=any shapelib deb graphics optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Uploaders": [
     "Francesco Paolo Lovergine \u003cfrankie@debian.org\u003e, Bas Couwenberg \u003csebastic@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian-gis-team/shapelib.git"
   ],
   "Version": [
-    "1.6.1-1"
+    "1.5.0-3"
   ]
 }

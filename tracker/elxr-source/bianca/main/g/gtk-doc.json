@@ -6,28 +6,28 @@
     "gtk-doc-tools"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, meson"
+    "debhelper-compat (= 13), dh-python, gnome-pkg-tools (\u003e= 0.10), meson"
   ],
   "Build-Depends-Indep": [
-    "bc, dblatex, docbook-xml (\u003e= 4.3), docbook-xsl, itstool, libglib2.0-dev (\u003e= 2.6.0), libxml2-utils, pkgconf, python3-lxml, python3-parameterized, python3-pygments, xsltproc (\u003e= 1.1.15)"
+    "xsltproc (\u003e= 1.1.15), libxml2-utils, docbook-xml (\u003e= 4.3), docbook-xsl, libglib2.0-dev (\u003e= 2.6.0), pkg-config (\u003e= 0.19.0), python3 (\u003e= 3.2), python3-lxml, python3-parameterized, python3-pygments, yelp-tools, bc, dblatex"
   ],
   "Checksums-Sha1": [
-    "a589aef38f94447c556cfc9bebc032da87bcf4e3 13764 gtk-doc_1.34.0-2.debian.tar.xz ca5343aabbacdbd58cc746644cc5ab8b04827479 2381 gtk-doc_1.34.0-2.dsc b4bdfeb8511da427e3deea2f3323e0df5fd2c8bf 494116 gtk-doc_1.34.0.orig.tar.xz"
+    "4c327bccafc3c84a07e3414de239b413b0c47687 13568 gtk-doc_1.33.2-1.debian.tar.xz df4d914aafd30ae7e2eaa63f561fad6484d0facf 2467 gtk-doc_1.33.2-1.dsc d48fc5e2ca19eef9420732625cfd53e40b331baf 507852 gtk-doc_1.33.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "26f571fdd0ff0f3433831e6095f9c80aa8cfd6e9425c199321d72734957797da 13764 gtk-doc_1.34.0-2.debian.tar.xz ade0e87f02ed016119c3f78eabe18255fb8b06e602ed876ce488247ecfd0160d 2381 gtk-doc_1.34.0-2.dsc b20b72b32a80bc18c7f975c9d4c16460c2276566a0b50f87d6852dff3aa7861c 494116 gtk-doc_1.34.0.orig.tar.xz"
+    "711d00b759be8ccb91a80468959344f7dff0b1d416e5cf0b40c19bcf9cd4dbfb 13568 gtk-doc_1.33.2-1.debian.tar.xz 786c92b50c931502866494c4f79f9784a24c51f9e9b695b49b993a5a792151c9 2467 gtk-doc_1.33.2-1.dsc cc1b709a20eb030a278a1f9842a362e00402b7f834ae1df4c1998a723152bf43 507852 gtk-doc_1.33.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "febb72e8636b871fbe133ea31acf71cd88c5ca4b0560b200c52fa95acf2357329e55c1c095450be24c32e39656a4b03b5cd24cbb1fcb3089f607c776d7fe8463 13764 gtk-doc_1.34.0-2.debian.tar.xz 7236a5f9ce24814e136d0c43d95ac3713598c8fc919a9aef0752eb82b9815c1707684854e050ea3721840112e546c426730dad086c45f32924e9d8dd58bfae8c 2381 gtk-doc_1.34.0-2.dsc d962fe31949b5f7c70122c7ebbd98f4d21725697804bf5dd75fd7a6662753a91c9350fd1e8bed22a58a957b173f35e200fcbb4c7c2ebc45ccbc0db2e916b27ea 494116 gtk-doc_1.34.0.orig.tar.xz"
+    "b14292b094af1a0f3ebe641fb196808367aa2e49926e8e60abe95f7ec82462c8ed11e33a6f89569f7afcd8a8c9115dddfe48b293efd4f74373a3a394744cd140 13568 gtk-doc_1.33.2-1.debian.tar.xz ddfea03b8e726dac0ca50fccf6479f81983480d0d6dcfd18ebdbc2e4236a8898a2800d6e586fb6a72a5ef7f476aaa98a517a6e0125fa90f48f3b9093d365c71c 2467 gtk-doc_1.33.2-1.dsc f50f68ab6b4bc59f55e84b49c1481f05700171cbf79eca9ba8f3a142a30a4ba88fe096983ebb8d117a9ef8bcea40934674096683d956f5c54cae457d31f651ab 507852 gtk-doc_1.33.2.orig.tar.xz"
   ],
   "Dgit": [
-    "dc45fc9129a053d9efb56eca66b21aa44ae5cc99 debian archive/debian/1.34.0-2 https://git.dgit.debian.org/gtk-doc"
+    "1d50f3cfc2a89900ab37a5289ffdfa59324b39e0 debian archive/debian/1.33.2-1 https://git.dgit.debian.org/gtk-doc"
   ],
   "Directory": [
     "pool/main/g/gtk-doc"
   ],
   "Files": [
-    "3681e6f7ed4d959ca27ea20dcc493232 13764 gtk-doc_1.34.0-2.debian.tar.xz ced726da8f269051f08a9005ee7c7887 2381 gtk-doc_1.34.0-2.dsc f0e7385ba25eddb6ce0953e8cf63d1bf 494116 gtk-doc_1.34.0.orig.tar.xz"
+    "c6619ee6269c5126280c1da57f7688ca 13568 gtk-doc_1.33.2-1.debian.tar.xz c021cce9de6a36baa127b524b365c554 2467 gtk-doc_1.33.2-1.dsc ea6563421abe964d02135ca0d5b8dd8e 507852 gtk-doc_1.33.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,10 +45,10 @@
     "gtk-doc-tools deb gnome optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.5.1"
   ],
   "Uploaders": [
-    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Tim Lunn \u003ctim@feathertop.org\u003e"
+    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Iain Lane \u003claney@debian.org\u003e, Jeremy Bicha \u003cjbicha@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e, Tim Lunn \u003ctim@feathertop.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/gtk-doc"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/gnome-team/gtk-doc.git"
   ],
   "Version": [
-    "1.34.0-2"
+    "1.33.2-1"
   ]
 }

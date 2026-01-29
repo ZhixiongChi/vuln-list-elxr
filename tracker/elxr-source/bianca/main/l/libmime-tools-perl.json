@@ -6,28 +6,28 @@
     "libmime-tools-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libmodule-install-perl"
+    "debhelper-compat (= 13)"
   ],
   "Build-Depends-Indep": [
     "libconvert-binhex-perl \u003c!nocheck\u003e, libmailtools-perl \u003c!nocheck\u003e, libtest-deep-perl \u003c!nocheck\u003e, libtest-pod-perl \u003c!nocheck\u003e, netbase \u003c!nocheck\u003e, perl"
   ],
   "Checksums-Sha1": [
-    "db9ffc3fc565db7488a52b499dcf570bbed3f24a 7436 libmime-tools-perl_5.515-1.debian.tar.xz 22d8d27dc119889ca8fe2377f1d87013d41178e1 2634 libmime-tools-perl_5.515-1.dsc 9761c183464ca77911b21a0dd7c8d64b0a2e6eae 424146 libmime-tools-perl_5.515.orig.tar.gz"
+    "318e7ed5779ecf7fb05abda6b636b39687803ded 7032 libmime-tools-perl_5.510-1.debian.tar.xz ceff10f199ef12325c922f124cf490571faf42c5 2610 libmime-tools-perl_5.510-1.dsc d2efbb8db492b47292fadc6e5958ddbccffb2ae4 417208 libmime-tools-perl_5.510.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "f16c75e01f0e35246217d8f3fbc8520fdc2c0c51d24029a0ba782ce0c6b13e12 7436 libmime-tools-perl_5.515-1.debian.tar.xz 2ac222fce91880a74cad27925fc1e90539a7b6bb99f54ac4a29182294445d0d7 2634 libmime-tools-perl_5.515-1.dsc c1ba1dd9f0b2cd82a0e75caedec51e48233f9f01dc29a0971bdff1cb53be9013 424146 libmime-tools-perl_5.515.orig.tar.gz"
+    "0c3a6d4e49da69d56e154888dee05caf0098ef6cefaad1b79e8e01bf602b4a90 7032 libmime-tools-perl_5.510-1.debian.tar.xz 9c4bdb56f4df5d4094f8601f5917cf4522c36ddfae5eb76698e534a27230e823 2610 libmime-tools-perl_5.510-1.dsc 1bcfb4ece6ab4a6850ea1c8f3aa7405e233f50885dbdcd7bae546d52ec953cfe 417208 libmime-tools-perl_5.510.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "81dbe594f323ac0d012c3a6de90f5b0bdd47db8ebe0bcc25252d07f78be1d59845bcf35dd6a26f99db81937daecb7214481144303805c600fbd180b4f09f8179 7436 libmime-tools-perl_5.515-1.debian.tar.xz 2a094c33728ca5a8e9f8ae1ba2075abf9146aeabcd9e23439bd08739d8bb79ba3d451d3f01cd0277cb3ee33b367034a3b9668faa991508d6276bf40fe0f6d27b 2634 libmime-tools-perl_5.515-1.dsc 3a9bbc1b58762170bfb3ccdc2d5fda006fcfdb5eca6092555011819e9fd0b68f1b0a178c86dc7e95a2e6f8d89d6988b1c26823d06ca201859ddc87f9e37981db 424146 libmime-tools-perl_5.515.orig.tar.gz"
+    "58cdf6ea64c9fc3ba8b1ce96a6cf9969387a2f455d5ce58edc00bb5a8c0ee59e8a838690eb9d5c72ad5bac222927b948b848d3663f0c77ed50fae12753a816a1 7032 libmime-tools-perl_5.510-1.debian.tar.xz c751b61dbe750ab692ca1e06733fc0af1175ee9ac7f9c14d2dfed702968aa0e7308e9dd13e5d6d35ae665272e49d4375c355920eb748cc17106ac2c3a8cae246 2610 libmime-tools-perl_5.510-1.dsc 86d110cc3ed3e9744a07a7b671df713708ab70f57aea858a9570bd021102b4cea91a869239f6c40611f1b1fae190e1b6d1bd65b54914ffc3a41fdf9160977328 417208 libmime-tools-perl_5.510.orig.tar.gz"
   ],
   "Dgit": [
-    "958c78da45128fe1c3ec0e0a89431dcc4f645396 debian archive/debian/5.515-1 https://git.dgit.debian.org/libmime-tools-perl"
+    "70a8f7cbec41273f9009cb185d3164ccb2f63ded debian archive/debian/5.510-1 https://git.dgit.debian.org/libmime-tools-perl"
   ],
   "Directory": [
     "pool/main/libm/libmime-tools-perl"
   ],
   "Files": [
-    "cef375b7be322dd40406893ca5496d43 7436 libmime-tools-perl_5.515-1.debian.tar.xz 0eab8ce175cd205a860c415ad6ccd1f3 2634 libmime-tools-perl_5.515-1.dsc dbc3c9f982498c35d8a103af17c5b5c9 424146 libmime-tools-perl_5.515.orig.tar.gz"
+    "8323ebb8f91d2584fccdb0baffc52233 7032 libmime-tools-perl_5.510-1.debian.tar.xz ac659f2333d29c8e1b448b46e0817d81 2610 libmime-tools-perl_5.510-1.dsc 5f79177746057c8254246f4401ae2411 417208 libmime-tools-perl_5.510.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +45,7 @@
     "libmime-tools-perl deb perl optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libmime-tools-perl.git"
   ],
   "Version": [
-    "5.515-1"
+    "5.510-1"
   ]
 }

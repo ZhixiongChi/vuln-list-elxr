@@ -6,25 +6,22 @@
     "python3-requests-ntlm"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-cryptography, python3-flask \u003c!nocheck\u003e, python3-pyspnego, python3-pytest \u003c!nocheck\u003e, python3-requests, python3-setuptools"
+    "debhelper-compat (= 13), dh-python, python3, python3-cryptography, python3-ntlm-auth, python3-requests, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "775ee697b111bf19e8643f32208c9b0099288356 2404 python-requests-ntlm_1.3.0-1.debian.tar.xz 61e51c66ba7cefed6b78fe6bbda7033a4ac86205 2416 python-requests-ntlm_1.3.0-1.dsc f721f15d1294c517e2c0dc5fc52d630c8c1cfe30 16112 python-requests-ntlm_1.3.0.orig.tar.gz"
+    "d86e190eed9f74f54de3ee2e07b4bddac40ac0e2 2048 python-requests-ntlm_1.1.0-3.debian.tar.xz d8cdba86206e960b04c001d6689efc101db35a19 2160 python-requests-ntlm_1.1.0-3.dsc 53e848c20cea80389bbde321c3ad9a34d74dbc37 5183 python-requests-ntlm_1.1.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "58c06187b0dbd3c3e365fcdf4d1adcb39b0c7da3a047816fa9585e19303ea0b7 2404 python-requests-ntlm_1.3.0-1.debian.tar.xz 030e67f30f184539c5cc208dd25b5bde82c6aca45e92f5a24bc8d9d94667d210 2416 python-requests-ntlm_1.3.0-1.dsc b29cc2462623dffdf9b88c43e180ccb735b4007228a542220e882c58ae56c668 16112 python-requests-ntlm_1.3.0.orig.tar.gz"
+    "39fe8040a2ad5d0c26818af4affad6e8d01469915509e8bdfbdf617a5abaa15c 2048 python-requests-ntlm_1.1.0-3.debian.tar.xz 326efe47c8a296fc13dd276b0eba71ad366bf5288ace3fb1b07d95fe98eff547 2160 python-requests-ntlm_1.1.0-3.dsc 9189c92e8c61ae91402a64b972c4802b2457ce6a799d658256ebf084d5c7eb71 5183 python-requests-ntlm_1.1.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c5d77a92054217bec805e7c33ab8f2c2c67b5296480fe36ee585397ba4cb136c81490387f9346b229fb762538d5164da495ba96a8ff6bfe8987473f39d724006 2404 python-requests-ntlm_1.3.0-1.debian.tar.xz a7551e137c6242fcca013e2521ee55d8c63e3f1593b39a0ae76367286492573a2bebb2e31a89a46e92d14527059a3415d67af3960b14bd88d93859b0286539b6 2416 python-requests-ntlm_1.3.0-1.dsc f7649a708effb4f9bfaad3e76b80eb2363edc1ab209b9e5e9ce3f7355e58cc596980af0587b73e8d64d578fc892ac26a9967ece3000ec13306de6e6ff99847f7 16112 python-requests-ntlm_1.3.0.orig.tar.gz"
-  ],
-  "Dgit": [
-    "5c93fa11c76ba8338a115976df6d08a2c60e7fff debian archive/debian/1.3.0-1 https://git.dgit.debian.org/python-requests-ntlm"
+    "21a8906bd157860914aadc0237d336bf3f7b70d4314aaccf3db0e11475bfebb0253883e32904f58360eabb8bb78d4b0301f0edb446ab6fa7a6d640e34901faaf 2048 python-requests-ntlm_1.1.0-3.debian.tar.xz 9fb232747011e1f7ca91885d53778c3192a40b8ea635201e31a2c96413b981fa3ec8cfbb61edff17f20e4cd7e5d71cd14ddccb98818262ac8fa54770bd6a97d5 2160 python-requests-ntlm_1.1.0-3.dsc 9a74ecd6e4ed5c5e4381d2ee3fb9ff233352b49baa5fae4e0ecc30aaad12fc7a5c1b9dd936f35d4a3815ae7f6ec5bb8581e84128d63ff0e961181408daddb807 5183 python-requests-ntlm_1.1.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-requests-ntlm"
   ],
   "Files": [
-    "35941d606fd001c90053bfe459166961 2404 python-requests-ntlm_1.3.0-1.debian.tar.xz c02f33d07a4cfe41c8d2c20a0c105c52 2416 python-requests-ntlm_1.3.0-1.dsc 430f303715400e2274c579b7095a2116 16112 python-requests-ntlm_1.3.0.orig.tar.gz"
+    "b1f82ff2514d31fd5062ad64dd683d25 2048 python-requests-ntlm_1.1.0-3.debian.tar.xz 1383a19306367e0c94e36231853b5277 2160 python-requests-ntlm_1.1.0-3.dsc 5a30e24a55313a7b17411c890e556dfa 5183 python-requests-ntlm_1.1.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -44,9 +41,6 @@
   "Standards-Version": [
     "4.1.3"
   ],
-  "Testsuite": [
-    "autopkgtest-pkg-pybuild"
-  ],
   "Uploaders": [
     "Harlan Lieberman-Berg \u003chlieberman@debian.org\u003e"
   ],
@@ -57,6 +51,6 @@
     "https://salsa.debian.org/python-team/packages/python-requests-ntlm.git"
   ],
   "Version": [
-    "1.3.0-1"
+    "1.1.0-3"
   ]
 }

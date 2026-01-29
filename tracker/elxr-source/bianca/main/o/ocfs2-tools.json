@@ -6,22 +6,22 @@
     "ocfs2-tools, ocfs2-tools-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), po-debconf, comerr-dev, uuid-dev, libncurses-dev, libreadline-dev, libglib2.0-dev (\u003e= 2.2.3), libblkid-dev (\u003e= 1.36), libbz2-dev, libdevmapper-dev, libdlm-dev, libdlmcontrol-dev, libxml2-dev, libaio-dev, libcmap-dev"
+    "debhelper-compat (= 13), po-debconf, comerr-dev, uuid-dev, libncurses5-dev, libreadline-dev, libglib2.0-dev (\u003e= 2.2.3), libblkid-dev (\u003e= 1.36), libbz2-dev, libdevmapper-dev, libdlm-dev, libdlmcontrol-dev, libxml2-dev, libaio-dev, libcmap-dev"
   ],
   "Checksums-Sha1": [
-    "55c8f3f6c20e7e53a4776202c07adf320b57d1f0 26380 ocfs2-tools_1.8.8-3.debian.tar.xz 0447f820aaba99d636873677a5db949fcfdec89a 2329 ocfs2-tools_1.8.8-3.dsc a2b6fdb4375270005b222f84aea80a2a60c79064 1492331 ocfs2-tools_1.8.8.orig.tar.gz"
+    "afccec1deebf85b73a9dd78b078329641d561888 25296 ocfs2-tools_1.8.7-1.debian.tar.xz 20b056849d026cabd4129413185f3002cbe61dd2 2330 ocfs2-tools_1.8.7-1.dsc 5522333d60c9e6b6ac99c0eaa7028928d70b56e4 1492231 ocfs2-tools_1.8.7.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "5b796487e73ee174bab5b70267d3b96ba70fd46819e57dfa7e46ea221931f213 26380 ocfs2-tools_1.8.8-3.debian.tar.xz 6018789955507baaf5ee30beb159b985dc51124f9713c12fedc915e9d9b764f3 2329 ocfs2-tools_1.8.8-3.dsc 675b967bf209d8a2b5aeb2bfb637e0c3001cd4dc5d812129c53a566cabc2958d 1492331 ocfs2-tools_1.8.8.orig.tar.gz"
+    "7dbe152288a3b21be6481d85c8e84e9dccc0c2473c67039154de729b74368fd1 25296 ocfs2-tools_1.8.7-1.debian.tar.xz 93c875791a4fa2d246d209b27041e450f497c48066792f0c02bfbf5a429412c0 2330 ocfs2-tools_1.8.7-1.dsc d179aff691ecccf37f3045f557bd939251253499770255ef313eb5ea0d65f1f1 1492231 ocfs2-tools_1.8.7.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "6844be5b73487f5b09ef23b1a7fbb41803aefb48a14d21884466ade1be92d111a80ff2bb3485d6c91935eb33bdf3acfbb30f850d92cf36a91baa595d56a2a0e5 26380 ocfs2-tools_1.8.8-3.debian.tar.xz d2629265bd8c5f7f22f42297d8ac8b8141e1c2964b58c5c62b1d1b9a395781491b990976b06e534d7e3b2ad45be7bfaedbf3dd38826f020316e51c15fbd67868 2329 ocfs2-tools_1.8.8-3.dsc 18bde4e03db1bd29bd80d603dcc3177f0775cc37267239f17d4b1352f5e7d3772216b473a5fe4729d9687110c4b0ba4e0dd33ea9defe0a68f9aac78732343136 1492331 ocfs2-tools_1.8.8.orig.tar.gz"
+    "600118b934cb883b65b1b8bd07f18a4d8baea5350a8f6ac81af96af16331c55e80c5443e30abb44700d6d8659c589709c32ed8073d8ab6ad8c0af3cda317e7e0 25296 ocfs2-tools_1.8.7-1.debian.tar.xz b1c7b233c6af8a54330d009e2febd176da10cc7503c01297e15d5e7d825b928694a336bb968120a77044557de1197ffce31c0dbf92b754cdc93eae6c2fd1171a 2330 ocfs2-tools_1.8.7-1.dsc 10246ccb53ec1da59f2117f047bd8a9d7b4e5471e01dd262e8a694b530be2356d843f8faa6cf559f24ca39db45572d57540ee49a373b7658db23ff08c22541bb 1492231 ocfs2-tools_1.8.7.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/o/ocfs2-tools"
   ],
   "Files": [
-    "baf00ce0c9420390206fe000f260ed60 26380 ocfs2-tools_1.8.8-3.debian.tar.xz 0fb2a34618776ec7ac72e552efeb2d92 2329 ocfs2-tools_1.8.8-3.dsc a8f4bd190f7b8819ab75b29ee1b57ec0 1492331 ocfs2-tools_1.8.8.orig.tar.gz"
+    "7f87e7b69a9d83a7f66ae5ee33fe66b3 25296 ocfs2-tools_1.8.7-1.debian.tar.xz a15cd4cdc82362a4882a152c5ed8c277 2330 ocfs2-tools_1.8.7-1.dsc c4a155e7f844d38d3d08438eb9997d7f 1492231 ocfs2-tools_1.8.7.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "ocfs2-tools deb admin optional arch=linux-any ocfs2-tools-dev deb devel optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/ha-team/ocfs2-tools.git"
   ],
   "Version": [
-    "1.8.8-3"
+    "1.8.7-1"
   ]
 }

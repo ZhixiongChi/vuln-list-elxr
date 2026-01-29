@@ -6,22 +6,22 @@
     "libcairomm-1.0-dev, libcairomm-1.0-1v5, libcairomm-1.0-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), doxygen, graphviz, libboost-test-dev \u003c!nocheck\u003e, libcairo2-dev (\u003e= 1.10.0), libfontconfig-dev \u003c!nocheck\u003e, libsigc++-2.0-dev (\u003e= 2.5.1), meson (\u003e= 0.55.0), mm-common, xsltproc"
+    "debhelper-compat (= 13), dh-sequence-gnome, doxygen, graphviz, libboost-test-dev \u003c!nocheck\u003e, libcairo2-dev (\u003e= 1.10.0), libfontconfig-dev \u003c!nocheck\u003e, libsigc++-2.0-dev (\u003e= 2.5.1), meson (\u003e= 0.55.0), mm-common, xsltproc"
   ],
   "Checksums-Sha1": [
-    "3db504c877c63f465dcfe3eb1d32f3eff6ea8d94 5204 cairomm_1.14.5-2.debian.tar.xz 7b9eb2d5ef8ef60f6f61c016184232111e039284 2248 cairomm_1.14.5-2.dsc 9b0aaf15f5ea9eaa9423087384c0d2eefad90eb6 117076 cairomm_1.14.5.orig.tar.xz"
+    "fd09eb52260fa35a75980bdc02e2b79dd7a7c3a9 5208 cairomm_1.14.4-2.debian.tar.xz b3c7cf7fb961a12eba31359a37769baa8f06b03b 2300 cairomm_1.14.4-2.dsc b77ae4d93106318b0d6093dbd3fa48ce7138c638 116712 cairomm_1.14.4.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "5913dcdd4552121fbf0d9da55b5936d31378e7ca3d549d80b4bdfa06a5e6a0a1 5204 cairomm_1.14.5-2.debian.tar.xz 57aeaab53ef23b93ed2bffc5ffce0657772be3b5027fa7aec12bf9e7f6668b96 2248 cairomm_1.14.5-2.dsc 4278f9fd63dbe5904fc7b93b2b72f8812cea8eb879b2da889d66990d22179d0e 117076 cairomm_1.14.5.orig.tar.xz"
+    "49ed0aa1a4b5a6ee1ac9139af441a5b03ef523ca714b42a5db1d6d5684189a25 5208 cairomm_1.14.4-2.debian.tar.xz b03b84337718319e3910e5572f60ec9d0fa816167c0e34de1e4b88610fabef6c 2300 cairomm_1.14.4-2.dsc a967e1b0f1a41bddf45351bacb290300c837d3104af06a26a64e107bffd64a3b 116712 cairomm_1.14.4.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "71bf1dc54888e2e2e03d8108e19769b363d2aa59c6137930757e5ceff501a510a9374a3d4e1336df3fcce53972b82a4757cfda0b99e735e9eb5ca05d5f738bf5 5204 cairomm_1.14.5-2.debian.tar.xz af75520bc388463fd00af01b71d848fb394a180fb5696460083cc15a7c3a2a04877bc237d1b3f9d259c80db4a1b52b968a53c446c6a863170f02253da82839c8 2248 cairomm_1.14.5-2.dsc 6f4bce727bf7d3ad80d94af4e0d885a041b7bdc5fadc98d6a415e6a728dc28a373335637051ae28f28c97bc6a5f9e8738e4effe45813e1f755e694a9287ba2a3 117076 cairomm_1.14.5.orig.tar.xz"
+    "fdb32cc8452635c1d385b9a1295cfbd3cfe41434728a64e6da7b17dc0c4a9238c9c2aaad11b7e68915ffd1c772282ad2f95babffe2962a28d123931add86078d 5208 cairomm_1.14.4-2.debian.tar.xz a134a2b79e98a023c3a04b77e66581d286a9f46638a36c80452ec899256cd47f2fcf46978766d892cd4f8af021fe313088e4e53a7f6cc07019d44161f19005cb 2300 cairomm_1.14.4-2.dsc 2642d7a657d3482168bfc1165f136675a7bf801228926ae7ffe7ae2199a4d21ea892f10df001ce6e9696c438a9f964b1d008325502052efbc4620df5de378518 116712 cairomm_1.14.4.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/c/cairomm"
   ],
   "Files": [
-    "6f7fc160b36f41ba7bb6cc4edc21f576 5204 cairomm_1.14.5-2.debian.tar.xz d5f80510f3a6b22ae34efbe77c2c45a2 2248 cairomm_1.14.5-2.dsc 58873fa549a43bf1e55bec5034dee94f 117076 cairomm_1.14.5.orig.tar.xz"
+    "99aac5c542e99ef5542fc40a2973ec14 5208 cairomm_1.14.4-2.debian.tar.xz 6868bccca499b229b9640f1097fc5d88 2300 cairomm_1.14.4-2.dsc 00b7cbb839e31a47e69eb2c2f51ec3b8 116712 cairomm_1.14.4.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "libcairomm-1.0-1v5 deb libs optional arch=any libcairomm-1.0-dev deb libdevel optional arch=any libcairomm-1.0-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.1"
   ],
   "Uploaders": [
-    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
+    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/cairomm"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/cairomm.git"
   ],
   "Version": [
-    "1.14.5-2"
+    "1.14.4-2"
   ]
 }

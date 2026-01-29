@@ -1,36 +1,30 @@
 {
   "Architecture": [
-    "any all"
+    "any"
   ],
   "Binary": [
-    "python3-numpy, python-numpy-doc, python3-numpy-dev"
+    "python3-numpy"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, cython3:native (\u003e= 3.0), gfortran [amd64 arm64 ppc64el] \u003c!nocheck\u003e, libblas-dev [!arm !m68k], liblapack-dev [!arm !m68k], libpython3-all-dev, mypy \u003c!nocheck\u003e, ninja-build, pkgconf \u003c!nocheck\u003e, pybuild-plugin-pyproject, python3-all-dev:any, python3-charset-normalizer \u003c!nocheck\u003e, python3-hypothesis \u003c!nocheck\u003e, python3-mesonpy:native, python3-pyproject-metadata:native, python3-pytest \u003c!nocheck\u003e, python3-pytest-xdist \u003c!nocheck\u003e, python3-setuptools \u003c!nocheck\u003e, python3-typing-extensions (\u003e= 4.2.0) \u003c!nocheck\u003e, python3-tz \u003c!nocheck\u003e, tzdata-legacy \u003c!nocheck\u003e"
-  ],
-  "Build-Depends-Indep": [
-    "dh-sequence-sphinxdoc \u003c!nodoc\u003e, doxygen \u003c!nodoc\u003e, python-imageio-doc \u003c!nodoc\u003e, python-pandas-doc \u003c!nodoc\u003e, python-pytest-doc \u003c!nodoc\u003e, python-scipy-doc \u003c!nodoc\u003e, python-skimage-doc \u003c!nodoc\u003e, python3-breathe \u003c!nodoc\u003e, python3-doc \u003c!nodoc\u003e, python3-ipython \u003c!nodoc\u003e, python3-numpydoc \u003c!nodoc\u003e, python3-pickleshare \u003c!nodoc\u003e, python3-pydata-sphinx-theme \u003c!nodoc\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-copybutton \u003c!nodoc\u003e, python3-sphinx-design \u003c!nodoc\u003e"
+    "cython3 (\u003e= 0.29.30), debhelper-compat (= 11), dh-python, dvisvgm, gfortran, libblas-dev [!arm !m68k], liblapack-dev [!arm !m68k], python3-all-dev, python3-hypothesis (\u003e= 6.35.0) \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-scipy \u003c!nocheck\u003e, python3-setuptools, python3-typing-extensions (\u003e= 4.2.0) \u003c!nocheck\u003e, python3-tz \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "db6e74ef8107c9c16ce81de0fd43a4c3e0e97c12 159248 numpy_2.2.4+ds-1.debian.tar.xz 3fbf8be31b38ccaa514567d70c9ad2314c66529d 3614 numpy_2.2.4+ds-1.dsc f1358fcc0b32e98194b4389851d20139058a7fa3 15199640 numpy_2.2.4+ds.orig.tar.xz"
+    "a17963c82500f317a4025d99433bcee775f36f08 31764 numpy_1.24.2-1+deb12u1.debian.tar.xz 3da5e4353bb98b76515feacb673431679dc594a5 2645 numpy_1.24.2-1+deb12u1.dsc 9318b965d9d7b4f7a2154b0cd456f04dab89bca3 8239412 numpy_1.24.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "56460472fc26526aa3da1a4e76a2ecbc6930476ef8772d6608f725ae833e0073 159248 numpy_2.2.4+ds-1.debian.tar.xz e3b8dae928979f9e839bdea94aa0f102614e3fcfb5bd584b5f7238b54b721f64 3614 numpy_2.2.4+ds-1.dsc ac467c20fa0cc89602c2ccffef0f6c63f25e54a4fc202e66a8eea75843dc0101 15199640 numpy_2.2.4+ds.orig.tar.xz"
+    "dedaad44c788be1fe15e3bdeccea715319034872d48551b80fd06498bdd97493 31764 numpy_1.24.2-1+deb12u1.debian.tar.xz 55b5bdd7769981cfc56045ccde0768fa7a5689ac372959ea2afb218ebb796423 2645 numpy_1.24.2-1+deb12u1.dsc a7c88b0cf7c7c5ea03a76593ce4065af3beb8f50c25db6a7ee72369b2c936c65 8239412 numpy_1.24.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "b345c0fec4fa9356d9aa3deff421c88363deff90604b37f69e6b40c03835d06ed326834388ffa548aacd4f7e8a75f79267d5da35a00b43f7fed5ee47619b1e4f 159248 numpy_2.2.4+ds-1.debian.tar.xz 8d3f97da6e1c6a391f4fb50f3b59014432d9c69d5f38b726f7494a6b95c75f58950a8ec58afc43809bf0a698610cb2c5715ea42beb0add2192b15eff0e2b5381 3614 numpy_2.2.4+ds-1.dsc ba4eb2479a7388fbb0ad31e4b7a4c43657717efcbae34be47918e10d8ee63cd7687944c2b8138317150de2616f6ae945b0f81cdbc2f2bfefb1ec00dae2ce84b7 15199640 numpy_2.2.4+ds.orig.tar.xz"
-  ],
-  "Description": [
-    "Python library for numerical computations NumPy contains a powerful N-dimensional array object, sophisticated (broadcasting) functions, tools for integrating C/C++ and Fortran code, and useful linear algebra, Fourier transform, and random number capabilities."
+    "4ba9aa2c08384fefb8466ab869b098ff66a8c602640fdfb2cb8fa06c58ca0b56742d62969b35d964afae2605db3ea9bc5011de54190a0fe83a787a9bc6868ea0 31764 numpy_1.24.2-1+deb12u1.debian.tar.xz f91e590a245b63f6cdc53201fa78b52e5ff53a77975268d2351c68e8ba2c14d7f3cf8462d873927149254b83c627f4a8edc2fde278f01721ab23987e146c267f 2645 numpy_1.24.2-1+deb12u1.dsc 312c67147e5d98f28ca5cb29ba956b8ba75284fe68e2639256bfc8803ce776ac02929a0ec91efcf926494fad5dfbf25f651a854ec8a95f26163143ac0d001bdb 8239412 numpy_1.24.2.orig.tar.xz"
   ],
   "Dgit": [
-    "53c578c5de976d96c3fafe9bcc9078ca261890cb debian archive/debian/1%2.2.4+ds-1 https://git.dgit.debian.org/numpy"
+    "bcbf821c14a5baf73356012dceb009f5bd3e3058 debian archive/debian/1%1.24.2-1+deb12u1 https://git.dgit.debian.org/numpy"
   ],
   "Directory": [
     "pool/main/n/numpy"
   ],
   "Files": [
-    "f41135af35e4286e868c58bc92cf2cb4 159248 numpy_2.2.4+ds-1.debian.tar.xz 9101b27848d4aaa85b317506a3b0131c 3614 numpy_2.2.4+ds-1.dsc 809075de53494c3cfd2743b63504e184 15199640 numpy_2.2.4+ds.orig.tar.xz"
+    "608ea6ff96d530adbda8d8d4b57d8cc1 31764 numpy_1.24.2-1+deb12u1.debian.tar.xz 6cb1bd5c15b78b4581a21926843894da 2645 numpy_1.24.2-1+deb12u1.dsc 2b310457e8e0e401b4973d2fc95080f5 8239412 numpy_1.24.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,22 +33,25 @@
     "http://www.numpy.org/"
   ],
   "Maintainer": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+    "Sandro Tosi \u003cmorph@debian.org\u003e"
   ],
   "Package": [
     "numpy"
   ],
   "Package-List": [
-    "python-numpy-doc deb doc optional arch=all profile=!nodoc python3-numpy deb python optional arch=any python3-numpy-dev deb python optional arch=any"
+    "python3-numpy deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2.0"
   ],
   "Testsuite": [
-    "autopkgtest-pkg-pybuild"
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, dpkg-dev, gcc, gfortran, libatlas3-base, libfftw3-dev, libopenblas0, python3-all, python3-all-dev, python3-distutils, python3-hypothesis, python3-pytest, python3-typing-extensions, python3-tz"
   ],
   "Uploaders": [
-    "Christian Kastner \u003cckk@debian.org\u003e, Timo Röhling \u003croehling@debian.org\u003e,"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/numpy"
@@ -63,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/numpy.git"
   ],
   "Version": [
-    "1:2.2.4+ds-1"
+    "1:1.24.2-1+deb12u1"
   ]
 }

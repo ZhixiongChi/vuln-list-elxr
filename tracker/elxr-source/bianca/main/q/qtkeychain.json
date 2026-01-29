@@ -1,27 +1,30 @@
 {
   "Architecture": [
-    "any"
+    "any all"
   ],
   "Binary": [
     "libqt5keychain1, libqt6keychain1, qt5keychain-dev, qtkeychain-qt5-dev, qtkeychain-qt6-dev"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), libsecret-1-dev, pkgconf, pkg-kde-tools, qt6-base-dev [alpha amd64 arm64 armel armhf hppa hurd-amd64 hurd-i386 i386 loong64 mips64el powerpc ppc64 ppc64el riscv64 sh4 sparc64 s390x], qt6-l10n-tools [alpha amd64 arm64 armel armhf hppa hurd-amd64 hurd-i386 i386 loong64 mips64el powerpc ppc64 ppc64el riscv64 sh4 sparc64 s390x], qt6-tools-dev [alpha amd64 arm64 armel armhf hppa hurd-amd64 hurd-i386 i386 loong64 mips64el powerpc ppc64 ppc64el riscv64 sh4 sparc64 s390x], qt6-tools-dev-tools [alpha amd64 arm64 armel armhf hppa hurd-amd64 hurd-i386 i386 loong64 mips64el powerpc ppc64 ppc64el riscv64 sh4 sparc64 s390x], qtbase5-private-dev, qttools5-dev, qttools5-dev-tools"
+    "cmake, debhelper-compat (= 13), libgcrypt20-dev, libsecret-1-dev, pkg-config, pkg-kde-tools, qt6-base-dev [amd64 arm64 armel armhf hurd-i386 i386 mips64el mipsel ppc64el riscv64], qt6-l10n-tools [amd64 arm64 armel armhf hurd-i386 i386 mips64el mipsel ppc64el riscv64], qt6-tools-dev [amd64 arm64 armel armhf hurd-i386 i386 mips64el mipsel ppc64el riscv64], qt6-tools-dev-tools [amd64 arm64 armel armhf hurd-i386 i386 mips64el mipsel ppc64el riscv64], qtbase5-private-dev, qttools5-dev, qttools5-dev-tools"
   ],
   "Checksums-Sha1": [
-    "8e7ca7a33d0c7b572268f849a33eee8faadf0261 6844 qtkeychain_0.15.0-1.debian.tar.xz 7f2c59fc86d789a8568bf40017fba0bc375c5019 3156 qtkeychain_0.15.0-1.dsc 58388b28ec0f6e2504e0c168c2fed9bd63dd7221 55584 qtkeychain_0.15.0.orig.tar.gz"
+    "dedc7b66ebe90a74ecceb905c935596d84217d15 6460 qtkeychain_0.13.2-5.debian.tar.xz d9fb81103e869ce8e684419fc8471dedec6a8735 3002 qtkeychain_0.13.2-5.dsc f7faa674638956adb73b9de101c803f31ecad53d 44412 qtkeychain_0.13.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "c88352214e5c69750147268beeb1b78ca92adb3f42247a02a6e773016f96e929 6844 qtkeychain_0.15.0-1.debian.tar.xz 1a95ecc7f9430a77e99ffaaa13be8dda32c438fa3a765f73dce42d1f28526d50 3156 qtkeychain_0.15.0-1.dsc f4254dc8f0933b06d90672d683eab08ef770acd8336e44dfa030ce041dc2ca22 55584 qtkeychain_0.15.0.orig.tar.gz"
+    "3888baafed32e3c4b2135bab17ddf323c20fe1e182373a42a615e2d3182c6f98 6460 qtkeychain_0.13.2-5.debian.tar.xz cf11c05bd89eaace84e2861b00cdcb038ff078556cd889ccde3ce3bc047b05f1 3002 qtkeychain_0.13.2-5.dsc 1afd94b2d53a5934ae66b09a23d69cad294cc75f1780715439a9fef79f38e272 44412 qtkeychain_0.13.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "aa6cabd05359e1e49b0b8ed1e0c41a60c6738875d513ce5be846012179597fa3354c135d8cf86b2d63436138b3b44e1e91e832dffcc06d65fc206e951f349696 6844 qtkeychain_0.15.0-1.debian.tar.xz dec3794275a9bbfa28d67d5ee8c5b7780dad1f54be5e327d71ba8fbe19cef17bef6ce83852505354523c3d34e1b445bf66af6e4f95ef84043b78350e54c7d8a3 3156 qtkeychain_0.15.0-1.dsc b1068ae513d5eab8f300186497ddcce4075e11a2a569deddbc949177efaa27970ed7bdce0b1aff61a021144540e942f60c9259b975601a92c60b8a742754624a 55584 qtkeychain_0.15.0.orig.tar.gz"
+    "b61f494fb592485e2b5658ce21de9ee249ec763e820eccd254bcda14ba39b8cd8320684adec1bafa8394e2128a48e63effe354c61c4e1cd50874919f79d65e43 6460 qtkeychain_0.13.2-5.debian.tar.xz 54706c675a1db0e7a3cb0c58d0ad85a98926e00a5e631318dcec92686018b5d4f801305abeeeef9bcca6fe65519ade77837e13ca2de877d7b9c4c59aab7f3dc3 3002 qtkeychain_0.13.2-5.dsc ea442855e4f412b87d4d7de68d08f62aed8bff6bdf236dbc635ae87c99ea6ad476b7d88f19b9a7231886f3a631b7a2b12c505550ae64e928878f5f2108faded8 44412 qtkeychain_0.13.2.orig.tar.gz"
+  ],
+  "Dgit": [
+    "0844078bc0e5fa49248b39fb1f58326de47981a3 debian archive/debian/0.13.2-5 https://git.dgit.debian.org/qtkeychain"
   ],
   "Directory": [
     "pool/main/q/qtkeychain"
   ],
   "Files": [
-    "22a4b1dfecc0106446dfa9139bd7d604 6844 qtkeychain_0.15.0-1.debian.tar.xz 4575720d5c9c28abf62bc2da4da8a4c1 3156 qtkeychain_0.15.0-1.dsc 00b01588862ba1ed4e6cb81a959108c3 55584 qtkeychain_0.15.0.orig.tar.gz"
+    "37e1944bb6bc0b784dfea0f0cd2c363b 6460 qtkeychain_0.13.2-5.debian.tar.xz c48f3fa982e81312ecfdeec6d30043e3 3002 qtkeychain_0.13.2-5.dsc 65ce693dc33e9c262db432f1b9a30dfb 44412 qtkeychain_0.13.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,27 +33,27 @@
     "https://github.com/frankosterfeld/qtkeychain"
   ],
   "Maintainer": [
-    "Debian KDE Extras Team \u003cpkg-kde-extras@lists.alioth.debian.org\u003e"
+    "ownCloud for Debian maintainers \u003cpkg-owncloud-maintainers@lists.alioth.debian.org\u003e"
   ],
   "Package": [
     "qtkeychain"
   ],
   "Package-List": [
-    "libqt5keychain1 deb libs optional arch=any libqt6keychain1 deb libs optional arch=alpha,amd64,arm64,armel,armhf,hppa,hurd-amd64,hurd-i386,i386,loong64,mips64el,powerpc,ppc64,ppc64el,riscv64,sh4,sparc64,s390x qt5keychain-dev deb oldlibs optional arch=any qtkeychain-qt5-dev deb libdevel optional arch=any qtkeychain-qt6-dev deb libdevel optional arch=alpha,amd64,arm64,armel,armhf,hppa,hurd-amd64,hurd-i386,i386,loong64,mips64el,powerpc,ppc64,ppc64el,riscv64,sh4,sparc64,s390x"
+    "libqt5keychain1 deb libs optional arch=any libqt6keychain1 deb libs optional arch=amd64,arm64,armel,armhf,hurd-i386,i386,mips64el,mipsel,ppc64el,riscv64 qt5keychain-dev deb oldlibs optional arch=all qtkeychain-qt5-dev deb libdevel optional arch=any qtkeychain-qt6-dev deb libdevel optional arch=amd64,arm64,armel,armhf,hurd-i386,i386,mips64el,mipsel,ppc64el,riscv64"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.0"
   ],
   "Uploaders": [
     "Sandro Knauß \u003chefee@debian.org\u003e"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/qt-kde-team/extras/qtkeychain"
+    "https://salsa.debian.org/owncloud-team/qtkeychain"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/qt-kde-team/extras/qtkeychain.git"
+    "https://salsa.debian.org/owncloud-team/qtkeychain.git"
   ],
   "Version": [
-    "0.15.0-1"
+    "0.13.2-5"
   ]
 }

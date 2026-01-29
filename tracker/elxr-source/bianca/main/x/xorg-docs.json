@@ -6,25 +6,25 @@
     "xorg-docs-core, xorg-docs"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), pkgconf, xorg-sgml-doctools, docbook-xml, xutils-dev, xmlto, fop, w3m"
+    "debhelper (\u003e= 9), dh-autoreconf, quilt, pkg-config, xorg-sgml-doctools (\u003e= 1:1.8), docbook-xml, automake, autoconf, xutils-dev (\u003e= 1:7.6+2), xmlto (\u003e= 0.0.22), fop, w3m"
   ],
   "Checksums-Sha1": [
-    "6e50b04c951ce8e4b40f68087ff1a95bf1fcdefc 18320 xorg-docs_1.7.3-1.debian.tar.xz e76582f44fc7beda8ac1a9c2948d71fcf3cef704 2226 xorg-docs_1.7.3-1.dsc 060b36c9415f396270f3352a9bff5b41e9ab89ba 460052 xorg-docs_1.7.3.orig.tar.gz 1fbd65fb82f88eea4b01ccaf6a8c8ae2250b3643 833 xorg-docs_1.7.3.orig.tar.gz.asc"
+    "d3734bd3910a6b74fb3bc8889669b905a1397261 13228 xorg-docs_1.7.1-1.2.diff.gz d3d3a74e97ce3d110ab5e507d969fd9ef0cd9f4c 2015 xorg-docs_1.7.1-1.2.dsc 87abe9a03806c63a4bf3797610e7a3c30a0b9cda 499355 xorg-docs_1.7.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "25a3fbcd9afd50514f18ac0f67886264c550a75811d3d941a0ced79192abe3d5 18320 xorg-docs_1.7.3-1.debian.tar.xz cd1361ddec6d7b21765f8674b5bd8895f82dde8d0ef91267aa892015c1c672ef 2226 xorg-docs_1.7.3-1.dsc 30f8fc4b435cda82f21d08d81c2e2fc9046ec7e20945e32ab7b63326674cf8c5 460052 xorg-docs_1.7.3.orig.tar.gz 8591b4e854e58e479466008b8549d64db53add23985e85309d74af068eba7643 833 xorg-docs_1.7.3.orig.tar.gz.asc"
+    "6610cc936c174ce4934ec00183feda0143b8adb0ab360395524b9c8f4a09f73e 13228 xorg-docs_1.7.1-1.2.diff.gz 18e6b7b6031a86d4cb87715accf935a8c6b1468b99933c9ac76b14f0708b8946 2015 xorg-docs_1.7.1-1.2.dsc 360707db2ba48f6deeb53d570deca9fa98218af48ead4a726a67f63e3ef63816 499355 xorg-docs_1.7.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "61387bbf0abd630854e952011bf63689a71fa0bbf19262d94869d7155a511c2620b44ce49a1bccf3629212d4d6a86f72f576ed5a418ac0db78f96b9816914014 18320 xorg-docs_1.7.3-1.debian.tar.xz 5f9e0ed5eded74483d344bc8a719c9c6a666808c66c5d05ded16e8718daf12881c2761aed673f1fff1abcac3d32543698f8d4f6c655813bfd477361ecc609982 2226 xorg-docs_1.7.3-1.dsc 5c7bf8e0c1c9d9c5e56109620793bbc52497707edf2fc3043b7370c02dc930077783b898f5d54898a98531110053a38722ff53d9f4fe7734a2e206a040432600 460052 xorg-docs_1.7.3.orig.tar.gz 06809d27863ad7844b910bee7da931b5bcc1f2226094c6ba2f91b3d23d53e635fdbeadfc56116643280f64e2e801bfe5d26f704d6d9b42658cc34a5c0b38b45a 833 xorg-docs_1.7.3.orig.tar.gz.asc"
+    "a1301a67111e0865aa908725c014dec9d5d8b3666005b64dd78ea762e9ed0aad060723b8bbd75d11241e8b0b21691e97289abeddc40bcdd151a44aa45179e202 13228 xorg-docs_1.7.1-1.2.diff.gz 197dbc91959fb6cb3d5465cd33a123f87ca07c3a8f7f83c03d9adeda156a735cae46d04b20d66d001aced06ea8b3ed9464bdd3cc8c1112652c4066395c521d83 2015 xorg-docs_1.7.1-1.2.dsc cf8b409fcdc724bcce21370a43010964e88a1209fd51e7495343ec2e305e7bab2e0a5f075bee8aac997020653d1be95c7b9cf2c649605d27e1a61938bd18854f 499355 xorg-docs_1.7.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/x/xorg-docs"
   ],
   "Files": [
-    "a8228319952a6b6165bde4386a31da0f 18320 xorg-docs_1.7.3-1.debian.tar.xz d1459f824085dc5ef1b42cd26e73dd38 2226 xorg-docs_1.7.3-1.dsc af041e3b46404be10efdd878b068849b 460052 xorg-docs_1.7.3.orig.tar.gz 48b64508f6e200955c8fee956b5b0df6 833 xorg-docs_1.7.3.orig.tar.gz.asc"
+    "e85d4735b97cf5588997397e82b65c5a 13228 xorg-docs_1.7.1-1.2.diff.gz a28474b1deba03421e420dafda44e2a8 2015 xorg-docs_1.7.1-1.2.dsc ca689ccbf8ebc362afbe5cc5792a4abd 499355 xorg-docs_1.7.1.orig.tar.gz"
   ],
   "Format": [
-    "3.0 (quilt)"
+    "1.0"
   ],
   "Maintainer": [
     "Debian X Strike Force \u003cdebian-x@lists.debian.org\u003e"
@@ -36,15 +36,15 @@
     "xorg-docs deb doc optional arch=all xorg-docs-core deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "3.9.6"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/xorg-team/doc/xorg-docs"
+    "https://anonscm.debian.org/cgit/pkg-xorg/doc/xorg-docs.git"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/xorg-team/doc/xorg-docs.git"
+    "git://anonscm.debian.org/git/pkg-xorg/doc/xorg-docs"
   ],
   "Version": [
-    "1:1.7.3-1"
+    "1:1.7.1-1.2"
   ]
 }

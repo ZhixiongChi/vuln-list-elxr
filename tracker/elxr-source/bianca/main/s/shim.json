@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "amd64 arm64"
+    "amd64 arm64 i386"
   ],
   "Binary": [
-    "shim-unsigned, shim-helpers-amd64-signed-template, shim-helpers-arm64-signed-template"
+    "shim-unsigned, shim-helpers-amd64-signed-template, shim-helpers-i386-signed-template, shim-helpers-arm64-signed-template"
   ],
   "Build-Depends": [
     "debhelper-compat (= 12), gnu-efi (\u003e= 3.0u), sbsigntool, openssl, libelf-dev, gcc-12, dos2unix, pesign (\u003e= 0.112-5), efivar, xxd, libefivar-dev"
   ],
   "Checksums-Sha1": [
-    "5b62d9edbaad7ece7546868dfd6e6e5be42de236 59308 shim_15.8-1.debian.tar.xz 8a2d725f65087e1a6c7f012c4c70666666fef4f3 2490 shim_15.8-1.dsc cdec924ca437a4509dcb178396996ddf92c11183 2315201 shim_15.8.orig.tar.bz2"
+    "e7559e3b15883b3b8dfcfd7cd6bebe55af846381 59116 shim_15.8-1~deb12u1.debian.tar.xz 54777b393c1ee62bd69cc41a15572d95746f8b94 2631 shim_15.8-1~deb12u1.dsc cdec924ca437a4509dcb178396996ddf92c11183 2315201 shim_15.8.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "fad222c56f31a20b65753f16c66e270082295a2cccf2909686a980f19be665de 59308 shim_15.8-1.debian.tar.xz 65ca82c131a66362a0bb222497eebbca5d64ba9efd44738d7889eb0500b5e4fa 2490 shim_15.8-1.dsc a79f0a9b89f3681ab384865b1a46ab3f79d88b11b4ca59aa040ab03fffae80a9 2315201 shim_15.8.orig.tar.bz2"
+    "6c15c6111e7e40683f6aec2e8302a3ae830caa4144aba7e448553e574de30647 59116 shim_15.8-1~deb12u1.debian.tar.xz c202fbfb5de17bd6587b23bd171ea6f7f11dbce1c1b063f34a1469dbc517056e 2631 shim_15.8-1~deb12u1.dsc a79f0a9b89f3681ab384865b1a46ab3f79d88b11b4ca59aa040ab03fffae80a9 2315201 shim_15.8.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "d7947834f5a4380669edc34aa611f096f22452d85d4adeb72b092a3efd98abb4999fe148047ba730538e3c954d502e0d775846bf2862c82d75f2cf60114ed59f 59308 shim_15.8-1.debian.tar.xz a2460aec3ff92473651ac21c08b676c99e5918ff7388e87f4e50b073ab49b1be27d9d71276d4884020dc7d832142d3ac0cd70a59d4f9733c0dc5fde64121f7d2 2490 shim_15.8-1.dsc 30b3390ae935121ea6fe728d8f59d37ded7b918ad81bea06e213464298b4bdabbca881b30817965bd397facc596db1ad0b8462a84c87896ce6c1204b19371cd1 2315201 shim_15.8.orig.tar.bz2"
+    "6c01eeb89e5b881f2c3a9a4406e0d501c882eb401e48dad14e7b1bf4d37b71d9f971910b93b72ca5cc08d5d50aa8ff5fd4aad48d7880251771304823bb881bb9 59116 shim_15.8-1~deb12u1.debian.tar.xz 8e74e3bcc450c31918a7d6579488f0a14aaed10d767797d014eb961825b56356435190d5b596edd32f1f7d5279118397284d48cd2339fe06c8e684ce734d8b57 2631 shim_15.8-1~deb12u1.dsc 30b3390ae935121ea6fe728d8f59d37ded7b918ad81bea06e213464298b4bdabbca881b30817965bd397facc596db1ad0b8462a84c87896ce6c1204b19371cd1 2315201 shim_15.8.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/s/shim"
   ],
   "Files": [
-    "4689fb8317f8a9a5ca53107743d67a27 59308 shim_15.8-1.debian.tar.xz 96fd60cb002486370c4176382044041e 2490 shim_15.8-1.dsc a9452c2e6fafe4e1b87ab2e1cac9ec00 2315201 shim_15.8.orig.tar.bz2"
+    "36e1403be664711c56eb17926930aac1 59116 shim_15.8-1~deb12u1.debian.tar.xz 58394cd894da6ce30b83b1da0abcc630 2631 shim_15.8-1~deb12u1.dsc a9452c2e6fafe4e1b87ab2e1cac9ec00 2315201 shim_15.8.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -33,7 +33,7 @@
     "shim"
   ],
   "Package-List": [
-    "shim-helpers-amd64-signed-template deb admin optional arch=amd64 shim-helpers-arm64-signed-template deb admin optional arch=arm64 shim-unsigned deb admin optional arch=amd64,arm64"
+    "shim-helpers-amd64-signed-template deb admin optional arch=amd64 shim-helpers-arm64-signed-template deb admin optional arch=arm64 shim-helpers-i386-signed-template deb admin optional arch=i386 shim-unsigned deb admin optional arch=amd64,arm64,i386"
   ],
   "Standards-Version": [
     "4.6.2"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/efi-team/shim.git"
   ],
   "Version": [
-    "15.8-1"
+    "15.8-1~deb12u1"
   ]
 }

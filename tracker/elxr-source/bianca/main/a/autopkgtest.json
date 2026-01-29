@@ -6,25 +6,25 @@
     "autopkgtest"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), apt \u003c!nocheck\u003e, fakeroot \u003c!nocheck\u003e, procps \u003c!nocheck\u003e, pycodestyle \u003c!nocheck\u003e, pyflakes3 \u003c!nocheck\u003e, python3 (\u003e= 3.8), python3-cap-ng \u003c!nocheck\u003e, python3-debian \u003c!nocheck\u003e, python3-docutils"
+    "debhelper-compat (= 13), fakeroot, procps, pycodestyle | pep8, pyflakes3, python3 (\u003e= 3.3), python3-debian, python3-docutils, python3-mock"
   ],
   "Checksums-Sha1": [
-    "6e73f97ea0f49dbc8eb0635aa7037eccd60daedf 2250 autopkgtest_5.49.dsc 495b83b0fb21b3ce6035a481200b99ba0cfc1c5d 250988 autopkgtest_5.49.tar.xz"
+    "670abd9e60ea58941a485cc29d90c52ed42374c2 2028 autopkgtest_5.28.dsc 69667d8caca6c50602fade72f98ed6cb0c9f392a 207864 autopkgtest_5.28.tar.xz"
   ],
   "Checksums-Sha256": [
-    "5ea326dd3d6d9e9b84080f7e7cb52d0eda0c30b62b394631fb7d04f7a7e73eca 2250 autopkgtest_5.49.dsc 118e631c5f1d5b59bf9a2df74e7017d751b6e7eecf9ffe0d36ac7295e8d1fa79 250988 autopkgtest_5.49.tar.xz"
+    "f6cc97c99023dde1cf80f8f634f5adda6dcb9ccb0fb6415b363e281dcb018d63 2028 autopkgtest_5.28.dsc ff454745ba67d97a2109767735da6b74a319206e3abff66828bb3ad0c1f56ffb 207864 autopkgtest_5.28.tar.xz"
   ],
   "Checksums-Sha512": [
-    "53808b641e953b8c6efbaa65bd97d35bc05beb441ee22cb08c6ca3e257e8a1a5d6ffbef4344211dfc041c154a4af73160bac1dff707fc1968f3746a76e87d60a 2250 autopkgtest_5.49.dsc e3c3c6419f8a50360321d0e647420a8e47be3b90cb4c4811178850a8e2d426a7ced1556fd6f1623f2809de6aec2732ab7e1b3a1f2056734fa16288b692f1273b 250988 autopkgtest_5.49.tar.xz"
+    "f9fc894184d80b5617900da2dd7c29886d1532061b0e8a59beec51cf0960e068702185469393c8c812cc493c06c66bd647d80d44a0ee647937aecacee79fe114 2028 autopkgtest_5.28.dsc a846fb2cc22bfb8ac66046fc5fc3053ccb402ece905bf6b77e13dea89967b41b87bd7be3a73121ee5cde84d3c3025dabdd32280cda55d1872569500898b08347 207864 autopkgtest_5.28.tar.xz"
   ],
   "Dgit": [
-    "a1bb6dc6569619cf64f8693a71fdcf285b968cbb debian archive/debian/5.49 https://git.dgit.debian.org/autopkgtest"
+    "9d4bf35c79f9153fa261a7a8807e55d9c548f258 debian archive/debian/5.28 https://git.dgit.debian.org/autopkgtest"
   ],
   "Directory": [
     "pool/main/a/autopkgtest"
   ],
   "Files": [
-    "91be2ee17d86c0605941b2a45c9f0d16 2250 autopkgtest_5.49.dsc 72f0deace131d7c8957c7068443ed098 250988 autopkgtest_5.49.tar.xz"
+    "7b4e1fac16a67835b536421165b12ff9 2028 autopkgtest_5.28.dsc 6670465b4b31094c0df5dde39953e064 207864 autopkgtest_5.28.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -39,16 +39,16 @@
     "autopkgtest deb devel optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "adduser, autodep8, build-essential, buildah, ca-certificates, catatonit, debhelper, debian-archive-keyring, debootstrap, devscripts, distro-info, dnsmasq, dnsmasq-base, docker-cli, docker.io, dumb-init, fakeroot, golang-github-containernetworking-plugin-dnsname, iproute2, iptables, libpam-cgfs, lxc, lxc-templates, lxcfs, lxd, lxd-installer, mmdebstrap, passt, podman, python3-cap-ng, python3-distro-info, rsync, sbuild, schroot, slirp4netns, tini, uidmap, util-linux"
+    "adduser, autodep8, build-essential, buildah, ca-certificates, catatonit, debhelper, debootstrap, devscripts, distro-info, docker.io, dumb-init, fakeroot, golang-github-containernetworking-plugin-dnsname, iptables, libpam-cgfs, lxc, lxc-templates, lxcfs, lxd, mmdebstrap, podman, python3-distro-info, rsync, sbuild, schroot, slirp4netns, tini, uidmap, util-linux"
   ],
   "Uploaders": [
-    "Ian Jackson \u003cijackson@chiark.greenend.org.uk\u003e, Martin Pitt \u003cmpitt@debian.org\u003e, Antonio Terceiro \u003cterceiro@debian.org\u003e, Paul Gevers \u003celbrus@debian.org\u003e, Simon McVittie \u003csmcv@debian.org\u003e, Paride Legovini \u003cparide@debian.org\u003e,"
+    "Ian Jackson \u003cijackson@chiark.greenend.org.uk\u003e, Martin Pitt \u003cmpitt@debian.org\u003e, Antonio Terceiro \u003cterceiro@debian.org\u003e, Paul Gevers \u003celbrus@debian.org\u003e, Simon McVittie \u003csmcv@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/ci-team/autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/ci-team/autopkgtest.git"
   ],
   "Version": [
-    "5.49"
+    "5.28"
   ]
 }

@@ -3,25 +3,25 @@
     "all"
   ],
   "Binary": [
-    "libyaml-snake-java"
+    "libyaml-snake-java, libyaml-snake-java-doc"
   ],
   "Build-Depends": [
     "debhelper-compat (= 13), default-jdk, junit4, libcommons-lang3-java, libcommons-io-java, libjoda-time-java, libjs-jquery, libjs-jquery-ui, liblombok-java, libmaven-bundle-plugin-java, libmaven-javadoc-plugin-java, libspring-beans-java, libspring-context-java, libspring-core-java, libsurefire-java, maven-debian-helper (\u003e= 1.6.5), velocity"
   ],
   "Checksums-Sha1": [
-    "c8a9957038422fe2293671885ad443502955f6c4 10644 snakeyaml_2.0+ds+really1.33-1.debian.tar.xz fec414541c0119770eaa61d9b03f315cd170a1a2 2433 snakeyaml_2.0+ds+really1.33-1.dsc b2968dd878868d643157cda19ab8729a2a7f82dd 291972 snakeyaml_2.0+ds+really1.33.orig.tar.xz"
+    "1b133266942d3c2b4eab85c2bf3c90b913ceb1d5 10384 snakeyaml_1.33-2.debian.tar.xz 74e69a8a828fb7bd7ba975f7e14948cb4edf13ac 2567 snakeyaml_1.33-2.dsc b2968dd878868d643157cda19ab8729a2a7f82dd 291972 snakeyaml_1.33.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "e9e759f8fdd8c95dce560d8b9043a3f3e5dd08001bab5fdff91331a0c240231b 10644 snakeyaml_2.0+ds+really1.33-1.debian.tar.xz f2ccc4b0b23046e033ab890e0794bd7a90e8889ce19583d5ce925970c2afa0b0 2433 snakeyaml_2.0+ds+really1.33-1.dsc ae0817543e96991fed3460b510f1683fbb491f0863e3b76f39f809c175d36609 291972 snakeyaml_2.0+ds+really1.33.orig.tar.xz"
+    "ad8ed842ae4e7c926b3e322cce93928f71d72fb3a6851ca1731a2546085e778d 10384 snakeyaml_1.33-2.debian.tar.xz 14d7c43c1d801037b7c900bc693d561c2f6408a57079bc3927a587980817796c 2567 snakeyaml_1.33-2.dsc ae0817543e96991fed3460b510f1683fbb491f0863e3b76f39f809c175d36609 291972 snakeyaml_1.33.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "e330053677ad5e8505031b341ad7818e4cc32213e438c10453a0302a5e8f2b9e522bac3ee6b224ce8db1c6907a613ded327b99e634c1801a503e85f4bfdf41a8 10644 snakeyaml_2.0+ds+really1.33-1.debian.tar.xz 2724444e4984f9421fbf504ad4c0ba23d63f9024af04f02f6c1420473b6c28d8702c6d354a9deac410cfd9d3cd93b36344007bf709b353feff7487df171350f7 2433 snakeyaml_2.0+ds+really1.33-1.dsc 4f765db886a3ddf9b7c281a6157ff649e27d7aa8c71864b688bdb82044ed210358f1107e9146ac8d6cacab9ce9979d0e72d21765ff7c8cd0f4770950619250a2 291972 snakeyaml_2.0+ds+really1.33.orig.tar.xz"
+    "648aea1c46d3ae27bf63dd55c82052cdf132480675849bdb526bd7e4a763481c37013c0d440395267988fb3b3f0718051162cadf7517f72ddb6e52581d5a6f3b 10384 snakeyaml_1.33-2.debian.tar.xz ab588765bec391685d8d020d8876e12267056c1e020c6038af496858e917fc48623582e490765d9d36a0ca8cf0f60a8a397ca5684f7eba973d074a8a70adc88d 2567 snakeyaml_1.33-2.dsc 4f765db886a3ddf9b7c281a6157ff649e27d7aa8c71864b688bdb82044ed210358f1107e9146ac8d6cacab9ce9979d0e72d21765ff7c8cd0f4770950619250a2 291972 snakeyaml_1.33.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/s/snakeyaml"
   ],
   "Files": [
-    "130dd9adef7977af17d4341ef1635bbe 10644 snakeyaml_2.0+ds+really1.33-1.debian.tar.xz e24b80295fd4606d6fc85c3725be8b04 2433 snakeyaml_2.0+ds+really1.33-1.dsc 15b9a3a88a1db9790f86f2463dfba2c1 291972 snakeyaml_2.0+ds+really1.33.orig.tar.xz"
+    "50a6ce40ac0a690b09505c31923e0fdd 10384 snakeyaml_1.33-2.debian.tar.xz 92b9f6c7b2a33395914816ab021dd3d4 2567 snakeyaml_1.33-2.dsc 15b9a3a88a1db9790f86f2463dfba2c1 291972 snakeyaml_1.33.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "snakeyaml"
   ],
   "Package-List": [
-    "libyaml-snake-java deb java optional arch=all"
+    "libyaml-snake-java deb java optional arch=all libyaml-snake-java-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Uploaders": [
     "Stefan Denker \u003cStefan+Debian@dn-kr.de\u003e , Hilko Bengen \u003cbengen@debian.org\u003e , Mechtilde Stehmann \u003cmechtilde@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/java-team/snakeyaml.git"
   ],
   "Version": [
-    "2.0+ds+really1.33-1"
+    "1.33-2"
   ]
 }

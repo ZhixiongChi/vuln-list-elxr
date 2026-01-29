@@ -6,22 +6,22 @@
     "python3-markdown, python-markdown-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, mkdocs (\u003e= 1.5) \u003c!nodoc\u003e, mkdocs-gen-files \u003c!nodoc\u003e, mkdocs-literate-nav \u003c!nodoc\u003e, mkdocs-nature (\u003e= 0.6) \u003c!nodoc\u003e, mkdocs-section-index \u003c!nodoc\u003e, mkdocstrings \u003c!nodoc\u003e, mkdocstrings-python-handlers (\u003e= 1.10.8~) \u003c!nodoc\u003e, pybuild-plugin-pyproject, python3-all, python3-doc, python3-packaging, python3-pygments, python3-setuptools (\u003e= 61.2), python3-tidylib, python3-yaml"
+    "debhelper-compat (= 13), dh-sequence-python3, mkdocs \u003c!nodoc\u003e, mkdocs-nature \u003c!nodoc\u003e, python3-all, python3-packaging, python3-pygments, python3-setuptools (\u003e= 47.3), python3-tidylib, python3-yaml"
   ],
   "Checksums-Sha1": [
-    "57e6595fd8adc6e72f2a263d7336ff6f458237da 10616 python-markdown_3.7-2.debian.tar.xz d08fd807ade2856e84ac019683e73c35d01217e8 2622 python-markdown_3.7-2.dsc 68f0c774e340c2e2525d62fbd097e5dbbda86e58 357086 python-markdown_3.7.orig.tar.gz"
+    "0d2ee70d8e2ab4398c9ce6fbe6650b989c2c40e5 9668 python-markdown_3.4.1-2.debian.tar.xz d6a3577f781a92acd1d0806abdeb00c9169764cd 2384 python-markdown_3.4.1-2.dsc 59a639713b4a5c9d4bd2b1aa18d68bfdada5796c 322554 python-markdown_3.4.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "f882e3d47008575f1851e35ff9ed3da9f75e8712851d6e112b5e1381165aa96c 10616 python-markdown_3.7-2.debian.tar.xz 23e8cff4e123a837cf0f7f843734bb95eb9bdf42c14bdb60ac6dc6e5abbf06cd 2622 python-markdown_3.7-2.dsc 2ae2471477cfd02dbbf038d5d9bc226d40def84b4fe2986e49b59b6b472bbed2 357086 python-markdown_3.7.orig.tar.gz"
+    "9ed4f3a95853fbfdf405e646d87b2052964edcc808961592f37144c1f90272bc 9668 python-markdown_3.4.1-2.debian.tar.xz 59874b9cba206b50aaf6882b1068589bbfd9d10bcedfde6f07201577e82d6699 2384 python-markdown_3.4.1-2.dsc 3b809086bb6efad416156e00a0da66fe47618a5d6918dd688f53f40c8e4cfeff 322554 python-markdown_3.4.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e638b00c59cb0b84308df5b94910101d3b2b46e56b4f337734abdb1601fcac771c0cd633a6a2046febfd92ad5eed0220002198c5db4ad2f5e69486fd3d769649 10616 python-markdown_3.7-2.debian.tar.xz 261c051795885dab1432b61a29bc631cff77c8036a9bfa7b62e1c3d43640f1c1259e28d9b0b5af12cbe7e0ed905f96c66d67ca9ffef40daf2633ebd0b821fe9a 2622 python-markdown_3.7-2.dsc 9152ae942dfe5c93f29d4f083d7b04fa86f042a816b7a1360f6088cd5ea0fc730e14915a8fc48f6d36f74bc311ddc35dbfe1f78ef85779f285aa35a1e56caae1 357086 python-markdown_3.7.orig.tar.gz"
+    "aa937dec0a5ed6284bab82b853d69b52a8f5c164600a045f6c7bb261c6ee9a6cff49962af3da0fe1b554c8ff021e11fa1953a08e13b115a8d84f34fb2de76ea4 9668 python-markdown_3.4.1-2.debian.tar.xz 599ac4d2a2edfd0956ec0a4c2f8cc41283e7d8df1d37df2c3d48290cc117ff638680fc5d7204edd5e09bcb8b2e58a5d2f660d595eb484f6df0ae4752c7edaba8 2384 python-markdown_3.4.1-2.dsc 73b0006ac8aaf281a2dbc2c14534853dbb7ab26a620f3961975279feb83334b6868fa4bbcd30767189201a0c84e502dacd16783de3808393699ace0cbaab30a8 322554 python-markdown_3.4.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-markdown"
   ],
   "Files": [
-    "db8930f05767a05ebe013a84c2bed197 10616 python-markdown_3.7-2.debian.tar.xz 023110e8a57912297f20dc685fb44c10 2622 python-markdown_3.7-2.dsc de4cdc6db368c7386f733d6dd8c858b1 357086 python-markdown_3.7.orig.tar.gz"
+    "c2c9bfa87da717270106cfcdf34b6c46 9668 python-markdown_3.4.1-2.debian.tar.xz e5226ebbf5bebbb481e3e94c50332276 2384 python-markdown_3.4.1-2.dsc 597656cf4feadf1998b0511201620202 322554 python-markdown_3.4.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python-markdown-doc deb doc optional arch=all profile=!nodoc python3-markdown deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-markdown.git"
   ],
   "Version": [
-    "3.7-2"
+    "3.4.1-2"
   ]
 }

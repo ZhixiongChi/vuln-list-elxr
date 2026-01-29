@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libaec0, libsz2, libaec-dev"
+    "libaec0, libsz2, libaec-dev, libaec-tools"
   ],
   "Build-Depends": [
     "debhelper-compat (= 13), dh-buildinfo, unzip"
   ],
   "Checksums-Sha1": [
-    "a63fffe9782b8397d0cda645a91641a5a8ff7115 2012244 libaec_1.1.3-1.debian.tar.xz b203d5c3e670e670bbb8a5ee5edafb7a59083f04 1972 libaec_1.1.3-1.dsc cf3dbad00272205335d73b0329fdfaa7f2525566 2376600 libaec_1.1.3.orig.tar.xz"
+    "373dc9f4d0d2cf2f080e0a358d21b0d70e7d048b 2012124 libaec_1.0.6-1.debian.tar.xz 0aeb9020bebe9c73cf51db3730f6da5866ee2337 2028 libaec_1.0.6-1.dsc 2b2465d7cbd3fcfc4fc9f6b81d8a730353b043aa 2370180 libaec_1.0.6.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "92c4ce74e447972b1b1c2b0cc172401f8a676936e7862dc282441c0fc8275a21 2012244 libaec_1.1.3-1.debian.tar.xz b98b5ec7c171c5a6103f34504a166a3fe3e96f53f5f3be000734e73b7aff2546 1972 libaec_1.1.3-1.dsc 8f2d65a34f2d9155e30defada470a1ad8d85eb727e2ea15fbf083d4aa560636d 2376600 libaec_1.1.3.orig.tar.xz"
+    "1cbcf867c3fa5c256bd880d9fe9db7615c57716045b168ef817176950df68b0b 2012124 libaec_1.0.6-1.debian.tar.xz 5ee8e172f4d34b43acd8c526dd762caffdfdd285f8859daab5963c3cc39f1b2d 2028 libaec_1.0.6-1.dsc f221ce884dcbfcda7194bf25a3fccb6c8b55a3a8fee302897dd548c4a3c7ff9c 2370180 libaec_1.0.6.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "a439e645e23b7abb335de61639ec12c93d46337b4be6b0e96f9ae1fea9b42927e5f6038854663bff09f244877bc8cccc6e9dfe68fa0b4d1341e700cad8282e6d 2012244 libaec_1.1.3-1.debian.tar.xz 44b07fb6f6a1163e7606bf3108365488478952061a2b4985f8584ef46d50d49e543595c3a2496bf61832c20822636ab9c15fb823154ec0f189730dfdb288438c 1972 libaec_1.1.3-1.dsc 304ea8e703f38f80725252f01f04afb6e2f369f264e99261bf93488d6545735d352d3f4231bdeb729b43f0e02968d094ceb5b0b509f150ca094adad94ded9389 2376600 libaec_1.1.3.orig.tar.xz"
+    "aa4df403553943bf533825d84d0c58340d6c4e145ecaec88dcb33b81a60e93a7206a08576678be0284516852748bce3305eaaf7149fd0c767f791ca37c435020 2012124 libaec_1.0.6-1.debian.tar.xz f70584f1ee8e01cfdca4ecf42cc4b532b15eba54e9f11e8b25b75bb935e566f0c0ec2e899ca74cf3fddf8f4de94c716528fcbb58f1315659ecafbea3545d1d7d 2028 libaec_1.0.6-1.dsc 98ca479a197a94470c702a96b430f5b19512b20abd416ffa5ebbdd546cf678d20c6bf19690c0906574cf17d0aecf4750a938a77002174b80ecca426d15c0a921 2370180 libaec_1.0.6.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/liba/libaec"
   ],
   "Files": [
-    "7a958f272eb60a221f07e6eba3818aec 2012244 libaec_1.1.3-1.debian.tar.xz d67acfbf0264897c3b8066df911a9395 1972 libaec_1.1.3-1.dsc 13fd67694c17a02fe83ce2cf300fd4de 2376600 libaec_1.1.3.orig.tar.xz"
+    "a33ad271d9992686818c057b49e05a06 2012124 libaec_1.0.6-1.debian.tar.xz be161c1e5db85cd2a1944a466511f26a 2028 libaec_1.0.6-1.dsc 89d055c2c92aacff7cd6549e19b08cdc 2370180 libaec_1.0.6.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "libaec"
   ],
   "Package-List": [
-    "libaec-dev deb libdevel optional arch=any libaec0 deb libs optional arch=any libsz2 deb libs optional arch=any"
+    "libaec-dev deb libdevel optional arch=any libaec-tools deb utils optional arch=any libaec0 deb libs optional arch=any libsz2 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.0"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/science-team/libaec"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/science-team/libaec.git -b debian/latest"
   ],
   "Version": [
-    "1.1.3-1"
+    "1.0.6-1"
   ]
 }

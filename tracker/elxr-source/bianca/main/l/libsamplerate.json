@@ -1,36 +1,33 @@
 {
   "Architecture": [
-    "any"
+    "any all"
   ],
   "Binary": [
-    "libsamplerate0, libsamplerate0-dev"
+    "libsamplerate0, libsamplerate0-dev, samplerate-programs"
   ],
   "Build-Depends": [
     "debhelper-compat (= 13), libfftw3-dev, libsndfile1-dev, pkg-config"
   ],
   "Checksums-Sha1": [
-    "3e51cfa95ce92c0d670ec8c16c3f5870618c8816 7360 libsamplerate_0.2.2-4.debian.tar.xz b862ba544538a8697cf7afdf0831ca7038ae3c0b 2274 libsamplerate_0.2.2-4.dsc da7097e81989d8443cd7ef72dc21e74d165f97c3 3954784 libsamplerate_0.2.2.orig.tar.gz"
+    "dfae07d470634cd7b2e49f0fdc383bab419e03b0 7504 libsamplerate_0.2.2-3.debian.tar.xz e4470dd421a64f034abdb6271c7189fb24a6b521 2206 libsamplerate_0.2.2-3.dsc da7097e81989d8443cd7ef72dc21e74d165f97c3 3954784 libsamplerate_0.2.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "ef1987b0d87a79da66b5dfec3c00f3c2e84f658ccaa7025aa885f4f97e7beb9a 7360 libsamplerate_0.2.2-4.debian.tar.xz 7c7569543c52f5317349fe369190e7d6b7c39c880a7fe4ee8b0c2cca7277ea34 2274 libsamplerate_0.2.2-4.dsc 16e881487f184250deb4fcb60432d7556ab12cb58caea71ef23960aec6c0405a 3954784 libsamplerate_0.2.2.orig.tar.gz"
+    "000ad52f38082f5a954595de96ee54c09d7af2995df28b03fe54183302ecfcb8 7504 libsamplerate_0.2.2-3.debian.tar.xz 364aee9f8033c795cecbb3cbc1659f795487f535d3523bc4ec6f3790ba66c74f 2206 libsamplerate_0.2.2-3.dsc 16e881487f184250deb4fcb60432d7556ab12cb58caea71ef23960aec6c0405a 3954784 libsamplerate_0.2.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8b783145a7ae13c856263315f26212978bfb12375756d8c7172da5d1572a52b793d9acb07041f69e2565215c48b834110af0de21c5fb8393f4c5ed320538c9a8 7360 libsamplerate_0.2.2-4.debian.tar.xz f196414eafc1097fe151b838bd3d054d696428d23c482f8770cec083e79f8068c95ef787cf903c008fee944ecc609bc6c0bcd14fc9b07666adcd9472fe00dd97 2274 libsamplerate_0.2.2-4.dsc 37e0fd604907caf978659466289315befd66eec16c21a94e0b6106de18ffe803fbf2e7f3a8fb0430b33c0b784ecd6d4eaf3b9a862ed2670104647decbee913d6 3954784 libsamplerate_0.2.2.orig.tar.gz"
-  ],
-  "Dgit": [
-    "2b867f5a9bb94ec27c33652a2c44f7c91bc6da54 debian archive/debian/0.2.2-4 https://git.dgit.debian.org/libsamplerate"
+    "4c18f9cef9480c1363d19fba5c0509ed34e5cc062875640e2572c72721a221e861ce7b946e3caab3a4359af7486d7bc2a5d3903163bf8eb656adbc249131b219 7504 libsamplerate_0.2.2-3.debian.tar.xz 770eabf398abc4cf72417d45037e4cacb4494f430edf34a925d474f9c94ca06cc1c8439c76073b92a2e834d7904f2420405e95ed45ba0b86d9051caedfe99ab7 2206 libsamplerate_0.2.2-3.dsc 37e0fd604907caf978659466289315befd66eec16c21a94e0b6106de18ffe803fbf2e7f3a8fb0430b33c0b784ecd6d4eaf3b9a862ed2670104647decbee913d6 3954784 libsamplerate_0.2.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libs/libsamplerate"
   ],
   "Files": [
-    "befd67f7cf6192bc31bee7830f7ac045 7360 libsamplerate_0.2.2-4.debian.tar.xz b42bbab2653b3a6f72f8a1af88db9346 2274 libsamplerate_0.2.2-4.dsc b0d537a8c0bb36f8192ce551df9fd8a0 3954784 libsamplerate_0.2.2.orig.tar.gz"
+    "9eb5dad5c520cc86f702a93e53bd2953 7504 libsamplerate_0.2.2-3.debian.tar.xz 0442f730614da5afa33088d578a8ecbe 2206 libsamplerate_0.2.2-3.dsc b0d537a8c0bb36f8192ce551df9fd8a0 3954784 libsamplerate_0.2.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://libsndfile.github.io/libsamplerate/"
+    "http://www.mega-nerd.com/SRC/"
   ],
   "Maintainer": [
     "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
@@ -39,10 +36,10 @@
     "libsamplerate"
   ],
   "Package-List": [
-    "libsamplerate0 deb libs optional arch=any libsamplerate0-dev deb libdevel optional arch=any"
+    "libsamplerate0 deb libs optional arch=any libsamplerate0-dev deb libdevel optional arch=any samplerate-programs deb oldlibs optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.1"
   ],
   "Uploaders": [
     "IOhannes m zmölnig (Debian/GNU) \u003cumlaeute@debian.org\u003e,"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/multimedia-team/libsamplerate.git"
   ],
   "Version": [
-    "0.2.2-4"
+    "0.2.2-3"
   ]
 }

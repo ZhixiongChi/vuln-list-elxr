@@ -6,22 +6,22 @@
     "python3-winrm"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3, python3-pytest, python3-requests, python3-requests-ntlm, python3-setuptools, python3-xmltodict"
+    "debhelper-compat (= 13), dh-python, python3, python3-mock, python3-pytest, python3-requests, python3-requests-ntlm, python3-setuptools, python3-six, python3-xmltodict"
   ],
   "Checksums-Sha1": [
-    "c59d5177c343f0cf19ac1601675830642c999ca2 3908 pywinrm_0.5.0-2.debian.tar.xz 3959381f39e3fd11d527e7c98ef31a8078aaa76a 2144 pywinrm_0.5.0-2.dsc 5cc9f595f2bfdef363160e7437e793802881841c 41674 pywinrm_0.5.0.orig.tar.gz"
+    "7697ec806e4c8f2fae0aaee6b4a539bcad05a6cf 3524 pywinrm_0.3.0-4+deb12u1.debian.tar.xz 8c8c064202789f470fcd34c96dc02c1bda008e1d 2153 pywinrm_0.3.0-4+deb12u1.dsc 239211ecb78197d1f995763387c3899d65e29264 25175 pywinrm_0.3.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "63ac1582fccfa377513f2eb39ec87da2258be2fa56ae8eb242d3d973c697131f 3908 pywinrm_0.5.0-2.debian.tar.xz a3b43de477e3a1a495fb0dec65e190d4ed1977a55cf5d745722a17a5a777c944 2144 pywinrm_0.5.0-2.dsc adf8b1e984dd90d0589aa4c736edd4730efab272357e204cf7185b87dcf49973 41674 pywinrm_0.5.0.orig.tar.gz"
+    "f24ffb55671189f088009d3ad7758316c142d6c030d7d4a8eb6c303703e26315 3524 pywinrm_0.3.0-4+deb12u1.debian.tar.xz 3788dc411a054931979c50b60c4ccd271e4dd3716d5a85fe0f828a0c75c22a05 2153 pywinrm_0.3.0-4+deb12u1.dsc 799fc3e33fec8684443adf5778860388289102ea4fa1458f1bf307d167855573 25175 pywinrm_0.3.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8bca8ad5650d0b7fa815cf4d30237126b2e63b0268a2f7f9c851229cbc70eda7c64ef76764cedde6c188920533b1f8291223ff691d7fac61ddb5d85ddc2e388d 3908 pywinrm_0.5.0-2.debian.tar.xz 68efbfa7760f00f84c5b4d10927d4097b3674ded790a254a0519b6aa8043da2708e98512512856364886bf11a488c0e9a758757e4c1e6e573e6d17dd43b21473 2144 pywinrm_0.5.0-2.dsc cbc7b4816ffa59ff6b6ecbb23a1a2be7b5a46cd054f63592398fe6397ff6ccdf21b813355631a11e8aa780bce686e287fe9497aaa2318a7e0ce8f04a08a86512 41674 pywinrm_0.5.0.orig.tar.gz"
+    "87bda8cb4821f4e3a0516ff7e3972050190c5c54a7460122f298f468a9c5e0f64d51c6a209f2ed55173ca1622c5780ada1d5d06ee4abf347e70e20df1cb3c8ad 3524 pywinrm_0.3.0-4+deb12u1.debian.tar.xz 80cd7125ca8e42de758aa763252959b2951d8349430c5fe2565d2a399f9bd086aae5008e5e53a061bba3d4e769b49c15fed286ff34b196c91e2ff57dfb5f6777 2153 pywinrm_0.3.0-4+deb12u1.dsc 4a6ec3e5cc4b9030275454d846fa4356f444481fe798f013f2be4dbfd4974f11ab2ccaabbc749f6e64fda985324ce6ffb1af906cdca02d2e2cb606d10bb94d02 25175 pywinrm_0.3.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/pywinrm"
   ],
   "Files": [
-    "6e4058132491fbab7ce926ab3de7e862 3908 pywinrm_0.5.0-2.debian.tar.xz 30598d2d74a0b0c4a18def9b60aaf24b 2144 pywinrm_0.5.0-2.dsc a48c93b422319ce36a5d98daadff2b4d 41674 pywinrm_0.5.0.orig.tar.gz"
+    "79ea3e4e6cf9bcd7e6cf676882b62e3e 3524 pywinrm_0.3.0-4+deb12u1.debian.tar.xz 698bce368209044d5c05ec7733912e23 2153 pywinrm_0.3.0-4+deb12u1.dsc 2e097509b7ddd5c08f8249ec5c23506b 25175 pywinrm_0.3.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "python3-winrm deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.1.3"
   ],
   "Testsuite": [
-    "autopkgtest-pkg-pybuild"
+    "autopkgtest-pkg-python"
   ],
   "Uploaders": [
     "Harlan Lieberman-Berg \u003chlieberman@debian.org\u003e"
@@ -51,9 +51,9 @@
     "https://salsa.debian.org/python-team/packages/python-winrm"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/python-team/packages/python-winrm.git"
+    "https://salsa.debian.org/python-team/packages/python-winrm.git -b bookworm"
   ],
   "Version": [
-    "0.5.0-2"
+    "0.3.0-4+deb12u1"
   ]
 }

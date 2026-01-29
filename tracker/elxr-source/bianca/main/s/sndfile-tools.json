@@ -6,25 +6,25 @@
     "sndfile-tools"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libasound2-dev [linux-any], libcairo2-dev, libfftw3-dev, libjack-dev | libjack-jackd2-dev, libsamplerate0-dev, libsndfile1-dev, pkgconf"
+    "autogen, debhelper-compat (= 13), libasound2-dev [linux-any], libcairo2-dev, libfftw3-dev, libjack-dev | libjack-jackd2-dev, libsamplerate0-dev, libsndfile1-dev, pkg-config"
   ],
   "Checksums-Sha1": [
-    "aaaaf14ad358814b0ec9b049fc10a267b7100154 5028 sndfile-tools_1.5-4.debian.tar.xz 3201fbf21b5d37f6007875ca2e4ec3e5499526a1 2365 sndfile-tools_1.5-4.dsc db89186f0604637cdc5089caf2bb7b2e1ad73c49 454994 sndfile-tools_1.5.orig.tar.gz"
+    "f7e6c815ff81728f2c32a3d62ad8e8c5a4745fee 4944 sndfile-tools_1.5-2.debian.tar.xz 0e736a63b03bb86764f857a6094e9b1714c5dc20 2377 sndfile-tools_1.5-2.dsc db89186f0604637cdc5089caf2bb7b2e1ad73c49 454994 sndfile-tools_1.5.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "d8d963b190f1cb3d65131fd48b04fdd6d7e67e4db80c1d6ed4f4c29aa8cc9a73 5028 sndfile-tools_1.5-4.debian.tar.xz af0734241554d6babe5398117876713151af686c57ad7a579968cc0f08bf4b12 2365 sndfile-tools_1.5-4.dsc 85b6daeb2e3a7ba739fd727fd5e9c39ed25b4ff5f90b976ca4bb44b73ed77c8c 454994 sndfile-tools_1.5.orig.tar.gz"
+    "a446acd36aed6cef42802d95251c21213ee639b2a1505fb9fe7effa6598c1ae7 4944 sndfile-tools_1.5-2.debian.tar.xz 6717d2e116078ee7184cd9559a9f5227fea855895cd8f7b8150bf738ed74b1e0 2377 sndfile-tools_1.5-2.dsc 85b6daeb2e3a7ba739fd727fd5e9c39ed25b4ff5f90b976ca4bb44b73ed77c8c 454994 sndfile-tools_1.5.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f8c7c4725603b114c1217ca51ee4dab299d5c06e574c66bfcc5e810d594a5e4023758705b3457d77a344d0baf1061c751799a4001031a950ee9799bf5e690ce1 5028 sndfile-tools_1.5-4.debian.tar.xz cd9d89adc170e2fbed99a8904a5060c0ad2a7461fb92e8634fc1ec9682dc34a75507786c2b7822b1fa79d02b6ef6636b38f59f9a3fb3a8e92159d03399209633 2365 sndfile-tools_1.5-4.dsc e75e3caa31980c3ebbc4192707160b6922b0de2e0e3e5eda2547a892c6c27d0aab5dd7169a3fd06a965a1e593598ac3e5a21a361d34d803b89598ec25bfd81fc 454994 sndfile-tools_1.5.orig.tar.gz"
+    "b076d23d98e60e9233c674a78c3a694ef0a975540104c75ae1d9351e23f18290d500bcf81bedccbf2c83e0e9e4dc01f9cf58882c3b6f1a8d6a6ee92c7df0732a 4944 sndfile-tools_1.5-2.debian.tar.xz 661a32ca65761f447f58769580b6ade259e1641a4c1910d55f025fc35bfdd3a6dd711312621948e094f54923240bec88d795f9f4239c380e3a089d8bf37cfab5 2377 sndfile-tools_1.5-2.dsc e75e3caa31980c3ebbc4192707160b6922b0de2e0e3e5eda2547a892c6c27d0aab5dd7169a3fd06a965a1e593598ac3e5a21a361d34d803b89598ec25bfd81fc 454994 sndfile-tools_1.5.orig.tar.gz"
   ],
   "Dgit": [
-    "316396d464f463f431aa6158008f9e866bcc620c debian archive/debian/1.5-4 https://git.dgit.debian.org/sndfile-tools"
+    "37bf21390b4a51ccfb36cfc7adaca64663ad2f68 debian archive/debian/1.5-2 https://git.dgit.debian.org/sndfile-tools"
   ],
   "Directory": [
     "pool/main/s/sndfile-tools"
   ],
   "Files": [
-    "99b35d076c4972e280385ac3aaa40d51 5028 sndfile-tools_1.5-4.debian.tar.xz 79c041b1df7f2f01d77935246a368c90 2365 sndfile-tools_1.5-4.dsc 2229253c0986820f90bb9284d6ee5c33 454994 sndfile-tools_1.5.orig.tar.gz"
+    "d76c62e9e4a9b700f687d803651cb7da 4944 sndfile-tools_1.5-2.debian.tar.xz 1d9bf15e68e029de5a356b840e19ac04 2377 sndfile-tools_1.5-2.dsc 2229253c0986820f90bb9284d6ee5c33 454994 sndfile-tools_1.5.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "sndfile-tools deb sound optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/multimedia-team/sndfile-tools.git"
   ],
   "Version": [
-    "1.5-4"
+    "1.5-2"
   ]
 }

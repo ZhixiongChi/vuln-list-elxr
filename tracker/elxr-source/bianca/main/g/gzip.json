@@ -1,27 +1,30 @@
 {
   "Architecture": [
-    "any"
+    "any all"
   ],
   "Binary": [
-    "gzip"
+    "gzip, gzip-win32"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), texinfo, less"
+    "debhelper (\u003e= 11), texinfo, autoconf, automake, less"
+  ],
+  "Build-Depends-Indep": [
+    "mingw-w64"
   ],
   "Checksums-Sha1": [
-    "7d5ff42897e8e282e367711a05ab86631d969dd1 19028 gzip_1.13-1.debian.tar.xz 3efd8f24700aab332bcb0b9e7efa9dbf938c235b 1884 gzip_1.13-1.dsc a793e107a54769576adc16703f97c39ee7afdd4e 838248 gzip_1.13.orig.tar.xz 73c59006eaff07773ae39306a976e76fab479157 833 gzip_1.13.orig.tar.xz.asc"
+    "7208c37128ef7dcd949913b49475ac7a09cfb60a 18736 gzip_1.12-1.debian.tar.xz 4db4932740e481782b9487f62059278872faac41 2009 gzip_1.12-1.dsc 318107297587818c8f1e1fbb55962f4b2897bc0b 825548 gzip_1.12.orig.tar.xz 981d0a887e94223ceb31930395b34af5e8e21270 833 gzip_1.12.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "29319b3f91d8e03d940d4d7c0f2a5fe5ec4f2ba4a0e621c9ef2682f2d0240dd2 19028 gzip_1.13-1.debian.tar.xz 4942638dbb63dc5690e0a95ed70ee9f11e93565c43941c2485da3e561ec72028 1884 gzip_1.13-1.dsc 7454eb6935db17c6655576c2e1b0fabefd38b4d0936e0f87f48cd062ce91a057 838248 gzip_1.13.orig.tar.xz aa752d6460fff2e0064857f1c6057d2dc49a28a45ad28c6b29c525851d6771f1 833 gzip_1.13.orig.tar.xz.asc"
+    "fcf2317e8eeddd66766ec5f3853025b109bd13815ec86ed6563e1af68d17193a 18736 gzip_1.12-1.debian.tar.xz 49a287787a0b4fc816eb576c011c472d1f630ec1778dfa120bd7fce4a844c253 2009 gzip_1.12-1.dsc ce5e03e519f637e1f814011ace35c4f87b33c0bbabeec35baf5fbd3479e91956 825548 gzip_1.12.orig.tar.xz 3ed9ab54452576e0be0d477c772c9f47baa36415133fef7dd1fcf7b15480ba32 833 gzip_1.12.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "3c97cc45add60abfc9f7cef278c82b58e3007588aa60e2fb0e8e1911e8bb7453a4d37db05bad6f4bda7eb02b8c96fbf6bf507760a82c59ab27f452857c2ea265 19028 gzip_1.13-1.debian.tar.xz be60da63a51a92694d247ee50b42be2e64802d446b712992df0ee2b826a8684cd7fbae402c8cc7366f2c42da8b7686f6868978ff5f6ee11797431902462919ac 1884 gzip_1.13-1.dsc e3d4d4aa4b2e53fdad980620307257c91dfbbc40bcec9baa8d4e85e8327f55e2ece552c9baf209df7b66a07103ab92d4954ac53c86c57fbde5e1dd461143f94c 838248 gzip_1.13.orig.tar.xz f95e016f61f4a67cb4cec6cede2510af6bb5567d72bbd3d70210a6d5cf3ee5fea8f0cbf8f7b612fa52f2ecfd9dba050d9cd4494075ce5ac4abac7b74eaa7ccbc 833 gzip_1.13.orig.tar.xz.asc"
+    "2ac7a60fc9e0bfc04688b225159ba570a21b44856a86bc05279466533bc652c3ca6e8ecdc97107413c0fdd65664ad27bdf1e1abd87edaee9c15ae47a0951e0fe 18736 gzip_1.12-1.debian.tar.xz 4ad350af64461b67f2145f0feb2abaa9a50ad69715d688a4581b5d32b7ba08a797ead3199526bdf09e52f4ab1a703dfbadf760023c7e621455e19a3884fa6a97 2009 gzip_1.12-1.dsc 116326fe991828227de150336a0c016f4fe932dfbb728a16b4a84965256d9929574a4f5cfaf3cf6bb4154972ef0d110f26ab472c93e62ec9a5fd7a5d65abea24 825548 gzip_1.12.orig.tar.xz 1f4702797f7c5f1873c2f9c2f6210ba23824455d17ee82f50f0bf24240ed5bdf0090cf85338ccf76ba82422f8b4ad3a329d8bbf1350cb094d7bd61aa45550397 833 gzip_1.12.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/g/gzip"
   ],
   "Files": [
-    "721c2142bf310efd34b1f3ebdfd76476 19028 gzip_1.13-1.debian.tar.xz 48665bd03aa5b828a3ab66918b794d07 1884 gzip_1.13-1.dsc d5c9fc9441288817a4a0be2da0249e29 838248 gzip_1.13.orig.tar.xz b1800a1f1daae9ab8c5fc9729776937e 833 gzip_1.13.orig.tar.xz.asc"
+    "6c75c37b14877fadf4733520164136a4 18736 gzip_1.12-1.debian.tar.xz 7330ad11030af6a41177b5abbcd2aa90 2009 gzip_1.12-1.dsc 9608e4ac5f061b2a6479dc44e917a5db 825548 gzip_1.12.orig.tar.xz 431c7f48daf19af368c0bdc483f830a5 833 gzip_1.12.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +39,10 @@
     "gzip"
   ],
   "Package-List": [
-    "gzip deb utils required arch=any essential=yes"
+    "gzip deb utils required arch=any essential=yes gzip-win32 deb utils optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/debian/gzip.git"
   ],
   "Version": [
-    "1.13-1"
+    "1.12-1"
   ]
 }

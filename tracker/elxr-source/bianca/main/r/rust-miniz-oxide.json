@@ -6,25 +6,22 @@
     "librust-miniz-oxide-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo"
-  ],
-  "Build-Depends-Arch": [
-    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-adler-1-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-adler-1-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "0b0277a827b4e35b72e4d708588a2a3ff43f194d 4584 rust-miniz-oxide_0.7.1-2.debian.tar.xz 4a883396727c446029f38ec955f44c047d25acb0 1677 rust-miniz-oxide_0.7.1-2.dsc b9d535ca9945282295689f58ea554dac88f54afc 55194 rust-miniz-oxide_0.7.1.orig.tar.gz"
+    "0c99a9e8ea455621d1ece7a23debb42df2b607da 4520 rust-miniz-oxide_0.6.2-1.debian.tar.xz f13d023c71eec73384e08f3a6dc186559cfcfecb 2278 rust-miniz-oxide_0.6.2-1.dsc 88b150a7af7b4b2c42edf2b9490a4d0bf05016a5 54536 rust-miniz-oxide_0.6.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "bff98efcb8420812caaacd4323cdeeac8e3c70b81b1098c8ac3e24d87edc42dd 4584 rust-miniz-oxide_0.7.1-2.debian.tar.xz a44884ff451ea6e9c5ee0bfb256b832391060af81227be9af817c014a10afc50 1677 rust-miniz-oxide_0.7.1-2.dsc e7810e0be55b428ada41041c41f32c9f1a42817901b4ccf45fa3d4b6561e74c7 55194 rust-miniz-oxide_0.7.1.orig.tar.gz"
+    "19ca40853c1a254cb93af8a551244836a407c121a6b15e10567576b27ac58a2e 4520 rust-miniz-oxide_0.6.2-1.debian.tar.xz a37eb57a06b326dd661ae22d146c312cef5264dae2131b754c95af2166176323 2278 rust-miniz-oxide_0.6.2-1.dsc b275950c28b37e794e8c55d88aeb5e139d0ce23fdbbeda68f8d7174abdf9e8fa 54536 rust-miniz-oxide_0.6.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "30e81cb6229b5dc356a5522107849238a7a66f7a198de566a05d47c8ab5d0471ff4f070c7719da0d5d5d93428d0b17431bf4ca07466b417e507f0e69ee146484 4584 rust-miniz-oxide_0.7.1-2.debian.tar.xz dd422548518b76832e41767143aa39f439147a133bdffb362c0320c252d6046e7affe62346671c004b00cf6b174fddd3c96037087c128669f252bead9021ae7c 1677 rust-miniz-oxide_0.7.1-2.dsc 5eb6ffe34a866403273ff0267ff7838aeb50722ca57a03d5a1d842a5f19a3b4af570b133a3b9d64d78eafe49e4b9732b92dd63fd9c6b0ce59b3295daf10f6a3c 55194 rust-miniz-oxide_0.7.1.orig.tar.gz"
+    "254ecdd297dfda7156885be188142fee4176dc99ebfc32b050980a0a855334891acffc9e133632744373ee8d9ead7e806a4a70eb0b9f54e4287b88802d9ce034 4520 rust-miniz-oxide_0.6.2-1.debian.tar.xz 94b7826bc25fc7e24c54e23e74a903f4475057f7d5512aaadb80752d6b957b444bc3445b2ac570ca7c51dcc930feabd45edde37d39e7fc01d80c818c0a8663db 2278 rust-miniz-oxide_0.6.2-1.dsc 250782e214572acdd11df87c2788cd5f78e8388d9b285d0a850918219678e262e8b9905cc88728f5b70d13920ef9d19c43d243dad8fbcc18f8c8462662ce1419 54536 rust-miniz-oxide_0.6.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-miniz-oxide"
   ],
   "Files": [
-    "c609fb6c31b10ee83406f4e1c6ac384f 4584 rust-miniz-oxide_0.7.1-2.debian.tar.xz c4514d228bb2ddd04280c031e5bc82d4 1677 rust-miniz-oxide_0.7.1-2.dsc eb7e04508518ed8f29935ec874e1740a 55194 rust-miniz-oxide_0.7.1.orig.tar.gz"
+    "bffb9d3280f218c7e0972769702cdc10 4520 rust-miniz-oxide_0.6.2-1.debian.tar.xz 391547f8d96d9d70b6ec28f7e0139a14 2278 rust-miniz-oxide_0.6.2-1.dsc bb21a8ff26ec16bc15758b1625bc0f46 54536 rust-miniz-oxide_0.6.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +39,13 @@
     "librust-miniz-oxide-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, rustc"
+    "dh-cargo"
   ],
   "Uploaders": [
     "Ximin Luo \u003cinfinity0@debian.org\u003e"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/miniz-oxide]"
   ],
   "Version": [
-    "0.7.1-2"
+    "0.6.2-1"
   ]
 }

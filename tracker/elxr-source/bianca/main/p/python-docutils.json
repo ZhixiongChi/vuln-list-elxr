@@ -9,22 +9,22 @@
     "debhelper-compat (= 13)"
   ],
   "Build-Depends-Indep": [
-    "dh-python, flit (\u003e= 3.4), pybuild-plugin-pyproject, python3-all, python3-pygments, python3-roman, xml-core"
+    "dh-python, python3-all, python3-roman, python3-setuptools, xml-core"
   ],
   "Checksums-Sha1": [
-    "f160d53e65bde594d69323c9670157f6b32899b2 29264 python-docutils_0.21.2+dfsg-2.debian.tar.xz 4a9bb4e83d862f17c2fa16d324a6d237a60d30bd 2407 python-docutils_0.21.2+dfsg-2.dsc 923b1673b45ce69bd6225e50a2f6399ac61a1d9f 1611488 python-docutils_0.21.2+dfsg.orig.tar.xz"
+    "57600760d517d1588851a9584e7111803041fadd 32444 python-docutils_0.19+dfsg-6.debian.tar.xz 5f94f0c2b6e6419f5f58b0a0eb40b5357a971ebd 2346 python-docutils_0.19+dfsg-6.dsc 4fed73aeace454a1c08addb5c69dd7f3bfdfd053 1527500 python-docutils_0.19+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "0a29afd3b5af83464a52d592e9cfb69b7da5ee7a9bb98a8c61f5131b12b5ae63 29264 python-docutils_0.21.2+dfsg-2.debian.tar.xz acbb5d066520a3a280eadedda3200804487c59ac3c2dccf10c120b30583e6973 2407 python-docutils_0.21.2+dfsg-2.dsc 0027b2369460c622c519e2d177735e0821f0298d10eb4d35cf194eefc88b0e43 1611488 python-docutils_0.21.2+dfsg.orig.tar.xz"
+    "87813d99a66889a8a34af330f0364aac744fc3e296d66a558609774ba0704a9a 32444 python-docutils_0.19+dfsg-6.debian.tar.xz 2afef15a5195c0181a6314afc2fd1661af886ad9287f278e7cf095bb7e8ee1a3 2346 python-docutils_0.19+dfsg-6.dsc f62bc9053b890117f0f22591d016bf310079ec8b6887f1b01264770c6a3b82fd 1527500 python-docutils_0.19+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "aca71ecfebdd2f04cbf6190c64fc214d17ce3492608d4a010dd09bd4fc15382f75583a00ea037b772da8e3eaf39114fd757ebe510f52fda9754b5f1a1fcc790b 29264 python-docutils_0.21.2+dfsg-2.debian.tar.xz d56e1c7c3d8c5c591c43a84d38b4285e6491b6b887dcddc4427156e443ca030475c22691b5d5784388480dbeff19dc0535404dd1401b38fc38762b2f70b45c3a 2407 python-docutils_0.21.2+dfsg-2.dsc 38d63054433f57334d6ad9261a281d7a62cb10fa28732c7b879a79787bfb348fb941abd95c783900c22f15d0492aa035487e4ea2ab9d6a2706f8fb6cb132f490 1611488 python-docutils_0.21.2+dfsg.orig.tar.xz"
+    "d11cc76d9050b762efa27dd660d7ffa131d8fa36658074e7c6e2c9e0be6ef4a5f4793a71dd1dc0a021a5a71aa749a0369a5471dc8292304acdfb59e53dab1daf 32444 python-docutils_0.19+dfsg-6.debian.tar.xz 9393db88a8fc24663f546292e7530e763e014abf238925cf227f49c880f415249653a3bc28738a799de7711c5c19d62c05adbe47bf30a5e97810411e5cebdcea 2346 python-docutils_0.19+dfsg-6.dsc 4abb9a4608d0a13aa3de0b6e9c0ee52b2dffa0c915a76d63b48d7975955d6920bb8ea1bb6ab066354b2fff5d48ae61a093538d60d86048c329e5242aa615e3d0 1527500 python-docutils_0.19+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-docutils"
   ],
   "Files": [
-    "1e72414a84818fd6f92ea5c5b7373d82 29264 python-docutils_0.21.2+dfsg-2.debian.tar.xz 2adc2a5d72150fd90ba4c779531b08b8 2407 python-docutils_0.21.2+dfsg-2.dsc 9a9bd2e8722bc26982586973bcf7543e 1611488 python-docutils_0.21.2+dfsg.orig.tar.xz"
+    "f39eb0b29e75e9091e4092c7dddb91cf 32444 python-docutils_0.19+dfsg-6.debian.tar.xz bf6a8694491f1ca14afa68e43f468208 2346 python-docutils_0.19+dfsg-6.dsc bc2d196b73522e184f940795e0946791 1527500 python-docutils_0.19+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "docutils-common deb python optional arch=all docutils-doc deb doc optional arch=all python3-docutils deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/python-docutils.git"
   ],
   "Version": [
-    "0.21.2+dfsg-2"
+    "0.19+dfsg-6"
   ]
 }

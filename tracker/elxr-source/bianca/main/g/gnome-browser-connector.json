@@ -3,25 +3,25 @@
     "all"
   ],
   "Binary": [
-    "gnome-browser-connector"
+    "gnome-browser-connector, chrome-gnome-shell"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), meson, python3-gi"
+    "debhelper-compat (= 13), dh-sequence-gnome, meson, python3-gi"
   ],
   "Checksums-Sha1": [
-    "e7e51123f629a4fcc573f1aa0519f051bd03aa5d 4428 gnome-browser-connector_42.1-6.debian.tar.xz fc29bdebbb27d762a1c2dbd06907c840b86b1c7a 2143 gnome-browser-connector_42.1-6.dsc b21f1e5aa4cab4264a880b178b006f37372801fc 26732 gnome-browser-connector_42.1.orig.tar.xz"
+    "37d8cf7e99dfe49a65902406d5d5bd85a4c4f25b 4600 gnome-browser-connector_42.1-3.debian.tar.xz 454075231330bf698f479dde2855a78d86e85a78 2231 gnome-browser-connector_42.1-3.dsc b21f1e5aa4cab4264a880b178b006f37372801fc 26732 gnome-browser-connector_42.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "8c9bd349332164aedbd778143548f55bc91c820187b1a138ade238263ed93256 4428 gnome-browser-connector_42.1-6.debian.tar.xz 0baa599b901831590487ba2f9eb7eff1e3911bdc66b7c83282593672ab46c6fa 2143 gnome-browser-connector_42.1-6.dsc bd9702ce1c163606ca32b8c13d1f3ba6e82b247cf87aac60610b411df1556212 26732 gnome-browser-connector_42.1.orig.tar.xz"
+    "6cc380cdba7f3ef5004a509fa5e2b53494a90d50a30941b1bdf212f33b0f302b 4600 gnome-browser-connector_42.1-3.debian.tar.xz cff2395ba5be273031606cb9008496204b3c7e45aa3edcf5378cf89c67782ab2 2231 gnome-browser-connector_42.1-3.dsc bd9702ce1c163606ca32b8c13d1f3ba6e82b247cf87aac60610b411df1556212 26732 gnome-browser-connector_42.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "229b2cc19ea9ede1b818773073a36f04839615e862e7e1904435cd7de63d7c8a74f5378c8723e12a1fbb245f880b145c155157f683ff15367444866f7cdefacf 4428 gnome-browser-connector_42.1-6.debian.tar.xz a28190834de80c6b01d768adec2b37dc357be8e8cf0bbdfe4498cb8064a8bc56264df517f0ca4be676d431f311049d2b7530a33a5b12f2785fa2ceca47079d5c 2143 gnome-browser-connector_42.1-6.dsc f8f7c0e7f3fb6bd50eddc674c48f521d07aa03b5b36674e8dfcb6b6d8203bbdf4fc4de1f7cbbcc805a3da3cf098a27bda281b7a0ac5b98d7144dffe85698b7d7 26732 gnome-browser-connector_42.1.orig.tar.xz"
+    "c0b91168fbb70031de8b09f42c8fddff4d7f91853087ba68cd0c7ee20c03c775eae675a070be11b771b09d12e7d3df6efa2f1d38e2bc3782de8a17d659551a51 4600 gnome-browser-connector_42.1-3.debian.tar.xz d1ab14a991bd7062cbbda7263b176c9bbeeb5a20c3b007e3c8e3565653edc74a4cbfd07d2d03f1fc336d1857998747af2647d487136122e2d76166b40d05c999 2231 gnome-browser-connector_42.1-3.dsc f8f7c0e7f3fb6bd50eddc674c48f521d07aa03b5b36674e8dfcb6b6d8203bbdf4fc4de1f7cbbcc805a3da3cf098a27bda281b7a0ac5b98d7144dffe85698b7d7 26732 gnome-browser-connector_42.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gnome-browser-connector"
   ],
   "Files": [
-    "3feb4f2421d0fe4c65175284b11b9b1d 4428 gnome-browser-connector_42.1-6.debian.tar.xz 552801711d51b541c4f6cd70309cdfc3 2143 gnome-browser-connector_42.1-6.dsc d5b00a3ff63dad073c86d855b2017661 26732 gnome-browser-connector_42.1.orig.tar.xz"
+    "0aa5c12dad14afc56745c26132ed7a0c 4600 gnome-browser-connector_42.1-3.debian.tar.xz b837f206625c5b451a4d49392d7cb392 2231 gnome-browser-connector_42.1-3.dsc d5b00a3ff63dad073c86d855b2017661 26732 gnome-browser-connector_42.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,13 @@
     "gnome-browser-connector"
   ],
   "Package-List": [
-    "gnome-browser-connector deb gnome optional arch=all"
+    "chrome-gnome-shell deb oldlibs optional arch=all gnome-browser-connector deb gnome optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Uploaders": [
-    "Ritesh Raj Sarraf \u003crrs@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
+    "Ritesh Raj Sarraf \u003crrs@debian.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/gnome-browser-connector"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/gnome-browser-connector.git"
   ],
   "Version": [
-    "42.1-6"
+    "42.1-3"
   ]
 }

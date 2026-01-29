@@ -6,25 +6,25 @@
     "libmysofa-dev, libmysofa1, libmysofa-utils"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), libcunit1-dev, nodejs \u003c!nocheck\u003e, zlib1g-dev | libz-dev"
+    "cmake, debhelper-compat (= 13), libcunit1-dev, zlib1g-dev | libz-dev"
   ],
   "Checksums-Sha1": [
-    "d05e58f710ee33d804aaf5dbcf87bafcea8dd70d 17772 libmysofa_1.3.3+dfsg-1.debian.tar.xz 81ab49d642bc9c706af8aa7590f604f2133919da 2386 libmysofa_1.3.3+dfsg-1.dsc a9b45946db8e585e7ab6891918e1e625049585fd 81120528 libmysofa_1.3.3+dfsg.orig.tar.xz"
+    "69bd04a5de458adc255f580033016f0b45045cb6 16620 libmysofa_1.3.1~dfsg0-1.debian.tar.xz 25ba9c34164118cd57e3af19854b3366d08ce9da 2375 libmysofa_1.3.1~dfsg0-1.dsc 5411ee66e358e3dc88f924ddbc7a02d88d217008 80685660 libmysofa_1.3.1~dfsg0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "375b4e4db1722fae9ad6c445bbb0faa391d987757e75b9573b4d99979888f780 17772 libmysofa_1.3.3+dfsg-1.debian.tar.xz 4132493ff13280969b8c27a12733f4ffd862c920e2c949964b826ba393965b2c 2386 libmysofa_1.3.3+dfsg-1.dsc 6c922f696a690fc8f18ac453dccf6dba905886da08a2e510653a69649bb75f70 81120528 libmysofa_1.3.3+dfsg.orig.tar.xz"
+    "f81517fb3e5fdfff02168eb38beba09a5c11fbbd2ec0ae7a658ac4937925ffb9 16620 libmysofa_1.3.1~dfsg0-1.debian.tar.xz 5af4a5d833fbfbe20ca8c325a4d6ee99a6ae14ecc9fa42e91782c1cff82c2415 2375 libmysofa_1.3.1~dfsg0-1.dsc e9930dc009d46fb783cf6af1e24ab826fad32cb2cd8fa97071d0505bf142adb3 80685660 libmysofa_1.3.1~dfsg0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "c4767618e8f29acc63d383d8831bfc8adb9a187c8eed6593058c2716c804866554962752ff9e426262a4eedfff6dd511296f96babedb588eddd8519032108dec 17772 libmysofa_1.3.3+dfsg-1.debian.tar.xz 283b49769c6bbef97fd42644bacb3cfe0def89a3c102708bd34aaf6ba08e2533de65bc246893b0bcaf97ccd7fd94931991a1f2a692a675ff1b88df5bb301971f 2386 libmysofa_1.3.3+dfsg-1.dsc 7e2961ac6418dbb7c9e5b57ba6eeaa2883d707602e44ceb12b07c61d08fb0e4aa39b25c6d0922ae28a596bba6dab76d23a79afebf19ecbe60c4bdc0f44400366 81120528 libmysofa_1.3.3+dfsg.orig.tar.xz"
+    "7f50cb23955f86574f01604444d67c8eb7f6ede1716191bf72fdff279947c3aca2b85bd6bca77b8b0f644f4f9d5e4739a0aad714ddd8264ba1044896f9fad62b 16620 libmysofa_1.3.1~dfsg0-1.debian.tar.xz 299d8deee9987f4d1fc9cf2be88d3f20e7a25e0e255f652011168bec31b57db29f5ecbbc36b6289476f1a2c87bc4e84663e71b7957821fe8ef7528263803ce06 2375 libmysofa_1.3.1~dfsg0-1.dsc a3609eff14b840eaf6efdd907905c89cd1b59ae3c4d35ba9a5f2e50786cd44975d13ccdf8be4d3a2107d93e1a255b7131a145c6f67de66cecc466d0e252d2429 80685660 libmysofa_1.3.1~dfsg0.orig.tar.xz"
   ],
   "Dgit": [
-    "79b87e6818a81bce57db984bb7ea67cb5ac9d085 debian archive/debian/1.3.3+dfsg-1 https://git.dgit.debian.org/libmysofa"
+    "36b24baaad6d51854261224d8e1f394b06f486a0 debian archive/debian/1.3.1_dfsg0-1 https://git.dgit.debian.org/libmysofa"
   ],
   "Directory": [
     "pool/main/libm/libmysofa"
   ],
   "Files": [
-    "00506514b8ebe2313dc91c8b3f8043cc 17772 libmysofa_1.3.3+dfsg-1.debian.tar.xz bb1b06cbdc98e1e2245b15261315b942 2386 libmysofa_1.3.3+dfsg-1.dsc dac68c0b604210f4c4df355ae42a2810 81120528 libmysofa_1.3.3+dfsg.orig.tar.xz"
+    "eff90ae4bdba3978adff9ad1dcf8a1e7 16620 libmysofa_1.3.1~dfsg0-1.debian.tar.xz 9d913e1d35c28f641a73ff39fc226e6a 2375 libmysofa_1.3.1~dfsg0-1.dsc e6bbe782e55ffcc6156750a043cf9bbb 80685660 libmysofa_1.3.1~dfsg0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "libmysofa-dev deb libdevel optional arch=any libmysofa-utils deb utils optional arch=any libmysofa1 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/multimedia-team/libmysofa.git"
   ],
   "Version": [
-    "1.3.3+dfsg-1"
+    "1.3.1~dfsg0-1"
   ]
 }

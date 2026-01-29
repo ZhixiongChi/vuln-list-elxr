@@ -6,22 +6,22 @@
     "resource-agents, ldirectord"
   ],
   "Build-Depends": [
-    "autoconf, automake, cluster-glue-dev, debhelper-compat (= 13), dh-exec, dh-python, docbook-xml, docbook-xsl, gawk, libglib2.0-dev, liblrm2-dev, libnet1-dev, libpils2-dev, libplumb2-dev, libplumbgpl2-dev, libqb-dev, libstonith1-dev, libtool, libxml2-utils, net-tools, pkgconf, python3, python3-googleapi, python3-pyroute2, python3-requests, python3-urllib3, shellcheck, systemd-dev, xsltproc, xml-twig-tools"
+    "autoconf, automake, cluster-glue-dev, debhelper-compat (= 13), dh-exec, dh-python, docbook-xml, docbook-xsl, gawk, libglib2.0-dev, liblrm2-dev, libnet1-dev, libpils2-dev, libplumb2-dev, libplumbgpl2-dev, libstonith1-dev, libtool, libxml2-utils, net-tools, pkg-config, python3, python3-googleapi, python3-pyroute2, shellcheck, systemd [linux-any], xsltproc, xml-twig-tools"
   ],
   "Checksums-Sha1": [
-    "f37f1d9ca79a75b48304554a2cceec4f45b9c357 22484 resource-agents_4.16.0-3+deb13u1.debian.tar.xz ef6058b685158db2cf35aeaf51f3f01a10a349de 2783 resource-agents_4.16.0-3+deb13u1.dsc 4e2c4d02ea681154621e9611d225f535d7e6a74b 893028 resource-agents_4.16.0.orig.tar.gz"
+    "b303af950f8647292fce88000334318fb9ac263b 21692 resource-agents_4.12.0-2.debian.tar.xz f2ff4675e798dffa4664133f395f8d370dc036d1 2709 resource-agents_4.12.0-2.dsc 4b9f317994af64bfc4ef9e80b3d4ff3b176c0fc8 865910 resource-agents_4.12.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a78fbe8e8b26871e280a23c1849701a2ce576abeee00300656a8a0f3a85b736b 22484 resource-agents_4.16.0-3+deb13u1.debian.tar.xz df14c8eafcdbf69db90589abf6f8e0527d761986d7b348074e8d0d56b7d390ce 2783 resource-agents_4.16.0-3+deb13u1.dsc 62c0bb5db01f6e809d0a9f615550818f0aa93fe5214f491ce63b81af1599f03f 893028 resource-agents_4.16.0.orig.tar.gz"
+    "5ee5da8320050397aef77109337a324bad60876f1ccb13409c6248a5ee04911e 21692 resource-agents_4.12.0-2.debian.tar.xz 3adb3e747d021a65c9967af2db37399847b4d18c716137ace85b9e5a81fa9b18 2709 resource-agents_4.12.0-2.dsc 4c220239ce5aedd3100c9eb36c0ddd2239d9a84a6b676555f7052658e1383ee1 865910 resource-agents_4.12.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "4352505b8341bae7ca13d932ac11db79681c51c4603a77ea78d9be8276fb892ea05b027a5afa91b5c7fd0a35aadce018b6f7ea47c200573bc3c153ad2d2f5851 22484 resource-agents_4.16.0-3+deb13u1.debian.tar.xz 686f8ceeb266d82229816e023dfbeef38c02545e10da07386f969ff78154b6115c1c4c334cfe9eca779fc142d9cac40942aed1431ab7a3099237517108cdf395 2783 resource-agents_4.16.0-3+deb13u1.dsc 4239b8a51d3b86a49a7231441b4b81e0a8e369ab6d3da96faf1a79411e605c96e22e37da0e3372b55b799c1c803b608efdedb36033f53c612d76b6c6d49d80a5 893028 resource-agents_4.16.0.orig.tar.gz"
+    "b9497547eec1ad8afd340f526485b4cb9f5dd9e3ddb4a2d70d4473491527d4bfcc53cb78d2b1bc6afd824b6ac40d78dbef6a4f187eee160c9e11bc9e33238d11 21692 resource-agents_4.12.0-2.debian.tar.xz 20134c9524ef8f4f23102c9f79c2994ec3fa98a6af47f83c40297cfa14a5bff59c9ed782f64233af76687969cd37b1b3a4714c50d3c00d42a5877fa2012993c0 2709 resource-agents_4.12.0-2.dsc 1c1ec1ae4a96b6832eb8631f8e2aa064adac04093e1e98c444376e18d27db4b630c840c45bc3486160a2a8f5c510bb05c15362b8b65197387a31b7adc059e87b 865910 resource-agents_4.12.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/resource-agents"
   ],
   "Files": [
-    "439fc751fa150ebd9c4ebe40a1ff1eaf 22484 resource-agents_4.16.0-3+deb13u1.debian.tar.xz 237a920ab59a3094b4f38b842804ea27 2783 resource-agents_4.16.0-3+deb13u1.dsc 3a90f3c4e4c0cba342e5e352a4b887a8 893028 resource-agents_4.16.0.orig.tar.gz"
+    "73b38472950ad275f4c144c57fbf1ae1 21692 resource-agents_4.12.0-2.debian.tar.xz 4cdccd8ec77e990676dd69040e555a44 2709 resource-agents_4.12.0-2.dsc 8a8c8c184635330eb08ef03806f5333c 865910 resource-agents_4.12.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "ldirectord deb admin optional arch=all resource-agents deb admin optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "apache2, bind9, bind9-host, bind9-utils, bsd-mailx, curl, default-mysql-server, exim4, lsb-release, lvm2, nfs-kernel-server, open-iscsi, openssl, postfix, postgresql, targetcli-fb"
+    "apache2, bind9, bind9-host, bind9-utils, bsd-mailx, default-mysql-server, lsb-release, lvm2, nfs-kernel-server, open-iscsi, openssl, postfix, postgresql, targetcli-fb, wget"
   ],
   "Uploaders": [
     "Adrian Vondendriesch \u003cadrian.vondendriesch@credativ.de\u003e, Valentin Vidic \u003cvvidic@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/ha-team/resource-agents.git"
   ],
   "Version": [
-    "1:4.16.0-3+deb13u1"
+    "1:4.12.0-2"
   ]
 }

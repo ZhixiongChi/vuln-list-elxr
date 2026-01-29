@@ -6,22 +6,22 @@
     "libmodulemd2, libmodulemd-dev, libmodulemd-tools, gir1.2-modulemd-2.0"
   ],
   "Build-Depends": [
-    "debhelper (\u003e\u003e 13.15.2~), dh-package-notes, dh-sequence-gir, dpkg-build-api (= 1), help2man, libgirepository1.0-dev, libglib2.0-dev, librpm-dev, libyaml-dev, meson, pkgconf, python3-gi"
+    "debhelper-compat (= 13), dh-sequence-gir, help2man, libgirepository1.0-dev, libglib2.0-dev, libmagic-dev, librpm-dev, libyaml-dev, meson, pkg-config, python3-gi"
   ],
   "Checksums-Sha1": [
-    "3b06bbe49e43c43313419917ac39a7bc65a0d60f 8288 libmodulemd_2.15.0-1.debian.tar.xz 6f29c8940eaccbaaaf9a7ec259fc703427ce403f 2440 libmodulemd_2.15.0-1.dsc 37141fb36ea218d8ee0c40e8a7e3ce60ac124539 321088 libmodulemd_2.15.0.orig.tar.xz"
+    "07cfea12299623d050efe3b76cbf8fab49a99b16 7908 libmodulemd_2.14.0-3.debian.tar.xz 6e6faffec9e53b4cb025868652077d1ccdeb0c99 2415 libmodulemd_2.14.0-3.dsc 83e78bab323c41441ff2c2c09e99c92bbc3b6546 297816 libmodulemd_2.14.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "b28f3f1ae5461bc0b61a51fd24b2552e73d26e82aad0cd19ca89aead4b596ae5 8288 libmodulemd_2.15.0-1.debian.tar.xz 44277a2276ffe516249532068a5dc093e705def78e0d1506756ab866d3a2c822 2440 libmodulemd_2.15.0-1.dsc 15458323d1d1f614f9e706f623794f95d23e59f4c37deeaa16877463aee34af5 321088 libmodulemd_2.15.0.orig.tar.xz"
+    "c3ca67f9d0ab8cef35bccaefe0202b7be96b0b9406dafb0527f4f75f7c52f2c2 7908 libmodulemd_2.14.0-3.debian.tar.xz 1560ce6174f2f3afa95b619606615582c297a53e77dc81a3d1ea0a269c4e5011 2415 libmodulemd_2.14.0-3.dsc 8087942cc290c0df486931233446fb4bce786cd9ff92eb72384731cd4d36f6ef 297816 libmodulemd_2.14.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "47f54babbc177a9236b14b33956700253cd1baf5d7a674628f58f7a20c2c268aa05a9d0627c811548c63d0a5bece72dccec2f260ce298b4b1b806ac2f6504204 8288 libmodulemd_2.15.0-1.debian.tar.xz c2d561a20c46a1582caf7707abdeaab8ff39eb76f041bd85d12f488d9456c06bdad1d2e0e0569ad62d1fa563bd273e7dda478711fda250ad78d67b8ff87c7a2e 2440 libmodulemd_2.15.0-1.dsc 79032eb591cd3b778cb348040150ec4d1ccb8e2890d02c7b7a04f9b1bd376d32c5ae0e2c6dfb8056595fae5e54ea8365de06fe969a0f04b979abad3ff0882033 321088 libmodulemd_2.15.0.orig.tar.xz"
+    "12e4b712c17832611d899620c8a02f415427ccf3fdb6b4d04ecff8fc73e4b6cc77f0c09c3822a3cdf2f2322295201fcd15240a22a7b8711b11a3cc8670416918 7908 libmodulemd_2.14.0-3.debian.tar.xz a5edcd9332fde5f162a1a9597a578230570627faeccbeb6fadbbbdc117a807f69934f1ae3fd803bf749b88f660c6d92ff73409adef562c107cdc543780682656 2415 libmodulemd_2.14.0-3.dsc 90439cba83f4a8711095f1b9b92ba9135bade202703d698d192d066955ae8df3f53226fcd5fc73cd2873e5599822272f00a5b536cf62e3e51c37bbca32b7f756 297816 libmodulemd_2.14.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libm/libmodulemd"
   ],
   "Files": [
-    "61793db3a64968f518327aa985cdd412 8288 libmodulemd_2.15.0-1.debian.tar.xz 3293bb2a39c26923e1e0991cb1871755 2440 libmodulemd_2.15.0-1.dsc 3d231596fad04b1a16ff67257b3145da 321088 libmodulemd_2.15.0.orig.tar.xz"
+    "2058cf64fd619b753cdecc092f64b923 7908 libmodulemd_2.14.0-3.debian.tar.xz e57ffbfe3ac7cb659637efa0264f31e0 2415 libmodulemd_2.14.0-3.dsc 607ca8676d3e6dbf04f24ecf80b2c97f 297816 libmodulemd_2.14.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "gir1.2-modulemd-2.0 deb introspection optional arch=any libmodulemd-dev deb libdevel optional arch=any libmodulemd-tools deb utils optional arch=any libmodulemd2 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "build-essential, libmagic-dev, meson, pkg-config, python3-gi, python3-six"
   ],
   "Uploaders": [
-    "Peter Pentchev \u003croam@debian.org\u003e,"
+    "Peter Pentchev \u003croam@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/pkg-rpm-team/libmodulemd"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/pkg-rpm-team/libmodulemd.git"
   ],
   "Version": [
-    "2.15.0-1"
+    "2.14.0-3"
   ]
 }

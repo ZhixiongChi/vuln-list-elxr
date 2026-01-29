@@ -3,28 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "parted, parted-udeb, libparted2t64, libparted-fs-resize0t64, libparted2-udeb, libparted-fs-resize0-udeb, libparted-i18n, libparted-dev, parted-doc"
+    "parted, parted-udeb, libparted2, libparted-fs-resize0, libparted2-udeb, libparted-fs-resize0-udeb, libparted-i18n, libparted-dev, parted-doc"
   ],
   "Build-Depends": [
-    "autoconf, automake, autopoint, check \u003c!nocheck\u003e, debhelper-compat (= 13), dpkg-dev (\u003e= 1.22.5), gettext, gperf, libblkid-dev, libdevmapper-dev [linux-any], libncurses-dev | libncurses5-dev, libreadline-dev | libreadline6-dev, pkgconf, texinfo, uuid-dev"
+    "debhelper-compat (= 13), libncurses-dev | libncurses5-dev, libreadline-dev | libreadline6-dev, libdevmapper-dev [linux-any], uuid-dev, gettext, texinfo, libblkid-dev, pkg-config, check \u003c!nocheck\u003e, autoconf, automake, autopoint, gperf"
   ],
   "Checksums-Sha1": [
-    "776091055877ece9d3487a0ec13b438e78c4db51 57520 parted_3.6-5.debian.tar.xz 04a43c176126eb2ffff14406d4f217ae050539e5 3042 parted_3.6-5.dsc b83f10e654250a69dd9278f4425802c1b7fb0c74 1896164 parted_3.6.orig.tar.xz a2b631f6b812f8d3a2ddfc93f50066abdebd0fa8 508 parted_3.6.orig.tar.xz.asc"
+    "cd4ece4acbd4cf33b62c1583b2d620eb751c9fd1 55716 parted_3.5-3.debian.tar.xz ce8917b888925bbec81c1593f0bd757a4cb5ffe1 3010 parted_3.5-3.dsc 55023eb2acb3b22e6fc999d73e285f0a3706101a 1871824 parted_3.5.orig.tar.xz a6494ad47e4d99009397f877101d26885f96ea88 488 parted_3.5.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "5590b0a3f30cfe15784c2fbe189723aa51d4df3e6b15208b7d4aa6263504469e 57520 parted_3.6-5.debian.tar.xz 6900844bdc8f6a182a4842d1fb13e49b1934b14a2a5624fc61fc183f3e40d5ab 3042 parted_3.6-5.dsc 3b43dbe33cca0f9a18601ebab56b7852b128ec1a3df3a9b30ccde5e73359e612 1896164 parted_3.6.orig.tar.xz cdc0e7fcf5056e7f3f45d43bb980bd6d835b09a5c762ecd2b65c47742a0e583e 508 parted_3.6.orig.tar.xz.asc"
+    "f889132fc19d1283f157ad466fd71e1dd4ba4302b92c4660535f8fba5a1ff340 55716 parted_3.5-3.debian.tar.xz 2a181ce170282ae8b3380b75fd3eb0ff031ebdff95ebbb79538bc6d6e7fa4482 3010 parted_3.5-3.dsc 4938dd5c1c125f6c78b1f4b3e297526f18ee74aa43d45c248578b1d2470c05a2 1871824 parted_3.5.orig.tar.xz 1b4a381f344435baf69616a985fac6f411d740de9eebd91e4cccdf046332366a 488 parted_3.5.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "9795964eb78296568d9c529452376dd25ee2c8b53b98e05de76a3cc890a8bef1d4ac33a6c67eed7d844d3522a7532e4ee2baab0378da6174d2d7f04876492c2c 57520 parted_3.6-5.debian.tar.xz 07b8403430d8ea5fc018015257875a66b421705c51db891401762dd7abe76c29a398c97cb8f8fd66b631d13e61ff5509091b01eb1a5c5de66be89d43b5e2a0a4 3042 parted_3.6-5.dsc 034a44b25718acba175212019d24f092972a791c5bd1d921ae91e17478657a77c5c5dd0c832bed7968c3a07ec6c65c0785acfac2f90c1ca5e1692f3c141693ef 1896164 parted_3.6.orig.tar.xz 7c845026937b29fb49085ef9e3354226b73a1c3b5f9082d440d9a8ac13d76b1d07dae0bc10d8c974d4e57bc582f38c0a908e80718dd1ff1adfad3b04699c672c 508 parted_3.6.orig.tar.xz.asc"
+    "2308e3f954219dafa08517860d62b24d4059bd6c549a4042f089a3c9009e8a558ff551b1b29cfcc0dca063774e4d8a201450bfb74e3fc3e288d8f5f152d09a61 55716 parted_3.5-3.debian.tar.xz 07c13e7c3c19461e831b96114fd8cf433a4a08ec6b8aec798b715b2d140b6d58160e5e4044524e339446a1ca6bc3ffd00543ddce22b6db6ba305f98a358b20ac 3010 parted_3.5-3.dsc 87fc69e947de5f0b670ee5373a7cdf86180cd782f6d7280f970f217f73f55ee1b1b018563f48954f3a54fdde5974b33e07eee68c9ccdf08e621d3dc0e3ce126a 1871824 parted_3.5.orig.tar.xz 2ea1209325595416aa9ee27a0e85ca38bce50ca885d3b52ab1c1fb1b68b78d7887386ea3120274648056d2f1d9dca00b77236991765d84ad226c1b1f5a3f5c62 488 parted_3.5.orig.tar.xz.asc"
   ],
   "Dgit": [
-    "4f265b07b6ebca0d467ba9e3e305b3b0991fa816 debian archive/debian/3.6-5 https://git.dgit.debian.org/parted"
+    "223923842ef02a31781b25389342b509677e996e debian archive/debian/3.5-3 https://git.dgit.debian.org/parted"
   ],
   "Directory": [
     "pool/main/p/parted"
   ],
   "Files": [
-    "979229167c05e96ed3ec0eff96dda9b1 57520 parted_3.6-5.debian.tar.xz 627c246fd4eb54ecbd3312cda066572e 3042 parted_3.6-5.dsc 93d2d8f22baebc5eb65b85da05a79e4e 1896164 parted_3.6.orig.tar.xz 3afa5c04d8adfdead5eadb6596de9920 508 parted_3.6.orig.tar.xz.asc"
+    "343e828c91ffe92304738aac97e7317e 55716 parted_3.5-3.debian.tar.xz de904f64eff4af8f4b13dae3361d0895 3010 parted_3.5-3.dsc 336fde60786d5855b3876ee49ef1e6b2 1871824 parted_3.5.orig.tar.xz c6628218f693e77918acf4818549259f 488 parted_3.5.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "parted"
   ],
   "Package-List": [
-    "libparted-dev deb libdevel optional arch=any libparted-fs-resize0-udeb udeb debian-installer optional arch=any libparted-fs-resize0t64 deb libs optional arch=any libparted-i18n deb localization optional arch=all libparted2-udeb udeb debian-installer optional arch=any libparted2t64 deb libs optional arch=any parted deb admin optional arch=any parted-doc deb doc optional arch=all parted-udeb udeb debian-installer optional arch=any"
+    "libparted-dev deb libdevel optional arch=any libparted-fs-resize0 deb libs optional arch=any libparted-fs-resize0-udeb udeb debian-installer optional arch=any libparted-i18n deb localization optional arch=all libparted2 deb libs optional arch=any libparted2-udeb udeb debian-installer optional arch=any parted deb admin optional arch=any parted-doc deb doc optional arch=all parted-udeb udeb debian-installer optional arch=any"
   ],
   "Standards-Version": [
     "3.9.8"
   ],
   "Uploaders": [
-    "Bastian Blank \u003cwaldi@debian.org\u003e, Colin Watson \u003ccjwatson@debian.org\u003e,"
+    "Bastian Blank \u003cwaldi@debian.org\u003e, Colin Watson \u003ccjwatson@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/parted-team/parted"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/parted-team/parted.git"
   ],
   "Version": [
-    "3.6-5"
+    "3.5-3"
   ]
 }

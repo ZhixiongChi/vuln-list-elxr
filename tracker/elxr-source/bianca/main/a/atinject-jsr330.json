@@ -6,28 +6,28 @@
     "libatinject-jsr330-api-java, libatinject-jsr330-tck-java, libatinject-jsr330-api-java-doc"
   ],
   "Build-Depends": [
-    "ant, debhelper-compat (= 13), default-jdk, javahelper, junit4, maven-repo-helper"
+    "ant, debhelper (\u003e= 10~), default-jdk, javahelper, junit4, maven-repo-helper"
   ],
   "Checksums-Sha1": [
-    "2588dec9b4dc1656d73716d99d6e66de81a89cc6 3832 atinject-jsr330_1.0+ds1-6.debian.tar.xz f131513a0ed609e9f44953f85027ebb7d3201e3e 2290 atinject-jsr330_1.0+ds1-6.dsc 4791a09992897c2ebd27e2852f7d19f0db41e1a5 13048 atinject-jsr330_1.0+ds1.orig.tar.xz"
+    "cab8aff64cd32a826d5923c9aaa018266d2cbe0d 3824 atinject-jsr330_1.0+ds1-5.debian.tar.xz 8e6cb718db03e296a94b9ced210091223e6584d4 2299 atinject-jsr330_1.0+ds1-5.dsc 4791a09992897c2ebd27e2852f7d19f0db41e1a5 13048 atinject-jsr330_1.0+ds1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "3a13a0c8d4d2d30d1d3b6e50f957f6f47ff66b1c336b451689818a0580eee00f 3832 atinject-jsr330_1.0+ds1-6.debian.tar.xz 3be70905557e8f57be85b31e51d35272423de83db090bad0520f903a6ee9665b 2290 atinject-jsr330_1.0+ds1-6.dsc e7027a1b00dbea9737681cbcee56e3222054ceb7d29df1592f7b4dd3d5f5da86 13048 atinject-jsr330_1.0+ds1.orig.tar.xz"
+    "06f33eac1fbcdfb2c39ec860fa7110b1f532783b178aa1cbaf73353171e4f655 3824 atinject-jsr330_1.0+ds1-5.debian.tar.xz 09ca76d2601a45e8a72390a56d9c2b6969c3d9ecd3de870c0bd44c1ce52d5ff1 2299 atinject-jsr330_1.0+ds1-5.dsc e7027a1b00dbea9737681cbcee56e3222054ceb7d29df1592f7b4dd3d5f5da86 13048 atinject-jsr330_1.0+ds1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "6af46d330584bc5b9781f4942fe071ab6b6a34d243f2cc702038a750121941a35a3dbee0c64d40a3b94ac2f8dc3349445e08c5a1adc23f7fc0de5f9bf955e41d 3832 atinject-jsr330_1.0+ds1-6.debian.tar.xz 45e64d2acbba8d52372f9190d4dec473015c3bfefdbef3c7bfa7aa7c45c95851d162de02e8a86cd0442018e76bc830da484fb88bdcebdfae2576d33d0f666a96 2290 atinject-jsr330_1.0+ds1-6.dsc 2a1938cbab7cf8802b2a5ee4b16d751711c18dc78dcdf4de1d5f619e69f719e26013d1f76231b640072ad247d2985d2bb271e6951b87c356b36bc769c6bfcae6 13048 atinject-jsr330_1.0+ds1.orig.tar.xz"
+    "5df50603355715f020d8897f53d30b16fa7cff1b88bbfccb19bb4fc9a6aa419488f2858688d26796e66d81e52a7d7d685f19dbc90c2f678c9441cb9d763588db 3824 atinject-jsr330_1.0+ds1-5.debian.tar.xz 721ae1e7b9fa2164c91fdb3ceea48b408fdc8d49b797c22981474ee5878deab4d4a60bc93ccbca4254964aec2079481513879c8b676331cb148171ab10d773d6 2299 atinject-jsr330_1.0+ds1-5.dsc 2a1938cbab7cf8802b2a5ee4b16d751711c18dc78dcdf4de1d5f619e69f719e26013d1f76231b640072ad247d2985d2bb271e6951b87c356b36bc769c6bfcae6 13048 atinject-jsr330_1.0+ds1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/a/atinject-jsr330"
   ],
   "Files": [
-    "5b9151a8f6b250a25594c3039deb7204 3832 atinject-jsr330_1.0+ds1-6.debian.tar.xz a869dcb54c4245294848f6f2dc6e5002 2290 atinject-jsr330_1.0+ds1-6.dsc 5c2cfb313d25df384600b9930837df88 13048 atinject-jsr330_1.0+ds1.orig.tar.xz"
+    "4b43922443db831ab9f97face51202ff 3824 atinject-jsr330_1.0+ds1-5.debian.tar.xz 54f5297b384602873c6b969600caf9aa 2299 atinject-jsr330_1.0+ds1-5.dsc 5c2cfb313d25df384600b9930837df88 13048 atinject-jsr330_1.0+ds1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://javax-inject.github.io/javax-inject/"
+    "http://javax-inject.github.io/javax-inject/"
   ],
   "Maintainer": [
     "Debian Java Maintainers \u003cpkg-java-maintainers@lists.alioth.debian.org\u003e"
@@ -39,18 +39,18 @@
     "libatinject-jsr330-api-java deb java optional arch=all libatinject-jsr330-api-java-doc deb doc optional arch=all libatinject-jsr330-tck-java deb java optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.1.1"
   ],
   "Uploaders": [
     "Jakub Adam \u003cjakub.adam@ktknet.cz\u003e"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/java-team/atinject-jsr330"
+    "https://anonscm.debian.org/cgit/pkg-java/atinject-jsr330.git"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/java-team/atinject-jsr330.git"
+    "https://anonscm.debian.org/git/pkg-java/atinject-jsr330.git"
   ],
   "Version": [
-    "1.0+ds1-6"
+    "1.0+ds1-5"
   ]
 }

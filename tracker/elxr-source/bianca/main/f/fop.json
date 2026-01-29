@@ -6,28 +6,31 @@
     "libfop-java, fop, fop-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), ant, ant-optional (\u003e= 1.8.2), default-jdk (\u003e= 2:1.8-58), help2man, javahelper, junit4, libbatik-java (\u003e= 1.18+dfsg), libbcpkix-java, libbcprov-java, libbcutil-java, libbuild-helper-maven-plugin-java, libcommons-io-java, libcommons-logging-java, libfontbox2-java, libjakarta-servlet-api-java, libmaven-antrun-plugin-java, libmaven-assembly-plugin-java, libmaven-dependency-plugin-java, libmaven-javadoc-plugin-java, libmockito-java, libpdfbox2-java, libqdox-java (\u003e= 1.12), libsaxon-java, libservlet-api-java, libxalan2-java, libxerces2-java, libxml-commons-external-java, libxml-maven-plugin-java, libxmlgraphics-commons-java (\u003e= 2.10), libxmlunit-java, maven-debian-helper, maven-repo-helper, unzip"
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "ant, ant-optional (\u003e= 1.8.2), default-jdk (\u003e= 2:1.8-58), help2man, junit4, libbatik-java (\u003e= 1.16), libbuild-helper-maven-plugin-java, libcommons-io-java, libcommons-logging-java, libfontbox2-java, libmaven-antrun-plugin-java, libmaven-assembly-plugin-java, libmaven-javadoc-plugin-java, libmockito-java, libpdfbox2-java, libqdox-java (\u003e= 1.12), libsaxon-java, libservlet-api-java, libxalan2-java, libxerces2-java, libxml-commons-external-java, libxml-maven-plugin-java, libxmlgraphics-commons-java (\u003e= 2.8), libxmlunit-java, maven-debian-helper, maven-repo-helper, unzip"
   ],
   "Checksums-Sha1": [
-    "9d0c5f16557772e8f5cfc090ffc9766c46dfd712 875064 fop_2.10+dfsg-2.debian.tar.xz b14e654f7afed376d3283d697061c23a97892134 2732 fop_2.10+dfsg-2.dsc be97fb46992f91c26e214afdc359e281bcd42955 9034448 fop_2.10+dfsg.orig.tar.xz"
+    "1537057ad3def80899526477dc96dd014414340a 873484 fop_2.8-2.debian.tar.xz 0cebd984c27a5ce7082fff3b2e56a20af8ce9532 2609 fop_2.8-2.dsc 0a5260dc4400704d70f01a1bc98de627f11f6d47 22855369 fop_2.8.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a6ee2271d83aa44b83793562a1402b69a52a318a533f167f4f43ea54a547bede 875064 fop_2.10+dfsg-2.debian.tar.xz c2e4c64e4e4a99ff8e2c99db9c2d3686d03667191c7759e9c8f65a2937454269 2732 fop_2.10+dfsg-2.dsc cbdbed6c7f34c0683277b044900f3dc295a0d8cecaacd9a9f0605ea7fb162566 9034448 fop_2.10+dfsg.orig.tar.xz"
+    "6ffe010fd9a42c39101f7cf8ac198ff0d4c0fc64b590a954eee1555b8377f3cf 873484 fop_2.8-2.debian.tar.xz 50362fc47b40c31e8f73499cc6acf2ebb1b707f375398288968a7075cc3695cb 2609 fop_2.8-2.dsc 6fb02fd7bc2ee80aff9e928e8b062ace5bc115222e5d3a6a4da70cd6cc6d06f7 22855369 fop_2.8.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "115928d32afa6b6ac9306256c6021a6dbe3d6c3d631a8be268ffee5f57b677acc70a2b0172789ebbefe834f7ba5ef44e1e2cc70422608f59cc8ec6dc66063642 875064 fop_2.10+dfsg-2.debian.tar.xz 422591df71dfbdc9c936b2be47005d408e3443fe2be93cf6fd1198b524d87be14708bb868740352bdaa72b5ca553c4fccf379129cc562ef1ef55fd8d2ef394de 2732 fop_2.10+dfsg-2.dsc d022341db0d32e6662ae6b92f6e10993249dacf6f9fb810b4e6e1686b11120e74f9a63732a999743cd972d5104eadb3b3d5924e7d13a886608e1352e5aca514a 9034448 fop_2.10+dfsg.orig.tar.xz"
+    "311c610d0d8598182acbdcc7f3231d2c87a6c6da29be27a1345a351adb74f61cf0e62b7be1d4ee294392f15b20951fccc8a0c5ac6d86b244bf753a5b3a975d67 873484 fop_2.8-2.debian.tar.xz d9af14f118dbf16da2e4bc7e782e24b0701b2155e71ca9bbcf3d4e6b9eea1fafa7afbd89ab7afcd18f44c941066a72ad9ee87bcf6e412342fdfc8875b8fa958c 2609 fop_2.8-2.dsc 22e1737b5cd87dc5e014838e2ad867ccf46bdc564fb5c231cc6b4c1f8a9862864679ea7ddf143126058553ed90045941fb07aa2657db9e3ed35660ce11169357 22855369 fop_2.8.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/f/fop"
   ],
   "Files": [
-    "11d882bd5fa832168a4bfd31f7d1441e 875064 fop_2.10+dfsg-2.debian.tar.xz b5fba64e57ccd7a30999048e1b27addf 2732 fop_2.10+dfsg-2.dsc 468f0664096bc4b8afb2807127a2b362 9034448 fop_2.10+dfsg.orig.tar.xz"
+    "162bfac5cb56ed4642bd2f066c5654ac 873484 fop_2.8-2.debian.tar.xz 5887beb7d849ffeeb34beb0ca34a1099 2609 fop_2.8-2.dsc 610bfd7797755d744b2c4f61422478cf 22855369 fop_2.8.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://xmlgraphics.apache.org/fop/"
+    "http://xmlgraphics.apache.org/fop/"
   ],
   "Maintainer": [
     "Debian Java Maintainers \u003cpkg-java-maintainers@lists.alioth.debian.org\u003e"
@@ -39,7 +42,7 @@
     "fop deb text optional arch=all fop-doc deb doc optional arch=all libfop-java deb java optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.5.1"
   ],
   "Uploaders": [
     "Torsten Werner \u003ctwerner@debian.org\u003e, Mathieu Malaterre \u003cmalat@debian.org\u003e"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/java-team/fop.git"
   ],
   "Version": [
-    "1:2.10+dfsg-2"
+    "1:2.8-2"
   ]
 }

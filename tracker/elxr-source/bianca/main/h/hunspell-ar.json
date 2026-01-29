@@ -6,34 +6,34 @@
     "hunspell-ar"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13)"
+    "debhelper (\u003e\u003e 9)"
   ],
   "Build-Depends-Indep": [
-    "convert-bdic, dictionaries-common-dev"
+    "dictionaries-common-dev (\u003e= 0.49.2)"
   ],
   "Checksums-Sha1": [
-    "ee1e5fd8f97e4027c77b30bd1b521ede6824bc20 4796 hunspell-ar_3.5.2014-11-08-5.debian.tar.xz bbd01b2f14313a36821ba035ead6c389c4082f02 2139 hunspell-ar_3.5.2014-11-08-5.dsc be0f4bdbd4d248123102e41a090b19b9825dbe12 1529286 hunspell-ar_3.5.2014-11-08.orig.tar.gz"
+    "6aa5e6e8d079511e7cf464c33b7ecd33cc303423 3520 hunspell-ar_3.2-1.2.debian.tar.xz 37705cb4eb3b6554caea9d58c896bd1145b15960 1828 hunspell-ar_3.2-1.2.dsc 6e8aec91ec1bdcbab70f3e5c390812dd555d4ef0 822323 hunspell-ar_3.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "96351dee7dde23084a3a8a4a7c3c398c080ea7095f9cf3a0d5cd2f56688095f3 4796 hunspell-ar_3.5.2014-11-08-5.debian.tar.xz ac36b62ac43c251f1085307a00c6528731f6c7242a1189b529200be9cfe433e1 2139 hunspell-ar_3.5.2014-11-08-5.dsc 5f9af0365d92232282be0f05172415679c5de0fd710a8c006fb66194bd4c59ba 1529286 hunspell-ar_3.5.2014-11-08.orig.tar.gz"
+    "41b129a02f2dd70eb1a4229066510a8552ab38dfd0875e14ddb6f0d13ea156cc 3520 hunspell-ar_3.2-1.2.debian.tar.xz 1dbb769d41a30a6840cce013c5dbc72fd7bbd6a0c192964820acede2f600acfa 1828 hunspell-ar_3.2-1.2.dsc 461f2bbc3a9bdfc98ecbb8294272bd2610b724b44bf4b1bd28aaa043cc7e5165 822323 hunspell-ar_3.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "65ae249dc0364c71be554f927ece40e77c26b411ae8e20303a290c3eec0cb5a29f258981f16965ae99f26182f00eb75d354e17ab62e5b2a3d0746af950557e15 4796 hunspell-ar_3.5.2014-11-08-5.debian.tar.xz 2cf7c2ed55a6072aed2303ef2e10e83676109926bcaba53abd9df47993e9ee3b715d0ba4299592b7d797c734abb45a6397ac1476afcb9609c70daa481889577a 2139 hunspell-ar_3.5.2014-11-08-5.dsc 58ecdb6eb0240c710b8c7f8b55fa3a06aeb203b626d857a0e9becb64801e85c6ec6d65e5342346b896c9ed6f46778054b835ecdf874fddfdb41993f7dadb15a6 1529286 hunspell-ar_3.5.2014-11-08.orig.tar.gz"
+    "1e890d0759193042afbcee092675a799b238cbe5b56c54bb80ce5080b3d7dc36fae1197aca8b05aeed5a3fae68fdc5af0428599a669e6aed577ab9958f9c0b4b 3520 hunspell-ar_3.2-1.2.debian.tar.xz acd73e5998895f0fe4d8baafbd603e1fb851df7076d4320ac07a2677044e87844fbec6440f104905b58e39bf78aaca18dd30ecca3b4434c2557845dfe20fb108 1828 hunspell-ar_3.2-1.2.dsc 533857637ed645ce49c336918679c820d25a265acebc6920cc1c1f689b8e8b70c612038903749c508fea0bf4d8a28e9b9648051714c069c3491c1474d768b53b 822323 hunspell-ar_3.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/h/hunspell-ar"
   ],
   "Files": [
-    "348f9de8c5852cc644c0d3333ee1b588 4796 hunspell-ar_3.5.2014-11-08-5.debian.tar.xz 24371e09e8e4474d234454e8edc4da8c 2139 hunspell-ar_3.5.2014-11-08-5.dsc 019ae9d5ba28c95922be916c62c8d6ee 1529286 hunspell-ar_3.5.2014-11-08.orig.tar.gz"
+    "bdd0b42e2a66892d40f26b3a0b6ddbae 3520 hunspell-ar_3.2-1.2.debian.tar.xz e687c1dc8d87a7068b146814186ff3ca 1828 hunspell-ar_3.2-1.2.dsc c773ad592af4971e0867869e9692c403 822323 hunspell-ar_3.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://ayaspell.sourceforge.net/"
+    "http://ayaspell.sourceforge.net/"
   ],
   "Maintainer": [
-    "Soren Stoutner \u003csoren@debian.org\u003e"
+    "Lior Kaplan \u003ckaplan@debian.org\u003e"
   ],
   "Package": [
     "hunspell-ar"
@@ -42,18 +42,12 @@
     "hunspell-ar deb text optional arch=all"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "3.9.3"
   ],
   "Uploaders": [
-    "Lior Kaplan \u003ckaplan@debian.org\u003e, Mohammed Sameer \u003cmsameer@debian.org\u003e, Manuel Guerra \u003car.manuelguerra@gmail.com\u003e"
-  ],
-  "Vcs-Browser": [
-    "https://salsa.debian.org/debian/hunspell-ar"
-  ],
-  "Vcs-Git": [
-    "https://salsa.debian.org/debian/hunspell-ar.git"
+    "Mohammed Sameer \u003cmsameer@debian.org\u003e"
   ],
   "Version": [
-    "3.5.2014-11-08-5"
+    "3.2-1.2"
   ]
 }

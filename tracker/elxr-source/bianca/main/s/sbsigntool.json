@@ -1,6 +1,6 @@
 {
   "Architecture": [
-    "any-amd64 any-i386 any-riscv64 any-loong64 arm64 armhf"
+    "any-amd64 any-i386 any-riscv64 arm64 armhf"
   ],
   "Binary": [
     "sbsigntool"
@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), gcc-multilib [amd64 i386 kfreebsd-amd64], binutils-dev, libssl-dev, openssl, pkg-config, automake, uuid-dev, help2man, gnu-efi"
   ],
   "Checksums-Sha1": [
-    "c6c50f58f4f5177f822e221d79807063d6b18010 9104 sbsigntool_0.9.4-3.2.debian.tar.xz 44c47c83d2ed5ed4493e3b7da827720450ea0ee3 2020 sbsigntool_0.9.4-3.2.dsc a1cbbcf117d57239be1ae8c950e13d5c1b689a51 112496 sbsigntool_0.9.4.orig.tar.xz"
+    "5a5748eaba65e50d18898b56c48563d73fbe8870 8784 sbsigntool_0.9.4-3.1.debian.tar.xz 66491a7aca7aea07e7044491ccb907e6a5a1a6fe 1846 sbsigntool_0.9.4-3.1.dsc a1cbbcf117d57239be1ae8c950e13d5c1b689a51 112496 sbsigntool_0.9.4.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "d6fd7f3a343d4ba19b3fc926c22c57e977eb0f8c7163506a983f110ed74b8b0a 9104 sbsigntool_0.9.4-3.2.debian.tar.xz 573b4bafbe846a49435dc745d472218dfa8a1bd23c2b0fac410b942040362681 2020 sbsigntool_0.9.4-3.2.dsc 016d7db322492b09f2f8a3bc02aa2b643db3ca0f31f9efa630c3e8ddef9484e8 112496 sbsigntool_0.9.4.orig.tar.xz"
+    "4ca67de7dbda322c5538b93cfcb70010e3c23d408b1afd6d426effd6d7a68fb0 8784 sbsigntool_0.9.4-3.1.debian.tar.xz ad144c4a21fae66d05eb818d4a3cbd9bb32204f16956fee0530bcee1e2e71fb9 1846 sbsigntool_0.9.4-3.1.dsc 016d7db322492b09f2f8a3bc02aa2b643db3ca0f31f9efa630c3e8ddef9484e8 112496 sbsigntool_0.9.4.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "4034c599b7f9db6e14f9c83065faac7c3e88326b86a01b04dd329ab922747e66ea04db47edd7f1e9b9c12b52065f28f3bde6feaaaf6d7e5b58c76a157371decd 9104 sbsigntool_0.9.4-3.2.debian.tar.xz 922750142c2dfff291d78c2c0debe502f0f4e03bcd27dcf5dce095b727fc4fb4fe48fefa6aa8a0a39dfb0fbb15183e0954c8a0209acfaa78e94e48afa47ea42b 2020 sbsigntool_0.9.4-3.2.dsc 1caf0a96f21226d7cd08e905609e3b1fb1be595113cd575b7b59750bdb84511cf55b2b5f1d8ec77c173c526c224e9f25c4932848bb2ebafcb005a4b3010b1e27 112496 sbsigntool_0.9.4.orig.tar.xz"
+    "01a563c59dd3172344099751e802d4c645adffef29ab133c8bc186ec802d42c0475ff59c34a5e7ba4f219108cf15ad65f11998ae022b42302aff8039c4138f69 8784 sbsigntool_0.9.4-3.1.debian.tar.xz 7ff7680b44d2664a6195393f0ae15a242c1498fd1af643b2768c46d8f60defd1eb208f2d4e6576c8037c369bb638a3367cb567d73d81c26535585e53f6c8647e 1846 sbsigntool_0.9.4-3.1.dsc 1caf0a96f21226d7cd08e905609e3b1fb1be595113cd575b7b59750bdb84511cf55b2b5f1d8ec77c173c526c224e9f25c4932848bb2ebafcb005a4b3010b1e27 112496 sbsigntool_0.9.4.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/s/sbsigntool"
   ],
   "Files": [
-    "638a92d2c026bb991342ae8b6139a611 9104 sbsigntool_0.9.4-3.2.debian.tar.xz d47f063998ecfda220781e98bb0c1078 2020 sbsigntool_0.9.4-3.2.dsc 80509324ba16828b26f10ecefc3b8f2f 112496 sbsigntool_0.9.4.orig.tar.xz"
+    "57094878f8554cb897bb2c70fad5e7c6 8784 sbsigntool_0.9.4-3.1.debian.tar.xz 45cce2cc86b2b2bd52e7574e861ecfa7 1846 sbsigntool_0.9.4-3.1.dsc 80509324ba16828b26f10ecefc3b8f2f 112496 sbsigntool_0.9.4.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -33,7 +33,7 @@
     "sbsigntool"
   ],
   "Package-List": [
-    "sbsigntool deb utils optional arch=any-amd64,any-i386,arm64,armhf,any-riscv64,any-loong64"
+    "sbsigntool deb utils optional arch=any-amd64,any-i386,arm64,armhf,any-riscv64"
   ],
   "Standards-Version": [
     "4.5.1"
@@ -42,6 +42,6 @@
     "Pierre Chifflier \u003cpollux@debian.org\u003e, Steve McIntyre \u003c93sam@debian.org\u003e"
   ],
   "Version": [
-    "0.9.4-3.2"
+    "0.9.4-3.1"
   ]
 }

@@ -6,22 +6,22 @@
     "puppet-module-saz-memcached"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13)"
+    "debhelper (\u003e= 11)"
   ],
   "Checksums-Sha1": [
-    "1d37e192960121073da7ee4c535bca67b60abcb9 5048 puppet-module-saz-memcached_8.2.0-4.debian.tar.xz cb90777d0333e426980b39096a099abc1f11aeac 1656 puppet-module-saz-memcached_8.2.0-4.dsc 63616abe6fbad363d9525269283d863d6eaa08cd 11075 puppet-module-saz-memcached_8.2.0.orig.tar.gz"
+    "4c9a374b4baa6ff7b43485a75d1c6dbe904dfd77 3372 puppet-module-saz-memcached_3.1.0-1.debian.tar.xz 5e073964c3f032cb57496aca29465e3ab899cfad 2183 puppet-module-saz-memcached_3.1.0-1.dsc 5921e2c9495d55a09bc07c39384a76b57aa04035 10274 puppet-module-saz-memcached_3.1.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "48708ae0b0f8709e67da94b47cdeaa1e6c26e9f285a93b30d544b583ecb57551 5048 puppet-module-saz-memcached_8.2.0-4.debian.tar.xz e0a1c66f27774be8e1fad91c565e7e264b762580cf43f7d9d3b3b70d5e66cda5 1656 puppet-module-saz-memcached_8.2.0-4.dsc de99a03095ddbb522e7b9d95e20c645a2af1e7687c184726450713d3597bb97e 11075 puppet-module-saz-memcached_8.2.0.orig.tar.gz"
+    "c99cf32ea4649f639596e8db3b73f5031f9f29917afeb8f5c9bf4b9330ad9cd3 3372 puppet-module-saz-memcached_3.1.0-1.debian.tar.xz 9827d954799688aa74095c0b36417f63db1bf8daee933ab013f8044d83b8f0c6 2183 puppet-module-saz-memcached_3.1.0-1.dsc e9004c0caaea7d2547ff6222c813db955974ed8c2f45bd093ca184c873bd0a08 10274 puppet-module-saz-memcached_3.1.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "37de87186726c3d545a40530ca43a11778bcd63306c8851da0cc43a9716c3f53f36dfc1bacb3f3f7d5cd7e6cf6aac6068887c92a4898ad2ba91a939e19b6ecf4 5048 puppet-module-saz-memcached_8.2.0-4.debian.tar.xz cf75b386c2100e21e60191bb72dceff3dc8e7fb54a3dbb25782ac0f43049b0b426d8eae9e0eb200a052988b0212d7876ba404323ed1f9bb0e105ff92c5ba95c1 1656 puppet-module-saz-memcached_8.2.0-4.dsc 3ec21a34858c9a0575b8db30e6a4d5eacff3576d628d14efe6311e5b6019c237f65bd99843bace6fb14e1225fd2f1a9454dc45cd456f40d10ad73d6e517652ed 11075 puppet-module-saz-memcached_8.2.0.orig.tar.gz"
+    "99402ae5f10bc17e32c83c0f27156d1e144bf1b5061a8a1aa402b655df8b87fd16720bb753a2d6831137d252103bbebaa3a258444fb754f7420a81ae997a330a 3372 puppet-module-saz-memcached_3.1.0-1.debian.tar.xz c04733d134615cea0df3e2c9386b1b83348773c2dc9afdf6658db382f13c055cd2724065f8cc258b218dd006b2eab1ad9400f854c1ae609e1d6b7ad5e78f5af6 2183 puppet-module-saz-memcached_3.1.0-1.dsc 2bf461bfc49be702b24ee21ca66593819b5392dfe7e0e03a9edff13eefeabc39275194a59d98526ceb2487e8c3357cd65e504f5f0357fd6a96ab0a074d28e3f4 10274 puppet-module-saz-memcached_3.1.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/puppet-module-saz-memcached"
   ],
   "Files": [
-    "e5207fd39a1da69fc5ec3935e99340af 5048 puppet-module-saz-memcached_8.2.0-4.debian.tar.xz fb61152713dba44f7a4220fe7afb24e7 1656 puppet-module-saz-memcached_8.2.0-4.dsc 1a78de4cf90b21ce41bdece97b1b7810 11075 puppet-module-saz-memcached_8.2.0.orig.tar.gz"
+    "57721ff34658ac376173bcce00846326 3372 puppet-module-saz-memcached_3.1.0-1.debian.tar.xz 66ff701995559affeafd526017876f26 2183 puppet-module-saz-memcached_3.1.0-1.dsc 0d8ebed197bd8e910bdb102b28f208a7 10274 puppet-module-saz-memcached_3.1.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,16 +39,13 @@
     "puppet-module-saz-memcached deb admin optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.1.3"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
-  "Testsuite-Triggers": [
-    "libmemcached-tools, puppet-agent, ruby-serverspec"
-  ],
   "Uploaders": [
-    "Stig Sandbeck Mathisen \u003cssm@debian.org\u003e, Sebastien Badia \u003csbadia@debian.org\u003e,"
+    "Stig Sandbeck Mathisen \u003cssm@debian.org\u003e, Sebastien Badia \u003csbadia@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/puppet-team/puppet-module-saz-memcached"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/puppet-team/puppet-module-saz-memcached.git"
   ],
   "Version": [
-    "8.2.0-4"
+    "3.1.0-1"
   ]
 }

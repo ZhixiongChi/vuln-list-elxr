@@ -1,36 +1,30 @@
 {
   "Architecture": [
-    "linux-any all"
+    "linux-any"
   ],
   "Binary": [
-    "libcap2-bin, libcap2, libcap-dev, libpam-cap, libcap2-udeb, golang-kernel-pub-linux-libs-security-libcap-dev"
+    "libcap2-bin, libcap2, libcap-dev, libpam-cap, libcap2-udeb"
   ],
   "Build-Depends": [
-    "patchelf, debhelper-compat (= 13), gperf (\u003e= 3.1), indent, libpam0g-dev"
-  ],
-  "Build-Depends-Indep": [
-    "dh-golang, golang-any"
+    "chrpath, debhelper-compat (= 13), gperf (\u003e= 3.1), indent, libpam0g-dev"
   ],
   "Checksums-Sha1": [
-    "f8208645a5d0361007d8da7ae3c8622350da348b 22964 libcap2_2.75-10.debian.tar.xz f658629eeac4117fefdb965c16213ce51db31d03 2703 libcap2_2.75-10.dsc 1551cef1dd86c56a41c6e5793a79d7a7a9c648fb 197868 libcap2_2.75.orig.tar.xz fe47ee3715175c88a5261a6f6275ea6eddf426dd 833 libcap2_2.75.orig.tar.xz.asc"
+    "a631dd8f65d048db8273f2de4a9ab27d1be90566 22304 libcap2_2.66-4+deb12u2.debian.tar.xz bb1206641d0568757a2a72792d11a32c6447a210 2236 libcap2_2.66-4+deb12u2.dsc d440e60686bd542e2a6481986c63ee8de625563e 181592 libcap2_2.66.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "b1eb36e050fa1d03e83df78f35ef8538f05cd3ad96a7362cb4113b2541a390ce 22964 libcap2_2.75-10.debian.tar.xz b7a692cecf4d1975991073b77e7a5e45106d62f428f010284fc44f323f1acce7 2703 libcap2_2.75-10.dsc de4e7e064c9ba451d5234dd46e897d7c71c96a9ebf9a0c445bc04f4742d83632 197868 libcap2_2.75.orig.tar.xz c71b593e7c3160fd7f406641074d93462bbc4906c9243937a0e232f42d5c54d2 833 libcap2_2.75.orig.tar.xz.asc"
+    "b60f0b25112d6ec9fcbd410b05dd56ba93db636969bda57362e57113fc338984 22304 libcap2_2.66-4+deb12u2.debian.tar.xz c7dbaba2c03fc9a22265abc376e658f2c7ee3e641374255ab65275ac4e658b4e 2236 libcap2_2.66-4+deb12u2.dsc 15c40ededb3003d70a283fe587a36b7d19c8b3b554e33f86129c059a4bb466b2 181592 libcap2_2.66.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "7482b79a7ced4af2930378435a6f084682fa34ccaf06c0d0046786a26d8655bd342d3a0c465dbaa5c93d0cffea2e0cf8cc8a2d51d75035b8e99b832dda34b919 22964 libcap2_2.75-10.debian.tar.xz 9d2d291c4cea614ed616521f24d3c67104d1246ea62b5628b4fd01742854e8ba2d5c6f5b0ecd0f6d8514394beb755256141770be6e3ed21d1540eed90a719381 2703 libcap2_2.75-10.dsc 229e9b62a1d54024107cbf321fffcb152c0071154554a3fcee6e09e19cc47fd1fd862575135a4fc589b79a043f760bf40d26ea9fd58638f26e809533c017d65f 197868 libcap2_2.75.orig.tar.xz 6a6af52ef3a48356d8c205827aa039ed852ec4a1cfea44f00613457380478ebd4946caf933a8ebdf98899b14340b9a7ef9b7151c4659329e2fd80590667d59d9 833 libcap2_2.75.orig.tar.xz.asc"
+    "23d55f2cf1fa604d85f8a9b4e4ef724b7272fc544d1f4dd1778728f5a76438e8b3c6fd97411983260ff5a5ef8a23e5afd03aeca9e2feee91d987169d4780e7f7 22304 libcap2_2.66-4+deb12u2.debian.tar.xz 39e6b841d5a137c5fb09793ba4616a752e2633a33c68b3481b5178f4f9490da8a30aaf4be4b53205cb8e1dc62bce8bd632bae412c8033f3dd7ecf56e83e21972 2236 libcap2_2.66-4+deb12u2.dsc ac005b622f6e065f30ce282a5c87240e7b9da75366ee537aa4835bc501b44bc242c10a4ba4dc070e2415fc7f635d1c3c4e45fbeeaf962cf7973dda82bf6377f0 181592 libcap2_2.66.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libc/libcap2"
   ],
   "Files": [
-    "6f33e824a86002319dfff807a18ad83e 22964 libcap2_2.75-10.debian.tar.xz 88d3bcc644e2dce5fed31ce29e917183 2703 libcap2_2.75-10.dsc 9406193ddb794dfbf9e71490053085f9 197868 libcap2_2.75.orig.tar.xz b8b508155e1073651e2cdceec97d57ff 833 libcap2_2.75.orig.tar.xz.asc"
+    "1a23996f9848b925a454db56cd368f68 22304 libcap2_2.66-4+deb12u2.debian.tar.xz bf9480565ae7636e3d5a591c0e6e1f08 2236 libcap2_2.66-4+deb12u2.dsc 00afd6e13bc94b2543b1a70770bdb41f 181592 libcap2_2.66.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
-  ],
-  "Go-Import-Path": [
-    "kernel.org/pub/linux/libs/security/libcap"
   ],
   "Homepage": [
     "https://sites.google.com/site/fullycapable/"
@@ -42,10 +36,10 @@
     "libcap2"
   ],
   "Package-List": [
-    "golang-kernel-pub-linux-libs-security-libcap-dev deb libs optional arch=all libcap-dev deb libdevel optional arch=linux-any libcap2 deb libs optional arch=linux-any libcap2-bin deb utils important arch=linux-any libcap2-udeb udeb debian-installer optional arch=linux-any profile=!noudeb libpam-cap deb admin optional arch=linux-any"
+    "libcap-dev deb libdevel optional arch=linux-any libcap2 deb libs optional arch=linux-any libcap2-bin deb utils important arch=linux-any libcap2-udeb udeb debian-installer optional arch=linux-any profile=!noudeb libpam-cap deb admin optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +54,6 @@
     "https://salsa.debian.org/debian/libcap2.git"
   ],
   "Version": [
-    "1:2.75-10"
+    "1:2.66-4+deb12u2"
   ]
 }

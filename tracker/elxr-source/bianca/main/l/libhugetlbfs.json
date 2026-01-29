@@ -1,6 +1,6 @@
 {
   "Architecture": [
-    "amd64 arm64 armhf armel i386 ia64 loong64 ppc64el s390x powerpc ppc64 riscv64 sparc64"
+    "amd64 arm64 armhf armel i386 ia64 ppc64el s390x powerpc ppc64 riscv64 sparc64"
   ],
   "Binary": [
     "libhugetlbfs-dev, libhugetlbfs0, libhugetlbfs-bin"
@@ -9,19 +9,19 @@
     "debhelper (\u003e= 12), python3-minimal, libpython3-stdlib"
   ],
   "Checksums-Sha1": [
-    "233e210e3119e9f0b7132e024b7d0ad02a778b51 4888 libhugetlbfs_2.24-1.debian.tar.xz d9f2ff828bbdefdb67b35af1b7126f65f3e26eb6 2387 libhugetlbfs_2.24-1.dsc 6695b9993833f392fba6c4d7a972c28452849c30 184863 libhugetlbfs_2.24.orig.tar.gz"
+    "6eb6e593d0c7494c89e63187a2827df2210437b4 7424 libhugetlbfs_2.23-5.debian.tar.xz 0355bcd395a32457880b352e0322e1211c35af59 2355 libhugetlbfs_2.23-5.dsc 95f4d8f4ba858c118073a8c40dd25389e5f30012 175459 libhugetlbfs_2.23.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "b03b6929a30184a3b0ef37e47a2c376b2032846894b903a9ef08d61d44068583 4888 libhugetlbfs_2.24-1.debian.tar.xz d7e23d7e441642e9aab8f9e606218613bb3696f555ad4c0fcc9594a66d688d16 2387 libhugetlbfs_2.24-1.dsc e6731ce521cf3d9da4c55af005d5a14cddd0e4a25d7fe6fd13543cef39b2a704 184863 libhugetlbfs_2.24.orig.tar.gz"
+    "ccb61fe1df92f8688cd116e474f2069025d07f2f68d6f93dda308bc94274761b 7424 libhugetlbfs_2.23-5.debian.tar.xz 32e003e6684eb5e02a910c2191f97ac0b9dea6ed95290d6be898134d642515ae 2355 libhugetlbfs_2.23-5.dsc 9358da721c8772e56c92b04e8f841d46bc895f840ad990e752297344d1ec6eb8 175459 libhugetlbfs_2.23.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "0e89ffd8a180e1ad72c2ced3c4afa2436bf749293f37d6cb7607caae6b505213145fc4cdb18d40fee4628c92e7df15119b297117dcd79e7055fe8a8b3e6c67a9 4888 libhugetlbfs_2.24-1.debian.tar.xz d47db7d6ec82acc04c4fb5b64e5e5921f9d7ed19b2332050cd4bc6639ea6d4ea5e770e55917101818c085028932ef6a6c5ea117a37521d87879d045ceca8d596 2387 libhugetlbfs_2.24-1.dsc fa8e6bc7536c8d44fe6697ce4ddbca6e59a922eb5884a3427c3d638b9c1f62477e0c1072e79928637967ba26a47dd98ce83ef7c07549aaff2cae1b999e67d66d 184863 libhugetlbfs_2.24.orig.tar.gz"
+    "d1f509741632ffc0964b18d96a0fdf289c69ed46e6426477309000df2c98f5ccdf081cb9453b85ea151ab63669c19996ba27334fd480a0f9287447e6abe0100f 7424 libhugetlbfs_2.23-5.debian.tar.xz 2840fb314cafbe9bab7b5a055a47d9abf39a6bde619d5df761d970864be478c700ed3bee7cd7c96a6a999e5a91c3fe586d83a3c701412be0468f153862c6ce4f 2355 libhugetlbfs_2.23-5.dsc fc9a7d59bcda9d3ca9c9e43a3a348f989c9cbdbbb77f21a43a06e71eacd05bbe5a7b2b51e20ae9ea00da9f1c4d1130da529bbfb702e8c9d11cab6efadd3dc168 175459 libhugetlbfs_2.23.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libh/libhugetlbfs"
   ],
   "Files": [
-    "02c900760fadfe423b1b1a86de5d3f29 4888 libhugetlbfs_2.24-1.debian.tar.xz befcaf445833555392d8c547981ddcfd 2387 libhugetlbfs_2.24-1.dsc efc993f7455d77fbe89cb3b42a4bba4e 184863 libhugetlbfs_2.24.orig.tar.gz"
+    "e0c87a6faed0dfca4b820c4b5ea1af22 7424 libhugetlbfs_2.23-5.debian.tar.xz d873d7fa9561c4c207ca0ff996a277f3 2355 libhugetlbfs_2.23-5.dsc 971c572517f4d200fa62657d0e5c9e26 175459 libhugetlbfs_2.23.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "libhugetlbfs"
   ],
   "Package-List": [
-    "libhugetlbfs-bin deb utils optional arch=amd64,arm64,armhf,armel,i386,ia64,loong64,ppc64el,s390x,powerpc,ppc64,riscv64,sparc64 libhugetlbfs-dev deb libdevel optional arch=amd64,arm64,armhf,armel,i386,ia64,loong64,ppc64el,s390x,powerpc,ppc64,riscv64,sparc64 libhugetlbfs0 deb libs optional arch=amd64,arm64,armhf,armel,i386,ia64,loong64,ppc64el,s390x,powerpc,ppc64,riscv64,sparc64"
+    "libhugetlbfs-bin deb utils optional arch=amd64,arm64,armhf,armel,i386,ia64,ppc64el,s390x,powerpc,ppc64,riscv64,sparc64 libhugetlbfs-dev deb libdevel optional arch=amd64,arm64,armhf,armel,i386,ia64,ppc64el,s390x,powerpc,ppc64,riscv64,sparc64 libhugetlbfs0 deb libs optional arch=amd64,arm64,armhf,armel,i386,ia64,ppc64el,s390x,powerpc,ppc64,riscv64,sparc64"
   ],
   "Standards-Version": [
     "4.5.0"
@@ -48,6 +48,6 @@
     "https://github.com/punitagrawal/libhugetlbfs.git"
   ],
   "Version": [
-    "2.24-1"
+    "2.23-5"
   ]
 }

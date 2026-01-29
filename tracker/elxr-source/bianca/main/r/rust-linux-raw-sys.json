@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "librust-linux-raw-sys-dev"
+    "librust-linux-raw-sys-dev, librust-linux-raw-sys+compiler-builtins-dev, librust-linux-raw-sys+core-dev, librust-linux-raw-sys+default-dev, librust-linux-raw-sys+rustc-dep-of-std-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.63) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "176078298af09d93b86f95fbc091351ea97e51ae 4348 rust-linux-raw-sys_0.4.14-1.debian.tar.xz 3fbf572724a51098164da8676b6a89420de16307 1674 rust-linux-raw-sys_0.4.14-1.dsc 4788f1e0e25840eab2338b3a9b900d3026871d7a 1826665 rust-linux-raw-sys_0.4.14.orig.tar.gz"
+    "1ee54a4bc5420b9b9f3cacc4ed66021c296af24e 4120 rust-linux-raw-sys_0.0.46-3.debian.tar.xz c3dfeaad66651030d3172f824d4ed7fddd75c989 2701 rust-linux-raw-sys_0.0.46-3.dsc 1d04bcf6f9463ca7831e1c55ae211949e5708d74 807633 rust-linux-raw-sys_0.0.46.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "95eec6ef60bd322a6066eb9f7232381b126dfc37009bda9d443fdf09a6948b94 4348 rust-linux-raw-sys_0.4.14-1.debian.tar.xz 710291227e832380a4b786b469fdfee1f252aff8ed9cb62e4a44446ee80344d8 1674 rust-linux-raw-sys_0.4.14-1.dsc 78b3ae25bc7c8c38cec158d1f2757ee79e9b3740fbc7ccf0e59e4b08d793fa89 1826665 rust-linux-raw-sys_0.4.14.orig.tar.gz"
+    "3f3ade748f506a89de4e341ea4d167efd10cbfc3aff69950a41bc53163482ad5 4120 rust-linux-raw-sys_0.0.46-3.debian.tar.xz f84272fbff4794b44276fb21cc796c0c3c19917008dcedfdd95156717bec150a 2701 rust-linux-raw-sys_0.0.46-3.dsc d4d2456c373231a208ad294c33dc5bff30051eafd954cd4caae83a712b12854d 807633 rust-linux-raw-sys_0.0.46.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "ceabfe4cd4c9a5c0876877ade388869b664584b2b71a987a44e0f5e2ba0bb02001f549927ee38e07ec7222eb9100968ba8515d6ed2da6909e99560f2093d6350 4348 rust-linux-raw-sys_0.4.14-1.debian.tar.xz b30177211feaf914020410e7cb466a8f07a1e0c6ceccbcd51b7ecc130a4dd511f5913fbe6ecff94746e320bc855c6dda00bbe7a61f8e90d7807d99254647480a 1674 rust-linux-raw-sys_0.4.14-1.dsc 28149660bd975ede05624af3582d5c78f498239f5d89713c2c32f5372fc16f4ca024dec35f81ea973a2cf986098890395dbda06ac6cf4ee29df3f9a0e11eaea7 1826665 rust-linux-raw-sys_0.4.14.orig.tar.gz"
+    "0f80c6df9ee621966f9b75452699374471311ce98e1f09d5cf604adab887485434ab6f2df2b2f1a90d2d0bd65b7c1a226fcd2fca5dacaeaf8c00acc9819846e6 4120 rust-linux-raw-sys_0.0.46-3.debian.tar.xz 42df9b68e470760df36fe3c6be38af91d2706821a4274cdbe23854029e8c8e9fe6c724853336a320579e6819267925886da95ef499c3c8823409076ac7e3a761 2701 rust-linux-raw-sys_0.0.46-3.dsc b821ab53d9a885b9dfef6eb3d36a422525cf35d797fe32fee3abf9bb5463712af57febf684c9ab41b5de40c9b0e73d9e369599497f7a7f1314ff455795d32b39 807633 rust-linux-raw-sys_0.0.46.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-linux-raw-sys"
   ],
   "Files": [
-    "079f8f07be90511bb3e741d2af156fad 4348 rust-linux-raw-sys_0.4.14-1.debian.tar.xz 2dbc206dbd6decebeaf32a006e066837 1674 rust-linux-raw-sys_0.4.14-1.dsc 6d16890925497732bdbedd7636c9546f 1826665 rust-linux-raw-sys_0.4.14.orig.tar.gz"
+    "0f5adf0e2dbeb55825321dd0dbfedff0 4120 rust-linux-raw-sys_0.0.46-3.debian.tar.xz efdfb048ff9bd04f2beaac75153ebc86 2701 rust-linux-raw-sys_0.0.46-3.dsc f8252947139c501007f1955ead047703 807633 rust-linux-raw-sys_0.0.46.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -33,16 +33,16 @@
     "rust-linux-raw-sys"
   ],
   "Package-List": [
-    "librust-linux-raw-sys-dev deb rust optional arch=any"
+    "librust-linux-raw-sys+compiler-builtins-dev deb rust optional arch=any librust-linux-raw-sys+core-dev deb rust optional arch=any librust-linux-raw-sys+default-dev deb rust optional arch=any librust-linux-raw-sys+rustc-dep-of-std-dev deb rust optional arch=any librust-linux-raw-sys-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-libc-0.2+default-dev, librust-static-assertions-1+default-dev, rustc"
+    "dh-cargo, librust-libc-0.2+default-dev, librust-static-assertions-1+default-dev"
   ],
   "Uploaders": [
     "John Goerzen \u003cjgoerzen@complete.org\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/linux-raw-sys]"
   ],
   "Version": [
-    "0.4.14-1"
+    "0.0.46-3"
   ]
 }

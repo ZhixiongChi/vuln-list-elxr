@@ -6,22 +6,22 @@
     "libnss-cache"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), time"
+    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.16.1.1~), time"
   ],
   "Checksums-Sha1": [
-    "30a27c9653efd7a193e7f90435f13f537f982b0c 3396 libnss-cache_0.22-1.debian.tar.xz c303e5f3c02344a174fd265ccc9a33d1592e62a5 1906 libnss-cache_0.22-1.dsc 9d7ac212364faa6edef3ed47d4c00c51be19be30 20032 libnss-cache_0.22.orig.tar.gz"
+    "292c98880a038e3ccbd0af036b0deea2a9aa206c 3284 libnss-cache_0.18-2.debian.tar.xz d928367e9e3c30e791b873f5332b63dfe277a168 1890 libnss-cache_0.18-2.dsc 4a7b90bba935d2c17ede6dac0c515d4bec838dc4 19923 libnss-cache_0.18.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "36b52134264282396316dc7ab82807bc48c299708028acc028e858bbb27b5b3f 3396 libnss-cache_0.22-1.debian.tar.xz d7a87990742cca50c0982b1bd984441bc7fdc9beb77af1b2ac6d850878e15539 1906 libnss-cache_0.22-1.dsc fa7b3daa3c93616e620606f3c3bcd9f2b31157ed5f821eeeb5eaf350e91d1dc3 20032 libnss-cache_0.22.orig.tar.gz"
+    "4c2ada8069ad35f3d94678e612527d3686b139c9b8f2b05a7964e60ba464f51c 3284 libnss-cache_0.18-2.debian.tar.xz 2bbc47af3d8ee21ac43328e3994ccd098ace28a68f2b01553608d46612a850bb 1890 libnss-cache_0.18-2.dsc 0f1a91db01083b78a6649b1d4709fed6c30f20d79c5e6dcc114e7fd9f54fff72 19923 libnss-cache_0.18.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a6e7a2489ba0e005bec519f63b552c9580f6ddc20c39a49278612ed75ef6daf0c5310e75b65c7a781425aa4c7c3c76a857c4a473d36c026d78516a08e9537274 3396 libnss-cache_0.22-1.debian.tar.xz e80ceaa4250e49cc8d839bef6b0a32ddec70f9d5c89f1c9fd4e5cfc1f349c11066ca3e85cfa6b9f31ca0d37918669c71fcc4f76b1d8dbf8d6293cc3d0b0e02b7 1906 libnss-cache_0.22-1.dsc f1e12b873eec81efa8ad10b07722d69f1268d081b8cfe12028d623d289200beaca5f9767ec4920564fd16372c6248ee84bb20dada2382e2621a265a9bc63267d 20032 libnss-cache_0.22.orig.tar.gz"
+    "22752ad94ea99af58fe3671ba2c02a402710a2bd602fc592d31cb7b27cda5438863042408b20ab972a063d3893b64025300777af5c9fde8c2a7445b708a9a2e1 3284 libnss-cache_0.18-2.debian.tar.xz 210943878e0d6716329346a22497c14d44404ebe8bab8de0c780834ff9ef21c0cb3e5b0b2de8be2f6e8c33c7d2df837b5774ca7e5c4c57e4dd52f6af9b5b2cf1 1890 libnss-cache_0.18-2.dsc 1dd73f26bd1f765234aaa1e8cb9be4fa770107ddd30e81213648a47b193bbb923cd0d345f6f500740f7fef7bfd455d7d28b3124bb7bc468fdf5cf90ce21eaf70 19923 libnss-cache_0.18.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libn/libnss-cache"
   ],
   "Files": [
-    "2f80c13942ade9a2616b942634dde4fb 3396 libnss-cache_0.22-1.debian.tar.xz 13dac24e5914631b0081bc05ed696131 1906 libnss-cache_0.22-1.dsc ff54328c47e86a3b594c8ad378ca8c0d 20032 libnss-cache_0.22.orig.tar.gz"
+    "f86647b1a318230dc808d687c31a5ebe 3284 libnss-cache_0.18-2.debian.tar.xz 05bcceda9f1c990bb2c92330748d073c 1890 libnss-cache_0.18-2.dsc d8a7b77b5c2d1abd18bf7135e288f314 19923 libnss-cache_0.18.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -41,9 +41,6 @@
   "Standards-Version": [
     "4.5.1"
   ],
-  "Uploaders": [
-    "Brendan O'Dea \u003cbod@debian.org\u003e"
-  ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/libnss-cache"
   ],
@@ -51,6 +48,6 @@
     "https://salsa.debian.org/debian/libnss-cache.git"
   ],
   "Version": [
-    "0.22-1"
+    "0.18-2"
   ]
 }

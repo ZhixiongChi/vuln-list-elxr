@@ -9,19 +9,19 @@
     "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-signal-hook-registry-1+default-dev (\u003e= 1.4-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "6d612bfe89e46a3cd163dc2a8353786836a353d7 4828 rust-signal-hook_0.3.17-1.debian.tar.xz 7ebc79f3d1b28e61e74c0e2cff0a6ce75bfe69d1 2322 rust-signal-hook_0.3.17-1.dsc edbb6143d08f3d7d73ed4604364170b5efebd18a 50296 rust-signal-hook_0.3.17.orig.tar.gz"
+    "f21547b70d8cffadb6fa8e771831295d4d478ba6 4652 rust-signal-hook_0.3.14-1.debian.tar.xz 4bd1c9662c30a874adc9c090416c3ef232e5f16f 2295 rust-signal-hook_0.3.14-1.dsc 3fd6597fe8cfe40ec79be408b8b7e21ba7ea348a 49446 rust-signal-hook_0.3.14.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "d709eac9ddea5ed65fe3306a8bd46bbf0bba2b731400227dc51b4abadcae208f 4828 rust-signal-hook_0.3.17-1.debian.tar.xz 7145c90c3c10eadb885d791afd91846714bac784a15915593f4d4b8e4126072e 2322 rust-signal-hook_0.3.17-1.dsc 8621587d4798caf8eb44879d42e56b9a93ea5dcd315a6487c357130095b62801 50296 rust-signal-hook_0.3.17.orig.tar.gz"
+    "814998a576f58589ec2939c50118c7ae70a794509b6fdd58867d701e5541b9e2 4652 rust-signal-hook_0.3.14-1.debian.tar.xz 60624987df2954024745301a8c0042ad51bf2e753df4db1e1233370322e76075 2295 rust-signal-hook_0.3.14-1.dsc a253b5e89e2698464fc26b545c9edceb338e18a89effeeecfea192c3025be29d 49446 rust-signal-hook_0.3.14.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c3c52bc77535789dc1995e62eb36e5faf609c8eb8766b39b8ef7834a38aa56a7f70941531d728bf92ddb0208b0f5a84c08cf8accf14a8917acc23c5bb43b5593 4828 rust-signal-hook_0.3.17-1.debian.tar.xz 1ec52a6e5ae676eb6d013751e5e6f8b96fe2e89b8c677151ea597e8b7152a3af0426c9b2b630adbb30fa0fcd0e592c88e4a0ac737797e67afa201c55d620c83c 2322 rust-signal-hook_0.3.17-1.dsc 045ac6268e504c5561d3884610a48c930dfd936086f793839f42602e92e4a8cef289955776e8eba8a5ca1a91b5f27ccb3724f49b32091f8f06c8bde984d82298 50296 rust-signal-hook_0.3.17.orig.tar.gz"
+    "538b636ae3375608834f45f3a71b3de9aa0244c4832464c11f9343b70b98bf02b31f1cbaf8d1b85cea17ecd9f54b91ce1267fc9b6ea7d80d7b788f62fb50c22a 4652 rust-signal-hook_0.3.14-1.debian.tar.xz b250f8633e68b406c13f870c17c4c0d30d2f8a56f44d59d4e557ee102ea61377f823e0cf749430ce9c26a203307062467491b584d68c34b8e14ae03df21246d9 2295 rust-signal-hook_0.3.14-1.dsc 32ecf012e46b94d3a87f2e56cd4c03a97886013309a4e52ef3e7769ed14b49ae2814bb6346cfc9766525dcf15db4182d260d3c9311134e3e6f5301c58729442a 49446 rust-signal-hook_0.3.14.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-signal-hook"
   ],
   "Files": [
-    "d167689f7bc1c094c865446830bec000 4828 rust-signal-hook_0.3.17-1.debian.tar.xz 8c3ee7145a1318e25ebd63d3ae72029c 2322 rust-signal-hook_0.3.17-1.dsc f60ab8537f924a65fbc0961e958d375b 50296 rust-signal-hook_0.3.17.orig.tar.gz"
+    "47638c06d99a51bb227f5dfafef8217f 4652 rust-signal-hook_0.3.14-1.debian.tar.xz 1bfb8a685d74bcb51f879235381e3b32 2295 rust-signal-hook_0.3.14-1.dsc 8532a59ccbacb95018a128b2d7b2601a 49446 rust-signal-hook_0.3.14.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,13 @@
     "librust-signal-hook-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.5.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-serial-test-2+default-dev"
+    "dh-cargo, librust-serial-test-0.5+default-dev"
   ],
   "Uploaders": [
     "Julio Merino \u003cjulio@meroh.net\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/signal-hook]"
   ],
   "Version": [
-    "0.3.17-1"
+    "0.3.14-1"
   ]
 }

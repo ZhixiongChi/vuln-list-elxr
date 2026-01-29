@@ -6,22 +6,22 @@
     "libnginx-mod-http-subs-filter"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-nginx"
+    "debhelper-compat (= 13), dh-sequence-nginx, nginx-abi-1.22.1-7"
   ],
   "Checksums-Sha1": [
-    "d5e6902d54fe7805a1fe24b8cd91c1cef699b135 4768 libnginx-mod-http-subs-filter_0.6.4-7.debian.tar.xz f2feddc07f2a3f4ad65ea7431e737910969bfe62 2294 libnginx-mod-http-subs-filter_0.6.4-7.dsc 4b586a95411216fe64811758f05975ccf450a490 92230 libnginx-mod-http-subs-filter_0.6.4.orig.tar.gz"
+    "fb501242cf4c28c9d2320f616561301a2c6bd6ad 4660 libnginx-mod-http-subs-filter_0.6.4-4.debian.tar.xz 9ed8a95ad635cd3dc376a4fb7342493031f48273 2314 libnginx-mod-http-subs-filter_0.6.4-4.dsc 4b586a95411216fe64811758f05975ccf450a490 92230 libnginx-mod-http-subs-filter_0.6.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "95c15b92382a528128aec7f61dd1ee6654ec91f133092d9e114b0d59279ac903 4768 libnginx-mod-http-subs-filter_0.6.4-7.debian.tar.xz baa1f433c54d5356689ca5f11382bfe54b328eb5f70015ef80d16f0a0cd830ff 2294 libnginx-mod-http-subs-filter_0.6.4-7.dsc ed4ddbcf0c434f4a1e97b61251a63ace759792764bd5cb79ff20efe348db8db3 92230 libnginx-mod-http-subs-filter_0.6.4.orig.tar.gz"
+    "9f514cb5ca665738e4b6f197b5a01380bb1ba712e8d10424fffedd4927f26c1b 4660 libnginx-mod-http-subs-filter_0.6.4-4.debian.tar.xz fea28aff27b730c202a1eb97a65da3ca8e45e299c76b2a8c59cddf24672a408e 2314 libnginx-mod-http-subs-filter_0.6.4-4.dsc ed4ddbcf0c434f4a1e97b61251a63ace759792764bd5cb79ff20efe348db8db3 92230 libnginx-mod-http-subs-filter_0.6.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "3a5bbb47831fca777d1315f12fc900dd88f89b42b191dd674afadbf9e1722c19f89967f0df87e749ef5936b2acc24a7aea601930a978d1b42568dde60e64aa44 4768 libnginx-mod-http-subs-filter_0.6.4-7.debian.tar.xz d0bfab73997449b94221b42ac70c9a0b778b5aeabdc7053294af227cb459871ae969239cfdb9e777edc672acac691faf2b4772c4561fba51f5a6eae20f7edc2c 2294 libnginx-mod-http-subs-filter_0.6.4-7.dsc 842b5e07f55b6923945064bfd9b97ca4f825c6e36763bbcef6731afb4cc562261f2ee501c8832889e3f30f8682b37cce61fde04daa495eeae70cf46664178a1d 92230 libnginx-mod-http-subs-filter_0.6.4.orig.tar.gz"
+    "0c231c21af29f2e223d32e8efbb1842e2c265aac4989f8b8c14d81eec83f907841a95f933f92810feda00bb28830d09b25326bf8fd902021986872f81c39be7c 4660 libnginx-mod-http-subs-filter_0.6.4-4.debian.tar.xz 7ad8b5db9e280d569032961a10a975dd3717d3672b30ee3b681dda8fc1ea960b24a1907cd3e19e27192be61a9df68e61dfb0444476997d4bc6486092fa4956fc 2314 libnginx-mod-http-subs-filter_0.6.4-4.dsc 842b5e07f55b6923945064bfd9b97ca4f825c6e36763bbcef6731afb4cc562261f2ee501c8832889e3f30f8682b37cce61fde04daa495eeae70cf46664178a1d 92230 libnginx-mod-http-subs-filter_0.6.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libn/libnginx-mod-http-subs-filter"
   ],
   "Files": [
-    "1d68010d684fa2da5b3700bdb7360203 4768 libnginx-mod-http-subs-filter_0.6.4-7.debian.tar.xz 8ed965895f401658b06f710a19a56377 2294 libnginx-mod-http-subs-filter_0.6.4-7.dsc bc4482c8f9a10a59d14e46693b87e00c 92230 libnginx-mod-http-subs-filter_0.6.4.orig.tar.gz"
+    "e733a0065daed43c1cac219806810f47 4660 libnginx-mod-http-subs-filter_0.6.4-4.debian.tar.xz dfb71e85054830bf4062e54633e94bdd 2314 libnginx-mod-http-subs-filter_0.6.4-4.dsc bc4482c8f9a10a59d14e46693b87e00c 92230 libnginx-mod-http-subs-filter_0.6.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libnginx-mod-http-subs-filter deb httpd optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "curl, nginx, nginx-core"
   ],
   "Uploaders": [
-    "Jan Mojžíš \u003cjanmojzis@debian.org\u003e,"
+    "Jan Mojžíš \u003cjan.mojzis@gmail.com\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/nginx-team/libnginx-mod-http-subs-filter"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/nginx-team/libnginx-mod-http-subs-filter.git"
   ],
   "Version": [
-    "1:0.6.4-7"
+    "1:0.6.4-4"
   ]
 }

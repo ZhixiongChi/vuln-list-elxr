@@ -6,22 +6,22 @@
     "xfce4-notifyd"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), exo-utils, gettext, libgtk-3-dev, libgtk-layer-shell-dev [linux-any], libnotify-dev, libsqlite3-dev, libxfce4panel-2.0-dev, libxfce4ui-2-dev, libxfce4util-dev, libxfconf-0-dev, xfce4-dev-tools (\u003e= 4.18.1)"
+    "debhelper-compat (= 13), exo-utils, intltool, libgtk-3-dev (\u003e= 3.20), libnotify-dev (\u003e= 0.7.0), libxfce4panel-2.0-dev (\u003e= 4.12), libxfce4ui-2-dev, libxfce4util-dev (\u003e= 4.12), libxfconf-0-dev (\u003e= 4.12), xfce4-dev-tools"
   ],
   "Checksums-Sha1": [
-    "3d9d7f62dea15c5fa85bc93b017aae8428bd11b6 5244 xfce4-notifyd_0.9.7-2.debian.tar.xz d00edacf87e8e4fb01f092bc38dc672335bd31ee 1839 xfce4-notifyd_0.9.7-2.dsc 202e0d3e4a60ceb356b13e8bf4764adb4f1bd0b2 769085 xfce4-notifyd_0.9.7.orig.tar.bz2"
+    "fffe6eb06df97febf76ede8830a06825d81b135a 5288 xfce4-notifyd_0.7.3-1.debian.tar.xz 69c0212b24f811cbb3f4abd9f2504e1eae576c5b 2171 xfce4-notifyd_0.7.3-1.dsc fa767eb386a9d04590f6aad2641bf0dc0e9e892c 587185 xfce4-notifyd_0.7.3.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "10dae1242ab189a230979643dbedb6bcee72b0b62276fa63fb2e8e6a8e96fef8 5244 xfce4-notifyd_0.9.7-2.debian.tar.xz 9a0f289769d5723fbca07883412a34be510ee261373c4de74ed6ac5dd1b16c38 1839 xfce4-notifyd_0.9.7-2.dsc 170d18fd5f40cce823ffc7ae3d7e21644007c3f45808ab4835f0401d21b3516a 769085 xfce4-notifyd_0.9.7.orig.tar.bz2"
+    "52a415483f4066ef7724ec218493bb1409e1ea2abc5adafc9e17937c2dc43ffd 5288 xfce4-notifyd_0.7.3-1.debian.tar.xz dd9d16255a0f036badbea6912b0ee6ea1ec9d009aee25b503812696c0fbdff18 2171 xfce4-notifyd_0.7.3-1.dsc 50d9605d537c2136a9b5b8537be158ef723cf8c61514254014a571c704e9e943 587185 xfce4-notifyd_0.7.3.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "d074c8a208a27d8f867df385c438f284983259f56f74f2c1014036fab08cbce5ea627db8b36e47a85e432ec3e29d1a4e03659fd7a6d63ca3d20a27109931640a 5244 xfce4-notifyd_0.9.7-2.debian.tar.xz 38bdc94e4d03af173add5ebe9bc09c51b8da5199daddd9899acadecb88f0774b49fe3924a3da84824ab000592be5f2ad15c863d47ccbf01404feb729626fe8d2 1839 xfce4-notifyd_0.9.7-2.dsc 8bbc7eff631704c7ac9417d3eaba151a0e6de54e48e0b75f7e7ec67c596a11b5ecd3b7ed12ffe6d657d335cb11102686fd69d5f0d1ab5b6645a594d6f0cbd6a6 769085 xfce4-notifyd_0.9.7.orig.tar.bz2"
+    "0ac4bb5c2b8559c03c816190245c6887f9a7bca65ee128f4466bd94e6761fba8c3269f03b8c6c910b15e85d5858caf2f31433faf48177c7a54bc2464efaf8bfd 5288 xfce4-notifyd_0.7.3-1.debian.tar.xz dbdae629c35b084f870149fdfea03af679566b3dce67f993fd3a1a25208375a0f81d5496e6387f09df70d98f0fa1a92641073a29332f2a956da12c1d941e9228 2171 xfce4-notifyd_0.7.3-1.dsc 525fcf5dfa8c4a2bf48b4276b19f5fd1d5010bdeacd52f6d9189aabf1d5fe2a79efa542796c62d62c6a7bfc83d7eddf3ed671fa171be96c255907b7c7f599bee 587185 xfce4-notifyd_0.7.3.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/x/xfce4-notifyd"
   ],
   "Files": [
-    "3242fc74c9995bbe4d086529a6f5c3e6 5244 xfce4-notifyd_0.9.7-2.debian.tar.xz 0b146826bd5d6a5ef405833f4ee7bca7 1839 xfce4-notifyd_0.9.7-2.dsc d5bfe1fd8e8da9d64367a1f520d88633 769085 xfce4-notifyd_0.9.7.orig.tar.bz2"
+    "5c5e33876fe4f344eff6b28f9151eaef 5288 xfce4-notifyd_0.7.3-1.debian.tar.xz 6ac091fe594320762120ef1db31d6f47 2171 xfce4-notifyd_0.7.3-1.dsc 809ccaf0a8e701c5fce90776da6d2f8a 587185 xfce4-notifyd_0.7.3.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "xfce4-notifyd deb xfce optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2"
   ],
   "Uploaders": [
     "Yves-Alexis Perez \u003ccorsac@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/xfce-team/goodies/xfce4-notifyd.git"
   ],
   "Version": [
-    "0.9.7-2"
+    "0.7.3-1"
   ]
 }

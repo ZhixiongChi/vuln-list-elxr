@@ -6,22 +6,22 @@
     "python3-zstd"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-all-dev, python3-setuptools, libzstd-dev"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-all-dev, python3-mock, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "786987bff8ba731daed2bd76779550be77e1acdb 3024 python-zstd_1.5.5.1-1.debian.tar.xz fc2acab2a44fecbe37210b11edd885b738718d3e 2145 python-zstd_1.5.5.1-1.dsc f97f7cbba46eb3d5c20166e3e3d67ddbce0dd36f 1106585 python-zstd_1.5.5.1.orig.tar.gz"
+    "5399e5f1543db39edb3684fac1313563ce6a88dc 2792 python-zstd_1.5.2.5-1.debian.tar.xz af0361a430074a936ca0997e66206d7ba777f384 2108 python-zstd_1.5.2.5-1.dsc 077c654e040f86d52a7ac4b811d64d07b82ae8bd 600211 python-zstd_1.5.2.5.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "911b6234905779663aed49e3868a11bb24e13a6509a0d95b4bc5afa9dbdcfdcf 3024 python-zstd_1.5.5.1-1.debian.tar.xz e9c370f16fd6cbd3738b4838e38599f294243e7a1bcfad21af63d19edbb4eefe 2145 python-zstd_1.5.5.1-1.dsc 1ef980abf0e1e072b028d2d76ef95b476632651c96225cf30b619c6eef625672 1106585 python-zstd_1.5.5.1.orig.tar.gz"
+    "81ebb29408c819c64b6d2cd22158574d9cde4a8925af60b144ffa46bb3a10a9f 2792 python-zstd_1.5.2.5-1.debian.tar.xz bf0b6c1e9e8c3e1007b7b792021d0dc9d0b03e99a4b5ea2728015ea1023d3eaa 2108 python-zstd_1.5.2.5-1.dsc 765b3fca78648b07773655ef83b45fdde8f8f338858c321c560c1346f6f56df7 600211 python-zstd_1.5.2.5.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c6fad45fc4e86317317fedeba3014ee19cb6b2986294d3688bd543794fafacf8dd39e7352d17c5bee6b80e09793012639a73d34cd1ec67af7b04e02be7cddea6 3024 python-zstd_1.5.5.1-1.debian.tar.xz 2672f796d891104348f2f4b34635e9773cc5dacfca740a9e79370a9e93c407c16f990d941106b44c8589b06311cd77c731ecd207547c3ae2a5c4134c8b94425f 2145 python-zstd_1.5.5.1-1.dsc 7dc2f3ffe0f94b56ba0cf8360ee510b292e9b8b1e92b8ba1ad1a9206b50f852a4e67e04d8e4900c0705820163d551644b38977e2864c648aae7dcc6b2a2c0a68 1106585 python-zstd_1.5.5.1.orig.tar.gz"
+    "f0279fe9b5c673ddc4af3d963c47936c365a5e02b098ed603b57c12fc91ff1ca7cadba3ffe4686c720070a284e568dacb910841e84fbf045fb28e5e59b2eb0ea 2792 python-zstd_1.5.2.5-1.debian.tar.xz f60d9475dd76e5b48eebdbd62439aa4870f89bb942684cf048b69f76378ad657962054fe422add4cdc41ecfc37159b504957b4183d1e285f3977fd760e52bb1c 2108 python-zstd_1.5.2.5-1.dsc 13781020c6c72a018eea38f8e22324902c38a37927b890963f2a9b4a9f4353b8297ca4d39cde62fbc11f531852efcea46f0e79675846dbefd4d055a389c416ab 600211 python-zstd_1.5.2.5.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-zstd"
   ],
   "Files": [
-    "c157dd40738433ff2f073804af0c591c 3024 python-zstd_1.5.5.1-1.debian.tar.xz d3b8314cab7441a94e4f2616b5e0a12d 2145 python-zstd_1.5.5.1-1.dsc 479b302e5e269ced1efadad51dc3b399 1106585 python-zstd_1.5.5.1.orig.tar.gz"
+    "5b2cbb28469a75ae68ccf8d04c4c66c5 2792 python-zstd_1.5.2.5-1.debian.tar.xz 123f20401ba6b5c31822cc9c6a03378d 2108 python-zstd_1.5.2.5-1.dsc f4f5808dd4d923c6ccaeb4a51fa90bb6 600211 python-zstd_1.5.2.5.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python3-zstd deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.0"
   ],
   "Uploaders": [
     "Chris MacNaughton \u003cchris.macnaughton@canonical.com\u003e, Thomas Goirand \u003czigo@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/python-team/packages/python-zstd.git"
   ],
   "Version": [
-    "1.5.5.1-1"
+    "1.5.2.5-1"
   ]
 }

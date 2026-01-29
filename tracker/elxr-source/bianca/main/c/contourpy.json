@@ -6,22 +6,22 @@
     "python3-contourpy"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all-dev, python3-matplotlib \u003c!nocheck\u003e, python3-mesonpy, python3-numpy \u003c!nocheck\u003e, python3-pkgconfig, python3-pybind11, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-wurlitzer \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), pybuild-plugin-pyproject, python3-all-dev, python3-matplotlib \u003c!nocheck\u003e, python3-numpy \u003c!nocheck\u003e, python3-pybind11, python3-pytest \u003c!nocheck\u003e, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "9f2ed53850ebb27ef54ff94588efb203ee0fa425 2920 contourpy_1.3.1-1.debian.tar.xz 4afcd1b409683a248ab5facf93cfdec1549d02c1 2299 contourpy_1.3.1-1.dsc 0178ef60e490f82589bda70de22c106a9e2d844f 13445593 contourpy_1.3.1.orig.tar.gz"
+    "3ae7509eeb70077b492fbebb765773ef376bb6ea 2400 contourpy_1.0.7-1.debian.tar.xz ba3043a22070c79d77fe2cc22e52989d6b8d699b 2146 contourpy_1.0.7-1.dsc 7491c4f534aa9bce9be828422cdb2a15b3d92e88 12497128 contourpy_1.0.7.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "3b68eb971746f432e0b92b67270308cd14924629467b186836d1a20c0fff20d8 2920 contourpy_1.3.1-1.debian.tar.xz ab9306ae301d733a7cb97a46a4e6e697c7027461a2a5f46133787c5c388be417 2299 contourpy_1.3.1-1.dsc 458c88dfda13ab2bda276f8415b60df4893315b1205adc55ecf6b4bac024135c 13445593 contourpy_1.3.1.orig.tar.gz"
+    "6623f10ed4210fa720e5bb069511a33e529ad517d0abe6b9c48c14f8100aa3aa 2400 contourpy_1.0.7-1.debian.tar.xz fcbba94f1f9a304dbb2d82d451728d2a2eed903f19ef3ccaab466df95543a905 2146 contourpy_1.0.7-1.dsc bc70f2e80b2182c31319044a2af8860766920660a29b39012bb6ae9ff783cea9 12497128 contourpy_1.0.7.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "2dd92892b79d48727ba525b3316c923ea29a453cb28cdbb4050adc6b9ba94543b1800eaf86a9ceb0c27d11195e7f1dd4e89214b31aabf66282f50b830b7afd35 2920 contourpy_1.3.1-1.debian.tar.xz 8bf0a1027bd882e97a0319857c9e8028411fc3eeb330f65ca401d4113050ed62618c3f1683f099e11e5e2e88215d1f19a1db7fcea18e679261556fa96df2d5a7 2299 contourpy_1.3.1-1.dsc 09dbb934c65280722312ce002198bb294bb543febba28a2fd874d4b9feb3d837a802c68614703acf6131f799047254a16a4c932cd694d7d55e5a946a49cc8f3a 13445593 contourpy_1.3.1.orig.tar.gz"
+    "c8083da86c100eb35322b8eea4fb33f813c09636360e3020213a727c509c7ea9b759ecd66db0e647a43ec99ee81c0d58958ccb2b5892c04dec677b77ea3a90f2 2400 contourpy_1.0.7-1.debian.tar.xz f90b02bb1485ddbaafc06208a917e99fecc0f73cbed333c9b1b1b5651f8ae980228335a165f352334b0f88d04950167f2a8903664edb8135a494522e09da38b6 2146 contourpy_1.0.7-1.dsc 8675dd917b0fa58e2d6fc4c02136ed637eb201d92f31594fcb53b6ec0bdca5ff8ebcb8f74ac6ed7be7cd90fa79d2da9866f25b2340da796b7c927cb26c51ca92 12497128 contourpy_1.0.7.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/c/contourpy"
   ],
   "Files": [
-    "8e16df85f64df80ddcb5949d57bdd365 2920 contourpy_1.3.1-1.debian.tar.xz fe12f40657b62b3b4c16addda32a1a91 2299 contourpy_1.3.1-1.dsc f89800c0a446dec456d57ac9169838c8 13445593 contourpy_1.3.1.orig.tar.gz"
+    "811b4a306e75e963a95be06489947772 2400 contourpy_1.0.7-1.debian.tar.xz 6703fdf4ad995dda4406186e3c279e5c 2146 contourpy_1.0.7-1.dsc 86956f331715d9d743f5a1d5a445e953 12497128 contourpy_1.0.7.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://contourpy.readthedocs.io/"
   ],
   "Maintainer": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
+    "Sandro Tosi \u003cmorph@debian.org\u003e"
   ],
   "Package": [
     "contourpy"
@@ -39,13 +39,13 @@
     "python3-contourpy deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.6.2.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
-    "Alexandre Detiste \u003ctchet@debian.org\u003e, Emmanuel Arias \u003ceamanu@debian.org\u003e,"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/contourpy"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/contourpy.git"
   ],
   "Version": [
-    "1.3.1-1"
+    "1.0.7-1"
   ]
 }

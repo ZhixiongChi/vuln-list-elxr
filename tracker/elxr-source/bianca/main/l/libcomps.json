@@ -6,22 +6,22 @@
     "libcomps-dev, libcomps0, libcomps-doc, python-libcomps-doc, python3-libcomps"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-dev, libpython3-dev, cmake, pkgconf, libxml2-dev, libexpat1-dev, doxygen, python3-sphinx, check, zlib1g-dev, python3-setuptools"
+    "debhelper-compat (= 13), dh-python, python3-dev, libpython3-dev, cmake, pkg-config, libxml2-dev, libexpat1-dev, doxygen, python3-sphinx, check, zlib1g-dev, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "c4896bbf57c1f6f3ab4ede482f1784ee5308ee67 9408 libcomps_0.1.21-1.debian.tar.xz 88318ce78cf0bc742dc1c1cf65c732442adb330d 2401 libcomps_0.1.21-1.dsc 3e941a0930f0462cce5dda0497491c5a8a2eaecf 3711111 libcomps_0.1.21.orig.tar.gz"
+    "64628bd47a10d0da03c595bd4617088a2feeb13a 8892 libcomps_0.1.19-2.debian.tar.xz 1f2aa91d090ef66f231a2f358cc99c00f2ba9903 2270 libcomps_0.1.19-2.dsc bc2e803daacd53321b75551339abadafed93857c 3710056 libcomps_0.1.19.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "9c3c52adeb194168844e9b3ccb4ab9bf8333b6ee075f080a7cd459de8ed8502e 9408 libcomps_0.1.21-1.debian.tar.xz 3c6f160fc7626f35e9d048af909a3a4631a68c025d006635be4536acb03b2d2d 2401 libcomps_0.1.21-1.dsc 84d7555ed795458f3799d57cceccb096634c38461c3db7cb1739d42c038b2785 3711111 libcomps_0.1.21.orig.tar.gz"
+    "62865f9d43d15a0730472c577e102e35fff435e332aa0a69732b0d3d1a91d7fe 8892 libcomps_0.1.19-2.debian.tar.xz 9cb5ffd8f8f3dae33d0060fd6959078cff4a484f1909d4c4d0e98f08d6860433 2270 libcomps_0.1.19-2.dsc 19433751eecf5ceee4b85c9244496d9d32af78af6fc17db697b39501f8308f94 3710056 libcomps_0.1.19.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "d8ff3d53394858357be7d2c43457777f11ce2238bbe219ee76cb96ede9d1f36167143b7fe48b98cba8d97676e419d7cc77612d2d085c2670882a857fa45d50f9 9408 libcomps_0.1.21-1.debian.tar.xz 1746a9e81369521a79e81f646f196a14f7150d6cb1c8f026e000fbcf7a3398ea4dfca63c1ea89ed46730a1ad4199ee7623faea132752698fa2553b1959291571 2401 libcomps_0.1.21-1.dsc b667bfca5872aa1244f49ad6810ecc08c314f7093d64bbbf886fe088abbe2dc18b242ad2d95ebcc28fa6952ee173802d57ef889ffdd4c3ac2612f88dff0c7d97 3711111 libcomps_0.1.21.orig.tar.gz"
+    "881a033c9cc4fb6d3a8ef13e34806f67e4d680738c6d66326d7b891c7497ccb94e6de345751752c33642c02ea1c6c74accc51237ae08cddc6a5f5d3d7f01907e 8892 libcomps_0.1.19-2.debian.tar.xz 4d29832f029eed9ba43b371da28fdb1d932a44a9ae465562fac1d2527fb50937ba2a459f8f2667ceba06c0bec2ed882ae6b4b720ff3e17544f7d4a7b9300f62d 2270 libcomps_0.1.19-2.dsc a85a0d0e3ea4f944464908a7a95da52f7d28978e0894af2e113d7929cf7bc96685e4b54e4ddff184af6ce1cfa08391fe94a1f6ec97992b3640d693d0ef07ee2e 3710056 libcomps_0.1.19.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libc/libcomps"
   ],
   "Files": [
-    "31285e19979b743eccb33d173f3be865 9408 libcomps_0.1.21-1.debian.tar.xz a28e86b1216665b3af21c9abafcf3cc7 2401 libcomps_0.1.21-1.dsc 1db2dec117d86d3320a88ae372cf0005 3711111 libcomps_0.1.21.orig.tar.gz"
+    "b65b9a44a0c6cf186aaea4e4b1cf9ce8 8892 libcomps_0.1.19-2.debian.tar.xz 5b87b1dd406d9a229f4a5ce68a62732e 2270 libcomps_0.1.19-2.dsc e668d6cda13590c5c26a302126d9cb7b 3710056 libcomps_0.1.19.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://github.com/rpm-software-management/libcomps"
   ],
   "Maintainer": [
-    "RPM packaging team \u003cteam+pkg-rpm@tracker.debian.org\u003e"
+    "Frédéric Pierret \u003cfrederic.pierret@qubes-os.org\u003e"
   ],
   "Package": [
     "libcomps"
@@ -39,18 +39,15 @@
     "libcomps-dev deb libdevel optional arch=any libcomps-doc deb doc optional arch=all libcomps0 deb libs optional arch=any python-libcomps-doc deb doc optional arch=all python3-libcomps deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
-  ],
-  "Uploaders": [
-    "Frédéric Pierret \u003cfrederic.pierret@qubes-os.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
+    "4.5.1"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/pkg-rpm-team/libcomps"
+    "https://salsa.debian.org/fepitre/libcomps"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/pkg-rpm-team/libcomps.git"
+    "https://salsa.debian.org/fepitre/libcomps.git"
   ],
   "Version": [
-    "0.1.21-1"
+    "0.1.19-2"
   ]
 }

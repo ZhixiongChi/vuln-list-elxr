@@ -6,25 +6,22 @@
     "multipath-tools, kpartx, multipath-tools-boot, multipath-udeb, kpartx-udeb"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13)"
-  ],
-  "Build-Depends-Arch": [
-    "libaio-dev, libdevmapper-dev, libedit-dev, libmount-dev, libjson-c-dev, libsystemd-dev, libudev-dev, liburcu-dev, pkgconf, systemd-dev"
+    "debhelper-compat (= 13), libaio-dev, libdevmapper-dev, libedit-dev, libjson-c-dev, libsystemd-dev, libudev-dev, liburcu-dev, pkg-config, systemd"
   ],
   "Checksums-Sha1": [
-    "1cc586a4f30b26150a5f526732f835d9f1d73afc 30044 multipath-tools_0.11.1-2.debian.tar.xz 328b196e8ee12256b9f558612cb7a7efa7e4504b 2726 multipath-tools_0.11.1-2.dsc 20d47028c8b713dfe186cf73ca8b9cdc2abafa94 603721 multipath-tools_0.11.1.orig.tar.gz"
+    "dd83c7015be87eb3fcc2cd4619d912ff128b9509 30032 multipath-tools_0.9.4-3+deb12u2.debian.tar.xz 9af118669b102fc07d732a8e60d58c564bd5fec1 2604 multipath-tools_0.9.4-3+deb12u2.dsc 1819f3b176c4d224b1820c973bc98a4bdd008164 554381 multipath-tools_0.9.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "7406ae7bc70a4194916337007aa6528fefe5fa14921dd7c5606ea25e3bfeb931 30044 multipath-tools_0.11.1-2.debian.tar.xz c684c2e3f4760379e238b9c20214dbf8f93c2ec81ce179f26fc6ae464422d4eb 2726 multipath-tools_0.11.1-2.dsc 6cc57e33894ea2cd4c3bf1cbb9e4e8e7250d0699163b2907fcab1cd2e0123d85 603721 multipath-tools_0.11.1.orig.tar.gz"
+    "eb5e611a32e0b699cf508a7d11a8dc1b95721a27b5c2c695f878041759b2cee6 30032 multipath-tools_0.9.4-3+deb12u2.debian.tar.xz 5d0d7c1327a5748789e83fa4da03b464429a23f000134f13a35691f25abaa258 2604 multipath-tools_0.9.4-3+deb12u2.dsc 6ed3cf6e786da20a451d9747cbd4c5817815388b8fc8022d1074b3018479031d 554381 multipath-tools_0.9.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "bda3ad5a9ce7438fec059320fa019e83e0d046d63e8f762f5d51f0836f88ccdd9959f38773aada42e2dd23838458f80c7c86c2d7e37fcf17e932760ddfabac55 30044 multipath-tools_0.11.1-2.debian.tar.xz cad4530ea6ef14fab99494d7556ed589a92e511cc5d6db65f6f1dc8523a878761b08e6f060747047e633968cae04aada80ace421e571d0463d56abfcabaef19e 2726 multipath-tools_0.11.1-2.dsc ac6bacd725bc831a140b75a72c81296eb1ed4080fb6350caf6178914d1bdce743705f3bd4e31f318068f6272dc98e12d63ee38228a3521a3d1c7bc8eb30812f9 603721 multipath-tools_0.11.1.orig.tar.gz"
+    "54d7fc1bcfe8959fd59cc12867b2fcb5f056dcbdc69a97edca737fd4e1cabca56224f495948b2ae0eed5fe649b4ead4f0f8b80907220c26310d1edad55e4c3f3 30032 multipath-tools_0.9.4-3+deb12u2.debian.tar.xz f54dbe6f4742ca7096d6ac3d71f116274ce0557efd3f0c62f441da072a0f6ef3eded460df6c140ac8da574c2a18605a66aecf9d09b2cf37266bc77663ba2e48a 2604 multipath-tools_0.9.4-3+deb12u2.dsc 5e0dcea610fc215e345444c04453a38f39c73e493c2bc53f6b3a90cd701266aabdf7c4693dfc321099af836d0019bf27355e265ad5db5deff48f8bb94ed4719d 554381 multipath-tools_0.9.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/m/multipath-tools"
   ],
   "Files": [
-    "2967cfdef59deb805195d3ec64efd426 30044 multipath-tools_0.11.1-2.debian.tar.xz edfa63ba313d40f63c8a033d8b7cc7e4 2726 multipath-tools_0.11.1-2.dsc 3f14d69d70caffc64716d63f3817551d 603721 multipath-tools_0.11.1.orig.tar.gz"
+    "c9d3ad2afb53d0c2dcfa6d947cd314d8 30032 multipath-tools_0.9.4-3+deb12u2.debian.tar.xz f5bbd3e9a8f6eee9ef43bf3037bb389f 2604 multipath-tools_0.9.4-3+deb12u2.dsc db72eeaabb3859b68c2fdacb38502a52 554381 multipath-tools_0.9.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,10 +45,10 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "fio, gdisk, initramfs-tools, linux-image-amd64, linux-image-arm64, lsscsi, open-iscsi, qemu-utils, tgt"
+    "fio, gdisk, lsscsi, open-iscsi, qemu-utils, tgt"
   ],
   "Uploaders": [
-    "Guido Günther \u003cagx@sigxcpu.org\u003e, Ritesh Raj Sarraf \u003crrs@debian.org\u003e, Chris Hofstaedtler \u003czeha@debian.org\u003e, Fabian Grünbichler \u003cdebian@fabian.gruenbichler.email\u003e,"
+    "Guido Günther \u003cagx@sigxcpu.org\u003e, Ritesh Raj Sarraf \u003crrs@debian.org\u003e, Chris Hofstaedtler \u003czeha@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/linux-blocks-team/multipath-tools"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/linux-blocks-team/multipath-tools.git"
   ],
   "Version": [
-    "0.11.1-2"
+    "0.9.4-3+deb12u2"
   ]
 }

@@ -6,22 +6,22 @@
     "pyflakes3, python3-pyflakes"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, python3-pytest \u003c!nocheck\u003e, python3-all, python3-setuptools"
+    "debhelper-compat (= 13), dh-python, python3-pytest \u003c!nocheck\u003e, python3-all, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "85aca3425ddb832c42b2b22f6519c6cbdd415a7f 8608 pyflakes_3.2.0-3.debian.tar.xz 2dbb804f533d650a568cad96d869f98bce0da765 2162 pyflakes_3.2.0-3.dsc 0b39e32b6e4efe09ad7e4bf3c63ea47d00a03828 63788 pyflakes_3.2.0.orig.tar.gz"
+    "3ec49c722dcaec0eb39831e679b99b544492bbfc 7848 pyflakes_2.5.0-1.debian.tar.xz 37cce7953e24ef108dcad7d9834709f688b1e5d5 2127 pyflakes_2.5.0-1.dsc 8950c53ac748a3e197ac7a267c4a3d8957a75ef6 66388 pyflakes_2.5.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "e97ddf0fde7ed09e439d244c000780ff8af0d3da644dc9867557303af7d5d32a 8608 pyflakes_3.2.0-3.debian.tar.xz 5e1208fee3d75c3b1612a5cd95fa24d113a6554aa00b601d705f5e3b9985511d 2162 pyflakes_3.2.0-3.dsc 1c61603ff154621fb2a9172037d84dca3500def8c8b630657d1701f026f8af3f 63788 pyflakes_3.2.0.orig.tar.gz"
+    "535cb795da5d1672783d0c6e43649880e9b2be4d79456a743d4711029ede00d8 7848 pyflakes_2.5.0-1.debian.tar.xz 0c423b823a42323cdf14206c7b33a833a954aaaf7bc4ce69db8d31ee5e862c6e 2127 pyflakes_2.5.0-1.dsc 491feb020dca48ccc562a8c0cbe8df07ee13078df59813b83959cbdada312ea3 66388 pyflakes_2.5.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f7c2070a48682e771be6aede8766adc1a7f45cda6e2bbacba63dbd5bf52be42ea7c5b7b9891853803cbc95c841e94dd43e07b6543c8ae44d757676f879637328 8608 pyflakes_3.2.0-3.debian.tar.xz ab9c711b8b94536778c7a7feb6cf3988857ff0c33fd4a7af82c03d845bc05c78f08a549ce08725d42fad96722cbb9007aa75c67a23201f5142be341cb5ee5ded 2162 pyflakes_3.2.0-3.dsc bd413b2ad80ae942bc13cef5ecb3a47b09abb0641fe468d427717b32895eb1702c9e8831867fbaa1de6fff71ab16bc3dae96f745bbc3e7d99de104a008f397ba 63788 pyflakes_3.2.0.orig.tar.gz"
+    "ef801e919883ef3f50616dde735c69ec2d17fa1923e1ddafb94cd26dbd632caf9c39dc096994ad52b6525ac0942ad055d07bf102a28195861036383dea7aa01a 7848 pyflakes_2.5.0-1.debian.tar.xz 257c8f07f9eb4a38b220425d8ca723ed5be273f6ba7ca26a5443387b0b3517a548397dcd93cdd33e119decdbca938fc77eb33005f33e54659a96d0302a094d40 2127 pyflakes_2.5.0-1.dsc e47303c4b445e0c010dfc96244b6fa991bd1870072c61cc7acd309947af3d81581276b012b56b7db0d8df3f91a4216a5ec502720c149f5707d5d1d28654aeeb4 66388 pyflakes_2.5.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/pyflakes"
   ],
   "Files": [
-    "a915e0997045b607485034209c4748ce 8608 pyflakes_3.2.0-3.debian.tar.xz 2c19bb6c6d74fbff9b78a26e886e9555 2162 pyflakes_3.2.0-3.dsc 556adcc6980bd478657598718f2c1155 63788 pyflakes_3.2.0.orig.tar.gz"
+    "765f0082b18479c85bd9211c08bd9958 7848 pyflakes_2.5.0-1.debian.tar.xz 1a08a7b1bc5d5b7b2b7d1fd9600fddae 2127 pyflakes_2.5.0-1.dsc 2d0f543a3a6267bb6c8eb5fd63576dad 66388 pyflakes_2.5.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "pyflakes3 deb python optional arch=all python3-pyflakes deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.0"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/pyflakes.git"
   ],
   "Version": [
-    "3.2.0-3"
+    "2.5.0-1"
   ]
 }

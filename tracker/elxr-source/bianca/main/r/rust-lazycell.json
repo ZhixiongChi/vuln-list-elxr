@@ -6,22 +6,22 @@
     "librust-lazycell-dev, librust-lazycell+serde-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 11), dh-cargo (\u003e= 18), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "4d48f40820b3dd474b9b5cf27fd076a4a7817266 3444 rust-lazycell_1.3.0-4.debian.tar.xz d3bc716cf325afacd7c7199724ae3231d72e6446 2257 rust-lazycell_1.3.0-4.dsc e5c22a5665cf322409afb42a21fa6c3ff31ba089 12502 rust-lazycell_1.3.0.orig.tar.gz"
+    "199b0d88d54660f284bdf1547f426ad764310640 3256 rust-lazycell_1.3.0-3.debian.tar.xz b0c29cdaa5e69ac640aa7db33025b1030e4d4308 2257 rust-lazycell_1.3.0-3.dsc e5c22a5665cf322409afb42a21fa6c3ff31ba089 12502 rust-lazycell_1.3.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "aaeb32766a5db2ea6ec215dbc1bacd60669626c540017b4997e0c6eee20d5980 3444 rust-lazycell_1.3.0-4.debian.tar.xz 135d2acc99c17f41b6d3b34fc407601a4e40e51ae03059a09ffd427926549982 2257 rust-lazycell_1.3.0-4.dsc 830d08ce1d1d941e6b30645f1a0eb5643013d835ce3779a5fc208261dbe10f55 12502 rust-lazycell_1.3.0.orig.tar.gz"
+    "918eb5264111bf5a18611e40e9476240e08f966efad80bb057b529b232c3d844 3256 rust-lazycell_1.3.0-3.debian.tar.xz 34e781c12ea2e4427d206228043f8b8f9316afb6ad36f356c501a9482ad49aa2 2257 rust-lazycell_1.3.0-3.dsc 830d08ce1d1d941e6b30645f1a0eb5643013d835ce3779a5fc208261dbe10f55 12502 rust-lazycell_1.3.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a9c793cbab9de7a0e0bcd3fd2c9f20012adc9564a8cd3289bd7c29761464b466a338ea27c2177370a4c429548950b286da96a19671138d277be73b7f3bd0446c 3444 rust-lazycell_1.3.0-4.debian.tar.xz 40c362f02d9e7d33d802cc7daea1e6a90667d92ddbb389c8085c5ce87c0f3def9c924c7f167c9af5764973613d8d79f521ad6bddf5a799e4aabecf5e75803533 2257 rust-lazycell_1.3.0-4.dsc f9d627afc28b61e9687a3f72260eb013401fd64057647641ff2e763770d7380ab1d2d8cbb4a3c8818d53d504c618a3b46aaf701f72f4d7b25d226042824c2f8d 12502 rust-lazycell_1.3.0.orig.tar.gz"
+    "ab8ccb116ce69a9a0fcdad585a52f0c71ab478ec92b25d3cf9c6d21e17429e60959a5f6a6f7f6253875e633f05902f9b13d859e6552829486f7a7038c1ba283d 3256 rust-lazycell_1.3.0-3.debian.tar.xz ad67086ef066e4cc5b1339c3faca65384c1cb5a3d10db132c7dc37006d1f34721f6971e6fbc9b30eeb728d1adc18e573633a0b9ae82537288bd9045a3196cf67 2257 rust-lazycell_1.3.0-3.dsc f9d627afc28b61e9687a3f72260eb013401fd64057647641ff2e763770d7380ab1d2d8cbb4a3c8818d53d504c618a3b46aaf701f72f4d7b25d226042824c2f8d 12502 rust-lazycell_1.3.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-lazycell"
   ],
   "Files": [
-    "a6d03219d9382b8b19ad471ae5cbd786 3444 rust-lazycell_1.3.0-4.debian.tar.xz 2764ea24ca3aff529311754e406c2d4b 2257 rust-lazycell_1.3.0-4.dsc 23cc9e52c52465f5b225e62ab7cc3457 12502 rust-lazycell_1.3.0.orig.tar.gz"
+    "eb6c03cd7e751e5c50ad6bfa505c8602 3256 rust-lazycell_1.3.0-3.debian.tar.xz 7646b33aeef5e36503ee0be82352ddae 2257 rust-lazycell_1.3.0-3.dsc 23cc9e52c52465f5b225e62ab7cc3457 12502 rust-lazycell_1.3.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "librust-lazycell+serde-dev deb rust optional arch=any librust-lazycell-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.4.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/lazycell]"
   ],
   "Version": [
-    "1.3.0-4"
+    "1.3.0-3"
   ]
 }

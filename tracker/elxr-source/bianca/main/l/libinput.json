@@ -6,22 +6,22 @@
     "libinput10, libinput-bin, libinput10-udeb, libinput-dev, libinput-tools"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), meson, pkgconf, check, libgtk-3-dev, libmtdev-dev (\u003e= 1.1.0), libudev-dev, libevdev-dev (\u003e= 1.10.0), libwacom-dev (\u003e= 0.20)"
+    "debhelper-compat (= 13), meson, pkg-config, check, libgtk-3-dev, libmtdev-dev (\u003e= 1.1.0), libudev-dev, libevdev-dev (\u003e= 1.10.0), libwacom-dev (\u003e= 0.20)"
   ],
   "Checksums-Sha1": [
-    "5f65204682708e08f1a988e2dfcf7b79f07c8a79 10960 libinput_1.28.1-1.debian.tar.xz f743ee95b95d5d0e9908f0858daea0c4a5049bae 2472 libinput_1.28.1-1.dsc 463c3c6269c128cb24060ecf5a3ec6195ed94ad6 1074349 libinput_1.28.1.orig.tar.gz"
+    "d337fcd5efb5966606bfb69791c57703b5129227 10660 libinput_1.22.1-1.debian.tar.xz bbc0db45c70b87b7b94c4bfad7f666ab8b53974b 2462 libinput_1.22.1-1.dsc 1900b728c9d032cf11b3f0b8a3321c739fcf36c5 990102 libinput_1.22.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "b6a0e0fa07e70aa6f1b036f1c2576354ac8ba52ec42ecfdc65ecf4d0510615b2 10960 libinput_1.28.1-1.debian.tar.xz 3eace0bb62bb0c5eab5d6d1477e5bc7897d5c2a892ca7b77c6cdd618e6d44162 2472 libinput_1.28.1-1.dsc a13f8c9a7d93df3c85c66afd135f0296701d8d32f911991b7aa4273fdd6a42a3 1074349 libinput_1.28.1.orig.tar.gz"
+    "105af87871c0c99679074625740e4ac452ef39f85cfb6b8ffda7e17162eb5d7b 10660 libinput_1.22.1-1.debian.tar.xz 92dce2b06c0c574a6c658df51103c88df00f01447bae2f59b7b2dbe7282b6d60 2462 libinput_1.22.1-1.dsc 45d9e03c16c3c343b7537aa7f744ae9339b1a0dae446ecbe6f5ed9d49be11e87 990102 libinput_1.22.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "0b97c31c6ca761a26f6ebb9e616bd75c703b016f9957641c52c8cd47f38018f8a967b8729e395205433e169554c1efff9c97a089b3166e3d0cba4db5a7705bb1 10960 libinput_1.28.1-1.debian.tar.xz 1e8042fe16c89cea7f29e23ce41c9db12f697b27b2130c01ae3a4c567aafe803d7e30f727e91da70999b5b0a5953b29db991dbde4e0805530e07acde2e0d72d8 2472 libinput_1.28.1-1.dsc b8c75f64ff9f14bbaa27997e6abd47142d5e8843609dba08813c4dc75ee513b6f1fc13cdff53df953a7417f13b10c172ef99735153cb2e0729423233ed6340ef 1074349 libinput_1.28.1.orig.tar.gz"
+    "4b76556a811bfe75b8e41fc175fda1d9a4bad2ac5c54b70c891bd505d38220a6f9885dbeba6d87f8e63453dae5ff0bb041192b2af2424d6a9604a3eb0a1f3814 10660 libinput_1.22.1-1.debian.tar.xz 8f519cafbcfe9416e92e831a924817f2a271a2fbff6b54351a49a37543b66db7de3b45e40252e0c1629a4e7b9181dee3eaa1ba6dd810d7ba1cd6020258180921 2462 libinput_1.22.1-1.dsc 539870ccf95de80dbfcca05673a72a5d266c9c51dada172277161538096a14f9c28fe4fa91b374ac94268647984cfc4fda621a050a7802cc6edaab6d28b64c24 990102 libinput_1.22.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libi/libinput"
   ],
   "Files": [
-    "9509a1ed43f161dce4035a19ce498849 10960 libinput_1.28.1-1.debian.tar.xz 1753a4a8715f1836d782d1a59a21eb4f 2472 libinput_1.28.1-1.dsc 34988f66b52814647c01fa72f2c5210d 1074349 libinput_1.28.1.orig.tar.gz"
+    "77dcb814403c43a746970bcbdece4a9d 10660 libinput_1.22.1-1.debian.tar.xz ef08ebb2f88a25a2a1b02c92e2567cb6 2462 libinput_1.22.1-1.dsc d164313f9a92162df7af3505b6915c76 990102 libinput_1.22.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libinput-bin deb libs optional arch=any libinput-dev deb libdevel optional arch=any libinput-tools deb libdevel optional arch=any libinput10 deb libs optional arch=any libinput10-udeb udeb debian-installer optional arch=any profile=!noudeb"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "build-essential"
   ],
   "Uploaders": [
-    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Héctor Orón Martínez \u003czumbi@debian.org\u003e, Marius Gripsgard \u003cmarius@ubports.com\u003e"
+    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Héctor Orón Martínez \u003czumbi@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/xorg-team/lib/libinput"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/xorg-team/lib/libinput.git"
   ],
   "Version": [
-    "1.28.1-1"
+    "1.22.1-1"
   ]
 }
