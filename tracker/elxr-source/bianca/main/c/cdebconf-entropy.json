@@ -6,22 +6,22 @@
     "cdebconf-text-entropy, cdebconf-newt-entropy, cdebconf-gtk-entropy"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 9), po-debconf (\u003e= 0.5.0), libdebian-installer4-dev, libdebconfclient0-dev (\u003e= 0.206), libnewt-dev, libtextwrap-dev, libgtk2.0-dev (\u003e= 2.18.7-2), dh-autoreconf"
+    "debhelper (\u003e= 9), po-debconf (\u003e= 0.5.0), libdebian-installer4-dev, pkg-config, libdebconfclient0-dev (\u003e= 0.206), libnewt-dev, libtextwrap-dev, libgtk2.0-dev (\u003e= 2.18.7-2) \u003c!pkg.cdebconf-entropy.nogtk\u003e, dh-autoreconf"
   ],
   "Checksums-Sha1": [
-    "8a48657004766fa0d9f4ce4f29b32316e72399c6 2066 cdebconf-entropy_0.52.dsc d6c3fcf393c2d2f976f019db8336599abcbded62 47280 cdebconf-entropy_0.52.tar.xz"
+    "6c52ae6c169b4be92134ee685c54a24760dce7a1 2140 cdebconf-entropy_0.59.dsc 671b4340ccc4600c2f3c8207900a8935c6a600b3 48452 cdebconf-entropy_0.59.tar.xz"
   ],
   "Checksums-Sha256": [
-    "0b32183896d477c09e39712c471c4fd3dc4183b47f965ef37eb9bc4aef7f7554 2066 cdebconf-entropy_0.52.dsc 5b4fe3e2b63883c09fdd836b53e8fc1aa46e08bfa9fff5857b9ed21dd7b6afce 47280 cdebconf-entropy_0.52.tar.xz"
+    "3ac5cc7fd848faae52cc86e16defa28c12ca48122baf38cf48c31102fdee926b 2140 cdebconf-entropy_0.59.dsc 3153e5a88d6a66883720f0fefbf4b21dc82380691417f7ec670dff8874644f32 48452 cdebconf-entropy_0.59.tar.xz"
   ],
   "Checksums-Sha512": [
-    "101969db85b131fb44fe1bd9c13dbd1544cf0d07c946af739d12f29ec9e915363f2dce173e953e5ebdce2573a05baf4670ccc429daae0f4e8b322b46c62d531d 2066 cdebconf-entropy_0.52.dsc 034b4169d3f46c60e27defa835e59e41fb3b4794fffc8aae209ee54c20a57f34e87e6907fc601c174edad89d5e6405d654246cbd97feb89b56a7dfbb5a002f63 47280 cdebconf-entropy_0.52.tar.xz"
+    "11918606c7d8caac3f453853ae313fedde9f95ff502143f71aa4e1ccbc2c31efa7b88d76ab02ab7421724ee88ee0b5f71a2236ab168fbbb4be90684ae4cb2078 2140 cdebconf-entropy_0.59.dsc 441fabfdcaf59f26d58d6c5a9fda25bf9d97b268664fa2a16315840e0600361b3cf69a46960e0774b21eee542045b7e7adc5e5635bd2a897d0a3677a8f26ee5a 48452 cdebconf-entropy_0.59.tar.xz"
   ],
   "Directory": [
     "pool/main/c/cdebconf-entropy"
   ],
   "Files": [
-    "57d77a51102369e39f67b344e436c514 2066 cdebconf-entropy_0.52.dsc ed8ff6a475061b0656370ef9e1b1b5c6 47280 cdebconf-entropy_0.52.tar.xz"
+    "0015e8ce6446c6c1cf011cc2d12f54c8 2140 cdebconf-entropy_0.59.dsc a2cac93525935a932f8c1988f75afb0c 48452 cdebconf-entropy_0.59.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -33,7 +33,7 @@
     "cdebconf-entropy"
   ],
   "Package-List": [
-    "cdebconf-gtk-entropy udeb debian-installer optional arch=any cdebconf-newt-entropy udeb debian-installer optional arch=any cdebconf-text-entropy udeb debian-installer optional arch=any"
+    "cdebconf-gtk-entropy udeb debian-installer optional arch=any profile=!pkg.cdebconf-entropy.nogtk cdebconf-newt-entropy udeb debian-installer optional arch=any cdebconf-text-entropy udeb debian-installer optional arch=any"
   ],
   "Uploaders": [
     "Max Vozeler \u003cxam@debian.org\u003e, Jérémy Bobbio \u003clunar@debian.org\u003e, Colin Watson \u003ccjwatson@debian.org\u003e"
@@ -45,6 +45,6 @@
     "https://salsa.debian.org/installer-team/cdebconf-entropy.git"
   ],
   "Version": [
-    "0.52"
+    "0.59"
   ]
 }

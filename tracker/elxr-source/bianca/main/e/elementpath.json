@@ -6,22 +6,28 @@
     "python3-elementpath"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-lxml, locales-all"
+    "debhelper-compat (= 13), dh-python, dh-sequence-python3, locales-all, python3-all, python3-lxml \u003c!nocheck\u003e, python3-setuptools, python3-xmlschema (\u003e= 2.0.0) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "fc8a48e47f0b4927e8990c75d6fd388e3c14896e 2604 elementpath_2.5.3-1.debian.tar.xz 452d509eafbd344dd66837d0a125177486323717 2076 elementpath_2.5.3-1.dsc 2f20f52f44e87c7f76af73ed11d99d25defe1607 264387 elementpath_2.5.3.orig.tar.gz"
+    "b01980279cde07a2b2495a17a8d1daa913fac653 3280 elementpath_4.8.0-1.debian.tar.xz 7a07ad365a59bbcb2371f10e4f37d6d9b4e123ab 2546 elementpath_4.8.0-1.dsc cd5e549db170cae20000caba8609214f640174c5 358733 elementpath_4.8.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "0d05b30d6a15357cd2209b6d21a7358f5146106762f8673b61c61d7b6796275b 2604 elementpath_2.5.3-1.debian.tar.xz 09aa966008c16c6b68032c5e1ed5222d4f6b4383747e9f1924c8f69839e34baf 2076 elementpath_2.5.3-1.dsc 5917ed1b7155e47205569f2310ff22d0b73e7707f08795dff348e6cd3e2615d0 264387 elementpath_2.5.3.orig.tar.gz"
+    "ee66dfe8d15688c53d3a7a8972224dba411fc0e9d0d6b0096d435433feafbec3 3280 elementpath_4.8.0-1.debian.tar.xz f8248367cb77d05204964ac3495421c11bd76fb3446b3f874168d99f9510e00b 2546 elementpath_4.8.0-1.dsc 3fbbc0be2c94b3316c992a885c4c73e676e53136edb9b3927df0f480c84444ab 358733 elementpath_4.8.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "464a393a177d9cefa0e8a2f815d70e9215766a0b912b8c324c9bdf1f140cbf3bd9f7b4b174199967a8eabe32be95bbab9a89dc7e9a0cd9c4b903cab0a97b05fc 2604 elementpath_2.5.3-1.debian.tar.xz 9f52fcfd5db7fae25792b196ec0b42ac820c50cdacf1e9565b7f31b6943818b8372b3d10c81e7af3e38e97c52e978eccc9881849f4899e016ffbffa069af7864 2076 elementpath_2.5.3-1.dsc da561446ac3a059c60480084648ebc1190d0ec1dc495dfa128dc2598d5762ae1067f39be36fc6bca466e6785aae80edf6dc1415a2885bfbb2d54b97ca6611572 264387 elementpath_2.5.3.orig.tar.gz"
+    "e58c5aaae58ddb2fe86ee6196128f31aa2d32b4fe516b0c26fe44d41b38a03114010bdf707b93d28b19628f8caf61aca2d2684ba44317b4f99977b78e0c11e66 3280 elementpath_4.8.0-1.debian.tar.xz 5ced07d9f76cd03c13886db11fc4981b2557590457ebd505f6a2d740ce55a8a01aa0c2e13c553ad3df794e675563b67fec9ecf045aea379e4134cc50c0472d93 2546 elementpath_4.8.0-1.dsc 1589c2d47cdac92b0ee4c58fe5950cd1899db44e953787afb36596f3710deb6642a6d32f6cfff3bf57f25e7f2c33e6b25b27723021c85d91f915ba1e54fac47a 358733 elementpath_4.8.0.orig.tar.gz"
+  ],
+  "Description": [
+    "XPath selectors for XML data structures in Python This package provides XPath 1.0, 2.0, 3.0 and 3.1 selectors for Python's ElementTree XML data structures, both for the standard ElementTree library and for the lxml.etree library."
+  ],
+  "Dgit": [
+    "d63cfe8f609c0274995855d28b01f0c82b25d5b8 debian archive/debian/4.8.0-1 https://git.dgit.debian.org/elementpath"
   ],
   "Directory": [
     "pool/main/e/elementpath"
   ],
   "Files": [
-    "0d5a166315246d430339a3ea24d978f8 2604 elementpath_2.5.3-1.debian.tar.xz 2a4d54273131178d10ad14e17ab61410 2076 elementpath_2.5.3-1.dsc e5ce0064f90aa8131809bf3e0181789b 264387 elementpath_2.5.3.orig.tar.gz"
+    "748fb84a4e6577d8c111ca71d3bd5e64 3280 elementpath_4.8.0-1.debian.tar.xz 479aba6406ecfa3617735b6f7539c052 2546 elementpath_4.8.0-1.dsc b5d2b59287eabad2f2dcb9bf4aa07c34 358733 elementpath_4.8.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +36,7 @@
     "https://github.com/sissaschool/elementpath"
   ],
   "Maintainer": [
-    "Alvin Chen \u003csonoma001@gmail.com\u003e"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
   ],
   "Package": [
     "elementpath"
@@ -39,24 +45,21 @@
     "python3-elementpath deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1.0"
+    "4.7.2"
   ],
   "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python3-all, python3-setuptools"
+    "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
-    "SZ Lin (林上智) \u003cszlin@debian.org\u003e"
+    "Timo Röhling \u003croehling@debian.org\u003e,"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/debian/elementpath"
+    "https://salsa.debian.org/python-team/packages/elementpath"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/debian/elementpath.git"
+    "https://salsa.debian.org/python-team/packages/elementpath.git"
   ],
   "Version": [
-    "2.5.3-1"
+    "4.8.0-1"
   ]
 }

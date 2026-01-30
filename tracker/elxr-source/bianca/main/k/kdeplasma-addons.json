@@ -6,22 +6,22 @@
     "kdeplasma-addons-data, kwin-addons, plasma-calendar-addons, plasma-dataengines-addons, plasma-runners-addons, plasma-wallpapers-addons, plasma-widgets-addons"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.90.0~), gettext, kross-dev (\u003e= 5.79.0~), libicu-dev (\u003e= 66.1~), libkf5archive-dev (\u003e= 5.90.0~), libkf5config-dev (\u003e= 5.90.0~), libkf5coreaddons-dev (\u003e= 5.90.0~), libkf5declarative-dev (\u003e= 5.90.0~), libkf5holidays-dev (\u003e= 1:5.90.0~), libkf5i18n-dev (\u003e= 5.90.0~), libkf5iconthemes-dev (\u003e= 5.79.0~), libkf5kcmutils-dev (\u003e= 5.90.0~), libkf5kio-dev (\u003e= 5.90.0~), libkf5networkmanagerqt-dev, libkf5newstuff-dev (\u003e= 5.90.0~), libkf5notifications-dev (\u003e= 5.90.0~), libkf5plasma-dev (\u003e= 5.90.0~), libkf5purpose-dev (\u003e= 5.70.0~), libkf5runner-dev (\u003e= 5.90.0~), libkf5service-dev (\u003e= 5.90.0~), libkf5sonnet-dev (\u003e= 5.90.0~), libkf5unitconversion-dev (\u003e= 5.90.0~), libkf5widgetsaddons-dev (\u003e= 5.70.0~), libkf5windowsystem-dev (\u003e= 5.90.0~), libkf5xmlgui-dev (\u003e= 5.79.0~), pkg-config, pkg-kde-tools (\u003e= 0.15.18~), plasma-workspace (\u003e= 4:5.27.5~), qtbase5-dev (\u003e= 5.15.0~), qtdeclarative5-dev (\u003e= 5.15.0~), qtwebengine5-dev (\u003e= 5.15.0~) [amd64 arm64 armhf i386 mipsel]"
+    "debhelper-compat (= 13), dh-exec, dh-sequence-kf6, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.10.0~), gettext, libicu-dev (\u003e= 66.1~), libkf6auth-dev (\u003e= 6.10.0~), libkf6config-dev (\u003e= 6.10.0~), libkf6coreaddons-dev (\u003e= 6.10.0~), libkf6dbusaddons-dev (\u003e= 6.10.0~), libkf6declarative-dev (\u003e= 6.10.0~), libkf6globalaccel-dev (\u003e= 6.10.0~), libkf6holidays-dev (\u003e= 6.10.0~), libkf6i18n-dev (\u003e= 6.10.0~), libkf6jobwidgets-dev (\u003e= 6.10.0~), libkf6kcmutils-dev (\u003e= 6.10.0~), libkf6kio-dev (\u003e= 6.10.0~), libkf6newstuff-dev (\u003e= 6.10.0~), libkf6notifications-dev (\u003e= 6.10.0~), libkf6runner-dev (\u003e= 6.10.0~), libkf6service-dev (\u003e= 6.10.0~), libkf6sonnet-dev (\u003e= 6.10.0~), libkf6unitconversion-dev (\u003e= 6.10.0~), libkf6xmlgui-dev (\u003e= 6.10.0~), libplasma-dev (\u003e= 6.3.4~), libplasma5support-dev (\u003e= 4:6.3.4~), pkgconf, qt6-5compat-dev (\u003e= 6.7.0~), qt6-base-dev (\u003e= 6.7.0~), qt6-declarative-dev (\u003e= 6.7.0~), qt6-webengine-dev (\u003e= 6.7.0~) [amd64 arm64 armhf i386]"
   ],
   "Checksums-Sha1": [
-    "ce215e7b70f60d3bf186b36dc101898fa1a43428 22656 kdeplasma-addons_5.27.5-2.debian.tar.xz 4e7ba35523253f9de7a80fa458875ab269154e4d 3883 kdeplasma-addons_5.27.5-2.dsc 833e990d8b0b565b44d918eb2ae89a43b94b36a3 819660 kdeplasma-addons_5.27.5.orig.tar.xz eb5a863a6acf4cf1413e723122cda88051211742 833 kdeplasma-addons_5.27.5.orig.tar.xz.asc"
+    "55d631357fbc231becb6bec97091133fa43009fb 25344 kdeplasma-addons_6.3.5-1.debian.tar.xz 55ad46e474aabd8eb3e132dec8f4274775e30656 3720 kdeplasma-addons_6.3.5-1.dsc d7380c88e7b745f1ad66b6b4583b80bcef4406b8 923940 kdeplasma-addons_6.3.5.orig.tar.xz 64dc308ecaf5a65253f702bfb3b998a685b9dd68 833 kdeplasma-addons_6.3.5.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "00304432a199299e55dde79b260909afe342771155d799dbfc9a5756bdbca81b 22656 kdeplasma-addons_5.27.5-2.debian.tar.xz a11f1bf328388f55fe7ad94ec3e5b0a00b33a95421ea8c2df1c9d1b0b93a0636 3883 kdeplasma-addons_5.27.5-2.dsc c9351ab0317c75b0340be44cc906b7ba66e69f5c672d33fbfd5b32bc2a560ff9 819660 kdeplasma-addons_5.27.5.orig.tar.xz e6a513756d2522ea9bac5b331798efce46d85836b57f42307cc8b553d22e7c14 833 kdeplasma-addons_5.27.5.orig.tar.xz.asc"
+    "0f762fbc8cc5fce94bb83dfc0361a5466cdc6f1174f22a1ba2860eebb050027c 25344 kdeplasma-addons_6.3.5-1.debian.tar.xz ee10c4fe05acc17c03f835b656f6a6998256b122fb47022b073f2f7d075b18d9 3720 kdeplasma-addons_6.3.5-1.dsc 27bc430a2d4f5ff85b02c120c45afe3e02287e5b13bd730eabb8ed484d5ea4ba 923940 kdeplasma-addons_6.3.5.orig.tar.xz 2137f4c6275658fe2d801580aa20ea1ecbaf8bf946d483c52de8b9b5f59a5fa2 833 kdeplasma-addons_6.3.5.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "07b2ad3fa455dbbceccaf9d0bd91735bc33734fadda1741667e637befbcbf726ec05ddbe389a107d6bd9693e12db74dd928a6c614b37b0b725c8a82dd2c074a6 22656 kdeplasma-addons_5.27.5-2.debian.tar.xz a4a845b06214b164caaef13d92b238c3a5fc097a0fc2ef1205550bc7bbac7f1969783fbe9a83c9b169d59ebb22ce1b946e12bdbd24f9c508a6f7c781391953a1 3883 kdeplasma-addons_5.27.5-2.dsc dc7c859e303aedf2356cb3e9d3977434ee4d35b57dbb5e51c59fc0a654c3cb9c0163ba6657f3e27caa36da69a86d7ea4be57063501449eae4e89456209ffdc71 819660 kdeplasma-addons_5.27.5.orig.tar.xz 6fb3f8a8f87430c2833b460a37db4398eccac60d7753f6fbfc49166ed6a47d7c2d91b6d016a25c574173b99c9ee23f2e87df6b3951098bd0c409d694325b371f 833 kdeplasma-addons_5.27.5.orig.tar.xz.asc"
+    "210c6ea0b7f394ba78c3bdc6521aa2d0b59fad5f965dbe59055ea8b8394901af8300c3c04f5f2b74c498c8680f0ca6fcb3b0a6769001572bd4d30ce86ec8187d 25344 kdeplasma-addons_6.3.5-1.debian.tar.xz 4cf9684e58cc81cfd3ec43b1b8d0c93cd1251f5ab9f68fe443aba3f94cdc44d66512dd6ac3ede8fd3f04f229d956836111da5d61318ef5d84b91c5019424bbe6 3720 kdeplasma-addons_6.3.5-1.dsc aa133d9aea80d60b16fe0a2967853dc6a6e981c0af3560acf29fedb585b1bb379291a685580c10a1c1cf9dcbe0ede4658b2c024a842a975fcb07443e749d66f0 923940 kdeplasma-addons_6.3.5.orig.tar.xz d700d9b8572f94a6658c161dbd571b28e17949142ad2ebe900a19492a0acd20abd4925c93cfa936a34794990841c65d93fe581988b729d969f070b1d833cfb80 833 kdeplasma-addons_6.3.5.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/k/kdeplasma-addons"
   ],
   "Files": [
-    "1cfd9375001010e008889a062c24c6e9 22656 kdeplasma-addons_5.27.5-2.debian.tar.xz 2011a2a3c8b542bb4b82dc3014326c59 3883 kdeplasma-addons_5.27.5-2.dsc ef10140df619daa2b82b22f77e07a4c9 819660 kdeplasma-addons_5.27.5.orig.tar.xz b75f6f0e027c6bed8d6e083167d27ab6 833 kdeplasma-addons_5.27.5.orig.tar.xz.asc"
+    "3e18ed0c8360dabfe5bd64fb1cf4e938 25344 kdeplasma-addons_6.3.5-1.debian.tar.xz 063f03189acf9ed1288747d52bc38fad 3720 kdeplasma-addons_6.3.5-1.dsc 330aa9cbea5bcaf36b050d0f7d16a3af 923940 kdeplasma-addons_6.3.5.orig.tar.xz 790a295dbc9cda74d405e70176a53ada 833 kdeplasma-addons_6.3.5.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "kdeplasma-addons-data deb kde optional arch=all kwin-addons deb kde optional arch=any plasma-calendar-addons deb kde optional arch=any plasma-dataengines-addons deb kde optional arch=any plasma-runners-addons deb kde optional arch=any plasma-wallpapers-addons deb kde optional arch=any plasma-widgets-addons deb kde optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e, Scarlett Moore \u003csgmoore@kde.org\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/kdeplasma-addons"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kdeplasma-addons.git"
   ],
   "Version": [
-    "4:5.27.5-2"
+    "4:6.3.5-1"
   ]
 }

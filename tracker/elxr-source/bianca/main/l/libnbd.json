@@ -6,22 +6,22 @@
     "libnbd-dev, libnbd0, python3-libnbd, libnbd-ocaml, libnbd-ocaml-dev, libnbd-bin"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 13), dh-python, python3-dev, libfuse3-dev, libgnutls28-dev, libxml2-dev, pkg-config, gnutls-bin \u003c!nocheck\u003e, nbdkit (\u003e= 1.12.4) \u003c!nocheck\u003e, nbdkit-plugin-dev (\u003e= 1.12.4) \u003c!nocheck\u003e, nbd-server \u003c!nocheck\u003e, qemu-utils \u003c!nocheck\u003e, qemu-system-common \u003c!nocheck\u003e, ocaml-nox, ocamlbuild, ocaml-findlib, dh-ocaml, bash-completion, iproute2 \u003c!nocheck\u003e, jq \u003c!nocheck\u003e"
+    "debhelper (\u003e= 13), dh-python, python3-dev, libfuse3-dev, libgnutls28-dev, libxml2-dev, pkgconf, gnutls-bin \u003c!nocheck\u003e, nbdkit (\u003e= 1.12.4) \u003c!nocheck\u003e, nbdkit-plugin-dev (\u003e= 1.12.4) \u003c!nocheck\u003e, qemu-utils \u003c!nocheck\u003e, qemu-system-common \u003c!nocheck\u003e, ocaml-nox, ocamlbuild, ocaml-findlib, dh-ocaml, bash-completion, iproute2 \u003c!nocheck\u003e, jq \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "3ec2576f0c4bcbc042a20b225aca05aec9782d7d 84744 libnbd_1.14.2-1.debian.tar.xz 1719e522bc3a3899e776e94d2e8e1d055f0fc37e 2705 libnbd_1.14.2-1.dsc 6bc66366a216117c3c451dc7764c790435749b80 1266565 libnbd_1.14.2.orig.tar.gz 702a40b2d15518e9192e8ecb3a01dd094e62d337 858 libnbd_1.14.2.orig.tar.gz.asc"
+    "f48347d2fc2250779c769722d42163f748527e12 85476 libnbd_1.22.2-1.debian.tar.xz 29d648d24172aea6f5e2acaf059be962b3606a39 2679 libnbd_1.22.2-1.dsc 39434203dd3b592403e1713fab7a51f97203906e 1567641 libnbd_1.22.2.orig.tar.gz 44348e44751954679c5be5cc95ed444db1807398 858 libnbd_1.22.2.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "78afe4c75b8d90acd06a069c81f8de834ea460d43d4eaae6c6261a6cedd4b985 84744 libnbd_1.14.2-1.debian.tar.xz 7c08c0f3a2595c4c1935d9df5bcf5880300e7dfe62fde92a67a066d2800bbf00 2705 libnbd_1.14.2-1.dsc 83cc3a88d63b17353275ff4c7c8dcc778437f48ca5d51caa76da415981a7a0cf 1266565 libnbd_1.14.2.orig.tar.gz 4f612276bc96008537ffce96d38f7f6ab44eba74a360b189896ef8b40f6fc504 858 libnbd_1.14.2.orig.tar.gz.asc"
+    "356f2ee0c42ff01fb7eb8f797fc81c2a7d7ac71687c2baab06dc4db43d1f256c 85476 libnbd_1.22.2-1.debian.tar.xz f7aae1e71981a36049942333f136481baa966e67589144c298cfe7d898569741 2679 libnbd_1.22.2-1.dsc bdc403af00fd1c9b5ed20503765496a81c2d0197af550765af3dee196e8519ca 1567641 libnbd_1.22.2.orig.tar.gz 0dd24ca3252c16365c52b1232946f078e5278698694133bc918c809cd69b4cc0 858 libnbd_1.22.2.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "fddf726143976f285e145856863b2da7af8a76816c130269850bfc64235fb8e6155e86c8a9fed49aec74971f4486813c863a43c449fec3ca245c821f2c3843c3 84744 libnbd_1.14.2-1.debian.tar.xz 8b66871d4955767579eba0f7c5c08b91f1e0005bffa0355ddee15541fa65914d347f8614ba063e457d4baac95d3f792105c99cb6dec9f9b2ed5561c3b42902f0 2705 libnbd_1.14.2-1.dsc ce1aef449a2589734c750ca73d9dc79bf645d08bf7425205f45647b6ec717972568500e50e9546a09bb96a278df77a2752a0a6f50c87237ed3f665dec175ad63 1266565 libnbd_1.14.2.orig.tar.gz 264ce543b200728ed17bc5b9b4b99f95aab13c078e01bbe53395dc3e77cfe06f367ec62bf4669824a5ccf573654d9090cc7c649beb95d1e6e3e669e1d2d13732 858 libnbd_1.14.2.orig.tar.gz.asc"
+    "3dc351e0be547b140704086416972468163a56bf82a2b005cda10e3f021297b22bbd4b29db21ee0d4f8d7e344943777f5c947078dbbf0b5c74706a39c4d7d385 85476 libnbd_1.22.2-1.debian.tar.xz 4f6c700cc78a0fda2460635045af897b9c0cc64035c614db2d6a7f115aadec3312afe64b2ffaa3107a4d9df8655c4a643b1cd95f11db04102670cee3695e6bcd 2679 libnbd_1.22.2-1.dsc 5ece4cdc41cafefbe27ddaeafc2b6b390b0cf25f38f80c1b10ec2e17ee1dcda92964891faf4abca4c8aa5827c9eec6e0b38162871e8c72b2af8e769287cd603d 1567641 libnbd_1.22.2.orig.tar.gz 0b0d6cd4e5b900aef73820f53dc87e3d7dbd80a056efbb8c6236750c91fc570b529a3bddcbb446ebbb517f279daf90d6fa7e9ffca16901b5568ac395c1b6eda2 858 libnbd_1.22.2.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/libn/libnbd"
   ],
   "Files": [
-    "dacdcd49ed5613a1743a8e12da2865ed 84744 libnbd_1.14.2-1.debian.tar.xz 4fd52478794b8c076707484d74714cc8 2705 libnbd_1.14.2-1.dsc ca4674be2c4b1f8bd563552cca6b32cd 1266565 libnbd_1.14.2.orig.tar.gz e32468e1a071797a35157d3436499559 858 libnbd_1.14.2.orig.tar.gz.asc"
+    "ccf3acdcde0bb5fa7c79b75350da6a5e 85476 libnbd_1.22.2-1.debian.tar.xz ee1bcd2fe9e76af97a3cb1fb5beebef3 2679 libnbd_1.22.2-1.dsc 81fcae674ecb1a636a07afd2f10432fe 1567641 libnbd_1.22.2.orig.tar.gz 1f1dd6dbc065c9ba8d0ff3066bfa4bce 858 libnbd_1.22.2.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/libnbd.git"
   ],
   "Version": [
-    "1.14.2-1"
+    "1.22.2-1"
   ]
 }

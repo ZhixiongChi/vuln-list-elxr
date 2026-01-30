@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), cmake"
   ],
   "Checksums-Sha1": [
-    "3b2da789ab97bb3cf142613d4378f941f9e9fd19 7196 khronos-opencl-headers_3.0~2023.02.06-1.debian.tar.xz a61211fe5f4a3cf7923b0ac0b13fa7f68613d219 2325 khronos-opencl-headers_3.0~2023.02.06-1.dsc 879887856390ad3aa54b5ac014b3885b0df20a76 66125 khronos-opencl-headers_3.0~2023.02.06.orig.tar.gz"
+    "015d67b7341f8f3ae61be1f0bab16110e2fb81a1 7228 khronos-opencl-headers_3.0~2024.10.24-2.debian.tar.xz b8b6c00ed5f0f385782b5f87b4b9a9642a5e27c3 2347 khronos-opencl-headers_3.0~2024.10.24-2.dsc 9f98fd123de61c2ebbf64125dbc8a093ef006268 85151 khronos-opencl-headers_3.0~2024.10.24.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "3b935732ae4e17ac27512d97a1be287ba245b3ba0840d6a1a66e2ba4a7b2532c 7196 khronos-opencl-headers_3.0~2023.02.06-1.debian.tar.xz dcfadd774fb47b7596dbb2643cb0e4c572d0171426ecd8d42065abdf8e36d098 2325 khronos-opencl-headers_3.0~2023.02.06-1.dsc 464d1b04a5e185739065b2d86e4cebf02c154c416d63e6067a5060d7c053c79a 66125 khronos-opencl-headers_3.0~2023.02.06.orig.tar.gz"
+    "b39d552b0487990b9047d3ef24ca8ae36c1409233ae7e73742f6a840559b1cdc 7228 khronos-opencl-headers_3.0~2024.10.24-2.debian.tar.xz 97f208cf0747a5883e6f814a12016f7f5f10aa54ccb291bc2f38a6a4e3d1a6a7 2347 khronos-opencl-headers_3.0~2024.10.24-2.dsc 159f2a550592bae49859fee83d372acd152328fdf95c0dcd8b9409f8fad5db93 85151 khronos-opencl-headers_3.0~2024.10.24.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "fe68112d0a5ad3c15963f29ec1927f6522f50a8f915cd585c4ecb85cbdbaa864a389d4d03b645b90aaa24b37cc6ed8e35fe4f9dccb6873bb6b9ffaf3b539eb40 7196 khronos-opencl-headers_3.0~2023.02.06-1.debian.tar.xz 787c95bde68ca59b96947cd023438cc4e003c456162b754ada0ed6e316cbf64a227883b3997e04faeed4d9819f128ab6b363e0192c14f5c7fbb582489219a619 2325 khronos-opencl-headers_3.0~2023.02.06-1.dsc 41730e80b267de45db9d7a3bcf9e0f29bfc86b25475a86d50180a7258e1240fc8c8f2ad3e222b03b3ef50c10ef63fb5b1647c056fec615e87965aa3196e8ac60 66125 khronos-opencl-headers_3.0~2023.02.06.orig.tar.gz"
+    "6e762ab81545af33a43207e291ed09a0e542cba9c331446c2f6707cd7218405986037abe55280e476a9c1204964f2f1bd4bd1e99d9af413ef870f16f1f2e5738 7228 khronos-opencl-headers_3.0~2024.10.24-2.debian.tar.xz 2aef23a6a32e1e1d59d8180463b5493147c98161078ab693bf2c9b788c9842fc482999e430ab6e16df2e2f06aa8f750047f3419d291d846f7f55d71f59689610 2347 khronos-opencl-headers_3.0~2024.10.24-2.dsc 9d2ed2a8346bc3f967989091d8cc36148ffe5ff13fe30e12354cc8321c09328bbe23e74817526b99002729c884438a3b1834e175a271f6d36e8341fd86fc1ad5 85151 khronos-opencl-headers_3.0~2024.10.24.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/k/khronos-opencl-headers"
   ],
   "Files": [
-    "4bcbadde0f6349e4f225c2db4d8b469f 7196 khronos-opencl-headers_3.0~2023.02.06-1.debian.tar.xz 2555979670776807bd840ff46c16f818 2325 khronos-opencl-headers_3.0~2023.02.06-1.dsc 226c4223b1e75791f35e5a543a39caed 66125 khronos-opencl-headers_3.0~2023.02.06.orig.tar.gz"
+    "8ace7bf0d538690b654032d0790be4d7 7228 khronos-opencl-headers_3.0~2024.10.24-2.debian.tar.xz 167c45c27f96b2130bbb081c4fade8b1 2347 khronos-opencl-headers_3.0~2024.10.24-2.dsc 09e3c22ad7bf509127ac73baee81b71e 85151 khronos-opencl-headers_3.0~2024.10.24.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "opencl-c-headers deb libdevel optional arch=all opencl-headers deb libdevel optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "cmake, g++, libva-dev, make"
+    "cmake, g++, libva-dev, make, opencl-clhpp-headers"
   ],
   "Uploaders": [
     "Andreas Beckmann \u003canbe@debian.org\u003e, Vincent Danjean \u003cvdanjean@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/opencl-team/khronos-opencl-headers.git"
   ],
   "Version": [
-    "3.0~2023.02.06-1"
+    "3.0~2024.10.24-2"
   ]
 }

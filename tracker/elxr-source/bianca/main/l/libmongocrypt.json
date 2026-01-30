@@ -6,22 +6,22 @@
     "libmongocrypt-dev, libmongocrypt0"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 10), cmake, libssl-dev, pkg-config, libintelrdfpmath-dev (\u003e= 2.0u2-6) [!mips64el !mipsel], libbson-dev"
+    "debhelper (\u003e= 10), cmake, libssl-dev, pkgconf, libintelrdfpmath-dev (\u003e= 2.0u2-6) [!mips64el !mipsel], libbson-dev"
   ],
   "Checksums-Sha1": [
-    "fba21a9e077259de41dd01e93667145783212230 5840 libmongocrypt_1.7.2-1.debian.tar.xz d8c83f05037204800e77cd4b93c0a8adbe4a18b1 2105 libmongocrypt_1.7.2-1.dsc 0a3e6f8311fafc9c5d6fe58d92550cc424c450f9 1285767 libmongocrypt_1.7.2.orig.tar.gz"
+    "d76f2badbd756f3fc575a6cc9d622e80d0cd773b 6180 libmongocrypt_1.13.2-1.debian.tar.xz c84e128d102a45e7d12a6096fa7f50cc1ae9d5c0 2191 libmongocrypt_1.13.2-1.dsc 27df1c71c8fef6a94cda4f822660b2bfe034fd4b 1180651 libmongocrypt_1.13.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "d9edaf2d3014c0d337ccdac1c33657d57fc9519af81d0222056f2bbedded620f 5840 libmongocrypt_1.7.2-1.debian.tar.xz db8473da07429c4404a2a22f258b36e18ed4bb58ddcde3c14ef7b09e382b7973 2105 libmongocrypt_1.7.2-1.dsc a25440a5fa805dc94a4d04aecf91698eebbae23cc045efc96da238f07c85a73f 1285767 libmongocrypt_1.7.2.orig.tar.gz"
+    "b75a04e4dff1bbb613e3c3cab5edcb95e45f42e3baf80771f796bddc66085f86 6180 libmongocrypt_1.13.2-1.debian.tar.xz 80bc6cbd867711ec30ce1638a806b19b3d37624a7f0f1c517407afed073506a2 2191 libmongocrypt_1.13.2-1.dsc 3e11aaa9dc983e3d56ab181aa7bae081e35196c32c48fb123b524c3aa1d5de67 1180651 libmongocrypt_1.13.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "7954cd7ecef191659a41453b3a9caee6a6a3aaa648104eb43e02d35b3aebd3422cbeda2e3c46c3f07415c36de8a23795191f8dd00c27e89381d01a9a5ab27980 5840 libmongocrypt_1.7.2-1.debian.tar.xz ce34e2f4d1f24eca3a0c20c9d709ec9130f595b1cdf4baaa59e90b2212859a972ceb8b2e40558708985855cc931bbde7db900a6b78a2abec64522723c9e9b288 2105 libmongocrypt_1.7.2-1.dsc b805d6b6442e7f47826cb561efffe16659f492559a6b102686ba3b045aab32b3ae8ae6951cdd62a4d20e5848dbb275a901cfd540ea90dab1c8b49f8dd3b60252 1285767 libmongocrypt_1.7.2.orig.tar.gz"
+    "4c4ac5fd3fdbab1e7f3c28a864b82629df9aa784e9c1e6006f232e77c3b8ee3d3e46500f73aa364083d5709502745645a7efe7d537453545282d52165b97ae47 6180 libmongocrypt_1.13.2-1.debian.tar.xz 278fac1a071a497131275a6b65f857bbb222eb2236215cab5b17086a9fb92d34263e7284b97833e32c90a22eb8a73fefa0c396f6f30e5663c2e3ee8390aee4c1 2191 libmongocrypt_1.13.2-1.dsc 3a38fcddfbf9cb9582a9b0fe2a4578b5fa8ae87ceaadc0a685c874cddc17e6c79e8507561b32267a9f1f1b3564681b32852de37b6ee5f9ff7b7be2301d5ab9f6 1180651 libmongocrypt_1.13.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libm/libmongocrypt"
   ],
   "Files": [
-    "c1a75c404953f27fa16918378b021044 5840 libmongocrypt_1.7.2-1.debian.tar.xz 79fad9590a4d7171caa3067b24322687 2105 libmongocrypt_1.7.2-1.dsc ae33982dbbb98351c7c303baef2cb179 1285767 libmongocrypt_1.7.2.orig.tar.gz"
+    "cb191ced783a84790a69479872f83b7c 6180 libmongocrypt_1.13.2-1.debian.tar.xz 968b38a6ab960d19b1cb7b6980ce42a1 2191 libmongocrypt_1.13.2-1.dsc 35806be06bcf4980d7635abed85782f9 1180651 libmongocrypt_1.13.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,12 +39,18 @@
     "libmongocrypt-dev deb libdevel optional arch=any libmongocrypt0 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Kevin Albertson \u003ckevin.albertson@mongodb.com\u003e, Roberto C. Sanchez \u003croberto@connexer.com\u003e, Kyle Kloberdanz \u003ckyle.kloberdanz@mongodb.com\u003e"
+    "Kevin Albertson \u003ckevin.albertson@mongodb.com\u003e, Roberto C. Sanchez \u003croberto@connexer.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/mongodb/libmongocrypt/tree/debian/unstable"
+  ],
+  "Vcs-Git": [
+    "https://github.com/mongodb/libmongocrypt.git"
   ],
   "Version": [
-    "1.7.2-1"
+    "1.13.2-1"
   ]
 }

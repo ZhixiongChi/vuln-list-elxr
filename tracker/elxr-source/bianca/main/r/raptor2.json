@@ -6,22 +6,22 @@
     "libraptor2-dev, libraptor2-0, raptor2-utils, libraptor2-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gtk-doc-tools, libcurl4-gnutls-dev, libglib2.0-dev, libtool, libxml2-dev, libxslt1-dev, libyajl-dev, pkg-config"
+    "debhelper-compat (= 13), gtk-doc-tools, libcurl4-openssl-dev | libcurl4-gnutls-dev, libglib2.0-dev, libicu-dev, libtool, libxml2-dev, libxslt1-dev, libyajl-dev, pkgconf"
   ],
   "Checksums-Sha1": [
-    "c9d4ccb70670b48178fdaf94900afdc802e1777a 15308 raptor2_2.0.15-4+deb12u1.debian.tar.xz 4d8ae1c2f83c0bf07215003b9ebae990e161cf07 2208 raptor2_2.0.15-4+deb12u1.dsc 504231f87024df9aceb90eb957196b557b4b8e38 1886657 raptor2_2.0.15.orig.tar.gz"
+    "4edbf0a9455bf8167fff0ac8762483a6df582156 25184 raptor2_2.0.16-6.debian.tar.xz 5c0f44d1fc8e498645d16a50d4221d0f4006db6f 2314 raptor2_2.0.16-6.dsc ed33e72b49145f5b765006f71c4076a54a2dfa49 1750726 raptor2_2.0.16.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "97cd215fcd4ab843e1a67b9e14443e7b7d70fc4c66fd05064ed6485614e6823b 15308 raptor2_2.0.15-4+deb12u1.debian.tar.xz a89d88c60f06b2ad987bf0e7d2405f203bbe6a0e9960dd0ef36b1d13b86bdbef 2208 raptor2_2.0.15-4+deb12u1.dsc ada7f0ba54787b33485d090d3d2680533520cd4426d2f7fb4782dd4a6a1480ed 1886657 raptor2_2.0.15.orig.tar.gz"
+    "589162e22b9f6facf28be0e0c1eecce4e7a64f9c360f719d64b3ac0f3d09a1dd 25184 raptor2_2.0.16-6.debian.tar.xz 7a3ce85ae6af1f6455c07341f4b8fbdeae29423c13327516c4856244c19f54b0 2314 raptor2_2.0.16-6.dsc 089db78d7ac982354bdbf39d973baf09581e6904ac4c92a98c5caadb3de44680 1750726 raptor2_2.0.16.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f98010c8e25aaf730964eb6cd6bd94f46c882f418fdc1dedad3bb05326947a492e8c00afd637c0e967e607ed3008362c610955e2fa4fbf522f867fa1eacf8f92 15308 raptor2_2.0.15-4+deb12u1.debian.tar.xz 818aea14708679a87879e8e2df09ec8ceaed03b17918e9eb16fdc4b71e9e146e1a710df8f1b09f99c80631dc57e5a5384f4ca3d2b7857b3e5ae7a2aee5d27b84 2208 raptor2_2.0.15-4+deb12u1.dsc 563dd01869eb4df8524ec12e2c0a541653874dcd834bd1eb265bc2943bb616968f624121d4688579cdce11b4f00a8ab53b7099f1a0850e256bb0a2c16ba048ee 1886657 raptor2_2.0.15.orig.tar.gz"
+    "79020fd47ae68e37e65b8822d327618b0639a415b0084fe037705608ae07ef08827bb6271261b65979860b3dfac67cb993c4e8d50ef8949330a2eb9550ae4a3d 25184 raptor2_2.0.16-6.debian.tar.xz 3cf49a936f9c853c1000d21123167e43cc69492e02ecc85e78a8ebb9a1c932c2f36ae76ab7ec47cec0e20a531b8e0c048273454b0f0956030b49261beae79b59 2314 raptor2_2.0.16-6.dsc 9bd5cff36390e1e0ef15ac56e5413ecfceb4018cb531a4da8850d3623615f12a93690a78be61f9d9ae7a24e16f6446e356bc2b7f34051ddc077761d85a9b7c44 1750726 raptor2_2.0.16.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/raptor2"
   ],
   "Files": [
-    "f6a4dccbb5ad6885f036af5411aba0f7 15308 raptor2_2.0.15-4+deb12u1.debian.tar.xz a08da7e99e40a66d28e36cd7bec00b23 2208 raptor2_2.0.15-4+deb12u1.dsc a39f6c07ddb20d7dd2ff1f95fa21e2cd 1886657 raptor2_2.0.15.orig.tar.gz"
+    "9e95a059456d9bdfc38626837c1764ef 25184 raptor2_2.0.16-6.debian.tar.xz e0027cb20c78b4409d6144c79d852cad 2314 raptor2_2.0.16-6.dsc 0a71f13b6eaa0a04bf411083d89d7bc2 1750726 raptor2_2.0.16.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,9 +39,15 @@
     "libraptor2-0 deb libs optional arch=any libraptor2-dev deb libdevel optional arch=any libraptor2-doc deb doc optional arch=all raptor2-utils deb text optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.1"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/raptor2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/raptor2.git"
   ],
   "Version": [
-    "2.0.15-4+deb12u1"
+    "2.0.16-6"
   ]
 }

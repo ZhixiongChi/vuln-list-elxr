@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "any"
+    "any all"
   ],
   "Binary": [
-    "libkf5calendarutils-dev, libkf5calendarutils5"
+    "libkcalendarutils-data, libkcalendarutils-dev, libkpim6calendarutils6"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.99.0~), libgrantlee5-dev (\u003e= 5.2~), libkf5calendarcore-dev (\u003e= 5:5.99.0~), libkf5codecs-dev (\u003e= 5.99.0~), libkf5config-dev (\u003e= 5.99.0~), libkf5configwidgets-dev (\u003e= 5.99.0~), libkf5coreaddons-dev (\u003e= 5.99.0~), libkf5i18n-dev (\u003e= 5.99.0~), libkf5iconthemes-dev (\u003e= 5.99.0~), libkf5identitymanagement-dev (\u003e= 22.12.3~), libkf5widgetsaddons-dev (\u003e= 5.99.0~), oxygen-icon-theme, pkg-kde-tools (\u003e\u003e 0.15.15), qtbase5-dev (\u003e= 5.15.2~), xauth, xvfb"
+    "debhelper-compat (= 13), dh-sequence-kf6, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.6.0~), libkf6calendarcore-dev (\u003e= 6.6.0~), libkf6codecs-dev (\u003e= 6.6.0~), libkf6coreaddons-dev (\u003e= 6.6.0~), libkf6i18n-dev (\u003e= 6.6.0~), libkf6iconthemes-dev (\u003e= 6.6.0~), libkf6texttemplate-dev (\u003e= 6.3.0~), libkf6widgetsaddons-dev (\u003e= 6.6.0~), libkidentitymanagement-dev (\u003e= 24.12.3~), libxkbcommon-dev, qt6-base-dev (\u003e= 6.7.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "fa1ae8c25dc89c0821c71ecbb7a7547a720f9028 15284 kcalutils_22.12.3-1.debian.tar.xz de360e8f6bb03c144189f1690f1b329428ac5687 2823 kcalutils_22.12.3-1.dsc 1dc4fe967e063b12c917873acb44564be0be165f 358324 kcalutils_22.12.3.orig.tar.xz a320ecab709814b09876bee8451bdb0c928a02b6 833 kcalutils_22.12.3.orig.tar.xz.asc"
+    "25ba94ab9d6ff46ff3a35b9152ab5724c40ac1d1 16580 kcalutils_24.12.3-1.debian.tar.xz 4bde3eaa842cbaefd2d67911a703fb2492a9efef 2938 kcalutils_24.12.3-1.dsc 81be00237581cadbbc8366358439d4e72a5c8a3f 355384 kcalutils_24.12.3.orig.tar.xz 8b7ae0816a11ce8ea4a33170e9e3b893082b031b 833 kcalutils_24.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "ec8491601ad8e8f77e32459137d5d599db08a6200ecd37de91ac93292ca3ff9e 15284 kcalutils_22.12.3-1.debian.tar.xz 78d322eb5a933de121bf887248ef74384fd768e1cb87ef7b82ec468ed2f38958 2823 kcalutils_22.12.3-1.dsc 2fe287d20769a053b6c9e307cf5ba24976e923b0d6150f11eeaee3eca320fc6b 358324 kcalutils_22.12.3.orig.tar.xz 58be7aef6791a883170a22b219018e2fcd473a38e540b9a869adb38a1b15e0d5 833 kcalutils_22.12.3.orig.tar.xz.asc"
+    "e9b21d37a1f83ea4f274abba16ff9b1e8e8b5b833c9016aab2e95603a500fc3e 16580 kcalutils_24.12.3-1.debian.tar.xz d46075d123b582e49fa414a7617b4b726158c1b96e0dd5345a628768d45e5123 2938 kcalutils_24.12.3-1.dsc 3890566f3047fe3e411691ade967859578ce4568bfe8ffb1510f04edfc686e32 355384 kcalutils_24.12.3.orig.tar.xz 5508e106787b5088df57e6408e99ae6841e6fb58546d7504ad92022b09a359c4 833 kcalutils_24.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "2d8869df287a401e12e29c0e5ee00699cebc06dac79d1d6bba6666715c67322cf1acdaee8d6eadd3101024b3ac1484d1a168a8030c7c570e4f5e8904daea81f8 15284 kcalutils_22.12.3-1.debian.tar.xz 81071b05bd7facb1ffde8718b860008119272e60598dd63477ee6f3692c62aae2fdc5db0f9874ba39032abe546e6d187818f13a69b13cf9e78c14800968ccfb2 2823 kcalutils_22.12.3-1.dsc 4c833505b96fb5faf5b5033c4a169bcadb19273dc1cecb013b57303f90238965b506e15f898460910c9e53bdc5a8865c838eb7b01ab97148e5c33b7823c12351 358324 kcalutils_22.12.3.orig.tar.xz 73061195064374de21117fdcf5fd198639dd96238002813d795bbb910808cf70eaede4b9ad24ab47d5e1b12b7c56041db764f25aecc4552aeda1ab61cd261dab 833 kcalutils_22.12.3.orig.tar.xz.asc"
+    "b8bf9377ed000c68c5a148a568d222a24bcc23f25b7f44d4bc29b378ff60c2e98160c4ed297de8b5706179cb44133e3c135214d610be1a5ee3c12d0f0cbfca89 16580 kcalutils_24.12.3-1.debian.tar.xz 415a85f98e987a0309293e8d4c75fd95f7b80b33c4ae78769d69ed1da62ff991092d160456c57978a10ba348c09515614943628e66ded279c57dd7c3749c04c8 2938 kcalutils_24.12.3-1.dsc 104ca44d88d76038de31c015dff0ade6f3e964789dc415d6992d7236bb3efb1ff626b61e2da1f788e77ac796efe618c9b7e347b1a5274119124b9a7921f2ce62 355384 kcalutils_24.12.3.orig.tar.xz 9e557e6c1ed98708fe6a351395913a6a37a787d7f99ab918611a9970ceab2b1ac8e5e77af519860d97ee7ab7b083483dc5c52c3b1c15a4bf56b05c293a750d14 833 kcalutils_24.12.3.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/k/kcalutils"
   ],
   "Files": [
-    "a1d7293b4b6012b905f7f1110a516260 15284 kcalutils_22.12.3-1.debian.tar.xz 061cbba8dfcfa448953ed20bc1191fdf 2823 kcalutils_22.12.3-1.dsc cbe2655e529a399a451678bda7513b7b 358324 kcalutils_22.12.3.orig.tar.xz 319d415c265b6e9b16ff12f77dd6e8b7 833 kcalutils_22.12.3.orig.tar.xz.asc"
+    "27ff37fb4a5d983a4acbea2197ec8da5 16580 kcalutils_24.12.3-1.debian.tar.xz 33262269c32bc106a11609be44527a35 2938 kcalutils_24.12.3-1.dsc 45c76f32fd394b98989d9b633988dc33 355384 kcalutils_24.12.3.orig.tar.xz 097e7df1b3aab788f1fd88fd1995d7b9 833 kcalutils_24.12.3.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "kcalutils"
   ],
   "Package-List": [
-    "libkf5calendarutils-dev deb libdevel optional arch=any libkf5calendarutils5 deb libs optional arch=any"
+    "libkcalendarutils-data deb libs optional arch=all libkcalendarutils-dev deb libdevel optional arch=any libkpim6calendarutils6 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
     "Sandro Knauß \u003chefee@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kcalutils.git"
   ],
   "Version": [
-    "4:22.12.3-1"
+    "4:24.12.3-1"
   ]
 }

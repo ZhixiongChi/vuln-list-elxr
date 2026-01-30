@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "any all"
+    "amd64 arm64 armhf i386 all"
   ],
   "Binary": [
-    "kalendarac, libkf5akonadicalendar-data, libkf5akonadicalendar-dev, libkf5akonadicalendar5abi1"
+    "kalendarac, libakonadicalendar-data, libakonadicalendar-dev, libkpim6akonadicalendar6"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.16~), debhelper-compat (= 13), dh-sequence-kf5, extra-cmake-modules (\u003e= 5.99.0~), gettext, libgrantlee5-dev (\u003e= 5.2~), libkf5akonadi-dev (\u003e= 4:22.12.3~), libkf5akonadicontact-dev (\u003e= 4:22.12.3~), libkf5calendarcore-dev (\u003e= 5:5.99.0~), libkf5calendarutils-dev (\u003e= 4:22.12.3~), libkf5codecs-dev (\u003e= 5.99.0~), libkf5dbusaddons-dev (\u003e= 5.99.0~), libkf5i18n-dev (\u003e= 5.99.0~), libkf5identitymanagement-dev (\u003e= 22.12.3~), libkf5kio-dev (\u003e= 5.99.0~), libkf5mailtransport-dev (\u003e= 22.12.3~), libkf5notifications-dev (\u003e= 5.99.0~), libkf5widgetsaddons-dev (\u003e= 5.99.0~), libkf5xmlgui-dev (\u003e= 5.99.0~), qtbase5-dev (\u003e= 5.15.2~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-kf6, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.6.0~), gettext, libakonadi-dev (\u003e= 4:24.12.3~), libakonadicontact-dev (\u003e= 4:24.12.3~), libakonadimime-dev, libkcalendarutils-dev (\u003e= 4:24.12.3~), libkf6calendarcore-dev (\u003e= 6.6.0~), libkf6codecs-dev (\u003e= 6.6.0~), libkf6crash-dev (\u003e= 6.6.0~), libkf6dbusaddons-dev (\u003e= 6.6.0~), libkf6i18n-dev (\u003e= 6.6.0~), libkf6kio-dev (\u003e= 6.6.0~), libkf6notifications-dev (\u003e= 6.6.0~), libkf6widgetsaddons-dev (\u003e= 6.6.0~), libkf6xmlgui-dev (\u003e= 6.6.0~), libkidentitymanagement-dev (\u003e= 24.12.3~), libkleo-dev (\u003e= 4:24.12.3~), libkmailtransport-dev (\u003e= 24.12.3~), libkmime-dev (\u003e= 24.12.3~), messagelib-dev (\u003e= 4:24.12.3~), qt6-base-dev (\u003e= 6.7.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "c2fb87ad5a77d192a4167e53545cf303845043f8 19592 akonadi-calendar_22.12.3-1.debian.tar.xz 68ba91540e0a81cac65ae03a73be672544375f4b 3219 akonadi-calendar_22.12.3-1.dsc 823a08578ef9f590bcd173fbf3e2a0f73e958632 410132 akonadi-calendar_22.12.3.orig.tar.xz 04dae9d34c6e49cec01723e76741753804620fc7 833 akonadi-calendar_22.12.3.orig.tar.xz.asc"
+    "0eda159bf0c2956fc7976fedbc29cb979ed3ba06 17944 akonadi-calendar_24.12.3-1.debian.tar.xz 8d95f9db8ab8e42a70fcada4029502ee156646f5 3464 akonadi-calendar_24.12.3-1.dsc d89e9a1130ec034f9dd5136f9358ac8831e0d215 524664 akonadi-calendar_24.12.3.orig.tar.xz d40ef5f5288f2e81f807b4ad5a2e2b0af5732df8 833 akonadi-calendar_24.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "e6a91b21d0fa2df21e80bb866d753fb8bc380f09aebdcc9008cc3ea75a972123 19592 akonadi-calendar_22.12.3-1.debian.tar.xz c8f6fe2be60bb4e732617e15fc435f8f05b866e3fb3c4495b62847d3c5715060 3219 akonadi-calendar_22.12.3-1.dsc ebe2c4739fc329fd1ad4f9dee98b48149f26af05699e4f4b01147f0cdf6a7aae 410132 akonadi-calendar_22.12.3.orig.tar.xz cc8019dc08e2077f2128dc66d8bba3cd3e54711efcf303a77b6e0a1ed22931ab 833 akonadi-calendar_22.12.3.orig.tar.xz.asc"
+    "a3622f9c18d3a84871b0ff75b390180d9b788f86d9ddee120c174c2ad5c49020 17944 akonadi-calendar_24.12.3-1.debian.tar.xz f1b3d802af516a2c2c4c0edbe18afde843fd7be46aaa97913c44795261ee738c 3464 akonadi-calendar_24.12.3-1.dsc 28658f0bf85f96019107c0b4e5e72dff14aeb6b236c436249fabf18b94f49dfe 524664 akonadi-calendar_24.12.3.orig.tar.xz eb32a9242818bc88c2532860af1d50d554c2b451aac752a62083187c7a127f51 833 akonadi-calendar_24.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "363bc96b67985b5f85f391c26f29a29270d868384cf2e65e8aa41db49562bc98bb8fe0922114a6112145d313bc8c7a82ab23d9bf2d4613d4bd3be23319fa819e 19592 akonadi-calendar_22.12.3-1.debian.tar.xz 6268f098e52101f0e06442932b02e4cff334cacc29611453effb29f1d3553f20a7297245a4d22e4dc38e39ee864d27f620e64aa58dc22e896a8f2c03cc73addd 3219 akonadi-calendar_22.12.3-1.dsc bdf84d138654fac1191117d4cec6864577ddc4ac59167f4463121bcf4c5f6cd61edfbe9ea04a85daf1ac9b654d276f30b0761628b19b6752fdd885c2571b2aa8 410132 akonadi-calendar_22.12.3.orig.tar.xz 762a971387c3ca3625be2d3fd4423e183c22c16dd1d1c9f77befb6e689209df7561ab87f35c508fa2c9dff4c181899db6c5ac9cd3bf36c0c30fc186933175bff 833 akonadi-calendar_22.12.3.orig.tar.xz.asc"
+    "46e7ded3566fd5de7cb0837999c6b48cde9adc994bf6e1f398af0bdfcb8d3a4bf15c2a9895a52b65fb28de1a2676531a8f85ac916618d57296d5099c919dd2c3 17944 akonadi-calendar_24.12.3-1.debian.tar.xz 6bc3753c6e9889b8e429b06b58dcadf4aa59e5250d376e420591fdfdee5a08d4e32b93cc2c5491ee6c1ac2aada7035b9ebe0278682f43423c2279467e99aab64 3464 akonadi-calendar_24.12.3-1.dsc 9e9c2344f6457e2c16e9d2bbbc5271a7612665b38ed66c17103695d5cbfcc767abe73907900811b6316be6de00ec340f197517932a03cc3b70855543cf318eb5 524664 akonadi-calendar_24.12.3.orig.tar.xz e8fa8e8f2a52ea5a86a5a613e0ef493f287878a3a02850e5cbd7a329f73213840972bcb2bca695bbde93a534207db91d2c8418bc39381d1dfe51359b3579833f 833 akonadi-calendar_24.12.3.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/a/akonadi-calendar"
   ],
   "Files": [
-    "de0b968406603948bcddaf55a9184262 19592 akonadi-calendar_22.12.3-1.debian.tar.xz 42510965fe19e554920b8ea7c7b8ae95 3219 akonadi-calendar_22.12.3-1.dsc bd5299b048f197436520088262e53c86 410132 akonadi-calendar_22.12.3.orig.tar.xz 265e76b7aa8b5ce8e9cfdccfb06e4fb3 833 akonadi-calendar_22.12.3.orig.tar.xz.asc"
+    "05c8928668187ca7159cb27b64e5e49c 17944 akonadi-calendar_24.12.3-1.debian.tar.xz cdbc9157a7f0452a9d4b790c72a19876 3464 akonadi-calendar_24.12.3-1.dsc a799efa426983e5c78bb5ed2fc16884e 524664 akonadi-calendar_24.12.3.orig.tar.xz 466b0a785d05e1a7853f264568f5762b 833 akonadi-calendar_24.12.3.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "akonadi-calendar"
   ],
   "Package-List": [
-    "kalendarac deb libs optional arch=any libkf5akonadicalendar-data deb libs optional arch=all libkf5akonadicalendar-dev deb libdevel optional arch=any libkf5akonadicalendar5abi1 deb libs optional arch=any"
+    "kalendarac deb libs optional arch=amd64,arm64,armhf,i386 libakonadicalendar-data deb libs optional arch=all libakonadicalendar-dev deb libdevel optional arch=amd64,arm64,armhf,i386 libkpim6akonadicalendar6 deb libs optional arch=amd64,arm64,armhf,i386"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
     "Sandro Knauß \u003chefee@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/akonadi-calendar.git"
   ],
   "Version": [
-    "4:22.12.3-1"
+    "4:24.12.3-1"
   ]
 }

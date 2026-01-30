@@ -6,22 +6,22 @@
     "libcrypt1, libcrypt2, libcrypt-dev, libcrypt1-udeb, libxcrypt-source"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), autoconf, automake, libtool, pkg-config"
+    "debhelper-compat (= 13), autoconf, automake, libtool, pkgconf"
   ],
   "Checksums-Sha1": [
-    "515d4096188f5aca43d79a6ddc17e029d9c3129a 8196 libxcrypt_4.4.33-2.debian.tar.xz 332e06d4154686123a5002c8f37079f376ce3144 1591 libxcrypt_4.4.33-2.dsc 7c9fdb44d0fc0bb8c316bfbc3328394ac41ba79e 393372 libxcrypt_4.4.33.orig.tar.xz"
+    "a153f83a63de70924cdd8c04d06f6e3edef57505 8512 libxcrypt_4.4.38-1.debian.tar.xz 554bbfe851512b6f83b8035d8608591d8311d1cf 1573 libxcrypt_4.4.38-1.dsc 1ddb65a7d360d026586ee83b35430b0d1da39b34 394216 libxcrypt_4.4.38.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "23194c9b0642533fb27fe8c33391d3fa838a55e17e5a88a419ed31548b0721c9 8196 libxcrypt_4.4.33-2.debian.tar.xz 910ae411c9462f07667e46540af3dbb30f46413ddd90f1f176781666042dbb38 1591 libxcrypt_4.4.33-2.dsc 5e2da5cb5f263e9ac4c4b3f49c75e3b8523889210f45c60bb7e97b229c75a10b 393372 libxcrypt_4.4.33.orig.tar.xz"
+    "6b87bcb5325e417ab3f4c01c364233444b4c9008a69ec1d6fababb3f6e693a5e 8512 libxcrypt_4.4.38-1.debian.tar.xz feba1874a84616791c1c17f9a290c9e97562b2904b3b0200edc82a2db54f3f07 1573 libxcrypt_4.4.38-1.dsc 6a275a356622c64ba9f693892215dbb399c003a7a4afeed9c4c74070eaab20f4 394216 libxcrypt_4.4.38.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "f4718e5c8ab773cc18d7627a3cfacfdd783e3d1dbe3f41f4c2d4ce6776cdaf0e3e3125f668e30b1f6684abdae510949ac1f227fab34878ae1e7c39ec96202a5a 8196 libxcrypt_4.4.33-2.debian.tar.xz fc2bed4c87de4d8f6ce2b7b39cb208c59d40b4deea4c3e0ea913178ba72675a00b0034d30a64dbad443710c101663ebb4490f516c5bdc24148764db5ffae50ba 1591 libxcrypt_4.4.33-2.dsc 67a0a2ce0301976513873a15acfb0d3c36c934bf62c5172a6268f48ce54cba40bbd05a1881a96cfe57c0f69c4816f0fff5a344afd99147b5f6b3fde16006d59e 393372 libxcrypt_4.4.33.orig.tar.xz"
+    "502912be5e86f84cdd66cae37fa615e2a151ed0ecc3ba904e1365be8230000aaefa20cdd60e27abeadb1960cc041fe05573cb153bb264a032e10db25ca937ad7 8512 libxcrypt_4.4.38-1.debian.tar.xz b5eb8267ac958ceec61885d333358a326893e998c0e4c4b1f6ca03d96830fc2e95c627995ef6b96578bd69d0f2f408aa30e168b6a9bb34348ad08368f71b1b6d 1573 libxcrypt_4.4.38-1.dsc 4310a38e7cb8c337f52ea4ed47561ea548583426276f5ec1f6a52f9435e0508b8c81427947e69e7dc77dee6187fe0c16d1e90d261d857d52d0e58e737230dce4 394216 libxcrypt_4.4.38.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libx/libxcrypt"
   ],
   "Files": [
-    "773f206b0647a36161d4f354fca36f4c 8196 libxcrypt_4.4.33-2.debian.tar.xz e1f68834e5e8d322da1440aba78f783f 1591 libxcrypt_4.4.33-2.dsc 6cbf8803a8fe350fbf02236415feaebf 393372 libxcrypt_4.4.33.orig.tar.xz"
+    "a8f1f37f76acc773976e65badef4296d 8512 libxcrypt_4.4.38-1.debian.tar.xz d5334c735f022b1e537874c2aedf0bc1 1573 libxcrypt_4.4.38-1.dsc c3dc1396e5b9dc6aefa0f3f1d2eecaa1 394216 libxcrypt_4.4.38.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -33,16 +33,16 @@
     "libxcrypt"
   ],
   "Package-List": [
-    "libcrypt-dev deb libdevel optional arch=any libcrypt1 deb libs optional arch=gnu-any-any protected=yes libcrypt1-udeb udeb debian-installer optional arch=gnu-any-any libcrypt2 deb libs optional arch=musl-any-any protected=yes libxcrypt-source deb devel optional arch=all"
+    "libcrypt-dev deb libdevel optional arch=any libcrypt1 deb libs optional arch=gnu-any-any libcrypt1-udeb udeb debian-installer optional arch=gnu-any-any libcrypt2 deb libs optional arch=musl-any-any libxcrypt-source deb devel optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1.1"
+    "4.7.0.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential, pkg-config"
+    "@builddeps@, build-essential, pkg-config"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/md/libxcrypt"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/md/libxcrypt.git"
   ],
   "Version": [
-    "1:4.4.33-2"
+    "1:4.4.38-1"
   ]
 }

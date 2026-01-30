@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libcpp-hocon-dev, libcpp-hocon0.3.0"
+    "libcpp-hocon-dev, libcpp-hocon0.3.0t64"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake, libleatherman-dev, libboost-program-options-dev, catch (\u003e= 1.10~)"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), cmake, libleatherman-dev, libboost-program-options-dev, catch (\u003e= 1.10~)"
   ],
   "Checksums-Sha1": [
-    "8be66330beac5c07b8fff7e7c23cdf157104ff4c 3040 cpp-hocon_0.3.0-1.debian.tar.xz e2c6d2e4aebb5457a409a132bfb5123b1f84c1fb 2095 cpp-hocon_0.3.0-1.dsc b6254aad7b0efe93710d32f17069e1c65e0ce42f 126744 cpp-hocon_0.3.0.orig.tar.xz"
+    "7501ec9da03df2dbb1957b521c7763db44a2e69f 3280 cpp-hocon_0.3.0-1.1.debian.tar.xz a27ce67939997a5ff0025ab54bc83fc4276fcac2 2156 cpp-hocon_0.3.0-1.1.dsc b6254aad7b0efe93710d32f17069e1c65e0ce42f 126744 cpp-hocon_0.3.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "f5ff62848a4f6bb2dba968f81544b21a50560df713dc302d8b397f416150426c 3040 cpp-hocon_0.3.0-1.debian.tar.xz 8fe670d80b87c14071badf4e00d72dde696f2c4e5a4a060322f8d5c03b5b2283 2095 cpp-hocon_0.3.0-1.dsc 58c719c48a3066fbe123b4a00ee981ac0aae1ac2dc7bf40b3be6e2f025a069d3 126744 cpp-hocon_0.3.0.orig.tar.xz"
+    "5e24415f03b74bf3dcd96b666a3393aa6aa2ff8a81aee5a9fc8653fdfb83e93c 3280 cpp-hocon_0.3.0-1.1.debian.tar.xz f80a08470552b6d29ed9b89211a289d3d7a65f9b88c759fcd606954c03005f00 2156 cpp-hocon_0.3.0-1.1.dsc 58c719c48a3066fbe123b4a00ee981ac0aae1ac2dc7bf40b3be6e2f025a069d3 126744 cpp-hocon_0.3.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "a0fc26fa1f2985774489c4042e62077df88a609e8ed4eeb624af8df0979a4a959ee416f997062e3c2fa8f61621f6949518a7d9f4a3d17a16f4bae81ef6269b3a 3040 cpp-hocon_0.3.0-1.debian.tar.xz ae2cb8ceed44e0ad9c5d586cded585532ac230e3a58064b744b2ec5949b84c7347da2bf139252158d9b404b6304b2677bc9580c0cf64bf16406173f49d1c7f88 2095 cpp-hocon_0.3.0-1.dsc f3c36687fa0bdd449ec1a90cca95ae4f0bf630d457134c8ee7c21ea42307d004165e8a5c744fb5483665de0594701cffa1f5d43388d76277c6bc5b82658b59a2 126744 cpp-hocon_0.3.0.orig.tar.xz"
+    "a692de0ddfa8e7cb2a2a68bd76bd0d81ccc2065d7e9aca3db6f40c407b9b7a92b73aec5ce39c4ff317fab54e1d8a4eb14b42ac9b894dd8fbd118a45761b0c1eb 3280 cpp-hocon_0.3.0-1.1.debian.tar.xz 426d9a9e1b9f85fdff4da23237338fb6bebe0e229d6689fa5a3e51b52679184210d00c6ba57978b0a5e50e7e29041459018e9a0c9f27bcc00bb4daa0c56d07e3 2156 cpp-hocon_0.3.0-1.1.dsc f3c36687fa0bdd449ec1a90cca95ae4f0bf630d457134c8ee7c21ea42307d004165e8a5c744fb5483665de0594701cffa1f5d43388d76277c6bc5b82658b59a2 126744 cpp-hocon_0.3.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/c/cpp-hocon"
   ],
   "Files": [
-    "5576a214bbd6f19f929e9904530e0243 3040 cpp-hocon_0.3.0-1.debian.tar.xz 41df36cf52a8186b71580be688777c67 2095 cpp-hocon_0.3.0-1.dsc 5a390c12ceab480d1fd8601a31c94f1b 126744 cpp-hocon_0.3.0.orig.tar.xz"
+    "6b6c07bd22d489945a64020740dec556 3280 cpp-hocon_0.3.0-1.1.debian.tar.xz fe5f79a186c5046c2e861aaf5d4103d0 2156 cpp-hocon_0.3.0-1.1.dsc 5a390c12ceab480d1fd8601a31c94f1b 126744 cpp-hocon_0.3.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "cpp-hocon"
   ],
   "Package-List": [
-    "libcpp-hocon-dev deb libdevel optional arch=any libcpp-hocon0.3.0 deb libs optional arch=any"
+    "libcpp-hocon-dev deb libdevel optional arch=any libcpp-hocon0.3.0t64 deb libs optional arch=any"
   ],
   "Standards-Version": [
     "4.5.0"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/puppet-team/cpp-hocon.git"
   ],
   "Version": [
-    "0.3.0-1"
+    "0.3.0-1.1"
   ]
 }

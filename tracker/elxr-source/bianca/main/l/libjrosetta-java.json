@@ -6,25 +6,25 @@
     "libjrosetta-java"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 7), cdbs, default-jdk, maven-debian-helper (\u003e= 1.5)"
+    "debhelper-compat (= 13), default-jdk, maven-debian-helper"
   ],
   "Build-Depends-Indep": [
     "junit4"
   ],
   "Checksums-Sha1": [
-    "180c523680ce16b3529c1e328e85902d2fc4a78a 5144 libjrosetta-java_1.0.4-4.1.debian.tar.xz 9782bf2b279c06b9e1fd8c8efac1ecc2b78eaa80 2137 libjrosetta-java_1.0.4-4.1.dsc 13d8a5c41fa3c21f9b6b6717d5400387467b3030 28748 libjrosetta-java_1.0.4.orig.tar.bz2"
+    "00010f3233f9822fce8254c6f9942894f7cc6e12 5028 libjrosetta-java_1.0.4-5.debian.tar.xz 915c302565fbd4bf8228114e13a9ba96f981f32d 2169 libjrosetta-java_1.0.4-5.dsc 13d8a5c41fa3c21f9b6b6717d5400387467b3030 28748 libjrosetta-java_1.0.4.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "c1970338132aa2e4caa2307fdc1a44b46c385905ffc1ea18e67d3ece6849acf2 5144 libjrosetta-java_1.0.4-4.1.debian.tar.xz b2ffb34b5dea7e7253e573bcef798807f38727fbe233c18614f8606be990305b 2137 libjrosetta-java_1.0.4-4.1.dsc 57e214b3788520b0c9718e817a7277e732a90de25f78a7eb044595bb6b4b4fce 28748 libjrosetta-java_1.0.4.orig.tar.bz2"
+    "b7ee6521a381897aced372f23d00f51836c63b6dd10437518b92d285269dd3c9 5028 libjrosetta-java_1.0.4-5.debian.tar.xz a08f46d4d9c6c5c0331cbb154383f6473257b7e685638d8c3d1b10142851d7e6 2169 libjrosetta-java_1.0.4-5.dsc 57e214b3788520b0c9718e817a7277e732a90de25f78a7eb044595bb6b4b4fce 28748 libjrosetta-java_1.0.4.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "a811914315cfcbad8b79cd4d1a81f25a46e9dba4ca052475f1ccf8829e1dcad8c5a1bc30e6a1856c30ccf375ab59e62f402b1e2bc2550c3366add7841a4a1933 5144 libjrosetta-java_1.0.4-4.1.debian.tar.xz 0e0551e51c32c5e8370eecebc2ee7a64f9d1a4dd05daa8acaca94db1ac5c4a35b1f9852a5c1b457ca203bb6312a640b7247e10438615310cd66f0a95384667d5 2137 libjrosetta-java_1.0.4-4.1.dsc a154e1aa180a43e0030a4cdf898f716d8416f88b2de03cea87cb34b6678b184e4aa6b7a6aa1e28dc58076211007910ca3ac11b515aa836b60994b17c55bcb6fe 28748 libjrosetta-java_1.0.4.orig.tar.bz2"
+    "08e3b4cc15f54e5de977d3148c1f03cdf275b5a1047bbdaf6b7b465d3de0aacd6f6e4c9876566e6a7f7c203a8c081dfea924871cd8bb64d416cc545ea650356b 5028 libjrosetta-java_1.0.4-5.debian.tar.xz cfd19358e943369c80032535849c2d735de6767ed125e11104d99da9be5ace87e47c45d0f88bc25104f2dc5e635a0c254c00fd3ea7e0ef1fd1d50a08a5e38ce4 2169 libjrosetta-java_1.0.4-5.dsc a154e1aa180a43e0030a4cdf898f716d8416f88b2de03cea87cb34b6678b184e4aa6b7a6aa1e28dc58076211007910ca3ac11b515aa836b60994b17c55bcb6fe 28748 libjrosetta-java_1.0.4.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/libj/libjrosetta-java"
   ],
   "Files": [
-    "e5695c382a06606c9cf33167e564edc4 5144 libjrosetta-java_1.0.4-4.1.debian.tar.xz 740cc1313cba71b15abef02450813bd3 2137 libjrosetta-java_1.0.4-4.1.dsc db24bf1172eb6d988f9845d4f109d9ed 28748 libjrosetta-java_1.0.4.orig.tar.bz2"
+    "e8e2bceddd2ca81e910b21a1f867c1e8 5028 libjrosetta-java_1.0.4-5.debian.tar.xz f9689c4cf32c31efe48017354902dcec 2169 libjrosetta-java_1.0.4-5.dsc db24bf1172eb6d988f9845d4f109d9ed 28748 libjrosetta-java_1.0.4.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,18 +42,18 @@
     "libjrosetta-java deb java optional arch=all"
   ],
   "Standards-Version": [
-    "3.9.3"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Sylvestre Ledru \u003csylvestre@debian.org\u003e, Torsten Werner \u003ctwerner@debian.org\u003e"
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e, Torsten Werner \u003ctwerner@debian.org\u003e, tony mancill \u003ctmancill@debian.org\u003e"
   ],
   "Vcs-Browser": [
-    "http://svn.debian.org/wsvn/pkg-java/trunk/libjrosetta-java/"
+    "https://salsa.debian.org/java-team/libjrosetta-java"
   ],
-  "Vcs-Svn": [
-    "svn+ssh://svn.debian.org/svn/pkg-java/trunk/libjrosetta-java"
+  "Vcs-Git": [
+    "https://salsa.debian.org/java-team/libjrosetta-java.git"
   ],
   "Version": [
-    "1.0.4-4.1"
+    "1.0.4-5"
   ]
 }

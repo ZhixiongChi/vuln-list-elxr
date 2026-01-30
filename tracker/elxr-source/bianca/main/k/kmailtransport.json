@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "kde-config-mailtransport, kmailtransport-akonadi, libkf5mailtransport-data, libkf5mailtransport-dev, libkf5mailtransport5, libkf5mailtransportakonadi5"
+    "kmailtransport-plugins, libkmailtransport-data, libkmailtransport-dev, libkpim6mailtransport6"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.99.0~), gettext, libkf5akonadi-dev (\u003e= 4:22.12.3~), libkf5akonadimime-dev (\u003e= 4:22.12.3~), libkf5configwidgets-dev (\u003e= 5.99.0~), libkf5dbusaddons-dev, libkf5i18n-dev (\u003e= 5.99.0~), libkf5kcmutils-dev (\u003e= 5.99.0~), libkf5kio-dev (\u003e= 5.99.0~), libkf5mime-dev (\u003e= 22.12.3~), libkf5textwidgets-dev (\u003e= 5.99.0~), libkf5wallet-dev (\u003e= 5.99.0~), libkpimgapi-dev (\u003e= 22.12.3~), libkpimsmtp-dev (\u003e= 22.12.3~), libsasl2-dev, libsasl2-modules, pkg-config, pkg-kde-tools (\u003e\u003e 0.15.15), qt5keychain-dev, qtbase5-dev (\u003e= 5.7.0~), xauth, xvfb"
+    "debhelper-compat (= 13), dh-sequence-kf6, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.6.0~), gettext, libkf6configwidgets-dev (\u003e= 6.6.0~), libkf6i18n-dev (\u003e= 6.6.0~), libkf6kio-dev (\u003e= 6.6.0~), libkgapi-dev (\u003e= 24.12.3~), libksmtp-dev (\u003e= 24.12.3~), pkgconf, qt6-base-dev (\u003e= 6.7.0~), qtkeychain-qt6-dev (\u003e= 0.14.2~), xauth, xvfb"
   ],
   "Checksums-Sha1": [
-    "a15e407dddde9d95142907aab00835522823cfe2 15844 kmailtransport_22.12.3-1.debian.tar.xz f51b97c23a64b0915f1cc3c300efb03fa5805139 3293 kmailtransport_22.12.3-1.dsc d54f2ebc99046513fc6fd73d2f3906dd8bc2813b 190888 kmailtransport_22.12.3.orig.tar.xz 9d0445ae451135e4da3e7bdda6a56955ee8cc9d4 833 kmailtransport_22.12.3.orig.tar.xz.asc"
+    "603d8c6a5661662232862d86df260ac4d3949a6c 16556 kmailtransport_24.12.3-1.debian.tar.xz f5814628839e4b195959102f3e7af4d6e1dd1ad6 2958 kmailtransport_24.12.3-1.dsc d16be3f2921e57331be589fbe953ec40ab34942a 189116 kmailtransport_24.12.3.orig.tar.xz 0ff451d28f26ae45fb14fa99d5c6c279bfbf0d02 833 kmailtransport_24.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "ea679118114cc61d2d0ead1aedcbe9c92da4b44647498d4523035e2acbf33588 15844 kmailtransport_22.12.3-1.debian.tar.xz 878096ef07629036a64533535e897c3586fd8ccf7fdc7416d6fd04ceeb69b221 3293 kmailtransport_22.12.3-1.dsc d36f185327db1d7e1b589aaf062749a611819f980912fb55c3bef9225aada3c0 190888 kmailtransport_22.12.3.orig.tar.xz c055ae89315f8042ff8cb2a5482b372d1699b1ee509a42ab0ba7b212d958b46c 833 kmailtransport_22.12.3.orig.tar.xz.asc"
+    "42a7a6156690c326a4bc605f640a938caa05a2af472b0393a27fc749e4e82b08 16556 kmailtransport_24.12.3-1.debian.tar.xz d26d35d7d331f0d5109ec26568955be8e7df7158daf204415e0c10396e4b481a 2958 kmailtransport_24.12.3-1.dsc d1cc4f83a42cae618c44d216dfd2cb92f8835befbc92b1b41c8a07f15517f04a 189116 kmailtransport_24.12.3.orig.tar.xz 1473fc7ad15a06efe5bf95ecd76e8b226da08fe74d6d1343fba31cdaefd1424a 833 kmailtransport_24.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "bd7e8bfc4e1a59fa5dad64dff33c1656e7b53e5ef11427a97a4b7c27fe1e3e96d8d806a2f5561fb43b43f636e4e590b793ab50c4bb86e1a8c6e4c7043bbf33d5 15844 kmailtransport_22.12.3-1.debian.tar.xz 544b8fe34613b9032ff3ecc2babf2ac2636f6866f4a37d03227efee94cf19b8cbf98e32dd2504d2d4f379d44aee5f1574e8d7ed9d86c756dc8363c6e022e95cb 3293 kmailtransport_22.12.3-1.dsc 746910aca97ecb0f6f558897dc2bcb49384b8bf9c3a5230758ab96f6eba43983e7ebe544c110dddb4106f66d104e907e8e8b0504b99201a938fa83d666802bbc 190888 kmailtransport_22.12.3.orig.tar.xz 9ac0957710356127f6daad384b04c15064cb51ae64a4fed690f06b3199d5178c572e1e74f542d27f56c5525d5d477baaf9fba2ca5b29dfb9c0d7326699ef6826 833 kmailtransport_22.12.3.orig.tar.xz.asc"
+    "c502151b5710a819139f89a1f4cbda9e81fdef4568b30846f29c018aba60d8a1390e3ec555b1d2fc70119ede9904c2668c5ce28bcb355739f80a9752e5fec522 16556 kmailtransport_24.12.3-1.debian.tar.xz f9b31f9e89cc0ea145ab29d23bbd2a81c85dddfb2dc71e5ac5155939b2a1922d4f473f92b2422d9bd2816266056452c41e1d26349689d1946d874b195eb15aed 2958 kmailtransport_24.12.3-1.dsc 4459e7ed1b3e1d0b70b2ac755b902150b3ef0691af02039e385edf0a85ee0da94b5986d9c5606c3e30f21f8d06970af9cb254c9b3a20b3a5147a9d628b56843f 189116 kmailtransport_24.12.3.orig.tar.xz 61c191720f4aa86319d0ca29b69b06d4462474b85488d6ae703c9a89ce47575024bfd2a775387400388776d5074f175bef02454e6182088575d5cb9cc31058e5 833 kmailtransport_24.12.3.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/k/kmailtransport"
   ],
   "Files": [
-    "45d4b722600e24523199ea93fea88c87 15844 kmailtransport_22.12.3-1.debian.tar.xz 0e2d45b88792c9bb4d378f9bc0231da2 3293 kmailtransport_22.12.3-1.dsc c0e63575353224176d8bf294f35ebaff 190888 kmailtransport_22.12.3.orig.tar.xz 038268fbbc39bdaec06d9c9a484cd434 833 kmailtransport_22.12.3.orig.tar.xz.asc"
+    "ec9bad11de8ce57fa45575f6b66c7ae3 16556 kmailtransport_24.12.3-1.debian.tar.xz 3cbacaeeedc674ef19a65d2391fe0277 2958 kmailtransport_24.12.3-1.dsc 2d1ad1888a3f919f9b3d357e6bad89aa 189116 kmailtransport_24.12.3.orig.tar.xz a5641774319518123f12b9ca16a29d1d 833 kmailtransport_24.12.3.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "kmailtransport"
   ],
   "Package-List": [
-    "kde-config-mailtransport deb libs optional arch=any kmailtransport-akonadi deb libs optional arch=any libkf5mailtransport-data deb libs optional arch=all libkf5mailtransport-dev deb libdevel optional arch=any libkf5mailtransport5 deb libs optional arch=any libkf5mailtransportakonadi5 deb libs optional arch=any"
+    "kmailtransport-plugins deb libs optional arch=any libkmailtransport-data deb libs optional arch=all libkmailtransport-dev deb libdevel optional arch=any libkpim6mailtransport6 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
     "Sandro Knauß \u003chefee@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kmailtransport.git"
   ],
   "Version": [
-    "22.12.3-1"
+    "24.12.3-1"
   ]
 }

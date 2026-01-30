@@ -9,22 +9,22 @@
     "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
   ],
   "Build-Depends-Indep": [
-    "python3-cffi, python3-eventlet, python3-fixtures, python3-greenlet, python3-hacking, python3-mock, python3-msgpack, python3-openstackdocstheme, python3-oslo.config, python3-oslo.i18n, python3-oslo.log, python3-oslo.utils, python3-oslotest, python3-sphinxcontrib.apidoc, python3-stestr, subunit"
+    "python3-cffi, python3-debtcollector (\u003e= 3.0.0), python3-eventlet, python3-fixtures, python3-greenlet, python3-msgpack, python3-openstackdocstheme, python3-oslo.config, python3-oslo.i18n, python3-oslo.log, python3-oslo.utils, python3-oslotest, python3-sphinxcontrib.apidoc, python3-stestr, subunit"
   ],
   "Checksums-Sha1": [
-    "4dfb3013151c6ae6faa615f972be35794d1c565a 3844 python-oslo.privsep_3.0.1-2.debian.tar.xz 8442b9919adde5efab00945593f55efefcb4ad42 2566 python-oslo.privsep_3.0.1-2.dsc 523c406ef2b3c7b86f5276fb07eba027f4764085 32480 python-oslo.privsep_3.0.1.orig.tar.xz"
+    "9f48539acbc907a414afddc78ed5138c07ac2fe7 4164 python-oslo.privsep_3.6.0-3.debian.tar.xz 4cf519f4ad396268e6ffb320268133a83671be00 2569 python-oslo.privsep_3.6.0-3.dsc b1489600a617507f75adfd02dcb3e88aa2faab72 33120 python-oslo.privsep_3.6.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "8565fefa1141f9a69e24a7499841ba145a5d1c2a8a8a5e9023aaaa323498f852 3844 python-oslo.privsep_3.0.1-2.debian.tar.xz be78e8f0af2e922bb28b22ce0557e491b9cde53a9289a7f4b2c8cc5cbe3fa81a 2566 python-oslo.privsep_3.0.1-2.dsc 3ec8b01424b142db7733720aecce487926af926ee95c05c2f7ca22e4edceb07b 32480 python-oslo.privsep_3.0.1.orig.tar.xz"
+    "00570914974920d28e1cfa528d560ddb9da468652fe5a148c05fea83481d9cae 4164 python-oslo.privsep_3.6.0-3.debian.tar.xz bfcc5b3912c583bc605b9416f68b07f4d056343abe2437659fbf29a1dcc5c114 2569 python-oslo.privsep_3.6.0-3.dsc 3a8ed9c01353eb14c7619dd328b482b0a4a7986c8ab2359c03af0add9b641dc6 33120 python-oslo.privsep_3.6.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "b4544f14259755363f72ec09d686645e0fefe7e2e5de4cca840d858b3ae31645f7f970b2fab2305056d97f53de3554a34061fe1b7236f318d321ed8f87ab741c 3844 python-oslo.privsep_3.0.1-2.debian.tar.xz 98744bdb1be21d7ef1d4c763caab75c6c0dca2f16b0d88592e3ffab2f52565699f015648e73e59bb568bdbb6e728ce7b6a4ba86a016ea51b2863dca68d932711 2566 python-oslo.privsep_3.0.1-2.dsc 32d4b66d6007ec089d57c74c7e94fffc47c025b306d392980c8d967ea8e432c32f71f61fa4019cde31ba15f29d5d3f52ea0925c19a8601cb485319403d5fab3f 32480 python-oslo.privsep_3.0.1.orig.tar.xz"
+    "36a4b18c13d8099bb10a55f03e7cac1fd071b8a79e0d6fee205856be136f4d7c27280d3421744e02cf1fbc5be66d8d13bc1dcd00b454f64582f6fbf87c74ecfb 4164 python-oslo.privsep_3.6.0-3.debian.tar.xz d4bdb36c504006b1f87c986f331426e690a93731f16b83145d4684bcb0cb90e5ff0f793dc597a530479426188e20ad8d3418d00f4040373905485fded93d5557 2569 python-oslo.privsep_3.6.0-3.dsc 853d8aa7a4d01df439f872f2012fdd07c6447a142a92efa844b7f4377c552855de46e929f793225d174a470095b015082b26b42a2f60e0557cb8d399725dbb07 33120 python-oslo.privsep_3.6.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-oslo.privsep"
   ],
   "Files": [
-    "d9151d5266b921b8e69772055b616628 3844 python-oslo.privsep_3.0.1-2.debian.tar.xz 507e87444da36fdb8977ea23102e2bbd 2566 python-oslo.privsep_3.0.1-2.dsc 322d09be1ce7037c10d8b4b6fe8e12b2 32480 python-oslo.privsep_3.0.1.orig.tar.xz"
+    "47bbf3aad69489781849f36a112ab2dd 4164 python-oslo.privsep_3.6.0-3.debian.tar.xz 6231c98b55e6277b20e62d0d35291782 2569 python-oslo.privsep_3.6.0-3.dsc 6f3e3f89d91f6e1ce6fa2a8294ba218d 33120 python-oslo.privsep_3.6.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/openstack-team/oslo/python-oslo.privsep.git"
   ],
   "Version": [
-    "3.0.1-2"
+    "3.6.0-3"
   ]
 }

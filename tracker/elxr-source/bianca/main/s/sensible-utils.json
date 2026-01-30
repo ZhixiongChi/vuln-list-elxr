@@ -6,25 +6,25 @@
     "sensible-utils"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12)"
+    "debhelper-compat (= 13)"
   ],
   "Build-Depends-Indep": [
     "po4a, ed \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "f163cbc1973fdd021c5a94a463ec14103019cc07 1728 sensible-utils_0.0.17+nmu1.dsc 2ba9325d7373c02d3e65a89b36190355dfbb4b28 66476 sensible-utils_0.0.17+nmu1.tar.xz"
+    "3f9112c1e14242805206d553b20059c8ea6caad0 1718 sensible-utils_0.0.25.dsc e0832e6a9f108c9604439530bf39d4a7d15dc69b 76132 sensible-utils_0.0.25.tar.xz"
   ],
   "Checksums-Sha256": [
-    "764436dac8b6796ba49e9dd96e3c9ef8612cacad1953e6cd7525a17b99a9e4a1 1728 sensible-utils_0.0.17+nmu1.dsc a4ead62e0dc8f965453221dcb09c964abc4f1bedad24f527d33c443a1570cb31 66476 sensible-utils_0.0.17+nmu1.tar.xz"
+    "7d0deb8fca88c2e095a838b4ba2443c5c07f1501907b331a7ef051178c90a5a8 1718 sensible-utils_0.0.25.dsc b905fcb981397db693bbcdda2ba9af712552a092f3bacd621112ccc98ddce4bd 76132 sensible-utils_0.0.25.tar.xz"
   ],
   "Checksums-Sha512": [
-    "d9c48bb639287be8fe7ae97e824189dcdadc1517b41e9f3dcffa122030f094a0b1ec765adeac20057b186d47e8817d92ce7dedaebb2a44e2fb71d5df7adb9788 1728 sensible-utils_0.0.17+nmu1.dsc 3c4e7dc2fec360d8a3a7ff1574fc826f7f04e5ef3d186a13155ba7fecba09d599a82cda037fc406c758d773746e04fadd427dc1b3cc5efe3598fffc2c923b287 66476 sensible-utils_0.0.17+nmu1.tar.xz"
+    "db01b4591b5aa5c047df49de49bb154b02063d06a221cd590ed3211eb549b68c6b4493c96fe50b2ad0f3ceafa28b53fbc082d4433ac2d4f2a6f93558af0ac41b 1718 sensible-utils_0.0.25.dsc 42b3536abbbc70f0c8ac69a6b34ed7c3576d7835ec690f9acd8bb4e57cb22386dd7e22ac5a43b33f3a1f5d04ec2bbc4255119a1e45008cbe632baf61c87fb1e9 76132 sensible-utils_0.0.25.tar.xz"
   ],
   "Directory": [
     "pool/main/s/sensible-utils"
   ],
   "Files": [
-    "9ff99bdc88792c673956c364fec633b0 1728 sensible-utils_0.0.17+nmu1.dsc d055459467c5c77c937d729ae2a53e1e 66476 sensible-utils_0.0.17+nmu1.tar.xz"
+    "4b85e4d9dcbd146df9d85f48d5c0dbea 1718 sensible-utils_0.0.25.dsc 0200058b9b38fd4760e147e9b1068217 76132 sensible-utils_0.0.25.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -39,13 +39,13 @@
     "sensible-utils deb utils required arch=all"
   ],
   "Standards-Version": [
-    "4.5.0.2"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "ed"
+    "ed, shellcheck"
   ],
   "Uploaders": [
     "Bastien Roucariès \u003crouca@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/sensible-utils.git"
   ],
   "Version": [
-    "0.0.17+nmu1"
+    "0.0.25"
   ]
 }

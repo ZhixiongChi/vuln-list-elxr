@@ -12,19 +12,19 @@
     "python3-coverage, python3-stestr \u003c!nocheck\u003e, subunit"
   ],
   "Checksums-Sha1": [
-    "3de56d0a66703858825766a69e446c41f7436f87 4696 stevedore_4.0.2-2.debian.tar.xz 65ba98343b4f76e4db5dc0d62773397b2104bb96 2234 stevedore_4.0.2-2.dsc 9445f3f5ff388cbd06333447f9cf8378f076e4bd 483820 stevedore_4.0.2.orig.tar.xz"
+    "a89b792cd77285e83795c811bf9b3dc2d42cb0c9 5048 stevedore_5.4.1-2.debian.tar.xz 993de257637ad71271dc9b5a39846d268f2c5a55 2266 stevedore_5.4.1-2.dsc 91abbd3cec858915a17016829533a26d7a91bb2c 483484 stevedore_5.4.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "3a2025494adef9c6a29dbad2f22e96a66dc565624f794d163467e16087aba7aa 4696 stevedore_4.0.2-2.debian.tar.xz de0d04a0e807596963d02327573855951391c469d0ebfe24e157f87891cef781 2234 stevedore_4.0.2-2.dsc a0afd437431d530c51d5a358780c6772c7b2b4500fb6ecf9b23733e4c30e432e 483820 stevedore_4.0.2.orig.tar.xz"
+    "535386ff875d5c0c71437b7810b74ec7d6dea00f10a29fb18847233a3ea57f35 5048 stevedore_5.4.1-2.debian.tar.xz 621a0d79b6735f39439596c07d68421e672f17c9373eb9d1f8a930b4330e3fef 2266 stevedore_5.4.1-2.dsc 5db7c5160c8160da46be344ac6ca639a554b6bf9a6e100ccb8beeae75b491500 483484 stevedore_5.4.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "e089c648886ddd892b0076570bcc2fca7eedab5fb9ff22db3d26bf3d85e5e671009b2ad6d1244b6ae0db253693cf88e3f78e2607e30716a9e85ec0dd3b6a729f 4696 stevedore_4.0.2-2.debian.tar.xz 92c4b0b9c2bba47f6b7e670b48b7665ea2de75802537517b43c05270800da84d7bf3a88bd8e75bf95d36ef056c7f3bd11f00d518c3b5b8e7350863171656d1ec 2234 stevedore_4.0.2-2.dsc dc9fa8989afc35c78be9a22e188ce696776efb5f6531e7fce1e91a8ea88f9165d3e6780c6aaa97acd97ed4234c264d59ee72cd651777b50b4793a84bb87e8889 483820 stevedore_4.0.2.orig.tar.xz"
+    "16947381cac9b6f6651e4469c9f76660a6055d89f3ee99449916a9d3dc05f65f95e92ec290427e80472af6df9262f0baea0796a832f34da5c20161265fb5be93 5048 stevedore_5.4.1-2.debian.tar.xz dc148ab8c17e06ea88c1f6bde374286cd8d6cf000ac652ef4e6225be2c58eb148c60735ea500cb4e1511f14524bcfef3a07700fcfb279ef14a7d4a8190e6c70d 2266 stevedore_5.4.1-2.dsc 56c5abf33b65c98bbd7acefd97d5cc4fba41ed5075d10e6864785206845d32800e76e71ef818c41a047df82d1d4623149ebbb83686bc53276bf8ed07f5c24074 483484 stevedore_5.4.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/s/stevedore"
   ],
   "Files": [
-    "42e915e6e55050c8b73ee46b0731bd3e 4696 stevedore_4.0.2-2.debian.tar.xz 2b2cf8a3a0c901e89f8bdafc5ef83f12 2234 stevedore_4.0.2-2.dsc 59aace1a1ae0b0f9e071bfcfe705f772 483820 stevedore_4.0.2.orig.tar.xz"
+    "25510e68969ab349e2dde164c7c1a7b3 5048 stevedore_5.4.1-2.debian.tar.xz f392677b4ebb1944e99133091fec67f6 2266 stevedore_5.4.1-2.dsc c5d132733dad6a6a4e32358c9a6623e7 483484 stevedore_5.4.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -47,6 +47,9 @@
   "Testsuite": [
     "autopkgtest"
   ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
   "Uploaders": [
     "Thomas Goirand \u003czigo@debian.org\u003e,"
   ],
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/openstack-team/libs/stevedore.git"
   ],
   "Version": [
-    "4.0.2-2"
+    "5.4.1-2"
   ]
 }

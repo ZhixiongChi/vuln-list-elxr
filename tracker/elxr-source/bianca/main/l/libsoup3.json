@@ -6,40 +6,31 @@
     "libsoup-3.0-dev, libsoup-3.0-0, libsoup-3.0-common, libsoup-3.0-doc, gir1.2-soup-3.0, libsoup-3.0-tests"
   ],
   "Build-Depends": [
-    "apache2 (\u003e= 2.4) \u003c!nocheck\u003e \u003c!noinsttest\u003e, ca-certificates \u003c!nocheck\u003e \u003c!noinsttest\u003e, curl \u003c!nocheck\u003e \u003c!noinsttest\u003e, debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, glib-networking (\u003e= 2.32.0), gi-docgen, libapache2-mod-php (\u003c\u003c 2:9) \u003c!nocheck\u003e \u003c!noinsttest\u003e, libapache2-mod-php (\u003e= 2:7) \u003c!nocheck\u003e \u003c!noinsttest\u003e, libbrotli-dev, libgirepository1.0-dev (\u003e= 0.9.5), libglib2.0-dev (\u003e= 2.69), libgnutls28-dev (\u003e= 3.6.0) \u003c!nocheck\u003e, libkrb5-dev, libnghttp2-dev, libnss-myhostname [linux-any] \u003c!nocheck\u003e, libpsl-dev (\u003e= 0.20), libsqlite3-dev, libsysprof-capture-4-dev [!hppa !hurd-i386 !kfreebsd-amd64 !kfreebsd-i386], meson (\u003e= 0.54), php (\u003c\u003c 2:9) \u003c!nocheck\u003e \u003c!noinsttest\u003e, php (\u003e= 2:7) \u003c!nocheck\u003e \u003c!noinsttest\u003e, python3-quart \u003c!nocheck\u003e, valac, winbind"
-  ],
-  "Build-Depends-Indep": [
-    "libglib2.0-doc"
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, apache2 \u003c!nocheck\u003e \u003c!noinsttest\u003e, ca-certificates \u003c!nocheck\u003e \u003c!noinsttest\u003e, curl \u003c!nocheck\u003e \u003c!noinsttest\u003e, gi-docgen, gir1.2-gio-2.0-dev, glib-networking, libapache2-mod-php (\u003c\u003c 2:9) [!i386] \u003c!nocheck\u003e \u003c!noinsttest\u003e, libbrotli-dev, libgirepository1.0-dev, libglib2.0-dev (\u003e= 2.70), libgnutls28-dev, libkrb5-dev, libnghttp2-dev, libnss-myhostname [linux-any] \u003c!nocheck\u003e, libpsl-dev, libsqlite3-dev, libsysprof-capture-4-dev [linux-any], meson, php (\u003c\u003c 2:9) [!i386] \u003c!nocheck\u003e \u003c!noinsttest\u003e, valac, winbind"
   ],
   "Checksums-Sha1": [
-    "18c39cf2ccdbe8bafae6ea5cb9fcee000ff89f92 38208 libsoup3_3.2.3-0+deb12u2.debian.tar.xz 109f78b0454e2dfb3c04d7580032cf1653adbbc7 3514 libsoup3_3.2.3-0+deb12u2.dsc 104cbce77f3d620c9b6660f03c6c8076a2c99711 1530552 libsoup3_3.2.3.orig.tar.xz"
+    "2140d09072fddcc16e53a399a823e3c9ab8adb3a 40440 libsoup3_3.6.5-3.debian.tar.xz ad87d3e938677ab265a438e6410bd5e672c7396b 3129 libsoup3_3.6.5-3.dsc 10a86d6f121c8caa3a90bd24bb7a2cc4933755f2 1568404 libsoup3_3.6.5.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "34a04a865a644a16d635f55454ba06d52329806de943a95ed245384e6ea077b6 38208 libsoup3_3.2.3-0+deb12u2.debian.tar.xz b00656d3dc925048e575643f7ea701ffc3d1e2ec677372b77255284e0b810be6 3514 libsoup3_3.2.3-0+deb12u2.dsc 3f50c2a883d7e984e31ecbaa35326b4e6bc6357bd3eed9bb4eb49154ebadd2fd 1530552 libsoup3_3.2.3.orig.tar.xz"
+    "c3941ea2f574f43d280a72bd377ee0502450cee87103c79255d9076d468881e2 40440 libsoup3_3.6.5-3.debian.tar.xz 3c05b5021f78aac165e4761d7c28d76b5a281c45f3cb4abaff399ca3d9d4d310 3129 libsoup3_3.6.5-3.dsc 6891765aac3e949017945c3eaebd8cc8216df772456dc9f460976fbdb7ada234 1568404 libsoup3_3.6.5.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "791cafb3fde16e067250fc2d157710d0a169cd630eb959e16ae7a56560b1e026eefe06b1131d359ebe5cf7e4018a674799471d69d068e3a82c072bffc0d17f47 38208 libsoup3_3.2.3-0+deb12u2.debian.tar.xz 75ab7454a41f218a2863e94f38c7c4473b624504ef63cc4db925bbb564f13e4c0ed9f57097543953585c687f4540bb646bc8f46a5992192dc6d82429d1257f68 3514 libsoup3_3.2.3-0+deb12u2.dsc 52775764b0b2789f414e5a694a86be0fa4e95cc9bf45e4cee9ccb1af4258f28694a4513f7f4762c77769429c7bd54b76ad1bdafc067b2d83660bbabb68764148 1530552 libsoup3_3.2.3.orig.tar.xz"
+    "35302b5a588f6aefb3a18e1111e8412827486fd151733d23cbe8b36f98e7aca4e44410d929a6518b1a48d56ff61d397dd558d450bd30f9a6f183f3af4cd2357f 40440 libsoup3_3.6.5-3.debian.tar.xz b556e62f6d23b5068656ffa9a51a71e235db53044f7dc7c59830586fda2c937cd6f161ee8a9060e634b3ab7b2ad74cd62e6c351bdc640f0307c9fb5df2aa4a42 3129 libsoup3_3.6.5-3.dsc cb44d93b16048d31ae04a8c2416bbe233e0e9bdaf2d9bfe2879260fd3da27e90a0bb05cddbd82cdf81a4a778bd451ad172a14dd31e2fd113c3bbbe13c0029b03 1568404 libsoup3_3.6.5.orig.tar.xz"
   ],
   "Dgit": [
-    "aabc3e01ba7a3f804efad32dff6999d88f7af0ae debian archive/debian/3.2.3-0+deb12u2 https://git.dgit.debian.org/libsoup3"
+    "5076be980a8b2b978efc989f90911f16c0a03915 debian archive/debian/3.6.5-3 https://git.dgit.debian.org/libsoup3"
   ],
   "Directory": [
     "pool/main/libs/libsoup3"
   ],
   "Files": [
-    "ebaf706e41784c7ecdac04475eaa8674 38208 libsoup3_3.2.3-0+deb12u2.debian.tar.xz ecaa011c29a9237de552df9ec26cd29f 3514 libsoup3_3.2.3-0+deb12u2.dsc c609e3028296f559786fa581c418f4da 1530552 libsoup3_3.2.3.orig.tar.xz"
+    "983f13c3a8321e38d65fa3f5bc9aaca5 40440 libsoup3_3.6.5-3.debian.tar.xz bb12897eb25aebe45f1702d459210cc2 3129 libsoup3_3.6.5-3.dsc 181a474d783492e3f5f7cbfb047bcecd 1568404 libsoup3_3.6.5.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
-  "Git-Tag-Info": [
-    "tag=fa847d591345c7074c0ccb2bad8f16dcde18d15a fp=7a073ad1ae694fa25bff62e5235c099d3eb33076"
-  ],
-  "Git-Tag-Tagger": [
-    "Simon McVittie \u003csmcv@debian.org\u003e"
-  ],
   "Homepage": [
-    "https://wiki.gnome.org/Projects/libsoup"
+    "https://libsoup.gnome.org/libsoup-3.0/index.html"
   ],
   "Maintainer": [
     "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
@@ -51,7 +42,7 @@
     "gir1.2-soup-3.0 deb introspection optional arch=any libsoup-3.0-0 deb libs optional arch=any libsoup-3.0-common deb devel optional arch=all libsoup-3.0-dev deb libdevel optional arch=any libsoup-3.0-doc deb doc optional arch=all libsoup-3.0-tests deb misc optional arch=any profile=!noinsttest"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,15 +51,15 @@
     "build-essential, dbus, gnome-desktop-testing, winbind, xauth, xvfb"
   ],
   "Uploaders": [
-    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e"
+    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Sebastien Bacher \u003cseb128@debian.org\u003e"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/gnome-team/libsoup3/tree/debian/bookworm"
+    "https://salsa.debian.org/gnome-team/libsoup3"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/gnome-team/libsoup3.git -b debian/bookworm"
+    "https://salsa.debian.org/gnome-team/libsoup3.git"
   ],
   "Version": [
-    "3.2.3-0+deb12u2"
+    "3.6.5-3"
   ]
 }

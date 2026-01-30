@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libtokyocabinet9, libtokyocabinet-dev, tokyocabinet-doc, tokyocabinet-bin"
+    "libtokyocabinet9t64, libtokyocabinet-dev, tokyocabinet-doc, tokyocabinet-bin"
   ],
   "Build-Depends": [
-    "chrpath, debhelper-compat (= 12), libbz2-dev, zlib1g-dev"
+    "dpkg-dev (\u003e= 1.22.5), chrpath, debhelper-compat (= 12), libbz2-dev, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "e1ad8050a06e3cdda65e0fb0f486783fb1077a64 14676 tokyocabinet_1.4.48-15.debian.tar.xz cd63696fa916075f24af93f9f0169dec0a912442 2122 tokyocabinet_1.4.48-15.dsc b26a0a1ae7a05d2e1cc06cc518838cdd552e65aa 1000485 tokyocabinet_1.4.48.orig.tar.gz"
+    "e15e444e2d5e731e6a0a874b545c16669a53fb77 14880 tokyocabinet_1.4.48-15.1.debian.tar.xz 26ff4cd8528124341130e45063d2baa451831b34 2158 tokyocabinet_1.4.48-15.1.dsc b26a0a1ae7a05d2e1cc06cc518838cdd552e65aa 1000485 tokyocabinet_1.4.48.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "659c1f954a343979fe4c4f2469cc17b254bf006219468cdbe7dfbce059c3c164 14676 tokyocabinet_1.4.48-15.debian.tar.xz 687df14108664d89fef932281581a7d054de6e6c1068d64cd4d54d06c0eafe66 2122 tokyocabinet_1.4.48-15.dsc a003f47c39a91e22d76bc4fe68b9b3de0f38851b160bbb1ca07a4f6441de1f90 1000485 tokyocabinet_1.4.48.orig.tar.gz"
+    "2b8062f0c4e20f7180a09e7eb2eed8912b669f0057932bfd68689266a5d8d9d8 14880 tokyocabinet_1.4.48-15.1.debian.tar.xz 093b23cda07c9d0c0501c52eae128696b242097caf4a3cb5d16bc36390a8bc26 2158 tokyocabinet_1.4.48-15.1.dsc a003f47c39a91e22d76bc4fe68b9b3de0f38851b160bbb1ca07a4f6441de1f90 1000485 tokyocabinet_1.4.48.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "879418573e0eee3e891ec5967083891647808a79e03200b1031f541338d7aa26d93b3ed722c0cf26834570adec86a5ee291eac58d8bc644066c1b0f764bbc76a 14676 tokyocabinet_1.4.48-15.debian.tar.xz 4220275cc316598bc79fb807427e3111fc0cfef40ecd9b09bf30204acf54a7c4441d56aa67ac7693d3bf9036906fd295383a1016d965c7faf73691f445ad6997 2122 tokyocabinet_1.4.48-15.dsc b9995c838e713c13f781ab41062caefeb5c613f696dab08039f992f6860413d60a513114b83468cafdf7fc5b5e51ab880226972465d532f873f2a55f615e1440 1000485 tokyocabinet_1.4.48.orig.tar.gz"
+    "cc3b0c287809be352e9a5adbbe229e2d69211aa57ed47da64198dd544b9e07c74a39047fc201ab4a4935d9ad7623aa8a6a022c31600e3540d8c05d573d3674bc 14880 tokyocabinet_1.4.48-15.1.debian.tar.xz bfdf2f596d777213aef7b1d759a143c43883cc433eab0f7aa19ed7a197262973f1a64ac5dc8c9e952d3c7fdceb92937ca270ac187b6c237077613c11ac5e9870 2158 tokyocabinet_1.4.48-15.1.dsc b9995c838e713c13f781ab41062caefeb5c613f696dab08039f992f6860413d60a513114b83468cafdf7fc5b5e51ab880226972465d532f873f2a55f615e1440 1000485 tokyocabinet_1.4.48.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/t/tokyocabinet"
   ],
   "Files": [
-    "f768bf0e754280a7973677c4c2c8be6b 14676 tokyocabinet_1.4.48-15.debian.tar.xz 7ba4e1d486bb5b7a29320a11e5540878 2122 tokyocabinet_1.4.48-15.dsc fd03df6965f8f56dd5b8518ca43b4f5e 1000485 tokyocabinet_1.4.48.orig.tar.gz"
+    "3d92372ea322a75bea9bb61bb79c87fb 14880 tokyocabinet_1.4.48-15.1.debian.tar.xz db3780cd4d6d8aeaadb53b76ad5ca7dc 2158 tokyocabinet_1.4.48-15.1.dsc fd03df6965f8f56dd5b8518ca43b4f5e 1000485 tokyocabinet_1.4.48.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "tokyocabinet"
   ],
   "Package-List": [
-    "libtokyocabinet-dev deb libdevel optional arch=any libtokyocabinet9 deb libs optional arch=any tokyocabinet-bin deb utils optional arch=any tokyocabinet-doc deb doc optional arch=all"
+    "libtokyocabinet-dev deb libdevel optional arch=any libtokyocabinet9t64 deb libs optional arch=any tokyocabinet-bin deb utils optional arch=any tokyocabinet-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
     "4.6.0"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/tokyocabinet.git"
   ],
   "Version": [
-    "1.4.48-15"
+    "1.4.48-15.1"
   ]
 }

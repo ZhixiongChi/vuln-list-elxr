@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "any"
+    "amd64 arm64 armhf"
   ],
   "Binary": [
     "kdepim-addons"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.16~), dbus, debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.99.0~), gettext, libgpgmepp-dev (\u003e= 1.16.0~), libgrantlee5-dev (\u003e= 5.2.0~), libkf5akonadi-dev (\u003e= 4:22.12.3~), libkf5akonadicalendar-dev (\u003e= 4:22.12.3~), libkf5akonadicontact-dev (\u003e= 4:22.12.3~), libkf5akonadinotes-dev (\u003e= 4:22.12.3~), libkf5calendarcore-dev (\u003e= 5:5.99.0~), libkf5calendarsupport-dev (\u003e= 4:22.12.3~), libkf5calendarutils-dev (\u003e= 4:22.12.3~), libkf5config-dev (\u003e= 5.99.0~), libkf5contacteditor-dev (\u003e= 4:22.12.3~), libkf5contacts-dev (\u003e= 5:5.99.0~), libkf5dbusaddons-dev (\u003e= 5.99.0~), libkf5declarative-dev (\u003e= 5.99.0~), libkf5eventviews-dev (\u003e= 4:22.12.3~), libkf5grantleetheme-dev (\u003e= 22.12.3~), libkf5gravatar-dev (\u003e= 4:22.12.3~), libkf5guiaddons-dev (\u003e= 5.99.0~), libkf5holidays-dev (\u003e= 1:5.99.0~), libkf5i18n-dev (\u003e= 5.99.0~), libkf5iconthemes-dev (\u003e= 5.99.0~), libkf5identitymanagement-dev (\u003e= 22.12.3~), libkf5imap-dev (\u003e= 22.12.3~), libkf5incidenceeditor-dev (\u003e= 22.12.3~), libkf5kio-dev (\u003e= 5.99.0~), libkf5ksieve-dev (\u003e= 4:22.12.3~), libkf5libkdepim-dev (\u003e= 4:22.12.3~), libkf5libkleo-dev (\u003e= 4:22.12.3~), libkf5mailcommon-dev (\u003e= 4:22.12.3~), libkf5mailimporter-dev (\u003e= 4:22.12.3~), libkf5mailtransport-dev (\u003e= 22.12.3~), libkf5messagecomposer-dev (\u003e= 4:22.12.3~), libkf5messagecore-dev (\u003e= 4:22.12.3~), libkf5messagelist-dev (\u003e= 4:22.12.3~), libkf5messageviewer-dev (\u003e= 4:22.12.3~), libkf5parts-dev (\u003e= 5.99.0~), libkf5pimcommon-dev (\u003e= 4:22.12.3~), libkf5pimtextedit-dev (\u003e= 22.12.3~), libkf5prison-dev (\u003e= 5.99.0~), libkf5syntaxhighlighting-dev (\u003e= 5.99.0~), libkf5templateparser-dev (\u003e= 4:22.12.3~), libkf5tnef-dev (\u003e= 4:22.12.3~), libkf5webengineviewer-dev (\u003e= 4:22.12.3~), libkf5xmlgui-dev (\u003e= 5.99.0~), libkpimaddressbookimportexport-dev (\u003e= 4:22.12.3~), libkpimimportwizard-dev (\u003e= 4:22.12.3~), libkpimitinerary-dev (\u003e= 22.12.3~), libkpimpkpass-dev (\u003e= 22.12.3~), libmarkdown2-dev, pkg-kde-tools (\u003e= 0.12), qtbase5-dev (\u003e= 5.15.2~), qtwebengine5-dev (\u003e= 5.15.2~), shared-mime-info (\u003e= 1.0~), xauth, xvfb"
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-qmldeps, ca-certificates, cargo, cmake (\u003e= 3.16~), corrosion, dbus \u003c!nocheck\u003e, extra-cmake-modules (\u003e= 6.6.0~), gettext, libakonadi-dev (\u003e= 4:24.12.3~), libakonadicalendar-dev (\u003e= 4:24.12.3~), libakonadicontact-dev (\u003e= 4:24.12.3~), libcalendarsupport-dev (\u003e= 4:24.12.3~), libgpgmepp-dev (\u003e= 1.23.2~), libgrantleetheme-dev (\u003e= 24.12.3~), libgravatar-dev (\u003e= 4:24.12.3~), libincidenceeditor-dev (\u003e= 24.12.3~), libkaddressbook-dev (\u003e= 4:24.12.3~), libkcalendarutils-dev (\u003e= 4:24.12.3~), libkdepim-dev (\u003e= 4:24.12.3~), libkf6calendarcore-dev (\u003e= 6.6.0~), libkf6colorscheme-dev (\u003e= 6.6.0~), libkf6config-dev (\u003e= 6.6.0~), libkf6configwidgets-dev (\u003e= 6.6.0~), libkf6contacts-dev (\u003e= 6.6.0~), libkf6dbusaddons-dev (\u003e= 6.6.0~), libkf6declarative-dev (\u003e= 6.6.0~), libkf6guiaddons-dev (\u003e= 6.6.0~), libkf6holidays-dev (\u003e= 6.6.0~), libkf6i18n-dev (\u003e= 6.6.0~), libkf6iconthemes-dev (\u003e= 6.6.0~), libkf6kio-dev (\u003e= 6.6.0~), libkf6parts-dev (\u003e= 6.6.0~), libkf6prison-dev (\u003e= 6.6.0~), libkf6syntaxhighlighting-dev (\u003e= 6.6.0~), libkf6texttemplate-dev (\u003e= 6.3.0~), libkf6xmlgui-dev (\u003e= 6.6.0~), libkidentitymanagement-dev (\u003e= 24.12.2~), libkimap-dev (\u003e= 24.12.3~), libkitinerary-dev (\u003e= 24.12.3~), libkldap-dev (\u003e= 24.12.3~), libkleo-dev (\u003e= 4:24.12.3~), libkmailtransport-dev (\u003e= 24.12.3~), libkmime-dev (\u003e= 24.12.3~), libkpimimportwizard-dev (\u003e= 4:24.12.3~), libkpimtextedit-dev (\u003e= 24.12.3~), libkpkpass-dev (\u003e= 24.12.3~), libksieve-dev (\u003e= 4:24.12.3~), libktextaddons-dev (\u003e= 1.5.4~), libktnef-dev (\u003e= 4:24.12.3~), libmailcommon-dev (\u003e= 4:24.12.3~), libmailimporter-dev (\u003e= 4:24.12.3~), libmarkdown2-dev (\u003e= 2.2.5~), libpimcommon-dev (\u003e= 4:24.12.3~), libplasmaactivities-dev (\u003e= 6.1.0~), librust-adblock-dev, librust-cxx-build-dev, librust-cxx-dev, messagelib-dev (\u003e= 4:24.12.3~), qml6-module-org-kde-kcmutils, qt6-base-dev (\u003e= 6.7.0~), qt6-webengine-dev (\u003e= 6.7.0~), rustc, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "1066c41450f567111d9369277d94329f964fbb84 18084 kdepim-addons_22.12.3-1.debian.tar.xz 3650a2f92d654be00b07d8a485de99ac2b1f014b 4284 kdepim-addons_22.12.3-1.dsc 1e89644162d0239257eaef285cd464688b86fa23 2670804 kdepim-addons_22.12.3.orig.tar.xz a9acccdd775c10a5ee939a27ed0730c3d129effa 833 kdepim-addons_22.12.3.orig.tar.xz.asc"
+    "d275fbd61293448b3ffe0f3a592042b670939e38 18920 kdepim-addons_24.12.3-1.debian.tar.xz 2eb894ae402730553149d34320bfd724052b07e4 4343 kdepim-addons_24.12.3-1.dsc bc92b0dcede8799bd85d7017da0bc78dfe55328b 2618472 kdepim-addons_24.12.3.orig.tar.xz 198ba72d667eaf51c88b330070df7283e0deec4b 833 kdepim-addons_24.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "44974b80987663badf0f0408ea5264b049bafe5ad8e82d4314e170b073c0773b 18084 kdepim-addons_22.12.3-1.debian.tar.xz 81916eb2fae3224d8bafea424d7c2df34d6aebbacd9d7df73fa2ce4a972fd4b3 4284 kdepim-addons_22.12.3-1.dsc 6d95b4900006ec92da14f9244811b8aad3967724baa4d8b4bf66ca82ab585779 2670804 kdepim-addons_22.12.3.orig.tar.xz b9ffbf02aa1a20c4add2e6a129dc7cbe7106f5ea83710b36d735cf2b1efd696e 833 kdepim-addons_22.12.3.orig.tar.xz.asc"
+    "fc046cb402224fd7e270b4f050693e1ad4d186e8531d0ee299c9ca05edff8114 18920 kdepim-addons_24.12.3-1.debian.tar.xz dd925c0992200afb779318c564c642e887667b94fd744c721254cab0118b71ed 4343 kdepim-addons_24.12.3-1.dsc 0ab482e5725d02c702ba65a3a41c7ee774b1e621cedb84734d8a8fbea41f97d9 2618472 kdepim-addons_24.12.3.orig.tar.xz 29d3d06f4a4915ff5c0ee3cf2646cf5fb9895f5937446fa4579326d9e11a5304 833 kdepim-addons_24.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "2ba41a991562e6c9366f68d5a661960b0392f9b1a70a190f21ce2fdc9c214c3b79dea93a4b83c9da75069e7bfaf42c87db23ae129527f71ab8fa7b83a561de4d 18084 kdepim-addons_22.12.3-1.debian.tar.xz de1e6bfcf0c89efd6618d50876a93c4167244e183771008308ddfdd34131d528c455e9aa7a2aeb926799a1361275a31be504edc0ea72e65f54e96210e7531326 4284 kdepim-addons_22.12.3-1.dsc fcb285e79bb6cf8e2416fee7ee7d816d7e637fdb701b7076b9f98e7b4f29849ae7c22803e7130843dd06a5aae7611ca1a63d7d225555e40c3f623119127c41ac 2670804 kdepim-addons_22.12.3.orig.tar.xz 44467e2ff33af5390afdf1c65b3fdbc8433fd9b36c68eca30e3969c7a18a9c55fd81413285be4bd35d421e7dd7dbe95efb59ba47b9327257d042fe8efe7e82dd 833 kdepim-addons_22.12.3.orig.tar.xz.asc"
+    "6ad1047959fb2435166f1f80a04082dbf14dbc211e62c776fd4941d83862e7fe2338d28e49afb27d741c64b9d0e8d17a11463532b44f67f93aedc1b0ea69e70b 18920 kdepim-addons_24.12.3-1.debian.tar.xz 60780ffd1f805631d7e8136e38ecaf2e594f7aea24f0edd733441e609e291b626ac20ea843556b10b551b685753b30e4cdf05990d68f0815d957cb0dbc677ca5 4343 kdepim-addons_24.12.3-1.dsc d4a745cadc65ac37e1f96eaaf7ac1ed292f824ce438ae700b5292b1169a85e3d8f95627598a27ba5d458bceff1c718a0fa6dfccc83e7eadfb54c2ff6873f36c8 2618472 kdepim-addons_24.12.3.orig.tar.xz 34b41c8c10c35a815a0404668a97b3aa288b8a96c0be054a6aa6f23fa4b075e5d609c0f0cbd775a8f1e205fd9d40fff46b7ddcda79bc648b55d7192a175bfa52 833 kdepim-addons_24.12.3.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/k/kdepim-addons"
   ],
   "Files": [
-    "a374339d384ba407a859aceeb5b2a3f5 18084 kdepim-addons_22.12.3-1.debian.tar.xz fa700b950ec52424a38fff7e009e146d 4284 kdepim-addons_22.12.3-1.dsc 20120c59cfd9f84d1169ae3d8fcb1045 2670804 kdepim-addons_22.12.3.orig.tar.xz 0e1f79c7d1254ea16f2a5fc210dbb0c1 833 kdepim-addons_22.12.3.orig.tar.xz.asc"
+    "f154ce961a3a7d71d76013970f39f433 18920 kdepim-addons_24.12.3-1.debian.tar.xz 32c876d2d5e7c2caf186a7a0b3781214 4343 kdepim-addons_24.12.3-1.dsc fc5ea180bc953277df32ccd4d7cbe352 2618472 kdepim-addons_24.12.3.orig.tar.xz 29d9ef5ea71c8fa84b7ecc51df57410c 833 kdepim-addons_24.12.3.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "kdepim-addons"
   ],
   "Package-List": [
-    "kdepim-addons deb kde optional arch=any"
+    "kdepim-addons deb kde optional arch=amd64,arm64,armhf"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
     "Sandro Knauß \u003chefee@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kdepim-addons.git"
   ],
   "Version": [
-    "22.12.3-1"
+    "24.12.3-1"
   ]
 }

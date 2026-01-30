@@ -6,25 +6,28 @@
     "librust-no-panic-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11), dh-cargo (\u003e= 18), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev \u003c!nocheck\u003e, librust-quote-1+default-dev \u003c!nocheck\u003e, librust-syn-1+default-dev \u003c!nocheck\u003e, librust-syn-1+full-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev (\u003e= 1.0.74-~~) \u003c!nocheck\u003e, librust-quote-1+default-dev (\u003e= 1.0.35-~~) \u003c!nocheck\u003e, librust-syn-2+default-dev (\u003e= 2.0.46-~~) \u003c!nocheck\u003e, librust-syn-2+full-dev (\u003e= 2.0.46-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "a14b8bc0e748343fc172dd50ae59d5f13676b54c 2720 rust-no-panic_0.1.13-1.debian.tar.xz e7fc49512715be311d2c0d0ba3afcc221ad0d781 2294 rust-no-panic_0.1.13-1.dsc 41a1d52ed8b0b6ff1d14766c4dcec83711c1296c 9622 rust-no-panic_0.1.13.orig.tar.gz"
+    "3c14050068799090406b91b60e514a3070d390ca 2856 rust-no-panic_0.1.32-1.debian.tar.xz 01ef7df72e4018c6ba11b5ea86ab4b0ace22091e 2539 rust-no-panic_0.1.32-1.dsc eb0316b957f76dc3bad133afef75ace28d2fb265 14933 rust-no-panic_0.1.32.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "05859abe9454b76fd9044276d164ef9f96e63425c48877213c74a0ae459ac138 2720 rust-no-panic_0.1.13-1.debian.tar.xz 3c9295324ee66cfe3394b38e509d0e390e4a9690165fbbb67e6ec4fe4ec9bf16 2294 rust-no-panic_0.1.13-1.dsc b4da21758193a9f8a8f1dc698f121e70e8df07c71e4968e49762a5604bbdf72b 9622 rust-no-panic_0.1.13.orig.tar.gz"
+    "4461cc777be9307c6f512b197d08d3976dec6b32bcc6356efc4afdf21ac4593a 2856 rust-no-panic_0.1.32-1.debian.tar.xz 31a926b520a0094d382f317a3f50764b68f54baddda4f726f5a4138645f45ce4 2539 rust-no-panic_0.1.32-1.dsc 13039f2e914d0c1b8674a6a63681cfb857c41f029920db505f850c36dee22df8 14933 rust-no-panic_0.1.32.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "92908b7d8c8ae4c2cc0ec41fb7ffb684f2caf210f46d08603a776ef44bba2292b17850f20be958d50e3ac39b3d76aad173575fbe649a800fb7dc32612abe9dbe 2720 rust-no-panic_0.1.13-1.debian.tar.xz a7853a70fc964fa9a245436b16a60e84a40b596598b60c7d821b447ac961a4a0e2f9b38be91e2ccfde7e4bb837c1dda6c99b42db2fc96a46f387adaed6c860a6 2294 rust-no-panic_0.1.13-1.dsc b3c9a6a7aab207b38e418c2184ec6311131fd348223ff6e82d80f7a39fd52c61a5a8a554dc16da41cda8d4e8168c36a80432e519d4d58aaa8aa345b9160fe5f6 9622 rust-no-panic_0.1.13.orig.tar.gz"
+    "9f1037ef3ef83c060c8bdc5396629fe7a8e2980ac5735fc8b18173455c0d68c34908e387f6646c97f2193572cc0fa763e7df80d6574fbebdff5dc101664b4a75 2856 rust-no-panic_0.1.32-1.debian.tar.xz 98a808738b6b968d6380ea0c59139fbc87b28671af4596c2f3cb008a438027928394b662fee6f4b2555169b024c10756cbbff7b00d2893ac8d6c48cb0a88520a 2539 rust-no-panic_0.1.32-1.dsc 2d1eb88956a49e79fd2300488142e4800aaac73454166d418369be08f4907e9e30a775c9e443268ea56c472e19a15fa854ace29e2bffd516aa1248988e4ef256 14933 rust-no-panic_0.1.32.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-no-panic"
   ],
   "Files": [
-    "4fad6be39b01452fb550778cefdfd01c 2720 rust-no-panic_0.1.13-1.debian.tar.xz 430acbb278d8e1cb16a567f6a5e8a1ca 2294 rust-no-panic_0.1.13-1.dsc 4035a2a0bd7dc1080ec0d0597947a51c 9622 rust-no-panic_0.1.13.orig.tar.gz"
+    "98625a1e40c96d930af36618d1979092 2856 rust-no-panic_0.1.32-1.debian.tar.xz 22e26e9fc0aa6b7e5eb7db41d34ef17c 2539 rust-no-panic_0.1.32-1.dsc 44ea6ea4b132eb13090f1928a2dc0534 14933 rust-no-panic_0.1.32.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dtolnay/no-panic"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,13 +39,13 @@
     "librust-no-panic-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.2.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-tempfile-3+default-dev"
+    "dh-cargo, librust-rustversion-1+default-dev, librust-scratch-1+default-dev, librust-trybuild-1+default-dev, librust-trybuild-1+diff-dev, rustc"
   ],
   "Uploaders": [
     "kpcyrd \u003cgit@rxv.cc\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/no-panic]"
   ],
   "Version": [
-    "0.1.13-1"
+    "0.1.32-1"
   ]
 }

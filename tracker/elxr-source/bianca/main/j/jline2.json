@@ -6,25 +6,25 @@
     "libjline2-java"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), default-jdk, maven-debian-helper (\u003e= 1.6.5), javahelper (\u003e= 0.43)"
+    "debhelper-compat (= 13), default-jdk, maven-debian-helper, javahelper"
   ],
   "Build-Depends-Indep": [
     "libeasymock-java, libjansi1-java, junit4"
   ],
   "Checksums-Sha1": [
-    "183c05dcb5df64a8a397e60d6143b77106ce7fce 4996 jline2_2.14.6-5.debian.tar.xz 8c29edd38752c562975e892491b858e86051788c 2059 jline2_2.14.6-5.dsc 902fe69711dec60a13f5a7e466e4250d469b20f2 93752 jline2_2.14.6.orig.tar.xz"
+    "3d0404a014180ff9e2b14345531e057527468146 5056 jline2_2.14.6-6.debian.tar.xz 1c0167429a9ee3e8c55df7851a0ac80806e20d15 2013 jline2_2.14.6-6.dsc 902fe69711dec60a13f5a7e466e4250d469b20f2 93752 jline2_2.14.6.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "aec200e574d9fb1f9d6bba90dd3bd1557baeaabc6d2b32f61376bd637a789ff4 4996 jline2_2.14.6-5.debian.tar.xz 4dad420db110b2822601e6d94adf60f7a7cc6ebe6cdc95e5c7af4ed850198810 2059 jline2_2.14.6-5.dsc 6035c22c591fae78555a271a5846654555e32eb779ed44fd410c10ba324f1b5c 93752 jline2_2.14.6.orig.tar.xz"
+    "5da2ade6c687c310340240db4158a6a9ec2ed6abf8a3f0fdaf877153b3a10de1 5056 jline2_2.14.6-6.debian.tar.xz d2cf3dd9cfafe93361c476aa13953899cf675e33c51c77f386be2a91f6f42124 2013 jline2_2.14.6-6.dsc 6035c22c591fae78555a271a5846654555e32eb779ed44fd410c10ba324f1b5c 93752 jline2_2.14.6.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "cddf1b55f00b23f4237a442429a02a4dc9f6729dce4b2b27bd89889d5f99ae20af7423bf2de55d936053c9a5b2514c2043508b8c1e574de866e5016b202443b7 4996 jline2_2.14.6-5.debian.tar.xz 2ee1794aeb269556350635dd3afdc285c4ff5692c0394f543ebeaf222d324b97ec23112fc1eddbf60a910a2c3314b9b26012468a0b9bc43d37440ab5bf862ce2 2059 jline2_2.14.6-5.dsc 4ef8721c829c3b4ceeff8410d9bd8b4220f287268251038db9cbaf5087008bfe598bf33b487f013752f780560be9466eb610c8a3ddbc488fa86a58149c194f09 93752 jline2_2.14.6.orig.tar.xz"
+    "c976ccee9c16f04bb5c932ba7a7fb10f0a04c422399eaffbc12409e6c4b12185c27d0857261268ce13cb84936842fd9270672a76f00ab75f2e1c628210a2dbba 5056 jline2_2.14.6-6.debian.tar.xz 93e490ea97a544c26314ea04bd6bcf42b19c83b967bbe449d97c4222afd440404d13766589a78b749c6642130019af63fec91f9300e83dea1a1bd8fc08581238 2013 jline2_2.14.6-6.dsc 4ef8721c829c3b4ceeff8410d9bd8b4220f287268251038db9cbaf5087008bfe598bf33b487f013752f780560be9466eb610c8a3ddbc488fa86a58149c194f09 93752 jline2_2.14.6.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/j/jline2"
   ],
   "Files": [
-    "988c7e7db5113a380a84a72fbcf01c87 4996 jline2_2.14.6-5.debian.tar.xz a956a92043f2ba2a1e9434f7aaff453e 2059 jline2_2.14.6-5.dsc a30e8a900b8977bdbfbd907a8d7a026c 93752 jline2_2.14.6.orig.tar.xz"
+    "43812fc3716b5a656435060b0f55a5d5 5056 jline2_2.14.6-6.debian.tar.xz b6b0dd7bb3cadc77b50edba2af5046a5 2013 jline2_2.14.6-6.dsc a30e8a900b8977bdbfbd907a8d7a026c 93752 jline2_2.14.6.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "libjline2-java deb java optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Uploaders": [
     "tony mancill \u003ctmancill@debian.org\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/java-team/jline2.git"
   ],
   "Version": [
-    "2.14.6-5"
+    "2.14.6-6"
   ]
 }

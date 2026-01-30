@@ -9,22 +9,22 @@
     "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
   ],
   "Build-Depends-Indep": [
-    "python3-pytest, python3-six"
+    "python3-pytest"
   ],
   "Checksums-Sha1": [
-    "de3bc0df3781c029ee36b5f56418df6693ad0f08 5012 suds_1.1.2-1.debian.tar.xz 249dba09451af74d4f4a24139e1a50a919e407e1 2120 suds_1.1.2-1.dsc efd19e18b71b2114ee2dc94b9fb2cf3da8e5aeb1 315003 suds_1.1.2.orig.tar.gz"
+    "a2f09e499ff5807d0063442c080a0543f97fa358 5080 suds_1.2.0-2.debian.tar.xz a417d07212c18b0637f1cee54257012b5c06de61 2094 suds_1.2.0-2.dsc abd5fb38036b70057b96f7c7d852574cc69be1cc 301246 suds_1.2.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "488a3e3c0f3adc22ce5c20f34659b6bed90a2d64b98d0c09e3c872832a991256 5012 suds_1.1.2-1.debian.tar.xz c1b0db7944d13553645498577c98b327e4d9d8b0a250e13c0121f947ef2f6738 2120 suds_1.1.2-1.dsc 5ff532147b608fa4394b2c504a81815a232e46b31bc59abf41f1945caf37e053 315003 suds_1.1.2.orig.tar.gz"
+    "10e9f037de94527a166b986b4ee83e43cc70a3715981d945c4427e06c793436b 5080 suds_1.2.0-2.debian.tar.xz d0d16a2dc13baef0f59685626fb21bf15f6a25905edf35379e50c6d4ef226117 2094 suds_1.2.0-2.dsc 5c8752020826c8bc93fd6422b347ae3cfa2aeb76b477868644e5630c70d6d644 301246 suds_1.2.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "6d6e27f97f6294746e82b6324ac432ffd5261da65c30522f648ca7d1cbe07314c1bde979639753ab453cd0a47594664a0307a1cdaa873d8b466c0e0f98dfabef 5012 suds_1.1.2-1.debian.tar.xz 38711d330f05317d14afe341801367ed7aabb23d0c21d975f0a4873da79a4329aaebbabc748486c14e5d85c84688bba4f1ff17f55b9d3978e5bff0cf03ed3fb9 2120 suds_1.1.2-1.dsc f46a90230ed386b8d049d1b89d8a28a444a8a0848e340601f45775e694c902a6810585ea3e6ebb68d836dafc16c7cebeb4f745cb78ba3a9ca23f86a38273e2b9 315003 suds_1.1.2.orig.tar.gz"
+    "31f655472cc709a9f9d6053c59f7c49af55c5c5e2b38dbf4dac28d71d2d58a92f6a5fb77cdca1f5f3c8f4bb624252c24c82b5a93c8502a71523f34156c3c7dc5 5080 suds_1.2.0-2.debian.tar.xz d6c02ef57144de8c25635860ad52e112d910fc6ec128c157c11730bb74d1c75468796f112a2328a358105bda581cdd590de2ae8109b1d5bc18905b4e4392b174 2094 suds_1.2.0-2.dsc ca128175491d405f903c1f0e514453ed0f1e844d9a844f4ecc1a71ebe1f360bb212aa38187e1c24fdb58fa9bca7c414161c1aa595a0a6e896a4a7278de994634 301246 suds_1.2.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/s/suds"
   ],
   "Files": [
-    "a694e5416dd970721e3505ca8ba80049 5012 suds_1.1.2-1.debian.tar.xz 0a9235452f8e96b9133b5fb077f8e0dd 2120 suds_1.1.2-1.dsc 994e6ac4a0c428196ba883903b260bbf 315003 suds_1.1.2.orig.tar.gz"
+    "7e557452b338a3b59605cdfbfa48bfff 5080 suds_1.2.0-2.debian.tar.xz 27bb50d16829a4592dc08730ea67f2f6 2094 suds_1.2.0-2.dsc 202af9679d27986db550d922112db170 301246 suds_1.2.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,13 @@
     "python3-suds deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "python3-all, python3-pytest, python3-six"
+    "python3-all, python3-pytest"
   ],
   "Uploaders": [
     "Scott Talbert \u003cswt@techie.net\u003e, Thomas Goirand \u003czigo@debian.org\u003e,"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/suds.git"
   ],
   "Version": [
-    "1.1.2-1"
+    "1.2.0-2"
   ]
 }

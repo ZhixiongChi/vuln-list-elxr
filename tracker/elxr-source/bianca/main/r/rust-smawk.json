@@ -6,22 +6,22 @@
     "librust-smawk-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "291be1ded083dba7f5f866dcea25850a5c0480d7 3068 rust-smawk_0.3.1-2.debian.tar.xz 32b5d9690881afe1d3a5985767508d3238747faf 2217 rust-smawk_0.3.1-2.dsc 79cb875599b9d059a64de7fa2e95566ab056482c 12840 rust-smawk_0.3.1.orig.tar.gz"
+    "ea54adee28e47278e40a39e064a77f33ea73f9f7 3060 rust-smawk_0.3.2-1.debian.tar.xz 9fcf3c6d5e2552352e95af3f3d7270698ebaed1a 2062 rust-smawk_0.3.2-1.dsc d6bb076ab98ca85209dd04257049cd64ce95f715 13831 rust-smawk_0.3.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "489f223b43dbc10fb7a03300ae46204d2f9b69b5279742fe5e95d94afb681d58 3068 rust-smawk_0.3.1-2.debian.tar.xz d531c56c2334e4d71bdbe348a24901d09c5b13709087bab58fc9ad37cd8f0fdb 2217 rust-smawk_0.3.1-2.dsc f67ad224767faa3c7d8b6d91985b78e70a1324408abcb1cfcc2be4c06bc06043 12840 rust-smawk_0.3.1.orig.tar.gz"
+    "242c4ae3f1a1145b71edd32b0fdab2ced36980c0fac09d8ccdf3dab9c3bebba3 3060 rust-smawk_0.3.2-1.debian.tar.xz 2bf1cfb901f0c480ce76a3d27baea35dc4d695c8743218a567f8604b3f764a47 2062 rust-smawk_0.3.2-1.dsc b7c388c1b5e93756d0c740965c41e8822f866621d41acbdf6336a6a168f8840c 13831 rust-smawk_0.3.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "1c60ae3caac8b43f54fa31ad513a6ebcc3f0ab6b361a04f32d3830798fa64602afaa6bdcacca63d739e948516d3edeb0b0c71f9472db98c7a41eb1dc286adc55 3068 rust-smawk_0.3.1-2.debian.tar.xz ea9e551dc1c791bd00f7d8271214636405951f745a052cd81f15ecfeb26e16f7a35f3e54ebac7c32326c6d9426b88cdb52e3c39d888bd08daedc1e386829bd8b 2217 rust-smawk_0.3.1-2.dsc d6a050e873da5c90de3ff9fd02166de3be4c03931de9cac5307e6c16a71b8db1db6e8309eaa38ad408b20e0cc98eb4133595ad7aea96f62ebdcea579a643b65f 12840 rust-smawk_0.3.1.orig.tar.gz"
+    "28829e9ce74f0466e290f887a363b65b3f9f5f19aac183d8e22fedbc0b736f7add4e278c22e2943e195efe07a2f0c301a9522d7bccccddebc3bf64437d0c9e0c 3060 rust-smawk_0.3.2-1.debian.tar.xz 2af825f85b1fc8414e263b94153667bfecd235159ff5824640806b30c5c0167b3ae425e63158075976bb69fb8bdf4345f53ee8a49815bbb3b8355776035b2925 2062 rust-smawk_0.3.2-1.dsc 39f3cab5a6eaaef6f4e7703a6840ce7a805f6175e02968090a58a12d3420f0a144533e5d6542f1e9ec0e36902046a180386548713ef6148064922ff837fa1602 13831 rust-smawk_0.3.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-smawk"
   ],
   "Files": [
-    "7b119b975ddb30b0f1297880ac93cc75 3068 rust-smawk_0.3.1-2.debian.tar.xz d9f5321e57afabd4dfcea8eba0669e7c 2217 rust-smawk_0.3.1-2.dsc 5d5cf081e3f2aad8d9e52deef9e92c18 12840 rust-smawk_0.3.1.orig.tar.gz"
+    "fbcdb5932899fa7395d8c6ce7c13d389 3060 rust-smawk_0.3.2-1.debian.tar.xz ab3703200d073264793c069168e7c403 2062 rust-smawk_0.3.2-1.dsc ea275797b6ebf7a4089a9b005ced5e6e 13831 rust-smawk_0.3.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,10 @@
     "librust-smawk-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-num-traits-0.2+default-dev, librust-rand-0.8+default-dev, librust-rand-chacha-0.3+default-dev"
   ],
   "Uploaders": [
     "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/smawk]"
   ],
   "Version": [
-    "0.3.1-2"
+    "0.3.2-1"
   ]
 }

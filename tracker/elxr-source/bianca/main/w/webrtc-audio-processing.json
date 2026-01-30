@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libwebrtc-audio-processing-dev, libwebrtc-audio-processing1"
+    "libwebrtc-audio-processing-dev, libwebrtc-audio-processing-1-3, libwebrtc-audio-coding-dev, libwebrtc-audio-coding-1-3"
   ],
   "Build-Depends": [
-    "autotools-dev, debhelper (\u003e= 9), dh-autoreconf"
+    "debhelper-compat (= 13), libabsl-dev, meson, pkgconf"
   ],
   "Checksums-Sha1": [
-    "7b1c3ad5ece47158c23a935e98bd01b47925d539 4408 webrtc-audio-processing_0.3-1.debian.tar.xz 2991ca10bc9028556b446aa4e886584233d7c70b 2271 webrtc-audio-processing_0.3-1.dsc 65ed41129bcded398c37860ccb38a8cd7ae4dfe3 688096 webrtc-audio-processing_0.3.orig.tar.xz"
+    "579ed6d46c3f10d85b4a83ddad0002f0d6ad4188 15856 webrtc-audio-processing_1.3-3.debian.tar.xz ae597d456007e5671bdc02e4a5c9e042fccacebb 2458 webrtc-audio-processing_1.3-3.dsc dbe85f71384c7dda486ba1228b27a3a862ffe3e8 879768 webrtc-audio-processing_1.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "8415351daa5ebcb823063e75d145b2c2374e4031d3c4e335571ef8cd84a240df 4408 webrtc-audio-processing_0.3-1.debian.tar.xz ee5c63b0caced5f2a4e7f297a9497f13eee73174a5d347a6b8d99096ccc0a138 2271 webrtc-audio-processing_0.3-1.dsc 756e291d4f557d88cd50c4fe3b8454ec238362d22cedb3e6173240d90f0a80fa 688096 webrtc-audio-processing_0.3.orig.tar.xz"
+    "2332c5f010c0f6e56f2f93a5c2be87c596cabae05a323dffc5a558750a5906d0 15856 webrtc-audio-processing_1.3-3.debian.tar.xz 0d2b6a4078075052851a0913a28c1118999759b048004f61e6967e56d59f2dd8 2458 webrtc-audio-processing_1.3-3.dsc 95552fc17faa0202133707bbb3727e8c2cf64d4266fe31bfdb2298d769c1db75 879768 webrtc-audio-processing_1.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8c9e5d0a36f19da47f41f18642df90376690b28926c2163226fa537fc6d8df74533a061b5dcc839ae64ecad1956687cda44b765ea49906eabcb8e730aba9ebd2 4408 webrtc-audio-processing_0.3-1.debian.tar.xz 1d0e6b15553d009f3bfa299ba24743e19898facbb5dc0d1277654cbb9c4559bae43d620c411256ee37319a2d443e974913fe537697a08feed7d555a299a82f52 2271 webrtc-audio-processing_0.3-1.dsc fac99ae0c28290afedce8745bb159af1d375bf17e448a4e020b3b04f4ade24929d1d110923c4363c06a963675a201135621f0d20e57edff42bbcfbaedf91b4d0 688096 webrtc-audio-processing_0.3.orig.tar.xz"
+    "e7d21725ff6c466ced4f83440e5706915fd5c082fd395419f27a08c4b1a6e1741a3392c8a08d935fda12c8a5fea1f9a408b12e715512ba5480cc607ad6a235f1 15856 webrtc-audio-processing_1.3-3.debian.tar.xz 87298235d4ed677a7600ebf34070de7dae8d73cb7f5aa1f751a83f165740277d109b9e03e223cd6366d948e12fa0a8ec2d9c448beb98a5be63f9e368a23fc501 2458 webrtc-audio-processing_1.3-3.dsc 4f56cc0acfd93b5ae432bdf681151e91344cea3388107a3eee5f9b17261cf0f09779f8b0bb67b4d35582f1f54dadc236d059802e69447e994dd588506cac95df 879768 webrtc-audio-processing_1.3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/w/webrtc-audio-processing"
   ],
   "Files": [
-    "5dc898f5bd043c98428e98c073f1d05c 4408 webrtc-audio-processing_0.3-1.debian.tar.xz c838fa0c9c9e8a7f1317d6099f52e786 2271 webrtc-audio-processing_0.3-1.dsc 336ae032f608e65808ac577cde0ab72c 688096 webrtc-audio-processing_0.3.orig.tar.xz"
+    "f0224a35a33d1bc34da84b5462801a7d 15856 webrtc-audio-processing_1.3-3.debian.tar.xz 5f6ec1c778adbe38188663294d207239 2458 webrtc-audio-processing_1.3-3.dsc 743bf4f5c7132560b1af33aaa0129228 879768 webrtc-audio-processing_1.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,21 +36,21 @@
     "webrtc-audio-processing"
   ],
   "Package-List": [
-    "libwebrtc-audio-processing-dev deb libdevel optional arch=any libwebrtc-audio-processing1 deb libs optional arch=any"
+    "libwebrtc-audio-coding-1-3 deb libs optional arch=any libwebrtc-audio-coding-dev deb libdevel optional arch=any libwebrtc-audio-processing-1-3 deb libs optional arch=any libwebrtc-audio-processing-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "3.9.8"
+    "4.7.0"
   ],
   "Uploaders": [
     "Sjoerd Simons \u003csjoerd@debian.org\u003e, Felipe Sateler \u003cfsateler@debian.org\u003e"
   ],
   "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pulseaudio/webrtc-audio-processing.git"
+    "https://salsa.debian.org/pulseaudio-team/webrtc-audio-processing"
   ],
   "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-pulseaudio/webrtc-audio-processing.git"
+    "https://salsa.debian.org/pulseaudio-team/webrtc-audio-processing.git"
   ],
   "Version": [
-    "0.3-1"
+    "1.3-3"
   ]
 }

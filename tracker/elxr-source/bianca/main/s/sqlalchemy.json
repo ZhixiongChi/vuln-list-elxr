@@ -6,22 +6,22 @@
     "python-sqlalchemy-doc, python3-sqlalchemy, python3-sqlalchemy-ext"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all-dev, python3-setuptools, python3-changelog (\u003e= 0.5.3), python3-greenlet, python3-mako, python3-pytest, python3-sphinx, python3-sphinx-paramlinks, python3-zzzeeksphinx (\u003e= 1.3.5-2~), python3-sphinx-copybutton"
+    "debhelper-compat (= 13), dh-python, cython3, python3-all-dev, python3-setuptools, python3-greenlet, python3-typing-extensions (\u003e= 4.6.0), python3-changelog (\u003e= 0.5.3), python3-mako, python3-sphinx (\u003e= 5.0.1), python3-sphinx-paramlinks, python3-sphinxcontrib.jquery, python3-zzzeeksphinx (\u003e= 1.3.5-2~), python3-sphinx-copybutton, python3-pytest, python3-pytest-cython, python3-pytest-xdist"
   ],
   "Checksums-Sha1": [
-    "83064081aed755d255d4845836a96238fbb64110 14420 sqlalchemy_1.4.46+ds1-1.debian.tar.xz 9d903b76dbd2fa67d8ae0edfb75b0eb71c0db0a1 2463 sqlalchemy_1.4.46+ds1-1.dsc 1020b12dbb46249f39b331dee09d36fe178dacbb 2947916 sqlalchemy_1.4.46+ds1.orig.tar.xz"
+    "ce883115bc3d13c242cf6c07988247114eed2263 15064 sqlalchemy_2.0.40+ds1-1.debian.tar.xz e992f4e4ab20f1b74ff92df31bf77d468ed65b9a 2581 sqlalchemy_2.0.40+ds1-1.dsc 3c296012be70a1e86d46729c65e42cf0b5d6a00f 3453732 sqlalchemy_2.0.40+ds1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "2795dffbc927381f05e8825a21fbccfd986221c2be074e5b0f271d8995adbd46 14420 sqlalchemy_1.4.46+ds1-1.debian.tar.xz be06c9f7a8d66f0ea265f9182b874d4c4a6f1dc5145d838e63324de0f818c901 2463 sqlalchemy_1.4.46+ds1-1.dsc 6b787ad6b29cb1563a601d854ae3e66f265743b24fb8fa271e20ec035b1f5081 2947916 sqlalchemy_1.4.46+ds1.orig.tar.xz"
+    "bc8ff19f8ca70b2143cd13ba31cb884f44a43775d1fdbdf6ee01552c50b4ebed 15064 sqlalchemy_2.0.40+ds1-1.debian.tar.xz ee379785dc86d1e4d9a33adb2a26bb912c44114eaf341de7d016609a2d2128ec 2581 sqlalchemy_2.0.40+ds1-1.dsc 9dcc83efb8b7adb5ba2d17d42c002c51866ebe6149b10d830089f0f166773eb6 3453732 sqlalchemy_2.0.40+ds1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "f37acb32a74a9e35aaa326714f8395fe5f0532d7d39db67f97ff29c522692452b3810740dbd47874a246737ecb9a748f85ec266259cacbc978fcf4839ea1868c 14420 sqlalchemy_1.4.46+ds1-1.debian.tar.xz 9be10c6b8a6c35bb406fc4e867c68eb32a7d9b3032bd0d684d2653919d7d65e4cb9c8c09668292791cb315311ca95708a10f653ab340920dfe6cfb143d4b596f 2463 sqlalchemy_1.4.46+ds1-1.dsc 80dc3814acc533391b7cfd0f20ab4b2f7fa8156504a7d37f0ea19770fadc3f1f9eb882bc207f805f91759b7f42f1c69e3f6fa628d017801fc651f6af7d45c211 2947916 sqlalchemy_1.4.46+ds1.orig.tar.xz"
+    "30532fcb29fdde58817cc38e4d705aef49d52f94521474b23035c30e236afb8809caefbff9df0e82d8335a7f714775272a64c168a1abce00e889e052bfc835a1 15064 sqlalchemy_2.0.40+ds1-1.debian.tar.xz 8a0502b7340a3cba01e795a436b63c4b0151285ff046d4a2f9a652854b3d46d2a8585b4d990bc532ebf355cd06b3da0f8d920de1e02a442ab9c8cd4a2bebb0e8 2581 sqlalchemy_2.0.40+ds1-1.dsc 49a2d6ad603c825eab50eff90420f94c2307124a8ec88fdeaed0580b9e7a38db6c8e042a632e63809d8fdd621448eb39f240a122e1541a273e9ab4a36d69a7f2 3453732 sqlalchemy_2.0.40+ds1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/s/sqlalchemy"
   ],
   "Files": [
-    "226d98b5f605caa8feac8e3dfc0ba641 14420 sqlalchemy_1.4.46+ds1-1.debian.tar.xz 677b11f7e2a48f21b9df4eaa60d37c59 2463 sqlalchemy_1.4.46+ds1-1.dsc a3323c8ea8c57fdf7b87a32bd15eae8d 2947916 sqlalchemy_1.4.46+ds1.orig.tar.xz"
+    "68b3c7cc2f6331d5b1c31f4b365cdd85 15064 sqlalchemy_2.0.40+ds1-1.debian.tar.xz 76b67c38ae3c5dbd83b25e9a76ca9123 2581 sqlalchemy_2.0.40+ds1-1.dsc c81fe7e9db2f192ae204a72c46f50f7d 3453732 sqlalchemy_2.0.40+ds1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,16 +39,13 @@
     "python-sqlalchemy-doc deb doc optional arch=all python3-sqlalchemy deb python optional arch=all python3-sqlalchemy-ext deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "python3-all, python3-greenlet, python3-pytest"
-  ],
-  "Uploaders": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
+    "python3-all, python3-greenlet, python3-pytest, python3-pytest-xdist, python3-typing-extensions"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/sqlalchemy"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/sqlalchemy.git"
   ],
   "Version": [
-    "1.4.46+ds1-1"
+    "2.0.40+ds1-1"
   ]
 }

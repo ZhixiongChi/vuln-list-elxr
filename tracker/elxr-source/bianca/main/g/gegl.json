@@ -3,28 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "gegl, libgegl-0.4-0, libgegl-common, libgegl-dev, libgegl-doc, gir1.2-gegl-0.4"
+    "gegl, libgegl-0.4-0t64, libgegl-common, libgegl-dev, libgegl-doc, gir1.2-gegl-0.4"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, graphviz, libavcodec-dev, libavformat-dev, libbabl-dev (\u003e= 1:0.1.90), libblas-dev, libcairo2-dev (\u003e= 0.12.2), libgdk-pixbuf-2.0-dev (\u003e= 2.18.0), libgexiv2-dev, libgirepository1.0-dev (\u003e= 1.32.0), libglib2.0-dev (\u003e= 2.28.0), libjpeg-dev, libjson-glib-dev, liblensfun-dev, libmaxflow-dev, libopenexr-dev (\u003e= 1.6.1), libopenraw-dev (\u003e= 0.0.5), libpango1.0-dev, libpng-dev (\u003e= 1.6.0), libpoppler-glib-dev (\u003e= 0.71.0), libraw-dev, librsvg2-dev (\u003e= 2.40.6), libsdl2-dev (\u003e= 1.2.0), libspiro-dev (\u003e= 1:20190731-2~), libsuitesparse-dev, libswscale-dev, libtiff-dev (\u003e= 4.0.10-1), libv4l-dev [!hurd-any], libwebp-dev (\u003e= 0.5.0), meson (\u003e= 0.54.0), pkg-config, valac (\u003e= 0.20)"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), dh-sequence-gir, gir1.2-babl-0.1-dev, gir1.2-glib-2.0-dev, gir1.2-gobject-2.0-dev, graphviz, libavformat-dev, libbabl-dev (\u003e= 1:0.1.99), libblas-dev, libcairo2-dev (\u003e= 0.12.2), libgdk-pixbuf-2.0-dev (\u003e= 2.18.0), libgexiv2-dev, libgirepository1.0-dev (\u003e= 1.32.0), libglib2.0-dev (\u003e= 2.28.0), libjpeg-dev, libjson-glib-dev, liblensfun-dev, libmaxflow-dev, libopenexr-dev (\u003e= 1.6.1), libpango1.0-dev, libpng-dev (\u003e= 1.6.0), libpoppler-glib-dev (\u003e= 0.71.0), libraw-dev, librsvg2-dev (\u003e= 2.40.6), libsdl2-dev (\u003e= 1.2.0), libspiro-dev (\u003e= 1:20190731-2~), libsuitesparse-dev, libswscale-dev, libtiff-dev, libv4l-dev [!hurd-any], libwebp-dev (\u003e= 0.5.0), meson (\u003e= 0.54.0), pkgconf, valac (\u003e= 0.20)"
   ],
   "Build-Depends-Indep": [
-    "asciidoc-base \u003c!nodoc\u003e, gtk-doc-tools (\u003e= 1.0) \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e"
+    "asciidoc-base \u003c!nodoc\u003e, gi-docgen, libbabl-doc \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "011b83492f59f53d0ef9348821984692e11bef4a 25500 gegl_0.4.42-2+deb12u1.debian.tar.xz d039c50b96652e106d4b466b9e5a603668353acf 3183 gegl_0.4.42-2+deb12u1.dsc 8b3b6d59a2bf3105e7147c6ebadd91b7dd687e88 5787100 gegl_0.4.42.orig.tar.xz"
+    "1c77a4e14f65167d3942171a2031f455fcec52de 26076 gegl_0.4.62-2+deb13u1.debian.tar.xz 78602af528d6ff54943c519156475ce837b5d36e 3163 gegl_0.4.62-2+deb13u1.dsc 3831a6226984bb77ede40cad07e7f66b448d1ea2 6025372 gegl_0.4.62.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "f74fbc9e77c8a1fb8764018ebf2262af5dcb8d67f0c204222933d5d0a18cc18b 25500 gegl_0.4.42-2+deb12u1.debian.tar.xz 66a766be464fc2f1653f783b89d78237e103b4f917bc0cd2339b659d1bf8c9b3 3183 gegl_0.4.42-2+deb12u1.dsc aba83a0cbaa6c56edc29ea22f2e8172950a53b96daa51592083d59222bdde02d 5787100 gegl_0.4.42.orig.tar.xz"
+    "860e906ddab96914477912a2184b6072ed9d58f54aab20b653c4303733518ebc 26076 gegl_0.4.62-2+deb13u1.debian.tar.xz 3f3353e5069c751db687c32a31c7f16f777257f7f109ec46925631cd78c04f4e 3163 gegl_0.4.62-2+deb13u1.dsc 5887576371ebf1d9e90797d10e4b9a7f1658228d4827583e79e1db3d94505c6c 6025372 gegl_0.4.62.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "0dc894e387197f5a1296444f49a1c25f2fd54b726b8304269571bdd7339fd6fa9902fe69de080e7f41be6fa735ae18cdd84968260b8391544d40bfa1e551bfed 25500 gegl_0.4.42-2+deb12u1.debian.tar.xz cc47a226493499882be2defcf0b82167d7525bf27c42943fda7026f9918a479ebfc223d681c54812fc4791c86502df732c63f98aaf4298d3f01d171ea0ad439c 3183 gegl_0.4.42-2+deb12u1.dsc 29ccd93faa6127b6a9b1180eeba47f1b6f9bc06da8a5c9d68315d7474b77ff19d1084a6f4e7b218666b355329b17bc562f5906a334aa2baf93840d7caa0adf57 5787100 gegl_0.4.42.orig.tar.xz"
+    "872fa2294a01e88fb601015cf39388b056c8ba584931246f6a19b3cd7a38c78340689284f086201fc473e4368cd3ed0e751fda34c7cdfc1c5a5c70da7c5e5848 26076 gegl_0.4.62-2+deb13u1.debian.tar.xz 42b58226c2ab83796b910f7792fdc7af5859136ab8a2846a2938636220c4a3e8e7bd4321bd565843c4532a0ce4d8597c6ae7138f441fe7896628e5bf207342dd 3163 gegl_0.4.62-2+deb13u1.dsc bf4801588abe8b568ae3d1daafa97af28516bbbdd44d2a0798c87412b49301f621db3cf1c7a3ec33f19d96ab4dbd37d80824f04460116a896dd7415aa0d5229d 6025372 gegl_0.4.62.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gegl"
   ],
   "Files": [
-    "79461cd666dfc906787f698e975c2279 25500 gegl_0.4.42-2+deb12u1.debian.tar.xz 2ee917473fe3bd111be5d585a9fea189 3183 gegl_0.4.42-2+deb12u1.dsc f4532970b342d31cb6bb2b0207545b1d 5787100 gegl_0.4.42.orig.tar.xz"
+    "3469a897f6365fdbd6cf860eb513eb4c 26076 gegl_0.4.62-2+deb13u1.debian.tar.xz 7fcfd14374b11c1b0ca1e48abb044986 3163 gegl_0.4.62-2+deb13u1.dsc 0077654104c84fd54b4b48b92271131c 6025372 gegl_0.4.62.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "gegl"
   ],
   "Package-List": [
-    "gegl deb devel optional arch=any gir1.2-gegl-0.4 deb introspection optional arch=any libgegl-0.4-0 deb libs optional arch=any libgegl-common deb devel optional arch=all libgegl-dev deb libdevel optional arch=any libgegl-doc deb doc optional arch=all profile=!nodoc"
+    "gegl deb devel optional arch=any gir1.2-gegl-0.4 deb introspection optional arch=any libgegl-0.4-0t64 deb libs optional arch=any libgegl-common deb devel optional arch=all libgegl-dev deb libdevel optional arch=any libgegl-doc deb doc optional arch=all profile=!nodoc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -51,7 +51,7 @@
     "build-essential, python3-gi, xauth, xvfb"
   ],
   "Uploaders": [
-    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Josselin Mouette \u003cjoss@debian.org\u003e"
+    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/gegl"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/gnome-team/gegl.git"
   ],
   "Version": [
-    "1:0.4.42-2+deb12u1"
+    "1:0.4.62-2+deb13u1"
   ]
 }

@@ -9,22 +9,22 @@
     "debhelper-compat (= 13), imagemagick \u003c!nocheck\u003e, libcapture-tiny-perl \u003c!nocheck\u003e, libgd-perl (\u003e= 2.76-4~) \u003c!nocheck\u003e, libgd-text-perl \u003c!nocheck\u003e, libtest-exception-perl \u003c!nocheck\u003e, perl"
   ],
   "Checksums-Sha1": [
-    "591bdb59e350b829f53987f998ffe05860789ec3 9828 libgd-graph-perl_1.54~ds-4.debian.tar.xz d71b56e373fb15aafe961d925224d6b7e61763b9 2522 libgd-graph-perl_1.54~ds-4.dsc c4def85d3caad5aaec3d647b599ba86a25e2cc80 122108 libgd-graph-perl_1.54~ds.orig.tar.xz"
+    "4a19d5e0748c692929f01d16b0941c707603ac9a 7672 libgd-graph-perl_1.56~ds-1.debian.tar.xz bd700e3123d76bef11b379b2cbfd52fc2a97682e 2489 libgd-graph-perl_1.56~ds-1.dsc adcf2b754aa42288ed60e59451accc27354f28a0 164599 libgd-graph-perl_1.56~ds.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a2c3ac77faa92f2855e41a114fdb9ee08f33e1ecf47a096699b1da685f013f51 9828 libgd-graph-perl_1.54~ds-4.debian.tar.xz 4456118d776ecaa80115047b6dd7b7f3c14a7c005fa1bc893b2cda250e5ec348 2522 libgd-graph-perl_1.54~ds-4.dsc 32fb15a9846dbecdb6d494d284574bd1d94740d7f43d1f3d6a89788098c7cce6 122108 libgd-graph-perl_1.54~ds.orig.tar.xz"
+    "0b888b8f4cfba5347c4c63e55cdc0b0e737bcc3448110b995c093db2c4eb4ad7 7672 libgd-graph-perl_1.56~ds-1.debian.tar.xz 5e8e5e3d0e441ca0f0ef11b088bc05f6e9b67fe48aafb99d46f20b662635f065 2489 libgd-graph-perl_1.56~ds-1.dsc 589afdae39e6c94bfe10ddafebc4afe769b7f1cab598348568482f3358152328 164599 libgd-graph-perl_1.56~ds.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f624b8781b9410c7f38388033597a4b0983a328684349fcb094c39d46f2f8d64e9c170cafbb6d232a2991180e0451e33a4fc45a66dbd295853d83ac86d16a7f5 9828 libgd-graph-perl_1.54~ds-4.debian.tar.xz 6e77d971c77881d67b77db603ae5667c6922949215d1644eef86a470930aeb4d354d28aac3cb4d8aeca75b8ce37f7d7d5ce5a8a643c461e7448972b319097289 2522 libgd-graph-perl_1.54~ds-4.dsc 3c58ac4b4eef6fcfd94c11d47f6783bc9a1b2016d61747ee82bb5651eb06a3099a135096f0d9d513e28d68b865316275e17e199ac9a74fed297839a29e03fe25 122108 libgd-graph-perl_1.54~ds.orig.tar.xz"
+    "62fddcb64fcc85322ec5bd0e9c01901ba4e05ae0d2c97cf03fef5dd3a434611064cbbbced614969fef731bbe104de039c6bb3a4ab3f503f2e212a77a7b78ce37 7672 libgd-graph-perl_1.56~ds-1.debian.tar.xz 5be969a7c63cc973c034566bff7629ac34651e968698cbca81f4fed13301d7f3396952f7ecdecb5a0c8aaa6a19083d1070e442b59770d737ee0424ab684cb90c 2489 libgd-graph-perl_1.56~ds-1.dsc 9d31c9674de0555a295fccced3a1531f08c05bfc20d9106d8e4b17fd270a5b2e29383a67f3ceed8eaa8c30cc27946a1e56b522abcc59bac9b2a947ad94f7c174 164599 libgd-graph-perl_1.56~ds.orig.tar.gz"
   ],
   "Dgit": [
-    "00ebbb700f3c08fab59a768ca946d15cf5892d5b debian archive/debian/1.54_ds-4 https://git.dgit.debian.org/libgd-graph-perl"
+    "e42b6fc3f7ac80971ba406fbf9785a8f07c3d183 debian archive/debian/1.56_ds-1 https://git.dgit.debian.org/libgd-graph-perl"
   ],
   "Directory": [
     "pool/main/libg/libgd-graph-perl"
   ],
   "Files": [
-    "358ef68b5cbf33efe277fe7d0b4ac04b 9828 libgd-graph-perl_1.54~ds-4.debian.tar.xz e50a4c6134a66e1e1170bc6bf08e861e 2522 libgd-graph-perl_1.54~ds-4.dsc d41fda7b97916a8236244071de72a425 122108 libgd-graph-perl_1.54~ds.orig.tar.xz"
+    "3b8f928b881b22e105a8d2de667ea7e1 7672 libgd-graph-perl_1.56~ds-1.debian.tar.xz 01c420e6ba279467782d3da87dbc38d9 2489 libgd-graph-perl_1.56~ds-1.dsc d4c44dd74c0f5b75c1b23d400305b1e0 164599 libgd-graph-perl_1.56~ds.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,13 @@
     "libgd-graph-perl deb perl optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
   ],
   "Uploaders": [
-    "Jonas Smedegaard \u003cdr@jones.dk\u003e, Dominic Hargreaves \u003cdom@earth.li\u003e,"
+    "Dominic Hargreaves \u003cdom@earth.li\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/perl-team/modules/packages/libgd-graph-perl"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libgd-graph-perl.git"
   ],
   "Version": [
-    "1.54~ds-4"
+    "1.56~ds-1"
   ]
 }

@@ -6,22 +6,25 @@
     "libnetfilter-cthelper0, libnetfilter-cthelper-dev, libnetfilter-cthelper-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), doxygen, libmnl-dev, libtool, pkg-config"
+    "debhelper-compat (= 13), libmnl-dev, libtool, pkg-config"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "4905a868dda61a8a7cccf221a0a220ba3fb23112 6408 libnetfilter-cthelper_1.0.1-1.debian.tar.xz 00b259324c7d9da3bb02b49d6d38c81204a27bd5 2693 libnetfilter-cthelper_1.0.1-1.dsc 037fa0c04dc66728121111cf4b681fe98b238a54 291739 libnetfilter-cthelper_1.0.1.orig.tar.bz2 9d1bceafef69ba864fe150e6b43ab30ec8e2e7ff 833 libnetfilter-cthelper_1.0.1.orig.tar.bz2.asc"
+    "71a247d68957d4b515cd410f8103a841344b4564 6660 libnetfilter-cthelper_1.0.1-4.debian.tar.xz f92748ba23cc261e88fc4963cc752510338242e3 2756 libnetfilter-cthelper_1.0.1-4.dsc 037fa0c04dc66728121111cf4b681fe98b238a54 291739 libnetfilter-cthelper_1.0.1.orig.tar.bz2 9d1bceafef69ba864fe150e6b43ab30ec8e2e7ff 833 libnetfilter-cthelper_1.0.1.orig.tar.bz2.asc"
   ],
   "Checksums-Sha256": [
-    "14159544d12d351fc09d67110d83937d420f5a6b77b9e13249bd3f9802e6821e 6408 libnetfilter-cthelper_1.0.1-1.debian.tar.xz f23b13b11389ed5135a74cf3e13be67e8ed4dda0bb93f215db6988af46430e9e 2693 libnetfilter-cthelper_1.0.1-1.dsc 14073d5487233897355d3ff04ddc1c8d03cc5ba8d2356236aa88161a9f2dc912 291739 libnetfilter-cthelper_1.0.1.orig.tar.bz2 0554acaab17754f37543e1afc553728b4a0f36e68130456739179946a93f67b0 833 libnetfilter-cthelper_1.0.1.orig.tar.bz2.asc"
+    "e48819ed6fe5e8d52b74140f36570e61b327744d48ade45f08d46a5a12053444 6660 libnetfilter-cthelper_1.0.1-4.debian.tar.xz fef23087028c8639bf0bb6ca1d36f950c73394701ddd99e875ae0378ca2a36b8 2756 libnetfilter-cthelper_1.0.1-4.dsc 14073d5487233897355d3ff04ddc1c8d03cc5ba8d2356236aa88161a9f2dc912 291739 libnetfilter-cthelper_1.0.1.orig.tar.bz2 0554acaab17754f37543e1afc553728b4a0f36e68130456739179946a93f67b0 833 libnetfilter-cthelper_1.0.1.orig.tar.bz2.asc"
   ],
   "Checksums-Sha512": [
-    "351819f9ff1539c69bf174f201953732a3329698a615406fec0005bf588649c1aedbc216b5593a05c2d6768e1763233899fc724a43206a92cc179115543e528a 6408 libnetfilter-cthelper_1.0.1-1.debian.tar.xz b56cd6246fe2cde3827a025bfa069d75b6dd8e6b04e46488dc43ea74769991dc1c4ea6797bb56ba149a868f2c2e263c0164782e2ee2a6708e38ca259b9d04a34 2693 libnetfilter-cthelper_1.0.1-1.dsc f0591edd579aee92b62446e2b8fef6af9c404848c42c8da76850bb01aec3567442612f53cf8d3af6ba4d6d920487bff310a4e547bccf595478b1f96b4280eada 291739 libnetfilter-cthelper_1.0.1.orig.tar.bz2 587bea969be904e7894b303d6a1cf7078419c5884bacf6d62c66772167984b1a53bfbbc4880a7967f83edf2d08e3922d38ae8664d4d7840d4fb638f2cd4b42ce 833 libnetfilter-cthelper_1.0.1.orig.tar.bz2.asc"
+    "006902a39f9abc44184a7a307c5a69baf1f8213cc3ab4405c6a2cf4ddb1e1bf69e115cc34120255bfee55540a23feac8edc5f1ba650040f19f9feb45922c3abf 6660 libnetfilter-cthelper_1.0.1-4.debian.tar.xz 8b02b8cfb199c32b1c0d62e5325e6c6b8fdd71bcba7ccc2a97e67ca51b8979272d46dc48f1f9f4b18b0e8ba745f3d45bb8eae7305f38787b23b8ae056ceaab79 2756 libnetfilter-cthelper_1.0.1-4.dsc f0591edd579aee92b62446e2b8fef6af9c404848c42c8da76850bb01aec3567442612f53cf8d3af6ba4d6d920487bff310a4e547bccf595478b1f96b4280eada 291739 libnetfilter-cthelper_1.0.1.orig.tar.bz2 587bea969be904e7894b303d6a1cf7078419c5884bacf6d62c66772167984b1a53bfbbc4880a7967f83edf2d08e3922d38ae8664d4d7840d4fb638f2cd4b42ce 833 libnetfilter-cthelper_1.0.1.orig.tar.bz2.asc"
   ],
   "Directory": [
     "pool/main/libn/libnetfilter-cthelper"
   ],
   "Files": [
-    "1abf8fd6c85cfca4ca2862edb8c4cbd7 6408 libnetfilter-cthelper_1.0.1-1.debian.tar.xz 906a222afa9dd8bbb701362137dcc424 2693 libnetfilter-cthelper_1.0.1-1.dsc e59279645fe65d40dd7dfc82a797ca5b 291739 libnetfilter-cthelper_1.0.1.orig.tar.bz2 edfe8ac329335d7bf71b43fab4ad10e4 833 libnetfilter-cthelper_1.0.1.orig.tar.bz2.asc"
+    "78ecc7415c95755a63fc40abbc036018 6660 libnetfilter-cthelper_1.0.1-4.debian.tar.xz 9211af643c0c4a0a442f7f64f5377dfe 2756 libnetfilter-cthelper_1.0.1-4.dsc e59279645fe65d40dd7dfc82a797ca5b 291739 libnetfilter-cthelper_1.0.1.orig.tar.bz2 edfe8ac329335d7bf71b43fab4ad10e4 833 libnetfilter-cthelper_1.0.1.orig.tar.bz2.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,16 +33,16 @@
     "https://www.netfilter.org/projects/libnetfilter_cthelper/"
   ],
   "Maintainer": [
-    "Debian Netfilter Packaging Team \u003cpkg-netfilter-team@lists.alioth.debian.org\u003e"
+    "Debian Netfilter Packaging Team \u003cteam+pkg-netfilter-team@tracker.debian.org\u003e"
   ],
   "Package": [
     "libnetfilter-cthelper"
   ],
   "Package-List": [
-    "libnetfilter-cthelper-dev deb libdevel optional arch=linux-any libnetfilter-cthelper-doc deb doc optional arch=all libnetfilter-cthelper0 deb libs optional arch=linux-any"
+    "libnetfilter-cthelper-dev deb libdevel optional arch=linux-any libnetfilter-cthelper-doc deb doc optional arch=all profile=!nodoc libnetfilter-cthelper0 deb libs optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.2"
   ],
   "Uploaders": [
     "Alexander Wirt \u003cformorer@debian.org\u003e, Jeremy Sowden \u003cjeremy@azazel.net\u003e"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/pkg-netfilter-team/pkg-libnetfilter-cthelper.git"
   ],
   "Version": [
-    "1.0.1-1"
+    "1.0.1-4"
   ]
 }

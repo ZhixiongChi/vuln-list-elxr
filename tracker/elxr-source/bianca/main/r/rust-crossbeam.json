@@ -6,22 +6,22 @@
     "librust-crossbeam-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e, librust-crossbeam-channel-0.5+std-dev \u003c!nocheck\u003e, librust-crossbeam-deque-0.8+std-dev \u003c!nocheck\u003e, librust-crossbeam-epoch-0.9+alloc-dev (\u003e= 0.9.5-~~) \u003c!nocheck\u003e, librust-crossbeam-epoch-0.9+std-dev (\u003e= 0.9.5-~~) \u003c!nocheck\u003e, librust-crossbeam-queue-0.3+alloc-dev (\u003e= 0.3.2-~~) \u003c!nocheck\u003e, librust-crossbeam-queue-0.3+std-dev (\u003e= 0.3.2-~~) \u003c!nocheck\u003e, librust-crossbeam-utils-0.8+std-dev (\u003e= 0.8.5-~~) \u003c!nocheck\u003e, librust-crossbeam-utils-0.8-dev (\u003e= 0.8.5-~~) \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.61) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-crossbeam-channel-0.5+std-dev (\u003e= 0.5.10-~~) \u003c!nocheck\u003e, librust-crossbeam-deque-0.8+std-dev (\u003e= 0.8.4-~~) \u003c!nocheck\u003e, librust-crossbeam-epoch-0.9+alloc-dev (\u003e= 0.9.17-~~) \u003c!nocheck\u003e, librust-crossbeam-epoch-0.9+std-dev (\u003e= 0.9.17-~~) \u003c!nocheck\u003e, librust-crossbeam-queue-0.3+alloc-dev (\u003e= 0.3.10-~~) \u003c!nocheck\u003e, librust-crossbeam-queue-0.3+std-dev (\u003e= 0.3.10-~~) \u003c!nocheck\u003e, librust-crossbeam-utils-0.8+std-dev (\u003e= 0.8.18-~~) \u003c!nocheck\u003e, librust-crossbeam-utils-0.8-dev (\u003e= 0.8.18-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "dea955ae7503291a6ef292592b9b1c39364c9241 4048 rust-crossbeam_0.8.1-1.debian.tar.xz 73a4837abeea6dae404b5c280cc66a8d7e394d43 2160 rust-crossbeam_0.8.1-1.dsc 18cff8f6d98be797e03f5048504c5e208c1128f5 10429 rust-crossbeam_0.8.1.orig.tar.gz"
+    "945da1a0ab9abbba0698ff57d3b2091f8b8a37e7 3996 rust-crossbeam_0.8.4-1.debian.tar.xz 40a0f8bb2dd7d9262e7d25dc079956fad6dd2bbc 2798 rust-crossbeam_0.8.4-1.dsc f15470f5ef3733103cd7cf1a5251803fb0c64591 10500 rust-crossbeam_0.8.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "6c60b3c1ea889a1f91745df3ae8b0cfca9144f18e3da150cc624264c3c92863f 4048 rust-crossbeam_0.8.1-1.debian.tar.xz 9d068a07cdf15b61d08ad4fab60e524b9ad26d5017cebf415b9dedabc56fb760 2160 rust-crossbeam_0.8.1-1.dsc 4ae5588f6b3c3cb05239e90bd110f257254aecd01e4635400391aeae07497845 10429 rust-crossbeam_0.8.1.orig.tar.gz"
+    "2397808b7171ca7ec26f96fcdb179519497d7ec104a501a2107075b19408dab5 3996 rust-crossbeam_0.8.4-1.debian.tar.xz 14f161b9dd127960afd24fe2dbecb58ef962bd4d1b7a8fa50fe5370db5d4ed97 2798 rust-crossbeam_0.8.4-1.dsc 1137cd7e7fc0fb5d3c5a8678be38ec56e819125d8d7907411fe24ccb943faca8 10500 rust-crossbeam_0.8.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a94f321b5550c622b0c2f0b364e912c7ddc245471f94377a5b80067484d67e1cc23cbdbbf93c76642f0de22d0087e83c22f5f3aa7b60904e3cfc083a25f61069 4048 rust-crossbeam_0.8.1-1.debian.tar.xz e40c135ab61e024ce0a2e4d90838df627ebf62444ce88b7cd4ce3e3a95193157fd09d957428dd7530ecac0279b5476deb34f85d4f2b02647de3db942c60d221f 2160 rust-crossbeam_0.8.1-1.dsc 564f5623d1a4da7b0253f14946f2e71d14ac9195d80ab3b0ad8e2ba6fc7229745c8c70c2899852d48fc93cef009109d7d7cf2dc9c875273cb8ce9223b92b0beb 10429 rust-crossbeam_0.8.1.orig.tar.gz"
+    "af2e26e57dbcf96c2c71e6762b9cb1a1da464dee1e9d18f29e6342995f36a41033bf4c6b3410786966c015feea2efb51797ad475132e70cf6b514d81cd015cd0 3996 rust-crossbeam_0.8.4-1.debian.tar.xz 0a561d004f0304e600e397820fb4cb4a7bdc6629b77292c0edf67645e9d7550826ea809f6c69cc83d921d0caaf4d9a6b285545820e4b2b98495b9f2093325814 2798 rust-crossbeam_0.8.4-1.dsc 63650fe2d46ff2e593342b398c153facd3cb7cd72dac9b057ee0aac5ef5e9dd9df0e71536d66879676c0edaa89787d1f365eea35c82604ca46090e527749f994 10500 rust-crossbeam_0.8.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-crossbeam"
   ],
   "Files": [
-    "34e38d771e0e6bf2e4b5d7b0a827d4c2 4048 rust-crossbeam_0.8.1-1.debian.tar.xz 9bb62f5f4e9ff9a3dc1283f11337bc10 2160 rust-crossbeam_0.8.1-1.dsc 5deb6346c0fc985c8e724138e7dc3a2b 10429 rust-crossbeam_0.8.1.orig.tar.gz"
+    "03a976f34f68e5788a94df0e113eb24e 3996 rust-crossbeam_0.8.4-1.debian.tar.xz 7f38bfd8807d69ae7a8c709a0f61adb4 2798 rust-crossbeam_0.8.4-1.dsc 852778f7d6efdb9009f9539bf1966b29 10500 rust-crossbeam_0.8.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "librust-crossbeam-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/crossbeam]"
   ],
   "Version": [
-    "0.8.1-1"
+    "0.8.4-1"
   ]
 }

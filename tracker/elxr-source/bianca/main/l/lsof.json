@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "lsof"
+    "lsof, liblsof-dev, liblsof0"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), libselinux1-dev [linux-any]"
+    "debhelper-compat (= 12), libselinux1-dev [linux-any], libtirpc-dev, netcat-openbsd, pkgconf"
   ],
   "Checksums-Sha1": [
-    "3f6e9e8c534588ada489db28fbdd2429030a1f98 12084 lsof_4.95.0-1.debian.tar.xz e9f40ca69a5a99e0e659bbe9d3fa98439a5229bd 1752 lsof_4.95.0-1.dsc 4663ff398be3335913bbe8597abec677b4931b9a 520678 lsof_4.95.0.orig.tar.bz2"
+    "2a1bd1c7bc7d4c43163076548d04b3d00db2d40c 12936 lsof_4.99.4+dfsg-2.debian.tar.xz 012ca1d5ce91a66db9077ce32cfc529cc0ce50cc 1925 lsof_4.99.4+dfsg-2.dsc cdd0ddf86fb267d35abf68b0b0558d50b4c0f4c4 668592 lsof_4.99.4+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "8e3771752c9ba782fbaa5bafdee35a9b07bba10a7ea43345b0a6f7694661da63 12084 lsof_4.95.0-1.debian.tar.xz 875e3f9c52870c8f04f8fa8ce526822cc8a6c279a28a216184f9b1496b92abf7 1752 lsof_4.95.0-1.dsc e9faa0fbcc48638c1d1f143e93573ac43b65e76646150f83e24bd8c18786303c 520678 lsof_4.95.0.orig.tar.bz2"
+    "407bfacdcf15bdc9d1b6f6ba4a18f876ab04fdef63488d3ad093b31b1275e6b8 12936 lsof_4.99.4+dfsg-2.debian.tar.xz 36bd99dab7ee0a1a7072efbf2cdd0ede3a863fe3dab7784f221b2c6c34a39628 1925 lsof_4.99.4+dfsg-2.dsc dc3e7f51cf03bc7fbcdd9e62d4a52825682092031bd1ae08b15fe7f4f582aebf 668592 lsof_4.99.4+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "3c3961cc48522cb91abd5b005af013cb87e6c87e1700a74b26dc286df0741996b5f5e911d6e2fa02fc1b3674ed127d3893c91d83cd355e12a6d945e242f7ef10 12084 lsof_4.95.0-1.debian.tar.xz 3cf4a4fcd5a26363c12eba856165cf12165faa4412a67ec036764534ffaf5d40cc29829936625eab5b308fcd67b7c5c4b229bf39501fac83f01757dcef1f120f 1752 lsof_4.95.0-1.dsc aedb6ec34af7b0a22f98d295a03128cfede489bf0c25d512c29b02c356ba2c733d5f3bb08f343970599b4a6b779a8134353d44383e703eecb7f6d9b02e99061d 520678 lsof_4.95.0.orig.tar.bz2"
+    "eb8b7690ae159623ad4976b1e44e805a98a76eb3f59c5208b6d3b40ae0c26033aaad70b2b9cf2ca6203c12d12044c6eeec0c0cf8a6a8c7671dd62462facf1d23 12936 lsof_4.99.4+dfsg-2.debian.tar.xz 9fccfed3c0e63b9630b29cefc7c282a1c9cf52ed2ed4a44940fe9363644c29d497191784ffd96cdd4e11b5b45e217fd24b1df377d15ba26e8628b0d90e24bd12 1925 lsof_4.99.4+dfsg-2.dsc c7170ecab31d0ed40310f5af034e8a8a75ccb391a180feb229dc26029abeae5e93630e1506065ffcf08065c7b33fb106b35e9f423a5f0634ae6d10a93f669f3e 668592 lsof_4.99.4+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/l/lsof"
   ],
   "Files": [
-    "dff6675e60c45a9e88b0c56dad5f1dc0 12084 lsof_4.95.0-1.debian.tar.xz 50bdb301686351ed0e1c20254c306959 1752 lsof_4.95.0-1.dsc 670010707104b1b1fc4cabae974465a6 520678 lsof_4.95.0.orig.tar.bz2"
+    "eb72456b53efac3869ee9e1f60b26f1d 12936 lsof_4.99.4+dfsg-2.debian.tar.xz e8ccda508d397d7daf239b6c431101ea 1925 lsof_4.99.4+dfsg-2.dsc ec668fd1520ad71ba254e01e45009ffa 668592 lsof_4.99.4+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,12 +36,12 @@
     "lsof"
   ],
   "Package-List": [
-    "lsof deb utils standard arch=any"
+    "liblsof-dev deb libdevel optional arch=any liblsof0 deb libs optional arch=any lsof deb utils standard arch=any"
   ],
   "Standards-Version": [
-    "4.6.0.1"
+    "4.7.0"
   ],
   "Version": [
-    "4.95.0-1"
+    "4.99.4+dfsg-2"
   ]
 }

@@ -9,25 +9,25 @@
     "r-base-core"
   ],
   "Build-Depends": [
-    "autoconf, autotools-dev, bison, libncurses5-dev, texinfo, texi2html, debhelper (\u003e= 11), gettext, sharutils, locales \u003c!nocheck\u003e, time \u003c!nocheck\u003e, xz-utils, dpkg-dev (\u003e= 1.16.1)"
+    "autoconf, autotools-dev, bison, libncurses5-dev, texinfo, texi2html, debhelper (\u003e= 11), gettext, sharutils, locales \u003c!nocheck\u003e, time \u003c!nocheck\u003e, xz-utils"
   ],
   "Build-Depends-Indep": [
     "texlive-latex-base, ghostscript, texlive-fonts-recommended, man2html-base"
   ],
   "Checksums-Sha1": [
-    "d922d9f78e120a6068105ebfe7c15cbadddc31a0 97380 bash_5.2.15-2.debian.tar.xz 1c8463de9b96f5e72d178a50c49f80242e48d8c7 2317 bash_5.2.15-2.dsc 87f4eb879578479049306f3b721ff38aa17cfa1d 9997221 bash_5.2.15.orig.tar.gz"
+    "a1af1bbde88b868738d336b2804dbbe72cebe648 88360 bash_5.2.37-2.debian.tar.xz d32750d217c43dabc3b63b1d6431071e6cd506dc 2162 bash_5.2.37-2.dsc cf4da6fb3798f10b9510ab13fc69a5a9bf75e86e 5600932 bash_5.2.37.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "998f8ea5b754a734ae7d8306e149c43d713ddfcf49623a036004b729237dbcca 97380 bash_5.2.15-2.debian.tar.xz f51753e946af43eb58549c81e03b35a47af9fe6c6364179ccd4ef862b7c3b2d3 2317 bash_5.2.15-2.dsc 7a315bc0e9d90713159e4390ec1096a41e4f33cd8cc3d1a749a8e5ad56600f51 9997221 bash_5.2.15.orig.tar.gz"
+    "42e03ef523258b61fa765b8c9719d7bf461f2a274260d07fbe45ca7e4627923a 88360 bash_5.2.37-2.debian.tar.xz 7e5f6d5a26093e812f8841d5cf3245054102e86986017d8edd859417b03707f9 2162 bash_5.2.37-2.dsc 370704c9c859f4060b7df19055e43bb9b5fa09d887699cf6ba87885c5485d36a 5600932 bash_5.2.37.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "d7c936e81eb59939ceee6b00f8d5cca8b7ee1fea060722803c5bad42ab4aff3ccb9cc0ccd2c3b4cdfcf5c27cfcfd72c5ce042727460ac1b27afada09cee8aba1 97380 bash_5.2.15-2.debian.tar.xz 3555e4fe0c9ace7f90fd47b5378d774165e9d375af45ad8dc6eaca3a7c25fc865a990810b903f3cf7e372fb13573cf33bdb3649ddf1afd1d075645f9bf5dd62d 2317 bash_5.2.15-2.dsc 8322b26b8fd185a8c366970ce346075b4df76676d6e0f78c33d8bcac8c04a8e87bcf7cf74f5e259d90a750aa146b8baec69d1d2c2c12d26ea93472847c8dcd1f 9997221 bash_5.2.15.orig.tar.gz"
+    "71a79e6174cc69c6867dda67a7a4a004508b6f9a80aa6a8c1f5836c4780c89d6d3520a9b71598ef7bcfd594ac37954ec6f40f7f2fea3c180f138752fd148db21 88360 bash_5.2.37-2.debian.tar.xz cf89ce8d1afac409e8f34802ff76bd94a1335f5267ae4f6b60751fec3c5a20baca7b726d120d06b4aaad25897a03de9fc8422e480362a795f229ad209e699ee5 2162 bash_5.2.37-2.dsc c5380301114967378ace9ae4c510564cb7a827c221470aa532f2360a35000e7719ae081151f3d2ac86dff1d1465f64e60d9202fa6657d716ed6e449f77552158 5600932 bash_5.2.37.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/b/bash"
   ],
   "Files": [
-    "3d6eb21d48a3a8a66e0a15d6bb732666 97380 bash_5.2.15-2.debian.tar.xz 9c8dba99ddbcae19a3944a3fecfb2325 2317 bash_5.2.15-2.dsc c176d9fdbf0e3ad8dd769063a3f8130c 9997221 bash_5.2.15.orig.tar.gz"
+    "5a87fe5e2077763dd62ad40716804954 88360 bash_5.2.37-2.debian.tar.xz c9d75e69a27738c24a25fff61285998b 2162 bash_5.2.37-2.dsc 6075acd95528d14013fcde1ae279efdf 5600932 bash_5.2.37.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,15 +45,9 @@
     "bash deb shells required arch=any essential=yes bash-builtins deb utils optional arch=any bash-doc deb doc optional arch=all bash-static deb shells optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
-  ],
-  "Vcs-Browser": [
-    "https://code.launchpad.net/~doko/+junk/pkg-bash-debian"
-  ],
-  "Vcs-Bzr": [
-    "http://bazaar.launchpad.net/~doko/+junk/pkg-bash-debian"
+    "4.7.2"
   ],
   "Version": [
-    "5.2.15-2"
+    "5.2.37-2"
   ]
 }

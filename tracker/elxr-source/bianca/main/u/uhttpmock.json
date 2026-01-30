@@ -3,31 +3,31 @@
     "any"
   ],
   "Binary": [
-    "libuhttpmock-0.0-0, libuhttpmock-0.0-dev, gir1.2-uhm-0.0"
+    "libuhttpmock-1.0-1, libuhttpmock-dev, gir1.2-uhm-1.0"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gnome-pkg-tools (\u003e= 0.13), gobject-introspection, gtk-doc-tools, intltool (\u003e= 0.40.0), libgirepository1.0-dev, libglib2.0-dev (\u003e= 2.31.0), libglib2.0-doc, libsoup2.4-dev (\u003e= 2.37.91), libsoup2.4-doc, valac"
+    "debhelper-compat (= 13), ca-certificates \u003c!nocheck\u003e, dh-sequence-gir, gobject-introspection, gtk-doc-tools, libgirepository1.0-dev, libglib2.0-dev (\u003e= 2.31.0), libglib2.0-doc, libsoup-3.0-dev (\u003e= 3.1.2), libsoup-3.0-doc, meson, valac"
   ],
   "Checksums-Sha1": [
-    "6c1e60ede1f675a394871d31c6d2174b79b25c49 3164 uhttpmock_0.5.3-2.debian.tar.xz a6e2c76de35315b7a655d5011ef8fa637a2f02e9 1976 uhttpmock_0.5.3-2.dsc 4207db3dd3bc903ddd0637e02b2919a8d77dce4c 318708 uhttpmock_0.5.3.orig.tar.xz"
+    "f5e7f1dc3b4a64656412e95c90ee5d617ecf0fc3 3596 uhttpmock_0.11.0-2.debian.tar.xz bddf63cca6b58a11d2b06883712a4c17f7189f52 2349 uhttpmock_0.11.0-2.dsc 52e851efbc30b35e54de7a0acf583d6f16fa9b00 49657 uhttpmock_0.11.0.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "c970bedc6f855b6ddfd7f58d8b9cfe26ae330d5efea04af9f67aceac78c09835 3164 uhttpmock_0.5.3-2.debian.tar.xz 07142d7feab4ed7c896f93dced38d4ef94f41ab690ddb126f0f78f68eab40764 1976 uhttpmock_0.5.3-2.dsc 90843223c3a30bdb7f1eb3442373a03fee425af85a9df289cd687698ccff112f 318708 uhttpmock_0.5.3.orig.tar.xz"
+    "c4b114714c22dbdeae226ee7928e7b769361d979891c8221e67d254344862c44 3596 uhttpmock_0.11.0-2.debian.tar.xz 8c5356f47879a70bf5341892ea9ff131b57a9bf00d489194d1186fe3c28796f4 2349 uhttpmock_0.11.0-2.dsc 27b591b34ed953100eee4589968f3978c2155c099b25c27a6bf0cffc7b148eef 49657 uhttpmock_0.11.0.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "af802cf859aefffab769b4e41847051993a92abf3e898b981587d833768c6fc194b5ef32c6ba36da763d83c9c2074e00843b2c88fc4c8d5311ef5470e7175c77 3164 uhttpmock_0.5.3-2.debian.tar.xz 5757a08243a8c65b5b005cfcd5c8bf3a41d4b9937f0717e6fa2c01a9d91eb11ce57b036de9a13f5c5f45aa5e65d4429b0e30b7bfb0b40c9ad485ff02e9fa498e 1976 uhttpmock_0.5.3-2.dsc 9fccdb58ce04c1615d47bafac275c632f161a8148f0af82447286d0017d6b3946145b8a289f9abb55842bf4610ca3e5f2484bf322fb7a33dce42b3ebed45b2ee 318708 uhttpmock_0.5.3.orig.tar.xz"
+    "97cad21309380110910627aed034dbd5141c94280260e55023cbc908f3e03b2e3d53d8af5c0e0414b3962bd5fa0925b398c12dac01465a634135ca20e8b8c231 3596 uhttpmock_0.11.0-2.debian.tar.xz 289c83b5f01389a2f2250393f548398c74cf6f439f6503e9eee4e14078453a82aff2007f392aa3d108318f75c4dd728f28956c5ee7d55688db900204b0d5e678 2349 uhttpmock_0.11.0-2.dsc 6af6029e6b0fe4cf4eafd4dc46d999856a546f5a5273b3e2d05ca5f253f334124ab35ad2f366e451d48cd833b1054f2d1a3a3e3fb136ead1bf112088cd37beda 49657 uhttpmock_0.11.0.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/u/uhttpmock"
   ],
   "Files": [
-    "d40abab43398f29e86af524adac68faf 3164 uhttpmock_0.5.3-2.debian.tar.xz 823a563f3a1d8190a8c4373f30c92650 1976 uhttpmock_0.5.3-2.dsc dcbd66e80e1635e41b0e434b9852bd39 318708 uhttpmock_0.5.3.orig.tar.xz"
+    "6b0aea968ec1f2572fdb3d8ec338ac6d 3596 uhttpmock_0.11.0-2.debian.tar.xz 8a847d271b6ef228d9c4c97e04d98ddd 2349 uhttpmock_0.11.0-2.dsc fb32bb2efc14cf44193016c0e23246cd 49657 uhttpmock_0.11.0.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://gitlab.com/groups/uhttpmock"
+    "https://gitlab.freedesktop.org/pwithnall/uhttpmock"
   ],
   "Maintainer": [
     "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
@@ -36,13 +36,13 @@
     "uhttpmock"
   ],
   "Package-List": [
-    "gir1.2-uhm-0.0 deb introspection optional arch=any libuhttpmock-0.0-0 deb libs optional arch=any libuhttpmock-0.0-dev deb libdevel optional arch=any"
+    "gir1.2-uhm-1.0 deb introspection optional arch=any libuhttpmock-1.0-1 deb libs optional arch=any libuhttpmock-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Laurent Bigonville \u003cbigon@debian.org\u003e"
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/uhttpmock"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/uhttpmock.git"
   ],
   "Version": [
-    "0.5.3-2"
+    "0.11.0-2"
   ]
 }

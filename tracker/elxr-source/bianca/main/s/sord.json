@@ -6,25 +6,25 @@
     "libsord-0-0, libsord-dev, sordi, libsord-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libpcre2-dev, libserd-dev (\u003e= 0.30), meson, pkg-config, python3:native"
+    "debhelper-compat (= 13), libpcre2-dev, libserd-dev (\u003e= 0.30), libzix-dev, meson, pkgconf, python3:native"
   ],
   "Build-Depends-Indep": [
     "doxygen"
   ],
   "Checksums-Sha1": [
-    "610fa98a1ef9e4ab3d7be23dc7fcb004e8653a9c 10972 sord_0.16.14+git221008-1.debian.tar.xz 8e980cb741549c55d281ae04c4e3a56c5b8d63ef 2344 sord_0.16.14+git221008-1.dsc 73bf57fde49eeada32b0f176b441ad238123c1d6 114064 sord_0.16.14+git221008.orig.tar.xz"
+    "3c784970831f05edaa607640dd68b3b7535a922b 11012 sord_0.16.18-1.debian.tar.xz a409a55ed7f1d4992dddc52cc70fd34bd4fc30b2 2510 sord_0.16.18-1.dsc 9530fa113c21c61f1318e0189e62c6d657caa7a0 102300 sord_0.16.18.orig.tar.xz 128f1e977e66923e9026eec79f5ed15e9493f289 833 sord_0.16.18.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "9aa066204c347304ba54a7b0b9039ba967b276893a69731b7b797ab5aa8226ac 10972 sord_0.16.14+git221008-1.debian.tar.xz 820b334467e27c63e336fac00993de00ec09f50e54d5cf6dcc8f024d0f5d3b30 2344 sord_0.16.14+git221008-1.dsc c068eee70b5b2a447d57cabf1538cc354e3f8b81c61a8d150ee48a3ba1fa7362 114064 sord_0.16.14+git221008.orig.tar.xz"
+    "6de5e4e28f6e7c0ac787631e2312d39e4054beb84cd9654694f6a4045bdb3491 11012 sord_0.16.18-1.debian.tar.xz 5fe7bc97314f1886ce97b49d790336e57229e425df2bcc67d6e76881d27581b3 2510 sord_0.16.18-1.dsc 4f398b635894491a4774b1498959805a08e11734c324f13d572dea695b13d3b3 102300 sord_0.16.18.orig.tar.xz 05c21b5ed3e8b6e69478b8d01d474d246cbfc45c10f4aa625b5ef4b0519cc15e 833 sord_0.16.18.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "36a08a1eb5ee2ba55bf4e6376479b689939c1ee1a04a427c8a6f7dee0923cb67a59652e3973e471bf14865057794b17a43b7ba5bee4d20c4baba8cf58c2ce507 10972 sord_0.16.14+git221008-1.debian.tar.xz cac0322756ed1582e94b3266ecd99d6fc57065834e72f4088bfe6e1e69c4a0ca9a5f2b8ca8de6af61e83f17b775165f9653a1efca6d4cd34d0515b62f34a2026 2344 sord_0.16.14+git221008-1.dsc ce6bf4d5fc71b5af2d0cb696695d1444a8c139076b2e5dc72c1b4b87fe0fa05d85f7eccf72fdf3aaf4fcf96a7fa66bc6d27cba849efa5a2f7927e77d75992c1d 114064 sord_0.16.14+git221008.orig.tar.xz"
+    "dcf304b10040c6bf9e2e1dbe4fa0f20189c1bbb913d916c70cf80462171f6185a874289f83e4a954bc489d1201ef1e05613d06183ff49a7a8b1dac666dcd2243 11012 sord_0.16.18-1.debian.tar.xz b410fcdd63c5afd203f80fdab6b9dde329069ca9ba11338f3d69bebe6894a4a807a9f2f538a48a388331578df784c911b80c18904e056b585db5f75b653be672 2510 sord_0.16.18-1.dsc e271d97c77187d7ed0a9c8fe0a65fcf50e269ba79dba4e8d55781ffe3715888c5388d90812d76a48e89ecc9c5e047e0d53ff40333fde7dbbf12dffc496d05e31 102300 sord_0.16.18.orig.tar.xz 9b5a3416770d220cf5371675cf59e4098b52b39ee459e68c55048653e15aa8c3650f6ce4ac17e2cae1a5c307fd297dcf5a4aca24fa9e218e6767ab8745e77e1d 833 sord_0.16.18.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/s/sord"
   ],
   "Files": [
-    "594dedc26d281ada2f8eb25c6decf300 10972 sord_0.16.14+git221008-1.debian.tar.xz 85297399d5e518474b5d350c0ba10f3c 2344 sord_0.16.14+git221008-1.dsc 8cdd7fe3b4ee1a791e7c420f6810383b 114064 sord_0.16.14+git221008.orig.tar.xz"
+    "40a1d4e9dd52937add9c35b2b81e0157 11012 sord_0.16.18-1.debian.tar.xz 674e3dbdc6e5cb540c0bf1177c44cab8 2510 sord_0.16.18-1.dsc 8c7bf82dfa5bd7d6906ded54032f8a64 102300 sord_0.16.18.orig.tar.xz 30e570d524460e090b1ffe913e92643b 833 sord_0.16.18.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,10 +42,10 @@
     "libsord-0-0 deb libs optional arch=any libsord-dev deb libdevel optional arch=any libsord-doc deb doc optional arch=all sordi deb text optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Alessio Treglia \u003calessio@debian.org\u003e, Jaromír Mikeš \u003cmira.mikes@seznam.cz\u003e, Dennis Braun \u003cd_braun@kabelmail.de\u003e"
+    "Alessio Treglia \u003calessio@debian.org\u003e, Jaromír Mikeš \u003cmira.mikes@seznam.cz\u003e, Dennis Braun \u003csnd@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/multimedia-team/sord"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/multimedia-team/sord.git"
   ],
   "Version": [
-    "0.16.14+git221008-1"
+    "0.16.18-1"
   ]
 }

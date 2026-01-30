@@ -6,22 +6,22 @@
     "libnginx-mod-http-echo"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-nginx, nginx-abi-1.22.1-7"
+    "debhelper-compat (= 13), dh-sequence-nginx"
   ],
   "Checksums-Sha1": [
-    "2d1604c3fbe660f65958848d322e5da51567acbd 3788 libnginx-mod-http-echo_0.63-4.debian.tar.xz 208e4be7dd2817aef654b5de8da1fbc1c474a23f 2209 libnginx-mod-http-echo_0.63-4.dsc 11a63746a2ff35f82476b305e49b11f80a148a48 53441 libnginx-mod-http-echo_0.63.orig.tar.gz"
+    "3a78e0a3c2073b3e14972288ff727d840074c778 3888 libnginx-mod-http-echo_0.63-7.debian.tar.xz b1152da4ef28469a4972b6d5a6138d06ee02ba66 2189 libnginx-mod-http-echo_0.63-7.dsc 11a63746a2ff35f82476b305e49b11f80a148a48 53441 libnginx-mod-http-echo_0.63.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "fe11edee52b203c16cb150dbf01cbdaea4278a7cabad0ebbed2f7157492ed435 3788 libnginx-mod-http-echo_0.63-4.debian.tar.xz 413d7bad9979618971d8d8bcc143011ce924614755ecbe2eb99ecec9813d0a7d 2209 libnginx-mod-http-echo_0.63-4.dsc d83689f095fdce67b86c1f734ae71c53cb57e43912dcd6455e9ddd715c9c2c20 53441 libnginx-mod-http-echo_0.63.orig.tar.gz"
+    "a3aeb74a15ab730ca7436448c10c22229955668c8f05d6222a29a8001c6fb97a 3888 libnginx-mod-http-echo_0.63-7.debian.tar.xz 7b26cffa4d15f06adc48ba168756ff15861629b849e4458ec4582bc6610865c5 2189 libnginx-mod-http-echo_0.63-7.dsc d83689f095fdce67b86c1f734ae71c53cb57e43912dcd6455e9ddd715c9c2c20 53441 libnginx-mod-http-echo_0.63.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "07fd3a8cf9774fbf3b3cf4557c459b9df363a3fa32c76de71a90a2e55f3f3328daeb99d650792db2a52f48e603443cd683aa6cbe2304a0f23a51c0d43592761e 3788 libnginx-mod-http-echo_0.63-4.debian.tar.xz b5916c50c9382c01461510860a6f4ae98e4badbfa64f87f9760230757338eebea8e3f7ead6477f1b70fbdeadc0993a2a3f122566d35904e5edfee8c155e434ea 2209 libnginx-mod-http-echo_0.63-4.dsc 7f96624dde3fde555d605b8296448e0b6110b5c1f53b473b16293f2d4effaa7a1aa365863e20cfdda877caa2a468fd9d672a301c97ae1b0a1bcf17c9942ff57e 53441 libnginx-mod-http-echo_0.63.orig.tar.gz"
+    "8076292b7f68ac48032ceb1ab7d0ff7abc5151651fe4802889dcce8055cdbf06fd7ab0e1ba3d650ed7195876eaa5f7c51bdc28a13d22b59c300f23cea5f17068 3888 libnginx-mod-http-echo_0.63-7.debian.tar.xz 1b7886f655bebf6772a5567e1a6f139dc14c64571c27d19b44bb83655dcbfb8e6871219f02abc264c15fcbc88a3ccecbea7d9d27cdcd1d8cebd2dbabfe7f1a20 2189 libnginx-mod-http-echo_0.63-7.dsc 7f96624dde3fde555d605b8296448e0b6110b5c1f53b473b16293f2d4effaa7a1aa365863e20cfdda877caa2a468fd9d672a301c97ae1b0a1bcf17c9942ff57e 53441 libnginx-mod-http-echo_0.63.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libn/libnginx-mod-http-echo"
   ],
   "Files": [
-    "9b1e32e6838e3a44a20714e09bd6ca43 3788 libnginx-mod-http-echo_0.63-4.debian.tar.xz e4dbee9700b98763d41bde8e03ba01e8 2209 libnginx-mod-http-echo_0.63-4.dsc 4918cfd53024b8c562a87e3e8493351b 53441 libnginx-mod-http-echo_0.63.orig.tar.gz"
+    "0b5330381fbce931c198c34c43cc66ea 3888 libnginx-mod-http-echo_0.63-7.debian.tar.xz cea69b1e5b11807235cd05d30abf12b4 2189 libnginx-mod-http-echo_0.63-7.dsc 4918cfd53024b8c562a87e3e8493351b 53441 libnginx-mod-http-echo_0.63.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libnginx-mod-http-echo deb httpd optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "curl, nginx, nginx-core"
   ],
   "Uploaders": [
-    "Jan Mojžíš \u003cjan.mojzis@gmail.com\u003e,"
+    "Jan Mojžíš \u003cjanmojzis@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/nginx-team/libnginx-mod-http-echo"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/nginx-team/libnginx-mod-http-echo.git"
   ],
   "Version": [
-    "1:0.63-4"
+    "1:0.63-7"
   ]
 }

@@ -6,31 +6,31 @@
     "hunspell-kk"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 7.0.50~)"
+    "debhelper-compat (= 13), convert-bdic"
   ],
   "Build-Depends-Indep": [
-    "dictionaries-common-dev (\u003e= 1.10.5)"
+    "dictionaries-common-dev"
   ],
   "Checksums-Sha1": [
-    "7b916452f7f71ed18867af33b6129f0f6c4ff0ee 2676 hunspell-kk_1.1-3.debian.tar.xz 052ccc8596a125f366384ed3105901e69d9f9777 1922 hunspell-kk_1.1-3.dsc 47cf11b1178542d46fae284ab37396544ce020c1 212888 hunspell-kk_1.1.orig.tar.gz"
+    "f166a2f0d59cc2311e7d5e2397ba7af80a5f196c 3300 hunspell-kk_1.1.2-2.debian.tar.xz 21ff1a313d9f88f640bd499d40a44a7a8af84b2e 1926 hunspell-kk_1.1.2-2.dsc 22521b91ce62e5b30e289904fe60fbeb30d41389 310307 hunspell-kk_1.1.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "61e72aa6447c597ed3522fc20d099108e64071356afdba5e3e14597b5e4268a9 2676 hunspell-kk_1.1-3.debian.tar.xz cdf36ae2038e559f571fe577f1a00832023311c56b939cd3e4a580e7b774f65c 1922 hunspell-kk_1.1-3.dsc ffe23073970599a593c9ab986b6d4234e14f80c38b7402414668ff9d91f5b793 212888 hunspell-kk_1.1.orig.tar.gz"
+    "588a80368012698fb63b56f19fb19f026f4634a1e67521e812ddffea97aff920 3300 hunspell-kk_1.1.2-2.debian.tar.xz 10eb5039e5e9ca3041bd62414125ea563244b731e0c81e8e255586e6aab5fa2a 1926 hunspell-kk_1.1.2-2.dsc 9af4e684c59f0d6020b615bacaa06a99332e32a697d88eb4da996a6ea6e88e83 310307 hunspell-kk_1.1.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "1b8add4455b54e63217eb5f7cd23b5804d45cb3602d33b884fa42f1554ddf56f1d7c2136ffe7ce5aa80ef4bc348e4f1ff6cfc9e6c83ed11f2f2c73c634891d58 2676 hunspell-kk_1.1-3.debian.tar.xz 5f4b2fa25e2db1824684814c762fd5cdcbb8b1552cf5b551f7dd336b7a3ba6d057a84f856fe3f94cd066e6f76f261c8eb00bf53329735650f93e46b8da2e3371 1922 hunspell-kk_1.1-3.dsc db023a40f3cb5c0f1446f75f9d3905bd898f0302decb120f145e092b6fa018fe26cfbefc37179e7e07d72373b149a3ca8be12f10270cc170790d350604fc20ea 212888 hunspell-kk_1.1.orig.tar.gz"
+    "968d183e31f3dc1acc575df22783f86219d56c6b68b4ce3efd6157e51fbebd5aa364d0ee7ee2bb597631abf22cb80e7a2358921c5bf064243cdec8c4785dd9d1 3300 hunspell-kk_1.1.2-2.debian.tar.xz cbae9696d206b047da7a84a9b88194dd0a7a15f167b0f79937d4042e0adfdddd3422ea2b03f3091632414090fc200abce4c0170bef534245ead36d66006ff075 1926 hunspell-kk_1.1.2-2.dsc 1373f7af6767a9d81b3fd03207775999eb4be7757ccbe26a849f9b3c47d7dbf0b4e8cfd3e4e6436b45478ab01dc23f7d255c2a9f7100193c6b9b3b0f7935d751 310307 hunspell-kk_1.1.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/h/hunspell-kk"
   ],
   "Files": [
-    "c71b442fec04a82feec580cd90a2418d 2676 hunspell-kk_1.1-3.debian.tar.xz 790bae254793979586253d9fc043bac5 1922 hunspell-kk_1.1-3.dsc 919e2de38103b71ec37a1d036d96c156 212888 hunspell-kk_1.1.orig.tar.gz"
+    "0e83dca84f0d493bb176ed4a8fddcdca 3300 hunspell-kk_1.1.2-2.debian.tar.xz a868547c65b20d1e3bf029ec150a3fb3 1926 hunspell-kk_1.1.2-2.dsc 311ac2b8a09b3b7f800f57f2d7aac2d1 310307 hunspell-kk_1.1.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://extensions.services.openoffice.org/en/project/dict-kk"
+    "https://github.com/kergalym/myspell-kk/"
   ],
   "Maintainer": [
     "Debian QA Group \u003cpackages@qa.debian.org\u003e"
@@ -42,15 +42,15 @@
     "hunspell-kk deb text optional arch=all"
   ],
   "Standards-Version": [
-    "3.9.2"
+    "4.7.0"
   ],
   "Vcs-Browser": [
-    "http://github.com/taem/hunspell-kk/tree/master"
+    "https://salsa.debian.org/debian/hunspell-kk/"
   ],
   "Vcs-Git": [
-    "git://github.com/taem/hunspell-kk.git"
+    "https://salsa.debian.org/debian/hunspell-kk.git"
   ],
   "Version": [
-    "1.1-3"
+    "1.1.2-2"
   ]
 }

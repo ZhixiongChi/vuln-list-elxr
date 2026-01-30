@@ -6,22 +6,22 @@
     "python3-deprecated"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-python, pybuild-plugin-pyproject, python3-all, python3-pytest, python3-pytest-cov, python3-setuptools, python3-sphinx, python3-wrapt"
+    "debhelper-compat (= 13), dh-python, dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-pytest, python3-pytest-cov, python3-setuptools, python3-sphinx, python3-wrapt"
   ],
   "Checksums-Sha1": [
-    "792bfd294419f6ab77e1b9a664a9b41f88223cb8 3404 python-deprecated_1.2.13-3.debian.tar.xz 3ba5c947c1bbfa5ed5bb3781e3ce3c80a2d88f80 2167 python-deprecated_1.2.13-3.dsc a4a4c20fd73a127ca1cfe871771e673e5d544cfa 2971610 python-deprecated_1.2.13.orig.tar.gz"
+    "89b6b031d35af52f89a1507f2c8d57292b48eb8a 3840 python-deprecated_1.2.18-1.debian.tar.xz 5a87d6128a5ca23f9566a46a99e0ca1439bc535d 2223 python-deprecated_1.2.18-1.dsc 3d243b03d3b14f81da1901a5aa3c8abcfe5f96d0 2925803 python-deprecated_1.2.18.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "c0eff149a3f8e6e3a4b134d21ec7ddc958f70bf229db55b1a7af3065c70c6fc2 3404 python-deprecated_1.2.13-3.debian.tar.xz 6b616049f49dd38002de2a61dd3b70f9013078e73d8b5fd4347bbd348c303963 2167 python-deprecated_1.2.13-3.dsc 771e20e93bb4bc497bd9955829d36074dd7608962846c0b34a92ff68ed7ebad9 2971610 python-deprecated_1.2.13.orig.tar.gz"
+    "4bf5b82522f499ebe12ce42d28b6d7e2539a821ffa3f2e8064f3f18d63fbb6bf 3840 python-deprecated_1.2.18-1.debian.tar.xz cdce50fd3e8c261bdae6cb7188772e5b5a5219df1c7d5ea57047761529d82c6d 2223 python-deprecated_1.2.18-1.dsc 8e5ad74b6a3a47b079b37425f46c54674668f3d4c9de7afd576574bb332dd5bd 2925803 python-deprecated_1.2.18.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8ca18d8aa24ce88e677a24aa90c0c03f8cae518fb36a7eeb0653cab873235026d114a767bfad583131182ec292907e313a6590a078d63ff2be9070f04df2ddec 3404 python-deprecated_1.2.13-3.debian.tar.xz 2a487bba0f2c4977b41cd3402df8b43b582894aa2af5118b63344f9153fd77347136eb62919dd518e6d7d135cf7706561c3337c9f2da49c61790e92987f85b48 2167 python-deprecated_1.2.13-3.dsc c170b086bc4e37462181a0f53edbe745aa4f4924c7fd64d9693de267e070392b74445f9cba935e85c878b755603ca6cada8b4130ac96ab071be284047aa35619 2971610 python-deprecated_1.2.13.orig.tar.gz"
+    "b2d350e1105236baed8f70ddf096bb9a101c92f32f99169ab78ee918753f36648bb3e62b93b8f0e83bd5a88453627c6abf123b7082ec93d8769dbf8b03691128 3840 python-deprecated_1.2.18-1.debian.tar.xz f4795ae7dacb66156dd914c09a128ee2801359a1fc25d0c578dd7f1d961e772c53de9f035286bcd2ea403997eb129e68223721cab088410d476d5cc10571e6ef 2223 python-deprecated_1.2.18-1.dsc b38f14bf73915500d6076642ce7bb9b3ac8975e9c132815a1c559927505b8b2bb4971b683f2cd0a822c3cceca0145499162d8acb385a1e4e1838769bf06143ce 2925803 python-deprecated_1.2.18.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-deprecated"
   ],
   "Files": [
-    "227be4df196dfc1f3298601ddbf9c501 3404 python-deprecated_1.2.13-3.debian.tar.xz d78b48c7050d63f2af770d2c60dfef04 2167 python-deprecated_1.2.13-3.dsc 854c98082a803df12a94e3fc4858f7cf 2971610 python-deprecated_1.2.13.orig.tar.gz"
+    "7dcf8bbf123f55da3e6bb2066bd491cb 3840 python-deprecated_1.2.18-1.debian.tar.xz ac1fec3a7b47d3b15839b909b6192dd7 2223 python-deprecated_1.2.18-1.dsc 16ca3bffc9473458887e59bde0d519e4 2925803 python-deprecated_1.2.18.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,10 @@
     "python3-deprecated deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
     "Bas Couwenberg \u003csebastic@debian.org\u003e"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/debian-gis-team/python-deprecated.git"
   ],
   "Version": [
-    "1.2.13-3"
+    "1.2.18-1"
   ]
 }

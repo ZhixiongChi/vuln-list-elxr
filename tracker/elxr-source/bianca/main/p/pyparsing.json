@@ -6,25 +6,25 @@
     "python-pyparsing-doc, python3-pyparsing"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, dh-sequence-python3, dh-sequence-sphinxdoc, flit, pybuild-plugin-pyproject, python3-all, python3-pytest, python3-setuptools, python3-sphinx"
-  ],
-  "Build-Depends-Indep": [
-    "tofrodos"
+    "debhelper-compat (= 13), dh-python, dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, flit, pybuild-plugin-pyproject, python3-all, python3-pytest \u003c!nocheck\u003e, python3-railroad-diagrams \u003c!nocheck\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "5573e6f857f21f9bd13da94a40e7841d42b5c41d 8344 pyparsing_3.0.9-1.debian.tar.xz e39f9d76c6751469edbe87d3d543ddcdc06f859f 2130 pyparsing_3.0.9-1.dsc 13f44b5b186a627f2481a8eb0d7aedcd6885a641 1999906 pyparsing_3.0.9.orig.tar.gz"
+    "07e766e0477028a4fdcf94f24af010377920a300 8344 pyparsing_3.1.2-1.debian.tar.xz 7c17176451f92a7e9d5d3d3b06135a84077a0c58 2453 pyparsing_3.1.2-1.dsc 6db9864831c23878e3c312d9723d64ca3644c7ae 889571 pyparsing_3.1.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "f8cca4bad12c7b31eb9b3f4a1e3698918343aaf72d566273790c82d42d26ec35 8344 pyparsing_3.0.9-1.debian.tar.xz 058fb1ceaa561fecf7d0602458e66ef508096f2d44386043312fb75b234d21db 2130 pyparsing_3.0.9-1.dsc 2b020ecf7d21b687f219b71ecad3631f644a47f01403fa1d1036b0c6416d70fb 1999906 pyparsing_3.0.9.orig.tar.gz"
+    "4568a839108152e1f2bf52dd9b07e9928d8028353ef9bac43ff8b03a4d0d6ee4 8344 pyparsing_3.1.2-1.debian.tar.xz 6f9057e7ab47f3bf5e8aa49312932cf7c879aafa54f1c15f237181a9ebb4cb12 2453 pyparsing_3.1.2-1.dsc a1bac0ce561155ecc3ed78ca94d3c9378656ad4c94c1270de543f621420f94ad 889571 pyparsing_3.1.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "b4c9be000393a1070d28ebf5f6057f631efec9722e5fbe84303b11b938e4c430521feda26f95c82272673bf6f938edec50763310b6b6074a54a026f09e75fa01 8344 pyparsing_3.0.9-1.debian.tar.xz db3dfc2f11bd8679da74f9602f2abb678ca0fc3d7761ad67dfc4aacc4665f3c1e51107bbc36779426b82e837a5b582e2c81c73d0c3857c4a4f210f913b57ec80 2130 pyparsing_3.0.9-1.dsc 8877f8733196c757e36e062ddc216153f9cdc51bf43795855a607340bab73fdf4d44745c9f410d151cc4a4d6d0db06133945a4d7d0fee52f3aee521b8095e6b0 1999906 pyparsing_3.0.9.orig.tar.gz"
+    "1a1ad24efa3a258b9c804b1062dbd271f5dfe508beb2032fcc3c5c2e5e332b08aed771f81153736a07016ae838194d3c56b51c306f2a3b06cda5480df6459285 8344 pyparsing_3.1.2-1.debian.tar.xz 4a20f2527a7b31fa255f89d0b2465dcfdcdec36f46d9de79bad27d08c216b492b51de7e00790309e638d98c1c5701546aafb2390c1020f7b71d8c040ad623ff4 2453 pyparsing_3.1.2-1.dsc 1134949f3576edbec4438eefe952eb5cc6e734fb060905d714b6a77f71e90d364b01345df5e7b8fb5ffa798c530be9c65f6d152b3f591cba787660c4dd8894d2 889571 pyparsing_3.1.2.orig.tar.gz"
+  ],
+  "Dgit": [
+    "02ab55bff34dbda28f5ce01a43437e2fd3c6bfdf debian archive/debian/3.1.2-1 https://git.dgit.debian.org/pyparsing"
   ],
   "Directory": [
     "pool/main/p/pyparsing"
   ],
   "Files": [
-    "d35a61f79dcd43a1de97f992c02937b0 8344 pyparsing_3.0.9-1.debian.tar.xz 34b7392aa29d7a27d87a80f59ef48675 2130 pyparsing_3.0.9-1.dsc fadc2f3bf5872bf6310576a86c3566e0 1999906 pyparsing_3.0.9.orig.tar.gz"
+    "5f8c528ebc6805af7f6e7bcd22408b58 8344 pyparsing_3.1.2-1.debian.tar.xz bd5feb97aa1e36a655d27df5a5609e95 2453 pyparsing_3.1.2-1.dsc 2bfafdb2d02d19ca4a3dfd02a9dbdfa7 889571 pyparsing_3.1.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "python-pyparsing-doc deb doc optional arch=all python3-pyparsing deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-pybuild"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/pyparsing.git"
   ],
   "Version": [
-    "3.0.9-1"
+    "3.1.2-1"
   ]
 }

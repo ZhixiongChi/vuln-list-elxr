@@ -3,7 +3,7 @@
     "any all"
   ],
   "Binary": [
-    "liblzma5, xz-utils, xzdec, liblzma-dev, liblzma-doc"
+    "liblzma5, liblzma5-udeb, xz-utils, xzdec, liblzma-dev, liblzma-doc"
   ],
   "Build-Conflicts": [
     "automake1.4"
@@ -12,22 +12,22 @@
     "debhelper-compat (= 13), dpkg-dev (\u003e= 1.16.2), autoconf (\u003e= 2.64~), automake, libtool (\u003e= 2.2), gettext, autopoint | gettext (\u003c\u003c 0.18-1), autopoint | cvs, po4a"
   ],
   "Build-Depends-Indep": [
-    "doxygen"
+    "doxygen, graphviz"
   ],
   "Checksums-Sha1": [
-    "7f6eccda8aa1fed2ec18c5329d010509a434f606 91000 xz-utils_5.4.1-1.debian.tar.xz 86f393f5250d01485acaa8453547dcb9503ac87b 2620 xz-utils_5.4.1-1.dsc 8facb914772e5963d86f9cdd781c928009879b3b 1485272 xz-utils_5.4.1.orig.tar.xz 7c8305fda4dbb47a962858e3e3496da0af715c4b 833 xz-utils_5.4.1.orig.tar.xz.asc"
+    "c17e6705bc0690a876c85bbf2cce642c39b23785 24624 xz-utils_5.8.1-1.debian.tar.xz 34a25f73512c86b20e7c1d91fa3467f932ec3b04 2704 xz-utils_5.8.1-1.dsc c29df8058b6279bfab2744f3e79b2940229207a3 1461872 xz-utils_5.8.1.orig.tar.xz 3658f92b0eec052a58ca69fa3c12c5b095a05fc6 833 xz-utils_5.8.1.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "17fdce0230999e3e19796a5a77c74d297fbaf41c6db0d21b07f76a2be1dd66c8 91000 xz-utils_5.4.1-1.debian.tar.xz 5c39ef3c918c2a5517306779b21fa4a2995c95c7ddbdbf48af63b4da97f4715b 2620 xz-utils_5.4.1-1.dsc 5d9827aa1875b21c288f78864bb26d2650b436ea8d2cad364e4921eb6266a5a5 1485272 xz-utils_5.4.1.orig.tar.xz 4b0c7707114996092a5f75a98333de2102db83a27218e4903b8fb7c24a8d0233 833 xz-utils_5.4.1.orig.tar.xz.asc"
+    "a731db6d87e211c7b4e6f1af2fbb5369cd381d8cb0f1e00e8bc30304ae6f00b0 24624 xz-utils_5.8.1-1.debian.tar.xz a11c19074a9e6b3bd4e566166278d9ebd23915fd0d400fbe6d16eb000d845284 2704 xz-utils_5.8.1-1.dsc 0b54f79df85912504de0b14aec7971e3f964491af1812d83447005807513cd9e 1461872 xz-utils_5.8.1.orig.tar.xz 4138f4ceca1aa7fd2085fb15a23f6d495d27bca6d3c49c429a8520ea622c27ae 833 xz-utils_5.8.1.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "6837a61e15a431cd284923c8dc4f80c8f18e48a2aa6cd21e145d0f05b5b6ee07edddd040a063bb41365ab183db8eb58a1435ec451bb4a6ef408f7d15a00f1ff0 91000 xz-utils_5.4.1-1.debian.tar.xz 3c8b5c5d09c7e70be947f02507d09e9552792cd2cdfff4b5a46a1df25956b6cb6e9d7e3bc29a90e758fe5b753602783a087b533a0b472aa1118a3288cc26973b 2620 xz-utils_5.4.1-1.dsc f890ee5207799fbc7bb9ae031f444d39d82275b0e1b8cc7f01fdb9270050e38849bd1269db2a2f12fe87b5e23e03f9e809a5c3456d066c0a56e6f98d728553ea 1485272 xz-utils_5.4.1.orig.tar.xz 0802a4ae8f8fe700288b0fb1a4c9f59f71b26fcaea88cd368d36dcfd96a1deb2380a7b9af66b84d2f4faf68ff114d9b4b4e48b5b8362c37a8e528f13a4233cf3 833 xz-utils_5.4.1.orig.tar.xz.asc"
+    "52f217e7bdef8dc6a439a7d0c326a57e8909f61d6c68e817327a8ca493fe0489e6c9b1382f4c54e4c9b5df1cdda1e942c4eb4c14509b67478c900dfee1082c06 24624 xz-utils_5.8.1-1.debian.tar.xz e96157345789c23afa3e495b8eaffeca1150fb98727652948f7c58cd8ed4d54d89225efe4ef3e8505ef3acf0a3c76840c162a73e2e697dde46a70de6037cf861 2704 xz-utils_5.8.1-1.dsc 34dbc874a697f4fd17127b3dc828236dd7fd35120a77e0867325273c5d56c4ecddc8a39dce6cbdb3141fff32c56001f4ab18edfa572076d10f2fd55b07ff2b9e 1461872 xz-utils_5.8.1.orig.tar.xz 0d851011a5fdd3d36f42c9ddaf163cacfefb8a38e2ad2a2004cb65cfce7fc5bb3df518f6f4fdd3465881246a578d7c36623fd4ef69f83614604fe1b8c343218b 833 xz-utils_5.8.1.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/x/xz-utils"
   ],
   "Files": [
-    "156ce5980be294f1183554af3204f070 91000 xz-utils_5.4.1-1.debian.tar.xz a61a28c904325b35726838c19d117c65 2620 xz-utils_5.4.1-1.dsc 47d831c659e94071d5dd384d0d1ed4c6 1485272 xz-utils_5.4.1.orig.tar.xz 6bc67b7cf68811620ef641ed53ecea3f 833 xz-utils_5.4.1.orig.tar.xz.asc"
+    "e1a25ecc1f69ce70c3516cb7f934a967 24624 xz-utils_5.8.1-1.debian.tar.xz 80505f1841fa963eb04fe7bdff8ec01c 2704 xz-utils_5.8.1-1.dsc cf5e1feb023d22c6bdaa30e84ef3abe3 1461872 xz-utils_5.8.1.orig.tar.xz 7a1c93af83d35ba1e0ba9cbe12f01493 833 xz-utils_5.8.1.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,10 +42,10 @@
     "xz-utils"
   ],
   "Package-List": [
-    "liblzma-dev deb libdevel optional arch=any liblzma-doc deb doc optional arch=all liblzma5 deb libs optional arch=any xz-utils deb utils standard arch=any xzdec deb utils optional arch=any"
+    "liblzma-dev deb libdevel optional arch=any liblzma-doc deb doc optional arch=all liblzma5 deb libs optional arch=any liblzma5-udeb udeb debian-installer optional arch=any xz-utils deb utils standard arch=any xzdec deb utils optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,9 +60,9 @@
     "https://salsa.debian.org/debian/xz-utils"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/debian/xz-utils"
+    "https://salsa.debian.org/debian/xz-utils.git"
   ],
   "Version": [
-    "5.4.1-1"
+    "5.8.1-1"
   ]
 }

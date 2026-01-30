@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "librust-wasm-bindgen-dev, librust-wasm-bindgen+default-dev, librust-wasm-bindgen+serde-dev, librust-wasm-bindgen+serde-serialize-dev, librust-wasm-bindgen+serde-json-dev, librust-wasm-bindgen+spans-dev, librust-wasm-bindgen+strict-macro-dev, librust-wasm-bindgen+xxx-debug-only-print-generated-code-dev"
+    "librust-wasm-bindgen-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e, librust-wasm-bindgen-macro-0.2.83+default-dev \u003c!nocheck\u003e, librust-wasm-bindgen-macro-0.2.83+spans-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.57) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e, librust-once-cell-1+std-dev (\u003e= 1.12-~~) \u003c!nocheck\u003e, librust-once-cell-1-dev (\u003e= 1.12-~~) \u003c!nocheck\u003e, librust-wasm-bindgen-macro-0.2.99+spans-dev \u003c!nocheck\u003e, librust-wasm-bindgen-macro-0.2.99+std-dev \u003c!nocheck\u003e, librust-wasm-bindgen-macro-0.2.99-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "f42bf57b6b7d6c5ea2a5c4a6df720093d937310e 3644 rust-wasm-bindgen_0.2.83-1.debian.tar.xz 87c66c7463c83ffc4c03864edbb721d6eb25c863 3431 rust-wasm-bindgen_0.2.83-1.dsc a1b3e92d6afb35bcd212782b6ab8317b89ff380d 169618 rust-wasm-bindgen_0.2.83.orig.tar.gz"
+    "fa1e661fa77558d8da8367ecf163eb59880ac729 3312 rust-wasm-bindgen_0.2.99-1.debian.tar.xz fe584a338b13ee8783f8d814ec23539765bd7388 2655 rust-wasm-bindgen_0.2.99-1.dsc 204df1164476e2b885a5ad92543c98c42b7b89c4 46136 rust-wasm-bindgen_0.2.99.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "ce47b63480696d5a26f6c890ea54caa8d2e0d0b244b5deb9f9383407b588538b 3644 rust-wasm-bindgen_0.2.83-1.debian.tar.xz f697be233bfca83ae436e2c4dd2876596c6f6d51f76259498f5a5fef2441474f 3431 rust-wasm-bindgen_0.2.83-1.dsc eaf9f5aceeec8be17c128b2e93e031fb8a4d469bb9c4ae2d7dc1888b26887268 169618 rust-wasm-bindgen_0.2.83.orig.tar.gz"
+    "6f2d323dbae607198a99e51b536673d3e18be124b2dccdd68925c37a2792421c 3312 rust-wasm-bindgen_0.2.99-1.debian.tar.xz 4866ef26d69d33e5e2bba3802f2476820f23434752f9480771ecc859657ea9f3 2655 rust-wasm-bindgen_0.2.99-1.dsc a474f6281d1d70c17ae7aa6a613c87fce69a127e2624002df63dcb39d6cf6396 46136 rust-wasm-bindgen_0.2.99.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "db1584974d1a459b1e2b4a49c9d476b259e43f1a28673b4779762caabf3e9a5516f4edde10704becfcf9dd19cfcb68f9621d447240f5ff6f61fdfffee1ea77e4 3644 rust-wasm-bindgen_0.2.83-1.debian.tar.xz cd14cea162f3ebcb7823e9f4fdf61285364e333b2fc91fb93dd5f011f1ad8856865228bd5ef8b45707331ebd06418a53ada37ff5d594c49ac1b874fda55a81d5 3431 rust-wasm-bindgen_0.2.83-1.dsc ec93d1334417d0329e113d5f2da7f16c0f1209d71e5cbd21a2dc9278d877e70ca2327ff7863b40505504883ed51d6bf20dda98c22ef44011a47c604a7b44e82d 169618 rust-wasm-bindgen_0.2.83.orig.tar.gz"
+    "e803247109f0005ef805d8f39af63813c0b2450c201b23d0ed9d04896d78345c493b18f7e0993b98e3c0d718e1ada12ecc774a692002dd59eaea6e17cdefef99 3312 rust-wasm-bindgen_0.2.99-1.debian.tar.xz 3d4f3313918a76f42c634946dfb6a8c9971ac6379bcebb1e6c702e614732be7851f4157bfa89a8a85e3707557244b326558445e29378e944f35e1ce0abe70b9d 2655 rust-wasm-bindgen_0.2.99-1.dsc 184aec11998b99a730ea5b63d6141260cd0b7cdc29b02696f533b3e75ec79f7c17c6aac892e7a7b24036c6e73592d01df638ca31b54bda11d3bdbf857b1489c2 46136 rust-wasm-bindgen_0.2.99.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-wasm-bindgen"
   ],
   "Files": [
-    "171b27149e8760cd72cbb1e5a9fc9ab0 3644 rust-wasm-bindgen_0.2.83-1.debian.tar.xz d323dd4f3ea462ece65784e849264e42 3431 rust-wasm-bindgen_0.2.83-1.dsc 4c0a0c6c834a788605ce396729718ef7 169618 rust-wasm-bindgen_0.2.83.orig.tar.gz"
+    "1b9ddb3cad1c3d044be3159f9e471194 3312 rust-wasm-bindgen_0.2.99-1.debian.tar.xz f3ae44e1f9df892ea20599365299dd80 2655 rust-wasm-bindgen_0.2.99-1.dsc a99833290756a094b27b7dee2fe25333 46136 rust-wasm-bindgen_0.2.99.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,16 +36,16 @@
     "rust-wasm-bindgen"
   ],
   "Package-List": [
-    "librust-wasm-bindgen+default-dev deb rust optional arch=any librust-wasm-bindgen+serde-dev deb rust optional arch=any librust-wasm-bindgen+serde-json-dev deb rust optional arch=any librust-wasm-bindgen+serde-serialize-dev deb rust optional arch=any librust-wasm-bindgen+spans-dev deb rust optional arch=any librust-wasm-bindgen+strict-macro-dev deb rust optional arch=any librust-wasm-bindgen+xxx-debug-only-print-generated-code-dev deb rust optional arch=any librust-wasm-bindgen-dev deb rust optional arch=any"
+    "librust-wasm-bindgen-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-js-sys-0.3+default-dev, librust-serde-derive-1+default-dev, librust-wasm-bindgen-futures-0.4.33+default-dev, librust-wasm-bindgen-test-0.3.33+default-dev, librust-wasm-bindgen-test-crate-a-0.1+default-dev, librust-wasm-bindgen-test-crate-b-0.1+default-dev"
+    "dh-cargo, librust-paste-1+default-dev, librust-serde-derive-1+default-dev, rustc"
   ],
   "Uploaders": [
     "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, kpcyrd \u003cgit@rxv.cc\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/wasm-bindgen]"
   ],
   "Version": [
-    "0.2.83-1"
+    "0.2.99-1"
   ]
 }

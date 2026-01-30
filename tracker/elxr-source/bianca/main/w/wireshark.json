@@ -3,28 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "wireshark-common, wireshark, wireshark-qt, tshark, wireshark-dev, wireshark-doc, libwireshark16, libwsutil14, libwsutil-dev, libwireshark-data, libwireshark-dev, libwiretap13, libwiretap-dev"
+    "wireshark-common, wireshark, tshark, wireshark-dev, wireshark-doc, libwireshark18, libwsutil16, libwsutil-dev, libwireshark-data, libwireshark-dev, libwiretap15, libwiretap-dev"
   ],
   "Build-Conflicts": [
     "libsnmp-dev, libsnmp4.2-dev"
   ],
   "Build-Depends": [
-    "qtbase5-dev, qtbase5-dev-tools, qttools5-dev, qttools5-dev-tools, qtmultimedia5-dev, libpcap0.8-dev, flex, libz-dev, debhelper (\u003e= 12), po-debconf, python3, python3-ply, libc-ares-dev, xsltproc, dh-python, docbook-xsl, docbook-xml, libxml2-utils, libcap2-dev | libcap-dev, lsb-release, libparse-yapp-perl, libglib2.0-dev, libgnutls28-dev, libgcrypt-dev, libkrb5-dev, liblua5.2-dev, libsmi2-dev, libmaxminddb-dev, libsystemd-dev, libnl-genl-3-dev [linux-any], libnl-route-3-dev [linux-any], asciidoctor, cmake (\u003e= 3.5), libsbc-dev, libnghttp2-dev, libssh-gcrypt-dev, liblz4-dev, libsnappy-dev, libzstd-dev, libspandsp-dev, libxml2-dev, libbrotli-dev, libspeexdsp-dev, libminizip-dev, libbcg729-dev"
+    "qt6-5compat-dev, qt6-base-dev, qt6-base-dev-tools, qt6-multimedia-dev, qt6-tools-dev, libpcap0.8-dev, flex, libz-dev, debhelper (\u003e= 12), po-debconf, python3, python3-ply, python3-pytest \u003c!nocheck\u003e, python3-pytest-xdist \u003c!nocheck\u003e, libc-ares-dev, xsltproc, dh-python, docbook-xsl, docbook-xml, libxml2-utils, libcap2-dev | libcap-dev, lsb-release, libparse-yapp-perl, libglib2.0-dev, libgnutls28-dev, libgcrypt-dev, libkrb5-dev, liblua5.4-dev | liblua5.3-dev, libsmi2-dev, libmaxminddb-dev, libopencore-amrnb-dev, libopus-dev, libsystemd-dev, libnl-genl-3-dev [linux-any], libnl-route-3-dev [linux-any], asciidoctor, cmake (\u003e= 3.5), libsbc-dev, libnghttp2-dev, libnghttp3-dev, libssh-dev, liblz4-dev, libsnappy-dev, libzstd-dev, libspandsp-dev, libxml2-dev, libbrotli-dev, libspeexdsp-dev, libminizip-dev, libbcg729-dev, libxkbcommon-dev"
   ],
   "Checksums-Sha1": [
-    "5cf6d31e23f035eeffa225594754935b24fb1776 80432 wireshark_4.0.17-0+deb12u1.debian.tar.xz a174e14ff40ab513b7dc045f6a40355db3f49132 3384 wireshark_4.0.17-0+deb12u1.dsc 593b93ee5e32c5e84ef0f1318081b9055342a2b5 46774565 wireshark_4.0.17.orig.tar.bz2"
+    "1265e30114c0338f60f95bd5f153bf5d52628a90 87060 wireshark_4.4.7-1.debian.tar.xz 89d3b6233ba2e3570ffb33dedfde5493b8388e05 3431 wireshark_4.4.7-1.dsc d3319a248b7d74c573f59e760497a369a1afbcc4 50689999 wireshark_4.4.7.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "1cab8b6868075d749aed34761076926d67ec88c36db505a8f2d1223d43b8822f 80432 wireshark_4.0.17-0+deb12u1.debian.tar.xz 1e52ba5b453e3e900f7817f7fbfbc901289d7a8e575534ef3eb175812c7d54bf 3384 wireshark_4.0.17-0+deb12u1.dsc 62fd1491b6211d1651a16a45ead15808970b3a6a9ebde2537f96722af47aaaa5 46774565 wireshark_4.0.17.orig.tar.bz2"
+    "5cd72f85af7109682aac639e3e868f8af238e5ecefbf9cfac2567e00f7e9c685 87060 wireshark_4.4.7-1.debian.tar.xz 31185067f58e9f7aa30f0998e86b6d857ee25556fd1fcc3b04f0d15f6d17d6d0 3431 wireshark_4.4.7-1.dsc 9a80f9623464af26e871fc1a623a5540f324cdcb7db5e7a874db6cbca38f7e2c 50689999 wireshark_4.4.7.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "fd52503d352bf42d911a23ab5804f116ec828246689f3f018ec4f69b4f1937391316462173138dbac4d6621fbdc04cd18e3abb0158fd24f144331a179cfa4b78 80432 wireshark_4.0.17-0+deb12u1.debian.tar.xz 6fca61dc84ba8f57ab4740a9db5f359b254171798f66d719fff799a80aca0fa9d38980c36730895b8d58ac1d0dae0b43b9508e32e720073c7c504c77ee0103bc 3384 wireshark_4.0.17-0+deb12u1.dsc dbd3de6adfa1ccc9e3911583269de9c5315d012b24b4974a8e07facbbe5ee9103c0fffa87d52ec748a1d2b5fb44ae1b4019c0349083e686c049c6d7c98ea779b 46774565 wireshark_4.0.17.orig.tar.bz2"
+    "b0bc58e8d7dff951ef52e84d5ac1493693ee44973bbdfbc2f6e0d5ad0d382cd753bea6f86d36ba2946a5480a53cba94833475ac4ddb9bdfd708cef3bcf1c1f8c 87060 wireshark_4.4.7-1.debian.tar.xz 88c97326ee5f7ce0a143d403fa98583e0e1057edd30906c014696b3e220bd2c53b835aa34c29acddf78f7df925c08269242d900365ef1cf4ba46ee5ff9ea7c25 3431 wireshark_4.4.7-1.dsc 94f403a52a69fc3a75c44ce1b92771c4fb174bf86b59a814b3e9cc835f09c4e4a41b7f5edeaea72521c12558b9e42b004501622125a05f0272e19e53a23bbab6 50689999 wireshark_4.4.7.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/w/wireshark"
   ],
   "Files": [
-    "fb4b2f62f5cee5f694aedcf33f1bfa2b 80432 wireshark_4.0.17-0+deb12u1.debian.tar.xz 46b23600cefbbdb340d924e0fccfbbf5 3384 wireshark_4.0.17-0+deb12u1.dsc 067d2c6fbf7a2b660b798e6a12079319 46774565 wireshark_4.0.17.orig.tar.bz2"
+    "cf1c5e0d6ded4222c482ab4b1523e892 87060 wireshark_4.4.7-1.debian.tar.xz 58720d09e05e3f6414357b6e973a6e93 3431 wireshark_4.4.7-1.dsc d28c009081d1e96880088a133871b7b5 50689999 wireshark_4.4.7.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "wireshark"
   ],
   "Package-List": [
-    "libwireshark-data deb libs optional arch=all libwireshark-dev deb libdevel optional arch=any libwireshark16 deb libs optional arch=any libwiretap-dev deb libdevel optional arch=any libwiretap13 deb libs optional arch=any libwsutil-dev deb libdevel optional arch=any libwsutil14 deb libs optional arch=any tshark deb net optional arch=any wireshark deb net optional arch=any wireshark-common deb net optional arch=any wireshark-dev deb devel optional arch=any wireshark-doc deb doc optional arch=all wireshark-qt deb net optional arch=any"
+    "libwireshark-data deb libs optional arch=all libwireshark-dev deb libdevel optional arch=any libwireshark18 deb libs optional arch=any libwiretap-dev deb libdevel optional arch=any libwiretap15 deb libs optional arch=any libwsutil-dev deb libdevel optional arch=any libwsutil16 deb libs optional arch=any tshark deb net optional arch=any wireshark deb net optional arch=any wireshark-common deb net optional arch=any wireshark-dev deb devel optional arch=any wireshark-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
     "4.6.0.1"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/wireshark.git -b debian/master"
   ],
   "Version": [
-    "4.0.17-0+deb12u1"
+    "4.4.7-1"
   ]
 }

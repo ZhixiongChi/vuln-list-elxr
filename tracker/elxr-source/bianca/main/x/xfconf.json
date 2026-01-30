@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libxfconf-0-dev, libxfconf-0-3, xfconf, gir1.2-xfconf-0"
+    "libxfconf-0-dev, libxfconf-0-3, xfconf, xfconf-gsettings-backend, gir1.2-xfconf-0"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gobject-introspection, gtk-doc-tools, intltool, libgirepository1.0-dev, libxfce4util-dev (\u003e= 4.17.3), xfce4-dev-tools (\u003e= 4.16)"
+    "debhelper-compat (= 13), gettext, gir1.2-gobject-2.0-dev, gir1.2-gio-2.0-dev, gobject-introspection, gtk-doc-tools, libgirepository1.0-dev, libxfce4util-dev (\u003e= 4.17.3), xfce4-dev-tools (\u003e= 4.19)"
   ],
   "Checksums-Sha1": [
-    "6f84f950c00a255c0770e5bf02645cc60f5f0185 6872 xfconf_4.18.0-2.debian.tar.xz 725f43276fb28ada0f5aab623542f8351d55b5c4 2227 xfconf_4.18.0-2.dsc 10fb7eb1dab1a55cb32ad5fd02ecfc6e594d09b9 625755 xfconf_4.18.0.orig.tar.bz2"
+    "61a5139be19253cf36c34fa0c9a91a89fc0e0b2d 7576 xfconf_4.20.0-1.debian.tar.xz fb77bffa17b6c4557a15a982803492ebfe2cdcd4 2004 xfconf_4.20.0-1.dsc b934f85354f003a8ce23cb28ce15eee6e5b76626 763205 xfconf_4.20.0.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "7d203bdb103622ae0a9f0905bef16783bdef7d0477ff9a87bd490dd8dbe2e81c 6872 xfconf_4.18.0-2.debian.tar.xz 80045e4fd1f29b5f072abaaae428d404d12dbac3395e9b9e89908ed521e49ecd 2227 xfconf_4.18.0-2.dsc 2e8c50160bf800a807aea094fc9dad81f9f361f42db56607508ed5b4855d2906 625755 xfconf_4.18.0.orig.tar.bz2"
+    "a7984c7b08df3bf8c662c0e8857dc853800a292cdcbad729b263b67fa6c32cbb 7576 xfconf_4.20.0-1.debian.tar.xz a6efb751816c53e5976279f3afd3b3826400ac932157ae69e226acdcbd8b81f0 2004 xfconf_4.20.0-1.dsc 8bc43c60f1716b13cf35fc899e2a36ea9c6cdc3478a8f051220eef0f53567efd 763205 xfconf_4.20.0.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "8dd6a4bb9becb754a362590a62e55383e269c4ef438c97d02c54260d26c8a7d7f7461fc5ef3ef6ef12fad536ba5da05fb44600e00fc84b66c4cf4a3412afc620 6872 xfconf_4.18.0-2.debian.tar.xz 824e517b06edda85935fc36559eeb37c8bc896b9ae5b91b49e221aa9a769e5087b2204b25b2f3de6c03921ec223bd4cb8e4094bb56dcc90a9b947aae2919a6f3 2227 xfconf_4.18.0-2.dsc 49ac3070e44e0c699c157e6c029bf14d932bc1e60b01bc3b4f7451acf403d451ac52e2dfb14fc97298cc774c7a0895616788cdbfc189976805669fcdb7aa47b6 625755 xfconf_4.18.0.orig.tar.bz2"
+    "08b0ab75f3f5c61bc53d7b1369f8db62e89bef37e49c8a590f633be051b48b56923eb955751df252d2bb724b1e0519cf0ead31a8116163d11b9c046c2b38fd46 7576 xfconf_4.20.0-1.debian.tar.xz 16df13a9dc6e5c1d3c87dafb7c91aebc21969e15e0284fcfa39de0afd46e01d91240f3a875f83b05c63d4cc6f7b1cf39eb98a6d819e442445117aa9f721285a5 2004 xfconf_4.20.0-1.dsc 87ae4e9366cccb6c2f13229539e8317d26bfb3fc5333e769ec2de1b596e04348595bb2e85ca90fb63c6c64968e5108e59490700028aeb077b32b9cd03062d9e9 763205 xfconf_4.20.0.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/x/xfconf"
   ],
   "Files": [
-    "a18c04cdd4e76c0bb7bf3a4615c8c341 6872 xfconf_4.18.0-2.debian.tar.xz 86ed4fbe476178a34aae6c32f431834f 2227 xfconf_4.18.0-2.dsc efb7381405bc634306ed0d0cdf5aaffc 625755 xfconf_4.18.0.orig.tar.bz2"
+    "3c1fd356a884f8ed93802f6d5d3b4d10 7576 xfconf_4.20.0-1.debian.tar.xz 738957a3ad8ad2370e2fb85739dbbf1c 2004 xfconf_4.20.0-1.dsc ca596ff0a9be7fa655bb09cb05458644 763205 xfconf_4.20.0.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "xfconf"
   ],
   "Package-List": [
-    "gir1.2-xfconf-0 deb introspection optional arch=any libxfconf-0-3 deb libs optional arch=any libxfconf-0-dev deb libdevel optional arch=any xfconf deb xfce optional arch=any"
+    "gir1.2-xfconf-0 deb introspection optional arch=any libxfconf-0-3 deb libs optional arch=any libxfconf-0-dev deb libdevel optional arch=any xfconf deb xfce optional arch=any xfconf-gsettings-backend deb xfce optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Uploaders": [
     "Yves-Alexis Perez \u003ccorsac@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/xfce-team/desktop/xfconf.git"
   ],
   "Version": [
-    "4.18.0-2"
+    "4.20.0-1"
   ]
 }

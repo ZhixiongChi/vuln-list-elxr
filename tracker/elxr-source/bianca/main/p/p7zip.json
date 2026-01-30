@@ -1,33 +1,33 @@
 {
   "Architecture": [
-    "any"
+    "all"
   ],
   "Binary": [
     "p7zip, p7zip-full"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), yasm [amd64], yasm [i386]"
+    "debhelper-compat (= 13)"
   ],
   "Checksums-Sha1": [
-    "191647ecffe02b6b32cbc627397add49797b06cd 22004 p7zip_16.02+dfsg-8.debian.tar.xz f6dfca489df1998860eb52e3f9cf30b28f3fd694 1905 p7zip_16.02+dfsg-8.dsc 0894bd217b25e90edd42bc47ea0edf8c6a324005 3611764 p7zip_16.02+dfsg.orig.tar.xz"
+    "cd9e0517898256a2f8a9fd84b49139e526e921ce 1627 p7zip_16.02+transitional.1.dsc 7fc1b5f5ca3c4690612806717914742768d48aa0 8124 p7zip_16.02+transitional.1.tar.xz"
   ],
   "Checksums-Sha256": [
-    "01217dca1667af0de48935a51dc46aad442e6ebcac799d714101b7edf9651eb5 22004 p7zip_16.02+dfsg-8.debian.tar.xz b65fe78ab1ed27c26dc5fb0e51ba3df655a9059eb2a7fbd272946af9c4ef7914 1905 p7zip_16.02+dfsg-8.dsc 50adee7a4259e3492d8b68dfd12bda0ed27e615193a16f10af296f23dc831b14 3611764 p7zip_16.02+dfsg.orig.tar.xz"
+    "e376b992e6002964b3095f6aaea0f8229a9dd9ea5b781c242eeefc973c6ad651 1627 p7zip_16.02+transitional.1.dsc 0726782c4129989c2dbebcbe9220d33e3875983f0f3e707c4ceaa56ce90d7c27 8124 p7zip_16.02+transitional.1.tar.xz"
   ],
   "Checksums-Sha512": [
-    "8f8a3c1ea81803f1231b7365776c12a8804736cab31ca9dbef317ae889f4c485b177b2b209c3d3012f407e49755bbffc58a8ec63f8ce2f87bac9a4a40d9a72b8 22004 p7zip_16.02+dfsg-8.debian.tar.xz 7bc6b04a08fcf832f4594688eeb3bacf8870bbc126fe02ebfbb6ed2933ecbe82c46c39cf4623bfd6e22a1480e80988ffba54122195ec9a6ba5c468fa8f7fa159 1905 p7zip_16.02+dfsg-8.dsc 1aa891744c4a3004013ddf5e50fcbf5fb204a4b21f423957f29390124530b0c8fa7dfa433fd8e076981e4237ea113085081f2b214cda23c487e4ab250378c2de 3611764 p7zip_16.02+dfsg.orig.tar.xz"
+    "5b025b0832ea1c058a674e48b1cc4d6e108ddcd66589c3b3b25d68e7b9bbffce3fbd3623b4c066fc6e76397d26431ba4fe423327d49fc409d63f202b91e7c816 1627 p7zip_16.02+transitional.1.dsc acb407490dbdf9e9fb57258003e1eb806840309a750904ea15c98920570b747733b9395a8916e9dbaded192606214a883947de7cf7e0d185e9083305cd4b6ca5 8124 p7zip_16.02+transitional.1.tar.xz"
   ],
   "Directory": [
     "pool/main/p/p7zip"
   ],
   "Files": [
-    "9c0526b54234f116604ee8e1dc24f150 22004 p7zip_16.02+dfsg-8.debian.tar.xz 4fb4c694f9c043a6e6c5c767f869d738 1905 p7zip_16.02+dfsg-8.dsc 95a6a79c62a84fee541f99f763b81c31 3611764 p7zip_16.02+dfsg.orig.tar.xz"
+    "a6eba45dbe18ad78c01635cfae2f9d99 1627 p7zip_16.02+transitional.1.dsc 77ae22b5cb7ecd1f424235ea0fb21513 8124 p7zip_16.02+transitional.1.tar.xz"
   ],
   "Format": [
-    "3.0 (quilt)"
+    "3.0 (native)"
   ],
   "Homepage": [
-    "http://p7zip.sourceforge.net/"
+    "https://7-zip.org/"
   ],
   "Maintainer": [
     "Robert Luberda \u003crobert@debian.org\u003e"
@@ -36,10 +36,10 @@
     "p7zip"
   ],
   "Package-List": [
-    "p7zip deb utils optional arch=any p7zip-full deb utils optional arch=any"
+    "p7zip deb oldlibs optional arch=all p7zip-full deb oldlibs optional arch=all"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.6.2"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/p7zip"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/p7zip.git"
   ],
   "Version": [
-    "16.02+dfsg-8"
+    "16.02+transitional.1"
   ]
 }

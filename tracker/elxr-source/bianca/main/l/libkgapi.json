@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libkpimgapi-data, libkpimgapi-dev, libkpimgapiblogger5abi1, libkpimgapicalendar5, libkpimgapicontacts5, libkpimgapicore5abi1, libkpimgapidrive5, libkpimgapilatitude5, libkpimgapimaps5, libkpimgapitasks5, libsasl2-modules-kdexoauth2"
+    "libkgapi-data, libkgapi-dev, libkpim6gapiblogger6, libkpim6gapicalendar6, libkpim6gapicore6, libkpim6gapidrive6, libkpim6gapilatitude6, libkpim6gapimaps6, libkpim6gapipeople6, libkpim6gapitasks6, libsasl2-modules-kdexoauth2"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.99.0~), libkf5calendarcore-dev (\u003e= 5:5.99.0~), libkf5contacts-dev (\u003e= 5:5.99.0~), libkf5wallet-dev (\u003e= 5.99.0~), libsasl2-dev, libxml2-utils, pkg-kde-tools (\u003e= 0.5.0), qtbase5-dev (\u003e= 5.15.2~), qttools5-dev, qttools5-dev-tools, xauth, xvfb"
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.6.0~), libkf6calendarcore-dev (\u003e= 6.6.0~), libkf6contacts-dev (\u003e= 6.6.0~), libkf6wallet-dev (\u003e= 6.6.0~), libsasl2-dev, libxkbcommon-dev, qt6-base-dev (\u003e= 6.7.0~), xauth, xvfb"
   ],
   "Checksums-Sha1": [
-    "b324ccab13aaf1e14deade54bfbd2ab3d12c50de 17572 libkgapi_22.12.3-1.debian.tar.xz d03f6bba4888beeb57e3ee5d29e45b2613a038a7 3226 libkgapi_22.12.3-1.dsc ca0c59e58d64be4f5713f7b9ee96e92867e34f00 245596 libkgapi_22.12.3.orig.tar.xz 1219fbc647f6184aad6fb9d5821897e002239ce1 833 libkgapi_22.12.3.orig.tar.xz.asc"
+    "8156764340142a643bc49e7e5643800ec6b2e43c 18288 libkgapi_24.12.3-1.debian.tar.xz a0ba67af6dc60f1ccc112b41856e4eaac1aa97c3 3294 libkgapi_24.12.3-1.dsc 69795e7ce4172a1fe62c97b1495c6814ff30fea2 339480 libkgapi_24.12.3.orig.tar.xz f12ffa48df310e1e5e329da3ba0ec03cd74630c2 833 libkgapi_24.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "612ba233032b21427bc2089655191bd2ff422970dfe30699a0934fef301d9d32 17572 libkgapi_22.12.3-1.debian.tar.xz 9f918d404dd471003e6b506a9e69048327a0c7dcfd7590af2bc5f7549547335b 3226 libkgapi_22.12.3-1.dsc 97cc31fba4bed9b49d8edccc27c3413f7759414a54e2025d06a6af5a19845738 245596 libkgapi_22.12.3.orig.tar.xz 535ea2b1fc1fd0286acbe197eaf2b27652aee35835a9ca434a2c24bd341cb547 833 libkgapi_22.12.3.orig.tar.xz.asc"
+    "682175a4f57f4aaeb5571e1c73662a9c776f4740b24c2a977c233167e150894b 18288 libkgapi_24.12.3-1.debian.tar.xz 9297e5d1a78c66e11f20e719d79a53d93d5873e1487db8deff93d637eb90d8c5 3294 libkgapi_24.12.3-1.dsc 71f2c0ed7131c4c74d988285b89591e138881448d3b867466680f4b4b742e177 339480 libkgapi_24.12.3.orig.tar.xz 9baa16dfd15ddeaffa344511e2a6733039cea41836f4a36436f1a5848fcdd547 833 libkgapi_24.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "56fdf40c10fe0e6b066185338aba80fdfbc5ea815381aff74c183563b0af0b50ce0ce3099054b6b213eed2dcc50096c6464646198adf0bc7bf88dd71dff7e26b 17572 libkgapi_22.12.3-1.debian.tar.xz 197848bfebe4232d31d65345c6faadd62e72dce7e0a6a47d986362441cfda92b3f2a2fdfb5d42e5bf544d522510c9910f2123384041f974b23672a77b81f8763 3226 libkgapi_22.12.3-1.dsc 551c5209bb22ea5340cb3b6c28841b1a9c6a5ca42ffbc95961c89139ad8f24152869d841360bd7d9bd56dd043a74fc4ea61bc6a3beeac49f20c7dfe464a84bf0 245596 libkgapi_22.12.3.orig.tar.xz 63f01667578fb1ece8f808100553069aa8b1593cb2254f30d93096006ed5f65057d0e84c0825048f3449cf9b16efdeaa1f63b0f167d1edc69bd62316292833c2 833 libkgapi_22.12.3.orig.tar.xz.asc"
+    "f462c01e81bb8e52351ff8d9f4dfe13c938e2ed282a64e921a7e6737fe3345e92e2615b5dc1153a7b191f06f3e62bb48a0e213bf86c74c1d8ff1a869d2491c7a 18288 libkgapi_24.12.3-1.debian.tar.xz 915a7efa6ef49c3ead877df18ce0c52d3b47d673beefaa6aa2c331037dccc4c29b625544ae0951696e45c0420883decc0b8f487243d530c5ef10ed19b280822c 3294 libkgapi_24.12.3-1.dsc 6806c6bd1653b614096ce5d04483a254ce0f85d8ceabf66c43dae4ca59f4b793b7f86e2fd94fdd1b7eed17fcb96e796a272d174feb613c141e4bc1cbd98d0ee9 339480 libkgapi_24.12.3.orig.tar.xz fe0b0619d7598fe40b04ab6b352a2562694af46bb1efe23abe63d9bc6e1d645def4f6c3d8751416cb9e32794832a83ab118181e40191e872ff2d61c813504c5f 833 libkgapi_24.12.3.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/libk/libkgapi"
   ],
   "Files": [
-    "1f309f2ce8997ddccf75a2cd6dd2675a 17572 libkgapi_22.12.3-1.debian.tar.xz 3d2cd853359dfd57419ecf92662e9596 3226 libkgapi_22.12.3-1.dsc c60743540d22ffa29200c4d33dc8e516 245596 libkgapi_22.12.3.orig.tar.xz c8fcd5636ffee83924bf01fc5b4a2c6d 833 libkgapi_22.12.3.orig.tar.xz.asc"
+    "47346a51f62b145597a3ada46e83a633 18288 libkgapi_24.12.3-1.debian.tar.xz cf9fa75809518b9232cadf6e6042d5d0 3294 libkgapi_24.12.3-1.dsc 65b6afad2d9c1b0d8035467a80002d10 339480 libkgapi_24.12.3.orig.tar.xz 48d4d84555b68449cdcfd4af49e09fb0 833 libkgapi_24.12.3.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "libkgapi"
   ],
   "Package-List": [
-    "libkpimgapi-data deb libs optional arch=all libkpimgapi-dev deb libdevel optional arch=any libkpimgapiblogger5abi1 deb libs optional arch=any libkpimgapicalendar5 deb libs optional arch=any libkpimgapicontacts5 deb libs optional arch=any libkpimgapicore5abi1 deb libs optional arch=any libkpimgapidrive5 deb libs optional arch=any libkpimgapilatitude5 deb libs optional arch=any libkpimgapimaps5 deb libs optional arch=any libkpimgapitasks5 deb libs optional arch=any libsasl2-modules-kdexoauth2 deb libs optional arch=any"
+    "libkgapi-data deb libs optional arch=all libkgapi-dev deb libdevel optional arch=any libkpim6gapiblogger6 deb libs optional arch=any libkpim6gapicalendar6 deb libs optional arch=any libkpim6gapicore6 deb libs optional arch=any libkpim6gapidrive6 deb libs optional arch=any libkpim6gapilatitude6 deb libs optional arch=any libkpim6gapimaps6 deb libs optional arch=any libkpim6gapipeople6 deb libs optional arch=any libkpim6gapitasks6 deb libs optional arch=any libsasl2-modules-kdexoauth2 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
     "Sandro Knauß \u003chefee@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/libkgapi.git"
   ],
   "Version": [
-    "22.12.3-1"
+    "24.12.3-1"
   ]
 }

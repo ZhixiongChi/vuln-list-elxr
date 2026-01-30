@@ -6,22 +6,22 @@
     "xfce4-settings, xfce4-helpers"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), intltool, libcolord-dev, libexo-2-dev, libgarcon-1-0-dev, libgtk-3-dev, libnotify-dev, libupower-glib-dev, libxcursor-dev, libxfce4ui-2-dev (\u003e= 4.17.0), libxfce4util-dev (\u003e= 4.17.2), libxfconf-0-dev, libxklavier-dev, libxrandr-dev, xfce4-dev-tools, xserver-xorg-input-libinput-dev"
+    "debhelper-compat (= 13), gettext, libcolord-dev, libexo-2-dev, libgarcon-1-dev, libgtk-3-dev, libgtk-layer-shell-dev, libnotify-dev, libwayland-dev, libxcursor-dev, libxfce4ui-2-dev (\u003e= 4.19.5), libxfce4util-dev (\u003e= 4.17.2), libxfconf-0-dev (\u003e= 4.19.3), libxklavier-dev, libxml2-utils, libxrandr-dev, xfce4-dev-tools, xserver-xorg-input-libinput-dev"
   ],
   "Checksums-Sha1": [
-    "dd89e733cb95ac6f28581a3c9ad0b6ac025c5d9b 9272 xfce4-settings_4.18.2-1.debian.tar.xz d60854bc73d6422f5658e1f595f6185dbe50f09f 2344 xfce4-settings_4.18.2-1.dsc be09cc049e3bf396c540d8f398545113f2241b28 1544572 xfce4-settings_4.18.2.orig.tar.bz2"
+    "62baf9d74a568754cfa4c998fc216b1f7cfba7e5 9604 xfce4-settings_4.20.1-1.debian.tar.xz 266ec3f5f231307089d757b242acf547bd430b5f 2043 xfce4-settings_4.20.1-1.dsc 43c248ee69635b331be3bf5215e98fbbe2c72039 2507814 xfce4-settings_4.20.1.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "3a86f92904d611c3edc5ddb597f68442500cb8564b2706452cd9eb877595200c 9272 xfce4-settings_4.18.2-1.debian.tar.xz 586b34d08aed58ed217a23f180848a93f262fc6029a72ef1f93acb4bd4d5f9aa 2344 xfce4-settings_4.18.2-1.dsc 4661361087faae57efb49741ffcf90bf9078760e163bbdef63b924083bdc4f22 1544572 xfce4-settings_4.18.2.orig.tar.bz2"
+    "e04172542edd52843a0a8f5ad8958197750b18c1c8703a3fdd265b2cb43de28b 9604 xfce4-settings_4.20.1-1.debian.tar.xz 3e11a07580f1566e6ac2fb463311373f27e316a78b328d6608811c2435fe2938 2043 xfce4-settings_4.20.1-1.dsc fd0d602853ea75d94024e5baae2d2bf5ca8f8aa4dad7bfd5d08f9ff8afee77b2 2507814 xfce4-settings_4.20.1.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "c0347fe35c287f7739cfc34948487cfc65c52a7ea1f201e55523c57001039989c3cd836084da9958a67e4e21effd9d426885449cda1a35c92a0be1a5bdae32d2 9272 xfce4-settings_4.18.2-1.debian.tar.xz bbb56c93e5c1b902fc559196e6bc2adc4d17707916afb69ffeed6aac9a699db92687a22a688283e5a1676de37452f0617abea285ec020ae7d9a524d01c202e71 2344 xfce4-settings_4.18.2-1.dsc 3371db3952f1863763b613952585873a0b8e1bd8507a64c056a918f3d16c3313e1266cb65dc341d3ce89ab281ee5a5d2cd183b6bb4078609b843524a125769b4 1544572 xfce4-settings_4.18.2.orig.tar.bz2"
+    "99b2664bd2fac2419e3589417879ddd6ea0d1d7eb3644cd35b6eaae3279a5183aa133e9610312f3bf709486125a0172a30f22f810bc4dcc4bc94162e6c3ee76d 9604 xfce4-settings_4.20.1-1.debian.tar.xz acd74714d97f23f7ca95bbee112136565e3d73437205238c1825c395b3fee8cd0e312bd739f96812a141fbefe4b161f10bcdd453620cf61cbbff137258998b1d 2043 xfce4-settings_4.20.1-1.dsc d29307ab93f4db961154541bddc9cfa80886c7ab7bcd42941995c1b9ff24fd8816e65bd690e35c247e25913c352d653386743663443def0b825d415f40b50ef9 2507814 xfce4-settings_4.20.1.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/x/xfce4-settings"
   ],
   "Files": [
-    "c2f02c8bddf2b67ac1d3996dd377383c 9272 xfce4-settings_4.18.2-1.debian.tar.xz 837e4f21d4a6619c066547e5a0167581 2344 xfce4-settings_4.18.2-1.dsc be88cc55725fa6b935f2f06a19e92535 1544572 xfce4-settings_4.18.2.orig.tar.bz2"
+    "8404e6de5d65d1cdec5f7f14e64647f2 9604 xfce4-settings_4.20.1-1.debian.tar.xz 0ba20011354e611a97330026f6439d41 2043 xfce4-settings_4.20.1-1.dsc f6a275e5e7c30dcceb4daa480375f8d0 2507814 xfce4-settings_4.20.1.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "xfce4-helpers deb xfce optional arch=any xfce4-settings deb xfce optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Uploaders": [
     "Yves-Alexis Perez \u003ccorsac@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/xfce-team/desktop/xfce4-settings.git"
   ],
   "Version": [
-    "4.18.2-1"
+    "4.20.1-1"
   ]
 }

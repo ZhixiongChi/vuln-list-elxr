@@ -6,25 +6,28 @@
     "librust-itoa-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11), dh-cargo (\u003e= 18), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.36) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "c81a1780efc48c285cefecb3d4decd179307caf5 3176 rust-itoa_1.0.1-2.debian.tar.xz de0b237cd10783658316497d1fdc2feb3f886987 2097 rust-itoa_1.0.1-2.dsc 9ee268fa8b9c9f513111aae697ff20f492117ba5 11059 rust-itoa_1.0.1.orig.tar.gz"
+    "cfa37e722cdbc26fdea2bc92d06d2c1b6f0592e9 3464 rust-itoa_1.0.14-1.debian.tar.xz c75d7fd29c3c5a12cf5c3825eebb654cf272edb5 2179 rust-itoa_1.0.14-1.dsc 6f28624e230d6e59ad57485bd9dabe0e87799c63 11210 rust-itoa_1.0.14.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "cc049ecbaea922a27d128bb950029c38907df75388f6ca0362e429c9362fe3f0 3176 rust-itoa_1.0.1-2.debian.tar.xz 6fcb2af5dffec7b7f1f61d59c1e15d999cb55aaeab12c83c84762be9018467df 2097 rust-itoa_1.0.1-2.dsc 1aab8fc367588b89dcee83ab0fd66b72b50b72fa1904d7095045ace2b0c81c35 11059 rust-itoa_1.0.1.orig.tar.gz"
+    "87fffd98e437760a9ea1fece191bef1097d70dc3728045020edb492aca0d37ea 3464 rust-itoa_1.0.14-1.debian.tar.xz 5acc1ae13bec1a4f801eefc03ddc973e3fcab82e5b62b304fe0acf8a4ba7ff40 2179 rust-itoa_1.0.14-1.dsc d75a2a4b1b190afb6f5425f10f6a8f959d2ea0b9c2b1d79553551850539e4674 11210 rust-itoa_1.0.14.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "41f7e37e3e969312de9f358ae1889f3b575bbb7e67541bb88415ab036ed2b077cb524890d10b85200a6881058bbc1314e2b49ec0efe3677682a2e7c62f162bc8 3176 rust-itoa_1.0.1-2.debian.tar.xz 8a6777ca71e367b3acdb82f87dd12208187b37595d1a51319543fd38773216da8e1ca1cfcd48599ad3790699be00f4f96e49a7617fd82ddfdfcd2c01b7256538 2097 rust-itoa_1.0.1-2.dsc 8e7bc1e9bf4fc06871b9fe20caad4e0af965477d724f4c8d0e2a3a4d87aedf99f92e4e583a6440ce574d0fb43fc9d6a2e80add52a2f64210c6aa3b402e424295 11059 rust-itoa_1.0.1.orig.tar.gz"
+    "49f2924839b5c3a5fae89a8d062b3587369f128a74119dbc93eb35258b09dd1a44e327176a5b3a1fc442a736d28a549ff30fe46af3984007c1d2892d651528c1 3464 rust-itoa_1.0.14-1.debian.tar.xz bf4ad4b66ffe3115b2a395884ca867c587d2d978f7127111922b931876902a130c0b73d301e4db91f08294fbb0ee401f2b647702bacaafd58e0789313ba0cc77 2179 rust-itoa_1.0.14-1.dsc ea2d38df373652ddacccd11e610dfdad4e3ae7f0d476514e6ac58092733c817bd834e8cd88c3bc4178dd5a646ba628ae626195e0aa407e8534ae3c2a7b049987 11210 rust-itoa_1.0.14.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-itoa"
   ],
   "Files": [
-    "94bc9636ac9c4e03fbf9d902978a775e 3176 rust-itoa_1.0.1-2.debian.tar.xz b5ef52fc9b51f08975641607dee84ee6 2097 rust-itoa_1.0.1-2.dsc 5c98b89b530b563b6e5f6e1b631c4b35 11059 rust-itoa_1.0.1.orig.tar.gz"
+    "16548831c4e893e79cfe5008ca2a9e1c 3464 rust-itoa_1.0.14-1.debian.tar.xz 97a97e693c43bdef5c99d49a5050c8d0 2179 rust-itoa_1.0.14-1.dsc c125f6c48f6f09ad96e234ff25a1c198 11210 rust-itoa_1.0.14.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dtolnay/itoa"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,16 +39,16 @@
     "librust-itoa-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.4.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo"
+    "dh-cargo, rustc"
   ],
   "Uploaders": [
-    "Ximin Luo \u003cinfinity0@debian.org\u003e"
+    "Ximin Luo \u003cinfinity0@debian.org\u003e, kpcyrd \u003cgit@rxv.cc\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/itoa"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/itoa]"
   ],
   "Version": [
-    "1.0.1-2"
+    "1.0.14-1"
   ]
 }

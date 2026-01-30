@@ -6,22 +6,22 @@
     "xwayland"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), meson, pkg-config, quilt, libdrm-dev (\u003e= 2.4.89), libepoxy-dev, libgcrypt-dev, libgbm-dev, libnvidia-egl-wayland-dev, libpixman-1-dev, libxcvt-dev, libxfont-dev, libxkbfile-dev, libxshmfence-dev, libxv-dev, libwayland-dev, mesa-common-dev, x11proto-dev, xfonts-utils, xtrans-dev, wayland-protocols"
+    "debhelper-compat (= 13), meson, pkgconf, quilt, libdecor-0-dev, libdrm-dev (\u003e= 2.4.116), libepoxy-dev, libgcrypt-dev, libgbm-dev, libnvidia-egl-wayland-dev, libpixman-1-dev, libtirpc-dev, libxcvt-dev, libxfont-dev, libxkbfile-dev, libxshmfence-dev, libxv-dev, libwayland-dev, libwayland-dev:native, mesa-common-dev, x11proto-dev (\u003e= 2023.2), xfonts-utils, xtrans-dev, wayland-protocols"
   ],
   "Checksums-Sha1": [
-    "05302079787ed8635fc819a238945f4c57d2016c 36916 xwayland_22.1.9-1elxr2.debian.tar.xz a2829b83d5896a2957ef77682ce5755f8211a9e4 1352 xwayland_22.1.9-1elxr2.dsc 19ccc8ae5920620db725a08ee65d8b64c521d766 1274288 xwayland_22.1.9.orig.tar.xz"
+    "b98edc196a9e053e6797e1b837c33cd06b606458 34952 xwayland_24.1.6-1.debian.tar.xz b50ad66e2119298104e4caa0f368159871c61b57 2278 xwayland_24.1.6-1.dsc 8425074a39f44831dae96a9db41ad31f824c2eca 1302600 xwayland_24.1.6.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "3e1b84c385a2697645c3043f51a72eb62e9c673cdda489777dd832d7c35697dd 36916 xwayland_22.1.9-1elxr2.debian.tar.xz 96f1befd7f4e586bccc39980bb6d900f004cb01c532668c724684a70972780ea 1352 xwayland_22.1.9-1elxr2.dsc 81310efe1f29694bdf6f586e54f9321358c42c7df696108fb1da12ce212d3f78 1274288 xwayland_22.1.9.orig.tar.xz"
+    "fcfc0c634b7aaaa059c2e9337da2330c6b5c20b084009494d144c34bac9715ef 34952 xwayland_24.1.6-1.debian.tar.xz 25f96591e3c3fe674ab830ef0557141658fb14cf91f56defb33ac3420435e368 2278 xwayland_24.1.6-1.dsc 737e612ca36bbdf415a911644eb7592cf9389846847b47fa46dc705bd754d2d7 1302600 xwayland_24.1.6.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "a47febcb89e6adf008384143e2595909e973f913c0fb8117be652c32c1278d630fe6a9cad8e0c68602536b38d8e248807a0a1fc1ec2977d253ab51e937d89e1c 36916 xwayland_22.1.9-1elxr2.debian.tar.xz c34ec46ace8045e8b1a3936ec1582d4d0117fabe7db716bc5bb8d6b23d2cb20a98c6d44965e29314fc8bd3b3f32624d124ebda26929747b9d13ed504ecfed4ff 1352 xwayland_22.1.9-1elxr2.dsc 4b30c1cfdb18d9a0f55aa8a8324f625ec5bbd67c1e9041956a2e65c1d063b509cd921ecb8d299f9b6f0daaa01b75ae42f1d47f7fecb944a352cc60954c1ad334 1274288 xwayland_22.1.9.orig.tar.xz"
+    "afae0abf0ca886967a1366af3662d74fd0cbf11d7f1d6b7f53e39cc46eb5467e35effcb00025bbc261169462fe537758f7a95932dffb9ad9c60ad46119b7bd4b 34952 xwayland_24.1.6-1.debian.tar.xz f0ea2b666ff4e07ced505a27c68143d4bbb4dd2da8bbcb4edbfd717bff40e7ac6c6b00c8ed5ca0fafcb1c351c5ed11b327d034974a8654ef92aa0982c2ca373d 2278 xwayland_24.1.6-1.dsc b6dcc87f5c4d880cb23216518171a704c2a501803ac2efd9d01760895d755a617cd82313c6516f27a888b0581c64d74e3f8db5c238e1ae0d13da6cc1a547c02f 1302600 xwayland_24.1.6.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/x/xwayland"
   ],
   "Files": [
-    "d6bb1479f0870d2413d7ec4292412e8c 36916 xwayland_22.1.9-1elxr2.debian.tar.xz fc8fc7145f7a88a300f0c6c8dc4729f7 1352 xwayland_22.1.9-1elxr2.dsc 18b71b7560f805a3521c6ee0635ee4ce 1274288 xwayland_22.1.9.orig.tar.xz"
+    "4f98a58befad72ddbaba428972feca2b 34952 xwayland_24.1.6-1.debian.tar.xz d2be53f92046e2123f816573e3325e80 2278 xwayland_24.1.6-1.dsc 78067c218323fe2a496ca5f2145fe7ab 1302600 xwayland_24.1.6.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/xorg-team/wayland/xwayland.git"
   ],
   "Version": [
-    "2:22.1.9-1elxr2"
+    "2:24.1.6-1"
   ]
 }

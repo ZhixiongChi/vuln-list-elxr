@@ -9,19 +9,19 @@
     "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.26-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "a32246d73d80b9b8754e112bc2c60be7bc430e3b 3040 rust-num-cpus_1.14.0-1.debian.tar.xz c6c17ec9e5db1caa030b603680d926df4c451c83 2247 rust-num-cpus_1.14.0-1.dsc a4ce1a261973693d87af3ac31043d9c4bbb056c8 15673 rust-num-cpus_1.14.0.orig.tar.gz"
+    "6897574e5fe15f59a9ec94e614c82bf706230296 3104 rust-num-cpus_1.16.0-1.debian.tar.xz 7bf5a6e035a2c389882fc85d9487221a741ade04 2218 rust-num-cpus_1.16.0-1.dsc dac55b3c5d0b717aed5b3f237f80717f9191b089 15713 rust-num-cpus_1.16.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "8880acbf84b921a0cd115dce60d8d302d6c76a96264c26745937df1ed17c2748 3040 rust-num-cpus_1.14.0-1.debian.tar.xz 19cc87e8e59628604456ac829721f7f325ce3e96f10988a591c0dab0b18b20d8 2247 rust-num-cpus_1.14.0-1.dsc f6058e64324c71e02bc2b150e4f3bc8286db6c83092132ffa3f6b1eab0f9def5 15673 rust-num-cpus_1.14.0.orig.tar.gz"
+    "610b0dcdc7d31d8c331408fd0e8d6821200b1c51b4f9a0520786bcde1d7e57c2 3104 rust-num-cpus_1.16.0-1.debian.tar.xz 3a3a5fe6fea045a8412cf736ff91655fdb905aedd0bbe4c400f1c424d9422c02 2218 rust-num-cpus_1.16.0-1.dsc 4161fcb6d602d4d2081af7c3a45852d875a03dd337a6bfdd6e06407b61342a43 15713 rust-num-cpus_1.16.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "6a713a462fac0e607658f5036bf09a3d3f899f05eb0c1f9bed3f7986d2504cf46651abc9756aa6bbc0648154c7be94d4b24219764c65d476d5c9a51b1f0be970 3040 rust-num-cpus_1.14.0-1.debian.tar.xz 8f032cf43213514b923bad91cd8867e99ee5882e7cd837ec6e84826e360358d53df497f362a2d4b6a58780121baf0706bf3b7fe0828e616573d8cf274bcdbede 2247 rust-num-cpus_1.14.0-1.dsc c3b19f7cad14947c9860ed81617e2f7492f69248c8436ce83429cae9fe09d7be04c813233b54ca216e7dc2e03b76f46c5659154f89bb804e702f23b78feb3507 15673 rust-num-cpus_1.14.0.orig.tar.gz"
+    "12b36d08e53778b44e6a976b41068198ca1a771e0e5d826635a19c99bb403d6798f775b44fbfa421b7d584b109ac12ae72b0e68b455c468d61c90de42e380c60 3104 rust-num-cpus_1.16.0-1.debian.tar.xz b67d52cf6f187d14923c3301628502f066cbf2099446d3f04a66043cbd2b14d25a3b99361b30697c5eb4d374160197cbe4f5fce4dec3ce81e70bc41dc10d9f80 2218 rust-num-cpus_1.16.0-1.dsc a75863afc4a563e63c64d06471c7921615355d98011ea9497b1f1a7dac2bdfc876509136018e8062ac38575ccf476a196d1fd9231e09e90017333bbf2df4615d 15713 rust-num-cpus_1.16.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-num-cpus"
   ],
   "Files": [
-    "67065d233ef46f6184ad011e7a56e22c 3040 rust-num-cpus_1.14.0-1.debian.tar.xz c247e171fb34ebb403d0caa033737576 2247 rust-num-cpus_1.14.0-1.dsc 2dbdb2d789292aa43711c4ed8a86f970 15673 rust-num-cpus_1.14.0.orig.tar.gz"
+    "9d8ad98386844409dc88837160b86c97 3104 rust-num-cpus_1.16.0-1.debian.tar.xz b8767bdae88ad5e0fc45ca3c3ab0a012 2218 rust-num-cpus_1.16.0-1.dsc d443cbf9907b31a0f396fb13489d6cd0 15713 rust-num-cpus_1.16.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "librust-num-cpus-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/num-cpus]"
   ],
   "Version": [
-    "1.14.0-1"
+    "1.16.0-1"
   ]
 }

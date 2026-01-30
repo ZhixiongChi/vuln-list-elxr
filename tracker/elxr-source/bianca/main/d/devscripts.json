@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "any"
+    "all"
   ],
   "Binary": [
     "devscripts"
   ],
   "Build-Depends": [
-    "autodep8 \u003c!nocheck\u003e, bash-completion, black \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-python3, docbook-xsl, dpkg-dev (\u003e= 1.19.1), faketime \u003c!nocheck\u003e, file \u003c!nocheck\u003e, git (\u003e= 1:2.7.0) \u003c!nocheck\u003e, gnupg \u003c!nocheck\u003e | gnupg2 \u003c!nocheck\u003e, help2man, isort \u003c!nocheck\u003e, libdistro-info-perl \u003c!nocheck\u003e, libdpkg-perl \u003c!nocheck\u003e, libfile-desktopentry-perl \u003c!nocheck\u003e, libfile-dirlist-perl \u003c!nocheck\u003e, libfile-homedir-perl \u003c!nocheck\u003e, libfile-touch-perl \u003c!nocheck\u003e, libfile-which-perl \u003c!nocheck\u003e, libgit-wrapper-perl \u003c!nocheck\u003e, libgitlab-api-v4-perl (\u003e= 0.13) \u003c!nocheck\u003e, libipc-run-perl \u003c!nocheck\u003e, liblist-compare-perl \u003c!nocheck\u003e, libmoo-perl \u003c!nocheck\u003e, libstring-shellquote-perl \u003c!nocheck\u003e, libtest-output-perl \u003c!nocheck\u003e, libtimedate-perl \u003c!nocheck\u003e, libtry-tiny-perl \u003c!nocheck\u003e, liburi-perl \u003c!nocheck\u003e, libwww-perl \u003c!nocheck\u003e, lsb-release \u003c!nocheck\u003e, mozilla-devscripts \u003c!nocheck\u003e, perl:any, perltidy \u003c!nocheck\u003e, pkg-config, po4a, pylint (\u003e= 2.2.2-2) \u003c!nocheck\u003e | pylint3 \u003c!nocheck\u003e, python3-all:any, python3-apt \u003c!nocheck\u003e, python3-debian \u003c!nocheck\u003e, python3-flake8 \u003c!nocheck\u003e, python3-magic \u003c!nocheck\u003e, python3-pycurl \u003c!nocheck\u003e, python3-pyftpdlib \u003c!nocheck\u003e, python3-requests \u003c!nocheck\u003e, python3-setuptools, python3-unidiff \u003c!nocheck\u003e, python3-xdg \u003c!nocheck\u003e, shunit2 \u003c!nocheck\u003e, subversion [!i386] \u003c!nocheck\u003e, unzip \u003c!nocheck\u003e, wdiff \u003c!nocheck\u003e, xsltproc, xz-utils \u003c!nocheck\u003e, zip \u003c!nocheck\u003e, zstd \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-python3, dpkg-dev (\u003e= 1.19.1), apt \u003c!nocheck\u003e, autodep8 \u003c!nocheck\u003e, bash-completion, black \u003c!nocheck\u003e, docbook-xsl, faketime \u003c!nocheck\u003e, file \u003c!nocheck\u003e, git (\u003e= 1:2.7.0) \u003c!nocheck\u003e, gpg \u003c!nocheck\u003e, gpg-agent \u003c!nocheck\u003e, help2man, isort \u003c!nocheck\u003e, libdistro-info-perl \u003c!nocheck\u003e, libdpkg-perl \u003c!nocheck\u003e, libfile-dirlist-perl \u003c!nocheck\u003e, libfile-homedir-perl \u003c!nocheck\u003e, libfile-touch-perl \u003c!nocheck\u003e, libgit-wrapper-perl \u003c!nocheck\u003e, libgitlab-api-v4-perl (\u003e= 0.13) \u003c!nocheck\u003e, libjson-perl \u003c!nocheck\u003e, liblist-compare-perl \u003c!nocheck\u003e, libmoo-perl \u003c!nocheck\u003e, libstring-shellquote-perl \u003c!nocheck\u003e, libtest-output-perl \u003c!nocheck\u003e, libtimedate-perl \u003c!nocheck\u003e, libtry-tiny-perl \u003c!nocheck\u003e, liburi-perl \u003c!nocheck\u003e, libwww-perl \u003c!nocheck\u003e, lsb-release \u003c!nocheck\u003e, lzip \u003c!nocheck\u003e, perl:any, perltidy \u003c!nocheck\u003e, pkgconf, po4a, pylint (\u003e= 2.2.2-2) \u003c!nocheck\u003e | pylint3 \u003c!nocheck\u003e, python3-all:any, python3-apt \u003c!nocheck\u003e, python3-debian \u003c!nocheck\u003e, python3-flake8 \u003c!nocheck\u003e, python3-junit.xml \u003c!nocheck\u003e, python3-magic \u003c!nocheck\u003e, python3-pycurl \u003c!nocheck\u003e, python3-pyftpdlib \u003c!nocheck\u003e, python3-requests \u003c!nocheck\u003e, python3-setuptools, python3-unidiff \u003c!nocheck\u003e, python3-xdg \u003c!nocheck\u003e, shunit2 \u003c!nocheck\u003e, sopv \u003c!nocheck\u003e | gpgv \u003c!nocheck\u003e, subversion [!i386] \u003c!nocheck\u003e, unzip \u003c!nocheck\u003e, wdiff \u003c!nocheck\u003e, xsltproc, xz-utils \u003c!nocheck\u003e, zip \u003c!nocheck\u003e, zstd \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "50152b371d1a14c654a39d38ccaa97a8189d0fab 3389 devscripts_2.23.4+deb12u2.dsc f6d8ddca924b579e6e37d89d3adbe9a7526fbd66 994152 devscripts_2.23.4+deb12u2.tar.xz"
+    "f72ee14ac8e5710776379ab6670d88ea4f7c1be9 3411 devscripts_2.25.15+deb13u1.dsc 8b6ebd98bb00762ae9d0e28a4d296a6547710d21 1049744 devscripts_2.25.15+deb13u1.tar.xz"
   ],
   "Checksums-Sha256": [
-    "37f903bb389bd350d89adf9f05c91842f7ca3ee1589bcb8323d29168794af2e4 3389 devscripts_2.23.4+deb12u2.dsc b713a631d884e03c118fe80a7f2a79e07d6a9d17f0e0c1a41402dcca97e5eba9 994152 devscripts_2.23.4+deb12u2.tar.xz"
+    "eaac9656b8ccced8e6f0ee4af101aac5e22378cf7dbff73c76d37ea61a830049 3411 devscripts_2.25.15+deb13u1.dsc d91d27930dd6b99573752b77e5a4821ce5f6eec82b95f765dce39744ab5b97ef 1049744 devscripts_2.25.15+deb13u1.tar.xz"
   ],
   "Checksums-Sha512": [
-    "552a1e620c336b2dd03b2b423ed522c8bf8c8f1e6a4de52284e24d8446bf54f610147c4676c2e5fe7b8e9b6c1224bef8fd6d58f2821e91e7667c935179fd7d15 3389 devscripts_2.23.4+deb12u2.dsc b7611e0601a25a7806358657bef89b3c01e7cc31b03dfa4a2536fab2d2795689135a773d2650b378dc6dbea77731a47b737e50a8149039af3a770960006a42f1 994152 devscripts_2.23.4+deb12u2.tar.xz"
+    "676855c7dce675d1a04f2bc1e64f89dd5aa886d38343c5f6938829b718a39b9bef00bc9af1c89ee40bd915444d2875ceca2fe9629bf8d0384ef7c4cd32040686 3411 devscripts_2.25.15+deb13u1.dsc 453daa78978a52c93b745fc216f3db3352940e243241ee9ecfcfb94922f54d2e2e1283aa2284e4ba03af0fd0abd9666182789a6694d999b0ecd6953af81990d9 1049744 devscripts_2.25.15+deb13u1.tar.xz"
   ],
   "Directory": [
     "pool/main/d/devscripts"
   ],
   "Files": [
-    "703efeffa09af95fc3060e0564a032ee 3389 devscripts_2.23.4+deb12u2.dsc 492b78d67298e7eece0dc3552a01ffa9 994152 devscripts_2.23.4+deb12u2.tar.xz"
+    "8e0454c0159cdf0ef4b168107519b80e 3411 devscripts_2.25.15+deb13u1.dsc bfc40e7c87b5c361682fdf5d20355f9a 1049744 devscripts_2.25.15+deb13u1.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -33,27 +33,27 @@
     "devscripts"
   ],
   "Package-List": [
-    "devscripts deb devel optional arch=any"
+    "devscripts deb devel optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "apt, build-essential, debhelper, fakeroot, faketime, git, gnupg, libdistro-info-perl, libdpkg-perl, libgitlab-api-v4-perl, libipc-run-perl, libtest-output-perl, libwww-perl, mozilla-devscripts, perl, python3-debian, python3-pyftpdlib, shunit2, subversion, wdiff, zip, zstd"
+    "apt, build-essential, debhelper, fakeroot, faketime, git, gnupg, libdistro-info-perl, libdpkg-perl, libgitlab-api-v4-perl, libjson-perl, libtest-output-perl, libwww-perl, lzip, perl, python3-debian, python3-pyftpdlib, shunit2, subversion, unzip, wdiff, zip, zstd"
   ],
   "Uploaders": [
-    "Mattia Rizzolo \u003cmattia@debian.org\u003e, Benjamin Drung \u003cbdrung@debian.org\u003e,"
+    "Mattia Rizzolo \u003cmattia@debian.org\u003e, Benjamin Drung \u003cbdrung@debian.org\u003e, Holger Levsen \u003cholger@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/devscripts"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/debian/devscripts.git -b bookworm"
+    "https://salsa.debian.org/debian/devscripts.git -b trixie"
   ],
   "Version": [
-    "2.23.4+deb12u2"
+    "2.25.15+deb13u1"
   ]
 }

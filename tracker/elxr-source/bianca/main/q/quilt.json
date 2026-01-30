@@ -9,22 +9,22 @@
     "bash-completion, debhelper-compat (= 13)"
   ],
   "Build-Depends-Indep": [
-    "diffstat, ed, gettext, hevea, html2text, perl, procmail"
+    "diffstat, ed, gawk, gettext, hevea, html2text, perl, procmail"
   ],
   "Checksums-Sha1": [
-    "6bce9c9f5201ffc8fc350373335b1dd672c6832a 39296 quilt_0.67+really0.66-1.debian.tar.xz f08140859354cfaccb4a0941b49716caa3b4c632 2063 quilt_0.67+really0.66-1.dsc e848f46d1e2b0dd07eee1a04f04fb2a4c37bf1d0 413069 quilt_0.67+really0.66.orig.tar.gz"
+    "b77193e57f38c74542a904000b7642a78ed8a703 38196 quilt_0.68-1.debian.tar.xz 62b5a4fde7d44b0dba563eb730a533d77df7f480 2227 quilt_0.68-1.dsc 25a0e32d79a393f1ba5029ec28bfadefb49a3efe 551096 quilt_0.68.orig.tar.gz 3d98244e26f7c207c20fb706d3409f6213e46152 833 quilt_0.68.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "18d9f16df86278b18b5042022f0149dd5db364ccc1139e8fc8c303317d5eca62 39296 quilt_0.67+really0.66-1.debian.tar.xz 89885bdac402e999dcf2b2efad2b70f568967910bcb89172cd3221848c9e1d3f 2063 quilt_0.67+really0.66-1.dsc 314b319a6feb13bf9d0f9ffa7ce6683b06919e734a41275087ea457cc9dc6e07 413069 quilt_0.67+really0.66.orig.tar.gz"
+    "ab560660e93a5d658f3a6300054b91e8a566b6933e14e17dad6a856d7693c2b9 38196 quilt_0.68-1.debian.tar.xz 3202ab7bf40fd893a1e39b366ec3f637eb3d3e2bf2333c7994874a953024f908 2227 quilt_0.68-1.dsc fe8c09de03c106e85b3737c8f03ade147c956b79ed7af485a1c8a3858db38426 551096 quilt_0.68.orig.tar.gz b82a23b15bc08ca2e97f4a49d26d646a26105eb00bf3b118dbafd3bba118e8b8 833 quilt_0.68.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "3a186817be08fbfa516a2f73f02ad4f127ffb4e2b14601b595a112c7156ecc1e313e44f44716d7fde1aa745f996841dc074a0ed2360b92ae6a6594c179ebe71c 39296 quilt_0.67+really0.66-1.debian.tar.xz 654a1bf2fdac24720fbdbb31df0d5835a374deba5b4ff20545a23d9d9ca755504c0b9383682880cdbc923acbe8ab9a0a49497f6b1a5586a90a239a1fd87e6ff1 2063 quilt_0.67+really0.66-1.dsc c2cb75c0937612e1e0da25b713acf629b6b5aacbd8254d8bd17220b63c7b8ca996cd9d0315a32d67d54a4a7dc01b212cdda33afaacf3db063da757f1973306f4 413069 quilt_0.67+really0.66.orig.tar.gz"
+    "e324211fd75e60083d95484a91ede6fc9dd098b349e36ac1a8278296b42d23b87ba0cf636fce3a17cd4dcc5ca7574cd65dcce9a02484eba09036015bbe4cc8b8 38196 quilt_0.68-1.debian.tar.xz ffdd6ba2e56a6888feb0ec70ad0553e3907d9a670e0e5bedd2a9f6893ee7f106b0bb5dbf1aceaa3e3456765ccb96e4a2c88d2ea1287c425ad5de1b7ac4427bf5 2227 quilt_0.68-1.dsc a2a58b330ccb3dd55b1f280310d506c605166bceedf7439582cdf8a198ca4aa34a375fd8bfd4027c540481bcdf5e6175eafd19707aaabe194b01cf7caa40572e 551096 quilt_0.68.orig.tar.gz ecd38df41b9566ee088bd67b90a0e79f0a8505fbd4b6972881576900fdd27be3d2ac24b85162c10e6af609bdd5bf76bbdec2e4a6c511ef1cbe0f71a15aa0e99b 833 quilt_0.68.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/q/quilt"
   ],
   "Files": [
-    "c2398f62c5528f3001571b2ab3c0f0c7 39296 quilt_0.67+really0.66-1.debian.tar.xz 5dee7ee44647b6de67bc92b63b47eb12 2063 quilt_0.67+really0.66-1.dsc 6800c2404a2c0598ab2eff92a636ba70 413069 quilt_0.67+really0.66.orig.tar.gz"
+    "93cb1a7671abbc48594a40c698cf0fe3 38196 quilt_0.68-1.debian.tar.xz 3d5f54a15d32fdf824ced33ec3039db1 2227 quilt_0.68-1.dsc b4613265fdcdbfa32ff778159288fa55 551096 quilt_0.68.orig.tar.gz eb4050f271fc218bb6865d5dfbfb2229 833 quilt_0.68.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "quilt deb vcs optional arch=all quilt-el deb vcs optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Uploaders": [
     "Dr. Tobias Quathamer \u003ctoddy@debian.org\u003e,"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/quilt.git"
   ],
   "Version": [
-    "0.67+really0.66-1"
+    "0.68-1"
   ]
 }

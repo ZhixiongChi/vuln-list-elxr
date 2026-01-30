@@ -6,25 +6,28 @@
     "librust-thiserror-impl-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev \u003c!nocheck\u003e, librust-quote-1+default-dev \u003c!nocheck\u003e, librust-syn-1+default-dev (\u003e= 1.0.45-~~) \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.61) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev (\u003e= 1.0.74-~~) \u003c!nocheck\u003e, librust-quote-1+default-dev (\u003e= 1.0.35-~~) \u003c!nocheck\u003e, librust-syn-2+default-dev (\u003e= 2.0.87-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "7eee7c14232804df67344338e4b7b8592dd0ec80 2936 rust-thiserror-impl_1.0.38-1.debian.tar.xz f6c7b6df874a4f2564c11d4f049ae0b90ab7a123 2410 rust-thiserror-impl_1.0.38-1.dsc b3988396ce1bbe4f98bf93b8759dcb465bde99d6 15429 rust-thiserror-impl_1.0.38.orig.tar.gz"
+    "50a318eb97d6c5f8d0cce33a86d740d5723ed7be 3100 rust-thiserror-impl_2.0.11-1.debian.tar.xz ff7ac19a4eee6945914e76c6460fcc00942e4e61 2511 rust-thiserror-impl_2.0.11-1.dsc dbfc07a56d4c7d81f1cccf31fca3fc981d372c78 21067 rust-thiserror-impl_2.0.11.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "8074ac18451cb4cf0a1df22b2812a185a117e4ce0071f41d18cd2bb208be0ef8 2936 rust-thiserror-impl_1.0.38-1.debian.tar.xz 9f8ab63c55566722b3d059dff228b706d63eacb2e4cde16c34cc22e54351158b 2410 rust-thiserror-impl_1.0.38-1.dsc 1fb327af4685e4d03fa8cbcf1716380da910eeb2bb8be417e7f9fd3fb164f36f 15429 rust-thiserror-impl_1.0.38.orig.tar.gz"
+    "6a8cc29e12cff80a220ff7ea01f09b9df6492158cfb68bb6361f8b914d97ab24 3100 rust-thiserror-impl_2.0.11-1.debian.tar.xz fe2f1418c3d38aadee6715bb4c889abfb31da4861806ddb14695d7dfb4ec730a 2511 rust-thiserror-impl_2.0.11-1.dsc 26afc1baea8a989337eeb52b6e72a039780ce45c3edfcc9c5b9d112feeb173c2 21067 rust-thiserror-impl_2.0.11.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "943c0537d999dd79dd3c57e7b0e8aadd8d90e3b7d3c812439b73a1978ed541fc337dd16800e36230663bab2062c2c0fbdc225a8b9cf70322c2bc956ae48c1b36 2936 rust-thiserror-impl_1.0.38-1.debian.tar.xz 63f0f0bf32b3b06a1e95aa302fa693f2512b78e3e94d6e756625b0643550ee6544f3156f6483cebd49169c718cf89f5c3b764277986722368a8335c776df3002 2410 rust-thiserror-impl_1.0.38-1.dsc 628aa28404a181b384ac6a11a433829a5481d97face5bc1704349414f36e93440738122fca716fdf878719870d10e0cf8d495df6b1d40913e985c2824cbc3aba 15429 rust-thiserror-impl_1.0.38.orig.tar.gz"
+    "26c2a1aa442a07c73af7c33aed8e96a499fa31d92e01b18539c82afd5f97997fb558757104c875a077aa0841d37d2daf12b609004c1732eb49e109d4485503a6 3100 rust-thiserror-impl_2.0.11-1.debian.tar.xz a05863690ba3a7ab560d97334f9526c73f34f02182640e5cf363617690fed9b6f810111e841d76dc858f09ba944454803e25fc616d6ae415da44c5f86519140f 2511 rust-thiserror-impl_2.0.11-1.dsc 3fb76f16613064917d2b21f1bab06fd4dec9f40ad1f850aa78c5917854347cf9034a72d2091dc792ac06ce9ff9e29ed2bec3a4330b459abff379356e35c8f701 21067 rust-thiserror-impl_2.0.11.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-thiserror-impl"
   ],
   "Files": [
-    "a74dd274a00044b55ddb8e45f90580ea 2936 rust-thiserror-impl_1.0.38-1.debian.tar.xz 7c280527c58ec263ad0874182da0bc1d 2410 rust-thiserror-impl_1.0.38-1.dsc 44e45d4d9b0904fd06d6f46107eda592 15429 rust-thiserror-impl_1.0.38.orig.tar.gz"
+    "2791a1ab27f916d571fcf31cabe4ae37 3100 rust-thiserror-impl_2.0.11-1.debian.tar.xz aee47ea025b29848b21ad92f67df4787 2511 rust-thiserror-impl_2.0.11-1.dsc 7291f99c00edc0ee2681bf4945c72b96 21067 rust-thiserror-impl_2.0.11.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dtolnay/thiserror"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,13 +39,13 @@
     "librust-thiserror-impl-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo"
+    "dh-cargo, rustc"
   ],
   "Uploaders": [
     "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/thiserror-impl]"
   ],
   "Version": [
-    "1.0.38-1"
+    "2.0.11-1"
   ]
 }

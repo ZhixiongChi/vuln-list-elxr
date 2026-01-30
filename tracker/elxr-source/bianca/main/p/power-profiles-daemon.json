@@ -6,28 +6,28 @@
     "power-profiles-daemon"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libglib2.0-dev, libgudev-1.0-dev, libpolkit-gobject-1-dev, libupower-glib-dev, libudev-dev, libumockdev-dev, libxml2-utils, meson, python3-dbus \u003c!nocheck\u003e, python3-dbusmock \u003c!nocheck\u003e, python3-gi \u003c!nocheck\u003e, systemd, umockdev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-python, bash-completion, libglib2.0-dev, libgudev-1.0-dev, libpolkit-gobject-1-dev, libupower-glib-dev, libudev-dev, libumockdev-dev, libxml2-utils, meson, python3, python3-argparse-manpage, python3-dbus \u003c!nocheck\u003e, python3-dbusmock \u003c!nocheck\u003e, python3-gi, python3-shtab, systemd-dev, umockdev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "38f4506ad696a6892b85f0feca56bdc08587baa6 4116 power-profiles-daemon_0.12-1.debian.tar.xz 8eff5a479f1d39eac21957fec25bc4197c29c4fa 2356 power-profiles-daemon_0.12-1.dsc db04124c14a7bc1bc539ae000a05337aae74c7ca 47846 power-profiles-daemon_0.12.orig.tar.bz2"
+    "329227b6ef8f32df362f823d9bacbbbb1708151b 5444 power-profiles-daemon_0.30-1.1.debian.tar.xz 9988382217ae2263649514b55d31d3867cab55d4 2510 power-profiles-daemon_0.30-1.1.dsc 2f72ac20d6b49b7906bc3a291dab62568c1a6624 70413 power-profiles-daemon_0.30.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "c12a41c8ae07b41942b1fc9b9a8f6178d096a60f1a922e7d0dc544b4f2d199b7 4116 power-profiles-daemon_0.12-1.debian.tar.xz 213251e28839c355612e0abbf45bf6f73d771b4a454f7c579487b693ff679b4d 2356 power-profiles-daemon_0.12-1.dsc 8ce5576b2b7dfe24bc646555f1e08256e3023208713e51d18b55c4b84a7c2293 47846 power-profiles-daemon_0.12.orig.tar.bz2"
+    "0d59a625ab14ad072e0a446d1596f641d2c0efdb53440051d0062fd53a9eadab 5444 power-profiles-daemon_0.30-1.1.debian.tar.xz 532993a366ae74c55f8027e27971f2370cc88f4d82b38ecff39a374cb63ec44d 2510 power-profiles-daemon_0.30-1.1.dsc 528ee5b8ca0a27d8d66128ebf850e23be9571dc130cf2a82dd2463dac7d3a92f 70413 power-profiles-daemon_0.30.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "c7288cda8d18bd02399e771f01e83eee0db010e03e0f555c62b7f6c2e5f74e928ba53dad24d71590742c6fdfa620b894e0a1a223481aecc5fb15058990dc91cc 4116 power-profiles-daemon_0.12-1.debian.tar.xz 3f439158afd6212e538b5aaf2a06baf25c74e8f9c3e5d60c9a66e575bef1e14c65f6a62c7de2fd3a35a495dc357a068b5959f95562ad5f5c64694614c867efaf 2356 power-profiles-daemon_0.12-1.dsc d34e51deeed13ed307b9efac08336ce36879d7deeac5af803207d1c69f641993a509d96e149c3f150c5d20437867f3cbc6502fce6f63e08f0b23f23c7f90d948 47846 power-profiles-daemon_0.12.orig.tar.bz2"
+    "b46c9a7f583c3609b660ae37cc64a91546acc7749192e7785eb581c501fa92d6bf28f2d733a5ab42e04b16b9c97b3632570fd45777397ca708b38e2ebf0271fb 5444 power-profiles-daemon_0.30-1.1.debian.tar.xz 0d958b44195b2c77b2be816fb1f3949d89075b4044bce8e955e58443a95ec76f3ac212451e7e46b24ba60cbcc00f263db8eb334ca5781ff7ff83958c887c55bf 2510 power-profiles-daemon_0.30-1.1.dsc 91ff790aa7f9fb0004d112f9c2f28de55f9985d5fbed15ebf1d15722ff0c007ebc89407ba38e88016745162b0ca7058540ed276b372efbefdd6b2e23408c89dc 70413 power-profiles-daemon_0.30.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/p/power-profiles-daemon"
   ],
   "Files": [
-    "9b83a2b3ce0202021ba503c8063dfb41 4116 power-profiles-daemon_0.12-1.debian.tar.xz 32f674bb5d8b24ad81e4f107e2858b2e 2356 power-profiles-daemon_0.12-1.dsc 7fd905615cd2c138fca0d81de1b21286 47846 power-profiles-daemon_0.12.orig.tar.bz2"
+    "c2b83129ad7d49eb86d6c7df3fe5f209 5444 power-profiles-daemon_0.30-1.1.debian.tar.xz 120e2ec5da403e359fab80c1bfc1969d 2510 power-profiles-daemon_0.30-1.1.dsc 2f9bb48321f3a1d696e076951484498b 70413 power-profiles-daemon_0.30.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://gitlab.freedesktop.org/hadess/power-profiles-daemon"
+    "https://gitlab.freedesktop.org/upower/power-profiles-daemon"
   ],
   "Maintainer": [
     "Debian freedesktop.org maintainers \u003cpkg-freedesktop-maintainers@lists.alioth.debian.org\u003e"
@@ -39,10 +39,10 @@
     "power-profiles-daemon deb admin optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Sebastien Bacher \u003cseb128@ubuntu.com\u003e"
+    "Sebastien Bacher \u003cseb128@ubuntu.com\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/freedesktop-team/power-profiles-daemon"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/freedesktop-team/power-profiles-daemon.git"
   ],
   "Version": [
-    "0.12-1"
+    "0.30-1.1"
   ]
 }

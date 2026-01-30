@@ -3,25 +3,25 @@
     "all"
   ],
   "Binary": [
-    "tuned, tuned-gtk, tuned-utils, tuned-utils-systemtap"
+    "tuned, tuned-gtk, tuned-ppd, tuned-utils, tuned-utils-systemtap"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), desktop-file-utils, dh-python, ethtool, hdparm, pkg-config, python3-all, python3-dbus, python3-gi, python3-pyudev, systemd"
+    "asciidoctor, debhelper-compat (= 13), desktop-file-utils, dh-python, ethtool, hdparm, pkgconf, python3-all, python3-dbus, python3-gi, python3-pyudev, systemd-dev"
   ],
   "Checksums-Sha1": [
-    "4e73afa82f1a09a6ebcda9bd927974faa744569e 6724 tuned_2.20.0-1.debian.tar.xz 30e2ab134f2163fc1994fa980def3d99b5d5405d 2112 tuned_2.20.0-1.dsc 6a6c9a91ab1e556b884965432895cdf64ebd6016 241286 tuned_2.20.0.orig.tar.gz"
+    "577eb3b2f591a0be7bc6ac67aaf99280d4c299c6 8332 tuned_2.25.1-1.debian.tar.xz b2fe761923e1879360caea3852d2d72a8dab9189 2176 tuned_2.25.1-1.dsc 2041e65c2e31cd76c60c401bdf538eb4253ea7b4 268726 tuned_2.25.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "52373dda10ad290be0bf8e5528cda044749c22cf7692be0ab2aa810bf1e1a240 6724 tuned_2.20.0-1.debian.tar.xz 8240f9c3281983fffac802a86ad216a95a967abd2c02683bb2d6098db460c81d 2112 tuned_2.20.0-1.dsc df32ac7a25f2c413cc39368c8cfaf1d11bf75be14efd0944ecafad8a369e486c 241286 tuned_2.20.0.orig.tar.gz"
+    "55aea86d50e5d92aa97a2c1ec06f90d79f4246ed6c5f3d6189973f0ee9cd2b51 8332 tuned_2.25.1-1.debian.tar.xz 36a939348e01825533c53d7b9e56f7a37a0a39398f0805c546dade2b975cd32e 2176 tuned_2.25.1-1.dsc ffdd57d37fadcba78df1910b340b1a35ffa15245b84a3cabe86c4a0625928375 268726 tuned_2.25.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "9343423ebc60219b02c044f27af70eb5d5efccf8b1662f425d483d99c2b2ec244aa0fe507a079bde15e58c28a37c6f93268ad0f8d83c6368cb8835b4df14ea1f 6724 tuned_2.20.0-1.debian.tar.xz 6c9591b850addcd61daf6f15977ee228195716df6cb314cd5cf86e3d86148b5abb89e15e3211a047b4ffa13e4f4cd24ee499545164b244600ea1fe122911617b 2112 tuned_2.20.0-1.dsc c8b9fc5bdc684b3c518267875b3757fce5d607bec0df7946fe3a7d345683ea0baa2f8b9bbfb741083b82fd9ca7c825506ca86ea530551837b42c11b45f24ccea 241286 tuned_2.20.0.orig.tar.gz"
+    "b0e7b57d18ce00048b73c9accd369cd93ccd812bc5a103f26853a75b409dc7ed544854e01e0f20f789cdf8740934bb21a14c10074aacb5e683b8929e356f8470 8332 tuned_2.25.1-1.debian.tar.xz 6af15ac3f1a669caae72b6488ca212440fe8e5fabd38582d6f8239441f66c5b5bb85d2e47ebfa073a6f04c8c5d06bf7c8e346e4c138cdce8c9b26625b1e5d787 2176 tuned_2.25.1-1.dsc fa5ac9d818d11b118fb7c26db28993b704f590070edbece570fee1a6c60a1f5f850b711683c45b46f33d9b056a84e43ced2c4c1ee58e9ef3d1fd035a4c1d4de4 268726 tuned_2.25.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/t/tuned"
   ],
   "Files": [
-    "651e64404996cadcee7de2b0919722e6 6724 tuned_2.20.0-1.debian.tar.xz 58d1164ae8d1986b7ce7d8ab849d7ab8 2112 tuned_2.20.0-1.dsc 774c565068bbb0c3f723b57c885c7433 241286 tuned_2.20.0.orig.tar.gz"
+    "25338bdadec030ef997d40448a5b6662 8332 tuned_2.25.1-1.debian.tar.xz 217928a5744737f475b8239e9f89e9c6 2176 tuned_2.25.1-1.dsc f635ac15a8bf8109017f30825c1821b8 268726 tuned_2.25.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "tuned"
   ],
   "Package-List": [
-    "tuned deb admin optional arch=all tuned-gtk deb admin optional arch=all tuned-utils deb admin optional arch=all tuned-utils-systemtap deb admin optional arch=all"
+    "tuned deb admin optional arch=all tuned-gtk deb admin optional arch=all tuned-ppd deb admin optional arch=all tuned-utils deb admin optional arch=all tuned-utils-systemtap deb admin optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/tuned.git"
   ],
   "Version": [
-    "2.20.0-1"
+    "2.25.1-1"
   ]
 }

@@ -6,22 +6,22 @@
     "python3-pycryptodome, python-pycryptodome-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all-dev, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e"
+    "cmake, debhelper-compat (= 13), dh-python, python3-all-dev, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "0f8309dcf7ce5e28556f747ae52a4dc7e7f47a5d 12424 pycryptodome_3.11.0+dfsg1-4.debian.tar.xz e86b60f3de73646ccc4453b4bdd3b117e6e88131 2297 pycryptodome_3.11.0+dfsg1-4.dsc 6533d7556769db5a462793d33daf7049f62da37b 1762484 pycryptodome_3.11.0+dfsg1.orig.tar.xz"
+    "7531179e5bfb638e5784182a081b5a43e0426b28 12940 pycryptodome_3.20.0+dfsg-3.debian.tar.xz da7adf0b20885e911ca0e1fc873c40cbc30db420 2300 pycryptodome_3.20.0+dfsg-3.dsc 8bcd1126199147257eb88a546f73de01a122268f 10883808 pycryptodome_3.20.0+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "338c799c47e376690138c29c6816dc14506a65f4d60d2146a53c84cfa88de1fe 12424 pycryptodome_3.11.0+dfsg1-4.debian.tar.xz 92dd7360a4e7450d7e9a67f4639a7a99f09acca1ea3a1ef86fd4699fcf7bb090 2297 pycryptodome_3.11.0+dfsg1-4.dsc 3aa7db9c780c08537522c3356da4790679df92cf6188e798f15d2e32fb0b7869 1762484 pycryptodome_3.11.0+dfsg1.orig.tar.xz"
+    "cac7509907fb7e42cc0e9568f7dd18bc76c62c28e3b263eeb2a302b88d9e9527 12940 pycryptodome_3.20.0+dfsg-3.debian.tar.xz e147434d2cc315467fc41d61b46e0976396a851edeb249781ff99f50f3c8c534 2300 pycryptodome_3.20.0+dfsg-3.dsc f7d907ec53696f7559fb9a1b19d61f55f7aff053f3196be5bf8dff83bc049a16 10883808 pycryptodome_3.20.0+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "c53b1b91d8f930536c768824259e09233e220234f4de22b9c006d2a1f61ee55014b2ddc547ea05e5b3d5ccfbb9770b808a8a6a47d41c72fde9c274c9ace63aa7 12424 pycryptodome_3.11.0+dfsg1-4.debian.tar.xz c9c2b2af21403d4f8c605ddc0a049520abc25f81a7d60e17a6ea257de02acd7e6a12c572a1793bbe31a0c754664e480764df40038edf9e4d10b26af924ba2709 2297 pycryptodome_3.11.0+dfsg1-4.dsc 68d55cd43d8d4dc3585b6bc413e164f7d5bbe9fd36e2dc6a662c2d7abc359cc16f291527364b66e86944f0c8ec167f9347764e47f20dcd61e58e13894b974b24 1762484 pycryptodome_3.11.0+dfsg1.orig.tar.xz"
+    "97cdb4f50cf8bc74c6d4f2ec502eb7b8d8e4223926c13111348f18ce9f42e776adda609353105a5001c1323c33c4ac4fa10381e492f5bc8525a243cea183dec2 12940 pycryptodome_3.20.0+dfsg-3.debian.tar.xz 63b396c6c12b4395db2974aabd18e94167a2d0eb7263692cd6f48235fa5a583b4cc17e752cccc0596f57e2b89a78aabf64b6a7bd9b72fa84f467e40ba8fe4512 2300 pycryptodome_3.20.0+dfsg-3.dsc 5079cc4fedd4e5cf116bc77b8162da6bd737e7d8b32be1a5aecd4b7580f04080d672502bf3c3bcf64de3437c32f18d3f811f26aec32ce0a0ae97f6b381645dc1 10883808 pycryptodome_3.20.0+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/pycryptodome"
   ],
   "Files": [
-    "3a719ab4ca5b9b48645e5d2eb10b3604 12424 pycryptodome_3.11.0+dfsg1-4.debian.tar.xz 7c30b3129be824b59ef3deb59b391b30 2297 pycryptodome_3.11.0+dfsg1-4.dsc 834cbd115ca5cec1d9b68ef4efeff045 1762484 pycryptodome_3.11.0+dfsg1.orig.tar.xz"
+    "9bd374ccf1a8b7fbf4403bf75a67df0f 12940 pycryptodome_3.20.0+dfsg-3.debian.tar.xz 08ce11e25885a711a59ea532b05dfe95 2300 pycryptodome_3.20.0+dfsg-3.dsc f10ab092b8ee362d9ee1e9aa3a2221d3 10883808 pycryptodome_3.20.0+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python-pycryptodome-doc deb doc optional arch=all python3-pycryptodome deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/pycryptodome.git"
   ],
   "Version": [
-    "3.11.0+dfsg1-4"
+    "3.20.0+dfsg-3"
   ]
 }

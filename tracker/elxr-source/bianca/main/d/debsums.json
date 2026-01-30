@@ -6,22 +6,25 @@
     "debsums"
   ],
   "Build-Depends": [
-    "bash-completion, debhelper-compat (= 12), libfile-fnmatch-perl, libtest-command-simple-perl, po-debconf, po4a (\u003e= 0.41)"
+    "bash-completion, debhelper-compat (= 13), libfile-fnmatch-perl \u003c!nocheck\u003e, libtest-command-simple-perl \u003c!nocheck\u003e, po4a"
   ],
   "Checksums-Sha1": [
-    "3225d1099e5347a2ccf06c6cfe9a8fc11b538c96 1821 debsums_3.0.2.1.dsc 6748c864a0eb9913e74d822b8bc34a335663358a 45544 debsums_3.0.2.1.tar.xz"
+    "3ae4884183490de0913537a24fe82befa73c6b2d 2064 debsums_3.0.2.3.dsc 85fc8e74a3b91fa8f18bbd70ad3b64c4d8ba02de 48608 debsums_3.0.2.3.tar.xz"
   ],
   "Checksums-Sha256": [
-    "f8e29a5069a8e4df47ed305f3676c80a38641770113dc4a8fa7528b7720e0de0 1821 debsums_3.0.2.1.dsc 35b1cfcb517946cad7c53cccfc367d9c9a6681f5407bf8555ea49aaecdc4dc28 45544 debsums_3.0.2.1.tar.xz"
+    "8b6b6d703dd9e04de98427095eb1fb5002e82524564cd23682c93cda065bc408 2064 debsums_3.0.2.3.dsc 68ca7f0c433e9b9e77cf21b457288acf0d564d18832506fef3edbceb32790d7d 48608 debsums_3.0.2.3.tar.xz"
   ],
   "Checksums-Sha512": [
-    "9c52695db34b2fc2aa41abbd33ae978c2be854f3bac9189ad1360972c80cadd64d33382033a39f8d74116abcfcca58fc3e6f0e9ee1d2eb5f95185c2f35c263d9 1821 debsums_3.0.2.1.dsc 0337aa01356c61321a78d1d67a71a4c066daad4ff68b409952e2dbfe2c528cb8decf140c8efb53d275fd52827bead6354097ef621b716316bf34c7ae9862499d 45544 debsums_3.0.2.1.tar.xz"
+    "a7cc712bcf89d5650fe1e8420a9f5652e6fa4952e72df035af3ac98f6400ebcd0a75f66acb4c75315b69db52c65b9e48d2e848a7282914a1b668ae0d7c49c815 2064 debsums_3.0.2.3.dsc cfe7ac19ce7967c522c39b4dcd051531e3e0390375ec655966b686f1dc95215e34a4bb9f4edd9ffc104cf32f4f54e146a21b3d05284ecd0d07de578366b0319e 48608 debsums_3.0.2.3.tar.xz"
+  ],
+  "Dgit": [
+    "08451557bf9498ac52f0c7b054bb15abcab8f378 debian archive/debian/3.0.2.3 https://git.dgit.debian.org/debsums"
   ],
   "Directory": [
     "pool/main/d/debsums"
   ],
   "Files": [
-    "7c6679a44f3a32415c44e47b8c18b962 1821 debsums_3.0.2.1.dsc f465043675e3d78a19d6feee68f73ac1 45544 debsums_3.0.2.1.tar.xz"
+    "0bfbe9d332972493633b7e7496e7017f 2064 debsums_3.0.2.3.dsc 6ea223f2e29a4dd7458d1e0f653ec893 48608 debsums_3.0.2.3.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -36,7 +39,7 @@
     "debsums deb admin optional arch=all"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/debsums.git"
   ],
   "Version": [
-    "3.0.2.1"
+    "3.0.2.3"
   ]
 }

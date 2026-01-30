@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libivykis0, libivykis-dev, libivykis0-dbg"
+    "libivykis0t64, libivykis-dev, libivykis0-dbg"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11~)"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13)"
   ],
   "Checksums-Sha1": [
-    "c83747a7715866c20fe0fc554803e50314e9185b 3480 ivykis_0.42.4-1.debian.tar.xz 85404ea79829b3adc0a2298245251756dfa852fb 1833 ivykis_0.42.4-1.dsc d7f0766d20a4b6ac6850a47e1ec5145ee515bd54 653443 ivykis_0.42.4.orig.tar.gz"
+    "5c03a6b1096145c5f340d045f8d5815ba7721c9e 3888 ivykis_0.43.2-1.debian.tar.xz f53fda1be614de9008f7ef4453c29bd59496b5d0 1866 ivykis_0.43.2-1.dsc 8f69b9f1e565fb65ce415c1c439c33dac6c37370 666329 ivykis_0.43.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "ea84e08b5f5d82abd562c0449c6343ec1d0095f6f7d13d3bc14bd0c1e5f5f82d 3480 ivykis_0.42.4-1.debian.tar.xz c87ee3a76f0c77320c45083f8771d154e8ddc670204c996618fca445394621e8 1833 ivykis_0.42.4-1.dsc 6ef8ed255814e5068473356877da55d67493eeafd978884cdecc5a3e58067129 653443 ivykis_0.42.4.orig.tar.gz"
+    "b3472d5f57d90d094d550c6a338e5a6084c50428f55c00d4bff305bfe90b8efc 3888 ivykis_0.43.2-1.debian.tar.xz bc02c38a2e0efd9140ce036a8f71936fce25dfb7b33c5adac746db696363c290 1866 ivykis_0.43.2-1.dsc 93e3e9b237695437cd63d4aa48a8d9dfd8b39bc28a192a5770d113c4fe9099ef 666329 ivykis_0.43.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8b580a41b42b07eaa88a666ad43d3c912c9f5a525e061b123220ff3cfc68263551f3fc9460dbb5fd89a670bcaedbe96e28387f549c6ae0bed3688e8e018c8fd0 3480 ivykis_0.42.4-1.debian.tar.xz 2fc2d0dc2f98e16efbdc50578d6e5170d7a0f9a45ccbe38741f78a13c4e2cf664e2bb8ac1ef193dffcefb548f529da7c212f20d1b2463c353ea6da12b52efd83 1833 ivykis_0.42.4-1.dsc 4a9fc973e97b054e365cb5028024e1d988227d3a871ab2983569b99d29201d9cdbf9e05e87d2f880281a72a6e6dad10212585e7d276c107bb667ab94644efdbd 653443 ivykis_0.42.4.orig.tar.gz"
+    "4ea18db935a38dcf7c43d29bf80099d20c8a1f3cef147bfd43c8e984e142d082bd64da7367f05b0cb78c37f6198d42fb2d09a3646a338c8aed5fb67773c5416d 3888 ivykis_0.43.2-1.debian.tar.xz 928d0cadbef076879a90ef8f272ef61b6c88bd19a15ef417ebe78ec66142a2c996d6e3d9df1123eef1bf8717c7f4612ca81792d677d3a8239e39bd0aa2a2aa1e 1866 ivykis_0.43.2-1.dsc 87eed4e77662301c50fc72420df8d173c0cb58cb25bc92d94b8ea25d6fc854533f789e95b3142f5fa8474229a616b73bdefccc2af76c9d8fe0dfb18a1709f5dc 666329 ivykis_0.43.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/i/ivykis"
   ],
   "Files": [
-    "2aa2db84e680bd5f18ea5a6a8e679644 3480 ivykis_0.42.4-1.debian.tar.xz d8520bd4b056fdad6831a61daa5ad646 1833 ivykis_0.42.4-1.dsc 74f052910406c7b743ff0f6f04ac2f1d 653443 ivykis_0.42.4.orig.tar.gz"
+    "b8a325ab66c48326fdc8bbcb5a018a0d 3888 ivykis_0.43.2-1.debian.tar.xz 7d41d0f96314faca4729a90633c00464 1866 ivykis_0.43.2-1.dsc df51c6d5c52bef1c82ea33eddc997792 666329 ivykis_0.43.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,12 +36,12 @@
     "ivykis"
   ],
   "Package-List": [
-    "libivykis-dev deb libdevel optional arch=any libivykis0 deb libs optional arch=any libivykis0-dbg deb debug optional arch=any"
+    "libivykis-dev deb libdevel optional arch=any libivykis0-dbg deb debug optional arch=any libivykis0t64 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.1.4"
+    "4.7.0"
   ],
   "Version": [
-    "0.42.4-1"
+    "0.43.2-1"
   ]
 }

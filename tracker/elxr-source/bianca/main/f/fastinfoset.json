@@ -6,28 +6,28 @@
     "libfastinfoset-java"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 10), default-jdk, javahelper, junit4, libstreambuffer-java, libxsom-java, maven-debian-helper (\u003e= 2.0)"
+    "debhelper-compat (= 13), default-jdk, javahelper, junit4, libstreambuffer-java, libxsom-java, maven-debian-helper"
   ],
   "Checksums-Sha1": [
-    "b6565a052e9604d3c96691fa3b30f6716a2040e7 5152 fastinfoset_1.2.12-3.debian.tar.xz d3e0528fc0de457c52e3e99de566c91f22ef7d1f 2087 fastinfoset_1.2.12-3.dsc 7e776c2ee65bd041b74d98bdc7c980208281a210 1013168 fastinfoset_1.2.12.orig.tar.xz"
+    "d503c9dce8a84b52ffa7c2d2b151b4e05602d6a2 5024 fastinfoset_1.2.12-4.debian.tar.xz 2794d95f7ca151f8b9afc7613661bab61a150f68 2114 fastinfoset_1.2.12-4.dsc 7e776c2ee65bd041b74d98bdc7c980208281a210 1013168 fastinfoset_1.2.12.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "f601dedb2b7d596fac1b5371063ff0b2dd4a155ee34b860d65ac88e5392f247b 5152 fastinfoset_1.2.12-3.debian.tar.xz ab285edafb94d9d28715582c7f9fd0409d562cf05582ab647864c88745607531 2087 fastinfoset_1.2.12-3.dsc aaaadadb97e4bbf0aea7706feb31dec4d657309eede9683b23389968842fd541 1013168 fastinfoset_1.2.12.orig.tar.xz"
+    "ddd1be5a155b4a406eddc5eaea18fbeb74fe2affca25c0ebdc54234c784b1b7b 5024 fastinfoset_1.2.12-4.debian.tar.xz 227a63dee57ec333d044a176ca6ad3d1b69dd5c0429bb49a045ff0540abb09e3 2114 fastinfoset_1.2.12-4.dsc aaaadadb97e4bbf0aea7706feb31dec4d657309eede9683b23389968842fd541 1013168 fastinfoset_1.2.12.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "cf99c10f6fcc80f8feab50bc8bbc7f93d9087a9a0d7401f2e638719a5f444d51d201e6d091250c681a7f4eefb30a6e8ce5f67e73be2ad2a5de8b82037cdd934d 5152 fastinfoset_1.2.12-3.debian.tar.xz 9a67c61803a97520b617b1f49580460067550d959802096561573dda228052e32413d8adaecfc066b53030f636610f5bf2b15dc76e344dd1f1bb5eb50c5dacad 2087 fastinfoset_1.2.12-3.dsc d543af8ee9dd3be2c0cc06018c98cbf59cab79f73fc137202bce1b0a90bb701e967c1b911111f583041a31a8553380755608d80d4da966593757d8a7e114cf36 1013168 fastinfoset_1.2.12.orig.tar.xz"
+    "080c66c4e4f00bfd9df52abaf159468d9fe63e802ba85d922888718bf79272ef5163b9c8d558497837d5c44c4d90301873372397a1acfab78c4425204459ee84 5024 fastinfoset_1.2.12-4.debian.tar.xz 1c41fd0245dfdf393e41ab26b0d2d498cd4f1075279506ed4034185e76b70af4e8afe4243a190897b9a533488f462a20f26f8ad424fb74c1e1019f2f0ff141a4 2114 fastinfoset_1.2.12-4.dsc d543af8ee9dd3be2c0cc06018c98cbf59cab79f73fc137202bce1b0a90bb701e967c1b911111f583041a31a8553380755608d80d4da966593757d8a7e114cf36 1013168 fastinfoset_1.2.12.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/f/fastinfoset"
   ],
   "Files": [
-    "c04261e04557e7e3d0b708f5c6675b11 5152 fastinfoset_1.2.12-3.debian.tar.xz 8de20cadcf24968e8b47877ffd5fe4fd 2087 fastinfoset_1.2.12-3.dsc 6596dc378ea6830fcaff8e1bc8ef22be 1013168 fastinfoset_1.2.12.orig.tar.xz"
+    "b8a880b393c3fc2b36a39f59a5342bcc 5024 fastinfoset_1.2.12-4.debian.tar.xz 56ad0cb7b4321ee52b286381322347eb 2114 fastinfoset_1.2.12-4.dsc 6596dc378ea6830fcaff8e1bc8ef22be 1013168 fastinfoset_1.2.12.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://fi.java.net"
+    "https://web.archive.org/web/20170427172733/https://fi.java.net/"
   ],
   "Maintainer": [
     "Debian Java Maintainers \u003cpkg-java-maintainers@lists.alioth.debian.org\u003e"
@@ -39,18 +39,18 @@
     "libfastinfoset-java deb java optional arch=all"
   ],
   "Standards-Version": [
-    "4.1.1"
+    "4.7.0"
   ],
   "Uploaders": [
     "Timo Aaltonen \u003ctjaalton@ubuntu.com\u003e"
   ],
   "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-java/fastinfoset.git"
+    "https://salsa.debian.org/java-team/fastinfoset"
   ],
   "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-java/fastinfoset.git"
+    "https://salsa.debian.org/java-team/fastinfoset.git"
   ],
   "Version": [
-    "1.2.12-3"
+    "1.2.12-4"
   ]
 }

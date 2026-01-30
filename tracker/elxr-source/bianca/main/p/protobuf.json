@@ -3,28 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "ruby-google-protobuf, libprotobuf32, libprotobuf-lite32, libprotobuf-dev, libprotoc32, libprotoc-dev, protobuf-compiler, python3-protobuf, libprotobuf-java, elpa-protobuf-mode, php-google-protobuf"
+    "ruby-google-protobuf, libprotobuf32t64, libprotobuf-lite32t64, libprotobuf-dev, libprotoc32t64, libprotoc-dev, protobuf-compiler, python3-protobuf, libprotobuf-java, elpa-protobuf-mode, php-google-protobuf"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-elpa [amd64 arm64 armel armhf i386 mips64el mipsel ppc64el s390x hppa ppc64 riscv64 sh4 sparc64 x32], zlib1g-dev, libgmock-dev \u003c!nocheck\u003e, libgtest-dev \u003c!nocheck\u003e, dh-sequence-python3 \u003c!nopython\u003e, python3-all:any \u003c!nopython\u003e, libpython3-all-dev \u003c!nopython\u003e, python3-setuptools \u003c!nopython\u003e, python3-six \u003c!nopython\u003e, xmlto, unzip \u003c!nocheck\u003e, rake-compiler \u003c!noruby\u003e, gem2deb \u003c!noruby\u003e, pkg-php-tools (\u003e= 1.7~)"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), zlib1g-dev, libgmock-dev \u003c!nocheck\u003e, libgtest-dev \u003c!nocheck\u003e, dh-sequence-python3 \u003c!nopython\u003e, python3-all:any \u003c!nopython\u003e, libpython3-all-dev \u003c!nopython\u003e, python3-setuptools \u003c!nopython\u003e, python3-six \u003c!nopython\u003e, xmlto, unzip \u003c!nocheck\u003e, rake-compiler \u003c!noruby\u003e, gem2deb \u003c!noruby\u003e"
   ],
   "Build-Depends-Indep": [
-    "ant, default-jdk, maven-repo-helper, libguava-java, libgoogle-gson-java"
+    "dh-sequence-elpa, ant, default-jdk, javahelper, maven-repo-helper, libguava-java, libgoogle-gson-java, pkg-php-tools (\u003e= 1.7~)"
   ],
   "Checksums-Sha1": [
-    "c3d325aaf807949034e749a2c81af5de9c8d10c7 34232 protobuf_3.21.12-3.debian.tar.xz e50c29ae65def31a413067abdf5a90352cb28896 3074 protobuf_3.21.12-3.dsc 7aec582dff3ab784ca7d2a2c99e59c64e8866fb5 5141502 protobuf_3.21.12.orig.tar.gz"
+    "ffa01b91e66875c2cb5e12e63f8e264318d47e9b 37556 protobuf_3.21.12-11.debian.tar.xz 29a73fcff72f2a7f57f016360dc671b608a65009 3043 protobuf_3.21.12-11.dsc 7aec582dff3ab784ca7d2a2c99e59c64e8866fb5 5141502 protobuf_3.21.12.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "531979ef0d5a84cb089cafbb6e2313caf585e8d3a0eb154036f73d7e72f63a89 34232 protobuf_3.21.12-3.debian.tar.xz ed3e75b81e167182ae4def26c9491c3786748821bed98851178412399e2c6512 3074 protobuf_3.21.12-3.dsc 930c2c3b5ecc6c9c12615cf5ad93f1cd6e12d0aba862b572e076259970ac3a53 5141502 protobuf_3.21.12.orig.tar.gz"
+    "ee6e17387b4b53c1679d156cea20c6812c4dac50f07da533a63a15e24d58fc57 37556 protobuf_3.21.12-11.debian.tar.xz 3edfb7884fd89d805e88b0a61b85a7339e50709d3575b28659ef21c5b8c5b686 3043 protobuf_3.21.12-11.dsc 930c2c3b5ecc6c9c12615cf5ad93f1cd6e12d0aba862b572e076259970ac3a53 5141502 protobuf_3.21.12.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "32fcdf73206205e1aae62ad4cde420f64c915960ec64298058cd803fcb0f1992ce294657a2e6cbd93055de2295aa554b751c3e94e1690bb33222f646cf314483 34232 protobuf_3.21.12-3.debian.tar.xz 095df19927c1a170fb1b7940fa4f7a5c1da8f030b2bfec4116639eff449c2e561313e81bc2e28ee0249f602d88875eaaaac08c8bcf2999c4da578bfa1ae4e916 3074 protobuf_3.21.12-3.dsc 152f8441c325e808b942153c15e82fdb533d5273b50c25c28916ec568ada880f79242bb61ee332ac5fb0d20f21239ed6f8de02ef6256cc574b1fc354d002c6b0 5141502 protobuf_3.21.12.orig.tar.gz"
+    "1d9f69602460bead5003dfe100602bd38d3357aa0585d0e955605631e21c436c8a4db3896bd75ddada9002049bc776398de233472cdbb3b6fdbda60ff9287115 37556 protobuf_3.21.12-11.debian.tar.xz 561dd7e869a83f01570a36e6fc2587ea6288d9c7eb10bf3f1af9fbfecb12ccb0de403424b023464ea102b29853dceaa9c656abcb3b7ea1655919df15739b00fe 3043 protobuf_3.21.12-11.dsc 152f8441c325e808b942153c15e82fdb533d5273b50c25c28916ec568ada880f79242bb61ee332ac5fb0d20f21239ed6f8de02ef6256cc574b1fc354d002c6b0 5141502 protobuf_3.21.12.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/protobuf"
   ],
   "Files": [
-    "f457e44218a7d4cc7b7ab0ed696096e3 34232 protobuf_3.21.12-3.debian.tar.xz d8e34e7b07473c6903f9d245934524fb 3074 protobuf_3.21.12-3.dsc d38562490234d8080bdbe8eb7baf937a 5141502 protobuf_3.21.12.orig.tar.gz"
+    "ff8c2ce41f561d0ad1ddae805f9280cd 37556 protobuf_3.21.12-11.debian.tar.xz 9f558845157ae9ce5cf9bdbf6af95086 3043 protobuf_3.21.12-11.dsc d38562490234d8080bdbe8eb7baf937a 5141502 protobuf_3.21.12.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "protobuf"
   ],
   "Package-List": [
-    "elpa-protobuf-mode deb editors optional arch=all libprotobuf-dev deb libdevel optional arch=any libprotobuf-java deb java optional arch=all libprotobuf-lite32 deb libs optional arch=any libprotobuf32 deb libs optional arch=any libprotoc-dev deb libdevel optional arch=any libprotoc32 deb libs optional arch=any php-google-protobuf deb php optional arch=all protobuf-compiler deb devel optional arch=any python3-protobuf deb python optional arch=any profile=!nopython ruby-google-protobuf deb ruby optional arch=any profile=!noruby"
+    "elpa-protobuf-mode deb editors optional arch=all libprotobuf-dev deb libdevel optional arch=any libprotobuf-java deb java optional arch=all libprotobuf-lite32t64 deb libs optional arch=any libprotobuf32t64 deb libs optional arch=any libprotoc-dev deb libdevel optional arch=any libprotoc32t64 deb libs optional arch=any php-google-protobuf deb php optional arch=all protobuf-compiler deb devel optional arch=any python3-protobuf deb python optional arch=any profile=!nopython ruby-google-protobuf deb ruby optional arch=any profile=!noruby"
   ],
   "Ruby-Versions": [
     "all"
@@ -54,6 +54,6 @@
     "build-essential, default-jdk, make, pkg-config, python3, zlib1g-dev"
   ],
   "Version": [
-    "3.21.12-3"
+    "3.21.12-11"
   ]
 }

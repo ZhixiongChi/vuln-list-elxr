@@ -3,25 +3,28 @@
     "any"
   ],
   "Binary": [
-    "idn, libidn-dev, libidn12, libidn11-dev"
+    "idn, libidn-dev, libidn12"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), help2man, texinfo"
+    "debhelper-compat (= 13), gengetopt, git, gnulib, gperf, graphviz, help2man, texinfo"
   ],
   "Checksums-Sha1": [
-    "2c0f20a28ea9ae6e3fc390ea6e2e223551896e75 14788 libidn_1.41-1.debian.tar.xz ba825c567fa12c0b0d31d5dff17e44b556ec5ce9 2061 libidn_1.41-1.dsc 527748471e217c2c3857309df85b50a33ca62ab8 2664011 libidn_1.41.orig.tar.gz 3f7084d2b51203fe4b5a6f12d54d0864a250294d 228 libidn_1.41.orig.tar.gz.asc"
+    "e9b0a87bc46b4e9a68ebdd2080c0617dafaf9b5e 17124 libidn_1.43-1.debian.tar.xz e82cb04b8b6c005b40368b60ee2c5589589a57ce 2889 libidn_1.43-1.dsc 8a577ee259ee9e7d88782ff75f10cc5a225442b3 765014 libidn_1.43.orig.tar.gz 66aad1dedea327767e2175e084da6e76153698a9 1223 libidn_1.43.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "f67e796471f1503d7a330c8b62c8301cedc8518e2fc549206a3ec5e9febe305c 14788 libidn_1.41-1.debian.tar.xz 0bf54724ad8721e03c47a9bce3e217144dba2fdc646b20b323b9014e25fa9503 2061 libidn_1.41-1.dsc 884d706364b81abdd17bee9686d8ff2ae7431c5a14651047c68adf8b31fd8945 2664011 libidn_1.41.orig.tar.gz 8ba77dce9d49da0345fc26d7ab821926a71ec6f7516891ac28b71346d8a6c715 228 libidn_1.41.orig.tar.gz.asc"
+    "a8f9529cfd7ee42cd840f2960f027029fb825f4af676acdb20993d9242657c9d 17124 libidn_1.43-1.debian.tar.xz f8684cc2b7712a85b290ff0bd209f48d03b1e9330158709f34d650fd8e85031e 2889 libidn_1.43-1.dsc 8f8f3b2d6bd3c04ea9672031b35eec63420c65e0c59aa8db8724475d1dc865d2 765014 libidn_1.43.orig.tar.gz f4080117d52773c92782ee817fcaca611672df66d023f0a71567a724dbc8bd26 1223 libidn_1.43.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "c836ea3ebaa10e62c9b27e4118ea8556583376b1cdfd5d439c2c6f7856efb30a1e555ac3bc405f3f26dfc0bf16f0f41443616c5148b3d1ea9865e6fe3965d759 14788 libidn_1.41-1.debian.tar.xz d74950b2f5652e76355935287979731c7094d97fc0d2f095a995d43309f23f3a98c25a872e98824faae7fea2620c9d1e7203419d5b5c541b8de169ab2ff3f237 2061 libidn_1.41-1.dsc 765c42b64f10f0d84c0abecdce443baa9fdb80576179e3143bf56abde3f6c6149cc2c77e286e2e2a6ccf508914f30c2d5af258073168c0f886686e4fd85bbb47 2664011 libidn_1.41.orig.tar.gz 5d1dca4493cf4af420ba326b867e50e618432ce2808dde60a5325e1c64a6408dcb09d9b104c64d34e2726b9903c06b112ffc040fb6bb3818ae4ddf1551228c1c 228 libidn_1.41.orig.tar.gz.asc"
+    "f951c2ebc9b0e1643ded9f979528e576a4f49b3c523944d6458002eb7788b2f40b74473cf8be116676be44ac8bedb6fa0db9f8964cd2ff9c543a7bad2e0f99ce 17124 libidn_1.43-1.debian.tar.xz 7504c83a0f8808574bb152f81d0929fdd97f11f93d311301c4d3e28df4e8a41c49ff07bfef5a443e6f5dded1d371384eb82d5929625951d4605f33d07c6b274c 2889 libidn_1.43-1.dsc ba48e704e6e2bb1b43cb912012f6986f881884ad90712a15256bee91287f48a87bd60773f8dac4798a6691bd7e81a38db81fdfc97ddf825a2b892b7fc0d38423 765014 libidn_1.43.orig.tar.gz 01742571df6f5eff82e2c35d8b65cda20575bc5e2ec884543a78fa4c03f72c6ea19246110b80da0164b0bc218e342475ee6719e7f343a4bef806de31c05cbd45 1223 libidn_1.43.orig.tar.gz.asc"
+  ],
+  "Dgit": [
+    "d6595692fae21c6430e9055b067159ba3c04d74c debian archive/debian/1.43-1 https://git.dgit.debian.org/libidn"
   ],
   "Directory": [
     "pool/main/libi/libidn"
   ],
   "Files": [
-    "3f4832d9999a9f851eff1f9e686a60bd 14788 libidn_1.41-1.debian.tar.xz b8b56ea4c2276345476523c45ee8eca7 2061 libidn_1.41-1.dsc 2cbff2f75f904328ac507af576b07197 2664011 libidn_1.41.orig.tar.gz e1324d4bfe33d4fc464cd2c1244c2a28 228 libidn_1.41.orig.tar.gz.asc"
+    "f292f4167f222a03049d90c61adad038 17124 libidn_1.43-1.debian.tar.xz fc545b80dbd587dc3aaeba64ef8de9fc 2889 libidn_1.43-1.dsc 93e7a8ddce978043c67b74e407206a60 765014 libidn_1.43.orig.tar.gz 5359e156af39ceaea92fe27e9d6b06d4 1223 libidn_1.43.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,19 +39,19 @@
     "libidn"
   ],
   "Package-List": [
-    "idn deb misc optional arch=any libidn-dev deb libdevel optional arch=any libidn11-dev deb oldlibs optional arch=any libidn12 deb libs optional arch=any"
+    "idn deb misc optional arch=any libidn-dev deb libdevel optional arch=any libidn12 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential, man, pkg-config"
+    "build-essential, man, pkgconf"
   ],
   "Uploaders": [
-    "Simon Josefsson \u003csimon@josefsson.org\u003e, Ondřej Surý \u003condrej@debian.org\u003e"
+    "Simon Josefsson \u003csimon@josefsson.org\u003e, Ondřej Surý \u003condrej@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/libidn"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/debian/libidn.git"
   ],
   "Version": [
-    "1.41-1"
+    "1.43-1"
   ]
 }

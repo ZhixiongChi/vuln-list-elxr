@@ -6,48 +6,57 @@
     "libencode-eucjpms-perl"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 7), perl"
+    "debhelper-compat (= 13), perl:native, perl-xs-dev"
   ],
   "Checksums-Sha1": [
-    "a3301595a627816701066ea59dd4bffe3421c216 1583 libencode-eucjpms-perl_0.07-3.debian.tar.gz a33716a861fd6e3e855988ec412e52273a0eecbb 2002 libencode-eucjpms-perl_0.07-3.dsc 7324f3d3d9a7a2b7644801d3c8665104fa031f6d 99135 libencode-eucjpms-perl_0.07.orig.tar.gz"
+    "14003ca5b0e20ae876dd2b8781c997646261c142 2028 libencode-eucjpms-perl_0.07-5.debian.tar.xz 80380c834fbc7ff1a01c9522bb65838242108d87 2397 libencode-eucjpms-perl_0.07-5.dsc 7324f3d3d9a7a2b7644801d3c8665104fa031f6d 99135 libencode-eucjpms-perl_0.07.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "f8df2dcca572e6b62adbcd83f145c8917d810b300fbd79ce6f958908228e0307 1583 libencode-eucjpms-perl_0.07-3.debian.tar.gz 7537c7fab612835efb9e37c4ccc0e9f42468798cf8ea9d01cf65d49abe756f5c 2002 libencode-eucjpms-perl_0.07-3.dsc d4fd9a2b0424706c5cb81e3c2fcb82ff092545c4e27cb2639044681962776db3 99135 libencode-eucjpms-perl_0.07.orig.tar.gz"
+    "4a33c14febf2df30e30cb1803db39dfd842bdc8ffce18de4791762a6d7ea2b02 2028 libencode-eucjpms-perl_0.07-5.debian.tar.xz 3f3e6b0bdb8b5010f9fa4b2237c97f0a5e8ac8138ce51a31cba04a96789f6b0d 2397 libencode-eucjpms-perl_0.07-5.dsc d4fd9a2b0424706c5cb81e3c2fcb82ff092545c4e27cb2639044681962776db3 99135 libencode-eucjpms-perl_0.07.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f26c780862df58cf9453032e6b400376649e820b96beaa9a95305fd02127a04adc401ac940732de6cc42bf5e926d7ab484a10cf3e6e2f31ef7c58d86b04954d1 1583 libencode-eucjpms-perl_0.07-3.debian.tar.gz f5dbf68c612125a8e8ee7aa1d0a8b78a46c67fb2c2fa0e52df0d056db1ee2d4f70b8ffcd311b297c6bb643874488c34aac349c148aad4c4357e50edd84026bf0 2002 libencode-eucjpms-perl_0.07-3.dsc 47e946b0f394ef1d824a3d54a7d853f2b08e0145e642ea4140637f26bcac8c68b43f590ddb8eaa306f933eaea55d458a7650009a5cedf7561ab21f85d54f1eb0 99135 libencode-eucjpms-perl_0.07.orig.tar.gz"
+    "2137290feec60a8d7b5e9b6f6eddc48b188b620ea444adeac3ca37101154b8169306e24564657dbf6e57a491d1906dfcbf01f2b4930e0d8eafbbdd031d0d055c 2028 libencode-eucjpms-perl_0.07-5.debian.tar.xz e15607b7cde84a44be0fade4977a0353ca6e0b54f777554cb846af1b28b02cfc1c6e0551341d22cdc405fcf82b16875ea902aa34ea391bdbc725a19b9c5b1d7e 2397 libencode-eucjpms-perl_0.07-5.dsc 47e946b0f394ef1d824a3d54a7d853f2b08e0145e642ea4140637f26bcac8c68b43f590ddb8eaa306f933eaea55d458a7650009a5cedf7561ab21f85d54f1eb0 99135 libencode-eucjpms-perl_0.07.orig.tar.gz"
+  ],
+  "Dgit": [
+    "ea5ebc2048c92f78966dcf164a9219ef961ae63d debian archive/debian/0.07-5 https://git.dgit.debian.org/libencode-eucjpms-perl"
   ],
   "Directory": [
     "pool/main/libe/libencode-eucjpms-perl"
   ],
   "Files": [
-    "c737c9d3dc21a3afe618d52e2d915056 1583 libencode-eucjpms-perl_0.07-3.debian.tar.gz 9295aaaacf4c540efe933e76dc6da390 2002 libencode-eucjpms-perl_0.07-3.dsc 696cf326b74eeda13b1a855f6b538d9c 99135 libencode-eucjpms-perl_0.07.orig.tar.gz"
+    "e4f2254c6b1425cbfbdea97f1c8cf3e1 2028 libencode-eucjpms-perl_0.07-5.debian.tar.xz 1f446b662ec53ae71b7d83e16e4a5bfc 2397 libencode-eucjpms-perl_0.07-5.dsc 696cf326b74eeda13b1a855f6b538d9c 99135 libencode-eucjpms-perl_0.07.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://search.cpan.org/dist/Encode-EUCJPMS/"
+    "https://metacpan.org/pod/Encode::EUCJPMS"
   ],
   "Maintainer": [
-    "Taku YASUI \u003ctach@debian.org\u003e"
+    "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
   ],
   "Package": [
     "libencode-eucjpms-perl"
   ],
   "Package-List": [
-    "libencode-eucjpms-perl deb perl optional"
+    "libencode-eucjpms-perl deb perl optional arch=any"
   ],
   "Standards-Version": [
-    "3.9.3"
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-perl"
+  ],
+  "Uploaders": [
+    "Taku YASUI \u003ctach@debian.org\u003e"
   ],
   "Vcs-Browser": [
-    "http://anonscm.debian.org/viewvc/collab-maint/deb-maint/libencode-eucjpms-perl"
+    "https://salsa.debian.org/perl-team/modules/packages/libencode-eucjpms-perl"
   ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/collab-maint/deb-maint/libencode-eucjpms-perl"
+  "Vcs-Git": [
+    "https://salsa.debian.org/perl-team/modules/packages/libencode-eucjpms-perl.git"
   ],
   "Version": [
-    "0.07-3"
+    "0.07-5"
   ]
 }

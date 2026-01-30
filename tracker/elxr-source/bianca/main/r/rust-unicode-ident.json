@@ -6,22 +6,22 @@
     "librust-unicode-ident-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.31) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "65a10802bb00251a39d028f3d53126540ffbfc29 2632 rust-unicode-ident_1.0.0-1.debian.tar.xz 113f389bbb95a6951be35b796fa1fd42896815ba 2387 rust-unicode-ident_1.0.0-1.dsc c23e85c119ca5c7a2d1d7a92501d55bf1f4e97c0 34224 rust-unicode-ident_1.0.0.orig.tar.gz"
+    "af7209a51f8e4a24cea811732425cd2e228faa7a 2904 rust-unicode-ident_1.0.13-1.debian.tar.xz 00f7d66e1dd92ceaf5cdccee32118b902bf442de 2167 rust-unicode-ident_1.0.13-1.dsc f5eeb6af98ac998d3bee8260a7c916818ca7755d 43279 rust-unicode-ident_1.0.13.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "1691a04ee2709103b51113b7b487a1f1a9142f22a6ec7ba49d089d194686847e 2632 rust-unicode-ident_1.0.0-1.debian.tar.xz 9506e958fec2d6676077e1bd349e937adb771f3b26c5429233f8a466689cd330 2387 rust-unicode-ident_1.0.0-1.dsc d22af068fba1eb5edcb4aea19d382b2a3deb4c8f9d475c589b6ada9e0fd493ee 34224 rust-unicode-ident_1.0.0.orig.tar.gz"
+    "cf78eb5c66b75a14386b5ae4e8341d9d020bf8b9bdf0a38a9e71079cd021f10d 2904 rust-unicode-ident_1.0.13-1.debian.tar.xz d30166bfa090ceedabbca6e08d3d8991546b5e4aa0a7bbe1a7a07cf0be159c97 2167 rust-unicode-ident_1.0.13-1.dsc e91b56cd4cadaeb79bbf1a5645f6b4f8dc5bde8834ad5894a8db35fda9efa1fe 43279 rust-unicode-ident_1.0.13.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a919ff7bb7b49f643a75dfa7f5b1417832ba231a1d67b4b59291cf4446dfbaf70bfa9ccd7062751945c0d32765a8e34d1292b372eac5fedd8634bd88412184d0 2632 rust-unicode-ident_1.0.0-1.debian.tar.xz 04cc99240e431d38da1dc680b109109d2b96615ff97d079600867cbb369fdbe1c53e7e82508f31aab47b1a99ef02bc26aa193d3cabf70969a436b9fecf98defb 2387 rust-unicode-ident_1.0.0-1.dsc ccdad29fc63f71c507cdf276b02a5bb7fad44dffa123bf04d5b1495eb9c26bd7ec42ad6e11717eb10dc6499693047952c6b766c40d7b0696bd011779649d5fc9 34224 rust-unicode-ident_1.0.0.orig.tar.gz"
+    "b2b04a0728c44f1f7f1768bed70eefc1b9dc6746f1c3283006b175b7a0fbb219bbe4c246cb7d98552b9bc7496a2d2c2169cb94c29d39f3db13bf1992b27c0e3b 2904 rust-unicode-ident_1.0.13-1.debian.tar.xz 712773ec129cb9989ef6a737039666e8ded3d2d7c74ecdf6733b41d1259f96c894dab3be1526364782a0286f3f89a5990e704fb56b85b394c31f016bfbc3b9c6 2167 rust-unicode-ident_1.0.13-1.dsc 5ba884f39debe9c8eb0b1d251ca713f7e2bc191d211707ed10cd81465487dbdca53914c19e131edfa1da15af132dc2c346260c3969c61e3747b63399ccb1cc51 43279 rust-unicode-ident_1.0.13.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-unicode-ident"
   ],
   "Files": [
-    "ea56b14bb100c7d5a3b0b4e36adaf691 2632 rust-unicode-ident_1.0.0-1.debian.tar.xz 20e23dab67655a3f13a314a88b6e12ec 2387 rust-unicode-ident_1.0.0-1.dsc 1415b48fcebe79916396ef3383ef9b3a 34224 rust-unicode-ident_1.0.0.orig.tar.gz"
+    "52c3568981cff6686a8d50eed5445dd2 2904 rust-unicode-ident_1.0.13-1.debian.tar.xz 42cbc0bfed4474c72d2c027f4297440a 2167 rust-unicode-ident_1.0.13-1.dsc 7692382986a2373fe5b5574ffe03e927 43279 rust-unicode-ident_1.0.13.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,10 @@
     "librust-unicode-ident-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "dh-cargo, librust-criterion-0.3-dev, librust-fst-0.4+default-dev, librust-rand-0.8+default-dev, librust-rand-0.8+small-rng-dev, librust-roaring-0.9+default-dev, librust-ucd-trie-0.1-dev, librust-unicode-xid-0.2+default-dev"
   ],
   "Uploaders": [
     "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/unicode-ident]"
   ],
   "Version": [
-    "1.0.0-1"
+    "1.0.13-1"
   ]
 }

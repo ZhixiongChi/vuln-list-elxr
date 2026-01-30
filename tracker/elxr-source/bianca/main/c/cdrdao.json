@@ -1,45 +1,48 @@
 {
   "Architecture": [
-    "kfreebsd-any linux-any"
+    "linux-any"
   ],
   "Binary": [
-    "cdrdao"
+    "cdrdao, gcdmaster"
   ],
   "Build-Depends": [
-    "antlr, debhelper-compat (= 13), libao-dev, libcam-dev [kfreebsd-any], libvorbis-dev, pkg-config"
+    "debhelper-compat (= 13), libao-dev, libgtkmm-3.0-dev, libsigc++-2.0-dev, libvorbis-dev, pkgconf"
   ],
   "Checksums-Sha1": [
-    "b339fa80dd5f429fa64ee62ab58aeca48588568a 12528 cdrdao_1.2.4-3.debian.tar.xz c9270b74f2da51e34fff5038e7fd5dda0eb26ac1 1928 cdrdao_1.2.4-3.dsc 3adfbdefc73728a75c9ddc41160c9fe4139fb1e0 1442181 cdrdao_1.2.4.orig.tar.bz2"
+    "92a3c56b1d0dd678041cf83b5b7a0304c473621a 15788 cdrdao_1.2.5-2.debian.tar.xz 215056fa3f351ac4a372b00d047035f319478a59 1987 cdrdao_1.2.5-2.dsc 882ee1697daaf84456b36984fa48459e10370680 870084 cdrdao_1.2.5.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "0113586d9af8a9322cd29894ff829328414f6a5a4d4ef587332b9f76d60231fe 12528 cdrdao_1.2.4-3.debian.tar.xz 38936f7872790aca8764c253f150447372ef59a6a1ab7f29a40056e5f2c72907 1928 cdrdao_1.2.4-3.dsc 358d9cb83370ceaecdc60564cbf14c2ea2636eac60a966e2461c011ba09853b4 1442181 cdrdao_1.2.4.orig.tar.bz2"
+    "9f7750fed1a04a4193c3100de4bbe05ea0d8e6d473781e56c8eee013540fd9f7 15788 cdrdao_1.2.5-2.debian.tar.xz ed150221f930c2a7f19a2f128c414c55b9564898c2cce501a37b850f37278d00 1987 cdrdao_1.2.5-2.dsc d19b67c853c5dba2406afaab6cd788e77f35eebe634cac4679528477c7be01b6 870084 cdrdao_1.2.5.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "74e461767aedd835640c9492d08cfbbdd1d1a1da03cbd9915d9e13f4bdf66fd279f406cf154287a9b8fe24bca9abe6e0228b88be828cf973bd1c3469789aef67 12528 cdrdao_1.2.4-3.debian.tar.xz d2dbf45310605aff968de7406e22f07111bdfb1db683db367b73fc270986c5e5d3c75d5b697a8fc1f4271eee2ef933b1cb4198152257c21b84ca988d7213191a 1928 cdrdao_1.2.4-3.dsc 41f20275ca44ec9003d0e3ed280cc98012353005cda6f544ebfa44f3f79f991845c0ef17af74db9456f1bacc342a7fd48c9e942d757927a4a9ff91808f7bbb09 1442181 cdrdao_1.2.4.orig.tar.bz2"
+    "02865f7a1eac3235b3ae5e62c598cccfec1b7a91559a90e4721fa0958273d913d3e8e8cb81b0c56efb6649e264b127b5244f1127674ff6784d815e96b22fe4e9 15788 cdrdao_1.2.5-2.debian.tar.xz 9b74582d31f7b7b99e99b2e71878453eaca4c8c2fd1d314017d058139fccaca26cee26f059a41ca2e11e4d647e8c92c226c62bfb75cd092637ce98278428dd6f 1987 cdrdao_1.2.5-2.dsc 9b07de7849d23824ad2db5d8fdf93717b73ff386105f380cd31e626e3c02c768799cb1c7d9f4955015aab241f8cf9fb23e03980c9fa82126f64ef222346bb4ce 870084 cdrdao_1.2.5.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/c/cdrdao"
   ],
   "Files": [
-    "9d651dcf157f3a80f0b44d6f6c668042 12528 cdrdao_1.2.4-3.debian.tar.xz bb1365463fb936f035e2f83bb7bd5c43 1928 cdrdao_1.2.4-3.dsc 2ada887d1b30b440867b8df0d3023cf7 1442181 cdrdao_1.2.4.orig.tar.bz2"
+    "7662b560d8e5bbd531aefe375b0abe64 15788 cdrdao_1.2.5-2.debian.tar.xz 02c50cc9197e38f87e32a982fbc1ee76 1987 cdrdao_1.2.5-2.dsc 45adc4da3d7299471c01e14b80184e36 870084 cdrdao_1.2.5.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://cdrdao.sourceforge.net/"
+    "https://cdrdao.sourceforge.net/"
   ],
   "Maintainer": [
-    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+    "Sven Geuer \u003csge@debian.org\u003e"
   ],
   "Package": [
     "cdrdao"
   ],
   "Package-List": [
-    "cdrdao deb otherosfs optional arch=kfreebsd-any,linux-any"
+    "cdrdao deb otherosfs optional arch=linux-any gcdmaster deb sound optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/cdrdao"
@@ -48,6 +51,6 @@
     "https://salsa.debian.org/debian/cdrdao.git"
   ],
   "Version": [
-    "1:1.2.4-3"
+    "1:1.2.5-2"
   ]
 }

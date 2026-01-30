@@ -9,19 +9,22 @@
     "debhelper-compat (= 13)"
   ],
   "Checksums-Sha1": [
-    "477b7bd795962926e5a100503e0fe8102e65a0d4 1734 os-prober_1.81.dsc 367c67d952ea9c354e40357addbb1ee54b43e91f 27448 os-prober_1.81.tar.xz"
+    "25e049b57d6bcfc8e21e6542358f60d82099ecce 1833 os-prober_1.83.dsc be34c4fc80308c88b43b3ca2756dc18f2ebe7b32 27696 os-prober_1.83.tar.xz"
   ],
   "Checksums-Sha256": [
-    "09fac02f89a4d61c453088909d4c3ee1803cbff97f00ac15b97472fa9fe5f77c 1734 os-prober_1.81.dsc 2fd928ec86538227711e2adf49cfd6a1ef74f6bb3555c5dad4e0425ccd978883 27448 os-prober_1.81.tar.xz"
+    "ed32da01285207b0169458aa2268f1dc5e7e4da324d266e40a8fbbf644b6e01d 1833 os-prober_1.83.dsc 8c82d5084c2b6f8935f6633612f18d16d04a0deffd6b99c264985fb7204140a6 27696 os-prober_1.83.tar.xz"
   ],
   "Checksums-Sha512": [
-    "aaffb080809fdb1d83ccf59e5efa51f9eab23ae0ebf3ecc0348ddc14ca0cc5cc89403fec0480378f1242c1b87fa1166649cccba1e8b49f3251076ba25c5a7838 1734 os-prober_1.81.dsc ffb0e618f9e58a7a8e4a265d253bad4e168c220697216684acb38dbfa20680e552eb7c5f3d2186cd750c61a8929bf152527aa85c39318ed8b025a4ffffadde50 27448 os-prober_1.81.tar.xz"
+    "67380361f720e00fa6a72933ab84f0b1bf84c177103b0c0447753912c11aceb75f402302c901b21e12a23e369f47991819421910e90e37314c1fd69b0ede6821 1833 os-prober_1.83.dsc b6a75cfa9cd71338e43597d3529a9f65cf210013f5b0e05a3e7aada6d33d391453b73dfc366e452538b13701be3e2eb00ad8e22da34ab108f60822c35ec46623 27696 os-prober_1.83.tar.xz"
+  ],
+  "Dgit": [
+    "90c13887cbe2ea7217dbfc08bf2dd76ffba3576c debian archive/debian/1.83 https://git.dgit.debian.org/os-prober"
   ],
   "Directory": [
     "pool/main/o/os-prober"
   ],
   "Files": [
-    "13ad586b61bcab9794fd48d00cc3a2fc 1734 os-prober_1.81.dsc fbd9a262e596bf5cc45a062f18515d50 27448 os-prober_1.81.tar.xz"
+    "805d26502d30401f6524e8cd67ec19cd 1833 os-prober_1.83.dsc 8d686604c565acedf4093f62770e1f15 27696 os-prober_1.83.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -33,7 +36,7 @@
     "os-prober"
   ],
   "Package-List": [
-    "os-prober deb utils optional arch=any os-prober-udeb udeb debian-installer optional arch=any"
+    "os-prober deb utils optional arch=any os-prober-udeb udeb debian-installer optional arch=any profile=!noudeb"
   ],
   "Standards-Version": [
     "3.9.4"
@@ -48,6 +51,6 @@
     "https://salsa.debian.org/installer-team/os-prober.git"
   ],
   "Version": [
-    "1.81"
+    "1.83"
   ]
 }

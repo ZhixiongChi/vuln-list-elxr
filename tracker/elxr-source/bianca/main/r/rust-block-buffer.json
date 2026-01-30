@@ -6,25 +6,31 @@
     "librust-block-buffer-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-generic-array-0.14+default-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-generic-array-0.14+default-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "d03e4647b05459f00049c9f69335426e04fab328 2920 rust-block-buffer_0.10.2-2.debian.tar.xz f7f4b7093b0ac6145009a3277e66a29222d96bff 2201 rust-block-buffer_0.10.2-2.dsc 0b38e3fe2e7d0bc512486de0fe7b2edfb7084bd3 10258 rust-block-buffer_0.10.2.orig.tar.gz"
+    "f9f1554d302e9d305ccd7dea44e359bde06cca33 3012 rust-block-buffer_0.10.4-1.debian.tar.xz 57e4d37e411ae1e28786dd682cd961b3226ca429 1676 rust-block-buffer_0.10.4-1.dsc 4c85b876bcdc62811ebe1534fe40f8bd19b8670b 10538 rust-block-buffer_0.10.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "44542c08e145ca744da487b0dd45910cc8fbfa6bffbbff583d0473afe8059838 2920 rust-block-buffer_0.10.2-2.debian.tar.xz b769d30f130b72726d3014b70a3e7d3c8adf2112200ceb225135d9ce623d7d9c 2201 rust-block-buffer_0.10.2-2.dsc 0bf7fe51849ea569fd452f37822f606a5cabb684dc918707a0193fd4664ff324 10258 rust-block-buffer_0.10.2.orig.tar.gz"
+    "5977232a486753e7570377614ebb98cffb079d2a8c9993282c0d8e73091f48aa 3012 rust-block-buffer_0.10.4-1.debian.tar.xz 825e1ba1d84ac9c8e06eecfddf93c6e36c1eeba2741873a4790866afb5f36157 1676 rust-block-buffer_0.10.4-1.dsc 3078c7629b62d3f0439517fa394996acacc5cbc91c5a20d8c658e77abd503a71 10538 rust-block-buffer_0.10.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "78f5f0af2679b3f7b69449fbf7ae9d4548e03f6c6ef51d5fc693df8fcefaf864779140ad1ac8ffb894d361c15448bf7fbd114d991e2057f3179504ba5780cc06 2920 rust-block-buffer_0.10.2-2.debian.tar.xz bbc7cd3e4ab0c395c54ecea659af35838a8cf62ad4a6eb317ea2c57ef5cb3ab739f7e0de779c091daab7232d7c150c3f31f194544dc75f3312abad716a8d6711 2201 rust-block-buffer_0.10.2-2.dsc 8f1d99af7c08bf3b54ba7383cf0272eb5a8137f6244bc2d7e6d6761016614514ad7d27c5c51946c5cd7becd84b320f62fc2770e7aa07038d370505c29e032078 10258 rust-block-buffer_0.10.2.orig.tar.gz"
+    "6eb61800a15faf5c45eb32863119317f7dd944bf300df43a99608eb0b3f136b5952714a485891e346efbbf6fc5d5e3adffb46c70cce3c86b77175aff965ca08d 3012 rust-block-buffer_0.10.4-1.debian.tar.xz e703f545c3ff5facd92b8604637bff80dd3fce0291c4e9b1400a5480a022c71893bc4c721b5fcf6bc29d76a9b64bea0ea56d946b296051d3fb852e067931e6ea 1676 rust-block-buffer_0.10.4-1.dsc b7d436d8e627e16e6ddc300ee8f706a6cef28ff6f09eff848eedee46f84bdcd03601303c92ab8996042e55922866a59259948177c0a4496eed723523e77f6fdb 10538 rust-block-buffer_0.10.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-block-buffer"
   ],
   "Files": [
-    "163097804801feea03c7f1b3d292fba0 2920 rust-block-buffer_0.10.2-2.debian.tar.xz da70ca8708bc1720ceca74bb6ad8382c 2201 rust-block-buffer_0.10.2-2.dsc 2d4d81d5a0b77bd9e7a88a728bfb9bfc 10258 rust-block-buffer_0.10.2.orig.tar.gz"
+    "a4f9948feab16d6a2379b06c209c73bb 3012 rust-block-buffer_0.10.4-1.debian.tar.xz aaa0d8ca33ea9e40d166bd30afa9766d 1676 rust-block-buffer_0.10.4-1.dsc 023b03cf9968b29253a5dfe62051008d 10538 rust-block-buffer_0.10.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/RustCrypto/utils"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,13 +42,13 @@
     "librust-block-buffer-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo"
+    "dh-cargo, rustc"
   ],
   "Uploaders": [
     "kpcyrd \u003cgit@rxv.cc\u003e"
@@ -54,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/block-buffer]"
   ],
   "Version": [
-    "0.10.2-2"
+    "0.10.4-1"
   ]
 }

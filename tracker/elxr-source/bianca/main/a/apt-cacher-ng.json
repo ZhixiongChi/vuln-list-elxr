@@ -6,22 +6,22 @@
     "apt-cacher-ng"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 10), cmake (\u003e= 2.6.2), libbz2-dev, zlib1g-dev, liblzma-dev, libfuse-dev [!hurd-i386], pkg-config, libwrap0-dev, lsb-base (\u003e\u003e 3.0-6), po-debconf, libssl-dev, libsystemd-dev (\u003e= 210) [linux-any], libpthread-stubs0-dev, libevent-dev, libc-ares-dev (\u003e\u003e 1.15)"
+    "debhelper (\u003e= 10), cmake (\u003e= 3.5), libbz2-dev, zlib1g-dev, liblzma-dev, libfuse-dev [!hurd-i386], pkgconf | pkg-config, libwrap0-dev, sysvinit-utils (\u003e= 3.05-4~) | lsb-base (\u003e\u003e 3.0-6), po-debconf, libssl-dev, libsystemd-dev (\u003e= 210) [linux-any], libpthread-stubs0-dev, libevent-dev, libc-ares-dev (\u003e\u003e 1.15)"
   ],
   "Checksums-Sha1": [
-    "8e57f78ab87c88c0b7d954388e9070fe4482fe2e 50204 apt-cacher-ng_3.7.4-1.debian.tar.xz e30d3a9b8cab60bd47412bc7d397918098f54acd 2127 apt-cacher-ng_3.7.4-1.dsc 5b919e346d73dd336f6cd0d014e16cd523c4e4f0 352140 apt-cacher-ng_3.7.4.orig.tar.xz"
+    "d94d6930e466e2ea200496d5f4665d753e1eb6f1 50520 apt-cacher-ng_3.7.5-1.debian.tar.xz adb8fe85360d8307c845b675b54b9b8a79821761 2165 apt-cacher-ng_3.7.5-1.dsc d34d62f19d108238b5b3a9adea758060e63565b7 354960 apt-cacher-ng_3.7.5.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "84bb67be5a6a77f1d412ea3b55fd6ae36f9434e42536391776c8083b6fc07e69 50204 apt-cacher-ng_3.7.4-1.debian.tar.xz 14e7016a226d9c4d363d343e17dc52911b0a51d52e946d0a46d850f8cacb3ee3 2127 apt-cacher-ng_3.7.4-1.dsc 63140473a669c42f5e2219e38fa9d7c733f9047699dde52c3bd828e372929a5f 352140 apt-cacher-ng_3.7.4.orig.tar.xz"
+    "b0823eb2ddf6283ac3ebf30fb22db2a285d2601f91bacf0b387747d6adbafa78 50520 apt-cacher-ng_3.7.5-1.debian.tar.xz 1fa12cd538126fce81ffffe18400266d75f81ca8d728dc4f623c4b488900d648 2165 apt-cacher-ng_3.7.5-1.dsc 2e4887d6870396334992accd331e12cba86dfef857532f610bb0635a8e32900d 354960 apt-cacher-ng_3.7.5.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "4243f67c10250003fad2d4a99647d3e8c6d538e5d8bcb2c3714b409a3e24836ce67953a7c00594a7615ef71e637f316c738d86e330f2d476e0187d2e955b4ac5 50204 apt-cacher-ng_3.7.4-1.debian.tar.xz cb2ba7edbb592339e4a87d5993d4b47a6e43f652114557119e9a702dee79e63f3523fa5a3ccb1370151abb94291811aed5fd8ba42917ab180d74668afbe981cb 2127 apt-cacher-ng_3.7.4-1.dsc b7058b579f5760702416f40f064862a03bf8d61209a667e3f9eba3f6ea25bea3cc94c45b06679c0a31d680e60a02fe54d1f84f25b5661cd0293af09486256203 352140 apt-cacher-ng_3.7.4.orig.tar.xz"
+    "3cc868fe5355dcb2b04e2ddf66b7b5b88162023e0bed203664ff422ddc5c0136a14a0dff2ef788ef47857b1b8e3ec2fadc10567914a4aac7ccf65fc65d2ea3fb 50520 apt-cacher-ng_3.7.5-1.debian.tar.xz ef53112bb83b8cb505e84dfb22a74e638cb5e3d4815ba508570573c17e9911638adb5e1c9c976d936e8a8ad09856ae6d9183d0211df9b49e33e10a0b5185da8f 2165 apt-cacher-ng_3.7.5-1.dsc 65b9592fea13df1b9ec2a898dfedd7b02f8a660f35c74f09d2cb2177c7325028a4c4c41ba41127cc4de628b9dde5a0dbfb000dde5ad63e9abec336e29b547cc3 354960 apt-cacher-ng_3.7.5.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/a/apt-cacher-ng"
   ],
   "Files": [
-    "07123940f8dd90c8c9ddb6b57c2e7f4a 50204 apt-cacher-ng_3.7.4-1.debian.tar.xz 929321b9d23bddf9b6713ea9a77caee5 2127 apt-cacher-ng_3.7.4-1.dsc ddac6dfd9b0bcbff6ec581a824bb2793 352140 apt-cacher-ng_3.7.4.orig.tar.xz"
+    "91bebe2f195a78e5bbb9a5e09811b014 50520 apt-cacher-ng_3.7.5-1.debian.tar.xz 18d231f8e9a00bf7f1ad999863a41710 2165 apt-cacher-ng_3.7.5-1.dsc c3fd76e693fea62c11d096ded3386f2d 354960 apt-cacher-ng_3.7.5.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/blade/apt-cacher-ng.git"
   ],
   "Version": [
-    "3.7.4-1"
+    "3.7.5-1"
   ]
 }

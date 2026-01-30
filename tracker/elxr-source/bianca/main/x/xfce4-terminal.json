@@ -6,22 +6,22 @@
     "xfce4-terminal"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), gtk-doc-tools, intltool, libglib2.0-dev, libgtk-3-dev, libstartup-notification0-dev, libutempter-dev, libvte-2.91-dev, libxfce4ui-2-dev, libxml-perl, xfce4-dev-tools (\u003e= 4.16)"
+    "debhelper-compat (= 13), gtk-doc-tools, intltool, libglib2.0-dev, libgtk-3-dev, libpcre2-dev, libstartup-notification0-dev, libutempter-dev, libvte-2.91-dev, libxfce4ui-2-dev, libxml-perl, xfce4-dev-tools (\u003e= 4.18.1)"
   ],
   "Checksums-Sha1": [
-    "f94e23a0ba71ec2d0208d202c0a1eefa407da527 8564 xfce4-terminal_1.0.4-1.debian.tar.xz b7de2fc6534743ab52a7d625a08e0f1e48dc9914 1824 xfce4-terminal_1.0.4-1.dsc 2fceb22d8bc068d902fdbe4762c60d71e219b6e8 1009367 xfce4-terminal_1.0.4.orig.tar.bz2"
+    "1edb2a28e34fba1f9d62d2c6061c21c85db572e8 8928 xfce4-terminal_1.1.4-1.debian.tar.xz 411b1cf7d7007a07ca2bcb96246c020aa639246f 1840 xfce4-terminal_1.1.4-1.dsc 6ce026b904cc407cbf49fc01ba1b0f06e2314a5b 1498643 xfce4-terminal_1.1.4.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "dceb6fa1152fa40833f90c5fe57a91b862f30a1a8b7bf9e63d0df948acd2d540 8564 xfce4-terminal_1.0.4-1.debian.tar.xz 2a0d9b7e8faedc8ddc9c217044fe81846cfc4bdb93cac60ad3f267348b1ad88b 1824 xfce4-terminal_1.0.4-1.dsc 78e55957af7c6fc1f283e90be33988661593a4da98383da1b0b54fdf6554baf4 1009367 xfce4-terminal_1.0.4.orig.tar.bz2"
+    "585abe7b06443181dcbe270bb56d8aca3977f18d8e5b1d186f01b3f4d0681b12 8928 xfce4-terminal_1.1.4-1.debian.tar.xz 41294877158bf9b42830f3e4400ba3dc21088ebdae408fdba5860501b042809a 1840 xfce4-terminal_1.1.4-1.dsc 873c921da1f4b986ffb459d4960789c9c063af98648c9f0ca146dc6f6f5b71b7 1498643 xfce4-terminal_1.1.4.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "a283b4f8fe8934a5d0097586c3b4042bafbfa6e56980eeed9df58f59fcd7e0cf71d95d4469ca1a52a0964bc37a088c57a2c8d603f597314eaeb623c3d4044e52 8564 xfce4-terminal_1.0.4-1.debian.tar.xz daea28f66787beaa2f47c16a6e1d3212a17773a12e0db9c084b237cf11af7c9faa779269a953d71f1cdde82d001e1fd5fc0a76e0122d2c9f8f947011b205d8f7 1824 xfce4-terminal_1.0.4-1.dsc 76ea8f296fe1c128dc70d8aabf23447300ba83405d52e844abec89049968bac51fe47fd7545a76e4a421275c6a2f230f326ed3a25083bf536f17fc3218b05fce 1009367 xfce4-terminal_1.0.4.orig.tar.bz2"
+    "6a7f2efda678a473ecf08ed572c3ba003ffb293647ce9a9a24a0c84b8965177379bf04cc289f39ba32a789493de097cfd5f1a6e9c54b7a9ee527d733f2b239cc 8928 xfce4-terminal_1.1.4-1.debian.tar.xz 07e7ca9b6bf1330c127f20ed2da8cf324d335141dbe0b6d1b4aefd1c9ac2e25522740ea607cd76ed96cf18696b6422dfaaa764e6df372929d86a8e4f21f7a4ab 1840 xfce4-terminal_1.1.4-1.dsc c2a749f75142690f188d1f66a63573c612bb47db42f1933d63cfd8026ac0a66067112d92ff52f9ce7dfb735f7f6ea1ac55d34077be0341e7848dd7daffc101a9 1498643 xfce4-terminal_1.1.4.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/x/xfce4-terminal"
   ],
   "Files": [
-    "48767a131d46456b6ea2c7c079e9b484 8564 xfce4-terminal_1.0.4-1.debian.tar.xz 6a260be45449a11450d02a272515829d 1824 xfce4-terminal_1.0.4-1.dsc c025d9d99c1e8489469e5d4f2b994600 1009367 xfce4-terminal_1.0.4.orig.tar.bz2"
+    "c16454973a88982f56edae73b026651d 8928 xfce4-terminal_1.1.4-1.debian.tar.xz ffcdf8ab1ff93a30c3e3c2f4baf12d98 1840 xfce4-terminal_1.1.4-1.dsc ee4c672fc96c81fc8d540f66411ddc6e 1498643 xfce4-terminal_1.1.4.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "xfce4-terminal deb xfce optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.2"
   ],
   "Uploaders": [
     "Yves-Alexis Perez \u003ccorsac@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/xfce-team/desktop/xfce4-terminal.git"
   ],
   "Version": [
-    "1.0.4-1"
+    "1.1.4-1"
   ]
 }

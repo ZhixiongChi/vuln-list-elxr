@@ -6,22 +6,22 @@
     "libjpeg-dev, libjpeg62-turbo-dev, libjpeg62-turbo, libturbojpeg0, libturbojpeg0-dev, libjpeg-turbo-progs, libturbojpeg-java"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 2.8.12), debhelper-compat (= 13), default-jdk, help2man, javahelper, nasm"
+    "cmake, debhelper-compat (= 13), default-jdk [!hppa !hurd-any !powerpc], help2man, javahelper, nasm"
   ],
   "Checksums-Sha1": [
-    "a03095680e51fa7371783ae227b30a90304d9b98 107768 libjpeg-turbo_2.1.5-2.debian.tar.xz 27732b6e8e5ef22a056c63a014b1c6ea2e613dfd 2493 libjpeg-turbo_2.1.5-2.dsc 3731459f8774035efac9bd0a3b890832484a2681 2264471 libjpeg-turbo_2.1.5.orig.tar.gz"
+    "dec74bbb0ec4373046d6fa98608c1825d47856ab 108128 libjpeg-turbo_2.1.5-4.debian.tar.xz 85247e8730ab05b21811e836f631b5bd7830c834 2508 libjpeg-turbo_2.1.5-4.dsc 3731459f8774035efac9bd0a3b890832484a2681 2264471 libjpeg-turbo_2.1.5.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "cdb2433c2f7101345c1ffa14efb943787c675b86354691a32490845fe4bc9237 107768 libjpeg-turbo_2.1.5-2.debian.tar.xz d718ead0dfbcbc8523665c02a7f7152e31039ded641d022868722623bb3b486d 2493 libjpeg-turbo_2.1.5-2.dsc 254f3642b04e309fee775123133c6464181addc150499561020312ec61c1bf7c 2264471 libjpeg-turbo_2.1.5.orig.tar.gz"
+    "739e7dc22904dccdc5ab105de57a6e4c1515c0e841e68226e6410ff4976e0e91 108128 libjpeg-turbo_2.1.5-4.debian.tar.xz 26cbf22aa3b3e327df072513f14a5ddfb4a7b9a3d78c46a5dccfd711c13ac743 2508 libjpeg-turbo_2.1.5-4.dsc 254f3642b04e309fee775123133c6464181addc150499561020312ec61c1bf7c 2264471 libjpeg-turbo_2.1.5.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "db95e1892be9ea74b62c0c6508a1844ef45f7d05b456007d0015ed9783f9996f730c5fa0dde3e31995407fe77a4bb7e9b16671c859e7ffe9b34cbc4304b2b41f 107768 libjpeg-turbo_2.1.5-2.debian.tar.xz 1bfb2b59075c8d95235311232a1691061e3c1595f9689c606eeea65ddc957cd09d6c19362f8ca5a5a81c37f1f8fa6a86d61382f1a630ea0a5adbdf4fea38b8a4 2493 libjpeg-turbo_2.1.5-2.dsc 20036303fbe5703a5742dc3778cc5deb2eb98d00a9852e7e80ba73c195bba011ec206c090589c482f1153f74505c3fe06d96af00f6beaa65a7fcf7ffaf626fc2 2264471 libjpeg-turbo_2.1.5.orig.tar.gz"
+    "d38e9caaf6694ff0fe7fcbe7cea89aecadfa4f240f414945dd86db06a0fff9aa09c1ab91919262873ac8bceb9f3fbec7a4fa0927b6ed964c96eee461615cef07 108128 libjpeg-turbo_2.1.5-4.debian.tar.xz c21853e13799fbdd209f99d8d3a06583c6537566b5b0b7e20eb5d6f78ae20fcd88339ff8de5eeb259652067bfdda6c2e208ea955b69cf49f4d63f10edb19e5a5 2508 libjpeg-turbo_2.1.5-4.dsc 20036303fbe5703a5742dc3778cc5deb2eb98d00a9852e7e80ba73c195bba011ec206c090589c482f1153f74505c3fe06d96af00f6beaa65a7fcf7ffaf626fc2 2264471 libjpeg-turbo_2.1.5.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libj/libjpeg-turbo"
   ],
   "Files": [
-    "200c944c797db52aa8ca8f3b67b6bde5 107768 libjpeg-turbo_2.1.5-2.debian.tar.xz dbd4902d92b61c0538dbc2afe4abed28 2493 libjpeg-turbo_2.1.5-2.dsc d09e8d0639bfbaf8e16360d823900599 2264471 libjpeg-turbo_2.1.5.orig.tar.gz"
+    "cce8ec9ae6141b55379414e6cbda4988 108128 libjpeg-turbo_2.1.5-4.debian.tar.xz 1c76b909c4006e130821a9b9cac7660b 2508 libjpeg-turbo_2.1.5-4.dsc d09e8d0639bfbaf8e16360d823900599 2264471 libjpeg-turbo_2.1.5.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libjpeg-dev deb libdevel optional arch=any libjpeg-turbo-progs deb graphics optional arch=any libjpeg62-turbo deb libs optional arch=any libjpeg62-turbo-dev deb libdevel optional arch=any libturbojpeg-java deb java optional arch=all libturbojpeg0 deb libs optional arch=any libturbojpeg0-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/libjpeg-turbo.git"
   ],
   "Version": [
-    "1:2.1.5-2"
+    "1:2.1.5-4"
   ]
 }

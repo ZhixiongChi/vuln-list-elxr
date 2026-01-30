@@ -6,28 +6,28 @@
     "isympy3, isympy-common, python3-sympy, python-sympy-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-distutils, python3-mpmath, python3-matplotlib, python3-sphinx, texlive-latex-base, texlive-latex-extra, librsvg2-bin, imagemagick, inkscape, graphviz, dvipng, faketime, python3-sphinx-reredirects, python3-sphinx-copybutton, python3-myst-parser, python3-linkify-it, python3-uc-micro, furo, sphinx-basic-ng"
+    "debhelper-compat (= 13), dh-python, dh-sequence-sphinxdoc \u003c!nodoc\u003e, python3-all, python3-setuptools, python3-mpmath, python3-matplotlib, python3-sphinx \u003c!nodoc\u003e, python3-sphinxcontrib.jquery \u003c!nodoc\u003e, texlive-latex-base, texlive-latex-extra, librsvg2-bin, imagemagick, graphviz, dvipng, faketime, python3-sphinx-reredirects \u003c!nodoc\u003e, python3-sphinx-copybutton \u003c!nodoc\u003e, python3-myst-parser \u003c!nodoc\u003e, python3-linkify-it, python3-uc-micro, furo \u003c!nodoc\u003e, sphinx-basic-ng \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e, python3-hypothesis \u003c!nocheck\u003e, python-matplotlib-doc \u003c!nodoc\u003e, python-scipy-doc \u003c!nodoc\u003e, python-numpy-doc \u003c!nodoc\u003e, python-mpmath-doc \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "aecf403a42e05906de5469124a3e9b5b00df7c6d 24812 sympy_1.11.1-1.debian.tar.xz b2794c55e00b36e13fd8845fd9a8f5cc663eab72 2420 sympy_1.11.1-1.dsc 416c2a5de11229d4d07f6c84224076e9fe8019e0 13462495 sympy_1.11.1.orig.tar.gz"
+    "7204cf4dc5f7eee9c77f507a0c377cafb03409f4 28288 sympy_1.13.3-5.debian.tar.xz 3e5430da842b3c1f1fcc93c0a249ffbaa845cf77 2397 sympy_1.13.3-5.dsc bd5acf3fb912327d7a105b4bbb53177943d5ff77 8031110 sympy_1.13.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a339045f8a02ee3e63c5478d0729b631f9c7910e64800e143298bbdfa64854fa 24812 sympy_1.11.1-1.debian.tar.xz 286daebc25e88ab265552d39eac475b54e2b67e8fcf3e59ab1f010729c55bd86 2420 sympy_1.11.1-1.dsc 46f101a1fea9fc175a40deaefef62446134ed94ec3e26136abb0e6423b0d65d1 13462495 sympy_1.11.1.orig.tar.gz"
+    "68ab2fc36d53923f1266bbe9f5f0632c4ecf433c84654450e9a7d69c9263c279 28288 sympy_1.13.3-5.debian.tar.xz b61a6e22919058ae477c00a1ae93d8bd925b79c39b5a0913f601903f91e66574 2397 sympy_1.13.3-5.dsc 3cfd34ee7393c3786356b8ce49c3d6d212960d4c87c61d47e29a381cb5f41f58 8031110 sympy_1.13.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e575acb3c5df321a0e7b67a93793bf7c5475c8289a8d0cf75f4654d57e3f796066a2f65d16d5ef15412d00f6da4792b481ec846885792812fa2114aee6f64d53 24812 sympy_1.11.1-1.debian.tar.xz a536740530846071961f27e7fcb3e9bf9adb0ddda236100e219a3899162ff0dd6b90bbf1c1a304dd57d4c50a31c17f3518bd95406272e1941a602f47ef73df89 2420 sympy_1.11.1-1.dsc 6cc720b673cf31a2e8f56a5cae24ec15024ea43dee92196adb0a87f28561b5d2404fbbfd3d55a8414930a31d4d0f4a731d458ad528c8cbb03c37555f5c14ce4a 13462495 sympy_1.11.1.orig.tar.gz"
+    "b751a70ef5bdfe7461adc1a6979b100c02c657fd628051550226e581187b8e4a885a5a034c0c933db01b9c4401d0498e6c55f34503b44f1f21ae6bf8c27abfa7 28288 sympy_1.13.3-5.debian.tar.xz 6cbd0be977a2076d6d66eadd8e791d56f6888562b1b49ad5e9cd4ee13f54e622b570473f0dd855b5079255f8281b7a20bbd0a4cc668b551eec41209a05bc3742 2397 sympy_1.13.3-5.dsc 0b8b222c10c8a93b93a97486c86e898dbe35a6d33b8142aa8c6645cfe0da8b74551664d52992d9de9144365856ee49587ec414ef13f0658f36712cbf153be7e2 8031110 sympy_1.13.3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/s/sympy"
   ],
   "Files": [
-    "91758b2de72ba9a47fcdab0c3aacae53 24812 sympy_1.11.1-1.debian.tar.xz a65bb075f26444ab813d09e4642c01f8 2420 sympy_1.11.1-1.dsc 3c0e23cfe53a21f68e9b58012f298f43 13462495 sympy_1.11.1.orig.tar.gz"
+    "d7c920e4617fb4e4a67d45f4e7b36a0f 28288 sympy_1.13.3-5.debian.tar.xz 62b86bbec3b2d3df578269102816a75c 2397 sympy_1.13.3-5.dsc 88b77784d68e5dad4e7345f6f7d6e79c 8031110 sympy_1.13.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://sympy.org/"
+    "https://sympy.org/"
   ],
   "Maintainer": [
     "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
@@ -39,7 +39,10 @@
     "isympy-common deb python optional arch=all isympy3 deb python optional arch=all python-sympy-doc deb doc optional arch=all python3-sympy deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
     "Georges Khaznadar \u003cgeorgesk@debian.org\u003e"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/science-team/sympy.git"
   ],
   "Version": [
-    "1.11.1-1"
+    "1.13.3-5"
   ]
 }

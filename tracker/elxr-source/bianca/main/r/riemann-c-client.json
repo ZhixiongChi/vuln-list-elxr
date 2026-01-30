@@ -6,22 +6,22 @@
     "libriemann-client0, libriemann-client-dev, riemann-c-client"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 10~), pkg-config, protobuf-c-compiler, libprotobuf-c-dev, libjson-c-dev, libgnutls28-dev (\u003e= 3.3.0~), check"
+    "check, debhelper-compat (= 12), libgnutls28-dev (\u003e= 3.3.0~), libjson-c-dev, libprotobuf-c-dev, pkgconf, protobuf-c-compiler"
   ],
   "Checksums-Sha1": [
-    "173ce58d12213835dd9ed699664fd766f4fa7dbe 5308 riemann-c-client_1.10.4-2+deb12u1.debian.tar.xz 70d6089fc658ea5e00ce6f099e378bf95ba85f1f 2224 riemann-c-client_1.10.4-2+deb12u1.dsc b7e212840a159c328433a71f747e00e5de9fe195 54156 riemann-c-client_1.10.4.orig.tar.xz"
+    "1f11a16fd209894dee9c991f0a39d9587a16607d 5432 riemann-c-client_1.10.4-4.debian.tar.xz 7c81fe91153de1a4609f328afdd848f0d8bad161 2282 riemann-c-client_1.10.4-4.dsc b7e212840a159c328433a71f747e00e5de9fe195 54156 riemann-c-client_1.10.4.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "32adbec8bed9863c62d5f86278ed34552d1e427a6b39ba4baba761f9790ab7b8 5308 riemann-c-client_1.10.4-2+deb12u1.debian.tar.xz eeac797f8671a8ea6b6dc8efb58f3cd2b988f21fdf838353a537b1dfa9d4155d 2224 riemann-c-client_1.10.4-2+deb12u1.dsc 14b46c073a68401d57d2e309f992577dc9cd07b0da5c912ac30855acd4d9c879 54156 riemann-c-client_1.10.4.orig.tar.xz"
+    "b7648925b9ded15d8ceb28c457a204cb349c0c2bf2faf5933cca109f8743c0ee 5432 riemann-c-client_1.10.4-4.debian.tar.xz bb0945c664d7a0a9a98ae36bc4792ae0ad9cead2ed71a614bc5c551aded08522 2282 riemann-c-client_1.10.4-4.dsc 14b46c073a68401d57d2e309f992577dc9cd07b0da5c912ac30855acd4d9c879 54156 riemann-c-client_1.10.4.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "a2af1bdbba37513a836b111f6d80fe3992d44d032a87b946d2a2f5f9612b4d042b580eee26dc56b26f53b555aed3171074412c7a28c8ee8c646a1849781f627a 5308 riemann-c-client_1.10.4-2+deb12u1.debian.tar.xz 1b2734eab6190353436cafe5937e2053f01e29518cab3e32cd668425fcef492bb16c29b6e7d61b6cf336eb7e0b21ca886a5f51bdd41260a1059ee87eb73c2484 2224 riemann-c-client_1.10.4-2+deb12u1.dsc dafbbad04e755895a9a4e4de0c9f3c0f202cf2ddf1d40109dccd4720c6e00001affca506589a1c849f32d0300c09ac18a0b63a7e44202295dc33de916a35a319 54156 riemann-c-client_1.10.4.orig.tar.xz"
+    "8006fbb8de78d6f7730b264da9d3d4230246ff70107c157d339da4fe6f5305b21f2473306b00069746dc2ee790b7655bd277d9bf1ec5f2f593345bc2b5722364 5432 riemann-c-client_1.10.4-4.debian.tar.xz a09689fde8052cacc784376d4d51e46f3bde889a69c59db930a4b06a8c05d275a2f68b71543ffd2e7ce49699b7ec9b4b6e806db8fad414b22b3627f023f9fa4f 2282 riemann-c-client_1.10.4-4.dsc dafbbad04e755895a9a4e4de0c9f3c0f202cf2ddf1d40109dccd4720c6e00001affca506589a1c849f32d0300c09ac18a0b63a7e44202295dc33de916a35a319 54156 riemann-c-client_1.10.4.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/r/riemann-c-client"
   ],
   "Files": [
-    "dd145ca45535df1948b24e173079e29e 5308 riemann-c-client_1.10.4-2+deb12u1.debian.tar.xz 18218bc56bf57b4eba250469e6e535a3 2224 riemann-c-client_1.10.4-2+deb12u1.dsc 1d4f7f3e16a69175e0f0499be21572b3 54156 riemann-c-client_1.10.4.orig.tar.xz"
+    "9661d6477a2da77d5d1d94ad666e3d05 5432 riemann-c-client_1.10.4-4.debian.tar.xz 41b2f73551b8a5d8d12c5dd377b91f02 2282 riemann-c-client_1.10.4-4.dsc 1d4f7f3e16a69175e0f0499be21572b3 54156 riemann-c-client_1.10.4.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libriemann-client-dev deb libdevel optional arch=any libriemann-client0 deb libs optional arch=any riemann-c-client deb net optional arch=any"
   ],
   "Standards-Version": [
-    "4.2.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,12 +48,12 @@
     "build-essential, check, libgnutls28-dev, pkg-config"
   ],
   "Vcs-Browser": [
-    "https://git.madhouse-project.org/algernon/riemann-c-client/src/branch/debian/master"
+    "https://salsa.debian.org/debian/riemann-c-client"
   ],
   "Vcs-Git": [
-    "https://git.madhouse-project.org/algernon/riemann-c-client.git -b debian/master"
+    "https://salsa.debian.org/debian/riemann-c-client.git"
   ],
   "Version": [
-    "1.10.4-2+deb12u1"
+    "1.10.4-4"
   ]
 }

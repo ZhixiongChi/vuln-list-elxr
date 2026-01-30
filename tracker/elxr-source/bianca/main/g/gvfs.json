@@ -6,22 +6,25 @@
     "gvfs, gvfs-backends, gvfs-common, gvfs-daemons, gvfs-fuse, gvfs-libs"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-exec (\u003e= 0.13), dh-sequence-gnome, gsettings-desktop-schemas-dev (\u003e= 3.33.0), gtk-doc-tools, libarchive-dev, libavahi-client-dev (\u003e= 0.6), libavahi-glib-dev (\u003e= 0.6), libbluetooth-dev (\u003e= 4.0) [linux-any], libbluray-dev, libcap-dev [linux-any], libcdio-paranoia-dev (\u003e= 0.78.2) [linux-any], libdbus-1-dev, libexpat1-dev, libfuse3-dev (\u003e= 3.0.0) [!hurd-any], libgcr-3-dev, libgcrypt20-dev (\u003e= 1.2.2), libgdata-dev (\u003e= 0.18), libglib2.0-dev (\u003e= 2.70.0), libgoa-1.0-dev (\u003e= 3.17.1), libgphoto2-dev (\u003e= 2.5.0) [linux-any], libgudev-1.0-dev (\u003e= 147) [linux-any], libimobiledevice-dev (\u003e= 1.2) [!hurd-any], libltdl-dev, libmtp-dev (\u003e= 1.1.6) [linux-any], libnfs-dev (\u003e= 1.9.7), libplist-dev, libpolkit-gobject-1-dev [linux-any], libsecret-1-dev, libsmbclient-dev (\u003e= 3.4.0) [!hurd-any], libsoup-3.0-dev (\u003e= 3.0.0), libsystemd-dev [linux-any], libudisks2-dev (\u003e= 1.97) [linux-any], libusb-1.0-0-dev (\u003e= 1.0.21) [linux-any], libxml2-dev, meson (\u003e= 0.56.0), openssh-client, pkg-config, polkitd [linux-any], systemd (\u003e= 206) [linux-any]"
+    "debhelper-compat (= 13), dh-exec (\u003e= 0.13), dh-sequence-gnome, gsettings-desktop-schemas-dev (\u003e= 3.33.0), gtk-doc-tools, libarchive-dev, libavahi-client-dev (\u003e= 0.6), libavahi-glib-dev (\u003e= 0.6), libbluetooth-dev (\u003e= 4.0) [!hurd-any], libbluray-dev, libcap-dev [!hurd-any], libcdio-paranoia-dev (\u003e= 0.78.2) [!hurd-any], libdbus-1-dev, libexpat1-dev, libfuse3-dev (\u003e= 3.0.0) [!hurd-any], libgcr-4-dev, libgcrypt20-dev (\u003e= 1.2.2), libgdata-dev (\u003e= 0.18) [!i386], libglib2.0-dev (\u003e= 2.83.0), libgoa-1.0-dev (\u003e= 3.53.1) [!i386], libgphoto2-dev (\u003e= 2.5.0) [!hurd-any], libgudev-1.0-dev (\u003e= 147) [!hurd-any], libimobiledevice-dev (\u003e= 1.2) [!hurd-any !i386], libltdl-dev, libmsgraph-dev (\u003e= 0.3.0) [!i386], libmtp-dev (\u003e= 1.1.21) [!hurd-any], libnfs-dev (\u003e= 1.9.7), libplist-dev, libpolkit-gobject-1-dev [!hurd-any], libsecret-1-dev, libsmbclient-dev (\u003e= 3.4.0) [!hurd-any], libsoup-3.0-dev (\u003e= 3.0.0), libsystemd-dev [!hurd-any], libudisks2-dev (\u003e= 1.97) [!hurd-any], libusb-1.0-0-dev (\u003e= 1.0.21) [!hurd-any], libxml2-dev, meson (\u003e= 0.56.0), openssh-client, pkgconf, polkitd [!hurd-any], systemd-dev (\u003e= 206) [!hurd-any]"
   ],
   "Checksums-Sha1": [
-    "3d938a83ac9fa04ca2f07feaa07a9cfeff405ec6 25428 gvfs_1.50.3-1.debian.tar.xz 9f7f6a5ec0db57433298dbdcf3171aad34594e2c 3507 gvfs_1.50.3-1.dsc 2c0f69e2a3e689abce296962351d44eac8d16c96 1227548 gvfs_1.50.3.orig.tar.xz"
+    "2d263bad1449fc7c5df8173350ab3a175d1113a9 27504 gvfs_1.57.2-2.debian.tar.xz 669171d673f20dffd47aade0e9cf5ba7d2d2612d 3643 gvfs_1.57.2-2.dsc 2dd9bbf63f7340bf5f6ef3ccf16ba583e251baaf 1281772 gvfs_1.57.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "a96ac42d56eebd6f202c15c61edf01aead4b21233a9e0eeacb76c2b0ef2edbd3 25428 gvfs_1.50.3-1.debian.tar.xz 102894c566b7150b71f81f9986ae651d449be0570c0009d6e5a2a1cdd4b9bcd5 3507 gvfs_1.50.3-1.dsc 6897119e97bb16029d2778e1a5a54a6a6592631f8b2f3a2a1dea4ef2b01803fd 1227548 gvfs_1.50.3.orig.tar.xz"
+    "358eeeeef3f67f60aa866ab7ef60b4ffbb3befdd53dcbdfe3eae87e0722382f7 27504 gvfs_1.57.2-2.debian.tar.xz a225fe11333a2052ed27c1ba4649a921f60f08f331e853973d3fcc8c081d96bf 3643 gvfs_1.57.2-2.dsc f16bef8eca1fd6c117e85db011d21e915669790d55867349c5f1b291299e9585 1281772 gvfs_1.57.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "7fd48a59c50c989dc842f47aaac04f8b8c9602beada51e65919b470d119ab3b1055ae44224fbfb03e722ca18a1244a76dedefa82dc37fbfeefee8696a88fdb92 25428 gvfs_1.50.3-1.debian.tar.xz 940c6b52516e5099f218aee84310a6d18cfd109e01d9ac47895d4cb1d697bd1abdf08d269a9caa6247d166a140ee0e505c704bb59da07c27c46dc7f6e1f7dd82 3507 gvfs_1.50.3-1.dsc 5ef5f22d3074b088cc0662ca2639667ffc9dc645677e7ba9014edb9d0631d04c113edada162cda272b72844be24ee947edd587b685cc5c31d24527e9061f14f6 1227548 gvfs_1.50.3.orig.tar.xz"
+    "7f5dae39318dc8d9f45bb2fd70a7fd15d519841829c64f1fb3e5dc9deb9971894c8221b0fb60be0254ae29a7a67c72294489575fdb418cf5ee7bd9baa4abb20b 27504 gvfs_1.57.2-2.debian.tar.xz 96340f79c9fbd1d5638e640e44edcb65940995ae75a0f2ee908ce7b0fa2e89d73ff416ec4e3deb9adeb49778b1a6b088cb8f0f5660a56141eb2ed2930654b904 3643 gvfs_1.57.2-2.dsc 8c68f35f455c8b36b2a32c641da74ca0635f3ab9aca2b483ca87a0b501cb4453be1cb9fd4d60c8d94786bca07cf4446f8d8f8262910da3e803c1146fcecdac9e 1281772 gvfs_1.57.2.orig.tar.xz"
+  ],
+  "Dgit": [
+    "84a41e632a7497c4d26744ead50f020fa695538b debian archive/debian/1.57.2-2 https://git.dgit.debian.org/gvfs"
   ],
   "Directory": [
     "pool/main/g/gvfs"
   ],
   "Files": [
-    "2738c3a5f7f784f62fc12eae28edf7a0 25428 gvfs_1.50.3-1.debian.tar.xz f46192126ca2c2a957ac03ae0e02867f 3507 gvfs_1.50.3-1.dsc 052ef17215d1ff52640713297d4d4f5e 1227548 gvfs_1.50.3.orig.tar.xz"
+    "8259421be7260616a7cb1fc7440f898c 27504 gvfs_1.57.2-2.debian.tar.xz 86d1a2dbdf4621eb188ac38ffe18c7dd 3643 gvfs_1.57.2-2.dsc 057389c83ca13ccdb459c249105ee00b 1281772 gvfs_1.57.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,19 +39,19 @@
     "gvfs"
   ],
   "Package-List": [
-    "gvfs deb libs optional arch=any gvfs-backends deb gnome optional arch=any gvfs-common deb libs optional arch=all gvfs-daemons deb libs optional arch=any gvfs-fuse deb gnome optional arch=kfreebsd-any,linux-any gvfs-libs deb libs optional arch=any"
+    "gvfs deb libs optional arch=any gvfs-backends deb gnome optional arch=any gvfs-common deb libs optional arch=all gvfs-daemons deb libs optional arch=any gvfs-fuse deb gnome optional arch=linux-any gvfs-libs deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "apache2, apache2-dev, dbus, gir1.2-umockdev-1.0, libglib2.0-bin, openssh-client, polkitd, python3-dbus, python3-gi, python3-twisted, samba, sudo, umockdev"
+    "apache2, apache2-dev, dbus, gir1.2-umockdev-1.0, libglib2.0-bin, openssh-client, polkitd, procps, python3-dbus, python3-gi, python3-twisted, samba, sudo, umockdev"
   ],
   "Uploaders": [
-    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Sebastien Bacher \u003cseb128@debian.org\u003e"
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Sebastien Bacher \u003cseb128@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/gvfs"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/gnome-team/gvfs.git"
   ],
   "Version": [
-    "1.50.3-1"
+    "1.57.2-2"
   ]
 }

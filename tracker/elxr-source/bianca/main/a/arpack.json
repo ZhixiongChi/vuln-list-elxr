@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libarpack2, libarpack2-dev, libparpack2, libparpack2-dev"
+    "libarpack2t64, libarpack2-dev, libparpack2t64, libparpack2-dev, libarpack64-2, libarpack64-2-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gfortran, libblas-dev, liblapack-dev, mpi-default-dev, libeigen3-dev"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), gfortran, cmake, libblas-dev, liblapack-dev, libblas64-dev [!armel !armhf !i386 !hppa !hurd-i386 !m68k !powerpc !sh4 !x32], liblapack64-dev [!armel !armhf !i386 !hppa !hurd-i386 !m68k !powerpc !sh4 !x32], mpi-default-dev, libeigen3-dev"
   ],
   "Checksums-Sha1": [
-    "c0c2c9e44ee76afb0c6a79e3b8c43b35da11d609 9808 arpack_3.8.0-3.debian.tar.xz f874fbf18356fc96b7a7b969de659d32dcdafa4d 2199 arpack_3.8.0-3.dsc 6b89dc1b298e1db7df17094308fc3309afa49618 1014494 arpack_3.8.0.orig.tar.gz"
+    "91877eb44f7305907ef265b7a5288ae1fa4866eb 11412 arpack_3.9.1-6.debian.tar.xz ab4f7c8cbc8cf2b328f5d774c74fb0ee0486ff77 2504 arpack_3.9.1-6.dsc 914fad8c40d478f27dc258ba802b89a16fc76310 1020208 arpack_3.9.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a65182bac7be84b925578294139d8aa28c016d551cded49589733bfe037ac5e2 9808 arpack_3.8.0-3.debian.tar.xz 43e669d2904c048902cd07e295dd8e72a5e7f809166d9fda02c903790f8c527e 2199 arpack_3.8.0-3.dsc ada5aeb3878874383307239c9235b716a8a170c6d096a6625bfd529844df003d 1014494 arpack_3.8.0.orig.tar.gz"
+    "8b6112500d691eb94ebddea49f58a20274558ee30b8773250ec55dd07a908d9e 11412 arpack_3.9.1-6.debian.tar.xz 9df92eff7ddb384777a13bea3a81907b804b803c757de9d8e9da97b1bf34d70b 2504 arpack_3.9.1-6.dsc f6641deb07fa69165b7815de9008af3ea47eb39b2bb97521fbf74c97aba6e844 1020208 arpack_3.9.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "aa29b38b379712c417c03ef0a5e659638c43d3737f4473d5354af53d09fc4df03cb0fd70aa00a7270c272fc569ed7fae1e52b8011d05cedfb54d3d84eff7d24f 9808 arpack_3.8.0-3.debian.tar.xz 726e0d66fc68a50680b20925d85349ad35fbfd4b591e2f199eef73079e981c672f9eaf4f625908f9b347d786af9365ebec084ab8c3093cd2529029f7224cb30d 2199 arpack_3.8.0-3.dsc 8969c74c4c0459ea2d29ea49d5260f668fd33f73886df0da78a42a94aea93c9f5fb70f5df035266db68807ab09a92c13487a7a4e6ca64922145aade8a148a2de 1014494 arpack_3.8.0.orig.tar.gz"
+    "bf0f66a4211dcd30311821ebf5c61a571d451b6e708a0fe11862f21137c0cdc1d7afc893ae73bde6a465cdf8e475b0431cb3bf65f0d720412a76ce309a58b643 11412 arpack_3.9.1-6.debian.tar.xz 8d0e34378344058c5ede385a1047dd7e4fb4ca0a957b8d4a2c49112dd30c2f378cdb461dfb6e82ad9b594261bba4a175fb4e9fe2406ff949e6bf69a1ca6fd65f 2504 arpack_3.9.1-6.dsc 1ca590a8c4f75aa74402f9bd62e63851039687f4cb11afa8acb05fce1f22a512bff5fd1709ea85fdbea90b344fbbc01e3944c770b5ddc4d1aabc98ac334f78d2 1020208 arpack_3.9.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/a/arpack"
   ],
   "Files": [
-    "c92408c7e4989c6b48206cf1f1a811a7 9808 arpack_3.8.0-3.debian.tar.xz c08534022018aabed290030ac90c39e7 2199 arpack_3.8.0-3.dsc bb4cf448f2480a0ffe5517d579f980c3 1014494 arpack_3.8.0.orig.tar.gz"
+    "abf897efa083a3985928e3f0322af0bd 11412 arpack_3.9.1-6.debian.tar.xz 4c847838ebf49ac661ca3caff26f666c 2504 arpack_3.9.1-6.dsc 8f66485ae9d7e676b42aeead2bf5757e 1020208 arpack_3.9.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "arpack"
   ],
   "Package-List": [
-    "libarpack2 deb libs optional arch=any libarpack2-dev deb libdevel optional arch=any libparpack2 deb libs optional arch=any libparpack2-dev deb libdevel optional arch=any"
+    "libarpack2-dev deb libdevel optional arch=any libarpack2t64 deb libs optional arch=any libarpack64-2 deb libs optional arch=any libarpack64-2-dev deb libdevel optional arch=any libparpack2-dev deb libdevel optional arch=any libparpack2t64 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Uploaders": [
     "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/science-team/arpack.git"
   ],
   "Version": [
-    "3.8.0-3"
+    "3.9.1-6"
   ]
 }

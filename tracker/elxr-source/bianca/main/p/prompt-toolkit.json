@@ -6,22 +6,22 @@
     "python3-prompt-toolkit"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-asyncssh \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-wcwidth"
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-asyncssh \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-wcwidth"
   ],
   "Checksums-Sha1": [
-    "3057ddbbaef53effcbeae1f79b7cd10b9faa8bf2 4256 prompt-toolkit_3.0.36-2.debian.tar.xz 0bf512c48e50c3d8829cee000d2ea42f97ea2d28 2324 prompt-toolkit_3.0.36-2.dsc 12ec36241bd75b4489f2d0f8b75bb0683da600e5 2680560 prompt-toolkit_3.0.36.orig.tar.xz"
+    "9b71e0ef3b3940e61fbe11a37c7a2dd0835e3710 4936 prompt-toolkit_3.0.51-2.debian.tar.xz e52837427f51e9ec27d929776512a71e9aaec58b 1746 prompt-toolkit_3.0.51-2.dsc 69bd61011954b78cacee194967b20d6554a910bf 2685076 prompt-toolkit_3.0.51.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "9147c500239b7c3829ab2b4ed71342916d758240f1ce85f8367a458d365c7abb 4256 prompt-toolkit_3.0.36-2.debian.tar.xz 3a8721da640489b851c2694a866a5d7d42b3b1d037d4866c3400f5ad550f06a2 2324 prompt-toolkit_3.0.36-2.dsc ec91d01f3b51544ebc7ac0696e938ab2ca7d6092d155776bf92b5c5d07bef036 2680560 prompt-toolkit_3.0.36.orig.tar.xz"
+    "6110dce976d286cc2e89ffd14c2a8a763f8e0d89be92c547fb13f3c93851bb8b 4936 prompt-toolkit_3.0.51-2.debian.tar.xz b0c98a13fc6909e88ff6e1ad69039025d76b210a21793f157601df8d956e269e 1746 prompt-toolkit_3.0.51-2.dsc da33b2636f2d5e69ce7ba86d95d6f9acc308deb142acddb64ba2c4861f4f8341 2685076 prompt-toolkit_3.0.51.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "06b8b998d6da16ac755925b9517dd76f812c3d418f15a1518d0ed9798c75f206309e16f63e18a5ef42ac881b3db4b7e4a7d4afd157a883525a544156b43ef442 4256 prompt-toolkit_3.0.36-2.debian.tar.xz 19f0ead100bde23dcf16e199d2feb2aa510f27c319b0ceb52eb38362f25edd01186a5a4456b1e766f2a76598c0b2cd74a28b3dd8cae7f359d5a5c276e1ce5723 2324 prompt-toolkit_3.0.36-2.dsc c6e8edffd7330915100d6fe2250330a3c17b242144fc0c8d1e91bf4ccd73ac4e4b4222a113283838aae85bfaf0d5ca61da0b183a43556836ec26ad59205d4258 2680560 prompt-toolkit_3.0.36.orig.tar.xz"
+    "58e701e52fcc140cf422b6e6ecde7ea266f1f55c7c2c37f4871ce93f288cb605dae6c1897e46ec56704308024bd40ef5cd08a5eae5f8ef43d69a94d5bf6a0526 4936 prompt-toolkit_3.0.51-2.debian.tar.xz 27f1f635117ce938664383862ff285e6d8227fcca7383ca81d4581ea0693ff3595f96027a2e104dbd33a07233f780a9cdf90e1d9cf52ff55975cbb491ba4228d 1746 prompt-toolkit_3.0.51-2.dsc 3b58f0277b545b2b16f349ae2938fd45f60b841c409fbb2effebe47acda354e378da6856bce9cac25eb34824ca95a77baacfb6c8f82aacce1ebb33f256f7cf4c 2685076 prompt-toolkit_3.0.51.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/prompt-toolkit"
   ],
   "Files": [
-    "f5999c3164a0e0c5fa03413db2b41178 4256 prompt-toolkit_3.0.36-2.debian.tar.xz 29b79c222e0d4eee31377d7d8abf5bcf 2324 prompt-toolkit_3.0.36-2.dsc 96fe8a4ba763e481beec3ece72bc24ea 2680560 prompt-toolkit_3.0.36.orig.tar.xz"
+    "a542a3bdcdad498e7dbfd44d251e0886 4936 prompt-toolkit_3.0.51-2.debian.tar.xz fc79b4977044c2d3e329353007cbd6c2 1746 prompt-toolkit_3.0.51-2.dsc 3280f934044a11b02ac9789b70fc79c9 2685076 prompt-toolkit_3.0.51.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python3-prompt-toolkit deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/prompt-toolkit.git"
   ],
   "Version": [
-    "3.0.36-2"
+    "3.0.51-2"
   ]
 }

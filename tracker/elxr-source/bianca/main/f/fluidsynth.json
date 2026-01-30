@@ -6,22 +6,22 @@
     "fluidsynth, libfluidsynth3, libfluidsynth-dev"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), ladspa-sdk, libasound2-dev [linux-any], libdbus-1-dev [linux-any], libglib2.0-dev, libinstpatch-dev (\u003e= 1.1.0), libjack-dev | libjack-jackd2-dev, libpulse-dev, libreadline-dev, libsdl2-dev, libsndfile-dev, libsystemd-dev [linux-any], libtool"
+    "cmake, debhelper-compat (= 13), ladspa-sdk, libasound2-dev [linux-any], libdbus-1-dev [linux-any], libglib2.0-dev, libinstpatch-dev (\u003e= 1.1.0), libjack-dev | libjack-jackd2-dev, libpipewire-0.3-dev [linux-any], libpulse-dev, libreadline-dev, libsdl2-dev, libsndfile-dev, libsystemd-dev [linux-any], libtool"
   ],
   "Checksums-Sha1": [
-    "e99f0a53fd55bbddac4d3f9ac5598bd2096694c6 20468 fluidsynth_2.3.1-2.debian.tar.xz 38d635e0648a7a31be77e6d186b2309e0bbcb05e 2541 fluidsynth_2.3.1-2.dsc f9aa343a2f61ec7f7cf48361be138706bc09653f 1758632 fluidsynth_2.3.1.orig.tar.gz"
+    "8396bf99eca0f9f515406056678e88efc9446d86 20468 fluidsynth_2.4.4+dfsg-1+deb13u1.debian.tar.xz f49b22c63a9c80aeaa51d10bedb7024520de3041 2679 fluidsynth_2.4.4+dfsg-1+deb13u1.dsc 00a7ddae9f570809b784bdb40c54cbabd45fedb5 1410540 fluidsynth_2.4.4+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "4266b3a5d21890c89cf30d21731641e3ca309119a6a69cee90ccb9fe73f34c57 20468 fluidsynth_2.3.1-2.debian.tar.xz d500a241c2e50a60bedb99f3719626a86fefde8b0f70914f74c761fffe1937b8 2541 fluidsynth_2.3.1-2.dsc d734e4cf488be763cf123e5976f3154f0094815093eecdf71e0e9ae148431883 1758632 fluidsynth_2.3.1.orig.tar.gz"
+    "3010ff30beeb67043ab4ab0e1aec17e48a61ef6dca40305cdf49e65ea17d0879 20468 fluidsynth_2.4.4+dfsg-1+deb13u1.debian.tar.xz 00e5905d438b1ccdd702288b202b8622f3bd98714517185c3a8002cdb5eb8cad 2679 fluidsynth_2.4.4+dfsg-1+deb13u1.dsc f2521f3c5107340e9f652d29f632a98c1f2d1a6e1736dfa0e6cfe2cc76125636 1410540 fluidsynth_2.4.4+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "6ce0d5272f79292d219e3a55dd94d450121dc92c074be08b3f369cb3e51db1035a02ec8dbc878695cb0dbb7f10e148c76cd34a5e2715e54c1e5316d677f8e1bd 20468 fluidsynth_2.3.1-2.debian.tar.xz 112d1602c8d623eef687e9e6e9222b1dc00da1228011efc68af2261183b60e786eb250b12d622edcd71a45c19dcc544820ff291aee13fca72d638bdf128143f6 2541 fluidsynth_2.3.1-2.dsc 1633294bf6c714361c381151b62d9dd2c8f388490153e7964bfa14fd647a681db9ebfe1de0a06279972d6c5b30377f67361feb4db186b1faa235600f0ae02b22 1758632 fluidsynth_2.3.1.orig.tar.gz"
+    "9027224ff12c049daf1ab84f6fe763e090200896f01260ad5c7c42dfcd839cb3cc4675e55ebd4f9726b1b87cdb5598a6812489e609152b8529533ff7e1c9534f 20468 fluidsynth_2.4.4+dfsg-1+deb13u1.debian.tar.xz 555820f66612a528d24fc280790853bd60eba1b43625c738d8fad2f593ecd0692a228a53bcd3e67db47ed95d18e6609f60baa3694213db2702cae9018ce18538 2679 fluidsynth_2.4.4+dfsg-1+deb13u1.dsc 734223abc528d32d5e43559b00f91f8afd1c93baa775c29824490423b5c783c265ac0111b0e0b042ef72a8e1b1ae121404581bfca69aa96a6bc1fb56b5cb43d9 1410540 fluidsynth_2.4.4+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/f/fluidsynth"
   ],
   "Files": [
-    "1c7ac857053260447b6760a0f136acf6 20468 fluidsynth_2.3.1-2.debian.tar.xz ca7f30eb0164ed31e90588d3a1f7daab 2541 fluidsynth_2.3.1-2.dsc 7025da39fde375854bfb19ed38b7ee79 1758632 fluidsynth_2.3.1.orig.tar.gz"
+    "66592e980309cb0acb4fc5d3de25c4af 20468 fluidsynth_2.4.4+dfsg-1+deb13u1.debian.tar.xz 53e9c6ab91796679d27e54e0cacab3d2 2679 fluidsynth_2.4.4+dfsg-1+deb13u1.dsc ba92145ae2f62c4e53a57c22e18db264 1410540 fluidsynth_2.4.4+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "fluidsynth deb sound optional arch=any libfluidsynth-dev deb libdevel optional arch=any libfluidsynth3 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "build-essential, libpulse-dev"
   ],
   "Uploaders": [
-    "Alessio Treglia \u003calessio@debian.org\u003e, David Henningsson \u003cdiwic@ubuntu.com\u003e, Jaromír Mikeš \u003cmira.mikes@seznam.cz\u003e, Dennis Braun \u003csnd@debian.org\u003e"
+    "Alessio Treglia \u003calessio@debian.org\u003e, David Henningsson \u003cdiwic@ubuntu.com\u003e, Jaromír Mikeš \u003cmira.mikes@seznam.cz\u003e, Dennis Braun \u003csnd@debian.org\u003e, Fabian Greffrath \u003cfabian@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/multimedia-team/fluidsynth"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/multimedia-team/fluidsynth.git"
   ],
   "Version": [
-    "2.3.1-2"
+    "2.4.4+dfsg-1+deb13u1"
   ]
 }

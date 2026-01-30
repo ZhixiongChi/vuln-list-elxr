@@ -9,28 +9,31 @@
     "debhelper-compat (= 13)"
   ],
   "Build-Depends-Indep": [
-    "perl (\u003e= 5.31.8)"
+    "libtest-simple-perl \u003c!nocheck\u003e, perl"
   ],
   "Checksums-Sha1": [
-    "5f975eb1a686e2253d77f0e396d79c78c5857edf 3628 libextutils-depends-perl_0.8001-2.debian.tar.xz 3d20e10e06580139d00c55b178327cb86add9b30 2188 libextutils-depends-perl_0.8001-2.dsc 2d112ed37f75a48bc246ee0bcea3fb1acdf48066 16708 libextutils-depends-perl_0.8001.orig.tar.gz"
+    "56c90a564f08b2175f0e6db4b3c25455c2a923cd 3744 libextutils-depends-perl_0.8002-1.debian.tar.xz 09eacd65cc25f2791a25a08680705ec9b5e4d9ad 2470 libextutils-depends-perl_0.8002-1.dsc 546b4d95d9980a3513f45efa9351e084b2f93f47 16750 libextutils-depends-perl_0.8002.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "85014b931561d30330158c59eb783fc1bb80c025a042e57057cabf4ffe2ae27c 3628 libextutils-depends-perl_0.8001-2.debian.tar.xz 84fdf9318b41875537b44f593b24cd905aa0097b2ada91d3d65952598b902b7d 2188 libextutils-depends-perl_0.8001-2.dsc 673c4387e7896c1a216099c1fbb3faaa7763d7f5f95a1a56a60a2a2906c131c5 16708 libextutils-depends-perl_0.8001.orig.tar.gz"
+    "0d88abfd62629d41a60de686cc1ca129046b39a8e3474884bd3524e2bdc05c60 3744 libextutils-depends-perl_0.8002-1.debian.tar.xz 1495d27746beab0938145d83ccd87e9a8c8e2aebf7164d62e2a9460048d8302e 2470 libextutils-depends-perl_0.8002-1.dsc 02b9a46450050ce19b325b23e46bb4ec644229d7f2d95044f67a86d8efacdc29 16750 libextutils-depends-perl_0.8002.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "5e4e6b60337d3064fcf253e8e0e635af46450f61e05586153bbeb5ca9e7b37993eeae927a696bc1eae1973a7e28d884334c378882db8e115bd1094bcdfd8e476 3628 libextutils-depends-perl_0.8001-2.debian.tar.xz cc39dab434429360afca3dd83ff715dca7291e19bf294d9422e3d4a5814dbd1e6dfbfd21aab5b0093a941899d98e467ffae06d41cc2441cd19f1f5fbbe7dbd43 2188 libextutils-depends-perl_0.8001-2.dsc 80141f90fbde7c62b192a55d40d26ce4e442150287ae6fe200388dc84cedba5f5210ee6cd9a40b1a9cda0cc49815b1ba1ab35e75afaa7440de3c3577d01bb733 16708 libextutils-depends-perl_0.8001.orig.tar.gz"
+    "8cf88f4e8c49d363332b551e360771cf37613fbe5797a640e6330df57660f1de9f5bee676cbd828841db70a7e2abd84e90e142894a40a37de07b944fe47b4e7e 3744 libextutils-depends-perl_0.8002-1.debian.tar.xz c61e825139d6d87c8a19c75d96be327d1b1d8e05ad618c784e88869a81a282caa444039efa8f3d45a9618bc3faded85f0aa4eed306c6ab0579a389f9c0619d25 2470 libextutils-depends-perl_0.8002-1.dsc fe0d571174962df92dd9ef3dbce029383d216cd9c3910d2fce539e3a4da9053bb153aad4636d706f5103ec3c58a61736bdb6f0afb15d77374acf64ff45615980 16750 libextutils-depends-perl_0.8002.orig.tar.gz"
+  ],
+  "Dgit": [
+    "fc0af222283b91aeeee72e3ebfec4ca163b8617c debian archive/debian/0.8002-1 https://git.dgit.debian.org/libextutils-depends-perl"
   ],
   "Directory": [
     "pool/main/libe/libextutils-depends-perl"
   ],
   "Files": [
-    "72b8ab7174606f87eac1dba1f0f00b71 3628 libextutils-depends-perl_0.8001-2.debian.tar.xz f365b45ab915d62d051fdf73beeacb8e 2188 libextutils-depends-perl_0.8001-2.dsc ca203697162b842c6c1e25ce102b79a5 16708 libextutils-depends-perl_0.8001.orig.tar.gz"
+    "ab15e253a04a1c3b3502ed912af50814 3744 libextutils-depends-perl_0.8002-1.debian.tar.xz caeb4dfab6cb8ab429b5a16f6f9883d4 2470 libextutils-depends-perl_0.8002-1.dsc e2cb85a8588e478351ed4b7537466aca 16750 libextutils-depends-perl_0.8002.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://gtk2-perl.sourceforge.net/"
+    "https://gtk2-perl.sourceforge.net/"
   ],
   "Maintainer": [
     "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
@@ -42,7 +45,7 @@
     "libextutils-depends-perl deb perl optional arch=all"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libextutils-depends-perl.git"
   ],
   "Version": [
-    "0.8001-2"
+    "0.8002-1"
   ]
 }

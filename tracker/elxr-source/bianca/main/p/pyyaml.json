@@ -6,22 +6,22 @@
     "python3-yaml"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), pybuild-plugin-pyproject, dh-python, python3-all-dev, python3-setuptools, libyaml-dev (\u003e= 0.2.2~), cython3"
+    "debhelper-compat (= 13), pybuild-plugin-pyproject, dh-sequence-python3, python3-all-dev, python3-setuptools, libyaml-dev, cython3"
   ],
   "Checksums-Sha1": [
-    "d4ff3266cf494a110531a534fe5bbf9d3a9f32bc 7800 pyyaml_6.0-3.debian.tar.xz 264b4207522290113366bce701ba0e11aff4e6a8 2094 pyyaml_6.0-3.dsc a8c40a3ae9d4c159382a58db3153d83e5521c51e 124996 pyyaml_6.0.orig.tar.gz"
+    "1432589dbcb432bbd49dffad8809b7fd462c7461 8144 pyyaml_6.0.2-1.debian.tar.xz 59d6beb239f76987117ed1e3b929c052b4005a03 2131 pyyaml_6.0.2-1.dsc 28ff04429be8b54e1e73a7349b5e36034295cf5e 130631 pyyaml_6.0.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a9d739ae15665b3e74913d62dd1afb7e7d37c8f55517da7f9c6035d831739a39 7800 pyyaml_6.0-3.debian.tar.xz 0dfe6bb274f4377d5a5f6a0119e84793d847680d78cad033ff6d6ff4590668e6 2094 pyyaml_6.0-3.dsc 68fb519c14306fec9720a2a5b45bc9f0c8d1b9c72adf45c37baedfcd949c35a2 124996 pyyaml_6.0.orig.tar.gz"
+    "d7869aae92f510860c3774d4f7e81c28fbca3bf23cc493e57e2d23bc274d8975 8144 pyyaml_6.0.2-1.debian.tar.xz 6306e75c1b6c41c3d530afb50e25473e1c2b3cd4434510fab0c9132f6924cfa7 2131 pyyaml_6.0.2-1.dsc d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e 130631 pyyaml_6.0.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "dd0cf9adfdf667b64f882df635ae35975559ba8c5a2e96ff03a10c92aa282da87c93dfa41ac85bd0fa9ac05b5264abd4b83ed8cdc425b59212e57723f7d170bc 7800 pyyaml_6.0-3.debian.tar.xz cb3f1ec6206761098c5bd57424a1bef763126cf7555d582371f5c028320939b52c242d9414afeac8814fe101c7e22d9e24a159245bad1e09a3477c0055f0ac2a 2094 pyyaml_6.0-3.dsc b402993073282e7f4202823b051d364b91929362edd5b3aebe93b56833956ec9279c1ba82b97f8bc8a2b82d20e1060e4ec9fc90400a6ed902adce3e4f83a6e0e 124996 pyyaml_6.0.orig.tar.gz"
+    "8adfad7d45dee74ca21db3d4f42eecead887f506c0cabd8958ffde9461e7a6564772f77b6c15b035b97deab9cc4381574ec41a0c3e5476245a7c464ca1f1309f 8144 pyyaml_6.0.2-1.debian.tar.xz 7400c10eb5c6d8353e466dac8d8aee4ab21aabbea94fe5c261d4f4d6487c95957d1d83153f8ae8467ed66414a224c7b000983a6e4e23a867f70f1b280f50ce87 2131 pyyaml_6.0.2-1.dsc a675e0056bb6af9119c7f2796e349ced05afca64118a5b444d66dafcb6a774cf274eeba7eab044b86eb6c12a9d7c785c654f6cf229e1d190340dd06ea76e25ec 130631 pyyaml_6.0.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/pyyaml"
   ],
   "Files": [
-    "71be55d9589da96d690533547569d15b 7800 pyyaml_6.0-3.debian.tar.xz e54bb1b4e73ecc952a6aa5503c2d557d 2094 pyyaml_6.0-3.dsc 1d19c798f25e58e3e582f0f8c977dbb8 124996 pyyaml_6.0.orig.tar.gz"
+    "3944bbb2c08745617f55fe00efb7e155 8144 pyyaml_6.0.2-1.debian.tar.xz 95ab73b44759de5417e617b6529bee5b 2131 pyyaml_6.0.2-1.dsc 9600ee49b2b4e1a0237cf4173b6dc594 130631 pyyaml_6.0.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python3-yaml deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/pyyaml.git"
   ],
   "Version": [
-    "6.0-3"
+    "6.0.2-1"
   ]
 }

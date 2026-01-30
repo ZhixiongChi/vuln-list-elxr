@@ -6,28 +6,31 @@
     "python3-automat"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-setuptools, python3-setuptools-scm, python3-wheel, python3-attr, graphviz \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-twisted \u003c!nocheck\u003e, python3-graphviz \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-hatch-vcs, python3-setuptools, python3-setuptools-scm, python3-wheel, graphviz \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-twisted \u003c!nocheck\u003e, python3-graphviz \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "d411d75e2472e7583db4e1fc8dfe8f185279b1fe 2800 automat_22.10.0-1.debian.tar.xz f8b66adab377f7ef1315e43b1b4a21bd9ecd6dd5 2179 automat_22.10.0-1.dsc 034f9f5ff542177a8443779c5db803e35984c293 58186 automat_22.10.0.orig.tar.gz"
+    "4e933bf47db9e98354dd2a431dd250b22b7683d3 2980 automat_25.4.16-1.debian.tar.xz 796180614f6e596558f2e2340cdec6424e17ce5f 2324 automat_25.4.16-1.dsc 4a91e50e4ba1c50af44959941a17a34a7424e94d 124032 automat_25.4.16.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "7880dc273fceedc30900a103835515adcbfebc2f96cc1b1e57c419a04198054d 2800 automat_22.10.0-1.debian.tar.xz 96ac8a0245a61716789538c5f3e7e165f69871dc970d906ff0401591d59416f0 2179 automat_22.10.0-1.dsc e9f424466e1cf487e66306819b42cd4dbf76b0f5f7475211d06e48fa944760aa 58186 automat_22.10.0.orig.tar.gz"
+    "7fca2461a22d6c8f4073726ee9119a998efc3d4fd2da84764b982b2accced074 2980 automat_25.4.16-1.debian.tar.xz c0854055ffecbef41bf13adc998e33e304ed1b48ddfe66b436ce2f3a79d60ede 2324 automat_25.4.16-1.dsc cafe1fa2a9006e68aee3b143ecb90f0d1cfabd27c854ec40bced4f469c0942ff 124032 automat_25.4.16.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "24e2a1e7e37e6795d5633743a345edfe67dfc868a14db911a6f82b0cc26331c10860f9646b69ba1df21091f2d63a25547e53a083fc09c3fd2c2f2f4dada75d29 2800 automat_22.10.0-1.debian.tar.xz 242110927dd77b764af13318bde0c359049d4a43130581b3998481f61cfdb910ef89f062e2a2edb0b8742279de981bebc53d70baebc4765ed9715eae5c66af86 2179 automat_22.10.0-1.dsc 16caea66a8621b7d50e68e94007085218ec40ae0f57599d5076ed1915d4a2ebabd2da66659ba70acb9c6d30bc354bcd6126f913af0c0a005db305ca0c203481d 58186 automat_22.10.0.orig.tar.gz"
+    "61c91f2c30174c3dfadfdba279af3f0a111414159aa9195b7c315c246f9f3689b706fda205982e9066303bc19a6dc29b0e555849c544dc4f19370ca6782fd9f5 2980 automat_25.4.16-1.debian.tar.xz 5d1772e347920217c8db707107d8f8ba9c8f8fec2ad8f48381131ee5a2e60a6fd206a210b9f39b6fce172c468c55d13a71cabb2c34e94e1f81051190bc789447 2324 automat_25.4.16-1.dsc 13280875ec0bc7d8e7296cf4f5a8aee687521dde5ec59e370f05fc648a6c344e1d8c956bf63136b4181ae0863285ccf7e5a06edb17d2272ec089783dba9656b5 124032 automat_25.4.16.orig.tar.gz"
+  ],
+  "Dgit": [
+    "de9dbc7a34c77a8435529b7d0a910b251e213921 debian archive/debian/25.4.16-1 https://git.dgit.debian.org/automat"
   ],
   "Directory": [
     "pool/main/a/automat"
   ],
   "Files": [
-    "dc7143f2e006d37e3d620b9c82a7ee4b 2800 automat_22.10.0-1.debian.tar.xz ca1c5303d17220e5bfb2a86b0266b805 2179 automat_22.10.0-1.dsc 52f84a438863872e13bedf27f2bd33a2 58186 automat_22.10.0.orig.tar.gz"
+    "e7a6f6e639f41cf0d2d4b4a368d1ce08 2980 automat_25.4.16-1.debian.tar.xz b16d8049638a7ce8edca957179a4abec 2324 automat_25.4.16-1.dsc 2662061141a77d4fcfe0966c8569bad2 124032 automat_25.4.16.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://pypi.python.org/pypi/Automat"
+    "https://github.com/glyph/automat"
   ],
   "Maintainer": [
     "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/automat.git"
   ],
   "Version": [
-    "22.10.0-1"
+    "25.4.16-1"
   ]
 }

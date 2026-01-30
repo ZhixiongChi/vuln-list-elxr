@@ -6,25 +6,28 @@
     "libclass-data-inheritable-perl"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 10)"
+    "debhelper-compat (= 13)"
   ],
   "Build-Depends-Indep": [
-    "libtest-pod-perl, libtest-pod-coverage-perl, perl"
+    "libtest-pod-coverage-perl \u003c!nocheck\u003e, libtest-pod-perl \u003c!nocheck\u003e, perl"
   ],
   "Checksums-Sha1": [
-    "d83900399275ce17c2eba1557561903d1654462d 3340 libclass-data-inheritable-perl_0.08-3.debian.tar.xz b1a5b820cef4960ea8965b3d41a1075df50b0ff0 2443 libclass-data-inheritable-perl_0.08-3.dsc 522c7e948f126c0d0ab1f37b5e993f4fc5ce65de 5660 libclass-data-inheritable-perl_0.08.orig.tar.gz"
+    "e628abffd4fcda9b8cf8d0594ba053271a031ed1 3188 libclass-data-inheritable-perl_0.10-1.debian.tar.xz 54686c1cc078a2d901c12f6f702f97ccc3542e98 2604 libclass-data-inheritable-perl_0.10-1.dsc 297cd83ea4bc91b914eb1941bf6b284123df7b2e 6462 libclass-data-inheritable-perl_0.10.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "7cfa25fba56c4b3fc6871944069f569a7575a9cd0ba36b6f83be0481308a7278 3340 libclass-data-inheritable-perl_0.08-3.debian.tar.xz 4e7434f3a8a80159d2c1c155030ecd2fe6b749679e8ec0a8389da40f8dea6329 2443 libclass-data-inheritable-perl_0.08-3.dsc 9967feceea15227e442ec818723163eb6d73b8947e31f16ab806f6e2391af14a 5660 libclass-data-inheritable-perl_0.08.orig.tar.gz"
+    "7b005bafe149e04907e76042aa618386758a0c63b170e9d47aacab4d6a19a626 3188 libclass-data-inheritable-perl_0.10-1.debian.tar.xz 7d14e69fee9d849e65360f61b03f95625ae52eff49ac42b5803f7af510e7bda5 2604 libclass-data-inheritable-perl_0.10-1.dsc aa1ae68a611357b7bfd9a2f64907cc196ddd6d047cae64ef9d0ad099d98ae54a 6462 libclass-data-inheritable-perl_0.10.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "17db98de2b9832b18760e4b0586bb12eb3c54f0470f6d10da4ad401de37974361609c3082c40aea62f4256f5fa08078d7b7e4e6b73bac3deaa7693e30ef91921 3340 libclass-data-inheritable-perl_0.08-3.debian.tar.xz acfdaeba2720dd30244dcc655479f2dc99972579f0760f2079d41298466b176522e2ac4863f1a9c586054c1ccc791d2a63c5027e12b0c187017f86e91a4c788c 2443 libclass-data-inheritable-perl_0.08-3.dsc bddc61096158b21d4cfa69538d5db0f53617a66c71447ee193141064f4f58194462b21e0a849510e24e4c263b13be3ee1bc6bb8504320e0a86c02b67ad1652c8 5660 libclass-data-inheritable-perl_0.08.orig.tar.gz"
+    "6457fe99fbfa19251e6595927f25820b648811cfe01eac1dbcbb470c22932c9408fd6773a8b21461e7f7092fa241ad026d0c22e2450ce997e131a621c341339c 3188 libclass-data-inheritable-perl_0.10-1.debian.tar.xz 84e4a75f88f8bdfcfe3312124ee23e8c6dc6eb04ced6a8758375e869b894c5f0ec207c9f83d218663cbd68c390aa1f54180cae3a6da1ed0c05705ca90402e2ee 2604 libclass-data-inheritable-perl_0.10-1.dsc fa415aece575fdf805b80479d6a24277a067ddc0c7392b88aeb02bd6efa2e5047288b287a9c2f2e67fd8576c12ee4567a07f42903a33b6215afc8551959b4ef1 6462 libclass-data-inheritable-perl_0.10.orig.tar.gz"
+  ],
+  "Dgit": [
+    "c71d5e6df915a742da8766e07c4704ccb8216160 debian archive/debian/0.10-1 https://git.dgit.debian.org/libclass-data-inheritable-perl"
   ],
   "Directory": [
     "pool/main/libc/libclass-data-inheritable-perl"
   ],
   "Files": [
-    "895c40235475db6178a01b474394e2a3 3340 libclass-data-inheritable-perl_0.08-3.debian.tar.xz 55ae7274dc94c5dc0ca1a26d24ff004e 2443 libclass-data-inheritable-perl_0.08-3.dsc fc0fe65926eb8fb932743559feb54eb9 5660 libclass-data-inheritable-perl_0.08.orig.tar.gz"
+    "0015cbd3b15d563618ff81d9b8d197e0 3188 libclass-data-inheritable-perl_0.10-1.debian.tar.xz 29baf82162324c33564feaaa3d03de80 2604 libclass-data-inheritable-perl_0.10-1.dsc 6bec8f4663a83972af60bd8e71a06f64 6462 libclass-data-inheritable-perl_0.10.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +45,13 @@
     "libclass-data-inheritable-perl deb perl optional arch=all"
   ],
   "Standards-Version": [
-    "4.2.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
   ],
   "Uploaders": [
-    "Damyan Ivanov \u003cdmn@debian.org\u003e, Xavier Guimard \u003cx.guimard@free.fr\u003e"
+    "Damyan Ivanov \u003cdmn@debian.org\u003e, Xavier Guimard \u003cyadd@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/perl-team/modules/packages/libclass-data-inheritable-perl"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libclass-data-inheritable-perl.git"
   ],
   "Version": [
-    "0.08-3"
+    "0.10-1"
   ]
 }

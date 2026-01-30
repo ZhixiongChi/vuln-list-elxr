@@ -3,25 +3,25 @@
     "all"
   ],
   "Binary": [
-    "libcommons-codec-java, libcommons-codec-java-doc"
+    "libcommons-codec-java"
   ],
   "Build-Depends": [
     "debhelper-compat (= 13), default-jdk, junit4, libcommons-lang3-java, libcommons-parent-java, libmaven-bundle-plugin-java, libmaven-javadoc-plugin-java, maven-debian-helper (\u003e= 2.2)"
   ],
   "Checksums-Sha1": [
-    "2b4e00db669e89202d09d6d7c5ee4cf6ff842fd6 4344 libcommons-codec-java_1.15-1.debian.tar.xz 50ccbef3562a31ac083530fd58a3ac4a5933cdb3 2410 libcommons-codec-java_1.15-1.dsc be55dbb1fdde5865dfc8c838fd8fde62577d4886 310892 libcommons-codec-java_1.15.orig.tar.xz"
+    "71ad4b7df88cdd1381e3e6b0498eee511c027ff3 4284 libcommons-codec-java_1.18.0-1.debian.tar.xz e1e0192d5dd23b25727c79110cda5c0ba5d7803c 2344 libcommons-codec-java_1.18.0-1.dsc 8f87c683cae96a88597284cc125138fa085ae808 337760 libcommons-codec-java_1.18.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "5a72a7cf220eaee54da3d8527141ae8e16c9600922920f10b09d7246e1ed7c4f 4344 libcommons-codec-java_1.15-1.debian.tar.xz af209b1a5d5c8b6880f21b3636228782764e1936953895b53006042374f213fa 2410 libcommons-codec-java_1.15-1.dsc 857c58c23bfe6b284b174d89f323de438042ce9a005b2a81afa658962caff90f 310892 libcommons-codec-java_1.15.orig.tar.xz"
+    "f760c7dfd5d31d425ac97f138e06cd5aa6e653c5c694553bc132907ea248d6b6 4284 libcommons-codec-java_1.18.0-1.debian.tar.xz 0ea822af2eb361e3cc5886d1731451f58a2f723f9b062dd00140420a1ae2672b 2344 libcommons-codec-java_1.18.0-1.dsc 3d0754298a4967e105e82f75b9d72aba5f79350acfb3baf0a683c2ab8114364d 337760 libcommons-codec-java_1.18.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "d03802cbe9acb2a1868d1c26d1e929ecbc8fcd4d7876cc8a55d8e7a22cad8d981204002a3739aad38320611e50063a93396540e8513e4231c82a0fde161649bc 4344 libcommons-codec-java_1.15-1.debian.tar.xz 2705fd25b0569da6750107fcf7d3a513fb5165117866ccfa3a6642dc1900ecab828f4d7ff6a391e795ac106ab80f46bf7ddae5f050b3d0565496b20738421a13 2410 libcommons-codec-java_1.15-1.dsc e9b7e37c4fec5a7e6bf2d86a0242f093db4a17b64d249e851cd35a828a0688028b9324876325929393cac8dfa11e9da822f7fc8f54bbb9492ad29a6fc149e3a6 310892 libcommons-codec-java_1.15.orig.tar.xz"
+    "0345274d579b4f0676bed9fa153e410fb3f6c215326c43cb1d0fbed7a21a95583bcda07a4f8c706fe82fdf7af5d443f6f2d53a945b832f4075a901ad416c05e7 4284 libcommons-codec-java_1.18.0-1.debian.tar.xz 97dc041d0ba6a41bf62828e9fc5ac30959003d44dc7f83361d729c6109dd296f2302017742e926b352652cb7b7f98551a2b2ccb002e2a4c2bc73b31d3728d8ff 2344 libcommons-codec-java_1.18.0-1.dsc 0bd6f22fac42a976bc9c97b3e1cf4b82d87d05f03133641b9bd3822c707ac652af4c97c78e5413fc5b97b69659527bfbf88cd7cf2e0e4b637a262b0c5ad95749 337760 libcommons-codec-java_1.18.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libc/libcommons-codec-java"
   ],
   "Files": [
-    "683a152a3910466acaa7818b0d55303f 4344 libcommons-codec-java_1.15-1.debian.tar.xz a00bc409cd8a54bd8abaa0eec5fe7aed 2410 libcommons-codec-java_1.15-1.dsc 216a44ef94182ca47d5fc7bb50e8cac4 310892 libcommons-codec-java_1.15.orig.tar.xz"
+    "5b7cac0e36977366e5c7403bd6701f08 4284 libcommons-codec-java_1.18.0-1.debian.tar.xz db3919a335ef6999ed82cc0e0caf2e2e 2344 libcommons-codec-java_1.18.0-1.dsc 9976dcdc3557ef030a52c44e1788e928 337760 libcommons-codec-java_1.18.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "libcommons-codec-java"
   ],
   "Package-List": [
-    "libcommons-codec-java deb java optional arch=all libcommons-codec-java-doc deb doc optional arch=all"
+    "libcommons-codec-java deb java optional arch=all"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.0"
   ],
   "Uploaders": [
     "Wolfgang Baer \u003cWBaer@gmx.de\u003e, Torsten Werner \u003ctwerner@debian.org\u003e, James Page \u003cjames.page@ubuntu.com\u003e, Emmanuel Bourg \u003cebourg@apache.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/java-team/libcommons-codec-java.git"
   ],
   "Version": [
-    "1.15-1"
+    "1.18.0-1"
   ]
 }

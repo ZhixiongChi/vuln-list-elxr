@@ -6,22 +6,22 @@
     "python3-tempora"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-freezegun \u003c!nocheck\u003e, python3-jaraco.functools \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm, pybuild-plugin-pyproject, python3-tz \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-freezegun \u003c!nocheck\u003e, python3-jaraco.functools \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-freezegun \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm, pybuild-plugin-pyproject, tzdata-legacy \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "a86626f788292e6a17b2d31a5bf7283671699dbc 3904 python-tempora_5.1.0-1.debian.tar.xz 3959ed5c422bb4b64cf610e1ab60bac7f8658475 2278 python-tempora_5.1.0-1.dsc 86ae79993ab5bf7ace54cf49719de65c3a6f396d 18055 python-tempora_5.1.0.orig.tar.gz"
+    "dec0cefdc46eb28bd03d47cac3cceb285286ccaf 4484 python-tempora_5.7.0-2.debian.tar.xz e84758e27d8103b9cfd3cdc53567a4c6137db556 2264 python-tempora_5.7.0-2.dsc cc2649976c9c781c405e786c7566b2b04904b3d9 19259 python-tempora_5.7.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "2473824873bff857ee6e2745f2b580d41d95dfd0feb851c0f3dd56b5909d4691 3904 python-tempora_5.1.0-1.debian.tar.xz 0679a23ddbb739edd9025a647326e9439280a451218802f2b4e0ec3350ce32ed 2278 python-tempora_5.1.0-1.dsc 17c127766ab82f6eb8c3ec6b2fa4d3d331afddd8fc2b5868346ced39b876d403 18055 python-tempora_5.1.0.orig.tar.gz"
+    "6a2b317b3678729476798b0132939b988bab8aa32e1347b1ac9ff981520c09c1 4484 python-tempora_5.7.0-2.debian.tar.xz c68a3d891f9edf846bf29ba5f537fa59969e9b4a0aa1b2581ee4a4f949757b79 2264 python-tempora_5.7.0-2.dsc b4d41d3adf3798f57ed35b71326e325a8681b00576a03b398a0f3d25e861f14e 19259 python-tempora_5.7.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "b5a0d9a8f06b5807ad751d6664206ce88edc5cf130c927903c323b943a8987fda902a12ef79337cf0b2bb683b7da6697533a667312e7c291ae6de8e524f49a22 3904 python-tempora_5.1.0-1.debian.tar.xz 8bc067441ce9296c14327f66f6034b469bfe12182ed74c43b7c43cc586052313e221306e12239042ee71854dfba2c5b84e35e34fb488ed63365803d05f15cb88 2278 python-tempora_5.1.0-1.dsc 9dc36954b0812adf58645b5894495458a4bee97939f9f72bf7dc273e503333142fb5e69c81f7af4178a7d9363faca6f14b3b9b0d05ca65e01581fe7bc20d9999 18055 python-tempora_5.1.0.orig.tar.gz"
+    "a6daf2b38c715ed8dca8073ae324fbf4d8c6ee332500474977f8eb6c294235074425155e42dc76b612fef664c297dc44ca23e35c783ec7efdaffdd235b19cd1f 4484 python-tempora_5.7.0-2.debian.tar.xz cd3fdd51961dc507644cee01e5e4c382322e1bf8f9b0d7a7933ac376a8f45d14f63a8ab048f210c2db66166b20545f213a284a079ad00e6bce4f191217bf5cc0 2264 python-tempora_5.7.0-2.dsc 9a248e3378ac0231a8dbf8200474694f19aa3842ae465b47301311852afe1854e143064bdc36d8b887524f4c6e6c3f929efe49f66cc9a3a777d0eeb13c7f013c 19259 python-tempora_5.7.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-tempora"
   ],
   "Files": [
-    "7a19133c0e24f408a39c9fdbc124767b 3904 python-tempora_5.1.0-1.debian.tar.xz 1ccc1be4fe13105fc307973a58e8d3a5 2278 python-tempora_5.1.0-1.dsc 026a7db77915baffac6068f74aeec9b4 18055 python-tempora_5.1.0.orig.tar.gz"
+    "df86573a77d21bde8d494e9d95c53a1f 4484 python-tempora_5.7.0-2.debian.tar.xz a4e964933d2ec42e4b73a06e4e7ca0b1 2264 python-tempora_5.7.0-2.dsc f0b18cd842777665a3e2bda423d100f8 19259 python-tempora_5.7.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,24 +39,21 @@
     "python3-tempora deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "python3-all, python3-freezegun, python3-pytest"
-  ],
-  "Uploaders": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+    "python3-all, python3-freezegun, python3-pytest, python3-pytest-freezegun, tzdata-legacy"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/python-team/packages/python-tempora"
+    "https://salsa.debian.org/jcfp/python-tempora"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/python-team/packages/python-tempora.git"
+    "https://salsa.debian.org/jcfp/python-tempora.git"
   ],
   "Version": [
-    "5.1.0-1"
+    "5.7.0-2"
   ]
 }

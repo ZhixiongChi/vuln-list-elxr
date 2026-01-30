@@ -6,25 +6,25 @@
     "openshift-imagebuilder, golang-github-openshift-imagebuilder-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-golang, golang-any, golang-github-containerd-containerd-dev, golang-github-containers-storage-dev (\u003e= 1.11), golang-github-docker-distribution-dev, golang-github-docker-docker-dev (\u003e= 18.09.3+dfsg1), golang-github-fsouza-go-dockerclient-dev, golang-github-opencontainers-image-spec-dev, golang-github-ulikunitz-xz-dev, golang-glog-dev, golang-google-genproto-dev, golang-google-grpc-dev"
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-containerd-containerd-dev, golang-github-containers-storage-dev, golang-github-docker-distribution-dev, golang-github-docker-docker-dev (\u003e= 26.1.4+dfsg1-6), golang-github-fsouza-go-dockerclient-dev (\u003e= 1.11), golang-github-opencontainers-image-spec-dev, golang-github-ulikunitz-xz-dev, golang-glog-dev, golang-google-genproto-dev (\u003e\u003e 0.0~git20210726), golang-google-grpc-dev (\u003e\u003e 1.64)"
   ],
   "Checksums-Sha1": [
-    "7a14ac8b7788f7356ed1278017f0399197148cc5 19636 golang-github-openshift-imagebuilder_1.2.3+ds1-2.debian.tar.xz 0a465ddd228d9f6f5eb63c51b2ce710fca1d25b8 2996 golang-github-openshift-imagebuilder_1.2.3+ds1-2.dsc 84edd17f51900f6274653cd67fd0366c31e4737b 112708 golang-github-openshift-imagebuilder_1.2.3+ds1.orig.tar.xz"
+    "49b8d7d2d29f0425e28529820e79d175f68f0635 20740 golang-github-openshift-imagebuilder_1.2.15+ds1-1.debian.tar.xz b18da5a415a07751384b6583cb26d06501d0c2e8 3036 golang-github-openshift-imagebuilder_1.2.15+ds1-1.dsc 1261001c09ffcc2a6fd1612e4359599ae8a22e01 131396 golang-github-openshift-imagebuilder_1.2.15+ds1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "5f1c0bd4eedadf24d90790a5770b5bcf3d18b7080af7c11e53eae0b2da38816c 19636 golang-github-openshift-imagebuilder_1.2.3+ds1-2.debian.tar.xz 47f3a2acba16e60ad4d3d604004096e9b0cb994f580a2124c12a2ce0c09fc3c2 2996 golang-github-openshift-imagebuilder_1.2.3+ds1-2.dsc 724614f3cc228110c1ff83d27ba73d25483f341d8b0db40a7f696c5ce9e6ad13 112708 golang-github-openshift-imagebuilder_1.2.3+ds1.orig.tar.xz"
+    "b4d7f4fe91bbe4eebb7d0d17597bbae9a9012dcf05fd1c0ee1ad24e3da5afb36 20740 golang-github-openshift-imagebuilder_1.2.15+ds1-1.debian.tar.xz 9fa2765f5977d6b981f2579b07cd085fdcc372d961ba81ad00a5db258b389b19 3036 golang-github-openshift-imagebuilder_1.2.15+ds1-1.dsc decd3f2744b925bdab8633eca67dd56e51892f2689807f4d4372956b513ac634 131396 golang-github-openshift-imagebuilder_1.2.15+ds1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "05d169c0a9f146f8c6bbbfce8dc012db190f7337d4fb48ee68362d3daf07b9bb41eed52cb3290d040dd331f54ae0d0bb1c4d11d5fe64e86382a867ae77f39f2a 19636 golang-github-openshift-imagebuilder_1.2.3+ds1-2.debian.tar.xz 101d74292f5db6fbdbe49071b2ac41becd9327d988eae42ceb4fef2f587687dd940fd383d324deebb40906dfe60504e16a824ca7dd28427f38dd6a0246a18940 2996 golang-github-openshift-imagebuilder_1.2.3+ds1-2.dsc 83d672da921dce2a9d2d844ef9edf15dddb75bb88b86eb6a1e8981eb39ac00fd6a2b1d6921c29e385e708f25ed72ac4ce5e0672cdd6569c7b4539cb3bb37a681 112708 golang-github-openshift-imagebuilder_1.2.3+ds1.orig.tar.xz"
+    "103aa2aa23bc6255c613cf8761a07b461fbed36b2f90336deda51b505714b400bf00877a5a158efa00f3bc115b2a8654201b7e22358ab2df1d272718026edc9c 20740 golang-github-openshift-imagebuilder_1.2.15+ds1-1.debian.tar.xz 087a3729ef86a4c017c9a2fffe994b4ede60da80210e2ad4840861cae9d07fa9d0f2cb20aeee50121b87733800bd13a932e0933ef9d7e69b44deb9e038de7872 3036 golang-github-openshift-imagebuilder_1.2.15+ds1-1.dsc b1444448fc8b5d757659bf83ce7a55c529c805f7735a88bd001d02574d84ca94027ce240c664d4028ece469845b2255c9886b92ff77138837308cd478820f113 131396 golang-github-openshift-imagebuilder_1.2.15+ds1.orig.tar.xz"
   ],
   "Dgit": [
-    "3dfc60f9aa8d727ee43771d9fc4dcf441469170d debian archive/debian/1.2.3+ds1-2 https://git.dgit.debian.org/golang-github-openshift-imagebuilder"
+    "bd800835544a0ad94f74f0094903fd0a730a264b debian archive/debian/1.2.15+ds1-1 https://git.dgit.debian.org/golang-github-openshift-imagebuilder"
   ],
   "Directory": [
     "pool/main/g/golang-github-openshift-imagebuilder"
   ],
   "Files": [
-    "4b610dcbcc92e856d5cbebe0f5dc5d39 19636 golang-github-openshift-imagebuilder_1.2.3+ds1-2.debian.tar.xz 6a431553be622b8fdf852734d4fcff88 2996 golang-github-openshift-imagebuilder_1.2.3+ds1-2.dsc dab8abf37fb7b4ee7496ee3a29f6e806 112708 golang-github-openshift-imagebuilder_1.2.3+ds1.orig.tar.xz"
+    "489332cedfa6bbddb00f037fc19f006e 20740 golang-github-openshift-imagebuilder_1.2.15+ds1-1.debian.tar.xz 71b448aea6227532a0803a9ef34a4eae 3036 golang-github-openshift-imagebuilder_1.2.15+ds1-1.dsc f3d1f6c936c3d49643fd7aa8a538ddf8 131396 golang-github-openshift-imagebuilder_1.2.15+ds1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +45,7 @@
     "golang-github-openshift-imagebuilder-dev deb devel optional arch=all openshift-imagebuilder deb devel optional arch=any"
   ],
   "Standards-Version": [
-    "4.2.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-openshift-imagebuilder.git"
   ],
   "Version": [
-    "1.2.3+ds1-2"
+    "1.2.15+ds1-1"
   ]
 }

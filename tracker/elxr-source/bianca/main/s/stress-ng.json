@@ -6,25 +6,28 @@
     "stress-ng"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 13), debhelper-compat (= 13), zlib1g-dev, libbsd-dev, libgcrypt20-dev, libjpeg-dev, libkeyutils-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64 !linux-ia64], libapparmor-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], apparmor [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], libaio-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], libcap-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], libsctp-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], libipsec-mb-dev [amd64], libjudy-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], libatomic1 [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], libkmod-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], libxxhash-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], libglvnd-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], libgbm-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64]"
+    "debhelper (\u003e= 13), debhelper-compat (= 13), libacl1-dev, zlib1g-dev, libbsd-dev, libeigen3-dev, libcrypt-dev, libjpeg-dev, libmpfr-dev, libgmp-dev, libkeyutils-dev [linux-any], libapparmor-dev [linux-any], apparmor [linux-any], libaio-dev [linux-any], libcap-dev [linux-any], libsctp-dev [linux-any], libipsec-mb-dev [amd64], libjudy-dev, libatomic1 [linux-any], libkmod-dev [linux-any], libxxhash-dev, libglvnd-dev, libgbm-dev [linux-any]"
   ],
   "Checksums-Sha1": [
-    "fc4e56b75c2642284d5e3ecede8dd86e74b71f29 161812 stress-ng_0.15.06-2.debian.tar.xz ce010ea6f0f80e1960c4ccd660a46d01f29305fe 2528 stress-ng_0.15.06-2.dsc 840811765c93014298746b53e28f366a4ed35bd4 3209284 stress-ng_0.15.06.orig.tar.xz"
+    "404d6d8fc3b537ea9b394b4d94fa8f4bbc89dce3 217388 stress-ng_0.19.02-1.debian.tar.xz 44cdd9be9c011af6c9d90eb1a992856b5a60ab91 2198 stress-ng_0.19.02-1.dsc e0613683eeb4b4a00c6ea1c237736aa0df00d72e 5775180 stress-ng_0.19.02.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "17df83afd80fac8335b3dcfbdff7270b0ff51f4ce7b4b803f109f1d23f10a809 161812 stress-ng_0.15.06-2.debian.tar.xz e6dd90893370ebcd62e16c087a8c6619540ec2a3acf2b40c844a7dd0fac18411 2528 stress-ng_0.15.06-2.dsc 5eeec9ac1f7e973ccb7e3c9c55159ad8c72e442d207b0fa15e661eb0eeb7a434 3209284 stress-ng_0.15.06.orig.tar.xz"
+    "09c5567e9053390d50fd10c968fe11653bb47c44616b0a4c8098c0a8af636695 217388 stress-ng_0.19.02-1.debian.tar.xz 1f7d36197a695e17715432f6eea1f8c571776f09bc702dc4b8c734549b7141b1 2198 stress-ng_0.19.02-1.dsc ffe8907154cc3b65cc66cde8663106355f88c948b58169cee1badbde9e0f52bd 5775180 stress-ng_0.19.02.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "14dccfbbde4caa048ec918a49272f39500511e44710fa61666702f4cf6c0ba0eb2c7d2a801b848d5f311203cc60529241db3d467706a55fa0be885c49df344cf 161812 stress-ng_0.15.06-2.debian.tar.xz 3de977342752bd75ac384cf23c48c4366aa6160548ef0145cd820a268c102a054fa7898b2cca3080a0761adeb9fd53efce7210c033590402559a04dd481f9fea 2528 stress-ng_0.15.06-2.dsc 1acf98d0eaadff831abf5d3ca7e34bc856d44f2cece417db69b526d27cae8cb183373f2d9db7d29242c455a5059c57f878243c1894b70d516baa505234477f33 3209284 stress-ng_0.15.06.orig.tar.xz"
+    "b4672165d5bd48065e0073ddad6b36473435668066c6b4b7a9e2cfd5bd3c99407b2ab259cc5e8c9a04f7ea53dc7a47b2d3f57f9d11053b919624a2829ac77e35 217388 stress-ng_0.19.02-1.debian.tar.xz f218a2988424e23be31403aca4d20d4ccb4a2392de3ae2dcf72a5c2e40cf9ae77470292b2239d7f683a1ff3b0926bdbea969a9083f7657891c5d22d2e80b6a3e 2198 stress-ng_0.19.02-1.dsc c652b324fc24df760472760a45836ea7d8bb2f8f0c0083573fcb8bea08f3808505a17d3aa997ea184e70cffb99bfb6e2b3f295d528defea2011f00378c6ff847 5775180 stress-ng_0.19.02.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/s/stress-ng"
   ],
   "Files": [
-    "21e892ed55291085e53ab6cd56be2201 161812 stress-ng_0.15.06-2.debian.tar.xz 6ce7762877376035c349706825163487 2528 stress-ng_0.15.06-2.dsc b5d53228398a39cdf36f33ebc20fd644 3209284 stress-ng_0.15.06.orig.tar.xz"
+    "cab9a4dc53e1dc01ac4a0da7cbfe7a55 217388 stress-ng_0.19.02-1.debian.tar.xz 461561a2005c0f33c8d1232f6c848745 2198 stress-ng_0.19.02-1.dsc 8a8f6f07a801058d075fc449ec991604 5775180 stress-ng_0.19.02.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ColinIanKing/stress-ng"
   ],
   "Maintainer": [
     "Colin Ian King \u003ccolin.i.king@gmail.com\u003e"
@@ -36,12 +39,12 @@
     "stress-ng deb devel optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Version": [
-    "0.15.06-2"
+    "0.19.02-1"
   ]
 }

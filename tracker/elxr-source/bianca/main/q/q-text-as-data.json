@@ -6,25 +6,25 @@
     "python3-q-text-as-data"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 9), dh-python, openstack-pkg-tools, python3-all"
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all"
   ],
   "Build-Depends-Indep": [
     "python3-pytest, python3-six"
   ],
   "Checksums-Sha1": [
-    "4dc5771afb593c2d75f5b0da74760386456a81c9 3244 q-text-as-data_3.1.6-2.debian.tar.xz 296439678358e15cc9e33fe682328bd3bff0f200 2096 q-text-as-data_3.1.6-2.dsc b0adb09c190d66a11aa0be5130c6b41c37b38cae 227432 q-text-as-data_3.1.6.orig.tar.xz"
+    "57640ed4acb1b276787ffb74d708e16b2aa8522e 3940 q-text-as-data_3.1.6-4.debian.tar.xz 2ee1728f35c0e770b15910791751b748d5c0228c 2152 q-text-as-data_3.1.6-4.dsc b0adb09c190d66a11aa0be5130c6b41c37b38cae 227432 q-text-as-data_3.1.6.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "3878b4e597f6eaddda92813e8a61a835525b907b5c9a7a2b74124e4438a427f3 3244 q-text-as-data_3.1.6-2.debian.tar.xz 64d0b5dbc931feda954790e6408ce4e7d3f695e2913766878f3984c00b7de495 2096 q-text-as-data_3.1.6-2.dsc b54a847a8828a7d1acf96add3937f93cbe92cd1fe43bf208f0eabf27d4d501b4 227432 q-text-as-data_3.1.6.orig.tar.xz"
+    "fba1b4db05910c1f5ce44b8f8495a43d0be84b8c80744c3876c4e992c406a00a 3940 q-text-as-data_3.1.6-4.debian.tar.xz 41368eb703f718ff5a28fdae900d95fbe7ad3728027e222deb375044c791421c 2152 q-text-as-data_3.1.6-4.dsc b54a847a8828a7d1acf96add3937f93cbe92cd1fe43bf208f0eabf27d4d501b4 227432 q-text-as-data_3.1.6.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "0a261bd7e343cfd16a0cbe24507c66437049c3ded11e37769da009f1139b2e46fb8a06a667f8c124a1fcdc237ea06800e4ca6119366890d714b7f44589f08010 3244 q-text-as-data_3.1.6-2.debian.tar.xz 5e8f49315d888872b69a47aa360ccedef2d3c10e3c77051a083e8363b17a6c914d335982ff3fc4a22147d7e57cb6ac111dfbd5ce59d283ae78d1ae2516f279ce 2096 q-text-as-data_3.1.6-2.dsc 5db29b04abe4223819616f89a0b166def55da093a4605d6e9295e0211a28b6078d1aeb0f58dee8b346f61fccd32d3da875673efe80c9374487ebf85a888f1813 227432 q-text-as-data_3.1.6.orig.tar.xz"
+    "dd7aa57ec4c52ea09373b4ab9a4bd181b0daa8ed56293359dd91b7c86d56fb7e4cd7b60abad85bd664823ac1473a7f2df603121cc65ec2f2293065513575f2d6 3940 q-text-as-data_3.1.6-4.debian.tar.xz 6e218eb514d5cef72aca8c3b81a3bfe270bc31269940442e867a9746ef182ba7cf39223d00c5376afcb879cee9983dc81ccd650f56c4bdeb0c8bb7290672099c 2152 q-text-as-data_3.1.6-4.dsc 5db29b04abe4223819616f89a0b166def55da093a4605d6e9295e0211a28b6078d1aeb0f58dee8b346f61fccd32d3da875673efe80c9374487ebf85a888f1813 227432 q-text-as-data_3.1.6.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/q/q-text-as-data"
   ],
   "Files": [
-    "b4574fe62b095d1df51b6adae9510e82 3244 q-text-as-data_3.1.6-2.debian.tar.xz 8c697f1d7a964682ba57beb61bf3748e 2096 q-text-as-data_3.1.6-2.dsc 14506a4c76fedd88a1bd9163b0ded64d 227432 q-text-as-data_3.1.6.orig.tar.xz"
+    "514455862eefd36a2042b6238dd10709 3940 q-text-as-data_3.1.6-4.debian.tar.xz c130c73c752e57115a650f9034b18da2 2152 q-text-as-data_3.1.6-4.dsc 14506a4c76fedd88a1bd9163b0ded64d 227432 q-text-as-data_3.1.6.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -44,6 +44,12 @@
   "Standards-Version": [
     "4.0.1"
   ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
   "Uploaders": [
     "Thomas Goirand \u003czigo@debian.org\u003e,"
   ],
@@ -54,6 +60,6 @@
     "https://salsa.debian.org/openstack-team/third-party/q-text-as-data.git"
   ],
   "Version": [
-    "3.1.6-2"
+    "3.1.6-4"
   ]
 }

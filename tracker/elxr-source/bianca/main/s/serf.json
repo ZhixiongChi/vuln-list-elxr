@@ -6,22 +6,25 @@
     "libserf-1-1, libserf-dev"
   ],
   "Build-Depends": [
-    "chrpath, debhelper-compat (= 12), libapr1-dev, libaprutil1-dev, libkrb5-dev, libssl-dev, python3-openssl \u003c!nocheck\u003e, scons, zlib1g-dev"
+    "chrpath, debhelper-compat (= 13), libapr1-dev, libaprutil1-dev, libkrb5-dev, libssl-dev, scons, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "e6b0cf758da8d04745238a1de049589e17d82d92 72992 serf_1.3.9-11.debian.tar.xz f34132beb2314eb223948501d4970393e0aa1068 2157 serf_1.3.9-11.dsc 6e05be4b9756ec152455199b4c8e7fdfc6bfa11e 189822 serf_1.3.9.orig.tar.gz"
+    "3de976d1cfba7971c89b45e4732d308905abe537 68288 serf_1.3.10-3.debian.tar.xz 4374b4c1d390882526d89a1c0a37a6c1c166b3a1 2516 serf_1.3.10-3.dsc d67c209cb0161c4707ba114d1195c5ba3becfa73 147744 serf_1.3.10.orig.tar.bz2 27af97ee34b650b5b5aec6cebd93673ea2583b10 819 serf_1.3.10.orig.tar.bz2.asc"
   ],
   "Checksums-Sha256": [
-    "ad021b52dd04241d6af2e8c0dc88e7054d54c97ae4062fd465a86a21b9c7d4e2 72992 serf_1.3.9-11.debian.tar.xz 67a9abf26c6fddee8358d671e138369dd58992f19d184fd6b687c213f5ea0595 2157 serf_1.3.9-11.dsc f014e4d53f598a9f8ff7e57dad2c5c7d5f9fd271b3ed690cb9176534470d0cd1 189822 serf_1.3.9.orig.tar.gz"
+    "3c294550750f7bc059f2dd36cda9268be3b1d8b038ad1ec8068c45d413475c24 68288 serf_1.3.10-3.debian.tar.xz 128569e40d51aa2faa665b8c4f71db2990c698fb60d2ce2a2999ad19addb4651 2516 serf_1.3.10-3.dsc be81ef08baa2516ecda76a77adf7def7bc3227eeb578b9a33b45f7b41dc064e6 147744 serf_1.3.10.orig.tar.bz2 30fff060e76f36fb20fa94a2475ba877c4b953407b789c90f9fee90d78de98a1 819 serf_1.3.10.orig.tar.bz2.asc"
   ],
   "Checksums-Sha512": [
-    "0abff10d354ea445e9dd1aeadf27be84f69b612ec4fc4408e8bc0c0adcb8758faf49d17f52dcd2037c803d7aed8580b7a038356e0474ab4e24ab9d9f89bf81e7 72992 serf_1.3.9-11.debian.tar.xz 123a0044c3cb053d3e2fa603981ea1164074f8e7c778d7a4ae413fcd3377d5bc1646fa401cc9e459d234a52032ae44d70e65bd4174811285a78b8432b8473e8a 2157 serf_1.3.9-11.dsc c410911bc97f8e2710ee7a791cc59610a963d67aa3f26b8870f3ded14b6f05461625be8a4b96b00cf49b395cbac47eade0bed4ee878e7330f79559af2110c5d1 189822 serf_1.3.9.orig.tar.gz"
+    "d05a9b025030a532ac7f4556677a161f6b3ff19c78e589c1c5ce134c3ef44c140f93d3ffefa05d7acc937441dffe693c6e29059bb7b2070f4dfd0b9e939c323d 68288 serf_1.3.10-3.debian.tar.xz 1ff163aa3afc7594eb228b91270d17cb3463b1a766a3eb9c80b9e02747486786591093255d6ac80976f88b462ff868b40552a213f0a3c9ff10d397a01c416b6e 2516 serf_1.3.10-3.dsc 19165274d35c694935cda33f99ef92a7663a5d9c540fb7fd6792aa0efe39941b2fa87ff8b61afd060c6676baec634fd33dc2e9d34ecbee45ed99dfaed077802c 147744 serf_1.3.10.orig.tar.bz2 6cb51a1a0cebc605c6a73330f55241191943393015cab1028326c17b5bc86be293c43365f50eceb77e81dc88a04af198305a2da971989b15082e91792c4a754c 819 serf_1.3.10.orig.tar.bz2.asc"
+  ],
+  "Dgit": [
+    "18bc3201d95f4698961b1d96948038dbbf60fd46 debian archive/debian/1.3.10-3 https://git.dgit.debian.org/serf"
   ],
   "Directory": [
     "pool/main/s/serf"
   ],
   "Files": [
-    "ed8c05fe476413f8dbb2a13765d86365 72992 serf_1.3.9-11.debian.tar.xz 00a9e3276d768c1c9fb9b816a5801164 2157 serf_1.3.9-11.dsc 026df60541b7647f0c4272a3251a74a4 189822 serf_1.3.9.orig.tar.gz"
+    "ab161167de7c159441a6c2105a6226e1 68288 serf_1.3.10-3.debian.tar.xz 16a07fa97c96bd3e5e589e47ed78c5c3 2516 serf_1.3.10-3.dsc 5320087299084c297eff8e1dacfab1af 147744 serf_1.3.10.orig.tar.bz2 c4d4d0048ee2097566ee2ea506ad8a95 819 serf_1.3.10.orig.tar.bz2.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +42,7 @@
     "libserf-1-1 deb libs optional arch=any libserf-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/jamessan/serf.git"
   ],
   "Version": [
-    "1.3.9-11"
+    "1.3.10-3"
   ]
 }

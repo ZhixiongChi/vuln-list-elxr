@@ -6,22 +6,22 @@
     "librust-socket2-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.114-~~) \u003c!nocheck\u003e, librust-winapi-0.3+default-dev (\u003e= 0.3.9-~~) \u003c!nocheck\u003e, librust-winapi-0.3+handleapi-dev (\u003e= 0.3.9-~~) \u003c!nocheck\u003e, librust-winapi-0.3+ws2ipdef-dev (\u003e= 0.3.9-~~) \u003c!nocheck\u003e, librust-winapi-0.3+ws2tcpip-dev (\u003e= 0.3.9-~~) \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.63) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.150-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "33afffdaa6f527d6ce693b20026884042fb5e3c6 3124 rust-socket2_0.4.4-1.debian.tar.xz 1046b508d663847bceecd1bb4f1e441c88f3008f 2588 rust-socket2_0.4.4-1.dsc 75f49ee2da38e26cebf6305c670236ae726ccd59 44048 rust-socket2_0.4.4.orig.tar.gz"
+    "56a89afa65c82d2a5f14e1d7f7cb2754a7310545 3880 rust-socket2_0.5.8-1.debian.tar.xz b7ed7d3659e054e7d72c0b1a25ee7a7a15340a82 2267 rust-socket2_0.5.8-1.dsc 9159dfe576c053b7f2f62b1f171af7c327e9236b 56309 rust-socket2_0.5.8.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "27c235f254f78c330f89b9e7d8e4ead833ae59bec93db16431767cc13af0b339 3124 rust-socket2_0.4.4-1.debian.tar.xz 5ba621bdb5fdd9c4db6d7c835a87570aa705efcaa2247a696c69a0d240481c46 2588 rust-socket2_0.4.4-1.dsc 66d72b759436ae32898a2af0a14218dbf55efde3feeb170eb623637db85ee1e0 44048 rust-socket2_0.4.4.orig.tar.gz"
+    "dfb5d7cadb092953bf5347733210acc7416a5b100e9c57aa62111574f913d76f 3880 rust-socket2_0.5.8-1.debian.tar.xz b6839db430f5a541438a5990647c58a63c914113e9bfd0213424b170219a9b49 2267 rust-socket2_0.5.8-1.dsc c970269d99b64e60ec3bd6ad27270092a5394c4e309314b18ae3fe575695fbe8 56309 rust-socket2_0.5.8.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8bb5b93a2d67ee318b26512e4fe15ad158a99b94eedd778888987bcb21dfc334952dde142992769b5a5a2ea851d103fe0020b5d0a6f3da660dad19fda0d83795 3124 rust-socket2_0.4.4-1.debian.tar.xz 550236cfbfdf00ab5a9a764669cdb8ddd2c5cd0e7b35390f9b6c3795254669d5cdac3b3d03d887601e1db77658a353288f63b37bb64d0b7e8ae8e775d955db7b 2588 rust-socket2_0.4.4-1.dsc 6624fb9b933763c22e6114a8f72c6af0969912717017dd5b13f1b5df19faa1b160376c12e8c8023c435281f6a7864e802f3c4c535de8a345fe206652104f2cd5 44048 rust-socket2_0.4.4.orig.tar.gz"
+    "bb7fdfb34c67142b874ea8876aea619756754cd6ca7263583b393244ec9ecc35c9195998f26925ce46451a92067017e59d6d262cfe691546e3800adc10bfaf8e 3880 rust-socket2_0.5.8-1.debian.tar.xz bffe91e595f231e932304d44c7b72d21d0ea73918e098ee7316a225863f8f516b6172e12c0c69cf1a9c0eb8ac874faf74ce46eaf14a952c83d4c02d77eb9a8df 2267 rust-socket2_0.5.8-1.dsc b7d03608a3d4cf3e2d1539b5a375412effcc96279e8f57668fa8cf67b3f0a3a6b611ea5e2e72f282460582954acbb5364320611f7798a11ec9e4833e53830b60 56309 rust-socket2_0.5.8.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-socket2"
   ],
   "Files": [
-    "fc1df8a14c1cc8e635a3b6f7afb132f4 3124 rust-socket2_0.4.4-1.debian.tar.xz cf1058e7a881f6f7106b1c005af78c15 2588 rust-socket2_0.4.4-1.dsc f8839491f88f7a15ac8a5bdd787de442 44048 rust-socket2_0.4.4.orig.tar.gz"
+    "d420ad05f0d87ee0f8b58715c5efd70d 3880 rust-socket2_0.5.8-1.debian.tar.xz 6ed3ac45c1555bfb50c0ed780b97d9a7 2267 rust-socket2_0.5.8-1.dsc 37a68fa50dab6314a1e02b5a85844f89 56309 rust-socket2_0.5.8.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "librust-socket2-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo"
+    "dh-cargo, rustc"
   ],
   "Uploaders": [
     "Ximin Luo \u003cinfinity0@debian.org\u003e, kpcyrd \u003cgit@rxv.cc\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/socket2]"
   ],
   "Version": [
-    "0.4.4-1"
+    "0.5.8-1"
   ]
 }

@@ -3,28 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "gnome-desktop3-data, gnome-desktop-3-tests, libgnome-desktop-3-20, libgnome-desktop-3-dev, libgnome-bg-4-2, libgnome-desktop-4-2, libgnome-rr-4-2, libgnome-bg-4-dev, libgnome-desktop-4-dev, libgnome-rr-4-dev, gir1.2-gnomedesktop-3.0, gir1.2-gnomebg-4.0, gir1.2-gnomedesktop-4.0, gir1.2-gnomerr-4.0, libgnome-desktop-doc, libgnome-desktop-3-dev-bin"
+    "gnome-desktop3-data, gnome-desktop-3-tests, libgnome-desktop-3-20t64, libgnome-desktop-3-dev, libgnome-bg-4-2t64, libgnome-desktop-4-2t64, libgnome-rr-4-2t64, libgnome-bg-4-dev, libgnome-desktop-4-dev, libgnome-rr-4-dev, gir1.2-gnomedesktop-3.0, gir1.2-gnomebg-4.0, gir1.2-gnomedesktop-4.0, gir1.2-gnomerr-4.0, libgnome-desktop-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome (\u003e= 0.22.7~), docbook-xml, fonts-cantarell \u003c!nocheck\u003e, gsettings-desktop-schemas-dev (\u003e= 3.27.0), gtk-doc-tools (\u003e= 1.4), iso-codes, itstool, libgdk-pixbuf-2.0-dev (\u003e= 2.36.5), libgirepository1.0-dev (\u003e= 0.10.2-1~), libgl-dev, libglib2.0-dev (\u003e= 2.53.0), libglib2.0-doc, libgtk-3-dev (\u003e= 3.3.6), libgtk-4-dev (\u003e= 4.4.0), libgtk-3-doc, libseccomp-dev [!hurd-any !kfreebsd-any !linux-alpha !linux-ia64 !linux-m68k !linux-sh4 !linux-sparc64], libsystemd-dev [linux-any], libudev-dev [linux-any], libxkbregistry-dev, locales \u003c!nocheck\u003e | locales-all \u003c!nocheck\u003e, meson (\u003e= 0.47.0), xauth \u003c!nocheck\u003e, xkb-data, xvfb \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome (\u003e= 0.22.7~), dpkg-build-api (= 1), dpkg-dev (\u003e= 1.22.5), docbook-xml, fonts-cantarell \u003c!nocheck\u003e, gsettings-desktop-schemas-dev, gtk-doc-tools, iso-codes, itstool, libgdk-pixbuf-2.0-dev, libgirepository1.0-dev, libgl-dev, libglib2.0-dev, libglib2.0-doc, libgtk-3-dev, libgtk-4-dev (\u003e= 4.4.0), libgtk-3-doc, libseccomp-dev [!hurd-any !kfreebsd-any !linux-alpha !linux-ia64 !linux-m68k !linux-sh4 !linux-sparc64], libsystemd-dev [linux-any], libudev-dev [linux-any], libxkbregistry-dev, locales \u003c!nocheck\u003e | locales-all \u003c!nocheck\u003e, meson, pkgconf, xauth \u003c!nocheck\u003e, xkb-data, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "633e4614561cf2529031a2f841283ba92cf02fa8 34632 gnome-desktop_43.2-2.debian.tar.xz 59a519080e6d4d4a492084c30a786e2e87781624 4016 gnome-desktop_43.2-2.dsc 5c7353c3e773436d426094aa6912e6d69c3ec95c 765508 gnome-desktop_43.2.orig.tar.xz"
+    "5aa13e604984f1f21be25e8de7b6815beda06162 36108 gnome-desktop_44.3-3.debian.tar.xz b8b01b2a12299f0cbb58b084337fc7ea61b55b3e 4063 gnome-desktop_44.3-3.dsc 9afe4c2fa19d577440f47373c7d7bdf199df32b4 763284 gnome-desktop_44.3.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "6c7eccdaf1e54169bc2d88e17abc643f56ef4a30e2861f76521c2e2fbb929335 34632 gnome-desktop_43.2-2.debian.tar.xz 16a4d5599e1519d01a8dde9ab74bdad8a6e7f387cb1926742f63acfc638dfe59 4016 gnome-desktop_43.2-2.dsc a0b9ab20d28a63df6ce7e91eabb5e3af86630bf522b5a8997c04971bd551d730 765508 gnome-desktop_43.2.orig.tar.xz"
+    "df46fc2777cd60d93987b8e57b311689c2a184aa04a584db9c8a96fa2d6c32ee 36108 gnome-desktop_44.3-3.debian.tar.xz 318910e6abf7fbad613bb761726a8e39554fa7e3dc48de77fa9d953389418be2 4063 gnome-desktop_44.3-3.dsc 40efa9aa8d50effed9227a3d70671e32e9dc35e20f331cab3b562975978f4f8d 763284 gnome-desktop_44.3.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "5e639504eecaf900c6fec688919e63dbbf40c967318d388cd02f7255d575cb8fc1699d12de2e5654ee2c6c29f4143eb97769aa7db9670306b76e097b50fc1299 34632 gnome-desktop_43.2-2.debian.tar.xz 7e0a280d819aad4003413d02caf3fc91696b2e94aaf6fe237d8a95aa1152ef377c2451a38276f7314dbdca3788adc0f59b8c2ad3e254f87246a84ef638aa9c91 4016 gnome-desktop_43.2-2.dsc b1a84f75dd793ad856a4f4995cc2d87a5ed91e1bb498229587defb139b8b988b1087610026576c34a51f1f9439ae36efa01544857deed1c8b6ec25cd68f0bc30 765508 gnome-desktop_43.2.orig.tar.xz"
+    "dd8b5e4a0a150ad0de1b6ff54416b1781d23b6ae31ce76619f0b0ac1733588e0fc2e23a98c02bca281eb463ec45414cf6caedbc7da032e179fade6d6faef4ea6 36108 gnome-desktop_44.3-3.debian.tar.xz af870777f814c182b4cb22304946de1992dae84c372950c53163120c9e62f7d08f4db3adccbf94a0a34cf9fc62da1a7846c62c7d82f086e596623364e9242d51 4063 gnome-desktop_44.3-3.dsc 6dc5b43615ea47c0a091aa0cd9e258096811f175874ef72cf585b85d4ea9c95febe50acd48b06643c8ec9d2ef5dc9262476e0ca67f0000b0eef9902dd3e1a906 763284 gnome-desktop_44.3.orig.tar.xz"
   ],
   "Dgit": [
-    "e41e66cd732e742a5492e6acde405d2df0ae3520 debian archive/debian/43.2-2 https://git.dgit.debian.org/gnome-desktop"
+    "f970a865ee837d5b780493f1d560c25c2c5da577 debian archive/debian/44.3-3 https://git.dgit.debian.org/gnome-desktop"
   ],
   "Directory": [
     "pool/main/g/gnome-desktop"
   ],
   "Files": [
-    "651f1cd9d827b6b95e6bb41a6d9a032f 34632 gnome-desktop_43.2-2.debian.tar.xz 51246497af04333d52684a4415bb12bf 4016 gnome-desktop_43.2-2.dsc 67633ecdb274f8a58e072c0134a47d25 765508 gnome-desktop_43.2.orig.tar.xz"
+    "2738f5c27753079ea116c4a880a0a5d9 36108 gnome-desktop_44.3-3.debian.tar.xz 5ae4b9f713f7ec5ea8b84d23409cb686 4063 gnome-desktop_44.3-3.dsc 3b20ade3dfb4db9b71a94a66ecb8d4fc 763284 gnome-desktop_44.3.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,27 +36,27 @@
     "gnome-desktop"
   ],
   "Package-List": [
-    "gir1.2-gnomebg-4.0 deb introspection optional arch=any gir1.2-gnomedesktop-3.0 deb introspection optional arch=any gir1.2-gnomedesktop-4.0 deb introspection optional arch=any gir1.2-gnomerr-4.0 deb introspection optional arch=any gnome-desktop-3-tests deb gnome optional arch=any gnome-desktop3-data deb gnome optional arch=all libgnome-bg-4-2 deb libs optional arch=any libgnome-bg-4-dev deb libdevel optional arch=any libgnome-desktop-3-20 deb libs optional arch=any libgnome-desktop-3-dev deb libdevel optional arch=any libgnome-desktop-3-dev-bin deb oldlibs optional arch=all libgnome-desktop-4-2 deb libs optional arch=any libgnome-desktop-4-dev deb libdevel optional arch=any libgnome-desktop-doc deb doc optional arch=all profile=!nodoc libgnome-rr-4-2 deb libs optional arch=any libgnome-rr-4-dev deb libdevel optional arch=any"
+    "gir1.2-gnomebg-4.0 deb introspection optional arch=any gir1.2-gnomedesktop-3.0 deb introspection optional arch=any gir1.2-gnomedesktop-4.0 deb introspection optional arch=any gir1.2-gnomerr-4.0 deb introspection optional arch=any gnome-desktop-3-tests deb gnome optional arch=any gnome-desktop3-data deb gnome optional arch=all libgnome-bg-4-2t64 deb libs optional arch=any libgnome-bg-4-dev deb libdevel optional arch=any libgnome-desktop-3-20t64 deb libs optional arch=any libgnome-desktop-3-dev deb libdevel optional arch=any libgnome-desktop-4-2t64 deb libs optional arch=any libgnome-desktop-4-dev deb libdevel optional arch=any libgnome-desktop-doc deb doc optional arch=all profile=!nodoc libgnome-rr-4-2t64 deb libs optional arch=any libgnome-rr-4-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential, dbus, gnome-desktop-testing, locales, locales-all, pkg-config, xauth, xvfb"
+    "build-essential, dbus, gnome-desktop-testing, locales, locales-all, pkgconf, xauth, xvfb"
   ],
   "Uploaders": [
-    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e"
+    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e, Sjoerd Simons \u003csjoerd@debian.org\u003e, Tim Lunn \u003ctim@feathertop.org\u003e"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/gnome-team/gnome-desktop/tree/debian/bookworm"
+    "https://salsa.debian.org/gnome-team/gnome-desktop"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/gnome-team/gnome-desktop.git -b debian/bookworm"
+    "https://salsa.debian.org/gnome-team/gnome-desktop.git"
   ],
   "Version": [
-    "43.2-2"
+    "44.3-3"
   ]
 }

@@ -6,31 +6,31 @@
     "lxterminal"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), intltool, libglib2.0-dev, libgtk-3-dev, libvte-2.91-dev"
+    "debhelper-compat (= 13), docbook-xml, intltool, libglib2.0-dev (\u003e= 2.16.0), libgtk-3-dev, libvte-2.91-dev (\u003e= 0.46.0), xmlto, xsltproc"
   ],
   "Checksums-Sha1": [
-    "e78e318371b0a3c22bcf534a6c38028d4f212259 8760 lxterminal_0.4.0-2.debian.tar.xz 4428686448f5e5c091d7a476cd9dc0ca8d66abde 2061 lxterminal_0.4.0-2.dsc 9f065280fae8b6ca0439699ce73dd661a4f21d43 201856 lxterminal_0.4.0.orig.tar.xz"
+    "770f004e8213156e381261aa61c6698eed06d614 7564 lxterminal_0.4.1-1.debian.tar.xz 2ce66402a444dfebb28fd72184a7b9ff522f584c 2099 lxterminal_0.4.1-1.dsc 1100e3f955e752ef4fd6335feb3383c0f436abf8 164338 lxterminal_0.4.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "8043f84fc172c879e637d2fac0aaeca4ac1d810496808bb757a6fc35285e96b7 8760 lxterminal_0.4.0-2.debian.tar.xz 2fd93b27d20fc53194e14a2a57371282ed2fbb915e3283fae994d609ba93d0c4 2061 lxterminal_0.4.0-2.dsc 9db8748923b3fa09a82ae2210ed1fa4cdb4c45312009da9caed103d48f8e9be7 201856 lxterminal_0.4.0.orig.tar.xz"
+    "68c308ec7c2ba19e3f69d2e04d6d567d4c2baf8346e1f445e5c2fe5735962905 7564 lxterminal_0.4.1-1.debian.tar.xz a2b316de40879616893a38a2d492db892bf4325226dafd2ac7b1d4c27b1a1649 2099 lxterminal_0.4.1-1.dsc d5da0646e20ad2be44ef69a9d620be5f1ec43b156dc585ebe203dd7b05c31d88 164338 lxterminal_0.4.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "d1213efc7376c1fc708e5e078e88e49743fd553da507e7f946fd7b587361a7e80b73f8e54ea35bbd1bba502b86408c54e2c8abab096e53977d90343537d97626 8760 lxterminal_0.4.0-2.debian.tar.xz 816f391462d6e66700a409ec411803df23ab183168e8b155d977b23096688301ceb2eb0b8304e821d4caf9db53831e34aa0d356ae44439f671604fcf04f76a29 2061 lxterminal_0.4.0-2.dsc d1462bf9739c5e9022cbabe9f9c8f70bbb882c0aba7a39d1f87d804f4002056151165d7555cace6f439c0acfbdcd3c959a420993379f646d066f5d30af71232e 201856 lxterminal_0.4.0.orig.tar.xz"
+    "9bf60957ae1d7bf48879fced7c6d6606f0dacb7fa6f67ee8df4396ef652a20122309e9749729f46f3ac57c10c51e7afe8d91907486caf53b416364d427301184 7564 lxterminal_0.4.1-1.debian.tar.xz 0b35697d60d02b2ceb5621cd1aae6760a4ae63172317cc5e736f5750820a9f0069a2e74a62b970eb70b1a5a37f6d3ca08b3b1b21b9eebe3bf08a21db864c9021 2099 lxterminal_0.4.1-1.dsc 7494ac5178b51c89edc3d906b2bd56e510d20693bfef8e822613b2c6b4071544a3bdcfc661be45b4e15a56ce478d69c7fdddfa8091e2ec812460aa77062d7548 164338 lxterminal_0.4.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/l/lxterminal"
   ],
   "Files": [
-    "e5ce422101f5645a00438fa459ae90e9 8760 lxterminal_0.4.0-2.debian.tar.xz ba8078e9d97356f9d1ded0f0c5d459ec 2061 lxterminal_0.4.0-2.dsc 7938dbd50e3826c11f4735a742b278d3 201856 lxterminal_0.4.0.orig.tar.xz"
+    "18a39f605723771999e2f67dbc801660 7564 lxterminal_0.4.1-1.debian.tar.xz 8b0d335e11eb5ddcf0f0469d500ca29f 2099 lxterminal_0.4.1-1.dsc 11d983bb30488ad1e2576ac3a1958eb8 164338 lxterminal_0.4.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://www.lxde.org/"
+    "https://www.lxde.org/"
   ],
   "Maintainer": [
-    "Debian LXDE Maintainers \u003cpkg-lxde-maintainers@lists.alioth.debian.org\u003e"
+    "Debian LXDE Maintainers \u003cteam+lxde@tracker.debian.org\u003e"
   ],
   "Package": [
     "lxterminal"
@@ -39,7 +39,7 @@
     "lxterminal deb x11 optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.2"
   ],
   "Uploaders": [
     "Andrew Lee (李健秋) \u003cajqlee@debian.org\u003e, Yao Wei (魏銘廷) \u003cmwei@debian.org\u003e, Andriy Grytsenko \u003candrej@rep.kiev.ua\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/lxde-team/lxterminal.git"
   ],
   "Version": [
-    "0.4.0-2"
+    "0.4.1-1"
   ]
 }

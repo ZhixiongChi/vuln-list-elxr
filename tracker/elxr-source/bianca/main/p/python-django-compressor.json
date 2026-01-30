@@ -9,22 +9,22 @@
     "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-setuptools"
   ],
   "Build-Depends-Indep": [
-    "csstidy, python3-brotli, python3-bs4, python3-calmjs (\u003e= 3.4.2), python3-coverage (\u003e= 4.4), python3-csscompressor (\u003e= 0.9.5), python3-django, python3-django-appconf (\u003e= 1.0.3), python3-django-sekizai, python3-html5lib, python3-jinja2 (\u003e= 3.0.3), python3-lxml (\u003e= 4.6.5), python3-mock, python3-nose, python3-rcssmin (\u003e= 1:1.1.0), python3-rjsmin (\u003e= 1.2.0), python3-slimit, python3-six, python3-unittest2"
+    "csstidy, python3-brotli, python3-bs4, python3-calmjs, python3-coverage, python3-csscompressor, python3-django, python3-django-appconf, python3-django-sekizai, python3-html5lib, python3-jinja2, python3-lxml, python3-rcssmin, python3-rjsmin, python3-slimit"
   ],
   "Checksums-Sha1": [
-    "eeab52c672f59480331cc6d28e2448abfeb4a712 4592 python-django-compressor_4.0-1.debian.tar.xz 5db76f539a49f371bbdfd38f95243acd5a7341be 2581 python-django-compressor_4.0-1.dsc 64b6496a55edfe62da9a4da2ee8968c95d110845 88432 python-django-compressor_4.0.orig.tar.xz"
+    "2a38016f381ccfae51b47c51443c1f9378d3c3cc 5968 python-django-compressor_4.5.1-4.debian.tar.xz 9a9d6a914c8804943d8faa1a1a75b1fb804263bd 2530 python-django-compressor_4.5.1-4.dsc c589f48120a4d2ed0def741695051086dd6a9501 89940 python-django-compressor_4.5.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "c2e63c1e90bf1ef57e9bee626577183d47269b428131961fe3faa22bdfab51de 4592 python-django-compressor_4.0-1.debian.tar.xz 04134f85ab336fb708db4d1cbc51d363c966b85c8ffb0c4a01741eff34828479 2581 python-django-compressor_4.0-1.dsc 5e3aea8818335748cb72cd7d46c84092ff16271194da83c100905675cba18124 88432 python-django-compressor_4.0.orig.tar.xz"
+    "868a7a7bfefdcaa18c74f2773f04f48b5f5cc9a75747cc41b8c1d62f4a4201e7 5968 python-django-compressor_4.5.1-4.debian.tar.xz d2d50f8c6ffaa77e1a89ab6db31068bbfe3a215bfd4ebf58f90e649513f21012 2530 python-django-compressor_4.5.1-4.dsc 5c3b6c00fb6cdb8d3642bbaec99136f0714be77c852d37a10f7a95b9584a62b0 89940 python-django-compressor_4.5.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "2071af14542d67dc54c79cd1173897589c798ed210d10539f90198be99f2df8ab24e52e6c2896e217d5d7643593331154798509ac7d9838687adb9f24c7569f6 4592 python-django-compressor_4.0-1.debian.tar.xz d9c8e7d07ad51e47d50590706c2811ae39c8c23f73e12d566177367c3f39047972c6fb3c6b46be198474f30acf34ef380e4b99b7e2d38f27dd4f4990aa985133 2581 python-django-compressor_4.0-1.dsc 7640b8e1ab75ddc9af876e00568968452c6faf567d230d5c49208e8906d99929dd531723fadf391f75dc8b50eb00a8c5911d021eab9dbf7e56120e805b1620c1 88432 python-django-compressor_4.0.orig.tar.xz"
+    "0029b6f3fb4194298ef3b6b6d8b50488cb1e48df510a6e44407a6c5c892da9678602b817138147fa98dead2fec7577cef00880301e8b73ae5c1b85e2292aee62 5968 python-django-compressor_4.5.1-4.debian.tar.xz 24e891e25e99bb99df795068c1ee67cabc49356099a4a882da1904183839bfd87a4846cbdc191446aff1f04b1f64559d28d889144206290047249c5cb4bd742b 2530 python-django-compressor_4.5.1-4.dsc e041962a869ef18989334fcdee755310005f440b3e51cdb8ba985fcbcc7b4c3e22ca07cb0d75f8c934b1d477ceb8e779472da58e41db2eb7961705bdc4de3b72 89940 python-django-compressor_4.5.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-django-compressor"
   ],
   "Files": [
-    "95c121d476e885d59d8f137f6d72d1d4 4592 python-django-compressor_4.0-1.debian.tar.xz dd64c3000121a37221c56ecc896684dc 2581 python-django-compressor_4.0-1.dsc 79d77046813dfaf171d35f6cef49c643 88432 python-django-compressor_4.0.orig.tar.xz"
+    "d180e4f62400cc4869ccd02acdca3a9d 5968 python-django-compressor_4.5.1-4.debian.tar.xz 4bfe14d13cfb69ad086342d2e48eac48 2530 python-django-compressor_4.5.1-4.dsc f3f42bedf493ecf71bedbbc79ebfb7e0 89940 python-django-compressor_4.5.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -44,6 +44,12 @@
   "Standards-Version": [
     "4.1.1"
   ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, pybuild-plugin-autopkgtest"
+  ],
   "Uploaders": [
     "Thomas Goirand \u003czigo@debian.org\u003e,"
   ],
@@ -54,6 +60,6 @@
     "https://salsa.debian.org/openstack-team/python/python-django-compressor.git"
   ],
   "Version": [
-    "4.0-1"
+    "4.5.1-4"
   ]
 }

@@ -6,22 +6,22 @@
     "pcscd, libpcsclite-dev, libpcsclite1"
   ],
   "Build-Depends": [
-    "autoconf-archive, debhelper-compat (= 13), flex, libsystemd-dev, libudev-dev [linux-any], libusb2-dev [kfreebsd-any], pkg-config"
+    "debhelper-compat (= 13), dh-exec, dh-sequence-runit, flex, libpolkit-gobject-1-dev, libsystemd-dev [linux-any], libudev-dev [linux-any], libusb-1.0-0-dev [!linux-any], meson, pkgconf, systemd-dev"
   ],
   "Checksums-Sha1": [
-    "b65d221efc37c6c48aad0df175d125b1fb433b4e 19408 pcsc-lite_1.9.9-2.debian.tar.xz 70ae117cf2b4a4489b191e0394e2fcc181e408a0 2333 pcsc-lite_1.9.9-2.dsc 8fb800d91b9ed651bf8762bbd9f4dd0c306c7d80 789914 pcsc-lite_1.9.9.orig.tar.bz2 27970e3fca25e934fdb4415734931f6797be64f7 833 pcsc-lite_1.9.9.orig.tar.bz2.asc"
+    "3dcac9457cf2197c538097d5b77ad60b2cc77c63 20420 pcsc-lite_2.3.3-1.debian.tar.xz bb2156f2262e99830a22db4481a8b9b34c757107 2394 pcsc-lite_2.3.3-1.dsc 0984200070606547c26eec5cf9e0b3218a9c9ce3 210592 pcsc-lite_2.3.3.orig.tar.xz 08a841474ed721ec9a2d1b187ed2112c5c4aa0d4 833 pcsc-lite_2.3.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "c2655a7e6caf14f7f29345ccc98b61db30f2eb4e6cdea9349f649673a0825eb3 19408 pcsc-lite_1.9.9-2.debian.tar.xz 7f41763f994336ce4371b5a67fefda900c7f3e61b52e3acb77b3a70632869cba 2333 pcsc-lite_1.9.9-2.dsc cbcc3b34c61f53291cecc0d831423c94d437b188eb2b97b7febc08de1c914e8a 789914 pcsc-lite_1.9.9.orig.tar.bz2 387dfea1c79ecae42ec82f5ce401117700b578f4fd25f73af38df438e44f66f7 833 pcsc-lite_1.9.9.orig.tar.bz2.asc"
+    "9026853375fc014f5d0052f5b6daf7f1d14e821e72f79d4f6c78ce1e3e1eb0e4 20420 pcsc-lite_2.3.3-1.debian.tar.xz 196b3a5967bb805c4382d8428a39f9c7df01846c4e42c906131baedef5bfa5ee 2394 pcsc-lite_2.3.3-1.dsc cdff7d7153a0b37aa74e26dfec89ec7dc5c5286aa21b91b903e38739d227e8e7 210592 pcsc-lite_2.3.3.orig.tar.xz 725840eeaff8d69a0410e4fd16a5b715a409a9c76c65a288b7b5e6422812d83e 833 pcsc-lite_2.3.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "2b137e2d1a99af06b860ec87c172a76515cfa8db48c1d0057195037b41c2457093c8bd861f1940451725a523aa74240539823b04e041391f5f1b296a30f62399 19408 pcsc-lite_1.9.9-2.debian.tar.xz d7c3ba11057025d7386ce807b4d41c7c1f5c3f296452605da038ead4428b74ba073a004c8aec70f54d80683bf2323359bd6430b696af72300fcf7d1af0226805 2333 pcsc-lite_1.9.9-2.dsc 748ec3d82ff48af1a8dc5a581863e5d94adc47ab8f3158ceb838c2b521ece3a746b737c7b4bb2ba8b545be85ff18b9639443864e50b2e065cf2fbfdf79ef9700 789914 pcsc-lite_1.9.9.orig.tar.bz2 b2f81fb9ec4dfdf73fce16b139206a5d606038d728ec6a5cdc5d3fb13b908add597baa490df9132155714b295222fef62ae2e0b50de212461af9ac8008297400 833 pcsc-lite_1.9.9.orig.tar.bz2.asc"
+    "9c5e2fbf3e951ec83c71a7d8e2e4982375a02bf886b582fde7e5df92e10905976069adf3f8c44f761baf6d5a8d438c7e8ce52479cc6918acebeb7e5426454946 20420 pcsc-lite_2.3.3-1.debian.tar.xz f2e9a2c7822ddde8dab45a06c8da7f7e43366a6f64d8d63621207094f436311d78b1c71f451bf76be31994d7af667f40a4db3aca715cd3a09ca1dea9261ca3a6 2394 pcsc-lite_2.3.3-1.dsc 96a62364eb0221828a5e3f65d500f8b83acc27cdc0c40fad2b0f807b399c1a465524421175bd7c05fa4ece152f9afe7f8b60c57ee20fa948af7d8899543a2d12 210592 pcsc-lite_2.3.3.orig.tar.xz 22219cbd68949ac438ba8cd9ffa79d9165b259725b7f58ef4d05abd10c8d2342cf98779c41e336eb887650f1fb453eca39dffae71ac82e3fe47e1e167bc56451 833 pcsc-lite_2.3.3.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/p/pcsc-lite"
   ],
   "Files": [
-    "fa6d831cc08e240ee426aea3276569ae 19408 pcsc-lite_1.9.9-2.debian.tar.xz dbb19daaccfe8e208f4ad829f8e29dfa 2333 pcsc-lite_1.9.9-2.dsc 23db832115db702e902baccf21da13aa 789914 pcsc-lite_1.9.9.orig.tar.bz2 8fc79bbeb76b4b1daabd358d061f32fb 833 pcsc-lite_1.9.9.orig.tar.bz2.asc"
+    "cbed5e3d08d598e3f05a3570a5e28da3 20420 pcsc-lite_2.3.3-1.debian.tar.xz 14d7e8a5a3d0a7f00d4b0f471a927965 2394 pcsc-lite_2.3.3-1.dsc b364c6495b1658218785be2e00f5052d 210592 pcsc-lite_2.3.3.orig.tar.xz d57ab2488301261f4fad0fcb237dd047 833 pcsc-lite_2.3.3.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libpcsclite-dev deb libdevel optional arch=any libpcsclite1 deb libs optional arch=any pcscd deb misc optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/pcsc-lite"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/pcsc-lite.git"
   ],
   "Version": [
-    "1.9.9-2"
+    "2.3.3-1"
   ]
 }

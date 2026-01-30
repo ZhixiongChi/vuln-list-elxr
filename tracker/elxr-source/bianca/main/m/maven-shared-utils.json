@@ -3,25 +3,25 @@
     "all"
   ],
   "Binary": [
-    "libmaven-shared-utils-java, libmaven-shared-utils-java-doc"
+    "libmaven-shared-utils-java"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), default-jdk, javahelper, junit4, libcommons-lang3-java, libcommons-text-java, libjansi-java (\u003e= 2.2.0), libjsr305-java, libmaven-javadoc-plugin-java, libmaven-plugin-testing-java, maven-debian-helper (\u003e= 2.2~)"
+    "debhelper-compat (= 13), default-jdk, javahelper, junit4, libcommons-lang3-java, libcommons-text-java, libjansi-java (\u003e= 2.2.0), libjsr305-java, libmaven-plugin-testing-java, maven-debian-helper (\u003e= 2.2~)"
   ],
   "Checksums-Sha1": [
-    "3ab6e107efc23f3c40cda9e948ffd4d3e90288e2 3352 maven-shared-utils_3.3.4-1.debian.tar.xz 8c9db265509b3601946e07f32dadc1f680c6a0dd 2541 maven-shared-utils_3.3.4-1.dsc 6fa4551d67affe2a8af9fd6d4d60816336b0651f 114640 maven-shared-utils_3.3.4.orig.tar.xz"
+    "7901dce7a978c4a3fcd0f24294ba90244c753be2 3216 maven-shared-utils_3.4.2-1.debian.tar.xz ced99fd28ece7adc8e396b7039974c7bc597767b 2258 maven-shared-utils_3.4.2-1.dsc c950fa46abf4359f5be24d037117a6ec96ca98c1 111800 maven-shared-utils_3.4.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "5aa5c58a3236b9f1b99ccaab3003fa1f8cb8d03e6e86495478b1f4fab8a94003 3352 maven-shared-utils_3.3.4-1.debian.tar.xz 1d2f969f6e2c4675a9c74155bb2d14190d3770e21736adcd9da0ee62956e78a1 2541 maven-shared-utils_3.3.4-1.dsc 9c70b29d6c176dd3319e4c5b799af1e4dda60ba320b27d8d25ee14c21c67f61b 114640 maven-shared-utils_3.3.4.orig.tar.xz"
+    "5f4eb9f62ddf833f5913ebf71b554b6560d0e03eada5bbc3ee56356a42606e1d 3216 maven-shared-utils_3.4.2-1.debian.tar.xz aa4df9c87ae0310fc69ee758352c293ee0032c64e7b4a70b1fab89a0d09612f7 2258 maven-shared-utils_3.4.2-1.dsc 08ba4bc5f7b13f9e645aa81dab9d2f69a69ce2c41790e14e562b870df676dc1d 111800 maven-shared-utils_3.4.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "c5eef05af3d3f9c6193b2551e5b48b96da9eab0ba9da38e6e35ff5681b786c4e7538efe16127f81e0d8a7b7c176a6ea8ff9d6c02fed2becf155bd0692ba646f2 3352 maven-shared-utils_3.3.4-1.debian.tar.xz c29ea44f41c1c9f4d5dd3c86b65fc16c041d5918c19be6e8f9c97ac11208c4208efc48db60e02c0017bdd1013ec2da02580192ac33daa0a321740d38ee05547a 2541 maven-shared-utils_3.3.4-1.dsc be035cefdc561ffbf53e65b7d17e056586171a83f6f388cbf6127afbcf4a7071cf018013a65685f80207216538d2639c456a7be840578de1ad5c16cfe29bbe07 114640 maven-shared-utils_3.3.4.orig.tar.xz"
+    "fcddbb61ffd82d1b0e5f17563c8463b8011ddb2c18849427b24f2ba0688244ee30a931fe4b574b4c6db79bf8ddbce9edcea662fba6058666ea11a2546bcdd126 3216 maven-shared-utils_3.4.2-1.debian.tar.xz 0278bc9e729b0967364c1dac7ecca28f19519e8eb2b86faf0340bb7c02f4f89d9cf2dcf8b82d69e05b745effb62b461652d2fbb3aa1d069f595673899f5f0be3 2258 maven-shared-utils_3.4.2-1.dsc f86eea53fe3f8051510f756d44fb4bf1e91718db575e2ebfe09d1de47a084b921741ce145d8eb84d505018c245fbf52b75e23d22fd7ca5d2c1c24ffdd2f3ccc3 111800 maven-shared-utils_3.4.2.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/m/maven-shared-utils"
   ],
   "Files": [
-    "91804b448676ba61b3243cde68cfb1b3 3352 maven-shared-utils_3.3.4-1.debian.tar.xz 87d68d1262c33172178267a7a9c6a61d 2541 maven-shared-utils_3.3.4-1.dsc 3876512550855c8cc91d6b254db9359b 114640 maven-shared-utils_3.3.4.orig.tar.xz"
+    "42ee0eb9b98fd899a79677e5097f04f2 3216 maven-shared-utils_3.4.2-1.debian.tar.xz c0f802281eaaf28c24306e4af2dff260 2258 maven-shared-utils_3.4.2-1.dsc 014f6a295bbc45cac95f413492568a6c 111800 maven-shared-utils_3.4.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,13 @@
     "maven-shared-utils"
   ],
   "Package-List": [
-    "libmaven-shared-utils-java deb java optional arch=all libmaven-shared-utils-java-doc deb doc optional arch=all"
+    "libmaven-shared-utils-java deb java optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Jakub Adam \u003cjakub.adam@ktknet.cz\u003e, Kai-Chung Yan \u003cseamlikok@gmail.com\u003e"
+    "Jakub Adam \u003cjakub.adam@ktknet.cz\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/java-team/maven-shared-utils"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/java-team/maven-shared-utils.git"
   ],
   "Version": [
-    "3.3.4-1"
+    "3.4.2-1"
   ]
 }

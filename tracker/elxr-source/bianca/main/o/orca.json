@@ -6,22 +6,22 @@
     "orca"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-gnome, gnome-pkg-tools, gettext, libatk-bridge2.0-dev, libatspi2.0-dev, libgstreamer1.0-dev, pkg-config, python3, python-gi-dev, python3-brlapi, python3-louis, liblouis-dev, python3-pyatspi, python3-speechd, yelp-tools"
+    "debhelper-compat (= 13), meson, git, dh-sequence-python3, dh-sequence-gnome, gettext, libatk-bridge2.0-dev (\u003e= 2.50.0~), libatspi2.0-dev (\u003e= 2.50.0~), libgstreamer1.0-dev, pkgconf, python3, python-gi-dev, gir1.2-gtk-3.0, python3-brlapi, python3-louis, liblouis-dev, python3-speechd, yelp-tools"
   ],
   "Checksums-Sha1": [
-    "d8233457496df6fc6c36f772c69fc5337c51060d 10852 orca_43.1-1.debian.tar.xz 4389be3c66c98d5c9581dbdbc158798f277c58d9 2301 orca_43.1-1.dsc 6b0412d10d28b3c23ba49e25a4f6a3193360b940 3761604 orca_43.1.orig.tar.xz"
+    "aa9691c735aed4b9e386926135e4686a6b36f8a1 11400 orca_48.1-1+deb13u1.debian.tar.xz d750581573ccd385711a356c36eff5d5b267e4fe 2315 orca_48.1-1+deb13u1.dsc 78a379f2ce2390de4776c6a24a07b953ca16f5e4 3399184 orca_48.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "1002917fd90198e8ff7342a604ee2927c0daf25a83ca8e2dc50876885b227fb5 10852 orca_43.1-1.debian.tar.xz 6af2af279185874fa748ff859e67aa0e75bca75b13a2565190418cf9fe1261a1 2301 orca_43.1-1.dsc f658e049ce169273b84346810424d6f509291f05d7ecc3a77a03d912aa3e6840 3761604 orca_43.1.orig.tar.xz"
+    "01b893de96fe789a45bfbee7d4a0831003c4c68090f404883404e43c4f8499c1 11400 orca_48.1-1+deb13u1.debian.tar.xz fe58e5de4bc970d5632109073496aec5e29588f3669a4796ffe447b33f19c7c4 2315 orca_48.1-1+deb13u1.dsc 66c6f09822149da243a4633a7d84a7b1dbaaf14534a9feb9df2bfe01a505178a 3399184 orca_48.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "e4e407bdc6a7e92affef5ff78855b0daba89b951f0527d01f30fe052ca729d7906caa3f344967ec95be33c7b6bfdb20681ec5f4368a8d2e3bf037b5e7bae3495 10852 orca_43.1-1.debian.tar.xz 28079b7d9aa25691301cb8c005fd69b0161347f567cedc4bb0376329303747906478ff0e53ec80678ec9dcf8f937336e1c471f7d9f588e702d5493a9949e086f 2301 orca_43.1-1.dsc 5d3ade5ae3c4f9b7ed8dfcabddbf7bcf5e2e15e731e0d9c1c69da692e9ce70d270aedcbfc8557a56ca0f2935b2c0c84e21fa4c6db64ec1c01c78dda7a429623f 3761604 orca_43.1.orig.tar.xz"
+    "07eacb87a340b248ef6a30b6e00483179bc50593a62dd416a528b998acf8853cabb5da1d8b9a188cf660da9e4df8f40fdc9c586ca3a5905227ffaaf6af946f6e 11400 orca_48.1-1+deb13u1.debian.tar.xz 23c067a94d517917c147b9594696d6ead78e934050ec629a641dc8ca635c3322ab72c517225d05b68c577154ed837c5ecc26201756e2d4b8cc0f8fe5f4398c0b 2315 orca_48.1-1+deb13u1.dsc cc30102d0bff54dbfe4a2fa587ec5404034c5146952518ea25a557a753ab337927b81d8e8ea03ae93ae0b1ffe7a15e8facdace9d06c8b625730b189233ad83ef 3399184 orca_48.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/o/orca"
   ],
   "Files": [
-    "6a89f9ef60b9c44405be3e513a39927c 10852 orca_43.1-1.debian.tar.xz cde569a9ae86fa995543bdd08fe89b90 2301 orca_43.1-1.dsc fe090e767e6219b1333507739e6807bd 3761604 orca_43.1.orig.tar.xz"
+    "ac888cc23ca7c6527d9375f81d8ed6a2 11400 orca_48.1-1+deb13u1.debian.tar.xz a9908c76fe7d067e2bddcd03ba6ebd08 2315 orca_48.1-1+deb13u1.dsc c58160b3c28b53bb2a253607a161ff81 3399184 orca_48.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "orca deb gnome optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.2"
   ],
   "Uploaders": [
-    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e, Samuel Thibault \u003csthibault@debian.org\u003e, Jordi Mallach \u003cjordi@debian.org\u003e, Josselin Mouette \u003cjoss@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e, Samuel Thibault \u003csthibault@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Jordi Mallach \u003cjordi@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/orca"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/orca.git"
   ],
   "Version": [
-    "43.1-1"
+    "48.1-1+deb13u1"
   ]
 }

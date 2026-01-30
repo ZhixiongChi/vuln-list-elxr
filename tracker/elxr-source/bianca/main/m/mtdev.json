@@ -3,31 +3,31 @@
     "linux-any"
   ],
   "Binary": [
-    "libmtdev1, libmtdev-dev, mtdev-tools, libmtdev1-udeb"
+    "libmtdev1t64, libmtdev-dev, mtdev-tools, libmtdev1-udeb"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 8.1.3), cdbs (\u003e= 0.4.93~), pkg-config, quilt, dpkg-dev (\u003e= 1.14.17), dh-autoreconf (\u003e= 7)"
+    "debhelper-compat (= 13), pkgconf"
   ],
   "Checksums-Sha1": [
-    "da1a609e3c77386c68e153120bcb3400795ac943 6120 mtdev_1.1.6-1.debian.tar.xz 9019b1363452dc5d4aff4ca3b575eabf330a05c3 2096 mtdev_1.1.6-1.dsc c53499ba629074343eac5879a3065924a165f439 362376 mtdev_1.1.6.orig.tar.gz"
+    "8863a9435408a8da08286e5ecb8da0dee14a1a00 6352 mtdev_1.1.7-1.debian.tar.xz 70c4b99b6d9efe825fa010e9e17b1cb28a5a8ef5 2035 mtdev_1.1.7-1.dsc 6bcf492f62f10ff71cc2b8a83e87f73edba0ea6a 369052 mtdev_1.1.7.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "138d6754b9bb7b54dac10c8d8a2c5e16e6c8559152b89feb917b5c1eba86bd59 6120 mtdev_1.1.6-1.debian.tar.xz eae9a575d4ade03cbc40562e60f82bda2e454b9398c1599844482d3f9452690c 2096 mtdev_1.1.6-1.dsc 1325f389a2f25cd5f5a8ea4d29aad24aa7c3ec30401d679400dd79eb9c0a8dbb 362376 mtdev_1.1.6.orig.tar.gz"
+    "83615141d079ed4b224b5272e7d7f6f39a9d1f99e0477b9f477b6bb1145a17df 6352 mtdev_1.1.7-1.debian.tar.xz d32b72a4fdb9662ff84b4727a24f5adf8d2d00face15b7d1836e1adec137890a 2035 mtdev_1.1.7-1.dsc a55bd02a9af4dd266c0042ec608744fff3a017577614c057da09f1f4566ea32c 369052 mtdev_1.1.7.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c50073b626350b633cdc34255be6c5fc259520cc6d75a85cf3edc05226942412dc7e03a7ceec5c3bb085ae3b0b2cd33996066c60c29483ebbe30e32fe0e8a235 6120 mtdev_1.1.6-1.debian.tar.xz 17d101baa721d3e1bf86a4ea9288540fc0bb08ae4d8c11f2a9dceab739747573c8ba9ad7671497519621afebc4242cdb3314c1536a84ae748b99ce85644ff6fc 2096 mtdev_1.1.6-1.dsc e643264baa880abfc31b53f8e8ed54fe1adea4bc110fab57d36be16caba84f970c09fc864244c64b0a76e85f5f021fd086c12f96badbd886da6ccf254ab678e9 362376 mtdev_1.1.6.orig.tar.gz"
+    "2737abe9c0739cc6efbcbcc46896a9ef8e0586803ebc952264d26a74b5bb17c55ef5921a77b4c4eb7c562a178e496df8a205b9aaa1f8151617a9e018d9bec473 6352 mtdev_1.1.7-1.debian.tar.xz 293c978f01de2d66920ad63a7e1f3ea66daef32911d6fdfb0599dc70bb33851aaf6e64e8da64b0ffeff78ce549cb1ee071318f0fa4167bfc813784a0f8285189 2035 mtdev_1.1.7-1.dsc b2dab6616c6d18efab8294a8b71d38b82a9af97cb73d966b01db4c01776aa6f38b68225e15c3441267b21bc6299cf339ececca9a2a49f062f5eebd9d2bfebf6c 369052 mtdev_1.1.7.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/m/mtdev"
   ],
   "Files": [
-    "624114d9133109caddc66261d0788083 6120 mtdev_1.1.6-1.debian.tar.xz 146afbd38ab4b1d248b75e094396f3fa 2096 mtdev_1.1.6-1.dsc add648e38e26167ecdf78f0cd527a672 362376 mtdev_1.1.6.orig.tar.gz"
+    "3b686843df5fcce0fbcbb6a6fc369bce 6352 mtdev_1.1.7-1.debian.tar.xz bfb17bda2598fdc1b08920ccf3fa23a1 2035 mtdev_1.1.7-1.dsc a7e223d2b33d5d943941ae3423b86cac 369052 mtdev_1.1.7.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://bitmath.org/code/mtdev/"
+    "https://bitmath.se/org/code/mtdev/"
   ],
   "Maintainer": [
     "Nobuhiro Iwamatsu \u003ciwamatsu@debian.org\u003e"
@@ -36,10 +36,10 @@
     "mtdev"
   ],
   "Package-List": [
-    "libmtdev-dev deb libdevel optional arch=linux-any libmtdev1 deb libs optional arch=linux-any libmtdev1-udeb udeb debian-installer optional arch=linux-any mtdev-tools deb libdevel optional arch=linux-any"
+    "libmtdev-dev deb libdevel optional arch=linux-any libmtdev1-udeb udeb debian-installer optional arch=linux-any libmtdev1t64 deb libs optional arch=linux-any mtdev-tools deb libdevel optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.4.0"
+    "4.7.0"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/mtdev"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/mtdev.git"
   ],
   "Version": [
-    "1.1.6-1"
+    "1.1.7-1"
   ]
 }

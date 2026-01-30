@@ -6,28 +6,28 @@
     "python3-requests, python-requests-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-certifi, python3-chardet (\u003e= 3.0.2), python3-pygments, python3-pytest, python3-pytest-httpbin, python3-pytest-mock, python3-setuptools, python3-socks, python3-sphinx (\u003e= 1.3), python3-trustme, python3-urllib3 (\u003e= 1.21.1)"
+    "debhelper-compat (= 13), dh-sequence-python3, openssl, pybuild-plugin-pyproject, python3-all, python3-certifi, python3-chardet (\u003e= 3.0.2), python3-pygments, python3-pytest \u003c!nocheck\u003e, python3-pytest-httpbin \u003c!nocheck\u003e, python3-pytest-mock \u003c!nocheck\u003e, python3-setuptools, python3-socks, python3-sphinx (\u003e= 1.3), python3-trustme, python3-urllib3 (\u003e= 1.21.1)"
   ],
   "Checksums-Sha1": [
-    "7c391585e0912b5a913f8b2ee196e6cbc8ddc131 11776 requests_2.28.1+dfsg-1.debian.tar.xz 33b77af5fe7bfa6503fc6b2ae87182d19e70b60c 2532 requests_2.28.1+dfsg-1.dsc ce2c8beb1eaa3ff8e3bb7013e4a338c98fb9a213 132556 requests_2.28.1+dfsg.orig.tar.xz"
+    "05738a2c72f0bd07bf1e8769e9c89332b60d30d2 13716 requests_2.32.3+dfsg-5.debian.tar.xz 7f0b2b10a17fe1ed791be97d39aedcfc1c7d2403 2259 requests_2.32.3+dfsg-5.dsc 7faa4d88889316aaa9e4a8a5919a6551f83be92c 149144 requests_2.32.3+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "0124aef488aeaaf9dcf8943791531d6225e2e8782370282b2f2edb01ee1ae3d7 11776 requests_2.28.1+dfsg-1.debian.tar.xz 87a61417f320136f6b2277173762d4cc1a22231f2f1d2866c0ebe28d4f2e9f85 2532 requests_2.28.1+dfsg-1.dsc 6c50ee6d9ade1644715c1ca78480838d3a0d2314cfdefd6c2a33dd8b821e6585 132556 requests_2.28.1+dfsg.orig.tar.xz"
+    "153b8c1295965de32464f9ffff95ea2ecbd7fd640bb23cdd7f609d6185c82e47 13716 requests_2.32.3+dfsg-5.debian.tar.xz 6adab47ce9603166bedf6e1327ca4462ddb52abafa78f2b5d4873548d073fb3f 2259 requests_2.32.3+dfsg-5.dsc eb6ce500ea7f88e2110e9ff81dd09fa925f69840bc8430634d1076e3d55ed466 149144 requests_2.32.3+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "6df6b5c9c7a72e4a3439aa05230f07ed4df8843e1d059f9e2b4a2d191b80bbbfd02b307345ca575b07afc6cb0e98ba547fbfe89276e1f4e5a24d5351b583b666 11776 requests_2.28.1+dfsg-1.debian.tar.xz aa59d9e59c6a82ed057db15662505e7d683a02d90549a5374785899edadafe2b899fd49c79366ad0af7c6d57009ddc5062fd377eec3b0a82e2e6616bc486b20b 2532 requests_2.28.1+dfsg-1.dsc a13030face07c419ddd88da7b152e91fdb0555002eed97d91f64a3d27a0e1ed7bc19635503389a0e78ccf47c10384a5ec17b6ad7cd57fbf32719bd11b436e812 132556 requests_2.28.1+dfsg.orig.tar.xz"
+    "ee2e9aefa6b638d7df8bd2ea024783489c44f5dc6046f552d4aaaa5b2baa800659151d2e916e8aa4388f373bad03fb288efe22c963cbf9b38c1af16f3019b7b8 13716 requests_2.32.3+dfsg-5.debian.tar.xz 60cd4b7d533012027a17bddec7d98d57f43c36120f64f453745db0dfeeb1412b5fbf14142c751a72926b92cca26cd80afc687fa55b1d2a572af06c7cae108456 2259 requests_2.32.3+dfsg-5.dsc fe99606e77c62304a0f55dcd09fe483b1f027b961867ea449f4f5e3dd8462c8eb6a8ad64ed81c3b55f04950f92e0ec3dfd95dfa5e352df7f0cf85c5eb4688850 149144 requests_2.32.3+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/r/requests"
   ],
   "Files": [
-    "49d2ac2e6d601164b29b2fde90622083 11776 requests_2.28.1+dfsg-1.debian.tar.xz d12e50c5da1f651bffc7a40d7569252c 2532 requests_2.28.1+dfsg-1.dsc c3fd3e584b9646e7b1b736526ad08384 132556 requests_2.28.1+dfsg.orig.tar.xz"
+    "7df5b7bb3bbe42146be1cc82aaf5d807 13716 requests_2.32.3+dfsg-5.debian.tar.xz 07f8d040981f3f8972ce0e60ff768747 2259 requests_2.32.3+dfsg-5.dsc 3d46cb301fc1a5a381a46df7be5de15d 149144 requests_2.32.3+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://python-requests.org"
+    "https://requests.readthedocs.io/"
   ],
   "Maintainer": [
     "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
@@ -39,13 +39,10 @@
     "python-requests-doc deb doc optional arch=all python3-requests deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python3-all, python3-certifi, python3-chardet, python3-pygments, python3-pytest, python3-pytest-httpbin, python3-pytest-mock, python3-socks, python3-trustme, python3-urllib3"
+    "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
     "Daniele Tricoli \u003ceriol@debian.org\u003e"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/requests.git"
   ],
   "Version": [
-    "2.28.1+dfsg-1"
+    "2.32.3+dfsg-5"
   ]
 }

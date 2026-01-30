@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "linux-any all"
+    "linux-any"
   ],
   "Binary": [
-    "iproute2, iproute2-doc"
+    "iproute2"
   ],
   "Build-Depends": [
-    "bison, debhelper-compat (= 13), flex, libxtables-dev, libatm1-dev, libbsd-dev, libbpf-dev (\u003e= 1:0.1.0~), libcap-dev, libdb-dev, libelf-dev, libmnl-dev, libselinux1-dev, linux-libc-dev, pkg-config, po-debconf, zlib1g-dev"
+    "bison, debhelper-compat (= 13), dh-package-notes, dh-sequence-movetousr, flex, libxtables-dev, libatm1-dev, libbsd-dev, libbpf-dev (\u003e= 1:0.1.0~), libcap-dev, libdb-dev, libelf-dev, libmnl-dev, libnsl-dev, libselinux1-dev, linux-libc-dev, pkgconf, po-debconf, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "db581729e4a20f13992fcff6397a77bc1514ef9a 36796 iproute2_6.1.0-3.debian.tar.xz 64bce38a500bb8aa56cf15229f129573e633ee71 2228 iproute2_6.1.0-3.dsc a10a6b479a641f2d4280c762ce531ebe3f2adb1c 905512 iproute2_6.1.0.orig.tar.xz"
+    "ba763dbc01baae890a2484938ab3e14f59b60945 39920 iproute2_6.15.0-1.debian.tar.xz 0920d40c5aa69058162996adece07099462d057b 2348 iproute2_6.15.0-1.dsc 5f0d837dbbc803bfd3658e87e504875c0d819d74 930908 iproute2_6.15.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "7d15857b8688ed5bc0ead83a5a944ce052a1b89ad25c9354d60f33ef843a4720 36796 iproute2_6.1.0-3.debian.tar.xz cd9e054a0c1f371a23fdd66e1f593b35bd1b12a2e53c284ec19c764da201a31f 2228 iproute2_6.1.0-3.dsc 5ce12a0fec6b212725ef218735941b2dab76244db7e72646a76021b0537b43ab 905512 iproute2_6.1.0.orig.tar.xz"
+    "780375193dffeb85f310a918b806f2f4e480f76b815a1f0f1eac5d0488ea1a8f 39920 iproute2_6.15.0-1.debian.tar.xz 2558690474d6cdda5e2c4022b520935623ddd41fbf8e936315e3f4314f6f21dd 2348 iproute2_6.15.0-1.dsc 8041854a882583ad5263466736c9c8c68c74b1a35754ab770d23343f947528fb 930908 iproute2_6.15.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "f1a30d62129ca78eb0a10eb6ce508d911a7657fbeb96bf1987a980030def08a3e7593e35899d498f2960d8cd52d4589d7b8786437915bf71d601485371286496 36796 iproute2_6.1.0-3.debian.tar.xz fab5ad1fffa2a0499b7a5ca4034f92c6309016d53516c0415b8dd47a62f74a40ff806217fd91f68fa66bedfa6b0980e4af2de661bf982d2d6470bf21a003cc5b 2228 iproute2_6.1.0-3.dsc 4e4d3b5e1e1a5444f42671c1e6caee072e80063e34e37386695f76f85a1ab662f4513050814006e5154426cbaadfba1d86b0be14e65978d5e670a16446047b28 905512 iproute2_6.1.0.orig.tar.xz"
+    "ffc384e8787884365d8297d7ac40dd229e78a84ea5d65e3e550d20a08bdf5f17e027737580653f4c390998268f106a60ffb7b7ce22a9d652d93aad5de701c74a 39920 iproute2_6.15.0-1.debian.tar.xz 1f51b243c00f619c559ad763ee1a69437f568a1ab5af2ad96fc4262069cd603d0663f513d60a47c3de72f6efa43cf1487f1099173a73f264c81bb3c5986efe76 2348 iproute2_6.15.0-1.dsc 1a438941cd939e1c8e32cfe8c40e6fd826c89185f1bb0c623eaad7380a66afd9fa9e0d7cdc5e5b193d2761b7dbdc78fd0811537eecc500be633730c32ff55ad4 930908 iproute2_6.15.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/i/iproute2"
   ],
   "Files": [
-    "fc7fd2b3eebb09770c1608dcddda878e 36796 iproute2_6.1.0-3.debian.tar.xz c3116f907750a9e903d605b18256839f 2228 iproute2_6.1.0-3.dsc f3ff4461e25dbc5ef1fb7a9167a9523d 905512 iproute2_6.1.0.orig.tar.xz"
+    "d113e76b6f0042545934917d84cec1b7 39920 iproute2_6.15.0-1.debian.tar.xz ff32f139ab598ae72a0356c848dada9c 2348 iproute2_6.15.0-1.dsc d85d77deed57e055cb2d1409595a6348 930908 iproute2_6.15.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,16 @@
     "iproute2"
   ],
   "Package-List": [
-    "iproute2 deb net important arch=linux-any iproute2-doc deb doc optional arch=all"
+    "iproute2 deb net important arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, gcc, kmod, linux-image-amd64, linux-image-arm64, linux-image-generic, locales-all, sudo"
   ],
   "Uploaders": [
     "Luca Boccassi \u003cbluca@debian.org\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/kernel-team/iproute2.git"
   ],
   "Version": [
-    "6.1.0-3"
+    "6.15.0-1"
   ]
 }

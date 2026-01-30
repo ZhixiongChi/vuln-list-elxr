@@ -6,22 +6,22 @@
     "python3-coverage, python-coverage-doc"
   ],
   "Build-Depends": [
-    "dh-python, python3-sphinx, python3-sphinx-rtd-theme, python3-sphinx-tabs, python3-sphinxcontrib.restbuilder, python3-sphinxcontrib.spelling, python3-setuptools, python3-all-dev, python3, debhelper-compat (= 13)"
+    "dh-python, pybuild-plugin-pyproject, python3-sphinx, python3-sphinx-code-tabs, python3-sphinx-rtd-theme, python3-sphinxcontrib.restbuilder, python3-sphinxcontrib.spelling, python3-setuptools, python3-all-dev, python3, debhelper-compat (= 13)"
   ],
   "Checksums-Sha1": [
-    "f9f4d0da4696bc86ae54ea39525bba51634384ec 20512 python-coverage_6.5.0+dfsg1-2.debian.tar.xz 43c5cb10d24b2ea7a3b32c835c933a02ffcbf550 2329 python-coverage_6.5.0+dfsg1-2.dsc b93873ee4e10a43bdb121149b3fc1853c5de39ab 587552 python-coverage_6.5.0+dfsg1.orig.tar.xz"
+    "384229313624d64294e962f7953ad16a2ab2183e 20376 python-coverage_7.6.0+dfsg1-2.debian.tar.xz 4aa90b4065070d5d9f8745a0a2813fa0e59c6ac8 2336 python-coverage_7.6.0+dfsg1-2.dsc d094e1f8c789a628d7c0e6a894587e411932032a 618116 python-coverage_7.6.0+dfsg1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "58a95b01ea6c2fb611ff1f9d70e6ed4b9c8e3e6d1433a6d73ff2d3e4bbc35209 20512 python-coverage_6.5.0+dfsg1-2.debian.tar.xz 8f18ec23015a47abd092c273dec23752f49009d7c506f37a79076a30db70d8ef 2329 python-coverage_6.5.0+dfsg1-2.dsc 28060366d6cc8dd790d1fb0d7b33cf62eadc0809a07ad82bfac0b2d02ec4a931 587552 python-coverage_6.5.0+dfsg1.orig.tar.xz"
+    "d5c0d7d75bced7b9cc35afdf6097956f1aa55935b49dc93d99758c8bf5aeabbe 20376 python-coverage_7.6.0+dfsg1-2.debian.tar.xz 09c507536d989590e81e7e2c8e0ca6b5547947175d55dd62940267a267112886 2336 python-coverage_7.6.0+dfsg1-2.dsc 123c69bdfaf62a4f46547f1f14f60848ef0107fd0c57486b843d6e37b2df955a 618116 python-coverage_7.6.0+dfsg1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "c7cd364224507b87ff4b8b9f51f273b40421b9d2976606e43b6cf5f13894f8287e91eda9256e6a48aef2a8c16f44ad0a3f2c2a32cfde3a6dc2c98d017ebf3c46 20512 python-coverage_6.5.0+dfsg1-2.debian.tar.xz 15a9a6dd3d1cc37bd6a41f07165136be6b60a4da3f962fb78a16b8abce1621ed80d7c272466e6e2633c8a6bcef2a7098196be5377a57297e32e9d6f3f3ae3850 2329 python-coverage_6.5.0+dfsg1-2.dsc 40608b72758146c758017bca537ea26a83356af8c8b197e22699786940ef6c119afc1e6ca03b125b59716309781985e204cdb8e5b222e14e38634ea5eecfbe02 587552 python-coverage_6.5.0+dfsg1.orig.tar.xz"
+    "d038c65c2a569b9cd7fbbbbf96b2f82c88748e6d03537c8f0d03b7ee5ff6d1e8e61c8cee263a2f5894612b09b001671621bd8f0a0beac15ec95b51d8f32aa0b7 20376 python-coverage_7.6.0+dfsg1-2.debian.tar.xz 7673c7ba3efe8b982e5492a26d5d28852168f9bf5eec8a303ddbb7d342391e1e7a8839a25e74382e9a14a113e3d9781c0d046a3636fe96075a7223ae6001a13a 2336 python-coverage_7.6.0+dfsg1-2.dsc d581c5f3279f75e62a24e80d2300c22110753a511a8ac994bf30c595dea17775d68fcfd90ac1af62150b8064d2087a0a5d2e18d2722e2794cde2d03bbdb21506 618116 python-coverage_7.6.0+dfsg1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-coverage"
   ],
   "Files": [
-    "4e5930aa7b06b14af9b98cb8fe75f9ae 20512 python-coverage_6.5.0+dfsg1-2.debian.tar.xz d3010eadd5d60bc03005ab030100ad29 2329 python-coverage_6.5.0+dfsg1-2.dsc 0af4d0fde90952a987dc65a9a882b97b 587552 python-coverage_6.5.0+dfsg1.orig.tar.xz"
+    "7fd1efdebbb5d810ef1c167812418416 20376 python-coverage_7.6.0+dfsg1-2.debian.tar.xz f1acb7dd069f7a9e72f7ffed05fdb916 2336 python-coverage_7.6.0+dfsg1-2.dsc f182a4bfd8712e703d6c501188b7c2d5 618116 python-coverage_7.6.0+dfsg1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "python-coverage-doc deb doc optional arch=all python3-coverage deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "file, python3-all, python3-pkg-resources, w3m"
+    "file, python3-all, python3-package-smoke-test, w3m"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/pkg-python-coverage/"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/pkg-python-coverage.git"
   ],
   "Version": [
-    "6.5.0+dfsg1-2"
+    "7.6.0+dfsg1-2"
   ]
 }

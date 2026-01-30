@@ -6,25 +6,25 @@
     "designate, designate-agent, designate-api, designate-central, designate-common, designate-doc, designate-mdns, designate-pool-manager, designate-producer, designate-sink, designate-worker, designate-zone-manager, python3-designate"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 10), dh-python, openstack-pkg-tools (\u003e= 123~), po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools (\u003e= 123~), po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
   ],
   "Build-Depends-Indep": [
-    "alembic (\u003e= 1.8.1), bandit, python3-coverage, python3-debtcollector, python3-designateclient, python3-dnspython, python3-edgegrid, python3-eventlet, python3-fixtures, python3-flask, python3-futurist, python3-greenlet, python3-hacking, python3-jinja2, python3-jsonschema, python3-kerberos, python3-keystoneauth1, python3-keystonemiddleware, python3-memcache, python3-migrate, python3-neutronclient, python3-openstackdocstheme \u003c!nodoc\u003e, python3-os-api-ref \u003c!nodoc\u003e, python3-os-win, python3-oslo.concurrency, python3-oslo.config, python3-oslo.context (\u003e= 4.0.0), python3-oslo.db, python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging (\u003e= 14.0.0), python3-oslo.middleware, python3-oslo.policy (\u003e= 3.7.0), python3-oslo.reports, python3-oslo.rootwrap, python3-oslo.serialization, python3-oslo.service, python3-oslo.upgradecheck (\u003e= 1.3.0), python3-oslo.utils, python3-oslo.versionedobjects, python3-oslotest \u003c!nocheck\u003e, python3-paste, python3-pastedeploy, python3-pecan, python3-osprofiler, python3-pygments, python3-pymysql, python3-requests, python3-requests-mock \u003c!nocheck\u003e, python3-sphinxcontrib.blockdiag \u003c!nodoc\u003e, python3-sphinxcontrib.httpdomain \u003c!nodoc\u003e, python3-sqlalchemy, python3-stestr \u003c!nocheck\u003e, python3-stevedore, python3-tempest \u003c!nocheck\u003e, python3-tenacity, python3-testscenarios \u003c!nocheck\u003e, python3-testtools \u003c!nocheck\u003e, python3-tooz, python3-webob, python3-webtest \u003c!nocheck\u003e, python3-werkzeug, python3-zake, sqlite3, subunit"
+    "alembic, bandit, python3-coverage, python3-designateclient, python3-dnspython, python3-edgegrid, python3-eventlet (\u003e= 0.36.0), python3-fixtures, python3-flask, python3-futurist, python3-greenlet, python3-hacking, python3-infoblox-client, python3-jinja2, python3-jsonschema, python3-kerberos, python3-keystoneauth1, python3-keystonemiddleware, python3-openstackdocstheme \u003c!nodoc\u003e, python3-openstacksdk (\u003e= 0.103.0), python3-os-api-ref \u003c!nodoc\u003e, python3-oslo.concurrency, python3-oslo.config, python3-oslo.context, python3-oslo.db, python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging (\u003e= 14.1.0), python3-oslo.middleware, python3-oslo.policy (\u003e= 4.5.0), python3-oslo.reports, python3-oslo.rootwrap, python3-oslo.serialization, python3-oslo.service, python3-oslo.upgradecheck, python3-oslo.utils, python3-oslo.versionedobjects, python3-oslotest \u003c!nocheck\u003e, python3-osprofiler, python3-paste, python3-pastedeploy, python3-pecan, python3-pygments, python3-pymysql, python3-requests, python3-requests-mock \u003c!nocheck\u003e, python3-sphinxcontrib.blockdiag \u003c!nodoc\u003e, python3-sphinxcontrib.httpdomain \u003c!nodoc\u003e, python3-sqlalchemy, python3-stestr \u003c!nocheck\u003e, python3-stevedore, python3-tempest \u003c!nocheck\u003e, python3-tenacity, python3-testscenarios \u003c!nocheck\u003e, python3-testtools \u003c!nocheck\u003e, python3-tooz, python3-webob, python3-webtest \u003c!nocheck\u003e, sqlite3, subunit"
   ],
   "Checksums-Sha1": [
-    "e0fc0457d1dd79e34a5beb6267e5fdd96b4610fa 16228 designate_15.0.0-4.debian.tar.xz 10cbbbea12f99312e3bda642f3cd6745252b54e0 4395 designate_15.0.0-4.dsc 630d2417e32076fcc2bb7cddcd2dd5a66cec503a 758448 designate_15.0.0.orig.tar.xz"
+    "9d43d674167a9d7922bf55bfd34157c1e21dd77b 16800 designate_20.0.0-2.debian.tar.xz e75c36b7f40184ffc239f7aac2eca1480f9bc91d 4305 designate_20.0.0-2.dsc 2b6fd38f47f475cd9859ad72aea0c69641c58681 738480 designate_20.0.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "fcde66c3bf2869defb6776e45ba721dbab7b5ec24bd5e70d5150d1b996e8400c 16228 designate_15.0.0-4.debian.tar.xz c4ed211f7bf383ce68058df8ab66bce1c6f8c48c4aecd2db780fe756d3eaa10a 4395 designate_15.0.0-4.dsc 8e70470c3f0820529845c768a30204c5afafd22971cddd5b3797b172fad5eb32 758448 designate_15.0.0.orig.tar.xz"
+    "12988b82e68d2eb5880a2bdf19e637c6db3e4e71d6d4f94cc9aa6d4937adcd80 16800 designate_20.0.0-2.debian.tar.xz 971766c851ef4134c5e0c9aa7d80d2dd76ea490e0726bb60e1a6d4da6b7ff439 4305 designate_20.0.0-2.dsc c63c1c95728b1cc258b00f8885e5a85ef170f6fd5a2e71c7be6735ae556c385a 738480 designate_20.0.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "a50b0ef09e4680b07461ef5b6587e69c2abb06c5d62018cdafc6ee5b673cfcc2accca97718061aa5b43e3d08390635d4dcf3b11ba751cf408e7210fe5e01a20f 16228 designate_15.0.0-4.debian.tar.xz 71c43ec51a397c19f3e5637cbd6738f77fd67a346fe9a59f39ab4ab1cdadaebce677578b46a7bae6c537ce84a1476b358ad657ea63b455a1fac4e99d40a3e659 4395 designate_15.0.0-4.dsc adc829bc58e9970ce53e39ca4b736a758c5b2df90bcff4c6f158559c8a59ae5169fb1b0d56c255191cf0247e55777c25ddbbef01f21fe2895ba9cdb420e5cbe2 758448 designate_15.0.0.orig.tar.xz"
+    "8a22acd30b176327499c0ff4df63fceffcfc83df4e9f6ddc31a45506070ebf84933029cbe4bdce94b8ade5e03a1eff9f062a0222f136f53058e1207f9b0c3365 16800 designate_20.0.0-2.debian.tar.xz 7e43e68760a2a9f9d8e96b496dbceb70414dae0fbbc052f5d1917b71a6afd86e2b39833211d068eef213acc10860dbaea638e6eb5e5989f9271c3a497da5e4c4 4305 designate_20.0.0-2.dsc 8a16ccafcf390a703ea8ebb77e07f2304bfee3c15cae0f40e2ed97efbb2afc931bfdc173467067d552b81fd6f97833c80fcb6ab286170ff1fd8d9d95281b6c58 738480 designate_20.0.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/d/designate"
   ],
   "Files": [
-    "356151e08156b18d164ed414333420e7 16228 designate_15.0.0-4.debian.tar.xz 26cfce98d91a8cb84f9e187886788ee5 4395 designate_15.0.0-4.dsc f3593fb086ddf0debaef1bcf1b7ed23e 758448 designate_15.0.0.orig.tar.xz"
+    "3078c93d8e573cf542874987d46d99b8 16800 designate_20.0.0-2.debian.tar.xz e52fdfcad7424c9749a9eb2c1da40582 4305 designate_20.0.0-2.dsc b694063b70a4a1f770fd56fbd3a3ab34 738480 designate_20.0.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/openstack-team/services/designate.git"
   ],
   "Version": [
-    "1:15.0.0-4"
+    "1:20.0.0-2"
   ]
 }

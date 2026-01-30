@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "any all"
+    "any"
   ],
   "Binary": [
-    "codec2, codec2-examples, libcodec2-1.0, libcodec2-dev"
+    "codec2, libcodec2-1.2, libcodec2-dev"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), libsamplerate0-dev, libspeexdsp-dev, octave, octave-dev, octave-signal, gnuplot-nox, sox"
+    "clang-format [amd64], cmake, debhelper-compat (= 13), libsamplerate0-dev, libspeexdsp-dev, octave-dev [amd64] \u003c!nocheck\u003e, octave-signal [amd64] \u003c!nocheck\u003e, sox [amd64] \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "d10fa80a808c33789022b17fc5ecf027bd8f9c23 49260 codec2_1.0.5-1.debian.tar.xz ed2e3e0e676bad22c56aeb96ef9a2d7f808e3354 2901 codec2_1.0.5-1.dsc 5029c0a4e5973e2b86ba4ccfa40eea06cd003337 568851 codec2_1.0.5.orig-cml.tar.gz 2c5e2c8485be184dc5f238117098911b11a4e443 33772309 codec2_1.0.5.orig-lpcnet.tar.gz 9e588a52b56aed7c0909cab802207b37311fbb21 18396516 codec2_1.0.5.orig-lpcnet191005.tar.gz 56e540e2f107d6a7832f1d4e1d65859f8a26c98b 14786826 codec2_1.0.5.orig.tar.gz"
+    "30e20c2d80b8fbfeb477ce49560b144d880d32d6 48484 codec2_1.2.0-3.debian.tar.xz 0101656a236ebfd9ee72f1bf8466628182d66b3d 2887 codec2_1.2.0-3.dsc a2fb0698281e42e435670d208235288b64a8825b 5233217 codec2_1.2.0.orig-LPCNet.tar.gz c7ba0f294ddd60653c6536c049f30ee655c7abae 569648 codec2_1.2.0.orig-cml.tar.gz 9e588a52b56aed7c0909cab802207b37311fbb21 18396516 codec2_1.2.0.orig-lpcnet191005.tar.gz ff3d34e19ff40aee9b1c5fdcecc545a3bd69b7bf 7688549 codec2_1.2.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "e3f7cc10e620496cb1587dedda94e855a20a813323629c944db97f76b68682c4 49260 codec2_1.0.5-1.debian.tar.xz e749fe2e9675b0f12dd5fabf78b5d37b9d10b752f5b23936821fed01fc290249 2901 codec2_1.0.5-1.dsc df23b2ec574d6ec663b9ba8469fa3a6eb3f8d378033dd2ed3ff4f5fb12d67cf2 568851 codec2_1.0.5.orig-cml.tar.gz 94ca7cac2555e3576db310d82f9fd4ab281b3a6fb3a51daa937ae2b6b0b22ff1 33772309 codec2_1.0.5.orig-lpcnet.tar.gz 509440924751fdd87ffaa5683ee3dddd937af5c833b9104ccce65d51614926c8 18396516 codec2_1.0.5.orig-lpcnet191005.tar.gz cd9a065dd1c3477f6172a0156294f767688847e4d170103d1f08b3a075f82826 14786826 codec2_1.0.5.orig.tar.gz"
+    "91693318992daab0486d1325b11a12905a7a58b8ed38890454b0208f9f1e8fb9 48484 codec2_1.2.0-3.debian.tar.xz a49d5ee3d195a7d07f5da95bbd1a574fdab521aa765ebb5e16872a25b9a6b3bd 2887 codec2_1.2.0-3.dsc 8c01fb69fc5ef1e33b654d811161c3df3759878c7c61c5d66a149751bd680516 5233217 codec2_1.2.0.orig-LPCNet.tar.gz 471dc66f4c1a9d55585ac7b2a7831449cf4827ec6e89b351864c4e600656baf8 569648 codec2_1.2.0.orig-cml.tar.gz 509440924751fdd87ffaa5683ee3dddd937af5c833b9104ccce65d51614926c8 18396516 codec2_1.2.0.orig-lpcnet191005.tar.gz cbccae52b2c2ecc5d2757e407da567eb681241ff8dadce39d779a7219dbcf449 7688549 codec2_1.2.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "ccd77feb57a6a1263a917dfb466517b07d87f17bbbe8113c4a517de5f71cbe70edaf432a8fd07df2d96a5f7192ad5e03133f1b2784f61f4b91061b9008c35e95 49260 codec2_1.0.5-1.debian.tar.xz 7cdf0ccad4f83f6106918f92474a7ea68adf31002265cd3a4868209c20cadea9ed78c711f214307debee944ffdebd6462f135dff56b243e1c41d192aed319b41 2901 codec2_1.0.5-1.dsc 8dd3f0a73d2ddee4c71ebef91bda3a53a7e0ac861e018fc06da814492ad30681bf86c27ea9118148bccda670909716ccfa097c4feb268462dfd9ded1ba897d2c 568851 codec2_1.0.5.orig-cml.tar.gz cae30c8a4c906ecdcd6d4cfc2da0b30410a37281753d987a35e4669f8cbb58ee29ee234f36eab458d4843ee840ce3f40973c652b364cec00c75052a37bf99ea5 33772309 codec2_1.0.5.orig-lpcnet.tar.gz ffa52c492f2ef1ca09c34b321b36d9dd26f6d3a2e807f4601858b45a1c6159b45b846bfaf3d37c74acead955c0ad47c2d06cb08b8347d5ec441cd751f2110167 18396516 codec2_1.0.5.orig-lpcnet191005.tar.gz 692feea8ff99430a7ed8efa5bf48a633dc9689b1f39009cf1f907315e600da26ea3787a994b51d7ca9d4cbc8b8c9b26f89031af899f114fa130f0703266a6b17 14786826 codec2_1.0.5.orig.tar.gz"
+    "631eb42fae4bc3fcb4595077cccc13890df55580113fe004f1b89aa859357763d57275896221ef08493f3de7a12cb900694b9233c52c38f2c7c5cae9674ccfda 48484 codec2_1.2.0-3.debian.tar.xz 19609cec79929df6145ebbcdbbf488ef596b7ba4d3028b767f8391c232bf71fc72b13dbdc5d66e818adb846ad340dfbe0c73d0635163a44614235e8734db878f 2887 codec2_1.2.0-3.dsc 5582356a4075ea844999a53f3103a19951276db943a20ed43170ef56627d96e92381c479a55b22266d8805e769b6409410542407ad19a97ce24da17b21fbcd79 5233217 codec2_1.2.0.orig-LPCNet.tar.gz 4ce9099c35d64183f03187487fd40cc2e7e7b33c31958ca862bdd0b8576bc4fd51266ec6fcb088980da8d74aa24d17e5ee33d93b4263211d0683237572b86d85 569648 codec2_1.2.0.orig-cml.tar.gz ffa52c492f2ef1ca09c34b321b36d9dd26f6d3a2e807f4601858b45a1c6159b45b846bfaf3d37c74acead955c0ad47c2d06cb08b8347d5ec441cd751f2110167 18396516 codec2_1.2.0.orig-lpcnet191005.tar.gz a44e6eb3ec60b81e4dfefaa733c4f8a40c5e2e90454e964b14fbce896edd0877e32d917ce878a619d7e7e544c670231d7d0c9cd35659be6989fd18d474443489 7688549 codec2_1.2.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/c/codec2"
   ],
   "Files": [
-    "2b0842b58247ee8adf0295e925c74478 49260 codec2_1.0.5-1.debian.tar.xz d3fc6630fa0af798cf9f167d93b8a981 2901 codec2_1.0.5-1.dsc fe3d17614daac487be69b90468ac5bff 568851 codec2_1.0.5.orig-cml.tar.gz 81b850852bddfd92c264ba5f9c05d089 33772309 codec2_1.0.5.orig-lpcnet.tar.gz a86894b209a1869b50454fe591f047a1 18396516 codec2_1.0.5.orig-lpcnet191005.tar.gz 16a09b210409bad137c91bb18eb7cb92 14786826 codec2_1.0.5.orig.tar.gz"
+    "d7546b3e50122bdbfcb82d98e9ece97e 48484 codec2_1.2.0-3.debian.tar.xz c7c292ccd83a0d7d4158f34f223df3da 2887 codec2_1.2.0-3.dsc 5960a002a46e8df245f0294ba3a1c832 5233217 codec2_1.2.0.orig-LPCNet.tar.gz a6c1a653522828074c721a0e92a03449 569648 codec2_1.2.0.orig-cml.tar.gz a86894b209a1869b50454fe591f047a1 18396516 codec2_1.2.0.orig-lpcnet191005.tar.gz 8186452c6d3cfc89cc6c880a6a7130d0 7688549 codec2_1.2.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "codec2"
   ],
   "Package-List": [
-    "codec2 deb sound optional arch=any codec2-examples deb sound optional arch=all libcodec2-1.0 deb libs optional arch=any libcodec2-dev deb libdevel optional arch=any"
+    "codec2 deb sound optional arch=any libcodec2-1.2 deb libs optional arch=any libcodec2-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/bottoms/pkg-codec2"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/bottoms/pkg-codec2.git"
   ],
   "Version": [
-    "1.0.5-1"
+    "1.2.0-3"
   ]
 }

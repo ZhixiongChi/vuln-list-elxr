@@ -6,28 +6,31 @@
     "coinor-libosi1v5, coinor-libosi-dev, coinor-libosi-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 10), doxygen, graphviz, coinor-libcoinutils-dev (\u003e= 2.11.4), pkg-config, zlib1g-dev, libbz2-dev"
+    "coinor-libcoinutils-dev, debhelper-compat (= 13), libbz2-dev, pkgconf, zlib1g-dev"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, graphviz"
   ],
   "Checksums-Sha1": [
-    "cc6bef2ceaeba460a9e9b524be728e475af34731 8608 coinor-osi_0.108.6+repack1-2.debian.tar.xz ff8fa65df14025ab8b60506491eed6a2fcc90dc3 2174 coinor-osi_0.108.6+repack1-2.dsc 7ada35479d12f9fa1b27eddaf54b4f12cebe7c31 500744 coinor-osi_0.108.6+repack1.orig.tar.xz"
+    "f9ecf8c5902a8e0c71032e15a06c0a0b5a40ce24 13220 coinor-osi_0.108.10+ds-2.debian.tar.xz 5a4b43b1732d7e05af68fb9e3adc6c66e999e622 1579 coinor-osi_0.108.10+ds-2.dsc bedc0bf0f8b72c0b4f08a9871ad49141415c470a 461948 coinor-osi_0.108.10+ds.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "7f23746d853d87825212a97877687da3568ff50db9630a43cf61b8d846e073b2 8608 coinor-osi_0.108.6+repack1-2.debian.tar.xz 21bcc2358baeb202d4d9289e1a31ff50ad4e1447cd7b4b0562d8695458e94319 2174 coinor-osi_0.108.6+repack1-2.dsc 5ca3b9e20ecc450dbc1c6b9a43be609f52fd6efee97d488a7136657577499980 500744 coinor-osi_0.108.6+repack1.orig.tar.xz"
+    "1918f03794aa944ba7f678a315ab6efd67580351c451f5def0a54cf8112e8ee6 13220 coinor-osi_0.108.10+ds-2.debian.tar.xz a874eceba8dbe820e6d26b6343ae3f99f8546f801936658b8f47d5fcbe78df68 1579 coinor-osi_0.108.10+ds-2.dsc e41f9e76598e356f1e12fd2b0fc2c13da6213754e15411edcf80697c6f35af63 461948 coinor-osi_0.108.10+ds.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "454d690a99b6c3b2a4ca1e5b32909d01d10ea04b4284d438957accb6fe71b02fbf0d71e648eff8a7f30799785b61235c001602679362637c53da6e054eb8476b 8608 coinor-osi_0.108.6+repack1-2.debian.tar.xz eeeaeb6573145ba6c46ce8455ca9396c9ec4d0e1bd444c1a4d9daaa79501138a41768caa2c46ddcf4fc2e6b81fe089a1f949d3dda62aeb22dcc0ad469edbc472 2174 coinor-osi_0.108.6+repack1-2.dsc fb55ee20e4ac71f23c882cf137de1281be0bdd1f95027237069a9b4083a12c2ea0864400d14f64eb41a6087a64fa6a5b3bf0e80119b9eecd4543a12795b6704f 500744 coinor-osi_0.108.6+repack1.orig.tar.xz"
+    "6bdd53c8f8a119e3433c9feb7654859ca12cc7c20a79ad12326e8a7bc7a7ae5e242e6bdf0f944071661dcd3555dd8e4d367b7ddb455bab236ff27b0b445f2551 13220 coinor-osi_0.108.10+ds-2.debian.tar.xz e8aeffef36ed441061702982b45736df99b9a66205fe2d4f808902d54d8ce4e65a1a1358edb75d48fcbca524cc9960aa3f49ae46498160a10c1eb2ff750471de 1579 coinor-osi_0.108.10+ds-2.dsc d52103e0c7be490270e7784adc1ed641d23b502096ae439ab0b3229874b20d5ee21bc46d727e5bbe904fadc017baa163abab0cf209eb8f130451f01cfec9d6cd 461948 coinor-osi_0.108.10+ds.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/c/coinor-osi"
   ],
   "Files": [
-    "af77191fecb132b52d516280e3394373 8608 coinor-osi_0.108.6+repack1-2.debian.tar.xz 820392ff6e5f7072ee2489a73d3855ab 2174 coinor-osi_0.108.6+repack1-2.dsc 5ef2e8df1dfe125fad8f723d227e4946 500744 coinor-osi_0.108.6+repack1.orig.tar.xz"
+    "3e687f3ff3a487903aaccf9d93800f08 13220 coinor-osi_0.108.10+ds-2.debian.tar.xz 486dd2155fb65aa48b882bd43ad08cf7 1579 coinor-osi_0.108.10+ds-2.dsc 7c451dafc34a7ad8b22fb703593b59f1 461948 coinor-osi_0.108.10+ds.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://projects.coin-or.org/Osi"
+    "https://github.com/coin-or/Osi"
   ],
   "Maintainer": [
     "Debian QA Group \u003cpackages@qa.debian.org\u003e"
@@ -39,7 +42,7 @@
     "coinor-libosi-dev deb libdevel optional arch=any coinor-libosi-doc deb doc optional arch=all coinor-libosi1v5 deb science optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.7.0"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/science-team/coinor-osi"
@@ -48,6 +51,6 @@
     "https://salsa.debian.org/science-team/coinor-osi.git"
   ],
   "Version": [
-    "0.108.6+repack1-2"
+    "0.108.10+ds-2"
   ]
 }

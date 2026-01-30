@@ -6,28 +6,28 @@
     "signon-kwallet-extension"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.90.0~), libkf5wallet-dev (\u003e= 5.90.0~), pkg-config, pkg-kde-tools (\u003e= 0.12), qtbase5-dev (\u003e= 5.15.0~), signond-dev"
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.0.0~), libkf5wallet-dev (\u003e= 5.91.0~), libkf6wallet-dev (\u003e= 6.0.0~), libxkbcommon-dev, pkgconf, qt6-base-dev (\u003e= 6.0.0~), qtbase5-dev (\u003e= 5.15.2~), signond-dev (\u003e= 8.61+git20231015.c8ad982~)"
   ],
   "Checksums-Sha1": [
-    "f2c4fe65abe7ef38ac38ca3fc9a73ccdcf8b1ab1 14504 signon-kwallet-extension_22.12.3-1.debian.tar.xz db7a7f70e11bf438b49a4dbed1015fc2ce4df9ec 2708 signon-kwallet-extension_22.12.3-1.dsc 633a5179b7715f80ff8b75cf3cb409ba7214abca 11184 signon-kwallet-extension_22.12.3.orig.tar.xz 6146c38daecacdcb64f28e683cac790618d4a2ae 833 signon-kwallet-extension_22.12.3.orig.tar.xz.asc"
+    "ca447671d9f5d0adf189a7abf5b3fd7b882626fd 14712 signon-kwallet-extension_25.04.0-1.debian.tar.xz 494cd71d0f6bae9292e6c9c935442dfd6bc29abe 2775 signon-kwallet-extension_25.04.0-1.dsc a3d59a706304cf9a1f43f687e35fa28351c6b863 11312 signon-kwallet-extension_25.04.0.orig.tar.xz 43945cc87d9647910ed8549b32dc0a1dbf51d464 833 signon-kwallet-extension_25.04.0.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "8b461f3661b8d957d3ceb3e8e17805e1277ae61bb3fc3f0181a050ea8f748262 14504 signon-kwallet-extension_22.12.3-1.debian.tar.xz dfdb2dcf5ee51f1cd8a5694ae5c50162fbdd353581c093b6e966bcd6ea36adc4 2708 signon-kwallet-extension_22.12.3-1.dsc 959bef7cbaa7c44c7807b48e12890d4f37e03efa10ffa2c6b070508b90cddf29 11184 signon-kwallet-extension_22.12.3.orig.tar.xz 3809bf1af9b7bda2636c1d0f5eb15efa8effdd74b83f7b2865a4143783bb4793 833 signon-kwallet-extension_22.12.3.orig.tar.xz.asc"
+    "28d98846f021cd4e329e67ac2116bfb1d6df30e08db0ede493954d8fb2e64e46 14712 signon-kwallet-extension_25.04.0-1.debian.tar.xz 3d10e73d70518dda6637efb3887b2b2f5d06fd6c5707cf0e367f22e1326d0d07 2775 signon-kwallet-extension_25.04.0-1.dsc 37441ce9c33740ac22b93338db8769817e4e7f4925ead53aa595f249c61fd3b7 11312 signon-kwallet-extension_25.04.0.orig.tar.xz 698b6288328aa16fc30c7aa29140919a5f6f59f3ecd192e3a616fbd12713fce2 833 signon-kwallet-extension_25.04.0.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "0db9fa9d2e5230ff1e9fe5f2275e9cb62e48220dd8a2600c86b3bd7c2025af21011d293ec28ec8d1016cf8cedaf8852738d0692193381e8875cce190182bf448 14504 signon-kwallet-extension_22.12.3-1.debian.tar.xz c898c867034c6394fb928c49401304c281f29c514a9896c6181c4aa3adddc57bd98d7134758a6694ffa766caf81c23c8165c48916c6946de43adcce1b6c12325 2708 signon-kwallet-extension_22.12.3-1.dsc dfb0f9f6e01665be0213e48a75084fdaab1c478f8bb2e30f29e668dbab3ed323118a6c31208e6f9b0ebefcb6b5c2f4e90f8444536c43640d957b2adf8ab884d7 11184 signon-kwallet-extension_22.12.3.orig.tar.xz 2d840abaf4967d4118fd8fb301db4c9c78de4dffb5ac4a88a8560663b5db856baa6dd90dddd395dd3a71cc7cc5a3581a77e5fb760ab42598923c1e3e01e2766a 833 signon-kwallet-extension_22.12.3.orig.tar.xz.asc"
+    "f992a867ea153ffbc9066f129386add545220152c82477aae244eb2a6f4633754f268f9d51767225dc8ac42b739842a117035af6bc170e2262685aef746a3b2a 14712 signon-kwallet-extension_25.04.0-1.debian.tar.xz f65ca2899da40a4a5d24bfdf5095cb40ad75a54db00b9300ec587a5a0b852240c6cb93563064060c42a2e3e83d33a15dcd7995d127846b0a997a556545bf28a2 2775 signon-kwallet-extension_25.04.0-1.dsc 2018c1bdf84d474de8b41cd1be4b6e40aafd0005f5229856c325aaf6a8e8fdb24cd33a9a51fc56407891eb7e9ce70eaa5b58dbadf7866e7f43aca89170b03b01 11312 signon-kwallet-extension_25.04.0.orig.tar.xz a00f3dd603cbf99346e2381f9e52bc7eb6326d0970e10360d92c130b9eed61466eb49f9d74fd91d6f0f55d08a136cf851aa192cfa8ceff04d55440854576f848 833 signon-kwallet-extension_25.04.0.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/s/signon-kwallet-extension"
   ],
   "Files": [
-    "7f60b72c7a4d729dfdb321c3d1ac778a 14504 signon-kwallet-extension_22.12.3-1.debian.tar.xz ee15fa6039a043ae414675abb42e6037 2708 signon-kwallet-extension_22.12.3-1.dsc 35d9179b9ef972f2cdb1c98c2c578a2b 11184 signon-kwallet-extension_22.12.3.orig.tar.xz 91783f38c932b53ae5d7a0cff4b62963 833 signon-kwallet-extension_22.12.3.orig.tar.xz.asc"
+    "3fa421e0ac360ec36645884e8b439024 14712 signon-kwallet-extension_25.04.0-1.debian.tar.xz 8a621124ff2e7ba3a540649a3f066e8b 2775 signon-kwallet-extension_25.04.0-1.dsc fe9d22ec9ca16ce7e8d93ef908678abd 11312 signon-kwallet-extension_25.04.0.orig.tar.xz 30f28e9e0543de6889ace23e0bdb1c87 833 signon-kwallet-extension_25.04.0.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://projects.kde.org/projects/kde/kdenetwork/signon-kwallet-extension"
+    "https://invent.kde.org/network/signon-kwallet-extension"
   ],
   "Maintainer": [
     "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
@@ -39,10 +39,10 @@
     "signon-kwallet-extension deb kde optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Diane Trout \u003cdiane@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Diane Trout \u003cdiane@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/signon-kwallet-extension"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/signon-kwallet-extension.git"
   ],
   "Version": [
-    "4:22.12.3-1"
+    "4:25.04.0-1"
   ]
 }

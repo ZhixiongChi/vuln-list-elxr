@@ -3,19 +3,19 @@
     "any all"
   ],
   "Binary": [
-    "libphonenumber8-java, libphonenumber-dev, libphonenumber8, libgeocoding8"
+    "libphonenumber8-java, libphonenumber-dev, libphonenumber8, libphonenumber-data, libgeocoding8"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), dh-sequence-javahelper, default-jdk, default-jdk-doc, libabsl-dev, libgtest-dev, libicu-dev, libprotobuf-dev, libre2-dev, maven-debian-helper, protobuf-compiler, junit4, libbuild-helper-maven-plugin-java, libmaven-antrun-plugin-java, libmaven-assembly-plugin-java, libmaven-compiler-plugin-java, libmaven-exec-plugin-java, libmaven-jar-plugin-java, libmaven-javadoc-plugin-java, libmaven-war-plugin-java, libmaven-bundle-plugin-java, libmockito-java, libprotobuf-java, libservlet-api-java"
+    "cmake, debhelper-compat (= 13), dh-sequence-javahelper, default-jdk, default-jdk-doc, dpkg-dev (\u003e= 1.22.5), libabsl-dev, libgtest-dev, libicu-dev, libprotobuf-dev, libre2-dev, maven-debian-helper, protobuf-compiler, junit4, libbuild-helper-maven-plugin-java, libgoogle-auto-value-java, libmaven-antrun-plugin-java, libmaven-assembly-plugin-java, libmaven-compiler-plugin-java, libmaven-exec-plugin-java, libmaven-jar-plugin-java, libmaven-javadoc-plugin-java, libmaven-war-plugin-java, libmaven-bundle-plugin-java, libmockito-java, libprotobuf-java, libservlet-api-java"
   ],
   "Checksums-Sha1": [
-    "1855daa06b545e888fe50b9580cb1f327b44095a 12300 libphonenumber_8.12.57+ds-3.debian.tar.xz 065489aca6dce6b8b69fc97a177a07d0530168d8 2899 libphonenumber_8.12.57+ds-3.dsc 10e233626a35b036a813103638832c6991a482f2 7366048 libphonenumber_8.12.57+ds.orig.tar.xz"
+    "ff92973d209306ddcd06e16f30bb5d7c76bb1bd3 12572 libphonenumber_8.13.51+ds-4.2.debian.tar.xz c6a8599a95d1e1b44829fa85bb08f23b6e22d124 2875 libphonenumber_8.13.51+ds-4.2.dsc ef03084273560e5c9a86a6ffb0df571026f9156f 7522084 libphonenumber_8.13.51+ds.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "77cb18483834a5a0c22e55bb1a094eac6a698d47a382685f649503468fa09814 12300 libphonenumber_8.12.57+ds-3.debian.tar.xz 8d7bc92ef866c125aa39c52ce8c2ae20b5f2243c7754012a2ec73cee98d9a0e2 2899 libphonenumber_8.12.57+ds-3.dsc 87c48b3026657fe4851da3565b046271d864acb0a218a6ebf42d23549fa93571 7366048 libphonenumber_8.12.57+ds.orig.tar.xz"
+    "77982dad02947e0a65b3eddf1af59c225c7fcfecfa3bd91a0c8513fcacc4f95b 12572 libphonenumber_8.13.51+ds-4.2.debian.tar.xz f2a0f4600854fce5346c92111fd76249feafe84e63fcb332b246d88180b8d8c3 2875 libphonenumber_8.13.51+ds-4.2.dsc b97c8ba35890073a2f7b879dca5a5d9208e2a60d01c425e5c9afdd5b19396fde 7522084 libphonenumber_8.13.51+ds.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "ec9d1bca2a2c054a99a49ed34cf683a27fbd4bcf1d57f0591fcaec5729d7fb3cdcbd1a2eda63ebadd777fdffca2c3a49cc727f39ab58d4cdbf34a01c004f8988 12300 libphonenumber_8.12.57+ds-3.debian.tar.xz 972d6ffd9c6b06c4f70ffcaa50c601baa31de5fef215b9c2759dc60a5463532a616262187ed0f3419b8ba5ca7b7e8610ab12155a4f40351b01073799c148779c 2899 libphonenumber_8.12.57+ds-3.dsc ffb32cbf434a9e8d57b123aa685e818cc2c383b1e120b58b61772ebe1f15f01d0b254f6a2df4e5c92089a85d2cc6a6d072cc3957368362054fbaf94459d49745 7366048 libphonenumber_8.12.57+ds.orig.tar.xz"
+    "2754bee64a33efe26ad406d27a1b5f72063af513d4083a4f0e8f8e84a84bdb4d6ec8c0ec62a58c41763c9a502706273993438f2ee90ac5aa6d7c54a181eea717 12572 libphonenumber_8.13.51+ds-4.2.debian.tar.xz a6e8f8f15037afcc012e227075f0bc39f81a3f5ebd878cd4deee37fc4a838b5e6974232f2ba7551491810c6aba7ade712f9a28ef38f841c9810925216bb413cd 2875 libphonenumber_8.13.51+ds-4.2.dsc cd5857f1b8d6717c3c1539dd87b11b32614669346ef80e2edc513b65a047487dbee257a4615e02878e5a140da0fa7adb8905c056b73f9fc188109501c24fcf7d 7522084 libphonenumber_8.13.51+ds.orig.tar.xz"
   ],
   "Description": [
     "parsing/formatting/validating phone numbers Google's common C++ and Java library for parsing, formatting, storing and validating international phone numbers."
@@ -24,7 +24,7 @@
     "pool/main/libp/libphonenumber"
   ],
   "Files": [
-    "48c9e64a3d6b167cf60e039cff53e663 12300 libphonenumber_8.12.57+ds-3.debian.tar.xz 9e21728dc2664939e0761101551a3acc 2899 libphonenumber_8.12.57+ds-3.dsc b06d8c2fa8ea794f6c4b2422cb6961e7 7366048 libphonenumber_8.12.57+ds.orig.tar.xz"
+    "007f51264b76efed8a65216b1b53b64a 12572 libphonenumber_8.13.51+ds-4.2.debian.tar.xz 1a2af3702992e83cb7bc884a3a622beb 2875 libphonenumber_8.13.51+ds-4.2.dsc bd5c7071cbff7ef4d05c9ae4ce9143fa 7522084 libphonenumber_8.13.51+ds.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "libphonenumber"
   ],
   "Package-List": [
-    "libgeocoding8 deb libs optional arch=any libphonenumber-dev deb libdevel optional arch=any libphonenumber8 deb libs optional arch=any libphonenumber8-java deb java optional arch=all"
+    "libgeocoding8 deb libs optional arch=any libphonenumber-data deb libs optional arch=all libphonenumber-dev deb libdevel optional arch=any libphonenumber8 deb libs optional arch=any libphonenumber8-java deb java optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Uploaders": [
     "Fredrik Roubert \u003croubert@google.com\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/libphonenumber.git"
   ],
   "Version": [
-    "8.12.57+ds-3"
+    "8.13.51+ds-4.2"
   ]
 }

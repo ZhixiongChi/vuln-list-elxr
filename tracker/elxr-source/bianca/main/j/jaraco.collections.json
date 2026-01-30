@@ -6,22 +6,22 @@
     "python3-jaraco.collections"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-jaraco.classes \u003c!nocheck\u003e, python3-jaraco.text \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm"
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-jaraco.text \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm"
   ],
   "Checksums-Sha1": [
-    "4f919721202ab56ec34d1faef8a495bcf46da7c9 2912 jaraco.collections_3.8.0-1.debian.tar.xz 65b306df994625b44eb9730112f5016595e85551 2305 jaraco.collections_3.8.0-1.dsc a0eef064cdaa4a2f247a5dfa174315c200ba3525 14635 jaraco.collections_3.8.0.orig.tar.gz"
+    "ad898b3b560b234a96699bf971a13ca68a2cb740 3164 jaraco.collections_5.1.0-1.debian.tar.xz 64818827fb8058801bc9ecff0c0e4a3f45c6fe09 2175 jaraco.collections_5.1.0-1.dsc 7580bbd407d8fcb2113afe2bbbddae1a3787cdb0 16144 jaraco.collections_5.1.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "9921cb5b7feb14330657341168d05c83885fbe95156f7c2b88c7753ada9fd13b 2912 jaraco.collections_3.8.0-1.debian.tar.xz 6886a48d140b85c5ca56b5b1ade22fa68cc1f3d285b8d3178dc0cc2b9b0007d0 2305 jaraco.collections_3.8.0-1.dsc b8fdfcd1fa2a900213f571b45f1adc362bb37db4dc27c4b17a1e9d37634f6638 14635 jaraco.collections_3.8.0.orig.tar.gz"
+    "ddeb0cc7db33800dd55db04457a3b261d9830d09c4c247bee2e3317b16f196d8 3164 jaraco.collections_5.1.0-1.debian.tar.xz c33f6cd762a95adb91dcbf08d2a07200414095fed934c0e8da0605f997f3897e 2175 jaraco.collections_5.1.0-1.dsc a1bcae3d2b065e27c03d7cadb2c8e67d1804451926e9cd77a17eac6a51f52b5a 16144 jaraco.collections_5.1.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "05eb93a4ff3d642a6fc68d7133c03b4289c7333e5d7675f90110c7493b357ac7c96dfd9be818de6e12949361220455a107935349da36853df9f73074d4344e71 2912 jaraco.collections_3.8.0-1.debian.tar.xz cc023c35fd862cbc7a6d1b7136c007985c455f3f9b03606c208f36865246027b28df4abecebc3c141a4001b920cd4cf79dc1c6e3126eb9689a39d7ef8a0225ca 2305 jaraco.collections_3.8.0-1.dsc ffa7225e8c3343610a67919a1f291c098f1563f80f324431d5a3003467f543efa251ba90a884c8b4c97a27c95bc86751dd039bc782f1a92b91db880988fb03ff 14635 jaraco.collections_3.8.0.orig.tar.gz"
+    "7fb57961120494f45d53ca51bb4628719899337685f33d5fdb9f1d09329d2d654eb649817960c1974bd82596b88e657728946ca20f15c93a17c1e7cecb560863 3164 jaraco.collections_5.1.0-1.debian.tar.xz 93ae62f6f7602a9a4c914d83958a9931483f84ccec31dde2703027dad7bca2c931e98ac7e55e1f9579cd20f0a954e4321679e0372fa3ce9dc22c8847e6d3e9be 2175 jaraco.collections_5.1.0-1.dsc 6dfb5bf22e55a5148e8c846bf2d3f5a6c628bbe2034b8425153c3978aeff738a9fe00e426e7e2c421827e8a87e5270716d211d9ee42eed786d81e14791cec842 16144 jaraco.collections_5.1.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/j/jaraco.collections"
   ],
   "Files": [
-    "468b9ffd920964a9ccdfb5a57246ba1f 2912 jaraco.collections_3.8.0-1.debian.tar.xz 571977af080426f6f44400af0be0856b 2305 jaraco.collections_3.8.0-1.dsc e23d36824955328fcc00a01aeb799a7c 14635 jaraco.collections_3.8.0.orig.tar.gz"
+    "1b9d373506c0f2b02523e2d5dd314f93 3164 jaraco.collections_5.1.0-1.debian.tar.xz 6cef774827eb87967ade7f6da75f86f4 2175 jaraco.collections_5.1.0-1.dsc 7840f32877c48c38dcf59450da122fcc 16144 jaraco.collections_5.1.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python3-jaraco.collections deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -47,16 +47,13 @@
   "Testsuite-Triggers": [
     "python3-all, python3-pytest"
   ],
-  "Uploaders": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
-  ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/python-team/packages/jaraco.collections"
+    "https://salsa.debian.org/jcfp/jaraco.collections"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/python-team/packages/jaraco.collections.git"
+    "https://salsa.debian.org/jcfp/jaraco.collections.git"
   ],
   "Version": [
-    "3.8.0-1"
+    "5.1.0-1"
   ]
 }

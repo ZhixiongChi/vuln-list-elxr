@@ -6,22 +6,22 @@
     "flashrom, libflashrom-dev, libflashrom1"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), pkg-config, libpci-dev, libusb-1.0-0-dev [!hurd-i386], libftdi1-dev [!hurd-i386], libjaylink-dev, meson"
+    "debhelper-compat (= 13), pkgconf, python3-sphinx, libpci-dev, libusb-1.0-0-dev [!hurd-i386], libftdi1-dev [!hurd-i386], libjaylink-dev, meson"
   ],
   "Checksums-Sha1": [
-    "56184c72a696438b69d129876f7047c8e08d7eba 11124 flashrom_1.3.0-2.1.debian.tar.xz 6b440ecfa231fe90db1c393f45502746d0c9ee00 2209 flashrom_1.3.0-2.1.dsc bd3dbe333ee31eae9d9bd32e57d62eb07a2ee205 436780 flashrom_1.3.0.orig.tar.xz"
+    "57b402d057f99c57cc5a16aa5a898e157ae9220a 11420 flashrom_1.4.0-3.debian.tar.xz 5c6702a4d80c6d01bbf39aec1394bc8fa57b9e7f 2215 flashrom_1.4.0-3.dsc 2c1f000f8de035728e637a720db6f4abf03c27f8 1223536 flashrom_1.4.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "7d1a10fe9b1f5e08a92b7de8a422f002bfb4681f3e7ec562f1a7f4a9c7c85adb 11124 flashrom_1.3.0-2.1.debian.tar.xz e12b905ef7ea551e2c5d743aedd3435752d14dccd045f7474a60147682ba745b 2209 flashrom_1.3.0-2.1.dsc d87ba0cfb4f31e1243264ac1ff9a5e34cbca86bdd3bb845d88905c8fde39895b 436780 flashrom_1.3.0.orig.tar.xz"
+    "0c95c2b4550c340b4c6f0d8fe744dea4d92aaf296946e840ab80a6f5e5f3e3a7 11420 flashrom_1.4.0-3.debian.tar.xz 751e95bef727c8843bf5f4e37098118c51391a064d6dc7bfb1f95e35bb92078b 2215 flashrom_1.4.0-3.dsc b77ce458b3b874387270a71805e899ac63f057d7553dc320da7e4c58e750577c 1223536 flashrom_1.4.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "b0b9800914a38272a0a0597f6dfd8cd0d0e39e795f5a7a67b1e7210e795e9d44ea9413f80649a85ae0a971047bfba801e89d3bfe79f148eae513b6bfe489787e 11124 flashrom_1.3.0-2.1.debian.tar.xz 63cd4a52e4489193dbff2eb46c1bf6f0eebc3fc15639a51ed5be7b78c163dcd1ed74396a9f7a35be59827226965e5e97190252aa7cb198388044d7337e683e44 2209 flashrom_1.3.0-2.1.dsc 4215e2827c9d8af4686be4374c4b49a5531f852f1927716654b7120c1275e4e41a9baa834477bfc85ad2efd6529d367fcd0462e5830bc81ce4daeb78e517580f 436780 flashrom_1.3.0.orig.tar.xz"
+    "45cb75f738e1e8928f514170dae90e84ceee699aad6d13621e633f38f682209ec6d49e7b1fcf3d144a0d5438c0ed1f714ebf08ed2ba8ec0bc54073f833e50ea4 11420 flashrom_1.4.0-3.debian.tar.xz d1bf40319dbb5b7ff15ab3bfe21869e182a231b9fb48b7eb01414b76e3086c9d405272512b8e7b8ffff672845fbda2aea8bec5724ef307937fc68afcbf90ba19 2215 flashrom_1.4.0-3.dsc 356a0e6d42981f0eff18a9b19ee1df3aed182437737fe01ddbe5757b34a99ffd729b7bfbf0a419df76bf4109fa12975176a7ccaf58b598d60e574150dfc7b7ce 1223536 flashrom_1.4.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/f/flashrom"
   ],
   "Files": [
-    "ce9a93abed24ac84f4dcd5505565296d 11124 flashrom_1.3.0-2.1.debian.tar.xz 5696ae0b67177ff39f79fa875c4022aa 2209 flashrom_1.3.0-2.1.dsc 32473bbf3d6816760ff080093aab14ac 436780 flashrom_1.3.0.orig.tar.xz"
+    "1c0f14ad654316c8171a3dec903df587 11420 flashrom_1.4.0-3.debian.tar.xz 4db83e19533568b83fb2622acbb65a47 2215 flashrom_1.4.0-3.dsc 08aa39dbba8c06a328b77fc3c24e41c0 1223536 flashrom_1.4.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "flashrom deb electronics optional arch=any libflashrom-dev deb libdevel optional arch=any libflashrom1 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Jeremiah C. Foster \u003cjeremiah.foster@puri.sm\u003e, Mario Limonciello \u003cmario.limonciello@dell.com\u003e, Gürkan Myczko \u003ctar@debian.org\u003e"
+    "Jeremiah C. Foster \u003cjeremiah.foster@puri.sm\u003e, Mario Limonciello \u003cmario.limonciello@dell.com\u003e, Alex Myczko \u003ctar@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/myczko-guest/flashrom"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/myczko-guest/flashrom.git"
   ],
   "Version": [
-    "1.3.0-2.1"
+    "1.4.0-3"
   ]
 }

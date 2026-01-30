@@ -3,31 +3,31 @@
     "linux-any"
   ],
   "Binary": [
-    "weston, libweston-10-0, libweston-10-dev"
+    "weston, weston-dev, libweston-14-0, libweston-14-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 10), freerdp2-dev, libcairo2-dev (\u003e= 1.10.0), libcolord-dev (\u003e= 0.1.27), libdbus-1-dev, libdrm-dev (\u003e= 2.4.95), libegl1-mesa-dev (\u003e= 9.0~), libgbm-dev (\u003e= 17.2), libgdk-pixbuf2.0-dev, libgles2-mesa-dev (\u003e= 9.0~), libglu1-mesa-dev, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libinput-dev (\u003e= 0.8.0), libjpeg-dev, liblcms2-dev, libpam0g-dev, libpango1.0-dev, libpixman-1-dev (\u003e= 0.25.2), libpipewire-0.3-dev, libpng-dev, libsystemd-dev, libudev-dev (\u003e= 136), libva-dev, libvpx-dev, libwayland-dev (\u003e= 1.18.0), libwebp-dev, libx11-dev, libx11-xcb-dev, libxcb-composite0-dev, libxcb-shape0-dev, libxcb-xfixes0-dev, libxcb-xkb-dev, libxcb1-dev, libxcursor-dev, libxkbcommon-dev (\u003e= 0.3.0), libxml2-dev, mesa-common-dev, meson (\u003e= 0.52.1), pkg-config, quilt, wayland-protocols (\u003e= 1.18)"
+    "debhelper-compat (= 13), dh-exec, freerdp3-dev, libcairo2-dev (\u003e= 1.10.0), libcolord-dev (\u003e= 0.1.27), libdbus-1-dev, libdisplay-info-dev (\u003e= 0.2.0), libdrm-dev (\u003e= 2.4.108), libegl1-mesa-dev (\u003e= 9.0~), libgbm-dev (\u003e= 17.2), libgdk-pixbuf-2.0-dev, libgles2-mesa-dev (\u003e= 9.0~), libglu1-mesa-dev, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libinput-dev (\u003e= 1.2.0), libjpeg-dev, liblcms2-dev, libneatvnc-dev (\u003e= 0.7.0) [!sparc64], libpam0g-dev, libpango1.0-dev, libpipewire-0.3-dev, libpixman-1-dev (\u003e= 0.25.2), libpng-dev, libseat-dev (\u003e= 0.4), libsystemd-dev, libudev-dev (\u003e= 136), libva-dev, libvpx-dev, libwayland-dev (\u003e= 1.22.0), libwebp-dev, libx11-dev, libx11-xcb-dev, libxcb-composite0-dev, libxcb-cursor-dev, libxcb-shape0-dev, libxcb-xfixes0-dev, libxcb-xkb-dev, libxcb1-dev, libxcursor-dev, libxkbcommon-dev (\u003e= 0.3.0), libxml2-dev, mesa-common-dev, meson (\u003e= 0.63.0), pkgconf, wayland-protocols (\u003e= 1.33), xwayland"
   ],
   "Checksums-Sha1": [
-    "aa343c5c6d16c1636ddfa0f62a573f1b13155ed6 20182 weston_10.0.1-1.diff.gz 1a07751d8b199e1a852e5daa50d2d3fe73669c1c 2887 weston_10.0.1-1.dsc d896148343ad282d6c324ba6f15d23cde089eee2 2171915 weston_10.0.1.orig.tar.gz"
+    "e914d6e0e5e3e80ffa7fcebdd8ad85e02aa32135 26472 weston_14.0.2-1.debian.tar.xz 9b07ad1f31539f4dafaec54356d67c12da53606c 3444 weston_14.0.2-1.dsc f744163d71d046fa898bc4aa0df25a57c3ff470b 2043392 weston_14.0.2.orig.tar.xz ec17ce2ba7dea069eae582898cc99bc757d9c029 833 weston_14.0.2.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "1899d18e728eda4d85e3cc0c0f19cf44d83c9327373f128adc920582dfa9f848 20182 weston_10.0.1-1.diff.gz 6187e84054c3941a3df49a88ee341d2570b75e75e538302a3057ad133f425507 2887 weston_10.0.1-1.dsc b1957a11a40ceee33c79f9a6f575283953c4d9d746d1c5e7a0ad2de8cd3415c8 2171915 weston_10.0.1.orig.tar.gz"
+    "f447cbea007d795d3d375c2ced9ce8a9e4ff8cdbc757fd8d028912d986197c3b 26472 weston_14.0.2-1.debian.tar.xz 7c06118894b6274212f68e61c138a87ccbb869a5d3835aaa543570c004f8ec65 3444 weston_14.0.2-1.dsc b47216b3530da76d02a3a1acbf1846a9cd41d24caa86448f9c46f78f20b6e0ac 2043392 weston_14.0.2.orig.tar.xz a6bf2a435f9a629667c867e7983ed7d0ba88353e44354fdab708e5ea862d4ec6 833 weston_14.0.2.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "3446a6e3a27d3123103036ca27d9478358168a795f1cecc39ff898f6a86153b4e668ff9e368106a87231f38909d8fea984c604b354e398b3b208fd8948394e5d 20182 weston_10.0.1-1.diff.gz 5af46877fa115f1abb525225cd4fd78dc1c4d59d2d9a3c45d7b2d53344b124b4295532744117f2ed5eef2f0608cbe1a89fcbc496b0f70ebfdf3afd18d9546c11 2887 weston_10.0.1-1.dsc 08382e230b59ac8f23230e48e87dbd4437a935195f7df2d0b0c97807ead649e08e996486af4db502e48ccba9e191b73c55a720f3433c3346bade7b5128d589b8 2171915 weston_10.0.1.orig.tar.gz"
+    "331995b9a6d16ef36b3b5906a2feee74e446bdd6a86150ca0c739475ca7026a26e91858d3814d3e5f377fed77ae1a19328b905ef74d40670fa7d8b3775688df7 26472 weston_14.0.2-1.debian.tar.xz 584e8ef1b69ff12a3c2fd8df8e47138ab8065dafc743128309b255ea7b22b01b0df4aaec815e041f001546ec128af21c4d08c0a715e44f9a096c2d8358073987 3444 weston_14.0.2-1.dsc e8214ec893e6c3ae94eb3c92feba104b0201843e9143f726a3e9a4d396d02523c94da706c1348cf934bc339fb1a4bc1fecdb865f0ea914115fd346d9eda091f5 2043392 weston_14.0.2.orig.tar.xz a9d53cc5f43636a9e034ae6e35809f3c7003d85e6c11fc6fb21ef1630eefd3a0b2af4933c3a22aae79f7f71213aaa239cc51a925737c4d3936475b863b4452f8 833 weston_14.0.2.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/w/weston"
   ],
   "Files": [
-    "38fede360f498bb59447894a91b318a2 20182 weston_10.0.1-1.diff.gz 5242abeef34a28c4c248e5dbf895ca2e 2887 weston_10.0.1-1.dsc 8ff20308f420720d554d27b35a5aced2 2171915 weston_10.0.1.orig.tar.gz"
+    "c69ec443873148b74f2fad482e61a524 26472 weston_14.0.2-1.debian.tar.xz da6f747c314349d6c3e2dfcf03c59e04 3444 weston_14.0.2-1.dsc 4575a052e2ff3ea7819cfbf33868f8f5 2043392 weston_14.0.2.orig.tar.xz f3c67095231acc5d64fd5cd56bb1c41d 833 weston_14.0.2.orig.tar.xz.asc"
   ],
   "Format": [
-    "1.0"
+    "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://wayland.freedesktop.org/"
+    "https://wayland.pages.freedesktop.org/weston/"
   ],
   "Maintainer": [
     "Debian X Strike Force \u003cdebian-x@lists.debian.org\u003e"
@@ -36,13 +36,19 @@
     "weston"
   ],
   "Package-List": [
-    "libweston-10-0 deb libs optional arch=linux-any libweston-10-dev deb libdevel optional arch=linux-any weston deb x11 optional arch=linux-any"
+    "libweston-14-0 deb libs optional arch=linux-any libweston-14-dev deb libdevel optional arch=linux-any weston deb x11 optional arch=linux-any weston-dev deb x11 optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.4.0"
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
   ],
   "Uploaders": [
-    "Mike Gabriel \u003csunweaver@debian.org\u003e, Héctor Orón Martínez \u003czumbi@debian.org\u003e, Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e"
+    "Mike Gabriel \u003csunweaver@debian.org\u003e, Héctor Orón Martínez \u003czumbi@debian.org\u003e, Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Dylan Aïssi \u003cdaissi@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/xorg-team/wayland/weston"
@@ -51,6 +57,6 @@
     "https://salsa.debian.org/xorg-team/wayland/weston.git"
   ],
   "Version": [
-    "10.0.1-1"
+    "14.0.2-1"
   ]
 }

@@ -6,25 +6,28 @@
     "librust-ryu-dev, librust-ryu+no-panic-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11), dh-cargo (\u003e= 18), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.36) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "e15053833bebb756f1e68d2fbcd156e190a52748 3000 rust-ryu_1.0.2-1.debian.tar.xz 98c33a5475400d3cd523bd675e3ce85c7868a0a1 2243 rust-ryu_1.0.2-1.dsc 775ce6bd6fb7dab6f53ecd652e638b85d71f733d 42001 rust-ryu_1.0.2.orig.tar.gz"
+    "86d44f16f2da0cea532e7d453276da4833c23518 3808 rust-ryu_1.0.19-1.debian.tar.xz a8040d5e3b867fb85406702e9e74edc2864cc16d 2341 rust-ryu_1.0.19-1.dsc 0c6bda92afacdbdaf37c1a863903fab2f71bbb44 48770 rust-ryu_1.0.19.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "aa24790c07c6e2a74323a136906e8abbb66207b7b5d81ea705de414a3bcdb62d 3000 rust-ryu_1.0.2-1.debian.tar.xz eaf3bb6c78960be2340f6723b067becfa211dcfb71352719d11b065c670cd3dd 2243 rust-ryu_1.0.2-1.dsc bfa8506c1de11c9c4e4c38863ccbe02a305c8188e85a05a784c9e11e1c3910c8 42001 rust-ryu_1.0.2.orig.tar.gz"
+    "44a79893719b5525c89408012f3bdffa3338a484f4de1474914880483a88f5b3 3808 rust-ryu_1.0.19-1.debian.tar.xz ab5f6966d0f385131ffea25d4ff9b47ec5dfdfa69bb3f58d7c0ba34212ff392e 2341 rust-ryu_1.0.19-1.dsc 6ea1a2d0a644769cc99faa24c3ad26b379b786fe7c36fd3c546254801650e6dd 48770 rust-ryu_1.0.19.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a813463ab0425a5bb54987648d1d349ed2c7d4da83006095a36182424a5579c6d070ed0b0dd4e934320dbfb8ac0c65afd209195464c0f763fc820321e8f78ed1 3000 rust-ryu_1.0.2-1.debian.tar.xz 457b082bfdea3ae74a769bc9b8155f517e31bc3f39b91d7a9d6137a529f2e679a08777944cbdcc58e7c3ec2e6764ae9931989e939dc8b67f5838d1e02c861fed 2243 rust-ryu_1.0.2-1.dsc c681e037f1eea488bad7fb5ecc79af52377bd4b9eeed95eb213201219d7f100702000f81947aff8f18641235fb62c138a30eb20c1f93ae518a4d9960a598bb64 42001 rust-ryu_1.0.2.orig.tar.gz"
+    "8ad9ea49d3fff6c2c5512da9cd1726a170b3a144540aecf93e1a4057c82d1abf56b1f78e0ca7395a1e6e5e1a90b780c13fddf4d7532185c51a316e6cadb7b6bb 3808 rust-ryu_1.0.19-1.debian.tar.xz 2140f4be8ecdedcd064d599a78e15c014506d9164a834ae05ec16e1d30fbb5addda64ed53b5b411cbd796b3385737dd2604127c35a13182257c0e93516b63345 2341 rust-ryu_1.0.19-1.dsc b80d07d609237e13ce1f8cbef5b16738308c540800c7ec18387aec876fb2204029754f20f1f273a0ea07f54dfbaa4595fd0a90044d09f124c1c99e46f1005a99 48770 rust-ryu_1.0.19.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-ryu"
   ],
   "Files": [
-    "fd8ab64ac98067a65bc9dd3bc8939fb0 3000 rust-ryu_1.0.2-1.debian.tar.xz 6e29b29b37ada5ee9c2614bc29c733aa 2243 rust-ryu_1.0.2-1.dsc 7254eab0007564ebfaaed3a586c9919b 42001 rust-ryu_1.0.2.orig.tar.gz"
+    "83fdce297c67c575cda9958ff562c098 3808 rust-ryu_1.0.19-1.debian.tar.xz f74282d7edebc794f59845433f7922b7 2341 rust-ryu_1.0.19-1.dsc 5e82082f200d92871797832f98a81e50 48770 rust-ryu_1.0.19.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dtolnay/ryu"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,13 +39,13 @@
     "librust-ryu+no-panic-dev deb rust optional arch=any librust-ryu-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.2.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-num-cpus-1+default-dev, librust-rand-0.5+default-dev"
+    "dh-cargo, librust-num-cpus-1+default-dev, librust-rand-0.8+default-dev, librust-rand-0.9+default-dev, rustc"
   ],
   "Uploaders": [
     "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/ryu]"
   ],
   "Version": [
-    "1.0.2-1"
+    "1.0.19-1"
   ]
 }

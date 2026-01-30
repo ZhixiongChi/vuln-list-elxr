@@ -6,22 +6,25 @@
     "python3-pure-eval"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-setuptools, python3-pytest \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools, python3-setuptools-scm, python3-pytest \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "f4015a542853d796ed3b3ea0ab62b81ed5cd9ed9 1892 python-pure-eval_0.2.2-1.debian.tar.xz 7816c36df3b51bbd1704d6125194692ac61dc822 2199 python-pure-eval_0.2.2-1.dsc 1bc2173ea4819b774f45c32689e31ec97feacc57 16085 python-pure-eval_0.2.2.orig.tar.gz"
+    "1c38bfe126420e02f6197b491e1480e55b8a6de2 2128 python-pure-eval_0.2.3-1.debian.tar.xz a057538519a577d0ae2f7f560d2f747a30437abe 2295 python-pure-eval_0.2.3-1.dsc adc67a5aa9f132aa04fb0144203e2f316dde3b4b 16389 python-pure-eval_0.2.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "d90bf3915d2b72c0eb586d31f125289b2f61367888efb6e14336b75f6101ec9b 1892 python-pure-eval_0.2.2-1.debian.tar.xz 72623b5eabb4fec68ff32e72acd55fe570d5f7f0cec95c83efd6da28cca94c1e 2199 python-pure-eval_0.2.2-1.dsc f3706e8699840870b44008a62f00e071e14e78a4af462c71acbb240a8801308c 16085 python-pure-eval_0.2.2.orig.tar.gz"
+    "0f7267a60a372e065a932e51a894690acfeaceebd10a5e80aadc1d9ef0d74ea5 2128 python-pure-eval_0.2.3-1.debian.tar.xz 680f9c62048e32ca6dee13dc241c4a6539e6ef529da4685c80994f513cf39fbb 2295 python-pure-eval_0.2.3-1.dsc 7aa3fd903a6b8e9db817b62a0d858560263914b73a3ae0abca10930f8d39dc59 16389 python-pure-eval_0.2.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f310a63f542e5a7a5b07d3bcc62abb44e796873270afd74c5179ba8d44d75076163c90d2195dd4f120ef2d910ff6f24d7afa749660bc22703c269c0f6251de2c 1892 python-pure-eval_0.2.2-1.debian.tar.xz 52e457bdf408d31883494113293ae4c6568d7318793f5eb5eb47c8a0d36c5c64df5e37521b49f264dfe474a2e8441dad5c2b9621ede3af6a305a9ffedefa1ee8 2199 python-pure-eval_0.2.2-1.dsc 9a6f3d745590a09af1ed629cd4fa0cd0314b837c26f375a6be038d40ce610c0526aa192d9758e7406d7ea29b270fe09a3d9918d70d6cf3dedaa9e2975c91a0d0 16085 python-pure-eval_0.2.2.orig.tar.gz"
+    "bd106970a54a0d26c64e703f304c836f4c13f055150dde69f6ad210934dea7120e773f097ec9acaddb615997cefdb8167b92d63b719d08fa38ee5212c10cb6e6 2128 python-pure-eval_0.2.3-1.debian.tar.xz 0028434d99d311dd80ffbbc219063d7da00bc30a2044bbad4799010aa76b98f5f6ff40358979b89a32d6d1b1d2882180dcc50eaae008a91526e237b7f4bec3ca 2295 python-pure-eval_0.2.3-1.dsc 6de7650f45cb4179a8639da41e44dcda0e01628802824e01614406c825b0617b80dfd4b2439f85fcbc6c2487164e6ed41f48394e09e448aece749adc65bf8e93 16389 python-pure-eval_0.2.3.orig.tar.gz"
+  ],
+  "Dgit": [
+    "70df77b0908be8fe28b2307874f7d620a7d14ab5 debian archive/debian/0.2.3-1 https://git.dgit.debian.org/python-pure-eval"
   ],
   "Directory": [
     "pool/main/p/python-pure-eval"
   ],
   "Files": [
-    "e026b1cb20cd3c660564c87137a39531 1892 python-pure-eval_0.2.2-1.debian.tar.xz 7b2b30dc9b41ad752ee7e413288a8a05 2199 python-pure-eval_0.2.2-1.dsc 78739628f4ac8c6dac2809acd33935dc 16085 python-pure-eval_0.2.2.orig.tar.gz"
+    "63bb05004ab9f7208aa6a34cb8fba479 2128 python-pure-eval_0.2.3-1.debian.tar.xz d454c8f1d0e729f9c67be4f7a970ab15 2295 python-pure-eval_0.2.3-1.dsc 984031e9edee6379548a1ca6241d277b 16389 python-pure-eval_0.2.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +42,10 @@
     "python3-pure-eval deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.2"
   ],
   "Testsuite": [
-    "autopkgtest, autopkgtest-pkg-python"
-  ],
-  "Testsuite-Triggers": [
-    "python3-all, python3-pytest"
+    "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
     "Gordon Ball \u003cgordon@chronitis.net\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-pure-eval.git"
   ],
   "Version": [
-    "0.2.2-1"
+    "0.2.3-1"
   ]
 }

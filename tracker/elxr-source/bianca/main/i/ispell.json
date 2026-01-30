@@ -6,25 +6,25 @@
     "ispell, ienglish-common, iamerican, ibritish, iamerican-small, ibritish-small, iamerican-large, ibritish-large, iamerican-huge, ibritish-huge, iamerican-insane, ibritish-insane"
   ],
   "Build-Depends": [
-    "bison, debhelper-compat (= 13), dictionaries-common-dev, libncurses5-dev"
+    "bison, debhelper-compat (= 13), dictionaries-common-dev, libncurses-dev"
   ],
   "Build-Depends-Indep": [
     "wamerican, wamerican-huge, wamerican-insane, wamerican-large, wamerican-small, wbritish, wbritish-huge, wbritish-insane, wbritish-large, wbritish-small"
   ],
   "Checksums-Sha1": [
-    "3d80525c663d612054f4fed68d4fed294863c71c 55128 ispell_3.4.05-1.debian.tar.xz 2a67507b0ee43829326a6917763fe38d25308a9d 2703 ispell_3.4.05-1.dsc acd0b97429f3950f23eaa6e223f743da83bbbecb 671406 ispell_3.4.05.orig.tar.gz"
+    "5b517598dd05a3c414f268f0e4c8a5f8fc612a82 55168 ispell_3.4.06-1.debian.tar.xz 819393ca5e768aeea38b5fdb26f4eb88cc05a444 2702 ispell_3.4.06-1.dsc 572fb880ef42943ac1b6a39fe41d2a4023c7da9e 672723 ispell_3.4.06.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "43ab54d5f0e290c3894743a850be3ecea5b44c3603bc606eecb594b53c0d727e 55128 ispell_3.4.05-1.debian.tar.xz b4477c0d847345244191120e8da7a3f73f06b51bd90de1c11c4e63772185d709 2703 ispell_3.4.05-1.dsc cf0c6dede3fd25fada4375d86acafe583cb96d8fe546de746a92ebb6df895602 671406 ispell_3.4.05.orig.tar.gz"
+    "0abc769f1ce8a31b7e1b0560ca1d8aff2dadffb6cbd4eff82c1960cc4e975d69 55168 ispell_3.4.06-1.debian.tar.xz eeeb9dd57d7885956c287ed5ce495f79be57871128346065c41bd6e8004f0843 2702 ispell_3.4.06-1.dsc 17c91633d4c8075acc503163a16463fc54ab1c7453280ad39cd3db75c783eba6 672723 ispell_3.4.06.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "cfc6c9390cee9f81bdee52ba47f61d843d40fefcc6ce3be5efdd69a85a4e65ab00ebc3e6c581d28b1380b62f865bd7d4b8d227b028999a138c3fb4b18d4fbdb6 55128 ispell_3.4.05-1.debian.tar.xz 2d1063d55215c56fc9d3baebd2337255750451de1dc8ab95b85d459fc5bc9f3b8656858fb981945cc9bde9dfa2936178e2278e5e99252eaed62ee1f4ec01eaa9 2703 ispell_3.4.05-1.dsc 2ab9336a96bfac4b254367fd0664b376f216b7ff24511573dbce8b0e45b438ec686d944e4ae2641d5e1b062bd7a43761324a41281eb162214f79b82f5cb4c7b1 671406 ispell_3.4.05.orig.tar.gz"
+    "953187c45600972e24b2c7ef788ebbfb57c560cd522a0e5e12e1673c5405837a50b3004dbacf3c0cb971d8c79377e6653a6ba67639975942b11bb567397a36d1 55168 ispell_3.4.06-1.debian.tar.xz 973c114e31ce6d79855797a8dedd7651a7eb5e47dfd0e8d1b6b418d8bd11cd9358a1d45b3673d488b16d8e8f308fa78edc269d65659d20c7a0a2bf1d8aa9bbf7 2702 ispell_3.4.06-1.dsc 276447f12ea87c5c75909b974ae2225ff6abd330a04b2e1c493161a807792cd0cf1143cb9b991b986d92a88ae831edb016650ba885c918055b94aa7de2b81384 672723 ispell_3.4.06.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/i/ispell"
   ],
   "Files": [
-    "6c3717be71635f7d6db44b9f5fc57122 55128 ispell_3.4.05-1.debian.tar.xz 257a74b515a558a0ecde47ec628042ae 2703 ispell_3.4.05-1.dsc ab76edd8de0ac2cb4dbc80a15675cb0b 671406 ispell_3.4.05.orig.tar.gz"
+    "bb179f62c46f3f95650e2e4c064dd31c 55168 ispell_3.4.06-1.debian.tar.xz 9f283febf4b7c2d0efa5ec43f9a08640 2702 ispell_3.4.06-1.dsc efd9ede43be1b8eb2a2e02023e373ecc 672723 ispell_3.4.06.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "iamerican deb text optional arch=all iamerican-huge deb text optional arch=all iamerican-insane deb text optional arch=all iamerican-large deb text optional arch=all iamerican-small deb text optional arch=all ibritish deb text optional arch=all ibritish-huge deb text optional arch=all ibritish-insane deb text optional arch=all ibritish-large deb text optional arch=all ibritish-small deb text optional arch=all ienglish-common deb text optional arch=all ispell deb text optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/ispell.git"
   ],
   "Version": [
-    "3.4.05-1"
+    "3.4.06-1"
   ]
 }

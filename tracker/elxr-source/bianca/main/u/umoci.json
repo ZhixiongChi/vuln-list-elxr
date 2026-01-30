@@ -6,22 +6,25 @@
     "umoci, golang-github-opensuse-umoci-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-golang, go-md2man, golang-any, golang-github-apex-log-dev, golang-github-cyphar-filepath-securejoin-dev, golang-github-docker-go-units-dev, golang-github-klauspost-compress-dev, golang-github-klauspost-pgzip-dev, golang-github-mohae-deepcopy-dev, golang-github-opencontainers-go-digest-dev, golang-github-opencontainers-image-spec-dev, golang-github-opencontainers-runc-dev, golang-github-opencontainers-specs-dev, golang-github-pkg-errors-dev, golang-github-rootless-containers-proto-dev (\u003e= 0.1.2~), golang-github-stretchr-testify-dev, golang-github-urfave-cli-dev, golang-github-vbatts-go-mtree-dev, golang-golang-x-sys-dev, golang-google-protobuf-dev"
+    "debhelper-compat (= 13), dh-golang, go-md2man, golang-any, golang-github-apex-log-dev, golang-github-cyphar-filepath-securejoin-dev, golang-github-docker-go-units-dev, golang-github-klauspost-compress-dev, golang-github-klauspost-pgzip-dev, golang-github-mohae-deepcopy-dev, golang-github-opencontainers-go-digest-dev, golang-github-opencontainers-image-spec-dev (\u003e= 1.1.0~rc4), golang-github-opencontainers-runc-dev, golang-github-opencontainers-specs-dev, golang-github-pkg-errors-dev, golang-github-rootless-containers-proto-dev (\u003e= 0.1.2~), golang-github-stretchr-testify-dev, golang-github-urfave-cli-dev, golang-github-vbatts-go-mtree-dev, golang-golang-x-sys-dev, golang-google-protobuf-dev"
   ],
   "Checksums-Sha1": [
-    "ecdb2e5fc95228f61cb9260320e98153f641957c 5072 umoci_0.4.7+ds-3.debian.tar.xz 54dd6bb4a35bdfcf4a970a79142046ec8a2da211 2142 umoci_0.4.7+ds-3.dsc bef0b23cd78351b03161d7397aab7d0db1ba2eab 1010796 umoci_0.4.7+ds.orig.tar.xz"
+    "e2dfd474f0ee805d2525fbf2dd6ef43c5bab2aa7 5732 umoci_0.4.7+ds-4.debian.tar.xz bb5f31053555b38bfbe27f0d25087d74db2d5553 2881 umoci_0.4.7+ds-4.dsc bef0b23cd78351b03161d7397aab7d0db1ba2eab 1010796 umoci_0.4.7+ds.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "eb6cfccfa5176959474cddd3aa668aa1ee2d81182e7fc74988116607fa98c562 5072 umoci_0.4.7+ds-3.debian.tar.xz 8e8e358792546d8e2322cc60cfee52786700be73053d5f4fc307be8407725c36 2142 umoci_0.4.7+ds-3.dsc 1b00b2b851d109e4554e52a5db52cb7b9411e46efc672ac89f3ce2ee5c635d0b 1010796 umoci_0.4.7+ds.orig.tar.xz"
+    "bac17fd9d3362f955acdb486108f28bb4ea08c66bc8500f6e5b277bdc4278715 5732 umoci_0.4.7+ds-4.debian.tar.xz e49c93c691ba4e617e351b948138e6f163c27ef3916d270a72076e7ae7d05cec 2881 umoci_0.4.7+ds-4.dsc 1b00b2b851d109e4554e52a5db52cb7b9411e46efc672ac89f3ce2ee5c635d0b 1010796 umoci_0.4.7+ds.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "df397391d647159c5255cd9e46d895817d9d94b594313d1cdd74cbf26d535a807c80fab6cd70f3b82c27a3ba721008407c3a8fe00f5e3aed18213fef508e4be3 5072 umoci_0.4.7+ds-3.debian.tar.xz 9ddcafc5b91d3fe2295bc5099a44e912a17a1079af71f226e104a071f6bfb3ae447d20fb694d6899e1321d08bf81243f2c3cac4ff7fa75f92d62cc441b5cf9e2 2142 umoci_0.4.7+ds-3.dsc 8dd8e4704f00337af7106cab8002df9bdcdf1c0579cf4f7e504cd6bd2a00803e0ffce118aac88d96bb08934a6f84cc777ba4a7a3c57ee1374827f9330878354e 1010796 umoci_0.4.7+ds.orig.tar.xz"
+    "a3ffdd29a5ed23e5f4802f3445b1090116ec7f4a3a72c46d52bef88e6d8157609784d7e7c05a0e95cd240a9e31240c415bb95fb3abb55a7cd90203aa4c8c05c0 5732 umoci_0.4.7+ds-4.debian.tar.xz 13d374f93dd9eacf0602100ebfd0df44beb4b60a0ad8cfe23d58676aac62d8af418cc6b117eb6270e533c43ba358b984698a1e19309a6605f4ff0744e2efc7d9 2881 umoci_0.4.7+ds-4.dsc 8dd8e4704f00337af7106cab8002df9bdcdf1c0579cf4f7e504cd6bd2a00803e0ffce118aac88d96bb08934a6f84cc777ba4a7a3c57ee1374827f9330878354e 1010796 umoci_0.4.7+ds.orig.tar.xz"
+  ],
+  "Dgit": [
+    "303d46759f86645b7bcedb1b8a92324ff5de9644 debian archive/debian/0.4.7+ds-4 https://git.dgit.debian.org/umoci"
   ],
   "Directory": [
     "pool/main/u/umoci"
   ],
   "Files": [
-    "908ac3acb8fdf8cbb0310f5faf76d420 5072 umoci_0.4.7+ds-3.debian.tar.xz 0f3015678791fd588d5827c5a7a6e8dd 2142 umoci_0.4.7+ds-3.dsc 76d9f19a5922aacfaeda5b1ae964910b 1010796 umoci_0.4.7+ds.orig.tar.xz"
+    "6996593f413fa607a676ad5143bcb9fa 5732 umoci_0.4.7+ds-4.debian.tar.xz e6fb02cc3364b6bd382e6154ca783346 2881 umoci_0.4.7+ds-4.dsc 76d9f19a5922aacfaeda5b1ae964910b 1010796 umoci_0.4.7+ds.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/go-team/packages/umoci.git"
   ],
   "Version": [
-    "0.4.7+ds-3"
+    "0.4.7+ds-4"
   ]
 }

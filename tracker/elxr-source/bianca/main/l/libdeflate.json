@@ -6,22 +6,25 @@
     "libdeflate0, libdeflate-dev, libdeflate-tools"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), d-shlibs, zlib1g-dev, python3 \u003c!nocheck\u003e, xxd \u003c!nocheck\u003e, debhelper"
+    "debhelper-compat (= 13), dpkg-build-api (= 1), cmake, zlib1g-dev \u003c!nocheck\u003e, python3 \u003c!nocheck\u003e, xxd \u003c!nocheck\u003e, help2man \u003c!nodoc\u003e \u003c!cross\u003e"
   ],
   "Checksums-Sha1": [
-    "607434e0352827316a58059792dabf3ee7e0ffc0 4784 libdeflate_1.14-1.debian.tar.xz 3f69564a8615d51b089f831275ed7dfdd21771fc 2214 libdeflate_1.14-1.dsc 31af0a5a7b942011b636490e1881daf8cfbb5e6b 180182 libdeflate_1.14.orig.tar.gz"
+    "2da064f61e035315cb638fd19e44d4e3a923ccf2 5624 libdeflate_1.23-2.debian.tar.xz bb72403bf0f563c03983867b9c34ab9ac38c142a 1743 libdeflate_1.23-2.dsc 13dfd968e1d3dd8600d688330d195feae7e2afa8 197519 libdeflate_1.23.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "4794c379cc4e77eaeb283620bd80a7ce57b858af508f80ba6d5efbc4bcb10434 4784 libdeflate_1.14-1.debian.tar.xz 1f82791c5ac5623ed110e09cc991471deebfe4c419414392d1242e122c6f4c19 2214 libdeflate_1.14-1.dsc 89e7df898c37c3427b0f39aadcf733731321a278771d20fc553f92da8d4808ac 180182 libdeflate_1.14.orig.tar.gz"
+    "6d3101de26f30c25e4900fecc3b6da34543771d6014767af29850bc3ff3cbd09 5624 libdeflate_1.23-2.debian.tar.xz fbec7154ffff5193ef71c196e1e7348a154b1ed35c2a9ce3ece5fcc947303d77 1743 libdeflate_1.23-2.dsc 1ab18349b9fb0ce8a0ca4116bded725be7dcbfa709e19f6f983d99df1fb8b25f 197519 libdeflate_1.23.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "5b3b386d4fc3e37e278a299ddd7b4623131faf4ffd8f3ca54605ab494d333ef08a4ae77b8b8d13b00fc1120c4a3e09b82bd8563487c244cb7793228162a58645 4784 libdeflate_1.14-1.debian.tar.xz 758342a09e7f445ad5d32970d37749b62637bc0b4be63bcc9bb00a69024bab1a4afc5e0933feb6243e59390f16053500be395c1e8a15459a0e8387bd565c1746 2214 libdeflate_1.14-1.dsc 4b3812fa1cac405676810186161aace295ffb0f049aae795b390dadf40cba18e814ef503051554053df8341d7275e709a1233a9435eb965ba84f6e84cad7988b 180182 libdeflate_1.14.orig.tar.gz"
+    "2b3d9fb55fba97b0dbc37b0b2c65554011ba938a189492f3910f9469589c438b18ecf26b6434171db7170da327142b5a8f6f38f9916c114edd0f5eb0d4a5a4ab 5624 libdeflate_1.23-2.debian.tar.xz 801a2cc0a6ceae6c8803993afb268324938fa63d2204ae2de03507c3465bc71a01799cceef8e73a2bfcac99dc405805e5fc84e8a3e25a25831bed8175364ed44 1743 libdeflate_1.23-2.dsc c1effb9c5ee8d65bc12ae3d0669a4a394acace13cc146300ed24a7f12a0ec058f66729e1ffbae268711bdcc4151143752ab2d56a099dd6394b2735e8e2f1b671 197519 libdeflate_1.23.orig.tar.gz"
+  ],
+  "Dgit": [
+    "7c0b795ee43338fbfc7b03e3ce1a95d955b03e0e debian archive/debian/1.23-2 https://git.dgit.debian.org/libdeflate"
   ],
   "Directory": [
     "pool/main/libd/libdeflate"
   ],
   "Files": [
-    "275be2e8c2ef3f7713568ebce1322115 4784 libdeflate_1.14-1.debian.tar.xz f26ff5c87a9931871b32e27514877434 2214 libdeflate_1.14-1.dsc aa1d4bbf51e5521197132f10b3bdc994 180182 libdeflate_1.14.orig.tar.gz"
+    "1e050faa74f6978a94da74e5b7e93838 5624 libdeflate_1.23-2.debian.tar.xz 1448ae8a819cec2b909cd4426afb57a2 1743 libdeflate_1.23-2.dsc 9815bc968d0f97b5188f1f00e333da71 197519 libdeflate_1.23.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,16 +33,16 @@
     "https://github.com/ebiggers/libdeflate"
   ],
   "Maintainer": [
-    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+    "Deflate Team \u003clibdeflate@packages.debian.org\u003e"
   ],
   "Package": [
     "libdeflate"
   ],
   "Package-List": [
-    "libdeflate-dev deb libdevel optional arch=any libdeflate-tools deb libdevel optional arch=any libdeflate0 deb libs optional arch=any"
+    "libdeflate-dev deb libdevel optional arch=any libdeflate-tools deb utils optional arch=any libdeflate0 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +51,7 @@
     "bash"
   ],
   "Uploaders": [
-    "Michael R. Crusoe \u003ccrusoe@debian.org\u003e"
+    "Nick Black \u003cdankamongmen@gmail.com\u003e, Andrea Pappacoda \u003ctachi@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/med-team/libdeflate"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/med-team/libdeflate.git"
   ],
   "Version": [
-    "1.14-1"
+    "1.23-2"
   ]
 }

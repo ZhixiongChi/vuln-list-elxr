@@ -6,25 +6,31 @@
     "librust-log-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.60.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "c77e320a0cf8b01990de017c87d56bc05ca88d35 4060 rust-log_0.4.17-3.debian.tar.xz 9665f58f321b9e71538286c6cce48a2babb2f14e 2400 rust-log_0.4.17-3.dsc 44439be4eb2c80d4f162302b934ff1a41d3302ea 38028 rust-log_0.4.17.orig.tar.gz"
+    "6913f98645373816eeb06229b77ffb1d9be927c5 4712 rust-log_0.4.26-1.debian.tar.xz 0a16c042096114fe47c6ffbaa66f7f5f16eb9a4a 1832 rust-log_0.4.26-1.dsc 64b25b2aa43de1f562d6e50608cc982baab17609 47022 rust-log_0.4.26.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "d1848538fba7f1a350cbb73113244a61fadb1ac69bff31afc255924ce2a79968 4060 rust-log_0.4.17-3.debian.tar.xz a90f2861d0085a92676c45e9177e5275fd34153b9cd82c276b7b50ca159cb261 2400 rust-log_0.4.17-3.dsc abb12e687cfb44aa40f41fc3978ef76448f9b6038cad6aef4259d3c095a2382e 38028 rust-log_0.4.17.orig.tar.gz"
+    "569ea88f7f0e94e0cdc48b2647198615a7516a7f1bd1a2bf78dd1209bf133781 4712 rust-log_0.4.26-1.debian.tar.xz 663a0a97beadf01924461ec75d0f78c249ed0016ac1512c9beab0b8088416209 1832 rust-log_0.4.26-1.dsc 30bde2b3dc3671ae49d8e2e9f044c7c005836e7a023ee57cffa25ab82764bb9e 47022 rust-log_0.4.26.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "db389e0cdaa2543ea4868b3738357449fadc35dd6ae82ee767065068e18da16551f8e447ed2a77e3c2276f3023cb4838c889191225941902237c8a24c46d605d 4060 rust-log_0.4.17-3.debian.tar.xz 3722eacd129e2084e0210e85e61c2b34a73ffd6e8bc580f9882b3db4a87acfe5f841a70d09fc74255c22d0f742d3cd5cec64c82c61039435c9b0f0f93d427190 2400 rust-log_0.4.17-3.dsc 2477d88db42b1d92c30708d88823212e236f613b3465e85eb425f83f8d16fadfaf0352f06c2999a1852102edd2f6ffb10ecb539d8a3b6c48f552a25622ccffa2 38028 rust-log_0.4.17.orig.tar.gz"
+    "0edf5688774338c2023c2006f672d71003847a91613c4db91a7150bdf46ecfaa716a96fa349ddd6b63631c930ebe6b7e265baa6660755d827d5f0f7daa3b2a65 4712 rust-log_0.4.26-1.debian.tar.xz b33c812f7192120ad409c6c53e1e0ff932f449d54bba6d3797da9e87608f89c2b49deaeff70c83113afa71b9c1dc13e46fcce3d36b9c95bf34e8187c3e14352c 1832 rust-log_0.4.26-1.dsc d85f3cb8bf90893d59b3174785295616d719c8d2078c04fa3e131c3f3cf84b73c75b932348df70b7eab2aedf261b27e6544f051696eb5c287fb461d1ee699ec1 47022 rust-log_0.4.26.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-log"
   ],
   "Files": [
-    "68148d2d38ca10dc79e4e9c6140dd21e 4060 rust-log_0.4.17-3.debian.tar.xz 3398fc9a782ec93476fde3ecb0caff9d 2400 rust-log_0.4.17-3.dsc b31bf94ffe7e0f2ada93afae1076eaeb 38028 rust-log_0.4.17.orig.tar.gz"
+    "aee53989ba4f59df9dfa9f7980d556fa 4712 rust-log_0.4.26-1.debian.tar.xz 5fde23524ff537eb2145b3d40051b7e5 1832 rust-log_0.4.26-1.dsc 804136284b9ffda958f2762e5b8b5f9d 47022 rust-log_0.4.26.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rust-lang/log"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,13 +42,13 @@
     "librust-log-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-rustversion-1+default-dev, librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-serde-test-1+default-dev, librust-sval-1.0.0+default-dev, librust-sval-1.0.0+derive-dev, librust-value-bag-1.0.0+default-dev, librust-value-bag-1.0.0+test-dev"
+    "dh-cargo, librust-proc-macro2-1-dev, librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-serde-json-1+default-dev, librust-serde-test-1+default-dev, librust-sval-2+default-dev, librust-sval-derive-2+default-dev, librust-value-bag-1+default-dev, librust-value-bag-1+test-dev, rustc"
   ],
   "Uploaders": [
     "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
@@ -54,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/log]"
   ],
   "Version": [
-    "0.4.17-3"
+    "0.4.26-1"
   ]
 }

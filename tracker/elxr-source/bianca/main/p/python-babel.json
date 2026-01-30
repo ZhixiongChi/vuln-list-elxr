@@ -6,25 +6,25 @@
     "python-babel-doc, python-babel-localedata, python3-babel"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-sphinx, python3-all, python3-pytest, python3-setuptools, python3-tz"
+    "debhelper-compat (= 13), dh-sequence-python3, python3-sphinx, python3-all, python3-pytest, python3-setuptools, python3-tz"
   ],
   "Build-Depends-Indep": [
     "python3-freezegun, unicode-cldr-core"
   ],
   "Checksums-Sha1": [
-    "4130b0c8d0f2dabcf1adc58cbeee47018685e9ec 10120 python-babel_2.10.3-1.debian.tar.xz b1012fc5b38b10b2343ba616083113062f66e269 2165 python-babel_2.10.3-1.dsc 2bef9b167bf4bf72e0941aa1ef0fb2e0a8f22ca3 274377 python-babel_2.10.3.orig.tar.gz"
+    "2b241740cb7286a30a633478bd3a6710a79f98ac 10844 python-babel_2.17.0-1.debian.tar.xz bee305d6a1cbb4ced372baf3026c9ccb992a7b14 2316 python-babel_2.17.0-1.dsc d069bba89a3998f1a46c62dc311b592dd303160a 310125 python-babel_2.17.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "478e1e9d1fc7792142352c0886122e9be923c0fe0ac1f3db1e71a6896eed995d 10120 python-babel_2.10.3-1.debian.tar.xz 6021efcb86e904a712635e56b8b0b09dc97b5089a21b5db031d5b38ac278f403 2165 python-babel_2.10.3-1.dsc 960d7a36861836081929735afe5a98aa2fb0d3720e3abc44e2d0950092e0a573 274377 python-babel_2.10.3.orig.tar.gz"
+    "d5d527b944229a5f34af3056380efe2763e832d388ed4109cf77a3a9b9149418 10844 python-babel_2.17.0-1.debian.tar.xz 71692e17193a6dc963ef0f978a1f0bbfb6f315ea103a077d3a8a700b1f7bdd28 2316 python-babel_2.17.0-1.dsc a52696499d9da7860726444c170f3481dc7409398392f3500783d01c07221bbf 310125 python-babel_2.17.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a16b00ee6b0c6441aeee8305bcc7956b8bd4cfc2e683c13eb9f3e8ce2db33b91387fc03af3ef8afb6bae64200fdb5c3447de086fe94f6a9ba92c7171e04e4995 10120 python-babel_2.10.3-1.debian.tar.xz d789bedacdf9cf8824d3aab9ceabd24c8a069c9e659e7ec44192fef6331a2b70fd65bcf3d3df94dc2063022d60fda1473c259e7f2ec9d1bf61a2e2a47d1423e0 2165 python-babel_2.10.3-1.dsc 81374fd12c37ce7a5837b3a9e0dc4388f983cbe709069024c6ca74c453ba2a7b32e4bb3c37681e768a3c5c748ffaea23fc80761bb8e96b325caced313e6701f5 274377 python-babel_2.10.3.orig.tar.gz"
+    "edcf8037db9cb43942c5dddedf21acac532e294831a6410ac0aa98f64f44cca4a62c58d0e06ab13cb30b5450e821c0324670f8511f1e5dc43e67286d56a6030f 10844 python-babel_2.17.0-1.debian.tar.xz ce005b5ed31b9ca00a76a28c7cdadb83e347d104e2445fa62b6726ad12ffb777195528b195d75db3825f8f268afd81d71912271866984fc19d7417a072b6bfee 2316 python-babel_2.17.0-1.dsc d1d73a9b5178ac0faa23613733d62d153edf1da867d7bf5bd10a438bc36c7566c77567309d6518a0b2221de30f8746b20bc8a7188acc689a07d3fecfc03b74a6 310125 python-babel_2.17.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-babel"
   ],
   "Files": [
-    "6e72be15b1f8ed3c77143639a7d3c97d 10120 python-babel_2.10.3-1.debian.tar.xz 8e9de93523826cdf422da061fb3a6877 2165 python-babel_2.10.3-1.dsc 7a3bf9d11269b5216f58f9ea7fa4f6bc 274377 python-babel_2.10.3.orig.tar.gz"
+    "ffb643f4995224dca52155d723ade8c0 10844 python-babel_2.17.0-1.debian.tar.xz 23a3612e94e0d3d2a44dd4905911ff39 2316 python-babel_2.17.0-1.dsc 8c6b6ca994d735b1247c2e5df2537ecf 310125 python-babel_2.17.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,10 +42,10 @@
     "python-babel-doc deb doc optional arch=all python-babel-localedata deb python optional arch=all python3-babel deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.6.2"
   ],
   "Uploaders": [
-    "Christoph Haas \u003chaas@debian.org\u003e, Thomas Goirand \u003czigo@debian.org\u003e, Nilesh Patra \u003cnilesh@debian.org\u003e"
+    "Christoph Haas \u003chaas@debian.org\u003e, Thomas Goirand \u003czigo@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-babel"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/python-babel.git"
   ],
   "Version": [
-    "2.10.3-1"
+    "2.17.0-1"
   ]
 }

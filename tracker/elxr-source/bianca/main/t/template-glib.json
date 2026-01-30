@@ -6,22 +6,22 @@
     "libtemplate-glib-1.0-0, libtemplate-glib-1.0-dev, libtemplate-glib-common, libtemplate-glib-doc, gir1.2-template-1.0"
   ],
   "Build-Depends": [
-    "bison, debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, flex, gtk-doc-tools, libgirepository1.0-dev, libglib2.0-dev, meson (\u003e= 0.51.0), valac"
+    "bison, debhelper-compat (= 13), dh-sequence-gir, flex, gtk-doc-tools, libgirepository1.0-dev, libglib2.0-dev, meson (\u003e= 0.51.0), valac"
   ],
   "Checksums-Sha1": [
-    "d56bb4b2176270204fff20039d6d3bb316794a53 4184 template-glib_3.36.0-1.debian.tar.xz c71f5defd7fa21562ad428c41f71710bfd2b24a6 2451 template-glib_3.36.0-1.dsc 068752c202895fb1b1cb526542328c807d04dbc5 64132 template-glib_3.36.0.orig.tar.xz"
+    "f3e8f65ea3e6cdf5fb89367d168e799475b09d99 4312 template-glib_3.36.3-1.debian.tar.xz 8869fb379cafea7a3686f25585b5ced9cf0fdf00 2433 template-glib_3.36.3-1.dsc cb1697a424df326e82dd9ca3afb1d08a0837cf4b 65620 template-glib_3.36.3.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "442c61c8b3ebbe984612cb37a3eb3134fe72f2eeee400638681a28c4c5ab03fe 4184 template-glib_3.36.0-1.debian.tar.xz d52c45dfab15edcebb39fd7ea9247fe216d5b445e90d373a69c102a67f160f4e 2451 template-glib_3.36.0-1.dsc 1c129525ae64403a662f7666f6358386a815668872acf11cb568ab39bba1f421 64132 template-glib_3.36.0.orig.tar.xz"
+    "32db38952049dfe44c40a1ab9a27898ba91036d9e3e6ba9becd406351b62e9b3 4312 template-glib_3.36.3-1.debian.tar.xz 2ca924a4e3aa79ef87cb04d4f699e308f1c52c755298fb280cfd08478c858611 2433 template-glib_3.36.3-1.dsc d528b35b2cf90e07dae50e25e12fbadb0eb048f57fd5151cf9f6e98cce1df20e 65620 template-glib_3.36.3.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "4ef5815cfad669891e20e705809f0440ff4cc2125a96ac462c75638155abf59806e3ef07e0e482d522b3dba2789e44a47784dee0d100ed39997cddb3fa6af76c 4184 template-glib_3.36.0-1.debian.tar.xz 2b8f5da8c56b9aa81820d666f592575c302dbff5ae2fe35e73b45b64f3bfd28cd4cebfea0295c1f8ead266b53d744249d66fa581a184bd33b1c740fbca2f407a 2451 template-glib_3.36.0-1.dsc 51e1adf581fef05ec46ed3dd9ba61c27b02138009e2f994a0dded62216372445e59676d6f8bbca979e44825722c913a1435a8ae7b6d1e7e41dc510654420647b 64132 template-glib_3.36.0.orig.tar.xz"
+    "757aa004df7158931c2ca4ee79e0bdb7d4e1e0f75c0209453a01b67fe30d61cfab701948d74a858cfcad7466202e73987b75f687b6aa2ed1e573875c2430e8dd 4312 template-glib_3.36.3-1.debian.tar.xz bbba8bf7539a5a69f7bad84b319d2378b0f14d42b00c307f955c40610f1023ae103b494aa10edf0e6d87ffbef90d6fdcff34c3079305176c1f675a9ad44cb72a 2433 template-glib_3.36.3-1.dsc cd860f9e8d3338162757c650611e835c9da4713db4ee9cac79e0edf0af092c80ae72928219d423897dce2d6523e2751dfc8770ff83026a7532b337a6c42379d6 65620 template-glib_3.36.3.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/t/template-glib"
   ],
   "Files": [
-    "29465c1ff64ab351b700a7b480931154 4184 template-glib_3.36.0-1.debian.tar.xz ce645a523e68341cf2fa525ad378b654 2451 template-glib_3.36.0-1.dsc 809740d6b4834f0ffe9d42e0f4815a79 64132 template-glib_3.36.0.orig.tar.xz"
+    "b8b618c7de06a9a2c1e47c207d5022f2 4312 template-glib_3.36.3-1.debian.tar.xz 08f358352524efc00a3ce4504af45dec 2433 template-glib_3.36.3-1.dsc a0031be2e974f85c97cb963b51f5988d 65620 template-glib_3.36.3.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "gir1.2-template-1.0 deb introspection optional arch=any libtemplate-glib-1.0-0 deb libs optional arch=any libtemplate-glib-1.0-dev deb libdevel optional arch=any libtemplate-glib-common deb libs optional arch=all libtemplate-glib-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e"
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/template-glib"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/template-glib.git"
   ],
   "Version": [
-    "3.36.0-1"
+    "3.36.3-1"
   ]
 }

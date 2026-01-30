@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "slurm-wlm, slurm-client, slurmrestd, slurmd, slurmctld, libslurm38, libpmi0, libpmi2-0, libslurm-dev, libpmi0-dev, libpmi2-0-dev, slurm-wlm-doc, slurm-wlm-basic-plugins, slurm-wlm-basic-plugins-dev, slurm-wlm-plugins, slurm-wlm-plugins-dev, slurm-wlm-ipmi-plugins, slurm-wlm-ipmi-plugins-dev, slurm-wlm-hdf5-plugin, slurm-wlm-hdf5-plugin-dev, slurm-wlm-rsmi-plugin, slurm-wlm-rsmi-plugin-dev, slurm-wlm-influxdb-plugin, slurm-wlm-influxdb-plugin-dev, slurm-wlm-rrd-plugin, slurm-wlm-rrd-plugin-dev, slurm-wlm-elasticsearch-plugin, slurm-wlm-elasticsearch-plugin-dev, slurm-wlm-jwt-plugin, slurm-wlm-jwt-plugin-dev, slurm-wlm-mysql-plugin, slurm-wlm-mysql-plugin-dev, sview, slurmdbd, libslurm-perl, libslurmdb-perl, slurm-wlm-torque, libpam-slurm, libpam-slurm-adopt, slurm-wlm-emulator, slurm-client-emulator"
+    "slurm-wlm, slurm-client, slurmrestd, slurmd, slurmctld, libslurm42t64, libpmi0t64, libpmi2-0t64, libslurm-dev, libpmi0-dev, libpmi2-0-dev, slurm-wlm-doc, slurm-wlm-basic-plugins, slurm-wlm-basic-plugins-dev, slurm-wlm-plugins, slurm-wlm-plugins-dev, slurm-wlm-ipmi-plugins, slurm-wlm-ipmi-plugins-dev, slurm-wlm-hdf5-plugin, slurm-wlm-hdf5-plugin-dev, slurm-wlm-rsmi-plugin, slurm-wlm-rsmi-plugin-dev, slurm-wlm-influxdb-plugin, slurm-wlm-influxdb-plugin-dev, slurm-wlm-elasticsearch-plugin, slurm-wlm-elasticsearch-plugin-dev, slurm-wlm-jwt-plugin, slurm-wlm-jwt-plugin-dev, slurm-wlm-kafka-plugin, slurm-wlm-kafka-plugin-dev, slurm-wlm-mysql-plugin, slurm-wlm-mysql-plugin-dev, sview, slurmdbd, libslurm-perl, libslurmdb-perl, slurm-wlm-torque, libpam-slurm, libpam-slurm-adopt, slurm-wlm-emulator, slurm-client-emulator, sackd"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11), libmunge-dev, libncurses-dev, po-debconf, python3, libgtk2.0-dev, default-libmysqlclient-dev, libpam0g-dev, libperl-dev, chrpath, liblua5.1-0-dev, libhwloc-dev, dh-exec, librrd-dev, libipmimonitoring-dev, hdf5-helpers, libfreeipmi-dev, libhdf5-dev, man2html, libcurl4-openssl-dev, libpmix-dev, libhttp-parser-dev, libyaml-dev, libjson-c-dev, libjwt-dev, liblz4-dev, bash-completion, libdbus-1-dev, librocm-smi-dev"
+    "dpkg-dev (\u003e= 1.22.5), debhelper (\u003e= 13), libmunge-dev, libncurses-dev, po-debconf, python3, libgtk2.0-dev, default-libmysqlclient-dev, libpam0g-dev, libperl-dev, chrpath, liblua5.1-0-dev, libhwloc-dev, dh-exec, libipmimonitoring-dev, hdf5-helpers, libfreeipmi-dev, libhdf5-dev, man2html, libcurl4-openssl-dev, libpmix-dev [amd64 arm64 mips64el ppc64el riscv64 s390x alpha ia64 loong64 ppc64 sparc64], libhttp-parser-dev, libyaml-dev, libjson-c-dev, libjwt-dev, liblz4-dev, bash-completion, libdbus-1-dev, librdkafka-dev, librocm-smi-dev"
   ],
   "Checksums-Sha1": [
-    "94a0658a68f8eb4524f1816d157ac8c5af890bd9 147096 slurm-wlm_22.05.8-4+deb12u3.debian.tar.xz 9320c41a53e6b7ce9799c946b9e9f1303db7c50d 4909 slurm-wlm_22.05.8-4+deb12u3.dsc 0719f99008a22ee412b3729e1e9ae0440d841c07 9699785 slurm-wlm_22.05.8.orig.tar.gz"
+    "0159ed225bf4d0c7772969783be90cb31c7a5d38 137848 slurm-wlm_24.11.5-4.debian.tar.xz 66355e34f42e92064b270451a7a8521ba3438ddb 5413 slurm-wlm_24.11.5-4.dsc ee73999cd33002a5275ceb56c90874abc281a327 9907599 slurm-wlm_24.11.5.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "8608fed8f3f51bbaeadcf9f201da82a2b7b22e01d36b590570801b702b1820c2 147096 slurm-wlm_22.05.8-4+deb12u3.debian.tar.xz 6cc6b9d62ee09feca35400f624d9c199afdc9dfc55c71c87b79eb0d2b2d87965 4909 slurm-wlm_22.05.8-4+deb12u3.dsc 8c8f6a26a5d51e6c63773f2e02653eb724540ee8b360125c8d7732314ce737d6 9699785 slurm-wlm_22.05.8.orig.tar.gz"
+    "2979c1e78a39c37a965808045c88a0e3cab1ce25532bed8e4dd3f00c6368508f 137848 slurm-wlm_24.11.5-4.debian.tar.xz 9f88ed386d509fe9becf2b3a06dff654bf5dd02399cbaf234de2dcd647928307 5413 slurm-wlm_24.11.5-4.dsc e1a5547edd212c38b5e3230a284133f777b32746551f094aaa81cc4af375e332 9907599 slurm-wlm_24.11.5.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "48f15e623b909aac6ea414ad0cf978d3710523f76fab8d332ccf0915046d9cf9263040b6fbc6f6330fbdf5a4dfa2497fddab95fc29296399ede6a27aeca1c782 147096 slurm-wlm_22.05.8-4+deb12u3.debian.tar.xz 1380fb9717c0ac9d88b97fef8c6ebf27bc5fb1dd0c4d7c0e18ebbf2c9549af3524942daeef741812aaa0da3cd1a680e23eb8e80bae0f46e5a961466302b1d580 4909 slurm-wlm_22.05.8-4+deb12u3.dsc 72cd49233a661c7ace988b0419611939765e262176849bf3f703d04a2c6d9ab5d5c54274142183ab478ecf490d670796cbc7f1091abb9eee958b97a654b1621b 9699785 slurm-wlm_22.05.8.orig.tar.gz"
+    "611d38cc6cf2c01b7be5a97efd18c938ea5a28c39046fa4eb54b96029b73bc3ca48df819cb279ebe0845a121ef1562ac008aeec9207f53328c19038b98f09fdc 137848 slurm-wlm_24.11.5-4.debian.tar.xz f00db21089a91c552e4b73374aed3afbd49af49759e6e9ee32bf1fd1b23ff03a195309f293f4cab17830533d624ca158cd59abf955edf2e33032164fcc6b4e7e 5413 slurm-wlm_24.11.5-4.dsc 6ce02eb375957089f550f30dd8754a10b1b586457b1bed301af170065926bb3ab4cfe31a56dda6bc3b796d8b432f1e8e7c1f2600611cdc80c212a117335f576b 9907599 slurm-wlm_24.11.5.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/s/slurm-wlm"
   ],
   "Files": [
-    "5b24b85029f1b6fb5872a9aefff4be13 147096 slurm-wlm_22.05.8-4+deb12u3.debian.tar.xz 033fcc245fe56319a690d8dab57baf15 4909 slurm-wlm_22.05.8-4+deb12u3.dsc f7c710747f8eac5fe1940d48ce9d2775 9699785 slurm-wlm_22.05.8.orig.tar.gz"
+    "6c1aa302e03a52862bc482ce4dbe3a3d 137848 slurm-wlm_24.11.5-4.debian.tar.xz 56130cc81d6785d9025988e261f862dd 5413 slurm-wlm_24.11.5-4.dsc 4059b2f58afe4b9494be08b1f1195e4c 9907599 slurm-wlm_24.11.5.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "slurm-wlm"
   ],
   "Package-List": [
-    "libpam-slurm deb admin optional arch=any libpam-slurm-adopt deb admin optional arch=any libpmi0 deb libs optional arch=any libpmi0-dev deb libdevel optional arch=any libpmi2-0 deb libs optional arch=any libpmi2-0-dev deb libdevel optional arch=any libslurm-dev deb libdevel optional arch=any libslurm-perl deb perl optional arch=any libslurm38 deb libs optional arch=any libslurmdb-perl deb perl optional arch=any slurm-client deb admin optional arch=any slurm-client-emulator deb admin optional arch=any slurm-wlm deb admin optional arch=any slurm-wlm-basic-plugins deb admin optional arch=any slurm-wlm-basic-plugins-dev deb devel optional arch=any slurm-wlm-doc deb doc optional arch=all slurm-wlm-elasticsearch-plugin deb admin optional arch=any slurm-wlm-elasticsearch-plugin-dev deb devel optional arch=any slurm-wlm-emulator deb admin optional arch=any slurm-wlm-hdf5-plugin deb admin optional arch=any slurm-wlm-hdf5-plugin-dev deb devel optional arch=any slurm-wlm-influxdb-plugin deb admin optional arch=any slurm-wlm-influxdb-plugin-dev deb devel optional arch=any slurm-wlm-ipmi-plugins deb admin optional arch=any slurm-wlm-ipmi-plugins-dev deb devel optional arch=any slurm-wlm-jwt-plugin deb admin optional arch=any slurm-wlm-jwt-plugin-dev deb devel optional arch=any slurm-wlm-mysql-plugin deb admin optional arch=any slurm-wlm-mysql-plugin-dev deb devel optional arch=any slurm-wlm-plugins deb admin optional arch=any slurm-wlm-plugins-dev deb admin optional arch=any slurm-wlm-rrd-plugin deb admin optional arch=any slurm-wlm-rrd-plugin-dev deb devel optional arch=any slurm-wlm-rsmi-plugin deb admin optional arch=any slurm-wlm-rsmi-plugin-dev deb devel optional arch=any slurm-wlm-torque deb admin optional arch=all slurmctld deb admin optional arch=any slurmd deb admin optional arch=any slurmdbd deb admin optional arch=any slurmrestd deb admin optional arch=any sview deb admin optional arch=any"
+    "libpam-slurm deb admin optional arch=any libpam-slurm-adopt deb admin optional arch=any libpmi0-dev deb libdevel optional arch=any libpmi0t64 deb libs optional arch=any libpmi2-0-dev deb libdevel optional arch=any libpmi2-0t64 deb libs optional arch=any libslurm-dev deb libdevel optional arch=any libslurm-perl deb perl optional arch=any libslurm42t64 deb libs optional arch=any libslurmdb-perl deb perl optional arch=any sackd deb admin optional arch=any slurm-client deb admin optional arch=any slurm-client-emulator deb admin optional arch=any slurm-wlm deb admin optional arch=any slurm-wlm-basic-plugins deb admin optional arch=any slurm-wlm-basic-plugins-dev deb devel optional arch=any slurm-wlm-doc deb doc optional arch=all slurm-wlm-elasticsearch-plugin deb admin optional arch=any slurm-wlm-elasticsearch-plugin-dev deb devel optional arch=any slurm-wlm-emulator deb admin optional arch=any slurm-wlm-hdf5-plugin deb admin optional arch=any slurm-wlm-hdf5-plugin-dev deb devel optional arch=any slurm-wlm-influxdb-plugin deb admin optional arch=any slurm-wlm-influxdb-plugin-dev deb devel optional arch=any slurm-wlm-ipmi-plugins deb admin optional arch=any slurm-wlm-ipmi-plugins-dev deb devel optional arch=any slurm-wlm-jwt-plugin deb admin optional arch=any slurm-wlm-jwt-plugin-dev deb devel optional arch=any slurm-wlm-kafka-plugin deb admin optional arch=any slurm-wlm-kafka-plugin-dev deb devel optional arch=any slurm-wlm-mysql-plugin deb admin optional arch=any slurm-wlm-mysql-plugin-dev deb devel optional arch=any slurm-wlm-plugins deb admin optional arch=any slurm-wlm-plugins-dev deb admin optional arch=any slurm-wlm-rsmi-plugin deb admin optional arch=any slurm-wlm-rsmi-plugin-dev deb devel optional arch=any slurm-wlm-torque deb admin optional arch=all slurmctld deb admin optional arch=any slurmd deb admin optional arch=any slurmdbd deb admin optional arch=any slurmrestd deb admin optional arch=any sview deb admin optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "gcc, mariadb-client, mariadb-server, mpi-default-dev, mpich-doc"
   ],
   "Uploaders": [
-    "Rémi Palancher \u003cremi@rezib.org\u003e, Mehdi Dogguy \u003cmehdi@debian.org\u003e, Gennaro Oliva \u003coliva.g@na.icar.cnr.it\u003e,"
+    "Rémi Palancher \u003cremi@rezib.org\u003e, Mehdi Dogguy \u003cmehdi@debian.org\u003e, Gennaro Oliva \u003coliva@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/hpc-team/slurm-wlm"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/hpc-team/slurm-wlm.git"
   ],
   "Version": [
-    "22.05.8-4+deb12u3"
+    "24.11.5-4"
   ]
 }

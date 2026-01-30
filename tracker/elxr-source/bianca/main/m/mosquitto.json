@@ -6,22 +6,22 @@
     "mosquitto, mosquitto-dev, libmosquitto1, libmosquitto-dev, libmosquittopp1, libmosquittopp-dev, mosquitto-clients"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), cmake, libcjson-dev, libdlt-dev, libssl-dev (\u003e= 1.0.0), libsystemd-dev, libwebsockets-dev, libwrap0-dev, pkg-config, uthash-dev, xsltproc, docbook-xsl"
+    "debhelper-compat (= 13), cmake, libcjson-dev, libdlt-dev, libssl-dev, libsystemd-dev, libwebsockets-dev, libwrap0-dev, pkgconf, uthash-dev, xsltproc, docbook-xsl"
   ],
   "Checksums-Sha1": [
-    "4599967530729bfef1b99e7276039e750d0b754e 68712 mosquitto_2.0.11-1.2+deb12u2.debian.tar.xz 7f10dd0c3e48fc4b41cce49fad7e61c6328ad092 2514 mosquitto_2.0.11-1.2+deb12u2.dsc 84e055b8f0e69bb6b3f368b18915189eb87b8a23 760325 mosquitto_2.0.11.orig.tar.gz"
+    "47c16cb1088d67ab0596fc60fac658ded540ca01 26476 mosquitto_2.0.21-1.debian.tar.xz 9adba4f7591559fe4d03dad864cebab1b2dc15ab 2672 mosquitto_2.0.21-1.dsc b92cdc3b33eb3e69e3381ded44c5e372cb8381e5 2247503 mosquitto_2.0.21.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "e7a5c96b064b266ec7708591f110f8cce69430d0725b08a508ec8d515983767d 68712 mosquitto_2.0.11-1.2+deb12u2.debian.tar.xz 77afb2d38230b37b085ff7b363a71669951044460e28731e958c0b94019e9263 2514 mosquitto_2.0.11-1.2+deb12u2.dsc 7b36a7198bce85cf31b132f5c6ee36dcf5dadf86fb768501eb1e11ce95d4f78a 760325 mosquitto_2.0.11.orig.tar.gz"
+    "cb5058d0b26ba2691771f2e7a1e94b91fcbd9ca06da84283737ba5525e9b0961 26476 mosquitto_2.0.21-1.debian.tar.xz 718310f1f7a1bc4f33970e6e4c9eca777fa5816791570f58cff18faab3f582bf 2672 mosquitto_2.0.21-1.dsc 551daff96cd0675faf888f8881536177934424ecc45924fecf94cffe207f6e81 2247503 mosquitto_2.0.21.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "47b1c0a233dc44e366ac5cf4822efe0e3f34e318b4e5c23aaf416272a2443e43b2b97672e6bce7657495ec38e038f5ef9e68f6f3de994d079189c8899fdabab0 68712 mosquitto_2.0.11-1.2+deb12u2.debian.tar.xz d94df847050bb5cc8e99f26d78be8650ac4afda0652fce1af0e8d6aaf905287ace8c3932f5470d65e8984be176bb21c1816206aad108baae141878a809983a72 2514 mosquitto_2.0.11-1.2+deb12u2.dsc d0c7c52cb76c4711e54f841217529326d682c4decfc7a1bc96d872904e68df444ca3918fab7ba041b62f7b5420c89c631227b69a8eec51fd2e2dd480d8244710 760325 mosquitto_2.0.11.orig.tar.gz"
+    "c4eee843ebcb19fb326ed51c7160cec8f418a2ab9c492933b98646307837dac1205d6a296e396709767170d9bb9d1860266b03da61f94bbb4b1df4ff30efb408 26476 mosquitto_2.0.21-1.debian.tar.xz 477cbfbafe3ada3e686050fe3dd5ca7d6ac06fad5cb663413b1f8168ea756aebecbd3e38f0042e0cdbc2903d8a6c217c6b2d283b3c90230775958fadbf992365 2672 mosquitto_2.0.21-1.dsc 971401a1cd885d98069e417420a35e3914bc777041b11d6d423671956802a38e75c4a401f8dd2e23e31157a894b04afab479a8f1265729b58b35d247fbf5f51e 2247503 mosquitto_2.0.21.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/m/mosquitto"
   ],
   "Files": [
-    "22bfb73db7ac972f213ba484949d7add 68712 mosquitto_2.0.11-1.2+deb12u2.debian.tar.xz d13331ed4273bffa51914291a49666d9 2514 mosquitto_2.0.11-1.2+deb12u2.dsc 638d801e6aac611b41de76d030951612 760325 mosquitto_2.0.11.orig.tar.gz"
+    "f10c5d834dc0b33fa94e688adf18ba9e 26476 mosquitto_2.0.21-1.debian.tar.xz 0af21663a69aeec1a7d595f6f98291b5 2672 mosquitto_2.0.21-1.dsc 3b65cd1b6a3c00a94c2404d26c1cca54 2247503 mosquitto_2.0.21.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://mosquitto.org/"
   ],
   "Maintainer": [
-    "Roger A. Light \u003croger@atchoo.org\u003e"
+    "Debian IoT Maintainers \u003cdebian-iot-maintainers@alioth-lists.debian.net\u003e"
   ],
   "Package": [
     "mosquitto"
@@ -39,21 +39,24 @@
     "libmosquitto-dev deb libdevel optional arch=any libmosquitto1 deb libs optional arch=any libmosquittopp-dev deb libdevel optional arch=any libmosquittopp1 deb libs optional arch=any mosquitto deb net optional arch=any mosquitto-clients deb net optional arch=any mosquitto-dev deb devel optional arch=all"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "g++, gcc, libc6-dev, python3, python3-psutil"
+    "g++, gcc, libc6-dev, libssl-dev, openssl, python3, python3-psutil"
+  ],
+  "Uploaders": [
+    "Philippe Coval \u003crzr@users.sf.net\u003e, Roger A. Light \u003croger@atchoo.org\u003e, Joachim Zobel \u003cjz-2017@heute-morgen.de\u003e"
   ],
   "Vcs-Browser": [
-    "https://github.com/eclipse/mosquitto/tree/debian"
+    "https://salsa.debian.org/debian-iot-team/mosquitto/tree/debian/master"
   ],
   "Vcs-Git": [
-    "https://github.com/eclipse/mosquitto"
+    "https://salsa.debian.org/debian-iot-team/mosquitto/ -b debian/master"
   ],
   "Version": [
-    "2.0.11-1.2+deb12u2"
+    "2.0.21-1"
   ]
 }

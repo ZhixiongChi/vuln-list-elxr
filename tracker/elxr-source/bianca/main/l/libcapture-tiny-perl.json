@@ -9,22 +9,25 @@
     "debhelper-compat (= 13)"
   ],
   "Build-Depends-Indep": [
-    "perl, libtest-version-perl"
+    "libtest-version-perl \u003c!nocheck\u003e, perl"
   ],
   "Checksums-Sha1": [
-    "f6c4b21f8c0069d9c59d5fc1f330e3f0a2c5a6e7 4044 libcapture-tiny-perl_0.48-2.debian.tar.xz 4feca0ff88636eb0ceb0b053e819c89dc940880d 2190 libcapture-tiny-perl_0.48-2.dsc 35e08cb2d811334afdebf3bca64ff3bd7a7ef560 37480 libcapture-tiny-perl_0.48.orig.tar.gz"
+    "819230490cd08beff8ac3f5d7b058f41285dadf3 4144 libcapture-tiny-perl_0.50-1.debian.tar.xz e419589eff718d25487284b7edfa2985bfa8e446 2456 libcapture-tiny-perl_0.50-1.dsc 1ade1d0cfb0ce7a8458650a446bc3132fbc329b7 35640 libcapture-tiny-perl_0.50.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "6b420dc6224ded7cb8503038ac8788f47a2bfb5dba9a0b8b3bf6e1512c903a60 4044 libcapture-tiny-perl_0.48-2.debian.tar.xz c4a264734aaa94cc497013509899853e31fc4211781ceab81f64d2b7d09a36b4 2190 libcapture-tiny-perl_0.48-2.dsc 6c23113e87bad393308c90a207013e505f659274736638d8c79bac9c67cc3e19 37480 libcapture-tiny-perl_0.48.orig.tar.gz"
+    "c006757d61f92e2c56452b5430293d73c99d168150ed20c39251080feabe3339 4144 libcapture-tiny-perl_0.50-1.debian.tar.xz 29dee202d450c3e186bf58023465c3761a058d80afbb644f81d879ac36f27317 2456 libcapture-tiny-perl_0.50-1.dsc ca6e8d7ce7471c2be54e1009f64c367d7ee233a2894cacf52ebe6f53b04e81e5 35640 libcapture-tiny-perl_0.50.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "23a6d570e5d9e50ba9fab945be0c4a86680919a589378ba2dd2bbf5a64a869d96063bb78bb78811fb8a1ec7cef7de772c690d7ce67327ac6b9230585468a5c57 4044 libcapture-tiny-perl_0.48-2.debian.tar.xz 90a50f76ca343940d3e395a9900e31631e612e5ae78907ba0809469eeda7ec36721b58e18a9e9690433489ffa15656acb21f92a2692662cf9653dd932babd564 2190 libcapture-tiny-perl_0.48-2.dsc 96d140b33a5ee147804925353ec5b49b806fa9c98b4ac23ec9c9494828f52ac72fd6f69c08e14ada18e5187dc4cece3d72901ce07b12eef20595322161a98437 37480 libcapture-tiny-perl_0.48.orig.tar.gz"
+    "e013d8228b6fff18fc350ae72a7237a58fc1c4dc82466f829f8915bc5402f139fc27bb4c530bcb3c608a2a0c0f4d5357beb1d8ec8c3ce47be125e8bf8de9c863 4144 libcapture-tiny-perl_0.50-1.debian.tar.xz 549d5164214745d7a1349354e1ebd06ca04a4610cee26c851281fc9a8a264d491a0c1bd2ddae25dfd3f28b5a866cb46c2ba45e50fcdd03804a2510bcf5d205d8 2456 libcapture-tiny-perl_0.50-1.dsc afdcafbeb98446aa9370e1eea61003e7e0e26af35d76567cb269ac732aa26c7d689fbdb9abbc22095c59390d9b580b342d92bab7c65801ba42d7aa51d1b9ac07 35640 libcapture-tiny-perl_0.50.orig.tar.gz"
+  ],
+  "Dgit": [
+    "e585ebd3fbb67a2c70778ee2a9376049ef8c67cb debian archive/debian/0.50-1 https://git.dgit.debian.org/libcapture-tiny-perl"
   ],
   "Directory": [
     "pool/main/libc/libcapture-tiny-perl"
   ],
   "Files": [
-    "8598301b4d32000392c6acbc8db4b8b4 4044 libcapture-tiny-perl_0.48-2.debian.tar.xz 83774cf62774a2a9f30a7c5ea9e2eedb 2190 libcapture-tiny-perl_0.48-2.dsc f5d24083ad270f8326dd659dd83eeb54 37480 libcapture-tiny-perl_0.48.orig.tar.gz"
+    "57d7b1094e3950844d87bcc3003166a2 4144 libcapture-tiny-perl_0.50-1.debian.tar.xz a9fc23e71089e6be25b0c6883e758bd0 2456 libcapture-tiny-perl_0.50-1.dsc 92c96fdff1b972a663cc2b3e206ca853 35640 libcapture-tiny-perl_0.50.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +45,7 @@
     "libcapture-tiny-perl deb perl optional arch=all"
   ],
   "Standards-Version": [
-    "4.1.5"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libcapture-tiny-perl.git"
   ],
   "Version": [
-    "0.48-2"
+    "0.50-1"
   ]
 }

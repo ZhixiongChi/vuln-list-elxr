@@ -6,22 +6,22 @@
     "python3-googleapi, python3-googleapi-samples"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-python, python3-all (\u003e= 3.4), python3-mock, python3-oauth2client (\u003e= 1.4.6), python3-setuptools, python3-six, python3-unittest2, python3-uritemplate, python3-google-auth, python3-google-auth-httplib2 (\u003e= 0.0.3)"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-uritemplate, python3-google-auth, python3-google-auth-httplib2 (\u003e= 0.0.3), python3-google-api-core"
   ],
   "Checksums-Sha1": [
-    "7d6f1b8566ca08a9ab75bb021f817f969f56d111 5848 python-googleapi_1.7.12-1.debian.tar.xz 11bedefc372371b43d63159710a6e30ae59bc55f 2118 python-googleapi_1.7.12-1.dsc 3508bd4bc9c8434f5d0ac317ce08bcac8245f3f9 11762279 python-googleapi_1.7.12.orig.tar.gz"
+    "a93933623885ff38d86fa1a6c8f3bc0cac7a325c 3568 python-googleapi_2.166.0-1.debian.tar.xz 54122e719eb5e5fa221e3d8f2b414d072d92a9c7 2068 python-googleapi_2.166.0-1.dsc 19f7eb61a3b5de0230e97c9e533bb068bb95721d 59894186 python-googleapi_2.166.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "2ec1703cf5ca908e91a43da8c637f93f51c44011d73d32841136e46983819575 5848 python-googleapi_1.7.12-1.debian.tar.xz 80ed937f8249e730a8dcf6dbdfabc9094c1d317dbef046af8343ca6987a8c2c3 2118 python-googleapi_1.7.12-1.dsc e052efa384a59bf1d8f99a9a40504a8d9717eac9cbc0225b0db24652a251d250 11762279 python-googleapi_1.7.12.orig.tar.gz"
+    "687bf9c1aacad095683b2dfa117ac25f4781d2cce2c9920b4112660430ee2df0 3568 python-googleapi_2.166.0-1.debian.tar.xz 7bb7a765ae64a904a5f7e4a483ac4c6672deb4b4d664412589b9a686e2262b88 2068 python-googleapi_2.166.0-1.dsc a4bb4d860d38586125bda1839a29ad50adf6445d3dfe09b7ad9ccfa1059880b1 59894186 python-googleapi_2.166.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f93cb4cce83de67c9fa0e0efdc516004ce58c306227083f853389415917b7f2459e38f1523dafbc8b7b867f940e8cd78ea93d240739327c6ed2b211ea5f14d59 5848 python-googleapi_1.7.12-1.debian.tar.xz b214c9908586156ce778132cc664defbca450c7b9985ab803e6c085a3a3b189beb9cdcaaed89f75944a3587b5ff5524d5e9e35a9a8f7ca2069d32f03841c0b26 2118 python-googleapi_1.7.12-1.dsc 606c466c90d58cb8998bef22230c44273320f1bcba9685fb22171d8d3491f7ea911b86a39fdf7cf175f1c1bd0345e944b70685acb7b2c24e977d730f635f127d 11762279 python-googleapi_1.7.12.orig.tar.gz"
+    "6f2cee2112a4225e1c77b655efd998c61e5bf209a3ea5aa94ee922e89f1e97dc1ed611697fb63f5c64fe8500e33934ed50b8065b30ba87a2dbb31902e526ccbc 3568 python-googleapi_2.166.0-1.debian.tar.xz dc264a66923d3ebe811708a6a3d76f69b79762721c8c53897bf446617e4369c3b3231c895e988ce16fc1751d1282842b44ff50d80a2e1d86f246ef5481dcc1d3 2068 python-googleapi_2.166.0-1.dsc 8d70dbea608806883bea9d0220f59a7df8ea2a2d53f0cfbbf43accf6a69ad10523eb21c6257eab7f53f65a38f8be0952406f69905b2a19ff311a8f0bb997bed6 59894186 python-googleapi_2.166.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-googleapi"
   ],
   "Files": [
-    "1c1ec770565143aa4b103f0f56884f3e 5848 python-googleapi_1.7.12-1.debian.tar.xz 045623e0e3a2fe05e65275465f1bf698 2118 python-googleapi_1.7.12-1.dsc 39926f0944eaceec8cff4659b5f832f1 11762279 python-googleapi_1.7.12.orig.tar.gz"
+    "7d7b4c9ce005987ba7ea79c58be60e4b 3568 python-googleapi_2.166.0-1.debian.tar.xz 7e17208d1b1da99b2c0edd62715dbc38 2068 python-googleapi_2.166.0-1.dsc edae8dd6035b55a1d2c3b3f7c96d06dc 59894186 python-googleapi_2.166.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,9 +39,9 @@
     "python3-googleapi deb python optional arch=all python3-googleapi-samples deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.4.0"
+    "4.7.2"
   ],
   "Version": [
-    "1.7.12-1"
+    "2.166.0-1"
   ]
 }

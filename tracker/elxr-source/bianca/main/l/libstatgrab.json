@@ -3,28 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libstatgrab10, libstatgrab-dev, saidar, statgrab"
+    "libstatgrab10t64, libstatgrab-dev, saidar, statgrab"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libncurses5-dev, pkg-config"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), libncurses5-dev, pkg-config"
   ],
   "Checksums-Sha1": [
-    "95d5107a50c67ef2c14ef0223a2ff21ba9d7f5e5 4056 libstatgrab_0.92.1-1.1.debian.tar.xz ad38ffd1c51b89404e15fbb7f95157c7d261f87f 1494 libstatgrab_0.92.1-1.1.dsc 1d93c4116b23fab61b6c36414976a924fb82efd8 817531 libstatgrab_0.92.1.orig.tar.gz"
+    "544d55f67024e5ac50ab809800d8dc677d91bbd5 4244 libstatgrab_0.92.1-1.2.debian.tar.xz 8f059311633e8fb03f7cf0be57061977a11e1086 1962 libstatgrab_0.92.1-1.2.dsc 1d93c4116b23fab61b6c36414976a924fb82efd8 817531 libstatgrab_0.92.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "5837f95175491511c5601cfcd06917eec0e34b7b2aeec4e3b02cfe8e67c73659 4056 libstatgrab_0.92.1-1.1.debian.tar.xz cbed53e6101b935ace6d0e6aa5a0c654bff5bed0f0ff64da443b548c5fede4fe 1494 libstatgrab_0.92.1-1.1.dsc 5688aa4a685547d7174a8a373ea9d8ee927e766e3cc302bdee34523c2c5d6c11 817531 libstatgrab_0.92.1.orig.tar.gz"
+    "c7eb8c10264b5fa6b62f55d553ebd065a4a897387748e2d939f5b6298ee11b57 4244 libstatgrab_0.92.1-1.2.debian.tar.xz 62eed38345fbdc0da57efdab2f769d63d1be7da53b5737026361298e10d80268 1962 libstatgrab_0.92.1-1.2.dsc 5688aa4a685547d7174a8a373ea9d8ee927e766e3cc302bdee34523c2c5d6c11 817531 libstatgrab_0.92.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c0418a7183b83958e30ef16f635b412e4910966e73db621db732015cf6777fbde28524e1a21455d034c47a7c455829f4db65bfd9be74b6fed6972df41d2c4a48 4056 libstatgrab_0.92.1-1.1.debian.tar.xz 62bbf089e13f5f5745b731e3bc7b87eb3c21259568f365425b52a7af7d3735fa42ec8c5064743c309dc7335b1a13ddf3a7c5bb8f8821bceecac9bf9fa2eb130c 1494 libstatgrab_0.92.1-1.1.dsc e1f14df8abbb044d02b0ecebc23fbe9effaa0bac6738686e661de015564df5a4d872edef6d07fd150db25764b449d47ef54beecbe12c51987a679b07edc53c97 817531 libstatgrab_0.92.1.orig.tar.gz"
-  ],
-  "Dgit": [
-    "e301a7bde22bad525ba5c24ab64d47bb01485e7d debian archive/debian/0.92.1-1.1 https://git.dgit.debian.org/libstatgrab"
+    "ecfc6cc2a2e167f404e5b7bdf3aebd7bf7fd77dcee0a46b8a512014330dea318736cfe76b81f118df9a83e8491ef69380bd1d38a29810c418ec6027425f8d7e8 4244 libstatgrab_0.92.1-1.2.debian.tar.xz dbca4277c7ea8a191b84d5ea41f8a925ab933f21155f6a21a94a1c4f22f7a3669c318117a51d83f11a89504857e5008ae1026cea1d116a9df6d4fac4c2a03524 1962 libstatgrab_0.92.1-1.2.dsc e1f14df8abbb044d02b0ecebc23fbe9effaa0bac6738686e661de015564df5a4d872edef6d07fd150db25764b449d47ef54beecbe12c51987a679b07edc53c97 817531 libstatgrab_0.92.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libs/libstatgrab"
   ],
   "Files": [
-    "3ea5f12b042579493bb735335c6ab72f 4056 libstatgrab_0.92.1-1.1.debian.tar.xz 36138707752fb5ac820a6efcaf404d67 1494 libstatgrab_0.92.1-1.1.dsc af685494e985229e0ac46365bc0cd50e 817531 libstatgrab_0.92.1.orig.tar.gz"
+    "fac06333c5c4f38473f151e1e6d75754 4244 libstatgrab_0.92.1-1.2.debian.tar.xz 8ce6b41613196f70882ef4a312c4333a 1962 libstatgrab_0.92.1-1.2.dsc af685494e985229e0ac46365bc0cd50e 817531 libstatgrab_0.92.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,12 +36,12 @@
     "libstatgrab"
   ],
   "Package-List": [
-    "libstatgrab-dev deb libdevel optional arch=any libstatgrab10 deb libs optional arch=any saidar deb utils optional arch=any statgrab deb utils optional arch=any"
+    "libstatgrab-dev deb libdevel optional arch=any libstatgrab10t64 deb libs optional arch=any saidar deb utils optional arch=any statgrab deb utils optional arch=any"
   ],
   "Standards-Version": [
     "4.4.0"
   ],
   "Version": [
-    "0.92.1-1.1"
+    "0.92.1-1.2"
   ]
 }

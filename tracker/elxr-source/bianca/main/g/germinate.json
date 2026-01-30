@@ -6,25 +6,22 @@
     "germinate, python3-germinate"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3 (\u003e= 3.1.2-8~), python3-all, python3-apt (\u003e= 0.7.93.2~), python3-fixtures, python3-flake8, python3-setuptools, python3-six, python3-testtools"
+    "debhelper-compat (= 13), dh-python, python3 (\u003e= 3.1.2-8~), python3-all, python3-apt (\u003e= 0.7.93.2~), python3-fixtures, python3-flake8, python3-setuptools, python3-testtools"
   ],
   "Checksums-Sha1": [
-    "750433500e5094866e2cbd34a25da22ed1a8047c 1879 germinate_2.39.dsc 07c1001411ea8bcf0d78bdaa825eebc14ae48541 64668 germinate_2.39.tar.xz"
+    "d3fa9a7c740087f837165a8e1d36fc5111add5b9 1920 germinate_2.46.dsc 8d538df6bae4f73cd7fa598f8e7571d53a0f1505 66536 germinate_2.46.tar.xz"
   ],
   "Checksums-Sha256": [
-    "aa1d52ef855026acb1016655f720e33066565a6e9664c951f396dad942ae4663 1879 germinate_2.39.dsc 6da3bad674ac566b2416cd99deb57e2530541a306560a5ab03c0f948748691e2 64668 germinate_2.39.tar.xz"
+    "64d416b2652b85588277adcff0b4a5844d1b824c5e4dfffe07c0dcc100300d7e 1920 germinate_2.46.dsc 688eec9a2a0dac10557e375b611879a310eb37394084021ccca01079603293f3 66536 germinate_2.46.tar.xz"
   ],
   "Checksums-Sha512": [
-    "4f0e8c05330f23cfe51ba8559b92b53752c0f3bd2dcbc5e72a7035b9f44b4419a4520c0be847d2d243bbd7d877ce8d39d00016eac5eee4a1e95e84416d045f63 1879 germinate_2.39.dsc 61210b4f02859e870aa8b7146425f3339270721f34eca8c02308df177e94ab36d1816caf8d1b5933db1d80fe075a32c7a0b43860a6d300f5753c640fdc0d8880 64668 germinate_2.39.tar.xz"
-  ],
-  "Dgit": [
-    "574359f60b99dc7c9446432f10f2de6b7eee6f4c debian archive/debian/2.39 https://git.dgit.debian.org/germinate"
+    "3cd811113a0878b42b4c4420d5081d3b21f6b44d49fb5e70cfe23e5ca804cc310f6ea788e0705675f6566dfda25f7b4150b119a23a26a3eae0de4b7ba79ba5b2 1920 germinate_2.46.dsc b3f6d870cffeb023baa4bf02580117c3c89729478c7bf66d9277490a96ae2fd842f7474f4da9e1ceeecc16b5b82ccf68f8f1453479f7011f3f241f16ac683fdb 66536 germinate_2.46.tar.xz"
   ],
   "Directory": [
     "pool/main/g/germinate"
   ],
   "Files": [
-    "b7510e9844fcc17bcac73f139015b3c2 1879 germinate_2.39.dsc 50f000f0997bb51f6682bb1a463fed25 64668 germinate_2.39.tar.xz"
+    "4d0d87a0c4af3513d4a8fff37e5fa794 1920 germinate_2.46.dsc a3dfeff605d5386a3b1d667946ff8632 66536 germinate_2.46.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -33,7 +30,7 @@
     "https://launchpad.net/germinate"
   ],
   "Maintainer": [
-    "Colin Watson \u003ccjwatson@ubuntu.com\u003e"
+    "The germinate hackers \u003cgerminate@packages.debian.org\u003e"
   ],
   "Package": [
     "germinate"
@@ -42,7 +39,10 @@
     "germinate deb utils optional arch=all python3-germinate deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.4.0"
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Julian Andres Klode \u003cjak@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://git.launchpad.net/germinate"
@@ -51,6 +51,6 @@
     "https://git.launchpad.net/germinate"
   ],
   "Version": [
-    "2.39"
+    "2.46"
   ]
 }

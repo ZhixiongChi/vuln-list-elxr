@@ -6,25 +6,28 @@
     "librust-time-macros-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.67.1) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-num-conv-0.1+default-dev \u003c!nocheck\u003e, librust-time-core-0.1.2+default-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "fd0d373d50c34b90be6fbbef0d14700230cde49d 2608 rust-time-macros_0.2.4-1.debian.tar.xz 7a51a611bff614a6f0472ea51038c63ace3ca599 2137 rust-time-macros_0.2.4-1.dsc a8988ae0986dc311e1f665a7bcbeff8e980b8386 18421 rust-time-macros_0.2.4.orig.tar.gz"
+    "74a80b65cfc7eb049b2c8d21e3622f37634fbec8 2988 rust-time-macros_0.2.19-1.debian.tar.xz bd8e81fe4f3a98e0093c313f9ac7941477839f54 1700 rust-time-macros_0.2.19-1.dsc ca57fe201a39d402aa5cfd0616461994f685171d 24268 rust-time-macros_0.2.19.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "f3cbf9083a67cd57fd24ce07bf5e827707f39f930628153ff2f6e1edcd96705e 2608 rust-time-macros_0.2.4-1.debian.tar.xz 4d3678715c39b8cb34555860ba30c4d6974876436f100ec742382e012bc4dce9 2137 rust-time-macros_0.2.4-1.dsc 42657b1a6f4d817cda8e7a0ace261fe0cc946cf3a80314390b22cc61ae080792 18421 rust-time-macros_0.2.4.orig.tar.gz"
+    "7ca893c6e471f37d80b728a29d55dca1d2f3e4ff0d66aa60ae5bb1ce73625c71 2988 rust-time-macros_0.2.19-1.debian.tar.xz a8e6cbe8187ad2e468ce71d128c4d8c26c69dd2c2a134473b0b5624695ff3277 1700 rust-time-macros_0.2.19-1.dsc 2834e6017e3e5e4b9834939793b282bc03b37a3336245fa820e35e233e2a85de 24268 rust-time-macros_0.2.19.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c3c8565f9a42e5a251d90d0af40ea012ad340bad89c0c42752428e4c5693ad599bfe0dd19e6e120796bca17147ef0b315795ff3678a29289807067a610831dfe 2608 rust-time-macros_0.2.4-1.debian.tar.xz b5461308bc9e0f3db2d8672d4b123e1d80587391758940d4101a5e7aa867d82a04249d1d7f6a4322ed1d369250a6837af717febc7ecba2cd3910a5a9302ec888 2137 rust-time-macros_0.2.4-1.dsc f3887ce839db40d13c143a9f11bea804fe4760ab2655df68cbba9029cfff7d0476135608fbfdba6cdec1f9b0753b2de0e3ce0161b40c5d2b9596980d9deaae59 18421 rust-time-macros_0.2.4.orig.tar.gz"
+    "323fb9202e989fff8f6d8a3c569a88b7d181442db214f14a58f34f6b7dd4079898630a1f45cf286b9d06f3def91510b40c54e7d876316530eed058b1a2692336 2988 rust-time-macros_0.2.19-1.debian.tar.xz 477e48bb712f64e5a00e1c904caf577f2d9f0a08bdb43a1f19c7c35a8f798e03e9f4f9dfaae180534b3ff329625df185a14ee439e48d8ae19289355d3b9dcfbe 1700 rust-time-macros_0.2.19-1.dsc c58aa596247a4cab720bef74ff43be44686db2da2978826a1f9b58c640113b5696efc2ae1746bf84042fdbb94bec42c7fc34f7ae6812478f55849a12a90dff5e 24268 rust-time-macros_0.2.19.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-time-macros"
   ],
   "Files": [
-    "5b20773b081f9943f317462f0a6e8c35 2608 rust-time-macros_0.2.4-1.debian.tar.xz ad09aa467edf4c85bd6c3e9d3be6faa6 2137 rust-time-macros_0.2.4-1.dsc 1810b2a2299ed5a2434da7926161fbd4 18421 rust-time-macros_0.2.4.orig.tar.gz"
+    "059f688e08154441d32b28744812314b 2988 rust-time-macros_0.2.19-1.debian.tar.xz 1267c9059902fb7dd4bf67ee4ba4cd52 1700 rust-time-macros_0.2.19-1.dsc 504da2c69a717cf18a048a88864fb728 24268 rust-time-macros_0.2.19.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/time-rs/time"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,13 +39,13 @@
     "librust-time-macros-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo"
+    "dh-cargo, rustc"
   ],
   "Uploaders": [
     "Liang Yan \u003cly@xryan.net\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/time-macros]"
   ],
   "Version": [
-    "0.2.4-1"
+    "0.2.19-1"
   ]
 }

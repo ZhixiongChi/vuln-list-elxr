@@ -1,33 +1,33 @@
 {
   "Architecture": [
-    "any"
+    "any all"
   ],
   "Binary": [
-    "konq-plugins, konqueror, libkf5konq-dev, libkf5konq6"
+    "konq-plugins, konqueror, konqueror-data, konqueror-doc, libkonq-dev, libkf6konq7, libkf6konqsettings7"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.5~), debhelper-compat (= 13), dh-exec, dh-sequence-kf5, extra-cmake-modules (\u003e= 5.91.0~), gettext, kinit-dev (\u003e= 5.91.0~), libkf5activities-dev (\u003e= 5.91.0~), libkf5archive-dev (\u003e= 5.91.0~), libkf5bookmarks-dev, libkf5coreaddons-dev, libkf5crash-dev (\u003e= 5.91.0~), libkf5dbusaddons-dev (\u003e= 5.91.0~), libkf5doctools-dev (\u003e= 5.91.0~), libkf5guiaddons-dev (\u003e= 5.91.0~), libkf5i18n-dev, libkf5iconthemes-dev (\u003e= 5.91.0~), libkf5jobwidgets-dev, libkf5kcmutils-dev (\u003e= 5.91.0~), libkf5kio-dev (\u003e= 5.37.0~), libkf5notifications-dev (\u003e= 5.91.0~), libkf5parts-dev (\u003e= 5.91.0~), libkf5sonnet-dev (\u003e= 5.91.0~), libkf5su-dev, libkf5textwidgets-dev, libkf5wallet-dev (\u003e= 5.91.0~), libkf5windowsystem-dev (\u003e= 5.91.0~), libkf5xmlgui-dev, libqt5texttospeech5-dev (\u003e= 5.12.0~), libqt5webkit5-dev, libqt5x11extras5-dev, libx11-dev, pkg-config, qtbase5-dev (\u003e= 5.15.2~), qtscript5-dev, qtwebengine5-dev (\u003e= 5.15.2~) [amd64 arm64 armhf i386 mips64el mipsel], zlib1g-dev"
+    "debhelper-compat (= 13), dh-exec, dh-sequence-kf6, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 5.240.0~), gettext, libkf6archive-dev, libkf6bookmarks-dev, libkf6codecs-dev, libkf6completion-dev, libkf6config-dev, libkf6coreaddons-dev, libkf6crash-dev, libkf6dbusaddons-dev, libkf6doctools-dev, libkf6guiaddons-dev, libkf6i18n-dev, libkf6iconthemes-dev, libkf6jobwidgets-dev, libkf6kcmutils-dev, libkf6kio-dev, libkf6notifications-dev, libkf6parts-dev, libkf6sonnet-dev, libkf6su-dev, libkf6textwidgets-dev, libkf6wallet-dev, libkf6windowsystem-dev, libkf6xmlgui-dev, libplasmaactivities-dev, libx11-dev, pkgconf, qt6-base-dev (\u003e= 6.4.0~), qt6-webengine-dev (\u003e= 6.4.0~), zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "9b8e4d7a622bb9ace84fd111e5d9c3e58ffd19a0 21316 konqueror_22.12.3-1.debian.tar.xz d96a8d6a55b77ac90ec6db7152251862ba966853 3337 konqueror_22.12.3-1.dsc d6d64dabafc77dc96520f25df5aeffaecdff6690 8494652 konqueror_22.12.3.orig.tar.xz 3589b8bc629e0861ac8de0b1534cdab5f2001956 833 konqueror_22.12.3.orig.tar.xz.asc"
+    "c719a652e3e033187c1935acf68b4063d042e143 24216 konqueror_25.04.0-1.debian.tar.xz 9006efc3111ec4571e46116c58cb53242d59ce87 3234 konqueror_25.04.0-1.dsc 4eedc81cc22394dd7e657d6bdccbdebacef24c80 9824312 konqueror_25.04.0.orig.tar.xz d163a9aca84396734fc30d20a4b5cc6cbcbdaf2a 833 konqueror_25.04.0.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "6f89982056f3fc81db3dd6ecd122578838553c5b53fbc5574d6d39b82698d3bb 21316 konqueror_22.12.3-1.debian.tar.xz e1f14fb749fea11589da46be00964f021856f09a169742c79b503d6a11111171 3337 konqueror_22.12.3-1.dsc b0275056ba2a8635b0590c6970015e0ca39d9b8f1662fc1afe924d2d47fc9ad4 8494652 konqueror_22.12.3.orig.tar.xz 26abbbf0dd6d09d3965a9a3efcf9bcd072c1990d74fceffb0988c4a561a9d81a 833 konqueror_22.12.3.orig.tar.xz.asc"
+    "236a22d615fe7bc6791daf1de5e22bc466763c718bd0aa0ae2fcc8964251ee11 24216 konqueror_25.04.0-1.debian.tar.xz d4be4413a8f428c482d59200e401918e0cb462088f794c804b301debb68ff9e3 3234 konqueror_25.04.0-1.dsc cb62ee7d33a531d48447556b0fea88a34618b969c94f95d7f009c5c5bd9a9a45 9824312 konqueror_25.04.0.orig.tar.xz 387325f913dc9edd9b9264674c42287fba18160da129ea2cdee5e85155ee0fbf 833 konqueror_25.04.0.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "9ec65147ed97f67e91380ddb757cf53c8a445836fc244a31b88c25b32a613666366d92a9e8d3942e378ff08feb3d46bab4d041902c54ab8945e415c4bbeb0f08 21316 konqueror_22.12.3-1.debian.tar.xz d837fa2514922694f6a3d8e94eb80d9672ce91b1f19dda06dd204577031912a800ed89993c971d30d4e19345d041a0a99f30fd311b3b87ebbde228fb04a99ac1 3337 konqueror_22.12.3-1.dsc fa765e20d188864dc3569133e8d86c1c8ef4938d28d25d312a3e6814a41370a75b199565402a77a3869aef6c813cf8be24ba38d0d2a9ba83d0da0a95fc192441 8494652 konqueror_22.12.3.orig.tar.xz 15fa080a3c8fe387362c61312749481f731d15c076d8c937dd29dd09b60ab53041d5cd81d22fdf461b8193a8a705d63399a558414d5a5e4749313d11bbf4bc28 833 konqueror_22.12.3.orig.tar.xz.asc"
+    "d02ea5fdffeb8d0cb0f7421e14696265f052c146c5573fc011f9b14ec271abaabbc693494e690bdbbc33db1c2660b33f0dcbdd830d708272f18547e77ab974cd 24216 konqueror_25.04.0-1.debian.tar.xz f11d7de7def95bb8ca7a0594b3a8da45fe6c1b08ac9f7c00c6fc78e2e5c580a5de5bb8c7dd9f8830f70311e7a3793136b5afa3f214c384b2d87282e04ed09baa 3234 konqueror_25.04.0-1.dsc f873daf0b001eb4fe4cf6a3afb7bca03d95cb7a597e86f7dbc4ce60989dc3aacfde8ed10b0ad0244cd7ea8d8872698c2420a740ab0c8cc630b8725169a6cfe47 9824312 konqueror_25.04.0.orig.tar.xz e7e661c953f64242415fe07766907a4cffe9671c90c3aa5dbd1eb4a495661b7886ec0a04ae77e1d6e933778a99be995b276ae6a10e1669f12c80334c7c5de45f 833 konqueror_25.04.0.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/k/konqueror"
   ],
   "Files": [
-    "666b7ef8bee3ef3fb63bbb675e0da711 21316 konqueror_22.12.3-1.debian.tar.xz 12f7e2e2673deed87158c2832d55bafe 3337 konqueror_22.12.3-1.dsc 7f8b87449b05c494da75348f771ec29d 8494652 konqueror_22.12.3.orig.tar.xz 6a1234c1d5a780b769363d2b0d015f12 833 konqueror_22.12.3.orig.tar.xz.asc"
+    "fbfa5075ca37e3dd997552a5caf2bff1 24216 konqueror_25.04.0-1.debian.tar.xz 2b4da323b95a10d7699fe8a6cc037a40 3234 konqueror_25.04.0-1.dsc 924b63acfe0b00b273f9b9cc63ae1554 9824312 konqueror_25.04.0.orig.tar.xz 861c866249de547d746f2bfb56bfc9a2 833 konqueror_25.04.0.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://apps.kde.org/en/konqueror"
+    "https://apps.kde.org/konqueror"
   ],
   "Maintainer": [
     "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
@@ -36,10 +36,10 @@
     "konqueror"
   ],
   "Package-List": [
-    "konq-plugins deb kde optional arch=any konqueror deb web optional arch=any libkf5konq-dev deb libdevel optional arch=any libkf5konq6 deb libs optional arch=any"
+    "konq-plugins deb kde optional arch=any konqueror deb web optional arch=any konqueror-data deb web optional arch=all konqueror-doc deb doc optional arch=all libkf6konq7 deb libs optional arch=any libkf6konqsettings7 deb libs optional arch=any libkonq-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
     "Aurélien COUDERC \u003ccoucouf@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/konqueror.git"
   ],
   "Version": [
-    "4:22.12.3-1"
+    "4:25.04.0-1"
   ]
 }

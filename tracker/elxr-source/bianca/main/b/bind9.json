@@ -3,28 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "bind9, bind9utils, bind9-utils, bind9-doc, bind9-host, bind9-libs, bind9-dev, dnsutils, bind9-dnsutils"
+    "bind9, bind9-utils, bind9-doc, bind9-host, bind9-libs, bind9-dev, bind9-dnsutils"
   ],
   "Build-Depends": [
-    "bison, debhelper-compat (= 12), dh-apparmor, dh-exec, libcap2-dev [linux-any], libcmocka-dev, libdb-dev, libedit-dev, libfstrm-dev, libidn2-dev, libjemalloc-dev, libjson-c-dev, libkrb5-dev, liblmdb-dev, libltdl-dev, libmaxminddb-dev (\u003e= 1.3.0), libnghttp2-dev, libprotobuf-c-dev, libssl-dev, libsystemd-dev [linux-any], libtool, libuv1-dev (\u003e= 1.40.0), libxml2-dev, pkg-config, protobuf-c-compiler, python3, zlib1g-dev"
+    "bison, debhelper-compat (= 12), dh-apparmor, dh-exec, libcap2-dev [linux-any], libcmocka-dev, libdb-dev, libedit-dev, libfstrm-dev, libidn2-dev, libjemalloc-dev, libjson-c-dev, libkrb5-dev, liblmdb-dev, libmaxminddb-dev (\u003e= 1.3.0), libnghttp2-dev, libprotobuf-c-dev, libssl-dev, libsystemd-dev [linux-any], libtool, liburcu-dev, libuv1-dev, libxml2-dev, pkgconf, protobuf-c-compiler, zlib1g-dev"
   ],
   "Build-Depends-Indep": [
     "fonts-freefont-otf, latexmk, python3-sphinx, python3-sphinx-rtd-theme, texlive-fonts-extra, texlive-latex-recommended, texlive-xetex, xindy"
   ],
   "Checksums-Sha1": [
-    "f4545d4f86f1c26fbf1f565974f6a9cc703f44e7 61672 bind9_9.18.44-1~deb12u1.debian.tar.xz 0d466712d4b51124b229b15e9a4bf40e1977d23f 3325 bind9_9.18.44-1~deb12u1.dsc a47344583cd99298505f190cee8436cb7726c394 5439552 bind9_9.18.44.orig.tar.xz 96747e419a777fc5712d76015190b75feda0f407 833 bind9_9.18.44.orig.tar.xz.asc"
+    "3a12069874106e5d12d073fbff9398a8eeef2e7f 61900 bind9_9.20.15-1~deb13u1.debian.tar.xz e2b9d8dc1b37e62b547f1bcbcc71f5a97c1d71a1 3197 bind9_9.20.15-1~deb13u1.dsc ec1cdd69dee34b0b3a3fc126146e26a172873110 5765964 bind9_9.20.15.orig.tar.xz 5c30cd697e5bc4bdafbc5e28296781dac1225dd4 833 bind9_9.20.15.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "b1124a964be6ed2570e297a2dec81313cc5494f942c39a4beedf6ea26283c30d 61672 bind9_9.18.44-1~deb12u1.debian.tar.xz 42064e217a0d93904ffb1d24fd490a180bbd3d49f7e5a59d30b80156935478cc 3325 bind9_9.18.44-1~deb12u1.dsc 81f5035a25c576af1a93f0061cf70bde6d00a0c7bd1274abf73f5b5389a6f82d 5439552 bind9_9.18.44.orig.tar.xz f8b391a8a1086116a3b66a729bb68bdfb1d10e29399a393b95f89fae6ae23e86 833 bind9_9.18.44.orig.tar.xz.asc"
+    "ab95e35c4eb58cedf6fb3dece49ba2e4323a0cfd0ed6fc7ac03e1dfe5deec781 61900 bind9_9.20.15-1~deb13u1.debian.tar.xz a327e32c45d6b72613a20a2a36edf6650f234735d1c9d1dc33f55544aa263a60 3197 bind9_9.20.15-1~deb13u1.dsc d62b38fae48ba83fca6181112d0c71018d8b0f2ce285dc79dc6a0367722ccabb 5765964 bind9_9.20.15.orig.tar.xz 2e9215f01c68734fd03b207dc1dd62fe32af79d02fe8182002529faaca6c9361 833 bind9_9.20.15.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "a58f0d8a55a433e8f46711b6672128f86919703ff4fb6d1c44c2625550639254bf93f75a9918fbe5cbf68b0ae7cc935edb5eaef70c64780658b4c6e8da254865 61672 bind9_9.18.44-1~deb12u1.debian.tar.xz 300e3f332445f661c3a77125ceb3eb08008f8bf18b4e4123c64bb61ecf15d886cbf926c68f9c9072a7f1cda1a443d0f940b484b42e31440cbaadf5d8d365219c 3325 bind9_9.18.44-1~deb12u1.dsc 767bc313995576c008c00e073568d5d9bebb2e1dcc7e9e3f7ea128e6dca4358d7879de70fa1cb2980ded0b8db362f4d9eb71875dda2d45898e5607dbb4093a9f 5439552 bind9_9.18.44.orig.tar.xz 6fa084c028e5af89f6ca9e5f205d78fb1423b2e9000bd7859e28d42134738c24d7e26c29261e597fe71aaa0e8c09b2f0563ad1d7e415ee8ebf5ec4d00725c678 833 bind9_9.18.44.orig.tar.xz.asc"
+    "78789eefe8b2ab1f8d0fdee1aa848f714f0b116c9cd388c152839ab5dc7e84561fef3a416b16a664ccbe0ae4dc693f3284eca01b0ecf05531c72785dfccc8606 61900 bind9_9.20.15-1~deb13u1.debian.tar.xz 29d92aa8df363eda026665627d0b9672b9fa5b51f6745af1d246aabc3a290bb2e00b6b9243f163c87906085a199012f2d3233c19f1624c25c02f95564096247f 3197 bind9_9.20.15-1~deb13u1.dsc 087d7114279274898fdc846d50216167e0895d83c3fa01372cd5f1b9a106a1ed1b4ca588d86543da8c299577f4a6762713680b8e114514badb43b03d2a0fac82 5765964 bind9_9.20.15.orig.tar.xz a341b77086dc72de55549f3b115d66c8fd2b027380e505c16f5b62f3e1ebbe497528872591bb2a1fbbe8850d34e7f03caa2d98d2e2f3c857935402a8bf160c0d 833 bind9_9.20.15.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/b/bind9"
   ],
   "Files": [
-    "9062700ed5c647d42c46c2e8c48ad0b6 61672 bind9_9.18.44-1~deb12u1.debian.tar.xz deb716f49ca76e9ab46bd0baaec7881e 3325 bind9_9.18.44-1~deb12u1.dsc 200b4722049a19d46b29be697ce20ec6 5439552 bind9_9.18.44.orig.tar.xz f38f06cc6ca3b059fed5b3a705bc5d5c 833 bind9_9.18.44.orig.tar.xz.asc"
+    "54277e1adce642564778cd84b77ca74c 61900 bind9_9.20.15-1~deb13u1.debian.tar.xz 30bce310499febfd32e92f76c6d96536 3197 bind9_9.20.15-1~deb13u1.dsc cb2486bdfed8959e58e36805c0f3e9f7 5765964 bind9_9.20.15.orig.tar.xz 9c93fed4851f94156a17f993eb394590 833 bind9_9.20.15.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "bind9"
   ],
   "Package-List": [
-    "bind9 deb net optional arch=any bind9-dev deb devel optional arch=any bind9-dnsutils deb net standard arch=any bind9-doc deb doc optional arch=all bind9-host deb net standard arch=any bind9-libs deb libs standard arch=any bind9-utils deb net optional arch=any bind9utils deb oldlibs optional arch=all dnsutils deb oldlibs optional arch=all"
+    "bind9 deb net optional arch=any bind9-dev deb devel optional arch=any bind9-dnsutils deb net standard arch=any bind9-doc deb doc optional arch=all bind9-host deb net standard arch=any bind9-libs deb libs standard arch=any bind9-utils deb net optional arch=any"
   ],
   "Standards-Version": [
     "4.6.2"
@@ -54,9 +54,9 @@
     "https://salsa.debian.org/dns-team/bind9"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/dns-team/bind9.git -b debian/9.18"
+    "https://salsa.debian.org/dns-team/bind9.git -b debian/9.20"
   ],
   "Version": [
-    "1:9.18.44-1~deb12u1"
+    "1:9.20.15-1~deb13u1"
   ]
 }

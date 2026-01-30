@@ -6,22 +6,22 @@
     "libpthread-stubs0-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11)"
+    "debhelper-compat (= 13)"
   ],
   "Checksums-Sha1": [
-    "fcbc9b60cf35a72d1a0334ce65e664ecc865ce6d 2346 libpthread-stubs_0.4-1.diff.gz 840ac2e0e1cd67bb0eb06461a88a1e57bd64aad9 1927 libpthread-stubs_0.4-1.dsc 4d5e2636a13d6cb0ae0d92ef9d0232a43fb47ff0 71252 libpthread-stubs_0.4.orig.tar.gz"
+    "b453967e9d83f7adc02ce6021afb8a55ce223071 6719 libpthread-stubs_0.5-1.diff.gz 642b24adabf310e71f205d763b0e5f0434019eb9 2159 libpthread-stubs_0.5-1.dsc b15bbcb6b8354c12e4cc47a8c2e788daa374ee04 74938 libpthread-stubs_0.5.orig.tar.gz fc608d77ccb0df15a169ad8fa8106b16898fd163 801 libpthread-stubs_0.5.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "ec435ba2852ad4b0522010943a5b7d39fc7e088067367879778cf10e57f5cc3f 2346 libpthread-stubs_0.4-1.diff.gz 8923683ac365475d2cc515e5f16f4adc8bd8e37453e1a2a6bedeb9246922829f 1927 libpthread-stubs_0.4-1.dsc 50d5686b79019ccea08bcbd7b02fe5a40634abcfd4146b6e75c6420cc170e9d9 71252 libpthread-stubs_0.4.orig.tar.gz"
+    "fa16e98a5c1adfd59b079e63cd56ba7f9a6e1234fe2a79b30c17eaa0ae0656ef 6719 libpthread-stubs_0.5-1.diff.gz e53eb38acae4f62c2b980a0b3bb88beabb7cc7291c694ab545c152d298234df9 2159 libpthread-stubs_0.5-1.dsc 593196cc746173d1e25cb54a93a87fd749952df68699aab7e02c085530e87747 74938 libpthread-stubs_0.5.orig.tar.gz f666daa994819d2c375e5fc07911fc0926df3af3a33e9315364c9cc5bffeb282 801 libpthread-stubs_0.5.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "bd46c806b16fe18162078eda8778319da4ca672877eea3c255747b5f0d12dc23bc43ba27dd2ae2d2d7edabc83c285855d5efe694db709fa896a598c97e1475c7 2346 libpthread-stubs_0.4-1.diff.gz 890812cdb72381fbae09d2273cf80fe751097ed1595b065d1ed1f789a7115ccb559fa96d729785226dfefcab84be0826478541f483f81454922adfc1d91d4278 1927 libpthread-stubs_0.4-1.dsc 5293c847f5d0c47a6956dd85b6630866f717e51e1e9c48fa10f70aa1e8268adc778eaf92504989c5df58c0dcde656f036248993b0ea5f79d4303012bfeff3c72 71252 libpthread-stubs_0.4.orig.tar.gz"
+    "58acf43a13cc42bfaadbfc9fdf39cd48cb830a868f3971cb749384b023f3de3870c8ec925d9f6d00e36e70a13bb3e52d53cc0189d3953d370760a9994bf104a9 6719 libpthread-stubs_0.5-1.diff.gz ceae3975bcc12f16590821ce16a2f4217750157b854633c03436a4ab12f654ef7e022ba403269ac72479dcd198eb4c2f841b2acb8827d0d5f9d5f41bbb3faa41 2159 libpthread-stubs_0.5-1.dsc 3c53acbb58113bf3fc9338057f066854618959541216965ef3e169c059b806e74c6be2d2f97ae5c425e63759c4a74016b90196285055c413ac75b76972f6db6f 74938 libpthread-stubs_0.5.orig.tar.gz bd7d7c78fa2278daa8a671105bff1a8dc1c35af1f9057cfd4f725911dcc8d5c0937f4aa46b61eded65a55d3c0d34beeecd9ccff946fba2c49b281f4574fd1332 801 libpthread-stubs_0.5.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/libp/libpthread-stubs"
   ],
   "Files": [
-    "1f21ae364c09e11092e7d76478892d49 2346 libpthread-stubs_0.4-1.diff.gz a75cbedc7aa176bb183942db1064842d 1927 libpthread-stubs_0.4-1.dsc 7d2734e604a3e2f6f665c420b835ab62 71252 libpthread-stubs_0.4.orig.tar.gz"
+    "5ed566dc59040583196c320a3832c78f 6719 libpthread-stubs_0.5-1.diff.gz a935f68f308f16648d5052e06323c32f 2159 libpthread-stubs_0.5-1.dsc 4cd6f0623377da4895aa2b7db8a93b08 74938 libpthread-stubs_0.5.orig.tar.gz 7cb752c39c2c6349b1cbd66f634754c2 801 libpthread-stubs_0.5.orig.tar.gz.asc"
   ],
   "Format": [
     "1.0"
@@ -36,10 +36,7 @@
     "libpthread-stubs0-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.3.0"
-  ],
-  "Uploaders": [
-    "Julien Danjou \u003cacid@debian.org\u003e"
+    "4.6.2"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/xorg-team/lib/libpthread-stubs"
@@ -48,6 +45,6 @@
     "https://salsa.debian.org/xorg-team/lib/libpthread-stubs.git"
   ],
   "Version": [
-    "0.4-1"
+    "0.5-1"
   ]
 }

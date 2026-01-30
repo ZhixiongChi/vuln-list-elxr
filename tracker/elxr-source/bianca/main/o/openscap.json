@@ -3,28 +3,28 @@
     "linux-any all"
   ],
   "Binary": [
-    "libopenscap-dev, libopenscap25, python3-openscap, libopenscap-perl, openscap-scanner, openscap-utils, openscap-common, openscap-doc"
+    "libopenscap-dev, libopenscap33, python3-openscap, libopenscap-perl, openscap-scanner, openscap-utils, openscap-common, openscap-doc"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), dh-python, libacl1-dev, libapt-pkg-dev, libattr1-dev, libblkid-dev, libbz2-dev, libcap-dev [linux-any], libcurl4-openssl-dev | libcurl4-gnutls-dev, libdbus-1-dev, libgcrypt-dev, libglib2.0-dev, libldap2-dev, libopendbx1-dev, libpcre3-dev, libperl-dev, libpopt-dev, librpm-dev, libselinux1-dev [linux-any], libxml-parser-perl \u003c!nocheck\u003e, libxml-xpath-perl \u003c!nocheck\u003e, libxml2-dev, libxmlsec1-dev, libxslt1-dev, libyaml-dev, pkg-config, python3-all-dev, swig"
+    "cmake, debhelper-compat (= 13), dh-python, dpkg-dev (\u003e= 1.22.5), libacl1-dev, libattr1-dev, libblkid-dev, libbz2-dev, libcap-dev [linux-any], libcurl4-openssl-dev | libcurl4-gnutls-dev, libdbus-1-dev, libgcrypt-dev, libglib2.0-dev, libldap2-dev, libpcre2-dev, libpopt-dev, libpython3-all-dev, librpm-dev, libselinux1-dev [linux-any], libxml-parser-perl \u003c!nocheck\u003e, libxml-xpath-perl \u003c!nocheck\u003e, libxml2-dev, libxmlsec1-dev, libxslt1-dev, libyaml-dev, perl-xs-dev, pkgconf, python3-all-dev:native, python3-pytest \u003c!nocheck\u003e, swig"
   ],
   "Build-Depends-Indep": [
     "asciidoc, doxygen, graphviz"
   ],
   "Checksums-Sha1": [
-    "7f0009e7cf1977379dc8d7e1f490f78826afe9ee 23736 openscap_1.3.7+dfsg-1+deb12u1.debian.tar.xz 13af898bfed63b79c03cdc0ec6c9a151649e7256 2324 openscap_1.3.7+dfsg-1+deb12u1.dsc 91eae4b6e02af3da632362bcc66c829c113c3d79 5033504 openscap_1.3.7+dfsg.orig.tar.xz"
+    "c17857bf3e7a5d172002f6cd60be244779e2a0fa 23196 openscap_1.4.2+dfsg-1.debian.tar.xz df23c15a386c92a502118ba07ecb785daab872ad 2326 openscap_1.4.2+dfsg-1.dsc 62f0503903b8d45f66d80d5eaa58258fd28f5c64 5375800 openscap_1.4.2+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "512da743d236c8738178db76fc894e8814002d1c268d961a5af2c9941a1af0f3 23736 openscap_1.3.7+dfsg-1+deb12u1.debian.tar.xz 959c72989112c68988a971a30c184c07348bf1c79436e7ba0aa389744bd074be 2324 openscap_1.3.7+dfsg-1+deb12u1.dsc 79bb944f5bf1dbc10159c1fceff222baab65ee5fc19a13d82f3b96833eee398a 5033504 openscap_1.3.7+dfsg.orig.tar.xz"
+    "e097c2a30cbf9a4d308e65368d7df3ab8cceb727149fc773b0511e979dbf0e8e 23196 openscap_1.4.2+dfsg-1.debian.tar.xz 8bcb16cb3e672d4047f77a55c6eb79a237f9ecbae10c7629d77511cd704f9a34 2326 openscap_1.4.2+dfsg-1.dsc 27789ee17b054c93ecd6fe5b9a4a41d8e629d68a494594d9c8ef4f66c6424e93 5375800 openscap_1.4.2+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "e8f7478404bef2d86606ac55a86a4f6ae46962cec7d0dd17305a2e0d46fba05098c7b1f87acbd1158a4e38165b7dc2245f7be23071209c6c31ba9764077bca53 23736 openscap_1.3.7+dfsg-1+deb12u1.debian.tar.xz 9f0ce78949eb9f1c3ce4b171284e5b9adc60af2a9de03980667a84e7c81ee9f813f56345b6a10e513dddd6953f2dab61012cb4592b9c61e287ba9242500956bd 2324 openscap_1.3.7+dfsg-1+deb12u1.dsc 6a82c0ba123bd22956dca9247469265f4af425285131b8908b23904ae911d52ac8d1f3154ee26a7bac9bcf4ca0490bccc799869756026e32712792d412446fb4 5033504 openscap_1.3.7+dfsg.orig.tar.xz"
+    "f11480b5114167feed9abb2ca508feab6accdf4be66e6933469767e92ee8c33d9c68574e8738ec0b4d3578d18b90487dce827497ade938dbabe7f8b224796eaf 23196 openscap_1.4.2+dfsg-1.debian.tar.xz 3f3272f3344a19a38fc8d760997be64f86bb6ef5abaceb3f2017192c219e36203e0eeb7537a262f20a4ebc55af1f65ea2ec3ed95a37874eb4d3b8045ec2c2e4b 2326 openscap_1.4.2+dfsg-1.dsc c279dca5b7183b52a107405cd52fa3901d68684ab8d99e125c2d266ce157c91efc503876bdf41a09ea1c088b50786c2d93e47285c8426bfcd0535e0195561530 5375800 openscap_1.4.2+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/o/openscap"
   ],
   "Files": [
-    "0030f98abca82d95508cc7cccbd0e73e 23736 openscap_1.3.7+dfsg-1+deb12u1.debian.tar.xz 5884ecc75acea1ecb040005baf1d478b 2324 openscap_1.3.7+dfsg-1+deb12u1.dsc 8e2b3d6249da46cea597aa4b40623937 5033504 openscap_1.3.7+dfsg.orig.tar.xz"
+    "db0da9e88a240b815f631c82760fedc9 23196 openscap_1.4.2+dfsg-1.debian.tar.xz 272fcba2136b4cf6a7db63c587d88255 2326 openscap_1.4.2+dfsg-1.dsc 7ecf397019976caaa49cbae8aa135ef5 5375800 openscap_1.4.2+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "openscap"
   ],
   "Package-List": [
-    "libopenscap-dev deb libdevel optional arch=linux-any libopenscap-perl deb perl optional arch=linux-any libopenscap25 deb libs optional arch=linux-any openscap-common deb admin optional arch=all openscap-doc deb doc optional arch=all openscap-scanner deb admin optional arch=linux-any openscap-utils deb admin optional arch=linux-any python3-openscap deb python optional arch=linux-any"
+    "libopenscap-dev deb libdevel optional arch=linux-any libopenscap-perl deb perl optional arch=linux-any libopenscap33 deb libs optional arch=linux-any openscap-common deb admin optional arch=all openscap-doc deb doc optional arch=all openscap-scanner deb admin optional arch=linux-any openscap-utils deb admin optional arch=all python3-openscap deb python optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/openscap"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/openscap.git"
   ],
   "Version": [
-    "1.3.7+dfsg-1+deb12u1"
+    "1.4.2+dfsg-1"
   ]
 }

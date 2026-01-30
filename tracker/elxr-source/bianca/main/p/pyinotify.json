@@ -6,22 +6,25 @@
     "python3-pyinotify, python-pyinotify-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), python3-all, dh-python"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "b9199414288d7d9e5d7a87ad38459296e9dd8162 5512 pyinotify_0.9.6-2.debian.tar.xz 83714f9d8a29b0ae3665f6474bde72f4498c3993 2037 pyinotify_0.9.6-2.dsc 815c5e5699669d44042efb12122b60e97cae7bf4 61159 pyinotify_0.9.6.orig.tar.gz"
+    "29658355020ffe0a91dc2ae9ddd1015c8918870f 5784 pyinotify_0.9.6-5.debian.tar.xz adea8548ccf3e8f16e7b624fef78ab618d957cee 2243 pyinotify_0.9.6-5.dsc 815c5e5699669d44042efb12122b60e97cae7bf4 61159 pyinotify_0.9.6.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "449dc368e7258cb86b580451e9ad416d2b5dc1f3dfd26fc2ce6baf421ab896e7 5512 pyinotify_0.9.6-2.debian.tar.xz bf0fe3e5f374a394ea9ba8fa29cd632cf20cbd13b183a62dfb384ab2bc224e51 2037 pyinotify_0.9.6-2.dsc 7943f198c5cef2bdc121d847937fbe565daaa7d4daaf1b8de8ef5689812f481c 61159 pyinotify_0.9.6.orig.tar.gz"
+    "c81225379cf94d65c82c3a6e88d22f05c3b508d18bbf7c28fc8e3999aa53ba07 5784 pyinotify_0.9.6-5.debian.tar.xz f635be0a6fd659df0bb7800c730329ee04d466807407789a6cced02f4b9efc67 2243 pyinotify_0.9.6-5.dsc 7943f198c5cef2bdc121d847937fbe565daaa7d4daaf1b8de8ef5689812f481c 61159 pyinotify_0.9.6.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f6c89e7ddbde8eb3a3e1ba313319af59470c4ab52cb5c7b1505978260481c07f83fd9496ac49cb3f57d815ab4ba05bd1e6c29415d9f3d27a9130cde9e952e727 5512 pyinotify_0.9.6-2.debian.tar.xz caa0c4cf983f78ea47f19a69d15616703f55af4bf71da3e947ef823ec7ed0da527ab0fdc2c8597144e028f88ed5cd1cd47f10eb0b6d33638f7df8e97b8a1085e 2037 pyinotify_0.9.6-2.dsc 144db691c1cdfd4e52b838b8ed839b8d50d84d26a91a59b7460c3170f58a1c96b3ce4f51e6273835835291781215a87b8f2d2d87d1abf012e4c14b2cd4b3f4cf 61159 pyinotify_0.9.6.orig.tar.gz"
+    "3f2e56bbdbad340a9ddd65b22779e34c405d9437b2a0f670766b0d1f5df72acab92bc4f16c00216da15ac34faf0d204caa704deee1073502cfb6ed01fc466b73 5784 pyinotify_0.9.6-5.debian.tar.xz 88b3d447e42044abc046fe46d2ca169193a97881264b09a85736339678f044867e4829048fa83c01540180ccefe95425ab886f6abbbd2d171ee01e2062ae8358 2243 pyinotify_0.9.6-5.dsc 144db691c1cdfd4e52b838b8ed839b8d50d84d26a91a59b7460c3170f58a1c96b3ce4f51e6273835835291781215a87b8f2d2d87d1abf012e4c14b2cd4b3f4cf 61159 pyinotify_0.9.6.orig.tar.gz"
+  ],
+  "Dgit": [
+    "e15b10cf6f1de8d52cd720f666887ca5ee90061d debian archive/debian/0.9.6-5 https://git.dgit.debian.org/pyinotify"
   ],
   "Directory": [
     "pool/main/p/pyinotify"
   ],
   "Files": [
-    "458ee522e34e97cbab20591511f2ed49 5512 pyinotify_0.9.6-2.debian.tar.xz abd037777b1b65dccfa91d90d9a9e146 2037 pyinotify_0.9.6-2.dsc 33f4e599c22a3ac31b684335b4a535a0 61159 pyinotify_0.9.6.orig.tar.gz"
+    "93cfa826e42c15f565fb092003617bde 5784 pyinotify_0.9.6-5.debian.tar.xz c161a40aa2cdc562fd0ea86aa862d54e 2243 pyinotify_0.9.6-5.dsc 33f4e599c22a3ac31b684335b4a535a0 61159 pyinotify_0.9.6.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +33,7 @@
     "https://github.com/seb-m/pyinotify"
   ],
   "Maintainer": [
-    "Mikhail Gusarov \u003cdottedmag@debian.org\u003e"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
   ],
   "Package": [
     "pyinotify"
@@ -41,8 +44,11 @@
   "Standards-Version": [
     "3.9.3"
   ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
+  ],
   "Uploaders": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+    "Mikhail Gusarov \u003cdottedmag@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/pyinotify"
@@ -51,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/pyinotify.git"
   ],
   "Version": [
-    "0.9.6-2"
+    "0.9.6-5"
   ]
 }

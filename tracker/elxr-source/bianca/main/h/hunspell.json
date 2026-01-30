@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "any"
+    "any all"
   ],
   "Binary": [
-    "libhunspell-dev, libhunspell-1.7-0, hunspell, hunspell-tools"
+    "libhunspell-dev, libhunspell-private-dev, libhunspell-1.7-0, hunspell, hunspell-tools"
   ],
   "Build-Depends": [
     "debhelper-compat (= 13), gettext, libncurses5-dev, libncursesw5-dev, libreadline-dev"
   ],
   "Checksums-Sha1": [
-    "208a50c55d1fd1dbbc9f31ebc0148363ef568ede 23112 hunspell_1.7.1-1.debian.tar.xz 1d2cee85fcc5cabd7bef7fd669fe7323e8a3d321 2260 hunspell_1.7.1-1.dsc 43faa2a6eb5f1f809dfe0600ac842f546aa47ff9 1074306 hunspell_1.7.1.orig.tar.gz"
+    "2d17a7cadf23cfb50f4fe0338c687ba83624b0e5 24940 hunspell_1.7.2+really1.7.2-10.debian.tar.xz be0e2019e86086fa71381d407eb71c31ebbef60e 2433 hunspell_1.7.2+really1.7.2-10.dsc ad05655ccdb21637237cddd1603c9ee400b1fd8c 1536202 hunspell_1.7.2+really1.7.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "516284ea4bcae4773b64a947a7266f546d0589096f4e7567ab65a33b7af5eb91 23112 hunspell_1.7.1-1.debian.tar.xz 183e319fbf5a23707768d1c68a304ba70b6a8a5581d0521da63e7c81e6da80ac 2260 hunspell_1.7.1-1.dsc b2d9c5369c2cc7f321cb5983fda2dbf007dce3d9e17519746840a6f0c4bf7444 1074306 hunspell_1.7.1.orig.tar.gz"
+    "d1d4761a9d5a39a5cf8de65103cd94265578d27b72410b75591767d73c384fe0 24940 hunspell_1.7.2+really1.7.2-10.debian.tar.xz 790e83b70e06f1daf5e7d9a6635987a7c771b09f7e7a79bb170056a896f6b614 2433 hunspell_1.7.2+really1.7.2-10.dsc 11ddfa39afe28c28539fe65fc4f1592d410c1e9b6dd7d8a91ca25d85e9ec65b8 1536202 hunspell_1.7.2+really1.7.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "d23cdbed389165bee3aa7647ef1032d02873d5c325fd63c54d3cea322488959b0be9eaebc91230faa932dcce9a3325c2a33d313470cb6d2cf0fc955abecc0038 23112 hunspell_1.7.1-1.debian.tar.xz 8c57d64a551ed399126f0f46e9208f62412cbe7c067299ac402895e2a587e6d007748bb7b61b029e440a3719e81767ac2bbc9ce881c63ae550586ec7a052cdd6 2260 hunspell_1.7.1-1.dsc e177fadd39e89abf47c6cec7d12d1976d21af5c924fb62402433af202c07db50156cd9f60ceae44952b05740e76a98548afb7ac12b666a9fa170ef52e6f8e808 1074306 hunspell_1.7.1.orig.tar.gz"
+    "33e369f9115dffb601b9ae017e58d0aa76d83447ad5f5a85ecd28aa2c6390583c31feb31a08bfd4f7deefabc6681c3f301905597495c62b02352433c3cc85f4d 24940 hunspell_1.7.2+really1.7.2-10.debian.tar.xz 13281c6b720f9ba575ece21c5d862826361d42593cb66cb101f89a15e6288a2cd7091a2b7f53e1afd0b7d99e636b2f021a798ef77deba5f07f4b63951572aa94 2433 hunspell_1.7.2+really1.7.2-10.dsc 49b3619bff12e111b6cc3f3d9463612b116f9b2a976896718e65f5bc4a83ece11100aaf56a4d18127ea39107446c495e12affe5ff3c9159ae8aba70e512f44ac 1536202 hunspell_1.7.2+really1.7.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/h/hunspell"
   ],
   "Files": [
-    "e84b2d538efbe73a8c6a489935995369 23112 hunspell_1.7.1-1.debian.tar.xz 64e3453e029d9168bfd048ad04fa9c39 2260 hunspell_1.7.1-1.dsc 0ba8a8ce20c6336a7b76af16d8cfd243 1074306 hunspell_1.7.1.orig.tar.gz"
+    "d54ddb03206516f3f5de62155178be1c 24940 hunspell_1.7.2+really1.7.2-10.debian.tar.xz f3372146d0661736efe56d4155928e40 2433 hunspell_1.7.2+really1.7.2-10.dsc a68c45e3a3e8de6816d6801e4fff6e9a 1536202 hunspell_1.7.2+really1.7.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "hunspell"
   ],
   "Package-List": [
-    "hunspell deb text optional arch=any hunspell-tools deb text optional arch=any libhunspell-1.7-0 deb libs optional arch=any libhunspell-dev deb libdevel optional arch=any"
+    "hunspell deb text optional arch=any hunspell-tools deb text optional arch=any libhunspell-1.7-0 deb libs optional arch=any libhunspell-dev deb libdevel optional arch=any libhunspell-private-dev deb libdevel optional arch=all"
   ],
   "Standards-Version": [
     "4.6.0"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/libreoffice-team/hunspell.git"
   ],
   "Version": [
-    "1.7.1-1"
+    "1.7.2+really1.7.2-10"
   ]
 }

@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "any all"
+    "any"
   ],
   "Binary": [
-    "libhdf4-0, libhdf4-dev, libhdf4-0-alt, libhdf4-alt-dev, libhdf4-doc, hdf4-tools"
+    "libhdf4-0, libhdf4-dev, libhdf4-0-alt, libhdf4-alt-dev, hdf4-tools"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), bison, chrpath, flex, gfortran, libaec-dev, libjpeg-dev, sharutils, zlib1g-dev"
+    "bison, chrpath, debhelper-compat (= 13), flex, gfortran, libaec-dev, libjpeg-dev, libtirpc-dev, sharutils, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "994f4151d5c11c3a3a255ac91fdfebb6b7550fcc 73572 libhdf4_4.2.15-5.debian.tar.xz ecddae11f92c5afbbbf0b905e7b751102b6233e2 2323 libhdf4_4.2.15-5.dsc f2bf696ace0a338d2a6239fe599ca6d5e031d27c 3647693 libhdf4_4.2.15.orig.tar.bz2"
+    "e227a978dcf376fa9d4774959fcaa8eccca9e826 43688 libhdf4_4.3.0-1.debian.tar.xz ba2fcdf78e7c6c18bdfb82d0c6dca9a6578793da 2271 libhdf4_4.3.0-1.dsc 5932882b60ddfa95860b9af57e7c2e69624d4f98 9045018 libhdf4_4.3.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "051fdd30a46c89e69b24469f38598b85ed3d35badf0b925171e5879d1e1906da 73572 libhdf4_4.2.15-5.debian.tar.xz 7805867cc1e7a6278f451c2ca824666c14a554ac0f8291d8e4af24f392b45b73 2323 libhdf4_4.2.15-5.dsc 7c9923e6d7086c16b489a3727cb6c51f156a93f9600b5658e7d2af9dfa38f7a3 3647693 libhdf4_4.2.15.orig.tar.bz2"
+    "5a82d3b554f93ba8d2677b1a1dafd8f803b2664fb06ca560ea1389f785eeb4da 43688 libhdf4_4.3.0-1.debian.tar.xz c1f583667f47796afc1247672bafe0ec550927306c513f6062b42237500051ca 2271 libhdf4_4.3.0-1.dsc a6639a556650e6ea8632a17b8188a69de844bdff54ce121a1fd5b92c8dd06cb1 9045018 libhdf4_4.3.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c57d338e320a93ba5281c5a24c0ef17fdb24cfd3f82299de3b17c44498812accf593b500c85d1c3bb8ddd5853602151dd8db91fe01b7164c210c40b868076859 73572 libhdf4_4.2.15-5.debian.tar.xz cde9a28c694c30bf1d42ea6a0269ac5f7dfe69b0fd01818f357ec1412c8fdeafc2d6980b91a20151d524bfdf57e35ad505a0c196712dd36eb4d9ff822bef00df 2323 libhdf4_4.2.15-5.dsc e2a42496d1e59d62cd35d21205591e4fc2ebcba660ed64ce6720d52499d3464655e3aa66cca96e2d5ccfccb67dd8c0bc763c8dcbfdc96f7b0d04623eb3ea1f06 3647693 libhdf4_4.2.15.orig.tar.bz2"
+    "7cb23e47db1eaa387c2d60cfbefb1e60a6c98e35fd05f7dfc601007593d3430a892ffe89799cd7e81e036cc3a46c5f38e56be28fc385375e3d7d1216849be9ac 43688 libhdf4_4.3.0-1.debian.tar.xz 8e6d13a00bdd8246d2583cd1507efbde1335229cef97e09a5ab884e9f370ffab83530ed73e1426d3b151167fa8569320a22d82ab8ab7158e19a3d034f206b45f 2271 libhdf4_4.3.0-1.dsc dd1c433a393d893744c29479c756331e677d4201bb0e89f64b846d6c5d9a4fcee64e99b4ed46a97741b55cf0917002f00d8fa2582db5570aa0d6eb202242a558 9045018 libhdf4_4.3.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libh/libhdf4"
   ],
   "Files": [
-    "9047a052f3257f2e894e5dbb8ecee540 73572 libhdf4_4.2.15-5.debian.tar.xz ac77cf7f47ab1234c74c9b8fe0cd2fc9 2323 libhdf4_4.2.15-5.dsc 2f9d96f7d0c0c457bdf2f620e20d912a 3647693 libhdf4_4.2.15.orig.tar.bz2"
+    "00e456a16e9da972abadd48f0382a2ad 43688 libhdf4_4.3.0-1.debian.tar.xz 090febfd7242941a54a3da5a12bacf1d 2271 libhdf4_4.3.0-1.dsc 9789b5ad3341ce5f25fac1de231e2608 9045018 libhdf4_4.3.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "libhdf4"
   ],
   "Package-List": [
-    "hdf4-tools deb graphics optional arch=any libhdf4-0 deb libs optional arch=any libhdf4-0-alt deb libs optional arch=any libhdf4-alt-dev deb libdevel optional arch=any libhdf4-dev deb libdevel optional arch=any libhdf4-doc deb doc optional arch=all"
+    "hdf4-tools deb graphics optional arch=any libhdf4-0 deb libs optional arch=any libhdf4-0-alt deb libs optional arch=any libhdf4-alt-dev deb libdevel optional arch=any libhdf4-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Uploaders": [
     "Francesco Paolo Lovergine \u003cfrankie@debian.org\u003e, Johan Van de Wauw \u003cjohan@gisky.be\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian-gis-team/hdf4.git"
   ],
   "Version": [
-    "4.2.15-5"
+    "4.3.0-1"
   ]
 }

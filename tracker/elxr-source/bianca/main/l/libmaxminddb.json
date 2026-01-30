@@ -6,22 +6,22 @@
     "libmaxminddb0, libmaxminddb-dev, mmdb-bin"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), perl \u003c!nodoc !nocheck\u003e, libipc-run3-perl \u003c!nocheck\u003e, libtest-output-perl \u003c!nocheck\u003e, lowdown \u003c!nodoc\u003e | pandoc \u003c!nodoc\u003e, libipc-system-simple-perl \u003c!nodoc\u003e, libfile-slurp-perl \u003c!nodoc\u003e, libfile-which-perl \u003c!nodoc\u003e"
+    "debhelper-compat (= 13), perl \u003c!nodoc !nocheck\u003e, libipc-run3-perl \u003c!nocheck\u003e, libtest-output-perl \u003c!nocheck\u003e, lowdown \u003c!nodoc\u003e | pandoc \u003c!nodoc\u003e, libfile-slurp-perl \u003c!nodoc\u003e, libfile-which-perl \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "5ad073ee8ebb2a3acf520e9c090517d9a03005c6 12424 libmaxminddb_1.7.1-1.debian.tar.xz 1d3e89077d2b2c358d4cc42019572756c6e22442 2322 libmaxminddb_1.7.1-1.dsc bb82217f2a4989ff59eccf326cf81489d2c1861b 252253 libmaxminddb_1.7.1.orig.tar.gz"
+    "4984d5309b1d0948c94795e74834a1bf722ee2f6 6912 libmaxminddb_1.12.2-1.debian.tar.xz ef990462615d0c186621b23adcd83d0f4a7727c2 2235 libmaxminddb_1.12.2-1.dsc bd4453061f38aa265f96f7e99b5c78d5d3033747 369848 libmaxminddb_1.12.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "1f0d476717e84095da59f9b1f9b693fdecead8ea4b564dc4c85a9bf321c01247 12424 libmaxminddb_1.7.1-1.debian.tar.xz 2b644c068739179907df3be7728d39f823aacc1f3d295788b8439a09fe222556 2322 libmaxminddb_1.7.1-1.dsc fae04c5b681e7fcadb8443635a7ca01f6ebf921fbb2bd7babda0fdc6dac7c711 252253 libmaxminddb_1.7.1.orig.tar.gz"
+    "39e24b93cdebcb869fc0b45020ff86b0a318ac463fcbcb33f0ea3f12d7bb091a 6912 libmaxminddb_1.12.2-1.debian.tar.xz eff18dd8d9b1f191c206faa166acae9224453dc9a18e03f65b24f65b0d456f69 2235 libmaxminddb_1.12.2-1.dsc c0b20260a54cf4cebd3b879ac8e487cf2eac218fe6a5f64f1e2c3032b564fdd8 369848 libmaxminddb_1.12.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "27fd372bbea0dd43228a7b451c6f406f3a07c17561ccf013bc3cf5501a6375e1387d240cf9eb35afbabeadca9c71ae392642510974e7ba966a72463f7dc6dfe8 12424 libmaxminddb_1.7.1-1.debian.tar.xz 516e90d23233984d6d9d2d9f13582e9066b560d75c44027a5cf1b3b38b5b2cf5c66f08c097fe6cd6c355d3bb02cbb6fa442a059a1d12ea429f809fb93d954cdc 2322 libmaxminddb_1.7.1-1.dsc df79464ef449dc3a10cb93b6ef73ac40e673a5dec49bdb4c877c8cb46fdbd56fa1594be78869afe9b4db6b65497918febe45e8842874ec42fbe2a6194b46ddd2 252253 libmaxminddb_1.7.1.orig.tar.gz"
+    "9e740ecc2d70574398b563e454ee5016a1663025bf972523e781165c152bf5c670d2eab3012a77ee5f3013ea8f48f0a0e07bbb7a198e301f14ce8f74649970b3 6912 libmaxminddb_1.12.2-1.debian.tar.xz 889a0fb420729162a0aa97ce4004c1816ec786407f3bbb065b94622344987bfe1a0e81ecf95a5f3949d5b6bd3b52955f3aa59aa1eb09e4559a655c52ed72210a 2235 libmaxminddb_1.12.2-1.dsc 88cbccecba2025128babcfb0102f7688982194601974bd3ceaa45ec1bd535e5b6a50c2ce2f214ba5774959987cc64e7f686f76e11672555c690b57a51b1575fa 369848 libmaxminddb_1.12.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libm/libmaxminddb"
   ],
   "Files": [
-    "bad1c563e530e398925a2eb01eac692d 12424 libmaxminddb_1.7.1-1.debian.tar.xz 67493f2dbd3135c89819e6f9cb7dce6f 2322 libmaxminddb_1.7.1-1.dsc d5f232b6d6108e405f29b3de9a743dd2 252253 libmaxminddb_1.7.1.orig.tar.gz"
+    "3f11905da191d586a41f2fae0a71f503 6912 libmaxminddb_1.12.2-1.debian.tar.xz 6665da9a45041c32c4127d9aa73b9ad1 2235 libmaxminddb_1.12.2-1.dsc 548f88ec3c42e7d72ca410ee0b66815e 369848 libmaxminddb_1.12.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,16 +39,13 @@
     "libmaxminddb-dev deb libdevel optional arch=any libmaxminddb0 deb libs optional arch=any mmdb-bin deb net optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
     "build-essential"
-  ],
-  "Uploaders": [
-    "Sergio Durigan Junior \u003csergiodj@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/libmaxminddb"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/debian/libmaxminddb.git"
   ],
   "Version": [
-    "1.7.1-1"
+    "1.12.2-1"
   ]
 }

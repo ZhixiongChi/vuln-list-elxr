@@ -6,22 +6,22 @@
     "flake8, python3-flake8"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, pycodestyle, python3-all, python3-entrypoints, python3-mccabe, python3-mock, python3-pycodestyle (\u003e= 2.9.0), python3-pyflakes (\u003e= 2.5.0), python3-pytest, python3-pytest-runner, python3-setuptools"
+    "debhelper-compat (= 13), dh-sequence-python3, pycodestyle, python3-all, python3-mccabe (\u003c\u003c 0.8), python3-mccabe (\u003e= 0.7), python3-pycodestyle (\u003c\u003c 2.13), python3-pycodestyle (\u003e= 2.12), python3-pyflakes (\u003c\u003c 3.3), python3-pyflakes (\u003e= 3.2), python3-pytest, python3-pytest-runner, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "535ed64a11049d0a96e5751e15e0855e45d39e8a 9216 python-flake8_5.0.4-4.debian.tar.xz b59c168238b6ce0a6521d91ee4314bb96d4c579c 2343 python-flake8_5.0.4-4.dsc 74aee2840286c531b1fd3b9b732a897bef335a3a 145862 python-flake8_5.0.4.orig.tar.gz"
+    "0da1c23449004ab8c702ff36f3e3a41abde1eb99 8824 python-flake8_7.1.1-3.debian.tar.xz 168c1a9430a62dd6c934819c503e19de07c3fc58 2399 python-flake8_7.1.1-3.dsc 2383ba4f61685b2fae69f39f7dc2f926a736bf7f 138897 python-flake8_7.1.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "5b0d0cc52521f904b6f7abc7b0f594fb809ad4600dd1f5fd5e96b30511a2eb3c 9216 python-flake8_5.0.4-4.debian.tar.xz e5bd96e0abb5636edb9d0aa4f6e4c5e855d73f425372523f707cf0632cbdabae 2343 python-flake8_5.0.4-4.dsc 6fbe320aad8d6b95cec8b8e47bc933004678dc63095be98528b7bdd2a9f510db 145862 python-flake8_5.0.4.orig.tar.gz"
+    "495f65d11f61d19aa678d16d2ee4d6ed834def1414751f6563db3f71afcafae3 8824 python-flake8_7.1.1-3.debian.tar.xz c9bc748e6716beafae3f17b43cfca2c38aedad131442589c9f568ecedad6c505 2399 python-flake8_7.1.1-3.dsc 97fb097cade66db0c5dc98a086862ce9b6ae93cf62c6bcdfedac0e195cee5dbe 138897 python-flake8_7.1.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c6d073ab4fe77a43e55c5105b6ea4fcefcdae458d421709c647ea5774254567edd3e6459321ce24a913ff2ac919c1c2f33df3825826b8888ede324e1962fbb8b 9216 python-flake8_5.0.4-4.debian.tar.xz e25074b957183e67cbba17004b0798ba6d4e3d8bbd1c3ac41c50f840121670ae4847cb12f3a9c622ab292b5784ee0d4600284e6447fb30f95d6ca8099f76d23c 2343 python-flake8_5.0.4-4.dsc 522ae2e15d963740712eba03ac1a844d5da23fd55dfef81423d7c0447f638b4d3e0e5683b5d7153fae14f6776a4e1e480b2f4d476403dd96064e6daa3e222731 145862 python-flake8_5.0.4.orig.tar.gz"
+    "a4ed2e22164de6862bdbbfb53dd8a45cce9eca5b7afb04eb11bdbee9a42eff936020b08e41dde3113f1b14198167bde581f1efe11721d285cf540ee7aad0969f 8824 python-flake8_7.1.1-3.debian.tar.xz b408e8b09a26fd10864477509cc5ac73f04b0a65befb38782744c561871a342a89267a346fe2e4b4bda271fb1de3822a5c1f867ad31d3a185b5e7d5bd87ea4eb 2399 python-flake8_7.1.1-3.dsc ca1f8120ffdad6ccc9a41bd66e9f257cd9910fe21c54191b579860f1041e555f84348b45dd40d385bbe949a30b5b736f914563fc63d8bf9da4541d3998ee022c 138897 python-flake8_7.1.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-flake8"
   ],
   "Files": [
-    "4cf194bcf499291f70cbcebebdf25eef 9216 python-flake8_5.0.4-4.debian.tar.xz d8a897ea6ee708a5359a30e3d6aa1ca3 2343 python-flake8_5.0.4-4.dsc db499d255c87bd91cd89f293c6e47685 145862 python-flake8_5.0.4.orig.tar.gz"
+    "ecb30d8c47aff940f079b0c142e0f2c7 8824 python-flake8_7.1.1-3.debian.tar.xz 75baa848ccfb69ab6f73c9e64960e042 2399 python-flake8_7.1.1-3.dsc d210bc771f42c4526e5d3e2881ff7753 138897 python-flake8_7.1.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,16 +39,16 @@
     "flake8 deb python optional arch=all python3-flake8 deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
-    "autopkgtest, autopkgtest-pkg-python"
+    "autopkgtest, autopkgtest-pkg-pybuild"
   ],
   "Testsuite-Triggers": [
     "python3-all"
   ],
   "Uploaders": [
-    "Chris Johnston \u003cchrisjohnston@ubuntu.com\u003e, Ondřej Nový \u003conovy@debian.org\u003e,"
+    "Chris Johnston \u003cchrisjohnston@ubuntu.com\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-flake8"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-flake8.git"
   ],
   "Version": [
-    "5.0.4-4"
+    "7.1.1-3"
   ]
 }

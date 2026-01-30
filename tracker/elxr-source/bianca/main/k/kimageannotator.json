@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libkimageannotator-dev, libkimageannotator0, libkimageannotator-common"
+    "libkimageannotator-qt5-dev, libkimageannotator-common, libkimageannotator-qt5-0, libkimageannotator-qt6-0, libkimageannotator-qt6-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake, qtbase5-dev, libkcolorpicker-dev (\u003e= 0.2.0~), qttools5-dev-tools, qttools5-dev, libqt5svg5-dev"
+    "cmake, debhelper-compat (= 13), libkcolorpicker-qt5-dev (\u003e= 0.3.1~), libkcolorpicker-qt6-dev (\u003e= 0.3.1~), libqt5svg5-dev, qt6-base-dev, qt6-svg-dev, qt6-tools-dev, qtbase5-dev, qttools5-dev, qttools5-dev-tools"
   ],
   "Checksums-Sha1": [
-    "04b90454ffc205fa840b4780c2c20aa34f416020 2928 kimageannotator_0.6.0-1.debian.tar.xz 53f8a9d081417f998307c0b009ecbbf06be9e1a5 2176 kimageannotator_0.6.0-1.dsc 990a175275ff3acde96da55b652e0eb4b663ce10 257662 kimageannotator_0.6.0.orig.tar.gz"
+    "033ded29743d3f692f67c0033c0ca9d935a84004 3656 kimageannotator_0.7.1-1.debian.tar.xz b742f2c30f0287f9c61a9b92443cff854e208ffd 2520 kimageannotator_0.7.1-1.dsc ee873874cc7d214f69f8df988a7b1649221609a7 266861 kimageannotator_0.7.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "d217e2527ac321a70907fbfee51cca906e36183dcbfc25a178bb2df3b4640a06 2928 kimageannotator_0.6.0-1.debian.tar.xz 3c0afa6933ebfa13a8fa73215976b600a7d7b713a284414efb52f0db01b04a34 2176 kimageannotator_0.6.0-1.dsc 148ef703ed5535a0c23d11629b588d9cb163598798261aa760d5b351756646a7 257662 kimageannotator_0.6.0.orig.tar.gz"
+    "aba38c5e795155837eeb02b2d3471d458b78f9f4663ea33a758cf3e6a5b3af9f 3656 kimageannotator_0.7.1-1.debian.tar.xz 2e582d0407e0e51a6869312adee40faed4cdc4f740804c680fe39bb3443e0b2d 2520 kimageannotator_0.7.1-1.dsc 2335c5be15a5dde34c3333c10a6339da114e2232e4c4642dea1793e491e09677 266861 kimageannotator_0.7.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "1b0c6db1a125da0ff64c6422b4c2fac9eb29f987b7db51c37b26fa06f3fdb129d89006b9701e098b263147bbd5775124bb68ab3e4645e2f5db7d349174a02ece 2928 kimageannotator_0.6.0-1.debian.tar.xz 3e6242135d0f7604f690d55046b0e2c38c6f396cdc504b79d4dbe0d20a393d40cd1b35971b3f46b35153097e7bf3a41432c8bc8fc6fd6d6469b071a8959eed11 2176 kimageannotator_0.6.0-1.dsc 5782acd552af2297813164c0612810ec0d2127c174773040d99ec9d281f3575832b06667736a5521e88fa2d57ea6410e42a5d95232cb2dbdd9608917e5d6e896 257662 kimageannotator_0.6.0.orig.tar.gz"
+    "4831935c539e1b7558de8b6adb61afdb0163c5abef8dd192704306001e34815e1a23714423c99e740c3fc3910c9002f4541cacfc3e430a201347b5b9a9302ce5 3656 kimageannotator_0.7.1-1.debian.tar.xz eb85e03229e343c28a39363845f789a1829678b24422ebba7e1259527d0fad596102eb91dd6733c65f0a82d18bc63953e578c312509b8d9464331c41b7d4ae90 2520 kimageannotator_0.7.1-1.dsc cb5e7e87f1b7c72108a8ace7fb60ef644e2de19e78b3e61e50e6d534b235710e5e62464f8d136ee46b7f96cb3235601eb80b09b41d972d8df9ef6fe09cb34c95 266861 kimageannotator_0.7.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/k/kimageannotator"
   ],
   "Files": [
-    "1878db0193b5f3ab7d333bcaefe54fb8 2928 kimageannotator_0.6.0-1.debian.tar.xz 99865047122c79b7eeaf2ba4352e690a 2176 kimageannotator_0.6.0-1.dsc 129cf1fa60991091da91ef18cc587b65 257662 kimageannotator_0.6.0.orig.tar.gz"
+    "057ba937d75a0a86a100c4d1294bc57a 3656 kimageannotator_0.7.1-1.debian.tar.xz 51fc41bcd1828991b81c27e577fb5669 2520 kimageannotator_0.7.1-1.dsc 68990dfe7fe03f1aff5e0e5338b9f3bb 266861 kimageannotator_0.7.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,16 +30,19 @@
     "https://github.com/ksnip/kImageAnnotator"
   ],
   "Maintainer": [
-    "Boyuan Yang \u003cbyang@debian.org\u003e"
+    "Debian KDE Extras Team \u003cpkg-kde-extras@lists.alioth.debian.org\u003e"
   ],
   "Package": [
     "kimageannotator"
   ],
   "Package-List": [
-    "libkimageannotator-common deb libs optional arch=all libkimageannotator-dev deb libdevel optional arch=any libkimageannotator0 deb libs optional arch=any"
+    "libkimageannotator-common deb libs optional arch=all libkimageannotator-qt5-0 deb libs optional arch=any libkimageannotator-qt5-dev deb libdevel optional arch=any libkimageannotator-qt6-0 deb libs optional arch=any libkimageannotator-qt6-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
+  ],
+  "Uploaders": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/kimageannotator"
@@ -48,6 +51,6 @@
     "https://salsa.debian.org/debian/kimageannotator.git"
   ],
   "Version": [
-    "0.6.0-1"
+    "0.7.1-1"
   ]
 }

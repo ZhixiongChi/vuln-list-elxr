@@ -6,22 +6,22 @@
     "librust-paste-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.31) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "abbdd273be34b0cfe5ee239f22f9fed212968b79 2688 rust-paste_1.0.7-1.debian.tar.xz bba2a581414a0aa411df2e2d2a8d1ef07bc5f686 2231 rust-paste_1.0.7-1.dsc f8892a508e530481d08d1e54452084364576b37e 18285 rust-paste_1.0.7.orig.tar.gz"
+    "fe74129391bc918dbaf5c98dbb00e947c5231fc5 3108 rust-paste_1.0.15-1.debian.tar.xz 899de57d06e4ce9fa80fca2e487ae6334a0e80cf 2237 rust-paste_1.0.15-1.dsc 9daa82dceaa495951cc92ad83879d99cc04969af 18374 rust-paste_1.0.15.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "9907453b05287bc3c451c28e07d9b82a99e565ceb004711a5d3d68686ad1ce7e 2688 rust-paste_1.0.7-1.debian.tar.xz b6e7e45238e0611952a90a8050e114dbff4214a0c5aa5b9f269577f6d0fcc510 2231 rust-paste_1.0.7-1.dsc 0c520e05135d6e763148b6426a837e239041653ba7becd2e538c076c738025fc 18285 rust-paste_1.0.7.orig.tar.gz"
+    "0cca20920f21cfe47c96420d28e42bfda8a94194a5f11548123f173ad1837afc 3108 rust-paste_1.0.15-1.debian.tar.xz 27bb8e1c08cb76eb3857af898dbce28abbf86e12c35c483126ebd47987613a05 2237 rust-paste_1.0.15-1.dsc 57c0d7b74b563b49d38dae00a0c37d4d6de9b432382b2892f0574ddcae73fd0a 18374 rust-paste_1.0.15.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "2e85e4ec6986c64daac43eb2047283a964bf7428e71030887dd046c3c4a38a3f647074a64dfe868bb5e2ba372c25ab365963684c63b2eb66010d78e38531ab6b 2688 rust-paste_1.0.7-1.debian.tar.xz 69b9159637c5c89013303a6318ab907058e77ffacad92ef7b6a310ff9f1eec0710d2975e105d078877c01edbbbcb3d91a614f61f793559ae1a530d07a30e2f61 2231 rust-paste_1.0.7-1.dsc 6f203485cd916f68c4acac6fe6193e2ed8c5a36a6f58865fecbbc4e112e14c6e849cf61cfdbe22fd5b6311d60f1831d726da519a51a1a936552c3b39f01c90f0 18285 rust-paste_1.0.7.orig.tar.gz"
+    "e80821814e395de541e8fbedd92e8ab8897e9fa6502e2422940b9e8d6a7836369e7221a2bf1f293e9e65cdbba915b8cbf69c468410c81e13a058f9d1842fca1f 3108 rust-paste_1.0.15-1.debian.tar.xz 3eb26fe7eda2f91fc4373933a4c0fea58bf2a9af392a0662a2bd167a382f6a5477aaefd4d977d31c6d5c8d5a96c4baa75fc28767ea78e9af5c5f6398ea9bd025 2237 rust-paste_1.0.15-1.dsc 5026d3ec7141ec4e2517a0b1283912d0801e9356f77b703d954b379439b8d85e3886d42fb28f7835edaeeac465582da14233564fb010c71425a59c9e1cbd46b4 18374 rust-paste_1.0.15.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-paste"
   ],
   "Files": [
-    "23e8801b4c11cca3404c79dcdf4109c4 2688 rust-paste_1.0.7-1.debian.tar.xz 89a899ce48f86eef649b5b4bdb73b6e4 2231 rust-paste_1.0.7-1.dsc b6a6f2420b93a544d176c4afdf93457a 18285 rust-paste_1.0.7.orig.tar.gz"
+    "2cc6b0b269f21181f9bf4b07f6e9cd7d 3108 rust-paste_1.0.15-1.debian.tar.xz 000b8d2bf0283e29b4df11822c40fc14 2237 rust-paste_1.0.15-1.dsc d57243eda469f74ab7f743a0c22ab1d7 18374 rust-paste_1.0.15.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,13 @@
     "librust-paste-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-paste-test-suite-0+default-dev, librust-rustversion-1+default-dev, librust-trybuild-1+default-dev, librust-trybuild-1+diff-dev"
+    "dh-cargo, librust-rustversion-1+default-dev, librust-trybuild-1+default-dev, librust-trybuild-1+diff-dev"
   ],
   "Uploaders": [
     "Fabian Grünbichler \u003cf.gruenbichler@proxmox.com\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/paste]"
   ],
   "Version": [
-    "1.0.7-1"
+    "1.0.15-1"
   ]
 }

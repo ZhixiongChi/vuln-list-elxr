@@ -6,28 +6,25 @@
     "libcolord-dev, libcolord2, colord, colord-sensor-argyll, colord-data, gir1.2-colord-1.0, libcolorhug-dev, libcolorhug2, gir1.2-colorhug-1.0, colord-tests"
   ],
   "Build-Depends": [
-    "bash-completion, debhelper-compat (= 13), dh-sequence-gir, docbook-xsl-ns, gtk-doc-tools, libdbus-1-dev, libgirepository1.0-dev, libglib2.0-dev (\u003e= 2.58), libgudev-1.0-dev, libgusb-dev (\u003e= 0.2.7), libjson-glib-dev, liblcms2-dev, libpolkit-gobject-1-dev (\u003e= 0.103), libsane-dev [linux-any], libsqlite3-dev, libsystemd-dev [linux-any], libudev-dev, meson (\u003e= 0.52.0), polkitd, shared-mime-info \u003c!nocheck\u003e, systemd [linux-any], valac (\u003e= 0.20), xsltproc"
+    "bash-completion, debhelper-compat (= 13), dh-sequence-gir, docbook-xsl-ns, gir1.2-gio-2.0-dev, gir1.2-gobject-2.0-dev, gtk-doc-tools, libdbus-1-dev, libgirepository1.0-dev, libglib2.0-dev (\u003e= 2.58), libgudev-1.0-dev, libgusb-dev (\u003e= 0.2.7), libjson-glib-dev, liblcms2-dev, libpolkit-gobject-1-dev (\u003e= 0.103), libsane-dev [linux-any], libsqlite3-dev, libsystemd-dev [linux-any], libudev-dev, meson (\u003e= 0.52.0), pkgconf, polkitd, shared-mime-info \u003c!nocheck\u003e, systemd-dev [linux-any], valac (\u003e= 0.20), xsltproc"
   ],
   "Build-Depends-Indep": [
     "argyll [linux-any]"
   ],
   "Checksums-Sha1": [
-    "3959ee911d9c25d37afa472b9afd588c96fa2d8c 28752 colord_1.4.6-2.2.debian.tar.xz 552d91ab3f2e7ae7e67e262ecbe0d23cd810dd4f 3425 colord_1.4.6-2.2.dsc 0ed216268b3b259e963ffe71d3ec46d9ed79f217 1872528 colord_1.4.6.orig.tar.xz b916eca92b4822d4cedff6679e2dfff939ead43a 488 colord_1.4.6.orig.tar.xz.asc"
+    "adfda7556e84a4523c240047ff3bb0aa790ad803 33368 colord_1.4.7-3.debian.tar.xz 4522e1f97e7640803635e3bef48d890ab996cb91 3496 colord_1.4.7-3.dsc 5f1819ecd0b1b38fa070a3f9419030fb23513033 1799168 colord_1.4.7.orig.tar.xz 0c81212ac12d2597e2838443bebd619e2f325324 488 colord_1.4.7.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "4023d121c796835874d21cbfc3c5b19cacedb8cf8445548b999660e14491dadb 28752 colord_1.4.6-2.2.debian.tar.xz beb86af256badae34277162660e16bc9532a96b6d86da0ce16fd3aeb054dc04a 3425 colord_1.4.6-2.2.dsc 7407631a27bfe5d1b672e7ae42777001c105d860b7b7392283c8c6300de88e6f 1872528 colord_1.4.6.orig.tar.xz abfafd2c6c564fdbd9bda8c3f9271783afa6777ddfcdc335cbe77d48b7d5dee0 488 colord_1.4.6.orig.tar.xz.asc"
+    "a51570615cb40761cdb69c8f233290cc3d8140ca64019547757e9a0adc7d0115 33368 colord_1.4.7-3.debian.tar.xz 80d005279312c761e7da63b232b7593dfc60d9bb938ca9eb0746ec54481a3dec 3496 colord_1.4.7-3.dsc de02d9910634ae159547585cec414e450f711c27235453b4f9b38a9f2361a653 1799168 colord_1.4.7.orig.tar.xz d5978308314fa371dc18da192db7182e3710d479d8dcc378f4ccb07b11459b60 488 colord_1.4.7.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "ad1f26289a52082b070924631cd3fe68f09ab5ff395e0c255b3bc671c9dc3470ebe46ce3776b08301ddbb313ab757cae0b0882be468c892c3238f13b525e4f04 28752 colord_1.4.6-2.2.debian.tar.xz e364752484cc2f510941e38f7dea64c6220473cda19718bc466edb91ac805e7e9f9d21509892e46776d28c31b937b25d03599620bdeb122f6560e06f2683b869 3425 colord_1.4.6-2.2.dsc d55d3322199d0bfee74eee9e183c9246ec33e755f0144d96087acb3c43ab5a3d872086fcef9f29cdd2295be71daac703cdf90ad10bf183622fdd84347e7af123 1872528 colord_1.4.6.orig.tar.xz 7694ba7867239f5bf4f86c74a04b5de4df171ae5642614911fab54dfec54e783af24d46b8a915d4ead4cda80bbd82d3a538a72ab45cd7ef8507c8288f3681940 488 colord_1.4.6.orig.tar.xz.asc"
-  ],
-  "Dgit": [
-    "28b26bf8dc32e843b2f6de52cc7e124ec031d09d debian archive/debian/1.4.6-2.2 https://git.dgit.debian.org/colord"
+    "5def8fc787361f962e630665bf13224b2e5e96b891af7df9cebb680096fd97d644c1a4345ba4328089b9525194d00619bf8d1a0cb9957a8e2f25bcfcfc33fc1e 33368 colord_1.4.7-3.debian.tar.xz 981d08fedc97c5ef5c657ac47b8ea199d2a119ec9fafd9813a76f4345c1c3a8e3befa5a2120b6a23a644419a1fd042e6ebaf02b1f884910b1f51eb6305875a5a 3496 colord_1.4.7-3.dsc d8a23899c038af980f1b257eace68b682c3f5592d19e2ae1044da749371694052c00e58e4754ebb6ee2f7900b0ef44c01be5fcf857294813c07af94ffbf6d0be 1799168 colord_1.4.7.orig.tar.xz 15a60f860ca806573fad6a1815fb8cccc5ff14cefaa58f67d62d5a9eece52437a52e2b6aaa91998e70d739b393ca7e1dd18fd2b7a292c697f2eab6301a0cebe5 488 colord_1.4.7.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/c/colord"
   ],
   "Files": [
-    "1ebbb032bfa0084dbbc457e96b0630e2 28752 colord_1.4.6-2.2.debian.tar.xz 4268403efdfd263cd3bbfe8fc60dd884 3425 colord_1.4.6-2.2.dsc 7dbdc807495890c13e8242385f4c641f 1872528 colord_1.4.6.orig.tar.xz 661c3cef9ee0c9a22cb6e684d67aceba 488 colord_1.4.6.orig.tar.xz.asc"
+    "60fb664ea2f0cc447754120af9896de1 33368 colord_1.4.7-3.debian.tar.xz 641b0b4d3fb68a810fb696fde125c269 3496 colord_1.4.7-3.dsc 94bd795efa1931a34990345e4ac439a8 1799168 colord_1.4.7.orig.tar.xz 51b468fdbf8b5dc0123e7ccb34e58ca8 488 colord_1.4.7.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +33,7 @@
     "https://www.freedesktop.org/software/colord/"
   ],
   "Maintainer": [
-    "Christopher James Halse Rogers \u003craof@ubuntu.com\u003e"
+    "Debian freedesktop.org maintainers \u003cpkg-freedesktop-maintainers@lists.alioth.debian.org\u003e"
   ],
   "Package": [
     "colord"
@@ -45,13 +42,16 @@
     "colord deb graphics optional arch=linux-any colord-data deb graphics optional arch=all colord-sensor-argyll deb graphics optional arch=linux-any colord-tests deb graphics optional arch=linux-any gir1.2-colord-1.0 deb introspection optional arch=linux-any gir1.2-colorhug-1.0 deb introspection optional arch=linux-any libcolord-dev deb libdevel optional arch=linux-any libcolord2 deb libs optional arch=linux-any libcolorhug-dev deb libdevel optional arch=linux-any libcolorhug2 deb libs optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
     "dbus, gnome-desktop-testing, gnome-session, gnome-settings-daemon, xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Christopher James Halse Rogers \u003craof@ubuntu.com\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/colord"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/debian/colord.git"
   ],
   "Version": [
-    "1.4.6-2.2"
+    "1.4.7-3"
   ]
 }

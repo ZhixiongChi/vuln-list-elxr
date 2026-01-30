@@ -6,28 +6,28 @@
     "libqrupdate1, libqrupdate-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gfortran, libblas-dev, liblapack-dev"
+    "debhelper-compat (= 13), gfortran, libblas-dev, liblapack-dev, cmake"
   ],
   "Checksums-Sha1": [
-    "76e8e9ca72c731013fd5963d83103522ab49699a 3572 qrupdate_1.1.2-4.debian.tar.xz 4a47058b34534f017ba4eae23edad6c47ab2ce9f 2032 qrupdate_1.1.2-4.dsc f7403b646ace20f4a2b080b4933a1e9152fac526 49734 qrupdate_1.1.2.orig.tar.gz"
+    "8bda92684a126a85d598366fce0a4b0a6c334556 4472 qrupdate_1.1.5-1.debian.tar.xz b3d4d2b3485702bf3be52c14a098570de8147861 2069 qrupdate_1.1.5-1.dsc 07e20d982542c71a05c1171190bf4c04abc06d1b 598795 qrupdate_1.1.5.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "b9efce709a01bae9f312db956dfad1b4821ade039f3d37069d1e3429f0d25fa1 3572 qrupdate_1.1.2-4.debian.tar.xz d58593dbab26db61c6c95b2ae05154da2ffe6dc38e6a5ca969532db14807616b 2032 qrupdate_1.1.2-4.dsc e2a1c711dc8ebc418e21195833814cb2f84b878b90a2774365f0166402308e08 49734 qrupdate_1.1.2.orig.tar.gz"
+    "213372d20a212d29cafcf2cc79da788aedfa9b5ec6400938a123304f4728f50b 4472 qrupdate_1.1.5-1.debian.tar.xz 96a7947a759a87e24ca5753bb6c49819ec9f75a5236416a210c963f1d98d02ee 2069 qrupdate_1.1.5-1.dsc d81523077586fec9dc26585c82a6c9c109f912f29d5ec9097822faf56297c4d2 598795 qrupdate_1.1.5.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "5837a45c88fb3155680bd3ef54ab73065d7e5ec6d378f5f5e1bf858330323d0688b4a5223342f456f9ecac60e569c0409fd021cd8de3de41af23dbff621c86e0 3572 qrupdate_1.1.2-4.debian.tar.xz 62fa20494d804c948d9e4ea99a3eb34a055ad7fb0770d0f9984d94b37b1647b0ba67c6ffbbddf5a86e8c1cc37c6d4f151ea1311b5b73d243a50ab506416cd5bc 2032 qrupdate_1.1.2-4.dsc cc4e466ea91958e15c66be82b0c4c8ad813fbe4643f21259a9cb3ca8e0a411dd764bb2397ece848a7045f322d30316801d1540c4ebf7912030bef6995b44917c 49734 qrupdate_1.1.2.orig.tar.gz"
+    "8e8d802e090123bcfabbd0698b6090acf50bdb0e8858a34c04ecd6aba43fe534c25bc9e48415fa4765c4a3a77cdcfb962d612b4f1bbc53a33b8a4eea24e6b760 4472 qrupdate_1.1.5-1.debian.tar.xz 64184282dc779583d65f4bce184ace2a2cc18450ee13153e879c6e8870220414c8da963ac3ea3432d272eedf91f1c40011196e6e904ab675aef849be0ed58193 2069 qrupdate_1.1.5-1.dsc 788e554887e87f59a98ccedf1d033b7a72ff2fd36446374881ff4711a668c8bb2b3668d03dcbe56dc505a73c2047c72e2515db6ee42a0d4db8bd5e61232273f1 598795 qrupdate_1.1.5.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/q/qrupdate"
   ],
   "Files": [
-    "439208a50838040d0867c4f5eb96f31e 3572 qrupdate_1.1.2-4.debian.tar.xz a89ea8861496f66dc9b41e0cb3b7a7e4 2032 qrupdate_1.1.2-4.dsc 6d073887c6e858c24aeda5b54c57a8c4 49734 qrupdate_1.1.2.orig.tar.gz"
+    "bc9221bfd47ed87477dcb034f5a5d306 4472 qrupdate_1.1.5-1.debian.tar.xz 7ad274732cd1e31254647e4323b7899c 2069 qrupdate_1.1.5-1.dsc b1efe47803488e17f29f9b23fa6b1f11 598795 qrupdate_1.1.5.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://qrupdate.sourceforge.io/"
+    "https://gitlab.mpi-magdeburg.mpg.de/koehlerm/qrupdate-ng"
   ],
   "Maintainer": [
     "Debian Science Team \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
@@ -39,7 +39,7 @@
     "libqrupdate-dev deb libdevel optional arch=any libqrupdate1 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.7.0"
   ],
   "Uploaders": [
     "Sébastien Villemot \u003csebastien@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/science-team/qrupdate.git"
   ],
   "Version": [
-    "1.1.2-4"
+    "1.1.5-1"
   ]
 }

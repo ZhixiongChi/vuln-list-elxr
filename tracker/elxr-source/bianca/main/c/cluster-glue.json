@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "cluster-glue, cluster-glue-dev, liblrm2, libpils2, libplumb2, libplumbgpl2, libstonith1, liblrm2-dev, libpils2-dev, libplumb2-dev, libplumbgpl2-dev, libstonith1-dev"
+    "cluster-glue, cluster-glue-dev, liblrm2t64, libpils2t64, libplumb2t64, libplumbgpl2t64, libstonith1t64, liblrm2-dev, libpils2-dev, libplumb2-dev, libplumbgpl2-dev, libstonith1-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), asciidoctor, autoconf, automake, bison, chrpath, dh-python, docbook-xsl, docbook-xml, flex, help2man, inetutils-ping | iputils-ping, libaio-dev [linux-any], libbz2-dev, libcurl4-openssl-dev | libcurl3-openssl-dev, libglib2.0-dev, libltdl-dev, libopenhpi-dev [!hurd-any], libopenipmi-dev [!hurd-any], libsensors-dev [!hurd-any], libtool, libsnmp-dev, libxml2-dev, libxml2-utils, openssh-client \u003c!nocheck\u003e, perl, psmisc, python3, systemd [linux-any], uuid-dev, xsltproc, zlib1g-dev"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), asciidoctor, autoconf, automake, bison, chrpath, dh-python, docbook-xsl, docbook-xml, flex, help2man, inetutils-ping | iputils-ping, libaio-dev [linux-any], libbz2-dev, libcurl4-openssl-dev | libcurl3-openssl-dev, libglib2.0-dev, libltdl-dev, libopenhpi-dev [!hurd-any], libopenipmi-dev [!hurd-any], libsensors-dev [!hurd-any], libtool, libsnmp-dev, libxml2-dev, libxml2-utils, openssh-client \u003c!nocheck\u003e, perl, pkgconf, psmisc, python3, systemd-dev, uuid-dev, xsltproc, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "cc8517157a690c496a52807fe2bfb61add58ce76 26792 cluster-glue_1.0.12-21.debian.tar.xz 506fe783a18b9120ab968cf8978680803510a17a 3192 cluster-glue_1.0.12-21.dsc 92696aea07e3834472108b42d1a859351db52250 491191 cluster-glue_1.0.12.orig.tar.bz2"
+    "459a540381bf7f77aeb58c8697abe9919f3c2433 28068 cluster-glue_1.0.12-24.debian.tar.xz 48cc763131caab479dcf07a8f3fe3d3babd99cd4 3220 cluster-glue_1.0.12-24.dsc 92696aea07e3834472108b42d1a859351db52250 491191 cluster-glue_1.0.12.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "48075bc0e1ab3f854103efca3c1ef1bcf3234f5ce835669dc6b086b701b46125 26792 cluster-glue_1.0.12-21.debian.tar.xz 1fef24de9b0e987d333d0139bd9176294c49058a646e0d2f1cbfb53d8c730c59 3192 cluster-glue_1.0.12-21.dsc 23dc0854e6adaf61ba18930018a769a38530543683a39960f245e9ee6f13b4e5 491191 cluster-glue_1.0.12.orig.tar.bz2"
+    "f6aaf7da12b86345eb724809c8beb772f7dec3c0198bd12971596eb86bebb9ea 28068 cluster-glue_1.0.12-24.debian.tar.xz 351a3820e6ee2e775a91bbee2518b6beccd59fd059b86dbaa70a944a94990999 3220 cluster-glue_1.0.12-24.dsc 23dc0854e6adaf61ba18930018a769a38530543683a39960f245e9ee6f13b4e5 491191 cluster-glue_1.0.12.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "379c5af11febe4c016f94921f184a1b3bd595e329f3f420cee947abb6739524a7db0e47274b583a8bb8dad07b3b5e582d9fbfa7cab399928c73ea1aae14b3a19 26792 cluster-glue_1.0.12-21.debian.tar.xz ab1d1953d083edaaac0594d7297ee8638cb81e83e15d8ef6a3c2517e8a5545910d1c5948e85ee75385e96e0a1a7be2857f55eea756626a8e5b58dd80296e4587 3192 cluster-glue_1.0.12-21.dsc 240fe24b94a664acbb07100be1d1c601cb4edff45ed42e7cf37f4ffae7445fea30238de7776b5a8230b45dd8ca14a6e94e955af730f51c4b9e937f2952443e5f 491191 cluster-glue_1.0.12.orig.tar.bz2"
+    "6b73a24776a64418ef97e35c43d4eb16a5ea6ca11da61550c1fae6acc8a95231f0611751dbc710c62ae60cf145023245669754ff33dc76ca24615aaabe8ff1b7 28068 cluster-glue_1.0.12-24.debian.tar.xz 8c781134a777999d85c159245a7060fa2163cd488164dcbeffa77a062649dfd48d057ce7588944cf856b1be1379b69c1ff965b79e9bac277aff69e8d4cbaa3b4 3220 cluster-glue_1.0.12-24.dsc 240fe24b94a664acbb07100be1d1c601cb4edff45ed42e7cf37f4ffae7445fea30238de7776b5a8230b45dd8ca14a6e94e955af730f51c4b9e937f2952443e5f 491191 cluster-glue_1.0.12.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/c/cluster-glue"
   ],
   "Files": [
-    "79ccdd699f5868bdb0153d247be6795c 26792 cluster-glue_1.0.12-21.debian.tar.xz f077570659be88ff6e741fbab1abdc18 3192 cluster-glue_1.0.12-21.dsc f6d6ef564946dbe106667b14b8e903fd 491191 cluster-glue_1.0.12.orig.tar.bz2"
+    "bf8f3e5bb51e9c2668a81c9bcb36f89f 28068 cluster-glue_1.0.12-24.debian.tar.xz 3b2dfc8d482a42557880d2b8a869849e 3220 cluster-glue_1.0.12-24.dsc f6d6ef564946dbe106667b14b8e903fd 491191 cluster-glue_1.0.12.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "cluster-glue"
   ],
   "Package-List": [
-    "cluster-glue deb admin optional arch=any cluster-glue-dev deb admin optional arch=any liblrm2 deb libs optional arch=any liblrm2-dev deb libdevel optional arch=any libpils2 deb libs optional arch=any libpils2-dev deb libdevel optional arch=any libplumb2 deb libs optional arch=any libplumb2-dev deb libdevel optional arch=any libplumbgpl2 deb libs optional arch=any libplumbgpl2-dev deb libdevel optional arch=any libstonith1 deb libs optional arch=any libstonith1-dev deb libdevel optional arch=any"
+    "cluster-glue deb admin optional arch=any cluster-glue-dev deb admin optional arch=any liblrm2-dev deb libdevel optional arch=any liblrm2t64 deb libs optional arch=any libpils2-dev deb libdevel optional arch=any libpils2t64 deb libs optional arch=any libplumb2-dev deb libdevel optional arch=any libplumb2t64 deb libs optional arch=any libplumbgpl2-dev deb libdevel optional arch=any libplumbgpl2t64 deb libs optional arch=any libstonith1-dev deb libdevel optional arch=any libstonith1t64 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/ha-team/cluster-glue.git"
   ],
   "Version": [
-    "1.0.12-21"
+    "1.0.12-24"
   ]
 }

@@ -6,22 +6,22 @@
     "libjna-java, libjna-jni, libjna-platform-java"
   ],
   "Build-Depends": [
-    "ant, ant-optional, debhelper-compat (= 13), default-jdk, javahelper (\u003e= 0.32~), libasm-java, libffi-dev, libx11-dev, libxt-dev, maven-repo-helper (\u003e= 1.5~), pkg-config"
+    "ant, ant-optional, debhelper-compat (= 13), default-jdk, javahelper (\u003e= 0.32~), libasm-java, libffi-dev, libx11-dev, libxt-dev, maven-repo-helper (\u003e= 1.5~), pkgconf"
   ],
   "Checksums-Sha1": [
-    "ea8b63c562d707f79274fc0509a4f39af2761670 11216 libjna-java_5.13.0-2.debian.tar.xz b685cdfbeda0c73ac279b1ec49cf4c042aff30d4 2388 libjna-java_5.13.0-2.dsc 68543ef88818ca427b369103904fd333c3a57054 1765432 libjna-java_5.13.0.orig.tar.xz"
+    "5fb6f9d06946c7239f535fb699aaca9bc559a702 11224 libjna-java_5.15.0-1.debian.tar.xz ea867920af792a82f19f05c5d145e2219a56f020 2380 libjna-java_5.15.0-1.dsc afae2535b4cf3c3d38723c9ac40c1ed29d54e5ed 1766132 libjna-java_5.15.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "4b33c018a49d2c7aed6238d2c80f8e66104b9307579880faeea84471ff55a12f 11216 libjna-java_5.13.0-2.debian.tar.xz 8514e8399afbe34f0027ad9788e4fe699cac1f891cbc9f86e886e14d03ad8005 2388 libjna-java_5.13.0-2.dsc cd57dd9e72ddb4f32c235ec80f5acbd914425f1fbd2e313a335cbbaeb4881d7a 1765432 libjna-java_5.13.0.orig.tar.xz"
+    "5c570805c4fc917e1de4d37075cf2c70bef906518c820bba7307d88980d3aa82 11224 libjna-java_5.15.0-1.debian.tar.xz 3ac0095b9cfbe539fd31e339dcf09b38f473728ad2c7f08c24d788aecce107ed 2380 libjna-java_5.15.0-1.dsc c6f1ae3c73332204a1ff07a066444d45e7b3221340667e5ab5b38060b059ec80 1766132 libjna-java_5.15.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "2ba6374ee14ae77233fbc28c4474e8a48f4a5c3c073d5d25de3cc546ceac02877e80de4ad91b653b6ef6b6f13031c39fdc8f41a01bb58236465f5699aae7657f 11216 libjna-java_5.13.0-2.debian.tar.xz 8fa7e50d46b976487962266525747ebeec4d23422adcbb10edca1419044b39a9e36171e96f6810c97f7f20321b0ab457752ec9aa112a698a991252f1c92bd733 2388 libjna-java_5.13.0-2.dsc 2bb2880634cc9b1537e5c5512bc5602db3390d99d9437efeade5fc3574ca964c8ed38b1fdd61afc55d1fe943f2d59d32038908a143b1f8b6ccf0781fbae1a4cf 1765432 libjna-java_5.13.0.orig.tar.xz"
+    "b3ec7eaf4d858ce68181a7c96c9faf6e252a9adf285714fbc03156233a904b0855c1e485a07d21685e9b4e02d030f5e55093c07015826a121d3f64adc6943ce1 11224 libjna-java_5.15.0-1.debian.tar.xz 53d4d29a937b36a8b088391218c2d0e00c5ae2577f0bb0c66094db70154da2ff2d74bd8db230dac7e0af51de0cd7be4ab1f74b49f2b5e15080ee5cc4a6afa42e 2380 libjna-java_5.15.0-1.dsc 9fb04291012f1799a899c1ffd7e873f63ab131dd8b082a075685a8ba4310e37ff576c13b48364eec26fa182939df400f815bdae0b276df40686e3d098be04317 1766132 libjna-java_5.15.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libj/libjna-java"
   ],
   "Files": [
-    "3e94df251ced04c7fae4f1aa84c341a9 11216 libjna-java_5.13.0-2.debian.tar.xz 2f851ab5ca72f85debc729e17f4cd35a 2388 libjna-java_5.13.0-2.dsc 8fae09eae9aa6a2c79c4f53c264a1f30 1765432 libjna-java_5.13.0.orig.tar.xz"
+    "1133de06ed042b3e351b641f05f246e9 11224 libjna-java_5.15.0-1.debian.tar.xz e07076c48abe97913f504a33cfbe9682 2380 libjna-java_5.15.0-1.dsc a552c041666e7635a53395ecfedd3baa 1766132 libjna-java_5.15.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libjna-java deb java optional arch=all libjna-jni deb java optional arch=any libjna-platform-java deb java optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/java-team/libjna-java.git"
   ],
   "Version": [
-    "5.13.0-2"
+    "5.15.0-1"
   ]
 }

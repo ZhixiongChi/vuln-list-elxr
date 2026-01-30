@@ -6,22 +6,22 @@
     "python3-jaraco.classes"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm"
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-more-itertools \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm"
   ],
   "Checksums-Sha1": [
-    "83d35c7cbe89fcfd7f6c1d1f600b156992b75116 2876 jaraco.classes_3.2.1-3.debian.tar.xz 087d9eb9ca6ed6687fc911391c6753c013a41538 2188 jaraco.classes_3.2.1-3.dsc cb3a01e1d79fcec9e601e58313b4c95ac1b4ddfd 11072 jaraco.classes_3.2.1.orig.tar.gz"
+    "5f96b3663ab3d0af410ee728ac9b97bf7798bce1 3008 jaraco.classes_3.4.0-1.debian.tar.xz 67dc8f4ac2e146b82fb38259e1398e28f082ebd0 2151 jaraco.classes_3.4.0-1.dsc beeecb365449114d07d63d81c434ecbe9c3439f8 9670 jaraco.classes_3.4.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "57a5a32f797462f4d261dc5b207cdb0b9516ddc8d3119345c939998f0f273862 2876 jaraco.classes_3.2.1-3.debian.tar.xz 87c28cd9d648ea8c12af2bd773b310329f94e04cb460f5969557e3d79e34d612 2188 jaraco.classes_3.2.1-3.dsc dbe6faf4b00c2b8aa8be3467e9b52b9762a1cb62dafc1ac3a4076db5c46fed05 11072 jaraco.classes_3.2.1.orig.tar.gz"
+    "9d4ebf9091edf6240008ad08f9fc275663159d1ccfb53e237ba9d98e6d8dd5d0 3008 jaraco.classes_3.4.0-1.debian.tar.xz 83905fdcc91cc81d76cec01b53f839630b56f7954c2de71fd4d60a453ad43b4f 2151 jaraco.classes_3.4.0-1.dsc 8caee68fada598a3cf53d550599cc8fc5a7533bd60758bbe9ae6d6445710c7c0 9670 jaraco.classes_3.4.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "9726f52dac16c0ef5aa889c70c9c9e29eac60ab21ee121f82d3bcfa4ee467865b1ae41a5240f7b637c876472eb20fc2c6990cea11c49cef802f337b14d6987c4 2876 jaraco.classes_3.2.1-3.debian.tar.xz c710bd9e89e9b86d0301da140ecb5475eae4bfc694a2948e74576a58ae3a6ce2d2bedcd3a191b9c9f4bca56f22e50bd21a36be7f646f225154625cf887107031 2188 jaraco.classes_3.2.1-3.dsc 1542367aa1916f1c2658720a61280714c123616851d94173c47c94b674185c3914e04c06152e8dc5b29f96189d82da8e89eb1ee1e9a69267ad9a8c6424e5c1e6 11072 jaraco.classes_3.2.1.orig.tar.gz"
+    "e73e92607adedec9fa7913d85f5e1485bb17c33e7b31ff15c1715ecbe6a55eee9f79255b4574d6af5bde94c6e899581cd25db1430e82a762f791a4ca8c5e531f 3008 jaraco.classes_3.4.0-1.debian.tar.xz d46a1012c7a2b2dcd58358cc8b518ea6b628438df7c0c57c24e6b9e2346241cf1e1f14900fcdd582757be104eb59bf6c7531856b3ca47b5270bd99f8c024ce91 2151 jaraco.classes_3.4.0-1.dsc dd321db10ffe0e5af0b8d061e2f2cfa42a6f61cc3117a1bdb84e5b403155525f467413279057aecc6fcc2d306dade0f542adb92540d71f525afc19aae717a103 9670 jaraco.classes_3.4.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/j/jaraco.classes"
   ],
   "Files": [
-    "5efce6a8f775d26532dd14b2ca1ab6ec 2876 jaraco.classes_3.2.1-3.debian.tar.xz 7e1f0de64642fb05753257c8da314567 2188 jaraco.classes_3.2.1-3.dsc 1275774c5c4822903d531966be1f55e0 11072 jaraco.classes_3.2.1.orig.tar.gz"
+    "2400a5c81d67e7c4ac752d3efd1d372f 3008 jaraco.classes_3.4.0-1.debian.tar.xz 420b57308e9d5f3ed9cf7f85b74c0118 2151 jaraco.classes_3.4.0-1.dsc e0cf42be1b386ff0bde8a4e242d93ebe 9670 jaraco.classes_3.4.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python3-jaraco.classes deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
@@ -47,16 +47,13 @@
   "Testsuite-Triggers": [
     "python3-all, python3-pytest"
   ],
-  "Uploaders": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
-  ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/python-team/packages/jaraco.classes"
+    "https://salsa.debian.org/jcfp/jaraco.classes"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/python-team/packages/jaraco.classes.git"
+    "https://salsa.debian.org/jcfp/jaraco.classes.git"
   ],
   "Version": [
-    "3.2.1-3"
+    "3.4.0-1"
   ]
 }

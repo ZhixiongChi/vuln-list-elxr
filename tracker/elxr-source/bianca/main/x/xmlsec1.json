@@ -3,31 +3,31 @@
     "any all"
   ],
   "Binary": [
-    "libxmlsec1-dev, libxmlsec1, libxmlsec1-openssl, libxmlsec1-gnutls, libxmlsec1-nss, libxmlsec1-gcrypt, xmlsec1, libxmlsec1-doc"
+    "libxmlsec1-dev, libxmlsec1t64, libxmlsec1t64-openssl, libxmlsec1t64-gnutls, libxmlsec1t64-nss, libxmlsec1t64-gcrypt, xmlsec1, libxmlsec1-doc"
   ],
   "Build-Conflicts": [
     "libnspr4-dev (\u003c\u003c 2:4.32-3)"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11), help2man, libgcrypt20-dev, libgnutls28-dev, libnss3-dev (\u003e= 2:3.72-2), libssl-dev, libxml2-dev, libxslt1-dev, pkg-config"
+    "dpkg-dev (\u003e= 1.22.5), debhelper (\u003e= 11), help2man, libgcrypt20-dev, libgnutls28-dev, libnss3-dev (\u003e= 2:3.72-2), libssl-dev, libxml2-dev, libxslt1-dev, pkg-config"
   ],
   "Build-Depends-Indep": [
     "gtk-doc-tools, man2html-base, xsltproc"
   ],
   "Checksums-Sha1": [
-    "f19f1485d8e6f2dd1ff3fddde0f482a33b4273c3 14348 xmlsec1_1.2.37-2.debian.tar.xz 920132e366e9b3e24786ba69318232d006900355 2634 xmlsec1_1.2.37-2.dsc fa6bb084fe201d5279455eb0da230cbc7d36cd7a 2039332 xmlsec1_1.2.37.orig.tar.gz"
+    "633846004febcedea71853866cf74dde52a3172b 14788 xmlsec1_1.2.41-1.debian.tar.xz 4575e6ff96053cff4083727e341b9b89d0f48c22 2686 xmlsec1_1.2.41-1.dsc 8155c603b9caa6d31ed305f01d19bd381ac05089 2087371 xmlsec1_1.2.41.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "00f3452ddfb7a24763e6cf7323457a9f5fc757258e6dd1e13e9904c462e6b04e 14348 xmlsec1_1.2.37-2.debian.tar.xz f3f22ab92762d66f605bf8567c0ea813cd8b0355c7dbc1dffcfb0e29167fb5ca 2634 xmlsec1_1.2.37-2.dsc a75ba7aa698ebb6e1a7ed914896de27888c4f5cdf549cc0856e31585b4110c3c 2039332 xmlsec1_1.2.37.orig.tar.gz"
+    "4d7f4c7d6d9a1a08539931185404fcecbd35b0e60d1f36e58848965fabd55f33 14788 xmlsec1_1.2.41-1.debian.tar.xz 64294d7d80e7dc1d17c212a6cafeba7be71b6b85a54db25887477bdb955f1d9e 2686 xmlsec1_1.2.41-1.dsc 0cb9b4b74b3274366caab917613eb49bcee67d2b8c9224adb7b943585febcad5 2087371 xmlsec1_1.2.41.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "42d1ce27bf8e520d79c4bd3cc263aab93f3b718612ad57ca3e445061d13e9618c96cecda26c62bc1900aee984f1102dd8f8400816de804628dec46a58dc93235 14348 xmlsec1_1.2.37-2.debian.tar.xz 28bda9ab93d3f5fc25d73641af0f0f93f8efbf6ac03b42a550322542c2155dac68693ca9e9ecd96fd1614cbc00e9f6000e7a8b3fbed1d42c8df60834c06d8215 2634 xmlsec1_1.2.37-2.dsc 80c431ddf24fdce26952e875c0779651ab498c2532b5627bd3e911d5ee5f5430db216918a354e4f6026a6a712634800a2969c4e0801aeb101bb1a0726df44777 2039332 xmlsec1_1.2.37.orig.tar.gz"
+    "5a0c7a70727147cade36360b6a28e5528ebb559a82772f66bbe540107cda33f508bcc39d6740f0df1529e08a337a00cb2d38884474a51f43e7d4ca3d2035b984 14788 xmlsec1_1.2.41-1.debian.tar.xz b39859e20df0b7ce4012d3b1489f7ac0f2c682c43292534faf096b51e1fe282574a642ef62ce2ccaf458ac9ced7adc4f6628803187edd8c57080028cb917bc41 2686 xmlsec1_1.2.41-1.dsc 62d042bc103922535e500f8c5bac34bf528647327c63d4cbf71cd9e37dc0ee738155556f7ff193bd72ace25716d26fbb567f3d2a6c184c1f4b145e8d10ca70f9 2087371 xmlsec1_1.2.41.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/x/xmlsec1"
   ],
   "Files": [
-    "0081ca72edf2f37557cd48cfa90b69dc 14348 xmlsec1_1.2.37-2.debian.tar.xz ed9bb5093dd4c77a2e4e217432df47e6 2634 xmlsec1_1.2.37-2.dsc c670563de88cf7455a8036650fbec584 2039332 xmlsec1_1.2.37.orig.tar.gz"
+    "4ad3181da34c78711872757e8a35cafc 14788 xmlsec1_1.2.41-1.debian.tar.xz 3a4e10fcfae83ba56238e2664e21a65a 2686 xmlsec1_1.2.41-1.dsc 2fb0cb97e58e788b9aca206bb889bf55 2087371 xmlsec1_1.2.41.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "xmlsec1"
   ],
   "Package-List": [
-    "libxmlsec1 deb libs optional arch=any libxmlsec1-dev deb libdevel optional arch=any libxmlsec1-doc deb text optional arch=all libxmlsec1-gcrypt deb libs optional arch=any libxmlsec1-gnutls deb libs optional arch=any libxmlsec1-nss deb libs optional arch=any libxmlsec1-openssl deb libs optional arch=any xmlsec1 deb text optional arch=any"
+    "libxmlsec1-dev deb libdevel optional arch=any libxmlsec1-doc deb text optional arch=all libxmlsec1t64 deb libs optional arch=any libxmlsec1t64-gcrypt deb libs optional arch=any libxmlsec1t64-gnutls deb libs optional arch=any libxmlsec1t64-nss deb libs optional arch=any libxmlsec1t64-openssl deb libs optional arch=any xmlsec1 deb text optional arch=any"
   ],
   "Standards-Version": [
     "4.1.4"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/xml-sgml-team/xmlsec1.git"
   ],
   "Version": [
-    "1.2.37-2"
+    "1.2.41-1"
   ]
 }

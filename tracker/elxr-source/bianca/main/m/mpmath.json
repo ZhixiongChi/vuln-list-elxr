@@ -6,22 +6,22 @@
     "python3-mpmath, python-mpmath-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all (\u003e= 3.1.3-3), python3-py, python3-pytest, python3-setuptools, python3-sphinx, texlive-latex-base, texlive-latex-extra"
+    "debhelper-compat (= 13), dh-python, dh-sequence-python3, dh-sequence-sphinxdoc, python3-all, python3-py, python3-pytest, python3-setuptools, python3-sphinx, texlive-latex-base, texlive-latex-extra"
   ],
   "Checksums-Sha1": [
-    "522763298b3429743d348497d4ba74c4497ea782 7276 mpmath_1.2.1-2.debian.tar.xz b5b271ef269ede16556ec39092b8b7fc8a5a63f1 2104 mpmath_1.2.1-2.dsc 83540e8694c0548041854885d5d9668671e52ed3 1991872 mpmath_1.2.1.orig.tar.xz"
+    "de8347c2c55a146bc243b450898b613b867c0d0b 6804 mpmath_1.3.0-1.debian.tar.xz 5383e4918064c23505fc3eab9e44e6cc430d440b 2169 mpmath_1.3.0-1.dsc 6ddb00cfd988199f2a73acd109e0db23f1c03ed2 2136844 mpmath_1.3.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "d2b1d1bc7350e3b7223aa35dd40439e0d279fbdc3e9ea75422d4e18d6294e826 7276 mpmath_1.2.1-2.debian.tar.xz c461cc3b8ff860761b8a6dab076e70320f4e32dc26463229ef6577d7ff61981e 2104 mpmath_1.2.1-2.dsc 84e8d777906588a00b0d57a29c8371d7f5cd8aecb53f3e8f7db66be8d2a55c73 1991872 mpmath_1.2.1.orig.tar.xz"
+    "8cf9f51a60ae2caf7f578f0e24eb1449df2d6debf35571c220fa0811900b3c99 6804 mpmath_1.3.0-1.debian.tar.xz d8d14e969815d2b8a4b92b49431ba12ea9b31afcc2c0bfecfa3951dc2f1d106f 2169 mpmath_1.3.0-1.dsc 8f702663fa422fbbf02d15792da4b2566160df35b8a4af55fe64cba2fec2aa00 2136844 mpmath_1.3.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "4391002a90a8defb094af0ee93410dc812b5cb254b582c1e6bdfdeafd45efbaaff351d3dbe11ebd108eca10bca6d29c8d64e22e89c5f1c62bdf80e364fdca55c 7276 mpmath_1.2.1-2.debian.tar.xz 9fb91d330fce993ac527419591d98f673afe5ae3f5460cfdcf8c19a36cb77fcfac73dccc5eb8499f38279a3af4137dec62741b419ba0c650686bf995cd5a5c46 2104 mpmath_1.2.1-2.dsc ed3799cb94432564781fc5a5c6342a99402988e396509c722646105fa0795d55040ffecd1cc38d8a0b8d1b7baead0c048de1a4683ea3df0cda57963a6fc9d034 1991872 mpmath_1.2.1.orig.tar.xz"
+    "274157dd1c35f386083618e9c3e3b381293a87b5bf9df4bce35b92a0827aab5f64783afb15279eca2549494526c964f3400177325a4bd9aec157de3bf1b5e592 6804 mpmath_1.3.0-1.debian.tar.xz 183d0e0a9ec636885f4984027942a33ea5c3aed6555a68a62ed40bfd5701fa075e109e82d10bb842f6ed94d2656155635689edd2af362a1abfcdb778503c77e1 2169 mpmath_1.3.0-1.dsc ec703e661323035e3c973fc2e52206e793f6182ed9897e5a483cb35a22421d7869df850cdd89fc1ef4e1bb28b17b4914447116dbeed136a687e582cce0bf9e42 2136844 mpmath_1.3.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/m/mpmath"
   ],
   "Files": [
-    "cf6dd710e549ead4b04ee81307b0d6cc 7276 mpmath_1.2.1-2.debian.tar.xz 5abe25e57229293b3131192aa9ad45eb 2104 mpmath_1.2.1-2.dsc b4467b515a502941d0128f7687184a3b 1991872 mpmath_1.2.1.orig.tar.xz"
+    "d40f46e6340ea7b5c52e26e2a33b00c8 6804 mpmath_1.3.0-1.debian.tar.xz 281645c06dd21b69f2fd2a59358b7e6d 2169 mpmath_1.3.0-1.dsc 63376989afeb861a729bbf14ae6cb7bc 2136844 mpmath_1.3.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://www.mpmath.org/"
   ],
   "Maintainer": [
-    "Sandro Tosi \u003cmorph@debian.org\u003e"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
   ],
   "Package": [
     "mpmath"
@@ -39,10 +39,10 @@
     "python-mpmath-doc deb doc optional arch=all python3-mpmath deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.6.2"
   ],
   "Uploaders": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
+    "Doug Torrance \u003cdtorrance@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/mpmath"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/python-team/packages/mpmath.git"
   ],
   "Version": [
-    "1.2.1-2"
+    "1.3.0-1"
   ]
 }

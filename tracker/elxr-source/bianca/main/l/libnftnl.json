@@ -6,22 +6,25 @@
     "libnftnl11, libnftnl-dev, libnftnl-dev-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), doxygen, libmnl-dev, libtool, pkg-config"
+    "debhelper-compat (= 13), libmnl-dev, libtool, pkgconf"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "0aaa4d2d8ed4df52c8962bb6febd2b3503616916 10456 libnftnl_1.2.4-2.debian.tar.xz 4bc85a0b32c0310a0d6a0e27a5889e334efefea2 2146 libnftnl_1.2.4-2.dsc a0643322bbfdc7c0abb882af329532823a284c70 395444 libnftnl_1.2.4.orig.tar.bz2"
+    "6e57903ee3e06d540f786bffe82a8d4439ebb306 11476 libnftnl_1.2.9-1.debian.tar.xz f2683b0bcf4cd115f03dd073eeb58e43ab488c7e 2510 libnftnl_1.2.9-1.dsc 67f6106de304fc5933ab63e5a2b7058f78667277 345708 libnftnl_1.2.9.orig.tar.xz e39660605cc3e20994ea1b83cfee01186bac4d6a 833 libnftnl_1.2.9.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "3e60b1e3d61c407659038b89ae16ae66c981462b5dcf5cdaa25492b1b63704c0 10456 libnftnl_1.2.4-2.debian.tar.xz a0812fb74597e5745015fb00e6607b1f7b89a4a3bb069c48eaefa13d370f2044 2146 libnftnl_1.2.4-2.dsc c0fe233be4cdfd703e7d5977ef8eb63fcbf1d0052b6044e1b23d47ca3562477f 395444 libnftnl_1.2.4.orig.tar.bz2"
+    "19240df10e687dfb6553865de1375b4333c66b9ee4b58a2e31a1990ecc87a332 11476 libnftnl_1.2.9-1.debian.tar.xz 579fe22c431ab4add875e177193fd3fbe34ce856e24c901f278e4937a459bc34 2510 libnftnl_1.2.9-1.dsc e8c216255e129f26270639fee7775265665a31b11aa920253c3e5d5d62dfc4b8 345708 libnftnl_1.2.9.orig.tar.xz 7b931be802b8d056dd936edd6f7a80dddf67ab0dacdb3507b7e44dfeb5e424ee 833 libnftnl_1.2.9.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "a0aa9e7d40a4bf6012a83144f6cdd0d292bb797891da06bf474cfef264c6ee09ff7ab87e706a7f01954e591ba4b3ee2ab9bc6e820b4fe154da9b6968ad1b9d37 10456 libnftnl_1.2.4-2.debian.tar.xz 0fddb0902da36419a61338d4abc8c4b92a14a7c9413573b594538ec90c0d92d4ccceb9b91b5098f2e6b22e7e503b8ba5ee1f7f923b5c318a3166238a26a76c0b 2146 libnftnl_1.2.4-2.dsc 5375d1d15627aabf25129433630395f53009b22a255fcd113b302af7f2f0a234fd54c827b0ef1c8fd3a13e272a1696f780560672d4af6abad0e19805f9d56326 395444 libnftnl_1.2.4.orig.tar.bz2"
+    "5c3ce4109f527f6b64c1163f5da9cf5711ddcd28300d253172b2f985faffb260a904e5fbda8ef9a6f7563517b07ce5034f4a76964bc3b245cd61e1f7425c0165 11476 libnftnl_1.2.9-1.debian.tar.xz a3bea08995a41386116430132dcb36c66a9855860b2e81691a76afeb6706c0e81d1b30f4107fe059839857012b41c4d26dddf85c18706d714371d979ac2898b8 2510 libnftnl_1.2.9-1.dsc 48f6a3e67ad368340690bed2c8db8d0fab5528f23bc9cf3f5f6dca81c90db340b526d7dbeff1fb59989337e80d3b16cf02443e2a2d5c07b54c8963d2bf4c56e3 345708 libnftnl_1.2.9.orig.tar.xz 1c4bc0a6fb8038c3b9001b6500162b847ba51855972ce84b4d01aa7c74539f4ee0b6c577671c46b329aaba7fc1b599a6405d2709cee7e36b56a224aefbafe2d7 833 libnftnl_1.2.9.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/libn/libnftnl"
   ],
   "Files": [
-    "44c7672474474dd4b39a2cc8a12c8d40 10456 libnftnl_1.2.4-2.debian.tar.xz b1abea7e4abdf13c63f9caa74d483715 2146 libnftnl_1.2.4-2.dsc a7c7fb7faf67d8a053be8c263f48a9c0 395444 libnftnl_1.2.4.orig.tar.bz2"
+    "f9550843a2f4269f513a83390cb687c7 11476 libnftnl_1.2.9-1.debian.tar.xz 1da16de972733ea22c2e0edd14f2708a 2510 libnftnl_1.2.9-1.dsc eee815df36ff4c98bf1b2c01a8350c32 345708 libnftnl_1.2.9.orig.tar.xz dc304b64c1dfe1a1eab9cbf7ca49b662 833 libnftnl_1.2.9.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,19 +33,19 @@
     "https://git.netfilter.org/libnftnl"
   ],
   "Maintainer": [
-    "Debian Netfilter Packaging Team \u003cpkg-netfilter-team@lists.alioth.debian.org\u003e"
+    "Debian Netfilter Packaging Team \u003cteam+pkg-netfilter-team@tracker.debian.org\u003e"
   ],
   "Package": [
     "libnftnl"
   ],
   "Package-List": [
-    "libnftnl-dev deb libdevel optional arch=linux-any libnftnl-dev-doc deb doc optional arch=all libnftnl11 deb libs optional arch=linux-any"
+    "libnftnl-dev deb libdevel optional arch=linux-any libnftnl-dev-doc deb doc optional arch=all profile=!nodoc libnftnl11 deb libs optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Arturo Borrero Gonzalez \u003carturo@debian.org\u003e"
+    "Arturo Borrero Gonzalez \u003carturo@debian.org\u003e, Jeremy Sowden \u003cazazel@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/pkg-netfilter-team/pkg-libnftnl"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/pkg-netfilter-team/pkg-libnftnl.git"
   ],
   "Version": [
-    "1.2.4-2"
+    "1.2.9-1"
   ]
 }

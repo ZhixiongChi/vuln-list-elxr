@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libkf6filemetadata-bin, libkf6filemetadata-data, libkf6filemetadata-dev, libkf6filemetadata-dev-tools, libkf6filemetadata-doc, libkf6filemetadata3"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.16~), doxygen, extra-cmake-modules (\u003e= 6.13.0~), libappimage-dev (\u003e= 0.1.10~) [linux-any], libattr1-dev, libavcodec-dev (\u003e= 7:3.1~), libavdevice-dev (\u003e= 3.1~), libavformat-dev (\u003e= 7:3.1~), libavutil-dev, libepub-dev, libexiv2-dev (\u003e= 0.26~), libkf6archive-dev (\u003e= 6.13.0~), libkf6codecs-dev (\u003e= 6.13.0~), libkf6config-dev (\u003e= 6.13.0~), libkf6coreaddons-dev (\u003e= 6.13.0~), libkf6i18n-dev (\u003e= 6.13.0~), libpoppler-qt6-dev (\u003e= 0.12.1) [!i386], libpostproc-dev, libqmobipocket6-dev (\u003e= 4:2.1~), libswscale-dev (\u003e= 7:3.1~), libtag-dev (\u003e= 1.12~), libxkbcommon-dev, pkgconf, python3:any, qt6-base-dev (\u003e= 6.6.0~), qt6-tools-dev (\u003e= 6.5.0~)"
+  ],
+  "Checksums-Sha1": [
+    "2d3d8fa5195c1bcd5b9cf54394360e59fd0d6f9a 19180 kf6-kfilemetadata_6.13.0-1.debian.tar.xz e34151790d881357179f6b422e354e146959146f 3615 kf6-kfilemetadata_6.13.0-1.dsc 4c31b9dbcc8a278d422ded984b1d7eff09fb584c 695316 kf6-kfilemetadata_6.13.0.orig.tar.xz d8e605461880ec084e1f72b35119e58c47cbc002 228 kf6-kfilemetadata_6.13.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "fd1d68450ac5e73a37f851a7de46614855b58a15b40ea22aff099a6cc3b9c218 19180 kf6-kfilemetadata_6.13.0-1.debian.tar.xz cb0e07d344891ffadd3834fad741f67b2540b7aaae4f0e6feb7ee524d288a9b7 3615 kf6-kfilemetadata_6.13.0-1.dsc 090fcd05577cd7940e7072fcf8855f1a7f076ff09ae3397bbfa40681dea4be9e 695316 kf6-kfilemetadata_6.13.0.orig.tar.xz c77f0e925e1bc6e01014d8582e82af786a58af4be9d0c7bf3ac6bf43e2be265e 228 kf6-kfilemetadata_6.13.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "e4be891badf7d12fd097df175e1810d95891e40ef09c504c4fd8969ed472c869d5f13caba12677e5cafdcc766582fb540545b457bb8f7eff5f0c8cc004609858 19180 kf6-kfilemetadata_6.13.0-1.debian.tar.xz 8b860ae35f4955c05ff22a4ec7fc6a9255c65f1f1fbd6ecaf9d6b68df40ce28eb4674d3e573d45c0fe671d54d6bdc3f022f1bdf04a656bb99ac254853a368401 3615 kf6-kfilemetadata_6.13.0-1.dsc 738d6e3502275e1333249b4865e032ecf29ac8aa7ffcba80423657fc4f294cd6f03117271d303eabd5b0207fec2e5ec2de616da0a0602d662bba935fcd56c64f 695316 kf6-kfilemetadata_6.13.0.orig.tar.xz fd7d39822c43e9bfdd86b0ed8259fb5d76fed1db9fe896d5c01be496cfc1edd3816c294309ffe1d34f72aa70949c5f2529a021007eef4270ea175111ab62b1d7 228 kf6-kfilemetadata_6.13.0.orig.tar.xz.asc"
+  ],
+  "Directory": [
+    "pool/main/k/kf6-kfilemetadata"
+  ],
+  "Files": [
+    "4c56df9f26a8bb9e617f9cf930c80a54 19180 kf6-kfilemetadata_6.13.0-1.debian.tar.xz 33424d0018b935d4f5f3f34c2cf71e03 3615 kf6-kfilemetadata_6.13.0-1.dsc 45779ed91f44700ff9d80082bb1c3843 695316 kf6-kfilemetadata_6.13.0.orig.tar.xz eab189225d8903a6e0d49357dce5a573 228 kf6-kfilemetadata_6.13.0.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/frameworks/kfilemetadata"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "kf6-kfilemetadata"
+  ],
+  "Package-List": [
+    "libkf6filemetadata-bin deb kde optional arch=any libkf6filemetadata-data deb kde optional arch=all libkf6filemetadata-dev deb libdevel optional arch=any libkf6filemetadata-dev-tools deb libdevel optional arch=any libkf6filemetadata-doc deb doc optional arch=all libkf6filemetadata3 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-acc, exuberant-ctags"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/kf6-kfilemetadata"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/kf6-kfilemetadata.git"
+  ],
+  "Version": [
+    "6.13.0-1"
+  ]
+}

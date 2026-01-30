@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libheif1, libheif-dev, libheif-examples, heif-thumbnailer, heif-gdk-pixbuf"
+    "libheif1, libheif-plugin-aomdec, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif-plugin-ffmpegdec, libheif-plugin-j2kdec, libheif-plugin-j2kenc, libheif-plugin-jpegdec, libheif-plugin-jpegenc, libheif-plugin-kvazaar, libheif-plugin-libde265, libheif-plugin-rav1e, libheif-plugin-svtenc, libheif-plugin-x265, libheif-plugins-all, libheif-dev, libheif-examples, heif-thumbnailer, heif-gdk-pixbuf"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), libaom-dev, libdav1d-dev, libde265-dev (\u003e= 1.0.7), libgdk-pixbuf2.0-dev, libjpeg-dev, libpng-dev, libx265-dev, pkg-config"
+    "cmake, debhelper-compat (= 13), libaom-dev, libavcodec-dev, libdav1d-dev, libde265-dev (\u003e= 1.0.7), libgdk-pixbuf-2.0-dev, libjpeg-dev, libkvazaar-dev, libopenjp2-7-dev, libpng-dev, librav1e-dev [amd64 arm64 armel armhf mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x], libsharpyuv-dev, libsvtav1enc-dev, libx265-dev, libz-dev, pkgconf"
   ],
   "Checksums-Sha1": [
-    "69cf534d0bef9f67004543eea7b2daf1d1a8464b 11400 libheif_1.15.1-1+deb12u1.debian.tar.xz 27d19770fd9ba59a1e70eca4245fcbdf4b17c8c2 2325 libheif_1.15.1-1+deb12u1.dsc c73aa096a5e218ff7dfdfacaa4c574843a43a380 1749018 libheif_1.15.1.orig.tar.gz"
+    "3cc0ce48bf7e4a98148d7b6296175486355784c5 12260 libheif_1.19.8-1.debian.tar.xz cb76ea0df17406744d290de4d16427a683ac648e 3631 libheif_1.19.8-1.dsc 75da1da1b62d015e6afba8669b29e0f7ab967ec9 1718218 libheif_1.19.8.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "f3a042fce4231e8feddd032bf93b808a6db96614c20888b78d1042a15e378817 11400 libheif_1.15.1-1+deb12u1.debian.tar.xz e89ce8b9cefe4a72050d2076e0d63206eab20d7b2b8bb699ae576e89073143f3 2325 libheif_1.15.1-1+deb12u1.dsc 28d5a376fe7954d2d03453f983aaa0b7486f475c27c7806bda31df9102325556 1749018 libheif_1.15.1.orig.tar.gz"
+    "a51ba863ca4f99b5aa1c2468f492b75b909449a941459d93fca9e1a1ee904e5f 12260 libheif_1.19.8-1.debian.tar.xz c0fe86feee6e4ffaae774f53c4d33810095fc6c91e48239dbc4fb2d825c3d22e 3631 libheif_1.19.8-1.dsc 6c4a5b08e6eae66d199977468859dea3b5e059081db8928f7c7c16e53836c906 1718218 libheif_1.19.8.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "189ce0647785fe09973945d248bae121dd3f025eafafe789d95f1a3294a8c4370dc31dcd14dd6ccc7a5e8afc67dfaafff6f30c8455c3f3e3208e6e18878f7a8b 11400 libheif_1.15.1-1+deb12u1.debian.tar.xz 5be33bdcba6fb81a65e97391e14a3840150d538763b6f41e00a9873dc07344ad3395eb7bd3f2f2ce9671f2e674ff5eb52167beca1af1856582ace5bfe42bca8f 2325 libheif_1.15.1-1+deb12u1.dsc 057569fd95bed05d8543368202ea8881801978d7e21556a1f8b851ee2d40d2eecc94d2209d29a8cd555f588bf38078e382ef46c3d97a84fd598ea42a9e3de639 1749018 libheif_1.15.1.orig.tar.gz"
+    "5aaeb0e0d27e2246d3a90b50893d0f9def97842f7e0f95f73cc62b0b50da120731b322cb26b5ebad2c2427ad1dabc6851bb63496b616185709d8a92e15e8e8de 12260 libheif_1.19.8-1.debian.tar.xz 612c7ca24da8d43e83b7e25703cd998ae2497bcc95debb25048cc36f1f4d3aec0cb77f8219fbe0f9be73838bb8b34562226581c8960a7ce91b8c065632b22a34 3631 libheif_1.19.8-1.dsc ccb7359c2a7632fd598bb82d238482652fec58c8cebfecd3c2fef07d814d6e623d7916db18eeb47887f1c32bbdbb80680533643b7610880844e1dee3e128cade 1718218 libheif_1.19.8.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libh/libheif"
   ],
   "Files": [
-    "0bef8ad2609151c32203f66cbbd1537c 11400 libheif_1.15.1-1+deb12u1.debian.tar.xz 32777a256e105ebe58465221caa6f429 2325 libheif_1.15.1-1+deb12u1.dsc 220c2e35176cf88b48f943b0cdd0fd8e 1749018 libheif_1.15.1.orig.tar.gz"
+    "601a414e39f16209190da7dbcf587398 12260 libheif_1.19.8-1.debian.tar.xz 50547ad8ac1174e1be080940e9d5c2aa 3631 libheif_1.19.8-1.dsc 91d2d2f0ffda76180eebe30ee6e9709d 1718218 libheif_1.19.8.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,16 @@
     "libheif"
   ],
   "Package-List": [
-    "heif-gdk-pixbuf deb graphics optional arch=any heif-thumbnailer deb graphics optional arch=any libheif-dev deb libdevel optional arch=any libheif-examples deb video optional arch=any libheif1 deb libs optional arch=any"
+    "heif-gdk-pixbuf deb graphics optional arch=any heif-thumbnailer deb graphics optional arch=any libheif-dev deb libdevel optional arch=any libheif-examples deb video optional arch=any libheif-plugin-aomdec deb libs optional arch=any libheif-plugin-aomenc deb libs optional arch=any libheif-plugin-dav1d deb libs optional arch=any libheif-plugin-ffmpegdec deb libs optional arch=any libheif-plugin-j2kdec deb libs optional arch=any libheif-plugin-j2kenc deb libs optional arch=any libheif-plugin-jpegdec deb libs optional arch=any libheif-plugin-jpegenc deb libs optional arch=any libheif-plugin-kvazaar deb libs optional arch=any libheif-plugin-libde265 deb libs optional arch=any libheif-plugin-rav1e deb libs optional arch=amd64,arm64,armel,armhf,mips64el,mipsel,powerpc,ppc64,ppc64el,riscv64,s390x libheif-plugin-svtenc deb libs optional arch=any libheif-plugin-x265 deb libs optional arch=any libheif-plugins-all deb libs optional arch=any libheif1 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
   ],
   "Uploaders": [
-    "Joachim Bauch \u003cbauch@struktur.de\u003e"
+    "Joachim Bauch \u003cfancycode@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/multimedia-team/libheif"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/multimedia-team/libheif.git"
   ],
   "Version": [
-    "1.15.1-1+deb12u1"
+    "1.19.8-1"
   ]
 }

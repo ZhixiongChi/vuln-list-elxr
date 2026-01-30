@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "all amd64 armhf i386 powerpc s390x arm64 ppc64el"
+    "any all"
   ],
   "Binary": [
     "scilab-cli, scilab, scilab-data, scilab-include, scilab-minimal-bin, scilab-full-bin, scilab-doc, scilab-doc-fr, scilab-doc-pt-br, scilab-doc-ja, scilab-test"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gfortran, time, default-jdk, chrpath, ocaml-nox, libnum-ocaml-dev, fakeroot, tcl-dev, tk-dev, libxml2-dev, libpcre3-dev, libcurl4-openssl-dev, gettext, libreadline-dev, pkg-config, procps, dpkg-dev, libblas-dev | librefblas3-dev | libatlas-base-dev, liblapack-dev, libarpack2-dev, libeigen3-dev, default-jre-headless, libflexdock-java, libjogl2-java, libgl1-mesa-dev, libjrosetta-java, ant, libjgoodies-looks-java, libskinlf-java, liblucene4.10-java, libactivation-java, libjaxb-java, libfreehep-graphics2d-java, libfreehep-graphicsio-java, libfreehep-graphicsio-emf-java, libfreehep-util-java, libjeuclid-core-java, libbatik-java, fop, javahelp2, libsaxon-java, libavalon-framework-java, docbook-xsl, libxml-commons-external-java, libfftw3-dev, libsuitesparse-dev, libmatio-dev (\u003e= 1.5.18), libjlatexmath-java, libjlatexmath-fop-java, libjgraphx-java, libhdf5-dev, mpi-default-dev, libecj-java, ant-optional, junit4, libcobertura-java"
+    "debhelper-compat (= 13), bash-completion, chrpath, fakeroot, gfortran, javahelper, libarchive-dev, libcurl4-openssl-dev, libnum-ocaml-dev, libpcre2-dev, libxml2-dev, pkgconf, tcl-dev, time, tk-dev, libarpack2-dev, libblas-dev | libblas.so, libeigen3-dev, liblapack-dev, ant, default-jdk, libactivation-java, libflexdock-java, libgl-dev, libjakarta-activation-java, libjaxb-java, libjgoodies-looks-java, libjogl2-java (\u003e= 2.4.0+dfsg), libjrosetta-java, liblucene8-java, libskinlf-java, libfreehep-graphicsio-emf-java, libfreehep-graphicsio-java, libfreehep-graphics2d-java, libfreehep-util-java, docbook-xsl, fop, javahelp2, libavalon-framework-java, libbatik-java, libjeuclid-core-java, libsaxonhe-java, libxml-commons-external-java, libfftw3-dev, libmatio-dev, libsuitesparse-dev, libjlatexmath-fop-java, libjlatexmath-java, libhdf5-dev, libjgraphx-java, mpi-default-dev, libeclipse-jdt-core-java, ant-optional \u003c!nocheck\u003e, junit4 \u003c!nocheck\u003e, libcobertura-java \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "03bb2b411780de33f27ecf811ce073618ded5103 39160 scilab_6.1.1+dfsg2-6.debian.tar.xz 822c160a5e7aaca4363c426360fedfa9d0c2d44a 3637 scilab_6.1.1+dfsg2-6.dsc fb2bde6408fb18543efe968f69fbd084f6cd013c 61827136 scilab_6.1.1+dfsg2.orig.tar.xz"
+    "aa40f248f3639e2631eedd712a19b1bc48767cdc 70692 scilab_2024.1.0+dfsg-6.debian.tar.xz 216de69f75f7276ec86390aaf9fbbb8150911ab3 3570 scilab_2024.1.0+dfsg-6.dsc ec6ab0459b774eb2797417ca9cf32269235ee588 62815984 scilab_2024.1.0+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "e5bb83515cf0e47a7ca0766c23fd70c6e092b1ca0324e52fe454ed988b23c363 39160 scilab_6.1.1+dfsg2-6.debian.tar.xz e2db0e144e40e94fb50fcc1fd7c08c29dad150098ea69c2984c87031e5febffd 3637 scilab_6.1.1+dfsg2-6.dsc 0034d7fb1c4c45cdefd3ecf533d706b2526a5a51cc2fe699fc90378657998770 61827136 scilab_6.1.1+dfsg2.orig.tar.xz"
+    "106a23b445a43fb3bc713cd86a38ac3d7938bf8c47f0c4833c299f0d9046b6dc 70692 scilab_2024.1.0+dfsg-6.debian.tar.xz 76576074add70b7276c81122683fd8e6c8584762a9240ba4b54840e95d55e576 3570 scilab_2024.1.0+dfsg-6.dsc 10d9ea33a67d9a451710f72744f71451014b904900c5779f4e0fc089c515414b 62815984 scilab_2024.1.0+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "8a8a5ab73cc3bbe2ce0d604a4c95df0a44ad276f84450677a6a5ef0361c2590834380655238f7c9a627573028ee39f4d6125694835b827fd2728915463811c25 39160 scilab_6.1.1+dfsg2-6.debian.tar.xz 80e67c96ac0091571a0633fdca553a568000886ac3de72adccf2362e2aa892fbdd0f6e998ef4b3163611fdba7645ef6df14f68d7bafa492c2906052a7543fbee 3637 scilab_6.1.1+dfsg2-6.dsc 7cb0da008bc15b29f49c3ba760dbed9be0a2438e6afe2a559d110fb3b9b9be4ba8ad8896e65cf863f90ce3ac6aed875bd93439fafb5f09d2a3ebc0733f386ac4 61827136 scilab_6.1.1+dfsg2.orig.tar.xz"
+    "6bc19432333f9d4e947bad0ba04d239f84dd054610b7b91f4b6826b063e458ad315fef5df4ee7ce6e5508335f329c01f8864237fc9d6ed1fb773663bca8d50f8 70692 scilab_2024.1.0+dfsg-6.debian.tar.xz f6a368da276e2f91e71f111213a44a02f32113e76dede896958d2d9a889123d0319e49b7e3403feb0293ef5a158a329546c5f6c4ac66ce1946b657c809140bea 3570 scilab_2024.1.0+dfsg-6.dsc 89030d945b5b2c3386be8ae5c9e54c88f2b41e3b2cb3318b71a709e6bc8e66fe4bfe2a91d6e0b88b0a420cca7da75a56ded05790cd1e7c6d43885d42f542b069 62815984 scilab_2024.1.0+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/s/scilab"
   ],
   "Files": [
-    "f7b2268eb4508f35735eecb65eed19e2 39160 scilab_6.1.1+dfsg2-6.debian.tar.xz 70ebdb16edb8bf950bb339dfd3e91673 3637 scilab_6.1.1+dfsg2-6.dsc 608adc7616c6fd99c7480d23113216d0 61827136 scilab_6.1.1+dfsg2.orig.tar.xz"
+    "e24166efaa49ea9cddb1cfb2a5df848f 70692 scilab_2024.1.0+dfsg-6.debian.tar.xz eeafad02ed955ce8db3911e183bc8914 3570 scilab_2024.1.0+dfsg-6.dsc 01e8266afed65f8dae1451d6b3801f1d 62815984 scilab_2024.1.0+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,16 @@
     "scilab"
   ],
   "Package-List": [
-    "scilab deb math optional arch=all scilab-cli deb math optional arch=all scilab-data deb math optional arch=all scilab-doc deb doc optional arch=all scilab-doc-fr deb doc optional arch=all scilab-doc-ja deb doc optional arch=all scilab-doc-pt-br deb doc optional arch=all scilab-full-bin deb math optional arch=amd64,armhf,i386,powerpc,s390x,arm64,ppc64el scilab-include deb math optional arch=amd64,armhf,i386,powerpc,s390x,arm64,ppc64el scilab-minimal-bin deb math optional arch=amd64,armhf,i386,powerpc,s390x,arm64,ppc64el scilab-test deb math optional arch=all"
+    "scilab deb math optional arch=all scilab-cli deb math optional arch=all scilab-data deb math optional arch=all scilab-doc deb doc optional arch=all scilab-doc-fr deb doc optional arch=all scilab-doc-ja deb doc optional arch=all scilab-doc-pt-br deb doc optional arch=all scilab-full-bin deb math optional arch=any scilab-include deb math optional arch=any scilab-minimal-bin deb math optional arch=any scilab-test deb math optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, xauth, xvfb"
   ],
   "Uploaders": [
     "Julien Puydt \u003cjpuydt@debian.org\u003e, Pierre Gruet \u003cpgt@debian.org\u003e"
@@ -51,6 +57,6 @@
     "https://salsa.debian.org/science-team/scilab.git"
   ],
   "Version": [
-    "6.1.1+dfsg2-6"
+    "2024.1.0+dfsg-6"
   ]
 }

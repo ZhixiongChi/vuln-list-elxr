@@ -9,25 +9,25 @@
     "debhelper-compat (= 13)"
   ],
   "Checksums-Sha1": [
-    "da6ec0d4dd4b60683945963a82fc7ee7f14b8359 7028 tree_2.1.0-1.debian.tar.xz e4f5a9e0e35e6f36bcb18545f6d2c1e93aab2901 1802 tree_2.1.0-1.dsc 68a3e519e40805ca54bf71b746951e3bd96e48fe 59189 tree_2.1.0.orig.tar.gz"
+    "5281b5c29ef3ded6eaec4fbf336d2ad9a442c36e 9108 tree_2.2.1-1.debian.tar.xz a19e83cbe0c42f7ed612345ddb8c4221a1217bec 1869 tree_2.2.1-1.dsc 17caabcce65f80975a0442ad049176d9099cd45e 65505 tree_2.2.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "0ae973a28a78f2cb490d98d92897d1582ef9aac7ecd61cae91a6fdb0fea61db6 7028 tree_2.1.0-1.debian.tar.xz 57da9be8a9c455077bae9e4909fab01cc62b25dbdea64042b4afbc403d599410 1802 tree_2.1.0-1.dsc 0160c535bff2b0dc6a830b9944e981e3427380f63e748da96ced7071faebabf6 59189 tree_2.1.0.orig.tar.gz"
+    "cea317d7c9e7a748ea759a5bc9e2c485b5f010bfc88fe606024626b68b4c6cf6 9108 tree_2.2.1-1.debian.tar.xz 812efddbe39e86a1377cc744e5e198f1333442fe417cb14f44075cd6cb311187 1869 tree_2.2.1-1.dsc 68ac45dc78c0c311ada06200ffc3c285e74223ba208061f8d15ffac25e44b2ec 65505 tree_2.2.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "6c32658106c849144d68fecd88ab08b2c46f20f9961fb7c83d48df5d96bd2edb59bf84aa8e5ca130fd2d6bd4290373328eec11f48fd4c7e508261495acc463a0 7028 tree_2.1.0-1.debian.tar.xz 24d51e6a998203f6fa2cacdf9154bf32ff3cb2df38ba220320521417df2549173d391adf760a0ecfe09d4e1aec0a02004976bea559ea62846228b2340293ae0e 1802 tree_2.1.0-1.dsc 17947b17e5fd4d06aea17be0cb107340a0537fb60cd5ee76524ef6eca37a775dbe9a4a7060d54f90a64ac1310131bf76b878fdb4384ab1a5fcb3180787c35a87 59189 tree_2.1.0.orig.tar.gz"
+    "6fc092a9c446f79bb3dbbaf9624cd43a650dc24348df0e04be50c36441fdafb1844352cbe1310387119e169569e5d6cbdf037562d5c0af223561e42008124cd7 9108 tree_2.2.1-1.debian.tar.xz 08a75f516972c8a5374d181a761770458267523fc7612909c1cf87fa3757bccd4c26b7974c0fd35cd10fee974a9cab2bb3daa50eff9d366b12f81a9641123380 1869 tree_2.2.1-1.dsc 198282730a41c0311eca4d7e1d2db45fc7b42bf12d2f5a7ef47e295715f416df6812bb20e3af8c2550281894cd961f4c569080a4914c6d478d3d18d364435da9 65505 tree_2.2.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/t/tree"
   ],
   "Files": [
-    "1931e13db189da303cb3474e040d5765 7028 tree_2.1.0-1.debian.tar.xz cdb55e2299a99c6d77fdb515a50076c1 1802 tree_2.1.0-1.dsc 50aa5cdb28df6340ef67a3a3ec953ffc 59189 tree_2.1.0.orig.tar.gz"
+    "1c86c3d4f104be9d8c19f6743a97b998 9108 tree_2.2.1-1.debian.tar.xz 1e305613e5ac73eaef0d4b3fc82a23db 1869 tree_2.2.1-1.dsc 6a0a8e8a0904efdba1faff9f8399cb88 65505 tree_2.2.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://mama.indstate.edu/users/ice/tree/"
+    "http://oldmanprogrammer.net/source.php?dir=projects/tree"
   ],
   "Maintainer": [
     "Florian Ernst \u003cflorian@debian.org\u003e"
@@ -39,7 +39,13 @@
     "tree deb utils optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "clitest"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/tree-packaging"
@@ -48,6 +54,6 @@
     "https://salsa.debian.org/debian/tree-packaging.git"
   ],
   "Version": [
-    "2.1.0-1"
+    "2.2.1-1"
   ]
 }

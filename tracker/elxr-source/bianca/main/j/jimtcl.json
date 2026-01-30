@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "jimsh, libjim-dev, libjim0.81"
+    "jimsh, libjim-dev, libjim0.83"
   ],
   "Build-Depends": [
-    "asciidoc, debhelper-compat (= 13)"
+    "dpkg-dev (\u003e= 1.22.5), asciidoc, debhelper-compat (= 13), libssl-dev, pkgconf"
   ],
   "Checksums-Sha1": [
-    "2db5f30d434dd794952f99b616eff35e9dc6fb8d 8872 jimtcl_0.81+dfsg0-2.debian.tar.xz 8be053e1e75286f9d8b07484a146df9881a7a416 1779 jimtcl_0.81+dfsg0-2.dsc af1972e0a343e537011fd3125a1c9d147bd25a50 3977705 jimtcl_0.81+dfsg0.orig.tar.gz"
+    "359ab9718ea1ca92cbd5652277f1ca0a3e77c493 10532 jimtcl_0.83-2.debian.tar.xz f7ca87e8c187be2ebdbbd6fbf77c1dbb5ad5da2f 1933 jimtcl_0.83-2.dsc 96a8c32eea81d218ff2f80f4a42ea71c3e94824d 4465834 jimtcl_0.83.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "e395fc84c7b6aaa4a06cb03ada9aac09f29e26b1a1ee49718d4c7ed9f477c770 8872 jimtcl_0.81+dfsg0-2.debian.tar.xz 36fbb05f392ea08cdf4566ff9956de324f248480b4b4d5125513b8f59c6d2973 1779 jimtcl_0.81+dfsg0-2.dsc ab7eb3680ba0d16f4a9eb1e05b7fcbb7d23438e25185462c55cd032a1954a985 3977705 jimtcl_0.81+dfsg0.orig.tar.gz"
+    "6ed47f2cc8afcdab0a5d8409c0c0e6195a4813eee8126533a05477c89f37d782 10532 jimtcl_0.83-2.debian.tar.xz b613d01c8da884cfe2e6f5f30ca6da20f33cc6054527030e51dd50048b3d1d9e 1933 jimtcl_0.83-2.dsc 6f2df00009f5ac4ad654c1ae1d2f8ed18191de38d1f5a88a54ea99cc16936686 4465834 jimtcl_0.83.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "ef5abc6484506262f347e1f73e3b50b0b3976446fcc9dbe141530dc84cc6cd21b6085e7021ded0493a99ed9a72486d298258bf81b8dac652116dcf4eec0df4c3 8872 jimtcl_0.81+dfsg0-2.debian.tar.xz 8bca48ba930f0605c7cd5c4ab56fef8e831ac6cee2177382e609095cc96b93f17f607f2accb49590101663ed8eeda5c2cdbc548c8e28900749fa7741334d5398 1779 jimtcl_0.81+dfsg0-2.dsc 5f798b15fd32673e2e2769e25c4dfeee43696e5bbd2d3ec3fd2f312fa49da9ef057fb4de81a10d3812dc07fb2e40ed79924b024e537e064d3213b10e06a416b6 3977705 jimtcl_0.81+dfsg0.orig.tar.gz"
+    "ce097499224428550976376a7ec80b180e81ce21ab103e3237a13c4e1417e630da355212cc391bc2dbcd3d6ce79ac1df35b0ae37e1a6bd1ba580df657eba1179 10532 jimtcl_0.83-2.debian.tar.xz 7c9c857031505d1c537adc281aa3a3276cb214bf98b689a6cd24ca86d3ef8fe325c6bcf1bb090d9ecbe07bf8e19d31d51adaf2d285b27bd68e88a96da423a2fb 1933 jimtcl_0.83-2.dsc fbdcb84eb5d6be55fbb8d192654e22e3bc6e0e2685bc68bd0e4e5cbf9ac9cde7012780b02b9c98830954d28733494d5aacd9595c4cec353dd0945ee09d4194b4 4465834 jimtcl_0.83.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/j/jimtcl"
   ],
   "Files": [
-    "21a14f43792949542bd834bac3241b89 8872 jimtcl_0.81+dfsg0-2.debian.tar.xz 7508f44b4dfd2be01244dab18a74d299 1779 jimtcl_0.81+dfsg0-2.dsc a6d232ed12f47c28b56c97a955448e34 3977705 jimtcl_0.81+dfsg0.orig.tar.gz"
+    "41c2f08d7f9fb69d816186c98a656eb1 10532 jimtcl_0.83-2.debian.tar.xz cb9fb07941da77ac964aca6a083f1612 1933 jimtcl_0.83-2.dsc d71bbf22ce74b5e8d90962990be3af43 4465834 jimtcl_0.83.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "jimtcl"
   ],
   "Package-List": [
-    "jimsh deb devel optional arch=any libjim-dev deb libdevel optional arch=any libjim0.81 deb libs optional arch=any"
+    "jimsh deb devel optional arch=any libjim-dev deb libdevel optional arch=any libjim0.83 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/jimtcl"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/jimtcl.git"
   ],
   "Version": [
-    "0.81+dfsg0-2"
+    "0.83-2"
   ]
 }

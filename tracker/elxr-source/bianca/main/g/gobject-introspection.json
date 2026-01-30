@@ -3,31 +3,31 @@
     "any all"
   ],
   "Binary": [
-    "libgirepository-1.0-1, libgirepository1.0-dev, libgirepository1.0-doc, gobject-introspection, gir1.2-glib-2.0, gir1.2-freedesktop"
+    "libgirepository-1.0-1, libgirepository1.0-dev, libgirepository-1.0-dev, libgirepository1.0-doc, gobject-introspection, gobject-introspection-bin, gir1.2-girepository-2.0, gir1.2-girepository-2.0-dev, gir1.2-freedesktop, gir1.2-freedesktop-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gnome, dh-sequence-python3, meson (\u003e= 0.60.0), python3:native, python3-debian:native, python3-dev, python3-distutils, pkg-config, flex, gtk-doc-tools, bison, libglib2.0-dev (\u003e= 2.74.0), libcairo2-dev, libffi-dev (\u003e= 3.4), libtool, python3-mako, python3-markdown"
+    "bison, debhelper-compat (= 13), dh-sequence-python3, flex, gir1.2-glib-2.0-dev (\u003e= 2.82.0) \u003c!nogir\u003e, gobject-introspection (\u003e= 1.78.1-17~) \u003ccross !nogir\u003e, libcairo2-dev, libelf-dev, libelf-dev:native, libffi-dev (\u003e= 3.4), libglib2.0-dev (\u003e= 2.82.0), libpython3-dev, meson (\u003e= 1.4.0), pkgconf, python3-debian:native, python3-dev:any, python3-docutils \u003c!nodoc\u003e, python3-mako:native, python3-markdown (\u003e= 3.7-2~) | python3-markdown:native, python3-setuptools, python3:native, cross-exe-wrapper \u003ccross\u003e"
   ],
   "Build-Depends-Indep": [
-    "libglib2.0-doc (\u003e= 2.73.0)"
+    "gtk-doc-tools, libglib2.0-doc (\u003e= 2.82.0)"
   ],
   "Checksums-Sha1": [
-    "979b878ca9e79cffcf73097595e3b8d2061a64ac 39496 gobject-introspection_1.74.0-3.debian.tar.xz 376b6351a84f88feef5a2377f0f1e213d996fcac 3473 gobject-introspection_1.74.0-3.dsc c7900f6b6baaa1321b856605aa1b7fd35046eac3 5183072 gobject-introspection_1.74.0.orig-glib.tar.xz e5af80651b2a39aa89bcbf7523e3f62cb7b7d3ca 1044008 gobject-introspection_1.74.0.orig.tar.xz"
+    "d69c63fc1c3e9e428ad29d4b7bb6cb1db49b7130 58824 gobject-introspection_1.84.0-1.debian.tar.xz 0786d7eda10fb077ab83e2bb6fa1e4962371cc08 4202 gobject-introspection_1.84.0-1.dsc a86f8979d6e2cba0ff9122a6f699025b2d81bab6 5475296 gobject-introspection_1.84.0.orig-glib.tar.xz ce0591f0249835db8e728a863e655564b2591be8 1080316 gobject-introspection_1.84.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "3bf1fd72184e0ed8310dbb26ede5e74055d89e523b17659878f0188c98dcf042 39496 gobject-introspection_1.74.0-3.debian.tar.xz 9ccfe4f005e7668ee58bebb238356535123a6fee29eaf91f85204ba37dd167dc 3473 gobject-introspection_1.74.0-3.dsc 3652c7f072d7b031a6b5edd623f77ebc5dcd2ae698598abcc89ff39ca75add30 5183072 gobject-introspection_1.74.0.orig-glib.tar.xz 347b3a719e68ba4c69ff2d57ee2689233ea8c07fc492205e573386779e42d653 1044008 gobject-introspection_1.74.0.orig.tar.xz"
+    "f06e9414cf0a6781ef133a5ba6234769b7bc0126f9fffefba08da590f7711351 58824 gobject-introspection_1.84.0-1.debian.tar.xz cf33962fbdb12b9562889b181ea1054b33dbcb11514c1873feab9e8bfabdd686 4202 gobject-introspection_1.84.0-1.dsc b3764dd6e29b664085921dd4dd6ba2430fc19760ab6857ecfa3ebd4e8c1d114c 5475296 gobject-introspection_1.84.0.orig-glib.tar.xz 945b57da7ec262e5c266b89e091d14be800cc424277d82a02872b7d794a84779 1080316 gobject-introspection_1.84.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "c57ef5e43c953dd0ff4379d5b7c7eaf819f41ee0dd47f484288601fb5b08e4ee1f0ae49320892258aa66c75ddca7997e72fdf7e976e93ce454166dacb3a60f66 39496 gobject-introspection_1.74.0-3.debian.tar.xz 302d338c6c4fba02f92d400b517016c6e847ee565776eb8e4122ca3bea18e544aee7c8a5055a793cbcc8938c285457b4c00c45c8f9cd67300b83023b7ec3bdaf 3473 gobject-introspection_1.74.0-3.dsc 5cdadd2f4568c0c3d45083b4d39699abf651e42e020f7bc880cce3ff33d28943118388d17a0632777e843f48009c1f97d5634fde3cb8c69c7c7f35b278ac8225 5183072 gobject-introspection_1.74.0.orig-glib.tar.xz decff5dda0ec5ec0afda4d6bcd3bdadcbf34289002c0d9c0c77ecf8c5d3f15d196b24d8035041545031006acbdfe76af47c42da061c40e200c87f2c74cd301f0 1044008 gobject-introspection_1.74.0.orig.tar.xz"
+    "16a4ab4ffcfe5492439f40ff35d1c2fe9737e34b0458f9e155189538b7fabd9b086fa4b69586e2d404ccc40ad0a612234e64a2fd3fc3833cd5db89018df26ad5 58824 gobject-introspection_1.84.0-1.debian.tar.xz 0d5587be0180225e62fb749c9c392a5edc133a3ca0d47ef49819a4ea7f43a1ba3cb2ca28bd14f030bd0f75184e8c81d5229c78be2e0785ac5601b09fffdf43cf 4202 gobject-introspection_1.84.0-1.dsc 6968ac28451a72f2d8d50ce31a887be2c26ae2bc5ddba1a4aadaafb955c1bb11576017084006d78a6e6f09e88696534b94eb50c61b0b0509695a547de34c7620 5475296 gobject-introspection_1.84.0.orig-glib.tar.xz 764b5071472f93ed62bd64983c16fc4f73d4e20575d31eb475b40f4c6643080249aec4c5e9536d0ade719a99844cefa5a6e902b4d58e5644d0c0793212da3e5b 1080316 gobject-introspection_1.84.0.orig.tar.xz"
   ],
   "Dgit": [
-    "c91cb697b583b5e60425c4a59c46df2f5b138cb2 debian archive/debian/1.74.0-3 https://git.dgit.debian.org/gobject-introspection"
+    "669bcc60ccb776dcad8d0171434518119b57ae18 debian archive/debian/1.84.0-1 https://git.dgit.debian.org/gobject-introspection"
   ],
   "Directory": [
     "pool/main/g/gobject-introspection"
   ],
   "Files": [
-    "5acabed7df4d157c6d79d51bc36d6a8e 39496 gobject-introspection_1.74.0-3.debian.tar.xz 873feb80297e015bc49a667eadc9ec8e 3473 gobject-introspection_1.74.0-3.dsc 06745709784eddb4a3860e1814f795e8 5183072 gobject-introspection_1.74.0.orig-glib.tar.xz ed4e290c5ca8737a62c9a7f5347ae10d 1044008 gobject-introspection_1.74.0.orig.tar.xz"
+    "863ec7a48fb8e1f08be1fed3e522f5ed 58824 gobject-introspection_1.84.0-1.debian.tar.xz 8f82eccf833c86eec79a692ca15aedbb 4202 gobject-introspection_1.84.0-1.dsc 9df2169686c0b7f891067017002ad111 5475296 gobject-introspection_1.84.0.orig-glib.tar.xz 2a62fb1c584616a8ebcd9dd4d045f27e 1080316 gobject-introspection_1.84.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,19 +42,19 @@
     "gobject-introspection"
   ],
   "Package-List": [
-    "gir1.2-freedesktop deb introspection optional arch=any gir1.2-glib-2.0 deb introspection optional arch=any gobject-introspection deb devel optional arch=any libgirepository-1.0-1 deb libs optional arch=any libgirepository1.0-dev deb libdevel optional arch=any libgirepository1.0-doc deb doc optional arch=all"
+    "gir1.2-freedesktop deb introspection optional arch=any profile=!nogir gir1.2-freedesktop-dev deb libdevel optional arch=any profile=!nogir gir1.2-girepository-2.0 deb introspection optional arch=any profile=!nogir gir1.2-girepository-2.0-dev deb libdevel optional arch=any profile=!nogir gobject-introspection deb devel optional arch=any gobject-introspection-bin deb devel optional arch=any libgirepository-1.0-1 deb libs optional arch=any libgirepository-1.0-dev deb libdevel optional arch=any libgirepository1.0-dev deb libdevel optional arch=any profile=!nogir libgirepository1.0-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential, file, gir1.2-gtk-3.0, libcairo2-dev"
+    "build-essential, file, gir1.2-gtk-3.0, libcairo2-dev, pkgconf"
   ],
   "Uploaders": [
-    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Matthias Klumpp \u003cmak@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e, Tim Lunn \u003ctim@feathertop.org\u003e"
+    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e, Matthias Klumpp \u003cmak@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e, Tim Lunn \u003ctim@feathertop.org\u003e, Simon McVittie \u003csmcv@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/gobject-introspection"
@@ -63,6 +63,6 @@
     "https://salsa.debian.org/gnome-team/gobject-introspection.git"
   ],
   "Version": [
-    "1.74.0-3"
+    "1.84.0-1"
   ]
 }

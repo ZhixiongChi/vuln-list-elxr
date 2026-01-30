@@ -6,22 +6,22 @@
     "xdg-user-dirs"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), docbook-xml, docbook-xsl, gnome-pkg-tools (\u003e= 0.19.8), xsltproc"
+    "debhelper-compat (= 13), dh-sequence-gnome, docbook-xml, docbook-xsl, xsltproc"
   ],
   "Checksums-Sha1": [
-    "4966973c030d110fb32ab4f77ad9db32666d16f0 4448 xdg-user-dirs_0.18-1.debian.tar.xz a38b9b06845c8d126b7e8bd367c4a08f07edbb68 2182 xdg-user-dirs_0.18-1.dsc 58587270fb85f33ec6d7ca194c48ddc82488e6d3 273556 xdg-user-dirs_0.18.orig.tar.gz"
+    "9d0d74ebc8f664d64d89763a96b538783b372fab 4364 xdg-user-dirs_0.18-2.debian.tar.xz 4087e6ff421f96effd3e5ef11d2d506479c656d4 2136 xdg-user-dirs_0.18-2.dsc 58587270fb85f33ec6d7ca194c48ddc82488e6d3 273556 xdg-user-dirs_0.18.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "ec600e795bf18f38b8918e93e685a20b7482eda3ddabb3debbf1104f691ad6b1 4448 xdg-user-dirs_0.18-1.debian.tar.xz ad366c644dcd081b82175a10a3b7bf4ab40603ee1b548d23797ed92c42a99a06 2182 xdg-user-dirs_0.18-1.dsc ec6f06d7495cdba37a732039f9b5e1578bcb296576fde0da40edb2f52220df3c 273556 xdg-user-dirs_0.18.orig.tar.gz"
+    "910ffd004e4e64fcc3a3f51c46ed396ed48b7f9c831750e11411142053d9249b 4364 xdg-user-dirs_0.18-2.debian.tar.xz c85f578ebe4e511480442ebf5619dccbe6b3a310af6f45670df862b96f6e4589 2136 xdg-user-dirs_0.18-2.dsc ec6f06d7495cdba37a732039f9b5e1578bcb296576fde0da40edb2f52220df3c 273556 xdg-user-dirs_0.18.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a981987294cd107aea4cd037a938dd86f3d942a85645fd234409670f8142f6f79b1453b4a877a830b242656995db2af3ab8652ae765af6378672be85964339df 4448 xdg-user-dirs_0.18-1.debian.tar.xz a2b332572cbcbf3a6ac0cc815a9f8215db0e3bc78ffe112922dffdbc81777a5ef57e8caa9a492650bab0b60c94e2d8482e121af3992a4bb660570bdbf248e84e 2182 xdg-user-dirs_0.18-1.dsc f523b2ba4f840a3c2a5730f72182fb5bb798187db769bfb7d36e9f780442813278a2c1bad656b4fb38428131241a51d07200a62b4d7b935d49a74be53f969716 273556 xdg-user-dirs_0.18.orig.tar.gz"
+    "ab5a671db97a18b47f9bc6ba69f3729bdb96ce7e04a74716a8b95a728ed5b89aa0c7c738cf96c67b09554aabbd4f7e944417ea95f9a22f253b2d52d16560074e 4364 xdg-user-dirs_0.18-2.debian.tar.xz 674361412d800ce8882f743898945466e9653b178951c161cabd2588afb3036cff1672d9b71af066ffb44f91a4500935855a227b6b1cb0a42f46458ff9da9e17 2136 xdg-user-dirs_0.18-2.dsc f523b2ba4f840a3c2a5730f72182fb5bb798187db769bfb7d36e9f780442813278a2c1bad656b4fb38428131241a51d07200a62b4d7b935d49a74be53f969716 273556 xdg-user-dirs_0.18.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/x/xdg-user-dirs"
   ],
   "Files": [
-    "57428d4e31f149649e5aab564564f27b 4448 xdg-user-dirs_0.18-1.debian.tar.xz 392deba4ea2b00b1e5a516445c80389e 2182 xdg-user-dirs_0.18-1.dsc dc7decea7ffb58cd067eff1fe1798cae 273556 xdg-user-dirs_0.18.orig.tar.gz"
+    "220f2ef957d8e26fd9fb6531437f6159 4364 xdg-user-dirs_0.18-2.debian.tar.xz 1c4e6a43772cf845308281eb53ef2b49 2136 xdg-user-dirs_0.18-2.dsc dc7decea7ffb58cd067eff1fe1798cae 273556 xdg-user-dirs_0.18.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "xdg-user-dirs deb utils optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Iain Lane \u003claney@debian.org\u003e, Jordi Mallach \u003cjordi@debian.org\u003e, Matthias Klumpp \u003cmak@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e, Sebastian Dröge \u003cslomo@debian.org\u003e"
+    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Jordi Mallach \u003cjordi@debian.org\u003e, Matthias Klumpp \u003cmak@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/xdg-user-dirs"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/xdg-user-dirs.git"
   ],
   "Version": [
-    "0.18-1"
+    "0.18-2"
   ]
 }

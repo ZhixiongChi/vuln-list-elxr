@@ -6,22 +6,22 @@
     "golang-github-burntsushi-toml-dev"
   ],
   "Build-Depends": [
-    "dh-golang, golang-any, debhelper-compat (= 13)"
+    "dh-sequence-golang, golang-any, debhelper-compat (= 13)"
   ],
   "Checksums-Sha1": [
-    "b1912cea3aae2355c8709a159216bae3ce028d96 5144 golang-toml_1.2.0-2.debian.tar.xz 8fdd3570e24e86333d52f47d09ff902dc606f0a6 1561 golang-toml_1.2.0-2.dsc 67f0134f80ecb8976a65f5db140e1cf815a6042e 78252 golang-toml_1.2.0.orig.tar.xz"
+    "9511b281e946c9f8af8e9bac36f3bf428e5a0db8 8492 golang-toml_1.4.0-1.debian.tar.xz e52f4bf43cac4754b30c264679ddaf0cb156b7e7 1806 golang-toml_1.4.0-1.dsc ba5614ec2940ee124a313d402c51deefe42893b6 93228 golang-toml_1.4.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "b7e1576c391f94bc30e3b5ccf188b0e7748d2e06a9d41aecb1ec8c041eef615b 5144 golang-toml_1.2.0-2.debian.tar.xz c3ebe1b2c38ead3db7b377559a91772c4aef452684639d9f5328acbec546433a 1561 golang-toml_1.2.0-2.dsc 6d2c4df3fafa85b6d1437f1963dcd8a72e49cd167ed46fe950b309ca13ed3b50 78252 golang-toml_1.2.0.orig.tar.xz"
+    "618a8a3f31c6ee42e31c4fb3a7c89e5407c320c57460d4e5f64cade34f6b37c0 8492 golang-toml_1.4.0-1.debian.tar.xz d2ebeff0cf59939d79d9c373f7a712dfd1e3638084dc3197f82fff8cdee7fdba 1806 golang-toml_1.4.0-1.dsc f26f1bd64e03aa68c8a2afd5e4fbc71699b868f85899919517225a3596ab145f 93228 golang-toml_1.4.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "cf4339d9c5068624632ae6ec0a93b4a797101920ac45d6b3a2c8fb81369daf50daa332e72a89cf3178aa29bfd8b515703c31c9d0240cf7becacfa11acf055707 5144 golang-toml_1.2.0-2.debian.tar.xz f6ae58fe796c55e77ec661fb7e86209cf22d65aa418010457ece20c7be4db246fb966b5affdd6bf6e49670c7782087b320e591e757539362ef0da5b8f5fa6858 1561 golang-toml_1.2.0-2.dsc c67be188d84f1061274dd1d3907b6983bb8ecc0d4e303590fb2c84ac1594c0731e27c01422424a6b9ff90196a391b42b6ba2866fa14c2db29da19ad660015173 78252 golang-toml_1.2.0.orig.tar.xz"
+    "68173ab8f4e41a2e09050e3091291ada6ec62325243b6090e0de50e4d11c3b0576a6b189019dadbaad54f03ae9ba1179db2a68d7522298f14d6061b3941f39b2 8492 golang-toml_1.4.0-1.debian.tar.xz 9096ab74802312a02e7adad11cb346526b7048bebd12b03c8266cb5c8f2f1da23a0f6e4e0068de11d356937112d6ce644982cdce746eb16650dfcacd070e396c 1806 golang-toml_1.4.0-1.dsc 2ca3b4691a36bd31cf7534d4c4aeb47f3074cb44a4f329671e2b57aaa0e1d17de0129c6e15303f30a83497bb9aed4950356fe8cfc481e098da04b4bbbba5dde8 93228 golang-toml_1.4.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/golang-toml"
   ],
   "Files": [
-    "0bbdc216affb17125a7e0179c571ce4e 5144 golang-toml_1.2.0-2.debian.tar.xz e23a514216988944774a2dd1a8bc0f28 1561 golang-toml_1.2.0-2.dsc 03ac3f8fb16506feffb4d1226c0e2537 78252 golang-toml_1.2.0.orig.tar.xz"
+    "f79364a60fdacd0305915d41c3d4e863 8492 golang-toml_1.4.0-1.debian.tar.xz cc95ffb14b2fd927a7ba5856bbea4416 1806 golang-toml_1.4.0-1.dsc a41a7f664c3e82fe90cce3e6b0e88a4d 93228 golang-toml_1.4.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "golang-github-burntsushi-toml-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-toml.git"
   ],
   "Version": [
-    "1.2.0-2"
+    "1.4.0-1"
   ]
 }

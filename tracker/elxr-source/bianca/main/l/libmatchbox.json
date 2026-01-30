@@ -6,22 +6,22 @@
     "libmatchbox-dev, libmatchbox-doc, libmatchbox1"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 13~), pkg-config (\u003e= 0.18), libx11-dev, x11proto-core-dev, libxext-dev, libxt-dev, libglib2.0-dev, libpng-dev, libjpeg-dev, doxygen, libpango1.0-dev, autoconf, automake, libtool"
+    "debhelper, debhelper-compat (= 13), pkg-config (\u003e= 0.18), libx11-dev, x11proto-core-dev, libxext-dev, libxt-dev, libglib2.0-dev, libpng-dev, libjpeg-dev, doxygen, libpango1.0-dev, autoconf, automake, libtool"
   ],
   "Checksums-Sha1": [
-    "59eef97dd96536037004c91ac0d24b413167a9ab 4812 libmatchbox_1.12+git20170224-2.debian.tar.xz 43c47e2f395ae3c3dee7a1a1c6720d2d64e8ee27 2153 libmatchbox_1.12+git20170224-2.dsc 9ff23d5d81d0fc11740aa79b3a0845a6df0ec57c 89308 libmatchbox_1.12+git20170224.orig.tar.xz"
+    "c5062dc03fe474bc08a8d1e79ddeb6f64de4598e 5004 libmatchbox_1.12+git20170224-3.debian.tar.xz cb4c03dc9f6dceee50194f0677a6d6aa74ce6460 2169 libmatchbox_1.12+git20170224-3.dsc 9ff23d5d81d0fc11740aa79b3a0845a6df0ec57c 89308 libmatchbox_1.12+git20170224.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "704472be6dc589ef33b3c6342ecd4e1b169a15bf9e084cecfe8c97b059217b75 4812 libmatchbox_1.12+git20170224-2.debian.tar.xz 797009a6605048efbd6c907a561dc19499e48c03795f1d41e8696213eb3f820d 2153 libmatchbox_1.12+git20170224-2.dsc 2627af32c5885102f5304f2d7561e9bc8763e9dabd4bcff4568fa8f7a30a46e7 89308 libmatchbox_1.12+git20170224.orig.tar.xz"
+    "27ab90b7794d0aafc45851b6bb5e0ed7181dfaeee8ffb47a9d693a5af420a4ff 5004 libmatchbox_1.12+git20170224-3.debian.tar.xz fd7474d60324896bf74cdecb5953259be6c02225d6cbbc93613cba269c4ef7e1 2169 libmatchbox_1.12+git20170224-3.dsc 2627af32c5885102f5304f2d7561e9bc8763e9dabd4bcff4568fa8f7a30a46e7 89308 libmatchbox_1.12+git20170224.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "2869e009af1e936b9ea4c8b28eb91c085ba1dcf31eb69baae380d31539e9816c602e75e4314095c696e9fa10a50cfa6e2d822a75c6e92d761974576a7ab1c9fd 4812 libmatchbox_1.12+git20170224-2.debian.tar.xz 88818417dd2148ad17a7816cd490b95176bbfceafde5cf0eea31f9b68718812ca5413ce0a86a1a62fd021981d9490e0167994db65f3ee2bcb399fa369b0a696b 2153 libmatchbox_1.12+git20170224-2.dsc deb12e797c055cc6246f9780e2b51903615f322e6025dc12d5c36d839ba1e09c4f2719c99eff4e8aa436a7865f05db30e2f7207d7af4407ec6bd9622c114aff5 89308 libmatchbox_1.12+git20170224.orig.tar.xz"
+    "d6bf38e0cdaf1a5d53eab46fc5ef491aea30ea9616743ed0cd4b7d8b6647bb95c2ad8ed90dc2ca08679871047315d6cef35ac10a2f77c21ed650e3d267f2e853 5004 libmatchbox_1.12+git20170224-3.debian.tar.xz 753f2ef94095506ae63a789e8a0d05f4d4a2c6c2f5eb72500f4586f3b4f01e7c22d32d39b817c2d3f995f6bd4dad0547f8e61df3068855e0f2273c44a0ec7490 2169 libmatchbox_1.12+git20170224-3.dsc deb12e797c055cc6246f9780e2b51903615f322e6025dc12d5c36d839ba1e09c4f2719c99eff4e8aa436a7865f05db30e2f7207d7af4407ec6bd9622c114aff5 89308 libmatchbox_1.12+git20170224.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libm/libmatchbox"
   ],
   "Files": [
-    "985f127885fc39a680e11cb534e5f4e6 4812 libmatchbox_1.12+git20170224-2.debian.tar.xz c2498c3f34e31372be50a9a5ae5d742b 2153 libmatchbox_1.12+git20170224-2.dsc d5e4922a6222aa7480090505a126450d 89308 libmatchbox_1.12+git20170224.orig.tar.xz"
+    "bfdd883db0cd34d2d65bc09372f05354 5004 libmatchbox_1.12+git20170224-3.debian.tar.xz e1014f5cd6a8e625ca44317fd5d75b8c 2169 libmatchbox_1.12+git20170224-3.dsc d5e4922a6222aa7480090505a126450d 89308 libmatchbox_1.12+git20170224.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,9 +39,9 @@
     "libmatchbox-dev deb libdevel optional arch=any libmatchbox-doc deb doc optional arch=all libmatchbox1 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.7.2"
   ],
   "Version": [
-    "1.12+git20170224-2"
+    "1.12+git20170224-3"
   ]
 }

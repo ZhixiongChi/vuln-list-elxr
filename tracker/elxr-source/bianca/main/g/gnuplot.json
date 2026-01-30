@@ -6,31 +6,31 @@
     "gnuplot, gnuplot-doc, gnuplot-nox, gnuplot-qt, gnuplot-x11, gnuplot-data"
   ],
   "Build-Depends": [
-    "autoconf, automake, debhelper-compat (= 13), dh-lua, libcairo2-dev, libedit-dev, libgd-dev, liblua5.1-0-dev, libpango1.0-dev, libpng-dev, qtbase5-dev, qtbase5-dev-tools, qttools5-dev-tools, libqt5svg5-dev, libx11-dev, libxt-dev, pkg-config, libwxgtk3.2-dev, zlib1g-dev"
+    "autoconf, automake, debhelper-compat (= 13), dh-lua, libcairo2-dev, libedit-dev, libgd-dev, liblua5.1-0-dev, libpango1.0-dev, libpng-dev, qtbase5-dev \u003c!nox-only\u003e, qtbase5-dev-tools \u003c!nox-only\u003e, qttools5-dev-tools \u003c!nox-only\u003e, libqt5svg5-dev \u003c!nox-only\u003e, libx11-dev \u003c!nox-only\u003e, libxt-dev \u003c!nox-only\u003e, pkg-config, libwxgtk3.2-dev \u003c!nox-only\u003e, zlib1g-dev"
   ],
   "Build-Depends-Indep": [
-    "latex2html, texinfo, texlive-fonts-recommended, texlive-font-utils, texlive-latex-base, texlive-latex-extra, texlive-latex-recommended, texlive-science, emacs-nox"
+    "latex2html \u003c!nox-only\u003e, texinfo \u003c!nox-only\u003e, texlive-fonts-recommended \u003c!nox-only\u003e, texlive-font-utils \u003c!nox-only\u003e, texlive-latex-base \u003c!nox-only\u003e, texlive-latex-extra \u003c!nox-only\u003e, texlive-latex-recommended \u003c!nox-only\u003e, texlive-science \u003c!nox-only\u003e, texlive-xetex \u003c!nox-only\u003e, texlive-fonts-extra \u003c!nox-only\u003e, fonts-freefont-ttf \u003c!nox-only\u003e, fonts-freefont-otf \u003c!nox-only\u003e, emacs-nox \u003c!nox-only\u003e"
   ],
   "Checksums-Sha1": [
-    "5962b1e503a7865aef88eac78b6b724aa57ad1b6 31208 gnuplot_5.4.4+dfsg1-2.debian.tar.xz 3905da922a5caccae4dd99783e2bda94ce5d3c26 2689 gnuplot_5.4.4+dfsg1-2.dsc 72f667e7fae598c09b5e60329a1a3605568e0e8c 2060776 gnuplot_5.4.4+dfsg1.orig.tar.xz"
+    "246e1c46750870577880c86f086601e0f73340e3 32508 gnuplot_6.0.2+dfsg1-1.debian.tar.xz 85bb71d5bce4420d1dbce5fa559b386ed932b7bd 3039 gnuplot_6.0.2+dfsg1-1.dsc a731005c7a1959ca98427731448d8f58d30155da 2205728 gnuplot_6.0.2+dfsg1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "a8e9ff5d8cdd3e2ceefc78f7d7ec205dd11a817b91b1b9bed49cd328bad4f2c7 31208 gnuplot_5.4.4+dfsg1-2.debian.tar.xz 1dc4155471e926b2c17dd5815d7bbffb658e5128cdffb6c55674cabd92c3b53f 2689 gnuplot_5.4.4+dfsg1-2.dsc 53af9bba3dc5344df2a746abf8c93e014403897304a385e720c3df9e3731b593 2060776 gnuplot_5.4.4+dfsg1.orig.tar.xz"
+    "45b1d01a30c1b60dd0d6d7418f8cdce1429740d5d380f8d77964d08001458cff 32508 gnuplot_6.0.2+dfsg1-1.debian.tar.xz c5962c1c47791ddecaabad849d73cedfedc5396a40df713f0c9640edb497bcd8 3039 gnuplot_6.0.2+dfsg1-1.dsc c02de00f808fd0911b68050b9ce4a4d9f2901aeca6fda66a2f41bfde650fabc2 2205728 gnuplot_6.0.2+dfsg1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "39d1b3189c3863446421be0cd71c4096fb5f1db185910b4b1b1765ee18218b1ce73f69e5a85453eaa358352cab4cfc5797d922c0eb511e9f272085456cf682aa 31208 gnuplot_5.4.4+dfsg1-2.debian.tar.xz f4b93b006eb975f01d0e0e85ae7fd01fb64bd6dac82a4c24251538cf812152a4df6aa3704ff7c65f1ea5871592c38ac39ac4672eed63d886020d19e6aa40be63 2689 gnuplot_5.4.4+dfsg1-2.dsc 8a2847e059f1da4a466b3cdc0e06811459cecf457938a8db0c2a04360993da9bf2a17b2780a5f1c2561c372e842cb5cfd87c9f72fdaa5a9ec034ba560fc50da6 2060776 gnuplot_5.4.4+dfsg1.orig.tar.xz"
+    "1bd608bdc242e64bba29eb33581f7f5449329c62bcd59ac97bd60157f92db1748062496a1aaec04ab5cdc73a7d39ac363249305d5b9733e1f29b8f83bcbda321 32508 gnuplot_6.0.2+dfsg1-1.debian.tar.xz 15ce3b52963a4b49075aff93b746ff1189ec425091507564bc67243e1b244443122a3f51f70d99c6d7ac7d23d4b9d03139d09010138a6780a168de7c9fe0cf23 3039 gnuplot_6.0.2+dfsg1-1.dsc 5a66fd64ad43538bf9e40abd86e53b54281a696eded206e2d8ef314660dd9d511dffdd53ba2951f74f7a9ab2fd6516ff3d389c6f03bf0a7713511f49ea5ee51c 2205728 gnuplot_6.0.2+dfsg1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gnuplot"
   ],
   "Files": [
-    "2315b4b650b8df9309f436645e2e53f6 31208 gnuplot_5.4.4+dfsg1-2.debian.tar.xz 49fd508ee121b7c5c0887a3bb10a15b8 2689 gnuplot_5.4.4+dfsg1-2.dsc bd5251ff63cdfe198f55459ee7a54939 2060776 gnuplot_5.4.4+dfsg1.orig.tar.xz"
+    "3420e8d0e871e4d4340fe03adada48f9 32508 gnuplot_6.0.2+dfsg1-1.debian.tar.xz 41274b042e9883a68ede3205bf0ca2f9 3039 gnuplot_6.0.2+dfsg1-1.dsc 4a4cfab96795aae13ff0a99920b71be7 2205728 gnuplot_6.0.2+dfsg1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://gnuplot.sourceforge.net/"
+    "https://gnuplot.sourceforge.net/"
   ],
   "Maintainer": [
     "Debian Science Team \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
@@ -39,10 +39,10 @@
     "gnuplot"
   ],
   "Package-List": [
-    "gnuplot deb math optional arch=all gnuplot-data deb doc optional arch=all gnuplot-doc deb doc optional arch=all gnuplot-nox deb math optional arch=any gnuplot-qt deb math optional arch=any gnuplot-x11 deb math optional arch=any"
+    "gnuplot deb math optional arch=all gnuplot-data deb doc optional arch=all gnuplot-doc deb doc optional arch=all profile=!nox-only gnuplot-nox deb math optional arch=any gnuplot-qt deb math optional arch=any profile=!nox-only gnuplot-x11 deb math optional arch=any profile=!nox-only"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/science-team/gnuplot.git"
   ],
   "Version": [
-    "5.4.4+dfsg1-2"
+    "6.0.2+dfsg1-1"
   ]
 }

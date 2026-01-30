@@ -6,22 +6,22 @@
     "python3-networkx"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, latexmk, python3-all, python3-decorator (\u003e= 4.3.0), python3-gdal, python3-ipykernel, python3-matplotlib (\u003e= 3.0.2), python3-nbconvert, python3-nbformat, python3-numpy, python3-pydot, python3-pygraphviz, python3-pytest, python3-scipy, python3-setuptools, python3-traitlets, texlive-binaries, texlive-fonts-recommended, texlive-latex-base, texlive-latex-extra, texlive-latex-recommended, texlive-plain-generic, zip"
+    "debhelper-compat (= 13), dh-python, latexmk, openstack-pkg-tools, pybuild-plugin-pyproject, python3-all, python3-contextily \u003c!nodoc\u003e, python3-decorator (\u003e= 4.3.0), python3-gdal, python3-geopandas \u003c!nodoc\u003e, python3-igraph \u003c!nodoc\u003e, python3-ipykernel, python3-libpysal (\u003e= 4.10) \u003c!nodoc\u003e, python3-matplotlib (\u003e= 3.0.2), python3-momepy \u003c!nodoc\u003e, python3-nb2plots \u003c!nodoc\u003e, python3-nbconvert, python3-nbformat, python3-numpy \u003c!nodoc\u003e, python3-numpydoc \u003c!nodoc\u003e, python3-osmnx \u003c!nodoc\u003e, python3-pandas \u003c!nodoc\u003e, python3-pydata-sphinx-theme \u003c!nodoc\u003e, python3-pydot (\u003e= 2.0), python3-pygraphviz (\u003e= 1.12), python3-pytest, python3-scipy, python3-seaborn \u003c!nodoc\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-gallery \u003c!nodoc\u003e, python3-traitlets, texlive-binaries, texlive-fonts-recommended, texlive-latex-base, texlive-latex-extra, texlive-latex-recommended, texlive-plain-generic, zip"
   ],
   "Checksums-Sha1": [
-    "a9ce5453b03b321a6be9284f2f148262bc7c433d 14248 networkx_2.8.8-1.debian.tar.xz b7c26504f3b8f6e4d7225e1b13006a1526531ea7 2354 networkx_2.8.8-1.dsc 7d919bd6c79a2954cbd06a7278de839e969189f1 1549072 networkx_2.8.8.orig.tar.xz"
+    "bd9f89545f9ab7235a039a777bc302b173fbcbef 20180 networkx_3.2.1-5.debian.tar.xz c1024544ed775e3ca7819b730fa596c6b5c935bf 2869 networkx_3.2.1-5.dsc bedb916b31cece01a2c19965b6364f7ffc73cc12 1635536 networkx_3.2.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "70acb335bf25f5e2a0c663c8007c48f987a2bea00df581910e99b7e4cded0963 14248 networkx_2.8.8-1.debian.tar.xz db8a4cc78663a866d04f1f2c14bcd3b9c8d15598f5981b6ee2c00ebed21edd91 2354 networkx_2.8.8-1.dsc 8f2451ea27f6ae988e284544e260f12ad4c67ec6582a5e0b3b19a5a227943859 1549072 networkx_2.8.8.orig.tar.xz"
+    "0eb735b446dd4a60e94bc6cdc1676f740701cd495478b3b4088c0e23aba8b823 20180 networkx_3.2.1-5.debian.tar.xz 348015f5fdf746ae8f0ffbba2746224479a623b36850e8de460a7fee68eaeb2e 2869 networkx_3.2.1-5.dsc ba30504c7d348595dfc99bdf199bbac2db8416faa39a549478bcb77897ebff18 1635536 networkx_3.2.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "a4f5ea43e3a30a5ab93fdd3cfd4d92eb4cb11dd6ac55169cf9299be5f6a426e32e0cd436d5bb7a1aaf97898c977dd1170a9e1293cfb60b65f9be1f43c931fbde 14248 networkx_2.8.8-1.debian.tar.xz e56ba65c2e4dc2aa0208f1634f99949131ba4d2de38b6b56d608aba81acb33fa7b9645d666ed5c8f0e6e0882504c47e3a17a35b7f4864e35895819f60a23858a 2354 networkx_2.8.8-1.dsc 462f6c3d42e95f48a9b5192651c2dbb520dc966edc09b7cc8d70923fd09c46da4df35bc60388312357cd2646c4288c53558e9e6a2d1b3df4fa07e5634a27a1bb 1549072 networkx_2.8.8.orig.tar.xz"
+    "5561bfc1b820cfe150774bb08421f93964829716450b8b94942b83ddd9b2272c06157f1b22245d98ce52810688fbcf5f6a3b377549372fcb48af630d159a9265 20180 networkx_3.2.1-5.debian.tar.xz 3f38e0d14b481a505b4367e5debd60a1b95960c15fdd8def6bd64acbb74e139a47c69b22bb0bbdae37475609e930122fbf5cf97e7c32a91feb09d610161d5722 2869 networkx_3.2.1-5.dsc dc61cc8c79eff21913b4ce70d9c60b89de5623622efb120a93426ec21534cd107a3c7851edfc9411ab4ee81ca92ee0140f06ea6832ceb03869c79ac071dd2f48 1635536 networkx_3.2.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/n/networkx"
   ],
   "Files": [
-    "2cbae3669e40b8f6f01532c5d5e660fe 14248 networkx_2.8.8-1.debian.tar.xz b8ceab6d87af6ba06420481f37833c5d 2354 networkx_2.8.8-1.dsc 8fb55d59aea03db12d9106fadeb7bcb3 1549072 networkx_2.8.8.orig.tar.xz"
+    "d6f16b7d548e7d795095148cde8b3adc 20180 networkx_3.2.1-5.debian.tar.xz 1dcabfaac05d8ff3d885da28405a1967 2869 networkx_3.2.1-5.dsc 1a1661c7cc4c08a97c6af67d39126161 1635536 networkx_3.2.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://networkx.github.io/"
   ],
   "Maintainer": [
-    "Sandro Tosi \u003cmorph@debian.org\u003e"
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
   ],
   "Package": [
     "networkx"
@@ -41,16 +41,22 @@
   "Standards-Version": [
     "4.6.2.0"
   ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
   "Uploaders": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/python-team/packages/networkx"
+    "https://salsa.debian.org/openstack-team/third-party/networkx"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/python-team/packages/networkx.git"
+    "https://salsa.debian.org/openstack-team/third-party/networkx.git"
   ],
   "Version": [
-    "2.8.8-1"
+    "3.2.1-5"
   ]
 }

@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "trace-cmd, libtracecmd1, libtracecmd-dev"
+    "trace-cmd, libtracecmd1, libtracecmd-dev, python3-trace-cmd"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), asciidoc, docbook-xsl, xsltproc, libcunit1-dev, xmlto, pkg-config, libtraceevent-dev, libtracefs-dev, libzstd-dev, source-highlight"
+    "debhelper-compat (= 13), asciidoc, docbook-xsl, xsltproc, libcunit1-dev, xmlto, pkgconf, libtraceevent-dev (\u003e= 1.5), libtracefs-dev (\u003e= 1.8), libzstd-dev, source-highlight, python3-dev, swig, dh-python"
   ],
   "Checksums-Sha1": [
-    "4bc841e9ba2794fec57f2586b7248f3b90c818e0 6800 trace-cmd_3.1.6-1.debian.tar.xz f445c96949b795e57ba54cac99e0a9f130c4ea54 2087 trace-cmd_3.1.6-1.dsc 5cd8a25b0164eada41f26614e487b909801a93d5 329041 trace-cmd_3.1.6.orig.tar.gz"
+    "69a651fab7706295c999386073fc76ccb35427dd 8004 trace-cmd_3.3.1-1.debian.tar.xz c0a9f100a4e9b400d3ef5f6539d0167684147f96 2185 trace-cmd_3.3.1-1.dsc 64519b528debd300fe6734767b314df8d534994f 363474 trace-cmd_3.3.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "416843bcded35a21fc2d4868cba619d202dc991d5a52b6592f0a37957a5518d1 6800 trace-cmd_3.1.6-1.debian.tar.xz 89693dd5265ab3a4e238c9359e7bb8359110af2751187760d96cf4cd6e6483c2 2087 trace-cmd_3.1.6-1.dsc f9198ea306deee9cda3b262342b03b6029e82c1b9c671ba521739a9703e115b9 329041 trace-cmd_3.1.6.orig.tar.gz"
+    "a7bba9b1398623307179cc35ef2629ba1af958bed70381b2a5f285c364affb04 8004 trace-cmd_3.3.1-1.debian.tar.xz a4e6595ae078506875e54cefd09e0fbe0ce36579f242325fe14d30882361e7d9 2185 trace-cmd_3.3.1-1.dsc 2efe103389367e93c764c4a788880ba51018a65dec21b0411965a5f06a6338c1 363474 trace-cmd_3.3.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "117f8fc129fc16bcd8ca512c4ca7b58eddb5b51cfbf827982e221071582bdc73a2a7e3d3dd89fc520278db843a5d1f9e5d499c2d65d72487d10f2b6f802856a5 6800 trace-cmd_3.1.6-1.debian.tar.xz 868a8ecdad3e325820525e8f581c4aa2c65701a27f911b9221577a13b999a6b5db29c23ddc5d355991ea3049e41c47610cea239f8a68108085d1ab7fc926fe15 2087 trace-cmd_3.1.6-1.dsc 2504863556a86759173f7114f5ab9a1d5641cefdd2bc9af64d8e5232d175e9c946fbb9dcec00d91b903e74b0e1bc52332877ddc9b705d6cfe2af9cb39797a446 329041 trace-cmd_3.1.6.orig.tar.gz"
+    "822a9a31f2ebe1e422a875f106874d6eec57dfb2163e1284f47ea5124f14f0c50e34724347ca94c7f6aa9a847956052fc6e4ad651c104cccd4a749cdb6881c61 8004 trace-cmd_3.3.1-1.debian.tar.xz c85b9d151a8ff85674a390ad45359515d1ec5164c20643483e02281af9af61fd6839d4f9f588c59f0f3436f43267433d3f4ec0c9fb58c28d9f5896661306a4d8 2185 trace-cmd_3.3.1-1.dsc a643efc2868d08871a7359dd0a17389685fb229f26328ee96f27a3dd94b5f3eb62009b945c14725eda1f09fa15367ffe2e2c3611d89860dcc031bbd6403cdee0 363474 trace-cmd_3.3.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/t/trace-cmd"
   ],
   "Files": [
-    "b70600e357bcbe2416638804c5fccd18 6800 trace-cmd_3.1.6-1.debian.tar.xz b8dad3a503860fcad8ef9ec9905cda48 2087 trace-cmd_3.1.6-1.dsc 451c64144cc6a73ad5afae36b0c5cd55 329041 trace-cmd_3.1.6.orig.tar.gz"
+    "5fa9256bb389d0b5090a36b3b2403e0a 8004 trace-cmd_3.3.1-1.debian.tar.xz 3363bde8215ee971070dff2accc485f1 2185 trace-cmd_3.3.1-1.dsc 1164436073ca46527588c401856d94bd 363474 trace-cmd_3.3.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -33,21 +33,21 @@
     "trace-cmd"
   ],
   "Package-List": [
-    "libtracecmd-dev deb libdevel optional arch=any libtracecmd1 deb libs optional arch=any trace-cmd deb devel optional arch=any"
+    "libtracecmd-dev deb libdevel optional arch=any libtracecmd1 deb libs optional arch=any python3-trace-cmd deb python optional arch=any trace-cmd deb devel optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Vcs-Browser": [
-    "https://github.com/sudipm-mukherjee/trace-cmd.git"
+    "https://salsa.debian.org/sudip/trace-cmd"
   ],
   "Vcs-Git": [
-    "https://github.com/sudipm-mukherjee/trace-cmd.git"
+    "https://salsa.debian.org/sudip/trace-cmd.git"
   ],
   "Version": [
-    "3.1.6-1"
+    "3.3.1-1"
   ]
 }

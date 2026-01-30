@@ -3,31 +3,31 @@
     "linux-any kfreebsd-any all"
   ],
   "Binary": [
-    "libv4l-0, libv4lconvert0, libv4l2rds0, libv4l-dev, v4l-utils, libdvbv5-0, libdvbv5-dev, libdvbv5-doc, dvb-tools, qv4l2, qvidcap, ir-keytable"
+    "libv4l-0t64, libv4lconvert0t64, libv4l2rds0t64, libv4l-dev, v4l-utils, libdvbv5-0t64, libdvbv5-dev, libdvbv5-doc, dvb-tools, qv4l2, qvidcap, ir-keytable"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), clang:native [amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x powerpc powerpcspe riscv64 ppc64 sparc64], doxygen, gettext, graphviz, libasound2-dev, libbpf-dev [linux-any], libelf-dev, libqt5opengl5-dev, libtool, libjpeg-dev, qtbase5-dev, libudev-dev [linux-any], libx11-dev, pkg-config, systemd [linux-any], udev [linux-any]"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), clang:native [amd64 arm64 armel armhf i386 mips mips64el mipsel ppc64el s390x powerpc powerpcspe riscv64 ppc64 sparc64], doxygen, gettext, graphviz, libasound2-dev, libbpf-dev [linux-any], libelf-dev, libqt5opengl5-dev, libtool, libjpeg-dev, meson, ninja-build, qtbase5-dev, libudev-dev [linux-any], libx11-dev, pkgconf, systemd-dev [linux-any]"
   ],
   "Checksums-Sha1": [
-    "7f8aae3ca09115a78bd9425ed04ebf7779d7d684 24804 v4l-utils_1.22.1-5.debian.tar.xz 41e8bc56d0559a585b171f4cfad12ef5b09b26c2 3236 v4l-utils_1.22.1-5.dsc 4c4a18dc42b64625124f62610923c6614a25d806 2086238 v4l-utils_1.22.1.orig.tar.bz2 54f8003a4d2f0f75b8ca53594a4467e12d331459 833 v4l-utils_1.22.1.orig.tar.bz2.asc"
+    "61852b1642735707528b3f42ca1c04d0937f69b3 23036 v4l-utils_1.30.1-1.debian.tar.xz f66dbebac5443482421b21903b653b32da7bcdf4 3242 v4l-utils_1.30.1-1.dsc 962a9e504a5cb317bd6025b8ec6125c5a56b2764 1381748 v4l-utils_1.30.1.orig.tar.xz ba9cee79f63cc851cabf524fe4fd5a521631f80b 833 v4l-utils_1.30.1.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "92330c27711b46dac9a8f2fbec55fe69d4c7d1721d7d83a24ba06826d0bf7ff0 24804 v4l-utils_1.22.1-5.debian.tar.xz f9762e17bbdfc41f35f5a77c411f3416f1ac0a2271a999f4b9149930f94eab78 3236 v4l-utils_1.22.1-5.dsc 65c6fbe830a44ca105c443b027182c1b2c9053a91d1e72ad849dfab388b94e31 2086238 v4l-utils_1.22.1.orig.tar.bz2 eee608e914cdf5b322b53d49d48aeae003855d068ee8d9c8d706fd058cabe2af 833 v4l-utils_1.22.1.orig.tar.bz2.asc"
+    "d47e4b2b85a28818f4ac25c732996f3776e36753dc09895cc0cf764090be6ba7 23036 v4l-utils_1.30.1-1.debian.tar.xz a74845771eb5de24f7e5a4211e7b9b8c17109e515fe035f9a5d837db7521c499 3242 v4l-utils_1.30.1-1.dsc c1cf549c2ec3cf39eb5ec7bf15731349e61b26a21b5e963922db422333bae197 1381748 v4l-utils_1.30.1.orig.tar.xz dbdd9ee4ca755fb9b44cd3820b45885fdec5aec8ad10f51e35f6c2320a33ad19 833 v4l-utils_1.30.1.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "59e15a6af161c1e24f3eb33fecfd14ddfcd0310c1575c25589ff5c0b3ccc91815e838aefafa2da56f4241179ac7cd7c4049d2dd21e020fe68c03c0f8e88b619e 24804 v4l-utils_1.22.1-5.debian.tar.xz 11d32f49c33dcd53ce738c4b1fae673df35276a93d5f9328e403b1fa91f3640113e438f8dc55bdf528d76dc079c5bcf3cab7278b2fea0013c848fc875a0562b6 3236 v4l-utils_1.22.1-5.dsc 8a634d8995d13f453dfaf90ca5d0dfb26f2f4b10a0d200d76a949c46f77040d12fc0a5b35e05d7b1ba68bcfc85a445be5a5ab1d4a7d4eabfe3a254038ccc6170 2086238 v4l-utils_1.22.1.orig.tar.bz2 f5bb8f3340c48f58929f35ba122652ced2560ffc3173ba4efcbc6ac1e083ef7b03cec4b03342d921f3967e9960ef69cff2c548c6dd188fe8b7b2b56ed4abb12d 833 v4l-utils_1.22.1.orig.tar.bz2.asc"
+    "cf792308a5246454098f3aa013d3dae0f67c74b907d0ceaa0f77822a2a34ebb484db27e9b0077c51305bd8859d8d08845008f045dee3f1fdebb80b6bcac9eea5 23036 v4l-utils_1.30.1-1.debian.tar.xz 88f34558b3ab7e3935514ada7c0077660070b17b2be1080341a3dce7d888172b08b14bbd50cc72bc36a75d7ed9e2ca6456973ae762ea8984cd3af4b82081df4f 3242 v4l-utils_1.30.1-1.dsc b34ff9a233da9cb5a569cb5a6fcee288216277eb6f2f6e83c75e717422c1440f58da5e4f4c557b95a11f7650bbacc603c79edaa7451c277398aebf9c232761b3 1381748 v4l-utils_1.30.1.orig.tar.xz ec56836a3622f64c80e40f72466de54ee3de7636522f53d9fa83de152ae4a8063c964fbdd2b324f7687782dd34f52466b9c536f708981af4ba9de279440965e9 833 v4l-utils_1.30.1.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/v/v4l-utils"
   ],
   "Files": [
-    "96ab19a79d55059cd5cbf35773737f9f 24804 v4l-utils_1.22.1-5.debian.tar.xz 4661e154d4c353c0a12482fa595eb541 3236 v4l-utils_1.22.1-5.dsc 8aa73287320a49e9170a8255d7b2c7e6 2086238 v4l-utils_1.22.1.orig.tar.bz2 e19a488eb903ef8d9ebbf0297665ebb8 833 v4l-utils_1.22.1.orig.tar.bz2.asc"
+    "d50aea797dedd2d794180eb5be646368 23036 v4l-utils_1.30.1-1.debian.tar.xz 407fe338901e1e52fec9dc36b7748ff2 3242 v4l-utils_1.30.1-1.dsc 5f85c197e5dd348b2ce49b7007ea63d8 1381748 v4l-utils_1.30.1.orig.tar.xz 12589a945300d319b89f57312ac5d88d 833 v4l-utils_1.30.1.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://linuxtv.org/downloads/v4l-utils/"
+    "https://linuxtv.org/wiki/index.php/V4l-utils"
   ],
   "Maintainer": [
     "Gregor Jasny \u003cgjasny@googlemail.com\u003e"
@@ -36,13 +36,10 @@
     "v4l-utils"
   ],
   "Package-List": [
-    "dvb-tools deb utils optional arch=linux-any ir-keytable deb utils optional arch=linux-any libdvbv5-0 deb libs optional arch=linux-any libdvbv5-dev deb libdevel optional arch=linux-any libdvbv5-doc deb doc optional arch=all libv4l-0 deb libs optional arch=linux-any,kfreebsd-any libv4l-dev deb libdevel optional arch=linux-any,kfreebsd-any libv4l2rds0 deb libs optional arch=linux-any,kfreebsd-any libv4lconvert0 deb libs optional arch=linux-any,kfreebsd-any qv4l2 deb utils optional arch=linux-any qvidcap deb utils optional arch=linux-any v4l-utils deb utils optional arch=linux-any"
+    "dvb-tools deb utils optional arch=linux-any ir-keytable deb utils optional arch=linux-any libdvbv5-0t64 deb libs optional arch=linux-any libdvbv5-dev deb libdevel optional arch=linux-any libdvbv5-doc deb doc optional arch=all libv4l-0t64 deb libs optional arch=linux-any,kfreebsd-any libv4l-dev deb libdevel optional arch=linux-any,kfreebsd-any libv4l2rds0t64 deb libs optional arch=linux-any,kfreebsd-any libv4lconvert0t64 deb libs optional arch=linux-any,kfreebsd-any qv4l2 deb utils optional arch=linux-any qvidcap deb utils optional arch=linux-any v4l-utils deb utils optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.1.0"
-  ],
-  "Uploaders": [
-    "Loic Minier \u003clool@dooz.org\u003e"
+    "4.7.2"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/libv4l"
@@ -51,6 +48,6 @@
     "https://salsa.debian.org/debian/libv4l.git"
   ],
   "Version": [
-    "1.22.1-5"
+    "1.30.1-1"
   ]
 }

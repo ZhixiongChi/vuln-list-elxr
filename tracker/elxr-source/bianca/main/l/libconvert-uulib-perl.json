@@ -6,22 +6,25 @@
     "libconvert-uulib-perl"
   ],
   "Build-Depends": [
-    "perl, debhelper-compat (= 13), libcanary-stability-perl, libcommon-sense-perl"
+    "perl, debhelper-compat (= 13), libcanary-stability-perl, libcommon-sense-perl, perl-xs-dev"
   ],
   "Checksums-Sha1": [
-    "a635f61353bd1ba238c2349d3485dc6745150243 10076 libconvert-uulib-perl_1.8+dfsg-1.debian.tar.xz 7fdccc3af09190a6f5b6c9ff4ae3417d08151815 2197 libconvert-uulib-perl_1.8+dfsg-1.dsc afb8ca34bfb4b8045ba87692b698e797dada50ac 153276 libconvert-uulib-perl_1.8+dfsg.orig.tar.xz"
+    "8dc3cd7eca5cb9ca12423cbe4703cfe9188643f7 10088 libconvert-uulib-perl_1.8+dfsg-2.debian.tar.xz 582cbc9f778f2d63602c84dfee9e5acee13e8562 2472 libconvert-uulib-perl_1.8+dfsg-2.dsc afb8ca34bfb4b8045ba87692b698e797dada50ac 153276 libconvert-uulib-perl_1.8+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "2263e45e13c7b04d7bc3121bf90eaa105145ee07fbb03f5b53eeea3ebe1eb265 10076 libconvert-uulib-perl_1.8+dfsg-1.debian.tar.xz 8d1fcc77ad9ef87b59973e9a55688e7f72d2fe7931aef96dd2917b7aa78b824d 2197 libconvert-uulib-perl_1.8+dfsg-1.dsc c3b34fa680a125cbae33739b622460c42530c316560cba88a75c9076d34347f5 153276 libconvert-uulib-perl_1.8+dfsg.orig.tar.xz"
+    "bc2856cc33c940753b6c6009dc6336025b6b1cb8e6249c5da4cd56df25f48630 10088 libconvert-uulib-perl_1.8+dfsg-2.debian.tar.xz 2e4d227cd9048518faadcdcdb32f3a120584df9dac7af58fed7ba8e408e8d236 2472 libconvert-uulib-perl_1.8+dfsg-2.dsc c3b34fa680a125cbae33739b622460c42530c316560cba88a75c9076d34347f5 153276 libconvert-uulib-perl_1.8+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "e8699e4e11c12c76e25855b0def6e767716765763cbbb9d2ed4fcce4461e70504ab8b40fb14d23b39c83b8086bb79149e6e3576250019a4c4274c175205af1c7 10076 libconvert-uulib-perl_1.8+dfsg-1.debian.tar.xz 72c78b46540da19b9d3e32fa3b43ce084de78e379130cf3a98c4267278d7fcfab667c28b26f27445209ff7dee83d29eda25c4a9bfe56ed724ce691ee75d56cdf 2197 libconvert-uulib-perl_1.8+dfsg-1.dsc 166a9296bc0653a7ef1bf410dbfc02b09e8a927309973f8412ad386cc06ed3a031601df656449ff20f500434876297640599ecc8765b6e73c97db6b3f3d211de 153276 libconvert-uulib-perl_1.8+dfsg.orig.tar.xz"
+    "9e3bf39540e597caf4b3fdc4b69917f7a30881f83adbc47365fc02b4cd575cf8cff712962f4a9f6e1733d3be933d6497605d5baa2385fb5f22fa1a9490e47685 10088 libconvert-uulib-perl_1.8+dfsg-2.debian.tar.xz 3c93cc7553cd45af53f1fbabe10d1dde5de6f6a1fd85bfde60086971dbf689728c68aded746861517443e67d126995c22786e4b62464b24704635707dd568d4e 2472 libconvert-uulib-perl_1.8+dfsg-2.dsc 166a9296bc0653a7ef1bf410dbfc02b09e8a927309973f8412ad386cc06ed3a031601df656449ff20f500434876297640599ecc8765b6e73c97db6b3f3d211de 153276 libconvert-uulib-perl_1.8+dfsg.orig.tar.xz"
+  ],
+  "Dgit": [
+    "dc1be08e47cafd8299e68b6f4aa10ee175fa61fb debian archive/debian/1%1.8+dfsg-2 https://git.dgit.debian.org/libconvert-uulib-perl"
   ],
   "Directory": [
     "pool/main/libc/libconvert-uulib-perl"
   ],
   "Files": [
-    "f3a51f8d0a2e6005b55ec528e08bfe4d 10076 libconvert-uulib-perl_1.8+dfsg-1.debian.tar.xz 448be23d12b0ecf04a71e7e66e6000e9 2197 libconvert-uulib-perl_1.8+dfsg-1.dsc 53a30e8ef5b410d3c8ccfaa86a5999ec 153276 libconvert-uulib-perl_1.8+dfsg.orig.tar.xz"
+    "bd5391388f9f7b11b0939d5f78790852 10088 libconvert-uulib-perl_1.8+dfsg-2.debian.tar.xz 54d147a1222e96274c8e2b3b2a6e713f 2472 libconvert-uulib-perl_1.8+dfsg-2.dsc 53a30e8ef5b410d3c8ccfaa86a5999ec 153276 libconvert-uulib-perl_1.8+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +42,7 @@
     "libconvert-uulib-perl deb perl optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libconvert-uulib-perl.git"
   ],
   "Version": [
-    "1:1.8+dfsg-1"
+    "1:1.8+dfsg-2"
   ]
 }

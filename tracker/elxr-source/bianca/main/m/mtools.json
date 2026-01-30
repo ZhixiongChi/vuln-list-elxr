@@ -6,22 +6,22 @@
     "floppyd, mtools"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.16.1~), libxfont-dev, libxt-dev, texinfo"
+    "debhelper-compat (= 13), libxfont-dev, libxt-dev, texinfo"
   ],
   "Checksums-Sha1": [
-    "83725513c1a83ddfc50e480b58dde298bcd30a8f 11028 mtools_4.0.33-1+really4.0.32-1.debian.tar.xz b943eb24f56e3a59f0460567d758a758e4ea61b7 2056 mtools_4.0.33-1+really4.0.32-1.dsc 34acac52794257b4341198cf9a4828bee9883997 432441 mtools_4.0.33-1+really4.0.32.orig.tar.bz2"
+    "617317b92b60936be445dce46582bad6b981dde2 12652 mtools_4.0.48-1.debian.tar.xz 3c96055a4fde2833a3064d05ec70c40af26e10fa 2188 mtools_4.0.48-1.dsc 5fa21bf301f1846726daad16c21dfa440d0b1b0b 466680 mtools_4.0.48.orig.tar.bz2 5741224851feb1d5f50b7b84012fc775e35ae353 833 mtools_4.0.48.orig.tar.bz2.asc"
   ],
   "Checksums-Sha256": [
-    "86ac14122fa228cd58cc7f291d574bdf4ece250d4134f44b2eb320d6da1a21f0 11028 mtools_4.0.33-1+really4.0.32-1.debian.tar.xz 6282fb1bd2347a3c1e7ae21ce8a9d2030618334e163af3878789ccad6bae7f34 2056 mtools_4.0.33-1+really4.0.32-1.dsc d540ca05fb1726d7218bb9f8df8742e6cb301129a20333b0b41c6b2c357c788e 432441 mtools_4.0.33-1+really4.0.32.orig.tar.bz2"
+    "bea8831384b9239c1fb29397251f09bd8367cb8311cb7e16c2cdfa1d44744397 12652 mtools_4.0.48-1.debian.tar.xz 405c63d4a8fa0b68895b532c39597f36a4865b995fe366a7f54660287e1d5631 2188 mtools_4.0.48-1.dsc 03c29aac8735dd7154a989fbc29eaf2b506121ae1c3a35cd0bf2a02e94d271a9 466680 mtools_4.0.48.orig.tar.bz2 7fd68d3f728e7d0cb646f5cb35ebf0253448ba1cd62367f23df06e4df5f06b05 833 mtools_4.0.48.orig.tar.bz2.asc"
   ],
   "Checksums-Sha512": [
-    "14bab31a692ddcbab4e76ea2840e5dc4e62080b4bba265925f871017389387d6a8ee443fa5a5d3013a5809fa4cef3d5af0e3138dcd779f688f1d367e551d6bbd 11028 mtools_4.0.33-1+really4.0.32-1.debian.tar.xz 2c88531e58c55269ec19a7a2cdda661edc8d02737a3323ca196c6c15ee6f68a1d591e6e753f60e11f13a8a6a905d33793a300897c78a8dfe72ff92330413222b 2056 mtools_4.0.33-1+really4.0.32-1.dsc 5995cb7cd9c2a1e5d2f4d59bf3cacbc76fb73187c558d92c34f3dff0907bb826d27cd321c1c693ac88f3cc4c3856ac52ac3724848a73f5b2809a79ac23f8f9d4 432441 mtools_4.0.33-1+really4.0.32.orig.tar.bz2"
+    "29233b8273eef63190acacfe3bed1789dde3478ea10ab950a7b6d935b1a299ca220f8707f76c5f4598603a3113c050eb2a9ac3ef30eadb68624898fff674f175 12652 mtools_4.0.48-1.debian.tar.xz a631da4b5cadb77477a3172374116c5a7a419f1864f086b08781881adb5c49fe338f2fb5241fa600ae0abbf6c4890553258711159cf8998be9e46ea9e471cdee 2188 mtools_4.0.48-1.dsc 315020dcb4bd3fe9ab5722b65b36dcb614eb132b7927f98c3fb1d758a7bd6be56996686fc5cd640e922288e6803d1388a3741ddaf7a30f61e7c1a3b2450831cb 466680 mtools_4.0.48.orig.tar.bz2 471ec0dae8a284153e18d6a813796596dc753841af6cbeac00b2f6c6dfaa053618e0c10e01c89bc9b3aab0414defef6bb26d4e2635d5e493af678c0c66fac105 833 mtools_4.0.48.orig.tar.bz2.asc"
   ],
   "Directory": [
     "pool/main/m/mtools"
   ],
   "Files": [
-    "06db1d0e68dde6fbe36aa4797e417c35 11028 mtools_4.0.33-1+really4.0.32-1.debian.tar.xz 2686d9f4347cd1c548fd9365c2a904fc 2056 mtools_4.0.33-1+really4.0.32-1.dsc dc780eed9819925771acbac7778d12d4 432441 mtools_4.0.33-1+really4.0.32.orig.tar.bz2"
+    "a164a44659a8a89e2127741615c28a52 12652 mtools_4.0.48-1.debian.tar.xz 3efa12a7eb2a2fd4234a9f814c1628b6 2188 mtools_4.0.48-1.dsc ea013bb2d7457d6980548c9848b56f26 466680 mtools_4.0.48.orig.tar.bz2 2257ceea35885e90e728cfc3c7713f81 833 mtools_4.0.48.orig.tar.bz2.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://www.gnu.org/software/mtools/"
   ],
   "Maintainer": [
-    "Chris Lamb \u003clamby@debian.org\u003e"
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
   ],
   "Package": [
     "mtools"
@@ -39,18 +39,18 @@
     "floppyd deb otherosfs optional arch=any mtools deb otherosfs optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.1"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/lamby/pkg-mtools"
+    "https://salsa.debian.org/debian/pkg-mtools"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/lamby/pkg-mtools.git"
+    "https://salsa.debian.org/debian/pkg-mtools.git"
   ],
   "Version": [
-    "4.0.33-1+really4.0.32-1"
+    "4.0.48-1"
   ]
 }

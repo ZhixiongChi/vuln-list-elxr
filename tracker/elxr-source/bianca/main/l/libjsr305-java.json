@@ -6,31 +6,28 @@
     "libjsr305-java, libjsr305-java-doc"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 10~), default-jdk, default-jdk-doc, javahelper (\u003e= 0.32~), maven-repo-helper"
+    "debhelper-compat (= 13), default-jdk-headless, default-jdk-doc, javahelper, maven-repo-helper"
   ],
   "Checksums-Sha1": [
-    "35fb114b1bff344e6773476695115b3f0758d394 12840 libjsr305-java_0.1~+svn49-11.debian.tar.xz 62e8586eb7c4deab7e24416a750cacdab60244be 1952 libjsr305-java_0.1~+svn49-11.dsc ac141338b5e2d804bbd263fadccd7ddc8200f264 11630 libjsr305-java_0.1~+svn49.orig.tar.gz"
+    "8919c14877a240d21a854be94f68868a49c56668 12908 libjsr305-java_0.1~+svn49-12.debian.tar.xz ca861a49520470d4630ec3ba1871d83c360e7090 2175 libjsr305-java_0.1~+svn49-12.dsc ac141338b5e2d804bbd263fadccd7ddc8200f264 11630 libjsr305-java_0.1~+svn49.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "90791bbcc2f930e759076f789932df52b8cbee0da5393fcd2a25707fb30d3da9 12840 libjsr305-java_0.1~+svn49-11.debian.tar.xz dd98d1fd470e4e57d5fe3b4f327670b899fecf90fbdc13f4cdf8cb06dcd7dd71 1952 libjsr305-java_0.1~+svn49-11.dsc 7d93aa535d411f212c9aa6473a6efbcc1bf36a8dd728da9a5d69a3f85ba9c127 11630 libjsr305-java_0.1~+svn49.orig.tar.gz"
+    "f5bc78f4eea57a14a023d5a7d9482b6e4b7a7f6ec2568c458485b045d10625cc 12908 libjsr305-java_0.1~+svn49-12.debian.tar.xz 93742cb299ff1b6dbad5c824fd70aacadd79bd37d9f59cb2248871ef4fcd2033 2175 libjsr305-java_0.1~+svn49-12.dsc 7d93aa535d411f212c9aa6473a6efbcc1bf36a8dd728da9a5d69a3f85ba9c127 11630 libjsr305-java_0.1~+svn49.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "9edeadaa43c33d3c19a68debd338ecc40fcd169a137b65eb875b5a67c5fb52137797454582cb85836f2a4aaf163370dec0e9c073b577702945aa316f7a66150e 12840 libjsr305-java_0.1~+svn49-11.debian.tar.xz b33752e8fee6b4e8b466a12698e3e671a3df55eb4515793b6dbdc0a3626da219be28a94228df690f19cc9dd15d3de95e98e267d4c44fb31e6955e43f954836db 1952 libjsr305-java_0.1~+svn49-11.dsc 4b97f874da8b815335401412c188cb82f90d838c49eb77c871b152ae5e204c6c7d8ee6181002dbae77820fa0d256bfe04ddc3215679d01973f132b407efeacd0 11630 libjsr305-java_0.1~+svn49.orig.tar.gz"
-  ],
-  "Dgit": [
-    "348aad6ddda5c76c4d9564ab6d71951fb2b6f473 debian archive/debian/0.1_+svn49-11 https://git.dgit.debian.org/libjsr305-java"
+    "e57257cde0814c9b5ba88c8f3a5d9a377e3098417b8e3e289a118679107ff7f02789d75f00018414eb157793a0f13a3005f912aa01dc20fdc248e246944ed861 12908 libjsr305-java_0.1~+svn49-12.debian.tar.xz ef57e3ee678459c3a171708aabf5e7a15f4812d1ca07ffac8f8ad21f4593dfdeb543b5b6653db638cfb31e2048dd2bb215125ad7c893ccd7dbbab14b9c512db9 2175 libjsr305-java_0.1~+svn49-12.dsc 4b97f874da8b815335401412c188cb82f90d838c49eb77c871b152ae5e204c6c7d8ee6181002dbae77820fa0d256bfe04ddc3215679d01973f132b407efeacd0 11630 libjsr305-java_0.1~+svn49.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libj/libjsr305-java"
   ],
   "Files": [
-    "a22262aa83d3cb5445b73f51a588a4aa 12840 libjsr305-java_0.1~+svn49-11.debian.tar.xz 251179fe1da2147edb94576fe16b2c1c 1952 libjsr305-java_0.1~+svn49-11.dsc b0ef141abaa91f07320364d50e080ee2 11630 libjsr305-java_0.1~+svn49.orig.tar.gz"
+    "e7b8c85c1e488d06a16b1c33f9a62d0c 12908 libjsr305-java_0.1~+svn49-12.debian.tar.xz 1e86daa9e78530cddc30886bb1a49c44 2175 libjsr305-java_0.1~+svn49-12.dsc b0ef141abaa91f07320364d50e080ee2 11630 libjsr305-java_0.1~+svn49.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://code.google.com/archive/p/jsr-305/"
+    "http://code.google.com/p/jsr-305/"
   ],
   "Maintainer": [
     "Debian Java Maintainers \u003cpkg-java-maintainers@lists.alioth.debian.org\u003e"
@@ -42,18 +39,18 @@
     "libjsr305-java deb java optional arch=all libjsr305-java-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.3.0"
+    "4.7.0"
   ],
   "Uploaders": [
     "James Page \u003cjames.page@ubuntu.com\u003e"
   ],
   "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-java/libjsr305-java.git"
+    "https://salsa.debian.org/java-team/libjsr305-java"
   ],
   "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-java/libjsr305-java.git"
+    "https://salsa.debian.org/java-team/libjsr305-java.git"
   ],
   "Version": [
-    "0.1~+svn49-11"
+    "0.1~+svn49-12"
   ]
 }

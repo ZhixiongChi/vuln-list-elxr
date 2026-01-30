@@ -6,25 +6,25 @@
     "libuuid-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libdevel-checklib-perl, perl-xs-dev, perl:native, uuid-dev"
+    "debhelper-compat (= 13), libdevel-checklib-perl, libscalar-list-utils-perl, libtest-simple-perl \u003c!nocheck\u003e, libtry-tiny-perl \u003c!nocheck\u003e, libversion-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native"
   ],
   "Checksums-Sha1": [
-    "8795c1e06c09288c73edf3e48f2324aea3fc4cd0 3676 libuuid-perl_0.28-2.debian.tar.xz ec0b480b308d005302fbc8544ae9290abcbb6c82 2380 libuuid-perl_0.28-2.dsc 80b96e8c9e30fe872637c85c43c7e796125271ee 15828 libuuid-perl_0.28.orig.tar.gz"
+    "0ebb8923d748d4ad3f7286742299adb2c055a7dc 7712 libuuid-perl_0.37-1.debian.tar.xz 514b5dbb5f5ad97f25e8c1d21c314c78150b120c 2487 libuuid-perl_0.37-1.dsc 412e23f9a0084eec4ecf8c1b0d929529d06c1c4c 72506 libuuid-perl_0.37.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "1d836f014d019b17057b79f3b42a8ababa0d277202821b24977458cad0b70b99 3676 libuuid-perl_0.28-2.debian.tar.xz 03daa93a459a6046fa2b8de30ac40e9ac936d90f18214a233338f4a6b331c40a 2380 libuuid-perl_0.28-2.dsc a5c173fada973df095bd05959a3963bf24afd7fef0fd1884eff589ca8c17bb7e 15828 libuuid-perl_0.28.orig.tar.gz"
+    "11ef14c153e8aec9b5df626bb13a2bfb1cdaddc28fd0ad6752325ea45d4d2e84 7712 libuuid-perl_0.37-1.debian.tar.xz 222b0d2929b4437a8dbe808c967ed57bbcca6f23b2ebe39587a2838195dc08a3 2487 libuuid-perl_0.37-1.dsc 02f5afe2b4386e09b6cb3a39b5a102b74e789a3e29722994a20a8e3285c561c7 72506 libuuid-perl_0.37.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "07c468209a5b9021dca067dbb49d12458e82e9111850614d615130a05fdcefaa82738777e4dd51f217f18b7a258fb88fd7eae9fcac28960fd9bcd4353ed89d52 3676 libuuid-perl_0.28-2.debian.tar.xz 2836a863281abc43b8cb736a8b52a752257b826b82103afb511c0fada492aebede61a3770602ccecd43dab11434907db3c6c84380f6edf7590788a5a4e47a8d1 2380 libuuid-perl_0.28-2.dsc f6203e024f83c8156d4dae093513f5a6817a67874d77f01c7cb1f83d1cfa811c815ad3324983b655332e994f85c536eb65682e598168f9d1d6b76bf0bde9817e 15828 libuuid-perl_0.28.orig.tar.gz"
+    "fc3dc609bdabc90e032809a81ebeeb5f5ae9e3d704ceefa20cd39199d6e95ab25613a1d12984f756f7c0eddc7b6865ec3e4af5f82f8c0ff086c154a9ad261653 7712 libuuid-perl_0.37-1.debian.tar.xz bb26767f1644fc5f2e525d9c82a376d9264665ca3d44354dd298f23db51a6ab9bf56ed7d44379497b805ad2db167ac13e64b6d069e1260e05249cd9b9e86a4aa 2487 libuuid-perl_0.37-1.dsc b9a3eeafb23bf33f48fe47e391ac4f91020bb4261ac3e42cfa2d2c0262cd15b7ccfaba67c0941d1a141649e1a718fd60246bd24cb84376f4b02cf37663245911 72506 libuuid-perl_0.37.orig.tar.gz"
   ],
   "Dgit": [
-    "022e2a9d2746c6af4a69478031ba35d77c0c2e06 debian archive/debian/0.28-2 https://git.dgit.debian.org/libuuid-perl"
+    "d8ef5d0be9361f8a8c74e03e9c5cc721b7b2959c debian archive/debian/0.37-1 https://git.dgit.debian.org/libuuid-perl"
   ],
   "Directory": [
     "pool/main/libu/libuuid-perl"
   ],
   "Files": [
-    "0c91d11772e00d0d809c084064a78f20 3676 libuuid-perl_0.28-2.debian.tar.xz 873dda9b9d50434231b2ff3477163203 2380 libuuid-perl_0.28-2.dsc 15c17e1044f7ff686dafa27ff381b007 15828 libuuid-perl_0.28.orig.tar.gz"
+    "0318211f66f284f97690501f29b63d92 7712 libuuid-perl_0.37-1.debian.tar.xz a474a7461c46d953bb33a61371023346 2487 libuuid-perl_0.37-1.dsc fa8151575820018bd18b235092ba263e 72506 libuuid-perl_0.37.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "libuuid-perl deb perl optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libuuid-perl.git"
   ],
   "Version": [
-    "0.28-2"
+    "0.37-1"
   ]
 }

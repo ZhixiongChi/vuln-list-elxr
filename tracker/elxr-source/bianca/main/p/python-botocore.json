@@ -6,22 +6,22 @@
     "python3-botocore"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), python3-all:any, python3-setuptools, python3-mock, dh-python"
+    "debhelper-compat (= 12), python3-all:any, python3-setuptools, python3-dateutil \u003c!nocheck\u003e, python3-jmespath \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-requests \u003c!nocheck\u003e, python3-six \u003c!nocheck\u003e, dh-python"
   ],
   "Checksums-Sha1": [
-    "f0608b3fb794f14753aa9a756630407b56b5c98a 5568 python-botocore_1.29.27+repack-1.debian.tar.xz bd80d90a9ad37fe0fae6ce69d6e6b7df1a86f01b 2160 python-botocore_1.29.27+repack-1.dsc 8f8447079bfd14ed192194f60e9103905e8174dd 6012904 python-botocore_1.29.27+repack.orig.tar.xz"
+    "cc5de0ab78e83b6ee188547b66fa68336b0bdf20 5744 python-botocore_1.37.9+repack-1.debian.tar.xz a54916314227d18b342933636e913837af8cb5b6 2333 python-botocore_1.37.9+repack-1.dsc c1e1e20980199f16e868b721e0111827280a0987 7904284 python-botocore_1.37.9+repack.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "b0c97b07e7e8e811dabeb8f2e67f6731a1b82ebdff989e3d9b9b4e2434f66b53 5568 python-botocore_1.29.27+repack-1.debian.tar.xz 61a7bc83a1a47995f4cd8131a4fa343d53b5d75f72fa3497ccbc456c6b8fb245 2160 python-botocore_1.29.27+repack-1.dsc 672278df1d27836aaea62ca8c96641f6d0406479590fe2eea09d119839e05db3 6012904 python-botocore_1.29.27+repack.orig.tar.xz"
+    "e0cb4e2c8d73315d7ea9c34dc9fbce3f6e7573592cb425eeebbc1dab682581aa 5744 python-botocore_1.37.9+repack-1.debian.tar.xz 40a7ee3d74d57a0a88c6b30195b99b92b6359bcfb065cc05669288f132c33708 2333 python-botocore_1.37.9+repack-1.dsc 911b55c0894a8bb6f67464ce1a1a9285f5fc265efa82d00fec3ac8fc84973ff0 7904284 python-botocore_1.37.9+repack.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "ab22de3712f186cc6561e1b8ea31a11a182c914cfd1f72813333db8ed2a3be6d05a7002d523019a6c6185a0dd249591ef054970f72889f2672ce35ca5082c084 5568 python-botocore_1.29.27+repack-1.debian.tar.xz e3641e9448c99e9ac5d62f7d135946def619730d9cbbed4d119da7e2903bea282738a18658428b4652d0077bd77bf6834b556e005fd24f47baad68d866cf6585 2160 python-botocore_1.29.27+repack-1.dsc 41ddfcb1e3f1d75e92331395dcfa0c70c67f9dad9c0e621834317c79be5da163bc6d1cce355bb2852f88ee351e97968db146d6c28a934fbe768129a25a9c55da 6012904 python-botocore_1.29.27+repack.orig.tar.xz"
+    "1fe0e924123c3cf3b1f5dd3066407e050e46906c9e9340109858ebaedeea7a3906fd9ba86a747afe99d248ede415c694210df04e20a8461157e4ee0de38091d5 5744 python-botocore_1.37.9+repack-1.debian.tar.xz 1d0dfbcf4b5c306d828b4d6724639c3d1385f69ee54e0c32bcb51de0910aafa18e699193308fdc1169201884dbe268996e4605a889eb285e9d728a107f3970f0 2333 python-botocore_1.37.9+repack-1.dsc 1ae2a8b75528f724fa530862519e12a2e5f808eda6752bbb26d65feec50c419dae5818efc54af0bf2d60a67001aa63133372236d38e85d86749dbc018ca1997f 7904284 python-botocore_1.37.9+repack.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-botocore"
   ],
   "Files": [
-    "c2322518e54c6c62c6e3afb6c2a4cb46 5568 python-botocore_1.29.27+repack-1.debian.tar.xz 21e0a66bc1cc53019d3e70c9b630c192 2160 python-botocore_1.29.27+repack-1.dsc ee4e52fe04750488b1f64ef2adfe91a7 6012904 python-botocore_1.29.27+repack.orig.tar.xz"
+    "e9598d2b0e17b50783895e6abe8e84d0 5744 python-botocore_1.37.9+repack-1.debian.tar.xz 5701720f90c91f6226fa4c0407b00c6c 2333 python-botocore_1.37.9+repack-1.dsc c7f40d7441a856a09f046172a479ff87 7904284 python-botocore_1.37.9+repack.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,13 @@
     "python3-botocore deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
-    "TANIGUCHI Takaki \u003ctakaki@debian.org\u003e, Noah Meyerhans \u003cnoahm@debian.org\u003e"
+    "TANIGUCHI Takaki \u003ctakaki@debian.org\u003e, Noah Meyerhans \u003cnoahm@debian.org\u003e, Thomas Bechtold \u003cthomasbechtold@jpberlin.de\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/cloud-team/python-botocore"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/cloud-team/python-botocore.git"
   ],
   "Version": [
-    "1.29.27+repack-1"
+    "1.37.9+repack-1"
   ]
 }

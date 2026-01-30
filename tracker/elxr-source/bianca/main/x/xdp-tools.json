@@ -6,22 +6,22 @@
     "libxdp1, libxdp-dev, xdp-tools, xdp-tests"
   ],
   "Build-Depends": [
-    "bpftool, clang, debhelper-compat (= 13), libbpf-dev, libelf-dev, libpcap-dev, llvm, pkg-config, zlib1g-dev"
+    "bpftool (\u003e= 7.5.0~), clang, debhelper-compat (= 13), dh-package-notes, libbpf-dev, libelf-dev, libpcap-dev, llvm, pkgconf, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "af4e649ac1c6bf83b9649e78e45286beae477d71 6272 xdp-tools_1.3.1-1.debian.tar.xz b453930916cf9aeaed5938d2330d34031b3b3292 2237 xdp-tools_1.3.1-1.dsc 9b052562dc52137fff96d5ebf59d4441157f4ae4 1252405 xdp-tools_1.3.1.orig.tar.gz"
+    "90156845e094c1c0b4c87fefad1159b676d64a79 6652 xdp-tools_1.5.4-1.debian.tar.xz 384e2a646a71181c5ffa0a9b81dfecc9c971e7cb 2278 xdp-tools_1.5.4-1.dsc bf04b216514415ef5ea0031a87bb9f629606e1d5 1403977 xdp-tools_1.5.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "21274242e1b8150b1f7c95a7bb3f6bc611b947ad05fea3d899bbf28eaa405137 6272 xdp-tools_1.3.1-1.debian.tar.xz 53b1e9fe652a84f4cf103136a535319894a2b8b4389a28f4ad3d657f98c69c02 2237 xdp-tools_1.3.1-1.dsc 3317137d8cd72e79cb5a096e9babfcbf155ad2cbd4fdc1e305c79515362ea795 1252405 xdp-tools_1.3.1.orig.tar.gz"
+    "0573313055a2f84ed585e9252a068b0830c6668c222f78e3fdb415879b731318 6652 xdp-tools_1.5.4-1.debian.tar.xz 6c8edb46fe996b3af520cb8efa2078e303ace0c09bfb5dc4e314c5434bc2564f 2278 xdp-tools_1.5.4-1.dsc c14771a57d80e76470a848026777bb9fbeae1b3e9fe2fa7b8820935ec7e0d924 1403977 xdp-tools_1.5.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f3248593079fdbf64ed8120e1125970733b194f71f967a8a2defba066ed84026e579bf6ed360dc17427f583c26062142a9c82ade4847e717c4eff1dd96d65fdb 6272 xdp-tools_1.3.1-1.debian.tar.xz ceb6606fa54a8b49c6e4d4a7214cc70e05b39c7e5566fe35e262bc8c3e655926b777766a0962fc57e75449b5c7bdac18c1b9fd78ef356b01ea6da81e322f787d 2237 xdp-tools_1.3.1-1.dsc ca7d219162d01e864aab2c5d3eb7ee4972f066f2b68170f00058e157fb298806854126b7e6680383f93fe88d1b7b195ae62e638ca74813b8926a25f83638e300 1252405 xdp-tools_1.3.1.orig.tar.gz"
+    "3a9c6355c51ea9e55356e59cbbd17ed9690f6eb8d3f690bedbdb38af2e377b75b1597bc8daa9b3a346e075da6360c7fba8a15d5fb5e084a34be30030c6ccb581 6652 xdp-tools_1.5.4-1.debian.tar.xz 8bcfcab87bd942cf5a4ad68e6b6b43caa3d69a6e45d2a741d7d34eb172885d80b1590f5750528e27b4174efa8ac8db2236017e926113fce900627145396f6fc8 2278 xdp-tools_1.5.4-1.dsc 765bd89c10e2710312532c0b7804725e8efe3b9c37602ebd443efc744ccfa84d8bb8011cdaf0ae7633bea69d23fbf9821f5a21cae8a9ed43e47dd77ab5ab3198 1403977 xdp-tools_1.5.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/x/xdp-tools"
   ],
   "Files": [
-    "7f0fae57584ccb31eefe39ecd570bfa9 6272 xdp-tools_1.3.1-1.debian.tar.xz ef2738752ebc27ccf58e11b59519db08 2237 xdp-tools_1.3.1-1.dsc bcb5da2c160bfe120198e08d8da8a59d 1252405 xdp-tools_1.3.1.orig.tar.gz"
+    "4927a304daaa51b932d68025b5b532b9 6652 xdp-tools_1.5.4-1.debian.tar.xz 414aec539b8946184f8ac96680d73bc1 2278 xdp-tools_1.5.4-1.dsc 5e7c54b899ad0b6a1b466229109a7487 1403977 xdp-tools_1.5.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "libxdp-dev deb libdevel optional arch=linux-any libxdp1 deb libs optional arch=linux-any xdp-tests deb devel optional arch=linux-any xdp-tools deb devel optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "ethtool, iproute2, iputils-ping, netcat-openbsd, tcpdump, tshark"
+    "ethtool, iproute2, iputils-ping, mount, netcat-openbsd, socat, tcpdump, tshark"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/xdp-tools"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/xdp-tools.git"
   ],
   "Version": [
-    "1.3.1-1"
+    "1.5.4-1"
   ]
 }

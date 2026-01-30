@@ -6,22 +6,22 @@
     "facter"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gem2deb"
+    "debhelper-compat (= 13), gem2deb, ruby-hocon \u003c!nocheck\u003e, ruby-rspec \u003c!nocheck\u003e, ruby-thor \u003c!nocheck\u003e, ruby-webmock \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "a6567c6d60ded761e5689c969e27d403178d9c9e 10032 facter_4.3.0-2.debian.tar.xz 66918f08dc747ddaea28b43630773b5ab21a07f4 1492 facter_4.3.0-2.dsc 01f5ca2f57dd2a6ae28b658435fdffe615e25ac1 343900 facter_4.3.0.orig.tar.xz"
+    "3847d92ea4f9bd33d652fa6a103337bc4ccd361c 11084 facter_4.10.0-1.debian.tar.xz 9d50de4df12dacb3ed2961f12f44d5f0ec304b40 1592 facter_4.10.0-1.dsc 0b31544700c3edb81a81d688c05df5134f608148 488385 facter_4.10.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "d77a328ca079de5f0ac4ada450c72b62f857cd162b76c566d6043ad8fff72e27 10032 facter_4.3.0-2.debian.tar.xz 300cf5ae68bc493ef1fd00c3030234e6c72a1f1595a2fdfc9e1aaca3598bc7b6 1492 facter_4.3.0-2.dsc 08ca2792c03b10ae8cbe121d5468fda4afec5547710d820e7a631aaa15b74dea 343900 facter_4.3.0.orig.tar.xz"
+    "43dc767d4c9e01ef9903ffd0c3733e06b5e2757051b89311eac09cb6c2f6cedb 11084 facter_4.10.0-1.debian.tar.xz 59ef3365a0087289addf0d9a62f93bdfe9b54306d4d290b5b944b52c458bd5c6 1592 facter_4.10.0-1.dsc f6bc8ded40a1a2e4f60a95e1aaab5b199f1445958a8294c6b0226141dc464f65 488385 facter_4.10.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "35b05e2fd68156b24880a751f6a4097500e51274caf03c9bbf9850f5441b21085f8ec02e9d5547584c00b47776ac718d90f8da55c05c339b398adfec4aa51a13 10032 facter_4.3.0-2.debian.tar.xz 8bec2c5dd500b899d4f276730580309de234eb45920b5b995eb031ed3671a956f914f6ed9581ad39afb215a332de3bfc8fb5cea589e99a645f215467e64bc7f2 1492 facter_4.3.0-2.dsc d6eccf04f0e55d867a9afbd1a7f53451b2a1239193060b113769a4752f4419db0db0b9b7966000094c3c7dfd61664463ee53bc197895cecf1ddaa4fa6e397112 343900 facter_4.3.0.orig.tar.xz"
+    "0633a1edb836e4bd30c3038bba30c18059eafc89ff65db16361a9b5c753a93c573a406be8ac2d42c84d5a93361647c0ac9467e3d6bdff9183537a094217b3ab8 11084 facter_4.10.0-1.debian.tar.xz 26424537a57e0c83746d6b281d0c6d697a03e574636b27040563382c8e5e286e5a730b80a27f3febb282b02062f5c8c88a2312d4ecab63b67bb1da744036b1c0 1592 facter_4.10.0-1.dsc 615d94a2232736b63b59020053a97b6c3b7870d7d707f69dcffa135a222ac31c904b7588ad7e1a6772af59743b5fbd82c80832670c0bf7d35a4f6a29fdbc7c93 488385 facter_4.10.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/f/facter"
   ],
   "Files": [
-    "61ac6e6140962053d3fb6288eee85cbb 10032 facter_4.3.0-2.debian.tar.xz 0dc45d21e7c0fccd277160d599374ab2 1492 facter_4.3.0-2.dsc bbb1c5d1eb7c80d4c6f410799dfa7ee7 343900 facter_4.3.0.orig.tar.xz"
+    "056e80e10507ccdd095a9f808c1303c9 11084 facter_4.10.0-1.debian.tar.xz df0739a41014de8c00f4198fa51bfd1c 1592 facter_4.10.0-1.dsc bd30ee50b76c0973dbdb91a812f5244e 488385 facter_4.10.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "facter deb admin optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/puppet-team/facter.git"
   ],
   "Version": [
-    "4.3.0-2"
+    "4.10.0-1"
   ]
 }

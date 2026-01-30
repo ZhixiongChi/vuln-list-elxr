@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libplacebo-dev, libplacebo208"
+    "libplacebo-dev, libplacebo349"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), meson, ninja-build, pkg-config, libavcodec-dev \u003c!nocheck\u003e, libavformat-dev \u003c!nocheck\u003e, libavutil-dev \u003c!nocheck\u003e, libepoxy-dev, liblcms2-dev, libvulkan-dev, glslang-dev, python3, python3-setuptools, python3-mako, spirv-tools"
+    "debhelper-compat (= 13), meson, ninja-build, pkgconf, libavcodec-dev \u003c!nocheck\u003e, libavformat-dev \u003c!nocheck\u003e, libavutil-dev \u003c!nocheck\u003e, liblcms2-dev, libvulkan-dev, libxxhash-dev, glslang-dev, python3, python3-glad (\u003e= 2), python3-jinja2, python3-setuptools, spirv-tools"
   ],
   "Checksums-Sha1": [
-    "da9e3dbcd194d06226b66a43228c99f288db25ff 11388 libplacebo_4.208.0-3.debian.tar.xz f4ac983c0748585b1aecc78d989e9e789c7d77b2 2269 libplacebo_4.208.0-3.dsc 1c4433fd2644b7d920f49c2d6c23d45f96b2f218 647098 libplacebo_4.208.0.orig.tar.gz"
+    "37d3197c4ae73f5f298a69398984132ecde76a0e 10736 libplacebo_7.349.0-3.debian.tar.xz 441ff4665c89eaf508362540511819bfc8912b84 1713 libplacebo_7.349.0-3.dsc de69399ce224a3ae2fa7475669b35897ebf804ff 846218 libplacebo_7.349.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a46a10cd270ced12080760c8b3529cd71e316012126611db193b1fe3e5bce2c0 11388 libplacebo_4.208.0-3.debian.tar.xz 4f4892c18ce075d51db32cdf69d5edb845749c159a9458c9dac365b283936dec 2269 libplacebo_4.208.0-3.dsc 7b3c857934ee3d30f743e43d7f0606e10950806661ea0ea385f8a1f06cbab854 647098 libplacebo_4.208.0.orig.tar.gz"
+    "31003c3fbf9b739649c070598438805b618e4985f4d8ef27eba97338bd2306f9 10736 libplacebo_7.349.0-3.debian.tar.xz 4ba8c1f5e3f39f16fbfb853dfcf9fc7cb3c7b8ad54a5dee5cb7296292126400f 1713 libplacebo_7.349.0-3.dsc 79120e685a1836344b51b13b6a5661622486a84e4d4a35f6c8d01679a20fbc86 846218 libplacebo_7.349.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "37a1b4faff9cb0e7c53cade862f4b3db4bb8e1ec0c35d5055ac93c4ccb7c4082b5e8c8f26ea5d8bd6123bd7d862cf1bc8ee38d80b22ec96b90291802c03a7947 11388 libplacebo_4.208.0-3.debian.tar.xz 8e609269eb947b72371bdd483f44c3dffa3c4aebc9e93cbd7f3fc2706c20c9d4a45611809752ae33dc9f04b0a1a5a2b0ce85412a1df355888bc16c2f35c4ff07 2269 libplacebo_4.208.0-3.dsc 5d4b9a9d61dcd61c716bf9bbb22b9a0976f5d42069a46993da9b9b5625a6c75c352b353f74ec74f80f91f6bb1acb96dd7809d36e80ad1a8e64aab62d07107ffa 647098 libplacebo_4.208.0.orig.tar.gz"
+    "ada2d97ece0f0da43a258d36997c289eb4ccd580154d1d8da0bfe89475dfc0b4033233c4c651c322092989a01796cf64b97a9cd404342e7196a3b4976e527672 10736 libplacebo_7.349.0-3.debian.tar.xz 07e946052b5a9a4372abea178a555189af10c812afdff87f58d671e0d8a515c8ec0e30d0600d307972b0fb3c7de91323207f44a2301ea6eebe215870f2e1f7a7 1713 libplacebo_7.349.0-3.dsc 94fb0ad4f6cdafc81a43f06a73e49ef8ed7f81e751ad2a028f6f91295a06d8c12f2959e2595bd654db946fc5aa89758ab9d37f985ebb82badbd517ed02f3ddca 846218 libplacebo_7.349.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libp/libplacebo"
   ],
   "Files": [
-    "67ff9895dc3e0843eec370e1605648dd 11388 libplacebo_4.208.0-3.debian.tar.xz 18bdac6d0731aed748e045cb66b62363 2269 libplacebo_4.208.0-3.dsc 706e39e9c41a29d2daa5dbe58ff5c25e 647098 libplacebo_4.208.0.orig.tar.gz"
+    "feb96e80a03fee84d84443b4e96e084c 10736 libplacebo_7.349.0-3.debian.tar.xz 90d93c1db0fae06b95d1d0c88a712517 1713 libplacebo_7.349.0-3.dsc 9b1d0d96793dfa883ed6ac70f7f871d1 846218 libplacebo_7.349.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "libplacebo"
   ],
   "Package-List": [
-    "libplacebo-dev deb libdevel optional arch=any libplacebo208 deb libs optional arch=any"
+    "libplacebo-dev deb libdevel optional arch=any libplacebo349 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Uploaders": [
     "Sebastian Ramacher \u003csramacher@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/multimedia-team/libplacebo.git"
   ],
   "Version": [
-    "4.208.0-3"
+    "7.349.0-3"
   ]
 }

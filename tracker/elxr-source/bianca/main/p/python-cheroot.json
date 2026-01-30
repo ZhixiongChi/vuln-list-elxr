@@ -6,22 +6,22 @@
     "python3-cheroot"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-jaraco.context, python3-jaraco.functools, python3-jaraco.text, python3-more-itertools, python3-openssl, python3-packaging, python3-portend, python3-pytest, python3-pytest-cov, python3-pytest-forked, python3-pytest-mock, python3-pytest-rerunfailures, python3-pytest-xdist, python3-requests-toolbelt, python3-requests-unixsocket, python3-setuptools, python3-setuptools-scm-git-archive, python3-six, python3-sphinx, python3-trustme"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-jaraco.context \u003c!nocheck\u003e, python3-jaraco.functools, python3-jaraco.text \u003c!nocheck\u003e, python3-more-itertools, python3-openssl \u003c!nocheck\u003e, python3-packaging, python3-portend \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-pytest-forked \u003c!nocheck\u003e, python3-pytest-mock \u003c!nocheck\u003e, python3-pytest-rerunfailures \u003c!nocheck\u003e, python3-pytest-xdist \u003c!nocheck\u003e, python3-requests-toolbelt \u003c!nocheck\u003e, python3-requests-unixsocket \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm (\u003e\u003e 7), python3-sphinx, python3-trustme \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "256bf0462fef4e8c2861f8aa2b91f79d1d48fd0f 5192 python-cheroot_9.0.0+ds1-2.debian.tar.xz fe312638228f0bf7021fa6420c963549c0e4b21d 2744 python-cheroot_9.0.0+ds1-2.dsc fd0dd59a7edb758a059a287e0d1a8d5ea34ddff9 104736 python-cheroot_9.0.0+ds1.orig.tar.xz"
+    "e7428bcdc425abdcd18dce6c4e8d7fffea6618ac 5808 python-cheroot_10.0.1+ds1-4.debian.tar.xz c0a93b1e2c5c60d6382b58ba90274e16a495d910 2675 python-cheroot_10.0.1+ds1-4.dsc fbb98aea34794db91e9b796ac4f4c90bae1dc477 112728 python-cheroot_10.0.1+ds1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "973af0b1e1c6b61386dc11c77c85da970152bb6428369c3168b11718e0669ce2 5192 python-cheroot_9.0.0+ds1-2.debian.tar.xz dbc9884e2c7e20adb7bdce0c396edcad00106fccec97da2b5f9c9e8da1ef15ee 2744 python-cheroot_9.0.0+ds1-2.dsc 1bdc170361c6bdbd0e5f3833c6eb4426d459e6b4cb4024a67e3f4493c7dd2d17 104736 python-cheroot_9.0.0+ds1.orig.tar.xz"
+    "f45ef63b2e441ac2e1e9b7926bf160c0340230494347f81ebae548bd9186254c 5808 python-cheroot_10.0.1+ds1-4.debian.tar.xz b21dc8fa4e88e9c5301ca1906759aad54e26d3de4039f123c17908c5603e8e4f 2675 python-cheroot_10.0.1+ds1-4.dsc c85ca6e2d3ef37eaa9aae0c5794e943bef2ccd9df09ed7235b7f7ef8f9ee543b 112728 python-cheroot_10.0.1+ds1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "6902bfdb2cd6b732a7dba067f40e0bbaebb11d65035683a5504be3c90ef55026b39e8270ccc460e83427e707ebf978c772dcce440c63829d66da9691c808537b 5192 python-cheroot_9.0.0+ds1-2.debian.tar.xz 5e7c1a31199bb51d3cd7099a9e7efa358fc7bb3af119fb46307fb5b33744702fad4c8dacba0f9bc68b5ecfdc52f71da9848c105ae05ce7193db20bebf51be715 2744 python-cheroot_9.0.0+ds1-2.dsc 9a576046c52d332ccbf3282dab5368c320bec78161e25f1ddbfad81bbc2cf64bb7646d0803a6a8721ae0db435ee19e7e4a0604887f84165d10c2fdc1a89f75d8 104736 python-cheroot_9.0.0+ds1.orig.tar.xz"
+    "f6800ef97679e4dc023324e60e53162b6f1d2f59e48d158f21f558b7124a5f7a968b210109108ce04f13cc9a2672f3c1a9ea4356fc9fd9d204a2f5571f1c2ef6 5808 python-cheroot_10.0.1+ds1-4.debian.tar.xz 45c7ffd919313a04ebca047f7db56e267331badb1fd115eb8d5e8207196981c15f166e616b828392a203d67ceb44abc4b67fb0a5a33221b548335e3ef5db8149 2675 python-cheroot_10.0.1+ds1-4.dsc e3ccbfea8f967c6289c68e83880e107899d0b498577d6fc6ce7bf1bae69ab8262fd5b34537348b51ff35f603bd23a3878025f1bff08a6793ac0b8a7d7973ccfb 112728 python-cheroot_10.0.1+ds1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-cheroot"
   ],
   "Files": [
-    "b2889f4443616900f5af1c35e26f0c7b 5192 python-cheroot_9.0.0+ds1-2.debian.tar.xz c37e20a5a7576027473bc5619945fdb8 2744 python-cheroot_9.0.0+ds1-2.dsc 1dd81cb781191815e75f9461dbfde68a 104736 python-cheroot_9.0.0+ds1.orig.tar.xz"
+    "84bc980993891c858247b198aed3b0fe 5808 python-cheroot_10.0.1+ds1-4.debian.tar.xz 8a4aff5a8f68eafaf0110e9933d69ea6 2675 python-cheroot_10.0.1+ds1-4.dsc b6cc3abfcff9046743ce252288681613 112728 python-cheroot_10.0.1+ds1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,10 @@
     "python3-cheroot deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.1"
   ],
   "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python3-jaraco.text, python3-openssl, python3-portend, python3-pytest, python3-pytest-cov, python3-pytest-forked, python3-pytest-mock, python3-pytest-xdist, python3-requests-toolbelt, python3-requests-unixsocket, python3-trustme"
+    "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
     "Julien Puydt \u003cjpuydt@debian.org\u003e"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/python-cheroot.git"
   ],
   "Version": [
-    "9.0.0+ds1-2"
+    "10.0.1+ds1-4"
   ]
 }

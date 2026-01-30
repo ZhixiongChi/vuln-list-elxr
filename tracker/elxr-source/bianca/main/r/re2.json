@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libre2-9, libre2-dev"
+    "libre2-11, libre2-dev, python3-re2"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.16~), g++ (\u003e= 4:5), python3, python3-six, unicode-data"
+    "debhelper-compat (= 13), dh-python, libabsl-dev (\u003e= 20240116.2), libbenchmark-dev, libgtest-dev, pkgconf, pybuild-plugin-pyproject, python3, python3-absl, python3-all-dev, python3-pybind11, python3-setuptools, unicode-data"
   ],
   "Checksums-Sha1": [
-    "7c85d4f7152d55d6f1de9c869a83b54c9b2dd4ce 10140 re2_20220601+dfsg-1.debian.tar.xz bdd05931f7e94287496a51cd81d70df113e2b436 1429 re2_20220601+dfsg-1.dsc c02d742d548ebd8f00b3481c3f2a65ed321257a8 253636 re2_20220601+dfsg.orig.tar.xz"
+    "b6a55cb7df1eb802166c79108311633920fd2dfb 11096 re2_20240702-3.debian.tar.xz 91372bc04002a7d15b7bb3f26cf6d27a76fd501c 1615 re2_20240702-3.dsc 2fac73519fee82f37fa390ead18405850141953b 390672 re2_20240702.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "6e93860fc6d5a7bc94f0cb235f107545a332e6cd37c3a4060982b9caa47a2570 10140 re2_20220601+dfsg-1.debian.tar.xz e0d2eab89a0312e9a0ba4e9a6fb18b081764d6776a28496d389aa3831d970940 1429 re2_20220601+dfsg-1.dsc 3bc61251da3b0b97be40a8a127818c517c62516e4eda11fc901d29496663df54 253636 re2_20220601+dfsg.orig.tar.xz"
+    "ebe0bb1b9f14a9b16bb40a8729f9c5c7df98ef9a7883a5e78716fd377ec194ef 11096 re2_20240702-3.debian.tar.xz 2021430e93176817d300d424e363c073ddc4655e45b86d42193c3714b40238e9 1615 re2_20240702-3.dsc eb2df807c781601c14a260a507a5bb4509be1ee626024cb45acbd57cb9d4032b 390672 re2_20240702.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "7fb2d90b0f9d1da7a9fd59ef990e3ffadd827a0e5da4db9368127f0eea24de6852edf616212876b255f6b5b479f2fc0ec538d40a431116dd835656da88779cd1 10140 re2_20220601+dfsg-1.debian.tar.xz 4f572d470d56b46542bd9742f5724075b25c8784ba0be0fbeb5055e4f0aebf19b7c0af26d6db44e6248874f26c5ff8727628cc1f4dc0c70e92cbed4336bcee81 1429 re2_20220601+dfsg-1.dsc 0f8535e395f4667c35306b224f55fd43f22949801be90d2a2187ca81c4e6e8e4a6016d8d3681c9f7783c6b3f6db101a8ff37a16135b63526d15aaa535280e783 253636 re2_20220601+dfsg.orig.tar.xz"
+    "47e359d6ce03b745eaf2a5c05128daeb7992e09fbe928da48312b91136ba228ced6bf4ba16b86a94984b2e654b6ead9513c9836bcbf7b6fd21782fe50eef4e3e 11096 re2_20240702-3.debian.tar.xz d2ce46a28df54e73d6e9ac79c91956ff5353fc408ad8962fba43675aae4c4b59fc4ab2bc6159b5c9acb58dbba075cc49b74296de70d38b379bc56911596220f4 1615 re2_20240702-3.dsc 3776383355ccfdec85e0cdfb3ce980c6ecb3c336d603dd34c0a547c7c06a6243947a13cb352372335edac12d4f28cf1b7a51d034f5b34db3e46cbcac5e3f7479 390672 re2_20240702.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/re2"
   ],
   "Files": [
-    "9f427dea8bcbc13d385d7951668fcae2 10140 re2_20220601+dfsg-1.debian.tar.xz f571e6abbdf412d47446015ff6d5b9f6 1429 re2_20220601+dfsg-1.dsc 502573ca579483e80f51f1458718bd48 253636 re2_20220601+dfsg.orig.tar.xz"
+    "7f04ecfc2bc63022075399665406e819 11096 re2_20240702-3.debian.tar.xz 8ab14d00eabc736da52db10fb89232e1 1615 re2_20240702-3.dsc 73c94c78678bd2d641beaf8d5a3fd352 390672 re2_20240702.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,16 +36,16 @@
     "re2"
   ],
   "Package-List": [
-    "libre2-9 deb libs optional arch=any libre2-dev deb libdevel optional arch=any"
+    "libre2-11 deb libs optional arch=any libre2-dev deb libdevel optional arch=any python3-re2 deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "g++"
+    "g++, pkgconf, python3-absl, python3-all"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/re2"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/re2.git"
   ],
   "Version": [
-    "20220601+dfsg-1"
+    "20240702-3"
   ]
 }

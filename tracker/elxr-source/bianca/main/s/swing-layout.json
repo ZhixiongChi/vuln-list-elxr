@@ -6,31 +6,31 @@
     "libswing-layout-java, libswing-layout-java-doc"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 9), javahelper (\u003e= 0.40ubuntu1), maven-repo-helper (\u003e= 1.6~)"
+    "debhelper-compat (= 13), javahelper, maven-repo-helper"
   ],
   "Build-Depends-Indep": [
-    "ant, default-jdk"
+    "ant, default-jdk-headless"
   ],
   "Checksums-Sha1": [
-    "76e4b307e0ea4b3bd9a3b4328858fc6f9bb5021b 3564 swing-layout_1.0.4-4.1.debian.tar.xz 0cd558155fb75a8e2951cef7279ba33b24ad5fea 2157 swing-layout_1.0.4-4.1.dsc 8170774faf8b8d2d0fa08d9f593b9501b843cac9 62681 swing-layout_1.0.4.orig.tar.gz"
+    "5d708a2f7407531897f1ad4eefb739928438beff 3212 swing-layout_1.0.4-5.debian.tar.xz 2615f5e2ad4ca16a8aca35cfe6752a8aa4adec7f 2198 swing-layout_1.0.4-5.dsc 8170774faf8b8d2d0fa08d9f593b9501b843cac9 62681 swing-layout_1.0.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "25ae885a9899b0ac0e85b3190c1767c7d0e17c8d46f4ad3362dbebd1ea7a2abd 3564 swing-layout_1.0.4-4.1.debian.tar.xz 245ce06f8e5a74a1f12b1e42ac5d9aa1af9b601f2ca9a161c2a299c3a5a9f66c 2157 swing-layout_1.0.4-4.1.dsc 4a91439932343b793fd42b4bc8040ab2677081a9e0bdb01dbe7cd2294ce7e2d1 62681 swing-layout_1.0.4.orig.tar.gz"
+    "74c34228db4add19a102dd2c7358dbc30058419bc61b9961170b066a38454971 3212 swing-layout_1.0.4-5.debian.tar.xz 8436a930dc404e523327b1d98013e5c9d336cb0fd5b84588a93239cad25f65b6 2198 swing-layout_1.0.4-5.dsc 4a91439932343b793fd42b4bc8040ab2677081a9e0bdb01dbe7cd2294ce7e2d1 62681 swing-layout_1.0.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "253564a266fb1ccdff5832ad84e007ace08d8ab17032c4a094304aaf6819e041c25b3e480ab8792cb347cd8c1d04250ad955043b5d243ac7f99f8781c6b6edb2 3564 swing-layout_1.0.4-4.1.debian.tar.xz 83f96b6b98fd2b6fe2a1bd0429f1196e95c0597104d64a805939f603b4102455f783840e2e210a4a3879d365722f8229d85a0e53838aa27e2d754500861d9a55 2157 swing-layout_1.0.4-4.1.dsc 2e7fb136f403714c4a114bfdbda0b97b54a3b6c5db70b7419b90f87ad4fda1888b203edc17b0c753a21fb6f1e23892eef8732a06dbada05262d01b1a51a06991 62681 swing-layout_1.0.4.orig.tar.gz"
+    "c6ff4f771547dbf2553907b5c509c7a2689e755344cad5df23a490fcb33cd44f48f3db7743a60b10feefae4d4ebb6d98d0e4730f2c82cd004d80cc881080b94c 3212 swing-layout_1.0.4-5.debian.tar.xz 323c0667dbc2af45692bced3e65b946513b9826a7a53c4fea32ac43a15517f2cf24313a660edf1cfba4bc781388a5029cfe80bec0805d37fc0f6081e62361f1c 2198 swing-layout_1.0.4-5.dsc 2e7fb136f403714c4a114bfdbda0b97b54a3b6c5db70b7419b90f87ad4fda1888b203edc17b0c753a21fb6f1e23892eef8732a06dbada05262d01b1a51a06991 62681 swing-layout_1.0.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/s/swing-layout"
   ],
   "Files": [
-    "966becee9f235c35f65df44ad710044e 3564 swing-layout_1.0.4-4.1.debian.tar.xz 80b52e05614a1c8f9d1b7c35dcc3bf24 2157 swing-layout_1.0.4-4.1.dsc 4a93af79e29904d7865baf726f5d4e70 62681 swing-layout_1.0.4.orig.tar.gz"
+    "e7f8afcd38a49c4e4425682bc90101ee 3212 swing-layout_1.0.4-5.debian.tar.xz 2b1b1d8bd2692a3f758e998f63c48b85 2198 swing-layout_1.0.4-5.dsc 4a93af79e29904d7865baf726f5d4e70 62681 swing-layout_1.0.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://java.net/projects/swing-layout/"
+    "https://web.archive.org/web/20170409021320/https://java.net/projects/swing-layout"
   ],
   "Maintainer": [
     "Debian Java Maintainers \u003cpkg-java-maintainers@lists.alioth.debian.org\u003e"
@@ -42,18 +42,18 @@
     "libswing-layout-java deb java optional arch=all libswing-layout-java-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "3.9.4"
+    "4.7.2"
   ],
   "Uploaders": [
     "Andrew Ross \u003cubuntu@rossfamily.co.uk\u003e"
   ],
   "Vcs-Browser": [
-    "http://svn.debian.org/wsvn/pkg-java/trunk/swing-layout"
+    "https://salsa.debian.org/java-team/swing-layout"
   ],
-  "Vcs-Svn": [
-    "svn://svn.debian.org/svn/pkg-java/trunk/swing-layout"
+  "Vcs-Git": [
+    "https://salsa.debian.org/java-team/swing-layout.git"
   ],
   "Version": [
-    "1.0.4-4.1"
+    "1.0.4-5"
   ]
 }

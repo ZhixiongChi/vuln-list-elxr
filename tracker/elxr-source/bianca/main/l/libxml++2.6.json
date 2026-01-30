@@ -6,28 +6,28 @@
     "libxml++2.6-dev, libxml++2.6-2v5, libxml++2.6-doc"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11), gnome-pkg-tools (\u003e= 0.11), libxml2-dev (\u003e= 2.7.7), libglibmm-2.4-dev (\u003e= 2.44.0-2~), mm-common (\u003e= 0.9.8), pkg-config"
+    "debhelper-compat (= 13), docbook-xsl, doxygen, libxml2-dev (\u003e= 2.7.7), libglibmm-2.4-dev (\u003e= 2.44.0-2~), libxml2-utils, meson, mm-common (\u003e= 0.9.8), pkgconf, xsltproc"
   ],
   "Checksums-Sha1": [
-    "7556e22745dba80edf55489f92dbfb64c5c78c63 6484 libxml++2.6_2.40.1-3.debian.tar.xz a0d1277f9575e5ce3d24d1c5fb31dfcb232f3853 2283 libxml++2.6_2.40.1-3.dsc d3b814d1e53335107655fdd35718d2b16921c3aa 955220 libxml++2.6_2.40.1.orig.tar.xz"
+    "05576c5fd6e6cb23896030853978726cb424a5f3 6632 libxml++2.6_2.42.3-2.debian.tar.xz bcdc55a940bcfebbeac39bd5180bf93814c9ec03 2253 libxml++2.6_2.42.3-2.dsc 2f84969696958939e3c1e7ae02fcd2f47248e6be 136104 libxml++2.6_2.42.3.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "06f24d946dd0151c3e77358fa7f852a04aa440f3c7105127a8b1720753116ebe 6484 libxml++2.6_2.40.1-3.debian.tar.xz b118a7720d5215636c7a0f271e8dd436491269ae81ff88a2283814086dd58a99 2283 libxml++2.6_2.40.1-3.dsc 4ad4abdd3258874f61c2e2a41d08e9930677976d303653cd1670d3e9f35463e9 955220 libxml++2.6_2.40.1.orig.tar.xz"
+    "deb29c403791a2ed3b4e40782669bd3145f2ee149eae5592879f634a5099c9c0 6632 libxml++2.6_2.42.3-2.debian.tar.xz eab5da3a317ad738bbf622cbf45c3ed85ed0f7ac4c26e13bfd3e1bb86060cde3 2253 libxml++2.6_2.42.3-2.dsc 767b850854df80f73e2bedf9d5d1110237a488434ee08665e5f4d962a36d92c7 136104 libxml++2.6_2.42.3.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "b594634597eebf6b7f6566f120dfd90d74c33e44876f052ecc5b212624b744d4f2d2a83e79e3de499cfc104e3f16ffaacf8dd63f2884145712c1677f1b951239 6484 libxml++2.6_2.40.1-3.debian.tar.xz fd6289af262f4b63657de6dc320ee026269cfc383fe06e74a6096a9652e250bd32b8f336513fc648544ef90951259b806e7691c2a21f68b5cb1647c8e5caf441 2283 libxml++2.6_2.40.1-3.dsc a4ec2e8182d981c57bdcb8f0a203a3161f8c735ceb59fd212408b7a539d1dc826adf6717bed8f4d544ab08afd9c2fc861efe518e24bbd3a1c4b158e2ca48183a 955220 libxml++2.6_2.40.1.orig.tar.xz"
+    "0b5e77cc0af2a7e3fe2f390cf6472f05322d3818bbfc85bdb1df1c7f88867197d6ea43f6b6f2098a13a7e1fb612cbb7ab5b39a3857a00bacb07593bdf263be13 6632 libxml++2.6_2.42.3-2.debian.tar.xz 8be64362daf2a9df88fc0d5b0afa690b135581e443c8df3ca6128b14163bdb65b68b54f91c786a21749848e6e1fb981a16397416d542b01f3e1b795ec3e1434a 2253 libxml++2.6_2.42.3-2.dsc a133ea2f8940f0acfd73d378bc21225841ec5decee1dac52c9ccc207d15276b1bab4590503ba2d5debfe2a45f266fdfafe64a71a6e1e4f8588abb9cc05b41bd2 136104 libxml++2.6_2.42.3.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libx/libxml++2.6"
   ],
   "Files": [
-    "ffac04d6b253d7b55ac748cd455d790b 6484 libxml++2.6_2.40.1-3.debian.tar.xz 04737b2f7cbf4de1b1ce67de794fa0c8 2283 libxml++2.6_2.40.1-3.dsc 377a87bea899f2b4ff62df2418c3d8a6 955220 libxml++2.6_2.40.1.orig.tar.xz"
+    "be2d8ca84c6dd3071f33aff644c1da51 6632 libxml++2.6_2.42.3-2.debian.tar.xz 849eac09ad301742819985aedf19c308 2253 libxml++2.6_2.42.3-2.dsc 1959ece7c4d26e1c9ac56185b4d0b804 136104 libxml++2.6_2.42.3.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://libxmlplusplus.sourceforge.net/"
+    "https://libxmlplusplus.github.io/libxmlplusplus/"
   ],
   "Maintainer": [
     "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
@@ -39,10 +39,10 @@
     "libxml++2.6-2v5 deb libs optional arch=any libxml++2.6-dev deb libdevel optional arch=any libxml++2.6-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.3.0"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Jeremy Bicha \u003cjbicha@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e, Sebastian Dröge \u003cslomo@debian.org\u003e"
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/libxmlplusplus"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/libxmlplusplus.git"
   ],
   "Version": [
-    "2.40.1-3"
+    "2.42.3-2"
   ]
 }

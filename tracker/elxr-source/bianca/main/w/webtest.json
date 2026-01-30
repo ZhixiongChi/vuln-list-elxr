@@ -9,22 +9,22 @@
     "debhelper-compat (= 13)"
   ],
   "Build-Depends-Indep": [
-    "dh-python, python3-all, python3-setuptools, python3-webob, python3-sphinx, python3-six, python3-bs4, python3-waitress"
+    "dh-sequence-python3, python3-all, python3-legacy-cgi, python3-setuptools, python3-webob, python3-pytest, python3-bs4, python3-pyquery, python3-sphinx, python3-waitress, python3-wsgiproxy"
   ],
   "Checksums-Sha1": [
-    "d27de2e9285ffbedfc549d8f38b1ecd646ef2521 5016 webtest_3.0.0-2.debian.tar.xz 5f58b2e4d3c231d57af9e26748415035cfbf4612 2136 webtest_3.0.0-2.dsc 308768ea1a8665c1f69e4557639118966188958d 75871 webtest_3.0.0.orig.tar.gz"
+    "5cab729f9d2071380fe3b15e4568ae6ae637d384 5356 webtest_3.0.4-1.debian.tar.xz bc4a77f919564c9e51bc9ddc3daaca2b28db3700 2205 webtest_3.0.4-1.dsc c2e034064a27a1bb14eb247322c30b991d097a15 79395 webtest_3.0.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "557c28d4f917307a1074fd0b508922faf3c0e0da4ec64fde6cb7b7835cde0a10 5016 webtest_3.0.0-2.debian.tar.xz be766cb4786bbe93032c636eaf3f4dab8fb6ab3be24c8b06d563048b42144bb0 2136 webtest_3.0.0-2.dsc 54bd969725838d9861a9fa27f8d971f79d275d94ae255f5c501f53bb6d9929eb 75871 webtest_3.0.0.orig.tar.gz"
+    "ae922a1c6a8c75e4ca4476f81566bea7296654bb6d25a112346d4f4d31a9a595 5356 webtest_3.0.4-1.debian.tar.xz 6bf5cd444082ada9f23bf15cd89173476528cd511e37d7c290a2b361ea1ae69d 2205 webtest_3.0.4-1.dsc 94778d19a37e5abd7388dad4d93874410ecced53a1739a8e5ff2dbcba1cfc0c4 79395 webtest_3.0.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "b034bff1f8112c016fbf4fddb108dd5e88dd6d959e237885bebc3c79bc799f12aa373377d52d28dba94299b483971687807bb8f44cdf39341ec1323e14858b52 5016 webtest_3.0.0-2.debian.tar.xz bc9bde2cdaba2c2af0b6f332d4bfe30251f40f566d78e437b533a4b597e2dc374ebf23f3c0c5ec7f415711086d4de280ca42f8a94a26b5ffc2c937ef18627aa8 2136 webtest_3.0.0-2.dsc b97a6311d7e3bf653bec93c2390fb75c991d0dea6148680d8b6ff87861c130518a5d150dd157eab9b032b278566ad12c0ac8f5fc2ddbeba31e35de1e1f06f747 75871 webtest_3.0.0.orig.tar.gz"
+    "9bbb2bddf19091a8cccbd383cf06ce9da4cb0349cce9be3dd21ce53362a0caf27f26090215bbc9ff7c8f0b8e92506133254e7b5f6240827e85145816e2689ed6 5356 webtest_3.0.4-1.debian.tar.xz 775ab0bb9005f7ef20187462fbc7e31ee2e7c22c854753e194195bf36988a20b94c28cad61fd35d3487b95b833a9e32f582197ec79b28d979720ca638dcabfb4 2205 webtest_3.0.4-1.dsc ebf7a76d18719283af5fcf0ea902285a9eee280e68892f2db35e5e48e04efd18e96e393a020e3c4ac4e001875c6da5583348572fd028c0e1a11d468695362a0b 79395 webtest_3.0.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/w/webtest"
   ],
   "Files": [
-    "59aebaa1d67137128d45ad06e1232e8a 5016 webtest_3.0.0-2.debian.tar.xz da1244b78d1b93aef1494f3fa5559c6c 2136 webtest_3.0.0-2.dsc f923a6279574427c82f5323c06b6f6e5 75871 webtest_3.0.0.orig.tar.gz"
+    "a6e3a2f10c7e2f05d9fc14dc280e6151 5356 webtest_3.0.4-1.debian.tar.xz 354ecd07e74f550d3a390e18301f0fb6 2205 webtest_3.0.4-1.dsc 4481094708b9158cf124636172f8b24c 79395 webtest_3.0.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "python-webtest-doc deb doc optional arch=all python3-webtest deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Uploaders": [
     "Piotr Ożarowski \u003cpiotr@debian.org\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/webtest.git"
   ],
   "Version": [
-    "3.0.0-2"
+    "3.0.4-1"
   ]
 }

@@ -1,27 +1,30 @@
 {
   "Architecture": [
-    "any"
+    "any all"
   ],
   "Binary": [
-    "libqpdf29, libqpdf-dev, qpdf"
+    "libqpdf30, libqpdf-dev, qpdf, qpdf-doc"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.16~), debhelper (\u003e\u003e 10.3~), libjpeg-dev, zlib1g-dev, libgnutls28-dev"
+    "dpkg-dev (\u003e= 1.22.5), cmake (\u003e= 3.16~), debhelper (\u003e\u003e 10.3~), libjpeg-dev, zlib1g-dev, libgnutls28-dev"
+  ],
+  "Build-Depends-Indep": [
+    "python3-sphinx, python3-sphinx-rtd-theme (\u003e= 1~), libjs-sphinxdoc (\u003e= 4.3.2~), texlive, texlive-latex-extra, latexmk, tex-gyre"
   ],
   "Checksums-Sha1": [
-    "227420eb5c69efded9bdefc72e22c5cc5f2618f0 14864 qpdf_11.3.0-1+deb12u1.debian.tar.xz 49f82f23d89acf28e29d84eadb9eb18414425eb6 2216 qpdf_11.3.0-1+deb12u1.dsc 633a4a40df585e72f1f2ee2194ae4f172df0a4ba 18732977 qpdf_11.3.0.orig.tar.gz 6840bb6c5a16632a549c0558ee9e75681fcaa64b 833 qpdf_11.3.0.orig.tar.gz.asc"
+    "9b7c2d17d620ab77c9c9f5cc799ff56c830fd64b 15320 qpdf_12.2.0-1.debian.tar.xz cf8beb571d52dac19880815110be639398270e64 2405 qpdf_12.2.0-1.dsc 9c5ab617e52178aab93ca9e1034d7e611a0a7744 19537905 qpdf_12.2.0.orig.tar.gz ee7632ee13668fa8dd865c4c48d0d86c06cd38b2 833 qpdf_12.2.0.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "e7e1baa90d9d90ab651df0951b1c0bdbfcad8831afe279a2d8990a6149ce8523 14864 qpdf_11.3.0-1+deb12u1.debian.tar.xz ecc031498331265c118c477eb88dab969ece147f4a9f9b0a616cb217df58fddb 2216 qpdf_11.3.0-1+deb12u1.dsc 547cee67de77b5c4ef4917e57d2db9c848cfe3aa950361f68d36367a3a03936e 18732977 qpdf_11.3.0.orig.tar.gz 6e2865ed389e9fcb233d2536f1339aff48059c31a46bc5243be05e46c4a2f40a 833 qpdf_11.3.0.orig.tar.gz.asc"
+    "f67ac313cd8962777d27745147f3cc062ca299f1346c4bb6bab1959c98e99526 15320 qpdf_12.2.0-1.debian.tar.xz caff9add5d88a7efa3b1a98fe2435f171b8764c8646c9f7f77152a2d87316efb 2405 qpdf_12.2.0-1.dsc b3d1575b2218badc3549d6977524bb0f8c468c6528eebc8967bbe3078cf2cace 19537905 qpdf_12.2.0.orig.tar.gz 523d56010855b379a2f41d732589306b0d23ec95b7f740860f2997000a487d3b 833 qpdf_12.2.0.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "9af97bc09379341d1eccf994d515df14c572373d41452748f788a33ec247ed27178763e264ead18662e2618d76bfd48e8cbc1ebe79d272cae3f304ee327d64f6 14864 qpdf_11.3.0-1+deb12u1.debian.tar.xz 2cd1cf2dca76a628eec3ca21fc601c0c6a577b09ee6423a7262393502e9c0d0b735ef10143d8ec4dc986e377fe9a841f1585988909010391a30e56fd346f1883 2216 qpdf_11.3.0-1+deb12u1.dsc 1c8a0b62d50efb4c09885f36244048797dea44f28917aefe0266e2b158858ea19d477bbc445abbd3b7180a3de56d6a819ff44275cdc0979827effba9739b53d2 18732977 qpdf_11.3.0.orig.tar.gz b9d92f8e0d13eab12dcd88811c53b2de021caec7f724565d758da1f53c6c6e14d8b0ec1a0eb68f2e7fcb8a02e71d48db7192d899e38f8d6895efeea7f23e7b97 833 qpdf_11.3.0.orig.tar.gz.asc"
+    "6e5c7077f480d586c1178d478425a17f7f0421cd1e5316bf4deb321d9fce4188f5e47730fcfa6846c2de9852b907fff652764f6421696cb657e1993880c4559f 15320 qpdf_12.2.0-1.debian.tar.xz bd40a2af2f396f575427778a1966ce5df64345a408bb15293e07efca7a2459c8987c66615f07a08417c8e55e06ec79f829b8d299d72e516c711e58fb30c1ad35 2405 qpdf_12.2.0-1.dsc 96a783730ada6cbb7a571d396f7acd1b17ae298c7a83570f8f1f9d16116e6c1d39201068e6c93401fecd058e1db77c6d83f3c744d01a374062cd8773cb329101 19537905 qpdf_12.2.0.orig.tar.gz 6eef15ccc3d368ede0f3159dfd39dad0508eb02482f06fb036c5f969f93b4e197ca9da14ecb5b9eb40e7b00f75f15e02c10ea1e72a74f6dbdbe98dd6ba734141 833 qpdf_12.2.0.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/q/qpdf"
   ],
   "Files": [
-    "d6309e1d617a65a8574d2b99bcc89708 14864 qpdf_11.3.0-1+deb12u1.debian.tar.xz 99e8969a189925b29bffe68c2b49c199 2216 qpdf_11.3.0-1+deb12u1.dsc 195a02bdd0e02a668cb03cafab14ddff 18732977 qpdf_11.3.0.orig.tar.gz 2932e02e3a5bdba91c243813e89ba286 833 qpdf_11.3.0.orig.tar.gz.asc"
+    "07fba4c100476a4aa6d9c3f957ffebeb 15320 qpdf_12.2.0-1.debian.tar.xz 2fc10b3844af19e9ba86d94aaa9a1ab8 2405 qpdf_12.2.0-1.dsc f10f5b3a0635e9fd2f305880c5cd8534 19537905 qpdf_12.2.0.orig.tar.gz df09ac76fb0ac275f890297f17f544d7 833 qpdf_12.2.0.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +39,10 @@
     "qpdf"
   ],
   "Package-List": [
-    "libqpdf-dev deb libdevel optional arch=any libqpdf29 deb libs optional arch=any qpdf deb text optional arch=any"
+    "libqpdf-dev deb libdevel optional arch=any libqpdf30 deb libs optional arch=any qpdf deb text optional arch=any qpdf-doc deb text optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,6 +51,6 @@
     "build-essential, cmake, pkg-config"
   ],
   "Version": [
-    "11.3.0-1+deb12u1"
+    "12.2.0-1"
   ]
 }

@@ -6,28 +6,28 @@
     "libbabl-0.1-0, libbabl-dev, libbabl-doc, gir1.2-babl-0.1"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, libgirepository1.0-dev (\u003e= 1.32.0), liblcms2-dev (\u003e= 2.8), meson (\u003e= 0.54.0), python3-setuptools, pkg-config, valac (\u003e= 0.20.0), w3m"
+    "debhelper-compat (= 13), dh-sequence-gir, gi-docgen, libgirepository1.0-dev (\u003e= 1.32.0), liblcms2-dev (\u003e= 2.8), meson (\u003e= 0.54.0), pkgconf, python3-setuptools, valac (\u003e= 0.20.0), w3m"
   ],
   "Checksums-Sha1": [
-    "ec5703ef7f07734a30ff4c7d5e60e2597d5b2b96 8668 babl_0.1.98-1.debian.tar.xz 58adf9287bd84fa2ae76f498f31902fca4e285e9 2318 babl_0.1.98-1.dsc fda6f0037a4fae8f8a3952dc846504ae9b87b060 312516 babl_0.1.98.orig.tar.xz"
+    "74fa01cfb9bc111a133e8d090d8aca94bdf545b9 8960 babl_0.1.114-2.debian.tar.xz 70e2b7b16cc24594ce3ef088dbfc1490e4c423aa 2313 babl_0.1.114-2.dsc faf7c980c675c2482c61fe6ceef4fe0f82241242 321456 babl_0.1.114.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "c79a586f2fcb5f71cdd397a9d785cceeb1931126ddcf3ba6c31960edbed486bd 8668 babl_0.1.98-1.debian.tar.xz ce5cdbf7295af3caea18c7f14b036961ce20400e1e12341147d0b9f30cf59e97 2318 babl_0.1.98-1.dsc f3b222f84e462735de63fa9c3651942f2b78fd314c73a22e05ff7c73afd23af1 312516 babl_0.1.98.orig.tar.xz"
+    "dd0a52008d18cc403ea29ca900b6f39c64634c8f15f961460bf967eed771ff5a 8960 babl_0.1.114-2.debian.tar.xz f1ded4d78b3ee9cfcb611d9c312e796b09362daad8a28a45aa625c4ae428c77a 2313 babl_0.1.114-2.dsc bcbb7786c1e447703db3bc7fa34d62d0d2d117b22f04d8834c7b2d5ded456487 321456 babl_0.1.114.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "a83e73b119e17010be3b8e7460465c5ed37d873ea679c55a81b6b79f5771ee1e6bdfd0648c4dc13870e81853a97de5cbdbd974fe551c67c6006e94d1d3cc8f1b 8668 babl_0.1.98-1.debian.tar.xz a7743b04f758a3fe21da68e6c7261af974c1ede39aa2eb2ec9966773b2342882b5a65a8d1b99948a48eba2331089e89c33de4cde674273b121408a3d8085de3f 2318 babl_0.1.98-1.dsc 33b2e3f8fbcd6602bb82d6242dd2911bb2232e69350f7a0e70e14b1472052e27b0e2a1fa6a2b6d0449fc9796353336e311c8d4007c532447cd61f95b684a3120 312516 babl_0.1.98.orig.tar.xz"
+    "20d1cd6959ca8ec40c7d727786cbaa4575c9b791cf76b5240ea51c2efb167f771b69030ec0dd81093e8b023b249d871065f8d1e81d1a4e202c7e204e13fd85b0 8960 babl_0.1.114-2.debian.tar.xz 0888d1f82d4c7a3f411e483c9f1a54253ac8706e55ea8ff1376317d23f5f17c255387d2bee5968084c353aff29f5388171e4d9a3273aca262147fdd80f76d32e 2313 babl_0.1.114-2.dsc ff410c9839f4fe4d6afd4dec7e4d02af34b1c8a4edbc05483784ed82f91045b1102414fc1c58357866044b7f1ab499eda24fe744f5dd692af5804020c76b2382 321456 babl_0.1.114.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/b/babl"
   ],
   "Files": [
-    "9faf3b1caaf5015377688fdca84c8cbf 8668 babl_0.1.98-1.debian.tar.xz a66a72113f08d99b485922a9e80f8078 2318 babl_0.1.98-1.dsc 0fd5f826e2ef14de04d978c203a3fe28 312516 babl_0.1.98.orig.tar.xz"
+    "3d1b268edae0790fa9eaab1fcc608ba6 8960 babl_0.1.114-2.debian.tar.xz 60f32516e4d4b1b45356b87e070cf709 2313 babl_0.1.114-2.dsc be5ed13a156e0a666695b44892422129 321456 babl_0.1.114.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://gegl.org/babl/"
+    "https://gegl.org/babl/"
   ],
   "Maintainer": [
     "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
@@ -39,16 +39,16 @@
     "gir1.2-babl-0.1 deb introspection optional arch=any libbabl-0.1-0 deb libs optional arch=any libbabl-dev deb libdevel optional arch=any libbabl-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential, pkg-config, python3-gi"
+    "build-essential, pkgconf, python3-gi"
   ],
   "Uploaders": [
-    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e"
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/babl"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/gnome-team/babl.git"
   ],
   "Version": [
-    "1:0.1.98-1"
+    "1:0.1.114-2"
   ]
 }

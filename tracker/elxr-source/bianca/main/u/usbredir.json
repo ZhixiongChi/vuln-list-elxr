@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libusbredirhost1, libusbredirhost-dev, libusbredirparser1, libusbredirparser-dev, usbredirect"
+    "libusbredirhost1t64, libusbredirhost-dev, libusbredirparser1t64, libusbredirparser-dev, usbredirect"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libusb-1.0-0-dev, pkg-config, meson, libglib2.0-dev"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), libusb-1.0-0-dev, pkgconf, meson, libglib2.0-dev"
   ],
   "Checksums-Sha1": [
-    "9384e69e24f8932a97c1a31fc2616aa2a3d44f1e 12560 usbredir_0.13.0-2.debian.tar.xz 6b8b02777fb41e9e1e5ca25497904b3d74814052 2162 usbredir_0.13.0-2.dsc 5e97600ac565099fc003126ef1307c788a86ebf9 69124 usbredir_0.13.0.orig.tar.xz"
+    "747fee1685096f5c114358944292491e3dfb4d09 12828 usbredir_0.15.0-1.debian.tar.xz 90d9cfefb235b6106f88dcc90946988d10163830 2193 usbredir_0.15.0-1.dsc f0c3007c7f50046e1218b4ae0319b32ae32cc787 69920 usbredir_0.15.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "9501dd2cea674f366a1be4c53cd02dcdd947697bc94a05c70d1623fedc076f4c 12560 usbredir_0.13.0-2.debian.tar.xz 44e6a2fa99611134d577e45d8335c1d4402bbbb260da62c1444096973f165872 2162 usbredir_0.13.0-2.dsc 844de39f4ebcfd639f0f9349bd9258ad34f361c0d11461d44f77ed0ab5f64cbe 69124 usbredir_0.13.0.orig.tar.xz"
+    "e36e41db583434bc39fc551cd14be8f53cdddbbc4b8593b253919de5c0c13222 12828 usbredir_0.15.0-1.debian.tar.xz dc03f67381d723646bdc9af28b0896ee9c2feea16586c3f47286b5313bbdf50e 2193 usbredir_0.15.0-1.dsc 33117294505602e2709a1351bc86e130fe34ffe95281a3d522d3c9729193ff48 69920 usbredir_0.15.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "95c95f52a2f0a661e948865afe2cdeff313b7f54791a1fc84682609f0c4482638c0b62d5d7aa7819eaabd398925595ed4fc079070810347582d95c2ea2d4b45b 12560 usbredir_0.13.0-2.debian.tar.xz e2aeef3f7134233e2dbefc2ed2fc748614517f3262f1eeba57dcb948047f41c1a4523cf3aeee60d6ddb64cc034e044c96c57fb7703c2b77732af6cc111725766 2162 usbredir_0.13.0-2.dsc b0675fe8e3332ee840e5f6ad4d22656dec7ecf20f6f5527d264eaa20dbc188cb93a049e33522a43600265028b1f67b7d8365152287600082fe19f59425fc2ceb 69124 usbredir_0.13.0.orig.tar.xz"
+    "4c2f1d74251d08479bfd2705b2a7dba1ae15c8b9e418e9ea509f43da8e1425a199d452b85aa04e79043fc50661f0bd67aa9e85b39b5dfe7548971d0655a9f721 12828 usbredir_0.15.0-1.debian.tar.xz d649b4e2edab277fa441a7e6e958d24aa043a8f7a2c2f00e7bd226bd44158c5a0b67f4d9d41e7f20ebd90087a681e3087c09a5119d4d5fa224bbed06b749e6d2 2193 usbredir_0.15.0-1.dsc 62b4c004051ce392208eb1a62b1d8d44e0769c308758c80b20bddb256aaa3243563fe6d2810b4759f649e1cc5e925ee2cc254a9577fab8b3fbedf974ca20cb05 69920 usbredir_0.15.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/u/usbredir"
   ],
   "Files": [
-    "f682e986d7d3357b9345aee5bd27eec8 12560 usbredir_0.13.0-2.debian.tar.xz c7e233ab0b5d8ce377e416c4f8bbae31 2162 usbredir_0.13.0-2.dsc 97db31b412e915d87b9f05ec6ea203e2 69124 usbredir_0.13.0.orig.tar.xz"
+    "53ebb4368ee5b3e90432c571f62576eb 12828 usbredir_0.15.0-1.debian.tar.xz a2fdf2a81ce4c33360e69e5216a434e7 2193 usbredir_0.15.0-1.dsc 4365544073e05d2844f52636c6093852 69920 usbredir_0.15.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "usbredir"
   ],
   "Package-List": [
-    "libusbredirhost-dev deb libdevel optional arch=any libusbredirhost1 deb libs optional arch=any libusbredirparser-dev deb libdevel optional arch=any libusbredirparser1 deb libs optional arch=any usbredirect deb otherosfs optional arch=any"
+    "libusbredirhost-dev deb libdevel optional arch=any libusbredirhost1t64 deb libs optional arch=any libusbredirparser-dev deb libdevel optional arch=any libusbredirparser1t64 deb libs optional arch=any usbredirect deb otherosfs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/usbredir"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/usbredir.git"
   ],
   "Version": [
-    "0.13.0-2"
+    "0.15.0-1"
   ]
 }

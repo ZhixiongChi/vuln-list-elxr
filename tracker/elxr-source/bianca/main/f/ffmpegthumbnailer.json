@@ -6,22 +6,22 @@
     "ffmpegthumbnailer, libffmpegthumbnailer-dev, libffmpegthumbnailer4v5"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), libavcodec-dev (\u003e= 4:0.6~svn20100505-1~), libavfilter-dev, libavformat-dev, libavutil-dev, libjpeg-dev, libpng-dev, pkg-config"
+    "cmake, debhelper-compat (= 13), libavcodec-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libjpeg-dev, libpng-dev, pkgconf"
   ],
   "Checksums-Sha1": [
-    "f8a9cad0db18b96a8670df6a0ec1eb20d8f1f923 5608 ffmpegthumbnailer_2.2.2+git20220218+dfsg-1.debian.tar.xz 4b2fa7674f2523e6a8d7d52899d4740f081d6fc0 2441 ffmpegthumbnailer_2.2.2+git20220218+dfsg-1.dsc ef3eacfdea7b0bd02305a0213f8150bc6d52fc8a 123044 ffmpegthumbnailer_2.2.2+git20220218+dfsg.orig.tar.gz"
+    "51d5cb1df9c3e9c15560f9748af3ce1b121e863d 5944 ffmpegthumbnailer_2.2.3-2.debian.tar.xz b703804517c96d63d81bd21dd74f59ef04484253 2202 ffmpegthumbnailer_2.2.3-2.dsc 1053b8d0032833b2d7a61bef3ae58a4230d73a7c 93468 ffmpegthumbnailer_2.2.3.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "d02dab086d63b72a7101b2eb9c3cebd68d3da3009e0705d0164c74fdbd8e7aa3 5608 ffmpegthumbnailer_2.2.2+git20220218+dfsg-1.debian.tar.xz 61455dffad290326426d0c754576ca292708f3d3846b65c433b09e9c582ac43a 2441 ffmpegthumbnailer_2.2.2+git20220218+dfsg-1.dsc 0a40cc1c2f5d560ad5d79a941330f08f1a24c75e0a4fc23f46ad04d2306afd35 123044 ffmpegthumbnailer_2.2.2+git20220218+dfsg.orig.tar.gz"
+    "0e5714e310464c68f608eb8c7ef10cd2316b235708a3f79deee4b9ff2ef45c31 5944 ffmpegthumbnailer_2.2.3-2.debian.tar.xz 73fde6d8de3163d9811926de96de4cd8740b7d2ef631ab3ed87a657c8e563e2b 2202 ffmpegthumbnailer_2.2.3-2.dsc fb0837ff67b8ec21a045a19a1e7628c5a48eeb97a98ef3f87269d20a4314dca9 93468 ffmpegthumbnailer_2.2.3.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "a88b8dde181034a40af2e4d3004f6333c20ec87860aa08aaaf5b45be0195a3522c0c7652e1a68fcfa221625e1fd71126f41173015ae93856ca15e55d9870e5a0 5608 ffmpegthumbnailer_2.2.2+git20220218+dfsg-1.debian.tar.xz b2d8fc52608eeefb23b8db03355e27b59fd1a93c23f61f7ce3c82137345d1b69a7105c605e01349a7003e42a80d81214853390bbfeeedcce12ab25858b1f41c5 2441 ffmpegthumbnailer_2.2.2+git20220218+dfsg-1.dsc 0138163627d20a74397e670215656c67df558470848ad4cf6b3bc43ce954d5c3800e28c84767a4caf361984d68beba044061cfbe8317369e426fbb935c0abcf5 123044 ffmpegthumbnailer_2.2.2+git20220218+dfsg.orig.tar.gz"
+    "6f6228156e9256d9da720384d9b2030ea96938fdc3b702f1be1c155f728e5e8a8a22fcb285dbdb5c8ff8be05434ce4109ff4a977dd13372687404a56fd8a2b20 5944 ffmpegthumbnailer_2.2.3-2.debian.tar.xz 8ce46e90dc496a7661fa7c52dd3bb61820fb5a9cbafd15e0da473b3c8d71899c215aafef28a0d3ae984ee759a46261f67f68a3117c07077fcd091e804994e029 2202 ffmpegthumbnailer_2.2.3-2.dsc 54146b4a2849f1173cf461879e70ecc47e4dcfc4467658d3ffc839d5b5ee7c9ecf6e3bdcefbf57f8f631d8fa12f4b7799a044c6b92bdd86800b34427a0c9aa37 93468 ffmpegthumbnailer_2.2.3.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/f/ffmpegthumbnailer"
   ],
   "Files": [
-    "59814e74848a313fb6d1c9e56521092e 5608 ffmpegthumbnailer_2.2.2+git20220218+dfsg-1.debian.tar.xz 08f4063a02ebcaa049246573eec1a139 2441 ffmpegthumbnailer_2.2.2+git20220218+dfsg-1.dsc 18b9cf5bbf504393a6aca374fa075b46 123044 ffmpegthumbnailer_2.2.2+git20220218+dfsg.orig.tar.gz"
+    "a2e2650a8bafb266a2068589d8fc8568 5944 ffmpegthumbnailer_2.2.3-2.debian.tar.xz 3e0c39abadc13d7a9f1737abb4e07619 2202 ffmpegthumbnailer_2.2.3-2.dsc 423ff6063afcb9e51429a4a46ea077e3 93468 ffmpegthumbnailer_2.2.3.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://github.com/dirkvdb/ffmpegthumbnailer"
   ],
   "Maintainer": [
-    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
   ],
   "Package": [
     "ffmpegthumbnailer"
@@ -39,18 +39,15 @@
     "ffmpegthumbnailer deb video optional arch=any libffmpegthumbnailer-dev deb libdevel optional arch=any libffmpegthumbnailer4v5 deb video optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
-  ],
-  "Uploaders": [
-    "Boyuan Yang \u003cbyang@debian.org\u003e,"
+    "4.7.0"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/multimedia-team/ffmpegthumbnailer"
+    "https://salsa.debian.org/debian/ffmpegthumbnailer"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/multimedia-team/ffmpegthumbnailer.git"
+    "https://salsa.debian.org/debian/ffmpegthumbnailer.git"
   ],
   "Version": [
-    "2.2.2+git20220218+dfsg-1"
+    "2.2.3-2"
   ]
 }

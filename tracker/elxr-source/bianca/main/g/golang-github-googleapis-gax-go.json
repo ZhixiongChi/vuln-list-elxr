@@ -6,22 +6,22 @@
     "golang-github-googleapis-gax-go-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-golang, golang-any, golang-golang-x-net-dev, golang-google-grpc-dev"
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-golang-x-net-dev, golang-google-grpc-dev"
   ],
   "Checksums-Sha1": [
-    "f3ce712cd326e3da610a15acdfe4635dc7907ddb 2980 golang-github-googleapis-gax-go_2.0.5-4.debian.tar.xz 9ba9e3522bcba7106d62fc01ca3d9f3688acf9df 2342 golang-github-googleapis-gax-go_2.0.5-4.dsc b51a1d0639f3afb0b2d02b95e433a46c7ba66c5e 15328 golang-github-googleapis-gax-go_2.0.5.orig.tar.gz"
+    "0ac4b9344e79e2125f3ab3df7a3c20c129420f90 3320 golang-github-googleapis-gax-go_2.14.1-1.debian.tar.xz 5703d2df3c2ffe1bb400533272f8c9fd1ee3c611 2459 golang-github-googleapis-gax-go_2.14.1-1.dsc 53b0c3af683b3bc053033a3db382d87d21683b22 75888 golang-github-googleapis-gax-go_2.14.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "ddad89bf5952375205f8a6aba91054dee48889f2f8da523e85acb7673e73db50 2980 golang-github-googleapis-gax-go_2.0.5-4.debian.tar.xz f6caed9d166be768225e360a5278e1ea11e54f6e62c52408a7da9d636fe44cd5 2342 golang-github-googleapis-gax-go_2.0.5-4.dsc 3089affe6f5e27f7a6d494cb399aa6baf232384f763f548ad5ddfbea0e88e59c 15328 golang-github-googleapis-gax-go_2.0.5.orig.tar.gz"
+    "61cb25afe98311f538223f62cf93b0ec3a422d8a4a4c2a079a1be8080e8935ca 3320 golang-github-googleapis-gax-go_2.14.1-1.debian.tar.xz 637aa967542570d23d1920d34fed3462a86a8b2d9f1f462cef2c718117a6d4de 2459 golang-github-googleapis-gax-go_2.14.1-1.dsc a4e0b0420eb2e94c7b6ed4e7e09fc66ea5b174f37639a9827259c09c8fed761d 75888 golang-github-googleapis-gax-go_2.14.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8a5f88bcb62282e70ccd400e3b41354025d7a37dfa2dae6422532516962d7aa2521ff272b574e2998f28057ef8429f28c69d1dce06c6dcc16b3e1846ba609f6d 2980 golang-github-googleapis-gax-go_2.0.5-4.debian.tar.xz 7f05a6e6f1c913b11efc2f6559cd031aa20c1bfd78071d99db8bba1d824c84b23acd1ee6635854448bd61065e1048405ceb12e2b672786c3c473114202941c5e 2342 golang-github-googleapis-gax-go_2.0.5-4.dsc b164b4d18cb4b9b8c88d4260933b62abd6b211b2461c158b3569815cfa61aa04f481df7545e616b6da3e71204127e3955f39e56bdf3fa7db2672781b9ac3bbd7 15328 golang-github-googleapis-gax-go_2.0.5.orig.tar.gz"
+    "c1fcd0d5b545eef8ed3f8d704f0fd7fb784921512ad308cd25a8cf4e85282c796c0a475dce05b60fec264932abc02a8ed8e5116ee6227b06bccffba8cc8f5521 3320 golang-github-googleapis-gax-go_2.14.1-1.debian.tar.xz 2c028258445976a29bf49a453682000b5f638dfb2b5c88dafc7d7e6d22ae31f56035c60dda9fd98baca17f5c2ea609559fec80a750ae3a5c0cbf418bc9c1c183 2459 golang-github-googleapis-gax-go_2.14.1-1.dsc 63a6f8c72bc6cb3aa966160a66025a7fc509358380bf52fbc4b103b120646df05a85c2c90086270660edca97f98d64ec10a3ada593da7114be2512b0649a7ceb 75888 golang-github-googleapis-gax-go_2.14.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-googleapis-gax-go"
   ],
   "Files": [
-    "aa3273f872bb0a330d5cc99eea0ca05a 2980 golang-github-googleapis-gax-go_2.0.5-4.debian.tar.xz bfc0a794323d9b5b810038f923e4cfda 2342 golang-github-googleapis-gax-go_2.0.5-4.dsc c399f4ea7ba7154420e51b608ed30072 15328 golang-github-googleapis-gax-go_2.0.5.orig.tar.gz"
+    "f86e0bdf7728e748e1f417da45979f6f 3320 golang-github-googleapis-gax-go_2.14.1-1.debian.tar.xz 99d7ca720d86a927833da28db40a4872 2459 golang-github-googleapis-gax-go_2.14.1-1.dsc 603b63d3d4dcf16a07a5c00ac250e3b7 75888 golang-github-googleapis-gax-go_2.14.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,13 @@
     "golang-github-googleapis-gax-go-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
   ],
   "Uploaders": [
-    "Tim Potter \u003ctpot@hpe.com\u003e, Anthony Fok \u003cfoka@debian.org\u003e"
+    "Tim Potter \u003ctpot@hpe.com\u003e, Anthony Fok \u003cfoka@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/go-team/packages/golang-github-googleapis-gax-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-googleapis-gax-go.git"
   ],
   "Version": [
-    "2.0.5-4"
+    "2.14.1-1"
   ]
 }

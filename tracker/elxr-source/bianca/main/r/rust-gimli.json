@@ -6,25 +6,28 @@
     "librust-gimli-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-fallible-iterator-0.2+std-dev \u003c!nocheck\u003e, librust-fallible-iterator-0.2-dev \u003c!nocheck\u003e, librust-indexmap-1+default-dev (\u003e= 1.0.2-~~) \u003c!nocheck\u003e, librust-stable-deref-trait-1+std-dev (\u003e= 1.1.0-~~) \u003c!nocheck\u003e, librust-stable-deref-trait-1-dev (\u003e= 1.1.0-~~) \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.60) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-fallible-iterator-0.3+std-dev \u003c!nocheck\u003e, librust-fallible-iterator-0.3-dev \u003c!nocheck\u003e, librust-indexmap+default-dev (\u003e= 1.9.3-~~) \u003c!nocheck\u003e, librust-stable-deref-trait-1+std-dev (\u003e= 1.1.0-~~) \u003c!nocheck\u003e, librust-stable-deref-trait-1-dev (\u003e= 1.1.0-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "59e63f29eb6362c765b9ec78c77b28ddd722895a 10256 rust-gimli_0.27.0-1.debian.tar.xz 7b2309b3e56c49a9b44be497169898304023cf0a 2701 rust-gimli_0.27.0-1.dsc 056541a3dca539b26c49866eb1bb329268281a09 720457 rust-gimli_0.27.0.orig.tar.gz"
+    "dafc485fbbd1c1a505b9198142d49f81d041f7d0 10084 rust-gimli_0.31.1-2.debian.tar.xz 82b397d40337ece63da120bf6ea0d425cb2f583d 2508 rust-gimli_0.31.1-2.dsc ef7e0b90460b55250590552af5161abf725838f4 279515 rust-gimli_0.31.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "62010f897bb8d05faf354be0ff54e2cbb07228d5019fc64418142474a7e5a361 10256 rust-gimli_0.27.0-1.debian.tar.xz 6fd7688fac26f5b2ff2381704f7202d89a5eca7c007c76e7579dc3548217d650 2701 rust-gimli_0.27.0-1.dsc dec7af912d60cdbd3677c1af9352ebae6fb8394d165568a2234df0fa00f87793 720457 rust-gimli_0.27.0.orig.tar.gz"
+    "4d96af057220b4262c848f25a884b2bc37192f119a4944dc0f97be7f70e83afa 10084 rust-gimli_0.31.1-2.debian.tar.xz a009cbaf48512267611865e8b370f8883f8ba5b82656c62d5f9552e942b5b255 2508 rust-gimli_0.31.1-2.dsc 07e28edb80900c19c28f1072f2e8aeca7fa06b23cd4169cefe1af5aa3260783f 279515 rust-gimli_0.31.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "961fbfac09c5bd426a8952134d506e6b860cc60c16e6fa9aa2fb37afe916fca05035b7558145ca66c7a749c0ac8cc96abfb679a5daf1117cd03c648c3ce21768 10256 rust-gimli_0.27.0-1.debian.tar.xz ccddc28f132f55fdc7c3a2d6816ee0d771353a55a208e8ef087a88c69ad95f9bef4892250ca335117af3a03cbb90da5ab11c1233f4f18055c8109e389b9b95ea 2701 rust-gimli_0.27.0-1.dsc 71563f0b086ec7e22475db77b4f18f05c706dd39dee37fd5df47e636e010c6ab1dae0f6759c6b90a0b2d7937a85878d9b8d62bbf7b5b7e2390335895c6ef2905 720457 rust-gimli_0.27.0.orig.tar.gz"
+    "26c854b1d17122a33559947038ebd7ae1ceeb94228c2411a94ce8d61cbc683083692186097424ca9a25584cfc79f88712ac8fa8e1f165bff99522994b8de8291 10084 rust-gimli_0.31.1-2.debian.tar.xz 88c21e5217943d081285f8fe6ab5bf3fdbcf667661204016808646a713cdbc982d9eec3963805fee046096f715ec1f3124821d08f38484b997d2011559e97886 2508 rust-gimli_0.31.1-2.dsc b9c8c11547dc7420fe936b9f32a4f5ccf3bb68d1d9f39dedffd40d631360f6e032e719d858668826f1099b8a262e8096aa7ae1f6d7d3d7aaf47934d832715949 279515 rust-gimli_0.31.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-gimli"
   ],
   "Files": [
-    "4a04577bdc750cf24f36097cbb923dd6 10256 rust-gimli_0.27.0-1.debian.tar.xz 8b38d284e97abcda583f0f3cc2eec4a7 2701 rust-gimli_0.27.0-1.dsc 4d008f05d8131204d40b3d1d4bbfd9f0 720457 rust-gimli_0.27.0.orig.tar.gz"
+    "28c8d12d0fac98f38ab1fb175aae4499 10084 rust-gimli_0.31.1-2.debian.tar.xz c54f916314c7ad096d6c2791437398e1 2508 rust-gimli_0.31.1-2.dsc af0a19b2d65a8a745d733aef0337fb02 279515 rust-gimli_0.31.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/gimli-rs/gimli"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,13 +39,13 @@
     "librust-gimli-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-crossbeam-0.8+default-dev, librust-getopts-0.2+default-dev, librust-memmap2-0.5+default-dev, librust-num-cpus-1+default-dev, librust-object-0.30+default-dev, librust-rayon-1+default-dev, librust-regex-1+default-dev, librust-typed-arena-2+default-dev"
+    "dh-cargo, rustc"
   ],
   "Uploaders": [
     "Ximin Luo \u003cinfinity0@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gimli]"
   ],
   "Version": [
-    "0.27.0-1"
+    "0.31.1-2"
   ]
 }

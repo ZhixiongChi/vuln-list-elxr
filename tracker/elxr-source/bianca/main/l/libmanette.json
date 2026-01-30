@@ -6,28 +6,28 @@
     "libmanette-0.2-0, libmanette-0.2-dev, gir1.2-manette-0.2"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, pkg-config (\u003e= 0.14), libevdev-dev (\u003e= 1.4.5), libglib2.0-dev (\u003e= 2.50.0), libgirepository1.0-dev (\u003e= 1.30), libgudev-1.0-dev, meson (\u003e= 0.53.0), valac"
+    "debhelper-compat (= 13), dh-sequence-gir, dpkg-build-api (= 1), libevdev-dev (\u003e= 1.4.5), libgirepository1.0-dev (\u003e= 1.30), libglib2.0-dev (\u003e= 2.50.0), libgudev-1.0-dev, libhidapi-dev, meson (\u003e= 0.53.0), pkgconf, valac"
   ],
   "Checksums-Sha1": [
-    "6c4e14ad8863ed0e0118095e814cb9c1e33662f7 3612 libmanette_0.2.6-3.debian.tar.xz 20bf680a2c8bf9fd3501ab15eca50a1a37d7c59e 2422 libmanette_0.2.6-3.dsc 16e63c8cd47ee3300684d17152aeb76ac32dcc03 43236 libmanette_0.2.6.orig.tar.xz"
+    "7eefa1048d635d27bfcc259e9773f9996587511a 4112 libmanette_0.2.12-1.debian.tar.xz 94f41731cc182d2f5cec4229db95f9a921c0c527 2437 libmanette_0.2.12-1.dsc 0a4debddc16041e136a1836351d5ada0ed7fe15e 60952 libmanette_0.2.12.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "2654b54119283129b34cfeb91131aa3d96d45d6c72b19b15b8e2644de3c48dd7 3612 libmanette_0.2.6-3.debian.tar.xz 01d3d7687e3f66b476179d031a8b04593094a5cae54426c812afe1216c7f8e7f 2422 libmanette_0.2.6-3.dsc 63653259a821ec7d90d681e52e757e2219d462828c9d74b056a5f53267636bac 43236 libmanette_0.2.6.orig.tar.xz"
+    "19f90da3dfaabda34099f3468fcda6ae3f8d156bd999e540febb03643026cad2 4112 libmanette_0.2.12-1.debian.tar.xz 61f3715985cab27b26638daa6d4ba72ec1d927565285d106708beec85252ac29 2437 libmanette_0.2.12-1.dsc 48b349267180f1dc34d405a9e1e90ba16f054a19ce907930e679493d911ea1d8 60952 libmanette_0.2.12.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "5d9b992a04fda0807af0c5a4ae18c97cf5ad10dec30b7d117106ff3b16c404659f58681063b6c92d40d9b2c9a425711c0a68bb0c72123cc1f1b44628856c4dd2 3612 libmanette_0.2.6-3.debian.tar.xz c7ce0a157e2f88e933a7d862e6ae1c395857e886372f5a0211cc9b0c981df7fb4f6ba752757881bb392878421092a491feb4ae25badebd73e116eae45f4ab100 2422 libmanette_0.2.6-3.dsc e10a1b3e493a6472b0cf7562e3dfbba839ee69bb878676b2e3521363e9ff7c5df7d379923a4781366797e889f3c8985397080ae606264dc9bd3a4459bce0513c 43236 libmanette_0.2.6.orig.tar.xz"
+    "800d8d1d7c39418f944ed4fa3de3e254ab71875ccf93d2d743292024a4e2331fb1dc71f8585d0488f8576fbbea2de2e10dd0e13a3a9e01b2945c616c0d7a2fb6 4112 libmanette_0.2.12-1.debian.tar.xz 6476563f7b03fb5809c97c50318a36f5817d0dc01bd501bc9aa79931abd2c70bcb6cd20e4d4f114ad335a42e82c2b2b2ddcdb6b2c778b5be55742859d053d2ea 2437 libmanette_0.2.12-1.dsc 0118ce0d97a73df26c6ea66a343ca40ec7d026100a3dc1dbbd66d57f6a49b073c59321ee1dbff162b832fec846b0722dce17b5a7fd6a9d3288e61d2b8a0609c0 60952 libmanette_0.2.12.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libm/libmanette"
   ],
   "Files": [
-    "35cfae2a45cc560e32d97c80819a51af 3612 libmanette_0.2.6-3.debian.tar.xz 7bcc50f27e1ec3ae1a7a5142f51040ab 2422 libmanette_0.2.6-3.dsc d23b7e3287b1c67c16ac74dcc27e0814 43236 libmanette_0.2.6.orig.tar.xz"
+    "26bb01a8bb04ea615641cb899f6216d8 4112 libmanette_0.2.12-1.debian.tar.xz c75f081ea58e33c6d8d29517248b90a9 2437 libmanette_0.2.12-1.dsc 7c291e9fb7e740863461339e4de27c45 60952 libmanette_0.2.12.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://gitlab.gnome.org/aplazas/libmanette"
+    "https://gnome.pages.gitlab.gnome.org/libmanette/"
   ],
   "Maintainer": [
     "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
@@ -39,16 +39,16 @@
     "gir1.2-manette-0.2 deb introspection optional arch=linux-any libmanette-0.2-0 deb libs optional arch=linux-any libmanette-0.2-dev deb libdevel optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential, pkg-config"
+    "build-essential, pkgconf"
   ],
   "Uploaders": [
-    "Jeremy Bicha \u003cjbicha@debian.org\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/libmanette"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/gnome-team/libmanette.git"
   ],
   "Version": [
-    "0.2.6-3"
+    "0.2.12-1"
   ]
 }

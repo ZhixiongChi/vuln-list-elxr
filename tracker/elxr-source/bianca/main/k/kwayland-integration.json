@@ -6,22 +6,22 @@
     "kwayland-integration"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.102.0~), libkf5idletime-dev (\u003e= 5.102.0~), libkf5wayland-dev (\u003e= 4:5.102.0~), libkf5windowsystem-dev (\u003e= 5.102.0~), libqt5waylandclient5-dev (\u003e= 5.15.2~), libwayland-dev (\u003e= 1.15~), pkg-config, pkg-kde-tools, qtbase5-dev (\u003e= 5.15.2~), qtbase5-private-dev, qtwayland5-dev-tools, qtwayland5-private-dev, wayland-protocols (\u003e= 1.21~)"
+    "debhelper-compat (= 13), dh-sequence-kf5, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 5.102.0~), libkf5idletime-dev (\u003e= 5.102.0~), libkf5wayland-dev (\u003e= 4:5.102.0~), libkf5windowsystem-dev (\u003e= 5.102.0~), libqt5waylandclient5-dev (\u003e= 5.15.2~), libwayland-dev (\u003e= 1.15~), pkgconf, plasma-wayland-protocols, qt6-wayland-dev-tools, qtbase5-dev (\u003e= 5.15.2~), qtbase5-private-dev, qtwayland5-dev-tools, qtwayland5-private-dev, wayland-protocols (\u003e= 1.21~)"
   ],
   "Checksums-Sha1": [
-    "47d6dc34b4e0398c7e72affd1d00bf4c00432391 14512 kwayland-integration_5.27.5-2.debian.tar.xz 5b030b8d93398e3ecf439e8a1ee86ad21aa61689 2873 kwayland-integration_5.27.5-2.dsc 1ac681d554f60c7407d28e4114191e37a404a5e1 25716 kwayland-integration_5.27.5.orig.tar.xz 08e417a87bbc35643f3875f6ba1d9e5cee417d90 833 kwayland-integration_5.27.5.orig.tar.xz.asc"
+    "8a1d67a6d5466637f32c7c2ebf74ec2edf0f1bfe 14988 kwayland-integration_6.3.4-1.debian.tar.xz 22d17087cc77f9db6258acd11d1a264d0839d68f 2972 kwayland-integration_6.3.4-1.dsc 13234e77bbf92ca57107fe6e3932f9b2fce6778b 26548 kwayland-integration_6.3.4.orig.tar.xz ec9c689bc90322617137c50901922b8c11a702a2 833 kwayland-integration_6.3.4.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "3ad38dc1dacba1d682a79dad72f804cefee3223bf5d7abc5c9dcffb7298bbb4e 14512 kwayland-integration_5.27.5-2.debian.tar.xz 35b7e5e55a40833d387b829c696257e8324d9b5079952703315284619302669a 2873 kwayland-integration_5.27.5-2.dsc 9ae1fc40a70d1453841e16dca2e399fc5c68de3a9ffa7475673f98bf7dcb18f9 25716 kwayland-integration_5.27.5.orig.tar.xz 8ca041f391d67823a414aefc893d41256c800d1d4415056892107bd36460542c 833 kwayland-integration_5.27.5.orig.tar.xz.asc"
+    "c60f41fd9d33b9065b85e12a8def94f30f334c7e6bfb23c23de7f317946a9342 14988 kwayland-integration_6.3.4-1.debian.tar.xz 2a1d04b7d15b7d3774b41d72fa874a7ce641d4d0cd430e8d0432299daa80f0a4 2972 kwayland-integration_6.3.4-1.dsc 46ca59835b8c924df616f331c1b33bd70784ddfdfdc50ab3f4bb8b944f04f8fd 26548 kwayland-integration_6.3.4.orig.tar.xz e64b06e78e5063a7f7de6a1f57ff57aebb2f7549a1bf60249650f453f351eb09 833 kwayland-integration_6.3.4.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "100bedf70f30bcebeb03b2acc171001c1dedcd4384aa45e3eb2aae34062a12d9fa4acc71374e185bec6e686ffaa8151dd9ccf0f43ec8a18089670bc1671f4837 14512 kwayland-integration_5.27.5-2.debian.tar.xz 8b7617ff5b1b7dc5fb220c331faf4952af9d47bca5f0e7feeaa4a3771f6b6de16d58a8e4ec5ec8696e0981c5e641a1113f4a21d83424e297a019f9303cfdaedf 2873 kwayland-integration_5.27.5-2.dsc 8ed6e5d09387c7f3c1e0f9d83e1d511ab9cdcbbfbbe6eef198f0c1a1759e03dd59eac8569e6b48f359be2a4e3332444877007977e6ca3a7bc64717c0d4ee4904 25716 kwayland-integration_5.27.5.orig.tar.xz 896a5320db11e8e29e045fa1fdbb113e288dd3483d1935f98980b402eb3fc5eb92012dbed6f3f6b0e2415b21fbe5733be27dbf68a81edeb0da3ae1e015d4afa8 833 kwayland-integration_5.27.5.orig.tar.xz.asc"
+    "737645492efd10e24af38c6d4ee83a7ec12d53d302272c740768d765ab789855a7c71f6767d4840d9119ef3d31e54fcff25438ed989212021d3f0b3580353a8f 14988 kwayland-integration_6.3.4-1.debian.tar.xz 407c0e3bd047a8158f85724ec9c76306251d241c0e5f4b32146e5263ff34ad511c6f6c7efbb39e998b0fadc03e0a694c560793661074b34634fb18f7174c11e3 2972 kwayland-integration_6.3.4-1.dsc c5584c20b0d068639c47a65b9c2d1ccc513b3e99b61402af070db777a069165b3e2fd176eaf96f419519be76ca929a934aed09ef224c716f2d5aa59a9f5ea1b6 26548 kwayland-integration_6.3.4.orig.tar.xz f3db721841efb4f4868690bcd4e6437a98e6cb716b7fb469d74ad50c7b6354ba86629952e7cc0658dacc7ab5bd4f442b7169a26f0eda7ba02a3dfe05ade28e8a 833 kwayland-integration_6.3.4.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/k/kwayland-integration"
   ],
   "Files": [
-    "79ee1b7f928537ee1d0a927108c11288 14512 kwayland-integration_5.27.5-2.debian.tar.xz 87bcac175ef4d5189f3cb949281619b4 2873 kwayland-integration_5.27.5-2.dsc f409d7176b62b0c7c1fd6bae483f727c 25716 kwayland-integration_5.27.5.orig.tar.xz 6ba03124815dc0c0b86e8fe884c90ad5 833 kwayland-integration_5.27.5.orig.tar.xz.asc"
+    "6c2f8d090fb07b9169cdadcb10aef3d5 14988 kwayland-integration_6.3.4-1.debian.tar.xz 0c0438fdde67cf8422d9057567a40fdb 2972 kwayland-integration_6.3.4-1.dsc 0d7359db81fa9edf32a2d74c1225b273 26548 kwayland-integration_6.3.4.orig.tar.xz 5cd903522f745764ee25261271e97baa 833 kwayland-integration_6.3.4.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "kwayland-integration deb kde optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e, Scarlett Moore \u003csgmoore@kde.org\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e, Scarlett Moore \u003csgmoore@kde.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/kwayland-integration"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kwayland-integration.git"
   ],
   "Version": [
-    "5.27.5-2"
+    "6.3.4-1"
   ]
 }

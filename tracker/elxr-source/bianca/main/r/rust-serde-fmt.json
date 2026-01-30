@@ -6,22 +6,22 @@
     "librust-serde-fmt-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-cargo (\u003e= 25), librust-serde-1-dev \u003c!nocheck\u003e, librust-serde-derive-1+default-dev \u003c!nocheck\u003e, libstring-shellquote-perl"
+    "debhelper-compat (= 13), dh-sequence-rust, librust-serde-1-dev, librust-serde-derive-1+default-dev"
   ],
   "Checksums-Sha1": [
-    "adf7a5b27aac6b582f0c9c4a4de6b1e992f94ca5 11368 rust-serde-fmt_1.0.1-2.debian.tar.xz ad5be8c57c63cc6777300e199545215e1012dd73 2196 rust-serde-fmt_1.0.1-2.dsc 386df1994cb0c99a226949e603be0ad3a03c5b86 8376 rust-serde-fmt_1.0.1.orig.tar.gz"
+    "3a30e32ca58912f9e8e009dd933038228a76fd2f 3592 rust-serde-fmt_1.0.3-4.debian.tar.xz 6f25fe3411d0e8613a77565c1c8aedb50901f39c 2242 rust-serde-fmt_1.0.3-4.dsc 905683a2765d186501d6ebaa4200ea3da8c89a9c 8893 rust-serde-fmt_1.0.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "41ea49886394bc8fa909e778cc8f8c3e0dde0b02cf992304b54b2bec1562be92 11368 rust-serde-fmt_1.0.1-2.debian.tar.xz 5f89ff4bc8d129b8d6c8cee55f5ca7a1037c7cc180fdf4dbb3c1f9084463877a 2196 rust-serde-fmt_1.0.1-2.dsc 36e729d4bb8afdfdc1b07418e28f7608146c31e5d2dade8283dfa2066894384d 8376 rust-serde-fmt_1.0.1.orig.tar.gz"
+    "38768163cbac7827045a49f9ad6267c895fd49c76e92803c88e1cb6571f66a26 3592 rust-serde-fmt_1.0.3-4.debian.tar.xz 2de5ce91615a471399eebd7dd6d861fe9989356e5cfcfebe4ed87bceaa539af2 2242 rust-serde-fmt_1.0.3-4.dsc 69eb16622e236f902f22f1d63084086cae392c36137e998602dfafb2edf9748d 8893 rust-serde-fmt_1.0.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "258f47a467648543f5398c162c1018254947dc98dc5faf7ca7e4cc5178807ce4df67f1ff2239a73449cac02511ab9a88553cf05cad3db12eeb6ab3e413e1af22 11368 rust-serde-fmt_1.0.1-2.debian.tar.xz 5db33b27d31a76be8f03558c4ce78e31f228791e6344a1b0d19b27ae051e294e7eb6d43eef835479ca22e64aa45e64c88a441c6743aa98ad3cfe87b56c810c5a 2196 rust-serde-fmt_1.0.1-2.dsc 1569f20d7e69a9208c71f4f7bd3955eba0e42023680b19466f68781be9e11a6f7a4696c4770d14464e9b1768a4fcf53a50c1b6daf27d7c3473ab2ede6f3ca9a5 8376 rust-serde-fmt_1.0.1.orig.tar.gz"
+    "0a7bfeca19515295ac95e7cc5afd78ebfeb0159a3e114232dac1cf469b5577d1037f1a9a78d64c7a897d1b07aea8b7ffdf7956f68b42a86c83a4002bbe7cd8b8 3592 rust-serde-fmt_1.0.3-4.debian.tar.xz 844dd49aaf9e8fcb979ec3a7fc227544a2725d184bf688854efb8c4e763a2dbadb2a4a41231d1a4de533e9b345399de091b7b241b50ee089f2ccff67e0fab3e1 2242 rust-serde-fmt_1.0.3-4.dsc d4d17d0c4f93c4886120fc0c940c12614e603af017db51aaf20240fbe87f470376e4589cfe48f10d533cfa407e46f7e4b10916c5f7e1b419380f6089c567607c 8893 rust-serde-fmt_1.0.3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-serde-fmt"
   ],
   "Files": [
-    "b6fd66fb2600b242cbe55eea0d6d0a66 11368 rust-serde-fmt_1.0.1-2.debian.tar.xz 23b92811ff3b19b8c37917b8c012abae 2196 rust-serde-fmt_1.0.1-2.dsc 8c6585e62d01e1e253606f186b13a36e 8376 rust-serde-fmt_1.0.1.orig.tar.gz"
+    "d682f9b3605723f87d8504d170744d7c 3592 rust-serde-fmt_1.0.3-4.debian.tar.xz e93032f87c44e22a2e1e748821c6366d 2242 rust-serde-fmt_1.0.3-4.dsc 3ece80625a494c965998a1399693dd35 8893 rust-serde-fmt_1.0.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "librust-serde-fmt-dev deb rust optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-serde-derive-1+default-dev, librust-serde-fmt-1+default-dev, librust-serde-fmt-1+std-dev, librust-serde-fmt-1-dev"
+    "dh-rust, librust-serde-derive-1+default-dev, librust-serde-fmt-1+default-dev, librust-serde-fmt-1+std-dev, librust-serde-fmt-1-dev"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/rust-serde-fmt"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/rust-serde-fmt.git"
   ],
   "Version": [
-    "1.0.1-2"
+    "1.0.3-4"
   ]
 }

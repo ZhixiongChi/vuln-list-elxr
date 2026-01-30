@@ -6,25 +6,28 @@
     "librust-ptr-meta-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-ptr-meta-derive-0.1.4+default-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.81) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-ptr-meta-derive-0.3-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "d7a87785143e5ef473f4d5db4f2c74bb4f9f59f1 2552 rust-ptr-meta_0.1.4-1.debian.tar.xz a43205493a9602b1237abee54b6c409b83d4fdb6 2198 rust-ptr-meta_0.1.4-1.dsc 78e7b4204837929465bdcf071c5e219e1870ccab 5754 rust-ptr-meta_0.1.4.orig.tar.gz"
+    "e095696ef6753c8dda8db0d8c6e511bdcf01de5c 2692 rust-ptr-meta_0.3.0-1.debian.tar.xz 2527c0f88ccfcd5acbd965c9680fa946437470b5 1621 rust-ptr-meta_0.3.0-1.dsc 1ff00fd05d49b385f1da356191af8fb18bf8143d 7192 rust-ptr-meta_0.3.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "461bb70b734ae01a6a21ad97f94335bdc91025875d878ccb21a46b0798f06289 2552 rust-ptr-meta_0.1.4-1.debian.tar.xz 53c2aad24a9fa37d7e35906047f824169c35644582f4892da51a5010591a5370 2198 rust-ptr-meta_0.1.4-1.dsc 0738ccf7ea06b608c10564b31debd4f5bc5e197fc8bfe088f68ae5ce81e7a4f1 5754 rust-ptr-meta_0.1.4.orig.tar.gz"
+    "b92390dbac77cb1587e5b6ecadb47f671be83f85993466be209faef84bbdaf90 2692 rust-ptr-meta_0.3.0-1.debian.tar.xz 6a895a4a47b40ad04547ef38c12a55744f77123b0e547ef1d991c756fb57eea0 1621 rust-ptr-meta_0.3.0-1.dsc fe9e76f66d3f9606f44e45598d155cb13ecf09f4a28199e48daf8c8fc937ea90 7192 rust-ptr-meta_0.3.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "d046434b72b83631c344e378895140e7e7ad831753b113cf6c680545301cbf43d94fd9e7f47b67eb6ddf67d1c423a25832bd46a5119da822f7ffa18fa94797ed 2552 rust-ptr-meta_0.1.4-1.debian.tar.xz 69decb3ad908e0c08c73149a43b05631e4de36d7fd19d1a951693a5c7becd9c9c3e7509d827f9fc63d9e58b37f24a3ea8bafa40147bcd392ea5bf0c0684544f2 2198 rust-ptr-meta_0.1.4-1.dsc 9936264dd52ae40e6afc8cef8914dbdc5767f397b91ea965d65275fe547a2d9cde7ccdcf908f787e25f84fbc23a2e30df895793fca308e09f48f2adf2e30d2bf 5754 rust-ptr-meta_0.1.4.orig.tar.gz"
+    "0dbe6a596ecc4400718c8e9883d37d11648612e6dcfb4804c8bac83276f1c82d93e8388c6319317bbe7169ee765549a01e40c9467badcdbf885aec9ad60f9f65 2692 rust-ptr-meta_0.3.0-1.debian.tar.xz 44e999a164e22956cf67d752979406942a05c92044dca1d621d673d222e29ff2356d3a25c025fb0ac359988bd5749311370d0f2187003bb7730aa6910b8327bf 1621 rust-ptr-meta_0.3.0-1.dsc b7f8ebb65e58ce742f9e118f894f9cde6af6c499e8fd9413a866c6744dc3aad212508c3fdec3e1aaf657971b5cd358ee68e506eaf1d3c386d8aebb1f523ecf00 7192 rust-ptr-meta_0.3.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-ptr-meta"
   ],
   "Files": [
-    "8bc9b80130e4413cabda8db023d8cd15 2552 rust-ptr-meta_0.1.4-1.debian.tar.xz f72a539704d32a130ac0ee0a61525241 2198 rust-ptr-meta_0.1.4-1.dsc 7b5f916e5a872e69f4adb563bdb67b77 5754 rust-ptr-meta_0.1.4.orig.tar.gz"
+    "3509f93a9df637346b3654e4669501ef 2692 rust-ptr-meta_0.3.0-1.debian.tar.xz cc2440a3ef0fce3341d330e802064174 1621 rust-ptr-meta_0.3.0-1.dsc 90afd7751f96edfe0909c5925fbf0bcd 7192 rust-ptr-meta_0.3.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rkyv/ptr_meta"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,13 +39,13 @@
     "librust-ptr-meta-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo"
+    "dh-cargo, rustc"
   ],
   "Uploaders": [
     "Reinhard Tartler \u003csiretart@tauware.de\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/ptr-meta]"
   ],
   "Version": [
-    "0.1.4-1"
+    "0.3.0-1"
   ]
 }

@@ -3,25 +3,25 @@
     "linux-any"
   ],
   "Binary": [
-    "rdma-core, ibacm, ibverbs-providers, ibverbs-utils, libibverbs-dev, libibverbs1, libibumad-dev, libibumad3, librdmacm-dev, librdmacm1, rdmacm-utils, srptools, python3-pyverbs, infiniband-diags, libibmad5, libibmad-dev, libibnetdisc5, libibnetdisc-dev"
+    "rdma-core, ibacm, ibverbs-providers, ibverbs-utils, libibverbs-dev, libibverbs1, libibumad-dev, libibumad3, librdmacm-dev, librdmacm1t64, rdmacm-utils, srptools, python3-pyverbs, infiniband-diags, libibmad5, libibmad-dev, libibnetdisc5t64, libibnetdisc-dev"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 2.8.11), cython3, debhelper-compat (= 13), dh-python, dpkg-dev (\u003e= 1.17), libnl-3-dev, libnl-route-3-dev, libsystemd-dev, libudev-dev, ninja-build, pandoc, pkg-config, python3-dev, python3-docutils, valgrind [amd64 arm64 armhf i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x]"
+    "cmake (\u003e= 2.8.11), cython3, debhelper-compat (= 13), dh-python, dpkg-dev (\u003e= 1.22.5), libnl-3-dev, libnl-route-3-dev, libsystemd-dev, libudev-dev, ninja-build, pandoc, pkgconf, python3-dev, python3-docutils, valgrind [amd64 arm64 armhf i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x]"
   ],
   "Checksums-Sha1": [
-    "f9e399ee6eb7bec592e295abfb5339e589f0b87f 23768 rdma-core_44.0-2.debian.tar.xz 232fae1a4ee3aee85dbb2ad7c86d53a5f8b6f627 3190 rdma-core_44.0-2.dsc f1ff3710270ad7920626f73e955aae2b1a043136 1930453 rdma-core_44.0.orig.tar.gz"
+    "1c2c96d1defe863988df8c8a880926ec3157f696 32760 rdma-core_56.1-1.debian.tar.xz 40403ca6adfdd144f3b054de8d1cac00a2a63f4d 3201 rdma-core_56.1-1.dsc bd9b34c6ed01f6b4252e288c66ade83c27a98382 2192894 rdma-core_56.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "9dc027def281b6809562f296dea05693b79a0ef784eb2795f2154c6077f4a73d 23768 rdma-core_44.0-2.debian.tar.xz 9ca4e7de1559d4218789590fd62f5fb0b2307ee93c2b8975af140fb5d773d33b 3190 rdma-core_44.0-2.dsc 25d6601e60f27bbcd75e07fe340400cb80e6c3c487679700535385cfc9d9858b 1930453 rdma-core_44.0.orig.tar.gz"
+    "4e27344a0ecfd591bd1081486a2006d2edb52782d209cd744da7faf3b8f0ded4 32760 rdma-core_56.1-1.debian.tar.xz 329fc59028fe6ccc4404bfbfacc8bd2f7fb061eb4dde0dd912bd82a2cc053f7c 3201 rdma-core_56.1-1.dsc 63ce7f2baa7242c2dbc76375dac957c420187dd27f8c5e148efc07971ee522a8 2192894 rdma-core_56.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a10a5705c07e5646fb71c593a2608df6e0113a22866839c3273b0fea888c971994cf8f0574f77cc0df0cbfa661f74c42ad5f939ec696277bab234fe193841474 23768 rdma-core_44.0-2.debian.tar.xz 28dc800a6178cd75c2298d7fad025ad9cd42a2d3822245fd903bc9b2293f4b403ef8429e76db6935d6f5dcb1061075dff9879d4befd812e8184a5bd1dab458e9 3190 rdma-core_44.0-2.dsc f31c63aee415fb4aa721fdec2e4d9fb2bef964b1bea93f0170d30fb03b1e798cb11d46bb123db4b2a5002dec17ec16dc6e6aeaebe9f84517bf538dd114726ae1 1930453 rdma-core_44.0.orig.tar.gz"
+    "cc46c3c84d4d5a370a1ca38f13792d32abef30b91baceca0cb506ea145ee8b144d93ddf783e10af702364b0aed77729bd361010fed8a649e777e7e55cfe671f2 32760 rdma-core_56.1-1.debian.tar.xz 07172c43a4ccc35cc7fa54c3369a2245001b34a2ae5e86349d33221a3c2b931beb7a5ab1d3e721a8a312c6788c9ee2078ebe8895036a791be1bf61cde0b5a6d9 3201 rdma-core_56.1-1.dsc 742c65bc541aa5b0fa2920492197fce55cd4d5df9c7bd240d6702d509e59b459183f189f9968f8bebae9896ae32d40afdda5604da8899c50b51da4d03ba39e79 2192894 rdma-core_56.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rdma-core"
   ],
   "Files": [
-    "962a77cfe433491c3088b6883b5bc3c8 23768 rdma-core_44.0-2.debian.tar.xz 3910186beb6b3ad04e44d3e1f5ccda9c 3190 rdma-core_44.0-2.dsc ce0e0c383d682b41e31ac8fe2139e62f 1930453 rdma-core_44.0.orig.tar.gz"
+    "5625e97df096eba2a2e95478f62b09e3 32760 rdma-core_56.1-1.debian.tar.xz 6d33054fa93fa232575e178d0d005898 3201 rdma-core_56.1-1.dsc a4086d5f85cad79218d4bc627a09c8af 2192894 rdma-core_56.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "rdma-core"
   ],
   "Package-List": [
-    "ibacm deb net optional arch=linux-any ibverbs-providers deb net optional arch=linux-any ibverbs-utils deb net optional arch=linux-any infiniband-diags deb net optional arch=linux-any libibmad-dev deb libdevel optional arch=linux-any libibmad5 deb libs optional arch=linux-any libibnetdisc-dev deb libdevel optional arch=linux-any libibnetdisc5 deb libs optional arch=linux-any libibumad-dev deb libdevel optional arch=linux-any libibumad3 deb libs optional arch=linux-any libibverbs-dev deb libdevel optional arch=linux-any libibverbs1 deb libs optional arch=linux-any librdmacm-dev deb libdevel optional arch=linux-any librdmacm1 deb libs optional arch=linux-any python3-pyverbs deb python optional arch=linux-any rdma-core deb net optional arch=linux-any rdmacm-utils deb net optional arch=linux-any srptools deb net optional arch=linux-any"
+    "ibacm deb net optional arch=linux-any ibverbs-providers deb net optional arch=linux-any ibverbs-utils deb net optional arch=linux-any infiniband-diags deb net optional arch=linux-any libibmad-dev deb libdevel optional arch=linux-any libibmad5 deb libs optional arch=linux-any libibnetdisc-dev deb libdevel optional arch=linux-any libibnetdisc5t64 deb libs optional arch=linux-any libibumad-dev deb libdevel optional arch=linux-any libibumad3 deb libs optional arch=linux-any libibverbs-dev deb libdevel optional arch=linux-any libibverbs1 deb libs optional arch=linux-any librdmacm-dev deb libdevel optional arch=linux-any librdmacm1t64 deb libs optional arch=linux-any python3-pyverbs deb python optional arch=linux-any rdma-core deb net optional arch=linux-any rdmacm-utils deb net optional arch=linux-any srptools deb net optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Vcs-Browser": [
     "https://github.com/linux-rdma/rdma-core"
@@ -48,6 +48,6 @@
     "https://github.com/linux-rdma/rdma-core.git -b debian/unstable"
   ],
   "Version": [
-    "44.0-2"
+    "56.1-1"
   ]
 }

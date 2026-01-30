@@ -6,22 +6,22 @@
     "librust-const-random-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 24), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-const-random-macro-0.1+default-dev (\u003e= 0.1.13-~~) \u003c!nocheck\u003e, librust-proc-macro-hack-0.5+default-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-const-random-macro-0.1+default-dev (\u003e= 0.1.16-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "569c56766be1c62df6029bf73846f23a0944b8bb 2676 rust-const-random_0.1.13-1.debian.tar.xz 74d0bb05388f4a237c33c5895a2b2db3a7fa236e 2323 rust-const-random_0.1.13-1.dsc 307194ed6c69ed698bc39196d9f0314b1b4b1c4a 6646 rust-const-random_0.1.13.orig.tar.gz"
+    "afb918788b0f274fd3061697aaf3ea96f1107f94 2760 rust-const-random_0.1.17-2.debian.tar.xz 344d5cdcfed32a74f688a82418f9d83e5f38c756 2271 rust-const-random_0.1.17-2.dsc 61133062f1eab451b876f3cdab5b3a6f924b804d 6640 rust-const-random_0.1.17.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "93f7491b41cf1e9aeb527b6a1b6f2d211ef91cdb8eb05d3fe97093657d655801 2676 rust-const-random_0.1.13-1.debian.tar.xz 2f35c7773fc996e2e17f6dca601d351d073906f20459851171b67cbaf69b2f9e 2323 rust-const-random_0.1.13-1.dsc f590d95d011aa80b063ffe3253422ed5aa462af4e9867d43ce8337562bac77c4 6646 rust-const-random_0.1.13.orig.tar.gz"
+    "7e72490c07ece8f04141a3052e1fca6a20c8a9604b9cf41fa8dd616985ace1dd 2760 rust-const-random_0.1.17-2.debian.tar.xz 3dc67a85545e7a66eaad1c3e50940bd2b4a77bad5c4629986fd841695f5a3b94 2271 rust-const-random_0.1.17-2.dsc 5aaf16c9c2c612020bcfd042e170f6e32de9b9d75adb5277cdbbd2e2c8c8299a 6640 rust-const-random_0.1.17.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "6dd5d057bfed99a8595e62ffbd33d524cfb0ff75e168a136b3f0bc888c94849a39dbef2598f7de0cdaab3c099658c8718298ad092257a9a6dcb5ce000d522aad 2676 rust-const-random_0.1.13-1.debian.tar.xz 574d15bcc49c7a6980cdaa54a2dd18d17eaba2311de489106a1b8b4aecb8ad68b03759f98c8c01f0fe036537e6c0d9b650fe55c1799f75d9df2903b230f5120e 2323 rust-const-random_0.1.13-1.dsc 23f285deac9a41d7b24b93e94b161017ed4e2f388b3d67120f884ff67676f83228de4d56dd160d6d115391e92857d3ee0b8824f358b07bc28ef5017f7e974508 6646 rust-const-random_0.1.13.orig.tar.gz"
+    "627fb6da2f87e1c6a484a4d492ddf42cd99d0c986c763f444363c4e419619fa25b8c8de9adc9cf7b06d832c5dad14bf796df5eafb616022eff020a5e887ec5ae 2760 rust-const-random_0.1.17-2.debian.tar.xz 924711126ca38ce7344e2e87954c8bdc514a0fc348e251724f97fedacf8937b47f5d07d398ae85c76bafb45820bb9f34f4946bb44e6be58e374911f22a0cc1bc 2271 rust-const-random_0.1.17-2.dsc a49c2531a073158b008e7ca506e9e9e302025f9af0a2dde078827b769ce662101ba0fd866dbbcb50dbaaa20abcb9e70aeff00c4fd2cade56a690ac092d11fda1 6640 rust-const-random_0.1.17.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-const-random"
   ],
   "Files": [
-    "501289359783a4ac97a4a5bc99cf211d 2676 rust-const-random_0.1.13-1.debian.tar.xz f651f669a91bc28e1dfa50d72211b066 2323 rust-const-random_0.1.13-1.dsc cbf9ea80a132c6fbac63899dc0a74454 6646 rust-const-random_0.1.13.orig.tar.gz"
+    "4209497a10fabfd048870f226e22d64d 2760 rust-const-random_0.1.17-2.debian.tar.xz 158f9554c6be78e3c7aa3fd406eaa808 2271 rust-const-random_0.1.17-2.dsc 2f2930f89d0823955a47579abeae569a 6640 rust-const-random_0.1.17.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "librust-const-random-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/const-random]"
   ],
   "Version": [
-    "0.1.13-1"
+    "0.1.17-2"
   ]
 }

@@ -6,22 +6,22 @@
     "golang-github-mattn-go-runewidth-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-rivo-uniseg-dev, unicode-data (\u003e= 15.0.0~)"
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-rivo-uniseg-dev, unicode-data (\u003e= 15.1.0)"
   ],
   "Checksums-Sha1": [
-    "08ab95b0355132655b0f836cb13ca5e3d11e6b9c 5000 golang-github-mattn-go-runewidth_0.0.14-1.debian.tar.xz f179456ef3b41d039f74eb9f66b297436eadec42 2442 golang-github-mattn-go-runewidth_0.0.14-1.dsc 975cb33324c79f153c5e4992ccf8a000dcdca6ff 18274 golang-github-mattn-go-runewidth_0.0.14.orig.tar.gz"
+    "c2928bd95095d8f32bc30482a748a632f9b6f906 3936 golang-github-mattn-go-runewidth_0.0.16-1.debian.tar.xz 89ce4187b3fdda91480518c8beeac4bdc757d495 2449 golang-github-mattn-go-runewidth_0.0.16-1.dsc a364173abdda61db87b21d544185276ca4309c98 18490 golang-github-mattn-go-runewidth_0.0.16.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "7768da2ea0ebdeded6e6110f9508d286f2b21879d5119949a83f4c2b8aaff6c7 5000 golang-github-mattn-go-runewidth_0.0.14-1.debian.tar.xz b7f4b2c55804a9af58da7578879583a84905696f514c07bd80757864b48d6f96 2442 golang-github-mattn-go-runewidth_0.0.14-1.dsc 0e6a49d6a8f694154af2746a820d4c5f13fe3d9b0968bdf16fcf939dd461e034 18274 golang-github-mattn-go-runewidth_0.0.14.orig.tar.gz"
+    "8aceb02d2ee1740a46da0d08e8e468546a2c89d85675bf4375294dfe8fe82fef 3936 golang-github-mattn-go-runewidth_0.0.16-1.debian.tar.xz 13d5f1e4cd315ab3e5cb1f1862ba54a3d8b936692ebd9f982ec18c8241a6588a 2449 golang-github-mattn-go-runewidth_0.0.16-1.dsc e98c1e4a82b8a6d026ee63385955cc178c91c77f106c7cf3d743736301106a8f 18490 golang-github-mattn-go-runewidth_0.0.16.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "b00ba6375da4b00908c78e0d7ea95f2361e69e9c06e1427f3cec2d848b81f972d49cab4e048520f430c3c1b950f002cb76bfd8ac4c33bdf5bb918c422205ee2a 5000 golang-github-mattn-go-runewidth_0.0.14-1.debian.tar.xz 4a200d47be9a6c2308c70285409f86e009585dcd30ff79d1950d73283bb554b78d20e8905288c1ce3e9c0021da72f3bfb46fc65b34aefc2fbd6b8ebcb68636a6 2442 golang-github-mattn-go-runewidth_0.0.14-1.dsc 446411be0b970cdb9a925b6041318802e41edaf9db83ce720d3a7ddf58586e63e7b4594db75f0e7b588d57966f65f1c2969a47daea035ca9036f67221fc25eee 18274 golang-github-mattn-go-runewidth_0.0.14.orig.tar.gz"
+    "532893e62eb822883b11e127bd8ae055d483bb9b00230bf70d7854c46d1251ab361ecb4dbcd4c6a76c2613a8aca7d9638cc273d14d4f7d0165003007766c9276 3936 golang-github-mattn-go-runewidth_0.0.16-1.debian.tar.xz 696bc94cd7d7d32b3e44b71a374fd2c8661bea52fa2b43726e8a8751441b65919adc5d98d93526d53e6560244c066d5619e043428527f52c3d7d9d979356728a 2449 golang-github-mattn-go-runewidth_0.0.16-1.dsc 43fe34fb19841a6ad1c4ed1f3456479a57b264741dace11ad84a1ba4aad8b3dbd4d8d49017e1c8c731eebb0aee90e84f85df7cae5b62673392118088ac2f6e5d 18490 golang-github-mattn-go-runewidth_0.0.16.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-mattn-go-runewidth"
   ],
   "Files": [
-    "3cc95bdb3037f55a219c69946612b283 5000 golang-github-mattn-go-runewidth_0.0.14-1.debian.tar.xz a6a769fa4cdbe9efc8fa7815620e5a05 2442 golang-github-mattn-go-runewidth_0.0.14-1.dsc c41abbf9dc5def08ef8e6999efbe2c8c 18274 golang-github-mattn-go-runewidth_0.0.14.orig.tar.gz"
+    "a82271f479e1c651892956f0c5cdc935 3936 golang-github-mattn-go-runewidth_0.0.16-1.debian.tar.xz 38d116e390441705cfcfa545a4662df6 2449 golang-github-mattn-go-runewidth_0.0.16-1.dsc 347363901ee230dd7964a1c82b3ad6b8 18490 golang-github-mattn-go-runewidth_0.0.16.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,13 @@
     "golang-github-mattn-go-runewidth-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
   ],
   "Uploaders": [
-    "Dmitry Smirnov \u003conlyjob@debian.org\u003e, Tim Potter \u003ctpot@hpe.com\u003e, Anthony Fok \u003cfoka@debian.org\u003e"
+    "Dmitry Smirnov \u003conlyjob@debian.org\u003e, Tim Potter \u003ctpot@hpe.com\u003e, Anthony Fok \u003cfoka@debian.org\u003e, Nick Morrott \u003cnickm@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/go-team/packages/golang-github-mattn-go-runewidth"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-mattn-go-runewidth.git"
   ],
   "Version": [
-    "0.0.14-1"
+    "0.0.16-1"
   ]
 }

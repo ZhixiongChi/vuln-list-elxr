@@ -6,22 +6,22 @@
     "hunspell-ko"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dictionaries-common-dev (\u003e= 1.10.5), python3 (\u003e= 3.5), python3-yaml"
+    "debhelper-compat (= 13), dictionaries-common-dev (\u003e= 1.10.5), python3 (\u003e= 3.5), python3-yaml, convert-bdic"
   ],
   "Checksums-Sha1": [
-    "f761b0e9658e966dd8bfef02c88441bd0e9e6f07 17684 hunspell-dict-ko_0.7.92-1.debian.tar.xz 956c8905d12783e220c6662c3c57a753f58f260f 2134 hunspell-dict-ko_0.7.92-1.dsc 41085dac1529224d96bfef13fa7fc836aeee5bda 15731379 hunspell-dict-ko_0.7.92.orig.tar.gz"
+    "fc403c5c459235469404d97457f60d6394ef8a40 18664 hunspell-dict-ko_0.7.94-2.debian.tar.xz 23acedbe908b5a7835f6344617c7777595b087d1 2157 hunspell-dict-ko_0.7.94-2.dsc 3e1cf8f9abc48e9ae16c77e34dcaae9d3770a285 16032340 hunspell-dict-ko_0.7.94.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "0e664be1e5b860dff3c87ac8c1f1c4ca099299a97c1f29e2814956f86a4f14e2 17684 hunspell-dict-ko_0.7.92-1.debian.tar.xz 078ad23406aac94465fca27ec2f46652acbf9db341275e958a4c4c05dabbdaa1 2134 hunspell-dict-ko_0.7.92-1.dsc fb5bd5d5532f737370177fb782e5959d6e5f4c07d5473b9bc05930191d62b4d2 15731379 hunspell-dict-ko_0.7.92.orig.tar.gz"
+    "bd95d121c8e9271d92fee2e56285e7fa176323c01ff22526135d86ecd76e82d4 18664 hunspell-dict-ko_0.7.94-2.debian.tar.xz 1de0972608ce3daaf8ef85ea9901f5553881defdcbe164a428125ed4e4e6d4e4 2157 hunspell-dict-ko_0.7.94-2.dsc 8c80596ad51084485d3377138618d84133305f8b14dd8add03e7cd51a4974c7f 16032340 hunspell-dict-ko_0.7.94.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "aec3c064ec8950a8dd5e85d91ef722fdfe160f302c540e3917c0013d784881cd7242c09f017d67a7e1e9eb65c89d649b83bcad6d5188092f5de5368019a43461 17684 hunspell-dict-ko_0.7.92-1.debian.tar.xz 284c9497693e41c61b592f329e7f8ccdfba8d99d5db0009f6d4bdcf6d7a61e2db1cca8a5c8bc3cb5b84eb848305ecb874f4eb4ee5b101d181c63a7621279c1c6 2134 hunspell-dict-ko_0.7.92-1.dsc b8dfa5850cfc159e46926f35d46abc3ba804a142a37d0956d8834029d3d4590d97a66c6739f25b32391c508b7be39b186f8b49bd56e67195eeea04f67aec54c3 15731379 hunspell-dict-ko_0.7.92.orig.tar.gz"
+    "ee601c4cbe9d12dccde7696977b43a45be9f91c3e303bc1080655caaf682163108569380925fe7581656ce75ccca1425eb361e122b67fcc8d2981a6ee1cee057 18664 hunspell-dict-ko_0.7.94-2.debian.tar.xz d13e9516e1f2db9e50a2afa211ec27c560366245e8006be0ee6473e5705b09035cc99f5cdc144ba7c60fa3e2a0927d90de9aeb99d8a65a8762fa55f7e8fd0ffb 2157 hunspell-dict-ko_0.7.94-2.dsc 1dbcd566fdf37c1cdb26601cc546fddd8f91875d4a0a96cd4e5de7ca0f23005404559859b7a4eb4362c35d232ac062c23bdc8f4416feab1c32a76651faecf524 16032340 hunspell-dict-ko_0.7.94.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/h/hunspell-dict-ko"
   ],
   "Files": [
-    "3a0fd55915d993ad54ba0604ea6832a6 17684 hunspell-dict-ko_0.7.92-1.debian.tar.xz 11360e5c89887bd2cfa6461e9969ce7a 2134 hunspell-dict-ko_0.7.92-1.dsc 4ae127ec4ec53bdfc578e796e43c2c6c 15731379 hunspell-dict-ko_0.7.92.orig.tar.gz"
+    "85dcc77e09502dccb18ed5c5bfc4cbf4 18664 hunspell-dict-ko_0.7.94-2.debian.tar.xz 35af50b0da3eb7c938c083ae3f32e90f 2157 hunspell-dict-ko_0.7.94-2.dsc 558058c2a5eb41214ace9a06583fc891 16032340 hunspell-dict-ko_0.7.94.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "hunspell-ko deb localization optional arch=all"
   ],
   "Standards-Version": [
-    "4.4.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "hunspell, make"
+    "hunspell, make, python3"
   ],
   "Uploaders": [
     "Changwoo Ryu \u003ccwryu@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/l10n-korean-team/hunspell-dict-ko.git"
   ],
   "Version": [
-    "0.7.92-1"
+    "0.7.94-2"
   ]
 }

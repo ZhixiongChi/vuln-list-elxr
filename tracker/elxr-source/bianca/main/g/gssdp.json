@@ -6,25 +6,25 @@
     "libgssdp-1.6-0, gir1.2-gssdp-1.6, libgssdp-1.6-dev, libgssdp-doc, gssdp-tools"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gi-docgen, libglib2.0-dev (\u003e= 2.54), libgirepository1.0-dev (\u003e= 0.9.12), gir1.2-glib-2.0, libsoup-3.0-dev, libgtk-4-dev [amd64 arm64 armel armhf mips64el mipsel ppc64 ppc64el s390x], meson (\u003e= 0.54.0), pandoc [amd64 arm64 armel armhf mips64el mipsel ppc64 ppc64el s390x], python3-jinja2, python3-toml, python3-typogrify, valac (\u003e= 0.14)"
+    "debhelper-compat (= 13), dh-sequence-gir, gi-docgen, libglib2.0-dev (\u003e= 2.54), libgirepository1.0-dev (\u003e= 0.9.12), gir1.2-glib-2.0, gir1.2-gio-2.0-dev, gir1.2-gobject-2.0-dev, gir1.2-soup-3.0-dev, libsoup-3.0-dev, libgtk-4-dev [amd64 arm64 armel armhf mips64el mipsel ppc64 ppc64el s390x], meson (\u003e= 0.54.0), pandoc [amd64 arm64 armel armhf mips64el mipsel ppc64 ppc64el s390x], python3-jinja2, python3-toml, python3-typogrify, valac (\u003e= 0.14)"
   ],
   "Build-Depends-Indep": [
     "libglib2.0-doc \u003c!nodoc\u003e, libsoup-3.0-doc \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "6b39b269eca6d3919cdedd414ba6d0a5eb04a49b 7688 gssdp_1.6.2-2.debian.tar.xz 98bd5b2edd01577f468370c19e3211a0ebcc244c 2745 gssdp_1.6.2-2.dsc 3db058607b241d152db9f34c9dcfdb90f9e485e7 1144968 gssdp_1.6.2.orig.tar.xz"
+    "08d8afd75d49e8d1e6b42bc0744748702679bec0 7768 gssdp_1.6.4-1~deb13u1.debian.tar.xz dbeaf769ed01243becb5808b34f872c5280eba29 2824 gssdp_1.6.4-1~deb13u1.dsc c4e85c5473b488c6cb7c756a71fa8695b3b36949 1148184 gssdp_1.6.4.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "5e1007d8f221483b8397416b3b078565be3ad8aea149bdb652540f264804e8c6 7688 gssdp_1.6.2-2.debian.tar.xz 14d2c15e8e58ef6bc3937b7b9164fd603271ccc64dd1476dc8d80e2c967ccd42 2745 gssdp_1.6.2-2.dsc e9c226feedee090425681260c40daa7c430edce3350a1b0f9f0711389ca4f72e 1144968 gssdp_1.6.2.orig.tar.xz"
+    "d1c1c7981f2ecbf2774fd4bb465f42177461b62629f1372f816325e285558890 7768 gssdp_1.6.4-1~deb13u1.debian.tar.xz d1319787053910d458b000f949e2e32e2f49f211ddc0d3cc5dc834cc5130fcec 2824 gssdp_1.6.4-1~deb13u1.dsc ae34494fdfea145ef9f04b75e0d1ec3913494eabf39a60b063f2f2a50c9a5ea8 1148184 gssdp_1.6.4.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "a01e0c88d19f77682349085c22aacebd8e952d4fa6986374cdc36bfdb594d1141b08e6b183485745656e24e2d6cc60688f76cdae663ee9d9db9178454dd40ca3 7688 gssdp_1.6.2-2.debian.tar.xz 1c847d8755af8b258b320667a779d4421f1c7f03beda5046ec1b73ab33df00be190814273292624528031c25715d84154f24a9fc130c21e50e3c291c12bc69b5 2745 gssdp_1.6.2-2.dsc acf6ae6dd90177417a37a2ab5470949e89d33290a8bf07556e438e6ca00716bacdad2a8dc40de6d6e9a067af40ec7c587e1a0e0897a3acfe3e856ff7d5cc1c35 1144968 gssdp_1.6.2.orig.tar.xz"
+    "1d527f8b5e531fdc2ca675464dc175540d363f1f7909fd794b203bab8f3c1301b17a86236a53607e57a0d4af76a93bd3c2042ee8b91d61cc2d4ee13fd5fccbd0 7768 gssdp_1.6.4-1~deb13u1.debian.tar.xz 508a1402ed88907b98c29037455c6d3c4342f8c1ae92a05b4cc73190ad9eda71e0cf8c54eb684de3c00daee98b50e0bc2d16b0f6a5192f18d86e9e4a2b99b570 2824 gssdp_1.6.4-1~deb13u1.dsc 879b56717b0f3ec476e6d548dc63074a32e374005573f62bfc2e0c29a68b27f6f2d2fa31c60f8bc106fbdaa7bb4a1324f7628bed9d89ffd8cd630307a339415d 1148184 gssdp_1.6.4.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gssdp"
   ],
   "Files": [
-    "6bc6eea462cc1657b0e5b4cd9bc1e984 7688 gssdp_1.6.2-2.debian.tar.xz 399eb031c83eaf5daf11b870d9f8428c 2745 gssdp_1.6.2-2.dsc b4006d75545ddaab8e5cb7d7027d15f9 1144968 gssdp_1.6.2.orig.tar.xz"
+    "5c88da80a64beb87bf88ed49354bf72b 7768 gssdp_1.6.4-1~deb13u1.debian.tar.xz 7bf958075432703ced0e734a85aa733e 2824 gssdp_1.6.4-1~deb13u1.dsc f851a6f6f95a21d3fb0895d0676258a8 1148184 gssdp_1.6.4.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,10 +42,10 @@
     "gir1.2-gssdp-1.6 deb introspection optional arch=any gssdp-tools deb net optional arch=amd64,arm64,armel,armhf,mips64el,mipsel,ppc64,ppc64el,s390x libgssdp-1.6-0 deb libs optional arch=any libgssdp-1.6-dev deb libdevel optional arch=any libgssdp-doc deb doc optional arch=all profile=!nodoc"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Sebastien Bacher \u003cseb128@debian.org\u003e"
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Sebastien Bacher \u003cseb128@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/gssdp"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/gnome-team/gssdp.git"
   ],
   "Version": [
-    "1.6.2-2"
+    "1.6.4-1~deb13u1"
   ]
 }

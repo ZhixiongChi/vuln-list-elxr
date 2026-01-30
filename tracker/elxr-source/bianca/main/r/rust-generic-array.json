@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "librust-generic-array-dev, librust-generic-array+serde-dev"
+    "librust-generic-array-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 24), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-typenum-1+default-dev (\u003e= 1.12-~~) \u003c!nocheck\u003e, librust-version-check-0.9+default-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-typenum-1+default-dev (\u003e= 1.12-~~) \u003c!nocheck\u003e, librust-version-check-0.9+default-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "6b0ca59b30040c58aec9fae78354fb1bbfcc53ac 2848 rust-generic-array_0.14.4-1.debian.tar.xz e99c0d43482d0c2efcaf5c49c211f9d46fad0ecc 2424 rust-generic-array_0.14.4-1.dsc daa035de11b132844426730757b3610c1153f600 28916 rust-generic-array_0.14.4.orig.tar.gz"
+    "66750bf1d8085a686cbd436c4cb0371e7ddc75b1 2892 rust-generic-array_0.14.7-1.debian.tar.xz 8166acdb5e03c832cf6c2f2473796dbf56d1865f 2006 rust-generic-array_0.14.7-1.dsc b7a611ee2caca2842d0ca5285e3e74b8fee37931 15950 rust-generic-array_0.14.7.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "3be05f0b711a6a6ac38327f56e44a04f03ad0f498a4e1fe95abd3a466ea31b90 2848 rust-generic-array_0.14.4-1.debian.tar.xz 725cbc42b453613296ae8f0f3cba2c0057816cfeddfcc2e2f2227e2670b93da8 2424 rust-generic-array_0.14.4-1.dsc 501466ecc8a30d1d3b7fc9229b122b2ce8ed6e9d9223f1138d4babb253e51817 28916 rust-generic-array_0.14.4.orig.tar.gz"
+    "2f2ef1c598c0895b02a21ec108496788cef4e56a3a3d45aaee4aab358934221f 2892 rust-generic-array_0.14.7-1.debian.tar.xz f8d14ed8d7101327da9e1623a7b8868ea587e5000f52aeaf211fdd57d9840178 2006 rust-generic-array_0.14.7-1.dsc 85649ca51fd72272d7821adaf274ad91c288277713d9c18820d8499a7ff69e9a 15950 rust-generic-array_0.14.7.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "4d1f21254486dadf58ad6c6148d3ae3d142b4a8b08a4a0fbf976eb4d6afb866b0b2e46962ecce89fa6f326ac12e8b4197fee592482ee96c818690e715f2a9279 2848 rust-generic-array_0.14.4-1.debian.tar.xz 4bbe84bc9c06d5e98746608d34d076f9f2ddb39be01f700425d813c9dfbeafdd345b4714aa908bde703e5f1cc2be05fa513a47f382981f410b27eb98fc595e2f 2424 rust-generic-array_0.14.4-1.dsc 34ac71fee2cd50ff786d39b4abacd9e090a8598baf4dc36ba5fecfb7171cd8e4f58e5360cbb0baf02a87eea26b7dca85b35555b82bbefe06635d2fd38f7b8b40 28916 rust-generic-array_0.14.4.orig.tar.gz"
+    "f26341f4b9d6082655d3e8e238c7cc15b2e6720764868e2017dd66501ee9ffb89b9709b0d03b5775f86d52c5a9f4421927707c2a6e23bcfc1c1d2cbf3bd12076 2892 rust-generic-array_0.14.7-1.debian.tar.xz 64e4ce1f9f6cfc42198415e8bea1a477ffd807cc80cf2f286415b4d93aacaa20bce1aaf2a779e4a336d2ab153cf5d71dac1e26777505d26ead42a804e5dc4e68 2006 rust-generic-array_0.14.7-1.dsc 363a7b04e4102f9ca63d429721c1ada6272be6bf0a2e97da681faf76381f73f0e3acb86623b9ce2dae441de9fda704088391779b9769ec02b3c8c9f9f35f897d 15950 rust-generic-array_0.14.7.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-generic-array"
   ],
   "Files": [
-    "7776c86ade3abf18fd800917002ab6c1 2848 rust-generic-array_0.14.4-1.debian.tar.xz 8c6a677849f8650d2a50e797d104221f 2424 rust-generic-array_0.14.4-1.dsc 65cd30f86e785b77fd82e0693d126e26 28916 rust-generic-array_0.14.4.orig.tar.gz"
+    "13407cc4cd295dc9a74de96b50a3c41c 2892 rust-generic-array_0.14.7-1.debian.tar.xz f144c554e919a5d5328a71b502e1be83 2006 rust-generic-array_0.14.7-1.dsc 64a6d8fe0c9a450bcefa41894e17d7ac 15950 rust-generic-array_0.14.7.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -33,10 +33,10 @@
     "rust-generic-array"
   ],
   "Package-List": [
-    "librust-generic-array+serde-dev deb rust optional arch=any librust-generic-array-dev deb rust optional arch=any"
+    "librust-generic-array-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/generic-array]"
   ],
   "Version": [
-    "0.14.4-1"
+    "0.14.7-1"
   ]
 }

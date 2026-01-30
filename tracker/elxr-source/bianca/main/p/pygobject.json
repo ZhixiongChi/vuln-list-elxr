@@ -3,34 +3,31 @@
     "any"
   ],
   "Binary": [
-    "python3-gi, python3-gi-dbg, python-gi-dev, python3-gi-cairo"
+    "python3-gi, python-gi-dev, python3-gi-cairo"
   ],
   "Build-Depends": [
-    "at-spi2-core \u003c!nocheck\u003e, dbus-daemon \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-gnome, dh-sequence-python3, dpkg-dev (\u003e= 1.16.1~), gir1.2-gtk-3.0 \u003c!nocheck\u003e, libcairo2-dev, libffi-dev (\u003e= 3.3), libgirepository1.0-dev (\u003e= 1.62.0-4~), libglib2.0-dev (\u003e= 2.56.0), locales \u003c!nocheck\u003e, python3-all-dbg, python3-all-dev, python3-cairo-dev (\u003e= 1.16.0), python3-flake8 \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+    "at-spi2-core \u003c!nocheck\u003e, dbus-daemon \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-python3, gir1.2-cairo-1.0-dev, gir1.2-gio-2.0-dev, gir1.2-girepository-2.0 \u003c!nocheck\u003e, gir1.2-gtk-3.0 \u003c!nocheck\u003e, gobject-introspection, libcairo2-dev, libffi-dev (\u003e= 3.3), libgirepository-1.0-dev, libglib2.0-dev (\u003e= 2.64.0), locales \u003c!nocheck\u003e, meson, python3-all-dev, python3-cairo-dev (\u003e= 1.16.0), python3-flake8 \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "bb5e2aadf73ead328741b6910eb58acd4176c8b5 23144 pygobject_3.42.2-3.debian.tar.xz dc547bf694da72bb8c13531696f8c6622e1f4fe3 2923 pygobject_3.42.2-3.dsc be89fe746d8e216fe1da2a5a65f57a8cb6f95de4 558724 pygobject_3.42.2.orig.tar.xz"
+    "e7c5aef312090b5ec591a381e3a79d0262ad9cb5 24636 pygobject_3.50.0-4.debian.tar.xz ea55d88a9bd6697c928f961c3a38763eedf2bd5f 2775 pygobject_3.50.0-4.dsc 90ac3e894a088e3a8161d036164536541f3a7873 929848 pygobject_3.50.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "773f803e7e70e5496ddc8e5744301bd651b9b984a50d295c9a7159ee65b33145 23144 pygobject_3.42.2-3.debian.tar.xz dc14144e90c32a5e56687cb5bf5dfa00efb420f6972cc657b633dda2210169cb 2923 pygobject_3.42.2-3.dsc ade8695e2a7073849dd0316d31d8728e15e1e0bc71d9ff6d1c09e86be52bc957 558724 pygobject_3.42.2.orig.tar.xz"
+    "84bb41c2b10eeba8e303190ab3e610394c8c21113a7c4d0d2efd5f1ad2b097ac 24636 pygobject_3.50.0-4.debian.tar.xz 8b0ef58dc6641c73aed87d4f38c5b2df36d77b988d539dc9a4388d19094dbb14 2775 pygobject_3.50.0-4.dsc 8d836e75b5a881d457ee1622cae4a32bcdba28a0ba562193adb3bbb472472212 929848 pygobject_3.50.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "726b8d84583c8482028b25598fcf9f5fb03093f3938a09f5bd5be5cbb6b71ba59622edb4a2eb4d26b571cd9a7c5e7ecb32e68f83cb29ac41077937a2b11245b5 23144 pygobject_3.42.2-3.debian.tar.xz 1139a7940943b725fd7de6abeb53c4069cd4923d50655b0a458f10446d5f0bb97fd25f0e4e61717a1c16b86aeaea6ed5717b09cf940042d8fff6b40803b6da54 2923 pygobject_3.42.2-3.dsc eb604f839e0702e8aeff0f19665e44c05c56cae02ce892e9ab8a95ddb0d5d0216182d0c9a0059fc8e05990c0d5707f2f7456d8924bbfb95ce1d9a42908ac0119 558724 pygobject_3.42.2.orig.tar.xz"
-  ],
-  "Dgit": [
-    "eda30cb498c75ab98cf38a8131ab3258d6b1e02a debian archive/debian/3.42.2-3 https://git.dgit.debian.org/pygobject"
+    "4a62374eeb462001bea6db05ff2b2d2c56cda09dcf9a15954f5b1ef3e6e12604d6a6eef096dd8bad12306fb8c677621a9b70d2d3a1dc6b911e77603aada53240 24636 pygobject_3.50.0-4.debian.tar.xz 3c867c5afd02b3aef7b50007d4fcb245be0e24a735bbc7d4b8dff6d4e950689d7da42c8004bcd7e10edc9e29fd01128898e404a2f7cebc1488e797cccf40eaf0 2775 pygobject_3.50.0-4.dsc 59edec92b29f3101e4f1afd83a37f4d490e8d833e0dbba9ae8c30891541767e3738bb748ed939b2baef1041eec88f192188d38a82712f1ebc089005b4d6f03a9 929848 pygobject_3.50.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/pygobject"
   ],
   "Files": [
-    "0e8b09c7bb675a444b401914331bc489 23144 pygobject_3.42.2-3.debian.tar.xz 5161e480380cdd25319484370df9db51 2923 pygobject_3.42.2-3.dsc c5b31bb58156661c0954f1dbfc950fc9 558724 pygobject_3.42.2.orig.tar.xz"
+    "6839bfed94afe2705dcc6dc07a476377 24636 pygobject_3.50.0-4.debian.tar.xz e5297668518b76bc49fe337cf6464972 2775 pygobject_3.50.0-4.dsc 8f34e4bc1d7d57faf558180b0051c9ef 929848 pygobject_3.50.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://wiki.gnome.org/Projects/PyGObject"
+    "https://pygobject.readthedocs.io/"
   ],
   "Maintainer": [
     "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
@@ -39,10 +36,10 @@
     "pygobject"
   ],
   "Package-List": [
-    "python-gi-dev deb python optional arch=any python3-gi deb python optional arch=any python3-gi-cairo deb python optional arch=any python3-gi-dbg deb debug optional arch=any"
+    "python-gi-dev deb python optional arch=any python3-gi deb python optional arch=any python3-gi-cairo deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -51,7 +48,7 @@
     "build-essential, gir1.2-glib-2.0, python3-all, python3-all-dbg, python3-all-dev, python3-dev"
   ],
   "Uploaders": [
-    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Sebastien Bacher \u003cseb128@debian.org\u003e"
+    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Sebastien Bacher \u003cseb128@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/pygobject"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/gnome-team/pygobject.git"
   ],
   "Version": [
-    "3.42.2-3"
+    "3.50.0-4"
   ]
 }

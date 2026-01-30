@@ -6,22 +6,22 @@
     "nss-plugin-pem"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 10), cmake, libnss3-dev, pkg-config, quilt, libnspr4-dev (\u003e= 2:4.12), zlib1g-dev, libsqlite3-dev (\u003e= 3.3.9), libnss3-tools:native (\u003e= 2:3.19-1-1~) \u003ccross\u003e"
+    "debhelper-compat (= 13), cmake, libnss3-dev, pkgconf, quilt, libnspr4-dev (\u003e= 2:4.12), zlib1g-dev, libsqlite3-dev (\u003e= 3.3.9), libnss3-tools:native (\u003e= 2:3.19-1-1~) \u003ccross\u003e"
   ],
   "Checksums-Sha1": [
-    "23edafea3d304dd52e93575392167834d0383576 5516 nss-pem_1.0.8+1-1.debian.tar.xz 56f10df3b44ebb1cc19e3f8a36af18d147cedb03 2081 nss-pem_1.0.8+1-1.dsc 3c26b1f2b50c156e56e580b5bedda283638fc718 64809004 nss-pem_1.0.8+1.orig.tar.xz"
+    "9045842f0dc2bda81cd699ced5a09620eb749d2c 5744 nss-pem_1.1.0+1-1.debian.tar.xz f5cf2e5609563e5f4c975284cf5f3a6da78af458 2080 nss-pem_1.1.0+1-1.dsc 55987be0917dffee5fa6c0432c9a3928b4936140 54381812 nss-pem_1.1.0+1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "826631a0a3e77a64cd412f0e3dd1787031f4964f0ba3bd06ef15846ffebc27c6 5516 nss-pem_1.0.8+1-1.debian.tar.xz 4bcdb1f793c74bf72dbfa07ff69f43aa7435c26f3134895b66f3bd204760f270 2081 nss-pem_1.0.8+1-1.dsc 1c8ac577381ac92ed7ab77ca418e48d4a00b4b41d0be4354af7b523d0360bcec 64809004 nss-pem_1.0.8+1.orig.tar.xz"
+    "ae6d13919c00b4cd29a61d04b6534394b1180ad8ec765d5b6b03def5df01acc8 5744 nss-pem_1.1.0+1-1.debian.tar.xz 3215d38f7fc7fdeadb7de718f9a2eb0ae7e5ff17206f10d226ee66ec15287ef3 2080 nss-pem_1.1.0+1-1.dsc 59050956dbe6be5942934845ded6df3b890dd8612f65b998d8a59f2c9420669f 54381812 nss-pem_1.1.0+1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "d05bf8b9c7ca7452d9935d97fdd1ad9d690f8810e01c4b4b2d361976d057268366434a1a823dda097c2f4565c847d91addeac7542c1c18503bfa3af8ed03a838 5516 nss-pem_1.0.8+1-1.debian.tar.xz dae260531784a7cde6f90c83bdf85c43e2900452b7500147a486515c6323a97fffd5b54b902c2a885e07228152edaa141decfd2fb2b6fe1c8a5f7e9004d9f628 2081 nss-pem_1.0.8+1-1.dsc 2af573ad3f17ed122386d25afd66035c61f1fe900d20a2fabf2ddcd1da8ee59022622151210443c62ea750c236ad5bf8afcf9571da5a504b02f53789a796689b 64809004 nss-pem_1.0.8+1.orig.tar.xz"
+    "697b4c5160608d229cdd99cfe62c0a0d7e01c1fb7c2b7920e1f4be96b31f9e9a94ecc42a15c03c79579f50c11c584f78423975357e08a87b3980be1f516c8f7a 5744 nss-pem_1.1.0+1-1.debian.tar.xz e6123b0d3cdfc2af33169ce3a70e109bbd7888be0852724705ee41f0127a8c76d9785936bcfdeb7927dea9574409277843d8575531e41c8c144d1b605ef5c40f 2080 nss-pem_1.1.0+1-1.dsc 05b263a2437f477b031e22a9d7fbb2af72f88b382c5ff5d4b485605c7c26d2c12954a325af1332bc81849e323519c0678e6236d6d8358c813aaab7f71fb82572 54381812 nss-pem_1.1.0+1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/n/nss-pem"
   ],
   "Files": [
-    "15eaa7f1976ca1f37ebbe7ffcdf77998 5516 nss-pem_1.0.8+1-1.debian.tar.xz aad54ee48d9c8b4c73e7cb5b935c7b20 2081 nss-pem_1.0.8+1-1.dsc 8c89948bc330db2f32e53a88dbdf73b2 64809004 nss-pem_1.0.8+1.orig.tar.xz"
+    "afdb50d4b641a219f6b6829f28176e3c 5744 nss-pem_1.1.0+1-1.debian.tar.xz 87634e16c45ed705b54fe1752ff6f3b6 2080 nss-pem_1.1.0+1-1.dsc 97ded5dbabbe3d632c87986529b41cb3 54381812 nss-pem_1.1.0+1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://github.com/kdudka/nss-pem"
   ],
   "Maintainer": [
-    "Debian FreeIPA Team \u003cpkg-freeipa-devel@lists.alioth.debian.org\u003e"
+    "Debian FreeIPA Team \u003cpkg-freeipa-devel@alioth-lists.debian.net\u003e"
   ],
   "Package": [
     "nss-pem"
@@ -39,18 +39,18 @@
     "nss-plugin-pem deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.6.2"
   ],
   "Uploaders": [
     "Timo Aaltonen \u003ctjaalton@debian.org\u003e"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/freeipa-team/nss-pem.git"
+    "https://salsa.debian.org/freeipa-team/nss-pem"
   ],
   "Vcs-Git": [
     "https://salsa.debian.org/freeipa-team/nss-pem.git"
   ],
   "Version": [
-    "1.0.8+1-1"
+    "1.1.0+1-1"
   ]
 }

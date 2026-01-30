@@ -3,25 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "libgit2-dev, libgit2-1.5, libgit2-fixtures"
+    "libgit2-dev, libgit2-1.9, libgit2-fixtures"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), python3-minimal:any, pkg-config, ca-certificates, cmake, zlib1g-dev, libmbedtls-dev, libssh2-1-dev, libhttp-parser-dev, libpcre2-dev, libkrb5-dev"
+    "debhelper-compat (= 13), ca-certificates, cmake, libhttp-parser-dev, libkrb5-dev, libmbedtls-dev, libpcre2-dev, libssh2-1-dev, pkgconf, python3-minimal:any, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "9eed581e0778a7c8bf15a78b06102bd44f8e4d37 19664 libgit2_1.5.1+ds-1+deb12u1.debian.tar.xz 8d7b4020ea6712a2c9df2a791bb7bfc22d02477f 2112 libgit2_1.5.1+ds-1+deb12u1.dsc dd806b1ada676e13c58924f4b0326aafc236407f 3077056 libgit2_1.5.1+ds.orig.tar.xz"
+    "837e1c2356350eb21dc078a5adaf9b37842a9c78 18648 libgit2_1.9.0+ds-2.debian.tar.xz f85a45c2143df74107a560ac926adadd90656ae7 2434 libgit2_1.9.0+ds-2.dsc a17aa70d26da695678a2c110b343e4c5056d8fb1 4314236 libgit2_1.9.0+ds.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "e869077309d8fa0bc56701970af7c6908d02674a89271f7cb29cb31814b69382 19664 libgit2_1.5.1+ds-1+deb12u1.debian.tar.xz b4de836d38cb2aca2687420754c5fa955f719934b92a4213d787d0b7dc2abebf 2112 libgit2_1.5.1+ds-1+deb12u1.dsc 96369433500bb528f036c16be9921bd437c098b745f1aaeccb91290815518970 3077056 libgit2_1.5.1+ds.orig.tar.xz"
+    "25a2b9c4df0e2988c0229ccd616317cc75e4545e1114348336cdbdcc77e059c9 18648 libgit2_1.9.0+ds-2.debian.tar.xz 43b34e0f4c65d69252d64aac3847b066054012d16fd522e43146608b63920967 2434 libgit2_1.9.0+ds-2.dsc 08f1f9137c4804ac4be4748f7141f8a6a9b7a12c942ac2fd4db5a28f8b65caa2 4314236 libgit2_1.9.0+ds.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "f6e9bff4d90dd8fe0cfcfd68ae96f3c2b6a2730888e5389481d20ff03c9563754e3dfb20de940c93bfbcd0702124cb0a9c5678b267d952bc6ad09090e565a834 19664 libgit2_1.5.1+ds-1+deb12u1.debian.tar.xz aea24c3d65ae94127e7d3cf3b463781450fc3237420c05967c056c4c28dece68052eb3d3438a8e17def5c5adde75ab16dac13b51b948b6c395ca5ff3be9dc22f 2112 libgit2_1.5.1+ds-1+deb12u1.dsc b44a4e26cdfabc90745f2363fe930c7e4a022b4ce76546396fe2d1a1527f06ec3460160738b9df00675996f938d7ba53eadc912010074860e206ec7f86ce87d7 3077056 libgit2_1.5.1+ds.orig.tar.xz"
+    "ddf84c1c2ef860beba78d8892d6132d9ec541cca7505126569e57465d64155122ae11f0040e97cd42f58cd843db7ea199952e93b250c6cd72904d4eab6bc9cea 18648 libgit2_1.9.0+ds-2.debian.tar.xz 97740bdb14ceb1094372da14065b31c4240f677253ec9fb97570703377b2a34109f98b10fff2d8d40ae8dd7808ad002cddffe628b72499158ead3a293e4d9b6f 2434 libgit2_1.9.0+ds-2.dsc f308135407e0662a7b711c898abd8661540dfc8885e1a94798c781bae6cc83d8c943195838596e51953a47a39da0938d3b56849c82cfe58f404b60a3d0c94e7e 4314236 libgit2_1.9.0+ds.orig.tar.xz"
+  ],
+  "Dgit": [
+    "b3f0c8d0b9577ce0e873f971ae66eb319d0be882 debian archive/debian/1.9.0+ds-2 https://git.dgit.debian.org/libgit2"
   ],
   "Directory": [
     "pool/main/libg/libgit2"
   ],
   "Files": [
-    "72c3b51c443d6129da0fe7038f2c7966 19664 libgit2_1.5.1+ds-1+deb12u1.debian.tar.xz 0bf1984ee3362089aa4c5f769ede1037 2112 libgit2_1.5.1+ds-1+deb12u1.dsc e2c43b37fee144c89732adce700fba75 3077056 libgit2_1.5.1+ds.orig.tar.xz"
+    "baafb15e59465cddb65cb5d9d2fdcfc4 18648 libgit2_1.9.0+ds-2.debian.tar.xz cab5dee7cbe1c19a33e5d4d187dc4d92 2434 libgit2_1.9.0+ds-2.dsc d995b8616839b57d97ef7befcc457df6 4314236 libgit2_1.9.0+ds.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +39,10 @@
     "libgit2"
   ],
   "Package-List": [
-    "libgit2-1.5 deb libs optional arch=any libgit2-dev deb libdevel optional arch=any libgit2-fixtures deb libs optional arch=all"
+    "libgit2-1.9 deb libs optional arch=any libgit2-dev deb libdevel optional arch=any libgit2-fixtures deb libs optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +51,7 @@
     "cmake, g++, gcc"
   ],
   "Uploaders": [
-    "Pirate Praveen \u003cpraveen@debian.org\u003e, Mohammed Bilal \u003cmdbilal@disroot.org\u003e"
+    "Pirate Praveen \u003cpraveen@debian.org\u003e, Mohammed Bilal \u003cmdbilal@disroot.org\u003e, Timo Röhling \u003croehling@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/libgit2"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/debian/libgit2.git"
   ],
   "Version": [
-    "1.5.1+ds-1+deb12u1"
+    "1.9.0+ds-2"
   ]
 }

@@ -1,30 +1,30 @@
 {
   "Architecture": [
-    "amd64 arm64 armel armhf i386 kfreebsd-i386 kfreebsd-amd64 mips mips64el mips64r6el mipsel powerpc ppc64 ppc64el riscv64 s390x all"
+    "amd64 arm64 armel armhf i386 mips64el mips64r6el loong64 powerpc ppc64 ppc64el riscv64 s390x all"
   ],
   "Binary": [
-    "libnode-dev, nodejs, libnode108, nodejs-doc"
+    "libnode-dev, nodejs, libnode115, nodejs-doc"
   ],
   "Build-Depends": [
-    "sse2-support [i386] \u003c!nocheck\u003e, armv6k-support [armel] \u003c!nocheck\u003e, vfpv2-support [armel] \u003c!nocheck\u003e, debhelper-compat (= 13), dh-buildinfo, bash-completion, ca-certificates, curl \u003c!nocheck\u003e, gyp (\u003e= 0.1~svn1773), jq, libbrotli-dev, libbrotli-dev:native, libc-ares-dev (\u003e= 1.18.1~), libc-ares-dev:native, libhttp-parser-dev (\u003e= 2.9.2~), libicu-dev (\u003e= 70.1~), libicu-dev:native, libkvm-dev [kfreebsd-any], libnghttp2-dev (\u003e= 1.41.0~), libnghttp2-dev:native, libssl-dev (\u003e= 1.1.1~), libssl-dev:native, libuv1-dev (\u003e= 1.43.0~), libuv1-dev:native, node-acorn (\u003e= 6.2.1~) \u003c!pkg.nodejs.nobuiltin\u003e, node-cjs-module-lexer (\u003e= 1.2.2~) \u003c!pkg.nodejs.nobuiltin\u003e, node-undici (\u003e= 5.0.0~) \u003c!pkg.nodejs.nobuiltin\u003e, openssl (\u003e= 1.1.1~) \u003c!nocheck\u003e, pkg-config, pkg-js-tools (\u003e= 0.8.2~) \u003c!nocheck\u003e, python3:native, python3-distutils, procps \u003c!nocheck\u003e, zlib1g-dev, zlib1g-dev:native"
+    "sse2-support [i386] \u003c!nocheck\u003e, armv6k-support [armel] \u003c!nocheck\u003e, vfpv2-support [armel] \u003c!nocheck\u003e, debhelper-compat (= 13), dh-buildinfo, bash-completion, dh-sequence-bash-completion, ca-certificates, curl \u003c!nocheck\u003e, gyp (\u003e= 0.16.0~), jq, libbrotli-dev, libbrotli-dev:native, libc-ares-dev (\u003e= 1.18.1~), libc-ares-dev:native, libhttp-parser-dev (\u003e= 2.9.2~), libicu-dev (\u003e= 70.1~), libicu-dev:native, libnghttp2-dev (\u003e= 1.41.0~), libnghttp2-dev:native, libnghttp3-dev (\u003e= 1.4.0~), libnghttp3-dev:native, libngtcp2-dev (\u003e= 1.6.0~), libngtcp2-dev:native, libsimdjson-dev (\u003e= 3.10.1~), libsimdjson-dev:native, libssl-dev (\u003e= 1.1.1~), libssl-dev:native, libuv1-dev (\u003e= 1.43.0~), libuv1-dev:native, node-acorn (\u003e= 6.2.1~) \u003c!pkg.nodejs.nobuiltin\u003e, node-cjs-module-lexer (\u003e= 1.2.2~) \u003c!pkg.nodejs.nobuiltin\u003e, node-minimatch (\u003e= 9.0.3-5) \u003c!pkg.nodejs.nobuiltin\u003e, node-undici (\u003e= 5.0.0~) \u003c!pkg.nodejs.nobuiltin\u003e, openssl (\u003e= 1.1.1~) \u003c!nocheck\u003e, pkgconf, pkg-js-tools (\u003e= 0.8.2~) \u003c!nocheck\u003e, python3:native, python3-packaging, procps \u003c!nocheck\u003e, zlib1g-dev, zlib1g-dev:native"
   ],
   "Build-Depends-Indep": [
     "node-js-yaml (\u003e= 4.1.0+dfsg+~4.0.5-6) \u003c!nodoc\u003e, node-marked (\u003e= 4~) \u003c!nodoc\u003e, node-highlight.js \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "efebd919d4ae4873bbf9b2e3fe365fbba1574be9 169104 nodejs_18.20.4+dfsg-1~deb12u1.debian.tar.xz 76413b35260e2bb56588e68654d5e54a186a1740 4359 nodejs_18.20.4+dfsg-1~deb12u1.dsc 4e580579ef4a73cf6ab060c74433501f292c18d3 272924 nodejs_18.20.4+dfsg.orig-ada.tar.xz 4cad22f4545483163b468271d06f425b15f1dcf0 267236 nodejs_18.20.4+dfsg.orig-types-node.tar.xz a0c8b9acf0982e9010edb24542aa83d55e65fbde 29390728 nodejs_18.20.4+dfsg.orig.tar.xz"
+    "48d7d7c417138a66cd21f9907b09394254ac16ad 158504 nodejs_20.19.2+dfsg-1.debian.tar.xz f4cf9a6753cb5aa799204a93548e6b561966ac4a 4378 nodejs_20.19.2+dfsg-1.dsc 36d594cccc87915a298fccaa4f30843f6a7af2ec 274900 nodejs_20.19.2+dfsg.orig-ada.tar.xz c3753ad4a19367bb34d4b34d6f28276b8a139038 303700 nodejs_20.19.2+dfsg.orig-types-node.tar.xz 7ed7a340dc165334953d0a57eb4c2600e4d3081a 19886184 nodejs_20.19.2+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "bd8b2acac5b28e88c3a452246b9c49de3c59814d33eae46c28173cac6de7a3b7 169104 nodejs_18.20.4+dfsg-1~deb12u1.debian.tar.xz e872fc45081a436c62539c035c6eefab2abd83e66fa2752ab1a6f4a477857a27 4359 nodejs_18.20.4+dfsg-1~deb12u1.dsc b58fd8b7ef61255b66d42b66e32e74ccdde61c4e02facd6b5a566618e32e993e 272924 nodejs_18.20.4+dfsg.orig-ada.tar.xz 5bd8293f0adfb7bc744e3071bdbd184fd02f973931396ba816ff61514ecd62a9 267236 nodejs_18.20.4+dfsg.orig-types-node.tar.xz 6ce58062c71eae37d9c5ac31eeaeff9c2d48561d21c2849179d056c9c1bd9ebc 29390728 nodejs_18.20.4+dfsg.orig.tar.xz"
+    "921416e0ac838b90c13ff6af8f3b73feb34c44dbea22a8886bbf3cd6abbbce91 158504 nodejs_20.19.2+dfsg-1.debian.tar.xz 2a2523b22864337c3d4fdec45d2332f1a2138ed77af30916a21929fab703ba07 4378 nodejs_20.19.2+dfsg-1.dsc 26deff017c505b316f2498aaf293c896f4ab92b5349b367cf21fe14fa2cbd1e1 274900 nodejs_20.19.2+dfsg.orig-ada.tar.xz cacb4b47fe0ad9250294545a33e5097c50b0a86f7bd1862cd73f99385f69a174 303700 nodejs_20.19.2+dfsg.orig-types-node.tar.xz 5e5559381ad031d245a8efa403458abbb73755f74c3e6380f185a4dd342b7949 19886184 nodejs_20.19.2+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "6180f415957ef970322fc8e2d7ebe88c035e20a4d0cd64d5e091cde40bc93fd9a84da74dd3e265e776b9f6677dffd9b5aca40883867eeb2871a75c585b94e805 169104 nodejs_18.20.4+dfsg-1~deb12u1.debian.tar.xz c7fb1e298e96420bf769073a69a471a3082322aebb0d7873ba7ae8c039a8b63fac7543b0e92dac6ce6ad7057fd6bdef3d35ab6cbde093021c8a672dc75a57cec 4359 nodejs_18.20.4+dfsg-1~deb12u1.dsc f8b6840570537f317a80eb3100b0dc3e3417b0aa26756ac4517ab809ea808172e6335f6edf06affe992a0f78233f7e7bec97a3fa50c612ce295320d8482baee5 272924 nodejs_18.20.4+dfsg.orig-ada.tar.xz c1d053520a950ff99892854a7604adcc939125dfcbaacf7fc5529200d4d7184aed8abecbf37575f08a645bc0d5379ea03a2b737d822425f03b0553bf0c471183 267236 nodejs_18.20.4+dfsg.orig-types-node.tar.xz 6c53c9368e5e942cbcefee94faa5b7c087c7b843e614e6e3c2077a284768155f274c8ffc6f03b8bfd3fbe5bf1c84d1d6982afcc5c1872568ccde255b344bec43 29390728 nodejs_18.20.4+dfsg.orig.tar.xz"
+    "3a289ef83c38b7c1f35ef995ff62bc2f405b88e676fa029fb7c46c5ccfa6a77e59bd010591c47502ad26ca8a1dd0cd2548812a1821f068c6bc227d252aa1e303 158504 nodejs_20.19.2+dfsg-1.debian.tar.xz 77b8f92fdc3752d9e9ccd5b2be0dba479f0942135392f7627cbc777350100d9d409af85531240d374d03d59dffa0d006bbbc6e4069350daa6fea243a7741f292 4378 nodejs_20.19.2+dfsg-1.dsc b1f34c36141aba830188d6e8868133058034a8479560bd46814e20c3aba905f3f5496ccfa94b4d818ea807e066461c40660c1a216d01da7ee355a4a9df29b083 274900 nodejs_20.19.2+dfsg.orig-ada.tar.xz d314ea5e3e3bcc21fc66150c261304779c1a70e78d70d5f4066613a7c7a2289b482bf9c4c16239638c800d16a99cc0a30b17945771fcb8f6156245e3c13c0357 303700 nodejs_20.19.2+dfsg.orig-types-node.tar.xz 18b9cb68cc4f767c2d4b5f657cba388db85a64108a27a57902ee2869837f27dad3f7ebc24da0e55c83de0cacbb5d2e14497b405e9913aaa76ccfe2cb44a67cb2 19886184 nodejs_20.19.2+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/n/nodejs"
   ],
   "Files": [
-    "6684db37386ed58a59c99a8756add91a 169104 nodejs_18.20.4+dfsg-1~deb12u1.debian.tar.xz d7a7712ea0fe9fdf293eed32e7a25ea8 4359 nodejs_18.20.4+dfsg-1~deb12u1.dsc 774dbd4a3931a17737b3c27a7a67d587 272924 nodejs_18.20.4+dfsg.orig-ada.tar.xz 8cabd2aa436c05f698a17368826a8645 267236 nodejs_18.20.4+dfsg.orig-types-node.tar.xz 157a1ca8a7c3ca2465402e0326511581 29390728 nodejs_18.20.4+dfsg.orig.tar.xz"
+    "1a123d74e714ff3f2bb25dd537474919 158504 nodejs_20.19.2+dfsg-1.debian.tar.xz ea2475fc2fbf8c89c8dd07f512bf3e14 4378 nodejs_20.19.2+dfsg-1.dsc fd9ff3be8b8b43905dd24c5af24aab16 274900 nodejs_20.19.2+dfsg.orig-ada.tar.xz a1bc896abb59372639fc59c82e40a517 303700 nodejs_20.19.2+dfsg.orig-types-node.tar.xz 8b4b3615193af364ccde831591e81402 19886184 nodejs_20.19.2+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,27 +39,27 @@
     "nodejs"
   ],
   "Package-List": [
-    "libnode-dev deb libdevel optional arch=amd64,arm64,armel,armhf,i386,kfreebsd-i386,kfreebsd-amd64,mips,mips64el,mips64r6el,mipsel,powerpc,ppc64,ppc64el,riscv64,s390x libnode108 deb libs optional arch=amd64,arm64,armel,armhf,i386,kfreebsd-i386,kfreebsd-amd64,mips,mips64el,mips64r6el,mipsel,powerpc,ppc64,ppc64el,riscv64,s390x nodejs deb javascript optional arch=amd64,arm64,armel,armhf,i386,kfreebsd-i386,kfreebsd-amd64,mips,mips64el,mips64r6el,mipsel,powerpc,ppc64,ppc64el,riscv64,s390x nodejs-doc deb doc optional arch=all"
+    "libnode-dev deb libdevel optional arch=amd64,arm64,armel,armhf,i386,mips64el,mips64r6el,loong64,powerpc,ppc64,ppc64el,riscv64,s390x libnode115 deb libs optional arch=amd64,arm64,armel,armhf,i386,mips64el,mips64r6el,loong64,powerpc,ppc64,ppc64el,riscv64,s390x nodejs deb javascript optional arch=amd64,arm64,armel,armhf,i386,mips64el,mips64r6el,loong64,powerpc,ppc64,ppc64el,riscv64,s390x nodejs-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential, ca-certificates, curl, procps, python3, python3-distutils"
+    "build-essential, ca-certificates, curl, procps, python3"
   ],
   "Uploaders": [
     "Jérémy Lal \u003ckapouer@melix.org\u003e, Jonas Smedegaard \u003cdr@jones.dk\u003e"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/js-team/nodejs/tree/master-18.x"
+    "https://salsa.debian.org/js-team/nodejs/tree/master-20.x"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/js-team/nodejs.git -b master-18.x"
+    "https://salsa.debian.org/js-team/nodejs.git -b master-20.x"
   ],
   "Version": [
-    "18.20.4+dfsg-1~deb12u1"
+    "20.19.2+dfsg-1"
   ]
 }

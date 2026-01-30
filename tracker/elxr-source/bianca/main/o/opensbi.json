@@ -6,28 +6,28 @@
     "opensbi"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gcc-riscv64-linux-gnu"
+    "debhelper-compat (= 13), gcc-riscv64-linux-gnu, python3"
   ],
   "Checksums-Sha1": [
-    "2cc620557bc246a86455b0def8afd69090b03b25 5988 opensbi_1.1-2.debian.tar.xz c0e2d184c76ddc724cd0393f9dc787f91dbada33 1303 opensbi_1.1-2.dsc f81c1c28b74f53f3cff223d719281e55731e597f 241383 opensbi_1.1.orig.tar.gz"
+    "832ef4bdd258e3e9f353b7e40bcd0a7bb1a0a208 6048 opensbi_1.6-1.debian.tar.xz 3fb4e965bbcc14753e50f71747d7be0bee858675 1325 opensbi_1.6-1.dsc 7768b395ffb2cbddab612b0e92abb8fed6179702 476631 opensbi_1.6.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "3fd941d4733e25a924f952da4410dc7ce5070411facff65fbb45faad4d600314 5988 opensbi_1.1-2.debian.tar.xz 242f4be9690bbce86b8eb97a636bb76eb0c95f3121fa9ead7181e00a21df6e07 1303 opensbi_1.1-2.dsc d183cb890130983a4f01e75fc03ee4f7ea0e16a7923b8af9c6dff7deb2fedaec 241383 opensbi_1.1.orig.tar.gz"
+    "0afb3efa89fa086d2a7469e8a35f3bd7168ba3f28b8943f24271408407edd77c 6048 opensbi_1.6-1.debian.tar.xz 4cbeff2c1db649998e55278406a7dc3b7bf030c4431e348e484825ff3b66c5f4 1325 opensbi_1.6-1.dsc d11702103f177a2914e94eec57ce5ed820296d874f6b6525c4482e55d71a3667 476631 opensbi_1.6.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "4e9f1119b0dc6cac21ebcc44032ab16d19c8912f02cb29e80f1c24b82086fc47de33066555b4521bcd073afaa89fd3f0ae601580cd5c0a01baf4d5e330962da4 5988 opensbi_1.1-2.debian.tar.xz fa821e1d66591ceb05b51df7922554101edc88f3f13de1c07ed07f6babf746b662a8d60a54676cb58efc88568c9d9cc2b94f4950792385d11ec5b555ba3241e6 1303 opensbi_1.1-2.dsc cb9715cf9788d68af9291312b33fba9b28bde3f4cc24fe3ba9da8a866848af02a81a8d7688fdf47eab2e6148f6cc0aeeead5250d2eabd76a12027fdec08ef318 241383 opensbi_1.1.orig.tar.gz"
+    "be10e79bd99d0d2f482032ac32e8cd82d57197fd9e56302489cd9c2021d19af321c71542db6f42a3fc211236cebd594cd667da14c94114d90c6cf0090285f13e 6048 opensbi_1.6-1.debian.tar.xz 8f16f59167172ee3939e585ee90e4c55298a79c915deb6ce9d8ce23456d3f16c77aea6be93ce975bcdf646fe2a67235f205c93ed0b7f4257c21fed9d7303d630 1325 opensbi_1.6-1.dsc 2c6884566fffa6715cd1bec491d9891ba9f51a2c2b9abea87782c65cdd89d81054d0ad5503fbc5acfafa14917d9c565caa004d643d9d0724be3fd5aebfefb01b 476631 opensbi_1.6.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/o/opensbi"
   ],
   "Files": [
-    "c620e44fdffd3b2168a9d391acc4c4e8 5988 opensbi_1.1-2.debian.tar.xz bfb2023419ad39f0d6863e0e841a0c60 1303 opensbi_1.1-2.dsc 27acde7cc1eaaa70733d3ed9cf1f0c48 241383 opensbi_1.1.orig.tar.gz"
+    "6bcba19a3e0a9e88ff07dfcc7b1fa1da 6048 opensbi_1.6-1.debian.tar.xz f6b8ee4315a65c72dec21a0afcf08725 1325 opensbi_1.6-1.dsc e80da09a221ea94f09322c702f3d7160 476631 opensbi_1.6.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://github.com/riscv/opensbi"
+    "https://github.com/riscv-software-src/opensbi"
   ],
   "Maintainer": [
     "Vagrant Cascadian \u003cvagrant@debian.org\u003e"
@@ -39,7 +39,7 @@
     "opensbi deb misc optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Uploaders": [
     "Karsten Merker \u003cmerker@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/opensbi-team/opensbi.git"
   ],
   "Version": [
-    "1.1-2"
+    "1.6-1"
   ]
 }

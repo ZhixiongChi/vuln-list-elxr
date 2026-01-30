@@ -6,28 +6,28 @@
     "kbreakout"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.91.0~), gettext, libkf5config-dev (\u003e= 5.91.0~), libkf5configwidgets-dev (\u003e= 5.91.0~), libkf5coreaddons-dev (\u003e= 5.91.0~), libkf5crash-dev (\u003e= 5.91.0~), libkf5dbusaddons-dev (\u003e= 5.91.0~), libkf5doctools-dev (\u003e= 5.91.0~), libkf5i18n-dev (\u003e= 5.91.0~), libkf5kdegames-dev (\u003e= 4:21.04.0~), libkf5widgetsaddons-dev (\u003e= 5.91.0~), libkf5xmlgui-dev (\u003e= 5.91.0~), libqt5svg5-dev (\u003e= 5.12.0~), pkg-kde-tools (\u003e\u003e 0.15.15), qtbase5-dev (\u003e= 5.15.2~), qtdeclarative5-dev (\u003e= 5.15.2~)"
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-qmldeps, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.0.0~), gettext, libkdegames6-dev (\u003e= 4:6.0.0~), libkf6config-dev (\u003e= 6.0.0~), libkf6configwidgets-dev (\u003e= 6.0.0~), libkf6coreaddons-dev (\u003e= 6.0.0~), libkf6crash-dev (\u003e= 6.0.0~), libkf6dbusaddons-dev (\u003e= 6.0.0~), libkf6doctools-dev (\u003e= 6.0.0~), libkf6i18n-dev (\u003e= 6.0.0~), libkf6iconthemes-dev (\u003e= 6.0.0~), libkf6widgetsaddons-dev (\u003e= 6.0.0~), libkf6xmlgui-dev (\u003e= 6.0.0~), pkg-kde-tools, qt6-base-dev (\u003e= 6.5.0~), qt6-declarative-dev (\u003e= 6.5.0~), qt6-svg-dev (\u003e= 6.5.0~)"
   ],
   "Checksums-Sha1": [
-    "d26f8d84d83483c303fb01e6a252e9b84d1ad3d2 11412 kbreakout_22.12.3-1.debian.tar.xz 4f04c3ff6037674e414663213cd5339b2609c9f1 2847 kbreakout_22.12.3-1.dsc 7e08c10fb2c8d003268aebb4cb5fb62f99e24d33 2558620 kbreakout_22.12.3.orig.tar.xz e3bbce4454814304660183d64543c0210fd457c2 833 kbreakout_22.12.3.orig.tar.xz.asc"
+    "1ee3f485d871843ff8b6baa5f62068b0768b96ac 11656 kbreakout_25.04.0-1.debian.tar.xz a5f1d3dbcf1814093838e0cda463d0b3b4aa5c48 2856 kbreakout_25.04.0-1.dsc 39d0d8a330cf341b20e7451cdf48e4e9561df748 2558900 kbreakout_25.04.0.orig.tar.xz 16630aab5a029a8467a48a9b01ff1c474444a837 833 kbreakout_25.04.0.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "7cd502e2dbad5c2aac40584ed7d1810557670709ad0233f79213c439de04c608 11412 kbreakout_22.12.3-1.debian.tar.xz 2aae0f354cb29083b08368b9f573bfcbb3a8ddf75471c787e1727eddc05e9dd2 2847 kbreakout_22.12.3-1.dsc ba5bd171e578a97ca4dcc86aa649dd4a3da0df8ff991d508a1782ada06766268 2558620 kbreakout_22.12.3.orig.tar.xz 4aec36000be11ff4c258973a0559f1385f4fefb6ef8dec8ebbf8d2968d7e40f9 833 kbreakout_22.12.3.orig.tar.xz.asc"
+    "4aa355e3e27e54bd9c4d7c8870e24285810ba349dae483935e7e1992568a3b36 11656 kbreakout_25.04.0-1.debian.tar.xz efbb807fb0c0d19067656e4688b1203fbf313df3cc1427763d942734b44c4a18 2856 kbreakout_25.04.0-1.dsc 2071cb79de4ec7379fbb0dbbfc9fdcaea641f58fe154d1626fe038aecef60b03 2558900 kbreakout_25.04.0.orig.tar.xz 0e7c72c34163a717c22073580d4c5a42a9434b5304a5e37ecdc467d528a3d703 833 kbreakout_25.04.0.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "ad4469fc41e932c6a2d6270483b770b27079434600d553f5efeb06141f7496dda61b0f109ee6b55f9d91975dc20c2aeb046b377b51b08e1cd91d3c3cd7bd8120 11412 kbreakout_22.12.3-1.debian.tar.xz 828a99b661419824b1124febc43d17562272b7a6f6341e7cf930b02e38bbcd05a70006f4bcaea878dc56266de79daed5e62b7006d1d23cdb20f99f6c3f64a4b7 2847 kbreakout_22.12.3-1.dsc 53a918f7f6036f0d7c539802123e66fa34a62559ed8db06dcabb242cd70444ec31b1befd3a175f924f7f640e7fe9c2f15dc019de6a5d855556fd8435ac575be8 2558620 kbreakout_22.12.3.orig.tar.xz 84a08a01081a5abaad7ebc6ec33c0eb6192539d98f5276174ef9fd6c3c3a499f9707756dcbc790ea7be1fbcca228bd77ff035b174c37bb04348805c8a1917e2c 833 kbreakout_22.12.3.orig.tar.xz.asc"
+    "b1657cb35d5d0423d5db19fa15b33614377f71b7f79aa1db60c3ab427c2668b00c731a6402019a4f48c1a9662f729cd4b8bb9559992c9a960dcd38d1b55af5aa 11656 kbreakout_25.04.0-1.debian.tar.xz 05c73d12cea6c82c4b692b5379753bce15e1b200f1d18c59795455ed6b6d20eaf82aa1e51603e3acb6a3d731e62ee81064ef94dce14a47ae80b32fd74da0be75 2856 kbreakout_25.04.0-1.dsc cedd62771414b20971227bddcf501a4479fc05d4e9cad99c8468e75ef307ba2b78374b1e5f9b7a23c3eb67efae40c60670f65e9cff1e6469d278f4ef49cf033c 2558900 kbreakout_25.04.0.orig.tar.xz c097cafa4836dc478fb2ce791a89396ce7062e0d6bc22eaab9640a11e637806573e2d5678c4e8c7c301cc94fa19540e847a40ed8fa81fc9f461fa99c21fd4444 833 kbreakout_25.04.0.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/k/kbreakout"
   ],
   "Files": [
-    "3f5211bdcbda3ae10b96c25cbec8df32 11412 kbreakout_22.12.3-1.debian.tar.xz 16f41757fa738c94837b112a276d6c10 2847 kbreakout_22.12.3-1.dsc ed481b65d0d6ddb4bb5f8eacb56f451a 2558620 kbreakout_22.12.3.orig.tar.xz 0b17ba73823999f3d0b80a5652047d34 833 kbreakout_22.12.3.orig.tar.xz.asc"
+    "a6cd260a15b9bf89b50ad69beff41a86 11656 kbreakout_25.04.0-1.debian.tar.xz 0c3d8b92560b1297e5798a10a937c7aa 2856 kbreakout_25.04.0-1.dsc 059cf4c7d6cafa33bd694d6a9f28c167 2558900 kbreakout_25.04.0.orig.tar.xz c4a76a7bf54f267976b962bd186817b9 833 kbreakout_25.04.0.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://games.kde.org/"
+    "https://apps.kde.org/kbreakout/"
   ],
   "Maintainer": [
     "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
@@ -39,10 +39,10 @@
     "kbreakout deb games optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Daniel Schepler \u003cschepler@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Sune Vuorela \u003csune@debian.org\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Daniel Schepler \u003cschepler@debian.org\u003e, Sune Vuorela \u003csune@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/kbreakout"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kbreakout.git"
   ],
   "Version": [
-    "4:22.12.3-1"
+    "4:25.04.0-1"
   ]
 }

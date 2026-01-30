@@ -6,31 +6,31 @@
     "lxsession, lxsession-data, lxsession-edit, lxpolkit, lxlock, lxsession-logout, lxsession-default-apps, lxde-settings-daemon"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12~), intltool, libdbus-glib-1-dev, libgtk2.0-dev, libpolkit-agent-1-dev, valac"
+    "debhelper-compat (= 13), docbook-xml, intltool, libdbus-glib-1-dev, libgtk-3-dev, libpolkit-agent-1-dev, valac, xmlto, xsltproc"
   ],
   "Checksums-Sha1": [
-    "9cca288f8018093c5fcf9d2ae2051a9ec205e610 12700 lxsession_0.5.5-2.debian.tar.xz 9df5172b45a5b876ef20cee5be3087f6966536a5 2431 lxsession_0.5.5-2.dsc 93f495f3afff0300de3c7b9aacce0ef29eb86bab 422564 lxsession_0.5.5.orig.tar.xz"
+    "aa842772e3a9e589061bf5800f2168e6e2d63a75 14028 lxsession_0.5.6-2.debian.tar.xz 66d879ebbbea8721c9d10fc72e2614dd308770f0 2519 lxsession_0.5.6-2.dsc b58a5392469039fac063f246523cc4d90435ce91 313234 lxsession_0.5.6.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "defd34a0174b64a79d360b47d7241266b2e19e5f36d4023ef821ce2b2ac0c8dc 12700 lxsession_0.5.5-2.debian.tar.xz 3ed376d95f6fb68220dce09e1317eaf01efad90d3c7b399a21e625fe341b6c4c 2431 lxsession_0.5.5-2.dsc e43e0d9c033095559ab57c8821c2b84fea58009d267db1324d32dca8bd4dbb46 422564 lxsession_0.5.5.orig.tar.xz"
+    "5ee61fd1636c59f95042a1c5ac6ca6a7df45a19ccd53ac3c63358fe29652bf96 14028 lxsession_0.5.6-2.debian.tar.xz 06b3b226d17ecc0fd5ae7b566dc4f9bf473790df44b5be653a07380bff2fb547 2519 lxsession_0.5.6-2.dsc af469d7ed6edbd733da6ad01a46fef3eff871483db5b3d8ecc3c856dbcbed12f 313234 lxsession_0.5.6.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "41059a18ee75f4ac052caeb05448ac4d160c80745c5960a8635af062658526210ad71c2d3f863b1b54e5032f657a16adec26484b76f693ec601c8e0fbc50d73b 12700 lxsession_0.5.5-2.debian.tar.xz fe26931033ac34fbb0f743debe50cbc21506f24a9c51bfc0d448f3b286abec2409417ce3777fcd4cb2c32d02b27638cfdbacdfc7701715cebb9c311efc30dbde 2431 lxsession_0.5.5-2.dsc 12e25214485cf855b380a5aa91eb536f31536c98f5a50a1115cb4bf8ff884c7cdcd40c69a1502eeb9f4d3e6169e0607d6488ef3152ee184662fee39fe7a04d54 422564 lxsession_0.5.5.orig.tar.xz"
+    "83062ae80594929c0f6c2e7206fb2cea12399d1a8cd9487fb56f94bc7976ce3c1b578298077cbc9aadef019e567094addea96dcba9cb8d99241024ca79426eed 14028 lxsession_0.5.6-2.debian.tar.xz 393e278ee6f6dbffb4376140000cf5dc27f301f9370951fd8a53d41c55682b423e1c0224ff5499e6facf26e8bfab7ef9dea4529c42a77ea2166c9df1bc6a2c54 2519 lxsession_0.5.6-2.dsc f54e2bf802374667d7557b0129373a3972e1395a21a856e9f74535cba913ceb4b109c1856426cd4ca7f5759d158d63b7068e16d9fc6b4a2102ad89eb5abccb23 313234 lxsession_0.5.6.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/l/lxsession"
   ],
   "Files": [
-    "82215fa413d278e452b0fd56f2075ce2 12700 lxsession_0.5.5-2.debian.tar.xz 4b64cdf1ae68d146c102ba84b224959e 2431 lxsession_0.5.5-2.dsc e8380acef215ee7c99c067a2241c2c7b 422564 lxsession_0.5.5.orig.tar.xz"
+    "f7302fd3b221f1227ed6c3d0d6090f8c 14028 lxsession_0.5.6-2.debian.tar.xz aa8b6bb66ab312f1db732904e7d42ff6 2519 lxsession_0.5.6-2.dsc 3214a4947f02d209a35f089dcd540148 313234 lxsession_0.5.6.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://www.lxde.org/"
+    "https://github.com/lxde/lxsession"
   ],
   "Maintainer": [
-    "Debian LXDE Maintainers \u003cpkg-lxde-maintainers@lists.alioth.debian.org\u003e"
+    "Debian LXDE Maintainers \u003cteam+lxde@tracker.debian.org\u003e"
   ],
   "Package": [
     "lxsession"
@@ -39,18 +39,18 @@
     "lxde-settings-daemon deb x11 optional arch=any lxlock deb x11 optional arch=all lxpolkit deb x11 optional arch=any lxsession deb x11 optional arch=any lxsession-data deb x11 optional arch=all lxsession-default-apps deb x11 optional arch=any lxsession-edit deb x11 optional arch=any lxsession-logout deb x11 optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.7.2"
   ],
   "Uploaders": [
-    "Andrew Lee (李健秋) \u003cajqlee@debian.org\u003e, Andriy Grytsenko \u003candrej@rep.kiev.ua\u003e"
+    "Andrew Lee (李健秋) \u003cajqlee@debian.org\u003e, Andriy Grytsenko \u003candrej@rep.kiev.ua\u003e, ChangZhuo Chen (陳昌倬) \u003cczchen@debian.org\u003e"
   ],
   "Vcs-Browser": [
-    "https://git.lxde.org/gitweb/?p=debian/lxsession.git"
+    "https://salsa.debian.org/lxde-team/lxsession"
   ],
   "Vcs-Git": [
-    "https://git.lxde.org/git/debian/lxsession.git"
+    "https://salsa.debian.org/lxde-team/lxsession.git"
   ],
   "Version": [
-    "0.5.5-2"
+    "0.5.6-2"
   ]
 }

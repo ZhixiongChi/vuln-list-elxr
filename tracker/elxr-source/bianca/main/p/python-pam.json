@@ -6,28 +6,28 @@
     "python3-pam"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 13), python3-all-dev, libpam0g-dev, dh-python"
+    "debhelper-compat (= 13), dh-sequence-python3, libpython3-all-dev, python3-all-dev:any, python3-setuptools, libpam0g-dev, dh-python"
   ],
   "Checksums-Sha1": [
-    "5471dbbf90cfdd5e603705c65fdabb2ec65d7452 5744 python-pam_0.4.2-16.debian.tar.xz b155c6d856167d32ac5c223711df82c488f2bfa8 1734 python-pam_0.4.2-16.dsc 5327b027cd74d84bd6f0147245f02477d46d3c33 15115 python-pam_0.4.2.orig.tar.gz"
+    "e3cbc8e9b597591639c35f8f5068c252693db8a2 7068 python-pam_0.4.2-19.debian.tar.xz dce2144f4a714e71e650f35fbdc0b97023e0cb44 1980 python-pam_0.4.2-19.dsc 5327b027cd74d84bd6f0147245f02477d46d3c33 15115 python-pam_0.4.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "1940b25f6057e224d1ec84d1edfb817e4aa99a5fca315e734eb3dde94e82bf33 5744 python-pam_0.4.2-16.debian.tar.xz 1a3ee69f9e5982b239f7356437cbe309606f6e4ccc12c864834ea534024a117d 1734 python-pam_0.4.2-16.dsc 9ccce2e494c5869d99b20034fd40e368c35add4ef60ce3a33f5573c49a1e2edf 15115 python-pam_0.4.2.orig.tar.gz"
+    "0e76a2032beee8030dd01b82d125946c20a405939aac6a6911015f2d07b18dc6 7068 python-pam_0.4.2-19.debian.tar.xz 8bbf53d84cc1db5e8b8eadb4ebe0ef9bcbc8d48d2801cff680bd262ccc3132de 1980 python-pam_0.4.2-19.dsc 9ccce2e494c5869d99b20034fd40e368c35add4ef60ce3a33f5573c49a1e2edf 15115 python-pam_0.4.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8a2ee6aad0d50fca56a870b9751fcdb2e26f4243e5eda18f2925fe0e50d08a32ed64fc95c580deaf5db99011ca00c8646ce5711db51ffff1121a2654b62d3c5c 5744 python-pam_0.4.2-16.debian.tar.xz 9b00bf434ecb53e697cc80d3924c8f82e2cd25edb5ca0cb8f7323e73198716356041a3da9956f0bd65492d5cbcb7d4490c47c139016314267bd6e2e46123957a 1734 python-pam_0.4.2-16.dsc 0c20be8008ff77239a827df6eab1b33c438ad00995432bc2e0319558bfa5f36960e606f5a24dd867c94edb2a1cf8b349391d04a130a0eafdbc6aeee8ed08a86d 15115 python-pam_0.4.2.orig.tar.gz"
+    "1582dc0e994b389dbfa033e4e7a9f7395be62373b91fdd14b53bee6bd4664c7b35a8a273b79ed07265ff60c4929707c8d7a488de84ba0927db28e6dead7f87b8 7068 python-pam_0.4.2-19.debian.tar.xz 85dcfe0244b1583331cdbccabe46abd7428dd485ff092625a290afbdc964f7cf2cc255fcf83bac85dab43ee41e79951bef120c2eda00e171646f53dd06a8ef6e 1980 python-pam_0.4.2-19.dsc 0c20be8008ff77239a827df6eab1b33c438ad00995432bc2e0319558bfa5f36960e606f5a24dd867c94edb2a1cf8b349391d04a130a0eafdbc6aeee8ed08a86d 15115 python-pam_0.4.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-pam"
   ],
   "Files": [
-    "21737976f16d5d706cfd8cd4afe6230c 5744 python-pam_0.4.2-16.debian.tar.xz 707da826b344200f1de227f5939be3ca 1734 python-pam_0.4.2-16.dsc e6e78959da5482b9a1aea1171589dd16 15115 python-pam_0.4.2.orig.tar.gz"
+    "13655e7151d676825fdc8aa391307834 7068 python-pam_0.4.2-19.debian.tar.xz 54037c417e11776a8718bc2aecf560dc 1980 python-pam_0.4.2-19.dsc e6e78959da5482b9a1aea1171589dd16 15115 python-pam_0.4.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Maintainer": [
-    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+    "Ileana Dumitrescu \u003cileanadumitrescu95@gmail.com\u003e"
   ],
   "Package": [
     "python-pam"
@@ -36,9 +36,21 @@
     "python3-pam deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/python-pam"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/python-pam.git"
   ],
   "Version": [
-    "0.4.2-16"
+    "0.4.2-19"
   ]
 }

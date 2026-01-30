@@ -6,28 +6,28 @@
     "duplicity"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12.0.0), librsync-dev (\u003e= 0.9.6), python3-all-dev, dh-python, python3-setuptools, rdiff, gnupg | gnupg1, par2, python3-lockfile, python3-mock, python3-pexpect, python3-fasteners, python3-requests, python3-urllib3, python3-coverage, python3-pycodestyle, pylint, python3-pytest, python3-pytest-runner, python3-pytest-cov, tox, python3-future, rename, rsync, python3-psutil, python3-setuptools-scm"
+    "debhelper-compat (= 13), python3-all-dev, dh-python, python3-setuptools, gnupg | gnupg1, rdiff, par2, tox, rename, rsync, librsync-dev (\u003e= 0.9.6), python3-mock, python3-pexpect, python3-fasteners, pylint, python3-pytest, python3-pytest-runner, python3-pytest-cov, python3-setuptools-scm"
   ],
   "Checksums-Sha1": [
-    "efcc3fe4e6dd5c8234ef0e24018c92825fae1773 15956 duplicity_0.8.22-1.debian.tar.xz 5a9397423299e8183d979405335c64bea44724c5 2085 duplicity_0.8.22-1.dsc 1a7fae6cb1ff8e2420fe52d2dd2d3b98d1f53092 1408482 duplicity_0.8.22.orig.tar.gz"
+    "0647ce869c2b738a516dc49194c7ffc7e342b7c4 16804 duplicity_3.0.4-1.debian.tar.xz 41a9335d2bab7abb80c6f48c6429c5c66b069d5c 2064 duplicity_3.0.4-1.dsc 6ab5cb5994bd66e6f0219782e4e605d3fefd403a 952423 duplicity_3.0.4.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "06dada3788518a835303deb090455051663ec617ca13ccb15cb55420b9f3c686 15956 duplicity_0.8.22-1.debian.tar.xz 2abe353e5f5dc121eb345b1761576240d51b7b1f2edf9ea4df9238f5d43766bf 2085 duplicity_0.8.22-1.dsc 42d390a888a3254a1c60ebecf6f61113dc072ff4a8467e0ab7a81b2d541d55e9 1408482 duplicity_0.8.22.orig.tar.gz"
+    "ef9cd388a3e60aa0c377b62929212b240a1b59344c01a23416de41b3310422d2 16804 duplicity_3.0.4-1.debian.tar.xz 82eba568c32b4cd41da0a52838d50883f49fe7776644cfe3594d06a71aeb0489 2064 duplicity_3.0.4-1.dsc 33770478a3386d8bbf9a16e57112817957a722de3f83e992d9fb8cf69bbcd5b3 952423 duplicity_3.0.4.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "d77c892a1ee25b3c2196d0d99d2bee66e5d8428b2b6922f10fbf5b8c4e3b7d540bf3eaeb085328080add4e753e63149e2b360fc88483e1daccf33714dac6ba6c 15956 duplicity_0.8.22-1.debian.tar.xz b4e5e8b5ea199bb464e098e6997038e898ed47ff666f72d143fdb2da87381db2c21d599bffa3a6a7ae6309d38e667dd1ef6e127c703ed36e6d7ea17286f28c3b 2085 duplicity_0.8.22-1.dsc 474237e3ca9876fb124baf9871f781b8347c85e76b7b4191d6993a76fb4728500091c74ed0943c6c22d69651c08094b6d155eca742d1711bebe676734c84d12a 1408482 duplicity_0.8.22.orig.tar.gz"
+    "774228fb1f9a0b161d6f3ccfd13a7f128a9f5d62294d216514b1a474d5cbe1ddab664cbf11e8d68acf4a1d687ac49e1f5a640e74ae831730deda71d610364852 16804 duplicity_3.0.4-1.debian.tar.xz 277bfd4de09d89753b4c5a0400b16d6d73fff08248aa3dfe9099ade230183f2c0f2508cd5474789e955c028d6eac3f04c6ca7c4e7ba48edc1bafb03dea2fe27c 2064 duplicity_3.0.4-1.dsc d5cd4d705b194f023b079b8388727ed83051201fd962bbaab8cba039387e17997dbc4df3e9369916142240cf6e4130b8db18f6ef9d4db31a8c7a1916bc6a0051 952423 duplicity_3.0.4.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/d/duplicity"
   ],
   "Files": [
-    "2fff650cac7561ab02851a1c01c45159 15956 duplicity_0.8.22-1.debian.tar.xz 9560e2d81aac7a00ad52b63a3f9b63be 2085 duplicity_0.8.22-1.dsc e1eb0eea6694f6cb16bd11ada48af090 1408482 duplicity_0.8.22.orig.tar.gz"
+    "322eb0df72dac51126057d3cb4ea546c 16804 duplicity_3.0.4-1.debian.tar.xz 64125c1373f9fa12fd54a13e981d0fdd 2064 duplicity_3.0.4-1.dsc baaaf55d69cfe2c6890f3c17617a47aa 952423 duplicity_3.0.4.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://duplicity.nongnu.org/"
+    "https://duplicity.gitlab.io/"
   ],
   "Maintainer": [
     "Alexander Zangerl \u003caz@debian.org\u003e"
@@ -39,9 +39,15 @@
     "duplicity deb utils optional arch=any"
   ],
   "Standards-Version": [
-    "4.3.0.3"
+    "4.6.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/duplicity"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/duplicity.git"
   ],
   "Version": [
-    "0.8.22-1"
+    "3.0.4-1"
   ]
 }

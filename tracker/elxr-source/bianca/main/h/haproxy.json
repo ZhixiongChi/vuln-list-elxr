@@ -6,25 +6,25 @@
     "haproxy, haproxy-doc, vim-haproxy"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), libpcre2-dev, libssl-dev, liblua5.3-dev, libsystemd-dev [linux-any], python3-sphinx, libopentracing-c-wrapper-dev, pkg-config"
+    "debhelper-compat (= 12), libpcre2-dev, libssl-dev, libcrypt-dev, liblua5.4-dev, libsystemd-dev [linux-any], libjemalloc-dev, python3-sphinx:native, libopentracing-c-wrapper-dev, pkgconf, systemd-dev [linux-any]"
   ],
   "Build-Depends-Indep": [
     "python3, python3-mako"
   ],
   "Checksums-Sha1": [
-    "af3153f30a72ea127a5c42fb82d7fb8173f2775d 88112 haproxy_2.6.12-1+deb12u3.debian.tar.xz fbbf2a4d44690f1e3b008cb29df397e955c01ad2 2399 haproxy_2.6.12-1+deb12u3.dsc d12745cff8fbcdd82d4d6fe1fc679d3bdb871c4c 4060878 haproxy_2.6.12.orig.tar.gz"
+    "73dfd9dec6f753887a53215e4fd37b0af3006325 85848 haproxy_3.0.11-1+deb13u1.debian.tar.xz 01dbc97447be23b9fc6ae5ace760db21c559320e 2459 haproxy_3.0.11-1+deb13u1.dsc 3a632c7af55cc189807811a5cb9076ba3d734622 4738655 haproxy_3.0.11.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "90667334095484aea4225ebdebf027505c77366ab1c4dbf06bcecdcc9eae356a 88112 haproxy_2.6.12-1+deb12u3.debian.tar.xz b16dfb35c35aa064cce5e3b7cea1e2f7acf5902bc6c714d9fbbf7b98840e7a15 2399 haproxy_2.6.12-1+deb12u3.dsc 58f9edb26bf3288f4b502658399281cc5d6478468bd178eafe579c8f41895854 4060878 haproxy_2.6.12.orig.tar.gz"
+    "8a5774b79e08c34c4ecf12377374c9399dbe8c9bc0686f5263a22d4f7054b018 85848 haproxy_3.0.11-1+deb13u1.debian.tar.xz 794a193b175cdd006413fc1412b3e2c173e8cec0c34f6f54b578682fd985d1de 2459 haproxy_3.0.11-1+deb13u1.dsc a133e2d550c5fd9a849b5c7ab17bb945bcdad209ca140d41f45ebf31943ae783 4738655 haproxy_3.0.11.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e9b260c7a1b25e168019623332258c20935ca2021fdc14daf9b62d965bfe953af89f0f933918f53cf3a7048509506f6add1dfb20834bc24c5020424cfada4fbc 88112 haproxy_2.6.12-1+deb12u3.debian.tar.xz 07d67e02cb19a4cdcbdfdaf12820a2b0d555cbb808b3c7e441202da9f0bfbf54c9b576da182963e2033bb16268edb318408af7f9e183e860da828b2e7eb7aed0 2399 haproxy_2.6.12-1+deb12u3.dsc 95841a7379488bf9632151a07f64a1a10af578e41c2749bd5e832f61977e195e3efdbf381db59f56a966732bcbf89f1ccb559f0bf3c369e4462b8419a1e347a6 4060878 haproxy_2.6.12.orig.tar.gz"
+    "7ca1b77c66b6d227c09f49b488ea4fe6af505d27da0c73d10bfdf1fd30ab96699334e5db920b6161faa3b533a9c632fb2422e0d06f194a677b077a40c94728cb 85848 haproxy_3.0.11-1+deb13u1.debian.tar.xz 617e0188bddbab86126c59530b7b77549798a8667a4c6845ba539afe871684f3dbe6e9daac134306b7c7e62c90f7cb46900d468d18f2bc70a4f3516f6a87dcd7 2459 haproxy_3.0.11-1+deb13u1.dsc 3dc9f2367a3601480b302fad47e8cb8172d7a50443970284f4253f0b605dcd7b0e8d4ce825e9c6f4c66f24a65b6e28cf5891cfb659eeab21f8446dbb3c3bf25b 4738655 haproxy_3.0.11.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/h/haproxy"
   ],
   "Files": [
-    "d03b68879de2ceb9b93339de62653fb9 88112 haproxy_2.6.12-1+deb12u3.debian.tar.xz 55168c433843d0a3dd08864320f97476 2399 haproxy_2.6.12-1+deb12u3.dsc 215f5c315e5881f19b974c1d48581098 4060878 haproxy_2.6.12.orig.tar.gz"
+    "7eb10c0accba80909823c16068acd086 85848 haproxy_3.0.11-1+deb13u1.debian.tar.xz cc3ff9e6dab9136d07c04facc9d73b43 2459 haproxy_3.0.11-1+deb13u1.dsc daa269dc9a9b49318b22ad7676ebea5c 4738655 haproxy_3.0.11.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/haproxy-team/haproxy.git"
   ],
   "Version": [
-    "2.6.12-1+deb12u3"
+    "3.0.11-1+deb13u1"
   ]
 }

@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "librust-libz-sys-dev, librust-libz-sys+default-dev, librust-libz-sys+libc-dev"
+    "librust-libz-sys-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.43-~~) \u003c!nocheck\u003e, librust-pkg-config-0.3+default-dev (\u003e= 0.3.9-~~) \u003c!nocheck\u003e, librust-vcpkg-0.2+default-dev \u003c!nocheck\u003e, zlib1g-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.43-~~) \u003c!nocheck\u003e, librust-pkg-config-0.3+default-dev (\u003e= 0.3.9-~~) \u003c!nocheck\u003e, zlib1g-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "86de9da041394596cd17cd066dc03daec365ef0a 5636 rust-libz-sys_1.1.8-2.debian.tar.xz 4476e421df0106ed0efdeb089bc725a5d4e7ead1 2491 rust-libz-sys_1.1.8-2.dsc 524711bda9d50cc45f31c06b2c05448f27cc69cf 12530 rust-libz-sys_1.1.8.orig.tar.gz"
+    "833d3c4e791721916a8d60d6d11c36e1261cbddc 4252 rust-libz-sys_1.1.20-1.debian.tar.xz 34d1e736007c74c2cc49085f78ff7d4893306ca1 2318 rust-libz-sys_1.1.20-1.dsc 9ffeb05dadaffef81bb73fe6fcdbb38b3a21e973 17359 rust-libz-sys_1.1.20.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "334a7c8d8ffe63f393492138e764a47e863a174b15f28ebeaa6f12f8f127e056 5636 rust-libz-sys_1.1.8-2.debian.tar.xz 37b0c3581b8134cebe5661f3539e925df9ef757fd5861880a9c9b98cec0a9a95 2491 rust-libz-sys_1.1.8-2.dsc 237dbdb4673f93e0ae5d4b316647f2dd3804a4565bdc242b9852ced74efcf3e3 12530 rust-libz-sys_1.1.8.orig.tar.gz"
+    "9d3b777e7900f31e94fb8af1f50a39203523899fc3475e8ac1a1d7aaf175c921 4252 rust-libz-sys_1.1.20-1.debian.tar.xz 6339d16adfd60e9aabd1f97285b56ba9ba5c1dd551d09209557a2489e71a8f68 2318 rust-libz-sys_1.1.20-1.dsc 8921824b5238859a7f1a73409598809910fb703d03e6e997057646d9b63954e1 17359 rust-libz-sys_1.1.20.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "0bd8fc4275be58c5152c22ff442ff26acb50e5dd2c59569ab220f55a98bb0fe195fd407d8ead667371b8d2c8003e908a99080faafd8dbcd59640bb407010b6c1 5636 rust-libz-sys_1.1.8-2.debian.tar.xz ce723969dd481b98cfd4d33f8d95c15f365a018cea38e32a1eaa3b70e972d23026b2a65ef31d338cd1ed399b1510af80ade129bae5da583f55f8015e3d4c2a3b 2491 rust-libz-sys_1.1.8-2.dsc 58ec4d8c21fafe067ffe234bd3141e7079a62a9d10b282535d6e48bce24a8112b839e7afaf35f6a7346342a29161027367ae192516fee16ff4497cf466f8b2ee 12530 rust-libz-sys_1.1.8.orig.tar.gz"
+    "af5a590e7072ba0c44e4c66d2a892238b1edcd3b2927366703c51428c24112db66df6257bc0145bf8de5e1e907222f7abe5cc18b4d4c6ef51e004f96c3bbced2 4252 rust-libz-sys_1.1.20-1.debian.tar.xz f284cd3c186e3bd6045410a015211b0288dc00d3105232c0c35b195528a799032239c50676f06a60a0cb6986977c01a6114f91b954f85283f650faef5850697d 2318 rust-libz-sys_1.1.20-1.dsc 3851612f13fa77717a42a72439172a448a098d7d5273fdc045300831df9d27e780f9b8783a8c093c181d86f089fb86b9e0b56d86f6fe97f95ba74fdf2849f6fb 17359 rust-libz-sys_1.1.20.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-libz-sys"
   ],
   "Files": [
-    "5278c1612fd69ff719e599bf055af5ba 5636 rust-libz-sys_1.1.8-2.debian.tar.xz 85f6c8b21c46c56d59217bffba20bb7c 2491 rust-libz-sys_1.1.8-2.dsc 382a5c33db80469bf21c1981aa26dfb4 12530 rust-libz-sys_1.1.8.orig.tar.gz"
+    "014b33ca59954076889016aee1de4949 4252 rust-libz-sys_1.1.20-1.debian.tar.xz f08285ad389d7a8a6f6f37774f99bd75 2318 rust-libz-sys_1.1.20-1.dsc 9123f6078ab01b54cab4f457fffef9bf 17359 rust-libz-sys_1.1.20.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -33,16 +33,16 @@
     "rust-libz-sys"
   ],
   "Package-List": [
-    "librust-libz-sys+default-dev deb rust optional arch=any librust-libz-sys+libc-dev deb rust optional arch=any librust-libz-sys-dev deb rust optional arch=any"
+    "librust-libz-sys-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo"
+    "dh-cargo, rustc"
   ],
   "Uploaders": [
     "Ximin Luo \u003cinfinity0@debian.org\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/libz-sys]"
   ],
   "Version": [
-    "1.1.8-2"
+    "1.1.20-1"
   ]
 }

@@ -9,19 +9,19 @@
     "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "bc3fdd7885e41fbcc3557b2ddec079d2ae7469f6 3164 rust-subtle_2.4.1-1.debian.tar.xz 1c6c92f7dd2cf29236e7d80002081cb565dd94e4 2218 rust-subtle_2.4.1-1.dsc 16dfddabca99e958a9c54d2b8d254891663f21f4 12630 rust-subtle_2.4.1.orig.tar.gz"
+    "3542d26fb65dbf53c040ee87918b0534ebe25fc6 3348 rust-subtle_2.6.1-1.debian.tar.xz c3a096fc64e1cf25202b655f9a837441476ff894 2348 rust-subtle_2.6.1-1.dsc e0f8fa1050bdf893e86b6560c551e41eb94eb902 14562 rust-subtle_2.6.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "79bec20c9dae6104fa897720799797376df0d919ecaed04b0379b44382ad2036 3164 rust-subtle_2.4.1-1.debian.tar.xz ba7ed794047cfcd68c92d733d9c1a33b7c734172cb73c9ddb25097fb450f5db2 2218 rust-subtle_2.4.1-1.dsc 6bdef32e8150c2a081110b42772ffe7d7c9032b606bc226c8260fd97e0976601 12630 rust-subtle_2.4.1.orig.tar.gz"
+    "6dd54ce7fd46849ab90a238d078a61d5a4815ed1f7c702d771b42a05a4aa85e9 3348 rust-subtle_2.6.1-1.debian.tar.xz efd8cbe5c09f1cc4122c8c7a2ff39ba5d8857ef63b2d9158b55e1154ee87714d 2348 rust-subtle_2.6.1-1.dsc 13c2bddecc57b384dee18652358fb23172facb8a2c51ccc10d74c157bdea3292 14562 rust-subtle_2.6.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "0a0e5a530ece9550cfc0fbbaf45af3960d299b0b11ff327c0c7058189babe403ae617053c06301f97b33f9d09c3e0fbc7f32ef63075ae5cabc3d5cd4c812511e 3164 rust-subtle_2.4.1-1.debian.tar.xz f1a28c6716e818b0bc4f7b9babd17c2d84ae9830cb052214686bfcd23df51a0199a20d01004edf4145c1a550fbeae6261ad10f54207be446102184de5618f1f4 2218 rust-subtle_2.4.1-1.dsc 7fd8234b7ffa3ca7e473539cad958df0842186e1dd735905e0d4977564f40a5f2e18b58180fcbe52614a00964dc150bd9f6964500847ea658f22bffe030f5c6a 12630 rust-subtle_2.4.1.orig.tar.gz"
+    "10c011defc5e7ba02a59773f754c54dddb1d1921a4cc894127d1d2631d5ad65faedc647ada8e47d5d768c785c7ea79ec32fa40238d133e3c6390f6411699de16 3348 rust-subtle_2.6.1-1.debian.tar.xz cf3ab4dda24824716aed0ceceffbf1672209cc9fe2edd16976de8344009cd86090d577981861406ee1b15b71c933c9fa861b3d65be8ce9739eaeba96c3ebe3f5 2348 rust-subtle_2.6.1-1.dsc f5946ebd9bcb8776ee3446abcbf4afb3cca5d8bd847cadda87e864333ac7ded537a3efa773e9648adf20ce4add2c1da85172cff88c1e1a3a6cb051401b00c6bd 14562 rust-subtle_2.6.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-subtle"
   ],
   "Files": [
-    "8fd9987713939a458cdec188b59461ee 3164 rust-subtle_2.4.1-1.debian.tar.xz 935d875ffb88182061e223651faba06d 2218 rust-subtle_2.4.1-1.dsc 8e053c23f1d36fbf3f276fbf501e3e35 12630 rust-subtle_2.4.1.orig.tar.gz"
+    "3b3461822c0aa5f7520664338988c369 3348 rust-subtle_2.6.1-1.debian.tar.xz 5d303bef733ad50a85fc6af9ae12158c 2348 rust-subtle_2.6.1-1.dsc 611730d5a0344bd87742297274631890 14562 rust-subtle_2.6.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "librust-subtle+default-dev deb rust optional arch=any librust-subtle-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-rand-0.7+default-dev"
+    "dh-cargo, librust-rand-0.8+default-dev"
   ],
   "Uploaders": [
     "kpcyrd \u003cgit@rxv.cc\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/subtle]"
   ],
   "Version": [
-    "2.4.1-1"
+    "2.6.1-1"
   ]
 }

@@ -6,22 +6,22 @@
     "golang-golang-x-crypto-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.17~), golang-golang-x-net-dev (\u003e= 1:0.0+git20211112.69e39ba), golang-golang-x-sys-dev (\u003e= 0.0~git20210615.665e8c7), golang-golang-x-term-dev (\u003e= 0.0~git20201126.7de9c90), openssh-server"
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.20~), golang-golang-x-sys-dev (\u003e= 0.22.0), golang-golang-x-term-dev (\u003e= 0.22.0), golang-golang-x-text-dev (\u003e= 0.16.0), openssh-server"
   ],
   "Checksums-Sha1": [
-    "71fe1e5cd0217273fa3fe7fd74a26f185f182d81 8380 golang-go.crypto_0.4.0-1elxr2.debian.tar.xz e3be06f9b7ca1c8703fcc702c6e8a46ec9fd33b2 1531 golang-go.crypto_0.4.0-1elxr2.dsc 6f9ea1b5d5d30f4115b2bc73dedfe74229ac9e8e 1442064 golang-go.crypto_0.4.0.orig.tar.xz"
+    "50879b4dd810057e1ca25273904b38cb86e20136 94224 golang-go.crypto_0.25.0-1elxr1.debian.tar.xz 563a384891ab877ce4b0e2148e94c8af85aac33b 1489 golang-go.crypto_0.25.0-1elxr1.dsc 07b2e8e574f40f01862ee4f49580540d48e5faef 1587144 golang-go.crypto_0.25.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "ea6557f8f4e3ae63aa170d9da6c3a8cd0dd0ed7e5d817f03bae688da3ef0d225 8380 golang-go.crypto_0.4.0-1elxr2.debian.tar.xz 4941e7c198fc0d3355af6f51ee584e7cac6f68bdd261612ab5c458efb370632e 1531 golang-go.crypto_0.4.0-1elxr2.dsc 88713ddf7b0d2b842f6cfb5da0d8327834e2f302093096498d561a536103b362 1442064 golang-go.crypto_0.4.0.orig.tar.xz"
+    "ba7df846a378a28158eb4afca72ee58916573c6b2f21541fc1471e7f6bfed51b 94224 golang-go.crypto_0.25.0-1elxr1.debian.tar.xz 8781457587ff0e02e3bc6aecc346369b5fedb8dd4c72306e2777c20bcd5ab98d 1489 golang-go.crypto_0.25.0-1elxr1.dsc b5dbc39a0b28b52e196da9a4531e81442687a9089573b99cfa9ac4a940cf3486 1587144 golang-go.crypto_0.25.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "284f3738bea829a768a5ae1e02aacba38dfd912978535a53e3d0f57012a94c1f74782ca541baf9ab3337d64c62b85ab9294afc66be1b4ab47c7b5a69e59e8199 8380 golang-go.crypto_0.4.0-1elxr2.debian.tar.xz 26c8565f9ddb79056af7ddd8a62da9490872417d88c32a4329eb7d8dd6fd19707dfed998d58f891d25fdb7e05947829aef951b396c40b052734205d2491162fd 1531 golang-go.crypto_0.4.0-1elxr2.dsc a5e7ee411d8b2bdd5e83d7890b870f7b0644a7dcab306c065fc0fe8048505a3d6782d2bd6113a7084662a2d7275733c67280e765675155bc02429d3b023ac25c 1442064 golang-go.crypto_0.4.0.orig.tar.xz"
+    "9131ba44e44c3d29f74d9699b02e9e9cb8a7afd512304d601d7aae188aa3395497cb409915dbd9184a1b98926ea67041b92175031e61a86e1b13196cd24e091a 94224 golang-go.crypto_0.25.0-1elxr1.debian.tar.xz ad3b2ed7a2c862902d9ded4a57316e68a27577d6569abbeb83704df0f14ec641e949248ab5bf8c989b8ec57aaab41e4d3c097b30c70e07180c345a4080a47a52 1489 golang-go.crypto_0.25.0-1elxr1.dsc cf573b8dfd163e55f2eb08345664e90eb858d509c5f2ecd09072fae2cbc09a2a8452ee731c964bfe3f2125c49329f9c1855a273a1422d94bbb2a0549b279df1e 1587144 golang-go.crypto_0.25.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/golang-go.crypto"
   ],
   "Files": [
-    "5297012b7fff1cf4b9287516cabf3db0 8380 golang-go.crypto_0.4.0-1elxr2.debian.tar.xz 722e57e17bd1198d735daab3fc003b83 1531 golang-go.crypto_0.4.0-1elxr2.dsc fd36073ad720af0c5bdbbd0f5f7d968c 1442064 golang-go.crypto_0.4.0.orig.tar.xz"
+    "19f72cef58e735bee00cb139d1f2d0ed 94224 golang-go.crypto_0.25.0-1elxr1.debian.tar.xz 74c3374e78e2a2a6f6ca03f1243734bb 1489 golang-go.crypto_0.25.0-1elxr1.dsc b28f45de08e8c0c889f34289d09b8db4 1587144 golang-go.crypto_0.25.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "golang-golang-x-crypto-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-go.crypto.git"
   ],
   "Version": [
-    "1:0.4.0-1elxr2"
+    "1:0.25.0-1elxr1"
   ]
 }

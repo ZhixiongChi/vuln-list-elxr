@@ -6,22 +6,22 @@
     "golang-github-cilium-ebpf-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-golang, golang-any (\u003e= 2:1.13~), golang-golang-x-sys-dev (\u003e= 0.0~git20211117~)"
+    "debhelper-compat (= 13), dh-golang, golang-any (\u003e= 2:1.13~), golang-golang-x-exp-dev, golang-golang-x-sys-dev (\u003e= 0.0~git20211117~)"
   ],
   "Checksums-Sha1": [
-    "d0527e93dd70994d95ab3581bd5ff662bc2044d9 3580 golang-github-cilium-ebpf_0.9.1-1.debian.tar.xz 38991de46bb9cf2a2bd18fa4fa5a62b9cf0d5260 1676 golang-github-cilium-ebpf_0.9.1-1.dsc edf9dabe0abe3e3e93a45af5a6732e942ff5a2ff 1790084 golang-github-cilium-ebpf_0.9.1.orig.tar.gz"
+    "17827c452e2dca9c81b0d2ba6b542e6393f57e56 4484 golang-github-cilium-ebpf_0.11.0-2.debian.tar.xz 295442bf37c9470823fba70525363c5f5063c86f 1944 golang-github-cilium-ebpf_0.11.0-2.dsc 13a00047b55b0126df57b21c4e0a6858a58c9d2f 1931194 golang-github-cilium-ebpf_0.11.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "891cb4193ebad0f1055384362b0bed8c9cd7dd5f04c9c071763b49d22d2bc65a 3580 golang-github-cilium-ebpf_0.9.1-1.debian.tar.xz cec1b7c9dc4dc9013f0983f41979eb603c4374ca2e916aff113b2a9e0a4bf304 1676 golang-github-cilium-ebpf_0.9.1-1.dsc 32687caa572401614951c2f5b11df46253dc3247521cbc08ea07853c721ee63a 1790084 golang-github-cilium-ebpf_0.9.1.orig.tar.gz"
+    "af6b3a4b6a9b2d26de5f9b78549a209d0a0aae2bc03876032d54a93f32ae159c 4484 golang-github-cilium-ebpf_0.11.0-2.debian.tar.xz 3da5d30677dc3750b391edd322207aeb20f3a13b4d6c20b9771e1d89543c8266 1944 golang-github-cilium-ebpf_0.11.0-2.dsc 7d5048620e13a837c3549de8c2db9818249c1a85f63d3e46e6e21899dcebb402 1931194 golang-github-cilium-ebpf_0.11.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "cb70986d7c4ec4a1641ec5866042de337a5bd0dba2a0f2f9092f77ef591c0ad8e4efc60c05025916019809f79a3ef00c24a0ae38b22ecec943fbfd517d644f7e 3580 golang-github-cilium-ebpf_0.9.1-1.debian.tar.xz 56aa5cd4f8083e36f3d97fb47025f63e6e05c822247c2bd56f82bfef17d7a43005d5c1212dbf8096b2d63c4cb1713df85d049057c48029949e5b3a2801763dec 1676 golang-github-cilium-ebpf_0.9.1-1.dsc 48843c6498e05a67d65fb12b797b78f2214a19ae26865e7d41c2f568a02910fc8e3f098636e278242427eea0b2a1243ef562e5168038b6e2387d3760a8ac5369 1790084 golang-github-cilium-ebpf_0.9.1.orig.tar.gz"
+    "e8cdb2adb93b645527c87cfb9c57e823e5a03293e77103f79dcc39e9d6e244f7513028fb0f80df55e231c60a64eebc8b09366f3754bd58ab8b0b1ee750e8fd74 4484 golang-github-cilium-ebpf_0.11.0-2.debian.tar.xz 9cb960fd1cfce4604cb4caf9342285cb2874b93fdec5dd22262ee32f31e6996f8a20f95f17718d99707f86e1b834e26af36b8a244c902dd044731cb07b6d91bc 1944 golang-github-cilium-ebpf_0.11.0-2.dsc a6c11220e30115017018f54cd640e8048d4a370bc48f21e05f9243a4db80e28b3fc72d948344067855644fbdf82c6f380040aa14fae587709dd05836279b1333 1931194 golang-github-cilium-ebpf_0.11.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-cilium-ebpf"
   ],
   "Files": [
-    "4119dc19ad36287cf03f0533a4eb6a2b 3580 golang-github-cilium-ebpf_0.9.1-1.debian.tar.xz f720faa7e89ca2aeafe9b1b0bebd890a 1676 golang-github-cilium-ebpf_0.9.1-1.dsc 87fc32e56ed150c598817be2f8cbb016 1790084 golang-github-cilium-ebpf_0.9.1.orig.tar.gz"
+    "2f6ab1407486f18756ce6beb204d6fb1 4484 golang-github-cilium-ebpf_0.11.0-2.debian.tar.xz 3ed3d3f2ed342631cdba44f8d4ebff4c 1944 golang-github-cilium-ebpf_0.11.0-2.dsc 19eab1d272c5ac1ee970961c2664951f 1931194 golang-github-cilium-ebpf_0.11.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "golang-github-cilium-ebpf-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-cilium-ebpf.git"
   ],
   "Version": [
-    "0.9.1-1"
+    "0.11.0-2"
   ]
 }

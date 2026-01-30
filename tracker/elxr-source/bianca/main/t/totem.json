@@ -6,25 +6,28 @@
     "libtotem0, totem, totem-common, totem-plugins, gir1.2-totem-1.0, libtotem-dev"
   ],
   "Build-Depends": [
-    "appstream-util, debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, dh-sequence-python3, dpkg-dev (\u003e= 1.16.1), gsettings-desktop-schemas-dev, gstreamer1.0-gl, gstreamer1.0-gtk3, gstreamer1.0-plugins-base (\u003e= 1.6.0), gstreamer1.0-plugins-good, gstreamer1.0-tools, gtk-doc-tools (\u003e= 1.14), itstool, libatk1.0-dev (\u003e= 1.29.4), libbluetooth-dev [linux-any], libcairo2-dev (\u003e= 1.14.0), libgdata-dev (\u003e= 0.8.0), libgdk-pixbuf-2.0-dev (\u003e= 2.23.0), libgirepository1.0-dev (\u003e= 0.9.12), libglib2.0-dev (\u003e= 2.72.0), libgnome-desktop-3-dev, libgrilo-0.3-dev (\u003e= 0.3.0), libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev (\u003e= 1.6.0), libgtk-3-dev (\u003e= 3.22.0), libhandy-1-dev (\u003e= 1.5.90), libpeas-dev (\u003e= 1.1.0), libportal-gtk3-dev, librsvg2-dev (\u003e= 2.16.0-2), libsoup2.4-dev, libtotem-plparser-dev (\u003e= 3.26.5), libx11-dev (\u003e= 2:1.8), libxml2-dev (\u003e= 2.6.0), meson (\u003e= 0.57.0), python3 (\u003e= 3.2), python-gi-dev (\u003e= 2.90.3), shared-mime-info (\u003e= 0.22), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+    "appstream, debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, dh-sequence-python3, gsettings-desktop-schemas-dev, gstreamer1.0-gl, gstreamer1.0-gtk3, gstreamer1.0-plugins-base, gstreamer1.0-plugins-good, gstreamer1.0-tools, gtk-doc-tools, itstool, libatk1.0-dev, libbluetooth-dev [linux-any], libcairo2-dev, libepoxy-dev, libgdk-pixbuf-2.0-dev, libgirepository1.0-dev, libglib2.0-dev (\u003e= 2.72.0), libgnome-desktop-3-dev, libgrilo-0.3-dev, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libgtk-3-dev, libhandy-1-dev (\u003e= 1.5.90), libpeas-dev, libportal-gtk3-dev (\u003e= 0.7), librsvg2-dev, libtotem-plparser-dev, libx11-dev (\u003e= 2:1.8), libxml2-dev, meson (\u003e= 0.57.0), python3, python-gi-dev, shared-mime-info, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Build-Depends-Indep": [
     "libgdk-pixbuf2.0-doc, libglib2.0-doc, libgtk-3-doc"
   ],
   "Checksums-Sha1": [
-    "f6d07c10b09ed1ff66eb49d41d032d23b3ba4f8f 26792 totem_43.0-2.debian.tar.xz 5a19677b0354656f0f466c005bc9d0774a6ff1da 3281 totem_43.0-2.dsc 27a4f0e906987119d81f050fbd704576d8604d47 2486304 totem_43.0.orig.tar.xz"
+    "dba6f596f744f370605b4039eadcb24c9561583c 28504 totem_43.2-3.debian.tar.xz c3bf5fe0d0ceadcb4a0c63d75daa068e7ca35e20 3177 totem_43.2-3.dsc 1a28c9012d6c5535df0403435434f8b147518b45 2552500 totem_43.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "6cd4af53ee421e8f4ad75ac25e4eecc4a736166c9baf64e3ceaab42175fbc710 26792 totem_43.0-2.debian.tar.xz 50a5ebcc2f8d8ca7d09860ed7428ed1feb568b6401a93633c1d49ad8d709caf2 3281 totem_43.0-2.dsc b36d3655928b5896462a4d39f83b6ad66d37dbc9c99dceb02ea8a2e37394a41e 2486304 totem_43.0.orig.tar.xz"
+    "a2948e790d7d90b2172268ceda7b48e0962c95d5ba914eb77f0c2bf44c5230e1 28504 totem_43.2-3.debian.tar.xz 070bfe277886251c378fe4fe5f9b4dc6812aa5b66747b16b9c3f7d43cb90c233 3177 totem_43.2-3.dsc 0b007d30fbb93b95a604f14848a497f57fc333a75c2e638a249972e99c01e6a4 2552500 totem_43.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "5b2ea49554c3de9f879b8ce8a118b0242ca0bcb7e5a389b56e19e04cfde71ec53d7eb0b5894c3ed0fcf8671ebeef782313f6e23851b06dbea5c464ccde0ce2ca 26792 totem_43.0-2.debian.tar.xz 889af17945be60a6a8f319b1b164d7391b1c6a69d17aa86d5894ca051bbc77aff8b3b93c45119f9edcfdd9d10c95ef182fad93fc9c05f7a0019e13f328162b4d 3281 totem_43.0-2.dsc b35d32ebadf4b9900ab234f07f8a7128edbc15593e1447c22f3c7a653fcbd4a2df9d45484e2decce5dd5ab67849fca1003a1ded338a0af0930b6560ee4f764ae 2486304 totem_43.0.orig.tar.xz"
+    "bd61ae5bc4bac317b858fd1379ba19d28bafd1831a48c45c661f98997a6c19ba93205bf9afda642278dfaf2339d5cf8a2bc78c26304de7dc0bd059d9e34d5ec2 28504 totem_43.2-3.debian.tar.xz 67157bf8eadad5d04ff1a58c1f118c9fc219529e3da4cb76595103e7b071726d02597ea7039183911e8760b5e4b197f7dcdd3020787c83faaf9feeb1437986f8 3177 totem_43.2-3.dsc 4ed3c1a1c5c70279f5f704c98f5cf6903eaacd1fe65c209b5086106a8401d3759ccfd4fa3c43eb542df854076fd08d487e691b7bf5864d5bf6f98c50f21b8dda 2552500 totem_43.2.orig.tar.xz"
+  ],
+  "Dgit": [
+    "f8b68f5825c301f3ec0e7955b69a686aa43b6d9d debian archive/debian/43.2-3 https://git.dgit.debian.org/totem"
   ],
   "Directory": [
     "pool/main/t/totem"
   ],
   "Files": [
-    "25b4acd75e8ef452a53f8d836377c369 26792 totem_43.0-2.debian.tar.xz ed72672203763a11e788f302720ed1e2 3281 totem_43.0-2.dsc fb79639052d09385c5d6f94f4edb030c 2486304 totem_43.0.orig.tar.xz"
+    "6783928311e3b4c5b3d7598373c96c7b 28504 totem_43.2-3.debian.tar.xz 9f60522aa404e5ff3627da9e1d2ccfb5 3177 totem_43.2-3.dsc 7db8db30453bfc753c851075a062b8a8 2552500 totem_43.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,10 +45,10 @@
     "gir1.2-totem-1.0 deb introspection optional arch=any libtotem-dev deb libdevel optional arch=any libtotem0 deb libs optional arch=any totem deb video optional arch=any totem-common deb video optional arch=all totem-plugins deb video optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Uploaders": [
-    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/totem"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/gnome-team/totem.git"
   ],
   "Version": [
-    "43.0-2"
+    "43.2-3"
   ]
 }

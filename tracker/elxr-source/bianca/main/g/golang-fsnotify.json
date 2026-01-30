@@ -6,22 +6,22 @@
     "golang-github-fsnotify-fsnotify-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.16~), golang-golang-x-sys-dev (\u003e= 0.0~git20220908.2771309)"
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.17~), golang-golang-x-sys-dev (\u003e= 0.4.0)"
   ],
   "Checksums-Sha1": [
-    "3e2b9deb75491b2a12da48e908b5e01899d2a947 4452 golang-fsnotify_1.6.0-2.debian.tar.xz 43a94fbb3c4fdaefd29f1b83dcdfe5df1936ee7d 1653 golang-fsnotify_1.6.0-2.dsc f1546d94164c41fe32cbebde4016e0e4facac1a0 46044 golang-fsnotify_1.6.0.orig.tar.gz"
+    "dcad8aeb447ea4ca15b6eda83e6d2e2a98af4ce1 4688 golang-fsnotify_1.8.0-3.debian.tar.xz 9461805c1e22bc9d969c5d5af351f80aa5554f03 2217 golang-fsnotify_1.8.0-3.dsc 9a157300c286df50f5b8d2a27353e9fced962c1f 72325 golang-fsnotify_1.8.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "f9966806dcbbf612342ac2f940676d31f5f510ed69978e19d73b6897b648a956 4452 golang-fsnotify_1.6.0-2.debian.tar.xz 8cef8d2ce1fda6f51ccd6a3e44bbe637ed94fd695c6838743fc9b10a272cc925 1653 golang-fsnotify_1.6.0-2.dsc 583b2b399709d04807c5c3185e7d4dc0543d532af91fdeb85eeaf803a0b7703b 46044 golang-fsnotify_1.6.0.orig.tar.gz"
+    "0cba17c51a1e3b8ec76c4120201a7438a47e0229a68f4a483e89ec02cf7a21d4 4688 golang-fsnotify_1.8.0-3.debian.tar.xz 6778a0feeadfa626c27e653badab21479b8ae5a8f6919fc6b4893ab3d7d60fd4 2217 golang-fsnotify_1.8.0-3.dsc 3c4cbec6225307397717f18bb87ffc496e59d0f802a41fff572bf09e5dbf6e2b 72325 golang-fsnotify_1.8.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "92aeb90dc02808e900bd0db7120ef12e872551c887b140deefa22cd421ab5229a59d69354413ff74b49227003ebe5f9c675bf32c58350f28f4544c1ae0a0f425 4452 golang-fsnotify_1.6.0-2.debian.tar.xz 903b7bba2090e8f2d6a935aaa0a85e3b8eedd2518754de3479de809aa486c8247c8dfe4fd324a9ab9e09703eab228925d8f0db03feedd730e485b6c75a9d698f 1653 golang-fsnotify_1.6.0-2.dsc 8c92e093b79d696d5c83e904ed72fbd5e2cae3ecf61b247a60e0298daa71479428f2bb152629bb68c43bc8813d61ddce17004f3031acce4dfa0806d415badb8b 46044 golang-fsnotify_1.6.0.orig.tar.gz"
+    "da2baee4afb21ce0670c13fb5ee26716a4f0f72111d62b5e5d471e4e0f00feaac8afc460cfa1080359b429e9f1df9e181a7e4a33829a6a10e98c59d022db92ea 4688 golang-fsnotify_1.8.0-3.debian.tar.xz 3d3619acc1568088c4551be2e4f4f745ea0e33b6c21f2ebae892f2b733be0bbb2a67a942305997d94c161d8cca3bb3d982584e6e6b5eed34fefda00a2488f700 2217 golang-fsnotify_1.8.0-3.dsc edee86a2735940c77483ed318b0d9dbb8dd932400c344ed679ce616e31d3bc02fe587195009c2cd8ec1f93b10e2f1b0eede701137935016daa19cc092f274904 72325 golang-fsnotify_1.8.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-fsnotify"
   ],
   "Files": [
-    "d1182778daf90d87e1f359ee9b76478d 4452 golang-fsnotify_1.6.0-2.debian.tar.xz 8f2f7c2695b007efae2c7a85b907f2e9 1653 golang-fsnotify_1.6.0-2.dsc b5d2ae35404babc51599513d06463b42 46044 golang-fsnotify_1.6.0.orig.tar.gz"
+    "ae1e7adf4ea7d4b4197527a62428b868 4688 golang-fsnotify_1.8.0-3.debian.tar.xz 04afbed0908bf7533c11ff0ab637ebcc 2217 golang-fsnotify_1.8.0-3.dsc 395c7c1c6e50ad3f60a179978d8cbfa8 72325 golang-fsnotify_1.8.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "golang-github-fsnotify-fsnotify-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-fsnotify.git"
   ],
   "Version": [
-    "1.6.0-2"
+    "1.8.0-3"
   ]
 }

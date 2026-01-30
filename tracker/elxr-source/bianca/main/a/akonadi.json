@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "akonadi-backend-mysql, akonadi-backend-postgresql, akonadi-backend-sqlite, akonadi-server, libkf5akonadi-data, libkf5akonadi-dev, libkf5akonadi-dev-bin, libkf5akonadiagentbase5, libkf5akonadicore5abi2, libkf5akonadiprivate5abi2, libkf5akonadiserver-dev, libkf5akonadiwidgets5abi1, libkf5akonadixml5"
+    "akonadi-backend-mysql, akonadi-backend-postgresql, akonadi-backend-sqlite, akonadi-server, libakonadi-data, libakonadi-dev, libakonadi-dev-bin, libkpim6akonadiagentbase6, libkpim6akonadicore6, libkpim6akonadiprivate6, libakonadiserver-dev, libkpim6akonadiwidgets6, libkpim6akonadixml6"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.16~), debhelper-compat (= 13), default-libmysqlclient-dev, dh-apparmor, extra-cmake-modules (\u003e= 5.99.0~), gettext, libaccounts-qt5-dev (\u003e= 1.16~), libboost-dev (\u003e= 1.34.0~), libkaccounts-dev (\u003e= 4:19.08.0~), libkf5config-dev (\u003e= 5.99.0~), libkf5configwidgets-dev (\u003e= 5.99.0~), libkf5coreaddons-dev (\u003e= 5.99.0~), libkf5crash-dev (\u003e= 5.99.0~), libkf5i18n-dev (\u003e= 5.99.0~), libkf5iconthemes-dev (\u003e= 5.99.0~), libkf5itemmodels-dev (\u003e= 5.99.0~), libkf5itemviews-dev (\u003e= 5.99.0~), libkf5kio-dev (\u003e= 5.99.0~), libkf5widgetsaddons-dev (\u003e= 5.99.0~), libkf5windowsystem-dev (\u003e= 5.99.0~), libkf5xmlgui-dev (\u003e= 5.99.0~), liblzma-dev (\u003e= 5.0.0~), libsqlite3-dev (\u003e= 3.6.23), libxml2-dev, libxml2-utils, libxslt1-dev, pkg-config, pkg-kde-tools (\u003e= 0.12), qtbase5-dev (\u003e= 5.15.2~), qtbase5-private-dev (\u003e= 5.15.2~), qttools5-dev, shared-mime-info (\u003e= 1.3~), xsltproc"
+    "debhelper-compat (= 13), dh-apparmor, dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.16~), default-libmysqlclient-dev, extra-cmake-modules (\u003e= 6.6.0~), gettext, libaccounts-qt6-dev (\u003e= 1.16~), libboost-dev (\u003e= 1.34.0~), libkaccounts6-dev (\u003e= 4:19.08.0~), libkf6config-dev (\u003e= 6.6.0~), libkf6configwidgets-dev (\u003e= 6.6.0~), libkf6coreaddons-dev (\u003e= 6.6.0~), libkf6crash-dev (\u003e= 6.6.0~), libkf6i18n-dev (\u003e= 6.6.0~), libkf6iconthemes-dev (\u003e= 6.6.0~), libkf6itemmodels-dev (\u003e= 6.6.0~), libkf6widgetsaddons-dev (\u003e= 6.6.0~), libkf6xmlgui-dev (\u003e= 6.6.0~), liblzma-dev (\u003e= 5.0.0~), libpq-dev, libsignon-qt6-dev, libxml2-dev, libxml2-utils, libxslt1-dev, pkgconf, qt6-base-dev (\u003e= 6.7.0~), qt6-base-private-dev (\u003e= 6.7.0~), qt6-tools-dev (\u003e= 6.6.0~), shared-mime-info (\u003e= 1.8~), xsltproc"
   ],
   "Checksums-Sha1": [
-    "f3e22fe323170aa947602f968a84c6cd888ac4c4 35560 akonadi_22.12.3-1.debian.tar.xz bdcd1d0bda6ece0625d5ca446301e9612dc82cf5 4003 akonadi_22.12.3-1.dsc b2eb6b043503566f510dde39b39fec241d6118d1 1661668 akonadi_22.12.3.orig.tar.xz b1156cc6c2fad6664f367c3b0e7d3689ea8af320 833 akonadi_22.12.3.orig.tar.xz.asc"
+    "2dc6f095dcd576ba2179414da57ce54e659cd50e 35720 akonadi_24.12.3-1.debian.tar.xz aedb2acaa6e7223fadeb0bcc45dddf2a9006cc9c 4003 akonadi_24.12.3-1.dsc 4b0b62d26fd241c3b742581bf7730b18cdf56199 1712368 akonadi_24.12.3.orig.tar.xz 6761dd1d08ff3abb0ecc8c13c221d3bc157cc86d 833 akonadi_24.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "3996e608a25e372f1f4da9fc7d7fcae01ac8fcab14aea8eff149b011999899e7 35560 akonadi_22.12.3-1.debian.tar.xz 7462e7ecd7650106e9ab6a869e931842fffc2739adf267d2d09bb8b2410ae5e3 4003 akonadi_22.12.3-1.dsc b79e332628e1e8041a39aaa3821f1b9235c0a2332ea9b1ff7fba73855bce80a3 1661668 akonadi_22.12.3.orig.tar.xz 68784d17a736a1cdadaf8be65cba3c4509235186ef1e71a391f18a0400c4436d 833 akonadi_22.12.3.orig.tar.xz.asc"
+    "20e8c15271802cbac7549ff7c65a421f1bf3b96dd9f69f26a012002803cc85a8 35720 akonadi_24.12.3-1.debian.tar.xz 02c323d353a33ea41b13e84d05517c4bc3d75138d84e80a970c810149999b1ba 4003 akonadi_24.12.3-1.dsc e1e4de8050e578e65d71b0279d10ae4d0906ba5a5b0239f88d0145602b0c17c8 1712368 akonadi_24.12.3.orig.tar.xz 85e2d7d55337b26012bff466009525e51cc11acde1b364b931b23eb070914b92 833 akonadi_24.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "c5be2d619678d04fd9fcadd763f82f152f5a47cd0e55a4744de47a285995dd6b99cb74e0b8990499217b47fd5ab966789bdd7e07ed15f76c3480f81f2ffd4308 35560 akonadi_22.12.3-1.debian.tar.xz 730b61242780626a0725db3ee8c05fea2ecf13bde199e6695c86f6062102e8785d2b74fc84cd601007cc1c817bd7f276dc782f991ffe1ccbe00e79c7a3e99644 4003 akonadi_22.12.3-1.dsc 84a519d2d4d600c1ebcf9b90b33b2733a327b48914b0115613d2ba9fb44c85e76ea3c56f220b1c76e66a60a4ebbc26c10ee94c34f23e0417e47e0f48cb91b6e6 1661668 akonadi_22.12.3.orig.tar.xz a773fddec2533fbdaa75f2ab7984e08e3f5b8f60873ac342b9d940061b68ad0a33bee7f53b8d4d2ac4da386f9642a515f84422f08ab7f6c0223243434287d9f9 833 akonadi_22.12.3.orig.tar.xz.asc"
+    "2da54f0996d4030596a5021dc2c5dba995898db2113ca74923b3be773697d3ff6ef827e7972ecdbf16a2a67cbbdcd0d60b4ab73e78fe801c41fe3494e102ca83 35720 akonadi_24.12.3-1.debian.tar.xz 9c6460ce4412537558d660b658ca8b1ed834249ad4b328327ca6971d868c0c329e2d4cd2048bd5bf6f188d10df0e9f1804d00205e40b67324b611493d4871593 4003 akonadi_24.12.3-1.dsc f4062136c414e114e314e6cd76616503fcb08c8dc2f5b17f72bdb26681feced3cb4df80bdcce5587a9d0c7c8c6234d6bba505bcb8a5b2f939349d2323908e973 1712368 akonadi_24.12.3.orig.tar.xz ccd87e3a54406cbb9e2ffbfa56554d7c3e6c1b33d5bc5fe56999ac479f5a5430b44afda91c5dc3c5fdb0341c4e681dfe5f8f3ef099d8c9e0afb5df8bed38efb7 833 akonadi_24.12.3.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/a/akonadi"
   ],
   "Files": [
-    "493b5be537df83d07647d63c4e0e0090 35560 akonadi_22.12.3-1.debian.tar.xz 3c0451ab987f911a6c301728af201d24 4003 akonadi_22.12.3-1.dsc 991ff07082424349f6014ef69eeb1642 1661668 akonadi_22.12.3.orig.tar.xz 601a2fa78786d0e127510efdaae561fa 833 akonadi_22.12.3.orig.tar.xz.asc"
+    "54378f87a45b62931663b00afe3c4178 35720 akonadi_24.12.3-1.debian.tar.xz 4242ad6db7cafacb48022ea730c5bd8d 4003 akonadi_24.12.3-1.dsc 80ca9dbc76e9f77a016e96ed9a97afc9 1712368 akonadi_24.12.3.orig.tar.xz 937c1b9e90cf1e1c6dce846b7629cab0 833 akonadi_24.12.3.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "akonadi"
   ],
   "Package-List": [
-    "akonadi-backend-mysql deb misc optional arch=all akonadi-backend-postgresql deb misc optional arch=all akonadi-backend-sqlite deb misc optional arch=any akonadi-server deb net optional arch=any libkf5akonadi-data deb libs optional arch=all libkf5akonadi-dev deb libdevel optional arch=any libkf5akonadi-dev-bin deb libdevel optional arch=any libkf5akonadiagentbase5 deb libs optional arch=any libkf5akonadicore5abi2 deb libs optional arch=any libkf5akonadiprivate5abi2 deb libs optional arch=any libkf5akonadiserver-dev deb libdevel optional arch=any libkf5akonadiwidgets5abi1 deb libs optional arch=any libkf5akonadixml5 deb libs optional arch=any"
+    "akonadi-backend-mysql deb misc optional arch=all akonadi-backend-postgresql deb misc optional arch=all akonadi-backend-sqlite deb misc optional arch=all akonadi-server deb net optional arch=any libakonadi-data deb libs optional arch=all libakonadi-dev deb libdevel optional arch=any libakonadi-dev-bin deb libdevel optional arch=any libakonadiserver-dev deb libdevel optional arch=any libkpim6akonadiagentbase6 deb libs optional arch=any libkpim6akonadicore6 deb libs optional arch=any libkpim6akonadiprivate6 deb libs optional arch=any libkpim6akonadiwidgets6 deb libs optional arch=any libkpim6akonadixml6 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
     "Sune Vuorela \u003cdebian@pusling.com\u003e, Sandro Knauß \u003chefee@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/akonadi.git"
   ],
   "Version": [
-    "4:22.12.3-1"
+    "4:24.12.3-1"
   ]
 }

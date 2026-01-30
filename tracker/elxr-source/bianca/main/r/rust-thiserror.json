@@ -6,25 +6,28 @@
     "librust-thiserror-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-thiserror-impl-1.0.38+default-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.61) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-thiserror-impl-2.0.11+default-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "bb77e166671111ead855a837495c12b892bfca8c 2828 rust-thiserror_1.0.38-1.debian.tar.xz 79d7e2faaddd3b0f0eb55f03a400a46a1baba888 2428 rust-thiserror_1.0.38-1.dsc 736270f2efa44bc257f88f943d01a2b36aa0b6d1 18947 rust-thiserror_1.0.38.orig.tar.gz"
+    "cc312101f7131e03ffc11b7889661fc03765fd71 3072 rust-thiserror_2.0.11-1.debian.tar.xz d39a12426cf8b5e32c987bf76da67cc50e6972ad 2499 rust-thiserror_2.0.11-1.dsc 7a1eb1363f09986a8e9f63134b1398b0ceb72160 28648 rust-thiserror_2.0.11.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "08183c299be25e4bbc89dd07f9ae2df341c3bd98f5266dc74d056f6eeb0282d7 2828 rust-thiserror_1.0.38-1.debian.tar.xz 276e11ce3eebf953dcb7fe7364ae3a627f170cf51943dd9d53db30315bdc0b6f 2428 rust-thiserror_1.0.38-1.dsc 6a9cd18aa97d5c45c6603caea1da6628790b37f7a34b6ca89522331c5180fed0 18947 rust-thiserror_1.0.38.orig.tar.gz"
+    "8d9d8a7574de1b4bd2081552cd5badfbd840e0b904fee57cf62473352a5b4efb 3072 rust-thiserror_2.0.11-1.debian.tar.xz 93136745124b5bca68133f5cbf99fc13661c2fdc1fccb85ee2dc7ecef61bb65a 2499 rust-thiserror_2.0.11-1.dsc d452f284b73e6d76dd36758a0c8684b1d5be31f92b89d07fd5822175732206fc 28648 rust-thiserror_2.0.11.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "05e6ba45388a3ccc4c894a22104296d5e9ec61517caa5f11a563feefc3908c758f7f970498f564d34357a4e6b1977a9856c216802be5c23f214cbc067a03e230 2828 rust-thiserror_1.0.38-1.debian.tar.xz f9e96b293d4d4bba2fd36d03580c3f1d65940a6a3744566dd40e832bc9ad306ed6aec05d13da3816a4261581bd2953ce752833c5b7948208c134978e5b91555e 2428 rust-thiserror_1.0.38-1.dsc 95b8ca682b579834a04058f03ed0c994ccef426d75e0fcc28ee47151d343da25e8fe31f8157744d942aa54652115f477fc6037f91c581dbc127b829cc96476ce 18947 rust-thiserror_1.0.38.orig.tar.gz"
+    "f41af4efe1338f463af1bd93e662e3edc5fdee1b1c3853108b3f7cd54a056462fd3658f74696864a7872984b399a7937d8e5e28dcbc5c977ef27593e68205b46 3072 rust-thiserror_2.0.11-1.debian.tar.xz daf1ba3b37f81e6ee533d862f70365d6e9131ea27c9d4b4cb1b09b3b12998666ebb745b634c889ef7a042c49c7fb36b1398a64f58179ae1ce805c6f7119d7835 2499 rust-thiserror_2.0.11-1.dsc ba0c3c2615bb9bfb07affa66ffeb2eeda43b16a974dc9a0482165a4a5a502a376e2fd6b569a228a08647de23d291e2c301dedf89d8caa79833b965a184dd5904 28648 rust-thiserror_2.0.11.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-thiserror"
   ],
   "Files": [
-    "bd0bfd404c5787f4253425099abab35d 2828 rust-thiserror_1.0.38-1.debian.tar.xz 177d6cd4e87e3332ea22302378188ce9 2428 rust-thiserror_1.0.38-1.dsc 3d2277774414ad0f59584e7021b9be06 18947 rust-thiserror_1.0.38.orig.tar.gz"
+    "751011ff8a5377d99986686151d6685d 3072 rust-thiserror_2.0.11-1.debian.tar.xz 615635de148c3a6fa89fddc58b18a8a2 2499 rust-thiserror_2.0.11-1.dsc f3210ab639bb43104069f5ecb3f1a786 28648 rust-thiserror_2.0.11.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dtolnay/thiserror"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,13 +39,13 @@
     "librust-thiserror-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-anyhow-1+default-dev, librust-ref-cast-1+default-dev, librust-rustversion-1+default-dev, librust-trybuild-1+default-dev, librust-trybuild-1+diff-dev"
+    "dh-cargo, librust-anyhow-1+default-dev, librust-ref-cast-1+default-dev, librust-rustversion-1+default-dev, librust-trybuild-1+default-dev, librust-trybuild-1+diff-dev, rustc"
   ],
   "Uploaders": [
     "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/thiserror]"
   ],
   "Version": [
-    "1.0.38-1"
+    "2.0.11-1"
   ]
 }

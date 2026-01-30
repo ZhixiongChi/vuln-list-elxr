@@ -6,22 +6,25 @@
     "libdevel-callchecker-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libb-hooks-op-check-perl \u003c!nocheck\u003e, libdynaloader-functions-perl \u003c!nocheck\u003e, libmodule-build-perl, perl"
+    "debhelper-compat (= 13), libb-hooks-op-check-perl \u003c!nocheck\u003e, libdynaloader-functions-perl \u003c!nocheck\u003e, libmodule-build-perl, perl-xs-dev, perl"
   ],
   "Checksums-Sha1": [
-    "ef5eba36efe76e4a029e8bf521f67753e34637b0 3680 libdevel-callchecker-perl_0.008-2.debian.tar.xz a35cb62396fe5df54460cf02ab6c92d1d7289aa2 2270 libdevel-callchecker-perl_0.008-2.dsc 86d74dbc498a1c1f5e33f51ed865cf6ad07945e1 18940 libdevel-callchecker-perl_0.008.orig.tar.gz"
+    "fb09321aeea3b71c5f2c412dce04af16dac78a2f 4184 libdevel-callchecker-perl_0.009-2.debian.tar.xz d58cd6de85358143b8ba1033d842cabf7d2ce9b5 2543 libdevel-callchecker-perl_0.009-2.dsc 565bcac2239ae33256f660c17be7bc3e1c89e099 20981 libdevel-callchecker-perl_0.009.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "78de1388e9fbda99b5680b10dd23cffde0531f9a5a9a3367af927eaf1f1a5307 3680 libdevel-callchecker-perl_0.008-2.debian.tar.xz 8a49bb96cf7ca3d5387651c611bf71cd3db180fd3ea9b69ba7f84952ad202798 2270 libdevel-callchecker-perl_0.008-2.dsc 5d584e0bf55942517fbb13bea5bff0bdf0d0287c0912030e853fa028a69011dc 18940 libdevel-callchecker-perl_0.008.orig.tar.gz"
+    "fd6eeee7d7b82e8ab0d7980ac766521aecd43ac85d4164a112547e978e4cd105 4184 libdevel-callchecker-perl_0.009-2.debian.tar.xz c08c66c9e02e5abb82e114e623c5eee67449def84c0703c497aeda54e503f406 2543 libdevel-callchecker-perl_0.009-2.dsc 7a46caef9c48908f00fe8985dcecc4ec55f42e6c4efaafce9dbdaf9d45a37bc4 20981 libdevel-callchecker-perl_0.009.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "73cc5245f81bc4228412023eb82f6c17221caa2378d03ee80a90f29e0a2747e0981db99f146e831a9f75ec0b4b27715e36f6d4bd7a5ca715f2e986d274ab9857 3680 libdevel-callchecker-perl_0.008-2.debian.tar.xz ee9091b1890d3efeffd5156b055f850086f4e86a0ddf030873d999eb1e41d0a3ec2c466086d696b019292b881503183d5e401bffebbe8cf4617b44a966f7da65 2270 libdevel-callchecker-perl_0.008-2.dsc 7ae7ee932e7e6a44d57178c84537cff8a9c350fbbf36c21dbc5ce56a5fe1d4ca748e0d5dd75abf5ebfa5e1223af4285b9b25074c0d1baa97eccfc6dddb62cfab 18940 libdevel-callchecker-perl_0.008.orig.tar.gz"
+    "3fa10196fb80d184b5f6001fd9b2fa08ac4e1fda6a05a3543b305da404b3386e77bdce0bc67188d0d150ef495058426355a35e2950e0be9ec2dd657d9aced856 4184 libdevel-callchecker-perl_0.009-2.debian.tar.xz 0b18254aa373c5a96d9d2b58b133b79b3fe9e3319270a706363458bb43b0be0cfba36913f5792524dd72db68bf0604e8d238c8ff32a684645a3e2ef3953e9093 2543 libdevel-callchecker-perl_0.009-2.dsc 251bd7f983a196e8f2b9658831d9e7898a757bab916ce0f25ae67504ab5ee2900dae704946e60e24412ce0b15ddc3d205ee67d773905a14ba72e6a906a1454b3 20981 libdevel-callchecker-perl_0.009.orig.tar.gz"
+  ],
+  "Dgit": [
+    "4235572331cc87f5fac896acecadee3324957e61 debian archive/debian/0.009-2 https://git.dgit.debian.org/libdevel-callchecker-perl"
   ],
   "Directory": [
     "pool/main/libd/libdevel-callchecker-perl"
   ],
   "Files": [
-    "014cb7b71f716167c0fe2a38139173b7 3680 libdevel-callchecker-perl_0.008-2.debian.tar.xz a0085a750a2b5c916d91ca68cd30a279 2270 libdevel-callchecker-perl_0.008-2.dsc 37932adf55f110c9fef2f694d6a12e82 18940 libdevel-callchecker-perl_0.008.orig.tar.gz"
+    "3bcec8ddde34ff3ea1543b5e96d90b4a 4184 libdevel-callchecker-perl_0.009-2.debian.tar.xz d9bedc83ec82d518b7343f6c9e8e2c2c 2543 libdevel-callchecker-perl_0.009-2.dsc fc92d8a74da64c581adced9946e7e4bb 20981 libdevel-callchecker-perl_0.009.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +42,7 @@
     "libdevel-callchecker-perl deb perl optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libdevel-callchecker-perl.git"
   ],
   "Version": [
-    "0.008-2"
+    "0.009-2"
   ]
 }

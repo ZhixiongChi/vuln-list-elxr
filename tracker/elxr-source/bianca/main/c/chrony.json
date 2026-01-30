@@ -6,31 +6,31 @@
     "chrony"
   ],
   "Build-Depends": [
-    "asciidoctor, bison, debhelper-compat (= 13), dh-apparmor, gnutls-bin \u003c!nocheck\u003e, iproute2 [linux-any] \u003c!nocheck\u003e, libcap-dev [linux-any], libedit-dev, libgnutls28-dev, libseccomp-dev (\u003e= 2.4.3-1~) [amd64 arm64 armel armhf hppa i386 mips mipsel mips64el powerpc powerpcspe ppc64 ppc64el riscv64 s390x x32], nettle-dev, pkg-config, pps-tools [linux-any], procps \u003c!nocheck\u003e"
+    "asciidoctor, bison, debhelper-compat (= 13), dh-apparmor, gnutls-bin \u003c!nocheck\u003e, iproute2 [linux-any] \u003c!nocheck\u003e, libcap-dev [linux-any], libedit-dev, libgnutls28-dev, libseccomp-dev (\u003e= 2.5.5-2~) [amd64 arm64 armel armhf hppa i386 loong64 mips mipsel mips64el powerpc powerpcspe ppc64 ppc64el riscv64 s390x x32], nettle-dev, pkgconf, pps-tools [linux-any], procps \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "44850b442d6556713dcfbaed6a3bc4e670daffee 40532 chrony_4.3-2+deb12u1.debian.tar.xz d778deb85b36beff698c815c5d75b628f2469ebb 2377 chrony_4.3-2+deb12u1.dsc bc7884eb4fde69478a00faee3d42092d426d57c1 593560 chrony_4.3.orig.tar.gz 70d022ec86489cfc9b2284dcb1bd2fe6ed5f4c50 833 chrony_4.3.orig.tar.gz.asc"
+    "52379df891b3d0d1e4dad1ed7bc94b5e2517593a 42952 chrony_4.6.1-3.debian.tar.xz 9268c7fba99992ce95695a8d97d6491226600fca 2362 chrony_4.6.1-3.dsc 35b070fdd446080232844ac9f70f84ca1823206f 636076 chrony_4.6.1.orig.tar.gz b17872c45275cf0645da1ee5d4371a4c4dcc132a 833 chrony_4.6.1.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "ea3bd27e1d5f784303c10626131ca07f70b05ace9a018fddc8bcce2bdbd3f455 40532 chrony_4.3-2+deb12u1.debian.tar.xz f8d31c5b2f2f8c82f30e805eebdf9a79796e1f2bfeb96b620c6d08a61e8ec5a3 2377 chrony_4.3-2+deb12u1.dsc 9d0da889a865f089a5a21610ffb6713e3c9438ce303a63b49c2fb6eaff5b8804 593560 chrony_4.3.orig.tar.gz eb2837eb29e3ef2892ea6ae1d0615c2b83ddbaf45c8bb508dc35042feff2fc8d 833 chrony_4.3.orig.tar.gz.asc"
+    "fe7962244fd382bf598602bf6afd848f1ce0ebb47e4a40a23f6ec05d8bf18ce8 42952 chrony_4.6.1-3.debian.tar.xz 824fb7b6c6a90e2bfb2fddd3777db9266d664b6f3e4e317cabf684fb85f7d728 2362 chrony_4.6.1-3.dsc 571ff73fbf0ae3097f0604eca2e00b1d8bb2e91affe1a3494785ff21d6199c5c 636076 chrony_4.6.1.orig.tar.gz df077dae0b84a2a81076f4dfe5f05482d13ffa9100d5e26a494bd1f94151671d 833 chrony_4.6.1.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "5cbcd6a402dcfbcbb7f483fe12a273f48d13cc7ccdd5571d470e3025e47eff8ac26680a244c8e700634aaf38b1b9eee897ad8f76af01ab17d7de91499168b904 40532 chrony_4.3-2+deb12u1.debian.tar.xz df0726869872d20d541b90937555d2e32375db1a0618bb525e55ee4cb736eeaf0c50f9d9153872aed356911f49a3cafd7fddba68694c8518bb5f10269184c96d 2377 chrony_4.3-2+deb12u1.dsc 1394bac3ed684352fe89b7fef7da50e61f9f522abee807627ae1fc4c2dde891017bc8e5b13759fced028f3a1e875d5e4e5a4f85de65c63b5f83d0ca03bb4c5df 593560 chrony_4.3.orig.tar.gz 300b06f253ac3727edb86a1b7c337f9529ee752bbb471b266217b6a8ac5183e827264177a3210d436425d746673bf11fbdc41da145673213e28165197c6c76b7 833 chrony_4.3.orig.tar.gz.asc"
+    "9f4e788344d4e02bcd8e174a2dda328b36b2ab49e2828b94b51baef1c2dade8f6c12b69a3daa7dc358ad4b7c461f5a375205e8cc2bae3be5ddc7f4cb5a60d9fb 42952 chrony_4.6.1-3.debian.tar.xz b13a5963910b51ed6d1d791656ef9d0827dc13d726ec67a3a939c19a8a7921a5b5c6a8e198a8d84a81c58466c73d4ea5e4d6189e773e6be6be6073178a9401b0 2362 chrony_4.6.1-3.dsc 646ae08f2587366236796f2399d8ab3eb570979e0d82f5d13f5cec49939054c876cc93dc20c8d38e105fd3500e1720d05a223a15076783cd882d0de43afd9c7e 636076 chrony_4.6.1.orig.tar.gz 992b706636bf3a7eb6d502562a4990c9d8e20e5f3011d2cdb2ceb32220e9a1c2bfa6eca767212cee49b811823872602dc33f9e7201a7f9a93cc9c90e81b1db49 833 chrony_4.6.1.orig.tar.gz.asc"
   ],
   "Dgit": [
-    "9b925106cf6e81ba9a34e8aa9341b4000fe28c47 debian archive/debian/4.3-2+deb12u1 https://git.dgit.debian.org/chrony"
+    "bdf6f35e4ca785a3d19600fc414476a45835ef4b debian archive/debian/4.6.1-3 https://git.dgit.debian.org/chrony"
   ],
   "Directory": [
     "pool/main/c/chrony"
   ],
   "Files": [
-    "9bb35b879a881b5a62f105cfa5471f11 40532 chrony_4.3-2+deb12u1.debian.tar.xz 62b7b162b409c961b349654654200752 2377 chrony_4.3-2+deb12u1.dsc 765dd8c085a0be2a52f9e9135665f0b7 593560 chrony_4.3.orig.tar.gz 440a45cbb7bc3363a9091bc686012f63 833 chrony_4.3.orig.tar.gz.asc"
+    "4f3c5ca5ed3797aca1c13dd0a02c86c0 42952 chrony_4.6.1-3.debian.tar.xz fbc8f44aae652df047cd53fe61d9b1ec 2362 chrony_4.6.1-3.dsc 81a83f54d5f8e1d5fd9afcf8a40c493d 636076 chrony_4.6.1.orig.tar.gz 062a129a67d81a58b2809e35e917e1b9 833 chrony_4.6.1.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://chrony.tuxfamily.org"
+    "https://chrony-project.org"
   ],
   "Maintainer": [
     "Vincent Blut \u003cvincent.debian@free.fr\u003e"
@@ -42,7 +42,7 @@
     "chrony deb net optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/chrony.git -b debian/latest"
   ],
   "Version": [
-    "4.3-2+deb12u1"
+    "4.6.1-3"
   ]
 }

@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "linux-any"
+    "any"
   ],
   "Binary": [
     "vulkan-tools"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), cmake, glslang-tools, libvulkan-dev (\u003e= 1.3.239.0), libwayland-dev, libx11-dev, libxcb1-dev, libxrandr-dev, pkg-config, python3, wayland-protocols"
+    "debhelper-compat (= 13), cmake, glslang-tools, libvulkan-dev (\u003e= 1.4.304.0), libvulkan-volk-dev (\u003e= 1.4.304.0), libwayland-dev [linux-any], libx11-dev, libxcb1-dev, libxrandr-dev, pkgconf, python3, wayland-protocols [linux-any]"
   ],
   "Checksums-Sha1": [
-    "34111b7961e3960f1102748d653f1885682975dd 3068 vulkan-tools_1.3.239.0+dfsg1-1.debian.tar.xz cb2039f67a274a2624ab114b90cfe184cc14869f 2145 vulkan-tools_1.3.239.0+dfsg1-1.dsc c1d6e76307bcc396404c57570bd228e33a018a64 379688 vulkan-tools_1.3.239.0+dfsg1.orig.tar.xz"
+    "301f6e52c5e1ada8f7532c3460da3de9e8924a6c 3788 vulkan-tools_1.4.304.0+dfsg1-1.debian.tar.xz 030b11e34600cce75b3a997182b1257851ee0c2e 2189 vulkan-tools_1.4.304.0+dfsg1-1.dsc a1004f48e5ab55d590a6112153450d43816cceff 367116 vulkan-tools_1.4.304.0+dfsg1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "c5ca62210adab80ecf0e9df732ecfce7854b6b3c5686d8d1738ffca1f92fb516 3068 vulkan-tools_1.3.239.0+dfsg1-1.debian.tar.xz 4f032b54bcd0340e4b3775bfd5bf90c9b75b23e1cfe7cff880dbe9e2de833fda 2145 vulkan-tools_1.3.239.0+dfsg1-1.dsc faef7f477008b0a57bad21ee2bd791cbb08403a64d6b3eaf29d691a32eb8c592 379688 vulkan-tools_1.3.239.0+dfsg1.orig.tar.xz"
+    "ff621ecf6679835877daa797fb651fad11b833e752392189205d9a51a64b4fc7 3788 vulkan-tools_1.4.304.0+dfsg1-1.debian.tar.xz 35d09791e4984d2ffd9f7c9dfa97a66098b0fe434076444dbb48b5962f2b4c68 2189 vulkan-tools_1.4.304.0+dfsg1-1.dsc 9460cc49d15a57e13401d16807319c7d9bf0971e94fe81bba631fc69bb206c78 367116 vulkan-tools_1.4.304.0+dfsg1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "fa2186afb9d614a2c84a18b6be0dc1060541209f88de06d2f22eb9d54107fcbe3d02a01b288dc3693b01ff30d8e1083f1441501178a3c95dba6865f5f04b3f81 3068 vulkan-tools_1.3.239.0+dfsg1-1.debian.tar.xz fe200a276c971566e1909a229918afc258642b90b144e59ec4a475e32802fd4485868f2f380c38908e13c1080d790f4faa24970e0d9b085a9a9bb088aeb346d8 2145 vulkan-tools_1.3.239.0+dfsg1-1.dsc 9fdecd0cf2c2fd7d5e7d6ea8aafd0273eef60f939746d2015bf2d61a39ffa70f60053c0b95fa5bda366206c6bd33585cabbabe313565357b490d8bb50235e90a 379688 vulkan-tools_1.3.239.0+dfsg1.orig.tar.xz"
+    "6b792906ec1323c429d41ccf40a62bbf0f79de21951ee34fbda0eb7938c6a136c6a448300dd89a6c160403fa3584d149e4fec8b30c06a51b066fe20c3c587f6a 3788 vulkan-tools_1.4.304.0+dfsg1-1.debian.tar.xz 1dc943c08d1c571ed8828a4742ef6492b7f1dd4c629550ac3e265a2d7a2be5cd21ec00f55ca19a7867323b8398483b2d8bee571d638320b102e07e827a39d7a4 2189 vulkan-tools_1.4.304.0+dfsg1-1.dsc eec33f21b07383d0f3e21f522c779bc23ba71e3e2fc3a92f4e828bc4601cda4283199da1dd7fb0cca7a02133976b3401fd018089542116d82843e830a485ffd1 367116 vulkan-tools_1.4.304.0+dfsg1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/v/vulkan-tools"
   ],
   "Files": [
-    "66e4a07a8f6885ac8f2d2ee6b8c5766d 3068 vulkan-tools_1.3.239.0+dfsg1-1.debian.tar.xz b75cbc082dc16ce77789731897fc62e6 2145 vulkan-tools_1.3.239.0+dfsg1-1.dsc 441e6c91f20ec2652760a3bf4a487998 379688 vulkan-tools_1.3.239.0+dfsg1.orig.tar.xz"
+    "a417a669b323b64904642a1666a5351c 3788 vulkan-tools_1.4.304.0+dfsg1-1.debian.tar.xz 7afe40c31fa223382ed1565bc5831d54 2189 vulkan-tools_1.4.304.0+dfsg1-1.dsc aae96a82f784fd8b176097b6dde6bb9a 367116 vulkan-tools_1.4.304.0+dfsg1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "vulkan-tools"
   ],
   "Package-List": [
-    "vulkan-tools deb graphics optional arch=linux-any"
+    "vulkan-tools deb graphics optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.6.2"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/xorg-team/vulkan/vulkan-tools"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/xorg-team/vulkan/vulkan-tools.git"
   ],
   "Version": [
-    "1.3.239.0+dfsg1-1"
+    "1.4.304.0+dfsg1-1"
   ]
 }

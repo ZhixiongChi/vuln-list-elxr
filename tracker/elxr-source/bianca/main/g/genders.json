@@ -6,22 +6,22 @@
     "genders, libgenders-perl, libgenders0, libgenders0-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 9), perl, autotools-dev, chrpath, flex, bison, dh-autoreconf"
+    "debhelper-compat (= 10), perl, autotools-dev, chrpath, flex, bison, dh-autoreconf"
   ],
   "Checksums-Sha1": [
-    "8fdc3214f093dba01230187c1fe780e4195dcc95 5396 genders_1.22-1.debian.tar.xz b463f9915adfcf8d2d71a3007ea92b1758dea8a8 1979 genders_1.22-1.dsc 60b8fa454c8f0559df4771e9dd7d164bece9fbcc 595795 genders_1.22.orig.tar.gz"
+    "e15fdb48e07b0c37c824a2874e1ef65a41c8fbbc 6008 genders_1.27-3-3.1.debian.tar.xz e83295f328716fd2e7f3be81fab710d6e4ce4e83 1690 genders_1.27-3-3.1.dsc ad7f38cc92507e0c4d10ac40d78c410c2fa06112 1142250 genders_1.27-3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "30afb750749eff0593dc50b7fa1e583fce8abf42db3de27cf9a493da7c012de1 5396 genders_1.22-1.debian.tar.xz 21bf797b73b3042845da744bc853302d50aabf27082f06934b49d71bbf82d4bf 1979 genders_1.22-1.dsc 0ff292825a29201106239c4d47d9ce4c6bda3f51c78c0463eb2634ecc337b774 595795 genders_1.22.orig.tar.gz"
+    "3dee9f0f05fca2aa120aa3d3322abc7cb9b9992287b887ecbf176dc1a0c12af3 6008 genders_1.27-3-3.1.debian.tar.xz 2f5898b2ae3c958cba8b94f6f1528bb2dc52c8461404b3b7d2c3adc1930d798f 1690 genders_1.27-3-3.1.dsc c176045a7dd125313d44abcb7968ded61826028fe906028a2967442426229894 1142250 genders_1.27-3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "9faa6be5c938782c488a4f48e3f7f27963a2a942c0e939454a47627f0c29b523f7e61480c803de535c974172a560c8a7ccdb1126e96b9759ff7bd8ae352740ba 5396 genders_1.22-1.debian.tar.xz 3064693cfc5afb52d3b38cc29fdd3ca4115da751bfd5e6fd1427cf9017165e1506783f11986cf61f452a4a3726b2b535e7c43da8ca39c907f5f664a26e079703 1979 genders_1.22-1.dsc a03c5d7a58cdfc3ea3c490255f26c459f88e4f34da7b9e518dfdab2d231252e364a57271b75a4d9cd971b2890924f1d15e35127a410f6500491ee5ab75886a7a 595795 genders_1.22.orig.tar.gz"
+    "3ace38c67b215dfe72620141a63f2445c8735a51d0439d9c57a35a55b6580bb1a7ca43685816530545ef99f2b17fa2f694bcfb52d6a3fa8e86db989a873d7c21 6008 genders_1.27-3-3.1.debian.tar.xz aae8af4d37b6292e1f95e9290387ebef83127679d73e0f60da240f7620a94edeca1ed5a7f442e8c4fd8127c7a48522f1851b6b0289e23cb05f0b1958dec03909 1690 genders_1.27-3-3.1.dsc a97bc9ebc8c167cf1aebade41fd3097e34ea27f4009bcc027e50d2dc354beb6e13d6eff1d8b8a334b6993f4396c8eba2ca4cd1e29d3dc6536086c2798a6d6751 1142250 genders_1.27-3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/genders"
   ],
   "Files": [
-    "dc182efbf928b168b407a3a3a181e213 5396 genders_1.22-1.debian.tar.xz f2915373117caa8d725600803b0ae09d 1979 genders_1.22-1.dsc 9ea59a024dcbddb85b0ed25ddca9bc8e 595795 genders_1.22.orig.tar.gz"
+    "5a9ed85d6182736d2e8284790f28e124 6008 genders_1.27-3-3.1.debian.tar.xz cd14f0768464dfeaefc78481ba125efc 1690 genders_1.27-3-3.1.dsc c86a3bc3a0b2c7e5b79c525de50e2f3b 1142250 genders_1.27-3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "genders deb admin optional arch=any libgenders-perl deb perl optional arch=any libgenders0 deb libs optional arch=any libgenders0-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.2.0"
+    "4.7.0"
   ],
   "Uploaders": [
     "tony mancill \u003ctmancill@debian.org\u003e"
@@ -45,6 +45,6 @@
     "https://salsa.debian.org/bpellin/genders"
   ],
   "Version": [
-    "1.22-1"
+    "1.27-3-3.1"
   ]
 }

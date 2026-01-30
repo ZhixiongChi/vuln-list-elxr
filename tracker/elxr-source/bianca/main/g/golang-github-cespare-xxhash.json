@@ -6,25 +6,22 @@
     "golang-github-cespare-xxhash-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12~), dh-golang, golang-any"
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any"
   ],
   "Checksums-Sha1": [
-    "8d895ff5d2cf8b587350753c604564c1ca07cfc1 2972 golang-github-cespare-xxhash_2.1.1-2.debian.tar.xz 8656fdc6ad3d6d5004057f27ab75b3be07542053 2434 golang-github-cespare-xxhash_2.1.1-2.dsc 2acd39a033c3f5737f98b0f01da4afa2fe5ccb73 8640 golang-github-cespare-xxhash_2.1.1.orig.tar.xz"
+    "5c365b1581b64a8cc412f8e04130cf31033d7941 3148 golang-github-cespare-xxhash_2.3.0-1.debian.tar.xz 1a7eb7ffa9f7cef6b765b59e9c796a1290cb1a61 2334 golang-github-cespare-xxhash_2.3.0-1.dsc 2dd50fe5f7db9ca6598d67d3413e76d7012d29c9 12696 golang-github-cespare-xxhash_2.3.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "789a31cb43ef0c2dfc78d60f4afb8c0456432ae62a7f3daae88431c90722f1fa 2972 golang-github-cespare-xxhash_2.1.1-2.debian.tar.xz 5627bba34bae97cec9834b4b6d753c4ff1d9da2d14c7c0a8b4915e74707a8630 2434 golang-github-cespare-xxhash_2.1.1-2.dsc a347a894561866878fde4202f320055da322404d2c6d8f75d65bd6234420d062 8640 golang-github-cespare-xxhash_2.1.1.orig.tar.xz"
+    "b319012fbffda4f99bf1f1d726455e53edbfa1d8ef82669e04b8628f0d1b5f7a 3148 golang-github-cespare-xxhash_2.3.0-1.debian.tar.xz 75be4e424409a7613b436e15fae6f87db84433c75bb53c939774dbde22ed038c 2334 golang-github-cespare-xxhash_2.3.0-1.dsc 0e3dda07b03a5f3733506218860ecb2d50c0f01f16299b5d60902ef5158cbde5 12696 golang-github-cespare-xxhash_2.3.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "ab329fcb2f4a9c3849ca77cd5596e7088b5d0d92b0e2f617158eb8f5a2cf52c08628a0dbdcb2788f3045aee3c95cd318da4e5d324a354f83fa6735f24d2fa138 2972 golang-github-cespare-xxhash_2.1.1-2.debian.tar.xz 294dff315a264ed88cf29d0f4923a6c523856e622865134b9e315621d7802ec9cbe6efb5edc8b1e9621baa3b368b76768901fd8685089d569c6341fc3d2808de 2434 golang-github-cespare-xxhash_2.1.1-2.dsc 7605bd4dd9b7652a7d09188c6c1dce5a161503f3d29012fd94be9dc0c88f025f1b4a5ebed3d7dbd861482c1bbc47df32d719d2b46d3fafced1c936c4b914c33b 8640 golang-github-cespare-xxhash_2.1.1.orig.tar.xz"
-  ],
-  "Dgit": [
-    "cde173b116e4ca4e0c2dce99c9e691f4bc6d921f debian archive/debian/2.1.1-2 https://git.dgit.debian.org/golang-github-cespare-xxhash"
+    "7b34874ad39380c489ccd6ac15f589ada513bad3a542496495f5a155ab95cbd3c22b73c220bda636fe1c8756dc5e47c5521feb4d4634f0d6a04cb95c7d6f6f7f 3148 golang-github-cespare-xxhash_2.3.0-1.debian.tar.xz c69c8092c87553dbb24c30681d97e92788e0baffc14c3f28d8d41d09a29bc168699183c7986b00f7cc2c10158b6ac9dca11b0df2b9bd84c69bc323c3c607122d 2334 golang-github-cespare-xxhash_2.3.0-1.dsc a2c348518d0c97dfab170875a69de429e5004bdb88b4d0bd4896356503ce66f505d5b377030b568a410356a1c8fc5e936ecd610a46b93ae43fe3bd66df7df05a 12696 golang-github-cespare-xxhash_2.3.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-cespare-xxhash"
   ],
   "Files": [
-    "b29022e90fed4394ce0c8b7151915a5b 2972 golang-github-cespare-xxhash_2.1.1-2.debian.tar.xz c0d78072d9f086fd619b411d460e5c7a 2434 golang-github-cespare-xxhash_2.1.1-2.dsc 3577b120cf43a6ca2fc27c5861ddbcf4 8640 golang-github-cespare-xxhash_2.1.1.orig.tar.xz"
+    "5226f1536882f3e49a8f2b5cdc2438b7 3148 golang-github-cespare-xxhash_2.3.0-1.debian.tar.xz e21d8d125f48a52a3150b0334fd60b1a 2334 golang-github-cespare-xxhash_2.3.0-1.dsc 63d8ecd122bbcf7ae903fb29f4f6e6c3 12696 golang-github-cespare-xxhash_2.3.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,22 +33,22 @@
     "https://github.com/cespare/xxhash"
   ],
   "Maintainer": [
-    "Debian Go Packaging Team \u003cpkg-go-maintainers@lists.alioth.debian.org\u003e"
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
   ],
   "Package": [
     "golang-github-cespare-xxhash"
   ],
   "Package-List": [
-    "golang-github-cespare-xxhash-dev deb devel optional arch=all"
+    "golang-github-cespare-xxhash-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.4.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
   ],
   "Uploaders": [
-    "Alexandre Viau \u003caviau@debian.org\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e"
+    "Alexandre Viau \u003caviau@debian.org\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e, Anthony Fok \u003cfoka@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/go-team/packages/golang-github-cespare-xxhash"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-cespare-xxhash.git"
   ],
   "Version": [
-    "2.1.1-2"
+    "2.3.0-1"
   ]
 }

@@ -3,28 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "libxerces-c3.2, libxerces-c-dev, libxerces-c-doc, libxerces-c-samples"
+    "libxerces-c3.2t64, libxerces-c-dev, libxerces-c-doc, libxerces-c-samples"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), libcurl4-gnutls-dev, libicu-dev"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 12), libcurl4-gnutls-dev, libicu-dev"
   ],
   "Build-Depends-Indep": [
-    "doxygen, default-jre-headless | default-jre, libatk-wrapper-java, libstylebook-java, libxalan2-java, libxerces2-java"
+    "doxygen, default-jre, libatk-wrapper-java, libstylebook-java, libxalan2-java, libxerces2-java"
   ],
   "Checksums-Sha1": [
-    "6863d70f4fc9261ac6be30c99e91e5a6fc4facd5 21312 xerces-c_3.2.4+debian-1.debian.tar.xz ccc7a7a8d3b8a803167060361113b050386c09fa 2493 xerces-c_3.2.4+debian-1.dsc 47d219344ee94cc6a3476c39090b0f2ec8f9b791 1566760 xerces-c_3.2.4+debian.orig.tar.xz"
+    "b96c00d117e6a8dd172aedba2ab1e34054fce4f4 26552 xerces-c_3.2.4+debian-1.3.debian.tar.xz e74a937c63356b9b163085c8802036c288912ce9 2197 xerces-c_3.2.4+debian-1.3.dsc 47d219344ee94cc6a3476c39090b0f2ec8f9b791 1566760 xerces-c_3.2.4+debian.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "b76436c77b7ec5e45453220308961fdb06f9aeb39fcc0ec2362a808639aa8e13 21312 xerces-c_3.2.4+debian-1.debian.tar.xz 91c996da5d51667b3a02dd7a05d09b1c6a38cd331df152239d0bc790caa35d48 2493 xerces-c_3.2.4+debian-1.dsc cf5b5d5fda86061a49bd5f58ef778aa9d7caba30c6b152a5d57c5ff545f50f2c 1566760 xerces-c_3.2.4+debian.orig.tar.xz"
+    "85bd252c66081fca189a3cfc92ea0ce73bfd3b4d7e95505ec053c40f66c2e0b4 26552 xerces-c_3.2.4+debian-1.3.debian.tar.xz c9f79884e80c2fd89ab09bcfc603217cfe8c34b17ebb129bfe243e70bee2f6e9 2197 xerces-c_3.2.4+debian-1.3.dsc cf5b5d5fda86061a49bd5f58ef778aa9d7caba30c6b152a5d57c5ff545f50f2c 1566760 xerces-c_3.2.4+debian.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "9d9691863429c81659c94e3619dcf2f766f5276724cf19d43aebdfebb21c3df180c093272c1cd68b706e59ee532d782c43ae595cb963aaf4ae8bea483aefae8d 21312 xerces-c_3.2.4+debian-1.debian.tar.xz fcd58e808a35596301ab59987c7c6c093e8ff76b21b718bff90b81fc40af98d3ec6edf49eb69dc5a67358ed7d8defc43d248787ec8370afddcb20b44765d8f3d 2493 xerces-c_3.2.4+debian-1.dsc 1e54b424d1aee200f5acaf067f9f84d2b095e3f8ec5da2660f2ad1f6c2c2913b9ee056d89df4028e09aeb8f2c00ee6e819300e73bd6a86dce3551fd8126124cc 1566760 xerces-c_3.2.4+debian.orig.tar.xz"
+    "4652ed49796c3c9a2ce04f9a85879aa82f1acaa20e32980eaf592556b09dff0111a5a22b8e35dc29c972031ee862749a397de2ca0f6b35104ff77a7c6b1469ca 26552 xerces-c_3.2.4+debian-1.3.debian.tar.xz e8899f564260ba99b32a2c0eaadd1ef85b46552a5ee67412897e287e601953d00017f3c4e88d683f1997a60afca2d648681453c888329a166fc2a93ea7c839c2 2197 xerces-c_3.2.4+debian-1.3.dsc 1e54b424d1aee200f5acaf067f9f84d2b095e3f8ec5da2660f2ad1f6c2c2913b9ee056d89df4028e09aeb8f2c00ee6e819300e73bd6a86dce3551fd8126124cc 1566760 xerces-c_3.2.4+debian.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/x/xerces-c"
   ],
   "Files": [
-    "2fd9b1353b51543fec2f18c7f2c0692e 21312 xerces-c_3.2.4+debian-1.debian.tar.xz d0144fb24aa2f439a408ccc1422e623f 2493 xerces-c_3.2.4+debian-1.dsc 1a69fc0b34cbc3e3ab76a4314aac779c 1566760 xerces-c_3.2.4+debian.orig.tar.xz"
+    "25da5e2653eda5d0a4e3f6e65289f1cf 26552 xerces-c_3.2.4+debian-1.3.debian.tar.xz bf3abcf3be85822ab81473818fa84f23 2197 xerces-c_3.2.4+debian-1.3.dsc 1a69fc0b34cbc3e3ab76a4314aac779c 1566760 xerces-c_3.2.4+debian.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "xerces-c"
   ],
   "Package-List": [
-    "libxerces-c-dev deb libdevel optional arch=any libxerces-c-doc deb doc optional arch=all libxerces-c-samples deb devel optional arch=any libxerces-c3.2 deb libs optional arch=any"
+    "libxerces-c-dev deb libdevel optional arch=any libxerces-c-doc deb doc optional arch=all libxerces-c-samples deb devel optional arch=any libxerces-c3.2t64 deb libs optional arch=any"
   ],
   "Standards-Version": [
     "4.6.1"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/bblough/xerces-c.git"
   ],
   "Version": [
-    "3.2.4+debian-1"
+    "3.2.4+debian-1.3"
   ]
 }

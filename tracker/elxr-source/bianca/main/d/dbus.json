@@ -6,28 +6,28 @@
     "dbus, dbus-session-bus-common, dbus-system-bus-common, dbus-bin, dbus-daemon, dbus-1-doc, dbus-tests, dbus-udeb, dbus-user-session, dbus-x11, libdbus-1-3, libdbus-1-3-udeb, libdbus-1-dev"
   ],
   "Build-Depends": [
-    "autoconf-archive, automake, debhelper (\u003e= 13.7) | debhelper (\u003c\u003c 13.4), debhelper-compat (= 13), dh-exec, libapparmor-dev [linux-any], libaudit-dev [linux-any], libcap-ng-dev [linux-any], libexpat-dev, libglib2.0-dev \u003c!nocheck\u003e \u003c!noinsttest\u003e, libnss-wrapper \u003c!nocheck\u003e, libselinux1-dev [linux-any], libsystemd-dev [linux-any], libx11-dev, pkg-config, valgrind-if-available, xml-core, xmlto \u003c!nodoc\u003e"
+    "debhelper (\u003e= 13.11.6~), debhelper-compat (= 13), dh-exec, libapparmor-dev [linux-any], libaudit-dev [linux-any], libcap-ng-dev [linux-any], libexpat-dev, libglib2.0-dev \u003c!nocheck\u003e \u003c!noinsttest\u003e, libnss-wrapper \u003c!nocheck\u003e, libselinux1-dev [linux-any], libsystemd-dev [linux-any], libx11-dev, meson, pkgconf, valgrind-if-available, xml-core, xmlto \u003c!nodoc\u003e"
   ],
   "Build-Depends-Indep": [
     "doxygen \u003c!nodoc\u003e, ducktype \u003c!nodoc\u003e, xsltproc \u003c!nodoc\u003e, yelp-tools \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "74faa15cfba461acffb509c60dbcd1eddb547b88 63544 dbus_1.14.10-1~deb12u1.debian.tar.xz 0f1ff7592336eae8bfc2b0cdd0527a2dc2cb3296 3804 dbus_1.14.10-1~deb12u1.dsc 47f03306a491509cdebacded837e51b086835252 1372328 dbus_1.14.10.orig.tar.xz 76219dcec55c66705eb1a311d11ced2df190758d 833 dbus_1.14.10.orig.tar.xz.asc"
+    "d439f84abaeb7656484d60cc6700aac2fdab83d8 66364 dbus_1.16.2-2.debian.tar.xz ec2c14df4f3e59cab6ce7bba049ba3b2fbf9c53b 3712 dbus_1.16.2-2.dsc f44e9a36af548909e46aec8b29b965aeabc3bfbd 1115644 dbus_1.16.2.orig.tar.xz f61d50bd8831e1941f9254a252685fe87b6c8651 833 dbus_1.16.2.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "3dffba1d320ad4be65d87174953fd8a795e3de0886d01a9b85abdba8d107c810 63544 dbus_1.14.10-1~deb12u1.debian.tar.xz c759e380dd595a407be70b09e8f0aecb9f86c67bf515cdc0dd629dfcac88b9cf 3804 dbus_1.14.10-1~deb12u1.dsc ba1f21d2bd9d339da2d4aa8780c09df32fea87998b73da24f49ab9df1e36a50f 1372328 dbus_1.14.10.orig.tar.xz 5f292cd0603c3d736026ed3f4d1c1937847981669c1f0a389083518f013e1081 833 dbus_1.14.10.orig.tar.xz.asc"
+    "f774fe3bd1ac24265e17c70999bfa26a92a15f2fb72e1fb8c64fa5d436fb9119 66364 dbus_1.16.2-2.debian.tar.xz 4bc35ba286891589d8ed9368da3d81db2a4d387144919850e4ea8e9ae2cf0364 3712 dbus_1.16.2-2.dsc 0ba2a1a4b16afe7bceb2c07e9ce99a8c2c3508e5dec290dbb643384bd6beb7e2 1115644 dbus_1.16.2.orig.tar.xz 108723e6bb2b0655abcb8ec7b06d27918bd7ac215f835ba086b45f9780cb529b 833 dbus_1.16.2.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "78df9de84bf5fdf853ee7e65372350f6260d9b1f3ed90b8ade38f6dcbb47144add7db3ae13b70b90a405feff11357d9a2ccd7bd80fa8f75a3f2ab1024f8e9d77 63544 dbus_1.14.10-1~deb12u1.debian.tar.xz ff12f2b6d244bca0808c4fa52b11d584b56ee71b88fab099b47a9079c07fc432d44d0d1ee8f04ff7016cff81284cff1c8bf71f0a9383a9e77e2c99f4051b9825 3804 dbus_1.14.10-1~deb12u1.dsc 775b708326059692937acb69d4ce1a89e69878501166655b5d1b1628ac31b50dd53d979d93c84e57f95e90b15e25aa33893e51a7421d3537e9c2f02b1b91bfae 1372328 dbus_1.14.10.orig.tar.xz 2a646884150f31e50b1bf2238fe21377929ceb536691fb9ef06aee25737c1a5be5ca18d8bdd8a02fdf3b00681fd26509a3e6e62a49541ef5685d09499ba9d30b 833 dbus_1.14.10.orig.tar.xz.asc"
+    "d30fc691e72268d71cb6765ac157751c4cd84ec8b8dd85e9cf351ea016db4db3f80cedf5cb38bfb8b7ca40ce971d366477a3330813d7a374de2e56481d2a3d09 66364 dbus_1.16.2-2.debian.tar.xz de5484777c8807cd618c3b0a18d1485fd5489f98c34e16bdecd600e75c037406c2c184a01712c24c965d7e7e0f255616cd654f0826728ca62100a28f9afb2bdc 3712 dbus_1.16.2-2.dsc 5c26f52d85984bb9ae1dde8d7e73921eacbdf020a61ff15f00a4c240cb38a121553ee04bd66e62b28425ff9bc50f4f5e15135166573ac0888332a01a0db1faa2 1115644 dbus_1.16.2.orig.tar.xz db5ba86498f4f90c4984f43039bb1f0e71177baa4a65d7dadb547aec897fd99275f9aacbf72e404ae1ba6d3825262be506f12c144e3474fc4bf3ce2f53dc9fe4 833 dbus_1.16.2.orig.tar.xz.asc"
   ],
   "Dgit": [
-    "3313a44d8d5df469b9dcb5194b3d4b126ad7f5a5 debian archive/debian/1.14.10-1_deb12u1 https://git.dgit.debian.org/dbus"
+    "7b202407a4ed1c0ad454d5f09a5537e434f73aad debian archive/debian/1.16.2-2 https://git.dgit.debian.org/dbus"
   ],
   "Directory": [
     "pool/main/d/dbus"
   ],
   "Files": [
-    "fc3522d5c37582104b551e330843c9a7 63544 dbus_1.14.10-1~deb12u1.debian.tar.xz 2b662445291daabfcf093730875672e7 3804 dbus_1.14.10-1~deb12u1.dsc 46070a3487817ff690981f8cd2ba9376 1372328 dbus_1.14.10.orig.tar.xz a790dcc5fd84835ed9147c9679af551f 833 dbus_1.14.10.orig.tar.xz.asc"
+    "b1925795f8c3ba743bcf943068b489b5 66364 dbus_1.16.2-2.debian.tar.xz 0e7b3c8e16d3165c54b3a7977ddab0a4 3712 dbus_1.16.2-2.dsc 97832e6f0a260936d28536e5349c22e5 1115644 dbus_1.16.2.orig.tar.xz cc33831a5978a6583644bc2bbb2dbfb3 833 dbus_1.16.2.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +45,7 @@
     "dbus deb admin standard arch=any dbus-1-doc deb doc optional arch=all profile=!nodoc dbus-bin deb admin optional arch=any dbus-daemon deb admin optional arch=any dbus-session-bus-common deb admin optional arch=all dbus-system-bus-common deb admin optional arch=all dbus-tests deb misc optional arch=any profile=!noinsttest dbus-udeb udeb debian-installer optional arch=any profile=!noudeb dbus-user-session deb admin optional arch=linux-any dbus-x11 deb x11 optional arch=any libdbus-1-3 deb libs optional arch=any libdbus-1-3-udeb udeb debian-installer optional arch=any profile=!noudeb libdbus-1-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -63,6 +63,6 @@
     "https://salsa.debian.org/utopia-team/dbus.git"
   ],
   "Version": [
-    "1.14.10-1~deb12u1"
+    "1.16.2-2"
   ]
 }

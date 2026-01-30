@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), dh-sequence-nodejs, clang, lld, mocha \u003c!nocheck\u003e, node-babel-cli, node-babel-core, node-babel-plugin-transform-modules-commonjs, terser, wasi-libc"
   ],
   "Checksums-Sha1": [
-    "53835d013b1f4db45dfc84a5529c264dd80794a1 4100 node-cjs-module-lexer_1.2.2+dfsg-5.debian.tar.xz dd8442d7145efc82f847ee1d09b7446307ed2693 2337 node-cjs-module-lexer_1.2.2+dfsg-5.dsc d9773228d7292b429853a9f615086cb8ddfb91d5 59844 node-cjs-module-lexer_1.2.2+dfsg.orig.tar.xz"
+    "e651c2b5802ae4ffe51d6a0d5dffe12cad6d8f30 3972 node-cjs-module-lexer_1.2.3+dfsg-1.debian.tar.xz e9c2ae60c72d9bbeeded6ebdde9a5b7714f1b8c4 2337 node-cjs-module-lexer_1.2.3+dfsg-1.dsc a2df34686a1872ec58da5230093a3d334b788a2d 46632 node-cjs-module-lexer_1.2.3+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "ba0519d8d37f001e1c056337aee7d92100b323a63b4dbc702d265c463371912e 4100 node-cjs-module-lexer_1.2.2+dfsg-5.debian.tar.xz 8c0fe817b848723509ae6cfa0359515db6a8f7c6ab30a57059d2fe74d3aed9c4 2337 node-cjs-module-lexer_1.2.2+dfsg-5.dsc 907c491c89f5b0871805143d9690b577aa7b75b4e7eb90d190917b026d35477a 59844 node-cjs-module-lexer_1.2.2+dfsg.orig.tar.xz"
+    "92e8d65c44a13c2c6fe1d7729ad8c25bea815082c48e7f1f11fdbe151e3f9b0c 3972 node-cjs-module-lexer_1.2.3+dfsg-1.debian.tar.xz 04886f8148a7c6b212078dac9501bb033489c125cd6d3c30b8fa5a95af9faadb 2337 node-cjs-module-lexer_1.2.3+dfsg-1.dsc 3435c56f1cf169ba0b6154b1a51b47c6516e06701f63b7b69aaeb6b0f28d866d 46632 node-cjs-module-lexer_1.2.3+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "74a3b9bdc0c19d4344d84dce4b602382046aed5cb0bebc84cc9d72c3ea1845b24c73cf7b34e026b2728ba576a0f3b243395cdffb9021f37ae5aa478c6f6e4e17 4100 node-cjs-module-lexer_1.2.2+dfsg-5.debian.tar.xz dfcba4a404e28a621b8ed974d77b45d327e7def31e8759b501f65840bb373f51d5f49d102bbb2131fde945d6fd152854023ddafb4f649807abd3991ba142849c 2337 node-cjs-module-lexer_1.2.2+dfsg-5.dsc fe3bc8bbd13bffcf34b4dc0b18c710c79bac877886bd212f475fe262cb25f6a3311f37f9b1dafc9cdc5e14590582fa55a14192fad5b75f328b1a665798eb1bd4 59844 node-cjs-module-lexer_1.2.2+dfsg.orig.tar.xz"
+    "640a7642f7b8788008f663c6666d82e46123f440526eb3a24ce376e193c23e860290af2238d90c7842d887ff34eb1345d43d014c2e0cfdf4083d27efb2ec331d 3972 node-cjs-module-lexer_1.2.3+dfsg-1.debian.tar.xz eaccbb6f34821f6313b37a520d7da4e71b640d230caf0a14ac79de5a04fd8702c581a8662c20ab5a7dd3ab68ecfd969687ef1c095d6c9b312dd4179721e7cc68 2337 node-cjs-module-lexer_1.2.3+dfsg-1.dsc 96a4ffc4e6c8667997fda0ac55ffa96368eeeba619041d700ee91351572d548b17e5ef41dfe80daa7a48ae9534b05aa35d1dcd9ead5fa2405e6c92e8ca7c0aa2 46632 node-cjs-module-lexer_1.2.3+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/n/node-cjs-module-lexer"
   ],
   "Files": [
-    "b69eced8e17c07bfbdb72b7d0861d35b 4100 node-cjs-module-lexer_1.2.2+dfsg-5.debian.tar.xz e16c401f028358e4ee95bd44743f319f 2337 node-cjs-module-lexer_1.2.2+dfsg-5.dsc 59fe24d84fd5c8e9b81c938286d2bf6f 59844 node-cjs-module-lexer_1.2.2+dfsg.orig.tar.xz"
+    "7fe3608405de1b776a04af81494e2be6 3972 node-cjs-module-lexer_1.2.3+dfsg-1.debian.tar.xz fac87cb71650ba7988514ed5d0414bfc 2337 node-cjs-module-lexer_1.2.3+dfsg-1.dsc dc68b97265472d4167ba7c1c4d31b755 46632 node-cjs-module-lexer_1.2.3+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "node-cjs-module-lexer deb javascript optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/js-team/node-cjs-module-lexer.git"
   ],
   "Version": [
-    "1.2.2+dfsg-5"
+    "1.2.3+dfsg-1"
   ]
 }

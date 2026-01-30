@@ -6,22 +6,22 @@
     "python3-py"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-setuptools-scm, python3-pytest \u003c!nocheck\u003e, subversion \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-setuptools, python3-setuptools-scm, python3-pytest \u003c!nocheck\u003e, subversion \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "bd995b7f1803433b2a848eb2773169456c44ef5b 13284 python-py_1.11.0-1.debian.tar.xz 478bbcac3bc2f9414de068fe807f52230e5b0a83 1570 python-py_1.11.0-1.dsc bb8aa4f56e3ced1cd61906495150e7ca2dacc10b 207796 python-py_1.11.0.orig.tar.gz"
+    "42bdd67e888c26365c32e77884b6a5241da2e7a0 14076 python-py_1.11.0-4.debian.tar.xz 0a0f28939add9f6ac96d6d361e4d714a4f4b5417 2187 python-py_1.11.0-4.dsc bb8aa4f56e3ced1cd61906495150e7ca2dacc10b 207796 python-py_1.11.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "e4318bbe8c6ed480ce5155d5c99f8ab9afd2d0ed58af1ebd473f7a6c8dddf8fe 13284 python-py_1.11.0-1.debian.tar.xz d82161d9446ffb1a26fd0a6d4ed07b041d557b1fc78449f0f20ee5129e691ee4 1570 python-py_1.11.0-1.dsc 51c75c4126074b472f746a24399ad32f6053d1b34b68d2fa41e558e6f4a98719 207796 python-py_1.11.0.orig.tar.gz"
+    "72d74af9f57bff05995a3fe9ac5d7d935ef1895d0e899cdee601e1be9fa39951 14076 python-py_1.11.0-4.debian.tar.xz 9defe506ca2c3f29c6d11794de9e0f20bfe178f92e0d4d38c0df0e0e54aeb5aa 2187 python-py_1.11.0-4.dsc 51c75c4126074b472f746a24399ad32f6053d1b34b68d2fa41e558e6f4a98719 207796 python-py_1.11.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f86e834b16d12a2d44c762f9c00e47db25b039de0e224944d526caaefd80aec78e19fcf84f40455fce2358993a7d777f9c043577bc3746bc274e0365448bce72 13284 python-py_1.11.0-1.debian.tar.xz 61341fe39cf68f3c0ad46b8bffd22fdf8b8536d430b28796efd9932adce269d523991caff1bafac40c081ac41c55d723196bd64b54570b8859a477129cc3585c 1570 python-py_1.11.0-1.dsc ce8dd791f9f6dd7e60a6caad32ff5cb816389a0840436efdedf4e0d4b0bfa09f7aea9e7c31d89903c72fe6ef17170a85af480525ba92c458ed73501a0420f2c4 207796 python-py_1.11.0.orig.tar.gz"
+    "a1e9264eed69076dcb4a39853e1ead86fea8dd6712c9036a649ba9cfba8883f6fa46c7bc69f3716f12a0967f71a638e46a6195dee2c301966e910e6c6281026e 14076 python-py_1.11.0-4.debian.tar.xz 0429b0383bce90ea0257f71b380a40df852be91c9efb41773c34cf37bbeb35124c50a476f7bb05d855d32e388a86a183bdd9f942912ad9ef18e3ceffb21c1ed3 2187 python-py_1.11.0-4.dsc ce8dd791f9f6dd7e60a6caad32ff5cb816389a0840436efdedf4e0d4b0bfa09f7aea9e7c31d89903c72fe6ef17170a85af480525ba92c458ed73501a0420f2c4 207796 python-py_1.11.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-py"
   ],
   "Files": [
-    "111acb3cc6c855220e3994bb53b4f72d 13284 python-py_1.11.0-1.debian.tar.xz 3a69ac6bc7f9336e1c8d65f05ae144fb 1570 python-py_1.11.0-1.dsc bde7dcc1cb452a1e10206ef2f811ba88 207796 python-py_1.11.0.orig.tar.gz"
+    "70f1522871a18064119956e24fc5147a 14076 python-py_1.11.0-4.debian.tar.xz 3c7d047f3635e8b6e9a34022f07b9112 2187 python-py_1.11.0-4.dsc bde7dcc1cb452a1e10206ef2f811ba88 207796 python-py_1.11.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python3-py deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
@@ -48,7 +48,7 @@
     "python3-all, python3-pytest"
   ],
   "Uploaders": [
-    "Ondřej Nový \u003conovy@debian.org\u003e"
+    "Alexandre Detiste \u003ctchet@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-py"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-py.git"
   ],
   "Version": [
-    "1.11.0-1"
+    "1.11.0-4"
   ]
 }

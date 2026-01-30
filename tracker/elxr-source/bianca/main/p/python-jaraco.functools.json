@@ -6,22 +6,22 @@
     "python3-jaraco.functools"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-jaraco.classes \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm"
+    "debhelper-compat (= 13), dh-python, dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-jaraco.classes \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm"
   ],
   "Checksums-Sha1": [
-    "d8c37b140438f5450c5b550804f34217ec77ba94 3492 python-jaraco.functools_3.5.0-1.debian.tar.xz 4b452e928141884ec4a8537264f78e075d1ed84f 2310 python-jaraco.functools_3.5.0-1.dsc b1a4390d1f31451473cb31b114224725a49f679f 11794 python-jaraco.functools_3.5.0.orig.tar.gz"
+    "cdf04e054908a33177365e77bdeea2e331bb9066 3456 python-jaraco.functools_4.1.0-1.debian.tar.xz 588279343f20f68320577e5210659bbc0f29b9a5 2188 python-jaraco.functools_4.1.0-1.dsc 5cd25921fcc3cb22ec5ce016bf5cba8c58b9aff1 16421 python-jaraco.functools_4.1.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "1b0063f8a19b5e72c6fc15ac606935d43a652cffa4976ed05f828aaf44c094e2 3492 python-jaraco.functools_3.5.0-1.debian.tar.xz 404abee2db16a5f437e97551be7f59f90cc021b20894ab4ec2cae752f12c4e53 2310 python-jaraco.functools_3.5.0-1.dsc cbb5d7727b176cfb13621d47bb3f86302362bbb91effffd673b0a5bc40b0955a 11794 python-jaraco.functools_3.5.0.orig.tar.gz"
+    "080dbf50c2c4e5b875b0ef0376124fcfd439e6a8d57069f846b7c02743f56a24 3456 python-jaraco.functools_4.1.0-1.debian.tar.xz 129a43d73e117e934426b014f1d7ad59f6e760682d4a9461cd05869083fcd382 2188 python-jaraco.functools_4.1.0-1.dsc b3c6c10eca73c1f1b7d110a4340f1e0359f78734c610da1472b485260b5f2da0 16421 python-jaraco.functools_4.1.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c77a5801318382ce29ddae42a95db30e18a50b75da9a3e31a1e0abaea534b6744e62971a1b2a41ca291ef82a73005a54f7c501fef518a0cf3a9494421487e717 3492 python-jaraco.functools_3.5.0-1.debian.tar.xz c28e65e6519350a07ab3cc195a061eccdcc933e772e51d0c4dc0290a1ac4a17f2cdf14cc3dbe6f0ab9c3fca3ea36c11acc12dc73acd9b42efe49ead4b2acdb53 2310 python-jaraco.functools_3.5.0-1.dsc da4e0654e98c4fd28dd69750ce5f7c107e3c4c145098616cda83ce49ca49e9daf2dc2a69db89271f27bd152de8ed4cf3df3266658e8e0926f3d3d11f3c272e68 11794 python-jaraco.functools_3.5.0.orig.tar.gz"
+    "496e964f6a457cad57eac582ebce83c37cd72450e73584259e68baf595ad45b03f301947d54d8a46a2661d8fc1c9f7d0be01d0ef08ee391fc9705866e0e856b4 3456 python-jaraco.functools_4.1.0-1.debian.tar.xz 4dee6bb2ffeaf56849016c29d8ed48485afd343313bef2c13826a5ef2741db8e9addb4ba369ef9f2e8f0957f2ae1d39523d345c193a10b88d1b49ecc67627f66 2188 python-jaraco.functools_4.1.0-1.dsc fe2e77775e519dca3390ef43b47a7278b7263a83c68de0d52940f1d0ca019cf3a2f7cc4b38b0e3da66b13329be9873124e059fe15376ce1a7b339aa5d8f35742 16421 python-jaraco.functools_4.1.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-jaraco.functools"
   ],
   "Files": [
-    "df4cbcd361cc0a26be67129242186ca6 3492 python-jaraco.functools_3.5.0-1.debian.tar.xz d2cb13a122bf2e2c0ef4297fa21785d6 2310 python-jaraco.functools_3.5.0-1.dsc 66d99fabcab9cbde0d0ef1ede45de49d 11794 python-jaraco.functools_3.5.0.orig.tar.gz"
+    "ad60939fdf46bfbac4b8d6fbd573124f 3456 python-jaraco.functools_4.1.0-1.debian.tar.xz eb6b8fb947d4087d4a18228e2f290ca7 2188 python-jaraco.functools_4.1.0-1.dsc 269ae41a856a7d7422957fc42cd1290e 16421 python-jaraco.functools_4.1.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,24 +39,18 @@
     "python3-jaraco.functools deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "python3-all, python3-jaraco.classes, python3-pytest"
-  ],
-  "Uploaders": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+    "autopkgtest-pkg-pybuild"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/python-team/packages/python-jaraco.functools"
+    "https://salsa.debian.org/jcfp/jaraco.functools"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/python-team/packages/python-jaraco.functools.git"
+    "https://salsa.debian.org/jcfp/jaraco.functools.git"
   ],
   "Version": [
-    "3.5.0-1"
+    "4.1.0-1"
   ]
 }

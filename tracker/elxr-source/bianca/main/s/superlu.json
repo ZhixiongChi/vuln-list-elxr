@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libsuperlu5, libsuperlu-dev, libsuperlu-doc"
+    "libsuperlu7, libsuperlu-dev, libsuperlu-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gcc (\u003e= 3.0), gfortran, cmake, libblas-dev | libopenblas-dev | libatlas-base-dev | libblas.so"
+    "debhelper-compat (= 13), gfortran, cmake, libblas-dev | libopenblas-dev | libatlas-base-dev | libblas.so"
   ],
   "Checksums-Sha1": [
-    "2333a81f5fe06e4c3573e6bdb3bb999ba34b5e53 6688 superlu_5.3.0+dfsg1-2.debian.tar.xz 01d8363c5d62c90b3cb38cf6f1c0a04835c0082b 2240 superlu_5.3.0+dfsg1-2.dsc f845dfedc53598a3ba52e4666a0766ca2bce1b91 714008 superlu_5.3.0+dfsg1.orig.tar.xz"
+    "38b589eb79b0e207ea0f1efeb0b9c12fed01e9ed 7472 superlu_7.0.1+dfsg1-2.debian.tar.xz 04725b7af06f109cda357398971962564c4ddbb6 2226 superlu_7.0.1+dfsg1-2.dsc 8f7d510c5bc999256450055c0114c2245e475c7a 723168 superlu_7.0.1+dfsg1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "e300daf3f86ed8c5139eb517f7fa87c9cace011407e310b0cb3212c213f55d5c 6688 superlu_5.3.0+dfsg1-2.debian.tar.xz fa6a0d0ac60545ca10207fc0a366f381ddf71181b939a7ae25af67f9c436aeee 2240 superlu_5.3.0+dfsg1-2.dsc 26c1e07981ccb64b994fbe6ba241f056a3c42289f32555952e0f799baf65ef2f 714008 superlu_5.3.0+dfsg1.orig.tar.xz"
+    "426d2857157530ae8330ea918400b66514b814cfc563d27041daa2f812833f05 7472 superlu_7.0.1+dfsg1-2.debian.tar.xz b3e888ca6e3061bdcbd001d121efb7e1d6e8b9f484e39624f3e903a319b2d4b7 2226 superlu_7.0.1+dfsg1-2.dsc 50b896aa4991397b6a3587a14125819ab2649a59097b31015edfff7b2605f468 723168 superlu_7.0.1+dfsg1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "004eead02371f6513b0f0d878a6456e8c99461d14f61cd322c41669ef2cdd1bb59d7f3680e7bb9b3718824c84c1684aabb411c6aa7066f61d9c24106c6152772 6688 superlu_5.3.0+dfsg1-2.debian.tar.xz f7486ed3f8b439522bad072ada176e4f9e6183775942547bce96eca1c095cc48989246a01faec3e4e98aa6ec47031b2c40d7fc3182e4d14d98430da924a467a7 2240 superlu_5.3.0+dfsg1-2.dsc 25a65a06bc9009d8b9aaff96577582e0fe2e6186c80b861bfb427c291409f86c6361b8cc020e18ffa99ed9f7ad35a8bdaedf58ce605a154a0b16c0cb1e05695b 714008 superlu_5.3.0+dfsg1.orig.tar.xz"
+    "835e587b840552ccbab89cba56129dd71144328b1675557a1788e1e989a6d2c519adbd3ff437dd05c8a6c7e95bcbba3fc039ca057828a3bda18ad040493de0fe 7472 superlu_7.0.1+dfsg1-2.debian.tar.xz f1a34ab0be09c1c72fdff79e09a7ec6b679f9cfb8f661b4441ee08538f7bc15b7e064ae5b410958cb8bf7148cb1d342a1ee1da0e5f924dc3f820e5e3a68c9392 2226 superlu_7.0.1+dfsg1-2.dsc 143cb1eabc27a38ed25dd69a0094e8e90503c7a54a7e8dd28f173ce9416a06e8f7624ccf0674adbd93777168c18f115f8082bd6e753b55fedb41f6b85179575b 723168 superlu_7.0.1+dfsg1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/s/superlu"
   ],
   "Files": [
-    "5302d0c586f2004f9e09807ec0cc66b0 6688 superlu_5.3.0+dfsg1-2.debian.tar.xz 3895d136a2a1ef53738e7374138dc0aa 2240 superlu_5.3.0+dfsg1-2.dsc e8faa603fa09e87f09afe47519a664e6 714008 superlu_5.3.0+dfsg1.orig.tar.xz"
+    "23885a7fe7c8d58b776adecddeeb013d 7472 superlu_7.0.1+dfsg1-2.debian.tar.xz 1b01076d7f1a04f63e7b71f62e069944 2226 superlu_7.0.1+dfsg1-2.dsc bb625161d48757b86add6927bcf0e69b 723168 superlu_7.0.1+dfsg1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "superlu"
   ],
   "Package-List": [
-    "libsuperlu-dev deb libdevel optional arch=any libsuperlu-doc deb doc optional arch=all libsuperlu5 deb libs optional arch=any"
+    "libsuperlu-dev deb libdevel optional arch=any libsuperlu-doc deb doc optional arch=all libsuperlu7 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/science-team/superlu.git"
   ],
   "Version": [
-    "5.3.0+dfsg1-2"
+    "7.0.1+dfsg1-2"
   ]
 }

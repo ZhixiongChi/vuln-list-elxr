@@ -6,22 +6,22 @@
     "golang-github-rogpeppe-go-internal-dev, go-internal"
   ],
   "Build-Depends": [
-    "ca-certificates, debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-pkg-diff-dev (\u003e= 0.0~git20210226.20ebb0f)"
+    "ca-certificates, debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.20~), golang-golang-x-mod-dev (\u003e= 0.9.0), golang-golang-x-sys-dev (\u003e= 0.0~git20220722.8c9f86f), golang-golang-x-tools-dev (\u003e= 1:0.1.12)"
   ],
   "Checksums-Sha1": [
-    "eb4ddb59a308166a9e0352dc8e2cdae688dbbb68 4284 golang-github-rogpeppe-go-internal_1.9.0-1.debian.tar.xz 10ca76142b2aa928e602b8e59608511658fcd3b6 2475 golang-github-rogpeppe-go-internal_1.9.0-1.dsc 69fbce5b5c6a1de2b2b70f2c0997677c55a88ef0 133671 golang-github-rogpeppe-go-internal_1.9.0.orig.tar.gz"
+    "7cd78fe61062e44eb6b58ebcf8c6d8bef5047215 5336 golang-github-rogpeppe-go-internal_1.12.0-3.debian.tar.xz 6e3789628006b45c35b50c823ff24c73b5e7e243 2569 golang-github-rogpeppe-go-internal_1.12.0-3.dsc 5b7c80953c244a8603b53cb8b5dd838e780b2751 116899 golang-github-rogpeppe-go-internal_1.12.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "5e99a9ddddfcd4c2d73a1c24f4b4b115a82b812612915b9fdc8dd5927c386db2 4284 golang-github-rogpeppe-go-internal_1.9.0-1.debian.tar.xz 62d04618d4c0cb79dc7bdb5e1509e70a7649ec9dc81db9f7e6abe7fca662152a 2475 golang-github-rogpeppe-go-internal_1.9.0-1.dsc a8223943815523c3e49ac1731c323fd7b949b74ecfc151e8201064ab351a6f42 133671 golang-github-rogpeppe-go-internal_1.9.0.orig.tar.gz"
+    "63d44ecc7d854cdcd46c7d5b678df8c3f40208394de648ff855cfdeea370dd94 5336 golang-github-rogpeppe-go-internal_1.12.0-3.debian.tar.xz 6fde1e78d0154b4d1ac43a7dcbf72c6c7f74c9ac057b6a60a9d1477bea00f710 2569 golang-github-rogpeppe-go-internal_1.12.0-3.dsc b51d588d05f3e82d3045545ef46bd758a0610b9cfde1ae243489a593908b6060 116899 golang-github-rogpeppe-go-internal_1.12.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "4200bd1770236c4fed86bba409cd3218400618bb4922f37773e827217be6bbc219b39e2623a1496370b0aa12b204a5c19dde2fe0fc90f45a64ba4fab66daf0b0 4284 golang-github-rogpeppe-go-internal_1.9.0-1.debian.tar.xz f61362a815e23e39dd3d144036f741b9ca8874b4f2bc5f996e8570b33e08656240b89b5f9c1caeb5b670e05d72a3e6566f73ef20d7d6f9520a6c5c1ef15c3831 2475 golang-github-rogpeppe-go-internal_1.9.0-1.dsc 9c3df24b964ccf75c9b878e7a2c38c4e534bea7a020c7736dea43a7c9b11013d250dd948725b061c98e9bc89c5c67b8fdd972a4d109a173f721d17e9f446af09 133671 golang-github-rogpeppe-go-internal_1.9.0.orig.tar.gz"
+    "bcf8ee604b7c54336c92a018eb0c0d21b0a917e7221ba6b9995dc8eeaa366daad46fb4a5e3502348b2a4e5a48b14785d94cc4f913baab09845830d2f1525c13e 5336 golang-github-rogpeppe-go-internal_1.12.0-3.debian.tar.xz adb10676c7ab3796ba3224a256fda92d8c6c8136706906f600919e62f128edef2301f9b7e19a58589423b1a937fc97b70a897c2cbae701f5cfc4a16c57f9fd42 2569 golang-github-rogpeppe-go-internal_1.12.0-3.dsc 91d8f5f702943d5b8147079b62ce1665a4a7bae7ad8da61b69bbe85c0bf4ea34c51538429a76526d7e2e99d691febb7411d9bdc13e8d2d721d04d5bc6a05cbfb 116899 golang-github-rogpeppe-go-internal_1.12.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-rogpeppe-go-internal"
   ],
   "Files": [
-    "193def97dc61142ff7e5add31918bdbe 4284 golang-github-rogpeppe-go-internal_1.9.0-1.debian.tar.xz 3ded83cd60605ab5f59477f145fa172e 2475 golang-github-rogpeppe-go-internal_1.9.0-1.dsc 11e0eb1bdbcc1de7efd88ba73bbb5440 133671 golang-github-rogpeppe-go-internal_1.9.0.orig.tar.gz"
+    "e033c1e053d8b2576bd0d2280300c17f 5336 golang-github-rogpeppe-go-internal_1.12.0-3.debian.tar.xz 3d7a3a3e14a4f049be0b012f0b27aa76 2569 golang-github-rogpeppe-go-internal_1.12.0-3.dsc cf726a1bcd3dd219efc9fcb2df261241 116899 golang-github-rogpeppe-go-internal_1.12.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "go-internal deb golang optional arch=any golang-github-rogpeppe-go-internal-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-rogpeppe-go-internal.git"
   ],
   "Version": [
-    "1.9.0-1"
+    "1.12.0-3"
   ]
 }

@@ -6,22 +6,25 @@
     "mypy, mypy-doc, python3-mypy"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-setuptools, pybuild-plugin-pyproject, python3-wheel, flake8, help2man, python3-all, python3-lxml, python3-pytest-xdist \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, furo \u003c!nodoc\u003e, python3-typeshed, python3-psutil, python3-mypy-extensions, python3-typing-extensions, python3-virtualenv \u003c!nocheck\u003e, python3-all-dev, python3-tomli, python3-venv \u003c!nocheck\u003e, python3-doc \u003c!nodoc\u003e, cython-doc \u003c!nodoc\u003e, python-six-doc \u003c!nodoc\u003e, python-setuptools-doc \u003c!nodoc\u003e, python-attr-doc \u003c!nodoc\u003e"
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, python3-setuptools, pybuild-plugin-pyproject, flake8, help2man, python3-all, python3-lxml (\u003e= 4.9.1), python3-attr \u003c!nocheck\u003e, python3-pytest (\u003e= 8.1.0) \u003c!nocheck\u003e, python3-pytest-xdist \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, furo \u003c!nodoc\u003e, python3-typeshed, python3-psutil, python3-mypy-extensions (\u003e= 1.0.0), python3-typing-extensions (\u003e= 4.10.0), python3-virtualenv \u003c!nocheck\u003e, python3-all-dev:native, libpython3-all-dev, python3-tomli \u003c!nocheck\u003e, python3-venv \u003c!nocheck\u003e, python3-doc \u003c!nodoc\u003e, cython-doc \u003c!nodoc\u003e, python-six-doc \u003c!nodoc\u003e, python-setuptools-doc \u003c!nodoc\u003e, python-attr-doc \u003c!nodoc\u003e, python3-myst-parser \u003c!nodoc\u003e, python3-sphinx-inline-tabs \u003c!nodoc\u003e, python3-orjson [!i386 !alpha !hppa !m68k !sh4 !x32] \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "de04faabe86a00be7b6f5ddf34154aaffe824b69 12940 mypy_1.0.1-1.debian.tar.xz ead9dee9cd5b0e13693c19ad1c036960341ba0b3 2707 mypy_1.0.1-1.dsc 9c8d753502550d640ffdf06275fd5af335432984 2755325 mypy_1.0.1.orig.tar.gz"
+    "a493fb6029475a6e526aa0045393403f09ceb008 20004 mypy_1.15.0-5.debian.tar.xz 6cf9d9f7cbf45be46f3511b178aa83304c3a4916 3155 mypy_1.15.0-5.dsc d79b8868de2c514be7411bd3064917a501e200b7 3239717 mypy_1.15.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "ecd79a1fe3c3c71f4a0963fa3a6e0a0df5a65f38b2d1296223bebba1e10915f8 12940 mypy_1.0.1-1.debian.tar.xz c41b75d0809d10b871e3bb44ec0ca833e0160bcb321cccf576960f79d0d2f46c 2707 mypy_1.0.1-1.dsc 28cea5a6392bb43d266782983b5a4216c25544cd7d80be681a155ddcdafd152d 2755325 mypy_1.0.1.orig.tar.gz"
+    "c17dc7334d51b7cee31c9ff48003b48ee7305bd3af58cc4d2bf7bd412b8ca863 20004 mypy_1.15.0-5.debian.tar.xz 228cf1d3f3b463631fb05e7bbf91568a8cb176adce2e3294e2a960a0cd6aaf2a 3155 mypy_1.15.0-5.dsc 404534629d51d3efea5c800ee7c42b72a6554d6c400e6a79eafe15d11341fd43 3239717 mypy_1.15.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "9ee3161bf459dc870fe32e3adecb0f313ee33b85007ba51e1b4ea7bd3d2fb4b56d1d2e16faa287539e53be97c95872906bf6502836585103ba0e7219b8803493 12940 mypy_1.0.1-1.debian.tar.xz 636b21ea5ce2705df353f1240cea443550e7dca7da41f9737ceebe86fdb48813a43cfe900b7f5462adffb259aeb800411a534d63baa9a8656f3beb8336de66b3 2707 mypy_1.0.1-1.dsc 254c952e283cbcbeee55fcd7c2cb0a9cdef0c75fddb43c0918ce618a4ff8e4508658ec16529e71d653f8ebcc4987ec95eb1fa7b31759197ef552bbea03a87d4f 2755325 mypy_1.0.1.orig.tar.gz"
+    "e8d9926169c8f40ca18104734b09fbf74fe89803e09886a08a0c836254987d2dbcba4b4e0c0cfd36e51d84ffbc7e2f2ddb49911774e62ef12c9cb661849eabed 20004 mypy_1.15.0-5.debian.tar.xz 5de6b70ed99cfe7159b666876b36251c94615eac341f07242f9c5975071ed2d4ba72bd5384ce445d7ec8e1494e0a7f35ef70e57364d45eaa510b71d0591b417e 3155 mypy_1.15.0-5.dsc c5e5c1822ea1eadf94837a0382d047330e7159254049f7c77e50427999e9f17e914a74cae40b1f1d06df17c20ac0d3753e322ee9cb688056831acb954be5456c 3239717 mypy_1.15.0.orig.tar.gz"
+  ],
+  "Dgit": [
+    "76c785d0b1ca2f46d7fde0e9b0cb1acac41bce23 debian archive/debian/1.15.0-5 https://git.dgit.debian.org/mypy"
   ],
   "Directory": [
     "pool/main/m/mypy"
   ],
   "Files": [
-    "69167cd5e5013c5c8c067c0eacf4273e 12940 mypy_1.0.1-1.debian.tar.xz 43552cd12fdedc943bd2f345b621c858 2707 mypy_1.0.1-1.dsc 5da1bfc34ab0564e757dde30a3fb3413 2755325 mypy_1.0.1.orig.tar.gz"
+    "d638f0403f64159cf619af20ac3d04d2 20004 mypy_1.15.0-5.debian.tar.xz 58f08e9d7afaf4bd08f5daf9e7f30ebf 3155 mypy_1.15.0-5.dsc 7ef4185d545d0e296e8c1f12bb653a78 3239717 mypy_1.15.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +42,13 @@
     "mypy deb utils optional arch=all mypy-doc deb doc optional arch=all profile=!nodoc python3-mypy deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
   ],
   "Testsuite-Triggers": [
-    "gcc, python3-dev, python3-lxml, python3-pytest-xdist, python3-setuptools, python3-tomli, python3-typeshed, python3-virtualenv"
+    "g++, gcc, python3-dev, python3-lxml, python3-orjson, python3-pytest, python3-pytest-xdist, python3-setuptools, python3-tomli, python3-typeshed, python3-virtualenv"
   ],
   "Uploaders": [
     "Michael R. Crusoe \u003ccrusoe@debian.org\u003e"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/mypy.git"
   ],
   "Version": [
-    "1.0.1-1"
+    "1.15.0-5"
   ]
 }

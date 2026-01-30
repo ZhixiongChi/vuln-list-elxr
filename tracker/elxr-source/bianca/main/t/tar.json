@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "any"
+    "any all"
   ],
   "Binary": [
     "tar, tar-scripts"
   ],
   "Build-Depends": [
-    "debhelper (\u003e\u003e 10), gettext, autoconf, automake, autopoint, bison, libacl1-dev, libselinux1-dev [linux-any]"
+    "debhelper-compat (= 13), dh-exec, gettext, autoconf, automake, autopoint, bison, libacl1-dev, libselinux1-dev [linux-any]"
   ],
   "Checksums-Sha1": [
-    "14af8130f92f0812982131201d88032157b52b3b 21464 tar_1.34+dfsg-1.2+deb12u1.debian.tar.xz b041848f934f959206db89805cfd81d0965a3e18 2185 tar_1.34+dfsg-1.2+deb12u1.dsc 4f37d162cb262830092ae25aab61abb08785181c 1981736 tar_1.34+dfsg.orig.tar.xz"
+    "3741fabff56ede7bf8448ef7f5069b25ca36b761 21540 tar_1.35+dfsg-3.1.debian.tar.xz f0a9bdc3c47cf3b0e7864db3e7a8876a9d61ebf1 2017 tar_1.35+dfsg-3.1.dsc d910d9a9dc1252a793ca1837ac4f1080a64fca1f 2111608 tar_1.35+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "e7cdc112e6810a0827b6081f6a4115eb630679a5f3d7cceffbc236d6b8d46d69 21464 tar_1.34+dfsg-1.2+deb12u1.debian.tar.xz c092b25be17ab3b138aabb756497b038516a3f7d23604ccd4bf76ebbabff7a27 2185 tar_1.34+dfsg-1.2+deb12u1.dsc 7d57029540cb928394defb3b377b3531237c947e795b51aa8acac0c5ba0e4844 1981736 tar_1.34+dfsg.orig.tar.xz"
+    "0d0278034b82ed84dce04a461879b6e1871e4cb416a0ff04d3d35ff05fc30a53 21540 tar_1.35+dfsg-3.1.debian.tar.xz 5bb58d4966d94c99a9f1b182676089ecc05058d62fdb927f5c07539d9cda4077 2017 tar_1.35+dfsg-3.1.dsc 9ae57e981c1e73c0eebc2b26c9b0c4497fe310ef1d516ea430efb5470b71f7a8 2111608 tar_1.35+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "6c7031a63a2fc9264bd50617ee01869a38570affeca1e0028976d144ee5af5ebb33e204e5fe394e152451fe1d5d0bac0b5a3cd7fb6f6a36e6e8caecea0822a39 21464 tar_1.34+dfsg-1.2+deb12u1.debian.tar.xz e541879a9d098f5f76ff3a50a1cdd63c9c2366f6ca2b2fab6210552c1abb3f5f695565459a84fe4a455b6ff3d70498f757870c1203bdb32dea9f4f1c37502fb9 2185 tar_1.34+dfsg-1.2+deb12u1.dsc ec5553c53c4a5f523f872a8095f699c17bf41400fbe2f0f8b45291ccbaf9ac51dea8445c81bd95697f8853c95dcad3250071d23dbbcab857a428ee92e647bde9 1981736 tar_1.34+dfsg.orig.tar.xz"
+    "dd2f35961b183870644c62191b1cc60c2ddf29127e895757c249e65f2299d8b642b43f57e875f0a68bf894637d83a45132e01eecff361655963dcc1d393b4198 21540 tar_1.35+dfsg-3.1.debian.tar.xz 5659687f13ffd338bb7fb31427d0945dfef0e31cee1f5e646e32884c3927699d007dcb4128c0e5d2c8d886080ba47cfadc7d00abe75ee16c8f5f5ddfbd109e03 2017 tar_1.35+dfsg-3.1.dsc 3aea32b5c8de229131308420d8a7aa57f7fd1b376980456dd1aa66f97509572750c3833ab9cc2edc6fdea51f802033598c83a0d6e7f18680b1638996f0acaae7 2111608 tar_1.35+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/t/tar"
   ],
   "Files": [
-    "26a7b3ee6e105b5df13067a00556411d 21464 tar_1.34+dfsg-1.2+deb12u1.debian.tar.xz a455ecd2185dbe8cf3f70fd8e609b331 2185 tar_1.34+dfsg-1.2+deb12u1.dsc a5777dd3e21dd72bb44244845f0b6fcb 1981736 tar_1.34+dfsg.orig.tar.xz"
+    "d85e6f437b524cadaf8514c1ce0cca65 21540 tar_1.35+dfsg-3.1.debian.tar.xz f098ac731829bc060068425e6cd0a3f4 2017 tar_1.35+dfsg-3.1.dsc 9e853834ac6ec4dc3b62b0325b7a33f6 2111608 tar_1.35+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "tar"
   ],
   "Package-List": [
-    "tar deb utils required arch=any essential=yes tar-scripts deb utils optional arch=any"
+    "tar deb utils required arch=any essential=yes tar-scripts deb utils optional arch=all"
   ],
   "Standards-Version": [
-    "4.3.0"
+    "4.6.2"
   ],
   "Uploaders": [
     "Carl Worth \u003ccworth@cworth.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/tar.git"
   ],
   "Version": [
-    "1.34+dfsg-1.2+deb12u1"
+    "1.35+dfsg-3.1"
   ]
 }

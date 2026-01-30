@@ -3,28 +3,28 @@
     "all"
   ],
   "Binary": [
-    "libbcel-java, libbcel-java-doc"
+    "libbcel-java"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libcommons-lang3-java, libjna-platform-java, libmaven-bundle-plugin-java, libmaven-javadoc-plugin-java, junit4, maven-debian-helper (\u003e= 2.1~)"
+    "debhelper-compat (= 13), libassertj-core-java, libcommons-exec-java, libcommons-lang3-java, libecj-java, libjna-platform-java, libmaven-bundle-plugin-java, libmaven-javadoc-plugin-java, libmockito-java, junit5, maven-debian-helper (\u003e= 2.1~)"
   ],
   "Build-Depends-Indep": [
-    "default-jdk, default-jdk-doc"
+    "default-jdk"
   ],
   "Checksums-Sha1": [
-    "10bd2035840f0b63fd4b11f7849a5efa953e072a 7312 bcel_6.5.0-2.debian.tar.xz 1bafff4f90f313851d2a3bd7707d46bbd626206b 2322 bcel_6.5.0-2.dsc da213005869e74facf518ba22967b047ef5c00a4 707820 bcel_6.5.0.orig.tar.xz"
+    "0b1e9d31f82a4cd8831026fa0899e971a938d4dd 7064 bcel_6.10.0-1.debian.tar.xz 48edf7910f073e1e18f879eca7c60b21f4fccee1 2197 bcel_6.10.0-1.dsc 2960743a22330e9d186b026cf6899c0ada5aa495 761432 bcel_6.10.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "63cbfd5456497c433e2847fb340f73d6cf3a4cfbcbebfca11498228b4b6250e5 7312 bcel_6.5.0-2.debian.tar.xz bbfde2fa4cc4fa80bc01cdd5f582c47996cad38af13ff7c49d9ce1769556a01f 2322 bcel_6.5.0-2.dsc 14c4489220b11643b9cdbaa8b5d0521f593d296f00aae1025ca7052cd7940422 707820 bcel_6.5.0.orig.tar.xz"
+    "2a6655faad9b46b80ac6b40db56ac3bb50b38a773ba73ed0beaa84a5bf8496ce 7064 bcel_6.10.0-1.debian.tar.xz 1e6bb3ecd4a24be547c8bec7d25a8c102d4082e6bf333c23fd5241e5dbff7e57 2197 bcel_6.10.0-1.dsc 5b7472fff768d8352d13995e048a3f7ba475ed08c5255991e94b625829d48540 761432 bcel_6.10.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "d51295e6b17b826542b1876d1b2131f9980fade1cb971274454dfde06d0f41676f8849477a974ac8af2c30b394dbdac170b457fc2dd8f17d58d15330a66200e9 7312 bcel_6.5.0-2.debian.tar.xz 461009ac4c9be141d6921d2b3421bbe7916b962018c57a7ca4fb6b4f2061fc5fc2e5ac6211448a788d883f79fb51989f013a2a71efde68fa2db53fc4c730ea54 2322 bcel_6.5.0-2.dsc 81ae07a03ffd4c22e4f866dcfae0a5f6ac7d5b17b5209d0b2d6a97c44ce526329318509487cf51722098b42d8dadaa8e4f31432f47d8b29635b457fccf2770ae 707820 bcel_6.5.0.orig.tar.xz"
+    "63f01ed128f32993f9251bfbe6909de6901dce9ea4a3a57cf018e8bdf483e0ee60e0f756b02391ae51726e69fc7854efcd450302d1d88a960e75ce21bccb4387 7064 bcel_6.10.0-1.debian.tar.xz c44136b982f56455cbf608c102539fa14d59d4f7c6ec1954c5dbf723f2abe441ed297d87e22b591dff5a7576b90a7eaeff096faeabf48fb1b73962362909af80 2197 bcel_6.10.0-1.dsc 2744440e6af255ff548bc39cd69c1dd3c24a58bb96bcf72a1a11ee1d240150e56d644a376334ac481bf77f4ec91d1d058d903c6820127b590038ae2db9f9ffff 761432 bcel_6.10.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/b/bcel"
   ],
   "Files": [
-    "907527ef1754cefe6e684b27c6c0c912 7312 bcel_6.5.0-2.debian.tar.xz 72745ebda82b1d91a7d24581c45fe3e1 2322 bcel_6.5.0-2.dsc 03ca482ec9fc77fb8ab4a8c742e375fc 707820 bcel_6.5.0.orig.tar.xz"
+    "f62fdd427376f767dd5ad817de340d84 7064 bcel_6.10.0-1.debian.tar.xz c4c938156917c6bfb6e1b2af6c196c86 2197 bcel_6.10.0-1.dsc 05919396531b4e720049dde91b67f0c6 761432 bcel_6.10.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "bcel"
   ],
   "Package-List": [
-    "libbcel-java deb java optional arch=all libbcel-java-doc deb doc optional arch=all"
+    "libbcel-java deb java optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Uploaders": [
     "Torsten Werner \u003ctwerner@debian.org\u003e, Emmanuel Bourg \u003cebourg@apache.org\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/java-team/bcel.git"
   ],
   "Version": [
-    "6.5.0-2"
+    "6.10.0-1"
   ]
 }

@@ -5,26 +5,29 @@
   "Binary": [
     "netavark"
   ],
+  "Build-Conflicts": [
+    "librust-zbus-1-dev"
+  ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, librust-anyhow-dev, librust-atty-dev, librust-chrono-dev, librust-clap-3+derive-dev (\u003e= 3.2.23), librust-env-logger-dev (\u003e\u003e 0.9), librust-futures-dev, librust-fs2-dev, librust-humantime-dev, librust-ipnet+serde-dev, librust-iptables-dev, librust-libc-dev, librust-log-dev, librust-netlink-packet-route-dev, librust-nix-dev, librust-rand-dev, librust-rtnetlink-dev, librust-serde+derive-dev, librust-serde-json-dev, librust-serde-value-dev, librust-sha2-dev, librust-simple-error-dev, librust-strsim-dev, librust-sysctl-dev, librust-termcolor-dev, librust-tokio+full-dev, librust-url-dev, librust-zbus-dev (\u003e= 1.9.2-4), librust-zvariant-dev, libstd-rust-dev, rustc:native \u003c!nocheck\u003e"
+    "cargo:native \u003c!nocheck\u003e, debhelper-compat (= 13), dh-cargo (\u003e= 25), librust-anyhow-dev, librust-atty-dev, librust-chrono-dev, librust-clap+derive-dev (\u003e= 4.1), librust-env-logger-0.11-dev, librust-fs2-dev, librust-futures-dev, librust-http-dev (\u003e= 0.2.11), librust-humantime-dev, librust-hyper-util-dev, librust-ipnet+serde-dev, librust-iptables-dev, librust-libc-dev, librust-log-dev (\u003e= 0.4.24), librust-macaddr-dev, librust-mozim-dev (\u003e= 0.2.3), librust-netlink-packet-route-0.21-dev, librust-nftables-dev, librust-nispor-dev, librust-nix-dev (\u003e= 0.27), librust-prost-dev (\u003e= 0.12), librust-rand-dev, librust-rtnetlink-dev, librust-rustversion-dev, librust-serde+derive-dev, librust-serde-json-dev, librust-serde-value-dev, librust-sha2-dev, librust-strsim-dev, librust-sysctl-dev (\u003e= 0.5), librust-termcolor-dev, librust-tokio+full-dev, librust-tokio-stream-dev, librust-tonic-build-dev, librust-tonic-dev, librust-url-dev, librust-zbus-dev, librust-zvariant-dev, libstd-rust-dev, rustc:native \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "5e9bc62bc629b560c0de5aab107b73d9a007ce76 3928 netavark_1.4.0-3.debian.tar.xz f7f24e2621610fc8907d10615ea693609edeb64e 2800 netavark_1.4.0-3.dsc 3f326e626b72b53951404eca2203a80a288f0ae4 72904 netavark_1.4.0.orig.tar.xz"
+    "82a8f9f20e1b5c9181e86f657b1f4dbac2e69430 8404 netavark_1.14.0-2.debian.tar.xz 6f39858da6ad58e13e29b09fa0637813008fb975 3156 netavark_1.14.0-2.dsc a2e3493e5d18fba5efae4a356be360c51a257220 174923 netavark_1.14.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "e9fdfe3cd138c1a1f9719e78b6a08b961a694bf1bc13423e820c572d5340a325 3928 netavark_1.4.0-3.debian.tar.xz 53253e2414637a4924ada0528faea64ced5440c6d7948442222be047dcdd8cd0 2800 netavark_1.4.0-3.dsc c9738c5cb431081b0106f905a379d1f1cea30aac7d978c64a6e85a8c1e9de7f4 72904 netavark_1.4.0.orig.tar.xz"
+    "258cccf64ce57a907f79974f6464eb18c6740b0d146918b1be6428ea49419978 8404 netavark_1.14.0-2.debian.tar.xz 40163eb1f27355c5bc106b7fd12467fe6f52177909671a81adc74ecaf21a50ca 3156 netavark_1.14.0-2.dsc b58615fdcb1784b7ea26aacf740e59e8c818f4a1557da075167615d26158edd5 174923 netavark_1.14.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "b01641fc47a9c49412bad88e03b5781ccf603bf455742d3275eb5867d663305955fc8d323c8d249f0bf6c5700e50900032ba20306ea40fc31e183e967f0c8167 3928 netavark_1.4.0-3.debian.tar.xz 087c2e0cf5dc19826c4307d12b42352cb7a1bb4e9c32173e6f89b3a52b2eba72d0c20fc3847543cee6613eebea6da6afb980315d3b297f4c072a845f98e91fdb 2800 netavark_1.4.0-3.dsc 76b188cdd60e37d852b324ed9c2349207824f366e993b1299403065ba30af5dc027014c6a12be2b49af33fb9acbf3ec287fda6547a34d34816dd6e575e5efa30 72904 netavark_1.4.0.orig.tar.xz"
+    "a030c410e58f8385376dc576fb1fe7d681b3a10c1d5f321cb2ce06250d4da920651fe21ea9940ee9eeba7bc174947deffe3e0c8870df28e4be01b1b6a3692a4f 8404 netavark_1.14.0-2.debian.tar.xz 9f899cd5f4ae368c79e4014db6b06185185715f47606be73996183412e267e8adcdd966a46c3b613b67614d4bf9db0aff9efd646cf6ced6edfe04bb4f8d66e3d 3156 netavark_1.14.0-2.dsc dcecef215aef6d1303c2cb33e832e4c007ee5a356b08bb5b0f29e499f8b2f73bb9e5ff4d96b0c3c5f1f94c8c959163cf8d04269751d8d876f583df1a64dd686d 174923 netavark_1.14.0.orig.tar.gz"
   ],
   "Dgit": [
-    "f7b7d7a883648e2383e58ad22014760754c5a2c4 debian archive/debian/1.4.0-3 https://git.dgit.debian.org/netavark"
+    "1e005f08eb973d66e16df574371533d9cd6a6f0c debian archive/debian/1.14.0-2 https://git.dgit.debian.org/netavark"
   ],
   "Directory": [
     "pool/main/n/netavark"
   ],
   "Files": [
-    "8b921f7fdef2eb68cf561464064404ae 3928 netavark_1.4.0-3.debian.tar.xz 65c872a960961ee87553112c7529b9d6 2800 netavark_1.4.0-3.dsc 8a3dd756d8204b87f57f86de1bdddd15 72904 netavark_1.4.0.orig.tar.xz"
+    "361cb0318d09b67227dedd0a29a501be 8404 netavark_1.14.0-2.debian.tar.xz 1bb633ce1125be9df681a9b578ad8a04 3156 netavark_1.14.0-2.dsc aa61f480c1f424b4e9963b34a3a1f8a5 174923 netavark_1.14.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +45,13 @@
     "netavark deb net optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "bats, firewalld, iptables, jq, netcat-traditional, util-linux"
+    "aardvark-dns, bats, bind9-dnsutils, firewalld, iproute2, iptables, iputils-ping, jq, ncat, nftables, util-linux"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/netavark"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/debian/netavark.git"
   ],
   "Version": [
-    "1.4.0-3"
+    "1.14.0-2"
   ]
 }

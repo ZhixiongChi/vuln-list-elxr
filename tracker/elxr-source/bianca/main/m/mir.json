@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "linux-any all"
+    "linux-any"
   ],
   "Binary": [
-    "libmirserver58, libmirplatform24, libmircore-dev, libmircommon-dev, libmirplatform-dev, libmirserver-dev, mirtest-dev, mir-demos, mir-doc, mir-test-tools, mir-wlcs-integration, libmircore2, libmircommon9, mir-platform-graphics-x20, mir-platform-graphics-gbm-kms20, mir-platform-graphics-eglstream-kms20, mir-platform-graphics-wayland20, mir-graphics-drivers-nvidia, mir-platform-input-evdev8, mir-graphics-drivers-desktop, mir-platform-graphics-gbm-kms, mir-platform-graphics-eglstream-kms, mir-platform-graphics-wayland, mir-platform-graphics-x, libmircookie2, libmircookie-dev, libmirrenderer-dev, mir-renderer-gl-dev, libmiral5, libmiral-dev, libmiroil3, libmiroil-dev, libmirwayland4, libmirwayland-dev, libmirwayland-bin"
+    "libmirserver63, libmirplatform30, libmircore-dev, libmircommon-dev, libmircommon-internal-dev, libmirplatform-dev, libmirserver-dev, mirtest-dev, mir-demos, mir-test-tools, mir-wlcs-integration, libmircore2t64, libmircommon11, mir-platform-graphics-x23, mir-platform-graphics-atomic-kms23, mir-platform-graphics-gbm-kms23, mir-platform-graphics-eglstream-kms23, mir-platform-graphics-wayland23, mir-platform-rendering-egl-generic23, mir-platform-graphics-virtual23, mir-graphics-drivers-nvidia, mir-platform-input-evdev10, mir-graphics-drivers-desktop, mir-platform-graphics-atomic-kms, mir-platform-graphics-gbm-kms, mir-platform-graphics-eglstream-kms, mir-platform-graphics-wayland, mir-platform-graphics-virtual, mir-platform-rendering-egl-generic, mir-platform-graphics-x, libmirrenderer-dev, mir-renderer-gl-dev, libmiral7, libmiral-dev, libmiroil7, libmiroil-dev, libmirwayland5, libmirwayland-dev, libmirwayland-bin, mir-x11-kiosk"
   ],
   "Build-Depends": [
-    "cmake, pkg-config, debhelper-compat (= 13), doxygen, xsltproc, graphviz, libboost-dev, libboost-date-time-dev, libboost-iostreams-dev, libboost-program-options-dev, libboost-system-dev, libboost-filesystem-dev, libdrm-dev, libegl1-mesa-dev, libgles2-mesa-dev, libgbm-dev, libglm-dev, libgoogle-glog-dev, liblttng-ust-dev, libxkbcommon-dev (\u003e= 0.5), libumockdev-dev (\u003e= 0.6) \u003c!noinsttest\u003e, umockdev (\u003e= 0.8.7) \u003c!noinsttest\u003e, libudev-dev, libgtest-dev \u003c!noinsttest\u003e, google-mock (\u003e= 1.6.0+svn437) \u003c!noinsttest\u003e, libxml++2.6-dev, valgrind-if-available \u003c!noinsttest\u003e, libglib2.0-dev, libfreetype6-dev, libevdev-dev, libinput-dev (\u003e= 0.21), uuid-dev, nettle-dev, libepoxy-dev, python3-pil:native, linux-libc-dev, dbus, python3-dbusmock \u003c!noinsttest\u003e, libxcb-composite0-dev, libxcb-xfixes0-dev, libxcb-render0-dev, libx11-xcb-dev, libxkbcommon-x11-dev, libxcursor-dev, libyaml-cpp-dev, libwayland-dev, libnvidia-egl-wayland-dev [amd64 i386], eglexternalplatform-dev [amd64 i386], systemtap-sdt-dev, wlcs (\u003e= 1.5.0) \u003c!noinsttest\u003e, pkg-kde-tools, rdfind, symlinks"
+    "dpkg-dev (\u003e= 1.22.5), cmake, dh-sequence-pkgkde-symbolshelper, pkgconf, debhelper-compat (= 13), doxygen, xsltproc, graphviz, libboost-dev, libboost-date-time-dev, libboost-iostreams-dev, libboost-program-options-dev, libboost-system-dev, libboost-filesystem-dev, libclang-dev, libdrm-dev, libegl-dev, libgles-dev, libgbm-dev, libglm-dev, libgoogle-glog-dev, liblttng-ust-dev, libmirwayland-bin \u003ccross\u003e, libxkbcommon-dev (\u003e= 0.5), libxcb-randr0-dev, libumockdev-dev (\u003e= 0.6) \u003c!noinsttest\u003e, umockdev (\u003e= 0.8.7) \u003c!noinsttest\u003e, libudev-dev, libgtest-dev \u003c!noinsttest\u003e, google-mock (\u003e= 1.6.0+svn437) \u003c!noinsttest\u003e, libxml++2.6-dev, valgrind-if-available \u003c!noinsttest\u003e, libglib2.0-dev, libfreetype-dev, libevdev-dev, libinput-dev (\u003e= 0.21), uuid-dev, nettle-dev, libepoxy-dev, python3-pil:native, linux-libc-dev, dbus, python3-dbusmock \u003c!noinsttest\u003e, libxcb-composite0-dev, libxcb-xfixes0-dev, libxcb-render0-dev, libx11-xcb-dev, libxkbcommon-x11-dev, libxcursor-dev, libyaml-cpp-dev, libwayland-dev, libnvidia-egl-wayland-dev [amd64 i386], eglexternalplatform-dev [amd64 i386], systemtap-sdt-dev, wlcs (\u003e= 1.6.0) \u003c!noinsttest\u003e, pkg-kde-tools, rdfind, symlinks, xwayland"
   ],
   "Checksums-Sha1": [
-    "8d69e4c3a180e2f04e033bd41bb4bf5f4bd623f8 39184 mir_2.12.1-1.debian.tar.xz db01dd54ae055ac760b118ceeb978ca63b6fa3a6 5841 mir_2.12.1-1.dsc 52ec083f4cfd43d91ae5a56a595d002150991488 1676557 mir_2.12.1.orig.tar.gz"
+    "2a60f0b17f19190736db05eeba0e0c210afcd1bf 38960 mir_2.20.2-2.debian.tar.xz f2e738271a394ac27f722d87fdec6e2eff34e001 6801 mir_2.20.2-2.dsc e198351d3ceda42c2e632d52f1f2df32c62e4881 6153516 mir_2.20.2.orig.tar.xz e8eaa7d2146b6780a4d7050e6e8ee5f879d1429c 228 mir_2.20.2.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "cafa3e682ad6d94a1567fa095fc3df2fc4bb751faa501c66a9e8b9c5b7fb13bb 39184 mir_2.12.1-1.debian.tar.xz 12c1f0ab20b9b2ae03a761be93f90fa82f88920317a3771312cd5f1a1e18f645 5841 mir_2.12.1-1.dsc 8d2358c4f733fcc6560a2612abc7108df8557eda3eb1bf41bba746e2b9584090 1676557 mir_2.12.1.orig.tar.gz"
+    "2a2999606eec0f4691cf58060993b2490034ecbc677cafc843ed4e241c2c29a2 38960 mir_2.20.2-2.debian.tar.xz e9dd5eabc50fec7b8b094f2e1827ae6b24b5ddca1b1db4a947f0dcd1684e5e1f 6801 mir_2.20.2-2.dsc c8994ba14d986d484daaec6c0ccb5f4ca7eb52746167899991a0983772c0fda8 6153516 mir_2.20.2.orig.tar.xz 41f07bff6f609fb9e66cdebd8766598c1fdb10a5526184c6bccf4c819be5e19a 228 mir_2.20.2.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "d3669d3b0ed77b740eea0cf3511604a09750530c50a453d7fa729936a55568f32be2f759819f0a0861de388399a55ed0673e4fcaa9fd6710c88704cc735f7e17 39184 mir_2.12.1-1.debian.tar.xz 5ffe244c142cf6012228d8231277a823fe8e178b4fc1547c24ebdc0e96f840698516ed63e053b8644996f05f908520b518144b3bcded15fb9cfa20fb0a50ae22 5841 mir_2.12.1-1.dsc ea6ec362d0977796d49953162dad90a046d5e40622235f157c63e23c62f832ac3c05a2e57ec10b1ee1c245ea4aeac682aa678a82cb7df90d55d62507a54bbaff 1676557 mir_2.12.1.orig.tar.gz"
+    "6f98b1a04621b44278d8da18422de2afe0be798e164060e67a6ce11186b9fef70d4c94f7ed34f69ce0df2a6efaf2c643fe8c46ae22ef8daf72ec4cfbdcbc42ea 38960 mir_2.20.2-2.debian.tar.xz ecffbd7023dd863259665507732ab3b0630e824e754b13b8c567548c97a657462d2aa336cc3f588902f6e513aa2333284a6871f4789a54d6b154a1773e250b7a 6801 mir_2.20.2-2.dsc 846ea0a3d7027e5dc52be7823fa7221e191b1a56bb68fa62114782ac82fe6b2c115632a51f28b910cd6319b93054b0856017cad6e69a87a3a8001d5ea60b99d9 6153516 mir_2.20.2.orig.tar.xz 4f6b9a68246455416472edc62e5b0322eeb2a32099f4a269be8e8b9007def601af3edbbcb471493368a7ae85414c48c37468d4e66b63a99de3fb988f7b4aefa4 228 mir_2.20.2.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/m/mir"
   ],
   "Files": [
-    "4bf446ccfa3372743a4ab087c2510cec 39184 mir_2.12.1-1.debian.tar.xz dcffb6e68fa7036f4e5d0b4795b00220 5841 mir_2.12.1-1.dsc 0b0ce45a1bb41987441783882b877d99 1676557 mir_2.12.1.orig.tar.gz"
+    "01d62e075a8be4a223f1fa410629ab75 38960 mir_2.20.2-2.debian.tar.xz 0bc85a79e3b8d0964a716fe629b062e9 6801 mir_2.20.2-2.dsc 8f9cb4ebb0aaccd05321c3c198caa04e 6153516 mir_2.20.2.orig.tar.xz 936696ce0fa68e3dcbb60a83d3acf04b 228 mir_2.20.2.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "mir"
   ],
   "Package-List": [
-    "libmiral-dev deb libdevel optional arch=linux-any libmiral5 deb libs optional arch=linux-any libmircommon-dev deb libdevel optional arch=linux-any libmircommon9 deb libs optional arch=linux-any libmircookie-dev deb libdevel optional arch=linux-any libmircookie2 deb libs optional arch=linux-any libmircore-dev deb libdevel optional arch=linux-any libmircore2 deb libs optional arch=linux-any libmiroil-dev deb libdevel optional arch=linux-any libmiroil3 deb libs optional arch=linux-any libmirplatform-dev deb libdevel optional arch=linux-any libmirplatform24 deb libs optional arch=linux-any libmirrenderer-dev deb libdevel optional arch=linux-any libmirserver-dev deb libdevel optional arch=linux-any libmirserver58 deb libs optional arch=linux-any libmirwayland-bin deb libdevel optional arch=linux-any libmirwayland-dev deb libdevel optional arch=linux-any libmirwayland4 deb libs optional arch=linux-any mir-demos deb x11 optional arch=linux-any mir-doc deb doc optional arch=all mir-graphics-drivers-desktop deb libs optional arch=linux-any mir-graphics-drivers-nvidia deb libs optional arch=amd64,i386 mir-platform-graphics-eglstream-kms deb libs optional arch=amd64,i386 mir-platform-graphics-eglstream-kms20 deb libs optional arch=amd64,i386 mir-platform-graphics-gbm-kms deb libs optional arch=linux-any mir-platform-graphics-gbm-kms20 deb libs optional arch=linux-any mir-platform-graphics-wayland deb libs optional arch=linux-any mir-platform-graphics-wayland20 deb libs optional arch=linux-any mir-platform-graphics-x deb libs optional arch=linux-any mir-platform-graphics-x20 deb libs optional arch=linux-any mir-platform-input-evdev8 deb libs optional arch=linux-any mir-renderer-gl-dev deb libdevel optional arch=linux-any mir-test-tools deb x11 optional arch=linux-any profile=!noinsttest mir-wlcs-integration deb x11 optional arch=linux-any mirtest-dev deb libdevel optional arch=linux-any profile=!noinsttest"
+    "libmiral-dev deb libdevel optional arch=linux-any libmiral7 deb libs optional arch=linux-any libmircommon-dev deb libdevel optional arch=linux-any libmircommon-internal-dev deb libdevel optional arch=linux-any libmircommon11 deb libs optional arch=linux-any libmircore-dev deb libdevel optional arch=linux-any libmircore2t64 deb libs optional arch=linux-any libmiroil-dev deb libdevel optional arch=linux-any libmiroil7 deb libs optional arch=linux-any libmirplatform-dev deb libdevel optional arch=linux-any libmirplatform30 deb libs optional arch=linux-any libmirrenderer-dev deb libdevel optional arch=linux-any libmirserver-dev deb libdevel optional arch=linux-any libmirserver63 deb libs optional arch=linux-any libmirwayland-bin deb libdevel optional arch=linux-any libmirwayland-dev deb libdevel optional arch=linux-any libmirwayland5 deb libs optional arch=linux-any mir-demos deb x11 optional arch=linux-any mir-graphics-drivers-desktop deb libs optional arch=linux-any mir-graphics-drivers-nvidia deb libs optional arch=amd64,i386 mir-platform-graphics-atomic-kms deb libs optional arch=linux-any mir-platform-graphics-atomic-kms23 deb libs optional arch=linux-any mir-platform-graphics-eglstream-kms deb libs optional arch=amd64,i386 mir-platform-graphics-eglstream-kms23 deb libs optional arch=amd64,i386 mir-platform-graphics-gbm-kms deb libs optional arch=linux-any mir-platform-graphics-gbm-kms23 deb libs optional arch=linux-any mir-platform-graphics-virtual deb libs optional arch=linux-any mir-platform-graphics-virtual23 deb libs optional arch=linux-any mir-platform-graphics-wayland deb libs optional arch=linux-any mir-platform-graphics-wayland23 deb libs optional arch=linux-any mir-platform-graphics-x deb libs optional arch=linux-any mir-platform-graphics-x23 deb libs optional arch=linux-any mir-platform-input-evdev10 deb libs optional arch=linux-any mir-platform-rendering-egl-generic deb libs optional arch=linux-any mir-platform-rendering-egl-generic23 deb libs optional arch=linux-any mir-renderer-gl-dev deb libdevel optional arch=linux-any mir-test-tools deb x11 optional arch=linux-any profile=!noinsttest mir-wlcs-integration deb x11 optional arch=linux-any profile=!noinsttest mir-x11-kiosk deb x11 optional arch=linux-any mirtest-dev deb libdevel optional arch=linux-any profile=!noinsttest"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "build-essential, cmake, dpkg, pkg-config, wlcs"
   ],
   "Uploaders": [
-    "Simon Quigley \u003ctsimonq2@debian.org\u003e, Christopher James Halse Rogers \u003craof@ubuntu.com\u003e, Mike Gabriel \u003csunweaver@debian.org\u003e, Debian UBports Team \u003cteam+ubports@tracker.debian.org\u003e, Marius Gripsgard \u003cmarius@ubports.com\u003e,"
+    "Simon Quigley \u003ctsimonq2@debian.org\u003e, Christopher James Halse Rogers \u003craof@ubuntu.com\u003e, Mike Gabriel \u003csunweaver@debian.org\u003e, Debian UBports Team \u003cteam+ubports@tracker.debian.org\u003e, Marius Gripsgard \u003cmariogrip@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/mir-server-team/mir"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/mir-server-team/mir.git"
   ],
   "Version": [
-    "2.12.1-1"
+    "2.20.2-2"
   ]
 }

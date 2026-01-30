@@ -6,22 +6,22 @@
     "python3-gast"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-pytest, python3-setuptools"
+    "debhelper-compat (= 13), dh-sequence-python3, libpython3-all-dev, python3-all-dev:any, python3-setuptools, python3-pytest \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "ac3ac86b28929e5508c53c96d0f4099f20d8bfb0 3072 python-gast_0.5.2-2.debian.tar.xz 2ed38ff39e31e5060c6fe9159783f9cfb2a8ca5f 1534 python-gast_0.5.2-2.dsc 6b31a1491b0f82417a48ac10fbc88b8b01330b6e 14541 python-gast_0.5.2.orig.tar.gz"
+    "3a37bfcfb123cd80e071265daaefb7c3a7e2cd1f 2508 python-gast_0.6.0-1.debian.tar.xz 27cca4d4c06c456dfdcba8fbdd73d683524a9963 2185 python-gast_0.6.0-1.dsc 5ce29cceed09f0c294c540ccd33bdc859443e639 27216 python-gast_0.6.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "b88563ed97af0ba87caf5dc779e00ab25e233596a3c3fc8ba12b97020d6b986d 3072 python-gast_0.5.2-2.debian.tar.xz 9d5fe0d05aae463cd3aad23910a48dee62ebdb0e61caa6dee2c48027221e25cb 1534 python-gast_0.5.2-2.dsc 85f1162c533c1f8f8e0914c7c25ca4875385d6b2043326759404a20eb76ba3f3 14541 python-gast_0.5.2.orig.tar.gz"
+    "eaf582edd8fe9273d4f31a802af1eca760d371c65c21a8c527f46d3e20ad1cf3 2508 python-gast_0.6.0-1.debian.tar.xz 0cad32b4c92b245d1714a01682accb097a4f860aee1db490cf17363249297201 2185 python-gast_0.6.0-1.dsc 0bb63fb394e08389b5f99c1cc3c5b1fb73e7207d90c9f17939d9d34cc85a1c1e 27216 python-gast_0.6.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a938c99efb956812c1fe53d05b1a01a19db28b99f5823586871d69b3c8c819b7eab5c6cff8f97e973da83da85e2907347a955535ad6671f05625b9d8b8e5b22e 3072 python-gast_0.5.2-2.debian.tar.xz 9760c8bab24a657de84177ebae7931c70f7f725aa30470eea4bf5d1c44349c2f7cbee32b36bf8df56624d31655a964b6626c09e4ba899579fed8487080b3c134 1534 python-gast_0.5.2-2.dsc 9829cb9e8251f5256bc8ee0846fc561c38db0701c0c45cf460c4c09ac67d94a1068c8f4f99521dbca9bc7f9a1d4d9115ada480dc0181bc8176b473319b64e011 14541 python-gast_0.5.2.orig.tar.gz"
+    "37b30f8f6ca4ed41c6c1e5249070cb6b8ece1de79682c2258a5b5c76915a64be4c88836d17947d3f971513399efce00803fa20889dfbd34835584c7a470cfb5c 2508 python-gast_0.6.0-1.debian.tar.xz 5c2cc35caac9950625bab38875edb7ce5e5901146a018368c234e17c93bb0fb51412744f258b4606e3d5d021411d02c92112a2576fb309aa3656a921eb6321ae 2185 python-gast_0.6.0-1.dsc ddbaba5c38c54956c0c5715a23d0855ececbc1c492d9306c3ac740fef003bd02f2ba004692d46c9bf4aeac98e864cd4418ad58150d98482b663f499c03ec2659 27216 python-gast_0.6.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-gast"
   ],
   "Files": [
-    "406133d6a8246cba0fdf9159dad9f07e 3072 python-gast_0.5.2-2.debian.tar.xz 0e58eb2207bf0a2471714957f36ca384 1534 python-gast_0.5.2-2.dsc 5582f41009a2ccba7aa15e27cde16a69 14541 python-gast_0.5.2.orig.tar.gz"
+    "27556b6ce42a18f91da29bb9dbe0e365 2508 python-gast_0.6.0-1.debian.tar.xz 0e0e839848348601e61ebd56eacb67ca 2185 python-gast_0.6.0-1.dsc a7d75f4f4b7f45682dfb6d759ffd2953 27216 python-gast_0.6.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python3-gast deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-gast.git"
   ],
   "Version": [
-    "0.5.2-2"
+    "0.6.0-1"
   ]
 }

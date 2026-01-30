@@ -6,22 +6,25 @@
     "gunicorn, gunicorn-examples, python3-gunicorn"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-packaging, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "be6b2015b50aac10dba1433049680a39dc8dfe97 22288 gunicorn_20.1.0-6+deb12u1.debian.tar.xz e54ac4e25d4519198113a87f2b1276f0f719668f 2171 gunicorn_20.1.0-6+deb12u1.dsc ec287804a49b42f64da265edfbe0507118a99f2f 354960 gunicorn_20.1.0.orig.tar.gz"
+    "125d0f36b5a228836eccbda05eca222910e04af7 12972 gunicorn_23.0.0-1.debian.tar.xz 63d833efa7a907602ac5974ff8daafbf7e341ca3 2323 gunicorn_23.0.0-1.dsc 9bfdff13ae8d9779b0f69659bebb22af86413c2d 373550 gunicorn_23.0.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "2956ad388227243164912f0c9a529e88a0271cea5895fe4f8d88382fa788880e 22288 gunicorn_20.1.0-6+deb12u1.debian.tar.xz aed5de5c5382f8948d5f5557e95d135b76e04b5d971534b9d213c96b6c39d4d2 2171 gunicorn_20.1.0-6+deb12u1.dsc fa92b983e5c8d36b87ddc737d7bdd06936afd420bd6439b7b351f05ce982975e 354960 gunicorn_20.1.0.orig.tar.gz"
+    "f499b4f6791b323183c1177660f235a90d047c92175758fb727aa88b681bb86f 12972 gunicorn_23.0.0-1.debian.tar.xz b7e841626391884aa96a5102403b759b4e9019fe7cf1b40584e382b8cd48a82b 2323 gunicorn_23.0.0-1.dsc d92daec8a5fb3d48d61ae13841173e93f321b0fd3378d876b7efbb75a1e95247 373550 gunicorn_23.0.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "d658256a7c1a01321cb90e2cb262679505e721915ea3e6152b745d93b030b071d68f52ba0e0b3d33d485cb64c98699edbdc05f298afa6e3fe0d2bc89cf792c97 22288 gunicorn_20.1.0-6+deb12u1.debian.tar.xz 819780e747bcb5f4fb99e0f59a837e26005dcdcf2936432e241a5b3cfc8440363868e7146d498278daef71dcabb86f48d97d0a2a2ec4db3942b23e86e8c41563 2171 gunicorn_20.1.0-6+deb12u1.dsc 4fd905f62adc30e044cf2a56a1a77e14bc633258267d6bfbd4f6a68494f93f377e9fb9ed94fab7f11f9d7813857a680974a88c4b6bf97d4f1b74792a81810111 354960 gunicorn_20.1.0.orig.tar.gz"
+    "2939d9ea02a05136c40da6e4d7a8aa39ac9b934dc29e98d7e218bde30fa9705dbb774ec03fceeb9f3611be33e6d9dea11b96877b1dfd9813d8edb375944320f2 12972 gunicorn_23.0.0-1.debian.tar.xz 21afdb0e983ed74cfb47ea179e202639fc60de1f2785c13e9f4d2bd219c1e775233bedff7530757e9e8daad945cd76d146f2b65cd5b3f06a5dc7b9cb58c34f16 2323 gunicorn_23.0.0-1.dsc 1304f348270134a5d9da0d6598f4878a25b3dd7ff96dc9eee1c07ec1031c03cd8bb3de42b6dedf63702588c7e482b18f88a3115e73005bbc4eaaad147d9674ba 373550 gunicorn_23.0.0.orig.tar.gz"
+  ],
+  "Dgit": [
+    "2731b53d759b02f3f4004abbc19afe328469e375 debian archive/debian/23.0.0-1 https://git.dgit.debian.org/gunicorn"
   ],
   "Directory": [
     "pool/main/g/gunicorn"
   ],
   "Files": [
-    "534b9ec991fac8fe43c60387e0ab6b6d 22288 gunicorn_20.1.0-6+deb12u1.debian.tar.xz c103e260f689b00b1eb44d6fb2228772 2171 gunicorn_20.1.0-6+deb12u1.dsc ac6254576d53c2ede3456561af3f0549 354960 gunicorn_20.1.0.orig.tar.gz"
+    "bab80ddce0bca4f108833c89bba76f42 12972 gunicorn_23.0.0-1.debian.tar.xz d56be7dd846b65b01980faa62bdc8ac5 2323 gunicorn_23.0.0-1.dsc 5d2531f28cd8ddf2aa57f531ceff8ca2 373550 gunicorn_23.0.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +45,7 @@
     "4.6.1"
   ],
   "Testsuite": [
-    "autopkgtest"
+    "autopkgtest, autopkgtest-pkg-pybuild"
   ],
   "Testsuite-Triggers": [
     "curl, procps"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/gunicorn.git"
   ],
   "Version": [
-    "20.1.0-6+deb12u1"
+    "23.0.0-1"
   ]
 }

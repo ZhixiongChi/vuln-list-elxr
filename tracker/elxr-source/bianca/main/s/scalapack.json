@@ -3,31 +3,31 @@
     "any all"
   ],
   "Binary": [
-    "libscalapack-openmpi2.2, libscalapack-mpich2.2, libscalapack-mpi-dev, libscalapack-mpich-dev, libscalapack-openmpi-dev, scalapack-mpi-test, scalapack-test-common"
+    "libscalapack-openmpi2.2, libscalapack-mpich2.2, libscalapack-mpi-dev, libscalapack-mpich-dev, libscalapack-openmpi-dev, libscalapack64-openmpi2.2, libscalapack64-mpich2.2, libscalapack64-mpi-dev, libscalapack64-mpich-dev, libscalapack64-openmpi-dev, scalapack-mpi-test, scalapack-test-common"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake, mpi-default-dev, mpi-default-bin, libopenmpi-dev, mpich, libmpich-dev, gfortran, libblas-dev | libopenblas-dev | libatlas-base-dev | libblas.so, liblapack-dev | libopenblas-dev | libatlas-base-dev | liblapack.so, pkg-config, chrpath"
+    "debhelper-compat (= 13), cmake, mpi-default-dev (\u003e= 1.17), mpi-default-bin, libopenmpi-dev [!armel !armhf !i386 !hurd-i386 !hppa !m68k !powerpc !sh4 !x32], mpich, libmpich-dev, gfortran, libblas-dev | libopenblas-dev | libatlas-base-dev | libblas.so, liblapack-dev | libopenblas-dev | libatlas-base-dev | liblapack.so, libblas64-dev [!armel !armhf !i386 !hppa !hurd-i386 !m68k !powerpc !sh4 !x32] | libopenblas64-dev [!armel !armhf !i386 !hppa !hurd-i386 !m68k !powerpc !sh4 !x32] | libatlas64-base-dev [!armel !armhf !i386 !hppa !hurd-i386 !m68k !powerpc !sh4 !x32] | libblas64.so [!armel !armhf !i386 !hppa !hurd-i386 !m68k !powerpc !sh4 !x32], liblapack64-dev [!armel !armhf !i386 !hppa !hurd-i386 !m68k !powerpc !sh4 !x32] | libopenblas64-dev [!armel !armhf !i386 !hppa !hurd-i386 !m68k !powerpc !sh4 !x32] | libatlas64-base-dev [!armel !armhf !i386 !hppa !hurd-i386 !m68k !powerpc !sh4 !x32] | liblapack64.so [!armel !armhf !i386 !hppa !hurd-i386 !m68k !powerpc !sh4 !x32], pkgconf, bc, chrpath"
   ],
   "Checksums-Sha1": [
-    "e4160dcc30225278e579e2e4f828b0c6cdd94c55 14320 scalapack_2.2.1-2.debian.tar.xz c6ab66443dddb50d4213e18958748d4b4bd7afe0 2668 scalapack_2.2.1-2.dsc 73f8f64771199bb7b9080bbe3d23ee73a6678b87 4769731 scalapack_2.2.1.orig.tar.gz"
+    "4ef461011047e7689657e5cd26613d8a66e6757b 17544 scalapack_2.2.2-1.debian.tar.xz cc933ad7f9c3a5ae5d993fb0ebcb9c1bdb65cdfc 4203 scalapack_2.2.2-1.dsc d73d80194aff6559a6f41e50fd0370f716707ece 4769347 scalapack_2.2.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "59b6db706ca0f837786f0fd4bf8201922b2c17be31e10eb724a86c7ede1c410b 14320 scalapack_2.2.1-2.debian.tar.xz c5da238dc8a3ba9d90ad903dcef3d8c52907a4a778b3332ab2d45fd7739e804c 2668 scalapack_2.2.1-2.dsc 4aede775fdb28fa44b331875730bcd5bab130caaec225fadeccf424c8fcb55aa 4769731 scalapack_2.2.1.orig.tar.gz"
+    "e75f20036b095398fe24dfa4708c9c28f31a28fa88a0d51387d393d48a954890 17544 scalapack_2.2.2-1.debian.tar.xz 3b53ccb384ffbfd2680dcaaef26344e6e91f596e50e961abd1f4b4bc241acf2c 4203 scalapack_2.2.2-1.dsc a2f0c9180a210bf7ffe126c9cb81099cf337da1a7120ddb4cbe4894eb7b7d022 4769347 scalapack_2.2.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "d1abb84c4c0953bdc49f4c5a6d88faab6a49109227ad11d3f9e03029f17aa9ccbca014a5572eefa03a905d0d00adea9e19489e22f5a9f5ce33207f582e802853 14320 scalapack_2.2.1-2.debian.tar.xz aec42601a4c39f05b4180f58457499a876cc27ef5f8ae312f347b9dbe8ca748d79283a186482e556541e7bac2650b350c16bc95c725b52f1b98b43ecbbe6ecf6 2668 scalapack_2.2.1-2.dsc de356e69e9d91437d2563ea02d5f18a99bac815644bd5cbb0f5fc8737febf379ce8cd2574f4137876ca5da6723d5452c15d760f82b222b39f0d5e61580094a95 4769731 scalapack_2.2.1.orig.tar.gz"
+    "7e42817394e1cfc744f628f7561c2ed5feb7fb2a8e4a4e20f320402ac0830604c887090fd9b604cc4cd7a9410421a33e2d81b2faa00f74876a197ff1ad9918b4 17544 scalapack_2.2.2-1.debian.tar.xz 705279a7d9d97c0a7807aedfac5783a2e645349d0a24fc4e0842f919a2395b437fdec9e186865a5d6495b36309f00336ee44c24154b41b0e9e0fd0bec06eebb8 4203 scalapack_2.2.2-1.dsc 1b91b94a081cd808dc6fa7d23a9f4054f4d23de293cae1686f7708237c28404561a6f4185e7f27a0a56cd0916622f8db444803f8ed19d56368af54a44c455d44 4769347 scalapack_2.2.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/s/scalapack"
   ],
   "Files": [
-    "dee7fd995225006d1f2f653e7a8fba7c 14320 scalapack_2.2.1-2.debian.tar.xz a31952a77040f2bfeef725b4f339afe3 2668 scalapack_2.2.1-2.dsc 58f32e40b0082012f1564c7f712a0ba1 4769731 scalapack_2.2.1.orig.tar.gz"
+    "2544d25d42da0f445b09dc5559548ced 17544 scalapack_2.2.2-1.debian.tar.xz b8e5ff9ecc6328426581a3331b08198b 4203 scalapack_2.2.2-1.dsc e3c3d8be031425663c14f1790dc87784 4769347 scalapack_2.2.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://www.netlib.org/scalapack/"
+    "https://www.netlib.org/scalapack/"
   ],
   "Maintainer": [
     "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
@@ -36,10 +36,10 @@
     "scalapack"
   ],
   "Package-List": [
-    "libscalapack-mpi-dev deb libdevel optional arch=any libscalapack-mpich-dev deb libdevel optional arch=any libscalapack-mpich2.2 deb libs optional arch=any libscalapack-openmpi-dev deb libdevel optional arch=any libscalapack-openmpi2.2 deb libs optional arch=any scalapack-mpi-test deb math optional arch=any scalapack-test-common deb devel optional arch=all"
+    "libscalapack-mpi-dev deb libdevel optional arch=any libscalapack-mpich-dev deb libdevel optional arch=any libscalapack-mpich2.2 deb libs optional arch=any libscalapack-openmpi-dev deb libdevel optional arch=alpha,amd64,arm64,hurd-amd64,ia64,kfreebsd-amd64,loong64,mips64el,ppc64,ppc64el,riscv64,s390x,sparc64 libscalapack-openmpi2.2 deb libs optional arch=alpha,amd64,arm64,hurd-amd64,ia64,kfreebsd-amd64,loong64,mips64el,ppc64,ppc64el,riscv64,s390x,sparc64 libscalapack64-mpi-dev deb libdevel optional arch=any libscalapack64-mpich-dev deb libdevel optional arch=any libscalapack64-mpich2.2 deb libs optional arch=any libscalapack64-openmpi-dev deb libdevel optional arch=alpha,amd64,arm64,hurd-amd64,ia64,kfreebsd-amd64,loong64,mips64el,ppc64,ppc64el,riscv64,s390x,sparc64 libscalapack64-openmpi2.2 deb libs optional arch=alpha,amd64,arm64,hurd-amd64,ia64,kfreebsd-amd64,loong64,mips64el,ppc64,ppc64el,riscv64,s390x,sparc64 scalapack-mpi-test deb math optional arch=any scalapack-test-common deb devel optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Uploaders": [
     "Muammar El Khatib \u003cmuammar@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/science-team/scalapack.git"
   ],
   "Version": [
-    "2.2.1-2"
+    "2.2.2-1"
   ]
 }

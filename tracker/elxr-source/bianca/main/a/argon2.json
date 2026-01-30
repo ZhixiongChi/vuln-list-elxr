@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libargon2-dev, libargon2-0, libargon2-1, argon2, libargon2-1-udeb"
+    "libargon2-dev, libargon2-1, argon2, libargon2-1-udeb"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 9), dh-exec (\u003e= 0.3)"
+    "debhelper-compat (= 13), dh-exec"
   ],
   "Checksums-Sha1": [
-    "f79deca75557f7c7ae2d43614c0b89b64be1cad8 7268 argon2_0~20171227-0.3+deb12u1.debian.tar.xz e15a8182669f18a5f5dee7afebf99885e6fd44ee 2140 argon2_0~20171227-0.3+deb12u1.dsc c398df55c8fffe70c9a952dd3f696115437234d8 1503745 argon2_0~20171227.orig.tar.gz"
+    "f9af9ba5963c726bc07da0ee7565e267450d59b1 9248 argon2_0~20190702+dfsg-4.debian.tar.xz f7253a424a30c01ba941c6ed99238156b1e79c79 2263 argon2_0~20190702+dfsg-4.dsc 69c41ff63d0ee00bc5acbd9b495376260c50d24f 725424 argon2_0~20190702+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "7283479e5a4f3dd6294b1b74cb69e1324a62022d8e7f4b59a7de1ddbc64ed1e7 7268 argon2_0~20171227-0.3+deb12u1.debian.tar.xz 64b82cae9e03543f045506391398472f5659a391d626b4ad701c845bd5cfb862 2140 argon2_0~20171227-0.3+deb12u1.dsc eaea0172c1f4ee4550d1b6c9ce01aab8d1ab66b4207776aa67991eb5872fdcd8 1503745 argon2_0~20171227.orig.tar.gz"
+    "f9d4922b02e64cbb4bc10b0ad0ff283b2711702de593087205e273254af1998e 9248 argon2_0~20190702+dfsg-4.debian.tar.xz 7a5d5d761d69404d6602321671b77a5cb7a1b81b6ed64592116a432868e2b624 2263 argon2_0~20190702+dfsg-4.dsc 815f1017b5b0033204778c2e32443257274bc5d9dd16d355c4f7db8189e23dcc 725424 argon2_0~20190702+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "2b91f473e7e4c0a415339fe16777dac44eac8db2a11c4104cc2a6662f7ea456ee702d356bc21a9cb4b86157fe4c42d5d7054675a021829691c1c26b46c4ba921 7268 argon2_0~20171227-0.3+deb12u1.debian.tar.xz da04ff93080d2e5c98a265d1b4a84f3a6561da0b5c5ce167a4a90678bb8c05918168ec6057d0658071b409d5193a9de7c2887cfcfe0c04e70ef9d636ec42f6de 2140 argon2_0~20171227-0.3+deb12u1.dsc 9c9e1a3905e61ac6913d1e073c104477e419ddd0506adc4487e88e98d19165ed8901fe8bb11246ed0cc71b3523c190da9692d5926642f86be09c3e67510afe4d 1503745 argon2_0~20171227.orig.tar.gz"
+    "5f8fd620527485137247997caa46d6d84dd889dbf590d109087cc6e50e773872eefff53278482d8055462258c143b11304b29fe68d48ffeaddd5ed2081c82a51 9248 argon2_0~20190702+dfsg-4.debian.tar.xz f6fd4b606cffd65697eb609b7647baf8aaa20c7c26bd524b0e9fba486ac905825d5f5129b8f590935934981ab413b55d198dd34924019c7d94edf89beb7e64cf 2263 argon2_0~20190702+dfsg-4.dsc 724c8f03b64830c0d66b5835dc2172f49ad7b351d4902303b73788ff1c6946717c64fe342b3e18831924fdb838e4d7bd06ec8061b8aa5bff08bb7bc28f326b0a 725424 argon2_0~20190702+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/a/argon2"
   ],
   "Files": [
-    "a770349b832e8731fe433a92370edf44 7268 argon2_0~20171227-0.3+deb12u1.debian.tar.xz 8681e51bcc4e912425ccf26c6f8eac2c 2140 argon2_0~20171227-0.3+deb12u1.dsc 7d0a85aa3fa02a5962ff751a6e2078c8 1503745 argon2_0~20171227.orig.tar.gz"
+    "a726c05fe65d65d96fb2d16cb6e9090c 9248 argon2_0~20190702+dfsg-4.debian.tar.xz c4f005912acfd64bcfc305a3a5df5615 2263 argon2_0~20190702+dfsg-4.dsc c3d955c396da00a72ca4bf3fc15fd3f9 725424 argon2_0~20190702+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,24 +30,33 @@
     "https://github.com/P-H-C/phc-winner-argon2"
   ],
   "Maintainer": [
-    "Luca Bruno \u003clucab@debian.org\u003e"
+    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
   ],
   "Package": [
     "argon2"
   ],
   "Package-List": [
-    "argon2 deb utils optional arch=any libargon2-0 deb libdevel optional arch=any libargon2-1 deb libs optional arch=any libargon2-1-udeb udeb debian-installer optional arch=any libargon2-dev deb libdevel optional arch=any"
+    "argon2 deb utils optional arch=any libargon2-1 deb libs optional arch=any libargon2-1-udeb udeb debian-installer optional arch=any libargon2-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.1.4"
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-argon2"
+  ],
+  "Uploaders": [
+    "Sven Geuer \u003cdebmaint@g-e-u-e-r.de\u003e"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/debian/argon2"
+    "https://salsa.debian.org/pkg-security-team/argon2"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/debian/argon2.git"
+    "https://salsa.debian.org/pkg-security-team/argon2.git"
   ],
   "Version": [
-    "0~20171227-0.3+deb12u1"
+    "0~20190702+dfsg-4"
   ]
 }

@@ -6,22 +6,22 @@
     "python3-resolvelib"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-python, pybuild-plugin-pyproject, python3-all, python3-commentjson, python3-pytest, python3-setuptools"
+    "debhelper-compat (= 12), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-commentjson, python3-pytest, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "1bda9799959d5d554f469d743afdc2780208cd7f 4464 python-resolvelib_0.9.0-2.debian.tar.xz f009970cfd9d085d2edacb3c182a768d6fd8e5ed 2241 python-resolvelib_0.9.0-2.dsc 4740aefe0287467d010d5757fcac006322d0bbdc 768502 python-resolvelib_0.9.0.orig.tar.gz"
+    "ca75d64896a09180047553ad4aaa79fee052716d 4208 python-resolvelib_1.1.0-1.debian.tar.xz ad1d432d69dae935d79984fe8a368c3310f9aed0 2233 python-resolvelib_1.1.0-1.dsc 0efc8c39efde3fda6352c670707dc6fa5b6c257a 772503 python-resolvelib_1.1.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "6899e3d87de4cf8f73113bd7e0fd4b29b7f49430cbc7aea0b6eff531d21a68ea 4464 python-resolvelib_0.9.0-2.debian.tar.xz 5df430240c2a25d3dfadd790afb5d7384a1c8dbd2fbcf7093565b1700f3bae49 2241 python-resolvelib_0.9.0-2.dsc c491405eaff5278fd6cd3a467de2f6f20b98bbd05254d7283b3b128ee2b305d8 768502 python-resolvelib_0.9.0.orig.tar.gz"
+    "5ed05a5f0aa0529fc2eb27689a9e8b8b8475efa74b266082b439f0ed298e576b 4208 python-resolvelib_1.1.0-1.debian.tar.xz 767a5e052ba4ac2f5d1a7a8490ad0e7c29e55569191f1bedfc37dabd3a852051 2233 python-resolvelib_1.1.0-1.dsc 660e2cef5342adfcdf2144539b4bfcba660682db3a8f3feb31d9ff153af8c461 772503 python-resolvelib_1.1.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a99a0e4febbcafcf4701c6aff6b5161c433f67ec2dcea895cb17cb8fb5f275e5efe1cffd21741e8d3ee90b8c4f7be581c68c9b2cbb1c590b87717b8a058419e9 4464 python-resolvelib_0.9.0-2.debian.tar.xz 6805daf4e17cf971055754eebc5f3df487f87f89c90ae3ba383a2ac91805b2c57efbb645b1a86905d25b6262f401021dd6432375a05e334956db2f448779ab31 2241 python-resolvelib_0.9.0-2.dsc cb263a60e958e190c92dc333afd61eba76e3f1b1cf8f825c39292ea37c90f440afaacfc2d574987e26f6bb1d3a155ea8d878dd29cf82e78d912df36f4a10eb7e 768502 python-resolvelib_0.9.0.orig.tar.gz"
+    "0f214385eaf182a6b3b1a93386b76f579b87fb079e97106d714fc94bb0b0c36e8b91061e736796e6118d0a79874adae686da5bee57ceaf221a91114e878d5849 4208 python-resolvelib_1.1.0-1.debian.tar.xz 519f66a3c19d3bf28f2ad7d46c32072432987b3ac674955a7139096d82b7c0d0e5c7cacca066df3110023d96132f4f28c816ca1f6e456f50366b95ec4def3447 2233 python-resolvelib_1.1.0-1.dsc d3b2a49c4cd6e6a27bb1eb5a8672a2b4f6daa315b82f0f008a915094a59bd2f38ad64fd83fba4387a50686a3ededb13c24839afd4d45d9766467d7e70f7b863a 772503 python-resolvelib_1.1.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-resolvelib"
   ],
   "Files": [
-    "145e4ad9d26048735696851fbc70a7f1 4464 python-resolvelib_0.9.0-2.debian.tar.xz 02a24185b56dfe1acf927895208e6d89 2241 python-resolvelib_0.9.0-2.dsc 583f613ee6f293223337a3f3b94ac883 768502 python-resolvelib_0.9.0.orig.tar.gz"
+    "b720a9f6fa24133c727af8240e545e54 4208 python-resolvelib_1.1.0-1.debian.tar.xz beddcd7cdce55bc836efcd04a374698a 2233 python-resolvelib_1.1.0-1.dsc 009efd7b43754584a3abfeb0ab09378a 772503 python-resolvelib_1.1.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,10 +45,10 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "python3-all, python3-commentjson, python3-packaging, python3-pytest"
+    "python3-all, python3-commentjson, python3-pytest"
   ],
   "Uploaders": [
-    "Scott Kitterman \u003cscott@kitterman.com\u003e"
+    "Stefano Rivera \u003cstefanor@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-resolvelib"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-resolvelib.git"
   ],
   "Version": [
-    "0.9.0-2"
+    "1.1.0-1"
   ]
 }

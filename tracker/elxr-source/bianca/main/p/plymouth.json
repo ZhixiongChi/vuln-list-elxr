@@ -6,22 +6,22 @@
     "plymouth, plymouth-x11, libplymouth5, libplymouth-dev, plymouth-label, plymouth-themes"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), docbook-xsl, libdrm-dev, libgtk-3-dev (\u003e= 3.14.0), libpango1.0-dev, libpng-dev, libudev-dev, pkg-config, systemd, xsltproc"
+    "debhelper-compat (= 13), docbook-xsl, libdrm-dev, libcairo2-dev, libevdev-dev, libfreetype-dev, libgtk-3-dev (\u003e= 3.14.0), libpango1.0-dev, libpng-dev, libudev-dev [linux-any], meson, pkgconf, systemd-dev, xsltproc"
   ],
   "Checksums-Sha1": [
-    "8bd92afbcbfec690f944127b37a5838c879ffefd 29196 plymouth_22.02.122-3.debian.tar.xz dddf68e93ddac62440433498f06a4ae264155141 2042 plymouth_22.02.122-3.dsc 2a68a69b674b643cd50c48685669bb0523aeb68b 1183608 plymouth_22.02.122.orig.tar.xz"
+    "80c819b85a3c27b66688c0ff5e91c7960bfd8779 31284 plymouth_24.004.60-5.debian.tar.xz e503508cac6e86d1a18a201ffccdf69a59dc1ac2 2108 plymouth_24.004.60-5.dsc 3ea1d5b1f755122dc78b82a60c2f3d096668d92e 1059904 plymouth_24.004.60.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "731d476167aeae0d0af168295334f91e12c29e5bc0dee7543c227d50b6224930 29196 plymouth_22.02.122-3.debian.tar.xz e0bab7dd7e703377902fb52047a3f5a5ea7d909e5158b5204238e9e6fd33e9cc 2042 plymouth_22.02.122-3.dsc 100551442221033ce868c447ad6c74d831d209c18ae232b98ae0207e34eadaeb 1183608 plymouth_22.02.122.orig.tar.xz"
+    "4e1b061eef5f80021c735f263062aa78839612d2561058a8a71442dc43068355 31284 plymouth_24.004.60-5.debian.tar.xz 381d5538d6b1e634de0ccf80e40494a68fda92636375fb8ef6929f507408dcc6 2108 plymouth_24.004.60-5.dsc f3f7841358c98f5e7b06a9eedbdd5e6882fd9f38bbd14a767fb083e3b55b1c34 1059904 plymouth_24.004.60.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "2602d674f4265cadf6a772ed687e6e33e44c9fab314cb7e26e062bbd48bb7ef139d3a26fcb40bc414713364e9a16542a4ca5e7e818597349138ed33f0e349007 29196 plymouth_22.02.122-3.debian.tar.xz 375737aba812e71050fba1f00735007566f37aa32f0b79541efaa568a5f2ddb56009b0dc264d43c3a666c4fba1d327b7fa0e82102a343ccb5312aaef00f2bc53 2042 plymouth_22.02.122-3.dsc 9f2f5a7121b431f16561d6b5f31177ff06cf1e6bdffaa68c1fe08aa3c765a96dee745824aae8eaac9a0b4a08f0a17a9ae79a82bd0826fcc3fe14d8553635f817 1183608 plymouth_22.02.122.orig.tar.xz"
+    "e302ab6f8ed77859b30c89387932f499d406750f8be97ce8509b62d709886dae4087631d81690fbbc778fc49b46c63b7080d80146f9e21449a8d745de213ffa3 31284 plymouth_24.004.60-5.debian.tar.xz 9d34c01219be0d4dcce47d880cc34ba18afa0804e301bb0a942c4a67cb9026d8c5a021e2041101f9ccf234a65a214e06eaa81826116163e0ff339f542fee02fb 2108 plymouth_24.004.60-5.dsc 6c66ae81498afea75a9cc1c19ec82b26210a3bd463f14b8ea7c1cd1e327069ef32f752f4ee5236070825ee42599cf05f14271000523bdbae656a200d2e60d341 1059904 plymouth_24.004.60.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/plymouth"
   ],
   "Files": [
-    "9b18522730ecb110a0f3677786fcb220 29196 plymouth_22.02.122-3.debian.tar.xz 1d9d5f67c3406298899dee8084afb2a8 2042 plymouth_22.02.122-3.dsc 07281db83aa3132f7941f4d0b277a68e 1183608 plymouth_22.02.122.orig.tar.xz"
+    "da99fce0d8aa039af06d3e35b945e91e 31284 plymouth_24.004.60-5.debian.tar.xz c5fd2b4ecb14cac7433a37fc70132c8f 2108 plymouth_24.004.60-5.dsc 6a6d6ec1a6d6e9bd776f368619864949 1059904 plymouth_24.004.60.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/plymouth.git"
   ],
   "Version": [
-    "22.02.122-3"
+    "24.004.60-5"
   ]
 }

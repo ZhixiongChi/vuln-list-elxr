@@ -6,22 +6,22 @@
     "golang-github-coreos-pkg-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-golang (\u003e= 1.17~), golang-any, golang-github-coreos-go-systemd-dev, golang-golang-x-crypto-dev, golang-yaml.v2-dev"
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-coreos-go-systemd-dev, golang-golang-x-crypto-dev, golang-gopkg-yaml.v2-dev"
   ],
   "Checksums-Sha1": [
-    "839e56bba3e48ba878e3f088c772521d544b2656 3380 golang-github-coreos-pkg_4-3.debian.tar.xz 51deff7f6554e78fd6c2e485b4e7b84a930c0e89 2325 golang-github-coreos-pkg_4-3.dsc fc9e9bc5f98893c4f1210e275b122477a142e992 28716 golang-github-coreos-pkg_4.orig.tar.xz"
+    "b5a71f3c021eb72a601d19bf9619cc520e1db501 3652 golang-github-coreos-pkg_4-5.debian.tar.xz 207f5c186c3a54c035d06ceaa41e7943e3902c6f 2320 golang-github-coreos-pkg_4-5.dsc fc9e9bc5f98893c4f1210e275b122477a142e992 28716 golang-github-coreos-pkg_4.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "7d7eb7379d0e70b232e0eded48335687dd9f82a36d287d511c704a5592597034 3380 golang-github-coreos-pkg_4-3.debian.tar.xz 20329cd3b6e3c94144224f7d73593f50f63d3ee232b44be4f773d3c2a580f742 2325 golang-github-coreos-pkg_4-3.dsc ce1bd903410e840ffa8ab9b921941548cd25378eefa8db82f9289ec9e82d3b61 28716 golang-github-coreos-pkg_4.orig.tar.xz"
+    "a5028a120bd4346d482e4f2491d33f69c28a8e9494864c60cadca795382c7730 3652 golang-github-coreos-pkg_4-5.debian.tar.xz 37de59adaa292dd8c5eef94ba4a912c60725c8ba6296e3810f74a695183e000b 2320 golang-github-coreos-pkg_4-5.dsc ce1bd903410e840ffa8ab9b921941548cd25378eefa8db82f9289ec9e82d3b61 28716 golang-github-coreos-pkg_4.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "b030a156abbff5f5fbd4fb02083385304bbcb9821fbadccb61f4bdc8d5fef8b04fdb95687080bd17b68c21e4c1787710818ea193e2071e115947c07292fb1504 3380 golang-github-coreos-pkg_4-3.debian.tar.xz f08a6b83ec3792305fdbde4e399aec0c45dffa39aef9deb0493b70dfdff09305532b8fb47fdfb924177fe4d2545fa1ccf3fd7e5c9c6732bea5073f79211d6531 2325 golang-github-coreos-pkg_4-3.dsc c3b0296ada4ad970845e137e0cd0ddbb34d0fc8dde9e1e64f360e39637d200a3e0a31f71095362d2f6c581aa61f52eaa53c4b7a8d2acc3ce0ec624a2bad4406b 28716 golang-github-coreos-pkg_4.orig.tar.xz"
+    "bf6bcaa9ba8d3a5476e05a80129a3c56228ef1e3bfc71334f77febbbd2b41a8d73af0e7d0a47390baed6a49c1d22761a8c57252851f4c15119cd5c64c7072c52 3652 golang-github-coreos-pkg_4-5.debian.tar.xz 393df34e6c27850e15c20e763274bdddb499bb0d4d7773cca9164dcb86b307089495f302b6c0cb76790ea96623ac37542b76948219b35971e01275a1e86b4a61 2320 golang-github-coreos-pkg_4-5.dsc c3b0296ada4ad970845e137e0cd0ddbb34d0fc8dde9e1e64f360e39637d200a3e0a31f71095362d2f6c581aa61f52eaa53c4b7a8d2acc3ce0ec624a2bad4406b 28716 golang-github-coreos-pkg_4.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/golang-github-coreos-pkg"
   ],
   "Files": [
-    "0659c9be72183a36193ad148ad92bcdb 3380 golang-github-coreos-pkg_4-3.debian.tar.xz 5a45fd71da06b1c993bba01e378664d9 2325 golang-github-coreos-pkg_4-3.dsc 7c6192af05735c0877ee10800ef891df 28716 golang-github-coreos-pkg_4.orig.tar.xz"
+    "7c6ce6faca904eebdf79ccf8319fc50e 3652 golang-github-coreos-pkg_4-5.debian.tar.xz cfad897b92966f7e0c09e74ba1a0b570 2320 golang-github-coreos-pkg_4-5.dsc 7c6192af05735c0877ee10800ef891df 28716 golang-github-coreos-pkg_4.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,16 +39,16 @@
     "golang-github-coreos-pkg"
   ],
   "Package-List": [
-    "golang-github-coreos-pkg-dev deb devel optional arch=all"
+    "golang-github-coreos-pkg-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.4.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
   ],
   "Uploaders": [
-    "Martín Ferrari \u003ctincho@debian.org\u003e, Tim Potter \u003ctpot@hpe.com\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e,"
+    "Martina Ferrari \u003ctina@debian.org\u003e, Tim Potter \u003ctpot@hpe.com\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/go-team/packages/golang-github-coreos-pkg"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-coreos-pkg.git"
   ],
   "Version": [
-    "4-3"
+    "4-5"
   ]
 }

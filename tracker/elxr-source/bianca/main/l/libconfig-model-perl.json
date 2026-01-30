@@ -6,25 +6,25 @@
     "libconfig-model-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libmodule-build-perl"
+    "debhelper-compat (= 13), dh-dist-zilla, dh-sequence-dist-zilla, libdist-zilla-plugin-podweaver-perl, libdist-zilla-plugin-prepender-perl, libdist-zilla-plugin-run-perl, libdist-zilla-plugin-signature-perl, libdist-zilla-plugins-cjm-perl, libmodule-build-perl, libpod-elemental-transformer-list-perl, libpod-weaver-section-support-perl, libsoftware-license-perl, perl"
   ],
   "Build-Depends-Indep": [
-    "dh-sequence-bash-completion, libboolean-perl, libcarp-assert-more-perl, libconfig-model-tester-perl (\u003e= 4.002), libfile-homedir-perl, libhash-merge-perl, libjson-perl, liblist-moreutils-perl, liblog-log4perl-perl, libmouse-perl, libmousex-nativetraits-perl, libmousex-strictconstructor-perl, libparse-recdescent-perl, libpath-tiny-perl, libpod-pom-perl, libprobe-perl-perl, libregexp-common-perl, libtest-command-perl, libtest-differences-perl, libtest-exception-perl, libtest-file-contents-perl, libtest-log-log4perl-perl, libtest-memory-cycle-perl, libtest-pod-perl, libtest-warn-perl, libtext-levenshtein-damerau-perl, libyaml-tiny-perl, po-debconf"
+    "dh-sequence-bash-completion, libboolean-perl, libcarp-assert-more-perl, libconfig-model-tester-perl, libfile-homedir-perl, libhash-merge-perl, libjson-perl, liblist-moreutils-perl, liblog-log4perl-perl, libmouse-perl, libmousex-nativetraits-perl, libmousex-strictconstructor-perl, libparse-recdescent-perl, libpath-tiny-perl, libpod-pom-perl, libprobe-perl-perl, libregexp-common-perl, libtest-command-perl, libtest-differences-perl, libtest-exception-perl, libtest-file-contents-perl, libtest-log-log4perl-perl, libtest-memory-cycle-perl, libtest-pod-perl, libtest-synopsis-expectation-perl, libtest-warn-perl, libtext-levenshtein-damerau-perl, libyaml-tiny-perl, po-debconf"
   ],
   "Checksums-Sha1": [
-    "b5fe6ea9a780714cf30e21e77234cebd23b30bdf 25068 libconfig-model-perl_2.152-1.debian.tar.xz edd96dac0c4cab8fab80d4a243ae6e920ed1669c 2888 libconfig-model-perl_2.152-1.dsc 3f3bf2c9cde2630dc7515a3ff4e3e6d3b24a3bab 386488 libconfig-model-perl_2.152.orig.tar.gz"
+    "3af4e3be12b4685d793bd4999af0332203ad7ab3 26916 libconfig-model-perl_2.155-1.debian.tar.xz a4c8e63cc11b41f49366c7e41bebc430043e103e 3233 libconfig-model-perl_2.155-1.dsc 9ba896c7c54eef2e348da3973628dbe7400d5518 356376 libconfig-model-perl_2.155.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "dd8ac017a16ea831544e2338557dcec8f393fdda9c71984324f4d1ec2411290a 25068 libconfig-model-perl_2.152-1.debian.tar.xz b625d4568f25f6c22ffc7dd9ecff6150892359b5253952cbea23f2ab1f48f0dc 2888 libconfig-model-perl_2.152-1.dsc 11ce523fceeb53d450fea6d802cdf28c1820f8cd6073cfe78c00a2cfb14a6d07 386488 libconfig-model-perl_2.152.orig.tar.gz"
+    "94df9687ffbd201f1f6ffce8388ba34e68bf45beb8c50e812887fa49e0185977 26916 libconfig-model-perl_2.155-1.debian.tar.xz cebbebe7191fcacae8c5a4e824437b654781cd4db401fbcfd16ab57675533e20 3233 libconfig-model-perl_2.155-1.dsc ce7f3e497c61a930015dc05f3657849fcfd338faabe9eade5d5fac8360ec44d8 356376 libconfig-model-perl_2.155.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "79791c3c19971ed1295f05e3b87636126dae91862bf152d0a427ac31496ad5677c5777f8f462c2b507e9d390ffc83d01213b88968a025a649898ba2d44309d1f 25068 libconfig-model-perl_2.152-1.debian.tar.xz a0319f370096fbca03f0e811dc761c2fd5b850d3e906d23330e5407aae613320d46124d05d8f9e981df362c1cd96f7502caed5e2727c67c5ed3cfea23febd8f3 2888 libconfig-model-perl_2.152-1.dsc cc0d50aa3060bfb054bee6e82721932cca7367405f367b3705dc6269a321a2d3ccdac2771918ec4e72a57a4fb5222684a76eb931e627c9a543079846f3176809 386488 libconfig-model-perl_2.152.orig.tar.gz"
+    "c0f62b2124a49a807baec4e00127ec307571a0b695c574688815c0dc43f9a4a3daa09b97b5f4e7976db3f81647c55aca15177796cfee9597100b96a20011041e 26916 libconfig-model-perl_2.155-1.debian.tar.xz 38dd274370abd44b087dbfb2e7e114bf1c32bca84d3531003519776d41a089b94f6901b69b94a87d659d7e46e43206b5e1b499ba5f132150cb1e69ffe80dd93f 3233 libconfig-model-perl_2.155-1.dsc 1a5571231c1b872e286f4859a4120c9a63531a5fd745f20f1a76009c906ea6bec431df54d10a2fa0be930c7928e4b3ce964fad63abf2010de0812cd6de5c05ff 356376 libconfig-model-perl_2.155.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libc/libconfig-model-perl"
   ],
   "Files": [
-    "c26bb598b4bce7b1d674312b05a15b4c 25068 libconfig-model-perl_2.152-1.debian.tar.xz 32760cd9d77c31956c9828eb274a1fc2 2888 libconfig-model-perl_2.152-1.dsc 5817844ee33704a4e30b0862154002a0 386488 libconfig-model-perl_2.152.orig.tar.gz"
+    "d63e45ed8705599d1c4c8eba340b1aa4 26916 libconfig-model-perl_2.155-1.debian.tar.xz a05a1a7d715d188cce9c04d12d551043 3233 libconfig-model-perl_2.155-1.dsc c2fe9f7b5991fec825b3df855b45ffbf 356376 libconfig-model-perl_2.155.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "libconfig-model-perl deb perl optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libconfig-model-perl.git"
   ],
   "Version": [
-    "2.152-1"
+    "2.155-1"
   ]
 }

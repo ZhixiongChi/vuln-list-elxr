@@ -6,22 +6,22 @@
     "htop"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.16.1.1), libdevstat-dev [kfreebsd-any], libhwloc-dev [!linux-any], libkvm-dev [kfreebsd-any], libncurses5-dev, libncursesw5-dev, libnl-3-dev [linux-any], libnl-genl-3-dev [linux-any], libsensors-dev [!hurd-any], pkg-config"
+    "debhelper-compat (= 13), dh-sequence-single-binary, dpkg-dev (\u003e= 1.16.1.1), libdevstat-dev [kfreebsd-any], libhwloc-dev [!linux-any], libkvm-dev [kfreebsd-any], libncurses-dev, libnl-3-dev [linux-any], libnl-genl-3-dev [linux-any], libsensors-dev [!hurd-any], pkgconf"
   ],
   "Checksums-Sha1": [
-    "0ac7b8e6c0c84b42574edcd5839577213c41818c 11420 htop_3.2.2-2.debian.tar.xz 8db84c190f7cddc2747fbe339d93b3d6a023724f 2112 htop_3.2.2-2.dsc dcfc38733f2b7908e5627961bd1485778e292380 369873 htop_3.2.2.orig.tar.gz"
+    "1865ea87101d58d494a7588dc997b9a10f3ca4b8 13556 htop_3.4.1-5.debian.tar.xz 26ac5957da3900c45172b4a0e31508f6ad53a0f2 2140 htop_3.4.1-5.dsc 9fdbcd25712332a39529193243c8f1ead67c7656 427538 htop_3.4.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "44b2842d43f4ba369ee7ae2a0964ded5aa2061f6705193c14c7bc73a25c75d23 11420 htop_3.2.2-2.debian.tar.xz f50ca54a135e676567499f46dbd151c9b7dbb2385bee387b31fb1418987e57c4 2112 htop_3.2.2-2.dsc 3829c742a835a0426db41bb039d1b976420c21ec65e93b35cd9bfd2d57f44ac8 369873 htop_3.2.2.orig.tar.gz"
+    "05a272d1bbba42d0d9d15e9cfa303fdcd8ff72e4e0fc1c68138bd847e5bbc278 13556 htop_3.4.1-5.debian.tar.xz 02fea46afce92613d9951b47ae22edfc6eb9e09698ff4a846028061c23118619 2140 htop_3.4.1-5.dsc af9ec878f831b7c27d33e775c668ec79d569aa781861c995a0fbadc1bdb666cf 427538 htop_3.4.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "d408e15e65803f3af7f6e805f2415b9c38023d2b8986638a1aeba817ef494ba129288665b0b9eee1ca25b6df587ee1553abdb6931184671b092280abcf753e8a 11420 htop_3.2.2-2.debian.tar.xz 761aeb67e7a96ae6b3e7901d88d95814cad0a245d76dfd5a6693750d20b318774c8b02094b3a519d172a9f3d15025b2b2ef25cb148bb8fa15e694c26943f8f73 2112 htop_3.2.2-2.dsc dd82d5b2f70694e76b3740ef0f6f6d3446fe83b748c2cfe61c783985d62cb6e1d00fcb4b1fe7dc8f1d8c6bc7b29474e1e88eaa01f154198d702b100bcbc135bb 369873 htop_3.2.2.orig.tar.gz"
+    "82dc11140412a366b542323d663629d53bea3b6fad4b77dab5d53c28fd2e790e002768169b3e721ba4e3f461ba45bb1027232bc27d8222d72a2dabb24342ae12 13556 htop_3.4.1-5.debian.tar.xz bdc5ce5f24c0abb9c5c9fad5072b7a10b3638396e0484ce5eea7f92999c4c203493fd236434fbe5c8be4a927b7f4cef5065f3d03dbed6b05f8b1ee20670a621d 2140 htop_3.4.1-5.dsc fe110c1c5ba63d1ff852f603e96a269c111ba4d5d85e2d737da29366dffdb36bcdd7b1124cfa5875c1c240f1704d8b889bc983597bcfff1192d3cf8bae5501c8 427538 htop_3.4.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/h/htop"
   ],
   "Files": [
-    "635e0c8b5d3804935d3ef1b7d0d1fb25 11420 htop_3.2.2-2.debian.tar.xz 49b4d93fc11e8f53f82b321a8076092d 2112 htop_3.2.2-2.dsc 1f77a9ce6355f9deaac2e98fdad5beaa 369873 htop_3.2.2.orig.tar.gz"
+    "486090426e22c5a1de018089eb027261 13556 htop_3.4.1-5.debian.tar.xz dc69a974f961fae8c16269b580de75f9 2140 htop_3.4.1-5.dsc c3e003d9e265774dd808e934d1780774 427538 htop_3.4.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,10 @@
     "htop deb utils optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
   ],
   "Uploaders": [
     "Eugene V. Lyubimkin \u003cjackyf@debian.org\u003e, Graham Inggs \u003cginggs@debian.org\u003e"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/debian/htop.git"
   ],
   "Version": [
-    "3.2.2-2"
+    "3.4.1-5"
   ]
 }

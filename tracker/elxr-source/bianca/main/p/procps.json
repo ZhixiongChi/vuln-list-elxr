@@ -6,22 +6,22 @@
     "procps, libproc2-0, libproc2-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-exec (\u003e= 0.3), libncurses5-dev, libncursesw5-dev, dejagnu, libnuma-dev [amd64 i386 ia64 mips mipsel mips64 mips64el powerpc ppc64el], pkg-config, libsystemd-dev (\u003e= 209) [linux-any]"
+    "debhelper-compat (= 13), dh-exec (\u003e= 0.3), libncurses-dev, dejagnu, libnuma-dev [amd64 i386 ia64 mips mipsel mips64 mips64el powerpc ppc64el], pkgconf, libsystemd-dev [linux-any]"
   ],
   "Checksums-Sha1": [
-    "69880198c824ad816ae9b759aaf038e6b2791f69 28540 procps_4.0.2-3.debian.tar.xz 5122f816ab73122a5f2af1d8e1aa8b7eba3c7e9c 2127 procps_4.0.2-3.dsc 56e42720501672556e699eb38ace869c7e6fb917 1279196 procps_4.0.2.orig.tar.xz"
+    "d0129f2f423db17a6012bf90e17a0f3e1f25274e 45932 procps_4.0.4-9.debian.tar.xz fc0381a50c53b2520c68d75f242370cc730c17e4 2124 procps_4.0.4-9.dsc 2b859acd7060e9898ac457dbd26dbebf563cc44b 1401540 procps_4.0.4.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "64d3bd71b6a65f8888c5aa0da0e39b48498787c34eb95babd6ef46c5c5a3a910 28540 procps_4.0.2-3.debian.tar.xz 927de59c0fb3b3f1ccfd685ebd578fdd9ca524135f15810f766be2f6be5a7e83 2127 procps_4.0.2-3.dsc ee3fcd2ea6ff94aa43a81ba5cc7912b7c9615acd2911c7a3d3ea081287fdf47a 1279196 procps_4.0.2.orig.tar.xz"
+    "4821ca009f83b05522bc97ddac82661898938323ef0808416bca7830ce19bd97 45932 procps_4.0.4-9.debian.tar.xz 0ea43605b8d5d7ac4306af0dcd2d01e237cbaba6603b0cf248dd7cfd4364ac7a 2124 procps_4.0.4-9.dsc 22870d6feb2478adb617ce4f09a787addaf2d260c5a8aa7b17d889a962c5e42e 1401540 procps_4.0.4.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "dad14aff02be48c72b4f9bb96903613f433b8f9fd0189a6c2a588f80e94f2a4e1e9d696d8e6165d17ef44349963a6df7ae85c6b4cc7a27ca5e1f8e1f4a1f258c 28540 procps_4.0.2-3.debian.tar.xz bf3faf2927a9d30e8c52f008ea1de33d0a8cc87822268b7a5b39f694f092ac9ebcef50a04ae02e968906d9c1324b545f3b09f97fddbf4cd1bcd96ea897ac2502 2127 procps_4.0.2-3.dsc 5327e62084bf801786785aad98cc2f0463f48336864d1dd92d138097ffaac7ffbc8d5127b325a0e9d06b29d101f19bbfaecf612f659035b00e6627cb5e267544 1279196 procps_4.0.2.orig.tar.xz"
+    "e6993b3253cd87e20e92b804ae302f770ee74255c8b91b1b1ec1829e33339ed4c3933f4b2ddf40c7b82258d31023bee7678776cd9e3f434993bc0b381115ccb2 45932 procps_4.0.4-9.debian.tar.xz b9547f9d247e3bd7bb8eabc9b0fc5dc1b808e226d7dfe3a76c167b7f71565dc74d71411bce29c44da76efd352f5e1e5608a8273c7a061694e07c5baa7e9a1af1 2124 procps_4.0.4-9.dsc 94375544e2422fefc23d7634063c49ef1be62394c46039444f85e6d2e87e45cfadc33accba5ca43c96897b4295bfb0f88d55a30204598ddb26ef66f0420cefb4 1401540 procps_4.0.4.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/procps"
   ],
   "Files": [
-    "c5228c6967b6aaeffcce4be6b8928001 28540 procps_4.0.2-3.debian.tar.xz 79d7f7ae48b3c54295cac3ffdde6b8cb 2127 procps_4.0.2-3.dsc 691748c4767f19b9d94ed9d088e40c4d 1279196 procps_4.0.2.orig.tar.xz"
+    "0ca4994349f1c4b5e089073736de21d4 45932 procps_4.0.4-9.debian.tar.xz 289d1b94b96c24ae735e175c8c267955 2124 procps_4.0.4-9.dsc 2f747fc7df8ccf402d03e375c565cf96 1401540 procps_4.0.4.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,13 @@
     "libproc2-0 deb libs optional arch=any libproc2-dev deb libdevel optional arch=any procps deb admin important arch=any"
   ],
   "Standards-Version": [
-    "4.3.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "shunit2"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/procps"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/debian/procps.git"
   ],
   "Version": [
-    "2:4.0.2-3"
+    "2:4.0.4-9"
   ]
 }

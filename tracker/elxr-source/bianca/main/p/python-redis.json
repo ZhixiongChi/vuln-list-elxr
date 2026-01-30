@@ -6,28 +6,28 @@
     "python3-redis"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-hatchling, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "a32ceb9cfb07bd57aa2089e7835e80a3a237f9f7 5412 python-redis_4.3.4-3.debian.tar.xz 5956580d6db9cc3c21b9456d48285eab89e0459a 2153 python-redis_4.3.4-3.dsc 71193eea1e329fbeca00d9cdd4f29310e08c6e6b 4613714 python-redis_4.3.4.orig.tar.gz"
+    "6e0134a2a516f1a6a0d07660a9aa8b976b9047bc 7956 python-redis_6.1.0-2.debian.tar.xz c705b18fdfe0c9023dad6b62ac013cf822f694ab 2259 python-redis_6.1.0-2.dsc d88da4b384f03ec01d53b9b0bc1eb7568377f81a 4865160 python-redis_6.1.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "272d63e612a4c7aec7f8a943ab87df1a0a40414edd63b4bd9c47956d5a2200d7 5412 python-redis_4.3.4-3.debian.tar.xz 2f71d608f1bd77d2ce055ac2f174a2fbd4edbe79d90948715e70dd39a85a2a37 2153 python-redis_4.3.4-3.dsc a3d3b6e86cc73c253fd5c02d174098abf3fa043dfdcb29689eb928f60a552fd6 4613714 python-redis_4.3.4.orig.tar.gz"
+    "168aa227e96817b60711116812ec5f15eaf1c2eaa1064003e0ac62f88bf04fb3 7956 python-redis_6.1.0-2.debian.tar.xz 0f97bee7d1f743137d3d300f9dda090b5ac8d06118fb1c04aab420a93d153371 2259 python-redis_6.1.0-2.dsc 72aa3907720de4e3e0e44d64e60791d0d95c4f23dc1602f0a2011d3583a930a2 4865160 python-redis_6.1.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8067b83c6eaf5d57baa2be877ce0d998599453d04bf206f4055dc4f9f3917dc11ec78280243eab309db9d16acabee27df018377f9a472c1ecf087e4bc72af52b 5412 python-redis_4.3.4-3.debian.tar.xz 9c35174f62eaf783d29b49f9a733e262d39575568c16f955844156ddb065c07a4a24e9e3d7857a8b952767306f9a63fb71363f4afa46311647165547f4dc10e6 2153 python-redis_4.3.4-3.dsc 55dd00c15cedb82cb5edd46b1f18f32c0accb8c85b1b94bbfe04591dc07f6151ced81cbfca8ac6fe88a6743bf5abc50309ea23bef96bf4332a712979c61ea0b7 4613714 python-redis_4.3.4.orig.tar.gz"
+    "cab10ae10bb6c09445c333dd5a58ff0fba6c333a1e42676bed70349c7145f9af8a3b1fb0bb6959b0f1d5fc3c3eea0f2da6d849037560733f237e02e620f55676 7956 python-redis_6.1.0-2.debian.tar.xz 55121f6546141b749faf10fb0ccd03cb4e22ec68abbd65ba0c15ed06273398512687a368ea545110edb422db8461155d3c2f14a00900bce4346b11666128b62f 2259 python-redis_6.1.0-2.dsc aacb02565d1b1b672135caffdd29ad83f688184e8f7ba2835668b8ea938e158dc09e9cdf1f6313ffedff86e07da0d18ceed2fcfa5ef677d3ed0c7ff4418d1f39 4865160 python-redis_6.1.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-redis"
   ],
   "Files": [
-    "70bb593ed776b4f0e828a33c199946d2 5412 python-redis_4.3.4-3.debian.tar.xz b09022c01a239804669f9e7ca3f2939f 2153 python-redis_4.3.4-3.dsc 83ddb004c1b83a74b8fbe03cbc0ee7fe 4613714 python-redis_4.3.4.orig.tar.gz"
+    "1533d593996fce94bc8391d6d2f4f168 7956 python-redis_6.1.0-2.debian.tar.xz 20b1dcdb9e42942727c954ad2d9afdc4 2259 python-redis_6.1.0-2.dsc 83b8ecfd189b71a49f9462e009234dbf 4865160 python-redis_6.1.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://github.com/andymccurdy/redis-py"
+    "https://github.com/redis/redis-py"
   ],
   "Maintainer": [
     "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
@@ -39,13 +39,13 @@
     "python3-redis deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "python3-all, python3-mock, python3-pytest, python3-pytest-asyncio, python3-setuptools, redis-server"
+    "python3-all, python3-coverage, python3-mock, python3-numpy, python3-pytest, python3-pytest-asyncio, python3-pytest-timeout, python3-setuptools, redis-server"
   ],
   "Uploaders": [
     "Chris Lamb \u003clamby@debian.org\u003e,"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-redis.git"
   ],
   "Version": [
-    "4.3.4-3"
+    "6.1.0-2"
   ]
 }

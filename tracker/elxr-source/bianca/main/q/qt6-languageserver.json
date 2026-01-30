@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libqt6jsonrpc6, libqt6languageserver6, qt6-languageserver-dev, qt6-languageserver-private-dev"
+    "qt6-languageserver-dev, qt6-languageserver-private-dev"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.18~), debhelper-compat (= 13), ninja-build, pkg-config, pkg-kde-tools, qt6-base-dev (\u003e= 6.4.2+dfsg~), qt6-base-private-dev (\u003e= 6.4.2+dfsg~)"
+    "cmake (\u003e= 3.18~), debhelper-compat (= 13), ninja-build, pkgconf, pkg-kde-tools, qt6-base-dev (\u003e= 6.8.2+dfsg~), qt6-base-private-dev (\u003e= 6.8.2+dfsg~)"
   ],
   "Checksums-Sha1": [
-    "ffe30016f1be873577e13d8b86c20711e6055443 14940 qt6-languageserver_6.4.2-2.debian.tar.xz e9b619c186fc50ab4727d9b3f29ac5a4c802d77c 2419 qt6-languageserver_6.4.2-2.dsc 2926b5f662f07c4c8ca5fdb6cf277340fabea8d9 153472 qt6-languageserver_6.4.2.orig.tar.xz"
+    "7cb909f475b4ea20f62075a89d809ab445060c5e 8820 qt6-languageserver_6.8.2-2.debian.tar.xz 058eabdac113da200c6134df1065de94bb1e37c5 2281 qt6-languageserver_6.8.2-2.dsc f764b69c7ea84b98324af587aca8dbfe7b450c87 150280 qt6-languageserver_6.8.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "058ada657c411cbcab5bfeffb6c2fb0deb4c21ee2f11e0cd8dd52f7c1c711ff1 14940 qt6-languageserver_6.4.2-2.debian.tar.xz 9c5d4154404cd2515061d033487eef50d1c21a6e31fa554c25cfc5125cdb079a 2419 qt6-languageserver_6.4.2-2.dsc 743e66c6ef0a7fbb032ba3eb2b2680915e2951c5f59b8a9dfe573db7241ca811 153472 qt6-languageserver_6.4.2.orig.tar.xz"
+    "369f4d9f8b9d3885dcc6fea01fc62e3b75d62ce99d1e520654c7547932836270 8820 qt6-languageserver_6.8.2-2.debian.tar.xz e04116fb85bc133f808028fa9eb1ef478b22a989a9f50ac4eb985f44171177f1 2281 qt6-languageserver_6.8.2-2.dsc 9eeb74ac15334c08777548c01e4ede80a4e2d36f1ebcb322423f24f14c2785fb 150280 qt6-languageserver_6.8.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "f47a6b53b220c1d48bcb459b09b717c41f016e8a9047facaf201ef76f9cea9617788b8212240014605475b411f9f33e2bcd6b4caf6ac1fb187081d2c14b2ab5e 14940 qt6-languageserver_6.4.2-2.debian.tar.xz 6746e67d46fbb3222d388fff5504cb17ff04e72b8e5c2eb270e65bd7b47b3f17222ec441947016a843041760507b125ce91ab7bacbdb9f77b20f2bfa5e04798e 2419 qt6-languageserver_6.4.2-2.dsc f1c46ea7dd6c0e44dd5a5bbe38fb0ab627e21c050dfb4cc691ff805decf084a5321a970d8151d00dd58eac574f46d74fafbda2e1bd2beb1bba9281481c852603 153472 qt6-languageserver_6.4.2.orig.tar.xz"
+    "99b3d348b9d6ea66a4e700221c0ec584e5acfbb18def5e0fbb92e690a4dd48d7dd76a2848872f92474050fac81759906795469861937d9162756e94be8cb0c94 8820 qt6-languageserver_6.8.2-2.debian.tar.xz 391e26eae885ffdc784d2d729a0c0b53d5ee4bca5ccd1531d3bd3715169e9fa3ea1165f03b4a65394be4ffa10683e580b9c0bc6a73e651fbb4629a79f97e0470 2281 qt6-languageserver_6.8.2-2.dsc 99da3d34d0a7f5a6293f00e24668bd4fef5d3bc0588313751317cd43f213627bd841ddb2ea6b0035578b83e4b1e6746308466a7e974a8250caabd463f9144df0 150280 qt6-languageserver_6.8.2.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/q/qt6-languageserver"
   ],
   "Files": [
-    "7b0b5bb4cded9201f2fc59c3cf44b415 14940 qt6-languageserver_6.4.2-2.debian.tar.xz 64c81d6f68546ccffeadfeb7ac39a0b7 2419 qt6-languageserver_6.4.2-2.dsc baaa85ab6f45eda4126020b66dca105b 153472 qt6-languageserver_6.4.2.orig.tar.xz"
+    "785f3fe017f6e72c81998663e18fc367 8820 qt6-languageserver_6.8.2-2.debian.tar.xz 36e2914edb159ab26bd0f8500e3c9161 2281 qt6-languageserver_6.8.2-2.dsc 2b7484db9484162244cfb6ea7367c389 150280 qt6-languageserver_6.8.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "qt6-languageserver"
   ],
   "Package-List": [
-    "libqt6jsonrpc6 deb libs optional arch=any libqt6languageserver6 deb libs optional arch=any qt6-languageserver-dev deb libdevel optional arch=any qt6-languageserver-private-dev deb libdevel optional arch=any"
+    "qt6-languageserver-dev deb libdevel optional arch=any qt6-languageserver-private-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Uploaders": [
     "Patrick Franz \u003cdeltaone@debian.org\u003e, Pino Toscano \u003cpino@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/qt6/qt6-languageserver.git"
   ],
   "Version": [
-    "6.4.2-2"
+    "6.8.2-2"
   ]
 }

@@ -6,22 +6,25 @@
     "golang-github-cyphar-filepath-securejoin-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-golang, golang-any"
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-stretchr-testify-dev, golang-golang-x-sys-dev"
   ],
   "Checksums-Sha1": [
-    "c139152b4c28144b11462eb2cfea2387efd51b33 2940 golang-github-cyphar-filepath-securejoin_0.2.3-1.debian.tar.xz dbe4e4ccfbb1954241bf9476822a404ac6704d24 1806 golang-github-cyphar-filepath-securejoin_0.2.3-1.dsc ea7eb74c157159bbbf9ef9dc98b8d34a0fb4140a 6945 golang-github-cyphar-filepath-securejoin_0.2.3.orig.tar.gz"
+    "fbaea260a44e19bd9535ca8e17f6d839494cf671 5424 golang-github-cyphar-filepath-securejoin_0.3.4-3.debian.tar.xz c79ba7eefc130976162913befa295fcb1d2609fc 2625 golang-github-cyphar-filepath-securejoin_0.3.4-3.dsc 23c0b9b683bc05cf41f50e305d5882aaa12ba38a 47203 golang-github-cyphar-filepath-securejoin_0.3.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "43bb835a0c9d256d8075bc7e9574422487701efbc4b8f26a6162b9140d9721ab 2940 golang-github-cyphar-filepath-securejoin_0.2.3-1.debian.tar.xz e4497ceba0371807026e60564604c353d02f23d00385d6248ad75446c0575334 1806 golang-github-cyphar-filepath-securejoin_0.2.3-1.dsc a769d31b0b51a3c741cf54fe821bc7a1eef6d07527c9cddaff829671127de480 6945 golang-github-cyphar-filepath-securejoin_0.2.3.orig.tar.gz"
+    "52b86b07413ee8928f77f3cb831d62fbb65ca6646308398a045c5ae180115edf 5424 golang-github-cyphar-filepath-securejoin_0.3.4-3.debian.tar.xz 5b4307db9525e9605a29d50269c7d7c591f69d2ded2f82f7c9b814662506d1c9 2625 golang-github-cyphar-filepath-securejoin_0.3.4-3.dsc 1187d0c55cb595c9523a4cbcdde1490d11411e8467c6ff85727c9a849db86db5 47203 golang-github-cyphar-filepath-securejoin_0.3.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8e3c31ddfcde8264bfe65ada590c7088967fd69112441fbf17aaab1e47ae04dcb23e6df561f813ab588b17dbdb7070cc59ffd3113476de3bc8d43ebc500693bb 2940 golang-github-cyphar-filepath-securejoin_0.2.3-1.debian.tar.xz 93cefe68f8f92349bb533e7e0d7fea67b381cd082d225ea3fc9a3edab091b7e733697112c804426539100f03020affceb60a117c81dc532630a0299466b16536 1806 golang-github-cyphar-filepath-securejoin_0.2.3-1.dsc c53246222e56e7df6b0f464d6f86b8cfa91de6c5823c7c62e62f4e15f59062c14e1947e1c7d6a054100d101961526ec9500a424891256d481bd99691c23e6349 6945 golang-github-cyphar-filepath-securejoin_0.2.3.orig.tar.gz"
+    "20a0fbf55a1c270991b47b2b85002ddac2a4b137d39b6bf692c82d82a263b49f3f43a76ba45c8da89a2dff6afe18904c4c22ac4d73b7e6cfcf23c4c9905fb96d 5424 golang-github-cyphar-filepath-securejoin_0.3.4-3.debian.tar.xz d215197c9ff29aa12759ddee6f145f0e11ffa811e8b33b9849002167940ddf44f478ea623c8fd877abacb3cab4df40f03ebbf35232494b95b7525e51c4c761de 2625 golang-github-cyphar-filepath-securejoin_0.3.4-3.dsc 294a84ce055aa03fa7e218076484ff51c4453acc795f36cc151e9d5d8633e711b6de17b6cd69e17b35a5a41f42483e8f29fd63e3257fe162d08b11fc20a6f6e5 47203 golang-github-cyphar-filepath-securejoin_0.3.4.orig.tar.gz"
+  ],
+  "Dgit": [
+    "56f3d89e071a36c4b4d94bea2a21f76298e9ddf2 debian archive/debian/0.3.4-3 https://git.dgit.debian.org/golang-github-cyphar-filepath-securejoin"
   ],
   "Directory": [
     "pool/main/g/golang-github-cyphar-filepath-securejoin"
   ],
   "Files": [
-    "81801a0c508264aefbed126406087cdd 2940 golang-github-cyphar-filepath-securejoin_0.2.3-1.debian.tar.xz 47fb02f3d5ac82b7597ee8dbf4783f84 1806 golang-github-cyphar-filepath-securejoin_0.2.3-1.dsc a209e6ecde5bd04806910e4819fcd7b3 6945 golang-github-cyphar-filepath-securejoin_0.2.3.orig.tar.gz"
+    "e723b60d482ade4c8891ee120a6ed548 5424 golang-github-cyphar-filepath-securejoin_0.3.4-3.debian.tar.xz 811d02b7059970bce214dd617ca55749 2625 golang-github-cyphar-filepath-securejoin_0.3.4-3.dsc 460f38ebd56c7c5e1527fba19b4513e1 47203 golang-github-cyphar-filepath-securejoin_0.3.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,7 +51,7 @@
     "autopkgtest-pkg-go"
   ],
   "Uploaders": [
-    "Dmitry Smirnov \u003conlyjob@debian.org\u003e,"
+    "Dmitry Smirnov \u003conlyjob@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/go-team/packages/golang-github-cyphar-filepath-securejoin"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-cyphar-filepath-securejoin.git"
   ],
   "Version": [
-    "0.2.3-1"
+    "0.3.4-3"
   ]
 }

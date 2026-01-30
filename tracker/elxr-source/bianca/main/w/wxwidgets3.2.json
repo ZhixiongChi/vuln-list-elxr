@@ -3,28 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "libwxbase3.2-1, libwxgtk3.2-1, libwxgtk3.2-dev, libwxgtk-gl3.2-1, libwxgtk-media3.2-1, libwxgtk-media3.2-dev, libwxgtk-webview3.2-1, libwxgtk-webview3.2-dev, wx-common, wx3.2-headers, wx3.2-i18n, wx3.2-examples, wx3.2-doc"
+    "libwxbase3.2-1t64, libwxgtk3.2-1t64, libwxgtk3.2-dev, libwxgtk-gl3.2-1t64, libwxgtk-media3.2-1t64, libwxgtk-media3.2-dev, libwxgtk-webview3.2-1t64, libwxgtk-webview3.2-dev, wx-common, wx3.2-headers, wx3.2-i18n, wx3.2-examples, wx3.2-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gettext, libexpat1-dev, libgl-dev, libglu1-mesa-dev, libgstreamer-plugins-bad1.0-dev, libgtk-3-dev, libjpeg-dev, libnotify-dev, libpng-dev, libsm-dev, libtiff-dev, libwebkit2gtk-4.0-dev, libxt-dev, zlib1g-dev"
+    "dpkg-dev (\u003e= 1.22.5), ca-certificates \u003c!nocheck\u003e, debhelper-compat (= 13), gettext, libcurl4-openssl-dev, libexpat1-dev, libgl-dev, libglu1-mesa-dev, libgstreamer-plugins-bad1.0-dev, libgtk-3-dev, libjpeg-dev, liblzma-dev, libnotify-dev, libpng-dev, libsm-dev, libtiff-dev, libwebkit2gtk-4.1-dev, libxt-dev, locales-all \u003c!nocheck\u003e, python3-httpbin [!i386 !hppa !sh4 !x32] \u003c!nocheck\u003e, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e, zlib1g-dev"
   ],
   "Build-Depends-Indep": [
     "doxygen, graphviz"
   ],
   "Checksums-Sha1": [
-    "3b8fb2626eeb665e83fe104770c268739b6a3256 34096 wxwidgets3.2_3.2.2+dfsg-2.debian.tar.xz ecdb9ff92159599bbf2763ed85a3e3809f1dea18 3039 wxwidgets3.2_3.2.2+dfsg-2.dsc ff1dcceb77866a0395fe4e7da9768ed684a92e87 18647152 wxwidgets3.2_3.2.2+dfsg.orig.tar.xz"
+    "c8ab2040dade9cefeffc5d2239c9b15454016389 35256 wxwidgets3.2_3.2.8+dfsg-2.debian.tar.xz e4f260bb978a49687c212d587c2b5f5284aca87e 3341 wxwidgets3.2_3.2.8+dfsg-2.dsc c4b24f27899adb74aa55220cfdf915befc37f77e 18961348 wxwidgets3.2_3.2.8+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "a419f5a599bc37f559b1ffe3cae9444c36c39e74ab66a786fcaeb2c119937e8b 34096 wxwidgets3.2_3.2.2+dfsg-2.debian.tar.xz 21cfda00102fcff533956eb7f296d7f6bdb29510eb169637f046b786dd465b8e 3039 wxwidgets3.2_3.2.2+dfsg-2.dsc e825125ac61f68548a3faae0fd5b3fc5377c0538961f02ac7cc2f0eae4e4f3e4 18647152 wxwidgets3.2_3.2.2+dfsg.orig.tar.xz"
+    "733a1770f00e970a3c35c3a59d5e606b251b88797c3583cb1d736e552636d342 35256 wxwidgets3.2_3.2.8+dfsg-2.debian.tar.xz 7019d21aa980b5d4a6259a70e0f84450e3de37e66f9073202deadce006173fcf 3341 wxwidgets3.2_3.2.8+dfsg-2.dsc b618e4cb79bd31ba7c9d01c381b11694056a0ed7c5b260cf3b0fc6f5b6298bd9 18961348 wxwidgets3.2_3.2.8+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "2636bc14bf32c9bb31ece73cdeeb7b338794d02cce156ba3a305fca7abd5419bd08288815c08979b23593eb79d7293361c51eae6ea0ed6f0d41809237f681534 34096 wxwidgets3.2_3.2.2+dfsg-2.debian.tar.xz 9962feeb024a9bd6ce3df63ed28a765782677697aa1a500ee26ad5b0ac1a1ea83e112788a42848c903d2e2773e46a170df924bf7fefbb79b726ffc97a1418949 3039 wxwidgets3.2_3.2.2+dfsg-2.dsc 5a136495e6cf2ca1b59fe48fb8c499fe30727ccb6562ccb19930326f91fd72c3fa2f89f5437209de9e79b1503e0b6953888e35f6c370dd8287c1724bb21fe2c3 18647152 wxwidgets3.2_3.2.2+dfsg.orig.tar.xz"
+    "964b9409d181f17963927f446c22b95299bc22a9b5b75067ff32a748f383c40a1d115b0f92641491ec5b9c82f796371e446329695a323d05470e14495b138816 35256 wxwidgets3.2_3.2.8+dfsg-2.debian.tar.xz ff645b45a6d5a6e3816e626a60554764ca9c8566f015f04a737dc526a6142c6b3aa7a886e70e39958f3a2bfd221edded61e0dd831d3965fc085fe25dd2b993e4 3341 wxwidgets3.2_3.2.8+dfsg-2.dsc 968c7ff8d52349f341debbb5d43755b2f832481fa528ba71cafc2047f0ae8c8de10210d055fbad82489ecdf041d92149e0f9404c40b6ccaa57f1be9415dc645e 18961348 wxwidgets3.2_3.2.8+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/w/wxwidgets3.2"
   ],
   "Files": [
-    "b2b45c032cabdcc878771d51a61f5656 34096 wxwidgets3.2_3.2.2+dfsg-2.debian.tar.xz bfd370ceb5451274aa022a4b95a0718c 3039 wxwidgets3.2_3.2.2+dfsg-2.dsc 0c75ea0d3263315d41d7bce44769ca43 18647152 wxwidgets3.2_3.2.2+dfsg.orig.tar.xz"
+    "c42f3b8a84a054307a6d31dede7f7578 35256 wxwidgets3.2_3.2.8+dfsg-2.debian.tar.xz 752cdb514a56f7bb39ca5694bb28872b 3341 wxwidgets3.2_3.2.8+dfsg-2.dsc 09761323b82073c90c6dadf80b116231 18961348 wxwidgets3.2_3.2.8+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,16 @@
     "wxwidgets3.2"
   ],
   "Package-List": [
-    "libwxbase3.2-1 deb libs optional arch=any libwxgtk-gl3.2-1 deb libs optional arch=any libwxgtk-media3.2-1 deb libs optional arch=any libwxgtk-media3.2-dev deb libdevel optional arch=any libwxgtk-webview3.2-1 deb libs optional arch=any libwxgtk-webview3.2-dev deb libdevel optional arch=any libwxgtk3.2-1 deb libs optional arch=any libwxgtk3.2-dev deb libdevel optional arch=any wx-common deb devel optional arch=any wx3.2-doc deb doc optional arch=all wx3.2-examples deb devel optional arch=all wx3.2-headers deb devel optional arch=all wx3.2-i18n deb localization optional arch=all"
+    "libwxbase3.2-1t64 deb libs optional arch=any libwxgtk-gl3.2-1t64 deb libs optional arch=any libwxgtk-media3.2-1t64 deb libs optional arch=any libwxgtk-media3.2-dev deb libdevel optional arch=any libwxgtk-webview3.2-1t64 deb libs optional arch=any libwxgtk-webview3.2-dev deb libdevel optional arch=any libwxgtk3.2-1t64 deb libs optional arch=any libwxgtk3.2-dev deb libdevel optional arch=any wx-common deb devel optional arch=any wx3.2-doc deb doc optional arch=all wx3.2-examples deb devel optional arch=all wx3.2-headers deb devel optional arch=all wx3.2-i18n deb localization optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "g++, libgtk-3-dev, make, pkgconf"
   ],
   "Uploaders": [
     "Olly Betts \u003colly@survex.com\u003e, Scott Talbert \u003cswt@techie.net\u003e,"
@@ -54,6 +60,6 @@
     "https://salsa.debian.org/freewx-team/wxwidgets3.2.git"
   ],
   "Version": [
-    "3.2.2+dfsg-2"
+    "3.2.8+dfsg-2"
   ]
 }

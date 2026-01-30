@@ -6,22 +6,22 @@
     "netcat-openbsd"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), iproute2 [linux-any] \u003c!nocheck\u003e, libbsd-dev, pkg-config, procps [linux-any] \u003c!nocheck\u003e, strace [linux-any] \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), iproute2 [linux-any] \u003c!nocheck\u003e, libbsd-dev, pkgconf, procps [linux-any] \u003c!nocheck\u003e, strace [linux-any] \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "5badb0fa9dbe6fc1cd0ec19f259243230c7e4e6c 52048 netcat-openbsd_1.219-1.debian.tar.xz 772d1d047b6211ca6cc70f0b8b51d5ffc2609c21 2003 netcat-openbsd_1.219-1.dsc 1ebaa0b5c108b3edf01b65eb7f94880ea77d7db2 22940 netcat-openbsd_1.219.orig.tar.gz"
+    "dfb7ab374c0082149403f8b25afac991a221da71 52760 netcat-openbsd_1.229-1.debian.tar.xz 4286b11597bbc164ec76b37cffb76340d5ac4e52 2000 netcat-openbsd_1.229-1.dsc 9359ce0c6cf848e0a12d11035d14d17b8eaa0362 23074 netcat-openbsd_1.229.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "3f5f801bacd740075d563137387004a6e651d56801e369026c2387a041b4d357 52048 netcat-openbsd_1.219-1.debian.tar.xz 74ee25c8116822153105ba7c14f8dafcd3599b4426bc5860e5abc452957c88bf 2003 netcat-openbsd_1.219-1.dsc 576487c3a4930987a5dc7b369340f07f3ef15abe7cd743d88036990bd8d89dca 22940 netcat-openbsd_1.219.orig.tar.gz"
+    "c3bff4330a2fe1fbe384861eacbf4f6ad2c59912aa772efad07462644ed9d936 52760 netcat-openbsd_1.229-1.debian.tar.xz c6889cd9698d5bb2f83339dedf2d78b3105526512b87e13b7d51633662bbb713 2000 netcat-openbsd_1.229-1.dsc 493e3973ffca7fedf0435e498bf18ebc934b1c3aa76db2b29cf80f98d9175a86 23074 netcat-openbsd_1.229.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "badc1afbe8a467c068fa1d3bf12817d568eae5bb9774f9f11d3b30c065eb3a8b39724bb456329d7153ea3160cd10fab159a6756f7eeafd9bfc8c5d78114f7da6 52048 netcat-openbsd_1.219-1.debian.tar.xz 1c2bc8a205411f8dd55118e9e8e84055b2468a72d3c5fa02352a3f5020c6511a78681a3057029910e496591ed580ac6358a4ed2eef4063dd7634a7b1daccd939 2003 netcat-openbsd_1.219-1.dsc 9f6d531d33410457b8f1e6a3eb0d105dbd819d5e4fe9753d32d7fd4583680ceba102a60307a8b5ef26b47047492b207388742b725da3708d30d360d4a196f115 22940 netcat-openbsd_1.219.orig.tar.gz"
+    "f815e55d33af9c4ff8eade5c5e54e36eb9832f64862a1aebb8cb9c17c3126b51cc97c57b0614e85fe7a70c816b6c5855a795b24b9623ef5bb05e9381e975f27b 52760 netcat-openbsd_1.229-1.debian.tar.xz 746cf0e6385a3302377b3e79c6e9ffb071cc266b6a8f61ce3d8cf27d0fefafe21b40f894999a95143429302547c145a969c64f1a1727f267c7f49d9561f85040 2000 netcat-openbsd_1.229-1.dsc ce778bcfb7a11f442479d9d49ddf268896082df6ac80ab8a99e0f865d78230192b42234720f330c3099941704bf93730fad4656d281c4754a4cb12f64db71f45 23074 netcat-openbsd_1.229.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/n/netcat-openbsd"
   ],
   "Files": [
-    "9dd1d06213df21085a545cf8fcddee7e 52048 netcat-openbsd_1.219-1.debian.tar.xz 014cb0596b24f62b3eae3d8f2cba68b2 2003 netcat-openbsd_1.219-1.dsc b0def7d0ca0bc403b09493c47f14f943 22940 netcat-openbsd_1.219.orig.tar.gz"
+    "85d2dbea0f4a956c3c1c9f9f6a9ddab3 52760 netcat-openbsd_1.229-1.debian.tar.xz 59c36f6b3745d67d30d8421c240d11a0 2000 netcat-openbsd_1.229-1.dsc a78ba971e5c9f9b5a766bab6238d0dff 23074 netcat-openbsd_1.229.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "netcat-openbsd deb net important arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/netcat-openbsd.git -b debian/latest"
   ],
   "Version": [
-    "1.219-1"
+    "1.229-1"
   ]
 }

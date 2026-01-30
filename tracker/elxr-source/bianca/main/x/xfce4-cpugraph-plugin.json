@@ -6,22 +6,22 @@
     "xfce4-cpugraph-plugin"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), intltool, libxfce4panel-2.0-dev, libxfce4ui-2-dev, libxfce4util-dev (\u003e= 4.17.2), xfce4-dev-tools"
+    "debhelper-compat (= 13), intltool, libxfce4panel-2.0-dev, libxfce4ui-2-dev, libxfce4util-dev (\u003e= 4.17.2), libxfconf-0-dev, xfce4-dev-tools"
   ],
   "Checksums-Sha1": [
-    "c84724c7bf2017db138ff37453a5ef3cfa6aeace 4144 xfce4-cpugraph-plugin_1.2.7-1.debian.tar.xz d06ab16c68b06625601dbc481cc4764a609b8504 2180 xfce4-cpugraph-plugin_1.2.7-1.dsc 2395f5d74a6f8da24819b0e2c4e3658c259dccf7 438674 xfce4-cpugraph-plugin_1.2.7.orig.tar.bz2"
+    "c127c02ecd223289e1e54525ee030c4e08fe1ff7 4244 xfce4-cpugraph-plugin_1.2.10-1.debian.tar.xz 5c87e57893d16dc86e038274e0cb38dc36e8970b 2204 xfce4-cpugraph-plugin_1.2.10-1.dsc b9c639dab604018b77b0aa625b2734a2088de553 440958 xfce4-cpugraph-plugin_1.2.10.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "db29911c56ecd96cc65f5322b0dde25f182f04830678b78d1a10afc06621cfe6 4144 xfce4-cpugraph-plugin_1.2.7-1.debian.tar.xz 25d0416115a2aa6154adb9430fa93e95438604308f8581a0adb38bdbf540daa3 2180 xfce4-cpugraph-plugin_1.2.7-1.dsc 68a651e278ed7186964e455b69b15da77f8d56257e5c3d6adf783b3ee9337405 438674 xfce4-cpugraph-plugin_1.2.7.orig.tar.bz2"
+    "505bdb9db55a97783052c433626f6c80ecc8398da40663ba8b0d17ee505be261 4244 xfce4-cpugraph-plugin_1.2.10-1.debian.tar.xz 4d74ae3164e79d82a3515add25a08dad0913cd56ca40987f81319dbab7162954 2204 xfce4-cpugraph-plugin_1.2.10-1.dsc 37792dd052691712195658169b95fb6583f924485ce7a467b33d01e08775d915 440958 xfce4-cpugraph-plugin_1.2.10.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "21c1a7ac20213b5e4adeeadcc02bd80c00ad62cab0af9cb47c97487156aeab7b24e1bb27f3dece7eed68abb432af01a99bc6b222b84586b7168697a528ec8db1 4144 xfce4-cpugraph-plugin_1.2.7-1.debian.tar.xz adc17d298b83e0ba0400f7dd33ce610990142d546538388abd0d71d98378bff3cfc1f9001027cddc0836034da4e73465c46065a313783259f2b32ab2469ac952 2180 xfce4-cpugraph-plugin_1.2.7-1.dsc a89f5d9f986717a78a2cbd31db378c1b220cabfc83bf1c85f2533ecccd17b4ed70a3de9321f2e06fcbca2b77d3b02e5a8541e2adf936567a426e1d7221faaa3b 438674 xfce4-cpugraph-plugin_1.2.7.orig.tar.bz2"
+    "ec9244bdfa51a4fc379ad400c78857222836df52aad8debd4685c2376df4294b80b62d07adcca358247c5e80c4a8545aa05758bbc46042fac927768b59b1a3ab 4244 xfce4-cpugraph-plugin_1.2.10-1.debian.tar.xz f0b81791556f657f27bdc8ea0778bdc79b97ff4491d5a03d121cc20a3c50172f2e35eec64634e505619072368bbd1d37a4018ceb40e21998786fd19bebffeb0d 2204 xfce4-cpugraph-plugin_1.2.10-1.dsc 414c2a5da9576d2ed1f5478a07ff5c51c45eaa0a8432a31b6fb2408b81f5ab4485e3b10486af26cf33a18d23e2dc3afe21bf88630e4db91adcfa3e0f80468cf3 440958 xfce4-cpugraph-plugin_1.2.10.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/x/xfce4-cpugraph-plugin"
   ],
   "Files": [
-    "ba6625c9ea55443707d0f9010ca59464 4144 xfce4-cpugraph-plugin_1.2.7-1.debian.tar.xz 344e05b3d03f95b51311b0d7032fa155 2180 xfce4-cpugraph-plugin_1.2.7-1.dsc 0480611899650e2d4304d13e0e0dda77 438674 xfce4-cpugraph-plugin_1.2.7.orig.tar.bz2"
+    "7ace035f117f0a482cc199c34f5f8fba 4244 xfce4-cpugraph-plugin_1.2.10-1.debian.tar.xz e82720ba3365effde2fd3fe60b6d89ae 2204 xfce4-cpugraph-plugin_1.2.10-1.dsc fd5eed8f93d2f1a01fbe34c5f390b670 440958 xfce4-cpugraph-plugin_1.2.10.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "xfce4-cpugraph-plugin deb xfce optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Uploaders": [
     "Yves-Alexis Perez \u003ccorsac@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/xfce-team/goodies/xfce4-cpugraph-plugin.git"
   ],
   "Version": [
-    "1.2.7-1"
+    "1.2.10-1"
   ]
 }

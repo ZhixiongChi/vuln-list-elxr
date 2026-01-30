@@ -6,22 +6,22 @@
     "librust-atomic-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-autocfg-1+default-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bytemuck-1+default-dev (\u003e= 1.13.1-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "a664a8c0f76066226061ecee710bcce0c4220759 3556 rust-atomic_0.5.1-4.debian.tar.xz eb649da2fdad89a125cc90f085ac0a9d44234470 2178 rust-atomic_0.5.1-4.dsc 2f9c2f9ef2416cc8f6ddbdae413c3986312f4caa 12817 rust-atomic_0.5.1.orig.tar.gz"
+    "491c822062ce3203f9a2372b28c8033961f9882e 3676 rust-atomic_0.6.0-1.debian.tar.xz 1c51323138b6e66422905f049e8d5b17800242d0 2358 rust-atomic_0.6.0-1.dsc 1292c5c5b8fdbd41b955d0999522b4d473ee7a93 12919 rust-atomic_0.6.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "aef368c85f74964b7ce0c514508cb8d74eafe3c17010d4c89f90dc7da13682be 3556 rust-atomic_0.5.1-4.debian.tar.xz c5664cebbc740c60270fde95365bcc8f5e749b0805f8796d74de90fa74570cac 2178 rust-atomic_0.5.1-4.dsc b88d82667eca772c4aa12f0f1348b3ae643424c8876448f3f7bd5787032e234c 12817 rust-atomic_0.5.1.orig.tar.gz"
+    "74edd741bc5261f7cdb365c3f7fdefc33b48b2b35a6fc7f6053ac87bfd72fe7f 3676 rust-atomic_0.6.0-1.debian.tar.xz 32900947e66b499097ff33437625b45ff7fa4bc32fe7a3a2272a0adc5099cb0d 2358 rust-atomic_0.6.0-1.dsc 8d818003e740b63afc82337e3160717f4f63078720a810b7b903e70a5d1d2994 12919 rust-atomic_0.6.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "4a777c3a24b09101c91350b09b8de492dce0b30f34f379f7afa8346173cfb5617db4f550475284c20074113910975c7218955ddd9327160f4ab7cde8b1784bfb 3556 rust-atomic_0.5.1-4.debian.tar.xz 094c538c2adb415b224b2b98730f69e76d2a204d83d7571713cb727d3e9ab726e85fec96e5a29a71012e417fc60bc4c88874146a06459440a2e0e84eb8816169 2178 rust-atomic_0.5.1-4.dsc d9983a39da849a9852237eb00e727fee10b30b15b2e75f6c7e091a2fbadd289c688744997ae1ea933f1541cf867b7df3531870e7628ae9ef75fc7a78dccc9bd4 12817 rust-atomic_0.5.1.orig.tar.gz"
+    "1779e4d3d1602a1ec4bd0e0363c1f5dc5e6aed2f80b4b823b6b72b6f1622ef811cd0aa20aff82f9137498a956123d6e7b5d2f924eb3f9f846542cac5684d7fad 3676 rust-atomic_0.6.0-1.debian.tar.xz 85c7b60af0bd7e0136349b62f934c4e2a42682cf85eb823f3daf2370d7493ee6aab28219d110f67b26dc8a8a826b0fd240a0747549fdf014bd02aa9a6ddc0d24 2358 rust-atomic_0.6.0-1.dsc 45f82c3b87ee248a32ea403aa2b230b7dd90142254bf7d2ad09b992368620d6b70b4fa05d0319bd2e12f327c4da678863a76ee249db7071f57baedbd301a5626 12919 rust-atomic_0.6.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-atomic"
   ],
   "Files": [
-    "fe45bdd68628ad4b9a960584715839e2 3556 rust-atomic_0.5.1-4.debian.tar.xz 9e9d1dd5ee349d72a458b6ff372d03c9 2178 rust-atomic_0.5.1-4.dsc ac4f0b96cb2b9ff2baf6c5a5f8d354cc 12817 rust-atomic_0.5.1.orig.tar.gz"
+    "03a7dd87bb8cb82e67d4642a571a961e 3676 rust-atomic_0.6.0-1.debian.tar.xz 4cdd8440c141c915f1c904bf635d2014 2358 rust-atomic_0.6.0-1.dsc d5429345859ca55574fc016fa83c2fe7 12919 rust-atomic_0.6.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,13 @@
     "librust-atomic-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo"
+    "dh-cargo, librust-bytemuck-1+default-dev, librust-bytemuck-1+derive-dev"
   ],
   "Uploaders": [
     "Matthias Geiger \u003cmatthias.geiger1024@tutanota.de\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/atomic]"
   ],
   "Version": [
-    "0.5.1-4"
+    "0.6.0-1"
   ]
 }

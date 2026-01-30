@@ -1,27 +1,30 @@
 {
   "Architecture": [
-    "linux-any"
+    "linux-any all"
   ],
   "Binary": [
-    "usbutils"
+    "usbutils, usbutils-py"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libusb-1.0-0-dev, libudev-dev, pkg-config"
+    "debhelper-compat (= 13), libudev-dev, libusb-1.0-0-dev, meson, pkgconf"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-python3, python3"
   ],
   "Checksums-Sha1": [
-    "93fcd2646bfb7910c2e0fc93e3e217fb9dce1cdb 8852 usbutils_014-1+deb12u1.debian.tar.xz cd827b0a8af4bbb8e830c6bcb29588fad5806599 1791 usbutils_014-1+deb12u1.dsc 02fb81d84d194df6e735989656980b5e3c0a193d 165884 usbutils_014.orig.tar.xz"
+    "e440e53df82a7721ce57479ddd6922e9533f3fd8 11816 usbutils_018-2.debian.tar.xz a3fd41d475292d102e24af0fe9004f9fd908e59d 1984 usbutils_018-2.dsc 3d2dd8720c3668dc2664512c796c5a9f2438eae3 120168 usbutils_018.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "0b1018fd6c05f4b72e5ea9e5aa86034314c82b9ae3150431eda45b8dff1278ac 8852 usbutils_014-1+deb12u1.debian.tar.xz 41a55f20c11a68776a7741760ba1b9682f9d1629c65fcd706beabe12e0323f90 1791 usbutils_014-1+deb12u1.dsc 3a079cfad60560227b67192482d7813bf96326fcbb66c04254839715f276fc69 165884 usbutils_014.orig.tar.xz"
+    "18ea417fd3f3d84935b7d81ce1b423ad631de120972b5ade4aa8e0d9beb901d4 11816 usbutils_018-2.debian.tar.xz e3dbee958f2ad0eb1dd3577b355cdb4019aa74d20730f3038bb06dba79f41d4e 1984 usbutils_018-2.dsc 83f68b59b58547589c00266e82671864627593ab4362d8c807f50eea923cad93 120168 usbutils_018.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "ec7c5ed6fccfa1889b8c00b40982ce2b3abaf2d38e0ab8a61fd7111bd5138f69f35d872d084482ee35b99eb066bbddad80738d75ad3ee5cad8d935cee2748e8b 8852 usbutils_014-1+deb12u1.debian.tar.xz 9feb467b40d2efb0182b1847ac97d283f4984a635dea656c9af06a80954d5245830706b5d0d24e893ee41370daf5c46e92bfb0b515463d19cf2dda3963dd82cb 1791 usbutils_014-1+deb12u1.dsc 43c9f6ed14f8d01e014ef39a5d50b3b09031c6bda8261e0945b4cb4287c9107104175b386c2adc61dc7f9f476afb30f9a647a6ece6dee26b4133a4f10af72792 165884 usbutils_014.orig.tar.xz"
+    "422b4fa0e85ac3fbed2ae5437a5cb086c23ef857d6fdf13383cce07c7784dd80219eeca3b5f885f7e84aed43c3e0b8cfde08760427ca6bd2df270cd53e80e0ff 11816 usbutils_018-2.debian.tar.xz 333376ac5d1516bd9c76acbada776d7834b660bcf80a5d724c2de0c078670d7e1b629ef59bc75d647561211099f7180d862780ccf3f670394a256a9abdb2d40f 1984 usbutils_018-2.dsc 4f76c7a328746e17892c31d69cbd9a560c4384877e18d80076cef344a25b71b33387d803c98a9c6867b357a61e1a8a1a630884afe32128c3b6393dc186f216c8 120168 usbutils_018.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/u/usbutils"
   ],
   "Files": [
-    "7c14d73f6eb1c768b731a9cf62aea046 8852 usbutils_014-1+deb12u1.debian.tar.xz c220b0a334e2e110878114f92d04d367 1791 usbutils_014-1+deb12u1.dsc f21aa68ee7870b161921a590be7765e6 165884 usbutils_014.orig.tar.xz"
+    "93261bd0fdc9723b3091424bab1d7d3a 11816 usbutils_018-2.debian.tar.xz c14079981cdffb9dde18e0c57e726710 1984 usbutils_018-2.dsc 0a351e2241c50a1f026a455dccf24d73 120168 usbutils_018.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,12 +39,18 @@
     "usbutils"
   ],
   "Package-List": [
-    "usbutils deb utils optional arch=linux-any"
+    "usbutils deb utils optional arch=linux-any usbutils-py deb utils optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/aurel32/usbutils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/aurel32/usbutils.git"
   ],
   "Version": [
-    "1:014-1+deb12u1"
+    "1:018-2"
   ]
 }

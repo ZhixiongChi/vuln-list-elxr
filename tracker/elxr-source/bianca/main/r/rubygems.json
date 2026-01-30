@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), gem2deb (\u003e= 1), rake, ruby, ruby-dev, ruby-test-unit (\u003e= 3.3.9~), ruby-webrick (\u003e= 1.7.0)"
   ],
   "Checksums-Sha1": [
-    "d7c6be2ef27c1a81cf6a391528b3087d0c5b7a88 10340 rubygems_3.3.15-2+deb12u1.debian.tar.xz cfa8d7403a448b3ed56105c6e6d55d34fb5964ed 2314 rubygems_3.3.15-2+deb12u1.dsc 9d12957c320a8aa150df4d0e2ddf21cadd1be660 12943776 rubygems_3.3.15.orig.tar.gz"
+    "e790d48770279d5d9e5f3b4707d64b74e5e9a8cb 9584 rubygems_3.6.7-2.debian.tar.xz 7bad5be472e9c297885dd97d086d91961ea73bef 2256 rubygems_3.6.7-2.dsc b543ee521473d12caf81eee6ceac7d5a3626bfff 12955693 rubygems_3.6.7.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "b941ed34a190af896c2144113706fe85574212f0939948db5d2604f0a6cd8ef1 10340 rubygems_3.3.15-2+deb12u1.debian.tar.xz 14d4b0a136e441b667381e6a4571219ef691982ce0dd07bd20b22950ed29272a 2314 rubygems_3.3.15-2+deb12u1.dsc 8bd1cf20cab30da77a123e26a438fa8b22d0bf152db5aff9c9d9ccdab40102c4 12943776 rubygems_3.3.15.orig.tar.gz"
+    "445c1715b35e6756fb63797d253ead463a9d7bb3c35583a95e290e0463c44533 9584 rubygems_3.6.7-2.debian.tar.xz 3d346848a4f2856f49f43416e79f45a357a143f9ef33c318ed1674a6f9926269 2256 rubygems_3.6.7-2.dsc ceedfa09ae52da87f6d4323a22ce084b039f74253d811b41218e000bd9288628 12955693 rubygems_3.6.7.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "0a3ece5ec3dbd815dce598d4d74eb12a0ab05dc12de903c1eb3467cba1dad7a483f1771716a80c331e41fed50be6dc4e405dd24b0bc1f518eec68629ca273d2e 10340 rubygems_3.3.15-2+deb12u1.debian.tar.xz 6a38e793f26a353c414fd63e2521da35259aee76fdf98e8fb4c14080f92e395338b11dc16f961142c888e67345fb905b6c2f530ea4f53a2f63c2ae7ea2ca2e93 2314 rubygems_3.3.15-2+deb12u1.dsc f5f04f9a379640e34f91c5d40b1a1f908532c5bf1e6e8421a7d10b2a4ff94cc1498616517c59a9e3158e3e259e60cb985eb16da8a3cbc8e2e86d7a01b89772dc 12943776 rubygems_3.3.15.orig.tar.gz"
+    "ec0cfa3fac11e050d8245b4077590c68756e2b95d86a541b7cc6358f4bd95e901d791c5102efbcd41973d6ec503f494059444e012aa135d9cb6e0e5715317e09 9584 rubygems_3.6.7-2.debian.tar.xz 5780e81f38ca9e8a7366a8ed274507ea2b5901314a1eb2e1218257a657dbf8dded13a2a2274369042fd15ad2c27236e70fe8a2d00a53af6137c662ce35585a4f 2256 rubygems_3.6.7-2.dsc 521c2649604e36ff9396f6d1e0ad692d9f3cf0e11cc417d62a7afefdd5e7e5cc370bf9c02200b7e23c199787e9f049e5e9a74778599c71c183e369bd21638b5b 12955693 rubygems_3.6.7.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rubygems"
   ],
   "Files": [
-    "b35e0e575f02b937c5d731618662b67e 10340 rubygems_3.3.15-2+deb12u1.debian.tar.xz 4639ad5e21d8d73f326bfeefba7a63f5 2314 rubygems_3.3.15-2+deb12u1.dsc ebcadcfcf0fcdc8c90a9609fb8aa9865 12943776 rubygems_3.3.15.orig.tar.gz"
+    "e4697b9afc32201b7b6cd4295359888e 9584 rubygems_3.6.7-2.debian.tar.xz 1bd1617cb6b7703d68aa3cc0bd45ac02 2256 rubygems_3.6.7-2.dsc 9936dc63591e19b3ce5afe4b7bac8bfc 12955693 rubygems_3.6.7.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,7 +48,7 @@
     "autopkgtest, autopkgtest-pkg-ruby"
   ],
   "Testsuite-Triggers": [
-    "@builddeps@, build-essential, libxml2-dev, libz-dev"
+    "@builddeps@, build-essential, libxml2-dev, libyaml-dev, libz-dev"
   ],
   "Uploaders": [
     "Lucas Kanashiro \u003ckanashiro@debian.org\u003e"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/ruby-team/rubygems.git"
   ],
   "Version": [
-    "3.3.15-2+deb12u1"
+    "3.6.7-2"
   ]
 }

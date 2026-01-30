@@ -6,31 +6,31 @@
     "python3-requests-toolbelt, python-requests-toolbelt-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13)"
-  ],
-  "Build-Depends-Indep": [
-    "dh-python, python3-sphinx, python3-sphinx-rtd-theme, python3-doc, python3-all, python3-requests, python3-setuptools"
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-betamax \u003c!nocheck\u003e, python3-doc, python3-pytest \u003c!nocheck\u003e, python3-requests, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme"
   ],
   "Checksums-Sha1": [
-    "ac2386d22c34c641240fcd176f7bc95762d49368 3596 python-requests-toolbelt_0.10.1-1.debian.tar.xz 6109c030855d865201ebde0d34d0127c9f425598 2370 python-requests-toolbelt_0.10.1-1.dsc e3d265b6b3a4bd4f378c480ae4df9708825d7e69 208956 python-requests-toolbelt_0.10.1.orig.tar.gz"
+    "3be2f206723da13b1d5ec1344c32baf365b5973d 4944 python-requests-toolbelt_1.0.0-4.debian.tar.xz 7a9bcc0dc96b632fe5e3fba295e7e5a00e9922c0 2621 python-requests-toolbelt_1.0.0-4.dsc daafd91797d94bb6cec979e9dbb6a1331cffbba6 206888 python-requests-toolbelt_1.0.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "5cd90175ef132130185c2444d86299085e6ed144251e360e2a0900937cbb6091 3596 python-requests-toolbelt_0.10.1-1.debian.tar.xz a7e152128caf7f7df664bacbd249bccfad915b10076bd9a214fbd59fdc5ac3f1 2370 python-requests-toolbelt_0.10.1-1.dsc 62e09f7ff5ccbda92772a29f394a49c3ad6cb181d568b1337626b2abb628a63d 208956 python-requests-toolbelt_0.10.1.orig.tar.gz"
+    "7e6e6fe687e50687a0596f2cb9f056561a449ad3d164665a2e6424e4698322a9 4944 python-requests-toolbelt_1.0.0-4.debian.tar.xz f220dcbc3bce13cfcb31d7a936699285d097d8362499f5bb86ef306fc8eab733 2621 python-requests-toolbelt_1.0.0-4.dsc 7681a0a3d047012b5bdc0ee37d7f8f07ebe76ab08caeccfc3921ce23c88d5bc6 206888 python-requests-toolbelt_1.0.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "80cf7bcb79565c8762d9ebd6bd47b2e09cf61d89aaf67a3903cf00b08aa43175bfccd08d56dcb13d98b993a19ed96c6b3ece07c99df4bf1e37438a716bd8ee63 3596 python-requests-toolbelt_0.10.1-1.debian.tar.xz 3b7d175bb3bf0a87ee8e7f9f0ed1528fec5aabd4909ee7d99fbf69e162349e4fd63ae124227982d72d0ec82b35177c3934c540b3aa220d06c61284e87cec7f08 2370 python-requests-toolbelt_0.10.1-1.dsc e4dfc58bd9d84f3590582853345602ba4e0dcb292733cc3c5d92057f5fd1d414bc1058d06d3c825d6f9eb802281592515f24473c6e8a59c91eb8836ad31e45d7 208956 python-requests-toolbelt_0.10.1.orig.tar.gz"
+    "91dfd0700c9d4ca7f351cc0249092f8e33682675a1a600cf382f1c681be537ab680c8264e9ed2fad77918091a7735e4d27533f31ebcd10f53279d0881365051f 4944 python-requests-toolbelt_1.0.0-4.debian.tar.xz 5b83882c81d12d14afad40c4b3850c5267fa243aaa0752b5df12a6787b9a0a91587a5530d006a0ebe353aed3670187192a46a7c413e77cfec4db8489ac77bce6 2621 python-requests-toolbelt_1.0.0-4.dsc 3ae130789bbe02c6dddec75c6e144a7b0810e5aa6b372d39c8e3430da8ae2a5d9d61fd1f9092b5a565f7806ce8f3af796fdfbc62dab3ba10e015f7185096e299 206888 python-requests-toolbelt_1.0.0.orig.tar.gz"
+  ],
+  "Dgit": [
+    "26f396d688fdddc3dd8bb6727a32f35cadf93584 debian archive/debian/1.0.0-4 https://git.dgit.debian.org/python-requests-toolbelt"
   ],
   "Directory": [
     "pool/main/p/python-requests-toolbelt"
   ],
   "Files": [
-    "039fcb37ba2859c89a050457593d3373 3596 python-requests-toolbelt_0.10.1-1.debian.tar.xz 7e15e43f278e8528da25ee18a999eff4 2370 python-requests-toolbelt_0.10.1-1.dsc 636d226d03632d013269aebbc85f4f4b 208956 python-requests-toolbelt_0.10.1.orig.tar.gz"
+    "39fdfe0102c108593971d6052d0ccc5b 4944 python-requests-toolbelt_1.0.0-4.debian.tar.xz 99bd8b2d31a1458fe545e972df2eab72 2621 python-requests-toolbelt_1.0.0-4.dsc 6a8348cfc9991b44e499345db1c6f925 206888 python-requests-toolbelt_1.0.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://pypi.python.org/pypi/requests-toolbelt"
+    "https://toolbelt.readthedocs.io/en/latest/"
   ],
   "Maintainer": [
     "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
@@ -42,13 +42,16 @@
     "python-requests-toolbelt-doc deb doc optional arch=all python3-requests-toolbelt deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
-    "autopkgtest-pkg-python"
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-betamax, python3-pytest, python3-trustme"
   ],
   "Uploaders": [
-    "Emmanuel Arias \u003ceamanu@yaerobi.com\u003e"
+    "Emmanuel Arias \u003ceamanu@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-requests-toolbelt"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/python-requests-toolbelt.git"
   ],
   "Version": [
-    "0.10.1-1"
+    "1.0.0-4"
   ]
 }

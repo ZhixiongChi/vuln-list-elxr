@@ -6,22 +6,25 @@
     "hicolor-icon-theme"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11), gnome-pkg-tools"
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "daps \u003c!nocheck\u003e, meson"
   ],
   "Checksums-Sha1": [
-    "b3d2132ddff64d5cf4450e273399285b97f9f23c 3536 hicolor-icon-theme_0.17-2.debian.tar.xz 5860371610af87e58b53f088bee9da25f79b84d1 2053 hicolor-icon-theme_0.17-2.dsc 192d95efc13adf1fd35442d086733df25826cf2c 53016 hicolor-icon-theme_0.17.orig.tar.xz"
+    "01fe23a9f086d79fbc0b4084b28c251571e3b7f1 9148 hicolor-icon-theme_0.18-2.debian.tar.xz c0d5923820270a81c7bff01bdc9bdb7be7a7ecee 2325 hicolor-icon-theme_0.18-2.dsc a560c8c64be043bec8421b831528910157695436 29624 hicolor-icon-theme_0.18.orig.tar.xz ed3cff6cf74b7e0f02bbbc29d75d6dc198f7ea5d 833 hicolor-icon-theme_0.18.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "97eec9852a2923b95bd13fc59c30fb1b9063ffd1f8a04748544d4975a84e98f2 3536 hicolor-icon-theme_0.17-2.debian.tar.xz 9df02b466f82cd6fa13930bc197d001ed8ddac1abc7f8dde3db45ed1708336bd 2053 hicolor-icon-theme_0.17-2.dsc 317484352271d18cbbcfac3868eab798d67fff1b8402e740baa6ff41d588a9d8 53016 hicolor-icon-theme_0.17.orig.tar.xz"
+    "749d43f2b8f67f301ce08ca29b5c8492e8eed12bbe2974c7db40ca4a0b834508 9148 hicolor-icon-theme_0.18-2.debian.tar.xz 8d8c91162fa2557d55ffd34f3df7f8c4946c9db641c206c64c1488df407445a6 2325 hicolor-icon-theme_0.18-2.dsc db0e50a80aa3bf64bb45cbca5cf9f75efd9348cf2ac690b907435238c3cf81d7 29624 hicolor-icon-theme_0.18.orig.tar.xz 0fe29ecd5d445805e33b33d7ff35813eabab2100806c06dd002efd35b37fb855 833 hicolor-icon-theme_0.18.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "74b8de58f18f861f0f724419514b787495cf67b39abcfdbdc7be6923e44112b86710c015ea5e4c83301d201b503a1014fca335c6dadc522d7f7edca80f638489 3536 hicolor-icon-theme_0.17-2.debian.tar.xz 5b8b3088f8d9469076d5d2a3448e1115a910958a4ba4b3bbeae287ae3e91fa3a26b87f544a1f92925230e33f6f20e96df51bc5ec01b2735e07bb3f9be2e06c3c 2053 hicolor-icon-theme_0.17-2.dsc eca8655930aa7e234f42630041c0053fde067b970fad1f81c55fcd4c5046c03edfdf2ede72a3e78fba2908e7da53e9463d3c5ae12ab9f5ef261e29a49f9c7a8d 53016 hicolor-icon-theme_0.17.orig.tar.xz"
+    "2f29cfe942ddbe3cd3ca41006d1ab4e0014368767e6d8ac836ecf19bd7517301a422ee54c8970ee1d8b72b8bd8181aedb8cf4655bb88f6ebcd1903933077a8fb 9148 hicolor-icon-theme_0.18-2.debian.tar.xz 737bfba6c257b01f0eb9091d99f21b7592c14410980d5aaa4a1a5c04b942a51eafae84ad1d9e0b642c269ae7ffecafa7af6508063af1b49f00b23f4888d3ce37 2325 hicolor-icon-theme_0.18-2.dsc 07db44fb6bec797445740832fa2b3ba56f5f335834161a26a4e5f767a8c45c0885ef1189e887b56752bd20c4b1aac101c5d4a395df4177cd3817ee5105db0d37 29624 hicolor-icon-theme_0.18.orig.tar.xz e00447c8918250978622a9465ac16181206deed977743d71faa068341f3aab4a1e98e70aed9f03e62806f2b3d8e1df20ff3b09332d0feda70d4532496154f0c2 833 hicolor-icon-theme_0.18.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/h/hicolor-icon-theme"
   ],
   "Files": [
-    "b3754af631685295fdafb049a3dcebc0 3536 hicolor-icon-theme_0.17-2.debian.tar.xz 980fd3548177a300509a1b0f6bcc3594 2053 hicolor-icon-theme_0.17-2.dsc 84eec8d6f810240a069c731f1870b474 53016 hicolor-icon-theme_0.17.orig.tar.xz"
+    "113e146bb41267a119a6ff99e304d4e0 9148 hicolor-icon-theme_0.18-2.debian.tar.xz 5b3f9cc269980eb1e41721ab25cdb112 2325 hicolor-icon-theme_0.18-2.dsc ef14f3af03bcde9ed134aad626bdbaad 29624 hicolor-icon-theme_0.18.orig.tar.xz 7c9d9e602b4cdb0330bef83167ecbd20 833 hicolor-icon-theme_0.18.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +39,10 @@
     "hicolor-icon-theme deb misc optional arch=all"
   ],
   "Standards-Version": [
-    "4.1.3"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Jeremy Bicha \u003cjbicha@debian.org\u003e, Josselin Mouette \u003cjoss@debian.org\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/hicolor-icon-theme"
@@ -48,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/hicolor-icon-theme.git"
   ],
   "Version": [
-    "0.17-2"
+    "0.18-2"
   ]
 }

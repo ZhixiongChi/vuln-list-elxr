@@ -6,25 +6,25 @@
     "python3-edgegrid"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 11), dh-python, libssl-dev, libffi-dev, openstack-pkg-tools (\u003e= 109~), python3-all, python3-all-dev, python3-setuptools"
+    "debhelper-compat (= 11), dh-python, libssl-dev, libffi-dev, openstack-pkg-tools, python3-all, python3-all-dev, python3-setuptools"
   ],
   "Build-Depends-Indep": [
-    "python3-requests, python3-openssl, python3-ndg-httpsclient, python3-pyasn1, python3-urllib3, python3-cffi"
+    "python3-requests, python3-openssl, python3-ndg-httpsclient, python3-pyasn1, python3-requests-toolbelt, python3-urllib3, python3-cffi"
   ],
   "Checksums-Sha1": [
-    "2767a5c284295777026bbd5139bf7bd09c77f784 2076 python-edgegrid_1.1.2-2.debian.tar.xz 2fec44ce2fec6d924febdd8e9d85030e69bb9078 2274 python-edgegrid_1.1.2-2.dsc 773d8c6951a285009938190dc0a661a5e0c7fbb7 11472 python-edgegrid_1.1.2.orig.tar.xz"
+    "85a749c3462923be6804983b54e20e1c8a211392 2284 python-edgegrid_1.3.1-4.debian.tar.xz 06e7998b36e625e6227b83dc6abd206c91789a99 2277 python-edgegrid_1.3.1-4.dsc 89fc8933861e3cf2cecbdb5200663b1f033a63f0 14796 python-edgegrid_1.3.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "8e82ccd4c8cbc5a95c917a8f8b8350ec1502d77c0f37de3493234867edddb5fd 2076 python-edgegrid_1.1.2-2.debian.tar.xz 6c9cab9f6a82c6f94d277f075caa5b4e86bbcf43d9800ee8f6d78f77968a4b37 2274 python-edgegrid_1.1.2-2.dsc 82f4876c9e18f8586ad76a071df8c63ea58757c66531b2f937b325ed9f9aef61 11472 python-edgegrid_1.1.2.orig.tar.xz"
+    "2eddedd17a8f4d35f43a3edc0112409b8e13ffd7068c7fe41428524605a92586 2284 python-edgegrid_1.3.1-4.debian.tar.xz 137dd916a00d156c36d6a7dc6fe9b5e21d69da3927e8b7d9013b0e496a2b7c8c 2277 python-edgegrid_1.3.1-4.dsc 67092070cc6e5ab067a3ebf2d863b88cdab262b8f37b4c7bcfcde267486205eb 14796 python-edgegrid_1.3.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "3cbd3eeb2c523ef149fea6566939123acf847ace56df8fa101a24820b51e9df1d64e90f3bae16f4796e288c6ed54b094b1c1fb5dda1a4cba436ba8a819127ab0 2076 python-edgegrid_1.1.2-2.debian.tar.xz 26c8f3df273ef5dffcba77333737fe18893f9ffb97b033d3eac80d1d8d9142a69a205458c080d802eb979d810e888bcac2ccb6c73d7494184179c3a5e96c5841 2274 python-edgegrid_1.1.2-2.dsc 81fbbb6f67ba6b0b4bd432357a670733fcbc0299e0d83be2c15cf3b703cb7a262b51789ed3de4a577a6bbf0acd4fcb228ebb11a74fcd683fdd3b062ac0803953 11472 python-edgegrid_1.1.2.orig.tar.xz"
+    "5a5826096ed337b9ce81c7d457eea0ed671c13c561821c41d8354f016351e7f3acd38bef3bd6ba4182d54a1b53e3ec3eabcd68ad0b9d4e985de9437153afd514 2284 python-edgegrid_1.3.1-4.debian.tar.xz c52e5404909cd63ce93e446667c91f7accf476df06eba6e931c541d7b46e7a90e2621a35363e63bb8565a87b2615f207516f7c8bb963f3e0b867649c9e6af341 2277 python-edgegrid_1.3.1-4.dsc 3f205ceb6b2337841061a36ee6fe8efea510d7939797005e448787563143f3f6d8a4312b8532fc20ffaa5660d79b379656972b0ed247c6a97ae4a3fe101f1b4b 14796 python-edgegrid_1.3.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-edgegrid"
   ],
   "Files": [
-    "1284ddd2258b458c819c4551d78bed77 2076 python-edgegrid_1.1.2-2.debian.tar.xz eeec4e9c55ac68e54bf25c90f29d5720 2274 python-edgegrid_1.1.2-2.dsc 9a1d75378b821e544179da0901fc3159 11472 python-edgegrid_1.1.2.orig.tar.xz"
+    "729f61dc8de18c4c99d036e176b98dc6 2284 python-edgegrid_1.3.1-4.debian.tar.xz d2d65b9654ce6da8965196e1d86b1deb 2277 python-edgegrid_1.3.1-4.dsc f04ca418baeb5b980e3fee2649282417 14796 python-edgegrid_1.3.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,12 +48,12 @@
     "Thomas Goirand \u003czigo@debian.org\u003e,"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/openstack-team/python/python-edgegrid-python"
+    "https://salsa.debian.org/openstack-team/python/python-edgegrid"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/openstack-team/python/python-edgegrid-python.git"
+    "https://salsa.debian.org/openstack-team/python/python-edgegrid.git"
   ],
   "Version": [
-    "1.1.2-2"
+    "1.3.1-4"
   ]
 }

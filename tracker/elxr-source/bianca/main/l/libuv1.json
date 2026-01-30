@@ -1,27 +1,30 @@
 {
   "Architecture": [
-    "any"
+    "linux-any hurd-any all"
   ],
   "Binary": [
-    "libuv1-dev, libuv1"
+    "libuv1-dev, libuv1t64, libuv1-doc"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), dh-exec, freebsd-glue [kfreebsd-any], libkvm-dev [kfreebsd-any], netbase, pkg-config"
+    "cmake, debhelper-compat (= 13), dh-exec, netbase, pkgconf"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-sphinxdoc \u003c!nodoc\u003e, sphinx \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "5061d77c2055b183b1bc3640f3f53eb9c24c53dd 21460 libuv1_1.44.2-1+deb12u1.debian.tar.xz 9588ae6ca442e22acaec2475194ec189901f9d4f 2029 libuv1_1.44.2-1+deb12u1.dsc ced06e69586ea4b3be56c2cc67caa5dc1718a70c 1308776 libuv1_1.44.2.orig.tar.gz"
+    "7cb0f3af8ec2963f0caede9968728ee547cbee4e 23088 libuv1_1.50.0-2.debian.tar.xz f385cb0d5704523f100c1cf95eb295372818e98c 2112 libuv1_1.50.0-2.dsc 6485caf9ce8bc449178acdded6f0fcd787343f00 1345158 libuv1_1.50.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "14fc605e7d1520137416fd8c097b58a191be9b07bdbb406f7b39c7894b7d66a5 21460 libuv1_1.44.2-1+deb12u1.debian.tar.xz 798be0a2bcbcd40bb85302f6ccbf02b240e1958d4ad9cf153b8101c3a82f21b9 2029 libuv1_1.44.2-1+deb12u1.dsc d79b4b06ef04be85fb890bf39d55942cc64c2e15fd14eaa32dae5dce94485484 1308776 libuv1_1.44.2.orig.tar.gz"
+    "171ce8415710798742ed0921928618932ecc3b8b3fa9e75ac62fe10df4d461ea 23088 libuv1_1.50.0-2.debian.tar.xz 5691ae93bdd0c9b147e76290bc8816c805f565b6a52ad23691a31b6092056abc 2112 libuv1_1.50.0-2.dsc ec9de6ecf2a780fd2afb3b007947d2cd57c3bb17f3b9e721a66774980d35cd4d 1345158 libuv1_1.50.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "b68c6a9e6c0b8a0629c40b95e06cd72ba83ad252bb5e52f5be19a98122ec4ccf6314f34bce4e37e8e222285010f30d0110f1fd5f0ec3b512c95874d126306a70 21460 libuv1_1.44.2-1+deb12u1.debian.tar.xz 2f624b2a1fd8cc92b2e8c8803673da1dbb167d92c33380ab46c18cbc6ebdc8dcafe31dc66cff4a9e2450563600c429a4a98670bf71895da2e14aab1298517fee 2029 libuv1_1.44.2-1+deb12u1.dsc 2a3b947f76437c5678a0096f63ec7c9903655fdc20824512b10ba46f1d7333cdbf285441d3baf9380c00023d103047fad4833066c58600ada2f41eea7b69b4e3 1308776 libuv1_1.44.2.orig.tar.gz"
+    "996e9e77b35fd21993a85a911da825a98948965b17eff97d2c9aa511841aa99953565d53a64b18c1f05c64c09552c7af4318490a9fc89b03f3b816b34fed4a73 23088 libuv1_1.50.0-2.debian.tar.xz 0ef09069cddbe65150baa1f60fc5754a0a79e04127a7758a68c74734e65b62ee693a677dbcd71db1927c5c4f89a8a49f0bb7121884fcd13e0964a1eedd4fb782 2112 libuv1_1.50.0-2.dsc d8ca5b5296106c4d2c2df11786f599b94ef8795a8e1aa326493071be581d72cddadd0ed2077275c295851f6424a7a070724a2f89a6a82cad912a50708c00daed 1345158 libuv1_1.50.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libu/libuv1"
   ],
   "Files": [
-    "5767cebbb44a080de662a588a60cada2 21460 libuv1_1.44.2-1+deb12u1.debian.tar.xz 24577671198dca02c1a0da01b977dd35 2029 libuv1_1.44.2-1+deb12u1.dsc c154b7548028901c9ad70d2adfa5dae2 1308776 libuv1_1.44.2.orig.tar.gz"
+    "745927f9f92a11a04313b695156f5fff 23088 libuv1_1.50.0-2.debian.tar.xz 6b0e78cee26d1016904b43ed1a0f5d73 2112 libuv1_1.50.0-2.dsc 7e427fd28dddc5ad5d8e584194c9e5a9 1345158 libuv1_1.50.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +39,10 @@
     "libuv1"
   ],
   "Package-List": [
-    "libuv1 deb libs optional arch=any libuv1-dev deb libdevel optional arch=any"
+    "libuv1-dev deb libdevel optional arch=linux-any,hurd-any libuv1-doc deb doc optional arch=all libuv1t64 deb libs optional arch=linux-any,hurd-any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Uploaders": [
     "Luca Bruno \u003clucab@debian.org\u003e"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/debian/libuv1.git"
   ],
   "Version": [
-    "1.44.2-1+deb12u1"
+    "1.50.0-2"
   ]
 }

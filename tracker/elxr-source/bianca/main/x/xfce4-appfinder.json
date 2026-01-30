@@ -6,22 +6,22 @@
     "xfce4-appfinder"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), intltool, libgarcon-1-0-dev, libglib2.0-dev, libgtk-3-dev, libxfce4ui-2-dev, libxfce4util-dev, libxfconf-0-dev, xfce4-dev-tools"
+    "debhelper-compat (= 13), gettext, libgarcon-1-dev, libglib2.0-dev, libgtk-3-dev, libxfce4ui-2-dev, libxfce4util-dev, libxfconf-0-dev, xfce4-dev-tools"
   ],
   "Checksums-Sha1": [
-    "7e7d07d4fc57f1dc182bb7fc137bd51d08605b7b 5060 xfce4-appfinder_4.18.0-1.debian.tar.xz c793d5f957c75c234b6b2c05b2c7c2e3106db2e9 2143 xfce4-appfinder_4.18.0-1.dsc 83ee56e900ae6c7b2ea7130140ce229c204f2df0 562219 xfce4-appfinder_4.18.0.orig.tar.bz2"
+    "956b758935ff91efffd506f90c0b4b2466fef47e 5316 xfce4-appfinder_4.20.0-2.debian.tar.xz 3a24b4b3e0b571a013a3cffad6244a0f8f802321 2140 xfce4-appfinder_4.20.0-2.dsc 66fbc8c449047f94eeefe00738321f7ac7dff774 732262 xfce4-appfinder_4.20.0.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "0a8543d47b56513177bff4f15450f5ee1ffaa545d46eaa151a25a9a5ffb24ae1 5060 xfce4-appfinder_4.18.0-1.debian.tar.xz 2dc5c7b436fa9d5d2db77faa33cdae382ebe0021a5bf1895c3b1ae1cc52c8a5a 2143 xfce4-appfinder_4.18.0-1.dsc 962a98d7b327d2073ed4cd0f78bce7945ed51b97d52fd60196e8b02ef819c18c 562219 xfce4-appfinder_4.18.0.orig.tar.bz2"
+    "19a0fa20fcaed67752ceafa38d626b34b05cf9cfc99afabd4babaca1b3a9ccd4 5316 xfce4-appfinder_4.20.0-2.debian.tar.xz 1bca1908d9331c8917b22fcf2e19507c0af21425aa5c82b7601a1dbf06554d1e 2140 xfce4-appfinder_4.20.0-2.dsc 82ca82f77dc83e285db45438c2fe31df445148aa986ffebf2faabee4af9e7304 732262 xfce4-appfinder_4.20.0.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "ba5cca4a1b03bacc7a3f62abc393c9c358fb1c109603176af2993e89414d0a62de2665eb3183b18859ce6552abbb49606aa0a6be1d63e0b67a5e7c72fdb59a16 5060 xfce4-appfinder_4.18.0-1.debian.tar.xz add6da3715573f34c911ac6a3c6476d60f25a04e2f34f4e16033c713e9fb500ad6b3f438f307777ce9a5b83e42436201dc1dcdfc68e346f0a19e3a74b9b81915 2143 xfce4-appfinder_4.18.0-1.dsc e33144910bb4391beb6ca88e312c592593ce50a40e10487c5b72eca492dd2f7c3ab7324ce62413ad6f3df0025de29ece96b5d0a566eecbc87bd1d0e62c9156ad 562219 xfce4-appfinder_4.18.0.orig.tar.bz2"
+    "7090aac7dbdcfbfcc02b43b422b91c9af3c8d4bea0a20a7b4f5daf1f89ef1dfa3f4dc85e0ce47b2ed0d51b9eb48a66dfbe400ea28024fd956084630510cc5070 5316 xfce4-appfinder_4.20.0-2.debian.tar.xz 6198cb8a986fb23e8103ed5efbb117d227fb36d563ff6edcb6f9b975f4eb6976bcf69d666818198ad6247b92445c9ba33be666fc6e75526f03fae5795c815b05 2140 xfce4-appfinder_4.20.0-2.dsc eae593d075cfe091680fc0093236e95172fddab88a251765e1c6574688a5456fb03f3547eede1d2c6766f8b05b18f0bcbeae607e61d97ac92a927dbe2283790f 732262 xfce4-appfinder_4.20.0.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/x/xfce4-appfinder"
   ],
   "Files": [
-    "679017042aa033847a60be637b413c48 5060 xfce4-appfinder_4.18.0-1.debian.tar.xz adb63be86cc128869baa28bd605b99f4 2143 xfce4-appfinder_4.18.0-1.dsc 7c0d45141c58b3130d4281e9d33c24ba 562219 xfce4-appfinder_4.18.0.orig.tar.bz2"
+    "c941d48a10af5dd5b69791210f14980e 5316 xfce4-appfinder_4.20.0-2.debian.tar.xz 8d53e57702918383fda7174ad8a83fe2 2140 xfce4-appfinder_4.20.0-2.dsc e60f6c2521a985c6cfe09057d4fb2d69 732262 xfce4-appfinder_4.20.0.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "xfce4-appfinder deb xfce optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Uploaders": [
     "Yves-Alexis Perez \u003ccorsac@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/xfce-team/desktop/xfce4-appfinder.git"
   ],
   "Version": [
-    "4.18.0-1"
+    "4.20.0-2"
   ]
 }

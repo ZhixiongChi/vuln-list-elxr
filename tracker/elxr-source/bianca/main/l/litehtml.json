@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "liblitehtml-dev, liblitehtml0"
+    "liblitehtml-dev, liblitehtml0t64"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake, libgumbo-dev, pkg-kde-tools"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), cmake, libgumbo-dev, pkg-kde-tools"
   ],
   "Checksums-Sha1": [
-    "5eee8118a9121efad5a08895def47af2911409e2 11428 litehtml_0.6-1.debian.tar.xz 88902287e1e1567a27920837343a4bf796a71f7b 1927 litehtml_0.6-1.dsc 829ec3b0239c4e21449fcc39204738c73b7ade8c 347790 litehtml_0.6.orig.tar.gz"
+    "e53563a843346fbb6702041d77fa5eb2fc6a5d3f 11740 litehtml_0.6-1.2.debian.tar.xz 32a98cc20b143d0873a38d40ea558d183e42bb65 1963 litehtml_0.6-1.2.dsc 829ec3b0239c4e21449fcc39204738c73b7ade8c 347790 litehtml_0.6.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "d3c1a92cddb4e3f1cd1e64ad61291f90806142f2a8171d77364c1b1b0f503a33 11428 litehtml_0.6-1.debian.tar.xz dbde80f286b33865c4bcef06b2225aa6c5d52cde142d713ef48c567f1c952b4b 1927 litehtml_0.6-1.dsc d8ef26218d5dd7c622d9d42cbc233c0e26baf56d069df2dbe65cc5c0a6d38861 347790 litehtml_0.6.orig.tar.gz"
+    "3f6b4b07fe2815c681b8c2b489c4412e4291e4ae0ec008889a601ad2d12f30eb 11740 litehtml_0.6-1.2.debian.tar.xz 25e06d5867879d11f633df0ceb9ca2f3a749986a66f0fb4cf1fa89e284dd32a6 1963 litehtml_0.6-1.2.dsc d8ef26218d5dd7c622d9d42cbc233c0e26baf56d069df2dbe65cc5c0a6d38861 347790 litehtml_0.6.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "dfd8b560e6d6e4ecde5b398f905f731c5fb7e7844948bbde3a99b0f2006e7b1dbf75b77a3ee10ca69ff4b12443c38701a74973aab3bdc5db29667376b2f141fb 11428 litehtml_0.6-1.debian.tar.xz 82bbc182fdd8777c663dc9c55c5f3939f7679fd2edcb2dea328beee51f76f6b3391429efc1360047ad685494e70a505768a8b1608068a0988f49e73ee26cbb48 1927 litehtml_0.6-1.dsc b774ed96e53780865e789875f571f96ebce1cd2ff0c05a06ae68a67aec44375cc282c07f77fc87131d422aceddba32bbf3e8e498c870883d8e042adb30834c39 347790 litehtml_0.6.orig.tar.gz"
+    "11f70ea7f1a79b227a5f9f74fad53a8bac9dd8154ca496292015e496fcb5384027675868431937d792253a77a3cdeae31a67974d003e33facbd11552bebe9f5f 11740 litehtml_0.6-1.2.debian.tar.xz 7d687aa12ff5c7320bcda7415e1b85c8da6d5623b32d86f829bbc90e8640da19988fbb84065d88f1bae68bee3030ab896668656489e4129734859575ed6b167e 1963 litehtml_0.6-1.2.dsc b774ed96e53780865e789875f571f96ebce1cd2ff0c05a06ae68a67aec44375cc282c07f77fc87131d422aceddba32bbf3e8e498c870883d8e042adb30834c39 347790 litehtml_0.6.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/l/litehtml"
   ],
   "Files": [
-    "0902ac75e2673e3eab9c4662889ec6dc 11428 litehtml_0.6-1.debian.tar.xz b84e08dd0ea3be3adbffae09e3a7259d 1927 litehtml_0.6-1.dsc 2bf668d41710413e9f1570ac95887e1c 347790 litehtml_0.6.orig.tar.gz"
+    "ae8de37cd30f9d33e0613bbe3896b6c6 11740 litehtml_0.6-1.2.debian.tar.xz f62f74020b9abd007be2460cbdc45191 1963 litehtml_0.6-1.2.dsc 2bf668d41710413e9f1570ac95887e1c 347790 litehtml_0.6.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "litehtml"
   ],
   "Package-List": [
-    "liblitehtml-dev deb libdevel optional arch=any liblitehtml0 deb libs optional arch=any"
+    "liblitehtml-dev deb libdevel optional arch=any liblitehtml0t64 deb libs optional arch=any"
   ],
   "Standards-Version": [
     "4.6.1"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/yangfl-guest/litehtml.git"
   ],
   "Version": [
-    "0.6-1"
+    "0.6-1.2"
   ]
 }

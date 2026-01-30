@@ -6,25 +6,28 @@
     "python3-deprecation"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
+    "debhelper-compat (= 13), python3-all, dh-sequence-python3, python3-setuptools"
   ],
   "Build-Depends-Indep": [
-    "python3-packaging, python3-unittest2"
+    "python3-packaging"
   ],
   "Checksums-Sha1": [
-    "105dac8a02950b854977502020ea1d3896862002 8028 python-deprecation_2.1.0-2.debian.tar.xz 3d799b2aef615855207658efcf47e0823dc8f3f9 2220 python-deprecation_2.1.0-2.dsc 0aada8e0ef8e85535917382cd6cf1d7353abe10d 16673 python-deprecation_2.1.0.orig.tar.gz"
+    "c762e1673a7be9cb6db6e60ede2c11d5d2bda4ec 8880 python-deprecation_2.1.0-4.debian.tar.xz 0d84f24f16445365dedd604d14fe281211d6d6af 2300 python-deprecation_2.1.0-4.dsc 0aada8e0ef8e85535917382cd6cf1d7353abe10d 16673 python-deprecation_2.1.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "3a59c249a8d842dd1499f7ea714b405a8c601463e6e9650fef791e303c21d05f 8028 python-deprecation_2.1.0-2.debian.tar.xz 1124e6723d131efdb3213bfd5844a0833b4aa906f2fc3c1d0eb2c3947b15bf04 2220 python-deprecation_2.1.0-2.dsc 604d0feea21b26c934fdf45e53f8de34c70bd9cc88e1345fab5db54c5fab8188 16673 python-deprecation_2.1.0.orig.tar.gz"
+    "8204ccba38f4ac23c2e6d27d3896f831bad4b2484f3cf914d273feed997da182 8880 python-deprecation_2.1.0-4.debian.tar.xz 8e903857ce3c5eef11ac353bd7b0722ef7ac56d8a70770d08d9cc736485acf13 2300 python-deprecation_2.1.0-4.dsc 604d0feea21b26c934fdf45e53f8de34c70bd9cc88e1345fab5db54c5fab8188 16673 python-deprecation_2.1.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "dbf0e558805918e87ade6b68000576acb7dbf6185a783bfbe55e62d639f4e612628c0e935e24ab5a719dbf7139acd05ddf13ce0a057c2c24df1110357b609e95 8028 python-deprecation_2.1.0-2.debian.tar.xz abee52d3cfff8c820138c562199f3ad8476664629554be7ed367ebbe5122c886de7d22c6906cb124e73bd53c35cbde8e1e43c82db4f6db2859f46d393ba05ff8 2220 python-deprecation_2.1.0-2.dsc 55d39c7955d4b325a46d55f3600c02cf87d2ccfce550bbd500a6596a5af195a08cf4f74487bc85808d58140cc2d5aa5324967b7900850c6df13680e3ccca296c 16673 python-deprecation_2.1.0.orig.tar.gz"
+    "26bccbdc047af823676d9b15b86d1a8df1a50d4abe6a033fdf2f886e9e2d1c26cdd55a4f4a7b597f29a15eaeb54c06d741b51864a4c22eddd08c5885fcfb775b 8880 python-deprecation_2.1.0-4.debian.tar.xz 5580a5cbac8ead1d6eaacaba2d33dd3521fdf30211aac98b82f565e652f2f1ac36b50c75f1c380c7aa0ed633c9cb09d25034be507efde086c6b6c821ea6d2357 2300 python-deprecation_2.1.0-4.dsc 55d39c7955d4b325a46d55f3600c02cf87d2ccfce550bbd500a6596a5af195a08cf4f74487bc85808d58140cc2d5aa5324967b7900850c6df13680e3ccca296c 16673 python-deprecation_2.1.0.orig.tar.gz"
+  ],
+  "Dgit": [
+    "fac7a56ca5b9154e37366d22f25c08b6a4bd589c debian archive/debian/2.1.0-4 https://git.dgit.debian.org/python-deprecation"
   ],
   "Directory": [
     "pool/main/p/python-deprecation"
   ],
   "Files": [
-    "2948f8aa9176206b3d96d104d2cf7ba3 8028 python-deprecation_2.1.0-2.debian.tar.xz 4658a0e772b6be3f36879e4f5899eaf2 2220 python-deprecation_2.1.0-2.dsc 64e99ea0bf8370a47ad4b280fd19721b 16673 python-deprecation_2.1.0.orig.tar.gz"
+    "dc71ec3a8b1ee63cc6a3c7a90c9ddee4 8880 python-deprecation_2.1.0-4.debian.tar.xz 79ce099540686b91f45db88a15e2c347 2300 python-deprecation_2.1.0-4.dsc 64e99ea0bf8370a47ad4b280fd19721b 16673 python-deprecation_2.1.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -33,7 +36,7 @@
     "https://github.com/briancurtin/deprecation"
   ],
   "Maintainer": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
   ],
   "Package": [
     "python-deprecation"
@@ -48,7 +51,7 @@
     "autopkgtest, autopkgtest-pkg-python"
   ],
   "Uploaders": [
-    "Ondřej Kobližek \u003ckobla@debian.org\u003e, Ondřej Nový \u003conovy@debian.org\u003e,"
+    "Ondřej Kobližek \u003ckobla@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-deprecation"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/python-deprecation.git"
   ],
   "Version": [
-    "2.1.0-2"
+    "2.1.0-4"
   ]
 }

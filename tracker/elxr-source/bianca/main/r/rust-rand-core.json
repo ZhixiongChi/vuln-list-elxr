@@ -9,19 +9,19 @@
     "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "2385994043edae816609eae83457cb2168aaba80 3376 rust-rand-core_0.6.3-2.debian.tar.xz 336d2cd121bbf477d16c86f33cb0e7a01e4b039c 2468 rust-rand-core_0.6.3-2.dsc c3b2f09b8f8361f03c16c7265bc508960a438bcf 21938 rust-rand-core_0.6.3.orig.tar.gz"
+    "c6a599650df506af11a83ebfd69bbb0af8da5672 3692 rust-rand-core_0.6.4-2.debian.tar.xz 28f89e804eca5a49811e4b687c24915239278db9 2468 rust-rand-core_0.6.4-2.dsc 97e18722c501d144ca836e60a4715fd1427ab7d1 22666 rust-rand-core_0.6.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a0fe290887712d6122857145bcec10a558d1809f61a8c74f5baa29b3b52b2604 3376 rust-rand-core_0.6.3-2.debian.tar.xz 31b1b24b6177e24eaad0cb0e82e2063e2691dcfb825be117a935e7ca23236a2e 2468 rust-rand-core_0.6.3-2.dsc d34f1408f55294453790c48b2f1ebbb1c5b4b7563eb1f418bcfcfdbb06ebb4e7 21938 rust-rand-core_0.6.3.orig.tar.gz"
+    "837d4c4b51f94a2174475dbb0fc8cbfd2ed7beced4da5459dacb329fa2c868e1 3692 rust-rand-core_0.6.4-2.debian.tar.xz 1f6938a4015b700fc497dd3c114a56abbcc7fddd12dee47442a88767ac9bb8e2 2468 rust-rand-core_0.6.4-2.dsc ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c 22666 rust-rand-core_0.6.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "4d3a57ed1bbf1440885341d7767b98874c77dbfdae469c0b89f5b92db6f8cd3c0a967c700ed96d050d599a869c9099f17e50659d580a9f4526a65c7ff09e6237 3376 rust-rand-core_0.6.3-2.debian.tar.xz 18d421d35df709a54a1758db210852bbb3d48cf4da8f5fff57eaa49bcfcedd8690460e308fb895a51aea3f89011cf3787f0d03f196051a0f010761ea0731a42b 2468 rust-rand-core_0.6.3-2.dsc 0fc31f96ca8ebba8c179367de01458e909265e1d627ec0c5620be7c8e83d2f9570471d6ec2cb2bc4bc531505b02fc31f1165708cc1357906791c87123b06ee87 21938 rust-rand-core_0.6.3.orig.tar.gz"
+    "1de95f65201fd08879059a826e02abbfbbfdcbf64b5266c2fb5b98d02b0a4616fc33f142bd3a9b453e7e0b03ec5cc52367351bf962d180da22aa0471f7c38a51 3692 rust-rand-core_0.6.4-2.debian.tar.xz ce03b274c60cbc59b71d4f2ed138b3f277ff732c3bf72ba6b64dd66888f387519d251cd3274a14395cd43eaed2cb6422979d631a17b91d9d3b6e80c2215dff7d 2468 rust-rand-core_0.6.4-2.dsc 36c67eb845aa2ccca49d6d680f28d418229bbc5a050729e487fe6b9f9f384fdd7b8d67fc6508b90b79ffb3c26688e72feceb3ecae57d3d7f59338aeb62296f79 22666 rust-rand-core_0.6.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-rand-core"
   ],
   "Files": [
-    "b4af8725471f27f1785b468f9eedd816 3376 rust-rand-core_0.6.3-2.debian.tar.xz a4ca0a0376c920b2c43385151bcd7709 2468 rust-rand-core_0.6.3-2.dsc ae5dab3db7dc317e16bb6f9e7eb15d14 21938 rust-rand-core_0.6.3.orig.tar.gz"
+    "a14c5ec8e7b3edf50ed26f8f7b733035 3692 rust-rand-core_0.6.4-2.debian.tar.xz 189caebf28352235a8922a33270cac9c 2468 rust-rand-core_0.6.4-2.dsc a1626b8f4d165b1b60d960862eba4cf0 22666 rust-rand-core_0.6.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "librust-rand-core+getrandom-dev deb rust optional arch=any librust-rand-core+serde-dev deb rust optional arch=any librust-rand-core+std-dev deb rust optional arch=any librust-rand-core-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/rand-core]"
   ],
   "Version": [
-    "0.6.3-2"
+    "0.6.4-2"
   ]
 }

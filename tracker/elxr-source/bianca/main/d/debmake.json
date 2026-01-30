@@ -6,25 +6,22 @@
     "debmake"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
+    "debhelper-compat (= 13), dh-sequence-single-binary, pybuild-plugin-pyproject, python3, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "6a23c90fd1742ae974b1355d3e5fc9b5d580fbfa 7972 debmake_4.4.0-1.debian.tar.xz 712917a3010293630355c812b6e3e6b81c2b145e 2017 debmake_4.4.0-1.dsc 92a826c50bc0fd0f16189947eebba0df57d5ca63 155196 debmake_4.4.0.orig.tar.xz"
+    "b01ef0a478f9ba48860e54a11fb0fa9ef70a3abe 11344 debmake_4.5.1-2.debian.tar.xz ff7f7c1127f1c7283f1274f8f96810a0a43e78c6 1920 debmake_4.5.1-2.dsc 849ffd702c99772fed551973d8bf805009c36293 152536 debmake_4.5.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "c4256556881e19a18ef06bcf25a0332ac2d87814f1bab435a16d8cd7523ddc4e 7972 debmake_4.4.0-1.debian.tar.xz 2220f84743e58115bf53ae60015654b5781787d3252e39a7abb90969334e42f6 2017 debmake_4.4.0-1.dsc 7b9c44b12c7a024f7f9893b7f1dfc1cf50256e03bc32e60b3241498bc7e07769 155196 debmake_4.4.0.orig.tar.xz"
+    "d45a5b7dd8ebb32df333cbdaeee790d820b2357b915001e0341c1ae215ab0ca4 11344 debmake_4.5.1-2.debian.tar.xz c10886e5a2a79d044fef28497398838a7d7770698a30f67fc4eda51a8f553c30 1920 debmake_4.5.1-2.dsc 0aeb556a3c7e3ef1a31b59272a50f9e53a5beb7fe40dc9745068216ed9efcabb 152536 debmake_4.5.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "8f875eaab35c15c55c9b9a9f090242554e6740ba15ea72ca085f8f1ec2afcf35a2b7b395786c8aca35cd533b2901a283563b307e54e8afed313560d0c6379c47 7972 debmake_4.4.0-1.debian.tar.xz 73c769d0ca6dac56d114a3696625789f6ad54682237b6afe4bc3d1429e5f7e541f0dbfe7b6c779585ab90c94fc2d517109f98161534ccc14d3e4255c49023a0e 2017 debmake_4.4.0-1.dsc 846928cac5a25465f7e43c11a18fb976d7a8365a05cb61c1294dd56b3e11ecdffde25bffac2b00bf0207e2c9e7387e30a06c5f63334145676140ee37c34517fd 155196 debmake_4.4.0.orig.tar.xz"
-  ],
-  "Dgit": [
-    "4d174c3adcb43faed6dcd18a79bfc531dc64c498 debian archive/debian/4.4.0-1 https://git.dgit.debian.org/debmake"
+    "87784084846815c693aa2221c85336c2090656d4ec0403ac95675c812c05ecf701bcf79defaf4f208a73710095221b33a9208847ccc3531741654c35395c25c1 11344 debmake_4.5.1-2.debian.tar.xz 1f1323ababa26034dcceaf2b95d6e29e8a8e571beceeeddaa5e43b33e9eb9999f2db76d557b70e766fc743181fabe9b956f72a08a385fdd5adb744fc9c6c0dec 1920 debmake_4.5.1-2.dsc ba97872e5a980657371471c677b4d808d6385abb4e20460fbe76ae58d7a317fbe6a8c6025399e5914dd363791354e9462448e1593eab7b18a84b926b86a5b8ba 152536 debmake_4.5.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/d/debmake"
   ],
   "Files": [
-    "9575b9c8a0513e46615853fae0e3c76c 7972 debmake_4.4.0-1.debian.tar.xz ef0e5af16347b09ed23dd46abeb0735e 2017 debmake_4.4.0-1.dsc 25095beb95fe005c32a94fd1bb8d4735 155196 debmake_4.4.0.orig.tar.xz"
+    "5f1ad8ff49cb0ff4b4d8f8d4dff99f17 11344 debmake_4.5.1-2.debian.tar.xz 765e271499fec4a1391c21675ac34242 1920 debmake_4.5.1-2.dsc 6e51a6bc5aeeac7d4bfc87f4657bec97 152536 debmake_4.5.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +39,7 @@
     "debmake deb devel optional arch=all"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/debian/debmake.git"
   ],
   "Version": [
-    "4.4.0-1"
+    "4.5.1-2"
   ]
 }

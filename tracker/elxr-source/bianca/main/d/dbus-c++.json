@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libdbus-c++-1-0v5, libdbus-c++-bin, libdbus-c++-dev, libdbus-c++-doc"
+    "libdbus-c++-1-0v5, libdbus-c++-bin, libdbus-c++-dev, libdbus-c++-doc, libdbus-c++-ecore-1-0, libdbus-c++-glib-1-0"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, libdbus-1-dev (\u003e= 0.60), libefl-all-dev, libexpat1-dev, libglib2.0-dev, libgtkmm-2.4-dev (\u003e= 1:2.24.4-2~) \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, libdbus-1-dev (\u003e= 0.60), libefl-all-dev | libecore-dev, libexpat1-dev, libglib2.0-dev"
   ],
   "Checksums-Sha1": [
-    "00db62549ae2275f2361ef64eec4e98ab94ccc06 11512 dbus-c++_0.9.0-11.debian.tar.xz e039991a21fc3fcaa7fb8864792e0634ddc20b50 2075 dbus-c++_0.9.0-11.dsc 105bc04c9ad03c69e612a41e83acd04b7dfd3a41 466362 dbus-c++_0.9.0.orig.tar.gz"
+    "aa22d2df11a6b379a62b009b3b06471d48074ddb 11972 dbus-c++_0.9.0-15.debian.tar.xz e2f8497e4f50e74c89fe8394723f5e41a95dc1c0 2189 dbus-c++_0.9.0-15.dsc 105bc04c9ad03c69e612a41e83acd04b7dfd3a41 466362 dbus-c++_0.9.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "c91180507e5fd582726779de9f485ada84b1fe5e8cd8b7e84149a78f0f7c7c90 11512 dbus-c++_0.9.0-11.debian.tar.xz 30625fdc41d90b5fe76aec525355acc5aa1d81dc457e10cbfd0eef93654cf66c 2075 dbus-c++_0.9.0-11.dsc bc11ac297b3cb010be904c72789695543ee3fdf3d75cdc8225fd371385af4e61 466362 dbus-c++_0.9.0.orig.tar.gz"
+    "bd250e1f12e0c6aeb18399645ab8d80afa1cfb88a2209a9e77cf9a663b2039c1 11972 dbus-c++_0.9.0-15.debian.tar.xz 644c2313187fd89ce48bca636afcfa963171851a25d8b9a4182d904596bd5432 2189 dbus-c++_0.9.0-15.dsc bc11ac297b3cb010be904c72789695543ee3fdf3d75cdc8225fd371385af4e61 466362 dbus-c++_0.9.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e20300c2e814119d2b9a582c623ff7cbebe7d2352984bf32d5eea17cd67bcc2146d533ee7d06bf0d583556d530cf92f8b783fbe181c28536c6d4e35bd3c8148d 11512 dbus-c++_0.9.0-11.debian.tar.xz 6c13d02d756550917f65ba25d1d18b11ea6c370202edf3302b3fc74dba48c4c2217b4719d5a9336b87a1a64ad9ca10946a85f8ca409441a6f3b47e6dc36497a9 2075 dbus-c++_0.9.0-11.dsc 7acebbb4254b2886cc0f05c5ddeeeac0b5863c5552d32249463b89380b0b95b8225c80bd98b8c7fcaada42ab770b5eff41b15390cd0d78bf1ee322ac6c2de319 466362 dbus-c++_0.9.0.orig.tar.gz"
+    "e32f77de8f51abb528eb3962520c56d111ff0f495b2a1f7f875794024078e4b8c78917601d5947fa71820009a15f725290d7296d3c10676132ea1aa727e26137 11972 dbus-c++_0.9.0-15.debian.tar.xz 1252508319a17e20cb0561029a4294981493f3dc505a3816d844ec812011d1eb805076c10a1ffd0a607b21226fca71173e3d473564d9ef54ee4d2d1f86c66600 2189 dbus-c++_0.9.0-15.dsc 7acebbb4254b2886cc0f05c5ddeeeac0b5863c5552d32249463b89380b0b95b8225c80bd98b8c7fcaada42ab770b5eff41b15390cd0d78bf1ee322ac6c2de319 466362 dbus-c++_0.9.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/d/dbus-c++"
   ],
   "Files": [
-    "268a8ba78c5c625197088707d6438cce 11512 dbus-c++_0.9.0-11.debian.tar.xz 380ba001f42082938d17f3c2712bf741 2075 dbus-c++_0.9.0-11.dsc e752116f523fa88ef041e63d3dee4de2 466362 dbus-c++_0.9.0.orig.tar.gz"
+    "f5e380c9b8d553576ba0ea9d815ce4be 11972 dbus-c++_0.9.0-15.debian.tar.xz 3b44b3acb8c4abd49667b5b7f6751abc 2189 dbus-c++_0.9.0-15.dsc e752116f523fa88ef041e63d3dee4de2 466362 dbus-c++_0.9.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "dbus-c++"
   ],
   "Package-List": [
-    "libdbus-c++-1-0v5 deb libs optional arch=any libdbus-c++-bin deb utils optional arch=any libdbus-c++-dev deb libdevel optional arch=any libdbus-c++-doc deb doc optional arch=all"
+    "libdbus-c++-1-0v5 deb libs optional arch=any libdbus-c++-bin deb utils optional arch=any libdbus-c++-dev deb libdevel optional arch=any libdbus-c++-doc deb doc optional arch=all libdbus-c++-ecore-1-0 deb libs optional arch=any libdbus-c++-glib-1-0 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/dbus-cplusplus"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/dbus-cplusplus.git"
   ],
   "Version": [
-    "0.9.0-11"
+    "0.9.0-15"
   ]
 }

@@ -6,28 +6,28 @@
     "python3-pyasn1-modules"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-pyasn1 (\u003e= 0.4.1)"
+    "debhelper-compat (= 13), pybuild-plugin-pyproject, dh-sequence-python3, python3-all, python3-pyasn1, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "748bccea89e40d2aa65463e94e413291a52ff848 2668 python-pyasn1-modules_0.2.8-1.debian.tar.xz 174edb52c765c33ce83ea8415091b6705a511bfb 2160 python-pyasn1-modules_0.2.8-1.dsc 43b89feb6864fe359aae89120627165219de313b 242864 python-pyasn1-modules_0.2.8.orig.tar.gz"
+    "2481027ee9e49ab825026e7b938d9faa501bd105 4268 python-pyasn1-modules_0.4.1-2.debian.tar.xz 458d001a852f71210ce685ba91ee6658bd0bb956 2254 python-pyasn1-modules_0.4.1-2.dsc e35bc77825d9b8ca41fb9e1e0f2604b2583d2da9 214824 python-pyasn1-modules_0.4.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "b3bc24bed1fbeb6bdd16d530f3490964138aac329ffc8cadc99500c9916172e5 2668 python-pyasn1-modules_0.2.8-1.debian.tar.xz 95787ad08f04ac5226406ba0f021d270987f2cfedad3ee837a3c747cfafd8a28 2160 python-pyasn1-modules_0.2.8-1.dsc 905f84c712230b2c592c19470d3ca8d552de726050d1d1716282a1f6146be65e 242864 python-pyasn1-modules_0.2.8.orig.tar.gz"
+    "f324300eea0cb78eb43ec7d40aff4da33785ab7615f5d5e44ea9c1a2344a4b2d 4268 python-pyasn1-modules_0.4.1-2.debian.tar.xz cba86fafbcd6dd635092498773c25bec3132ab0702573d535ba6ec20a00f5287 2254 python-pyasn1-modules_0.4.1-2.dsc 615bc45192e00dceceae4b0e89be37119efa89c5855dd14fb984eb49e13c19dc 214824 python-pyasn1-modules_0.4.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "1891df698f3cf88751d2087940fee3d2c32a45e28ec354e7919e717e5d21b86131d15a147394be676509ba1b6e1e2983c7541a3e04bbf73f0236f861e9cc6daf 2668 python-pyasn1-modules_0.2.8-1.debian.tar.xz 072ceff1c81100f899aa5daa16cd4db0321e4fccbe75720d3bbf57be3bc53c2c0d37d61e5f97e07406a8d5138c6ebe484b12678461802768b83b7883afd5a059 2160 python-pyasn1-modules_0.2.8-1.dsc fdfcaa065deffdd732deaa1fa30dec2fc4a90ffe15bd12de40636ce0212f447611096d2f4e652ed786b5c47544439e6a93721fabe121f3320f13965692a1ca5b 242864 python-pyasn1-modules_0.2.8.orig.tar.gz"
+    "6771e390140fbfe949b9bdcc3714603f3a3b826494fa41301c7b376b22a089700a814302a57cd06d3bf7ff573dc30addf602a97e9de4d74f61ebd7687b1233b1 4268 python-pyasn1-modules_0.4.1-2.debian.tar.xz 3d9df64e3016732060f22038674ef388a02ab787faaf2b435173054912a41123a0b8d8263aa2ad1699750fa89de24276307f8714e1579f160af9510fea71cae6 2254 python-pyasn1-modules_0.4.1-2.dsc 98a2d0d41bf447e04b0c067d0dbbad2d6f1cb509929cd162b9286112b48984678351778c11132e2a09e6278b19e078b894e1443fa177f583b570a7284dea4b0f 214824 python-pyasn1-modules_0.4.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-pyasn1-modules"
   ],
   "Files": [
-    "05bd13ddd3b1a8843b77321f6c99ae75 2668 python-pyasn1-modules_0.2.8-1.debian.tar.xz cf5a06d83edbb2ab5197afc34a0a18a8 2160 python-pyasn1-modules_0.2.8-1.dsc 107e1ece7d0a41d782f69f8a95a4d9bc 242864 python-pyasn1-modules_0.2.8.orig.tar.gz"
+    "4d201c832ce94c6baf49e4bc8ab065e9 4268 python-pyasn1-modules_0.4.1-2.debian.tar.xz d5b9c23657692cacad265a418362bdff 2254 python-pyasn1-modules_0.4.1-2.dsc 5bc39b18d13d859155c79941b2a2d23b 214824 python-pyasn1-modules_0.4.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://pypi.python.org/pypi/pyasn1-modules"
+    "https://github.com/pyasn1/pyasn1-modules"
   ],
   "Maintainer": [
     "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
@@ -41,6 +41,12 @@
   "Standards-Version": [
     "3.9.6"
   ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all"
+  ],
   "Uploaders": [
     "Marc Haber \u003cmh+debian-packages@zugschlus.de\u003e,"
   ],
@@ -51,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-pyasn1-modules.git"
   ],
   "Version": [
-    "0.2.8-1"
+    "0.4.1-2"
   ]
 }

@@ -6,22 +6,22 @@
     "librust-libm-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "90dba77c0b6868115996a7a3d93c80afbc7f89c3 8276 rust-libm_0.2.1-5.debian.tar.xz fe3ffd2e677bd9e9d09b73207c93bd90a2a9f617 2138 rust-libm_0.2.1-5.dsc 3a356935a7de0aac996f035cac3c615f24249387 111906 rust-libm_0.2.1.orig.tar.gz"
+    "325e4fa16b5f7f2d1eaf678569b68c9b291eec24 4140 rust-libm_0.2.8-1.debian.tar.xz f1126fb0dcd2dcf376040d04c59b15aaebe719be 2151 rust-libm_0.2.8-1.dsc aec513b91f74bbc5412d4aca075bfcb615c0a42e 113450 rust-libm_0.2.8.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "97373bccc9295b68e6e7f9a365b16ff7d0cf30e092bf75c5b9413440d75cdd77 8276 rust-libm_0.2.1-5.debian.tar.xz 20bfd5cb0a29fec81e24b72903cc3b81c5ca849496310561a248e740b7ab24a0 2138 rust-libm_0.2.1-5.dsc c7d73b3f436185384286bd8098d17ec07c9a7d2388a6599f824d8502b529702a 111906 rust-libm_0.2.1.orig.tar.gz"
+    "7969d5c9c3865ca4f2a6ba4645333449a112bac5ae72ac108eb2af50d2d0c29e 4140 rust-libm_0.2.8-1.debian.tar.xz f36c6a6edef497b772a62d6e0c1a0beca47c7a4b0c1719c78c5c3aa4e849de57 2151 rust-libm_0.2.8-1.dsc 4ec2a862134d2a7d32d7983ddcdd1c4923530833c9f2ea1a44fc5fa473989058 113450 rust-libm_0.2.8.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "ad84758fa86161754da506367785b6cc1c35a7483924f5c4b53cc0d347d9806ab3dae1fbf42faa08c0d38676b643c61ec5686104a7c46c6f569b4f9fbe3e5292 8276 rust-libm_0.2.1-5.debian.tar.xz 61540f99a4499a314d2d06188218a2fa28a6d3d13c47ca9266e02a6feccde9ad309a43960d2c1c25d1c4aface477ee73800fdb3748f609a2619108d6463f25ff 2138 rust-libm_0.2.1-5.dsc a037ce773e4c4b0a9c20a23a9c04a34bc468753a1ccafb42199ae1793adc100148b77b08533c4bcc0f269d7de421c0657b6ea62f132ae808cc3b998f55e713a9 111906 rust-libm_0.2.1.orig.tar.gz"
+    "05bc30c8a1695ce444c837e2e1625a788e7132461e5bce723876607845b9999c8cbbe429be41b290b3880ec05936d7ceaeb69c17fddbe4cc33be0d93322ed1e5 4140 rust-libm_0.2.8-1.debian.tar.xz 19df3b5ae6632e04c1ff1f6af34990a27f1ef6090289827322f5b59a1129985061402a92e3acf5ea28445b61565b6aaa0f9f7bc35c2e25e0c083979d65a8724f 2151 rust-libm_0.2.8-1.dsc 753df71bb2c838abbac360db2e4400c2d931185ecff993da51a979870f2c3f7ac017380fadee4622102fb4b37ebcc1960b0cbd295afc9cd1cb3307524e1f39c5 113450 rust-libm_0.2.8.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-libm"
   ],
   "Files": [
-    "ee0327be34bc1076d7775d26c6a0c9aa 8276 rust-libm_0.2.1-5.debian.tar.xz eac4b3e8f7ab8ada998d2cc124526618 2138 rust-libm_0.2.1-5.dsc 5b23904f9579d1efd0e914257517eeb5 111906 rust-libm_0.2.1.orig.tar.gz"
+    "9263d31010f7799c4867634a88e94c01 4140 rust-libm_0.2.8-1.debian.tar.xz e70359a4101333568fb14f662a20133d 2151 rust-libm_0.2.8-1.dsc 23fb13a7f6fb7b25a42d71c3bcaa5d7c 113450 rust-libm_0.2.8.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,13 @@
     "librust-libm-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-no-panic-0.1+default-dev"
+    "dh-cargo, librust-no-panic-0.1+default-dev, rustc"
   ],
   "Uploaders": [
     "Andrej Shadura \u003candrewsh@debian.org\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/libm]"
   ],
   "Version": [
-    "0.2.1-5"
+    "0.2.8-1"
   ]
 }

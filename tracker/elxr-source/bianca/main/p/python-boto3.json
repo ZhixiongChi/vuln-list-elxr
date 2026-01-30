@@ -6,22 +6,22 @@
     "python3-boto3"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-python, python3-all:any, python3-s3transfer (\u003e= 0.1.10), python3-setuptools"
+    "debhelper-compat (= 12), dh-python, python3-all:any, python3-pytest, python3-s3transfer (\u003e= 0.1.10), python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "fd079c077f69399c150b7d8c3e44fa73dcc6f10d 3652 python-boto3_1.26.27+dfsg-1.debian.tar.xz 2024e6ab35544f49961b2c58ab3e2806b6fbf415 2126 python-boto3_1.26.27+dfsg-1.dsc a4a5cb73dc9d3d3a74d25ed4c49f450abbc140cb 329160 python-boto3_1.26.27+dfsg.orig.tar.xz"
+    "1f4a0e8084236b4d3d2458a942f5b48fe0c1d4b9 3968 python-boto3_1.37.9-1.debian.tar.xz 9634a25f42e26cff5e3b4c7e56a86ab16d3ff64a 2156 python-boto3_1.37.9-1.dsc af35e73caed94197e28638250609054210322385 504676 python-boto3_1.37.9.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "d52e9cc29549025f1d21440059244eb0fe4b78948e17e11b462a8f37edf024fa 3652 python-boto3_1.26.27+dfsg-1.debian.tar.xz d57e652c3203aebd5807f8753dc19ab9e2da8dad5f54236ce38d4efc357ea8d7 2126 python-boto3_1.26.27+dfsg-1.dsc d199227b9e92de40e7dff81e26403181e99a2a5b12a61e2e46ebc8321eaff31b 329160 python-boto3_1.26.27+dfsg.orig.tar.xz"
+    "f119d4369103a53fc62574aec2faaebcdf39704794cea2e9c8cbdc029f4f73a0 3968 python-boto3_1.37.9-1.debian.tar.xz 50e9cef6af297d5b82d7ed273cf038b4d2e3ed0140268cbba87e635e69059c7d 2156 python-boto3_1.37.9-1.dsc 8e78f04975c7b72fd7cd9c780d321bbda0223bfd9120c64e1f91b6d8bacae5d6 504676 python-boto3_1.37.9.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "d6a1c253638f0d12ce4afe4e53339317581f26a4bb605f05369b5ee223d1d3c85a5ae2c251113dab66c75fd6b44b1edadd2e381baeb1455c7a44c90a2ddc045a 3652 python-boto3_1.26.27+dfsg-1.debian.tar.xz 8fe19e142c9fc310394965a0403442fe5ba81dd88e5dd8b812857b798ac706d9edac33dd16cf7f530a0dba7167bd8e2f58ab71663d73d861aee5db12804078ad 2126 python-boto3_1.26.27+dfsg-1.dsc 3f0c4850c9d0a00f68e64aa5e6ff089b40e22338d7313e9f07aa774231079ff8941835c2b675ff7ccd52d2bec70ade29fa02406cc813fa3361ab9208c490c4fd 329160 python-boto3_1.26.27+dfsg.orig.tar.xz"
+    "dba50f6a63ed76d514bd559ba48f0c0f4e77f04ea4ad7be412a550c2a1faea405544d8b12a5ce9abc4640f39079469c88c228782608301c8f016c8c949e8a7c3 3968 python-boto3_1.37.9-1.debian.tar.xz 102b584008fa0825867aa2d29206cf6bee038f9f3a461bcf4e55ba0a52fba14cd68ef6d1736e984ae179e8e33b2b6d089e0801555a097cfd2edbb03e2dbc042c 2156 python-boto3_1.37.9-1.dsc b8af9fd3fd40e7530807d7431d4399b70e4545f5e6336a8e4f24b18421968da85296c2c947797f0d98557ed68fcb1bc38317be725eb7a03ce6f96f915458e954 504676 python-boto3_1.37.9.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-boto3"
   ],
   "Files": [
-    "8a7dff1b65ec990dfc50109256c8f16c 3652 python-boto3_1.26.27+dfsg-1.debian.tar.xz b282129b866a2a4f5fbe413cd04108da 2126 python-boto3_1.26.27+dfsg-1.dsc ac030788f226c35f347d64f8adc86066 329160 python-boto3_1.26.27+dfsg.orig.tar.xz"
+    "237e1f32fa1a41da627062b0f35f4c14 3968 python-boto3_1.37.9-1.debian.tar.xz ae3d214c64df6c8b63f8c54f02e3befe 2156 python-boto3_1.37.9-1.dsc 5f61bea0312e31981efb0dc91de91bd6 504676 python-boto3_1.37.9.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,13 @@
     "python3-boto3 deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
-    "Alexander GQ Gerasiov \u003cgq@debian.org\u003e, Noah Meyerhans \u003cnoahm@debian.org\u003e"
+    "Alexander GQ Gerasiov \u003cgq@debian.org\u003e, Noah Meyerhans \u003cnoahm@debian.org\u003e, Thomas Bechtold \u003cthomasbechtold@jpberlin.de\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/cloud-team/python-boto3"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/cloud-team/python-boto3.git"
   ],
   "Version": [
-    "1.26.27+dfsg-1"
+    "1.37.9-1"
   ]
 }

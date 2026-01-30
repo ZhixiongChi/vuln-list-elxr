@@ -6,22 +6,22 @@
     "gnupg1, gpgv1, gnupg1-l10n"
   ],
   "Build-Depends": [
-    "automake, debhelper (\u003e= 11~), dh-exec, dpkg-dev (\u003e= 1.18.8~), file, gettext (\u003e= 0.19.3), libbz2-dev, libcurl4-gnutls-dev, libldap2-dev, libreadline-dev, libz-dev, texinfo"
+    "debhelper-compat (= 13), file, gettext, libbz2-dev, libcurl4-gnutls-dev, libldap2-dev, libreadline-dev, libz-dev, texinfo"
   ],
   "Checksums-Sha1": [
-    "30238528bb779d0335fc0ac9f217a8d9f336fefd 33540 gnupg1_1.4.23-1.1.debian.tar.xz 8da374cd1c921080f7c58383ec5b76b6a32c9b31 2245 gnupg1_1.4.23-1.1.dsc 13747486ed5ff707f796f34f50f4c3085c3a6875 3749353 gnupg1_1.4.23.orig.tar.bz2"
+    "6be2f9e1ed1571871273503b643c1816df78cff6 33456 gnupg1_1.4.23-3.debian.tar.xz 55b1053dc7b5a776dcaf0fe8cf51f368d79b09e5 2188 gnupg1_1.4.23-3.dsc 13747486ed5ff707f796f34f50f4c3085c3a6875 3749353 gnupg1_1.4.23.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "fb59097089adf15e5ca9facc821b84d4d1622f6d0f0115bf83050b15eb8c8566 33540 gnupg1_1.4.23-1.1.debian.tar.xz d8faa3ac9908cd5210936505545c2692388c1eb4b203cbe849707b8d802cb2f0 2245 gnupg1_1.4.23-1.1.dsc c9462f17e651b6507848c08c430c791287cd75491f8b5a8b50c6ed46b12678ba 3749353 gnupg1_1.4.23.orig.tar.bz2"
+    "78eeb7b0ab37fae234007444a867f648af4048143872d9ae9adba738511bf192 33456 gnupg1_1.4.23-3.debian.tar.xz c028ae9e0164102573404385d54d65ca7dba0afdae2fea3cf3458dda330f3411 2188 gnupg1_1.4.23-3.dsc c9462f17e651b6507848c08c430c791287cd75491f8b5a8b50c6ed46b12678ba 3749353 gnupg1_1.4.23.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "4e1efe9c633a4958b43f766d4be09887dabef2f7ad512e88019855b185028adc29d9be3cbbe3cc6b2135f5d56bc64f497a28d94b9f4cebfd8ab089d9c8a01ed9 33540 gnupg1_1.4.23-1.1.debian.tar.xz 9af0162805b694d6e02fdc51e03c2f2680816bddde29797933e92eeb79b434902498d4c9dec4824814b1774f75a77a5209992b58122c60b31bbf7d98eda024ca 2245 gnupg1_1.4.23-1.1.dsc 78dc52a2010202a4afc8814b29fda657a6c9fe230d5e7db11ae040edd2b0ca819e1baa4dbd6c0d04d36cd353df484e83f52d17759d2891c2cf7025c0b5d36612 3749353 gnupg1_1.4.23.orig.tar.bz2"
+    "ac7b9ecb98b1ce9ad0beca5f92680f70a255dce3078bd56fd89576595ac5c033dac77774415a14397d0ce760e8e36ea6634b0aeab26ddcfd691c0c2a8e85f5bf 33456 gnupg1_1.4.23-3.debian.tar.xz 9d665b5e4028bdaf18dfc86ec58718414101870503e4740b56d1bf591d0e7a39a4150bd95aae0c891b40216ed80a1733905f9f9103825c066d83678d53b7df9b 2188 gnupg1_1.4.23-3.dsc 78dc52a2010202a4afc8814b29fda657a6c9fe230d5e7db11ae040edd2b0ca819e1baa4dbd6c0d04d36cd353df484e83f52d17759d2891c2cf7025c0b5d36612 3749353 gnupg1_1.4.23.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/g/gnupg1"
   ],
   "Files": [
-    "81c5a4006a78fc8e35fd193ec110eb5f 33540 gnupg1_1.4.23-1.1.debian.tar.xz 7290c3e6151d1384a1f541a870171093 2245 gnupg1_1.4.23-1.1.dsc b1df02c73572f27bc859ac05ff2259ab 3749353 gnupg1_1.4.23.orig.tar.bz2"
+    "ed8a8ddc032ccb968dae4c5ed9d44060 33456 gnupg1_1.4.23-3.debian.tar.xz 2e3ec3a39eb87b74e7d8a367a816dd8a 2188 gnupg1_1.4.23-3.dsc b1df02c73572f27bc859ac05ff2259ab 3749353 gnupg1_1.4.23.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "gnupg1 deb utils optional arch=any gnupg1-l10n deb localization optional arch=all gpgv1 deb utils optional arch=any"
   ],
   "Standards-Version": [
-    "4.1.4"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/gnupg1.git"
   ],
   "Version": [
-    "1.4.23-1.1"
+    "1.4.23-3"
   ]
 }

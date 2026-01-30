@@ -3,25 +3,28 @@
     "any"
   ],
   "Binary": [
-    "libusbmuxd-dev, libusbmuxd6, libusbmuxd-tools"
+    "libusbmuxd-dev, libusbmuxd-2.0-7, libusbmuxd-tools"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), libplist-dev (\u003e= 2.2), pkg-config"
+    "debhelper-compat (= 13), libplist-dev (\u003e= 2.3.0), libimobiledevice-glue-dev (\u003e= 1.2), pkgconf"
   ],
   "Checksums-Sha1": [
-    "14327ebcd576e697d2951bfed6328ef8be73c460 4436 libusbmuxd_2.0.2-3.debian.tar.xz e70e5eb69ed39216c7d8b83c66ec27d936471e43 1795 libusbmuxd_2.0.2-3.dsc f9723b2b2f2fb0d52e5ce13c03b4fdc97149a382 43162 libusbmuxd_2.0.2.orig.tar.bz2"
+    "da08ead04a41f48cdc5d53c33f0a082e33aa9ea2 4640 libusbmuxd_2.1.0-1.debian.tar.xz 8645d5b0d94a18126ad99d01afbdb9dc4fdf0917 2521 libusbmuxd_2.1.0-1.dsc a4fb6ae75ccc17b187c6427e22527628cc7c9f98 325055 libusbmuxd_2.1.0.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "0d3b7275ecc06a65535c1b397d275451ea1eac5ec36558e17fdcaafb4bb064a2 4436 libusbmuxd_2.0.2-3.debian.tar.xz e25c01ec7f9e594089160188778926956e5d9be6e102c942a60b120976a1fa52 1795 libusbmuxd_2.0.2-3.dsc 5c39962f45b169dfde95b784a9cd87fa5359880b84701e55124a70a5a1632123 43162 libusbmuxd_2.0.2.orig.tar.bz2"
+    "8c7ce9d3cfabc43552f638c465988c3833ad4591663d0062ddd34bdf36bc4082 4640 libusbmuxd_2.1.0-1.debian.tar.xz 1dae03eed82dc6eaf9b9f650cfa240327c79bdc4e4add09450cfc68982cf64c8 2521 libusbmuxd_2.1.0-1.dsc c35bf68f8e248434957bd5b234c389b02206a06ecd9303a7fb931ed7a5636b16 325055 libusbmuxd_2.1.0.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "283f414e1fb1af7514ab32695a0e9c5131e55d9dd6ea9141f91272d8e187b7675b3f455103b02204fac0ac6620707c7cb1f263177fcdd7146cab0f43a36b2dec 4436 libusbmuxd_2.0.2-3.debian.tar.xz 45ad2b3006845ffc837b2e874a1a7b8e3c32272527c41623fe7baa4cf92b88b142fff2b5c51198e9ff5767fba6c8418dab2ed58324d391dd10d223645b055fcc 1795 libusbmuxd_2.0.2-3.dsc 3086ce1a05026afeabcdb5364ec30f4a6a5c84fe6f09e15ef6ff438bd3dfdb262ebdff94e5e0d0828b6d946bc8bdf01760271ba0d1fbf98d743dce149764a519 43162 libusbmuxd_2.0.2.orig.tar.bz2"
+    "9f6fac43b7f70b8af3a0e32d14b4313b08acc7ab882edbc30746d48a4e26699153550d70c85a56eb0ce59a2231df0b9b5ac779791259c62163d5edc9d1c9e740 4640 libusbmuxd_2.1.0-1.debian.tar.xz 766746bc26ee3bd58213a2435677e480a9c0fbef8a29a74e7a66381b7eaaddb951e4d692059787eec878f1502e9bf90e7ba35506865068b257710dee0605fe39 2521 libusbmuxd_2.1.0-1.dsc c7646b8c7e6c55bb87595380d22d77563f9d3981bf8f169a7ac85650e2860bcbb6831c4968040b92efdc1267a8ca9ae81c2f46c6644ba0c40333f81d6651cf19 325055 libusbmuxd_2.1.0.orig.tar.bz2"
+  ],
+  "Description": [
+    "Client library to handle usbmux connections with iOS devices usbmuxd, the USB multiplexor daemon, is in charge of coordinating access to iPhone and iPod Touch services over USB. Synchronization and management applications for the iPhone and iPod Touch need this daemon to communicate with such devices concurrently."
   ],
   "Directory": [
     "pool/main/libu/libusbmuxd"
   ],
   "Files": [
-    "4b0f129f92a4bbe4094b4f06fd53dc77 4436 libusbmuxd_2.0.2-3.debian.tar.xz 66c5d32d0e5242e1f1df58667b7d5bde 1795 libusbmuxd_2.0.2-3.dsc 14c6c0bdf41cb6ad2af1283ae10b673a 43162 libusbmuxd_2.0.2.orig.tar.bz2"
+    "3496965453e3b72015c77476972950fc 4640 libusbmuxd_2.1.0-1.debian.tar.xz 71f6ebf57ed8e8bdfd86ea02a5190266 2521 libusbmuxd_2.1.0-1.dsc 6783c5e811f76dd0de9ace3ddf5ecc91 325055 libusbmuxd_2.1.0.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,16 +33,16 @@
     "https://libimobiledevice.org"
   ],
   "Maintainer": [
-    "gtkpod Maintainers \u003cpkg-gtkpod-devel@lists.alioth.debian.org\u003e"
+    "gtkpod Maintainers \u003cpkg-gtkpod-devel@alioth-lists.debian.net\u003e"
   ],
   "Package": [
     "libusbmuxd"
   ],
   "Package-List": [
-    "libusbmuxd-dev deb libdevel optional arch=any libusbmuxd-tools deb utils optional arch=any libusbmuxd6 deb libs optional arch=any"
+    "libusbmuxd-2.0-7 deb libs optional arch=any libusbmuxd-dev deb libdevel optional arch=any libusbmuxd-tools deb utils optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.7.0"
   ],
   "Uploaders": [
     "Chow Loong Jin \u003chyperair@debian.org\u003e, Yves-Alexis Perez \u003ccorsac@debian.org\u003e"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/imobiledevice-team/libusbmuxd.git"
   ],
   "Version": [
-    "2.0.2-3"
+    "2.1.0-1"
   ]
 }

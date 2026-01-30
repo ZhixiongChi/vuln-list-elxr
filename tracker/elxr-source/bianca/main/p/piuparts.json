@@ -6,25 +6,25 @@
     "piuparts, piuparts-master, piuparts-master-from-git-deps, piuparts-slave, piuparts-slave-from-git-deps, piuparts-common"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-python, python3-all, python3-apt, python3-debian, python3-debianbts, python3-distro-info, python3-nose, python3-six, python3-sphinx, python3-yaml, golang-any"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-apt, python3-debian, python3-debianbts, python3-distro-info, python3-pytest, python3-sphinx, python3-yaml, golang-any"
   ],
   "Build-Depends-Indep": [
     "git"
   ],
   "Checksums-Sha1": [
-    "dfaa5126d4219d0b8bf745e8ca5e2236c73d725f 2326 piuparts_1.1.7.dsc 4cd8992a193731d55b7f51e52798c9410a59bb38 228916 piuparts_1.1.7.tar.xz"
+    "03cfad143a91d9c8fb139ca10b41e154c4f7d295 1782 piuparts_1.6.0.dsc ef1e30b5e88179ab8239bf67b93d7e401e3a677a 11840924 piuparts_1.6.0.tar.xz"
   ],
   "Checksums-Sha256": [
-    "a8578571d452a0e30ac82b4cb9eb1656673c9d80ddf95a5b317ce811d0ed9e36 2326 piuparts_1.1.7.dsc 151ae4442fb59ee90233fdafdc4d8462f9c50d9388b4d37b33f0e60e84fb9d7a 228916 piuparts_1.1.7.tar.xz"
+    "dcdc1be0eed76af79a6eeb42e6f79b08d995dd2e351f839397e46659cf1748b7 1782 piuparts_1.6.0.dsc 5d8d3e6d796337498e4e4d5a9a25b5ab3d1a07ce4650584710b19ac6ce765602 11840924 piuparts_1.6.0.tar.xz"
   ],
   "Checksums-Sha512": [
-    "0a5c9443920fdedb3188ee289a2eb34d723edf3a589ac2e4bf6ad0cdf6328c3020f379b00cffa34d6faf4b29d8f941c4c127f1c88957b2b722f72cbb10e638a6 2326 piuparts_1.1.7.dsc 7c5823668295170e1adcec8058e98cae7d4767f1803052edf760d8907ce8f638baf979f5aa91e10052ba268f2bd4bb77344fa67b100431e002f671bfc114d992 228916 piuparts_1.1.7.tar.xz"
+    "039dab508758390a96233b6e6e4dc3dddefe77e979dd2e89f93a255043eef2cdfdd326ae17e3c25a1d7d7d44539ef3fd5661b097536a4e9bcf284def47f31168 1782 piuparts_1.6.0.dsc b37b105cd9095b36effd32e4f10f3fe6ea895266cdb24346c3c3f306580400ed47b4cf7aeeb38cde3a6ad01ad8df2f12fd7254aeebbd2ee1413ac27e0ab133c8 11840924 piuparts_1.6.0.tar.xz"
   ],
   "Directory": [
     "pool/main/p/piuparts"
   ],
   "Files": [
-    "001153e3a311a6fd5e99faa543d1eb44 2326 piuparts_1.1.7.dsc 40a8d1b57f156b8661da5e560a520876 228916 piuparts_1.1.7.tar.xz"
+    "c4b035552cc073e658f2f530988d9a4a 1782 piuparts_1.6.0.dsc 75faabcab7be605cbb063ea3c8b5478b 11840924 piuparts_1.6.0.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -50,6 +50,9 @@
   "Testsuite": [
     "autopkgtest"
   ],
+  "Testsuite-Triggers": [
+    "debootstrap, mmdebstrap, python3-all, uidmap"
+  ],
   "Uploaders": [
     "Nicolas Dandrimont \u003colasd@debian.org\u003e, Andreas Beckmann \u003canbe@debian.org\u003e, Holger Levsen \u003cholger@debian.org\u003e"
   ],
@@ -60,6 +63,6 @@
     "https://salsa.debian.org/debian/piuparts.git"
   ],
   "Version": [
-    "1.1.7"
+    "1.6.0"
   ]
 }

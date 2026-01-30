@@ -6,28 +6,31 @@
     "python3-typing-extensions"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), flit, pybuild-plugin-pyproject, python3-all:any, python3-setuptools"
+    "debhelper-compat (= 13), flit (\u003e= 3.11), pybuild-plugin-pyproject, python3-all:any, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "014f87c12a540100adca900caa2a95d274a2db09 4284 python-typing-extensions_4.4.0-1.debian.tar.xz 55369a364a495ca0f830597a984c140e149244f4 2098 python-typing-extensions_4.4.0-1.dsc 9dbf798784009efaef80c8198a75b2a9e519eb95 49708 python-typing-extensions_4.4.0.orig.tar.gz"
+    "4f423e7e8b810d39d01853999da4c5a0cf76570e 4488 python-typing-extensions_4.13.2-1.debian.tar.xz d02a94b93e2d4fa72e8305cc9883f745160c0f9a 2413 python-typing-extensions_4.13.2-1.dsc 0160e4152ecc1336d76694b1c8cfbf55440756da 106967 python-typing-extensions_4.13.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "374a094c7ff48c97fea3f58e2fa371d58b81716200e2f406c26ad21383a248f6 4284 python-typing-extensions_4.4.0-1.debian.tar.xz 601a2b1c11812a88e71b87fcf9bac45c54174de76ead4d1390bc9bed2f0e280b 2098 python-typing-extensions_4.4.0-1.dsc 1511434bb92bf8dd198c12b1cc812e800d4181cfcb867674e0f8279cc93087aa 49708 python-typing-extensions_4.4.0.orig.tar.gz"
+    "82c37997cbdf75d5e8b07019b3f9e5060a944dfff6544fc0e0be3539d56fc544 4488 python-typing-extensions_4.13.2-1.debian.tar.xz d4176441fdbda8d570bd89934afce510f4e47620a7b786eb1383d8201911f0db 2413 python-typing-extensions_4.13.2-1.dsc e6c81219bd689f51865d9e372991c540bda33a0379d5573cddb9a3a23f7caaef 106967 python-typing-extensions_4.13.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "9b360abe0be510f5afd154c34607a0fb0ff32f44189892dfbf390ecf17b7b6c255ac56d18f70ee0b47220a1adeeca03f0644a0215203cc2533b6685bdbad4b9a 4284 python-typing-extensions_4.4.0-1.debian.tar.xz 44f5a8b060b502a6890fd749da35a8437d68cea6927263490381e7af78b872de832d7c39442d192d9c2d5535484d7ed13f46432aa543b13046e0b6fd5e9914fe 2098 python-typing-extensions_4.4.0-1.dsc 08286e3c997ba911570725674634bcfe3dd8ab14c88e61d8adb47755389050e714b9e87e4906c3bbcc3bde987024efcd8c4e1d2d312347fd89a4b55becb4b341 49708 python-typing-extensions_4.4.0.orig.tar.gz"
+    "b4e068d686ca8c20d90e6a94272d22fb6b8162835f65836b0569883738e5e6fb393c06394efc4d334085ab1bf416c610b3af9972938d29b5b9c9c15e7eecf512 4488 python-typing-extensions_4.13.2-1.debian.tar.xz b9342c7b890ca0ef72ab38de9056612b77823bb421bf28a8b79bcf049a37f8779f7d90985e6320d44f757aa14c02790a5a2e15b0ece5cdcb14ae59adce60654e 2413 python-typing-extensions_4.13.2-1.dsc 2cd798939362ee0d7ddbffe69b1d0fdd72b9574c1bd7300caee73d36c457ea64ea635c87ecc6188db9ffaaca272b1c8dd978a42c591ae0dfdca5632317ddb18c 106967 python-typing-extensions_4.13.2.orig.tar.gz"
+  ],
+  "Dgit": [
+    "e16041dcb17d2729335a0d3b261a4788c327f64f debian archive/debian/4.13.2-1 https://git.dgit.debian.org/python-typing-extensions"
   ],
   "Directory": [
     "pool/main/p/python-typing-extensions"
   ],
   "Files": [
-    "6685d88c4919cdc763a68e23c3b3983b 4284 python-typing-extensions_4.4.0-1.debian.tar.xz 163fe673a3f0ebf7445d87c0fd63b221 2098 python-typing-extensions_4.4.0-1.dsc 5cfcb56ea6fc4972c3600c0030f4d136 49708 python-typing-extensions_4.4.0.orig.tar.gz"
+    "9a109154d69a1471ae442a48b788e34e 4488 python-typing-extensions_4.13.2-1.debian.tar.xz 6b473a641ec5be633c32132c405cd46f 2413 python-typing-extensions_4.13.2-1.dsc 58226788d248cee8d6283ee616543975 106967 python-typing-extensions_4.13.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://github.com/python/typing/blob/master/typing_extensions/README.rst"
+    "https://typing-extensions.readthedocs.io/en/latest/"
   ],
   "Maintainer": [
     "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
@@ -39,13 +42,13 @@
     "python3-typing-extensions deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
   ],
   "Uploaders": [
-    "Michael R. Crusoe \u003ccrusoe@debian.org\u003e"
+    "Michael R. Crusoe \u003ccrusoe@debian.org\u003e, Colin Watson \u003ccjwatson@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-typing-extensions"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-typing-extensions.git"
   ],
   "Version": [
-    "4.4.0-1"
+    "4.13.2-1"
   ]
 }

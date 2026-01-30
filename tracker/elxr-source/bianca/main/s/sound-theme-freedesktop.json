@@ -6,22 +6,22 @@
     "sound-theme-freedesktop"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11), gnome-pkg-tools, libglib2.0-dev, intltool"
+    "debhelper-compat (= 13), dpkg-build-api (= 1), gnome-pkg-tools, libglib2.0-dev, intltool"
   ],
   "Checksums-Sha1": [
-    "46dfbb2129390f8367902970b5d22bc7de298bab 9888 sound-theme-freedesktop_0.8-2.debian.tar.xz ffc96f2a58045fff061b83f2edd2b181f91d5851 2225 sound-theme-freedesktop_0.8-2.dsc 166bbbafa90c5dd5ebcc405ee6a4fdb35f568bb6 478237 sound-theme-freedesktop_0.8.orig.tar.bz2"
+    "96256789f51bea48cbe0df946285bbe23a5ac5cd 10184 sound-theme-freedesktop_0.8-6~deb13u1.debian.tar.xz 91fdbe39e1e2a0a6308698424629ccb7125aaa58 2289 sound-theme-freedesktop_0.8-6~deb13u1.dsc 166bbbafa90c5dd5ebcc405ee6a4fdb35f568bb6 478237 sound-theme-freedesktop_0.8.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "d864792e10c9f0cb143aabda20acc70953fcc9867271ecc32e9343bfff691b9c 9888 sound-theme-freedesktop_0.8-2.debian.tar.xz 5c4474ed44d16ca35f4d206803d393225dd48e732e3d72c5d9cd3ce98f660160 2225 sound-theme-freedesktop_0.8-2.dsc cb518b20eef05ec2e82dda1fa89a292c1760dc023aba91b8aa69bafac85e8a14 478237 sound-theme-freedesktop_0.8.orig.tar.bz2"
+    "7627e3500a730a6ce17c34e120d0eaf55f5b526f4ad873350f29e7d730bf8cd5 10184 sound-theme-freedesktop_0.8-6~deb13u1.debian.tar.xz eb57950fdfbdd078f7d7d1f44ef1fdb3973071c643d07669dc6cfbbbe8b41002 2289 sound-theme-freedesktop_0.8-6~deb13u1.dsc cb518b20eef05ec2e82dda1fa89a292c1760dc023aba91b8aa69bafac85e8a14 478237 sound-theme-freedesktop_0.8.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "8bc596db9e4bcb913a83ef9d1a46ce43616112d910b62975c9bc9429619e20182bb5f3f989499db5bcdac3d75068611d89e0fee6a4573b1f18ba96470704da47 9888 sound-theme-freedesktop_0.8-2.debian.tar.xz 1e51614bf93504c04f0562f700dd563d365a0b8af1bec68f69f8852b63236e6b94c4333da961c6edd93951f484e90d205c6b8f4066b8a73ac546ad7b50664a0c 2225 sound-theme-freedesktop_0.8-2.dsc f08e0414443f3a47bc433a69a7226d2b9383bc7c64e0711e8a605bd761ac69ea052a6db7f0037d88fbf0900efddaae6466ca96391eb71295ee1d0edbd0364621 478237 sound-theme-freedesktop_0.8.orig.tar.bz2"
+    "7ea06370d73acadbabf7e7bcc957b34f43e50c3f770172a4f7313e61690635ce3f80ef3c4229b572eb6c648ae3cc101e955a3d2888de4cf86f395e1229da7c00 10184 sound-theme-freedesktop_0.8-6~deb13u1.debian.tar.xz 26cfab7f634f2c2c88725d22aa2a529070d9c501ec055f67932fba82c4bc7a9f01953b554017cbd90f7e4a2fe1bde765f5156a30366528ea916bdf7fedb7e881 2289 sound-theme-freedesktop_0.8-6~deb13u1.dsc f08e0414443f3a47bc433a69a7226d2b9383bc7c64e0711e8a605bd761ac69ea052a6db7f0037d88fbf0900efddaae6466ca96391eb71295ee1d0edbd0364621 478237 sound-theme-freedesktop_0.8.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/s/sound-theme-freedesktop"
   ],
   "Files": [
-    "28cebaea8d27e606f281116816e3948c 9888 sound-theme-freedesktop_0.8-2.debian.tar.xz 573f42bbc4b3ed33e473b549b76a981e 2225 sound-theme-freedesktop_0.8-2.dsc d7387912cfd275282d1ec94483cb2f62 478237 sound-theme-freedesktop_0.8.orig.tar.bz2"
+    "15fe3e787634d777bf41cd992cf9a584 10184 sound-theme-freedesktop_0.8-6~deb13u1.debian.tar.xz be84f21baf51fb9a795415ad19e87ffd 2289 sound-theme-freedesktop_0.8-6~deb13u1.dsc d7387912cfd275282d1ec94483cb2f62 478237 sound-theme-freedesktop_0.8.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,18 +39,18 @@
     "sound-theme-freedesktop deb sound optional arch=all"
   ],
   "Standards-Version": [
-    "4.1.2"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Jeremy Bicha \u003cjbicha@debian.org\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e, Sjoerd Simons \u003csjoerd@debian.org\u003e"
+    "Laurent Bigonville \u003cbigon@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e, Sjoerd Simons \u003csjoerd@debian.org\u003e"
   ],
   "Vcs-Browser": [
-    "https://anonscm.debian.org/git/pkg-gnome/sound-theme-freedesktop.git"
+    "https://salsa.debian.org/gnome-team/sound-theme-freedesktop"
   ],
   "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-gnome/sound-theme-freedesktop.git"
+    "https://salsa.debian.org/gnome-team/sound-theme-freedesktop.git -b debian/trixie"
   ],
   "Version": [
-    "0.8-2"
+    "0.8-6~deb13u1"
   ]
 }

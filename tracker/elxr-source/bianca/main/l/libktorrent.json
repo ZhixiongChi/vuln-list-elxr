@@ -3,31 +3,31 @@
     "any all"
   ],
   "Binary": [
-    "libkf5torrent6abi3, libktorrent-dev, libktorrent-l10n"
+    "libktorrent6-6, libktorrent-dev, libktorrent-l10n"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.16~), debhelper-compat (= 13), dh-sequence-kf5, extra-cmake-modules (\u003e= 5.85~), gettext, libboost-dev (\u003e= 1.71.0~), libgcrypt20-dev (\u003e= 1.4.5~), libgmp-dev, libkf5archive-dev (\u003e= 5.85~), libkf5crash-dev (\u003e= 5.85~), libkf5i18n-dev (\u003e= 5.85~), libkf5kio-dev (\u003e= 5.85~), libkf5solid-dev (\u003e= 5.85~), libqca-qt5-2-dev, pkg-config, pkg-kde-tools (\u003e= 0.15.16), qtbase5-dev (\u003e= 5.15.0~)"
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 5.240.0~), gettext, libboost-dev (\u003e= 1.71.0~), libgcrypt20-dev (\u003e= 1.4.5~), libgmp-dev, libkf6archive-dev (\u003e= 5.240.0~), libkf6config-dev (\u003e= 5.240.0~), libkf6coreaddons-dev (\u003e= 5.240.0~), libkf6crash-dev (\u003e= 5.240.0~), libkf6i18n-dev (\u003e= 5.240.0~), libkf6kio-dev (\u003e= 5.240.0~), libkf6solid-dev (\u003e= 5.240.0~), pkg-kde-tools, pkgconf, qt6-5compat-dev, qt6-base-dev (\u003e= 6.5.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "39a16db2550851a83ce5af924b0e35bacb78d329 35872 libktorrent_22.12.3-1.debian.tar.xz e1d0d6a55989957159457a151be81e1aa946db4b 2794 libktorrent_22.12.3-1.dsc 03b6bc3cfc9a649786afbd7008bc62e66b4474b5 616864 libktorrent_22.12.3.orig.tar.xz f063a9c6401ce013b25e71ab31744a807c52c834 833 libktorrent_22.12.3.orig.tar.xz.asc"
+    "f2e5fb46d7f801c482e27970dd6a8f88fb7b48d7 37360 libktorrent_25.04.0-2.debian.tar.xz 464379371d50875310049616cfd2e473bac18fa7 2984 libktorrent_25.04.0-2.dsc 5200fec7f71f4a17bacadd029ed951544ab10a74 606316 libktorrent_25.04.0.orig.tar.xz 8479c453db3695973540d1e07139b2a638e0ff59 833 libktorrent_25.04.0.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "b1aedf063c8e38baf76e2e816059d836fc06cf777eac0fba7284ffe43efa3ba9 35872 libktorrent_22.12.3-1.debian.tar.xz 8a22d277e73bc56a1463836bc46c93e0f087880ed9545e437d68209a00854549 2794 libktorrent_22.12.3-1.dsc 9cc2bfe05ffbaf145311ce691b2a2cffe7a558647cb28990c675d0e11fc1c965 616864 libktorrent_22.12.3.orig.tar.xz 6bcc6c5f4a99cfa7defbf3c48d7d2c96d4c0ce96a21bf9e03ac3da1497ffc107 833 libktorrent_22.12.3.orig.tar.xz.asc"
+    "c297f4c8cdac5b06acfd1725546f1dacb92a0215b25649e1cbefaeec0734d417 37360 libktorrent_25.04.0-2.debian.tar.xz 79786b353fd6eda9225bf94d120afe9890f8fe1f807400ed0272af236eca4881 2984 libktorrent_25.04.0-2.dsc f2f27f57d52a8c87306cd6b831904716340502bfd68f6fa2f5d5ae6250ceb464 606316 libktorrent_25.04.0.orig.tar.xz f97f987bb3363fe97b06bf9b8dc60762c4e6a61f779235b527b80dc9e378d571 833 libktorrent_25.04.0.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "196a1049b6d61a54bbb9ad15aeeb6e697ab8ae0c77381d8f720e80763404bcad2939817d1c797624ceeb1755f23b6ba62e7de464dc64340bc73d70040d4979d6 35872 libktorrent_22.12.3-1.debian.tar.xz f018d8d5c878eaa894a2ea265e11dd4d2510228e73e45a5c61f4f057a42bd7b331409f2a5bc1ede0b75515eaaf20f558e2bb865be97799599d3b1501c213c9ea 2794 libktorrent_22.12.3-1.dsc 16fbdf1422882928e22c326df432c5d266815a56e83a80056734fd15a38898036d4cef993a86e63ccf8bf8a8618f857535b6aa4bc3c8479e1ad4b0dd3b4521c3 616864 libktorrent_22.12.3.orig.tar.xz d15a035a9e525b94343fa300003e1ca6e6335edb02138bfe2c2cd828eafe2578616dac7a8f66aae964158fe4e7bd87966ce672e674c7350bb2d6882e7e1c3ee4 833 libktorrent_22.12.3.orig.tar.xz.asc"
+    "dfa273b705d7bb239965eb6615f073fbd18f91451e572cf93f3b27ce96eccb2f2745b031682a665984107bfd003f89647b85f100383ddbcf25ae3da202887fc7 37360 libktorrent_25.04.0-2.debian.tar.xz 83fdaabc4a3d3749aab4d4b3e67a704db3f42461fb5f0aebef30ce7f6ddb13c8ce2ec9bcc5297ee5c4a53447627de09eb14e9efd290acc247e0e92a0938c8430 2984 libktorrent_25.04.0-2.dsc deb21d8c8f2cd72735e5d718008d383e5ac44a8aa4b11c326b9cf8479e8a8f1b38d1e905b9ae36ca902289428444f09e0d0c5f421ee7a00622da336b748ceda4 606316 libktorrent_25.04.0.orig.tar.xz fc52740cc21f135703757316219cd9fd846a7a3e59a7d8dec1481023945a723942fc4001144ad8662b6bfd25dd3d8ffe98259cc8f3935049c6af0a6ab9d05002 833 libktorrent_25.04.0.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/libk/libktorrent"
   ],
   "Files": [
-    "4e8fdf640ee63b5c80d4beb91c58205f 35872 libktorrent_22.12.3-1.debian.tar.xz 6d6d7bbdceedf8f960836584865840d9 2794 libktorrent_22.12.3-1.dsc f2103037aaee52ec0d32909c3b26ff57 616864 libktorrent_22.12.3.orig.tar.xz 7f98848718bb1fb02ee4bfd3040fdd39 833 libktorrent_22.12.3.orig.tar.xz.asc"
+    "fc4a5824b9f0f4c613def3c8a824e191 37360 libktorrent_25.04.0-2.debian.tar.xz a42c7d657d7feb3666bb22b17b7bb03e 2984 libktorrent_25.04.0-2.dsc 96e782ad0c22b556dc7d8dce84e39b8f 606316 libktorrent_25.04.0.orig.tar.xz 0cad3c2ab208f987c7fbb2be27d64b56 833 libktorrent_25.04.0.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://www.kde.org/applications/internet/ktorrent/"
+    "https://invent.kde.org/network/libktorrent"
   ],
   "Maintainer": [
     "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
@@ -36,10 +36,10 @@
     "libktorrent"
   ],
   "Package-List": [
-    "libkf5torrent6abi3 deb libs optional arch=any libktorrent-dev deb libdevel optional arch=any libktorrent-l10n deb localization optional arch=all"
+    "libktorrent-dev deb libdevel optional arch=any libktorrent-l10n deb localization optional arch=all libktorrent6-6 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
     "Aurélien COUDERC \u003ccoucouf@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/libktorrent.git"
   ],
   "Version": [
-    "22.12.3-1"
+    "25.04.0-2"
   ]
 }

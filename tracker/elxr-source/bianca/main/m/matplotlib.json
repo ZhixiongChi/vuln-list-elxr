@@ -3,25 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "python3-matplotlib, python-matplotlib-data"
+    "python3-matplotlib, python-matplotlib-data, python-matplotlib-doc"
   ],
   "Build-Depends": [
-    "cm-super-minimal \u003c!nocheck\u003e, debhelper (\u003e= 7), dh-python, dvipng, ffmpeg \u003c!nocheck\u003e, fonts-noto-cjk \u003c!nocheck\u003e, fonts-wqy-zenhei \u003c!nocheck\u003e, ghostscript, graphviz, imagemagick \u003c!nocheck\u003e, libfreetype6-dev, libpng-dev, libqhull-dev, locales-all, python3-all-dev, python3-cairo \u003c!nocheck\u003e, python3-cairocffi [!ia64], python3-certifi (\u003e= 2020.6.20-1), python3-colorspacious, python3-contourpy \u003c!nocheck\u003e, python3-cxx-dev, python3-cycler (\u003e= 0.10.0), python3-dateutil, python3-fonttools \u003c!nocheck\u003e, python3-gi, python3-ipywidgets, python3-kiwisolver, python3-mock, python3-numpy (\u003e= 1.20.0), python3-numpydoc, python3-pandas [!hppa !m68k !powerpcspe !sparc64 !sh4 !x32], python3-pikepdf \u003c!nocheck\u003e, python3-pil, python3-pil.imagetk \u003c!nocheck\u003e, python3-pkg-resources, python3-pyparsing (\u003e= 1.5.6), python3-pyqt5 [!hurd-i386], python3-pytest, python3-setuptools, python3-setuptools-scm, python3-setuptools-scm-git-archive, python3-six (\u003e= 1.4), python3-tk, python3-tornado, python3-wxgtk4.0 \u003c!nocheck\u003e, python3-xarray \u003c!nocheck\u003e, tcl8.6-dev, texlive-base \u003c!nocheck\u003e, texlive-fonts-recommended, texlive-latex-extra, texlive-latex-recommended, texlive-luatex \u003c!nocheck\u003e, texlive-science \u003c!nocheck\u003e, texlive-xetex \u003c!nocheck\u003e, tk8.6-dev, xauth, xvfb, zlib1g-dev"
+    "debhelper-compat (= 13), dh-sequence-python3, cm-super-minimal \u003c!nocheck\u003e, dvipng, ffmpeg \u003c!nocheck\u003e, fonts-noto-cjk \u003c!nocheck\u003e, fonts-wqy-zenhei \u003c!nocheck\u003e, ghostscript, graphviz, imagemagick \u003c!nocheck\u003e, libfreetype-dev, libpng-dev, libqhull-dev, locales-all, pkgconf, pybuild-plugin-pyproject, python3-all-dev, python3-cairo \u003c!nocheck\u003e, python3-cairocffi [!ia64], python3-certifi, python3-colorspacious, python3-contourpy \u003c!nocheck\u003e, python3-cxx-dev, python3-cycler, python3-dateutil, python3-fonttools \u003c!nocheck\u003e, python3-gi, python3-ipywidgets, python3-kiwisolver, python3-mesonpy, python3-numpy, python3-numpydoc, python3-pikepdf \u003c!nocheck\u003e, python3-pil, python3-pil.imagetk \u003c!nocheck\u003e, python3-pybind11, python3-pyparsing, python3-pyqt5 [!hurd-i386], python3-pytest \u003c!nocheck\u003e, python3-pytest-xdist \u003c!nocheck\u003e, python3-pytest-xvfb \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm, python3-tk, python3-tornado, python3-wxgtk4.0 \u003c!nocheck\u003e, tcl8.6-dev, texlive-base \u003c!nocheck\u003e, texlive-fonts-recommended, texlive-latex-extra, texlive-latex-recommended, texlive-luatex \u003c!nocheck\u003e, texlive-science \u003c!nocheck\u003e, texlive-xetex \u003c!nocheck\u003e, tk8.6-dev, zlib1g-dev"
+  ],
+  "Build-Depends-Indep": [
+    "cm-super-minimal \u003c!nodoc\u003e, ffmpeg \u003c!nodoc\u003e, fonts-comic-neue \u003c!nodoc\u003e, fonts-humor-sans \u003c!nodoc\u003e, fonts-staypuft \u003c!nodoc\u003e, optipng \u003c!nodoc\u003e, python3-fonttools \u003c!nodoc\u003e, python3-ipykernel \u003c!nodoc\u003e, python3-ipython \u003c!nodoc\u003e, python3-mpl-sphinx-theme \u003c!nodoc\u003e, python3-pydata-sphinx-theme (\u003e= 0.7.1) \u003c!nodoc\u003e, python3-scipy \u003c!nodoc\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-copybutton \u003c!nodoc\u003e, python3-sphinx-design \u003c!nodoc\u003e, python3-sphinx-gallery (\u003e= 0.10.0) \u003c!stage1\u003e \u003c!nodoc\u003e, python3-sphinxcontrib.svg2pdfconverter \u003c!nodoc\u003e, python3-yaml \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "c7510f04edd835cf413fa559b926a1a61287250e 33304 matplotlib_3.6.3-1.debian.tar.xz 40ec215cb47c4c06e7ce307b1326c98bc75e09f4 3374 matplotlib_3.6.3-1.dsc 7290c58e0ba30d125d315758e613d850975fc506 28779356 matplotlib_3.6.3.orig.tar.xz"
+    "050eaff064b63ffb5cbcdddcd62818afcc45b79f 41552 matplotlib_3.10.1+dfsg1-4.debian.tar.xz ce6623a38b39f40ada85fe0bbff773d7dd6f129c 3468 matplotlib_3.10.1+dfsg1-4.dsc e41ee80c1d27f34f988c5193359fb02a35ad28d9 29415536 matplotlib_3.10.1+dfsg1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "823ee6e37a14a7264cd6948b98f63b99c8dd29fb7b76e9c4834cbf3e4c6f4f9d 33304 matplotlib_3.6.3-1.debian.tar.xz 2c05992f2510955df4a9c277c3fb348eb6dc974f00b1465cb649577c2ae503c3 3374 matplotlib_3.6.3-1.dsc 4d2ea974d72109a1742fbc40969cff6e85ac24177eb8e729d2aeb148a965c588 28779356 matplotlib_3.6.3.orig.tar.xz"
+    "12b30b281c052eef847cc7bbf9817c9afd87f941e37058fdfa3b9e4e8e611cb5 41552 matplotlib_3.10.1+dfsg1-4.debian.tar.xz cf82b5153795fb81a2d46a7471470506afe2739c4103d4b81c1b28976c5001a2 3468 matplotlib_3.10.1+dfsg1-4.dsc b88d5e465e7fad0727d09bb0aa957a866aff6b33a64c1413b6a44ea41b3c3d98 29415536 matplotlib_3.10.1+dfsg1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "a392607c9e3946058db1a9e9320f58042ed5f4aae1dd425cc070e420684e19524cc2a5547773e99e126a048a2bf7f705842ba9031db1ad87abf1dec79c145556 33304 matplotlib_3.6.3-1.debian.tar.xz 1bcc6d1e3a90ee7a04ed0bd5e9a2363e9e4b612abe57b0be62ebce6da08fe3cf3892488a01bb6d41c9bfb593cc0297d15244fbf7873473a54c7fafaf9add4b17 3374 matplotlib_3.6.3-1.dsc fbaf6c64508060940dd397b7c365adff014842f7070083020165c88bfb21e8fdf95c2e29fcbc3b221091fab5c780467daa4986042ac8a1228646ac14bd005b36 28779356 matplotlib_3.6.3.orig.tar.xz"
+    "55bb020686a8cde24250c1bfaa93fd347e10917e0abfb54aa2e503d2f2f847e2b85f7854f50b99b4a7075c11249783e1f4450a3f7e87247fcfa21d89ad5a7907 41552 matplotlib_3.10.1+dfsg1-4.debian.tar.xz efac6f65bdde1d0a5daa55721c62dea8b31e25e6ad515a5e4c0addc7e762cf8571aea667a7812c3b1a89aee5a057ee65207850bb2ea7e933e03186947436cb4d 3468 matplotlib_3.10.1+dfsg1-4.dsc 581f49411757063209220826bfdf4088f517c1f712bbdd4d26fd216dbb9b66592c78880434fe0ed6f7033097076e44acb30ea19015c5ea1e46ce5d282335bf7f 29415536 matplotlib_3.10.1+dfsg1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/m/matplotlib"
   ],
   "Files": [
-    "ded8e2b5f49717078362892e2c5c134f 33304 matplotlib_3.6.3-1.debian.tar.xz fb098168ee1ffdf90a0b2558421eec42 3374 matplotlib_3.6.3-1.dsc 151a8610e4cd82dd184da7e3e360a73f 28779356 matplotlib_3.6.3.orig.tar.xz"
+    "b1d69728d8ee0ad20b2f9209202a5f41 41552 matplotlib_3.10.1+dfsg1-4.debian.tar.xz 7463a07606ae49cbf268926ecc3a85e0 3468 matplotlib_3.10.1+dfsg1-4.dsc 4aa94ea9c58dfa310e38abffd9eff16c 29415536 matplotlib_3.10.1+dfsg1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,25 +33,25 @@
     "http://matplotlib.org/"
   ],
   "Maintainer": [
-    "Sandro Tosi \u003cmorph@debian.org\u003e"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
   ],
   "Package": [
     "matplotlib"
   ],
   "Package-List": [
-    "python-matplotlib-data deb python optional arch=all python3-matplotlib deb python optional arch=any"
+    "python-matplotlib-data deb python optional arch=all python-matplotlib-doc deb doc optional arch=all profile=!nodoc python3-matplotlib deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "python3-numpy, python3-pil.imagetk, python3-pyqt5, python3-tk, xauth, xvfb"
+    "python3-all, python3-numpy, python3-pil.imagetk, python3-pyqt5, python3-tk, xauth, xvfb"
   ],
   "Uploaders": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
+    "Alexandre Detiste \u003ctchet@debian.org\u003e, Nilesh Patra \u003cnilesh@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/matplotlib"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/matplotlib.git"
   ],
   "Version": [
-    "3.6.3-1"
+    "3.10.1+dfsg1-4"
   ]
 }

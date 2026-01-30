@@ -6,22 +6,22 @@
     "librust-cfg-expr-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-smallvec-1+default-dev (\u003e= 1.8-~~) \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.70.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-smallvec-1+default-dev (\u003e= 1.8-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "fd866fd6f56622edc85f83e7b4bc05cf1d758693 2756 rust-cfg-expr_0.10.3-1.debian.tar.xz 9569d2ac2b10833a7170dd8d2e52ff6e86d342e3 2274 rust-cfg-expr_0.10.3-1.dsc 2e2eb4a6b989b9e8f5f7966153093f7631f9a29b 39502 rust-cfg-expr_0.10.3.orig.tar.gz"
+    "1d0708a306648c4b806c5403b922319eb9538933 2892 rust-cfg-expr_0.15.8-1.debian.tar.xz 0ed48a8ebc64e04e6e5c25f0dcde8b9512dcad18 1681 rust-cfg-expr_0.15.8-1.dsc a1d36dcfa23e5b71493a390b916eb6b3aedd208b 42108 rust-cfg-expr_0.15.8.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "11397621ea614c954921418d22bf04add1ee5a5fdc1b165fd8159c3c57217044 2756 rust-cfg-expr_0.10.3-1.debian.tar.xz 21eb93592283c44d5f6152b757c906b9f037fdd7775548f5b2fb2ca9e264e1ab 2274 rust-cfg-expr_0.10.3-1.dsc 0aacacf4d96c24b2ad6eb8ee6df040e4f27b0d0b39a5710c30091baa830485db 39502 rust-cfg-expr_0.10.3.orig.tar.gz"
+    "e895b7783b80e93d407bd318ad006a015f0068a22bbca71af97ed24e64fe3657 2892 rust-cfg-expr_0.15.8-1.debian.tar.xz ed333b185ced475de9f26a613d2f7dbee7df5a0552ae54798cfdf9147e20074b 1681 rust-cfg-expr_0.15.8-1.dsc d067ad48b8650848b989a59a86c6c36a995d02d2bf778d45c3c5d57bc2718f02 42108 rust-cfg-expr_0.15.8.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "281f5131508377e578afe12bceb88d0a8adf3fd7266617a4bf098d9431d71498e698e40a74031f885bdfb31c563956c303ea8f86dc9594c1e72303b7b473e0d9 2756 rust-cfg-expr_0.10.3-1.debian.tar.xz 98e98d76d63e6d3adef5ed3c82e0bf3c503d3a0369cf920a981d28c6265fad15018e4fc0992b9fd1f1b6e81381d4d002be0396442bd6a03641e450387074c23d 2274 rust-cfg-expr_0.10.3-1.dsc 9397c13b4f5bed2e287a4d18b0d8775ea328f97465059911746f0d47976fef3648b6729ebf4e07edad4a0b3592bdb41f437c942fb340563d747abc4e8895c9a5 39502 rust-cfg-expr_0.10.3.orig.tar.gz"
+    "e2a4befbcfbe939d35004cd8e2fd85317cb3bb8b1a9c796fa40d82fab4e49a92276830ec3b970327e236dbd30b03506e61594a8fc3c78138e151d91c4fe45f85 2892 rust-cfg-expr_0.15.8-1.debian.tar.xz 281edab7f8bcb46090661b8825ede80eec17988ed3453788d0da720b011256967fb7c71d2a12fb5ae3a1e9304333ac105ca7ad0cb8ee994309914edabf7b2696 1681 rust-cfg-expr_0.15.8-1.dsc 1077d113dfe080e0e78e25c40f32c9f14988d2dbb76bb783ed3e8ce13c58e5dc0dd549362d2f197b69cfbffcfa3ebed385a0247f5928dcff8be7d0b055be1041 42108 rust-cfg-expr_0.15.8.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-cfg-expr"
   ],
   "Files": [
-    "7f842b29ac4ac108feed408d62d9e413 2756 rust-cfg-expr_0.10.3-1.debian.tar.xz bae4e139feb3b180d83a5f50996852d1 2274 rust-cfg-expr_0.10.3-1.dsc a7022f1ae23322a79bdac1b6b2c5e936 39502 rust-cfg-expr_0.10.3.orig.tar.gz"
+    "c44e0614bca2032ce885916bd8ade885 2892 rust-cfg-expr_0.15.8-1.debian.tar.xz a3363490fa3a7aede5d569835f6ee687 1681 rust-cfg-expr_0.15.8-1.dsc 0c1d8b083273d04346638fa4ce8ce85f 42108 rust-cfg-expr_0.15.8.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "librust-cfg-expr-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/cfg-expr]"
   ],
   "Version": [
-    "0.10.3-1"
+    "0.15.8-1"
   ]
 }

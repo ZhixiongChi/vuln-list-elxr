@@ -6,22 +6,22 @@
     "libgav1-1, libgav1-dev, libgav1-bin"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake (\u003e= 3.7.1), libabsl-dev, pkg-kde-tools"
+    "architecture-is-little-endian, debhelper-compat (= 13), cmake, libabsl-dev, pkg-kde-tools, googletest \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "09850985760804cc3e58de8bee5836593c9dfe8f 5700 libgav1_0.18.0-1.debian.tar.xz 4e8eaff2a3d95aa6bce274a0751a0d81e6fb8f11 2087 libgav1_0.18.0-1.dsc 6605cc6f95320d1388dafe843da3eb0ffdf6d363 754868 libgav1_0.18.0.orig.tar.xz"
+    "bda41a60a449f1cca07a8cd34fb78368aae72aca 6836 libgav1_0.19.0-3.debian.tar.xz 5e15ae93dadbe0f35d89091f6a899f6f0ec8b0bf 1525 libgav1_0.19.0-3.dsc bbe7175b4e660331f2f4f7061b023c5430f98bdd 757740 libgav1_0.19.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "f9d299162ed54975d70436f9fc7c9f799a74bfb18f4d953b9b8d1fc36090ec53 5700 libgav1_0.18.0-1.debian.tar.xz 41ac68b014bc1b1f0c796d560c94897f3432a86dee0e75efb0e4b265d18d7236 2087 libgav1_0.18.0-1.dsc 88fc14696b0f96d768c370961f4cdbf08c4dfd9d825e5522653609f5de077ade 754868 libgav1_0.18.0.orig.tar.xz"
+    "27f15322b52e322f4cde0c60794353b3b6e4f293aa588f7a80a4f76b795da256 6836 libgav1_0.19.0-3.debian.tar.xz 954b0cdb5af186dba8ae920596df053a94133d6f9ad2953cc853a9ea910bcc94 1525 libgav1_0.19.0-3.dsc d73f413b9e71ad354c6f3893ae492f5d589072fb70648bc0e18f2c52a10cf2f8 757740 libgav1_0.19.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "9975ba2b31a0b314a9415af24fbc2c9da834f76b741e7cb63cb25d8b705d784a5922fc21f5e844016fc906d6caca7fd33cf33428cea9c1613899b787744f727e 5700 libgav1_0.18.0-1.debian.tar.xz f5aead8da2c67dd50aedeea3e6242e0c8fd718678ecc54993abebca467975627c05fa529ba9bd690a130699da11b4ced0ac63f37782ae8bf040fa8534cc51d61 2087 libgav1_0.18.0-1.dsc 096484a156be519306b3768833d200fc3e7c8907dc4971255502eab9aaeea8147f9435ce9658fd3d208c932da04ab9a3db57d3afc6e4b19784b226b1da2f4ff0 754868 libgav1_0.18.0.orig.tar.xz"
+    "86cb4c9b18ab76da74ed846a0152ff260013231df4513dd323af106eddd9d575afcf48cdf56fedb3ae60027145c91f0f5c72d616c085a0aaad6f091cb1fe4d9f 6836 libgav1_0.19.0-3.debian.tar.xz 4e5c253d5cfcf0e25211717c56aa6197020ecc500045b68222fea3906700647d7552529124422061460383140cebb66034bd2019f0f66bad1529a314f92b4155 1525 libgav1_0.19.0-3.dsc 15a5c6c20d91114a032d34ecbd32f13ae31075c6b7a85a39c396204ee15e775dbefe7abb7d9d81536bd03507b4c6893bdeeef5a3ee7c9310632d9fb18b25b16a 757740 libgav1_0.19.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libg/libgav1"
   ],
   "Files": [
-    "52099b64d5c740f2b6fa795176571fd7 5700 libgav1_0.18.0-1.debian.tar.xz 639db8298e28e151577a777b9881ad4f 2087 libgav1_0.18.0-1.dsc 4731601c33152b1c17b9d851c5180183 754868 libgav1_0.18.0.orig.tar.xz"
+    "f3195d0bc5886d59e06c18abef665736 6836 libgav1_0.19.0-3.debian.tar.xz 38db8b7fc3d2e81edf64f56f0224a31b 1525 libgav1_0.19.0-3.dsc 7cb4e79e69bb349cae63f1fefa1c536b 757740 libgav1_0.19.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libgav1-1 deb libs optional arch=any libgav1-bin deb utils optional arch=any libgav1-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Uploaders": [
     "qinxialei \u003cxialeiqin@gmail.com\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/multimedia-team/libgav1.git"
   ],
   "Version": [
-    "0.18.0-1"
+    "0.19.0-3"
   ]
 }

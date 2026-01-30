@@ -1,30 +1,30 @@
 {
   "Architecture": [
-    "linux-any all"
+    "any all"
   ],
   "Binary": [
-    "libpipewire-0.3-0, libpipewire-0.3-common, libpipewire-0.3-dev, libpipewire-0.3-modules, libpipewire-0.3-modules-x11, libspa-0.2-dev, libspa-0.2-modules, pipewire-doc, pipewire, pipewire-bin, pipewire-pulse, pipewire-alsa, pipewire-jack, pipewire-v4l2, pipewire-libcamera, pipewire-tests, gstreamer1.0-pipewire, libspa-0.2-bluetooth, libspa-0.2-jack, pipewire-audio-client-libraries, pipewire-audio"
+    "libpipewire-0.3-0t64, libpipewire-0.3-common, libpipewire-0.3-dev, libpipewire-0.3-modules, libpipewire-0.3-modules-x11, libspa-0.2-dev, libspa-0.2-modules, pipewire-doc, pipewire, pipewire-bin, pipewire-pulse, pipewire-alsa, pipewire-jack, pipewire-v4l2, pipewire-tests, gstreamer1.0-pipewire, libspa-0.2-bluetooth, libspa-0.2-jack, libspa-0.2-libcamera, pipewire-audio-client-libraries, pipewire-audio, pipewire-libcamera"
   ],
   "Build-Conflicts": [
     "libfdk-aac-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, libasound2-dev, libavahi-client-dev, libbluetooth-dev, libcamera-dev (\u003e= 0.0.1) [!m68k], libdbus-1-dev, libfreeaptx-dev, libglib2.0-dev, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjack-jackd2-dev, libcanberra-dev, liblc3-dev, libldacbt-abr-dev [!s390x !hppa !m68k !powerpc !ppc64 !sparc64], libldacbt-enc-dev [!s390x !hppa !m68k !powerpc !ppc64 !sparc64], liblilv-dev, libncurses-dev, libopus-dev, libpulse-dev, libreadline-dev, libsbc-dev, libsdl2-dev, libsndfile1-dev, libssl-dev, libsystemd-dev [linux-any], libudev-dev [linux-any], libusb-1.0-0-dev, libv4l-dev, libwebrtc-audio-processing-dev, libxfixes-dev (\u003e= 1:6.0.0), meson (\u003e= 0.59.0), modemmanager-dev, pkg-config, python3-docutils, systemd [linux-any]"
+    "debhelper-compat (= 13), doxygen \u003c!nodoc\u003e, dpkg-dev (\u003e= 1.22.5), graphviz \u003c!nodoc\u003e, libapparmor-dev [linux-any], libasound2-dev (\u003e= 1.2.6), libavahi-client-dev, libbluetooth-dev [linux-any], libcamera-dev (\u003e= 0.2.0) [!m68k !hurd-any], libcanberra-dev, libdbus-1-dev, libebur128-dev, libffado-dev, libfftw3-dev, libfreeaptx-dev, libglib2.0-dev, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libjack-jackd2-dev, liblc3-dev, libldacbt-abr-dev [!s390x !hppa !m68k !powerpc !ppc64 !sparc64], libldacbt-enc-dev [!s390x !hppa !m68k !powerpc !ppc64 !sparc64], liblilv-dev, libmysofa-dev, libncurses-dev, libopus-dev, libpulse-dev, libreadline-dev, libroc-dev (\u003e= 0.4.0), libsbc-dev, libsdl2-dev \u003c!noinsttest\u003e, libsnapd-glib-dev [amd64 arm64 armhf i386 powerpc ppc64el riscv64 s390x], libsndfile1-dev, libssl-dev, libsystemd-dev [linux-any], libudev-dev [linux-any], libusb-1.0-0-dev, libv4l-dev, libwebrtc-audio-processing-dev, libxfixes-dev (\u003e= 1:6.0.0), meson (\u003e= 0.61.1), modemmanager-dev, pkgconf, python3-docutils, systemd-dev"
   ],
   "Checksums-Sha1": [
-    "13d1a1a1525f5bba20a368dd4fbcf8e4ca5d3177 25260 pipewire_0.3.65-3+deb12u1.debian.tar.xz 8fdda9f6dc3c33b88043ca0c3356657446553bcd 4463 pipewire_0.3.65-3+deb12u1.dsc 85ca1c50fcd6f295ebf1fd7b864af99fb5afa571 1522095 pipewire_0.3.65.orig.tar.bz2"
+    "434045b616ed8a5a4c1b24579f9069e75e412d02 29320 pipewire_1.4.2-1.debian.tar.xz 2f2bcf27abb08c50428c23d6a00e6b24cd087ae6 4665 pipewire_1.4.2-1.dsc b6a19c4079ed2d164c2dcd7c4f924d76b193ca1b 1917345 pipewire_1.4.2.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "55de18aa580ddc0f93bbc32f7376c2a18e28a4b565c2b917b2c3dd7cea6ab2f5 25260 pipewire_0.3.65-3+deb12u1.debian.tar.xz 5f27f97bc4e80ee9fb4238f003661662c19d13cb976ee70c3c1f2c3cd63a9a9f 4463 pipewire_0.3.65-3+deb12u1.dsc c78c95cdff2774418f0a9468e94a1b2800761d322f13104df6501e1a0dc92558 1522095 pipewire_0.3.65.orig.tar.bz2"
+    "2c9fd6e1c5507a5fd063ea97ae5b2d4a28910a4c8a5a6d97923cc5ab5204fd81 29320 pipewire_1.4.2-1.debian.tar.xz 602242d6287b6813c9c3f04307b438ad12cc257e5d7703afe22ace8b41b3645f 4665 pipewire_1.4.2-1.dsc aa9098001e1bc2f7742140727e19bcd57812b686840923afda2be6c227b88bf0 1917345 pipewire_1.4.2.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "f0365148359ea8928f270c8d8c321b94807cfbbee702af74cf69119650f6e32e3319a6ada48dc2d33930a6d6f189b8fa4aa301c9fb3b7f08e53375c3cd578cdf 25260 pipewire_0.3.65-3+deb12u1.debian.tar.xz 06f63f6ba60fd677f1a476352dc6dd0ee66c102595527a14df7c98da6ce3ef7e54764bb7f68bcc3e2ec551c81ddf67c00d04dde101ea4f2c868101a293ec991b 4463 pipewire_0.3.65-3+deb12u1.dsc 0c2402044a04ab6ba724b0808279498e2126dd567920f3241d7d3d5e13ea676e353fc85a73634cf4cae5429454250dfce5cd18ba4a5444a7ed1a5ca2e0ae1eef 1522095 pipewire_0.3.65.orig.tar.bz2"
+    "4c678414a7c8053a44ccd47e24fcde8c56d6f87452e674429f4a1397f0bdd1de24f082d8854176e69cb77ede0e297376b62c37fdf38937285a49b63aae0dd52f 29320 pipewire_1.4.2-1.debian.tar.xz 4b8888dad8379aa631986947defb10214bc0561f5f06e44d431250c6fe0a506b0d4adcf468638c57e1571f4eb25d21e21f3786c6b4eadf0aefee3716248a2ef9 4665 pipewire_1.4.2-1.dsc 3c4341560240fd4be957c5ad6ef87d46ffe74846ea1a9c75db4470dfc62a02ce8db26d71c63117e4b33ac074ea5165b3bdf29fc31028aee2317ef09b2eca4acc 1917345 pipewire_1.4.2.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/p/pipewire"
   ],
   "Files": [
-    "55dc1295c14a97ef15cc40724d8188f6 25260 pipewire_0.3.65-3+deb12u1.debian.tar.xz eff22bd5eaff77f8f0e7d36f3b3df6a0 4463 pipewire_0.3.65-3+deb12u1.dsc 5c31850705cacd12398da01b9b11cfd0 1522095 pipewire_0.3.65.orig.tar.bz2"
+    "65291819046bc5923d15b6b6129f2a01 29320 pipewire_1.4.2-1.debian.tar.xz 4de60cd35cedb42031f535fffa61e69f 4665 pipewire_1.4.2-1.dsc f383b1219b1b5e03a7ce8a2c80e1c466 1917345 pipewire_1.4.2.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "pipewire"
   ],
   "Package-List": [
-    "gstreamer1.0-pipewire deb libs optional arch=linux-any libpipewire-0.3-0 deb libs optional arch=linux-any libpipewire-0.3-common deb libs optional arch=all libpipewire-0.3-dev deb libdevel optional arch=linux-any libpipewire-0.3-modules deb libs optional arch=linux-any libpipewire-0.3-modules-x11 deb libs optional arch=linux-any libspa-0.2-bluetooth deb libs optional arch=linux-any libspa-0.2-dev deb libdevel optional arch=linux-any libspa-0.2-jack deb libs optional arch=linux-any libspa-0.2-modules deb libs optional arch=linux-any pipewire deb video optional arch=linux-any pipewire-alsa deb sound optional arch=linux-any pipewire-audio deb sound optional arch=all pipewire-audio-client-libraries deb oldlibs optional arch=all pipewire-bin deb video optional arch=linux-any pipewire-doc deb doc optional arch=all profile=!nodoc pipewire-jack deb sound optional arch=linux-any pipewire-libcamera deb video optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,ppc64el,s390x,alpha,hppa,ia64,powerpc,ppc64,riscv64,sh4,sparc64,x32 pipewire-pulse deb sound optional arch=linux-any pipewire-tests deb misc optional arch=linux-any pipewire-v4l2 deb video optional arch=linux-any"
+    "gstreamer1.0-pipewire deb libs optional arch=any libpipewire-0.3-0t64 deb libs optional arch=any libpipewire-0.3-common deb libs optional arch=all libpipewire-0.3-dev deb libdevel optional arch=any libpipewire-0.3-modules deb libs optional arch=any libpipewire-0.3-modules-x11 deb libs optional arch=any libspa-0.2-bluetooth deb libs optional arch=any libspa-0.2-dev deb libdevel optional arch=any libspa-0.2-jack deb libs optional arch=any libspa-0.2-libcamera deb video optional arch=alpha,amd64,arm64,armel,armhf,hppa,i386,ia64,mips64el,mipsel,powerpc,ppc64,ppc64el,riscv64,s390x,sh4,sparc64,x32 libspa-0.2-modules deb libs optional arch=any pipewire deb video optional arch=any pipewire-alsa deb sound optional arch=any pipewire-audio deb sound optional arch=all pipewire-audio-client-libraries deb oldlibs optional arch=all pipewire-bin deb video optional arch=any pipewire-doc deb doc optional arch=all profile=!nodoc pipewire-jack deb sound optional arch=any pipewire-libcamera deb oldlibs optional arch=all pipewire-pulse deb sound optional arch=any pipewire-tests deb misc optional arch=any profile=!noinsttest pipewire-v4l2 deb video optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/utopia-team/pipewire.git"
   ],
   "Version": [
-    "0.3.65-3+deb12u1"
+    "1.4.2-1"
   ]
 }

@@ -6,22 +6,22 @@
     "dbus-broker"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libapparmor-dev (\u003e= 3.0), libaudit-dev (\u003e= 2.7), libcap-ng-dev (\u003e= 0.6), libdbus-1-dev (\u003e= 1.10), libexpat1-dev (\u003e= 2.2), libselinux1-dev (\u003e= 2.5), libsystemd-dev (\u003e= 230), linux-libc-dev (\u003e= 4.14), meson (\u003e= 0.44), pkg-config (\u003e= 0.29), python3-docutils (\u003e= 0.13) \u003c!nodoc\u003e, systemd (\u003e= 230)"
+    "debhelper-compat (= 13), dh-package-notes, libapparmor-dev (\u003e= 3.0), libaudit-dev, libcap-ng-dev, libdbus-1-dev, libexpat1-dev, libselinux1-dev (\u003e= 3.2), libsystemd-dev, meson (\u003e= 0.60), pkgconf, python3-docutils \u003c!nodoc\u003e, systemd-dev"
   ],
   "Checksums-Sha1": [
-    "152d1741951cc1574ab2a2fda8e36c818f4896f9 10740 dbus-broker_33-1.debian.tar.xz 620a2995fd7059d0f3c2ebcf4e5a2fbf3b4cd9ba 2583 dbus-broker_33-1.dsc 132314cf6e9e6b4d87a47d5c734a4a6f9ca5be9a 253172 dbus-broker_33.orig.tar.xz 231469a465f634cfd6a3b8c4e81582f94fed2514 833 dbus-broker_33.orig.tar.xz.asc"
+    "8283c9b3a5c993002d763e3caf783fdb58903af7 13508 dbus-broker_37-2.debian.tar.xz 0763e33c7f854422aa2f6abeab19d4b362a35855 2501 dbus-broker_37-2.dsc 6538267b8e31c9ae7731765211af54f5c9d24b1b 270172 dbus-broker_37.orig.tar.xz f1bff5422e07fad922fd3b31c2bbb529e35a758f 833 dbus-broker_37.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "856ee2a253106b384a6d91f19d2bce4eb48a53e108825bcfe8095620ccd1e2a5 10740 dbus-broker_33-1.debian.tar.xz 9c209ea6414313f9095248ba2eca3eb2a7be7809a33ce46b073f4bcd7267044c 2583 dbus-broker_33-1.dsc 23713f25624749fdb274907e429080fa2d8f4dbe76acd87bb6d21a3c818c7841 253172 dbus-broker_33.orig.tar.xz 3bce4084d7b683c20f804a0f6d590fe063e055c0dd57fa6e7b3f7251762b74c2 833 dbus-broker_33.orig.tar.xz.asc"
+    "885d36ca77c6cfcdf8d5677ab92501d6a6c1efaa0108bf688d0537a71222841d 13508 dbus-broker_37-2.debian.tar.xz f6bc856bc9300cff9ec73896cf2802aa1fb41ecd45726194eb08a1de7b6e3c77 2501 dbus-broker_37-2.dsc f819a8db8795fa08c767612e3823fd594694a0990f2543ecf35d6a1a6bf2ab5b 270172 dbus-broker_37.orig.tar.xz c6dd48f82d5f1312dfaa10207f7b98bebde38a28f6c2c32e7317f89fc8d4cd4d 833 dbus-broker_37.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "abba9e44d2ef0b41a443b7638245f5a52faebf14ef8ed7250232dae1366afcf3bdb14a546ca647429456c1c7438e2b27748c5bbf6f2b6fec3d898a15850d347c 10740 dbus-broker_33-1.debian.tar.xz 87bed52cdaa925f02b841c85802c46475019bdc2888fbbfb60e5b93185e34de54d57a05b62403d76beac962f08367e9ca8946ada3327519d29180fcb92ad021a 2583 dbus-broker_33-1.dsc 776684a5d19a6c25fc46dff19821014a32d967f8132385b86c5281f2d69192dce64b3ad92ae6a158d1d64753e89d918385a1a31f32811f54060504113f065baa 253172 dbus-broker_33.orig.tar.xz c444d55c0aa64a42c3c50386b708978410653418f01d3a410ffeeb3b4c301f979f1c8531f114b3187b8839edca4d9e44f582f88ba4141bbb19c0a40efc8e144c 833 dbus-broker_33.orig.tar.xz.asc"
+    "2cde1d6109fff9f089723293b1a0813682141b7e9b62e0d5c271703016bf67f2fa68221805a0ff8cc91a96c40d4deb74df2796e7bcf3aca3deed50b9516715c4 13508 dbus-broker_37-2.debian.tar.xz 42212a29fbeb803a927c7655be650fec4b8bafe9607b506ec885a8f6d0570b12616dcf781517f3e0b721521d81e05506450dda4d25c70e0bed55d85fab9afe0b 2501 dbus-broker_37-2.dsc 9f7c8aa4fabd1fc2da7b521a742874dd0e54f12c24fd5b9a3cbc91e8de05b9d08299cb0b353b923a6b8e33be194222e0242b6ba7cad795a350e7d056b7303e13 270172 dbus-broker_37.orig.tar.xz 7201751d2ebfe418cd5f5301e27c3d679526faa3b950bbcde385ef68dd29ec902ed29dc558d330a6270bbafe5df3efe72dfa47370eb5ce5f26cf41bfec5b399f 833 dbus-broker_37.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/d/dbus-broker"
   ],
   "Files": [
-    "f5a0897dee1d2d012a1a27940c0e0338 10740 dbus-broker_33-1.debian.tar.xz 71ff6b5118db08e54c7ea5e12273fb20 2583 dbus-broker_33-1.dsc 36ba4aa9dc113ca0e65ab1608bd2f780 253172 dbus-broker_33.orig.tar.xz c58ea2a9b8c43838c68ba4117df7cb05 833 dbus-broker_33.orig.tar.xz.asc"
+    "f7749ab2a5f9776eedc4e591d4bfa2b5 13508 dbus-broker_37-2.debian.tar.xz e9d4a9e6779957b9e6ebe7e573ba4f46 2501 dbus-broker_37-2.dsc 500d5ded9d33d1ca2ca7cd6b2b0e3f12 270172 dbus-broker_37.orig.tar.xz aa6d944c9f6fb94d2f15a4eaaf04c667 833 dbus-broker_37.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "dbus-broker deb admin optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/utopia-team/dbus-broker.git"
   ],
   "Version": [
-    "33-1"
+    "37-2"
   ]
 }

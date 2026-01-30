@@ -6,28 +6,25 @@
     "libjgraphx-java, libjgraphx-java-doc"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 7), cdbs, ant, default-jdk, quilt, fop"
+    "ant, cdbs, debhelper (\u003e= 10~), default-jdk, fop, quilt"
   ],
   "Checksums-Sha1": [
-    "7e6353919960aa0c62ac9b211a2ff8d3049d512c 4160 libjgraphx-java_2.1.0.7-3.debian.tar.xz e5649b96d7b83de4e47654f9841971bb5ab8051d 2040 libjgraphx-java_2.1.0.7-3.dsc 278a1946c9bf6211cbfcda7fe78797d0f25fe913 2635630 libjgraphx-java_2.1.0.7.orig.tar.gz"
+    "73934a42300fcf95b1e1f4b2bb7a48c320681643 4524 libjgraphx-java_2.1.0.7-5.debian.tar.xz 2b7ac1d538f7045ae06cee97e1886b2c34115d34 1982 libjgraphx-java_2.1.0.7-5.dsc 278a1946c9bf6211cbfcda7fe78797d0f25fe913 2635630 libjgraphx-java_2.1.0.7.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "bd7ea39c7e2803a1665033f24737f76aeb1e6ba4cd281b144e5347284fa869c1 4160 libjgraphx-java_2.1.0.7-3.debian.tar.xz a2f7bf15c03e23042dba5e2054cafebfa7b62d689cb324bedf11b558ff9138c2 2040 libjgraphx-java_2.1.0.7-3.dsc ecda9422f77314f796f41c73a758d0b5168b28cca5f45950969143d4e0900a36 2635630 libjgraphx-java_2.1.0.7.orig.tar.gz"
+    "8aacdd468ba600cf0f486e06db8870bc4f6d349c34dd2e22f274c15d8c06aab6 4524 libjgraphx-java_2.1.0.7-5.debian.tar.xz 6916c64afaafe03c1e4789960f55bd27500495a1998f699545d27fe1c0f4d800 1982 libjgraphx-java_2.1.0.7-5.dsc ecda9422f77314f796f41c73a758d0b5168b28cca5f45950969143d4e0900a36 2635630 libjgraphx-java_2.1.0.7.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "0e7b2584a8dc0174e921a402d53c6941558cf03768410bcb0aa4ffa5b711242a3403d81212655e51cf10ec0a0c7e5a2f4aed9bed161b767604851901aa76e7b7 4160 libjgraphx-java_2.1.0.7-3.debian.tar.xz 41bf2471825a7965b2a54982a8d4120249c003ee814e9aecea61f33933e628ee50dfba4beb9df3df9ef447ca9cef63e0aa7d967045b2fbed21538c9f013d5142 2040 libjgraphx-java_2.1.0.7-3.dsc 03e34e056b3f8dd640ace921fcce3e98a9b9f155441f05719c55676528475190c4c7500b1809a5be661d1925905e22e46b62efbb5bd42d19094f5f40086f6d3c 2635630 libjgraphx-java_2.1.0.7.orig.tar.gz"
+    "22168f61bbcd592cc19df419bcc5377cefec26600ac7d6416192c7ce8ef6d48b5e8fa8b9641ccf1895e31c9b84de8e593df343f1a4b1a1d1226b4dd893d7e447 4524 libjgraphx-java_2.1.0.7-5.debian.tar.xz 0dc93a30c1880bba352bf4de56bf14359875eda61902c7e6cf3017811c2240bda5f589c9c018158555512f228043de8e4b558523f252486bdcffb36d942da8f1 1982 libjgraphx-java_2.1.0.7-5.dsc 03e34e056b3f8dd640ace921fcce3e98a9b9f155441f05719c55676528475190c4c7500b1809a5be661d1925905e22e46b62efbb5bd42d19094f5f40086f6d3c 2635630 libjgraphx-java_2.1.0.7.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libj/libjgraphx-java"
   ],
   "Files": [
-    "2ae73af9414f54d7f084f4d10935a556 4160 libjgraphx-java_2.1.0.7-3.debian.tar.xz 6cc1fd6b74dda87380d959e3105c191c 2040 libjgraphx-java_2.1.0.7-3.dsc 0d03b5b7e92e5cfc027b58f4110d4d55 2635630 libjgraphx-java_2.1.0.7.orig.tar.gz"
+    "632b54736cef061ee4273569ca09db18 4524 libjgraphx-java_2.1.0.7-5.debian.tar.xz 4a01899b111c36832f5a2f9a355af427 1982 libjgraphx-java_2.1.0.7-5.dsc 0d03b5b7e92e5cfc027b58f4110d4d55 2635630 libjgraphx-java_2.1.0.7.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://www.jgraph.com/jgraphx.html"
   ],
   "Maintainer": [
     "Debian QA Group \u003cpackages@qa.debian.org\u003e"
@@ -39,15 +36,15 @@
     "libjgraphx-java deb java optional arch=all libjgraphx-java-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "3.9.4"
+    "4.7.0"
   ],
   "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-java/libjgraphx-java.git"
+    "https://salsa.debian.org/java-team/libjgraphx-java"
   ],
   "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-java/libjgraphx-java.git"
+    "https://salsa.debian.org/java-team/libjgraphx-java.git"
   ],
   "Version": [
-    "2.1.0.7-3"
+    "2.1.0.7-5"
   ]
 }

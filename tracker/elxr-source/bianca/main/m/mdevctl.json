@@ -6,22 +6,22 @@
     "mdevctl"
   ],
   "Build-Depends": [
-    "cargo, debhelper-compat (= 13), dh-cargo, librust-anyhow-dev (\u003e= 1.0.0), librust-env-logger+default-dev, librust-log+serde-dev, librust-serde-json+indexmap-dev, librust-clap-3+derive-dev (\u003e= 3.1.7), librust-clap-complete-3-dev (\u003e= 3.0.6), librust-tempfile-dev (\u003e= 3.1.0) \u003c!nocheck\u003e, librust-uuid-1+v4-dev, pkg-config, python3-docutils, systemd, udev"
+    "cargo, debhelper-compat (= 13), dh-cargo, librust-anyhow-dev (\u003e= 1.0.0), librust-env-logger-0.11+default-dev, librust-log+serde-dev, librust-serde-json+indexmap-dev, librust-clap+derive-dev (\u003e= 4.0), librust-clap-complete-dev (\u003e= 4.0), librust-nix-dev \u003c!nocheck\u003e, librust-tempfile-dev (\u003e= 3.1.0) \u003c!nocheck\u003e, librust-uuid-1+v4-dev, pkgconf, python3-docutils, systemd-dev"
   ],
   "Checksums-Sha1": [
-    "20dfd44ae6b98f2e7740008a073ec7b69c8bd1fe 6492 mdevctl_1.2.0-3.debian.tar.xz 84390a5c5b33ac2bc0a2e9e8a717e2ff6fe8fba9 2173 mdevctl_1.2.0-3.dsc d03145b57969a1434774e99d15c8d5f431fab2e8 45336 mdevctl_1.2.0.orig.tar.gz"
+    "0e53be8c59f631323117dd1bf851d725d2d469c7 5572 mdevctl_1.4.0-2.debian.tar.xz 4d9d6b460711d019eee637d931cbc1036ede03bb 2289 mdevctl_1.4.0-2.dsc 0f6f0dc352045c5e44d39e6743b23105d5db6fcf 60585 mdevctl_1.4.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "0bc0f784f984687ecf388fbea7f707866c3c2f61370774262b712cd9888fc4d3 6492 mdevctl_1.2.0-3.debian.tar.xz e2d0be23a423c4bcd4d0d4fa0b1d1e3f6f52bb736b123a5512893954028c076f 2173 mdevctl_1.2.0-3.dsc 42b4f734eae9a43760fb26d49abf8c47153bc217d3f859b6a67cb45f186dd487 45336 mdevctl_1.2.0.orig.tar.gz"
+    "a6496dcfcc4db493aff6c431ae84c47b560e6a7ba8e8948de0bc053625d9c899 5572 mdevctl_1.4.0-2.debian.tar.xz 1adefae2652beb977b3bf0b2e706ac570c1b0cef2c0371397bc32709c6630662 2289 mdevctl_1.4.0-2.dsc 0b3a36fc8412ec5a5cf58ad3ce514e79d58dcac71a133f313759c8c0793377a2 60585 mdevctl_1.4.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "d6f246bd3c27a18caf99e4911b334a82f4c5ea54c97e6f9bf41fd08a5ff480f1e64c3ba75628be6bf569dfca0090484b13cb9d8a466138ec1f99ffbcb1c292b7 6492 mdevctl_1.2.0-3.debian.tar.xz 75d91cb52bea89d231da3eea271d59c6c167f2a3da84db5a45ecc7b75c1fc42b435b342dd3ab3c6e6f5ecd9a292b3a1ba1fa3886280ac9fab76dd4e2df7fe6e4 2173 mdevctl_1.2.0-3.dsc 7a7c6fc376aa25d1f5d74d7ab581adf8f23c9b5faa3259701a9eefc0c9448bb01726087edf3057102ab038870258563c45ff75ce658b5ccd6b1880834b854fe2 45336 mdevctl_1.2.0.orig.tar.gz"
+    "973d77c9c92bc0201fe553beca00bb4feeb47ee9dcea1fc3c38dd726b5255078e593c7b7a8667643cccb30a93e4352679ee00cb01626d72cd3423297836d42c1 5572 mdevctl_1.4.0-2.debian.tar.xz cecd4ae31e32e8f4e4f4cb6ee82cd0b9ba5f306be9f71ad01fad59b3a480e460a690964842aab224ca1df3b3925fc873aaa2de7b33d9ad073038b39353d2da0e 2289 mdevctl_1.4.0-2.dsc 8eb79812652f94a191caede88f23e53c803219cc19b852696f1177cf0e5f39300fc48143ecbc392b2bd967a48e49473d3c330f6ca7c880b32f06512a4ae04a63 60585 mdevctl_1.4.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/m/mdevctl"
   ],
   "Files": [
-    "624e014c90e13bde6abcc25983580258 6492 mdevctl_1.2.0-3.debian.tar.xz a874c3698bd2ec6118fbf9318be83549 2173 mdevctl_1.2.0-3.dsc 6c2c46371b88caeb79ba6b231d34da8a 45336 mdevctl_1.2.0.orig.tar.gz"
+    "86d1fab766857cdc666b073a5c86c30b 5572 mdevctl_1.4.0-2.debian.tar.xz 0eaca1afdbef6397ac338b2fa8a2a352 2289 mdevctl_1.4.0-2.dsc beb668fdbfdaec93be2c67bf8e8b0b1f 60585 mdevctl_1.4.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,10 @@
     "mdevctl deb admin optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
+  ],
+  "Uploaders": [
+    "Athos Ribeiro \u003cathos.ribeiro@canonical.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/mdevctl/tree/debian/master"
@@ -48,6 +51,6 @@
     "https://salsa.debian.org/debian/mdevctl.git"
   ],
   "Version": [
-    "1.2.0-3"
+    "1.4.0-2"
   ]
 }

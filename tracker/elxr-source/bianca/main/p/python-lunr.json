@@ -9,22 +9,22 @@
     "debhelper-compat (= 13), python3-all"
   ],
   "Build-Depends-Indep": [
-    "dh-python, python3-attr, python3-myst-parser, python3-nltk, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme, sphinx-doc"
+    "dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, pybuild-plugin-pyproject, python3-hatch-fancy-pypi-readme, python3-hatchling, python3-myst-parser \u003c!nodoc\u003e, python3-nltk, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, sphinx-doc \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "a09e5d3fab2a652d073bd1f10cf5a199259a8ce7 4684 python-lunr_0.6.2-2.debian.tar.xz a194bd8118c6d4a1e252aa3d35f497917e8d6ec2 2227 python-lunr_0.6.2-2.dsc 1605232b124d471ff9f07b71674d743378854381 850954 python-lunr_0.6.2.orig.tar.gz"
+    "49c908d837b010d12bbe03086cbe6f84b4734bfa 5036 python-lunr_0.8.0-1.debian.tar.xz 7a3359b289f2d507c1e664cf64bb7b2a9191d3d7 2349 python-lunr_0.8.0-1.dsc bebd0554226020119b373b215ec59fdda60d892f 851295 python-lunr_0.8.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "1fce16a68a40fa15e7e83ae257212dbbe437fc594cc1c46fc1d9ee6d72fb4dca 4684 python-lunr_0.6.2-2.debian.tar.xz 1ae7e72ef81a86e753d61d7760ee2335033e8878b0ecea8146a453531de03cd7 2227 python-lunr_0.6.2-2.dsc f14937884a67e4743369e0f8fa7fe93226993c6fdbb26d4d30278451a6aeeac8 850954 python-lunr_0.6.2.orig.tar.gz"
+    "e3a18a0a8a52cb72287cc859a94ef1df5167737787130d14217016bf76cb9e3d 5036 python-lunr_0.8.0-1.debian.tar.xz ca69f5a8fda72c5a416f89340061045063d77d23bada20daed9d6d58c6e548f4 2349 python-lunr_0.8.0-1.dsc e5d8576245c517c0cd4b310b01d699297f70d70e3c891f7dcdd0c4a7fdb450a9 851295 python-lunr_0.8.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "5c538ff91b02d2b6712cec64f80e310f3d84ef4b3b9e27ac6fa2ca5bc5249bb0e90e4a57976aa1a177d4aaa5e3596b99a6b3dc6b42222669b8534cf1ebf2c08c 4684 python-lunr_0.6.2-2.debian.tar.xz de4ef23e45bcc16ea97d148b6c767f3681085b697f133a97b1ab2246dd38900543955ab31e1922fbb386f1bc4e1dc84032ba3690f01166b5fa8f5b92c4b4da4a 2227 python-lunr_0.6.2-2.dsc 655bc765bda5dd129129de61e40a62d7c08d1b3bfe12742c4a9c4fd1b5c4ae8f3c3f9f0a715ec15740c790ae2e9ca87671ddac1f1ac80065ac12dc51df8eb9a1 850954 python-lunr_0.6.2.orig.tar.gz"
+    "9905d33e563c4ccdc6310ba523b4d2f3c48468990f357d7ee46441691400b1bc69c0694f6c5299c8f1169c99e8ee7ec2b48186b386ca66413102f2ecd897da58 5036 python-lunr_0.8.0-1.debian.tar.xz 89d9a512d9ef803ecc6d4a2a60a8db613bd34271a0bd1c0a839a9158aba7f695d34ca0f008890d16e4eaafc3cce6cdab3d02ca04c71230365aa82d9cfe32cd8a 2349 python-lunr_0.8.0-1.dsc 1fdae06582b76ee23adfd6f48fd706cb7c00abe9b9795dff5a5f7e7a17f84c7ed395a589b54a1b6fff49a1e72842ec57f3d5144a10d0a3e02747a5a5e2fc99e5 851295 python-lunr_0.8.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-lunr"
   ],
   "Files": [
-    "e076922ff51b6ecdad1c2f2f2828f77b 4684 python-lunr_0.6.2-2.debian.tar.xz 9e99e941511bfb00941265c0cd3dcf4a 2227 python-lunr_0.6.2-2.dsc 1ec02b0a27650f96fe08d10108ada5e3 850954 python-lunr_0.6.2.orig.tar.gz"
+    "b548330891cfafafc3adafe271ddd8d3 5036 python-lunr_0.8.0-1.debian.tar.xz f10b11d405a1066945da01225fbd7d06 2349 python-lunr_0.8.0-1.dsc 5421ad4d5592dff03925e0cbfd151c17 851295 python-lunr_0.8.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "python-lunr-doc deb doc optional arch=all python3-lunr deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Uploaders": [
     "Carsten Schoenert \u003cc.schoenert@t-online.de\u003e,"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/python-lunr.git"
   ],
   "Version": [
-    "0.6.2-2"
+    "0.8.0-1"
   ]
 }

@@ -6,22 +6,22 @@
     "librust-fallible-iterator-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11), dh-cargo (\u003e= 18), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "5a24b6daca3dc4903e8e0790701c840eac515713 2636 rust-fallible-iterator_0.2.0-2.debian.tar.xz d0e057df32d66f6f60d5d7d4e0e7e6329b761ca5 2256 rust-fallible-iterator_0.2.0-2.dsc 9c730b861ece3663a1858fb4fc591c10a7b69705 18509 rust-fallible-iterator_0.2.0.orig.tar.gz"
+    "cf6ae2780f8d037be27cb6a05ca8a3fc276e121a 2792 rust-fallible-iterator_0.3.0-2.debian.tar.xz 04eeb06973803e2cdd49ad8c7e6b2cc235034498 2252 rust-fallible-iterator_0.3.0-2.dsc 187465aa5834581d880f6152ae33aa0aa1a35570 19639 rust-fallible-iterator_0.3.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "9022929db2c95a06aaf2a0968b5582604c3a798db1660c8857c3f57514e2f56f 2636 rust-fallible-iterator_0.2.0-2.debian.tar.xz aa2682188ea6add34c157cc08ef43561698ef16f7ff54b95c44adbe207cc96ef 2256 rust-fallible-iterator_0.2.0-2.dsc 4443176a9f2c162692bd3d352d745ef9413eec5782a80d8fd6f8a1ac692a07f7 18509 rust-fallible-iterator_0.2.0.orig.tar.gz"
+    "0a08bac1ea1c1de41cc150287157e6c8244bec0ecb54b9f14472b98fe28b78ce 2792 rust-fallible-iterator_0.3.0-2.debian.tar.xz b4c1028201b1a9da5701d614330f7e4da57d7bd7f59fc14eca9b85926f840988 2252 rust-fallible-iterator_0.3.0-2.dsc 2acce4a10f12dc2fb14a218589d4f1f62ef011b2d0cc4b3cb1bba8e94da14649 19639 rust-fallible-iterator_0.3.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "3f62870d1675a3f72c97e5fd791c13f566257203d2c5ea590fef605a45f9335983ec2daf10602176ca6c2a2c633588b0802c591a254576c87df99cc94566cbbf 2636 rust-fallible-iterator_0.2.0-2.debian.tar.xz 29751a560212a77162b0954c83363a5a5b5cb591f719a284b46756cd4c58dc30f92a1f234520ee581d8c0ed312a358c99cb79c853e65feab65487b6894f66daa 2256 rust-fallible-iterator_0.2.0-2.dsc c558fea3fcf3a7756acc0b63d38f76dfe7eeed4dd9c12c46b7a7e8b8bea64d00e0cc115492e8b3a1a19e86e6083477dcf7d2d72ef960b44f24d61819a3077e79 18509 rust-fallible-iterator_0.2.0.orig.tar.gz"
+    "ad5b91513a409980520734e16b814ee03ba5925e42d1e821441938dc29573d128f842b213edb0e3a33681182096492176f28b68ac902fa707946a18a3751beff 2792 rust-fallible-iterator_0.3.0-2.debian.tar.xz d97d3b0cb991622b93d96c20d5c331f6c02ba3deaf9d005819e123d166946edcf0712df8ae13453228261afc05cdb4158e984ad4b8b9549350c625f4b368fbc7 2252 rust-fallible-iterator_0.3.0-2.dsc c655918fcda5deb8ce792708509e4959139f113c1006dd41b94d7073ffc204512a22cdeeee05c87534db9c414da3f4eb716e1a26970646fcb1c139a14eb8a2fa 19639 rust-fallible-iterator_0.3.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-fallible-iterator"
   ],
   "Files": [
-    "3c8e48918fa51a4bda61f0fec2568169 2636 rust-fallible-iterator_0.2.0-2.debian.tar.xz 7706975cf331ad0dfc4672885ce0848b 2256 rust-fallible-iterator_0.2.0-2.dsc e43e22ba1741e5cfa00482591ae324c7 18509 rust-fallible-iterator_0.2.0.orig.tar.gz"
+    "70db9d517950e33473b30b96dc8f40f9 2792 rust-fallible-iterator_0.3.0-2.debian.tar.xz 4aa2f4bcaeb02813de077b74c7eea652 2252 rust-fallible-iterator_0.3.0-2.dsc 4abeb2b6db91c4964c17ec4bf24248f4 19639 rust-fallible-iterator_0.3.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "librust-fallible-iterator-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.4.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/fallible-iterator]"
   ],
   "Version": [
-    "0.2.0-2"
+    "0.3.0-2"
   ]
 }

@@ -6,22 +6,25 @@
     "python3-setproctitle"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, procps, python3-all-dev, python3-pytest, python3-setuptools"
+    "debhelper-compat (= 13), dh-sequence-python3, procps, python3-all-dev, python3-pytest, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "0136294d18ef734319ef246b61dc16763c99e9ca 4132 python-setproctitle_1.3.1-1.debian.tar.xz 8dadf9a9ca390925c800727044bfd6a6af624e49 2224 python-setproctitle_1.3.1-1.dsc 024de897920eeadaff8732856a92a802fec70fef 27180 python-setproctitle_1.3.1.orig.tar.gz"
+    "2a40ec7991c1f6eb35cc202a89a2d27a828c16a3 4472 python-setproctitle_1.3.6-2.debian.tar.xz 9ec7a62f220e05f5325abdf00e7156b9b6aca162 2358 python-setproctitle_1.3.6-2.dsc a3b550d7778cfcb14c1ac1e0d9a528531d20260f 28143 python-setproctitle_1.3.6.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "07082bb1363ebce2f3f468b24934aed6dcec0cf48fe2bf29097553f91f78f8d4 4132 python-setproctitle_1.3.1-1.debian.tar.xz a86829f5e5507097fd36cb4f13bd73cdea01dc8b3398b38d214eddcb8074549a 2224 python-setproctitle_1.3.1-1.dsc 7f08e552604030afef2ec0aba568468135d9ce04e684d2ae9f5058aecc7821b4 27180 python-setproctitle_1.3.1.orig.tar.gz"
+    "5299ccf49e9909672fec4b13a71ae446d5f23dd7c8068d3fd21a4715126aeb32 4472 python-setproctitle_1.3.6-2.debian.tar.xz 2956c594535627321712eb76970ef8907b7eb0b6fda6d74c5dec9d8835460cd0 2358 python-setproctitle_1.3.6-2.dsc be91b6f4e476bf3c6412db08df79f95cd54f8e1bb52b35452fb38066997a9cce 28143 python-setproctitle_1.3.6.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "b243564ff06ee3a96029d8386a879888565e2f5cb1f9968ad4a53ad3a1a8be8f0ab9707b7cb2d6ac9b2a7373b8c6e00e558ccef8a13a51904d222c155a64fc09 4132 python-setproctitle_1.3.1-1.debian.tar.xz 4848c0f9f4e004b75d6feff614f554e92cc501d918c50382710a7d23fbc0c22158029cfb18938b16ded03742b718f50ce298d14b27b441ca8d7ae9bcd75c778c 2224 python-setproctitle_1.3.1-1.dsc ab21f8617513568663e42703889ba5e77934e30f353661bc90c0d8d49a8705863fb7d20116e70fda622ce09da88f198be28f73d33a80fffbb72955df49010b75 27180 python-setproctitle_1.3.1.orig.tar.gz"
+    "82641dd9a577a81bd11853fe874d1131f4bdb4c1b839e200b8f1bdb7b0749ca9b26792a82e23981cc1f72a188b0d7c520a22550de3504a5746c0197c6f160728 4472 python-setproctitle_1.3.6-2.debian.tar.xz f3bac23c27c6ca3b74d4fe2ea9fbdf94e9e1d78d9d2554cb4e8a97a666611cd26c2c833b9c58b659bd968b093d6afefff0a124d3b62cd9dc2015bd1e08b90d77 2358 python-setproctitle_1.3.6-2.dsc 50c18ea946fd34667a760e5dfe6100358030a63c3f1afe3fa9e83f1daf33016d789e30501dd2770e72a67ed339e6ccffd592b0fb2ec2933871c8d22736b66e05 28143 python-setproctitle_1.3.6.orig.tar.gz"
+  ],
+  "Dgit": [
+    "e14aee3a1bfdc620572fe0dfc80179e544860eba debian archive/debian/1.3.6-2 https://git.dgit.debian.org/python-setproctitle"
   ],
   "Directory": [
     "pool/main/p/python-setproctitle"
   ],
   "Files": [
-    "5db39210636bc95419c6e3d2d9eab42e 4132 python-setproctitle_1.3.1-1.debian.tar.xz df908144abbe945457b45ac925e6fe0e 2224 python-setproctitle_1.3.1-1.dsc b7e7babcaaf04725d449c6b9886b1d97 27180 python-setproctitle_1.3.1.orig.tar.gz"
+    "166c3d92ef81e992c193f0187d1ee312 4472 python-setproctitle_1.3.6-2.debian.tar.xz 522d11d4baa7ba7516ac9c111c5f7e42 2358 python-setproctitle_1.3.6-2.dsc ca935194ac640a91bf0ea13a65eaecd2 28143 python-setproctitle_1.3.6.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +42,7 @@
     "python3-setproctitle deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/python-setproctitle.git"
   ],
   "Version": [
-    "1.3.1-1"
+    "1.3.6-2"
   ]
 }

@@ -6,22 +6,22 @@
     "bpftrace"
   ],
   "Build-Depends": [
-    "asciidoctor, bison, clang-14, cmake, debhelper-compat (= 13), flex, libbpfcc-dev, libbpf-dev, libcereal-dev, libclang-14-dev, libdw-dev, libelf-dev, libfl-dev, libgmock-dev, libgtest-dev, llvm-14-dev, systemtap-sdt-dev, zlib1g-dev"
+    "asciidoctor, bison, clang, cmake, debhelper-compat (= 13), flex, libbfd-dev, libbpfcc-dev, libbpf-dev, libcereal-dev, libclang-dev, libdw-dev, libelf-dev, libfl-dev, libgmock-dev, libgtest-dev, libiberty-dev, llvm-dev, systemtap-sdt-dev, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "7b2bfbdde17eaa775dbb738320d85cecbb74dedf 4396 bpftrace_0.17.0-1.debian.tar.xz e5f5139994dd5e2a168790bc392c27332c3f9d87 2066 bpftrace_0.17.0-1.dsc 397cba881b0b7787869c1e51adeb22c169be9168 1035274 bpftrace_0.17.0.orig.tar.gz"
+    "1095fab2ce5ec5e248fa10c1503ca701d81eed84 4764 bpftrace_0.23.2-1.debian.tar.xz 9bd6a63e3297f6e3dbca050145369d6f4eff3202 2084 bpftrace_0.23.2-1.dsc 2687cdfc04c707f11d95074e5e603a4fc44d76d5 1171069 bpftrace_0.23.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "2d40958ba031341c2746942692f34210a2905d907784845b5b416bcc037083a0 4396 bpftrace_0.17.0-1.debian.tar.xz b11b4180e2101a42d48483fb2c105c2e96189a565642774f04fe27461930b4eb 2066 bpftrace_0.17.0-1.dsc ccc853205b081fd7e4270016065ccc04764286644bf8e0eee9bd7f344cad63e5 1035274 bpftrace_0.17.0.orig.tar.gz"
+    "f83479f3b51c3f547ca6f129f1e3b2eb04bccf64e7af432c9fd436e1d0493af5 4764 bpftrace_0.23.2-1.debian.tar.xz 1af8aeffff3b8403f48f5666ae0ea8a167419b43a6e454299d9ed74576adb9a8 2084 bpftrace_0.23.2-1.dsc 7e0da01b23599d6ad9762b61cda5be2b72c3526414c56093d4b63d9f720de300 1171069 bpftrace_0.23.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e3a9490e4672158e4d0310f773e89bcf33994a0106ea3480e5ec2564203028d4cf15941453ab6d7d3a1c6f44adbb49096dc438b7d285cf4c02a98d15a5537ec1 4396 bpftrace_0.17.0-1.debian.tar.xz e566526d6369f43293399596d8cf43bbb7681b02d253cbe8a75d54c11b9fb581834dc7844be01c12724066c377c874ab911877d5252aaab642d7f290d4dd177c 2066 bpftrace_0.17.0-1.dsc c3f17778ce4c42c2b6bc63245cd157e9fbc0b3f010b9f5b1284b691fbac47fbb532f3bd61d7e6fe525291e0034d62b3e8c1be6b8bf12cf26d5a39b5ab00a0d13 1035274 bpftrace_0.17.0.orig.tar.gz"
+    "3921eef39ae49eaaf420accc38c716e4d020722d483014143bfbd393501e1202c301b5b479ea433936840b2dc108112afe3f5a7032700b285c82cfb14ae43359 4764 bpftrace_0.23.2-1.debian.tar.xz 8505eb29ee58d9980c188095f8a1b439aa2feab65d4fb60b95ed7216404f13efda73948e7188c22bd15b883da99a1e38e55d720026922f6f7770a483c9454f9e 2084 bpftrace_0.23.2-1.dsc 80d7b91c3f80efcc69bea57a254fec2727050cbd39fce12786f796289f1fed92b7d9be91d5e9f5b348709f41cf3cffdf73d2321fbba2e54ff90648ecd8aab85e 1171069 bpftrace_0.23.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/b/bpftrace"
   ],
   "Files": [
-    "9acd27c294610f958b0e19df8161dff6 4396 bpftrace_0.17.0-1.debian.tar.xz 302934916ddd7b73ac5f78ed5fc5ca71 2066 bpftrace_0.17.0-1.dsc 36dbbc132a3bd496a950841b39417128 1035274 bpftrace_0.17.0.orig.tar.gz"
+    "f25ee9c07317ea60ae7f2a06a7e744af 4764 bpftrace_0.23.2-1.debian.tar.xz 3efb1a73d8dd2891d63853c134b603af 2084 bpftrace_0.23.2-1.dsc f62a65cae2e8524eb5b1a11fea33ba65 1171069 bpftrace_0.23.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/bpftrace.git"
   ],
   "Version": [
-    "0.17.0-1"
+    "0.23.2-1"
   ]
 }

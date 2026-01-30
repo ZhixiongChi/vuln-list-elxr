@@ -6,22 +6,22 @@
     "ruby-faraday"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gem2deb, lsof, ruby-rspec, ruby-em-http-request, ruby-em-synchrony, ruby-excon, ruby-httpclient, ruby-minitest, ruby-multipart-post, ruby-net-http-persistent (\u003e= 3.1~), ruby-rack-test, ruby-sinatra, ruby-typhoeus (\u003e= 1.4~), ruby-webmock, ruby-multipart-parser, ruby-ruby2-keywords, pry, ruby-simplecov, ruby-coveralls"
+    "debhelper-compat (= 13), gem2deb, lsof, rake, ruby-faraday-net-http (\u003c\u003c 3.1), ruby-faraday-net-http (\u003e= 2.0), ruby-rspec, ruby-multipart-post, ruby-net-http-persistent (\u003e= 3.1~), ruby-rack-test, ruby-webmock, ruby-ruby2-keywords, pry, ruby-simplecov, ruby-coveralls"
   ],
   "Checksums-Sha1": [
-    "973bf73c4f49befeb4e0501982c569a38172b1e2 5848 ruby-faraday_1.1.0-7.debian.tar.xz b2995b24214671101d2a4d7cdfc7995a8a2e089c 2359 ruby-faraday_1.1.0-7.dsc c81c955772f90384b0112127bbd11e4ca468770a 838062 ruby-faraday_1.1.0.orig.tar.gz"
+    "de013f014da0deb149569d5d07d6685d221d48a3 5632 ruby-faraday_2.12.2-1.debian.tar.xz 97ba52b70229c9e5453cbd4df48a8ebc128952f1 1693 ruby-faraday_2.12.2-1.dsc 06d0412ac532a24ee5e3ccc453b9287fbaa8c11a 1034047 ruby-faraday_2.12.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "f9fb29e514d4a92e1fdf6ab253c87627ce8aafc1c06bd4fe10293c09ff1a51a1 5848 ruby-faraday_1.1.0-7.debian.tar.xz 49c571b4f8117a6c47954e1fd524fc7c4666a7b0965af62945e4cc5e95922342 2359 ruby-faraday_1.1.0-7.dsc ce270a49234b82e9d2b8cf66d60903ce9d052d496db298789daa762cbeab9dcb 838062 ruby-faraday_1.1.0.orig.tar.gz"
+    "daabe923758d7cd2e8f318758649aeeb5c2f81f82f17a494355d0d98de2b6b28 5632 ruby-faraday_2.12.2-1.debian.tar.xz 2a2d66757d2a302b28c691a463a5e2a9a227e22262edbb233e0363087d09f7f8 1693 ruby-faraday_2.12.2-1.dsc f2bf94046bb54363dc820f2de3908b741961eeb23ddb7747c7798c8ae94f22bc 1034047 ruby-faraday_2.12.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "45fbdb30d54aaeb0f96a58b705300f0419abde35771abf8f94ea29e65b8af17014434190e075831ffe4b1a6e6127b6f96c08c3cd4dedbe4f6a48c64390a3798a 5848 ruby-faraday_1.1.0-7.debian.tar.xz 2641fea3aa7996b06979bc4f4822e51ba06b88177ce5a0f1e4fe23d4b50316b14dd7bd9543d018069455c4c4dac775780c645c0f8fe5215a2ea346f911b1b055 2359 ruby-faraday_1.1.0-7.dsc 22f4cd68d409afbb3523713223325a516ec8aa79591b816f8510ab7d3b1e31acefcc2252e8fd23aa99b4a5592c1604c0cc28423f55f1633c331554e3405b11f4 838062 ruby-faraday_1.1.0.orig.tar.gz"
+    "6b9c26a66309ff2e899c2398f0ddff8cdfe2268e7e5737101173be80864cae62660164e942e53853c235d2583f7a0173687f6d919a5093c9b077328cb8558a06 5632 ruby-faraday_2.12.2-1.debian.tar.xz e8e1fbccb472b235d7c60351865b9424c70255553a12421798215f9a31aeec2dd7991cd6ba2dc4c00d06ec2b69491745ed8b1f6e3e4ae12337036f72657de043 1693 ruby-faraday_2.12.2-1.dsc b1aefb1c2a6e9733ab2e2b23b611785b57054ffb86378131845758c8655e3269bd700de105749703ec839be65054eac79c7293e9bb8937dd5982ff877d2b99c5 1034047 ruby-faraday_2.12.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/ruby-faraday"
   ],
   "Files": [
-    "c99cb128d3a0b7f872dd1d5aaf2aa0ad 5848 ruby-faraday_1.1.0-7.debian.tar.xz 16664dbbaf325fe9d2391bf63b6f96bf 2359 ruby-faraday_1.1.0-7.dsc d38278ce17f76bf38484c20bca2bab57 838062 ruby-faraday_1.1.0.orig.tar.gz"
+    "120ac125a799f3813984f23f2f13d2f9 5632 ruby-faraday_2.12.2-1.debian.tar.xz 639c25a83130def9b13201730ffb466d 1693 ruby-faraday_2.12.2-1.dsc a0e353d428dba7c93a636550b4571c02 1034047 ruby-faraday_2.12.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -38,11 +38,8 @@
   "Package-List": [
     "ruby-faraday deb ruby optional arch=all"
   ],
-  "Ruby-Versions": [
-    "all"
-  ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-ruby"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/ruby-team/ruby-faraday.git"
   ],
   "Version": [
-    "1.1.0-7"
+    "2.12.2-1"
   ]
 }

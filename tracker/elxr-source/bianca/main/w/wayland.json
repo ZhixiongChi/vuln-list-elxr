@@ -6,25 +6,25 @@
     "libwayland-client0, libwayland-egl1, libwayland-server0, libwayland-cursor0, libwayland-dev, libwayland-egl-backend-dev, libwayland-doc, libwayland-bin"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 10), quilt, pkg-config, libexpat1-dev, libffi-dev, libxml2-dev, libwayland-bin \u003ccross\u003e, meson"
+    "debhelper-compat (= 13), quilt, pkgconf, libexpat1-dev, libffi-dev, libxml2-dev, libwayland-bin \u003ccross\u003e, meson"
   ],
   "Build-Depends-Indep": [
     "doxygen, graphviz, xmlto, xsltproc, docbook-xsl"
   ],
   "Checksums-Sha1": [
-    "63589e6583b5cdd199714c2bf24089b12433ab75 12928 wayland_1.21.0-1.diff.gz c7681fae605348f2536e0a7f35482cd764979e07 2572 wayland_1.21.0-1.dsc 9d17d81a54584e6a7dca312016b670130e935a52 350620 wayland_1.21.0.orig.tar.gz"
+    "c43221b9d7f88cfd072a84c2c54252b6149d711b 16437 wayland_1.23.1-3.diff.gz b29134902150b90ffef04e277654abfb75245adf 2650 wayland_1.23.1-3.dsc 56a55eb419f3ecf8a7ebdc726db43d2d734e5632 370199 wayland_1.23.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a7facbdf5c3f2e1ba5c8332bdf6927eb5af848713f7accec11e01985986f8cfa 12928 wayland_1.21.0-1.diff.gz 484b142ddafd984c954cfeb47b2575b51f568f3eb949afc3ba8e08b3a2ddcc7f 2572 wayland_1.21.0-1.dsc 181b8885f152adef3afb361bb5f23cf466d455de86db123492fb507754b9ef36 350620 wayland_1.21.0.orig.tar.gz"
+    "f48a224e6d744d33ab00378b7a7f2b3ab6461706e30b722e320d047d880e70c8 16437 wayland_1.23.1-3.diff.gz 03b4da461e507338731b86183e989e0e9c3fa28f34d8739f0b30d8dd9b88bce8 2650 wayland_1.23.1-3.dsc 158ec49af498f2558c7fbf7e8b070d010d4e270cc6076003a18a6c813f87e244 370199 wayland_1.23.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "faf64ed13ef1beeb4e0006f6ea0de9d29b9654142345e361bd7e243a278c7defb836a9d9b2089aeadc682698e4504f09ee4f15e76f88287e58df6ab04f9da8a7 12928 wayland_1.21.0-1.diff.gz 0f3ca87ca250cd759b5eda287719b8a5943e3de9aee265e3b5cf5d1af315085a9e74b1ad8dba802e7729971b94a69fee7c2d808ac1a8289dd9f98e90d1d51362 2572 wayland_1.21.0-1.dsc 9b7a0632500da4cc971406f586cab9afd6f0c8286b01d24c27a3957a5407331b2f16a90736087529f1c4c4d3aafb46febdc699ecfc142f9f00e367927e6bac38 350620 wayland_1.21.0.orig.tar.gz"
+    "22374a50d75c3693ba0ef6e7aa4a18ed37861585f4029965443a981e7d48715c4f1a11c408e8ab117c046b6b263cceb7a37013e78c5d8ccc1f64c2f737b53f1c 16437 wayland_1.23.1-3.diff.gz 0efeba735dd48ce790dcd9f03df8e2d7fe4b806d489391131732e083d8ab535cf9dedb289c3aae02b145ba960a41592719726f2885f27481d17146c9a2b1951c 2650 wayland_1.23.1-3.dsc 454a4d7cab9fb9eafe3505114e9dfafed94c985fb7f156eb2d67f258bf2bf8418598ab75c237aa75fabe81a811981dbc72363870f2f81ddcbfb3adfaa95d4947 370199 wayland_1.23.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/w/wayland"
   ],
   "Files": [
-    "c8d435372f62d4a6bbb8bc2d83e79405 12928 wayland_1.21.0-1.diff.gz f7bbb65ea265544294605167491d50b3 2572 wayland_1.21.0-1.dsc bae8edd34a26188dbb609dc2e92ba76b 350620 wayland_1.21.0.orig.tar.gz"
+    "887a8b3d4c34a283957a091664104545 16437 wayland_1.23.1-3.diff.gz 4461cfc90400068d6340ce255527abb7 2650 wayland_1.23.1-3.dsc 8f703ce7e26d4ab990e807721d3e9f3f 370199 wayland_1.23.1.orig.tar.gz"
   ],
   "Format": [
     "1.0"
@@ -42,10 +42,10 @@
     "libwayland-bin deb libdevel optional arch=any libwayland-client0 deb libs optional arch=any libwayland-cursor0 deb libs optional arch=any libwayland-dev deb libdevel optional arch=any libwayland-doc deb doc optional arch=all libwayland-egl-backend-dev deb libdevel optional arch=any libwayland-egl1 deb libs optional arch=any libwayland-server0 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Héctor Orón Martínez \u003czumbi@debian.org\u003e"
+    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Héctor Orón Martínez \u003czumbi@debian.org\u003e, Marius Gripsgard \u003cmariogrip@debian.org\u003e, Dylan Aïssi \u003cdaissi@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/xorg-team/wayland/wayland"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/xorg-team/wayland/wayland.git"
   ],
   "Version": [
-    "1.21.0-1"
+    "1.23.1-3"
   ]
 }

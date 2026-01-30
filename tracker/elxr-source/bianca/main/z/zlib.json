@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "zlib1g, zlib1g-dev, zlib1g-udeb, lib64z1, lib64z1-dev, lib32z1, lib32z1-dev, libn32z1, libn32z1-dev"
+    "zlib1g, zlib1g-dev, zlib1g-udeb, lib64z1, lib64z1-dev, lib32z1, lib32z1-dev, libn32z1, libn32z1-dev, minizip, libminizip1t64, libminizip-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 13), gcc-multilib [amd64 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 s390 sparc s390x mipsn32 mipsn32el mipsr6 mipsr6el mipsn32r6 mipsn32r6el mips64 mips64el mips64r6 mips64r6el x32] \u003c!nobiarch\u003e, dpkg-dev (\u003e= 1.16.1)"
+    "dpkg-dev (\u003e= 1.22.5), debhelper (\u003e= 13), gcc-multilib [amd64 i386 kfreebsd-amd64 mips mipsel powerpc ppc64 s390 sparc s390x mipsn32 mipsn32el mipsr6 mipsr6el mipsn32r6 mipsn32r6el mips64 mips64el mips64r6 mips64r6el x32] \u003c!nobiarch\u003e, autoconf"
   ],
   "Checksums-Sha1": [
-    "62fbed65c1e9386e177777f8a6ebf39400a38647 16824 zlib_1.2.13.dfsg-1elxr2.debian.tar.xz c31199f81a79bc35f7afd491a917c510568edfc3 1857 zlib_1.2.13.dfsg-1elxr2.dsc 4fec854a7c5fe543e44c12afa365642c0e6b5ded 1239825 zlib_1.2.13.dfsg.orig.tar.bz2"
+    "8b454f72def33b4a329489b8dcb2568ba0ccac69 16576 zlib_1.3.dfsg+really1.3.1-1.debian.tar.xz f1d41173a0d8586644be4a5b9ee6185a794a767c 2637 zlib_1.3.dfsg+really1.3.1-1.dsc 3b19b81105d3436095134a648c521b678905eaac 1325737 zlib_1.3.dfsg+really1.3.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "d1b9e8d847cb47b9c6ace319d9023b8956e57d9c2e792d756cda6e621f299f45 16824 zlib_1.2.13.dfsg-1elxr2.debian.tar.xz 2243128448b99a016d8446a0712329117cdfd1fbf44e77da641a203472399a20 1857 zlib_1.2.13.dfsg-1elxr2.dsc 71feb7947e3c00ef125f83b79a4e529bde31171e5babe48b391f06758d1ab0a1 1239825 zlib_1.2.13.dfsg.orig.tar.bz2"
+    "9ed525955ce9fb0c1b39be8ff98f73450dbfc6305a9a27e6149c8972d38a0a9e 16576 zlib_1.3.dfsg+really1.3.1-1.debian.tar.xz ede2791e29c1d3b422f9208bdd7edf040c20445ea1e7453a72037576e64fa197 2637 zlib_1.3.dfsg+really1.3.1-1.dsc 60dd315c07f616887caa029408308a018ace66e3d142726a97db164b3b8f69fb 1325737 zlib_1.3.dfsg+really1.3.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8c749b4f66fd06f979bc4abd39799e1e49f97a4dc7d584c39eee4291a12f043df7149d6396a52e364eaff16d0c69ed270715b533f8c72bb316e487b5bc8e85af 16824 zlib_1.2.13.dfsg-1elxr2.debian.tar.xz 3d2518a4769ab8372f82a87acc3ed79df9697d93792fb0cf0af581cdbe0f6ead946de88984159a861823d157b5f83f9755688c08e06340e334ba8aaeaf68e993 1857 zlib_1.2.13.dfsg-1elxr2.dsc 266ea72465ad1f0b63e42f8275c650615829929f2ff19064144c5bb942acd31cd8581ce45781c438fce949c6d9f3fa385efa59f754761441107ca1144fb56802 1239825 zlib_1.2.13.dfsg.orig.tar.bz2"
+    "4897e2c61f7f6e4ec82c3611d6425cde318c9df0b44379fdf7912ca9f80b646fe3ee9231b79517569f47fe00182df0884607e2e72349cc4bcb383e1eaa2658a4 16576 zlib_1.3.dfsg+really1.3.1-1.debian.tar.xz 37769944ecbd2b2a3b6d202f4826da52c744cbbbc4bda806c3689b76cc4ab189b43bfdfe2a527306afa85962717a510cff57e4a2ab7f73c9e827428db7c11c1c 2637 zlib_1.3.dfsg+really1.3.1-1.dsc 068cb731e400cfc435db292839737938199d05d77b3010c7b9b87c9d0a127c7545198cea2a620da124ea3dfdde02ab63672aa01fc6cfd1e1ab5a2d6f9ca454c8 1325737 zlib_1.3.dfsg+really1.3.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/z/zlib"
   ],
   "Files": [
-    "a6e2912aa9e77ac133ffbd75e15593c9 16824 zlib_1.2.13.dfsg-1elxr2.debian.tar.xz 46fc39d359d13de2deee47004e5a5d0e 1857 zlib_1.2.13.dfsg-1elxr2.dsc ef268c6fda8701834db2d8322b0ccf4e 1239825 zlib_1.2.13.dfsg.orig.tar.bz2"
+    "1f978cc7b529a056788500a6cb84f8d6 16576 zlib_1.3.dfsg+really1.3.1-1.debian.tar.xz 83dfad99d7533944c8aae8e8cce6aaaa 2637 zlib_1.3.dfsg+really1.3.1-1.dsc 29e0750ce6c0a9f719354d678ebffc6e 1325737 zlib_1.3.dfsg+really1.3.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,12 +36,12 @@
     "zlib"
   ],
   "Package-List": [
-    "lib32z1 deb libs optional arch=amd64,ppc64,kfreebsd-amd64,s390x profile=!nobiarch lib32z1-dev deb libdevel optional arch=amd64,ppc64,kfreebsd-amd64,s390x profile=!nobiarch lib64z1 deb libs optional arch=sparc,s390,i386,powerpc,mips,mipsel,mipsn32,mipsn32el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el,x32 profile=!nobiarch lib64z1-dev deb libdevel optional arch=sparc,s390,i386,powerpc,mips,mipsel,mipsn32,mipsn32el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el,x32 profile=!nobiarch libn32z1 deb libs optional arch=mips,mipsel profile=!nobiarch libn32z1-dev deb libdevel optional arch=mips,mipsel profile=!nobiarch zlib1g deb libs required arch=any zlib1g-dev deb libdevel optional arch=any zlib1g-udeb udeb debian-installer optional arch=any"
+    "lib32z1 deb libs optional arch=amd64,ppc64,kfreebsd-amd64,s390x profile=!nobiarch lib32z1-dev deb libdevel optional arch=amd64,ppc64,kfreebsd-amd64,s390x profile=!nobiarch lib64z1 deb libs optional arch=sparc,s390,i386,powerpc,mips,mipsel,mipsn32,mipsn32el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el,x32 profile=!nobiarch lib64z1-dev deb libdevel optional arch=sparc,s390,i386,powerpc,mips,mipsel,mipsn32,mipsn32el,mipsr6,mipsr6el,mipsn32r6,mipsn32r6el,x32 profile=!nobiarch libminizip-dev deb libdevel optional arch=any libminizip1t64 deb libs optional arch=any libn32z1 deb libs optional arch=mips,mipsel profile=!nobiarch libn32z1-dev deb libdevel optional arch=mips,mipsel profile=!nobiarch minizip deb utils optional arch=any zlib1g deb libs required arch=any zlib1g-dev deb libdevel optional arch=any zlib1g-udeb udeb debian-installer optional arch=any"
   ],
   "Standards-Version": [
     "4.6.1"
   ],
   "Version": [
-    "1:1.2.13.dfsg-1elxr2"
+    "1:1.3.dfsg+really1.3.1-1"
   ]
 }

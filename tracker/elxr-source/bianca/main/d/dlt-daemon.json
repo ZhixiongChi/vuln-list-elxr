@@ -6,22 +6,22 @@
     "libdlt-dev, libdlt2, dlt-daemon, dlt-tools, libdlt-examples"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake, zlib1g-dev, libdbus-1-dev, doxygen, libgtest-dev, libsystemd-dev, pandoc, systemd, libjson-c-dev"
+    "cmake, debhelper-compat (= 13), doxygen, libdbus-1-dev, libgtest-dev, libjson-c-dev, libsystemd-dev, pandoc, pkgconf, psmisc \u003c!nocheck\u003e, systemd-dev, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "83adbb15131e97387e769b02ecf7667907c04414 8420 dlt-daemon_2.18.8-6.debian.tar.xz a7294b19ceebb96a62d54370b26f7cd18f15b394 2122 dlt-daemon_2.18.8-6.dsc 0d030c84da6dbc5cacca93d508b575f57e68cc62 5121461 dlt-daemon_2.18.8.orig.tar.gz"
+    "6dd6cd0095fbbd1cbd836091b0a576ecaaf17b02 8136 dlt-daemon_2.18.10-10.debian.tar.xz e727f92a3a5a32c855f1261767482a5879760d45 2164 dlt-daemon_2.18.10-10.dsc 834b2de910690ba7b2cdb687ffc41b5ac4718718 979084 dlt-daemon_2.18.10.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "6b8becef0cfd108ba154d769d26967d5d44ef11c3325bdf4bb9afdb45da9b752 8420 dlt-daemon_2.18.8-6.debian.tar.xz 71aed6b9a1c82fd40ed9da5d6802bd0ddb87faed691e40c41bb58cfa190fcca9 2122 dlt-daemon_2.18.8-6.dsc 95d8529eee6bb65629404a354a79fee153f898d229f70c5fa7898e8ddb37a252 5121461 dlt-daemon_2.18.8.orig.tar.gz"
+    "2dc78b33466c0bba7ae1893cc9d043bd0690e5083fac59820b5fe21ab67ed443 8136 dlt-daemon_2.18.10-10.debian.tar.xz beda25f1834773ccfe2db475a28b2271301e8ea8866c024f856c64966922d6aa 2164 dlt-daemon_2.18.10-10.dsc 504724b69755667512e7830320ff28a1dab3fd36715598ba2d2749ad052632de 979084 dlt-daemon_2.18.10.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "422b7d3bf04bdbde754e9e85a0f6b05f94420c1bb55feaf69b6d49426e9f2b5d83589c63c8afb549b40b945f804c6e074aac7da0a8d163e43757d5b80226d888 8420 dlt-daemon_2.18.8-6.debian.tar.xz 4b7c31abd566c504a60b41cbb9e780ee7fa2cf8b55ef2b04d0e8ce856b185ea3ebed550195563794322ef4c6997be71abc01531ea5b7f48e446d151ecabcafa5 2122 dlt-daemon_2.18.8-6.dsc 24c93b408fb82c4b684a9cb75e9d4d60f3bcb65221fbe4693d64a94ef479df8b196d02b3fe675812afdba10df04c4613a96cf37237cc0600e539b2df742e0e82 5121461 dlt-daemon_2.18.8.orig.tar.gz"
+    "843dd0e650c52806f577e153364e464de2151e8339f31a0ec6e87e2f35c746972b45cf6ab442b18d806008a8b7c4cb69390e32a1b5d336fc3be8ceac9d3467d5 8136 dlt-daemon_2.18.10-10.debian.tar.xz 79f37bae678a294ab7360527ace4ce5f6b9ccef559d80a6498430c49daaa7d36654782c548b856f5c78f318ad7003ee55de4f92a51b7caacafd223d9f32858a7 2164 dlt-daemon_2.18.10-10.dsc 5fd8b564e041b730766e7f9c8740e93f4d7d04b56330ed1e55b4230431537900c937583317e557313dda6a392ab7350715b45e3437bfd972f6221416bc0a2f06 979084 dlt-daemon_2.18.10.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/d/dlt-daemon"
   ],
   "Files": [
-    "38b6f617a6e4073cbc2cbb9199a54722 8420 dlt-daemon_2.18.8-6.debian.tar.xz 38d90fe48ed97f64f88f0cb1ad33cde8 2122 dlt-daemon_2.18.8-6.dsc d9de9a8e7d27ba1eeae702decfaec3ac 5121461 dlt-daemon_2.18.8.orig.tar.gz"
+    "b40acbd2a167c27fadd4c5dbc89d63f0 8136 dlt-daemon_2.18.10-10.debian.tar.xz 7f796c9c68c60bfa056f1c663774759e 2164 dlt-daemon_2.18.10-10.dsc 883abe51dc290d897fd09e9bb1cad3c1 979084 dlt-daemon_2.18.10.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,9 +42,9 @@
     "4.6.2"
   ],
   "Uploaders": [
-    "Gianfranco Costamagna \u003clocutusofborg@debian.org\u003e"
+    "Gianfranco Costamagna \u003clocutusofborg@debian.org\u003e,"
   ],
   "Version": [
-    "2.18.8-6"
+    "2.18.10-10"
   ]
 }

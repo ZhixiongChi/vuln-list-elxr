@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), texinfo"
   ],
   "Checksums-Sha1": [
-    "b3f4e6dbdf94d37cbc54c048012c1fd43edc349a 14428 diffutils_3.8-4.debian.tar.xz a96a2729f077d696f97fbb9d0e10b434c1c2f4ae 1705 diffutils_3.8-4.dsc 3a726894b2cf71a790913f236ec790d830c6aef8 1585120 diffutils_3.8.orig.tar.xz d5116655ba8fb95e7b435514fa63c74e9b92e961 833 diffutils_3.8.orig.tar.xz.asc"
+    "82f441d0158e30c292ee6039abda0168e983bd55 14304 diffutils_3.10-4.debian.tar.xz 0cb61e8a7c5802e7bf8c70c9168105d9eebec476 1875 diffutils_3.10-4.dsc c16a9cf107ad1f0f791b6d00852dc5e961c1c451 1624240 diffutils_3.10.orig.tar.xz 7712d36db350c347a6c44bd1483996f84ac3bc52 833 diffutils_3.10.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "36abe3a3174c32c3646ca6bad212169a322409086c4a98f967bb9ad58f11c8d4 14428 diffutils_3.8-4.debian.tar.xz 783af1a151c2a0f42a8a427693cc4bb16037c0d17282d28672d906f2eab424b8 1705 diffutils_3.8-4.dsc a6bdd7d1b31266d11c4f4de6c1b748d4607ab0231af5188fc2533d0ae2438fec 1585120 diffutils_3.8.orig.tar.xz 500f423d0ffa8d28966d916ed5fc6b79fb160a20ed5cb74eeb1c94a30c340311 833 diffutils_3.8.orig.tar.xz.asc"
+    "8588b6ffb897ccff46c583e58ef50500b2511eee41949b21e8afa5439712c2c7 14304 diffutils_3.10-4.debian.tar.xz 087b414ddfc92161a30186926bc4b4ac02c7cba589b0323561cacd54c8b48392 1875 diffutils_3.10-4.dsc 90e5e93cc724e4ebe12ede80df1634063c7a855692685919bfe60b556c9bd09e 1624240 diffutils_3.10.orig.tar.xz a94faf8f1baa04ff220f7b2ccb137c16337284e023ebc4a1d5df475c08d810f7 833 diffutils_3.10.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "874a41a50f6db1b91a358445513a22a24871be830a10a9d192ac2957fa91a4c3e2265472fcf08f867b21a1c125b192ca559cc77c5ad51e35275a635d58ae1c8a 14428 diffutils_3.8-4.debian.tar.xz b666ab8c76ddda9262d84f00e17b5139bae88d612233332e75f51f18975177460e6891cb3b28e20d8a9311df9aaa927a280cf4a7855d566e9569154e1237ae7e 1705 diffutils_3.8-4.dsc 279441270987e70d5ecfaf84b6285a4866929c43ec877e50f154a788858d548a8a316f2fc26ad62f7348c8d289cb29a09d06dfadce1806e3d8b4ea88c8b1aa7c 1585120 diffutils_3.8.orig.tar.xz 0464ac89209411993800666b45ff90243d22fbda53bf1d71c6870d565b39cc8d9c54c141b9d297a181ce74ad8fb5313953f416bced179ff7728a52a3e9a4f5a5 833 diffutils_3.8.orig.tar.xz.asc"
+    "447d360101e549e520210cd6da9573cce293c1b59266d960b066da4eeff8ce473c19d2269e30cd82e33e162cd6c6b870755b3bb292d8592a51511ca19e974350 14304 diffutils_3.10-4.debian.tar.xz 7bf4b24fa79e6c436125eb5c5926e7f4460c1108142a0d2d5662d9e6ee40e9425e22e282c784850790ae02032d6c1dc724c3b38a592e7f74949f732d4ce854bd 1875 diffutils_3.10-4.dsc 219d2c815a120690c6589846271e43aee5c96c61a7ee4abbef97dfcdb3d6416652ed494b417de0ab6688c4322540d48be63b5e617beb6d20530b5d55d723ccbb 1624240 diffutils_3.10.orig.tar.xz 91aa1fcfca224454e292540ea7813f4a0eb348f06a4374017326d524949775359fc833de597cc201c97f357eb6c675800828a6e3332572376f3554f1f2e1aca1 833 diffutils_3.10.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/d/diffutils"
   ],
   "Files": [
-    "c894b532f214796241bb1b7ccf5b468d 14428 diffutils_3.8-4.debian.tar.xz b699dda97294ce8dc4e17ae95dd8f4d4 1705 diffutils_3.8-4.dsc 6a6b0fdc72acfe3f2829aab477876fbc 1585120 diffutils_3.8.orig.tar.xz c26a8fd1cc6d8e9bf05c0654e0e8af51 833 diffutils_3.8.orig.tar.xz.asc"
+    "187288e6f74b75709d1800f4c8c52732 14304 diffutils_3.10-4.debian.tar.xz 4946fb672e0dd2d1eebb25641b386926 1875 diffutils_3.10-4.dsc 2745c50f6f4e395e7b7d52f902d075bf 1624240 diffutils_3.10.orig.tar.xz 69c6ac763b18bf0640f508bdf7ac31e3 833 diffutils_3.10.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,9 +39,21 @@
     "diffutils deb utils required arch=any essential=yes diffutils-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "make"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/sanvila/diffutils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/sanvila/diffutils.git"
   ],
   "Version": [
-    "1:3.8-4"
+    "1:3.10-4"
   ]
 }

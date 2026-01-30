@@ -6,7 +6,7 @@
     "libevdev-dev, libevdev-doc, libevdev2, libevdev2-udeb, libevdev-tools"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), pkg-config, python3:native"
+    "debhelper-compat (= 13), pkgconf, python3:native"
   ],
   "Build-Depends-Arch": [
     "check \u003c!nocheck\u003e"
@@ -15,19 +15,19 @@
     "doxygen, graphviz"
   ],
   "Checksums-Sha1": [
-    "377d310c47350d5ac6561c779e5547d5f37831e4 9200 libevdev_1.13.0+dfsg-1.debian.tar.xz 81ce8f5c777b0561fbff41bb5bebf8020b7ca73f 2263 libevdev_1.13.0+dfsg-1.dsc d9b393c276781ea8880f465efcc3b0f80d4c056b 347604 libevdev_1.13.0+dfsg.orig.tar.xz"
+    "4b625fca28ae298f6edcf45d1791ec552e5d9643 9300 libevdev_1.13.4+dfsg-1.debian.tar.xz f0f9fca5b1efdab2c7d1dc5d567015194343aedc 2260 libevdev_1.13.4+dfsg-1.dsc eabd110edf8fdc126f3f1b022e39bb4ad5af0787 349892 libevdev_1.13.4+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "d33c56acbbfff2dc540e45c57a38d92210b5e7fd0947ac47fbe48183468aad74 9200 libevdev_1.13.0+dfsg-1.debian.tar.xz 9f09b3ac4aff32ba0c13149b12849295883e211d686fe07a665c5aaca6fb35b6 2263 libevdev_1.13.0+dfsg-1.dsc a882e13ef1dd6bd227318080cabf60fe5af3c06471259d3acfc9dbfb202351a7 347604 libevdev_1.13.0+dfsg.orig.tar.xz"
+    "28d60890c0b655bd1b39e3a0e8edd57e37121f48d277eb09acabbe6787883eea 9300 libevdev_1.13.4+dfsg-1.debian.tar.xz d77bb6b1d21cdd8a503c141d7bbde9a4dfb8cc5a7003c63678b85e0d0bf4ef51 2260 libevdev_1.13.4+dfsg-1.dsc be3456ab8289e53c9f13b6dfef10349b4f551f5d365cb58b7dd29d42488cd897 349892 libevdev_1.13.4+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "99cc49431c800d26852d1c6b7d3632a1326cf06837cc3a6849b3ee5e8e82af31599686731fce363e36f23efea976748b1759020f999e9a97cf4acfa46cb4381b 9200 libevdev_1.13.0+dfsg-1.debian.tar.xz 7299537f8c50c6171c6ebf73fe7d9b557164f571ba67e3317edcd25d8e2bfb214315e5b4e5da332ba08879f82b08013c3763b63d6bf8d6754d8404032aae1341 2263 libevdev_1.13.0+dfsg-1.dsc 0a0a0711df014b5b5aef6d784b081fe1b4a3a16bcaf741a0da64d760999c316b240455a97c73c57ff597b2d6e47873dc187adc4d1ab80ddf1d54b6d8996bacea 347604 libevdev_1.13.0+dfsg.orig.tar.xz"
+    "c23b2da3b559c1e62b0ee335dbfa72fdf6b7626f7dbcc9966c4dce468d635263a9a1f0c6faf2e948ddd5f686179a10e15dff122fbeba12b9e8edcf5f3cea9fc9 9300 libevdev_1.13.4+dfsg-1.debian.tar.xz 16c76ffd1282654c09dba0c47cb6d6934cf3906ce08bca264339e7464429516b083ce1e8c89ae71ae05a2118548ebf5d0c2f798bfd683d8e35f3d1ed51e87773 2260 libevdev_1.13.4+dfsg-1.dsc da1fb4f606e2d91b08219284af2913712ff6c55d9a113e7ef0effc6a9c4a66c23361d81ce9a515ac96ccf0325a49f564fd044a2ee215e32a55fd66c82cad211f 349892 libevdev_1.13.4+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libe/libevdev"
   ],
   "Files": [
-    "cf246825a84d0ec6c6b08e67b43d346e 9200 libevdev_1.13.0+dfsg-1.debian.tar.xz 192c370aadcc33e4bff59f70ba6eb1d1 2263 libevdev_1.13.0+dfsg-1.dsc c8f8b603993befa1a8cc70e8f0512851 347604 libevdev_1.13.0+dfsg.orig.tar.xz"
+    "e5656bd433bc3865c88c2cb8961fa703 9300 libevdev_1.13.4+dfsg-1.debian.tar.xz d8483fc44aa21acc3b596cd18e727ad5 2260 libevdev_1.13.4+dfsg-1.dsc a4eca942b11de24b1a057f2555edb91f 349892 libevdev_1.13.4+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +45,7 @@
     "libevdev-dev deb libdevel optional arch=linux-any libevdev-doc deb doc optional arch=all libevdev-tools deb utils optional arch=linux-any libevdev2 deb libs optional arch=linux-any libevdev2-udeb udeb debian-installer optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/libevdev"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/libevdev.git"
   ],
   "Version": [
-    "1.13.0+dfsg-1"
+    "1.13.4+dfsg-1"
   ]
 }

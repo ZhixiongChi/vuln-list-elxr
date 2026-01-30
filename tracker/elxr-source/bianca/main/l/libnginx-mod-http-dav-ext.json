@@ -6,22 +6,22 @@
     "libnginx-mod-http-dav-ext"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-nginx, libxml2-dev, nginx-abi-1.22.1-7"
+    "debhelper-compat (= 13), dh-sequence-nginx, libxml2-dev"
   ],
   "Checksums-Sha1": [
-    "734a00fda86e047e944c1a7764f49d501d3054a7 2980 libnginx-mod-http-dav-ext_3.0.0-3.debian.tar.xz 2a9dd9cc04769eecc0aaf701e287ce6497ae8b0b 2262 libnginx-mod-http-dav-ext_3.0.0-3.dsc 524407402df7e73df9def85345c8bea324dceede 14558 libnginx-mod-http-dav-ext_3.0.0.orig.tar.gz"
+    "2ca1dd0a9ae43527c87d86f717dfa3a5096e3c10 3096 libnginx-mod-http-dav-ext_3.0.0-6.debian.tar.xz 006b4f980326e3ed4a5c20c74509101164f72993 2242 libnginx-mod-http-dav-ext_3.0.0-6.dsc 524407402df7e73df9def85345c8bea324dceede 14558 libnginx-mod-http-dav-ext_3.0.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "78653718d16a52900953116727cbbede2cd61e61ced0a429df11d5a947fdeb1b 2980 libnginx-mod-http-dav-ext_3.0.0-3.debian.tar.xz 1d2a3fcbdd445e115c522683e468734db5b991d6f706fb552fadf527d780927b 2262 libnginx-mod-http-dav-ext_3.0.0-3.dsc d2499d94d82d4e4eac8425d799e52883131ae86a956524040ff2fd230ef9f859 14558 libnginx-mod-http-dav-ext_3.0.0.orig.tar.gz"
+    "2237b988f85c7ec6dbd38e853073c0e90157b2c386e2e37bbeb25b5ecc68e9b9 3096 libnginx-mod-http-dav-ext_3.0.0-6.debian.tar.xz 8e5e78852deaaf11a7c922d1dc7d39c350537bb8338894700a8b6feab40af57d 2242 libnginx-mod-http-dav-ext_3.0.0-6.dsc d2499d94d82d4e4eac8425d799e52883131ae86a956524040ff2fd230ef9f859 14558 libnginx-mod-http-dav-ext_3.0.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c0d2b76ab0b2eea039002ef89f49f060c653afc41f51e5d1e668d704d320bae368aa8ce2baf6966bf3bb3c2f7e81c07fc54cafe69cd84b77b07c30a3032802c9 2980 libnginx-mod-http-dav-ext_3.0.0-3.debian.tar.xz 31049b0a677958e6a1a8340802fa5724343dc33320a6414bdd5993c6d7a7a21bbb8e41051668ea9192bcf6a2d6118c806f55999fc466255f9c516842aa8eb898 2262 libnginx-mod-http-dav-ext_3.0.0-3.dsc d0193ba90f1ef46c4e470630c4394bdf99d94fd2e3bd8be6cb2ba1655ec59944b1269025f032b79dc2c6dad366e54389ef6a6da2ddeb91d535a4027f2162fbde 14558 libnginx-mod-http-dav-ext_3.0.0.orig.tar.gz"
+    "7386b87c4b2317a95f04daeb21247a564fd675740d9ebdde5a3dcde1664f217f60a1843fef89fc07e27a92ab2a0d7d3afdaa1d346fac61081bf9ecfb4c7aa588 3096 libnginx-mod-http-dav-ext_3.0.0-6.debian.tar.xz f41b9f1f700ae5157bb5398cd071c806982bcd031ff7fff26f18f10cb8ed0ec39b04b89b91511b7fdfc9f6d78aa55bfbc9d5649b0248dd7542ae79dd091657e0 2242 libnginx-mod-http-dav-ext_3.0.0-6.dsc d0193ba90f1ef46c4e470630c4394bdf99d94fd2e3bd8be6cb2ba1655ec59944b1269025f032b79dc2c6dad366e54389ef6a6da2ddeb91d535a4027f2162fbde 14558 libnginx-mod-http-dav-ext_3.0.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libn/libnginx-mod-http-dav-ext"
   ],
   "Files": [
-    "f0a8b16b78164e777c10c3b1cc5283bd 2980 libnginx-mod-http-dav-ext_3.0.0-3.debian.tar.xz 87d0570b0d73ebffd65e7219c37e0085 2262 libnginx-mod-http-dav-ext_3.0.0-3.dsc 4327558de2835968fed1f66a5eb9a4d6 14558 libnginx-mod-http-dav-ext_3.0.0.orig.tar.gz"
+    "cf87eaacf8fe09a87467808f7b41e3fb 3096 libnginx-mod-http-dav-ext_3.0.0-6.debian.tar.xz 76c501314e1b8434632fbcfecfc64c57 2242 libnginx-mod-http-dav-ext_3.0.0-6.dsc 4327558de2835968fed1f66a5eb9a4d6 14558 libnginx-mod-http-dav-ext_3.0.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libnginx-mod-http-dav-ext deb httpd optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "curl, nginx, nginx-core"
   ],
   "Uploaders": [
-    "Jan Mojžíš \u003cjan.mojzis@gmail.com\u003e,"
+    "Jan Mojžíš \u003cjanmojzis@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/nginx-team/libnginx-mod-http-dav-ext"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/nginx-team/libnginx-mod-http-dav-ext.git"
   ],
   "Version": [
-    "1:3.0.0-3"
+    "1:3.0.0-6"
   ]
 }

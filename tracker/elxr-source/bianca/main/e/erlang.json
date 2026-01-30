@@ -3,31 +3,31 @@
     "any all"
   ],
   "Binary": [
-    "erlang-base, erlang-asn1, erlang-common-test, erlang-crypto, erlang-debugger, erlang-dialyzer, erlang-diameter, erlang-doc, erlang-edoc, erlang-eldap, erlang-erl-docgen, erlang-et, erlang-eunit, erlang-ftp, erlang-inets, erlang-manpages, erlang-megaco, erlang-mnesia, erlang-observer, erlang-odbc, erlang-os-mon, erlang-parsetools, erlang-public-key, erlang-reltool, erlang-runtime-tools, erlang-snmp, erlang-ssh, erlang-ssl, erlang-syntax-tools, erlang-tftp, erlang-tools, erlang-wx, erlang-xmerl, erlang-dev, erlang-src, erlang-examples, erlang-jinterface, erlang-mode, erlang-nox, erlang-x11, erlang"
+    "erlang-base, erlang-asn1, erlang-common-test, erlang-crypto, erlang-debugger, erlang-dialyzer, erlang-diameter, erlang-doc, erlang-edoc, erlang-eldap, erlang-et, erlang-eunit, erlang-ftp, erlang-inets, erlang-megaco, erlang-mnesia, erlang-observer, erlang-odbc, erlang-os-mon, erlang-parsetools, erlang-public-key, erlang-reltool, erlang-runtime-tools, erlang-snmp, erlang-ssh, erlang-ssl, erlang-syntax-tools, erlang-tftp, erlang-tools, erlang-wx, erlang-xmerl, erlang-dev, erlang-src, erlang-examples, erlang-jinterface, erlang-mode, erlang-nox, erlang-x11, erlang"
   ],
   "Build-Conflicts": [
     "autoconf2.13, libwxgtk2.4-dev, libwxgtk2.6-dev, libwxgtk2.8-dev, libwxgtk3.0-dev, libwxgtk3.0-gtk3-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), autoconf (\u003e= 2.71), openssl, libssl-dev, m4, libncurses-dev, unixodbc-dev, bison, flex, ed, zlib1g-dev, libwxgtk3.2-dev, libwxgtk-webview3.2-dev, libx11-dev, dctrl-tools, xsltproc, libgl-dev, libglu-dev, libsctp-dev [linux-any], libsystemd-dev [linux-any], erlang-base:native \u003ccross\u003e"
+    "debhelper-compat (= 13), autoconf (\u003e= 2.72), openssl, libssl-dev, m4, libncurses-dev, unixodbc-dev, bison, flex, ed, zlib1g-dev, libwxgtk3.2-dev, libwxgtk-webview3.2-dev, libx11-dev, dctrl-tools, libgl-dev, libglu-dev, ronn, libsctp-dev [linux-any], libsystemd-dev [linux-any], erlang-base:native \u003ccross\u003e"
   ],
   "Build-Depends-Indep": [
-    "libxml2-utils, fop, default-jdk | sun-java6-jdk"
+    "elixir-ex-doc (\u003e= 0.35.1+dfsg-4~) \u003c!nodoc\u003e, default-jdk | sun-java6-jdk"
   ],
   "Checksums-Sha1": [
-    "96f98bc9f07232e404ad8313ec0488a44c2d4adb 78376 erlang_25.2.3+dfsg-1+deb12u3.debian.tar.xz 6140b83699886a8de47c051722fa1cbf346dcc1a 5041 erlang_25.2.3+dfsg-1+deb12u3.dsc 17f9b115cb539f2f3688a207388a3eae67d8481b 48013400 erlang_25.2.3+dfsg.orig.tar.xz"
+    "7b5b2e6e9a38cc898734f38117e4ca6c4d4d5b1a 57580 erlang_27.3.4.1+dfsg-1.debian.tar.xz f06d43bb72fadbee37da3fbb0d39bc79f087c763 4910 erlang_27.3.4.1+dfsg-1.dsc c5e31111a88a6175bcdbb333ef2fdf172500a6ce 47613664 erlang_27.3.4.1+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "5c51cabd3b1059fdeaae4490ccefb5ffd9b96abe78158538b255df29680e0d8c 78376 erlang_25.2.3+dfsg-1+deb12u3.debian.tar.xz c4fe76f2f530f736793c96ce35f78b7ab8f8a934c11cc48ad82c87f9de84c9af 5041 erlang_25.2.3+dfsg-1+deb12u3.dsc 65c77675af31235d19ee7888fb2a9d858759b1089ba33126344697be7600d271 48013400 erlang_25.2.3+dfsg.orig.tar.xz"
+    "323037a5891893b70df4eabd1ac9f3e2d76f1465b54be40851d9374665eadee0 57580 erlang_27.3.4.1+dfsg-1.debian.tar.xz aa5ba0733c9842ff69147b4ed3706b8d6c92932a7bf3d3f040421ccb4114951a 4910 erlang_27.3.4.1+dfsg-1.dsc 0834643ef1e17886d5e334a39527d8429bcf50613b86d59d4757466f32984b7e 47613664 erlang_27.3.4.1+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "73d9e06ecf691e914b43128781329b8de1fda91dffc0f8859699c296dfa7b6ea49b08cd6154af398a5ee08e31fe10b3399677a4eb9979f624333651b3067490f 78376 erlang_25.2.3+dfsg-1+deb12u3.debian.tar.xz 9200fca7c9eb7cd076bebaf4a484452927b9be03de33a2c0d2b84245265a37d1a6474172ffe5565517d314da9bb5092e00e12501874737f30008b417c9e1a82b 5041 erlang_25.2.3+dfsg-1+deb12u3.dsc 1987bd19982f95715594ad30f594c60aea7108fdae08a87b8bd7ff9440b3b1aae50c1767fc5e3894b55ebe8799993cc1712fb7aaccfe6ea1ff61b22dfb37d89f 48013400 erlang_25.2.3+dfsg.orig.tar.xz"
+    "e55e020dd66f700201bbc917f433461874aef8bd07ef24bbc99e801127cfff9b2e40fa3a90fdadde7d1f0b215402bbb63c96f9b1f10b65c9c8edb4c18e0965ab 57580 erlang_27.3.4.1+dfsg-1.debian.tar.xz 961160cdbb18963a215776ec20eaf97b73eb81bee31294a032649f42d2f174761bab3e900cc067c9261c47d9bf00a89db7fdb056fa2497bf6aed124e46cbb2c5 4910 erlang_27.3.4.1+dfsg-1.dsc 9cc5ce400ffdf7a133c93b2bb7bb17e8cd1f187348bb8ceee5fdf629fa7a30bff720af58724ca86ce661c02b274c5ade536f2cd2b164cab070b6689d0a6f321a 47613664 erlang_27.3.4.1+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/e/erlang"
   ],
   "Files": [
-    "152290117c4ef2956f0271ab7c0dfeb8 78376 erlang_25.2.3+dfsg-1+deb12u3.debian.tar.xz 551797974183e8fa62ba00679dab58d8 5041 erlang_25.2.3+dfsg-1+deb12u3.dsc 68f00d5a9b77d45d45be87ab98fa1d15 48013400 erlang_25.2.3+dfsg.orig.tar.xz"
+    "e739685166d0c3e59e4d2041c57935b2 57580 erlang_27.3.4.1+dfsg-1.debian.tar.xz 75110b5f912e8613ea54b1169488e7f2 4910 erlang_27.3.4.1+dfsg-1.dsc 8e316a9e63f5c4167ba34596b146ab35 47613664 erlang_27.3.4.1+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,10 +42,10 @@
     "erlang"
   ],
   "Package-List": [
-    "erlang deb interpreters optional arch=all erlang-asn1 deb interpreters optional arch=any erlang-base deb interpreters optional arch=any erlang-common-test deb interpreters optional arch=any erlang-crypto deb interpreters optional arch=any erlang-debugger deb interpreters optional arch=any erlang-dev deb interpreters optional arch=any erlang-dialyzer deb interpreters optional arch=any erlang-diameter deb interpreters optional arch=any erlang-doc deb doc optional arch=all erlang-edoc deb interpreters optional arch=any erlang-eldap deb interpreters optional arch=any erlang-erl-docgen deb interpreters optional arch=any erlang-et deb interpreters optional arch=any erlang-eunit deb interpreters optional arch=any erlang-examples deb interpreters optional arch=all erlang-ftp deb interpreters optional arch=any erlang-inets deb interpreters optional arch=any erlang-jinterface deb interpreters optional arch=all erlang-manpages deb doc optional arch=all erlang-megaco deb interpreters optional arch=any erlang-mnesia deb interpreters optional arch=any erlang-mode deb interpreters optional arch=all erlang-nox deb interpreters optional arch=all erlang-observer deb interpreters optional arch=any erlang-odbc deb interpreters optional arch=any erlang-os-mon deb interpreters optional arch=any erlang-parsetools deb interpreters optional arch=any erlang-public-key deb interpreters optional arch=any erlang-reltool deb interpreters optional arch=any erlang-runtime-tools deb interpreters optional arch=any erlang-snmp deb interpreters optional arch=any erlang-src deb interpreters optional arch=all erlang-ssh deb interpreters optional arch=any erlang-ssl deb interpreters optional arch=any erlang-syntax-tools deb interpreters optional arch=any erlang-tftp deb interpreters optional arch=any erlang-tools deb interpreters optional arch=any erlang-wx deb interpreters optional arch=any erlang-x11 deb interpreters optional arch=all erlang-xmerl deb interpreters optional arch=any"
+    "erlang deb interpreters optional arch=all erlang-asn1 deb interpreters optional arch=any erlang-base deb interpreters optional arch=any erlang-common-test deb interpreters optional arch=any erlang-crypto deb interpreters optional arch=any erlang-debugger deb interpreters optional arch=any erlang-dev deb interpreters optional arch=any erlang-dialyzer deb interpreters optional arch=any erlang-diameter deb interpreters optional arch=any erlang-doc deb doc optional arch=all erlang-edoc deb interpreters optional arch=any erlang-eldap deb interpreters optional arch=any erlang-et deb interpreters optional arch=any erlang-eunit deb interpreters optional arch=any erlang-examples deb interpreters optional arch=all erlang-ftp deb interpreters optional arch=any erlang-inets deb interpreters optional arch=any erlang-jinterface deb interpreters optional arch=all erlang-megaco deb interpreters optional arch=any erlang-mnesia deb interpreters optional arch=any erlang-mode deb interpreters optional arch=all erlang-nox deb interpreters optional arch=all erlang-observer deb interpreters optional arch=any erlang-odbc deb interpreters optional arch=any erlang-os-mon deb interpreters optional arch=any erlang-parsetools deb interpreters optional arch=any erlang-public-key deb interpreters optional arch=any erlang-reltool deb interpreters optional arch=any erlang-runtime-tools deb interpreters optional arch=any erlang-snmp deb interpreters optional arch=any erlang-src deb interpreters optional arch=all erlang-ssh deb interpreters optional arch=any erlang-ssl deb interpreters optional arch=any erlang-syntax-tools deb interpreters optional arch=any erlang-tftp deb interpreters optional arch=any erlang-tools deb interpreters optional arch=any erlang-wx deb interpreters optional arch=any erlang-x11 deb interpreters optional arch=all erlang-xmerl deb interpreters optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Uploaders": [
     "Sergei Golovan \u003csgolovan@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/erlang-team/packages/erlang.git"
   ],
   "Version": [
-    "1:25.2.3+dfsg-1+deb12u3"
+    "1:27.3.4.1+dfsg-1"
   ]
 }

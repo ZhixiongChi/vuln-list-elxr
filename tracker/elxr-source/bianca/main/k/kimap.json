@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libkf5imap-data, libkf5imap-dev, libkf5imap5"
+    "libkimap-data, libkimap-dev, libkpim6imap6"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.99.0~), gettext, libkf5coreaddons-dev (\u003e= 5.99.0~), libkf5i18n-dev (\u003e= 5.99.0~), libkf5kio-dev (\u003e= 5.99.0~), libkf5mime-dev (\u003e= 22.12.3~), libsasl2-dev, libsasl2-modules, pkg-kde-tools (\u003e\u003e 0.15.15), qtbase5-dev (\u003e= 5.15.2~)"
+    "debhelper-compat (= 13), dh-sequence-kf6, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.6.0~), gettext, libkf6coreaddons-dev (\u003e= 6.6.0~), libkf6i18n-dev (\u003e= 6.6.0~), libkf6kio-dev (\u003e= 6.6.0~), libkmime-dev (\u003e= 24.12.3~), libsasl2-dev, libsasl2-modules, qt6-base-dev (\u003e= 6.7.0~)"
   ],
   "Checksums-Sha1": [
-    "91a585c67d729009f4f619347a8488f5d871781a 15404 kimap_22.12.3-1.debian.tar.xz 3cc14a1b5ee365c46beaff7705223329d3170993 2581 kimap_22.12.3-1.dsc 9d91c464bd21bd76225d11109b995dc339e52b5a 132612 kimap_22.12.3.orig.tar.xz 90d5ecf966b522177810f9c179a4293fde45909e 833 kimap_22.12.3.orig.tar.xz.asc"
+    "73d97bfe19b62586339c3187cb4a4f5b00c956f0 17156 kimap_24.12.3-1.debian.tar.xz e2cc5e20e7c472582c272fde2affcd2b16ea3d03 2658 kimap_24.12.3-1.dsc 953d5f934491a5e5f8982457bc356b606ee4430e 132408 kimap_24.12.3.orig.tar.xz 6fcf858bdf5cb3d719a7b2764a48eddc9e01a65e 833 kimap_24.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "02284c2980996c3144c4a57e6a395d881ff45aa35ad1996f02c16b1cebd95551 15404 kimap_22.12.3-1.debian.tar.xz 421db81f6dc0d8b8f51998a14afed1515df3241927085d645243f50362e19b7a 2581 kimap_22.12.3-1.dsc d2e0b742b003ca51619bdb955c7c961e8aebcf4bb6995f984ff539e2737dc5f6 132612 kimap_22.12.3.orig.tar.xz c9ed344c087914ff59a08682e3ee64ce00001643b1e195c4cc0cda8bb0cac28c 833 kimap_22.12.3.orig.tar.xz.asc"
+    "4e1bd031db0e66ba0af2ad75fa6daf5826258d139e2b2ce7e7f2225acaa06ad8 17156 kimap_24.12.3-1.debian.tar.xz 41a354f1f288fd1b18552db415719e7a462e1faba6461de1ec8afb91ea31c4dc 2658 kimap_24.12.3-1.dsc 751a0eda85aa7e084d97e7f83eada02c90fcd4c23f3e99523b9fb1a4bade6f3f 132408 kimap_24.12.3.orig.tar.xz cede97f96b87f8317c033f127a49b12f244d9a00df2f1cefacd9e9c844672f18 833 kimap_24.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "dfa498500710e1273681067335b1d71483316851143be012207d22aacc8eb6138dd45f6d5635a62c5852e656d5fe37d30f836532821a1483785dbe1675207e65 15404 kimap_22.12.3-1.debian.tar.xz 061e4b4780dedd672fea8262e8328272e9056be9068e71bc8bdf1e99dd9a61b7798623a23c732f099436023fcf977c9dcacfda93b962c53f3070c145b39b1574 2581 kimap_22.12.3-1.dsc 8c76567e62f5c378db9ce7953744ce76beea782b2aea31ea1cf43de7184c3ff0d4afb9935e23697b65b32d5541294d97fad52951ea69212751f8d1b24d934d4b 132612 kimap_22.12.3.orig.tar.xz c37d7e363340834efdac8c8ae873280cbb0f8972fb7d071727f5812b5e95ac29c94f9618e9a083be0455841afb9efff6d21ed4c9fdc9bda653d3eb30034b2bbd 833 kimap_22.12.3.orig.tar.xz.asc"
+    "1fe5fecdb123180526a779d0b2608bcda050d53df7343d4b17ca5150b8703c6e23e86340a159b80df6fbc3b325c1cdefda91a0c2e374ddc10fff182411100df9 17156 kimap_24.12.3-1.debian.tar.xz 23872619c5c6e5bb8f54ea09e635459657575b408bb0bed4c82ca2fb1af6605d5f535d5725b7a143ea83110eaee88de7c1ca02be17f16ba44b1b8b7372f3b096 2658 kimap_24.12.3-1.dsc e6b3cd6671d7da320f99edd2b212bbe5fbbf8e8a61544a46f581798c123620af82383e252476019cb1c1f30329af8137125b4b548019a891e199e7fee6591bd8 132408 kimap_24.12.3.orig.tar.xz aacd46b7a0f55f4d15c45505d2cb50c46e30bb5849486ba955c4a5b555e483cdb353c44070c94368969092de462d92e943ce9ee63d57d2b40da7e0b23c62c509 833 kimap_24.12.3.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/k/kimap"
   ],
   "Files": [
-    "0a507d9cd8b44872366c7f7ae3bc1e3d 15404 kimap_22.12.3-1.debian.tar.xz 3738fbe7deb62e2e5258cf6507ad198f 2581 kimap_22.12.3-1.dsc 8116e028620fb3770006c5a75905df8f 132612 kimap_22.12.3.orig.tar.xz 66c88c9207630bb80ab0666a46061043 833 kimap_22.12.3.orig.tar.xz.asc"
+    "f2e5c5cf427d6db4af1205dfdb59d42a 17156 kimap_24.12.3-1.debian.tar.xz be009baf1e357cb56154b55bc423a9e3 2658 kimap_24.12.3-1.dsc 31bf3d48706c4d84b0e93fc8937e6735 132408 kimap_24.12.3.orig.tar.xz 148643d648fd7c0c31589b6e94cbeb92 833 kimap_24.12.3.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "kimap"
   ],
   "Package-List": [
-    "libkf5imap-data deb libs optional arch=all libkf5imap-dev deb libdevel optional arch=any libkf5imap5 deb libs optional arch=any"
+    "libkimap-data deb libs optional arch=all libkimap-dev deb libdevel optional arch=any libkpim6imap6 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
     "Sandro Knauß \u003chefee@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kimap.git"
   ],
   "Version": [
-    "22.12.3-1"
+    "24.12.3-1"
   ]
 }

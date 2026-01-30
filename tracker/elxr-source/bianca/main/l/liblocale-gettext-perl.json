@@ -6,28 +6,31 @@
     "liblocale-gettext-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), perl:native, perl-xs-dev"
+    "debhelper-compat (= 13), locales-all \u003c!nocheck\u003e, perl-xs-dev, perl:native"
   ],
   "Checksums-Sha1": [
-    "9ae93fb297be06406671ab9af4aeb2e902bc8914 5516 liblocale-gettext-perl_1.07-5.debian.tar.xz f483020086770b94c9f49da96f582025062bbd40 2170 liblocale-gettext-perl_1.07-5.dsc a23d0b35269c8db49418fa8585a8dbbed6b8fefa 8651 liblocale-gettext-perl_1.07.orig.tar.gz"
+    "b83920d15b2eb91f6f132458bb51d2531fdb61d0 6516 liblocale-gettext-perl_1.07-7.debian.tar.xz 86fb917220c9284a040a9964407d705c2ae149d9 2458 liblocale-gettext-perl_1.07-7.dsc a23d0b35269c8db49418fa8585a8dbbed6b8fefa 8651 liblocale-gettext-perl_1.07.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "3cb323468a372f955d6297cc336fe8ec0edc9689382217f911608fcb1fbc5071 5516 liblocale-gettext-perl_1.07-5.debian.tar.xz 9fb44dbc97ef66198f74708629e1bbba906073f62ad6f94e026544164214270b 2170 liblocale-gettext-perl_1.07-5.dsc 909d47954697e7c04218f972915b787bd1244d75e3bd01620bc167d5bbc49c15 8651 liblocale-gettext-perl_1.07.orig.tar.gz"
+    "83ecf7ec5fee525b75d1114d8542c5d01e18b08f3a4cdd7d991cbf2a333db2d0 6516 liblocale-gettext-perl_1.07-7.debian.tar.xz 2d79df99c4c459114e162660c2db1c7383bf15d6391f621e859cae68fbfc5b66 2458 liblocale-gettext-perl_1.07-7.dsc 909d47954697e7c04218f972915b787bd1244d75e3bd01620bc167d5bbc49c15 8651 liblocale-gettext-perl_1.07.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "898d2be663a7a4c2e160f59a6e302e85315f041e3d06d775a95a761b49c334116ea699a1f19195e8ea261712cecad8e9e53159b3f0d3189d47a9b47a2145a82e 5516 liblocale-gettext-perl_1.07-5.debian.tar.xz 7896322d5f9913eda55dde75290a51b32acaf8814001de0825ea8a70623873a3f78793061c23f11b7dd696fb3c738b6d63a5906ea2068b6705be0a4872f284ff 2170 liblocale-gettext-perl_1.07-5.dsc d3716a597d586ee2ff29472ca7b13aaf67770299de31e5f12abafebc879bbe4a1e1dbc0025cf4f3dc29992955f26cffc3be387d974c3911af095d5b49e67a1c6 8651 liblocale-gettext-perl_1.07.orig.tar.gz"
+    "91bcdd4818947e5c6204910795937e3917d3fdfd060022c68c15c2bf8b155f431c11908b1c0ce8ee7848e6f9df298c1bce2a21b8cf9e542e5e71c17eca8eb590 6516 liblocale-gettext-perl_1.07-7.debian.tar.xz e66142a91881e038802f86e7d0005087301ed46385e7a72ccbe4b16cdee28b0d9746bdded245bd42dee3f19f92b5c298b88af25471712df5c2d0a9c37ec68778 2458 liblocale-gettext-perl_1.07-7.dsc d3716a597d586ee2ff29472ca7b13aaf67770299de31e5f12abafebc879bbe4a1e1dbc0025cf4f3dc29992955f26cffc3be387d974c3911af095d5b49e67a1c6 8651 liblocale-gettext-perl_1.07.orig.tar.gz"
+  ],
+  "Dgit": [
+    "3fcebdf51570a820ef09e7ec1e2998700fd3f751 debian archive/debian/1.07-7 https://git.dgit.debian.org/liblocale-gettext-perl"
   ],
   "Directory": [
     "pool/main/libl/liblocale-gettext-perl"
   ],
   "Files": [
-    "91859f4fbddbe76d5d7f7eea1aebd7b6 5516 liblocale-gettext-perl_1.07-5.debian.tar.xz 66dcb35602d7f1a7b6efcdadcc375e11 2170 liblocale-gettext-perl_1.07-5.dsc bc652758af65c24500f1d06a77415019 8651 liblocale-gettext-perl_1.07.orig.tar.gz"
+    "667190b20770c03e59c8cab1b8628c68 6516 liblocale-gettext-perl_1.07-7.debian.tar.xz 62be71977dab9eeed923b61542f56fba 2458 liblocale-gettext-perl_1.07-7.dsc bc652758af65c24500f1d06a77415019 8651 liblocale-gettext-perl_1.07.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://metacpan.org/release/gettext"
+    "https://metacpan.org/release/Locale-gettext"
   ],
   "Maintainer": [
     "Debian Perl Group \u003cpkg-perl-maintainers@lists.alioth.debian.org\u003e"
@@ -39,7 +42,7 @@
     "liblocale-gettext-perl deb perl required arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/liblocale-gettext-perl.git"
   ],
   "Version": [
-    "1.07-5"
+    "1.07-7"
   ]
 }

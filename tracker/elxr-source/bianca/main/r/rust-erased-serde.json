@@ -6,22 +6,22 @@
     "librust-erased-serde-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-serde-1+std-dev (\u003e= 1.0.63-~~) \u003c!nocheck\u003e, librust-serde-1-dev (\u003e= 1.0.63-~~) \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-serde-1+std-dev (\u003e= 1.0.166-~~) \u003c!nocheck\u003e, librust-serde-1-dev (\u003e= 1.0.166-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "715270a3ff7f9a85de482c044e341abae0950447 2952 rust-erased-serde_0.3.23-1.debian.tar.xz bdac6a0ca6ef6a3d71186bafeae24873397a105d 2480 rust-erased-serde_0.3.23-1.dsc 021c1bea0aa7d03a453f674589acc73cef834d05 25099 rust-erased-serde_0.3.23.orig.tar.gz"
+    "d81636b4d1f5ce1877b48c4176c33fff88cab428 2980 rust-erased-serde_0.3.31-1.debian.tar.xz 6c6e09a1157fa3ee915166d04bbeb5641d3a9911 2508 rust-erased-serde_0.3.31-1.dsc bdaced5acf31a4c27351726d5b4eb625c93977ce 24182 rust-erased-serde_0.3.31.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "adeea0013d3eb4e756b3a7640fea3231ae4a7cad86fd62e060646ce0c8a89440 2952 rust-erased-serde_0.3.23-1.debian.tar.xz 2d73218b07f60fa1075469fbc86850701fed1ceb8c01081f8d4ed35459c77e1f 2480 rust-erased-serde_0.3.23-1.dsc 54558e0ba96fbe24280072642eceb9d7d442e32c7ec0ea9e7ecd7b4ea2cf4e11 25099 rust-erased-serde_0.3.23.orig.tar.gz"
+    "642dda7289766e2c96b5593cdbd232bea59dbe52a1d109b09964de09d8316553 2980 rust-erased-serde_0.3.31-1.debian.tar.xz 99cb50e32c47bf5a81eb6b8105e5f1707b6f351f8bc8f47e027dc4a46acd3f8f 2508 rust-erased-serde_0.3.31-1.dsc 6c138974f9d5e7fe373eb04df7cae98833802ae4b11c24ac7039a21d5af4b26c 24182 rust-erased-serde_0.3.31.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "55ab1f9b43a4cf58a4a1e4c1c43618198007c4b83c3e6d71ae14974c870d6cbeb1fa43d0984c39254df9218d395d76509d4976df632640d7525ee71243f63ad1 2952 rust-erased-serde_0.3.23-1.debian.tar.xz 26152292e10752eda7d4c97ce10b06521206e55b58ace3f2cc9607ec13d0163bc7b043f36f53029d96b9884717ed7f5a9cd00759c05276e104d8fc3b1b6e3d7e 2480 rust-erased-serde_0.3.23-1.dsc e37e6f166fb2577dbd87c0e686848ae005e5c799d849ff280070153a1d33ad4fd7e7cc11d0348344898e3c33c456f1594683c33baff572f4bc99ac89cdb2bb53 25099 rust-erased-serde_0.3.23.orig.tar.gz"
+    "e44fe0c60c6d2e8a44a8c8d94e320cb84ee1b08a01b6c82e7f0513b8cca14baef56182c92a5b0e7130de4c0eae32fda89f51610def117f926e3548d86d6fcf6b 2980 rust-erased-serde_0.3.31-1.debian.tar.xz 550d0c0e1f7b8ddfc77a2da547112c0545ec0b4d0be56385a84c376213fae35bdca545cb45bfe9ec914ae4620f83f26b0e8410373b2e4d52c6fb9db614395fcf 2508 rust-erased-serde_0.3.31-1.dsc 7b6e32d759661f3dac18518c9af290efa7ce05ed861bbf3b97c7013c3fa06c06146d43a39dc48d5d5af3adc6db00df5cb9d4121573549da2059f9fd2ff55526b 24182 rust-erased-serde_0.3.31.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-erased-serde"
   ],
   "Files": [
-    "0205531201fb55a40336a0c5ae062474 2952 rust-erased-serde_0.3.23-1.debian.tar.xz a445811e1a25fed23e3d234d02001750 2480 rust-erased-serde_0.3.23-1.dsc 930dba126b6a6a5224cd17891d2d241e 25099 rust-erased-serde_0.3.23.orig.tar.gz"
+    "6d41fe52bf2993098fe98d9ff15a15a9 2980 rust-erased-serde_0.3.31-1.debian.tar.xz 73e21a6e0641e2097623743434e3dc06 2508 rust-erased-serde_0.3.31-1.dsc 8f4c1bea688391b96a267c35301a180a 24182 rust-erased-serde_0.3.31.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "librust-erased-serde-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/erased-serde]"
   ],
   "Version": [
-    "0.3.23-1"
+    "0.3.31-1"
   ]
 }

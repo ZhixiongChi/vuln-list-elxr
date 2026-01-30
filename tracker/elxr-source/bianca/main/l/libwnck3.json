@@ -6,22 +6,22 @@
     "libwnck-3-0, libwnck-3-dev, libwnck-3-common, gir1.2-wnck-3.0"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, docbook-xml, gettext (\u003e= 0.19.4), gtk-doc-tools (\u003e= 1.9), libgirepository1.0-dev (\u003e= 0.10), libglib2.0-dev (\u003e= 2.44), libglib2.0-doc, libgtk-3-dev (\u003e= 3.22.0), libgtk-3-doc, libstartup-notification0-dev (\u003e= 0.7), libx11-dev, libxext-dev, libxres-dev, meson (\u003e= 0.50.0)"
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, docbook-xml, gettext (\u003e= 0.19.4), gtk-doc-tools (\u003e= 1.9), libgirepository1.0-dev (\u003e= 0.10), libglib2.0-dev (\u003e= 2.44), libglib2.0-doc, libgtk-3-dev (\u003e= 3.22.0), libgtk-3-doc, libstartup-notification0-dev (\u003e= 0.7), libx11-dev, libxext-dev, libxi-dev, libxres-dev (\u003e= 2:1.2), meson (\u003e= 0.50.0)"
   ],
   "Checksums-Sha1": [
-    "ee4e4348070a576547eb18396c93e7041f707276 14284 libwnck3_43.0-3.debian.tar.xz 06bdab99008b742c3f696f80de6534af2995dff7 2523 libwnck3_43.0-3.dsc fb3a66bfcd4296983712ba3c95d6560ba2494cfe 455464 libwnck3_43.0.orig.tar.xz"
+    "f0560b106aa1af025ee82c6ac4d82cbe552d30af 11524 libwnck3_43.2-1.debian.tar.xz e6faf3f63e19eaa862d229b301f463427e08be17 2545 libwnck3_43.2-1.dsc fa0e479a75171ea85efbbdad7a0ab922a51456b5 455644 libwnck3_43.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "78f3c42105726930d76f9e88842f45e5ae4cb57c119af977b625e75125d75911 14284 libwnck3_43.0-3.debian.tar.xz a4d38fef673d8c6df45655da93e2eac2730d98ce613d2fa8d63f6020f8e9c94f 2523 libwnck3_43.0-3.dsc 905bcdb85847d6b8f8861e56b30cd6dc61eae67ecef4cd994a9f925a26a2c1fe 455464 libwnck3_43.0.orig.tar.xz"
+    "eccde766a2c4c785efc585d223e48b1882887b3a241892cabac94a438b144d14 11524 libwnck3_43.2-1.debian.tar.xz 54d9a72c233a057501c91f56c63d67948b6468f1faf2690672f69600c8ad6056 2545 libwnck3_43.2-1.dsc 55a7444ec1fbb95c086d40967388f231b5c0bbc8cffaa086bf9290ae449e51d5 455644 libwnck3_43.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "59b43e4752e3537ffe36ae6c9fe4b1a17cc66906c6999f78fc77a483ad66b1863300458b27749e6cc932629308fd580bf4ead3a1f9ab9f852f0f7d2bc46794cc 14284 libwnck3_43.0-3.debian.tar.xz 6e6b6cf1c8c44e95c30df602df4e2606bd94c66083faa73c85c13fbb085d5df05b12bd86feabbe040fa2b128da83fd704c53af8269ac9ac631e54af8828e1b92 2523 libwnck3_43.0-3.dsc f6c14b0a650c6d5ab4d4013e6add3972a0f0bcdedfb9785f64199c9a65713d11c9d936e8b04d0f04707c3d165dd345bfa806f654bf82eabb765546b8914d68d2 455464 libwnck3_43.0.orig.tar.xz"
+    "0769cb63c29d636678242832e6ee9f9d305ec2ea799e4283601925bc2ceb1f922da8691c107a7000079212680d73d0d6398d5206025c850205e7755a786893bd 11524 libwnck3_43.2-1.debian.tar.xz 007bc7b8bf953c233b7f89f88ab3c8062190ad66cb1efdf25bd5dd43dc528f2842e8c63ce798d997155ead3adafaf30913d541f7e9d210c3e8ef36d0f88367b7 2545 libwnck3_43.2-1.dsc c2f327f3aa757d9120a12de3d87d91ac452ea4a06abfa6de8145548df5175c0445e30fd93045c0e869d80efddc954cde0e25f4247be422801cd92bed40057e5b 455644 libwnck3_43.2.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libw/libwnck3"
   ],
   "Files": [
-    "2c6a7eb7f9eb2081c051c7e4b0800add 14284 libwnck3_43.0-3.debian.tar.xz 87d5bd3b96277d772e9ec87bb19b07ec 2523 libwnck3_43.0-3.dsc cd21ef743a1e9286554401c5b28d5ec6 455464 libwnck3_43.0.orig.tar.xz"
+    "c1df252a238581d8d1178c32285806f7 11524 libwnck3_43.2-1.debian.tar.xz ba0ae53a4eef3ccd16022d72ef058305 2545 libwnck3_43.2-1.dsc b8c29ef589d3427c8a699c1542a2d25e 455644 libwnck3_43.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "gir1.2-wnck-3.0 deb introspection optional arch=any libwnck-3-0 deb libs optional arch=any libwnck-3-common deb libs optional arch=all libwnck-3-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Uploaders": [
     "Dmitry Shachnev \u003cmitya57@debian.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/libwnck3.git"
   ],
   "Version": [
-    "43.0-3"
+    "43.2-1"
   ]
 }

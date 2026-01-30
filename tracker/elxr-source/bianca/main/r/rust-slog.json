@@ -6,22 +6,22 @@
     "librust-slog-dev, librust-slog+erased-serde-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11), dh-cargo (\u003e= 18), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "7c1e731cbbe899616aff00c98c52d5ca28f34966 3068 rust-slog_2.5.2-1.debian.tar.xz d379ded0523dcf51913d6d3ac6dbe1750b07f69b 2244 rust-slog_2.5.2-1.dsc 532dbebd732b0ade91f5cac8fe3a0fa5eecb1bb7 43204 rust-slog_2.5.2.orig.tar.gz"
+    "2f7aea82997b65a40ad4b5bb933f8e27e299ef5f 3740 rust-slog_2.7.0-1.debian.tar.xz 0e24157fe597b05aba99c7c41dc23083be29dc41 2253 rust-slog_2.7.0-1.dsc dd6b0a72ac00becc778c713007b1b21b5421d1d2 45432 rust-slog_2.7.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "86162d58bb2698d16f69d322e966d8bfd29ff1910238ef35afe677936426fb24 3068 rust-slog_2.5.2-1.debian.tar.xz c74d8e624fcf3c93fdf3cf196077f74a09dbbf01b9051fad1cc1777085fe25a5 2244 rust-slog_2.5.2-1.dsc 1cc9c640a4adbfbcc11ffb95efe5aa7af7309e002adab54b185507dbf2377b99 43204 rust-slog_2.5.2.orig.tar.gz"
+    "3736b888e5a0c888ef214f253cb019733a0fec14b034480a3f25622228bd2830 3740 rust-slog_2.7.0-1.debian.tar.xz 476301ddcdd032c3b362d96e14a98507c97304f12ab547a4977c522594b18484 2253 rust-slog_2.7.0-1.dsc 8347046d4ebd943127157b94d63abb990fcf729dc4e9978927fdf4ac3c998d06 45432 rust-slog_2.7.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "52ec2eb1ebaf4416898b840ae2b86c093056465379d3b9511000764d3d15c7f24f15a4551647fefb2ddccac9ec4a05fa106ee9208fd0a72e3adc6846cdd31d6c 3068 rust-slog_2.5.2-1.debian.tar.xz 00cfa659f12e69b23525e37b84fbae6a7258a8ef3c629cd57648fe50ac1938d13d8dcfa82ee71a3f53b0b535eb25bf63bf3dadcf15fdf2c2229bac5cdacbde9d 2244 rust-slog_2.5.2-1.dsc f6772595240abd8aeb1644d40007db7640331491543ea5633f1c3cf7ef6b802dca50069a7b2bee8476c42e23884b39d8d2af3025576c13c851f41649924cc6df 43204 rust-slog_2.5.2.orig.tar.gz"
+    "7c0a690c5f58291f6f247dc3d940c52fcbaad64d312cbe8a6e316141a4a136c8f51d2e83ef3d87e1ddc09fd9926c15e591adf75d514547419cff609ff05802b5 3740 rust-slog_2.7.0-1.debian.tar.xz e61973a19491e80e9d0851cc0b07c2ec214f59ccc3b4cd2beaa46a4ab8e6defb8e81c8b9b512f7cc8cad86256fc85a80bb326cbd66aa0da52407bc2dfcbd2b77 2253 rust-slog_2.7.0-1.dsc 13bab46e288596d856adac80a6481d803646f27ef7bc1669ee2f7667b321b33beceb050348007a0ef28d0722bb597fed2139eef4685d01269ffe271830d1b15b 45432 rust-slog_2.7.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-slog"
   ],
   "Files": [
-    "d5cbc9f90020bc7a90a3b9a61f4121d5 3068 rust-slog_2.5.2-1.debian.tar.xz f407559e49cf942edd71538da804fca6 2244 rust-slog_2.5.2-1.dsc cdd5b5fb1a33b31a894ed81f74b50578 43204 rust-slog_2.5.2.orig.tar.gz"
+    "f898e965b529fb37102043fc72362ddd 3740 rust-slog_2.7.0-1.debian.tar.xz 29b79983f72b87c2d067d3da971ede5b 2253 rust-slog_2.7.0-1.dsc 78865067090b5d64219a81c713082cff 45432 rust-slog_2.7.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "librust-slog+erased-serde-dev deb rust optional arch=any librust-slog-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.2.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo"
+    "dh-cargo, rustc"
   ],
   "Uploaders": [
     "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/slog]"
   ],
   "Version": [
-    "2.5.2-1"
+    "2.7.0-1"
   ]
 }

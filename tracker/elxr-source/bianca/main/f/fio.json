@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "fio, gfio, fio-examples"
+    "fio, fio-examples"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libaio-dev [linux-any], zlib1g-dev, librdmacm-dev [linux-any], libibverbs-dev [linux-any], librbd-dev [linux-any], libgtk2.0-dev, libcairo2-dev, libnuma-dev [linux-any], flex, bison, sphinx, python3-sphinx, libglusterfs-dev, libpmem-dev [amd64 arm64 ppc64el], libpmemblk-dev [amd64 arm64 ppc64el], libnbd-dev"
+    "debhelper-compat (= 13), libaio-dev [linux-any], zlib1g-dev, librdmacm-dev [linux-any], libibverbs-dev [linux-any], librbd-dev [linux-amd64 linux-arm64 linux-loong64 linux-ppc64el linux-ppc64 linux-riscv64 linux-mips64el linux-s390x linux-ia64 linux-sparc64], libcairo2-dev, libnuma-dev [linux-any], flex, bison, sphinx, python3-sphinx, libglusterfs-dev [amd64 arm64 loong64 ppc64el ppc64 riscv64 mips64el s390x ia64 sparc64], libpmem-dev [amd64 arm64 ppc64el], libnbd-dev, libnfs-dev"
   ],
   "Checksums-Sha1": [
-    "27f8e4340ef0cc3d40ecef5ac036f271b5dcfc6f 22064 fio_3.33-3.debian.tar.xz 148238206ab19c2f9ff264b9185d4d77822d8cfb 2415 fio_3.33-3.dsc dc60f93161aa411935dd23710516524597147624 6185325 fio_3.33.orig.tar.gz 6e9d09135c1679c29768fa5a6fe5d377cf7545a8 858 fio_3.33.orig.tar.gz.asc"
+    "cfd07d2ad2a1ee60664b8eef7435cb46142c9b76 23032 fio_3.39-1.debian.tar.xz 98a2814f7e646b086c9ddadc95be91726b154912 2527 fio_3.39-1.dsc 1308444e55ada3de2d0a24a9289c8e3e2b46c30a 7738032 fio_3.39.orig.tar.gz 38a63a9f2ee6d1ca6753e9deae0e7398129fd204 858 fio_3.39.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "796ef40f7f1de5b4d3698024b4c56eb1b7b86fb1fef58ec41c966deebbafd515 22064 fio_3.33-3.debian.tar.xz c2f0b96e94e7484369d4010b083b022a5f831bc688d92e4e517c20137947dfbc 2415 fio_3.33-3.dsc d2410e13e0f379d061d077cc5ae325835bb7c6186aa7bafc1df954cbc9b014fc 6185325 fio_3.33.orig.tar.gz 3391c3bbac03bf56d7abe6bb1cfeaf1a1118110e00c6206cfc861d33fbabb9ea 858 fio_3.33.orig.tar.gz.asc"
+    "993973cb04fd5e1816bfbd9812032c0fbf84128c6996b74c8dec983e34734946 23032 fio_3.39-1.debian.tar.xz df35458618892a099b6d41b018e1d28f724f615310ea6f51a3b3448eb3c16e19 2527 fio_3.39-1.dsc 501237032d617fb5dd3752974242e8c741fe345f4efa2492d52ccd5ddf945d7b 7738032 fio_3.39.orig.tar.gz 8a91fff14244bd06969ee4fefec14ccadaa502fd95e4bf95668bdf2baf58a911 858 fio_3.39.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "6a8f10283bfe16afb6504543655acda624773e64c28738d92f0bed38d7140f4636ca9296bfcccecd5471f15a3ad017b04d8c253a3b3c74a947b32bacda611ad6 22064 fio_3.33-3.debian.tar.xz f89d6ac8b4afd7b4cf2a1d673ffccb4eb0a938a2d2f381185e248468ad8ad41f8d0e887bcf65c293da9945b2ef4bf15bdb5c32cd4cfffb58955792ddc3644388 2415 fio_3.33-3.dsc 3929a711b3e598c5407427e5dc4458ba38a411863c2b3e7e60a60dc0f1cc1eb743c709cf0b0e82ed3f52f31aa55eebccf59993ee6497e5b7bf3180ba123ef8ca 6185325 fio_3.33.orig.tar.gz 32a5d821f5451b1c6395a6969510e6b99e3ae4ca448c6f8a4ffb7115d3bfb72e9d6d690c72d8850c3b19912f494cfca9d6cce21ca1ddd5d7d34eecd24318f783 858 fio_3.33.orig.tar.gz.asc"
+    "6c994dddff0e825e73fecf87736a155495e60bfb83b48a596e41dad6b07fe1d81781fa956a7349a7824c36ee92d4e60a3febb516487bbbdf56c662f99b3990af 23032 fio_3.39-1.debian.tar.xz 3ec22729655ef13dcad36c3751faebfd6b07e820c786b686982457c63d920fcce9591dc0cf611e45bc4dce4c3889b8a48a7d351ca0e90f57145795eb5238d61d 2527 fio_3.39-1.dsc 08a6cd01641eb7c10ec3a025a18efcee8ae66bd89c959e7ed1ef0d0cea6a9118e1ca9b9ca847d9f500dfc50306979b9944b0efc98598013c7aac81640c25b413 7738032 fio_3.39.orig.tar.gz eafa483193ffe45b03015e73e36c247450f6cb4746d20c3cd94776307981ffa9c83ce893c347efd7c767c61e23f5ef39a651cc7ed1013e28ed0f3dd9063fdef6 858 fio_3.39.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/f/fio"
   ],
   "Files": [
-    "790b93e7682dd212273856638c596bf0 22064 fio_3.33-3.debian.tar.xz 11aa5305d4dd8839dad4cea3c9b81359 2415 fio_3.33-3.dsc 709d1385de95294fea7146a5f0d5675d 6185325 fio_3.33.orig.tar.gz 0dca42b7cb1c6358d4a7e1e55794e4af 858 fio_3.33.orig.tar.gz.asc"
+    "92ff1e3769f6a43cdea6779b8aeec110 23032 fio_3.39-1.debian.tar.xz 708c9cd6dedb27c0892f8c6c3f28f731 2527 fio_3.39-1.dsc ae260e422ebc6632f51d1491352c2abd 7738032 fio_3.39.orig.tar.gz d3db43f152898d2d78978a566289f6da 858 fio_3.39.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "fio"
   ],
   "Package-List": [
-    "fio deb utils optional arch=any fio-examples deb utils optional arch=all gfio deb utils optional arch=any"
+    "fio deb utils optional arch=any fio-examples deb utils optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/fio"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/fio.git"
   ],
   "Version": [
-    "3.33-3"
+    "3.39-1"
   ]
 }

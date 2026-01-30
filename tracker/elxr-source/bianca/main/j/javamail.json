@@ -3,25 +3,25 @@
     "all"
   ],
   "Binary": [
-    "libmail-java, libmail-java-doc"
+    "libmail-java"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), default-jdk, default-jdk-doc, javahelper, junit4, libactivation-java, libbuild-helper-maven-plugin-java, libmaven-bundle-plugin-java (\u003e= 2.3.7-2~), libmaven-dependency-plugin-java, libmaven-install-plugin-java, libmaven-javadoc-plugin-java, libmaven-source-plugin-java (\u003e= 2.1), maven-debian-helper (\u003e= 1.6.7)"
+    "debhelper-compat (= 13), default-jdk, javahelper, junit4, libactivation-java, libbuild-helper-maven-plugin-java, libmaven-bundle-plugin-java (\u003e= 2.3.7-2~), libmaven-dependency-plugin-java, libmaven-install-plugin-java, libmaven-source-plugin-java (\u003e= 2.1), maven-debian-helper (\u003e= 1.6.7)"
   ],
   "Checksums-Sha1": [
-    "9e3b65da370b4d05889911eecfc13d1f9746a694 12844 javamail_1.6.5-2.debian.tar.xz 956197a76e9484217a3d6dc49da3fed01cd39181 2146 javamail_1.6.5-2.dsc 2df79c185529f3adec8367a89c7d118cdb09bf5d 696656 javamail_1.6.5.orig.tar.xz"
+    "48f0830fb61d52c8c0c1cf507bec8755526ac4a3 12708 javamail_1.6.5-3.debian.tar.xz 51560ed976e90960271b90262ff327722407b6d3 2211 javamail_1.6.5-3.dsc 2df79c185529f3adec8367a89c7d118cdb09bf5d 696656 javamail_1.6.5.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "298498890d0e116001b2fc378e263843fd2c220a22db87f11b941d62bdfd739b 12844 javamail_1.6.5-2.debian.tar.xz c7dcf2f2f16fe162c60eadb50837a553cc44294a7bd69af6cdcbcced27b6b610 2146 javamail_1.6.5-2.dsc cc0e132a4e013377720fa88b87eb4f8b7bec1ae2cee35d42e07e37afe4bcd736 696656 javamail_1.6.5.orig.tar.xz"
+    "3856be375347dd21081ec9416e12b68c5fca739ac49470f58f5ca12bd1be2f7a 12708 javamail_1.6.5-3.debian.tar.xz 04a6047bc271601a37d10bdfd0fbed3be4c6fb2919888e71697a425f4bd8c4ab 2211 javamail_1.6.5-3.dsc cc0e132a4e013377720fa88b87eb4f8b7bec1ae2cee35d42e07e37afe4bcd736 696656 javamail_1.6.5.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "7f5c9ba462fa3f2b839a0b1f32e2408499e6fa907ff13cb87ad68bac8d97790ef0d73ed6d5bbae826e280070a14de0273540878e9dada1f45f1abc5926e16d2e 12844 javamail_1.6.5-2.debian.tar.xz 14b684e26916a227fcc281b9119d77edbcaa022f1728d2934259c80bef804bfca8a43420152eadaae959d7b4645830e6db9b49de0e2c3797eee02ed60a8d5538 2146 javamail_1.6.5-2.dsc 1a9ca56c109b972b8765124a168cef626d389684b2fecf2c0bffb2f06569ad58e607aa706baabd7f1f387a2fd5b36ba8f9e77bef855bedfcc9a5c433a15d670b 696656 javamail_1.6.5.orig.tar.xz"
+    "8cbf1c1bb1efceb19654d1d8230f1c7483c14b89d62c2e1d96f1b440536ee8a838996317df7028296537854b1e93cfa34497394c2b562f95456a4893e5d0b24b 12708 javamail_1.6.5-3.debian.tar.xz c584ba7c490c926d15b01f7dbf9bf101032adaae3d0c08187a58803a01e1a474953baa97c8f434e8fd8a45279ee354fefa54b0b3c01e2e5585726c09edbf8ecf 2211 javamail_1.6.5-3.dsc 1a9ca56c109b972b8765124a168cef626d389684b2fecf2c0bffb2f06569ad58e607aa706baabd7f1f387a2fd5b36ba8f9e77bef855bedfcc9a5c433a15d670b 696656 javamail_1.6.5.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/j/javamail"
   ],
   "Files": [
-    "ddda22f7f460dce34d56e14e285ea0a0 12844 javamail_1.6.5-2.debian.tar.xz b2d23118e9c1cc3541984e3e5d0b1e5c 2146 javamail_1.6.5-2.dsc 399e372f410fe774371bf6d02edb790a 696656 javamail_1.6.5.orig.tar.xz"
+    "932eeff3085b8f965a7ab5e1a08c61a6 12708 javamail_1.6.5-3.debian.tar.xz 2ae43035cfbad49040e4355e691307ad 2211 javamail_1.6.5-3.dsc 399e372f410fe774371bf6d02edb790a 696656 javamail_1.6.5.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "javamail"
   ],
   "Package-List": [
-    "libmail-java deb java optional arch=all libmail-java-doc deb doc optional arch=all"
+    "libmail-java deb java optional arch=all"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.7.0"
   ],
   "Uploaders": [
     "Emmanuel Bourg \u003cebourg@apache.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/java-team/javamail.git"
   ],
   "Version": [
-    "1.6.5-2"
+    "1.6.5-3"
   ]
 }

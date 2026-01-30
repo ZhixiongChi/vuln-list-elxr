@@ -6,28 +6,28 @@
     "libjansi-native-java"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11), default-jdk, libhawtjni-runtime-java, maven-debian-helper, libmaven-bundle-plugin-java"
+    "debhelper-compat (= 13), default-jdk, libhawtjni-runtime-java, maven-debian-helper, libmaven-bundle-plugin-java"
   ],
   "Checksums-Sha1": [
-    "0acbe079419a84165439b86f181d053dcb79f566 2628 jansi-native_1.8-1.debian.tar.xz c8e8fc1c22b9d519bb33b73152dcadc9cd697425 2008 jansi-native_1.8-1.dsc b23e59c3ea45f8ee198c3909ac50607c73195677 26360 jansi-native_1.8.orig.tar.xz"
+    "de24acca606635f87ae18d0987ad0a34af75b28d 2772 jansi-native_1.8-2.debian.tar.xz 26bacdc6f78fc04c6dd197918c5ec8fd906830d7 2071 jansi-native_1.8-2.dsc b23e59c3ea45f8ee198c3909ac50607c73195677 26360 jansi-native_1.8.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "1691890f6050ae09b11dd331b753f4863dbb056df284aa585a89a58d533aa4cc 2628 jansi-native_1.8-1.debian.tar.xz e87c6d96e0c3a7571f16bab614adbf7d7e7a3be04d1e5370702bf23122ad29b3 2008 jansi-native_1.8-1.dsc ae44f4315b392f54065ebd3eafb6d05cc0521fdec6746805bc90b45c04aa7064 26360 jansi-native_1.8.orig.tar.xz"
+    "cc3d312d4d403e1bce62a9088c5b574615a0f05c056669fddd020806e3083e6a 2772 jansi-native_1.8-2.debian.tar.xz f1f5e64d2fda7930f7665b5cfbf517e60ea6270bb6b2102e7e2ab2804dcb78a0 2071 jansi-native_1.8-2.dsc ae44f4315b392f54065ebd3eafb6d05cc0521fdec6746805bc90b45c04aa7064 26360 jansi-native_1.8.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "78f4abaa731f4acabe956b92bad1861e510a026c1fe42a8eac732c4c0590c1a90bff1e6f00c87ff58fe904339006ff4fd39794b1ef7202f2db075a709ab73f56 2628 jansi-native_1.8-1.debian.tar.xz 65e31b34be300bcc44f0f1dd8c8b870b120ab684cbfb13504256c00da13c8a39ea0b8b39684baf5e697edf2e3b493dd34ba7439bf45cb558b173f64cb77ccd5b 2008 jansi-native_1.8-1.dsc 2162c661b31268419e93f43f6f872e782bb8049db76e51cf7355a7ab66a193caada35f8f615666fbf34ece17c40d969f0d5ef985d6565398a3e64c41b0a51080 26360 jansi-native_1.8.orig.tar.xz"
+    "a3ea12c7f6fe103fc1f391c4671f6c5619ced57ee7d32db8ee83c167f4524d927415f182970e90a05a7613f6a190239b4d27f096e1528f3199b6898ca106ddf7 2772 jansi-native_1.8-2.debian.tar.xz 45156117cc715c44951c2a13409d6ba94007d2a670ae13bc75675c7304067eea60bdc6813ed86fadd183cb75d8c3d4d6227c368b4a13cbc5b68a1851e7bdefba 2071 jansi-native_1.8-2.dsc 2162c661b31268419e93f43f6f872e782bb8049db76e51cf7355a7ab66a193caada35f8f615666fbf34ece17c40d969f0d5ef985d6565398a3e64c41b0a51080 26360 jansi-native_1.8.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/j/jansi-native"
   ],
   "Files": [
-    "9d588c87dcca5043d6bb534dfac9fbd7 2628 jansi-native_1.8-1.debian.tar.xz fa5abd2b9bb7a9bb7c377e07c8da9861 2008 jansi-native_1.8-1.dsc d90305533de9ba69da22f899dfa72ddf 26360 jansi-native_1.8.orig.tar.xz"
+    "88422c45ace2a043381e80ea83ee8633 2772 jansi-native_1.8-2.debian.tar.xz a8728b56d2e971f0bb1fa3afae3fee83 2071 jansi-native_1.8-2.dsc d90305533de9ba69da22f899dfa72ddf 26360 jansi-native_1.8.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://jansi.fusesource.org/"
+    "https://fusesource.github.io/jansi/"
   ],
   "Maintainer": [
     "Debian Java Maintainers \u003cpkg-java-maintainers@lists.alioth.debian.org\u003e"
@@ -39,7 +39,10 @@
     "libjansi-native-java deb java optional arch=all"
   ],
   "Standards-Version": [
-    "4.2.1"
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "tony mancill \u003ctmancill@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/java-team/jansi-native"
@@ -48,6 +51,6 @@
     "https://salsa.debian.org/java-team/jansi-native.git"
   ],
   "Version": [
-    "1.8-1"
+    "1.8-2"
   ]
 }

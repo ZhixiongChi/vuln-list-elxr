@@ -6,22 +6,22 @@
     "python3-kiwisolver"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), pybuild-plugin-pyproject, python3-all-dev, python3-cppy (\u003e= 1.2.0), python3-pkg-resources, python3-pytest \u003c!nocheck\u003e, python3-setuptools"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all-dev, python3-cppy (\u003e= 1.2.0), python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm"
   ],
   "Checksums-Sha1": [
-    "41a3304fcdaab0aa0cc19168244b450ec2b606a8 3244 kiwisolver_1.4.4-1.debian.tar.xz 72fd5c80e125805125575ba427663f4482703222 2084 kiwisolver_1.4.4-1.dsc dd2b3fa54aeec1316386f97b3b2116c33bc30292 79200 kiwisolver_1.4.4.orig.tar.xz"
+    "e9cac103e8835706b89584d8e78cdf05f03902c4 3684 kiwisolver_1.4.7-3.debian.tar.xz f0f84d8f651ef3d99fe841f77b508bd24c2c6b51 2167 kiwisolver_1.4.7-3.dsc 1b8c076b4a32c62615f7cc547e7f3014c39477bf 97286 kiwisolver_1.4.7.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "9908119d8a1cf22aebc5faf43d808df5523d74aa921bc76740ac5b7ba2565540 3244 kiwisolver_1.4.4-1.debian.tar.xz 023fa32763a2b044711ed1edcd6ce821212af5c9cab7c92c9d616fd1c8f6b189 2084 kiwisolver_1.4.4-1.dsc 458af4e5421863b20e6e3f209d11ff51e9775f574144d9e358221d6d3e276b13 79200 kiwisolver_1.4.4.orig.tar.xz"
+    "3001a0e68e832510af6ed3326fff5e6d9135a9198e6bcca42767512487f3ca1e 3684 kiwisolver_1.4.7-3.debian.tar.xz 3d437ed9e1c23656d16a83d3713aa9d36f97a1eb2c5f47fb5792fbac37323dc1 2167 kiwisolver_1.4.7-3.dsc 9893ff81bd7107f7b685d3017cc6583daadb4fc26e4a888350df530e41980a60 97286 kiwisolver_1.4.7.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "2aa2b5d1be97f21dd2d5576303f23a60cd107a0c1335bb6edeebd929a8221daba30cec1c3568aa275d115cde8b0f67b1c41be6e034efeaedc49054dfe417ff58 3244 kiwisolver_1.4.4-1.debian.tar.xz 00bad2ca27cdc10ba61cf8bcf25c43d330029e7e598835c4cf0d8949b368c9bba49062b96129375ce193b405c575a0e5a73c48cff68b96ef1ee41435db8fdcc7 2084 kiwisolver_1.4.4-1.dsc 6927494fd125618841a49dd6fe50016418220291b3fd5b7283d82af71742f9d93a14e49712488a1cfac38a1090df0d10d5d06cbab9f06e776c3929d0bcfcca62 79200 kiwisolver_1.4.4.orig.tar.xz"
+    "435a85e454b4ea592b7f6174d7cb75b332dad57bf463168a4db13b0f2e1e36ce4997d0a442a7cc9c680ba1d32595ff7f56a3e870b54af8497479091aeb1e2460 3684 kiwisolver_1.4.7-3.debian.tar.xz 4456a99cbff4a97cb49d60ef16fcef0c85ee3175f1d09bd97204db1c94142a8cc99079bbad098225f212a7d4f170c63f46092d3c7dd1ff84dd1a1c8e7ff3702f 2167 kiwisolver_1.4.7-3.dsc 60d5ca8595bc8c727f8704577ec3dac0b5a18529a64395fbf9dddbbbb3045c600881db5f9bc01e8c2b881eb288b0531a2862d7f4082f03d22282c5534d067462 97286 kiwisolver_1.4.7.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/k/kiwisolver"
   ],
   "Files": [
-    "3fa8a426b9f2c6f66c50d74b5b33c9d7 3244 kiwisolver_1.4.4-1.debian.tar.xz a8e5d7a71fe5661c7ffa573842a91826 2084 kiwisolver_1.4.4-1.dsc 8feae8b8de4320c6505d52662eb5ef8e 79200 kiwisolver_1.4.4.orig.tar.xz"
+    "d6031b63bef83010d334f091674c2631 3684 kiwisolver_1.4.7-3.debian.tar.xz 7e8bb47f21b419aed214b67feaab2fef 2167 kiwisolver_1.4.7-3.dsc 3e1406c57a4fdce3804096f57a9b4855 97286 kiwisolver_1.4.7.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://github.com/nucleic/kiwi"
   ],
   "Maintainer": [
-    "Sandro Tosi \u003cmorph@debian.org\u003e"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
   ],
   "Package": [
     "kiwisolver"
@@ -39,10 +39,13 @@
     "python3-kiwisolver deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2.0"
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-python"
   ],
   "Uploaders": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
+    "Emmanuel Arias \u003ceamanu@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/kiwisolver"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/kiwisolver.git"
   ],
   "Version": [
-    "1.4.4-1"
+    "1.4.7-3"
   ]
 }

@@ -6,22 +6,25 @@
     "libyaml-libyaml-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libyaml-dev (\u003e= 0.2.4), perl-xs-dev, perl:native"
+    "debhelper-compat (= 13), libencode-perl \u003c!nocheck\u003e, libscalar-list-utils-perl \u003c!nocheck\u003e, libtest-simple-perl \u003c!nocheck\u003e, libyaml-dev (\u003e= 0.2.4), perl-xs-dev, perl:native"
   ],
   "Checksums-Sha1": [
-    "8c2a68b4a1b6ec4c599aa3594bd68f233eaa3f30 6276 libyaml-libyaml-perl_0.86+ds-1+deb12u1.debian.tar.xz d85bcdbd07be3dbce56cc4b12706ad68568e5a9e 2358 libyaml-libyaml-perl_0.86+ds-1+deb12u1.dsc 6e26cd2c5fecceaf22778639e9fabdcde1abedf4 82192 libyaml-libyaml-perl_0.86+ds.orig.tar.xz"
+    "68c34194a9461049c67c19bd6803a5adf164d43d 6068 libyaml-libyaml-perl_0.903.0+ds-1.debian.tar.xz 9d8a3640719758b08b8263946fdac0c79d365cb7 2550 libyaml-libyaml-perl_0.903.0+ds-1.dsc df88526f84669b9d45ac90bb9ea6fbb58b08d0ad 83648 libyaml-libyaml-perl_0.903.0+ds.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "766ce88fa492711159ea3e00f28ca921741c215add810dbeddf69d10c4ec2af4 6276 libyaml-libyaml-perl_0.86+ds-1+deb12u1.debian.tar.xz 13e3fb6ceb39cb10ca804187637bfdd6325a15b9e80d925dabe078dfac86970e 2358 libyaml-libyaml-perl_0.86+ds-1+deb12u1.dsc f0daba3a3500fe4469a376ff668d338a055b60f6a67f9da84cd0afe9605b3bf7 82192 libyaml-libyaml-perl_0.86+ds.orig.tar.xz"
+    "fd4d5862affb5ca2ced7ba12cee8efa8ec28a395bd7ac9c52b65ac8d0a3fe56f 6068 libyaml-libyaml-perl_0.903.0+ds-1.debian.tar.xz 15a1cb0e8de6471f08f94668478ffca746d73882a7488635eb60637749eebd7d 2550 libyaml-libyaml-perl_0.903.0+ds-1.dsc 80aee95459bb84fc05aed31543c2ac6934f9c7662a5225ca94e470924cb6e36f 83648 libyaml-libyaml-perl_0.903.0+ds.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "412a65e2af68adf590c8aea54b5f96a7cd1a819362cb0c50d98ef45a5834ef7906ef5e1c74230236e5e92ad46b62c5ce7b262cb30d9f4612ec47c21783ee04bf 6276 libyaml-libyaml-perl_0.86+ds-1+deb12u1.debian.tar.xz d6c37ddc565a1db224296dc348b74c323ad1209daad805a7eba96b08dbe18b5b6e912d646351145746c9649f07061b78e12009aade5ac6aadc768aeb5c829041 2358 libyaml-libyaml-perl_0.86+ds-1+deb12u1.dsc a07bc38a1d59a3b6e74f34af6b0ceb7d66569588929e7385e8f6cb88b3eb81401c18b5938df723c08e9bc2ed7b9d8122701758bea55dfc52dc382d09d7390ce0 82192 libyaml-libyaml-perl_0.86+ds.orig.tar.xz"
+    "84cf42c4e31c034627fd76caae40a572923b320cdebcf69f072887043bd24e9a7df2905dacd4949f809c6a650861ceadc243f21ccae5f5d4c1834afa0fb3187c 6068 libyaml-libyaml-perl_0.903.0+ds-1.debian.tar.xz b4c48641834d46ee618ff23179da3f3da5413a93bc296056c35cedd840a6f83cbfc1153fa18bb264a36b6c3ff58ba121764e9106031f4d40259522a6c6f2a28b 2550 libyaml-libyaml-perl_0.903.0+ds-1.dsc 926eca7fff4fc838f463a4342fa008eaed7594a793fe4c5908a8c6ef05061de7a0629680e7938e9e79b275e8e8692e1e14455164a273ca2117fc2f881fb53bad 83648 libyaml-libyaml-perl_0.903.0+ds.orig.tar.xz"
+  ],
+  "Dgit": [
+    "d13cbc087546b1aa13b49153bb26550aea5cb260 debian archive/debian/0.903.0+ds-1 https://git.dgit.debian.org/libyaml-libyaml-perl"
   ],
   "Directory": [
     "pool/main/liby/libyaml-libyaml-perl"
   ],
   "Files": [
-    "c5ae3d9b710e0e3ca1e6ee1d87e5caae 6276 libyaml-libyaml-perl_0.86+ds-1+deb12u1.debian.tar.xz 0ef8e86ca9ff7f9ce2ce1214223c6268 2358 libyaml-libyaml-perl_0.86+ds-1+deb12u1.dsc 7dc1ebf8bc2044367122af908e4eba71 82192 libyaml-libyaml-perl_0.86+ds.orig.tar.xz"
+    "e75ee1b13d1470be2671cfb0ba945aea 6068 libyaml-libyaml-perl_0.903.0+ds-1.debian.tar.xz 9ffb1b7a74e6a63f98f021151b16c031 2550 libyaml-libyaml-perl_0.903.0+ds-1.dsc 1e4e37398c5aa7a395ce28cdb9819dd0 83648 libyaml-libyaml-perl_0.903.0+ds.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +42,7 @@
     "libyaml-libyaml-perl deb perl optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libyaml-libyaml-perl.git"
   ],
   "Version": [
-    "0.86+ds-1+deb12u1"
+    "0.903.0+ds-1"
   ]
 }

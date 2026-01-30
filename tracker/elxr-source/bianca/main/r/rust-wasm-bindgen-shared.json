@@ -6,22 +6,22 @@
     "librust-wasm-bindgen-shared-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.57) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "828dd09b113dbf14ecb074bdb55992cfafb54f74 2844 rust-wasm-bindgen-shared_0.2.83-1.debian.tar.xz 10cbd5bd9bde2fed8f177f4ec50bfd5cd32b0ba9 2350 rust-wasm-bindgen-shared_0.2.83-1.dsc 3d51eeff4e8aaa7f8e4bc5180362eba873ad1902 7194 rust-wasm-bindgen-shared_0.2.83.orig.tar.gz"
+    "63c4143d3d3e08a2c7ea4f775c10b3b6bf5c4d4f 2880 rust-wasm-bindgen-shared_0.2.99-1.debian.tar.xz ecbc20378aea81d073eb1b6497d0b4b04d86bda4 2374 rust-wasm-bindgen-shared_0.2.99-1.dsc cc32ec2ae28e9e7b33757979952406edcd82ed47 7773 rust-wasm-bindgen-shared_0.2.99.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "e7b5f17baa657de73be6bd1e6fdb5fa2bb173d460967b7aa8a82ddebe789d862 2844 rust-wasm-bindgen-shared_0.2.83-1.debian.tar.xz 93a0f2a020511158a939fe6814462a844046c8ff86e97077a280498e37c1c8cc 2350 rust-wasm-bindgen-shared_0.2.83-1.dsc 1c38c045535d93ec4f0b4defec448e4291638ee608530863b1e2ba115d4fff7f 7194 rust-wasm-bindgen-shared_0.2.83.orig.tar.gz"
+    "3a85da4924d0ec0010ff6083fc7f7ec13b631e8239d1b1c2a9b2bcce82a232cd 2880 rust-wasm-bindgen-shared_0.2.99-1.debian.tar.xz 98cd5fb1399d26d0101be14423eb2d9f90abde7bde66e5e5a445f51fba4e3e6d 2374 rust-wasm-bindgen-shared_0.2.99-1.dsc 943aab3fdaaa029a6e0271b35ea10b72b943135afe9bffca82384098ad0e06a6 7773 rust-wasm-bindgen-shared_0.2.99.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "075660b0b7c2fd57b227d634c8d0ec65a328081cec7c5a270ea7a7c0351925ee967f205b09b2c895495da922f2103cddc01de591ad1f592b6a4a7407e6bda2ab 2844 rust-wasm-bindgen-shared_0.2.83-1.debian.tar.xz 8f162b9ef627e5ec276d7061481f0eda948e0ac326124f9ae6ef5330626007bfcd5829615c2e3bbf64b4acf69ee8f0dec4a26dd7d513f350b5d44ca4582a3ccc 2350 rust-wasm-bindgen-shared_0.2.83-1.dsc 2bfc1a068fa41a9ecacce7bda494fc0485c57ccb102c1d76c87a42e00ad30b944b0cb788642e8339d050a0e831ce8306844a77292ab9f79ed765b65cdb4765e7 7194 rust-wasm-bindgen-shared_0.2.83.orig.tar.gz"
+    "89fced26fe79e3be19ab1ed37d61d69beecc1ec1c43de4ec206f46fa7695480bd478123f1513167b23e599dcd4834dc282f14ad7ac6fce811fedabd75e4ce213 2880 rust-wasm-bindgen-shared_0.2.99-1.debian.tar.xz 23a46b29422d944a69e5e31a1e9a5f647b888bb99cdc3ae865688854408334ca645393523f3ea8a64a11ece395bf17ce3cea859585e37ac1e544792c2ddb15ef 2374 rust-wasm-bindgen-shared_0.2.99-1.dsc 8da0f107be99b6666cf1859d68ac0a7295fc03e7b494fce1df9dbe57d21807de8e2bc95f5b974562303923ca4646f38c5297588ad7c97bd59ef236218b2a64f9 7773 rust-wasm-bindgen-shared_0.2.99.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-wasm-bindgen-shared"
   ],
   "Files": [
-    "068c103fb9ba304f79b69df13c334edb 2844 rust-wasm-bindgen-shared_0.2.83-1.debian.tar.xz beecfbf2f846e96dd8808c3123b89450 2350 rust-wasm-bindgen-shared_0.2.83-1.dsc 2444d343904d41ce5b8b8964b7bbaa6c 7194 rust-wasm-bindgen-shared_0.2.83.orig.tar.gz"
+    "a288ba0d90887f2fa0973a5983e973e5 2880 rust-wasm-bindgen-shared_0.2.99-1.debian.tar.xz 2ece591055198593abc151aaff4097b7 2374 rust-wasm-bindgen-shared_0.2.99-1.dsc 09e5e23866dd421df94d176aa03bfc61 7773 rust-wasm-bindgen-shared_0.2.99.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "librust-wasm-bindgen-shared-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo"
+    "dh-cargo, rustc"
   ],
   "Uploaders": [
     "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, kpcyrd \u003cgit@rxv.cc\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/wasm-bindgen-shared]"
   ],
   "Version": [
-    "0.2.83-1"
+    "0.2.99-1"
   ]
 }

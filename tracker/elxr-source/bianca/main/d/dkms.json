@@ -3,25 +3,25 @@
     "all"
   ],
   "Binary": [
-    "dkms, dh-dkms"
+    "dkms, dh-dkms, dkms-test-dkms, dkms-noautoinstall-test-dkms, dkms-replace-test-dkms"
   ],
   "Build-Depends": [
     "debhelper-compat (= 13)"
   ],
   "Checksums-Sha1": [
-    "ebd846ab5941199f45ed7bec92ed9ab88393c126 26232 dkms_3.0.10-8+deb12u1.debian.tar.xz 8fa1445836c8030299d6a53fd400df432a4ed766 2180 dkms_3.0.10-8+deb12u1.dsc b43cb2462325e810aecf23a57d601210d61ea580 89602 dkms_3.0.10.orig.tar.gz"
+    "096cc08b706a20d9ae87b00fda0306e30554db28 25504 dkms_3.2.2-1~deb13u1.debian.tar.xz 687d9672e6da84017b13da74b0299f4e66c06ac3 2417 dkms_3.2.2-1~deb13u1.dsc 72f49d5ddcc970507871c62a74027aaeccea1a71 110268 dkms_3.2.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "7cd0b69eb8a8722c8dd9fea7c40b300b8d8379d48f54ba043c39121fff29bf05 26232 dkms_3.0.10-8+deb12u1.debian.tar.xz 1d0bcd5e464b2401f6a40597b4b41396f22a5afb83cd8b9cdf1ca0451acba6f5 2180 dkms_3.0.10-8+deb12u1.dsc 1eba13bf3a2c140c21e9ba31c1db9e9b8eac55658291340b0e50b965565f9ef7 89602 dkms_3.0.10.orig.tar.gz"
+    "f6791a0ac6ac6277a2c0cdb9bb9b438308050ce52339210d91535ea52978ceb6 25504 dkms_3.2.2-1~deb13u1.debian.tar.xz 25beac84d46c2224ea0bce59a48304e84d04d47513ba0dcf85a5f6b00fc9400d 2417 dkms_3.2.2-1~deb13u1.dsc 23e40a2b2e60047002727425e2307617d9899e51bfe22306a2c874259ed9605a 110268 dkms_3.2.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "375cb0eb33608b38b92143e49d48b52414944a1b465fa383654ac949f8565f93dae348637fcf591e92151f04a20e44cb8225bc3e0ddb2e2176a1b333569f2cdb 26232 dkms_3.0.10-8+deb12u1.debian.tar.xz fccbc89b2d9406aee7047a1378171607cdaf3c5b2850efa2bda061e4cbae0e3cebd5c50a5c625e1810efded23725457d8c54a24a27d58fd5bb424b3d0408c8e1 2180 dkms_3.0.10-8+deb12u1.dsc b271453497a004177137e972cb45cacb2dd3ac124a1fd2526218cf690f5ce77250195e73b6f9c75de4661a718d928e546bd85770ab98c2fd9af44fe777492ad7 89602 dkms_3.0.10.orig.tar.gz"
+    "d1cb91ba2cb84112bab17ee9d178cd504ee8ef80a8df3b4425d93f4e4d31f9bd21a95d3aa5a0d29e2171fab42f71014d82d3bd52fdc27760b7562f18603093ae 25504 dkms_3.2.2-1~deb13u1.debian.tar.xz 06bb350d62d6cd89a8a77e50844e2c1351d1d8391c035692d89e399755f2a439f73e2eb9da9ebeeff43162e035dfcc9c9ba90fb9e8a3de96297acd9e48b26fa2 2417 dkms_3.2.2-1~deb13u1.dsc 600566129d6fb781795e1017d8f829b5c1e5ff32d1f0549ecca3dd13abc391b57ae4d778f76e3659d8861032fdb564470c0a99825724e0d1af34bdeb619769ee 110268 dkms_3.2.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/d/dkms"
   ],
   "Files": [
-    "691604e9ab6b53f092de93c5c0fee18b 26232 dkms_3.0.10-8+deb12u1.debian.tar.xz 18ae5528ab23eae6f3220b0378ca1adf 2180 dkms_3.0.10-8+deb12u1.dsc ef0b8e85e6ebb49e48695663be28fbaa 89602 dkms_3.0.10.orig.tar.gz"
+    "b22d54c9867039dd6bb83285cc52321b 25504 dkms_3.2.2-1~deb13u1.debian.tar.xz ee0984ca86730a38e1a038fd2c3a17c7 2417 dkms_3.2.2-1~deb13u1.dsc 41ce8cf99e97cfd84842ff833e7c68d8 110268 dkms_3.2.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,19 +36,19 @@
     "dkms"
   ],
   "Package-List": [
-    "dh-dkms deb kernel optional arch=all dkms deb kernel optional arch=all"
+    "dh-dkms deb kernel optional arch=all dkms deb kernel optional arch=all dkms-noautoinstall-test-dkms deb kernel optional arch=all dkms-replace-test-dkms deb kernel optional arch=all dkms-test-dkms deb kernel optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
-    "autopkgtest"
+    "autopkgtest, autopkgtest-pkg-dkms"
   ],
   "Testsuite-Triggers": [
-    "linux-headers-generic, openssl"
+    "linux-headers-generic, linux-headers-rpi, linux-image-generic, openssl"
   ],
   "Uploaders": [
-    "David Paleino \u003cdapal@debian.org\u003e, Petter Reinholdtsen \u003cpere@debian.org\u003e, Aron Xu \u003caron@debian.org\u003e, Mario Limonciello \u003cMario_Limonciello@dell.com\u003e, Andreas Beckmann \u003canbe@debian.org\u003e,"
+    "David Paleino \u003cdapal@debian.org\u003e, Petter Reinholdtsen \u003cpere@debian.org\u003e, Aron Xu \u003caron@debian.org\u003e, Andreas Beckmann \u003canbe@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/dkms"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/dkms.git"
   ],
   "Version": [
-    "3.0.10-8+deb12u1"
+    "3.2.2-1~deb13u1"
   ]
 }

@@ -6,25 +6,28 @@
     "librust-clap-lex-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-os-str-bytes-6+raw-os-str-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.74) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "9d534608426c037febadae7785a9423ce23a7f94 2692 rust-clap-lex_0.3.0-1.debian.tar.xz 4310b3a8c7b9c90d1d7d5d3859afb7a21edef5a3 2165 rust-clap-lex_0.3.0-1.dsc 8ac1b5c7342020ae1bebd1708db3365bd478cf56 9671 rust-clap-lex_0.3.0.orig.tar.gz"
+    "29786fe855c749b0d4d19d4c9181cc9333da6e18 2816 rust-clap-lex_0.7.4-1.debian.tar.xz 1815e669546ac02db76c0d04b5043fad30d81dc5 2244 rust-clap-lex_0.7.4-1.dsc 1eb0b1210f79cecda332f2dfc48f0a5a21d3f0f7 12858 rust-clap-lex_0.7.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "f62b7846f45848de8cf3827796e2af2142a3930ee4f4263fe4937340d508072f 2692 rust-clap-lex_0.3.0-1.debian.tar.xz 0856bde4f59801600689de4acb1034bc047c167607b4ef1bd4cce1f668daa8b5 2165 rust-clap-lex_0.3.0-1.dsc 0d4198f73e42b4936b35b5bb248d81d2b595ecb170da0bac7655c54eedfa8da8 9671 rust-clap-lex_0.3.0.orig.tar.gz"
+    "cd65a4da9b6f2d7c184341bdf043877ce81663b1e34a9b0b56f90ac3673b28d3 2816 rust-clap-lex_0.7.4-1.debian.tar.xz de53d2ba1aed0f5eb646184767c3bb64140d035e2fc96cb3743b0092df1b1158 2244 rust-clap-lex_0.7.4-1.dsc f46ad14479a25103f283c0f10005961cf086d8dc42205bb44c46ac563475dca6 12858 rust-clap-lex_0.7.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "4706417a3e54ef772c63c6587e5b2ba5d04486c81f6d8f483950bb98d3ef6f07b702beb432d99b173f8556a4be6bd10620e853c3fdbce1aef9f70ec963d492f8 2692 rust-clap-lex_0.3.0-1.debian.tar.xz 3a797d2f18aa77f3a5274f83c72cc11f9bdd06ce5daf7a0610b5e23fdfc1346126f63e99f047f98a6ce1957952d62b0240fd2b76a07ebdf2446ae5f5ed69bdd0 2165 rust-clap-lex_0.3.0-1.dsc 5e601d540e46e527f6a2ea1959fa5aa035ad823008806f3a5adb4785f1928de4c9fe04e61680c64bcb87ed32b2e991951ec27c5cc5acdcfae51cdc61767ff100 9671 rust-clap-lex_0.3.0.orig.tar.gz"
+    "a0e78cd5f31c1f80bed6c52f4f2aa7d3248d617cbf885b8994c00be67f1e065c8b5a0e94e0d703c2a79438870607dabe9c42cd27de92a815c0affae2bd4f9ede 2816 rust-clap-lex_0.7.4-1.debian.tar.xz f42a33346d7a68aaf0f29798e5a4c1748f4a3ba774a75f50a3d6e181e3bd0c53e7522357d0482bfcfe8fcd9702a7b881957b747725c0e4f7dddbb6b70390a4e4 2244 rust-clap-lex_0.7.4-1.dsc a2566868f4619679d3b74b70592ffa6a04b13e38e3196c56bb1dae8bea0c711bddbccd778d2aba3cc0ee074c9b1cc0335222818f0d47fb3cc8109cbc35bb992e 12858 rust-clap-lex_0.7.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-clap-lex"
   ],
   "Files": [
-    "97f5ae61617aca56de11d31d28e297f9 2692 rust-clap-lex_0.3.0-1.debian.tar.xz 8a9d7a18bb4d5b00662ab59dbdd86666 2165 rust-clap-lex_0.3.0-1.dsc ce4e3a5dfad6932a907b9a663065c627 9671 rust-clap-lex_0.3.0.orig.tar.gz"
+    "76e27e7e12491812afe9834d49da9c41 2816 rust-clap-lex_0.7.4-1.debian.tar.xz 81f3fc87deba661a9f6fa4acdc4a78e5 2244 rust-clap-lex_0.7.4-1.dsc a3ae20980b5ce5831255acfe0d77d1ee 12858 rust-clap-lex_0.7.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/clap-rs/clap"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,13 +39,13 @@
     "librust-clap-lex-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo"
+    "dh-cargo, librust-automod-1+default-dev, rustc"
   ],
   "Uploaders": [
     "Reinhard Tartler \u003csiretart@tauware.de\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/clap-lex]"
   ],
   "Version": [
-    "0.3.0-1"
+    "0.7.4-1"
   ]
 }

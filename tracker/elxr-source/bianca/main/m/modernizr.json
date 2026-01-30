@@ -6,22 +6,22 @@
     "libjs-modernizr"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), uglifyjs"
+    "debhelper-compat (= 13), node-doctrine, node-lodash, node-markdown-it, node-mkdirp, node-requirejs, node-yargs, uglifyjs"
   ],
   "Checksums-Sha1": [
-    "6cb6b8311e0169f107a21b2d2f500e9ab7b73fde 3200 modernizr_2.6.2+ds1-5.debian.tar.xz e3dbfa30f82f96ab55ce42e928a6c574716ca7dc 1965 modernizr_2.6.2+ds1-5.dsc 9aa196f742083b6865729ffa9d885dc0460fae8f 210884 modernizr_2.6.2+ds1.orig.tar.gz"
+    "ba92d467b6b75034280fa2843088afbd583bfbe9 5740 modernizr_3.13.0-0.1.debian.tar.xz ecb70a8a389b292f291af544273b3852561339d9 2072 modernizr_3.13.0-0.1.dsc 3fd585b2df0806ca8dfc1e1d811a15b61d21ab45 682822 modernizr_3.13.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "9dd1991d8806ffa277d401d939996cd8d23e22200d917b0cc042449d34cec89c 3200 modernizr_2.6.2+ds1-5.debian.tar.xz fdf2952b99070c3589396da56a098f720ef548ecee467fd0c2304c5454fcb666 1965 modernizr_2.6.2+ds1-5.dsc c1d91d2728d12edfd8a662123b9e45121d7793b4ae787ffcfbb3cc7d4fb3d815 210884 modernizr_2.6.2+ds1.orig.tar.gz"
+    "00b95ed163b83ca46c23d179c1eb98596719f5e3a390c7562bc1d4b24cadbca3 5740 modernizr_3.13.0-0.1.debian.tar.xz ea90ec7765cd7d089db27242c7899bacaa1a9e006751e377c776c4bb554ba65e 2072 modernizr_3.13.0-0.1.dsc b498c1d82559fa7d56123dd8ca0d45b988a810fa7f51471dc5239fd5625e00e7 682822 modernizr_3.13.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "4acd4874cb0f3415e507d9d56722aa4b173f19285a7765868084c34ab4e90f4bd6227c5f4d8a8d88f1f7189e01d3d37fd69c8c6dd051e30f225d5005c753d7fc 3200 modernizr_2.6.2+ds1-5.debian.tar.xz 0a47095fe3cb4ea2ca31f4700168359fb23150507b306aa127f8eb4490bb6b41877927d382a95d99500b3d3a12a2ca39fcb1d5105adf9abd81b7fb6f4666ae27 1965 modernizr_2.6.2+ds1-5.dsc e0a6ed7e2a56847bed72ad8f953d1a97fd1c4ae7114ed9ebe8082e1fbb70fd3fdd4012193498eb24e97ce191dcd035f47cbfaa0d5b12bf89b84a8956fce13768 210884 modernizr_2.6.2+ds1.orig.tar.gz"
+    "6b7b5b220b197c1d72ffe17904fdfc7e6e631af6ff7f841bbd15eacc1ab32b0fd869d60245b1525cb63f84cf9b314284eb5d029e57583f0078c38fb8c581a2f4 5740 modernizr_3.13.0-0.1.debian.tar.xz ef07a8b17e64b6c481e4ffbf22e0ff57acc3bea33113350f7d368363fa550668045e474f8c285c9c7425860b066f788af87df4b4787d6716a9f84a806da5002e 2072 modernizr_3.13.0-0.1.dsc e1eb94e22819104f5e2186891439fc8ce38e5f46544b6694a5747233c579d1d69aac61dfdbdc8d789b90fa8d826f5d2b563da3bb3cd152e90b8dab54a54c6224 682822 modernizr_3.13.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/m/modernizr"
   ],
   "Files": [
-    "bbc10ec7773db5625c746a6e436f60b8 3200 modernizr_2.6.2+ds1-5.debian.tar.xz af85412dda94b0746a992950274fe609 1965 modernizr_2.6.2+ds1-5.dsc 13326d5eabf278fc6475874a7e556c66 210884 modernizr_2.6.2+ds1.orig.tar.gz"
+    "4e249e5d867b14ecd96d6d71d085c252 5740 modernizr_3.13.0-0.1.debian.tar.xz ae2c75699a7e6358772a705240e25351 2072 modernizr_3.13.0-0.1.dsc f5eaba99f91c48d187af7378e80ba01c 682822 modernizr_3.13.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libjs-modernizr deb javascript optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Uploaders": [
     "David Paleino \u003cdapal@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/js-team/modernizr.git"
   ],
   "Version": [
-    "2.6.2+ds1-5"
+    "3.13.0-0.1"
   ]
 }

@@ -6,25 +6,25 @@
     "intltool"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 11), gnome-pkg-tools (\u003e= 0.10), perl (\u003e= 5.8.1)"
+    "debhelper-compat (= 13), dpkg-build-api (= 1), perl (\u003e= 5.8.1)"
   ],
   "Build-Depends-Indep": [
     "libxml-parser-perl"
   ],
   "Checksums-Sha1": [
-    "0b4db93a589e538340eaaa3d923dcbeeb623b38f 8732 intltool_0.51.0-6.debian.tar.xz 62a37258443039fc1f6894a07318cf26b2b3b8d4 2171 intltool_0.51.0-6.dsc a0c3bcb99d1bcfc5db70f8d848232a47c47da090 162286 intltool_0.51.0.orig.tar.gz"
+    "e2c6fe0012eb5423cd26b8ac7b096518a75753dd 8904 intltool_0.51.0-7.debian.tar.xz cad3f5e18f21cf81690d7435e7a68922a2256710 2060 intltool_0.51.0-7.dsc a0c3bcb99d1bcfc5db70f8d848232a47c47da090 162286 intltool_0.51.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "e7bd8e9953effe7ca81c04e1416764b795843e6c1e4753ce41d40b8423dd2913 8732 intltool_0.51.0-6.debian.tar.xz ee60571c0cf639ac74418975aed37828331d0903d1902527bc4d07d5b716a4db 2171 intltool_0.51.0-6.dsc 67c74d94196b153b774ab9f89b2fa6c6ba79352407037c8c14d5aeb334e959cd 162286 intltool_0.51.0.orig.tar.gz"
+    "b4177572a28c3d83f384495251b4906f144842885cf26cee3b099926e0fda106 8904 intltool_0.51.0-7.debian.tar.xz 3bd7b57e6ec7166d245bcfaab0dc52faf759fde4a9547d6d687dee58c64881c8 2060 intltool_0.51.0-7.dsc 67c74d94196b153b774ab9f89b2fa6c6ba79352407037c8c14d5aeb334e959cd 162286 intltool_0.51.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "3b9a5c8651f37ae3b2c3af4de102a92d02d72f41f55d43b63dc34f7599ed6fba8adc28d623610163e41a7c64f7881d8a7e6a27233fb6850125308f88c4bec6b2 8732 intltool_0.51.0-6.debian.tar.xz f1bebb7b1e9c71c22075019df0374081e27c58f7b667eb1280f90dce28a9c9ba8c8646b483d27cd061026a3af2300622111c9224f36303d853c504dcae3a15e9 2171 intltool_0.51.0-6.dsc 4c93cb26592ed0b1622d3b7800b5d6622ffa36f58ac73f2ef0bddfab522565fdfb8fa73d81914b9a202f1d62bc995a08960f8adb9f62c86918e75498e85fbfdf 162286 intltool_0.51.0.orig.tar.gz"
+    "bd010eb3ef126badef354c85c15c665f4eb9b17555b2a6b0d9114b44060975868035733156732d56bca547ab9b5293bba45db8b5d8b9266c540f05f23270fb22 8904 intltool_0.51.0-7.debian.tar.xz 0086440a3f5932b0fca10b24b8731b4d3424c7692791e6b1f96ccc76f7f19ae8a7502f94e4daeaf0d944899f4462ea68430a28c1b48472cd906cc0ede3c2dea3 2060 intltool_0.51.0-7.dsc 4c93cb26592ed0b1622d3b7800b5d6622ffa36f58ac73f2ef0bddfab522565fdfb8fa73d81914b9a202f1d62bc995a08960f8adb9f62c86918e75498e85fbfdf 162286 intltool_0.51.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/i/intltool"
   ],
   "Files": [
-    "715514ed42bdd09e72db2f14e9fe1882 8732 intltool_0.51.0-6.debian.tar.xz 12c5937c89eefa2309f7f5062ac60939 2171 intltool_0.51.0-6.dsc 12e517cac2b57a0121cda351570f1e63 162286 intltool_0.51.0.orig.tar.gz"
+    "af05b81661438c3b13952be598525aaa 8904 intltool_0.51.0-7.debian.tar.xz 31f3f77691bb4283af3acee206e5e304 2060 intltool_0.51.0-7.dsc 12e517cac2b57a0121cda351570f1e63 162286 intltool_0.51.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,10 +42,10 @@
     "intltool deb devel optional arch=all"
   ],
   "Standards-Version": [
-    "4.2.1"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bicha \u003cjbicha@debian.org\u003e, Jordi Mallach \u003cjordi@debian.org\u003e, Josselin Mouette \u003cjoss@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e, Sebastian Dröge \u003cslomo@debian.org\u003e"
+    "Iain Lane \u003claney@debian.org\u003e, Jordi Mallach \u003cjordi@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/intltool"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/gnome-team/intltool.git"
   ],
   "Version": [
-    "0.51.0-6"
+    "0.51.0-7"
   ]
 }

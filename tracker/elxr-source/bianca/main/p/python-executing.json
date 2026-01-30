@@ -6,22 +6,22 @@
     "python3-executing"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-asttokens \u003c!nocheck\u003e, python3-littleutils \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm, python3-toml, python3-wheel"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-asttokens \u003c!nocheck\u003e, python3-ipython \u003c!nocheck\u003e, python3-littleutils \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm, python3-toml, python3-wheel"
   ],
   "Checksums-Sha1": [
-    "83e0e7f7b252f12c153caa90b06c52d5d372c2de 2748 python-executing_1.2.0-2.debian.tar.xz 0865620f7ebdf77db1d929ebe1edb0744ace9211 2178 python-executing_1.2.0-2.dsc 5790b6451a21277652ba159401a94e430c4cf625 663650 python-executing_1.2.0.orig.tar.gz"
+    "8e3c944cee0f40a49b6e330cbba7a97f61159f8d 3792 python-executing_2.2.0-0.1.debian.tar.xz 85f8c366d5291cd41fa0fecb15dfb01ee929478b 2346 python-executing_2.2.0-0.1.dsc c7e0b541d5f302763e53d215234254d6da8a5153 953576 python-executing_2.2.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "5e331265a3159d3c894624ba5978914c1c03ad0e2516db7546b94d3d45d65e29 2748 python-executing_1.2.0-2.debian.tar.xz 0b3b37c5053cffd255e67a997bb0ad3607aefd2262d25a367b7ca5357738c454 2178 python-executing_1.2.0-2.dsc abc57b0391cc890489c90b53ccbcf9223bdc1d3a6783c5556ef4d064a61a2905 663650 python-executing_1.2.0.orig.tar.gz"
+    "54803f3c17c8206ddca2bd31a59c18bf84927de3c775a8b16e323c8a52131d2c 3792 python-executing_2.2.0-0.1.debian.tar.xz 4d574b7673f07e877a957555e961099cb81f5a0f884448a747c683b53e069b8a 2346 python-executing_2.2.0-0.1.dsc 561720ea44c5208b3310da0ba83731eb41896b6a6e4405f3fccf6a78d7d1d1ea 953576 python-executing_2.2.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "3f3df9e059b35bd4299a136f75c8ba4ffd87c7c8429fe666443d9728c1744fb331942f52e3b869782fa5ac1427470fd4a4e2467c2012d1aa2e47778a1177245e 2748 python-executing_1.2.0-2.debian.tar.xz 2784c93c92551781373526cee694ff79c6adeb992fa444b806eaf6ab15d747288ae9333126ed18f4727900b682b4f62251ef43563ff53d64b4c7719113536a7f 2178 python-executing_1.2.0-2.dsc c841958cc499b2d78c94570bf0556933d4a58ca5541f7a59e591be6036926ab79d5ae86bb95bbf649f3c3fb729109fe50cf04fbc72692e0cfe12edaa995ea0a6 663650 python-executing_1.2.0.orig.tar.gz"
+    "5aecd8ff86d397790e3e4355c9a54e776f4d1ed043f16990bcc6234e9cb5696373fef07bc9b0d7027f16c785a08de41497b065441d380dfffac31ec5888b6980 3792 python-executing_2.2.0-0.1.debian.tar.xz 442a49c720d6e13c01bd432e14e98437a0ec90c71b8c182cfde0957f931531318c15d987653085f46385fb380564251482aa4d16da4c742d851a86e8d39c1595 2346 python-executing_2.2.0-0.1.dsc 6aad53d3f13f51331957078ea6203b96097ab14eac6de6de0fc1b823b7123e05a4d6d0fc126ffdf77aa746ffe7aa916046028b8b329f076a10841b07299fad92 953576 python-executing_2.2.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-executing"
   ],
   "Files": [
-    "ed3a9663b5e0bcf3ffc6b85a10690c5a 2748 python-executing_1.2.0-2.debian.tar.xz 595012df2fa6718c69b8bd81db144caa 2178 python-executing_1.2.0-2.dsc d0b91484dbbb902297d43bee108c0a7c 663650 python-executing_1.2.0.orig.tar.gz"
+    "c53fb8e651373be34f0a82bfba0b82b3 3792 python-executing_2.2.0-0.1.debian.tar.xz 8901084834925eca531306342e0c7ed6 2346 python-executing_2.2.0-0.1.dsc 9ece2439ce9ebb4515baba70bca6c337 953576 python-executing_2.2.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,13 @@
     "python3-executing deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
-    "autopkgtest-pkg-pybuild"
+    "autopkgtest, autopkgtest-pkg-pybuild"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-ipython, python3-littleutils, python3-pytest"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/python-executing"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/debian/python-executing.git"
   ],
   "Version": [
-    "1.2.0-2"
+    "2.2.0-0.1"
   ]
 }

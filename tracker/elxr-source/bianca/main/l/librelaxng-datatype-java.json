@@ -6,22 +6,22 @@
     "librelaxng-datatype-java"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 7.0.50~), ant, maven-repo-helper (\u003e= 1.5), default-jdk"
+    "debhelper-compat (= 13), ant, maven-repo-helper, default-jdk-headless"
   ],
   "Checksums-Sha1": [
-    "7d5a39eb26a55ec7905746682743b1ba9c854d26 4752 librelaxng-datatype-java_1.0+ds1-3.1.debian.tar.xz 3a99dbaa043f287a2f12f5315d2616f6d31151d9 2211 librelaxng-datatype-java_1.0+ds1-3.1.dsc 08ee333862c1ca94760813940cd8209a20f87bc8 9128 librelaxng-datatype-java_1.0+ds1.orig.tar.gz"
+    "bd1529ba9d31da32baf6529dbfaa0f72cb5e608b 4436 librelaxng-datatype-java_1.0+ds1-4.debian.tar.xz b3311c049dff72dcfb327661b3bcca53606ae779 2209 librelaxng-datatype-java_1.0+ds1-4.dsc 08ee333862c1ca94760813940cd8209a20f87bc8 9128 librelaxng-datatype-java_1.0+ds1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a489bbc52bffeaf4b677ad07b5b6cedaff5f42719932c560f4849c327839a9e5 4752 librelaxng-datatype-java_1.0+ds1-3.1.debian.tar.xz db5bf9eb61009165611001cb75834f23b314e6f0da92887ff91e75870892b1e4 2211 librelaxng-datatype-java_1.0+ds1-3.1.dsc f8299cdbdcb2676a0aac050b0589a87e87b8cb4600a6a3b304c6e629e131d95e 9128 librelaxng-datatype-java_1.0+ds1.orig.tar.gz"
+    "ac2312bb2fb653919d67f3024735ba1e07401f8cf3fe66dd7998b09588116b0f 4436 librelaxng-datatype-java_1.0+ds1-4.debian.tar.xz f5791fd9420bfaa019c107f84e6e6249e7378af168754d09669e461084611922 2209 librelaxng-datatype-java_1.0+ds1-4.dsc f8299cdbdcb2676a0aac050b0589a87e87b8cb4600a6a3b304c6e629e131d95e 9128 librelaxng-datatype-java_1.0+ds1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f56af7f740fbceb47f367768057eb5a18f4c24367201ff3c8ddca17b1353b43cfba31c90d6926287d3c5d91f454fedc115fd7ff8282159a6ae5972fd32a1d91d 4752 librelaxng-datatype-java_1.0+ds1-3.1.debian.tar.xz 99308ddbbabcfd9bc11d0c31e939b5b6812756904cd9f802d2cfda9694a7ecca70568f2358185c0cdc10f96a822759d3b552224c34c917e4c0c3e452706f3200 2211 librelaxng-datatype-java_1.0+ds1-3.1.dsc bbc500d38cc732f91205403fe2298fc80b61eafbdc8a6b683f5a05a2804170347142bb64966ec61ca9000a97cbce4552d1508e78e7272fa06868c46a14e3475e 9128 librelaxng-datatype-java_1.0+ds1.orig.tar.gz"
+    "eed106e39563dbc4426202602a8ebe0dce7d8ae5871e4d79e8741879400d98613e511b388cb0a244852b9dc3706dc36a989257f115e9ef76857743d3aad4230e 4436 librelaxng-datatype-java_1.0+ds1-4.debian.tar.xz 5ae4a897b33def8ee6958be2b64e781d990eee1083dcb2f278a458b518261a7d3e8e32638cc18202fe64672a6b1f1e902abd31ef804c46441d43aae9f2d20837 2209 librelaxng-datatype-java_1.0+ds1-4.dsc bbc500d38cc732f91205403fe2298fc80b61eafbdc8a6b683f5a05a2804170347142bb64966ec61ca9000a97cbce4552d1508e78e7272fa06868c46a14e3475e 9128 librelaxng-datatype-java_1.0+ds1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libr/librelaxng-datatype-java"
   ],
   "Files": [
-    "44c70887658817f2d1862e7aeefd19fd 4752 librelaxng-datatype-java_1.0+ds1-3.1.debian.tar.xz 1d54f459bc4e92088175114b9f1c08b2 2211 librelaxng-datatype-java_1.0+ds1-3.1.dsc adb8333050316c999a7eba634f3641d3 9128 librelaxng-datatype-java_1.0+ds1.orig.tar.gz"
+    "90ff037eb3fb79a26a22bdcac2f0cda9 4436 librelaxng-datatype-java_1.0+ds1-4.debian.tar.xz 58fe50ec0c003a88064fbbe398e02fb3 2209 librelaxng-datatype-java_1.0+ds1-4.dsc adb8333050316c999a7eba634f3641d3 9128 librelaxng-datatype-java_1.0+ds1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,21 +36,21 @@
     "librelaxng-datatype-java"
   ],
   "Package-List": [
-    "librelaxng-datatype-java deb java extra arch=all"
+    "librelaxng-datatype-java deb java optional arch=all"
   ],
   "Standards-Version": [
-    "3.9.4"
+    "4.7.0"
   ],
   "Uploaders": [
     "Giovanni Mascellani \u003cgio@debian.org\u003e, Emmanuel Bourg \u003cebourg@apache.org\u003e"
   ],
   "Vcs-Browser": [
-    "http://anonscm.debian.org/gitweb/?p=pkg-java/librelaxng-datatype-java.git;a=summary"
+    "https://salsa.debian.org/java-team/librelaxng-datatype-java"
   ],
   "Vcs-Git": [
-    "git://anonscm.debian.org/pkg-java/librelaxng-datatype-java.git"
+    "https://salsa.debian.org/java-team/librelaxng-datatype-java.git"
   ],
   "Version": [
-    "1.0+ds1-3.1"
+    "1.0+ds1-4"
   ]
 }

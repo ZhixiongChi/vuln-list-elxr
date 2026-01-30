@@ -3,25 +3,25 @@
     "all"
   ],
   "Binary": [
-    "libcommons-logging-java, libcommons-logging-java-doc"
+    "libcommons-logging-java"
   ],
   "Build-Depends": [
-    "ant-optional, debhelper-compat (= 13), default-jdk, junit, libavalon-framework-java, libcommons-parent-java, libexcalibur-logkit-java, liblog4j1.2-java, libservlet-api-java, maven-repo-helper"
+    "debhelper-compat (= 13), default-jdk-headless, libavalon-framework-java, libcommons-parent-java, libexcalibur-logkit-java, liblog4j1.2-java, liblog4j2-java, liblogback-java, libmaven-bundle-plugin-java, libmaven-dependency-plugin-java, libmaven-javadoc-plugin-java, libservlet-api-java, maven-debian-helper"
   ],
   "Checksums-Sha1": [
-    "9074666c7eca435c61d40d2416b00d10d2e132cc 7844 libcommons-logging-java_1.2-3.debian.tar.xz 0f56fe72cb7cd8e953e5cd276b83e21a2f454a50 2429 libcommons-logging-java_1.2-3.dsc fa0576c51fe179f0702236342041f980b45dc046 134940 libcommons-logging-java_1.2.orig.tar.xz"
+    "92156280863a9925008de308a63497366593741f 6844 libcommons-logging-java_1.3.0-2.debian.tar.xz 65c56771a7a45760d4d2391bb69eccbd87287a42 2470 libcommons-logging-java_1.3.0-2.dsc c7581cc44675fbd3100ec85862b6d9ab1531166f 135000 libcommons-logging-java_1.3.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "de3a7ac1a87f2659a981b40b71e873b0758ecf591f471552e0f487af3f211cb3 7844 libcommons-logging-java_1.2-3.debian.tar.xz 33e812b373898ba487cc81e1a39d77f5914358fa3ec48d09e9fbc42298fecb68 2429 libcommons-logging-java_1.2-3.dsc 10dda2b5647087c3478083ab8bc5ef4bcb95d4515b4aed79dcc59b524072b3cd 134940 libcommons-logging-java_1.2.orig.tar.xz"
+    "6056466c43338031aa9829574d2966739da9c9af7ebeead2caf62a21c9e2289f 6844 libcommons-logging-java_1.3.0-2.debian.tar.xz 181d07b48aa7d074ea7a4df3bc941a08a37e879639b0d28e3b44cdc02e171699 2470 libcommons-logging-java_1.3.0-2.dsc bceb81f06a915ecbfeca76d885388b5075fa1847dd60d04537f2b0fd9f5189ac 135000 libcommons-logging-java_1.3.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "86b54cd67a063deaf503e0dfd3efa687682c8b2994b42fa063960f3d304ebc014ed054466ac6aaeae3b5ef39daa939ae50eb705ca4539baa3478ba0d40e7daf4 7844 libcommons-logging-java_1.2-3.debian.tar.xz 0f03f093bb6255665220e1fc49c6b5a1908b89ca75114a524a12fe4d8456b9ebca03626ba08119ca99befb96cc307d214902225c23872ee239d7ea05689c9ad0 2429 libcommons-logging-java_1.2-3.dsc f27a34428de1f9f14a2a27b06767a37164efd6877cb982ba6d991b74ba3b39cdac06e35562f71c571991355c7d0ce8070d1822c09603b1544eb704ab1660169a 134940 libcommons-logging-java_1.2.orig.tar.xz"
+    "deb5944c77c157b6d916f5185b9a501a6002b40480de2bb4ab8a52574aa17acb0939e4369b1b144fa375ae4b21fbd473971a0bf2288e9d1c90323982e790f66b 6844 libcommons-logging-java_1.3.0-2.debian.tar.xz 7790fa5410b91fd26dd13f73f8ccb7cb26dcd1b9293f341a9ee736b51d6e097223adfe089684b6a90965f6e44e0d06fa28157d2ac11517f165aef7f7acb49539 2470 libcommons-logging-java_1.3.0-2.dsc 3ecb481a5013b7203ef2bfeb27ac2617186dc19aac463bff6bd80c925f011928cf3479c60ce1f1740f5020a3684055375aca59577b295ca0ea4955c52ed443ec 135000 libcommons-logging-java_1.3.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libc/libcommons-logging-java"
   ],
   "Files": [
-    "c42cc604ad4bcf725e27aa9784d2577d 7844 libcommons-logging-java_1.2-3.debian.tar.xz 01e1ac33c5149a727938df0ab45eb733 2429 libcommons-logging-java_1.2-3.dsc 0e03391b3824291454093b745a6430e3 134940 libcommons-logging-java_1.2.orig.tar.xz"
+    "8e229d0cf815896723284c159662c239 6844 libcommons-logging-java_1.3.0-2.debian.tar.xz 37b9b0eedc8db2e1dca001dd22f0817a 2470 libcommons-logging-java_1.3.0-2.dsc 63164ad08443c249e1136cf077b7ade9 135000 libcommons-logging-java_1.3.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "libcommons-logging-java"
   ],
   "Package-List": [
-    "libcommons-logging-java deb java optional arch=all libcommons-logging-java-doc deb doc optional arch=all"
+    "libcommons-logging-java deb java optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.2"
   ],
   "Uploaders": [
     "Varun Hiremath \u003cvarun@debian.org\u003e, Emmanuel Bourg \u003cebourg@apache.org\u003e, Jakub Adam \u003cjakub.adam@ktknet.cz\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/java-team/libcommons-logging-java.git"
   ],
   "Version": [
-    "1.2-3"
+    "1.3.0-2"
   ]
 }

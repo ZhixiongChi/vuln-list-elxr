@@ -6,22 +6,22 @@
     "cvs"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), ghostscript, groff, libbsd-dev, libkrb5-dev | heimdal-dev, texinfo, texlive-base, zlib1g-dev"
+    "debhelper-compat (= 13), ghostscript, groff, libbsd-dev, libkrb5-dev | heimdal-dev, procps \u003c!nocheck\u003e, texinfo, texlive-base, tzdata, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "b4d6c2948f2ae6d33fdff1e02a3e15fc3775963a 154357 cvs_1.12.13+real-28+deb12u1.diff.gz 2d8ee58ef1c64ee9682215295857a323e8cba4eb 2254 cvs_1.12.13+real-28+deb12u1.dsc a868aaad46c54cb1f7510b79c8cb0b38534483ce 4737137 cvs_1.12.13+real.orig.tar.gz 05c1e33c32d85e4693d2a0ebcad0d992d06926f0 155 cvs_1.12.13+real.orig.tar.gz.asc"
+    "491e3185fb8edfca101406524b92dcd8fc501f95 154859 cvs_1.12.13+real-30.diff.gz 521a6f8b466f9e300197abd039f93e109c9ffa51 2289 cvs_1.12.13+real-30.dsc a868aaad46c54cb1f7510b79c8cb0b38534483ce 4737137 cvs_1.12.13+real.orig.tar.gz 05c1e33c32d85e4693d2a0ebcad0d992d06926f0 155 cvs_1.12.13+real.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "ee9796b0fdedbe9cf00f254ad624f95b8158412a5dd3d14840df34a6a0d02632 154357 cvs_1.12.13+real-28+deb12u1.diff.gz 09f210296f0f83bcd15b81898f2f7b2ee3133e8204c531c87e1acdb808e184ef 2254 cvs_1.12.13+real-28+deb12u1.dsc 4734971a59471744e4ad8665c1dca54cb3ebf9fc66ce9c2dff3d04670d3f7312 4737137 cvs_1.12.13+real.orig.tar.gz 72144926f109b5c62a57d167158f479f37af46f2c07f730c6031dc450762a57a 155 cvs_1.12.13+real.orig.tar.gz.asc"
+    "085124619dfdcd3e53c726e049235791b67dcb9f71619f1e27c5f1cbdef0063e 154859 cvs_1.12.13+real-30.diff.gz 0f1d453284fb3a3f98d168bf9877735d1481170b05f1abbe33c6c6c45f1e7702 2289 cvs_1.12.13+real-30.dsc 4734971a59471744e4ad8665c1dca54cb3ebf9fc66ce9c2dff3d04670d3f7312 4737137 cvs_1.12.13+real.orig.tar.gz 72144926f109b5c62a57d167158f479f37af46f2c07f730c6031dc450762a57a 155 cvs_1.12.13+real.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "e7f4cb8429b534b57d395d62b3d3fe86ceec8feccb0bdbcca9c0b10e5346eafcac1f12c3dd7c742608e9c65a5e02d6f1e1eb28907de89ae326ec938c0012e325 154357 cvs_1.12.13+real-28+deb12u1.diff.gz de6912ef895e7fb9126c69d579f41636ae572c28f210756ac2c2a73add802391408e3027345fd09feb97023ee08456e57a77657c0c384c64b8683feb4d04139d 2254 cvs_1.12.13+real-28+deb12u1.dsc acd658b7ffa29a67e33f294073a0f80a27aa4e19dc2185cfa43f862d34e511bcf9802012b8e6957f82c7532fdabbb058b33686e0e6046cdd1f1aa9af619e92e9 4737137 cvs_1.12.13+real.orig.tar.gz 82be77987d6e3e42325ebcfd06c056fa97477e9cdb289d4425a162bdab833573c40f90e455447d0c88711c89334a3c63ee6d14e95aab6290d5489d95acc8c2d3 155 cvs_1.12.13+real.orig.tar.gz.asc"
+    "ef5051c9834f166d3f937317f1c4a59a508e07aae0bd1e2de69e31af190fdfc91004d32dfef24e1553641e8af21a54012082f399eea2978183fb26dd6060ab34 154859 cvs_1.12.13+real-30.diff.gz 663142ac331744c7b038af014558a9de31dc335fea6375e05d87766bf7d6ed3a4fcfe838278208b37d997da796ef55d316b3ed404d2d002782578c946ec92207 2289 cvs_1.12.13+real-30.dsc acd658b7ffa29a67e33f294073a0f80a27aa4e19dc2185cfa43f862d34e511bcf9802012b8e6957f82c7532fdabbb058b33686e0e6046cdd1f1aa9af619e92e9 4737137 cvs_1.12.13+real.orig.tar.gz 82be77987d6e3e42325ebcfd06c056fa97477e9cdb289d4425a162bdab833573c40f90e455447d0c88711c89334a3c63ee6d14e95aab6290d5489d95acc8c2d3 155 cvs_1.12.13+real.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/c/cvs"
   ],
   "Files": [
-    "5052aaf1903c1ac89ce214f6542a1583 154357 cvs_1.12.13+real-28+deb12u1.diff.gz dfa9f64205e15318b6151f8fdc858027 2254 cvs_1.12.13+real-28+deb12u1.dsc 7a71a2e7a64973ecf255965956a1d338 4737137 cvs_1.12.13+real.orig.tar.gz 0305f3917536d4cc9fd53188abeae1f8 155 cvs_1.12.13+real.orig.tar.gz.asc"
+    "204629fa56fa7feab738e5e959ee7112 154859 cvs_1.12.13+real-30.diff.gz fcb82462bd244a7b1c870ea84a6935cb 2289 cvs_1.12.13+real-30.dsc 7a71a2e7a64973ecf255965956a1d338 4737137 cvs_1.12.13+real.orig.tar.gz 0305f3917536d4cc9fd53188abeae1f8 155 cvs_1.12.13+real.orig.tar.gz.asc"
   ],
   "Format": [
     "1.0"
@@ -39,7 +39,7 @@
     "cvs deb vcs optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.6.2"
   ],
   "Vcs-Browser": [
     "https://evolvis.org/plugins/scmgit/cgi-bin/gitweb.cgi?p=alioth/cvs.git;a=shortlog;h=refs/heads/master"
@@ -48,6 +48,6 @@
     "https://evolvis.org/anonscm/git/alioth/cvs.git -b master"
   ],
   "Version": [
-    "2:1.12.13+real-28+deb12u1"
+    "2:1.12.13+real-30"
   ]
 }

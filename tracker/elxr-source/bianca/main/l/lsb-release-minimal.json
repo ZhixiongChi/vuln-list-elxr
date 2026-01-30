@@ -3,25 +3,25 @@
     "all"
   ],
   "Binary": [
-    "lsb-release, lsb-release-minimal"
+    "lsb-release"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), bats, podlators-perl, shellcheck"
+    "debhelper-compat (= 13), bats \u003c!nocheck\u003e, bats-assert \u003c!nocheck\u003e, podlators-perl \u003c!nodoc\u003e, shellcheck \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "f261b73eec9bf8ca6526a515f218d5ca18131e3d 2852 lsb-release-minimal_12.0-1.debian.tar.xz 6b97d59dfef06ee58f254e4ee4d2b5c9e12c0c48 2105 lsb-release-minimal_12.0-1.dsc e872f4be5c264fb9a203c5025f0e2c665ffd19b4 4306 lsb-release-minimal_12.0.orig.tar.gz"
+    "46e1508996078d7330fbd30f6d1fda22a74289b4 3404 lsb-release-minimal_12.1-1.debian.tar.xz 4ae886a989fbfdb29005b274ff316d7f0243a3e4 2132 lsb-release-minimal_12.1-1.dsc 250561e48f572b71aec5e0d315bcb6a524f950d3 5033 lsb-release-minimal_12.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "c247fd41d2f9442d2849eae6d9194b5078c2fd117e955a2316f0ccce29f0a227 2852 lsb-release-minimal_12.0-1.debian.tar.xz 3efb81797061d3c089bad306f04c37b353edfaa64f595473ed2b093258e3306d 2105 lsb-release-minimal_12.0-1.dsc 0a64c9d2420827e0f5cd97944e89db9175fa2eda935bd683636ba68c8593ae2e 4306 lsb-release-minimal_12.0.orig.tar.gz"
+    "5cec37d541a7401e0037767f28f2358775f207a7c32501917c5a2de6fdc884f6 3404 lsb-release-minimal_12.1-1.debian.tar.xz 1fdb0c54b258534c104ec9f9b10ed8ca27e1b6d21f5622e29ace1390f7e0b335 2132 lsb-release-minimal_12.1-1.dsc 1dcf4ba318203db771bd0f2e47442f84e36241c8aa4633f1e8431a6d74a49071 5033 lsb-release-minimal_12.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "1b088930b37c0ceb176df98fe488238252d596c27e5b1ebc83dafddf76c0ff5b6fbfc1596481ef974c2fffbf162521c390d073af4e70b0c185bf276fce72ae85 2852 lsb-release-minimal_12.0-1.debian.tar.xz dde5100dfa0f5f05d91cca33491ee476a916f49604d7dd0d12dbb6da87892dccbe09e44cb7c8f37ca73519d1f49ccf7a5de3071c4d4490550b181acf43899a0c 2105 lsb-release-minimal_12.0-1.dsc 8575de4c78ad0d57ad2867bd4c45394b0f2f802c420eab71fd8f9d0e22199b55307a137cad014aa8e4a05c1a70d348b166c7b0ead915c7e6da8b310753032cf1 4306 lsb-release-minimal_12.0.orig.tar.gz"
+    "f400ca9135c7fa5c3034ae94a18467facfd4ad04508aed7e7d2aa567dcfb597c993a185c87f891745268ac7117647ed8eca77937aa5341ebff52a33c2040bc3d 3404 lsb-release-minimal_12.1-1.debian.tar.xz 0f9f8ca1666ad33461622e2d93e926b6d9fd56b00b2358d9240bd35cd87f249ad22996b31e1a1ebeb4a0b502ebf9ca4a83d638e01743d5f2d198b3d02b6dd3e9 2132 lsb-release-minimal_12.1-1.dsc 739eeac353eee009ba2c19dd9e5ad1a40025f41e29b8e0e46a15b2f5c30c5ac88f094f3a98626603be939ba2f9ab3f4ed06942cab54f47d6e73fc43d361cc3a6 5033 lsb-release-minimal_12.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/l/lsb-release-minimal"
   ],
   "Files": [
-    "9c694822f39af3ebb9b99c784b178695 2852 lsb-release-minimal_12.0-1.debian.tar.xz 4af4a0435a4bad03fe34b8b309010a55 2105 lsb-release-minimal_12.0-1.dsc 917d4b73970d88033c34f3d8baede4a9 4306 lsb-release-minimal_12.0.orig.tar.gz"
+    "cf489f1953a758fd321030968761d809 3404 lsb-release-minimal_12.1-1.debian.tar.xz 3132e24dd1722f6f5081e49eb3365fff 2132 lsb-release-minimal_12.1-1.dsc 07b98f8f769836cd528109b39e724123 5033 lsb-release-minimal_12.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,16 +36,16 @@
     "lsb-release-minimal"
   ],
   "Package-List": [
-    "lsb-release deb misc optional arch=all lsb-release-minimal deb oldlibs optional arch=all"
+    "lsb-release deb misc optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "bash, bats, busybox, dash, shellcheck"
+    "bash, bats, bats-assert, busybox, dash, mksh, shellcheck"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gioele/lsb-release-minimal"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/gioele/lsb-release-minimal.git"
   ],
   "Version": [
-    "12.0-1"
+    "12.1-1"
   ]
 }

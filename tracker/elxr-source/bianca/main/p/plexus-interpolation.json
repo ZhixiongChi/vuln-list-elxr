@@ -6,22 +6,22 @@
     "libplexus-interpolation-java"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11~), default-jdk, junit4, libmaven-bundle-plugin-java, maven-debian-helper (\u003e= 2.2~)"
+    "debhelper-compat (= 13), default-jdk, junit5, libmaven-bundle-plugin-java, maven-debian-helper (\u003e= 2.2~)"
   ],
   "Checksums-Sha1": [
-    "86140cea477fea80e6e43c72002b6e40e3bcea66 5632 plexus-interpolation_1.26-1.debian.tar.xz 4dbab5036b15641ce6d30bf6443fee6fd24090e8 2217 plexus-interpolation_1.26-1.dsc 2054f1c46adc624d1cfd49ed99fdc2b270b7b4d4 41868 plexus-interpolation_1.26.orig.tar.xz"
+    "4cc9fd99fe7648bb0beb76d60b31add09704c424 5436 plexus-interpolation_1.27-1.debian.tar.xz 689fc11873d35e3a77603bd08543108cbd7f39b2 2221 plexus-interpolation_1.27-1.dsc 5a38ce3a70ad5315cac88ffee8ac6ba32bb5e40e 41368 plexus-interpolation_1.27.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "fb3af9f128bce537f2c65420a030ba69283dc957763704163311cc4ba0e00d29 5632 plexus-interpolation_1.26-1.debian.tar.xz 627797ee34296fb7b1bd50c1915bf8e23b883120a242b7a93cb31cd6548eb6b2 2217 plexus-interpolation_1.26-1.dsc 5a4794db778e1a21065f71af5534a6859b1683fcfc0c39405c07f7e172db5128 41868 plexus-interpolation_1.26.orig.tar.xz"
+    "42522a64b6b05b15d255fa41c0a4525b2f0b557ef1625a8d17a41e9e90b3ed8a 5436 plexus-interpolation_1.27-1.debian.tar.xz 883d2c885ad93c8394f202773a0487d154896c2e37a0238d8dd80afa2c0a3159 2221 plexus-interpolation_1.27-1.dsc 134512b239b48b19cf594b5247492d5232515ccb5893c0333823d480f101656a 41368 plexus-interpolation_1.27.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "51d53c8fac599ed0c96551ca51ec754c7577d36652b4c41b554c53e36f90c83ae368a09641755979962d5b40240f602acbf59fb8a7c91bf18f748d952d8e7a3b 5632 plexus-interpolation_1.26-1.debian.tar.xz 51d615172cb2f04431e876465ab4bbfdad31e5d1ccfdf28287ed53cd8c7b2f50e16d4d708897daf3ac24bb357fd1768b948ba30a92ac668679c72976d26c419d 2217 plexus-interpolation_1.26-1.dsc 674dc3d96b630111c5c7b2c80c6f4e8c2aaef10bedce20ebe5c769c89dde46769f35b5c7aecb9ad47842cc12de680fbb51159b0c39d3e2375bbc46196deddee6 41868 plexus-interpolation_1.26.orig.tar.xz"
+    "fb73832c0bc4f58121f46052161ef1d855cf50da0dbc731f7bd8d902705e6aab36cf297f036516126cf24cad232437ab36f057c750ee11197af8d37dd0768f65 5436 plexus-interpolation_1.27-1.debian.tar.xz ccfd40fe97915ffca0d14646ecac5065d869fdebf0167da3f3b4484f3ad670067e7928075e97f4a742915cf88f8c1b1412600ad363b24d0ee52c21ce7efb3044 2221 plexus-interpolation_1.27-1.dsc afc6d7a8ab70c323c60827d8cd028d1b03fffa138140add5f60267f0da07de457d8a1173a9a7afa6a8e8d6ad86dcbeefde79c78d945b616447297141176b6f8a 41368 plexus-interpolation_1.27.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/plexus-interpolation"
   ],
   "Files": [
-    "6044caf6e01a89a0ab6eaeb2bc9410b7 5632 plexus-interpolation_1.26-1.debian.tar.xz bc7cf7cc2cfa6bcc0fb5244a5b80f17c 2217 plexus-interpolation_1.26-1.dsc f1d90e613fa5f4dc2a60027d03696dc6 41868 plexus-interpolation_1.26.orig.tar.xz"
+    "f60193d3366c830786519ebfdee10090 5436 plexus-interpolation_1.27-1.debian.tar.xz f8f290c8eefa821675fcf3b1f9098566 2221 plexus-interpolation_1.27-1.dsc a03b965d2ef6e8f8d0bb54f6eab62d3e 41368 plexus-interpolation_1.27.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libplexus-interpolation-java deb java optional arch=all"
   ],
   "Standards-Version": [
-    "4.3.0"
+    "4.7.0"
   ],
   "Uploaders": [
     "Torsten Werner \u003ctwerner@debian.org\u003e, Ludovic Claude \u003cludovic.claude@laposte.net\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/java-team/plexus-interpolation.git"
   ],
   "Version": [
-    "1.26-1"
+    "1.27-1"
   ]
 }

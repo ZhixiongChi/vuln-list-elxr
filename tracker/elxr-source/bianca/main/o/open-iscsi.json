@@ -6,22 +6,22 @@
     "open-iscsi, libopeniscsiusr, libopeniscsiusr-dev, iscsiuio, open-iscsi-udeb"
   ],
   "Build-Depends": [
-    "bison, bzip2, debhelper-compat (= 13), dh-exec, dpkg-dev (\u003e= 1.19), flex, libisns-dev, libmount-dev, pkg-config, libkmod-dev, libsystemd-dev, libssl-dev"
+    "bison, bzip2, debhelper-compat (= 13), dh-exec, flex, libisns-dev, libkmod-dev, libmount-dev, libssl-dev, libsystemd-dev, meson, pkgconf"
   ],
   "Checksums-Sha1": [
-    "81330dc4f5c51db50ddb93705c625a0bfb2365e6 56220 open-iscsi_2.1.8-1.debian.tar.xz d0acf1fd10d74321c0f9e637ab1ce81e76e5161e 2585 open-iscsi_2.1.8-1.dsc ff9685ce17cf07c5ad6dc393e8326463ac55397e 638346 open-iscsi_2.1.8.orig.tar.gz"
+    "5a8a1e029f7fde5227a4ddab498639679f73c47d 57776 open-iscsi_2.1.11-1+deb13u1.debian.tar.xz d8974d2e854d6b789428bac47484edf353f5beb3 2617 open-iscsi_2.1.11-1+deb13u1.dsc 9895abdb09bd274aab316fb27bc094665523f566 644295 open-iscsi_2.1.11.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "8f3fe6a31300a251676e4186ebe5d3616064cf756f477ebc34dfe6d17a5c6d29 56220 open-iscsi_2.1.8-1.debian.tar.xz d0ccb31b4e66434c03c992bef032afeb23a15c4b70a3581b95fc9919e5799f5d 2585 open-iscsi_2.1.8-1.dsc 9565bdf6b68b223e1e0d455d9a04d7536724a3f5b5a254e9398d06b2a0c6b6d2 638346 open-iscsi_2.1.8.orig.tar.gz"
+    "96b4aba22d0e3df7c1665387b8d30cc83a9cce4f4df9841d2a9959427888a7df 57776 open-iscsi_2.1.11-1+deb13u1.debian.tar.xz 3cbace56f87e6fda6b69ef4ad6f20746dc9740231c2c1c967ada876f3068a6e4 2617 open-iscsi_2.1.11-1+deb13u1.dsc 2630a2eb737f6f0ab81339ddabcf19b1d2aeec4dbab314d82a0700ddd50bb8e2 644295 open-iscsi_2.1.11.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "d7d5830c7c12aadfa9d18ac0b5a05155bb6620fc73befe491daba2686330b8b7484c3e4986f166755cbee7188f98a4a2459c6f9bf8176acec60891897781fed1 56220 open-iscsi_2.1.8-1.debian.tar.xz 00c7c2cdee5825b8db8e5892afacd5275be78ea9f500631ad17740bb07382e1ced59ad01c1097678d71e1efd8bb840954bfcf2fffab2d4bc909d04c91814e99b 2585 open-iscsi_2.1.8-1.dsc 168ce68dc495cc8b2f217ad0373851d681f9274036b8ec562ece513de493adfdbba55f2038518f246f5244f6405102b2e096a9cce15e73fce9654f06790002c1 638346 open-iscsi_2.1.8.orig.tar.gz"
+    "4ec92f011b02c2bf990025ac7e2d83767558c5bf357abfd6d930bb72a8d8e4025629e3d4ae21d14d795032acd32a1bd6f6e7e5fefb715928683d715ef0d8f23b 57776 open-iscsi_2.1.11-1+deb13u1.debian.tar.xz 989ab89d805fde281e1e149afc3b8767062c111135e9e74d49caa42e0ed088d41ebb4fe79f4641204d726e09f46314e4cf024c6c707de167ef9e32f8301fffe6 2617 open-iscsi_2.1.11-1+deb13u1.dsc af0ab3c8ea2ae326fe4d001dfdd4fb7db161669238404b81a2173bd7cafadd009ab66f668e99b641b3b8d5dd90551a70277865519214276adf9ffdcb81598f66 644295 open-iscsi_2.1.11.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/o/open-iscsi"
   ],
   "Files": [
-    "ca66cb71373dbc4bca39cd727e93bc6a 56220 open-iscsi_2.1.8-1.debian.tar.xz f96a0b2376fb2a7c93cf535fb12aa7a3 2585 open-iscsi_2.1.8-1.dsc 651fa1c2b0578d94ee6c76954af2ee42 638346 open-iscsi_2.1.8.orig.tar.gz"
+    "3e5b619313a863d6b3e674b2c615889b 57776 open-iscsi_2.1.11-1+deb13u1.debian.tar.xz 855c7c4c29565919f3b647b6c9aea329 2617 open-iscsi_2.1.11-1+deb13u1.dsc d7ac211bd340f11ac6985f29efe58f91 644295 open-iscsi_2.1.11.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "open-iscsi"
   ],
   "Package-List": [
-    "iscsiuio deb net optional arch=linux-any libopeniscsiusr deb net optional arch=linux-any libopeniscsiusr-dev deb net optional arch=all open-iscsi deb net optional arch=linux-any open-iscsi-udeb udeb debian-installer optional arch=amd64,arm64,armhf,i386,ia64,mips,mipsel,powerpc,ppc64,ppc64el,s390x"
+    "iscsiuio deb net optional arch=linux-any libopeniscsiusr deb net optional arch=linux-any libopeniscsiusr-dev deb net optional arch=all open-iscsi deb net optional arch=linux-any open-iscsi-udeb udeb debian-installer optional arch=amd64,arm64,armhf,i386,ia64,mips,mipsel,powerpc,ppc64,ppc64el,riscv64,s390x"
   ],
   "Standards-Version": [
     "4.5.1"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/linux-blocks-team/open-iscsi.git"
   ],
   "Version": [
-    "2.1.8-1"
+    "2.1.11-1+deb13u1"
   ]
 }

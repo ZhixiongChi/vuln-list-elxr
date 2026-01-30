@@ -6,22 +6,22 @@
     "coinor-libcgl1, coinor-libcgl-dev, coinor-libcgl-doc"
   ],
   "Build-Depends": [
-    "coinor-libclp-dev (\u003e= 1.17.5), coinor-libcoinutils-dev (\u003e= 2.11.4), debhelper-compat (= 13), doxygen, graphviz, libbz2-dev, liblapack-dev, pkg-config, zlib1g-dev"
+    "coinor-libclp-dev (\u003e= 1.17.9+ds), coinor-libcoinutils-dev, debhelper-compat (= 13), doxygen, graphviz, libbz2-dev, liblapack-dev, pkgconf, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "3e63d7939eedc4de5a4b59a71beebbaf58c8bda3 10044 coinor-cgl_0.60.3+repack1-4.debian.tar.xz f7e60efe492b3a7497cdd4cf9fafe88b8e5331e9 1682 coinor-cgl_0.60.3+repack1-4.dsc 10bedabca03086dd507bee2e1e441433ff44d1af 606960 coinor-cgl_0.60.3+repack1.orig.tar.xz"
+    "74446157b24a9b69799f371d2d1a7f2a91581a90 13916 coinor-cgl_0.60.9+ds-1.debian.tar.xz 0d7a4c5af14a7975cf05ba7480ec01980c529df3 2304 coinor-cgl_0.60.9+ds-1.dsc 5d29607461e1942b5cdb59e5869e7115d5653369 571536 coinor-cgl_0.60.9+ds.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "a258bd369f06051d0a3de973bab24d0fd8187dcfe76c9bce7a25783e2873367a 10044 coinor-cgl_0.60.3+repack1-4.debian.tar.xz 85bc9803a3138a2134dadbd3ad90e0c7dbbdb72221e06af3e9ea7a048c9bbecc 1682 coinor-cgl_0.60.3+repack1-4.dsc 756f858691021c9982274ee3510b00b998a0e160f62a2a5813e1324b94418576 606960 coinor-cgl_0.60.3+repack1.orig.tar.xz"
+    "928bdbb00418b687f4ba6a6763b06095fe977e5469bb74e5839fb6b4889353df 13916 coinor-cgl_0.60.9+ds-1.debian.tar.xz 556e9ae6ca4dcdedcb21207bf5b8e71d8614fef46697f7d031783cbcbf47fc64 2304 coinor-cgl_0.60.9+ds-1.dsc 4c7dc8360e353c90aeeee53a1be30bf4b03634a357678d1d77c393c2e4913108 571536 coinor-cgl_0.60.9+ds.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "2136ac8584c8f3515ff2c7027a976fff6633cd04c8382f5ce72e3af7690510b9b27ee05c9afaca4b3e1f7a7b7927c58da4cf90417b60fa26eccd2902c5f47534 10044 coinor-cgl_0.60.3+repack1-4.debian.tar.xz 5fa62f402da7b803c23115ffbf9c0ae134627dd2277d27761dea7cce09010c2bd644076ad84696dae0d29f1af17cd990eeba0ecc1220266a64c1dfbd34ec272c 1682 coinor-cgl_0.60.3+repack1-4.dsc 39ac67672a1ba2331ee935b34d6e9b08f16989f2c56722af58c075548474c442d7438c7ddac24ca67741ee41b9c0e0c101cd403b351eb8996455556000eb4fd3 606960 coinor-cgl_0.60.3+repack1.orig.tar.xz"
+    "3caa975f06b60d1429f6404a2f981caa30e8c998de2f44117b8484f20c2fb42473d11cc6c69f454d4f79422cbdc97c9224144400c6af5c83f7569f54be7d16cb 13916 coinor-cgl_0.60.9+ds-1.debian.tar.xz f548be8d8574135cc015df88c7bf50840fd27059058ac678690dde936fe4d3f049d2f95a2c1a491ff90de0dee0cf3321428cf4a0a0d2bdfe5f6634993a4cda87 2304 coinor-cgl_0.60.9+ds-1.dsc 74ca5847bc0513a2d379f7320e325ec5b0175777792031cef238a44277d9523177cca283e25d690ba138d0b0552d35769ff21a06f594c5cd3ac449f09c2af573 571536 coinor-cgl_0.60.9+ds.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/c/coinor-cgl"
   ],
   "Files": [
-    "48c25046f8f03a6588ca5fb675c6075c 10044 coinor-cgl_0.60.3+repack1-4.debian.tar.xz 7d4d1c626ef52946da0fc593c0766d78 1682 coinor-cgl_0.60.3+repack1-4.dsc 55efe6a8239e712c59bbbd5a187df882 606960 coinor-cgl_0.60.3+repack1.orig.tar.xz"
+    "5ebc9adda98c2fffdbcece91d5301152 13916 coinor-cgl_0.60.9+ds-1.debian.tar.xz 9aa504c28b334565617b0ab514c4a977 2304 coinor-cgl_0.60.9+ds-1.dsc b10993bcf464312c956a874589891c82 571536 coinor-cgl_0.60.9+ds.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://projects.coin-or.org/Cgl"
   ],
   "Maintainer": [
-    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
   ],
   "Package": [
     "coinor-cgl"
@@ -39,7 +39,7 @@
     "coinor-libcgl-dev deb libdevel optional arch=any coinor-libcgl-doc deb doc optional arch=all coinor-libcgl1 deb science optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -47,13 +47,16 @@
   "Testsuite-Triggers": [
     "build-essential"
   ],
+  "Uploaders": [
+    "Pierre Gruet \u003cpgt@debian.org\u003e"
+  ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/debian/coinor-cgl"
+    "https://salsa.debian.org/science-team/coinor-cgl"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/debian/coinor-cgl.git"
+    "https://salsa.debian.org/science-team/coinor-cgl.git"
   ],
   "Version": [
-    "0.60.3+repack1-4"
+    "0.60.9+ds-1"
   ]
 }

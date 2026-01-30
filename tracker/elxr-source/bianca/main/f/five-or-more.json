@@ -6,22 +6,22 @@
     "five-or-more"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), appstream-util \u003c!nocheck\u003e, desktop-file-utils \u003c!nocheck\u003e, dh-sequence-gnome, itstool, libglib2.0-dev, libgnome-games-support-1-dev, libgtk-3-dev (\u003e= 3.20.0), librsvg2-dev (\u003e= 2.32.0), meson (\u003e= 0.43.0), valac"
+    "debhelper-compat (= 13), dpkg-build-api (= 1), appstream \u003c!nocheck\u003e, desktop-file-utils \u003c!nocheck\u003e, itstool, libglib2.0-dev, libgnome-games-support-1-dev, libgtk-3-dev (\u003e= 3.20.0), librsvg2-dev (\u003e= 2.32.0), meson (\u003e= 0.43.0), valac"
   ],
   "Checksums-Sha1": [
-    "0f7f2aa2db25c53475d59cc8f71d4ff1b93189c3 28320 five-or-more_3.32.3-1.debian.tar.xz 76f5058c44e12e53ba0b31b66838e7a9bb909ff9 2269 five-or-more_3.32.3-1.dsc 88559d04a57007d7ee3a0a46d7664ef6578ceb17 1245012 five-or-more_3.32.3.orig.tar.xz"
+    "234e4c413064c2aa4a7d0f40b8ee5dcd29851197 27864 five-or-more_48.1-2.debian.tar.xz a2bf5c944dd838709bc0f5275c43c68a70637b94 2241 five-or-more_48.1-2.dsc 7ab146e69fae98a6a61f6023557019372de3b0cc 1333904 five-or-more_48.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "b51c8b3bb1d441489083165bbdc512b7a9f720cf8ee648bc8b97dd71297ef43d 28320 five-or-more_3.32.3-1.debian.tar.xz 4c9e55849af2c860808bf91c6b855897357680c15710b032b422de66d10cea4b 2269 five-or-more_3.32.3-1.dsc 2d10d72eefdeb324b447d632af0c32496e25fc15a3c01db7d2f00c9b51d09ef4 1245012 five-or-more_3.32.3.orig.tar.xz"
+    "ac1b1e2ed15aa8907bac2a456a478ada2c7f4cf8160c1c0a4bb3e78d656a33be 27864 five-or-more_48.1-2.debian.tar.xz dea85bda98763f8cb578381182bb33d0801a55091c7340290880b5ff1a8edbb1 2241 five-or-more_48.1-2.dsc d941ce2e37ea66c0d80f1e81797fbcbbe4e8ef65a790b3cc5e56b9f10b5ea5a3 1333904 five-or-more_48.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "d1db4b4fef7f6109193bd5049162e7532e5af4d281ab16755e508bb8add0b7860db90df348c332c85b77760e843d94da13c46fda98874caa5348442dd91f7e6d 28320 five-or-more_3.32.3-1.debian.tar.xz 9ecb4ae058efc7dee364de7d8f71d7a1b6d5ab2c7993f1ebe92e79fe9e965ad5767a17593e1492ff7982785495b401495a0c976f944efa2a5dd02dc12d02cdc7 2269 five-or-more_3.32.3-1.dsc 7fee18955e25fc2f679689ad4df208e5d4fb7250db4fd3c9d0c8f3b62ef8edf4ed402f45871a45a312637e02eb856854ecc9af33454ed9ffcba54bf742f94fb5 1245012 five-or-more_3.32.3.orig.tar.xz"
+    "bdbe0af4d922095d86bea29b97de4a845c1504b0fe6495034a6e3a2a4a54240008872a48d9f14ddc66e0136f4b8e4e86943e27b586bc583376f7c21eeebde98a 27864 five-or-more_48.1-2.debian.tar.xz d785bbbf52b8e8b1ffd4ce01b243dffd5e008d4614850beb7c5c9f6edd89d2b67380406e79e896a407d91832c485ac7a5d1b9dfd3bb36b3319bad41b696dc905 2241 five-or-more_48.1-2.dsc 05d49f67c859a255dd59dc0b1fb9443f3faccda0423bc6d3642a48a94e86905dc7e99aaf8bc076c81bf6675ea8c845cc3ca0586164bfa8d2c7b95b71234ca058 1333904 five-or-more_48.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/f/five-or-more"
   ],
   "Files": [
-    "5daccb4d36d0e48930bbed5eb9a2e458 28320 five-or-more_3.32.3-1.debian.tar.xz afc65e7e0bef0f53bad5aec32d4faab8 2269 five-or-more_3.32.3-1.dsc e5cd3d2020d80dbeb6e9d4c7aa8ea7e4 1245012 five-or-more_3.32.3.orig.tar.xz"
+    "754a65fe9dacac146355c3b9c5bc1d66 27864 five-or-more_48.1-2.debian.tar.xz bf185541af7cb2f7dd9d8e02f4151aef 2241 five-or-more_48.1-2.dsc 745fa79b206b6ecae7587de2fcfb88d9 1333904 five-or-more_48.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "five-or-more deb games optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
+    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/five-or-more"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/five-or-more.git"
   ],
   "Version": [
-    "1:3.32.3-1"
+    "1:48.1-2"
   ]
 }

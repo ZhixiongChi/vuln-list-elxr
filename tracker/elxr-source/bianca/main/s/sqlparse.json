@@ -6,22 +6,25 @@
     "python3-sqlparse, python-sqlparse-doc, sqlformat"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, 2to3, python3-all, python3-sphinx, python3-pytest, python3-setuptools"
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, pybuild-plugin-pyproject, python3-hatchling, python3-sphinx, python3-pytest, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "925015b8ca9948951974301c59770578f2bc4ff3 8648 sqlparse_0.4.2-1+deb12u1.debian.tar.xz d57b8b8198a2986a308f234c9d9d27b6cf392ed0 2494 sqlparse_0.4.2-1+deb12u1.dsc e8f821c53be3bf9874e9dbd033975e8859033d10 67771 sqlparse_0.4.2.orig.tar.gz bda982d52da952678421c0a8c377da9d5128edae 488 sqlparse_0.4.2.orig.tar.gz.asc"
+    "5b2844c4639e78ab5a4fcf6f847b948ca9a17796 5552 sqlparse_0.5.3-1.debian.tar.xz a57f2d1b55559f7b8f30aebb612293d62d9af3c0 2337 sqlparse_0.5.3-1.dsc e195209a3108e146e1782892d4a93a0cdbef2950 84999 sqlparse_0.5.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "0412d78b6b6672db557f749ed33f139bcbe7076cbf42fa0cc7d1f2fa9cc7da2b 8648 sqlparse_0.4.2-1+deb12u1.debian.tar.xz 930826b85a41968874574e2c9c3e4a18c59efacc784a0833388e1ea2c074e905 2494 sqlparse_0.4.2-1+deb12u1.dsc 0c00730c74263a94e5a9919ade150dfc3b19c574389985446148402998287dae 67771 sqlparse_0.4.2.orig.tar.gz 728ea6ce0d5dbbef9114509f3dc1b9e98156d0fc1d1b9fa30199e60ce021fbc6 488 sqlparse_0.4.2.orig.tar.gz.asc"
+    "1fd3ae36f646e6f455b5bb81ed31a3fe6b93e371587386d45b40fc54d855be40 5552 sqlparse_0.5.3-1.debian.tar.xz 4420a7376bf6010a234a3867418191b0fc57c6dbf3a97b42474d124484f32b40 2337 sqlparse_0.5.3-1.dsc 09f67787f56a0b16ecdbde1bfc7f5d9c3371ca683cfeaa8e6ff60b4807ec9272 84999 sqlparse_0.5.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "7e413bed7b4b295cbeaf7c20e48f8bd68ec2331a43082ac67352d4c43b431e0d6baf2ed0eb50dfaf5a3842e26bd0153b11f992d4dc399ab66bbc1a094dcc8380 8648 sqlparse_0.4.2-1+deb12u1.debian.tar.xz a4eeab9bee4d3bfcac01e1fa8acd74efeada8805814c8f90461e10a8d384319865bc35f7aa6ee960717e4c2aae3dffeef290d0d8c289faa682c38e1031fe44f3 2494 sqlparse_0.4.2-1+deb12u1.dsc 8136e5c14650b5286616958bfb19039a6981e4c84bf955b0f668053f5427202eff9a6472f71820293ddbe55c0f793fb690d42d0e0134135aed7eb6e13edca01e 67771 sqlparse_0.4.2.orig.tar.gz ccb890199622039c4a1f5ae46fb4b85dedb8bdaa8afe5c257ccff9ec5c6fde98836341f4a2300f642e88633e8412ac7068e4a51ce9c225c3c157269a20a557b4 488 sqlparse_0.4.2.orig.tar.gz.asc"
+    "04dddf7994e9fe9fc5f30238a2316acac5b5d290a7c09c5c386ee3aabe0e551262c876e806fda02163c2c22ec599ad323ae5a968d6931e66c8a2c5d955f5dbd1 5552 sqlparse_0.5.3-1.debian.tar.xz d7c6c5645fdbbcc081b74c081151e6809511638ac3227c96c3392d37a160aad0ca7e48e92735b960561211470f7d37d199eb6d3059d6d11bae5f12c13e211f52 2337 sqlparse_0.5.3-1.dsc 219c4a3874606b6b3270fb507d89822412b51d8d120d50682fa683ab127fe05538256a575b5b29ee1a9f88be51ad46999e7c2ad2bb84a39e96ae6d2401eaffcd 84999 sqlparse_0.5.3.orig.tar.gz"
+  ],
+  "Dgit": [
+    "0f36aab2d1bdc2ee85fae075cee44a5ea775f0a6 debian archive/debian/0.5.3-1 https://git.dgit.debian.org/sqlparse"
   ],
   "Directory": [
     "pool/main/s/sqlparse"
   ],
   "Files": [
-    "d3897b5ced1b48c66cbe092b62945189 8648 sqlparse_0.4.2-1+deb12u1.debian.tar.xz f782831a9444d406a558169528800527 2494 sqlparse_0.4.2-1+deb12u1.dsc 66dce30d92823589f5e5e043f90b4f16 67771 sqlparse_0.4.2.orig.tar.gz e7f91c882d7f7530ea04cdcac540210f 488 sqlparse_0.4.2.orig.tar.gz.asc"
+    "664b2b8a14f10c98b99094b1eefdfbf5 5552 sqlparse_0.5.3-1.debian.tar.xz 547dd4a4eed8e3af06527ea261095dea 2337 sqlparse_0.5.3-1.dsc 9764a42264c9a3102526c87260e73d11 84999 sqlparse_0.5.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +33,7 @@
     "https://github.com/andialbrecht/sqlparse"
   ],
   "Maintainer": [
-    "Andrii Senkovych \u003candrii@senkovych.com\u003e"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
   ],
   "Package": [
     "sqlparse"
@@ -39,16 +42,13 @@
     "python-sqlparse-doc deb doc optional arch=all python3-sqlparse deb python optional arch=all sqlformat deb text optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.2"
   ],
   "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "2to3, python3-all, python3-pytest"
+    "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+    "Andrii Senkovych \u003candrii@senkovych.com\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/sqlparse"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/sqlparse.git"
   ],
   "Version": [
-    "0.4.2-1+deb12u1"
+    "0.5.3-1"
   ]
 }

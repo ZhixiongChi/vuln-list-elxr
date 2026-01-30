@@ -6,31 +6,31 @@
     "python3-html5lib"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-python, python3-all, python3-genshi, python3-lxml, python3-mock, python3-pytest, python3-pytest-expect, python3-setuptools, python3-six, python3-webencodings"
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-genshi, python3-lxml, python3-pytest \u003c!nocheck\u003e, python3-pytest-expect \u003c!nocheck\u003e, python3-setuptools, python3-webencodings"
   ],
   "Checksums-Sha1": [
-    "418e59a56bd13b960bb098394419d0860385bc3e 7348 html5lib_1.1-3.debian.tar.xz b92d02ee40aaf90ea3b71c2d55fd9fa216a31afb 2277 html5lib_1.1-3.dsc dbe1904fdc2664295ee2b3fe79632541871c9e9a 206880 html5lib_1.1.orig.tar.xz"
+    "038025b26fd4e45596c04ae4155178f707d50ea3 6524 html5lib_1.2-2.debian.tar.xz 092b049dd6f9ca6ce009502ef8a98b6ec7b8dcc1 2118 html5lib_1.2-2.dsc a6e92b0c105e5100f918a9a108b008fb750d250c 275189 html5lib_1.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "5836c1a912fa668184d48400eb0018e55ec522f3cfe70b01caa8de179fc4722c 7348 html5lib_1.1-3.debian.tar.xz 93c5c0aa5fc7b75ecd25c09c1e48b25787f193d3edf5d02c9896d301daa05e3f 2277 html5lib_1.1-3.dsc 2c93ce983365bbb7c1083c6c6bcbcb8a82dfdb5a5b13b751317c4f17a1ceaba7 206880 html5lib_1.1.orig.tar.xz"
+    "b7eac82e607bd0ca47186856c72fb3ff9bbf490380b37008b996724e93e78b78 6524 html5lib_1.2-2.debian.tar.xz 47d05166cff5a2bf85c518b934eb3708dcb181f7adde1c32320e6b8f7c1f56b2 2118 html5lib_1.2-2.dsc 1fadbfc27ea955431270e4e79a4a4c290ba11c3a3098a95cc22dc73e312a1768 275189 html5lib_1.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e25cec4b2478fefb61aa634160c674f5b3b272ba17f3177b93ed0ed71a9541aa010eb27bb91c01fd982dc1417901644d0c2d6f560f40ddc5bcdfec8b753f75d5 7348 html5lib_1.1-3.debian.tar.xz 10a7c84bcbc30fc2d31876ac71f4c4dde184adfec8bec7d090183f59806c296dffdfab793bb84b56aab12ef5ec1dd25f54d2c67c33ba3729857143a4ae538963 2277 html5lib_1.1-3.dsc 64bc2aa103729f78c6ae457e4b2ba29c077894c1bbbd43cefc375630488dcf97a2353326bc9f7c766d90caf183cebf67fcad819ab8a4e7ecb3b2fde6521a4229 206880 html5lib_1.1.orig.tar.xz"
+    "9c7fe0012f071b3ee3a5d4f376642a45b9e67c7e1fb61edf3d32e8d2fa62c1eac274aef561bb7c313c02049fc2ec7b5c19759839e9974c30880f59750414a1fe 6524 html5lib_1.2-2.debian.tar.xz a7c965f9d689a740d0e7144089aca2b4a86d2f13ced3d185c9d36daf4f3a026b7df7624e1faa141fc5ae47bde04e65c6c91e6723b515a8006a2563040905ba04 2118 html5lib_1.2-2.dsc a3d16b8c1627a17618c596e0705b2b5c7a519759696a17dbc06a23521b91f859037bd54e54bdd7d56856db67cb97359053bf6aad55d12eec2dbaab3dd553071c 275189 html5lib_1.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/h/html5lib"
   ],
   "Files": [
-    "40436f6bd106ffa023ea33a54baef470 7348 html5lib_1.1-3.debian.tar.xz e2ade16e6eaae5baf15da32324167bb6 2277 html5lib_1.1-3.dsc 4fe90a0458ed7dcaedf06455ea3543cc 206880 html5lib_1.1.orig.tar.xz"
+    "75519174edc4e070b199a339f9b199c2 6524 html5lib_1.2-2.debian.tar.xz 63590f95fe7d96795b8f01646fab21b4 2118 html5lib_1.2-2.dsc 19c61ffaf0a57719d1c86f6550aff461 275189 html5lib_1.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://github.com/html5lib/html5lib-python"
+    "https://github.com/ashleysommer/html5lib-modern"
   ],
   "Maintainer": [
-    "Sandro Tosi \u003cmorph@debian.org\u003e"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
   ],
   "Package": [
     "html5lib"
@@ -39,16 +39,16 @@
     "python3-html5lib deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "python3-all, python3-genshi, python3-lxml, python3-mock, python3-pytest, python3-pytest-expect, python3-setuptools, python3-six, python3-webencodings"
+    "python3-all, python3-genshi, python3-lxml, python3-pytest, python3-pytest-expect, python3-setuptools, python3-webencodings"
   ],
   "Uploaders": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+    "Michael Fladischer \u003cfladi@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/html5lib"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/html5lib.git"
   ],
   "Version": [
-    "1.1-3"
+    "1.2-2"
   ]
 }

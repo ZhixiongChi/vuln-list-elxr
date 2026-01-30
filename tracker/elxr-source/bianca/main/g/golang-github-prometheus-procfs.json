@@ -3,25 +3,25 @@
     "all"
   ],
   "Binary": [
-    "golang-github-prometheus-procfs-dev, golang-procfs-dev"
+    "golang-github-prometheus-procfs-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-google-go-cmp-dev, golang-golang-x-sync-dev, golang-golang-x-sys-dev"
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.20~), golang-github-google-go-cmp-dev, golang-golang-x-sync-dev, golang-golang-x-sys-dev"
   ],
   "Checksums-Sha1": [
-    "67ae242460fd2e3574cf123fb55ee5c7459ca101 6220 golang-github-prometheus-procfs_0.8.0-3.debian.tar.xz f7725f182bd0f08baae367d6ed6978d5be9f7dca 2554 golang-github-prometheus-procfs_0.8.0-3.dsc 601c00f3b19a460ec2ecf5ee2ae65e6e3df79fef 194841 golang-github-prometheus-procfs_0.8.0.orig.tar.gz"
+    "b38789480d8c9e3a31d0a33211f8c46fccc375bc 7536 golang-github-prometheus-procfs_0.15.1-1.debian.tar.xz db38b79b64307ef013b611b2fdf43cc7ba71eb7e 2506 golang-github-prometheus-procfs_0.15.1-1.dsc b8c67e200ed8f852c7ea5b5eb949935bb9543d21 243688 golang-github-prometheus-procfs_0.15.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "40ed94df10d1fef2b47fa2ac8b3f98df08a220678eae2e188692667b8e05d1ca 6220 golang-github-prometheus-procfs_0.8.0-3.debian.tar.xz 233b215d790bf060682643cc8c36d13b58cb7a6706831c0dc6ae32a7d5549f6d 2554 golang-github-prometheus-procfs_0.8.0-3.dsc 53d9342ca897c91140dafb1266ea4bdeab37aed94222716f4f5797a1de13cf51 194841 golang-github-prometheus-procfs_0.8.0.orig.tar.gz"
+    "fdb8081f988c9574d56a9b2ea350085a3ea68ec32dad1727885ca00fd08f5693 7536 golang-github-prometheus-procfs_0.15.1-1.debian.tar.xz c7724940f820f0450e7de251bebd59318aa6bd883b5dea8160e38118a669874f 2506 golang-github-prometheus-procfs_0.15.1-1.dsc 4742e554c509e212778cff0ab4eb65e7d9cb2f9954b21be6b769076d2ace445a 243688 golang-github-prometheus-procfs_0.15.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "3d107038f8c1b533413108d235115c997e38c8bb4b3c59447d769d3580d11cb4aa873e7812e3df0b344b2b3e9a5a447b31115e6bf3189b47c8a9973fdc928a92 6220 golang-github-prometheus-procfs_0.8.0-3.debian.tar.xz a50f7eb464ac8e2a17122d9dc19302253508b03c5ef3cd4622cf5ab03dc0cc1d6b9c26418e7ec1e038dc38225b439be0833ec767870f7bb23c6bb272e425c98b 2554 golang-github-prometheus-procfs_0.8.0-3.dsc 994d81e7077cbc57bebf90a134d9d9710f1fd29785869018e752b89aab92004c5ff663252cca33135d5563fc383c75bf97f328c510d2fb7cb1a4eaf73af7bc9c 194841 golang-github-prometheus-procfs_0.8.0.orig.tar.gz"
+    "f169009a1bdf12931e0cb4089b71e40f1c3632fbc92c6303f077acb5aa0531b45cc590ea1db356628e2cac557c8e8dd40cf8eff5a64f1d5ae13c540082e8a0c9 7536 golang-github-prometheus-procfs_0.15.1-1.debian.tar.xz 77949c7209e9157ceb3a1c28b200095be291089618f6e9da1d48981dbac8715d3381997f346e0d39d569434281955549d3dc21d757d69fa6ce2b85d77e4bd493 2506 golang-github-prometheus-procfs_0.15.1-1.dsc 0e7d9e9368ad5c5cf3b9037daca0c23657bbacec3c43e7df678921544ec7184dfc8d522aae51e2364f650d4c8586b39d66d493f6963301bb821500df05a12751 243688 golang-github-prometheus-procfs_0.15.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-prometheus-procfs"
   ],
   "Files": [
-    "0591b24327e3158b7878e045143b970c 6220 golang-github-prometheus-procfs_0.8.0-3.debian.tar.xz 2186dbecf402adb1b09a46bb4b36bdc1 2554 golang-github-prometheus-procfs_0.8.0-3.dsc 6cf080f48d80c91b909da6f602967e0a 194841 golang-github-prometheus-procfs_0.8.0.orig.tar.gz"
+    "311e37a8172d351a713fec977498d84a 7536 golang-github-prometheus-procfs_0.15.1-1.debian.tar.xz 220c616f7271b8922430213f96fe9bd1 2506 golang-github-prometheus-procfs_0.15.1-1.dsc e7734434e5db2e292110c7da05c0a3ed 243688 golang-github-prometheus-procfs_0.15.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "golang-github-prometheus-procfs"
   ],
   "Package-List": [
-    "golang-github-prometheus-procfs-dev deb golang optional arch=all golang-procfs-dev deb oldlibs optional arch=all"
+    "golang-github-prometheus-procfs-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-prometheus-procfs.git"
   ],
   "Version": [
-    "0.8.0-3"
+    "0.15.1-1"
   ]
 }

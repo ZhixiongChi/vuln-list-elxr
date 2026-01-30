@@ -6,25 +6,28 @@
     "librust-serde-json-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-itoa-1+default-dev \u003c!nocheck\u003e, librust-ryu-1+default-dev \u003c!nocheck\u003e, librust-serde-1+std-dev (\u003e= 1.0.100-~~) \u003c!nocheck\u003e, librust-serde-1-dev (\u003e= 1.0.100-~~) \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-itoa-1+default-dev \u003c!nocheck\u003e, librust-memchr-2+std-dev \u003c!nocheck\u003e, librust-memchr-2-dev \u003c!nocheck\u003e, librust-ryu-1+default-dev \u003c!nocheck\u003e, librust-serde-1+std-dev (\u003e= 1.0.194-~~) \u003c!nocheck\u003e, librust-serde-1-dev (\u003e= 1.0.194-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "acaa4595dd6164a5b4ddaa1f5d6cb4e52fe6e33d 3580 rust-serde-json_1.0.87-1.debian.tar.xz 1a1dda6be0eefe22addf751df8749a84d13c215b 2107 rust-serde-json_1.0.87-1.dsc 2eaebd97e5e8570f1e25cf409d23b10ec634489e 144383 rust-serde-json_1.0.87.orig.tar.gz"
+    "2cd2f6f34f89484981b51797f9e40b1c9e276edf 5240 rust-serde-json_1.0.139-1.debian.tar.xz c3530fc6b0774031d3956317be16ea92a6dcb29c 2885 rust-serde-json_1.0.139-1.dsc d30bf76c1c2b804c1cc55987dbce41a054b9f006 154839 rust-serde-json_1.0.139.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "abf4ed4b204457004d563acd7f45de8b13340b0d99655582867d70cf6c588093 3580 rust-serde-json_1.0.87-1.debian.tar.xz bc0a00916913d1a7fd2e46dd7d74f7ef5408e9b082827e042e1af4f3ae1bf8dd 2107 rust-serde-json_1.0.87-1.dsc 6ce777b7b150d76b9cf60d28b55f5847135a003f7d7350c6be7a773508ce7d45 144383 rust-serde-json_1.0.87.orig.tar.gz"
+    "051ea22e75612066801e7292c3c298c003b5309643f4b63db124b88e8af349ee 5240 rust-serde-json_1.0.139-1.debian.tar.xz 486ed05cd99e7a620bc4654467f092618134c8db0f277cb4f36662ab0fb1cc5f 2885 rust-serde-json_1.0.139-1.dsc 44f86c3acccc9c65b153fe1b85a3be07fe5515274ec9f0653b4a0875731c72a6 154839 rust-serde-json_1.0.139.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "11d0553dec71480f9bc93cd3be1dca27b1b380ba320690001822dae019355e474395e1ad93bf351403383a62e9b3c61e40fafd93f54f1715778670f470dbc6f6 3580 rust-serde-json_1.0.87-1.debian.tar.xz d409dc6d601a25f780cf21228645fdc8f37959b669f86442e9fd076142c95b65ff7d79c1ab59fcbaf28100636a078861eb47a2a5bf8761a934e0575d2d3b39f1 2107 rust-serde-json_1.0.87-1.dsc 77b90340aaaa0fb477b33e6628ed2ea0fb53cff1e2b5724a3474e24b2bfc9bff077633d9581e41dd96b2a0e167549e992d238bb09c627fb5680996b39583c4cc 144383 rust-serde-json_1.0.87.orig.tar.gz"
+    "7e3d866da6bd4a4e16d5b280e1088db687fdc4ccac5c91cd190a69d989584161c63fc4676f5414f57947f4a228cff3de1d76237c5be7e667924fe467982f057b 5240 rust-serde-json_1.0.139-1.debian.tar.xz f70a7ea4cc880ec6077aa70c7beb1181d267d4a83e08f3477a3c9c11c0a2e194a624f44c773e0232c379852015ba7974f0c5600fb16fe512e4f33fdec7d79d73 2885 rust-serde-json_1.0.139-1.dsc d90f4a02894b9c0f1d8d210af7639b0d6cb1929a159d1557ec220ce74d327c5d25fbdda6c5dfc2c00763ab3510a8ad11ce949b9cafac5b6d2203721aeaf3b5a0 154839 rust-serde-json_1.0.139.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-serde-json"
   ],
   "Files": [
-    "e4a2ac5d1076f99c53266ea0ebbc3ad9 3580 rust-serde-json_1.0.87-1.debian.tar.xz ec46cdb6aecdfcf28162e2a3694ba54e 2107 rust-serde-json_1.0.87-1.dsc b898807d8111d1d280862868cbd4cd67 144383 rust-serde-json_1.0.87.orig.tar.gz"
+    "ce6524de03f94e3ad728ae1240d3018a 5240 rust-serde-json_1.0.139-1.debian.tar.xz 64626984c62d6219bd88058f19b05601 2885 rust-serde-json_1.0.139-1.dsc e8f1e9413e6ecd2837c08ecb0ecd6fd8 154839 rust-serde-json_1.0.139.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/serde-rs/json"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,13 +39,13 @@
     "librust-serde-json-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-automod-1+default-dev, librust-indoc-1+default-dev, librust-ref-cast-1+default-dev, librust-rustversion-1+default-dev, librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-serde-bytes-0.11+default-dev, librust-serde-derive-1+default-dev, librust-serde-stacker-0.1+default-dev, librust-trybuild-1+default-dev, librust-trybuild-1+diff-dev"
+    "dh-cargo, librust-automod-1+default-dev, librust-indoc-2+default-dev, librust-ref-cast-1+default-dev, librust-rustversion-1+default-dev, librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-serde-bytes-0.11+default-dev, librust-serde-derive-1+default-dev, librust-serde-stacker-0.1+default-dev, librust-trybuild-1+default-dev, librust-trybuild-1+diff-dev, rustc"
   ],
   "Uploaders": [
     "kpcyrd \u003cgit@rxv.cc\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/serde-json]"
   ],
   "Version": [
-    "1.0.87-1"
+    "1.0.139-1"
   ]
 }

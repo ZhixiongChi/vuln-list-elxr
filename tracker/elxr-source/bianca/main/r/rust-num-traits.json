@@ -6,22 +6,22 @@
     "librust-num-traits-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-autocfg-1+default-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.60) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-autocfg-1+default-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "7bb000bc0daf35e4969aff1d33bbbd2d47e07c5c 3604 rust-num-traits_0.2.15-1.debian.tar.xz 5bf558d96daba8e4abac13bb3b504e52c3525ef3 2278 rust-num-traits_0.2.15-1.dsc dbd5cd298e411346a5ac95246aba24ca7ef50be7 49262 rust-num-traits_0.2.15.orig.tar.gz"
+    "a0986bea528a32f88f6d8164b202251d07ec9aa1 3740 rust-num-traits_0.2.19-2.debian.tar.xz 3da558c9df321c254ff98f35712462d3784ef039 1711 rust-num-traits_0.2.19-2.dsc 91c821f4ebf995002587da89ca2946111c50177d 51631 rust-num-traits_0.2.19.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "3386df556c970c87cb7d0d32e78a5f4f257b9e0d31c4347325882706fa6e68be 3604 rust-num-traits_0.2.15-1.debian.tar.xz da8adbc7c69bd7ca50dc3ab39f3eb8847d90097c4e2a2cce2bad5d5f9e5dd525 2278 rust-num-traits_0.2.15-1.dsc 578ede34cf02f8924ab9447f50c28075b4d3e5b269972345e7e0372b38c6cdcd 49262 rust-num-traits_0.2.15.orig.tar.gz"
+    "33f3384db5d75038495909f6e6b447c8e3f7d38736032bcdb36acc75615d644d 3740 rust-num-traits_0.2.19-2.debian.tar.xz e4d9c64eba88cf3d0040627724bc487f5475a1afc412a69f66faeee939c701d2 1711 rust-num-traits_0.2.19-2.dsc 071dfc062690e90b734c0b2273ce72ad0ffa95f0c74596bc250dcfd960262841 51631 rust-num-traits_0.2.19.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "ad1ef05d4aeff38a76ee3eb22217d727f0fdf7ef9b152e30429fbf0d87d158bf2cca69d4933d072dc3bb353faa47fe80a1d208d6874644be37ca06202907f17e 3604 rust-num-traits_0.2.15-1.debian.tar.xz fa2f54528acb6baabb76ddb7a7ee7618a4d7a26d0fd334154bf1d8bae1d8c7c598e12e43bbea2b900287dc7ffc217049913c1270d134b01aaf074430e552e5cf 2278 rust-num-traits_0.2.15-1.dsc 5228498af0f15daeac3c9210f3e6e71cfaaeb30beea81dd37f8eb06b9592c8bf3226a47597cd8592ad4c513964a9a40f1ab2c33102ef3dfe3800d22c8d4528e8 49262 rust-num-traits_0.2.15.orig.tar.gz"
+    "4b3b1e7dcfb3cf7898aa65352aa59ef6d615f2d4a779507cb762800edc424639a2494a402150cbfa3df622766f877e375ef5a5684999cea5a8dce0f3a96c0c92 3740 rust-num-traits_0.2.19-2.debian.tar.xz 60e4480389e9c7b558a42e4364811114c994e333ab36910cceb51a8bab7a2e1970a90bd3c6bc4547b97979b12bf44e756174333f316ea1d4217979bc21ac133b 1711 rust-num-traits_0.2.19-2.dsc 180018a5eceb45085e4e8d103ff21bb4d5079cea874c42a0ad4c76c99d275d434bbc1cc289f0cdec172866daa89dbfe0871410b2cc3407233fe1129786905956 51631 rust-num-traits_0.2.19.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-num-traits"
   ],
   "Files": [
-    "6e3e65ed7a0a35c7f7708e482f4dda58 3604 rust-num-traits_0.2.15-1.debian.tar.xz 25d149b40773bdaf3694e4b13797eeee 2278 rust-num-traits_0.2.15-1.dsc a0de6eabdeb1320350abcbd7c02df6ac 49262 rust-num-traits_0.2.15.orig.tar.gz"
+    "bf1cc81dbc71b1e72744099ca14dfadc 3740 rust-num-traits_0.2.19-2.debian.tar.xz cd08a34b5f6596c9d81d9e321fea2d19 1711 rust-num-traits_0.2.19-2.dsc e092b3abcc54806f2a35889d725bf95f 51631 rust-num-traits_0.2.19.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "librust-num-traits-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/num-traits]"
   ],
   "Version": [
-    "0.2.15-1"
+    "0.2.19-2"
   ]
 }

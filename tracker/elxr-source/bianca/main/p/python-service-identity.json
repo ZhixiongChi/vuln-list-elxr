@@ -6,31 +6,34 @@
     "python3-service-identity"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-attr, python3-cryptography, python3-idna, python3-openssl, python3-pyasn1-modules, python3-pytest, python3-setuptools"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-hatch-fancy-pypi-readme, python3-hatch-vcs, python3-hatchling, python3-attr, python3-cryptography, python3-idna, python3-openssl, python3-pyasn1-modules, python3-pytest"
   ],
   "Build-Depends-Indep": [
     "python3-sphinx"
   ],
   "Checksums-Sha1": [
-    "e88fd0a5187055ac652cba3a2ca86da22abe7eaa 5520 python-service-identity_18.1.0-8.debian.tar.xz 2cde613c30164e0b0a6945173fdcda2ccfa312bc 2349 python-service-identity_18.1.0-8.dsc 0134269b0229c470da5af6045877698061bc9b88 21653 python-service-identity_18.1.0.orig.tar.gz"
+    "c68ee9b0bba91df47090cfaa6a414f05875e3c86 3324 python-service-identity_24.2.0-1.debian.tar.xz 5a12baea1f2086e0ee43f6cf86bb16a4322889de 2600 python-service-identity_24.2.0-1.dsc bf805eb2e4987b9a9ffd59f62094ec84b529dd84 39245 python-service-identity_24.2.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "32eda64b60ef2bd494d28b4430e1b88f7b0c6a7ef55447fb88dbfb49ec88057b 5520 python-service-identity_18.1.0-8.debian.tar.xz 555a96e9c7646cf3b568352496f82a20081eb7313a3625910577c7e71641b712 2349 python-service-identity_18.1.0-8.dsc 0858a54aabc5b459d1aafa8a518ed2081a285087f349fe3e55197989232e2e2d 21653 python-service-identity_18.1.0.orig.tar.gz"
+    "df817172dbee64e47fd4dced670325d31947e81e34bb07ff46bdab9ced6923a9 3324 python-service-identity_24.2.0-1.debian.tar.xz b69dfe94045d03626c0fe561ee5102032cb8a5f8c655292595f586479e2b0d32 2600 python-service-identity_24.2.0-1.dsc b8683ba13f0d39c6cd5d625d2c5f65421d6d707b013b375c355751557cbe8e09 39245 python-service-identity_24.2.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "44d1f89d13a8a6d6e87982bbb993220b5afafd2f6849b38142c1a6890e88d3c40d86008d9d8b0f5d83f5c16d3a27347b5fc5066d96d48e1dc1a58b4f4e8118c1 5520 python-service-identity_18.1.0-8.debian.tar.xz 8c968459fb0271608b23271ad3fb72d9ffda9f9764d3fd2a10ca54392a0d02c1b7c3e651c474ac4320cd78e7be5dc0d1edb2a6a91a7776e6e9b4c151f3f840cb 2349 python-service-identity_18.1.0-8.dsc c1556e385035a8d43fd0e3960c0396b9d2536c5e3c7450b3669c8c9b8ff60b6a9d2f0282dc30c1fb46034b4abcb0ff6d74ed79f6bcc33f59035988ccaf3324d2 21653 python-service-identity_18.1.0.orig.tar.gz"
+    "de1bf5e58e2e9e177a2b06f539fec53671b69542a1e47766d46d9ab91a19cc21a66aadfe9a23c70fd9121b5a942cc3fc2d30713300551b8f38c304242ae0ac79 3324 python-service-identity_24.2.0-1.debian.tar.xz 6251f5d11a20dbbce0f6f260fb1e17b510e28ff0e923698bd55262c3fce8519ad3ada7f8e13f27bf786d86c4d9739035fbc34fbcdfe31ffca4ba548cbb2b9036 2600 python-service-identity_24.2.0-1.dsc 8dc475b965e5e33f2c9b5587b7b91351c8b424e2ebb89ab8cf7fe159798d26912b16bcff9bc6151606e319c32a7e53a3852fafd7c7bccdbf1d6ac93c2f9dda03 39245 python-service-identity_24.2.0.orig.tar.gz"
+  ],
+  "Dgit": [
+    "f3613320dd70cfe07fbfcaee9206d7e2eb8dda95 debian archive/debian/24.2.0-1 https://git.dgit.debian.org/python-service-identity"
   ],
   "Directory": [
     "pool/main/p/python-service-identity"
   ],
   "Files": [
-    "12c1685257aadeba39ffda9285fee2ea 5520 python-service-identity_18.1.0-8.debian.tar.xz 4b1648372d33acab1503c7f79be6ae84 2349 python-service-identity_18.1.0-8.dsc c6b8bac93e7d899a1da313a19cc6570a 21653 python-service-identity_18.1.0.orig.tar.gz"
+    "69c0e83e99a5cff4004ebefe8df1d422 3324 python-service-identity_24.2.0-1.debian.tar.xz ae3623cf0820c678e3846a5bee739156 2600 python-service-identity_24.2.0-1.dsc e575db51719742ec39191c896e4c2971 39245 python-service-identity_24.2.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://pypi.python.org/pypi/service_identity"
+    "https://github.com/pyca/service-identity"
   ],
   "Maintainer": [
     "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
@@ -48,10 +51,10 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "python3-all, python3-pytest"
+    "python3-all, python3-idna, python3-openssl, python3-pytest"
   ],
   "Uploaders": [
-    "Tristan Seligmann \u003cmithrandi@debian.org\u003e"
+    "Colin Watson \u003ccjwatson@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-service-identity"
@@ -60,6 +63,6 @@
     "https://salsa.debian.org/python-team/packages/python-service-identity.git"
   ],
   "Version": [
-    "18.1.0-8"
+    "24.2.0-1"
   ]
 }

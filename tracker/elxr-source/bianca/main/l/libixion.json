@@ -3,7 +3,7 @@
     "any all"
   ],
   "Binary": [
-    "libixion-dev, libixion-0.17-0, python3-ixion, libixion-doc"
+    "libixion-dev, libixion-0.18-0, python3-ixion, libixion-doc"
   ],
   "Build-Conflicts": [
     "python-sphinx"
@@ -12,25 +12,25 @@
     "debhelper-compat (= 13)"
   ],
   "Build-Depends-Arch": [
-    "dh-sequence-python3, libboost-filesystem-dev, libboost-program-options-dev, libboost-system-dev, libboost-thread-dev, libmdds-dev (\u003e= 2.0), libmdds-dev (\u003c\u003c 2.1~), pkg-config, python3, python3-dev, zlib1g-dev"
+    "dh-sequence-python3, libboost-filesystem-dev, libboost-program-options-dev, libboost-system-dev, libboost-thread-dev, libmdds-dev (\u003e= 2.1), libmdds-dev (\u003c\u003c 2.2~), pkg-config, python3, python3-dev, zlib1g-dev"
   ],
   "Build-Depends-Indep": [
     "dh-sequence-sphinxdoc, doxygen, python3-breathe, python3-sphinx, python3-sphinx-rtd-theme"
   ],
   "Checksums-Sha1": [
-    "61b86af7ce734289bbbc8095728a4e63a6555e25 10024 libixion_0.17.0-3.debian.tar.xz d26f7ee997da13de082a3b7030ef44e3977927b8 2576 libixion_0.17.0-3.dsc a59c9fd889e7c0fb3b88d5ea1775cb0b6b2c8f73 790107 libixion_0.17.0.orig.tar.gz"
+    "d0e07f69b9bbca0358ceca15a87e064e6fcd54e8 10868 libixion_0.19.0-7.debian.tar.xz e3db63f6b79fb6c7474ab0e3805224e5a03e2fed 2579 libixion_0.19.0-7.dsc e3dd436434015a48c6c070e56f90d4c75bb22010 639126 libixion_0.19.0.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "61cf745a03ed2ca7760c12e28bc0a3df1fb41a9d808d09c56820600bb4d127f3 10024 libixion_0.17.0-3.debian.tar.xz b374ab2f1db379b9ac3aae8e78ef08d9bca0d1b0f740453fa57f2f588aaec24c 2576 libixion_0.17.0-3.dsc a081c8ffd495396f1f801ea3eaf8266a8b4fc5ffbc529d2599bb7a59acd6595c 790107 libixion_0.17.0.orig.tar.gz"
+    "45b3e9d39ce1181121c4fb7399c66a4a2c41bc53e8df8f92337b890ecfe548cc 10868 libixion_0.19.0-7.debian.tar.xz 9a155dd570163b1863a4fe2a219ea0baf494310c42f4a4df96892673576fb8a5 2579 libixion_0.19.0-7.dsc f64c16e36af6879165cbadd7826da9a9d2d77473d67f8de6f0a283c31eee9268 639126 libixion_0.19.0.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "ec8637239ebe4d641b1c16195f9e9df35fbb637a582875cde7b4648ccff3f761cd178a5af37e18b9b9b7864296814400feb4632eb7c6501af34f0bc8ba685806 10024 libixion_0.17.0-3.debian.tar.xz a235cf3078d6bc87170159fdf5c8bdadefabb86fc43aeb1131b00a25b7356e39ca3b24895734338d2f026a182d882a3b3185f55aa70a1a46a29e6a6a76f61fbb 2576 libixion_0.17.0-3.dsc e00f158105b6175c254dde82a77e062b55c5893baadccd4bde3dee8ef676d17ed63bbd48946fe49644d8ddf3bc8ba3ca6cd8898ab3b2c1d1bc265885ef2ab935 790107 libixion_0.17.0.orig.tar.gz"
+    "b3887b3d9860a0ae62d6c525d90f45ef0d9948720cd1cf69aa05d202ed1f1d887da4880ad4c15912ebabadfed9f05029a51f34e839af302256800ccfb170c4e1 10868 libixion_0.19.0-7.debian.tar.xz 4c9c4d2d3107c4acf22e387100c9094309eb69646053d5a42c1a28fbd744093e3eca0d708f696a749a5e3711d27ed748065b9870aab434e4fe2b8da0f38b0919 2579 libixion_0.19.0-7.dsc 3a3aaeafaa46cf8f1a3f4b12dc02032091bd88491411a5b5ffbe478a9296d668e57fc55fa85befd1c7155666492a75b1ec0a5a1c845923450208f2762aab497e 639126 libixion_0.19.0.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/libi/libixion"
   ],
   "Files": [
-    "548148842f9bfb70daefdb61d3263de0 10024 libixion_0.17.0-3.debian.tar.xz 5f6ade4ea1b705c6e924c47d982ef61b 2576 libixion_0.17.0-3.dsc f75dd632cd7def839cec4d3cbc9b2915 790107 libixion_0.17.0.orig.tar.gz"
+    "3873f99535d199878b9bf06772d99007 10868 libixion_0.19.0-7.debian.tar.xz 54608113f72db4926fe1459b1b01bd58 2579 libixion_0.19.0-7.dsc e88371cc7025d51f7422543aa3168112 639126 libixion_0.19.0.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +45,7 @@
     "libixion"
   ],
   "Package-List": [
-    "libixion-0.17-0 deb libs optional arch=any libixion-dev deb libdevel optional arch=any libixion-doc deb doc optional arch=all python3-ixion deb python optional arch=any"
+    "libixion-0.18-0 deb libs optional arch=any libixion-dev deb libdevel optional arch=any libixion-doc deb doc optional arch=all python3-ixion deb python optional arch=any"
   ],
   "Standards-Version": [
     "4.6.0"
@@ -66,6 +66,6 @@
     "https://salsa.debian.org/libreoffice-team/libixion.git"
   ],
   "Version": [
-    "0.17.0-3"
+    "0.19.0-7"
   ]
 }

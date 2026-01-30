@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libastro-dev, libastro1, libmarble-dev, libmarblewidget-qt5-28, marble, marble-data, marble-maps, marble-plugins, marble-qt, marble-qt-data, plasma-marble"
+    "libastro-dev, libastro1, libmarble-dev, libmarblewidget-qt6-28, marble, marble-behaim, marble-data, marble-maps, marble-plugins, marble-qt, marble-qt-data, plasma-marble, qml6-module-org-kde-marble, qml6-module-org-kde-marble-imageprovider"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 1.7.0~), gettext, libgps-dev (\u003e= 3.22), libkf5coreaddons-dev (\u003e= 5.7.0~), libkf5crash-dev (\u003e= 5.7.0~), libkf5doctools-dev (\u003e= 5.7.0~), libkf5i18n-dev (\u003e= 5.7.0~), libkf5kio-dev (\u003e= 5.7.0~), libkf5newstuff-dev (\u003e= 5.7.0~), libkf5parts-dev (\u003e= 5.7.0~), libkf5plasma-dev (\u003e= 5.7.0~), libkf5runner-dev (\u003e= 5.7.0~), libkf5wallet-dev (\u003e= 5.7.0~), libphonon4qt5-dev, libphonon4qt5experimental-dev, libprotobuf-dev, libqt5opengl5-dev, libqt5serialport5-dev, libqt5svg5-dev (\u003e= 5.14.0~), libqt5webchannel5-dev (\u003e= 5.14.0~), libqt5webkit5-dev (\u003e= 5.14.0~), libshp-dev, pkg-config, pkg-kde-tools (\u003e= 0.15), protobuf-compiler, qtbase5-dev (\u003e= 5.14.0~), qtdeclarative5-dev (\u003e= 5.14.0~), qtlocation5-dev (\u003e= 5.14.0~), qtmultimedia5-dev (\u003e= 5.14.0~), qtpositioning5-dev (\u003e= 5.14.0~), qtquickcontrols2-5-dev (\u003e= 5.14.0~), qttools5-dev (\u003e= 5.14.0~), qtwebengine5-dev (\u003e= 5.14.0~) [amd64 arm64 armhf i386 mips64el mipsel], shared-mime-info, zlib1g-dev"
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, dh-sequence-qmldeps, cmake (\u003e= 3.20~), extra-cmake-modules (\u003e= 6.5.0~), gettext, libabsl-dev, libgps-dev (\u003e= 3.22), libkf6config-dev (\u003e= 6.5.0~), libkf6coreaddons-dev (\u003e= 6.5.0~), libkf6crash-dev (\u003e= 6.5.0~), libkf6doctools-dev (\u003e= 6.4.0~), libkf6i18n-dev (\u003e= 6.5.0~), libkf6kio-dev (\u003e= 6.4.0~), libkf6parts-dev (\u003e= 6.5.0~), libkf6runner-dev (\u003e= 6.5.0~), libphonon4qt6-dev, libphonon4qt6experimental-dev, libplasma-dev (\u003e= 6.0.0~), libprotobuf-dev, libprotoc-dev, libshp-dev, pkg-kde-tools, pkgconf, protobuf-compiler, qml6-module-org-kde-kcmutils, qml6-module-org-kde-kirigamiaddons-formcard, qml6-module-org-kde-plasma-plasma5support, qt6-5compat-dev (\u003e= 6.6~), qt6-base-dev (\u003e= 6.6~), qt6-declarative-dev (\u003e= 6.6~), qt6-declarative-private-dev, qt6-multimedia-dev, qt6-positioning-dev, qt6-serialport-dev, qt6-svg-dev (\u003e= 6.6~), qt6-tools-dev, qt6-webengine-dev (\u003e= 6.6~) [amd64 arm64 armhf i386], shared-mime-info, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "495d422e53e7756ea10036d91d80d2b227ec7902 75540 marble_22.12.3-1.debian.tar.xz 7b46fe36f1748a5dfb9debb54b428bff64d732b5 3856 marble_22.12.3-1.dsc ba20c6c90dc9409904d22c2495c7f88b68ab2dd4 53752524 marble_22.12.3.orig.tar.xz 72e9d7e340bb566703f419111eab4cb9ca5f6a6c 833 marble_22.12.3.orig.tar.xz.asc"
+    "78988176238d5498438bc39c8e106644f0b2ab9d 81140 marble_25.04.0-1.debian.tar.xz 74c1dcbb1264a46b725ea1e8b43c1c228120da94 4101 marble_25.04.0-1.dsc c4f59bb428abd06c546001cc979ed9430129eb36 53784868 marble_25.04.0.orig.tar.xz 3d86fe60cde581d51464b21408c0ad83af38660c 833 marble_25.04.0.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "621f49fa876958d18fa2071a9495660c80f2ee94ee34de15e4c181440090f9de 75540 marble_22.12.3-1.debian.tar.xz f9f6b242599dac98e210c2fce7776f6c8c8d584d48718f9b8839a4ada2bf6d86 3856 marble_22.12.3-1.dsc 88511d31b17bcbc389c7aabbf0ca64bfa01239c0d5763f2877c8c75837968d71 53752524 marble_22.12.3.orig.tar.xz 156dfced72e4b2a1d14a3b6a7fbcad98203ba3ae1bccaf7a174dbe9c5b3e6bbb 833 marble_22.12.3.orig.tar.xz.asc"
+    "4547d61b15f92a21578905e8993cc7fe7f452fd377fd2bf679bd156143385dde 81140 marble_25.04.0-1.debian.tar.xz 1c72ebfec66bf47978160d9720985c40f5077a38ef8df64cb86e9023299be221 4101 marble_25.04.0-1.dsc 27bdf174215a66136795ef3d0a7a2f3e09d21b12d2c83ec3309d84389dd52909 53784868 marble_25.04.0.orig.tar.xz 20bcd6a4977a7e54115a1f6e8ee9b8aec5dd3b1bed92251f7a9ac436c3312afa 833 marble_25.04.0.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "7811b72862d762468c00ec00a63dbbdc290027c0ab0a9f21dee961b44d05c86b9a79f1f214d234bcf765e1cf00898ff410f16f84f576c294b5b2dcfc8bbe0a56 75540 marble_22.12.3-1.debian.tar.xz c67a63018a30847e025ec8faa74ee225fda5aabcec582a9dd8e90cec1333f80701fad754f5182b839f217bc9cdb9f2ce1b334f965ae2c71d0f6fb598b14f29ea 3856 marble_22.12.3-1.dsc c673b8e9de38cbedff5a15a48f21156f4dd5fe6c469ba70cfee8426952308ae6d9498d23298215d2acd04f432f09f0a16e12c794524d51ac87eafac6d8013fbd 53752524 marble_22.12.3.orig.tar.xz 72b5d00c76fa3f7ed11fd02cf28694df9f5f7adb19cb23ef24c45e6d868e24a2b0438312bd25780d89e200e5b29e50cb8b309f0fe3310e398afde450de3f744c 833 marble_22.12.3.orig.tar.xz.asc"
+    "e21edcf71536c269ed02de91a19b662d1e424db24a9df92d385084ebe9225b2732de22a9c50ce2ce4b7e49519c49b45daa159d2786b8c0852c642c48c18c6f6c 81140 marble_25.04.0-1.debian.tar.xz 334218f049a3fd0141f1d83db9a947b1f5dcae0b3b31d285f6a52efe6ece4dec154a26864cccd3cff0595e107977e6b04806593353314ac713f59e905b7018c6 4101 marble_25.04.0-1.dsc 8008bcac01b1a6bebbcbb7686dacec3682441465dcfad57ce0680410161584ca6876a60545339da3f7100b15f3bfdac2050c16263fa8de4310d0869ef82b2dc1 53784868 marble_25.04.0.orig.tar.xz deeb5f62c54bbaebe59b765ea82a4d822f3a35a8316e6b4476b7e65976d3f0cb44c672109f824ec0b8f80ae630c10c624d74e8d901668f4e6d6aae3ea834760a 833 marble_25.04.0.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/m/marble"
   ],
   "Files": [
-    "7388bc52c8c0e4b22ec01a188c6a372f 75540 marble_22.12.3-1.debian.tar.xz 37b2e7901dcb06d395d2e042c8139d63 3856 marble_22.12.3-1.dsc fb869d34e90d19d30025809cb5b005d1 53752524 marble_22.12.3.orig.tar.xz f404b9f6ccd2f643a4a8aa9ab24e0dc0 833 marble_22.12.3.orig.tar.xz.asc"
+    "5170e2aa00765296428665a5fa2a21ec 81140 marble_25.04.0-1.debian.tar.xz 8da1250a05104cb64ce0559c060516a6 4101 marble_25.04.0-1.dsc 1d78875932d76e4e8f622925a0c3bf24 53784868 marble_25.04.0.orig.tar.xz 751c32e4e8024c365de50b97b1f180a9 833 marble_25.04.0.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "marble"
   ],
   "Package-List": [
-    "libastro-dev deb libdevel optional arch=any libastro1 deb libs optional arch=any libmarble-dev deb libdevel optional arch=any libmarblewidget-qt5-28 deb libs optional arch=any marble deb misc optional arch=any marble-data deb misc optional arch=all marble-maps deb misc optional arch=any marble-plugins deb misc optional arch=any marble-qt deb misc optional arch=any marble-qt-data deb misc optional arch=all plasma-marble deb misc optional arch=any"
+    "libastro-dev deb libdevel optional arch=any libastro1 deb libs optional arch=any libmarble-dev deb libdevel optional arch=any libmarblewidget-qt6-28 deb libs optional arch=any marble deb misc optional arch=any marble-behaim deb misc optional arch=any marble-data deb misc optional arch=all marble-maps deb misc optional arch=any marble-plugins deb misc optional arch=any marble-qt deb misc optional arch=any marble-qt-data deb misc optional arch=all plasma-marble deb misc optional arch=any qml6-module-org-kde-marble deb misc optional arch=any qml6-module-org-kde-marble-imageprovider deb misc optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "dh-acc, exuberant-ctags"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Matthias Geiger \u003cmatthias.geiger1024@tutanota.de\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Matthias Geiger \u003cwerdahias@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/marble"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/marble.git"
   ],
   "Version": [
-    "4:22.12.3-1"
+    "4:25.04.0-1"
   ]
 }

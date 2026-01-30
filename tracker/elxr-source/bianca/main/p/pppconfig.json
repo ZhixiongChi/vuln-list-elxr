@@ -6,25 +6,25 @@
     "pppconfig"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 10), po4a"
+    "debhelper-compat (= 13), pkgconf, po4a, systemd-dev"
   ],
   "Build-Depends-Indep": [
     "debianutils (\u003e= 2.10.3)"
   ],
   "Checksums-Sha1": [
-    "592bce9488e6abd657daf27fab183db50da5378d 1321 pppconfig_2.3.27.dsc aa615abddbde512160775948bab876378aa409e2 203736 pppconfig_2.3.27.tar.xz"
+    "86da73243532448ba7a91cae6104c7bde90af662 1628 pppconfig_2.3.30.dsc 6ac5e3ae1d0046c3e08aef971c356d44e8bf9c66 203440 pppconfig_2.3.30.tar.xz"
   ],
   "Checksums-Sha256": [
-    "a1035205a720f27807baff552d0af66013de8670fbc5eeb6e698d56d78bd8639 1321 pppconfig_2.3.27.dsc 5a36824ce3a79923d4833644b7ca11f0c7a5079693699d65a8d71f72b34cdcc3 203736 pppconfig_2.3.27.tar.xz"
+    "d01cec1e53ac3faf0c38541e764cf6394f2bccc898d69423010e164a39fc627d 1628 pppconfig_2.3.30.dsc 4fc79d038522c3bddc9854418c90f44368d14b790a3a3772c78d417ce8a4fa73 203440 pppconfig_2.3.30.tar.xz"
   ],
   "Checksums-Sha512": [
-    "a5344dd48067c670d7af3f5fc80c5192bfba873b2eac15d24ef8d96aa3ee06d93bacde08226fd2bbe69eeb79f55ebb46d1834884817247de53350b28ab3c40da 1321 pppconfig_2.3.27.dsc ee1b2b94135f2c17dddce2e849535872d7781e1e425b81b506a8e78243ab209cfa0333605737372154b7b740df562faa47b8402dccfcd15aefa9086a33a71cca 203736 pppconfig_2.3.27.tar.xz"
+    "a8045462f5d89a6d04fcc25d9e06085663bf6de75267774a88fd5981ab6528d17cbb9ffe60667819ab53743c22932e25af19c2477c703a951cc6b0ccd3b4a4a1 1628 pppconfig_2.3.30.dsc 3f9f8fd49ecd96afcd98819ba75c20b0421f01ef6fe095c3e613d8d8b4a87488a3e12eed50d0b9f6247f4d508f4ea88e573bcf45cc21ca90e7f7e82d386346bd 203440 pppconfig_2.3.30.tar.xz"
   ],
   "Directory": [
     "pool/main/p/pppconfig"
   ],
   "Files": [
-    "ede23f8e8516810936fc19a808da8a24 1321 pppconfig_2.3.27.dsc fdc8553675b6257c75c01f4e6c7469b4 203736 pppconfig_2.3.27.tar.xz"
+    "a97792540c6534755b3fda0aa57997f4 1628 pppconfig_2.3.30.dsc ae2f6c9418e46aeb837e41fed83902e8 203440 pppconfig_2.3.30.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -39,9 +39,15 @@
     "pppconfig deb admin optional arch=all"
   ],
   "Standards-Version": [
-    "3.9.2"
+    "4.7.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/pppconfig"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/pppconfig.git"
   ],
   "Version": [
-    "2.3.27"
+    "2.3.30"
   ]
 }

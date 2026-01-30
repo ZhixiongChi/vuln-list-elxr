@@ -9,22 +9,22 @@
     "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx (\u003e= 1.6.2)"
   ],
   "Build-Depends-Indep": [
-    "python3-cliff, python3-coverage, python3-hacking, python3-keystoneauth1, python3-keystonemiddleware, python3-openstackdocstheme, python3-osc-lib, python3-oslo.i18n, python3-oslo.serialization, python3-oslo.utils, python3-oslotest, python3-osprofiler, python3-pyparsing, python3-stestr, python3-tempest, python3-testscenarios, python3-testtools, subunit"
+    "python3-cliff, python3-coverage, python3-hacking, python3-keystoneauth1, python3-keystonemiddleware, python3-openstackdocstheme, python3-osc-lib, python3-oslo.db (\u003e= 12.3.1), python3-oslo.i18n, python3-oslo.serialization, python3-oslo.utils, python3-oslotest, python3-osprofiler, python3-pyparsing, python3-sqlalchemy, python3-sqlalchemy-utils, python3-stestr, python3-tempest, python3-testscenarios, python3-testtools, subunit"
   ],
   "Checksums-Sha1": [
-    "41926773ec573ca6550238792284143876a3682b 3800 python-aodhclient_3.0.0-2.debian.tar.xz 585f4dbfb75f3243c423ac754d444656aeecc554 2614 python-aodhclient_3.0.0-2.dsc e6e306243aa32358dd5f9b9d91f27b45ac26355d 34476 python-aodhclient_3.0.0.orig.tar.xz"
+    "d6fe4918797ddf6c7d692f45d2af21ddd619a3c3 4280 python-aodhclient_3.7.1-2.debian.tar.xz 29369b26b7d6ad5cdcdd40c7973e58bf3593d1d2 2689 python-aodhclient_3.7.1-2.dsc ee16533f2084653da79538fbdd244e42a49c893a 36532 python-aodhclient_3.7.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "4b74860eda5a50d9d77fa67d1f483a1a8e4bf52c29775a81122283876f81264a 3800 python-aodhclient_3.0.0-2.debian.tar.xz dc2886956e5654b43546cc0877925eb8587ee2e20e8b4c68961978fd40f34b46 2614 python-aodhclient_3.0.0-2.dsc 2a4d8e111dea32008233e97272961afaea3da9bde68074713bf136ea9ca5de08 34476 python-aodhclient_3.0.0.orig.tar.xz"
+    "c211528b2409dffc51d543fb87a7f9a468868bcfad9b217149dba9fc4267589c 4280 python-aodhclient_3.7.1-2.debian.tar.xz cd9f4bf143172729802114dfbbf40ea303ce331d8ab1764be8d081f0ae4bce02 2689 python-aodhclient_3.7.1-2.dsc 90e03bb5554b137057021660aca6fd66c84c6e1c1efeceb30066d427997f074f 36532 python-aodhclient_3.7.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "12c32292a0122315f582f776b62c9bb5576e9fd15462e1f1c3005799e843c5f72b64c78992784aeac492850a1a90dd4ff36ec7ba53c2655c0bd1a0bd5f246689 3800 python-aodhclient_3.0.0-2.debian.tar.xz e57605f6bcfa0f1f7cb458b1e4f68b7a2ba67c2efa5b7c44b65f0d79275623271757e10020e0046852503223136e0c06f58d49ee545ebbded918b5693f62f53d 2614 python-aodhclient_3.0.0-2.dsc 91edf7d60467ec2bfdd6daaf22e2bde36ba519c84ff9a804795f3a813fce91f14dade20a08d7968860be9f12c281a1491710a321731a4d9aea34c3995ee166f0 34476 python-aodhclient_3.0.0.orig.tar.xz"
+    "fb79f45eb9f6e9819bf217cfb97a967988618f57a5b92debf44d62cc50b01bd40c9ff57c93883ee45b592aad718f52d62e5d58ac4366759df797d62aa474951f 4280 python-aodhclient_3.7.1-2.debian.tar.xz 1bc185f144d15dccc3ab28a35b0c1fd2c1404bdcd4cc99d9a26d8bb6c4999a21d25293d1afbfea18a0e44a0f7ac7fc1d0d88cb9713ecbaf2e0c904d5e7dab3a3 2689 python-aodhclient_3.7.1-2.dsc 84c9affbb2d81b90e0509dcf2b8db9621990ab74dbffe393073a074c9c288f5b4837a4b817e4efd1c0c79e6588cb41964b9601b18ae9e73869908f671ee3afc6 36532 python-aodhclient_3.7.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-aodhclient"
   ],
   "Files": [
-    "438a8bf0179bbe12d8ebe6a1b933403a 3800 python-aodhclient_3.0.0-2.debian.tar.xz 79fba7b81af434b1093846cf9f26d714 2614 python-aodhclient_3.0.0-2.dsc 89c6c39c856b62111b761cd4724ea059 34476 python-aodhclient_3.0.0.orig.tar.xz"
+    "44126f0560fd5744f0ded8ed72084368 4280 python-aodhclient_3.7.1-2.debian.tar.xz 3e49ffa2671b1abed37651ebeb3ffc65 2689 python-aodhclient_3.7.1-2.dsc 8be3b07f61ed8c7ada87a695fc5a28cc 36532 python-aodhclient_3.7.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/openstack-team/clients/python-aodhclient.git"
   ],
   "Version": [
-    "3.0.0-2"
+    "3.7.1-2"
   ]
 }

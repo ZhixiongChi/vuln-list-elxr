@@ -6,22 +6,22 @@
     "dosfstools, dosfstools-udeb"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), xxd"
+    "debhelper-compat (= 13), xxd \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "12ad2f8beea41c7b869085dc3ffff979086ee9d2 16480 dosfstools_4.2-1.debian.tar.xz 3c76dc71ccb0b620d32234b53ac2fb1973208254 2166 dosfstools_4.2-1.dsc 14efc68c64987a9067b6a919ad2870007247686b 320917 dosfstools_4.2.orig.tar.gz ac62e2fee5114247c4fffb95486a45fef6595e64 833 dosfstools_4.2.orig.tar.gz.asc"
+    "20c36fdac3327a5a19dec53bff88cf9e6b274fb2 18856 dosfstools_4.2-1.2.debian.tar.xz fd05b3b73ccf56970ebaee9ec25dcb54b04c4cb6 1938 dosfstools_4.2-1.2.dsc 14efc68c64987a9067b6a919ad2870007247686b 320917 dosfstools_4.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "4cf283ff13e47c9dfb81385a955a099bd2d9491df54ecba692cc6072100bcd4d 16480 dosfstools_4.2-1.debian.tar.xz 598c495fe393caedbe15c3595e62d66371114f08dd7482c0af5e3f25acd7e5c2 2166 dosfstools_4.2-1.dsc 64926eebf90092dca21b14259a5301b7b98e7b1943e8a201c7d726084809b527 320917 dosfstools_4.2.orig.tar.gz 8e4e30d038a4957757a182556f1afaffb3d30471165d2fe68366671724ce879b 833 dosfstools_4.2.orig.tar.gz.asc"
+    "20a5b272fcde74a5e374e328c5201f1ce3576c21c849ba7ba7fd8a1e8c35263d 18856 dosfstools_4.2-1.2.debian.tar.xz 35625324d497b9d21a6862e83eaf37b585576e92d2664ed870431d6e34d7a45f 1938 dosfstools_4.2-1.2.dsc 64926eebf90092dca21b14259a5301b7b98e7b1943e8a201c7d726084809b527 320917 dosfstools_4.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "5571d27ae91e77190ba3eab07aab27c430e5ba1ceed3365235d950dfa660a4c503342018c9816b76ec946c7b8a5def0d273464b724f63dafa56a8def5d778ba6 16480 dosfstools_4.2-1.debian.tar.xz 73e96c0ae56357c67f8ec39f231c34efe0886bde4181a978ed231f6bcb692166be1f308f433b5f0fb278a2ff23a6db772c2e19d6c29eb90b72591fcd4d1faa17 2166 dosfstools_4.2-1.dsc 3cc0808edb4432428df8a67da4bb314fd1f27adc4a05754c1a492091741a7b6875ebd9f6a509cc4c5ad85643fc40395b6e0cadee548b25cc439cc9b725980156 320917 dosfstools_4.2.orig.tar.gz 896436cb072ef22b0e23baffc41d3b15625942978167d6d0772ee57d05256d9b4f4c3faca5600e42a5a001c9d9854f9325d2f9d8c2f51bd8b26acf9a0638d98d 833 dosfstools_4.2.orig.tar.gz.asc"
+    "977b58354d8bd0ba7f1e0e44bcd9a0f356ddfafca989190b7ad2de86d523fb0b74867064ed34e41c9e45acae8d56f3975a9373aab97159ea7e02a21c261707ae 18856 dosfstools_4.2-1.2.debian.tar.xz 17e287433447993c311341440fc5de10c22403660bfac936dd3607d12fa7a09ede85474d9f214a7b7494b94dfc21e4c20b7d71c7157d2d3012530ff7d5c67ef6 1938 dosfstools_4.2-1.2.dsc 3cc0808edb4432428df8a67da4bb314fd1f27adc4a05754c1a492091741a7b6875ebd9f6a509cc4c5ad85643fc40395b6e0cadee548b25cc439cc9b725980156 320917 dosfstools_4.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/d/dosfstools"
   ],
   "Files": [
-    "ec56c11315beb23fb66ae28d31dd648b 16480 dosfstools_4.2-1.debian.tar.xz 5651a696b25cdb48dff9eb39db66e5c9 2166 dosfstools_4.2-1.dsc 49c8e457327dc61efab5b115a27b087a 320917 dosfstools_4.2.orig.tar.gz 9ef419df420c4153cd01ed7b17b97a11 833 dosfstools_4.2.orig.tar.gz.asc"
+    "0c1273bc79d2df16a970212e23e9029f 18856 dosfstools_4.2-1.2.debian.tar.xz 243f99339a1d13ac37cf560011b9442c 1938 dosfstools_4.2-1.2.dsc 49c8e457327dc61efab5b115a27b087a 320917 dosfstools_4.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "dosfstools deb otherosfs optional arch=any dosfstools-udeb udeb debian-installer optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.6.0"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/dosfstools"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/dosfstools.git"
   ],
   "Version": [
-    "4.2-1"
+    "4.2-1.2"
   ]
 }

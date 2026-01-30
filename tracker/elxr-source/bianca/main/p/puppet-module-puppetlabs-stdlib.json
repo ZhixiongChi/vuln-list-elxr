@@ -6,25 +6,22 @@
     "puppet-module-puppetlabs-stdlib"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 11), sharness"
+    "debhelper-compat (= 13), sharness"
   ],
   "Checksums-Sha1": [
-    "89e4784428b6199d6dbb017c9f61d7723e5dfb78 4776 puppet-module-puppetlabs-stdlib_8.5.0-1.debian.tar.xz b0710ebb04a27ea956a384c59d73e9cdb8c6ac67 2474 puppet-module-puppetlabs-stdlib_8.5.0-1.dsc d53f95eb7c6bf2d33baa3cb8d44851f6d404ffe3 176548 puppet-module-puppetlabs-stdlib_8.5.0.orig.tar.xz"
+    "1806a76974288ba290c4f99e78a691a577723f5b 5072 puppet-module-puppetlabs-stdlib_9.4.1-1.debian.tar.xz e3cd047e88ce21a130e62a7aa175f27a2ec6a225 1713 puppet-module-puppetlabs-stdlib_9.4.1-1.dsc 5de646e2701a13f60675f939ffb5f43dbf78fc99 161699 puppet-module-puppetlabs-stdlib_9.4.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "f335e67dbf860994ddbc3316bc64b37a02e87155c8d7bcc1868fc2a99cfa7d47 4776 puppet-module-puppetlabs-stdlib_8.5.0-1.debian.tar.xz 7314fcefa4a1e8de89298233192fb3148ebb3e5bbac80333609d0ff09106cb1d 2474 puppet-module-puppetlabs-stdlib_8.5.0-1.dsc 675d6075c0cdc85c55f10cb4e881878301f6a93d2926596d75c8f06abe1ef6e6 176548 puppet-module-puppetlabs-stdlib_8.5.0.orig.tar.xz"
+    "ddbc78583dab589c916da5f7899499c26651012d42d3c3cb7f4e00cf2369163e 5072 puppet-module-puppetlabs-stdlib_9.4.1-1.debian.tar.xz 4a4e6399ef5560d269496bc2b5b5915922d005b8d80859035cd2c0e5b59a42cf 1713 puppet-module-puppetlabs-stdlib_9.4.1-1.dsc 2498431032871bd30e600d515e7b4f412962e409fbf60333104295a62d79cd80 161699 puppet-module-puppetlabs-stdlib_9.4.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "41a802dce8e0f6e81cf8ca7cdd6e9c4c67274ef2cd017ca2dbdc909e3fa6596f5bacfb2967913905b15bf633d9cfeba2c56fe4d1915ba74f2f9d9f9405130b64 4776 puppet-module-puppetlabs-stdlib_8.5.0-1.debian.tar.xz b65915a570f46ece384e3d93c9ccb1d8f9149533dfe188f9133b816bc8b837e3c4509928cba40bc91838142cd1c0f1ddd78764da00b3e3d5c2bc7e3d16b4c90d 2474 puppet-module-puppetlabs-stdlib_8.5.0-1.dsc f8ca50edfd2bf73389e3e8265c1da4983b12a6026de953e1846a185645ff9eae2f2e5894ed8f1a43e44d7facc2c3b5c206f820d0c203876ca40243eb1d219e6f 176548 puppet-module-puppetlabs-stdlib_8.5.0.orig.tar.xz"
-  ],
-  "Dgit": [
-    "f084569ee73d8bc6e9d9f1f88f585f7a695565a3 debian archive/debian/8.5.0-1 https://git.dgit.debian.org/puppet-module-puppetlabs-stdlib"
+    "9da835daa372619e5bfad42e036979c055f158932a3e7d0ec1859f736ca590e90d8a22c650d70bdd8f7ada725eac1b6d2c1b16a8e642ab9e105fca5c7bd67750 5072 puppet-module-puppetlabs-stdlib_9.4.1-1.debian.tar.xz 48a9415c6ea39cff80edf867a337a9ecbca4d715eeca7ce7c467f7f517b76ffc35e67f0a7f24cd465cc3f133dad22132917785503c59bb9d6b2e247dca7ba50c 1713 puppet-module-puppetlabs-stdlib_9.4.1-1.dsc 7aa83fc9214e22465187209cb1b0129044002148db5d81576c1df9a97aac9117ef8ac115e56022e4fbefd747f09f33466f75f0056962651f40f68a5627404eba 161699 puppet-module-puppetlabs-stdlib_9.4.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/puppet-module-puppetlabs-stdlib"
   ],
   "Files": [
-    "2c5c30dcd0a32942bef5f16944821052 4776 puppet-module-puppetlabs-stdlib_8.5.0-1.debian.tar.xz d8b0bf1fe42b0f4361cd36970cae98c6 2474 puppet-module-puppetlabs-stdlib_8.5.0-1.dsc c9fe624cb2baadcd5cad9645d8050210 176548 puppet-module-puppetlabs-stdlib_8.5.0.orig.tar.xz"
+    "346ef37139aebf2b10ca63c35174a786 5072 puppet-module-puppetlabs-stdlib_9.4.1-1.debian.tar.xz d948a7d41cfd32e27e6fdd9d997eaae6 1713 puppet-module-puppetlabs-stdlib_9.4.1-1.dsc 372647a7e06a6065de51ef1745c0a115 161699 puppet-module-puppetlabs-stdlib_9.4.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +39,7 @@
     "puppet-module-puppetlabs-stdlib deb admin optional arch=all"
   ],
   "Standards-Version": [
-    "4.2.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -51,7 +48,7 @@
     "perl, sharness"
   ],
   "Uploaders": [
-    "Stig Sandbeck Mathisen \u003cssm@debian.org\u003e, Russ Allbery \u003crra@debian.org\u003e, Sebastien Badia \u003csbadia@debian.org\u003e"
+    "Stig Sandbeck Mathisen \u003cssm@debian.org\u003e, Russ Allbery \u003crra@debian.org\u003e, Sebastien Badia \u003csbadia@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/puppet-team/puppet-module-puppetlabs-stdlib"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/puppet-team/puppet-module-puppetlabs-stdlib.git"
   ],
   "Version": [
-    "8.5.0-1"
+    "9.4.1-1"
   ]
 }

@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "linux-any all"
+    "linux-any"
   ],
   "Binary": [
-    "elogind, libelogind0, libelogind-dev, libelogind-dev-doc, libpam-elogind"
+    "elogind, libelogind0, libpam-elogind"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-exec (\u003e= 0.3), pkg-config, docbook-xsl, meson, gperf (\u003e= 3.1), gtk-doc-tools, python3-lxml, libcap-dev, libudev-dev, libseccomp-dev (\u003e= 2.3.1) [amd64 arm64 armel armhf i386 mips mipsel mips64 mips64el x32 powerpc ppc64 ppc64el s390x], libpam0g-dev (\u003e= 1.1.2), libacl1-dev, libselinux1-dev, libglib2.0-dev \u003c!nocheck\u003e, dbus (\u003e= 1.9.14) \u003c!nocheck\u003e"
+    "debhelper-compat (= 12), dh-exec (\u003e= 0.3), pkgconf, docbook-xsl, meson, gperf (\u003e= 3.1), gtk-doc-tools, python3-jinja2, python3-lxml, libcap-dev, libudev-dev, libseccomp-dev (\u003e= 2.3.1) [amd64 arm64 armel armhf i386 mips mipsel mips64 mips64el x32 powerpc ppc64 ppc64el s390x], libpam0g-dev (\u003e= 1.1.2), libacl1-dev, libselinux1-dev, libmount-dev, libglib2.0-dev \u003c!nocheck\u003e, dbus (\u003e= 1.9.14) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "b810ff76bac5ada3c5ecaef063c24446f724fe0f 9264 elogind_246.10-1debian1.debian.tar.xz 40b2e1999658dd41a92d7cdedeb89c1fe016a866 2635 elogind_246.10-1debian1.dsc f2538df81689c280b081c902f19dd538f5d1feae 1559256 elogind_246.10.orig.tar.gz"
+    "e85112e507406535401c981cf53450d08769a519 14356 elogind_255.17-1debian2.debian.tar.xz 70c9a25cd56402d118cd05c63c375a556052f1cb 2533 elogind_255.17-1debian2.dsc c89b2e333676b332a2ded4f4eb899b50dbf000b5 2183733 elogind_255.17.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "8534c7a9ddf00ea7f8e45da3debc5c30fb9a0d63b5de1cca22c8dabf5ffa07ca 9264 elogind_246.10-1debian1.debian.tar.xz 3e76964d9ede928ad26688bbc31b3d806a5a2f1a77918b24fb4a9567e8965098 2635 elogind_246.10-1debian1.dsc c490dc158c8f5bca8d00ecfcc7ad5af24d1c7b9e59990a0b3b1323996221a922 1559256 elogind_246.10.orig.tar.gz"
+    "cf28d4a918ba0afffe4fd21f9b51666372b70a74437b258516d33a8fff4c61db 14356 elogind_255.17-1debian2.debian.tar.xz 7e16b96854b8b988c95cdffec66232786c43c74fdfd170fd90a64ef76b775841 2533 elogind_255.17-1debian2.dsc a9725ae3f73f8d910de84c108bc11bfd4c782bef6a4190b2ec70c5d2f22344db 2183733 elogind_255.17.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "60b79bf7bc2b4b95e60c111df6101a61d8573ec536b7855693818ea97b71446294d76c1797491beb1dd7f134aa2eca03d6a654f4a06665b006ace2df115312f5 9264 elogind_246.10-1debian1.debian.tar.xz a45f7a8d373897de45cd4724b088e8e16aa82c23fd094e5a2e23f35988749140ff971e712f89e728c9697ec26cb7e62a5ba3010d77245073d3be6d59b26e46d5 2635 elogind_246.10-1debian1.dsc 9db0f068ed94ec07bab4d764ccb38840af3d05a4b7c9c539721906f5381b509cb9a3cbfb0453a978210d306136368de6162578c600d522416ef2a7ac1b9f348b 1559256 elogind_246.10.orig.tar.gz"
+    "6d1975e66128d1145f4c7a86459111fba8767ac1f5b881532d060ca40dc5867e3d1929868a0f7488f287e2f2af40f91696ece32a1f1f5a7810cebff0aa58e5f7 14356 elogind_255.17-1debian2.debian.tar.xz e9cbd6d031272249fcf0c0a6fb6c6be062573a85499db9b1532bebe200b679c030aa8becb50c56d42db517be37449d2b866f88fda15614f2e2c4ef1d3f5f1a36 2533 elogind_255.17-1debian2.dsc fb86f9d627792bbd1ab42e54345b2b670c073a077f65cdf860053ab0811c0892807c4f971820d7e703f7daa01f398cbd2dfb50ccdfc83cec1467308f7a4c2090 2183733 elogind_255.17.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/e/elogind"
   ],
   "Files": [
-    "737430fd2ee32c663b13f340af76ab45 9264 elogind_246.10-1debian1.debian.tar.xz d258b690b38e607eab1777edd69d6478 2635 elogind_246.10-1debian1.dsc 32ab2201281f14738d9c045f3669c14d 1559256 elogind_246.10.orig.tar.gz"
+    "972125d32d03dc783ff03fb1d7ab90b9 14356 elogind_255.17-1debian2.debian.tar.xz febb50c307a7873ecdfff07060e849b4 2533 elogind_255.17-1debian2.dsc 3cd76e1a71e13c4810f6e80e176a8fa7 2183733 elogind_255.17.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,21 +36,21 @@
     "elogind"
   ],
   "Package-List": [
-    "elogind deb admin optional arch=linux-any libelogind-dev deb libdevel optional arch=linux-any libelogind-dev-doc deb doc optional arch=all libelogind0 deb libs optional arch=linux-any libpam-elogind deb admin optional arch=linux-any"
+    "elogind deb admin optional arch=linux-any libelogind0 deb oldlibs optional arch=linux-any libpam-elogind deb admin optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
-    "Mark Hindley \u003cmark@hindley.org.uk\u003e, Ian Jackson \u003cijackson@chiark.greenend.org.uk\u003e"
+    "Mark Hindley \u003cleepen@debian.org\u003e, Ian Jackson \u003cijackson@chiark.greenend.org.uk\u003e"
   ],
   "Vcs-Browser": [
-    "https://git.devuan.org/devuan/elogind/tree/debian"
+    "https://git.devuan.org/devuan/elogind/src/branch/debian"
   ],
   "Vcs-Git": [
     "https://git.devuan.org/devuan/elogind.git -b debian"
   ],
   "Version": [
-    "246.10-1debian1"
+    "255.17-1debian2"
   ]
 }

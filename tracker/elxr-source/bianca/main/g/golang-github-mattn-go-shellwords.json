@@ -6,22 +6,22 @@
     "golang-github-mattn-go-shellwords-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-golang, golang-any"
+    "debhelper-compat (= 13), dh-golang, golang-any"
   ],
   "Checksums-Sha1": [
-    "06fd07c64c893ee94a90c5584eb9280cb0be1bb3 2964 golang-github-mattn-go-shellwords_1.0.10-2.debian.tar.xz f1fd472c1c36bf43d377bdf2ba423db281fea57d 2340 golang-github-mattn-go-shellwords_1.0.10-2.dsc fd9c478fab254e849b64d6f998b30daa1a18c399 4920 golang-github-mattn-go-shellwords_1.0.10.orig.tar.xz"
+    "f29386b5a735390e0e50e13ada1eb59f04590fdf 2736 golang-github-mattn-go-shellwords_1.0.12-1.debian.tar.xz 7907843bfb1ec471ab0df04bc17a395c4e0f9f42 1724 golang-github-mattn-go-shellwords_1.0.12-1.dsc 08fe837a27c584e5d45012df21f7b41054afe5b2 6325 golang-github-mattn-go-shellwords_1.0.12.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a27190d9d441ddfe275f2a3aa8ea0b4da209beeede3aa081707937d545357ac9 2964 golang-github-mattn-go-shellwords_1.0.10-2.debian.tar.xz fd1d583cfb904f8b6855ed29a70782520791f044d5676eb372c20ba3d078f71a 2340 golang-github-mattn-go-shellwords_1.0.10-2.dsc c81a5ec64ce291b67cfd2cc63365a44361d2ddefd358bd936262ff739afbd8f2 4920 golang-github-mattn-go-shellwords_1.0.10.orig.tar.xz"
+    "068c8ff8217fda15e5e969f63c71977bbaa127da0ad6280984e60c719aed41fa 2736 golang-github-mattn-go-shellwords_1.0.12-1.debian.tar.xz cea23f22b320b045cc4bf9b3b2efb54889d13dce08ab0ddd4cc4a1e7a5d72158 1724 golang-github-mattn-go-shellwords_1.0.12-1.dsc 9884291747f54aa51a946b0880854ec6ac6e1f4c06899ba9be5ae5a6364428db 6325 golang-github-mattn-go-shellwords_1.0.12.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "ea2173b9f824ec1e5b034456538373d1e91485d0e6d823ec4430870e9e1fc813f2c263fd680e0fb05b3d77fceaff558d865647706b521617561b66b7b7d2a09e 2964 golang-github-mattn-go-shellwords_1.0.10-2.debian.tar.xz dd25c75f536d41f0db2b0d01f05f73bf9d6c2099d249f91f8564cced93a8e15068a16a8094a7afeee559a06108cf48bbab1ebae76517438736f67c82dc8e6259 2340 golang-github-mattn-go-shellwords_1.0.10-2.dsc 0be888f1b781608a5cda6d2be1e6ace5f604930d0015241b9207c19b754f73f4eb6aa4d74708de2ad53b8b17204d79a7e663fba94fb17998e4038e6b9478dd4f 4920 golang-github-mattn-go-shellwords_1.0.10.orig.tar.xz"
+    "de84aaffb08066b2a7b35cf18c86a8cb131e7c8ea83d854d747b89a62942ad151592275e90f5eebaa96664245a12f8f52f985ab78b7067095c17d370cac84b5c 2736 golang-github-mattn-go-shellwords_1.0.12-1.debian.tar.xz 85f739d46ddb12c136c1d6bd8a5cc0b9106183d873df92f5140948fad4dcb683e6a715d71c52f42af5b7eb96e1df22a6acb1266a92daf6fcaf82ceb8b03a445c 1724 golang-github-mattn-go-shellwords_1.0.12-1.dsc bf7a8c863bef9610ff0a2a45b49cb3d60a00f60c0761e500f8f4ecdc01652ef3449c9d9c14235502902fb3970cb1ff7d024a6c206807c77df672cf9e5ffc4b00 6325 golang-github-mattn-go-shellwords_1.0.12.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-mattn-go-shellwords"
   ],
   "Files": [
-    "dea06327ac85d5d8aa9f744a54121322 2964 golang-github-mattn-go-shellwords_1.0.10-2.debian.tar.xz 78080f40df5044479a3a194e52afae8e 2340 golang-github-mattn-go-shellwords_1.0.10-2.dsc 14877933e0844e1e0e469c0ffe3ce694 4920 golang-github-mattn-go-shellwords_1.0.10.orig.tar.xz"
+    "6e91179eec2d37063041b9b99dc9eab9 2736 golang-github-mattn-go-shellwords_1.0.12-1.debian.tar.xz 95cf6769a3be13bcda6ecc2658ed1d55 1724 golang-github-mattn-go-shellwords_1.0.12-1.dsc 71a4ecaadfb90ffccb392799a2f00743 6325 golang-github-mattn-go-shellwords_1.0.12.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -33,16 +33,16 @@
     "https://github.com/mattn/go-shellwords"
   ],
   "Maintainer": [
-    "Debian Go Packaging Team \u003cpkg-go-maintainers@lists.alioth.debian.org\u003e"
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
   ],
   "Package": [
     "golang-github-mattn-go-shellwords"
   ],
   "Package-List": [
-    "golang-github-mattn-go-shellwords-dev deb devel optional arch=all"
+    "golang-github-mattn-go-shellwords-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-mattn-go-shellwords.git"
   ],
   "Version": [
-    "1.0.10-2"
+    "1.0.12-1"
   ]
 }

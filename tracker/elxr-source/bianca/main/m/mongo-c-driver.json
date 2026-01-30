@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libmongoc-dev, libmongoc-1.0-0, libmongoc-doc, libbson-dev, libbson-1.0-0, libbson-doc"
+    "libmongoc-dev, libmongoc-1.0-0t64, libmongoc-doc, libbson-dev, libbson-1.0-0t64, libbson-doc"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11), cmake, libssl-dev, pkg-config, python3-sphinx, libmongocrypt-dev \u003c!pkg.mongo-c-driver.no-libmongocrypt\u003e, zlib1g-dev, libicu-dev, libsasl2-dev, libsnappy-dev, libzstd-dev"
+    "dpkg-dev (\u003e= 1.22.5), debhelper (\u003e= 11), cmake, libssl-dev, pkgconf, python3-sphinx, python3-sphinx-design, furo, libmongocrypt-dev (\u003e= 1.12.0) \u003c!pkg.mongo-c-driver.no-libmongocrypt\u003e, zlib1g-dev, libsasl2-dev, libsnappy-dev, libutf8proc-dev, libzstd-dev"
   ],
   "Checksums-Sha1": [
-    "4edb3659a969c91bf7a4e76daad3a2e63d1842ff 15928 mongo-c-driver_1.23.1-1+deb12u2.debian.tar.xz 5425fe56eab3fd2237d136ea6801309df23484f3 2657 mongo-c-driver_1.23.1-1+deb12u2.dsc 044781f362b884e0523487b10da1e7cdb4835364 6065438 mongo-c-driver_1.23.1.orig.tar.gz"
+    "4f4fb17ddf8cc700b86f2f3b7f2ee8efa3618507 15016 mongo-c-driver_1.30.4-1+deb13u1.debian.tar.xz 1b6902b048040e77b7d5e0b093163acac53cc3cf 2734 mongo-c-driver_1.30.4-1+deb13u1.dsc f62e4dd888ea6c4acb7b197e01aa479743fe657a 6881389 mongo-c-driver_1.30.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "689814a48718471c4f8a10d9ba9a87144174f5aab51a4ad6ba2538f8847af1f3 15928 mongo-c-driver_1.23.1-1+deb12u2.debian.tar.xz a18ba6994adef84ad6db880c9ed8745a341677840069a3976535ed9a9095e16e 2657 mongo-c-driver_1.23.1-1+deb12u2.dsc 5e3502bd379b1717c1b7ad65ab7f84f79f83077aedb424e4eeab2640bb911810 6065438 mongo-c-driver_1.23.1.orig.tar.gz"
+    "3fcec10cdbc35ddba0226eb05f80905e34ea003c77187bd1d795efeaa895ee6e 15016 mongo-c-driver_1.30.4-1+deb13u1.debian.tar.xz 9b9a0a563c853f681561c03db0fa1ffadb8817f538688971a6f516e0adb9d3a4 2734 mongo-c-driver_1.30.4-1+deb13u1.dsc 2883a6d61251b881530566d79cedc48de9694ff88f01bf2452306434d18cc74c 6881389 mongo-c-driver_1.30.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e0cc9aac752a32809fc56c404b812f5fcd944b8dfea5bc2f0e7a994a62d6b8e7f3d035256a4432a67c6c18566d19159aaccdb26709b99393c941c50933cff7de 15928 mongo-c-driver_1.23.1-1+deb12u2.debian.tar.xz a0ed84ecc1033bb3b0838d7ac6a3f9758ed4bcbc5ceea4ab74130ddc5bffa38e70b4f4a3ea51e2b7eec6c8b37bc2fbb360dd49e444daec39bb80cceee98db9da 2657 mongo-c-driver_1.23.1-1+deb12u2.dsc 8e0b561546f975f263e51fdc1b58aa8bde13b240c4bb842c8d8070dd0f87c37c24258573e8ebf229ed007d6cfe20b8c2916f824f30db3fc325c5efd522f9769d 6065438 mongo-c-driver_1.23.1.orig.tar.gz"
+    "16d7378b61fd6ce70170e0c80520c87eb242a5336d140460d98bb0327520ac210bf4e71fe3fbda95176a453972bcb580e2767df0944ca26f8ba7e6125ac7c272 15016 mongo-c-driver_1.30.4-1+deb13u1.debian.tar.xz 744632e5d150ff52fe5c9580774c2e06241aebf968320e2d7fab893fdc8db41216a56e3b9630b9ea8b03410c1441212b59c639ba9ef1f9b22b66b133cf8e6504 2734 mongo-c-driver_1.30.4-1+deb13u1.dsc 16199aa640ea3b38b04ac0da398afa64bfb5a94efb8baa7ec5aec891284963d772f6131bf948b0de76a59cc824ed836e6e83e5a0812a70ab5611aab15f8be6a5 6881389 mongo-c-driver_1.30.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/m/mongo-c-driver"
   ],
   "Files": [
-    "bfde90e374fcaea739115c6912642392 15928 mongo-c-driver_1.23.1-1+deb12u2.debian.tar.xz 010f2c8cdab8dc7cf5a7bb6d31e1bc79 2657 mongo-c-driver_1.23.1-1+deb12u2.dsc 65303db180bebc2d47c1155a5278fe31 6065438 mongo-c-driver_1.23.1.orig.tar.gz"
+    "7165a4c8be9cdd04aac643b94f498429 15016 mongo-c-driver_1.30.4-1+deb13u1.debian.tar.xz 9dd3837160ba1b261730a31ace3bf305 2734 mongo-c-driver_1.30.4-1+deb13u1.dsc 1c2d77ea3e102a67020efec152d339f6 6881389 mongo-c-driver_1.30.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "mongo-c-driver"
   ],
   "Package-List": [
-    "libbson-1.0-0 deb libs optional arch=any libbson-dev deb libdevel optional arch=any libbson-doc deb doc optional arch=all libmongoc-1.0-0 deb libs optional arch=any profile=!pkg.mongo-c-driver.no-libmongocrypt libmongoc-dev deb libdevel optional arch=any profile=!pkg.mongo-c-driver.no-libmongocrypt libmongoc-doc deb doc optional arch=all profile=!pkg.mongo-c-driver.no-libmongocrypt"
+    "libbson-1.0-0t64 deb libs optional arch=any libbson-dev deb libdevel optional arch=any libbson-doc deb doc optional arch=all libmongoc-1.0-0t64 deb libs optional arch=any profile=!pkg.mongo-c-driver.no-libmongocrypt libmongoc-dev deb libdevel optional arch=any profile=!pkg.mongo-c-driver.no-libmongocrypt libmongoc-doc deb doc optional arch=all profile=!pkg.mongo-c-driver.no-libmongocrypt"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Uploaders": [
     "Kevin Albertson \u003ckevin.albertson@mongodb.com\u003e, Roberto C. Sanchez \u003croberto@connexer.com\u003e"
@@ -51,6 +51,6 @@
     "https://github.com/mongodb/mongo-c-driver.git"
   ],
   "Version": [
-    "1.23.1-1+deb12u2"
+    "1.30.4-1+deb13u1"
   ]
 }

@@ -9,19 +9,19 @@
     "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "f31c5a409bc8824923bc1551006a38a2ed2f9806 3860 rust-crc32fast_1.3.2-2.debian.tar.xz 3b5e25739274b607dd6c307b8030b0df892e623f 2320 rust-crc32fast_1.3.2-2.dsc d5f02b298afcbffc3755b7435d1bc41a9a5bac71 38661 rust-crc32fast_1.3.2.orig.tar.gz"
+    "ba16991498dc7e4bd962c4164b6e28ea78b9af17 4048 rust-crc32fast_1.4.2-1.debian.tar.xz 391c3b4d25fe086075e1c5eb39724a25b65cafd4 1677 rust-crc32fast_1.4.2-1.dsc d29dab9c13ab5952298b2a836bc82b62b9c8fcf3 38491 rust-crc32fast_1.4.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "928cd3f5478068b0d69e7205fcae6a1765c5c017ebf754a47b6320fbeaeeb597 3860 rust-crc32fast_1.3.2-2.debian.tar.xz 2b6030f2aa6a07ce8248adaee6c9f519a60c07ea11e5d231c25ad4ba1cffe843 2320 rust-crc32fast_1.3.2-2.dsc b540bd8bc810d3885c6ea91e2018302f68baba2129ab3e88f32389ee9370880d 38661 rust-crc32fast_1.3.2.orig.tar.gz"
+    "462b4af3454faa9edf615acce364ecb0c687f7895869fe5141e33ef0e6297c5d 4048 rust-crc32fast_1.4.2-1.debian.tar.xz c8f0d9ff4b61d379b6f7ebc2b20a2232c1ad7fa9626ee524bf805ec7d60ad805 1677 rust-crc32fast_1.4.2-1.dsc a97769d94ddab943e4510d138150169a2758b5ef3eb191a9ee688de3e23ef7b3 38491 rust-crc32fast_1.4.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "29231f6450ff4736139bc68648608f5b84787e650000430db09bf86673c321e81f8f2e26480caa2976bcf7365dc91a7548ba2ffff0907456f2374e4aa2c6c56e 3860 rust-crc32fast_1.3.2-2.debian.tar.xz 5e52c4a9da4f33bbd5e7f068b4d57651462b3ac8d170ea08119969de83feee57f76259b6d80ab05112b3a3049a6bb7ea8c6bbcc41668d2e82875df3d7ba91141 2320 rust-crc32fast_1.3.2-2.dsc a683943e252afdb1b9d626a07533ed11cf7a63af603c19640056c5d2b9c884ad9aff33ac54c0853ffca2f6cf94b0730eae6c05abf3e53e55e709d180c8152357 38661 rust-crc32fast_1.3.2.orig.tar.gz"
+    "e05364b7f15e8a94169599736d67366a9c1c650457992022ef94ce535a1be160d9a0fb5034b705ac00e93b6ace0e1e015b11797ec1cca00868a09555402a0533 4048 rust-crc32fast_1.4.2-1.debian.tar.xz 97c2fd227137feaa22032bb7f40f8e8d6f2ea4f1c1369e1e74a4f8f03baa41faff17e35fe2cb2f63f14afc9225f3f7d9bf653b24d9f0562dd2616f87741392fc 1677 rust-crc32fast_1.4.2-1.dsc c7608d33022062e217d3576f536ffbd51479855a5e5874529c71db2bf6a937ce04d814c39cf777309c38445393bf43cb9996161947e28738abd432f11beb7266 38491 rust-crc32fast_1.4.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-crc32fast"
   ],
   "Files": [
-    "2be3524acf797a57ae6f0ddd837071a6 3860 rust-crc32fast_1.3.2-2.debian.tar.xz 1fda7a13d04e5529045ba5950e1062a6 2320 rust-crc32fast_1.3.2-2.dsc a9d6492a1bd21d93dbc27c32eabd0c70 38661 rust-crc32fast_1.3.2.orig.tar.gz"
+    "f823d77fc5d625f00eeaebd667aa97d2 4048 rust-crc32fast_1.4.2-1.debian.tar.xz 6574571feae3139186f4215d88f2b004 1677 rust-crc32fast_1.4.2-1.dsc f816d75ddc8831b6a300a739ddae267b 38491 rust-crc32fast_1.4.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,13 @@
     "librust-crc32fast-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-bencher-0.1+default-dev, librust-quickcheck-1-dev, librust-rand-0.8+default-dev"
+    "dh-cargo, librust-quickcheck-1-dev, librust-rand-0.8+default-dev"
   ],
   "Uploaders": [
     "Ximin Luo \u003cinfinity0@debian.org\u003e, Andrej Shadura \u003candrewsh@debian.org\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/crc32fast]"
   ],
   "Version": [
-    "1.3.2-2"
+    "1.4.2-1"
   ]
 }

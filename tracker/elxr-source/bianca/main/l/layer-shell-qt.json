@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "layer-shell-qt, liblayershellqtinterface-dev, liblayershellqtinterface5"
+    "layer-shell-qt, liblayershellqtinterface-dev, liblayershellqtinterface6, qml6-module-org-kde-layershell"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.102.0~), libqt5waylandclient5-dev (\u003e= 5.15.2~), libwayland-bin, libwayland-dev (\u003e= 1.3~), libxkbcommon-dev, pkg-config, pkg-kde-tools (\u003e= 0.15.18~), qtbase5-private-dev, qtdeclarative5-dev (\u003e= 5.15.2~), qtwayland5-dev-tools, qtwayland5-private-dev, wayland-protocols"
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, dh-sequence-qmldeps, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.10.0~), libwayland-bin, libwayland-dev (\u003e= 1.3~), libxkbcommon-dev, pkgconf, qt6-base-dev (\u003e= 6.6.0+dfsg~), qt6-base-private-dev (\u003e= 6.6.0+dfsg~), qt6-declarative-dev (\u003e= 6.7.0~), qt6-wayland-dev (\u003e= 6.7.0~), qt6-wayland-private-dev (\u003e= 6.6.0~), wayland-protocols"
   ],
   "Checksums-Sha1": [
-    "0a9eeef7441cfe1ef4c37d785251bbc45f0bfc7d 13688 layer-shell-qt_5.27.5-2.debian.tar.xz 6b103eaa76698f827c315455a22b47f9ebfed973 2832 layer-shell-qt_5.27.5-2.dsc f32abea24a8eef4d49ead5b305baf675fcb543b1 18420 layer-shell-qt_5.27.5.orig.tar.xz ac210e0b58c45f705e8731d4dfb4f72fb3cff846 833 layer-shell-qt_5.27.5.orig.tar.xz.asc"
+    "9a026525ddd110ad18e8251ddcf85c67d5ee290a 13116 layer-shell-qt_6.3.4-1.debian.tar.xz 0a4866dcb110c1ceb1b05d0251a68ece05b7df5f 3008 layer-shell-qt_6.3.4-1.dsc a524be9ded098719194f9b0526384b1da7ad840d 35892 layer-shell-qt_6.3.4.orig.tar.xz 91e51e528374b47961a6ae84adcea97263f14a73 833 layer-shell-qt_6.3.4.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "d71f0e6eb0b2473a8104ba8fb99d443a3539bc02a3f92c4df3efca38a25c4404 13688 layer-shell-qt_5.27.5-2.debian.tar.xz bb8e42b53ca110c3f87317b5a98d23a3c0788898ec869d2c39a13028b4c74ead 2832 layer-shell-qt_5.27.5-2.dsc ccdf6aa579f0437f3bad377ac35268dfab36f6816227c03bae0591301c8d1d21 18420 layer-shell-qt_5.27.5.orig.tar.xz 40cabac76137e0485736d538e00e0511f444411b6fd456abe1d1ea67405c75b0 833 layer-shell-qt_5.27.5.orig.tar.xz.asc"
+    "be7b4665d6ef50ab54b02cbd38555e78226a30c5e7ecfba874367643936a4e7c 13116 layer-shell-qt_6.3.4-1.debian.tar.xz 86f21317757c03135ffc0ab93a1f7f5c2d093d697df4457ce0941f746e89b740 3008 layer-shell-qt_6.3.4-1.dsc f80c983f48d3abefd6684ce93fc67368ce207f2160734d4e113a418c69a26346 35892 layer-shell-qt_6.3.4.orig.tar.xz 61d780bff2b220207a1213a72b60203c85ab539c962b4249ffa2c4b91ed276de 833 layer-shell-qt_6.3.4.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "b7e497ef9c2a33b81cc2ab710c5e87d3f516f7ed183ebac3bac53b038d56708900a26e0f218357661a21c96c9d8c8390795728c02a3499fc2d673a63080556ad 13688 layer-shell-qt_5.27.5-2.debian.tar.xz 6f1ca22945d422a9b4837b8f569347fdf79da7bd68057de712779ecaf97e6530eafe4b048812f6cadc222ca52e6299846079dbbd3ef7c2ad5cfa390c10de25a1 2832 layer-shell-qt_5.27.5-2.dsc c4e4b683ce4cbc4df7c1e5517b5168d011119af7750d21772000fa4d5298a9c10252e46125ea4b1d1cff93998e93741281d5eab29ee8df3cec211dbff62209a8 18420 layer-shell-qt_5.27.5.orig.tar.xz f9dc26cdaba4bb516f387316c70fd608c4f0cbc1e554ac6a080d7e8deba24bc328e7b89e705f5eccf76b5e3ccce92edd0958d5394a6832ea9f26aad9914ff10c 833 layer-shell-qt_5.27.5.orig.tar.xz.asc"
+    "440bb154db48bbbe3100d76624ba8440d8f42b60901c60febca90d347f794ac18ec31aff8bb54a982f3139068e69e33adb7f922441617caba7a96e22e907fe72 13116 layer-shell-qt_6.3.4-1.debian.tar.xz 4036840fd7645272091385bedeacb77414bef0f2cd692bdb9fc58d741ab6f135f92e88c0c195e3b4d5bbd1aa66e679f402f69034f277738b2b2ad20d73f85067 3008 layer-shell-qt_6.3.4-1.dsc ed92441df5dec1a81106f9740967fd4da149e732f8549cb0ad66f4a264d457388d494c5c4dcf495da90684c4859cf4638ab595709c7b8625ed509ed6a7279941 35892 layer-shell-qt_6.3.4.orig.tar.xz b84880acea7b96f4eb0ddee180bf91947eee4057020e66ce159ef2e4fd0c5eb9733b9002ae52eef369527d511551a4eb470a53ca479afaf40d5d02a31e359770 833 layer-shell-qt_6.3.4.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/l/layer-shell-qt"
   ],
   "Files": [
-    "7fe81ed3f95683e101596ea938369ca8 13688 layer-shell-qt_5.27.5-2.debian.tar.xz 43c4edcedba1b4f6ccf565eb6486c75e 2832 layer-shell-qt_5.27.5-2.dsc af0607ef8312a85428229118b62c88fe 18420 layer-shell-qt_5.27.5.orig.tar.xz a80703a28dee638ce649cd48d962c555 833 layer-shell-qt_5.27.5.orig.tar.xz.asc"
+    "d512604b72cc6fd61b786ba8ab433172 13116 layer-shell-qt_6.3.4-1.debian.tar.xz 497300732ed44936c3dfa09b6def1408 3008 layer-shell-qt_6.3.4-1.dsc 7d153944ba6e52837fe3c8d9f26fc802 35892 layer-shell-qt_6.3.4.orig.tar.xz 2fe3ab6b47f493930f157fb763e5a241 833 layer-shell-qt_6.3.4.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,13 @@
     "layer-shell-qt"
   ],
   "Package-List": [
-    "layer-shell-qt deb kde optional arch=any liblayershellqtinterface-dev deb libdevel optional arch=any liblayershellqtinterface5 deb libs optional arch=any"
+    "layer-shell-qt deb kde optional arch=any liblayershellqtinterface-dev deb libdevel optional arch=any liblayershellqtinterface6 deb libs optional arch=any qml6-module-org-kde-layershell deb kde optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/layer-shell-qt"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/layer-shell-qt.git"
   ],
   "Version": [
-    "5.27.5-2"
+    "6.3.4-1"
   ]
 }

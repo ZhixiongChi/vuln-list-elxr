@@ -6,22 +6,25 @@
     "libntlm0, libntlm0-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13)"
+    "debhelper-compat (= 13), git, gnulib (\u003e= 20240412~dfb7117+stable202401.20240408~aa0aa87-2~)"
   ],
   "Checksums-Sha1": [
-    "53dc6d534c3ce065124817b4078566b7f3ca9015 6228 libntlm_1.6-4.debian.tar.xz 6fff54a3ee2a8a19be6f8f5f550533042b9863f5 2010 libntlm_1.6-4.dsc d6f9b69f154d82d0f9a49e9686b79fc03f21c3c6 688608 libntlm_1.6.orig.tar.gz d8722f4ccd2c5747cdf873f011bb5c7a72d0e9a3 228 libntlm_1.6.orig.tar.gz.asc"
+    "546e1ca1c85825dc5eb2227c77ee737394fb547d 6416 libntlm_1.8-4.debian.tar.xz 710d13a61de3ce181a3c3195d5f253a18f83aabc 2862 libntlm_1.8-4.dsc 72e34ce71f6d53bc0bb4b26af031f09d44817559 54811 libntlm_1.8.orig.tar.gz 6f0e1b8038c98202c2b8405369d96aed1bcb7756 228 libntlm_1.8.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "1396008a825d810edc966ad8cc54f7dd4477697326486e27781f1d4744b5220e 6228 libntlm_1.6-4.debian.tar.xz 8eec2aeb1a690cc1dbb241a4f8341b52e3ece6044198ceb7ac19c510c2d134cb 2010 libntlm_1.6-4.dsc f2376b87b06d8755aa3498bb1226083fdb1d2cf4460c3982b05a9aa0b51d6821 688608 libntlm_1.6.orig.tar.gz 39949562bc9625cccb94a6a37387803917eabc24f7a0692141733b0128bf69ea 228 libntlm_1.6.orig.tar.gz.asc"
+    "302391ef3854e6e78a46570821db1d73516a6e80ea6addedb946d88e94fea2ca 6416 libntlm_1.8-4.debian.tar.xz 97f71a4477feba7bf1c76d00e83aa9d3cfcbebb0d6d3fb9012b1433b302da13e 2862 libntlm_1.8-4.dsc 91de864224913b9493c7a6cec2890e6eded3610d34c3d983132823de348ec2ca 54811 libntlm_1.8.orig.tar.gz c6cdc7de3c054d54e5644d3f2e5f90c5bc43811fda9e3b172960ba06736ec0e0 228 libntlm_1.8.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "95f2e0e7b363aa04b6a70725591d16a38aaa5468601f184905807497e0d7ca830042b48cc28cadafb0f8468beb06cf2ba1f6f6a740857af3feba79dbfa5bc7c8 6228 libntlm_1.6-4.debian.tar.xz 1cc9c771f19bb753340e87fada57b0139acb076a96de0c17b0e709a6c75fb1c5cf2b33d636ee2441b2510e694e889ddd63d76baa8b3b195a8184f0a102f6186f 2010 libntlm_1.6-4.dsc d68bc6b5cd7f5f70385ba78275a810fa46e60f761f0949f2262eef35ae052661739ef17ce3fc4ab75f7e8cfc788b1ccd7766d4ff0ee78db08ea4de3e224653f2 688608 libntlm_1.6.orig.tar.gz 040e2c53245046f5065f3cbf55aec57fdfee652eff5846730a65df34e68e471172a3fe247436d4978cfb4bfd2f520d0a4c233676eb422a3e572b42f53b5776ad 228 libntlm_1.6.orig.tar.gz.asc"
+    "1ef797a40bc9688ef5a54401c98d3a36c9c5ee9da24094b2dfc30c9ddbbe72bfddac2bbc5c1a6922dffca866c3284a5838e4174fef00fb343d1c4aaab1b3b96d 6416 libntlm_1.8-4.debian.tar.xz dc7d162a7431008587276157f3cfe764a7a929e50b03527c34ca52cee79b8d1a4c308d567954c9db41e2b6570c840d9fb4ae2fea8bb3989967ee0e7c2299fd20 2862 libntlm_1.8-4.dsc 6175916ff5c24f7d998139ab3b87cd395b79f0fd92370b4b1c46c14e8512ddb16c157aeb6624a6c2cb4d9b648ba26f3bf37bd31da39a4d2494ba8b03453137e2 54811 libntlm_1.8.orig.tar.gz 3112c44909ff2228674454f3f70f175057df19592c4eaa4bae50efbbc19ad975014615a6a760680aec0f5d6637f3aa25acc58a91cd02bff2321dd6b6bd808c9a 228 libntlm_1.8.orig.tar.gz.asc"
+  ],
+  "Dgit": [
+    "8562b8662575983f5fbfe8a457ad6b9a93b9a682 debian archive/debian/1.8-4 https://git.dgit.debian.org/libntlm"
   ],
   "Directory": [
     "pool/main/libn/libntlm"
   ],
   "Files": [
-    "bfdac9c575bfe02b58d455ac03704678 6228 libntlm_1.6-4.debian.tar.xz d979fd1abbe63904681ae7e5643b7278 2010 libntlm_1.6-4.dsc 9894aeb485fa27a481b270fce5055f1c 688608 libntlm_1.6.orig.tar.gz 843df94db529feb4cf240a9a261d5f87 228 libntlm_1.6.orig.tar.gz.asc"
+    "ec186411b594dd6490e163c40d0b6e31 6416 libntlm_1.8-4.debian.tar.xz b8313b76baac3808261356b9d962aed2 2862 libntlm_1.8-4.dsc d4b13bd85bdbd22049c23a3b57ba8408 54811 libntlm_1.8.orig.tar.gz 99833e91ce3d2c72e3375bb184f6aea6 228 libntlm_1.8.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +33,7 @@
     "https://www.nongnu.org/libntlm/"
   ],
   "Maintainer": [
-    "Debian Authentication Maintainers \u003cpkg-auth-maintainers@lists.alioth.debian.org\u003e"
+    "Debian Security Tools \u003cteam+pkg-security@tracker.debian.org\u003e"
   ],
   "Package": [
     "libntlm"
@@ -39,7 +42,7 @@
     "libntlm0 deb libs optional arch=any libntlm0-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,15 +51,15 @@
     "build-essential, man, pkg-config"
   ],
   "Uploaders": [
-    "Thadeu Lima de Souza Cascardo \u003ccascardo@minaslivre.org\u003e, Simon Josefsson \u003csimon@josefsson.org\u003e"
+    "Simon Josefsson \u003csimon@josefsson.org\u003e,"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/auth-team/libntlm"
+    "https://salsa.debian.org/pkg-security-team/libntlm"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/auth-team/libntlm.git"
+    "https://salsa.debian.org/pkg-security-team/libntlm.git"
   ],
   "Version": [
-    "1.6-4"
+    "1.8-4"
   ]
 }

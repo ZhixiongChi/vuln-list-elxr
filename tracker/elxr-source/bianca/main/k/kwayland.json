@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "kwayland-data, libkf5wayland-dev, libkf5wayland-doc, libkf5waylandclient5, libkf5waylandserver5"
+    "kwayland6-data, kwayland-dev, kwayland-doc, libkwaylandclient6"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.16~), debhelper-compat (= 13), dh-sequence-kf5, doxygen (\u003e= 1.8.13~), extra-cmake-modules (\u003e= 5.103.0~), libegl-dev, libqt5sql5-sqlite, libqt5waylandclient5-dev (\u003e= 5.15.2~), libwayland-dev (\u003e= 1.13~), pkg-config, pkg-kde-tools (\u003e= 0.15.16), plasma-wayland-protocols (\u003e= 1.9.0~), qtbase5-dev (\u003e= 5.15.2~), qtbase5-private-dev (\u003e= 5.15.2~), qttools5-dev, qttools5-dev-tools (\u003e= 5.4), qtwayland5-dev-tools, qtwayland5-private-dev (\u003e= 5.15.2~), wayland-protocols (\u003e= 1.15~)"
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.16~), doxygen (\u003e= 1.8.13~), extra-cmake-modules (\u003e= 6.10.0~), libegl-dev, libwayland-dev (\u003e= 1.15~), pkgconf, plasma-wayland-protocols (\u003e= 1.16.0~), qt6-base-dev (\u003e= 6.7.0~), qt6-base-private-dev (\u003e= 6.7.0~), qt6-tools-dev (\u003e= 6.6.0~), qt6-wayland-dev (\u003e= 6.6.0~), qt6-wayland-private-dev (\u003e= 6.7.0~), wayland-protocols (\u003e= 1.15~)"
   ],
   "Checksums-Sha1": [
-    "fe7397d61c2910fcf304cb480d0991ef2231ef34 43796 kwayland_5.103.0-1.debian.tar.xz 551d5a14b5e334e5f9fa1aa878fa019353a67f77 3010 kwayland_5.103.0-1.dsc a8ff3ce667d723a22459fc2d505b6426b5a018ec 336768 kwayland_5.103.0.orig.tar.xz bfbd1114c9cf9d244c6a1f76f201b4a24ec019c4 488 kwayland_5.103.0.orig.tar.xz.asc"
+    "a4252a8b6ca1404271fb0b10373ddc71821cbb88 26796 kwayland_6.3.4-1.debian.tar.xz 34f6e9b3061753b515ea5b28ac739fd966f71dcc 2968 kwayland_6.3.4-1.dsc 5901312c0768e1b7a8f053309861f7f9ab1ab897 134088 kwayland_6.3.4.orig.tar.xz 98c0b7b487f3cad8f48e5be994147408c4907def 833 kwayland_6.3.4.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "39180646d4afad891e2930e8d72b1c84f0311102df448fdaa661327b9c205d31 43796 kwayland_5.103.0-1.debian.tar.xz e629b42025c82bd0215819bd43f3506cd55a168b8e1a241bd498e7ee44877a02 3010 kwayland_5.103.0-1.dsc 072024ec73305786610d5102559f0084fd4890d731a7fa039f2057bf4f32a2a9 336768 kwayland_5.103.0.orig.tar.xz 6ea0add1733391fbb450d65d1b911380a01f79ef2eb68789275d08431940c6e5 488 kwayland_5.103.0.orig.tar.xz.asc"
+    "9bbf5f1a2db3c6638d6ed9d48dfffce25376b8ed37fb43e717e70a3df5af93b5 26796 kwayland_6.3.4-1.debian.tar.xz 102ff2cfd1ef734d83f5881f8db7c7cc60cfd0ee94cca2292324551e97553c2d 2968 kwayland_6.3.4-1.dsc a90848d5238ab75e706c96a535acbef5110441e92ffc9fc94336c69a1edf6835 134088 kwayland_6.3.4.orig.tar.xz 66b7ba55f6891caa5f5da2d93a0e9666a513b718a26bf835ab75429bd03504a6 833 kwayland_6.3.4.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "27c401a1e34fc93b38921f1d19a535238b5a9f88e2aa785db6da09da8ea0246acc1eaba624a3fccdfe4185dc4fab5a0e4b298b4ca0bc9f3e96a19224f8c42dc3 43796 kwayland_5.103.0-1.debian.tar.xz 4ec54235ac3bcdd3665077681ddc9f8cad87041c2f74cbf1de5dddd2e009501eebcefc9e01225a80eae85ab7d40193c8f3bb8e26ee570d7b996300bd5dc11230 3010 kwayland_5.103.0-1.dsc 4b57b10aa0a345146b8b173b93db27947554954cbc0597e3bb0ad9a6fa5c10de3b378d05228e356525b10382ea7ff18a09b5b509c2db5493aab6efb3adcdb058 336768 kwayland_5.103.0.orig.tar.xz 9e854293af34a3a34881659f62731ac2c23a3683a16f539069bf489e9f62a025932c806480fc3405b003bacbfb17fd652360524b7221c1ab130fa4b006b31042 488 kwayland_5.103.0.orig.tar.xz.asc"
+    "c72c908b1b739e1993074f300b3a632fac19051b07da1f679aea1f9c78bb84ef2dba1d1a0ec29d9ff4b9d50f346d2a7cee4ed7ea9e6683af920561a132fb8948 26796 kwayland_6.3.4-1.debian.tar.xz 0a31f5abc8111344a6413e26b6d27acbd76b7915eb1351ef9929c9cc27e23c417f7f8b658c0bd6771f99d697ef3b89e6beb2b43a83a3aaadd1da76a7fbc867d3 2968 kwayland_6.3.4-1.dsc b889b0446173b68d30d9ca94d492c6c95094660fa0fc133871d51e00acbec16e6c33d73431f94b9f00e1b65d6bc29b6f5678809addfc0b5ea5d18b6a58358d2a 134088 kwayland_6.3.4.orig.tar.xz ba582db4d0dfd616398466c136d339630314e18b3377e4e363025b385c00cf687a7c0b75ac5bbebd33206b70700a5a9a18bd6b37bbef169cbc6447c844921427 833 kwayland_6.3.4.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/k/kwayland"
   ],
   "Files": [
-    "36e83b4ef8a3eb7fe3ea314fb24b22c9 43796 kwayland_5.103.0-1.debian.tar.xz 4a88256ac9c4e5d8d859a13b3550ad0b 3010 kwayland_5.103.0-1.dsc 461d95ec8fa798c571321535f09b4c0f 336768 kwayland_5.103.0.orig.tar.xz ccd0e9572bcc1dbce3680309bb5bb406 488 kwayland_5.103.0.orig.tar.xz.asc"
+    "0c02a327ecf7e72f54b5a39025ea7bfa 26796 kwayland_6.3.4-1.debian.tar.xz 07b2990d0c1d263d9bbfc4d3b357c25a 2968 kwayland_6.3.4-1.dsc c718d2e5fd13c46a7254289f2ee6def3 134088 kwayland_6.3.4.orig.tar.xz 146f495460e6f4aeb277c2a5ae9bc094 833 kwayland_6.3.4.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "kwayland"
   ],
   "Package-List": [
-    "kwayland-data deb libs optional arch=all libkf5wayland-dev deb libdevel optional arch=any libkf5wayland-doc deb doc optional arch=all libkf5waylandclient5 deb libs optional arch=any libkf5waylandserver5 deb libs optional arch=any"
+    "kwayland-dev deb libdevel optional arch=any kwayland-doc deb doc optional arch=all kwayland6-data deb libs optional arch=all libkwaylandclient6 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "dh-acc, exuberant-ctags"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/kwayland"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kwayland.git"
   ],
   "Version": [
-    "4:5.103.0-1"
+    "4:6.3.4-1"
   ]
 }

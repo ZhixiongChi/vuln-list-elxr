@@ -6,28 +6,28 @@
     "ibus-chewing"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake, cmake-fedora (\u003e= 2.4.4+20151201), gob2 (\u003e= 2.0.17), pkg-config, libchewing3-dev (\u003e= 0.3.2-2~), libibus-1.0-dev (\u003e= 1.3.99.20110419), libgtk2.0-dev, libx11-dev, libxtst-dev"
+    "debhelper-compat (= 13), cmake, libadwaita-1-dev, libchewing3-dev (\u003e= 0.9.0~), libgtk-4-dev, libibus-1.0-dev"
   ],
   "Checksums-Sha1": [
-    "35e2c1cc55e9c3cd1f48db01511c719f41019acd 5060 ibus-chewing_1.6.1-2.debian.tar.xz dbef3328e98f119cb1371740f67f1cf05fe4bb62 2206 ibus-chewing_1.6.1-2.dsc a50f5231b1676892de06f56ad35c68559d00bc43 111103 ibus-chewing_1.6.1.orig.tar.gz"
+    "b5f98da8104e2b8cd60377daf2bad80732ec754b 5176 ibus-chewing_2.1.4-1.debian.tar.xz 125e4b12b2bb55720830962464e2da63910ae04c 2129 ibus-chewing_2.1.4-1.dsc cd98e51f70fef4096dcb23abe7ee6bb39db9ce0d 77956 ibus-chewing_2.1.4.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "2f6e14b605533a7369c67e0322061e088b9edd474a176bfabba5b290b93a6912 5060 ibus-chewing_1.6.1-2.debian.tar.xz a49e2491c026236f7a3adb0f676298896feb424db71f91c48f2c2196f99951dd 2206 ibus-chewing_1.6.1-2.dsc 3dd7911d6eaa20c3b8b9d8e4deb38e2074aa900c0956eb75946d455d27579b63 111103 ibus-chewing_1.6.1.orig.tar.gz"
+    "60372f592134d0901f80975657f8877cc510424e2b92d37df41ef5ef8da9bf47 5176 ibus-chewing_2.1.4-1.debian.tar.xz fd31c93bcfc064146f8edcfe59d284ec849aec2a667b90e1522846dcc0ba0e8a 2129 ibus-chewing_2.1.4-1.dsc dfa73f177c059280609174d7bdac9a90fe87a46a0d3d1b2b4ab8500f3013a29e 77956 ibus-chewing_2.1.4.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "0442e51779a6dc03bb33ae1fe44a3119a0e2581fcc9b0c81f8b9d0bf726015844ce0fb2174507d68f65c3d3708f05da10c1bba5076466cb55df70c2c44378ed8 5060 ibus-chewing_1.6.1-2.debian.tar.xz e1b4753603ae10c27f46faf1a34fd27f884e103a09c3c9dcde922f050a058a91041f686d013dcf384dfe502a49a2feb5153c9a4b8160ecb2a366f89ab50058fd 2206 ibus-chewing_1.6.1-2.dsc b093db79c656433614b9f72719a2b0768a30c2fb6fa066eda1e79cc9932ce1836f7f1e5611612fb44f260fe80a9baa9e18fdc9754b285e8a5f12a87c376cbd39 111103 ibus-chewing_1.6.1.orig.tar.gz"
+    "199ac2d6d310875d4afe46c6bba8e70ebb3244c8192d749c44635c1c8d7b047af6b424ec914734d8d01a668c631be547938332ac15658dfdf8fb02d5c40c98f9 5176 ibus-chewing_2.1.4-1.debian.tar.xz f7586ba75a2e2205b6c33e6c4a87d076ed73d69e23b9d3fff4e2ceb6302fbf2d474f7604553ab2f0fc615315158c1a005555f04c5181e879fb729e334c29d53a 2129 ibus-chewing_2.1.4-1.dsc c0528a3337164e8d7f4c5faf564f8c9b252cdb426e37c1f5b7d669dfacb03a9795143622119f9c95002d49f58912ce70335267ee96562696ff473cdb1c4d889a 77956 ibus-chewing_2.1.4.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/i/ibus-chewing"
   ],
   "Files": [
-    "fd83f94dd8d2f87d42653608c36fa93d 5060 ibus-chewing_1.6.1-2.debian.tar.xz baf53ea504052f0b5c9c30b751306de9 2206 ibus-chewing_1.6.1-2.dsc 65a947645ceaef03fc18cd6ebbeddb22 111103 ibus-chewing_1.6.1.orig.tar.gz"
+    "9f983168f06b0c828075288e99f06637 5176 ibus-chewing_2.1.4-1.debian.tar.xz d96bb3d6a77aaa57f72f8fe03809a4e6 2129 ibus-chewing_2.1.4-1.dsc c72e148a7531174d10d556a6638ca7e2 77956 ibus-chewing_2.1.4.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://github.com/definite/ibus-chewing"
+    "https://github.com/chewing/ibus-chewing"
   ],
   "Maintainer": [
     "Debian Input Method Team \u003cdebian-input-method@lists.debian.org\u003e"
@@ -39,18 +39,18 @@
     "ibus-chewing deb utils optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Uploaders": [
     "Asias He \u003casias.hejun@gmail.com\u003e, Osamu Aoki \u003cosamu@debian.org\u003e, ChangZhuo Chen (陳昌倬) \u003cczchen@debian.org\u003e,"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/debian/ibus-chewing"
+    "https://salsa.debian.org/input-method-team/ibus-chewing"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/debian/ibus-chewing.git"
+    "https://salsa.debian.org/input-method-team/ibus-chewing.git"
   ],
   "Version": [
-    "1.6.1-2"
+    "2.1.4-1"
   ]
 }

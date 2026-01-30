@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libgeoip1, libgeoip-dev, geoip-bin"
+    "libgeoip1t64, libgeoip-dev, geoip-bin"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), chrpath, zlib1g-dev, libtool"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), chrpath, zlib1g-dev, libtool"
   ],
   "Checksums-Sha1": [
-    "428e98bb51f972bf7d72f25a95814762f54d8c20 38080 geoip_1.6.12-10.debian.tar.xz b5041d5484cb1b7c92a6649642faa4eb22bef5d5 1841 geoip_1.6.12-10.dsc 90cfafee605c94cfa24858fe77193fa7fa949ac8 160826 geoip_1.6.12.orig.tar.gz"
+    "6a34872436d4f146d36d4245956a5b589607ffe7 10484 geoip_1.6.12-11.1.debian.tar.xz 01d491c06530ee967afe34ad8f0880929fbbefeb 1902 geoip_1.6.12-11.1.dsc 90cfafee605c94cfa24858fe77193fa7fa949ac8 160826 geoip_1.6.12.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "839b2dcd273c3fe306d872a34e7eb9ac58b214083a6b4e95d4b5851509fe18e9 38080 geoip_1.6.12-10.debian.tar.xz 97669fc477c134e005b02b171ce7a370e052d0d50e562dd328ea73940cf44d5a 1841 geoip_1.6.12-10.dsc 99b119f8e21e94f1dfd6d49fbeed29a70df1544896e76cd456f25e397b07d476 160826 geoip_1.6.12.orig.tar.gz"
+    "35297cdb01b5b14933ec594c671b8fcffe0d39f3bb9cd40f0ba30439cef203bd 10484 geoip_1.6.12-11.1.debian.tar.xz 47d5876744b5a12c665a775cfcffe5708806b0677e6299ffacbe0b7fafaf8bbb 1902 geoip_1.6.12-11.1.dsc 99b119f8e21e94f1dfd6d49fbeed29a70df1544896e76cd456f25e397b07d476 160826 geoip_1.6.12.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "554788bd2ca0b0c51e503d6a8726ccd1e3e4a1d292a76bb47d7be226cd8f48dd98977e02b189d1b004b21004e1b2542db29e7f9c5fd1720ab468002965d00417 38080 geoip_1.6.12-10.debian.tar.xz e43001777db769a86334daf10644fa5deb7b5d5d8b0b6a8324040d832fd626119c3eae90c17f9c071ac2071f54b8d8e52d16bac5ac980a1b3e59e26da0b2be34 1841 geoip_1.6.12-10.dsc d1ed2dae091548f555cde4d26e4b51ae1e8fbb12ef1695fd95963229d9a1bf241e6f09e5d77b151d51edd0cef78ddef490c6a3f3a70ff122bdd9c0ac5500fc7d 160826 geoip_1.6.12.orig.tar.gz"
+    "3614f9c559290d4589938bb6e8c7c036cbd81b09712f70983360b63031de92a20e648d94057f2110ec87912064b87a0836f80279889491835f07e7e54726fdd2 10484 geoip_1.6.12-11.1.debian.tar.xz b1c51dc2942077c36e38748999432bd6a0bbba243b5f0ed3e0b18780fa6d493bd39670da005e6f59f4a7a7594e2e90d4f25a5aa502d9317a3479a7da3ca8e722 1902 geoip_1.6.12-11.1.dsc d1ed2dae091548f555cde4d26e4b51ae1e8fbb12ef1695fd95963229d9a1bf241e6f09e5d77b151d51edd0cef78ddef490c6a3f3a70ff122bdd9c0ac5500fc7d 160826 geoip_1.6.12.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/geoip"
   ],
   "Files": [
-    "ce442c73fe99c77e1ab199beb48dd077 38080 geoip_1.6.12-10.debian.tar.xz 1a17414ad2d3166eb10bd7e485ffda34 1841 geoip_1.6.12-10.dsc 727e5d6df9e9fc039dbc3a323cc56d2e 160826 geoip_1.6.12.orig.tar.gz"
+    "6a4fdfc668da02b1dfd0558b5ed8472f 10484 geoip_1.6.12-11.1.debian.tar.xz 5aea2452e1b6c083df6543051db56efb 1902 geoip_1.6.12-11.1.dsc 727e5d6df9e9fc039dbc3a323cc56d2e 160826 geoip_1.6.12.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,12 +36,12 @@
     "geoip"
   ],
   "Package-List": [
-    "geoip-bin deb net optional arch=any libgeoip-dev deb libdevel optional arch=any libgeoip1 deb libs optional arch=any"
+    "geoip-bin deb net optional arch=any libgeoip-dev deb libdevel optional arch=any libgeoip1t64 deb libs optional arch=any"
   ],
   "Standards-Version": [
     "4.6.2"
   ],
   "Version": [
-    "1.6.12-10"
+    "1.6.12-11.1"
   ]
 }

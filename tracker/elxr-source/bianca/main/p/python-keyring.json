@@ -6,22 +6,22 @@
     "python3-keyring"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-setuptools (\u003e= 56), python3-setuptools-scm (\u003e= 3.4.1), python3-toml"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-jaraco.context, python3-jaraco.functools, python3-pytest (\u003e= 6) \u003c!nocheck\u003e, python3-setuptools (\u003e= 61.2), python3-setuptools-scm (\u003e= 3.4.1), python3-shtab (\u003e= 1.1.0), python3-toml"
   ],
   "Checksums-Sha1": [
-    "352443a7ae223203bc7207d78258f6af91cd2181 9280 python-keyring_23.9.3-2.debian.tar.xz 4c128dd34cce6b8e44ece6521c2b76ebbb47c800 2263 python-keyring_23.9.3-2.dsc 840f129b4df01e19cbfffeb9ff0870eb6a243354 56674 python-keyring_23.9.3.orig.tar.gz"
+    "1b35d6a0cba80f7431a7ed84c708400284fe3f01 9408 python-keyring_25.6.0-2.debian.tar.xz f051da274a8d3194fc81a5b1bff4602e774f9e6d 2410 python-keyring_25.6.0-2.dsc a35535726e8ac1a1800e853d942fea4365f2df08 62750 python-keyring_25.6.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "63569f6d528cb68815b083eec635e88053a06ac3c42295704d54c94abae0d441 9280 python-keyring_23.9.3-2.debian.tar.xz b9b0fae1a28d976a877414d805aa820fab0830180d345ae799c1ce6a5270cf26 2263 python-keyring_23.9.3-2.dsc 69b01dd83c42f590250fe7a1f503fc229b14de83857314b1933a3ddbf595c4a5 56674 python-keyring_23.9.3.orig.tar.gz"
+    "15106a75a1e13664785523b674ec86e5612a6beabe6e603d57874f72f8260e1a 9408 python-keyring_25.6.0-2.debian.tar.xz b2425d0d21f081cc6dced7f07600c58946e7b73e97eaba33485e484a67c3ff96 2410 python-keyring_25.6.0-2.dsc 0b39998aa941431eb3d9b0d4b2460bc773b9df6fed7621c2dfb291a7e0187a66 62750 python-keyring_25.6.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "de7fd2227c5c450247c76fec60d28529dc2d0b11407bb5d8930f4e3f73dc705b74161f12c1b035658f381dca87848e00f6b0ca8de477a82abcb843700304ceff 9280 python-keyring_23.9.3-2.debian.tar.xz 9b8dc5d65806f4f2fd99ae2018fa4e0ccb6b0bee17257d09ef130a51c37d7e51c7d9d2962310e0f7e1770feec8d81e6c624a8ac991e74e3f52a26243f690dc0a 2263 python-keyring_23.9.3-2.dsc 288e3aa71fc52fe4c7d769ad07fd51d058d700b72170f727023793a9b61bec5ef4cd70ed5c511383940c20125c6e39335a11cba0f1b582b5f47a62a24a8a4233 56674 python-keyring_23.9.3.orig.tar.gz"
+    "e1e78dc0644d902df9a1d0dde9df64b229ddc14b5a6031b3ab5105e14de81466f4e42833f76d56caaa24a6cf56b6caec1561b3b4eaa5c461b050b6e950d270a5 9408 python-keyring_25.6.0-2.debian.tar.xz 5e4b1de6bcf6df60d4a145497e9466bd452b7824149060d4bbb46bd0d5cc053684e38e3d2d8c99f465705d94b11b5d8b61b9d7f866829a7bdb736b117afbea0c 2410 python-keyring_25.6.0-2.dsc 192863cd36d597ae55c8e3e8ae909388f64894c812db6dd80c92bb7c8467029b54976f855807cf6f245419599d191113c9b12e272631bb6e4f6cf6e122296421 62750 python-keyring_25.6.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-keyring"
   ],
   "Files": [
-    "8b803b7f872cc610d7c78d9c33d64c2c 9280 python-keyring_23.9.3-2.debian.tar.xz 6506128f5da3710c76dedb1b69b438bd 2263 python-keyring_23.9.3-2.dsc 60219a9a22467e15fcd09515b5b2ef39 56674 python-keyring_23.9.3.orig.tar.gz"
+    "5519a6dc4ffce4af868678d89900c407 9408 python-keyring_25.6.0-2.debian.tar.xz aa83319dfc435911734f6ff096c31338 2410 python-keyring_25.6.0-2.dsc afe7f534c80dc29927f5211fcb925ed4 62750 python-keyring_25.6.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python3-keyring deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-keyring.git"
   ],
   "Version": [
-    "23.9.3-2"
+    "25.6.0-2"
   ]
 }

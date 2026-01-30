@@ -6,22 +6,25 @@
     "python-pytest-doc, python3-pytest"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, lsof \u003c!nocheck\u003e, pybuild-plugin-pyproject, python3-all, python3-argcomplete \u003c!nocheck\u003e, python3-atomicwrites, python3-attr, python3-doc, python3-hypothesis \u003c!nocheck\u003e, python3-iniconfig, python3-more-itertools, python3-packaging, python3-pallets-sphinx-themes, python3-pluggy (\u003e= 0.12), python3-py, python3-pygments \u003c!nocheck\u003e, python3-requests \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm, python3-sphinx, python3-twisted \u003c!nocheck\u003e, python3-wcwidth, python3-xmlschema \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, furo \u003c!nodoc\u003e, lsof \u003c!nocheck\u003e, pybuild-plugin-pyproject, python-numpy-doc \u003c!nodoc\u003e, python-setuptools-doc \u003c!nodoc\u003e, python3-all, python3-argcomplete \u003c!nocheck\u003e, python3-attr \u003c!nocheck\u003e, python3-doc \u003c!nodoc\u003e, python3-hypothesis \u003c!nocheck\u003e, python3-iniconfig, python3-numpy \u003c!nocheck\u003e, python3-packaging, python3-pluggy (\u003e= 1.5.0), python3-pygments \u003c!nocheck\u003e, python3-requests \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-issues \u003c!nodoc\u003e, python3-sphinxcontrib-towncrier \u003c!nodoc\u003e, python3-xmlschema \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "7f4929a7d28fe3508c42206ed323d68162388f55 10552 pytest_7.2.1-2.debian.tar.xz 4646e1bcd7bfd3c58b923fbca9d162d44aed2c58 2397 pytest_7.2.1-2.dsc 927f4ec2bdc9e192640ed30a3c5f20fb2a5c1a2c 1301901 pytest_7.2.1.orig.tar.gz"
+    "b7799a64538d7281523e1ffd460b6e7809258fa8 11928 pytest_8.3.5-2.debian.tar.xz a2534cf22b42ecc75905a06d69579f9c40f042af 2757 pytest_8.3.5-2.dsc 70368ff73353eede094b6d91b4401528bcb24d81 1450891 pytest_8.3.5.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "52fb71273224376bd71857cb9fa994d806d2b7a58871ce4bb32e32d80bce99ff 10552 pytest_7.2.1-2.debian.tar.xz bdd5190fb8bef159acdcc5be5e0799e9a87349d761f5041a5c3b17d3fe5c0def 2397 pytest_7.2.1-2.dsc d45e0952f3727241918b8fd0f376f5ff6b301cc0777c6f9a556935c92d8a7d42 1301901 pytest_7.2.1.orig.tar.gz"
+    "4436a438cb18ebdf2e25b43075bdcd0961ab3f3961f7858fa94c70f1e0853c06 11928 pytest_8.3.5-2.debian.tar.xz 0260fa1ce8e570c25c5b4703a3a7c53e4bdc889c43374eb62fa243285b54ef2d 2757 pytest_8.3.5-2.dsc f4efe70cc14e511565ac476b57c279e12a855b11f48f212af1080ef2263d3845 1450891 pytest_8.3.5.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "121786cd831b12b49d8d67278f3d34c16e53129cad4725dd6d54895e7f776461b5259d938d0f30f60b53367ad4f3a3c8c5fa39f6858c65083ea213d9b147df7f 10552 pytest_7.2.1-2.debian.tar.xz ca39a399b2d634aca98e51a449a951eeb453b76862f581e10352b1dcd4202db4d16c7935580b21295ef8c510e72a070a18879db174a76a8e61373841852d813b 2397 pytest_7.2.1-2.dsc 3f09ccda91c0f14156cf558abde880279838d1a61c8f7e7138ea9fcd59be0577234da2f30410959641fd5a17490c713c0008ce2ed4b4c57196267fca69714061 1301901 pytest_7.2.1.orig.tar.gz"
+    "3cbab00a3250067d47e566c1662fb0d576a2f9e3c46fc85cf8b0a90ed83225d1444c763ca6f9386aadea4ab3d46aaeb9f101ff0226dcda606bfa731127cc8581 11928 pytest_8.3.5-2.debian.tar.xz 80f354300b2e97855bd76ade88f1e5479719a6fe2374790aee781b21eeb86bf8697160a7cdbfeef1000c333390f05a2df0a94ca190fe066b918edbbf8e0f917d 2757 pytest_8.3.5-2.dsc 386573a40f78c1dc864a0af7d765d49e9e91a38dd61bef95b07631bffba0806b34264622a998e849727f50fb220ada7b8242f7f7dbd501408e7bf4701d36589d 1450891 pytest_8.3.5.orig.tar.gz"
+  ],
+  "Dgit": [
+    "81eb0525f019569737b5329fbef2aec0cfb91538 debian archive/debian/8.3.5-2 https://git.dgit.debian.org/pytest"
   ],
   "Directory": [
     "pool/main/p/pytest"
   ],
   "Files": [
-    "fdd5f03a307c0c3df67cfd1903dd5b33 10552 pytest_7.2.1-2.debian.tar.xz d6eca1ca4bd5ca10633e80fe5bdaa306 2397 pytest_7.2.1-2.dsc 366a4047534ef0485f700c20bb574f67 1301901 pytest_7.2.1.orig.tar.gz"
+    "5ff9af6ca7c9087b9bd16d3cd394bd80 11928 pytest_8.3.5-2.debian.tar.xz 98fdac3256db28363a62d496a364b6d7 2757 pytest_8.3.5-2.dsc f22d0f0e12aee3b97225a89504d657cb 1450891 pytest_8.3.5.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +42,13 @@
     "python-pytest-doc deb doc optional arch=all python3-pytest deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
-    "Ondřej Nový \u003conovy@debian.org\u003e,"
+    "Timo Röhling \u003croehling@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/pytest"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/pytest.git"
   ],
   "Version": [
-    "7.2.1-2"
+    "8.3.5-2"
   ]
 }

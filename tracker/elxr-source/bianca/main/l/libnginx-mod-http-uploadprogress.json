@@ -6,22 +6,22 @@
     "libnginx-mod-http-uploadprogress"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-nginx, nginx-abi-1.22.1-7"
+    "debhelper-compat (= 13), dh-sequence-nginx"
   ],
   "Checksums-Sha1": [
-    "dd33e15a74b07d836bbb0529325042964def032c 3120 libnginx-mod-http-uploadprogress_0.9.2-3.debian.tar.xz 145995864ae3a827c871da23c6bf4f22093be3dd 2339 libnginx-mod-http-uploadprogress_0.9.2-3.dsc 89beb5c633162f2e70ecf0f8f789454bff632b47 17268 libnginx-mod-http-uploadprogress_0.9.2.orig.tar.gz"
+    "e550bea62cc0f1388d1c742afa56ff2aabf787fa 3336 libnginx-mod-http-uploadprogress_0.9.4-2.debian.tar.xz 11a6b89c8d67a8cd7bb93b4533b200bbf38286d4 2319 libnginx-mod-http-uploadprogress_0.9.4-2.dsc 1c3be0d4a487af86290d7452abdd0b29d01d1e93 17299 libnginx-mod-http-uploadprogress_0.9.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "6dacee598e22802697a74f444d228f78b833d0a00579e7b169e510ee83aeb99e 3120 libnginx-mod-http-uploadprogress_0.9.2-3.debian.tar.xz fdf97f9b202f548f290432d86b450640f1267265a48dab4c04727928f804f88a 2339 libnginx-mod-http-uploadprogress_0.9.2-3.dsc b286689355442657650421d8e8398bd4abf9dbbaade65947bb0cb74a349cc497 17268 libnginx-mod-http-uploadprogress_0.9.2.orig.tar.gz"
+    "0077dde8914abf201ef8895196bbc802e32a08a2f25ced1f55cfa8094f9ffdb1 3336 libnginx-mod-http-uploadprogress_0.9.4-2.debian.tar.xz 72a3a42c55e672a0e8db7d24b3a4ed45975a01555641e0fbbc9f3db929234b39 2319 libnginx-mod-http-uploadprogress_0.9.4-2.dsc 6793c006bf57b06155eb50f35356d30a357c4b1727435c3578f08a820a7d13f7 17299 libnginx-mod-http-uploadprogress_0.9.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "12a5de9298c72c9fa2bdf9fbd15d11e993e7b624d683acf553712a33a831052214237792337d718b10464eff2d7993db0a8a40e52e50918e52f37f4370f46c38 3120 libnginx-mod-http-uploadprogress_0.9.2-3.debian.tar.xz 16b3936f51ba26ede985ad2172e99575f52a7bb2635e4356f1b185de52cc8a5e5f512df424eb5640c797166b8cf8fe91ae7cec177bc4c05060522351e9ed198b 2339 libnginx-mod-http-uploadprogress_0.9.2-3.dsc c31c46344d49704389722325a041b9cd170fa290acefe92cfc572c07f711cd3039de78f28df48ca7dcb79b2e4bbe442580aaaf4d92883fd3a14bf41d66dd9d8c 17268 libnginx-mod-http-uploadprogress_0.9.2.orig.tar.gz"
+    "816cf78f93e8bba1a7d46d3cc95b81978684a0559255ad1395f67fa12059aa6a2aecb2754cfaf3517a7020068abd8ac0ffee3a4fd43d1e8aac7f78c7bd5f92c5 3336 libnginx-mod-http-uploadprogress_0.9.4-2.debian.tar.xz 13ecadd1b8031b5d00a054325088dd47ed9ce14e68e26d852ad1d3a9c8f34ae2a2c4f5c627ae997f4cca9c7bbeeecb4096a2c23bfd4437ea12a2a0eae20a9b0a 2319 libnginx-mod-http-uploadprogress_0.9.4-2.dsc 3463cb3152990a455add607b076db715105e940e3a21b06d81244b86741768377e2e52e13c0ba3bbb99689efbe253063ea75e1d0da292d394fd59044199db887 17299 libnginx-mod-http-uploadprogress_0.9.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libn/libnginx-mod-http-uploadprogress"
   ],
   "Files": [
-    "13502de1cc3c31b8ca31584122db6d6c 3120 libnginx-mod-http-uploadprogress_0.9.2-3.debian.tar.xz 09378646977a4841e9d68bd1f4147314 2339 libnginx-mod-http-uploadprogress_0.9.2-3.dsc 7c1a399d36a75bcfa874d98b5462fc09 17268 libnginx-mod-http-uploadprogress_0.9.2.orig.tar.gz"
+    "4d7ce14abfc4f0c9c8591c89c3c0d492 3336 libnginx-mod-http-uploadprogress_0.9.4-2.debian.tar.xz eafc4de758e535ce58bf54257edfd9d0 2319 libnginx-mod-http-uploadprogress_0.9.4-2.dsc 2dacf851e14941544907e2ce06a2b864 17299 libnginx-mod-http-uploadprogress_0.9.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libnginx-mod-http-uploadprogress deb httpd optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "curl, nginx, nginx-core"
   ],
   "Uploaders": [
-    "Jan Mojžíš \u003cjan.mojzis@gmail.com\u003e,"
+    "Jan Mojžíš \u003cjanmojzis@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/nginx-team/libnginx-mod-http-uploadprogress"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/nginx-team/libnginx-mod-http-uploadprogress.git"
   ],
   "Version": [
-    "1:0.9.2-3"
+    "1:0.9.4-2"
   ]
 }

@@ -3,28 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "libgoogle-perftools-dev, libtcmalloc-minimal4, libgoogle-perftools4, google-perftools"
+    "libgoogle-perftools-dev, libtcmalloc-minimal4t64, libgoogle-perftools4t64, google-perftools"
   ],
   "Build-Conflicts": [
     "autoconf2.13, automake1.4"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libunwind-dev [amd64]"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), libunwind-dev [amd64]"
   ],
   "Checksums-Sha1": [
-    "eee59d51a3840aa2b0dc3a868f162d97c8264fc9 6980 google-perftools_2.10-1.debian.tar.xz 693a721814a6ce2effd29e798408e04c949c0f1a 2210 google-perftools_2.10-1.dsc 5a5a0c086349ce0d9675bd09f31d2b1773f124ef 926512 google-perftools_2.10.orig.tar.gz"
+    "5f20613bfcd3522a8faa9032704ce2b81a68f0fa 8068 google-perftools_2.16-1.debian.tar.xz 284549c05d4731d13098f1d50c3544528c408c57 2247 google-perftools_2.16-1.dsc ee5288cdb0968563bba9f6675c36bc96c9e947da 1743259 google-perftools_2.16.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "fd44a071fbadbb652d4ed453493963be0e223e23873665d63cfd3a8faca3e11d 6980 google-perftools_2.10-1.debian.tar.xz 63221cd85485946dc41c5bac3b659615b02c44e1785fce0e6d3e1a74af38418a 2210 google-perftools_2.10-1.dsc b0dcfe3aca1a8355955f4b415ede43530e3bb91953b6ffdd75c45891070fe0f1 926512 google-perftools_2.10.orig.tar.gz"
+    "7df158f40167a2aac99e906f81b007e5dd1cc531a2392833e308551d063a19c1 8068 google-perftools_2.16-1.debian.tar.xz 45739fce4abfd180e21cc49e7b4893481390c13591b8d291803bcb2305928d24 2247 google-perftools_2.16-1.dsc 737be182b4e42f5c7f595da2a7aa59ce0489a73d336d0d16847f2aa52d5221b4 1743259 google-perftools_2.16.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "ba96586d2df492649cf22e99fb32fafed2a422edc88c4193116d64035b194dc24c07e2d9268fd8355de8c7ba53713913e746dc0274e55dd77365ad83715cd7c1 6980 google-perftools_2.10-1.debian.tar.xz 4170c9c316e463d9fc33a982d72d46926aeb8e0b5ad88517b4364017c4afda1174f13f6f7474d54e3939e926163ec4afc015f259785f8dfda696cf674c6e87c7 2210 google-perftools_2.10-1.dsc 4400711723be9401f519d85b3b69c026e4715473cbed48ab0573df17abdf895fb971ee969875fe5127a2e8b9aba90d858285e50c8e012384c2c36d5a76b1f0c4 926512 google-perftools_2.10.orig.tar.gz"
+    "91fe789e20e967ea52cd21647a5dba1171102f8263b53badb92e979f2a32d65d7a02b7776ef64cc4452568d9b7c667014ec12187ef48da14e73a63c280c2fd62 8068 google-perftools_2.16-1.debian.tar.xz ce0368d5b26b290cb1a223cd258f7113794b8c58e0015eabc79e3ed66140abf209dbb4fbb5916b38f8a3853472541f561fa0c1fc8ac3ab91c745234e74025deb 2247 google-perftools_2.16-1.dsc a6eddee06cd6a9344c724522a5bb977082d6ee30eded1c6793d6bb508d4c8542a238dc0f62818c715f09312c858cc90cded0ee95ba2a3ea15fad8a0b78bcdaea 1743259 google-perftools_2.16.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/google-perftools"
   ],
   "Files": [
-    "4817697bc784a5aa07698dcd9d989df7 6980 google-perftools_2.10-1.debian.tar.xz b5683a1b107d7424344aeb9b6fcd0086 2210 google-perftools_2.10-1.dsc 0c496f4e03ea27d159d2facc175ee3dc 926512 google-perftools_2.10.orig.tar.gz"
+    "9fd043abdb06e36a659aec698df38579 8068 google-perftools_2.16-1.debian.tar.xz 71f7a03459b62d21599b8bb31f828a5a 2247 google-perftools_2.16-1.dsc 79a110e65f4818dec2dcc395c6acbac3 1743259 google-perftools_2.16.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "google-perftools"
   ],
   "Package-List": [
-    "google-perftools deb devel optional arch=all libgoogle-perftools-dev deb libdevel optional arch=any libgoogle-perftools4 deb libs optional arch=any libtcmalloc-minimal4 deb libs optional arch=any"
+    "google-perftools deb devel optional arch=all libgoogle-perftools-dev deb libdevel optional arch=any libgoogle-perftools4t64 deb libs optional arch=any libtcmalloc-minimal4t64 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.2"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/google-perftools"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/google-perftools.git"
   ],
   "Version": [
-    "2.10-1"
+    "2.16-1"
   ]
 }

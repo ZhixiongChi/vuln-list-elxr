@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libdbi1, libdbi-dev, libdbi-doc"
+    "libdbi1t64, libdbi-dev, libdbi-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), docbook-dsssl, texlive-formats-extra"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), docbook-dsssl, texlive-formats-extra"
   ],
   "Checksums-Sha1": [
-    "5413339c002fbe57733ad5a0a68f9761d077a4b1 7820 libdbi_0.9.0-6.debian.tar.xz 8c740fcb6841fd28f5e46cef8cab8034438dca22 1901 libdbi_0.9.0-6.dsc 6c1ecfb78f43a921d5f914299304bd6c82cb0e23 1194284 libdbi_0.9.0.orig.tar.gz"
+    "cc63bef38b7752714c06ea1ef550c4baafb7981d 7992 libdbi_0.9.0-6.1.debian.tar.xz 95a9c1662305cc2146d0975b2ac6c2ef82d6c219 1937 libdbi_0.9.0-6.1.dsc 6c1ecfb78f43a921d5f914299304bd6c82cb0e23 1194284 libdbi_0.9.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a14f6e8a44eaa2959c88b62d885a0a05b7b7e238bfeb4c2d09133bd0c1fb2462 7820 libdbi_0.9.0-6.debian.tar.xz 860353384d719f75c0c9ba4297592485293fe9d246220f638de3c4e7cab68c3f 1901 libdbi_0.9.0-6.dsc dafb6cdca524c628df832b6dd0bf8fabceb103248edb21762c02d3068fca4503 1194284 libdbi_0.9.0.orig.tar.gz"
+    "237830435d5ee02e8f834ee7ae9d2a22e46bbbc05650d3f46813d1d73148c439 7992 libdbi_0.9.0-6.1.debian.tar.xz 7e076cb11fd63e735dacd3b4f45bac0032dfa048d2b1b06be735e90d07af0561 1937 libdbi_0.9.0-6.1.dsc dafb6cdca524c628df832b6dd0bf8fabceb103248edb21762c02d3068fca4503 1194284 libdbi_0.9.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "7053df9ed2319e081d22d5df218a65d74119bf6fb71899a233434081800ffea786ae51ae2c90365fb91ae54682f7b8774dd7cd6817c26d815f79e6300380ce27 7820 libdbi_0.9.0-6.debian.tar.xz 8058a4689ebe29607f652fe6cf44111a6d04edad04c996d9e0a7916922913277acc640017fe6e637383445e75a4bd2d450f755983f74d116c4d918b8c23f0ffb 1901 libdbi_0.9.0-6.dsc ee8777195af43057409d051a6055ec0467cd926d48da076458b09f91d2f0995a1cc4bc071762e401b7bdcd8a4173fd8ea3472db3a1518e34b4c5b5ed24e4e2ce 1194284 libdbi_0.9.0.orig.tar.gz"
+    "3839b855f93eb2a2e2dbfdb30b5cf6c004edbf576ea54c1328b5bc8fc44da21b047784e3a7ecceee68e3ecd5e710bd6809ae528e29552743455a1a44b8077b50 7992 libdbi_0.9.0-6.1.debian.tar.xz f648f8b3e0b7de2c56ec8d967bb3f5590d6f6e9ec4f96cea9996dc5b10b991588a3db564e4af48c3e3159a328428f8100f81660d1ca41439f3fee807e1d746bf 1937 libdbi_0.9.0-6.1.dsc ee8777195af43057409d051a6055ec0467cd926d48da076458b09f91d2f0995a1cc4bc071762e401b7bdcd8a4173fd8ea3472db3a1518e34b4c5b5ed24e4e2ce 1194284 libdbi_0.9.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libd/libdbi"
   ],
   "Files": [
-    "a55c30a6784223060efeef76a47f9ea8 7820 libdbi_0.9.0-6.debian.tar.xz d858456b640f75cb52ed1c350ae403c5 1901 libdbi_0.9.0-6.dsc 05e2ceeac4bc85fbe40de8b4b22d9ab3 1194284 libdbi_0.9.0.orig.tar.gz"
+    "de74229fe43b4582d109ac8c7c91f978 7992 libdbi_0.9.0-6.1.debian.tar.xz 85a44d00a85ae490ff5009cccdc5e1e7 1937 libdbi_0.9.0-6.1.dsc 05e2ceeac4bc85fbe40de8b4b22d9ab3 1194284 libdbi_0.9.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "libdbi"
   ],
   "Package-List": [
-    "libdbi-dev deb libdevel optional arch=any libdbi-doc deb doc optional arch=all libdbi1 deb libs optional arch=any"
+    "libdbi-dev deb libdevel optional arch=any libdbi-doc deb doc optional arch=all libdbi1t64 deb libs optional arch=any"
   ],
   "Standards-Version": [
     "4.5.1"
@@ -45,6 +45,6 @@
     "Prach Pongpanich \u003cprachpub@gmail.com\u003e"
   ],
   "Version": [
-    "0.9.0-6"
+    "0.9.0-6.1"
   ]
 }

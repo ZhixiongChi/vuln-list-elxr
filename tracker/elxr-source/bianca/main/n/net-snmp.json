@@ -3,28 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "snmpd, snmptrapd, snmp, libsnmp-base, libsnmp40, libnetsnmptrapd40, libsnmp-dev, libsnmp-perl, tkmib"
+    "snmpd, snmptrapd, snmp, libsnmp-base, libsnmp40t64, libnetsnmptrapd40t64, libsnmp-dev, libsnmp-perl, tkmib"
   ],
   "Build-Conflicts": [
     "libsnmp-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), libtool, libwrap0-dev, libssl-dev, perl:any, perl-xs-dev, autoconf, automake, procps, pkg-config, libbsd-dev [kfreebsd-i386 kfreebsd-amd64], libkvm-dev [kfreebsd-i386 kfreebsd-amd64], libsensors-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], default-libmysqlclient-dev, libpci-dev"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 12), libtool, libwrap0-dev, libssl-dev, perl:any, perl-xs-dev, autoconf, automake, procps, pkg-config, libbsd-dev [kfreebsd-i386 kfreebsd-amd64], libkvm-dev [kfreebsd-i386 kfreebsd-amd64], libsensors-dev [!hurd-i386 !kfreebsd-i386 !kfreebsd-amd64], default-libmysqlclient-dev, libpci-dev"
   ],
   "Checksums-Sha1": [
-    "a57839a9e61ae80a134d139f99cc310b3abd1359 72100 net-snmp_5.9.3+dfsg-2+deb12u1.debian.tar.xz 5d9d4d991f150e9751d172a808ea0691366bdac3 2786 net-snmp_5.9.3+dfsg-2+deb12u1.dsc 290262e817a0c9fe27565da4bf1a3b4823986b2e 3545096 net-snmp_5.9.3+dfsg.orig.tar.xz"
+    "ad18e78a97697d86d5921df33c45d0f19744bdbc 71936 net-snmp_5.9.4+dfsg-2elxr0.debian.tar.xz ca4e634f4a7c9792422a3e987a51e2704b598df6 1770 net-snmp_5.9.4+dfsg-2elxr0.dsc 831b2bf6ca9abd04ad5971007dc3d0637beb003a 3568888 net-snmp_5.9.4+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "42bfdc8dff259be56735b0d48a4cbd85f45ff40d0bea86fceaf88ba7a6dc735f 72100 net-snmp_5.9.3+dfsg-2+deb12u1.debian.tar.xz b5760c25db1133c08d634f23881f0d8039f66ecabbd6dca16ca92b7e1eab9f67 2786 net-snmp_5.9.3+dfsg-2+deb12u1.dsc b78f93276a80d40726d94956aa7d06fd8752b5c0624af5bbf155cbc33fd521d1 3545096 net-snmp_5.9.3+dfsg.orig.tar.xz"
+    "1bcace3ca5b66b5e4cb415714ef95733aa0c46a272c59d4a66505671ac16f427 71936 net-snmp_5.9.4+dfsg-2elxr0.debian.tar.xz 2ef5575da5f19b893f2edc9e6e838e2de4e1b888dbbd15d2961db038f6d6714e 1770 net-snmp_5.9.4+dfsg-2elxr0.dsc 3b10ece3ef1975a66b4bb0b4fe8f0430e887f5d7d3278128e268197ee6653369 3568888 net-snmp_5.9.4+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "b2bdff17907a4c2c1e9dca1f948f84cb00c46532604dc795dcee639dd705f52a29c1564325831dd8824d7cce84944ecdd22063925dbf7a00ffbabf34fec6862a 72100 net-snmp_5.9.3+dfsg-2+deb12u1.debian.tar.xz e2c8be4c38a620f2daf4bd6b4f5b650f86b23f2d86e13b8e77f3f8e670337e8dd3a21f046fdafd737ba4eb97ba0c293602c2fd287cef26a598d738890fb8505e 2786 net-snmp_5.9.3+dfsg-2+deb12u1.dsc 9d07c221573f34ad087cd99b5bf8503ed473b8915210e17cf0da7131b51f501e2ee898160665d02bffebb92f0270be35aefc305b1ab89db40fe9b16481a595c4 3545096 net-snmp_5.9.3+dfsg.orig.tar.xz"
+    "87e7aed444128cb1cc612bee51d08436fe7b044431558a72ff49b2f724081fd39d819337014d2a42182bf3306bff0bcfedd2b93aaa3ec41c4b919fe3c78b19da 71936 net-snmp_5.9.4+dfsg-2elxr0.debian.tar.xz f82d703a6152ac417f57bcefaa66da5b2c14f6c0a4398ed7dd239c5de2785e825922f8348d944c34d02e6892b0e83c8089773a27cce176e1adbe4828092ed989 1770 net-snmp_5.9.4+dfsg-2elxr0.dsc 8f43d0ca71e8c1e1e16ab70c5aa527d39d2eed6a2e85669a08e961986e265af753afe4ba7ec71bce6b9760c7024117fd86a316bd8ea9399e79fba24ace030e09 3568888 net-snmp_5.9.4+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/n/net-snmp"
   ],
   "Files": [
-    "89631c1644f7a1603a8511937be04528 72100 net-snmp_5.9.3+dfsg-2+deb12u1.debian.tar.xz e86a5a6c403adfe972b7fcce4e4c180e 2786 net-snmp_5.9.3+dfsg-2+deb12u1.dsc cb1dd152d16ea204e7b026937f152b38 3545096 net-snmp_5.9.3+dfsg.orig.tar.xz"
+    "a29b15aab37303cea03ee9209b1bbe5c 71936 net-snmp_5.9.4+dfsg-2elxr0.debian.tar.xz a67593f57682ab454506ad867b7d98d9 1770 net-snmp_5.9.4+dfsg-2elxr0.dsc 9ac63dab33573024be2e08308a9d2124 3568888 net-snmp_5.9.4+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "net-snmp"
   ],
   "Package-List": [
-    "libnetsnmptrapd40 deb libs optional arch=any libsnmp-base deb libs optional arch=all libsnmp-dev deb libdevel optional arch=any libsnmp-perl deb perl optional arch=any libsnmp40 deb libs optional arch=any snmp deb net optional arch=any snmpd deb net optional arch=any snmptrapd deb net optional arch=any tkmib deb net optional arch=all"
+    "libnetsnmptrapd40t64 deb libs optional arch=any libsnmp-base deb libs optional arch=all libsnmp-dev deb libdevel optional arch=any libsnmp-perl deb perl optional arch=any libsnmp40t64 deb libs optional arch=any snmp deb net optional arch=any snmpd deb net optional arch=any snmptrapd deb net optional arch=any tkmib deb net optional arch=all"
   ],
   "Standards-Version": [
     "4.6.1"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/net-snmp.git"
   ],
   "Version": [
-    "5.9.3+dfsg-2+deb12u1"
+    "5.9.4+dfsg-2elxr0"
   ]
 }

@@ -6,22 +6,22 @@
     "python3-ujson"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all:any, python3-all-dev:any, python3-six, python3-tz, python3-setuptools, python3-setuptools-scm, python3-pytest \u003c!nocheck\u003e, libdouble-conversion-dev"
+    "debhelper-compat (= 13), dh-python, python3-all:any, python3-all-dev:any, python3-tz, python3-setuptools, python3-setuptools-scm, python3-pytest \u003c!nocheck\u003e, libdouble-conversion-dev"
   ],
   "Checksums-Sha1": [
-    "2ed5c36636bdcbdb871b72327271e84d93939516 5408 ujson_5.7.0-1.debian.tar.xz 3b08257c3a2e519b08b644bf1cb1cffa362bc564 2090 ujson_5.7.0-1.dsc 2f25f1eb276cfdc12834a84921e67ba160162386 113804 ujson_5.7.0.orig.tar.xz"
+    "cf69985ff6ca18ea21c869149072160789c14038 5608 ujson_5.10.0-1.debian.tar.xz 3fbea1e63b7af2d6875d79c2200f8aa351724555 2142 ujson_5.10.0-1.dsc d056c89a8e1ba7c7795d539255ea53714b62bbb7 115040 ujson_5.10.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "94eb6262a850309783c309c8acbbc01268df510a3f75de8a1cbb2c6354fc1b19 5408 ujson_5.7.0-1.debian.tar.xz bf0d3811d93a41275b64ed346ba0714d04dd67965ca5e45668452725cee7c69e 2090 ujson_5.7.0-1.dsc 7a411cee5cbda1818060cc58b690eed6774ffcf28229ecc6bd6de1ff966bf657 113804 ujson_5.7.0.orig.tar.xz"
+    "6eacf8014a334f6b9d4bc336aa3e4b53fd0932eb96e43e26e78fa9a64e1d775d 5608 ujson_5.10.0-1.debian.tar.xz c10741aaf685c10b55d3d123c4e05c15855fa3677ed73ac689468d2bcf144fbb 2142 ujson_5.10.0-1.dsc 5fdf52d9b380cd60897c8adfee7d1346ffb3acd5b25730eca4e23db002a49f87 115040 ujson_5.10.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "1fb2ca669a198b231a025da3db05ee1c45d6c57878ef1b97a4d8e5625d064b01706db7e34d6fcc85faf47007e041c98bd616605997c4424d5eb5e996df498506 5408 ujson_5.7.0-1.debian.tar.xz 725cc1e6342d942bbe87ec4aa4cc2ac6e59ba8afc176d33d587afdeb524a52a448e51c420fb1422588cf24f761885584db1dfa49b7d640d3a0bc428d16266e05 2090 ujson_5.7.0-1.dsc a0a564cbca7633be91f303fa1620016212429d99eacca4c75d216289517fd33125275a72996b099b9b4296ae69c3030c5894f3211ee8ce65b2bf79b4b507b1ed 113804 ujson_5.7.0.orig.tar.xz"
+    "af1fdc4c22a53565869b26285a06a68bf65d5fdd8d27f74b48fbe28e35cd6f1fe8df170aaaccf747c0b97ba9e4e1e330016eeccded2ac528d378be4d6da39a7b 5608 ujson_5.10.0-1.debian.tar.xz 1914bd287dbb4c6c8662d49aa8c3c94afce7ec2e907773dca03de51e0fcafff587ff6437900c5f869adb6be3d86e48985e151b0c4c970d3c2e23030e0d8ac7d4 2142 ujson_5.10.0-1.dsc a29008ec0222b77c8429ad34d259d9eaf0155ec89aadd9cac45a5aa262f4080956f0d3ef5df192bf9a7d8d4ada8fadd43ce2ce8c58c69164ccaf77f0995bd4a9 115040 ujson_5.10.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/u/ujson"
   ],
   "Files": [
-    "12c8fa7edd6ab13cb5476467ef2f59bc 5408 ujson_5.7.0-1.debian.tar.xz a409f6b40ccf16b9f8d12fa135c298d7 2090 ujson_5.7.0-1.dsc 2e845741462c17bc6e893f3d0e314b2f 113804 ujson_5.7.0.orig.tar.xz"
+    "a79bf7e8f17218483d4f9c2102f7ddf7 5608 ujson_5.10.0-1.debian.tar.xz 6a0de494a69119be1b03f8f85a5a82e7 2142 ujson_5.10.0-1.dsc c702bbe1f6739a30da62a2510165dca3 115040 ujson_5.10.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -41,6 +41,12 @@
   "Standards-Version": [
     "4.6.1"
   ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-pytest"
+  ],
   "Uploaders": [
     "Mo Zhou \u003clumin@debian.org\u003e"
   ],
@@ -51,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/ujson.git"
   ],
   "Version": [
-    "5.7.0-1"
+    "5.10.0-1"
   ]
 }

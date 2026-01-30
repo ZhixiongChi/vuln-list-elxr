@@ -9,22 +9,19 @@
     "cups-filters | foomatic-filters, dc, debhelper-compat (= 13), foomatic-db-engine, ghostscript, libcups2-dev, libjbig-dev, liblcms2-utils, pyppd, time"
   ],
   "Checksums-Sha1": [
-    "e50f9b9601a019364502a4fc3d95fa8b7835fdac 39568 foo2zjs_20200505dfsg0-2.debian.tar.xz f39fda8d9e0ea37214a7a308009fa24aa9048ff9 2327 foo2zjs_20200505dfsg0-2.dsc 99ab4c86ffc760b1a670cf622360826e3b3cd75b 588424 foo2zjs_20200505dfsg0.orig.tar.xz"
+    "33bd4610e360cf8cb0e626a6e990e3e062c65fc5 39824 foo2zjs_20200505dfsg0-3.debian.tar.xz 7e25fd9737af0aaebdce08530824b6b9e455d78b 2415 foo2zjs_20200505dfsg0-3.dsc 99ab4c86ffc760b1a670cf622360826e3b3cd75b 588424 foo2zjs_20200505dfsg0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "4b39ca30fbbe2371b25f6b60f6eca3f236f719f493153aa357ad532cea895f79 39568 foo2zjs_20200505dfsg0-2.debian.tar.xz d176bab81dc2f86b75d80586c85677e5407fa7391731064b459673fa702d3f77 2327 foo2zjs_20200505dfsg0-2.dsc 87465e6a31f8501b90508d50e97901d2cce8b5b3de5418cc156e66d5c500421b 588424 foo2zjs_20200505dfsg0.orig.tar.xz"
+    "dcf7cd9c1c31d3066e8d68ba9d84cc9758032e8d7694b6730ff7748e837c5c24 39824 foo2zjs_20200505dfsg0-3.debian.tar.xz 36286c93c5939bc27360f86198a66061e37f9e30ef7c03ceca507aef0173a2c6 2415 foo2zjs_20200505dfsg0-3.dsc 87465e6a31f8501b90508d50e97901d2cce8b5b3de5418cc156e66d5c500421b 588424 foo2zjs_20200505dfsg0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "7fb27ee7ccfef9c870f690860b7b3d3989ed3dce43da98b00c071a09dc3c3e2c1105952c785bfd123b4370afd23289a5da452ba408c8c069c445f0371d15bd54 39568 foo2zjs_20200505dfsg0-2.debian.tar.xz 7807af1882779f87c60500c263be28c59ded0d0df34f94f3187bca680adcd49ace88efd85fc2599041d0e3986e6c39b67e55d974bd1aba0986a3972c56b6b425 2327 foo2zjs_20200505dfsg0-2.dsc 83024c72deb9b13a231b46d497bea057cf826d8610929c094b248fa74f9f344829dab78fba657b83baddf2e02cfaa32139c7ce31d765262d29d9d1f4b2a487f3 588424 foo2zjs_20200505dfsg0.orig.tar.xz"
-  ],
-  "Dgit": [
-    "f4ab9ca467f9d6cc015a5d9f5a24a483ee096f04 debian archive/debian/20200505dfsg0-2 https://git.dgit.debian.org/foo2zjs"
+    "87e9b1fb3bfe961319c7465dfa5821ae3a28b798db52b56238310fc08deb7ad69b186cbd2754388e8c1e0d81ecb3df61a896706cf74ddf559ea13d380b9f0f7b 39824 foo2zjs_20200505dfsg0-3.debian.tar.xz 1b116ffeb900eb9aba5ac0d619010071959f947c4dff79cd96959b73c75e3d02f8297ad876c70755433238fd84e924fd8c05bfadd972ecc6bd485fb8d4a0c597 2415 foo2zjs_20200505dfsg0-3.dsc 83024c72deb9b13a231b46d497bea057cf826d8610929c094b248fa74f9f344829dab78fba657b83baddf2e02cfaa32139c7ce31d765262d29d9d1f4b2a487f3 588424 foo2zjs_20200505dfsg0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/f/foo2zjs"
   ],
   "Files": [
-    "b15c9c17e0fb01a3eb4050fe2f4ab31f 39568 foo2zjs_20200505dfsg0-2.debian.tar.xz 0177450a02f21771f2914f72cdb7c30b 2327 foo2zjs_20200505dfsg0-2.dsc 033b11479e94f9d039246733146abb1d 588424 foo2zjs_20200505dfsg0.orig.tar.xz"
+    "d63255e503f7fa89d9c9fdace643c44c 39824 foo2zjs_20200505dfsg0-3.debian.tar.xz 88b9373f3bb691d7fd911a4549fed1b7 2415 foo2zjs_20200505dfsg0-3.dsc 033b11479e94f9d039246733146abb1d 588424 foo2zjs_20200505dfsg0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +39,16 @@
     "printer-driver-foo2zjs deb text optional arch=any printer-driver-foo2zjs-common deb text optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
     "cups, cups-client"
+  ],
+  "Uploaders": [
+    "Thorsten Alteholz \u003cdebian@alteholz.de\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/printing-team/foo2zjs"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/printing-team/foo2zjs.git"
   ],
   "Version": [
-    "20200505dfsg0-2"
+    "20200505dfsg0-3"
   ]
 }

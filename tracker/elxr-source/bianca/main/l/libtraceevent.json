@@ -6,22 +6,22 @@
     "libtraceevent-dev, libtraceevent1, libtraceevent1-plugin, libtraceevent-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), pkg-config, asciidoc, xmlto, source-highlight"
+    "debhelper-compat (= 13), pkgconf, asciidoc, xmlto, source-highlight, libcunit1-dev"
   ],
   "Checksums-Sha1": [
-    "2807c81d8ef72a6fbb89bc34b497a38a28587c49 3732 libtraceevent_1.7.1-1.debian.tar.xz 26c98b9bb4ddfec6912fb3f9097bccc0fa66e202 2125 libtraceevent_1.7.1-1.dsc 313987d660eb858d98d42a207c9f7ddff4e7db82 119140 libtraceevent_1.7.1.orig.tar.xz"
+    "5cc1740dc4871038af65a0a81b91f622d63a7aa4 6036 libtraceevent_1.8.4-2.debian.tar.xz 13f9ae9020427d1cade0c0f4b6bbdf1324e7dfbb 2192 libtraceevent_1.8.4-2.dsc 5fa0cf98f2f0fe49fd390ceb46116678a857d767 125072 libtraceevent_1.8.4.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "d4c4dd3501d15f8273fb24d1dbbc6a8a8d1813816d4ed28f2839f6e05c255f79 3732 libtraceevent_1.7.1-1.debian.tar.xz c0b0562a2fac98837ed213aa60ed0b868c4ca13f02acf421ba8db52ea1fbd093 2125 libtraceevent_1.7.1-1.dsc a681b9d93197c28e10dc524d8999e76fea5a0adee82fdd7d152acd7beea8e5dc 119140 libtraceevent_1.7.1.orig.tar.xz"
+    "eca37ac6088ca4700f83db93fd776beac5ad7b259789719c4ddf0d30f628a271 6036 libtraceevent_1.8.4-2.debian.tar.xz 787529d5b6f2aaff6f293eefd6cd246363f7ff7dbf326301c16f99d04cb73f73 2192 libtraceevent_1.8.4-2.dsc d4d206a9bf53f613f7e2e6bc10c8909c895456f2ea37e03f6741de77c9c9532f 125072 libtraceevent_1.8.4.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "7b4f721760e87350f63db30d4d576dfae3d8cfda59e07b7f34d0d43071d525c78381463a2c90fb9f12a9a6b78e10061bd8e241bf7141849a80883954eb931c25 3732 libtraceevent_1.7.1-1.debian.tar.xz 1641482b4b5920534dc1eb5d46ac3d203a3eb9d3f27c3f2cc40d976eca91f4d8ff0dcc793e2da1d27a0492e0fafac4ca22c72658dffdf8b86ea916345b392328 2125 libtraceevent_1.7.1-1.dsc e0ae22ec8d38bb625eb39897a438ce4976abca5b849610d080bc011516a78b630d3507784d490164e71bd7689b8528fdae6c7d529dbffce2bbe912a0988ab821 119140 libtraceevent_1.7.1.orig.tar.xz"
+    "f24abf8b0cf39b9ae425490251728edb90c2a5016d3866a40f7b158a6ea6e180b5633c016599b743edc5225c3dd46c64174b9785d26b0e8fcdba13b4d9b187fe 6036 libtraceevent_1.8.4-2.debian.tar.xz 7aad4f291cedff8d20fdb62d754b821d52495f245f4c63d50979b2124883f8ddab81556517e0d3ee3ffc8df816b7c1f9a2aa895090c51323c041c8a311da69b4 2192 libtraceevent_1.8.4-2.dsc 83aa16352e939f06e01d196378a459ab72d849cdf9eaf06334faabb05a717c02daae9b9b14059347191ff7f68fa32404bacbe737aeae09662d49ea3b139fc440 125072 libtraceevent_1.8.4.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libt/libtraceevent"
   ],
   "Files": [
-    "6cc1db99e20aefea16baa0d92a5a523f 3732 libtraceevent_1.7.1-1.debian.tar.xz 1eba414ad7c077124f82e64ec8b7c7ac 2125 libtraceevent_1.7.1-1.dsc 9f60514066c161b2013fd43eb1b7cc85 119140 libtraceevent_1.7.1.orig.tar.xz"
+    "e35e8a3a55278f4040b3e78eea213157 6036 libtraceevent_1.8.4-2.debian.tar.xz 5c3233e926cb106c3463ba26e7acc7e4 2192 libtraceevent_1.8.4-2.dsc 2efaa25168e20ad5501393a25ed1cd01 125072 libtraceevent_1.8.4.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,13 @@
     "libtraceevent-dev deb libdevel optional arch=linux-any libtraceevent-doc deb doc optional arch=all libtraceevent1 deb libs optional arch=linux-any libtraceevent1-plugin deb libs optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/sudip/libtraceevent"
@@ -45,6 +51,6 @@
     "https://salsa.debian.org/sudip/libtraceevent.git"
   ],
   "Version": [
-    "1:1.7.1-1"
+    "1:1.8.4-2"
   ]
 }

@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libpst-dev, libpst4, pst-utils"
+    "libpst-dev, libpst4t64, pst-utils"
   ],
   "Build-Depends": [
-    "autoconf-archive, debhelper-compat (= 13), dpkg-dev (\u003e= 1.16.1~), imagemagick, libgd-dev, libgsf-1-dev"
+    "dpkg-dev (\u003e= 1.22.5), autoconf-archive, debhelper-compat (= 13), imagemagick, libgd-dev, libgsf-1-dev"
   ],
   "Checksums-Sha1": [
-    "4b8922de7ce4cb531e86e1e37bd2277b7d62e665 7400 libpst_0.6.76-1.debian.tar.xz 7bab5a9719d89ea973a87f9262fc3bf6916d9e12 1993 libpst_0.6.76-1.dsc a540d778a808a450d909cded0e52f7f4175c690c 12886768 libpst_0.6.76.orig.tar.gz"
+    "d648e315204a3a6abfde02d8d86f5e1a4532f65b 7968 libpst_0.6.76-1.2.debian.tar.xz 0b16d5f27fb2eae3b7eda980c86be9fbd213aa71 2006 libpst_0.6.76-1.2.dsc a540d778a808a450d909cded0e52f7f4175c690c 12886768 libpst_0.6.76.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a40e02548c317366bc44df74a4f38fdfb83e352871a7c6f2275f94d77820cc33 7400 libpst_0.6.76-1.debian.tar.xz f3a88bd3269f3c731d19f4d9eda3db55f8bc2a7c34d7b6f853bbcdba5c1b7ae6 1993 libpst_0.6.76-1.dsc 3d291beebbdb48d2b934608bc06195b641da63d2a8f5e0d386f2e9d6d05a0b42 12886768 libpst_0.6.76.orig.tar.gz"
+    "b7b9b67eaef42c2a7b99129f1dcb9437ce755d59ddd68bea4ab97ac07ad0a241 7968 libpst_0.6.76-1.2.debian.tar.xz d695532618fc107c7987305cab9c9c055e5b0bdef36c1439ceced969dbffadec 2006 libpst_0.6.76-1.2.dsc 3d291beebbdb48d2b934608bc06195b641da63d2a8f5e0d386f2e9d6d05a0b42 12886768 libpst_0.6.76.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "be9a45155b157ec3d31dbdda1f765fb07952a9611e9b7cf26409ed2e19effe0b545513dc4cc8fca9e8a3249094c730830eb0237efecefb44c773e2e573f76f10 7400 libpst_0.6.76-1.debian.tar.xz 62dcf867fbb916792a0a515e95ab89aaf64216f01b599dcc31012d03a04a360c0f587481f17435b7cca532c4af8ea911e8fe4a96dc8fb1ab896d4fb8ca60bc25 1993 libpst_0.6.76-1.dsc 43b621ec089ff81714d4bd768178bd56efb15da27c4fe3dc18372337e5898072b17a58feb6b3dd88a805a38c757f6a97e2da89432da101df5345e3d0daf166b4 12886768 libpst_0.6.76.orig.tar.gz"
+    "52b6942b9d8bf2b92694d93b2a9932775102121180f506ba6280f8f662388f75366560d360a3e7a9fd8b45030cdf18da95b7e2ed262c56a9de729b85cc2c8016 7968 libpst_0.6.76-1.2.debian.tar.xz e5fea94f116fe7d0d6cc7a4f100e573b993749c3575fd12dc9bb21dba4a945003c3c998001dec6c982e089152b0b54400326cd8aa7b4fd173c715db68d2a2e66 2006 libpst_0.6.76-1.2.dsc 43b621ec089ff81714d4bd768178bd56efb15da27c4fe3dc18372337e5898072b17a58feb6b3dd88a805a38c757f6a97e2da89432da101df5345e3d0daf166b4 12886768 libpst_0.6.76.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libp/libpst"
   ],
   "Files": [
-    "f00a3a9a97b8e821b0edec07ea7d28f9 7400 libpst_0.6.76-1.debian.tar.xz 0bf976867314728f211bd722bde8bd21 1993 libpst_0.6.76-1.dsc e821b94e8d7790ee314059f751182ebf 12886768 libpst_0.6.76.orig.tar.gz"
+    "95812aca2227793ce48d50e61b131525 7968 libpst_0.6.76-1.2.debian.tar.xz a118431629c7f4e2c4a7c36942743abe 2006 libpst_0.6.76-1.2.dsc e821b94e8d7790ee314059f751182ebf 12886768 libpst_0.6.76.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "libpst"
   ],
   "Package-List": [
-    "libpst-dev deb libdevel optional arch=any libpst4 deb libs optional arch=any pst-utils deb utils optional arch=any"
+    "libpst-dev deb libdevel optional arch=any libpst4t64 deb libs optional arch=any pst-utils deb utils optional arch=any"
   ],
   "Standards-Version": [
     "4.5.1"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/libpst.git"
   ],
   "Version": [
-    "0.6.76-1"
+    "0.6.76-1.2"
   ]
 }

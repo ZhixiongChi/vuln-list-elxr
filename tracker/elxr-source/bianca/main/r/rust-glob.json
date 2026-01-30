@@ -6,22 +6,22 @@
     "librust-glob-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11), dh-cargo (\u003e= 18), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.23.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "2dbdcc81abf9a27f3459d5760a5ef4abec51d45c 2624 rust-glob_0.3.0-1.debian.tar.xz d3d1513c7fb664573ac5461d3e7a9c2603db4000 1561 rust-glob_0.3.0-1.dsc 3d1e2bea7c5711a9d015beb6d0ac102a0b9e9357 18724 rust-glob_0.3.0.orig.tar.gz"
+    "de32790be809ae56e67ae98c3fd4d62e245d6b79 2780 rust-glob_0.3.2-1.debian.tar.xz 80163a9ee4d774db78824f8ee2df0be63bc2f3d4 2229 rust-glob_0.3.2-1.dsc cd03546e6521661d00dd7ff1d7820abf823fbfb6 22359 rust-glob_0.3.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "60149a80be567cb839500fc1e4831ad27eb79bc49c3a74963de27e5132574f07 2624 rust-glob_0.3.0-1.debian.tar.xz 1c9b79272ba42dd4b7a5a3d815b9229c3da347c9760f6508fdca9d5dfa30874f 1561 rust-glob_0.3.0-1.dsc 9b919933a397b79c37e33b77bb2aa3dc8eb6e165ad809e58ff75bc7db2e34574 18724 rust-glob_0.3.0.orig.tar.gz"
+    "0e44151c2eef52c1c1f9267a3a02df925bbc27ea204dffd6304a4cd8d20bf588 2780 rust-glob_0.3.2-1.debian.tar.xz 7b12cad0df863f34217704b7eb7c9c4bfdd6ec3a9ca4864d4ea930afa7369f0a 2229 rust-glob_0.3.2-1.dsc a8d1add55171497b4705a648c6b583acafb01d58050a51727785f0b2c8e0a2b2 22359 rust-glob_0.3.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "0ba3023af593b559c0f57743a42cc4eed6e25fa04d2dd1e0152b71169ff83974f80103f751da3abab27bb0170c159c175115e34830a2546cfab63578c337950c 2624 rust-glob_0.3.0-1.debian.tar.xz 15c1ae2f2ff282ad6b39186bff101d95141161cd1cfa690412afb440056943782c1cbf050caaa066c9f739d221bbb8ca8c1cf35899c4913c71bf3a525551ccb6 1561 rust-glob_0.3.0-1.dsc 87098ffdbc518442995c422120cef71f83069c8f88a1970ecec5105b0f284ddd92bcee929f5c230d5b90ae1ead7e1214c3eea26f4a8b26715a00c1ab8b09bc46 18724 rust-glob_0.3.0.orig.tar.gz"
+    "51219c09c18afb026ca5ca90afa3715f2f138b25c70e3706733abc3117d2a33ba45741ee8219ba8dbbf4637d8062ba349e153695f69e96fb78c59387a6678cfb 2780 rust-glob_0.3.2-1.debian.tar.xz e3c5324ec5edd40686c753077eb33aebd07295141e49a22e96d5fb65ab6f7b613c6a29a62c29c7f27b58310eb9939b1462034bfc526f374941f5857dc2b97903 2229 rust-glob_0.3.2-1.dsc d15389441e337e3fab9c30102fe7b4b1b3e68d8cbb5d14162d2fd7e7d01a9812b2d6d6d2a24a60116418be41e2075e70becd6994c13b34365d512521e8debb02 22359 rust-glob_0.3.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-glob"
   ],
   "Files": [
-    "2b26261548ca39c79dd010b860d6afc5 2624 rust-glob_0.3.0-1.debian.tar.xz d2ad7cc53f18b90c2990af3633e67827 1561 rust-glob_0.3.0-1.dsc e7c07242a95ee1df865efe9534e10a34 18724 rust-glob_0.3.0.orig.tar.gz"
+    "29378d9a2a26bef206ca9d758f4d85e3 2780 rust-glob_0.3.2-1.debian.tar.xz be6ff4fcbb633244400e3441135b5686 2229 rust-glob_0.3.2-1.dsc b9f68e232bd2799fbe6567c6c3d108bf 22359 rust-glob_0.3.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "librust-glob-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.2.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-tempdir-0.3+default-dev"
+    "dh-cargo, librust-doc-comment-0.3+default-dev, librust-tempdir-0.3+default-dev, rustc"
   ],
   "Uploaders": [
     "Ximin Luo \u003cinfinity0@debian.org\u003e, kpcyrd \u003cgit@rxv.cc\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/glob]"
   ],
   "Version": [
-    "0.3.0-1"
+    "0.3.2-1"
   ]
 }

@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-autocommand \u003c!nocheck\u003e, python3-inflect \u003c!nocheck\u003e, python3-jaraco.context \u003c!nocheck\u003e, python3-jaraco.functools \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm"
   ],
   "Checksums-Sha1": [
-    "37adab7f4a16a22bfe440c000331ad4f3c4be77e 3640 jaraco.text_3.11.1-1.debian.tar.xz 2e45d59b67f832de4e503bf4eac1ed5e7d73ffb0 2317 jaraco.text_3.11.1-1.dsc b52dfe92d2bb5046220e34689308e9231fb7f9ba 13675 jaraco.text_3.11.1.orig.tar.gz"
+    "1809d515094c5257f658d83c31f3f13d3e31ba81 3756 jaraco.text_4.0.0-1.debian.tar.xz e227a42489c51c1b9292529a2645d925cd81c18c 2215 jaraco.text_4.0.0-1.dsc b001e01a85c317a4251f690ccf57dc15314dc3c0 14167 jaraco.text_4.0.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "605a23b7c0430cbe2801f18b3fedf055a8c75722a75bf16f4f0ab67fbbcc19bc 3640 jaraco.text_3.11.1-1.debian.tar.xz f2788edbf9fd89d1c60a69c490e711c9937755827f0160d7aefee1eb49ac96e7 2317 jaraco.text_3.11.1-1.dsc c00e952e23f73b30dc9a8b40b1a7538f1528f33e35f6815bd0c518318f493501 13675 jaraco.text_3.11.1.orig.tar.gz"
+    "cfcdb3c511da216e55d3e17b106605ca4c58c19b630723c641efd06ca64c424a 3756 jaraco.text_4.0.0-1.debian.tar.xz 2e38c64fd7cd6aeb2cdf0b04c230330e18c314d95f295bf589201acd4599b9f9 2215 jaraco.text_4.0.0-1.dsc d84969c483a49d8d0a6f44991307f91951a9349c277b64a13f065bd357430831 14167 jaraco.text_4.0.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "fb5066a0f1f8d3db795b533b4646e492c574c8d131acef2c39889a422a755618244916579959243e1d4c8c7005b8b3d20c819180d2d9b2d3a3725c3fb1a1cce8 3640 jaraco.text_3.11.1-1.debian.tar.xz 3b04504a63d15e4141fd31d7ab9a685c95a84b7ec18d5ba738037d6f6ec7f6020df7991f88424e8f10abda5877aa06f946d5d3b277784c0a4e34ef424bfa1514 2317 jaraco.text_3.11.1-1.dsc f38cf2b61f98e0e6d5dd81f2e98937d041afc849c589f5953bd3c9c33552058d5fbbcb907918c80842db599c6b05c73480f8e67e947ddc78de74c31190d8117d 13675 jaraco.text_3.11.1.orig.tar.gz"
+    "e911365512c5eb1c5f351d4cb0663c28761617842a54f411728a169d2d7a7cc0194fc614e45968b5ad8f30d8b5de9c454dbf1d4704d51e15f275b172eae60790 3756 jaraco.text_4.0.0-1.debian.tar.xz a6cd823f79cf955c8c5fc0994915dde155b0574b4b791ab8deb6930486b18cea60fa90b8b62ef7346d398eb47e6abaf252312dcd7010fab46e26bba1167537bf 2215 jaraco.text_4.0.0-1.dsc b818731b5e74f8d1a2feacee87ba20ca401f9a3aab74e6d642e3ac224b6b80aee541de064cf79cac7334fb7c13505b9b8aa08afa5e7f3697973505a2f3a8b664 14167 jaraco.text_4.0.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/j/jaraco.text"
   ],
   "Files": [
-    "c48518fdbe33c3db644b0c4523f9a786 3640 jaraco.text_3.11.1-1.debian.tar.xz cbb60058645abdc6278b3362e202b66f 2317 jaraco.text_3.11.1-1.dsc ca2c953e94798d10c438fe64eb753690 13675 jaraco.text_3.11.1.orig.tar.gz"
+    "a0e8d2cb97917567478cf5c605c128c9 3756 jaraco.text_4.0.0-1.debian.tar.xz 9e785db12983977b8717b974df5079c8 2215 jaraco.text_4.0.0-1.dsc e8d77cc0d714fa7c3cfdb05c825670c0 14167 jaraco.text_4.0.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python3-jaraco.text deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
@@ -47,16 +47,13 @@
   "Testsuite-Triggers": [
     "python3-all, python3-pytest"
   ],
-  "Uploaders": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
-  ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/python-team/packages/jaraco.text"
+    "https://salsa.debian.org/jcfp/jaraco.text"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/python-team/packages/jaraco.text.git"
+    "https://salsa.debian.org/jcfp/jaraco.text.git"
   ],
   "Version": [
-    "3.11.1-1"
+    "4.0.0-1"
   ]
 }

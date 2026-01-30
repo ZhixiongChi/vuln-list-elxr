@@ -6,22 +6,22 @@
     "z3, libz3-4, libz3-dev, python3-z3, libz3-java, libz3-jni"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3, cmake, libsimde-dev, javahelper [!hppa !hurd-i386 !m68k !sh4] \u003c!nojava\u003e, default-jdk [!hppa !hurd-i386 !m68k !sh4] \u003c!nojava\u003e"
+    "debhelper-compat (= 13), cmake, libsimde-dev, python3:any, python3-setuptools, dh-sequence-python3 \u003c!nopython\u003e, dh-sequence-javahelper [!hppa !hurd-any !m68k !sh4] \u003c!nojava\u003e, default-jdk [!hppa !hurd-any !m68k !sh4] \u003c!nojava\u003e"
   ],
   "Checksums-Sha1": [
-    "bac6eb0fea1ed8ca07661efc29cdbfb08c3a02b8 10420 z3_4.8.12-3.1.debian.tar.xz d5bd0d44e8a45bd8f7b48039d2fbe6d5c5802380 2663 z3_4.8.12-3.1.dsc f4443c6beedb46e8a0785529b477b2f811901cc3 4803435 z3_4.8.12.orig.tar.gz"
+    "7dc9982ab40d6adc4e5dc48dc9deefe80af14eae 10696 z3_4.13.3-1.debian.tar.xz 45d11093401ce88d09176fa1c83e1eb71cb28b19 2704 z3_4.13.3-1.dsc cf98065f0f392e4bfca40550e0792b2ee59d6c89 5583533 z3_4.13.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "5bb616648de1d82f5563377e1640e59dd653b6beac3b6513358362e5dbd925fb 10420 z3_4.8.12-3.1.debian.tar.xz 0e5db5248212a72d3dc3fe99873181161649ff03d89de726bbe6f57604488008 2663 z3_4.8.12-3.1.dsc e3aaefde68b839299cbc988178529535e66048398f7d083b40c69fe0da55f8b7 4803435 z3_4.8.12.orig.tar.gz"
+    "25a36c2b45e85b24620da6dec8fbb2095d41cbe1b03b27b5da007ff9c922e9ca 10696 z3_4.13.3-1.debian.tar.xz 503d4e990e0d6e2012d4ef97e31ff6a7dcd8b0ead582e58be07c84dc6b6d0df3 2704 z3_4.13.3-1.dsc f59c9cf600ea57fb64ffeffbffd0f2d2b896854f339e846f48f069d23bc14ba0 5583533 z3_4.13.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "042d06c0c66bb6328f1b90f766109de31fa9e1921c313dddccf8199f6855fbddd6272764312ebc0773f920525620fed7d45a7bb2432e5ee7b866dcec87ed773d 10420 z3_4.8.12-3.1.debian.tar.xz 23ff8d51f15ca24e53cb0f48e83101d9858ed82c1749ac003e914d13866e2ad2c2f58aaeb85c55f380f23438afacf682506444688897ea9fb815caa3b9ce1b0f 2663 z3_4.8.12-3.1.dsc 0b377923bdaffaca1846aa2abd61003bbecadfcdfc908ed3097d0aac8f32028ac39d93fb4a9c2e2c2bfffbdbee80aa415875f17de6c2ee2ae8e2b7921f788c6e 4803435 z3_4.8.12.orig.tar.gz"
+    "7ff2e2993fdd57137a93f775e4b82e403986f9b34daa4326090dee32c722a7c11532fb3c639fec235c6c9284f1710950a1b19c9671d223b8daa1636e7a6d1c60 10696 z3_4.13.3-1.debian.tar.xz 74b13c5d5f031cf80670e112571e47d745b0015cd5a760b0dad044af460d71694b709ee4d67cf8fa7fcd3c14a1a09b2e5d9e8f55222875ea1332e24ad547b93f 2704 z3_4.13.3-1.dsc c899f57d8cb5450801463b07cd651869d766a920e41a4beedc96c4978e940bfadff9af2fbbb5ba10f94f6742bb33f7abaca0a351f3e1803d778e84d735d6829e 5583533 z3_4.13.3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/z/z3"
   ],
   "Files": [
-    "632052111a73db41cad36b663acc1d58 10420 z3_4.8.12-3.1.debian.tar.xz f3d77f94d51ee80a31f4db0d00c71330 2663 z3_4.8.12-3.1.dsc 73fd07d094685039b03aed9e38040d13 4803435 z3_4.8.12.orig.tar.gz"
+    "ee5adf2279e0a99b30de33b50217cf9f 10696 z3_4.13.3-1.debian.tar.xz 0ed881355961da54b4441d94b054d5ea 2704 z3_4.13.3-1.dsc 48f96551da3180c6bf270904102e1149 5583533 z3_4.13.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "z3"
   ],
   "Package-List": [
-    "libz3-4 deb libs optional arch=any libz3-dev deb libdevel optional arch=any libz3-java deb java optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel,powerpc,ppc64el,s390x,alpha,kfreebsd-amd64,kfreebsd-i386,powerpcspe,riscv64,sparc64,x32 profile=!nojava libz3-jni deb java optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel,powerpc,ppc64el,s390x,alpha,kfreebsd-amd64,kfreebsd-i386,powerpcspe,riscv64,sparc64,x32 profile=!nojava python3-z3 deb python optional arch=any z3 deb science optional arch=any"
+    "libz3-4 deb libs optional arch=any libz3-dev deb libdevel optional arch=any libz3-java deb java optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel,powerpc,ppc64el,s390x,alpha,kfreebsd-amd64,kfreebsd-i386,powerpcspe,riscv64,sparc64,x32 profile=!nojava libz3-jni deb java optional arch=amd64,arm64,armel,armhf,i386,mips,mips64el,mipsel,powerpc,ppc64el,s390x,alpha,kfreebsd-amd64,kfreebsd-i386,powerpcspe,riscv64,sparc64,x32 profile=!nojava python3-z3 deb python optional arch=any profile=!nopython z3 deb science optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/pkg-llvm-team/z3.git"
   ],
   "Version": [
-    "4.8.12-3.1"
+    "4.13.3-1"
   ]
 }

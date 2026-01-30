@@ -6,22 +6,22 @@
     "python3-gitdb"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, git, python3-nose, python3-smmap"
+    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, git, python3-pytest, python3-smmap"
   ],
   "Checksums-Sha1": [
-    "6a2731b88e23cce4f2847e04e483d3fd29159fcb 3964 python-gitdb_4.0.9-2.debian.tar.xz 291d15e61e759fa966fb4aba0152e8cc7af79b85 2086 python-gitdb_4.0.9-2.dsc 014e4b4832130ed0ecad68fb6619a0496b08a98a 394670 python-gitdb_4.0.9.orig.tar.gz"
+    "f654c0b1ea5323e3de69ca1f1b8ec53a01fee7e0 4064 python-gitdb_4.0.12-1.debian.tar.xz ffe84d79ea86e776df4206e060e796159226cc33 1750 python-gitdb_4.0.12-1.dsc 31d510ffb3932a5e4f94da380bcc7c978c980d11 394684 python-gitdb_4.0.12.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "18ef0cf2f6d4307d2482c055892072fe8f40ca22767e22d9c0a80854e4177461 3964 python-gitdb_4.0.9-2.debian.tar.xz ab8bd994a19de3dd78f93062aebf5edaf45c54cae30e9777b1258a497b6d8e5f 2086 python-gitdb_4.0.9-2.dsc bac2fd45c0a1c9cf619e63a90d62bdc63892ef92387424b855792a6cabe789aa 394670 python-gitdb_4.0.9.orig.tar.gz"
+    "2a7b77a65b5b1ee83a4f325f04ee625cf3d6c8b10129a9aa0410ab862a1f1ad1 4064 python-gitdb_4.0.12-1.debian.tar.xz 7a540f1be65ece484602e797988789d358ba1011fbbe40bdd3b47310f9d46373 1750 python-gitdb_4.0.12-1.dsc 5ef71f855d191a3326fcfbc0d5da835f26b13fbcba60c32c21091c349ffdb571 394684 python-gitdb_4.0.12.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "732be71359ff33cbfbdebbc95a123ae5ee516622d6cfc6598d25ed554c7c8f62dca131e5c711564ba58497631cc01095f2f9ad5414973e14dfeea0e234886f5e 3964 python-gitdb_4.0.9-2.debian.tar.xz d530e5eb3b3bab7bfe76b6cc9e6bf7b42d8554f3c287d830e2152939983dc89b40ba163ab53d9bbc36a84f3804182a8e156fa6722cbf4c78facdfccd6671f204 2086 python-gitdb_4.0.9-2.dsc 174b90e09b65ba38d3404fd79a8963987ab49a5e2b96ce82057b519861e8312342c425ff10849c865f66e6e88c27d651d8902a6f8abea88f9f33161f44974109 394670 python-gitdb_4.0.9.orig.tar.gz"
+    "aa149fb93a4e94e8dec6d5a5e91409c11a03dc4fb3c6eb25b872a1397d03d04f78b35613b44f7da03a065202371ddea88e1e04d84a58fdc0173999434a0f38ba 4064 python-gitdb_4.0.12-1.debian.tar.xz 8ce2b2494de3b13b094000c7149c4dca53514451cbcae3c25545246d9d47dd5941bfaeefd0551f1c102d3eb8b9cf7a7ef4b266e52e96667f0ded1bb33a7b0466 1750 python-gitdb_4.0.12-1.dsc 10891c05dd238094b6b62ff0346529af98c1110eabc3c26992afb6cd767b938291a1e1ff6dc2c33423cbcf11c0a8daf0718232a20522c06a40fb5113a64a7b6a 394684 python-gitdb_4.0.12.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-gitdb"
   ],
   "Files": [
-    "30190e8caf91021bc156aa85b9f14e01 3964 python-gitdb_4.0.9-2.debian.tar.xz bc7f9de2cdaa7fbebe836ae8e16f987d 2086 python-gitdb_4.0.9-2.dsc f0664b7b791c2601dfa16004bb49a080 394670 python-gitdb_4.0.9.orig.tar.gz"
+    "03d24d63705c5496026e2df1ccc8a410 4064 python-gitdb_4.0.12-1.debian.tar.xz 83ec332586cc3b03c34bb4021e66e104 1750 python-gitdb_4.0.12-1.dsc 13bf7fcb906ead5236d1edc6e6656924 394684 python-gitdb_4.0.12.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python3-gitdb deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-python"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/python-gitdb.git"
   ],
   "Version": [
-    "4.0.9-2"
+    "4.0.12-1"
   ]
 }

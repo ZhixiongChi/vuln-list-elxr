@@ -6,22 +6,22 @@
     "distro-info, libdistro-info-perl, python3-distro-info"
   ],
   "Build-Depends": [
-    "black \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-python3, distro-info-data (\u003e= 0.58+deb12u1~) \u003c!nocheck\u003e, isort \u003c!nocheck\u003e, mypy [!i386] \u003c!nocheck\u003e, pylint (\u003e= 2.2.2-2~) \u003c!nocheck\u003e, python3-all, python3-flake8 \u003c!nocheck\u003e, python3-setuptools, python3-typeshed \u003c!nocheck\u003e, shunit2 \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-python3, distro-info-data (\u003e= 0.59~) \u003c!nocheck\u003e, mypy [!i386] \u003c!nocheck\u003e, pylint (\u003e= 3.3.0) \u003c!nocheck\u003e, python3-all, python3-flake8 \u003c!nocheck\u003e, python3-setuptools, python3-typeshed \u003c!nocheck\u003e, shunit2 \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "c808c1a58713c2e4d3ad94d6f62b2a33ffb82c6e 1579 distro-info_1.5+deb12u1.dsc 28ac356b6afd864b2c65bf02969baa5c772bd107 32900 distro-info_1.5+deb12u1.tar.xz"
+    "46a01030b8ec4651eb7d2ab0b5588a15f66a534a 1501 distro-info_1.13.dsc 77327e983acd57539b8c175c5fce40675cb7a347 34200 distro-info_1.13.tar.xz"
   ],
   "Checksums-Sha256": [
-    "e74dfd753b44d87c14ff7380a9a4a133211ee1c21632e3d18e5b9b2a58c2540a 1579 distro-info_1.5+deb12u1.dsc 621b899e7dc07a72802dc87fab6de1632b80703a1b56d7e6eced4a921a171272 32900 distro-info_1.5+deb12u1.tar.xz"
+    "f91ab7c9be1ee5c62a3063d80f8c9076cda517de3956f3a53599c3be096a1519 1501 distro-info_1.13.dsc 36877429d91c29c15ace86db3a24ff6d9f6041d72b7ec11d4d3bd09abc763d33 34200 distro-info_1.13.tar.xz"
   ],
   "Checksums-Sha512": [
-    "60bc87bcbe41df78d2d0df3c798b9138be87b05ea9c633298aa0d300930d11f72a80aa6983d29b5e8d5261ec7c03d3a5fb4c771f078dc5725e23ca2c7a3c4685 1579 distro-info_1.5+deb12u1.dsc c582c8fc3ce2578f7bdb78ba4fc701602f328d32acb366db3c8659739748dda0749a02f17e9063ac5251cd1e6609d6c85cadeb588ca3dc7a0fa45e89ce3bed66 32900 distro-info_1.5+deb12u1.tar.xz"
+    "ff342acf901d56d4d3e336b5c4e6c799c7fcbcc85d873d2d876dcd4db1db7d7a4dc3ff7527f87ea130579f4db8a340319c992b3746ca692985bf5dc5e9d778ac 1501 distro-info_1.13.dsc e721ebeab8a2982ab4356aa90e76277ef2b7f6d55e20ca2526184e7ea1dae2ed4b588f2cdd347e98abd684155192baab79a29333ca90ebad2cf4eac5e529d0df 34200 distro-info_1.13.tar.xz"
   ],
   "Directory": [
     "pool/main/d/distro-info"
   ],
   "Files": [
-    "cc43b54c2b7d787bbbefdf1e7a1bbac7 1579 distro-info_1.5+deb12u1.dsc ed17fc3440d939d229bcdf49662a38c1 32900 distro-info_1.5+deb12u1.tar.xz"
+    "42ab4f50f22a972bd5dcebf9757855f0 1501 distro-info_1.13.dsc e98f1a63bda4e58dd79e52d50615f3a9 34200 distro-info_1.13.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -36,13 +36,13 @@
     "distro-info deb devel optional arch=any libdistro-info-perl deb perl optional arch=all python3-distro-info deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "black, isort, mypy, pylint, pylint3, python3-all, python3-flake8, python3-typeshed, shunit2"
+    "mypy, pylint, python3-all, python3-flake8, python3-setuptools, python3-typeshed, shunit2"
   ],
   "Uploaders": [
     "Stefano Rivera \u003cstefanor@debian.org\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/distro-info.git"
   ],
   "Version": [
-    "1.5+deb12u1"
+    "1.13"
   ]
 }

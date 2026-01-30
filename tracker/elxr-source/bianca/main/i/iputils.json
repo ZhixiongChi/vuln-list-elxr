@@ -6,22 +6,22 @@
     "iputils-ping, iputils-tracepath, iputils-arping, iputils-clockdiff"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), xsltproc, docbook-xsl, docbook-xsl-ns, libcap-dev, iproute2, libgcrypt-dev, libidn2-dev, bash (\u003e= 3), meson, pkg-config"
+    "debhelper-compat (= 13), xsltproc, docbook-xsl, docbook-xsl-ns, libcap-dev, iproute2, libidn2-dev, bash (\u003e= 3), meson, pkgconf"
   ],
   "Checksums-Sha1": [
-    "103b20ca7d2a02839c2d2c792ac2407dffa58086 11876 iputils_20221126-1+deb12u1.debian.tar.xz 3bcdb0bd309db9b0eeb34cfa13bdffed0768b56a 2211 iputils_20221126-1+deb12u1.dsc 1d4f51cbd4cf56c307236a0af04b4e31c1acf4e8 431024 iputils_20221126.orig.tar.xz"
+    "d9aa0c3e0b84f78689bc875a6fcc0ca8ce38e117 10580 iputils_20240905-3.debian.tar.xz 144df8804d2e751bc8c252576dd332dfafd5ba7c 2159 iputils_20240905-3.dsc bccf1a4502e00402eddf732694a9ef1d334188d8 450500 iputils_20240905.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "028568563e037c0a5631c63dfe04e5a2649bbbb867b36bd772aa0290b3e1cab8 11876 iputils_20221126-1+deb12u1.debian.tar.xz 570f4053315d3c5dcaed6d0902dc9302581c29023eea805dc92bc34199192f07 2211 iputils_20221126-1+deb12u1.dsc 250f361352dcd6ae0cb21fc4589381c6202084ddceee4691a899cae4360253d1 431024 iputils_20221126.orig.tar.xz"
+    "5a793bde24830b931355e5c4b341a2fbc580e34426797806f0721e4bb0cb6ce0 10580 iputils_20240905-3.debian.tar.xz afc7bbd48f2f949553bdfdaf2a802e1301ee7fe9b7033176533bdd8a3d4bc9d8 2159 iputils_20240905-3.dsc f62c2f2d9ae273bf8af9ed8fd488ecd5f7385109ed3b02bc8f525f21e89c78ec 450500 iputils_20240905.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "82f2b343e0f82f9a5aa638e9e51e7b2f06e125d0e3c96b9563c46c155c7b887f42811b7bac91f2a5e8292d3605bcb0b12d52184d84c24904fe8634c3ca2ad2b9 11876 iputils_20221126-1+deb12u1.debian.tar.xz a12840c0f3fc08eb309f55c4c92caf066e62ffe863a123c74a67e4020586a8377cee4d4728ad52fce69a8dfc1f14a61fdf14c027f40ec985379d102cdae635ca 2211 iputils_20221126-1+deb12u1.dsc f77d389048e876f7e628bd6e2127fcc08fa45b59cfb41971175662660fb9aa906efc00976c66bd74812be6fbd68677caf3b1879063ecb8339edd1086d91d577a 431024 iputils_20221126.orig.tar.xz"
+    "be91ef87037c1a89d95e94d639ed8bcbe7e2a01ba7aa3bda8a8588354d37d120bac09d91c4e11a83684bb19e28c7301e49c3acc11b4d8d735c6b767a1632a168 10580 iputils_20240905-3.debian.tar.xz 92a28c0bc7923690cc4466bd17acad155262e937f165ff8208823ce37315d062911ce75cfa7a24dee920c91e0f7eb15f3f0328cdda028db8212a7a9cb34bd8ff 2159 iputils_20240905-3.dsc 7e5aa4259f682c715dfb8c6bdc8e73407519bdc494b3a3eb6cb02f2a09c84ccf804ef3c250a78d79288eaab49bc0ee4138cb5210ca0687c7450c3f29248f6300 450500 iputils_20240905.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/i/iputils"
   ],
   "Files": [
-    "0cfd32fd5301f58e0972c3a0b1d6ecb1 11876 iputils_20221126-1+deb12u1.debian.tar.xz a3b03dab762eb7a8e2c698db2cfb6a77 2211 iputils_20221126-1+deb12u1.dsc f1c634fd7122a35db48c2db456fa29df 431024 iputils_20221126.orig.tar.xz"
+    "e35509d23e2236005e22a78eab63dc74 10580 iputils_20240905-3.debian.tar.xz d09af7ae839b2e214a78ebfb07aa377d 2159 iputils_20240905-3.dsc 1fac482252835a0647e66831eccf4454 450500 iputils_20240905.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -41,6 +41,9 @@
   "Standards-Version": [
     "4.5.0"
   ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/iputils"
   ],
@@ -48,6 +51,6 @@
     "https://salsa.debian.org/debian/iputils.git"
   ],
   "Version": [
-    "3:20221126-1+deb12u1"
+    "3:20240905-3"
   ]
 }

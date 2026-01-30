@@ -6,25 +6,25 @@
     "gnome-user-docs"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gnome"
+    "debhelper-compat (= 13)"
   ],
   "Build-Depends-Indep": [
-    "yelp-tools, pkg-config"
+    "pkgconf, yelp-tools"
   ],
   "Checksums-Sha1": [
-    "ae185060b72060a59cfac8aeab67ca0f3a08defd 15128 gnome-user-docs_43.0-2.debian.tar.xz 99ea26a323eee8b9ae854264b960b4e0aad150ca 1818 gnome-user-docs_43.0-2.dsc 01de2b9be25bf213b3635c01c5cd0ddf695b719e 11303880 gnome-user-docs_43.0.orig.tar.xz"
+    "6534e4b75db6a8f9a03bb2e4a9c0d58c61a2998f 13224 gnome-user-docs_48.2-1.debian.tar.xz 7c9573c1e029c8fab47dad85ba8559bea5f382de 2142 gnome-user-docs_48.2-1.dsc 011052c5cfaedf9f36453a658af4adc92598107e 15524440 gnome-user-docs_48.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "f8d03a4ddb9321a81e022b669ebc5c8cd594270534859485af6699fa9d18e50c 15128 gnome-user-docs_43.0-2.debian.tar.xz a418dfef143aac02486434fb0340abf09ba804f0a42e712fa186ba863bf2c536 1818 gnome-user-docs_43.0-2.dsc 3607160effd6f91e25a8798b57defb2099dd70b8fee4e7e2f20f2637ac28caee 11303880 gnome-user-docs_43.0.orig.tar.xz"
+    "f2373db247c1a882a8650ae56b44460ae11ed5f7071022cc086042cc08fcc183 13224 gnome-user-docs_48.2-1.debian.tar.xz c1dcdfaa3c2a47f2a5f2dd6a9820a1f3e5824b29e1f874413fd560ade7ca4601 2142 gnome-user-docs_48.2-1.dsc 67829f764ba672d7f99ff72ef6513b40cc931fb401bf7bd7db5f805e7bfa3db9 15524440 gnome-user-docs_48.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "e99697b89a0afbb0f64150f15ec23f33f390cfea24f81dbe342c9f35e7391f41f4751cd2f3f9ba109ac2667c0b9152fecff03e64162f3abd1a3295057cc3d3c9 15128 gnome-user-docs_43.0-2.debian.tar.xz 0c813530baf05598a6a6583ec9768df5aa5f518eef7b972f42b99237926b61e5ad4d1e33950c6b8c04306f10625ff97e96ac2a1c38fdd5dd3426075e93665a7f 1818 gnome-user-docs_43.0-2.dsc cf14edc34049d8e770f31e34b722a3309009fac64f3ac159cdf2baaebf7bd70ea8f0c592b398c9f0e21e11c7ac10d91a97a0079376da07dd1d433c2d3703eeef 11303880 gnome-user-docs_43.0.orig.tar.xz"
+    "51560827c7b7d7aff0a28b464681cd99ba77e77e23a44ace3f2cbb9207082bdd9413dc0869c56f2dea7a7ac3f79b54af4503a4ab699f489313bd86454d9c8abd 13224 gnome-user-docs_48.2-1.debian.tar.xz 30b56c7e5e29f527b82e166f51c8f2debd30e7ac91fbbce15e56fa1047133bc0eab007c103f36aae374a29949796ac34537af473575cc0cc475787b81c4d5d46 2142 gnome-user-docs_48.2-1.dsc 2b755df5a78c6f4c8d00872967242f2bc584cc8d6510c008df748a25c776eeeabda2376cbb206be6d7229e97d1e0c91429e223012ada37de2c6555908f0c70de 15524440 gnome-user-docs_48.2.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gnome-user-docs"
   ],
   "Files": [
-    "a57693b8fbac598524ca4d26884585f4 15128 gnome-user-docs_43.0-2.debian.tar.xz a4a3026314fd729e9dda8e484c7ec4f0 1818 gnome-user-docs_43.0-2.dsc 3b243f8c4d4529c127a9ad0c7981a1df 11303880 gnome-user-docs_43.0.orig.tar.xz"
+    "6fd1ce5b0960a91f48b3cc9bc142325e 13224 gnome-user-docs_48.2-1.debian.tar.xz 3c8a4bec54353d7869e9ce881395b9e5 2142 gnome-user-docs_48.2-1.dsc 421574d10cadf53db1daed7f7082248f 15524440 gnome-user-docs_48.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,10 +42,10 @@
     "gnome-user-docs deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Gunnar Hjalmarsson \u003cgunnarhj@debian.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
+    "Gunnar Hjalmarsson \u003cgunnarhj@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/gnome-user-docs"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/gnome-team/gnome-user-docs.git"
   ],
   "Version": [
-    "43.0-2"
+    "48.2-1"
   ]
 }

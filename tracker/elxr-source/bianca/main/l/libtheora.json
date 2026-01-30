@@ -3,28 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "libtheora-bin, libtheora-dev, libtheora-doc, libtheora0"
+    "libtheora-bin, libtheora-dev, libtheora-doc, libtheora0, libtheoraenc1, libtheoradec1"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), doxygen, libcairo2-dev, libogg-dev, libpng-dev, libsdl1.2-dev, libvorbis-dev, pkg-config"
+    "debhelper-compat (= 13), doxygen, libcairo2-dev, libogg-dev, libpng-dev, libsdl1.2-dev \u003c!pkg.libtheora.nosdl\u003e, libvorbis-dev, pkgconf"
   ],
   "Build-Depends-Indep": [
     "ghostscript, texlive-latex-base, texlive-latex-extra, texlive-latex-recommended, transfig"
   ],
   "Checksums-Sha1": [
-    "2ea0f8711f471a4a5223046ecf5282ebf73dc16d 13136 libtheora_1.1.1+dfsg.1-16.1+deb12u1.debian.tar.xz b420db25b8732062983c3f6bba31f4341e59f8c8 2572 libtheora_1.1.1+dfsg.1-16.1+deb12u1.dsc ffe1907484d092bd30cd34fe243173040c4d12ce 2100495 libtheora_1.1.1+dfsg.1.orig.tar.gz"
+    "29f4bed5e295fe88ca1354b0875671559e8aa5dc 13448 libtheora_1.2.0~alpha1+dfsg-6.debian.tar.xz 47b36f231fb8c206d503c7314a34328754684967 2726 libtheora_1.2.0~alpha1+dfsg-6.dsc 8e383717ead04cac010e2d005fb688599a2cafe9 1390776 libtheora_1.2.0~alpha1+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "74c94d998a9041aaf457105f4fbc45b57644b21542c0136127da8d2e940c6e76 13136 libtheora_1.1.1+dfsg.1-16.1+deb12u1.debian.tar.xz 392b9f1671608285ee7c2f3a029d4a2f946bd8ffc2c36d416ba844a51377bc9f 2572 libtheora_1.1.1+dfsg.1-16.1+deb12u1.dsc c59b0f07a7314dfe2ade15c41bc9f637f8a450fc6b340af61b81760629f28f90 2100495 libtheora_1.1.1+dfsg.1.orig.tar.gz"
+    "37f7c87dd56059bfe6ed89737476492ccbcc99a9d04b17dd8a275f33e6e469fe 13448 libtheora_1.2.0~alpha1+dfsg-6.debian.tar.xz 86ad6c534984f746de4abccbcc0cf762afbab8848298899bd523d9df100c13a4 2726 libtheora_1.2.0~alpha1+dfsg-6.dsc 590e2b7803ff6b773e50d054113967082719eaab9355b183f18f8b3642933606 1390776 libtheora_1.2.0~alpha1+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "5f95767e9c58b92a2adb7337a7252af07c8cee5e6db31b1fbfc92f1e12c283f1fa9d0087f1e706f0469ac1b50dc5ca2473490bd76ce88478a0798a8bad4173dc 13136 libtheora_1.1.1+dfsg.1-16.1+deb12u1.debian.tar.xz 1daf92f0549d93f218e89d7ae5e2d7fff9a5dd90ccc71a1825d4044d443da7c9b09189389491a977869e073670ff536e9932a65ae471811313ce7cce6a9c8911 2572 libtheora_1.1.1+dfsg.1-16.1+deb12u1.dsc dca7a0504baed32a84e71e6b035946d43ac8ad3d008b3651a1e0616998bdba9c627e6d46afbe306eb9c7b044293b46b370c5b1b3a8715865cd0edf6d955bef3d 2100495 libtheora_1.1.1+dfsg.1.orig.tar.gz"
+    "95c4c1997453a7863efd76109da8867c667f1f7ef8094e00afc927ec6cf919ba18389c7c9b4b9b1780243cc70887b31d86627bdf326bf14ea1360e7eaa85f99c 13448 libtheora_1.2.0~alpha1+dfsg-6.debian.tar.xz 9f8165fbe12e3766ae898a4a0b6fe5408a140eb8498df4abe420e9d0e3353c9c7963d747ef328b6c523be5df29b24db8ecac17288bb4e76541d2a715f48afc6e 2726 libtheora_1.2.0~alpha1+dfsg-6.dsc 3abd8896fd8df12adf306a1edc26ce5f564bb7421fb1e16bb52dfa67219c3862cade2a65f8e993e3cdcd7144664aa211280651cb9ba5cfaf19d302e129d5f6b8 1390776 libtheora_1.2.0~alpha1+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libt/libtheora"
   ],
   "Files": [
-    "d4fa041c69230fb2daf9a3f25cfe9089 13136 libtheora_1.1.1+dfsg.1-16.1+deb12u1.debian.tar.xz eae30b1b468dfc1ee425f211a951d27d 2572 libtheora_1.1.1+dfsg.1-16.1+deb12u1.dsc 3f2432bffe618edaa8c6c2b074f690bc 2100495 libtheora_1.1.1+dfsg.1.orig.tar.gz"
+    "ce08fe94477227a6e963c5a82eaee37b 13448 libtheora_1.2.0~alpha1+dfsg-6.debian.tar.xz ede9582fcf80fc448711145be2139b1a 2726 libtheora_1.2.0~alpha1+dfsg-6.dsc 49531275bae2b91a3c67b45d9b1d7232 1390776 libtheora_1.2.0~alpha1+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "libtheora"
   ],
   "Package-List": [
-    "libtheora-bin deb utils optional arch=any libtheora-dev deb libdevel optional arch=any libtheora-doc deb doc optional arch=all libtheora0 deb libs optional arch=any"
+    "libtheora-bin deb utils optional arch=any profile=!pkg.libtheora.nosdl libtheora-dev deb libdevel optional arch=any libtheora-doc deb doc optional arch=all libtheora0 deb libs optional arch=any libtheoradec1 deb libs optional arch=any libtheoraenc1 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/multimedia-team/libtheora.git"
   ],
   "Version": [
-    "1.1.1+dfsg.1-16.1+deb12u1"
+    "1.2.0~alpha1+dfsg-6"
   ]
 }

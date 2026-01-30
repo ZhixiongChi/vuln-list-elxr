@@ -6,22 +6,22 @@
     "libvolume-key1, libvolume-key-dev, volume-key, python3-volume-key"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, libglib2.0-dev, libcryptsetup-dev, libnss3-dev, libgpgme11-dev, libblkid-dev, swig, libnss3-tools, python3-dev"
+    "debhelper-compat (= 13), dh-sequence-python3, libglib2.0-dev, libcryptsetup-dev, libnss3-dev, libgpgme11-dev, libblkid-dev, swig, libnss3-tools, libpython3-dev, python3-dev:any, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "49a36f8c7a8a5750548b6dab056d857a0878a0e0 5768 volume-key_0.3.12-5.debian.tar.xz c5bbe2c6d701d327ff80eb801a59cc21e7d1f7e3 2296 volume-key_0.3.12-5.dsc c983123b3b7f36819d26c7421a290657a02534b7 490432 volume-key_0.3.12.orig.tar.xz"
+    "da38a29b3e1b16787451bca8a3b055e94904788b 6380 volume-key_0.3.12-9.debian.tar.xz 173906e97688613f17c52ea985eb68b1cd6ba762 2336 volume-key_0.3.12-9.dsc c983123b3b7f36819d26c7421a290657a02534b7 490432 volume-key_0.3.12.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "3de8c2753831d9cf34370efecce824356f3ec892021e83ac84dbb00240de6955 5768 volume-key_0.3.12-5.debian.tar.xz e604f8f98498babff3f9b7950721d62d5ce336cefdf9c9b482f6927c1c6ed82f 2296 volume-key_0.3.12-5.dsc 6ca3748fc1dad22c450bbf6601d4e706cb11c5e662d11bb4aeb473a9cd77309b 490432 volume-key_0.3.12.orig.tar.xz"
+    "caaf63dde79172b3bec09c17cefee94520647d3ed587e626ffcf75f054c089e1 6380 volume-key_0.3.12-9.debian.tar.xz 7043a3679238b9b0bce31cffb1b9c59a4ee4c823978a7e3cfe24c4bb65f6cf9f 2336 volume-key_0.3.12-9.dsc 6ca3748fc1dad22c450bbf6601d4e706cb11c5e662d11bb4aeb473a9cd77309b 490432 volume-key_0.3.12.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "60be83df0e789e8b5062ac2d20f63e85b10f9a2dd620af473d1c29b5db155d8a8995708591e6347d85b170a5ca2ec8ed9d3c168683b58f81ddf745f554b65130 5768 volume-key_0.3.12-5.debian.tar.xz ad4399cd766a86da1d03f2a1649ab87be03ee864e11bb69f724859ebde9b81d22acc99419384d79e09c31ed246d0bfd48631d33f6f178558b68fb50d70995108 2296 volume-key_0.3.12-5.dsc d056154c9b9d23e4eb661946dd59ed97e116903a3afcff9d9e29258408082f33dcbb69958724143f6bf191a3da488a03b6c02af287790990ed6459e29d66553c 490432 volume-key_0.3.12.orig.tar.xz"
+    "a3b1afc4c07b3bdfa9b02d28f058e124901fda8cdb8730005bcc9cac1d4fd51576370d1c46320293b6d8beb03453e641dac4b46b8869ecaa8a1d753b923639f5 6380 volume-key_0.3.12-9.debian.tar.xz b484e240666486ef938559c30d482e99af84354ac9a2cffef260d8d4a88436f7288f1ba242bed45879b66d2fac1b1514730856d0fbec034a40f0cea20bbc5502 2336 volume-key_0.3.12-9.dsc d056154c9b9d23e4eb661946dd59ed97e116903a3afcff9d9e29258408082f33dcbb69958724143f6bf191a3da488a03b6c02af287790990ed6459e29d66553c 490432 volume-key_0.3.12.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/v/volume-key"
   ],
   "Files": [
-    "235359863f29e1e8a8a3b73251d09101 5768 volume-key_0.3.12-5.debian.tar.xz bdf05a0b0a1d4ded1b6f3624dbaa12c5 2296 volume-key_0.3.12-5.dsc 200591290173c3ea71528411838f9080 490432 volume-key_0.3.12.orig.tar.xz"
+    "6ea9a1eef451cbd8c33a7082099785e3 6380 volume-key_0.3.12-9.debian.tar.xz f038fdb37839cdf8b2a8718ada9b17fc 2336 volume-key_0.3.12-9.dsc 200591290173c3ea71528411838f9080 490432 volume-key_0.3.12.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libvolume-key-dev deb libdevel optional arch=linux-any libvolume-key1 deb libs optional arch=linux-any python3-volume-key deb python optional arch=linux-any volume-key deb utils optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Uploaders": [
     "Martin Pitt \u003cmpitt@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/utopia-team/volume-key.git"
   ],
   "Version": [
-    "0.3.12-5"
+    "0.3.12-9"
   ]
 }

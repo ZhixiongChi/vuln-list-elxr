@@ -6,25 +6,28 @@
     "libcloudproviders0, gir1.2-cloudproviders-0.3.0, libcloudproviders-dev, libcloudproviders-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gtk-doc-tools, libgirepository1.0-dev, libglib2.0-dev (\u003e= 2.52.0), meson (\u003e= 0.42.0), valac"
+    "debhelper-compat (= 13), dh-sequence-gir, gir1.2-gio-2.0-dev, gtk-doc-tools, libgirepository1.0-dev, libglib2.0-dev, meson, valac"
   ],
   "Checksums-Sha1": [
-    "cc3c22dbeefde9000ef2eb1f6f0d92051b374919 3476 libcloudproviders_0.3.1-2.debian.tar.xz 0765d55828599162e2de8ab73a51acc071edf293 2359 libcloudproviders_0.3.1-2.dsc cb2747dfadee719372044fd007644b38d18557cb 22442 libcloudproviders_0.3.1.orig.tar.bz2"
+    "43a573e4ffb6ea87bca51f37f9b84fa749297353 3768 libcloudproviders_0.3.6-2.debian.tar.xz 1f75c1d303e7b8636fc37a73142c12fc13afa76e 2446 libcloudproviders_0.3.6-2.dsc 4ecc6e5b295bda2e5b8619220ee82dcb54970f60 23844 libcloudproviders_0.3.6.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "89586f1caae7477257671429844701ceb6e77eaf2fe81627275dea6d5dd2b632 3476 libcloudproviders_0.3.1-2.debian.tar.xz b85f4e18398bda9942f4cc8b12b09ea553737aaa7234ca228797c9d285572f5e 2359 libcloudproviders_0.3.1-2.dsc de4aa746c1695f30fcd3b52a4a6ee149ce567a2f7e185499bf2963f77dd1bad0 22442 libcloudproviders_0.3.1.orig.tar.bz2"
+    "f3821f81fe3e6d54e4976dac0d6dca24cdcdbd75d4fafdc553c160ce153e2c9f 3768 libcloudproviders_0.3.6-2.debian.tar.xz 9bab8e9df330301a0ecb696a6f5dcf21d5613a8855928d19c3e3730f095f537f 2446 libcloudproviders_0.3.6-2.dsc 3b75110b3a4fdef4c5c5a440e48701fe054d2ae061d156c89136bb5ba05e74b7 23844 libcloudproviders_0.3.6.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "ddfd170a5e5dc3b1d713997c9998a5bf0ccdb799666e180d45f5ffb51c0c95d58ddc95091dbb9eabddac93f2c2f2b953add3181cae9149ff74f2ad91aaac92d4 3476 libcloudproviders_0.3.1-2.debian.tar.xz 081138f7f6602c93be5d22583817fe2f58aac94b5a40d4bac5a56e2ef1d266601cc794c61b7ae94788dbb319bc059fe9d5ded28e16ddfa76c26eeeb586e060c5 2359 libcloudproviders_0.3.1-2.dsc 5983c715b91dd1e6eac5d703adfaa2826e2bc8beb7742947adec8445d765135674666478ef9758c3604989a1c9c78bc25d201f19351dabee040b83d68c08f90f 22442 libcloudproviders_0.3.1.orig.tar.bz2"
+    "ad2d109dfaa12119a4cfaa4f6cd359ffeabbc2831250b4eb64cbe56d3c075ba1c53392bae34a30987d2bf73d1a2512127d1ffa7b264f375b6d8f8055a18d2376 3768 libcloudproviders_0.3.6-2.debian.tar.xz 56a54696aa91d7feef034516d6bf5c277ff872972aaf402b9681e99ba9412ccf58f5a41f78ce1acb61fe4cf98667481d56ea06f16e9e9784afc207c0fefe5618 2446 libcloudproviders_0.3.6-2.dsc 4ffd9c6202a608128dce2542a29910a87910d46df57dd19e6dfe70e80001b27d2bc5d90a37cb9036ac60a317edc5c1be9d5fd8adb215500c34a07e23064a293f 23844 libcloudproviders_0.3.6.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libc/libcloudproviders"
   ],
   "Files": [
-    "6f829e249b0f6bdeeb8e8dc396d36d8f 3476 libcloudproviders_0.3.1-2.debian.tar.xz f0a323c8f7dfcfae4266c7558a697db7 2359 libcloudproviders_0.3.1-2.dsc d037cc4124849c726b9237d2289a6123 22442 libcloudproviders_0.3.1.orig.tar.bz2"
+    "8c491b2f9fff4e956f59d60746dffb1f 3768 libcloudproviders_0.3.6-2.debian.tar.xz 3e06ce79ce553bd88332c55ffda024af 2446 libcloudproviders_0.3.6-2.dsc f0f994bdc36fdfe9b31e3655b8071599 23844 libcloudproviders_0.3.6.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gnome.pages.gitlab.gnome.org/libcloudproviders/"
   ],
   "Maintainer": [
     "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
@@ -36,10 +39,10 @@
     "gir1.2-cloudproviders-0.3.0 deb introspection optional arch=any libcloudproviders-dev deb libdevel optional arch=any libcloudproviders-doc deb doc optional arch=all profile=!nodoc libcloudproviders0 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.4.0"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Jeremy Bicha \u003cjbicha@debian.org\u003e"
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/libcloudproviders"
@@ -48,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/libcloudproviders.git"
   ],
   "Version": [
-    "0.3.1-2"
+    "0.3.6-2"
   ]
 }

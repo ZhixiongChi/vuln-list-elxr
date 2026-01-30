@@ -9,22 +9,25 @@
     "debhelper-compat (= 13)"
   ],
   "Build-Depends-Indep": [
-    "libdata-section-perl, libtext-template-perl, libtry-tiny-perl, perl"
+    "libdata-section-perl \u003c!nocheck\u003e, libtext-template-perl \u003c!nocheck\u003e, libtry-tiny-perl \u003c!nocheck\u003e, perl"
   ],
   "Checksums-Sha1": [
-    "17b8dccb1e495565e88c25052a436d2461bee8df 4916 libsoftware-license-perl_0.104002-1.debian.tar.xz c5e551469284c0c6ba477d1716eb46dd479fd9e0 2417 libsoftware-license-perl_0.104002-1.dsc 034bb62e571f10517cc59fba4d7e57cd6b868ea9 124913 libsoftware-license-perl_0.104002.orig.tar.gz"
+    "9d9ec73442b37df018a3d0b763035ba1a93f0bb3 5244 libsoftware-license-perl_0.104006-1.debian.tar.xz 3c38bb87411e2a9f02a77f3861271ec5cce959bd 2713 libsoftware-license-perl_0.104006-1.dsc 3b0b15556b3d478f3676f90673c10a8fd00733d4 127309 libsoftware-license-perl_0.104006.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "9bed9191e1473bd32ee5068333173372118c81d6c3824d7d3ca95626c1ca67a4 4916 libsoftware-license-perl_0.104002-1.debian.tar.xz 88acac7256c0c3c971cfbd00b7226e65685785ec12f78b862bb898e911bd1e48 2417 libsoftware-license-perl_0.104002-1.dsc a50c257995b2dc75acbe24b091b95a3144aa61188fef8baa84e29d4064cafd0f 124913 libsoftware-license-perl_0.104002.orig.tar.gz"
+    "4ef64260413a6d9d9c8e70278d9b5ef45ededb4682cf77c7772b30a88befd09c 5244 libsoftware-license-perl_0.104006-1.debian.tar.xz 211a37fb9cfbeb91cfe93644a47f365c64228898e0ea5c6bba3cee8181610e11 2713 libsoftware-license-perl_0.104006-1.dsc 65c8ee1c2da2a4de10139863df668fa6b3b3e24a39d69a7cca39f284fb6b9c0f 127309 libsoftware-license-perl_0.104006.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "5a79f25522a34acf322899a854d11219fa4f860abab00d4f0a2f5d35dfc7d24fd7e6a68546fd11fd76ab9c4faa05a5af5b08dfcc39e425de22effe7ca7663253 4916 libsoftware-license-perl_0.104002-1.debian.tar.xz b5e3633c0649386c562d3f2ec8cd1084178519d2cd31d2246e74ebea31544a7861fb9b517e512262c4168a86cf9149d197e53da9f0a6a196e7adfa99c4d9f04c 2417 libsoftware-license-perl_0.104002-1.dsc 80303349f1d1febfb61322d106587880e0191500229110eebf1b8fb6653dc212720a29c60d9575bd4bb077b83755592303dc4205df276193d8fa0252f21e01aa 124913 libsoftware-license-perl_0.104002.orig.tar.gz"
+    "119ac12b97175d7fc1e2990c0ed665f474b93176acd1ed7a43e432108eb93bc2b37d5d7a6422c5155af75fbc15a8beecd12a149f17540b53f7426eeefd0eab40 5244 libsoftware-license-perl_0.104006-1.debian.tar.xz cbf9bd3669eacabb576427eff8065ac02d697324960b4cc1700d5eca0f572800b26ba4536ccb1ebcf310091dc251c774a0c965c91f9001183e305aba65270509 2713 libsoftware-license-perl_0.104006-1.dsc 48fbfc5419a978b645c822d529f94c54a49ba65502165cfcc4ee6a6b48ea59eff981e5f64b9a9109007c389897789a9b9651f980b8b2ebd07180310da2e720bb 127309 libsoftware-license-perl_0.104006.orig.tar.gz"
+  ],
+  "Dgit": [
+    "e826f77b10d0f95b440b18834c23ada28a955f6e debian archive/debian/0.104006-1 https://git.dgit.debian.org/libsoftware-license-perl"
   ],
   "Directory": [
     "pool/main/libs/libsoftware-license-perl"
   ],
   "Files": [
-    "126d86ba0b2f264302e886b6920b8067 4916 libsoftware-license-perl_0.104002-1.debian.tar.xz e8e74f0b4cd89aa7958cf3b98904697f 2417 libsoftware-license-perl_0.104002-1.dsc 80b99d810ccaede171bcad323471b2a2 124913 libsoftware-license-perl_0.104002.orig.tar.gz"
+    "d5e7918321d72804ed4bc14627c0e576 5244 libsoftware-license-perl_0.104006-1.debian.tar.xz 5e90813a4ef86b4fe234e51a1e73ebc5 2713 libsoftware-license-perl_0.104006-1.dsc d196263b4ecad953c94fed5af755a139 127309 libsoftware-license-perl_0.104006.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +45,7 @@
     "libsoftware-license-perl deb perl optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libsoftware-license-perl.git"
   ],
   "Version": [
-    "0.104002-1"
+    "0.104006-1"
   ]
 }

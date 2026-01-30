@@ -6,28 +6,37 @@
     "debianutils"
   ],
   "Build-Depends": [
-    "dpkg (\u003e= 1.19.0.3~)"
+    "debhelper-compat (= 13), po4a"
   ],
   "Checksums-Sha1": [
-    "769e1bc1e8f84e9bf609206b27e4d5f9e737719b 23108 debianutils_5.7-0.5~deb12u1.debian.tar.xz c9548f5807bcc1c76841edc0202fd5e291455775 1944 debianutils_5.7-0.5~deb12u1.dsc de1860b7874d5e2f0635a08b8ab2d31e7ca50be4 257231 debianutils_5.7.orig.tar.gz"
+    "617a03e001015cdb7651df4ddbf5b22d0f716271 1908 debianutils_5.23.2.dsc 7432fd03bb106c03e2c6e34ffc042a5f83ae7652 82376 debianutils_5.23.2.tar.xz"
   ],
   "Checksums-Sha256": [
-    "977c601503f76eda4da17db9a1ba6f2c26484b106aaa64dbe3649cc6978b3edb 23108 debianutils_5.7-0.5~deb12u1.debian.tar.xz b4340ffd82994d910f625236183d732a7407876cba127d4c824ea82db8ccb400 1944 debianutils_5.7-0.5~deb12u1.dsc 27ec9e0e7e44dc8ab611aa576330471bacb07e4491ffecf0d3aa6909c92f9022 257231 debianutils_5.7.orig.tar.gz"
+    "471b65deec232bb033f3e3e06d5bf64dac0ced474c6fd61d41538f3f3de876f8 1908 debianutils_5.23.2.dsc 79e524b7526dba2ec5c409d0ee52ebec135815cf5b2907375d444122e0594b69 82376 debianutils_5.23.2.tar.xz"
   ],
   "Checksums-Sha512": [
-    "e6df6e290b7fb337dff2d4b5a3cd3a1335a0cac1262eaeec6a0170fe79657fd1b6789e6524dd67202cfe802b6251be5130e2be3daf528c34c7b18589cde48ecd 23108 debianutils_5.7-0.5~deb12u1.debian.tar.xz a499d0692b77b1f7b77c2db797694f89a6da89f3079487ab967104341426641698a261a39ebc4f695751796ea2e54a733bcdad8e448aa2919a05441bcd8913ae 1944 debianutils_5.7-0.5~deb12u1.dsc 79acd8885abca93842d696167171a359011c49a40f38deeb25bc94d62905f95afa3a7b2540d3bd4b0ffd363c5c48a439a1a68139a29d6c033980b019cea75d92 257231 debianutils_5.7.orig.tar.gz"
+    "d58e2cf09f0b2a4b90c5fa5f5da814ae46784a009e7395b47c1e88d48deacd8cd04598303ed18f8b628bfc59867cfb9ad3a4b1015dc21d420e24cb45f1d54d12 1908 debianutils_5.23.2.dsc 2ccc3993abee6be0b9e861d7937984a096a29a677584665f638e5a51057051d48fcc54283c1f43ab1179505298735600e5ebedd3b41386aa5bc697c8c91cef6e 82376 debianutils_5.23.2.tar.xz"
+  ],
+  "Dgit": [
+    "3d9771c5b744d982f81ffed910008671f54fbec1 debian archive/debian/5.23.2 https://git.dgit.debian.org/debianutils"
   ],
   "Directory": [
     "pool/main/d/debianutils"
   ],
   "Files": [
-    "f2ea302d938dc97726b4bb5011ed4107 23108 debianutils_5.7-0.5~deb12u1.debian.tar.xz 33376718033a6f41ba5ef25c0d3df6ac 1944 debianutils_5.7-0.5~deb12u1.dsc 8bbe5fd5524e1960a792d8a4420b2539 257231 debianutils_5.7.orig.tar.gz"
+    "00d7af3b3fce0f19a60fc3a1ca7d5b3e 1908 debianutils_5.23.2.dsc 29e74d658e7675e44907d13b6d3379e7 82376 debianutils_5.23.2.tar.xz"
   ],
   "Format": [
-    "3.0 (quilt)"
+    "3.0 (native)"
+  ],
+  "Git-Tag-Info": [
+    "tag=bce389da2af3d12520ccfb17a11f8275c864ee41 fp=f5e7199aef5e5c67e555873f740d68888365d289"
+  ],
+  "Git-Tag-Tagger": [
+    "Niels Thykier \u003cniels@thykier.net\u003e"
   ],
   "Maintainer": [
-    "Clint Adams \u003cclint@debian.org\u003e"
+    "Ileana Dumitrescu \u003cileanadumitrescu95@gmail.com\u003e"
   ],
   "Package": [
     "debianutils"
@@ -36,13 +45,13 @@
     "debianutils deb utils required arch=any essential=yes"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Uploaders": [
-    "Manoj Srivastava \u003csrivasta@debian.org\u003e"
+    "Niels Thykier \u003cniels@thykier.net\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/debianutils"
@@ -51,6 +60,6 @@
     "https://salsa.debian.org/debian/debianutils.git"
   ],
   "Version": [
-    "5.7-0.5~deb12u1"
+    "5.23.2"
   ]
 }

@@ -6,25 +6,25 @@
     "libtext-csv-xs-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libencode-perl (\u003e= 3.19) \u003c!nocheck\u003e, libtest-simple-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native"
+    "debhelper-compat (= 13), libencode-perl (\u003e= 3.20) \u003c!nocheck\u003e, libtest-simple-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native"
   ],
   "Checksums-Sha1": [
-    "6d767fcae945ac2fb6dc752c9115a679f0c8a14d 8184 libtext-csv-xs-perl_1.49-1.debian.tar.xz 2807fe0994a323462419f4691c1ab7d0d52481e0 2613 libtext-csv-xs-perl_1.49-1.dsc a02e0acc3c2cbc7be11840ec5afb25db7bdd927f 271084 libtext-csv-xs-perl_1.49.orig.tar.gz"
+    "833dd02a42a6de2452fc18b97f617b8cfa433df2 8372 libtext-csv-xs-perl_1.60-1.debian.tar.xz 896aa5400bc0e144a19d3375c9d903486ac3e9bb 2613 libtext-csv-xs-perl_1.60-1.dsc 5898bc6e6d734e0c2d7bbbb8bdd520aa22ac9c1d 282498 libtext-csv-xs-perl_1.60.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "b40879bae0021506227047b4b7b8d717e93463d4ab11a5e4f52f27138f85c0c0 8184 libtext-csv-xs-perl_1.49-1.debian.tar.xz cbd877940b8805d7f28c59327781768c2c5de1cf9828daea066b75274ca781f2 2613 libtext-csv-xs-perl_1.49-1.dsc 796dd0b57d37aabc9246f980ec358a2005341c791cf9f21ea7f0e0fbcf250e67 271084 libtext-csv-xs-perl_1.49.orig.tar.gz"
+    "d358e6f7ccfd15e091391a126cbf21a2a9705adfcce1bfee2e0b48f835be859c 8372 libtext-csv-xs-perl_1.60-1.debian.tar.xz 4a0c589dc0a1ad2332ae4df631c5f82423fd1e3b8914cc1401b7e362d70b885d 2613 libtext-csv-xs-perl_1.60-1.dsc 798f8b45d5d4a24e34faeec6ae157d62356556ea0ba046d8e80f8fbf5c826911 282498 libtext-csv-xs-perl_1.60.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "c26d5b40e3df4c24b36c33e291a0fc10a88301269ace96fd5e6714b4468c2f6a4b0bda510012f1add624eac3425b32cd477b6a3936310231143fad3593e0962a 8184 libtext-csv-xs-perl_1.49-1.debian.tar.xz 68344029ae66e4d71a99dc728af2ae5909d6a4c4b769b81d918a37f1e8f396a20904cf03f55d0176f6cdcc9b27f615582aa567e968f01fe76ae5bfca1c6082c2 2613 libtext-csv-xs-perl_1.49-1.dsc 8f543a0fd579dec7ae0eb271367b317a2a87f315ef7baad8f2e0a2b109d85b972ce2f447f1fac59f12a98d83d9d6530c465e3963f9a1cd60876279053866f687 271084 libtext-csv-xs-perl_1.49.orig.tar.gz"
+    "0451f1196598b2581d8886e0e56a91363e1f43d5d48fa93d8bfbacd682f7aac7275f4e97963a3b8d02ea84a1af04e7dadc3fddc35d5e18f227666868bbb1865d 8372 libtext-csv-xs-perl_1.60-1.debian.tar.xz 623870990f1963bb01a7c5c841bd32f64c53945d081bbc2f418990c76ea3f943fdc121392a2f74da95c7f2278b88d758c58fdaccf372c2b7653e2dc01e8be6a6 2613 libtext-csv-xs-perl_1.60-1.dsc 3d41b7c246c6850627018e5e21ecff383d06c74ec633c59bb1064183051bd3af3d829b01963ea55ce36635fdb15826f55a3f4b2b8371e84810a722217ebd1a7b 282498 libtext-csv-xs-perl_1.60.orig.tar.gz"
   ],
   "Dgit": [
-    "7a344515de416fb94fe6a4e40881679e9db6b363 debian archive/debian/1.49-1 https://git.dgit.debian.org/libtext-csv-xs-perl"
+    "a52aff953c9417d9c73cb64edc35cbccfa19e73b debian archive/debian/1.60-1 https://git.dgit.debian.org/libtext-csv-xs-perl"
   ],
   "Directory": [
     "pool/main/libt/libtext-csv-xs-perl"
   ],
   "Files": [
-    "ce7179aeec5079e3473d5f8f1120a186 8184 libtext-csv-xs-perl_1.49-1.debian.tar.xz 85134047bc0be33d0125735843d2f36c 2613 libtext-csv-xs-perl_1.49-1.dsc 479d31e37a1282966d3bd47506fb2dcd 271084 libtext-csv-xs-perl_1.49.orig.tar.gz"
+    "2ed5aba878b12872a66d20af8f5768c6 8372 libtext-csv-xs-perl_1.60-1.debian.tar.xz f8a303c2efdc7f9c8af2b5fe07fbb60c 2613 libtext-csv-xs-perl_1.60-1.dsc 4c76eb41efea0e6effdd2fd67f40a808 282498 libtext-csv-xs-perl_1.60.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "libtext-csv-xs-perl deb perl optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libtext-csv-xs-perl.git"
   ],
   "Version": [
-    "1.49-1"
+    "1.60-1"
   ]
 }

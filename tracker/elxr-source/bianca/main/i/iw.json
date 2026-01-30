@@ -6,22 +6,22 @@
     "iw"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libnl-3-dev, libnl-genl-3-dev, pkg-config"
+    "debhelper-compat (= 13), libnl-3-dev, libnl-genl-3-dev, pkgconf"
   ],
   "Checksums-Sha1": [
-    "870f471b2ac084c80c1cc0bc4db660cecfb5f551 34816 iw_5.19-1.debian.tar.xz 5065e38a34758a4b81eb5d90d435820ac7633ca3 1510 iw_5.19-1.dsc 1c32766240c319698542d677ac1ba67bee5b3001 152044 iw_5.19.orig.tar.xz"
+    "e65edd2294b2a892a573d48a927f83b158edff1f 25232 iw_6.9-1.debian.tar.xz 9f78fcf3c859d6b430a541be8d77efe22b902074 1896 iw_6.9-1.dsc 84226ad9bfb94dc311a3f4b0a4903b7a78b7bab0 159480 iw_6.9.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "b7b129bc93a12a492cdcea5b4d858830cfd30237d1f7855532ee4b27e53831aa 34816 iw_5.19-1.debian.tar.xz 6254b8b1dfbf0fd217b772a9eb60800b04ac13b5dcd7cc0f0b083661ce621823 1510 iw_5.19-1.dsc f167bbe947dd53bb9ebc0c1dcef5db6ad73ac1d6084f2c6f9376c5c360cc4d4e 152044 iw_5.19.orig.tar.xz"
+    "ea43941ad931985c0b278bea54a16cc67c8f36e69f171d74da8cb0c51982c858 25232 iw_6.9-1.debian.tar.xz 6afd4d16a27caecb4eb657f4d6ff8bc1f64a0bcd15a3646570b71236cca6b459 1896 iw_6.9-1.dsc 3f2db22ad41c675242b98ae3942dbf3112548c60a42ff739210f2de4e98e4894 159480 iw_6.9.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "6dbb4c9f6d9c92245ebf991ed53d854edf4394f81d1e383fccbdcec79f6841289b94305678c8037e042e0a84bbbcc9fd53146030a80ade88523de435f99e2ff1 34816 iw_5.19-1.debian.tar.xz 746d64b6e27b6e9954f16ef0ea816d63f5993c53c5ab6505e0a38839bdf890781dbe750b1606a8e99d7479e0d201a403fef970b623a7c02a427f123a92953dd5 1510 iw_5.19-1.dsc ff5c23543806c91eda27c91da923737c74cbccd6acc55f1f45114338f518cd959ca292c9255fd75b91dc127ed016eb235dd97af319e30631578eba6cb0823c6c 152044 iw_5.19.orig.tar.xz"
+    "8b264cc423101a802056da92ded5b4fa7d61b6e20c8daafd1d40594a396d53737f7ad80cab647709737336bad0152b931a6094d3ce96b25463e38cbd7f90a959 25232 iw_6.9-1.debian.tar.xz 1e48c4b59721500b1bb20d7b61c9be641a0a182ab450bf4768d0af0d18e9c2df015a600fb93f4054c7a3447ed7dcadc8934929eeb6901bdd7cec5796a49c8904 1896 iw_6.9-1.dsc cbafa54cffa6098a727edd8fb90382ab9f08d2db999811e543bcdaf8de41386c87a34504cf8965340839445929879a608faf51314b7335783beab403cf3f9cbc 159480 iw_6.9.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/i/iw"
   ],
   "Files": [
-    "7662896af3f2b8bc13958870adcf28c4 34816 iw_5.19-1.debian.tar.xz 4aa0f4257b5587dc8e6b1648f681c53b 1510 iw_5.19-1.dsc fd17ca2dd5f160a5d9e5fd3f8a69f416 152044 iw_5.19.orig.tar.xz"
+    "4900e2137cbaa3471509dcc7a61b4456 25232 iw_6.9-1.debian.tar.xz 4c72e414f68345d2177706fb60ec0c74 1896 iw_6.9-1.dsc 457c99badf2913bb61a8407ae60e4819 159480 iw_6.9.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://wireless.wiki.kernel.org/en/users/documentation/iw"
   ],
   "Maintainer": [
-    "Paride Legovini \u003cparide@debian.org\u003e"
+    "Debian Kernel Team \u003cdebian-kernel@lists.debian.org\u003e"
   ],
   "Package": [
     "iw"
@@ -41,13 +41,16 @@
   "Standards-Version": [
     "4.6.1"
   ],
+  "Uploaders": [
+    "Paride Legovini \u003cparide@debian.org\u003e,"
+  ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/debian/iw"
+    "https://salsa.debian.org/kernel-team/iw"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/debian/iw.git"
+    "https://salsa.debian.org/kernel-team/iw.git"
   ],
   "Version": [
-    "5.19-1"
+    "6.9-1"
   ]
 }

@@ -9,25 +9,25 @@
     "debhelper-compat (= 13)"
   ],
   "Checksums-Sha1": [
-    "7cd5f2d2456ea5b5acf856f7f5eec7ace351db63 8160 libgssglue_0.7-1.1.debian.tar.xz 755158a6f6c244a85a718b98ff8c104dfd819f5c 1666 libgssglue_0.7-1.1.dsc 05272f04cdf0b7caf1fbbe412cf965d5918a9015 40258 libgssglue_0.7.orig.tar.gz"
+    "8952e45d261b87f9593f4fdad4e81e0a90c9ae65 10952 libgssglue_0.9-1.1.debian.tar.xz 2d4ce3e2dd9a1d7e43d96359e6e66cf58c535c72 2110 libgssglue_0.9-1.1.dsc 9b03957717e851f4583f327150af9e242b4e9129 43651 libgssglue_0.9.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "fc707b9dfcb79fc6877fe983dea365741a0b5c8d9f03afe724d1a53308a8e9cf 8160 libgssglue_0.7-1.1.debian.tar.xz 0ca5217ec2afd271cca78312239aecbd9b9607cf57da4c157486e005e75ef1c8 1666 libgssglue_0.7-1.1.dsc bcd618ae0bc69f12815d77295658a760e7edc20706b9a731a81da8993f5c970a 40258 libgssglue_0.7.orig.tar.gz"
+    "29fda014c2013a01e3243f017bc302292a5c68efcfb5d5c07a536bb34f7b05de 10952 libgssglue_0.9-1.1.debian.tar.xz eafaefb0d582b2059b83da4959dc7f080ef005300bb0785b1086d65b8a75c44c 2110 libgssglue_0.9-1.1.dsc 82b9334e2cc0e30d39cddf8c018fac5a7cc5eda507beaced05eb35defe7f6867 43651 libgssglue_0.9.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "3d9ece49866db32ed1c6e1cfd19d44820b0c40036123f249c43e8ecf2c21405395b84b3da8d0d9dcbb85a1650beb715fef23d661fcddd96b573f869c13bbd369 8160 libgssglue_0.7-1.1.debian.tar.xz 32c48db3588bc60a223fb9d11382525db40287014503a5bc73e3b01c966cecd4b33ad28e44aad9baac5e4f464a4ebd5457b984ab80cf8678eeb1e978c7357588 1666 libgssglue_0.7-1.1.dsc 630e55e20600cc3717971d1f81bd47fdb7970fb15650feef07d11936d6f814afd1d41f221313de0173f207454c1aaea2728028980c56aad198ff254169f9486b 40258 libgssglue_0.7.orig.tar.gz"
+    "b6d31306865db40ec3bf369d066b34da34ab0e371e19fe58f913b2ce99aca3df2681253a5a2ad3d564265afc120665514aa68d7a3b95303fe6a4577de300436e 10952 libgssglue_0.9-1.1.debian.tar.xz 579783c0491caa5313d801bf1278daf7c3ededb84b2162e6d61488f67a8f65d230fbddd3f0aa3725c07a6246c668b0a7440f175391cc24d2f906a5b6f6dbbc03 2110 libgssglue_0.9-1.1.dsc fef559585f83d7bff9cf88d5f872ff80b61e9b23bf81e15ed5716b72bba70405e57e4334f1de6eca3b054ad0ff5969142c8a975444b66846811521f677abd1d5 43651 libgssglue_0.9.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libg/libgssglue"
   ],
   "Files": [
-    "f7fd0064ba1a50845d34b2dde7ad9970 8160 libgssglue_0.7-1.1.debian.tar.xz 5cd5909653944b7f4f124656f5910da9 1666 libgssglue_0.7-1.1.dsc d864be30e02deceefd92c6fb3b173f02 40258 libgssglue_0.7.orig.tar.gz"
+    "848a825301c93ac86233fc0d5388a8f5 10952 libgssglue_0.9-1.1.debian.tar.xz 448da7a57f0e7d699d573f7ec6cd81e6 2110 libgssglue_0.9-1.1.dsc 172b8138fafdf14cbc3bbb8aea17176d 43651 libgssglue_0.9.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://www.citi.umich.edu/projects/nfsv4/linux/"
+    "https://gitlab.com/gsasl/libgssglue"
   ],
   "Maintainer": [
     "Simon Josefsson \u003csimon@josefsson.org\u003e"
@@ -39,13 +39,13 @@
     "libgssglue-dev deb libdevel optional arch=any libgssglue1 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential, pkg-config"
+    "build-essential, dovecot-gssapi, dovecot-imapd, gsasl, krb5-admin-server, krb5-kdc, libgssapi3-heimdal, pkgconf, valgrind-if-available"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/libgssglue"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/libgssglue.git"
   ],
   "Version": [
-    "0.7-1.1"
+    "0.9-1.1"
   ]
 }

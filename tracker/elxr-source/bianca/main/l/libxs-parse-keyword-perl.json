@@ -6,25 +6,25 @@
     "libxs-parse-keyword-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libextutils-cbuilder-perl, libextutils-cchecker-perl (\u003e= 0.11), libmodule-build-perl, libtest-simple-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native"
+    "debhelper-compat (= 13), libextutils-cbuilder-perl, libextutils-cchecker-perl (\u003e= 0.11), libfile-sharedir-perl \u003c!nocheck\u003e, libmodule-build-perl, libtest2-suite-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native"
   ],
   "Checksums-Sha1": [
-    "605f24df38581ea50061525dc0f516ae94eb877e 2160 libxs-parse-keyword-perl_0.33-1.debian.tar.xz 45dd3d579fb6677b89e7c517fae9b9c7ad095f73 2551 libxs-parse-keyword-perl_0.33-1.dsc c9a08405663440c360b8a5b49cdf040dfb7e25b0 81937 libxs-parse-keyword-perl_0.33.orig.tar.gz"
+    "abc18a4c8eb8ef643ac3a6104f59fb2ee8472b9b 2968 libxs-parse-keyword-perl_0.48-2.debian.tar.xz 4a915bc92656f8b70f92d79f1ad46692f3d8a48f 2585 libxs-parse-keyword-perl_0.48-2.dsc fcc7c0fa348421f8db184f0ea22320eaaab97f94 94858 libxs-parse-keyword-perl_0.48.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "9706e6db557dc0b08ef396770d59410d0c23084f0625a51260cc3b8466fa8f7c 2160 libxs-parse-keyword-perl_0.33-1.debian.tar.xz c1d2cbde13222893c17fc82f0e45628e9797f52c2634ac4e3abd1b29ff7347e6 2551 libxs-parse-keyword-perl_0.33-1.dsc 551b82d2884ab3b37bc9be5d1c85b1c1986d083904b7817a0fafc78260dcfc57 81937 libxs-parse-keyword-perl_0.33.orig.tar.gz"
+    "33d8f591cef6a3aa08af56a3a00a98828ce530bdd6d86f73790e46f2d492ddab 2968 libxs-parse-keyword-perl_0.48-2.debian.tar.xz a4ab2d261bd473021ea1092a1cb46712aaeb489075c0c6cc6ee72edba6812b76 2585 libxs-parse-keyword-perl_0.48-2.dsc 857a070ba465ab5b89d4d8d36d92358edd66e5e7b4a91584611d85125ac9a9c7 94858 libxs-parse-keyword-perl_0.48.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "6edc7fcb4360c64662bcda39a53039e6569d45fb60a143bc485fd8f704247d79be1e4bd4bb5c6d6e0303a32374dd96b17d82519d326d34f69013de1fd4ab5ae8 2160 libxs-parse-keyword-perl_0.33-1.debian.tar.xz 40290e899c2538a5968e6788e2759c3e1356888bc3ef2a93d7812c7895c90d5f5476ec8420000e1730b0aa77774ceed5c28811df828a49ed09c0ab33efb488dd 2551 libxs-parse-keyword-perl_0.33-1.dsc 30579b36c554de95bbf3b0810f7781e493838b3eda19773598ebf98472cddb07a9ca37077785a16316855d2c0ce993f6d061047739e7c447356e082aeccff2bd 81937 libxs-parse-keyword-perl_0.33.orig.tar.gz"
+    "2ead83a6b1b492639840dccdbccbc68204e4503df7f4da587f929f327e28b8524cb431e734a0b42865717249a9f64d075ad32ae004212c735cfdfdbb1f032a6c 2968 libxs-parse-keyword-perl_0.48-2.debian.tar.xz af11013ab98ad48c001bebf4f57f5e6894214d92c6ae214d0681bc3c556a7bcbdfe3cd2e052fef38e50337cb2f2afe365614cf3046348834fa197c877f80b03b 2585 libxs-parse-keyword-perl_0.48-2.dsc fbe8b3be88b2906937a187a20edc0d6f265df07fd815ba509d98139fc5d388fd59388a61983e02bd7eef4aca9178445d21eb8d2da75dd01d4f1e64ee89ef3b4a 94858 libxs-parse-keyword-perl_0.48.orig.tar.gz"
   ],
   "Dgit": [
-    "a829af4135cb275f10873ecff071564aeef02d72 debian archive/debian/0.33-1 https://git.dgit.debian.org/libxs-parse-keyword-perl"
+    "278bb1a260cd4bcab7b859ad66481a269ddd779d debian archive/debian/0.48-2 https://git.dgit.debian.org/libxs-parse-keyword-perl"
   ],
   "Directory": [
     "pool/main/libx/libxs-parse-keyword-perl"
   ],
   "Files": [
-    "9cb35909a631b1f54e4d47cab1a322ef 2160 libxs-parse-keyword-perl_0.33-1.debian.tar.xz e03899fa5928b8bc74f75ed7e33dec25 2551 libxs-parse-keyword-perl_0.33-1.dsc 6fcc8091c6bcbf0449eb50ed16aba1a9 81937 libxs-parse-keyword-perl_0.33.orig.tar.gz"
+    "57d7dce84d617ada067f204b5757c547 2968 libxs-parse-keyword-perl_0.48-2.debian.tar.xz 7059b326ffdba0de7cbc98460c8c652d 2585 libxs-parse-keyword-perl_0.48-2.dsc bc474b1c594c187648cefddd8fdd000b 94858 libxs-parse-keyword-perl_0.48.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "libxs-parse-keyword-perl deb perl optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libxs-parse-keyword-perl.git"
   ],
   "Version": [
-    "0.33-1"
+    "0.48-2"
   ]
 }

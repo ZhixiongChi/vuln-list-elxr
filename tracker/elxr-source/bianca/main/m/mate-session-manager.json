@@ -9,19 +9,19 @@
     "autoconf-archive, debhelper-compat (= 13), dpkg-dev (\u003e= 1.16.1.1), intltool, libdbus-glib-1-dev, libglib2.0-dev, libgtk-3-dev (\u003e= 3.14), libice-dev, libsm-dev, libstartup-notification0-dev, libsystemd-dev [linux-any], libx11-dev, libxau-dev, libxext-dev, libxrender-dev, libxt-dev, libxtst-dev, libgles-dev [hurd-any kfreebsd-any], mate-common (\u003e= 1.18), mate-submodules-source (\u003e= 0.0~git20210623.f3091f9), xmlto, xsltproc"
   ],
   "Checksums-Sha1": [
-    "2950cb6e45600c7a5ffc3853d00757fd58189bca 15244 mate-session-manager_1.26.0-1+deb12u1.debian.tar.xz 5525b796b5606487015336cf1002bb62b3481488 2749 mate-session-manager_1.26.0-1+deb12u1.dsc e634c05fcd4c2fe9730a2536e1215694194fab2b 353704 mate-session-manager_1.26.0.orig.tar.xz"
+    "6c3db2bc9b9695c0d10943e485077babceab87d5 13908 mate-session-manager_1.26.1-2.debian.tar.xz 629e5cdbdafeef6a6f3ef43550e75b1294466a61 2717 mate-session-manager_1.26.1-2.dsc ed916f690252826ba7055ae95c34f21724f66bad 353980 mate-session-manager_1.26.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "c82df4be3ea8cae1e79752a0d2cddcd7c6feab2dcb7e432de81e229173184f6a 15244 mate-session-manager_1.26.0-1+deb12u1.debian.tar.xz 8adf0a40bc39de7fc137ea84af7de4b33c3f4f938eed32b588cb7ad1ef75c36b 2749 mate-session-manager_1.26.0-1+deb12u1.dsc df8ac3c951d63ec80728c7c39c0c25ef4bfb8fcbf44e21e7970846b6b3ad5f65 353704 mate-session-manager_1.26.0.orig.tar.xz"
+    "c04c3326f7d7bb9df05354db6ccd217201b0728c8e28ba102a7df168a94581e9 13908 mate-session-manager_1.26.1-2.debian.tar.xz c6b4cf59333b96263c317bff938036de8359e2512c30fbd66354fe30583077a5 2717 mate-session-manager_1.26.1-2.dsc 20f03b0af81388ea596b25fea2ee9c4aaf5dd197de3993ddaae4b4431cb10342 353980 mate-session-manager_1.26.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "df139d54dbd535a69f8449cbb36306947826d2ab4f9282721df6f1672510985a204a3efd433fa53cd40a77e0b872af0e0e653fd091f6a97901f5e98f7c97cf1d 15244 mate-session-manager_1.26.0-1+deb12u1.debian.tar.xz 9e8fcd3d0d1ed6005c95a7e3f8a9f2586bc34a63fd10b587f649c222ce430267c78bac3c82201c523a30d89f59ab67b67348fe48509b2fc798b97056e664fe68 2749 mate-session-manager_1.26.0-1+deb12u1.dsc 0315557709950957f70070de7e196564b6612bd86f72ae84a49316febeb21aa8d166233874f4acf1daae614a91e006b1806e38dc4fc24a74a30d25e18c8a6264 353704 mate-session-manager_1.26.0.orig.tar.xz"
+    "20c06b47ee75c9ffffbb10683af7abb42b0c9725e0a57a6ef4dc34cba886c700ce916b34fbd10471da9ab8de5a0ffbbf4738139789b0acecedc87255e5311feb 13908 mate-session-manager_1.26.1-2.debian.tar.xz adf75dee637b9497866dcb61604e27227b798893e8a4dd219e6de2c2c354d250fd93e9eae874d474c135179e5034b6e273fa96ac8cff1b06fc011c30350efc96 2717 mate-session-manager_1.26.1-2.dsc b3d32ebbecd173dbf31698e96561eb4fdc45bc0b82234d7a3275cb5aa9e1a6d942206eae99d9b17a0dc4fa90d86cf611fe79c3764368e3124c4709ec2ce54cf0 353980 mate-session-manager_1.26.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/m/mate-session-manager"
   ],
   "Files": [
-    "dae1358f224d720e1804695585e7eabf 15244 mate-session-manager_1.26.0-1+deb12u1.debian.tar.xz 1dd43d18f55877c4316c8ce536d23c52 2749 mate-session-manager_1.26.0-1+deb12u1.dsc 39bf33fa5286684c8d09c70cfbb9a29c 353704 mate-session-manager_1.26.0.orig.tar.xz"
+    "16befbc4dabe1e60a3e2e57d1139bfad 13908 mate-session-manager_1.26.1-2.debian.tar.xz cfa1d3364cd557eb73476ca64671dcf5 2717 mate-session-manager_1.26.1-2.dsc 223043e4e0c3f210d0da439b18170d92 353980 mate-session-manager_1.26.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "debian-mate-default-settings deb x11 optional arch=all mate-session-manager deb x11 optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.2"
   ],
   "Uploaders": [
     "Mike Gabriel \u003csunweaver@debian.org\u003e, John Paul Adrian Glaubitz \u003cglaubitz@physik.fu-berlin.de\u003e, Stefano Karapetsas \u003cstefano@karapetsas.com\u003e, Vangelis Mouhtsis \u003cvangelis@gnugr.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian-mate-team/mate-session-manager.git"
   ],
   "Version": [
-    "1.26.0-1+deb12u1"
+    "1.26.1-2"
   ]
 }

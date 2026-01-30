@@ -6,22 +6,22 @@
     "libgd-tools, libgd-dev, libgd3"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 10), libavif-dev | base-files (\u003c\u003c 11.1~), libfontconfig-dev, libfreetype-dev | libfreetype6-dev, libheif-dev | base-files (\u003c\u003c 11.1~), libjpeg-dev, libpng-dev, libtiff-dev, libwebp-dev, libx11-dev, libxpm-dev, libz-dev"
+    "debhelper (\u003e= 10), libavif-dev | base-files (\u003c\u003c 11.1~), libfontconfig-dev, libfreetype-dev | libfreetype6-dev, libheif-dev \u003c!pkg.libgd2.noheif\u003e | base-files (\u003c\u003c 11.1~) \u003c!pkg.libgd2.noheif\u003e, libimagequant-dev, libjpeg-dev, libpng-dev, libtiff-dev, libwebp-dev, libx11-dev, libxpm-dev, libz-dev"
   ],
   "Checksums-Sha1": [
-    "c6b6973288b9a65afcf99dd0b309882671d21c6b 32296 libgd2_2.3.3-9.debian.tar.xz bf3b49fbbf21305a692b9ee5e0232314c91199dd 2372 libgd2_2.3.3-9.dsc a275344fb56161df6a06679bf0bf29c30930d8eb 3593182 libgd2_2.3.3.orig.tar.gz"
+    "ed56f328a6c2ec9793b28f88c1c828aa94a797df 32548 libgd2_2.3.3-13.debian.tar.xz 80d8bb9779a483be3715a4e8ba826dcb0b3ce7e0 2437 libgd2_2.3.3-13.dsc a275344fb56161df6a06679bf0bf29c30930d8eb 3593182 libgd2_2.3.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "379d9223362d8105fe2a86fe16ec175e58047874033873294fe571b3980c9461 32296 libgd2_2.3.3-9.debian.tar.xz 3a9efd27d7da95dd3b39828970c00bcb37eec8ae3ebe811b6ad7f0c5719f91c0 2372 libgd2_2.3.3-9.dsc dd3f1f0bb016edcc0b2d082e8229c822ad1d02223511997c80461481759b1ed2 3593182 libgd2_2.3.3.orig.tar.gz"
+    "723e826359453a0d0180c5a744c85eb67a537d4ec30c30367298731a571c5ffa 32548 libgd2_2.3.3-13.debian.tar.xz b609c9f8242e42b2f65575d2868e8e71de654aeb357e3ec4d3a6b9b8044783a7 2437 libgd2_2.3.3-13.dsc dd3f1f0bb016edcc0b2d082e8229c822ad1d02223511997c80461481759b1ed2 3593182 libgd2_2.3.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "dcbbaac36fd84aed9e0c93de5e4e259f134b058b73a7f5dc4b7bee387bb36719fc7d0c9ff44522d53debeebef30fb4b5a4d42b4ca0afa74dd773908bf8e57634 32296 libgd2_2.3.3-9.debian.tar.xz 9d6267db420f9e14537bfeb6b6ddd7be6ebd55027d20aca56a0a54caf450238facf07e30581a98e39099eccd406fbcd7a2d37f16f1e7520f4f77a049ea0cbc39 2372 libgd2_2.3.3-9.dsc 170699c03386a231d2de20868f34405aafda4c03ee69f5590e32d8400e371b73f6f01bda0fd03f1c0c62ac5fee9562b5e6d097a361c809a895dc508a438ded36 3593182 libgd2_2.3.3.orig.tar.gz"
+    "fcb9ae2b792790abeb9c38ed7b773625ac6572549baed5aea99d69927b118456dd72c774d3cc335ddb5e6657e47638846fd95c39839bdcdcdb66fd00092458e4 32548 libgd2_2.3.3-13.debian.tar.xz 1a96ba81264ef1ed9c3fcdc05f9d271c537cf9792388163e0c62072127ad7b3130e613e2b4878f8542dcf3e6ca766cacc1c4a9f52461b24581fbc20831d522f7 2437 libgd2_2.3.3-13.dsc 170699c03386a231d2de20868f34405aafda4c03ee69f5590e32d8400e371b73f6f01bda0fd03f1c0c62ac5fee9562b5e6d097a361c809a895dc508a438ded36 3593182 libgd2_2.3.3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libg/libgd2"
   ],
   "Files": [
-    "25283822985440c6ac905ba4d3fc606c 32296 libgd2_2.3.3-9.debian.tar.xz de42d36d33c0dc83c8c1d62576c5d7a3 2372 libgd2_2.3.3-9.dsc bf6d41ecb3148a6238a3058eb3d6224a 3593182 libgd2_2.3.3.orig.tar.gz"
+    "b082840fc5953ea12b18547083fbbe5d 32548 libgd2_2.3.3-13.debian.tar.xz 2597d06b30c515bcdf949e2d5b37ddef 2437 libgd2_2.3.3-13.dsc bf6d41ecb3148a6238a3058eb3d6224a 3593182 libgd2_2.3.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/libgd2.git"
   ],
   "Version": [
-    "2.3.3-9"
+    "2.3.3-13"
   ]
 }

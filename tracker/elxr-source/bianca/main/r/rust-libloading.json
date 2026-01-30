@@ -6,22 +6,22 @@
     "librust-libloading-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e, librust-winapi-0.3+default-dev \u003c!nocheck\u003e, librust-winapi-0.3+errhandlingapi-dev \u003c!nocheck\u003e, librust-winapi-0.3+libloaderapi-dev \u003c!nocheck\u003e"
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "7ff57f3eaa6dc18449de018235a7d2e6ca501066 2724 rust-libloading_0.7.4-1.debian.tar.xz 44958f708acfdea8311a76b186707147f52170c2 2504 rust-libloading_0.7.4-1.dsc 8821393f47b274857a4fd22eb641d920b1949ec9 27580 rust-libloading_0.7.4.orig.tar.gz"
+    "fa4325d269d4c0d91dad242c9e0543aeb597cb8d 2992 rust-libloading_0.8.5-1.debian.tar.xz 2dc9e0c775ae15be1820d8ff018c096a43c186cf 2274 rust-libloading_0.8.5-1.dsc e7922978cd68d4987f092957881caa7f6bac3906 28902 rust-libloading_0.8.5.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a0cf8fab962e363c1aa7976a39089684717011785c3edaab8462a6570bc63dd7 2724 rust-libloading_0.7.4-1.debian.tar.xz 0cd79afffdec6e2c8e211a9407c786842d023098aba2c4b24ab5de3700170d0a 2504 rust-libloading_0.7.4-1.dsc b67380fd3b2fbe7527a606e18729d21c6f3951633d0500574c4dc22d2d638b9f 27580 rust-libloading_0.7.4.orig.tar.gz"
+    "f1b2f430a8009f60ecec78893c3c05a6ad4fd552c6730aa1ae36f86339a2a36a 2992 rust-libloading_0.8.5-1.debian.tar.xz f4c5df9671b5c908d3574adf9fbdb0c58aa00b602ed56d3e7a242876b8ec747c 2274 rust-libloading_0.8.5-1.dsc 4979f22fdb869068da03c9f7528f8297c6fd2606bc3a4affe42e6a823fdb8da4 28902 rust-libloading_0.8.5.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f649c00760e7066e9f90931b6cdadcd2cc8205c78dfd51f8a4f98707795cc7d9c74825b67a1394f55bb3d0ff7aa313fb2f32163a89196cd436db9eaa22579b2c 2724 rust-libloading_0.7.4-1.debian.tar.xz a522babc93cb05ff0f2013307d995d7a900f7c1f3df3ff8d13ddf78dc64b2c2e9fcad10c82a405a8256dc9c9197806347e396dfd18f6cff7db366c39dfa29bee 2504 rust-libloading_0.7.4-1.dsc 34439d9eca68bac8fcbe2bc94a70e07550e7e95d713ab74ed60ba6736ec807fd9c9135c178d436fbeb39afb074b2a9b05775d953340845c088f5f8712f5f56a1 27580 rust-libloading_0.7.4.orig.tar.gz"
+    "554cddaf4e613a8130ba14a943ea000d980ee79ddedfbe29ee929ca570fc0d96693c993bffcb55917b159706abe619ec6c149bdc6b6ac3210cf3e8364aebb8c7 2992 rust-libloading_0.8.5-1.debian.tar.xz 7f17ee8dc8bfd7e7ec9ccc9e7d6a6ddb5ec732e4c9db10c42cb4a2f59752c2a3f26f67e05772ec75df6c5ec2e63d47182a0154a2973d65314650fd73be1f870b 2274 rust-libloading_0.8.5-1.dsc f332884fa75cf210460f4678d45091345b23469c09301614c476e95bc54163afd6d4f098a34f9e0d529fa1ec63892395b50957598070ff327743e4c3b0871074 28902 rust-libloading_0.8.5.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-libloading"
   ],
   "Files": [
-    "3716b9e00e966802fceac7c8e957bffd 2724 rust-libloading_0.7.4-1.debian.tar.xz 9478b0233c7093259e1535de29a14adf 2504 rust-libloading_0.7.4-1.dsc 02e14c7718a87f6c90ba05b62fd5c706 27580 rust-libloading_0.7.4.orig.tar.gz"
+    "e65aa8c474c745e0da3b09fc6540f920 2992 rust-libloading_0.8.5-1.debian.tar.xz 14f94e9dde830697c6b1178e7e7e246a 2274 rust-libloading_0.8.5-1.dsc 497cb030511762f0e30f395fb9c092ec 28902 rust-libloading_0.8.5.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "librust-libloading-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/libloading]"
   ],
   "Version": [
-    "0.7.4-1"
+    "0.8.5-1"
   ]
 }

@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libmateweather1, libmateweather-common, libmateweather-dev"
+    "libmateweather1t64, libmateweather-common, libmateweather-dev"
   ],
   "Build-Depends": [
-    "autoconf-archive, debhelper-compat (= 13), dpkg-dev (\u003e= 1.16.1.1), gtk-doc-tools, libglib2.0-dev, libgtk-3-dev, libsoup-gnome2.4-dev, libsoup2.4-dev, libxml2-dev, libxml2-utils, mate-common (\u003e= 1.18), tzdata"
+    "dpkg-dev (\u003e= 1.22.5), autoconf-archive, debhelper-compat (= 13), gtk-doc-tools, libglib2.0-dev, libgtk-3-dev, libsoup-3.0-dev, libxml2-dev, libxml2-utils, mate-common (\u003e= 1.18), tzdata"
   ],
   "Checksums-Sha1": [
-    "dce36f1c57cee40be91b098fe96830e82f37cbae 11312 libmateweather_1.26.0-1.1+deb12u2.debian.tar.xz b931cd66976b70254523455ea0df2e45484f8587 2575 libmateweather_1.26.0-1.1+deb12u2.dsc e106535d7109ce70924917406869e4b0ffd3498e 1976920 libmateweather_1.26.0.orig.tar.xz"
+    "decffda3033f62912762a118ac9a9c0e72987619 11996 libmateweather_1.26.3-4.debian.tar.xz acaf07966e230df3231239d8aec651d70e827f5e 2518 libmateweather_1.26.3-4.dsc 6e70eec351eb3b0d590c78da6fad84673e8f2d73 1958500 libmateweather_1.26.3.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "fbae30e189d58e5104fff1c502d1e6ccf8c80d2aa6b1f7649832b04ad1310da2 11312 libmateweather_1.26.0-1.1+deb12u2.debian.tar.xz 524a7283829ad9812e376cab4a475895488bc7cffa99df9110fa023b6ab8da45 2575 libmateweather_1.26.0-1.1+deb12u2.dsc 0cba35ce0d33fad48f862663df869e2aea05c6ce0129adf447a27efe0bd50e4f 1976920 libmateweather_1.26.0.orig.tar.xz"
+    "15468d4189d409c0f8cce4a914498c187d6bb1301749e97435b413660e30ea30 11996 libmateweather_1.26.3-4.debian.tar.xz d2579b84f4d9c65f9f97437f77e2f80261820691fb1d6102397858bcc14d7699 2518 libmateweather_1.26.3-4.dsc 6f8ccaf482725383632cb1cb54e533618330bab1b504fcda27d5fe2682853104 1958500 libmateweather_1.26.3.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "9191a6a4692092a3248ef4702d8085528f9a1b9504e6a09a7b7ade1165a2c861816c9b935987307942fbd2f10ce98f0816c60258d1a34b6dde53a79908a2591e 11312 libmateweather_1.26.0-1.1+deb12u2.debian.tar.xz 8c27a1d8b374494215679ef26a78c7035dd8a426514c6a7455a13daa5aff5ed33be8835a102a91e1fc66c35a9294228334d54dd78bc8f40981df429714434c8e 2575 libmateweather_1.26.0-1.1+deb12u2.dsc 32c91a2728142cbd3c6b5502fe08242ef1da0e15aced5897c3b644723d40c70c42bf27f8038c91d71e79c84f40860c6ad2b1047719cb80b801fad4763de7ece5 1976920 libmateweather_1.26.0.orig.tar.xz"
+    "9a181ff056a458080ed3648af929aa86e6a111e6a90ec25d0d057f44c4f754535279f4a5e5813f9792bb1fafe9768a6aa26e9e58a920f24beed14bf0e6812a8e 11996 libmateweather_1.26.3-4.debian.tar.xz 862b55c1771079fe50b1414f0b257d23a898adca387578b57f5bea6f7bd1e78f228bc03e84f7278dacf00ed69906e8c4583a630a65fbdccda07884b36a25d0b7 2518 libmateweather_1.26.3-4.dsc 37fa7fb9921001c5d7bb97bc938f7fd15aba4d3f14039af1cc53c0470ecbae009de80f1d804b5e6e7260c6ab446bb3663e15a2ea97922bcc0b4bf4203c1d573c 1958500 libmateweather_1.26.3.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libm/libmateweather"
   ],
   "Files": [
-    "6d1128a5061dc3475599f6d107672014 11312 libmateweather_1.26.0-1.1+deb12u2.debian.tar.xz 210a56ac34d3b80f9b95506fc991d3f1 2575 libmateweather_1.26.0-1.1+deb12u2.dsc 7b4ff6ae4ecbd00edb433dce18882eae 1976920 libmateweather_1.26.0.orig.tar.xz"
+    "a44d3469c7065cb9999e23bb3aa19756 11996 libmateweather_1.26.3-4.debian.tar.xz 77e1fca4f1b150cd63e68679bc36d5e4 2518 libmateweather_1.26.3-4.dsc 2f8971abc351a52322d26318330604c3 1958500 libmateweather_1.26.3.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "libmateweather"
   ],
   "Package-List": [
-    "libmateweather-common deb libs optional arch=all libmateweather-dev deb libdevel optional arch=any libmateweather1 deb libs optional arch=any"
+    "libmateweather-common deb libs optional arch=all libmateweather-dev deb libdevel optional arch=any libmateweather1t64 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.2"
   ],
   "Uploaders": [
     "John Paul Adrian Glaubitz \u003cglaubitz@physik.fu-berlin.de\u003e, Stefano Karapetsas \u003cstefano@karapetsas.com\u003e, Mike Gabriel \u003csunweaver@debian.org\u003e, Vangelis Mouhtsis \u003cvangelis@gnugr.org\u003e, Martin Wimpress \u003ccode@flexion.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian-mate-team/libmateweather.git"
   ],
   "Version": [
-    "1.26.0-1.1+deb12u2"
+    "1.26.3-4"
   ]
 }

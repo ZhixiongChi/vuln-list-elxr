@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libqalculate20-data, libqalculate-data, libqalculate-dev, libqalculate-doc, libqalculate22, qalc"
+    "libqalculate20-data, libqalculate-data, libqalculate-dev, libqalculate-doc, libqalculate23, qalc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), doxygen, gnuplot-nox, intltool, libcln-dev, libcurl4-gnutls-dev, libgettextpo-dev, libglib2.0-dev, libgmp-dev, libicu-dev, libmpfr-dev, libncurses-dev, libreadline-dev, libxml2-dev"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), doxygen, gnuplot-nox, intltool, libcln-dev, libcurl4-gnutls-dev, libgettextpo-dev, libglib2.0-dev, libgmp-dev, libicu-dev, libmpfr-dev, libncurses-dev, libreadline-dev, libxml2-dev"
   ],
   "Checksums-Sha1": [
-    "c2f05d869faca56d62b5f74223c2ebd30e6164f3 8224 libqalculate_4.5.1-1.debian.tar.xz a37a9067b8625ff9e00ca7e296ef19a9cb823b08 2485 libqalculate_4.5.1-1.dsc e4acb3c32f080bbd5b54b4e0d5ce33592320d0a8 2099941 libqalculate_4.5.1.orig.tar.gz"
+    "c2276f8690af0b4f946a4e37e9e61cccd1593cd9 8796 libqalculate_5.5.2-1.debian.tar.xz 2bfd4b5ee55c701f6562f789bcb64204491e5321 2494 libqalculate_5.5.2-1.dsc 7b20bc1f25c24c11fe43383480996306df42eb38 2211598 libqalculate_5.5.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "064c0ed172da6a78bfbf7bdde902fcc9fc9ccda51667d35a742fbfcc557ff29e 8224 libqalculate_4.5.1-1.debian.tar.xz cd712fef2395d3cb24a59ad4da01e97683397797a3dec649f0271f4458865a2d 2485 libqalculate_4.5.1-1.dsc f09c8c0fbf313fc7df7d8420a35b5106f922dcf6853e340ec8d526b33d979f65 2099941 libqalculate_4.5.1.orig.tar.gz"
+    "bcbe46c57fb670e4c089524cf4727a0da891f35e5ce6929faafdf87625f9e25b 8796 libqalculate_5.5.2-1.debian.tar.xz a4c597f12173b90607e7cb44d5086e3fd8c33067da0ef1d7970b7bbce57e1cf7 2494 libqalculate_5.5.2-1.dsc 3b8f65583779fb584a0e2fa7be95bfcc8a7e71e8e4d2ba64f00856640d32b805 2211598 libqalculate_5.5.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a5cc6e958659e1b4ad6369edf11ab60f8d04d74204cff219f08ed6a985196d7fa0a64964f768e1e6d280c3aef72083e391652c4088355101daf01b8fa4b4e705 8224 libqalculate_4.5.1-1.debian.tar.xz 9cc9189063e02856e897851b4efdca48ff173e6b4ab6fab00a6bd06a9667c4fa82672d1c36b5e42f4968c6fc4f99cf2250ae79743c6b23c7da981b034b121ef7 2485 libqalculate_4.5.1-1.dsc 629d65c17196eda4d080948dc45baad3e802851a216ffe57f40875ae09aaa918ea819b38a2c9a168000dd3965b5c9fad591bbb8a28eaa232f37656514b7be101 2099941 libqalculate_4.5.1.orig.tar.gz"
+    "df0ee32c393d14a97e77c93ae9180978512182e822645b2f5355e64635fbfd99d2207a02821c83cb11b38e6199fe7bc5582e9b14f51657e815d82cec846a80bc 8796 libqalculate_5.5.2-1.debian.tar.xz 54ab1ab535e3585931dc1dd10a8afe2d2e991d7a6072ce4a06df2b9277c37997834b587f0e4d83a58a8f825a210250bad910c05b43c2ca0c388342663f21fd67 2494 libqalculate_5.5.2-1.dsc 5042e97a2f252ea2808681d1c14265f01d9e353262c7719bc664c6d9a6c4756dc287aa9828314e6ad236baa0b74d3914f7b4fec88c862b28cd9e880384ea10d6 2211598 libqalculate_5.5.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libq/libqalculate"
   ],
   "Files": [
-    "9a01503eef0e7ecff760c014740326ec 8224 libqalculate_4.5.1-1.debian.tar.xz cf0e6cff2f0e7d90fe2badf9010d2bbc 2485 libqalculate_4.5.1-1.dsc 8a99aca83137f0cd1809f9de37600782 2099941 libqalculate_4.5.1.orig.tar.gz"
+    "c18d2e64d8ed4912f1e388a32b1c0609 8796 libqalculate_5.5.2-1.debian.tar.xz 0bbc38f060b89982950ae86ed3a239e2 2494 libqalculate_5.5.2-1.dsc 0a13c424593ac9534a00fc241df06b18 2211598 libqalculate_5.5.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,16 +36,16 @@
     "libqalculate"
   ],
   "Package-List": [
-    "libqalculate-data deb libs optional arch=all libqalculate-dev deb libdevel optional arch=any libqalculate-doc deb doc optional arch=all libqalculate20-data deb oldlibs optional arch=all libqalculate22 deb libs optional arch=any qalc deb math optional arch=any"
+    "libqalculate-data deb libs optional arch=all libqalculate-dev deb libdevel optional arch=any libqalculate-doc deb doc optional arch=all libqalculate20-data deb oldlibs optional arch=all libqalculate23 deb libs optional arch=any qalc deb math optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Uploaders": [
-    "James Lu \u003cjames@overdrivenetworks.com\u003e, Phil Morrell \u003cdebian@emorrp1.name\u003e,"
+    "James Lu \u003cjlu@debian.org\u003e, Phil Morrell \u003cdebian@emorrp1.name\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/libqalculate"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/libqalculate.git"
   ],
   "Version": [
-    "4.5.1-1"
+    "5.5.2-1"
   ]
 }

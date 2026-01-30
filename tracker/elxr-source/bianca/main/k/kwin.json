@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "kwin-common, kwin-data, kwin-dev, kwin-wayland, kwin-x11, libkwineffects14, libkwinglutils14"
+    "kwin-common, kwin-data, kwin-dev, kwin-wayland, kwin-x11, libkwin6"
   ],
   "Build-Depends": [
-    "breeze-dev (\u003e= 4:5.27.5~), cmake (\u003e= 3.16~), debhelper-compat (= 13), dh-sequence-kf5, dh-sequence-python3, extra-cmake-modules (\u003e= 5.102.0~), gettext, hwdata, kscreenlocker-dev (\u003e= 5.27.5~), libcap-dev [linux-any], libdrm-dev (\u003e= 2.4.112~), libegl-dev (\u003e= 1.2~), libepoxy-dev (\u003e= 1.3), libfontconfig-dev, libfreetype-dev, libgbm-dev, libice-dev, libinput-dev (\u003e= 1.19~), libkdecorations2-dev (\u003e= 4:5.27.5~), libkf5activities-dev (\u003e= 5.102.0~), libkf5auth-dev (\u003e= 5.102.0~), libkf5config-dev (\u003e= 5.102.0~), libkf5configwidgets-dev (\u003e= 5.102.0~), libkf5coreaddons-dev (\u003e= 5.102.0~), libkf5crash-dev (\u003e= 5.102.0~), libkf5dbusaddons-dev (\u003e= 5.102.0~), libkf5declarative-dev (\u003e= 5.102.0~), libkf5doctools-dev (\u003e= 5.102.0~), libkf5globalaccel-dev (\u003e= 5.102.0~), libkf5i18n-dev (\u003e= 5.102.0~), libkf5idletime-dev (\u003e= 5.102.0~), libkf5itemviews-dev (\u003e= 5.102.0~), libkf5kcmutils-dev (\u003e= 5.102.0~), libkf5newstuff-dev (\u003e= 5.102.0~), libkf5notifications-dev (\u003e= 5.102.0~), libkf5package-dev (\u003e= 5.102.0~), libkf5plasma-dev (\u003e= 5.102.0~), libkf5runner-dev (\u003e= 5.102.0~), libkf5service-dev (\u003e= 5.102.0~), libkf5wayland-dev (\u003e= 4:5.102.0~), libkf5widgetsaddons-dev (\u003e= 5.102.0~), libkf5windowsystem-dev (\u003e= 5.102.0~), libkf5xmlgui-dev (\u003e= 5.102.0~), liblcms2-dev, libpipewire-0.3-dev (\u003e= 0.3.29), libqaccessibilityclient-qt5-dev, libqt5waylandclient5-dev, libqt5x11extras5-dev (\u003e= 5.15.2~), libsm-dev, libudev-dev [linux-any], libwayland-dev (\u003e= 1.20~), libx11-xcb-dev, libxcb-composite0-dev (\u003e= 1.10~), libxcb-cursor-dev, libxcb-damage0-dev (\u003e= 1.10~), libxcb-glx0-dev (\u003e= 1.10~), libxcb-icccm4-dev, libxcb-image0-dev, libxcb-keysyms1-dev, libxcb-present-dev (\u003e= 1.10~), libxcb-randr0-dev (\u003e= 1.10~), libxcb-render0-dev (\u003e= 1.10~), libxcb-shape0-dev (\u003e= 1.10~), libxcb-shm0-dev (\u003e= 1.10~), libxcb-sync-dev (\u003e= 1.10~), libxcb-util-dev, libxcb-xfixes0-dev (\u003e= 1.10~), libxcb-xinerama0-dev (\u003e= 1.10~), libxcb-xkb-dev (\u003e= 1.10~), libxcb-xtest0-dev, libxcb1-dev (\u003e= 1.10~), libxcursor-dev, libxcvt-dev (\u003e= 0.1.1~), libxi-dev, libxkbcommon-dev (\u003e= 0.7.0~), libxkbcommon-x11-dev, pkg-config, pkg-kde-tools (\u003e= 0.15.18~), plasma-wayland-protocols (\u003e= 1.9.0~), python3:any, qtbase5-dev (\u003e= 5.15.2~), qtbase5-private-dev, qtdeclarative5-dev (\u003e= 5.15.2~), qttools5-dev (\u003e= 5.15.2~), qtwayland5-dev-tools, wayland-protocols (\u003e= 1.31~), xwayland (\u003e= 2:22.1.7-1~)"
+    "debhelper-compat (= 13), dh-sequence-kf6, breeze-dev (\u003e= 4:6.3.4~), cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.10.0~), gettext, hwdata, kscreenlocker-dev (\u003e= 6.3.4~), kwayland-dev (\u003e= 4:6.3.4~), libcanberra-dev, libcap-dev [linux-any], libcap2-bin [linux-any], libdisplay-info-dev, libdrm-dev (\u003e= 2.4.116~), libegl-dev (\u003e= 1.2~), libeis-dev, libepoxy-dev (\u003e= 1.3), libfontconfig-dev, libfreetype-dev, libgbm-dev, libice-dev, libinput-dev (\u003e= 1.26~), libkdecorations3-dev (\u003e= 4:6.3.4~), libkf6auth-dev (\u003e= 6.10.0~), libkf6colorscheme-dev (\u003e= 6.10.0~), libkf6config-dev (\u003e= 6.10.0~), libkf6configwidgets-dev (\u003e= 6.10.0~), libkf6coreaddons-dev (\u003e= 6.10.0~), libkf6crash-dev (\u003e= 6.10.0~), libkf6dbusaddons-dev (\u003e= 6.10.0~), libkf6declarative-dev (\u003e= 6.10.0~), libkf6doctools-dev (\u003e= 6.10.0~), libkf6globalaccel-dev (\u003e= 6.10.0~), libkf6guiaddons-dev (\u003e= 6.10.0~), libkf6i18n-dev (\u003e= 6.10.0~), libkf6idletime-dev (\u003e= 6.10.0~), libkf6itemviews-dev (\u003e= 6.2.0~), libkf6kcmutils-dev (\u003e= 6.10.0~), libkf6newstuff-dev (\u003e= 6.10.0~), libkf6notifications-dev (\u003e= 6.10.0~), libkf6package-dev (\u003e= 6.10.0~), libkf6runner-dev (\u003e= 6.2.0~), libkf6service-dev (\u003e= 6.10.0~), libkf6svg-dev (\u003e= 6.10.0~), libkf6widgetsaddons-dev (\u003e= 6.10.0~), libkf6windowsystem-dev (\u003e= 6.10.0~), libkf6xmlgui-dev (\u003e= 6.10.0~), libkglobalacceld-dev (\u003e= 6.3.4~), libkirigami-dev (\u003e= 6.10.0~), liblcms2-dev, libpipewire-0.3-dev (\u003e= 0.3.29), libplasma-dev (\u003e= 6.3.4~), libplasmaactivities-dev (\u003e= 6.3.4~), libqaccessibilityclient-qt6-dev, libsm-dev, libsystemd-dev, libudev-dev [linux-any], libwayland-dev (\u003e= 1.22~), libx11-xcb-dev, libxcb-composite0-dev (\u003e= 1.10~), libxcb-cursor-dev, libxcb-damage0-dev (\u003e= 1.10~), libxcb-dri3-dev (\u003e= 1.10~), libxcb-glx0-dev (\u003e= 1.10~), libxcb-icccm4-dev, libxcb-image0-dev, libxcb-keysyms1-dev, libxcb-present-dev (\u003e= 1.10~), libxcb-randr0-dev (\u003e= 1.10~), libxcb-render0-dev (\u003e= 1.10~), libxcb-shape0-dev (\u003e= 1.10~), libxcb-shm0-dev (\u003e= 1.10~), libxcb-sync-dev (\u003e= 1.10~), libxcb-util-dev, libxcb-xfixes0-dev (\u003e= 1.10~), libxcb-xinerama0-dev (\u003e= 1.10~), libxcb-xinput-dev (\u003e= 1.10~), libxcb-xkb-dev (\u003e= 1.10~), libxcb-xtest0-dev, libxcb1-dev (\u003e= 1.10~), libxcursor-dev, libxcvt-dev (\u003e= 0.1.1~), libxkbcommon-dev (\u003e= 0.7.0~), libxkbcommon-x11-dev, pkgconf, plasma-wayland-protocols (\u003e= 1.14.0~), qt6-5compat-dev (\u003e= 6.7.0~), qt6-base-dev (\u003e= 6.7.0~), qt6-base-private-dev (\u003e= 6.6.0+dfsg~), qt6-declarative-dev (\u003e= 6.7.0~), qt6-declarative-private-dev, qt6-sensors-dev (\u003e= 6.7.0~), qt6-svg-dev (\u003e= 6.7.0~), qt6-tools-dev (\u003e= 6.7.0~), qt6-wayland-dev (\u003e= 6.7.0~), qt6-wayland-dev-tools, wayland-protocols (\u003e= 1.38~), xwayland (\u003e= 2:22.1.7-1~)"
   ],
   "Checksums-Sha1": [
-    "381b42cc7fd06c26971dfd474bf93189aa79c878 27236 kwin_5.27.5-3.debian.tar.xz 95c3a44b22fce08ba63d517de07ca8eed053053a 4864 kwin_5.27.5-3.dsc 41d3b8e0f6e40241df48d0bc6f96de840736fedb 7622688 kwin_5.27.5.orig.tar.xz 83accce0c4e20b264214a22f5351b855b5d7afca 833 kwin_5.27.5.orig.tar.xz.asc"
+    "c44929ba63afb73edff743a27c0b3ac90883bee3 58432 kwin_6.3.6-1.debian.tar.xz 055663099a3ba50110f06d31db80bace6de0d409 5071 kwin_6.3.6-1.dsc ededcb8c1268c2745ff7d5e6cbddbd8cf8fa9b69 8949768 kwin_6.3.6.orig.tar.xz 81aa8f530bda26c4641777b48fa357ceeebb76bd 488 kwin_6.3.6.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "159206106736b41678783a1bfb309541ed5f98b15f77f9cb396eeff0c29cc791 27236 kwin_5.27.5-3.debian.tar.xz d6269bc85aee7ed143440831556c395c5e4414f7a54a7c0d434c11dc6211e9ab 4864 kwin_5.27.5-3.dsc bb1226b15919681ea5f1de58b24ea4b568ea3f2b5452411f76daa80eb30c20ea 7622688 kwin_5.27.5.orig.tar.xz f02671ae13cb4c73dc28173733130d6c06be7966e5dcd9e621dcb29b3437ad6a 833 kwin_5.27.5.orig.tar.xz.asc"
+    "7ccdb4aeb927ce66bd0f81f64b5408375d1d8decf93b98201fce2a06f9a8c9f6 58432 kwin_6.3.6-1.debian.tar.xz ec80d6499f6e5b9628894bed27c335ebb9db166a2caa0dd3fcc35d0cab6a3ecc 5071 kwin_6.3.6-1.dsc 27f2205f06d58f1d1f480d2a94ae24022c2f95b9c1fdc5a549f8e143713fce12 8949768 kwin_6.3.6.orig.tar.xz d5828ad8ac94bfdf10a7bc8e05a335064d3be3e548cf86fbcb89e645aa4b35eb 488 kwin_6.3.6.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "e16a19e7a2775ea853b559b334e58ba7fccad374fa75dacdac9ff89ec2c47b027f371252759d077ce94facf4c40fc0189183e20bf43e336c14dc158511e81aa1 27236 kwin_5.27.5-3.debian.tar.xz de8839cb304c9836075e3c1524c7a497a8728b7d0bc9ce9ee02e47337271899d5f07c445a7ba7728c2865dab548e067d22e0ab4cffe2c3ecc449b68b75cf6aaa 4864 kwin_5.27.5-3.dsc 777bf193ad8e4440ee9866f6b725e191460c5ff4b33e3e517184568fda3aee4936be5274daa33996ae654465b477b108fee83f91e33f0db8f622de7629340de8 7622688 kwin_5.27.5.orig.tar.xz be5dc34cc5479bb833f412c3a32904a2afd8e9d39c49e1061a377f9641d08dc17d87b01aaf852c5ed59010f98b0e8aa4f4568aae1a658fc17955c640d118691d 833 kwin_5.27.5.orig.tar.xz.asc"
+    "8d3a2bf59204e977d9291f8ddca34cbae2174212f40514ca9f192d6a2f6fbc4b3903294632d992642512478181d064123525d11272f9eab1ff1dcaa62814e8aa 58432 kwin_6.3.6-1.debian.tar.xz bf52c2945c43a773074c3e0988c1d56b6537b98fe589098d489c77f0d3c88f201422436364f66b27ae2cf0899b7dd330dece184caba0568d1f7160dd91a44d91 5071 kwin_6.3.6-1.dsc ee753c94172b7a9997ea0a78a97b75de3ef9b616015c75058045bf302759184591e61aa1ebd541f1b01add2f748d515b9e019fff2ccf55cefd894b032ec6e788 8949768 kwin_6.3.6.orig.tar.xz fcead57f6b3db65caabae8d940b1da1d839b3ffe544adf624eff6ec76769bcdc6f21e491b3f49a024f79cb16f56830480e4cc6d3e09a89c209433fd8d5fd8699 488 kwin_6.3.6.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/k/kwin"
   ],
   "Files": [
-    "110165a7aa72912b6716729ee8d2acf2 27236 kwin_5.27.5-3.debian.tar.xz c993e1fa85a97173bc48d0deba4a4bb1 4864 kwin_5.27.5-3.dsc 9dcdcf269faee1e5370840f6e8b7eb7f 7622688 kwin_5.27.5.orig.tar.xz 6b797736ce699e5309ddf0194a3f4e54 833 kwin_5.27.5.orig.tar.xz.asc"
+    "c59512736ede25de1b00046ab73a1156 58432 kwin_6.3.6-1.debian.tar.xz 4f4190924853c9e19d2d85dabedf89fd 5071 kwin_6.3.6-1.dsc 11ca2b004df382075b80cc92d8267c5e 8949768 kwin_6.3.6.orig.tar.xz c5c08ffaacad1b8c634462ec77d9a36f 488 kwin_6.3.6.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "kwin"
   ],
   "Package-List": [
-    "kwin-common deb kde optional arch=any kwin-data deb kde optional arch=all kwin-dev deb libdevel optional arch=any kwin-wayland deb kde optional arch=any kwin-x11 deb kde optional arch=any libkwineffects14 deb libs optional arch=any libkwinglutils14 deb libs optional arch=any"
+    "kwin-common deb kde optional arch=any kwin-data deb kde optional arch=all kwin-dev deb libdevel optional arch=any kwin-wayland deb kde optional arch=any kwin-x11 deb kde optional arch=any libkwin6 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
     "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kwin.git"
   ],
   "Version": [
-    "4:5.27.5-3"
+    "4:6.3.6-1"
   ]
 }

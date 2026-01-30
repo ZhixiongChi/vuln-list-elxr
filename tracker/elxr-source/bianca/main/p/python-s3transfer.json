@@ -6,22 +6,22 @@
     "python3-s3transfer"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), python3-all, python3-setuptools, dh-python"
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-botocore (\u003e= 1.37.4+repack-1~), python3-pytest \u003c!nocheck\u003e, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "2faf50ac076ae7bd6dcfde7396321417bacc67bc 3064 python-s3transfer_0.6.0-1.debian.tar.xz 8030be6637442f082fe7ede58529df12c462fcfd 2087 python-s3transfer_0.6.0-1.dsc 00833afbdf7549000a778445ea63fbb852191036 155958 python-s3transfer_0.6.0.orig.tar.gz"
+    "7016cd3fca0327920063ad7a58fbbd190f201894 3712 python-s3transfer_0.11.4-1.debian.tar.xz 47cda582d4f5d9de351fde0810a6475d62ed2188 2266 python-s3transfer_0.11.4-1.dsc 51413326c0ad16af83b7def3d65139e23989fe16 171533 python-s3transfer_0.11.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "ec5dc2f07a35303a26387ef58b1c1594c6697dbed2704561e443d1e30529e2e8 3064 python-s3transfer_0.6.0-1.debian.tar.xz 6bb105266ea2753ae7f84da50cac6e717aa9c83c63ef7577954b0217d66699ee 2087 python-s3transfer_0.6.0-1.dsc e8a9e379a537afd3754d1d5ecc25e4391d61bf77acdf055e12324daa1120f16f 155958 python-s3transfer_0.6.0.orig.tar.gz"
+    "769132cb7771a51a45e07f11ed1e83be41582def6618452e39c731195a5b10f4 3712 python-s3transfer_0.11.4-1.debian.tar.xz eb4ddcf41a4d964558f6662bb805e50e317526870907aa9890a7696cdd82814d 2266 python-s3transfer_0.11.4-1.dsc 2c0c097f6f1172126b311ffed6da96923433c36aa149050e7feb83b5949c036b 171533 python-s3transfer_0.11.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a281491b4b60adf63932a7f938f25a4098da178c424109993c7da704f0c734cbe2069ffe61ded1f3e65fd67d974630462e7cf809882ebbf17d5d346a4cd70b8e 3064 python-s3transfer_0.6.0-1.debian.tar.xz b4ddb521abdd610bac56a589be4b4eeaed169d0fccb3824bc41812bff61d0d57addfe45f9ebb49d5857e13a7643a989c85978eca1d938654e4b4e9dac6a00c35 2087 python-s3transfer_0.6.0-1.dsc 6e80cf84eb7d71978fcfa291b9d0945c0f09bd9c41a9867caa7f69b72d8147ea02721ecdcdfeba534695adab10c4508c3c407a2d6fc6cc60c75577b01d8dc183 155958 python-s3transfer_0.6.0.orig.tar.gz"
+    "21c748b495f4b566b34216a7e87b2fe06f98190e6613d6e0e2100dc40e51374200cbaec402b8ae1eb00aeaab74d8915a6384086e91138a8ba7294a84c80ae9f7 3712 python-s3transfer_0.11.4-1.debian.tar.xz 1988daed46f19acb6f6bb6c76361a0c37846d149c3e77998a47ecbf65aa4ede6b28166f13074cd01d02ca85ebea0e4507ef71c3263f3baf7549e21409a380d46 2266 python-s3transfer_0.11.4-1.dsc ea9248c723bfb1d2f19a44eefbf95418351a24c06f8d2f1b935c493baae9108a1542086f20b67a5f86a435367c8e8ea622289d95f004c4f7e1a534ce374ee109 171533 python-s3transfer_0.11.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-s3transfer"
   ],
   "Files": [
-    "57d09e229cfccaa3671f171212e15bb1 3064 python-s3transfer_0.6.0-1.debian.tar.xz b9c6cbfba8e9639ffcac9de059fca760 2087 python-s3transfer_0.6.0-1.dsc 34f27897a2794e669a199184318fd570 155958 python-s3transfer_0.6.0.orig.tar.gz"
+    "c18d04afc32c51e87845c297dadd3dc9 3712 python-s3transfer_0.11.4-1.debian.tar.xz 1c3ab6ade1480e7ecde4b3ccf6b1b9f4 2266 python-s3transfer_0.11.4-1.dsc ba0e236cfa903a7f1d7b25e2b4c48fbd 171533 python-s3transfer_0.11.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,13 @@
     "python3-s3transfer deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
-    "TANIGUCHI Takaki \u003ctakaki@debian.org\u003e"
+    "TANIGUCHI Takaki \u003ctakaki@debian.org\u003e, Thomas Bechtold \u003cthomasbechtold@jpberlin.de\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-s3transfer"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/python-s3transfer.git"
   ],
   "Version": [
-    "0.6.0-1"
+    "0.11.4-1"
   ]
 }

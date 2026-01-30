@@ -6,22 +6,25 @@
     "fail2ban"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), debhelper, dh-python, python3, python3-setuptools, python3-pyinotify, sqlite3, 2to3, pkg-config, systemd"
+    "debhelper-compat (= 13), debhelper, dh-python, python3, python3-setuptools, python3-pyinotify, sqlite3, pkgconf, systemd-dev"
   ],
   "Checksums-Sha1": [
-    "e30c1139ca3f40d55cd7cb3bf83ad619599612fa 29460 fail2ban_1.0.2-2.debian.tar.xz 427c64bd05b4e0b12b6fb55c342f7a9bd12a7c10 2088 fail2ban_1.0.2-2.dsc 8da05640142805588a9b9a90656036b773f545a4 583295 fail2ban_1.0.2.orig.tar.gz"
+    "aebe1efb597e1d1876483b67c7fe993a76c2466e 31388 fail2ban_1.1.0-8.debian.tar.xz 0da278e56c8d6eb6a917dbb58e365aba84732bc1 2319 fail2ban_1.1.0-8.dsc c38ab0abdbd4a29ce9e44b09457d9daf742a4906 603854 fail2ban_1.1.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "70fedf1d41007d7806ba8060ff2c182401b7969f72b1560987ab5983b8c67151 29460 fail2ban_1.0.2-2.debian.tar.xz 4204354cce3680466bf8cfae009f10ade92fedd400b16c9485b496494eaef98e 2088 fail2ban_1.0.2-2.dsc ae8b0b41f27a7be12d40488789d6c258029b23a01168e3c0d347ee80b325ac23 583295 fail2ban_1.0.2.orig.tar.gz"
+    "48427f0a83b9bccd6fa1d16bec86646e78ebfd3c342a9142444e75f9102ab6ae 31388 fail2ban_1.1.0-8.debian.tar.xz ae88563ebc9b6416583ac0fe2a94a6f586e37b528ea6a52185d3d864e913de84 2319 fail2ban_1.1.0-8.dsc 474fcc25afdaf929c74329d1e4d24420caabeea1ef2e041a267ce19269570bae 603854 fail2ban_1.1.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "dd3f0e17de41b6afc2e2ca71ddebf3724f5fbec43aa6c2bd12a9ae51acb2b6636e3b277ef11a935f1d574a07760191eb0edeb8e58c479807e784199a68faf3cd 29460 fail2ban_1.0.2-2.debian.tar.xz 62cb3390fff0291bde0a546dbcaefea6c3a8f0c4294f18223572a6d3861e394afc3693c80dec041744f0c55f9731e1b01a2bbe1b4559f1c8f3011ec8115d783c 2088 fail2ban_1.0.2-2.dsc 688a84361b5794e1658f53d2d200ce752fe1e3320ddb1742c32c4b4b82a79ace16ae464e7ea3eeb94a0e862bcac73c2d3a0e61dd7b28e179a4c857f950d74dbb 583295 fail2ban_1.0.2.orig.tar.gz"
+    "a21845aeb8b733d62f859963f6e5e6001dfa7054ab6f081b6f6e97fb311f5650d90a8a80a783129779b0301432119d08d7196af9b4776f7feeef1ff1b6512882 31388 fail2ban_1.1.0-8.debian.tar.xz 097625a6614e22e8f7b5134ab29bbe62b954b077337b1de96c35d3b77879365bdbcea579490a6d38bf6640c58e1ba4edee1148110a222aeb51a62aec7d279003 2319 fail2ban_1.1.0-8.dsc 9bff7b9c41e58a953901800468e5c4153c9db6af01c7eb18111ad8620b40d03a0771020472fb759b2809d250e2bb45471e6c7e8283e72ea48290ecf7bf921821 603854 fail2ban_1.1.0.orig.tar.gz"
+  ],
+  "Dgit": [
+    "68c9dff8c0df53feb277d5065a6b61a8b1c920fc debian archive/debian/1.1.0-8 https://git.dgit.debian.org/fail2ban"
   ],
   "Directory": [
     "pool/main/f/fail2ban"
   ],
   "Files": [
-    "df8c884975c07dcdafa3daecb22af704 29460 fail2ban_1.0.2-2.debian.tar.xz 83ae475223ab49d5872a043b939b7485 2088 fail2ban_1.0.2-2.dsc 96582af04e60bf56617da9f9cbda0aa7 583295 fail2ban_1.0.2.orig.tar.gz"
+    "94ad20eeac98e948adbe49d54ecbe839 31388 fail2ban_1.1.0-8.debian.tar.xz 3bb032642874b45671add84b966549dd 2319 fail2ban_1.1.0-8.dsc c1fbcad52a1992085eeeb326db1e849e 603854 fail2ban_1.1.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +42,13 @@
     "fail2ban deb net optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "libsystemd-dev, python3, python3-dnspython, python3-pyinotify, python3-setuptools, python3-systemd, sqlite3"
   ],
   "Uploaders": [
     "Yaroslav Halchenko \u003cdebian@onerussian.com\u003e, Sylvestre Ledru \u003csylvestre@debian.org\u003e"
@@ -51,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/fail2ban.git"
   ],
   "Version": [
-    "1.0.2-2"
+    "1.1.0-8"
   ]
 }

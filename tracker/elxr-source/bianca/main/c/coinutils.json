@@ -6,28 +6,31 @@
     "coinor-libcoinutils3v5, coinor-libcoinutils-dev, coinor-libcoinutils-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 10), doxygen, graphviz, liblapack-dev, libbz2-dev, zlib1g-dev, gfortran"
+    "debhelper-compat (= 13), gfortran-for-host, libbz2-dev, liblapack-dev, zlib1g-dev"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, graphviz"
   ],
   "Checksums-Sha1": [
-    "f8ad1cbd11ff79bcfb7db00c58a88bf3041bcb88 9072 coinutils_2.11.4+repack1-2.debian.tar.xz 15c459dfacf7a8458bf2f2772cfc00279db27096 2176 coinutils_2.11.4+repack1-2.dsc 53e30ed3a30663a864a3420f0446db659c1e4903 841280 coinutils_2.11.4+repack1.orig.tar.xz"
+    "4a260d45a22da69a6537700103f6cdfef089d987 10808 coinutils_2.11.11+ds-5.debian.tar.xz 810c3f19bfe4d96420b1f17ca53cfa15eb3dc074 2029 coinutils_2.11.11+ds-5.dsc 02d3cdf2139f2ca6e40e36c329641f213ed8a646 657648 coinutils_2.11.11+ds.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "9bca7801665d452a70b9fd592f4063f7c3ec5d4f2a60915b986dcba85cd7e82a 9072 coinutils_2.11.4+repack1-2.debian.tar.xz d17102c1fdc778aba2e7e8855fc0617ca06aa6f75ea66aa43ba025690eea2396 2176 coinutils_2.11.4+repack1-2.dsc a9d2bdcb22a00a571c397ce55c3107730729f7d07fb3e60f1058668c5884c074 841280 coinutils_2.11.4+repack1.orig.tar.xz"
+    "623732150b53d7297dac408ef04bf94f8ef0eceb0b158da9921298713271b1e2 10808 coinutils_2.11.11+ds-5.debian.tar.xz 474bf72e1a521112168ed35adf873345c0ba1f842f318dfeaaa127fb687058bd 2029 coinutils_2.11.11+ds-5.dsc 00a50ec6c0e0fa0f703e9e68e0b696ed156aee30d6ff6db56b88256b3accc4f7 657648 coinutils_2.11.11+ds.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "61e7141f68c129c7a10c6c5a577f1224ccbfc0dc474b1bbf7d5651f0c43d4e2b41781dae9a95c46cfca42eeaade77f6e89a15680286e42163b04bf6e10bcf632 9072 coinutils_2.11.4+repack1-2.debian.tar.xz 7561449380c12b24fa19138fe3860b39a9b2563375f1b3588c7fbd9308cb77950d5586ffaf521a0e938c7d40c73caa242a460d94466b8db1b11136eebe571a25 2176 coinutils_2.11.4+repack1-2.dsc feb56aa551906be2eb86b443e69d0f9f9c4d801cb1f01816848a7218187f89d124bfdcc693b577561ce9361a09f48f622f21f1ab53aa8d9679d0df545f57277c 841280 coinutils_2.11.4+repack1.orig.tar.xz"
+    "36a2cb60357f3d253e8e070b9bd3b1b9d8c1962d820db42408c02f364f4466307bad78af098bae1e284354a8bd3f2f352e4c7785aba9bd69997baee411caa890 10808 coinutils_2.11.11+ds-5.debian.tar.xz 880b88fcd2d9ee94d1465be9f20c1f9fcac4f9fab16bcd0339b8cd1b4f481b4c675cc9ad1459df3ab622d9ea9e621e5018a6b426eda1ef5c33a7a3b82587907a 2029 coinutils_2.11.11+ds-5.dsc 33d990b813c9b135f8191010d9ab234fb549b518f94ad8ebc6c780e2ec320f60d9e0c87cfc18af2dbb9cdce57fe9632e18836855fd8cf6947e553977bd635e6f 657648 coinutils_2.11.11+ds.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/c/coinutils"
   ],
   "Files": [
-    "b73a1b77492c284e35546b0d5511bf2b 9072 coinutils_2.11.4+repack1-2.debian.tar.xz 6e140347d8d8c2286adb32ec60adee27 2176 coinutils_2.11.4+repack1-2.dsc c04635dfcc0ecb3a2ab1380a168ada3c 841280 coinutils_2.11.4+repack1.orig.tar.xz"
+    "7b995d9a9fb4d70a04230d22f82f5a39 10808 coinutils_2.11.11+ds-5.debian.tar.xz d4c6ff80534fe489536918bdf7d59627 2029 coinutils_2.11.11+ds-5.dsc e8830df9174faec771331215a9388a46 657648 coinutils_2.11.11+ds.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://projects.coin-or.org/CoinUtils"
+    "https://github.com/coin-or/CoinUtils"
   ],
   "Maintainer": [
     "Debian QA Group \u003cpackages@qa.debian.org\u003e"
@@ -39,7 +42,7 @@
     "coinor-libcoinutils-dev deb libdevel optional arch=any coinor-libcoinutils-doc deb doc optional arch=all coinor-libcoinutils3v5 deb science optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.7.0"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/science-team/coinutils"
@@ -48,6 +51,6 @@
     "https://salsa.debian.org/science-team/coinutils.git"
   ],
   "Version": [
-    "2.11.4+repack1-2"
+    "2.11.11+ds-5"
   ]
 }

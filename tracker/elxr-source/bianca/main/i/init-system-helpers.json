@@ -6,22 +6,22 @@
     "init-system-helpers, init"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), fakeroot [!hurd-i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !x32] \u003c!nocheck\u003e, fakechroot [!hurd-i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !x32] \u003c!nocheck\u003e, libtest-deep-perl \u003c!nocheck\u003e, perl:any, python3-docutils"
+    "debhelper-compat (= 13), fakeroot [!hurd-amd64 !hurd-i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !x32] \u003c!nocheck\u003e, fakechroot [!hurd-amd64 !hurd-i386 !ia64 !kfreebsd-amd64 !kfreebsd-i386 !x32] \u003c!nocheck\u003e, libtest-deep-perl \u003c!nocheck\u003e, perl:any, python3-docutils \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "03b3f1e3a0868db490193e76059448ef4e95548a 2227 init-system-helpers_1.65.2+deb12u1.dsc 6585fe0b5bcd99329aa56c91614386433d48be2b 44996 init-system-helpers_1.65.2+deb12u1.tar.xz"
+    "b79c1fca08ca8c538a5967b46f9af5fd767308ae 2266 init-system-helpers_1.69~deb13u1.dsc a9f896dadb2cb3ac8fb63ceaf22a7908f3611d60 45852 init-system-helpers_1.69~deb13u1.tar.xz"
   ],
   "Checksums-Sha256": [
-    "d4c6d21578b0cc835b8941f2d0f1fc3de6c75af63c840d59e75a9a01a0fd4a09 2227 init-system-helpers_1.65.2+deb12u1.dsc 84e6f3d88a72004751a8b01b48aa21f6e6c47da57aa2337d010901e2d5862b56 44996 init-system-helpers_1.65.2+deb12u1.tar.xz"
+    "873082d72727267b6207e38df47e3002aeb0ed554f876db17c7bbfeb26174ee6 2266 init-system-helpers_1.69~deb13u1.dsc bbd65c63420b6335b91cbf5daad9a70632a087657eb9078ea000f0a16c2d83da 45852 init-system-helpers_1.69~deb13u1.tar.xz"
   ],
   "Checksums-Sha512": [
-    "f5592e498b5afab7b90227d39f04ab1ef36e77c16ea9a85cdfdaffcdc4744110891435178c8181906dd98483d41e051cb26ccd7ac75db42412a8808dbae4287a 2227 init-system-helpers_1.65.2+deb12u1.dsc 6455003dd63bd9a5f9ac68c2a15808c6f75786a07ef103836153f145da3d186cc5e5f4120782654ce1676b579a980bdefd0dfc230159b4765a6c11aaea8c8303 44996 init-system-helpers_1.65.2+deb12u1.tar.xz"
+    "41ca2b6851ad700eb94dbf71e1d28c2e201091cc5e14fcfbadb8a585f73fd0048bb80691da60ca1e112040c390010c91213db9e34abf56d976bb7caa47212aeb 2266 init-system-helpers_1.69~deb13u1.dsc 16539843e40318bc6904a3401c77b16c66e9e2755c95c5fc240fb4505854adc4686df4d310eabfa5f300b84e251e7cfe846c29147bbeb98c1e1dbeb79ea3a9a5 45852 init-system-helpers_1.69~deb13u1.tar.xz"
   ],
   "Directory": [
     "pool/main/i/init-system-helpers"
   ],
   "Files": [
-    "7d64a1fb391dd327225c2cc8da71104d 2227 init-system-helpers_1.65.2+deb12u1.dsc 2604fab1b2342b30f472612f4ccd18c7 44996 init-system-helpers_1.65.2+deb12u1.tar.xz"
+    "647ebb996be88e9e6c6edf43e0c64144 2266 init-system-helpers_1.69~deb13u1.dsc e02d3f64bc6f881d9f24a21d694ddbca 45852 init-system-helpers_1.69~deb13u1.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -33,10 +33,10 @@
     "init-system-helpers"
   ],
   "Package-List": [
-    "init deb metapackages important arch=any init-system-helpers deb admin required arch=all essential=yes"
+    "init deb metapackages important arch=any protected=yes init-system-helpers deb admin required arch=all essential=yes"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/init-system-helpers.git"
   ],
   "Version": [
-    "1.65.2+deb12u1"
+    "1.69~deb13u1"
   ]
 }

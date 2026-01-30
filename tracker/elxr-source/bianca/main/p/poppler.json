@@ -3,28 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "libpoppler126, libpoppler-dev, libpoppler-private-dev, libpoppler-glib8, libpoppler-glib-dev, libpoppler-glib-doc, gir1.2-poppler-0.18, libpoppler-qt5-1, libpoppler-qt5-dev, libpoppler-qt6-3, libpoppler-qt6-dev, libpoppler-cpp0v5, libpoppler-cpp-dev, poppler-utils"
+    "libpoppler147, libpoppler-dev, libpoppler-private-dev, libpoppler-glib8t64, libpoppler-glib-dev, libpoppler-glib-doc, gir1.2-poppler-0.18, libpoppler-qt5-1t64, libpoppler-qt5-dev, libpoppler-qt6-3t64, libpoppler-qt6-dev, libpoppler-cpp2, libpoppler-cpp-dev, poppler-utils"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, cmake, libboost-dev (\u003e= 1.58.0), libglib2.0-dev (\u003e= 2.56), libfontconfig1-dev, libcairo2-dev (\u003e= 1.10.0), libgdk-pixbuf-2.0-dev, libgtk-3-dev, libopenjp2-7-dev, libjpeg-dev, libpng-dev, libtiff-dev, liblcms2-dev, libfreetype6-dev, gtk-doc-tools (\u003e= 1.14), pkg-config (\u003e= 0.18), python3:any, libgirepository1.0-dev (\u003e= 1.42.0-2~), qtbase5-dev, qt6-base-dev, zlib1g-dev, libnss3-dev"
+    "debhelper-compat (= 13), dh-sequence-gir, dpkg-dev (\u003e= 1.22.5), cmake, gir1.2-cairo-1.0-dev, gir1.2-gio-2.0-dev, gir1.2-gobject-2.0-dev, gtk-doc-tools (\u003e= 1.14), libboost-dev (\u003e= 1.71.0), libcairo2-dev (\u003e= 1.16.0), libcurl4-gnutls-dev, libfontconfig-dev, libfreetype-dev, libgdk-pixbuf-2.0-dev, libgirepository1.0-dev (\u003e= 1.64.0), libglib2.0-dev (\u003e= 2.64), libgpgme-dev, libgpgmepp-dev (\u003e= 1.19.0), libgtk-3-dev, libjpeg-dev, liblcms2-dev, libnss3-dev, libopenjp2-7-dev, libpng-dev, libtiff-dev, pkgconf, python3:any, qt6-base-dev [amd64 arm64 armel armhf loong64 mips64el ppc64el riscv64 s390x alpha hppa hurd-any m68k powerpc ppc64 sh4 sparc64], qtbase5-dev, zlib1g-dev"
   ],
   "Build-Depends-Indep": [
-    "libglib2.0-doc, libcairo2-doc"
+    "libcairo2-doc, libglib2.0-doc"
   ],
   "Checksums-Sha1": [
-    "35b000fed7089f9c9665b756324d4695acfaa2d3 39244 poppler_22.12.0-2+deb12u1.debian.tar.xz f218e1dbf1a9c9c9ddb1256471f1016b801c5977 3425 poppler_22.12.0-2+deb12u1.dsc 28bba6fd877ada1629d5e093d7b1d3701a6bb36f 1845856 poppler_22.12.0.orig.tar.xz"
+    "e104723442cf0b8cacfb8d2e10e6458f34559eaf 42572 poppler_25.03.0-5+deb13u2.debian.tar.xz 59cdc7d37a2177423739a06b4e2ee90e6dd36384 3966 poppler_25.03.0-5+deb13u2.dsc ee5041be2a6bd6b6e5627776c7c82b788e238f58 1954516 poppler_25.03.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "0f06f63abca6d66ef7a65f4e6b59014d124939a27f31752e740af6bbf7037b1b 39244 poppler_22.12.0-2+deb12u1.debian.tar.xz d4523d5b9cf49d9b8d9e9a167279f49b872997658ed3b91b4a365a3263a508df 3425 poppler_22.12.0-2+deb12u1.dsc d9aa9cacdfbd0f8e98fc2b3bb008e645597ed480685757c3e7bc74b4278d15c0 1845856 poppler_22.12.0.orig.tar.xz"
+    "595c170d9093f0037f1e5432d7216bf678db491ae1b2b722dca36f4027de73a1 42572 poppler_25.03.0-5+deb13u2.debian.tar.xz 29dd10813e5bc928ec56753f86fff7298472035dd9c0b678e297c4c5c55b0481 3966 poppler_25.03.0-5+deb13u2.dsc 97da4ff88517a6bbd729529f195f85c8d7a0c3bb4a3d57cb0c685cbb052fe837 1954516 poppler_25.03.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "c44c622cc96c2d294a23c35d3dfac1aa64d810c10fefa2725ec4b8c23deca5e2b506e0103db5d5e121372e65a0f5a6f02740c815b9281e53c17807622b550c08 39244 poppler_22.12.0-2+deb12u1.debian.tar.xz a2afc8625399670f74b690fa6c6f39a0658c86b253bc54a00f42626604cae82b672f8cd6eaf1b16372a42dda719b66cbfc5362a35ad3b65df8de46c6cc9c623d 3425 poppler_22.12.0-2+deb12u1.dsc 5ebfa3920922a94a1ae67aa179c0003df498c018d1c3850568637b966c6cf670ff221b4225e875e1c531d6b7d7e06a63a19b9fbe3ac1f589441aaebf23ca8a09 1845856 poppler_22.12.0.orig.tar.xz"
+    "d0c8cc3ab4187e98644dc9c11ddd75bd78c743bb20c9a5b8dc2c92409a296f618f9d6bd48b2eebf6375afd600c7535a28e85d4928933f008e969fb5aefa5d5eb 42572 poppler_25.03.0-5+deb13u2.debian.tar.xz 978b79a35f84be62f60553f2ebe3dea1c7df9a72ec9f445782a746f4fbd43cde7bbb7ca8d4ed8381ba0012613a85d5525d8e5238464c6210513716cf3d3054a9 3966 poppler_25.03.0-5+deb13u2.dsc 8b550774389688850ff0629de2fbd5b33193076075d5da116151be3340066b0bbf5cd9b86c79949c28b8e670998e30760d5126164b4681f89322cbe8eeeb2172 1954516 poppler_25.03.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/poppler"
   ],
   "Files": [
-    "d8f1572de7216150c89bf62d28a6343c 39244 poppler_22.12.0-2+deb12u1.debian.tar.xz a996daa0df51f0539c34d551cbdd7b21 3425 poppler_22.12.0-2+deb12u1.dsc 39b6a69eceba6adb8afbcee8d47385fd 1845856 poppler_22.12.0.orig.tar.xz"
+    "1079f10b38d0d6546fa9ee3b37f2160e 42572 poppler_25.03.0-5+deb13u2.debian.tar.xz b4d6554b332e4dcc18e493eda315a751 3966 poppler_25.03.0-5+deb13u2.dsc 21bb345c070ab16d7cd3bafcd513cc02 1954516 poppler_25.03.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,16 +39,19 @@
     "poppler"
   ],
   "Package-List": [
-    "gir1.2-poppler-0.18 deb introspection optional arch=any libpoppler-cpp-dev deb libdevel optional arch=any libpoppler-cpp0v5 deb libs optional arch=any libpoppler-dev deb libdevel optional arch=any libpoppler-glib-dev deb libdevel optional arch=any libpoppler-glib-doc deb doc optional arch=all libpoppler-glib8 deb libs optional arch=any libpoppler-private-dev deb libdevel optional arch=any libpoppler-qt5-1 deb libs optional arch=any libpoppler-qt5-dev deb libdevel optional arch=any libpoppler-qt6-3 deb libs optional arch=any libpoppler-qt6-dev deb libdevel optional arch=any libpoppler126 deb libs optional arch=any poppler-utils deb utils optional arch=any"
+    "gir1.2-poppler-0.18 deb introspection optional arch=any libpoppler-cpp-dev deb libdevel optional arch=any libpoppler-cpp2 deb libs optional arch=any libpoppler-dev deb libdevel optional arch=any libpoppler-glib-dev deb libdevel optional arch=any libpoppler-glib-doc deb doc optional arch=all libpoppler-glib8t64 deb libs optional arch=any libpoppler-private-dev deb libdevel optional arch=any libpoppler-qt5-1t64 deb libs optional arch=any libpoppler-qt5-dev deb libdevel optional arch=any libpoppler-qt6-3t64 deb libs optional arch=hurd-any,alpha,amd64,arm64,armel,armhf,hppa,loong64,m68k,mips64el,powerpc,ppc64,ppc64el,riscv64,s390x,sh4,sparc64 libpoppler-qt6-dev deb libdevel optional arch=hurd-any,alpha,amd64,arm64,armel,armhf,hppa,loong64,m68k,mips64el,powerpc,ppc64,ppc64el,riscv64,s390x,sh4,sparc64 libpoppler147 deb libs optional arch=any poppler-utils deb utils optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
+  "Testsuite-Triggers": [
+    "build-essential, cups-filters, pkgconf"
+  ],
   "Uploaders": [
-    "Loic Minier \u003clool@dooz.org\u003e, Pino Toscano \u003cpino@debian.org\u003e, Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e,"
+    "Loic Minier \u003clool@dooz.org\u003e, Pino Toscano \u003cpino@debian.org\u003e, Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/freedesktop-team/poppler"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/freedesktop-team/poppler.git"
   ],
   "Version": [
-    "22.12.0-2+deb12u1"
+    "25.03.0-5+deb13u2"
   ]
 }

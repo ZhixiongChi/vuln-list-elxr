@@ -3,28 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "syslog-ng, syslog-ng-dbg, syslog-ng-dev, syslog-ng-core, syslog-ng-mod-mongodb, syslog-ng-mod-sql, syslog-ng-mod-smtp, syslog-ng-mod-amqp, syslog-ng-mod-geoip2, syslog-ng-mod-redis, syslog-ng-mod-stomp, syslog-ng-mod-riemann, syslog-ng-mod-graphite, syslog-ng-mod-python, syslog-ng-mod-add-contextual-data, syslog-ng-mod-stardate, syslog-ng-mod-snmp, syslog-ng-mod-xml-parser, syslog-ng-mod-http, syslog-ng-mod-rdkafka, syslog-ng-mod-extra, syslog-ng-scl, syslog-ng-mod-examples, syslog-ng-mod-slog"
+    "syslog-ng, syslog-ng-dbg, syslog-ng-dev, syslog-ng-core, syslog-ng-mod-mongodb, syslog-ng-mod-sql, syslog-ng-mod-amqp, syslog-ng-mod-geoip2, syslog-ng-mod-redis, syslog-ng-mod-stomp, syslog-ng-mod-riemann, syslog-ng-mod-graphite, syslog-ng-mod-python, syslog-ng-mod-add-contextual-data, syslog-ng-mod-stardate, syslog-ng-mod-snmp, syslog-ng-mod-xml-parser, syslog-ng-mod-http, syslog-ng-mod-rdkafka, syslog-ng-mod-extra, syslog-ng-scl, syslog-ng-mod-examples, syslog-ng-mod-slog"
   ],
   "Build-Conflicts": [
     "autoconf2.13"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 10~), automake, autoconf-archive, tzdata, pkg-config, flex, bison, xsltproc, docbook-xsl, libesmtp-dev, libivykis-dev, libnet1-dev, libglib2.0-dev, libdbi-dev | libdbi0-dev, libssl-dev, libmongoc-dev, libbson-dev, libjson-c-dev | libjson0-dev, libwrap0-dev, libpcre3-dev, libcap-dev [linux-any], libsystemd-dev [linux-any], libhiredis-dev, libriemann-client-dev, librabbitmq-dev, python3, python3-dev, dh-python, dh-exec, python3-ply, libxml2-utils, geoip-database, libmaxminddb-dev, libcurl4-openssl-dev, libsnappy-dev, libsnmp-dev [linux-any hurd-i386], librdkafka-dev (\u003e= 1.0.0), pylint (\u003e= 2.4.0) | pylint3"
+    "debhelper (\u003e= 10~), automake, autoconf-archive, tzdata, pkgconf, flex, bison, xsltproc, docbook-xsl, libivykis-dev, libnet1-dev, libglib2.0-dev, libdbi-dev | libdbi0-dev, libssl-dev, libmongoc-dev, libbson-dev, libjson-c-dev | libjson0-dev, libwrap0-dev, libpcre2-dev, libcap-dev [linux-any], libsystemd-dev [linux-any], libhiredis-dev, libriemann-client-dev, librabbitmq-dev, systemd-dev [linux-any], python3, python3-dev, dh-python, dh-exec, python3-ply, python3-setuptools, libxml2-utils, geoip-database, libmaxminddb-dev, libcurl4-openssl-dev, libsnappy-dev, libsnmp-dev [linux-any hurd-i386], librdkafka-dev (\u003e= 1.0.0), pylint (\u003e= 2.4.0) | pylint3, python3-pip, gperf"
   ],
   "Checksums-Sha1": [
-    "c31036c69e5bf623e4e3fe704884c4bdbcca6878 44552 syslog-ng_3.38.1-5+deb12u1.debian.tar.xz c50bebf7846c33ef495a49ad37a963105f7dbfc1 4424 syslog-ng_3.38.1-5+deb12u1.dsc 28923144ed8682295d40d714f621e9f5d2ade104 1878050 syslog-ng_3.38.1.orig.tar.gz"
+    "d4111a59b431fd4bbee84a7a337075594875fe91 47132 syslog-ng_4.8.1-5+deb13u1.debian.tar.xz d85dfc33e999f529fa9e9d502f91b4f754fbbdd2 4299 syslog-ng_4.8.1-5+deb13u1.dsc cd44c5dd7d6c1c381c2b96d2d7d5a3bebee9f4e7 2315029 syslog-ng_4.8.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "45d7dd06eff2d0984d13c3681a7c9d4a286b8d4f72349fee671080fef34a6297 44552 syslog-ng_3.38.1-5+deb12u1.debian.tar.xz 915808b867eb548aa0fe96439b47abfbeb2ea425140bcc80f3c53dd747c1c900 4424 syslog-ng_3.38.1-5+deb12u1.dsc e834737c9a57ea60deab3c61176f728189b37ac9eddcb7c7e56b603eba3f394c 1878050 syslog-ng_3.38.1.orig.tar.gz"
+    "cfa39ae106c588b7cbf9d3bdebf9bb1c4a9ec2d43c7bb294132e3df1592b7fa3 47132 syslog-ng_4.8.1-5+deb13u1.debian.tar.xz 3e7545499bbc7d55f0ce7e21c5fcf28ab7e728dc15413a68e6ef9126bafe7c6c 4299 syslog-ng_4.8.1-5+deb13u1.dsc f54acc615215d8efac2955c3d0bfa040b61e39f19f18bd05fa933f587a863d40 2315029 syslog-ng_4.8.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "1e2c2798c58baab9a3b79988ac6c5946fd2ef2be100f187cc003ccc5bde7fd57df36fa3e950764f75887cef55d72bcd83d2a96badbda3f831be02124f0a635f6 44552 syslog-ng_3.38.1-5+deb12u1.debian.tar.xz 239fd8f68df53619c40c010ed622d9aeae90cf03095b510dbb54ff0765490b833c34079fd8063b256bf6408e55687a4d22bec7c2a369a262deb119c5a0de004c 4424 syslog-ng_3.38.1-5+deb12u1.dsc 74ec8f6daaa58c5afb839b5e142fbe8e85a67a99f85416ffe5cc1a75a509d3a991ae941a530de27cde2da34d15ef73c9157612e49a4ff9f86917876157bac1a8 1878050 syslog-ng_3.38.1.orig.tar.gz"
+    "9d82b7f6ad3711db42e336a76301feabb3fb1ccb5324c69d49984ae7bdfba3fc88c7286d39f8477d9456791a02074a658d8985558df856eb92c30f581531e628 47132 syslog-ng_4.8.1-5+deb13u1.debian.tar.xz 4be88ed3fff8287ed638aa2bd7935382c9de68977484eae5bcd4ce7a0e75e0d4839de1cc9698f35aae7d3174dbca2816717a0d50f3b8e03fb8c18077e11b5a61 4299 syslog-ng_4.8.1-5+deb13u1.dsc 2da7febc5ac87e136bfde2b474fa011ffa61dfc44b43e7df5079e6b24cd60900c7afd588bd4b79bc78315b1a94cd8409518b7e4b912a70825726be2ed4d90c24 2315029 syslog-ng_4.8.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/s/syslog-ng"
   ],
   "Files": [
-    "fbc5f9bf4c0b3b39070187273d238e0d 44552 syslog-ng_3.38.1-5+deb12u1.debian.tar.xz 50295559fe0fe3e93d35bc6c1046872f 4424 syslog-ng_3.38.1-5+deb12u1.dsc 231a7a57db0c0f5604095aa09ebca7a2 1878050 syslog-ng_3.38.1.orig.tar.gz"
+    "42c3b5c740f4714db53f7b229af3edf8 47132 syslog-ng_4.8.1-5+deb13u1.debian.tar.xz fd19f9cf2dd87cf0deafa0d3215bd4b1 4299 syslog-ng_4.8.1-5+deb13u1.dsc 32014b98c68d69c8b94aada106d2da94 2315029 syslog-ng_4.8.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "syslog-ng"
   ],
   "Package-List": [
-    "syslog-ng deb admin optional arch=all syslog-ng-core deb admin optional arch=any syslog-ng-dbg deb debug optional arch=any syslog-ng-dev deb libdevel optional arch=any syslog-ng-mod-add-contextual-data deb admin optional arch=any syslog-ng-mod-amqp deb admin optional arch=any syslog-ng-mod-examples deb admin optional arch=any syslog-ng-mod-extra deb oldlibs optional arch=all syslog-ng-mod-geoip2 deb admin optional arch=any syslog-ng-mod-graphite deb admin optional arch=any syslog-ng-mod-http deb admin optional arch=any syslog-ng-mod-mongodb deb admin optional arch=any syslog-ng-mod-python deb admin optional arch=any syslog-ng-mod-rdkafka deb admin optional arch=any syslog-ng-mod-redis deb admin optional arch=any syslog-ng-mod-riemann deb admin optional arch=any syslog-ng-mod-slog deb admin optional arch=any syslog-ng-mod-smtp deb admin optional arch=any syslog-ng-mod-snmp deb admin optional arch=linux-any,hurd-i386 syslog-ng-mod-sql deb admin optional arch=any syslog-ng-mod-stardate deb admin optional arch=any syslog-ng-mod-stomp deb admin optional arch=any syslog-ng-mod-xml-parser deb admin optional arch=any syslog-ng-scl deb admin optional arch=all"
+    "syslog-ng deb admin optional arch=all syslog-ng-core deb admin optional arch=any syslog-ng-dbg deb debug optional arch=any syslog-ng-dev deb libdevel optional arch=any syslog-ng-mod-add-contextual-data deb admin optional arch=any syslog-ng-mod-amqp deb admin optional arch=any syslog-ng-mod-examples deb admin optional arch=any syslog-ng-mod-extra deb oldlibs optional arch=all syslog-ng-mod-geoip2 deb admin optional arch=any syslog-ng-mod-graphite deb admin optional arch=any syslog-ng-mod-http deb admin optional arch=any syslog-ng-mod-mongodb deb admin optional arch=any syslog-ng-mod-python deb admin optional arch=any syslog-ng-mod-rdkafka deb admin optional arch=any syslog-ng-mod-redis deb admin optional arch=any syslog-ng-mod-riemann deb admin optional arch=any syslog-ng-mod-slog deb admin optional arch=any syslog-ng-mod-snmp deb admin optional arch=linux-any,hurd-i386 syslog-ng-mod-sql deb admin optional arch=any syslog-ng-mod-stardate deb admin optional arch=any syslog-ng-mod-stomp deb admin optional arch=any syslog-ng-mod-xml-parser deb admin optional arch=any syslog-ng-scl deb admin optional arch=all"
   ],
   "Standards-Version": [
     "4.5.0"
@@ -60,6 +60,6 @@
     "https://github.com/gcsideal/syslog-ng-debian.git"
   ],
   "Version": [
-    "3.38.1-5+deb12u1"
+    "4.8.1-5+deb13u1"
   ]
 }

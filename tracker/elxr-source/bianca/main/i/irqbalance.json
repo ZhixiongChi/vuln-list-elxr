@@ -6,25 +6,34 @@
     "irqbalance"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-exec, dh-runit (\u003e= 2.8.3), libcap-ng-dev, libglib2.0-dev, libncurses5-dev, libnuma-dev, libsystemd-dev, pkg-config"
+    "debhelper-compat (= 13), dh-exec, dh-runit (\u003e= 2.8.3), libcap-ng-dev, libglib2.0-dev, libncurses-dev, libnuma-dev, libsystemd-dev, pkgconf"
   ],
   "Checksums-Sha1": [
-    "32f45b56d29f15e47845c2682d3bd511edcc7db8 10684 irqbalance_1.9.2-1.debian.tar.xz 0677ed7a1b2e936f430e3c48a8b294746c0aea55 1662 irqbalance_1.9.2-1.dsc 05aa6df799c9fe1f5c4717367a8e55f38b9f8b38 62188 irqbalance_1.9.2.orig.tar.gz"
+    "c5161d0240fc635dc5b011f992079374fc539170 11460 irqbalance_1.9.4-1+deb13u1.debian.tar.xz 7c49f54c35d0ec31a9d61a6799b9bdc29df4d271 2290 irqbalance_1.9.4-1+deb13u1.dsc 7a387c33663d9c696ea7922577c49902599c359b 63005 irqbalance_1.9.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "066f4cd22bc20e4e6b93ca44b34f1851012cd3c56528b537b4d593c765ba73fc 10684 irqbalance_1.9.2-1.debian.tar.xz e7b6411b4ce375f6562c34f5e64066e944aa13a308a27192ee644cb3adf873a5 1662 irqbalance_1.9.2-1.dsc 19a1feb379803cc27f86a71cf1b94bb2e103811691ff7448119d8f1e88645bd3 62188 irqbalance_1.9.2.orig.tar.gz"
+    "9a34fc35a872b3cca528412051edfc417e69a574986b986301ec8b2355a4975e 11460 irqbalance_1.9.4-1+deb13u1.debian.tar.xz 4d3c71785053fcca72049233ec03540588c43dab4102484627033a66b08d46c9 2290 irqbalance_1.9.4-1+deb13u1.dsc f37bb2e27c2e9ec609131d0ee3f770185d3845f79ee6ef11477ea0ffb600a561 63005 irqbalance_1.9.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "4b937d182db68d7928eeea6b53c4e3ef366cea2f34cb22330c3e2187b6c14cd87b3a95d62e567b985b837d9d427b2db9e0ca4d9d80417290324a16fff548b646 10684 irqbalance_1.9.2-1.debian.tar.xz 4a51604b164aee10e760b544c826319e9d34b627cdd438bdd4f85fa6878e361d809e00787ef0736590a1dc4acef4f1b72881c22159f44b1eb4d99013d19d44d1 1662 irqbalance_1.9.2-1.dsc d0fb157fbfc096fa9cfb4562e51fd4c3f4fa8788f72377c58b27df67c70073b787bba05e39809dcbe17532bb5b8e74b6d27c5e5b3d9af09bc9ce1a9b6aab9378 62188 irqbalance_1.9.2.orig.tar.gz"
+    "48a6bcf5220bd5996c827beab267bf545e474cc910fc6553c5afa9b3462b893c5c12158a4c834ae4cc816e63f21fd79427e2699bd23c1b081b6c3df8afe3a2fd 11460 irqbalance_1.9.4-1+deb13u1.debian.tar.xz 3d092705709b38f67ef5ddfadb9587d7772547fa892c4f456af39ce51d3b4f1dec615c856d8ae4c7ef374c66212e99b84226d7b81fb510e52bf44983af0c4ff2 2290 irqbalance_1.9.4-1+deb13u1.dsc abdcac9dccabb18ae644b73dc2a8528c03279811c1f9182a5a5b0af43b30c5982d7bb14e79d4430b5d4f2cea8e17115e6038851c74de1ff3bdfc4e303392479a 63005 irqbalance_1.9.4.orig.tar.gz"
+  ],
+  "Dgit": [
+    "5dc1b10cde3f8855a62dac5fec77eb472c117fe3 debian archive/debian/1.9.4-1+deb13u1 https://git.dgit.debian.org/irqbalance"
   ],
   "Directory": [
     "pool/main/i/irqbalance"
   ],
   "Files": [
-    "7d207f6bfe5f4a7b81751e264d92f00f 10684 irqbalance_1.9.2-1.debian.tar.xz bc89fb1bc37eff3d98f426a1c3ac6580 1662 irqbalance_1.9.2-1.dsc 55249fa2dad53b1a9cadaf0d1679366c 62188 irqbalance_1.9.2.orig.tar.gz"
+    "b942c04773db274b22db379099653eb7 11460 irqbalance_1.9.4-1+deb13u1.debian.tar.xz 2075ecf30b5b59ba0648497f5ac3dc34 2290 irqbalance_1.9.4-1+deb13u1.dsc ca879d124b74436522d7f8a4c63534bc 63005 irqbalance_1.9.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=d7a3137af4542275f4760ebb600b396423f728f1 fp=561ad585eed766921ba8dd96d65861883e014db9"
+  ],
+  "Git-Tag-Tagger": [
+    "Paride Legovini \u003cparide@debian.org\u003e"
   ],
   "Homepage": [
     "https://github.com/Irqbalance/irqbalance"
@@ -39,7 +48,7 @@
     "irqbalance deb utils optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/irqbalance"
@@ -48,6 +57,6 @@
     "https://salsa.debian.org/debian/irqbalance.git"
   ],
   "Version": [
-    "1.9.2-1"
+    "1.9.4-1+deb13u1"
   ]
 }

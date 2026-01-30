@@ -6,22 +6,22 @@
     "librust-chrono-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-iana-time-zone-0.1+default-dev (\u003e= 0.1.44-~~) \u003c!nocheck\u003e, librust-iana-time-zone-0.1+fallback-dev (\u003e= 0.1.44-~~) \u003c!nocheck\u003e, librust-js-sys-0.3+default-dev \u003c!nocheck\u003e, librust-num-integer-0.1-dev (\u003e= 0.1.36-~~) \u003c!nocheck\u003e, librust-num-traits-0.2-dev \u003c!nocheck\u003e, librust-wasm-bindgen-0.2+default-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.61.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-iana-time-zone-0.1+default-dev (\u003e= 0.1.45-~~) \u003c!nocheck\u003e, librust-iana-time-zone-0.1+fallback-dev (\u003e= 0.1.45-~~) \u003c!nocheck\u003e, librust-js-sys-0.3+default-dev \u003c!nocheck\u003e, librust-num-traits-0.2-dev \u003c!nocheck\u003e, librust-wasm-bindgen-0.2+default-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "48b281c8c8beac1685d0c5b8a80ff0d2310ea616 5544 rust-chrono_0.4.23-2.debian.tar.xz 5815da8bc11a57f4326cd75a478be81114edf435 2684 rust-chrono_0.4.23-2.dsc cb9c842796f470bec63929a442ef7a87eacb6959 187259 rust-chrono_0.4.23.orig.tar.gz"
+    "0a90103d18792f278e370e3dff1e2dd22a54341f 5900 rust-chrono_0.4.39-2.debian.tar.xz db17ca1ec8476ee09fd77fbf85547e3cfe39975f 1958 rust-chrono_0.4.39-2.dsc 00ad293540ae73a6558c23a359c865f7abcc47a5 222248 rust-chrono_0.4.39.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "7dca40abc6454f7c455228afb154ec6ae514c1235563fddb160a6a493b9724fc 5544 rust-chrono_0.4.23-2.debian.tar.xz 0c513b354b898571c697d6181c11d34a83b2a8c8f3c7c4241fa09e54ddda76f6 2684 rust-chrono_0.4.23-2.dsc 16b0a3d9ed01224b22057780a37bb8c5dbfe1be8ba48678e7bf57ec4b385411f 187259 rust-chrono_0.4.23.orig.tar.gz"
+    "b09085f451662c56ebe1ababb9f32ebe5181dca8a3de045094470d9fa91dfac9 5900 rust-chrono_0.4.39-2.debian.tar.xz 986562fb01eb1fed86f1e29a30ad785da5a83bdf23545ad76ee9be5974fc65b2 1958 rust-chrono_0.4.39-2.dsc 7e36cc9d416881d2e24f9a963be5fb1cd90966419ac844274161d10488b3e825 222248 rust-chrono_0.4.39.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a2e020b2bae90f0d79fc66ce062ea33f6aba92db1ee40a3f05367d55c1c249afea8ce7fab2b29012a6f5936cdba0f972016ccac8f06c950666af0132c8ade058 5544 rust-chrono_0.4.23-2.debian.tar.xz 7570708e9c656b2811bdb4f6354f889cd0228cd2daa3609b41c5e5b2d1174b14dd8cc4dc88e008070038b113ff6ab8429288ecab6528dfac439ed8605d5ff87d 2684 rust-chrono_0.4.23-2.dsc 697a78ee83eaf38d83011bdf2086b3149b830d3d270e8414828b98ed2426063df43ac6eb4324f2dd694662afb86e6e4f005dee6116dfdd97adaebedefffd43fa 187259 rust-chrono_0.4.23.orig.tar.gz"
+    "eea02ac56b597b08dacdc2925eb929bc8dd6c522a72259584293c23af94a3d9d632cc6a42af031f642d3f47cc32cbf28ccc705453f350fa1aeec148e5f68fd15 5900 rust-chrono_0.4.39-2.debian.tar.xz 4171f36bf7b5bfab285065c8b6f63b77ae14f02ab896fd65f25ba03292131e5ebb527ad71292b3a4c5679f8fcfccb18b4f94cdaa238175d0b042926390112508 1958 rust-chrono_0.4.39-2.dsc 5b258f76bea58ab9baa0fe8fb32c41928b8b655c76bb2fbaae9300ef8380cbb881296cee6b9e9886dce62b0759c73e84f6409e374a86cf0c80e3383512f98571 222248 rust-chrono_0.4.39.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-chrono"
   ],
   "Files": [
-    "fec473d3e003208d8b579d47ed686652 5544 rust-chrono_0.4.23-2.debian.tar.xz 179564a23d668e3d1e4eb7e75548ede2 2684 rust-chrono_0.4.23-2.dsc 4a9390915b209721b7a1b87e2bb5c571 187259 rust-chrono_0.4.23.orig.tar.gz"
+    "6662e1dc611bc603730eed726e32e803 5900 rust-chrono_0.4.39-2.debian.tar.xz 7f6e39fe4d8e53650e89fd91d1b1bd8c 1958 rust-chrono_0.4.39-2.dsc e928321176c07872eea209986067e0fb 222248 rust-chrono_0.4.39.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "librust-chrono-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-bincode-1+default-dev, librust-doc-comment-0.3+default-dev, librust-num-iter-0.1-dev, librust-serde-derive-1-dev, librust-serde-json-1+default-dev"
+    "dh-cargo, librust-bincode-1+default-dev, librust-serde-derive-1-dev, librust-serde-json-1+default-dev, rustc"
   ],
   "Uploaders": [
     "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, kpcyrd \u003cgit@rxv.cc\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/chrono]"
   ],
   "Version": [
-    "0.4.23-2"
+    "0.4.39-2"
   ]
 }

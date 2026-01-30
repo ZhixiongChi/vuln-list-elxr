@@ -1,27 +1,30 @@
 {
   "Architecture": [
-    "any"
+    "any all"
   ],
   "Binary": [
-    "libqt6texttospeech6, qt6-speech-flite-plugin, qt6-speech-speechd-plugin, qml6-module-qttexttospeech, qt6-speech-dev"
+    "libqt6texttospeech6, qt6-speech-flite-plugin, qt6-speech-speechd-plugin, qml6-module-qttexttospeech, qt6-speech-dev, qt6-speech-doc, qt6-speech-doc-html, qt6-speech-examples"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.24~), debhelper-compat (= 13), flite1-dev, libasound2-dev, libspeechd-dev, libxcb-xkb-dev, ninja-build, pkg-config, pkg-kde-tools, qml6-module-qtquick3d-spatialaudio (\u003e= 6.4.2~), qt6-base-dev (\u003e= 6.4.2+dfsg~), qt6-base-private-dev (\u003e= 6.4.2+dfsg~), qt6-declarative-dev (\u003e= 6.4.2+dfsg~), qt6-multimedia-dev (\u003e= 6.4.2~)"
+    "cmake (\u003e= 3.24~), debhelper-compat (= 13), dh-sequence-qmldeps, dh-sequence-pkgkde-symbolshelper, flite1-dev, libasound2-dev, libspeechd-dev, libxcb-xkb-dev, ninja-build, pkg-kde-tools, pkgconf, qt6-base-dev (\u003e= 6.8.2+dfsg~), qt6-base-private-dev (\u003e= 6.8.2+dfsg~), qt6-declarative-dev (\u003e= 6.8.2+dfsg~), qt6-declarative-private-dev, qt6-multimedia-dev (\u003e= 6.8.2~)"
+  ],
+  "Build-Depends-Indep": [
+    "qt6-base-dev (\u003e= 6.8~) \u003c!nodoc\u003e, qt6-documentation-tools (\u003e= 6.8~) \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "c3b67ff849301bf46241b459bc05de9e1139f390 5316 qt6-speech_6.4.2-3.debian.tar.xz cc1fc2d4e3a6670900ed537a6cb119b2324c7a4d 2581 qt6-speech_6.4.2-3.dsc eeb92e1ad5cacd55a9394cdbe5f67ffb54d1d7b3 219388 qt6-speech_6.4.2.orig.tar.xz"
+    "facc5614d6292631214d3157ecfe9f3af4eb0c5c 6944 qt6-speech_6.8.2-2.debian.tar.xz 2615e83ae0f504623e9b3a0680b0685c61517186 2882 qt6-speech_6.8.2-2.dsc 5dbd851d9077681ef944efb4e680ad0fbab1586a 262484 qt6-speech_6.8.2.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "e9e10f96eb7374b64b60f88036de8d03e282a80f65f2db94af1e7935bb4ff5d5 5316 qt6-speech_6.4.2-3.debian.tar.xz eaaab20d9bbb376f8180888567d92d325720abfc87ed9c90084f558b34f79dd0 2581 qt6-speech_6.4.2-3.dsc a9c99f8d34d6f500abf64c9aebdd41f01e746bcf54ff62ad006662400cb494cb 219388 qt6-speech_6.4.2.orig.tar.xz"
+    "295811b19e6dbe28daf71d4163195d78c673ba94cf89a51348541fd7295ae4d1 6944 qt6-speech_6.8.2-2.debian.tar.xz effa18067349ad8e0dfe151acd7771777a7e5c0baa105ee8bcd6864175466ef5 2882 qt6-speech_6.8.2-2.dsc e09b52336bb90090f4582a382fa084f7573ebd207cc81f3066ef94cc1bf202c3 262484 qt6-speech_6.8.2.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "76c5b611d07248fb970269971c913feaa46ce0e4a9caf34c6b815aabbbd83463ebb251d2dd3a0c7b861b8496ad95492067d9700ada221aed72ac48d8e26bc11b 5316 qt6-speech_6.4.2-3.debian.tar.xz cbd6d4212aabdee2f8ef9c03ba87d42bb850b2700416ee0cb7715807b4cf66ca36bcdbf46bcd5410c8589b05b57b042b728464dae18957cab7a5644a4a285834 2581 qt6-speech_6.4.2-3.dsc e9d39902124d3f6155db0ed73e826b28dffd830bd5be7675cf13e02443d4939e27d8d5abfe0cbe204f11286e5db7c81ed19a48ae46f36b1c51c5456e05c76db0 219388 qt6-speech_6.4.2.orig.tar.xz"
+    "d0acb06dae165da8ff3cd16613572f7c8ce5d910f8be22232b0bb8fd0bb8384f9bd0ee87722bf6ad0c5f69790c24cf2432b818509388ebd5f9e5cf9d750a9bac 6944 qt6-speech_6.8.2-2.debian.tar.xz b9a52953dcacf99081677f3e4b96e6afc68b3322c1bd4cd9d37f51856a2aae0cc5422ac22890ded6ff4ead9ec1107758af7a5a8a501e4db8de3c3f2fa3d8c1c6 2882 qt6-speech_6.8.2-2.dsc 30a58bcb4f193f954647eb9e5a04ffd6f6d6566b0f241ce158df37e12b0462cba3296aa50abafdd9ea2a09481a8a366f12131e7c925a431c642b2c12bf4b1190 262484 qt6-speech_6.8.2.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/q/qt6-speech"
   ],
   "Files": [
-    "073c2bdb767457387542f20d770f5137 5316 qt6-speech_6.4.2-3.debian.tar.xz 6624b9dfd909026f5c7f533d4a094d9a 2581 qt6-speech_6.4.2-3.dsc 02a53b3cdf3bd19001ab87b955ba8fa6 219388 qt6-speech_6.4.2.orig.tar.xz"
+    "f4e5772919d656e3194637b120bf3301 6944 qt6-speech_6.8.2-2.debian.tar.xz b4b268b552862113732e959b8adf079f 2882 qt6-speech_6.8.2-2.dsc 6e0ea8a726e0ba45c82ee68348f25c5b 262484 qt6-speech_6.8.2.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +39,13 @@
     "qt6-speech"
   ],
   "Package-List": [
-    "libqt6texttospeech6 deb libs optional arch=any qml6-module-qttexttospeech deb libs optional arch=any qt6-speech-dev deb libs optional arch=any qt6-speech-flite-plugin deb libs optional arch=any qt6-speech-speechd-plugin deb libs optional arch=any"
+    "libqt6texttospeech6 deb libs optional arch=any qml6-module-qttexttospeech deb libs optional arch=any qt6-speech-dev deb libs optional arch=any qt6-speech-doc deb doc optional arch=all qt6-speech-doc-html deb doc optional arch=all qt6-speech-examples deb misc optional arch=any qt6-speech-flite-plugin deb libs optional arch=any qt6-speech-speechd-plugin deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Patrick Franz \u003cdeltaone@debian.org\u003e"
+    "Patrick Franz \u003cdeltaone@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/qt6/qt6-speech"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/qt-kde-team/qt6/qt6-speech.git"
   ],
   "Version": [
-    "6.4.2-3"
+    "6.8.2-2"
   ]
 }

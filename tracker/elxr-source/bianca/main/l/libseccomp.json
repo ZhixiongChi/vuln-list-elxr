@@ -6,22 +6,22 @@
     "libseccomp-dev, libseccomp2, seccomp, python3-seccomp"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), linux-libc-dev, dh-python \u003c!nopython\u003e, python3-all-dev:any \u003c!nopython\u003e, libpython3-all-dev \u003c!nopython\u003e, cython3:native \u003c!nopython\u003e, valgrind [amd64 arm64 armhf i386 mips mips64 powerpc ppc64 ppc64el s390x] \u003c!nocheck\u003e, gperf"
+    "debhelper-compat (= 12), linux-libc-dev, dh-python \u003c!nopython\u003e, python3-all-dev:any \u003c!nopython\u003e, libpython3-all-dev \u003c!nopython\u003e, cython3:native \u003c!nopython\u003e, python3-setuptools \u003c!nopython\u003e, gperf"
   ],
   "Checksums-Sha1": [
-    "13e8fabc807fa3c905fb95ebfbd63bd2cfc7e1cc 18080 libseccomp_2.5.4-1+deb12u1.debian.tar.xz b666765746207d3d8a9439b46dca6077e16a3ffb 2708 libseccomp_2.5.4-1+deb12u1.dsc a238b99356180de849e38b21aaad871b7630ae0e 637228 libseccomp_2.5.4.orig.tar.gz a6257972b8b5ee5a0e32bc0017ff5a39070f8bed 833 libseccomp_2.5.4.orig.tar.gz.asc"
+    "2e7b2ad26b39ade9ee22652047d2c2c40a04991b 20800 libseccomp_2.6.0-2.debian.tar.xz 6cfdde70eba246af6ae8fc25814318164e80f72f 2622 libseccomp_2.6.0-2.dsc 2eb0222d379756bd5f0a52c0488a20e3311bbf00 685655 libseccomp_2.6.0.orig.tar.gz a3a445eac376025b8b55998ac7c9ceb92db9a0d3 833 libseccomp_2.6.0.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "665fc6ad1b9887207b0af1a293a2d7975e2df503a2618d1808b970081f9672f6 18080 libseccomp_2.5.4-1+deb12u1.debian.tar.xz 0ab1448c7206ee928f97a24d04300cfd3bb26babb4238c82fb71f507b5148595 2708 libseccomp_2.5.4-1+deb12u1.dsc d82902400405cf0068574ef3dc1fe5f5926207543ba1ae6f8e7a1576351dcbdb 637228 libseccomp_2.5.4.orig.tar.gz af37e70eb422e6f983c1f135a3abb342c3b787716520b71bd774e4906003807f 833 libseccomp_2.5.4.orig.tar.gz.asc"
+    "ed705ec85719403e77d004c99c0b06b795f090c66fcae265c4bcf37ffea9cc27 20800 libseccomp_2.6.0-2.debian.tar.xz d05f94536558d34fa339326c6f958a3357b51efac8234470b5d97b69472db765 2622 libseccomp_2.6.0-2.dsc 83b6085232d1588c379dc9b9cae47bb37407cf262e6e74993c61ba72d2a784dc 685655 libseccomp_2.6.0.orig.tar.gz 52e338fa958128293cbd25d2be189e34da41c4f4abbb1b641cf58f373c001f94 833 libseccomp_2.6.0.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "23afaee119dc98c16d1cf21585741b97b3f892713942348d02fdf0fd32c4cb5ce0dbfcf334a5a4de37a4aa6ee30d1bda5309b9af2b846fc264d63b736db7d5de 18080 libseccomp_2.5.4-1+deb12u1.debian.tar.xz 0aab0c4d1978bcc930309ce7890bdb10bd655f97e0a90fcd14b47f43f9197cce58030c6fb9c3b44338280d2ab17d88d9688bdaf1948f469ca4f3032ac76640a2 2708 libseccomp_2.5.4-1+deb12u1.dsc 92650bd7d1d48b383f402a536b97a017fd0f6ad1234daf4b938d01c92e8d134a01d2f2dd45fd9e2d025d7556bd1386ec360402145a87f20580c85949d62cea0e 637228 libseccomp_2.5.4.orig.tar.gz 10ce632da2762e3b5acb468194b2424d80bab786cc5923a8ee0b0684290282ef2f0a17192680afb36626c82e73a3ba64e73f248ed63cd3e55c3cf8cee4e1e447 833 libseccomp_2.5.4.orig.tar.gz.asc"
+    "0c61ecedce7f0b00f077d3577026d6f17077739b38920055552f7e38b84db724503715c530a962e0dae85f6dadbe3556478764413230b794bd0c6a2bd5b250b6 20800 libseccomp_2.6.0-2.debian.tar.xz c4995ffba864d1ad773f2d5f008a7eec8eee172072fdbb69a33dba9baf17f9b53f3c7478824583d248587d880a28c6a7a30bf204a25ff0bd16a6f4ed233aa363 2622 libseccomp_2.6.0-2.dsc 9039478656d9b670af2ff4cb67b6b1fa315821e59d2f82ba6247e988859ddc7e3d15fea159eccca161bf2890828bb62aa6ab4d6b7ff55f27a9d6bd9532eeee1b 685655 libseccomp_2.6.0.orig.tar.gz 973b69c58085a1567f860e621e3a197be02c0ca71dad664234418cf5c00c39767efd37a7c4016f1be5bd588262617b6603855262db2ee6f31bc16061bc130e0f 833 libseccomp_2.6.0.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/libs/libseccomp"
   ],
   "Files": [
-    "a997a8a045be9f5e0444f8e78b5d940e 18080 libseccomp_2.5.4-1+deb12u1.debian.tar.xz 7c6b56570726adf24e209a38b83deaf7 2708 libseccomp_2.5.4-1+deb12u1.dsc 74008bb33234e0c2a0d998e7bee5c625 637228 libseccomp_2.5.4.orig.tar.gz e4a86e2376f2777bbdd49f5d1b255056 833 libseccomp_2.5.4.orig.tar.gz.asc"
+    "bf3ec626c58be8f1a7f1c8f1e8a09617 20800 libseccomp_2.6.0-2.debian.tar.xz 74d4dda88062653ff2b006e4d1f193ee 2622 libseccomp_2.6.0-2.dsc 2d42bcde31fd6e994fcf251a1f71d487 685655 libseccomp_2.6.0.orig.tar.gz 0aec370c605304c08666bdb14501ce35 833 libseccomp_2.6.0.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/libseccomp.git"
   ],
   "Version": [
-    "2.5.4-1+deb12u1"
+    "2.6.0-2"
   ]
 }

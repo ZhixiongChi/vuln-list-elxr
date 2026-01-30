@@ -3,31 +3,34 @@
     "any all"
   ],
   "Binary": [
-    "cmake, cmake-data, cmake-curses-gui, cmake-qt-gui, cmake-doc"
+    "cmake, cmake-curses-gui, cmake-data, cmake-doc, cmake-qt-gui"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake \u003ccross\u003e, freebsd-glue [kfreebsd-any], libarchive-dev (\u003e= 3.3.3) \u003c!pkg.cmake.bootstrap\u003e, libcurl4-openssl-dev \u003c!pkg.cmake.bootstrap\u003e | libcurl-ssl-dev \u003c!pkg.cmake.bootstrap\u003e, libexpat1-dev \u003c!pkg.cmake.bootstrap\u003e, libjsoncpp-dev \u003c!pkg.cmake.bootstrap\u003e, libncurses5-dev \u003c!pkg.cmake.bootstrap !pkg.cmake.nogui\u003e, librhash-dev \u003c!pkg.cmake.bootstrap\u003e, libssl-dev \u003cpkg.cmake.bootstrap\u003e, libuv1-dev (\u003e= 1.10) \u003c!pkg.cmake.bootstrap\u003e, procps [!hurd-any], python3-sphinx:native, python3-sphinxcontrib.qthelp:native, qtbase5-dev \u003c!pkg.cmake.bootstrap !pkg.cmake.nogui\u003e, zlib1g-dev \u003c!pkg.cmake.bootstrap\u003e"
+    "debhelper-compat (= 13), cmake \u003ccross\u003e, git \u003c!nocheck\u003e, libarchive-dev (\u003e= 3.3.3) \u003c!pkg.cmake.bootstrap\u003e, libcppdap-dev \u003c!pkg.cmake.bootstrap\u003e, libcurl4-openssl-dev \u003c!pkg.cmake.bootstrap\u003e, libexpat1-dev \u003c!pkg.cmake.bootstrap\u003e, libjsoncpp-dev \u003c!pkg.cmake.bootstrap\u003e, libncurses-dev \u003c!pkg.cmake.bootstrap !pkg.cmake.nogui\u003e, librhash-dev \u003c!pkg.cmake.bootstrap\u003e, libssl-dev \u003cpkg.cmake.bootstrap\u003e, libuv1-dev (\u003e= 1.10) \u003c!pkg.cmake.bootstrap\u003e, procps [!hurd-any], python3-sphinx:native, python3-sphinxcontrib.qthelp:native, qt6-base-dev \u003c!pkg.cmake.bootstrap !pkg.cmake.nogui\u003e, zlib1g-dev \u003c!pkg.cmake.bootstrap\u003e"
   ],
   "Build-Depends-Indep": [
     "dh-sequence-sphinxdoc"
   ],
   "Checksums-Sha1": [
-    "13e8c1ea9cb1034aeca488ab344ff6e2a2b70313 32496 cmake_3.25.1-1.debian.tar.xz 8b41d5f44bb316d46066b05cdeb19b6c6909ff27 3887 cmake_3.25.1-1.dsc 6cc13d2b3d2c8fecfb2486e0e521d42ab45188d0 10561054 cmake_3.25.1.orig.tar.gz"
+    "34f88af5890c65a0106f065b8c714f943450fae6 34404 cmake_3.31.6-2.debian.tar.xz c2450e6f17e92a726450f6feda696fa254cc82a7 4157 cmake_3.31.6-2.dsc bc5d7e6c095c25c2de382d0290655cba0af40a9f 11710589 cmake_3.31.6.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "0b9ef6b8e74dc4dfd757f43ac3ae0b2abde0745d58d0a43f81bcbd78c1a68035 32496 cmake_3.25.1-1.debian.tar.xz 508b262eee8f18c8924bb4e1b89596fb208efa2fe6bde270d16552d1dc3a0d65 3887 cmake_3.25.1-1.dsc 1c511d09516af493694ed9baf13c55947a36389674d657a2d5e0ccedc6b291d8 10561054 cmake_3.25.1.orig.tar.gz"
+    "ec672b42c986ca2190453fd78dd0a2adf3004d15f8a2b7eb0124345b178963d1 34404 cmake_3.31.6-2.debian.tar.xz 70a8dfd49b8bb8735f617986330f23af8deae876c6c30c036e6694edfe2c5b54 4157 cmake_3.31.6-2.dsc 653427f0f5014750aafff22727fb2aa60c6c732ca91808cfb78ce22ddd9e55f0 11710589 cmake_3.31.6.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "6cf928f51c4e10faa10fce42aa96d82743de1ccc9f33c9d7aad3373421e347fed342dcf8c41cb5b4c619c96145f2c684c6c7c80f3e9ded06fc43307129c3fadd 32496 cmake_3.25.1-1.debian.tar.xz 8317e7d28e420828f2bf7edf04770ce900b377c7c29f670a60817e1796c3dc0e4a2a5ef1a2964738dff2d07e194c0c92970f9525108196afcdbdc7cf7d53c735 3887 cmake_3.25.1-1.dsc ec4203cac569e3c340bf6535d193d9ccff9c4e4d59a7a7ae5b9156172f647d9f9212bdc37b3c12cbd676b1351b9a64364c563aaa968a2f41e0f402410ed78d57 10561054 cmake_3.25.1.orig.tar.gz"
+    "6c31617237d2b9853db2ecac15a320e4c85d13848452349d2d5b92ab965c9bf2f5dbf1f3d151bba1b255e1206a5b76e8368a14af1de3814ba66a75bb29ce7601 34404 cmake_3.31.6-2.debian.tar.xz 48728602a1d21347a8c51f388694fbeea605f63bdf7ec99c36ec6276ef57b9128edd6137a900c27e912cd7679161695387b382b05568bac59f7f0c5d2f03b60a 4157 cmake_3.31.6-2.dsc 839d06b6ebd0bf78cbe8f7ae3a7c00026e70d759a81ac51aa103f35ad985ac69be9e667aae7b5fe48c5e0c41baec791259279679dbdf2ddd8b63a48382a8a2a0 11710589 cmake_3.31.6.orig.tar.gz"
   ],
   "Description": [
     "cross-platform, open-source make system CMake is used to control the software compilation process using simple platform and compiler independent configuration files. CMake generates native makefiles and workspaces that can be used in the compiler environment of your choice. CMake is quite sophisticated: it is possible to support complex environments requiring system configuration, pre-processor generation, code generation, and template instantiation."
+  ],
+  "Dgit": [
+    "d66d7db06e190da9c4cebff7bc6db8348089460a debian archive/debian/3.31.6-2 https://git.dgit.debian.org/cmake"
   ],
   "Directory": [
     "pool/main/c/cmake"
   ],
   "Files": [
-    "a2ff7132310bcda9aa9d89753486175b 32496 cmake_3.25.1-1.debian.tar.xz d8fe501603e20b5a9f466eb870854122 3887 cmake_3.25.1-1.dsc 521a03b1c36412463eda0348bebf4765 10561054 cmake_3.25.1.orig.tar.gz"
+    "090ca2d9423af57c14a2ef92450ef193 34404 cmake_3.31.6-2.debian.tar.xz cee2866c8fcb02a16f932a3625548415 4157 cmake_3.31.6-2.dsc a9f42404b21654a29553a61078accd20 11710589 cmake_3.31.6.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +48,7 @@
     "cmake deb devel optional arch=any cmake-curses-gui deb devel optional arch=any profile=!pkg.cmake.bootstrap,!pkg.cmake.nogui cmake-data deb devel optional arch=all cmake-doc deb doc optional arch=all profile=!pkg.cmake.bootstrap cmake-qt-gui deb devel optional arch=any profile=!pkg.cmake.bootstrap,!pkg.cmake.nogui"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.1"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -63,6 +66,6 @@
     "https://salsa.debian.org/cmake-team/cmake.git"
   ],
   "Version": [
-    "3.25.1-1"
+    "3.31.6-2"
   ]
 }

@@ -3,28 +3,31 @@
     "any"
   ],
   "Binary": [
-    "librust-bytecheck-dev, librust-bytecheck+std-dev"
+    "librust-bytecheck-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bytecheck-derive-0.6.9+std-dev \u003c!nocheck\u003e, librust-bytecheck-derive-0.6.9-dev \u003c!nocheck\u003e, librust-ptr-meta-0.1+std-dev \u003c!nocheck\u003e, librust-ptr-meta-0.1-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.81) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bytecheck-derive-0.8.0-dev \u003c!nocheck\u003e, librust-ptr-meta-0.3-dev \u003c!nocheck\u003e, librust-rancor-0.1-dev \u003c!nocheck\u003e, librust-simdutf8-0.1-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "9eaccfa71f789386cfe415505b334f9476400875 2972 rust-bytecheck_0.6.9-1.debian.tar.xz f62319020dcd93136d098dc6fb72cf509069061f 2412 rust-bytecheck_0.6.9-1.dsc f49959d106e5f4412778a174ecd7d8c804e1e78c 8139 rust-bytecheck_0.6.9.orig.tar.gz"
+    "6efab2b4a6dd27bf18abc319fa98b826169b4f3c 3076 rust-bytecheck_0.8.0-1.debian.tar.xz 9232bb66d58713cdd9c8ee91eede022d1453a96b 1748 rust-bytecheck_0.8.0-1.dsc 0c7e3774763e97e1dbe2c57ecb7f2d7c427498da 11567 rust-bytecheck_0.8.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "61c5eb908032f903e74ddce4bf72c4a3206d1849069d688ebb909f32da306684 2972 rust-bytecheck_0.6.9-1.debian.tar.xz e5cf9a6f743768ae80025a6f52f7e795334848116e60a8c981aaab942bde8794 2412 rust-bytecheck_0.6.9-1.dsc d11cac2c12b5adc6570dad2ee1b87eff4955dac476fe12d81e5fdd352e52406f 8139 rust-bytecheck_0.6.9.orig.tar.gz"
+    "5e4bcc8e1f43788cd0f101027f25307e446bf2a32c344b33d82e01223bd17805 3076 rust-bytecheck_0.8.0-1.debian.tar.xz 30686ce255aa38cd8809a9b33010e93fea0a7e1c35cc016f06dd28d20e42a224 1748 rust-bytecheck_0.8.0-1.dsc 50c8f430744b23b54ad15161fcbc22d82a29b73eacbe425fea23ec822600bc6f 11567 rust-bytecheck_0.8.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "75bd03e0942fbb84deeb0a9985c9331870be84b8ffa937258655057d1460003f7ebf95b06e7dd77921d9e8060fba6e060fe5ff0ce1e42c1e2c1ec3b41f6405b0 2972 rust-bytecheck_0.6.9-1.debian.tar.xz 3baa7ad9906c4efadf912080a38761228e62e6ed7b730e39d02ec919b88f05e4af73ea6f4604768d9c7acfe296a38dead5a34bb15bc0931a1a72d073a7c09eaa 2412 rust-bytecheck_0.6.9-1.dsc 092f7588d785a52496acb9bf12b8fcdac0679c10c732697a166d742b2bddc3da539c6e02dfa6208ed4c4f18b9458b08db3f07988bc6039d5ea18b56d7911702b 8139 rust-bytecheck_0.6.9.orig.tar.gz"
+    "d138ba4667c02e787e1be2de5edc1606d2a84d46eb823cf44da1bcd513a8c8414507057b56c4b1d77c878fece9d4bee886e75600a9ae306529118f238ac5c90e 3076 rust-bytecheck_0.8.0-1.debian.tar.xz 1fbc4e4aaa32ea3b5c10cf903ffb948d813888a8e3c477f7b8b044d8bacf976e8074d1cd835694370defffe72d7afccaddfeb34a9adb59f9ed6e23a7fdd2248e 1748 rust-bytecheck_0.8.0-1.dsc 1011be5bf8569c5c10465e140ead7591fc9a25b60e2cf7ace7d96b3e70d4cce1c08dbc345bcd70de5d6c2776565b9f746b8d5a09a866ca9869527791821feaf3 11567 rust-bytecheck_0.8.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-bytecheck"
   ],
   "Files": [
-    "c0038ab2e9e037aae774f3f3954cfea8 2972 rust-bytecheck_0.6.9-1.debian.tar.xz ba1ad2b7f211d10043fbcd2ecafdd9b0 2412 rust-bytecheck_0.6.9-1.dsc fe33632014f417dba2b8fafbcce412f2 8139 rust-bytecheck_0.6.9.orig.tar.gz"
+    "8ec107d048371a1fb4cb4ed9657f422b 3076 rust-bytecheck_0.8.0-1.debian.tar.xz bf64106b5e735d1e825fe693e7350dd3 1748 rust-bytecheck_0.8.0-1.dsc 687e5044b07ff16a746d78ccaf770996 11567 rust-bytecheck_0.8.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rkyv/bytecheck"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -33,16 +36,16 @@
     "rust-bytecheck"
   ],
   "Package-List": [
-    "librust-bytecheck+std-dev deb rust optional arch=any librust-bytecheck-dev deb rust optional arch=any"
+    "librust-bytecheck-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo"
+    "dh-cargo, rustc"
   ],
   "Uploaders": [
     "Reinhard Tartler \u003csiretart@tauware.de\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/bytecheck]"
   ],
   "Version": [
-    "0.6.9-1"
+    "0.8.0-1"
   ]
 }

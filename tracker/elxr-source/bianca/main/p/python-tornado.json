@@ -6,22 +6,22 @@
     "python3-tornado, python-tornado-doc"
   ],
   "Build-Depends": [
-    "ca-certificates, debhelper-compat (= 13), dh-python, python3-all-dev, python3-doc, python3-mock, python3-pycurl, python3-setuptools, python3-singledispatch, python3-sphinx, python3-sphinx-rtd-theme, python3-sphinxcontrib-asyncio, python3-twisted"
+    "ca-certificates, debhelper-compat (= 13), dh-python, python3-all-dev, python3-doc, python3-pycurl, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme, python3-sphinxcontrib-asyncio, python3-twisted"
   ],
   "Checksums-Sha1": [
-    "068024e3b3bcf285e63b1702d40bbab7b84a9422 15600 python-tornado_6.2.0-3+deb12u2.debian.tar.xz 4d88854164a708f4acf181a2397d7e67137c14f1 2559 python-tornado_6.2.0-3+deb12u2.dsc 9e809453db3a3347b7c0e7837a189833247e0828 519040 python-tornado_6.2.0.orig.tar.gz"
+    "bd0a8e46a29cd28c1642d6ca2ef702c1395c8536 12956 python-tornado_6.4.2-3.debian.tar.xz fe7230ea10562079fda2670f4186d9ea8052abef 2441 python-tornado_6.4.2-3.dsc 94ec7bc896d8b62364abcfc2a906165d80e1baa6 533897 python-tornado_6.4.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "ee4503f50b56a2e41dd6646e6eabffea52fff79a5cba0a9d80631208c1dd6d55 15600 python-tornado_6.2.0-3+deb12u2.debian.tar.xz 3f0add8aac3e118c3a72045c41c200138ff9e097aa334dbbf983e5a6cc236353 2559 python-tornado_6.2.0-3+deb12u2.dsc c2e902e4771eb90b057c7629fa239a59ecae63052919c3b5e61253f2c8a5f0d6 519040 python-tornado_6.2.0.orig.tar.gz"
+    "8080246fd24c961cb5abc8201104603d27062803099e73c22b3d68aecf8e731f 12956 python-tornado_6.4.2-3.debian.tar.xz fea795d731c573520189553a3e6390a68b3ae6c892f79459672ad9266db8ebc7 2441 python-tornado_6.4.2-3.dsc a45eec6f5fc01ed78b01a9dafceb81bf0d0440309bd478a9daadfa7c87bdd893 533897 python-tornado_6.4.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "616151e736850464e6ff489f4da3210ef235e999b08c0c904487a0c44b5894734b5e93066adab54a894d0bb81083f8adcc2f5aae57ce4c5b8e9e19c6c0dbfdd4 15600 python-tornado_6.2.0-3+deb12u2.debian.tar.xz ba2ce5e9adc4ff2c1ad6a58db57148e30d3b2d6878777d06378b080861636e4a369cdc047490bfe0bf2ef1788d546bb9cf2bf7e7f552501176b48453a37ad8ba 2559 python-tornado_6.2.0-3+deb12u2.dsc b8f98b76198f21bb3a13f44e8698397d7906a415e75621550dfeea8ae3a7e9405f5e314136a93b6714455062501051c145dfd32c71b433715fc8ed591fcb882b 519040 python-tornado_6.2.0.orig.tar.gz"
+    "960c9c970ba029c1ed8e38d64bf7e701f5d4f905c82c0e45cc1611754a761bff785865986774f3b47a230703079b2b969f0db5d2fabcf576d4c3d185a426b9f5 12956 python-tornado_6.4.2-3.debian.tar.xz 05329e7b650291b516058c0821e32706c0d07aacad2441c5c4b9b5a5e926daf6b6e8c07b4993480676ca693eb371b36693a9b82cef512aa37158cd94cf12ff46 2441 python-tornado_6.4.2-3.dsc f4d60dd6957c98157d64d42af1495793ac20a771923c808d24b18de85330aa30fe15e81f4803b6f0b2f0163833bd3ed5babee15f3e7096d7298426dc88f6357a 533897 python-tornado_6.4.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-tornado"
   ],
   "Files": [
-    "81f17a3245e79ef715db2ae6e2a10ba5 15600 python-tornado_6.2.0-3+deb12u2.debian.tar.xz 3c10d3e3161e4cc37fe6ed85762b51ac 2559 python-tornado_6.2.0-3+deb12u2.dsc ac5546f18d57171df7f711aefbd518c6 519040 python-tornado_6.2.0.orig.tar.gz"
+    "72a673af7de862e32c063096a5d9ff53 12956 python-tornado_6.4.2-3.debian.tar.xz 097285c443e6dd72080782b67fcd4fd8 2441 python-tornado_6.4.2-3.dsc 721215aa1ab1253e79b17fd67b83a46e 533897 python-tornado_6.4.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,16 +39,16 @@
     "python-tornado-doc deb doc optional arch=all python3-tornado deb web optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "python3-all, python3-mock, python3-pycurl, python3-twisted"
+    "python3-all, python3-pycurl, python3-twisted"
   ],
   "Uploaders": [
-    "Carl Chenet \u003cchaica@debian.org\u003e, Yaroslav Halchenko \u003cdebian@onerussian.com\u003e, Julian Taylor \u003cjtaylor.debian@googlemail.com\u003e, Julien Puydt \u003cjpuydt@debian.org\u003e, Ondřej Nový \u003conovy@debian.org\u003e,"
+    "Carl Chenet \u003cchaica@debian.org\u003e, Yaroslav Halchenko \u003cdebian@onerussian.com\u003e, Julian Taylor \u003cjtaylor.debian@googlemail.com\u003e, Julien Puydt \u003cjpuydt@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-tornado"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-tornado.git"
   ],
   "Version": [
-    "6.2.0-3+deb12u2"
+    "6.4.2-3"
   ]
 }

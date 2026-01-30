@@ -6,25 +6,28 @@
     "librust-rkyv-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bytecheck-0.6+std-dev (\u003e= 0.6.8-~~) \u003c!nocheck\u003e, librust-hashbrown-0.12+default-dev \u003c!nocheck\u003e, librust-ptr-meta-0.1+std-dev (\u003e= 0.1.3-~~) \u003c!nocheck\u003e, librust-ptr-meta-0.1-dev (\u003e= 0.1.3-~~) \u003c!nocheck\u003e, librust-rend-0.4+std-dev \u003c!nocheck\u003e, librust-rkyv-derive-0.7.39+default-dev \u003c!nocheck\u003e, librust-seahash-4+default-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.81) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bytecheck-0.8+simdutf8-dev \u003c!nocheck\u003e, librust-bytes-1+std-dev \u003c!nocheck\u003e, librust-hashbrown-0.14-dev \u003c!nocheck\u003e, librust-indexmap-2+std-dev \u003c!nocheck\u003e, librust-munge-0.4-dev \u003c!nocheck\u003e, librust-ptr-meta-0.3+std-dev \u003c!nocheck\u003e, librust-ptr-meta-0.3-dev \u003c!nocheck\u003e, librust-rancor-0.1+alloc-dev \u003c!nocheck\u003e, librust-rancor-0.1-dev \u003c!nocheck\u003e, librust-rend-0.5+bytecheck-dev \u003c!nocheck\u003e, librust-rend-0.5-dev \u003c!nocheck\u003e, librust-rkyv-derive-0.8.9+bytecheck-dev \u003c!nocheck\u003e, librust-rkyv-derive-0.8.9-dev \u003c!nocheck\u003e, librust-tinyvec-1+alloc-dev \u003c!nocheck\u003e, librust-uuid-1+std-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "7385a70ca6bffe860e177275ac0373b4ef3c25ae 3616 rust-rkyv_0.7.39-2.debian.tar.xz 97f89225a502ee7e7b5e24ca0681652fd6e4b586 2452 rust-rkyv_0.7.39-2.dsc 749742a1e3645dcfc267b2aee15f61892b95f327 106263 rust-rkyv_0.7.39.orig.tar.gz"
+    "2cf151d65edad9db539cff0472d6391329cd5d59 4544 rust-rkyv_0.8.9-2.debian.tar.xz 7bbb3a5b8d470554e35f2784904e3461c250e659 2211 rust-rkyv_0.8.9-2.dsc 5ce39fbd5fc0474550aa8f284dec723d5fd576c9 162445 rust-rkyv_0.8.9.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "d801e37d561e84c9bbb4ec9286279f4c86c91e94f37bbfbd48be8bd5df15f197 3616 rust-rkyv_0.7.39-2.debian.tar.xz 80775a1d284178b67441c91ee082e1d580cbe9686531bbd5f6c60b3aa9b3d73d 2452 rust-rkyv_0.7.39-2.dsc cec2b3485b07d96ddfd3134767b8a447b45ea4eb91448d0a35180ec0ffd5ed15 106263 rust-rkyv_0.7.39.orig.tar.gz"
+    "406845da7c5ff937fdc58baf70cc70985cf211fc0763f2c95b2d20ac1e67e425 4544 rust-rkyv_0.8.9-2.debian.tar.xz 2a6c04d7cc41edf257f40fb9ca013a0316586f92175900685bc8482f17aaf950 2211 rust-rkyv_0.8.9-2.dsc b11a153aec4a6ab60795f8ebe2923c597b16b05bb1504377451e705ef1a45323 162445 rust-rkyv_0.8.9.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "2c8ebb6db6e67d8193940235998de6b4b00219522ad5c819a5929c5e63664048b163de4e5e9cea07b92bdf8389845f9afa20a776302a4f27ce18675477b4af83 3616 rust-rkyv_0.7.39-2.debian.tar.xz 9ffd597ab13d814cf0ae3cb59f711087bf64e5538255cfa4968c4e62a744893185c5ceb2984e3905f3f564b1bbc4976d233ba2b4b78373ac0bd9e4e75d9bd933 2452 rust-rkyv_0.7.39-2.dsc 5f98986d40c2af06f61ad7d3b213282c133f1c10cf96f674c31926b15269299a1100344b82dda7f59c96d6891042a778777d4bddc2a5ee75b3a682104855ba6b 106263 rust-rkyv_0.7.39.orig.tar.gz"
+    "455122aec0bc5b7ec8d24f772017cb462df49aa6c4cf63477bb6f2736cba98a8568e63a9286673c8f76d0e869c5e9ad1b0ba1d224f8fee64b17cc1052e776834 4544 rust-rkyv_0.8.9-2.debian.tar.xz 8021ab5bb984bb46b9f7d45f58bb6c951848f81a14b0d52d2e30e28c45e9bda3a5504090db38e287b8895a7fe24fd666b0b0884410f43128b88d96c3e50a3502 2211 rust-rkyv_0.8.9-2.dsc cd639e58ab104b89e13800070c656e40d90b2162fa3ce0d349cec7fc61eed882a8b2a30adbf0e34bc89686d11ec5e8031d6430a4b476605012c4d001b793ae74 162445 rust-rkyv_0.8.9.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-rkyv"
   ],
   "Files": [
-    "7c1e3a6c348918ac7846ac81756eb09f 3616 rust-rkyv_0.7.39-2.debian.tar.xz 4a69c7f02fe323a3939a4568124e0e13 2452 rust-rkyv_0.7.39-2.dsc 47127ff0ccd6d6c32f6c06f3a7d388f5 106263 rust-rkyv_0.7.39.orig.tar.gz"
+    "8c4e36a57b7cac11e6c43c8dd4bfc1c2 4544 rust-rkyv_0.8.9-2.debian.tar.xz 9316fd8fdb9e9e2d6a3ee9ea71e9133f 2211 rust-rkyv_0.8.9-2.dsc b4764660461a871e0250bdce04ef8d92 162445 rust-rkyv_0.8.9.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rkyv/rkyv"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,13 +39,13 @@
     "librust-rkyv-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo"
+    "dh-cargo, librust-ahash-0.8+default-dev, librust-rustversion-1-dev, librust-trybuild-1-dev, rustc"
   ],
   "Uploaders": [
     "Reinhard Tartler \u003csiretart@tauware.de\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/rkyv]"
   ],
   "Version": [
-    "0.7.39-2"
+    "0.8.9-2"
   ]
 }

@@ -9,22 +9,22 @@
     "debhelper-compat (= 13)"
   ],
   "Build-Depends-Indep": [
-    "dh-python, python3-all, python3-docutils, python3-jinja2, python3-lxml, python3-pytest (\u003e= 7) \u003c!nocheck\u003e, python3-setuptools, python3-sphinx, python3-wcag-contrast-ratio"
+    "dh-python, pybuild-plugin-pyproject, python3-all, python3-docutils, python3-hatchling, python3-jinja2, python3-lxml, python3-pytest (\u003e= 7) \u003c!nocheck\u003e, python3-sphinx, python3-wcag-contrast-ratio"
   ],
   "Checksums-Sha1": [
-    "e3470dbabf3867c4b84c9bd14d14830697c3c800 9256 pygments_2.14.0+dfsg-1.debian.tar.xz 0b61d2da878356f18039f3fc3539d31b66e003d9 2338 pygments_2.14.0+dfsg-1.dsc 87a1b04b8acdd6ac0d452e38514d82842dd9c0e9 1450278 pygments_2.14.0+dfsg.orig.tar.gz"
+    "ba6e55cb93d46f7fde69fd3052c1083b16295745 9812 pygments_2.18.0+dfsg-2.debian.tar.xz 148367d04aada19a11263029747e52f2a42b8fb4 2388 pygments_2.18.0+dfsg-2.dsc c5e16f2c0f830025316d38d13bdbc10154adfc95 1236932 pygments_2.18.0+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "15c1afc02accc1da338e12461744f62e302491eed42a1375ee45f2b0a4503419 9256 pygments_2.14.0+dfsg-1.debian.tar.xz 679745db87cb513e82dcac2f2685459989596a88b89e49598552c9ecc24673f8 2338 pygments_2.14.0+dfsg-1.dsc 9cf9dea77cd0d199e8d877960803b3f22edd4d6871daa0923afc9f5f8a717d5b 1450278 pygments_2.14.0+dfsg.orig.tar.gz"
+    "3be005d0186333bcf98cd3a9bde192dbff04cce78f9fb4731d5ae5feb08b1ed3 9812 pygments_2.18.0+dfsg-2.debian.tar.xz 8cfe5e4680e92060683bc235e1fe2f391d49be9b9b3ae1c13e2f8c75e0a4b419 2388 pygments_2.18.0+dfsg-2.dsc 8e724ccba2cd8b4932112a7fe64dc661093578f2b2d98d6f60559e23f3138ff5 1236932 pygments_2.18.0+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "3936e4b1f3fa4bb45c19d6545ec86ae1c6eea998cab127f7a97c4ee5ce413efda46075a211b1891a4af744c69edb3710ac227467d98800ed266ae50fe103668c 9256 pygments_2.14.0+dfsg-1.debian.tar.xz 157231cda5b8b595182ddbd95276c9ad38c86839ec8696968773f046e65f8ea1dc1794427f54af66d8662c86bff067a160ed7910868f60f8464548f64e6e1a71 2338 pygments_2.14.0+dfsg-1.dsc 3678886b6b6d4e776141e04dc3749d3cc99287112ddda472d2aea2165fd1b4592eaec72b2992ba86a8549ca6d07a76c0bc35135f7e83b20444f3874d61c5dce5 1450278 pygments_2.14.0+dfsg.orig.tar.gz"
+    "919fd515cb137747a15834203dc3c13324fa69de7d355a5c4b07e0a39843e7e37a68321d02ed8f1adee5cab9eb2b7cdb073ca243c56ef695b906b2f5f1424bb5 9812 pygments_2.18.0+dfsg-2.debian.tar.xz c28d62f7e40178528f7f0821e26ef0123be17b48a9b8bfb5f24656caa7dfb9520aea42a1886cf04a9c83f00372e1f15b4e12af98bd3094c33b2cc78c653987c3 2388 pygments_2.18.0+dfsg-2.dsc 82332c011af79d5d1512acfce301099620af97b9d03ef34d655360eda33243b3d264241d08e461bf90f661f616a42b16d7648d6ca3fdf3d18cdb05018ecf0081 1236932 pygments_2.18.0+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/pygments"
   ],
   "Files": [
-    "e78c27c6e370e28055e2e388c0fe3ae2 9256 pygments_2.14.0+dfsg-1.debian.tar.xz 5d5a753dbc6250cb1a16de3046d04fe2 2338 pygments_2.14.0+dfsg-1.dsc 07fa845db44dc6534ef9e9488c03e8c8 1450278 pygments_2.14.0+dfsg.orig.tar.gz"
+    "cdfe20ddb04039000d447417aaba0b9b 9812 pygments_2.18.0+dfsg-2.debian.tar.xz 52b163c8fa0a5ff5cc3739d5af5c81eb 2388 pygments_2.18.0+dfsg-2.dsc a935a315dc589366f3da95c823b00a2b 1236932 pygments_2.18.0+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/pygments.git"
   ],
   "Version": [
-    "2.14.0+dfsg-1"
+    "2.18.0+dfsg-2"
   ]
 }

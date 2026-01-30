@@ -6,16 +6,16 @@
     "python3-urwid, python-urwid-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, locales-all, python3-twisted, python3-all-dev, python3-setuptools, python3-sphinx"
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, locales-all, pybuild-plugin-pyproject, python3-twisted, python3-typing-extensions, python3-all-dev, python3-setuptools, python3-sphinx, python3-setuptools-scm, python3-wcwidth"
   ],
   "Checksums-Sha1": [
-    "43f87cf10373483e53d00d2457010e4fa4e14d45 6440 urwid_2.1.2-4.debian.tar.xz 608ec64d183480a21e1fabfa0b75ef1616f3cd09 2951 urwid_2.1.2-4.dsc 4ad6eb1cfc8d2c1a53aeab7f47091d6381b6061e 634621 urwid_2.1.2.orig.tar.gz"
+    "3e889e63f0aa2c4e1ea5d7457738bd70aaf31879 6608 urwid_2.6.16-1.debian.tar.xz a49460d0a5cf869771348f0676c85aac7d48e46f 3052 urwid_2.6.16-1.dsc c44cfe972af12b82527b6d14322e95e4dd54ba91 810604 urwid_2.6.16.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "3d4d86193a76412b7f3eb204075192b6aa213626aca48e066127cb87facb208f 6440 urwid_2.1.2-4.debian.tar.xz 5a5ef9d63a7a0e20588e7aade7dfdfad95ffe6254db7d74cca4de8b4b030c92a 2951 urwid_2.1.2-4.dsc 588bee9c1cb208d0906a9f73c613d2bd32c3ed3702012f51efe318a3f2127eae 634621 urwid_2.1.2.orig.tar.gz"
+    "bd2578671631cac8cd0d39c586a0644a4be56301f6089e517da9f5bcf27cb8a5 6608 urwid_2.6.16-1.debian.tar.xz 226cb2c62c67d8de79a31ca08f965009042eaedf7ada24ccbed9c5370569dab2 3052 urwid_2.6.16-1.dsc f1fd60c7c76e4235a2a7b2082394eece2f9498828ed4208fa1cd85ac78e40cfc 810604 urwid_2.6.16.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8b8675e3b18ebd8f1d92061192455cc7f0e4b1811dd03e50353b143d4cc193be24f564919dba566776e0255e06b2bcbf15d51bd88de0bb6bbac2914a268500d9 6440 urwid_2.1.2-4.debian.tar.xz ce18eeb7c2b4d29b5720b3a39216769359b42fcdefbbab4cb65ce9e17bd8811e5edcc19722893ea0e60fc0cd4225946bd92e709befccc07cb51a170a43766eca 2951 urwid_2.1.2-4.dsc f102bdde5f5d39d4bce455020bbe4f18290589da0750a3b15b1e2bc8acf8a405f02295d7efa3009877801a36bfbfade92ec963086122e9b133db137d816a1ea5 634621 urwid_2.1.2.orig.tar.gz"
+    "49b6059d6351940562d59f07c5b3c109e82f09a33b5432deb941037df35d2c07ef7b0a4e8a7fb10eaa25a8f8cc69679b56c43fb8d25f365cae6253d304fa7b2c 6608 urwid_2.6.16-1.debian.tar.xz e424cbb3feba4c61cfb072741828aabee3c6ef3e9f84ec85ec48540855a5c0b8d9ea78d07ba1a5857b2ac47dff30a9796cc5caad341e5f394c9bc6a1fe8bbf38 3052 urwid_2.6.16-1.dsc 7a928fe6e35714b351f99bce025fa2d50873052dac8b33d8b0dc76ffb8784c623cd83dd6314df5c61c11165734919803bd90f17e7aef1dbe032aa30615830ecd 810604 urwid_2.6.16.orig.tar.gz"
   ],
   "Description": [
     "curses-based UI/widget library Urwid is a console user interface library that includes many features useful for text console application developers including: . * Fluid interface resizing (xterm window resizing/fbset on Linux console) * Web application display mode using Apache and CGI * Support for UTF-8, simple 8-bit and CJK encodings * Multiple text alignment and wrapping modes built-in * Ability to create user-defined text layout classes * Simple markup for setting text attributes * Powerful list box that handles scrolling between different widget types * List box contents may be managed with a user-defined class * Flexible edit box for editing many different types of text * Buttons, check boxes and radio boxes * Customizable layout for all widgets * Easy interface for creating HTML screen shots"
@@ -24,7 +24,7 @@
     "pool/main/u/urwid"
   ],
   "Files": [
-    "f94acbb62aaf3844911a3f622b685ad5 6440 urwid_2.1.2-4.debian.tar.xz 253920e9ba48a0e5e06ee0260d9482c8 2951 urwid_2.1.2-4.dsc f7f4e6bed9ba38965dbd619520f39287 634621 urwid_2.1.2.orig.tar.gz"
+    "87b92697957d2e8c5ea03233cfbcc69f 6608 urwid_2.6.16-1.debian.tar.xz 3450974b86320aa2458d73a3e2675f5f 3052 urwid_2.6.16-1.dsc 55f4f46671a40e24470c9423852f27ab 810604 urwid_2.6.16.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "python-urwid-doc deb doc optional arch=all python3-urwid deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-python"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/urwid.git"
   ],
   "Version": [
-    "2.1.2-4"
+    "2.6.16-1"
   ]
 }

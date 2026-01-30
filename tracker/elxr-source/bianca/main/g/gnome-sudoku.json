@@ -6,28 +6,28 @@
     "gnome-sudoku"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), desktop-file-utils, dh-sequence-gnome, itstool, libgee-0.8-dev, libglib2.0-dev (\u003e= 2.40.0), libgtk-3-dev (\u003e= 3.24), libjson-glib-dev, libqqwing-dev (\u003e= 1.3.4), libxml2-utils, meson (\u003e= 0.59), valac (\u003e= 0.36)"
+    "debhelper-compat (= 13), dh-sequence-gnome, blueprint-compiler (\u003e= 0.16), desktop-file-utils, itstool, libadwaita-1-dev (\u003e= 1.6), libgee-0.8-dev, libglib2.0-dev (\u003e= 2.76.0), libgtk-4-dev (\u003e= 4.15.2), libjson-glib-dev, libqqwing-dev (\u003e= 1.3.4), libxml2-utils, meson (\u003e= 1.4), valac (\u003e= 0.36)"
   ],
   "Checksums-Sha1": [
-    "dc99bfec900cea3014f26688f50f1d424d29505b 28060 gnome-sudoku_43.1-1.debian.tar.xz 8396fbc02e6c9ccf629dbda0fa80eb3c14139944 2229 gnome-sudoku_43.1-1.dsc a9622b4932054bf45ec2118b44064be16d94c325 388640 gnome-sudoku_43.1.orig.tar.xz"
+    "f7fda60237ba1f606ae472d340942acd98945eda 29000 gnome-sudoku_48.1-1.debian.tar.xz a3c388bd38cb1d385ffeb9ad504dc05339ab4569 2311 gnome-sudoku_48.1-1.dsc c17ea78cba20c3a54027e4b01e1cdfe387774068 435548 gnome-sudoku_48.1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "73616c0a5307fc3c5d4776158de17a3439a13725a53c0338ffecaf57e6deb0a7 28060 gnome-sudoku_43.1-1.debian.tar.xz ef1bde2805ca0c750e39e13ef2b66b693d414c180ca1dee5d623b6cbfa0f0d31 2229 gnome-sudoku_43.1-1.dsc c1eebf4093f336b489fb91c730eda671da68eef65e6197a1298a9546c788999f 388640 gnome-sudoku_43.1.orig.tar.xz"
+    "b3ad86fe0dc4170fb02d9e9b35b9089190853538243a8e95ae541b1b25bf84f0 29000 gnome-sudoku_48.1-1.debian.tar.xz 4795f0f6d0fdf0665d16131604887c93b770ce5c95ce1e7dc5e16da1dd06bcd3 2311 gnome-sudoku_48.1-1.dsc 79713ad82a59904cd696ff02255eb6ed9364e88f3e783343b1f9d0ca09f2c7e3 435548 gnome-sudoku_48.1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "faefdb0d19e056d7a82388da4d151e7f9390a426746a0cab1592a5abe014b7e9b35904217dcdf3c21f4491a59207d2ae294f4c1e850a4fcbaa9a8431368a185c 28060 gnome-sudoku_43.1-1.debian.tar.xz b5b80adec84c81922635769b0d4fbb4a6bc9bf1fd398b4a62b816778ee72861d015305590481bc0d4cfac8657b8a223dc6664a720c1a2a7e1b1e26f9b57a1b47 2229 gnome-sudoku_43.1-1.dsc 20535d26af516f53e4c6381cb5b0d0c474759e3e9ac41a1b392e868f809daeb8b593d2a4240f9171133c2d4aa369adaa13d65131a77140bf8e9c2fe882810fbe 388640 gnome-sudoku_43.1.orig.tar.xz"
+    "baf3bb3449b890c769d3d559fd67b03d219b8658e9b65a8a044299e5effb57cf85a3fc680473e2ad4f6db9ac2e4c7221d20e44dc0225b76eab1b564c41285108 29000 gnome-sudoku_48.1-1.debian.tar.xz 1838ad4697a609a7530e52ad16f61b488e4db2b18e0356940a893d80d6dd4f11b484208333c2183aac762ca45a96a65a861135a881d39d431e4b787b221ee7c9 2311 gnome-sudoku_48.1-1.dsc 09abeefbbe78cb68b052e2bf8d73b59e859926fbd767aaa6a7665a5edc67e1e43e64c20b195e996454cef0bdaded98521d67a8f7f6158ace0e76e40ef0813aab 435548 gnome-sudoku_48.1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gnome-sudoku"
   ],
   "Files": [
-    "f13b840a398a75a9007d0ae5521b0576 28060 gnome-sudoku_43.1-1.debian.tar.xz 666ee097a4744b71b26bc40ced68bcf4 2229 gnome-sudoku_43.1-1.dsc e9855bd097e16a18b2b2ec301fa4270e 388640 gnome-sudoku_43.1.orig.tar.xz"
+    "6b1ebe2ca176abf2c83cc7c73eb4358b 29000 gnome-sudoku_48.1-1.debian.tar.xz 1c87a16d33022c2677e549189a054e8b 2311 gnome-sudoku_48.1-1.dsc 3069215f1940a2022e89d68bd2acdb45 435548 gnome-sudoku_48.1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://wiki.gnome.org/Apps/Sudoku"
+    "https://gitlab.gnome.org/GNOME/gnome-sudoku/-/wikis/home"
   ],
   "Maintainer": [
     "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
@@ -39,10 +39,10 @@
     "gnome-sudoku deb games optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Michael Biebl \u003cbiebl@debian.org\u003e, Tim Lunn \u003ctim@feathertop.org\u003e"
+    "Amin Bandali \u003cbandali@ubuntu.com\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Tim Lunn \u003ctim@feathertop.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/gnome-sudoku"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/gnome-sudoku.git"
   ],
   "Version": [
-    "1:43.1-1"
+    "1:48.1-1"
   ]
 }

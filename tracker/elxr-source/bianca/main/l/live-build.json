@@ -6,22 +6,22 @@
     "live-build"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), po4a, gettext"
+    "debhelper-compat (= 13), devscripts, gettext, po4a"
   ],
   "Checksums-Sha1": [
-    "49c9392ce13fcbb68d3fff91823dafef6ed62b40 1848 live-build_20230502.dsc a73d193ed8988207e9d335e18d45185d4634f4af 235104 live-build_20230502.tar.xz"
+    "c417697cc75a5778c7cc338cfafe4438da04b8a0 1948 live-build_20250505+deb13u1.dsc 8d7b786e3e078c2907c91e16addb907aab114393 254340 live-build_20250505+deb13u1.tar.xz"
   ],
   "Checksums-Sha256": [
-    "07915ef266f2538814e6d28f0b6574e9f08f686ff1ed86fd13e50eb06d9b9c08 1848 live-build_20230502.dsc d5f178dfd556db74411bd51fb6559372408f3e796ce202e53fc4bbf8d7c31076 235104 live-build_20230502.tar.xz"
+    "06a47dd5b8f1d451b3fa71d4ec9efeb85633dc4eae57478d8439621011214e49 1948 live-build_20250505+deb13u1.dsc 1aad324e433d6cb6d038193252b74fd0ed1c1e1d7e1c6cf410c8fb09c5225b9e 254340 live-build_20250505+deb13u1.tar.xz"
   ],
   "Checksums-Sha512": [
-    "696039863c2a38baeb2cfa8bcb097287c30d87593772a4bef00ed70c16870c7cd233746634d3258f2bf69946a339189dca4a4a71f3d3d20c6a9ae77bb173f032 1848 live-build_20230502.dsc 51baad77c7019d9275dc83667eb66bb471245fe4782e28382454a4a90d22f60553ea84a05c78753518fcb63de4500494980107d16ce5a2d34cb6be9604d84138 235104 live-build_20230502.tar.xz"
+    "ef60faeaacfa6cf114c79385ebe54c3338229568126c0fdfa444cb3252a3e42c9acd93bb318cb71cf03a3193de0bf7c85bc687d436ae3a2595e51c52a3440884 1948 live-build_20250505+deb13u1.dsc f3f1046bb2f1e3101374f2b004682d9cd65362d12c495b417e2a34c27c9e520d7beb0bc8699ff7ec8d52395935766a109dd1de9df2a3c317ef8e4cb3e5f2540e 254340 live-build_20250505+deb13u1.tar.xz"
   ],
   "Directory": [
     "pool/main/l/live-build"
   ],
   "Files": [
-    "0011b2b372d65a487874b47ca09f2642 1848 live-build_20230502.dsc 8d4033743d54c26aa9e2b2c651003c44 235104 live-build_20230502.tar.xz"
+    "e6948b1ecd5035474ffbfaab9ab0bd56 1948 live-build_20250505+deb13u1.dsc 5d7c530010fc75d7e0cdd232ecc71399 254340 live-build_20250505+deb13u1.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -39,7 +39,7 @@
     "live-build deb misc optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "apt-utils, bzip2, ca-certificates, cpio, curl, file, git, wget, xz-utils"
   ],
   "Uploaders": [
-    "Raphaël Hertzog \u003craphael@offensive-security.com\u003e, Luca Boccassi \u003cbluca@debian.org\u003e,"
+    "Raphaël Hertzog \u003craphael@offensive-security.com\u003e, Luca Boccassi \u003cbluca@debian.org\u003e, Johannes Schauer Marin Rodrigues \u003cjosch@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/live-team/live-build"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/live-team/live-build.git"
   ],
   "Version": [
-    "1:20230502"
+    "1:20250505+deb13u1"
   ]
 }

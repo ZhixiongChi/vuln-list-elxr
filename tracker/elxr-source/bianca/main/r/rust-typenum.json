@@ -6,25 +6,31 @@
     "librust-typenum-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.37.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "62b41e23485254379c23cc0b52a0a0c44ad66bf7 3536 rust-typenum_1.16.0-2.debian.tar.xz 21bf1060167c94e551fd320f5e2c8d651803fff5 2124 rust-typenum_1.16.0-2.dsc 4575f6390185a8795dbcddc32248fe92f3079016 42477 rust-typenum_1.16.0.orig.tar.gz"
+    "c2b807fe1fbfe7bb322490f7efbd0a2fa500088d 4560 rust-typenum_1.17.0-3.debian.tar.xz f0a2b4b66f9e0e328cbe1e864c7fd70437de6221 2314 rust-typenum_1.17.0-3.dsc fc76c4b86c035f557e66372f24425ec360a64b3b 42849 rust-typenum_1.17.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "b1264bd1bcdd6e0a3ff82d1bc4f39b68f2426117321ebf0f077943c6cd3c92b5 3536 rust-typenum_1.16.0-2.debian.tar.xz f629cd4f2e5190edd1db73ff84d864607de572e4f8f6e276ab92de7dd208b056 2124 rust-typenum_1.16.0-2.dsc 497961ef93d974e23eb6f433eb5fe1b7930b659f06d12dec6fc44a8f554c0bba 42477 rust-typenum_1.16.0.orig.tar.gz"
+    "cc9a536f27325e5a3989ad7af509d495d1e737b8cb680d39b9fbc42f13f0e185 4560 rust-typenum_1.17.0-3.debian.tar.xz 7abe75ba67e55e987ea58e2e65024176f5bc16cbb4f1e0ff1507c1021bac07b2 2314 rust-typenum_1.17.0-3.dsc 42ff0bf0c66b8238c6f3b578df37d0b7848e55df8577b3f74f92a69acceeb825 42849 rust-typenum_1.17.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "688d00aceea11ca6c24ddcbd605b58a3934f170991bbd09eac3a35874c144c759976a526324824f2b29255ea83c00a981a7d843732e67e111df4cb336ff5e218 3536 rust-typenum_1.16.0-2.debian.tar.xz 21d0ca1aec32ae1c6dd094df04df0df86201680685debfe44579cefdaa12c03a4fadaac4c24b617254a1320f175e138176ee41995a620a46600f5fcf47d9498a 2124 rust-typenum_1.16.0-2.dsc 93da3ed62573acbc9d5d31257fb72ae9cfc7d59e4040c1f32d93e8fec94795e1aa20a3bf76ddc64c4b383184306bb2a66e51fd61b64dd4ce46a1bca8238b57b2 42477 rust-typenum_1.16.0.orig.tar.gz"
+    "7ee6bed9d29721d42afa809d0c6a372b6213b0f98145c491216564aeae9ba8cf34d2576bd45450a67fbd77d20bafe8b2c0fd0c0b66fae1d072e7604eecb6db21 4560 rust-typenum_1.17.0-3.debian.tar.xz aa70b23fd5e184326f9a8281447fa651e3cc8ac8293db7ccb2dedcdfd3483ac89768b05000fc5c07c911dfd7275740f4aa87d9f16ea2cab0fab254fc0e5fee79 2314 rust-typenum_1.17.0-3.dsc 99773d5d9f850c0602db4bb67dd062b0ade6f086e155216f1bb2fb6569461ba7e1b7c2f2af81ea8833bc3bfcf3fe5033edecb7c438adae63f59d3e30cf63a508 42849 rust-typenum_1.17.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-typenum"
   ],
   "Files": [
-    "bd8decb07e967198d12016cf80fd2a6e 3536 rust-typenum_1.16.0-2.debian.tar.xz b1d396f3d935d8862e174d66b47f3873 2124 rust-typenum_1.16.0-2.dsc 63ce54e1fcbbdb45c15146fd082528bb 42477 rust-typenum_1.16.0.orig.tar.gz"
+    "71dfae98f96322e1dd790eee2762720d 4560 rust-typenum_1.17.0-3.debian.tar.xz 8e4319b1a8fa8f15769e94a2327c4ab3 2314 rust-typenum_1.17.0-3.dsc 6ebb8deee5a5a0d1c26b20eeee1926b3 42849 rust-typenum_1.17.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/paholg/typenum"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,13 +42,13 @@
     "librust-typenum-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo"
+    "dh-cargo, rustc"
   ],
   "Uploaders": [
     "kpcyrd \u003cgit@rxv.cc\u003e"
@@ -54,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/typenum]"
   ],
   "Version": [
-    "1.16.0-2"
+    "1.17.0-3"
   ]
 }

@@ -6,22 +6,25 @@
     "python3-traitlets, python-traitlets-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-hatchling, python3-myst-parser, python3-pydata-sphinx-theme, python3-pytest \u003c!nocheck\u003e, python3-sphinx, python3-sphinx-rtd-theme"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-argcomplete \u003c!nocheck\u003e, python3-doc \u003c!nodoc\u003e, python3-hatchling, python3-myst-parser \u003c!nodoc\u003e, python3-pydata-sphinx-theme \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-mock \u003c!nocheck\u003e, python3-pytest-mypy-testing \u003c!nocheck\u003e, python3-sphinx, python3-sphinx-rtd-theme \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "2e8443b24dbccd3ec0bbef774af1a4f8433a48bc 4500 traitlets_5.5.0-1.debian.tar.xz 0c62952ffe2ad290ec0c235617429b858ffb3ef4 2225 traitlets_5.5.0-1.dsc a1f353d8d1404ad12e6313f1c771e34c7b539f99 132346 traitlets_5.5.0.orig.tar.gz"
+    "58cba4a9d9ad351e2c6cf1fa228bb0539e3bfeaa 5604 traitlets_5.14.3+really5.14.3-1.debian.tar.xz dd3e6cadbe15611cadecc4062006e9fcbe5e67da 2720 traitlets_5.14.3+really5.14.3-1.dsc c0b4a204c9774a2c9099689e99589dbede8e6bc5 162287 traitlets_5.14.3+really5.14.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "91109a0d8c594c84207760886e10e673a296fd34cc8346563c9020d0faf713e4 4500 traitlets_5.5.0-1.debian.tar.xz 844f583ec04c6dd68d83d646f0ef7c5baba21cfbb9e76acc354bb6a1ae766672 2225 traitlets_5.5.0-1.dsc 3cecc9eec54c830d02f1f8e0ff2a594ca441c3ea4ba7482d1e0dda778ee9dc55 132346 traitlets_5.5.0.orig.tar.gz"
+    "141d683bef08e5689231e8e3610fd4ad8266e0d76fa6e701664a50be42ba51eb 5604 traitlets_5.14.3+really5.14.3-1.debian.tar.xz b25a2eabc28a39e87eb6340a8ce89699ebb207f2e8b2a2f957936de2cd12e388 2720 traitlets_5.14.3+really5.14.3-1.dsc 1185785c6aef5078968c4e1e0fc2e0363d9903a64674b6c29cab248f0c525b6d 162287 traitlets_5.14.3+really5.14.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "ec49e6486574e72cced89fe522c0eed1fef182976fad568929ebaefd63c013f34b2789b2418b6fa394d6016b9fe3180aceab76c578e0df3bc723b9491e3000f1 4500 traitlets_5.5.0-1.debian.tar.xz ac6b9539b93d0f8f5a4953bfa118973c469a24bbb286d0cd8c49480cbcf51b98c478addf771baf0f99d791c4dbfa72f91b221ffb0b9cd5ef742aa6e5b8fd8161 2225 traitlets_5.5.0-1.dsc 298afd310f2d1c25b86f09ca1177f03da4834f4d054bfabacb3c18535b94769810bfecf4cb48e43dea2fa39617d6a5c985ce9db78af1419e814a8504c05ef04c 132346 traitlets_5.5.0.orig.tar.gz"
+    "aca6ac028cc1011dfda21a7ec5ea564cf3addbe6f8de34b24ea3ac1f6216a89aaf4a9be50cd14aa7f98c2b8e2409a54c23594cba45067454571e85147c88719a 5604 traitlets_5.14.3+really5.14.3-1.debian.tar.xz fe8aa55d3a22ab437a566d80dea4ac05f8e6210dffb80ae3536e503b67deb1027d8fb5c16f303793271765b578f1809d87ab94dc6cd8d4fc41ad691caa388389 2720 traitlets_5.14.3+really5.14.3-1.dsc 25140b82c0d1fdb70069b17dc821e40d6e7bc3e65d7f328cb77c885eff098f8223702287b1542495c4f01a89c9af29b99b7a49c16a93c92ea2563ae7f1a7ea70 162287 traitlets_5.14.3+really5.14.3.orig.tar.gz"
+  ],
+  "Description": [
+    "Lightweight Traits-like package for Python A lightweight pure-Python derivative of Enthought Traits, used for configuring Python objects. . It powers the config system of IPython and Jupyter."
   ],
   "Directory": [
     "pool/main/t/traitlets"
   ],
   "Files": [
-    "1a9c3275beb33723fbe482c51a0d1638 4500 traitlets_5.5.0-1.debian.tar.xz a157cabf676c0f83e0975e8ed5acc546 2225 traitlets_5.5.0-1.dsc fb4be1a75052ba26639c11ef28f7a207 132346 traitlets_5.5.0.orig.tar.gz"
+    "7f9fa084ec050cadba51bc4e60840c1b 5604 traitlets_5.14.3+really5.14.3-1.debian.tar.xz 9a19c6ac67d9a0894cab9fcf4c318179 2720 traitlets_5.14.3+really5.14.3-1.dsc 8558b9a02f57d62b499063944303ca70 162287 traitlets_5.14.3+really5.14.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +39,13 @@
     "traitlets"
   ],
   "Package-List": [
-    "python-traitlets-doc deb doc optional arch=all python3-traitlets deb python optional arch=all"
+    "python-traitlets-doc deb doc optional arch=all profile=!nodoc python3-traitlets deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
     "Julien Puydt \u003cjpuydt@debian.org\u003e"
@@ -51,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/traitlets.git"
   ],
   "Version": [
-    "5.5.0-1"
+    "5.14.3+really5.14.3-1"
   ]
 }

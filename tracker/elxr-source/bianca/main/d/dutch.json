@@ -6,34 +6,34 @@
     "idutch, wdutch, aspell-nl, hunspell-nl"
   ],
   "Build-Depends": [
-    "dictionaries-common-dev, ispell, debhelper (\u003e= 11)"
+    "dictionaries-common-dev, ispell, debhelper-compat (= 13), convert-bdic"
   ],
   "Build-Depends-Indep": [
     "aspell, hunspell-tools"
   ],
   "Checksums-Sha1": [
-    "54b336ef7e7e2ca05a6d0666983e035fc7c2c496 23865 dutch_2.20.19-2.diff.gz 4fb5c67a9f1d39f053e3d84cbc52e41f8ab176c1 2034 dutch_2.20.19-2.dsc 900ac6bc1168c3d486124a3eac496e235f440e25 4367346 dutch_2.20.19.orig.tar.gz"
+    "8d3aecb51ae2ffde6a8dc6ed1ae6ef71c0182662 16632 dutch_2.20.19+1-3.debian.tar.xz 6207f139e139927c7b420d42ef8697dca1027b6c 1552 dutch_2.20.19+1-3.dsc b1497af9393f12497be633b3cf253c2e073dde79 4373750 dutch_2.20.19+1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "43d976f49465c7cfa94280b1d286eb7ad865e48cc31af8f8907c2881795a6af2 23865 dutch_2.20.19-2.diff.gz 23adb6be4ac422333e806ce397193014e5d26eedfc42e24b378e2ec5c2c90b73 2034 dutch_2.20.19-2.dsc a3b1dbbc5b2a81e40b81d08db0481912ce63a922e3873a7eb27eb0ae2969c68e 4367346 dutch_2.20.19.orig.tar.gz"
+    "547f56bb2bd4b5206cd8bff6dde1b3cd1a616d602db9581e8df146a2ea81530f 16632 dutch_2.20.19+1-3.debian.tar.xz 50db47c22eb025a6db97983e0f7424377b5c605f283c07e592bc4b6535b8f1a2 1552 dutch_2.20.19+1-3.dsc fc77560310099f4f831d2cea4bd4998f44e4a2bc0598c5903152f6d148e668ee 4373750 dutch_2.20.19+1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "106edc571737bab8727121c4aa428f508460679ceacce90b9e2c19d02551445453b96a8f5473bf828f5e897954dc309ace068b567ab806421775c54c4fefe22e 23865 dutch_2.20.19-2.diff.gz b5693f9083aab46352aeb346173c7b4249a24f3621bd99d995926f3daebd1c66b327498230d414cd36d5f79c2b7006c20fed9e2c151eda6f9d5404a70da474f0 2034 dutch_2.20.19-2.dsc a8d4ddd77a3ce44ae5b1abef8f7ffe6df2ddc3e0e21f0958c1f36496552db5ca63a303a83d294586bbb7cbc73e6a9bce8808ea5110c18b8b17d98e396aff980e 4367346 dutch_2.20.19.orig.tar.gz"
+    "4646506aaa5597c67b51a1fb84839913fa3f7448df32489a787518552c5932258180f6fdc098b2e705a6293fbcdd9aeb85376b51be1fb6aabbf71a65b8f88e8f 16632 dutch_2.20.19+1-3.debian.tar.xz 8ea38468442959d7725dc901093bcefa0c959b969eefb72e6be33abf65ee1f754c6b4fec63e5b1421b6a071f4be10982c6803e146cd9915b11262e8b2e604e97 1552 dutch_2.20.19+1-3.dsc e04b84cb9bf71a314b0a938cdc83e559ef18bdfc69fa906134f6000b89e8387fad8c161569ec010b3e1396fda1061d2ca51ea5c3df92277da275d1e068080fab 4373750 dutch_2.20.19+1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/d/dutch"
   ],
   "Files": [
-    "158af3cd9c9a0ad673b453cc09f7c262 23865 dutch_2.20.19-2.diff.gz d2a03cf87b31025392420c06c966f211 2034 dutch_2.20.19-2.dsc 2800182d4b96e299ac22ef354876d3ea 4367346 dutch_2.20.19.orig.tar.gz"
+    "8a19b4fcc41eb434b5212adbd64dc314 16632 dutch_2.20.19+1-3.debian.tar.xz 54bc6077ca19b3cafc8247ad465af0af 1552 dutch_2.20.19+1-3.dsc b41b49f19634b5891cc03f51bc6a851e 4373750 dutch_2.20.19+1.orig.tar.gz"
   ],
   "Format": [
-    "1.0"
+    "3.0 (quilt)"
   ],
   "Homepage": [
     "https://www.opentaal.org/"
   ],
   "Maintainer": [
-    "Thijs Kinkhorst \u003cthijs@debian.org\u003e"
+    "Kurt Roeckx \u003ckurt@roeckx.be\u003e"
   ],
   "Package": [
     "dutch"
@@ -42,10 +42,10 @@
     "aspell-nl deb text optional arch=all hunspell-nl deb text optional arch=all idutch deb text optional arch=all wdutch deb text optional arch=all"
   ],
   "Standards-Version": [
-    "4.1.3"
+    "4.7.2"
   ],
   "Uploaders": [
-    "Kurt Roeckx \u003ckurt@roeckx.be\u003e"
+    "Thijs Kinkhorst \u003cthijs@debian.org\u003e, Manuel Guerra \u003car.manuelguerra@gmail.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/dutch"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/dutch.git"
   ],
   "Version": [
-    "1:2.20.19-2"
+    "1:2.20.19+1-3"
   ]
 }

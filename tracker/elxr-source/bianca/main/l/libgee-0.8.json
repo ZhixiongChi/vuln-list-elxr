@@ -6,22 +6,22 @@
     "libgee-0.8-2, libgee-0.8-dev, gir1.2-gee-0.8"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, pkg-config (\u003e= 0.14), libglib2.0-dev (\u003e= 2.36), valac (\u003e= 0.25.1), libgirepository1.0-dev (\u003e= 0.10)"
+    "debhelper-compat (= 13), dh-sequence-gir, dpkg-build-api (= 1), libgirepository1.0-dev (\u003e= 0.10), libglib2.0-dev (\u003e= 2.36), pkgconf, valac (\u003e= 0.25.1)"
   ],
   "Checksums-Sha1": [
-    "d586a1037ee48f4e5ef76e8cec4fd6e5f690a78d 9140 libgee-0.8_0.20.6-1.debian.tar.xz 81eb3bdcb3bf2304a5bee98d11a7f371eb628133 2273 libgee-0.8_0.20.6-1.dsc 93af2254b4c4c1f5d6742bfeb99717ccd81c8e89 690436 libgee-0.8_0.20.6.orig.tar.xz"
+    "db57ee01d06028c428adf7d365d2941ef39ea990 9228 libgee-0.8_0.20.8-1.debian.tar.xz dda9b6e6587b0f6a03ceacda8866b2e1726a8b87 2230 libgee-0.8_0.20.8-1.dsc 5aee80be0b3efbbf9fe0f3c3423ff807898ba7bd 692112 libgee-0.8_0.20.8.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "96ce2aade72cecd20778b7d5a65de9b5c92133f948d740bb408ee8007f282425 9140 libgee-0.8_0.20.6-1.debian.tar.xz 1e1470091669568c7bd2bbe8b66e36901973dfd569051fa5965247a0c2c7cdc2 2273 libgee-0.8_0.20.6-1.dsc 1bf834f5e10d60cc6124d74ed3c1dd38da646787fbf7872220b8b4068e476d4d 690436 libgee-0.8_0.20.6.orig.tar.xz"
+    "79a2aadf98e7217de7a1e3aa5248805161d68c1ae9cc56dd880e6a300a686e25 9228 libgee-0.8_0.20.8-1.debian.tar.xz f0e0a1ea099c741066f62797268b5f7dce44ab18cfd12d169bb4994370489a2b 2230 libgee-0.8_0.20.8-1.dsc 189815ac143d89867193b0c52b7dc31f3aa108a15f04d6b5dca2b6adfad0b0ee 692112 libgee-0.8_0.20.8.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "00f084579872ab886baa6a4fd12dba94dad551209f41e244d989af9af9696d363fbc655437f1aeda94710d3bf826e2052647e0f4faa77c5bbfdb92a12a282063 9140 libgee-0.8_0.20.6-1.debian.tar.xz ba1170282e5a824dea340958af079f7a93580683a03039fc72b6b9b64ae85b4cb3569ff236bbd9dc2389cfc7fd3cd15b558b0a13a70619417808c8ec94660e24 2273 libgee-0.8_0.20.6-1.dsc 05176b221274b2a0512b018b93ae730ca750482bbc7a4951376eb868c0a388950371e80a438b5af792ebe4a64b6a38e0c94ca52ebd0fc4539f0fe233e0be5903 690436 libgee-0.8_0.20.6.orig.tar.xz"
+    "efb11a35ccc0e7286ceef55090d2d021fd4ce3788af2daa85c1d08a0a908996a24c3cf3e401aabec1cab7a0ed129201be7f6b4d8fd583f83dc6edfebeb3d355e 9228 libgee-0.8_0.20.8-1.debian.tar.xz 4fcb5d06d2022624ff686ea7ee8443a61145eb13f3aed05847b4041123576f61ca68e21b3d9eab70f699375071c59451824bef63c54535764fbff16702cb7fdf 2230 libgee-0.8_0.20.8-1.dsc 9af883bb4b2c25c429271201e634d1851378631b913bab282fe432b2b76a44674111e65caa99269fd403454c87b5474f2567c554bddd0b3ea58ca6e138c311e1 692112 libgee-0.8_0.20.8.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libg/libgee-0.8"
   ],
   "Files": [
-    "49749cab17a5e00da45fff87ba218e0a 9140 libgee-0.8_0.20.6-1.debian.tar.xz 0c1c3471a064a6257567338cd823369f 2273 libgee-0.8_0.20.6-1.dsc 8b9001f47e15ef7a1776ac1f5bb015a0 690436 libgee-0.8_0.20.6.orig.tar.xz"
+    "b7de03de6efd72176e19c83a5be09985 9228 libgee-0.8_0.20.8-1.debian.tar.xz 51911b43a533cf7fbc9912c214923351 2230 libgee-0.8_0.20.8-1.dsc e8e37df1c7a93aa5ba08be12ae7e7cad 692112 libgee-0.8_0.20.8.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "gir1.2-gee-0.8 deb introspection optional arch=any libgee-0.8-2 deb libs optional arch=any libgee-0.8-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bicha \u003cjbicha@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
+    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/libgee"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/libgee.git"
   ],
   "Version": [
-    "0.20.6-1"
+    "0.20.8-1"
   ]
 }

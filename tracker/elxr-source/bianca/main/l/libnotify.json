@@ -6,22 +6,22 @@
     "libnotify-dev, libnotify4, libnotify-bin, libnotify-doc, gir1.2-notify-0.7"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), docbook-xsl-ns, libglib2.0-dev (\u003e= 2.26), libgtk-3-dev (\u003e= 3.0.0), libgdk-pixbuf-2.0-dev | libgdk-pixbuf2.0-dev, gnome-pkg-tools (\u003e= 0.7), gobject-introspection (\u003e= 0.9.12-5~), libgirepository1.0-dev (\u003e= 0.9.12), gtk-doc-tools (\u003e= 1.14), meson (\u003e= 0.47), xmlto"
+    "debhelper-compat (= 13), dh-sequence-gir, docbook-xsl-ns, libglib2.0-dev (\u003e= 2.62.0), libgtk-3-dev (\u003e= 3.0.0), libgdk-pixbuf-2.0-dev, libgirepository1.0-dev (\u003e= 0.9.12), gi-docgen, meson (\u003e= 0.58), xmlto"
   ],
   "Checksums-Sha1": [
-    "0d14e95d731c654e42ffef6324558be5336b537f 9900 libnotify_0.8.1-1.debian.tar.xz 7b766a833204606b6f0071b379f98958b865ba25 2606 libnotify_0.8.1-1.dsc fe72d5a2184aa30f79fe31e6124ed5c2d83b87b6 105368 libnotify_0.8.1.orig.tar.xz"
+    "53d6e0e2a80ca041b8203f10b21bea66fce2b185 9916 libnotify_0.8.6-1.debian.tar.xz e8f2490335505da0cbb0d6be9d82ea2267b60e38 2455 libnotify_0.8.6-1.dsc 9fd399c7e7d26ce7433a80ed84b5bb0a38b5edd4 107628 libnotify_0.8.6.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "0178ec7e19553fc5ac0cd829e1c6e75f8354b1708fd7966ad0798467499bf65a 9900 libnotify_0.8.1-1.debian.tar.xz 53f1cd144c9be3ce3b64fa0073100f0857b64739399cbf21d2cf3cbd57bea7da 2606 libnotify_0.8.1-1.dsc d033e6d4d6ccbf46a436c31628a4b661b36dca1f5d4174fe0173e274f4e62557 105368 libnotify_0.8.1.orig.tar.xz"
+    "6adc3ec7b4b0533983401e2fa4ec887e3cb918d6f4a259189d35ed7420676184 9916 libnotify_0.8.6-1.debian.tar.xz c6a213cc6940c63c864c1c60a60b8b15ccbe23cea0e6191434de7497b579ba78 2455 libnotify_0.8.6-1.dsc c5540aaefb60e1d63b1c587c05f2284ebe72ece7d0c0e5e4a778cfd5844b6b58 107628 libnotify_0.8.6.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "756b1067d49020652bd6fedec5dbb89f218657bb28bb35f3b95e8944bf7b1435b454279d6174189578e37b7e3d506c1a2fa368a479f1264e75c1c5e3cad5331f 9900 libnotify_0.8.1-1.debian.tar.xz 40fa09120c3087fbc8c26b0322bb0aaa2f53271551399aa8813b773fd4baa717bc163b60ad8dcb397427ba25ddb77aa46040679ce85e9de23307df71b6ebcc3c 2606 libnotify_0.8.1-1.dsc 464b7ff9f2f6268919f336bd9c6f8c243c29282ba6ada7e491ab514b3630977a319dfa522705c68e17fff2d87effc75e009d656bc46c5e92917ad64e66b25320 105368 libnotify_0.8.1.orig.tar.xz"
+    "ace06792cf3e01e814f45f28064d453f6a6ea5df8643cc79fc90aa3845b5186f25cc2233116eb43439ce44234f6eb1653bdb2460ac9a2be5fc144492fbde5f48 9916 libnotify_0.8.6-1.debian.tar.xz e04e1e4b7f13fc9fd1a65a217b8e3d5fcef9716c9d947c7a32a5c1d685352d5a00b9f219c7dfa9fdacecbd82d0a3b492be259d05f5bcf84cdf798c1796822865 2455 libnotify_0.8.6-1.dsc 6e566f5907cfd7d623d58f5aa22d547271feb7e52bf28e463ecb98a763d6f7ad38cacc473d65e6f4a7e44c0514ab008078042e56a8b61edb719b9a1d192c2e34 107628 libnotify_0.8.6.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libn/libnotify"
   ],
   "Files": [
-    "d1dc53f5220ef8fec265f6d0e347ba01 9900 libnotify_0.8.1-1.debian.tar.xz 69535ed3f27341b1db370920f99cee49 2606 libnotify_0.8.1-1.dsc 1495f279b255b4493ac3588559823158 105368 libnotify_0.8.1.orig.tar.xz"
+    "0350af34ad163272b4d1a5ba5b50ea8e 9916 libnotify_0.8.6-1.debian.tar.xz 23c5af9f3265f7f6c8162bb5aedd46a5 2455 libnotify_0.8.6-1.dsc 09bce743badbe1c180ce14d92539afb9 107628 libnotify_0.8.6.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +36,7 @@
     "gir1.2-notify-0.7 deb introspection optional arch=any libnotify-bin deb utils optional arch=any libnotify-dev deb libdevel optional arch=any libnotify-doc deb doc optional arch=all libnotify4 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0.1"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -45,7 +45,7 @@
     "build-essential, dbus, pkg-config, python3-dbusmock"
   ],
   "Uploaders": [
-    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Martin Pitt \u003cmpitt@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Marco Trevisan (Treviño) \u003cmarco@ubuntu.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/libnotify"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/gnome-team/libnotify.git"
   ],
   "Version": [
-    "0.8.1-1"
+    "0.8.6-1"
   ]
 }

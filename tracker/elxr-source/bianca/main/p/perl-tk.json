@@ -6,28 +6,25 @@
     "perl-tk"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), perl (\u003e\u003e 5.8.1), libx11-dev, libxft-dev, libxt-dev, x11proto-core-dev, libpng-dev, libjpeg-dev, libfreetype6-dev, libxrender-dev, dpkg-dev (\u003e= 1.16.1~), xvfb, xauth"
+    "debhelper-compat (= 13), perl, perl-xs-dev, libx11-dev, libxft-dev, libxt-dev, x11proto-dev, libpng-dev, libjpeg-dev, libfreetype-dev, libxrender-dev, xvfb, xauth"
   ],
   "Checksums-Sha1": [
-    "f2ba851e759a0d070a4c7b96bb0da8b5ac796111 15356 perl-tk_804.036-1.debian.tar.xz 953ce5d29949fe97ee4400795bb6c60c61c393d1 2090 perl-tk_804.036-1.dsc bf540582fe2809fa29790835590cbc0cf732080b 4641316 perl-tk_804.036.orig.tar.xz"
+    "04d07e83ee9c7c900dc2d136db7d16a8af5e9909 18524 perl-tk_804.036+dfsg1-5.debian.tar.xz 63c44586bb0d46b926813f02daa02b3398a261f3 2034 perl-tk_804.036+dfsg1-5.dsc 10b70a6308bacd08ebcb580f48c4ac224eb2b5aa 4433356 perl-tk_804.036+dfsg1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "8cfeb0f20ecf19a0567c9df1b65bbecec117646c8b6291a538bda2eb912d3a55 15356 perl-tk_804.036-1.debian.tar.xz ff619b2f3639fd37c9a83bdf6ff9ebfee57474e9b3a0b0e02b3f45f627864eee 2090 perl-tk_804.036-1.dsc 0ae623b0030ce39c54fd51ad51d5a50753ea3af1288ad5ca7d4718d25f04748e 4641316 perl-tk_804.036.orig.tar.xz"
+    "835fe7b9f4aeb590e6133ead77bcd57d2ac3e20c2f7e25ddecb78d9bd32aaf6e 18524 perl-tk_804.036+dfsg1-5.debian.tar.xz 2a0d1a4257b716cf898ec51ae12eec6dadb31e531e636b88280685ca676d6898 2034 perl-tk_804.036+dfsg1-5.dsc 04feca4cd89dafbf035ccc2743c578ace02ec2204c40fa3246dbac72b3e24005 4433356 perl-tk_804.036+dfsg1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "751bead14ee3b8eb81412b37e022a4a8a8d6db683074475e8b6155ef9de8da7c27de366ac3eeb9e543f3f1ef995fe933236a67f10ba4d4e43fea099b72c930fd 15356 perl-tk_804.036-1.debian.tar.xz 59b6e140c559d54d6cbf4ba90b690b51cc3c814a5c326d41834620c0f955aa13d86b92ed02e4a1cd1103250f286a1890188d121312e220fccef6957e2a50f1f3 2090 perl-tk_804.036-1.dsc 56af9fa40ac53a59a14b9c21d30bb21800089ee01eec626575d9bfe7b68e628bbfead07de7accfdc18ce7332c1a28bff0ea77a148678ab4743e95a3a59f906f0 4641316 perl-tk_804.036.orig.tar.xz"
+    "e2c3f094c229c82d9e34dd56807cf33d9c09b3ad1ef291c31b330b805476fe785170c9d9e775bbb6c50b3fa1575c6598330eb72cc3a1faa82e8c135c42b9ff05 18524 perl-tk_804.036+dfsg1-5.debian.tar.xz b22b0b49d750253de80bd1c1be0b7712c7f647b6e4d509e09f86df6198014ddbe2b47a8efa60c702df68f479059ce10790bddce6b660e6bf1e93d57f1ded3818 2034 perl-tk_804.036+dfsg1-5.dsc 62b3124186ed3973d65fda274b510d2e6671edd6a1f042658a6d2c0c84d0022fa51bede4ae9eb7fca2f0742f1d3a093cb77745edcc276602b5212034071c741d 4433356 perl-tk_804.036+dfsg1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/perl-tk"
   ],
   "Files": [
-    "1b4fc8eb6dda8abaa590e1d0d05f10dc 15356 perl-tk_804.036-1.debian.tar.xz 04a3f45e5d42888ebceaf647e6667310 2090 perl-tk_804.036-1.dsc a4be42db9f7d0452b8e2e58bef6b3ff2 4641316 perl-tk_804.036.orig.tar.xz"
+    "0bde1872fd473db157857192f26e3bd8 18524 perl-tk_804.036+dfsg1-5.debian.tar.xz e66895fd913f379cb9c14e6d2b452c03 2034 perl-tk_804.036+dfsg1-5.dsc 436329f0ba73b1670405e21716169fb6 4433356 perl-tk_804.036+dfsg1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
-  ],
-  "Homepage": [
-    "http://search.cpan.org/dist/Tk/"
   ],
   "Maintainer": [
     "Georges Khaznadar \u003cgeorgesk@debian.org\u003e"
@@ -39,7 +36,7 @@
     "perl-tk deb perl optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.2"
   ],
   "Uploaders": [
     "Michael C. Schultheiss \u003cschultmc@debian.org\u003e"
@@ -51,6 +48,6 @@
     "https://salsa.debian.org/georgesk/perl-tk.git"
   ],
   "Version": [
-    "1:804.036-1"
+    "1:804.036+dfsg1-5"
   ]
 }

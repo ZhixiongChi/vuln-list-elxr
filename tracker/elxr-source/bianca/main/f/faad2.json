@@ -6,22 +6,22 @@
     "faad, libfaad-dev, libfaad2"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13)"
+    "cmake, debhelper-compat (= 13)"
   ],
   "Checksums-Sha1": [
-    "8a2333b72cfe300396f5be2cf5ba831e0ca02f4d 8216 faad2_2.10.1-1.debian.tar.xz afcf8ed07f7782527f65fb455b25a37b90fa1832 2104 faad2_2.10.1-1.dsc 47b9d0ad96e1b402d7ee9d72346b9670b2a81085 803488 faad2_2.10.1.orig.tar.gz"
+    "c43a71f2c88e847f4e3c01ac1c0ffbc569259271 8544 faad2_2.11.2-1.debian.tar.xz 763369e9ebd049b32764d4d0f9cad8615de83ae3 2111 faad2_2.11.2-1.dsc 33d160135a02a6dcf66948d678435552512c1a9b 657260 faad2_2.11.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "28664da2ade9f1ed98410f86f6a4e0ce7564c39c91ace19804d3ef17c32ac921 8216 faad2_2.10.1-1.debian.tar.xz be4bbb80a523da5f6ce1e5a0646ebd924ec6dda24d0aa161b3c218c58e7e3eaf 2104 faad2_2.10.1-1.dsc 4c16c71295ca0cbf7c3dfe98eb11d8fa8d0ac3042e41604cfd6cc11a408cf264 803488 faad2_2.10.1.orig.tar.gz"
+    "8c4ded42842de7653c1e3c568cd19470dc61204aee53c3d30b543bada07e6b96 8544 faad2_2.11.2-1.debian.tar.xz 5cdfc1d225513287a6a5e84fdb73d9fedf444ac2344d0c68a0354d9ec22dcb1a 2111 faad2_2.11.2-1.dsc 3fcbd305e4abd34768c62050e18ca0986f7d9c5eca343fb98275418013065c0e 657260 faad2_2.11.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e2582039182fda81f73b219a25b4fd3c202ab10f496e847bd6aa6b3459774ca99d764e0093f0b860c79322e0ed2067d90ede8659539044166f2ee6c0608328ea 8216 faad2_2.10.1-1.debian.tar.xz 45d36ec1b0a89963631c9a91c07df070d708909c951f7c9c59822448f9bd0a99e7987e5782f1b0a512e6bdee2905a04d637294ceb8b63db3e2c074aacdb95b03 2104 faad2_2.10.1-1.dsc 8df69278350c68dd770c4bc482e42bc95eb04cd784eeea3f3fc58d615833c8b07dc3c72029bb7e5bfed612b7c1b8daefc9cb57be9789befb587120ef115e55b3 803488 faad2_2.10.1.orig.tar.gz"
+    "9504f7055f58723fe40ee0b3e4155208972d5a86826e7d8a633e4bba686060a6275409e24d620f3bb674367e67fb5b3bccee708f5a82268ef2984d7eee01f837 8544 faad2_2.11.2-1.debian.tar.xz a54da0c9a876a717321eae8bd97a73b3d09245541caf9c37c6dda7dcd908869166c5c199fb91b08117e5a07612e0d566d09cb4f076999dba8fdc978d91ac4842 2111 faad2_2.11.2-1.dsc fd140c0f4e7946e95a49a8652e26f33b138fc3375da34d5e3a55cdde8a74be429eb6fe0180bd434841022cee3c2ec65fe40dda7440fe0dd2761622174f992490 657260 faad2_2.11.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/f/faad2"
   ],
   "Files": [
-    "fe439b1f153993afdcdd70aec0dd996f 8216 faad2_2.10.1-1.debian.tar.xz 47b85d895091130f60c43600c9b5190d 2104 faad2_2.10.1-1.dsc 62a0427c6ff3a273aa720e27da166758 803488 faad2_2.10.1.orig.tar.gz"
+    "8ef753c47d6a7e1a2f54d42595c1e371 8544 faad2_2.11.2-1.debian.tar.xz 45a68f359cc386b3f14b192763d88f91 2111 faad2_2.11.2-1.dsc 6a0ab532d81d9a528d08ab862bc4b637 657260 faad2_2.11.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "faad deb sound optional arch=any libfaad-dev deb libdevel optional arch=any libfaad2 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.2"
   ],
   "Uploaders": [
     "Matthew W. S. Bell \u003cmatthew@bells23.org.uk\u003e, Reinhard Tartler \u003csiretart@tauware.de\u003e, Fabian Greffrath \u003cfabian@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/multimedia-team/faad2.git"
   ],
   "Version": [
-    "2.10.1-1"
+    "2.11.2-1"
   ]
 }

@@ -3,25 +3,25 @@
     "linux-any"
   ],
   "Binary": [
-    "lttng-tools, liblttng-ctl0, liblttng-ctl-dev, python3-lttng"
+    "lttng-tools, liblttng-ctl0t64, liblttng-ctl-dev, python3-lttng"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), asciidoc, bash-completion, bison, dh-python, libkmod-dev, liblttng-ust-dev (\u003e= 2.13.0~), liblttng-ust-dev (\u003c\u003c 2.14.0~), libpopt-dev, liburcu-dev (\u003e= 0.11.0~), libxml2-dev (\u003e= 2.7.6~), pkg-config, python3-all-dev, swig (\u003e= 2.0), xmlto"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 12), asciidoc, babeltrace2 \u003c!nocheck\u003e, bash-completion, bison, dh-python, libkmod-dev, liblttng-ust-dev (\u003e= 2.13.0~), liblttng-ust-dev (\u003c\u003c 2.14.0~), libpopt-dev, liburcu-dev (\u003e= 0.11.0~), libxml2-dev (\u003e= 2.7.6~), pkgconf, procps \u003c!nocheck\u003e, python3-all-dev, swig (\u003e= 2.0), xmlto"
   ],
   "Checksums-Sha1": [
-    "e93fe573bf9380eda756131880a8453ce48e8c91 27232 ltt-control_2.13.9-1+deb12u1.debian.tar.xz 20a0a91f996bed6734011d349b5abbf6c7d4c28e 2415 ltt-control_2.13.9-1+deb12u1.dsc d2357002b06db6fbf35ff9906c4404ea8f98475c 1892293 ltt-control_2.13.9.orig.tar.bz2"
+    "9b888a1bec4967ea7bb719219a4186cc786b4ad9 23164 ltt-control_2.13.15-2.debian.tar.xz 0486154f109ecfd260c51e63172ee76ca5dfabbb 2721 ltt-control_2.13.15-2.dsc f5979aa10fd295fa21682db02a292a80b52b86c4 1934955 ltt-control_2.13.15.orig.tar.bz2 93aba9dc38b97e9e665112c11f1981f78cccc7f6 833 ltt-control_2.13.15.orig.tar.bz2.asc"
   ],
   "Checksums-Sha256": [
-    "c1731197b3572152b87e647d5a6bd0c0c938cc9b97cf17f90adae608b04ad5a2 27232 ltt-control_2.13.9-1+deb12u1.debian.tar.xz 9b6273234a8205fa07b472e8a41c50fd04fb7fbc5efb9b8651ba3ac8d9b51db1 2415 ltt-control_2.13.9-1+deb12u1.dsc 8d94dc95b608cf70216b01203a3f8242b97a232db2e23421a2f43708da08f337 1892293 ltt-control_2.13.9.orig.tar.bz2"
+    "4a8062d26f208d6918c2a63525278ae6dea13de1f219b283744f77f57d42ec6f 23164 ltt-control_2.13.15-2.debian.tar.xz 895504c56b718b5378a5fd74a3287a8fa5764111090ab2505311db6b7abe7675 2721 ltt-control_2.13.15-2.dsc 96ea42351ee112c19dad9fdc7aae93b583d9f1722b2175664a381d2d337703c4 1934955 ltt-control_2.13.15.orig.tar.bz2 0656e055db6bb3c54f15ef2747910beeb3992b3e0f738f02d44b8aed57d5fe7e 833 ltt-control_2.13.15.orig.tar.bz2.asc"
   ],
   "Checksums-Sha512": [
-    "9c6c7b4b84bc57bcd361ddeae198d7e5388617dddf804999e0cb68393429b3413c7ace0af72e50650af923a541eef178451fc4cd785b05798c6ea810669b7797 27232 ltt-control_2.13.9-1+deb12u1.debian.tar.xz a36ed6b60b0b958f0d72ea5842ad378078a65bec20c6eda599c4ed614987dc04aeed7c500afbe2066447969912f75507efa1d6c66e6db32f9e31daa5dc94339a 2415 ltt-control_2.13.9-1+deb12u1.dsc ff7a395d9af3fc44561be24163a84ce27ddd1338f7df2805037645b98c4ad17496553f17b8f0ede7bee967d630b53000c080a91ea8e1ced25ce86b010941b94e 1892293 ltt-control_2.13.9.orig.tar.bz2"
+    "24030e565045cb7b357694ec4d6f29b7ac027f5642d5b421a294e58314b77c668ee65852a4d69e03250faf022c86a612f45058f94ec4d9a17e396edda8210ea8 23164 ltt-control_2.13.15-2.debian.tar.xz 040b24922ddea2083b5fd5b8ff1b637c2060b4ea47e946369f66b23ae0ab7ac23dee3c0e79d847a3628c89721f6b3f53d87b38371fb6508b6563ee59a9162849 2721 ltt-control_2.13.15-2.dsc 0aaef9e298e5ec6f4c60d337277ca83aa86af17a1ebdeb976f000a68a8a99a1e4e0d1b88dae3c09171ca903d1ae1118819d4e3981fc4f9aade23b8370db2c367 1934955 ltt-control_2.13.15.orig.tar.bz2 30be205d14d55f6ec1db1ab1e356f04db69fa03fac6cfb862b1933334d184eb4aaf9bddb6e243baf6f5b1bd56d3a13a4deab8ae869cf5b47633958b0a227e923 833 ltt-control_2.13.15.orig.tar.bz2.asc"
   ],
   "Directory": [
     "pool/main/l/ltt-control"
   ],
   "Files": [
-    "0e6d973a7e7033794587e35e5b5b54ea 27232 ltt-control_2.13.9-1+deb12u1.debian.tar.xz 544e4e15047efcc1bb19ca60f3d8b199 2415 ltt-control_2.13.9-1+deb12u1.dsc 3fae6221a4afb4529c0c5897509a7df3 1892293 ltt-control_2.13.9.orig.tar.bz2"
+    "0930ab2a13bf0c566844a0fe5f0efc9b 23164 ltt-control_2.13.15-2.debian.tar.xz b4dc26cc58535d31d4dfe452d90e551b 2721 ltt-control_2.13.15-2.dsc 77b85bdbaa0ae6ba10cbd9df0f066400 1934955 ltt-control_2.13.15.orig.tar.bz2 5e9b8909f0fdc4e9a0dee6a50084221d 833 ltt-control_2.13.15.orig.tar.bz2.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "ltt-control"
   ],
   "Package-List": [
-    "liblttng-ctl-dev deb libdevel optional arch=linux-any liblttng-ctl0 deb libs optional arch=linux-any lttng-tools deb utils optional arch=linux-any python3-lttng deb python optional arch=linux-any"
+    "liblttng-ctl-dev deb libdevel optional arch=linux-any liblttng-ctl0t64 deb libs optional arch=linux-any lttng-tools deb utils optional arch=linux-any python3-lttng deb python optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.1.0"
+    "4.6.2"
   ],
   "Uploaders": [
     "Michael Jeanson \u003cmjeanson@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/ltt-control.git"
   ],
   "Version": [
-    "2.13.9-1+deb12u1"
+    "2.13.15-2"
   ]
 }

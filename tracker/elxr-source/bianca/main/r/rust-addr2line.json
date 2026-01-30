@@ -3,28 +3,31 @@
     "any"
   ],
   "Binary": [
-    "librust-addr2line-dev, librust-addr2line+cpp-demangle-dev, librust-addr2line+default-dev, librust-addr2line+object-dev, librust-addr2line+rustc-demangle-dev, librust-addr2line+std-dev, librust-addr2line+std-object-dev"
+    "librust-addr2line-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cpp-demangle-0.4+alloc-dev \u003c!nocheck\u003e, librust-fallible-iterator-0.2-dev \u003c!nocheck\u003e, librust-gimli-0.27+endian-reader-dev \u003c!nocheck\u003e, librust-gimli-0.27+read-dev \u003c!nocheck\u003e, librust-gimli-0.27+std-dev \u003c!nocheck\u003e, librust-object-0.30+compression-dev \u003c!nocheck\u003e, librust-object-0.30+read-dev \u003c!nocheck\u003e, librust-object-0.30+std-dev \u003c!nocheck\u003e, librust-rustc-demangle-0.1+default-dev \u003c!nocheck\u003e, librust-smallvec-1-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.65) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cpp-demangle-0.4+alloc-dev \u003c!nocheck\u003e, librust-fallible-iterator-0.3-dev \u003c!nocheck\u003e, librust-gimli-0.31+read-dev (\u003e= 0.31.1-~~) \u003c!nocheck\u003e, librust-gimli-0.31+std-dev (\u003e= 0.31.1-~~) \u003c!nocheck\u003e, librust-memmap2-0.9+default-dev (\u003e= 0.9.4-~~) \u003c!nocheck\u003e, librust-object-0.36+compression-dev \u003c!nocheck\u003e, librust-object-0.36+read-dev \u003c!nocheck\u003e, librust-rustc-demangle-0.1+default-dev \u003c!nocheck\u003e, librust-smallvec-1-dev \u003c!nocheck\u003e, librust-typed-arena-2+default-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "7df759d2b3cf0414bebc21329d5a6282d61f58aa 5196 rust-addr2line_0.19.0-1.debian.tar.xz 503a018098dc1f72d2de84fa0c050b1f30f89624 3363 rust-addr2line_0.19.0-1.dsc 126a94e71db0de4d4a91ccb4f37a55525459bdbd 33210 rust-addr2line_0.19.0.orig.tar.gz"
+    "dc2330b6e46bf7874f371f6067aa48ba4e81466b 4632 rust-addr2line_0.24.2-2.debian.tar.xz 10d8e3f8d7ffebf45108d7cdba947ec7ec87f8c4 2795 rust-addr2line_0.24.2-2.dsc 0012a826387adb1a3ffc02c3266ac4b85d7683e9 39015 rust-addr2line_0.24.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "7a13b029b40c35c65aeed1931260a6cdd74a1512c1317311227af18b19b4743c 5196 rust-addr2line_0.19.0-1.debian.tar.xz 14d25bf6f2fba0b74a769d6a0edc50bc900ced4867e63f4a6bc274de40d152ee 3363 rust-addr2line_0.19.0-1.dsc a76fd60b23679b7d19bd066031410fb7e458ccc5e958eb5c325888ce4baedc97 33210 rust-addr2line_0.19.0.orig.tar.gz"
+    "4514923d128e54cb5edb282127c30bf1cae973e582d76e813f33622ad79b5e8c 4632 rust-addr2line_0.24.2-2.debian.tar.xz 5f653ecc7846181b9e734f54e9c5ad2414ac0ef122abc7fe677df47c36802c97 2795 rust-addr2line_0.24.2-2.dsc dfbe277e56a376000877090da837660b4427aad530e3028d44e0bffe4f89a1c1 39015 rust-addr2line_0.24.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f3a44c28a203958d71df7552b3e06d546a283fa5ee35cfe6be3ab90fc804fc16c11c6bd3f578f9ff4cd1fc0c626d4822c9cfda27dd44951c1bee277bd790bb97 5196 rust-addr2line_0.19.0-1.debian.tar.xz 946b2f396cb9453f4e9111fec25f63cd5bb4de6e5f083a35b22b3542b30b382e907b13842b073779b88cee11bb94c7847e6c899c2200c05bd4c539a4f9ee52cd 3363 rust-addr2line_0.19.0-1.dsc 18da72e412bb89028e2ccb838192330535e45300f6fd8edc7d1d64397792a3db12418aa24a3312730c5414e2a1b1d65e6b9d5691ba234c9142b5d885523a5e94 33210 rust-addr2line_0.19.0.orig.tar.gz"
+    "f748e8c66fe68e9b8815b7c6f9cffd8d8f32754133a3aa95034a55aa811ac811ac0cdb032d316c4a04bb2111ff4a0c1f8c53067d4d2953971523d546f1994fdb 4632 rust-addr2line_0.24.2-2.debian.tar.xz d038175b30e0ea147e9c20cd0da416290d9e502c042d2498f238d3c0d295ba9698d34b7f27e9753ea011f9c12cfa5b7a798d9f206e804eed291312252af604e6 2795 rust-addr2line_0.24.2-2.dsc 39cbec3c920ffc0f37584afb55e1cfe4f182e4415319a4e9bfe842360f102f7b9315f6171c0cf71ba0337123903e604096cd573fe98698a26c8eebc2376d965b 39015 rust-addr2line_0.24.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-addr2line"
   ],
   "Files": [
-    "53c45bc8dc628fdc2733e697d7be0742 5196 rust-addr2line_0.19.0-1.debian.tar.xz 6458ba437a72e1f1f4f855da8159a721 3363 rust-addr2line_0.19.0-1.dsc b8e7ee27350aad1efd1cbe7a6a32c551 33210 rust-addr2line_0.19.0.orig.tar.gz"
+    "0e6768a4036a4fc2c4d9a587c2941bf2 4632 rust-addr2line_0.24.2-2.debian.tar.xz b5c902987995e5795c70b4d8652e00b4 2795 rust-addr2line_0.24.2-2.dsc fd1d0d5b3ecdfb40979711421742ddf5 39015 rust-addr2line_0.24.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/gimli-rs/addr2line"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -33,16 +36,16 @@
     "rust-addr2line"
   ],
   "Package-List": [
-    "librust-addr2line+cpp-demangle-dev deb rust optional arch=any librust-addr2line+default-dev deb rust optional arch=any librust-addr2line+object-dev deb rust optional arch=any librust-addr2line+rustc-demangle-dev deb rust optional arch=any librust-addr2line+std-dev deb rust optional arch=any librust-addr2line+std-object-dev deb rust optional arch=any librust-addr2line-dev deb rust optional arch=any"
+    "librust-addr2line-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-backtrace-0.3+default-dev, librust-clap-3+default-dev, librust-findshlibs-0.10+default-dev, librust-memmap2-0.5+default-dev, librust-typed-arena-2+default-dev"
+    "dh-cargo, librust-findshlibs-0.10+default-dev, rustc"
   ],
   "Uploaders": [
     "Ximin Luo \u003cinfinity0@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/addr2line]"
   ],
   "Version": [
-    "0.19.0-1"
+    "0.24.2-2"
   ]
 }

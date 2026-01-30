@@ -6,25 +6,22 @@
     "golang-github-pkg-errors-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-golang, golang-any"
+    "debhelper-compat (= 13), dh-golang, golang-any"
   ],
   "Checksums-Sha1": [
-    "4274a246e1400d3a5c35e2baa3076dbf8ec9ffff 3212 golang-github-pkg-errors_0.9.1-2.debian.tar.xz 5f4f41400eea177f7817e6bbb691f8cd8c7fdfb8 2333 golang-github-pkg-errors_0.9.1-2.dsc 28d926a18c9d0fc8085391e331c28a741e97fa99 13415 golang-github-pkg-errors_0.9.1.orig.tar.gz"
+    "f091b004a7e102ce411d7a9fe3d0fe3e9a399be8 3284 golang-github-pkg-errors_0.9.1-3.debian.tar.xz 161cb72faa6711e78c113a644c9f416f61260a24 1570 golang-github-pkg-errors_0.9.1-3.dsc 28d926a18c9d0fc8085391e331c28a741e97fa99 13415 golang-github-pkg-errors_0.9.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "a7b9016638b4030cc1eec0d2d015d422efd3895ac65df435b9dbcdc74e35307d 3212 golang-github-pkg-errors_0.9.1-2.debian.tar.xz 06bf30937d1686fc96cfef5d8e0ed1bc503f87b2ee3dc3f90986290519aade19 2333 golang-github-pkg-errors_0.9.1-2.dsc 56bfd893023daa498508bfe161de1be83299fcf15376035e7df79cbd7d6fa608 13415 golang-github-pkg-errors_0.9.1.orig.tar.gz"
+    "565b592d4fa542ca81aec8188a2ef1e9d5ebbdff0c3b93d774000bff48d5d47e 3284 golang-github-pkg-errors_0.9.1-3.debian.tar.xz 3d560a540c7583bd05aff88f58308a0f317f225d59663e778edf7c35bf534d52 1570 golang-github-pkg-errors_0.9.1-3.dsc 56bfd893023daa498508bfe161de1be83299fcf15376035e7df79cbd7d6fa608 13415 golang-github-pkg-errors_0.9.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "931967b9e7f6f42d3e46e47534c1b24b8a6db9789cc6301529e17a20b61a809ed3a87b23878cbdd53e1ff861a9e62594278e6bd098e2e7c4f9bf8ffe3fc4a1f9 3212 golang-github-pkg-errors_0.9.1-2.debian.tar.xz d69182d21f107c5cc5e4ebeba3ea13e4bcc473adb845317edb980791544dab960dcca9c8540c03cefa9cf2b92d517051c44ee51e1555c6adbfb98d398155f38d 2333 golang-github-pkg-errors_0.9.1-2.dsc 7de0fd81486c29c850189a6b09177395acd69b52329c3b2d9733c6a77aa13e79e9d29f4cad55997075e619751518bb145bcfcfde9fdc88eed3f2d6bcab8f98ea 13415 golang-github-pkg-errors_0.9.1.orig.tar.gz"
-  ],
-  "Dgit": [
-    "45e1d6cdffe2ef9aac5514b70016f762cc8492b2 debian archive/debian/0.9.1-2 https://git.dgit.debian.org/golang-github-pkg-errors"
+    "3a2c0e2c38625768ee265cb0d750f6be7ac37fbb58da5768aca395ffced6d15c3ec147cdaf808dca7d6f8a3b0eb0236f9b2c3b74a00483ec16f8278a17e4a0b9 3284 golang-github-pkg-errors_0.9.1-3.debian.tar.xz 6385c69159edf597587805d9897a465a84aa38c25a10ac700317329f887a30488897845dbc9baa88b66540c0b47e293c9bec9188c69e379ec63ddbad74824c60 1570 golang-github-pkg-errors_0.9.1-3.dsc 7de0fd81486c29c850189a6b09177395acd69b52329c3b2d9733c6a77aa13e79e9d29f4cad55997075e619751518bb145bcfcfde9fdc88eed3f2d6bcab8f98ea 13415 golang-github-pkg-errors_0.9.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-pkg-errors"
   ],
   "Files": [
-    "25b8aa97f155589a7309dee870635b5f 3212 golang-github-pkg-errors_0.9.1-2.debian.tar.xz d1014013ea7844b6393479d91f96d1f0 2333 golang-github-pkg-errors_0.9.1-2.dsc 0951216925c98fda75a484a528b06af6 13415 golang-github-pkg-errors_0.9.1.orig.tar.gz"
+    "87c5afdf620a3d6a65ff3426a3ce75b9 3284 golang-github-pkg-errors_0.9.1-3.debian.tar.xz 1125f819ac4d05071b29ed3bf6728cb7 1570 golang-github-pkg-errors_0.9.1-3.dsc 0951216925c98fda75a484a528b06af6 13415 golang-github-pkg-errors_0.9.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,10 +39,10 @@
     "golang-github-pkg-errors"
   ],
   "Package-List": [
-    "golang-github-pkg-errors-dev deb devel optional arch=all"
+    "golang-github-pkg-errors-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-pkg-errors.git"
   ],
   "Version": [
-    "0.9.1-2"
+    "0.9.1-3"
   ]
 }

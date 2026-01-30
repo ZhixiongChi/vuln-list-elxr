@@ -6,22 +6,22 @@
     "libglut3.12, freeglut3-dev, libglut-dev"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), libgl1-mesa-dev, libglu1-mesa-dev, libtool, libusbhid-dev [kfreebsd-any], libx11-dev, libxext-dev, libxi-dev, libxxf86vm-dev [amd64 i386]"
+    "cmake, debhelper-compat (= 13), libglu1-mesa-dev, libtool, libusbhid-dev [kfreebsd-any], libx11-dev, libxext-dev, libxi-dev, libxxf86vm-dev [amd64 i386]"
   ],
   "Checksums-Sha1": [
-    "129433349a9b422b138f4f71e85ef7eb23299596 17668 freeglut_3.4.0-1.debian.tar.xz 89842f5491136f8c653c834e80b1e36805f45ab1 2150 freeglut_3.4.0-1.dsc 169b069a6c3e7a3ce960887ab3e4a8ee73443bbd 413389 freeglut_3.4.0.orig.tar.gz"
+    "d3adb213a970f41a9bf8ca2f99604c942a1b9129 17948 freeglut_3.4.0-4.debian.tar.xz 4a32a666c6cf0fcea08050bf36d7813e458ee86b 2132 freeglut_3.4.0-4.dsc 169b069a6c3e7a3ce960887ab3e4a8ee73443bbd 413389 freeglut_3.4.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "db5b2361e80992b155e8c4c9f57a8a152b9ce75b846dd02af64a64e1c2a2bbef 17668 freeglut_3.4.0-1.debian.tar.xz 74bbbf431dd96a8984603a6d9b1cac8ccfdfe9e2f57fee46924579f3e1a3ca78 2150 freeglut_3.4.0-1.dsc 3c0bcb915d9b180a97edaebd011b7a1de54583a838644dcd42bb0ea0c6f3eaec 413389 freeglut_3.4.0.orig.tar.gz"
+    "6fd335d1f42cde057a3de37c349ee7c4e7d1175b7c32aed0cc449b0696536e15 17948 freeglut_3.4.0-4.debian.tar.xz d901dc6bb513de1e8beb4e4b50879b9fc7fa4df3e16ab21a048e83f0c137aee1 2132 freeglut_3.4.0-4.dsc 3c0bcb915d9b180a97edaebd011b7a1de54583a838644dcd42bb0ea0c6f3eaec 413389 freeglut_3.4.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "74de7400a9b1c8f52cdd6e80151a823156008dfd77bef7ec004d4f0dce2b7c6443635b36d39b07a886844da6722de5c2f00ccab4674cd4eccd72a6b25a2b82a9 17668 freeglut_3.4.0-1.debian.tar.xz cd0f49aab7c3137c6816646c8a6e0f5867a979cd5e1f2092c07e16af896f6ad699d92254b3654962e1d3859cbd464050e0023b80aed1e5bb055a548970d70ae7 2150 freeglut_3.4.0-1.dsc 4bb6d6c086bac7a9c0ec78062dce58987555785abe6375f462ee249f65210a964a28fb10ba7ee8a42d7fafb00eb8d196eb403d65d255f02f88467369c187228b 413389 freeglut_3.4.0.orig.tar.gz"
+    "7a40aff4fb09eb2f4dca1b01841bf550055c6f628db09f83b65b6ef0bb2a71ecba7876620833d2b370329f704a4e5c0eecbae15c0acb33118184f201dba88557 17948 freeglut_3.4.0-4.debian.tar.xz 40147eaba1c36ff7b6359357d7fb7b3ee7ca01f1c9e2f454e5dfa702b5b9e60f8d7cd360420479b006b938c73cace7d1f39e8cc0b58ed518674e2955324b0b3c 2132 freeglut_3.4.0-4.dsc 4bb6d6c086bac7a9c0ec78062dce58987555785abe6375f462ee249f65210a964a28fb10ba7ee8a42d7fafb00eb8d196eb403d65d255f02f88467369c187228b 413389 freeglut_3.4.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/f/freeglut"
   ],
   "Files": [
-    "1e1bc1f63cd3f425ba48016b05551bd7 17668 freeglut_3.4.0-1.debian.tar.xz 17f928ff634fb211481c00306bfa6e51 2150 freeglut_3.4.0-1.dsc f1621464e6525d0368976870cab8f418 413389 freeglut_3.4.0.orig.tar.gz"
+    "d4bf290d1cecfd7e514cd57814661361 17948 freeglut_3.4.0-4.debian.tar.xz 5f65eaccf945480870db21def2f3cd1f 2132 freeglut_3.4.0-4.dsc f1621464e6525d0368976870cab8f418 413389 freeglut_3.4.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "freeglut"
   ],
   "Package-List": [
-    "freeglut3-dev deb libdevel optional arch=any libglut-dev deb libdevel optional arch=any libglut3.12 deb libs optional arch=any"
+    "freeglut3-dev deb oldlibs optional arch=any libglut-dev deb libdevel optional arch=any libglut3.12 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/freeglut.git"
   ],
   "Version": [
-    "3.4.0-1"
+    "3.4.0-4"
   ]
 }

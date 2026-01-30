@@ -6,22 +6,25 @@
     "python3-decorator"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-pytest \u003c!nocheck\u003e, python3-setuptools"
+    "debhelper-compat (= 13), dh-python, python3-all, pybuild-plugin-pyproject, python3-pytest \u003c!nocheck\u003e, python3-setuptools"
   ],
   "Checksums-Sha1": [
-    "f450a42c51f2aaf04ab4cad4f255fb6909639866 4488 python-decorator_5.1.1-3.debian.tar.xz 06de39e08249aa4feacb1da5867a93fd96f08380 2148 python-decorator_5.1.1-3.dsc 929f42916ac8a4aa973599d558768b8f1728db46 35016 python-decorator_5.1.1.orig.tar.gz"
+    "efdeaf14b69b10642662b93e89a49a8f01a5da6e 4728 python-decorator_5.2.1-2.debian.tar.xz 3e28caa2e43924a97fef872df6bb111bc6490309 2296 python-decorator_5.2.1-2.dsc a73de023498bae562533bd3987d6a8921847e5dc 56711 python-decorator_5.2.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "f944cb0b8464f4fe7400e89119eb0cff5cf232f5e4301b7e3903771dbcbc9824 4488 python-decorator_5.1.1-3.debian.tar.xz e79395a9033c04700ac6a2ae01630a57b22f9de2705b5def5bc5b36bf20c96dd 2148 python-decorator_5.1.1-3.dsc 637996211036b6385ef91435e4fae22989472f9d571faba8927ba8253acbc330 35016 python-decorator_5.1.1.orig.tar.gz"
+    "8287b5cd4c5468818f5cea3533b1754e93ca229b04e3e7c876b8350fc953fb67 4728 python-decorator_5.2.1-2.debian.tar.xz e566d7950e64ecb5295a1435f74b2f6d3ba388664f7d87ed3ccdf909c29ebb78 2296 python-decorator_5.2.1-2.dsc 65f266143752f734b0a7cc83c46f4618af75b8c5911b00ccb61d0ac9b6da0360 56711 python-decorator_5.2.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "57c5fca07f92137edf7d5ed595fe6a64ac5928c62fcb99a0417cec4a347b69ccb9ba54f7a26470632b52c2a783a7fc4cd55b25f9227e587139a4936b030689e6 4488 python-decorator_5.1.1-3.debian.tar.xz 727d71b0f0b6f863f77ecceb4b1da1782b810c8eab63e34d0b353046012d0d685a20c0816c6ffd2a12ca3e16522702a2d271a0226259737835a2064d45330b98 2148 python-decorator_5.1.1-3.dsc 584857ffb0c3e52344b473ceb9e28adfd7d789d480a528471f8ab37be055ebe5feb170f41077010e25350e1c311189d45b90773cf12f0043de98ea8ebcde20ab 35016 python-decorator_5.1.1.orig.tar.gz"
+    "7724a9f53ccafa8189db84c0022c45951c5d278217ecd5fae690c6d8cddadc85e0a6f99319995b0aa6bcea77b92868aab83970ef8b3de3fd4a7566567c381c99 4728 python-decorator_5.2.1-2.debian.tar.xz b7983907e8bc9ab3f7b356476e2848e5311dc4883bbef3697d3db77cc2d18c7add69b9142cb2d410e69519a8ca76bae4757157a7ae8b37016d4dc753555076e6 2296 python-decorator_5.2.1-2.dsc c834a3536e429aaff38d34a56b574344551c160e25676ca5febb5dcf521d71f284ebb8294d3264f65a801219860352377e5a4be89927217cb5da9cb6c6aa45ec 56711 python-decorator_5.2.1.orig.tar.gz"
+  ],
+  "Dgit": [
+    "48c47918b8fd1f476e360d69ae2192153d5a53da debian archive/debian/5.2.1-2 https://git.dgit.debian.org/python-decorator"
   ],
   "Directory": [
     "pool/main/p/python-decorator"
   ],
   "Files": [
-    "15b12584e8dc19772ed9553104dde761 4488 python-decorator_5.1.1-3.debian.tar.xz 21361d6d30cf575905b68d0eef2075f1 2148 python-decorator_5.1.1-3.dsc a6b34700dcac8a4bb04efd55e99626c1 35016 python-decorator_5.1.1.orig.tar.gz"
+    "06970068549c4222b2081ef031d4d87d 4728 python-decorator_5.2.1-2.debian.tar.xz f34a72221b6e0a6d036eeb252cf9847c 2296 python-decorator_5.2.1-2.dsc 984649ae1fd174f9a82369e7c9cc56e6 56711 python-decorator_5.2.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +42,7 @@
     "python3-decorator deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/python-decorator.git"
   ],
   "Version": [
-    "5.1.1-3"
+    "5.2.1-2"
   ]
 }

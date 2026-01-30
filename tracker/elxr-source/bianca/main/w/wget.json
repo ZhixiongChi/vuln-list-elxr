@@ -6,22 +6,22 @@
     "wget, wget-udeb"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), pkgconf, gettext, texinfo, libidn2-dev, uuid-dev, libpsl-dev, libpcre2-dev, libgnutls28-dev (\u003e= 3.3.15-5), automake, libssl-dev (\u003e= 0.9.8k), zlib1g-dev, dh-strip-nondeterminism"
+    "debhelper-compat (= 13), pkgconf, gettext, texinfo, libidn2-dev, uuid-dev, libpsl-dev, libpcre2-dev, libgnutls28-dev, libssl-dev, zlib1g-dev, libhttp-daemon-perl \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "9c57dc91489778efdec5dc1b17ffcab375b97df0 61784 wget_1.21.3-1+deb12u1.debian.tar.xz 0e928ed863adb7a25a4ce7acc5f0a4635ba1373a 2196 wget_1.21.3-1+deb12u1.dsc e0c2c21aff77693c3e67cf3889945a2ef5a03a39 5079864 wget_1.21.3.orig.tar.gz e69948117c9be228fbaa89f23af5330a034878bd 854 wget_1.21.3.orig.tar.gz.asc"
+    "a71de23e8268e8ad6bbb26273129525672b98a21 27884 wget_1.25.0-2.debian.tar.xz 6653c4500ffa8e2ccdb786628b1328180ae4bf5c 2251 wget_1.25.0-2.dsc 939b74b0759a2e5f57ec9ac12f5b4403fd9cf5cf 5263736 wget_1.25.0.orig.tar.gz 5c78a4c496f85935ec3a345088f41fbe1835fd88 854 wget_1.25.0.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "b3f34498bd7d390d1ab960fbd8fa302fb848b1d62373abb4f1c7b63a866bee12 61784 wget_1.21.3-1+deb12u1.debian.tar.xz 4c538fae048ee60a4eeac03a520e12698ef39a88767cbebc0b7b62a472f52bb6 2196 wget_1.21.3-1+deb12u1.dsc 5726bb8bc5ca0f6dc7110f6416e4bb7019e2d2ff5bf93d1ca2ffcc6656f220e5 5079864 wget_1.21.3.orig.tar.gz a4d96f04bc5a034310eae177df9adc79ef7a6f0fad7bf7669bf0ac318fa22ccd 854 wget_1.21.3.orig.tar.gz.asc"
+    "45d4411e892d12af710ddff536d2daf430031387e336153f5f996cf536487b90 27884 wget_1.25.0-2.debian.tar.xz 32caf133042db927360a8c35357e4b2877eb83ff0ca144ceb64508947d894f55 2251 wget_1.25.0-2.dsc 766e48423e79359ea31e41db9e5c289675947a7fcf2efdcedb726ac9d0da3784 5263736 wget_1.25.0.orig.tar.gz 47f0989685931c3df6166061069659bc13a75b221a62041625007fa2dad7411b 854 wget_1.25.0.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "695744c0f3bac00decbcd252f83129fbce0dd9b6e0f25300a4e30651d35600e263aaec08795de024371ca7c06baa7f99fdc4f5a98f40033ca56b411fc08eed97 61784 wget_1.21.3-1+deb12u1.debian.tar.xz d7b97aa7bb98f8ef6b034010985cd9c4fe8bbf4e2c1a41f43b0305b6ce5b20ee8d927386f4d0090d654e702bdaae2f184391f1d2be2b889b12b807a7635f860c 2196 wget_1.21.3-1+deb12u1.dsc 29889ecbf590dff0f39183d9e0621741d731a554d990e5c995a4644725dca62e8e19601d40db0ef7d62ebf54e5457c7409965e4832b6e60e4ccbc9c8caa30718 5079864 wget_1.21.3.orig.tar.gz b9f41496e0083545bc703c97b0758500f337527647cdc422152d7855d05351e3a62685269238c78300eafdbfaed8afecaeb988901a3d8a6b002e9fb3d70efe4f 854 wget_1.21.3.orig.tar.gz.asc"
+    "4e7249696c8788507025426bb3ef869f0438672a94f256dbce6179851ad2dc6eff787da110a99f19a07de3ea5af881c2e394e98aa471060fc658fca049ba05e4 27884 wget_1.25.0-2.debian.tar.xz 9ea44a0eec65b2753f3267f495dc00e8cb06a56a0899709491f4e19ec548cdd73f2dd33700b3943485c832f4e587e300ce48c8137e578a4344186d7ecd754b16 2251 wget_1.25.0-2.dsc a7ce33c07a1a206a8574b6e9ea7cc5292315df0914edbcf05a014d35ae9e3d24699a46818b409b884ada57428cf30502f4bbb3767cae2c6934e4e7fb2d0c5036 5263736 wget_1.25.0.orig.tar.gz 73915033967f8ac4908bc235441cc74d3b60998d46e3fdd1bba36d680f4747a8eb28a20a7ef696eb3aec0a22ae79b68a1ee7bf1570f89cd26997b99283e73147 854 wget_1.25.0.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/w/wget"
   ],
   "Files": [
-    "8780a351f70700c83fd8da1855ded8a0 61784 wget_1.21.3-1+deb12u1.debian.tar.xz 5bb10806e97df45c46c1f7d014bb31cd 2196 wget_1.21.3-1+deb12u1.dsc e89496b15f8bf039d723926fae4d91f5 5079864 wget_1.21.3.orig.tar.gz 69e6608519c442faf6e2598e33aa93d6 854 wget_1.21.3.orig.tar.gz.asc"
+    "a83811161d7071d3b0996b73d1c30e2e 27884 wget_1.25.0-2.debian.tar.xz 15629c96fba3ae977a8de75319318b05 2251 wget_1.25.0-2.dsc c70ba58b36f944e8ba1d655ace552881 5263736 wget_1.25.0.orig.tar.gz ace734b0184b529caf324051ab3738ef 854 wget_1.25.0.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,12 +36,18 @@
     "wget"
   ],
   "Package-List": [
-    "wget deb web standard arch=any wget-udeb udeb debian-installer optional arch=any"
+    "wget deb web standard arch=any wget-udeb udeb debian-installer optional arch=any profile=!noudeb"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/wget"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/wget.git"
   ],
   "Version": [
-    "1.21.3-1+deb12u1"
+    "1.25.0-2"
   ]
 }

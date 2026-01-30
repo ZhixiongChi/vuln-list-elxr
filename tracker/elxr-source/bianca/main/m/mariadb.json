@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libmariadb-dev, libmariadb-dev-compat, libmariadb3, libmariadbd19, libmariadbd-dev, mariadb-common, mariadb-client-core, mariadb-client, mariadb-server-core, mariadb-server, mariadb-server-10.5, mariadb-backup, mariadb-plugin-connect, mariadb-plugin-s3, mariadb-plugin-rocksdb, mariadb-plugin-oqgraph, mariadb-plugin-mroonga, mariadb-plugin-spider, mariadb-plugin-gssapi-server, mariadb-plugin-gssapi-client, mariadb-plugin-cracklib-password-check, mariadb-plugin-hashicorp-key-management, mariadb-plugin-provider-bzip2, mariadb-plugin-provider-lz4, mariadb-plugin-provider-lzma, mariadb-plugin-provider-lzo, mariadb-plugin-provider-snappy, mariadb-test, mariadb-test-data"
+    "libmariadb-dev, libmariadb-dev-compat, libmariadb3, libmariadbd19t64, libmariadbd-dev, mariadb-common, mariadb-client-core, mariadb-client, mariadb-client-compat, mariadb-server-core, mariadb-server, mariadb-server-compat, mariadb-server-10.5, mariadb-backup, mariadb-plugin-connect, mariadb-plugin-connect-jdbc, mariadb-plugin-s3, mariadb-plugin-rocksdb, mariadb-plugin-oqgraph, mariadb-plugin-mroonga, mariadb-plugin-spider, mariadb-plugin-gssapi-server, mariadb-plugin-gssapi-client, mariadb-plugin-cracklib-password-check, mariadb-plugin-hashicorp-key-management, mariadb-plugin-provider-bzip2, mariadb-plugin-provider-lz4, mariadb-plugin-provider-lzma, mariadb-plugin-provider-lzo, mariadb-plugin-provider-snappy, mariadb-test, mariadb-test-data"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 10), dh-exec, bison, cmake, cracklib-runtime \u003c!nocheck\u003e, gdb \u003c!nocheck\u003e, libboost-dev, libbz2-dev, libcrack2-dev (\u003e= 2.9.0), libcurl4-openssl-dev | libcurl4-dev, libedit-dev, libedit-dev:native, libfmt-dev (\u003e= 7.0.0), libjemalloc-dev [linux-any], libjudy-dev, libkrb5-dev, liblz4-dev, liblzma-dev, liblzo2-dev, libncurses-dev, libnuma-dev [linux-any], libpam0g-dev, libpcre2-dev, libpmem-dev [amd64 arm64 ppc64el riscv64], libsnappy-dev, libssl-dev, libssl-dev:native, libsystemd-dev [linux-any], liburing-dev [linux-any], libxml2-dev, libzstd-dev (\u003e= 1.3.3), lsb-release, perl:any, po-debconf, psmisc, unixodbc-dev, uuid-dev, zlib1g-dev (\u003e= 1:1.1.3-5~), zlib1g-dev:native"
+    "debhelper-compat (= 13), dh-exec, dh-package-notes, dpkg-dev (\u003e= 1.22.5), bison, cmake, cracklib-runtime \u003c!nocheck\u003e, default-jdk, gdb \u003c!nocheck\u003e, libboost-dev, libbz2-dev, libcrack2-dev (\u003e= 2.9.0), libcurl4-openssl-dev | libcurl4-dev, libedit-dev, libedit-dev:native, libfmt-dev (\u003e= 10.1.1+ds1-4) | libfmt-dev (\u003c\u003c 10), libjemalloc-dev [linux-any], libjudy-dev, libkrb5-dev, liblz4-dev, liblzma-dev, liblzo2-dev, libncurses-dev, libnet-ssleay-perl \u003c!nocheck\u003e, libnuma-dev [linux-any], libpam0g-dev, libpcre2-dev, libsnappy-dev, libssl-dev, libssl-dev:native, libsystemd-dev [linux-any], liburing-dev [linux-any], libxml2-dev, libzstd-dev (\u003e= 1.3.3), lsb-release, perl:any, po-debconf, psmisc, unixodbc-dev, uuid-dev, zlib1g-dev (\u003e= 1:1.1.3-5~), zlib1g-dev:native"
   ],
   "Checksums-Sha1": [
-    "88437ed45207e375960d3cf560faa04b77caa89f 270028 mariadb_10.11.14-0+deb12u2.debian.tar.xz b281cee13a027a9df14ddcf0c8fcbab3a583f7b3 5349 mariadb_10.11.14-0+deb12u2.dsc b42831a282d6c44ae3aae0b282e818663aa302db 112475645 mariadb_10.11.14.orig.tar.gz 91e92c99ca29c47fa996900259835b35b89ce508 833 mariadb_10.11.14.orig.tar.gz.asc"
+    "2457076ff0ea26786650515a7cf6b9c6e0b118a0 287972 mariadb_11.8.3-0+deb13u1.debian.tar.xz 3743ff4c773121a95162ca07aedf5732544d07e1 5653 mariadb_11.8.3-0+deb13u1.dsc 264b1d3853d7ce82b822e577f307e414ec699168 119640174 mariadb_11.8.3.orig.tar.gz f4e5be6e8e481566dc763eac7c68614d52e58e18 833 mariadb_11.8.3.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "1bc5dfaa787596ecc469e5448080a2d16507ba534cf3e39418c296dc66bed16c 270028 mariadb_10.11.14-0+deb12u2.debian.tar.xz 7826fd76e0f7aaf2caec3086b688feceeaed4f048556cd781f86870de4303e7a 5349 mariadb_10.11.14-0+deb12u2.dsc 8a571cb14fb1d4e3663d8e98f3d4200c042fc8b2a4aaaab495860dea8b7d052f 112475645 mariadb_10.11.14.orig.tar.gz 63440758a8b9ced1ef3ec0e0947e6b060cc67c9919cd75a7386493016552b022 833 mariadb_10.11.14.orig.tar.gz.asc"
+    "9894b4fc61b3c05bb174ae8166840641694b7efa618a305a759b3a8a4ef639af 287972 mariadb_11.8.3-0+deb13u1.debian.tar.xz ec78ef72089a5ea9f14cf3dded2cb3fe341a52a286569cc9b2a78a9116872475 5653 mariadb_11.8.3-0+deb13u1.dsc 1014a85c768de8f9e9c6d4bf0b42617f3b1588be1ad371f71674ea32b87119c0 119640174 mariadb_11.8.3.orig.tar.gz 829244b8592ab5938379889c1a43c4f7b20fcb9f97855d22d70df717a2660178 833 mariadb_11.8.3.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "1efc362778e70ca09b2a3b5d7adff46a54c38c0f35d29fe270465d239ee00d3254c1f1be6e97181c02b317279f5521bee78e6b53b2f576e1b1db480a6f387f31 270028 mariadb_10.11.14-0+deb12u2.debian.tar.xz 54080626a0accc8c517a9bda255913effc8617164d0855a0e85a56fc97fa39f76b6b8141ade7713728bdc8265826741810dca3a0f8b35fe70f73d061503160f9 5349 mariadb_10.11.14-0+deb12u2.dsc 24276e8b0f7ad555bf8faab8e5e065cbaeeb5d92b66964e470f41ac00db29a148e36b0f9f8078392a5fdae4cc3e77df28d0a570ef3735a73f4837ded3a50e476 112475645 mariadb_10.11.14.orig.tar.gz 0e4ca469d182dd3750f18d4741c287b84b8a83045c1f7eb75908a995a30d8f1b8eeea5bfc0e1abe917d4ced929a8c0044a9c6682eae21a316e711acff4bd3f01 833 mariadb_10.11.14.orig.tar.gz.asc"
+    "0d340c99ec3e0a36c54648f65260128ce383aae5ba9166ce37f29121355cb60b2be6e5ddcbb6eda507bbfd44a83e2d0cd1d1f73f61fccc7f55c74e544608e8e3 287972 mariadb_11.8.3-0+deb13u1.debian.tar.xz f459a3b2f2af83a2b4e96baf0d157cabd81d54006bd1085deb26b10fc9dcbaeb667afd76304f52c823dfa4a75fedbcedf5a73b0e55b85364017c3ca19ccd60fa 5653 mariadb_11.8.3-0+deb13u1.dsc c027df64ee8b6f779bbd140b40639757adbfdd239058389b146f6e34f2d6e50441d8084b89088ae243bd7bf261ecbdd4b2d82c43a355d9546d1e51d08c10a8a9 119640174 mariadb_11.8.3.orig.tar.gz d3fd8861f25f380e7e4a8342a81126a8286b0d5896a9b144223cfbf579fffee2ed93c6f000defa737266c0e268f830f6be015192ca4bc489423d51a377e01579 833 mariadb_11.8.3.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/m/mariadb"
   ],
   "Files": [
-    "0209beac5b4edb34089cbc6e30eb53c4 270028 mariadb_10.11.14-0+deb12u2.debian.tar.xz 0dc42178286857d0262ef3761b31aa8f 5349 mariadb_10.11.14-0+deb12u2.dsc 7fddaba5c113918119f74974ab211f54 112475645 mariadb_10.11.14.orig.tar.gz efa50d7fe27b19219487280d4527f04d 833 mariadb_10.11.14.orig.tar.gz.asc"
+    "3ff08698da5ae694d85c70c34b4f67cd 287972 mariadb_11.8.3-0+deb13u1.debian.tar.xz 0e3c1fef8df5f506bbc3a71be0eefbe9 5653 mariadb_11.8.3-0+deb13u1.dsc 3c81bc728598f5b53067220c7b729747 119640174 mariadb_11.8.3.orig.tar.gz 34bd2a8a697c0ede2151f402b28d3ff1 833 mariadb_11.8.3.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "mariadb"
   ],
   "Package-List": [
-    "libmariadb-dev deb libdevel optional arch=any libmariadb-dev-compat deb libdevel optional arch=any libmariadb3 deb libs optional arch=any libmariadbd-dev deb libdevel optional arch=any libmariadbd19 deb libs optional arch=any mariadb-backup deb database optional arch=any mariadb-client deb database optional arch=any mariadb-client-core deb database optional arch=any mariadb-common deb database optional arch=all mariadb-plugin-connect deb database optional arch=any mariadb-plugin-cracklib-password-check deb database optional arch=any mariadb-plugin-gssapi-client deb database optional arch=any mariadb-plugin-gssapi-server deb database optional arch=any mariadb-plugin-hashicorp-key-management deb database optional arch=any mariadb-plugin-mroonga deb database optional arch=any-alpha,any-amd64,any-arm,any-arm64,any-i386,any-ia64,any-mips64el,any-mips64r6el,any-mipsel,any-mipsr6el,any-nios2,any-powerpcel,any-ppc64el,any-sh3,any-sh4,any-tilegx mariadb-plugin-oqgraph deb database optional arch=any mariadb-plugin-provider-bzip2 deb database optional arch=any mariadb-plugin-provider-lz4 deb database optional arch=any mariadb-plugin-provider-lzma deb database optional arch=any mariadb-plugin-provider-lzo deb database optional arch=any mariadb-plugin-provider-snappy deb database optional arch=any mariadb-plugin-rocksdb deb database optional arch=amd64,arm64,mips64el,ppc64el,riscv64 mariadb-plugin-s3 deb database optional arch=any mariadb-plugin-spider deb database optional arch=any mariadb-server deb database optional arch=any mariadb-server-10.5 deb oldlibs optional arch=any mariadb-server-core deb database optional arch=any mariadb-test deb database optional arch=any mariadb-test-data deb database optional arch=all"
+    "libmariadb-dev deb libdevel optional arch=any libmariadb-dev-compat deb libdevel optional arch=any libmariadb3 deb libs optional arch=any libmariadbd-dev deb libdevel optional arch=any libmariadbd19t64 deb libs optional arch=any mariadb-backup deb database optional arch=any mariadb-client deb database optional arch=any mariadb-client-compat deb database optional arch=all mariadb-client-core deb database optional arch=any mariadb-common deb database optional arch=all mariadb-plugin-connect deb database optional arch=any mariadb-plugin-connect-jdbc deb database optional arch=all mariadb-plugin-cracklib-password-check deb database optional arch=any mariadb-plugin-gssapi-client deb database optional arch=any mariadb-plugin-gssapi-server deb database optional arch=any mariadb-plugin-hashicorp-key-management deb database optional arch=any mariadb-plugin-mroonga deb database optional arch=any-alpha,any-amd64,any-arm,any-arm64,any-i386,any-ia64,any-mips64el,any-mips64r6el,any-mipsel,any-mipsr6el,any-nios2,any-powerpcel,any-ppc64el,any-sh3,any-sh4 mariadb-plugin-oqgraph deb database optional arch=any mariadb-plugin-provider-bzip2 deb database optional arch=any mariadb-plugin-provider-lz4 deb database optional arch=any mariadb-plugin-provider-lzma deb database optional arch=any mariadb-plugin-provider-lzo deb database optional arch=any mariadb-plugin-provider-snappy deb database optional arch=any mariadb-plugin-rocksdb deb database optional arch=amd64,arm64,loong64,mips64el,ppc64el,riscv64 mariadb-plugin-s3 deb database optional arch=any mariadb-plugin-spider deb database optional arch=any mariadb-server deb database optional arch=any mariadb-server-10.5 deb database optional arch=any mariadb-server-compat deb database optional arch=all mariadb-server-core deb database optional arch=any mariadb-test deb database optional arch=any mariadb-test-data deb database optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "diffutils, eatmydata"
   ],
   "Uploaders": [
-    "Otto Kekäläinen \u003cotto@debian.org\u003e"
+    "Otto Kekäläinen \u003cotto@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/mariadb-team/mariadb-server"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/mariadb-team/mariadb-server.git"
   ],
   "Version": [
-    "1:10.11.14-0+deb12u2"
+    "1:11.8.3-0+deb13u1"
   ]
 }

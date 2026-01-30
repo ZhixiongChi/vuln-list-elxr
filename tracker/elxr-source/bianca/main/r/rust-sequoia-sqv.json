@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "sqv"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo, bash-completion"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native, rustc:native (\u003e= 1.79), libstd-rust-dev, librust-anyhow-1+default-dev (\u003e= 1.0.18-~~), librust-chrono-0.4+default-dev (\u003e= 0.4.10-~~), librust-clap-4+default-dev, librust-clap-4+derive-dev, librust-clap-4+string-dev, librust-clap-4+wrap-help-dev, librust-clap-complete-4+default-dev, librust-sequoia-man-0.3+default-dev, librust-sequoia-openpgp-2+crypto-nettle-dev, librust-sequoia-openpgp-2-dev, librust-sequoia-policy-config-0.8+default-dev"
+  ],
+  "Checksums-Sha1": [
+    "b087e30e5a26d8e07eec12b6a3f921b0e0d4bad9 3876 rust-sequoia-sqv_1.3.0-3.debian.tar.xz 2fa9c040526922b732991ab5e752c7f4b32c2006 2704 rust-sequoia-sqv_1.3.0-3.dsc 9178a31edda5e16a872c6c26593d3f0092473154 140759 rust-sequoia-sqv_1.3.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "be04e0365bc1206617a3e55d507bfce2e972819fb737e23a1112a717cc89b9bc 3876 rust-sequoia-sqv_1.3.0-3.debian.tar.xz 98ad852ed30d42d3b0d6ce40d2f56a96fb443cc6fa2caeaa12516fe5bbe544af 2704 rust-sequoia-sqv_1.3.0-3.dsc 8924571d26720b245292ad3c450e4061fcb24890461874790549747bffa35e60 140759 rust-sequoia-sqv_1.3.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "13a66a0bc89eb2bc331da93826e65428069d0e1e5314e2752c93cf229def243b4a6bbe0f69beaeebf7c8a61c9b5a96ac7a0fe1d560fd76bfc6723edabbe86040 3876 rust-sequoia-sqv_1.3.0-3.debian.tar.xz 2f975424854150a646871248f91dde567f3a99f3b4dc43560d7266bc104a9c7ef026bea92db8aec012569b631b5e35a5d34d42ba46ae6428dcb301a89a356520 2704 rust-sequoia-sqv_1.3.0-3.dsc fd06ac5373501132187e4ec85236b647b2655c39b0b6fe9e6c1360defbeb52f7ccdb5c2beffc8265542d086236e99d6456fec0a74eb2d888cb8a0e40e79fd01f 140759 rust-sequoia-sqv_1.3.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-sequoia-sqv"
+  ],
+  "Files": [
+    "c29eb3485f5f5b34ef724d6906e09444 3876 rust-sequoia-sqv_1.3.0-3.debian.tar.xz e883f7d31f07b70c67bc4ebc428e27fc 2704 rust-sequoia-sqv_1.3.0-3.dsc c52290c1507bdaf59778223e04582c26 140759 rust-sequoia-sqv_1.3.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://sequoia-pgp.org/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-sequoia-sqv"
+  ],
+  "Package-List": [
+    "sqv deb utils optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e, Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e, Holger Levsen \u003cholger@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/sequoia-sqv"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/sequoia-sqv]"
+  ],
+  "Version": [
+    "1.3.0-3"
+  ]
+}

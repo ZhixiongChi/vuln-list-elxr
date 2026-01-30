@@ -3,25 +3,25 @@
     "linux-any all"
   ],
   "Binary": [
-    "liblttng-ust-common1, liblttng-ust1, liblttng-ust-ctl5, liblttng-ust-dev, liblttng-ust-java, liblttng-ust-java-jni, liblttng-ust-agent-java, liblttng-ust-agent-java-jni, liblttng-ust-python-agent1, python3-lttngust"
+    "liblttng-ust-common1t64, liblttng-ust1t64, liblttng-ust-ctl5t64, liblttng-ust-dev, liblttng-ust-java, liblttng-ust-java-jni, liblttng-ust-agent-java, liblttng-ust-agent-java-jni, liblttng-ust-python-agent1t64, python3-lttngust"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), default-jdk [!hppa] \u003c!nojava\u003e | default-jdk-headless [!hppa] \u003c!nojava\u003e, dh-python, dpkg-dev (\u003e= 1.16.1), javahelper [!hppa] \u003c!nojava\u003e, liblog4j1.2-java [!hppa] \u003c!nojava\u003e, libnuma-dev, liburcu-dev (\u003e= 0.12~), pkg-config, python3-all, python3-distutils, texinfo, uuid-dev"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 12), default-jdk [!hppa] \u003c!nojava\u003e | default-jdk-headless [!hppa] \u003c!nojava\u003e, dh-python, javahelper [!hppa] \u003c!nojava\u003e, liblog4j1.2-java [!hppa] \u003c!nojava\u003e, libnuma-dev, liburcu-dev (\u003e= 0.12~), pkgconf, python3-all, python3-setuptools, texinfo, uuid-dev"
   ],
   "Checksums-Sha1": [
-    "f7c2bc9ac36ad992bd32263d3bd8b1b579de38f1 16260 ust_2.13.5-1.debian.tar.xz 8a6d7b68d828fe61b4755b10e399912983c5bfab 3142 ust_2.13.5-1.dsc ca2f7146a764594d9e802aedae25c0acfe597063 1336658 ust_2.13.5.orig.tar.bz2 d2f7010f21640c5e01bd965c82529248e118af5e 488 ust_2.13.5.orig.tar.bz2.asc"
+    "615683ea76b7356a9b3d6775784281d41e7ad4df 18372 ust_2.13.9-1.debian.tar.xz 695c3f53308e377c7a5c9fd360a93fa2fe0e2c3e 3162 ust_2.13.9-1.dsc e073ab602539da71102250e8b2f100f46077c07e 1359608 ust_2.13.9.orig.tar.bz2 f7de6e65743675e3418d7d4e750d9b6e33582b98 484 ust_2.13.9.orig.tar.bz2.asc"
   ],
   "Checksums-Sha256": [
-    "d15332fb638abf9b474770a8f202060ebdfd51d263327e5d35b3323692aff3ca 16260 ust_2.13.5-1.debian.tar.xz 2d9f5f8ea6a2cf65c03fc123075c45193baf78f35c30d63e392ac48ee716427c 3142 ust_2.13.5-1.dsc f1d7bb4984a3dc5dacd3b7bcb4c10c04b041b0eecd7cba1fef3d8f86aff02bd6 1336658 ust_2.13.5.orig.tar.bz2 6123257b14e7768da6839edec6a95718316eddba1e43b401a84ad2463195809e 488 ust_2.13.5.orig.tar.bz2.asc"
+    "a2f8755772adeb6522836686e660384cb7c6057d705650ce7aaf6a69caa23c33 18372 ust_2.13.9-1.debian.tar.xz c7f39f8398b9c1bcb2350d07550be8e3a5949b0782088e536831cd96d2faa618 3162 ust_2.13.9-1.dsc 2ad6d69a54a1d924c18a4aa7a233db104e3cc332bcdd240e196bf7adbed3f712 1359608 ust_2.13.9.orig.tar.bz2 bd2ba9bfc31fcf75046d620f1e7910003dc0e4371dbacbf70be18777bedf3ae4 484 ust_2.13.9.orig.tar.bz2.asc"
   ],
   "Checksums-Sha512": [
-    "d0f83cbb33580927821d19f5bbfc008324de3b21e6e26b50439c62c947468500edd66724d479dfec27c8a41b818948d78d2a8cdab7859cc43349620a680ba623 16260 ust_2.13.5-1.debian.tar.xz db0e15a5115689bd587fc8ea84d27d9b7db0d57fa36b9be7a04fdc55f30605635e1d8bbf249303530549f47f188076c02809996474c8722380064df512ad0d47 3142 ust_2.13.5-1.dsc 3bf969e9deb6ce05a1ae30ad48676ae8ff63a73198583e98ce083d52b78e9fc2d171a6e3890c201abfa364600d4471d1ee8b1ee23de3faeec1f0ca84e0f0acd4 1336658 ust_2.13.5.orig.tar.bz2 3a14dda5639ae93a2b09cd334213977e65f602759a1f63a400933988c71f4a2704356edb0ea364c0f350c22ed84492c2e99c560c8a9fdff27fefe9758b222250 488 ust_2.13.5.orig.tar.bz2.asc"
+    "a54e97cf10d4751f95d508fe1339372badc693f931433c67526010da4298202e5bd628541b9d953d888f73d519038c0c719f8f5f63342a470d6e6d264f4ba4de 18372 ust_2.13.9-1.debian.tar.xz 3e191f0b7466d95ad34e1daad0830518d16ec1104704e52d357f8729f3d209d964d95474c048875f6472e541337ad64e8fd872efd6517d6154dd4d7afe3bfaf3 3162 ust_2.13.9-1.dsc d2bf449e0d283ee80937aa1691c48ce1cc8beb4996a4ef79078bcc2c4584bc650746ef72e927679cd6e6e54546aced40943070d46008ac9c944b6c16e2347670 1359608 ust_2.13.9.orig.tar.bz2 be510916aa5725a42c2d723fee3ca094b81eb47468ba37c703e004312e7e0851cebe0e265fa4c160b60b931600b5f3bfb72607b1d21b8402668eeb3a59794346 484 ust_2.13.9.orig.tar.bz2.asc"
   ],
   "Directory": [
     "pool/main/u/ust"
   ],
   "Files": [
-    "e41d4bce300e556a14fea8711697b4b8 16260 ust_2.13.5-1.debian.tar.xz 706e9a6462f0fbeb1d061f87562d0e2e 3142 ust_2.13.5-1.dsc 41921a7e7d4c45b64186f085f1437daa 1336658 ust_2.13.5.orig.tar.bz2 93a7fdb20d07ff0e70ff56e0c1b7a30d 488 ust_2.13.5.orig.tar.bz2.asc"
+    "59305db3ce35fb2663da49c9bbf93416 18372 ust_2.13.9-1.debian.tar.xz 90b1d30c0326d986ea4b3c41e965c7c1 3162 ust_2.13.9-1.dsc ab3bc006eb182bccd94aa0ead99c7201 1359608 ust_2.13.9.orig.tar.bz2 24b0a6c9e1c8de17a2f4f28a56fc6370 484 ust_2.13.9.orig.tar.bz2.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "ust"
   ],
   "Package-List": [
-    "liblttng-ust-agent-java deb java optional arch=all profile=!nojava liblttng-ust-agent-java-jni deb java optional arch=linux-any profile=!nojava liblttng-ust-common1 deb libs optional arch=linux-any liblttng-ust-ctl5 deb libs optional arch=linux-any liblttng-ust-dev deb libdevel optional arch=linux-any liblttng-ust-java deb java optional arch=all profile=!nojava liblttng-ust-java-jni deb java optional arch=linux-any profile=!nojava liblttng-ust-python-agent1 deb libs optional arch=linux-any liblttng-ust1 deb libs optional arch=linux-any python3-lttngust deb python optional arch=all"
+    "liblttng-ust-agent-java deb java optional arch=all profile=!nojava liblttng-ust-agent-java-jni deb java optional arch=linux-any profile=!nojava liblttng-ust-common1t64 deb libs optional arch=linux-any liblttng-ust-ctl5t64 deb libs optional arch=linux-any liblttng-ust-dev deb libdevel optional arch=linux-any liblttng-ust-java deb java optional arch=all profile=!nojava liblttng-ust-java-jni deb java optional arch=linux-any profile=!nojava liblttng-ust-python-agent1t64 deb libs optional arch=linux-any liblttng-ust1t64 deb libs optional arch=linux-any python3-lttngust deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1.0"
+    "4.7.0"
   ],
   "Uploaders": [
     "Michael Jeanson \u003cmjeanson@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/ust.git"
   ],
   "Version": [
-    "2.13.5-1"
+    "2.13.9-1"
   ]
 }

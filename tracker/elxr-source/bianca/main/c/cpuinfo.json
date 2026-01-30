@@ -6,22 +6,22 @@
     "cpuinfo, libcpuinfo-dev, libcpuinfo0"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), googletest"
+    "cmake, debhelper-compat (= 13), googletest, ninja-build"
   ],
   "Checksums-Sha1": [
-    "d5b1101e980fe38bc074adcbb6734c7f6b0384e5 5404 cpuinfo_0.0~git20220617.082deff-1+deb12u1.debian.tar.xz 147f989a5dc2af1eaadbf8e79045c8c4d16a7a66 1899 cpuinfo_0.0~git20220617.082deff-1+deb12u1.dsc a256b8d8441acc0ee272b5068f87b6adc1100214 1732560 cpuinfo_0.0~git20220617.082deff.orig.tar.xz"
+    "71716999234f4e5bd506e4e68e450e1969f6dc09 7276 cpuinfo_0.0~git20250327.39ea79a-1.debian.tar.xz 7364193ee20cd364473ec3846399be2706107e3c 2264 cpuinfo_0.0~git20250327.39ea79a-1.dsc 787db4ecc2b4404a7ba29bdfd4544e10579ea9b5 1764928 cpuinfo_0.0~git20250327.39ea79a.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "e08cf2bd502db87f3e53416c1f536a3236f450f668fd63592bdceae23f8791d3 5404 cpuinfo_0.0~git20220617.082deff-1+deb12u1.debian.tar.xz 83a6e21104e4a1bff7e66fa88abc0a2a3020a41da924aa8e3ca004e9cde44fe3 1899 cpuinfo_0.0~git20220617.082deff-1+deb12u1.dsc be63afffc3e59724135fe6aa8562dffaf8842bedff2a07cec3a935350a3e7452 1732560 cpuinfo_0.0~git20220617.082deff.orig.tar.xz"
+    "87293f07b85db276e8e42294687c54c0f2bbb8456126792a0a55ab5ca5259879 7276 cpuinfo_0.0~git20250327.39ea79a-1.debian.tar.xz 25c4bef2785f33862cc86a5e4aefa5cfd79d4c89f33b4dec81cf9a99a26a36d8 2264 cpuinfo_0.0~git20250327.39ea79a-1.dsc 2a10028948f7f0663c56cc34405484391ee3d7ccdf09fe51d73897937b99d9d4 1764928 cpuinfo_0.0~git20250327.39ea79a.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "df5d8beb1ad4227fc42828aeaff97f27a01ed0a692722093f1131862ec7083f8388b75b631a5ac28b1791631055b6a56916b325a4e09a3b130874e682a909c06 5404 cpuinfo_0.0~git20220617.082deff-1+deb12u1.debian.tar.xz a72c24ffa8e8849d855b7400a6d8392a1501dbb356e52d66fc5f54a9ea3c04ee819c9d8fca9ea9ee9e666584c7bcc57220b51aa72987c2389dbe29f86c2c976c 1899 cpuinfo_0.0~git20220617.082deff-1+deb12u1.dsc 0946f1719db020760d774709119a33fe3ffbc2450184efa78d4061eeed3f7836ea51777eb3307fa04ee23577f181cfcaa5a2198d5a645243056c43e6e0c4a1dc 1732560 cpuinfo_0.0~git20220617.082deff.orig.tar.xz"
+    "f12494180df707e943ea77fdfedf804312ca17b616e43ec0b95f00bc21966dff5b297ca7f199a8c892afd74577875280225e3bf9187f5f8046905594a40b0a68 7276 cpuinfo_0.0~git20250327.39ea79a-1.debian.tar.xz e272d73c65de008603059e86f4d48099bf6bcb9fcae435c686334fd2cd0fc258d282b9b89fcffa2cf42d1842991546ccf2c1be2bc6321a1602bb8f5c398715a7 2264 cpuinfo_0.0~git20250327.39ea79a-1.dsc 12bb30ee3933bdc75aba80ae3349bba3bec18098d6f36fbdc65befc4d6a78f7829b4fc0ea664e3fe0339220334889bb282c1847bfecebffc0c9efc9e66e982e3 1764928 cpuinfo_0.0~git20250327.39ea79a.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/c/cpuinfo"
   ],
   "Files": [
-    "d74be312e976da3bcf41317986464a73 5404 cpuinfo_0.0~git20220617.082deff-1+deb12u1.debian.tar.xz 92bda71ddf387dc989b6610d297e008a 1899 cpuinfo_0.0~git20220617.082deff-1+deb12u1.dsc 0f54584cace089a43406d4e9f54adcb0 1732560 cpuinfo_0.0~git20220617.082deff.orig.tar.xz"
+    "5f88722ba7ae67585110d22fc54a542b 7276 cpuinfo_0.0~git20250327.39ea79a-1.debian.tar.xz 5a4dd57ef980132096a0284d780f9401 2264 cpuinfo_0.0~git20250327.39ea79a-1.dsc 916484aa44a46d886f093d330ed844cf 1764928 cpuinfo_0.0~git20250327.39ea79a.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,16 +36,16 @@
     "cpuinfo"
   ],
   "Package-List": [
-    "cpuinfo deb science optional arch=amd64,arm64,armel,armhf,i386,x32 libcpuinfo-dev deb libdevel optional arch=any libcpuinfo0 deb libs optional arch=any"
+    "cpuinfo deb science optional arch=amd64,arm64,armel,armhf,i386,x32,riscv64 libcpuinfo-dev deb libdevel optional arch=any libcpuinfo0 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Uploaders": [
-    "Mo Zhou \u003clumin@debian.org\u003e"
+    "Mo Zhou \u003clumin@debian.org\u003e, Shengqi Chen \u003charry@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/deeplearning-team/cpuinfo"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/deeplearning-team/cpuinfo.git"
   ],
   "Version": [
-    "0.0~git20220617.082deff-1+deb12u1"
+    "0.0~git20250327.39ea79a-1"
   ]
 }

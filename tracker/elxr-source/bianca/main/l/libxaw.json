@@ -6,22 +6,25 @@
     "libxaw7, libxaw7-dev, libxaw-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.16.0), libx11-dev (\u003e= 1:0.99.2), x11proto-dev, libxt-dev (\u003e= 1:0.99.1), libxmu-dev (\u003e= 1:0.99.1), libxpm-dev (\u003e= 1:3.5.3), pkg-config, quilt, xutils-dev (\u003e= 1:7.5+4), xmlto, xorg-sgml-doctools (\u003e= 1:1.5), w3m"
+    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.16.0), libx11-dev (\u003e= 1:0.99.2), x11proto-dev, libxt-dev (\u003e= 1:0.99.1), libxmu-dev (\u003e= 1:0.99.1), libxpm-dev (\u003e= 1:3.5.3), pkg-config, quilt, xutils-dev (\u003e= 1:7.5+4)"
+  ],
+  "Build-Depends-Indep": [
+    "xmlto, xorg-sgml-doctools (\u003e= 1:1.5), w3m"
   ],
   "Checksums-Sha1": [
-    "94df7c4ed02e43f2f95f448d7b78edd62a57a38a 28936 libxaw_1.0.14-1.diff.gz 96e695000cf9cd01acd9e70b3466b50d36f26c06 2352 libxaw_1.0.14-1.dsc 2341fac768d026663d15618458af2514858a63f0 886122 libxaw_1.0.14.orig.tar.gz 10007069b1b6961befad4a90ebc502b8cdd0cc61 618 libxaw_1.0.14.orig.tar.gz.asc"
+    "e3862ab795d9b73fd2ef01a634f3e0e432c27d81 26931 libxaw_1.0.16-1.diff.gz 8de330c425d881e4cb1e489d5ffa8ea42d3efe76 2401 libxaw_1.0.16-1.dsc 549265be28e3b9563582a7c39ebd5593f6609051 915371 libxaw_1.0.16.orig.tar.gz 731c0250687b8292cba4367f5fbe1f89b6293800 659 libxaw_1.0.16.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "fbdb9a338d51fe56ea7b1e9e4e6a74ba3fae1ac7f486061cc52ccfbcb4fa5909 28936 libxaw_1.0.14-1.diff.gz 1f025268c6649df0b215a3aa7114df90843c3756be60284c7dcfb997a778b2b7 2352 libxaw_1.0.14-1.dsc 59cfed2712cc80bbfe62dd1aacf24f58d74a76dd08329a922077b134a8d8048f 886122 libxaw_1.0.14.orig.tar.gz 8528de8e461cf1e76a8491ef464732a797a4204b55f2aeb188ae17e9cd4df0c9 618 libxaw_1.0.14.orig.tar.gz.asc"
+    "bc43da7aa1ad29b2cd113bcec73a4be47ff4db14abcd5ef934ccb9f2d27dd01f 26931 libxaw_1.0.16-1.diff.gz 34a9959c4edbc51aa53e2a4253837347c096306ad5fa2c0b25e53c6f9f24d7c2 2401 libxaw_1.0.16-1.dsc 012f90adf8739f2f023d63a5fee1528949cf2aba92ef7ac1abcfc2ae9cf28798 915371 libxaw_1.0.16.orig.tar.gz 4aa8315ff6dd23f31453f33d4caf6019fa0593c175f5d14c6bcce5c733de2b9e 659 libxaw_1.0.16.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "5545c68a10e47bfa42fcaeafe285f9cea3e68d43bc5a6d1a926052cba8f008bc2e7dda047e22c31c4bff79b008d3fe3726e6af6d96c9c8dbe1a854abcd5a385a 28936 libxaw_1.0.14-1.diff.gz 86716dd1d303d27b00dc9a5d4023e669c45a5bd3b212d3f5d02460a2deafcb7f2a048d07b47d092353935f56fce836a7931f357278ff2906f18dafc86792acbc 2352 libxaw_1.0.14-1.dsc 1205481443627b428f6c447a3926a060af30440badc401ca8d209849faef21ce967cf7f26ab452b47a64071980f9892cce83b2d70db0c2b7d6cabf838ab93884 886122 libxaw_1.0.14.orig.tar.gz 87db1130f7b69b75ec9ce91f7b3a2e8519da597c4faefb36c191555aaa35af9ac3576ae040ba4c7e74aefd8fb6bcdabd9ed1aacff13c40d1158f6003df4bf53b 618 libxaw_1.0.14.orig.tar.gz.asc"
+    "08d2c09e6f354ba2ae155f41bbff486bfb69cb102a5d89edca135ce3a1d5309a9ddcf8bbf4a3c40bfd5584d8f0be0792cee8b9d0f05937c348a39e1e9c9aa1e7 26931 libxaw_1.0.16-1.diff.gz 5de016017a0d214160337a92d97d5ffa102cc51937cf665826d8e021e90ab44bd03d9849ef662317c2eb2d354c3d65e4d1373b10142912abdeca0bd60d7d2898 2401 libxaw_1.0.16-1.dsc 915255c7fdc1f66b853c5a0d570076f42fff5b474a966ff7a9721110dc3b56a30c0db062bf4e9ce8303920e44992ab22fd9d5f1b5c40f42116d1016f7e8fa7c0 915371 libxaw_1.0.16.orig.tar.gz 92ce8c0df4c1687ae42ffcf1b765330dec2754e14313eb684907178f83fb5570d1597db3cce3d2d9cae1bde857e9330deed04c899b94b203d40391d6c05e8e45 659 libxaw_1.0.16.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/libx/libxaw"
   ],
   "Files": [
-    "9541bc35e6e2a316d0a580816fff7746 28936 libxaw_1.0.14-1.diff.gz f280a097ad3777645e4d16c1d285dea4 2352 libxaw_1.0.14-1.dsc 4df0c6a9a3a0639ce321ab4886f7f0fd 886122 libxaw_1.0.14.orig.tar.gz a5f7b1e562880266e0b5bf052236e7ef 618 libxaw_1.0.14.orig.tar.gz.asc"
+    "f2877a8869cff04a2be73c899202ad54 26931 libxaw_1.0.16-1.diff.gz f69dd265f388699d23878e6ce648cf6e 2401 libxaw_1.0.16-1.dsc afb0204ef5a87b4e7c8b84b908e8edb5 915371 libxaw_1.0.16.orig.tar.gz 198ff38a56af4ed4426569d9f9b08efe 659 libxaw_1.0.16.orig.tar.gz.asc"
   ],
   "Format": [
     "1.0"
@@ -45,6 +48,6 @@
     "https://salsa.debian.org/xorg-team/lib/libxaw.git"
   ],
   "Version": [
-    "2:1.0.14-1"
+    "2:1.0.16-1"
   ]
 }

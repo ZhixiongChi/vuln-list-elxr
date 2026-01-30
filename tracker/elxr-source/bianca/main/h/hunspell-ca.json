@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), qt6-webengine-dev-tools, dictionaries-common-dev (\u003e= 1.29.3)"
   ],
   "Checksums-Sha1": [
-    "5d577e257e4c9305b072ab00bcbab1335ed9155b 4444 hunspell-ca_3.0.7+repack1-5.debian.tar.xz 3af96f61bc3c83637693fe75eb3434423a005fed 2050 hunspell-ca_3.0.7+repack1-5.dsc a1bfb477249a22f31bbf6269bfc7009ef7a4c1b0 614536 hunspell-ca_3.0.7+repack1.orig.tar.xz"
+    "06713ec05e9ae8fc973c5b08ed0f3bdd87d7db8b 5076 hunspell-ca_3.0.9+repack1-2.debian.tar.xz b7992fea09f0ca271fbc8f96a17ce821887fd334 2102 hunspell-ca_3.0.9+repack1-2.dsc 0c1f912088922d442369228e96605192783273b7 626112 hunspell-ca_3.0.9+repack1.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "20b335e3f2ea017c75a218bba565d430adf92ed5d906085d86cab64ef993b539 4444 hunspell-ca_3.0.7+repack1-5.debian.tar.xz 3fb9873c5042ca64e0dc264d71e4fb531d785deb6b64bc0419473b8e2ddf1164 2050 hunspell-ca_3.0.7+repack1-5.dsc 11dd65cf95e666d6d76cc326ecba3fd228e959e118d991ca5d8cc54dec65a590 614536 hunspell-ca_3.0.7+repack1.orig.tar.xz"
+    "95a53c9bd8834a94369254f952bf46d6115c8b5bf5cea06f467208911c4d41e7 5076 hunspell-ca_3.0.9+repack1-2.debian.tar.xz 56fde64d16f2d3dd526627d4d93c2111c6d1546b28d2b5e9f17bb14c9f8234ed 2102 hunspell-ca_3.0.9+repack1-2.dsc cc64d7cf17a5e9cc0ca3b875508002d8b5bf0429220c4dabebafa78a4580213b 626112 hunspell-ca_3.0.9+repack1.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "99c8fa2be34233d7818f7794f9344807701bf2741f60169bd6967750e093c68926746da217417c395772c4949c0569d9a283c41f7fa61c05da6eb9840b6977b7 4444 hunspell-ca_3.0.7+repack1-5.debian.tar.xz f9003a48336cd5ecd527c300dac07a74a677fd1809d790a32320129cf50ea24944e24820aa163bced95c2edf1f684e0baea611c63967469739bbaa14ed76a874 2050 hunspell-ca_3.0.7+repack1-5.dsc 141cce93bb435c532242551ec8ab6eaac4295fdcb42b69c4651ea35622ac9e98c5c8d50064123c8062985d8beaa6998035d60b2e70985562b4d4a7157d5bbab3 614536 hunspell-ca_3.0.7+repack1.orig.tar.xz"
+    "9c6eda83d27503a56044d3a610bdcac3189eac12aa0d40e5844b06c2578316c3828c0fdc1852121728549d8de9b2026c8f6eb454a9191e17f0f41d6bd9b2993b 5076 hunspell-ca_3.0.9+repack1-2.debian.tar.xz 229339e686f51762382b5acc053f97476f6e718d967d585a956fd8d478220e0de8ddaf2a3001f6a310a2076c5681f9da2b583895a9fdad24517cf2ae807108fc 2102 hunspell-ca_3.0.9+repack1-2.dsc 12dfb516b2d4f9f7e74ff65c9f85cf1c7c2ea3d69a41bd698eeba8731303dbc93773b4bd031675cc0f01abff453d3c27718a59cebadf84317e96f5ea1512c075 626112 hunspell-ca_3.0.9+repack1.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/h/hunspell-ca"
   ],
   "Files": [
-    "fb761bea3e287cfb2708e5264ed0b5a2 4444 hunspell-ca_3.0.7+repack1-5.debian.tar.xz 201b175da2032a295a2136bee401f43c 2050 hunspell-ca_3.0.7+repack1-5.dsc 5d9e461e54097d50ff3ca74cd3fe733d 614536 hunspell-ca_3.0.7+repack1.orig.tar.xz"
+    "bd1f824c3ed58134a94e216352913b90 5076 hunspell-ca_3.0.9+repack1-2.debian.tar.xz 442e36fcc9d5649a5881f9a4228d2e9e 2102 hunspell-ca_3.0.9+repack1-2.dsc 74dcbef1cfe9f4a9510719186a844de2 626112 hunspell-ca_3.0.9+repack1.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,13 @@
     "hunspell-ca deb text optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "hunspell"
   ],
   "Uploaders": [
     "Agustin Martin Domingo \u003cagmartin@debian.org\u003e"
@@ -51,6 +57,6 @@
     "https://salsa.debian.org/debian/hunspell-ca.git"
   ],
   "Version": [
-    "3.0.7+repack1-5"
+    "3.0.9+repack1-2"
   ]
 }

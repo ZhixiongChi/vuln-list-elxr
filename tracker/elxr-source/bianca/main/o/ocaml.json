@@ -3,28 +3,31 @@
     "any all"
   ],
   "Binary": [
-    "ocaml-base, ocaml, ocaml-source, ocaml-interp, ocaml-compiler-libs, ocaml-man, ocaml-base-nox, ocaml-nox"
+    "ocaml-base, ocaml, libstdlib-ocaml-dev, libstdlib-ocaml, libcompiler-libs-ocaml-dev, ocaml-source, ocaml-interp, ocaml-man, ocaml-base-nox, ocaml-nox, ocaml-compiler-libs"
+  ],
+  "Build-Conflicts": [
+    "ocaml-base"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), pkg-config, binutils-dev, libiberty-dev, libncurses-dev, zlib1g-dev, dh-ocaml"
+    "debhelper-compat (= 13), pkgconf, binutils-dev, libiberty-dev, libncurses-dev, zlib1g-dev, libzstd-dev, dh-ocaml"
   ],
   "Checksums-Sha1": [
-    "e916e9428c148ee89c3da3147ebbf5c13e795564 39716 ocaml_4.13.1-4.debian.tar.xz 1720ce000385d73c38bf56ed0ef93b162644c84b 2245 ocaml_4.13.1-4.dsc d2192567d28b87fdadb268b584d2c23cc6c53c46 5327797 ocaml_4.13.1.orig.tar.gz"
+    "713ed044f8a6fad9a38e5ab4b9203c4be753c29c 40776 ocaml_5.3.0-3.debian.tar.xz 2da01d3e7488de691545f89ff4841601c69dc063 2493 ocaml_5.3.0-3.dsc 1f6b34771a3eb983efc2ec967c264dac9671dbbf 4328956 ocaml_5.3.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "e35c2b49d5e9a72b904fc2a28179a8c18f50b5297d65a7571d83dd78e33ad985 39716 ocaml_4.13.1-4.debian.tar.xz 5f41728483f9d233ed146af2f2f44066e01900ca791554d0b176c904d173ea02 2245 ocaml_4.13.1-4.dsc 66a5353c5e7b33a8981446e857657aad45a3b82080ea5c67d4baa434eacfcf5f 5327797 ocaml_4.13.1.orig.tar.gz"
+    "93be6e20daff45b8b1fbacbe579e9c96845c02fd9224800372f2c1af1b93d087 40776 ocaml_5.3.0-3.debian.tar.xz 8e434fb176d49c950fe7940940f2c570e331e4c8f2de9d30894f82b0561dc5b4 2493 ocaml_5.3.0-3.dsc b0229336d9ebe0af905954bcd1ae5b293306bbcb08c01ead03500d9e5bc90164 4328956 ocaml_5.3.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "a910a813ce7905593179c9aed53c64759cf92180aeb7bbf2dbfac33cb0c3310d22fe2b6165104a3c395c02a92554f92da7c7a0d79d5b0a7a37f31ebf1f23f513 39716 ocaml_4.13.1-4.debian.tar.xz 0ec8f767225651851e1674a981c58e690c4ae515f38c9fafad359138ccdd1415c8f793d4c7e9b416641fd01e3a00f168ad474982350057c10589b59f6a0ce317 2245 ocaml_4.13.1-4.dsc f94687952789ff946718fd1d60f224eb238411419e36c7beb48c2087885f3ac2b2a20f3d13738c08b5459104d2e97a05458a6428bd644d6cb33772159f95a5d2 5327797 ocaml_4.13.1.orig.tar.gz"
+    "0b2a252a093f90962241b2b7f7699d3cdebc23bf54d56305de00ca15569c7c82b0198ca7639065fcca4abd8b3d6da52ec65cbcbab4020f17939706af346f0d53 40776 ocaml_5.3.0-3.debian.tar.xz 8f08806fe9e0712f15fceb0f06bc096c2d9948481d0999c17f6ddda4520d82af0dd55ee42901fc3fb5e4ce5088f1b2de1f73a9ef90618e51a9faac80bfbffd91 2493 ocaml_5.3.0-3.dsc d2f030d4b318d9893895ea7c77df9ae2c74c2875084b755b0d2f7e20a5311f77aa3114c818b7a789573fa0c1a34ff4aee49812f3909149ab17dd681d76c24103 4328956 ocaml_5.3.0.orig.tar.xz"
   ],
   "Dgit": [
-    "3c68f866fc57d1f0ca9651da7a73326b6dcf8ba8 debian archive/debian/4.13.1-4 https://git.dgit.debian.org/ocaml"
+    "1c403e90ebe422dd87d4345f35a02dbfb42affb4 debian archive/debian/5.3.0-3 https://git.dgit.debian.org/ocaml"
   ],
   "Directory": [
     "pool/main/o/ocaml"
   ],
   "Files": [
-    "078ecdd9564f80e5d4b89ee11c3ccadb 39716 ocaml_4.13.1-4.debian.tar.xz da718e808bb6f83b300a91d3c401503d 2245 ocaml_4.13.1-4.dsc a55ca12a4e6edf83cb4777abdb7b2f4d 5327797 ocaml_4.13.1.orig.tar.gz"
+    "da2c6c3357720c47df23a510f7a7c09c 40776 ocaml_5.3.0-3.debian.tar.xz 28b3485f7ecce9773c7e3c2cd33a8ac2 2493 ocaml_5.3.0-3.dsc a68094068155dccf6ef6190199b2c324 4328956 ocaml_5.3.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +42,10 @@
     "ocaml"
   ],
   "Package-List": [
-    "ocaml deb ocaml optional arch=any ocaml-base deb ocaml optional arch=any ocaml-base-nox deb oldlibs optional arch=all ocaml-compiler-libs deb ocaml optional arch=any ocaml-interp deb ocaml optional arch=any ocaml-man deb ocaml optional arch=all ocaml-nox deb oldlibs optional arch=all ocaml-source deb ocaml optional arch=all"
+    "libcompiler-libs-ocaml-dev deb ocaml optional arch=any libstdlib-ocaml deb ocaml optional arch=any libstdlib-ocaml-dev deb ocaml optional arch=any ocaml deb ocaml optional arch=any ocaml-base deb ocaml optional arch=any ocaml-base-nox deb oldlibs optional arch=all ocaml-compiler-libs deb oldlibs optional arch=all ocaml-interp deb ocaml optional arch=any ocaml-man deb ocaml optional arch=all ocaml-nox deb oldlibs optional arch=all ocaml-source deb ocaml optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.2"
   ],
   "Uploaders": [
     "Ralf Treinen \u003ctreinen@debian.org\u003e, Stéphane Glondu \u003cglondu@debian.org\u003e, Mehdi Dogguy \u003cmehdi@debian.org\u003e, Ximin Luo \u003cinfinity0@debian.org\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/ocaml-team/ocaml.git"
   ],
   "Version": [
-    "4.13.1-4"
+    "5.3.0-3"
   ]
 }

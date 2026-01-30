@@ -3,31 +3,31 @@
     "any"
   ],
   "Binary": [
-    "libkate-dev, libkate1, liboggkate-dev, liboggkate1"
+    "libkate-dev, libkate1, liboggkate-dev, liboggkate1, libkate-tools"
   ],
   "Build-Depends": [
-    "dh-exec (\u003e= 0.3), debhelper-compat (= 12), liboggz-dev, pkg-config, libpng-dev, doxygen"
+    "debhelper-compat (= 13), dh-exec, dh-python, doxygen, liboggz-dev, libpng-dev, oggz-tools, pkgconf, python3, python3-wxgtk4.0"
   ],
   "Checksums-Sha1": [
-    "669680518521d32335518e25f2fbd9678d1d2e62 7516 libkate_0.4.1-11.debian.tar.xz cd26f21cc07feed5e5b7884f77ce2ce415b4561c 2231 libkate_0.4.1-11.dsc 87fd8baaddb7120fb4d20b0a0437e44ea8b6c9d8 906896 libkate_0.4.1.orig.tar.gz"
+    "5a857ae4d566c695fef80721647c3aa6ae467def 6716 libkate_0.4.3-1.debian.tar.xz ca955444b027198a7d5dbf408d46bb4a9fc1a0c6 2325 libkate_0.4.3-1.dsc e2e97204b8a4855783652487d47f150ef1422514 989062 libkate_0.4.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "66c12d5a368d4b021a8555df6f3bedb86385cf2778b38e81f8c349dcb3502d98 7516 libkate_0.4.1-11.debian.tar.xz acccfcdcb3dc215b1e50c4199d21e63c10c2323487100c995f1e9ebc6dbbd4d5 2231 libkate_0.4.1-11.dsc c40e81d5866c3d4bf744e76ce0068d8f388f0e25f7e258ce0c8e76d7adc87b68 906896 libkate_0.4.1.orig.tar.gz"
+    "5cfc12945ab93c05d292950e6df1557ac7d4eb7f89ad32acc7c046af51542937 6716 libkate_0.4.3-1.debian.tar.xz 06cd536998fb338f10b6ba6545a010ff09f1825339aa7d4e7f6a9c2268332c9b 2325 libkate_0.4.3-1.dsc 42911fb2fe9de80200a251c905f841e273d943d1a20fbb8ff40f72110c183299 989062 libkate_0.4.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8ee09457110a76881183001865392a5f908913a47c32ba6c091dacdefc10e826621526d3e809c3cc5d49aa69de92bd37c72076ec0f0abe6e75a2f1c660e28b7a 7516 libkate_0.4.1-11.debian.tar.xz 6f51b3a9ec0fb081a06cf98ee0bb84fed6cf4a7d70f5d2ee9b20017b0b7943d9c92731acb3407fb414c760f90293aaedf7e851bd5b6cf825ad8bf6fc9b1fc98c 2231 libkate_0.4.1-11.dsc 2635237753abc0f6c43fc07bd0ecc57c2f3c893efa6c62ad08de9191045612477302ed45acd61cdfea7447efd654ebbe0ed2d6a2cbf867eb834581d7ee43377b 906896 libkate_0.4.1.orig.tar.gz"
+    "3bf6461c291848849ebd6a5d55d9c77ab7a3929b59d7a82a03721e63f0874ba785acc2b991554ef5b9d8a9e8dce171aee33869b4e346623cc4568e624757ef19 6716 libkate_0.4.3-1.debian.tar.xz f14586840e86ffee9723d00bff521a3dd853bb4789d17b6cd8860a4e23fc80b2ad0c4058d7cafb5a27df33afdc2b89bfcb184c87e4649efe8725511b725a7614 2325 libkate_0.4.3-1.dsc 04ada217cc1a16f21b063f3f05cc34325ce65f6b6a5d11c5651b7a6a1383039d6a2a6c3aa1107f2d0ed6968c1b5867398e9a24444a26505f9bf6c5be06e0ef02 989062 libkate_0.4.3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libk/libkate"
   ],
   "Files": [
-    "7dbe031ff17e518172b6e12f71176668 7516 libkate_0.4.1-11.debian.tar.xz 36eb963f01b7ff96d5369c79d7069490 2231 libkate_0.4.1-11.dsc 1dfdbdeb2fa5d07063cf5b8261111fca 906896 libkate_0.4.1.orig.tar.gz"
+    "eef85cef45838ba46266276ca2dbda50 6716 libkate_0.4.3-1.debian.tar.xz e6a32d793864f3ab84cc00c63a329bd3 2325 libkate_0.4.3-1.dsc a6492d3df1a93e5578231cdba0cae92e 989062 libkate_0.4.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://code.google.com/p/libkate/"
+    "https://wiki.xiph.org/index.php/OggKate"
   ],
   "Maintainer": [
     "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
@@ -36,13 +36,13 @@
     "libkate"
   ],
   "Package-List": [
-    "libkate-dev deb libdevel optional arch=any libkate1 deb libs optional arch=any liboggkate-dev deb libdevel optional arch=any liboggkate1 deb libs optional arch=any"
+    "libkate-dev deb libdevel optional arch=any libkate-tools deb utils optional arch=any libkate1 deb libs optional arch=any liboggkate-dev deb libdevel optional arch=any liboggkate1 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.4.1"
+    "4.7.0"
   ],
   "Uploaders": [
-    "Petter Reinholdtsen \u003cpere@debian.org\u003e , Martin Steghöfer \u003cmartin@steghoefer.eu\u003e , Ralph Giles \u003cgiles@thaumas.net\u003e"
+    "Petter Reinholdtsen \u003cpere@debian.org\u003e, Martin Steghöfer \u003cmartin@steghoefer.eu\u003e, Ralph Giles \u003cgiles@thaumas.net\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/multimedia-team/libkate"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/multimedia-team/libkate.git"
   ],
   "Version": [
-    "0.4.1-11"
+    "0.4.3-1"
   ]
 }

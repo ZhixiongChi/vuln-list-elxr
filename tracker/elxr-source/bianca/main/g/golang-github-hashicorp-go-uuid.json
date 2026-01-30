@@ -6,22 +6,22 @@
     "golang-github-hashicorp-go-uuid-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-golang, golang-any"
+    "debhelper-compat (= 13), dh-golang, golang-any"
   ],
   "Checksums-Sha1": [
-    "d61af52f8ab0f94eda78017ea3ea3a71ec0216b3 7320 golang-github-hashicorp-go-uuid_1.0.2-2.debian.tar.xz e7913168c30daa7679a151775c353fbb05ebdc61 2299 golang-github-hashicorp-go-uuid_1.0.2-2.dsc dbe8c599607fa4c3cc6630a365e86a247992d1d9 6744 golang-github-hashicorp-go-uuid_1.0.2.orig.tar.xz"
+    "2df22f3596b257c88c94b882f67dcbe1354b8377 7444 golang-github-hashicorp-go-uuid_1.0.3-1.debian.tar.xz e06638a4dc5819db179624dfc2bda43f19750563 2325 golang-github-hashicorp-go-uuid_1.0.3-1.dsc 139ac71391214a982735adbb2b2eae255019dc88 7095 golang-github-hashicorp-go-uuid_1.0.3.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "e74ea4b10d36bdc2db4f173f32f8849df44a018cb9a03b7dfd65d243992e367d 7320 golang-github-hashicorp-go-uuid_1.0.2-2.debian.tar.xz e2306e5c1e9aeafd3aade49bfbf960e1c93a5064e1734f2a7bd20373bb5c26cf 2299 golang-github-hashicorp-go-uuid_1.0.2-2.dsc e578feacdb97049d940a54c794338594dcacf223fa7cb088c5a469f4e1544596 6744 golang-github-hashicorp-go-uuid_1.0.2.orig.tar.xz"
+    "227c7a3353dcfb8bdd3d0132d5d7be9b7b5bf95672b2a620d2e8e81bb6cbfa67 7444 golang-github-hashicorp-go-uuid_1.0.3-1.debian.tar.xz 05cf6163db144fde12fd5fbb9f302f3b2fb39fec37e8d05aca5a424072414d3a 2325 golang-github-hashicorp-go-uuid_1.0.3-1.dsc fc3d6d38503b8cd2d65de7d3dce9dc7fa2673cdaa6ff292575a6a0a2ba9a91ac 7095 golang-github-hashicorp-go-uuid_1.0.3.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "204ff282303e5d2b75a9adcf440283b5b982705a3e5c8d1588fdf892f042e26d625a266e1f1105b3c976aae80a2bd697f55f464c4f606c3389653ffa21367e62 7320 golang-github-hashicorp-go-uuid_1.0.2-2.debian.tar.xz d58224d4ad713d4c441a54cd368f1bb760ad68f3acc2cb8f19c860d52ad978057effdcf7590f575c6f30c865d82cc9d02b9b12d2b199785e3a80c3a972711550 2299 golang-github-hashicorp-go-uuid_1.0.2-2.dsc 445cbf487fd3edff340b053514656687909182359500d86784516d929ec84a93eb54f84f0cbadc132e4d1defc0c5438d822644b714a6d9b312882a6fc3732470 6744 golang-github-hashicorp-go-uuid_1.0.2.orig.tar.xz"
+    "8d1541392914314dd32dfd5e3d3bebb55557f24f2f419dafefed4434159801353d5284b63e66b8a76687caeb117bd7c08dfd911d98864ee535e9f4825e3cb639 7444 golang-github-hashicorp-go-uuid_1.0.3-1.debian.tar.xz 88f7e38f2f9176a88154d949538c76c37d2f14c34348665042a980d445632bad6eddbdf4ea8217fb7561bcb9cd0ba45bdcb0f4e9541173f472f08364b5c36e3f 2325 golang-github-hashicorp-go-uuid_1.0.3-1.dsc 5db3656c72777e881cdbff669ef1667df37ef48de40624d88a5aeb5dd8201a3df9587ed11141e9440c4849c4df012322cb23f74b413a53c501d3a41c542322a4 7095 golang-github-hashicorp-go-uuid_1.0.3.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-hashicorp-go-uuid"
   ],
   "Files": [
-    "1a9437707a5d45dce849b6e9c86115a0 7320 golang-github-hashicorp-go-uuid_1.0.2-2.debian.tar.xz 5947e690ffdb5b5c667af182926b2c02 2299 golang-github-hashicorp-go-uuid_1.0.2-2.dsc 7ad64ed6ee095570e330cf51ac4adb8e 6744 golang-github-hashicorp-go-uuid_1.0.2.orig.tar.xz"
+    "c2ad11b5c829eeb9014483d9e8de908b 7444 golang-github-hashicorp-go-uuid_1.0.3-1.debian.tar.xz 917ccf13c24809908b319702df040435 2325 golang-github-hashicorp-go-uuid_1.0.3-1.dsc 5ee9f9351edb48725c3a7ebcbf9ac985 7095 golang-github-hashicorp-go-uuid_1.0.3.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "golang-github-hashicorp-go-uuid"
   ],
   "Package-List": [
-    "golang-github-hashicorp-go-uuid-dev deb devel optional arch=all"
+    "golang-github-hashicorp-go-uuid-dev deb golang optional arch=all"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.6.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-hashicorp-go-uuid.git"
   ],
   "Version": [
-    "1.0.2-2"
+    "1.0.3-1"
   ]
 }

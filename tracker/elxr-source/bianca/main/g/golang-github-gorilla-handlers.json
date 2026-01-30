@@ -6,22 +6,22 @@
     "golang-github-gorilla-handlers-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any, tzdata"
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any (\u003e= 2:1.20~), golang-github-felixge-httpsnoop-dev (\u003e= 1.0.3), tzdata"
   ],
   "Checksums-Sha1": [
-    "528105ea794f0c4cdda7c917b0cdf9e1ddedb3d0 11644 golang-github-gorilla-handlers_1.5.1-3.debian.tar.xz 3f3fe529585521b200a16ce0d1ddbcc56b125fd2 2325 golang-github-gorilla-handlers_1.5.1-3.dsc 98faf7e3aadc0091b2896a20a2267e48a1c0606f 20963 golang-github-gorilla-handlers_1.5.1.orig.tar.gz"
+    "cd2a9d0a6d7ae2563e560b0948a1b6fb9e3f0ac5 4296 golang-github-gorilla-handlers_1.5.2-1.debian.tar.xz 91fc645c3c6fbb6219b9837513ac1f2ee448fdf2 2383 golang-github-gorilla-handlers_1.5.2-1.dsc e4229d5ab3a11d6901a4202e86c42aa02d7ea5a1 21627 golang-github-gorilla-handlers_1.5.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "7a7d86cae4d871102ee0b5814c82b51c26d12ad5b1734a05bf53d8da515f3c08 11644 golang-github-gorilla-handlers_1.5.1-3.debian.tar.xz 50123f0ffce9111c043687213e3da913a06a9c6a795b634c939f1b5e1938efd0 2325 golang-github-gorilla-handlers_1.5.1-3.dsc be22eafc7020cba749c8638d0051c326f1b31b5a76a98d86beafc595079f6b09 20963 golang-github-gorilla-handlers_1.5.1.orig.tar.gz"
+    "7a408337982afdf277aa41fd7dfbbd807a64160fdadfd62a1c700f210a67e4a5 4296 golang-github-gorilla-handlers_1.5.2-1.debian.tar.xz 9a5b2cdac54743226b0bf218869547f0fde18918a56af6a450ad39e28bdbcffc 2383 golang-github-gorilla-handlers_1.5.2-1.dsc 8760b84a1b5cd49ce81a56c9fce0ba0de157355b1bb38d112bdfd7cf7ad7a44d 21627 golang-github-gorilla-handlers_1.5.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "e24a42b14abe8d3ba5e9273d59c55e31737d684b47a2c9921648fd9b892190bceecbeecd433af50ba8193fb709abd0b66db909047a348377c0425f0470e2fa41 11644 golang-github-gorilla-handlers_1.5.1-3.debian.tar.xz 6c730f327a22888b6f4abde409884517ebfc014bb71b6360dfa49f91073cefc2cba3527e74711929c1b502740b45a40b4bcfd919d1d5512f20a078ed1d7cbe7b 2325 golang-github-gorilla-handlers_1.5.1-3.dsc e57b59eb8b11ef3f8cdff13610b9455665d7b8b20468c90983526b79711ec847253c9ce9cc3e6c08a6f23c5e5b461b3bdc445aa41044d7f6f9241ef513de2e1d 20963 golang-github-gorilla-handlers_1.5.1.orig.tar.gz"
+    "6acdbab66673a67fcdb74fce6a47214fea85967289bd862df1b45d324e9cdf35eedbcea5321b4fd31e03183c3461a94aa851027470c5ad058073b7cbccc28bbf 4296 golang-github-gorilla-handlers_1.5.2-1.debian.tar.xz b5ef0418f587166fc2903b41796b5935bc8ad828beafe3146282ea33c0d2f82a1d0b020529fb7ee41b825d7fc10259a4827f5b8160f47b2c9305de14956342a6 2383 golang-github-gorilla-handlers_1.5.2-1.dsc 02be9b76a9f6c15383aa10eb48c24aad9fe784350bc673edb47a466dc9981a3fd2399172653f5ba487d1b6ebe4718a1b6d8c6c217f8b3a67a8a9bfb63d0062d4 21627 golang-github-gorilla-handlers_1.5.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/golang-github-gorilla-handlers"
   ],
   "Files": [
-    "5571343c72d16d20d7bbe6d563f901c2 11644 golang-github-gorilla-handlers_1.5.1-3.debian.tar.xz 76f6067fb56f042f1c182ac80f02a677 2325 golang-github-gorilla-handlers_1.5.1-3.dsc 96b36d8b08f64907611195a3f7080aad 20963 golang-github-gorilla-handlers_1.5.1.orig.tar.gz"
+    "ecea87468b8b10dc71f6c283a5727b2d 4296 golang-github-gorilla-handlers_1.5.2-1.debian.tar.xz 1d59effe9558fe7078a8ff97444cf5cf 2383 golang-github-gorilla-handlers_1.5.2-1.dsc 97310b5611517fa1564270dd5e6eff0c 21627 golang-github-gorilla-handlers_1.5.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-gorilla-handlers.git"
   ],
   "Version": [
-    "1.5.1-3"
+    "1.5.2-1"
   ]
 }

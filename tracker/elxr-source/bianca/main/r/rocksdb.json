@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "amd64 arm64 armel armhf ppc64el mips mipsel mips64el sparc64 s390x i386 riscv64"
+    "amd64 arm64 armel armhf i386 loong64 mips mips64el mipsel ppc64el riscv64 s390x"
   ],
   "Binary": [
-    "librocksdb-dev, librocksdb7.8, rocksdb-tools"
+    "librocksdb-dev, librocksdb9.10, rocksdb-tools"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake, libgflags-dev, libsnappy-dev, libbz2-dev, zlib1g-dev, liblz4-dev, libzstd-dev"
+    "cmake, debhelper-compat (= 13), libbz2-dev, libgflags-dev, liblz4-dev, libsnappy-dev, libzstd-dev, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "95aa0d64377ee2b8661e508a6a57ea6e45578362 9216 rocksdb_7.8.3-2.debian.tar.xz df93823e47fbd0855cf458f8036b9e72191d4e4c 2230 rocksdb_7.8.3-2.dsc 30b07cadbdbf3801c7ffbe2476c1732a9dd018d4 10782632 rocksdb_7.8.3.orig.tar.gz"
+    "a1c6486adad47c9aaa70a93702d841d8df759150 14632 rocksdb_9.10.0-1.debian.tar.xz 30ca5863c98640b429b1bf447ede667dc06013ca 2440 rocksdb_9.10.0-1.dsc 8df53ba7303d996e9773dccccf31052b07d3b3ef 13693440 rocksdb_9.10.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "4ead930612734d2b79e8f5e72e51659004c5a47f8d6bb90dea8eb42fd6d88a02 9216 rocksdb_7.8.3-2.debian.tar.xz 8c799d700b825cc4eebb5afbd43ebf2fb13d397828fc442c61d786f7792c2976 2230 rocksdb_7.8.3-2.dsc b85408a374770897332bf15e51620a5f35720dd416a4749e3899057f9cfaf84d 10782632 rocksdb_7.8.3.orig.tar.gz"
+    "bbbe9ab8e6138c958b5d8a68da917d20bf718657379dcae2de0d40324b9f64c4 14632 rocksdb_9.10.0-1.debian.tar.xz f16bc50ff7216943d8fa5e79aa5d3d87556d5de9b88328c5afede52ac2fb024a 2440 rocksdb_9.10.0-1.dsc fdccab16133c9d927a183c2648bcea8d956fb41eb1df2aacaa73eb0b95e43724 13693440 rocksdb_9.10.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "7861ef72b548979db6ad76eed6830c1c63fb864f8d037957e90024a7bc7b92de76603e01ed9d14a02a4c938c8d0674be2f92290fe5acfb57e44abdb25464f274 9216 rocksdb_7.8.3-2.debian.tar.xz 623a345c5a4382e1b92ec234efc6bb841274fe77dda0ba3ffbac8b14937d7e10e941d95eae174862710bc5dec687784b85e88cb7faa5bc06ddb2589112868c78 2230 rocksdb_7.8.3-2.dsc 337153ccd1d5b89a0e88dcdee8e4090e64cacab0ddbd410d1f3a2acf0ec92b9b458bfa040467c88d6bbe31b8feac61286651352c216ae160eb3f6b017ee7dd45 10782632 rocksdb_7.8.3.orig.tar.gz"
+    "cb7fc538f78648b72b6e2ec6184e161bc5821bded15250a7752157226ff3b8a85dc536be0930a8233e97e96cbbd78d88a6b1595db179712e8504148994c90830 14632 rocksdb_9.10.0-1.debian.tar.xz f36dd16f97a281ed6582a7ab74c1b2ba5d3ee5402c41b48f1f287a3b636f8ccaecb97e6fee9c3c835035c2b289119929853639ab4afe270c48cac703f9afe266 2440 rocksdb_9.10.0-1.dsc b9a53c13f69e723cc41f8431ffc2f0b0be7a85d7a598b2f7a41cf89c34cb3ec55ba8b7874d579914851da59f252e2fcbe8091e490e9a6eca68d7995e2f8b667e 13693440 rocksdb_9.10.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rocksdb"
   ],
   "Files": [
-    "4891d7274b8773dffb36adef1b2b9b2b 9216 rocksdb_7.8.3-2.debian.tar.xz 71ee894910116ac21867713fc09bb6f9 2230 rocksdb_7.8.3-2.dsc 745d3b15e57e31670b5ea607c5bb82ff 10782632 rocksdb_7.8.3.orig.tar.gz"
+    "187a5d20feb7ffa7b397db932cfa7be6 14632 rocksdb_9.10.0-1.debian.tar.xz 83f1a29845a9e97daf5a5a6594b00209 2440 rocksdb_9.10.0-1.dsc 66483ba712f807e6c674c97c4dc3dcc3 13693440 rocksdb_9.10.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,12 +36,21 @@
     "rocksdb"
   ],
   "Package-List": [
-    "librocksdb-dev deb libdevel optional arch=amd64,arm64,armel,armhf,ppc64el,mips,mipsel,mips64el,sparc64,s390x,i386,riscv64 librocksdb7.8 deb libs optional arch=amd64,arm64,armel,armhf,ppc64el,mips,mipsel,mips64el,sparc64,s390x,i386,riscv64 rocksdb-tools deb database optional arch=amd64,arm64,armel,armhf,ppc64el,mips,mipsel,mips64el,sparc64,s390x,i386,riscv64"
+    "librocksdb-dev deb libdevel optional arch=amd64,arm64,armel,armhf,i386,loong64,mips,mips64el,mipsel,ppc64el,riscv64,s390x librocksdb9.10 deb libs optional arch=amd64,arm64,armel,armhf,i386,loong64,mips,mips64el,mipsel,ppc64el,riscv64,s390x rocksdb-tools deb database optional arch=amd64,arm64,armel,armhf,i386,loong64,mips,mips64el,mipsel,ppc64el,riscv64,s390x"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
+  ],
+  "Uploaders": [
+    "Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e, Otto Kekäläinen \u003cotto@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/rocksdb"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/rocksdb.git"
   ],
   "Version": [
-    "7.8.3-2"
+    "9.10.0-1"
   ]
 }

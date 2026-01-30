@@ -6,22 +6,22 @@
     "python3-lz4"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-python, python3-all-dev, liblz4-dev, pkg-config, python3-pkgconfig, python3-pytest-runner, python3-setuptools, python3-setuptools-scm"
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all-dev, liblz4-dev, pkgconf, python3-pkgconfig, python3-pytest-runner \u003c!nocheck\u003e, python3-setuptools, python3-setuptools-scm"
   ],
   "Checksums-Sha1": [
-    "fb134583b34b9aa1b979015ac18939f2e87beed5 3800 python-lz4_4.0.2+dfsg-1.debian.tar.xz dfdd4a51f9f74e13e737d18ec66e23ece854797c 2150 python-lz4_4.0.2+dfsg-1.dsc 3587c3cb8355d20dab037f752a85f4b71eb7b110 53416 python-lz4_4.0.2+dfsg.orig.tar.xz"
+    "ddf1d9b3aa249359f36b9f55c7a88cf67ab8a614 4040 python-lz4_4.4.0+dfsg-2.debian.tar.xz fe47ab3af0fa1ed572691cce2147a93901a3a735 2019 python-lz4_4.4.0+dfsg-2.dsc 6d1c814c7b0c55ab37ef4d5c7434764bb5b4f889 52504 python-lz4_4.4.0+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "0a6a579e089ca31b9672f240d567ba7feccd2dffb01c46ef67d14be068172572 3800 python-lz4_4.0.2+dfsg-1.debian.tar.xz 2bbcd0efa086bc3fda54250991d1da125d55047851800e2bfe706fab5099bcfd 2150 python-lz4_4.0.2+dfsg-1.dsc a37d2f31a2a979644f633a89830587f8bf4d4a56947ea795ed294683454cba0f 53416 python-lz4_4.0.2+dfsg.orig.tar.xz"
+    "852dc676bdbfcb6b16c844c47afa00fd8f312ee00672d8d3817dc1c0f28f901c 4040 python-lz4_4.4.0+dfsg-2.debian.tar.xz 229187dc72609aee52fb38ef61472622bed16b4fc215ef976e5f07bab9bc58c8 2019 python-lz4_4.4.0+dfsg-2.dsc 03aca7b9bbb34a663acb1d0deb20ba1a8f9f537dc32ffb52779af4abeb55d9f0 52504 python-lz4_4.4.0+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "b17ee8ea7a33807f5a8e12d94f2a97117b0a4f1407eab4c4c7a4270bcdc4e36ff94d49c5622815bd41464e8ec1eeab5972db3bca1c74325323f6fa93897c44e5 3800 python-lz4_4.0.2+dfsg-1.debian.tar.xz add74c4e4077883aa147a40c379fb2746da5a31559d807ee2861853f7d162bd873fa5ce2ca792ea81920efafc386f662a6742bee4de83077b33554a1c47994f3 2150 python-lz4_4.0.2+dfsg-1.dsc 510d39a0baeaf66ad8eba576a05d25ba421f788acef65649919d3efd1e3586a8a55f994fe6de20b2272fbe64790a4b792c80e9a5405e276c72cc2fc720f7288b 53416 python-lz4_4.0.2+dfsg.orig.tar.xz"
+    "072d5b88cc9e4b144c98458b48dbf2452a2662a5dc32eba692f7a1d702f1b1be4e095be4e79b3481fc9e34c3cc3b520371d67a21cdaa3c851e4821f5c5d31cf0 4040 python-lz4_4.4.0+dfsg-2.debian.tar.xz 01470247723753ee2da219be8280ff0a5a16afcb4b13b9823801b3e2200620c0f33d30be72898bb2cde177bc688414e8e619292ffd519631babc81787b8f0381 2019 python-lz4_4.4.0+dfsg-2.dsc d1405de93c6d5894c15d3b7a9025a20e063d4857c3b619b130243e77eb975a309ef977f51969f69907f851665e06326880407446fc14cfdce47710547ebfa31c 52504 python-lz4_4.4.0+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-lz4"
   ],
   "Files": [
-    "d60f507b2b58bedca271967c6f144221 3800 python-lz4_4.0.2+dfsg-1.debian.tar.xz a83e915e3981ac5b5b563541675891b9 2150 python-lz4_4.0.2+dfsg-1.dsc 63e3d1c7597fe5fc8d625275995990f0 53416 python-lz4_4.0.2+dfsg.orig.tar.xz"
+    "5d743c3afb114b974dae59c9bcc29537 4040 python-lz4_4.4.0+dfsg-2.debian.tar.xz 664e58271c66fcf7a0d10f483bc8cb1d 2019 python-lz4_4.4.0+dfsg-2.dsc 4ca34248bd6a558fa627fb6e712daf91 52504 python-lz4_4.4.0+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "https://github.com/python-lz4/python-lz4"
   ],
   "Maintainer": [
-    "Dmitry Smirnov \u003conlyjob@debian.org\u003e"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
   ],
   "Package": [
     "python-lz4"
@@ -39,13 +39,13 @@
     "python3-lz4 deb python optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.6.1"
   ],
   "Testsuite": [
     "autopkgtest-pkg-python"
   ],
   "Uploaders": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+    "Dmitry Smirnov \u003conlyjob@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-lz4"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/python-lz4.git"
   ],
   "Version": [
-    "4.0.2+dfsg-1"
+    "4.4.0+dfsg-2"
   ]
 }

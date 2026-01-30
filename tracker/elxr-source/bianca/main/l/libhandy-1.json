@@ -6,28 +6,28 @@
     "libhandy-1-0, libhandy-1-dev, gir1.2-handy-1, handy-1-examples"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gi-docgen, gtk-doc-tools, libgirepository1.0-dev, libgladeui-dev, libglib2.0-doc, libgnome-desktop-3-dev, libgtk-3-dev, libgtk-3-doc, libxml2-utils, meson, pkg-config, valac (\u003e= 0.20), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, dbus-daemon \u003c!nocheck\u003e, gi-docgen, gtk-doc-tools, libgirepository1.0-dev, libgladeui-dev, libglib2.0-doc, libgnome-desktop-3-dev, libgtk-3-dev, libgtk-3-doc, librsvg2-common \u003c!nocheck\u003e, libxml2-utils, meson, pkgconf, valac (\u003e= 0.20), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "8dfb090d61aedadc6dd601f5f0e95562665107f3 9808 libhandy-1_1.8.1-1.debian.tar.xz e123f180fa5c0d7356c26a50d4672a14eb759804 2590 libhandy-1_1.8.1-1.dsc a5b81b6a5376134cd085c54af6abac2039f5332c 542188 libhandy-1_1.8.1.orig.tar.xz"
+    "2f6a936a61341f021fcaf62f64f8f5934f01ccb8 10076 libhandy-1_1.8.3-2.debian.tar.xz 8e302c78462d5d19f8626f8b1672a731ce511ed7 2647 libhandy-1_1.8.3-2.dsc 6386884dddf778d26879fdae0d71a46a60e18802 544724 libhandy-1_1.8.3.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "b94760c9c6d94e124f882151f2a85f1cc53546b527134d87e7bf67844bcd7d29 9808 libhandy-1_1.8.1-1.debian.tar.xz 47e39419cfc2488dd61059435e6dacfd34fb055e0245e8c40b2ed47f2be8e482 2590 libhandy-1_1.8.1-1.dsc 0e470c518b2af4459197389087dc0c2e2f4d8807bbef4e9fee7f1dccd8424203 542188 libhandy-1_1.8.1.orig.tar.xz"
+    "602e8b86bbe209c7dc1569636ac2a1199afd0b4c90059ecb81839f6fbf7d8a5a 10076 libhandy-1_1.8.3-2.debian.tar.xz fe0441bb7401720fcb5cc0f74c61270e84084f217aeb9240d24ec79b782cb0a8 2647 libhandy-1_1.8.3-2.dsc 5848987a94b2c7998635bfb46a726234537ad077027c8f7cecbbd7a5fbc2ffcc 544724 libhandy-1_1.8.3.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "207bc6f561d40c06d09e8e64f00815495853b826195b2cf7aa840b7f30d64bd5df3501d830e85b0564086de83f3792aea6180c511e2f59f6ea12d604a1f65e32 9808 libhandy-1_1.8.1-1.debian.tar.xz 0c593e6429e0b06591f3657694e2f3417bb606a2c3891a3db66f2e1cb85254dd2804144ea05ec10d0b9189f67d45378bf0d965ed878496356a7a7627cbf4ff56 2590 libhandy-1_1.8.1-1.dsc 1418c2cc7e39b1ffa4b5c8c91a8cd23b2b9efc2aeb9766e0049c74eff8afd8ddd3e955df3745feeb58d23be1114a5ae0ec9c2873a4e406c2f3f791b1d19d6942 542188 libhandy-1_1.8.1.orig.tar.xz"
+    "f4be2b9e34bb28cab04510ac0348881bcce9262b8d838632b33fa670f5c50308d8b251de6d775499bb69c6f95da387e399ed640ed446092fb7d0e70b10665b76 10076 libhandy-1_1.8.3-2.debian.tar.xz af8e7e8ed90b6ec4b9098d3d6fc14fd832f65b063ae4648edfd2acdbbc16994aca00a9ae741ee8ebb6f4751a3fa6e650790df4c476121baaf4c304a021e8b2cc 2647 libhandy-1_1.8.3-2.dsc 3aadb553294655af5a10778b20f10094def9aaeff2a192cecc7d880cbe6d0b7c8f36a36eed7cc1b8612a671885ed04375d9165ecfcd4f521c6a7eb87a877bd32 544724 libhandy-1_1.8.3.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libh/libhandy-1"
   ],
   "Files": [
-    "efd94791f5820676a8d82922be366a80 9808 libhandy-1_1.8.1-1.debian.tar.xz e9e7ec68c8871e2a6a75f04d5f9710f8 2590 libhandy-1_1.8.1-1.dsc a1142c8842afd54474743cdf7d6cd5b3 542188 libhandy-1_1.8.1.orig.tar.xz"
+    "16fd8d2a8b1227f19faa61d5cb539133 10076 libhandy-1_1.8.3-2.debian.tar.xz 6b4e0170d498797235609904aaa85ad8 2647 libhandy-1_1.8.3-2.dsc 4b79a41aecbac8f9843d94773b9dba7e 544724 libhandy-1_1.8.3.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://gitlab.gnome.org/GNOME/libhandy"
+    "https://gnome.pages.gitlab.gnome.org/libhandy/"
   ],
   "Maintainer": [
     "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
@@ -39,16 +39,16 @@
     "gir1.2-handy-1 deb introspection optional arch=any handy-1-examples deb x11 optional arch=any libhandy-1-0 deb libs optional arch=any libhandy-1-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "at-spi2-core, build-essential, pkg-config, python3, python3-gi, xauth, xvfb"
+    "at-spi2-core, build-essential, pkgconf, python3, python3-gi, xauth, xvfb"
   ],
   "Uploaders": [
-    "Arnaud Ferraris \u003carnaud.ferraris@gmail.com\u003e, Guido Günther \u003cagx@sigxcpu.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e"
+    "Arnaud Ferraris \u003carnaud.ferraris@gmail.com\u003e, Guido Günther \u003cagx@sigxcpu.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/gnome-team/libhandy-1"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/gnome-team/libhandy-1.git"
   ],
   "Version": [
-    "1.8.1-1"
+    "1.8.3-2"
   ]
 }

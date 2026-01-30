@@ -6,31 +6,31 @@
     "gpicview"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), intltool, libgtk2.0-dev, libjpeg-dev"
+    "debhelper-compat (= 13), intltool, libgtk-3-dev, libjpeg-dev"
   ],
   "Checksums-Sha1": [
-    "0520bd9c9f7db2efb4242cf51063328b092b4098 30892 gpicview_0.2.5-3.debian.tar.xz e5a333dd989a70bffb566ed4e5f9d390e625fb97 1982 gpicview_0.2.5-3.dsc 6741b107c190574abd4ae31f281462b0536e495a 349536 gpicview_0.2.5.orig.tar.xz"
+    "4bd33c4a28469d1711301eea0b4160ac6fe9873e 30464 gpicview_0.3.1-1.debian.tar.xz d2b2c0ff04b8bd606833834dace7ade7e4d9b3de 2028 gpicview_0.3.1-1.dsc e5f3e81f46ea35f636e2d769fc1dc882a37deed3 166302 gpicview_0.3.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "7638f6725cb5a793c672da917b693da1e83b75be610d5d7d28a5c33ad7172828 30892 gpicview_0.2.5-3.debian.tar.xz e45ee235ff2264314fd7ace021d4c388ba62df4bc38017451b5327ebb8a700a3 1982 gpicview_0.2.5-3.dsc 38466058e53702450e5899193c4b264339959b563dd5cd81f6f690de32d82942 349536 gpicview_0.2.5.orig.tar.xz"
+    "445f81568803aa8a1305ddbf342864090d507e83bbcaf953cad5f63df9674bea 30464 gpicview_0.3.1-1.debian.tar.xz 0b39fc228931fd9080349459175681e7ae5fca19d60f64d9f5a8c80db2796a28 2028 gpicview_0.3.1-1.dsc b65dd991368ed2b08645a50cb6d4831e21e3c0d0f7d72394d40105ddba754533 166302 gpicview_0.3.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "3869b9f6022a2107c70f2cb796415f7c8b96ff0854cfd394d07a4c98b3beabe964edd58dd8a07718ead5ae4b440d6ca183aeda293c5a4d2763d45437865181ba 30892 gpicview_0.2.5-3.debian.tar.xz 135890a13084f249f115292e95ebfaa7d04147ab378ceba75c79b4c9a6a7a4ad113f56bc0a2a2a7f4f0f9870720edd3082bca0380b5e579eef98c84dc5198227 1982 gpicview_0.2.5-3.dsc afc7e67c7ae1252f9c1816ee46fe69e96ea7be9a60e03406a539f17b2e4f0e4b93a028c6f3f1c455f5433d6d7d78a58dcee2cb0ac91ea53093a21935bf454afd 349536 gpicview_0.2.5.orig.tar.xz"
+    "fe13053cf5f4bba59e281b5185f5c85e562b6d3f5b04e41f7e13f4babb8aacf36987d582016c7c629c99e1a5e02adfdf5dbb1f43e84343379a7a32f9dc42e71d 30464 gpicview_0.3.1-1.debian.tar.xz 4fa306db2ea17d907d385fd552d5951e47d624f12a195373b9956d80de91865b3b4f10a3fdf08df9734d09a03d9f9da1119b517aee7c93e67307775e45f042dc 2028 gpicview_0.3.1-1.dsc 15f6a3201067e0eb3b71492072f207e7b95e4c672cea358eca0bb71c404e9fd5e1e7d2fd28eda11965374c192a13b496f58fedea03799ea2b7aa80da66fcd812 166302 gpicview_0.3.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/g/gpicview"
   ],
   "Files": [
-    "41da0c543b8af40a830c448c33748603 30892 gpicview_0.2.5-3.debian.tar.xz e5c4f921ea571a5c938d513b07f43671 1982 gpicview_0.2.5-3.dsc 26be9b0c5a234f1afe7d83d02a4a33f4 349536 gpicview_0.2.5.orig.tar.xz"
+    "167a1dc1e517ef0e54e44a4f71660ab4 30464 gpicview_0.3.1-1.debian.tar.xz fcff366cec5d5382852b73bc34505955 2028 gpicview_0.3.1-1.dsc e008968d0c7ddae81acdad9a82a2f10b 166302 gpicview_0.3.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://www.lxde.org/"
+    "https://github.com/lxde/gpicview"
   ],
   "Maintainer": [
-    "Debian LXDE Maintainers \u003cpkg-lxde-maintainers@lists.alioth.debian.org\u003e"
+    "Debian LXDE Maintainers \u003cteam+lxde@tracker.debian.org\u003e"
   ],
   "Package": [
     "gpicview"
@@ -39,18 +39,18 @@
     "gpicview deb graphics optional arch=any"
   ],
   "Standards-Version": [
-    "4.4.0"
+    "4.7.2"
   ],
   "Uploaders": [
-    "Andrew Lee (李健秋) \u003cajqlee@debian.org\u003e, Ulises Vitulli \u003cdererk@debian.org\u003e"
+    "Andrew Lee (李健秋) \u003cajqlee@debian.org\u003e, Ulises Vitulli \u003cdererk@debian.org\u003e, ChangZhuo Chen (陳昌倬) \u003cczchen@debian.org\u003e"
   ],
   "Vcs-Browser": [
-    "https://git.lxde.org/gitweb/?p=debian/gpicview.git"
+    "https://salsa.debian.org/lxde-team/gpicview"
   ],
   "Vcs-Git": [
-    "git://git.lxde.org/git/debian/gpicview.git"
+    "https://salsa.debian.org/lxde-team/gpicview.git"
   ],
   "Version": [
-    "0.2.5-3"
+    "0.3.1-1"
   ]
 }

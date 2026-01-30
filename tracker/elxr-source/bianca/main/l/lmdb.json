@@ -6,28 +6,28 @@
     "lmdb-utils, liblmdb0, liblmdb-dev, lmdb-doc"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 10), doxygen"
+    "debhelper-compat (= 13), doxygen"
   ],
   "Checksums-Sha1": [
-    "a5432e471700365dbd1d9898d0a4cc7f216c8ece 6080 lmdb_0.9.24-1.debian.tar.xz 280eb727b228703831bc34d73fdd6d3b014b782b 2119 lmdb_0.9.24-1.dsc 319fd7dbdb2232c28b7d71fbcd6785115898b995 143901 lmdb_0.9.24.orig.tar.gz"
+    "40e79e73e2c584bb28ee24b6eb043ad90806dafb 6460 lmdb_0.9.31-1.debian.tar.xz d6cd8527dbac3f34c2b7d9c9294965782789d30b 2030 lmdb_0.9.31-1.dsc 60f1e774e19f61b2aeb54ccac9158fa67251be5c 145086 lmdb_0.9.31.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "522abd2cf9777afe3af0acf26886bd0789a30da09bba91d01d0e1562982b1fc5 6080 lmdb_0.9.24-1.debian.tar.xz f90d1cc2b69cae56f1b465636c810f4e3667d43a2567cf3bfb48b62cb710da6e 2119 lmdb_0.9.24-1.dsc 8e7200fdc9bb09b0cfad1d4eee8b20d539e43fe05c7ef9406247d64659c4a480 143901 lmdb_0.9.24.orig.tar.gz"
+    "926309e655186f7107c70b7b2d5020215aefd08b0902b1c8282e123c9584080a 6460 lmdb_0.9.31-1.debian.tar.xz 76262c17115458e3ab423cc7eeb7d16cee46d5ca76a660a8f2bdbab93473457b 2030 lmdb_0.9.31-1.dsc d35d4f6f46313d62fd342c9dcbf574432919ce5e802d2b6cbe2ebd549821e5c4 145086 lmdb_0.9.31.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "045aaa45f2a8a3cd4a5ed3ebf4de80eab05eb0bff2f8add01f6662d53ff6823a16cb9ea9ccf66540cc60030bf14d2e4bb53b9e5a92a877e3f5651f38ee63bcb9 6080 lmdb_0.9.24-1.debian.tar.xz cff5b3fa65317a4c3e66dcefcb7be259081bfc36a24c86e38eb4cf05499d2c0e5596ccf75238190d1e95fd1a40a8eae99ad369270df76beb02655fee4a21a8ad 2119 lmdb_0.9.24-1.dsc dcd64ef297ccfd4366f379d5fb09eb15a2d9b24bdbaad5b4f81dcaba044f19b0617c3c908828b3afc39d889b7eceb489c0d964d3bbc74d21595801f1414b2a6d 143901 lmdb_0.9.24.orig.tar.gz"
+    "4b88f12b7c65e4942994eb660e4e85047c598aae62be081a0bad75941e0cbe90c91e6a03d77a8f840070e25e624898cad645c2fafa3488c9b347867c3c631da8 6460 lmdb_0.9.31-1.debian.tar.xz 24609f656db397d0e39654a5c8d5fb7cfb9b25258b2ee68387861eb085a4acadf28fb69aa5dca73cd84f388ddf0a4969cb948132117ebf7edca3cb44272fcc09 2030 lmdb_0.9.31-1.dsc 318aa89b7e39f98f636dba01620f866ddc255d81a2d4def8a9d9fdd80878608db1ac7b60bde58e954aba802d94df42786a9cd00d0c7e11646f09fd5d64821ac4 145086 lmdb_0.9.31.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/l/lmdb"
   ],
   "Files": [
-    "27146ed5cbf1d4fcf49707b093087189 6080 lmdb_0.9.24-1.debian.tar.xz 6f8846931cea35a2e03fc0ddeb100410 2119 lmdb_0.9.24-1.dsc b0781db704a7180d709ea64597bb0638 143901 lmdb_0.9.24.orig.tar.gz"
+    "bbcfe3bee2973c1b6dad944c909a2723 6460 lmdb_0.9.31-1.debian.tar.xz 21a0fd91288bcf9248969f223e5e48e4 2030 lmdb_0.9.31-1.dsc a7532541a673d378e6f168a9847c775e 145086 lmdb_0.9.31.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://symas.com/mdb/"
+    "https://symas.com/mdb/"
   ],
   "Maintainer": [
     "LMDB \u003clmdb@packages.debian.org\u003e"
@@ -39,10 +39,10 @@
     "liblmdb-dev deb libdevel optional arch=any liblmdb0 deb libs optional arch=any lmdb-doc deb doc optional arch=all lmdb-utils deb database optional arch=any"
   ],
   "Standards-Version": [
-    "4.1.5.0"
+    "4.6.2.0"
   ],
   "Uploaders": [
-    "Ondřej Surý \u003condrej@debian.org\u003e"
+    "Ondřej Surý \u003condrej@debian.org\u003e, Jakub Ružička \u003cjru@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/lmdb"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/lmdb.git"
   ],
   "Version": [
-    "0.9.24-1"
+    "0.9.31-1"
   ]
 }

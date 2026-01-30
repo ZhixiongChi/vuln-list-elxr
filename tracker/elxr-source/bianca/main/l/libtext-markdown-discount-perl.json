@@ -6,25 +6,25 @@
     "libtext-markdown-discount-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libmarkdown2-dev (\u003e= 2.2.7), perl-xs-dev, perl:native"
+    "debhelper-compat (= 13), libmarkdown2-dev (\u003e= 2.2.7), libmodule-build-perl, perl-xs-dev, perl:native, pkgconf"
   ],
   "Checksums-Sha1": [
-    "a1417a30bc32b8e2292e15068af60f3ff31f1fe4 4824 libtext-markdown-discount-perl_0.16-1.debian.tar.xz 4a395bd1d930a57eb8fda36a03ad9c28c757ee21 2540 libtext-markdown-discount-perl_0.16-1.dsc 01f9877de3f80673c4cbe02b345bce0e2e6f1aa7 214480 libtext-markdown-discount-perl_0.16.orig.tar.gz"
+    "365e55adc85755581616fc39c07ec03d7fbd1bc5 5124 libtext-markdown-discount-perl_0.18-1.debian.tar.xz 34a5e336b30b32c5c0e58507e5d2c77122646c16 2571 libtext-markdown-discount-perl_0.18-1.dsc 3869be1f9304c5fb432aeb5636af57adb55cba2b 269175 libtext-markdown-discount-perl_0.18.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "3bfe0b5add8ea9cacb61ad694dc1133803277a00b3d1bf305b6d61927e2e49ee 4824 libtext-markdown-discount-perl_0.16-1.debian.tar.xz b5647b05a73da91a469b111a7e4e25ce6e7df4bcf05a2f03f40e0ea7b12fb885 2540 libtext-markdown-discount-perl_0.16-1.dsc adcbc9d3f986d1344648cba6476634eb8621c773941f7f3d10860f96d8089233 214480 libtext-markdown-discount-perl_0.16.orig.tar.gz"
+    "a283fed3fe03db2db01840e0e7ee4c1c132d80a6032fc27772e1ff3bff4b0c38 5124 libtext-markdown-discount-perl_0.18-1.debian.tar.xz 7629bd3184cde5aaae64742588392a71a22ed7846ec15b084b7493b20124e54a 2571 libtext-markdown-discount-perl_0.18-1.dsc c60a611c6554609d765c6a665d4089b0e2636780d614779ba6c9da64d6bdd827 269175 libtext-markdown-discount-perl_0.18.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "0456ba8aa4e46ca4e281e59e446ef4843a1d4b29b3de7550f00fd1c571ad4a9ea1bd1b3f3d493d9ae59c69184c0b2703f4cb742ad5a665c0a10aea2c0c5570f3 4824 libtext-markdown-discount-perl_0.16-1.debian.tar.xz 281a1c28bb4559159c9448f13ba0b6cf457dafc4c5b18ca7ec965547447888ad28c7b34867ef45265da4a90c5ebb5b44d8facc1b3f625f6f4345bf0cfa680756 2540 libtext-markdown-discount-perl_0.16-1.dsc 4175fe71b94ec7b9aa11a0c25b963f3a3cca606d63db757fd1156aff30f50cc8253d0ae18241b4129a89855c843b1ff275297b70a18d6c59bf11769d6d159ae2 214480 libtext-markdown-discount-perl_0.16.orig.tar.gz"
+    "81ea9cc68476198685d5e700057740c043a7e88f4f907c5f6f1f3e3a2e53ecc9fb3b0ed13adf01dce4c2b8a954b1e9710464ae3c8508c8a3f93d53021eac51f0 5124 libtext-markdown-discount-perl_0.18-1.debian.tar.xz 81dfbcf894cfdfd28139d4d70de3ecc64ef1a91bcc2725aa7e8757ea8350b68b1486d65f246c9b2875128bf0f0302217b8f88b2c2f431ed201fa69c61e4a5226 2571 libtext-markdown-discount-perl_0.18-1.dsc 3af7113676b897d9f0b1fdd35906e4f622797fdb0b942975678a0072f8e780bd630a903151acdc33899a34272c3d83106d85603a2a26096acc05c74e65ff7e71 269175 libtext-markdown-discount-perl_0.18.orig.tar.gz"
   ],
   "Dgit": [
-    "5b5eb8ac3cc03399a9e2713c23c36f4164273093 debian archive/debian/0.16-1 https://git.dgit.debian.org/libtext-markdown-discount-perl"
+    "e3ec42d4f7c647d721b5281921471194863ee016 debian archive/debian/0.18-1 https://git.dgit.debian.org/libtext-markdown-discount-perl"
   ],
   "Directory": [
     "pool/main/libt/libtext-markdown-discount-perl"
   ],
   "Files": [
-    "8711bb5b70f23e2a22b162dae28a19d0 4824 libtext-markdown-discount-perl_0.16-1.debian.tar.xz 34a243b326dfadcc2510843eae23c8b6 2540 libtext-markdown-discount-perl_0.16-1.dsc bcd4f738b7a8011f0388d2f0d77fef16 214480 libtext-markdown-discount-perl_0.16.orig.tar.gz"
+    "8c702355a234340850bfababa919e6a5 5124 libtext-markdown-discount-perl_0.18-1.debian.tar.xz 263468a42c22aeb5e0e81afa28f33fdc 2571 libtext-markdown-discount-perl_0.18-1.dsc 87e87a166b89901bc3a0816c797c6353 269175 libtext-markdown-discount-perl_0.18.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "libtext-markdown-discount-perl deb perl optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libtext-markdown-discount-perl.git"
   ],
   "Version": [
-    "0.16-1"
+    "0.18-1"
   ]
 }

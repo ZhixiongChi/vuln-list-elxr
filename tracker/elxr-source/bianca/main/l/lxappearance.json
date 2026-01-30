@@ -3,54 +3,54 @@
     "any"
   ],
   "Binary": [
-    "lxappearance, lxappearance-dbg"
+    "lxappearance"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 9), autotools-dev, intltool, docbook-xml, docbook-xsl, libglib2.0-dev, libgtk2.0-dev, libx11-dev, xsltproc, libdbus-glib-1-dev"
+    "debhelper-compat (= 13), docbook-xml, intltool, libdbus-glib-1-dev, libgtk-3-dev, xmlto, xsltproc"
   ],
   "Checksums-Sha1": [
-    "ba2408fa9032147f47a66e0b7f264f554ac57d09 5356 lxappearance_0.6.3-1.debian.tar.xz 491c67c76b4103ad4e81a2faa80a6f86657d5a4d 2172 lxappearance_0.6.3-1.dsc 1c281756b240694d0262edd9d40041d5b127d552 165656 lxappearance_0.6.3.orig.tar.xz"
+    "0694b765ca8f2c58688894049079e90514eea6c2 6216 lxappearance_0.6.4-1.debian.tar.xz a632d485abd642ba4a44d06e4ed22439232be7e4 2108 lxappearance_0.6.4-1.dsc 557df24e11e85dc6b1a985fe44517f727e234483 109568 lxappearance_0.6.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "2d40fb6df7c5049b0f5c6309fd9e583a877118ab66e8b7f7d313c1a57772ac02 5356 lxappearance_0.6.3-1.debian.tar.xz cd22fab5793d52e7b2260d7e52bb18c0a685042df3740bac3091d61451244eed 2172 lxappearance_0.6.3-1.dsc 7222d858b8fef4b7967c42142d61e82ded6dd42dc5ef1d59caad775795928b38 165656 lxappearance_0.6.3.orig.tar.xz"
+    "0c063a4b58f668371f48077d6bd971a6cae92fd641fed495a37353963cc25cc6 6216 lxappearance_0.6.4-1.debian.tar.xz eb6c3945a82b5f4d3428899fa0571f66af86a1878db140be16b8a6366a4fee45 2108 lxappearance_0.6.4-1.dsc 9f067a8a126b9779ba12648c76136d9ba3e7ec7920c568df7819d128fdf39e03 109568 lxappearance_0.6.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "5663bb96276ceaf067753b82ef8c6fe5fadb28048efe88471876fb80fc0731c7b3a6eff1096f26decccb3c8d12b280cba9741345d0a8b898d6395eb3255aafec 5356 lxappearance_0.6.3-1.debian.tar.xz db5baf2c7e6aab912d41bd446940d502f13da87f3eadb1a3076b21f5caf11ec168c63827137aee96a9ba7c8e609f40640311cfe522048ba10b514c1dffdd8681 2172 lxappearance_0.6.3-1.dsc 035cc952a33ac25408a4158cb4e745b17af3f29b5ceedfbe6b37235d16c801658403e862cd35ad7c8ca20fe6186fab1dce74a6e8d3b2eec12a30d532fc21662c 165656 lxappearance_0.6.3.orig.tar.xz"
+    "c503a104341df229ada951fba5cb3e07936c098a2d4c12be13aa89b9b5c15c6522df2e8cc98e1d4a7136f380f4deaefab2403a739aacae67af2fe375495c873f 6216 lxappearance_0.6.4-1.debian.tar.xz dcb416de3d173e7d6456ac7d886170518debd228c2944a17b31e75b9d6595a3d3ecc439cf772b12770e26d8c074b9f8ea35cc264fc8ac88982549c935ff524f1 2108 lxappearance_0.6.4-1.dsc cf8a71fe546a3f9a11856d1290825c0433a64eb59c65298bc6e8a4742154ec6b9a901ee126b1303ec18f6c7f8c4875b20993c53f8f226d934c1c7406beac5f64 109568 lxappearance_0.6.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/l/lxappearance"
   ],
   "Files": [
-    "27de3fe59a4950b6707dbb2de343ac1e 5356 lxappearance_0.6.3-1.debian.tar.xz 746df3be0b4010d565320607f987ac65 2172 lxappearance_0.6.3-1.dsc f10345313e2c12bad51c1b58bd46b454 165656 lxappearance_0.6.3.orig.tar.xz"
+    "a968b7d4f6d3e4bae688f6f2d48304b9 6216 lxappearance_0.6.4-1.debian.tar.xz 39e40ed3f59231dfbad40d27ac22a07c 2108 lxappearance_0.6.4-1.dsc a44b9487d18df2d4cb4a8677bccf9a66 109568 lxappearance_0.6.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://www.lxde.org/"
+    "https://github.com/lxde/lxappearance"
   ],
   "Maintainer": [
-    "Debian LXDE Maintainers \u003cpkg-lxde-maintainers@lists.alioth.debian.org\u003e"
+    "Debian LXDE Maintainers \u003cteam+lxde@tracker.debian.org\u003e"
   ],
   "Package": [
     "lxappearance"
   ],
   "Package-List": [
-    "lxappearance deb x11 optional arch=any lxappearance-dbg deb debug extra arch=any"
+    "lxappearance deb x11 optional arch=any"
   ],
   "Standards-Version": [
-    "3.9.8"
+    "4.7.2"
   ],
   "Uploaders": [
-    "Andrew Lee (李健秋) \u003cajqlee@debian.org\u003e, Andriy Grytsenko \u003candrej@rep.kiev.ua\u003e"
+    "Andrew Lee (李健秋) \u003cajqlee@debian.org\u003e, Andriy Grytsenko \u003candrej@rep.kiev.ua\u003e, ChangZhuo Chen (陳昌倬) \u003cczchen@debian.org\u003e"
   ],
   "Vcs-Browser": [
-    "https://git.lxde.org/gitweb/?p=debian/lxappearance.git"
+    "https://salsa.debian.org/lxde-team/lxappearance"
   ],
   "Vcs-Git": [
-    "https://git.lxde.org/git/debian/lxappearance.git"
+    "https://salsa.debian.org/lxde-team/lxappearance.git"
   ],
   "Version": [
-    "0.6.3-1"
+    "0.6.4-1"
   ]
 }

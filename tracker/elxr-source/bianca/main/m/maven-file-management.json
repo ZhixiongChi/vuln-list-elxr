@@ -6,28 +6,28 @@
     "libmaven-file-management-java, libmaven-file-management-java-doc"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 10), default-jdk, default-jdk-doc, junit4, libmaven-javadoc-plugin-java, libmaven-shared-io-java, libmaven3-core-java, libmodello-maven-plugin-java, libplexus-utils-java, libplexus-utils-java-doc, maven-debian-helper (\u003e= 2.2)"
+    "debhelper-compat (= 13), default-jdk-headless, default-jdk-doc, junit4, libmaven-javadoc-plugin-java, libmaven-shared-io-java, libmaven3-core-java, libmodello-maven-plugin-java, libplexus-utils-java, libplexus-utils-java-doc, maven-debian-helper"
   ],
   "Checksums-Sha1": [
-    "2f85c8e52a15c1e6a63b6019a7f6a129fd31ee48 4076 maven-file-management_3.0.0-1.debian.tar.xz 253711116b7e50ab161f209ac75bb4fe562d41af 2478 maven-file-management_3.0.0-1.dsc bab638e3cec106a5c74d58b153f9e2b80458df65 15808 maven-file-management_3.0.0.orig.tar.xz"
+    "fe4431de5af1b27efb1e752099a7b19120d40663 4104 maven-file-management_3.0.0-2.debian.tar.xz 8a6037085ab2d40755a0bb08eaebaeca8404860a 2469 maven-file-management_3.0.0-2.dsc bab638e3cec106a5c74d58b153f9e2b80458df65 15808 maven-file-management_3.0.0.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "f4aab006f94d696407da03f035a3ba8e59a674bd45d101f9fe9c4b95832917ab 4076 maven-file-management_3.0.0-1.debian.tar.xz a291bd7e8614cc11404730ee9751204f412169d709e28f159c60e9faad706edf 2478 maven-file-management_3.0.0-1.dsc 11f2c130094e4392ef85a2231a3b5bbd6114cf1287f06d810c3ef726088041c6 15808 maven-file-management_3.0.0.orig.tar.xz"
+    "5176a30111cc8e8eabb76a3ca31d1d1b5c9f634122267f29ee9bb7164b05a162 4104 maven-file-management_3.0.0-2.debian.tar.xz d57958370f47f43318ac9161257e36045188d9d8ed4834d10409288204c67d70 2469 maven-file-management_3.0.0-2.dsc 11f2c130094e4392ef85a2231a3b5bbd6114cf1287f06d810c3ef726088041c6 15808 maven-file-management_3.0.0.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "a2d9f4fd0ea9e980c20ab4a52820ae828cd23311af29fca6f100066a93c9f6bd62493983528036fa6c0181b0c259759f82fa5ed1d4cc9481b426915e49a5e192 4076 maven-file-management_3.0.0-1.debian.tar.xz b3c329f6af94349b4e60a49a58e960d719dd35422862180c6905854c698eb8a5377d77c7ab39f444f4940095a0332dfed818d17bf3a72d832b9b2d20a0a4865e 2478 maven-file-management_3.0.0-1.dsc 6727b3b2f16208dfb7c61486b12a0bc03ef406f65bce6a0b27e947b9877fefe464b7ed1e5998f6fa50bb9f442efeb62f0ba078ea7d7d7010d63946fe178241eb 15808 maven-file-management_3.0.0.orig.tar.xz"
+    "a7b610861da534e0f0fc40ed2ea15a64e998c74cafd4a65d1b3ea5d77138811649f16f4f9908f43dd79a35336105811a00ff6257f1078d85d09213d7e50eedfd 4104 maven-file-management_3.0.0-2.debian.tar.xz 73d115b2fc14530b75bbd33fc2f0b22ae5799744435124d708e198277475f68221afcdc3e6eb439f7b5c8fc8505457cff5209df02eced378d3c883aa2bbdaeb2 2469 maven-file-management_3.0.0-2.dsc 6727b3b2f16208dfb7c61486b12a0bc03ef406f65bce6a0b27e947b9877fefe464b7ed1e5998f6fa50bb9f442efeb62f0ba078ea7d7d7010d63946fe178241eb 15808 maven-file-management_3.0.0.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/m/maven-file-management"
   ],
   "Files": [
-    "76a012db98704d9ae9865ebf11d087e7 4076 maven-file-management_3.0.0-1.debian.tar.xz 87490d314d10b3e073f828e2c7600071 2478 maven-file-management_3.0.0-1.dsc cf4250276a08ac6a36ebfedc40e93b1b 15808 maven-file-management_3.0.0.orig.tar.xz"
+    "656454bd78490c2eb60e5767f1c33e1b 4104 maven-file-management_3.0.0-2.debian.tar.xz 30a0b8e8d78ef7e077e3383ae26c9636 2469 maven-file-management_3.0.0-2.dsc cf4250276a08ac6a36ebfedc40e93b1b 15808 maven-file-management_3.0.0.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://maven.apache.org/shared/file-management/"
+    "https://maven.apache.org/shared/file-management/"
   ],
   "Maintainer": [
     "Debian Java Maintainers \u003cpkg-java-maintainers@lists.alioth.debian.org\u003e"
@@ -39,18 +39,18 @@
     "libmaven-file-management-java deb java optional arch=all libmaven-file-management-java-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.0.0"
+    "4.7.0"
   ],
   "Uploaders": [
     "Torsten Werner \u003ctwerner@debian.org\u003e, Ludovic Claude \u003cludovic.claude@laposte.net\u003e"
   ],
   "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-java/maven-file-management.git"
+    "https://salsa.debian.org/java-team/maven-file-management"
   ],
   "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-java/maven-file-management.git"
+    "https://salsa.debian.org/java-team/maven-file-management.git"
   ],
   "Version": [
-    "3.0.0-1"
+    "3.0.0-2"
   ]
 }

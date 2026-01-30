@@ -6,22 +6,25 @@
     "libobject-pad-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libextutils-cbuilder-perl, libindirect-perl \u003c!nocheck\u003e, libmodule-build-perl, libsyntax-keyword-dynamically-perl \u003c!nocheck\u003e, libtest-fatal-perl \u003c!nocheck\u003e, libtest-refcount-perl \u003c!nocheck\u003e, libtest-simple-perl \u003c!nocheck\u003e, libxs-parse-keyword-perl (\u003e= 0.29), libxs-parse-sublike-perl (\u003e= 0.15), perl-xs-dev, perl:native"
+    "debhelper-compat (= 13), libextutils-cbuilder-perl, libfile-sharedir-perl \u003c!nocheck\u003e, libindirect-perl \u003c!nocheck\u003e, libmodule-build-perl, libtest2-suite-perl \u003c!nocheck\u003e, libxs-parse-keyword-perl (\u003e= 0.48), libxs-parse-sublike-perl (\u003e= 0.35), perl-xs-dev, perl:native"
   ],
   "Checksums-Sha1": [
-    "0a4f423ace95069ead4d1e6a0d34cc0874d98516 3276 libobject-pad-perl_0.78-1.debian.tar.xz 68805b4f288c3eaff297ffc659b9ddc5c12dd773 2431 libobject-pad-perl_0.78-1.dsc 9b27fccb931f64de32e62aded54763ca75157d69 166282 libobject-pad-perl_0.78.orig.tar.gz"
+    "09273a64579fe160dc526574836c626c522eb4f4 3912 libobject-pad-perl_0.820-1.debian.tar.xz b993aec01e60b5650b8a4fd8f540be01e501ffad 2615 libobject-pad-perl_0.820-1.dsc 930372ae7b80ce0056dd848e364fa382505baa4e 203153 libobject-pad-perl_0.820.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "d924cbf367fe24f8c5da576d20d720844d47980e7ff72082ebd3479aa43402ad 3276 libobject-pad-perl_0.78-1.debian.tar.xz 8d8ce8cb70a2d612903b5397d714a0730358adcf47de7e5c35f5b0bc5edcad03 2431 libobject-pad-perl_0.78-1.dsc 6c75f2b8ddf17d77be3fa65ff368948b36cc420e8e171202d5af35f00727f739 166282 libobject-pad-perl_0.78.orig.tar.gz"
+    "a24ebd40c9021f4a53cdbb12d43903a668e68b6a8db53e80ae32726c0136e439 3912 libobject-pad-perl_0.820-1.debian.tar.xz dbcef8c4af8e51d7572ce56dd6361fb3ab656f5b8d0e78a5508fb3fb75a2834a 2615 libobject-pad-perl_0.820-1.dsc 872c38c8fb49ae87872f568659d918350507fb44c34ab26bb61f8f8943e1d6e5 203153 libobject-pad-perl_0.820.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "b1f469295b74712a3589cfff89173573bb44354912cbfee6fae6b2e97c8743f47cc54928dc8f9885e4e2f0227b9e2b79100a56445f07e9333d9ca1858be1ec19 3276 libobject-pad-perl_0.78-1.debian.tar.xz 0c52732cfd282a7c154535996f20140df21f58acac72e172ec0bb98df092855b011abe40370833fcce1a9cda4722860379bfa6991482659c44171c629a578757 2431 libobject-pad-perl_0.78-1.dsc 59f1842e795ef501de677209274535d1edb5a84dee42a93f979e8e0a8d6ea3a1a35f5b7d22bc2e208da7a9721669fc9aa26f9683305fe9991b5ad84b11da446e 166282 libobject-pad-perl_0.78.orig.tar.gz"
+    "8477c45e75f44891c1c422b196720d50231f25534a55d2eb624f416074251e940a4c0b6a99ded2f1c66308dd10ec65296cbfd417306404ffb92b262153ba8098 3912 libobject-pad-perl_0.820-1.debian.tar.xz bc509378d1d815500d29c35f24752f6df99004cf3aaf1301848c2003d18edd1f76c0ca195f80f5a3a95c1f8dea431f5419890af7da1c9c6cef20a01a4802417f 2615 libobject-pad-perl_0.820-1.dsc bd5819577591a008b4866b3cc0d4e86342d44112e8b8012cf65008c3f0f17897d7ccc31baa1855f7ae162f98330b45ef520f6e610a33d8cb76e86318ca1ca3b0 203153 libobject-pad-perl_0.820.orig.tar.gz"
+  ],
+  "Dgit": [
+    "2d0c5011c037f26b97e0755112c7768da7710bfe debian archive/debian/0.820-1 https://git.dgit.debian.org/libobject-pad-perl"
   ],
   "Directory": [
     "pool/main/libo/libobject-pad-perl"
   ],
   "Files": [
-    "8897b36f4eb355c48c29319560e52d02 3276 libobject-pad-perl_0.78-1.debian.tar.xz 9a3cfbbda8864c89578d4edee63d7902 2431 libobject-pad-perl_0.78-1.dsc 73b52cb72afe49884709cf937fc90576 166282 libobject-pad-perl_0.78.orig.tar.gz"
+    "d82f18d1840dcf4972f2303b208edfa7 3912 libobject-pad-perl_0.820-1.debian.tar.xz ae6a76b3d4f4047c237cac2a60037281 2615 libobject-pad-perl_0.820-1.dsc bd4298553c544a7a06002fce64df7560 203153 libobject-pad-perl_0.820.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +42,7 @@
     "libobject-pad-perl deb perl optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libobject-pad-perl.git"
   ],
   "Version": [
-    "0.78-1"
+    "0.820-1"
   ]
 }

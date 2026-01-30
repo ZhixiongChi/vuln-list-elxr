@@ -6,22 +6,22 @@
     "librust-once-cell-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.60) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "1b00884b3cfbb7a94cb4410618b7dd58b1874ed4 4352 rust-once-cell_1.17.0-1.debian.tar.xz 9c438eaa136014b900a33a8617b1470e864105a0 2271 rust-once-cell_1.17.0-1.dsc 347673d97c46e296962628066a76ea52c9dc5274 32736 rust-once-cell_1.17.0.orig.tar.gz"
+    "583d68ad75ecff556fc4d8ce7f8b634d834223a5 4108 rust-once-cell_1.20.2-1.debian.tar.xz 7c43919362c911863674c62203b609c67b5a0df2 2294 rust-once-cell_1.20.2-1.dsc 8201d63b9ab6011ab04f1fb987f938f6921f21e6 33394 rust-once-cell_1.20.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "5c7370f0c583eefd6080c12dc5b9446743b0ff9c9990c20377e064713ed3ca1c 4352 rust-once-cell_1.17.0-1.debian.tar.xz 324debedc40a8d637da471afb8d55a4c2124f2a79b421e4d02f0904fa76bfdd0 2271 rust-once-cell_1.17.0-1.dsc 6f61fba1741ea2b3d6a1e3178721804bb716a68a6aeba1149b5d52e3d464ea66 32736 rust-once-cell_1.17.0.orig.tar.gz"
+    "f4ecbcd722fe04cb71b8cb07028f36e3e339fd21d1eb446fecfb342a12dec4e1 4108 rust-once-cell_1.20.2-1.debian.tar.xz 0ef27d4f179059bbd32727997623389c346098ec9bde9b8770d01bf3630e4a9f 2294 rust-once-cell_1.20.2-1.dsc 1261fe7e33c73b354eab43b1273a57c8f967d0391e80353e51f764ac02cf6775 33394 rust-once-cell_1.20.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "5d06eb364638397d2bd0afa226771af8119cebe9b95061c9a3660b3784f659b90b1e94372faa9aa6350db14ddf5e1488361bc97980465cfefe27c64a0ebe1b9d 4352 rust-once-cell_1.17.0-1.debian.tar.xz 85207d69fa3f06708b4aab291849b132a4a3cea1f57a3ab7aba9222935c894777d2b70b4df07e234053aa7b5402769e3ef6681ee13379fcd25eb0b4aff464d90 2271 rust-once-cell_1.17.0-1.dsc 291d87380c0ea17fb3ffc9fdff8620d2ff55601c06ef65b2f0c54254fecd5b488645c6e94c6026b82071893f4d420491ff712399a782e14efa1e323e5c299c46 32736 rust-once-cell_1.17.0.orig.tar.gz"
+    "53853ae7fb2fc8e97137be467daa9838a861633233c88d69cfcb1dc163c91251cfc2fde77898a142d03b071cc35910c5006800b3d30d3dd94c6f8f06f2b16dda 4108 rust-once-cell_1.20.2-1.debian.tar.xz 7a49d41eb479c0ac0ebeb33cece9f064a36fc34f59ab839c6ee02ef989f8dd078b3de3ae18a5157d419885e2f2b02b64faed18cb42c502c0eca1c9a585590d8e 2294 rust-once-cell_1.20.2-1.dsc bc6005bdab7a154c01e2203fb553a68695727475a9a882cf906d49c054ce886ad92cb491d380b6b9fe71a81b2fd690ce91c9a6cf8dfa8508470ac9acfc8a31c8 33394 rust-once-cell_1.20.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-once-cell"
   ],
   "Files": [
-    "f06abe5a740560a1a736cf6506c6a058 4352 rust-once-cell_1.17.0-1.debian.tar.xz 3e4978ea992bd00a563ec2194fad2907 2271 rust-once-cell_1.17.0-1.dsc dc9b023a3d3833fa5a853d950b54d944 32736 rust-once-cell_1.17.0.orig.tar.gz"
+    "9a640690a489a5fb7add04df9bed58e0 4108 rust-once-cell_1.20.2-1.debian.tar.xz d687de8f92682939af5a331d0ff41d3d 2294 rust-once-cell_1.20.2-1.dsc 2b55f4f5a83a6ed664ff5b60aff9bfb4 33394 rust-once-cell_1.20.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,13 +36,13 @@
     "librust-once-cell-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-crossbeam-utils-0.8+default-dev, librust-lazy-static-1+default-dev, librust-regex-1+default-dev"
+    "dh-cargo, librust-critical-section-1+default-dev, librust-critical-section-1+std-dev, librust-regex-1+default-dev, rustc"
   ],
   "Uploaders": [
     "Nikos Tsipinakis \u003cnikos@tsipinakis.com\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/once-cell]"
   ],
   "Version": [
-    "1.17.0-1"
+    "1.20.2-1"
   ]
 }

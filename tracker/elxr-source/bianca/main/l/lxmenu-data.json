@@ -6,22 +6,22 @@
     "lxmenu-data"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 9), autotools-dev, intltool"
+    "debhelper-compat (= 13), intltool, libglib2.0-dev"
   ],
   "Checksums-Sha1": [
-    "e099f28024577bcd9e015016274eaae23193f574 3304 lxmenu-data_0.1.5-2.1.debian.tar.xz dae8265e0e716f0509645bc0d2df2fdb6f94561a 2006 lxmenu-data_0.1.5-2.1.dsc 5c3cba7d2061a490ad62c1e9c3f6120343df7712 199192 lxmenu-data_0.1.5.orig.tar.xz"
+    "8f9c979a35643ea00d74170d3135636f2e51e774 3712 lxmenu-data_0.1.6-3.debian.tar.xz d5441318803f01518d5e346547c2a9e2d6bdae43 1985 lxmenu-data_0.1.6-3.dsc 69297698db2b9ca17f104396a07d9c41bc13eeca 152866 lxmenu-data_0.1.6.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "5093bfb41f5e168e242d51a6bde4aae3e61f6534476a2f6ffaae4a257fafd19e 3304 lxmenu-data_0.1.5-2.1.debian.tar.xz 445a87488d6cb0a6c1b63ff457684dfbb7364d6e1623b0334bbd36b84150f859 2006 lxmenu-data_0.1.5-2.1.dsc 9fe3218d2ef50b91190162f4f923d6524c364849f87bcda8b4ed8eb59b80bab8 199192 lxmenu-data_0.1.5.orig.tar.xz"
+    "5835d546c53e433bba023934ba34e1b03f42020203fa486149b7d95a9f758e7b 3712 lxmenu-data_0.1.6-3.debian.tar.xz 2ee948235b78419cc63bb7d361afb8877b9dfa8f16ff2945d519fd3350f5e770 1985 lxmenu-data_0.1.6-3.dsc b237e732609fb2a521a942e08bb825ac7973ee478db7567d3606665a3793b2e8 152866 lxmenu-data_0.1.6.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "9c629ccef8ce9a22f3feb965739089cbc6e3ad8f5514e827adb581c6c25553af4dd3c704cc950e704fb11a8b102620586f94d444f2ee61c2d04d8e7a2e37e9e7 3304 lxmenu-data_0.1.5-2.1.debian.tar.xz 3a5333db4003d807df53284f3f6fbecf8d65491a59a91832e7d61fbee54d65cbb74091d995fd1014c9bce3fcd0443523baf6c5916720cd52468f894c8c835e7e 2006 lxmenu-data_0.1.5-2.1.dsc ea1a1ad511d9e56c7692a8d96feb52c53aa7bd7595f2312d4f41fc15a12a056551c70d6a2c55a30f849e2ac2fd1a06436751573472ae70e0158e069736578b40 199192 lxmenu-data_0.1.5.orig.tar.xz"
+    "c52d350be52797655c80f296b46f7f9f3769b4c34e2a5019f62ff09006a196fac2875222299bd8b63df745986ab631bca8910601da870ee9ceba9255be69a3c0 3712 lxmenu-data_0.1.6-3.debian.tar.xz c2a230f36f98314721abfb781636f1aaec08786cb9e64c5440ff88caabd5b0abeba31fa2dbde4480f9d5da0456e7353906669bbd2c867886ce39aec3a3ee6eec 1985 lxmenu-data_0.1.6-3.dsc 886cc6ae3681d8b4c44ce9bd99d76e61cf46b8c1d5e3d8d5d76415f7b50ef988516cfae354b43638999193bd3fa655ff2a326bda7a41b1b1fead60ce6253ebf7 152866 lxmenu-data_0.1.6.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/l/lxmenu-data"
   ],
   "Files": [
-    "4a889184809a721fc8709cc7bcd38b04 3304 lxmenu-data_0.1.5-2.1.debian.tar.xz 21b34ac205a8200d0594074e0da9c251 2006 lxmenu-data_0.1.5-2.1.dsc cc1989444284a65dbc7047348a68d6d4 199192 lxmenu-data_0.1.5.orig.tar.xz"
+    "33173dbcde2cebac1f99745bfe0eeb12 3712 lxmenu-data_0.1.6-3.debian.tar.xz df42e810253dbaf7cb4fe2c6ebd78907 1985 lxmenu-data_0.1.6-3.dsc 54e1eef3b97eaa09f8c2b503ae831e41 152866 lxmenu-data_0.1.6.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "http://www.lxde.org/"
   ],
   "Maintainer": [
-    "Debian LXDE Maintainers \u003cpkg-lxde-maintainers@lists.alioth.debian.org\u003e"
+    "Debian LXDE Maintainers \u003cteam+lxde@tracker.debian.org\u003e"
   ],
   "Package": [
     "lxmenu-data"
@@ -39,18 +39,18 @@
     "lxmenu-data deb x11 optional arch=all"
   ],
   "Standards-Version": [
-    "3.9.8"
+    "4.7.0"
   ],
   "Uploaders": [
     "Andrew Lee (李健秋) \u003cajqlee@debian.org\u003e, Andriy Grytsenko \u003candrej@rep.kiev.ua\u003e"
   ],
   "Vcs-Browser": [
-    "https://git.lxde.org/gitweb/?p=debian/lxmenu-data.git"
+    "https://salsa.debian.org/lxde-team/lxmenu-data"
   ],
   "Vcs-Git": [
-    "https://git.lxde.org/git/debian/lxmenu-data.git"
+    "https://salsa.debian.org/lxde-team/lxmenu-data.git"
   ],
   "Version": [
-    "0.1.5-2.1"
+    "0.1.6-3"
   ]
 }

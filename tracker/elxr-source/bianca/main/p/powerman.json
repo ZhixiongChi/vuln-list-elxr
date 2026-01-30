@@ -6,22 +6,22 @@
     "libpowerman0, libpowerman0-dev, powerman"
   ],
   "Build-Depends": [
-    "bison, debhelper-compat (= 13), dh-exec, flex, libcurl4-openssl-dev, libgenders0-dev, libncurses-dev, libwrap0-dev, pkg-config, systemd [linux-any]"
+    "bison, debhelper-compat (= 13), dh-exec, flex, libcurl4-openssl-dev, libgenders0-dev, libncurses-dev, libjansson-dev, libsnmp-dev, libwrap0-dev, pkgconf, systemd-dev [linux-any]"
   ],
   "Checksums-Sha1": [
-    "32b3ceade12b9169b960b3418d91dbc5ea4d132c 8376 powerman_2.3.27-2.debian.tar.xz f22ba17900dff18abb8c971496f1106a15f1beb7 2082 powerman_2.3.27-2.dsc 7fc1a73a74d74ae7cfaade7b85dce1e891dd2eec 237849 powerman_2.3.27.orig.tar.gz"
+    "2d3312a94b3794d3be07d152b7c5ab2e8d1ae7fd 11096 powerman_2.4.4-4.debian.tar.xz d8b42b08de54d4b256bf2f10c8270881cfb119ab 2108 powerman_2.4.4-4.dsc 970971d967dbd6ad8a66d2e6124cc2295dee7b2e 301991 powerman_2.4.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "2c6562b090278a605a0f3a870057968aa659218527a2f0379fb0c4a2f22c1838 8376 powerman_2.3.27-2.debian.tar.xz 1d0006c1353f77adb6d0d58baed0636c04a3e081c91fd5f706e4484a5e59ff51 2082 powerman_2.3.27-2.dsc 4464062fccbdd890cc36b5296d0db7b58d57ab496b145b502b1787c6224a2cf5 237849 powerman_2.3.27.orig.tar.gz"
+    "6feaf7f1a989a03b9c13c5359f7202d67b2f25bd7ae54688c1639ac108b3b696 11096 powerman_2.4.4-4.debian.tar.xz d553cb3c45c44ba40e1d501a8a290a3a424f1e9d527ba621f4f1bbb95087194d 2108 powerman_2.4.4-4.dsc 3f46cf5feecdd06e1f2de966becf9100ef8e6690d20f9fbe2431f51465e7205a 301991 powerman_2.4.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "6d545ab58f2474ce2fe5bd92e9a5388a804da2111accd795ef5d76cb31b8c6294f3c982cff42db1e480e1269a93275c0fc1e29dbbd1278cb25ee7770355d13a8 8376 powerman_2.3.27-2.debian.tar.xz 2d69ad215eba6e742976f8794ccf21bc34c102494c12ac094b0dc1b85549efc4e455d8e58f0ce4b9c3fc0b6b0ae4268ee08741341ed1ee5769c43c53f5db0cd3 2082 powerman_2.3.27-2.dsc 3284470d81506a928a8f7ee2898921f4052ef4ef023ae40b463b4cf29c441552439123af2170f24ab5fb255cebd9617fe368cdc527eba51539b08df0f0f95deb 237849 powerman_2.3.27.orig.tar.gz"
+    "b001f0cc1858d170f105a5ddffb57654b2d2f32abb52eedd7ba8b2442f28a3b6a6c6659c004fb0563fec839a85da5c8c0c90dfa40c1bab9807c2b1880650c2f3 11096 powerman_2.4.4-4.debian.tar.xz 7b94277802e4d5151878f4c370d457205a44c46217df62e4ee62eea10f0e975017d07df1cb3905cef5384df0f39506a57c4e82d0dd6c17bd05b981d154ff9d01 2108 powerman_2.4.4-4.dsc 0afffa681c46fd415189f1817f10a1a418273c5649c4ee054eb3363801a7c36119b5e533b2dc909ad76b8f23f8120c8dc1ac9075cf148af9744690682defbe4c 301991 powerman_2.4.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/powerman"
   ],
   "Files": [
-    "9d4c144bf4930387b889c79fd4a080e6 8376 powerman_2.3.27-2.debian.tar.xz c081e30555ef1384e30b1f0f78dd0058 2082 powerman_2.3.27-2.dsc bafff7c0ce23282ae8ff396a1346d208 237849 powerman_2.3.27.orig.tar.gz"
+    "d0c433c3322442c8a403823b1fca3a95 11096 powerman_2.4.4-4.debian.tar.xz 1b79acf21f946a41ef78c93d1d59c22d 2108 powerman_2.4.4-4.dsc 7a0e3a081d65ede1d98245aeddbee169 301991 powerman_2.4.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libpowerman0 deb admin optional arch=any libpowerman0-dev deb libdevel optional arch=any powerman deb admin optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/powerman"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/powerman.git"
   ],
   "Version": [
-    "2.3.27-2"
+    "2.4.4-4"
   ]
 }

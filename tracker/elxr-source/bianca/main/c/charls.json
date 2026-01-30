@@ -6,22 +6,22 @@
     "libcharls-dev, libcharls2"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13)"
+    "cmake, debhelper-compat (= 13), ninja-build"
   ],
   "Checksums-Sha1": [
-    "248f89853138e0248984b4132f8abf4961f3d4f9 5644 charls_2.4.1-1.debian.tar.xz 836ccfc94a0c236f22d5217829d106f50431db8b 2030 charls_2.4.1-1.dsc aecd0e9a30c2f1ae1b4eebe7cbb7985ebc458827 9491281 charls_2.4.1.orig.tar.gz"
+    "3c83d49817716f4d17dc43e7f56845de24eee973 5584 charls_2.4.2-2.debian.tar.xz 64bf49169968b8f6cccd500b11dc84470cfcd999 2043 charls_2.4.2-2.dsc 6e4865751b91669c09dc28ea0606a1e1bdb50bae 9492449 charls_2.4.2.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "de473a786d48989b134a044e8c9301209cf1ea5a754662efc8e6e1bdf2444206 5644 charls_2.4.1-1.debian.tar.xz 0c3a4801239abdeccbdc9f427065f0dc54103cd65e4817283df448031245310d 2030 charls_2.4.1-1.dsc f313f556b5acb9215961d9718c21235aafcd43bce6b357bf66f772e5692bba75 9491281 charls_2.4.1.orig.tar.gz"
+    "49d11ef416d0be6472aa5cfb22a9f878c0ee14f1ff1fc54b5018a11f429edbd0 5584 charls_2.4.2-2.debian.tar.xz 26e688e07b2bda0d760e41f1b99102ccc92887584626f938daf8e576e3cada20 2043 charls_2.4.2-2.dsc d1c2c35664976f1e43fec7764d72755e6a50a80f38eca70fcc7553cad4fe19d9 9492449 charls_2.4.2.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "a7fe7992a2ba8d555e873fea0832e48fea90e86c882fc3e9dd3bff32c2eb48da8bfbc94e06a7ae21ec0af9eb98cee1baa2feaf7346bcb02da6bf0779b5de1d77 5644 charls_2.4.1-1.debian.tar.xz 6920774201ab74f3b9bb7874343b416bb93d3138cd2e3bc274ca52dabdd447e6de27af0faff3603b8dde7ab87eb2932d97ca261f82295806a602329c835a7dcf 2030 charls_2.4.1-1.dsc 948204d54d44cd54074db9992058e962cbce667841707697601bd4bf0294784efe6b556762927c6277996052b84007c38a3d3b5e5c7cac5abbcf3d071aa41ed5 9491281 charls_2.4.1.orig.tar.gz"
+    "6a5c3c6aa61b4ec913236724fde93d9a764db8d231be0423f01d467cdc13b613078d5620364fd692e8e1e8f924ac3ea9f0990a51afba707b121541aad3517900 5584 charls_2.4.2-2.debian.tar.xz 641e732fbe57e86055b1b8ef086939df11b46f6953b6cda2452ae6096a871ced90367ec4c5acee45383ee73fe20cc0016f75403f497289b5e3aeb033f70cd695 2043 charls_2.4.2-2.dsc 4f1b587f008956ab6fb9d2473c37a7b1a842633113245be7f8bb29b8c64304a6d580a29fcfca97ba1ac75adedbaf89e29adc4ac9e4117e1af1aa5949dbd34df9 9492449 charls_2.4.2.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/c/charls"
   ],
   "Files": [
-    "fe7defd0caf1957dd03da1d614d5642a 5644 charls_2.4.1-1.debian.tar.xz 3455cfea3f4f5a34b3e09db57610c0cc 2030 charls_2.4.1-1.dsc 0001ceaffc7feffd6919897d44a7e252 9491281 charls_2.4.1.orig.tar.gz"
+    "991673c831f45701720ad849fc3c0e6c 5584 charls_2.4.2-2.debian.tar.xz d4b910e3ba931ce1811bfc0ffb6bb6d3 2043 charls_2.4.2-2.dsc 063d81f5abaef09fa8f458febd7872b1 9492449 charls_2.4.2.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libcharls-dev deb libdevel optional arch=any libcharls2 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Uploaders": [
     "Andreas Tille \u003ctille@debian.org\u003e, Shayan Doust \u003chello@shayandoust.me\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/med-team/charls.git"
   ],
   "Version": [
-    "2.4.1-1"
+    "2.4.2-2"
   ]
 }

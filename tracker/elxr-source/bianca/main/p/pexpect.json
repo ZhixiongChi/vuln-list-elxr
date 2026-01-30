@@ -6,22 +6,22 @@
     "python3-pexpect, python-pexpect-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-sphinx, python3-all, python3-ptyprocess, python3-pytest \u003c!nocheck\u003e, openssl \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-python3, python3-sphinx, python3-all, python3-ptyprocess, python3-pytest \u003c!nocheck\u003e, python3-setuptools, openssl \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "db62f8b3c5ff629244aba8d4c7ea669e3122ca34 8648 pexpect_4.8.0-4.debian.tar.xz ac34d90d2d64c96739aa5170157c5b52c1c82bdc 1580 pexpect_4.8.0-4.dsc 3f6c41a4a72dc802f3431f5d2367a4259f9b1813 166001 pexpect_4.8.0.orig.tar.gz"
+    "d533ec123ab29b1cbea9150e920386fc7ebea30a 7296 pexpect_4.9-3.debian.tar.xz 1b14338b99bd53c622f034fb4e80cf93676deabe 2239 pexpect_4.9-3.dsc 86ac4de8033cc7b1281719dfab776a4ae9d08a11 170326 pexpect_4.9.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "ba59306f32868dec5733a6aa93b61a78ac797f3a19a31238e70d96b792394739 8648 pexpect_4.8.0-4.debian.tar.xz 1f2c2fe7dde0ba702b435d9d31bed7afbfeb71b8d69ee3d524aa545319043a19 1580 pexpect_4.8.0-4.dsc f2ea54a12cc893636a60421e8da0a36c40caad7825eb674697f1e25f5f91245e 166001 pexpect_4.8.0.orig.tar.gz"
+    "f80f7535309f1fa02d5652b295d9ca1d4d1bc5dba0a9e43a30d3ee6ba96c529d 7296 pexpect_4.9-3.debian.tar.xz 219925ce51b3ca777945b68d6f8e6e63a62e3629ad446673388b2135dfded06d 2239 pexpect_4.9-3.dsc 305ab31baae8452dc6406e13c1512095d0df79ff82a9ad7c2638d70d6d836f60 170326 pexpect_4.9.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "cc71f8c197a046861d9565922b174d2ba2192ac87ea20538921288072d5a273ebcc9134743834633a4d1f192b70d76929b6a834bbed699c5c73cc853a2043072 8648 pexpect_4.8.0-4.debian.tar.xz 65bb80598dab09af6bdb1ca6552021eb41958e2b10dd0d7dd1a7e699bc8fef4bc7ab5b8c0a19247a1cc77226517f06f16460cb9641817e559e3597f88067f732 1580 pexpect_4.8.0-4.dsc f141e1368ceea15209b04555a524443cd9cf36d4a3677b63f7a2b079d41aae3fb8656612772732f4097b803c55a05f9bb7e3b427d11ae5357666406669ae6867 166001 pexpect_4.8.0.orig.tar.gz"
+    "cb425700d8874b1cc06d2fdd31e55e559780ae5e780b75c07d67698e1d4371a03f4e527f0a542f687a0b84aa96c03be8d9da5d2364c6794781bc913fd17c90a0 7296 pexpect_4.9-3.debian.tar.xz 5e4f5fe8e99aba40abc38b57e807905d8def32954aa4b0fe5289b753368693cbd6029539f9d8febe10a22a014e217658b18d0e3e7bad3b66fbf427e6d97c0508 2239 pexpect_4.9-3.dsc b8801dfa2139d20a8feb2da7ae1dcab7dc07d2e8743eec404272f5ec6ab9f86d7ddecc71b5980d2df7ffcfc0529a36df70ab4d196e3e457e2e423063b90eda77 170326 pexpect_4.9.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/pexpect"
   ],
   "Files": [
-    "7ea1d7ed57f1db95c7b173edf85af198 8648 pexpect_4.8.0-4.debian.tar.xz 887acbf52da0face1d7e4d8ffafb5077 1580 pexpect_4.8.0-4.dsc b260eb284efc19489466b804ff53c59b 166001 pexpect_4.8.0.orig.tar.gz"
+    "d0cc7590dfcc17066d3350cf5c0c55ef 7296 pexpect_4.9-3.debian.tar.xz 2a7c5084ba4fa32525c00462d82ac758 2239 pexpect_4.9-3.dsc 6ffdc85a4d2fd5e5fb0bd939ee68e4c4 170326 pexpect_4.9.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +45,7 @@
     "autopkgtest, autopkgtest-pkg-python"
   ],
   "Testsuite-Triggers": [
-    "openssl, python3-pytest"
+    "openssl, python3-all, python3-pytest"
   ],
   "Uploaders": [
     "Tobias Hansen \u003cthansen@debian.org\u003e,"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/pexpect.git"
   ],
   "Version": [
-    "4.8.0-4"
+    "4.9-3"
   ]
 }

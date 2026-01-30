@@ -6,25 +6,25 @@
     "python3-memcache"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 11), dh-python, openstack-pkg-tools (\u003e= 99~), python3-all, python3-setuptools"
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-setuptools"
   ],
   "Build-Depends-Indep": [
-    "memcached, python3-mock, python3-nose, python3-six"
+    "memcached, python3-pytest"
   ],
   "Checksums-Sha1": [
-    "89dcb4fddf4e751fd9a45c51eed58d8ad65d5820 5860 python-memcache_1.59-5.debian.tar.xz 478d206e7b062c21d583a02fd863e2e0c32b1471 2202 python-memcache_1.59-5.dsc 0207fa4a2bc39cc174dcf943d0fa1066fb255266 28636 python-memcache_1.59.orig.tar.xz"
+    "71958a6af30fbdecc4aeb8342e0e13a31f6d52e9 6144 python-memcache_1.62-3.debian.tar.xz 8dfcc710e639fd2a8b640e17943d6e34b443b0bf 2200 python-memcache_1.62-3.dsc 2d97a2829dec9a7efe12f16df74735043b014c7d 25664 python-memcache_1.62.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "e52afbb0c16bcae30d2efca4649870090a8d239cfb83780546c012b6b2d3c7e8 5860 python-memcache_1.59-5.debian.tar.xz 3a9eea8cb41a5f4a0e41017045ef8de814b62d00f5d0f96ef9fa8af186b38c16 2202 python-memcache_1.59-5.dsc ac01736406a76b380d4eb8c139cf445aab789287f79b12f95f23727d835a8691 28636 python-memcache_1.59.orig.tar.xz"
+    "c7bde479dfbbc4aa31b801071ae45026fb681f8926d719ba7b98ad5a70f9141e 6144 python-memcache_1.62-3.debian.tar.xz d714e3f18d29d0fed75ee48a52ab72d6ef533e1988453b5d483b0572c8e47afc 2200 python-memcache_1.62-3.dsc bb9bfb02b309d0738daa52b9b16a3ea1bc8eeb387cc153392164ac569792e0f3 25664 python-memcache_1.62.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "be73833986701141e6f8be92cedd5ac6f5335f720320ced98542e5fd195630c2f53015f717e365447a99b79e91b9e16fc36cb03860470dff60061a138c2893ae 5860 python-memcache_1.59-5.debian.tar.xz 1bad4fe1711a29d9b422171d4fd6250ed3c34e2d3676b9d9f7428cd73c8f22bf2befc80c3787ff46045135e236b9bb512afbcae8c5f55bc44d25fb6fc7aaf302 2202 python-memcache_1.59-5.dsc cade52f62acbfdbad2886d66dfd548086ddcf4dac2aa3e0ab0bc2a50398de121886dc570e8981216ecaac39dfd54856dde9c96a5662c87a10715719215f8fd68 28636 python-memcache_1.59.orig.tar.xz"
+    "fd47e0296e8bd715ca3ebdf794789b807c8afa7d4ac0215cacdf9e8d7d537abdea683855b3fc4f951d650650738ca7b6e8ccb01bbb6de4307bf0faee40644a0f 6144 python-memcache_1.62-3.debian.tar.xz 09c0704e78e9534c105ffecf599a098a63d21257e03679eb2bded2eedec7344e7f9dcd6723b62cfda8994addc979f873dd9bbc87c566444b96117ac7b9fe332f 2200 python-memcache_1.62-3.dsc ce878b3b6beddc6795c81f72b46657a540bab5d33176acaf64cd6909490ec572ad7f19c6dc7cdb5050dd30ed940cbe3ee09cde1694af2e4eaee6bfd95200ba9f 25664 python-memcache_1.62.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-memcache"
   ],
   "Files": [
-    "35c339e9a5b19d10bddbd07ab89b0d53 5860 python-memcache_1.59-5.debian.tar.xz fc641a140c0dd41c0334367b633af686 2202 python-memcache_1.59-5.dsc 353fe48f72299b84e4ed5b8859ac356b 28636 python-memcache_1.59.orig.tar.xz"
+    "a6f23ea1076c1ba738eff14784d24f04 6144 python-memcache_1.62-3.debian.tar.xz db1fed01f2896505d1122fc0ffd18b0d 2200 python-memcache_1.62-3.dsc a8237edf5d95b9556b4511f2ca9f3cf3 25664 python-memcache_1.62.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -47,6 +47,9 @@
   "Testsuite": [
     "autopkgtest"
   ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
   "Uploaders": [
     "Carl Chenet \u003cchaica@ohmytux.com\u003e, Thomas Goirand \u003czigo@debian.org\u003e,"
   ],
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/openstack-team/python/python-memcache.git"
   ],
   "Version": [
-    "1.59-5"
+    "1.62-3"
   ]
 }

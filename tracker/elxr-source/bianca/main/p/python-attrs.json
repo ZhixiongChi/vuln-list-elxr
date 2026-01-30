@@ -6,22 +6,25 @@
     "python3-attr, python-attr-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, pybuild-plugin-pyproject, python3-all, python3-doc, python3-hypothesis, python3-myst-parser, python3-pytest, python3-setuptools, python3-sphinx, python3-sphinx-rtd-theme, python3-zope.interface"
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, furo \u003c!nodoc\u003e, pybuild-plugin-pyproject, python3-all, python3-doc, python3-hatch-fancy-pypi-readme, python3-hatch-vcs, python3-hatchling, python3-hypothesis \u003c!nocheck\u003e, python3-myst-parser \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-zope.interface \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "84a766bb7bc1bde817b87fafbce70a2d8863344b 5876 python-attrs_22.2.0-1.debian.tar.xz 4f0f1792e01e9897bba15dedf3bebd63c1ec62f6 2156 python-attrs_22.2.0-1.dsc ee2de65d1bc6debdbde244ab71159c09de32c9ab 206232 python-attrs_22.2.0.orig.tar.gz"
+    "37a203a0bc081193de7f992be8546c9e698b670b 5884 python-attrs_25.3.0-1.debian.tar.xz e18274275e81dcbce8c80a0ec5e76a64d63a10fd 2579 python-attrs_25.3.0-1.dsc 58553924e933357810d0cbce0ca74849a2f960fd 812329 python-attrs_25.3.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "d162a4bde9021f66be6b4131e15cda623d48bb9bdda7f653e3ea145d0d99536e 5876 python-attrs_22.2.0-1.debian.tar.xz 3faa1718a0e880e58d294f7f91c4c94ce67eede51728208c4c8a091d0140dabc 2156 python-attrs_22.2.0-1.dsc 7fae80170e208d470076102e4e7593e28fce140077b14768c2182f8c5de4a29a 206232 python-attrs_22.2.0.orig.tar.gz"
+    "8d527322bfc9bf690a07c2f05bf1100ac4b49e4f88554117c27a11d8a50bdf2c 5884 python-attrs_25.3.0-1.debian.tar.xz 09bd794be15a64c1451c688b0fac86dd3b647496d1e43aa61924d61737348973 2579 python-attrs_25.3.0-1.dsc ae9bf5d05a5f9cee97ed9003913bf5dd3249b5e2d7b100f3af7472882cd25f8e 812329 python-attrs_25.3.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "8cf90e96b9db1c2fccc1996ead68641ea17e5c88dc91ffacc2934f630763c7c16afadb56c99ac3823abaf9204433adb59cbf7fffe67e34cb54c4300f627e5858 5876 python-attrs_22.2.0-1.debian.tar.xz 6ee15f9e04bb62e7c984495e270c7a43790693fb6cc0b68a93265a3b978232aadf1c018c190b96de9ca66933f0e62e0dcffcc5e5346aa15f8b94fb02493558fd 2156 python-attrs_22.2.0-1.dsc f650c8a1a16ea84b55cbaafc65c81ba6437a9a9c2f6bf257d74212430c94ad964e67160ad78f35578213879fe20042f0d7b1a4b64e35ae20d0d65c1fcd70094a 206232 python-attrs_22.2.0.orig.tar.gz"
+    "b6ca330a5a186ee1c92737670b4044bd0dea200b28aa50ac8d09521f1c83cfa268d1fa36e89c5c51dd1fea56a9496e61ec967e9f2ca929507a2c3971959f6ecf 5884 python-attrs_25.3.0-1.debian.tar.xz 249b77796b4a4e450a9996d80eb9edd6eade4548a677b8cfce411bbb6c52ab5df0eb4afcf7319a5c7162ac3d2310eba833f3ea39555189a5f9a00da5ce03cd70 2579 python-attrs_25.3.0-1.dsc 980b96acd1e95e494e5d77200ed39ead78ea977db8b3c05245fde1a675c3c876eb3d7199adda3751b4a140e03903f43fa2db4f6544f469ba878ac6d25762aa42 812329 python-attrs_25.3.0.orig.tar.gz"
+  ],
+  "Dgit": [
+    "d617d8b7de0e35f93cd904ca1b0b1d1f81bc4b4f debian archive/debian/25.3.0-1 https://git.dgit.debian.org/python-attrs"
   ],
   "Directory": [
     "pool/main/p/python-attrs"
   ],
   "Files": [
-    "86d582935b8c9cef6f8f587a21194a41 5876 python-attrs_22.2.0-1.debian.tar.xz 7379c6661e0d7448265ced090a089b63 2156 python-attrs_22.2.0-1.dsc 756421e313935a369d868a06584dd55d 206232 python-attrs_22.2.0.orig.tar.gz"
+    "70e7a4b2e28bea11011c943a2b326c01 5884 python-attrs_25.3.0-1.debian.tar.xz 816b39d299763f716781a6694e10aec4 2579 python-attrs_25.3.0-1.dsc d0cbdbec08ea6306e5f18a32be95b2ba 812329 python-attrs_25.3.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +42,13 @@
     "python-attr-doc deb doc optional arch=all python3-attr deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
-    "Tristan Seligmann \u003cmithrandi@debian.org\u003e"
+    "Timo Röhling \u003croehling@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-attrs"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-attrs.git"
   ],
   "Version": [
-    "22.2.0-1"
+    "25.3.0-1"
   ]
 }

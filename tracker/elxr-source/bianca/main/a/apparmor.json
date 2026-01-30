@@ -6,25 +6,25 @@
     "apparmor, apparmor-utils, apparmor-profiles, libapparmor-dev, libapparmor1, libapache2-mod-apparmor, libpam-apparmor, apparmor-notify, python3-libapparmor, python3-apparmor, dh-apparmor"
   ],
   "Build-Depends": [
-    "apache2-dev, autoconf, automake, bison, bzip2, chrpath, debhelper-compat (= 13), dejagnu \u003c!nocheck\u003e, dh-apache2, dh-python, dh-sequence-python3, flex, liblocale-gettext-perl \u003c!nocheck\u003e, libpython3-all-dev, libpam-dev, libtool, perl \u003c!nocheck\u003e, pkg-config, po-debconf, python3:any, python3-all:any, python3-all-dev:any, python3-setuptools, swig"
+    "apache2-dev, autoconf, autoconf-archive, automake, bison, bzip2, chrpath, debhelper-compat (= 13), dejagnu \u003c!nocheck\u003e, dh-apache2, dh-python, dh-sequence-python3, flake8 \u003c!nocheck\u003e, flex, liblocale-gettext-perl \u003c!nocheck\u003e, libpython3-all-dev, libpam-dev, libtool, net-tools \u003c!nocheck\u003e, perl \u003c!nocheck\u003e, pkgconf, po-debconf, python3:any, python3-all:any, python3-all-dev:any, python3-gi \u003c!nocheck\u003e, python3-notify2 \u003c!nocheck\u003e, python3-psutil \u003c!nocheck\u003e, python3-setuptools, python3-tk \u003c!nocheck\u003e, swig"
   ],
   "Checksums-Sha1": [
-    "4b70b99785d0ce4330185a9996819f023aa2bcb5 94604 apparmor_3.0.8-3.debian.tar.xz 356bceb5d6618c254c94adb92cdfba2aaac016f5 2988 apparmor_3.0.8-3.dsc e111ad239816d9ff3b63f9695e2aa7b8ef128a92 7946880 apparmor_3.0.8.orig.tar.gz 7d084dcdad630524e5d548862a59497aeadcae51 870 apparmor_3.0.8.orig.tar.gz.asc"
+    "b3368fd15d2fa0dde6a182b95eaaf1de21312131 93168 apparmor_4.1.0-1.debian.tar.xz 24d37928cc39329baa79e6a8b0207c1ca048f267 3269 apparmor_4.1.0-1.dsc bb8a35f263cdf8cb9eb8f689d5ebc7cea0555e36 8496942 apparmor_4.1.0.orig.tar.gz 244e8d6fca8b7b736949b87fadeffded08d86c5f 870 apparmor_4.1.0.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "d27b585d61372f359fdc9dca388c790a61a25410790ff2ec780c491bceb826a0 94604 apparmor_3.0.8-3.debian.tar.xz f92c7dc0519e89747148af64d6678f526fde3925eb59d58f6414f8c1262f69e4 2988 apparmor_3.0.8-3.dsc dfa0083d62bb469be7125da590f46ad1a2831e3a7beeffaaeadfc2fee8460e5c 7946880 apparmor_3.0.8.orig.tar.gz 7bdab44d99f837be97afdc8624ec2c546ee2901f67fda8e8044ab89cc4373c4a 870 apparmor_3.0.8.orig.tar.gz.asc"
+    "85d693ea43458bd07a98fe9504ae6a2da309cb5820eef62871e1a6ed43d34084 93168 apparmor_4.1.0-1.debian.tar.xz db02d7e4a32280d01ee91aaf5b38f31a9b12f3ebf187c74ccd5f903dbde32b50 3269 apparmor_4.1.0-1.dsc c4422381941a6f30b7a5c9ee1defb7bc4efe3adbee3f99d642aa6e9bb8bcffcf 8496942 apparmor_4.1.0.orig.tar.gz 9c606402ec543f494c43ee9707f993da21a0ac68dccd8cdd4ca3e308b436addb 870 apparmor_4.1.0.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "a75584a62bb249651e2c7de4ec43ef91fc48b93abfb23e2150649b91576af69ffa9a01d038342a46dddede1e567694ee11b21e393b2c9a24d4a943d3adf14b27 94604 apparmor_3.0.8-3.debian.tar.xz 92c4ff83427f4600dc4b69001f53c1273d05988275dd22712040cc9bf578a4f1de47320a93f448514f4d5ed90a08483b0c3f5d3f1496a470951fa01b6e903391 2988 apparmor_3.0.8-3.dsc 539e955b24c6f4f62ef0d7885fc341e4f6bc69ee840981426fb6a40f8f8e5c945f774246cb0efe1a76e778b8047d4a7fe315ab062d2dbe17e524b8527d5a8087 7946880 apparmor_3.0.8.orig.tar.gz 76030176b98bface4c68a7b08005ca91b8bd7e6dfbff1dcf621e2859e593829effe09dc46c6485e4cb74e6e4e2e93ecf06da916daae0693b6575af83fe292f06 870 apparmor_3.0.8.orig.tar.gz.asc"
+    "7970d8893a1368c9943bd9bd0362bd24246634c3b6209b8132b80d1a1122f85f91f5bb8da3d49692d0db6fa3232b609f4c70254c2584ff0b1ddab4fb19e9f93e 93168 apparmor_4.1.0-1.debian.tar.xz 5c026b1de8e7e6cbea1baf7caa955fc74c3ac00be480339e60a793ef95db1230a568536625bb4a8b15d07b9a86b89552c75cca4318ddb49791dd3413fd212e34 3269 apparmor_4.1.0-1.dsc 38e6c0ba35cd48040cdfca0aea6c6bc6c132bfe237d11c3e9c89cfef69ed68a691f80075989263969368bde1120c8a6fad601098e8592208290f12e4210d9773 8496942 apparmor_4.1.0.orig.tar.gz 3e0ddfbafce1e7a1ce93c541da13adfe2a2aa6ac1273e38225b879c3a0b96a58e0ac9b00ccff2bf0db59c701ebb352de8e25bd5d997b6ed87ec9823aa92a329e 870 apparmor_4.1.0.orig.tar.gz.asc"
   ],
   "Dgit": [
-    "f53b9f4a4771903dc7af68f5c30623d21b2b971e debian archive/debian/3.0.8-3 https://git.dgit.debian.org/apparmor"
+    "cfa892e65351e721a785a27c56bdf810cb0df9fb debian archive/debian/4.1.0-1 https://git.dgit.debian.org/apparmor"
   ],
   "Directory": [
     "pool/main/a/apparmor"
   ],
   "Files": [
-    "f3e02cb7d66f830ff5c5c795ec88e13e 94604 apparmor_3.0.8-3.debian.tar.xz 5242608054817492a1ff720f3b65a890 2988 apparmor_3.0.8-3.dsc 4a836c7bd1a0c3d1392733afb6e06d73 7946880 apparmor_3.0.8.orig.tar.gz 6c5e31899df1b17efa538ee99237aecf 870 apparmor_3.0.8.orig.tar.gz.asc"
+    "5984773b42a78e0a19463531b794b24f 93168 apparmor_4.1.0-1.debian.tar.xz 32864c3fee1da797aee4872b3dce853c 3269 apparmor_4.1.0-1.dsc a7b85f6de1fc72d2a73da80722c5538e 8496942 apparmor_4.1.0.orig.tar.gz 5414c50c7672c7d6c74400bc200617e9 870 apparmor_4.1.0.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,13 @@
     "apparmor deb admin optional arch=linux-any apparmor-notify deb admin optional arch=all apparmor-profiles deb admin optional arch=all apparmor-utils deb admin optional arch=all dh-apparmor deb devel optional arch=all libapache2-mod-apparmor deb httpd optional arch=linux-any libapparmor-dev deb libdevel optional arch=linux-any libapparmor1 deb libs optional arch=linux-any libpam-apparmor deb admin optional arch=linux-any python3-apparmor deb python optional arch=all python3-libapparmor deb python optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "@builddeps@, apparmor-profiles-extra, bind9, cups-browsed, cups-daemon, evince, haveged, libreoffice-common, libvirt-daemon-system, linux-image-amd64, linux-image-generic, man-db, ntp, onioncircuits, tcpdump, tor"
+    "@builddeps@, apparmor-profiles-extra, bind9, chrony, clamav-daemon, clamav-freshclam, cups-browsed, cups-daemon, evince, geoclue-2.0, guestfs-tools, haveged, ibus-hangul, libreoffice-common, libvirt-daemon-system, linux-image-amd64, linux-image-generic, man-db, mariadb-server, msmtp, onioncircuits, papers, passt, tcpdump, tor, unbound"
   ],
   "Uploaders": [
     "intrigeri \u003cintrigeri@debian.org\u003e"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/apparmor-team/apparmor.git -b debian/unstable"
   ],
   "Version": [
-    "3.0.8-3"
+    "4.1.0-1"
   ]
 }

@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "linux-any kfreebsd-any"
+    "linux-any kfreebsd-any all"
   ],
   "Binary": [
-    "fuse3, libfuse3-3, libfuse3-dev, fuse3-udeb, libfuse3-3-udeb"
+    "fuse3, libfuse3-4, libfuse3-dev, fuse3-udeb, libfuse3-4-udeb, fuse"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), pkgconf, meson, udev [linux-any], python3 \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), pkgconf, meson, systemd-dev, python3 \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "61ba2abfea5d5a07f2eaeac2f17aedf0ed9dba7e 17828 fuse3_3.14.0-4.debian.tar.xz 83161b4045125cd4cbcbd8c2c6657c007fb385cc 2390 fuse3_3.14.0-4.dsc 3820905cd399fe9350285e76e72ceace656a761f 4351852 fuse3_3.14.0.orig.tar.xz 8addaabc30aa4b6a86f580248ae31e9788d8918c 1012 fuse3_3.14.0.orig.tar.xz.asc"
+    "b3be433ea191aab1627072bf14c0b7f9a206dfe7 19440 fuse3_3.17.2-3.debian.tar.xz 95170748b6a9f21ffa6166f0c647eea584a4ea34 2428 fuse3_3.17.2-3.dsc b79b0c3692cf230c3bb720451c1fb6bfb7da5902 5627028 fuse3_3.17.2.orig.tar.gz 31b6b73b13593e3a35ff3083821aaa1fbd4d9ef7 314 fuse3_3.17.2.orig.tar.gz.asc"
   ],
   "Checksums-Sha256": [
-    "671b7cb079f845c4032e0796e1a45426fa8e5602ffda438335f8f0483289c69f 17828 fuse3_3.14.0-4.debian.tar.xz 84a6d64bbcd5dda71276393a1cca300543932aa3a822859d0f799c7ee29227cc 2390 fuse3_3.14.0-4.dsc 96115b2a8ff34bd1e0c7b00c5dfd8297571d7e165042b94498c9a26356a9a70a 4351852 fuse3_3.14.0.orig.tar.xz 246ae20731da98c5f5a5cf6cdf8d10aa54ea986b4e71fe24805154b186ad30d0 1012 fuse3_3.14.0.orig.tar.xz.asc"
+    "eaf7a177761ae8bf99ea97619f2cccf83f169b4f000e17b6106834e69456b5a2 19440 fuse3_3.17.2-3.debian.tar.xz 1339847e7e6512f31d61cf1fe4598341c4b8aa43ea6dc546914b21f96f29deb3 2428 fuse3_3.17.2-3.dsc 3d932431ad94e86179e5265cddde1d67aa3bb2fb09a5bd35c641f86f2b5ed06f 5627028 fuse3_3.17.2.orig.tar.gz df18d3972c68dd0e8f7ad2a544a24ac54d48aa4b42d99b717448f7fe8e71cea4 314 fuse3_3.17.2.orig.tar.gz.asc"
   ],
   "Checksums-Sha512": [
-    "83709978d91e4213a5c8f261612e403aca2dbde1f1cf978a6cf7a0cd30abc04425bcdb33deaa06c318a4c621068ba13abdcb4af196aebe06d5c8f289d1c1af1b 17828 fuse3_3.14.0-4.debian.tar.xz 1b02c0b79a10053112c06cac0ee520db17dfc5185bfa147731de38337e0d657c1c705ae9e79328c2f5312058b1c1ce50e4c0ffb8d8a0fcf4ae1d4edd57de7eb2 2390 fuse3_3.14.0-4.dsc 4589df0ed975d6cc75a0a8ec032e934ad65c77f99194da6aba968cb6d5ee73f13c7eee1a78800965c4a9355b8d7d04c861aa881d502fc147a1e7c6677418ce1c 4351852 fuse3_3.14.0.orig.tar.xz 56dd5206f6bcced153d060fcce7100869148dcc4a41e920477b13a13b34b9d384c0eac242838d13c4d888b28fa56ca38c4bcba4206446a6b2a5d935d832d68b5 1012 fuse3_3.14.0.orig.tar.xz.asc"
+    "dce2c19a0b56f2d62fe85aad1d526ede5d08a8ae8c62d5271140ca946fb407cff47c482e2e083d1084b565671b0d06d808c365d9d148635848c8e637a340e100 19440 fuse3_3.17.2-3.debian.tar.xz edb0c565e3a046924a5632727f584f71743a64c9dfdfed4eb652632028c22bf27c99536dc8f016b914ee49424aca983cd2085c87b917ae567ddf5183eeeae614 2428 fuse3_3.17.2-3.dsc fa3bec4b84ce26cd6a1679d669565f55faabf32ab59f406f59e7046e80302d788ed9cc0e895f66163e031a77a46717c4bbc1327ddc4735a8ee4700239ba1e1be 5627028 fuse3_3.17.2.orig.tar.gz a0fc112536c2aefde1627fd8a7d3c3ffedc8297f16a8395ebe9d8b03096d40f743ee6403d15772d6598a08e4513a155ecc7c21214923cebcd5a7afd09988f7ec 314 fuse3_3.17.2.orig.tar.gz.asc"
   ],
   "Directory": [
     "pool/main/f/fuse3"
   ],
   "Files": [
-    "0e5ee639ed8ec3f4cd5ea9d248ec46b6 17828 fuse3_3.14.0-4.debian.tar.xz c5a68be361de597f75839ea7043e729c 2390 fuse3_3.14.0-4.dsc 2070c0f347e2304fa122d4cb0746e8a9 4351852 fuse3_3.14.0.orig.tar.xz c43df823d18a5749c9f1f5890c2438ea 1012 fuse3_3.14.0.orig.tar.xz.asc"
+    "7cccd4255dec5cebed5ad3258263010c 19440 fuse3_3.17.2-3.debian.tar.xz 86c82d4329089bef84ab2d0c7d16cc70 2428 fuse3_3.17.2-3.dsc 55c21312d50b20190807bf053a08c558 5627028 fuse3_3.17.2.orig.tar.gz b6abd43f9a8ab759615b3a8e2be75bbe 314 fuse3_3.17.2.orig.tar.gz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,12 +36,12 @@
     "fuse3"
   ],
   "Package-List": [
-    "fuse3 deb utils optional arch=linux-any fuse3-udeb udeb debian-installer optional arch=linux-any libfuse3-3 deb libs optional arch=linux-any,kfreebsd-any libfuse3-3-udeb udeb debian-installer optional arch=linux-any,kfreebsd-any profile=!noudeb libfuse3-dev deb libdevel optional arch=linux-any,kfreebsd-any"
+    "fuse deb oldlibs optional arch=all fuse3 deb utils optional arch=linux-any fuse3-udeb udeb debian-installer optional arch=linux-any libfuse3-4 deb libs optional arch=linux-any,kfreebsd-any libfuse3-4-udeb udeb debian-installer optional arch=linux-any,kfreebsd-any profile=!noudeb libfuse3-dev deb libdevel optional arch=linux-any,kfreebsd-any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Version": [
-    "3.14.0-4"
+    "3.17.2-3"
   ]
 }

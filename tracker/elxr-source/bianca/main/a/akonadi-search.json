@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libkf5akonadisearch-bin, libkf5akonadisearch-data, libkf5akonadisearch-dev, libkf5akonadisearch-plugins, libkf5akonadisearchcore5, libkf5akonadisearchdebug5, libkf5akonadisearchpim5, libkf5akonadisearchxapian5"
+    "libakonadisearch-bin, libakonadisearch-data, libakonadisearch-dev, libakonadisearch-plugins, libkpim6akonadisearchcore6, libkpim6akonadisearchdebug6, libkpim6akonadisearchpim6, libkpim6akonadisearchxapian6"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.99.0~), gettext, libkf5akonadi-dev (\u003e= 4:22.12.3~), libkf5akonadimime-dev (\u003e= 4:22.12.3~), libkf5calendarcore-dev (\u003e= 5:5.99.0~), libkf5config-dev (\u003e= 5.99.0~), libkf5contacts-dev (\u003e= 5:5.99.0~), libkf5crash-dev (\u003e= 5.99.0~), libkf5dbusaddons-dev (\u003e= 5.99.0~), libkf5i18n-dev (\u003e= 5.99.0~), libkf5kcmutils-dev (\u003e= 5.99.0~), libkf5kio-dev (\u003e= 5.99.0~), libkf5mime-dev (\u003e= 22.12.3~), libkf5runner-dev (\u003e= 5.99.0~), libxapian-dev, pkg-kde-tools (\u003e\u003e 0.15.15), qtbase5-dev (\u003e= 5.15.2~), xauth, xvfb"
+    "debhelper-compat (= 13), dh-sequence-kf6, dpkg-dev (\u003e= 1.22.5), ca-certificates, cargo:native, cmake (\u003e= 3.16~), corrosion, extra-cmake-modules (\u003e= 6.6.0~), gettext, libakonadi-dev (\u003e= 4:24.12.3~), libakonadimime-dev (\u003e= 4:24.12.3~), libkf6calendarcore-dev (\u003e= 6.6.0~), libkf6config-dev (\u003e= 6.6.0~), libkf6contacts-dev (\u003e= 6.6.0~), libkf6crash-dev (\u003e= 6.6.0~), libkf6dbusaddons-dev (\u003e= 6.6.0~), libkf6i18n-dev (\u003e= 6.6.0~), libkf6kcmutils-dev (\u003e= 6.6.0~), libkf6kio-dev (\u003e= 6.6.0~), libkf6runner-dev (\u003e= 6.6.0~), libkmime-dev (\u003e= 24.12.3~), libktextaddons-dev (\u003e= 1.5.4~), librust-cxx-1+default-dev (\u003e= 1.0.106-~~), librust-cxx-build-1+default-dev (\u003e= 1.0.106-~~), librust-html2text-0.12+default-dev, libstd-rust-dev, libxapian-dev, qt6-base-dev (\u003e= 6.7.0~), rustc:native, xauth, xvfb"
   ],
   "Checksums-Sha1": [
-    "d840d68b9ade177ab03bd5be50cb36a5b1a56a60 15856 akonadi-search_22.12.3-1.debian.tar.xz 6cd79fb9a7699a7f261e6f31ddf2a360ad034e7a 3434 akonadi-search_22.12.3-1.dsc f72892fc3aee4771878dfcc43fbc2a96b2faafdb 101448 akonadi-search_22.12.3.orig.tar.xz 492e320173a1651df65c1bcd0587dfb956da2405 833 akonadi-search_22.12.3.orig.tar.xz.asc"
+    "34bbf013aec2f102789a8d479673396b9824b635 18032 akonadi-search_24.12.3-1.debian.tar.xz a625fced0bf638b2d24a1370bdc2ba880434d44e 3746 akonadi-search_24.12.3-1.dsc 58115bf91cca12cc5b45460c038184cdf0a1f80a 113292 akonadi-search_24.12.3.orig.tar.xz b035e7296b3460eba6aa73c462afd56f09cbd936 833 akonadi-search_24.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "e6f98c7fef4819703b51fe8708550d6926c75a5603a02a35b5af160e1ed9c435 15856 akonadi-search_22.12.3-1.debian.tar.xz 3e5d83e351146d980d4a1d7af666385832e49ca658beef4dfea49edc188dbc11 3434 akonadi-search_22.12.3-1.dsc 1b579069e9de6fdd74870d8ea5b381300aad797f06179211addc15c40956e5c2 101448 akonadi-search_22.12.3.orig.tar.xz 567dbf4c8f7d6bee0fd142290efc2ca5d4e5a95049a4ba5ae05ac5fdce0f0a2e 833 akonadi-search_22.12.3.orig.tar.xz.asc"
+    "dffc9d7d3812d3bf225ef0f689f306b2ce6b50d77be0b63d73029ad783a67e4f 18032 akonadi-search_24.12.3-1.debian.tar.xz 433251fc21cc3c0417d274eba507daebf9121b5f75e6ef36db22c55d80036954 3746 akonadi-search_24.12.3-1.dsc 80ff230ef7dd37c54a0e956ded511b75674fc7ce51d0adf816cae6e3aa84d09a 113292 akonadi-search_24.12.3.orig.tar.xz 902fdb2f15c434b1a47f2f85a0befe4a8690589f21cd69b7a0d6001601419d8a 833 akonadi-search_24.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "bb6e4a538d593beda83615bc9680d414722b7c882ca9e620ee9c58b00da62a0a02e01ee37a97029a4d56410633ceaa1437f3d52b11518450a9b15b7776224519 15856 akonadi-search_22.12.3-1.debian.tar.xz a7c8ff59cd21973bf68fd2d35b3909ac8da1f284b0beca0109397a5d164c47171560735853052bf39a702906b7ab68abaa6145e108f1aa66b6c1e9ca21e974af 3434 akonadi-search_22.12.3-1.dsc ee0a602e89d706638c8d1dd37b63f23ef87f6a770b1141726bdabf40e6118a2b9ec5860f20150c1f29b3eb77a4a3c5e4cbc2c3ded514baecbe237590a2e5207b 101448 akonadi-search_22.12.3.orig.tar.xz f754d50556fc10f19d4342b66ffb8b225eb67bc2be138ba7ad4bd142c1345d6924bbaeb5c4cea6d9cf443794c067ffb21ae10c5cc56105d3ccf527a8dbda14dc 833 akonadi-search_22.12.3.orig.tar.xz.asc"
+    "3df32444484627372949ff13f3deb402a712c0e75ffe14147c3c67ac0560d93c111d33dbd5c3abd2b836d952565dbbcc0bd3d7c1182b76b67718d6b602d48535 18032 akonadi-search_24.12.3-1.debian.tar.xz a3fdbd7bd7164d56750f837f7455e627dfb22c419ed956468a8529248f7259164b61b487feb9a95249ac7dc00a31207e827fa842857d22f900bfddec2fa8988a 3746 akonadi-search_24.12.3-1.dsc 12fc5d228dc87819834790e30744eaf1145403fafa170ab395a6b1b183148493c1b2e1d7cc84797a66f086292065c7d3a24760a9b5580f89a4db7e9db6836a69 113292 akonadi-search_24.12.3.orig.tar.xz 9b121e90211f70c80ccbb372b200353dac1c5cc74476861e9d1cc29651e2d87141742f8f97ae1d7d9f3d2afa7250364b20f3418b6458e19af24c1300e8fd67d9 833 akonadi-search_24.12.3.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/a/akonadi-search"
   ],
   "Files": [
-    "4803411530495069d73e84e5c593e0c7 15856 akonadi-search_22.12.3-1.debian.tar.xz 6ba0f5feb1e8dcc7ffd021ed7d99cd92 3434 akonadi-search_22.12.3-1.dsc 2bbfe9726d285b59b474130e2190efcf 101448 akonadi-search_22.12.3.orig.tar.xz 7084750526f0df3786fa596483288670 833 akonadi-search_22.12.3.orig.tar.xz.asc"
+    "e74bd34fc487a80d8560ba9d2074dcb0 18032 akonadi-search_24.12.3-1.debian.tar.xz bf8d75bccbf25cd48c25aed74482aafb 3746 akonadi-search_24.12.3-1.dsc 2276dba2a2600415a9f0a063c469eb68 113292 akonadi-search_24.12.3.orig.tar.xz a194ad4cd33f29f86a6b510282ea7665 833 akonadi-search_24.12.3.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "akonadi-search"
   ],
   "Package-List": [
-    "libkf5akonadisearch-bin deb libs optional arch=any libkf5akonadisearch-data deb libs optional arch=all libkf5akonadisearch-dev deb libdevel optional arch=any libkf5akonadisearch-plugins deb libs optional arch=any libkf5akonadisearchcore5 deb libs optional arch=any libkf5akonadisearchdebug5 deb libs optional arch=any libkf5akonadisearchpim5 deb libs optional arch=any libkf5akonadisearchxapian5 deb libs optional arch=any"
+    "libakonadisearch-bin deb libs optional arch=any libakonadisearch-data deb libs optional arch=all libakonadisearch-dev deb libdevel optional arch=any libakonadisearch-plugins deb libs optional arch=any libkpim6akonadisearchcore6 deb libs optional arch=any libkpim6akonadisearchdebug6 deb libs optional arch=any libkpim6akonadisearchpim6 deb libs optional arch=any libkpim6akonadisearchxapian6 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
     "Sandro Knauß \u003chefee@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/akonadi-search.git"
   ],
   "Version": [
-    "4:22.12.3-1"
+    "4:24.12.3-1"
   ]
 }

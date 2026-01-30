@@ -3,25 +3,25 @@
     "any all"
   ],
   "Binary": [
-    "libev-dev, libev-libevent-dev, libev4"
+    "libev-dev, libev-libevent-dev, libev4t64"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12)"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13)"
   ],
   "Checksums-Sha1": [
-    "ffe887e122ba1cc78ace6e42a77eb017a28ddabe 5140 libev_4.33-1.debian.tar.xz f12d448f51e7976422e63480ef4f7cb8c1b10709 1963 libev_4.33-1.dsc 133587b89c34dba0b3a2d2a90ba59f6748f6c368 569527 libev_4.33.orig.tar.gz"
+    "5f03449969b8cf946bfdd5eadac40879bf670000 5360 libev_4.33-2.1.debian.tar.xz d1c4d7728886fe1d2c6fe428349c083ba922c7ac 1999 libev_4.33-2.1.dsc 133587b89c34dba0b3a2d2a90ba59f6748f6c368 569527 libev_4.33.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "3e1ee9d9427b936f46a17e2ff41c60c30f8cb642b5abfe927ee92f9da197c0b0 5140 libev_4.33-1.debian.tar.xz 5193ae6b2c2cd925f43ea1b1431f32a17f2fd94509743e0c8c05bb8d4c269521 1963 libev_4.33-1.dsc 507eb7b8d1015fbec5b935f34ebed15bf346bed04a11ab82b8eee848c4205aea 569527 libev_4.33.orig.tar.gz"
+    "88a6f144e7bdd1f728e692f15c63f997837cc05bd0be73bc811f0efddba4a11e 5360 libev_4.33-2.1.debian.tar.xz 65749703ffc449d859513590622d40080e7fbe6c02495fc3f12522f5d2844d14 1999 libev_4.33-2.1.dsc 507eb7b8d1015fbec5b935f34ebed15bf346bed04a11ab82b8eee848c4205aea 569527 libev_4.33.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "794e18a51ee49bdd596478e2db2f1cb2f33e063d38a46c0ef301024c73285e58826675df8b83e9daa5d3be213365e24a11af834a594c82a30262f4301be8e910 5140 libev_4.33-1.debian.tar.xz 78c6bf3ad4829db67452a3c409ce6ddc7b04c53c078474773dc060c33b52d66f964713605d8ab5a935584e72c207bc9a699e3380e91a9fc340d594504863f2bf 1963 libev_4.33-1.dsc c662a65360115e0b2598e3e8824cf7b33360c43a96ac9233f6b6ea2873a10102551773cad0e89e738541e75af9fd4f3e3c11cd2f251c5703aa24f193128b896b 569527 libev_4.33.orig.tar.gz"
+    "a58c4c0c8f249c64bf322f49ff9fe1a76fc5faea59a23f3cb2c0921119f18e2cf3c710198b0af4c34dade47e6a8b6dafaa5db32cda0dcf2108ac796e779fb055 5360 libev_4.33-2.1.debian.tar.xz b19c0c0c87c9c2f6a7795342acdb39767aa989fb52b7c5ac0eb7c66fa9f410dfd568ab6d3aaa01c5d7d5c62e4c8593c6b45e86e84ed5a12dbd3f0e13c2f2c280 1999 libev_4.33-2.1.dsc c662a65360115e0b2598e3e8824cf7b33360c43a96ac9233f6b6ea2873a10102551773cad0e89e738541e75af9fd4f3e3c11cd2f251c5703aa24f193128b896b 569527 libev_4.33.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libe/libev"
   ],
   "Files": [
-    "d660dfd0ff042584e27aa9ad926c7711 5140 libev_4.33-1.debian.tar.xz c3ceaf858f9042fd61b5f29be1830f24 1963 libev_4.33-1.dsc a3433f23583167081bf4acdd5b01b34f 569527 libev_4.33.orig.tar.gz"
+    "db0676d116e6a63b504b3570aaaf3c38 5360 libev_4.33-2.1.debian.tar.xz acc12523d8f5c917742814f10eb13b4a 1999 libev_4.33-2.1.dsc a3433f23583167081bf4acdd5b01b34f 569527 libev_4.33.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "libev"
   ],
   "Package-List": [
-    "libev-dev deb libdevel optional arch=any libev-libevent-dev deb libdevel optional arch=all libev4 deb libs optional arch=any"
+    "libev-dev deb libdevel optional arch=any libev-libevent-dev deb libdevel optional arch=all libev4t64 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.6.2"
   ],
   "Uploaders": [
     "Jérémy Lal \u003ckapouer@melix.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/libev.git"
   ],
   "Version": [
-    "1:4.33-1"
+    "1:4.33-2.1"
   ]
 }

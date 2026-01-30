@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "librust-libc-dev, librust-libc+rustc-dep-of-std-dev, librust-libc+rustc-std-workspace-core-dev"
+    "librust-libc-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.63) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, dpkg-dev (\u003e= 1.22.5) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "9e577bb9db722d7c230e412a49bf73372767ea83 3828 rust-libc_0.2.139-1.debian.tar.xz 8cf6390343025fc9eb35878e0ca653736f57023f 2414 rust-libc_0.2.139-1.dsc 1ab85b202d98cdcf259a195489d70af730f404e0 638983 rust-libc_0.2.139.orig.tar.gz"
+    "e9cc67b1037e2c603d7aaafac606f351e09a061a 15564 rust-libc_0.2.169-1.debian.tar.xz 6ff3c8cfd70fb538d0a9cf214570bd2ab3c8635e 2264 rust-libc_0.2.169-1.dsc abe7add8eb1664e427d43ed08c6beb0ee34f63c6 757901 rust-libc_0.2.169.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "0bb205bc65da9c7460918958d54e47e691621e6188e2c756642894b818f8eacd 3828 rust-libc_0.2.139-1.debian.tar.xz 47adc4269f2d08c6c482607e997e1d1a4481552a1b0b96de9e8615c0b250ea02 2414 rust-libc_0.2.139-1.dsc 201de327520df007757c1f0adce6e827fe8562fbc28bfd9c15571c66ca1f5f79 638983 rust-libc_0.2.139.orig.tar.gz"
+    "adc6f54c3a72cc78de01a0e5dd9f881f45aad3f00d300dcbe0b9136356657968 15564 rust-libc_0.2.169-1.debian.tar.xz 1f564d0213b8455557f241f8d2530b76e43f1654085adaa6118b958e7db29333 2264 rust-libc_0.2.169-1.dsc b5aba8db14291edd000dfcc4d620c7ebfb122c613afb886ca8803fa4e128a20a 757901 rust-libc_0.2.169.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "7ea6029b2b7701457249ae7559bf0ac78e0856e683981b71f5b62d7255245c57c903bcb6d902af4cce155a90b15a2e9b67bbd6540bc4e303bc50060d8fdf822f 3828 rust-libc_0.2.139-1.debian.tar.xz 2cb8b624b65b5e27e214184b7e05df853f22d42bee459382ff92b4b9dcc4be607158bf46546b5a8b006f69f602917205978d2e43b743bfa5bf95a5085234bd7d 2414 rust-libc_0.2.139-1.dsc ff5fae517c49c382dee9b1d7479b65b0a818780453e5c00c416847d02f42186e2fcf19a8a8dc5e9cc2611300690c6ad324f9c0f0e8172e913a1b781fb7c0b5b4 638983 rust-libc_0.2.139.orig.tar.gz"
+    "4a461adc2c179c15d685792ae0585dce1fd90847f25a939793cf4db823adf859f02bf88effc75c8aece00963e565cfcbf9641528794da2153ebf80f1f174bb14 15564 rust-libc_0.2.169-1.debian.tar.xz d83992f57733799d409f43e9d5784e3d7d206933f35b2b235a6a74872ecd0a869eec3427986ce0d89e01900d50d75bb1cec0358186e0c21489a0a1f800c0d906 2264 rust-libc_0.2.169-1.dsc c4566330a7967efc211edf31a23647d1a33aa51fc25aa4e9337716748c8fd4be0ae63679220ff2cf6e892f37d03bc5264c55e8f082eb82574a6ec1fa8e5e45ce 757901 rust-libc_0.2.169.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/r/rust-libc"
   ],
   "Files": [
-    "d9d3c6224637f5ab2259ff956fa53091 3828 rust-libc_0.2.139-1.debian.tar.xz 25683e887024f9f8eae935b48734fd26 2414 rust-libc_0.2.139-1.dsc 2f4991ee29e75b732dbfbbe637506066 638983 rust-libc_0.2.139.orig.tar.gz"
+    "66f7d66db163d5bc0450eaa58e2a1ff3 15564 rust-libc_0.2.169-1.debian.tar.xz f12dc69f0029c2b5832b7319e5d030b4 2264 rust-libc_0.2.169-1.dsc 3642745840be485f7de1ecfe80044007 757901 rust-libc_0.2.169.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,16 +36,16 @@
     "rust-libc"
   ],
   "Package-List": [
-    "librust-libc+rustc-dep-of-std-dev deb rust optional arch=any librust-libc+rustc-std-workspace-core-dev deb rust optional arch=any librust-libc-dev deb rust optional arch=any"
+    "librust-libc-dev deb rust optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo"
+    "dh-cargo, rustc"
   ],
   "Uploaders": [
     "Ximin Luo \u003cinfinity0@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/libc]"
   ],
   "Version": [
-    "0.2.139-1"
+    "0.2.169-1"
   ]
 }

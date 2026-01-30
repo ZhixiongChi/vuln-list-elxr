@@ -6,25 +6,25 @@
     "python-amqp-doc, python3-amqp"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools"
   ],
   "Build-Depends-Indep": [
-    "libjs-jquery, python3-case \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-rerunfailures \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-celery \u003c!nodoc\u003e, python3-vine \u003c!nocheck\u003e"
+    "libjs-jquery, python3-pytest \u003c!nocheck\u003e, python3-pytest-rerunfailures \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-celery \u003c!nodoc\u003e, python3-vine \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "9d839fc9421102f261a15c3e9981e99600d91c1f 9740 python-amqp_5.1.1-1.debian.tar.xz 08aeec7f11fe3d2712cc6d7e0cd70e86249f06a1 2111 python-amqp_5.1.1-1.dsc fb637b5656855576e7e10bbce4556df27a2c3742 127869 python-amqp_5.1.1.orig.tar.gz"
+    "1f269da6ddde95e104a70975a49b5356ee4a0831 9904 python-amqp_5.3.1-2.debian.tar.xz f8bef31645f70c9b6f895fb7b5aa9263f1365759 2523 python-amqp_5.3.1-2.dsc b913b92e0e54e805cb2e9f2dc4bc39c9eb375215 129013 python-amqp_5.3.1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "bee5286ab3193a16ff1fb697c9d1836bd76010a851f4d30026bd556fcde45785 9740 python-amqp_5.1.1-1.debian.tar.xz e63733a4c928e5ce95a9d7a272c6d62318ab5a07fdbf4c3b5647569a5140884d 2111 python-amqp_5.1.1-1.dsc 2c1b13fecc0893e946c65cbd5f36427861cffa4ea2201d8f6fca22e2a373b5e2 127869 python-amqp_5.1.1.orig.tar.gz"
+    "fe91861185cbd49c87da1fb28cd4115c539627a8c7b0e025e2627e37782736ab 9904 python-amqp_5.3.1-2.debian.tar.xz 2bab6e6ed1f8edfe1dfc72b977927190f0aba08bc7b2107d46b2e96fe8fa2e0d 2523 python-amqp_5.3.1-2.dsc cddc00c725449522023bad949f70fff7b48f0b1ade74d170a6f10ab044739432 129013 python-amqp_5.3.1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "44740379c5651b651618d27528c88c4959c922fb9c03452f082ac2e04e5556aed9ff9b3dad32571ed65f26c69d819f33013eb75f229da5a192027868713499d1 9740 python-amqp_5.1.1-1.debian.tar.xz f4ee65184cd2c0c84a104b26e95313b4b0f1db85434a7f27062417ab7b000e1281060c92994bdedfcd188f48be23b862d264c17f9ea7d285d022e3fc7a162c9f 2111 python-amqp_5.1.1-1.dsc f549a85e4f04543dd8e844edb68350ca185de9259aa896af31ae5ee5dfdfe73f904d95821c403dc797c7f3ada17ce6bff4e0fd9fcdf2abc1b33a94d079f99179 127869 python-amqp_5.1.1.orig.tar.gz"
+    "4db4c91b2add721916c241f594dec959092057f72e478916f5cfa80119a546e82c40897c2f47d4466c8dac6defe8e650c77c277f26fdba48c6e8db4fe5b14005 9904 python-amqp_5.3.1-2.debian.tar.xz 61288aa23d3305656d9da28d3a924e68ca94aaa9fa070b59dee4ca4defac6cc5828a58d4914e4d4d19ea20643d26c170412c467f2c25820ae039e93acba25e1f 2523 python-amqp_5.3.1-2.dsc 4701ee40a6a88738ab2bb199114512af85f722afb99e2ee1d18c48563ceb6f925052315c5ca289e36db5d02aa72412b798442fd6c2f623d10a0ac43af3c2eca8 129013 python-amqp_5.3.1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/p/python-amqp"
   ],
   "Files": [
-    "8aaabe854765716300866e682a4a3ff5 9740 python-amqp_5.1.1-1.debian.tar.xz aee42bb1c2b1ef8148a7a72b161cd711 2111 python-amqp_5.1.1-1.dsc 03bc34c959c522e910bec209f3c77b59 127869 python-amqp_5.1.1.orig.tar.gz"
+    "192a4dbc37726efd95aa5522b22fcd6a 9904 python-amqp_5.3.1-2.debian.tar.xz d3bd3076d948300951b6e0af539d3c51 2523 python-amqp_5.3.1-2.dsc 6f23f380ba02c1dbdc035f5f90c31475 129013 python-amqp_5.3.1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,13 @@
     "python-amqp-doc deb doc optional arch=all profile=!nodoc python3-amqp deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.1.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "@builddeps@, python3-all"
+    "python3-all, python3-pytest, python3-pytest-rerunfailures"
   ],
   "Uploaders": [
     "Michael Fladischer \u003cfladi@debian.org\u003e, Thomas Goirand \u003czigo@debian.org\u003e, Brian May \u003cbam@debian.org\u003e, Christopher Hoskin \u003cmans0954@debian.org\u003e,"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/python-amqp.git"
   ],
   "Version": [
-    "5.1.1-1"
+    "5.3.1-2"
   ]
 }

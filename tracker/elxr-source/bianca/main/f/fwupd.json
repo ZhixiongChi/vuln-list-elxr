@@ -3,28 +3,28 @@
     "linux-any all"
   ],
   "Binary": [
-    "libfwupd2, fwupd, fwupd-tests, fwupd-doc, libfwupd-dev, gir1.2-fwupd-2.0"
+    "libfwupd3, fwupd, fwupd-tests, fwupd-doc, libfwupd-dev, gir1.2-fwupd-2.0"
   ],
   "Build-Depends": [
-    "bash-completion, debhelper (\u003e= 12), dh-strip-nondeterminism, fontconfig, fonts-noto, fwupd-unsigned-dev [amd64 arm64 armhf i386], gcab, gettext (\u003e= 0.19.8.1), gir1.2-pango-1.0, gnu-efi [amd64 arm64 armhf i386], gnutls-bin, gnutls-dev, gobject-introspection, libarchive-dev, libcairo-dev, libcairo-gobject2, libcbor-dev, libcurl4-gnutls-dev, libefiboot-dev [amd64 arm64 armhf i386], libefivar-dev [amd64 arm64 armhf i386], libjaylink-dev [!ia64], libflashrom-dev [!ia64], libfreetype6-dev, libftdi1-dev, libgcab-dev, libgirepository1.0-dev, libglib2.0-dev (\u003e= 2.45.8), libgudev-1.0-dev, libgusb-dev (\u003e= 0.3.5), libjcat-dev, libjson-glib-dev (\u003e= 1.1.1), liblzma-dev, libmbim-glib-dev, libmm-glib-dev, libpci-dev, libpolkit-gobject-1-dev, libprotobuf-c-dev, libqmi-glib-dev, libqrtr-glib-dev, libsmbios-dev [i386 amd64], libsqlite3-dev, libsystemd-dev, libtool-bin, libtss2-dev, libxmlb-dev (\u003e= 0.1.13), locales, meson, mingw-w64-tools [amd64 arm64 armhf i386], pandoc, pkg-config, policykit-1 (\u003e\u003e 0.105-14), protobuf-c-compiler, python3-gi-cairo, python3-jinja2, python3-packaging, python3-requests, python3-toml, python3-typogrify, shared-mime-info, systemd (\u003e= 231), udev, umockdev, valac, valgrind [!ia64 !riscv64 !x32 !mips !sparc64 !sh4 !ppc64 !powerpcspe !hppa !alpha !mips64el !armhf !armel !mipsel !m68k]"
+    "bash-completion, debhelper (\u003e= 12), dh-strip-nondeterminism, fontconfig, fonts-noto, fwupd-unsigned-dev [amd64 arm64 armhf i386], gettext (\u003e= 0.19.8.1), gir1.2-pango-1.0, gnu-efi [amd64 arm64 armhf i386], gnutls-bin, gnutls-dev, gobject-introspection, hwdata, libarchive-dev, libcairo-dev, libcairo-gobject2, libcbor-dev, libcurl4-gnutls-dev, libdrm-dev, libflashrom-dev [!ia64], libfreetype-dev, libftdi1-dev, libgirepository1.0-dev, libglib2.0-dev (\u003e= 2.45.8), libjaylink-dev [!ia64], libjcat-dev, libjson-glib-dev (\u003e= 1.1.1), liblzma-dev, libmbim-glib-dev, libmm-glib-dev, libpci-dev, libpolkit-gobject-1-dev, libprotobuf-c-dev, libqmi-glib-dev, libqrtr-glib-dev, libsqlite3-dev, libsystemd-dev, libtss2-dev, libusb-1.0-0-dev, libxmlb-dev (\u003e= 0.3.22), libzstd-dev, locales, meson, mingw-w64-tools [amd64 arm64 armhf i386], pkgconf, polkitd, protobuf-c-compiler, python3-gi-cairo, python3-jinja2, python3-packaging, python3-pefile, python3-requests, python3-toml, python3-typogrify, shared-mime-info, systemd-dev, udev, umockdev, valac, valgrind-if-available"
   ],
   "Build-Depends-Indep": [
-    "gi-docgen \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e"
+    "gi-docgen \u003c!nodoc\u003e"
   ],
   "Checksums-Sha1": [
-    "461fd204cece86198ccf0e84b8ffb3ba70d51c6a 27368 fwupd_1.8.12-2.debian.tar.xz 5d689e2a58e1541bb5297416ef75df6beef689c6 3714 fwupd_1.8.12-2.dsc d8fd464796e930add93332c3bb7104b72aed8188 4575175 fwupd_1.8.12.orig.tar.gz"
+    "9d2fcb6ce10b7c78e5cc71a44d77a867ed68325e 33072 fwupd_2.0.8-3.debian.tar.xz 072538fd86f0c1c82821c73acce89b95d4e373b8 3430 fwupd_2.0.8-3.dsc 72a37ef2fb26e1334e73de2a247eb930e26500bb 6353050 fwupd_2.0.8.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "81df00b231db42622667b5fe53fca72488698a1c0e2b09b8fa325c343d525ea3 27368 fwupd_1.8.12-2.debian.tar.xz 97ee0c85eb21d57b4f706d6fffcb97f07140fbe6d1a7eac265da3ca52a6a474d 3714 fwupd_1.8.12-2.dsc ea130ef9fe934350f6e8749f1d5a7aa461432b3402a9edb9ecd87aada880da1e 4575175 fwupd_1.8.12.orig.tar.gz"
+    "77f6ad2dc0cc54a4bc621a5ce8e967c5c3daefa851f340e8456f220431ca80f8 33072 fwupd_2.0.8-3.debian.tar.xz d8cbac3a23389e3b56a3473af3a42d7e543e61a3f9c44c6c921bfbd533d34718 3430 fwupd_2.0.8-3.dsc 354f2e217a5e87bb153815268430d7407c59a27f56acbfa8a3c7f34e6c5fd2da 6353050 fwupd_2.0.8.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "b8419df7b20254ed5994f22a35319dd119be7c5e087af47977a5f510ae1c70c81682d5c9f2c09e3ae8621631259ef0392a4abf5fb2a54e5c23f0e4d6bdcfb9d3 27368 fwupd_1.8.12-2.debian.tar.xz 51c1c69ddb81d11e535d01234e157a13f60254f653886bdc0ee3ba6f17c1a60074eee47ded30000b5ba86bff9614893bc10fd67f3381724435b6de31c96658bc 3714 fwupd_1.8.12-2.dsc 59f45bcc8adac8b1bea047da98c61f4688ffd1d95d6bd579632224f63c365c4bfbab7ee8a7f2163e7b4f7b0d1769008a7cde6c61e39c7e5913e263e722d3ac86 4575175 fwupd_1.8.12.orig.tar.gz"
+    "e9708e8ee8dc2ac325a04ca418c667e50629daabf564e5cf9488b7bb311ca2b2bf794f5466fc7e61cfaae8c448fe17c44d7cbb1575f7267857ded7fda1a50f79 33072 fwupd_2.0.8-3.debian.tar.xz 64a98004477240f7bf06bfa64c5cdb931e2716b6deea9292dae9a8f7f47e9a7851c666147aed0a15e20369d7d4524af96ffbc926605f43436160ec247fe22328 3430 fwupd_2.0.8-3.dsc 1aac7672047256401c562b4cee26c6b09103618a0873ca0f6e51a0716ccf49ee82db8326abebe79e80c3f3d50d0a34f7f5c9e86e579ec66578d04993f829e3c9 6353050 fwupd_2.0.8.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/f/fwupd"
   ],
   "Files": [
-    "33ef68c9c88c25b1120e970dd7763ba5 27368 fwupd_1.8.12-2.debian.tar.xz 8964b98579d26d0f54bc92b278eeba41 3714 fwupd_1.8.12-2.dsc f743c395948e2f201c3bbbec073a1b81 4575175 fwupd_1.8.12.orig.tar.gz"
+    "a3be7985c98a6390c82e957e49e242ee 33072 fwupd_2.0.8-3.debian.tar.xz ecad4c88566fd85d65eca6d145e3cf0a 3430 fwupd_2.0.8-3.dsc 70cc603d6f77336f56243fbf9e0f8be9 6353050 fwupd_2.0.8.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "fwupd"
   ],
   "Package-List": [
-    "fwupd deb admin optional arch=linux-any fwupd-doc deb doc optional arch=all profile=!nodoc fwupd-tests deb admin optional arch=linux-any gir1.2-fwupd-2.0 deb introspection optional arch=linux-any libfwupd-dev deb libdevel optional arch=linux-any libfwupd2 deb libs optional arch=linux-any"
+    "fwupd deb admin optional arch=linux-any fwupd-doc deb doc optional arch=all profile=!nodoc fwupd-tests deb admin optional arch=linux-any gir1.2-fwupd-2.0 deb introspection optional arch=linux-any libfwupd-dev deb libdevel optional arch=linux-any libfwupd3 deb libs optional arch=linux-any"
   ],
   "Standards-Version": [
-    "4.6.0.1"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/efi-team/fwupd.git"
   ],
   "Version": [
-    "1.8.12-2"
+    "2.0.8-3"
   ]
 }

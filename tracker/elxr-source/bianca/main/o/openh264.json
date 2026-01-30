@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libopenh264-dev, libopenh264-7, libopenh264-cisco7"
+    "libopenh264-dev, libopenh264-8, libopenh264-cisco8"
   ],
   "Build-Depends": [
     "debhelper-compat (= 13), nasm [any-amd64 any-i386]"
   ],
   "Checksums-Sha1": [
-    "e083574ee09103fa1e17fed6d6f7a590de420249 8536 openh264_2.3.1+dfsg-3+deb12u2.debian.tar.xz 949ac4cc0826e70497d42b73fe0994040bb29495 1925 openh264_2.3.1+dfsg-3+deb12u2.dsc ab2eefd5fdd72b90b0b62187c9980844e0adf316 898216 openh264_2.3.1+dfsg.orig.tar.xz"
+    "cadb5ff403908e354668ec9eb53cd856c867df40 8132 openh264_2.6.0+dfsg-2.debian.tar.xz 2936bdc01184b72ec71807b29ec0d1cb45ad3d46 1971 openh264_2.6.0+dfsg-2.dsc 4541f8dacc9c1561a662fb046840d751b944ed45 905728 openh264_2.6.0+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "8d749166ec936dd757eed56a3157167bee5ab95511d5726cc2d87ffca2069bb0 8536 openh264_2.3.1+dfsg-3+deb12u2.debian.tar.xz ab0232d6f1cba01441fde3785a50923839a99bd9ce7abbe8d377e282a72315c8 1925 openh264_2.3.1+dfsg-3+deb12u2.dsc 87124d0eb5d86ea78c59bab916ecdc3d9dfa752ce6bf73a609bbb98db7d96383 898216 openh264_2.3.1+dfsg.orig.tar.xz"
+    "9d57036c560394682df042748f419a43452447ae5bb2059003b7a9faef24af04 8132 openh264_2.6.0+dfsg-2.debian.tar.xz 65320b4c8cd6c56626effe323037dad1b2fc68985f4761a5eefb5441f19750b3 1971 openh264_2.6.0+dfsg-2.dsc 52fc65775e03abe70f3f453c3c57fa7b31c71fe240de84da53d75f2ddc7dd519 905728 openh264_2.6.0+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "8fd5ae8671473df54cd776811f5882a6e7e134d77cfe158488d3adbad48b33ebe11ff577534e0c0f53d263a01d99eef1873fa6fcfd894255c418bde48adb2f2d 8536 openh264_2.3.1+dfsg-3+deb12u2.debian.tar.xz cbfd166bf26f37a305824583c03e55ad60a075cf2adb576a6470ad39e9a6faf02c584e35ddbe8446c9a31e39e66289169b02f8bbdce3aa324884460a6600ed86 1925 openh264_2.3.1+dfsg-3+deb12u2.dsc 924b7129e3894fab6ae4092c502237c28c47484b77e5e54abf10d2616c9c7daa762afc09a6a771a0148cddac499ba5f6dd73b43469e7722b8a97208841f18553 898216 openh264_2.3.1+dfsg.orig.tar.xz"
+    "5f270540ba16d7aada1dffaae73b1f9f13687418df3a58fcfafb122bbab73136332e0c01989edfef575afc607c90ce8ecef5508196ac62997f04b431a52bdd04 8132 openh264_2.6.0+dfsg-2.debian.tar.xz 029019f7af56458e6815aec468d76d19d46faadc6d48640450f65c39069b807c20779049583b335d6fe527a575133794d84deb1784ae880097e19bbbea846cab 1971 openh264_2.6.0+dfsg-2.dsc 05474537fab83c615bb5f382be6cfee71d43cb4e64269b21d6fd4f3ae93c0db2e9ce9257c50ba64b9ca2c62ab34eefdbf2295ec97e9d7f53bf6b8d86052e3357 905728 openh264_2.6.0+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/o/openh264"
   ],
   "Files": [
-    "abf4903010abe362e33e6a6e75b3500b 8536 openh264_2.3.1+dfsg-3+deb12u2.debian.tar.xz 8c154e56747a8882798c415c61d27577 1925 openh264_2.3.1+dfsg-3+deb12u2.dsc b42f98870e698c0545c7e4e599f68e6b 898216 openh264_2.3.1+dfsg.orig.tar.xz"
+    "6d70ddfe402ba37fe71778baf2ea1d38 8132 openh264_2.6.0+dfsg-2.debian.tar.xz d0717523932ec949fe9ddd5ea04ad5aa 1971 openh264_2.6.0+dfsg-2.dsc 11b16b886e0a8a4636bfb27258981d63 905728 openh264_2.6.0+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,16 +30,19 @@
     "https://www.openh264.org"
   ],
   "Maintainer": [
-    "Bastian Germann \u003cbage@debian.org\u003e"
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
   ],
   "Package": [
     "openh264"
   ],
   "Package-List": [
-    "libopenh264-7 deb libs optional arch=any libopenh264-cisco7 deb contrib/libs optional arch=i386,amd64,arm64,armhf libopenh264-dev deb libdevel optional arch=any"
+    "libopenh264-8 deb libs optional arch=any libopenh264-cisco8 deb contrib/libs optional arch=i386,amd64,arm64,armhf libopenh264-dev deb libdevel optional arch=any"
   ],
   "Standards-Version": [
     "4.6.0"
+  ],
+  "Uploaders": [
+    "Bastian Germann \u003cbage@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/openh264"
@@ -48,6 +51,6 @@
     "https://salsa.debian.org/debian/openh264.git"
   ],
   "Version": [
-    "2.3.1+dfsg-3+deb12u2"
+    "2.6.0+dfsg-2"
   ]
 }

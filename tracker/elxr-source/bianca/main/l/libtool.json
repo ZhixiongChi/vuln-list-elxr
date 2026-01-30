@@ -9,22 +9,22 @@
     "automake1.9, gcj-jdk"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), file, gfortran | fortran95-compiler, automake (\u003e= 1:1.14.1-3), autoconf (\u003e= 2.69-7), help2man, texinfo, zlib1g-dev, gnulib, libltdl-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), file, gfortran | fortran95-compiler, automake (\u003e= 1:1.14.1-3), autoconf (\u003e= 2.69-7), help2man, texinfo, zlib1g-dev, gnulib"
   ],
   "Checksums-Sha1": [
-    "66bc345cd1d47f6b081091b98973f2658c3ff24e 41016 libtool_2.4.7-7~deb12u1.debian.tar.xz a6cd16cd9029c360d22fb0800bf36eec6c3b7d4e 2314 libtool_2.4.7-7~deb12u1.dsc 9700ae6b81dc97ca00ba5c44fd063a24c1dca070 1026028 libtool_2.4.7.orig.tar.xz"
+    "4c0011842fc1d8b8dac29487b965ca3ad7d6285a 37504 libtool_2.5.4-4.debian.tar.xz 95a195933f218b91cd22fe2ddfe82a9aa33e921f 2232 libtool_2.5.4-4.dsc 655cf056bd161ca022523abdfc0111d6100477f1 1069572 libtool_2.5.4.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "c9e5cb0a64b0d02976bcb02b554a565fbdc5da9aef036ecd66328d6230843dda 41016 libtool_2.4.7-7~deb12u1.debian.tar.xz 4285486d14795acbc423442e183c976625f7d481ac0ec3a0ec1ff800046310c4 2314 libtool_2.4.7-7~deb12u1.dsc dd637e270439b208907ceead3f163470ed2ce5723ef97ffbda6463c64b57128a 1026028 libtool_2.4.7.orig.tar.xz"
+    "93e8e286db1322a4f17e3120654ec2664a721e6684c017cb37d471daeb380f8e 37504 libtool_2.5.4-4.debian.tar.xz 37d98d7c45d1c12c0b7bd55fb6a90fa05aff8aa9ab2bbd9617ce7a6233b1965e 2232 libtool_2.5.4-4.dsc d9189031edeaa6aa74695b2aeb80a8c26df50b29d8b72c991667e01adecea42c 1069572 libtool_2.5.4.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "2519714ab8968a6beac71fa0c6144cc20b2e8152b7f681770ac9258bb52504940d1edb69a8cea792c42b8a64a2219ef5f614e83bc3c790795f0db59f65060171 41016 libtool_2.4.7-7~deb12u1.debian.tar.xz 7d57de4ae8dafc33f6c41b1f25d6f4c554f97121a65d1ce925692c0200508a31febc901b0ca0fc0e9c5fae4003502e4291cc95cc7390ae5cb0d7644213f80f6f 2314 libtool_2.4.7-7~deb12u1.dsc 424f4549aa713917859dc31e62153934c67b8b9d5718452f0e50bb8f6ef48ae6274cc4d4ddd905b15858d19c60daf8c194471e6ed0c8f76e7d55e7ef932a8d3a 1026028 libtool_2.4.7.orig.tar.xz"
+    "7de009c8737c8d90e648102e95dd73464f6ed4d14fbe9bb8566bd0b44b00205b2350dce2c13378125bc6a209980f2a036fdfe25f7a4b883fc2bff63b0b10eddd 37504 libtool_2.5.4-4.debian.tar.xz ad43301bed7e3f4b4cd1d71dac22d30ae9bfdbf4324d43ac8822c73e3848c3ec61b81de534903a2e5d9c2e8e7968a0c8eb52e5900927283162b2e05fc97118f3 2232 libtool_2.5.4-4.dsc c8ff1fc71373313185ecfff8d282bf3547b8a2d2e102aa4475d7db4945d4f4bfd45cd0d79a8e00a1c1394246908e586f8ccfd9f1cf86ff837b5c6ad7cc57a750 1069572 libtool_2.5.4.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libt/libtool"
   ],
   "Files": [
-    "c40bc74f5d89a4f84cd403b574f2c287 41016 libtool_2.4.7-7~deb12u1.debian.tar.xz f316573efa903a845d26348f27a47ef0 2314 libtool_2.4.7-7~deb12u1.dsc 8d5260fed7d8f9bb6aac3999d43e8d92 1026028 libtool_2.4.7.orig.tar.xz"
+    "2426c0c2bc659757a15e9b107134804e 37504 libtool_2.5.4-4.debian.tar.xz 1d8a0bbc0a4a29bbfa8554c6500d02f1 2232 libtool_2.5.4-4.dsc 16c94892ca5cf6eec33264f626260224 1069572 libtool_2.5.4.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,15 +42,15 @@
     "libltdl-dev deb libdevel optional arch=any libltdl7 deb libs optional arch=any libtool deb devel optional arch=all libtool-bin deb devel optional arch=any libtool-doc deb doc optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org:/mckinstry/libtool.git"
+    "https://salsa.debian.org/mckinstry/libtool.git"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org:/mckinstry/libtool.git -b debian/latest"
+    "https://salsa.debian.org/mckinstry/libtool.git -b debian/latest"
   ],
   "Version": [
-    "2.4.7-7~deb12u1"
+    "2.5.4-4"
   ]
 }

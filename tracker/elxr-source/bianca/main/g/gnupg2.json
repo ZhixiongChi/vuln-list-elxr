@@ -3,28 +3,28 @@
     "any all"
   ],
   "Binary": [
-    "gpgconf, gnupg-agent, gpg-agent, gpg-wks-server, gpg-wks-client, scdaemon, gpgsm, gpg, gnupg, gnupg2, gpgv, gpgv2, dirmngr, gpgv-udeb, gpgv-static, gpgv-win32, gnupg-l10n, gnupg-utils"
+    "gpgconf, gnupg-agent, gpg-agent, gpg-wks-server, gpg-wks-client, scdaemon, gpgsm, gpg, gnupg, gnupg2, gpgv, dirmngr, tpm2daemon, gpgv-udeb, gpgv-static, gpgv-win32, gnupg-l10n, gnupg-utils"
   ],
   "Build-Depends": [
-    "automake, autopoint, debhelper-compat (= 13), file, gettext, ghostscript, gpgrt-tools, imagemagick, libassuan-dev (\u003e= 2.5.0), libbz2-dev, libcurl4-gnutls-dev, libgcrypt20-dev (\u003e= 1.8.0), libgnutls28-dev (\u003e= 3.0), libgpg-error-dev (\u003e= 1.35), libksba-dev (\u003e= 1.3.5), libldap2-dev, libnpth0-dev (\u003e= 1.2), libreadline-dev, libsqlite3-dev, libusb-1.0-0-dev [!hurd-any], openssh-client \u003c!nocheck\u003e, pkg-config, texinfo, transfig, zlib1g-dev | libz-dev"
+    "debhelper-compat (= 13), dh-sequence-builtusing, automake, autopoint, fig2dev \u003c!nodoc\u003e, file, gettext, ghostscript \u003c!nodoc\u003e, gpgrt-tools, imagemagick (\u003e= 0.1) \u003c!nodoc\u003e, libassuan-dev (\u003e= 2.5.0), libbz2-dev, libgcrypt20-dev (\u003e= 1.9.1), libgnutls28-dev (\u003e= 3.2), libgpg-error-dev (\u003e= 1.46), libksba-dev (\u003e= 1.6.3), libldap2-dev \u003c!pkg.gnupg2.gpgvonly\u003e, libnpth0-dev (\u003e= 1.2), libreadline-dev \u003c!pkg.gnupg2.gpgvonly\u003e, librsvg2-bin \u003c!nodoc\u003e, libsqlite3-dev \u003c!pkg.gnupg2.gpgvonly\u003e, libtss2-dev \u003c!pkg.gnupg2.gpgvonly\u003e, libusb-1.0-0-dev [!hurd-any] \u003c!pkg.gnupg2.gpgvonly\u003e, openssh-client \u003c!nocheck !pkg.gnupg2.gpgvonly\u003e, pkgconf, swtpm [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x] \u003c!nocheck !pkg.gnupg2.gpgvonly\u003e, texinfo \u003c!nodoc\u003e, unicode-data, zlib1g-dev | libz-dev"
   ],
   "Build-Depends-Indep": [
-    "binutils-multiarch [!amd64 !i386], libassuan-mingw-w64-dev (\u003e= 2.5.0), libgcrypt-mingw-w64-dev (\u003e= 1.8.0), libgpg-error-mingw-w64-dev (\u003e= 1.45), libksba-mingw-w64-dev (\u003e= 1.3.5), libnpth-mingw-w64-dev (\u003e= 1.2), libz-mingw-w64-dev, mingw-w64"
+    "binutils-multiarch [!amd64 !i386] \u003c!pkg.gnupg2.gpgvonly\u003e, libassuan-mingw-w64-dev (\u003e= 2.5.0) \u003c!pkg.gnupg2.gpgvonly\u003e, libgcrypt-mingw-w64-dev (\u003e= 1.9.1) \u003c!pkg.gnupg2.gpgvonly\u003e, libgpg-error-mingw-w64-dev (\u003e= 1.50-4~) \u003c!pkg.gnupg2.gpgvonly\u003e, libksba-mingw-w64-dev (\u003e= 1.6.3) \u003c!pkg.gnupg2.gpgvonly\u003e, libnpth-mingw-w64-dev (\u003e= 1.2) \u003c!pkg.gnupg2.gpgvonly\u003e, libz-mingw-w64-dev \u003c!pkg.gnupg2.gpgvonly\u003e, mingw-w64 \u003c!pkg.gnupg2.gpgvonly\u003e"
   ],
   "Checksums-Sha1": [
-    "5c3d1476b85b7524d4786bcb0a3d5df4868f182a 67520 gnupg2_2.2.40-1.1+deb12u2.debian.tar.xz 99676c3caa7a43dd4f1973aee978edab13ad914e 3364 gnupg2_2.2.40-1.1+deb12u2.dsc 2a8b52d08cc78e4ebeb07ec2fc8d95e290a3c4a7 7301631 gnupg2_2.2.40.orig.tar.bz2 d64fe865fc529a867d3f94404a8ce3987a7a1ada 228 gnupg2_2.2.40.orig.tar.bz2.asc"
+    "0b53a1ba3ba2f246bc24287841b89f85d9636aa6 131264 gnupg2_2.4.7-21+deb13u1.debian.tar.xz c12b0da813d757e0fe40fdb89c2cda16d2b94b21 4933 gnupg2_2.4.7-21+deb13u1.dsc 2d510a1a7294f2f9ef3f2e280c93c3ad9b0cdb68 8010244 gnupg2_2.4.7.orig.tar.bz2 7453e18066fa028a1daafc2d9924453c17665452 390 gnupg2_2.4.7.orig.tar.bz2.asc"
   ],
   "Checksums-Sha256": [
-    "398ad74f63d81edd9365df97129d05061829599bf50e72824576e1dda23fbe62 67520 gnupg2_2.2.40-1.1+deb12u2.debian.tar.xz 2424239219b00265dd99c5a2c5f9d50f9cafc15f0945946bb16ac1a50ec38310 3364 gnupg2_2.2.40-1.1+deb12u2.dsc 1164b29a75e8ab93ea15033300149e1872a7ef6bdda3d7c78229a735f8204c28 7301631 gnupg2_2.2.40.orig.tar.bz2 3907dc165299cd53c0b4aec862323c3bce6037c411600ec87dc5eed7a55eba4a 228 gnupg2_2.2.40.orig.tar.bz2.asc"
+    "3941a8a537e258f6216ad1c1b9ecb255dfc286e5d03eb39805e536de4a448856 131264 gnupg2_2.4.7-21+deb13u1.debian.tar.xz 30a96cd2d26a57f6796507bf8f083825734d4081e3c5f922d2b99bb2bf671212 4933 gnupg2_2.4.7-21+deb13u1.dsc 7b24706e4da7e0e3b06ca068231027401f238102c41c909631349dcc3b85eb46 8010244 gnupg2_2.4.7.orig.tar.bz2 cec7da75dab60e3e2f6bf92ed1174126a1e5a1cc5e448f9e004a23be2dd227f6 390 gnupg2_2.4.7.orig.tar.bz2.asc"
   ],
   "Checksums-Sha512": [
-    "6908a77c4f49c277caee40ebbe962b1c1162475c78cb3556d8c1c34b4259e5381a47090b80b24f38e06443cb430921628bcc82aa3786ad7fc4410f82417ea5e6 67520 gnupg2_2.2.40-1.1+deb12u2.debian.tar.xz e848956b50302cd9d1f98cee17734913a8eccd323150dad080ac9cbb1d20b9e6892388cadc19b87dea1afff920228a634881f001eb8d0a76309159b6eb4da92b 3364 gnupg2_2.2.40-1.1+deb12u2.dsc 4c2f5fbf37ba6fbad0045aad23129186963010c673ea0b81801adc4f98efe14d6c7228e22815b6b26307c1fe5bb51cd088aa6a0f06a9325d3c021849ef81c594 7301631 gnupg2_2.2.40.orig.tar.bz2 50e8abae322430bf4d3230d0291ca519663a1397fe0d0b8df29076808504b5fea2b984952d6dc51ecc239c12af8ecd5d93b88dd1c6bc0babf0b48a5a840b8ada 228 gnupg2_2.2.40.orig.tar.bz2.asc"
+    "2f2e928a2cde31c776346f30c1463cf03ce6feb00cc71b50fcb2e04b5eb966b3a78216fe0ab66224e620e0d55928098a4c43606f5a40d5ace037eae64ce19444 131264 gnupg2_2.4.7-21+deb13u1.debian.tar.xz e386b73dcaa5f31220f4793a28d01c0061b05f6c32c3e240c2685c4c87a7dafc8a9cdb3271e2d48024ee6cd6e5695695a2106c21522cd6d3fc5deac4f3fa1cef 4933 gnupg2_2.4.7-21+deb13u1.dsc 3e84f1679904bf0efb789df6466e468bd2be9149d52561f35e2380038133479bebf1c61ee7adf6d3564b370915f32111098c052be6e6acaf3083a807f9f36019 8010244 gnupg2_2.4.7.orig.tar.bz2 6c0b9876ec8c79e04b495a888e1f83d43385422258fd0f603224a7913a4e6937fe2964457e3029e92bb667b4a586811ea54bd721d47f39d4bf25f6808795ec4d 390 gnupg2_2.4.7.orig.tar.bz2.asc"
   ],
   "Directory": [
     "pool/main/g/gnupg2"
   ],
   "Files": [
-    "4e8e142aa1cff332485efcf659b3495f 67520 gnupg2_2.2.40-1.1+deb12u2.debian.tar.xz f0e4aee80f735012d20932fa8a643f4c 3364 gnupg2_2.2.40-1.1+deb12u2.dsc 073acb74c6a7ca63c36eecdf57686af8 7301631 gnupg2_2.2.40.orig.tar.bz2 d52df60e3a034158d774c38b62d16e65 228 gnupg2_2.2.40.orig.tar.bz2.asc"
+    "dcb30dc77eb35af0224f1ff5101e00ab 131264 gnupg2_2.4.7-21+deb13u1.debian.tar.xz 193ea1d8392dc4c9fbd345ae2f9f4e05 4933 gnupg2_2.4.7-21+deb13u1.dsc 59ec68633deefcd38a5012f39a9d9311 8010244 gnupg2_2.4.7.orig.tar.bz2 4cae56afaabcfaf30e3be417953638cc 390 gnupg2_2.4.7.orig.tar.bz2.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,27 +39,27 @@
     "gnupg2"
   ],
   "Package-List": [
-    "dirmngr deb utils optional arch=any gnupg deb utils optional arch=all gnupg-agent deb oldlibs optional arch=all gnupg-l10n deb localization optional arch=all gnupg-utils deb utils optional arch=any gnupg2 deb oldlibs optional arch=all gpg deb utils optional arch=any gpg-agent deb utils optional arch=any gpg-wks-client deb utils optional arch=any gpg-wks-server deb utils optional arch=any gpgconf deb utils optional arch=any gpgsm deb utils optional arch=any gpgv deb utils important arch=any gpgv-static deb utils optional arch=any gpgv-udeb udeb debian-installer optional arch=any gpgv-win32 deb utils optional arch=all gpgv2 deb oldlibs optional arch=all scdaemon deb utils optional arch=any"
+    "dirmngr deb utils optional arch=any profile=!pkg.gnupg2.gpgvonly gnupg deb metapackages optional arch=all profile=!pkg.gnupg2.gpgvonly gnupg-agent deb oldlibs optional arch=all profile=!pkg.gnupg2.gpgvonly gnupg-l10n deb localization optional arch=all profile=!pkg.gnupg2.gpgvonly gnupg-utils deb utils optional arch=any profile=!pkg.gnupg2.gpgvonly gnupg2 deb oldlibs optional arch=all profile=!pkg.gnupg2.gpgvonly gpg deb utils optional arch=any profile=!pkg.gnupg2.gpgvonly gpg-agent deb utils optional arch=any profile=!pkg.gnupg2.gpgvonly gpg-wks-client deb utils optional arch=any profile=!pkg.gnupg2.gpgvonly gpg-wks-server deb utils optional arch=any profile=!pkg.gnupg2.gpgvonly gpgconf deb utils optional arch=any profile=!pkg.gnupg2.gpgvonly gpgsm deb utils optional arch=any profile=!pkg.gnupg2.gpgvonly gpgv deb utils important arch=any gpgv-static deb utils optional arch=any profile=!pkg.gnupg2.gpgvonly gpgv-udeb udeb debian-installer optional arch=any profile=!noudeb,!pkg.gnupg2.gpgvonly gpgv-win32 deb utils optional arch=all profile=!pkg.gnupg2.gpgvonly scdaemon deb utils optional arch=any profile=!pkg.gnupg2.gpgvonly tpm2daemon deb utils optional arch=any profile=!pkg.gnupg2.gpgvonly"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "debian-archive-keyring, diffutils, gnupg1, wine32"
+    "coreutils, debian-archive-keyring, emacs-nox, findutils, gnupg1, wine32"
   ],
   "Uploaders": [
-    "Eric Dorland \u003ceric@debian.org\u003e, Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e,"
+    "Eric Dorland \u003ceric@debian.org\u003e, Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e, Andreas Metzler \u003cametzler@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/gnupg2"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/debian/gnupg2.git -b debian/12-bookworm"
+    "https://salsa.debian.org/debian/gnupg2.git"
   ],
   "Version": [
-    "2.2.40-1.1+deb12u2"
+    "2.4.7-21+deb13u1"
   ]
 }

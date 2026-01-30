@@ -6,22 +6,22 @@
     "libfreexl-dev, libfreexl1"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12)"
+    "debhelper-compat (= 13), libexpat1-dev, libminizip-dev, zlib1g-dev"
   ],
   "Checksums-Sha1": [
-    "3766e7ee1959169c24356ab231e92c86877c6cf9 12028 freexl_1.0.6-2.debian.tar.xz 9fd04fa4f3eccbd7f82500a294f25d5c49f3ffde 2002 freexl_1.0.6-2.dsc e40f7cee8f726f1949909cc447797b3bcb59835b 941179 freexl_1.0.6.orig.tar.gz"
+    "63d84637a195a3a93f296d4060050605deac664b 12300 freexl_2.0.0-1.debian.tar.xz c109d666525762005eb1552738e331ff4872d642 2045 freexl_2.0.0-1.dsc 43d218aa6e5c5ac65354e51a5ed572f700911ff1 991565 freexl_2.0.0.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "0bf4880fa5e1449621e3d17f025d41c926a0363b243a90c2c5a04319924b4273 12028 freexl_1.0.6-2.debian.tar.xz 427ffbbe0d76ae9ca94b5c49b516477235f1544c69c15ccf6e3bd8b9738325ff 2002 freexl_1.0.6-2.dsc 3de8b57a3d130cb2881ea52d3aa9ce1feedb1b57b7daa4eb37f751404f90fc22 941179 freexl_1.0.6.orig.tar.gz"
+    "f30fb3ac620e5df66f6c9b7a7649cb7fac36eef3cbc6215131c4ea9fa1e3cccd 12300 freexl_2.0.0-1.debian.tar.xz af6870d8231e0eacd9084144e812a9f9cf5fe4d873b71551c21b5a5ffe13394d 2045 freexl_2.0.0-1.dsc 176705f1de58ab7c1eebbf5c6de46ab76fcd8b856508dbd28f5648f7c6e1a7f0 991565 freexl_2.0.0.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "2beba7dd74091b8d1d21ebd5fe4162755bef272ebc9806534ddb980b90e561035cd59d4b6243834a355b9006e5de8dea3ec7c6db002278bc4674b7b8b317eddc 12028 freexl_1.0.6-2.debian.tar.xz 229b53a17e4fd1f4085c664d8862334a56d50b37a992fd636e8758ff80049135787d707c39cade456d72273cf644f846bd9fd3a863689f1b0ea723275d1e6202 2002 freexl_1.0.6-2.dsc efbbe261e57d5c05167ad8e1d5a5b348a7e702c0a4030b18dd2a8c60a38332caccbb073ff604bdf5bafac827310b41c7b79f9fa519ea512d6de2eafd9c1f71f6 941179 freexl_1.0.6.orig.tar.gz"
+    "22070350606f38b6e0169c2ef2204034b695fdc18e0632d4542130265dd8312a9a5f70f8e2b94055699dc8a7ce635a7889a338b704a5c93b5d4ce56d34ebefd2 12300 freexl_2.0.0-1.debian.tar.xz dec1554a56cdf7c9f17d93082354f23af69b2c416e6ab22f3f5015e25a3e352772cbd48d7ec9e71c4e449ce87d1c3b41a93358911875893d4fa1d5b3b26d37a4 2045 freexl_2.0.0-1.dsc 663ccc321c2f0dcab8ad9255b2a77066c2046d531a0aa723fb114301fa27b53bf980787dd2548c46541036eceef988c5eedf2bec053adf628929470e67ddc17a 991565 freexl_2.0.0.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/f/freexl"
   ],
   "Files": [
-    "7aac69451ab83b44b59fd9d19fc8a279 12028 freexl_1.0.6-2.debian.tar.xz a5d72736546a122b9018f7749d509140 2002 freexl_1.0.6-2.dsc d3d2df0d2ad7713038ce99024738172a 941179 freexl_1.0.6.orig.tar.gz"
+    "3375105e476e27fb612cd8cd6f0082fa 12300 freexl_2.0.0-1.debian.tar.xz c0a0fdd3d23de354c28c9564cd415560 2045 freexl_2.0.0-1.dsc cc3711ef54fd2dabea1eafa1a6e5af56 991565 freexl_2.0.0.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "libfreexl-dev deb libdevel optional arch=any libfreexl1 deb libs optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.6.2"
   ],
   "Uploaders": [
     "David Paleino \u003cdapal@debian.org\u003e, Bas Couwenberg \u003csebastic@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian-gis-team/freexl.git"
   ],
   "Version": [
-    "1.0.6-2"
+    "2.0.0-1"
   ]
 }

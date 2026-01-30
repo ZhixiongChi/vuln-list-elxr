@@ -1,27 +1,27 @@
 {
   "Architecture": [
-    "any"
+    "amd64 arm64 armhf i386"
   ],
   "Binary": [
     "konsolekalendar"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.16~), debhelper-compat (= 13), extra-cmake-modules (\u003e= 5.99.0~), gettext, libkf5akonadi-dev (\u003e= 4:22.12.3~), libkf5akonadicalendar-dev (\u003e= 4:22.12.3~), libkf5calendarcore-dev (\u003e= 5:5.99.0~), libkf5calendarsupport-dev (\u003e= 4:22.12.3~), libkf5calendarutils-dev (\u003e= 4:22.12.3~), libkf5doctools-dev (\u003e= 5.99.0~), libkf5i18n-dev (\u003e= 5.99.0~), pkg-config, pkg-kde-tools (\u003e= 0.12), qtbase5-dev (\u003e= 5.15.2~)"
+    "debhelper-compat (= 13), dh-sequence-kf6, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.6.0~), gettext, libakonadi-dev (\u003e= 4:24.12.3~), libakonadicalendar-dev (\u003e= 4:24.12.3~), libcalendarsupport-dev (\u003e= 4:24.12.3~), libkf6calendarcore-dev (\u003e= 6.6.0~), libkf6doctools-dev (\u003e= 6.6.0~), libkf6i18n-dev (\u003e= 6.6.0~), libxkbcommon-dev, pkgconf, qt6-base-dev (\u003e= 6.7.0~)"
   ],
   "Checksums-Sha1": [
-    "c214b4e6db51fa67056426a48db43db5f74ed82a 13696 akonadi-calendar-tools_22.12.3-1.debian.tar.xz 9caa2d037f25a63862b3c424e4931419245422fa 2869 akonadi-calendar-tools_22.12.3-1.dsc 0198280a822fcdc085cd48912c25681f4ce7ca28 254132 akonadi-calendar-tools_22.12.3.orig.tar.xz ee37ad11083bb95ebd5778fc3afadda8a3a37cc6 833 akonadi-calendar-tools_22.12.3.orig.tar.xz.asc"
+    "f90139a1c8e29003fad0a62c7738bb958e9961fe 13804 akonadi-calendar-tools_24.12.3-1.debian.tar.xz 02e6019a14234f57c342972aa5fc44e1d180697b 2956 akonadi-calendar-tools_24.12.3-1.dsc 15b9f7fd13bc38afa92be3d6a3100c8c60ffb4f4 270076 akonadi-calendar-tools_24.12.3.orig.tar.xz 416fffe95008bb47a4d89a655b2c68594c9672fe 833 akonadi-calendar-tools_24.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha256": [
-    "c24e1d7beb5d015789b5aaa4eccb1f7c2133da8a588bbaad50a4ff16ed1d062e 13696 akonadi-calendar-tools_22.12.3-1.debian.tar.xz 8d70771e683f78f7c9d4bb1efd142c80022b977619cc9995d306df122bce33f8 2869 akonadi-calendar-tools_22.12.3-1.dsc 96555917165a30410a122d4cc6534c4d472b7f2a0cdeef838dc98b04db36293a 254132 akonadi-calendar-tools_22.12.3.orig.tar.xz 6b98325a72be1ffd6a564331be265c6070fb663bef2b0db400a9faf533995b54 833 akonadi-calendar-tools_22.12.3.orig.tar.xz.asc"
+    "7b3fe93653a6ada0eaa237f2b093135a54dc5a93b12e9979f26ae8b5de3b1517 13804 akonadi-calendar-tools_24.12.3-1.debian.tar.xz 68e1d058cbf6197ed77cc79a18c3ee65eb69b591b1710ccc9d975678dd98b4d0 2956 akonadi-calendar-tools_24.12.3-1.dsc e5b34b90d6a4c7b6e300d904aa817867eea7ecbfae5c8eec692368d230685703 270076 akonadi-calendar-tools_24.12.3.orig.tar.xz 1f34c15e94814539622ba29c24fea8671f7c8ef213439f028b86cd1eed20895c 833 akonadi-calendar-tools_24.12.3.orig.tar.xz.asc"
   ],
   "Checksums-Sha512": [
-    "32eac57be7e36d8faa8a7eb0201c9a1675ca14e50db4fd750dce64f8b41e1f3d72b1fb985739672bcb99742a147a88048e48a4c413deaa5b1313036d095d92c5 13696 akonadi-calendar-tools_22.12.3-1.debian.tar.xz 023856b1b268e3b8929880c01d07ffc45cbcab67f5d45583d2bab2f5038a7daf1c0dae4e37e0c6c64f0b768c4296df2635755142432abbc968f2034e41d2ff30 2869 akonadi-calendar-tools_22.12.3-1.dsc ae2c7cd67a901cb2c2e536ebd6f342218339fb20289ab94f69fc425e9b6774ce48cb72dcae4898fcd1741b14b9cb60fb45dcae36ec49d11e15a5045f3cab31a5 254132 akonadi-calendar-tools_22.12.3.orig.tar.xz 724d02ddcb844c893777676f4d91b50200a4070db42871b29f5d3113d04968a81c94ab1279d1f50c0bd975301d69f83b1c6e5513f47916f47c50f589bbdf81b5 833 akonadi-calendar-tools_22.12.3.orig.tar.xz.asc"
+    "b2c98494e95cb6dc121272f93d3e2e7616bc6a7737f86d0d18ed5e000c3f8dd46591094fc39416cb390a8b7e095eb9e45257db54d75b6676517597cba5a2cfdf 13804 akonadi-calendar-tools_24.12.3-1.debian.tar.xz 630abfd68522a159d603ee83e650250cc8958502ed5ea77c3fa28d8a9731b8f4efc5e2d5bab287c93ceb6b67dec8ba5db95dbc9ea77fa19d6cbf37722edd3bb1 2956 akonadi-calendar-tools_24.12.3-1.dsc b451d3e5e49066bccd1c360ffb9e73f4a7a81f056b1881b3fce194affaf7739c288a1ddae343bec55672b0870bbbeb67aa58beeba6b486baf502e2125fef60aa 270076 akonadi-calendar-tools_24.12.3.orig.tar.xz b7ba6521c60d6a8bd6d1a751554a079f2e4e0bc574a4153c9c6ce0a78044ac620ef7e745e16eb51fca75bbd76c0906b80936f8b20a16598cbef6d235c0efd6f6 833 akonadi-calendar-tools_24.12.3.orig.tar.xz.asc"
   ],
   "Directory": [
     "pool/main/a/akonadi-calendar-tools"
   ],
   "Files": [
-    "44208100258c0bc9075a3bc702c935d1 13696 akonadi-calendar-tools_22.12.3-1.debian.tar.xz 9591e7365ac4672b4c465fa23384e2db 2869 akonadi-calendar-tools_22.12.3-1.dsc 140a966c24078a0a5c84c1265c93c6ef 254132 akonadi-calendar-tools_22.12.3.orig.tar.xz 44b7dc20ae49c8e5c363f691692ecdad 833 akonadi-calendar-tools_22.12.3.orig.tar.xz.asc"
+    "689a958535bb92abe56f22ad4e1b7dff 13804 akonadi-calendar-tools_24.12.3-1.debian.tar.xz a5db7f7ff422b047447af027d7e1353e 2956 akonadi-calendar-tools_24.12.3-1.dsc 152a64a363e671924eeb185e019be117 270076 akonadi-calendar-tools_24.12.3.orig.tar.xz fb836b602e903357434f20bd049c73a1 833 akonadi-calendar-tools_24.12.3.orig.tar.xz.asc"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,10 +36,10 @@
     "akonadi-calendar-tools"
   ],
   "Package-List": [
-    "konsolekalendar deb kde optional arch=any"
+    "konsolekalendar deb kde optional arch=amd64,arm64,armhf,i386"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Uploaders": [
     "Michael Meskes \u003cmeskes@debian.org\u003e, Sandro Knauß \u003chefee@debian.org\u003e, Sune Vuorela \u003csune@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/akonadi-calendar-tools.git"
   ],
   "Version": [
-    "4:22.12.3-1"
+    "4:24.12.3-1"
   ]
 }

@@ -6,22 +6,22 @@
     "python3-bs4, python-bs4-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, python3-all, python3-html5lib \u003c!nocheck\u003e, python3-lxml \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-soupsieve \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-stemmer \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-python, dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, pybuild-plugin-pyproject, python3-all, python3-hatchling, python3-html5lib \u003c!nocheck\u003e, python3-lxml \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-soupsieve (\u003e= 2.6) \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-stemmer \u003c!nocheck\u003e, python3-typing-extensions \u003c!nocheck\u003e"
   ],
   "Checksums-Sha1": [
-    "eb05b7a7aeabf28576f467c0a2fd9ed2714395cd 7716 beautifulsoup4_4.11.2-2.debian.tar.xz 5fa61c0a4873583b6541ba3becc268ee5a0b44a7 1840 beautifulsoup4_4.11.2-2.dsc 1b94881b3974c2d42064a71cbce66959ef34c1c2 517627 beautifulsoup4_4.11.2.orig.tar.gz"
+    "eb5bba0138427ccda1ab1fc32bceef7a57f1e532 8904 beautifulsoup4_4.13.4-2.debian.tar.xz 43573607523ed8f31bc6bfe83dd35583bb5a7563 1912 beautifulsoup4_4.13.4-2.dsc 579a21f700ea68d1ed8a26fe02fba83be63cd456 621067 beautifulsoup4_4.13.4.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "993f44fea783b16dce2d873b9de6e5a3ff5b02ad6e7f44a7e110ebf3f75ee1e0 7716 beautifulsoup4_4.11.2-2.debian.tar.xz a68a9fde3c717a1bd224d6e067e0058343a1cf0ae147e75f02f6160ce8ed254d 1840 beautifulsoup4_4.11.2-2.dsc bc4bdda6717de5a2987436fb8d72f45dc90dd856bdfd512a1314ce90349a0106 517627 beautifulsoup4_4.11.2.orig.tar.gz"
+    "48eed391cf60a45b155b10daff61b109382be22b10c3b10b70857053f0e1b99e 8904 beautifulsoup4_4.13.4-2.debian.tar.xz b3284f3776b1c064800bcd70c7fdbf5eb130f52c25fb94303304bef1af139025 1912 beautifulsoup4_4.13.4-2.dsc dbb3c4e1ceae6aefebdaf2423247260cd062430a410e38c66f2baa50a8437195 621067 beautifulsoup4_4.13.4.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "f4f6d63c0db7bb9cda6b8448b9880321880b9a57fc5211552c7d0d4754fe7774698af5a62fc98f37b55f78c7e85e6b0851afdf1e965375e27a71fe0fc754df25 7716 beautifulsoup4_4.11.2-2.debian.tar.xz d7fee17cf45976f18bb2a94e9b72fa6071a22e50785dfbd2eac946ff06790f1adef331227764967822c16ac85ec5a569696e4c2bdf5d026a9a94d1a39962e568 1840 beautifulsoup4_4.11.2-2.dsc 68f5328f881946e80ed1af36b26da184f0af58aaf124f5f623f89c40130e1578f6dbe874b11c802e52c0ec02cfbf6b681e10eb235279631f479d14c2243e7dd3 517627 beautifulsoup4_4.11.2.orig.tar.gz"
+    "9b616a92ff091e2e4dbebf96b918a02397f72ea88aa043b681fa3d5789b4bde670856ae9c25e92aef314a5cccd05901b96e77d0cbcaed4de94ecaabd6b028ec6 8904 beautifulsoup4_4.13.4-2.debian.tar.xz 28258020fe39ddbd34237ae20d7efcd9ad53c8e474a69222bc85e521d97016fe89352adcbd1824578252b00ac7166641bc6e23fba40f5216f10639982a67a917 1912 beautifulsoup4_4.13.4-2.dsc 7763e7e8528db54c48d29cd300155fc6d5b69785d3ea7d6ca14427b81b384838c4015d952ad6111800aa0b50632e16959cc311f3ff25b3860d7600e3cd3a10d4 621067 beautifulsoup4_4.13.4.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/b/beautifulsoup4"
   ],
   "Files": [
-    "b92982950117a7f9e5ab4cbc057e637e 7716 beautifulsoup4_4.11.2-2.debian.tar.xz 2b99cc7b4ac4366bee75f36a3190cac9 1840 beautifulsoup4_4.11.2-2.dsc 5f235c26c86084c2696b1333264ed566 517627 beautifulsoup4_4.11.2.orig.tar.gz"
+    "dfd5685f9a7551e526d0d784299bad55 8904 beautifulsoup4_4.13.4-2.debian.tar.xz bd33903c9d18a6d4630597b384064734 1912 beautifulsoup4_4.13.4-2.dsc 1c03bc381aff2ba72178fc775d39e991 621067 beautifulsoup4_4.13.4.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python-bs4-doc deb doc optional arch=all python3-bs4 deb python optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/beautifulsoup4.git"
   ],
   "Version": [
-    "4.11.2-2"
+    "4.13.4-2"
   ]
 }

@@ -6,22 +6,22 @@
     "librist-dev, librist4, rist-tools"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), meson, cmake, pkg-config, libcjson-dev, libmbedtls-dev, libcmocka-dev"
+    "debhelper-compat (= 13), meson, cmake, pkgconf, libmicrohttpd-dev, libcjson-dev, libmbedtls-dev, libcmocka-dev"
   ],
   "Checksums-Sha1": [
-    "cfd9d4d1e6910aa0cc39504fff242ea344d47dfa 8472 librist_0.2.7+dfsg-1.debian.tar.xz 6463cebc3b5b56e592ab1f287431cf903b90f1b5 2142 librist_0.2.7+dfsg-1.dsc 8e494845b45345dc8ef3b99c8886f718a5928a40 135752 librist_0.2.7+dfsg.orig.tar.xz"
+    "2180aa3d2dc8e492d02bf6c0b555edd1e02170ce 9160 librist_0.2.11+dfsg-1.debian.tar.xz 643d060dd045ea5ada8dfc65193dc75279e8245f 2165 librist_0.2.11+dfsg-1.dsc bde8313c79c0595012dd6633ad5e58172f441c85 159460 librist_0.2.11+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "acffaa293ac7057d1e7cb74ed532c26d318d843c91c4dfa5ac0abf40cce7cf9b 8472 librist_0.2.7+dfsg-1.debian.tar.xz 63652df3b7aadebbe7665c6969387419da9e74782d52a8bb837ebaa1e93ae9f1 2142 librist_0.2.7+dfsg-1.dsc bb6fb71b94cdfb67197a94ef9aca77fd2c608e35beb1f9ec5f217cc9332f3ba5 135752 librist_0.2.7+dfsg.orig.tar.xz"
+    "fbc67961e92d55c2104ad81ad44c70aa40f3fafbaa8f02d17074dba2743ca95c 9160 librist_0.2.11+dfsg-1.debian.tar.xz d4577a58124f7b2a27614946201d905e49d99414baac0a987f65bbc3f5565d8b 2165 librist_0.2.11+dfsg-1.dsc 6fe86afe4ba847db7847fe42401d88daf4db9290f5dcfcba0fc29d552f9516bf 159460 librist_0.2.11+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "3c055137ef3c0c22494f900979bd63dd95f3670b24811193bf504e5b3403ae35f350d153285c779562311bd91bd688ed20e1102ca01a6d080c8e85888b4c8001 8472 librist_0.2.7+dfsg-1.debian.tar.xz 848298566427e54c49d404c8357c25a405718da6944f7ffa7984eb9215d2e2e0ceb4a9800b47ccf088ac464d60a03776f49d692181184677cd820896f3efc23d 2142 librist_0.2.7+dfsg-1.dsc efe8ce5220a69ad1e7608ec83b092fca9476be60aceb3503d1ec4dc8eb7fc14f520b27f8b3e15e7fbd997b1ecb39f57d0f7fb13ebcefddec4b2d935ea4aa81db 135752 librist_0.2.7+dfsg.orig.tar.xz"
+    "a0c11bff85d0e8d602fc7b330100ad9092acd2fd6d3ca4bd4c3619a67c5e06b98b5409ef10f3ff60c27de0fa13c398279bf27ee13615c9b3a030f1192e9b0bb5 9160 librist_0.2.11+dfsg-1.debian.tar.xz 4069ff137115592dc6a879d90c756c8525cfebfdd97af0ef752767875f94855ac79d3c3af6d4f37e605dd28b683c5a8d00b17410fdb2b71a9b4a8e35ccc22acd 2165 librist_0.2.11+dfsg-1.dsc 31f02dc98ceba380e53ec9999ad294b6b1b07cdb121453706bb7292f0fb122356a8b8f0c003946eb48f4c7174ae3b0d506c6b9e23b2df7fb72f186585cb0c088 159460 librist_0.2.11+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/libr/librist"
   ],
   "Files": [
-    "75bc5d2330e0f22cab6a5b7bcebe7238 8472 librist_0.2.7+dfsg-1.debian.tar.xz d4bbd255ea61dfb621d5e52b3a716be8 2142 librist_0.2.7+dfsg-1.dsc f1c9998350c1334e60cfeec1c5be4dd8 135752 librist_0.2.7+dfsg.orig.tar.xz"
+    "ad56ead9418b02f2b5ecd602197e4469 9160 librist_0.2.11+dfsg-1.debian.tar.xz 83a95168611c33ba1f439790d3f41578 2165 librist_0.2.11+dfsg-1.dsc 0b81dc71b43bd67290345aa01b174888 159460 librist_0.2.11+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "librist-dev deb libdevel optional arch=any librist4 deb libs optional arch=any rist-tools deb utils optional arch=any"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/librist.git"
   ],
   "Version": [
-    "0.2.7+dfsg-1"
+    "0.2.11+dfsg-1"
   ]
 }

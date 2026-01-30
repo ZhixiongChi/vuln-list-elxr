@@ -6,22 +6,22 @@
     "xfdesktop4-data, xfdesktop4"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), intltool, libcairo2-dev, libexo-2-dev, libgarcon-1-dev, libgarcon-gtk3-1-dev, libglib2.0-dev, libgtk-3-dev, libnotify-dev, libthunarx-3-dev (\u003e= 4.17.10~), libwnck-3-dev, libxfce4ui-2-dev, libxfce4util-dev, libxfconf-0-dev, xfce4-dev-tools"
+    "debhelper-compat (= 13), gettext, libcairo2-dev, libexo-2-dev, libgarcon-1-dev, libgarcon-gtk3-1-dev, libglib2.0-dev, libgtk-3-dev, libgtk-layer-shell-dev, libnotify-dev, libthunarx-3-dev (\u003e= 4.17.10~), libxfce4ui-2-dev, libxfce4util-dev, libxfce4windowing-0-dev (\u003e= 4.19.8), libxfconf-0-dev (\u003e= 4.19.3), libyaml-dev, xfce4-dev-tools (\u003e= 4.19)"
   ],
   "Checksums-Sha1": [
-    "bffd3fe23b92cc35d72a5352e977b77259b73ffe 11408 xfdesktop4_4.18.1-1.debian.tar.xz b4379b9a0b8dbc53b70ca5e742ced8f5be179e1b 2264 xfdesktop4_4.18.1-1.dsc 4485adf1b8f5bdfde1819730c1d84bbb87ea396c 2133258 xfdesktop4_4.18.1.orig.tar.bz2"
+    "e64afdb9b0325c912a056ac841394a2879b2768e 11668 xfdesktop4_4.20.1-1.debian.tar.xz 28f37e6580b0fc7257a113b3e6bdec37c064de4c 2344 xfdesktop4_4.20.1-1.dsc 6bd7ed79830e78e0b1609cd391bebfac64613b1f 2527982 xfdesktop4_4.20.1.orig.tar.bz2"
   ],
   "Checksums-Sha256": [
-    "83ffad66fa97139cf00fc9b3cce17d6a67459ba496b351e2ea1a99131f8f9676 11408 xfdesktop4_4.18.1-1.debian.tar.xz 9f2791930c64254c8cd8a58112ca33494db47ad8e45fa7a388b1f3772e2f9dc5 2264 xfdesktop4_4.18.1-1.dsc ef9268190c25877e22a9ff5aa31cc8ede120239cb0dfca080c174e7eed4ff756 2133258 xfdesktop4_4.18.1.orig.tar.bz2"
+    "b983a47ac0d2f67a5852b63d65d6d2a70a6e8f4169c867ea1afce4e7af6de159 11668 xfdesktop4_4.20.1-1.debian.tar.xz d3a0d146e7cd6152fca946d676edf4beff4efbf76557a73a9142c7025398f1c7 2344 xfdesktop4_4.20.1-1.dsc acccde849265bbf4093925ba847977b7abf70bb2977e4f78216570e887c157b8 2527982 xfdesktop4_4.20.1.orig.tar.bz2"
   ],
   "Checksums-Sha512": [
-    "0b831aa2087a0692ac3a5740e86286a5001688092e3193451683a90dc55efe928c65f8b95e7f1587cf5483964158a4c13ec5d743def784a02e7d07d71a21c623 11408 xfdesktop4_4.18.1-1.debian.tar.xz 2d002cd8a8f55d0932f65e86e9206cc7af6fa28e3c6586573f71ae34ac072e7bfc37b3ece9e55acc58f82e39fe380d3b9ef99345e9001a748839e70b4a4071ba 2264 xfdesktop4_4.18.1-1.dsc cafb1e274bbabf1704a6452532fc79657af26eaf92a58374f87a70f31c35fbf213319c6658b3d18bfca2d555b69e07e46949407d1f80e5a37f48e76bbde9dc3e 2133258 xfdesktop4_4.18.1.orig.tar.bz2"
+    "ac0120eff10777dbfc0fa61f69604ecf8defb683eb6601cf5efeb2f9282f40d50ea2c514c9848fd5157321c0f561821c29e8f441f06f6cd936610ff471c85d8a 11668 xfdesktop4_4.20.1-1.debian.tar.xz 3099c6e079652e92fa28d4e4f870dfc2b3f7a014cdb3249ed8d04d659ac44cd675609eba6f811e6d1512f9491710e0420f814f1bb58e716bbb05c02fd2105dd6 2344 xfdesktop4_4.20.1-1.dsc 11f422e31fb5b4f789ac61252a79ef9b139fd0a3e29f1346d5e3c06779567f1809fd78d751df5595cdb5510d0349e908276e85f6325b8ac90dfd00c79ca5d0e2 2527982 xfdesktop4_4.20.1.orig.tar.bz2"
   ],
   "Directory": [
     "pool/main/x/xfdesktop4"
   ],
   "Files": [
-    "41aa7e46b58332984176fec74f9924f7 11408 xfdesktop4_4.18.1-1.debian.tar.xz 42c5b5a2976e44f79570be8c53f7006c 2264 xfdesktop4_4.18.1-1.dsc e675c2989436dc724fef402d1db0125d 2133258 xfdesktop4_4.18.1.orig.tar.bz2"
+    "e85b9d5013ddf10c2395347b5720dd9c 11668 xfdesktop4_4.20.1-1.debian.tar.xz 4838648947399163a16e7034fd3c4295 2344 xfdesktop4_4.20.1-1.dsc b845397fed5e555fa8dce4b189365dbc 2527982 xfdesktop4_4.20.1.orig.tar.bz2"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "xfdesktop4 deb xfce optional arch=any xfdesktop4-data deb xfce optional arch=all"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.1"
   ],
   "Uploaders": [
     "Yves-Alexis Perez \u003ccorsac@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/xfce-team/desktop/xfdesktop4.git"
   ],
   "Version": [
-    "4.18.1-1"
+    "4.20.1-1"
   ]
 }

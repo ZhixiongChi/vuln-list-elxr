@@ -6,22 +6,22 @@
     "glmark2-es2-x11, glmark2-x11, glmark2-es2-wayland, glmark2-wayland, glmark2-es2-drm, glmark2-drm, glmark2-data"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libdrm-dev, libgbm-dev, libgl1-mesa-dev, libgles2-mesa-dev, libjpeg-dev, libpng-dev, libudev-dev, libwayland-dev, libxcb1-dev, meson, pkgconf | pkg-config, python3, wayland-protocols"
+    "debhelper-compat (= 13), libdrm-dev, libgbm-dev, libgl-dev, libgles2-mesa-dev, libjpeg-dev, libpng-dev, libudev-dev, libwayland-dev, libxcb1-dev, meson, pkgconf, python3, wayland-protocols"
   ],
   "Checksums-Sha1": [
-    "b97e53a07aa9babed4ef8362501957c26e95c2e9 6024 glmark2_2023.01+dfsg-1.debian.tar.xz b0bcea5fc44fad61503388c5fd1785c3bbdbe6ac 2510 glmark2_2023.01+dfsg-1.dsc 692e76241ae1fdeb8ea78d00a1a2b9f19e2782f2 7694940 glmark2_2023.01+dfsg.orig.tar.xz"
+    "cbd3ba21ca0c5690d9bfea1b5b9902a517204178 6148 glmark2_2023.01+dfsg-2.debian.tar.xz f856a10a202bb5b51b91990910539743cfff1542 2525 glmark2_2023.01+dfsg-2.dsc 692e76241ae1fdeb8ea78d00a1a2b9f19e2782f2 7694940 glmark2_2023.01+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "611a1a3f2c4271d3573ca5d3337cfd8e49e5322ba5b8a6af852e3aa6435f1987 6024 glmark2_2023.01+dfsg-1.debian.tar.xz d643ad8b3621e820c5389e804e048114045c71dd90ea264ece811933aac0f2d3 2510 glmark2_2023.01+dfsg-1.dsc 42348c91c96b8ae366fbf7334ebd33a2c0f7bf081a9b9a078cd9fa0218d97450 7694940 glmark2_2023.01+dfsg.orig.tar.xz"
+    "7b42ad4423dae8b096c0878db2d057e02644fe69da09009df5c0bd0d49a16be3 6148 glmark2_2023.01+dfsg-2.debian.tar.xz 994bf9ca8dbad1eebe7c48b5ccfffab6f718023887f94753b1a5ce63d5311d94 2525 glmark2_2023.01+dfsg-2.dsc 42348c91c96b8ae366fbf7334ebd33a2c0f7bf081a9b9a078cd9fa0218d97450 7694940 glmark2_2023.01+dfsg.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "4b1ff019bb3716394cad6235b34cd1a0e2a36d565bab8e80a2743bb6685ab4dc952fe2d152db9c63dc50e506daec9e4c44976f51663f3103a6407525f3bf9a36 6024 glmark2_2023.01+dfsg-1.debian.tar.xz 92f024159ee28196a2a9e4c6bd245c3fe7b28e1f91374317448eddab65321e15a98bd981457292b925e3d42b3c413efc1e6bf865174d7c5883788f0d4c7ccc31 2510 glmark2_2023.01+dfsg-1.dsc 83148929adf5dab5fbda3b38f23ef5bec0a530233094903cfcf615051627c012df86f94fd07a48628b5c46b2670fe2499b2307ae77530c457164872185feaa35 7694940 glmark2_2023.01+dfsg.orig.tar.xz"
+    "d0fb26dbe4c116ee88844341df9ae6cf8f35637e519b60625aaf654c7c0f32e1e7d331ecdaff99607600deeaac50674d19766137f11b735d80f8bb7f204b9bb4 6148 glmark2_2023.01+dfsg-2.debian.tar.xz d258449d3ba600eca580426fcc207e203290383fd9569fb5120499312960749bfc39f1858ea1faeb1a3c868c945a57c4de1497d9876d8e93b756e6a80e971c62 2525 glmark2_2023.01+dfsg-2.dsc 83148929adf5dab5fbda3b38f23ef5bec0a530233094903cfcf615051627c012df86f94fd07a48628b5c46b2670fe2499b2307ae77530c457164872185feaa35 7694940 glmark2_2023.01+dfsg.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/g/glmark2"
   ],
   "Files": [
-    "d1d9cb4915c9b7fe71b32c63c7adf87a 6024 glmark2_2023.01+dfsg-1.debian.tar.xz 6ee190e639c4fdbc4bc550dbba4e7f92 2510 glmark2_2023.01+dfsg-1.dsc 33978ed7dfb911475b4f4e2fa0166afc 7694940 glmark2_2023.01+dfsg.orig.tar.xz"
+    "7de056e51749b8169a005d8e6be7d5ff 6148 glmark2_2023.01+dfsg-2.debian.tar.xz 84b1045b4b320be85cbcab53b50e6eb0 2525 glmark2_2023.01+dfsg-2.dsc 33978ed7dfb911475b4f4e2fa0166afc 7694940 glmark2_2023.01+dfsg.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "4.6.2"
   ],
   "Uploaders": [
-    "Marius Vlad \u003cmarius.vlad@collabora.com\u003e"
+    "Marius Vlad \u003cmarius.vlad@collabora.com\u003e, Dylan Aïssi \u003cdaissi@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/games-team/glmark2"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/games-team/glmark2.git"
   ],
   "Version": [
-    "2023.01+dfsg-1"
+    "2023.01+dfsg-2"
   ]
 }

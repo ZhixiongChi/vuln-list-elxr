@@ -1,39 +1,30 @@
 {
   "Architecture": [
-    "amd64 arm64 armel armhf i386 mips64el mipsel powerpc s390x"
+    "amd64 arm64 armel armhf i386 mips64el mipsel powerpc riscv64 s390x"
   ],
   "Binary": [
     "libnginx-mod-http-lua"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-nginx, libluajit2-5.1-dev, libnginx-mod-http-ndk-dev, libpcre3-dev, nginx-abi-1.22.1-7"
+    "debhelper-compat (= 13), dh-sequence-nginx, libluajit-5.1-dev, libnginx-mod-http-ndk-dev"
   ],
   "Checksums-Sha1": [
-    "f767238f0d88adb2d2ebfa2fd9a2ba790b0d0ecd 6328 libnginx-mod-http-lua_0.10.23-1+deb12u1.debian.tar.xz d5e590a494ce51c18df99cd56ce75229c417e032 2692 libnginx-mod-http-lua_0.10.23-1+deb12u1.dsc 7ae1bd587b77ce1c6683fa5a843c797e2899f5ca 724117 libnginx-mod-http-lua_0.10.23.orig.tar.gz"
+    "131ba1edbf14c083983ba9ebeccbac6b633bf3ff 5836 libnginx-mod-http-lua_0.10.28-2.debian.tar.xz e829374c750d59c7b1c3833d869a3a9f2ed8f8d4 2375 libnginx-mod-http-lua_0.10.28-2.dsc cd93bb3c7644749ba715c508c39dd171faa5ac15 869217 libnginx-mod-http-lua_0.10.28.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "cb87283957e13788d8abd66abb30b000bcdbeaff7fde303ed656e6615baf03fa 6328 libnginx-mod-http-lua_0.10.23-1+deb12u1.debian.tar.xz 6b25235572a586474941a7987e1e02fdccaf64c6eae87a1e366b284fa6ac3338 2692 libnginx-mod-http-lua_0.10.23-1+deb12u1.dsc aabd9907e8b7077c1b4cf4c1d0426e9b10885c5b0bfa87c85c3a97c33c40b503 724117 libnginx-mod-http-lua_0.10.23.orig.tar.gz"
+    "361da183b9d76605da19d860474cb113467cdbc259b4b555a8b06cbf72f50659 5836 libnginx-mod-http-lua_0.10.28-2.debian.tar.xz c302a2eeec6988794b314e5f99de8d373d699ad24ba9dc642e64bbe28f6731a8 2375 libnginx-mod-http-lua_0.10.28-2.dsc 634827d54de6216cb0502d14f76610788b3a3e33160e91d5578d6db0d9a34a20 869217 libnginx-mod-http-lua_0.10.28.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "efd3aedb61ab94ea3f2d07dc584ad5ede1d3cdf2e0deae2ff55562882a7524f1b58208bbe1dd7d10228ffbb67bf32d104f21ff1ba761b19a060934a86ae9abd6 6328 libnginx-mod-http-lua_0.10.23-1+deb12u1.debian.tar.xz e1600dc54752e45f085e4a337d5ba19bce518831efa96788818a50511831d539b26368b18ac2ecb6deef188687180931b8574ab9ebadf9a21ca5929a5e9d94e9 2692 libnginx-mod-http-lua_0.10.23-1+deb12u1.dsc 6b59c6709bc1cd90664659996435c0d76beeb285620af05645179223c982e33e4ed6b609650f1553266aaaa7a7c5078eae8a2a1a4dd9da5936a6386b894bec82 724117 libnginx-mod-http-lua_0.10.23.orig.tar.gz"
-  ],
-  "Dgit": [
-    "e72ff0040090c3fa421799526c6133e5d5b3306e debian archive/debian/1%0.10.23-1+deb12u1 https://git.dgit.debian.org/libnginx-mod-http-lua"
+    "fe5c1f17568995ec405e6b24dcd54e8aeb35f1772a094db7f02714bedcc0e9479f4c4f61dabfd57cc7b34ac67f31351f9efaab0b30cd374a6458716242e1fbf0 5836 libnginx-mod-http-lua_0.10.28-2.debian.tar.xz b50cf9e632f75264bc69870c021e0cb147814fd407b07fd7ccaa450615f210d3b6c93ed48299a0819e52f2da491e7895b2715e1c29cc27f70c8c4476c53ed005 2375 libnginx-mod-http-lua_0.10.28-2.dsc 176d7516bebbdb3a5d3bb3ee627a7d63d59f23a7df8dcaef2195edb875ce438700ae97fb2ad1d17a30519bbbc6d6ee8c742dbc1b37d3e4f4da2187acb9c16aaa 869217 libnginx-mod-http-lua_0.10.28.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/libn/libnginx-mod-http-lua"
   ],
   "Files": [
-    "05457391bc76fbf49d56dd3331a5058a 6328 libnginx-mod-http-lua_0.10.23-1+deb12u1.debian.tar.xz 06f9d830cea7ec70c82976b833c37d23 2692 libnginx-mod-http-lua_0.10.23-1+deb12u1.dsc 289c42b93f2b02616a4d5d99e929b2c4 724117 libnginx-mod-http-lua_0.10.23.orig.tar.gz"
+    "c6230e58f98736feb78d909530d18b9f 5836 libnginx-mod-http-lua_0.10.28-2.debian.tar.xz fc58014f7a0ec700063e1504ca793c96 2375 libnginx-mod-http-lua_0.10.28-2.dsc e7d360eb3cec9d27a42c1bed1434999d 869217 libnginx-mod-http-lua_0.10.28.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
-  ],
-  "Git-Tag-Info": [
-    "tag=5eba65b093eae8b9665b4dcea142b4d3619c1c24 fp=d008b0c23d8479e46b9fcb9045da517496939ff9"
-  ],
-  "Git-Tag-Tagger": [
-    "Jan Mojžíš \u003cjan.mojzis@gmail.com\u003e"
   ],
   "Homepage": [
     "https://github.com/openresty/lua-nginx-module"
@@ -45,10 +36,10 @@
     "libnginx-mod-http-lua"
   ],
   "Package-List": [
-    "libnginx-mod-http-lua deb httpd optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,powerpc,s390x"
+    "libnginx-mod-http-lua deb httpd optional arch=amd64,arm64,armel,armhf,i386,mips64el,mipsel,powerpc,riscv64,s390x"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,7 +48,7 @@
     "curl, nginx, nginx-core"
   ],
   "Uploaders": [
-    "Jan Mojžíš \u003cjan.mojzis@gmail.com\u003e,"
+    "Jan Mojžíš \u003cjanmojzis@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/nginx-team/libnginx-mod-http-lua"
@@ -66,6 +57,6 @@
     "https://salsa.debian.org/nginx-team/libnginx-mod-http-lua.git"
   ],
   "Version": [
-    "1:0.10.23-1+deb12u1"
+    "1:0.10.28-2"
   ]
 }
