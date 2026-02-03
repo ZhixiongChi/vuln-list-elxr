@@ -3,25 +3,25 @@
     "arm64"
   ],
   "Binary": [
-    "linux-image-6.1.0-29-orin-arm64, linux-image-orin-arm64, linux-headers-orin-arm64"
+    "linux-image-6.1.0-41-orin-arm64, linux-image-orin-arm64, linux-headers-orin-arm64, linux-image-6.1.0-41-rt-orin-arm64, linux-image-rt-orin-arm64, linux-headers-rt-orin-arm64"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-exec, python3:any, rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (\u003e= 2.102~), linux-orin-support-6.1.0-29 (= 6.1.123-elxr1-1), linux-image-6.1.0-29-orin-arm64-unsigned (= 6.1.123-elxr1-1) [arm64]"
+    "debhelper-compat (= 12), dh-exec, python3:any, rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (\u003e= 2.102~), linux-orin-support-6.1.0-41 (= 6.1.158-elxr1-1), linux-image-6.1.0-41-orin-arm64-unsigned (= 6.1.158-elxr1-1) [arm64], linux-image-6.1.0-41-rt-orin-arm64-unsigned (= 6.1.158-elxr1-1) [arm64]"
   ],
   "Checksums-Sha1": [
-    "03f8d8454f52ffcd9e49643715d06f8dd9b93616 1361 linux-orin-signed-arm64_6.1.123+elxr1+1.dsc 363385502d5d2d2222aa34b86332413a55fdbc91 1746788 linux-orin-signed-arm64_6.1.123+elxr1+1.tar.xz"
+    "0fd6266cabde026b4f59bb9d5edaeac00a08099f 1708 linux-orin-signed-arm64_6.1.158+elxr1+1.dsc 2b3368d9c744988f264ce0312ed161f24ad408ef 779036 linux-orin-signed-arm64_6.1.158+elxr1+1.tar.xz"
   ],
   "Checksums-Sha256": [
-    "2e2804c9e40834381dcb0380bf31b0f5e47b5be0f3c6b22a38da94fdf679a287 1361 linux-orin-signed-arm64_6.1.123+elxr1+1.dsc 7215120939a4c53e321ed091aed42ebaa3be8bcd125067e9319ef5254aeae66e 1746788 linux-orin-signed-arm64_6.1.123+elxr1+1.tar.xz"
+    "0111eaf20071908741d8e9a45b14876f9e02a6de875fca3801a08a43f9b76be6 1708 linux-orin-signed-arm64_6.1.158+elxr1+1.dsc 1ed0680df4a681abec93b4e19205627d83819575d112b20a8363c09baf072fe3 779036 linux-orin-signed-arm64_6.1.158+elxr1+1.tar.xz"
   ],
   "Checksums-Sha512": [
-    "fd32f7f4c0c05bbe07bfb8c855c7a5847a99b00f3c44c5e45288fe01c0a5ffe4d07b59668aecf86d2803f8506b7ade6db5e90e46c8e417f1b1348dccb1de5eb9 1361 linux-orin-signed-arm64_6.1.123+elxr1+1.dsc 75c89d587a0ce3c687867c19abbcc731af4356a09099788ee6e6ff2b3c8590a79519e50ce9d1add8d46c5b56c4084625d47868c0460516fb8a8cec8ba0d503eb 1746788 linux-orin-signed-arm64_6.1.123+elxr1+1.tar.xz"
+    "cf88a877b3f0ac2be1cf82f74a4bd5311f1293a82b93cd3d5cef75d5b9185339ce861f06541159ef1eb93aaa69d4f4439b25b42e8308200cd1cf1b7ea2bbc957 1708 linux-orin-signed-arm64_6.1.158+elxr1+1.dsc 73eec14adc57a63a0374e1e93be472e6a1c0c3e2075fb812de7ff5c69951996ef0ed714d5a3f7b4bf9edc8b325bb5e6289b49802fa3172b2bd2d24d92bd01365 779036 linux-orin-signed-arm64_6.1.158+elxr1+1.tar.xz"
   ],
   "Directory": [
     "pool/main/l/linux-orin-signed-arm64"
   ],
   "Files": [
-    "d9c259fb0180d4542564ed05a761b83f 1361 linux-orin-signed-arm64_6.1.123+elxr1+1.dsc 229f5bf11f48fa45280038dfff1ce935 1746788 linux-orin-signed-arm64_6.1.123+elxr1+1.tar.xz"
+    "49763de6f1971205d223c538230a8a00 1708 linux-orin-signed-arm64_6.1.158+elxr1+1.dsc 9e7727ade5616fd1d7a3fb2aa31deb5c 779036 linux-orin-signed-arm64_6.1.158+elxr1+1.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -36,7 +36,7 @@
     "linux-orin-signed-arm64"
   ],
   "Package-List": [
-    "linux-headers-orin-arm64 deb kernel optional arch=arm64 linux-image-6.1.0-29-orin-arm64 deb kernel optional arch=arm64 linux-image-orin-arm64 deb kernel optional arch=arm64"
+    "linux-headers-orin-arm64 deb kernel optional arch=arm64 linux-headers-rt-orin-arm64 deb kernel optional arch=arm64 linux-image-6.1.0-41-orin-arm64 deb kernel optional arch=arm64 linux-image-6.1.0-41-rt-orin-arm64 deb kernel optional arch=arm64 linux-image-orin-arm64 deb kernel optional arch=arm64 linux-image-rt-orin-arm64 deb kernel optional arch=arm64"
   ],
   "Standards-Version": [
     "4.2.0"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/kernel-team/linux.git"
   ],
   "Version": [
-    "6.1.123+elxr1+1"
+    "6.1.158+elxr1+1"
   ]
 }
