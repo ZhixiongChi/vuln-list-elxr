@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "conmon, golang-github-containers-conmon-dev, libconmon-crio-plugin"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), go-md2man, libglib2.0-dev, libseccomp-dev, libsystemd-dev"
+  ],
+  "Checksums-Sha1": [
+    "ea0e2587d83af5218c2d652968467704ce4d15e0 15580 conmon_2.1.12-3elxr13u1.debian.tar.xz b3c28b93a57f293b40ce2ccd6438147cae94daf8 1702 conmon_2.1.12-3elxr13u1.dsc 1a551269c896c45675a3859c2163e71d74f69c37 67844 conmon_2.1.12.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "31e5742876001c8b0d94b3cff1cfa055e0420a5c6bee0c3accbe1659036144ab 15580 conmon_2.1.12-3elxr13u1.debian.tar.xz 8a60e78e5c29b4b395aa633aa82b1dbfa4efa9f62d44da75c7f4367804813e99 1702 conmon_2.1.12-3elxr13u1.dsc 6cd9b6846a5f84531a028c0c5c1d39e37ca1ff13021e71465c8c690eb9c9e5dd 67844 conmon_2.1.12.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "a13ef495822a4cbe4b2a240e3937c7dd0ea387fe37f2ad17d2f2ddd4905e317923b03771e62d99b5246ced8a3f9776d9afe014719687a01887ca07b1f86708b0 15580 conmon_2.1.12-3elxr13u1.debian.tar.xz 079438c1d5a282d807f2e3d9eb1560918b0f1a2a7475070711b11806055405fe803d39861338b3c85f7495b2076d0bb7e188db3bd341333f35dd1abb750f7e67 1702 conmon_2.1.12-3elxr13u1.dsc 64df3ab699b3f544bfe020ff4c0a1518aa72b99f0286fa893fcaf89f9bdccdcba73591b56890bd70075eb13343b2127fbae5e4fae8d064c37904e47b09f4f2dc 67844 conmon_2.1.12.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/conmon"
+  ],
+  "Files": [
+    "97d5b6424e0616fc7d181e1afc95f2c2 15580 conmon_2.1.12-3elxr13u1.debian.tar.xz d433ad421a2c04b661853c7ce249bcb3 1702 conmon_2.1.12-3elxr13u1.dsc a0d863e71a2dfd7591bf9a8de12226a7 67844 conmon_2.1.12.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/containers/conmon"
+  ],
+  "Maintainer": [
+    "Podman Packaging Team \u003cteam+podman@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "conmon"
+  ],
+  "Package-List": [
+    "conmon deb admin optional arch=any golang-github-containers-conmon-dev deb admin optional arch=all libconmon-crio-plugin deb admin optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, @recommends@, ca-certificates, golang-blitiri-go-systemd-dev, golang-github-containers-storage-dev, golang-github-onsi-ginkgo-v2-dev, golang-github-opencontainers-runtime-tools-dev, golang-github-pkg-errors-dev, golang-go, golang-gomega-dev, runc"
+  ],
+  "Uploaders": [
+    "Jamie Bliss \u003cjamie@ivyleav.es\u003e, Nicolas Braud-Santoni \u003cnicoo@debian.org\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e, Reinhard Tartler \u003csiretart@tauware.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/conmon"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/conmon.git"
+  ],
+  "Version": [
+    "2.1.12-3elxr13u1"
+  ]
+}
