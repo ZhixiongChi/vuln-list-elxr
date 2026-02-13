@@ -9,22 +9,22 @@
     "debhelper-compat (= 13), python3:any, sbsigntool [amd64 arm64]"
   ],
   "Build-Depends-Arch": [
-    "linux-image-6.12.48+deb13-amd64-unsigned (= 6.12.48-elxr5-1) [amd64] \u003c!pkg.linux.nokernel !pkg.linux.quick\u003e, kernel-wedge (\u003e= 2.105~) [amd64] \u003c!pkg.linux.nokernel\u003e, kmod [amd64] \u003c!pkg.linux.nokernel\u003e, rsync [amd64] \u003c!pkg.linux.nokernel\u003e, linux-image-6.12.48+deb13-cloud-amd64-unsigned (= 6.12.48-elxr5-1) [amd64] \u003c!pkg.linux.nokernel\u003e, linux-image-6.12.48+deb13-rt-amd64-unsigned (= 6.12.48-elxr5-1) [amd64] \u003c!pkg.linux.nokernel !pkg.linux.quick\u003e"
+    "linux-image-6.12.48+deb13-amd64-unsigned (= 6.12.48-elxr6-1) [amd64] \u003c!pkg.linux.nokernel !pkg.linux.quick\u003e, kernel-wedge (\u003e= 2.105~) [amd64] \u003c!pkg.linux.nokernel\u003e, kmod [amd64] \u003c!pkg.linux.nokernel\u003e, rsync [amd64] \u003c!pkg.linux.nokernel\u003e, linux-image-6.12.48+deb13-cloud-amd64-unsigned (= 6.12.48-elxr6-1) [amd64] \u003c!pkg.linux.nokernel\u003e, linux-image-6.12.48+deb13-rt-amd64-unsigned (= 6.12.48-elxr6-1) [amd64] \u003c!pkg.linux.nokernel !pkg.linux.quick\u003e"
   ],
   "Checksums-Sha1": [
-    "2fec79d140c11c2e2783469607d92cf7fab4b5e7 10588 linux-signed-amd64_6.12.48+elxr5+1.dsc 6265a204a1701051493d58858e40ef315ad765d4 836392 linux-signed-amd64_6.12.48+elxr5+1.tar.xz"
+    "fc4ddc9c4857ead01339ae622a3878265bdc95af 10588 linux-signed-amd64_6.12.48+elxr6+1.dsc 5879433776d75f1ee478833c143c0e252cfd3069 836356 linux-signed-amd64_6.12.48+elxr6+1.tar.xz"
   ],
   "Checksums-Sha256": [
-    "586505c8b69cec52094aa6b415a231a2d986c44fd11d9042291b152902736667 10588 linux-signed-amd64_6.12.48+elxr5+1.dsc f4305b4c7f83f2ec8861995c5b4e7662fedabc1cbc3248c8f95b9568c766ad50 836392 linux-signed-amd64_6.12.48+elxr5+1.tar.xz"
+    "7f92cf3d0839bf40b39d88ffcf938448a29171936b7cadedd928e2dd359cd0a1 10588 linux-signed-amd64_6.12.48+elxr6+1.dsc 40c0cc1b13915f9079c6289f29f7657387bb987c73d6abfc6b2c92a6f1dbaa07 836356 linux-signed-amd64_6.12.48+elxr6+1.tar.xz"
   ],
   "Checksums-Sha512": [
-    "47aeca6b73dfdd72107504e981b108a5e5690c4dd1bcf8226a783fb7c945307ff3b6dab6bbe6af216dca0cdcb85007a91057840544969639ccf7bcd21749a648 10588 linux-signed-amd64_6.12.48+elxr5+1.dsc f1c5a8f1761deb801495475f08e4043ed1668623736bb8b78b6e7b3a8f8b26f9aa46bdb1764670780f200cb06691e61e6c889e6abf41eb648a83442549ae8134 836392 linux-signed-amd64_6.12.48+elxr5+1.tar.xz"
+    "4c1deec25e2de2e1cd1fdb815d584b2e959b496279dd9af3e4d319574d3924da6650c9a8f295aa38782600fb7b864dad6ccf1f4e3fa34f24140714760d92340b 10588 linux-signed-amd64_6.12.48+elxr6+1.dsc d2346f343b9575061fc7fbb4a6bac54db75f89bef9d161a7cb1a5d6f2790ccc38781a22bad9ee299f1dfd61cb023d8863940ee2584d6d746fe542da8e174f7a8 836356 linux-signed-amd64_6.12.48+elxr6+1.tar.xz"
   ],
   "Directory": [
     "pool/main/l/linux-signed-amd64"
   ],
   "Files": [
-    "dd102e2d37afcfd19b273996856c5944 10588 linux-signed-amd64_6.12.48+elxr5+1.dsc 027660236d622b7289be6c18fa4a8291 836392 linux-signed-amd64_6.12.48+elxr5+1.tar.xz"
+    "23967f5aa80fd0b4e7c21190d1f727a4 10588 linux-signed-amd64_6.12.48+elxr6+1.dsc 65f3c5b9833aabb7767b40c56482dbe9 836356 linux-signed-amd64_6.12.48+elxr6+1.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/kernel-team/linux.git"
   ],
   "Version": [
-    "6.12.48+elxr5+1"
+    "6.12.48+elxr6+1"
   ]
 }
