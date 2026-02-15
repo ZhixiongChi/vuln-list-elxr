@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "kubectl-1.33, kubeadm-1.33, kubelet-1.33"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec, dh-sequence-golang, golang-any, curl \u003c!nocheck\u003e | wget \u003c!nocheck\u003e, help2man \u003c!nodoc\u003e, golang-dbus-dev, golang-github-armon-circbuf-dev, golang-github-armon-go-socks5-dev, golang-github-beorn7-perks-dev, golang-github-blang-semver-dev, golang-github-cenkalti-backoff-dev, golang-github-cespare-xxhash-dev, golang-github-chai2010-gettext-go-dev, golang-github-containerd-log-dev, golang-github-coreos-go-systemd-dev, golang-github-cpuguy83-go-md2man-v2-dev, golang-github-davecgh-go-spew-dev, golang-github-distribution-reference-dev, golang-github-docker-spdystream-dev, golang-github-dustin-go-humanize-dev, golang-github-fatih-camelcase-dev, golang-github-fsnotify-fsnotify-dev, golang-github-fxamacker-cbor-dev, golang-github-go-errors-errors-dev, golang-github-go-logr-logr-dev, golang-github-go-logr-stdr-dev, golang-github-go-logr-zapr-dev, golang-github-go-task-slim-sprig-dev, golang-github-golang-protobuf-1-5-dev, golang-github-google-shlex-dev, golang-github-google-uuid-dev, golang-github-josharian-intern-dev, golang-github-json-iterator-go-dev, golang-github-kr-pretty-dev, golang-github-kr-text-dev, golang-github-kylelemons-godebug-dev, golang-github-liggitt-tabwriter-dev, golang-github-mailru-easyjson-dev, golang-github-makenowjust-heredoc-dev, golang-github-mitchellh-go-wordwrap-dev, golang-github-modern-go-reflect2-dev, golang-github-mohae-deepcopy-dev, golang-github-monochromegane-go-gitignore-dev, golang-github-mrunalp-fileutils-dev, golang-github-munnerz-goautoneg-dev, golang-github-mxk-go-flowrate-dev, golang-github-nytimes-gziphandler-dev, golang-github-opencontainers-go-digest-dev, golang-github-opencontainers-selinux-dev, golang-github-opencontainers-specs-dev, golang-github-pkg-errors-dev, golang-github-pmezard-go-difflib-dev, golang-github-prometheus-common-dev, golang-github-prometheus-procfs-dev, golang-github-renstrom-dedent-dev, golang-github-robfig-cron-dev, golang-github-russross-blackfriday-v2-dev, golang-github-soheilhy-cmux-dev, golang-github-spf13-cobra-dev, golang-github-stretchr-objx-dev, golang-github-stretchr-testify-dev, golang-github-x448-float16-dev, golang-github-xlab-treeprint-dev, golang-gogoprotobuf-dev, golang-golang-x-oauth2-google-dev, golang-gomega-dev, golang-google-protobuf-dev, golang-gopkg-inf.v0-dev, golang-gopkg-yaml.v3-dev, golang-k8s-klog-dev, golang-k8s-sigs-kustomize-dev, golang-k8s-sigs-randfill-dev, golang-k8s-sigs-structured-merge-diff-dev, golang-k8s-sigs-yaml-dev, golang-uber-goleak-dev"
+  ],
+  "Checksums-Sha1": [
+    "6bcac37deb379f6e5f4c130bc91f1f57c0b2b624 113048 kubernetes-1.33_1.33.8+elxr13ds1-0elxr13u1.debian.tar.xz 8863f8a744c252434efda2dd6fa37d28ccd61827 4041 kubernetes-1.33_1.33.8+elxr13ds1-0elxr13u1.dsc 48dc17677b0228032d5aab3f54173d2f2b27db02 35246161 kubernetes-1.33_1.33.8+elxr13ds1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "2d7582de2b5b812f69efbb88de6f37c4e4a80574a21ba9d3dbf8931e5c008408 113048 kubernetes-1.33_1.33.8+elxr13ds1-0elxr13u1.debian.tar.xz e980e0123f9296b90113e186e96289c74499632900107691e8fc0630a5462bbe 4041 kubernetes-1.33_1.33.8+elxr13ds1-0elxr13u1.dsc 66180f46a7b75a74bd43dff9b5490db47645fd494fe41fcbf4d04351bd285d1b 35246161 kubernetes-1.33_1.33.8+elxr13ds1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "9ff3de345304c3f292e85906e8ef88944224d3ba57b4d840e12250db566073862b0f5ded6666774f30aea6e024b7edb7f4e352bc2138c49650fb396b2cb329c7 113048 kubernetes-1.33_1.33.8+elxr13ds1-0elxr13u1.debian.tar.xz 2cfd1bd00eb4f0be2a975888e4920ea5a62d27f84717ecb19ed8004603feab2805427ff61ee8ae9d0b5e28a8d5632e717655d5f7dd706d51b91768276797ac2b 4041 kubernetes-1.33_1.33.8+elxr13ds1-0elxr13u1.dsc 99d05b6edc4e1f9fa0c97e683767ec0531b39310593bbeecdc41b9d1602084f2ee751d4479c52c8ae173dd40ed5db9b055a0661addd6036bcc4f52b2f8a157c3 35246161 kubernetes-1.33_1.33.8+elxr13ds1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/k/kubernetes-1.33"
+  ],
+  "Files": [
+    "f0e513108c2b0f2ee03386563394a236 113048 kubernetes-1.33_1.33.8+elxr13ds1-0elxr13u1.debian.tar.xz f6cd31a4b66df591e02b0171a2f561d5 4041 kubernetes-1.33_1.33.8+elxr13ds1-0elxr13u1.dsc 40cbe03c3346edbd57298c2620306ba9 35246161 kubernetes-1.33_1.33.8+elxr13ds1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "k8s.io/kubernetes"
+  ],
+  "Homepage": [
+    "https://kubernetes.io/"
+  ],
+  "Maintainer": [
+    "William Lyu \u003cWilliam.Lyu@windriver.com\u003e"
+  ],
+  "Package": [
+    "kubernetes-1.33"
+  ],
+  "Package-List": [
+    "kubeadm-1.33 deb admin optional arch=any kubectl-1.33 deb admin optional arch=any kubelet-1.33 deb admin optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "ca-certificates, docker-cli, docker.io, kind, kubectl"
+  ],
+  "Uploaders": [
+    "Arthur Diniz \u003carthurbdiniz@gmail.com\u003e, Janos Lenart \u003cocsi@debian.org\u003e, Tom MacDougall \u003cTom.MacDougall@windriver.com\u003e, William Lyu \u003cWilliam.Lyu@windriver.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://gitlab.com/elxr/cloud/packages/kubernetes-kube"
+  ],
+  "Vcs-Git": [
+    "https://gitlab.com/elxr/cloud/packages/kubernetes-kube.git"
+  ],
+  "Version": [
+    "1.33.8+elxr13ds1-0elxr13u1"
+  ]
+}
