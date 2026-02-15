@@ -9,22 +9,22 @@
     "bindgen-0.56, bindgen-0.65, rustc-1.74"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11), devscripts, llvm-19:native, lld-19:native, clang-19:native, clang-format-19:native, libclang-rt-19-dev, libc++-19-dev, rustc:any (\u003e= 1.84), libstd-rust-dev (\u003e= 1.84), bindgen:native, rustfmt, python3:any, pkgconf, ninja-build, python3-jinja2:native, ca-certificates, wget, flex, xvfb, wdiff, gperf, bison, nodejs:any, node-rollup-plugin-terser:native, rollup, xz-utils, xcb-proto, xfonts-base, libdav1d-dev, libx11-xcb-dev, libxshmfence-dev, libgl-dev, libglu1-mesa-dev, libegl1-mesa-dev, libgles2-mesa-dev, libopenh264-dev, generate-ninja:native, mesa-common-dev, rapidjson-dev, libva-dev, libxt-dev, libgbm-dev, libpng-dev, libxss-dev, libelf-dev, libpci-dev, libcap-dev, libffi-dev, libkrb5-dev, libexif-dev, libflac-dev, libudev-dev, libpipewire-0.3-dev, libopus-dev, libxtst-dev, libjpeg-dev, libgtk-3-dev, libxslt1-dev, liblcms2-dev, libpulse-dev, libpam0g-dev, libdouble-conversion-dev, libxnvctrl-dev, libglib2.0-dev, libasound2-dev, libsecret-1-dev, libspeechd-dev, libminizip-dev, libhunspell-dev, libharfbuzz-dev, libxcb-dri3-dev, libusb-1.0-0-dev, libopenjp2-7-dev, libnss3-dev, libnspr4-dev, libcups2-dev, libevdev-dev, libgcrypt20-dev, libcurl4-openssl-dev, libzstd-dev, fonts-ipafont-gothic, fonts-ipafont-mincho, cross-exe-wrapper \u003ccross\u003e, linux-libc-dev (\u003e= 6.5)"
+    "debhelper (\u003e= 11), devscripts, llvm-19:native, lld-19:native, clang-19:native, clang-format-19:native, libclang-rt-19-dev, libc++-19-dev, rustc:any (\u003e= 1.84), libstd-rust-dev (\u003e= 1.84), bindgen:native, rustfmt, python3:any, pkgconf, ninja-build, python3-jinja2:native, ca-certificates, wget, flex, xvfb, wdiff, gperf, bison, nodejs:any, node-rollup-plugin-terser:native, rollup, esbuild, xz-utils, xcb-proto, xfonts-base, libdav1d-dev, libx11-xcb-dev, libxshmfence-dev, libgl-dev, libglu1-mesa-dev, libegl1-mesa-dev, libgles2-mesa-dev, libopenh264-dev, generate-ninja:native, mesa-common-dev, rapidjson-dev, libva-dev, libxt-dev, libgbm-dev, libpng-dev, libxss-dev, libelf-dev, libpci-dev, libcap-dev, libffi-dev, libkrb5-dev, libexif-dev, libflac-dev, libudev-dev, libpipewire-0.3-dev, libpthreadpool-dev, libopus-dev, libxtst-dev, libjpeg-dev, libgtk-3-dev, libxslt1-dev, liblcms2-dev, libpulse-dev, libpam0g-dev, libdouble-conversion-dev, libxnvctrl-dev, libglib2.0-dev, libasound2-dev, libsecret-1-dev, libspeechd-dev, libminizip-dev, libhunspell-dev, libharfbuzz-dev, libxcb-dri3-dev, libusb-1.0-0-dev, libopenjp2-7-dev, libnss3-dev, libnspr4-dev, libcups2-dev, libevdev-dev, libgcrypt20-dev, libcurl4-openssl-dev, libzstd-dev, fonts-ipafont-gothic, fonts-ipafont-mincho, cross-exe-wrapper \u003ccross\u003e, linux-libc-dev (\u003e= 6.5)"
   ],
   "Checksums-Sha1": [
-    "5e48a76999c1399d8e746f80ae7fa576286bfed3 445820 chromium_144.0.7559.109-2~deb13u1.debian.tar.xz 75bfe8c9d25339bb71c2cae23d17e40474cd833e 4084 chromium_144.0.7559.109-2~deb13u1.dsc 04842f0d663eb5b6d5cfe4c2c161dda0ccd3bf37 735656840 chromium_144.0.7559.109.orig.tar.xz"
+    "8e1411fb5a5e3873de21cdbf9bd5af16d526a8f3 453568 chromium_145.0.7632.75-1~deb13u1.debian.tar.xz e05009608e247122ea340df6394bd3c8beb3e095 4106 chromium_145.0.7632.75-1~deb13u1.dsc 095b839b85ed46d3e8ccfaca94732aa5983c3323 749398580 chromium_145.0.7632.75.orig.tar.xz"
   ],
   "Checksums-Sha256": [
-    "4450edcfb77d246d070a58be9c18fcf2d7c25aff60dbcfd9bca75e7ff2cda233 445820 chromium_144.0.7559.109-2~deb13u1.debian.tar.xz 2ec08fb24d516fb4bb1d54cc2a5ddc2f6ab44ae7b5153330f733996aa91ca312 4084 chromium_144.0.7559.109-2~deb13u1.dsc 9181591401abdf2d825571a6a1666b98128f2ea09dd33e98d22dffa71866391c 735656840 chromium_144.0.7559.109.orig.tar.xz"
+    "57bff62a2ff21d595212dc7679e8014ce4688478a7de5980af40c380180e054c 453568 chromium_145.0.7632.75-1~deb13u1.debian.tar.xz 7e6f340d28b52994a406f0f427eedce8d78c4f8a4a1043a18802cd0f9cbb7738 4106 chromium_145.0.7632.75-1~deb13u1.dsc bffb79d531284fdf48c63c4a79223b55f62ff7f6dc14068e5d16f685deee077d 749398580 chromium_145.0.7632.75.orig.tar.xz"
   ],
   "Checksums-Sha512": [
-    "784e7f028a2f2e736ecd1a3865dd47502508a811d717667632bfc3a65bef228aefd1205d8ba14d7d1565c8f2b3099501520d8e89b2ff62442b29c4bb98b4cc5c 445820 chromium_144.0.7559.109-2~deb13u1.debian.tar.xz c78200368bc74f000e24d473a9a512bc8e4baf3e765199a95210d3fad400a3ae1de78981c8d1177b0749010a1dc810bced399bf2e39c3d8ac928203f1390da08 4084 chromium_144.0.7559.109-2~deb13u1.dsc 264542c194f6454787aeacbf4e960146545c4d5b48bf41d6c22288d1af14930354ff1109349134aa0d76a8f388bc1e0ad3d279ad9e59ef854108bfda70fbb40b 735656840 chromium_144.0.7559.109.orig.tar.xz"
+    "1271820b1d5c644a2985362da6e2166bf1a33bdd3cf63e13f9d316407cc84f7b52f4269da6051312f4566ddbfeee972f3fca8aa5e7182a3239b6ae9377e58945 453568 chromium_145.0.7632.75-1~deb13u1.debian.tar.xz 3ee6413d844a8e398f0aeb6263ec1f18d111a27b97b7436a6594be7f6f504d145fb4076d6ed8fad604b83b55f568d57ac6b8ff18ced67e6c0803bb6ce2939a5b 4106 chromium_145.0.7632.75-1~deb13u1.dsc 0a81e67ef7fbcf89a77d4165343e096b57e7471f0c04ae5421a49f1f470d028ed6a663844e4d8faeb085dad07836675ff6514ea112da101c27d7f8535d0321a4 749398580 chromium_145.0.7632.75.orig.tar.xz"
   ],
   "Directory": [
     "pool/main/c/chromium"
   ],
   "Files": [
-    "1d67c0188433c8163a0afe35af821667 445820 chromium_144.0.7559.109-2~deb13u1.debian.tar.xz 7786963c807932808dbcb4151ac30665 4084 chromium_144.0.7559.109-2~deb13u1.dsc 09031670b0bf75ca321acaf31ce7ff60 735656840 chromium_144.0.7559.109.orig.tar.xz"
+    "6b68ae8f84c21e0a79f7e386bade3e45 453568 chromium_145.0.7632.75-1~deb13u1.debian.tar.xz 9f9969626248a3c27792f9b9ef08a00a 4106 chromium_145.0.7632.75-1~deb13u1.dsc 4dd125e5d12945ff07913c7aff1293b4 749398580 chromium_145.0.7632.75.orig.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/chromium-team/chromium.git"
   ],
   "Version": [
-    "144.0.7559.109-2~deb13u1"
+    "145.0.7632.75-1~deb13u1"
   ]
 }
