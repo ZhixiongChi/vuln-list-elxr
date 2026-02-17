@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libconmonrs-crio-plugin"
+    "conmonrs, crio-backend-conmonrs"
   ],
   "Build-Depends": [
-    "capnproto, curl, debhelper-compat (= 12)"
+    "capnproto, cargo, debhelper-compat (= 12)"
   ],
   "Checksums-Sha1": [
-    "6791b9b0cc8498d3feb7f5516d6379f822750c18 2428 conmon-rs_0.6.6-0elxr13u1.debian.tar.xz 6a38925a9501f711f3210771c2de00db5976981f 933 conmon-rs_0.6.6-0elxr13u1.dsc fcbd1434a3d30c54f234ffbb0a5dbc0640efbb5c 48382332 conmon-rs_0.6.6.orig.tar.gz"
+    "2ff098a2ea6bc380f946fe7872f40c14341c1a3c 6184 conmon-rs_0.7.3+elxr13ds1-0elxr13u1.debian.tar.xz 5b9eb4314185a7754b4bed039abfc3aa1215cc35 1273 conmon-rs_0.7.3+elxr13ds1-0elxr13u1.dsc 44bd83879e7669e7e42038e5c07f6684e20d3e27 28613499 conmon-rs_0.7.3+elxr13ds1.orig.tar.gz"
   ],
   "Checksums-Sha256": [
-    "153244c5fec6a9c0b31c914dfed2bd1144ccb0336b0627e93193446f04c460f6 2428 conmon-rs_0.6.6-0elxr13u1.debian.tar.xz 0cb9d846e55a36f190c0fa2ce01c329d74fd7d91ab51f45ed43f66c7b30fa888 933 conmon-rs_0.6.6-0elxr13u1.dsc 9545ac9b56108ffe956059f31536162a175c5fb24288cccfd9364598741d38be 48382332 conmon-rs_0.6.6.orig.tar.gz"
+    "fb1cc1fd48be2440e25f1be98ff78449c4de4e5ae12d0b0713b08ca0820fdca3 6184 conmon-rs_0.7.3+elxr13ds1-0elxr13u1.debian.tar.xz 33ae4b282e5c2768b7a74de0fae5d857f21fb67e3dba601687056b869cd891d3 1273 conmon-rs_0.7.3+elxr13ds1-0elxr13u1.dsc d2d60b5a7f276924067c004dcf25f6a843405e549b9b61b4a81d80b3e43aa2f3 28613499 conmon-rs_0.7.3+elxr13ds1.orig.tar.gz"
   ],
   "Checksums-Sha512": [
-    "4129f4396269f3ebfbf044c4d812832577cc54f3293187a51340da87089d5ee1f0005d64d023b7926ad20c675f58d9ded875dcda95a67288233f2f00ddca14fb 2428 conmon-rs_0.6.6-0elxr13u1.debian.tar.xz c139a55c9d55838cfe2f4dcfa8a0499c722183aa69f99417eda792cc4fa591d3b5f264df644c20781b756b4b5a7a0cdd840a5e1f56c11da5ba7d46059673efdf 933 conmon-rs_0.6.6-0elxr13u1.dsc 5164d5205235c654f8d7f488af0f6edff2673290c8a299e7731ea0da5b0ea4f9909b8a15852e97d5bb7b90c10de288b99e81d1d1a0823fa968005e5f9efb0d58 48382332 conmon-rs_0.6.6.orig.tar.gz"
+    "7866fdc281d72085826a3242e447fc4313386d409f8280cc75463b92a8fa774435f3a9ef8c110b43124756e88e58969ab248d459a8ca39835df7bb4af234ea4a 6184 conmon-rs_0.7.3+elxr13ds1-0elxr13u1.debian.tar.xz 096d4cef67d951b14252cfa0174eb0f25b33da1b86b08c3d566428bb7ecbb440a5e9d7e48947e4e609d3f67552b5938b200393236635792928262867bc90dc58 1273 conmon-rs_0.7.3+elxr13ds1-0elxr13u1.dsc 55a7d97ac34659ed4467d50f333035b5cac2a0dbd82c36ebb5db366073c4e2ab020be80df6a7bf84c4ca554e01fb9321445e44fe6d9b3fca8894a37e58b1d93e 28613499 conmon-rs_0.7.3+elxr13ds1.orig.tar.gz"
   ],
   "Directory": [
     "pool/main/c/conmon-rs"
   ],
   "Files": [
-    "d47d70c3701f9a10e9f98cc4f445ce3a 2428 conmon-rs_0.6.6-0elxr13u1.debian.tar.xz 1f1dde07fbef85754b1be5b4f53da872 933 conmon-rs_0.6.6-0elxr13u1.dsc 3cbe26155fb85b00395f180ec98afd98 48382332 conmon-rs_0.6.6.orig.tar.gz"
+    "854f1c6fe2f45150f7ba6e74ab854db8 6184 conmon-rs_0.7.3+elxr13ds1-0elxr13u1.debian.tar.xz f7836c83db53b338db80838ef91fbfd9 1273 conmon-rs_0.7.3+elxr13ds1-0elxr13u1.dsc 5b3aed4addb7b14b4ef1c0a47d031948 28613499 conmon-rs_0.7.3+elxr13ds1.orig.tar.gz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,12 +36,21 @@
     "conmon-rs"
   ],
   "Package-List": [
-    "libconmonrs-crio-plugin deb libs optional arch=any"
+    "conmonrs deb admin optional arch=any crio-backend-conmonrs deb admin optional arch=any"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Tom MacDougall \u003cTom.MacDougall@windriver.com\u003e, William Lyu \u003cWilliam.Lyu@windriver.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://gitlab.com/elxr/cloud/packages/conmon-rs"
+  ],
+  "Vcs-Git": [
+    "https://gitlab.com/elxr/cloud/packages/conmon-rs.git"
   ],
   "Version": [
-    "0.6.6-0elxr13u1"
+    "0.7.3+elxr13ds1-0elxr13u1"
   ]
 }
