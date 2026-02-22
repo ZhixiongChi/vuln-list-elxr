@@ -9,19 +9,19 @@
     "debhelper-compat (= 13), libmodule-build-perl, perl"
   ],
   "Build-Depends-Indep": [
-    "libfuture-io-perl \u003c!nocheck\u003e, libfuture-perl \u003c!nocheck\u003e, libio-socket-ip-perl \u003c!nocheck\u003e, libmetrics-any-perl \u003c!nocheck\u003e, libsereal-perl \u003c!nocheck\u003e, libsocket-perl \u003c!nocheck\u003e, libstruct-dumb-perl \u003c!nocheck\u003e, libtest-future-io-impl-perl \u003c!nocheck\u003e | libfuture-io-perl (\u003c\u003c 0.14) \u003c!nocheck\u003e, libtest-metrics-any-perl \u003c!nocheck\u003e, libtest-pod-perl \u003c!nocheck\u003e, libtest2-suite-perl (\u003e= 0.000149) \u003c!nocheck\u003e, netbase \u003c!nocheck\u003e"
+    "libfuture-io-perl \u003c!nocheck\u003e, libfuture-perl \u003c!nocheck\u003e, libio-socket-ip-perl \u003c!nocheck\u003e, libmetrics-any-perl \u003c!nocheck\u003e, libsereal-perl \u003c!nocheck\u003e, libsocket-perl \u003c!nocheck\u003e, libstruct-dumb-perl \u003c!nocheck\u003e, libtest-future-io-impl-perl (\u003e= 0.17) \u003c!nocheck\u003e, libtest-metrics-any-perl \u003c!nocheck\u003e, libtest-pod-perl \u003c!nocheck\u003e, libtest2-suite-perl (\u003e= 0.000149) \u003c!nocheck\u003e, netbase \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "6edc6693eec0d84c391f01d793104d6dee5471682d068be2d48217023f58b792 2822 libio-async-perl_0.804-2.dsc 90615432918164cd6f9e6dc2521195a4589606ffd017e03d5aa97f407d39c494 253954 libio-async-perl_0.804.orig.tar.gz 3d3d6edb5f793aa35b9a5a62d3b99bfdbb18f514f9705725413df01946e2c25d 6904 libio-async-perl_0.804-2.debian.tar.xz"
+    "3e058ebff3faa3ce5aa7c84f495183c3e132d051db0e127a2680c55bd3df2f6c 2686 libio-async-perl_0.805-1.dsc 77f997b74953dbdf63a750fcff4338d1bfacd89100e1fb27c3473f0a222a9a0c 257584 libio-async-perl_0.805.orig.tar.gz 0a42f5949cfdba164a1b96062bf0c7541413b107f0206126ffebdd8957734c54 6960 libio-async-perl_0.805-1.debian.tar.xz"
   ],
   "Dgit": [
-    "4d868ccfac3ed09c0330e19cfb78958f553b702a debian archive/debian/0.804-2 https://git.dgit.debian.org/libio-async-perl"
+    "0bd9b3322ea58cac89a66537b10e576ec59028ea debian archive/debian/0.805-1 https://git.dgit.debian.org/libio-async-perl"
   ],
   "Directory": [
     "pool/main/libi/libio-async-perl"
   ],
   "Files": [
-    "16e94c46108858cad34844c627dfea9e 2822 libio-async-perl_0.804-2.dsc 3a4a448e3bbefb66b524de0ce2309777 253954 libio-async-perl_0.804.orig.tar.gz 32e1f802ca74a083f675f44f41b886d9 6904 libio-async-perl_0.804-2.debian.tar.xz"
+    "81e4ace026fbdce49536b07412d709d0 2686 libio-async-perl_0.805-1.dsc c24bd67d83230f9a3abd4e8ecbb3efc2 257584 libio-async-perl_0.805.orig.tar.gz aca4e331dbf387c0550d1e53cf68e483 6960 libio-async-perl_0.805-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +45,7 @@
     "perl"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libio-async-perl.git"
   ],
   "Version": [
-    "0.804-2"
+    "0.805-1"
   ]
 }

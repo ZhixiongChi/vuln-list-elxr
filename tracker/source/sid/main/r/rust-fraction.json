@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-fraction-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-lazy-static-1+default-dev \u003c!nocheck\u003e, librust-num-0.4+num-bigint-dev (\u003e= 0.4.2) \u003c!nocheck\u003e, librust-num-0.4+std-dev (\u003e= 0.4.2) \u003c!nocheck\u003e, librust-num-0.4-dev (\u003e= 0.4.2) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "b00f5e53dc57f581812be6b994831dc728c30819e8b73326eb049ef3b4850e29 1862 rust-fraction_0.15.3-2.dsc 0f158e3ff0a1b334408dc9fb811cd99b446986f4d8b741bb08f9df1604085ae7 95223 rust-fraction_0.15.3.orig.tar.gz 49b0d399f829836422b9c80593de41459b79d55e2dd22689b29957e0607e959e 4336 rust-fraction_0.15.3-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-fraction"
+  ],
+  "Files": [
+    "3c72c9e6715f798a3a1f22c121604827 1862 rust-fraction_0.15.3-2.dsc d474a6184e06dea44f9c0d3007c6ec27 95223 rust-fraction_0.15.3.orig.tar.gz 734f7ae8be6313706544e45e26933b37 4336 rust-fraction_0.15.3-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dnsl48/fraction.git"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-fraction"
+  ],
+  "Package-List": [
+    "librust-fraction-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-criterion-0.5+default-dev, librust-rand-0.8+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/fraction"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/fraction]"
+  ],
+  "Version": [
+    "0.15.3-2"
+  ]
+}

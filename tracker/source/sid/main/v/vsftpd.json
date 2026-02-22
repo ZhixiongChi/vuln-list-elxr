@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "vsftpd, vsftpd-dbg"
+    "vsftpd"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 11), libcap2-dev [linux-any], libpam0g-dev, libssl-dev, libwrap0-dev"
+    "debhelper-compat (= 13), libcap2-dev [linux-any], libpam0g-dev, libssl-dev, libwrap0-dev"
   ],
   "Checksums-Sha256": [
-    "8cca8999fb4132df706c5ebed3acf239f6d0aaf8a54cff2ed0aab9b4f6ebdc9d 1854 vsftpd_3.0.5-0.4.dsc 26b602ae454b0ba6d99ef44a09b6b9e0dfa7f67228106736df1f278c70bc91d3 197778 vsftpd_3.0.5.orig.tar.gz 704bf0a0cd226d43c40a1dc7714a2d02426002fc6d9b1e588cbf9d0422021a7d 36508 vsftpd_3.0.5-0.4.debian.tar.xz"
+    "9c6e2ef38b437c3c4a41487bb9eba03eae05d55e28b49f05f8e6e38f44c81101 1950 vsftpd_3.0.5-0.5.dsc 26b602ae454b0ba6d99ef44a09b6b9e0dfa7f67228106736df1f278c70bc91d3 197778 vsftpd_3.0.5.orig.tar.gz 70f89e2726474bb32666b00b89bc1e59b3f23e0275475faf9e12da7376d6ef46 36972 vsftpd_3.0.5-0.5.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/v/vsftpd"
   ],
   "Files": [
-    "e4751c1a2a19f25c3b3c64f4bcc9e742 1854 vsftpd_3.0.5-0.4.dsc efbf362a65bec771bc15ad311f5a982e 197778 vsftpd_3.0.5.orig.tar.gz 404ef6eaedf17384ab3a2a702f7ca5d7 36508 vsftpd_3.0.5-0.4.debian.tar.xz"
+    "e172f27a83f9093db90a7979a5dd1b6d 1950 vsftpd_3.0.5-0.5.dsc efbf362a65bec771bc15ad311f5a982e 197778 vsftpd_3.0.5.orig.tar.gz 0c4d53e56f617244d2c80c2a7e615245 36972 vsftpd_3.0.5-0.5.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://vsftpd.beasts.org/"
+    "https://security.appspot.com/vsftpd.html"
   ],
   "Maintainer": [
     "Keng-Yu Lin \u003ckengyu@debian.org\u003e"
@@ -30,7 +30,7 @@
     "vsftpd"
   ],
   "Package-List": [
-    "vsftpd deb net optional arch=any vsftpd-dbg deb debug optional arch=any"
+    "vsftpd deb net optional arch=any"
   ],
   "Priority": [
     "optional"
@@ -39,7 +39,7 @@
     "net"
   ],
   "Standards-Version": [
-    "4.5.1.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -47,7 +47,13 @@
   "Testsuite-Triggers": [
     "ftp"
   ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/vsftpd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/vsftpd.git"
+  ],
   "Version": [
-    "3.0.5-0.4"
+    "3.0.5-0.5"
   ]
 }

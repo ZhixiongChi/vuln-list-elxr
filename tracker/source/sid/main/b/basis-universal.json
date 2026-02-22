@@ -6,16 +6,16 @@
     "gpu-basis-universal"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake"
+    "debhelper-compat (= 13), cmake, sse4.1-support [amd64 i386 x32]"
   ],
   "Checksums-Sha256": [
-    "9dd3561399c26d2769fffe2f9f1c44e1b8fe6bb96e6fe8e2dbf5866d91ca05c4 1816 basis-universal_2.0.2-2.dsc 416efbe765c59ce6930eed51cfa0f1c67abefc1f12264cc65a27480f4a73186b 130069473 basis-universal_2.0.2.orig.tar.gz 633750d1e68415436963fac8504048e98896493eef48898a6bc77cc9a78d014c 9100 basis-universal_2.0.2-2.debian.tar.xz"
+    "0ec2f5544b0e4e02435a1345b81a8fe5ffd8f3dfb3a05708c999ac8e04fb0118 1849 basis-universal_2.0.2-3.dsc 416efbe765c59ce6930eed51cfa0f1c67abefc1f12264cc65a27480f4a73186b 130069473 basis-universal_2.0.2.orig.tar.gz 6f31d9e3029dd519bf5af67100b6848286ed6e1df786503711d480f18c74879d 9148 basis-universal_2.0.2-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/b/basis-universal"
   ],
   "Files": [
-    "39e7f0e460190e7da8fc9e34ce6f8add 1816 basis-universal_2.0.2-2.dsc 8a625a0a6dd8ccda8f6456f912480502 130069473 basis-universal_2.0.2.orig.tar.gz e9394006cfa559682e4c541f9d9d004d 9100 basis-universal_2.0.2-2.debian.tar.xz"
+    "f3f679cdb10c01b206e6d5964aac76a4 1849 basis-universal_2.0.2-3.dsc 8a625a0a6dd8ccda8f6456f912480502 130069473 basis-universal_2.0.2.orig.tar.gz 6e4d9241b59a5325385b2e001d035394 9148 basis-universal_2.0.2-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,6 +42,6 @@
     "4.7.2"
   ],
   "Version": [
-    "2.0.2-2"
+    "2.0.2-3"
   ]
 }
