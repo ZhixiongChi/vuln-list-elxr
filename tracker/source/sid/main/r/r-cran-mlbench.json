@@ -6,16 +6,16 @@
     "r-cran-mlbench"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-r, r-base-dev"
+    "debhelper-compat (= 13), dh-r, r-base-dev, architecture-is-64-bit, architecture-is-little-endian"
   ],
   "Checksums-Sha256": [
-    "81b2fdbbefba104603b74b6c2130c0d1790c0ace608b55d37ddfffc4c58f264e 2053 r-cran-mlbench_2.1-6-1.dsc ea2ccf508594f935661e29854496f350f0b83680dd9a4d630dd3e3e03652951e 921024 r-cran-mlbench_2.1-6.orig.tar.gz a8274138a0b859dc3621b7a5b7ca67002d3c128157d86855e22512cfa8c19ee1 3040 r-cran-mlbench_2.1-6-1.debian.tar.xz"
+    "24085f47e644ccbefc440678b771528623aab6f67d1fc79bcc9cade2d11403cc 2083 r-cran-mlbench_2.1-7-1.dsc 7669e35715721d0dc412380747ba36f5a2fd63938851a289de815bbe91d8015c 991847 r-cran-mlbench_2.1-7.orig.tar.gz 28fcd801f7605b87b200728623ea0a2e68e12c5596be6cb6464fae1cae075a4b 3072 r-cran-mlbench_2.1-7-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/r-cran-mlbench"
   ],
   "Files": [
-    "3257b94a95e3641d2c26f01aa0e67ce0 2053 r-cran-mlbench_2.1-6-1.dsc f7dc97f533395d1f87892cdd8c38c9c2 921024 r-cran-mlbench_2.1-6.orig.tar.gz bd6843554bb91e36f507b46da2d7f946 3040 r-cran-mlbench_2.1-6-1.debian.tar.xz"
+    "9713b629630b522d789183b41d2751f5 2083 r-cran-mlbench_2.1-7-1.dsc e1f5bd20915a1c0fc71410264a242c5a 991847 r-cran-mlbench_2.1-7.orig.tar.gz 6d4570cc8e0e2f41f631a65b2775c043 3072 r-cran-mlbench_2.1-7-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-r"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/r-pkg-team/r-cran-mlbench.git"
   ],
   "Version": [
-    "2.1-6-1"
+    "2.1-7-1"
   ]
 }
