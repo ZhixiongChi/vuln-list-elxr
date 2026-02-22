@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), dh-sequence-cargo"
   ],
   "Build-Depends-Arch": [
-    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-lazy-static-1+default-dev (\u003e= 1.4.0-~~) \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e, librust-symphonia-metadata-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e, librust-symphonia-utils-xiph-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e"
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-lazy-static-1+default-dev (\u003e= 1.4.0-~~) \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.5-~~) \u003c!nocheck\u003e, librust-symphonia-metadata-0.5+default-dev (\u003e= 0.5.5-~~) \u003c!nocheck\u003e, librust-symphonia-utils-xiph-0.5+default-dev (\u003e= 0.5.5-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "7bcbfb83a3addae941b45b69060cd07d09da97293e9fe09c3ec8ab9d1aa7aa98 2637 rust-symphonia-format-mkv_0.5.4-1.dsc 1bb43471a100f7882dc9937395bd5ebee8329298e766250b15b3875652fe3d6f 17398 rust-symphonia-format-mkv_0.5.4.orig.tar.gz 8840da60b27b3efa8bb4588ce96966f39ff66087dd35e734dcf9b7e6d5fadb64 2192 rust-symphonia-format-mkv_0.5.4-1.debian.tar.xz"
+    "c3fc30ab3ead744c3b62c7da78257425ffcf14ae047e9ebc3ac27d93ddfb8bea 2636 rust-symphonia-format-mkv_0.5.5-1.dsc 122d786d2c43a49beb6f397551b4a050d8229eaa54c7ddf9ee4b98899b8742d0 18343 rust-symphonia-format-mkv_0.5.5.orig.tar.gz 9646e2bc3d7ddffa934e1e2b540dece7b19599acb75fb2f671eaa91cc1e4a462 2188 rust-symphonia-format-mkv_0.5.5-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-symphonia-format-mkv"
   ],
   "Files": [
-    "71d48349e55d7e2f99bca533b4452401 2637 rust-symphonia-format-mkv_0.5.4-1.dsc f06f6016b3146e480055da3ff49bd0c7 17398 rust-symphonia-format-mkv_0.5.4.orig.tar.gz dfa1af606a7187f3a67896ca9c74741a 2192 rust-symphonia-format-mkv_0.5.4-1.debian.tar.xz"
+    "60ef0909d058abd0bb46c9916cd4b056 2636 rust-symphonia-format-mkv_0.5.5-1.dsc 87c4e780174847b07fcb0865436c6fa9 18343 rust-symphonia-format-mkv_0.5.5.orig.tar.gz 928111ddd09125c2cb640be1bb8aee11 2188 rust-symphonia-format-mkv_0.5.5-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/symphonia-format-mkv]"
   ],
   "Version": [
-    "0.5.4-1"
+    "0.5.5-1"
   ]
 }

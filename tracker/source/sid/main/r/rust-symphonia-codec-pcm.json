@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), dh-sequence-cargo"
   ],
   "Build-Depends-Arch": [
-    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e"
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.5-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "30c68deac9cbae85edc0d12b27d880b6e3244993d36c2adba4e61832456db774 2423 rust-symphonia-codec-pcm_0.5.4-1.dsc f395a67057c2ebc5e84d7bb1be71cce1a7ba99f64e0f0f0e303a03f79116f89b 6179 rust-symphonia-codec-pcm_0.5.4.orig.tar.gz 38e0c731b923b26390d586d312c82eebac5f74052dfeae138d7f6065b9e3a6d4 2668 rust-symphonia-codec-pcm_0.5.4-1.debian.tar.xz"
+    "18e0b8dd5082c38bd717160c7b7311a3c7c3fb23a3ce3c7ea4372968ff7caf77 2422 rust-symphonia-codec-pcm_0.5.5-1.dsc 4e89d716c01541ad3ebe7c91ce4c8d38a7cf266a3f7b2f090b108fb0cb031d95 6795 rust-symphonia-codec-pcm_0.5.5.orig.tar.gz e6060034dec104b62e7fdb8bf6c2988a258acdfecd0626c40f9b5d3d7b639c79 2672 rust-symphonia-codec-pcm_0.5.5-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-symphonia-codec-pcm"
   ],
   "Files": [
-    "9917a3d0084126969f9d4e9522290ccc 2423 rust-symphonia-codec-pcm_0.5.4-1.dsc 17f732cedeb89a6000c4148542379894 6179 rust-symphonia-codec-pcm_0.5.4.orig.tar.gz 3d64260fbaeda4a40c3f170e5d00f8d0 2668 rust-symphonia-codec-pcm_0.5.4-1.debian.tar.xz"
+    "054d2d72642b611d052edc683996e295 2422 rust-symphonia-codec-pcm_0.5.5-1.dsc 4c673811ccd0be5aca493de53a0f5705 6795 rust-symphonia-codec-pcm_0.5.5.orig.tar.gz 8c00648a46c09443b74133d828827307 2672 rust-symphonia-codec-pcm_0.5.5-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/symphonia-codec-pcm]"
   ],
   "Version": [
-    "0.5.4-1"
+    "0.5.5-1"
   ]
 }

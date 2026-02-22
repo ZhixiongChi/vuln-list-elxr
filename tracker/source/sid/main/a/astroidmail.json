@@ -9,13 +9,13 @@
     "cmake, cmark \u003c!nocheck\u003e, debhelper-compat (= 13), gnupg \u003c!nocheck\u003e, libboost-date-time-dev, libboost-filesystem-dev, libboost-log-dev, libboost-program-options-dev, libboost-system-dev, libboost-test-dev, libboost-thread-dev, libglibmm-2.4-dev, libgmime-3.0-dev, libgtkmm-3.0-dev, libnotmuch-dev, libpeas-dev, libprotobuf-dev, libsass-dev, libvte-2.91-dev, libwebkit2gtk-4.1-dev, notmuch \u003c!nocheck\u003e, pkgconf, protobuf-compiler, python3-gi, scdoc, ronn, w3m \u003c!nocheck\u003e, xauth, xvfb"
   ],
   "Checksums-Sha256": [
-    "5849b1d27b2be0c17853b5139c7b94333ba1c9393fa8e08373ad66ee2c092595 2410 astroidmail_0.17+ds-2.dsc ac7b366e4c5bb276330175b1531d8455ffbe20a20db05dcdded955c84ccfa30d 3280176 astroidmail_0.17+ds.orig.tar.xz e7df4090824af99a436a8fdcf2815a0fa3f222b9236a678322d1b2382e91423f 11388 astroidmail_0.17+ds-2.debian.tar.xz"
+    "906dd588664f608bf5eefce8e3016c4483317c755e190be233675b0b65cad28a 2416 astroidmail_0.17+ds-3.dsc ac7b366e4c5bb276330175b1531d8455ffbe20a20db05dcdded955c84ccfa30d 3280176 astroidmail_0.17+ds.orig.tar.xz 3c8d4467175c4afc38bb2d3b29777c911864af572b6c76520719c9da90bee00e 11428 astroidmail_0.17+ds-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/a/astroidmail"
   ],
   "Files": [
-    "c6b98605e261ff514e5cee22076164d2 2410 astroidmail_0.17+ds-2.dsc 2362286cbf43a63cf2506122435068cd 3280176 astroidmail_0.17+ds.orig.tar.xz 40ec590679069f6851c3bcb3e66643ea 11388 astroidmail_0.17+ds-2.debian.tar.xz"
+    "d5ffebb486a7f7c777596590ad9224b9 2416 astroidmail_0.17+ds-3.dsc 2362286cbf43a63cf2506122435068cd 3280176 astroidmail_0.17+ds.orig.tar.xz cd42fb7133adb696ac989068e59ecb84 11428 astroidmail_0.17+ds-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "libtest-command-simple-perl, perl"
+    "libtest-command-simple-perl, perl, xvfb"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/astroidmail"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/astroidmail.git"
   ],
   "Version": [
-    "0.17+ds-2"
+    "0.17+ds-3"
   ]
 }

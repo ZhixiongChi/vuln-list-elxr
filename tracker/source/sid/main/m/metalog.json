@@ -6,19 +6,28 @@
     "metalog"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), autoconf-archive, libpcre2-dev, pkgconf, zlib1g-dev"
+    "debhelper-compat (= 13), dh-sequence-runit, autoconf-archive, libpcre2-dev, pkgconf, zlib1g-dev"
   ],
   "Checksums-Sha256": [
-    "48ffeb56481ac1a516c73f9916a02a56553983151b32b72ebc0b8524a2b5d339 1321 metalog_20260105-1.dsc 6f227288e809ce0aef44012e44f6755d84e2721174741a8fe5059055df773593 50776 metalog_20260105.orig.tar.gz b35ecadacac63ecd2a6d8bd210104f127a92f1d537435d1241f7c153ee00f9e0 4788 metalog_20260105-1.debian.tar.xz"
+    "b3dc54b6cd7e03cbb6d04b3e583869862b92158a8f53ce1509aa76c941c50a80 2220 metalog_20260221-1.dsc f306b05579697dc9107ea2b2f7e4d117751eaf0983f8113d019102cf937b1b02 44772 metalog_20260221.orig.tar.xz bdf4cce0afd72595f9f144c3d2c7d24f1ac41400d665ad3e0ea140e88c52ceff 5692 metalog_20260221-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "5d98af23865a53f7d6e8b915afdd743017e2e66b debian archive/debian/20260221-1 https://git.dgit.debian.org/metalog"
   ],
   "Directory": [
     "pool/main/m/metalog"
   ],
   "Files": [
-    "2e3c6c0b58d8fae7b803d392eb5be78e 1321 metalog_20260105-1.dsc 9fb6a06eba982c2d2c3f1db976f05d03 50776 metalog_20260105.orig.tar.gz 7b6c3b386687d5f7fd12a949612cd9f6 4788 metalog_20260105-1.debian.tar.xz"
+    "db33208a186854ae7b4cd000e0aa4097 2220 metalog_20260221-1.dsc 83090ade003915a3980a905be92c2ae6 44772 metalog_20260221.orig.tar.xz 01c168a5b95880a91d3129bff1630185 5692 metalog_20260221-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=55df2923e5c6ca1b36d8c7c664769502a0a192f5 fp=30a6192fa2c8e79967706d75baa80ed96f7887e9"
+  ],
+  "Git-Tag-Tagger": [
+    "Andrew Bower \u003candrew@bower.uk\u003e"
   ],
   "Homepage": [
     "https://metalog.sourceforge.net/"
@@ -41,8 +50,11 @@
   "Standards-Version": [
     "4.7.3"
   ],
-  "Uploaders": [
-    "Antoine Le Gonidec \u003cvv221@debian.org\u003e"
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "bash, fakeroot"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/metalog"
@@ -51,6 +63,6 @@
     "https://salsa.debian.org/debian/metalog.git"
   ],
   "Version": [
-    "20260105-1"
+    "20260221-1"
   ]
 }

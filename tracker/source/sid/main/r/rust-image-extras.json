@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-image-extras-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.89.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-image-0.25+png-dev (\u003e= 0.25.8) \u003c!nocheck\u003e, librust-image-0.25-dev (\u003e= 0.25.8) \u003c!nocheck\u003e, librust-ouroboros-0.18+default-dev (\u003e= 0.18.5) \u003c!nocheck\u003e, librust-zip-5+deflate-dev (\u003e= 5.1.1) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "78ea25b9aadde2287366d3999d2b98422bf6ac943522cec797e084209a69bdef 1946 rust-image-extras_0.1.0-3.dsc 86d29ba92ef6970a2685cc758b455d190842b8b9e96c865ffd31cdb9954b7548 45269 rust-image-extras_0.1.0.orig.tar.gz 3691331c142df6e4f51a37d6f9648b2c962066c46e3032f801c165737f077825 3412 rust-image-extras_0.1.0-3.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-image-extras"
+  ],
+  "Files": [
+    "7b67f77f3a8dd5f0232e3f07457d5825 1946 rust-image-extras_0.1.0-3.dsc 4dc760f401b645e60337203c294cfc66 45269 rust-image-extras_0.1.0.orig.tar.gz 562acd21737ba535546017d702a13316 3412 rust-image-extras_0.1.0-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/image-rs/image-extras"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-image-extras"
+  ],
+  "Package-List": [
+    "librust-image-extras-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-image-0.25+png-dev, librust-image-0.25+tiff-dev, librust-walkdir-2+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cwerdahias@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/image-extras"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/image-extras]"
+  ],
+  "Version": [
+    "0.1.0-3"
+  ]
+}

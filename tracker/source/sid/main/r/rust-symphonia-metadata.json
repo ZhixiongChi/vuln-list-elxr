@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), dh-sequence-cargo"
   ],
   "Build-Depends-Arch": [
-    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-encoding-rs-0.8+default-dev (\u003e= 0.8.17-~~) \u003c!nocheck\u003e, librust-lazy-static-1+default-dev (\u003e= 1.4.0-~~) \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e"
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-encoding-rs-0.8+default-dev (\u003e= 0.8.17-~~) \u003c!nocheck\u003e, librust-lazy-static-1+default-dev (\u003e= 1.4.0-~~) \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.5-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "655bae7ebdf88e23c308cf16a3140469fec53dcf842ff66fa7f0a98fda489c01 2538 rust-symphonia-metadata_0.5.4-1.dsc bc622b9841a10089c5b18e99eb904f4341615d5aa55bbf4eedde1be721a4023c 23343 rust-symphonia-metadata_0.5.4.orig.tar.gz 25c49158db208b1c2c70f243ed2b08288074b9f25fff2400f80fd7a180f4f669 2180 rust-symphonia-metadata_0.5.4-1.debian.tar.xz"
+    "e40835af6dbdc392cea432dbe9fce09495ba4302edf0fd138c30b3e3d5cf1758 2537 rust-symphonia-metadata_0.5.5-1.dsc 36306ff42b9ffe6e5afc99d49e121e0bd62fe79b9db7b9681d48e29fa19e6b16 24184 rust-symphonia-metadata_0.5.5.orig.tar.gz b270c18dc254d86a1bb6ae3bf559c69f45f3218200043543ffced56e1762a983 2192 rust-symphonia-metadata_0.5.5-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-symphonia-metadata"
   ],
   "Files": [
-    "d32104cd27ab08db602d1d0a17bf156f 2538 rust-symphonia-metadata_0.5.4-1.dsc 5291a900be03aff8a0039db3c10bb7bc 23343 rust-symphonia-metadata_0.5.4.orig.tar.gz 27df9c22e63ca85746cffefc9f21ae36 2180 rust-symphonia-metadata_0.5.4-1.debian.tar.xz"
+    "9095432837f9fcba2dba32874a8cfb2d 2537 rust-symphonia-metadata_0.5.5-1.dsc e6e3af9ce06f3b18497c361db7955b2b 24184 rust-symphonia-metadata_0.5.5.orig.tar.gz 2f32c123adf5db5cec7bda622db0099f 2192 rust-symphonia-metadata_0.5.5-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/symphonia-metadata]"
   ],
   "Version": [
-    "0.5.4-1"
+    "0.5.5-1"
   ]
 }

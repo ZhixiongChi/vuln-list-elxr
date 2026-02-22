@@ -9,22 +9,28 @@
     "python-sphinx"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-elpa (\u003e= 1.7), elpa-buttercup (\u003e= 1.31~) \u003c!nocheck\u003e, elpa-dash \u003c!nocheck\u003e, elpa-f \u003c!nocheck\u003e, elpa-haskell-mode \u003c!nocheck\u003e, elpa-let-alist \u003c!nocheck\u003e, elpa-shut-up \u003c!nocheck\u003e, gawk \u003c!nocheck\u003e, git \u003c!nocheck\u003e, python3-minimal \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e"
+    "debhelper-compat (= 13), dh-elpa (\u003e= 1.7), elpa-buttercup (\u003e= 1.31~) \u003c!nocheck\u003e, elpa-dash \u003c!nocheck\u003e, elpa-f \u003c!nocheck\u003e, elpa-haskell-mode \u003c!nocheck\u003e, elpa-let-alist \u003c!nocheck\u003e, elpa-shut-up \u003c!nocheck\u003e, furo \u003c!nodoc\u003e, gawk \u003c!nocheck\u003e, git \u003c!nocheck\u003e, gnupg \u003c!nocheck\u003e, python3-minimal \u003c!nocheck\u003e, python3-pygments \u003c!nodoc\u003e, python3-sphinx \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "ef93667b2a6c7349c16bf55da6e0866c1846c3321ffe91c2852c2d5351ce249c 2419 flycheck_35.0-1.dsc 748d7d078e6acb6236f7f0a2affb7d53d169004a8b76c38919bc7edbd2a1b6db 1050186 flycheck_35.0.orig.tar.gz 6c168e85c40897c6be4ba6c5823a284cea40cad50d7b53e795e77571d782487b 15508 flycheck_35.0-1.debian.tar.xz"
+    "4815e876075fa550d34e392191262c57fb6acb2649f14c6ffc4cec124139ba75 2601 flycheck_36.0-1.dsc 27261611905e77303c7cb7ea0b5b384c253c110a0a7488c02136b8aed7ac781a 962924 flycheck_36.0.orig.tar.xz d7b0030039df0ca080965dcb73eac1bc30a739a7847e7da510b709563c0ceffa 14172 flycheck_36.0-1.debian.tar.xz"
   ],
   "Dgit": [
-    "3eae30eab8a343dea8934ef345d7ba1753aa4ba0 debian archive/debian/35.0-1 https://git.dgit.debian.org/flycheck"
+    "5b962edc4cf889f3fd731c6ff90a086529ef6615 debian archive/debian/36.0-1 https://git.dgit.debian.org/flycheck"
   ],
   "Directory": [
     "pool/main/f/flycheck"
   ],
   "Files": [
-    "62f29466c6d38262b267e3c3b0c11192 2419 flycheck_35.0-1.dsc a2b2925e80a67b71d2ef4a5bc4a4f746 1050186 flycheck_35.0.orig.tar.gz 1326d0c3b03ad7449585f6027a6c45d2 15508 flycheck_35.0-1.debian.tar.xz"
+    "ff7773964d66d637bcea372b859eac1c 2601 flycheck_36.0-1.dsc 26931a715eb4d161e60e12a768ae9491 962924 flycheck_36.0.orig.tar.xz 9f1568c07a478ca9fcf41b41c304dbaa 14172 flycheck_36.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=b88731cf3d7d8333f570865eb09e908e39134382 fp=88a41f77aa3cd668c8f8b5802de965ed63825c93"
+  ],
+  "Git-Tag-Tagger": [
+    "Xiyue Deng \u003cmanphiz@gmail.com\u003e"
   ],
   "Homepage": [
     "https://www.flycheck.org/"
@@ -45,7 +51,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-elpa"
@@ -60,6 +66,6 @@
     "https://salsa.debian.org/emacsen-team/flycheck.git"
   ],
   "Version": [
-    "35.0-1"
+    "36.0-1"
   ]
 }

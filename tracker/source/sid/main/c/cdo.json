@@ -9,16 +9,16 @@
     "libcdi-dev, libcdi0"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), architecture-is-64-bit, dh-fortran-mod (\u003e= 0.32), libproj-dev, automake (\u003e= 1.16.1-1~), cfortran, libnetcdf-dev, netcdf-bin, libhdf5-serial-dev, libaec-dev, libfftw3-dev, libudunits2-dev, ruby, libeccodes-dev (\u003e= 2.13.1-2), libtool, libxml2-dev, libmagics++-dev (\u003e= 2.24.7-7), libcurl4-gnutls-dev | libcurl4-openssl-dev | libcurl4-nss-dev"
+    "debhelper-compat (= 13), architecture-is-64-bit, dh-fortran-mod (\u003e= 0.32), libproj-dev, automake, cfortran, libnetcdf-dev, netcdf-bin, libhdf5-serial-dev, libaec-dev, libfftw3-dev, libudunits2-dev, ruby, libeccodes-dev, libtool, libxml2-dev, libmagics++-dev, libcurl4-gnutls-dev | libcurl4-openssl-dev | libcurl4-nss-dev"
   ],
   "Checksums-Sha256": [
-    "0956e31cd997e53ecefa8cb7c4a1f680b85e952ad943ffd4caa4c5fceb2421ce 2446 cdo_2.5.4-1.dsc 04ea9c03e5e0b5f8352f450f9c419e9c54febe2c49445f94f023298219d2e174 10335380 cdo_2.5.4.orig.tar.xz 5c9f755859b0ffd0c43c4bee2b8a6de8651929f6f760a684ad5a3c60efb4d85f 13328 cdo_2.5.4-1.debian.tar.xz"
+    "5759dda2122055c7de695ad1375788ae29856abda8dd8a67f428ffaafa3ce154 2411 cdo_2.5.4-2.dsc 04ea9c03e5e0b5f8352f450f9c419e9c54febe2c49445f94f023298219d2e174 10335380 cdo_2.5.4.orig.tar.xz 7a1ffcd251cb79c830b9b7ebd5243e6b80df4e8ae028aae4034d5b5a8c530595 13664 cdo_2.5.4-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/c/cdo"
   ],
   "Files": [
-    "448293e754e97ff8b6b9df0f8006a629 2446 cdo_2.5.4-1.dsc ce407dff1ddc7fa3b7cad29ba085f3ed 10335380 cdo_2.5.4.orig.tar.xz 68213a777fac40cf819f51daa824776c 13328 cdo_2.5.4-1.debian.tar.xz"
+    "104bbb8539565ca34d206fa0a9dee20b 2411 cdo_2.5.4-2.dsc ce407dff1ddc7fa3b7cad29ba085f3ed 10335380 cdo_2.5.4.orig.tar.xz 38890543f7ee7d4782720e2f48461ca7 13664 cdo_2.5.4-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,24 +42,24 @@
     "utils"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "python3-cdo"
+    "python3-all, python3-cdo"
   ],
   "Uploaders": [
     "Alastair McKinstry \u003cmckinstry@debian.org\u003e"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org:/science-team/cdo.git"
+    "https://salsa.debian.org/science-team/cdo"
   ],
   "Vcs-Git": [
     "https://salsa.debian.org/science-team/cdo.git -b debian/latest"
   ],
   "Version": [
-    "2.5.4-1"
+    "2.5.4-2"
   ]
 }

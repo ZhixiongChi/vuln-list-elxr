@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), dh-sequence-cargo"
   ],
   "Build-Depends-Arch": [
-    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e"
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.5-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "dd88b91243641f31dde5e16ce1db94c6a2c334d964552db171491c786913b520 2434 rust-symphonia-codec-alac_0.5.4-1.dsc 2d8a6666649a08412906476a8b0efd9b9733e241180189e9f92b09c08d0e38f3 8905 rust-symphonia-codec-alac_0.5.4.orig.tar.gz 37254e1b308db73b192484539be4b6eccd0abc1e8499edddc44716005f15548f 2100 rust-symphonia-codec-alac_0.5.4-1.debian.tar.xz"
+    "240f2a96397e6fc70882baef8c1ad81dd3b0c8a6f2a018cdeb6bcd0c33a344ad 2433 rust-symphonia-codec-alac_0.5.5-1.dsc 8413fa754942ac16a73634c9dfd1500ed5c61430956b33728567f667fdd393ab 9531 rust-symphonia-codec-alac_0.5.5.orig.tar.gz 02f6346ccbbeea7f1cf70a07f8807708239c2d601e1871529c7c9c74e35e720f 2100 rust-symphonia-codec-alac_0.5.5-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-symphonia-codec-alac"
   ],
   "Files": [
-    "e6afdc88ea22c06e009b7b850acb0dba 2434 rust-symphonia-codec-alac_0.5.4-1.dsc db726668c454319ba4217a118a0308c2 8905 rust-symphonia-codec-alac_0.5.4.orig.tar.gz a0385f4e6fbb5cd16f7062081aaca4de 2100 rust-symphonia-codec-alac_0.5.4-1.debian.tar.xz"
+    "9f2279219ba513b3f68bee17aacb241c 2433 rust-symphonia-codec-alac_0.5.5-1.dsc 1380e9b39ad5c697a0979c5254e246ec 9531 rust-symphonia-codec-alac_0.5.5.orig.tar.gz ba73f085732702d4042f50ff2d481407 2100 rust-symphonia-codec-alac_0.5.5-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/symphonia-codec-alac]"
   ],
   "Version": [
-    "0.5.4-1"
+    "0.5.5-1"
   ]
 }

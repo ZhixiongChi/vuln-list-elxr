@@ -6,16 +6,19 @@
     "librust-symphonia-format-caf-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e, librust-symphonia-metadata-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.5-~~) \u003c!nocheck\u003e, librust-symphonia-metadata-0.5+default-dev (\u003e= 0.5.5-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "403fa3da8654c33c6fd8dd05060291e04062fb0cb8e10d3ffc485793a9b04726 1879 rust-symphonia-format-caf_0.5.4-1.dsc e43c99c696a388295a29fe71b133079f5d8b18041cf734c5459c35ad9097af50 8922 rust-symphonia-format-caf_0.5.4.orig.tar.gz 941bf0aa112da4dffcca042dd11c90c38e5809e6b7706e6706d1b50b38504a01 2104 rust-symphonia-format-caf_0.5.4-1.debian.tar.xz"
+    "2c41bce00c5b08820973234cfd8208ed65524c10906a98ed30a6561ba02a836c 2502 rust-symphonia-format-caf_0.5.5-1.dsc b8faf379316b6b6e6bbc274d00e7a592e0d63ff1a7e182ce8ba25e24edd3d096 9785 rust-symphonia-format-caf_0.5.5.orig.tar.gz c99d6c9bfa748900d8060fda93c45cce55ec37b844d940f35ebdb868f3da39bc 2128 rust-symphonia-format-caf_0.5.5-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-symphonia-format-caf"
   ],
   "Files": [
-    "c23373996a272148609d7c4460083705 1879 rust-symphonia-format-caf_0.5.4-1.dsc 0edb4ace915911983e614943f7952e8d 8922 rust-symphonia-format-caf_0.5.4.orig.tar.gz 22dce0d86f71b73d8c0ea58a594a2edb 2104 rust-symphonia-format-caf_0.5.4-1.debian.tar.xz"
+    "7a44e9b3cb714981c7b255abd14aed0c 2502 rust-symphonia-format-caf_0.5.5-1.dsc 8b4302ee29bf851cc6907ca07e3cb3c7 9785 rust-symphonia-format-caf_0.5.5.orig.tar.gz 1061e079fe025f14f4a95ec279a85ab8 2128 rust-symphonia-format-caf_0.5.5-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/symphonia-format-caf]"
   ],
   "Version": [
-    "0.5.4-1"
+    "0.5.5-1"
   ]
 }
