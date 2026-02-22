@@ -6,22 +6,22 @@
     "libmodule-pluggable-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libapp-fatpacker-perl \u003c!nocheck\u003e, libmodule-runtime-perl \u003c!nocheck\u003e"
+    "debhelper-compat (= 13)"
   ],
   "Build-Depends-Indep": [
-    "perl"
+    "libapp-fatpacker-perl \u003c!nocheck\u003e, libmodule-runtime-perl \u003c!nocheck\u003e, libscalar-list-utils-perl \u003c!nocheck\u003e, perl"
   ],
   "Checksums-Sha256": [
-    "77795a460d746ff5665a2ab3106dec7c587f9364f5d0086f16f9d6c223478b64 2494 libmodule-pluggable-perl_5.2-5.dsc b3f2ad45e4fd10b3fb90d912d78d8b795ab295480db56dc64e86b9fa75c5a6df 26920 libmodule-pluggable-perl_5.2.orig.tar.gz c17a81f491d52ee2be9a437ccd7c5c83e032d46833768b46a720c8233e421931 2556 libmodule-pluggable-perl_5.2-5.debian.tar.xz"
+    "baf807a63339b90f298b4837552c0c2c9846f76cb986a650445b7f36f14048f0 2532 libmodule-pluggable-perl_6.3-1.dsc 58512bb9c654746d0937770b98b559b30872d85ac24073485e5830890dd1b2a0 29053 libmodule-pluggable-perl_6.3.orig.tar.gz 8d12af65461cd6bccc8063e9af5a2d24deedf7eb07009f0164aec656e9aec601 2628 libmodule-pluggable-perl_6.3-1.debian.tar.xz"
   ],
   "Dgit": [
-    "df856d6147b4d636ab39c992a26c9bef2bb8c9c6 debian archive/debian/5.2-5 https://git.dgit.debian.org/libmodule-pluggable-perl"
+    "7c2c6cd098f6ce4c455592a2343cc6a8edd39619 debian archive/debian/6.3-1 https://git.dgit.debian.org/libmodule-pluggable-perl"
   ],
   "Directory": [
     "pool/main/libm/libmodule-pluggable-perl"
   ],
   "Files": [
-    "8a826b876bd4b20e7fce81197ab45dab 2494 libmodule-pluggable-perl_5.2-5.dsc 87ce2971662efd0b69a81bb4dc9ea76c 26920 libmodule-pluggable-perl_5.2.orig.tar.gz 1dd5cc91830ae3ec6350720aba1ba6a8 2556 libmodule-pluggable-perl_5.2-5.debian.tar.xz"
+    "c6fa61d13940fe31dcafe2fd509f5f6b 2532 libmodule-pluggable-perl_6.3-1.dsc 442bb8838a2b7053aa276a41233b0607 29053 libmodule-pluggable-perl_6.3.orig.tar.gz d974074fc8a1f4568affa71d7f6f2ec5 2628 libmodule-pluggable-perl_6.3-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +45,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libmodule-pluggable-perl.git"
   ],
   "Version": [
-    "5.2-5"
+    "6.3-1"
   ]
 }

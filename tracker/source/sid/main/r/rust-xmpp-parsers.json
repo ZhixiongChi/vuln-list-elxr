@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-xmpp-parsers-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-base64-0.22+default-dev \u003c!nocheck\u003e, librust-blake2-0.10+default-dev (\u003e= 0.10.4-~~) \u003c!nocheck\u003e, librust-chrono-0.4+std-dev (\u003e= 0.4.5-~~) \u003c!nocheck\u003e, librust-digest-0.10+default-dev \u003c!nocheck\u003e, librust-jid-0.12+default-dev \u003c!nocheck\u003e, librust-jid-0.12+minidom-dev \u003c!nocheck\u003e, librust-minidom-0.18+default-dev \u003c!nocheck\u003e, librust-serde-json-1+alloc-dev \u003c!nocheck\u003e, librust-sha1-0.10+default-dev \u003c!nocheck\u003e, librust-sha2-0.10+default-dev \u003c!nocheck\u003e, librust-sha3-0.10+default-dev \u003c!nocheck\u003e, librust-uuid-1+default-dev (\u003e= 1.9.1-~~) \u003c!nocheck\u003e, librust-uuid-1+v4-dev (\u003e= 1.9.1-~~) \u003c!nocheck\u003e, librust-xso-0.3+base64-dev \u003c!nocheck\u003e, librust-xso-0.3+default-dev \u003c!nocheck\u003e, librust-xso-0.3+jid-dev \u003c!nocheck\u003e, librust-xso-0.3+macros-dev \u003c!nocheck\u003e, librust-xso-0.3+minidom-dev \u003c!nocheck\u003e, librust-xso-0.3+panicking-into-impl-dev \u003c!nocheck\u003e, librust-xso-0.3+serde-json-dev \u003c!nocheck\u003e, librust-xso-0.3+uuid-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "d1810861062236a9d548a7bdf606dcd744f88c9dbe105171d9d462231f8bb891 2557 rust-xmpp-parsers_0.22.0-1.dsc 3d3fbca6d2a48e263c53479ba7cc198724a52fcac066f63f08ec2084b4455b9b 174722 rust-xmpp-parsers_0.22.0.orig.tar.gz 5a3a5aa5dd723cddb0426127d6ea4b09e7f7a674f7c75b24d1aee410c9e4d122 3572 rust-xmpp-parsers_0.22.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-xmpp-parsers"
+  ],
+  "Files": [
+    "dd21e2da423b5e0bb9b97bebaea5ccd0 2557 rust-xmpp-parsers_0.22.0-1.dsc 4897e6ef42d4a901b088fef9568e57ef 174722 rust-xmpp-parsers_0.22.0.orig.tar.gz 55113fe338fa1bb5e4199f928f2c670f 3572 rust-xmpp-parsers_0.22.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.com/xmpp-rs/xmpp-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-xmpp-parsers"
+  ],
+  "Package-List": [
+    "librust-xmpp-parsers-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Martin \u003cdebacle@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/xmpp-parsers"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/xmpp-parsers]"
+  ],
+  "Version": [
+    "0.22.0-1"
+  ]
+}

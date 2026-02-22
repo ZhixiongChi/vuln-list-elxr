@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-try-match-inner-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, librust-proc-macro2-dev \u003c!nocheck\u003e, librust-quote-dev \u003c!nocheck\u003e, librust-syn-dev \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "a60fbf53604b37f8c5edaa0c500d271398f893a254bf0a141f91a8d585d63d3e 1625 rust-try-match-inner_0.5.2-1.dsc b92628a0214f55f97540dbde7dcfbf76cd7c4218b001fb231ea6ef04f2b8a287 6004 rust-try-match-inner_0.5.2.orig.tar.xz 868d27af3405331e5ebdff77a0642a8af65119db16f654d3454044c545b76ca0 2316 rust-try-match-inner_0.5.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-try-match-inner"
+  ],
+  "Files": [
+    "aca992ee949b7d32bf176a85d909aa8d 1625 rust-try-match-inner_0.5.2-1.dsc 69d7256359c5ac53c0f73d9ed1e2744a 6004 rust-try-match-inner_0.5.2.orig.tar.xz d88dbefd1030a60d83a5a020291e16a0 2316 rust-try-match-inner_0.5.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/yvt/try_match-rs"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel@debian.org\u003e"
+  ],
+  "Package": [
+    "rust-try-match-inner"
+  ],
+  "Package-List": [
+    "librust-try-match-inner-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Vcs-Browser": [
+    "https://forgejo.debian.net/icann/rust-try-match-inner"
+  ],
+  "Vcs-Git": [
+    "https://forgejo.debian.net/icann/rust-try-match-inner"
+  ],
+  "Version": [
+    "0.5.2-1"
+  ]
+}

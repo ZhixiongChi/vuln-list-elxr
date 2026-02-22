@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), dh-sequence-cargo"
   ],
   "Build-Depends-Arch": [
-    "cargo:native, rustc:native (\u003e= 1.79.0), libstd-rust-dev, librust-clap-4+default-dev (\u003e= 4.5-~~), librust-clap-4+derive-dev (\u003e= 4.5-~~), librust-crossbeam-channel-0.5+default-dev, librust-ctrlc-3+default-dev (\u003e= 3.4-~~), librust-ctrlc-3+termination-dev (\u003e= 3.4-~~), librust-czkawka-core-8+default-dev, librust-fun-time-0.3+default-dev, librust-fun-time-0.3+log-dev, librust-handsome-logger-0.8+default-dev, librust-image-hasher-2+default-dev, librust-indicatif-0.17+default-dev, librust-log-0.4+default-dev (\u003e= 0.4.22-~~), librust-czkawka-core-dev (\u003e= 8.0.0-4~~)"
+    "cargo:native, rustc:native (\u003e= 1.85.0), libstd-rust-dev, librust-clap-4+default-dev (\u003e= 4.5-~~), librust-clap-4+derive-dev (\u003e= 4.5-~~), librust-crossbeam-channel-0.5+default-dev, librust-ctrlc-3+default-dev (\u003e= 3.4-~~), librust-ctrlc-3+termination-dev (\u003e= 3.4-~~), librust-czkawka-core-9+default-dev, librust-czkawka-core-9+fast-image-resize-dev, librust-humansize-2+default-dev (\u003e= 2.1-~~), librust-image-hasher-3+default-dev, librust-indicatif-0.17+default-dev, librust-log-0.4+default-dev (\u003e= 0.4.22-~~), librust-czkawka-core-dev (\u003e= 8.0.0-4~~)"
   ],
   "Checksums-Sha256": [
-    "5f5425b56626825f6fbd4aa9e027e7fb76b58c82341ab1df9e4b67c35e652f6f 2621 rust-czkawka-cli_8.0.0-4.dsc 6b21c1941468de1cb6fe0c81c9e602b7243c2dfc7a55d199130e029ee26089a1 43583 rust-czkawka-cli_8.0.0.orig.tar.gz 928c518b367c8bce65a7122dc9f9663fed9496859e29ffb85fd5ff9ac81fc07b 7272 rust-czkawka-cli_8.0.0-4.debian.tar.xz"
+    "3ff8c6176d8ce409d5e87551025c670db5440b0d7ac22427733c8f95c2e9d58c 2606 rust-czkawka-cli_9.0.0-1.dsc 4ddca768421e31c695899d385270b7de922f48090e4f3fb91d105474b6bf5bb7 48585 rust-czkawka-cli_9.0.0.orig.tar.gz 3df3bad7004b37dd6aaef6f2fa662a12a1e1ff8d37b7d052b798f423f2693ccf 7308 rust-czkawka-cli_9.0.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-czkawka-cli"
   ],
   "Files": [
-    "627df28915112f3281007f1a95609d5f 2621 rust-czkawka-cli_8.0.0-4.dsc 5a1bc8e6962fcac16c1634d8f21ef4a7 43583 rust-czkawka-cli_8.0.0.orig.tar.gz 84d095fd15117093c2cbc24823bb3eb0 7272 rust-czkawka-cli_8.0.0-4.debian.tar.xz"
+    "e81151467934aee064f04bf3b27698ba 2606 rust-czkawka-cli_9.0.0-1.dsc 9723d0b5a20ff8ef352fa09767c06b43 48585 rust-czkawka-cli_9.0.0.orig.tar.gz 18290a595fab8d8f7052994aaf2bc9e3 7308 rust-czkawka-cli_9.0.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Uploaders": [
     "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/czkawka-cli]"
   ],
   "Version": [
-    "8.0.0-4"
+    "9.0.0-1"
   ]
 }

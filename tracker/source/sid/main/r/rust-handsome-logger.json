@@ -6,19 +6,25 @@
     "librust-handsome-logger-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.67.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-log-0.4+std-dev \u003c!nocheck\u003e, librust-termcolor-1+default-dev (\u003e= 1.3-~~) \u003c!nocheck\u003e, librust-time-0.3+default-dev \u003c!nocheck\u003e, librust-time-0.3+formatting-dev \u003c!nocheck\u003e, librust-time-0.3+local-offset-dev \u003c!nocheck\u003e, librust-time-0.3+macros-dev \u003c!nocheck\u003e, librust-tz-rs-0.6+default-dev (\u003e= 0.6.14-~~) \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.81.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-log-0.4+std-dev \u003c!nocheck\u003e, librust-termcolor-1+default-dev (\u003e= 1.3-~~) \u003c!nocheck\u003e, librust-time-0.3+default-dev \u003c!nocheck\u003e, librust-time-0.3+formatting-dev \u003c!nocheck\u003e, librust-time-0.3+local-offset-dev \u003c!nocheck\u003e, librust-time-0.3+macros-dev \u003c!nocheck\u003e, librust-tz-rs-0.6+default-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "5b70ca48da75f43834939e3b8934b58d7909a2d861fa8c1b3d99d3c39e3f4628 1966 rust-handsome-logger_0.8.0-1.dsc c964c7058627d1cd74e3e91e9eab9ea654d18ca5bf09c32b78d070e9046b8112 15326 rust-handsome-logger_0.8.0.orig.tar.gz e577b8705a39fb1857525a39572ed025dc9977f2692ac4e8312237014024ca6b 2740 rust-handsome-logger_0.8.0-1.debian.tar.xz"
+    "550b4b3dea97f6716db3a0bbf50b4577d8900b40bdf76c1d88542221b8c0fdbb 2626 rust-handsome-logger_0.9.1-1.dsc 70a23d1869ef63d7d0f1a24213014eff2cf26494d0e4976d510426d249dbbd05 18627 rust-handsome-logger_0.9.1.orig.tar.gz bf7e178248f1696d9871c40c1750ebae1c1e34807664effbc635b136145f13e1 2872 rust-handsome-logger_0.9.1-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-handsome-logger"
   ],
   "Files": [
-    "bb3479a4d1cfeda6a046735ad967bbf1 1966 rust-handsome-logger_0.8.0-1.dsc 0c7e719eddd0f0b8123ad1c7a77b6a26 15326 rust-handsome-logger_0.8.0.orig.tar.gz 0580ebcbae2a22fae08a4c46490c8b2f 2740 rust-handsome-logger_0.8.0-1.debian.tar.xz"
+    "195b7b581abae96f47960b3fbab99238 2626 rust-handsome-logger_0.9.1-1.dsc 90daa75e6c414ce948a0bc92b7e4f14e 18627 rust-handsome-logger_0.9.1.orig.tar.gz 135d5a739685586f7a9d2ae776b00e16 2872 rust-handsome-logger_0.9.1-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/qarmin/handsome_logger"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/handsome-logger]"
   ],
   "Version": [
-    "0.8.0-1"
+    "0.9.1-1"
   ]
 }

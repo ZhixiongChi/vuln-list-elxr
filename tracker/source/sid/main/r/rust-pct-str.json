@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-pct-str-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, librust-thiserror-dev \u003c!nocheck\u003e, librust-utf8-decode-dev \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "4f901ec6787b0e387b4266239d930074a4959be5f21c322f74458a249041d187 1527 rust-pct-str_2.0.0-1.dsc b9c89b364cea27881b91727fa8f75c27b230c878f5651aa769e4723faf1cc9ce 12852 rust-pct-str_2.0.0.orig.tar.xz 6479881639148ce174a9ecc1abb2c9d71b4f71f27eeb2ee5ed83d08f89ab4801 2560 rust-pct-str_2.0.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-pct-str"
+  ],
+  "Files": [
+    "00fd905d586c90572dab89c808177692 1527 rust-pct-str_2.0.0-1.dsc 4027b41e90cb7f20078f066d18cbe2ac 12852 rust-pct-str_2.0.0.orig.tar.xz 167e68faa92bc76bc12a0ff8c9f6ae4a 2560 rust-pct-str_2.0.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/timothee-haudebourg/pct-str"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel@debian.org\u003e"
+  ],
+  "Package": [
+    "rust-pct-str"
+  ],
+  "Package-List": [
+    "librust-pct-str-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Vcs-Browser": [
+    "https://forgejo.debian.net/icann/rust-pct-str"
+  ],
+  "Vcs-Git": [
+    "https://forgejo.debian.net/icann/rust-pct-str"
+  ],
+  "Version": [
+    "2.0.0-1"
+  ]
+}

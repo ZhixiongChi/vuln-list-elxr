@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-rawler-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.87) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-backtrace-0.3+default-dev \u003c!nocheck\u003e, librust-bitstream-io-4+default-dev (\u003e= 4.1-~~) \u003c!nocheck\u003e, librust-byteorder-1+default-dev \u003c!nocheck\u003e, librust-chrono-0.4+default-dev \u003c!nocheck\u003e, librust-enumn-0.1+default-dev \u003c!nocheck\u003e, librust-glob-0.3+default-dev \u003c!nocheck\u003e, librust-hex-0.4+default-dev \u003c!nocheck\u003e, librust-image-0.25+jpeg-dev \u003c!nocheck\u003e, librust-itertools-0.14+default-dev \u003c!nocheck\u003e, librust-lazy-static-1+default-dev \u003c!nocheck\u003e, librust-libflate-2+default-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-md5-0.7+default-dev \u003c!nocheck\u003e, librust-memmap2-0.9+default-dev (\u003e= 0.9.4-~~) \u003c!nocheck\u003e, librust-multiversion-0.8+default-dev \u003c!nocheck\u003e, librust-num-0.4+default-dev \u003c!nocheck\u003e, librust-num-enum-0.7+default-dev \u003c!nocheck\u003e, librust-rayon-1+default-dev \u003c!nocheck\u003e, librust-rustc-version-0.4+default-dev \u003c!nocheck\u003e, librust-serde-1+default-dev \u003c!nocheck\u003e, librust-serde-1+derive-dev \u003c!nocheck\u003e, librust-thiserror-2+default-dev \u003c!nocheck\u003e, librust-toml-0.8+default-dev \u003c!nocheck\u003e, librust-uuid-1+default-dev \u003c!nocheck\u003e, librust-uuid-1+serde-dev \u003c!nocheck\u003e, librust-uuid-1+v4-dev \u003c!nocheck\u003e, librust-weezl-0.1+default-dev (\u003e= 0.1.7-~~) \u003c!nocheck\u003e, librust-zerocopy-0.8+default-dev (\u003e= 0.8.26-~~) \u003c!nocheck\u003e, librust-zerocopy-0.8+derive-dev (\u003e= 0.8.26-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "942dc1519e73a89bfa3bb5167e0a91f6e90a55deeba149ff4138149fae9c27f0 3611 rust-rawler_0.7.1-1.dsc bb283335a977a27099a76470297c8379ea9d0ab498c83baf54f082a26810ccc3 402177 rust-rawler_0.7.1.orig.tar.gz 87117d33d5f40920a9ff3cd33e4d632fa60519e3c52982f1397d3c792899e7d3 5628 rust-rawler_0.7.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-rawler"
+  ],
+  "Files": [
+    "d114b550f50dd03db40aa8756986685f 3611 rust-rawler_0.7.1-1.dsc acb0f6c77ca80c71ddd027d284660f93 402177 rust-rawler_0.7.1.orig.tar.gz 364de85573bb30066c03ecd418cd2a65 5628 rust-rawler_0.7.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dnglab/dnglab"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-rawler"
+  ],
+  "Package-List": [
+    "librust-rawler-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-anyhow-1+default-dev, librust-approx-0.5+default-dev, librust-env-logger-0.11+default-dev, librust-serde-yaml-0.9+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rawler"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/rawler]"
+  ],
+  "Version": [
+    "0.7.1-1"
+  ]
+}

@@ -6,16 +6,19 @@
     "librust-image-hasher-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.67.1) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-base64-0.22+default-dev \u003c!nocheck\u003e, librust-image-0.25-dev \u003c!nocheck\u003e, librust-rustdct-0.7+default-dev \u003c!nocheck\u003e, librust-serde-1+default-dev \u003c!nocheck\u003e, librust-serde-1+derive-dev \u003c!nocheck\u003e, librust-transpose-0.2+default-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.87.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-base64-0.22+default-dev \u003c!nocheck\u003e, librust-image-0.25-dev \u003c!nocheck\u003e, librust-rustdct-0.7+default-dev \u003c!nocheck\u003e, librust-serde-1+default-dev \u003c!nocheck\u003e, librust-serde-1+derive-dev \u003c!nocheck\u003e, librust-transpose-0.2+default-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "dcb85318a8ebe00fc60998acada0bc1d575e4f0e5cbaaf2b51fbde687e50bffd 1962 rust-image-hasher_2.0.0-2.dsc 9481465fe767d92494987319b0b447a5829edf57f09c52bf8639396abaaeaf78 30588 rust-image-hasher_2.0.0.orig.tar.gz a04344b465d62bb5b05aecaaa66201f26b7f2791792d333f60046174241de36e 3276 rust-image-hasher_2.0.0-2.debian.tar.xz"
+    "e71178a07b38ef6a793721841d509e3663b40e42b4ae047d2a1491f30d001d04 2629 rust-image-hasher_3.1.0-1.dsc 300d892b049fb36ce62fb515b68aeade53dca784bc02093e359edc6625c479ac 56730 rust-image-hasher_3.1.0.orig.tar.gz cc194bba4b4c67f5ed5266d33258861a0966e21ad1e209eebd22949ac7f1d0f8 3540 rust-image-hasher_3.1.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-image-hasher"
   ],
   "Files": [
-    "18412d74fa3d2674c40a74422a854c82 1962 rust-image-hasher_2.0.0-2.dsc 204e9972c159b0c834bca7092b1ba87f 30588 rust-image-hasher_2.0.0.orig.tar.gz 4e33d65fc406f973ea47afd6b66f6982 3276 rust-image-hasher_2.0.0-2.debian.tar.xz"
+    "03e19624349f248bbefde53e3e12499e 2629 rust-image-hasher_3.1.0-1.dsc 86f7f00e62124907ab0f15dee02ae7a8 56730 rust-image-hasher_3.1.0.orig.tar.gz 4fec0b21f97b0809e3dc0cfd3a1ed393 3540 rust-image-hasher_3.1.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +42,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-criterion-0.5+default-dev, librust-rand-0.8+default-dev, librust-rand-0.8+small-rng-dev, rustc"
+    "dh-cargo, librust-criterion-0.5+default-dev, librust-hamming-bitwise-fast-1+default-dev, librust-rand-0.8+default-dev, librust-rand-0.8+small-rng-dev, rustc"
   ],
   "Uploaders": [
     "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/image-hasher]"
   ],
   "Version": [
-    "2.0.0-2"
+    "3.1.0-1"
   ]
 }

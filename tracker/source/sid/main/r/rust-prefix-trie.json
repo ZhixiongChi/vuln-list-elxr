@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-prefix-trie-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, librust-either-dev \u003c!nocheck\u003e, librust-ipnet-dev \u003c!nocheck\u003e, librust-num-traits-dev \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "f6ef0e217e6a18bb45f06eb5930323ca2047ac412d7f8cf680c8f23a632be055 2003 rust-prefix-trie_0.8.1-1.dsc 8e5bec33ee567b24c6dfca5b37ae391b8eb4c26eca234f347ca0ef8032f99267 56312 rust-prefix-trie_0.8.1.orig.tar.xz ced1aa7f5b98e3b4974d238eef60f494ec615e8288e766e5b400f2530b257eaa 2548 rust-prefix-trie_0.8.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-prefix-trie"
+  ],
+  "Files": [
+    "8bd636a036602d08da98c51911aeaada 2003 rust-prefix-trie_0.8.1-1.dsc 7f9bdd3c5a21867fb0d2debf103a8a84 56312 rust-prefix-trie_0.8.1.orig.tar.xz c3b362816b7f7f89573ed55f03b2e4d0 2548 rust-prefix-trie_0.8.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/tiborschneider/prefix-trie"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel@debian.org\u003e"
+  ],
+  "Package": [
+    "rust-prefix-trie"
+  ],
+  "Package-List": [
+    "librust-prefix-trie-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-criterion-0.5+default-dev, librust-criterion-0.5+html-reports-dev, librust-generic-tests-0.1+default-dev, librust-ip-network-table-deps-treebitmap-0.5+default-dev, librust-itertools-0.14+default-dev, librust-paste-1+default-dev, librust-pretty-assertions-1+default-dev, librust-quickcheck-1+default-dev, librust-quickcheck-macros-1+default-dev, librust-rand-0.8+default-dev, librust-serde-json-1+default-dev, rustc"
+  ],
+  "Vcs-Browser": [
+    "https://forgejo.debian.net/icann/prefix-trie"
+  ],
+  "Vcs-Git": [
+    "https://forgejo.debian.net/icann/prefix-trie"
+  ],
+  "Version": [
+    "0.8.1-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-buildstructor-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, librust-lazy-static-dev, librust-proc-macro2-dev \u003c!nocheck\u003e, librust-quote-dev \u003c!nocheck\u003e, librust-regex-dev, librust-str-inflector-dev \u003c!nocheck\u003e, librust-syn-dev \u003c!nocheck\u003e, librust-try-match-dev \u003c!nocheck\u003e, librust-try-match-inner-dev, libstd-rust-dev \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "d9c6e8df1dab1e360d6d8f1e8422c7831a777ad93ea00ffc02c20e8770bd6b99 2080 rust-buildstructor_0.6.0-1.dsc fd130ea018672de3de54acd0205dc0f9486e3cd21b1b4b61286aae679e1f5fc1 30784 rust-buildstructor_0.6.0.orig.tar.xz 62726cd1dbbf1c3187c3fa6147026f3fd68b05c2a77276b3a978cde3c6669881 1960 rust-buildstructor_0.6.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-buildstructor"
+  ],
+  "Files": [
+    "43c48850e386f71b8788f62e3e0fb8c4 2080 rust-buildstructor_0.6.0-1.dsc bdefbe1eefee4d32821d47a2abef04dd 30784 rust-buildstructor_0.6.0.orig.tar.xz e9cca4d6fd7b99808c4c826e95f19d83 1960 rust-buildstructor_0.6.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/BrynCooke/buildstructor"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel@debian.org\u003e"
+  ],
+  "Package": [
+    "rust-buildstructor"
+  ],
+  "Package-List": [
+    "librust-buildstructor-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-derive-more-2+default-dev, librust-derive-more-2+from-dev, librust-http-1+default-dev, librust-insta-1+default-dev, librust-multimap-0.10+default-dev, librust-rust-format-0.3+default-dev, librust-tokio-1+default-dev, librust-tokio-1+macros-dev, librust-tokio-1+rt-multi-thread-dev, librust-trybuild-1+default-dev, rustc"
+  ],
+  "Vcs-Browser": [
+    "https://forgejo.debian.net/icann/rust-buildstructor"
+  ],
+  "Vcs-Git": [
+    "https://forgejo.debian.net/icann/rust-buildstructor"
+  ],
+  "Version": [
+    "0.6.0-1"
+  ]
+}

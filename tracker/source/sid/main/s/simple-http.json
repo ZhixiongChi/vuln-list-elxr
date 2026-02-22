@@ -6,19 +6,19 @@
     "libsimple-http-java, libsimple-http-java-doc"
   ],
   "Build-Depends": [
-    "ant, debhelper (\u003e= 7.0.50~), javahelper, maven-repo-helper (\u003e= 1.5~)"
+    "ant, debhelper-compat (= 13), javahelper, maven-repo-helper"
   ],
   "Build-Depends-Indep": [
     "default-jdk, default-jdk-doc"
   ],
   "Checksums-Sha256": [
-    "d3c7b45e8eb075a32df26ea667d61537d6b5e0130a0f66cc02dfa510e564d6e5 2182 simple-http_4.1.21-1.1.dsc e740ce36b109011362b7653d376ca698714d962a3c7b13468214508b11df22e2 275027 simple-http_4.1.21.orig.tar.gz 796ebf3b73ced910f1d5cda77c3c7a7e8b95093a6feb68990826a982a1ded297 3300 simple-http_4.1.21-1.1.debian.tar.xz"
+    "fb49f18eb1d461366ba2136711ba701dfd23041b6d9853324730b92a4d6bfa54 2128 simple-http_4.1.21-2.dsc e740ce36b109011362b7653d376ca698714d962a3c7b13468214508b11df22e2 275027 simple-http_4.1.21.orig.tar.gz 54334aabc9509074ad82c1abd3b765f5d1ed59a0143f698cdce3fbe82e7d9947 4000 simple-http_4.1.21-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/s/simple-http"
   ],
   "Files": [
-    "465a04fb73e6066fc232bd5958b05464 2182 simple-http_4.1.21-1.1.dsc f096de4cb5120cf42588550e0d5d4ee1 275027 simple-http_4.1.21.orig.tar.gz 9002740e9cbc9304ce6c24f0450f42e9 3300 simple-http_4.1.21-1.1.debian.tar.xz"
+    "b19f70871d9857f46d6a26a1054cae0b 2128 simple-http_4.1.21-2.dsc f096de4cb5120cf42588550e0d5d4ee1 275027 simple-http_4.1.21.orig.tar.gz 6e9d2f9a2ebd31a2963f67ef5daec18b 4000 simple-http_4.1.21-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -33,7 +33,7 @@
     "simple-http"
   ],
   "Package-List": [
-    "libsimple-http-java deb java extra arch=all libsimple-http-java-doc deb doc extra arch=all"
+    "libsimple-http-java deb java optional arch=all libsimple-http-java-doc deb doc optional arch=all"
   ],
   "Priority": [
     "optional"
@@ -42,18 +42,18 @@
     "misc"
   ],
   "Standards-Version": [
-    "3.9.6"
+    "4.7.3"
   ],
   "Uploaders": [
     "Hans-Christoph Steiner \u003chans@eds.org\u003e"
   ],
   "Vcs-Browser": [
-    "https://anonscm.debian.org/gitweb/?p=pkg-java/libsimple-http-java.git"
+    "https://salsa.debian.org/java-team/simple-http"
   ],
   "Vcs-Git": [
-    "https://alioth.debian.org/anonscm/git/pkg-java/libsimple-http-java.git"
+    "https://salsa.debian.org/java-team/simple-http.git"
   ],
   "Version": [
-    "4.1.21-1.1"
+    "4.1.21-2"
   ]
 }

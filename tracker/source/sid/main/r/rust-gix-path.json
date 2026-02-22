@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), dh-sequence-cargo"
   ],
   "Build-Depends-Arch": [
-    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.82) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bstr-1+std-dev (\u003e= 1.12.0-~~) \u003c!nocheck\u003e, librust-gix-trace-0.1+default-dev (\u003e= 0.1.14-~~) \u003c!nocheck\u003e, librust-gix-validate-0.10+default-dev (\u003e= 0.10.1-~~) \u003c!nocheck\u003e, librust-home-0.5+default-dev (\u003e= 0.5.5-~~) \u003c!nocheck\u003e, librust-thiserror-2+default-dev (\u003e= 2.0.17-~~) \u003c!nocheck\u003e"
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.82) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bstr-1+std-dev (\u003e= 1.12.0-~~) \u003c!nocheck\u003e, librust-gix-trace-0.1+default-dev (\u003e= 0.1.14-~~) \u003c!nocheck\u003e, librust-gix-validate+default-dev (\u003c\u003c 0.11-~~) \u003c!nocheck\u003e, librust-gix-validate+default-dev (\u003e= 0.9.2-~~) \u003c!nocheck\u003e, librust-home-0.5+default-dev (\u003e= 0.5.5-~~) \u003c!nocheck\u003e, librust-thiserror-2+default-dev (\u003e= 2.0.17-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "f9e2a32aa9ca0d49194393e1bce8f6deb76ad23f468ed979d68a002dc17a4b59 2623 rust-gix-path_0.10.21-1.dsc 0416b41cd00ff292af9b94b0660880c44bd2ed66828ddca9a2b333535cbb71b8 34033 rust-gix-path_0.10.21.orig.tar.gz a93ec5fb1070856bc82e86f46488aeb6775ec64cafaacb7df2460f7b47cf3555 4548 rust-gix-path_0.10.21-1.debian.tar.xz"
+    "26c58ec1073c5a97f557685c97d4ad8bd9f4759a6c249bf6d13902471add77f2 2660 rust-gix-path_0.10.21-2.dsc 0416b41cd00ff292af9b94b0660880c44bd2ed66828ddca9a2b333535cbb71b8 34033 rust-gix-path_0.10.21.orig.tar.gz 230f13e6f7fda16049c891877e406b956018ea8abfa10be1eeef0a5101e368cf 4628 rust-gix-path_0.10.21-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-gix-path"
   ],
   "Files": [
-    "5878f88be345edef67af461b5d4a851a 2623 rust-gix-path_0.10.21-1.dsc 32728a420aaf90311557158bf2ee35ea 34033 rust-gix-path_0.10.21.orig.tar.gz 33d0203a82c9cd40abf112733eed2583 4548 rust-gix-path_0.10.21-1.debian.tar.xz"
+    "b598db9e5373f263bda5c274ca75e328 2660 rust-gix-path_0.10.21-2.dsc 32728a420aaf90311557158bf2ee35ea 34033 rust-gix-path_0.10.21.orig.tar.gz 9bf6c40974bbe940f67ea3c7056c628d 4628 rust-gix-path_0.10.21-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gix-path]"
   ],
   "Version": [
-    "0.10.21-1"
+    "0.10.21-2"
   ]
 }

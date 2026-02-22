@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-fsio-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, librust-dunce-dev \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "e28045c0e37181f36444a372e17b648c0cf1d0dcf4f076b6b5bcf620b4133f41 1479 rust-fsio_0.4.1-1.dsc 30a71c2367f133a960af8ed6644df420cee6e8eb5bc359a3fd17c569f3e5a4b4 14736 rust-fsio_0.4.1.orig.tar.xz 7195249d39be59609ae8995af822121c3f6a8050f5a3cdcbe216c382f7fbc15b 1820 rust-fsio_0.4.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-fsio"
+  ],
+  "Files": [
+    "b46a8558fa75f40ddf62bfe3e2ffae57 1479 rust-fsio_0.4.1-1.dsc 6b3bea2522d36541b0c21839bdefc03f 14736 rust-fsio_0.4.1.orig.tar.xz 63a0cb3a67b6d0d7f6995d92311326c4 1820 rust-fsio_0.4.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://github.com/sagiegurari/fsio"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel@debian.org\u003e"
+  ],
+  "Package": [
+    "rust-fsio"
+  ],
+  "Package-List": [
+    "librust-fsio-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-doc-comment-0.3+default-dev, rustc"
+  ],
+  "Vcs-Browser": [
+    "https://forgejo.debian.net/icann/rust-fsio"
+  ],
+  "Vcs-Git": [
+    "https://forgejo.debian.net/icann/rust-fsio"
+  ],
+  "Version": [
+    "0.4.1-1"
+  ]
+}
