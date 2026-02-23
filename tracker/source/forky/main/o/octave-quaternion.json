@@ -1,24 +1,24 @@
 {
   "Architecture": [
-    "any"
+    "all"
   ],
   "Binary": [
     "octave-quaternion"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-octave"
+    "debhelper-compat (= 13), dh-sequence-octave, octave-generate-html \u003c!nodoc\u003e, texlive-base \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "5b68e8974211ac9cadcb58d89fd5adb3dc77eda4919ded6c92effe4977303012 2239 octave-quaternion_2.4.0-11.dsc 4c2d4dd8f1d213f080519c6f9dfbbdca068087ee0411122b16e377e0f4641610 236821 octave-quaternion_2.4.0.orig.tar.gz 0b44e08f38011964a8363f29de1854be1436055722b198e4dd142b584d467346 4748 octave-quaternion_2.4.0-11.debian.tar.xz"
+    "7774dc9a3c2a1a41c3db96087e50889c465721ec7aa20e514a197d228efb666d 2285 octave-quaternion_2.4.2-5.dsc 4bcb64743972693f04ed6d2fea4906b38a9353f1b80c6e6f2d0bc0f6f8cf3a07 47838 octave-quaternion_2.4.2.orig.tar.gz 93b9071a392677674d1789a7105e4e20dfe4d741f784940a6d3bcf176e5544d1 5032 octave-quaternion_2.4.2-5.debian.tar.xz"
   ],
   "Dgit": [
-    "4e3c48e592e028e17854c37dd3470d2dc94b7d7d debian archive/debian/2.4.0-11 https://git.dgit.debian.org/octave-quaternion"
+    "2f0e7f45899fa4d5da9b45cf4474cfc049fe5e9f debian archive/debian/2.4.2-5 https://git.dgit.debian.org/octave-quaternion"
   ],
   "Directory": [
     "pool/main/o/octave-quaternion"
   ],
   "Files": [
-    "7d1f725268b2b917f44adaf599e5e13e 2239 octave-quaternion_2.4.0-11.dsc e9ebd75024795acf25d3c2028cb08263 236821 octave-quaternion_2.4.0.orig.tar.gz 7e02400868fe4e313f55ac8197183311 4748 octave-quaternion_2.4.0-11.debian.tar.xz"
+    "fd99e1ac19cd542e05c5beafc21a58a1 2285 octave-quaternion_2.4.2-5.dsc d1b1f96c682608e739050f558d80ac32 47838 octave-quaternion_2.4.2.orig.tar.gz 5c56a008e39c69188e7a8670847dd33f 5032 octave-quaternion_2.4.2-5.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -33,7 +33,7 @@
     "octave-quaternion"
   ],
   "Package-List": [
-    "octave-quaternion deb math optional arch=any"
+    "octave-quaternion deb math optional arch=all"
   ],
   "Priority": [
     "optional"
@@ -42,7 +42,7 @@
     "math"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-octave"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/pkg-octave-team/octave-quaternion.git"
   ],
   "Version": [
-    "2.4.0-11"
+    "2.4.2-5"
   ]
 }

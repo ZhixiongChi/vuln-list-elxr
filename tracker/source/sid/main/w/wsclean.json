@@ -3,19 +3,19 @@
     "any"
   ],
   "Binary": [
-    "wsclean, wsclean-dev"
+    "wsclean, libwsclean0, wsclean-dev"
   ],
   "Build-Depends": [
-    "casacore-dev, cmake, debhelper-compat (= 13), libblas-dev, libboost-dev, libboost-filesystem-dev, libboost-program-options-dev, libboost-system-dev, libboost-thread-dev, libcfitsio-dev, libfftw3-dev, libgsl-dev, libhdf5-dev, liblapack-dev, libxtensor-blas-dev, python3-pybind11, python3-dev"
+    "casacore-dev, cmake, debhelper-compat (= 13), libblas-dev, libboost-dev, libboost-filesystem-dev, libboost-program-options-dev, libboost-thread-dev, libcfitsio-dev, libfftw3-dev, libgsl-dev, libhdf5-dev, liblapack-dev, libxtensor-blas-dev, python3-pybind11, python3-dev"
   ],
   "Checksums-Sha256": [
-    "e339a33ad00823fb4f87cd5ce2a3a47576e38d3456d554cb25b8f6ff839c33b6 2296 wsclean_3.6-3.dsc f7db476b99bcc839aeb1da435dab0cbf9770c1734225bada58e4222830f078f2 2829520 wsclean_3.6.orig.tar.bz2 baee5f57009ffd2648aa2d978dcb160329d2935de0920e4201953509d60d276d 14220 wsclean_3.6-3.debian.tar.xz"
+    "be198b25172268921f2a480380e0cbab30592d21b19d22ea92d7c5e9b2ab4ed0 2328 wsclean_3.7-1.dsc 7b542b21c4224679de3a4235103b5128f5135bf9c31db1aec7cfac69a0abe827 1689129 wsclean_3.7.orig.tar.bz2 e99d175e66131df4b4fe23e5be02bc89d32f62b965659382dff9426f8005620e 13952 wsclean_3.7-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/w/wsclean"
   ],
   "Files": [
-    "3aa9e4176b87ae5c766044cf014251fc 2296 wsclean_3.6-3.dsc e72bab53ac688a36729d4256cc0878c0 2829520 wsclean_3.6.orig.tar.bz2 92ab004c039aa18cbf5e9a4be765a8fd 14220 wsclean_3.6-3.debian.tar.xz"
+    "8d22a5e1fc767bb62ae122e8ee5807cb 2328 wsclean_3.7-1.dsc 73d2d9f42159f8094a092c185ed7eb04 1689129 wsclean_3.7.orig.tar.bz2 70f0e7030ae9bdbccecb6f9da8344053 13952 wsclean_3.7-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "wsclean"
   ],
   "Package-List": [
-    "wsclean deb science optional arch=any wsclean-dev deb libdevel optional arch=any"
+    "libwsclean0 deb libs optional arch=any wsclean deb science optional arch=any wsclean-dev deb libdevel optional arch=any"
   ],
   "Priority": [
     "optional"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian-astro-team/wsclean.git"
   ],
   "Version": [
-    "3.6-3"
+    "3.7-1"
   ]
 }
