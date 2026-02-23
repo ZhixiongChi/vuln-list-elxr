@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libgloo-rocm-dev, libgloo-rocm-0"
+  ],
+  "Build-Depends": [
+    "architecture-is-64-bit, cmake, debhelper-compat (= 13), libgtest-dev, libhiredis-dev, libibverbs-dev, libuv1-dev, ninja-build, pkgconf, mpi-default-dev, hipcc, libssl-dev"
+  ],
+  "Checksums-Sha256": [
+    "2cd8455c0cc3fdbf136e2dd344a1e867b441bd2a182557b8020d347e738ce970 2297 gloo-rocm_0.0~git20250912.d97133a-2.dsc 43d930375720059ac67b1619c7d020d5d2cee79757caf4e75a1bfedb8eeb2b42 197248 gloo-rocm_0.0~git20250912.d97133a.orig.tar.xz 812fb09a2521d2a8c2879590a5dfa2865e82b972da59277570822673cbcea8b5 8156 gloo-rocm_0.0~git20250912.d97133a-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gloo-rocm"
+  ],
+  "Files": [
+    "201d97426eefaef2cdf6b1cee14b0acd 2297 gloo-rocm_0.0~git20250912.d97133a-2.dsc e22a54e25bc9898cae46c034b01742c4 197248 gloo-rocm_0.0~git20250912.d97133a.orig.tar.xz 16d604ed2c3176d71419d7b2fd554f06 8156 gloo-rocm_0.0~git20250912.d97133a-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pytorch/gloo"
+  ],
+  "Maintainer": [
+    "Debian Deep Learning Team \u003cdebian-ai@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "gloo-rocm"
+  ],
+  "Package-List": [
+    "libgloo-rocm-0 deb libs optional arch=any libgloo-rocm-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "g++"
+  ],
+  "Uploaders": [
+    "Mo Zhou \u003clumin@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/deeplearning-team/gloo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/deeplearning-team/gloo.git"
+  ],
+  "Version": [
+    "0.0~git20250912.d97133a-2"
+  ]
+}

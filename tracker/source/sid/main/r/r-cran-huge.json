@@ -6,16 +6,16 @@
     "r-cran-huge"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-matrix, r-cran-igraph, r-cran-mass, r-cran-rcpp, r-cran-rcppeigen"
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-matrix, r-cran-igraph, r-cran-mass, r-cran-rcpp, r-cran-rcppeigen, architecture-is-64-bit, architecture-is-little-endian"
   ],
   "Checksums-Sha256": [
-    "44ba7fb89d468333595b63528e9ab53111be1bfa8dab2530914218f6d9b264d4 2082 r-cran-huge_1.3.5-2.dsc 9240866e2f773cd0ac8a02514871149d2babaa162a49e151eab9591ad42984ea 2039323 r-cran-huge_1.3.5.orig.tar.gz eb82ec437bdecceba9cfd9d10d776f9d80cbb90d6b481f87839c8c909da4dbf4 2752 r-cran-huge_1.3.5-2.debian.tar.xz"
+    "109068c822b1254c57cae1f784e51bd3891a02ad43bcd78745fb735c06fc9279 2166 r-cran-huge_1.4-1.dsc 53f526d85ef43a22be7fb4092ec31bb77c6d630eb4acba8f62ed14a62f1fbf63 1978610 r-cran-huge_1.4.orig.tar.gz 96cb4e799520f6b204cdfa2d47c31ecf0d43c09cd37675eb6e6d71dc203110bc 2824 r-cran-huge_1.4-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/r-cran-huge"
   ],
   "Files": [
-    "40d002afabea1aa0fe4a760e60279560 2082 r-cran-huge_1.3.5-2.dsc e3a906b28fc973623614b4a50c5ea42c 2039323 r-cran-huge_1.3.5.orig.tar.gz c055cdda30cca78d4d3417e807a98f08 2752 r-cran-huge_1.3.5-2.debian.tar.xz"
+    "5b8669d0369d45f8d39160a5fa745c2b 2166 r-cran-huge_1.4-1.dsc b17cba77b73b6979be76137016c3cf0d 1978610 r-cran-huge_1.4.orig.tar.gz c657953ec3e09db8b44fe6c0a0ebe57f 2824 r-cran-huge_1.4-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-r"
   ],
   "Uploaders": [
-    "Andreas Tille \u003ctille@debian.org\u003e"
+    "Andreas Tille \u003ctille@debian.org\u003e, Joost van Baal-Ilić \u003cjoostvb@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/r-pkg-team/r-cran-huge"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/r-pkg-team/r-cran-huge.git"
   ],
   "Version": [
-    "1.3.5-2"
+    "1.4-1"
   ]
 }

@@ -6,16 +6,16 @@
     "r-cran-warp"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-r, r-base-dev"
+    "debhelper-compat (= 13), dh-r, r-base-dev, architecture-is-64-bit, architecture-is-little-endian"
   ],
   "Checksums-Sha256": [
-    "f982b68804d22a69622f1a3044c9f3e2f4a0b28ac26b863a29e01d41dd9c5e07 2108 r-cran-warp_0.2.1-1.dsc 020ad590de099661aa62b4d5e51499a2ac91c41c61db2dbc71c3f4a3df2c46be 52719 r-cran-warp_0.2.1.orig.tar.gz ef88c39d4db1d73cf7c9cba5db0604e8dad43ccb221727dad88c7d97f227ebbb 3180 r-cran-warp_0.2.1-1.debian.tar.xz"
+    "34df0d9b430ec03a981828ae9bed145d40d278bb679a52435112299bdc9d1d09 2138 r-cran-warp_0.2.3-1.dsc bdf3404b90ea5d1754242d87512b9d44c9a5825207d0010a956354266bda112a 53627 r-cran-warp_0.2.3.orig.tar.gz 6dc2241ee0d50eba0b8d76e011d95c79e9cb4da0f462bd85528774802ede49c1 3252 r-cran-warp_0.2.3-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/r-cran-warp"
   ],
   "Files": [
-    "46e5a823777f38c51b696de6882cfe69 2108 r-cran-warp_0.2.1-1.dsc 0e3d587557c124f3ffa93118677f962d 52719 r-cran-warp_0.2.1.orig.tar.gz 970c076ec86b4f2603431cc240a1dd36 3180 r-cran-warp_0.2.1-1.debian.tar.xz"
+    "e2ef04181f6ac1941835c29c0fdfe436 2138 r-cran-warp_0.2.3-1.dsc b5603af0a2d1b62511f85f5574c747a8 53627 r-cran-warp_0.2.3.orig.tar.gz 5479a6de24e871aeeffc05abeb7d4bf5 3252 r-cran-warp_0.2.3-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-r"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/r-pkg-team/r-cran-warp.git"
   ],
   "Version": [
-    "0.2.1-1"
+    "0.2.3-1"
   ]
 }
