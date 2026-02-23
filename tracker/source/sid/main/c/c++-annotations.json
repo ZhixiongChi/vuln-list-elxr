@@ -3,25 +3,25 @@
     "all"
   ],
   "Binary": [
-    "c++-annotations, c++-annotations-html, c++-annotations-txt, c++-annotations-latex, c++-annotations-pdf, c++-annotations-ps, c++-annotations-dvi, c++-annotations-contrib"
+    "c++-annotations, c++-annotations-html, c++-annotations-txt, c++-annotations-latex, c++-annotations-pdf, c++-annotations-contrib"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), flex, ghostscript, icmake (\u003e= 13.04.00), libbobcat-dev (\u003e= 6.09.00), libfl-dev, texlive-fonts-recommended, texlive-latex-base, texlive-latex-extra, texlive-latex-recommended, texlive-plain-generic, yodl (\u003e= 4.04.00), zip"
+    "debhelper-compat (= 13), flex, ghostscript, icmake (\u003e= 13.05.01), libbobcat-dev (\u003e= 6.11.00), libfl-dev, texlive-fonts-recommended, texlive-latex-base, texlive-latex-extra, texlive-latex-recommended, texlive-plain-generic, yodl (\u003e= 4.05.00), zip"
   ],
   "Checksums-Sha256": [
-    "86a93638efb6728044da0405db73eaaf6ac4731d697969d10c96bf3983676e84 2717 c++-annotations_13.03.00-1.dsc 575c03d28b1539a4d7308f995530ef8a4cf70d971fa735e971aabf93084aa0ad 2129856 c++-annotations_13.03.00.orig.tar.gz 8d6cfdfc135008b9cbf3a28d21c52677f3e3d161170044aa5525ded86f584238 9704 c++-annotations_13.03.00-1.debian.tar.xz"
+    "894077e59a62e1d9aadaebd6b116fa1ff793d306535360a88381f6103f102688 2586 c++-annotations_13.04.01-1.dsc 315994cff531c84ba951deacb98b552f370336f993de91aa1e90775573524fc5 2143372 c++-annotations_13.04.01.orig.tar.gz 4c2c1f30ab40957cb70a9afe86f4a7772019fd04ab61fe937bc3753385745f0e 10004 c++-annotations_13.04.01-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/c/c++-annotations"
   ],
   "Files": [
-    "28fdeb11f5062a8e761bb99c3ef38360 2717 c++-annotations_13.03.00-1.dsc 0f469ea1ad1bacc66ac1f0f5831b2c11 2129856 c++-annotations_13.03.00.orig.tar.gz ebdefbca9fffd43db9afd4669c0e4c83 9704 c++-annotations_13.03.00-1.debian.tar.xz"
+    "2ebf6b89abd26f22dcb3abb78740297a 2586 c++-annotations_13.04.01-1.dsc 30fd8842774a95e3042ce09f0aab3c23 2143372 c++-annotations_13.04.01.orig.tar.gz 503279984c56ac295ed7c55ef5b246e3 10004 c++-annotations_13.04.01-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://fbb-git.github.io/cppannotations/"
+    "https://gitlab.com/fbb-git/cppannotations"
   ],
   "Maintainer": [
     "Frank B. Brokken \u003cf.b.brokken@rug.nl\u003e"
@@ -30,7 +30,7 @@
     "c++-annotations"
   ],
   "Package-List": [
-    "c++-annotations deb doc optional arch=all c++-annotations-contrib deb doc optional arch=all c++-annotations-dvi deb doc optional arch=all c++-annotations-html deb doc optional arch=all c++-annotations-latex deb doc optional arch=all c++-annotations-pdf deb doc optional arch=all c++-annotations-ps deb doc optional arch=all c++-annotations-txt deb doc optional arch=all"
+    "c++-annotations deb doc optional arch=all c++-annotations-contrib deb doc optional arch=all c++-annotations-html deb doc optional arch=all c++-annotations-latex deb doc optional arch=all c++-annotations-pdf deb doc optional arch=all c++-annotations-txt deb doc optional arch=all"
   ],
   "Priority": [
     "optional"
@@ -39,7 +39,7 @@
     "devel"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Uploaders": [
     "tony mancill \u003ctmancill@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/cpp-annotations.git"
   ],
   "Version": [
-    "13.03.00-1"
+    "13.04.01-1"
   ]
 }

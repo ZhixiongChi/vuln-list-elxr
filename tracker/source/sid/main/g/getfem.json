@@ -6,16 +6,16 @@
     "libgetfem-dev, libgetfem5t64, libgmm-dev, python3-getfem, libgetfem++-dev, libgetfem5++, libgmm++-dev, python3-getfem++"
   ],
   "Build-Depends": [
-    "dpkg-dev (\u003e= 1.22.5), autoconf, automake, debhelper-compat (= 13), dh-sequence-python3, libblas-dev | libopenblas-dev | libatlas-base-dev | libblas.so, liblapack-dev | libopenblas-dev | libatlas-base-dev | liblapack.so, libmetis-dev, libmumps-seq-dev, libqhull-dev, libsuperlu-dev, libtool, python3-dev, python3-numpy, python3-scipy, python3-setuptools"
+    "dpkg-dev (\u003e= 1.22.5), autoconf, automake, debhelper-compat (= 13), dh-sequence-python3, libblas-dev | libopenblas-dev | libatlas-base-dev | libblas.so, liblapack-dev | libopenblas-dev | libatlas-base-dev | liblapack.so, libmetis-dev, libmumps-seq-dev [!hppa !powerpc], libsuperlu-dev, libqhull-dev, libtool, python3-dev, python3-numpy-dev, python3-scipy, python3-setuptools"
   ],
   "Checksums-Sha256": [
-    "ecad63162750868765a221bd7b18c339c3697773218ac49e7f589d4b083b2e10 2740 getfem_5.4.4+dfsg1-5.dsc 37634781de5e47eeba92c550627545dbd37d5469736e60a05723dac55e307c78 5607224 getfem_5.4.4+dfsg1.orig.tar.xz 5efc238ef015451bc6fc8e6a7373cff2f52309094a27cae5b4b693d264652c2c 12560 getfem_5.4.4+dfsg1-5.debian.tar.xz"
+    "b7dad0078ae3ae2dd597f50a5e0eaae20710e20fd235b425e4a7a82069fe3884 2797 getfem_5.4.4+dfsg1-6.dsc 37634781de5e47eeba92c550627545dbd37d5469736e60a05723dac55e307c78 5607224 getfem_5.4.4+dfsg1.orig.tar.xz 391a1c739c86b82f23ed42596c368424f07f35860fecdb78642e2f79c24812bc 12704 getfem_5.4.4+dfsg1-6.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/g/getfem"
   ],
   "Files": [
-    "0784d6476406b379549f547e453d344d 2740 getfem_5.4.4+dfsg1-5.dsc 3ed98a9e5e0e91fe97311acad223e9e2 5607224 getfem_5.4.4+dfsg1.orig.tar.xz 56df769ce2d128abbbe7006ece6a94a5 12560 getfem_5.4.4+dfsg1-5.debian.tar.xz"
+    "966a4c8d13977fa1c120bce3e6d3c47f 2797 getfem_5.4.4+dfsg1-6.dsc 3ed98a9e5e0e91fe97311acad223e9e2 5607224 getfem_5.4.4+dfsg1.orig.tar.xz cc301713b71d1e2d770a16261e2ce23f 12704 getfem_5.4.4+dfsg1-6.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -24,7 +24,7 @@
     "http://getfem.org/"
   ],
   "Maintainer": [
-    "Debian Science Team \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
   ],
   "Package": [
     "getfem"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/science-team/getfem.git"
   ],
   "Version": [
-    "5.4.4+dfsg1-5"
+    "5.4.4+dfsg1-6"
   ]
 }
