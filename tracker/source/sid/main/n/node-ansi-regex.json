@@ -6,16 +6,16 @@
     "node-ansi-regex"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), node-tape \u003c!nocheck\u003e, dh-sequence-nodejs"
+    "debhelper-compat (= 13), ava \u003c!nocheck\u003e, node-ansi-escapes \u003c!nocheck\u003e, dh-sequence-nodejs, node-rollup-plugin-node-resolve, rollup"
   ],
   "Checksums-Sha256": [
-    "8edcc37047895662f5ceb0bbf465006f6b1a6d756de9480761e1e4cc81a02cc9 2077 node-ansi-regex_5.0.1-1.dsc da70013154c6b32f86cc9e875d3c94edc743c39a57f0339d61794b454306b327 7638 node-ansi-regex_5.0.1.orig.tar.gz 2a837e1a55777b486912830264ca41b6eba8dffdae3d0fc457ff0a46297a1559 3964 node-ansi-regex_5.0.1-1.debian.tar.xz"
+    "1caf286033878a3c6e855f272a3f0199a174f5cc6cd7ff7a5424fc039d4b7c22 2240 node-ansi-regex_6.2.2-1.dsc 2ba103cc5f423800971980919a0ff7bd7b69fe75179b790a3fb1bc31167a75b5 8659 node-ansi-regex_6.2.2.orig.tar.gz be4ed4af02818da2ca4f5a35151af7ef18f9656097d17f605f86a149311c9efc 4992 node-ansi-regex_6.2.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/n/node-ansi-regex"
   ],
   "Files": [
-    "04cc5ba6d743943db0dc4bc4b398de8f 2077 node-ansi-regex_5.0.1-1.dsc 4b417311cce37f1db1a030f95ad17fd8 7638 node-ansi-regex_5.0.1.orig.tar.gz b3feb17ef8480e9d9b68fd6b30aff98e 3964 node-ansi-regex_5.0.1-1.debian.tar.xz"
+    "ef3b0254bc79f06edb14ccccbfb55d8d 2240 node-ansi-regex_6.2.2-1.dsc 762b87325bc8d3f00724c678e5ee8030 8659 node-ansi-regex_6.2.2.orig.tar.gz 7c0aaaa8659344847c2bc56d098fd64b 4992 node-ansi-regex_6.2.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "javascript"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-nodejs"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/js-team/node-ansi-regex.git"
   ],
   "Version": [
-    "5.0.1-1"
+    "6.2.2-1"
   ]
 }

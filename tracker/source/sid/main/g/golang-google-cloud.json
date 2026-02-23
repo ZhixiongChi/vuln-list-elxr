@@ -6,16 +6,16 @@
     "golang-google-cloud-dev, golang-google-cloud-compute-metadata-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-golang (\u003e= 1.31~), golang-any, golang-github-golang-mock-dev (\u003e= 1.3.1~), golang-github-golang-protobuf-1-5-dev, golang-github-google-btree-dev, golang-github-google-go-cmp-dev (\u003e= 0.3.0~), golang-github-google-martian-dev, golang-github-google-pprof-dev, golang-github-googleapis-gax-go-dev (\u003e= 2.0.5~), golang-go.opencensus-dev (\u003e= 0.22.0~), golang-golang-x-net-dev, golang-golang-x-oauth2-google-dev, golang-golang-x-time-dev, golang-google-api-dev (\u003e= 0.21.0~), golang-google-genproto-dev (\u003e= 0.0~git20210726), golang-google-grpc-dev (\u003e= 1.64), golang-rsc-binaryregexp-dev"
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-apache-arrow-go-dev, golang-github-census-instrumentation-opencensus-proto-dev, golang-github-einride-aip-go-dev, golang-github-go-git-go-git-dev, golang-github-golang-mock-dev (\u003e= 1.3.1~), golang-github-google-btree-dev, golang-github-google-flatbuffers-dev, golang-github-google-go-cmp-dev (\u003e= 0.3.0~), golang-github-google-go-github-dev, golang-github-google-martian-dev (\u003e= 3.2.1~), golang-github-google-pprof-dev, golang-github-google-s2a-go-dev, golang-github-google-uuid-dev, golang-github-googleapis-enterprise-certificate-proxy-dev, golang-github-googleapis-gax-go-dev (\u003e= 2.0.5~), golang-github-googlecloudplatform-grpc-gcp-go-dev, golang-github-pierrec-lz4-dev, golang-github-zeebo-xxh3-dev, golang-go.opencensus-dev (\u003e= 0.22.0~), golang-golang-x-net-dev, golang-golang-x-oauth2-google-dev, golang-golang-x-time-dev, golang-golang-x-tools-dev, golang-golang-x-xerrors-dev, golang-google-api-dev (\u003e= 0.214.0~), golang-google-genproto-dev (\u003e= 0.0~git20240318.94a12d6~), golang-google-grpc-dev (\u003e= 1.64), golang-gopkg-yaml.v2-dev, golang-rsc-binaryregexp-dev, golang-opentelemetry-contrib-dev"
   ],
   "Checksums-Sha256": [
-    "8eef137da3e6888fe5b4aa3ddcf3742fcf35fe0c756b87aaf4829249e6d17c26 2938 golang-google-cloud_0.56.0-6.dsc 43eb3236a5612fbbc03ea50f54b1ee1be93453363e67b4f595a255a90ed550ae 2670306 golang-google-cloud_0.56.0.orig.tar.gz 590843ac0bd719145edb2c57ca1efc8180d953501938c344e31083b16152d0df 8616 golang-google-cloud_0.56.0-6.debian.tar.xz"
+    "6f50356c2740ca988bfc228748f1d64be07cde48680d32b63e8127a3d71e32a7 3484 golang-google-cloud_0.115.0-1.dsc a09a6a70afef08b236c40693d0bf96d16eb2df7ae026681d805b6dbc43fcdf13 28850956 golang-google-cloud_0.115.0.orig.tar.gz 43a332889ceb76c6b3bc3960e2095d3030963333a77ed6cfe53122d32b37d42d 10576 golang-google-cloud_0.115.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/g/golang-google-cloud"
   ],
   "Files": [
-    "506eaf30e1d2ed3b3dc3aa6eb8dca489 2938 golang-google-cloud_0.56.0-6.dsc 0bf7f5173a2e02e6b896e28a0adbe925 2670306 golang-google-cloud_0.56.0.orig.tar.gz 8ca16486fc1e319badd3827d2a0ddc0d 8616 golang-google-cloud_0.56.0-6.debian.tar.xz"
+    "11a54809e5319b92566eb401b23eba7c 3484 golang-google-cloud_0.115.0-1.dsc 2a3f1740dc73d82e3157720872213777 28850956 golang-google-cloud_0.115.0.orig.tar.gz eb836d6169b28c8704048fe092e0aaee 10576 golang-google-cloud_0.115.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "golang"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-google-cloud.git"
   ],
   "Version": [
-    "0.56.0-6"
+    "0.115.0-1"
   ]
 }

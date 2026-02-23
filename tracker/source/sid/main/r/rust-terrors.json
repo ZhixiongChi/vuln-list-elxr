@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-terrors-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "87d4c6e814df0ffb743bf1eb2cc8e32bfb24d17b8df6d380e148481505c19adb 2181 rust-terrors_0.3.3-1.dsc 987fd8c678ca950df2a18b2c6e9da6ca511d449278fab3565efe0d49c0c07a5d 15515 rust-terrors_0.3.3.orig.tar.gz a15c9af3af6d5a80f9f0fdd796991e677bd16b9498b3f1fb37dcdb2e786a6c9f 2632 rust-terrors_0.3.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-terrors"
+  ],
+  "Files": [
+    "f1a197e90372cac1119bc787e610080a 2181 rust-terrors_0.3.3-1.dsc 9b7ab5ed6a312a9933ddf5f2ee82d3a3 15515 rust-terrors_0.3.3.orig.tar.gz 8a4afd1cf55f5dd9e77a6e88a517c084 2632 rust-terrors_0.3.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/komora-io/terrors"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-terrors"
+  ],
+  "Package-List": [
+    "librust-terrors-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/terrors"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/terrors]"
+  ],
+  "Version": [
+    "0.3.3-1"
+  ]
+}

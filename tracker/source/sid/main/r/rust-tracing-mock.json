@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-tracing-mock-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.65.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-tracing-0.1+attributes-dev (\u003e= 0.1.43-~~) \u003c!nocheck\u003e, librust-tracing-0.1+std-dev (\u003e= 0.1.43-~~) \u003c!nocheck\u003e, librust-tracing-core-0.1-dev (\u003e= 0.1.28-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "90e94491cd750ae2eb897da1914b9ce060f0855504ff90056b93d35cae227ccf 1857 rust-tracing-mock_0.1.0~beta.3-1.dsc 98a31739d4ff16a8634c5463c75d5bf9e500596958a245d1ee5b6b98ac37658d 37138 rust-tracing-mock_0.1.0~beta.3.orig.tar.gz 85ee2494fb4058331a9ed5551532d6b9d095c295f737af7f3097a9abe6afafec 2780 rust-tracing-mock_0.1.0~beta.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-tracing-mock"
+  ],
+  "Files": [
+    "bc9608b311b6b8060012faf59c9e45b3 1857 rust-tracing-mock_0.1.0~beta.3-1.dsc 56e0ea6b009a5d6c4f04be4ecd73e260 37138 rust-tracing-mock_0.1.0~beta.3.orig.tar.gz 04562e1f3503c82687bf31c4b7cb6785 2780 rust-tracing-mock_0.1.0~beta.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://tokio.rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-tracing-mock"
+  ],
+  "Package-List": [
+    "librust-tracing-mock-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tracing-mock"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/tracing-mock]"
+  ],
+  "Version": [
+    "0.1.0~beta.3-1"
+  ]
+}

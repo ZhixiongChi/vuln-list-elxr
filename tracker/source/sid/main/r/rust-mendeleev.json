@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-mendeleev-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.62) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-serde-1+derive-dev \u003c!nocheck\u003e, librust-serde-1+std-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "528a65d2720bed3262ad455339dc5886cea6d1018a51a6458b92a5f2d4dc0014 2296 rust-mendeleev_0.8.1-1.dsc 8312069eadd5b2cb9ff1bbd3874927d0cc60007ef608507cf8a59920b8a140fd 97421 rust-mendeleev_0.8.1.orig.tar.gz 474b0bcb6e3549fb73852e17bedc0d5954fce5e632d8edca7ae2d95ad9c00ca8 3920 rust-mendeleev_0.8.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-mendeleev"
+  ],
+  "Files": [
+    "fbbc1cdb64e166a2acc6ac16908de327 2296 rust-mendeleev_0.8.1-1.dsc f8f56dea24f2b27ce485501980c7ea67 97421 rust-mendeleev_0.8.1.orig.tar.gz e896d670933bd1916022e3f87a1e81a6 3920 rust-mendeleev_0.8.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.com/ygor.souza/mendeleev"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-mendeleev"
+  ],
+  "Package-List": [
+    "librust-mendeleev-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Maytham Alsudany \u003cmaytham@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/mendeleev"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/mendeleev]"
+  ],
+  "Version": [
+    "0.8.1-1"
+  ]
+}

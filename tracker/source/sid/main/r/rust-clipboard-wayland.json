@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-clipboard-wayland-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-smithay-clipboard-0.7+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "b467835f0120b6e830c024f614c46d081c67e626f22e8d89da60cd2d7523f9d4 1754 rust-clipboard-wayland_0.2.2-1.dsc 003f886bc4e2987729d10c1db3424e7f80809f3fc22dbc16c685738887cb37b8 5214 rust-clipboard-wayland_0.2.2.orig.tar.gz 316579a92fc1f08203a05698f366702ae1e3f21910957ccb89b1f13287d15288 2032 rust-clipboard-wayland_0.2.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-clipboard-wayland"
+  ],
+  "Files": [
+    "aa19da99a6f3c0e4d062c1cc5dff90cc 1754 rust-clipboard-wayland_0.2.2-1.dsc 49118d94f05d6a1728becabedda523f8 5214 rust-clipboard-wayland_0.2.2.orig.tar.gz 5fdf31461b4c0d5f4590cb4ff3d8378c 2032 rust-clipboard-wayland_0.2.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/hecrj/window_clipboard"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-clipboard-wayland"
+  ],
+  "Package-List": [
+    "librust-clipboard-wayland-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/clipboard-wayland"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/clipboard-wayland]"
+  ],
+  "Version": [
+    "0.2.2-1"
+  ]
+}

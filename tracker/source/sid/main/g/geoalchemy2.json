@@ -6,19 +6,19 @@
     "python3-geoalchemy2, python-geoalchemy2-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, python3-all, python3-setuptools, python3-setuptools-scm, architecture-is-64-bit, architecture-is-little-endian"
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, architecture-is-64-bit, architecture-is-little-endian, pybuild-plugin-pyproject, python3-all, python3-setuptools, python3-setuptools-scm"
   ],
   "Build-Depends-Indep": [
     "mariadb-server, postgis, postgresql-postgis, postgresql-postgis-scripts, python3-alembic \u003c!nocheck\u003e, python3-psycopg2, python3-pytest \u003c!nocheck\u003e, python3-pytest-benchmark \u003c!nocheck\u003e, python3-rasterio \u003c!nocheck\u003e, python3-shapely, python3-sphinx-gallery, python3-sqlalchemy (\u003e= 1.4)"
   ],
   "Checksums-Sha256": [
-    "84d9fef6a1e6b47c9d1125891530dc74fcb9220dcad0d7ce8e8715c59e53f0b4 2824 geoalchemy2_0.18.1-1.dsc f3ef86705fdce20313fc6bd214637bb0ac179f64494857c5fc65e7ffb82ffb41 234454 geoalchemy2_0.18.1.orig.tar.gz 6371b88e6b28945b22ae8715873dcb83cdfef8fd4585dc2fbeb3f7912dd50456 9604 geoalchemy2_0.18.1-1.debian.tar.xz"
+    "45929fc09efa2340b0fc07274134c3833027903e8e4cc3c0d154db36eedadfbc 2848 geoalchemy2_0.18.2-1.dsc 3f139422a246c8de7cc1d857f5dd998bfa6b86f8396076d82cc4db87f28a811d 234334 geoalchemy2_0.18.2.orig.tar.gz 6848fe993079bfa448b9bda72d87e47a77fe74212473a63a8edacd2a8a58e893 9644 geoalchemy2_0.18.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/g/geoalchemy2"
   ],
   "Files": [
-    "8b5487cdaf35874a30630ed0401effa6 2824 geoalchemy2_0.18.1-1.dsc 3b3bcc57d3f38898f63979bd8583dbd8 234454 geoalchemy2_0.18.1.orig.tar.gz e46035967c5138fc3860843e9bcfeaab 9604 geoalchemy2_0.18.1-1.debian.tar.xz"
+    "e0bb7372b9c03988f0ecafb85a774400 2848 geoalchemy2_0.18.2-1.dsc 782f878c0cc1f4756f533df95c7b34de 234334 geoalchemy2_0.18.2.orig.tar.gz f430f1d17d6d40b06f15422ad08e7806 9644 geoalchemy2_0.18.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,7 +51,7 @@
     "architecture-is-64-bit, architecture-is-little-endian, mariadb-server, postgis, postgresql-postgis, postgresql-postgis-scripts, python3-alembic, python3-mysqldb, python3-psycopg2, python3-pytest, python3-pytest-benchmark, python3-rasterio, python3-shapely, python3-sqlalchemy"
   ],
   "Uploaders": [
-    "Edward Betts \u003cedward@4angle.com\u003e,"
+    "Edward Betts \u003cedward@4angle.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/geoalchemy2"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/geoalchemy2.git"
   ],
   "Version": [
-    "0.18.1-1"
+    "0.18.2-1"
   ]
 }

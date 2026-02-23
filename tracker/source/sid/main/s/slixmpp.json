@@ -1,33 +1,30 @@
 {
   "Architecture": [
-    "all"
+    "any all"
   ],
   "Binary": [
-    "python3-slixmpp, python-slixmpp-doc"
+    "python3-slixmpp, python3-slixmpp-lib, python-slixmpp-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, gnupg, pybuild-plugin-pyproject, python3-aiohttp, python3-all, python3-all-dev, python3-cryptography, python3-docutils, python3-emoji (\u003e= 2.2.0~), python3-setuptools"
-  ],
-  "Build-Depends-Indep": [
-    "furo, python3-sphinx, python3-sphinx-autodoc-typehints"
+    "debhelper-compat (= 13), dh-python, furo, gnupg, librust-jid-dev, librust-pyo3-dev, pybuild-plugin-pyproject, python3-aiohttp, python3-all, python3-all-dev, python3-cryptography, python3-docutils, python3-emoji (\u003e= 2.2.0~), python3-setuptools, python3-setuptools-rust, python3-sphinx, python3-sphinx-autodoc-typehints"
   ],
   "Checksums-Sha256": [
-    "667a1fc39d794bfb4a36a9c2bf055f00f833d9611d2ed6097c2e7bb3736de0fd 2619 slixmpp_1.13.0-1.dsc 0e5cde97df885d2666e290f6469ac7620a739c81a414c53d2a61a620febd67ae 581808 slixmpp_1.13.0.orig.tar.xz 217b33110e58dedad61640a668fbd9dbd52b306e8eee3a787eeb50d3a65586c2 7188 slixmpp_1.13.0-1.debian.tar.xz"
+    "192b0a8672aa534aaae62b49555873b74d370b481353518e9900b39f63312e97 2734 slixmpp_1.13.2-2.dsc 3688ae6a7e1e21968cb076cc6d96645d17a7eb0f8196c42bf3712a8b24e134fa 734654 slixmpp_1.13.2.orig.tar.gz 8c4193ef26dbc84e4b41ee267315a1e4035df1b2f08b80cfcd03c29f1dc1440c 7356 slixmpp_1.13.2-2.debian.tar.xz"
   ],
   "Dgit": [
-    "b440a7447db422724860f6e788a5da366c8db8f6 debian archive/debian/1.13.0-1 https://git.dgit.debian.org/slixmpp"
+    "a252b9123be726a52ea37b7a35610dbca6dbd080 debian archive/debian/1.13.2-2 https://git.dgit.debian.org/slixmpp"
   ],
   "Directory": [
     "pool/main/s/slixmpp"
   ],
   "Files": [
-    "42bb84b249e1e252c98aa32bda75b529 2619 slixmpp_1.13.0-1.dsc f12d6efe51cb3aac5fba34edaf76af0f 581808 slixmpp_1.13.0.orig.tar.xz badd95e5a94fd4a2b5001ac45d27df02 7188 slixmpp_1.13.0-1.debian.tar.xz"
+    "0e2d04ba37d60befaa2ea65f1630c4f1 2734 slixmpp_1.13.2-2.dsc 345d1a29f9dbb8d80f1d7d7880150d72 734654 slixmpp_1.13.2.orig.tar.gz b6265a8291a23ba67b3fcc8bd272fe29 7356 slixmpp_1.13.2-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Git-Tag-Info": [
-    "tag=7a55d8f06053b912a4d0f72c4773998f15d5104d fp=9fdad37b09f913b996aa86adb490e3df337f3213"
+    "tag=632a5676e6030e378509cc1b11ee2f434b1062c2 fp=9fdad37b09f913b996aa86adb490e3df337f3213"
   ],
   "Git-Tag-Tagger": [
     "Martin \u003cdebacle@debian.org\u003e"
@@ -42,7 +39,7 @@
     "slixmpp"
   ],
   "Package-List": [
-    "python-slixmpp-doc deb doc optional arch=all python3-slixmpp deb python optional arch=all"
+    "python-slixmpp-doc deb doc optional arch=all python3-slixmpp deb python optional arch=all python3-slixmpp-lib deb python optional arch=any"
   ],
   "Priority": [
     "optional"
@@ -69,6 +66,6 @@
     "https://salsa.debian.org/python-team/packages/slixmpp.git"
   ],
   "Version": [
-    "1.13.0-1"
+    "1.13.2-2"
   ]
 }
