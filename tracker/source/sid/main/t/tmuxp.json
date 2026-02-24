@@ -6,16 +6,16 @@
     "tmuxp, python3-tmuxp"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-click, python3-flake8, python3-hatchling, python3-isort, python3-libtmux (\u003e= 0.53.0~), python3-setuptools, tmux, vulture"
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-click, python3-docutils, python3-flake8, python3-hatchling, python3-isort, python3-libtmux (\u003e= 0.53.0~), python3-pygments, python3-setuptools, tmux, vulture"
   ],
   "Checksums-Sha256": [
-    "ec3f23941193d475105f4949cda8cffdbdb96e0e2124f0d19f8b5bc130d8e541 1869 tmuxp_1.62.0-2.dsc 73a5fca57569aed560bdcecab6a735a0ef08deadb1f04697c722f01d153ff8b6 855388 tmuxp_1.62.0.orig.tar.xz 128fbe2d32764753fe3942cbae0f92f617e047362e1a903e32c65a389141d8b5 4544 tmuxp_1.62.0-2.debian.tar.xz"
+    "a04909db2b8f2088d707a014b42b3f7d9b30f493e2a8d46f74980228da237576 1966 tmuxp_1.63.1-1.dsc 29b5b6695d507723aa91ae448198abb72e2bb60f4f78dcfeae8b8aba5a87b484 909196 tmuxp_1.63.1.orig.tar.xz cfce3f1a66aab6f734bda849f4242b4633df6704c0057f85eb4aac4c881cfc9a 4644 tmuxp_1.63.1-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/t/tmuxp"
   ],
   "Files": [
-    "178674b5833a67e1c202c11fc74be15b 1869 tmuxp_1.62.0-2.dsc 94abf8310c764edaecd975c32f74059b 855388 tmuxp_1.62.0.orig.tar.xz ce8a2328155e4fc866162560fbad52fd 4544 tmuxp_1.62.0-2.debian.tar.xz"
+    "61eeb0acb3460d157337eb51644be4db 1966 tmuxp_1.63.1-1.dsc f2ebdcfb5f6b50b830747249e5b6f529 909196 tmuxp_1.63.1.orig.tar.xz 7b6eaaa4a8117c96134829d33c7302b7 4644 tmuxp_1.63.1-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +45,7 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "python3-all, python3-hypothesis, python3-pytest, python3-pytest-mock, python3-pytest-rerunfailures, python3-setuptools"
+    "python3-all, python3-docutils, python3-hypothesis, python3-pygments, python3-pytest, python3-pytest-mock, python3-pytest-rerunfailures, python3-setuptools, python3-sphinx-argparse"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/tmuxp"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/tmuxp.git"
   ],
   "Version": [
-    "1.62.0-2"
+    "1.63.1-1"
   ]
 }
