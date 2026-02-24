@@ -1,21 +1,21 @@
 {
   "Architecture": [
-    "any all"
+    "linux-any all"
   ],
   "Binary": [
     "manuals, devhelp"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), desktop-file-utils, libadwaita-1-dev (\u003e= 1.7), libdex-dev (\u003e= 0.4), libflatpak-dev (\u003e= 1.0), libfoundry-dev (\u003e= 1.0), libglib2.0-dev (\u003e= 2.78), libgom-1.0-dev, libgtk-4-dev (\u003e= 4.14), libpanel-dev (\u003e= 1.7.0), libwebkitgtk-6.0-dev, libxml2-utils, meson"
+    "debhelper-compat (= 13), desktop-file-utils, libadwaita-1-dev (\u003e= 1.7), libdex-dev (\u003e= 0.4), libflatpak-dev (\u003e= 1.0), libfoundry-dev (\u003e= 1.1~), libglib2.0-dev (\u003e= 2.78), libgom-1.0-dev, libgtk-4-dev (\u003e= 4.14), libpanel-dev (\u003e= 1.7.0), libwebkitgtk-6.0-dev, libxml2-utils, meson"
   ],
   "Checksums-Sha256": [
-    "03d9d83eee16b5223c0a8afce6a8a7a7e664f322b7f27246d91ca78d23ead2e1 2232 manuals_50~alpha-1.dsc dd2d42a61595423fa978866e96c903e09ab7ea8597646629a564df1839026a77 1270844 manuals_50~alpha.orig.tar.xz 72628da46c775504a1b5482c7e53659589061f027a1d24e7db41065ac51ac831 11048 manuals_50~alpha-1.debian.tar.xz"
+    "d31b6a3a2093720b759ffdf64adfa7c62e59366cb239fd9f03c96b77f1785caa 2221 manuals_50~rc-1.dsc 30acd5e6cb70f8d5415cdd51898605209cf9c9ded0856f474c2dcd5831ddba77 1275028 manuals_50~rc.orig.tar.xz 1785c0b911a9a34a6c1391cca0c5c847270de0516c966f51ab46e4203882dbe8 8376 manuals_50~rc-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/m/manuals"
   ],
   "Files": [
-    "8126dfb2af588df9ab32cc02475a2f84 2232 manuals_50~alpha-1.dsc c0d4c8ca183ef13d7a8da2825d3b768f 1270844 manuals_50~alpha.orig.tar.xz 57e20d060234cc94a2b15c8b5188e001 11048 manuals_50~alpha-1.debian.tar.xz"
+    "e9b32c77b797958a3d371a69168cbe88 2221 manuals_50~rc-1.dsc 269536a0f1bb6c8984bac93a15b08bd6 1275028 manuals_50~rc.orig.tar.xz 39672e1829fcc7058be6798ae6da6cd5 8376 manuals_50~rc-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "manuals"
   ],
   "Package-List": [
-    "devhelp deb oldlibs optional arch=all manuals deb gnome optional arch=any"
+    "devhelp deb oldlibs optional arch=all manuals deb gnome optional arch=linux-any"
   ],
   "Priority": [
     "optional"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/gnome-team/manuals.git"
   ],
   "Version": [
-    "50~alpha-1"
+    "50~rc-1"
   ]
 }

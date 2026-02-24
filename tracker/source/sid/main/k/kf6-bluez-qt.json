@@ -6,16 +6,16 @@
     "libkf6bluezqt-data, libkf6bluezqt-dev, libkf6bluezqt-doc, libkf6bluezqt6, qml6-module-org-kde-bluezqt"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, dh-sequence-qmldeps, cmake (\u003e= 3.16~), dbus-daemon \u003c!nocheck\u003e, doxygen, extra-cmake-modules (\u003e= 6.20.0~), libxkbcommon-dev, pkgconf, qml6-module-qtqml-workerscript \u003c!nocheck\u003e, qml6-module-qtquick-window \u003c!nocheck\u003e, qml6-module-qttest \u003c!nocheck\u003e, qt6-base-dev (\u003e= 6.8.0~), qt6-declarative-dev (\u003e= 6.8.0~), qt6-declarative-private-dev, qt6-tools-dev (\u003e= 6.5.0~), systemd-dev, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, dh-sequence-qmldeps, cmake (\u003e= 3.27~), dbus-daemon \u003c!nocheck\u003e, doxygen, extra-cmake-modules (\u003e= 6.23.0~), libxkbcommon-dev, pkgconf, qml6-module-qtqml-workerscript \u003c!nocheck\u003e, qml6-module-qtquick-window \u003c!nocheck\u003e, qml6-module-qttest \u003c!nocheck\u003e, qt6-base-dev (\u003e= 6.8.0~), qt6-declarative-dev (\u003e= 6.8.0~), qt6-declarative-private-dev, qt6-tools-dev (\u003e= 6.5.0~), systemd-dev, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "59e63a3eda70a3e35d0c99bdde0edbf90beeb504d23b401f12bbdf27b44195bf 3149 kf6-bluez-qt_6.20.0-1.dsc 696b9855313b4eaa3af0a7baeeeddb69182e5583754d1a29602fa2499712ee37 116328 kf6-bluez-qt_6.20.0.orig.tar.xz db2405aa2a37b80bfea8c8cdb691b9765ab633f70d19a1ab159de9a7d733fa15 228 kf6-bluez-qt_6.20.0.orig.tar.xz.asc 96304c281183bd7409f2a73cd62fe8917858be5adadbaeaee0c41e53a9e16281 18248 kf6-bluez-qt_6.20.0-1.debian.tar.xz"
+    "b58fc15ea5496e253d53f7738e1238578a0e5f23ab9b1a6f30e7b9357dfaf2b7 3148 kf6-bluez-qt_6.23.0-1.dsc 37f4c0d8ae8093f8b44d6cb50500c7ba9ce59a2980181cc83e88fa7c03062bef 116344 kf6-bluez-qt_6.23.0.orig.tar.xz dbb421ad085654759cc726ee486d18d1a5786e654cc131c99c9505adffd4c90f 228 kf6-bluez-qt_6.23.0.orig.tar.xz.asc c5ceadfc87ca3d85ef317125457f5b30d12b47e34fe2e83c162e57ce09bcc6e6 18364 kf6-bluez-qt_6.23.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/k/kf6-bluez-qt"
   ],
   "Files": [
-    "4073dc62fcfee745773b0d28587c29bd 3149 kf6-bluez-qt_6.20.0-1.dsc dc1daa0970f7f7d8ebe6ea19ffecedf9 116328 kf6-bluez-qt_6.20.0.orig.tar.xz cade9dabe655976b00af42c4f7a2901f 228 kf6-bluez-qt_6.20.0.orig.tar.xz.asc b2f6a2a928e8c030c2131916c70331bc 18248 kf6-bluez-qt_6.20.0-1.debian.tar.xz"
+    "bb87a48ab57fdbdce23b126583d1737c 3148 kf6-bluez-qt_6.23.0-1.dsc 2b90def0079acc96566631caf35ddcbd 116344 kf6-bluez-qt_6.23.0.orig.tar.xz b021a82af0f8d95cb4cc842d33dd6d6a 228 kf6-bluez-qt_6.23.0.orig.tar.xz.asc d2e511a89e56aa71365a92b046445e82 18364 kf6-bluez-qt_6.23.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "dh-acc, exuberant-ctags"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/kf6-bluez-qt"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kf6-bluez-qt.git"
   ],
   "Version": [
-    "6.20.0-1"
+    "6.23.0-1"
   ]
 }

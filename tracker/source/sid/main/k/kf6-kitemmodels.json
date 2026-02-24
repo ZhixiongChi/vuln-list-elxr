@@ -6,16 +6,16 @@
     "libkf6itemmodels-dev, libkf6itemmodels-doc, libkf6itemmodels6, qml6-module-org-kde-kitemmodels"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, dh-sequence-qmldeps, cmake (\u003e= 3.16~), doxygen, extra-cmake-modules (\u003e= 6.20.0~), libxkbcommon-dev, qml6-module-qtqml-models \u003c!nocheck\u003e, qml6-module-qtqml-workerscript \u003c!nocheck\u003e, qml6-module-qtquick \u003c!nocheck\u003e, qt6-base-dev (\u003e= 6.8.0~), qt6-declarative-dev (\u003e= 6.8.0~), qt6-tools-dev (\u003e= 6.5.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, dh-sequence-qmldeps, cmake (\u003e= 3.27~), doxygen, extra-cmake-modules (\u003e= 6.23.0~), libxkbcommon-dev, qml6-module-qtqml-models \u003c!nocheck\u003e, qml6-module-qtqml-workerscript \u003c!nocheck\u003e, qml6-module-qtquick \u003c!nocheck\u003e, qt6-base-dev (\u003e= 6.8.0~), qt6-declarative-dev (\u003e= 6.8.0~), qt6-tools-dev (\u003e= 6.5.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "68f2c220938c4e0d0e65c483f594ded4b3b6162f24bca2430b868ba7f82ea9bb 3047 kf6-kitemmodels_6.20.0-1.dsc 45b6cd5478fe35f0966a75e3cc554a5db8418ac7d6387745a0070f39caf921a9 397056 kf6-kitemmodels_6.20.0.orig.tar.xz 697d84c3f869be04e222e3b904ca064dfab8798800fb6dfa979750ddbf7d56bb 228 kf6-kitemmodels_6.20.0.orig.tar.xz.asc 3150f7945ee969b9c7b5dcf664167a6225974ee89164d0b8451e1a49457e5ad7 17460 kf6-kitemmodels_6.20.0-1.debian.tar.xz"
+    "cef51bc0f3b112a3b74d93f7d8ac8630d3ef652ab3167a3e58cdea88460c5519 3115 kf6-kitemmodels_6.23.0-1.dsc ef62df76f79845c2316e696741c272909b7a23d80302bce70d4011d6c7273ec2 397232 kf6-kitemmodels_6.23.0.orig.tar.xz 067e9f507c4597331dfcc4c7f67c310cf1d1eff409419d04e24c3e617ef23cb4 228 kf6-kitemmodels_6.23.0.orig.tar.xz.asc 11d7f93dd6e518c09611d716d343573ecb56d0c92979808d0984e557466aaf09 16984 kf6-kitemmodels_6.23.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/k/kf6-kitemmodels"
   ],
   "Files": [
-    "bae2e5aee4b41a45733efde465eeb691 3047 kf6-kitemmodels_6.20.0-1.dsc 87d962685f0ad786880aa0c876c05ca5 397056 kf6-kitemmodels_6.20.0.orig.tar.xz 9a09b2f8ba5b459f41e28823193947a0 228 kf6-kitemmodels_6.20.0.orig.tar.xz.asc a5e828f394bd1e8b072ba221e6d18c58 17460 kf6-kitemmodels_6.20.0-1.debian.tar.xz"
+    "cc03d6f436277c0fe6a90e5d8e6ea6e6 3115 kf6-kitemmodels_6.23.0-1.dsc a0a2a59ed844903093ab4544eebbfdc0 397232 kf6-kitemmodels_6.23.0.orig.tar.xz 6d1920f2a3c6d424148b2cbebf2035f3 228 kf6-kitemmodels_6.23.0.orig.tar.xz.asc daeadf5afb788dee50a701737b838ac4 16984 kf6-kitemmodels_6.23.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "dh-acc, exuberant-ctags"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/kf6-kitemmodels"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kf6-kitemmodels.git"
   ],
   "Version": [
-    "6.20.0-1"
+    "6.23.0-1"
   ]
 }

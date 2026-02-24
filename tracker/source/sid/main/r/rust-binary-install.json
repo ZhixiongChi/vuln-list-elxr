@@ -6,16 +6,16 @@
     "librust-binary-install-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-rust (= 1), librust-anyhow-1+default-dev, librust-dirs-next-2+default-dev, librust-flate2-1+default-dev, librust-fs4-0.13+default-dev, librust-hex-0.4+default-dev, librust-is-executable-1+default-dev, librust-siphasher-1+default-dev, librust-tar-0.4+default-dev, librust-tempfile-3+default-dev, librust-ureq-3+default-dev, librust-ureq-3+platform-verifier-dev, librust-zip-5+default-dev"
+    "debhelper-compat (= 13), dh-sequence-rust (= 1), librust-anyhow-dev, librust-dirs-next-dev, librust-flate2-dev, librust-fs4-dev, librust-hex-dev, librust-is-executable-dev, librust-siphasher-dev, librust-tar-dev, librust-tempfile-dev, librust-ureq-dev, librust-zip-dev"
   ],
   "Checksums-Sha256": [
-    "7f02c95c9c8fb1b1fa962da2e6eeda8e19492a341ebbc6543ba88bfa8cd9322a 2585 rust-binary-install_0.4.1+ds-4.dsc 650b855a1687b3f47e78057f10eddc913ed7070265c3aa92334a93b2927004fa 21076 rust-binary-install_0.4.1+ds.orig.tar.xz 3b55baf91dcce4edb5dca347e4db09210b833df226d46f109e13ee6e6221a606 4468 rust-binary-install_0.4.1+ds-4.debian.tar.xz"
+    "d3d6830b4e364fb5ed0484841fd22456a36cd498080344c3e47de47b57866863 2352 rust-binary-install_0.4.1+ds-5.dsc 650b855a1687b3f47e78057f10eddc913ed7070265c3aa92334a93b2927004fa 21076 rust-binary-install_0.4.1+ds.orig.tar.xz 9579e22b0f35e58b75b5f5ef9b137d0c6e4e1e7c5c13c6166ed9d3cbdf156cdd 4624 rust-binary-install_0.4.1+ds-5.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-binary-install"
   ],
   "Files": [
-    "06cf80334af0e7eac4b75103c86fcf22 2585 rust-binary-install_0.4.1+ds-4.dsc 69db354d446fe902c1a3aa01f495565a 21076 rust-binary-install_0.4.1+ds.orig.tar.xz 54e26e7d2f0818e912cd01097a189686 4468 rust-binary-install_0.4.1+ds-4.debian.tar.xz"
+    "fe28714a76b1e335189b4e8a2f4e71c0 2352 rust-binary-install_0.4.1+ds-5.dsc 69db354d446fe902c1a3aa01f495565a 21076 rust-binary-install_0.4.1+ds.orig.tar.xz aeb8b99f4aaa2251bf70cdc56cff790c 4624 rust-binary-install_0.4.1+ds-5.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +45,7 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-rust, librust-binary-install-0.4+default-dev, librust-binary-install-0.4+std-dev, librust-binary-install-0.4-dev, librust-tempfile-3+default-dev"
+    "dh-rust, librust-binary-install-0.4+default-dev, librust-tempfile-dev"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/rust-binary-install"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/rust-binary-install.git"
   ],
   "Version": [
-    "0.4.1+ds-4"
+    "0.4.1+ds-5"
   ]
 }

@@ -6,16 +6,16 @@
     "librust-asn1-rs-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-rust, librust-bitvec-1+default-dev, librust-colored-dev (\u003c\u003c 4), librust-cookie-factory-0.3+default-dev, librust-displaydoc-0.2+default-dev, librust-hex-literal-0.4+default-dev, librust-nom-7+std-dev, librust-num-bigint-0.4+default-dev, librust-num-traits-0.2+default-dev, librust-pem-3+default-dev, librust-proc-macro2-1+default-dev, librust-quote-1+default-dev, librust-rusticata-macros-4+default-dev, librust-syn-2+default-dev, librust-syn-2+full-dev, librust-synstructure-0.13+default-dev, librust-thiserror-2+default-dev, librust-time-0.3+default-dev, librust-time-0.3+formatting-dev, librust-time-0.3+macros-dev, librust-time-0.3+parsing-dev, librust-trybuild-1+default-dev"
+    "debhelper-compat (= 13), dh-sequence-rust, librust-bitvec-dev, librust-colored-dev, librust-cookie-factory-dev, librust-displaydoc-dev, librust-hex-literal-dev, librust-nom-dev, librust-num-bigint-dev, librust-num-traits-dev, librust-pem-dev, librust-proc-macro2-dev, librust-quote-dev, librust-rusticata-macros-dev, librust-syn-dev, librust-synstructure-dev, librust-thiserror-dev, librust-time-dev, librust-trybuild-dev"
   ],
   "Checksums-Sha256": [
-    "4bbc8fd065b7e13c2ca9e30d116b64b21f6f0bec95bea7924fe5c9bf909104a2 2438 rust-asn1-rs_0.7.1-1.dsc 8a5f6b0b1f0637776959034292af6087e3586fc5dd3e1754216af3ea51e9c76f 104985 rust-asn1-rs_0.7.1.orig.tar.gz 7c580112d58df23f012ed464ee8978416bf0a9b754c9ba50085ae866621b6a1f 6456 rust-asn1-rs_0.7.1-1.debian.tar.xz"
+    "9dc6484020d3c3a08345060d8b735e8fe46403c392ac1d613b88cb012886b4b4 2663 rust-asn1-rs_0.7.1-2.dsc 8a5f6b0b1f0637776959034292af6087e3586fc5dd3e1754216af3ea51e9c76f 104985 rust-asn1-rs_0.7.1.orig.tar.gz 13f341b664585e6cf6054257ae379464bf78894767a8bee273130c1b2fb57d64 6480 rust-asn1-rs_0.7.1-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-asn1-rs"
   ],
   "Files": [
-    "cbc9c791fef817b10be3934ea648cf78 2438 rust-asn1-rs_0.7.1-1.dsc 03eff5488e8af890bbf0691260f25f9d 104985 rust-asn1-rs_0.7.1.orig.tar.gz 9ebb2cb1f56a94cc8bb3eac296c5f8ea 6456 rust-asn1-rs_0.7.1-1.debian.tar.xz"
+    "f8909a8ec2209f92366412469c440288 2663 rust-asn1-rs_0.7.1-2.dsc 03eff5488e8af890bbf0691260f25f9d 104985 rust-asn1-rs_0.7.1.orig.tar.gz c511b6088b14df227b0d9bc0cfdc8bea 6480 rust-asn1-rs_0.7.1-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-rust, librust-asn1-rs-0.7+bigint-dev, librust-asn1-rs-0.7+bits-dev, librust-asn1-rs-0.7+datetime-dev, librust-asn1-rs-0.7+debug-dev, librust-asn1-rs-0.7+default-dev, librust-asn1-rs-0.7+serialize-dev, librust-asn1-rs-0.7+std-dev, librust-asn1-rs-0.7+trace-dev, librust-asn1-rs-0.7-dev, librust-colored-dev, librust-hex-literal-0.4+default-dev, librust-pem-3+default-dev, librust-trybuild-1+default-dev"
+    "dh-rust, librust-asn1-rs-0.7+bigint-dev, librust-asn1-rs-0.7+bits-dev, librust-asn1-rs-0.7+datetime-dev, librust-asn1-rs-0.7+debug-dev, librust-asn1-rs-0.7+default-dev, librust-asn1-rs-0.7+serialize-dev, librust-asn1-rs-0.7+std-dev, librust-asn1-rs-0.7+trace-dev, librust-hex-literal-dev, librust-pem-dev, librust-trybuild-dev"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/rust-asn1-rs"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/rust-asn1-rs.git"
   ],
   "Version": [
-    "0.7.1-1"
+    "0.7.1-2"
   ]
 }

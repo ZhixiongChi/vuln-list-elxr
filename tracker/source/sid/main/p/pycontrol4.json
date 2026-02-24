@@ -8,14 +8,17 @@
   "Build-Depends": [
     "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools"
   ],
+  "Build-Depends-Indep": [
+    "python3-aiohttp \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-socketio \u003c!nocheck\u003e, python3-websocket \u003c!nocheck\u003e, python3-xmltodict \u003c!nocheck\u003e"
+  ],
   "Checksums-Sha256": [
-    "7f673aebbfa352499cc73095afbf758b125f1778af3e8545d7cd89c39ebf3fb9 2048 pycontrol4_1.6.0-1.dsc 82b220ad449a56e6ad8ac168eee976f70598503dfa5678a22d06b402adc77e4a 58347 pycontrol4_1.6.0.orig.tar.gz cb804cfb3314b856b87a6dbccce7ae54423e73f10e105d20410ee89c0762ebd3 2228 pycontrol4_1.6.0-1.debian.tar.xz"
+    "988f8865919bd66eaaee0d82e0baedad50d43c60315da6268c2286d58ba9ed7b 2282 pycontrol4_2.0.2-1.dsc 5c188facbb7ab00d2d025aa63ecb618ebbea4149f21ad5126c32cabbbf4335fa 66035 pycontrol4_2.0.2.orig.tar.gz 94d07ca9ab6dcd65794b36ac0cedf580b7e4b7e339ca2b4291e316f3e39af146 3148 pycontrol4_2.0.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/pycontrol4"
   ],
   "Files": [
-    "606462eadab418bbea12fe03a9fd008c 2048 pycontrol4_1.6.0-1.dsc bf24ff1ec4075c99c9c76502fa9d7084 58347 pycontrol4_1.6.0.orig.tar.gz cda03d9103240af36c85394e603934fb 2228 pycontrol4_1.6.0-1.debian.tar.xz"
+    "e6881de71ba84d9dab3ced55fbdf391f 2282 pycontrol4_2.0.2-1.dsc 3b098fd45ca3a19b656b25a67a10066a 66035 pycontrol4_2.0.2.orig.tar.gz c8ed7885aefb82074d5f638ef10a5f19 3148 pycontrol4_2.0.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -41,6 +44,9 @@
   "Standards-Version": [
     "4.7.3"
   ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
   "Uploaders": [
     "Edward Betts \u003cedward@4angle.com\u003e"
   ],
@@ -51,6 +57,6 @@
     "https://salsa.debian.org/homeassistant-team/deps/pycontrol4.git"
   ],
   "Version": [
-    "1.6.0-1"
+    "2.0.2-1"
   ]
 }

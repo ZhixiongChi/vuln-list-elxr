@@ -6,16 +6,16 @@
     "libkf6iconthemes-bin, libkf6iconthemes-data, libkf6iconthemes-dev, libkf6iconthemes-doc, libkf6iconthemes6, libkf6iconwidgets6, qml6-module-org-kde-iconthemes"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, dh-sequence-qmldeps, cmake (\u003e= 3.16~), doxygen, extra-cmake-modules (\u003e= 6.20.0~), libkf6archive-dev (\u003e= 6.20.0~), libkf6breezeicons-dev (\u003e= 6.20.0~), libkf6colorscheme-dev (\u003e= 6.20.0~), libkf6configwidgets-dev (\u003e= 6.7.0~), libkf6i18n-dev (\u003e= 6.20.0~), libkf6widgetsaddons-dev (\u003e= 6.20.0~), libxkbcommon-dev, qt6-base-dev (\u003e= 6.8.0~), qt6-base-private-dev (\u003e= 6.8.0~), qt6-declarative-dev (\u003e= 6.8.0~), qt6-declarative-private-dev (\u003e= 6.5.0+dfsg~), qt6-svg-dev (\u003e= 6.8.0~), qt6-tools-dev (\u003e= 6.5.0~)"
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, dh-sequence-qmldeps, cmake (\u003e= 3.27~), doxygen, extra-cmake-modules (\u003e= 6.23.0~), libkf6archive-dev (\u003e= 6.23.0~), libkf6breezeicons-dev (\u003e= 6.23.0~), libkf6colorscheme-dev (\u003e= 6.23.0~), libkf6configwidgets-dev (\u003e= 6.7.0~), libkf6i18n-dev (\u003e= 6.23.0~), libkf6widgetsaddons-dev (\u003e= 6.23.0~), libxkbcommon-dev, qt6-base-dev (\u003e= 6.8.0~), qt6-base-private-dev (\u003e= 6.8.0~), qt6-declarative-dev (\u003e= 6.8.0~), qt6-declarative-private-dev (\u003e= 6.5.0+dfsg~), qt6-svg-dev (\u003e= 6.8.0~), qt6-tools-dev (\u003e= 6.5.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "4f91599918a6907070bc956b7209c1dbc4aff47f98f43d5f1db2f642281e9f2d 3425 kf6-kiconthemes_6.20.0-1.dsc 61b906051cd66db1dd259ec76d08885d3fe749e0d3947aea749021d2c96537a5 1272276 kf6-kiconthemes_6.20.0.orig.tar.xz 3d4f438e59d1bb968ae136984223efa7ccd4d919fb99088e0da64b3cd4b7f052 228 kf6-kiconthemes_6.20.0.orig.tar.xz.asc cd82a200252b843476bded7b3ee5172c2e0a89acc1073c07822fc0f559c760ed 16564 kf6-kiconthemes_6.20.0-1.debian.tar.xz"
+    "038312ac4736262700f3ac80891e803939dca34b74ef61cced74904941c877d7 3459 kf6-kiconthemes_6.23.0-1.dsc 76effcbaf85fef3064bc1e5158936b9014daa806047c0a3aeddc7d512ca9017e 1272072 kf6-kiconthemes_6.23.0.orig.tar.xz b46053e4dedca69d5f65fcad4eb51fd7678309f6db92cd002306cb5ebcca13f8 228 kf6-kiconthemes_6.23.0.orig.tar.xz.asc 9b3aba1ccde8c9a588cc29f9bfd226f6a269a72c413ca273e58f3f14b383991a 16188 kf6-kiconthemes_6.23.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/k/kf6-kiconthemes"
   ],
   "Files": [
-    "9247be59cd31234c659d856f3faccd10 3425 kf6-kiconthemes_6.20.0-1.dsc 774050a40374a24c8ea06a6bbc603956 1272276 kf6-kiconthemes_6.20.0.orig.tar.xz 427ec11fd699c755ac0f4fc60f759a58 228 kf6-kiconthemes_6.20.0.orig.tar.xz.asc 67565359b6e6074e2dbc5d0e862f1f7c 16564 kf6-kiconthemes_6.20.0-1.debian.tar.xz"
+    "f3b168e9e6c46573779b4ce5f03d5336 3459 kf6-kiconthemes_6.23.0-1.dsc 30878c5dafdbc0cf56d501ec2a0160ad 1272072 kf6-kiconthemes_6.23.0.orig.tar.xz 1ec0d5cfd5364103312fe6f19d54bbb5 228 kf6-kiconthemes_6.23.0.orig.tar.xz.asc 756ddbd11f9c8b64e4140b56cc7cd285 16188 kf6-kiconthemes_6.23.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "dh-acc, exuberant-ctags"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/kf6-kiconthemes"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kf6-kiconthemes.git"
   ],
   "Version": [
-    "6.20.0-1"
+    "6.23.0-1"
   ]
 }
