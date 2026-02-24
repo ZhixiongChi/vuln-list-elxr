@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-gpu-descriptor-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bitflags-2-dev (\u003e= 2.6-~~) \u003c!nocheck\u003e, librust-gpu-descriptor-types-0.2+default-dev \u003c!nocheck\u003e, librust-hashbrown-0.16+default-hasher-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c7a2e1c470d6f00899236d000f4bbb95b54c8e777ad6c060c9de7b1afedc0249 1828 rust-gpu-descriptor_0.3.2-1.dsc b89c83349105e3732062a895becfc71a8f921bb71ecbbdd8ff99263e3b53a0ca 7943 rust-gpu-descriptor_0.3.2.orig.tar.gz 271d3a264e0c2194602cbf3b07724ae3287aaef134d14b0b7c2d21602680b78a 2864 rust-gpu-descriptor_0.3.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-gpu-descriptor"
+  ],
+  "Files": [
+    "65288e152d97504b923692bdbce60c66 1828 rust-gpu-descriptor_0.3.2-1.dsc d1470fab8946d2d4988e4b2fac7af2b7 7943 rust-gpu-descriptor_0.3.2.orig.tar.gz ca9277b282fab0681f2f33e7ac1e8e72 2864 rust-gpu-descriptor_0.3.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/zakarumych/gpu-descriptor"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-gpu-descriptor"
+  ],
+  "Package-List": [
+    "librust-gpu-descriptor-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/gpu-descriptor"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/gpu-descriptor]"
+  ],
+  "Version": [
+    "0.3.2-1"
+  ]
+}

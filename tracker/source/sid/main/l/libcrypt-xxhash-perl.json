@@ -6,19 +6,19 @@
     "libcrypt-xxhash-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libextutils-cbuilder-perl, libmath-int64-perl \u003c!nocheck\u003e, libmodule-build-perl, libtest-simple-perl \u003c!nocheck\u003e, libxxhash-dev, perl-xs-dev, perl:native"
+    "debhelper-compat (= 13), libextutils-cbuilder-perl, libmath-int64-perl \u003c!nocheck\u003e, libmodule-build-perl, libtest-simple-perl \u003c!nocheck\u003e, libxxhash-dev (\u003e= 0.8.3), perl-xs-dev, perl:native"
   ],
   "Checksums-Sha256": [
-    "20eebda5899cc77d2a645d21ddaf33d0201b5e4fca6e48f439d9b6341ab0f59b 2511 libcrypt-xxhash-perl_0.07-2.dsc 2505a045358bbeaec938af1c1c6583edf46eb3e555fc2949acf71d2a3a90062d 167776 libcrypt-xxhash-perl_0.07.orig.tar.gz 89f9f4765252ac0554042bc237cb88662418c4403c12698b7cd52966703422fe 4080 libcrypt-xxhash-perl_0.07-2.debian.tar.xz"
+    "133508452b9da72a54b7b53b34b33d7957cb6f0a1efe628ad2e6e80f7ae1bfc7 2522 libcrypt-xxhash-perl_0.09-1.dsc 7752282faae93cfd804be27d04c6fd11e8e71a6541274de45eee92612b8c7226 204759 libcrypt-xxhash-perl_0.09.orig.tar.gz ad0756d373c8091e7fa8f0c693c49b5eef2efd45dcef51bf566079d024546284 4208 libcrypt-xxhash-perl_0.09-1.debian.tar.xz"
   ],
   "Dgit": [
-    "7b803b31b3119e4c80b5fd8e8317525dd25ac29f debian archive/debian/0.07-2 https://git.dgit.debian.org/libcrypt-xxhash-perl"
+    "06ffc0801d1074d93d33ca1a7adae65f2623c727 debian archive/debian/0.09-1 https://git.dgit.debian.org/libcrypt-xxhash-perl"
   ],
   "Directory": [
     "pool/main/libc/libcrypt-xxhash-perl"
   ],
   "Files": [
-    "bfe78a0b4525b0d5d978abc6c083ca9b 2511 libcrypt-xxhash-perl_0.07-2.dsc 7862d4e81f994a4a6cb166beb374633b 167776 libcrypt-xxhash-perl_0.07.orig.tar.gz a1ee35e29395adad35c582f6e36f812a 4080 libcrypt-xxhash-perl_0.07-2.debian.tar.xz"
+    "ee773ba2fb9c8b452387b2d7a29ab55a 2522 libcrypt-xxhash-perl_0.09-1.dsc 0fea03b570b2571aebf815f8b053e3bd 204759 libcrypt-xxhash-perl_0.09.orig.tar.gz a132bad7e24120f2f77b2ad67a5c6963 4208 libcrypt-xxhash-perl_0.09-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libcrypt-xxhash-perl.git"
   ],
   "Version": [
-    "0.07-2"
+    "0.09-1"
   ]
 }

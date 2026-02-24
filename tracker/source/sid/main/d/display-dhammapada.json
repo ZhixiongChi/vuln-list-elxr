@@ -1,36 +1,36 @@
 {
   "Architecture": [
-    "any"
+    "all"
   ],
   "Binary": [
-    "display-dhammapada"
+    "display-dhammapada, fortunes-dhammapada"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13)"
+    "debhelper-compat (= 13), fortune-mod"
   ],
   "Checksums-Sha256": [
-    "69b642752fc86fd8eb191a880abb2143ad5086993c1bfee683ae2150e047470c 1998 display-dhammapada_1.0-2.dsc 989765f4ddc369c93e46f2d1910203865c7f83c7257ed3c31b8bf6fdeb01f318 153801 display-dhammapada_1.0.orig.tar.gz 934c4e0a6eb71cacebd0a2fc09d8d0f7fbaba798a00f648b2aec0ca58defaeb0 6460 display-dhammapada_1.0-2.debian.tar.xz"
+    "89c16cd14aae67f376fd8dccf6bbb1a8844303a6524d4d9f6997fa5b36a8ac8f 2010 display-dhammapada_2.0-1.dsc d5638875157a9b57d88953bd2726ae1628d6d0701159d91122f69ac879063c6a 95784 display-dhammapada_2.0.orig.tar.xz 5d140cba3cc2e89c7d375357f7cf9ac7ac597bf293de84d122a7c8f4f0faaf87 6168 display-dhammapada_2.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/d/display-dhammapada"
   ],
   "Files": [
-    "0f17a3c185d2a095e75c0c12c876d4c2 1998 display-dhammapada_1.0-2.dsc f99e29c5e85fd4766ae7a44c26db4f0d 153801 display-dhammapada_1.0.orig.tar.gz 1f7334ed29d3a6a591fd7b5a4f2857b1 6460 display-dhammapada_1.0-2.debian.tar.xz"
+    "ac99db716f7c2da189540b929c3a03ba 2010 display-dhammapada_2.0-1.dsc c59255b43f83a90b08e0f518af61d771 95784 display-dhammapada_2.0.orig.tar.xz 5468b5be1d7b69013e47392ba102b08a 6168 display-dhammapada_2.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://web.archive.org/web/20170418044544/http://bodhizazen.net/display-dhammapada"
+    "https://gitlab.com/bodhi.zazen/display-dhammapada"
   ],
   "Maintainer": [
-    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+    "Haolin Xue \u003ctzbkk@outlook.com\u003e"
   ],
   "Package": [
     "display-dhammapada"
   ],
   "Package-List": [
-    "display-dhammapada deb misc optional arch=any"
+    "display-dhammapada deb games optional arch=all fortunes-dhammapada deb games optional arch=all"
   ],
   "Priority": [
     "optional"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/display-dhammapada"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/display-dhammapada.git"
   ],
   "Version": [
-    "1.0-2"
+    "2.0-1"
   ]
 }

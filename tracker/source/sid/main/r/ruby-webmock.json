@@ -6,16 +6,16 @@
     "ruby-webmock"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gem2deb (\u003e= 1), rake, ruby-addressable, ruby-crack, ruby-curb, ruby-escape-utils, ruby-eventmachine, ruby-excon, ruby-hashdiff, ruby-http, ruby-httpclient, ruby-minitest, ruby-rack, ruby-rspec, ruby-rspec-retry, ruby-test-unit, ruby-typhoeus"
+    "debhelper-compat (= 13), gem2deb (\u003e= 1), rake, ruby-addressable, ruby-crack, ruby-curb, ruby-em-http-request, ruby-escape-utils, ruby-eventmachine, ruby-excon, ruby-hashdiff, ruby-http, ruby-httpclient, ruby-minitest, ruby-rack, ruby-rspec, ruby-rspec-retry, ruby-test-unit, ruby-typhoeus"
   ],
   "Checksums-Sha256": [
-    "8d6c1ae73dcedab92d468ca4df2eb442def02e1081f87377079f519192108518 2237 ruby-webmock_3.25.1-1.dsc a4ea543f8e0ef5ce528c3c747edc2814bb98ac1d881f29f4769b7fbfda32b6cb 131245 ruby-webmock_3.25.1.orig.tar.gz ca0612623dee348ea662a31bf35eb5356399b9eb5495069ef8d0792853c40f31 5820 ruby-webmock_3.25.1-1.debian.tar.xz"
+    "f9eb295b91d713a5a2da9fad90d4c283df28117637253bb90ec1f9affdc3a84f 2259 ruby-webmock_3.26.1-1.dsc 1a02a3ff7a8f4604c3d69838e703acfe40d668dae58f148a9341ba72a878e160 131694 ruby-webmock_3.26.1.orig.tar.gz 89fd46716eebceae88c44604a77f9216e657d7f899683b7ce572483b12301af8 6356 ruby-webmock_3.26.1-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/ruby-webmock"
   ],
   "Files": [
-    "0d10130a560fc20d8bf6a1a7712093b2 2237 ruby-webmock_3.25.1-1.dsc 4ec2b9becf3c072354a352571e73b52b 131245 ruby-webmock_3.25.1.orig.tar.gz a7266cd4269318e343c0e1b906fc509a 5820 ruby-webmock_3.25.1-1.debian.tar.xz"
+    "99ba5ebf3a6f825cdf0717abdb01a0ce 2259 ruby-webmock_3.26.1-1.dsc d8a8d17c109132fdcafced365ffd2821 131694 ruby-webmock_3.26.1.orig.tar.gz 462cbb370aeeb11ddafd3d33dbf4888f 6356 ruby-webmock_3.26.1-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-ruby"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/ruby-team/ruby-webmock.git"
   ],
   "Version": [
-    "3.25.1-1"
+    "3.26.1-1"
   ]
 }

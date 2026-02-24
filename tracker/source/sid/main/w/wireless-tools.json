@@ -3,19 +3,19 @@
     "linux-any"
   ],
   "Binary": [
-    "wireless-tools, ifrename, libiw30t64, libiw-dev, wireless-tools-udeb, libiw30-udeb"
+    "wireless-tools, libiw30t64, libiw-dev, wireless-tools-udeb, libiw30-udeb"
   ],
   "Build-Depends": [
-    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 11)"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 12)"
   ],
   "Checksums-Sha256": [
-    "932e6896c6507ae99c92b9187bde008a4bd6adb7c222225d6fb5ebe6f1d043f3 2302 wireless-tools_30~pre9-19.dsc abd9c5c98abf1fdd11892ac2f8a56737544fe101e1be27c6241a564948f34c63 348477 wireless-tools_30~pre9.orig.tar.gz 292ee5600cc99e931782f423cb88dd3c610b85f28fa97fda770a2904f57fdede 12388 wireless-tools_30~pre9-19.debian.tar.xz"
+    "bc3115cac0bf025d60c718fbe014898499926c4ef6c70a11cba84d6435a69f61 2100 wireless-tools_30~pre9-20.dsc abd9c5c98abf1fdd11892ac2f8a56737544fe101e1be27c6241a564948f34c63 348477 wireless-tools_30~pre9.orig.tar.gz 48fee878835d05917b50a46b03feda6f8613df0fbeed15cd38ddd4166f490b02 11492 wireless-tools_30~pre9-20.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/w/wireless-tools"
   ],
   "Files": [
-    "36bead78d6105ec186357dfd720fe296 2302 wireless-tools_30~pre9-19.dsc ca91ba7c7eff9bfff6926b1a34a4697d 348477 wireless-tools_30~pre9.orig.tar.gz dfb726e96bffa1ecd84e27a9ac45f448 12388 wireless-tools_30~pre9-19.debian.tar.xz"
+    "05778efd089aedf3b2b9de175e48ddd0 2100 wireless-tools_30~pre9-20.dsc ca91ba7c7eff9bfff6926b1a34a4697d 348477 wireless-tools_30~pre9.orig.tar.gz 0f712b7527faee242876c5b45eb713ee 11492 wireless-tools_30~pre9-20.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "wireless-tools"
   ],
   "Package-List": [
-    "ifrename deb net optional arch=linux-any libiw-dev deb libdevel optional arch=linux-any libiw30-udeb udeb debian-installer optional arch=linux-any libiw30t64 deb libs optional arch=linux-any wireless-tools deb net optional arch=linux-any wireless-tools-udeb udeb debian-installer optional arch=linux-any"
+    "libiw-dev deb libdevel optional arch=linux-any libiw30-udeb udeb debian-installer optional arch=linux-any libiw30t64 deb libs optional arch=linux-any wireless-tools deb net optional arch=linux-any wireless-tools-udeb udeb debian-installer optional arch=linux-any"
   ],
   "Priority": [
     "optional"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/wireless-tools.git"
   ],
   "Version": [
-    "30~pre9-19"
+    "30~pre9-20"
   ]
 }

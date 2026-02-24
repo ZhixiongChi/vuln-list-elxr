@@ -6,16 +6,16 @@
     "c2hs, c2hs-doc"
   ],
   "Build-Depends": [
-    "alex, cdbs, debhelper (\u003e= 10), docbook, docbook-xsl, dpkg-dev (\u003e= 1.14), ghc (\u003e= 8), happy, haskell-devscripts (\u003e= 0.13), libghc-dlist-dev, libghc-language-c-dev (\u003e= 0.9), libghc-language-c-dev (\u003c\u003c 0.10), libghc-language-c-prof, libxml2-utils, xsltproc"
+    "alex, dh-sequence-haskell, debhelper-compat (= 13), docbook, docbook-xsl, dpkg-dev (\u003e= 1.14), ghc (\u003e= 8), happy, haskell-devscripts (\u003e= 0.13), libghc-dlist-dev, libghc-language-c-dev (\u003e= 0.9), libghc-language-c-dev (\u003c\u003c 0.11), libxml2-utils, xsltproc"
   ],
   "Checksums-Sha256": [
-    "538db1cbc431859626d89086b1b4ee40fa1a78e542bba4f64f674672ef7a80f7 2222 c2hs_0.28.8-1.dsc 390632cffc561c32483af474aac50168a68f0fa382096552e37749923617884c 207816 c2hs_0.28.8.orig.tar.gz 7237d6318ecbc9140b2ea9cfaf1792f1dd59d7edbd5a32163487bf99fd6842a4 10228 c2hs_0.28.8-1.debian.tar.xz"
+    "7eef22390cf50f3ca10c57356c1ee3646c335b74ba8f89024e6a6e1d40b4f93a 2315 c2hs_0.28.8-2.dsc 390632cffc561c32483af474aac50168a68f0fa382096552e37749923617884c 207816 c2hs_0.28.8.orig.tar.gz f92c732330d37fef00f796ec37352b384351d90736a221580694d0e1f4ae2e8f 10660 c2hs_0.28.8-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/c/c2hs"
   ],
   "Files": [
-    "691aa8329732dd0510c2b95ea1e4b1ea 2222 c2hs_0.28.8-1.dsc 0d21188ad3737724e500982b88e32b9d 207816 c2hs_0.28.8.orig.tar.gz 2796fb44c68249b3dd31bd45102b073d 10228 c2hs_0.28.8-1.debian.tar.xz"
+    "96fd0247f53c57d5ea73ca41383584c6 2315 c2hs_0.28.8-2.dsc 0d21188ad3737724e500982b88e32b9d 207816 c2hs_0.28.8.orig.tar.gz 3eb2002c7fab4739df7dd01459c5cde2 10660 c2hs_0.28.8-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "haskell"
   ],
   "Standards-Version": [
-    "4.1.4"
+    "4.7.3"
   ],
   "Uploaders": [
-    "Erik de Castro Lopo \u003cerikd@mega-nerd.com\u003e,"
+    "Erik de Castro Lopo \u003cerikd@mega-nerd.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/c2hs"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/haskell-team/DHG_packages.git [p/c2hs]"
   ],
   "Version": [
-    "0.28.8-1"
+    "0.28.8-2"
   ]
 }
