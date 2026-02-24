@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "sigsum-log-go, golang-sigsum-log-go-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-golang-mock-dev, golang-github-google-trillian-dev, golang-github-pborman-getopt-dev, golang-google-grpc-dev, golang-prometheus-client-dev, golang-sigsum-sigsum-go-dev, golang-toml-dev"
+  ],
+  "Checksums-Sha256": [
+    "28a2b51c40884be0ceddab6b4d9dd5a41d1ad84e1ae5cbfcb83f70d9fb5471cd 2907 sigsum-log-go_0.15.2-1.dsc dbaf740ef320be617e446ded892fdf7c3a1739384d38dd3e1d8780d107cbd7be 133920 sigsum-log-go_0.15.2.orig.tar.gz 8fb7a7e67922c85ef2a8f9645a86678eeaf26975c5d051b15a7ec96cb9dbb597 6776 sigsum-log-go_0.15.2-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "593956db96ad500b6c83d68aa815b033cbe571a3 debian archive/debian/0.15.2-1 https://git.dgit.debian.org/sigsum-log-go"
+  ],
+  "Directory": [
+    "pool/main/s/sigsum-log-go"
+  ],
+  "Files": [
+    "a942f69cdfc929373bac4e6488ae57b1 2907 sigsum-log-go_0.15.2-1.dsc 0a2cc2371c823f11049e7b6167067d6e 133920 sigsum-log-go_0.15.2.orig.tar.gz be0623ee9b25ab39f6db986dc7350c7a 6776 sigsum-log-go_0.15.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "sigsum.org/log-go"
+  ],
+  "Homepage": [
+    "https://git.glasklar.is/sigsum/core/log-go/"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "sigsum-log-go"
+  ],
+  "Package-List": [
+    "golang-sigsum-log-go-dev deb golang optional arch=all sigsum-log-go deb golang optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "golang"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Simon Josefsson \u003csimon@josefsson.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/sigsum-log-go"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/sigsum-log-go.git"
+  ],
+  "Version": [
+    "0.15.2-1"
+  ]
+}

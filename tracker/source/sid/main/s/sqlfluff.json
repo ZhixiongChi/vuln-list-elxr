@@ -9,19 +9,16 @@
     "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, diff-cover \u003c!nocheck\u003e, pybuild-plugin-pyproject, python3-all:any, python3-colorama \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-hypothesis \u003c!nocheck\u003e, python3-pathspec \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-platformdirs \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-pygments (\u003e= 2.13.0~) \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-regex \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-click \u003c!nodoc\u003e, python3-sphinx-reredirects \u003c!nodoc\u003e, python3-tblib \u003c!nodoc\u003e, python3-tqdm \u003c!nocheck\u003e \u003c!nodoc\u003e, python3-yaml \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "e151087f630b2ed2aaa53ba2f30c51404ec77938bc14d2d8dcc6e803cbc33fb4 4022 sqlfluff_3.5.0-1.dsc 3c4a28b7d68df2f47acdc4e280d70515020d721aba07cb0393e8de4457176db6 3188604 sqlfluff_3.5.0.orig.tar.gz af7dae8be965ebead56ab56fb5f427b0ca4029975517f9920dc8aeac612b93d8 9180 sqlfluff_3.5.0-1.debian.tar.xz"
+    "f42bbb0cf0efa5b85835c959276306fa2cf95078bba8b997eb9cbbe7ca1a00df 3331 sqlfluff_3.5.0-2.dsc 3c4a28b7d68df2f47acdc4e280d70515020d721aba07cb0393e8de4457176db6 3188604 sqlfluff_3.5.0.orig.tar.gz b6a61e9a2fd8276d7ee57ab8fc090e084da5a3411422027f44007d8c7775c39e 9712 sqlfluff_3.5.0-2.debian.tar.xz"
   ],
   "Description": [
     "SQL linter tool SQLFluff is an extensible and modular linter designed to help you write good SQL and catch errors and bad SQL before it hits your database. . SQLFluff has a few components: . 1) A generic parser for SQL which aims to be able to unify SQL written in different dialects into a comparable format. Most of the codebase for SQLFluff is the parser, mostly because at the point of developing SQLFluff, there didn’t appear to be a good option for a whitespace-aware parser that could be used instead. . 2) A mechanism for measuring written SQL against a set of rules, with the added ability to fix any violations found. The core vision for SQLFluff is to be really good at being the linter. . 3) An opinionated set of guidelines for how SQL should be structured and formatted. SQLFluff aims to be opinionated but it also accepts that many organisations and groups have pre-existing strong conventions around how to write SQL and so ultimately SQLFluff should be flexible enough to support whichever rule set a user wishes to. . 4) A public API for other Python applications to use SQLFluff to check and fix SQL code in an automated fashion."
-  ],
-  "Dgit": [
-    "c31c990eb75c1e3fdeca03d58210dcd14cc1ceff debian archive/debian/3.5.0-1 https://git.dgit.debian.org/sqlfluff"
   ],
   "Directory": [
     "pool/main/s/sqlfluff"
   ],
   "Files": [
-    "6408fed33bf5785da3da68f72b3b5fed 4022 sqlfluff_3.5.0-1.dsc 5fbb9f83775cbb638ae09193a8771fe6 3188604 sqlfluff_3.5.0.orig.tar.gz 91f11c9886482ba63d230f4908b98fc1 9180 sqlfluff_3.5.0-1.debian.tar.xz"
+    "97dc9b7316928487c0406d5950aa80f6 3331 sqlfluff_3.5.0-2.dsc 5fbb9f83775cbb638ae09193a8771fe6 3188604 sqlfluff_3.5.0.orig.tar.gz 8c42450707cd7c93ff107e8c129ac7ba 9712 sqlfluff_3.5.0-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
@@ -63,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/sqlfluff.git"
   ],
   "Version": [
-    "3.5.0-1"
+    "3.5.0-2"
   ]
 }

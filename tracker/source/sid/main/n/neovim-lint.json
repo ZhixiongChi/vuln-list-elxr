@@ -9,16 +9,25 @@
     "debhelper-compat (= 13), dh-sequence-vim-addon"
   ],
   "Checksums-Sha256": [
-    "af131181815d5d87cf5e7bff420821edeb8536e6aff29d753fcca73470644823 1403 neovim-lint_0.5+20260107-1.dsc 905b76e9a485db02f81b9bd89a677f581a9ca8189acdd94523e47cbc1909bb98 72632 neovim-lint_0.5+20260107.orig.tar.xz 84d6375f3c17b21ade604265f5188f35621039a21f07fb9fbaabfc16dc4739a7 2084 neovim-lint_0.5+20260107-1.debian.tar.xz"
+    "a4971f493397737ff2dc6461c7b0dd3e191b638d57d4e831fa750890a7cd1ba1 2359 neovim-lint_0.5+20260107-2.dsc 905b76e9a485db02f81b9bd89a677f581a9ca8189acdd94523e47cbc1909bb98 72632 neovim-lint_0.5+20260107.orig.tar.xz 6276b3296359868f64dca98dbf5fd241ed5afbef57ce9abe585bda36e2b8636b 2696 neovim-lint_0.5+20260107-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "bc545bf6f0a6258f0082cc8b6879061259f55a15 debian archive/debian/0.5+20260107-2 https://git.dgit.debian.org/neovim-lint"
   ],
   "Directory": [
     "pool/main/n/neovim-lint"
   ],
   "Files": [
-    "0523c063635b8fcf8de438a2b30d6a89 1403 neovim-lint_0.5+20260107-1.dsc ba8fe108baab7640a0781a054f918086 72632 neovim-lint_0.5+20260107.orig.tar.xz 5253026f6d60e7a5d74ae2a11205a426 2084 neovim-lint_0.5+20260107-1.debian.tar.xz"
+    "b199f15b2666e007aca43da47b48fdcd 2359 neovim-lint_0.5+20260107-2.dsc ba8fe108baab7640a0781a054f918086 72632 neovim-lint_0.5+20260107.orig.tar.xz 575f6cf84c3f5e27d5c50c4bc7ca192f 2696 neovim-lint_0.5+20260107-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=74f5c2ed64e6f07ebdff6a4dd8d20a73e3e34dee fp=14593bff4a5ebf6fe0e9716eecbedbb607b9b2be"
+  ],
+  "Git-Tag-Tagger": [
+    "Matthias Geiger \u003cwerdahias@debian.org\u003e"
   ],
   "Homepage": [
     "https://codeberg.org/mfussenegger/nvim-lint"
@@ -41,6 +50,12 @@
   "Standards-Version": [
     "4.7.3"
   ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "lsof, lua-busted, python3"
+  ],
   "Uploaders": [
     "Matthias Geiger \u003cwerdahias@debian.org\u003e"
   ],
@@ -51,6 +66,6 @@
     "https://salsa.debian.org/vim-team/neovim-lint.git"
   ],
   "Version": [
-    "0.5+20260107-1"
+    "0.5+20260107-2"
   ]
 }

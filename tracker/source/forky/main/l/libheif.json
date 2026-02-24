@@ -6,16 +6,16 @@
     "libheif1, libheif-plugin-aomdec, libheif-plugin-aomenc, libheif-plugin-dav1d, libheif-plugin-ffmpegdec, libheif-plugin-j2kdec, libheif-plugin-j2kenc, libheif-plugin-jpegdec, libheif-plugin-jpegenc, libheif-plugin-kvazaar, libheif-plugin-libde265, libheif-plugin-rav1e, libheif-plugin-svtenc, libheif-plugin-x265, libheif-plugins-all, libheif-dev, libheif-examples, heif-thumbnailer, heif-gdk-pixbuf, heif-view"
   ],
   "Build-Depends": [
-    "aom-tools, cmake, debhelper-compat (= 13), libaom-dev, libavcodec-dev, libdav1d-dev, libde265-dev (\u003e= 1.0.7), libgdk-pixbuf-2.0-dev, libjpeg-dev, libkvazaar-dev [!loong64], libopenjp2-7-dev, libpng-dev, librav1e-dev [amd64 arm64 armel armhf mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x], libsdl2-dev, libsharpyuv-dev, libsvtav1enc-dev, libwebm-dev, libx265-dev, libyuv-dev, libz-dev, pkgconf"
+    "aom-tools, cmake, debhelper-compat (= 13), libaom-dev, libavcodec-dev, libdav1d-dev, libbrotli-dev, libde265-dev (\u003e= 1.0.7), libgdk-pixbuf-2.0-dev, libjpeg-dev, libkvazaar-dev [!loong64], libopenjp2-7-dev, libpng-dev, librav1e-dev [amd64 arm64 armel armhf mips64el mipsel powerpc ppc64 ppc64el riscv64 s390x], libsdl2-dev, libsharpyuv-dev, libsvtav1enc-dev, libwebm-dev, libx265-dev, libyuv-dev, libz-dev, pkgconf"
   ],
   "Checksums-Sha256": [
-    "a7c2b583a5b1ad092b7e1a8df0cfb78592f6d274b51294e48e89b45746d32a85 3823 libheif_1.21.2-2.dsc 75f530b7154bc93e7ecf846edfc0416bf5f490612de8c45983c36385aa742b42 1859435 libheif_1.21.2.orig.tar.gz 4ba294513d00e6a51b3de23a1ac09e1241ce7061f7d94a27917a76781180c7ae 13220 libheif_1.21.2-2.debian.tar.xz"
+    "61fbb9a0e729dbd5e7d8f794f740411c13f3ca1077265ac2165dfd92e2f4a7bd 3838 libheif_1.21.2-3.dsc 75f530b7154bc93e7ecf846edfc0416bf5f490612de8c45983c36385aa742b42 1859435 libheif_1.21.2.orig.tar.gz cde9f1ef60cd45829d4fc37a6531e84d6e570ac5839f4f4828d307d4cf7abe8a 13400 libheif_1.21.2-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/libh/libheif"
   ],
   "Files": [
-    "e5d53f12d0d97b60003ff866c61c3ecc 3823 libheif_1.21.2-2.dsc bee744908edb9d5957cb37fb0b1c6e8f 1859435 libheif_1.21.2.orig.tar.gz beb25933afaab5ed5b86ada7253ddef7 13220 libheif_1.21.2-2.debian.tar.xz"
+    "1d8129f34e615fc3bf84334d266674cd 3838 libheif_1.21.2-3.dsc bee744908edb9d5957cb37fb0b1c6e8f 1859435 libheif_1.21.2.orig.tar.gz 60c41bb6d11f27ed7a3742fe6ffe38bc 13400 libheif_1.21.2-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/multimedia-team/libheif.git"
   ],
   "Version": [
-    "1.21.2-2"
+    "1.21.2-3"
   ]
 }

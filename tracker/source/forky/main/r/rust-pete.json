@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-pete-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.64) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.99-~~) \u003c!nocheck\u003e, librust-memoffset+default-dev (\u003e= 0.8.0-~~) \u003c!nocheck\u003e, librust-nix-0.30+default-dev (\u003e= 0.30.1-~~) \u003c!nocheck\u003e, librust-nix-0.30+process-dev (\u003e= 0.30.1-~~) \u003c!nocheck\u003e, librust-nix-0.30+ptrace-dev (\u003e= 0.30.1-~~) \u003c!nocheck\u003e, librust-thiserror-2+default-dev (\u003e= 2.0.16-~~) \u003c!nocheck\u003e, librust-tracing-0.1+default-dev (\u003e= 0.1.41-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "fdc16349bdae40aff1a3f3b90bb91df61cc92752ac978f481565c83c3013749b 2746 rust-pete_0.13.0-1.dsc fcf3f8ec9e999fa65a14467a47f7b093c378740f2c70b92f4f89e7202e670f27 16471 rust-pete_0.13.0.orig.tar.gz 1029b25fb53f8aa1ed100e580cb4010c066fa85005c6ddf111564e835cffca4c 2572 rust-pete_0.13.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-pete"
+  ],
+  "Files": [
+    "268bf66e6bfb4be014c616c774ad2c26 2746 rust-pete_0.13.0-1.dsc e0ef74305badef6738c4e7238b6e818f 16471 rust-pete_0.13.0.orig.tar.gz 651e50f58bf423a1f1608cd7c0225761 2572 rust-pete_0.13.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ranweiler/pete"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-pete"
+  ],
+  "Package-List": [
+    "librust-pete-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-anyhow-1+default-dev, librust-lazy-static-1+default-dev, librust-ntest-0.9+default-dev, librust-structopt-0.3+default-dev, librust-tracing-subscriber-0.3+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Sudip Mukherjee \u003csudipm.mukherjee@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pete"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/pete]"
+  ],
+  "Version": [
+    "0.13.0-1"
+  ]
+}

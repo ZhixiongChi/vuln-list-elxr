@@ -3,19 +3,19 @@
     "all"
   ],
   "Binary": [
-    "golang-github-coreos-go-semver-dev, golang-go-semver-dev"
+    "golang-github-coreos-go-semver-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-golang, golang-any, golang-gopkg-yaml.v2-dev"
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-gopkg-yaml.v3-dev"
   ],
   "Checksums-Sha256": [
-    "f1b41c4c11457eb8b32c90560f7b5e0775587fda009b8b3069c16e9ac354bdda 2370 golang-github-coreos-semver_0.3.0-1.dsc 1b72134483db366fb43f216727d6bc110086d4450ce0d226960cf4ce823d6eb9 10663 golang-github-coreos-semver_0.3.0.orig.tar.gz 755efdfc2bf4a509d6ec847c4daa120603b1f4aae8df6e935a2ceaacb49197ab 2784 golang-github-coreos-semver_0.3.0-1.debian.tar.xz"
+    "6954af382aaa40a27bfc4eeb208d77bcec583cc618b8820c559f20533f644b34 2296 golang-github-coreos-semver_0.3.1-1.dsc 8e38d96d094d1f75002da4f981697f7bfd27e3e08a540c1badcba5843935a904 11237 golang-github-coreos-semver_0.3.1.orig.tar.gz e42344c488fdd058ef1d57f8af2c5eb8560fa7205da9413a5ce6d4ac12326382 2328 golang-github-coreos-semver_0.3.1-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/g/golang-github-coreos-semver"
   ],
   "Files": [
-    "ecd4c8554d9868114e009f4ba8419145 2370 golang-github-coreos-semver_0.3.0-1.dsc 8b365d7839d28631d5d5379025c327f7 10663 golang-github-coreos-semver_0.3.0.orig.tar.gz 960504561423e0118dff5d2f77c9d1b5 2784 golang-github-coreos-semver_0.3.0-1.debian.tar.xz"
+    "1ffd347c05e77901f54b8a977dbe48b5 2296 golang-github-coreos-semver_0.3.1-1.dsc c35da10bd8d3a9c162beda085a1b0b8e 11237 golang-github-coreos-semver_0.3.1.orig.tar.gz 7713ae005b6365b40fbabe2e4347d052 2328 golang-github-coreos-semver_0.3.1-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -33,7 +33,7 @@
     "golang-github-coreos-semver"
   ],
   "Package-List": [
-    "golang-github-coreos-go-semver-dev deb devel optional arch=all golang-go-semver-dev deb oldlibs optional arch=all"
+    "golang-github-coreos-go-semver-dev deb devel optional arch=all"
   ],
   "Priority": [
     "extra"
@@ -42,7 +42,7 @@
     "golang"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-coreos-go-semver.git"
   ],
   "Version": [
-    "0.3.0-1"
+    "0.3.1-1"
   ]
 }

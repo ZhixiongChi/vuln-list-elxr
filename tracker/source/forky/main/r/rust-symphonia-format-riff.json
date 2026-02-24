@@ -6,16 +6,19 @@
     "librust-symphonia-format-riff-dev, librust-symphonia-format-riff+default-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-extended-0.1+default-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e, librust-symphonia-metadata-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-extended-0.1+default-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.5-~~) \u003c!nocheck\u003e, librust-symphonia-metadata-0.5+default-dev (\u003e= 0.5.5-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "b9260c41bec98aea600e608566d33c8788847d2f4bbc6bad2d05d5a9f1bc4c4d 2051 rust-symphonia-format-riff_0.5.4-1.dsc 05f7be232f962f937f4b7115cbe62c330929345434c834359425e043bfd15f50 16962 rust-symphonia-format-riff_0.5.4.orig.tar.gz 5c6ae57d2831d15709dcc3b00f0d6667e28a1d2659e4726e63bf755ae16513f9 2332 rust-symphonia-format-riff_0.5.4-1.debian.tar.xz"
+    "d161333de31d4061e505bab4a90ef1cbaae615e115ea4c6455bff8e57b6ee9e9 2674 rust-symphonia-format-riff_0.5.5-1.dsc c2d7c3df0e7d94efb68401d81906eae73c02b40d5ec1a141962c592d0f11a96f 17993 rust-symphonia-format-riff_0.5.5.orig.tar.gz eff5f08ddb7bfaac1673da2d61c098d90b6105747fb6826c10b08e63c557f90a 2364 rust-symphonia-format-riff_0.5.5-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-symphonia-format-riff"
   ],
   "Files": [
-    "cecb5a6b93414aad032b5a5a4b3d740c 2051 rust-symphonia-format-riff_0.5.4-1.dsc cda4f5678fcf752f071915562be0dcba 16962 rust-symphonia-format-riff_0.5.4.orig.tar.gz 7e15a319130b401d23f08539393c2202 2332 rust-symphonia-format-riff_0.5.4-1.debian.tar.xz"
+    "df0eb9e934283393df4c6ed7d4ec7c1a 2674 rust-symphonia-format-riff_0.5.5-1.dsc 48b93ad1e31fda0b7df0d4c31726296f 17993 rust-symphonia-format-riff_0.5.5.orig.tar.gz 6b7f0662aaa23ace0fad458b17142e6a 2364 rust-symphonia-format-riff_0.5.5-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/symphonia-format-riff]"
   ],
   "Version": [
-    "0.5.4-1"
+    "0.5.5-1"
   ]
 }

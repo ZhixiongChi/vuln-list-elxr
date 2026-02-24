@@ -9,16 +9,19 @@
     "debhelper-compat (= 13), libmodule-install-perl"
   ],
   "Build-Depends-Indep": [
-    "libpath-tiny-perl, libtest-differences-perl, libtest-warn-perl, perl"
+    "libpath-tiny-perl \u003c!nocheck\u003e, libtest-differences-perl \u003c!nocheck\u003e, libtest-exception-perl \u003c!nocheck\u003e, libtest-warn-perl \u003c!nocheck\u003e, perl"
   ],
   "Checksums-Sha256": [
-    "52b361eaa88a4684706c5430a8537c1bf563a634a8a0f4d548b00f0e61e7f2fe 2444 libsyntax-highlight-engine-kate-perl_0.14+dfsg-4.dsc 336a5f1ac95319019ffc8de0035951fab9a4ee84c46149cdbf5f5e2833485e84 485489 libsyntax-highlight-engine-kate-perl_0.14+dfsg.orig.tar.gz 141c65ba6f1ed2aae78ef13cb87c1f47d6cc59797b4a9b555b4d7f4c19ed7b18 4224 libsyntax-highlight-engine-kate-perl_0.14+dfsg-4.debian.tar.xz"
+    "409b8a086f0ea8e6a328447e8a8b8155e20ea403150e61e76403e225ee70fd5e 2788 libsyntax-highlight-engine-kate-perl_0.16+dfsg-1.dsc a7d1f18cee5fae5a65f065b9270d46e1d17f878416296fdb64ca5bbdeffc23b8 331700 libsyntax-highlight-engine-kate-perl_0.16+dfsg.orig.tar.xz 51b051d8dc5de9ce925c220396f6a52477299474645fc6d5d4b9a0cddb9bb62b 4324 libsyntax-highlight-engine-kate-perl_0.16+dfsg-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "06aa125c7156a79dc7e294a49a09dd6a26b78ae4 debian archive/debian/0.16+dfsg-1 https://git.dgit.debian.org/libsyntax-highlight-engine-kate-perl"
   ],
   "Directory": [
     "pool/main/libs/libsyntax-highlight-engine-kate-perl"
   ],
   "Files": [
-    "62438971f896540e96ed4bd6f5bed6f0 2444 libsyntax-highlight-engine-kate-perl_0.14+dfsg-4.dsc 617e77e2363b86cc68220ab9395ef1c3 485489 libsyntax-highlight-engine-kate-perl_0.14+dfsg.orig.tar.gz 024d5b7517b2ddc36013a0faab12db77 4224 libsyntax-highlight-engine-kate-perl_0.14+dfsg-4.debian.tar.xz"
+    "e27efe79f9b42b0b7d5f01b3d248d461 2788 libsyntax-highlight-engine-kate-perl_0.16+dfsg-1.dsc ac486eb08a054f2fcc1e7c9fbe14b0f2 331700 libsyntax-highlight-engine-kate-perl_0.16+dfsg.orig.tar.xz 4b39993e06f9eb1659389c03eb75cf84 4324 libsyntax-highlight-engine-kate-perl_0.16+dfsg-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +45,7 @@
     "perl"
   ],
   "Standards-Version": [
-    "4.1.3"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libsyntax-highlight-engine-kate-perl.git"
   ],
   "Version": [
-    "0.14+dfsg-4"
+    "0.16+dfsg-1"
   ]
 }

@@ -6,16 +6,16 @@
     "ruby-html-proofer"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gem2deb, ruby-addressable, ruby-awesome-print, ruby-mercenary, ruby-nokogiri (\u003e= 1.12~), ruby-parallel, ruby-rainbow, ruby-rspec, ruby-timecop, ruby-typhoeus, ruby-yell"
+    "debhelper-compat (= 13), gem2deb, ruby-addressable, ruby-async, ruby-awesome-print, ruby-benchmark, ruby-mercenary, ruby-nokogiri (\u003e= 1.12~), ruby-parallel, ruby-pdf-reader, ruby-rainbow, ruby-rspec, ruby-timecop, ruby-typhoeus, ruby-yell, ruby-zeitwerk"
   ],
   "Checksums-Sha256": [
-    "6a663c580d3371ee4972dcbc9bbee5b22b363d1b421b2754288419c52767abc7 2264 ruby-html-proofer_3.19.4-2.dsc a5fb7ddae4593e8016b6d8f2f7c9ecc8c5efe107e25056ebc53014bacd34ba48 1380904 ruby-html-proofer_3.19.4.orig.tar.gz b0e3254680bf4f5375a5d8d9a8df7d14f851dedd7b151af78d82d25938a06ede 8688 ruby-html-proofer_3.19.4-2.debian.tar.xz"
+    "f8593a6fdd2e9f6053cca645f8e6579f53e91c5bdfac69aa2cd46837083338f0 2298 ruby-html-proofer_5.2.0-1.dsc 8ea9303c173a19402360f9e7feb8f8f18205926a6e24fa0336e4ca4354d44d03 8852295 ruby-html-proofer_5.2.0.orig.tar.gz f320bef9216ffca59916a2511f32d0bdbdf83adb25e7e464a863237e896949ac 8044 ruby-html-proofer_5.2.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/ruby-html-proofer"
   ],
   "Files": [
-    "97363b49b6778bef3754609889038265 2264 ruby-html-proofer_3.19.4-2.dsc 0ec01434dcf1bc2e64b1fd2f0564b875 1380904 ruby-html-proofer_3.19.4.orig.tar.gz 020b1d6083b63c2546f49a5254e62a05 8688 ruby-html-proofer_3.19.4-2.debian.tar.xz"
+    "a21ef0c2c54f0c0f84b7f38dc18ebeec 2298 ruby-html-proofer_5.2.0-1.dsc 348c7ff8ea39f3b288f0b541d2f34bf8 8852295 ruby-html-proofer_5.2.0.orig.tar.gz 261bb23f5dc0aa357da4299f13d0e411 8044 ruby-html-proofer_5.2.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -35,14 +35,11 @@
   "Priority": [
     "extra"
   ],
-  "Ruby-Versions": [
-    "all"
-  ],
   "Section": [
     "misc"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-ruby"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/ruby-team/ruby-html-proofer.git"
   ],
   "Version": [
-    "3.19.4-2"
+    "5.2.0-1"
   ]
 }

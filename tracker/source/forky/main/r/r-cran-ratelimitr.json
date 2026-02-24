@@ -6,16 +6,16 @@
     "r-cran-ratelimitr"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-assertthat"
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-assertthat, architecture-is-64-bit, architecture-is-little-endian"
   ],
   "Checksums-Sha256": [
-    "9e501db348a6c5dadddee9a61301fa9f249e035e7214cf2ec399145e399444b6 2154 r-cran-ratelimitr_0.4.1-2.dsc 2b21e4574521c5336feeb3041eaf096bde7857b140049cdeb6ec97dc652aa71b 15564 r-cran-ratelimitr_0.4.1.orig.tar.gz df35698948f4404092dfc167e3a9a6f7d02f50200062158d9b913c1b3e21e2d6 2476 r-cran-ratelimitr_0.4.1-2.debian.tar.xz"
+    "07b044122a3193117988615cec439b4dce1568e05ded098b69b635d114ba838a 2252 r-cran-ratelimitr_0.4.2-1.dsc 924e71b950828229498e64a93614c71e5a1c16f83cddfa5c084f3f1990aa5f53 16281 r-cran-ratelimitr_0.4.2.orig.tar.gz 2debd339de35f081b9f79dc084795181cc5fdc262113262c4fd52b29ab5d2b14 2616 r-cran-ratelimitr_0.4.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/r-cran-ratelimitr"
   ],
   "Files": [
-    "e70b35f3d7b8f3cf2c1f4df0149f5faf 2154 r-cran-ratelimitr_0.4.1-2.dsc ad6c3c861a29eb9c0b0ad3820f0b2050 15564 r-cran-ratelimitr_0.4.1.orig.tar.gz 77f87c0562c5b00ce982a093b35f280c 2476 r-cran-ratelimitr_0.4.1-2.debian.tar.xz"
+    "bb8ff797c215d4717225a5dd591b93ea 2252 r-cran-ratelimitr_0.4.2-1.dsc 8d46707ab3def637a997b41c19b6406e 16281 r-cran-ratelimitr_0.4.2.orig.tar.gz 8945678309cb6365be0f5cd8767f361f 2616 r-cran-ratelimitr_0.4.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-r"
   ],
   "Testsuite-Triggers": [
-    "r-cran-testthat"
+    "r-cran-covr, r-cran-knitr, r-cran-microbenchmark, r-cran-rmarkdown, r-cran-testthat"
   ],
   "Uploaders": [
     "Andreas Tille \u003ctille@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/r-pkg-team/r-cran-ratelimitr.git"
   ],
   "Version": [
-    "0.4.1-2"
+    "0.4.2-1"
   ]
 }

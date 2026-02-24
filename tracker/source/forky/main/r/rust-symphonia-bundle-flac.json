@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), dh-sequence-cargo"
   ],
   "Build-Depends-Arch": [
-    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e, librust-symphonia-metadata-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e, librust-symphonia-utils-xiph-0.5+default-dev (\u003e= 0.5.4-~~) \u003c!nocheck\u003e"
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.53) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-symphonia-core-0.5+default-dev (\u003e= 0.5.5-~~) \u003c!nocheck\u003e, librust-symphonia-metadata-0.5+default-dev (\u003e= 0.5.5-~~) \u003c!nocheck\u003e, librust-symphonia-utils-xiph-0.5+default-dev (\u003e= 0.5.5-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "7edb789139f71f06dd33194adeb6afcdee8fe78357dce68bc73e669a34e53e19 2588 rust-symphonia-bundle-flac_0.5.4-1.dsc 72e34f34298a7308d4397a6c7fbf5b84c5d491231ce3dd379707ba673ab3bd97 23071 rust-symphonia-bundle-flac_0.5.4.orig.tar.gz 27c21bcdf7e0d39021c4e8e637310bf03482723105a57d89839f06a7e0634fd2 2168 rust-symphonia-bundle-flac_0.5.4-1.debian.tar.xz"
+    "b65d0f16b34a92e28f86dad0a5d716c14fae6eee84fccb1d5a30063f171590a2 2587 rust-symphonia-bundle-flac_0.5.5-1.dsc c91565e180aea25d9b80a910c546802526ffd0072d0b8974e3ebe59b686c9976 24141 rust-symphonia-bundle-flac_0.5.5.orig.tar.gz fafc321b7479abe02c37e714b5ed4638cbdbebb88839159324d3103c785fcd86 2176 rust-symphonia-bundle-flac_0.5.5-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-symphonia-bundle-flac"
   ],
   "Files": [
-    "cbbbe4023da1b5d120bb45e4df93d589 2588 rust-symphonia-bundle-flac_0.5.4-1.dsc 6176144398460975b44a4286e48100c3 23071 rust-symphonia-bundle-flac_0.5.4.orig.tar.gz 129a5006368474b9f7980fd9a380b667 2168 rust-symphonia-bundle-flac_0.5.4-1.debian.tar.xz"
+    "329c97a716846e0334a8a5042e88b8bd 2587 rust-symphonia-bundle-flac_0.5.5-1.dsc c88601bc44cc98c4471b7c1831a97d49 24141 rust-symphonia-bundle-flac_0.5.5.orig.tar.gz d981964c78765501162ab6d83ec67a96 2176 rust-symphonia-bundle-flac_0.5.5-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/symphonia-bundle-flac]"
   ],
   "Version": [
-    "0.5.4-1"
+    "0.5.5-1"
   ]
 }

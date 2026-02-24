@@ -3,7 +3,7 @@
     "any all"
   ],
   "Binary": [
-    "libismrmrd1.14, libismrmrd-dev, libismrmrd-doc, ismrmrd-tools, ismrmrd-schema"
+    "libismrmrd1.15, libismrmrd-dev, libismrmrd-doc, ismrmrd-tools, ismrmrd-schema"
   ],
   "Build-Depends": [
     "cmake, debhelper-compat (= 13), d-shlibs, libboost-filesystem-dev, libboost-program-options-dev, libboost-random-dev, libboost-test-dev, libfftw3-dev, libhdf5-dev, libpugixml-dev"
@@ -12,16 +12,13 @@
     "doxygen"
   ],
   "Checksums-Sha256": [
-    "16188fbebbcd67513c71f06dda4b5e448426b2719866d84229bb2e509dac25fb 2561 ismrmrd_1.14.3-3.dsc 79a8017522824d62eff4e0606443d33f7b548bc59118f06c796d058008da39a5 178457 ismrmrd_1.14.3.orig.tar.gz 4268e8d56f50ae59b6b6660e336c96d96063a33f4f5f6c0129c5b24323eb81fd 9292 ismrmrd_1.14.3-3.debian.tar.xz"
-  ],
-  "Dgit": [
-    "f069fe98078dee5f39523307f2023098a1530645 debian archive/debian/1.14.3-3 https://git.dgit.debian.org/ismrmrd"
+    "5f336c0332e8961026e556543cd0c0b91e01e848a23bc2d500bcf5528f798147 2442 ismrmrd_1.15.0-2.dsc 7fb79a978920b30e55637c613776a219e4e56ae4b3890e809cbc37399255eb92 179466 ismrmrd_1.15.0.orig.tar.gz 2616e34931ec725caefa5e20ee329f0fefdb7fb3769402e68ad86ba6b29af535 9292 ismrmrd_1.15.0-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/i/ismrmrd"
   ],
   "Files": [
-    "65455da77427f15fad4597b628591514 2561 ismrmrd_1.14.3-3.dsc 259f5927a0a2a86598dd7ac0a3ebbae7 178457 ismrmrd_1.14.3.orig.tar.gz e7a30ca6323ecda6f203ac1c4bbde0d4 9292 ismrmrd_1.14.3-3.debian.tar.xz"
+    "4cb9846c2af7f9098a617843d2666388 2442 ismrmrd_1.15.0-2.dsc c70a98beae85bc8ba98fd6d4677b97a4 179466 ismrmrd_1.15.0.orig.tar.gz 8b1a7223b4fa394cd1e3ac93082dfea5 9292 ismrmrd_1.15.0-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -36,7 +33,7 @@
     "ismrmrd"
   ],
   "Package-List": [
-    "ismrmrd-schema deb misc optional arch=all ismrmrd-tools deb utils optional arch=any libismrmrd-dev deb libdevel optional arch=any libismrmrd-doc deb doc optional arch=all libismrmrd1.14 deb libs optional arch=any"
+    "ismrmrd-schema deb misc optional arch=all ismrmrd-tools deb utils optional arch=any libismrmrd-dev deb libdevel optional arch=any libismrmrd-doc deb doc optional arch=all libismrmrd1.15 deb libs optional arch=any"
   ],
   "Priority": [
     "optional"
@@ -45,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -54,7 +51,7 @@
     "c++-compiler, cmake, g++"
   ],
   "Uploaders": [
-    "Ghislain Antony Vaillant \u003cghisvail@gmail.com\u003e,"
+    "Ghislain Antony Vaillant \u003cghisvail@gmail.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/med-team/ismrmrd"
@@ -63,6 +60,6 @@
     "https://salsa.debian.org/med-team/ismrmrd.git"
   ],
   "Version": [
-    "1.14.3-3"
+    "1.15.0-2"
   ]
 }

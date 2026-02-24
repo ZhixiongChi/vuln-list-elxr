@@ -3,25 +3,34 @@
     "any all"
   ],
   "Binary": [
-    "libopencc-data, libopencc-dev, libopencc-doc, libopencc1.1, opencc, python3-opencc"
+    "libopencc-data, libopencc-dev, libopencc-doc, libopencc1.2, opencc, python3-opencc"
   ],
   "Build-Depends": [
     "chrpath, cmake, darts, debhelper-compat (= 13), dh-sequence-python3, doxygen \u003c!nodoc\u003e, googletest \u003c!nocheck\u003e, libmarisa-dev (\u003e\u003e 0.3), libtclap-dev, opencc \u003ccross\u003e, dh-sequence-pkgkde-symbolshelper, pybind11-dev, python3-all-dev, rapidjson-dev, pybuild-plugin-pyproject, python3-pybind11, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-wheel"
   ],
   "Checksums-Sha256": [
-    "90ccd2e8cb1e937e355366b3e8e73f56a251a947ee0897f65c0e6026f2feb1b9 2995 opencc_1.1.9+ds1-4.dsc 2870b0af383fb47a899552713d73424ce5d5d9d7cb90e903d817eceac493c6f1 1027080 opencc_1.1.9+ds1.orig.tar.xz 1ed6af5ea078d84b23e889473f3a65b4578c830da8969d9bdcacb37e715ae2fb 17184 opencc_1.1.9+ds1-4.debian.tar.xz"
+    "d355a042ef2e6f0a37a5b026515b442386f64a35594469b8fabdbebc868ad4dc 3208 opencc_1.2.0+ds1-1.dsc 03621e4ee7094f0696677150161b9948e90c5808c5b8995adf6f3a24ae253cc6 1038412 opencc_1.2.0+ds1.orig.tar.xz 353987d17e007cfb4d83b2f0b8a00c6f96ea6e6d1137cb35f69d670f6e1b407f 14952 opencc_1.2.0+ds1-1.debian.tar.xz"
   ],
   "Description": [
     "simplified-traditional Chinese conversion library opencc is a library for converting character between traditional Chinese and simplified Chinese."
+  ],
+  "Dgit": [
+    "5d850965ebf3cc3ded52ed4ae5c8025a6d9b61df debian archive/debian/1.2.0+ds1-1 https://git.dgit.debian.org/opencc"
   ],
   "Directory": [
     "pool/main/o/opencc"
   ],
   "Files": [
-    "8801f50d75be68021c27fb481646ccdf 2995 opencc_1.1.9+ds1-4.dsc 720a33458a963b0976f7db60b2292aa7 1027080 opencc_1.1.9+ds1.orig.tar.xz 36e52d2540ca55348a994817b51518d3 17184 opencc_1.1.9+ds1-4.debian.tar.xz"
+    "e26b4de0e54f7e47a31b41b3f23a6f29 3208 opencc_1.2.0+ds1-1.dsc a968f06a0b9cd47a1bd21ceb2e90d415 1038412 opencc_1.2.0+ds1.orig.tar.xz 39c2dcf50ae03d25840332758072d80c 14952 opencc_1.2.0+ds1-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=591dd8034954a1f6034c3a2ccf32412edadf437a fp=7e7729476d87d6f11d91accbc293e7b461825ace"
+  ],
+  "Git-Tag-Tagger": [
+    "Boyuan Yang \u003cbyang@debian.org\u003e"
   ],
   "Homepage": [
     "https://github.com/BYVoid/OpenCC"
@@ -33,7 +42,7 @@
     "opencc"
   ],
   "Package-List": [
-    "libopencc-data deb libs optional arch=all libopencc-dev deb libdevel optional arch=any libopencc-doc deb doc optional arch=all libopencc1.1 deb libs optional arch=any opencc deb utils optional arch=any python3-opencc deb python optional arch=any"
+    "libopencc-data deb libs optional arch=all libopencc-dev deb libdevel optional arch=any libopencc-doc deb doc optional arch=all libopencc1.2 deb libs optional arch=any opencc deb utils optional arch=any python3-opencc deb python optional arch=any"
   ],
   "Priority": [
     "optional"
@@ -45,10 +54,7 @@
     "4.7.3"
   ],
   "Testsuite": [
-    "autopkgtest"
-  ],
-  "Testsuite-Triggers": [
-    "build-essential, cmake, googletest, pkgconf"
+    "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
     "Debian Chinese Team \u003cchinese-developers@lists.alioth.debian.org\u003e, Asias He \u003casias@debian.org\u003e, YunQiang Su \u003csyq@debian.org\u003e, Osamu Aoki \u003cosamu@debian.org\u003e, Aron Xu \u003caron@debian.org\u003e, xiao sheng wen \u003catzlinux@sina.com\u003e, Boyuan Yang \u003cbyang@debian.org\u003e,"
@@ -60,6 +66,6 @@
     "https://salsa.debian.org/debian/opencc.git"
   ],
   "Version": [
-    "1.1.9+ds1-4"
+    "1.2.0+ds1-1"
   ]
 }

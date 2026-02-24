@@ -6,16 +6,16 @@
     "golang-github-koofr-go-httpclient-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-golang, golang-any, golang-ginkgo-dev, golang-gomega-dev"
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-onsi-ginkgo-v2-dev, golang-gomega-dev (\u003e= 1.33.1~)"
   ],
   "Checksums-Sha256": [
-    "0a94ece005f9d8868952cd5036f66a86732d475d7e235539ccd4f1b4712645c3 2457 golang-github-koofr-go-httpclient_0.0~git20200420.93aa7c7-1.dsc 00141b942555b37e34e97a01c5194f9cc1ba0c775058efe54012e23ca16a8bf9 9828 golang-github-koofr-go-httpclient_0.0~git20200420.93aa7c7.orig.tar.xz 868581a33628a93535c955c19713481116fbcbcc8a33123c286d4da1a4b0c861 2168 golang-github-koofr-go-httpclient_0.0~git20200420.93aa7c7-1.debian.tar.xz"
+    "f66c18f45b24eed05ec7d0004b38dd17d758ba640ba8e189dc1c8463f3f76c4b 2485 golang-github-koofr-go-httpclient_0.0~git20240520.e20f8f2-1.dsc ba0dacab0e0e04f3f8309d2703a956fd54dd81445be94e6cc725eec84aaddb54 9952 golang-github-koofr-go-httpclient_0.0~git20240520.e20f8f2.orig.tar.xz 9abe3a4500c7e8130db82e465dbe7f80b5e3eca721c0133a3620f4c66015d5d8 2260 golang-github-koofr-go-httpclient_0.0~git20240520.e20f8f2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/g/golang-github-koofr-go-httpclient"
   ],
   "Files": [
-    "b8879496e8ea20a2be61b707df84974f 2457 golang-github-koofr-go-httpclient_0.0~git20200420.93aa7c7-1.dsc 5a7678625087eea041ad2a6d49290aaf 9828 golang-github-koofr-go-httpclient_0.0~git20200420.93aa7c7.orig.tar.xz 863630121ff3a528d61c590548cb522c 2168 golang-github-koofr-go-httpclient_0.0~git20200420.93aa7c7-1.debian.tar.xz"
+    "e75748c77cd881caf26900fb7c62ab48 2485 golang-github-koofr-go-httpclient_0.0~git20240520.e20f8f2-1.dsc 5ed445d62c9cce4df52993d5b26d30c4 9952 golang-github-koofr-go-httpclient_0.0~git20240520.e20f8f2.orig.tar.xz 2d2512e58c9edc5ef77ec719ecb800dd 2260 golang-github-koofr-go-httpclient_0.0~git20240520.e20f8f2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "golang"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-koofr-go-httpclient.git"
   ],
   "Version": [
-    "0.0~git20200420.93aa7c7-1"
+    "0.0~git20240520.e20f8f2-1"
   ]
 }

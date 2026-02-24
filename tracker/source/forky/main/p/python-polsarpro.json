@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-polsarpro, python-polsarpro-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-dask, python3-netcdf4, python3-pandas, python3-pytest \u003c!nocheck\u003e, python3-scipy, python3-setuptools, python3-xarray"
+  ],
+  "Checksums-Sha256": [
+    "3d58465169c4c8a1a2689757fa4d74660287adff35749d7894e36e6eb56e50f6 2789 python-polsarpro_2026.1.2-1.dsc 29df1477208090fd83b192a8affd2bb42d167f27ca86193eb1910433ba12109b 12065299 python-polsarpro_2026.1.2.orig.tar.gz 0a766ad2635dcad82d82c077e51fa8c279eb970ef5b8fd9fd43b48dd14b2889d 3608 python-polsarpro_2026.1.2-1.debian.tar.xz"
+  ],
+  "Description": [
+    "Python implementation of selected PolSARpro functions PolSARPro is a SW for polarimetric analysis of Synthetic Aperture Radar (SAR) data. It was originally developed in C and Tcl/Tk language. This package provides a re-implementation in Python of a selected subset of the functions of the original SW, like: * polarimetric decompositions * I/O routines * polarimetric speckle filtering"
+  ],
+  "Directory": [
+    "pool/main/p/python-polsarpro"
+  ],
+  "Files": [
+    "159d5956f79f3a84f707ce5e6164dd6e 2789 python-polsarpro_2026.1.2-1.dsc 06630e2e0e73bac4c89614088c7140a1 12065299 python-polsarpro_2026.1.2.orig.tar.gz d418a15bf654d867576fd34c8973ada2 3608 python-polsarpro_2026.1.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/satim-co/PolSARpro"
+  ],
+  "Maintainer": [
+    "Debian GIS Project \u003cpkg-grass-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "python-polsarpro"
+  ],
+  "Package-List": [
+    "python-polsarpro-doc deb doc optional arch=all python3-polsarpro deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "doc"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Antonio Valentino \u003cantonio.valentino@tiscali.it\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-gis-team/python-polsarpro"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-gis-team/python-polsarpro.git"
+  ],
+  "Version": [
+    "2026.1.2-1"
+  ]
+}

@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), dh-sequence-cargo"
   ],
   "Build-Depends-Arch": [
-    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-chrono-0.4+clock-dev (\u003e= 0.4.31-~~) \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.149-~~) \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-once-cell-1+default-dev (\u003e= 1.18.0-~~) \u003c!nocheck\u003e, librust-scopeguard-1+default-dev (\u003e= 1.2.0-~~) \u003c!nocheck\u003e, librust-urlencoding-2+default-dev (\u003e= 2.1.3-~~) \u003c!nocheck\u003e"
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.85.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-chrono-0.4+clock-dev (\u003e= 0.4.31-~~) \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.149-~~) \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-once-cell-1+default-dev (\u003e= 1.18.0-~~) \u003c!nocheck\u003e, librust-scopeguard-1+default-dev (\u003e= 1.2.0-~~) \u003c!nocheck\u003e, librust-urlencoding-2+default-dev (\u003e= 2.1.3-~~) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "29a04f129cb513de4ea3c11775003503ade2bbbb2d527702db848f75a18aed12 2706 rust-trash_5.2.3-1.dsc 65a334451012017a39758aa85a30827c13ac684245bf6b08249483c063f64ff3 56685 rust-trash_5.2.3.orig.tar.gz 0bcc023b4c3ad55e6f8b087248fa084aabef5b4c62d5c64437c122bdad70a9ab 3616 rust-trash_5.2.3-1.debian.tar.xz"
+    "c5aae0dfc7ea6f44a5d2626e7ad2d09b95579f46a6da491e4221156c6dcd1ae5 2687 rust-trash_5.2.5-1.dsc a9b93a14fcf658568eb11b3ac4cb406822e916e2c55cdebc421beeb0bd7c94d8 57121 rust-trash_5.2.5.orig.tar.gz 5bd7b2cfa9ef0deed0339f288246baa45adc883bd2bbf12fc570ad10380686da 3600 rust-trash_5.2.5-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-trash"
   ],
   "Files": [
-    "5eedfeb623a71c6a7d4d5f14aa9dbdf8 2706 rust-trash_5.2.3-1.dsc 731b4f9b66574830c0e7d37e8f3dd722 56685 rust-trash_5.2.3.orig.tar.gz 016ed87701a476d4b270e2a70f9a0b4b 3616 rust-trash_5.2.3-1.debian.tar.xz"
+    "bf251447e5f4bb77c24db9e37b8a0089 2687 rust-trash_5.2.5-1.dsc f0ed3746855a75a3f55ce98cd9b4691f 57121 rust-trash_5.2.5.orig.tar.gz 142b70929631166288bc04d791cbb98a 3600 rust-trash_5.2.5-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,7 +48,7 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-chrono-0.4+clock-dev, librust-defer-0.2+default-dev, librust-env-logger-0.11+default-dev, librust-once-cell-1+default-dev, librust-rand-0.8+default-dev, librust-serial-test-2-dev, librust-tempfile-3+default-dev, rustc"
+    "dh-cargo, librust-chrono-0.4+clock-dev, librust-defer-0.2+default-dev, librust-env-logger-0.11+default-dev, librust-once-cell-1+default-dev, librust-serial-test-3-dev, librust-tempfile-3+default-dev, rustc"
   ],
   "Uploaders": [
     "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/trash]"
   ],
   "Version": [
-    "5.2.3-1"
+    "5.2.5-1"
   ]
 }
