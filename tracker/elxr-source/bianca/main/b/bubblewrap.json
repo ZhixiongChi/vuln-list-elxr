@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "bubblewrap"
+  ],
+  "Build-Depends": [
+    "bash-completion, debhelper-compat (= 13), docbook-xml, docbook-xsl, iproute2 \u003c!nocheck\u003e, libcap-dev, libcap2-bin \u003c!nocheck\u003e, libipc-run-perl \u003c!nocheck\u003e, libselinux1-dev, meson, perl:any \u003c!nocheck\u003e, pkgconf, python3:any \u003c!nocheck\u003e, xsltproc"
+  ],
+  "Checksums-Sha1": [
+    "3bc01756c9d52239fa526d5d683c6c51739a360c 12604 bubblewrap_0.11.0-2.debian.tar.xz d92d8e6203ef5266fb2ddf18c2f7343376bbd4b8 2685 bubblewrap_0.11.0-2.dsc 54665fb1b788abd50ca43529f5840f33248b4698 115228 bubblewrap_0.11.0.orig.tar.xz bdcac40c428075f63dce1e49e71c07379140e839 833 bubblewrap_0.11.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "1764797472ede5ad8c17c6c5027c9fe1d7df3d904a81df164808178aed115dbf 12604 bubblewrap_0.11.0-2.debian.tar.xz 932eddd0e83dfb24bbc54f11d00d0f2eaa8af73eeb198f62a3cd27c0f36f0d33 2685 bubblewrap_0.11.0-2.dsc 988fd6b232dafa04b8b8198723efeaccdb3c6aa9c1c7936219d5791a8b7a8646 115228 bubblewrap_0.11.0.orig.tar.xz 550c5cbe2149c16faf48b8f1200b6f0337b0ad3074cc4ccee45a5f757b1a1ec6 833 bubblewrap_0.11.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "4447778f1233332ce1df72b40dcffeb1ed288f36336109aeff60e264e89ddadea1a95ce653659177f1ec6490e86b1a5c6c9f5809f0f4e6956369b64e7a287b91 12604 bubblewrap_0.11.0-2.debian.tar.xz 424a52483e9f72aef51b7222091d7c9cf56bdba0994439ed24204cacdf4b9ad941fd3aaabedc6fad288add064f0d82bbd1e8b1dc593e85c58998f45ea5ada89a 2685 bubblewrap_0.11.0-2.dsc 4b083ac42410dacfa75ad8764bbb300048ce8f28543ece393b9b7180b152108ee4b337f82539d63196b6f8f5bf194d9e10f49207e3b8417ee2cb4bde88a63eee 115228 bubblewrap_0.11.0.orig.tar.xz 75fbc88af358ce504c03396d76242a7ffab981b0404a8a5e11f6efb644dff82c3e03a920c085c366bc45cb9e6d376093bb80ce719fd888ec2a6e9fc52d25cccf 833 bubblewrap_0.11.0.orig.tar.xz.asc"
+  ],
+  "Dgit": [
+    "7fd6206b99e8818f80c8b767f9fce296dfb00c4e debian archive/debian/0.11.0-2 https://git.dgit.debian.org/bubblewrap"
+  ],
+  "Directory": [
+    "pool/main/b/bubblewrap"
+  ],
+  "Files": [
+    "9079160071e5397605288f0c802d0ac4 12604 bubblewrap_0.11.0-2.debian.tar.xz ccc26113b4e92e517cd5802011739233 2685 bubblewrap_0.11.0-2.dsc 630eec714ea04729efd116ea85a715a3 115228 bubblewrap_0.11.0.orig.tar.xz 1f865be130e96c12af4cd300ac0db9da 833 bubblewrap_0.11.0.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/containers/bubblewrap"
+  ],
+  "Maintainer": [
+    "Utopia Maintenance Team \u003cpkg-utopia-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "bubblewrap"
+  ],
+  "Package-List": [
+    "bubblewrap deb admin optional arch=linux-any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "iproute2, libcap2-bin, libipc-run-perl, perl, python3"
+  ],
+  "Uploaders": [
+    "Laszlo Boszormenyi (GCS) \u003cgcs@debian.org\u003e, Simon McVittie \u003csmcv@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/bubblewrap"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/bubblewrap.git"
+  ],
+  "Version": [
+    "0.11.0-2"
+  ]
+}

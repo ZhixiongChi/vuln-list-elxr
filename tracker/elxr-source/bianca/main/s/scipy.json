@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-scipy, python-scipy-doc"
+  ],
+  "Build-Depends": [
+    "cython3, debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, gfortran, libblas-dev, liblapack-dev, libsuitesparse-dev, python3-mesonpy (\u003e= 0.15.0~), pkgconf, python3-all-dev, python3-decorator, python3-numpy (\u003e= 1:1.26.0~), python3-pooch, python3-pybind11 (\u003e= 2.13.2~), python3-setuptools, python3-wheel, python3-pythran (\u003e= 0.15.0~), python3-pytest, python3-doit (\u003e= 0.36.0~) \u003c!nocheck\u003e, python3-hypothesis \u003c!nocheck\u003e, python3-yaml"
+  ],
+  "Build-Depends-Indep": [
+    "dvipng, dh-sequence-sphinxdoc, python3-doc \u003c!nodoc\u003e, python3-docutils, python3-sphinx-copybutton \u003c!nodoc\u003e, python3-jupytext \u003c!nodoc\u003e, python3-matplotlib, python-matplotlib-doc \u003c!nodoc\u003e, python-mpmath-doc \u003c!nodoc\u003e, python3-myst-nb \u003c!nodoc\u003e, python-numpy-doc \u003c!nodoc\u003e, python3-numpydoc \u003c!nodoc\u003e, python3-pydata-sphinx-theme, python3-sphinx, python3-sphinx-design, python3-sphinx-tabs, python-statsmodels-doc \u003c!nodoc\u003e, rdfind, symlinks, texlive-latex-base, texlive-latex-extra"
+  ],
+  "Checksums-Sha1": [
+    "b71b9ad723e7ddb779e0d1fcfdd57a8a5d6c833a 43872 scipy_1.15.3-1.debian.tar.xz b4dd1061bd88770a9131fc3f9b11222ef19d0df7 3497 scipy_1.15.3-1.dsc c62a6b5613fa37c01b90d46c40fd1d5a479457a0 35494081 scipy_1.15.3.orig-submodules.tar.gz e5741bb8bc7f82bec8069d5e68249c836bb87789 25213155 scipy_1.15.3.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "9482796c815f4563445e213a4a3e2a50d6f5ec53885e5261f06ee8382be02478 43872 scipy_1.15.3-1.debian.tar.xz 06008ab26e533a48a800e2f5632272b5ecc915f80de04cd4aafe26332be4ab10 3497 scipy_1.15.3-1.dsc 0a55ec64ecbfab35eaafae062410dc9f81532f90c055d8d8180761b45655a219 35494081 scipy_1.15.3.orig-submodules.tar.gz 0aa3c96d8b0cc385fc4e84fb15ae34427733384a9ffc719f94c0f391761fb617 25213155 scipy_1.15.3.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "ed5edd6e00b07b675f79e71cf0e66f1d11eaa0b294c0a0fc4dcf345637010b8fb51b74c9c4fe2b5e97a2367aaff01b0188885c3177173eecd7df4b52e75f7922 43872 scipy_1.15.3-1.debian.tar.xz 177ca4d57ffe3d6e5c83075115d7d448e4adb8f20f9674354ee4e45db035a23907bdb3d82b032d2de37745cb43a09fed02772cbdc6173e7338ae02491b17f154 3497 scipy_1.15.3-1.dsc bdabba768fb838e3ed9a4d94a21124608c3b3ac557f63487c948501ff6cc86c8641b0f59e7dddf68b5482783db96b61df2d7488613c896b6d5c06e38028b6b8f 35494081 scipy_1.15.3.orig-submodules.tar.gz 172bd93a7f0996a01b103640c9e8a7ef1867a748447f6f371dc27cefa9b40446e6298900f08692c16a5b4b9b68966cb8c3ad0d4fa18f7f1171bcee7e4f1df375 25213155 scipy_1.15.3.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/s/scipy"
+  ],
+  "Files": [
+    "0bc6f894883e35aa8f7a5f5b522659cc 43872 scipy_1.15.3-1.debian.tar.xz 7e870e283eb9baa76e100b7680e70915 3497 scipy_1.15.3-1.dsc d2ba901b22b9c7da62e5f1f0a06f312b 35494081 scipy_1.15.3.orig-submodules.tar.gz 4682590f40bf6ea9d01a26da370a7321 25213155 scipy_1.15.3.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.scipy.org/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "scipy"
+  ],
+  "Package-List": [
+    "python-scipy-doc deb doc optional arch=all python3-scipy deb python optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, libblis-dev, libopenblas-dev, python3, python3-all, python3-all-dev, python3-doit, python3-hypothesis, python3-pil, python3-pooch, python3-pytest, python3-yaml"
+  ],
+  "Uploaders": [
+    "Drew Parsons \u003cdparsons@debian.org\u003e, Ondrej Certik \u003condrej@certik.cz\u003e, David Cournapeau \u003ccournape@gmail.com\u003e, Varun Hiremath \u003cvarun@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/scipy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/scipy.git"
+  ],
+  "Version": [
+    "1.15.3-1"
+  ]
+}

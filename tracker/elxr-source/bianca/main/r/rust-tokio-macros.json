@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-tokio-macros-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.70) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev (\u003e= 1.0.60-~~) \u003c!nocheck\u003e, librust-quote-1+default-dev \u003c!nocheck\u003e, librust-syn-2+default-dev \u003c!nocheck\u003e, librust-syn-2+full-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "0b006b3f680b84c78bcf5f68b4464598e6253b69 2808 rust-tokio-macros_2.5.0-1.debian.tar.xz 14e65759eee80b594963662d1a6c435968c4d0b4 2481 rust-tokio-macros_2.5.0-1.dsc 4043ea9ea2e4ae125a201a90925e7283919084f3 12617 rust-tokio-macros_2.5.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "26e647e7b69fc6418aa063b440b6b707b21db0f8b5ee93c2657f636fa60890dd 2808 rust-tokio-macros_2.5.0-1.debian.tar.xz 5b11c3e764216ad0caa85baabe48cb6204623505d2b924280fbe1635732be69b 2481 rust-tokio-macros_2.5.0-1.dsc 6e06d43f1345a3bcd39f6a56dbb7dcab2ba47e68e8ac134855e7e2bdbaf8cab8 12617 rust-tokio-macros_2.5.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "588bbc66d93c91918887863beaaa0b9d98852e1eef84aaa7b5a948072c194d6ea371e52862d992f39a748af220dba5ea5ac353f90b190265fafb994b034d2057 2808 rust-tokio-macros_2.5.0-1.debian.tar.xz 96f7eb05d868036d6059d1b7a7550ab82c53d665cd3c60126e86f5731e1e1cc760ba946130fb39d890622d18095c3e2d935675cdec3e71a7ec06648c4c8dcb02 2481 rust-tokio-macros_2.5.0-1.dsc c1d24cbb8b3f500357e39f93cf139790e4bd3ad1657dd5d695f5e4f9a2a460cd63e8c1c32a36b64d3cadd7b6467e59ee34cd5b1548a99449d8e46c2db83e9ec4 12617 rust-tokio-macros_2.5.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-tokio-macros"
+  ],
+  "Files": [
+    "0a8d70dc185b3b011bbdf9f7ef482ae2 2808 rust-tokio-macros_2.5.0-1.debian.tar.xz a15fe3a0a2f698ffe65c22e136209689 2481 rust-tokio-macros_2.5.0-1.dsc 23c2d55b2debcd452d1320d9e563c8f4 12617 rust-tokio-macros_2.5.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://tokio.rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-tokio-macros"
+  ],
+  "Package-List": [
+    "librust-tokio-macros-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-tokio-1+default-dev, librust-tokio-1+full-dev, rustc"
+  ],
+  "Uploaders": [
+    "Fabian Grünbichler \u003cf.gruenbichler@proxmox.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tokio-macros"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/tokio-macros]"
+  ],
+  "Version": [
+    "2.5.0-1"
+  ]
+}

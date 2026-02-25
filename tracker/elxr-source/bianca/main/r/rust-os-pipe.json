@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-os-pipe-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.63) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.62-~~) \u003c!nocheck\u003e, python3"
+  ],
+  "Checksums-Sha1": [
+    "657bd76243180ccc43577735b87f030a0db38ece 3516 rust-os-pipe_1.2.1-1.debian.tar.xz faa33677653b3282d86c822252948fc871dc84b9 2420 rust-os-pipe_1.2.1-1.dsc 7f2ee1c4644b7044ae53bcdf5ce08509fe9f6a28 10691 rust-os-pipe_1.2.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "2a0fa16df7730eecdb5c03c8e400ae68e785e380c6712441f2e0ea718f69b23e 3516 rust-os-pipe_1.2.1-1.debian.tar.xz b8676bd24264d9ba722aa0498c42d44639c71f533596346b7ff8a996a7b35588 2420 rust-os-pipe_1.2.1-1.dsc 5ffd2b0a5634335b135d5728d84c5e0fd726954b87111f7506a61c502280d982 10691 rust-os-pipe_1.2.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "75c01407a8ae82bd0d891e0121c057c3811203bdb4ea936e713523a1b00d34da659a809054fe4d04d5a939a7688ce241027256cc14185c1d8c43ca2e19c39a8d 3516 rust-os-pipe_1.2.1-1.debian.tar.xz bb840f784cd065299acf3b5642de3a680dae32f0dee545f82d388e1bbef0cf81bc432259dc87516b1739abfd925eb329a00a8f186b0b18f3b0f4b074c17b7121 2420 rust-os-pipe_1.2.1-1.dsc 3a184359185495e8a931d3e875c5ebdc822e6fc76ecb9fb4264409f68d8a145406001339bdc00585f3ed7d9ecc74fc89f662fa8e08f4ed764a258302a198d4ff 10691 rust-os-pipe_1.2.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-os-pipe"
+  ],
+  "Files": [
+    "97856f7a2791c5bcda04ded15130957f 3516 rust-os-pipe_1.2.1-1.debian.tar.xz 5358cb24b1a2a50ba069bcc3aa6f49b8 2420 rust-os-pipe_1.2.1-1.dsc c791353a0cfb368fc1529dc4483c2ec7 10691 rust-os-pipe_1.2.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/oconnor663/os_pipe.rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-os-pipe"
+  ],
+  "Package-List": [
+    "librust-os-pipe-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Paride Legovini \u003cparide@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/os-pipe"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/os-pipe]"
+  ],
+  "Version": [
+    "1.2.1-1"
+  ]
+}

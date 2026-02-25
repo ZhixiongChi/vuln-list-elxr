@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "multipath-tools, kpartx, multipath-tools-boot, multipath-udeb, kpartx-udeb"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Arch": [
+    "libaio-dev, libdevmapper-dev, libedit-dev, libmount-dev, libjson-c-dev, libsystemd-dev, libudev-dev, liburcu-dev, pkgconf, systemd-dev"
+  ],
+  "Checksums-Sha1": [
+    "1cc586a4f30b26150a5f526732f835d9f1d73afc 30044 multipath-tools_0.11.1-2.debian.tar.xz 328b196e8ee12256b9f558612cb7a7efa7e4504b 2726 multipath-tools_0.11.1-2.dsc 20d47028c8b713dfe186cf73ca8b9cdc2abafa94 603721 multipath-tools_0.11.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "7406ae7bc70a4194916337007aa6528fefe5fa14921dd7c5606ea25e3bfeb931 30044 multipath-tools_0.11.1-2.debian.tar.xz c684c2e3f4760379e238b9c20214dbf8f93c2ec81ce179f26fc6ae464422d4eb 2726 multipath-tools_0.11.1-2.dsc 6cc57e33894ea2cd4c3bf1cbb9e4e8e7250d0699163b2907fcab1cd2e0123d85 603721 multipath-tools_0.11.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "bda3ad5a9ce7438fec059320fa019e83e0d046d63e8f762f5d51f0836f88ccdd9959f38773aada42e2dd23838458f80c7c86c2d7e37fcf17e932760ddfabac55 30044 multipath-tools_0.11.1-2.debian.tar.xz cad4530ea6ef14fab99494d7556ed589a92e511cc5d6db65f6f1dc8523a878761b08e6f060747047e633968cae04aada80ace421e571d0463d56abfcabaef19e 2726 multipath-tools_0.11.1-2.dsc ac6bacd725bc831a140b75a72c81296eb1ed4080fb6350caf6178914d1bdce743705f3bd4e31f318068f6272dc98e12d63ee38228a3521a3d1c7bc8eb30812f9 603721 multipath-tools_0.11.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/m/multipath-tools"
+  ],
+  "Files": [
+    "2967cfdef59deb805195d3ec64efd426 30044 multipath-tools_0.11.1-2.debian.tar.xz edfa63ba313d40f63c8a033d8b7cc7e4 2726 multipath-tools_0.11.1-2.dsc 3f14d69d70caffc64716d63f3817551d 603721 multipath-tools_0.11.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://christophe.varoqui.free.fr/"
+  ],
+  "Maintainer": [
+    "Debian DM Multipath Team \u003cteam+linux-blocks@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "multipath-tools"
+  ],
+  "Package-List": [
+    "kpartx deb admin optional arch=linux-any kpartx-udeb udeb debian-installer optional arch=linux-any multipath-tools deb admin optional arch=linux-any multipath-tools-boot deb admin optional arch=all multipath-udeb udeb debian-installer optional arch=linux-any"
+  ],
+  "Standards-Version": [
+    "3.9.8"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "fio, gdisk, initramfs-tools, linux-image-amd64, linux-image-arm64, lsscsi, open-iscsi, qemu-utils, tgt"
+  ],
+  "Uploaders": [
+    "Guido Günther \u003cagx@sigxcpu.org\u003e, Ritesh Raj Sarraf \u003crrs@debian.org\u003e, Chris Hofstaedtler \u003czeha@debian.org\u003e, Fabian Grünbichler \u003cdebian@fabian.gruenbichler.email\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/linux-blocks-team/multipath-tools"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/linux-blocks-team/multipath-tools.git"
+  ],
+  "Version": [
+    "0.11.1-2"
+  ]
+}

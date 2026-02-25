@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libsuperlu7, libsuperlu-dev, libsuperlu-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gfortran, cmake, libblas-dev | libopenblas-dev | libatlas-base-dev | libblas.so"
+  ],
+  "Checksums-Sha1": [
+    "38b589eb79b0e207ea0f1efeb0b9c12fed01e9ed 7472 superlu_7.0.1+dfsg1-2.debian.tar.xz 04725b7af06f109cda357398971962564c4ddbb6 2226 superlu_7.0.1+dfsg1-2.dsc 8f7d510c5bc999256450055c0114c2245e475c7a 723168 superlu_7.0.1+dfsg1.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "426d2857157530ae8330ea918400b66514b814cfc563d27041daa2f812833f05 7472 superlu_7.0.1+dfsg1-2.debian.tar.xz b3e888ca6e3061bdcbd001d121efb7e1d6e8b9f484e39624f3e903a319b2d4b7 2226 superlu_7.0.1+dfsg1-2.dsc 50b896aa4991397b6a3587a14125819ab2649a59097b31015edfff7b2605f468 723168 superlu_7.0.1+dfsg1.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "835e587b840552ccbab89cba56129dd71144328b1675557a1788e1e989a6d2c519adbd3ff437dd05c8a6c7e95bcbba3fc039ca057828a3bda18ad040493de0fe 7472 superlu_7.0.1+dfsg1-2.debian.tar.xz f1a34ab0be09c1c72fdff79e09a7ec6b679f9cfb8f661b4441ee08538f7bc15b7e064ae5b410958cb8bf7148cb1d342a1ee1da0e5f924dc3f820e5e3a68c9392 2226 superlu_7.0.1+dfsg1-2.dsc 143cb1eabc27a38ed25dd69a0094e8e90503c7a54a7e8dd28f173ce9416a06e8f7624ccf0674adbd93777168c18f115f8082bd6e753b55fedb41f6b85179575b 723168 superlu_7.0.1+dfsg1.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/superlu"
+  ],
+  "Files": [
+    "23885a7fe7c8d58b776adecddeeb013d 7472 superlu_7.0.1+dfsg1-2.debian.tar.xz 1b01076d7f1a04f63e7b71f62e069944 2226 superlu_7.0.1+dfsg1-2.dsc bb625161d48757b86add6927bcf0e69b 723168 superlu_7.0.1+dfsg1.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/xiaoyeli/superlu"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "superlu"
+  ],
+  "Package-List": [
+    "libsuperlu-dev deb libdevel optional arch=any libsuperlu-doc deb doc optional arch=all libsuperlu7 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Drew Parsons \u003cdparsons@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/superlu"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/superlu.git"
+  ],
+  "Version": [
+    "7.0.1+dfsg1-2"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "ipmitool"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), init-system-helpers (\u003e= 1.58), libncurses-dev, libfreeipmi-dev [!hurd-i386], libreadline-dev, libssl-dev"
+  ],
+  "Checksums-Sha1": [
+    "1eeaad1b21a9f0b32a2d8f4e55f68674ec1bc87d 1625448 ipmitool_1.8.19-9.debian.tar.xz 85791e2102174f124e02a5a47363cf1ebfd3a6e5 2144 ipmitool_1.8.19-9.dsc 92620c40a0f2d5fbe72e774385a55a53aa4ec448 641383 ipmitool_1.8.19.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "9b8bb7416ce50e33bfae406bbf26546f6544fe142def2dcef6b943494a62a3e9 1625448 ipmitool_1.8.19-9.debian.tar.xz 7617af4bb988852d9ee39dad6af3b36237763d0b91cca07fa9dec07dc4264561 2144 ipmitool_1.8.19-9.dsc 48b010e7bcdf93e4e4b6e43c53c7f60aa6873d574cbd45a8d86fa7aaeebaff9c 641383 ipmitool_1.8.19.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "0b9f8baff73b2bcceffa747fe44e239b094d3fa6f8ef2737ac15b50a3cd5e14cf7fe24a04bd6940b91491f04f38670a2edebf30b7e835929ab7e0ac0d83d2361 1625448 ipmitool_1.8.19-9.debian.tar.xz 8a6e905238d4693a9a6ba49979a99402c6652f2a195ae3b356378d92188bdd11487b739cb1f09d8a18d084ba46fa7f067e24b54c9956db157fc9e8deca64a9a2 2144 ipmitool_1.8.19-9.dsc 2d91706e9feba4b2ce4808eca087b81b842c4292a5840830001919c06ec8babd8f8761b74bb9dcf8fbc7765f028a5b1a192a3c1b643f2adaa157fed6fb0d1ee3 641383 ipmitool_1.8.19.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/i/ipmitool"
+  ],
+  "Files": [
+    "be22b62c918325a9bcfc20749647433e 1625448 ipmitool_1.8.19-9.debian.tar.xz 3f4d774790aad4cd3ac58c907b936b43 2144 ipmitool_1.8.19-9.dsc 0aa41c99d93ce129cf00a9b8803ed8c9 641383 ipmitool_1.8.19.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://codeberg.org/IPMITool/ipmitool"
+  ],
+  "Maintainer": [
+    "Jörg Frings-Fürst \u003cdebian@jff.email\u003e"
+  ],
+  "Package": [
+    "ipmitool"
+  ],
+  "Package-List": [
+    "ipmitool deb utils optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "bridge-utils, libvirt-clients, libvirt-daemon-system, libxml2-utils, linux-generic, linux-image-amd64, python3-libvirt, qemu-kvm, qemu-system, virtualbmc"
+  ],
+  "Vcs-Browser": [
+    "https://git.jff.email/cgit/ipmitool.git"
+  ],
+  "Vcs-Git": [
+    "https://git.jff.email/cgit/ipmitool.git"
+  ],
+  "Version": [
+    "1.8.19-9"
+  ]
+}

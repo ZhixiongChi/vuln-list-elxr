@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-clap-derive-3-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56.1) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-heck-0.4+default-dev \u003c!nocheck\u003e, librust-proc-macro-error-1+default-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev (\u003e= 1.0.28-~~) \u003c!nocheck\u003e, librust-quote-1+default-dev (\u003e= 1.0.9-~~) \u003c!nocheck\u003e, librust-syn-1+default-dev (\u003e= 1.0.74-~~) \u003c!nocheck\u003e, librust-syn-1+full-dev (\u003e= 1.0.74-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "e039a64ba6120ef1835c3b9c5b77a9d05f887c5b 3236 rust-clap-derive-3_3.2.25-2.debian.tar.xz 9ce6c38734890732ee48f6cd1371695142dbd66c 2638 rust-clap-derive-3_3.2.25-2.dsc f83d8585eece63258a2e3f7fabf4851c8b873116 28212 rust-clap-derive-3_3.2.25.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "9c72aacb6c54e5fd9314ce0ba47d1237105359409b821f07b158e33ff0b18789 3236 rust-clap-derive-3_3.2.25-2.debian.tar.xz cbe9945632b93e9aa5a18325a79440c514fefa5053a854a84e205ff896f3e520 2638 rust-clap-derive-3_3.2.25-2.dsc ae6371b8bdc8b7d3959e9cf7b22d4435ef3e79e138688421ec654acf8c81b008 28212 rust-clap-derive-3_3.2.25.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "fe6157c5b0484a976bfb424a960e9d30ddfe5db2f66fa3c8d7145f6733cf4f20557d3eb88f54679cbf94d089f161aff6ca16ce004d01ba068a83606cc8228e15 3236 rust-clap-derive-3_3.2.25-2.debian.tar.xz fc1aab89f9394ab8f630038814aaa7ab44747d57c069c48a380d3a5e247c12657905bff2e910506015371cff21a286d67725d90e2c3af0237274020350c85045 2638 rust-clap-derive-3_3.2.25-2.dsc c98098bfedb8b681d72eaedb946d9867fd068d9be31137fe1fb5d821cd68afec48e7d2963adb2099aa760c702d5b75fb0ed45fc62b83d7f26edc8cecc03ea5d3 28212 rust-clap-derive-3_3.2.25.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-clap-derive-3"
+  ],
+  "Files": [
+    "a474a43dcfaf570e7fd3f87071d710d6 3236 rust-clap-derive-3_3.2.25-2.debian.tar.xz d5b9b5ddb97b76c280c1d05111577a93 2638 rust-clap-derive-3_3.2.25-2.dsc 62649fae3aa6be7a7eabadf27bcfd599 28212 rust-clap-derive-3_3.2.25.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/clap-rs/clap/tree/master/clap_derive"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-clap-derive-3"
+  ],
+  "Package-List": [
+    "librust-clap-derive-3-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cmatthias.geiger1024@tutanota.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/clap-derive-3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/clap-derive-3]"
+  ],
+  "Version": [
+    "3.2.25-2"
+  ]
+}

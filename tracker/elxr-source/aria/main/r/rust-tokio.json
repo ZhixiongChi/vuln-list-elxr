@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-tokio-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-autocfg-1+default-dev (\u003e= 1.1-~~) \u003c!nocheck\u003e, librust-pin-project-lite-0.2+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "1582e4cb56abbff7bcb76f7b1cd44cb333842ebf 12164 rust-tokio_1.24.2-1.debian.tar.xz 63f1b8b4737eb32788be701a30bc93ccee1df0ed 2946 rust-tokio_1.24.2-1.dsc ba510d91002e04c9c0fb92c88bf182cd0c0d416f 625576 rust-tokio_1.24.2.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "d7cccd5295cfae6bce6c86d65a1fd12810ea70dea0e40f9f4dd7a1b375cff388 12164 rust-tokio_1.24.2-1.debian.tar.xz fdda66ae0fd3b792ee97becffec0e63053b6a1553640e6db53517c3d1e069df6 2946 rust-tokio_1.24.2-1.dsc 597a12a59981d9e3c38d216785b0c37399f6e415e8d0712047620f189371b0bb 625576 rust-tokio_1.24.2.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "3c5b550b8682806a91dd5a1ff402936214674593d5cc0457e0c4459f74d4ac73abd65b3b25dc8db12fc9b581c46f43de0fa985ea12d7486bc09c764e93ed3778 12164 rust-tokio_1.24.2-1.debian.tar.xz 3406757b58ddd6b8466f79e2295382516bccdbf9034265f4255cc684ac79a7c81e613adbeb18e394c85f774c566c3ab0c08e05ebccc2abb476b6d9a23446492f 2946 rust-tokio_1.24.2-1.dsc ce84c4f6dd3504e834bcdd7e49ffe4cb5f08999b874cc6f86472450cbc5e1b085a667319f745157af535f4fc1ed43c7c14c20da9062df93eda2e2fec85b521e5 625576 rust-tokio_1.24.2.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-tokio"
+  ],
+  "Files": [
+    "dec40f64a7339b0c3326892209390c42 12164 rust-tokio_1.24.2-1.debian.tar.xz 8cfa049b6a905f7c3d4e0640925d4d1a 2946 rust-tokio_1.24.2-1.dsc 99cae975011eeb0ccdd7e0daf8d7debb 625576 rust-tokio_1.24.2.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://tokio.rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-tokio"
+  ],
+  "Package-List": [
+    "librust-tokio-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-async-stream-0.3+default-dev, librust-futures-0.3+async-await-dev, librust-futures-0.3+default-dev, librust-libc-0.2+default-dev, librust-loom-0.5+checkpoint-dev, librust-loom-0.5+default-dev, librust-loom-0.5+futures-dev, librust-mio-aio-0.7+default-dev, librust-mio-aio-0.7+tokio-dev, librust-mockall-0.11+default-dev, librust-nix-0.24+fs-dev, librust-nix-0.24+socket-dev, librust-ntapi-0.3+default-dev, librust-proptest-1+default-dev, librust-rand-0.8+default-dev, librust-socket2-0.4+default-dev, librust-tempfile-3+default-dev, librust-tokio-stream-0.1+default-dev, librust-tokio-test-0.4+default-dev, librust-wasm-bindgen-test-0.3+default-dev"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tokio"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/tokio]"
+  ],
+  "Version": [
+    "1.24.2-1"
+  ]
+}

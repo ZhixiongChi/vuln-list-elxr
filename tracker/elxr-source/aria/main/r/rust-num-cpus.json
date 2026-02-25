@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-num-cpus-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.26-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "a32246d73d80b9b8754e112bc2c60be7bc430e3b 3040 rust-num-cpus_1.14.0-1.debian.tar.xz c6c17ec9e5db1caa030b603680d926df4c451c83 2247 rust-num-cpus_1.14.0-1.dsc a4ce1a261973693d87af3ac31043d9c4bbb056c8 15673 rust-num-cpus_1.14.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "8880acbf84b921a0cd115dce60d8d302d6c76a96264c26745937df1ed17c2748 3040 rust-num-cpus_1.14.0-1.debian.tar.xz 19cc87e8e59628604456ac829721f7f325ce3e96f10988a591c0dab0b18b20d8 2247 rust-num-cpus_1.14.0-1.dsc f6058e64324c71e02bc2b150e4f3bc8286db6c83092132ffa3f6b1eab0f9def5 15673 rust-num-cpus_1.14.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "6a713a462fac0e607658f5036bf09a3d3f899f05eb0c1f9bed3f7986d2504cf46651abc9756aa6bbc0648154c7be94d4b24219764c65d476d5c9a51b1f0be970 3040 rust-num-cpus_1.14.0-1.debian.tar.xz 8f032cf43213514b923bad91cd8867e99ee5882e7cd837ec6e84826e360358d53df497f362a2d4b6a58780121baf0706bf3b7fe0828e616573d8cf274bcdbede 2247 rust-num-cpus_1.14.0-1.dsc c3b19f7cad14947c9860ed81617e2f7492f69248c8436ce83429cae9fe09d7be04c813233b54ca216e7dc2e03b76f46c5659154f89bb804e702f23b78feb3507 15673 rust-num-cpus_1.14.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-num-cpus"
+  ],
+  "Files": [
+    "67065d233ef46f6184ad011e7a56e22c 3040 rust-num-cpus_1.14.0-1.debian.tar.xz c247e171fb34ebb403d0caa033737576 2247 rust-num-cpus_1.14.0-1.dsc 2dbdb2d789292aa43711c4ed8a86f970 15673 rust-num-cpus_1.14.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-num-cpus"
+  ],
+  "Package-List": [
+    "librust-num-cpus-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e, Robin Krahl \u003crobin.krahl@ireas.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/num-cpus"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/num-cpus]"
+  ],
+  "Version": [
+    "1.14.0-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-either-dev, librust-either+serde-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.37) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "0fd075c62026635309b310588f955551e53424aa 3056 rust-either_1.13.0-1.debian.tar.xz 3a4455ae09aedb26336eecd89e6bf0b580573bbf 2249 rust-either_1.13.0-1.dsc d80680703d332946e15651a33a48f21bfade5e1f 19169 rust-either_1.13.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "cad3ba56f1217f3c27c36d03c4476bcb20ac6f0b72ef39f129495878f05c91c0 3056 rust-either_1.13.0-1.debian.tar.xz 635f00032f19696081924e0a9503287c506bb9ec62a78359d286a35d12056b74 2249 rust-either_1.13.0-1.dsc 60b1af1c220855b6ceac025d3f6ecdd2b7c4894bfe9cd9bda4fbb4bc7c0d4cf0 19169 rust-either_1.13.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "25faab30da595d49b165b15ca4068b7bf928504beb93e8587e0a83369591b6e4e9605eef56cc3f14e0603c0ced3c10cf3faa0ebacd3e519f367237f4f418d97f 3056 rust-either_1.13.0-1.debian.tar.xz a405973cf518e8d642587cceb133337ac4d9b737d08d1ddbc4d706de0a1eda18cfbe7c483f95910cd5428cfa939ea6cf8fd92284654fb1fe082f9ededef2abeb 2249 rust-either_1.13.0-1.dsc 72e803079bae621d282136ab1e423ba71415bf12038b6f386f294cae68a67ad9ff16e4fdf4344eb3fee4418e853f9cac344c248f6befa3006d1c954668b36322 19169 rust-either_1.13.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-either"
+  ],
+  "Files": [
+    "ae72bc05038fee06d0f3f0d9d4ee5782 3056 rust-either_1.13.0-1.debian.tar.xz aaa3c7967883208ca263f40ada8dc708 2249 rust-either_1.13.0-1.dsc 6d28dbfa9d67ad11061716672a7a1519 19169 rust-either_1.13.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-either"
+  ],
+  "Package-List": [
+    "librust-either+serde-dev deb rust optional arch=any librust-either-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-serde-json-1+default-dev"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/either"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/either]"
+  ],
+  "Version": [
+    "1.13.0-1"
+  ]
+}

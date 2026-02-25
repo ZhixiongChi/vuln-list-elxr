@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3.11, python3.11-venv, libpython3.11-stdlib, python3.11-minimal, python3.11-nopie, libpython3.11-minimal, libpython3.11, python3.11-examples, python3.11-dev, libpython3.11-dev, libpython3.11-testsuite, idle-python3.11, python3.11-doc, python3.11-dbg, libpython3.11-dbg, python3.11-full"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 11), dpkg-dev (\u003e= 1.17.11), quilt, autoconf, lsb-release, sharutils, libreadline-dev | libeditreadline-dev, libncursesw5-dev (\u003e= 5.3), zlib1g-dev, libbz2-dev, liblzma-dev, libgdbm-dev, libdb-dev, tk-dev, blt-dev (\u003e= 2.4z), libssl-dev, libexpat1-dev, libbluetooth-dev [linux-any] \u003c!pkg.python3.11.nobluetooth\u003e, locales-all, libsqlite3-dev, libffi-dev (\u003e= 3.0.5) [!or1k !avr32], libgpm2 [linux-any], media-types | mime-support, netbase, bzip2, time, python3:any, python3.11:any \u003ccross\u003e, net-tools, xvfb \u003c!nocheck\u003e, xauth \u003c!nocheck\u003e, systemtap-sdt-dev, valgrind-if-available"
+  ],
+  "Build-Depends-Indep": [
+    "python3-sphinx, python3-docs-theme, texinfo"
+  ],
+  "Checksums-Sha1": [
+    "744f70c862c0750e9403e7cd4c9453bacea1aa80 248364 python3.11_3.11.2-6+deb12u6.debian.tar.xz 5f4825f154ae59eb308b3cb400e146850778c925 3643 python3.11_3.11.2-6+deb12u6.dsc 54d04be4309e6fb445477dd0ae2ac548cee473e7 26437858 python3.11_3.11.2.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "35139070c56095690503166248ea5a8eb90e53704eba137e3decbb0ec2bc01ec 248364 python3.11_3.11.2-6+deb12u6.debian.tar.xz 69294da4e6f6551a48924610fb9f660f03e0c52f9d653afac27a18e4b05ca7f0 3643 python3.11_3.11.2-6+deb12u6.dsc 2411c74bda5bbcfcddaf4531f66d1adc73f247f529aee981b029513aefdbf849 26437858 python3.11_3.11.2.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "70e8d317d2e07cd223138573c0efe7682955958ee2e936841e5ed2fee5d98ceea9aefdc4298ff3bb2464f5749e0297c004f3637fe5dce808f3917657ea1e1f8b 248364 python3.11_3.11.2-6+deb12u6.debian.tar.xz 955698b5cebf65129c35ccd3e262d462f66e6c8626456720abf071ec6669b3e5a96b952c17f8d1e4ec908f99cea1c9f9b4975b6c679d6f1fb5562f64f6532902 3643 python3.11_3.11.2-6+deb12u6.dsc e2dcba35afbceb0e321e7f4edc1a9beabd33ed6093493dc017c952a195beb034301de72d955855a1d143d219fd28a961231e3bd172df0c8c3c3ae531ecaacc37 26437858 python3.11_3.11.2.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/p/python3.11"
+  ],
+  "Files": [
+    "9fddf95d999b00ad87e4bebb40c59a4e 248364 python3.11_3.11.2-6+deb12u6.debian.tar.xz bcfbca685d08e600db54a374421e1414 3643 python3.11_3.11.2-6+deb12u6.dsc f6b5226ccba5ae1ca9376aaba0b0f673 26437858 python3.11_3.11.2.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Matthias Klose \u003cdoko@debian.org\u003e"
+  ],
+  "Package": [
+    "python3.11"
+  ],
+  "Package-List": [
+    "idle-python3.11 deb python optional arch=all libpython3.11 deb libs optional arch=any libpython3.11-dbg deb debug optional arch=any libpython3.11-dev deb libdevel optional arch=any libpython3.11-minimal deb python optional arch=any libpython3.11-stdlib deb python optional arch=any libpython3.11-testsuite deb libdevel optional arch=all python3.11 deb python optional arch=any python3.11-dbg deb debug optional arch=any python3.11-dev deb python optional arch=any python3.11-doc deb doc optional arch=all python3.11-examples deb python optional arch=all python3.11-full deb python optional arch=any python3.11-minimal deb python optional arch=any python3.11-nopie deb python optional arch=any python3.11-venv deb python optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, python3-pip, python3-setuptools, python3-wheel-whl, shunit2, virtualenv"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/cpython-team/python3/tree/python3.11"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/cpython-team/python3.git -b python3.11"
+  ],
+  "Version": [
+    "3.11.2-6+deb12u6"
+  ]
+}

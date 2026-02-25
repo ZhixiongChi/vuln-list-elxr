@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-strsim-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "b54c47b649160f9f8560f9f1e610acea5c743718 2788 rust-strsim_0.10.0-1.debian.tar.xz bf731c4e60a4912b74166f97752b01d304ecb5ca 2277 rust-strsim_0.10.0-1.dsc 379c3a5fe30e4f6dc378d476dbb4be8fabbc0729 11355 rust-strsim_0.10.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "9e7c661a50ff506489f8af2d3d33e131024c1a709ca34ca2f706dc116adb7713 2788 rust-strsim_0.10.0-1.debian.tar.xz 51585d5eee5f637e9922bf5aa0e7615f160ba5beb250f0f48249126d1f8b1830 2277 rust-strsim_0.10.0-1.dsc 73473c0e59e6d5812c5dfe2a064a6444949f089e20eec9a2e5506596494e4623 11355 rust-strsim_0.10.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "e96a249aec9336d0e02980d81fba0390393356e37dcc10f261461fb5fcc4ffb07cefb07a63a1f31540930faab24a9aeefbedeb530e8eb6bb3a97721ce714d17c 2788 rust-strsim_0.10.0-1.debian.tar.xz e4069e1330b28a51dfc4d6bf2fb7202a8ee6c9fd428393588c713f1270bf71a703adaac464334d6c0a1554dfa3e2a2d087ca166e5c5d1affa67ed32cae682559 2277 rust-strsim_0.10.0-1.dsc 78b318532addfcf5c1ccc1e14539e258aab9d3cd893cc45d82342549bde838c177d90f13c560671f8f32929af47d0b467db35e6876bd7697d8b3f9e055aeeac1 11355 rust-strsim_0.10.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-strsim"
+  ],
+  "Files": [
+    "fc3cc50d3717a159fbffe557639598c8 2788 rust-strsim_0.10.0-1.debian.tar.xz 515d332bdde15d5ffceb2ecbccf8fc5d 2277 rust-strsim_0.10.0-1.dsc 82d98dc87dc8503400aa095f5aa70f13 11355 rust-strsim_0.10.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dguo/strsim-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-strsim"
+  ],
+  "Package-List": [
+    "librust-strsim-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/strsim"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/strsim]"
+  ],
+  "Version": [
+    "0.10.0-1"
+  ]
+}

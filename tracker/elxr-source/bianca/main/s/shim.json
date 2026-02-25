@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "amd64 arm64"
+  ],
+  "Binary": [
+    "shim-unsigned, shim-helpers-amd64-signed-template, shim-helpers-arm64-signed-template"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), gnu-efi (\u003e= 3.0u), sbsigntool, openssl, libelf-dev, gcc-12, dos2unix, pesign (\u003e= 0.112-5), efivar, xxd, libefivar-dev"
+  ],
+  "Checksums-Sha1": [
+    "5b62d9edbaad7ece7546868dfd6e6e5be42de236 59308 shim_15.8-1.debian.tar.xz 8a2d725f65087e1a6c7f012c4c70666666fef4f3 2490 shim_15.8-1.dsc cdec924ca437a4509dcb178396996ddf92c11183 2315201 shim_15.8.orig.tar.bz2"
+  ],
+  "Checksums-Sha256": [
+    "fad222c56f31a20b65753f16c66e270082295a2cccf2909686a980f19be665de 59308 shim_15.8-1.debian.tar.xz 65ca82c131a66362a0bb222497eebbca5d64ba9efd44738d7889eb0500b5e4fa 2490 shim_15.8-1.dsc a79f0a9b89f3681ab384865b1a46ab3f79d88b11b4ca59aa040ab03fffae80a9 2315201 shim_15.8.orig.tar.bz2"
+  ],
+  "Checksums-Sha512": [
+    "d7947834f5a4380669edc34aa611f096f22452d85d4adeb72b092a3efd98abb4999fe148047ba730538e3c954d502e0d775846bf2862c82d75f2cf60114ed59f 59308 shim_15.8-1.debian.tar.xz a2460aec3ff92473651ac21c08b676c99e5918ff7388e87f4e50b073ab49b1be27d9d71276d4884020dc7d832142d3ac0cd70a59d4f9733c0dc5fde64121f7d2 2490 shim_15.8-1.dsc 30b3390ae935121ea6fe728d8f59d37ded7b918ad81bea06e213464298b4bdabbca881b30817965bd397facc596db1ad0b8462a84c87896ce6c1204b19371cd1 2315201 shim_15.8.orig.tar.bz2"
+  ],
+  "Directory": [
+    "pool/main/s/shim"
+  ],
+  "Files": [
+    "4689fb8317f8a9a5ca53107743d67a27 59308 shim_15.8-1.debian.tar.xz 96fd60cb002486370c4176382044041e 2490 shim_15.8-1.dsc a9452c2e6fafe4e1b87ab2e1cac9ec00 2315201 shim_15.8.orig.tar.bz2"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian EFI team \u003cdebian-efi@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "shim"
+  ],
+  "Package-List": [
+    "shim-helpers-amd64-signed-template deb admin optional arch=amd64 shim-helpers-arm64-signed-template deb admin optional arch=arm64 shim-unsigned deb admin optional arch=amd64,arm64"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "autopkgtest, ca-certificates, distro-info, genisoimage, grub-efi-amd64-signed, grub-efi-arm64-signed, lsb-release, openssl, ovmf, python3, qemu-efi-aarch64, qemu-system-arm, qemu-system-x86, qemu-utils, sbsigntool, shim-signed, wget"
+  ],
+  "Uploaders": [
+    "Steve Langasek \u003cvorlon@debian.org\u003e, Steve McIntyre \u003c93sam@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/efi-team/shim"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/efi-team/shim.git"
+  ],
+  "Version": [
+    "15.8-1"
+  ]
+}

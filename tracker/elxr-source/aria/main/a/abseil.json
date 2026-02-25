@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libabsl-dev, libabsl20220623"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.5), debhelper-compat (= 12), googletest (\u003e= 1.12) [!mipsel !ppc64] \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "a61c03c6f72b61ed95e3434d74a7a69c25911378 9848 abseil_20220623.1-1+deb12u2.debian.tar.xz 430aae3f728908e3675a7aa38f6dd54c2d8aedca 2508 abseil_20220623.1-1+deb12u2.dsc 60f52f4d90cebd82fc77dae1119590ef96e01ed5 1957272 abseil_20220623.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "e08490fc7b6f3beca1925953b0c4fb92df2de5e2a01295e4641e2a3d4e528eeb 9848 abseil_20220623.1-1+deb12u2.debian.tar.xz ba731eaced569332fa4ce802a7ff2615ae57ac25beaf2d02f634ef908f2e62c2 2508 abseil_20220623.1-1+deb12u2.dsc abfe2897f3a30edaa74bc34365afe3c2a3cd012091a97dc7e008f7016adcd5fe 1957272 abseil_20220623.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "31c2f1cc3b7bbe624dc76be41f07de306f345bc22289269c2ad35134ba5329bc68d3395509e6ddfc739cca886faed04b55d84bd5f5ac6de5b3cdfbc272053f7c 9848 abseil_20220623.1-1+deb12u2.debian.tar.xz 2c22a0aff7d5a98f722bcea252e9ced070e8c8f17db36bb5d5e93e1c459a894f37b3379f1b6d21b66cde01af82059d72d10340cef07435e7fc57e6c765ba5a83 2508 abseil_20220623.1-1+deb12u2.dsc 3c7fca91a9bda39a43cbdbd855577f58a988a7dc214ac93ef7e4cb2cc6ec24149bd7a414b4f7caf35511eaaa296260051a3d02b69ee5fd6e3247100b0b12258e 1957272 abseil_20220623.1.orig.tar.gz"
+  ],
+  "Description": [
+    "extensions to the C++ standard library Abseil is an open-source collection of C++ library code designed to augment the C++ standard library. The Abseil library code is collected from Google's C++ codebase and has been extensively tested and used in production. In some cases, Abseil provides pieces missing from the C++ standard; in others, Abseil provides alternatives to the standard for special needs."
+  ],
+  "Directory": [
+    "pool/main/a/abseil"
+  ],
+  "Files": [
+    "78b022560c955792a89a0ef8ed11f181 9848 abseil_20220623.1-1+deb12u2.debian.tar.xz 79ba22a4c778d0bde55e02882f0165e8 2508 abseil_20220623.1-1+deb12u2.dsc 3c40838276f6e5f67acf9a3e5a5e0bd1 1957272 abseil_20220623.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://abseil.io/"
+  ],
+  "Maintainer": [
+    "Benjamin Barenblat \u003cbbaren@debian.org\u003e"
+  ],
+  "Package": [
+    "abseil"
+  ],
+  "Package-List": [
+    "libabsl-dev deb libdevel optional arch=any libabsl20220623 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "cmake, g++, libgtest-dev, make, pkg-config"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/abseil"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/abseil.git"
+  ],
+  "Version": [
+    "20220623.1-1+deb12u2"
+  ]
+}

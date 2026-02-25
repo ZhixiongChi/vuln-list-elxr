@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "subversion, libsvn1, libsvn-dev, libsvn-doc, libapache2-mod-svn, python3-subversion, subversion-tools, libsvn-java, libsvn-perl, ruby-svn"
+  ],
+  "Build-Conflicts": [
+    "libsvn-dev (\u003e= 1.15~), libsvn-dev (\u003c\u003c 1.14~), libsvn1 (\u003e= 1.15~), libsvn1 (\u003c\u003c 1.14~)"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-apache2, dh-python, apache2-bin \u003c!nocheck\u003e, apache2-utils \u003c!nocheck\u003e, autoconf, bash-completion, chrpath, default-jdk-headless (\u003e= 2:1.8) [!hurd-any !hppa !sparc !kfreebsd-any] \u003c!pkg.subversion.nojava\u003e, doxygen, junit4 [!hurd-any !hppa !sparc !kfreebsd-any] \u003c!pkg.subversion.nojava\u003e, libapr1-dev, libaprutil1-dev, libdb5.3-dev, libdbus-1-dev, libkf5coreaddons-dev [!alpha !kfreebsd-any !m68k !sparc64] \u003c!pkg.subversion.nokde\u003e, libkf5i18n-dev [!alpha !kfreebsd-any !m68k !sparc64] \u003c!pkg.subversion.nokde\u003e, libkf5wallet-dev [!alpha !kfreebsd-any !m68k !sparc64] \u003c!pkg.subversion.nokde\u003e, liblz4-dev (\u003e= 0.0~r129), libperl-dev, libsasl2-dev, libsecret-1-dev, libserf-dev (\u003e= 1.3.9-4~), libsqlite3-dev (\u003e= 3.8.7), libtool, libutf8proc-dev, net-tools \u003c!nocheck\u003e, perl, py3c-dev, python3-all-dev, rename, ruby [!ia64 !kfreebsd-any] \u003c!pkg.subversion.noruby\u003e, ruby-dev [!ia64 !kfreebsd-any] \u003c!pkg.subversion.noruby\u003e, swig (\u003e= 3.0.10), wget \u003c!nocheck\u003e, zlib1g-dev"
+  ],
+  "Checksums-Sha1": [
+    "e8a269fcad9f6e2b4163922bfcc30e6f401bca84 297732 subversion_1.14.5-3.debian.tar.xz d1cc645b6b3e6a6b043767d4426b37eca02bc767 4080 subversion_1.14.5-3.dsc 6cdbf1fe8a572764f848e89af4dca903bbc7f2fb 11645728 subversion_1.14.5.orig.tar.gz f200b8bfea9f5a3c259986055b9b5920076e3637 2382 subversion_1.14.5.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha256": [
+    "1698fdb2a2f23ba73e5db2af3d7ed30057d2d98e88d5ea9ebf86c695b6ae6fcc 297732 subversion_1.14.5-3.debian.tar.xz de4c5361915530b582d4757861b97d84ce27689780760c1ff653a0f3b37cf35e 4080 subversion_1.14.5-3.dsc cd143fe8fdb1cd506c438eef1c772a2e87e1519e6b0be3fcd54a8c59e9022390 11645728 subversion_1.14.5.orig.tar.gz 91384669ad9125c6919b0b2ab0c345e6de3cd0f89affe04ab66dfe9c5e19d673 2382 subversion_1.14.5.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha512": [
+    "e8a5735b03dd93281580562bce537f5884e864ad91aeac83fd92620be1a3db8a77875c45a1c55f13276330ce90375391ef78485ce5e6740dfad040cfad06b9cd 297732 subversion_1.14.5-3.debian.tar.xz 9b032c2a901679035928ef3f7619b7842292d4f74158b0208d680d48b3fe5dfea544963efa66c35d06dc1df328ecea0c703361154e3a2511b88d92ce2a00f027 4080 subversion_1.14.5-3.dsc a8e9f5bf9f32e4fa9a5873544c9228a392af0b4ec1126389a98cd8830c0644fc9d4b88bcb800c0e2c40bd58517cfaba23d79164c774d2cb3267a897c1d599634 11645728 subversion_1.14.5.orig.tar.gz b85c4d6e77194b5edff12e3e57c7d673226253048ddf3b622bb4dee6a8aed9153d3c69477876a7caae9eebe2ff5930e42993e34c8fc33d9fa65f9a57bc005d24 2382 subversion_1.14.5.orig.tar.gz.asc"
+  ],
+  "Dgit": [
+    "06df1638ed2266281e333a07b4ef8bfb450f7705 debian archive/debian/1.14.5-3 https://git.dgit.debian.org/subversion"
+  ],
+  "Directory": [
+    "pool/main/s/subversion"
+  ],
+  "Files": [
+    "ad605b7bded3b215d6486bc804372cd9 297732 subversion_1.14.5-3.debian.tar.xz 05a5c2d7f67441be9cac1acde4ebbafe 4080 subversion_1.14.5-3.dsc a1495f96a4b43cdf7e81a36b20e448bf 11645728 subversion_1.14.5.orig.tar.gz ce85473113b967ea01a959bb1bd82a16 2382 subversion_1.14.5.orig.tar.gz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://subversion.apache.org/"
+  ],
+  "Maintainer": [
+    "James McCoy \u003cjamessan@debian.org\u003e"
+  ],
+  "Package": [
+    "subversion"
+  ],
+  "Package-List": [
+    "libapache2-mod-svn deb httpd optional arch=any libsvn-dev deb libdevel optional arch=any libsvn-doc deb doc optional arch=all libsvn-java deb java optional arch=any profile=!pkg.subversion.nojava libsvn-perl deb perl optional arch=any libsvn1 deb libs optional arch=any python3-subversion deb python optional arch=any ruby-svn deb ruby optional arch=any profile=!pkg.subversion.noruby subversion deb vcs optional arch=any subversion-tools deb vcs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "apache2, wget"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/jamessan/subversion"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/jamessan/subversion.git"
+  ],
+  "Version": [
+    "1.14.5-3"
+  ]
+}

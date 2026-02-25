@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-ovsdbapp-doc, python3-ovsdbapp"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "python3-coverage, python3-fixtures, python3-hacking, python3-isort, python3-netaddr, python3-openstackdocstheme, python3-openvswitch, python3-oslo.utils, python3-oslotest, python3-stestr, python3-testscenarios, python3-testtools, subunit"
+  ],
+  "Checksums-Sha1": [
+    "b9399c77fe7c52cdcb5bba70141de98677006c40 3444 python-ovsdbapp_2.11.0-2.debian.tar.xz bda43af8cdcda98d2c1eee56a6a97da891302a45 2476 python-ovsdbapp_2.11.0-2.dsc fb1579d352ca6e1156d09ee90a080a73eecb17b9 89848 python-ovsdbapp_2.11.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "55ed3007ba4c95d4a821d942f3a580223878dd87c77a40a50496e656b8162718 3444 python-ovsdbapp_2.11.0-2.debian.tar.xz f6c9ed5ced850f77aec7b4c9894e1ee28c56bf65d76dab989deb501e969516ea 2476 python-ovsdbapp_2.11.0-2.dsc 51fd8cfb2aae86eb0b875eb04b9e99e5ecec5892575291cc125d1af60a60b729 89848 python-ovsdbapp_2.11.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "7579582773ec3f1dbe4caa1a7d0a4b64a1e71231ca32988af375cf53d465dd0688da393b5553cddcf818b923d37cd519b9633e12a47cad92b3a89fa158344a73 3444 python-ovsdbapp_2.11.0-2.debian.tar.xz a366c634c9fc47291095a40d97963edc59ff66bc7605cc9dff4753c932c2e21158941ce1311b97ce33a77c9f3cfcd3019d4cf05276ecf16a9de37f1499300c30 2476 python-ovsdbapp_2.11.0-2.dsc a9e54b2b1dd62278dac8f93cebae1e3a28384828f583774dae54025bb253a0e20eb94018fd09872f33fe7134fe26c5639b6185e82c1b38c3e29def2c045c58d1 89848 python-ovsdbapp_2.11.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-ovsdbapp"
+  ],
+  "Files": [
+    "9606f282a5731306bdd3b3d96b2fdc5e 3444 python-ovsdbapp_2.11.0-2.debian.tar.xz 3834ac598da4d2a2431ed7b8dd5c7058 2476 python-ovsdbapp_2.11.0-2.dsc 741353ef48e41b0473667f98a2114584 89848 python-ovsdbapp_2.11.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openstack/ovsdbapp"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-ovsdbapp"
+  ],
+  "Package-List": [
+    "python-ovsdbapp-doc deb doc optional arch=all python3-ovsdbapp deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/libs/python-ovsdbapp"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/libs/python-ovsdbapp.git"
+  ],
+  "Version": [
+    "2.11.0-2"
+  ]
+}

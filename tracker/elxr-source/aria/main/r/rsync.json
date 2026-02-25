@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "rsync"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libacl1-dev, libpopt-dev, liblz4-dev, libxxhash-dev (\u003e= 0.8), libzstd-dev (\u003e= 1.4), zlib1g-dev, libssl-dev, python3:native, python3-cmarkgfm:native, acl \u003c!nocheck\u003e, attr \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "2cad41d1795db6ea34406ec1b2cee99cde1fed0f 38792 rsync_3.2.7-1+deb12u4.debian.tar.xz ce840cbf8420caeebba7ce7d123e7572c4dfd107 2401 rsync_3.2.7-1+deb12u4.dsc 0729ee0cd5e7e609510583ce4768a6170a7a9de7 1149787 rsync_3.2.7.orig.tar.gz 86d55b75f7529d20965e5482770d2d5414022745 195 rsync_3.2.7.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha256": [
+    "0b478dd1666ad113f1c551bda83d5dba92b1f732eafd71b7aabd617bdd6b3128 38792 rsync_3.2.7-1+deb12u4.debian.tar.xz 7cbce0ace45ce5911d6ba0626d26832a472c30ba0b2a1d78af29dd9f27a5480e 2401 rsync_3.2.7-1+deb12u4.dsc 4e7d9d3f6ed10878c58c5fb724a67dacf4b6aac7340b13e488fb2dc41346f2bb 1149787 rsync_3.2.7.orig.tar.gz 8e054b8e852f371fbcb757de51f1a07de5621ae959ea766d3c3e5439d7b5f4ae 195 rsync_3.2.7.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha512": [
+    "4b89e9b3210416a3cdb9f1996e6565f98451d23a1490675844a8f3549bb6fc0363a8d74a515dc763847ec86cb15417720bb194d473ae3c551fd10ac683998833 38792 rsync_3.2.7-1+deb12u4.debian.tar.xz ee0823088323d5f94675fdbd1af597e3c1abada3c664cf4cc8e39d923bcacf651adfd7c7c91e48670114303ddc18927e17e0ce4626ebeeef4b1fd14d03e89a65 2401 rsync_3.2.7-1+deb12u4.dsc c2afba11a352fd88133f9e96e19d6df80eb864450c83eced13a7faa23df947bccf2ef093f2101df6ee30abff4cbbd39ac802e9aa5f726e42c9caff274fad8377 1149787 rsync_3.2.7.orig.tar.gz bad9f48e033966566c6abf8cd485d35c0d9cf130eafb0c5fff9bcb928882283bbcdd2375e7c2880cf71cf81496ba6b743b61adca3d4678421c32915a2464acc3 195 rsync_3.2.7.orig.tar.gz.asc"
+  ],
+  "Directory": [
+    "pool/main/r/rsync"
+  ],
+  "Files": [
+    "84beff306717cba657fb188213d23008 38792 rsync_3.2.7-1+deb12u4.debian.tar.xz 5a6c3b8a8a92c49896ca7e05199a679c 2401 rsync_3.2.7-1+deb12u4.dsc f216f350ef56b9ba61bc313cb6ec2ed6 1149787 rsync_3.2.7.orig.tar.gz e133a77fbb1dca548863a7f0543b8087 195 rsync_3.2.7.orig.tar.gz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://rsync.samba.org/"
+  ],
+  "Maintainer": [
+    "Paul Slootman \u003cpaul@debian.org\u003e"
+  ],
+  "Package": [
+    "rsync"
+  ],
+  "Package-List": [
+    "rsync deb net optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, adduser, build-essential, diffoscope, openssh-server, shunit2"
+  ],
+  "Uploaders": [
+    "Samuel Henrique \u003csamueloph@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/rsync"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/rsync.git"
+  ],
+  "Version": [
+    "3.2.7-1+deb12u4"
+  ]
+}

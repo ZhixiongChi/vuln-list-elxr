@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "amd64 arm64 armhf"
+  ],
+  "Binary": [
+    "xenstore-utils, xen-utils-common, xen-hypervisor-common, xen-doc, xen-utils-4.17, xen-utils-4.17-dbg, xen-hypervisor-4.17-amd64, xen-hypervisor-4.17-amd64-dbg, xen-system-amd64, xen-hypervisor-4.17-arm64, xen-hypervisor-4.17-arm64-dbg, xen-system-arm64, xen-hypervisor-4.17-armhf, xen-hypervisor-4.17-armhf-dbg, xen-system-armhf, libxen-dev, libxenmisc4.17, libxencall1, libxendevicemodel1, libxenevtchn1, libxenforeignmemory1, libxengnttab1, libxenstore4, libxentoolcore1, libxentoollog1, libxenhypfs1"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec, dpkg-dev (\u003e= 1.16.0~), file, rdfind, lsb-release, flex, bison, python3-dev:any, libpython3-dev, dh-python, bcc [amd64], gcc-multilib [amd64], libext2fs-dev, iasl, seabios (\u003e= 1.7.4-2~) [amd64], libaio-dev, libfdt-dev [armhf arm64], libglib2.0-dev, liblzma-dev, libncurses-dev, libpixman-1-dev, libyajl-dev, pkg-config, uuid-dev, zlib1g-dev, libzstd-dev, pandoc, ocaml, ocaml-findlib"
+  ],
+  "Checksums-Sha1": [
+    "d4cd8a6ea02d46f176911e307579dc706445215b 139916 xen_4.17.5+72-g01140da4e8-1.debian.tar.xz d03ef7857b919f4bedeccc2cad4e8653edc2e54a 4357 xen_4.17.5+72-g01140da4e8-1.dsc 484aee73ee641a79784ccca082d88548f1979258 4735560 xen_4.17.5+72-g01140da4e8.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "5bcf3812c64585e270e0b3fa6ee8fd16dff7b9bc0f61375d648c64672484c4d9 139916 xen_4.17.5+72-g01140da4e8-1.debian.tar.xz f13956b67fb7a65707c2b0620d89b41ee5d203434dd7bb913017356791ee66c1 4357 xen_4.17.5+72-g01140da4e8-1.dsc 53922f4d0a02c577f2ea9d63f65989cd88715779eebeed879ca1d314103ee06e 4735560 xen_4.17.5+72-g01140da4e8.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "66b321ac867b28f78c5d20bb68eef61e08c7daa47a179aa30891b6c2e0462f4745522fe10798c0166135d4d16a1ad00a304a236cac4685ba2f168cf560ffd4dc 139916 xen_4.17.5+72-g01140da4e8-1.debian.tar.xz 5a26168c23f9edff8b931272ef303a2359f2a69e1f41d13317da9ccd6a51bdea9866c266469f731ca890b1fbf2847e88051e979c17e6bfe6bd0ae6551e58bccb 4357 xen_4.17.5+72-g01140da4e8-1.dsc 038d9372ae5fef1107708cd72efd9997c1c0331de5771a894a47de9aaa20fa1b7ef13a846494e5fc88241e48f3a24c38bb93e670f0b6306dba573d5bbd7f191a 4735560 xen_4.17.5+72-g01140da4e8.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xen"
+  ],
+  "Files": [
+    "0cc6fc105905d9e93bd1a9bc6ebac890 139916 xen_4.17.5+72-g01140da4e8-1.debian.tar.xz cc505f0bae1df37fc71190cece7ef8c6 4357 xen_4.17.5+72-g01140da4e8-1.dsc a06455fe8e2cb343077c1160dcbb542d 4735560 xen_4.17.5+72-g01140da4e8.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://xenproject.org/"
+  ],
+  "Maintainer": [
+    "Debian Xen Team \u003cpkg-xen-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "xen"
+  ],
+  "Package-List": [
+    "libxen-dev deb libdevel optional arch=amd64,arm64,armhf libxencall1 deb libs optional arch=amd64,arm64,armhf libxendevicemodel1 deb libs optional arch=amd64,arm64,armhf libxenevtchn1 deb libs optional arch=amd64,arm64,armhf libxenforeignmemory1 deb libs optional arch=amd64,arm64,armhf libxengnttab1 deb libs optional arch=amd64,arm64,armhf libxenhypfs1 deb libs optional arch=amd64,arm64,armhf libxenmisc4.17 deb libs optional arch=amd64,arm64,armhf libxenstore4 deb libs optional arch=amd64,arm64,armhf libxentoolcore1 deb libs optional arch=amd64,arm64,armhf libxentoollog1 deb libs optional arch=amd64,arm64,armhf xen-doc deb doc optional arch=amd64,armhf,arm64 xen-hypervisor-4.17-amd64 deb kernel optional arch=amd64 xen-hypervisor-4.17-amd64-dbg deb debug optional arch=amd64 xen-hypervisor-4.17-arm64 deb kernel optional arch=arm64 xen-hypervisor-4.17-arm64-dbg deb debug optional arch=arm64 xen-hypervisor-4.17-armhf deb kernel optional arch=armhf xen-hypervisor-4.17-armhf-dbg deb debug optional arch=armhf xen-hypervisor-common deb kernel optional arch=amd64,armhf,arm64 xen-system-amd64 deb admin optional arch=amd64 xen-system-arm64 deb admin optional arch=arm64 xen-system-armhf deb admin optional arch=armhf xen-utils-4.17 deb admin optional arch=amd64,arm64,armhf xen-utils-4.17-dbg deb debug optional arch=amd64,arm64,armhf xen-utils-common deb admin optional arch=amd64,armhf,arm64 xenstore-utils deb admin optional arch=amd64,arm64,armhf"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Ian Jackson \u003ciwj@xenproject.org\u003e, Hans van Kranenburg \u003chans@knorrie.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/xen-team/debian-xen"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/xen-team/debian-xen.git"
+  ],
+  "Version": [
+    "4.17.5+72-g01140da4e8-1"
+  ]
+}

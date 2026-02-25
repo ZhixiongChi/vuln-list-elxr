@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-crossbeam-channel-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e, librust-crossbeam-utils-0.8+std-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "201563237c6a6daa21e49a4ea26a28222841861b 14368 rust-crossbeam-channel_0.5.6-1.debian.tar.xz 33643a5a65a72669ae2379854bf53fac6c5e232f 2665 rust-crossbeam-channel_0.5.6-1.dsc 9e9e5b1a0bf56c686d1ca99e3d83c5785f422223 90292 rust-crossbeam-channel_0.5.6.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "fa277ff0ed938d2a5b52e499c7a1c4556984030bdc2a8af5c814570e48424e15 14368 rust-crossbeam-channel_0.5.6-1.debian.tar.xz c414bf4de12a7f8da1a897649ef6fee5abbd9516c2831d7e65d28ca25b631ded 2665 rust-crossbeam-channel_0.5.6-1.dsc c2dd04ddaf88237dc3b8d8f9a3c1004b506b54b3313403944054d23c0870c521 90292 rust-crossbeam-channel_0.5.6.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "f2d4a5055c469340211a439d5ed778f4068761f1c9410e5af5b73a1473ca76fec4a6428912740f7c127305e3c2c62a8610aa39b7efb6782bbf8dc05cdf4c6a7d 14368 rust-crossbeam-channel_0.5.6-1.debian.tar.xz 60544899bf085c19246fcd794ae468d5048e8995be399dcb438fd803350fc770fbbb0e625262518858f73e563704623e28d00897f5e16d49a969caefbf762556 2665 rust-crossbeam-channel_0.5.6-1.dsc de6a42ffede95750a13e3b9af6ab26cbc498125860cd8e4d227c7361bd831e558254a48bdef5cf901585a915003071b0efa321f2011f282218c364780f62f44a 90292 rust-crossbeam-channel_0.5.6.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-crossbeam-channel"
+  ],
+  "Files": [
+    "283190d3a165479707020fad607e5b88 14368 rust-crossbeam-channel_0.5.6-1.debian.tar.xz cbc6cddf4da793fc15227c40c1c63686 2665 rust-crossbeam-channel_0.5.6-1.dsc 0324dfd2b4384ae8c82433bd0efdabf8 90292 rust-crossbeam-channel_0.5.6.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/crossbeam-rs/crossbeam/tree/master/crossbeam-channel"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-crossbeam-channel"
+  ],
+  "Package-List": [
+    "librust-crossbeam-channel-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-num-cpus-1+default-dev, librust-rand-0.8+default-dev, librust-signal-hook-0.3+default-dev"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e, kpcyrd \u003cgit@rxv.cc\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, Carlos F. Sanz \u003ccarlos@sanz.dev\u003e, Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/crossbeam-channel"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/crossbeam-channel]"
+  ],
+  "Version": [
+    "0.5.6-1"
+  ]
+}

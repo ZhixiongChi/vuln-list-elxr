@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-bumpalo-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "2723e3d73ab827505cf1fbd58fcae79138df283d 3940 rust-bumpalo_3.12.0-1.debian.tar.xz d432af46659b1afede0471c72f69bf324c1e1b82 2213 rust-bumpalo_3.12.0-1.dsc 4cf3931439ec9f23be6115f678ddf520538b745b 81604 rust-bumpalo_3.12.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "c2011c819be5b0cda94991f79b8af61d3a95e40b290246c20c5e05c940b93962 3940 rust-bumpalo_3.12.0-1.debian.tar.xz 7c51c7e75274da91d115424e2d4dafe2224ec5f252398767a840eaca78795ccb 2213 rust-bumpalo_3.12.0-1.dsc 0d261e256854913907f67ed06efbc3338dfe6179796deefc1ff763fc1aee5535 81604 rust-bumpalo_3.12.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "4736e77e01bfc11ce1b2ba3810fd3ed93a06cd2aed3ef4867e7b26e53588a92de861cb6da24172679dafff676e9db7ef832c305d0ab5aa233d1850f6097d3932 3940 rust-bumpalo_3.12.0-1.debian.tar.xz 532aeb176525da0569bde94fcb7fc28f7e346b4b3e529afbd01e75ea7d20db7fe5063948ab9f3480e2cf0ffba6951c3475b49c3b3d806ae5f5a1272344203e85 2213 rust-bumpalo_3.12.0-1.dsc 37f2228f251340e82c27f2b34da2af6eb520077b3809331547cbe4887c0b4791b1a7d75a017decccef162cd02a088d504214b7a44b484a7d93eb6a278b329ee4 81604 rust-bumpalo_3.12.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-bumpalo"
+  ],
+  "Files": [
+    "e81413fd999267a87471ddcd820e17e9 3940 rust-bumpalo_3.12.0-1.debian.tar.xz 6ca7c44cdc90120fd30bedfc642349e1 2213 rust-bumpalo_3.12.0-1.dsc a931236e210885462e4b4b92ea47e246 81604 rust-bumpalo_3.12.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-bumpalo"
+  ],
+  "Package-List": [
+    "librust-bumpalo-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-quickcheck-1+default-dev, librust-rand-0.8+default-dev"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bumpalo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/bumpalo]"
+  ],
+  "Version": [
+    "3.12.0-1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "dhcpcd-base, dhcpcd, dhcpcd5"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libssl-dev, libudev-dev [linux-any], pkgconf, systemd-timesyncd [linux-any]"
+  ],
+  "Checksums-Sha1": [
+    "75217e4c9a8cb3b2579ee1b572c4086a2a59f275 22728 dhcpcd_10.1.0-11+deb13u2.debian.tar.xz 9d5036466cce9f642842ac97bc72c60366e87085 2164 dhcpcd_10.1.0-11+deb13u2.dsc 5f9d7a68f5a128410c88c8cee738f17f0740f51a 366562 dhcpcd_10.1.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "f7230c2254cafe81513ff989e19d30cbd3377d482a2dbb686b951c9c3904bd54 22728 dhcpcd_10.1.0-11+deb13u2.debian.tar.xz 98b70740fcffc4e63637061ca7589083abdae20b1f4480cddc3d99a0a720159d 2164 dhcpcd_10.1.0-11+deb13u2.dsc 98b396730159902464714f1762da29fb19e748ede1ade3516f0aabc8059d9c4d 366562 dhcpcd_10.1.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "457a78243ffac92a115f4999eebe92e6e39ee12c04fc6b1a2316e35602c1af948a0dcdaa8728573964597e58148f974aaa0c84b7286480700bc2d8bd5c7b45e4 22728 dhcpcd_10.1.0-11+deb13u2.debian.tar.xz f964b8d2a987ab1ebba5dfd5df84d648945930cac26dd84c29e073a963d9f4fbdfdbefeca8ff391fedca75066ff31196198065aefa908d9aff4e105f6da1afba 2164 dhcpcd_10.1.0-11+deb13u2.dsc 5400f3435d9bed460badefac1ddc3fd73268a6cd37edb828549147e89a24763c1933ae9221f7e9a432a533c3d83aba61b299abab5e2df3d9b992ef1456305969 366562 dhcpcd_10.1.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/d/dhcpcd"
+  ],
+  "Files": [
+    "fb679974358de683f97de0ca26a79472 22728 dhcpcd_10.1.0-11+deb13u2.debian.tar.xz 5c3d9b1f918ee6f3ab9396c77480886a 2164 dhcpcd_10.1.0-11+deb13u2.dsc 6d6816f169ee505f35f061970d732b6b 366562 dhcpcd_10.1.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/NetworkConfiguration/dhcpcd"
+  ],
+  "Maintainer": [
+    "Martin-Éric Racine \u003cmartin-eric.racine@iki.fi\u003e"
+  ],
+  "Package": [
+    "dhcpcd"
+  ],
+  "Package-List": [
+    "dhcpcd deb net optional arch=all dhcpcd-base deb net important arch=any dhcpcd5 deb oldlibs optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "adequate, debhelper, dnsmasq, ethtool, iproute2, systemd-timesyncd"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/dhcpcd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/dhcpcd.git"
+  ],
+  "Version": [
+    "1:10.1.0-11+deb13u2"
+  ]
+}

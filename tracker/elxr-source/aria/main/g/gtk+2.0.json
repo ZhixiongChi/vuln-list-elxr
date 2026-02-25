@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgtk2.0-0, libgtk2.0-0-udeb, libgtk2.0-common, libgtk2.0-bin, libgtk2.0-dev, libgtk2.0-doc, gtk2.0-examples, gtk2-engines-pixbuf, gir1.2-gtk-2.0, libgail18, libgail18-udeb, libgail-common, libgail-dev, libgail-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-python, gettext, gtk-doc-tools (\u003e= 1.11), xsltproc, pkg-config, python3:any, libglib2.0-dev (\u003e= 2.27.3), libgdk-pixbuf-2.0-dev (\u003e= 2.22.1) | libgdk-pixbuf2.0-dev (\u003e= 2.22.1), libpango1.0-dev (\u003e= 1.28.3), libatk1.0-dev (\u003e= 1.32.0), libx11-dev (\u003e= 2:1.3.3-2), libxext-dev (\u003e= 2:1.1.1-3), libxi-dev (\u003e= 2:1.3-4), libxrandr-dev (\u003e= 2:1.2.99), libxt-dev, libxrender-dev (\u003e= 1:0.9.5-2), libxft-dev, libxcursor-dev (\u003e= 1:1.1.10-2), libxcomposite-dev (\u003e= 1:0.2.0-3), libxdamage-dev (\u003e= 1:1.0.1-3), libxkbfile-dev, libxinerama-dev (\u003e= 2:1.1-3), libxfixes-dev (\u003e= 1:3.0.0-3), libcairo2-dev (\u003e= 1.6.4-6.1), gnome-pkg-tools (\u003e= 0.11), dpkg-dev (\u003e= 1.16.1), x11proto-xext-dev, libcups2-dev (\u003e= 1.2), gobject-introspection (\u003e= 0.10.8-2), libgirepository1.0-dev (\u003e= 0.9.3), quilt, gawk, shared-mime-info, docbook-xml, docbook-xsl, docbook-utils, libxml2-utils, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "libglib2.0-doc, libatk1.0-doc, libpango1.0-doc, libcairo2-doc"
+  ],
+  "Checksums-Sha1": [
+    "bd7098480e04d3fd692215ae1ddb413a71f8e730 90920 gtk+2.0_2.24.33-2+deb12u1.debian.tar.xz 523d07425e92c98f53751c64e68cddebe0378234 4006 gtk+2.0_2.24.33-2+deb12u1.dsc 6fb0199cbb858456ba5d6fc9d7e4641f73476e76 12661828 gtk+2.0_2.24.33.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "96996b78fae1660c71bf216421fb75bf47016f9b36b0a7953ce0caf91c8508aa 90920 gtk+2.0_2.24.33-2+deb12u1.debian.tar.xz 611ee84222dafa6c3b708210b97b602b28e803fcb6915444b403596b85764c02 4006 gtk+2.0_2.24.33-2+deb12u1.dsc ac2ac757f5942d318a311a54b0c80b5ef295f299c2a73c632f6bfb1ff49cc6da 12661828 gtk+2.0_2.24.33.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "9d92b5f6bf52a652987273bbaaf8d5cd60298c75387900448e94cc11d9d386223a97f5008e261ca30434a6cfb1638e49eebd421bf4e7e0328dd717c0aaa4fc3b 90920 gtk+2.0_2.24.33-2+deb12u1.debian.tar.xz b0d6f57cfdd8c5b1708f0e9dece37dd74f9245268ddd2bf5a3c1904efdb2819a98629b9f3f4ed39435c0ce4b9997595819237360fba27a32384234c83db12743 4006 gtk+2.0_2.24.33-2+deb12u1.dsc 71b588797c81f727dfac8dcb1be193f7436f717d30ecf18eae2d3aeb0f445b3be4743400acac16435490db8f564f01032065d3f42d27871317f80c98aef929d5 12661828 gtk+2.0_2.24.33.orig.tar.xz"
+  ],
+  "Dgit": [
+    "5bdb5637f2fea914f0fa39b122637a3a3a7619d1 debian archive/debian/2.24.33-2+deb12u1 https://git.dgit.debian.org/gtk+2.0"
+  ],
+  "Directory": [
+    "pool/main/g/gtk+2.0"
+  ],
+  "Files": [
+    "654dede0673dd6abc187c4b8ef08b2ff 90920 gtk+2.0_2.24.33-2+deb12u1.debian.tar.xz 34000f25767a9a9db811c18eb6e0fcd7 4006 gtk+2.0_2.24.33-2+deb12u1.dsc 0118e98dbe0e4dab90ce475f9f0e6c0c 12661828 gtk+2.0_2.24.33.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.gtk.org/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gtk+2.0"
+  ],
+  "Package-List": [
+    "gir1.2-gtk-2.0 deb introspection optional arch=any gtk2-engines-pixbuf deb graphics optional arch=any gtk2.0-examples deb x11 optional arch=any libgail-common deb libs optional arch=any libgail-dev deb libdevel optional arch=any libgail-doc deb doc optional arch=all libgail18 deb libs optional arch=any libgail18-udeb udeb debian-installer optional arch=any profile=!noudeb libgtk2.0-0 deb libs optional arch=any libgtk2.0-0-udeb udeb debian-installer optional arch=any profile=!noudeb libgtk2.0-bin deb misc optional arch=any libgtk2.0-common deb misc optional arch=all libgtk2.0-dev deb libdevel optional arch=any libgtk2.0-doc deb doc optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Jeremy Bicha \u003cjbicha@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gtk2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gtk2.git -b debian/bookworm"
+  ],
+  "Version": [
+    "2.24.33-2+deb12u1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-memoffset-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-autocfg-1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "0f42814862445b56ba930523e47fd61d7039bc96 2912 rust-memoffset_0.8.0-1.debian.tar.xz c7a714e275696a4d8d3dbfd47109553babf129af 2240 rust-memoffset_0.8.0-1.dsc e1b4ad65d708f3a29ce5079945a503415d19174b 8912 rust-memoffset_0.8.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "004de2a24424f12c8c3c1bf401ab1dcd4b0135583dad415862fcd480b2215796 2912 rust-memoffset_0.8.0-1.debian.tar.xz 7a4d8e9be66e4fc0f597bbe751399b228ea796c719828b700c60c871aad4f763 2240 rust-memoffset_0.8.0-1.dsc d61c719bcfbcf5d62b3a09efa6088de8c54bc0bfcd3ea7ae39fcc186108b8de1 8912 rust-memoffset_0.8.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "93fe0a368b2c010c6e8cace7554e8d34a456f99873ee0f275b0c696176aa925db2ffaa92db7f327e3f9d386beb35eb3c6276e380ba3f9e87c587ca5a964d0c79 2912 rust-memoffset_0.8.0-1.debian.tar.xz 268944283c11fbd2f245ca061d66987ace0ccd0f745da22f5f3bbf9dad4b1756cdfa32ccd08632762d8a013ec7c8b3f839841e1d189fcd4a2a938ec4f36e3922 2240 rust-memoffset_0.8.0-1.dsc 47adcae0848ff967035e10543ea599c7af9c5bad387023eb4dc77c9e8d875994ec8139b9941b3ecc4fc17214d80944a47a3be174a45b334661914a5a7382dfbe 8912 rust-memoffset_0.8.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-memoffset"
+  ],
+  "Files": [
+    "31defa878c011e14f8441d2ac907de3f 2912 rust-memoffset_0.8.0-1.debian.tar.xz 5c385be7ea4fddc727a7def1e6892f4d 2240 rust-memoffset_0.8.0-1.dsc 39d0921acf528bffa1feaad05c9a421d 8912 rust-memoffset_0.8.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-memoffset"
+  ],
+  "Package-List": [
+    "librust-memoffset-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-doc-comment-0.3+default-dev"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/memoffset"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/memoffset]"
+  ],
+  "Version": [
+    "0.8.0-1"
+  ]
+}

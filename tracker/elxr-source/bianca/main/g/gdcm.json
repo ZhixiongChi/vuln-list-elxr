@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgdcm3.0t64, libgdcm-tools, libgdcm-dev, python3-gdcm, libvtkgdcm-9.1t64, libvtkgdcm-dev, python3-vtkgdcm, libvtkgdcm-tools, gdcm-doc, libgdcm-java"
+  ],
+  "Build-Conflicts": [
+    "libopenjpeg-dev"
+  ],
+  "Build-Depends": [
+    "castxml, cmake, debhelper-compat (= 13), default-jdk-headless [!hppa !hurd-any !kfreebsd-any], dh-sequence-python3, dh-strip-nondeterminism, docbook-xsl-ns, dpkg-dev (\u003e= 1.22.5), dh-sequence-javahelper, libcharls-dev (\u003e= 2.4.1), libexpat-dev, libjson-c-dev, libopenjp2-7-dev, libpapyrus3-dev, libpoppler-private-dev, libsocket++-dev, libssl-dev, libvtk9-dev, libvtk9-qt-dev, libxml2-dev, libz-dev, ninja-build, pvrg-jpeg, python3-dev, python3-vtk9, swig, uuid-dev, xsltproc"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, doxygen-latex, ghostscript, graphviz, vtk9-doc"
+  ],
+  "Checksums-Sha1": [
+    "554c308c4dcd3b80154e77cf35ea1c913f59015c 280264 gdcm_3.0.24-5.debian.tar.xz a7f21d660a4f0052bf5b0dec6c25b89392d21ef0 3198 gdcm_3.0.24-5.dsc e66cd70d0dc8f813f8dc1d90e23ebeab6aa81cd7 2613432 gdcm_3.0.24.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "5f4c659c0cd032bd63a5fec68ee4b6093e207d13f6b5c1332a5f6eda62332af4 280264 gdcm_3.0.24-5.debian.tar.xz 95a78f15aba2a0a1617853ee559a5c9c4b88bd385ae3a597cd3e2ea55b5d7bb7 3198 gdcm_3.0.24-5.dsc 9e76f70262b7fe019cd06001022b7aa53f4aa4a7e070f71d8e3b13fe99c36028 2613432 gdcm_3.0.24.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "8bda24ff2186e72cf9ece2a1e63258dbdab5649efef7cfa498979cb67f6c68db79dc7e55e3339ad3f7bebfb2b363ffd80ab30d25d3a68a3e26a7b31a721737df 280264 gdcm_3.0.24-5.debian.tar.xz 80a2d167552c52acdde1f09cb33a2a8a00124db861d46e11f3e874a18395d0069ce4523803ab2816b922c98e4ff1743862690fb8db16c615ca1dca9290f898c4 3198 gdcm_3.0.24-5.dsc 2a3ed8f9018ddbee3ba44a94da05b1af92ae1dfadf7bff027abbeed8ba5a97256c892ff731988463c2d0710f2189361c2f2223e5dd064c6f0377335ce6b67e51 2613432 gdcm_3.0.24.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gdcm"
+  ],
+  "Files": [
+    "4c67d04c4d43d0c6cbcabe74ffc33b07 280264 gdcm_3.0.24-5.debian.tar.xz 82ad60d5081c7bd07371271b9fc6cf9a 3198 gdcm_3.0.24-5.dsc 8127469f4d2d45e54d4c3fad7f92650c 2613432 gdcm_3.0.24.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://gdcm.sourceforge.net/"
+  ],
+  "Maintainer": [
+    "Debian Med Packaging Team \u003cdebian-med-packaging@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gdcm"
+  ],
+  "Package-List": [
+    "gdcm-doc deb doc optional arch=all libgdcm-dev deb libdevel optional arch=any libgdcm-java deb java optional arch=alpha,amd64,arm64,armel,armhf,i386,ia64,loong64,m68k,mips64el,mipsel,powerpc,ppc64,ppc64el,riscv64,s390x,sh4,sparc64,x32 libgdcm-tools deb utils optional arch=any libgdcm3.0t64 deb libs optional arch=any libvtkgdcm-9.1t64 deb libs optional arch=any libvtkgdcm-dev deb libdevel optional arch=any libvtkgdcm-tools deb utils optional arch=any python3-gdcm deb python optional arch=any python3-vtkgdcm deb python optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Steve M. Robbins \u003csmr@debian.org\u003e, Sébastien Jodogne \u003cs.jodogne@gmail.com\u003e, Gert Wollny \u003cgewo@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/med-team/gdcm"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/med-team/gdcm.git"
+  ],
+  "Version": [
+    "3.0.24-5"
+  ]
+}

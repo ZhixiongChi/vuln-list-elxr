@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "libkf5bluezqt-data, libkf5bluezqt-dev, libkf5bluezqt-doc, libkf5bluezqt6, qml-module-org-kde-bluezqt"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-kf5, cmake (\u003e= 3.16~), dbus-x11 \u003c!nocheck\u003e, doxygen, extra-cmake-modules (\u003e= 5.116.0~), libqt5sql5-sqlite, pkg-kde-tools (\u003e\u003e 0.15.15), pkgconf, qml-module-qttest \u003c!nocheck\u003e, qtbase5-dev (\u003e= 5.15.2~), qtdeclarative5-dev (\u003e= 5.15.2~), qttools5-dev, qttools5-dev-tools, systemd-dev, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "d9129f050d2440a53f141c202ca568529ac8e3c6 16636 bluez-qt_5.116.0-1.debian.tar.xz 4f8789f411623ca762ade6442503a8720b8f37dc 2976 bluez-qt_5.116.0-1.dsc b3922f0efc281f47d524eb32eaa2c6878863c9c1 114784 bluez-qt_5.116.0.orig.tar.xz 03f3a5478ddc0c94cb63ddcfa49bd3749a5b42f4 488 bluez-qt_5.116.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "527a6f3eb179a683d7ed428f6209983a86867d6429391711a64d6b577fc4aad4 16636 bluez-qt_5.116.0-1.debian.tar.xz 7c5f1ac8de8ce38e0b64d9d8afb51185d5a66927d9fec465e33967fa90e98f01 2976 bluez-qt_5.116.0-1.dsc 1bab900d6984f4cbec517354cd6ffb11fd1f50887c5bf711ff4305376e039627 114784 bluez-qt_5.116.0.orig.tar.xz c38c17b63337b98884551f386135b6d4fad29a6f00a5f33a9a9184acdb3ab91b 488 bluez-qt_5.116.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "a0bca8892d5da1840ee499ea55802751edda998876f56c6abd68b613866e8933cefc844cc06fb2f1e387f5f585aeacc7b7f80fbbf0c6cc1d9259304f358b6e4f 16636 bluez-qt_5.116.0-1.debian.tar.xz 960c5b142f852036b462a74b163e234236ec1940c5af9047a950252ceb9db56475f14ddc4ce95afd3324cbcb63d2be059067366dfaada0e47aeaf5a477ebe7a8 2976 bluez-qt_5.116.0-1.dsc f5bccdb75d18b2cdc66de76b23acae9821335eeec0b1f53abf009008f7aa6fe9ddee5428f366be9af872666a3a7de79daac5ee930116f554e1c9d1e664fe574b 114784 bluez-qt_5.116.0.orig.tar.xz 000093b6db2968f90a896f56b2ac8735bde24988002a0a4991603795ac23568124e48e5ec5e61943af9bc2020aff15df4034a080b7cbcd5829a4455f8d2dc51d 488 bluez-qt_5.116.0.orig.tar.xz.asc"
+  ],
+  "Directory": [
+    "pool/main/b/bluez-qt"
+  ],
+  "Files": [
+    "e7b54755d18c08d48e60b4898dd70b01 16636 bluez-qt_5.116.0-1.debian.tar.xz 1f286f7b36de3bb17b3c75c8852d8527 2976 bluez-qt_5.116.0-1.dsc 815a95c3140d1e14129f94cee7d0e209 114784 bluez-qt_5.116.0.orig.tar.xz 3faed79098701984116e41c5ada3df24 488 bluez-qt_5.116.0.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/frameworks/bluez-qt"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "bluez-qt"
+  ],
+  "Package-List": [
+    "libkf5bluezqt-data deb libs optional arch=all libkf5bluezqt-dev deb libdevel optional arch=linux-any libkf5bluezqt-doc deb doc optional arch=all libkf5bluezqt6 deb libs optional arch=linux-any qml-module-org-kde-bluezqt deb libs optional arch=linux-any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-acc, exuberant-ctags"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/bluez-qt"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/bluez-qt.git"
+  ],
+  "Version": [
+    "5.116.0-1"
+  ]
+}

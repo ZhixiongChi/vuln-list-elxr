@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-getrandom-dev, librust-getrandom+compiler-builtins-dev, librust-getrandom+core-dev, librust-getrandom+rustc-dep-of-std-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e, librust-libc-0.2-dev (\u003e= 0.2.154-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "0953e86afc9cb52929eff1f9eb5cef74fbed89eb 4368 rust-getrandom_0.2.15-1.debian.tar.xz f266744ac2f6cd1504fac4229dd77435f1093345 2588 rust-getrandom_0.2.15-1.dsc 1ce6e2b85e24982b99e97d7e5449736aa6f48c6f 37163 rust-getrandom_0.2.15.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "fa89dfd27641747cce731997e2614fec6f2b62f0fd01211e38db467871c196e0 4368 rust-getrandom_0.2.15-1.debian.tar.xz ca16c8fbb30859dd0b0f3889b1718faaf6c23e48e4b3dbdf54fef12c2d3ae10e 2588 rust-getrandom_0.2.15-1.dsc c4567c8db10ae91089c99af84c68c38da3ec2f087c3f82960bcdbf3656b6f4d7 37163 rust-getrandom_0.2.15.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "3a11754db73522d9f8df2eba4b478871c1ca2c587a2a8e285691ad4971253210fd5fdcc7829d0df79c7d7e624145f852b8043629d5d998fd9775b21008a97515 4368 rust-getrandom_0.2.15-1.debian.tar.xz f18a9f257fb5b488ed4d67e07c90a67de1e65fb07626356afcee2f98212a7abfad3801ac413249ed629a27e8f03041d7cd7e9cc9b78078f2181cfb16b1aaf85d 2588 rust-getrandom_0.2.15-1.dsc 04789a53d3f4a84862e1e8b2113641af67e471b468de1222470d5e6cef0015232463a2cf3c3518dc2a533b3983b175a7c8922da00665bcf71c1e4e279b67e6fb 37163 rust-getrandom_0.2.15.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-getrandom"
+  ],
+  "Files": [
+    "ab9c5e18684666ef91032eccdca9ee57 4368 rust-getrandom_0.2.15-1.debian.tar.xz 6afb8205515c5e6bb9cb08a2d8157396 2588 rust-getrandom_0.2.15-1.dsc 3c67481b4433a3219846e41d09aaeaa9 37163 rust-getrandom_0.2.15.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rust-random/getrandom"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-getrandom"
+  ],
+  "Package-List": [
+    "librust-getrandom+compiler-builtins-dev deb rust optional arch=any librust-getrandom+core-dev deb rust optional arch=any librust-getrandom+rustc-dep-of-std-dev deb rust optional arch=any librust-getrandom-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/getrandom"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/getrandom]"
+  ],
+  "Version": [
+    "0.2.15-1"
+  ]
+}

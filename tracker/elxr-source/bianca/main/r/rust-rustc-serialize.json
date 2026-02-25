@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-rustc-serialize-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "53213bde50eefc05970a39a8f40d90f99ede5a32 5140 rust-rustc-serialize_0.3.25-1.debian.tar.xz d5e922a3d923883b4b038471421b3e450488b779 2297 rust-rustc-serialize_0.3.25-1.dsc 18891dd8cd9110f407eb5b625ceb38daa649a4be 46114 rust-rustc-serialize_0.3.25.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "717613b8dfd8846e0ab87b3d09675dbd132d0a9f34da87642f69d628d2175d57 5140 rust-rustc-serialize_0.3.25-1.debian.tar.xz bfaa25a130e5708501da3d5dc3426406ba1f8fffdb09afaf87d0127033dd12c3 2297 rust-rustc-serialize_0.3.25-1.dsc fe834bc780604f4674073badbad26d7219cadfb4a2275802db12cbae17498401 46114 rust-rustc-serialize_0.3.25.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "1a878a9d3d53ca4e2a939b875c39e9278353649dae36555d5033c6af15b4eb2f276a9d1a421bfb94a241c4e4534300a72327215f7ac564ea10e05ac58b0d016e 5140 rust-rustc-serialize_0.3.25-1.debian.tar.xz 4f85d08038333d195ffd8f2316c04677d22c5eeb1c0bf81899cb46715f8704afb07a5e57b718132ec168be86d85776b2f475734be566b279c2889750f5bc3293 2297 rust-rustc-serialize_0.3.25-1.dsc d7023ab949a1bcb43b3458a7bf3f6a8903a5a8e43ad87e8c635f5b1a43c72a27052b96bd9f2e9e8da4a532b5a97674850e5a11537ef8a1b17ef44017c7be1be8 46114 rust-rustc-serialize_0.3.25.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-rustc-serialize"
+  ],
+  "Files": [
+    "cc380cd7172189fc53a440ad33bb8e5d 5140 rust-rustc-serialize_0.3.25-1.debian.tar.xz 1e2ccce0a945168e1dafbe6908fa6693 2297 rust-rustc-serialize_0.3.25-1.dsc 835909059994f15e7ae2f628d815c063 46114 rust-rustc-serialize_0.3.25.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rust-lang/rustc-serialize"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-rustc-serialize"
+  ],
+  "Package-List": [
+    "librust-rustc-serialize-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-rand-0.8+default-dev"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rustc-serialize"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/rustc-serialize]"
+  ],
+  "Version": [
+    "0.3.25-1"
+  ]
+}

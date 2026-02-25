@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libsphinxbase-doc, libsphinxbase-dev, sphinxbase-utils, libsphinxbase3, python3-sphinxbase, swig-sphinxbase"
+  ],
+  "Build-Conflicts": [
+    "libjack-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), bison, pkg-config, libpulse-dev, libblas-dev, liblapack-dev, doxygen, python3-all-dev:any, libpython3-all-dev, dh-sequence-python3, swig, libjs-jquery, strace [linux-any], ltrace [amd64 i386 s390x powerpc ppc64]"
+  ],
+  "Checksums-Sha1": [
+    "c45707c636b340b858411e64037acdc38de5028e 16168 sphinxbase_0.8+5prealpha+1-16.debian.tar.xz cfbca8bb644aeadead1c147359260c18c9d7ad5d 2685 sphinxbase_0.8+5prealpha+1-16.dsc 2bd50bc2106ef95f86fa00ed3d95568fdfbf2bab 3401241 sphinxbase_0.8+5prealpha+1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "3f754cac04ae963262b7d8dfb28eb704ad0aaf906495a6f112b93186eb2f1ab6 16168 sphinxbase_0.8+5prealpha+1-16.debian.tar.xz d48cbbec8151f8c36ec5270f51f8c0f5971b6285fb47d1638ade2437a6885980 2685 sphinxbase_0.8+5prealpha+1-16.dsc f72bdb59e50b558bed47cc2105777200d2b246a0f328e913de16a9b22f9a246f 3401241 sphinxbase_0.8+5prealpha+1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "21ab1b73dcb33453c71f208ec1297e6c824cd95d22efb32f10a24ffd120ba2f533c2d577c7c8f0492c5f02ff0fd855a70c7b6c1b9dba9ca3972ca377a35d04eb 16168 sphinxbase_0.8+5prealpha+1-16.debian.tar.xz 251a82a0e6ec138b046883ab599d0ab753311961fb859dc6e275e505fea7a1e53d9ea2be2f108d2fed5267973f1c2ff4401037805df457d6ad3e5d5581cbd248 2685 sphinxbase_0.8+5prealpha+1-16.dsc 9d999d0b9041c0965ff679636e3c5705987b70317a353916f447809a916878d831a82a5d9c1476d304f908df1ce6b68eb07c906af4f7b86ab84b859ee1b0d20b 3401241 sphinxbase_0.8+5prealpha+1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/s/sphinxbase"
+  ],
+  "Files": [
+    "eedd4d749c15d6a6fbc6d3c7e6f45d54 16168 sphinxbase_0.8+5prealpha+1-16.debian.tar.xz 4556ea37b120f2351cd9aeef1757d4df 2685 sphinxbase_0.8+5prealpha+1-16.dsc 8190e374330223d999724de72e372385 3401241 sphinxbase_0.8+5prealpha+1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cmusphinx.sourceforge.net/"
+  ],
+  "Maintainer": [
+    "Debian Accessibility Team \u003cpkg-a11y-devel@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "sphinxbase"
+  ],
+  "Package-List": [
+    "libsphinxbase-dev deb libdevel optional arch=any libsphinxbase-doc deb doc optional arch=all libsphinxbase3 deb libs optional arch=any python3-sphinxbase deb python optional arch=any sphinxbase-utils deb sound optional arch=any swig-sphinxbase deb interpreters optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Samuel Thibault \u003csthibault@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/a11y-team/sphinxbase"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/a11y-team/sphinxbase.git"
+  ],
+  "Version": [
+    "0.8+5prealpha+1-16"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "mecab, mecab-utils, libmecab2, libmecab-dev, libmecab-perl, python3-mecab, ruby-mecab, libmecab-java, libmecab-jni"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), perl:native, perl-xs-dev, chrpath, dh-python, python3-all-dev, python3-setuptools, gem2deb, default-jdk-headless, swig"
+  ],
+  "Checksums-Sha1": [
+    "12429d0f7f6471840374131e349b9dc741d11b12 12824 mecab_0.996-15.1.debian.tar.xz fec38a451bc0d42ec3b30328270774ed5eefa29b 2645 mecab_0.996-15.1.dsc 15baca0983a61c1a49cffd4a919463a0a39ef127 1398663 mecab_0.996.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "29b382b062bbc5d209df376757e3bc2231f0e2e2c3f96a5d7b1d32b1f4a86cbc 12824 mecab_0.996-15.1.debian.tar.xz 30e59026120cf8b9327edf8ae9eca51fad986f2915e2ce84f0d27210fc5bbe4c 2645 mecab_0.996-15.1.dsc e073325783135b72e666145c781bb48fada583d5224fb2490fb6c1403ba69c59 1398663 mecab_0.996.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "b28c3db6b1e9c1c2ac7b188fe2bf94c89ed9f074bd7a3d7d3416365d823cd6ac5b76d982c10467dae41f39cf79b4fe43330e3f60ad62c0a9de2975497ecd80b3 12824 mecab_0.996-15.1.debian.tar.xz a87111459969c7c314847b43054ec73097c3b0c5407f5d6a4cd1fcca17054c224bfc2772eb754bac9350314511079e7a130a638ca46c3adf709699fe3a180506 2645 mecab_0.996-15.1.dsc aca6d16f411b9ba9b6687242246aeb28ede6d6c6a9122d4a32da9d8e76e79b5f4af2c8e3b13ad9462b34e9d2994cbd9bbbedebac45609684db9b703da999577f 1398663 mecab_0.996.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/m/mecab"
+  ],
+  "Files": [
+    "4bb0ef55a71124693821ca5031f989bd 12824 mecab_0.996-15.1.debian.tar.xz 985e5462a50975d97fa2158c8bbc8dd1 2645 mecab_0.996-15.1.dsc 7603f8975cea2496d88ed62545ba973f 1398663 mecab_0.996.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://taku910.github.io/mecab/"
+  ],
+  "Maintainer": [
+    "Natural Language Processing (Japanese) \u003cteam+pkg-nlp-ja@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "mecab"
+  ],
+  "Package-List": [
+    "libmecab-dev deb libdevel optional arch=any libmecab-java deb java optional arch=all libmecab-jni deb java optional arch=any libmecab-perl deb perl optional arch=any libmecab2 deb libs optional arch=any mecab deb misc optional arch=any mecab-utils deb misc optional arch=any python3-mecab deb python optional arch=any ruby-mecab deb ruby optional arch=any"
+  ],
+  "Ruby-Versions": [
+    "all"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "mecab-jumandic"
+  ],
+  "Uploaders": [
+    "Taku YASUI \u003ctach@debian.org\u003e, TSUCHIYA Masatoshi \u003ctsuchiya@namazu.org\u003e, Hideki Yamane \u003chenrich@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/nlp-ja-team/mecab"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/nlp-ja-team/mecab.git"
+  ],
+  "Version": [
+    "0.996-15.1"
+  ]
+}

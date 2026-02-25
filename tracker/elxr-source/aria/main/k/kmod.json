@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "kmod, libkmod2, libkmod-dev, kmod-udeb, libkmod2-udeb"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), autoconf, automake, libtool, pkg-config | pkgconf, liblzma-dev, libssl-dev, libzstd-dev, zstd \u003c!nocheck\u003e, gtk-doc-tools, xsltproc"
+  ],
+  "Checksums-Sha1": [
+    "290458f84b3b37ade7ce60f100b70b3d6ef65d17 9228 kmod_30+20221128-1.debian.tar.xz 76ffb2f79d73b28b12fff2ea17acc07664d431d5 1563 kmod_30+20221128-1.dsc f71ee23e47ae9c57c6cd5e90be13e16c5684df49 255856 kmod_30+20221128.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "2676ba1c4d0526a47f9c678f1701e04bbb76297a6785c0ef6dc6973297cd99d8 9228 kmod_30+20221128-1.debian.tar.xz 82be47e59807b9717641c1a9dd245618a23aa721709bcaf44409579f885f67a3 1563 kmod_30+20221128-1.dsc 00bc9ae4f1f9e1bbc1266d838452865bc7c24271d0853939edbe3029ad22af4e 255856 kmod_30+20221128.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "0feae61d0d9451fab1f3f8f6461114db88be9f80850a80000a3903b4f714c8afb616a527372deb0950bf83a05c58c366193ea279c08d327f31f3d9fd4d9d1fac 9228 kmod_30+20221128-1.debian.tar.xz 2a9603926a4cac65f9bd6aefd6bdbca3aaba15678569e22f7c5bbaa0eae6faed49c3ab8f80432a720024018162a6f2b7e5b5e32916078ea95afc57292853456d 1563 kmod_30+20221128-1.dsc fb98d240db3506f4effeeec1da87afbdc6285df3ac30bf7d2c66e7af28b7bb3410e451245d3ad8db9286f2f0e6051cd155491686fb56434dfa536e34c40780e6 255856 kmod_30+20221128.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/kmod"
+  ],
+  "Files": [
+    "b402f7ae3dfaa48b2368bf65c927db95 9228 kmod_30+20221128-1.debian.tar.xz f0039fda7376cf28848cf65552cb7a51 1563 kmod_30+20221128-1.dsc be98e23abbfb2290f7099fdd5ffbca70 255856 kmod_30+20221128.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Marco d'Itri \u003cmd@linux.it\u003e"
+  ],
+  "Package": [
+    "kmod"
+  ],
+  "Package-List": [
+    "kmod deb admin important arch=linux-any kmod-udeb udeb debian-installer important arch=linux-any libkmod-dev deb libdevel optional arch=linux-any libkmod2 deb libs optional arch=linux-any libkmod2-udeb udeb debian-installer important arch=linux-any"
+  ],
+  "Standards-Version": [
+    "4.6.1.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/md/kmod"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/md/kmod.git"
+  ],
+  "Version": [
+    "30+20221128-1"
+  ]
+}

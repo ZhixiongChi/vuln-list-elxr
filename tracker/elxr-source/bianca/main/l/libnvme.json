@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libnvme-dev, libnvme1t64, python3-libnvme, python3-nvme"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper (\u003e= 13.14~), debhelper-compat (= 13), dh-python, dpkg-dev (\u003e= 1.22.5), libdbus-1-dev, libjson-c-dev, libkeyutils-dev, libssl-dev, meson (\u003e= 1.0.0-1.1~), pkg-config, python3-dev, swig"
+  ],
+  "Checksums-Sha1": [
+    "1dda5ced2a781b0c667883c35d89e10cd26fc497 7648 libnvme_1.13-2.debian.tar.xz f229636c4a6afa39c6811f12e1350a5a619bc932 1561 libnvme_1.13-2.dsc 26180409c603dc0e9f9dd9569305499e5c70e97e 499152 libnvme_1.13.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "12a69c59fb0f7d5b0906123306f77c0820e46495d07777451cfa255fcade4b84 7648 libnvme_1.13-2.debian.tar.xz 86576f8f99d4fd2a1c40456430b1c7abeda00bfde23b5bf61df6216c7b2ba147 1561 libnvme_1.13-2.dsc b766b9434d6c735f5f51bec369e7e85bdb42548a0d85541ec46e0e5d8ef24193 499152 libnvme_1.13.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "dc8d3713304c3de6ab45aa18fb539ab1240cbf867e23fb4851db207fdb20f5ce5357ee6720d589796d5070b1cc20637b0059742f77c4a3a974d5af7488fd2e63 7648 libnvme_1.13-2.debian.tar.xz cf626b04c5f4dfbabb56d63166f681e962e163cc665906fae9fe1f67a235c7d9f749418be392e1e2ce6175f7b51d0925bf006c6c344f9bf51b2907763eeeeda3 1561 libnvme_1.13-2.dsc 87ff34993550f01c4585ed54c6d14ee7a82a5df3aa233c4a12f69d0b8b35b8cb6cae72a0b35dd4fe42638c70a20acdba46773532f2bb2da4958475154af4444c 499152 libnvme_1.13.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libn/libnvme"
+  ],
+  "Files": [
+    "83b00448bfb4da26261587dfc3437381 7648 libnvme_1.13-2.debian.tar.xz b381f4c1b8f19f50f3fa4f7a76df141a 1561 libnvme_1.13-2.dsc 2119cb27150128f7a0f803d609aeeb1d 499152 libnvme_1.13.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/linux-nvme/libnvme"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel@debian.org\u003e"
+  ],
+  "Package": [
+    "libnvme"
+  ],
+  "Package-List": [
+    "libnvme-dev deb libdevel optional arch=any libnvme1t64 deb libs optional arch=any python3-libnvme deb python optional arch=any python3-nvme deb oldlibs extra arch=all"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Vcs-Browser": [
+    "https://forgejo.debian.net/nvme/libnvme"
+  ],
+  "Vcs-Git": [
+    "https://forgejo.debian.net/nvme/libnvme"
+  ],
+  "Version": [
+    "1.13-2"
+  ]
+}

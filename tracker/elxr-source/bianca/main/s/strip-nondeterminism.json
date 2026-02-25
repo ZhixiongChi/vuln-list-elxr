@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "libfile-stripnondeterminism-perl, strip-nondeterminism, dh-strip-nondeterminism"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "libarchive-cpio-perl \u003c!nocheck\u003e, libarchive-zip-perl, libdevel-cover-perl, perl"
+  ],
+  "Checksums-Sha1": [
+    "64a7002ac60feb8cebce7d3a4a9c91be8a44f107 33604 strip-nondeterminism_1.14.1-2.debian.tar.xz 931dc8ffdfb22549620133c50c6e42a74d66d97e 2806 strip-nondeterminism_1.14.1-2.dsc fd62c71fe46efca27b77ff3c77d3ecbc6ba5ca34 279976 strip-nondeterminism_1.14.1.orig.tar.bz2 abbbd8edfa03217b2f0f8e63ea4f8624d7785858 833 strip-nondeterminism_1.14.1.orig.tar.bz2.asc"
+  ],
+  "Checksums-Sha256": [
+    "baa80363c68d6e3bffe6daedcab9a0f9d37f0f9fbd6ac55694463ac4140c415c 33604 strip-nondeterminism_1.14.1-2.debian.tar.xz 4c2368d7cbf2ee14d4ba04e1b2150bd2bfd848514bace43a1c5fef6c70d89473 2806 strip-nondeterminism_1.14.1-2.dsc 149e5e7585cd1d8e777564d5772fb1afa5ed7be4a049c52ffc3a31de2bc04b93 279976 strip-nondeterminism_1.14.1.orig.tar.bz2 de999cba12fe67b4e4f09bf62039dea5ef56c0152a731c598ccb98d6dc327ce5 833 strip-nondeterminism_1.14.1.orig.tar.bz2.asc"
+  ],
+  "Checksums-Sha512": [
+    "ce25cbe300a190f0af8cf8678a1d28c097cfc237e480116dbf663b4d5222e6fefbbe0a6d3e5d96eb74c61108035fa30002202342197098609fed9cd4d832f610 33604 strip-nondeterminism_1.14.1-2.debian.tar.xz c6eb65033a46a729aeb6022ca67d39e96d15456c79fc78eee9eacb478485fbec55a9d44f0a88836724dbb3e33b709e29ba269731eaa308fc12456c5b2635abb5 2806 strip-nondeterminism_1.14.1-2.dsc 2cc0a553a509050348e95390173ef04fe4d7a9e63068cd57838a1bd6efe07a2498c8c53e60b054da5dfd7fe0a35d719be1905f83d7cf5018eff651a4e90cae96 279976 strip-nondeterminism_1.14.1.orig.tar.bz2 b8451defdcc71b5f0aa24368e39273e362b8b5ef5fc7adce4bea5922b6ce29fa9ae56fb91630b0a2278ba658f0891acd19fdc08ed1c69dadd4a4b9e52bfecd92 833 strip-nondeterminism_1.14.1.orig.tar.bz2.asc"
+  ],
+  "Directory": [
+    "pool/main/s/strip-nondeterminism"
+  ],
+  "Files": [
+    "605d69f09329f01c099f4469477ac8c6 33604 strip-nondeterminism_1.14.1-2.debian.tar.xz a07aeaa69185f053d844787ba10c2776 2806 strip-nondeterminism_1.14.1-2.dsc e58cabc741ddd1e812d6e6146c7fd822 279976 strip-nondeterminism_1.14.1.orig.tar.bz2 0c0748b58450121d19a0b7a63e9d5a3d 833 strip-nondeterminism_1.14.1.orig.tar.bz2.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://reproducible-builds.org/"
+  ],
+  "Maintainer": [
+    "Reproducible builds folks \u003creproducible-builds@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "strip-nondeterminism"
+  ],
+  "Package-List": [
+    "dh-strip-nondeterminism deb devel optional arch=all libfile-stripnondeterminism-perl deb perl optional arch=all strip-nondeterminism deb devel optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "libarchive-cpio-perl"
+  ],
+  "Uploaders": [
+    "Andrew Ayer \u003cagwa@andrewayer.name\u003e, Holger Levsen \u003cholger@debian.org\u003e, Mattia Rizzolo \u003cmattia@debian.org\u003e, Chris Lamb \u003clamby@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/reproducible-builds/strip-nondeterminism"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/reproducible-builds/strip-nondeterminism.git"
+  ],
+  "Version": [
+    "1.14.1-2"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-oslo.versionedobjects-doc, python3-oslo.versionedobjects"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "python3-coverage, python3-fixtures, python3-hacking, python3-iso8601, python3-jsonschema, python3-netaddr, python3-openstackdocstheme, python3-oslo.concurrency, python3-oslo.config, python3-oslo.context, python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging, python3-oslo.serialization, python3-oslo.utils (\u003e= 4.7.0), python3-oslotest, python3-stestr, python3-testtools, python3-webob, subunit"
+  ],
+  "Checksums-Sha1": [
+    "11da62b67fb6f1b19727c64d0b9c29b96a8ce555 4020 python-oslo.versionedobjects_3.0.1-2.debian.tar.xz 433dbc24178d5995084ce332b08dd95c8ff2473f 2837 python-oslo.versionedobjects_3.0.1-2.dsc 3dcbab701ec1a624726582cbc3c891a1dade6552 66112 python-oslo.versionedobjects_3.0.1.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "57ff0b599e7d9624df34683e32915688350ee1794312167998ae3e51226d3a96 4020 python-oslo.versionedobjects_3.0.1-2.debian.tar.xz 0557989dc86e623e3a6e33056a011c5a4fc4cfe1d624f968a7927be79c39141a 2837 python-oslo.versionedobjects_3.0.1-2.dsc b0d22f934af9fa3c2c357096e7ee440a4e9b8dec78c1b3bc66ede280ebb83f0a 66112 python-oslo.versionedobjects_3.0.1.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "418501df5936f7a72aa843920485efd4baf00fb0ecb4338c671277d5a54fb3e4da6b81a034b529cf6e84dfcdce2b8ebda3623c01f8c0f014a58cda3803bd91d6 4020 python-oslo.versionedobjects_3.0.1-2.debian.tar.xz 8ec763138d16cb19c9ca1855df4eae248a7cf202a28dcbac916ad0ee405162a983b96345a1e83334535bb81e110f635bb4a63469c76bec00cb57ec7acf0bda4b 2837 python-oslo.versionedobjects_3.0.1-2.dsc 13686d553994521c8d98962b004fd120fa8118b342b5096e9211fd606974157b9918867d962fac64b5f66e92f45ba2a5575b23fb62cd2cb99dcb3ef8a42531a7 66112 python-oslo.versionedobjects_3.0.1.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-oslo.versionedobjects"
+  ],
+  "Files": [
+    "d7f83a6fa4fbc14c5a60dccf675d3f32 4020 python-oslo.versionedobjects_3.0.1-2.debian.tar.xz 2e3c9c7b0b8fd991377859d4b1020180 2837 python-oslo.versionedobjects_3.0.1-2.dsc 2581e6bc026411763e20c6a08cea9127 66112 python-oslo.versionedobjects_3.0.1.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openstack/oslo.versionedobjects"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-oslo.versionedobjects"
+  ],
+  "Package-List": [
+    "python-oslo.versionedobjects-doc deb doc optional arch=all python3-oslo.versionedobjects deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/oslo/python-oslo.versionedobjects"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/oslo/python-oslo.versionedobjects.git"
+  ],
+  "Version": [
+    "3.0.1-2"
+  ]
+}

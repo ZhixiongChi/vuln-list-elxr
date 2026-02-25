@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "fluid, libfltk1.3-dev, libfltk1.3-compat-headers, libfltk1.3, libfltk-cairo1.3, libfltk-forms1.3, libfltk-gl1.3, libfltk-images1.3, fltk1.3-doc, fltk1.3-games"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libcairo2-dev, libgl-dev | libgl1-mesa-dev, libglu1-mesa-dev | libglu-dev, libjpeg-dev, libpng-dev, libx11-dev, libxcursor-dev, libxext-dev, libxft-dev, libxinerama-dev, pkg-config, zlib1g-dev | libz-dev"
+  ],
+  "Build-Depends-Arch": [
+    "cmake, libasound2-dev [linux-any]"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen-latex, texlive-font-utils, texlive-latex-extra"
+  ],
+  "Checksums-Sha1": [
+    "4b290ea4dae70eb57a93c1c78bfe6eaf8b73a289 50736 fltk1.3_1.3.8-5.debian.tar.xz fa0ea7fbbd208cf1276c5103505372d73f43e8bb 2803 fltk1.3_1.3.8-5.dsc 8753055c01f91e5295570324d8af2c5bdd7a2943 5335306 fltk1.3_1.3.8.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "700f6344e8f501adbff965f1b06467b5acdb54eac93fe919dcbfbb580419130b 50736 fltk1.3_1.3.8-5.debian.tar.xz 6bf3f99f53857fb29db0123b20edafc2465a3fffd758eb2277317ad539d76d0d 2803 fltk1.3_1.3.8-5.dsc f3c1102b07eb0e7a50538f9fc9037c18387165bc70d4b626e94ab725b9d4d1bf 5335306 fltk1.3_1.3.8.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "cb15320bc7d950b343c5a6a564b34985ccb5f849e12b2b26cd1ee593a48ce01aa061d5c30cd56fe447e871aae911fee3af278149d3ca21280cda1b0811831593 50736 fltk1.3_1.3.8-5.debian.tar.xz 5b84b7a8f94b549f09e101292adee08798e59b43a3deb005043a912b666e55d5173c75706af0274b028fb32160f9646c6a77763494cb95ba125d1e50dfa5ff4f 2803 fltk1.3_1.3.8-5.dsc 5c1cbfc156c49888e25b90dcb9b1ab86a03447e08e00864c3c7ae8a0e32cfbd9154ee630054235c9edfd29fd1d0371ae77eff7b78094fb660dbbdec5cecfc8fb 5335306 fltk1.3_1.3.8.orig.tar.gz"
+  ],
+  "Dgit": [
+    "6f635e3c68fa040652fd0d1f381fb8ba0cf0da9d debian archive/debian/1.3.8-5 https://git.dgit.debian.org/fltk1.3"
+  ],
+  "Directory": [
+    "pool/main/f/fltk1.3"
+  ],
+  "Files": [
+    "1b38955625e160775d3d1f05a7468890 50736 fltk1.3_1.3.8-5.debian.tar.xz b3c900941dabe178fe1f4c815906e273 2803 fltk1.3_1.3.8-5.dsc 84907602c2e50fadec3bc40fb61935cd 5335306 fltk1.3_1.3.8.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.fltk.org/"
+  ],
+  "Maintainer": [
+    "Aaron M. Ucko \u003cucko@debian.org\u003e"
+  ],
+  "Package": [
+    "fltk1.3"
+  ],
+  "Package-List": [
+    "fltk1.3-doc deb doc optional arch=all fltk1.3-games deb games optional arch=any fluid deb devel optional arch=any libfltk-cairo1.3 deb libs optional arch=any libfltk-forms1.3 deb libs optional arch=any libfltk-gl1.3 deb libs optional arch=any libfltk-images1.3 deb libs optional arch=any libfltk1.3 deb libs optional arch=any libfltk1.3-compat-headers deb libdevel optional arch=all libfltk1.3-dev deb libdevel optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ucko/fltk1.3"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ucko/fltk1.3.git"
+  ],
+  "Version": [
+    "1.3.8-5"
+  ]
+}

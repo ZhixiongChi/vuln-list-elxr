@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-lazycell-dev, librust-lazycell+serde-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 11), dh-cargo (\u003e= 18), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "199b0d88d54660f284bdf1547f426ad764310640 3256 rust-lazycell_1.3.0-3.debian.tar.xz b0c29cdaa5e69ac640aa7db33025b1030e4d4308 2257 rust-lazycell_1.3.0-3.dsc e5c22a5665cf322409afb42a21fa6c3ff31ba089 12502 rust-lazycell_1.3.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "918eb5264111bf5a18611e40e9476240e08f966efad80bb057b529b232c3d844 3256 rust-lazycell_1.3.0-3.debian.tar.xz 34e781c12ea2e4427d206228043f8b8f9316afb6ad36f356c501a9482ad49aa2 2257 rust-lazycell_1.3.0-3.dsc 830d08ce1d1d941e6b30645f1a0eb5643013d835ce3779a5fc208261dbe10f55 12502 rust-lazycell_1.3.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "ab8ccb116ce69a9a0fcdad585a52f0c71ab478ec92b25d3cf9c6d21e17429e60959a5f6a6f7f6253875e633f05902f9b13d859e6552829486f7a7038c1ba283d 3256 rust-lazycell_1.3.0-3.debian.tar.xz ad67086ef066e4cc5b1339c3faca65384c1cb5a3d10db132c7dc37006d1f34721f6971e6fbc9b30eeb728d1adc18e573633a0b9ae82537288bd9045a3196cf67 2257 rust-lazycell_1.3.0-3.dsc f9d627afc28b61e9687a3f72260eb013401fd64057647641ff2e763770d7380ab1d2d8cbb4a3c8818d53d504c618a3b46aaf701f72f4d7b25d226042824c2f8d 12502 rust-lazycell_1.3.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-lazycell"
+  ],
+  "Files": [
+    "eb6c03cd7e751e5c50ad6bfa505c8602 3256 rust-lazycell_1.3.0-3.debian.tar.xz 7646b33aeef5e36503ee0be82352ddae 2257 rust-lazycell_1.3.0-3.dsc 23cc9e52c52465f5b225e62ab7cc3457 12502 rust-lazycell_1.3.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-lazycell"
+  ],
+  "Package-List": [
+    "librust-lazycell+serde-dev deb rust optional arch=any librust-lazycell-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.4.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/lazycell"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/lazycell]"
+  ],
+  "Version": [
+    "1.3.0-3"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-thiserror-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.61) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-thiserror-impl-2.0.11+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "cc312101f7131e03ffc11b7889661fc03765fd71 3072 rust-thiserror_2.0.11-1.debian.tar.xz d39a12426cf8b5e32c987bf76da67cc50e6972ad 2499 rust-thiserror_2.0.11-1.dsc 7a1eb1363f09986a8e9f63134b1398b0ceb72160 28648 rust-thiserror_2.0.11.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "8d9d8a7574de1b4bd2081552cd5badfbd840e0b904fee57cf62473352a5b4efb 3072 rust-thiserror_2.0.11-1.debian.tar.xz 93136745124b5bca68133f5cbf99fc13661c2fdc1fccb85ee2dc7ecef61bb65a 2499 rust-thiserror_2.0.11-1.dsc d452f284b73e6d76dd36758a0c8684b1d5be31f92b89d07fd5822175732206fc 28648 rust-thiserror_2.0.11.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "f41af4efe1338f463af1bd93e662e3edc5fdee1b1c3853108b3f7cd54a056462fd3658f74696864a7872984b399a7937d8e5e28dcbc5c977ef27593e68205b46 3072 rust-thiserror_2.0.11-1.debian.tar.xz daf1ba3b37f81e6ee533d862f70365d6e9131ea27c9d4b4cb1b09b3b12998666ebb745b634c889ef7a042c49c7fb36b1398a64f58179ae1ce805c6f7119d7835 2499 rust-thiserror_2.0.11-1.dsc ba0c3c2615bb9bfb07affa66ffeb2eeda43b16a974dc9a0482165a4a5a502a376e2fd6b569a228a08647de23d291e2c301dedf89d8caa79833b965a184dd5904 28648 rust-thiserror_2.0.11.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-thiserror"
+  ],
+  "Files": [
+    "751011ff8a5377d99986686151d6685d 3072 rust-thiserror_2.0.11-1.debian.tar.xz 615635de148c3a6fa89fddc58b18a8a2 2499 rust-thiserror_2.0.11-1.dsc f3210ab639bb43104069f5ecb3f1a786 28648 rust-thiserror_2.0.11.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dtolnay/thiserror"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-thiserror"
+  ],
+  "Package-List": [
+    "librust-thiserror-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-anyhow-1+default-dev, librust-ref-cast-1+default-dev, librust-rustversion-1+default-dev, librust-trybuild-1+default-dev, librust-trybuild-1+diff-dev, rustc"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/thiserror"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/thiserror]"
+  ],
+  "Version": [
+    "2.0.11-1"
+  ]
+}

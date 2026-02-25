@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-oslo.config-doc, python3-oslo.config"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "python3-coverage, python3-debtcollector, python3-docutils, python3-fixtures, python3-mimeparse, python3-mypy, python3-netaddr, python3-openstackdocstheme, python3-oslo.i18n, python3-oslo.log, python3-oslotest, python3-requests, python3-requests-mock, python3-rfc3986, python3-sphinxcontrib.apidoc, python3-stestr, python3-stevedore, python3-testscenarios, python3-testtools, python3-yaml, subunit"
+  ],
+  "Checksums-Sha1": [
+    "7892561babb2fcdc6f67221b8d292a0aca60d4f3 23728 python-oslo.config_9.7.1-3.debian.tar.xz 2cb34fec829d5f7452b38db444ddfc1c7c97ca2c 2802 python-oslo.config_9.7.1-3.dsc d8be4936a17498e5b5553dab012a31e73932c56b 114336 python-oslo.config_9.7.1.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "da105bcf663e7245186b936e228c4a40b733603e2346a3699cab81442a320d7e 23728 python-oslo.config_9.7.1-3.debian.tar.xz 822764c84a7662443e66eb8218d8c0821e4a54ed8b478a8917f241ce5f4fd5a9 2802 python-oslo.config_9.7.1-3.dsc 4b075a3ec92d96cde44b2a57f3a18993adc54986e97710f3ca9b0601030170ab 114336 python-oslo.config_9.7.1.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "f327128f1e7e55d95a019de5ce620b3d6a51e446b03610f138f77cb1caec4c74b5dbb0fc82825e54ab6ab65b9f77a9a323fa21b6a05cb336de337127a18513db 23728 python-oslo.config_9.7.1-3.debian.tar.xz d3a0428e8b55e735cac638cd6588eeaeb29bd518a8a05d3f114e25db23e0dc8853eab8c5466abe0e97ab68b3eefa3a5a7dfc25aec97d52ff2c93176089f302c2 2802 python-oslo.config_9.7.1-3.dsc 5de947dd9211aed8df21cbb54ee6a9af9398caa85440176991db43db7453f85cb3e94253eedf8c04e3264a90da99443a867a728eb69d70f715de8d4b5cc4842f 114336 python-oslo.config_9.7.1.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-oslo.config"
+  ],
+  "Files": [
+    "58c47bd35d06f8fe81446fee1fa3a58e 23728 python-oslo.config_9.7.1-3.debian.tar.xz 9945fa43abde71c1ed47e902e2d57912 2802 python-oslo.config_9.7.1-3.dsc a8363904a57850ecda9903b69ee883e6 114336 python-oslo.config_9.7.1.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openstack/oslo.config"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-oslo.config"
+  ],
+  "Package-List": [
+    "python-oslo.config-doc deb doc optional arch=all python3-oslo.config deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.1.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, Michal Arbet \u003cmichal.arbet@ultimum.io\u003e, Corey Bryant \u003ccorey.bryant@canonical.com\u003e, Mickael Asseline \u003cmickael@papamica.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/oslo/python-oslo.config"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/oslo/python-oslo.config.git"
+  ],
+  "Version": [
+    "1:9.7.1-3"
+  ]
+}

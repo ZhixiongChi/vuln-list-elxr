@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any-amd64 any-i386"
+  ],
+  "Binary": [
+    "libigc1, libigc-dev, libigc-tools, libigdfcl1, libigdfcl-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), bison, cmake, flex, python3, spirv-headers, spirv-tools, zlib1g-dev, clang-14, intel-vc-intrinsics-14-dev (\u003e= 0.11.0), liblld-14-dev, libllvmspirvlib-14-dev, libopencl-clang-14-dev, llvm-14-dev"
+  ],
+  "Checksums-Sha1": [
+    "e1dd3241d6525db01c601b54eb68811d887c325d 48596 intel-graphics-compiler_1.0.12504.6-1+deb12u1.debian.tar.xz a7e9101ca23c99d9e54d50ff0a92f0876723ce2c 2704 intel-graphics-compiler_1.0.12504.6-1+deb12u1.dsc b93ba004b9b1a75ea5feb32691d89c4a640c575f 8941916 intel-graphics-compiler_1.0.12504.6.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "e8ae070ff55deedbb10981763e3846bb78ca6e40fb23900777272205f5e3243b 48596 intel-graphics-compiler_1.0.12504.6-1+deb12u1.debian.tar.xz a6c6c16da5ad6ceb6632b092764c909726fcab754f8444e210a4ec11ca079dd1 2704 intel-graphics-compiler_1.0.12504.6-1+deb12u1.dsc 82e018408ca7b4432e1ec0ae7c5244ef6f5d2efb84ccbb26d2cbcc44be0e79ff 8941916 intel-graphics-compiler_1.0.12504.6.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "5a8cb98d60469285859555d16f193bcd3de9168f03df7e7cb1db1f24810ac7cd4c5581e01af85466041455f5e50b800c2facfca62aa0fc57a66800a94bb73244 48596 intel-graphics-compiler_1.0.12504.6-1+deb12u1.debian.tar.xz 0f71b29abe5c5183e341b3e764c7fa2b435ec5dfbca681c44769d232658895b00fc044c6a4360f6795cbe4498bf21a4025ff737534515e7a77bbf37999d7a518 2704 intel-graphics-compiler_1.0.12504.6-1+deb12u1.dsc 9506af6a67c151c1f18e674f2a0ac1acf98b6f546b46ca8df0c986655e69b07634f3aed650838d0821d3425c6e720d8ce5cdd902df564aaff09de73e04df3bc2 8941916 intel-graphics-compiler_1.0.12504.6.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/i/intel-graphics-compiler"
+  ],
+  "Files": [
+    "883c64315edd81b55de0b77e47d5fe28 48596 intel-graphics-compiler_1.0.12504.6-1+deb12u1.debian.tar.xz c486d9a65ebafd561b645f7dde2cdbff 2704 intel-graphics-compiler_1.0.12504.6-1+deb12u1.dsc 2b123715e9807676a9a9e2500e4789dd 8941916 intel-graphics-compiler_1.0.12504.6.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/intel/intel-graphics-compiler"
+  ],
+  "Maintainer": [
+    "Debian OpenCL team \u003cpkg-opencl-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "intel-graphics-compiler"
+  ],
+  "Package-List": [
+    "libigc-dev deb libdevel optional arch=any-amd64,any-i386 libigc-tools deb video optional arch=any-amd64,any-i386 libigc1 deb libs optional arch=any-amd64,any-i386 libigdfcl-dev deb libdevel optional arch=any-amd64,any-i386 libigdfcl1 deb libs optional arch=any-amd64,any-i386"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Timo Aaltonen \u003ctjaalton@debian.org\u003e, Andreas Beckmann \u003canbe@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/opencl-team/intel-graphics-compiler"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/opencl-team/intel-graphics-compiler.git"
+  ],
+  "Version": [
+    "1.0.12504.6-1+deb12u1"
+  ]
+}

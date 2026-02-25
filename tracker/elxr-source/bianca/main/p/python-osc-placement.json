@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-osc-placement-doc, python3-osc-placement"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "python3-cliff, python3-coverage, python3-hacking, python3-keystoneauth1, python3-openstackclient, python3-openstackdocstheme, python3-osc-lib, python3-oslo.utils, python3-oslosphinx, python3-oslotest, python3-pbr, python3-reno, python3-sphinx-feature-classification, python3-stestr, python3-wsgi-intercept, subunit"
+  ],
+  "Checksums-Sha1": [
+    "35093f18649860436f9d8baed45832485399356b 3208 python-osc-placement_4.6.0-2.debian.tar.xz 9e697ad152567e6c8b803754132f8764e2aaf90e 2609 python-osc-placement_4.6.0-2.dsc 719b2f9f09f3ea71991d4ee9f5b170f4a849410c 43164 python-osc-placement_4.6.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "b2b8c603527e749c43673aa7c2b62652f2e5dd7f91914dcce8689f544ef88c86 3208 python-osc-placement_4.6.0-2.debian.tar.xz e3afc7058f0e2e1e1029418d6ac2abb33a5f098f80fa3a44526f655a6188d897 2609 python-osc-placement_4.6.0-2.dsc bec5220d56e6a5d62ed7aba87cd28345e7753e1210d3bda24f252c27e39b9a6b 43164 python-osc-placement_4.6.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "59023043cc78a4aa218a069fa1085f19a0abfe128e0290e8a0666d76276223eec9692d895af20e76bccddcac1215d1b91caa961db76dbc366a0e127cbf5d11a4 3208 python-osc-placement_4.6.0-2.debian.tar.xz 835fa33f8ad2590e227b19a17f1d8a11f0286855c52d67e96814b26f6d2c55daaf4707d156d47b34ac3bb67e5c9f674fcad106f037b331f9de378f535df2ac48 2609 python-osc-placement_4.6.0-2.dsc e25cea36bbe02b6281e42efadc194615c2da2ce6ee13d607013534a915f533f9a20faa2e55db99e2ac3801fc13b040b9e2fab5cc289a8a147418f759e92ca0e1 43164 python-osc-placement_4.6.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-osc-placement"
+  ],
+  "Files": [
+    "ba24a6f9bbe1f2a724b542a2c3f1513e 3208 python-osc-placement_4.6.0-2.debian.tar.xz 736346967c0a9fcab577d787f948c5be 2609 python-osc-placement_4.6.0-2.dsc 9baaf33d085ea2fd9e771c9a1b65f040 43164 python-osc-placement_4.6.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openstack/osc-placement"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-osc-placement"
+  ],
+  "Package-List": [
+    "python-osc-placement-doc deb doc optional arch=all python3-osc-placement deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.2.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/clients/python-osc-placement"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/clients/python-osc-placement.git"
+  ],
+  "Version": [
+    "4.6.0-2"
+  ]
+}

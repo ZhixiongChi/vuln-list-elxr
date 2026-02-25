@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "modemmanager, modemmanager-dev, modemmanager-doc, libmm-glib0, libmm-glib-dev, libmm-glib-doc, gir1.2-modemmanager-1.0"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), debhelper (\u003e= 13.11.6), dh-sequence-gir, bash-completion, gettext, libdbus-1-dev, libgirepository1.0-dev, libglib2.0-dev, libgudev-1.0-dev, libmbim-glib-dev (\u003e= 1.32~), libpolkit-gobject-1-dev (\u003e= 0.97), libqmi-glib-dev (\u003e= 1.36~), libsystemd-dev (\u003e= 209), meson, polkitd, python3-dbus, python3-gi, systemd-dev, valac (\u003e= 0.22), xsltproc, gtk-doc-tools \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e, dbus \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "8daf6f168f3f60ad9de2f05cd5b35885856fa348 37188 modemmanager_1.24.0-1+deb13u1.debian.tar.xz 5e341255ac1d8af0856d47e8d75b8e135ee3ac75 3097 modemmanager_1.24.0-1+deb13u1.dsc d0d6f2b3d5d003bb9825d5158bcee9cbd4853009 1361836 modemmanager_1.24.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "0362e74213576b3f830b344f139407843a6caf6b9ae892c5a085a340da6999f2 37188 modemmanager_1.24.0-1+deb13u1.debian.tar.xz 40fad1bfeb286fcbeaf449286585f765e96b01c4e53dd3a80108e627624237e2 3097 modemmanager_1.24.0-1+deb13u1.dsc 63ded4c0f3936bb0db5ae35ef1dfd57c5d5b4dd8a5cdaa7fb2182255218c9168 1361836 modemmanager_1.24.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "b025a9b1885e5861a84920ee9dc067e99dd912b9f738813da347e33a31d0c63b2f07127011eefe4d7893757a1845bd6545c2c6d5b0c70766fd29b985abd4ed07 37188 modemmanager_1.24.0-1+deb13u1.debian.tar.xz da213864b03bb537f33bda069f0c41d7a471af7d58e0954fb7e34098a2159c8b05e5dd732d084f2d19b48a32eb5fe1047db348cd19c06d17d8e1caefa8f44dfe 3097 modemmanager_1.24.0-1+deb13u1.dsc 70950997bc592ea0960613bf09f75f327c8f2a302a82ee5eb5ae47eac51c8925f0a3e70786dfe0472986929f9d051f7e1f3d8f81e1a12ed6695b3bc3eef34102 1361836 modemmanager_1.24.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/modemmanager"
+  ],
+  "Files": [
+    "21c995c6de6103627c42fb611d14ff79 37188 modemmanager_1.24.0-1+deb13u1.debian.tar.xz 0abe5476f8ac9ec13939a912d524f187 3097 modemmanager_1.24.0-1+deb13u1.dsc 288cdf074430ef95268c9fe04873f047 1361836 modemmanager_1.24.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.freedesktop.org/wiki/Software/ModemManager/"
+  ],
+  "Maintainer": [
+    "DebianOnMobile Maintainers \u003cdebian-on-mobile-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "modemmanager"
+  ],
+  "Package-List": [
+    "gir1.2-modemmanager-1.0 deb introspection optional arch=linux-any libmm-glib-dev deb libdevel optional arch=linux-any libmm-glib-doc deb doc optional arch=all profile=!nodoc libmm-glib0 deb libs optional arch=linux-any modemmanager deb net optional arch=linux-any modemmanager-dev deb libdevel optional arch=linux-any modemmanager-doc deb doc optional arch=all profile=!nodoc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, dpkg-dev, pkgconf"
+  ],
+  "Uploaders": [
+    "Arnaud Ferraris \u003caferraris@debian.org\u003e, Guido Günther \u003cagx@sigxcpu.org\u003e, Henry-Nicolas Tourneur \u003cdebian@nilux.be\u003e, Martin \u003cdebacle@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/DebianOnMobile-team/modemmanager"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/DebianOnMobile-team/modemmanager.git"
+  ],
+  "Version": [
+    "1.24.0-1+deb13u1"
+  ]
+}

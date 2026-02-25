@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libqdbm14t64, qdbm-doc, libqdbm-dev, qdbm-util, qdbm-cgi, libxqdbm3t64, libxqdbm-dev, libqdbm3++c2, libqdbm++-dev, libqdbm-perl, ruby-qdbm, libqdbm-java"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.22.5), debhelper (\u003e= 10~), autoconf, autotools-dev, zlib1g-dev, perl, gem2deb, default-jdk \u003c!nojava\u003e, chrpath, dh-strip-nondeterminism"
+  ],
+  "Checksums-Sha1": [
+    "6216f30a89e4c0817d4055d0cd37ce5cda9b1269 18628 qdbm_1.8.78-13.debian.tar.xz 50f82448d5675e30ccfc1697e3efaf9a8ad4fe72 2701 qdbm_1.8.78-13.dsc 8c2ab938c2dad8067c29b0aa93efc6389f0e7076 1015429 qdbm_1.8.78.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "b87790421e949502667b4f9dd98c738fa77bfa14d071af83fa5e2e54973eb6df 18628 qdbm_1.8.78-13.debian.tar.xz 1da80d9eba50656304a3a9328a1e4ed03afaea4d8436d38ff75a83814dc1676b 2701 qdbm_1.8.78-13.dsc b466fe730d751e4bfc5900d1f37b0fb955f2826ac456e70012785e012cdcb73e 1015429 qdbm_1.8.78.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "4c8be8761380eb827b3d2957b0380ff6336aa3578cb2ec7e44fd5a824102aad561ebf3c34c34eaf659f05d4f8a69cf97fc320c7b478a98097fd144f4fc0bf798 18628 qdbm_1.8.78-13.debian.tar.xz 087d9f9a36ec63bf822ada77cf06beb6e97599f8043481f0591fff7d1ce4b65af1e35a3fe1dd77f00ba0b4c900dfa0f36fa4ee5490e878b9b72f77072a4312d6 2701 qdbm_1.8.78-13.dsc 480549c56071bf82edf714a611aef863599c858ed63702820ae0890fd2c0029d1a231ed94a8090c74420dd648bd3625d270a5c078b113cbb86a12ef509e19037 1015429 qdbm_1.8.78.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/q/qdbm"
+  ],
+  "Files": [
+    "24e6b33ba51d13b90648e3a97113b740 18628 qdbm_1.8.78-13.debian.tar.xz 8ca9e7fc0ac1f706662995618811fa40 2701 qdbm_1.8.78-13.dsc 66b3bd69a651316b8d6adc2f21cf3225 1015429 qdbm_1.8.78.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://fallabs.com/qdbm/"
+  ],
+  "Maintainer": [
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
+  ],
+  "Package": [
+    "qdbm"
+  ],
+  "Package-List": [
+    "libqdbm++-dev deb oldlibs optional arch=any libqdbm-dev deb libdevel optional arch=any libqdbm-java deb java optional arch=any profile=!nojava libqdbm-perl deb perl optional arch=any libqdbm14t64 deb libs optional arch=any libqdbm3++c2 deb oldlibs optional arch=any libxqdbm-dev deb libdevel optional arch=any libxqdbm3t64 deb libs optional arch=any qdbm-cgi deb database optional arch=any qdbm-doc deb doc optional arch=all qdbm-util deb database optional arch=any ruby-qdbm deb ruby optional arch=any"
+  ],
+  "Ruby-Versions": [
+    "all"
+  ],
+  "Standards-Version": [
+    "4.1.3"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/qdbm"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/qdbm.git"
+  ],
+  "Version": [
+    "1.8.78-13"
+  ]
+}

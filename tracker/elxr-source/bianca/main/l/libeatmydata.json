@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "eatmydata, libeatmydata1, eatmydata-udeb"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Arch": [
+    "dh-exec, strace [!hurd-any !kfreebsd-any] \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "dh-exec, dh-sequence-bash-completion"
+  ],
+  "Checksums-Sha1": [
+    "69e350b8d1bac5b2fa636d24e705e914b1c4bfb1 16292 libeatmydata_131-2.debian.tar.xz 0059cd6ef31d493053eb411251613e5770d603b3 2512 libeatmydata_131-2.dsc 0498bf1072731aa31f44833315f0d7b161a08c1c 368469 libeatmydata_131.orig.tar.gz cb58838d408ef138de16269e5345144e82a815e3 833 libeatmydata_131.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha256": [
+    "feebec922ff3f3819b7ba0595300bc14574fa05b2decadd5d0f3763304b70da3 16292 libeatmydata_131-2.debian.tar.xz 9aaa429091a5e5cdc877dc041cb8745b5b06cd26c81a7743eeed29fe790f40ce 2512 libeatmydata_131-2.dsc cf18a8c52138a38541be3478af446c06048108729d7e18476492d62d54baabc4 368469 libeatmydata_131.orig.tar.gz 5df5d49d129ed7aac755293ba6c8fc1316a661912ea80de68446384199a418e9 833 libeatmydata_131.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha512": [
+    "9b9bef88513c93e91ccd5989521990cc066421651845ac422ad46eaca9401fa747fd6e719a274d6eb4f53a85128174c4921106761dbca0a43faeca597d7eddfe 16292 libeatmydata_131-2.debian.tar.xz b1d4b6ff9f3b2366479b7d39f9247fb8ec9369e166fe76440c12258c512a7fe7d6a24e84ad8725b0099f88fd79fff05eddedeb7d464609815c3cb32249042d75 2512 libeatmydata_131-2.dsc 064417dc085cb82e4baf1d160fcde2c6e0d9fed60e5c595799630b030053c373d888853055894c127c5b384be9204e8bbb251877651811b5fc5cdca8ffd9cf42 368469 libeatmydata_131.orig.tar.gz 56f3973131b31e4436d22fab43553937c6ecf5ec995dbc48dba01e0bed0a3347f54308477958297fdf2c72e77a531425073d0f80cb3e6112c88f3fb8a2d0b25d 833 libeatmydata_131.orig.tar.gz.asc"
+  ],
+  "Description": [
+    "Library and utilities designed to disable fsync and friends"
+  ],
+  "Directory": [
+    "pool/main/libe/libeatmydata"
+  ],
+  "Files": [
+    "e8e79e772170d4f531e5c2b21b5dfb38 16292 libeatmydata_131-2.debian.tar.xz e368bcafeae15234aa0fd7dd0f548c9d 2512 libeatmydata_131-2.dsc 2d50db02d4ffff2b544c75aae60c3b3e 368469 libeatmydata_131.orig.tar.gz e0a5b96463f087d057d3908006b26457 833 libeatmydata_131.orig.tar.gz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.flamingspork.com/projects/libeatmydata/"
+  ],
+  "Maintainer": [
+    "Mattia Rizzolo \u003cmattia@debian.org\u003e"
+  ],
+  "Package": [
+    "libeatmydata"
+  ],
+  "Package-List": [
+    "eatmydata deb utils optional arch=all eatmydata-udeb udeb debian-installer optional arch=all libeatmydata1 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libeatmydata"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libeatmydata.git"
+  ],
+  "Version": [
+    "131-2"
+  ]
+}

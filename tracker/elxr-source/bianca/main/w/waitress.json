@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-waitress-doc, python3-waitress"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, netbase, pybuild-plugin-pyproject, python3-all, python3-doc, python3-pytest \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-setuptools, python3-sphinx \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "19b0dba6a09d955a192f6441eb4c68779b8548a3 8276 waitress_3.0.2-1.debian.tar.xz 1a078b41edb0f7fad3460b13b9711e7514077bf0 2410 waitress_3.0.2-1.dsc 78b1d3b95c909c71833d01c1c71efbeff2f5543d 173822 waitress_3.0.2.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "5a80a7d73ea3dec6097ea53efb918c2c00fb343eb9e4872b2a28739960f504b9 8276 waitress_3.0.2-1.debian.tar.xz 09ca8d9ea661b0b65a22aceba08579c85daafad498866e6aa57a1aa7c32289b8 2410 waitress_3.0.2-1.dsc 8bebcf105e2b6a5e9c908647793650145a00ef77f4ef1ea03ceb1c387ac3b24b 173822 waitress_3.0.2.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "706dafcba5729e30c8d295eefc5c84ffbc0c3053d99c6c2b525e80df7827d069d499ef6a8b34e945f4f1d1c6248a52c5bbf4667c9eb61a4caaae41ea2eccc9af 8276 waitress_3.0.2-1.debian.tar.xz 94816bde4c7a300ed1c3db286932b453d58c33335753895bd3786a9b535fbe70add01d6d376b99cd798c81d45f266413f81a98189bcdbfc99c58d76790728cb4 2410 waitress_3.0.2-1.dsc 6af1459e282d10f77c7eb16c7c7c7ef2187e6e36abfa730ba9905f62da84c35f8536c99835edb894eae32dbaccf6abe9287e5aa82d36bd3a7ed780bb72d5bdb0 173822 waitress_3.0.2.orig.tar.gz"
+  ],
+  "Dgit": [
+    "10461ecca5e6c28815310f9392b485bd6d391b65 debian archive/debian/3.0.2-1 https://git.dgit.debian.org/waitress"
+  ],
+  "Directory": [
+    "pool/main/w/waitress"
+  ],
+  "Files": [
+    "9378198cd0538927452cc3bf290101be 8276 waitress_3.0.2-1.debian.tar.xz fc565c978d7b730f85015f46551075bc 2410 waitress_3.0.2-1.dsc e40636b57e9e8bceca9dee5407d34c3e 173822 waitress_3.0.2.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Pylons/waitress"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "waitress"
+  ],
+  "Package-List": [
+    "python-waitress-doc deb doc optional arch=all python3-waitress deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "netbase, python3-all, python3-pytest, python3-pytest-cov"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/waitress"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/waitress.git"
+  ],
+  "Version": [
+    "3.0.2-1"
+  ]
+}

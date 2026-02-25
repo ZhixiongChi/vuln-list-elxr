@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "network-manager, network-manager-dev, network-manager-l10n, libnm0, libnm-dev, gir1.2-nm-1.0, network-manager-config-connectivity-debian"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), debhelper (\u003e= 13.11.6), dh-sequence-gir, meson (\u003e= 0.51.0), pkgconf, gettext (\u003e= 0.19.8), libglib2.0-dev (\u003e= 2.42), ppp-dev, libselinux1-dev, libaudit-dev, libgnutls28-dev (\u003e= 2.12), uuid-dev, systemd-dev, libsystemd-dev (\u003e= 209), libudev-dev (\u003e= 175), gir1.2-gio-2.0-dev, gir1.2-girepository-2.0, gobject-introspection, python3-gi, libpsl-dev (\u003e= 0.1), libcurl4-gnutls-dev (\u003e= 7.24.0), gtk-doc-tools, libglib2.0-doc, libmm-glib-dev (\u003e= 0.7.991), libndp-dev, libreadline-dev, libnewt-dev (\u003e= 0.52.15), libteam-dev (\u003e= 1.9), libjansson-dev (\u003e= 2.7), libbluetooth-dev (\u003e= 5), libdbus-1-dev, libpolkit-gobject-1-dev, mobile-broadband-provider-info, valac, polkitd, dbus \u003c!nocheck\u003e, python3-dbus \u003c!nocheck\u003e, python3-pexpect \u003c!nocheck\u003e, iproute2 \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "37296f021785ec8b099e69972511810bf101d82f 58068 network-manager_1.52.1-1.debian.tar.xz a49e9b4f697713da90f17023102a0b15b154cc2e 3300 network-manager_1.52.1-1.dsc e584590b6303d287f2cc89605ca3f5e665960360 8394935 network-manager_1.52.1.orig.tar.bz2"
+  ],
+  "Checksums-Sha256": [
+    "6e0c8bfa07315045da2c7ed3aabdd2680665dc7ee9aa565b4a83d48f8fffb9c4 58068 network-manager_1.52.1-1.debian.tar.xz 41656f70ddec8ddd7c1455f25dc5d2a9376c05cf10fe81ae43e34ee5a32831b7 3300 network-manager_1.52.1-1.dsc 8997dafb8131599134f75ecb2fcdc2d3ea977129796f2ea8b628a05702e6b7de 8394935 network-manager_1.52.1.orig.tar.bz2"
+  ],
+  "Checksums-Sha512": [
+    "74ec5a398353b8852bf18849f9b0edeaf67d123855f9fad06790f66c5cb18e8ab042bb1a8825bc80b242aeea135f5e49d3c0032fc4ab177e4769dff7c6c8b8ce 58068 network-manager_1.52.1-1.debian.tar.xz d0b444fd4a69fa1d6a7c34ed9e2c8c3d7236f3b3f87e05204ab3cf2b2c71dfc3db91ec35802a72206807c427408e331825531d7a965bc37bef02de1813a4759e 3300 network-manager_1.52.1-1.dsc ed19adfafe470c4558f3b43778cc462e7e3d9d275da93fd544809fbf76e58cb7e031ac962de3f7b820f4b787030eaa68ff49a069d785c611e4e3db4c99ad64cc 8394935 network-manager_1.52.1.orig.tar.bz2"
+  ],
+  "Directory": [
+    "pool/main/n/network-manager"
+  ],
+  "Files": [
+    "b6ee64b449f0a29ecf3107788f0887d1 58068 network-manager_1.52.1-1.debian.tar.xz 5c0baec63c4c1e3aa1f5318cd44d7eed 3300 network-manager_1.52.1-1.dsc c8a0300eddf36674f0a7fa71611ea98f 8394935 network-manager_1.52.1.orig.tar.bz2"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://networkmanager.dev/"
+  ],
+  "Maintainer": [
+    "Utopia Maintenance Team \u003cpkg-utopia-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "network-manager"
+  ],
+  "Package-List": [
+    "gir1.2-nm-1.0 deb introspection optional arch=linux-any libnm-dev deb libdevel optional arch=linux-any libnm0 deb libs optional arch=linux-any network-manager deb net optional arch=linux-any network-manager-config-connectivity-debian deb net optional arch=all network-manager-dev deb devel optional arch=all network-manager-l10n deb localization optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dnsmasq-base, python3, python3-dbusmock, udev"
+  ],
+  "Uploaders": [
+    "Michael Biebl \u003cbiebl@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/utopia-team/network-manager"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/utopia-team/network-manager.git"
+  ],
+  "Version": [
+    "1.52.1-1"
+  ]
+}
