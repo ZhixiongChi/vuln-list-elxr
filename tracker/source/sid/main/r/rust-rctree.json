@@ -6,19 +6,25 @@
     "librust-rctree-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 24), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "de76e0cf1500bfb1efc9a255320572dcb51f119f7886c384323deb5558ef96e5 1746 rust-rctree_0.3.3-1.dsc be9e29cb19c8fe84169fcb07f8f11e66bc9e6e0280efd4715c54818296f8a4a8 8527 rust-rctree_0.3.3.orig.tar.gz 47d440150c7230fa22d6bad788470fd4be8017840726e90fd1e51acb5e10a9c6 2600 rust-rctree_0.3.3-1.debian.tar.xz"
+    "5254dd37d1db7c0d8127bc8c0db972511d4373b3f1c2c5b830ab437b51c9c340 2171 rust-rctree_0.6.0-1.dsc e03e7866abec1101869ffa8e2c8355c4c2419d0214ece0cc3e428e5b94dea6e9 8312 rust-rctree_0.6.0.orig.tar.gz f670df9c700a94675fec9de7d81bbefeddcb41dec84e2f10ffd9dc1713cdb923 2616 rust-rctree_0.6.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-rctree"
   ],
   "Files": [
-    "f42cc6bb84e62949f4e75c681b875ff2 1746 rust-rctree_0.3.3-1.dsc a1242a0d1da4a88f14bf916ca3867738 8527 rust-rctree_0.3.3.orig.tar.gz c963af4178256712b9bae7dd304916aa 2600 rust-rctree_0.3.3-1.debian.tar.xz"
+    "6f6ff385d61e1fcbf8e0a92b1bd01062 2171 rust-rctree_0.6.0-1.dsc 801317fc3a9cd7d8f237cb2a0596f0be 8312 rust-rctree_0.6.0.orig.tar.gz 36d65990c189b69c050960c17706ae94 2616 rust-rctree_0.6.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/RazrFalcon/rctree"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,13 +42,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo"
+    "dh-cargo, rustc"
   ],
   "Uploaders": [
     "Andrej Shadura \u003candrewsh@debian.org\u003e"
@@ -54,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/rctree]"
   ],
   "Version": [
-    "0.3.3-1"
+    "0.6.0-1"
   ]
 }

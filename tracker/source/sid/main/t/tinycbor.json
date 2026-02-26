@@ -3,19 +3,19 @@
     "any"
   ],
   "Binary": [
-    "libtinycbor0.6, libtinycbor-dev, tinycbor-utils"
+    "libtinycbor0, libtinycbor-dev, tinycbor-utils"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-doxygen, dh-exec, doxygen, graphviz, help2man, libcjson-dev, qtbase5-dev"
+    "debhelper-compat (= 13), cmake, ninja-build, dh-exec, libcjson-dev, pkgconf, qt6-base-dev \u003c!nocheck\u003e, dh-sequence-doxygen \u003c!nodoc\u003e, doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, help2man \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "2e581368cc051625a353c6cdd1c7b86ac132b384c3af649b6efd9513a86d8fa7 2125 tinycbor_0.6.1-1.dsc 0f9944496d1143935e9c996bc6233ca0dd5451299def33ef400a409942f8f34b 102247 tinycbor_0.6.1.orig.tar.gz f8346237f675fabda2e30665baa3d1b05148df72e50425725c1b4d91b59b58e1 5796 tinycbor_0.6.1-1.debian.tar.xz"
+    "c1f2a2ef2d860863a85bdf3a2df896881cef53b0180f385c38148e1d3f35ee65 2191 tinycbor_7.0-1.dsc 1411258de0420e4dd7ceb8cbf0f02b00f0d11d294e82a837e190ae9f08931b63 102537 tinycbor_7.0.orig.tar.gz 135c78e0028a3e81462b68b2704ca7df433cd93d7e21ed48605626aebbbdd0c3 6104 tinycbor_7.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/t/tinycbor"
   ],
   "Files": [
-    "2d2bbc10568f4fc9fb7d7648dc08d850 2125 tinycbor_0.6.1-1.dsc 93242393b554387cf57ab592bf19ce24 102247 tinycbor_0.6.1.orig.tar.gz bf721fbe55b0a1f9080e592822b1584a 5796 tinycbor_0.6.1-1.debian.tar.xz"
+    "6bd4514bb49cb239f8cea4e08ae35879 2191 tinycbor_7.0-1.dsc 7c291cb8fa3600424a191482c54b0d2f 102537 tinycbor_7.0.orig.tar.gz 887d0be0d300cfaa28f893df42da1623 6104 tinycbor_7.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "tinycbor"
   ],
   "Package-List": [
-    "libtinycbor-dev deb libdevel optional arch=any libtinycbor0.6 deb libs optional arch=any tinycbor-utils deb utils optional arch=any"
+    "libtinycbor-dev deb libdevel optional arch=any libtinycbor0 deb libs optional arch=any tinycbor-utils deb utils optional arch=any"
   ],
   "Priority": [
     "optional"
@@ -39,13 +39,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential, qt6-base-dev, qtbase5-dev"
+    "build-essential, cmake, ninja-build, qt6-base-dev"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/harry/tinycbor"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/harry/tinycbor.git"
   ],
   "Version": [
-    "0.6.1-1"
+    "7.0-1"
   ]
 }

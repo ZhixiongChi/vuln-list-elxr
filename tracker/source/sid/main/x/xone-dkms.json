@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-dkms"
   ],
   "Checksums-Sha256": [
-    "7eb87cce31f766f433423f2250782293fdbc075fce5819a434e1b02edaff901a 1855 xone-dkms_0.5.2-1.dsc b7aec8f2ff475f9892a10b6dceb681785c9b548b77f85a71d55fbe05759dae63 77385 xone-dkms_0.5.2.orig.tar.gz 4e2fa2e7b1eca9998f7590ad05daf0daecafeda84bdca668f1c29fd9e4e79554 2996 xone-dkms_0.5.2-1.debian.tar.xz"
+    "b3f494ea4ca8b643dcf3ede300a06428520b285a543460ae1c4a9240304eab89 1883 xone-dkms_0.5.5-1.dsc ae14a424b47f5e077e76e1eaf3d1c5b23c229b2a44d0bfee114f8017793e0d3c 77837 xone-dkms_0.5.5.orig.tar.gz 387254665cde37f2763730093947a7990e45080bf1448001d578b44b71b497b8 3616 xone-dkms_0.5.5-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/x/xone-dkms"
   ],
   "Files": [
-    "b9825316905fc36ee59dc19668fd7866 1855 xone-dkms_0.5.2-1.dsc 7ab81efbd92c64556806dd226c241a13 77385 xone-dkms_0.5.2.orig.tar.gz 84fc257ea3ddeaa70eff0205b90020ae 2996 xone-dkms_0.5.2-1.debian.tar.xz"
+    "bd971bb033bc8a656c284a615e0ec7d7 1883 xone-dkms_0.5.5-1.dsc b38ad68a45ae4ad63ce1b3968bed7ecb 77837 xone-dkms_0.5.5.orig.tar.gz bd5a9dfe0fca333101399527a9fc66eb 3616 xone-dkms_0.5.5-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -41,13 +41,19 @@
   "Standards-Version": [
     "4.7.3"
   ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dkms"
+  ],
   "Vcs-Browser": [
-    "https://github.com/Michael-Lloyd/xone-dkms-debian"
+    "https://salsa.debian.org/micl/xone-dkms"
   ],
   "Vcs-Git": [
-    "https://github.com/Michael-Lloyd/xone-dkms-debian.git"
+    "https://salsa.debian.org/micl/xone-dkms.git"
   ],
   "Version": [
-    "0.5.2-1"
+    "0.5.5-1"
   ]
 }

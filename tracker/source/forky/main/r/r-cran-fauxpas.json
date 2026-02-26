@@ -6,16 +6,16 @@
     "r-cran-fauxpas"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-r6, r-cran-httpcode, r-cran-whisker"
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-r6, r-cran-httpcode, r-cran-whisker, architecture-is-64-bit, architecture-is-little-endian"
   ],
   "Checksums-Sha256": [
-    "4f03d224fd1f37d2ab5331431ac4562e6026456a487a977bfb197caed2260fc0 2191 r-cran-fauxpas_0.5.2+dfsg-1.dsc ad28679b9214020863c9b6fe5bb3597e62b636859b6842a137f6f3b95904764d 20224 r-cran-fauxpas_0.5.2+dfsg.orig.tar.xz 308ba1497baedcebefaaf1027b3e687dae8b108d9363932b1302f9d310ef8313 2968 r-cran-fauxpas_0.5.2+dfsg-1.debian.tar.xz"
+    "f59e29af887175be87745aeeafd7c2aba5fb45236d034d7cdbe75e9498a360c8 2279 r-cran-fauxpas_0.6.0+dfsg-1.dsc 70cb27ac1183508b93c6788fb8bfb158439b33712622d32c75333cd60bb07e4b 20944 r-cran-fauxpas_0.6.0+dfsg.orig.tar.xz e4346e1757aba321733e01e6a3f83ae7d5fc528589c831903ac11ef8f1c20a73 3076 r-cran-fauxpas_0.6.0+dfsg-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/r-cran-fauxpas"
   ],
   "Files": [
-    "e1a2fd534bd1ca7b96a127f2938aee8f 2191 r-cran-fauxpas_0.5.2+dfsg-1.dsc d5f1c22d705476e3a8cede52899fcf01 20224 r-cran-fauxpas_0.5.2+dfsg.orig.tar.xz 8c769595d459ccad951033650b5b603c 2968 r-cran-fauxpas_0.5.2+dfsg-1.debian.tar.xz"
+    "e6b6a5c0e6b311cf8ee91bd346b387b3 2279 r-cran-fauxpas_0.6.0+dfsg-1.dsc fa6a49f859318edd38e9c3b007ba2f93 20944 r-cran-fauxpas_0.6.0+dfsg.orig.tar.xz acf618969f7d96351ea9de2d95cdb573 3076 r-cran-fauxpas_0.6.0+dfsg-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-r"
   ],
   "Testsuite-Triggers": [
-    "r-cran-crul, r-cran-testthat"
+    "r-cran-crul, r-cran-curl, r-cran-httr, r-cran-knitr, r-cran-rmarkdown, r-cran-testthat"
   ],
   "Uploaders": [
     "Andreas Tille \u003ctille@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/r-pkg-team/r-cran-fauxpas.git"
   ],
   "Version": [
-    "0.5.2+dfsg-1"
+    "0.6.0+dfsg-1"
   ]
 }

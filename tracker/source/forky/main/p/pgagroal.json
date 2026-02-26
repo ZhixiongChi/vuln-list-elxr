@@ -6,16 +6,16 @@
     "pgagroal"
   ],
   "Build-Depends": [
-    "cmake (\u003e= 3.14.0), debhelper-compat (= 13), libcjson-dev, libev-dev, libssl-dev, libsystemd-dev, postgresql-all, python3-docutils"
+    "debhelper-compat (= 13), architecture-is-64-bit, cmake (\u003e= 3.14.0), libbz2-dev, libcjson-dev, libev-dev, liblz4-dev, libssl-dev, libsystemd-dev, liburing-dev, libzstd-dev, postgresql-all, python3-docutils, zlib1g-dev"
   ],
   "Checksums-Sha256": [
-    "5033d554a5374ba3853eb604bb825d8d3a9d4985a680c0d7edff92776fae2876 2080 pgagroal_1.6.0-1.dsc 5d56c1d0c58460ba74222ec9779034c019a083a6baf019fdd16ae5517d16665e 310457 pgagroal_1.6.0.orig.tar.gz 954d556ab6169de5086858ec353b73ba4e4399cfd616b66a799a3718ca3dfe61 4700 pgagroal_1.6.0-1.debian.tar.xz"
+    "f9f482094ee5848920b894f850f61ce46d3a49b1ea64211571156ac72cf4ff3b 2168 pgagroal_2.0.1-2.dsc 5af06a8b34f1d8ab98bd32cb2db9367e449ee830d290a803990cbc397b8fabe2 1273696 pgagroal_2.0.1.orig.tar.gz 4ac2ede7a3c24e35d8f65155ef3c8f6705c732abdac1853374376a3eafb8d54f 3732 pgagroal_2.0.1-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/pgagroal"
   ],
   "Files": [
-    "1332777f9c0b2434abb29d32cec3a48e 2080 pgagroal_1.6.0-1.dsc 7dc3eac0ac1df226454b335579cc28d0 310457 pgagroal_1.6.0.orig.tar.gz 59cc99b48c603358a651d56905bc0db5 4700 pgagroal_1.6.0-1.debian.tar.xz"
+    "15189ad1669ec50fe3161ffa7a786075 2168 pgagroal_2.0.1-2.dsc e1bdd9508e063c72e428dfbbbc5407c0 1273696 pgagroal_2.0.1.orig.tar.gz 6d9a343d88d9826935ceac48247b2d1d 3732 pgagroal_2.0.1-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "postgresql, procps"
   ],
   "Uploaders": [
-    "Christoph Berg \u003cmyon@debian.org\u003e,"
+    "Christoph Berg \u003cmyon@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/postgresql/pgagroal"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/postgresql/pgagroal.git"
   ],
   "Version": [
-    "1.6.0-1"
+    "2.0.1-2"
   ]
 }

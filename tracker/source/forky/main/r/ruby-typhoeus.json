@@ -6,16 +6,16 @@
     "ruby-typhoeus"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gem2deb, rake, ruby-ethon, ruby-faraday, ruby-faraday-typhoeus, ruby-json, ruby-rack, ruby-rackup, ruby-rack-protection (\u003e= 4.1.1-4), ruby-rspec, ruby-sinatra (\u003e= 4.1.1-4), ruby-dalli, ruby-redis, ruby-webrick (\u003e= 1.7~)"
+    "debhelper-compat (= 13), gem2deb, rake, ruby-ethon (\u003e= 0.18.0-2), ruby-faraday, ruby-faraday-typhoeus, ruby-json, ruby-rack, ruby-rackup, ruby-rack-protection (\u003e= 4.1.1-4), ruby-rspec, ruby-sinatra (\u003e= 4.1.1-4), ruby-dalli, ruby-redis, ruby-webrick (\u003e= 1.7~)"
   ],
   "Checksums-Sha256": [
-    "2f040727723c8aa6937f109bcf9d82450c156503a3b4a0fc30ad58600607e0f9 2237 ruby-typhoeus_1.4.0-6.dsc ffa69a3ff1b192e0b928af10a2c3baf7ef2c53be3c9ac3d6503cbe8a05a4a0a4 53229 ruby-typhoeus_1.4.0.orig.tar.gz 4aeb89024f637bb2ddc5beef2e5085f492f6a4fa8121180506bfe819a0adadd9 6396 ruby-typhoeus_1.4.0-6.debian.tar.xz"
+    "10654ea045155cfd8604e5693f6452e3ab1c3754e26afe454d15612eafb6b51e 2232 ruby-typhoeus_1.5.0-2.dsc eb9c295887c6eb3d47061478cd0691be89bcfdf9734614500eadef9da736a7a4 55664 ruby-typhoeus_1.5.0.orig.tar.gz 166d6b5a6d30809ef77e57a17397dd300d0939ea5d3744c46d48cb8ba6f99490 6368 ruby-typhoeus_1.5.0-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/ruby-typhoeus"
   ],
   "Files": [
-    "3d170e7404203afdc6a8b26535b74c7f 2237 ruby-typhoeus_1.4.0-6.dsc d7f9b8760a3fcc9627b26dbd3ca99a63 53229 ruby-typhoeus_1.4.0.orig.tar.gz 7c50218e20f133aad5c177311c79e301 6396 ruby-typhoeus_1.4.0-6.debian.tar.xz"
+    "876a802e0c0926ffefb700e484754558 2232 ruby-typhoeus_1.5.0-2.dsc 74dbb950247e5a1c81cdeda57f5868d0 55664 ruby-typhoeus_1.5.0.orig.tar.gz 4ec42caf6dfc4e510a67040f242741fe 6368 ruby-typhoeus_1.5.0-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -35,14 +35,11 @@
   "Priority": [
     "optional"
   ],
-  "Ruby-Versions": [
-    "all"
-  ],
   "Section": [
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-ruby"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/ruby-team/ruby-typhoeus.git"
   ],
   "Version": [
-    "1.4.0-6"
+    "1.5.0-2"
   ]
 }

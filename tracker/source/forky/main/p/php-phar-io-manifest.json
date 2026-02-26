@@ -6,16 +6,16 @@
     "php-phar-io-manifest"
   ],
   "Build-Depends": [
-    "ant, debhelper-compat (= 13), dh-sequence-phpcomposer, php-phar-io-version, phpab, phpunit"
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, ant, php-phar-io-version \u003c!nocheck\u003e, phpab, phpunit \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "54a70192b399da06e778ed20ea0185479fb73bc31757ea2cd4d7c0243bf3dc80 1879 php-phar-io-manifest_2.0.4-5.dsc daf0b191a486aa3d1b8684acba78a2f196a6150247d99bd035d742759e01424e 24356 php-phar-io-manifest_2.0.4.orig.tar.xz e50b5e4e2f0ca5849c0b4720baff5d42bdc79cc9f6e70b0fad808b3c93a62659 13888 php-phar-io-manifest_2.0.4-5.debian.tar.xz"
+    "62989378585f6159be820b77ce7327861a78e1cce0fc0847b6474a2623dcc35c 1901 php-phar-io-manifest_2.0.4-6.dsc daf0b191a486aa3d1b8684acba78a2f196a6150247d99bd035d742759e01424e 24356 php-phar-io-manifest_2.0.4.orig.tar.xz 0d20db8b52dad8d6097069d76f3f58a0aef577986b9fd0dbeb96c4d8d07839f8 14020 php-phar-io-manifest_2.0.4-6.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/php-phar-io-manifest"
   ],
   "Files": [
-    "2b212873dfa145ea637ff109d60e4d15 1879 php-phar-io-manifest_2.0.4-5.dsc 12595ef713c70601c123cf63b329b36c 24356 php-phar-io-manifest_2.0.4.orig.tar.xz ab8e9a38abeae8e1ce61f554795ba5fd 13888 php-phar-io-manifest_2.0.4-5.debian.tar.xz"
+    "41dde32afb0a4b053574180bb35acf08 1901 php-phar-io-manifest_2.0.4-6.dsc 12595ef713c70601c123cf63b329b36c 24356 php-phar-io-manifest_2.0.4.orig.tar.xz 27f87ed1e9bbfaf54debef1e908bfec9 14020 php-phar-io-manifest_2.0.4-6.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/php-team/pear/php-phar-io-manifest.git"
   ],
   "Version": [
-    "2.0.4-5"
+    "2.0.4-6"
   ]
 }

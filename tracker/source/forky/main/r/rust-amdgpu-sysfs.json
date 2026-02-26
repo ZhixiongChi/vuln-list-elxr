@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-amdgpu-sysfs-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-enum-dispatch-0.3+default-dev (\u003e= 0.3.8-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "ac2ce52eb25ad50f16abbf35bc8d054e5535b9c2dd60ce6d75af83844894353c 1935 rust-amdgpu-sysfs_0.19.3-1.dsc 31655bb689eb37913111f1697f8549c3ed88d0db2f56c52a448afab4065471e4 73004 rust-amdgpu-sysfs_0.19.3.orig.tar.gz fc9b717454d5c0373c0ec7ed50735ea8b980263a268d710218667612c79b14c4 2724 rust-amdgpu-sysfs_0.19.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-amdgpu-sysfs"
+  ],
+  "Files": [
+    "f1e59015fe873d6ed2b63045ee53ae9c 1935 rust-amdgpu-sysfs_0.19.3-1.dsc b698a5dcfea5b68239b543756031f09a 73004 rust-amdgpu-sysfs_0.19.3.orig.tar.gz 40e370d3a741fe03e0ca80312dd977e8 2724 rust-amdgpu-sysfs_0.19.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ilya-zlobintsev/amdgpu-sysfs-rs/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-amdgpu-sysfs"
+  ],
+  "Package-List": [
+    "librust-amdgpu-sysfs-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-insta-1+default-dev, librust-insta-1+redactions-dev, librust-insta-1+yaml-dev, librust-pretty-assertions-1+default-dev, librust-rust-embed-8+default-dev, librust-tempfile-3+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Seyed Mohamad Amin Modaresi \u003cmodaresisofthard@proton.me\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/amdgpu-sysfs"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/amdgpu-sysfs]"
+  ],
+  "Version": [
+    "0.19.3-1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-russh-cryptovec-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.75) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev (\u003e= 0.4.11-~~) \u003c!nocheck\u003e, librust-nix-0.30+default-dev \u003c!nocheck\u003e, librust-nix-0.30+mman-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "acb4172b810d26857270d0a49eb8a0c4daac7bdbc1dbdcc8189b00c4f7496c51 1797 rust-russh-cryptovec_0.52.0-1.dsc 4fb0ed583ff0f6b4aa44c7867dd7108df01b30571ee9423e250b4cc939f8c6cf 7122 rust-russh-cryptovec_0.52.0.orig.tar.gz 4fee6028b9a56ad0827422ed9239a4117962bf898d71aba9f5539f618ccdc8ef 2416 rust-russh-cryptovec_0.52.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-russh-cryptovec"
+  ],
+  "Files": [
+    "46c9c56a46b382f8c16a1bd31652fc0e 1797 rust-russh-cryptovec_0.52.0-1.dsc 3a3cccda465ead79030184b59cc6a1a6 7122 rust-russh-cryptovec_0.52.0.orig.tar.gz 0dd9d2f3161071a00314bea6ca5350af 2416 rust-russh-cryptovec_0.52.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/warp-tech/russh"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-russh-cryptovec"
+  ],
+  "Package-List": [
+    "librust-russh-cryptovec-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/russh-cryptovec"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/russh-cryptovec]"
+  ],
+  "Version": [
+    "0.52.0-1"
+  ]
+}

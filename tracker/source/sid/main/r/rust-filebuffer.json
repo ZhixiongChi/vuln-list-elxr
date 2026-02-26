@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-filebuffer-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.86-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "acfda93c97220cdbc8bdc69153b534b6c90acb3002ce43dc4ba52022121f3bc2 1722 rust-filebuffer_1.0.1-1.dsc e6549ad04d0b7f431a60cbcf1c3b211f1d3bdfc98e3009c6d8e3ba11cb49d764 16392 rust-filebuffer_1.0.1.orig.tar.gz 3df6166f63c4208ef0d2b94e04b38886b03cb753d03c76d0c7beb24067cc8eaf 2372 rust-filebuffer_1.0.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-filebuffer"
+  ],
+  "Files": [
+    "b7202f4dc9857292bf89da4c964c5327 1722 rust-filebuffer_1.0.1-1.dsc b8e0efce90e13e3daf66a01acc37180a 16392 rust-filebuffer_1.0.1.orig.tar.gz 3b51005b4f0bfe4f854b0849e502de87 2372 rust-filebuffer_1.0.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ruuda/filebuffer"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-filebuffer"
+  ],
+  "Package-List": [
+    "librust-filebuffer-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-hex-0.4+default-dev, librust-sha2-0.10+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Ed Neville \u003ced-debian@s5h.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/filebuffer"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/filebuffer]"
+  ],
+  "Version": [
+    "1.0.1-1"
+  ]
+}

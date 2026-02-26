@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-regress-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-hashbrown-0.16+default-dev \u003c!nocheck\u003e, librust-memchr-2+std-dev (\u003e= 2.4.0-~~) \u003c!nocheck\u003e, librust-memchr-2-dev (\u003e= 2.4.0-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "c0deb0595fedbc75ec67f7aa35973e662e6116d5ea7734d54a2ba8a552393b56 1748 rust-regress_0.10.5-1.dsc 2057b2325e68a893284d1538021ab90279adac1139957ca2a74426c6f118fb48 346868 rust-regress_0.10.5.orig.tar.gz abe28a43a25d0a319daa917b7a57cdacc3ce7f27794348c6127ccb688746c769 2880 rust-regress_0.10.5-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-regress"
+  ],
+  "Files": [
+    "a90f22a7832d887d4c0025d78936fe72 1748 rust-regress_0.10.5-1.dsc c4a4f1339004655a51c65db6603e9a86 346868 rust-regress_0.10.5.orig.tar.gz 36cf1aea56d73ee04c1e81b28555bd52 2880 rust-regress_0.10.5-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ridiculousfish/regress"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-regress"
+  ],
+  "Package-List": [
+    "librust-regress-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/regress"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/regress]"
+  ],
+  "Version": [
+    "0.10.5-1"
+  ]
+}

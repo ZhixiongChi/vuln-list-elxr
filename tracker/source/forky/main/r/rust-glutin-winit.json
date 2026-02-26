@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-glutin-winit-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.70.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-aliases-0.2+default-dev (\u003e= 0.2.1-~~) \u003c!nocheck\u003e, librust-glutin-0.32+egl-dev \u003c!nocheck\u003e, librust-glutin-0.32+glx-dev \u003c!nocheck\u003e, librust-glutin-0.32+wayland-dev \u003c!nocheck\u003e, librust-glutin-0.32+wgl-dev \u003c!nocheck\u003e, librust-glutin-0.32+x11-dev \u003c!nocheck\u003e, librust-glutin-0.32-dev \u003c!nocheck\u003e, librust-raw-window-handle-0.6+default-dev \u003c!nocheck\u003e, librust-winit-0.30+rwh-06-dev \u003c!nocheck\u003e, librust-winit-0.30+wayland-dev \u003c!nocheck\u003e, librust-winit-0.30+x11-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "1e0de2bd0a3d9afb42603136e8658ee146d779367f963412d2b9da6251b2fe84 2136 rust-glutin-winit_0.5.0-1.dsc 85edca7075f8fc728f28cb8fbb111a96c3b89e930574369e3e9c27eb75d3788f 6076 rust-glutin-winit_0.5.0.orig.tar.gz 02c3a548410498b6bfcbcb1cdb39f18b25d0c0b54d0b2ea84da0acc14933f326 2820 rust-glutin-winit_0.5.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-glutin-winit"
+  ],
+  "Files": [
+    "fc56adab0b318c81040734c9f2d55cb4 2136 rust-glutin-winit_0.5.0-1.dsc a53c36fc80df7a3ac8bd7ae18314025c 6076 rust-glutin-winit_0.5.0.orig.tar.gz ff66a623adcdd4b231e00b75dbda4bd2 2820 rust-glutin-winit_0.5.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/rust-windowing/glutin"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-glutin-winit"
+  ],
+  "Package-List": [
+    "librust-glutin-winit-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/glutin-winit"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/glutin-winit]"
+  ],
+  "Version": [
+    "0.5.0-1"
+  ]
+}

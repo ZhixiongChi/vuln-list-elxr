@@ -6,10 +6,10 @@
     "python3-stac-check, python-stac-check-doc, stac-check"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, libjs-highlight.js \u003c!nodoc\u003e, python3-all, python3-click, python3-dotenv, python3-jsonschema, python3-myst-parser \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e, python3-requests, python3-requests-mock \u003c!nocheck\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-autodoc-typehints \u003c!nodoc\u003e, python3-sphinx-click \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-stac-validator, python3-yaml"
+    "debhelper-compat (= 13), dh-python, dh-sequence-python3, dh-sequence-sphinxdoc \u003c!nodoc\u003e, libjs-highlight.js \u003c!nodoc\u003e, python3-all, python3-click, python3-dotenv, python3-jsonschema, python3-myst-parser \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e, python3-requests, python3-requests-mock \u003c!nocheck\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-autodoc-typehints \u003c!nodoc\u003e, python3-sphinx-click \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-stac-pydantic, python3-stac-validator, python3-yaml"
   ],
   "Checksums-Sha256": [
-    "d4cdf4bec7c634626250ee655740c7c686a85be8d41507f096fc9a78cd6e9063 2944 stac-check_1.11.1-3.dsc c475003816f5a3f092a42cf34b1b80ec0729a2b65c294b7c0b808e967de7c097 4361174 stac-check_1.11.1.orig.tar.gz fa06fa9624526367a2aca18b3b3a350e56b1e4dda8cb2e907c1d24208b8a6248 5668 stac-check_1.11.1-3.debian.tar.xz"
+    "c93831a624ae1a6f86d4c7b323cc29b977e9bd2e4261ca18a34614a42e417734 2967 stac-check_1.11.1-4.dsc c475003816f5a3f092a42cf34b1b80ec0729a2b65c294b7c0b808e967de7c097 4361174 stac-check_1.11.1.orig.tar.gz 12c2d6f714a2b7f830319bd3fce8cb89c9ac8ce6fc4f8c46d78dd398d6fe5330 7028 stac-check_1.11.1-4.debian.tar.xz"
   ],
   "Description": [
     "Linting and validation tool for STAC assets stac-check is both a CLI tool and Python library. It adds additional linting and validation to the stac-validator project. . The intent of this project is to provide a linting tool that also follows the official STAC Best Practices document."
@@ -18,7 +18,7 @@
     "pool/main/s/stac-check"
   ],
   "Files": [
-    "cb628adc91716f838c2ace7361ba8f24 2944 stac-check_1.11.1-3.dsc affbe5110f0a5a56b26903e5fab71dee 4361174 stac-check_1.11.1.orig.tar.gz 1f08ea50eaa1569a4430b8c230d573ba 5668 stac-check_1.11.1-3.debian.tar.xz"
+    "1a3c33650c8957588d1694f0b9c0e48f 2967 stac-check_1.11.1-4.dsc affbe5110f0a5a56b26903e5fab71dee 4361174 stac-check_1.11.1.orig.tar.gz e03d604a59e0ae016901cdb9c0fb7030 7028 stac-check_1.11.1-4.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-pybuild"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian-gis-team/stac-check.git"
   ],
   "Version": [
-    "1.11.1-3"
+    "1.11.1-4"
   ]
 }

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-pp-rs-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-unicode-xid-0.2+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "7cbe75a0857620d3d3bdbece0f7e53f1d219ec085a9f9c5a64b59ce20c12745a 1612 rust-pp-rs_0.2.1-1.dsc bb458bb7f6e250e6eb79d5026badc10a3ebb8f9a15d1fff0f13d17c71f4d6dee 25905 rust-pp-rs_0.2.1.orig.tar.gz 6b815ea9a2a7663f3a2921b473019b7d033199c16183744e269f576e281b285e 2656 rust-pp-rs_0.2.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-pp-rs"
+  ],
+  "Files": [
+    "647cc5a1e94b30fc134b76cce3a0cd7a 1612 rust-pp-rs_0.2.1-1.dsc c8e6629e5c00f7d0234bd24a2d239ac7 25905 rust-pp-rs_0.2.1.orig.tar.gz 2884f5edddf4d3623d6f448835f6c84d 2656 rust-pp-rs_0.2.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Kangz/glslpp-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-pp-rs"
+  ],
+  "Package-List": [
+    "librust-pp-rs-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pp-rs"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/pp-rs]"
+  ],
+  "Version": [
+    "0.2.1-1"
+  ]
+}

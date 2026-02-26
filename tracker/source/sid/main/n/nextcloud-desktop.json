@@ -9,22 +9,22 @@
     "debhelper-compat (= 13), cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 5.240.0)"
   ],
   "Build-Depends-Arch": [
-    "dh-sequence-qmldeps, libcloudproviders-dev (\u003e= 0.3.3), libcmocka-dev, libdbus-1-dev, libinotify-dev [kfreebsd-any], libkf6archive-dev, libkf6coreaddons-dev, libkf6guiaddons-dev, libkf6kio-dev, libp11-dev, librsvg2-bin, libsqlite3-dev (\u003e= 3.9.0~), libssl-dev (\u003e= 1.1~), pkgconf, qml6-module-qt5compat-graphicaleffects, qml6-module-qtmultimedia, qt6-5compat-dev, qt6-base-dev (\u003e= 6.7.0~), qt6-declarative-dev (\u003e= 6.7.0~), qt6-svg-dev, qt6-tools-dev, qt6-webengine-dev [amd64 arm64 armhf i386], qt6-websockets-dev, qtkeychain-qt6-dev, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e, zlib1g-dev"
+    "dh-sequence-qmldeps, libcloudproviders-dev (\u003e= 0.3.3), libcmocka-dev, libdbus-1-dev, libinotify-dev [hurd-amd64 hurd-i386], libkf6archive-dev, libkf6coreaddons-dev, libkf6guiaddons-dev, libkf6kio-dev, libp11-dev, librsvg2-bin, libsqlite3-dev (\u003e= 3.9.0~), libssl-dev (\u003e= 1.1~), pkgconf, qml6-module-qt5compat-graphicaleffects, qml6-module-qtmultimedia, qt6-5compat-dev, qt6-base-dev (\u003e= 6.7.0~), qt6-declarative-dev (\u003e= 6.7.0~), qt6-svg-dev, qt6-tools-dev, qt6-webengine-dev [amd64 arm64 armhf i386], qt6-websockets-dev, qtkeychain-qt6-dev, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e, zlib1g-dev"
   ],
   "Build-Depends-Indep": [
     "appstream, libkf6archive-dev, libkf6guiaddons-dev, libp11-dev, librsvg2-bin, libsqlite3-dev (\u003e= 3.9.0~), libssl-dev (\u003e= 1.1~), pkgconf, qt6-5compat-dev, qt6-base-dev (\u003e= 6.7.0~), qt6-declarative-dev (\u003e= 6.7.0~), qt6-svg-dev, qt6-tools-dev, qt6-websockets-dev, qtkeychain-qt6-dev, texlive-latex-base, zlib1g-dev"
   ],
   "Checksums-Sha256": [
-    "4fa803a52a7ada79ce176ceebc4193fbeb8173cdb0d979496e42096eb0a5ed61 3840 nextcloud-desktop_4.0.1-2.dsc 4be3efd3aab3ab7ff410f67b69ca7173aba2dd4797ee77cefe0d427bb0011b59 8693203 nextcloud-desktop_4.0.1.orig.tar.gz e26dad5ab67a84f1767ff1dbdb79eb498b2a61bfa56d5e954f3481dabfd45063 16252 nextcloud-desktop_4.0.1-2.debian.tar.xz"
+    "1501ee4ba3aa4dcba956fa5b019c678115976924cda7307016ad28b2c2ebba3c 3847 nextcloud-desktop_4.0.1-3.dsc 4be3efd3aab3ab7ff410f67b69ca7173aba2dd4797ee77cefe0d427bb0011b59 8693203 nextcloud-desktop_4.0.1.orig.tar.gz 47a9b1f6ff5e68c281a363bba4877239904c70ba57fa0fdad04a389473362040 16064 nextcloud-desktop_4.0.1-3.debian.tar.xz"
   ],
   "Dgit": [
-    "24b6016022af543121c314bb0498bbe9b7f6922c debian archive/debian/4.0.1-2 https://git.dgit.debian.org/nextcloud-desktop"
+    "3d502fee5b5bbe28e44b00db00448426304e950b debian archive/debian/4.0.1-3 https://git.dgit.debian.org/nextcloud-desktop"
   ],
   "Directory": [
     "pool/main/n/nextcloud-desktop"
   ],
   "Files": [
-    "ac3090e9dcd871a1934dd86e3e2c935b 3840 nextcloud-desktop_4.0.1-2.dsc 4de2cf20d4be76c0b4639cd5eb54574e 8693203 nextcloud-desktop_4.0.1.orig.tar.gz add7431bd241db542b40bfd4d1e158ec 16252 nextcloud-desktop_4.0.1-2.debian.tar.xz"
+    "e829dde1a35af188135f036a123638c6 3847 nextcloud-desktop_4.0.1-3.dsc 4de2cf20d4be76c0b4639cd5eb54574e 8693203 nextcloud-desktop_4.0.1.orig.tar.gz 66be06c00238be3469de89c6de27ec6d 16064 nextcloud-desktop_4.0.1-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,10 +48,10 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Uploaders": [
-    "Sandro Knauß \u003chefee@debian.org\u003e, Alf Gaida \u003cagaida@siduction.org\u003e,"
+    "Sandro Knauß \u003chefee@debian.org\u003e, Alf Gaida \u003cagaida@siduction.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/owncloud-team/nextcloud-desktop"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/owncloud-team/nextcloud-desktop.git"
   ],
   "Version": [
-    "4.0.1-2"
+    "4.0.1-3"
   ]
 }

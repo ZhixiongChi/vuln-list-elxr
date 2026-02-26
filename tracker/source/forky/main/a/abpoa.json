@@ -6,19 +6,19 @@
     "abpoa, python3-pyabpoa"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, cython3, graphviz \u003c!nocheck\u003e, libsimde-dev, libpython3-all-dev, python3-all-dev:any, python3-setuptools, python3-wheel, zlib1g-dev"
+    "debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, cython3, graphviz \u003c!nocheck\u003e, libsimde-dev, libpython3-all-dev, python3-all-dev:any, python3-setuptools, python3-wheel, zlib1g-dev"
   ],
   "Checksums-Sha256": [
-    "8d5fd246cfe69ce845e5f068c1aa89daa12d3c2df1218e60c00a6e455c1fda66 2276 abpoa_1.5.5-1.dsc 2013a64f508f8e428a37cae16f44cdd63bb303f7eee532964ec2a9770f1097e2 171922 abpoa_1.5.5.orig.tar.gz e58f4a5f4d4d7b6ea73560221503fa7a9daf5d2c540cf51ff85c1879885a8445 9528 abpoa_1.5.5-1.debian.tar.xz"
+    "8f2e5809b6bf2899fde802d974ef2ca0968675452bd26cf9e1fcb4a07c4b9974 2302 abpoa_1.5.6-1.dsc e1e904d348b4f58bc527bc7c34259beb52eab8e40a36ba7f34876ce993b6b674 173929 abpoa_1.5.6.orig.tar.gz 9643e51d9edb8641cc866171404e62cddec68dd80a2e3074cb3a5a71d6a30661 9584 abpoa_1.5.6-1.debian.tar.xz"
   ],
   "Dgit": [
-    "ebfa5ae544d516da2e13e0376fe32e22c61bf9a2 debian archive/debian/1.5.5-1 https://git.dgit.debian.org/abpoa"
+    "453b16487c755d634d82ee7ba1850907ca51a9b0 debian archive/debian/1.5.6-1 https://git.dgit.debian.org/abpoa"
   ],
   "Directory": [
     "pool/main/a/abpoa"
   ],
   "Files": [
-    "241ff778014f82dcf40ea2bbaf75bffe 2276 abpoa_1.5.5-1.dsc a4a59274edb8b20eec196f19f2a66889 171922 abpoa_1.5.5.orig.tar.gz 65b5613e6b2f395f27e16cc03460072a 9528 abpoa_1.5.5-1.debian.tar.xz"
+    "b79cdece404ee873a5f6e7301c0600de 2302 abpoa_1.5.6-1.dsc 992b7ee6e2d2c3c66caf5fd2cacab20e 173929 abpoa_1.5.6.orig.tar.gz dea20567df90a97a4c40630edc33bdba 9584 abpoa_1.5.6-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-python"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/med-team/abpoa.git"
   ],
   "Version": [
-    "1.5.5-1"
+    "1.5.6-1"
   ]
 }

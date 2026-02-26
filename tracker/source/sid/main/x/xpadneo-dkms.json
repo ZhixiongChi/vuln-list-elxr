@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-dkms"
   ],
   "Checksums-Sha256": [
-    "523cd166e1db81d1539c8d5fb19a3fda7657645e09960a54b3031ba83ae32663 1896 xpadneo-dkms_0.9.8-1.dsc 3e4ebc3c421100a3ac1c147ccb69230eda88f4d52fe6db9527461277770995f4 1431768 xpadneo-dkms_0.9.8.orig.tar.gz 9b3ed0582a081218073211c43798bfb8999f7ac3ac6eeaf55f7b0f949aafb6d7 2656 xpadneo-dkms_0.9.8-1.debian.tar.xz"
+    "b150e636bfc7101b96f119e7763c4efdf558ea6b0af7fc569c5cafb94ef45cdd 1924 xpadneo-dkms_0.9.8-2.dsc 3e4ebc3c421100a3ac1c147ccb69230eda88f4d52fe6db9527461277770995f4 1431768 xpadneo-dkms_0.9.8.orig.tar.gz 01cc785c74a3fe7f2fd76c4e05a5b870b601eb6d4d98d69e031865a8827936a5 3288 xpadneo-dkms_0.9.8-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/x/xpadneo-dkms"
   ],
   "Files": [
-    "0f656f7a7199d5a14339ac90e56d1b7d 1896 xpadneo-dkms_0.9.8-1.dsc 7f18997523411c6e0c5b61373e97a81c 1431768 xpadneo-dkms_0.9.8.orig.tar.gz 4d0f87ef30c6349af1ae8275bba68ab0 2656 xpadneo-dkms_0.9.8-1.debian.tar.xz"
+    "3a52814c56b699245b9252ca261c1f39 1924 xpadneo-dkms_0.9.8-2.dsc 7f18997523411c6e0c5b61373e97a81c 1431768 xpadneo-dkms_0.9.8.orig.tar.gz ed28587d9dd49bb618d586ad3a78d842 3288 xpadneo-dkms_0.9.8-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -41,13 +41,19 @@
   "Standards-Version": [
     "4.7.3"
   ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dkms"
+  ],
   "Vcs-Browser": [
-    "https://github.com/Michael-Lloyd/xpadneo-dkms-debian"
+    "https://salsa.debian.org/micl/xpadneo-dkms"
   ],
   "Vcs-Git": [
-    "https://github.com/Michael-Lloyd/xpadneo-dkms-debian.git"
+    "https://salsa.debian.org/micl/xpadneo-dkms.git"
   ],
   "Version": [
-    "0.9.8-1"
+    "0.9.8-2"
   ]
 }

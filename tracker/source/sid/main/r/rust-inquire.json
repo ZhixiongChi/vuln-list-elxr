@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-rust, librust-bitflags-dev, librust-chrono-dev, librust-console-dev, librust-crossterm-dev, librust-dyn-clone-dev, librust-fuzzy-matcher-dev, librust-proc-macro2-dev, librust-quote-dev, librust-rstest-dev, librust-syn-dev, librust-tempfile-dev, librust-termion-dev, librust-unicode-segmentation-dev, librust-unicode-width-dev"
   ],
   "Checksums-Sha256": [
-    "d012c6560e94459a809a259baf6f26a755bc7c429fab431e3d504df81b6f5ebf 2698 rust-inquire_0.9.3+ds-1.dsc 76ec91f6b9f457e844f2546d99cb4e779d67e703658249178ab3dadb2b094106 2097516 rust-inquire_0.9.3+ds.orig.tar.xz 3aaa36e2168a04f318fe878c3801911acdc7e5df515b7fc8eb395855d2149524 6448 rust-inquire_0.9.3+ds-1.debian.tar.xz"
+    "87df42b434d716efd64c4c931fcd0c584ef41a53c109bde95474744eab015104 2752 rust-inquire_0.9.4+ds-1.dsc 2d3c796ed0fed62047fb5b8f870f42681bb891943fd885813b30a48887721ef1 2104708 rust-inquire_0.9.4+ds.orig.tar.xz 50a3fec89915ffcec68125b0493f46c7b6110805494c0fc7c2d6609e406fb77a 6556 rust-inquire_0.9.4+ds-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-inquire"
   ],
   "Files": [
-    "8ce6d10714be0a26868b210fa75907ac 2698 rust-inquire_0.9.3+ds-1.dsc 8f2378793ca621481b5016900f5a7972 2097516 rust-inquire_0.9.3+ds.orig.tar.xz fb63eb55b2064abdd5d9bd0b7cd29893 6448 rust-inquire_0.9.3+ds-1.debian.tar.xz"
+    "a32367a0f3e3ec539dd5a87f2655f5aa 2752 rust-inquire_0.9.4+ds-1.dsc 85bbc8acbe15af8c0f10f97ea1e1b57d 2104708 rust-inquire_0.9.4+ds.orig.tar.xz 1e2cde864222824131a9c607a3cd0478 6556 rust-inquire_0.9.4+ds-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +45,7 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-rust, librust-inquire-0.9+console-dev, librust-inquire-0.9+crossterm-dev, librust-inquire-0.9+date-dev, librust-inquire-0.9+default-dev, librust-inquire-0.9+editor-dev, librust-inquire-0.9+fuzzy-dev, librust-inquire-0.9+macros-dev, librust-inquire-0.9+one-liners-dev, librust-inquire-0.9+termion-dev, librust-inquire-derive-0.9+default-dev, librust-inquire-derive-0.9-dev, librust-rstest-dev"
+    "dh-rust, librust-inquire-0.9+console-dev, librust-inquire-0.9+crossterm-dev, librust-inquire-0.9+date-dev, librust-inquire-0.9+default-dev, librust-inquire-0.9+editor-dev, librust-inquire-0.9+experimental-multiline-input-dev, librust-inquire-0.9+fuzzy-dev, librust-inquire-0.9+macros-dev, librust-inquire-0.9+one-liners-dev, librust-inquire-0.9+termion-dev, librust-inquire-derive-0.9+default-dev, librust-inquire-derive-0.9-dev, librust-rstest-dev"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/rust-inquire"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/rust-inquire.git"
   ],
   "Version": [
-    "0.9.3+ds-1"
+    "0.9.4+ds-1"
   ]
 }

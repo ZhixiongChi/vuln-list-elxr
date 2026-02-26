@@ -6,16 +6,16 @@
     "strawberry-graphql"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-aiohttp \u003c!nocheck\u003e, python3-all, python3-asgiref \u003c!nocheck\u003e, python3-daphne \u003c!nocheck\u003e, python3-dateutil \u003c!nocheck\u003e, python3-django-channels \u003c!nocheck\u003e, python3-fastapi \u003c!nocheck\u003e, python3-freezegun \u003c!nocheck\u003e, python3-graphene \u003c!nocheck\u003e, python3-httpx \u003c!nocheck\u003e, python3-inline-snapshot \u003c!nocheck\u003e, python3-lia \u003c!nocheck\u003e, python3-libcst \u003c!nocheck\u003e, python3-litestar \u003c!nocheck\u003e, python3-msgspec \u003c!nocheck\u003e, python3-opentelemetry-api \u003c!nocheck\u003e, python3-poetry-core, python3-pydantic \u003c!nocheck\u003e, python3-pyinstrument \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-codspeed \u003c!nocheck\u003e, python3-pytest-emoji \u003c!nocheck\u003e, python3-pytest-mock \u003c!nocheck\u003e, python3-pytest-snapshot \u003c!nocheck\u003e, python3-python-multipart \u003c!nocheck\u003e, python3-pytest-twisted \u003c!nocheck\u003e, python3-pytest-tornasync \u003c!nocheck\u003e, python3-pytest-trio \u003c!nocheck\u003e, python3-starlette \u003c!nocheck\u003e, python3-typer \u003c!nocheck\u003e, python3-typing-extensions \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-aiohttp \u003c!nocheck\u003e, python3-all, python3-asgiref \u003c!nocheck\u003e, python3-cross-web \u003c!nocheck\u003e, python3-daphne \u003c!nocheck\u003e, python3-dateutil \u003c!nocheck\u003e, python3-django-channels \u003c!nocheck\u003e, python3-fastapi \u003c!nocheck\u003e, python3-freezegun \u003c!nocheck\u003e, python3-graphene \u003c!nocheck\u003e, python3-httpx \u003c!nocheck\u003e, python3-inline-snapshot \u003c!nocheck\u003e, python3-libcst \u003c!nocheck\u003e, python3-litestar \u003c!nocheck\u003e, python3-msgspec \u003c!nocheck\u003e, python3-opentelemetry-api \u003c!nocheck\u003e, python3-poetry-core, python3-pydantic \u003c!nocheck\u003e, python3-pyinstrument \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-codspeed (\u003e= 4.2.0) \u003c!nocheck\u003e, python3-pytest-emoji \u003c!nocheck\u003e, python3-pytest-mock \u003c!nocheck\u003e, python3-pytest-snapshot \u003c!nocheck\u003e, python3-python-multipart \u003c!nocheck\u003e, python3-pytest-twisted \u003c!nocheck\u003e, python3-pytest-tornasync \u003c!nocheck\u003e, python3-pytest-trio \u003c!nocheck\u003e, python3-starlette \u003c!nocheck\u003e, python3-typer \u003c!nocheck\u003e, python3-typing-extensions \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "79cb1ab00ce1360cc926df8e96f74b0136567d8afb9185cd8ad395f32b22ccca 3793 strawberry-graphql_0.287.0-1.dsc 76e9ce50de1bfd619c795c113fb17699b9873716df2458c4a6e58fa6891cafa7 1199058 strawberry-graphql_0.287.0.orig.tar.gz 466a06bcade5c25ca762ab83fdee232081315ae3677e96a4c48f5ff6b576f67b 1391456 strawberry-graphql_0.287.0-1.debian.tar.xz"
+    "14cf7d9428b66efedcebb3832dd93d9b74e77a142158eee7c73d916803514dec 3814 strawberry-graphql_0.306.0-1.dsc 12331d97a17eba25b5a837a7c3e9f24367aeca00ccaac636b1a43a0f0f736492 1238377 strawberry-graphql_0.306.0.orig.tar.gz 9b966c7efcb03e768a16449e82886f91c0d13aff639a711b564ab7c1a3158ca3 1391680 strawberry-graphql_0.306.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/s/strawberry-graphql"
   ],
   "Files": [
-    "622ddb92be08bb8275a4ef1c7861961b 3793 strawberry-graphql_0.287.0-1.dsc 618a232642372f212beb4f05abf0ee32 1199058 strawberry-graphql_0.287.0.orig.tar.gz 10847a5b5ed067461f9a1ff2d2f550e5 1391456 strawberry-graphql_0.287.0-1.debian.tar.xz"
+    "43a8ff4c080b77b5e410ff2f62904f23 3814 strawberry-graphql_0.306.0-1.dsc a037f5dcc9bdc5184ae224f009fedd54 1238377 strawberry-graphql_0.306.0.orig.tar.gz 2d57b59e6d4ac3e7d0c8f9acaa53e416 1391680 strawberry-graphql_0.306.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,16 +39,16 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "python3-aiohttp, python3-all, python3-asgiref, python3-daphne, python3-dateutil, python3-django-channels, python3-fastapi, python3-freezegun, python3-graphene, python3-httpx, python3-inline-snapshot, python3-lia, python3-libcst, python3-litestar, python3-msgspec, python3-opentelemetry-api, python3-pydantic, python3-pyinstrument, python3-pytest, python3-pytest-asyncio, python3-pytest-codspeed, python3-pytest-emoji, python3-pytest-mock, python3-pytest-snapshot, python3-pytest-tornasync, python3-pytest-trio, python3-pytest-twisted, python3-python-multipart, python3-starlette, python3-typer, python3-typing-extensions"
+    "python3-aiohttp, python3-all, python3-asgiref, python3-cross-web, python3-daphne, python3-dateutil, python3-django-channels, python3-fastapi, python3-freezegun, python3-graphene, python3-httpx, python3-inline-snapshot, python3-libcst, python3-litestar, python3-msgspec, python3-opentelemetry-api, python3-pydantic, python3-pyinstrument, python3-pytest, python3-pytest-asyncio, python3-pytest-codspeed, python3-pytest-emoji, python3-pytest-mock, python3-pytest-snapshot, python3-pytest-tornasync, python3-pytest-trio, python3-pytest-twisted, python3-python-multipart, python3-starlette, python3-typer, python3-typing-extensions"
   ],
   "Uploaders": [
-    "Carsten Schoenert \u003cc.schoenert@t-online.de\u003e,"
+    "Carsten Schoenert \u003cc.schoenert@t-online.de\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/strawberry-graphql"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/strawberry-graphql.git"
   ],
   "Version": [
-    "0.287.0-1"
+    "0.306.0-1"
   ]
 }

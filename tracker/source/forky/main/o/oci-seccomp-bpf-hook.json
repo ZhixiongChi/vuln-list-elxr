@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "oci-seccomp-bpf-hook"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, go-md2man, golang-any, golang-github-containers-common-dev (\u003e= 0.66.0), golang-github-iovisor-gobpf-dev, golang-github-opencontainers-specs-dev, golang-github-seccomp-libseccomp-golang-dev, golang-github-stretchr-testify-dev, golang-gopkg-yaml.v3-dev, golang-logrus-dev, libconfig-model-dpkg-perl, libseccomp-dev, pkgconf"
+  ],
+  "Checksums-Sha256": [
+    "c5e2f7172c7f14d7d6e570ed1731741c76d36a4b377a589d30481fbe165db875 2536 oci-seccomp-bpf-hook_1.2.11+ds-2.dsc 4767c9bfb0642465dc9941a8096e7e2dfc32bce9d9856e0c26554117dec8b333 23452 oci-seccomp-bpf-hook_1.2.11+ds.orig.tar.xz 6b9b118964d0697b1087b61571558a14005a4592a02517141fb0c7cad53baced 3552 oci-seccomp-bpf-hook_1.2.11+ds-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/oci-seccomp-bpf-hook"
+  ],
+  "Files": [
+    "1a8e605ad0b2af22e563ed76183efa13 2536 oci-seccomp-bpf-hook_1.2.11+ds-2.dsc b6c022f4f13612f43a0d25d72003ac8c 23452 oci-seccomp-bpf-hook_1.2.11+ds.orig.tar.xz 628965f2f0987b66784d807aca2457d5 3552 oci-seccomp-bpf-hook_1.2.11+ds-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/containers/oci-seccomp-bpf-hook"
+  ],
+  "Homepage": [
+    "https://github.com/containers/oci-seccomp-bpf-hook"
+  ],
+  "Maintainer": [
+    "Debian Go Packaging Team \u003cteam+pkg-go@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "oci-seccomp-bpf-hook"
+  ],
+  "Package-List": [
+    "oci-seccomp-bpf-hook deb golang optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "Domenico Andreoli \u003ccavok@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/go-team/packages/oci-seccomp-bpf-hook"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/go-team/packages/oci-seccomp-bpf-hook.git"
+  ],
+  "Version": [
+    "1.2.11+ds-2"
+  ]
+}

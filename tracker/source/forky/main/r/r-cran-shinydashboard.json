@@ -6,16 +6,16 @@
     "r-cran-shinydashboard"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-shiny, r-cran-htmltools, r-cran-promises"
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-htmltools, r-cran-promises, r-cran-shiny, architecture-is-64-bit, architecture-is-little-endian"
   ],
   "Checksums-Sha256": [
-    "76ab680a194c10d422a63a3cd8a923fc263ec73d6ec26779cb4b492604543414 2186 r-cran-shinydashboard_0.7.2-1.dsc a56ee48572649830cd8d82f1caa2099411461e19e19223cbad36a375299f3843 239254 r-cran-shinydashboard_0.7.2.orig.tar.gz 32e81670cecef653f2dbb4435ba4e46e907dd7b6b8cc55221d0f5ee77ce19f2a 4172 r-cran-shinydashboard_0.7.2-1.debian.tar.xz"
+    "73c161f32b5e7eb21bf5af4d7d981c4423d723149bc8c352483daa1d38dd9dfb 2216 r-cran-shinydashboard_0.7.3-1.dsc 641ce851846a58ecfe3b126b401f8e59d80f578451dd33f6cf1868bffea5144c 235498 r-cran-shinydashboard_0.7.3.orig.tar.gz 8213e85b2241fdade936f7e91ac187c7136fedc4f71020fefbff338f63577333 4228 r-cran-shinydashboard_0.7.3-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/r-cran-shinydashboard"
   ],
   "Files": [
-    "4928447a737a718528b7fcd3318ef62f 2186 r-cran-shinydashboard_0.7.2-1.dsc 9947388b09fa84babbde9b801e1eb400 239254 r-cran-shinydashboard_0.7.2.orig.tar.gz 70f0e9a70f69f47f587e239756a56274 4172 r-cran-shinydashboard_0.7.2-1.debian.tar.xz"
+    "07cdae78e5413536b39cd1d8c8ad9da4 2216 r-cran-shinydashboard_0.7.3-1.dsc 859513c51c6cc539063118e7110fc150 235498 r-cran-shinydashboard_0.7.3.orig.tar.gz 81faa5e213189f4fb4cf136ce68eb5e8 4228 r-cran-shinydashboard_0.7.3-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-r"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/r-pkg-team/r-cran-shinydashboard.git"
   ],
   "Version": [
-    "0.7.2-1"
+    "0.7.3-1"
   ]
 }
