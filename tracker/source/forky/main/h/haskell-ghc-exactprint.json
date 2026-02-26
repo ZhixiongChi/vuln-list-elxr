@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libghc-ghc-exactprint-dev, libghc-ghc-exactprint-prof, libghc-ghc-exactprint-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), haskell-devscripts-minimal | haskell-devscripts (\u003e= 0.13), dh-sequence-haskell, ghc, ghc-prof, libghc-syb-dev (\u003e= 0.5), libghc-syb-dev (\u003c\u003c 0.8), libghc-syb-prof (\u003e= 0.5), libghc-syb-prof (\u003c\u003c 0.8), libghc-diff-dev, libghc-diff-prof, libghc-hunit-dev (\u003e= 1.2), libghc-hunit-prof (\u003e= 1.2), libghc-extra-dev, libghc-extra-prof, libghc-ghc-paths-dev (\u003e= 0.1), libghc-ghc-paths-prof (\u003e= 0.1), libghc-silently-dev (\u003e= 1.2), libghc-silently-prof (\u003e= 1.2)"
+  ],
+  "Build-Depends-Indep": [
+    "ghc-doc, libghc-syb-doc"
+  ],
+  "Checksums-Sha256": [
+    "4c747cbe7a4797d0558135a66a28dbcfa78caca2f9b836c8518d00c043284621 2837 haskell-ghc-exactprint_1.10.0.0-1.dsc 60a751d657071ee1ef812ef9a8cf2446fc40e89ef51fadcb662d2e81419f5c92 423068 haskell-ghc-exactprint_1.10.0.0.orig.tar.gz 58075d2a8bbaeb25a57ed4ccbb81777414c6af7f920ffa9dcba7997468f6b911 2984 haskell-ghc-exactprint_1.10.0.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/haskell-ghc-exactprint"
+  ],
+  "Files": [
+    "ec3cbb44a01ed2bd9a8e44406e384b97 2837 haskell-ghc-exactprint_1.10.0.0-1.dsc 2922ff15a38dd29a7351e17c4edaafcf 423068 haskell-ghc-exactprint_1.10.0.0.orig.tar.gz 53bc62172513d33e1791646466c3261c 2984 haskell-ghc-exactprint_1.10.0.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/alanz/ghc-exactprint"
+  ],
+  "Maintainer": [
+    "Debian Haskell Group \u003cpkg-haskell-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "haskell-ghc-exactprint"
+  ],
+  "Package-List": [
+    "libghc-ghc-exactprint-dev deb haskell optional arch=any libghc-ghc-exactprint-doc deb doc optional arch=all libghc-ghc-exactprint-prof deb haskell optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Uploaders": [
+    "Clint Adams \u003cclint@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-ghc-exactprint"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-ghc-exactprint]"
+  ],
+  "Version": [
+    "1.10.0.0-1"
+  ]
+}

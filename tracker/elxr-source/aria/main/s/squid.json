@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "squid, squid-openssl, squid-common, squidclient, squid-cgi, squid-purge"
+  ],
+  "Build-Depends": [
+    "ed, libltdl-dev, pkg-config, g++ (\u003e= 4.9) \u003c!cross\u003e | clang (\u003e= 3.7) \u003c!cross\u003e, gcc (\u003e= 4.9) \u003c!cross\u003e | clang (\u003e= 3.7) \u003c!cross\u003e, debhelper-compat (= 13), lsb-release, dh-apparmor, libcppunit-dev, libcap2-dev [linux-any], libecap3-dev (\u003e= 1.0.1-2), libexpat1-dev, libgnutls28-dev (\u003e= 3.5), libkrb5-dev, comerr-dev, libldap2-dev, libnetfilter-conntrack-dev [linux-any], libpam0g-dev, libsasl2-dev, libsystemd-dev [linux-any], libtdb-dev, libxml2-dev, nettle-dev, libssl-dev"
+  ],
+  "Checksums-Sha1": [
+    "dea1f3e89ad6dfa399de15d9870e1268746ec205 91236 squid_5.7-2+deb12u5.debian.tar.xz 23d34d05d95049e3657e572a697c4b50c64064c6 2720 squid_5.7-2+deb12u5.dsc 141e8007d6b1cfee34654127a9ca025125b37b58 2566560 squid_5.7.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "6a83e88fc6f5f8d70ba29289550b3cf599acc063f5b5fd3bf81325847f0badc9 91236 squid_5.7-2+deb12u5.debian.tar.xz fc563e7f835ebf511a32a0408a16d25e5259edde92d11985819aa9456f7ca0e4 2720 squid_5.7-2+deb12u5.dsc 6b0753aaba4c9c4efd333e67124caecf7ad6cc2d38581f19d2f0321f5b7ecd81 2566560 squid_5.7.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "6295847b0885a77229f6ef65ff40e5970fe69ce107d73acc34152cb5aadefc79660ff528d9abe293a7e22c6048f81af4bbddefe0d12448d8c9305f9f18bb45a4 91236 squid_5.7-2+deb12u5.debian.tar.xz fc9df08b7113a37365531fea54fc79bc2933ed5ce489ba4c51f84bb2c76de501e44b24a94626895179e3530a88c898eb3cead8e181bb92e9560970570f09ae1f 2720 squid_5.7-2+deb12u5.dsc 624a39041a6ceda6c470dc0937616f1aa67200f3db02b4d74095d8d706ed31d6df5e0417dcacde45f6be40b617bee018849793d52c96a626aab32a2b182972aa 2566560 squid_5.7.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/squid"
+  ],
+  "Files": [
+    "0ff476263d1e60878a8ba3d23613ec74 91236 squid_5.7-2+deb12u5.debian.tar.xz ddf6dace2d0929068007c18f434cbbfd 2720 squid_5.7-2+deb12u5.dsc 7a3764a3c5833631a779d7827901cda7 2566560 squid_5.7.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.squid-cache.org"
+  ],
+  "Maintainer": [
+    "Luigi Gangitano \u003cluigi@debian.org\u003e"
+  ],
+  "Package": [
+    "squid"
+  ],
+  "Package-List": [
+    "squid deb web optional arch=any squid-cgi deb web optional arch=any squid-common deb web optional arch=all squid-openssl deb web optional arch=any squid-purge deb web optional arch=any squidclient deb web optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, apache2, apparmor-utils, elinks, fakeroot, netcat, python3-minimal, ssl-cert, vsftpd"
+  ],
+  "Uploaders": [
+    "Santiago Garcia Mantinan \u003cmanty@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/squid-team/squid"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/squid-team/squid.git"
+  ],
+  "Version": [
+    "5.7-2+deb12u5"
+  ]
+}

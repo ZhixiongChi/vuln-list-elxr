@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-regex-syntax-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.65) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "fb131cf85d9c5a3e4d4adca398cf74a27967533d 4656 rust-regex-syntax_0.8.5-1.debian.tar.xz d7215a9cfb2d4150d5588e624cb219ca72fa07ce 2274 rust-regex-syntax_0.8.5-1.dsc 47267c11dcb028943124dac359aed8d543bd2775 357304 rust-regex-syntax_0.8.5.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "e91be4261db59d435539bbfc47911f69ddb6391a1700c78506a3b3bef266f7ef 4656 rust-regex-syntax_0.8.5-1.debian.tar.xz 8eb84d33a84041bb0b21b3de8afb24ba1310a8bebab2d8452afe43dba4269155 2274 rust-regex-syntax_0.8.5-1.dsc a2f15dee26d2376c65b5d90ba8289ac685df876df4b4ab0968f4d9287861d2f6 357304 rust-regex-syntax_0.8.5.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "2d03ffa98736dcc7fe108bbe5a2693cfe6c5d750fa23154b98cd72d24fa5edd2cf3f55c7273009a5f044e2160891d4641c233ac3fa5bc490121be866b3dad42a 4656 rust-regex-syntax_0.8.5-1.debian.tar.xz 5bd65e6b76faaa7db61f7201d620c8e48b218031e8f3a73128b384685b5f9693106a12c7cbb2f977b786bdcef5e2076926f27221871cf12035957f6303fa9c30 2274 rust-regex-syntax_0.8.5-1.dsc f2a7451f5a74c35a58bf248ec13fdcf22825804fb9b1fa78f9bf6e36d6b6937c7f6bc73b262da6da739ddf239f289c6120f21005bce85ade4d5c7c7cbaf11a4a 357304 rust-regex-syntax_0.8.5.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-regex-syntax"
+  ],
+  "Files": [
+    "764e558980a54654f1816f7da1c45ce2 4656 rust-regex-syntax_0.8.5-1.debian.tar.xz d27bcc7b6e0933d60525f50318cf6cf5 2274 rust-regex-syntax_0.8.5-1.dsc f9f17e15f3779462a51abe1178a0d539 357304 rust-regex-syntax_0.8.5.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-regex-syntax"
+  ],
+  "Package-List": [
+    "librust-regex-syntax-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/regex-syntax"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/regex-syntax]"
+  ],
+  "Version": [
+    "0.8.5-1"
+  ]
+}

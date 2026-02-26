@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "pacemaker-common, pacemaker-resource-agents, pacemaker, pacemaker-cli-utils, pacemaker-remote, pacemaker-doc, libcib27, libcrmcluster29, libcrmcommon34, libcrmservice28, liblrmd28, libpacemaker1, libpe-rules26, libpe-status28, libstonithd26, pacemaker-dev"
+  ],
+  "Build-Depends": [
+    "cluster-glue-dev, debhelper-compat (= 13), dh-exec, docbook-xsl, help2man, libbz2-dev, libcfg-dev (\u003e= 1.99), libcmap-dev (\u003e= 1.99), libcpg-dev (\u003e= 1.99), libcmocka-dev, libdbus-1-dev, libglib2.0-dev, libgnutls28-dev, libltdl-dev, libncurses-dev, libpam0g-dev, libqb-dev (\u003e= 0.17.1), libquorum-dev (\u003e= 1.99), libxml2-dev, libxml2-utils, libxslt1-dev, pkg-config, dh-sequence-python3, systemd [linux-any], uuid-dev, xsltproc"
+  ],
+  "Build-Depends-Indep": [
+    "asciidoc, dh-sequence-sphinxdoc, doxygen, graphviz, inkscape, python3-sphinx"
+  ],
+  "Checksums-Sha1": [
+    "5f8e3cc1c3672ac9547534d3d954941a5d9b94bb 50388 pacemaker_2.1.5-1+deb12u1.debian.tar.xz d45b0adec1e39ecccb942bd2f79027ccb19cb731 3466 pacemaker_2.1.5-1+deb12u1.dsc b889ebdb3f7c8c07e35634250da4e040f12e9eb8 5807791 pacemaker_2.1.5.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "4d2961a18ce47ab34292302a070c37ccdfff8a4a8687e26cde0a8162bbbe8869 50388 pacemaker_2.1.5-1+deb12u1.debian.tar.xz 6b60af58051b1234484a3b37e9c63b584df5914217d47e5a9024852590ac8abc 3466 pacemaker_2.1.5-1+deb12u1.dsc 7654b78f08d4994b9fd31b8592addbd7f4b173e2cbf30336722419f1ce45e185 5807791 pacemaker_2.1.5.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "54b65d1708dd71543c39250d3db6261e6ed9ec9c5f8e7054941c5c3392e7e18e8846d12591636775afa899b7dad33a7f6293da2a4f60d1c6194356197654dd84 50388 pacemaker_2.1.5-1+deb12u1.debian.tar.xz 33657784c727d7a7f4b9b63b108afae5d6b2ca8b8a6dd821249d6e6117b074494a46742e417f08a2973e82f79bda14c6e4f892b1d0da8f5ca4d4f833269dc067 3466 pacemaker_2.1.5-1+deb12u1.dsc d47c35478b0d874fbc76db3d8d6875f4c18e4eb93f28bcf74142019dee7085744b86a9e8f12725a5c4a0a61fe901e1d8b33b78b50e2135746435e876d83755ba 5807791 pacemaker_2.1.5.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/p/pacemaker"
+  ],
+  "Files": [
+    "5dd86dbfb479bdfc3808a26ae26a559c 50388 pacemaker_2.1.5-1+deb12u1.debian.tar.xz d9a9e6896a7eed348fe4d5cba2fc84b7 3466 pacemaker_2.1.5-1+deb12u1.dsc cc945efffb080144fd7411163e2d8d6c 5807791 pacemaker_2.1.5.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.clusterlabs.org/"
+  ],
+  "Maintainer": [
+    "Debian HA Maintainers \u003cdebian-ha-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "pacemaker"
+  ],
+  "Package-List": [
+    "libcib27 deb libs optional arch=any libcrmcluster29 deb libs optional arch=any libcrmcommon34 deb libs optional arch=any libcrmservice28 deb libs optional arch=any liblrmd28 deb libs optional arch=any libpacemaker1 deb libs optional arch=any libpe-rules26 deb libs optional arch=any libpe-status28 deb libs optional arch=any libstonithd26 deb libs optional arch=any pacemaker deb admin optional arch=any pacemaker-cli-utils deb admin optional arch=any pacemaker-common deb admin optional arch=all pacemaker-dev deb libdevel optional arch=any pacemaker-doc deb doc optional arch=all pacemaker-remote deb admin optional arch=any pacemaker-resource-agents deb admin optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "pkg-config"
+  ],
+  "Uploaders": [
+    "Ferenc Wágner \u003cwferi@debian.org\u003e, Adrian Vondendriesch \u003cadrian.vondendriesch@credativ.de\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ha-team/pacemaker"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ha-team/pacemaker.git"
+  ],
+  "Version": [
+    "2.1.5-1+deb12u1"
+  ]
+}

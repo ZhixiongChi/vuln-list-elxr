@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "puppet-agent, puppet"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), facter, hiera, po-debconf, rake, ronn, ruby-concurrent (\u003c\u003c 1.2.0), ruby-deep-merge, ruby-semantic-puppet, ruby-sorted-set, yard"
+  ],
+  "Checksums-Sha1": [
+    "28648c2030c9c98826e183ebaf62bfe2e9e1ab0a 22052 puppet-agent_7.23.0-1.debian.tar.xz f5d98192a5d7cd7097c67d574ec3e4b64eaf03f2 2001 puppet-agent_7.23.0-1.dsc d07fc1d9329483ef252ad4e662117a668b4f10c7 2820654 puppet-agent_7.23.0.orig.tar.gz 7b4d269ebee25752e03ec2ad13b7e828dd8efa8b 819 puppet-agent_7.23.0.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha256": [
+    "f7c2f48600e62224b3c928b076bf766e9f6ec640ea4256262f0579e37521ae3a 22052 puppet-agent_7.23.0-1.debian.tar.xz 81cabceecc51a9ed12ab397dfe5be872caadceb2a6f05406ebcd8f3b80351f46 2001 puppet-agent_7.23.0-1.dsc 2541f4a049bb0b1d8c7ae64f8ee05946f44f666f68d61ec7ba173afbc4fdbb53 2820654 puppet-agent_7.23.0.orig.tar.gz 2f3e9c9e0e9511922d12526311d31728e31c9efb83083d341eaa6634a7a1798b 819 puppet-agent_7.23.0.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha512": [
+    "b3996ed27278f986778a31ab2f8bbd95f6846d48f7e2c80be001e6cf9d907fe5e89f3d5586b443923e37762d236a4e2aa91ed49c153e9298940257da4eb13305 22052 puppet-agent_7.23.0-1.debian.tar.xz 707b67d658b7811086e317d24a026d1d9f3a6300f052a9a2adc34b1f0f0b1b6485e680e944c61f518050745468820de08188692658686b41e737965db1170cb0 2001 puppet-agent_7.23.0-1.dsc a66ef2bdbe38741a176e825cf7cdf117616459548731d4f5482b49263b08dcb3550305e5f0e35d228f873b330b730b682c02d38b4243f5f8bb4a190ed0f60310 2820654 puppet-agent_7.23.0.orig.tar.gz 2f7ddfdced13fc992bc7f3db0c59f23250405033da14a0df6f8a5184da3e6fa556f0e1fc7f4e53b9a98b7f2f3928b1bfdc006dc713e7291bb5839dd8de76cefb 819 puppet-agent_7.23.0.orig.tar.gz.asc"
+  ],
+  "Directory": [
+    "pool/main/p/puppet-agent"
+  ],
+  "Files": [
+    "dc45f4a4140caf4e3da4a3b54eebb364 22052 puppet-agent_7.23.0-1.debian.tar.xz 3cedf15da82cdc05a4f7a7e6813eeb8a 2001 puppet-agent_7.23.0-1.dsc 4eea54024ee225aa195a90b7adaff5a6 2820654 puppet-agent_7.23.0.orig.tar.gz 9eaba0e3c1d20578b94116c08f191268 819 puppet-agent_7.23.0.orig.tar.gz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/puppetlabs/puppet"
+  ],
+  "Maintainer": [
+    "Puppet Package Maintainers \u003cpkg-puppet-devel@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "puppet-agent"
+  ],
+  "Package-List": [
+    "puppet deb oldlibs optional arch=all puppet-agent deb admin optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "cron, gem2deb, puppet-module-puppetlabs-augeas-core, puppet-module-puppetlabs-cron-core, ruby-all-dev, ruby-rubygems, ruby-serverspec, systemd-sysv"
+  ],
+  "Uploaders": [
+    "Jérôme Charaoui \u003cjerome@riseup.net\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/puppet-team/puppet-agent"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/puppet-team/puppet-agent.git"
+  ],
+  "Version": [
+    "7.23.0-1"
+  ]
+}

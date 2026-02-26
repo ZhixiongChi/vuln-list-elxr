@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libzstd-dev, libzstd1, zstd, libzstd1-udeb"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e\u003e 13.15.2~), dh-package-notes, dpkg-build-api (= 1), cmake (\u003e= 3.24~), help2man, less \u003c!nocheck\u003e, liblz4-dev, liblzma-dev, python3 \u003c!nocheck\u003e, zlib1g-dev"
+  ],
+  "Checksums-Sha1": [
+    "899c78a644062eefb4cb056a23e22c5aed8cd4f4 23036 libzstd_1.5.7+dfsg-1.debian.tar.xz 5882e87bb6e8f39c83044b4aefa3b819b1310e67 2371 libzstd_1.5.7+dfsg-1.dsc 232037627d9d8bd80033e4316bdb62f737c9968f 1834780 libzstd_1.5.7+dfsg.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "5e88424d919941291f79e1bfada6cb1a6f748671d9de7d4b7d931f361f183a15 23036 libzstd_1.5.7+dfsg-1.debian.tar.xz 8f6ab97fa772d921334e50fa5756a0951e23c718dc913e43a228f28c1a23adf9 2371 libzstd_1.5.7+dfsg-1.dsc 0c092ef267edce57ba7f3f2645c861f72eaf5e76273c6c3632869423464b90a5 1834780 libzstd_1.5.7+dfsg.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "758009d79b0c3ec0c33018f123bcac69cd2f1724df562369e9b492221fc5daf0f59aca66f922123a72cecd81d3e15189b8e255fdf27f0616900699a732c42de9 23036 libzstd_1.5.7+dfsg-1.debian.tar.xz c152589fdc6b2d69f6c619632da0ffc94273456d1d45092b542642fdb4e1ce8c970dc63c963e7b7d1a98deb814b93c4558ce21d117cae30bc3b80bde48abef50 2371 libzstd_1.5.7+dfsg-1.dsc 74604a877f899df6a47e88b895334c0fe35af9d096d472f535e772b156bf61e5529833173ea766dbf5e58fc20ce40a2e47ff1cbed8ff7f2bbd506c6634ae5145 1834780 libzstd_1.5.7+dfsg.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libz/libzstd"
+  ],
+  "Files": [
+    "7178e5d8cf5b9b5d3edcd68360bebfca 23036 libzstd_1.5.7+dfsg-1.debian.tar.xz 1eea1952db1e840bbd469f28729e7564 2371 libzstd_1.5.7+dfsg-1.dsc 258d522e11ab527e98af8f52211deb5b 1834780 libzstd_1.5.7+dfsg.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/facebook/zstd"
+  ],
+  "Maintainer": [
+    "RPM packaging team \u003cteam+pkg-rpm@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "libzstd"
+  ],
+  "Package-List": [
+    "libzstd-dev deb libdevel optional arch=any libzstd1 deb libs optional arch=any libzstd1-udeb udeb debian-installer optional arch=any profile=!noudeb zstd deb utils optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, cmake, pkgconf, python3, python3-click, python3-typedload"
+  ],
+  "Uploaders": [
+    "Peter Pentchev \u003croam@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-rpm-team/libzstd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-rpm-team/libzstd.git"
+  ],
+  "Version": [
+    "1.5.7+dfsg-1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgtksourceview-4-0, libgtksourceview-4-common, libgtksourceview-4-dev, libgtksourceview-4-doc, gir1.2-gtksource-4, libgtksourceview-4-tests"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, gir1.2-gdk-3.0-dev, gir1.2-gtk-3.0-dev, gobject-introspection (\u003e= 0.9.12-4~), gtk-doc-tools (\u003e= 1.25) \u003c!nodoc\u003e, intltool (\u003e= 0.40), libatk1.0-dev (\u003e= 1.32), libfribidi-dev, libgirepository1.0-dev (\u003e= 0.9.0), libgladeui-dev (\u003e= 3.9), libglib2.0-dev (\u003e= 2.48.0), libgtk-3-dev (\u003e= 3.24), libxml2-dev (\u003e= 2.6), libxml2-utils, meson (\u003e= 0.49), valac, xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "libgdk-pixbuf2.0-doc \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e, libgtk-3-doc \u003c!nodoc\u003e, libpango1.0-doc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "1daf3feb600f7eda8b96d5543a3cb7f010b50389 17124 gtksourceview4_4.8.4-6.debian.tar.xz 4cdb8d75397b34bde2d150a820aee448869af5a0 3095 gtksourceview4_4.8.4-6.dsc 8facc7c2f25635a228cb6b8a159d57920addf649 1159636 gtksourceview4_4.8.4.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "d5a35c5014bd3cee66f5caa159e2ae40e97b0e845a1ee5eae33feda0156feed0 17124 gtksourceview4_4.8.4-6.debian.tar.xz ca549e9efbf68b325bc6c0ae95d53d0eba576bdfede1a989a740501637366d13 3095 gtksourceview4_4.8.4-6.dsc 7ec9d18fb283d1f84a3a3eff3b7a72b09a10c9c006597b3fbabbb5958420a87d 1159636 gtksourceview4_4.8.4.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "8d9d3cc03961a1b53d05b51d829f6f17c501f0fd73bfec871661cbdf75f6b583bc92bdd051493d8fb160de3c3b19a0a48c14ec1a93ebb3319140bf4e8e3b6860 17124 gtksourceview4_4.8.4-6.debian.tar.xz faee1c87ff69526b3b98bdb06702f9e6a8b13208aac84c90022b729580c1d9380d61c7e7846ca87a781984d6d476abee4664911c919a7cf74d78d86febdeefdd 3095 gtksourceview4_4.8.4-6.dsc 9e4262e52a92b3a052f33b799622d4fd4dcc7cc5355df12f160d0e60a6d6c135bc52f07eb40c06b357d5d74bec7228d4ec545a69ee5af69429d4170cc1e2243d 1159636 gtksourceview4_4.8.4.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gtksourceview4"
+  ],
+  "Files": [
+    "53d019a2d017a1892f120a0a2abcc583 17124 gtksourceview4_4.8.4-6.debian.tar.xz dd872326cd2bcbb4d4a86c0c81e06338 3095 gtksourceview4_4.8.4-6.dsc 2bf056caaae27654ec3a5930dd5597d3 1159636 gtksourceview4_4.8.4.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Projects/GtkSourceView"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gtksourceview4"
+  ],
+  "Package-List": [
+    "gir1.2-gtksource-4 deb introspection optional arch=any libgtksourceview-4-0 deb libs optional arch=any libgtksourceview-4-common deb libs optional arch=all libgtksourceview-4-dev deb libdevel optional arch=any libgtksourceview-4-doc deb doc optional arch=all profile=!nodoc libgtksourceview-4-tests deb libs optional arch=any profile=!noinsttest"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "at-spi2-core, dbus, gnome-desktop-testing, xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Sebastien Bacher \u003cseb128@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gtksourceview4"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gtksourceview4.git"
+  ],
+  "Version": [
+    "4.8.4-6"
+  ]
+}

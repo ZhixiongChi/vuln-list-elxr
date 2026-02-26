@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libghc-happy-lib-dev, libghc-happy-lib-prof, libghc-happy-lib-doc, haskell-happy-lib-data"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), haskell-devscripts (\u003e= 0.16.46), dh-sequence-haskell, ghc, ghc-prof"
+  ],
+  "Build-Depends-Indep": [
+    "ghc-doc"
+  ],
+  "Checksums-Sha256": [
+    "e3b756f1f8160587c8329a2395c908ef71560f2092a62a6cdbd1f39175144b31 3369 haskell-happy-lib_2.1.7-3.dsc f625b2c4a3f2b5fafa3c560fa8757502cc8de83d9a84c2692fc943380900f269 94227 haskell-happy-lib_2.1.7.orig.tar.gz ee3235e2e47f083c5abc32ce37becfb7026a15010137bf67ff23a71713316962 2376 haskell-happy-lib_2.1.7-3.debian.tar.xz"
+  ],
+  "Description": [
+    "parser generator for Haskell Happy is a parser generator for Haskell.  Given a grammar specification in BNF, Happy generates Haskell code to parse the grammar.  Happy works in a similar way to the yacc tool for C. . This library provides the following functionality: . * Data type definitions for the Grammar AST type, capturing the information in .y-files (Happy.Grammar) . * A parser for happy grammar files (.y) to produce a Grammar (Happy.Frontend.*) . * Implementations of the text book algorithms that compute the LR action and goto tables for the given 'Grammar' (Happy.Tabular.*) . * An LALR code generator to produce table-driven, deterministic parsing code in Haskell (Happy.Backend.LALR.*) . * A (less maintained) GLR code generator to produce table-driven, non-deterministic parsing code in Haskell, where ambiguous parses produce multiple parse trees (Happy.Backend.GLR.*)"
+  ],
+  "Directory": [
+    "pool/main/h/haskell-happy-lib"
+  ],
+  "Files": [
+    "e0659c0d533f2c01a7b71c9681c62b1a 3369 haskell-happy-lib_2.1.7-3.dsc fcdcd9536039c8718aef98de18dfd71e 94227 haskell-happy-lib_2.1.7.orig.tar.gz feacefa7b138a357fe7c37dd60db83b8 2376 haskell-happy-lib_2.1.7-3.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.haskell.org/happy/"
+  ],
+  "Maintainer": [
+    "Debian Haskell Group \u003cpkg-haskell-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "haskell-happy-lib"
+  ],
+  "Package-List": [
+    "haskell-happy-lib-data deb haskell optional arch=all libghc-happy-lib-dev deb haskell optional arch=any libghc-happy-lib-doc deb doc optional arch=all libghc-happy-lib-prof deb haskell optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Uploaders": [
+    "Clint Adams \u003cclint@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-happy-lib/"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-happy-lib]"
+  ],
+  "Version": [
+    "2.1.7-3"
+  ]
+}

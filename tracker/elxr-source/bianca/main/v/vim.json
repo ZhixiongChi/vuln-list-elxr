@@ -1,0 +1,71 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "vim-common, vim-gui-common, vim-runtime, vim-doc, vim-tiny, vim, vim-gtk3, vim-nox, vim-motif, vim-athena, xxd"
+  ],
+  "Build-Conflicts": [
+    "autoconf2.13"
+  ],
+  "Build-Depends": [
+    "autoconf, cscope \u003c!nocheck\u003e, debhelper-compat (= 13), libacl1-dev, libcanberra-dev, libgpmg1-dev [linux-any], libgtk-3-dev, liblua5.1-dev, libmotif-dev, libperl-dev, libselinux1-dev [linux-any], libsodium-dev, libncurses-dev, libtool-bin \u003c!nocheck\u003e, locales-all \u003c!nocheck\u003e, lua5.1, ncurses-term \u003c!nocheck\u003e, procps \u003c!nocheck\u003e, python3-dev, ruby [!alpha !ia64] \u003c!pkg.vim.noruby\u003e, ruby-dev [!alpha !ia64] \u003c!pkg.vim.noruby\u003e, tcl-dev"
+  ],
+  "Build-Depends-Indep": [
+    "docbook-utils, docbook-xml, ghostscript, lynx, pdf2svg"
+  ],
+  "Checksums-Sha1": [
+    "abbba21e194cbfdd34786955083aa45415ebe98b 191956 vim_9.1.1230-2.debian.tar.xz 7fd7ca89db52984693dc17afdaa274596b10b677 3230 vim_9.1.1230-2.dsc 5791f48be554abc98765f7b665f4d65913450326 12331388 vim_9.1.1230.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "3f06690fe44914764a260531d71f9bf63d58c9156b86660bd323dd0e7038898d 191956 vim_9.1.1230-2.debian.tar.xz 10e96236a45dcf5b1fb3b6a3146072f89b7d4c0af79456b6bfa0688383b41d47 3230 vim_9.1.1230-2.dsc 203640cca8fa97603868ef42f34eeb723803ab15fd141b68b1cba54b7993b2bf 12331388 vim_9.1.1230.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "a6bed60ec170870d1c6403c4197f45c48955560739102311402a7b611e68bf54b017da3d694046694ca9ba210cdd786708afbe3b2f28037d327f3ba71b123370 191956 vim_9.1.1230-2.debian.tar.xz 0fdcd90159460f00578015ce6569820b4f719a58e1b013a62be1be110eb96536cbbfa5f87658f5cfebaa45f9a2bbf39d15516110c52405f62a1a625bba6239a4 3230 vim_9.1.1230-2.dsc ac0fb4847bc72ad9aa5748dd89143cffe9b1407f7713947f6918776ea00388602b57b5cd7acd1eca69a22c0ee40823855f1826cb0ad42f0cbebf187c6fafbee9 12331388 vim_9.1.1230.orig.tar.xz"
+  ],
+  "Dgit": [
+    "a0b7e385ee0585e8cf9d3dbb1f2586b26fa593d8 debian archive/debian/2%9.1.1230-2 https://git.dgit.debian.org/vim"
+  ],
+  "Directory": [
+    "pool/main/v/vim"
+  ],
+  "Files": [
+    "d2a1b6d5d581ddbc7f4c24aacb112f3e 191956 vim_9.1.1230-2.debian.tar.xz 248e596ccd516d14dba2d6bd5a9e21f5 3230 vim_9.1.1230-2.dsc a81348a668d6bbe6dbaa5774af88626e 12331388 vim_9.1.1230.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.vim.org/"
+  ],
+  "Maintainer": [
+    "Debian Vim Maintainers \u003cteam+vim@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "vim"
+  ],
+  "Package-List": [
+    "vim deb editors optional arch=any vim-athena deb oldlibs optional arch=all vim-common deb editors important arch=all vim-doc deb doc optional arch=all vim-gtk3 deb editors optional arch=any vim-gui-common deb editors optional arch=all vim-motif deb editors optional arch=any vim-nox deb editors optional arch=any vim-runtime deb editors optional arch=all vim-tiny deb editors important arch=any xxd deb editors optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "lua5.1, perl, python3, ruby"
+  ],
+  "Uploaders": [
+    "James McCoy \u003cjamessan@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/vim-team/vim"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/vim-team/vim.git"
+  ],
+  "Version": [
+    "2:9.1.1230-2"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libsndfile1-dev, libsndfile1, sndfile-programs"
+  ],
+  "Build-Depends": [
+    "autogen, debhelper-compat (= 13), libasound2-dev [linux-any], libflac-dev, libmp3lame-dev \u003c!pkg.libsndfile.nompeg3\u003e, libmpg123-dev \u003c!pkg.libsndfile.nompeg3\u003e, libogg-dev, libopus-dev, libspeex-dev, libsqlite3-dev \u003c!nocheck\u003e, libvorbis-dev, pkgconf, python3:any"
+  ],
+  "Checksums-Sha1": [
+    "aad73652fc4e5fcafc5cf13f21334e6bd658cd29 29148 libsndfile_1.2.2-2.debian.tar.xz ff1ac472e29afab50608235da1d8ffcd106ad9c7 2481 libsndfile_1.2.2-2.dsc 28acc1c19b06c18f38f906d7efef404b2078a19a 684875 libsndfile_1.2.2.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "03801793ef488c9bc8579e47600386b4be0e6ac4b85c726e90dcb0ce2338729c 29148 libsndfile_1.2.2-2.debian.tar.xz 00042f9d7e85c3dbf22828141bc181b55ba719ad3550671ed7da9786fdfdd810 2481 libsndfile_1.2.2-2.dsc ffe12ef8add3eaca876f04087734e6e8e029350082f3251f565fa9da55b52121 684875 libsndfile_1.2.2.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "ff1533564acbe22b99877aac6d5b3d9805c51d5ffdccd67e94642ff6ab999e7327b46d85eee591072b74a21cc46ba3c095c5ddac66a62457008e64b49bc31907 29148 libsndfile_1.2.2-2.debian.tar.xz 7f8834dcad05ff46a3a905d9f0d78aadbc08f634326ab93a7e0f2d59788968af6a051b47f488de0fa7ef197c0e3cd4912c5f02ed702019d2f9f9e47756f69b6d 2481 libsndfile_1.2.2-2.dsc fb8b4d367240a8ac9d55be6f053cb19419890691c56a8552d1600d666257992b6e8e41a413a444c9f2d6c5d71406013222c92a3bfa67228944a26475444240a1 684875 libsndfile_1.2.2.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/libs/libsndfile"
+  ],
+  "Files": [
+    "916169f09feeb9259753fde1b7ed7900 29148 libsndfile_1.2.2-2.debian.tar.xz 6bf2f884dec3b7ff9011b3c82504b5f2 2481 libsndfile_1.2.2-2.dsc 9fe64f68622e54badb5d4bf658fc940a 684875 libsndfile_1.2.2.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://libsndfile.github.io/libsndfile/"
+  ],
+  "Maintainer": [
+    "Debian Multimedia Maintainers \u003cdebian-multimedia@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "libsndfile"
+  ],
+  "Package-List": [
+    "libsndfile1 deb libs optional arch=any libsndfile1-dev deb libdevel optional arch=any sndfile-programs deb utils optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config, python3"
+  ],
+  "Uploaders": [
+    "IOhannes m zmölnig (Debian/GNU) \u003cumlaeute@debian.org\u003e, Fabian Greffrath \u003cfabian@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/multimedia-team/libsndfile"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/multimedia-team/libsndfile.git"
+  ],
+  "Version": [
+    "1.2.2-2"
+  ]
+}

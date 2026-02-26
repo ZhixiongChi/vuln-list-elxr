@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-bytes-dev, librust-bytes+serde-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "179d3b821590ddfd55fc1f9acdce8f3d5cf5b798 3012 rust-bytes_1.2.1-1.debian.tar.xz 6cbae3fb695bb808288355adc12734811af1ac1a 2307 rust-bytes_1.2.1-1.dsc 843a84c0da966e5fa87097c13f1fcfbcf80b9809 54857 rust-bytes_1.2.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "fa42af58b9fa4b8c4ca24014964bfe41c6c1d52ac1bd411d628e61ede0a172db 3012 rust-bytes_1.2.1-1.debian.tar.xz cc597c71e179a6862c740f90011de3282c64d49928135ba929082a97cfa7dd17 2307 rust-bytes_1.2.1-1.dsc ec8a7b6a70fde80372154c65702f00a0f56f3e1c36abbc6c440484be248856db 54857 rust-bytes_1.2.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "6bb354f75b1912b527ebcf9a4a445f97424ab86c02f0d8b454010eee21d69eaeb82f58c05f49ad26c10ca66c56543b6c24f4642aa4159866c4aa1e8086eeac77 3012 rust-bytes_1.2.1-1.debian.tar.xz f194e66495e8d93554037a38d46e0b5dba3adca6224979bc3df5c2932c67f0177940622dc41b57aaff92d647dace648e60e360c1f7b9804b93c8155ab62429f5 2307 rust-bytes_1.2.1-1.dsc 39c19594f52af24b04eab319ab329e8ecb5732e4531184eb376677f57c8a6402c15bd171282498e69a4a472d82e308d0dc8140df0b7d923dca588aec90c4fd31 54857 rust-bytes_1.2.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-bytes"
+  ],
+  "Files": [
+    "380c40aacf449fe4a8356205b9d780ae 3012 rust-bytes_1.2.1-1.debian.tar.xz fa5f5d5afcd3c2e840580da0967923c6 2307 rust-bytes_1.2.1-1.dsc 91d4b2bb0c615a1ed359967b054dd61a 54857 rust-bytes_1.2.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-bytes"
+  ],
+  "Package-List": [
+    "librust-bytes+serde-dev deb rust optional arch=any librust-bytes-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-loom-0.5+default-dev, librust-serde-test-1+default-dev"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e, kpcyrd \u003cgit@rxv.cc\u003e, Robin Krahl \u003crobin.krahl@ireas.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/bytes"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/bytes]"
+  ],
+  "Version": [
+    "1.2.1-1"
+  ]
+}

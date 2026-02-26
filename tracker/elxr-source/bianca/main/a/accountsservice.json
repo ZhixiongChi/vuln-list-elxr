@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "accountsservice, libaccountsservice0, libaccountsservice-dev, gir1.2-accountsservice-1.0, libaccountsservice-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gobject-introspection (\u003e= 0.9.12-4~), gir1.2-gio-2.0-dev, gir1.2-gobject-2.0-dev, intltool, libdbus-1-dev (\u003e= 1.9.18), libgirepository1.0-dev (\u003e= 1.34), libglib2.0-dev (\u003e= 2.63.5), libpolkit-gobject-1-dev, libsystemd-dev (\u003e= 209) [linux-any], systemd-dev, locales-all, meson (\u003e= 0.50), polkitd, python3-dbus \u003c!nocheck\u003e, python3-dbusmock \u003c!nocheck\u003e, python3-gi \u003c!nocheck\u003e, valac, xmlto"
+  ],
+  "Build-Depends-Indep": [
+    "gtk-doc-tools \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "0190e57dc018656832bb45804099b1bdc8ac263f 23600 accountsservice_23.13.9-7.debian.tar.xz d53e2cebdd34bb7c943defa46d8fa6010d7437d7 3020 accountsservice_23.13.9-7.dsc 78419e5fa8fbb485f6b939e180fe26f2efc3c103 636064 accountsservice_23.13.9.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "8bc0dd2294a1738bf53c32951d018479c68238a5ea71340ad67d80e55ae9bf81 23600 accountsservice_23.13.9-7.debian.tar.xz 61853c03c59228a7c4c389a7d03187dccaa8566059443ab574a3f48df32f7c41 3020 accountsservice_23.13.9-7.dsc adda4cdeae24fa0992e7df3ffff9effa7090be3ac233a3edfdf69d5a9c9b924f 636064 accountsservice_23.13.9.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "aca2589cd442e94bdc7d57346fe58413843c8813e290ef5e68b0bd91dd2384715055b2fb2a92a26ea2fb38ebed644ab7a3db6a662e8f6186ac606cf4df724c0d 23600 accountsservice_23.13.9-7.debian.tar.xz 3e8f0a089119d98ee7002b5fa2c76a1f92030390760c5b6050b7915606d61de8a24950a457ec18fe0c2f57138e93dfd5be4ee275cbcba53bec0650fed96fecf8 3020 accountsservice_23.13.9-7.dsc c6eb543ce2e07b61bbdfa454e388949bc688517be0536b14f30c66383ed105b15d3fab8b6c62b1eaa08f67d9bdc29b928729d9f7c704f47de4decf0de8e12f89 636064 accountsservice_23.13.9.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/a/accountsservice"
+  ],
+  "Files": [
+    "8394e42cce7f46a95db613fe10b106c1 23600 accountsservice_23.13.9-7.debian.tar.xz 5c5acb2e90afc7f7c022e212bca62efb 3020 accountsservice_23.13.9-7.dsc 03dccfe1b306b7ca19743e86d118e64d 636064 accountsservice_23.13.9.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.freedesktop.org/wiki/Software/AccountsService/"
+  ],
+  "Maintainer": [
+    "Debian freedesktop.org maintainers \u003cpkg-freedesktop-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "accountsservice"
+  ],
+  "Package-List": [
+    "accountsservice deb admin optional arch=any gir1.2-accountsservice-1.0 deb introspection optional arch=any libaccountsservice-dev deb libdevel optional arch=any libaccountsservice-doc deb doc optional arch=all profile=!nodoc libaccountsservice0 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, libcrypt1, libnss-systemd, libpam-elogind, libpam-systemd, polkitd, python3, python3-cap-ng, python3-gi"
+  ],
+  "Uploaders": [
+    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/freedesktop-team/accountsservice"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/freedesktop-team/accountsservice.git"
+  ],
+  "Version": [
+    "23.13.9-7"
+  ]
+}

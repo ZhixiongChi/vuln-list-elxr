@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-oslo.metrics, python-oslo.metrics-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "python3-coverage, python3-openstackdocstheme, python3-oslo.config, python3-oslo.log, python3-oslo.utils, python3-oslotest, python3-prometheus-client, python3-sphinxcontrib.apidoc, python3-stestr, subunit"
+  ],
+  "Checksums-Sha1": [
+    "5bdb480cf01e6e94e83e242b0ef9f9679d586662 3072 python-oslo.metrics_0.11.0-3.debian.tar.xz 3996de490b7d9f96697973f26a8a46149bf69467 2503 python-oslo.metrics_0.11.0-3.dsc 4c4ce2f866abc94cdb13bc5062663eeea0454fb0 15040 python-oslo.metrics_0.11.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "32c569d211458a815a8c50d92735babff5e2814ecbdd73f4e489eb9ec8656222 3072 python-oslo.metrics_0.11.0-3.debian.tar.xz 0301359caf07a5fd8a956330af38b4a8eb104944ab60458358cf3d5e987d5da0 2503 python-oslo.metrics_0.11.0-3.dsc 100c25c3707240bf4aef0e9cb63a5b27aec1dd419c505d920ea9c2b8b1dc2717 15040 python-oslo.metrics_0.11.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "3488f624b314ce54ed726ebc216ef13db3b53a110938accc94f1092f8a9478316b34e3096d5dc3b344fc60bc72be796997c3f54e63fd36bc0d65a79180ea79a2 3072 python-oslo.metrics_0.11.0-3.debian.tar.xz 499f79a06189b60fab66e5e5fed55b91a2606608fa9ed197250ba66fcd5b7d4251fbbf8520bd89bd0ad66f3c5e87c89539a4c6bae422d6ef7972c16466fb9645 2503 python-oslo.metrics_0.11.0-3.dsc c1e51af8680f21f504b4b4d6fbf3adffdfc726d7a2146f752be07dcc845e15be7b97e96fc82f38b973698a12a62f80dbfc37ec18b4be4ec1ada7d747c6797b30 15040 python-oslo.metrics_0.11.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-oslo.metrics"
+  ],
+  "Files": [
+    "d78c7f22f1c2011790eb992333787429 3072 python-oslo.metrics_0.11.0-3.debian.tar.xz 406e1dc6a1ee2c96deb443640993afa6 2503 python-oslo.metrics_0.11.0-3.dsc 17b11986efff5c289c4a55467f646e7a 15040 python-oslo.metrics_0.11.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://opendev.org/openstack/oslo.metrics"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-oslo.metrics"
+  ],
+  "Package-List": [
+    "python-oslo.metrics-doc deb doc optional arch=all python3-oslo.metrics deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/python/python-oslo.metrics"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/python/python-oslo.metrics.git"
+  ],
+  "Version": [
+    "0.11.0-3"
+  ]
+}

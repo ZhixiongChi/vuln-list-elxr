@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, pybuild-plugin-pyproject, python3-pytest, python3-sphinx, python3-docutils, python3-uc-micro"
   ],
   "Checksums-Sha256": [
-    "04bc56c594d421ea3a9758211da1b31dae9371b7c9c31a761e3faf522c9ac3b3 2035 linkify-it-py_2.0.3-1.dsc 68cda27e162e9215c17d786649d1da0021a451bdc436ef9e0fa0ba5234b9b048 27946 linkify-it-py_2.0.3.orig.tar.gz 557d1213b418021fde910f2103f6d9e43c91873bcedda91d7a5904997e31dab7 3352 linkify-it-py_2.0.3-1.debian.tar.xz"
+    "20ea37de47ed84f317381748b493a24e7465766a754c0e6003a363ad55d84ac6 2135 linkify-it-py_2.0.3-2.dsc 68cda27e162e9215c17d786649d1da0021a451bdc436ef9e0fa0ba5234b9b048 27946 linkify-it-py_2.0.3.orig.tar.gz 1887b47b6f44e2f893cff18ac14124deebf176c7dc42c9a40c727c8df82de025 3568 linkify-it-py_2.0.3-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/l/linkify-it-py"
   ],
   "Files": [
-    "7641d5ed1c8e3a542b33453a6134a977 2035 linkify-it-py_2.0.3-1.dsc 77789d84906609eb68246a43e9e3f626 27946 linkify-it-py_2.0.3.orig.tar.gz 3cd5902a4b026d7584ca09c88b5bc0a7 3352 linkify-it-py_2.0.3-1.debian.tar.xz"
+    "6b4deff57802126b897e545ebf86a2f6 2135 linkify-it-py_2.0.3-2.dsc 77789d84906609eb68246a43e9e3f626 27946 linkify-it-py_2.0.3.orig.tar.gz 983be2063509f2c28c9bcce8646c75cd 3568 linkify-it-py_2.0.3-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -41,6 +41,12 @@
   "Standards-Version": [
     "4.6.2"
   ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-pytest"
+  ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/linkify-it-py"
   ],
@@ -48,6 +54,6 @@
     "https://salsa.debian.org/debian/linkify-it-py.git"
   ],
   "Version": [
-    "2.0.3-1"
+    "2.0.3-2"
   ]
 }

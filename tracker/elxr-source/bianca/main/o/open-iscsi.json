@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "open-iscsi, libopeniscsiusr, libopeniscsiusr-dev, iscsiuio, open-iscsi-udeb"
+  ],
+  "Build-Depends": [
+    "bison, bzip2, debhelper-compat (= 13), dh-exec, flex, libisns-dev, libkmod-dev, libmount-dev, libssl-dev, libsystemd-dev, meson, pkgconf"
+  ],
+  "Checksums-Sha1": [
+    "5a8a1e029f7fde5227a4ddab498639679f73c47d 57776 open-iscsi_2.1.11-1+deb13u1.debian.tar.xz d8974d2e854d6b789428bac47484edf353f5beb3 2617 open-iscsi_2.1.11-1+deb13u1.dsc 9895abdb09bd274aab316fb27bc094665523f566 644295 open-iscsi_2.1.11.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "96b4aba22d0e3df7c1665387b8d30cc83a9cce4f4df9841d2a9959427888a7df 57776 open-iscsi_2.1.11-1+deb13u1.debian.tar.xz 3cbace56f87e6fda6b69ef4ad6f20746dc9740231c2c1c967ada876f3068a6e4 2617 open-iscsi_2.1.11-1+deb13u1.dsc 2630a2eb737f6f0ab81339ddabcf19b1d2aeec4dbab314d82a0700ddd50bb8e2 644295 open-iscsi_2.1.11.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "4ec92f011b02c2bf990025ac7e2d83767558c5bf357abfd6d930bb72a8d8e4025629e3d4ae21d14d795032acd32a1bd6f6e7e5fefb715928683d715ef0d8f23b 57776 open-iscsi_2.1.11-1+deb13u1.debian.tar.xz 989ab89d805fde281e1e149afc3b8767062c111135e9e74d49caa42e0ed088d41ebb4fe79f4641204d726e09f46314e4cf024c6c707de167ef9e32f8301fffe6 2617 open-iscsi_2.1.11-1+deb13u1.dsc af0ab3c8ea2ae326fe4d001dfdd4fb7db161669238404b81a2173bd7cafadd009ab66f668e99b641b3b8d5dd90551a70277865519214276adf9ffdcb81598f66 644295 open-iscsi_2.1.11.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/o/open-iscsi"
+  ],
+  "Files": [
+    "3e5b619313a863d6b3e674b2c615889b 57776 open-iscsi_2.1.11-1+deb13u1.debian.tar.xz 855c7c4c29565919f3b647b6c9aea329 2617 open-iscsi_2.1.11-1+deb13u1.dsc d7ac211bd340f11ac6985f29efe58f91 644295 open-iscsi_2.1.11.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.open-iscsi.com/"
+  ],
+  "Maintainer": [
+    "Debian iSCSI Maintainers \u003copen-iscsi@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "open-iscsi"
+  ],
+  "Package-List": [
+    "iscsiuio deb net optional arch=linux-any libopeniscsiusr deb net optional arch=linux-any libopeniscsiusr-dev deb net optional arch=all open-iscsi deb net optional arch=linux-any open-iscsi-udeb udeb debian-installer optional arch=amd64,arm64,armhf,i386,ia64,mips,mipsel,powerpc,ppc64,ppc64el,riscv64,s390x"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3, python3-netifaces, qemu-system, qemu-utils, targetcli-fb"
+  ],
+  "Uploaders": [
+    "Ritesh Raj Sarraf \u003crrs@debian.org\u003e, Christian Seiler \u003cchristian@iwakd.de\u003e, Chris Hofstaedtler \u003czeha@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/linux-blocks-team/open-iscsi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/linux-blocks-team/open-iscsi.git"
+  ],
+  "Version": [
+    "2.1.11-1+deb13u1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "libcolord-dev, libcolord2, colord, colord-sensor-argyll, colord-data, gir1.2-colord-1.0, libcolorhug-dev, libcolorhug2, gir1.2-colorhug-1.0, colord-tests"
+  ],
+  "Build-Depends": [
+    "bash-completion, debhelper-compat (= 13), dh-sequence-gir, docbook-xsl-ns, gir1.2-gio-2.0-dev, gir1.2-gobject-2.0-dev, gtk-doc-tools, libdbus-1-dev, libgirepository1.0-dev, libglib2.0-dev (\u003e= 2.58), libgudev-1.0-dev, libgusb-dev (\u003e= 0.2.7), libjson-glib-dev, liblcms2-dev, libpolkit-gobject-1-dev (\u003e= 0.103), libsane-dev [linux-any], libsqlite3-dev, libsystemd-dev [linux-any], libudev-dev, meson (\u003e= 0.52.0), pkgconf, polkitd, shared-mime-info \u003c!nocheck\u003e, systemd-dev [linux-any], valac (\u003e= 0.20), xsltproc"
+  ],
+  "Build-Depends-Indep": [
+    "argyll [linux-any]"
+  ],
+  "Checksums-Sha1": [
+    "adfda7556e84a4523c240047ff3bb0aa790ad803 33368 colord_1.4.7-3.debian.tar.xz 4522e1f97e7640803635e3bef48d890ab996cb91 3496 colord_1.4.7-3.dsc 5f1819ecd0b1b38fa070a3f9419030fb23513033 1799168 colord_1.4.7.orig.tar.xz 0c81212ac12d2597e2838443bebd619e2f325324 488 colord_1.4.7.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "a51570615cb40761cdb69c8f233290cc3d8140ca64019547757e9a0adc7d0115 33368 colord_1.4.7-3.debian.tar.xz 80d005279312c761e7da63b232b7593dfc60d9bb938ca9eb0746ec54481a3dec 3496 colord_1.4.7-3.dsc de02d9910634ae159547585cec414e450f711c27235453b4f9b38a9f2361a653 1799168 colord_1.4.7.orig.tar.xz d5978308314fa371dc18da192db7182e3710d479d8dcc378f4ccb07b11459b60 488 colord_1.4.7.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "5def8fc787361f962e630665bf13224b2e5e96b891af7df9cebb680096fd97d644c1a4345ba4328089b9525194d00619bf8d1a0cb9957a8e2f25bcfcfc33fc1e 33368 colord_1.4.7-3.debian.tar.xz 981d08fedc97c5ef5c657ac47b8ea199d2a119ec9fafd9813a76f4345c1c3a8e3befa5a2120b6a23a644419a1fd042e6ebaf02b1f884910b1f51eb6305875a5a 3496 colord_1.4.7-3.dsc d8a23899c038af980f1b257eace68b682c3f5592d19e2ae1044da749371694052c00e58e4754ebb6ee2f7900b0ef44c01be5fcf857294813c07af94ffbf6d0be 1799168 colord_1.4.7.orig.tar.xz 15a60f860ca806573fad6a1815fb8cccc5ff14cefaa58f67d62d5a9eece52437a52e2b6aaa91998e70d739b393ca7e1dd18fd2b7a292c697f2eab6301a0cebe5 488 colord_1.4.7.orig.tar.xz.asc"
+  ],
+  "Directory": [
+    "pool/main/c/colord"
+  ],
+  "Files": [
+    "60fb664ea2f0cc447754120af9896de1 33368 colord_1.4.7-3.debian.tar.xz 641b0b4d3fb68a810fb696fde125c269 3496 colord_1.4.7-3.dsc 94bd795efa1931a34990345e4ac439a8 1799168 colord_1.4.7.orig.tar.xz 51b468fdbf8b5dc0123e7ccb34e58ca8 488 colord_1.4.7.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.freedesktop.org/software/colord/"
+  ],
+  "Maintainer": [
+    "Debian freedesktop.org maintainers \u003cpkg-freedesktop-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "colord"
+  ],
+  "Package-List": [
+    "colord deb graphics optional arch=linux-any colord-data deb graphics optional arch=all colord-sensor-argyll deb graphics optional arch=linux-any colord-tests deb graphics optional arch=linux-any gir1.2-colord-1.0 deb introspection optional arch=linux-any gir1.2-colorhug-1.0 deb introspection optional arch=linux-any libcolord-dev deb libdevel optional arch=linux-any libcolord2 deb libs optional arch=linux-any libcolorhug-dev deb libdevel optional arch=linux-any libcolorhug2 deb libs optional arch=linux-any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dbus, gnome-desktop-testing, gnome-session, gnome-settings-daemon, xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Christopher James Halse Rogers \u003craof@ubuntu.com\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/colord"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/colord.git"
+  ],
+  "Version": [
+    "1.4.7-3"
+  ]
+}

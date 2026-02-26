@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-tracing-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e, librust-pin-project-lite-0.2+default-dev (\u003e= 0.2.9-~~) \u003c!nocheck\u003e, librust-tracing-attributes-0.1+default-dev (\u003e= 0.1.23-~~) \u003c!nocheck\u003e, librust-tracing-core-0.1+std-dev (\u003e= 0.1.30-~~) \u003c!nocheck\u003e, librust-tracing-core-0.1-dev (\u003e= 0.1.30-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "ae37fece034a69845af83fba4ccbdc45c6ae39fb 4408 rust-tracing_0.1.37-1.debian.tar.xz 9989265bbe0b9ad305dc16221b6b45314a020a23 2526 rust-tracing_0.1.37-1.dsc bff74bae4480c98b20390301939446f5819d5356 73888 rust-tracing_0.1.37.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "901389c12f0986860834adb8bdacf8a0bc49209f703952c802bdf252654f3135 4408 rust-tracing_0.1.37-1.debian.tar.xz a38905b67ae016af0cb1f21be773c46769c04761ca80fb5c3b3a810e7d2583db 2526 rust-tracing_0.1.37-1.dsc 8ce8c33a8d48bd45d624a6e523445fd21ec13d3653cd51f681abf67418f54eb8 73888 rust-tracing_0.1.37.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "90e81fa5d44b519137c7bed51c6a7779d3a46d461c24dc3b0221d2de601aac561f3c7677d1b354fb07cd6f104c47764fc09595e5478a5e60177d574c3270aeca 4408 rust-tracing_0.1.37-1.debian.tar.xz 8547505a0d721bc70586baaa13b112f92d7ca898cef8d939e86f948e3222eef417f2bf0f88b1c293525c16c9f11d3ae5033c2d3fd791430ea674044979239eda 2526 rust-tracing_0.1.37-1.dsc 2116045f51b35e90fc933cc136d045d09c0aaa33400a9056051d887fea2d2982b394830e4d4c3bcb4b831e62b9c19f6c751c2d216169f663aa18c4067aed7d75 73888 rust-tracing_0.1.37.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-tracing"
+  ],
+  "Files": [
+    "62af41100a9e2ad02343a1148159c391 4408 rust-tracing_0.1.37-1.debian.tar.xz 0ce4f2bb5734c2817e7d5307a652ca91 2526 rust-tracing_0.1.37-1.dsc 97e8197912c3d06f0b7486d07c31e182 73888 rust-tracing_0.1.37.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://tokio.rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-tracing"
+  ],
+  "Package-List": [
+    "librust-tracing-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-criterion-0.3-dev, librust-log-0.4+default-dev"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tracing"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/tracing]"
+  ],
+  "Version": [
+    "0.1.37-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libzstd-dev, libzstd1, zstd, libzstd1-udeb"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper (\u003e\u003e 13.3.2~), help2man, liblz4-dev, liblzma-dev, zlib1g-dev, less \u003c!nocheck\u003e, python3 \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "7c5a8135d2e62e1d53be1bdc3e685ba5299c39dc 216092 libzstd_1.5.4+dfsg2-5.debian.tar.xz 96102b900f2902d56ddf0b77d81a19dc6b1f7f97 2589 libzstd_1.5.4+dfsg2-5.dsc 37d1ae64b2e2f1882401b3ec596dd21ed20359ae 1582660 libzstd_1.5.4+dfsg2.orig.tar.xz c5077a159c76298359255ab0086b74162d14a64d 833 libzstd_1.5.4+dfsg2.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "82ce911445772861d0838bd4545f93bc50658bc7f3cefdb17a307dfb8ffca5d8 216092 libzstd_1.5.4+dfsg2-5.debian.tar.xz 8f602f92b575aa8b5e979196fb6ee82d78f233521dc9636526d3ecba1f63c1b1 2589 libzstd_1.5.4+dfsg2-5.dsc 8cf4bbb65e77ec348d052c8d6230eba66d435bddf64c8b5be2fcb16880c19953 1582660 libzstd_1.5.4+dfsg2.orig.tar.xz be007507630aabfc7d88d5d3c467115935ca22025253491d525e0119bbb23d40 833 libzstd_1.5.4+dfsg2.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "9dbdcbfd852cdc55915a8f9e1320dd23c70eb9486ee1d728c0f25d568587a9d30d05f920e5ae375026e2f35d939947888b7b0be54bf1381c55e65875a932b676 216092 libzstd_1.5.4+dfsg2-5.debian.tar.xz 364956611809134699df8369e67268b56670a5db4a7309051ffd15ac915aac2c26cd440cfcdc2b274a88d064d767f7d9a73722abd0b6435d834732ff5191d69a 2589 libzstd_1.5.4+dfsg2-5.dsc 2a082e90acf1e7166c817e51d03cf0f40ff241aaa923b13a84362482d67483a8f1a39381e2506bb6ca0a9550ff24889583e614696139f4e7e6be0e05162711cf 1582660 libzstd_1.5.4+dfsg2.orig.tar.xz 9ae890b55f4df9ebb9ff374f14d195aa72406325d805a86afa8e6ef2eafc7a6fd665574acd4587d012f6a878dddee8bdc64d3be858fbed11a173c714bca51fd6 833 libzstd_1.5.4+dfsg2.orig.tar.xz.asc"
+  ],
+  "Directory": [
+    "pool/main/libz/libzstd"
+  ],
+  "Files": [
+    "84bcab8a1770a36ed8882b6fd7d4f573 216092 libzstd_1.5.4+dfsg2-5.debian.tar.xz 5f407679c4e2f158374072beace84d9f 2589 libzstd_1.5.4+dfsg2-5.dsc b5e7f16f8d622f7ab651884cc163e0a9 1582660 libzstd_1.5.4+dfsg2.orig.tar.xz e93ceefe3683c60224b3b8aaba4eeb5a 833 libzstd_1.5.4+dfsg2.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/facebook/zstd"
+  ],
+  "Maintainer": [
+    "RPM packaging team \u003cteam+pkg-rpm@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "libzstd"
+  ],
+  "Package-List": [
+    "libzstd-dev deb libdevel optional arch=any libzstd1 deb libs optional arch=any libzstd1-udeb udeb debian-installer optional arch=any profile=!noudeb zstd deb utils optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, cmake, pkgconf, python3, python3-click, python3-typedload"
+  ],
+  "Uploaders": [
+    "Peter Pentchev \u003croam@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-rpm-team/libzstd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-rpm-team/libzstd.git"
+  ],
+  "Version": [
+    "1.5.4+dfsg2-5"
+  ]
+}

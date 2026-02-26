@@ -9,19 +9,19 @@
     "octave-nan"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-octave (\u003e= 1.11.1), dh-sequence-octave, octave, octave-io"
+    "debhelper-compat (= 13), dh-octave (\u003e= 1.11.1), dh-sequence-octave, octave, octave-datatypes (\u003e= 1.1.8), octave-io"
   ],
   "Checksums-Sha256": [
-    "9eb36d35bfd7709d0f4ecb76a03a6265760c53a777323c7f029362ae093c8734 2437 octave-statistics_1.8.0-2.dsc 38f45268a509e1a2ce1103b0d192709a4887920776567f761054519873e06b27 1424226 octave-statistics_1.8.0.orig.tar.gz e307e066b6113cace67290da31792af2aac26accaf747f0512cb00f73348a214 10692 octave-statistics_1.8.0-2.debian.tar.xz"
+    "e3a391972f4fc284071991f4d01d1210ee3a4506a21dc44e01ef2cb175b05bb9 2466 octave-statistics_1.8.1-3.dsc 5174f80ddf182674ca06d871d9fbed439f3eaed3e3970892a0716ed480f5545d 1465996 octave-statistics_1.8.1.orig.tar.gz ebde791e6ebde725ec4e565ebf18b2c20878a521e7c084a553d7b8c9d2350ae5 10752 octave-statistics_1.8.1-3.debian.tar.xz"
   ],
   "Dgit": [
-    "1548ec52ebcd333301ed268906a13a85b8c9ee43 debian archive/debian/1.8.0-2 https://git.dgit.debian.org/octave-statistics"
+    "005aba858d23dc3174eb23a1cfbed7a940e6e700 debian archive/debian/1.8.1-3 https://git.dgit.debian.org/octave-statistics"
   ],
   "Directory": [
     "pool/main/o/octave-statistics"
   ],
   "Files": [
-    "cee5a16f23f628649fb49a42250ee578 2437 octave-statistics_1.8.0-2.dsc d2422c57a0554b14f21b45f173196c64 1424226 octave-statistics_1.8.0.orig.tar.gz ee848339713d3902fbe47006eedbb841 10692 octave-statistics_1.8.0-2.debian.tar.xz"
+    "08d60e057e99caf50d4c6fae628f7dc3 2466 octave-statistics_1.8.1-3.dsc efe66a1d5028fc71d416b72b08de9742 1465996 octave-statistics_1.8.1.orig.tar.gz a56e8e407a47278ed7f1a14230c4132e 10752 octave-statistics_1.8.1-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +45,7 @@
     "math"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-octave"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/pkg-octave-team/octave-statistics.git"
   ],
   "Version": [
-    "1.8.0-2"
+    "1.8.1-3"
   ]
 }

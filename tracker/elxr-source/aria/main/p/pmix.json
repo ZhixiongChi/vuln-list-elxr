@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libpmix-dev, libpmix2, libpmix-bin, python3-pmix"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, chrpath, flex, bison, libfl-dev, python3-all-dev, cython3, python3-distutils, libpsm-infinipath1-dev [amd64 i386], libucx-dev [amd64 arm64 ppc64el], libpsm2-dev [amd64], libcurl4-gnutls-dev | libcurl-dev, libhwloc-dev, zlib1g-dev, libevent-dev, libjansson-dev, libltdl-dev, libmunge-dev [!hurd-i386]"
+  ],
+  "Checksums-Sha1": [
+    "8b28c97042fea0d3d2c5a3cc2bf3faf3ef90dd25 11992 pmix_4.2.2-1+deb12u1.debian.tar.xz 609d86679a40e4f219cef96b3d5287f550391352 2497 pmix_4.2.2-1+deb12u1.dsc f4f89bbe2b8c703a085f77e35410a149dd1a98b3 885680 pmix_4.2.2.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "92a012d218f08c3e8868ec5c1d2e23f23051c7805f56dccf6d852df84569a1de 11992 pmix_4.2.2-1+deb12u1.debian.tar.xz fea5e777fff0ef7afa76117573bc5629c349cfcedf64b3370dc4d05a6646ef3e 2497 pmix_4.2.2-1+deb12u1.dsc 4a534a8f87220c6f0d1b4b3195820f585ffaf3ceb8e21e40460d58439b81d47b 885680 pmix_4.2.2.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "59f418f6f260cc4656b57c91aa9f27902be515ef1dd4dc09d7e44fb8277d06e548ffec0eeaec8b7d5bc8e4ad1d60d4437115ae9e28f123284cae3ae6ac0e71df 11992 pmix_4.2.2-1+deb12u1.debian.tar.xz e2c0cc6a09e08c70a29e923978e308475fdf3fd7644312740df3c33c0279fb68b242474b534fcb2177392e8698daa8a250c9f5f8d6a3b904241368e532ec9fbb 2497 pmix_4.2.2-1+deb12u1.dsc 34a9032a99122845129480ff26ffc4bab093c93f4572899628b0a237d74c3b424004cea92c36b09de243581ae8d1968e02319425a9069fcea7628c50d7979922 885680 pmix_4.2.2.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/pmix"
+  ],
+  "Files": [
+    "28803d1047a7c9c754a292cb2d51c9f0 11992 pmix_4.2.2-1+deb12u1.debian.tar.xz a4b8f258d79514d1d58541cf88b8846e 2497 pmix_4.2.2-1+deb12u1.dsc c288751ba1c98de2b070f7ac64d07281 885680 pmix_4.2.2.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pmix/pmix"
+  ],
+  "Maintainer": [
+    "Alastair McKinstry \u003cmckinstry@debian.org\u003e"
+  ],
+  "Package": [
+    "pmix"
+  ],
+  "Package-List": [
+    "libpmix-bin deb net optional arch=any libpmix-dev deb libdevel optional arch=any libpmix2 deb libs optional arch=any python3-pmix deb net optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org:/science-team/pmix.git"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org:/science-team/pmix.git -b debian/latest"
+  ],
+  "Version": [
+    "4.2.2-1+deb12u1"
+  ]
+}

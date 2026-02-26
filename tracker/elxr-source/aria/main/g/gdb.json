@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "gdb, gdb-multiarch, gdbserver, gdb-source, gdb-minimal"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 10), lsb-release, xz-utils, autoconf, libtool, gettext, bison, dejagnu, flex, procps, gobjc, mig [hurd-any], libutil-freebsd-dev [kfreebsd-any], texinfo (\u003e= 4.7-2.2), texlive-base \u003c!nodoc\u003e, libexpat1-dev, libncurses-dev, libreadline-dev, zlib1g-dev, liblzma-dev, libzstd-dev, libbabeltrace-dev, libipt-dev [amd64 i386 x32], libsource-highlight-dev, libxxhash-dev, libmpfr-dev, pkg-config, python3-dev, libkvm-dev [kfreebsd-any], libunwind-dev [ia64], libdebuginfod-dev [linux-any]"
+  ],
+  "Checksums-Sha1": [
+    "c07a2e73996a59665a9a136030439061265aad77 53132 gdb_13.1-3.debian.tar.xz be23c39d5a94e1b00d2c61aead1947d19c830b4f 2864 gdb_13.1-3.dsc 8833b6abac882fa2e0104d675ebd30b1ede4c56c 24327276 gdb_13.1.orig.tar.xz ae0158809ead7b06bfbfd2291c4a0995b27d2e10 195 gdb_13.1.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "a677ebb1971b6b9b0e2f45aef2c7cdcd016cb7adaf4eca7ef5c12b22c3e2cf17 53132 gdb_13.1-3.debian.tar.xz b5438d2eec4cdc660777d64d9d04cdf799fa82f1bf802ac80272f1004f6bbe30 2864 gdb_13.1-3.dsc d861181d5fa473787ed647895ec22d6ab001bb0a2354d76537fc0d6e244f5a15 24327276 gdb_13.1.orig.tar.xz f5edd0db60453dce0dc4ff1393f48539db9a8355a6fd5a99ee41f73ee177e1a3 195 gdb_13.1.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "3c52f3946dc95b5d28fdf4366f8303369c6c2f60eb5f124d72ad7fc37595feddf8d6c65593c60e97da41fc49a179b7a6a21b6e619a65d62b6a7fabbaef7b2898 53132 gdb_13.1-3.debian.tar.xz 72b4a9ac6dbbfbd20526f4bb9f5797a074707ce65f47bb922030e663b03d14d071b0a6711cdfbe5371cd9761cf948df4fbd87390c17a4aa0c80ee69326d015fd 2864 gdb_13.1-3.dsc 50a895b0d5d9b0ee7c5dd69bc3612880138a7d4aaa35b5ba50a2a9ff99ccd96ee4c0c2eb7b2a7d6f4df8dcbc6d57440403eda16f9e510b3a3ee9868b998a3f98 24327276 gdb_13.1.orig.tar.xz cd472660ea94850d50f4be0fe4ec7e0152f3ebec20af109ae9472151ae761d4814a69fa75a7728b9d37237676650789c2b22f0327951ab2035763201a8072842 195 gdb_13.1.orig.tar.xz.asc"
+  ],
+  "Directory": [
+    "pool/main/g/gdb"
+  ],
+  "Files": [
+    "773b312466c9981fe670843136f7ef2b 53132 gdb_13.1-3.debian.tar.xz a6e6f88b65c01d31d662e6e6d53dabd8 2864 gdb_13.1-3.dsc ca1f5e1a32a02216f45dfd576aee05a3 24327276 gdb_13.1.orig.tar.xz 3ad0940ac1f009f264ce5976cdd14f25 195 gdb_13.1.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnu.org/s/gdb/"
+  ],
+  "Maintainer": [
+    "Héctor Orón Martínez \u003czumbi@debian.org\u003e"
+  ],
+  "Package": [
+    "gdb"
+  ],
+  "Package-List": [
+    "gdb deb devel optional arch=any gdb-minimal deb devel optional arch=any gdb-multiarch deb devel optional arch=any gdb-source deb devel optional arch=all gdbserver deb devel optional arch=amd64,armel,armhf,arm64,i386,ia64,m32r,m68k,mips,mipsel,mips64el,powerpc,powerpcspe,ppc64,ppc64el,riscv64,s390,s390x,x32"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Sergio Durigan Junior \u003csergiodj@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gdb-team/gdb"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gdb-team/gdb.git"
+  ],
+  "Version": [
+    "13.1-3"
+  ]
+}

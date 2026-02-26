@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), cmake, libzeem-dev, libboost-dev, libhowardhinnant-date-dev, libmcfp-dev, catch2, mrc, doxygen, python3-exhale, python3-sphinx-rtd-theme, python3-myst-parser"
   ],
   "Checksums-Sha256": [
-    "bf39df9987f139ce2fc67c3950e96fd4d343ab7292dda2b30036b9745021349b 2301 libzeep_7.3.1-1.dsc 2b4744fe716e83c2ae47a37e00ac908ef5bcb5e9aecd8fec0d9336457ef11a34 211002 libzeep_7.3.1.orig.tar.gz 797fde27c174d57b190f286a21db65f65c684c7812c212cc4aa9c0a973d31204 5400 libzeep_7.3.1-1.debian.tar.xz"
+    "110f45fb632536063cfc845d840b94bcbd7cd9bac355c8fc68446678e4e33e9f 2315 libzeep_7.3.2-1.dsc 5cad5dc6358ecf8d4dcd9ce3b4b11951fa349d7a97bfd480c7e49d3b12b8e714 211241 libzeep_7.3.2.orig.tar.gz b4482cb625822f6c4291ef37ebf204627ce129e50cc6a46b2f428cb27894737d 5680 libzeep_7.3.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/libz/libzeep"
   ],
   "Files": [
-    "89ed81cd0eb17aa6d9862430e468e72e 2301 libzeep_7.3.1-1.dsc 90975043e286186b90648a1aac7e70ce 211002 libzeep_7.3.1.orig.tar.gz b970ebc10aca3e4f4edb2620a55a3e6b 5400 libzeep_7.3.1-1.debian.tar.xz"
+    "0ccf205353bb0bcdb06d63e1664e01ef 2315 libzeep_7.3.2-1.dsc ba49009e6b70053a600b920cc3adf541 211241 libzeep_7.3.2.orig.tar.gz b015c0332be6262957b37f524ec39d92 5680 libzeep_7.3.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +45,7 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential"
+    "build-essential, curl"
   ],
   "Uploaders": [
     "Maarten L. Hekkelman \u003cmaarten@hekkelman.com\u003e, Andreas Tille \u003ctille@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/med-team/libzeep.git"
   ],
   "Version": [
-    "7.3.1-1"
+    "7.3.2-1"
   ]
 }

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "qml-module-qtquick-controls, qml-module-qtquick-extras, qml-module-qtquick-dialogs, qml-module-qtquick-privatewidgets, qtquickcontrols5-examples, qtquickcontrols5-doc, qtquickcontrols5-doc-html"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.17.14), pkg-kde-tools (\u003e= 0.15.26~), qml-module-qt-labs-folderlistmodel (\u003e= 5.15.8+dfsg~), qml-module-qt-labs-settings (\u003e= 5.15.8+dfsg~), qml-module-qtgraphicaleffects (\u003e= 5.15.8~), qml-module-qtqml (\u003e= 5.15.8+dfsg~), qml-module-qtqml-models2 (\u003e= 5.15.8+dfsg~), qml-module-qtquick-layouts (\u003e= 5.15.8+dfsg~), qml-module-qtquick-window2 (\u003e= 5.15.8+dfsg~), qml-module-qttest (\u003e= 5.15.8+dfsg~), qtbase5-dev (\u003e= 5.15.8+dfsg~), qtbase5-private-dev (\u003e= 5.15.8+dfsg~), qtdeclarative5-dev-tools (\u003e= 5.15.8+dfsg~), qtdeclarative5-private-dev (\u003e= 5.15.8+dfsg~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "qdoc-qt5 (\u003e= 5.15.8~) \u003c!nodoc\u003e, qhelpgenerator-qt5 (\u003e= 5.15.8~) \u003c!nodoc\u003e, qtattributionsscanner-qt5 (\u003e= 5.15.8~) \u003c!nodoc\u003e, qtbase5-doc-html (\u003e= 5.15.8+dfsg~) \u003c!nodoc\u003e, qtdeclarative5-doc-html (\u003e= 5.15.8+dfsg~) \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "8edfff10188efb1171fe4cbf220d4d30f21ce769 11416 qtquickcontrols-opensource-src_5.15.8-2.debian.tar.xz 804dd61331da3f63124469eb2458ff67ee12d71c 3774 qtquickcontrols-opensource-src_5.15.8-2.dsc 2b4fd14e6525b598d8694f01871e08795a2407ae 5985268 qtquickcontrols-opensource-src_5.15.8.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "68a9c8382299072a689fc63b75d44da66cf00791664ce2e2599e644199952f43 11416 qtquickcontrols-opensource-src_5.15.8-2.debian.tar.xz d7407e32d3a8801f7cbdcf4713a6ecea96fe01d6eb4ec15c25e65990f447ff8e 3774 qtquickcontrols-opensource-src_5.15.8-2.dsc 2cb762d8aa53dacced4ddcc038c4541179c8bee51902becdd1753237ef3ae47a 5985268 qtquickcontrols-opensource-src_5.15.8.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "1426a0a8efa6822d860a4f2e3600b95ad7df329d2ca3c40b29d0c2090b15331a89bc92f81efcfa41e9a592872533f6f10120d7875e0dc7f30f6207a10fbefcc1 11416 qtquickcontrols-opensource-src_5.15.8-2.debian.tar.xz d27d467a084f59acfa89418da2cbfcdb310e23880203de83117d3f41129729a583ec28032c6a891645734d3d0c14697d37deac5d7af4e59625059e229a4d83b5 3774 qtquickcontrols-opensource-src_5.15.8-2.dsc 4b93b1cc69f455bc0e3e06e9702a25791f1dcd9f3b5454ce791ab66cbc5a9ad2f3a91cf664bc2e66369c64d8d52555a02262bc8333866f1d5ff9335de1ea4040 5985268 qtquickcontrols-opensource-src_5.15.8.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qtquickcontrols-opensource-src"
+  ],
+  "Files": [
+    "29a8809d2a0ecebc96ab59e15e6e20b3 11416 qtquickcontrols-opensource-src_5.15.8-2.debian.tar.xz 1f7680556fafdd119baa1f61b44b3083 3774 qtquickcontrols-opensource-src_5.15.8-2.dsc 04dba7754983cbb1e20cecd68241919e 5985268 qtquickcontrols-opensource-src_5.15.8.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://doc.qt.io/qt-5/qtquickcontrols1-index.html"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "qtquickcontrols-opensource-src"
+  ],
+  "Package-List": [
+    "qml-module-qtquick-controls deb libs optional arch=any qml-module-qtquick-dialogs deb libs optional arch=any qml-module-qtquick-extras deb libs optional arch=any qml-module-qtquick-privatewidgets deb libs optional arch=any qtquickcontrols5-doc deb doc optional arch=all profile=!nodoc qtquickcontrols5-doc-html deb doc optional arch=all profile=!nodoc qtquickcontrols5-examples deb x11 optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Sune Vuorela \u003cdebian@pusling.com\u003e, Pino Toscano \u003cpino@debian.org\u003e, Lisandro Damián Nicanor Pérez Meyer \u003clisandro@debian.org\u003e, Timo Jyrinki \u003ctimo@debian.org\u003e, Dmitry Shachnev \u003cmitya57@debian.org\u003e, Simon Quigley \u003ctsimonq2@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/qt/qtquickcontrols"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/qt/qtquickcontrols.git"
+  ],
+  "Version": [
+    "5.15.8-2"
+  ]
+}

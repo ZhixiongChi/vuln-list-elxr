@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-crossbeam-deque-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e, librust-crossbeam-epoch-0.9+std-dev \u003c!nocheck\u003e, librust-crossbeam-utils-0.8+std-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "0a10875cc858969a9015f9891eee926d5e00f7b5 3252 rust-crossbeam-deque_0.8.1-1.debian.tar.xz 79ceb1d24980b926f0f881ccef3b751677150f6e 1864 rust-crossbeam-deque_0.8.1-1.dsc 6df4e6c83299cd930b52e4c297685e20760f872e 20852 rust-crossbeam-deque_0.8.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "bd777a5a7de14eb8dd3764f0ec7f2a1178956a29ddaaa793374249abd1c5b4c5 3252 rust-crossbeam-deque_0.8.1-1.debian.tar.xz 09554e9efda7ef257bf50ea405caf98bd213bb31c44ff0f99dc1305b039b6979 1864 rust-crossbeam-deque_0.8.1-1.dsc 6455c0ca19f0d2fbf751b908d5c55c1f5cbc65e03c4225427254b46890bdde1e 20852 rust-crossbeam-deque_0.8.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "c697b52d1587a60fe890ddb3def9ffa39c6f77ae903cb5ea8380d709d3a70fa82aae90299e818100fa9b8317ca47dccac5ca3cb52a90cfdcda95a619f320d03f 3252 rust-crossbeam-deque_0.8.1-1.debian.tar.xz 6d10ace872c5f689aee96116034a58799be9250edde399dacd7778fd645ff2f72899e1b0a32c9949050bbdb885a63f53daf5cb1097c4d9d75a223b2ee0d5dc35 1864 rust-crossbeam-deque_0.8.1-1.dsc 44a4fe1d4ab7457e2b0950be787b76b15e1bb0b1c108d032381ce3fe99bf7bf76f3d1718085660083d813e2639e66fdd3635d9186e85a9eb7267063b117eaca4 20852 rust-crossbeam-deque_0.8.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-crossbeam-deque"
+  ],
+  "Files": [
+    "83938c4e888d75f366b69c0343d0c29a 3252 rust-crossbeam-deque_0.8.1-1.debian.tar.xz 2f0e1d7dcc310adf49fdc459a725208b 1864 rust-crossbeam-deque_0.8.1-1.dsc 93c803ad55de44eedc24870f83d0279b 20852 rust-crossbeam-deque_0.8.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/crossbeam-rs/crossbeam/tree/master/crossbeam-deque"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-crossbeam-deque"
+  ],
+  "Package-List": [
+    "librust-crossbeam-deque-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-rand-0.8+default-dev"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/crossbeam-deque"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/crossbeam-deque]"
+  ],
+  "Version": [
+    "0.8.1-1"
+  ]
+}

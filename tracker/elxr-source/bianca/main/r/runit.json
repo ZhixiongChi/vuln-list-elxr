@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "runit, runit-run, getty-run, runit-init"
+  ],
+  "Build-Depends": [
+    "bash-completion, debhelper-compat (= 13), dh-exec, dh-runit (\u003e= 2.10.2), dh-sysuser (\u003e= 1.6.0), doc-base"
+  ],
+  "Checksums-Sha1": [
+    "297f180f59eff10b5b9e604692c11fdc35e7099f 70008 runit_2.2.0-3.debian.tar.xz 56b2548dd799e66488e43d6ad5ac3fe63d3b7fc5 2053 runit_2.2.0-3.dsc 9864312f437f9d4d4b669c66c304a224e6f0979f 111395 runit_2.2.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "a370d97ade1e0d98eff99ad809a4486599e0512262b6d3d8385c73f35598cac0 70008 runit_2.2.0-3.debian.tar.xz 10caac92fd7ce53231d3113f816ea2cacca03c4ba3de98729d47cf4bc6961c68 2053 runit_2.2.0-3.dsc 95ef4d2868b978c7179fe47901e5c578e11cf273d292bd6208bd3a7ccb029290 111395 runit_2.2.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "5cd5358683dcd93265f13182a52cdda3a169f5d6ccbc03dcb1747302a1dfb10a5c26eb61eb257ae0a44061609d2aac307e25c8283963e2a4812176ae908c4c68 70008 runit_2.2.0-3.debian.tar.xz 325a2a563b304c04a2966947fac75d2d42ae13c84c6a0e667d25827e5b1bb8b7c184101aaa7641c0118701f2277b0de281f152b47fdeefa90c25885f3baf513c 2053 runit_2.2.0-3.dsc cedfe6d3505aca754ff11d791055f023a7be42e2fbdd2e4964b3460692474371a72363cf181ae2dfae5c02df45ebf568cdab72a5000d1b48e26e12217d4e9a3d 111395 runit_2.2.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/runit"
+  ],
+  "Files": [
+    "a1d6f9d125984eb479bc5b5c8670d1dd 70008 runit_2.2.0-3.debian.tar.xz 10e8d5db0cde480d3e2f8547e2d9d117 2053 runit_2.2.0-3.dsc a3f8d44f0c2f3bb530f31fbb58f709ba 111395 runit_2.2.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://smarden.org/runit/"
+  ],
+  "Maintainer": [
+    "Lorenzo Puliti \u003cplorenzo@disroot.org\u003e"
+  ],
+  "Package": [
+    "runit"
+  ],
+  "Package-List": [
+    "getty-run deb admin optional arch=all runit deb admin optional arch=any runit-init deb admin optional arch=any protected=yes runit-run deb admin optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "cron, dbus, libnss-systemd, libpam-systemd, pkexec, polkitd, procps, rsyslog, runit-services, systemd, systemd-sysv, udev"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/runit"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/runit.git"
+  ],
+  "Version": [
+    "2.2.0-3"
+  ]
+}

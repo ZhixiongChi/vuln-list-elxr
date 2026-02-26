@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "fontconfig, fontconfig-config, fontconfig-udeb, libfontconfig-dev, libfontconfig1-dev, libfontconfig1, libfontconfig-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), libfreetype-dev (\u003e= 2.8.1), libexpat1-dev, uuid-dev, pkg-config, python3:any, gperf, po-debconf"
+  ],
+  "Build-Depends-Indep": [
+    "docbook \u003c!nodoc\u003e, docbook-utils \u003c!nodoc\u003e, texlive-formats-extra \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "daf995a59cb2cfe6f69cdefaf20680072276c505 55972 fontconfig_2.14.1-4.debian.tar.xz ff4d8477dd8f02b4b068845e9013a3234f8ed66b 2693 fontconfig_2.14.1-4.dsc 1e0c542d35783f25ed3f4d3eb843fd81cb01a81d 1447044 fontconfig_2.14.1.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "9c2421c04c8d26a006166ad39e0be10de5f2e8149f508b6dbd87f1403275f4a5 55972 fontconfig_2.14.1-4.debian.tar.xz 8bb59d9c96ff8ef77df06dc65273fa398bf248f7e2448a8314989ec01ce74a58 2693 fontconfig_2.14.1-4.dsc 298e883f6e11d2c5e6d53c8a8394de58d563902cfab934e6be12fb5a5f361ef0 1447044 fontconfig_2.14.1.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "94d1ee46fd797cd187e01c5dd4e006ef767e7f3cdf83678d3ce00c3518402a0811b7e7f3438ac19a8aeba4a4618f2d61a6a99e20e13091879aefe9b6faf57019 55972 fontconfig_2.14.1-4.debian.tar.xz 85e3dd5c32f111740902b7f6429cedcc203099b9269629c3b3d80ae6f981d8bfc1fbf63ca809095772a6beec43a4668f2851de971d24ba88c5498db85c49f027 2693 fontconfig_2.14.1-4.dsc ba42e6f90ec92914895d2157c872c373adfc17be791b92253bcc40e85674a84e43c08ab2b37c3ae85b53b2e7bd2a7847abb479043f303b732c08eeac3ee733db 1447044 fontconfig_2.14.1.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fontconfig"
+  ],
+  "Files": [
+    "1a2b652030071dbda5d436718aecb70e 55972 fontconfig_2.14.1-4.debian.tar.xz 34c8ca1f4bb6d3ce1d83442e20de94d6 2693 fontconfig_2.14.1-4.dsc d110d7a2636d420ae6ed9d2cf92002a4 1447044 fontconfig_2.14.1.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.freedesktop.org/wiki/Software/fontconfig/"
+  ],
+  "Maintainer": [
+    "Debian freedesktop.org maintainers \u003cpkg-freedesktop-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "fontconfig"
+  ],
+  "Package-List": [
+    "fontconfig deb fonts optional arch=any fontconfig-config deb fonts optional arch=any fontconfig-udeb udeb debian-installer optional arch=any profile=!noudeb libfontconfig-dev deb libdevel optional arch=any libfontconfig-doc deb doc optional arch=all profile=!nodoc libfontconfig1 deb libs optional arch=any libfontconfig1-dev deb oldlibs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.2.1"
+  ],
+  "Uploaders": [
+    "Keith Packard \u003ckeithp@debian.org\u003e, Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/freedesktop-team/fontconfig"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/freedesktop-team/fontconfig.git"
+  ],
+  "Version": [
+    "2.14.1-4"
+  ]
+}

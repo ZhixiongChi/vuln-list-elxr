@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "keyboard-configuration, console-setup, console-setup-mini, console-setup-linux, console-setup-freebsd, bdf2psf, console-setup-udeb, console-setup-amiga-ekmap, console-setup-ataritt-ekmap, console-setup-pc-ekmap, console-setup-sun4-ekmap, console-setup-sun5-ekmap, console-setup-pc-ekbd, console-setup-linux-fonts-udeb, console-setup-freebsd-fonts-udeb, console-setup-linux-charmaps-udeb, console-setup-freebsd-charmaps-udeb"
+  ],
+  "Build-Depends": [
+    "perl, debhelper (\u003e= 9.20160709), po-debconf, libxml-parser-perl, bdfresize, liblocale-gettext-perl, unifont, unifont-bin"
+  ],
+  "Build-Depends-Indep": [
+    "xkb-data (\u003e= 1.6), locales-all, sharutils"
+  ],
+  "Checksums-Sha1": [
+    "11397decb2190368237f46a192bd0a7d54a2f85e 3231 console-setup_1.221.dsc 1432e62828f67d369c048d96b62789db00c3d616 2601020 console-setup_1.221.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "5557688a422aa8ed927a95ac7a3f96639993e6773dd118bab1bf72b19cefd7c2 3231 console-setup_1.221.dsc 2764c09e2bd06a927f62cae0a9995c05698db67a2f9ac11fcebef7e8dba6c63c 2601020 console-setup_1.221.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "8c87ecb3e0042645295dd7a9ce4667004ab3bfcca7814b2a220a6df2fbf8451aa8c8d908522513f7538353aaff2abd0c47159a5d03abdccdde47a510de0fe35a 3231 console-setup_1.221.dsc 083dcf8bb5b96f7e4d659df454355dd48ef85b49e08136570fa6ec270b61ef6aa46d54cd416a720a7abd1d524b100bc73230dc9edd20f6dd0c8be6f214b54aff 2601020 console-setup_1.221.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/console-setup"
+  ],
+  "Files": [
+    "bd1329c46193fbd88e823eb6efc063d4 3231 console-setup_1.221.dsc 672fb9440a5592a0b404e27908a20adf 2601020 console-setup_1.221.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Maintainer": [
+    "Debian Install System Team \u003cdebian-boot@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "console-setup"
+  ],
+  "Package-List": [
+    "bdf2psf deb utils optional arch=all console-setup deb utils optional arch=all console-setup-amiga-ekmap udeb debian-installer optional arch=all console-setup-ataritt-ekmap udeb debian-installer optional arch=all console-setup-freebsd deb utils optional arch=all console-setup-freebsd-charmaps-udeb udeb debian-installer optional arch=all console-setup-freebsd-fonts-udeb udeb debian-installer optional arch=all console-setup-linux deb utils optional arch=all console-setup-linux-charmaps-udeb udeb debian-installer optional arch=all console-setup-linux-fonts-udeb udeb debian-installer optional arch=all console-setup-mini deb utils optional arch=all console-setup-pc-ekbd udeb debian-installer optional arch=all console-setup-pc-ekmap udeb debian-installer optional arch=all console-setup-sun4-ekmap udeb debian-installer optional arch=all console-setup-sun5-ekmap udeb debian-installer optional arch=all console-setup-udeb udeb debian-installer optional arch=all keyboard-configuration deb utils optional arch=all"
+  ],
+  "Standards-Version": [
+    "3.9.1"
+  ],
+  "Uploaders": [
+    "Anton Zinoviev \u003czinoviev@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/installer-team/console-setup"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/installer-team/console-setup.git"
+  ],
+  "Version": [
+    "1.221"
+  ]
+}

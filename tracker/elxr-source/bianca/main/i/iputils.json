@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "iputils-ping, iputils-tracepath, iputils-arping, iputils-clockdiff"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), xsltproc, docbook-xsl, docbook-xsl-ns, libcap-dev, iproute2, libidn2-dev, bash (\u003e= 3), meson, pkgconf"
+  ],
+  "Checksums-Sha1": [
+    "d9aa0c3e0b84f78689bc875a6fcc0ca8ce38e117 10580 iputils_20240905-3.debian.tar.xz 144df8804d2e751bc8c252576dd332dfafd5ba7c 2159 iputils_20240905-3.dsc bccf1a4502e00402eddf732694a9ef1d334188d8 450500 iputils_20240905.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "5a793bde24830b931355e5c4b341a2fbc580e34426797806f0721e4bb0cb6ce0 10580 iputils_20240905-3.debian.tar.xz afc7bbd48f2f949553bdfdaf2a802e1301ee7fe9b7033176533bdd8a3d4bc9d8 2159 iputils_20240905-3.dsc f62c2f2d9ae273bf8af9ed8fd488ecd5f7385109ed3b02bc8f525f21e89c78ec 450500 iputils_20240905.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "be91ef87037c1a89d95e94d639ed8bcbe7e2a01ba7aa3bda8a8588354d37d120bac09d91c4e11a83684bb19e28c7301e49c3acc11b4d8d735c6b767a1632a168 10580 iputils_20240905-3.debian.tar.xz 92a28c0bc7923690cc4466bd17acad155262e937f165ff8208823ce37315d062911ce75cfa7a24dee920c91e0f7eb15f3f0328cdda028db8212a7a9cb34bd8ff 2159 iputils_20240905-3.dsc 7e5aa4259f682c715dfb8c6bdc8e73407519bdc494b3a3eb6cb02f2a09c84ccf804ef3c250a78d79288eaab49bc0ee4138cb5210ca0687c7450c3f29248f6300 450500 iputils_20240905.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/i/iputils"
+  ],
+  "Files": [
+    "e35509d23e2236005e22a78eab63dc74 10580 iputils_20240905-3.debian.tar.xz d09af7ae839b2e214a78ebfb07aa377d 2159 iputils_20240905-3.dsc 1fac482252835a0647e66831eccf4454 450500 iputils_20240905.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/iputils/iputils/"
+  ],
+  "Maintainer": [
+    "Noah Meyerhans \u003cnoahm@debian.org\u003e"
+  ],
+  "Package": [
+    "iputils"
+  ],
+  "Package-List": [
+    "iputils-arping deb net optional arch=any iputils-clockdiff deb net optional arch=any iputils-ping deb net important arch=any iputils-tracepath deb net optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/iputils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/iputils.git"
+  ],
+  "Version": [
+    "3:20240905-3"
+  ]
+}

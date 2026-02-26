@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-blobby-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "1c013c8aed059ba934e03bd2fc0ea3362e888c19 2580 rust-blobby_0.3.1-1.debian.tar.xz ba2159d5f7ff5a2e0351fe125bb19f04726e5202 2103 rust-blobby_0.3.1-1.dsc 640521b68b46ce140017136be9ab95de0ce13bce 9941 rust-blobby_0.3.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "d2099f3a06e5d9de5b4db0c13c2a2a6e827680d6fa5e45d6f1af4af06e532144 2580 rust-blobby_0.3.1-1.debian.tar.xz 60e5954106e2aaf8beb101b873b110c7724dc5613893bb9e01f90d073ef4bae4 2103 rust-blobby_0.3.1-1.dsc 847495c209977a90e8aad588b959d0ca9f5dc228096d29a6bd3defd53f35eaec 9941 rust-blobby_0.3.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "207e379f7ae3b9f2428c6af35f7302b7418fc62e03bd999e29748aa4434e8661542cc121818ee9179d83b7af05d9b6b04684223e3c6903c51b4f48ba4136ee94 2580 rust-blobby_0.3.1-1.debian.tar.xz 0be3396b5d20db58cbde79dd87e8e22fa1417252d281388dfa71f2c1387fefd2fc3cb68e612b826a34fedd14f506db711307d1f2d9e8f480ab3d637947dfd52d 2103 rust-blobby_0.3.1-1.dsc e6fd76f9337e84067ad499734d17c3c191987fdb70181e265acea509589a7a9060f112e8f3fe583315b66d98cd0b2c019eb672b3fce227f90d75d26bfe8585f0 9941 rust-blobby_0.3.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-blobby"
+  ],
+  "Files": [
+    "99f399fb0d2414bdb2d17f6783558ba3 2580 rust-blobby_0.3.1-1.debian.tar.xz 716561f1ad936aa4956d9fb456ea1b28 2103 rust-blobby_0.3.1-1.dsc 92e2a3674eb82eb259849aeb63b0877d 9941 rust-blobby_0.3.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-blobby"
+  ],
+  "Package-List": [
+    "librust-blobby-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-hex-0.4+default-dev"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/blobby"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/blobby]"
+  ],
+  "Version": [
+    "0.3.1-1"
+  ]
+}

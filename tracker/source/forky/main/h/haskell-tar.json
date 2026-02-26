@@ -6,19 +6,19 @@
     "libghc-tar-dev, libghc-tar-prof, libghc-tar-doc"
   ],
   "Build-Depends": [
-    "cdbs, debhelper (\u003e= 10), ghc (\u003e= 8), ghc-prof, haskell-devscripts (\u003e= 0.13)"
+    "dh-sequence-haskell, debhelper-compat (= 13), ghc (\u003e= 8), ghc-prof, haskell-devscripts (\u003e= 0.16.46), libghc-directory-ospath-streaming-dev (\u003e= 0.2.1), libghc-directory-ospath-streaming-dev (\u003c\u003c 0.3), libghc-directory-ospath-streaming-prof, libghc-file-io-dev (\u003c\u003c 0.2), libghc-file-io-prof, libghc-quickcheck2-dev \u003c!nocheck\u003e, libghc-file-embed-dev \u003c!nocheck\u003e, libghc-tasty-dev \u003c!nocheck\u003e, libghc-tasty-quickcheck-dev \u003c!nocheck\u003e, libghc-temporary-dev \u003c!nocheck\u003e"
   ],
   "Build-Depends-Indep": [
-    "ghc-doc"
+    "ghc-doc, libghc-directory-ospath-streaming-doc, libghc-file-io-doc"
   ],
   "Checksums-Sha256": [
-    "d640a0b8af81343df8cfbb98296505794a93b4ab7b5f6d83991298591de48ee3 2290 haskell-tar_0.5.1.1-5.dsc b384449f62b2b0aa3e6d2cb1004b8060b01f21ec93e7b63e7af6d8fad8a9f1de 39155 haskell-tar_0.5.1.1.orig.tar.gz 88b72c7f2bae088c7e57f0fb0469c0f18ee1e652df56ba186f0281aec9c85756 4596 haskell-tar_0.5.1.1-5.debian.tar.xz"
+    "64445a6c356ccbbe7163bbf5d6f624d59b64c0886e673dc9c90ebf8736f3a411 2724 haskell-tar_0.6.4.0-3.dsc 7949a50004a80993000512079bc03ebcad4872414fc181f45b3883d743c0f3aa 54956 haskell-tar_0.6.4.0.orig.tar.gz e5016fdb9238f987657fa60ca9db93f1c4c3250ad1961368d82d2c58e3930147 4008 haskell-tar_0.6.4.0-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/h/haskell-tar"
   ],
   "Files": [
-    "0e4fda69914ef22de43d81df32f39c10 2290 haskell-tar_0.5.1.1-5.dsc 03938648a3d6d62cfd27d1f9d5d86f8b 39155 haskell-tar_0.5.1.1.orig.tar.gz 9b5a68c0863832a84dda90e99beaa5a4 4596 haskell-tar_0.5.1.1-5.debian.tar.xz"
+    "6e16c2989e60c7d6368edb25e357f1b3 2724 haskell-tar_0.6.4.0-3.dsc 4a1065b8761c9f2e35403c3ca303ff26 54956 haskell-tar_0.6.4.0.orig.tar.gz f90d1f354619aef64b9dfdb69a2be126 4008 haskell-tar_0.6.4.0-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "haskell"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.3"
   ],
   "Uploaders": [
     "Ilias Tsitsimpis \u003ciliastsi@debian.org\u003e, Clint Adams \u003cclint@debian.org\u003e"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-tar]"
   ],
   "Version": [
-    "0.5.1.1-5"
+    "0.6.4.0-3"
   ]
 }

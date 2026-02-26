@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-pycurl, python-pycurl-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, libcurl4-gnutls-dev, libgnutls28-dev, libpython3-all-dev, libssh2-1-dev, python3-all-dev:any, python3-bottle \u003c!nocheck\u003e, python3-flaky \u003c!nocheck\u003e, python3-pyflakes \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, vsftpd \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-sphinxdoc, python3-sphinx"
+  ],
+  "Checksums-Sha1": [
+    "ea8d412e3a5b0b2a550b9427269fac0c34364470 10508 pycurl_7.45.2-3.debian.tar.xz acfcb1a60f7000d74caa761afd498fe1d635e409 2503 pycurl_7.45.2-3.dsc 2f1cce3aa8048e8a951e2c66b144cfccbd7bf0b9 234245 pycurl_7.45.2.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "c724f14858695a2649375be3fc0b96056e68e5c08a6756bedd2f246704e29cba 10508 pycurl_7.45.2-3.debian.tar.xz 31f13324553be835ee3653ab7215194f4aff894de54cc6e95afbc2383f8a57c1 2503 pycurl_7.45.2-3.dsc 5730590be0271364a5bddd9e245c9cc0fb710c4cbacbdd95264a3122d23224ca 234245 pycurl_7.45.2.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "0bf9b0987b72bc16666b9e0178bb0d97381b5a85cad7543c2ba183ca13f92429ce00dcab9f419a7748e1fb3c38ab72e0e22f4e44d269f9a045b33551806fb344 10508 pycurl_7.45.2-3.debian.tar.xz ef2cee97afab3fabe2fd36c7a5a826991751120ad8e67b1f05f6b28a75387092da7f6575d8da17a7b07c4ec5352d18c3d0e0624b28c9cc47c3238497dc26e5d3 2503 pycurl_7.45.2-3.dsc 8a82346395acfc0bd37a8c4d8d2b17e5ab4602710308ed50f9ed88c223c73f15f5b1c95fc6191708e3bd9d647e4bc5ec91f740de433dd87e2ae0796ac79879ac 234245 pycurl_7.45.2.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/p/pycurl"
+  ],
+  "Files": [
+    "415853f7f1391b1faa5866c6060d82cd 10508 pycurl_7.45.2-3.debian.tar.xz 6e065a73f2f65d5d1c87788b6aa46450 2503 pycurl_7.45.2-3.dsc a11c9008ea0cd2498bcb827f5f60e052 234245 pycurl_7.45.2.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://pycurl.sourceforge.net"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "pycurl"
+  ],
+  "Package-List": [
+    "python-pycurl-doc deb doc optional arch=all python3-pycurl deb python optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, ca-certificates, libcurl4-gnutls-dev, python3-all, python3-bottle, python3-flaky, python3-pyflakes, python3-pytest, python3-setuptools, vsftpd"
+  ],
+  "Uploaders": [
+    "Scott Talbert \u003cswt@techie.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/pycurl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/pycurl.git"
+  ],
+  "Version": [
+    "7.45.2-3"
+  ]
+}

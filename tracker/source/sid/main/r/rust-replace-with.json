@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-replace-with-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "e124f5c0e423c994299cf7a2bfd754077a61543ed73e29a461dcffc4175238f2 1747 rust-replace-with_0.1.8-1.dsc 51743d3e274e2b18df81c4dc6caf8a5b8e15dbe799e0dca05c7617380094e884 11251 rust-replace-with_0.1.8.orig.tar.gz f1c3b7f83e2e753fc05228683ed4a7a0a31fb2f86bb93d941af95afe3b080c83 2748 rust-replace-with_0.1.8-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-replace-with"
+  ],
+  "Files": [
+    "9f5a20a26fc6476737036b867e9b6353 1747 rust-replace-with_0.1.8-1.dsc 2b71047ddb6ad233dd593a1c6c5e2c1b 11251 rust-replace-with_0.1.8.orig.tar.gz 3446973bb994067130e9d0508b1d3e35 2748 rust-replace-with_0.1.8-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/alecmocatta/replace_with"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-replace-with"
+  ],
+  "Package-List": [
+    "librust-replace-with-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/replace-with"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/replace-with]"
+  ],
+  "Version": [
+    "0.1.8-1"
+  ]
+}

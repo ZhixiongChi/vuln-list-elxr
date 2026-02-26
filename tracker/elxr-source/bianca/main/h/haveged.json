@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "haveged, haveged-udeb, libhavege-dev, libhavege2"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-apparmor"
+  ],
+  "Checksums-Sha1": [
+    "642e8d782b57899edbf68dda00c48d7f4844f5af 12196 haveged_1.9.19-12.debian.tar.xz cf0fa3a9dc3feb0112fc542240838fd3c4a1e0de 1547 haveged_1.9.19-12.dsc c285864c1f8370c8241938d8221decae93538850 352280 haveged_1.9.19.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "8255e78bba7815f3ea2b940ad34bcbd45ae6f97c7d92aec4a4a16a2f63eb2ac2 12196 haveged_1.9.19-12.debian.tar.xz 1c71f3823a04716a88970701b419f2f7cbbd665324163f6af362ebc549095408 1547 haveged_1.9.19-12.dsc 792b28a5318f73cc5f6558d026641aaaa1f5b6af778492db8841d08d64508755 352280 haveged_1.9.19.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "aa0231df01c1d33bcea80875dab76c2464ef10ca9f4bec0ef7e4f370cbe9b62f403da7796aeac937c42cce2604cd152d415bc489e59a5097162b197269a21079 12196 haveged_1.9.19-12.debian.tar.xz fd01fe966ec7360d08125798a72513719971ab1771aec431e3786eb35527cc42c6654b2d89988912465f62d14be9dad1c2b8892226dbeb34b01f91aa4142c4cd 1547 haveged_1.9.19-12.dsc a4d4660dd1a97f8ab7eb0e838a5ca1efad6444be1e110ae428f481ed508d3eb21f2b00b5f05ba3b1993a0c938145fff91309faa1f55c52e14fba221491149bc6 352280 haveged_1.9.19.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/haveged"
+  ],
+  "Files": [
+    "eff8e7b95c1d9d1e1427279f5a85077b 12196 haveged_1.9.19-12.debian.tar.xz 88353b7ea779c333dc86ac007645a7c7 1547 haveged_1.9.19-12.dsc cb087580515ba90d7821bd4b05739ce8 352280 haveged_1.9.19.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://issihosts.com/haveged/"
+  ],
+  "Maintainer": [
+    "Daniel Baumann \u003cdaniel@debian.org\u003e"
+  ],
+  "Package": [
+    "haveged"
+  ],
+  "Package-List": [
+    "haveged deb misc optional arch=linux-any haveged-udeb udeb debian-installer optional arch=linux-any libhavege-dev deb libdevel optional arch=linux-any libhavege2 deb libs optional arch=linux-any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, dieharder, grep"
+  ],
+  "Uploaders": [
+    "nicoo \u003cnicoo@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://forgejo.debian.net/linux/haveged"
+  ],
+  "Vcs-Git": [
+    "https://forgejo.debian.net/linux/haveged"
+  ],
+  "Version": [
+    "1.9.19-12"
+  ]
+}

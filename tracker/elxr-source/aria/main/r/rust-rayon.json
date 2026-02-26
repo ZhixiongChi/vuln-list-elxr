@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-rayon-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-either-1-dev \u003c!nocheck\u003e, librust-rayon-core-1+default-dev (\u003e= 1.10.0-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "d113c1df504e1157feb82dc6dd531f359901bf38 3004 rust-rayon_1.6.1-1.debian.tar.xz b8d7618cc7d0eca290e1376262d752e1836ac7f6 2341 rust-rayon_1.6.1-1.dsc 30bfa4aeb70bb29807d07b34ad957a0b67da63d3 166330 rust-rayon_1.6.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "bcd9e109282d89ecf884f3d014e331e13c9ca280f5587066bc84cf95142ff992 3004 rust-rayon_1.6.1-1.debian.tar.xz dce1d5f2a2e84b39a76e84ce3d9a09cebe4faf794751a902c03ade5e4955bf70 2341 rust-rayon_1.6.1-1.dsc 6db3a213adf02b3bcfd2d3846bb41cb22857d131789e01df434fb7e7bc0759b7 166330 rust-rayon_1.6.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "c037fdd32a7ab9e508d1cf0355c028f916d8a3983340621e80ceb09b77d5c3aee45f3e48ac23f4c9506c2f136037f26d75c99a6841172297346b640cd3033c11 3004 rust-rayon_1.6.1-1.debian.tar.xz 0146676293cd32ff89bb12f8fc3bb91deb00e73fd4ad5c24b2488221823f1dee9ca78c203c9545d7cefd641a2fba088d45c948ddbe576ee2e5d89569e03e3ef6 2341 rust-rayon_1.6.1-1.dsc 2e03585170e59f4388359817d67a43cd10a2244382615ae39bf84210db03a6dfec3b75d8a23800b8faaa31f45e8df4c44fbc343f02e18dd3dc0572c207791e73 166330 rust-rayon_1.6.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-rayon"
+  ],
+  "Files": [
+    "8ae9a05a2ccbd7c32eb4be71aa2f11c9 3004 rust-rayon_1.6.1-1.debian.tar.xz 4495002d7e07f393a443ae436ea5302b 2341 rust-rayon_1.6.1-1.dsc 7dbb3b72a7481777ded6afc7b15b37bb 166330 rust-rayon_1.6.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-rayon"
+  ],
+  "Package-List": [
+    "librust-rayon-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-lazy-static-1+default-dev, librust-rand-0.8+default-dev, librust-rand-xorshift-0.3+default-dev"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rayon"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/rayon]"
+  ],
+  "Version": [
+    "1.6.1-1"
+  ]
+}

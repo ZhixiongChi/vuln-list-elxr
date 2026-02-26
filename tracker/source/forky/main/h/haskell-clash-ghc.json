@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libghc-clash-ghc-dev, libghc-clash-ghc-prof, libghc-clash-ghc-doc, haskell-clash-ghc-utils"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), haskell-devscripts-minimal | haskell-devscripts (\u003e= 0.13), dh-sequence-haskell, ghc (\u003e= 9.6), ghc-prof, libghc-clash-lib-dev (\u003e= 1.8.4), libghc-clash-lib-dev (\u003c\u003c 1.8.5), libghc-clash-lib-prof, libghc-clash-prelude-dev (\u003e= 1.8.4), libghc-clash-prelude-dev (\u003c\u003c 1.8.5), libghc-clash-prelude-prof, libghc-data-binary-ieee754-dev (\u003e= 0.4.4), libghc-data-binary-ieee754-dev (\u003c\u003c 0.6), libghc-data-binary-ieee754-prof, libghc-extra-dev (\u003e= 1.6), libghc-extra-dev (\u003c\u003c 1.9), libghc-extra-prof, libghc-ghc-typelits-extra-dev (\u003e= 0.3.2), libghc-ghc-typelits-extra-dev (\u003c\u003c 0.5), libghc-ghc-typelits-extra-prof, libghc-ghc-typelits-knownnat-dev (\u003e= 0.6), libghc-ghc-typelits-knownnat-dev (\u003c\u003c 0.8), libghc-ghc-typelits-knownnat-prof, libghc-ghc-typelits-natnormalise-dev (\u003e= 0.6), libghc-ghc-typelits-natnormalise-dev (\u003c\u003c 0.8), libghc-ghc-typelits-natnormalise-prof, libghc-hashable-dev (\u003e= 1.1.2.3), libghc-hashable-dev (\u003c\u003c 1.6), libghc-hashable-prof, libghc-lens-dev (\u003e= 4.10), libghc-lens-dev (\u003c\u003c 5.4), libghc-lens-prof, libghc-primitive-dev (\u003e= 0.5.0.1), libghc-primitive-dev (\u003c\u003c 1.0), libghc-primitive-prof, libghc-reflection-dev (\u003e= 2.1.2), libghc-reflection-dev (\u003c\u003c 3.0), libghc-reflection-prof, libghc-split-dev (\u003e= 0.2.3), libghc-split-dev (\u003c\u003c 0.3), libghc-split-prof, libghc-string-interpolate-dev (\u003e= 0.3), libghc-string-interpolate-dev (\u003c\u003c 0.4), libghc-string-interpolate-prof, libghc-uniplate-dev (\u003e= 1.6.12), libghc-uniplate-dev (\u003c\u003c 1.8), libghc-uniplate-prof, libghc-unordered-containers-dev (\u003e= 0.2.1.0), libghc-unordered-containers-dev (\u003c\u003c 0.3), libghc-unordered-containers-prof, libghc-utf8-string-dev (\u003e= 1.0.0.0), libghc-utf8-string-dev (\u003c\u003c 1.1.0.0), libghc-utf8-string-prof, libghc-vector-dev (\u003e= 0.11), libghc-vector-dev (\u003c\u003c 1.0), libghc-vector-prof"
+  ],
+  "Build-Depends-Indep": [
+    "ghc-doc, libghc-clash-lib-doc, libghc-clash-prelude-doc, libghc-data-binary-ieee754-doc, libghc-extra-doc, libghc-ghc-typelits-extra-doc, libghc-ghc-typelits-knownnat-doc, libghc-ghc-typelits-natnormalise-doc, libghc-hashable-doc, libghc-lens-doc, libghc-primitive-doc, libghc-reflection-doc, libghc-split-doc, libghc-string-interpolate-doc, libghc-uniplate-doc, libghc-unordered-containers-doc, libghc-utf8-string-doc, libghc-vector-doc"
+  ],
+  "Checksums-Sha256": [
+    "794b9ae85ae0ca6586564702aaa5b8a720d26373303955a8eadd8649b6ab492b 4518 haskell-clash-ghc_1.8.4-1.dsc eb114e703a697c6155341cccb59b67865035ef5405b4576929d6a16a8bc7f5b5 911781 haskell-clash-ghc_1.8.4.orig.tar.gz 7f752496d5783870829f1b2577d3844950ac366cf9bccf124c9a28a51bea6d25 3508 haskell-clash-ghc_1.8.4-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/haskell-clash-ghc"
+  ],
+  "Files": [
+    "b3d999e548923409521f6418b28a3ad5 4518 haskell-clash-ghc_1.8.4-1.dsc a64acf0ceeb1593ef7bd1abade8f28c1 911781 haskell-clash-ghc_1.8.4.orig.tar.gz c105d607fdb8b0224214bd1ae93ace33 3508 haskell-clash-ghc_1.8.4-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://clash-lang.org/"
+  ],
+  "Maintainer": [
+    "Debian Haskell Group \u003cpkg-haskell-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "haskell-clash-ghc"
+  ],
+  "Package-List": [
+    "haskell-clash-ghc-utils deb misc optional arch=any libghc-clash-ghc-dev deb haskell optional arch=any libghc-clash-ghc-doc deb doc optional arch=all libghc-clash-ghc-prof deb haskell optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Uploaders": [
+    "Scott Talbert \u003cswt@techie.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-clash-ghc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-clash-ghc]"
+  ],
+  "Version": [
+    "1.8.4-1"
+  ]
+}

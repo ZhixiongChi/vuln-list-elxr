@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libghc-base64-dev, libghc-base64-prof, libghc-base64-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), haskell-devscripts-minimal | haskell-devscripts (\u003e= 0.13), dh-sequence-haskell, ghc (\u003e= 9.4), ghc-prof, libghc-text-short-dev (\u003e= 0.1), libghc-text-short-dev (\u003c\u003c 0.2), libghc-text-short-prof"
+  ],
+  "Build-Depends-Indep": [
+    "ghc-doc, libghc-text-short-doc"
+  ],
+  "Checksums-Sha256": [
+    "0c8f8891144dd979deb0a5850f8458b121c25db5d177bed9d0c22e7166b677fd 2501 haskell-base64_1.0-1.dsc 7942239f1804945fd6d319a953f26c53b64518076cd294141fda983f2ff1b2b6 30399 haskell-base64_1.0.orig.tar.gz 1f6614afc0646fd62727648529f0b1a476156027aead0c4b3dc0787e8679049a 2908 haskell-base64_1.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/h/haskell-base64"
+  ],
+  "Files": [
+    "8eb3277bccafe65b0d801c5b3fb33da0 2501 haskell-base64_1.0-1.dsc 6d6f99a38172bfc5b21520bcdfec2e6f 30399 haskell-base64_1.0.orig.tar.gz 77135778ca1044e3cffdb8ddf3ff3572 2908 haskell-base64_1.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/emilypi/base64"
+  ],
+  "Maintainer": [
+    "Debian Haskell Group \u003cpkg-haskell-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "haskell-base64"
+  ],
+  "Package-List": [
+    "libghc-base64-dev deb haskell optional arch=any libghc-base64-doc deb doc optional arch=all libghc-base64-prof deb haskell optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Uploaders": [
+    "Ilias Tsitsimpis \u003ciliastsi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-base64"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-base64]"
+  ],
+  "Version": [
+    "1.0-1"
+  ]
+}

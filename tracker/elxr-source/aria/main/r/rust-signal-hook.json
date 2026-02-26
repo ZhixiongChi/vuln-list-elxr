@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-signal-hook-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e, librust-signal-hook-registry-1+default-dev (\u003e= 1.4-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "f21547b70d8cffadb6fa8e771831295d4d478ba6 4652 rust-signal-hook_0.3.14-1.debian.tar.xz 4bd1c9662c30a874adc9c090416c3ef232e5f16f 2295 rust-signal-hook_0.3.14-1.dsc 3fd6597fe8cfe40ec79be408b8b7e21ba7ea348a 49446 rust-signal-hook_0.3.14.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "814998a576f58589ec2939c50118c7ae70a794509b6fdd58867d701e5541b9e2 4652 rust-signal-hook_0.3.14-1.debian.tar.xz 60624987df2954024745301a8c0042ad51bf2e753df4db1e1233370322e76075 2295 rust-signal-hook_0.3.14-1.dsc a253b5e89e2698464fc26b545c9edceb338e18a89effeeecfea192c3025be29d 49446 rust-signal-hook_0.3.14.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "538b636ae3375608834f45f3a71b3de9aa0244c4832464c11f9343b70b98bf02b31f1cbaf8d1b85cea17ecd9f54b91ce1267fc9b6ea7d80d7b788f62fb50c22a 4652 rust-signal-hook_0.3.14-1.debian.tar.xz b250f8633e68b406c13f870c17c4c0d30d2f8a56f44d59d4e557ee102ea61377f823e0cf749430ce9c26a203307062467491b584d68c34b8e14ae03df21246d9 2295 rust-signal-hook_0.3.14-1.dsc 32ecf012e46b94d3a87f2e56cd4c03a97886013309a4e52ef3e7769ed14b49ae2814bb6346cfc9766525dcf15db4182d260d3c9311134e3e6f5301c58729442a 49446 rust-signal-hook_0.3.14.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-signal-hook"
+  ],
+  "Files": [
+    "47638c06d99a51bb227f5dfafef8217f 4652 rust-signal-hook_0.3.14-1.debian.tar.xz 1bfb8a685d74bcb51f879235381e3b32 2295 rust-signal-hook_0.3.14-1.dsc 8532a59ccbacb95018a128b2d7b2601a 49446 rust-signal-hook_0.3.14.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-signal-hook"
+  ],
+  "Package-List": [
+    "librust-signal-hook-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-serial-test-0.5+default-dev"
+  ],
+  "Uploaders": [
+    "Julio Merino \u003cjulio@meroh.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/signal-hook"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/signal-hook]"
+  ],
+  "Version": [
+    "0.3.14-1"
+  ]
+}

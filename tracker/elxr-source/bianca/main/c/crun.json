@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "crun, crio-backend-crun"
+  ],
+  "Build-Depends": [
+    "automake, debhelper-compat (= 13), go-md2man, golang-github-opencontainers-image-spec-dev, golang-github-opencontainers-specs-dev (\u003e= 1.2.0-2~), gperf, libcap-dev, libcriu-dev [amd64 arm64 ppc64el s390x], libseccomp-dev, libsystemd-dev, libwasmedge-dev [amd64 arm64], libyajl-dev, pkgconf, python3"
+  ],
+  "Checksums-Sha1": [
+    "5ed09f4fe24f12b8b4e0705ff8676c24882604c4 19360 crun_1.25.1-0elxr13u1.debian.tar.xz 16a67c8f427649482d2dfe0e200eeff519be1e62 1767 crun_1.25.1-0elxr13u1.dsc 3d5284c7449046a9087fdd70661c4940d159c11f 1867772 crun_1.25.1.orig.tar.gz ff1441f0bea6f0a5453709b94e2624779d9aaeb3 488 crun_1.25.1.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha256": [
+    "df5cee40ef83919c43698dc00ad99037fbb24375b5f45b3cb9011a7a1fdd865a 19360 crun_1.25.1-0elxr13u1.debian.tar.xz a7fb0158107bf5545edfbee0672eb411542945c00bb97ca6fe14b581bd4edee7 1767 crun_1.25.1-0elxr13u1.dsc 3d23b434fe98711a041c608e1f11dc775d8b74f547167c2b9a640825edd6730a 1867772 crun_1.25.1.orig.tar.gz 424d6892f5a39b5d390a29d804000fdee963e759182913d8a32b0d58957cc0f0 488 crun_1.25.1.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha512": [
+    "7cb72224e1355fc3b33a504391aa2b9557bee065a844cef7c7cd2efdf37ef26b938c2f73499568181326a15efa426609bca58724f791c5218f960a2bf2f302a6 19360 crun_1.25.1-0elxr13u1.debian.tar.xz dba57018b0de771b80b901e69bdf1ef13f30324a3a243f9a065de6c1eb0694440d1d6796916cd9ddda40f1bc84545731cc4bb24ebdce3df1a2e79d70ac558be2 1767 crun_1.25.1-0elxr13u1.dsc 46ec1efbd0532c2c531daad770670082bb57c5d11959f328ee6d20c4e4d6ba2a050150883fd01475f94850eb3ee8ce4bc8654f76cee3f83edebf208cd32d1cf8 1867772 crun_1.25.1.orig.tar.gz 1033905eae08269be5c4a4ff39b60e34de694d0104398e327a9324661d6d8e7af643ef9b0448d65bf12a528ec9e6525b110e8f0f66bc0f7dc2a4b9efde4626cc 488 crun_1.25.1.orig.tar.gz.asc"
+  ],
+  "Directory": [
+    "pool/main/c/crun"
+  ],
+  "Files": [
+    "33a8afe751fc73f5a4df94bdf237e4db 19360 crun_1.25.1-0elxr13u1.debian.tar.xz 668ae2ee91a654bd240c60f2d9ce2479 1767 crun_1.25.1-0elxr13u1.dsc f730517a323d6bf22b2ead2cf33beb95 1867772 crun_1.25.1.orig.tar.gz e15edbdfd12fb201e6481f156c426df4 488 crun_1.25.1.orig.tar.gz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/containers/crun"
+  ],
+  "Maintainer": [
+    "William Lyu \u003cWilliam.Lyu@windriver.com\u003e"
+  ],
+  "Package": [
+    "crun"
+  ],
+  "Package-List": [
+    "crio-backend-crun deb admin optional arch=all crun deb admin optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@recommends@, iptables, python-is-python3"
+  ],
+  "Uploaders": [
+    "Reinhard Tartler \u003csiretart@tauware.de\u003e, Tom MacDougall \u003cTom.MacDougall@windriver.com\u003e, William Lyu \u003cWilliam.Lyu@windriver.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://gitlab.com/elxr/cloud/packages/crun"
+  ],
+  "Vcs-Git": [
+    "https://gitlab.com/elxr/cloud/packages/crun.git"
+  ],
+  "Version": [
+    "1.25.1-0elxr13u1"
+  ]
+}

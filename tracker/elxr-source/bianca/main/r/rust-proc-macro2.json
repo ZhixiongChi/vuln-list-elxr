@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-proc-macro2-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-unicode-ident-1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "071e3be57b657d718becbecae3a8ac4f7bf3a63c 3540 rust-proc-macro2_1.0.92-1.debian.tar.xz 5b7389e2640abc69af4beef8f248982ea65626ce 1956 rust-proc-macro2_1.0.92-1.dsc 052f189b704240fc8293ecfb13ab2fd2029123ee 52353 rust-proc-macro2_1.0.92.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "9865340e21a5b7aec3da6e58c0d89e4d329cd9bb90281ea50873135ca90ef0c9 3540 rust-proc-macro2_1.0.92-1.debian.tar.xz 6e3fa3db2cd9dafac69a2cf165103ae4c7165cba79f8a02a8042414bbd8012ab 1956 rust-proc-macro2_1.0.92-1.dsc 37d3544b3f2748c54e147655edb5025752e2303145b5aefb3c3ea2c78b973bb0 52353 rust-proc-macro2_1.0.92.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "70b3a7ba53350e28001ac8d04e060de5a3616aa55c7d7d8d8be658fc37cdba0bd1b7273ee2fe8b1bba3005e68e47743b0fc20ef83cde73e43cfab32c5d76268f 3540 rust-proc-macro2_1.0.92-1.debian.tar.xz 02cc851279db45f35e4b2f4c386667098e9e3ef1d03c4beb4bbaad4efa78a7b8622c6642cc9691fb94517dc331018cdc47b9576175f84bc64cbaec5218c68e31 1956 rust-proc-macro2_1.0.92-1.dsc e614f08acc0a7e97ef580479cf5b682378df1ca16f09bfb2296ebb3490a435229dea9d682c621c54ce57e8e1d3b7803eb8ff83c88bd02e07228dba6d02f14aee 52353 rust-proc-macro2_1.0.92.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-proc-macro2"
+  ],
+  "Files": [
+    "402553afb793cfc617c4c96921ee2e9e 3540 rust-proc-macro2_1.0.92-1.debian.tar.xz a3ddfbaea647007340f4319e586fb61b 1956 rust-proc-macro2_1.0.92-1.dsc b566bf4833b38514dc848f1cc075a281 52353 rust-proc-macro2_1.0.92.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dtolnay/proc-macro2"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-proc-macro2"
+  ],
+  "Package-List": [
+    "librust-proc-macro2-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-flate2-1+default-dev, librust-quote-1-dev, librust-rayon-1+default-dev, librust-rustversion-1+default-dev, librust-tar-0.4+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/proc-macro2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/proc-macro2]"
+  ],
+  "Version": [
+    "1.0.92-1"
+  ]
+}

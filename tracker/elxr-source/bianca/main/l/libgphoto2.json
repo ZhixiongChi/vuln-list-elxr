@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgphoto2-dev, libgphoto2-dev-doc, libgphoto2-port12t64, libgphoto2-6t64, libgphoto2-l10n"
+  ],
+  "Build-Conflicts": [
+    "liblockdev1-dev"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), libcurl4-openssl-dev, libexif-dev, libgd-dev, libjpeg-dev, libltdl-dev, libtool, libusb-1.0-0-dev, libxml2-dev, pkgconf, zlib1g-dev"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, rdfind \u003c!nodoc\u003e, symlinks \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "ff0ce8258e0dab1053f133c0572aa649abffa894 100892 libgphoto2_2.5.31-4.debian.tar.xz d4263b04a50a7f84829c358c2ba7e9c37d7b3053 2874 libgphoto2_2.5.31-4.dsc f15ff60fc0dccfb92310373de5a5a18b2354c3e5 6322264 libgphoto2_2.5.31.orig.tar.xz 2bdc9a701a4be194113520fff083a3a7b9d7586d 833 libgphoto2_2.5.31.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "7c6b963aeb0701b3a2716ae6c1b292ed676c456bb2ec708a1574a7b479aeb85b 100892 libgphoto2_2.5.31-4.debian.tar.xz 4442a2048fe59b0a2103228712d05a1903a2024711bb5ea13c32541017a2ca64 2874 libgphoto2_2.5.31-4.dsc 8fc7bf40f979459509b87dd4ff1aae9b6c1c2b4724d37db576081eec15406ace 6322264 libgphoto2_2.5.31.orig.tar.xz 30543d0b846444babdef6e55472519848d5176fa052e9452e356a1afcaf5a2a7 833 libgphoto2_2.5.31.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "1cabe0c05d6a6341424af0a6b7fee246748ac893abd5d79c301de189f42317aecc8b0f2520f4e7e99ea9c3dbeaa9e1642443db52045448309f6b78e622709167 100892 libgphoto2_2.5.31-4.debian.tar.xz 460787f8ff0c512adef2843a258499555f9757464569353cf3e14f0d1220891ef07f4b19b07f7455141bc08b66822a3bd46f69b52727478a0e3fe510db4d47f2 2874 libgphoto2_2.5.31-4.dsc 1061a676488aff2cad12a5ee49742be6d18750221ef808d69116763c2b357d38c1372db62933dfa8fd8411758acb97b8e3a40a5d4f37b8c563e981fd4ae4bb1f 6322264 libgphoto2_2.5.31.orig.tar.xz da5a774e33895b77ce4fa06fdfc5d7e677e2d8ee70b7177be1d992198c00d1aace989619e55d9cae3ace12f6ba4676226a5e399dca21e5dd58d2a2bb06f5ffdd 833 libgphoto2_2.5.31.orig.tar.xz.asc"
+  ],
+  "Directory": [
+    "pool/main/libg/libgphoto2"
+  ],
+  "Files": [
+    "a976a0bdd26b4807f448c73ffb43a1c1 100892 libgphoto2_2.5.31-4.debian.tar.xz 2daa65400eb16dc2ec491919687770f7 2874 libgphoto2_2.5.31-4.dsc a09a3ee4286c196c4287f61792c345e8 6322264 libgphoto2_2.5.31.orig.tar.xz f32aba9194e519b35cbe9d1f109452b2 833 libgphoto2_2.5.31.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/gphoto/libgphoto2/"
+  ],
+  "Maintainer": [
+    "Debian PhotoTools Maintainers \u003cpkg-phototools-devel@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "libgphoto2"
+  ],
+  "Package-List": [
+    "libgphoto2-6t64 deb libs optional arch=any libgphoto2-dev deb libdevel optional arch=any libgphoto2-dev-doc deb doc optional arch=all profile=!nodoc libgphoto2-l10n deb localization optional arch=all libgphoto2-port12t64 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Ferenc Wágner \u003cwferi@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-phototools-team/libgphoto2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-phototools-team/libgphoto2.git"
+  ],
+  "Version": [
+    "2.5.31-4"
+  ]
+}

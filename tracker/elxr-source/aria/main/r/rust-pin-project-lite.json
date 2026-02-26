@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-pin-project-lite-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "5ae81f5e1b673caa5f35960599159f425cd091e1 2720 rust-pin-project-lite_0.2.9-1.debian.tar.xz 99d2cc7d687fb51b68e3f01d1d5dacf630e37318 2353 rust-pin-project-lite_0.2.9-1.dsc 1aa65aea84aeb50a19a722d0e1cc920dcf842a10 27713 rust-pin-project-lite_0.2.9.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "1cdfa96fb79c7b6c573a14fe38dc761f81fc0ebd2fd3bd52bf048f4a13532c79 2720 rust-pin-project-lite_0.2.9-1.debian.tar.xz e20218f8f1dab051fda5dff232e865d7d09705b8aa6d1c1d46be7baf111bd120 2353 rust-pin-project-lite_0.2.9-1.dsc e0a7ae3ac2f1173085d398531c705756c94a4c56843785df85a60c1a0afac116 27713 rust-pin-project-lite_0.2.9.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "01d1c75d3bc931d73118eb896a13cd8b7ab0dbadc7c861201c3ee9378f7b55319dcd308c132948109f27fbdaeb3af0c02e8d353e57f1c14a1794d3edb8bf913c 2720 rust-pin-project-lite_0.2.9-1.debian.tar.xz 6deb0f9dfb073e1c41c9e789f95e3365affce7511864f6167ab164fd40ca62c48029f0b3cca174c104b22354b923ab835c42cf4bddf5b985bf9f24a3488ed621 2353 rust-pin-project-lite_0.2.9-1.dsc cef0b77233adca712db1183f780732ea577cf1b27c2643de221d54c837c75ce749f907e24a967be7474812c7682cba613a3fc5d553a9578a1b80569da0e562e4 27713 rust-pin-project-lite_0.2.9.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-pin-project-lite"
+  ],
+  "Files": [
+    "404f9bfc4746c6914d0a11ba68d88166 2720 rust-pin-project-lite_0.2.9-1.debian.tar.xz 8fb34708fa5abb6663a5afdb6dd78b95 2353 rust-pin-project-lite_0.2.9-1.dsc ce6dde2ea2691fdd97632fb8c9b3e042 27713 rust-pin-project-lite_0.2.9.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-pin-project-lite"
+  ],
+  "Package-List": [
+    "librust-pin-project-lite-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-rustversion-1+default-dev, librust-static-assertions-1+default-dev, librust-trybuild-1+default-dev"
+  ],
+  "Uploaders": [
+    "Fabian Grünbichler \u003cf.gruenbichler@proxmox.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/pin-project-lite"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/pin-project-lite]"
+  ],
+  "Version": [
+    "0.2.9-1"
+  ]
+}

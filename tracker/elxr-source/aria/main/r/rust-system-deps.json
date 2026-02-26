@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-system-deps-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-expr-0.10+default-dev \u003c!nocheck\u003e, librust-heck-0.4+default-dev \u003c!nocheck\u003e, librust-pkg-config-0.3+default-dev \u003c!nocheck\u003e, librust-toml-0.5-dev \u003c!nocheck\u003e, librust-version-compare-0.1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "8965cc073ea4995a98e423a85f3b8806c4a4a9b2 4304 rust-system-deps_6.0.2-2.debian.tar.xz 9a8433c684f94a3a9c6340e7046417e2a113892d 2508 rust-system-deps_6.0.2-2.dsc 6ffbdbd086eac31ed486ac60a418611e3b0efeae 22860 rust-system-deps_6.0.2.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "d0e9c70e3a437536b189881288ad7111339eb86f10ec94e546f0be984a80e99c 4304 rust-system-deps_6.0.2-2.debian.tar.xz 48e099bac594e924cc1b1bd3bbbf0e32f23a85b6fd332c2422f8968543c1afba 2508 rust-system-deps_6.0.2-2.dsc bda2ef6490a469f4ddb116b7a47428ce24047ddfddeed8d5fa210c42c612e4fb 22860 rust-system-deps_6.0.2.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "40d9e2ea2c7211b1d5e9c27747264402fd1ad403bc83d33f719710794e428f2ba5caec4d665e3b86e36c56166502dca9357bd564ecb4db8242b8628577a5dadd 4304 rust-system-deps_6.0.2-2.debian.tar.xz 9e3b931149cea6da1920b14ba21533a47ab2a9a3be6f2feb425be07eb52f3603172a0502ea10de78810e3c932fc37a2ea24b8cee2cbed4d1b41b8193f848b00e 2508 rust-system-deps_6.0.2-2.dsc 132dd8fff17b1e548991a36fdc428974f215b0f9468e1f5e6be53f60efa14bab386ddb978ea84cf0591423c5c259caf90828a068b3522571859699c2d186a614 22860 rust-system-deps_6.0.2.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-system-deps"
+  ],
+  "Files": [
+    "7b9c6255657230f48741adf18815e4bf 4304 rust-system-deps_6.0.2-2.debian.tar.xz 67e1edd90bf3ce89663cdcddc803f1f2 2508 rust-system-deps_6.0.2-2.dsc 5fef70624e2d3b1e63c597499840e051 22860 rust-system-deps_6.0.2.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-system-deps"
+  ],
+  "Package-List": [
+    "librust-system-deps-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-assert-matches-1+default-dev, librust-itertools-0.10+default-dev, librust-lazy-static-1+default-dev"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/system-deps"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/system-deps]"
+  ],
+  "Version": [
+    "6.0.2-2"
+  ]
+}

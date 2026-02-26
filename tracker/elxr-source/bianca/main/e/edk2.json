@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ovmf, ovmf-ia32, qemu-efi-arm, qemu-efi-aarch64, qemu-efi-riscv64, qemu-efi-loongarch64, efi-shell-ia32, efi-shell-x64, efi-shell-arm, efi-shell-aa64, efi-shell-riscv64, efi-shell-loongarch64"
+  ],
+  "Build-Depends": [
+    "bc, debhelper-compat (= 12), dh-exec, dosfstools, dpkg (\u003e= 1.19.3), gcc-aarch64-linux-gnu, gcc-arm-linux-gnueabi, gcc-multilib [i386], gcc-riscv64-linux-gnu, gcc-loongarch64-linux-gnu, iasl, lsb-release, mtools, nasm, python3, python3-pexpect, qemu-utils, qemu-system-arm (\u003e= 1:2.12+dfsg), qemu-system-x86 (\u003e= 1:2.12+dfsg), uuid-dev, xorriso"
+  ],
+  "Build-Indep-Architecture": [
+    "amd64"
+  ],
+  "Checksums-Sha1": [
+    "775cb978f0b86754e9a0407438835391d7648d60 53652 edk2_2025.02-8+deb13u1.debian.tar.xz 5b05e3950c28a553b834e36adc04798e08120fc0 2656 edk2_2025.02-8+deb13u1.dsc d51df4522dc83fc300af9b5bd8483c4a65add20d 29646336 edk2_2025.02.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "e2a7f6fc58640818416a028d6d5e9dfc255697a7cdc60c14566c236df6bd9b08 53652 edk2_2025.02-8+deb13u1.debian.tar.xz 9e2115e7d75a3930b082216ef3378cca040fde049c86f4547e8ed6da1515ffee 2656 edk2_2025.02-8+deb13u1.dsc b63b6053d6d89c74d9291f9e96fde1584be99e6fb9c169ba9511505129d6b049 29646336 edk2_2025.02.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "321c34aef407851e86ba8bf6cf77e77567f192b0f2e835b85e6d26ff57c571abc69677cfda1945a5728f6208e1e00ebc18fd8969dce58d31dc4547504197f5c3 53652 edk2_2025.02-8+deb13u1.debian.tar.xz 6cf9122f9a12b27c88fbe4d08c83ed47dd3c46af2f3c85aefb70a2427f304348afc5b19e6b6027af5ae8da69fb22f4db3ba2ea5d934f495e291e89aab84ec02b 2656 edk2_2025.02-8+deb13u1.dsc acd851634fbbaf553e3ea0dda7390f22cf49b4285ecf1dfbfe29d5605f2d804bf9e2ce290b45f5151e050647839b30804ebad92f500075d133306748c3cc36ca 29646336 edk2_2025.02.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/e/edk2"
+  ],
+  "Files": [
+    "54e1509cef31e2e8074c7feee6b60605 53652 edk2_2025.02-8+deb13u1.debian.tar.xz ee9de3d45dd7f5c67f34ce3cf6a2a13a 2656 edk2_2025.02-8+deb13u1.dsc e56d64b473916304addf6e6f0b4574ff 29646336 edk2_2025.02.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.tianocore.org"
+  ],
+  "Maintainer": [
+    "Debian QEMU Team \u003cpkg-qemu-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "edk2"
+  ],
+  "Package-List": [
+    "efi-shell-aa64 deb misc optional arch=all efi-shell-arm deb misc optional arch=all efi-shell-ia32 deb misc optional arch=all efi-shell-loongarch64 deb misc optional arch=all efi-shell-riscv64 deb misc optional arch=all efi-shell-x64 deb misc optional arch=all ovmf deb misc optional arch=all ovmf-ia32 deb misc optional arch=all qemu-efi-aarch64 deb misc optional arch=all qemu-efi-arm deb misc optional arch=all qemu-efi-loongarch64 deb misc optional arch=all qemu-efi-riscv64 deb misc optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dosfstools, grub-efi-amd64-signed, grub-efi-arm64-signed, mtools, openssl, python3-pexpect, qemu-system-arm, qemu-system-loongarch64, qemu-system-riscv64, qemu-system-x86, sbsigntool, shim-signed, xorriso"
+  ],
+  "Uploaders": [
+    "dann frazier \u003cdannf@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qemu-team/edk2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qemu-team/edk2.git"
+  ],
+  "Version": [
+    "2025.02-8+deb13u1"
+  ]
+}

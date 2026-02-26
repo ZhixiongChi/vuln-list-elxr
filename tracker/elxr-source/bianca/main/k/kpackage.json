@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "kpackagetool5, libkf5package-data, libkf5package-dev, libkf5package-doc, libkf5package5"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake (\u003e= 3.16~), doxygen, extra-cmake-modules (\u003e= 5.116.0~), libkf5archive-dev (\u003e= 5.116.0~), libkf5coreaddons-dev (\u003e= 5.116.0~), libkf5doctools-dev (\u003e= 5.116.0~), libkf5i18n-dev (\u003e= 5.116.0~), libqt5sql5-sqlite, pkg-kde-tools (\u003e\u003e 0.15.15), qtbase5-dev (\u003e= 5.15.2~), qttools5-dev, qttools5-dev-tools (\u003e= 5.4), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "703e8aca455124d1bcce97cafe08e923c3e77e68 12696 kpackage_5.116.0-1.debian.tar.xz 8ad13d36f258a335dc49a07934d034cc60babcba 2944 kpackage_5.116.0-1.dsc 05cc3fff5651729c30adca47fab2721bfdc41776 188864 kpackage_5.116.0.orig.tar.xz e25c377770b62c8335be5336cd3bcbaf4aef8ed9 488 kpackage_5.116.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "ded8ff81be6c865a3fd522be3a43084364bacc4b0cad5a69cf3dfbe984a66375 12696 kpackage_5.116.0-1.debian.tar.xz 3fe774620bc58f50721f369b424ede7d69735a244ee6878c7bfa12eadac642d2 2944 kpackage_5.116.0-1.dsc 5705b185c72b09f19215fa659fc628dc74529bb7d3f649d1fc953ae5a7ebf1be 188864 kpackage_5.116.0.orig.tar.xz 23ddb2856386ec15d3cf0292845d98bf8d82ad78d9e6e308444b5c5f7578580a 488 kpackage_5.116.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "e06a5e460362c70c7b2e3b4345399f7aaaf24d0510b77322c55162d1b9a7ed8f3e37cf1f9721d680ce2e2af584f1c7232d2c9b947d28916b163bcd9a70a897a3 12696 kpackage_5.116.0-1.debian.tar.xz 7ccffa89e32f0e3ed760c5602b9422261f8e67350776f0faf62c9aad35ec1e4587c2ff99891ac222a8c1177d36621a323c85a7892d208f264239f8f9510f0558 2944 kpackage_5.116.0-1.dsc 15129fecdf53db1a0fa32fb4ebfc82f7b3d7edd9591032267d80b61458e652813f3d18f406a473ca75c202fb7e401815ee290c3c30d3c54920562bdf00a53632 188864 kpackage_5.116.0.orig.tar.xz cfb960e0db28dc5064e9f7210d0b9ca1e87afd1d0d0ad28adbc00f2fa859ebaa007dc46e1a7fbc5a3f6f15d8194e4c1df0639e85f0a889d9ac550931e1472a2c 488 kpackage_5.116.0.orig.tar.xz.asc"
+  ],
+  "Directory": [
+    "pool/main/k/kpackage"
+  ],
+  "Files": [
+    "4ca755afa7c27f2cc3cf4f26c923962b 12696 kpackage_5.116.0-1.debian.tar.xz db2727696cf26ff4b69ba7de662463b3 2944 kpackage_5.116.0-1.dsc 57ac1a37c4db119e568c7ce35fd11776 188864 kpackage_5.116.0.orig.tar.xz 552c694a518ec829fcf6777baa26d4e2 488 kpackage_5.116.0.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/frameworks/kpackage"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "kpackage"
+  ],
+  "Package-List": [
+    "kpackagetool5 deb kde optional arch=any libkf5package-data deb libs optional arch=all libkf5package-dev deb libdevel optional arch=any libkf5package-doc deb doc optional arch=all libkf5package5 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-acc, exuberant-ctags"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/kpackage"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/kpackage.git"
+  ],
+  "Version": [
+    "5.116.0-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libmumps-dev, libmumps-headers-dev, libmumps-seq-dev, libmumps-5.5, libmumps-seq-5.5, libmumps-scotch-5.5, libmumps-scotch-dev, libmumps-ptscotch-5.5, libmumps-ptscotch-dev, libmumps64-dev, libmumps64-seq-dev, libmumps-64pord-5.5, libmumps-64pord-seq-5.5, libmumps-64pord-scotch-5.5, libmumps64-scotch-dev, libmumps-64pord-ptscotch-5.5, libmumps64-ptscotch-dev, mumps-test"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gfortran, libblas-dev | libopenblas-dev | libatlas-base-dev | libblas.so, liblapack-dev | libopenblas-dev | libatlas-base-dev | liblapack.so, libptscotch-dev (\u003e= 5.1.7.dfsg-4), libscalapack-mpi-dev (\u003e= 2.0.2), libscotch-dev, mpi-default-dev"
+  ],
+  "Checksums-Sha1": [
+    "f63b9f518fbbe8e1113cf763ad0944c472269a29 21528 mumps_5.5.1-1.debian.tar.xz 7df8b422eb3620d0727545ab5e957c8e2f580f75 3428 mumps_5.5.1-1.dsc cf2c5bec20b730f6a12853c887655bb802a090c7 4229448 mumps_5.5.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "fd5d510517bb1c0d91117ee9e394631aa00f1d5f8939430d8d11452b19a94ada 21528 mumps_5.5.1-1.debian.tar.xz 835d5cc6dafabbac3c6e2ee04eaa3a2729d94443a5a9a013e08cf6ce965a7096 3428 mumps_5.5.1-1.dsc 1abff294fa47ee4cfd50dfd5c595942b72ebfcedce08142a75a99ab35014fa15 4229448 mumps_5.5.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "3d43f1ee297f1de7261108fc6e5467f844948c6f0a75d4c286cec38c1464c327eaf5244dc7181507902d0c7842242805186d3447c7a74f82043b5d9dcea3f20e 21528 mumps_5.5.1-1.debian.tar.xz 3b4059b15827f184a0c5283967f29f32c1f64983986eb5ac563d1b140300c75b72e22f97d674d05a03ae1a0a24ec0efd0838dac0606d46d23522c5bede0208bb 3428 mumps_5.5.1-1.dsc 51ebc680ada41f5d622a353778233d6306f78ac25e30a3a5ba181b16961093215d4a2e715727340f6865abd0cf0a90d88665b13ddc36007f76eb8fcbc0ed5adf 4229448 mumps_5.5.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/m/mumps"
+  ],
+  "Files": [
+    "c181accac09fe8f53db76b6f1a737fad 21528 mumps_5.5.1-1.debian.tar.xz 8810853dfe3230f27e3e492e35337ba6 3428 mumps_5.5.1-1.dsc da26c4b43d53a9a6096775245cee847f 4229448 mumps_5.5.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://mumps-solver.org/"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "mumps"
+  ],
+  "Package-List": [
+    "libmumps-5.5 deb libs optional arch=any libmumps-64pord-5.5 deb libs optional arch=any libmumps-64pord-ptscotch-5.5 deb libs optional arch=any libmumps-64pord-scotch-5.5 deb libs optional arch=any libmumps-64pord-seq-5.5 deb libs optional arch=any libmumps-dev deb libdevel optional arch=any libmumps-headers-dev deb libdevel optional arch=all libmumps-ptscotch-5.5 deb libs optional arch=any libmumps-ptscotch-dev deb libdevel optional arch=any libmumps-scotch-5.5 deb libs optional arch=any libmumps-scotch-dev deb libdevel optional arch=any libmumps-seq-5.5 deb libs optional arch=any libmumps-seq-dev deb libdevel optional arch=any libmumps64-dev deb libdevel optional arch=any libmumps64-ptscotch-dev deb libdevel optional arch=any libmumps64-scotch-dev deb libdevel optional arch=any libmumps64-seq-dev deb libdevel optional arch=any mumps-test deb math optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "\"Adam C. Powell, IV\" \u003chazelsct@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/mumps"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/mumps.git"
+  ],
+  "Version": [
+    "5.5.1-1"
+  ]
+}

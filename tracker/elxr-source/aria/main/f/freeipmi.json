@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "kfreebsd-any linux-any all"
+  ],
+  "Binary": [
+    "freeipmi, freeipmi-bmc-watchdog, freeipmi-common, freeipmi-ipmidetect, freeipmi-ipmiseld, freeipmi-tools, libfreeipmi-dev, libfreeipmi17, libipmiconsole-dev, libipmiconsole2, libipmidetect-dev, libipmidetect0, libipmimonitoring-dev, libipmimonitoring6"
+  ],
+  "Build-Depends": [
+    "chrpath, debhelper-compat (= 13), dh-exec, libgcrypt20-dev, libsystemd-dev [linux-any], pkg-config, systemd [linux-any], texinfo"
+  ],
+  "Checksums-Sha1": [
+    "5bc254296ac39d85da484db92976554a28591df7 25124 freeipmi_1.6.10-1.debian.tar.xz de66be96f8e8f77d8a19666a8e801fd0286fb408 3202 freeipmi_1.6.10-1.dsc 203746de717c289504e5e0a975dca08d53f7aca0 3431062 freeipmi_1.6.10.orig.tar.gz ed9c0b3ebd30be3260b17fac9db8e87c91a12850 163 freeipmi_1.6.10.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha256": [
+    "f238e30e4c3292a9042ac7f05526d91f4e8f6f0375633870813a963145e7e94f 25124 freeipmi_1.6.10-1.debian.tar.xz ad17f010151af7f07127b20bfbb31a91ced0480ae23552c92d66549f4f1c590c 3202 freeipmi_1.6.10-1.dsc fce4a1e401b6189c103d2b1203261d0bfbf45985c6f3fa44c51b186b13fe7a7d 3431062 freeipmi_1.6.10.orig.tar.gz fed38b38b6200e8e6f3dce2066b240fdf227695ed92f5405eac4b8e86d5b49c6 163 freeipmi_1.6.10.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha512": [
+    "87ce4aeec3e4d6928747b0efb828db4ade2e994d06f83f96715a8b20c7e05223fee5b8337ff305ad02098c2bc546b2a03081e25248ae91573de62a8d186b7045 25124 freeipmi_1.6.10-1.debian.tar.xz bc102db7c1b7ecbfc0d2a14b1302474b07bb65d6be5e9c3a7542f7587740617f25ba16565953b2080e46b45357aeeb86b6dc539a38d626237b54e77e0e7e223d 3202 freeipmi_1.6.10-1.dsc 90b6b78cdd119c2a1f332f007333aa6df70c6e3de0fd81ab007025392ee7cb7a01ab4a7a174d1f2e760c55d78f21ebbbe9667af661ccdd669e4b54edb1346937 3431062 freeipmi_1.6.10.orig.tar.gz 9373b3444b7d5bfd476b61e91644839e96f307e8a3725de68e603b1cc731ceb2d267c54555f8c6fde8cdbcdc97e6b3c6d43275e715ad4bdeee40779c43b6a0ef 163 freeipmi_1.6.10.orig.tar.gz.asc"
+  ],
+  "Directory": [
+    "pool/main/f/freeipmi"
+  ],
+  "Files": [
+    "8953ac866c6681b4318a394329011409 25124 freeipmi_1.6.10-1.debian.tar.xz c33fea3c973c4b8d7869c4ce4ba3604a 3202 freeipmi_1.6.10-1.dsc e46012a94d506d6b47689ca2082d8eca 3431062 freeipmi_1.6.10.orig.tar.gz 9214715445cc1e06972de70bbd611825 163 freeipmi_1.6.10.orig.tar.gz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnu.org/software/freeipmi/"
+  ],
+  "Maintainer": [
+    "Fabio Fantoni \u003cfantonifabio@tiscali.it\u003e"
+  ],
+  "Package": [
+    "freeipmi"
+  ],
+  "Package-List": [
+    "freeipmi deb admin optional arch=all freeipmi-bmc-watchdog deb admin optional arch=kfreebsd-any,linux-any freeipmi-common deb admin optional arch=all freeipmi-ipmidetect deb admin optional arch=kfreebsd-any,linux-any freeipmi-ipmiseld deb admin optional arch=kfreebsd-any,linux-any freeipmi-tools deb admin optional arch=kfreebsd-any,linux-any libfreeipmi-dev deb libdevel optional arch=kfreebsd-any,linux-any libfreeipmi17 deb libs optional arch=kfreebsd-any,linux-any libipmiconsole-dev deb libdevel optional arch=kfreebsd-any,linux-any libipmiconsole2 deb libs optional arch=kfreebsd-any,linux-any libipmidetect-dev deb libdevel optional arch=kfreebsd-any,linux-any libipmidetect0 deb libs optional arch=kfreebsd-any,linux-any libipmimonitoring-dev deb libdevel optional arch=kfreebsd-any,linux-any libipmimonitoring6 deb libs optional arch=kfreebsd-any,linux-any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Bernd Zeimetz \u003cbzed@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/freeipmi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/freeipmi.git"
+  ],
+  "Version": [
+    "1.6.10-1"
+  ]
+}

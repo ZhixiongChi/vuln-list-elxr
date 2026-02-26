@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "corosync, corosync-notifyd, corosync-vqsim, corosync-doc, libcfg7, libcmap4, libcorosync-common4, libcpg4, libquorum5, libsam4, libvotequorum8, libcfg-dev, libcmap-dev, libcorosync-common-dev, libcpg-dev, libquorum-dev, libsam-dev, libvotequorum-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dctrl-tools, dwz (\u003e= 0.13-5), groff, libdbus-1-dev, libknet-dev, libnozzle-dev, libqb-dev (\u003e= 1.0.3), libreadline-dev, libsnmp-dev, libstatgrab-dev [linux-any], libsystemd-dev [linux-any], pkgconf, zlib1g-dev"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, graphviz"
+  ],
+  "Checksums-Sha1": [
+    "c48d792880e0a458e35790b80c5790952133bbc7 28364 corosync_3.1.9-2.debian.tar.xz eb737822d497157e30ce3a2c3c52d017e16fb560 3495 corosync_3.1.9-2.dsc 2ceb27fe91b45d64eabbfec59ae1937e71697296 1173752 corosync_3.1.9.orig.tar.gz 75542a3860618304074d6834b864d57623248846 833 corosync_3.1.9.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha256": [
+    "213f3ae942851b1c0685cefc1dd222bd0f5001e1b6eb7b246a472148a755b65f 28364 corosync_3.1.9-2.debian.tar.xz 1c51c08432b5d9627a859a94a54cf249b61de4efccd9f667e25a2f15d1f34fbf 3495 corosync_3.1.9-2.dsc 203354bbddee1a97b3c50a076eae89c635f406dd674ccaefc94bb9092acd9535 1173752 corosync_3.1.9.orig.tar.gz 56ec7d4946a7cba06a5ba7d9010fa1dab96fb0473e617ca08bf9adcc461e8c0d 833 corosync_3.1.9.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha512": [
+    "aa12e3d1e997ab4e32b4f5564e0ce917822c6b0efe7da6c9aa269246d8294d22ab663184094dd0d4c31a49c0e4a9c31efe827cbd18a49c2dc2d2c6fb25a1b002 28364 corosync_3.1.9-2.debian.tar.xz f88ae811a7fdb9efbef94b9da0cc9c5f30bd8f63ed66cd76a6e66b5291d5df82c6c9a887009289af135054bf43b932f04cf6748882db11197fa91d8e04231f95 3495 corosync_3.1.9-2.dsc d5332c65535dd40e3bee48912ebf2e71c55380b3dba93c36ff8b74090edf3ec44b69685cd11fda3732e4b0dab0b2954f08be94d772fcff6aaf9a4a846ef2e4cc 1173752 corosync_3.1.9.orig.tar.gz c1e093dc944b44b73bef35b416775c70e37aaf6e3ba5727fbc5bb50e65ad253173d5c1d9f148834e1830da5f026e6c1a0e8516903020c39c97f6df2dc247ccc6 833 corosync_3.1.9.orig.tar.gz.asc"
+  ],
+  "Directory": [
+    "pool/main/c/corosync"
+  ],
+  "Files": [
+    "ed24f6d264f3d9d38ec5f4f14fa426dd 28364 corosync_3.1.9-2.debian.tar.xz 559c407bcff892f4e628836b72d1dbd3 3495 corosync_3.1.9-2.dsc 4d2ec0131fbce1e30773903a19d3f064 1173752 corosync_3.1.9.orig.tar.gz e8b971df39b3c496d56ae723909e8710 833 corosync_3.1.9.orig.tar.gz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://corosync.github.io/corosync/"
+  ],
+  "Maintainer": [
+    "Debian HA Maintainers \u003cdebian-ha-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "corosync"
+  ],
+  "Package-List": [
+    "corosync deb admin optional arch=any corosync-doc deb doc optional arch=all corosync-notifyd deb admin optional arch=any corosync-vqsim deb admin optional arch=any libcfg-dev deb libdevel optional arch=any libcfg7 deb libs optional arch=any libcmap-dev deb libdevel optional arch=any libcmap4 deb libs optional arch=any libcorosync-common-dev deb libdevel optional arch=any libcorosync-common4 deb libs optional arch=any libcpg-dev deb libdevel optional arch=any libcpg4 deb libs optional arch=any libquorum-dev deb libdevel optional arch=any libquorum5 deb libs optional arch=any libsam-dev deb libdevel optional arch=any libsam4 deb libs optional arch=any libvotequorum-dev deb libdevel optional arch=any libvotequorum8 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "logrotate"
+  ],
+  "Uploaders": [
+    "Adrian Vondendriesch \u003cadrian.vondendriesch@credativ.de\u003e, Ferenc Wágner \u003cwferi@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ha-team/corosync"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ha-team/corosync.git"
+  ],
+  "Version": [
+    "3.1.9-2"
+  ]
+}

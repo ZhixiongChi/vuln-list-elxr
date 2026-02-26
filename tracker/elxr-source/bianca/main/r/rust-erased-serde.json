@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-erased-serde-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-serde-1+std-dev (\u003e= 1.0.166-~~) \u003c!nocheck\u003e, librust-serde-1-dev (\u003e= 1.0.166-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "d81636b4d1f5ce1877b48c4176c33fff88cab428 2980 rust-erased-serde_0.3.31-1.debian.tar.xz 6c6e09a1157fa3ee915166d04bbeb5641d3a9911 2508 rust-erased-serde_0.3.31-1.dsc bdaced5acf31a4c27351726d5b4eb625c93977ce 24182 rust-erased-serde_0.3.31.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "642dda7289766e2c96b5593cdbd232bea59dbe52a1d109b09964de09d8316553 2980 rust-erased-serde_0.3.31-1.debian.tar.xz 99cb50e32c47bf5a81eb6b8105e5f1707b6f351f8bc8f47e027dc4a46acd3f8f 2508 rust-erased-serde_0.3.31-1.dsc 6c138974f9d5e7fe373eb04df7cae98833802ae4b11c24ac7039a21d5af4b26c 24182 rust-erased-serde_0.3.31.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "e44fe0c60c6d2e8a44a8c8d94e320cb84ee1b08a01b6c82e7f0513b8cca14baef56182c92a5b0e7130de4c0eae32fda89f51610def117f926e3548d86d6fcf6b 2980 rust-erased-serde_0.3.31-1.debian.tar.xz 550d0c0e1f7b8ddfc77a2da547112c0545ec0b4d0be56385a84c376213fae35bdca545cb45bfe9ec914ae4620f83f26b0e8410373b2e4d52c6fb9db614395fcf 2508 rust-erased-serde_0.3.31-1.dsc 7b6e32d759661f3dac18518c9af290efa7ce05ed861bbf3b97c7013c3fa06c06146d43a39dc48d5d5af3adc6db00df5cb9d4121573549da2059f9fd2ff55526b 24182 rust-erased-serde_0.3.31.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-erased-serde"
+  ],
+  "Files": [
+    "6d41fe52bf2993098fe98d9ff15a15a9 2980 rust-erased-serde_0.3.31-1.debian.tar.xz 73e21a6e0641e2097623743434e3dc06 2508 rust-erased-serde_0.3.31-1.dsc 8f4c1bea688391b96a267c35301a180a 24182 rust-erased-serde_0.3.31.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-erased-serde"
+  ],
+  "Package-List": [
+    "librust-erased-serde-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-rustversion-1+default-dev, librust-serde-cbor-0.11+default-dev, librust-serde-derive-1+default-dev, librust-serde-json-1+default-dev, librust-trybuild-1+default-dev, librust-trybuild-1+diff-dev"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/erased-serde"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/erased-serde]"
+  ],
+  "Version": [
+    "0.3.31-1"
+  ]
+}

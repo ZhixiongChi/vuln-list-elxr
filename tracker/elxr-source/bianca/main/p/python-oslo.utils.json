@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-oslo.utils-doc, python3-oslo.utils"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr (\u003e= 6.1.0), python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "bandit, libcrypt1, python3-coverage, python3-ddt, python3-debtcollector, python3-eventlet, python3-fixtures \u003c!nocheck\u003e, python3-fixtures \u003c!nodoc\u003e, python3-hacking, python3-iso8601, python3-netaddr (\u003e= 0.10.1), python3-openstackdocstheme \u003c!nodoc\u003e, python3-oslo.config, python3-oslo.i18n, python3-oslotest, python3-packaging, python3-psutil, python3-pyparsing, python3-stestr, python3-testscenarios, python3-testtools, python3-tz, python3-yaml, subunit, qemu-utils"
+  ],
+  "Checksums-Sha1": [
+    "e174e27655316f9817f8cc414ed0e0b6c494c716 5480 python-oslo.utils_8.2.0-4.debian.tar.xz d81e36ee9accdfd99abbd9a077163739598e0f16 2818 python-oslo.utils_8.2.0-4.dsc b4a775e4f0709744276a0f2006fa3c60194800b4 96708 python-oslo.utils_8.2.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "8cbcc1f8f99f49ebdd4be6d525ac6328bb2356fac29434d3df84d2d0d5cd1e30 5480 python-oslo.utils_8.2.0-4.debian.tar.xz d811c21a662a15892f895f3f1cdebe014b9c4d554d9ec46584fe9821242da798 2818 python-oslo.utils_8.2.0-4.dsc 28dd1b1dc2f465d4c0ab43a8f1dd1511a6052dfcb254a43de5af8f892a6a53df 96708 python-oslo.utils_8.2.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "d34dc930ecab62de0f27b7ee26328a8060d406bbcd5424e7053aaa7bd99fa1f00667bd07e0ed2ab2fbb34f1140ebbb3fb70218516c6a071b8f465b1aa2a4172e 5480 python-oslo.utils_8.2.0-4.debian.tar.xz 4f4328aa679de492c981b48e22d52f73b8352ccf519f5fb9f150c57888d40a0e00de5227e121a509419440df681c652b329421509053db4b5bcc02fac7735c1e 2818 python-oslo.utils_8.2.0-4.dsc fa0445dbe882a4f4bfaacbcc5c389aed95073cf43487689ab2a80b5652a82031575e34944d714644fd9df69dbd190ff12588680a536051f805cec64ea868e066 96708 python-oslo.utils_8.2.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-oslo.utils"
+  ],
+  "Files": [
+    "62ab03a1ede3d03cdc375d59efd9f745 5480 python-oslo.utils_8.2.0-4.debian.tar.xz 29c38f93c82b58597dc4d7381ae025cd 2818 python-oslo.utils_8.2.0-4.dsc a4416d5a0917febad8c51dedc801f75a 96708 python-oslo.utils_8.2.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://launchpad.net/oslo"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-oslo.utils"
+  ],
+  "Package-List": [
+    "python-oslo.utils-doc deb doc optional arch=all profile=!nodoc python3-oslo.utils deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, Corey Bryant \u003ccorey.bryant@canonical.com\u003e, Michal Arbet \u003cmichal.arbet@ultimum.io\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/oslo/python-oslo.utils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/oslo/python-oslo.utils.git"
+  ],
+  "Version": [
+    "8.2.0-4"
+  ]
+}

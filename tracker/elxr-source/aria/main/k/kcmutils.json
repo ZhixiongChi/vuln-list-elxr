@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libkf5kcmutils-bin, libkf5kcmutils-data, libkf5kcmutils-dev, libkf5kcmutils-doc, libkf5kcmutils5, libkf5kcmutilscore5, qml-module-org-kde-kcmutils"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.16~), debhelper-compat (= 13), dh-sequence-kf5, doxygen, extra-cmake-modules (\u003e= 5.103.0~), libkf5configwidgets-dev (\u003e= 5.103.0~), libkf5coreaddons-dev (\u003e= 5.103.0~), libkf5declarative-dev (\u003e= 5.103.0~), libkf5guiaddons-dev (\u003e= 5.103.0~), libkf5i18n-dev (\u003e= 5.103.0~), libkf5itemviews-dev (\u003e= 5.103.0~), libkf5service-dev (\u003e= 5.103.0~), libkf5xmlgui-dev (\u003e= 5.103.0~), libqt5sql5-sqlite, pkg-kde-tools (\u003e= 0.15.15ubuntu1~), qtbase5-dev (\u003e= 5.15.2~), qtdeclarative5-dev (\u003e= 5.15.2~), qttools5-dev, qttools5-dev-tools (\u003e= 5.4), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "079c824abb75b91f3d760b07351723f56da33c37 16040 kcmutils_5.103.0-3.debian.tar.xz de2e431f5ceffd06dd9b823c85551b07e0c330af 3285 kcmutils_5.103.0-3.dsc e1e1092a2a769bda4f0f41b4f13f70634f4022e1 2482756 kcmutils_5.103.0.orig.tar.xz 9f7de6146e992df71a7504411d4b9e34c4ac92f7 488 kcmutils_5.103.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "ad86a0ba73b12a122911d6862626bd267d0ec79704dd1866bf44893ae43ca6bb 16040 kcmutils_5.103.0-3.debian.tar.xz 88ce4c6a87cecbb1af5a291420cf8fe92a6ee213dbfdd22536d5425fa88964ec 3285 kcmutils_5.103.0-3.dsc dc1536de18131957f189506b20255c1bb86196c3eb808da5dc347f93cf96f9f5 2482756 kcmutils_5.103.0.orig.tar.xz c0c60ebb17f9afbaeb1b67eed49eac57112328f88cb34482102676640a8a4c30 488 kcmutils_5.103.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "1b0656dbf41647b2960bd893d454a3fbfc0d9e660c9496e9b18a19e22cd78a2757ed4d0816880b6256de61ac6b55a5d2ded052852330607dc1cc247a37d1765e 16040 kcmutils_5.103.0-3.debian.tar.xz 8db320e4ce8b79b1698d87baa554c4594514149c38f3c0850e45ee894f9003d57e018b3a136de54628c14aa50b08b6ed870f136545909a1d3c39a6f35ee9ca4b 3285 kcmutils_5.103.0-3.dsc 5c37ae9d7327c360195d7c3aee8c4afff30ebabad9fcae2dafb60dfc83839bddef2d10c8a3866fb40612a9f79a0cfafd6f954bd25a8fcc075dce0af9e5a36b12 2482756 kcmutils_5.103.0.orig.tar.xz 766476ac6c1bf249f099d25eeeb8a3222ce1528f2fb5090593d5e33eacec9230edda9b58793a81424c4a61691c89a96ee3f6d3434a7681a8f7ec31fc73a56ae3 488 kcmutils_5.103.0.orig.tar.xz.asc"
+  ],
+  "Directory": [
+    "pool/main/k/kcmutils"
+  ],
+  "Files": [
+    "9dbc3bbaccd79dd74d7d30302ff82b61 16040 kcmutils_5.103.0-3.debian.tar.xz de5d6bd80e30dbbe43a3324a3c5d0221 3285 kcmutils_5.103.0-3.dsc da08e26fda501c382c1f2a5b40e6485d 2482756 kcmutils_5.103.0.orig.tar.xz 4bae0a724a5a819d39b16590cad61ffb 488 kcmutils_5.103.0.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/frameworks/kcmutils"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "kcmutils"
+  ],
+  "Package-List": [
+    "libkf5kcmutils-bin deb libs optional arch=any libkf5kcmutils-data deb libs optional arch=all libkf5kcmutils-dev deb libdevel optional arch=any libkf5kcmutils-doc deb doc optional arch=all libkf5kcmutils5 deb libs optional arch=any libkf5kcmutilscore5 deb libs optional arch=any qml-module-org-kde-kcmutils deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-acc, exuberant-ctags"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/kcmutils"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/kcmutils.git"
+  ],
+  "Version": [
+    "5.103.0-3"
+  ]
+}

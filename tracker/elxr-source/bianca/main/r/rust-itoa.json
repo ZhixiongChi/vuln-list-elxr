@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-itoa-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.36) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "cfa37e722cdbc26fdea2bc92d06d2c1b6f0592e9 3464 rust-itoa_1.0.14-1.debian.tar.xz c75d7fd29c3c5a12cf5c3825eebb654cf272edb5 2179 rust-itoa_1.0.14-1.dsc 6f28624e230d6e59ad57485bd9dabe0e87799c63 11210 rust-itoa_1.0.14.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "87fffd98e437760a9ea1fece191bef1097d70dc3728045020edb492aca0d37ea 3464 rust-itoa_1.0.14-1.debian.tar.xz 5acc1ae13bec1a4f801eefc03ddc973e3fcab82e5b62b304fe0acf8a4ba7ff40 2179 rust-itoa_1.0.14-1.dsc d75a2a4b1b190afb6f5425f10f6a8f959d2ea0b9c2b1d79553551850539e4674 11210 rust-itoa_1.0.14.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "49f2924839b5c3a5fae89a8d062b3587369f128a74119dbc93eb35258b09dd1a44e327176a5b3a1fc442a736d28a549ff30fe46af3984007c1d2892d651528c1 3464 rust-itoa_1.0.14-1.debian.tar.xz bf4ad4b66ffe3115b2a395884ca867c587d2d978f7127111922b931876902a130c0b73d301e4db91f08294fbb0ee401f2b647702bacaafd58e0789313ba0cc77 2179 rust-itoa_1.0.14-1.dsc ea2d38df373652ddacccd11e610dfdad4e3ae7f0d476514e6ac58092733c817bd834e8cd88c3bc4178dd5a646ba628ae626195e0aa407e8534ae3c2a7b049987 11210 rust-itoa_1.0.14.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-itoa"
+  ],
+  "Files": [
+    "16548831c4e893e79cfe5008ca2a9e1c 3464 rust-itoa_1.0.14-1.debian.tar.xz 97a97e693c43bdef5c99d49a5050c8d0 2179 rust-itoa_1.0.14-1.dsc c125f6c48f6f09ad96e234ff25a1c198 11210 rust-itoa_1.0.14.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/dtolnay/itoa"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-itoa"
+  ],
+  "Package-List": [
+    "librust-itoa-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e, kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/itoa"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/itoa]"
+  ],
+  "Version": [
+    "1.0.14-1"
+  ]
+}

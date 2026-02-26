@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libdecor-0-0, libdecor-0-dev, libdecor-0-plugin-1-cairo, libdecor-0-plugin-1-gtk, libdecor-tests"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libcairo2-dev, libdbus-1-dev, libegl-dev \u003c!noinsttest\u003e, libgl-dev \u003c!noinsttest\u003e, libgtk-3-dev, libopengl-dev \u003c!noinsttest\u003e, libpango1.0-dev, libwayland-dev, libxkbcommon-dev \u003c!noinsttest\u003e, meson, pkgconf, wayland-protocols"
+  ],
+  "Checksums-Sha1": [
+    "9c387aec89f8d67a4a9b1c841fe0db611d60846f 6416 libdecor-0_0.2.2-2.debian.tar.xz b4e0c941bb81cea6fce6d2128d7f23ec5a06629d 2776 libdecor-0_0.2.2-2.dsc 06d36c8b8fcf179a31f498df9ab57dfde977069d 63748 libdecor-0_0.2.2.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "f125dba1784bd034acf2d961498c7e4ee120cdacc02fe77d5872caece14cc87f 6416 libdecor-0_0.2.2-2.debian.tar.xz 7c796af81a53942dd8e206193ee4943170deba5e3a05c6dd24478c8740b18021 2776 libdecor-0_0.2.2-2.dsc 40a1d8be07d8b1f66e8fb98a1f4a84549ca6bf992407198a5055952be80a8525 63748 libdecor-0_0.2.2.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "bc5e7ba9b298f8df6af02d5378f5be6acd9ff22a3045dd28446ef2c401c3e5d9712b03c176a3af2d49003558f10db7bc45e0c301dbf552df47cc5a7eb4a68326 6416 libdecor-0_0.2.2-2.debian.tar.xz 2498c8004106566d2cebcfef9382651588b3e4ee07b1759627f2e22a004b8120597acb54f2120ce48df7b5f64ab9fb1679a735e3553647700537f4de9dbcfdcc 2776 libdecor-0_0.2.2-2.dsc ddaaa75f1dc983e6d59e168896f8044cf6ac761675db6af410c6d2186bdc66942c98f36eb7a6e2836ce02dbb98189a80db30b7cef3dbaf49c7aae47c3eee22cc 63748 libdecor-0_0.2.2.orig.tar.gz"
+  ],
+  "Dgit": [
+    "442fbdeba455f1395affb2cd141677f3a870724e debian archive/debian/0.2.2-2 https://git.dgit.debian.org/libdecor-0"
+  ],
+  "Directory": [
+    "pool/main/libd/libdecor-0"
+  ],
+  "Files": [
+    "be4f18a2e7de4a4ceda362c8441f533b 6416 libdecor-0_0.2.2-2.debian.tar.xz c78a60d16a61d4c6b5c5e7b2df102fed 2776 libdecor-0_0.2.2-2.dsc 94223f6d80a9ae542655f70cc2c95eaf 63748 libdecor-0_0.2.2.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.freedesktop.org/libdecor/libdecor"
+  ],
+  "Maintainer": [
+    "Debian SDL packages maintainers \u003cpkg-sdl-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libdecor-0"
+  ],
+  "Package-List": [
+    "libdecor-0-0 deb libs optional arch=any libdecor-0-dev deb libdevel optional arch=any libdecor-0-plugin-1-cairo deb libs optional arch=any libdecor-0-plugin-1-gtk deb libs optional arch=any libdecor-tests deb misc optional arch=any profile=!noinsttest"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, libdbus-1-dev, libwayland-dev, libxkbcommon-dev, pkgconf, wayland-protocols, weston"
+  ],
+  "Uploaders": [
+    "Christian Rauch \u003cRauch.Christian@gmx.de\u003e, Simon McVittie \u003csmcv@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/sdl-team/libdecor-0"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/sdl-team/libdecor-0.git"
+  ],
+  "Version": [
+    "0.2.2-2"
+  ]
+}

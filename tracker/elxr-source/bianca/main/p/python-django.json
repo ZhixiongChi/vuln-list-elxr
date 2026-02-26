@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-django, python-django-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python, dpkg-dev (\u003e= 1.17.14), libgdal-dev \u003c!nocheck\u003e, libsqlite3-mod-spatialite \u003c!nocheck\u003e, pybuild-plugin-pyproject, python-django-formtools-doc \u003c!nodoc\u003e, python-psycopg2-doc \u003c!nodoc\u003e, python3-all, python3-asgiref \u003c!nocheck\u003e, python3-bcrypt \u003c!nocheck\u003e, python3-doc \u003c!nodoc\u003e, python3-docutils \u003c!nodoc\u003e, python3-jinja2 \u003c!nocheck\u003e, python3-numpy \u003c!nocheck\u003e, python3-pil \u003c!nocheck\u003e, python3-selenium \u003c!nocheck\u003e, python3-setuptools, python3-sphinx, python3-sqlparse \u003c!nocheck\u003e, python3-tblib \u003c!nocheck\u003e, python3-tz \u003c!nocheck\u003e, python3-yaml \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "libjs-jquery"
+  ],
+  "Checksums-Sha1": [
+    "127821ee20a0c26d27a9b8a19becbc27bf2e29bd 34008 python-django_4.2.23-1.debian.tar.xz 2621969be872e0ef12e20f575b3598e0be4aa7ab 2790 python-django_4.2.23-1.dsc 7a4a57c5120a34a04fce64fa2163b20608df1258 10448384 python-django_4.2.23.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "c271d5acea114c87db0062f967b4f2393dc45239b86a55af77f9e523031a8102 34008 python-django_4.2.23-1.debian.tar.xz c3ad537fb794403cf4dfaceb597d254d41c77352cc48f2fd60bd23a9bce4eb99 2790 python-django_4.2.23-1.dsc 42fdeaba6e6449d88d4f66de47871015097dc6f1b87910db00a91946295cfae4 10448384 python-django_4.2.23.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "a7f2271ac5d89d968cfebcc8856a3c3d4873ea346704e6b9b0910d4257129d3921bf62b3a25180ca34a10e9dbfda442457dc21dd4d95fcbe622633877dba4888 34008 python-django_4.2.23-1.debian.tar.xz 58cfa6987b959ddde61c5403e585f9fd56976b44ba93b85314a916783f4322c429f93c896b2c1323d85b6fff23d725250cf0ac47ab4764d18a5e1d9094f56471 2790 python-django_4.2.23-1.dsc 3461a83b5c6cad1db8b1a54fa44735c6ec6d1aadb476973f3a76f8c1c3ffc49549ad8aded28baf05be439bdf8f9890f79b4908f16655804eb805a74dbb0e6ab3 10448384 python-django_4.2.23.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/p/python-django"
+  ],
+  "Files": [
+    "5b471298ec693905177bd4341c81cd2b 34008 python-django_4.2.23-1.debian.tar.xz f467f0a27c6d87d0d6d69dd87747b91f 2790 python-django_4.2.23-1.dsc a9b0a17dcadcb8a718059d9fedf617d9 10448384 python-django_4.2.23.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.djangoproject.com/"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-django"
+  ],
+  "Package-List": [
+    "python-django-doc deb doc optional arch=all python3-django deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Luke Faraone \u003clfaraone@debian.org\u003e, Raphaël Hertzog \u003chertzog@debian.org\u003e, Brian May \u003cbam@debian.org\u003e, Chris Lamb \u003clamby@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/python-django"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/python-django.git"
+  ],
+  "Version": [
+    "3:4.2.23-1"
+  ]
+}

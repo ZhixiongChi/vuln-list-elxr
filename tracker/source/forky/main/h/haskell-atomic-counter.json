@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libghc-atomic-counter-dev, libghc-atomic-counter-prof, libghc-atomic-counter-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), haskell-devscripts-minimal | haskell-devscripts (\u003e= 0.16.42), dh-sequence-haskell, ghc, ghc-prof, libghc-quickcheck2-dev, libghc-quickcheck2-prof, libghc-async-dev (\u003e= 2), libghc-async-prof (\u003e= 2), libghc-tasty-dev, libghc-tasty-prof, libghc-tasty-quickcheck-dev, libghc-tasty-quickcheck-prof"
+  ],
+  "Build-Depends-Indep": [
+    "ghc-doc"
+  ],
+  "Checksums-Sha256": [
+    "1f121218fab404047bbdf17aad2593a26543dc0f4cc988516c353ee17b6338ad 3089 haskell-atomic-counter_0.1.2.4-2.dsc b101e8dedc66da051a16022287d9b05c2dcb2f54f973fb09298b3486cd63ec2f 17426 haskell-atomic-counter_0.1.2.4.orig.tar.gz 49c8072cdb298812f8cb07500b3e7e1bdc17ba450520646ea658b9b2b5346be8 2032 haskell-atomic-counter_0.1.2.4-2.debian.tar.xz"
+  ],
+  "Description": [
+    "mutable counters modifiable with atomic operations This package defines Counter type that can be safely modified concurrently from multiple threads. The type supports only few operations, namely read, write, cas (compare and swap), add, subtract and a few bitwise ones like or, and xor. . Most common use case is having a shared counter that multiple threads increment. Another potential use case is lightweight locks."
+  ],
+  "Directory": [
+    "pool/main/h/haskell-atomic-counter"
+  ],
+  "Files": [
+    "15a01503a048ecd6249cc71ebbb6c5ac 3089 haskell-atomic-counter_0.1.2.4-2.dsc 452f16e24705ae916b61f00a195e7291 17426 haskell-atomic-counter_0.1.2.4.orig.tar.gz 12aa2a3c7221ebf8b6fc0924bbcf2465 2032 haskell-atomic-counter_0.1.2.4-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/sergv/atomic-counter"
+  ],
+  "Maintainer": [
+    "Debian Haskell Group \u003cpkg-haskell-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "haskell-atomic-counter"
+  ],
+  "Package-List": [
+    "libghc-atomic-counter-dev deb haskell optional arch=any libghc-atomic-counter-doc deb doc optional arch=all libghc-atomic-counter-prof deb haskell optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Uploaders": [
+    "Clint Adams \u003cclint@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/haskell-team/DHG_packages/tree/master/p/haskell-atomic-counter/"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-atomic-counter]"
+  ],
+  "Version": [
+    "0.1.2.4-2"
+  ]
+}

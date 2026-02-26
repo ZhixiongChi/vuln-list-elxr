@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "gir1.2-meta-muffin-0.0, libmuffin0, muffin, muffin-common, libmuffin-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, at-spi2-core \u003c!nocheck\u003e, adwaita-icon-theme \u003c!nocheck\u003e, cinnamon-desktop-data (\u003e= 5.6), dbus \u003c!nocheck\u003e, dmz-cursor-theme \u003c!nocheck\u003e, gnome-pkg-tools, cinnamon-settings-daemon (\u003e= 5.4) \u003c!nocheck\u003e, gobject-introspection, gtk-doc-tools, libcairo2-dev, libcanberra-gtk3-dev, libdrm-dev [linux-any], libegl-dev, libegl1-mesa-dev [linux-any], libfribidi-dev, libgirepository1.0-dev, libgl1-mesa-dev, libgles2-mesa-dev | libgles2-dev, libglib2.0-dev (\u003e= 2.61.1), libcinnamon-desktop-dev (\u003e= 5.6), libgraphene-1.0-dev (\u003e= 1.9.3), libgtk-3-dev, libgudev-1.0-dev [linux-any], libice-dev, libinput-dev [linux-any], libjson-glib-dev, libpam0g-dev, libpango1.0-dev, libpipewire-0.3-dev [linux-any], libsm-dev, libstartup-notification0-dev, libsystemd-dev [linux-any], libwacom-dev [linux-any], libxau-dev, libx11-dev, libx11-xcb-dev, libxcb-randr0-dev, libxcb-res0-dev, libxcomposite-dev, libxcursor-dev, libxdamage-dev, libxext-dev, libxfixes-dev, libxi-dev, libxinerama-dev, libxkbcommon-dev, libxkbcommon-x11-dev, libxkbfile-dev, libxrandr-dev, libxrender-dev, libxt-dev, meson (\u003e= 0.50), pkg-config, xauth \u003c!nocheck\u003e, xkb-data, xserver-xorg-core [linux-any], xvfb \u003c!nocheck\u003e, zenity"
+  ],
+  "Checksums-Sha1": [
+    "eafa1d5f481573e67225648b8e0ea30cb6ae131a 24980 muffin_5.6.4-1.debian.tar.xz 64dbad457e60a1b0fa0340ad3daddc94826c1a2a 3619 muffin_5.6.4-1.dsc 819b5d2399854ada761a8ddc40cc82c7e77dadb5 4569330 muffin_5.6.4.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "b261f513f2ebfd11fff13be5dfa1374ccafd83b46a662020e27a5fcf9060c735 24980 muffin_5.6.4-1.debian.tar.xz 2e5e36552b954b42774f95de1716391732a2d2d1ca12bccc5513e7d07fc3a330 3619 muffin_5.6.4-1.dsc 1963562c1e0cdbefa8c5c2642d294efd799c302b730bbe2613869c4f2d4b300c 4569330 muffin_5.6.4.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "548f0cacafca850a45a052f7da0b9f9854339ad5c9d88a65bcd7510acfd530e207a98983679227e3a0cb650ccbf81f6a93e614c0c4f754540709ebb0b88afbbc 24980 muffin_5.6.4-1.debian.tar.xz 61bda13248955571624097413f22459283420e6c8b45adcf7b350bdd3f9e743c44525635237e92baa764d77ef34c289a062e889c4e64933b9e25c1ffab9cfaa9 3619 muffin_5.6.4-1.dsc 6c0dec96e6a2011e3060473b3d426f558133a133aefa587cf4c450ff2b7bb491a6122b4f201f98cf91ccea64687aece91f112d4382e73f98ff382dee0f06f3cb 4569330 muffin_5.6.4.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/m/muffin"
+  ],
+  "Files": [
+    "e48818e48061f318b2921fc13266408c 24980 muffin_5.6.4-1.debian.tar.xz fa991771c60785cb48eb48349aa5e76e 3619 muffin_5.6.4-1.dsc 8cc0e3300344654837c4f7defe562a53 4569330 muffin_5.6.4.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://cinnamon.linuxmint.com/"
+  ],
+  "Maintainer": [
+    "Debian Cinnamon Team \u003cdebian-cinnamon@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "muffin"
+  ],
+  "Package-List": [
+    "gir1.2-meta-muffin-0.0 deb introspection optional arch=any libmuffin-dev deb libdevel optional arch=any libmuffin0 deb libs optional arch=any muffin deb x11 optional arch=any muffin-common deb misc optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, dbus, xauth, xvfb"
+  ],
+  "Uploaders": [
+    "Maximiliano Curia \u003cmaxy@debian.org\u003e, Margarita Manterola \u003cmarga@debian.org\u003e, Fabio Fantoni \u003cfantonifabio@tiscali.it\u003e, Joshua Peisach \u003citzswirlz2020@outlook.com\u003e, Norbert Preining \u003cnorbert@preining.info\u003e, Christoph Martin \u003cmartin@uni-mainz.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/cinnamon-team/muffin"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/cinnamon-team/muffin.git"
+  ],
+  "Version": [
+    "5.6.4-1"
+  ]
+}

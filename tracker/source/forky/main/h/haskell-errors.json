@@ -6,19 +6,19 @@
     "libghc-errors-dev, libghc-errors-prof, libghc-errors-doc"
   ],
   "Build-Depends": [
-    "cdbs, debhelper (\u003e= 10), ghc (\u003e= 9.4), ghc-prof, haskell-devscripts (\u003e= 0.13), libghc-exceptions-dev (\u003e= 0.6), libghc-exceptions-dev (\u003c\u003c 0.11), libghc-exceptions-prof, libghc-safe-dev (\u003e= 0.3.3), libghc-safe-dev (\u003c\u003c 0.4), libghc-safe-prof, libghc-transformers-compat-dev (\u003e= 0.4), libghc-transformers-compat-dev (\u003c\u003c 0.8), libghc-transformers-compat-prof"
+    "dh-sequence-haskell, debhelper-compat (= 13), ghc (\u003e= 9.10), ghc-prof, haskell-devscripts (\u003e= 0.13), libghc-exceptions-dev (\u003e= 0.6), libghc-exceptions-dev (\u003c\u003c 0.11), libghc-exceptions-prof, libghc-safe-dev (\u003e= 0.3.3), libghc-safe-dev (\u003c\u003c 0.4), libghc-safe-prof, libghc-transformers-compat-dev (\u003e= 0.4), libghc-transformers-compat-dev (\u003c\u003c 0.8), libghc-transformers-compat-prof"
   ],
   "Build-Depends-Indep": [
     "ghc-doc, libghc-exceptions-doc, libghc-safe-doc, libghc-transformers-compat-doc"
   ],
   "Checksums-Sha256": [
-    "ba8107a0fb2c90a2930febd433126be3e876e84c38d281fd4885d3af8fad5fc5 2631 haskell-errors_2.3.0-6.dsc 6772e5689f07e82077ffe3339bc672934d83d83a97a7d4f1349de1302cb71f75 9184 haskell-errors_2.3.0.orig.tar.gz f665e689eb51eb24ec6393489b394d85350c60445bb2c937f847385c1510e324 3952 haskell-errors_2.3.0-6.debian.tar.xz"
+    "0125bb5729f483c8732e614cb4e6f0e30da770e362df04d4d8d0d1fb3306f860 2645 haskell-errors_2.3.0-8.dsc 6772e5689f07e82077ffe3339bc672934d83d83a97a7d4f1349de1302cb71f75 9184 haskell-errors_2.3.0.orig.tar.gz b0f31723828580369cceb87d801a6b6f5de3ee52ea58ab4a97bb04c36cb50878 3972 haskell-errors_2.3.0-8.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/h/haskell-errors"
   ],
   "Files": [
-    "38a855f162d6e88e70353d1129c1431f 2631 haskell-errors_2.3.0-6.dsc 43bec23a661dd4a5eefb5549b4fad8a8 9184 haskell-errors_2.3.0.orig.tar.gz 271a83f27427b2891142382a4f11466e 3952 haskell-errors_2.3.0-6.debian.tar.xz"
+    "7127ba1c4038855f087d1192865f7288 2645 haskell-errors_2.3.0-8.dsc 43bec23a661dd4a5eefb5549b4fad8a8 9184 haskell-errors_2.3.0.orig.tar.gz 044a0cde76a241abccfa00e7094e676e 3972 haskell-errors_2.3.0-8.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/haskell-team/DHG_packages.git [p/haskell-errors]"
   ],
   "Version": [
-    "2.3.0-6"
+    "2.3.0-8"
   ]
 }

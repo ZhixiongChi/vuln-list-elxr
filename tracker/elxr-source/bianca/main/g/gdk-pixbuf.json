@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgdk-pixbuf-2.0-0, libgdk-pixbuf2.0-bin, libgdk-pixbuf2.0-common, libgdk-pixbuf-2.0-dev, libgdk-pixbuf2.0-doc, libgdk-pixbuf2.0-0-udeb, libgdk-pixbuf-2.0-0-udeb, gir1.2-gdkpixbuf-2.0, gdk-pixbuf-tests"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gi-docgen, libgirepository1.0-dev (\u003e= 1.78.1-5~), libglib2.0-dev, libjpeg-dev, libpng-dev (\u003c\u003c 1.7), libtiff-dev, meson, python3-docutils \u003c!nodoc\u003e, shared-mime-info, xsltproc \u003c!noudeb\u003e"
+  ],
+  "Checksums-Sha1": [
+    "50bfcf7dc51d3d25735944da8889f60169596504 23048 gdk-pixbuf_2.42.12+dfsg-4.debian.tar.xz 6a04a4422adcc62d809b4d04c79a3ae3c437f5b9 3214 gdk-pixbuf_2.42.12+dfsg-4.dsc aba2ae5adf39345bf8a808db1bea62fb25fd3915 6443656 gdk-pixbuf_2.42.12+dfsg.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "170ea746faefe8d03eb3afd9c5edacc0ef47437c3585e40fd6f2df9eddddcfdb 23048 gdk-pixbuf_2.42.12+dfsg-4.debian.tar.xz dcf1fd170103dda12ad325fc4779308ba4f59f46b7cc8d07acc6b53ba2039c6e 3214 gdk-pixbuf_2.42.12+dfsg-4.dsc 2fab7a828f1a017a235cd800cf0b47d83733037bade493337c46ed79e7ef3678 6443656 gdk-pixbuf_2.42.12+dfsg.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "68578ca360116cf726e182154cffad5aa084ce281198b6a0b2bffaa8d552953df51a2c2ce1a359e4dfa3859f3b84e5faf7c0a79420cd761b19ff1c017591c18e 23048 gdk-pixbuf_2.42.12+dfsg-4.debian.tar.xz f91698e728917d422ebb47e70ba4c13e283f4c981617ad89962b5ac1b5710a85d516a3e3e826097bd0e277a8f1fdd0f1aeb5bbc3f5c989aac4c4e3624af7e1cc 3214 gdk-pixbuf_2.42.12+dfsg-4.dsc b27ce26fa876416dcb81d1e20679074fcb292f2574c7404cf0748e551888c59d62376499a0511411880fa30fe233757d578fd1d4025bde98e33ab6584c4850d5 6443656 gdk-pixbuf_2.42.12+dfsg.orig.tar.xz"
+  ],
+  "Dgit": [
+    "ce4a5b1590e71843b35f4974c98afa1b92cad3b4 debian archive/debian/2.42.12+dfsg-4 https://git.dgit.debian.org/gdk-pixbuf"
+  ],
+  "Directory": [
+    "pool/main/g/gdk-pixbuf"
+  ],
+  "Files": [
+    "0f4d4df3ec5d469c168491533f6be496 23048 gdk-pixbuf_2.42.12+dfsg-4.debian.tar.xz e61262906db39d2162a0a4111ad28e35 3214 gdk-pixbuf_2.42.12+dfsg-4.dsc 346ccfe90f473634cca1d3dee72ed03b 6443656 gdk-pixbuf_2.42.12+dfsg.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gtk.org/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gdk-pixbuf"
+  ],
+  "Package-List": [
+    "gdk-pixbuf-tests deb libs optional arch=any gir1.2-gdkpixbuf-2.0 deb introspection optional arch=any libgdk-pixbuf-2.0-0 deb libs optional arch=any libgdk-pixbuf-2.0-0-udeb udeb debian-installer optional arch=any profile=!noudeb libgdk-pixbuf-2.0-dev deb libdevel optional arch=any libgdk-pixbuf2.0-0-udeb udeb debian-installer optional arch=any profile=!noudeb libgdk-pixbuf2.0-bin deb libs optional arch=any libgdk-pixbuf2.0-common deb libs optional arch=all libgdk-pixbuf2.0-doc deb doc optional arch=all profile=!nodoc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, gnome-desktop-testing, pkg-config"
+  ],
+  "Uploaders": [
+    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Iain Lane \u003claney@debian.org\u003e, Jeremy Bicha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gdk-pixbuf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gdk-pixbuf.git"
+  ],
+  "Version": [
+    "2.42.12+dfsg-4"
+  ]
+}

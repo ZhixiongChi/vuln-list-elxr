@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-os-pipe-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.62-~~) \u003c!nocheck\u003e, librust-winapi-0.3+default-dev (\u003e= 0.3.5-~~) \u003c!nocheck\u003e, librust-winapi-0.3+handleapi-dev (\u003e= 0.3.5-~~) \u003c!nocheck\u003e, librust-winapi-0.3+namedpipeapi-dev (\u003e= 0.3.5-~~) \u003c!nocheck\u003e, librust-winapi-0.3+processthreadsapi-dev (\u003e= 0.3.5-~~) \u003c!nocheck\u003e, librust-winapi-0.3+winnt-dev (\u003e= 0.3.5-~~) \u003c!nocheck\u003e, python3"
+  ],
+  "Checksums-Sha1": [
+    "e4fbc60f6a320f7c89a8e4141b03c2e6747b40a7 4724 rust-os-pipe_1.1.1-1.debian.tar.xz 4b412c57f09ff08763ba145fbc3ef1eebe68d4cf 2645 rust-os-pipe_1.1.1-1.dsc 90ce03816a33950f05d7543d1c3890fb615b3db2 11047 rust-os-pipe_1.1.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "09b8ebd5333064bc92242fe9425a1c8ac9f88fb6af7bb07d5d00e0bd41908b80 4724 rust-os-pipe_1.1.1-1.debian.tar.xz 8c63efa880739e11d6fba719f52329d39c3b3be1097fd9394878a2f3862faf3a 2645 rust-os-pipe_1.1.1-1.dsc 0dceb7e43f59c35ee1548045b2c72945a5a3bb6ce6d6f07cdc13dc8f6bc4930a 11047 rust-os-pipe_1.1.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "c7123dca1b2ebb6b99d02bc53f4b50e6de56cd287fa552dceb439dba4f09868daf09d60bbfe9f62dcde2724ec37a4190eabcdb571c17bf1a9dd60f23e0893eca 4724 rust-os-pipe_1.1.1-1.debian.tar.xz 542cc44819f31507fbc53418cfa59e94352be11ad7c72e6a67ffb010c4c4c02e37891f6d4c7475221d8bafe2ba98dab6825c3e374d21bb96d7e40a5c6308e8fb 2645 rust-os-pipe_1.1.1-1.dsc a7922d4011e84e33f0cf4dadb86ad4cb438049fa9c171a7c8f626ff4f715b630a8f563947be6c4b0fa5a633cbd162c25061f86542be041a0d876add28fd6c7e5 11047 rust-os-pipe_1.1.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-os-pipe"
+  ],
+  "Files": [
+    "7cf4af9fb78461e4f0bd5ada7b5babdd 4724 rust-os-pipe_1.1.1-1.debian.tar.xz 37aa0231032f83b83701c9841cf4c2ea 2645 rust-os-pipe_1.1.1-1.dsc a2801696e9282b0c4427367ce67cc1a5 11047 rust-os-pipe_1.1.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-os-pipe"
+  ],
+  "Package-List": [
+    "librust-os-pipe-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Paride Legovini \u003cparide@debian.org\u003e, Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/os-pipe"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/os-pipe]"
+  ],
+  "Version": [
+    "1.1.1-1"
+  ]
+}

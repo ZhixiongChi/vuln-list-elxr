@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "sysvinit-core, sysvinit-utils, sysv-rc, initscripts, bootlogd"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libcrypt-dev, libselinux1-dev [linux-any], po4a"
+  ],
+  "Checksums-Sha1": [
+    "03d7606ab74829d04a9db953e2151c15b4391ca4 122156 sysvinit_3.14-4.debian.tar.xz f8c0e7ebbc91f5312e19f9d97bd4747d007c6b24 2375 sysvinit_3.14-4.dsc 23f55970b5e4fbd904934845950713a43d76ba07 516357 sysvinit_3.14.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "2ba0aa763232112696bce50ee5acc707a515fcbd5b2c194193bfa7a0a525bff6 122156 sysvinit_3.14-4.debian.tar.xz 1cfe65682218077e6f76011f0c5caacc9f2ab214d55893307d4a54c93312ac92 2375 sysvinit_3.14-4.dsc 4e90a148707cf64113fc97343c053f9c0c9589551936b053999dcc69731f295f 516357 sysvinit_3.14.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "d2fbd2bda590eff69e426aed5a144075019752d4c85783bd1d958d5236d1a58c5cb1a2df6b43d9c889559e96aaaa19b879991300d6b16f63c2e1fa2b9419880a 122156 sysvinit_3.14-4.debian.tar.xz d63361dbf98d126c9578f9ec7445d03790d2e638bb04e12d1537802f28eb1c6169926758919f4a15f6b517af28141048e4f30a1d5a706de1ba44299069572633 2375 sysvinit_3.14-4.dsc 557b6ed9090e6594806b71c9fd054f32972fc6e7bffa4ef92a9dda42c5db08100f226b7b43c0433c1a1e9b16a3ebc483cb42d9aa29a5a3cfd5fc1c60984ef478 516357 sysvinit_3.14.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/s/sysvinit"
+  ],
+  "Files": [
+    "9d96c16f99794ff571d29e2a76b67cb3 122156 sysvinit_3.14-4.debian.tar.xz 6317c217263d5761abbbbf5b3c5da210 2375 sysvinit_3.14-4.dsc 06e98339422bd20c8d7609fd5de29665 516357 sysvinit_3.14.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/slicer69/sysvinit"
+  ],
+  "Maintainer": [
+    "Debian sysvinit maintainers \u003cdebian-init-diversity@chiark.greenend.org.uk\u003e"
+  ],
+  "Package": [
+    "sysvinit"
+  ],
+  "Package-List": [
+    "bootlogd deb admin optional arch=any initscripts deb admin optional arch=all sysv-rc deb admin optional arch=all sysvinit-core deb admin optional arch=any protected=yes sysvinit-utils deb admin required arch=any essential=yes"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Ian Jackson \u003cijackson@chiark.greenend.org.uk\u003e, Benda Xu \u003cheroxbd@gentoo.org\u003e, Adam Borowski \u003ckilobyte@angband.pl\u003e, Vincenzo (KatolaZ) Nicosia \u003ckatolaz@freaknet.org\u003e, Mark Hindley \u003cleepen@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/sysvinit"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/sysvinit.git"
+  ],
+  "Version": [
+    "3.14-4"
+  ]
+}

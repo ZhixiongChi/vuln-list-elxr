@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-marked-yaml-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-doc-comment-0.3+default-dev \u003c!nocheck\u003e, librust-hashlink-0.10+default-dev \u003c!nocheck\u003e, librust-yaml-rust2-0.10+default-dev (\u003e= 0.10.2-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "d6575b95ab93ef594f1bae0c9fee8f24a7abfeedbca38ae4c15b162cd63cc2f5 1793 rust-marked-yaml_0.8.0-1.dsc 3a76cf4e66a8ffccfce983161b0faafe61a5ef03fe875ef2e3deb897e4e915fa 27191 rust-marked-yaml_0.8.0.orig.tar.gz 65dd3b1c0f4705e44d1637f71321db1d8f0b57ee4a7e0e95ccf86ea3a65481fa 2616 rust-marked-yaml_0.8.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-marked-yaml"
+  ],
+  "Files": [
+    "c11dca5e7e6aa74899aa487a06dc2abe 1793 rust-marked-yaml_0.8.0-1.dsc 5b2e6568500f2c92679071530970c3dc 27191 rust-marked-yaml_0.8.0.orig.tar.gz 836d1a7159dba0e76feb2b1b2c29e08b 2616 rust-marked-yaml_0.8.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/kinnison/marked-yaml/"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-marked-yaml"
+  ],
+  "Package-List": [
+    "librust-marked-yaml-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/marked-yaml"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/marked-yaml]"
+  ],
+  "Version": [
+    "0.8.0-1"
+  ]
+}

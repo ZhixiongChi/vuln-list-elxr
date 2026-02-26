@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "arm64"
+  ],
+  "Binary": [
+    "linux-headers-imx-arm64, linux-headers-rt-imx-arm64, linux-image-6.12.48+deb13-imx-arm64, linux-image-6.12.48+deb13-rt-imx-arm64, linux-image-imx-arm64, linux-image-rt-imx-arm64"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), python3:any, sbsigntool [amd64 arm64]"
+  ],
+  "Build-Depends-Arch": [
+    "linux-image-6.12.48+deb13-imx-arm64-unsigned (= 6.12.48-elxr1-1) [arm64] \u003c!pkg.linux.nokernel\u003e, kernel-wedge (\u003e= 2.105~) [arm64] \u003c!pkg.linux.nokernel\u003e, kmod [arm64] \u003c!pkg.linux.nokernel\u003e, rsync [arm64] \u003c!pkg.linux.nokernel\u003e, linux-image-6.12.48+deb13-rt-imx-arm64-unsigned (= 6.12.48-elxr1-1) [arm64] \u003c!pkg.linux.nokernel !pkg.linux.quick\u003e"
+  ],
+  "Checksums-Sha1": [
+    "cee8e1bdefd2833625eee5a7859f51d75bf53097 2124 linux-imx-signed-arm64_6.12.48+elxr1+1.dsc d25377ba6a3f85a9c7d852db98a02d6c7af7266e 834644 linux-imx-signed-arm64_6.12.48+elxr1+1.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "467a72255df4119fd610edd7515036d8a490176c9eb0d7bdf8832293688179b1 2124 linux-imx-signed-arm64_6.12.48+elxr1+1.dsc 1f0ca8ce062c78dca96b696373190689aa8406c8d416508a62a0a5df615ed35c 834644 linux-imx-signed-arm64_6.12.48+elxr1+1.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "5af617e3aaf345d1f8cd2c28bed4839c6e4d11daf7b799fce0bf181895b584a7466332262020f44d5bd4a93dfaef69179ca11c8dfd321655ddade2acb3ecd266 2124 linux-imx-signed-arm64_6.12.48+elxr1+1.dsc e7f73f2271865eb247b5369c33efa5ecc48dc2d911fd26c4190670f4bb5bb18106ba6cfedf55bf4c9c43ac2614b7f409f17c96bf7dcdbb88aa09816398aa6b59 834644 linux-imx-signed-arm64_6.12.48+elxr1+1.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/linux-imx-signed-arm64"
+  ],
+  "Files": [
+    "52e428a25ab63fec9aa28a4bd7763640 2124 linux-imx-signed-arm64_6.12.48+elxr1+1.dsc 871467af26d2088e935253a83e755985 834644 linux-imx-signed-arm64_6.12.48+elxr1+1.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://www.kernel.org/"
+  ],
+  "Maintainer": [
+    "Debian Kernel Team \u003cdebian-kernel@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "linux-imx-signed-arm64"
+  ],
+  "Package-List": [
+    "linux-headers-imx-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.nometa linux-headers-rt-imx-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.nometa,!pkg.linux.quick linux-image-6.12.48+deb13-imx-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel linux-image-6.12.48+deb13-rt-imx-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.quick linux-image-imx-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.nometa linux-image-rt-imx-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.nometa,!pkg.linux.quick"
+  ],
+  "Standards-Version": [
+    "4.2.0"
+  ],
+  "Uploaders": [
+    "Bastian Blank \u003cwaldi@debian.org\u003e, maximilian attems \u003cmaks@debian.org\u003e, Ben Hutchings \u003cbenh@debian.org\u003e, Salvatore Bonaccorso \u003ccarnil@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/kernel-team/linux"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/kernel-team/linux.git"
+  ],
+  "Version": [
+    "6.12.48+elxr1+1"
+  ]
+}

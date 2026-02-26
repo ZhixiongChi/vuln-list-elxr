@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-toml-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-serde-1+default-dev (\u003e= 1.0.97-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "e6aedae812147ff3f0d2b077d08f701702a3f158 3196 rust-toml_0.5.11-1.debian.tar.xz b693da3ece57629653189023db906fb13a7c3f25 2258 rust-toml_0.5.11-1.dsc 02030065a9eb1eb1d3213fd01f5b5d7385a565a8 54910 rust-toml_0.5.11.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "e2ae46a3a46fd88b791ec35444ab639daa0db7b8cac74356385a5651d7c65359 3196 rust-toml_0.5.11-1.debian.tar.xz cb77504395888e5df8a6c54771361af323f438c136d4fc0cf16a69593cd32695 2258 rust-toml_0.5.11-1.dsc f4f7f0dd8d50a853a531c426359045b1998f04219d88799810762cd4ad314234 54910 rust-toml_0.5.11.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "958a84097d8fa03f4f0f52591585128f3dfcd0241d4a699cb82dc90145d116ec4059f716f8ac2b170b44c7d5481c630470a437d5cf8dd2e61a87aeca7f754605 3196 rust-toml_0.5.11-1.debian.tar.xz 16495b4ade87d272cb88ec24730063e485f085a0297445ccb4a8a38bb8e7d9920d6f5e55a642116b92e32e82c2d0cf5b23c4f8979bc0a43cee76b37b04e18c81 2258 rust-toml_0.5.11-1.dsc eddb82aeb8fdeb5436579292c6f7a64a90a2c7bb54070beb437bc7890b99795d0505faa8d6451a99e8bcf440f78db8a1b273a697c8ad44275cc4163a9ee49317 54910 rust-toml_0.5.11.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-toml"
+  ],
+  "Files": [
+    "871d43c2c8a2d0d0b2ceb259475d2caf 3196 rust-toml_0.5.11-1.debian.tar.xz d39582ac03a0a6bab03df0223a620a1b 2258 rust-toml_0.5.11-1.dsc b21820f2664242498beba7783b32bef4 54910 rust-toml_0.5.11.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/toml-rs/toml"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-toml"
+  ],
+  "Package-List": [
+    "librust-toml-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-serde-derive-1+default-dev, librust-serde-json-1+default-dev"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/toml"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/toml]"
+  ],
+  "Version": [
+    "0.5.11-1"
+  ]
+}

@@ -6,10 +6,10 @@
     "librust-roadmap-dev, roadmap"
   ],
   "Build-Depends": [
-    "cmark-gfm \u003c!nodoc\u003e, debhelper-compat (= 13), dh-sequence-rust, librust-anyhow-1+default-dev, librust-clap-4+default-dev, librust-clap-4+derive-dev, librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-serde-yaml-0.9+default-dev, librust-tempfile-3+default-dev, librust-textwrap-0.16+default-dev, librust-thiserror-2+default-dev, libstd-rust-dev"
+    "cmark-gfm \u003c!nodoc\u003e, debhelper-compat (= 13), dh-sequence-rust, librust-anyhow-dev, librust-clap-dev, librust-serde-dev, librust-marked-yaml-dev, librust-tempfile-dev, librust-textwrap-dev, librust-thiserror-dev, libstd-rust-dev"
   ],
   "Checksums-Sha256": [
-    "2305da35fdd7179e3782f367c7c9c2381174da6560d3f5ae595029a2702e05d6 2772 rust-roadmap_0.7.0-5.dsc e5f617f64870ff1e1350c5be76b605c4045fe89a44c13d9126b77819be7bc7bc 11476 rust-roadmap_0.7.0.orig.tar.bz2 9645ec76d60e218568326db5594a594d3a158091bb99d988f8e150da1d5f86ef 4776 rust-roadmap_0.7.0-5.debian.tar.xz"
+    "de67c8d85bd37728655d15a04351295bea6f88515e4998d430bb897a1ac4ab65 2554 rust-roadmap_0.7.0+ds-1.dsc 162803cced66cfb505c500047e5b7db5e589a18059b674f725532e53b98432ca 11088 rust-roadmap_0.7.0+ds.orig.tar.xz 000e1421299fe77fdea82492a373807f8dbf9329c071ff91603f82bed4301a8f 4784 rust-roadmap_0.7.0+ds-1.debian.tar.xz"
   ],
   "Description": [
     "graph-based project roadmap modeling - Rust source code roadmap generates directed acyclic graph representations of a project roadmap. The idea is to show the steps needed to reach a goal, and the order they need to be taken, but ignore due dates and other irrelevant details."
@@ -18,7 +18,7 @@
     "pool/main/r/rust-roadmap"
   ],
   "Files": [
-    "699e7b229c284b75b78632bc57d68b2f 2772 rust-roadmap_0.7.0-5.dsc 68618d6871ed234f6b97988f87c5188b 11476 rust-roadmap_0.7.0.orig.tar.bz2 2310a017551ebb9ed5088e1f78ba54df 4776 rust-roadmap_0.7.0-5.debian.tar.xz"
+    "05fee0c45e5a1782f4a70edc831cab21 2554 rust-roadmap_0.7.0+ds-1.dsc e631c43a005c9bf2775c61821ad33f86 11088 rust-roadmap_0.7.0+ds.orig.tar.xz 97fb0fd36b08ae0dbb932c6b1ac6e1a9 4784 rust-roadmap_0.7.0+ds-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-rust, librust-roadmap-0.7+default-dev, librust-roadmap-0.7-dev"
+    "dh-rust, librust-roadmap-0.7+default-dev"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/rust-roadmap"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/rust-roadmap.git"
   ],
   "Version": [
-    "0.7.0-5"
+    "0.7.0+ds-1"
   ]
 }

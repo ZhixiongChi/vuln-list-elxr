@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "cri-tools-1.32"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-golang, golang-github-bahlo-generic-list-go-dev, golang-github-beorn7-perks-dev, golang-github-blang-semver-dev, golang-github-buger-jsonparser-dev, golang-github-cenkalti-backoff-dev, golang-github-cespare-xxhash-dev, golang-github-distribution-reference-dev, golang-github-docker-spdystream-dev, golang-github-fsnotify-fsnotify-dev, golang-github-fxamacker-cbor-dev, golang-github-go-logr-logr-dev, golang-github-go-logr-stdr-dev, golang-github-go-task-slim-sprig-dev, golang-github-google-go-cmp-dev, golang-github-google-gofuzz-dev, golang-github-google-uuid-dev, golang-github-gorilla-websocket-dev, golang-github-json-iterator-go-dev, golang-github-liggitt-tabwriter-dev, golang-github-mailru-easyjson-dev, golang-github-mitchellh-go-wordwrap-dev, golang-github-modern-go-reflect2-dev, golang-github-munnerz-goautoneg-dev, golang-github-mxk-go-flowrate-dev, golang-github-opencontainers-go-digest-dev, golang-github-opencontainers-selinux-dev, golang-github-prometheus-client-golang-dev, golang-github-prometheus-common-dev, golang-github-prometheus-procfs-dev, golang-github-russross-blackfriday-v2-dev, golang-github-spf13-cobra-dev, golang-github-wk8-go-ordered-map-dev, golang-github-x448-float16-dev, golang-gogoprotobuf-dev, golang-gomega-dev, golang-google-protobuf-dev, golang-gopkg-inf.v0-dev, golang-gopkg-yaml.v3-dev, golang-k8s-klog-dev, golang-k8s-sigs-structured-merge-diff-dev, golang-k8s-sigs-yaml-dev"
+  ],
+  "Checksums-Sha1": [
+    "7f9a44b15310d65f3205e49b96022c71315b0b1c 124280 cri-tools-1.32_1.32.0+elxr13ds1-0elxr13u1.debian.tar.xz 28815b17b6561ffa115d904f7c90ba90085e149a 2754 cri-tools-1.32_1.32.0+elxr13ds1-0elxr13u1.dsc 912f1c0e1bab8f19403ca58ba92b1b92745a7991 6419229 cri-tools-1.32_1.32.0+elxr13ds1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "daa68b4405a7edd1bd52a1f31755dd4e4997439cd1ebb645d6166db5b3855d3a 124280 cri-tools-1.32_1.32.0+elxr13ds1-0elxr13u1.debian.tar.xz 0d3b3496a12844d86232faf36179a96672b37a3794d1088503b6ac4758b5638b 2754 cri-tools-1.32_1.32.0+elxr13ds1-0elxr13u1.dsc 167da2a5eddea1eefa1b0996cfead0a9df1cc801041e0a8159208ee3388ad6e0 6419229 cri-tools-1.32_1.32.0+elxr13ds1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "5e58a834b5ccf26a056048e923721c5be2357ad62bb3641bc1d65b807f02d1dbf4d051718cf3b17084ff4e2fd6d2d8ab117bde198220cefe3d678069ac0dd018 124280 cri-tools-1.32_1.32.0+elxr13ds1-0elxr13u1.debian.tar.xz 4012a5dfc7e8a1da12e14de775fbfb9ec1f0c9acbb4d349fd85334de5e0245f499883c6197ab5a4543bf557fc20c9459a23213570096e8bf17327cb2e882d435 2754 cri-tools-1.32_1.32.0+elxr13ds1-0elxr13u1.dsc 14bbd387989e7b3a3ba5aa8a5294433b6e118697c1f2d07de17e24177e6241151c877f98ab66b36210fadc68cd7d9783d923d5d194aa70d56986d572415fbc33 6419229 cri-tools-1.32_1.32.0+elxr13ds1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/c/cri-tools-1.32"
+  ],
+  "Files": [
+    "cc13929604d1163eac7271a3922d6068 124280 cri-tools-1.32_1.32.0+elxr13ds1-0elxr13u1.debian.tar.xz 8d3538d664269b9e9193b32e8c83e909 2754 cri-tools-1.32_1.32.0+elxr13ds1-0elxr13u1.dsc 88b625710829caa225aae85914340a91 6419229 cri-tools-1.32_1.32.0+elxr13ds1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/kubernetes-sigs/cri-tools"
+  ],
+  "Homepage": [
+    "https://github.com/kubernetes-sigs/cri-tools"
+  ],
+  "Maintainer": [
+    "William Lyu \u003cWilliam.Lyu@windriver.com\u003e"
+  ],
+  "Package": [
+    "cri-tools-1.32"
+  ],
+  "Package-List": [
+    "cri-tools-1.32 deb admin optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-go"
+  ],
+  "Uploaders": [
+    "William Lyu \u003cWilliam.Lyu@windriver.com\u003e, Tom MacDougall \u003cTom.MacDougall@windriver.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://gitlab.com/elxr/cloud/packages/cri-tools"
+  ],
+  "Vcs-Git": [
+    "https://gitlab.com/elxr/cloud/packages/cri-tools.git"
+  ],
+  "Version": [
+    "1.32.0+elxr13ds1-0elxr13u1"
+  ]
+}

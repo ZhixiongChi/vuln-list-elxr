@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "conmon, crio-backend-conmon"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), go-md2man, libglib2.0-dev, libseccomp-dev, libsystemd-dev"
+  ],
+  "Checksums-Sha1": [
+    "f86af28ec9638150ef0cf5acc7fbf11df96b79ca 23424 conmon_2.1.13+ds1-2elxr13u1.debian.tar.xz 99a37a5564b84e3253878dfce6fb3ea379440ef1 1446 conmon_2.1.13+ds1-2elxr13u1.dsc 9778c3beac1f8fc1f2abf23bc45afc4f0ef4d467 63420 conmon_2.1.13+ds1.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "6317acf088e7fbb8ae6035486c07aad21987055b8d529df1dcd4c421b08c18b5 23424 conmon_2.1.13+ds1-2elxr13u1.debian.tar.xz 4b340f2fb2bd01fb5e54ed4b7f2a17dd178ad70cf8a56d0a8e89a0e4efd7236b 1446 conmon_2.1.13+ds1-2elxr13u1.dsc e1e82498e929cbb3287e7d5627097a7288d684350cae28ad1a56a4ca77ddc79c 63420 conmon_2.1.13+ds1.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "7a8cfe93158e474c891a95a88383cd8daa302eae3b370230b45889865a9ba08c2ae42975bdc2e344fddee71c95bf4276b2851b7f5f1921b03c3774e11aaaf11e 23424 conmon_2.1.13+ds1-2elxr13u1.debian.tar.xz 93af8b4b2f65bf1ec71cb8d34897bc377fac87ae5cceabe5980421f4a053fe4e048d1b40606041379e8195deab7f3e308dd19e2873adff7036d8c320ffb2ce4e 1446 conmon_2.1.13+ds1-2elxr13u1.dsc 1b2c85c56dc1c03a0c5a0cda133853b88e8348f4356a270dfa11ab60131efd2ba2b85e77815d10c93a46e371d1f2678f0cf3f06d464ce464f9a7a9d5d2e76a3a 63420 conmon_2.1.13+ds1.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/conmon"
+  ],
+  "Files": [
+    "a9e4086b0dd523432ed3fa43deb6f8b6 23424 conmon_2.1.13+ds1-2elxr13u1.debian.tar.xz f6116c0f2b390159c5489f74ff527d22 1446 conmon_2.1.13+ds1-2elxr13u1.dsc 5562ca64552cab8e64fca1cde5408be2 63420 conmon_2.1.13+ds1.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/containers/conmon"
+  ],
+  "Maintainer": [
+    "William Lyu \u003cWilliam.Lyu@windriver.com\u003e"
+  ],
+  "Package": [
+    "conmon"
+  ],
+  "Package-List": [
+    "conmon deb admin optional arch=any crio-backend-conmon deb admin optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, @recommends@, bats, ca-certificates, runc"
+  ],
+  "Uploaders": [
+    "Jamie Bliss \u003cjamie@ivyleav.es\u003e, Nicolas Braud-Santoni \u003cnicoo@debian.org\u003e, Dmitry Smirnov \u003conlyjob@debian.org\u003e, Reinhard Tartler \u003csiretart@tauware.de\u003e, Tom MacDougall \u003cTom.MacDougall@windriver.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://gitlab.com/elxr/cloud/packages/conmon"
+  ],
+  "Vcs-Git": [
+    "https://gitlab.com/elxr/cloud/packages/conmon.git"
+  ],
+  "Version": [
+    "2.1.13+ds1-2elxr13u1"
+  ]
+}

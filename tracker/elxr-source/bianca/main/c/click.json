@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "click, click-dev, python3-click-package, libclick-0.4-0, libclick-dev, gir1.2-click-0.4, click-doc, click-service"
+  ],
+  "Build-Depends": [
+    "dbus-test-runner, debhelper-compat (= 13), dh-python, dh-sequence-gir, gir1.2-glib-2.0, gobject-introspection (\u003e= 0.6.7), libgee-0.8-dev, libgirepository1.0-dev (\u003e= 0.6.7), libglib2.0-dev (\u003e= 2.34), libjson-glib-dev (\u003e= 0.10), libproperties-cpp-dev, pkgconf, pyflakes3, python3-all:any, python3-apt, python3-coverage, python3-debian, python3-gi, python3-pip, python3-setuptools, python3-sphinx, python3:any (\u003e= 3.2), valac"
+  ],
+  "Checksums-Sha1": [
+    "de2d13b84e76bcc5b17e4dc0d198a203a56a0897 38852 click_0.5.2-8.debian.tar.xz d99ccf37df9179993efe516ccb9e271a987f2bcd 2911 click_0.5.2-8.dsc 83773da608ad3d19c26379b82b57aaf2a49a6f4d 215483 click_0.5.2.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "7f8e8b1e00e405fabc90f1ce0a4f2d34c0342b4492deb30b1f60dd81a7da305a 38852 click_0.5.2-8.debian.tar.xz 8712cd3f32658be57ab37c447e5b0c4612854bedff9e114350b9872c4e591ccd 2911 click_0.5.2-8.dsc 9cedd405852c6d6a16c4e15c43f9070cd53fb13ca05d50005a9bf790977daba5 215483 click_0.5.2.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "5f98e8df0a86fe9d81f150f43cba0a187f24e7ae8cb521dbff8662cf857af3ec3903b4f8bec9a6281b1671f6cdf4000d5b8e6315c8d09bef6c318d1fdb479a4c 38852 click_0.5.2-8.debian.tar.xz 464699f0ee87d2f1e7c289e1c274f1b769f16c3e192798e7352196f83dca6d48d2d491b22b79b0bde166f9b509a2ebef29a30db91e1b7ddf3ec5b746e7520b82 2911 click_0.5.2-8.dsc 56244d2baa71bbfc168f57e4eea30a5ee0bde6da6e92e2063ede97d2ef93d44123a1af7a0c1610090ae48a9cf77e2daa554e9407454b7f8f53d1f655956e9cb0 215483 click_0.5.2.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/c/click"
+  ],
+  "Files": [
+    "2c3547b2453f077185315594ceb9966a 38852 click_0.5.2-8.debian.tar.xz 0ab009adeb08dcae5fc34d8d20b9cb80 2911 click_0.5.2-8.dsc b74ecbfbd2d12c59fdc4777ad5951f6e 215483 click_0.5.2.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gitlab.com/ubports/development/core/click/"
+  ],
+  "Maintainer": [
+    "Debian UBports Team \u003cteam+ubports@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "click"
+  ],
+  "Package-List": [
+    "click deb admin optional arch=any click-dev deb admin optional arch=any click-doc deb doc optional arch=all click-service deb admin optional arch=any gir1.2-click-0.4 deb introspection optional arch=any libclick-0.4-0 deb libs optional arch=any libclick-dev deb libdevel optional arch=any python3-click-package deb python optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, debootstrap, debsig-verify, debsigs, iputils-ping, kmod, schroot, sudo"
+  ],
+  "Uploaders": [
+    "Mike Gabriel \u003csunweaver@debian.org\u003e, Marius Gripsgard \u003cmariogrip@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ubports-team/click/"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ubports-team/click.git"
+  ],
+  "Version": [
+    "0.5.2-8"
+  ]
+}

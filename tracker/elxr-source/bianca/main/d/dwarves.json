@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "pahole, dwarves"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake (\u003e= 2.4.8), pkgconf, zlib1g-dev, libelf-dev, libdw-dev (\u003e= 0.141), libbpf-dev (\u003e= 1:1.0.1) [linux-any], linux-libc-dev (\u003e= 6.0~) [linux-any]"
+  ],
+  "Checksums-Sha1": [
+    "3de1d40c0c807d1dc19d5e357262c2a30e529ab9 20844 dwarves_1.30-1.debian.tar.xz 50cf305d257754c19cc10e4ab646038a719b4a7c 2186 dwarves_1.30-1.dsc 44240d08c7858d760dcc02cc5e64f77d6771ef6b 2345336 dwarves_1.30.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "fa5d412f56be982c830fd1736b20e6e510bb69030cd91a11b13785ce0412439a 20844 dwarves_1.30-1.debian.tar.xz 3dda88d76d720bed45ab982605735e219a0046fdefaca06f82b183d906ee6e46 2186 dwarves_1.30-1.dsc 1c89f47dc4f127c4b9d3fb46c8386a40be45c36ef82e8df472418de9423fc5bb 2345336 dwarves_1.30.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "831cd872a8487a0bcaff9fb67c2bac2f8ff826fdb15411acc4e6b78ba7da86ca43b141ae524784d159d2c06f24ea7ba13f5e7f8aeb958ecfcba207852fdadbaa 20844 dwarves_1.30-1.debian.tar.xz f37c11e6d2e006c793ec106193f24ddec0e1493f9b281905146c46f61ba7c594447f7845ca04ed390431dff729c6d132311ac8a59b52907c2fcf0d502568f87f 2186 dwarves_1.30-1.dsc 222ad1f8e7bd4e079b4bf9059eaadebc23a0f4a95a77374b1162a1704acdceb794743e61bc14ec1cbda9a7c686f6972c243e784aeedf39cc15b6a8c6a4f1e2eb 2345336 dwarves_1.30.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dwarves"
+  ],
+  "Files": [
+    "f3ae6e04d9941c45a32e2a2c37c6c62a 20844 dwarves_1.30-1.debian.tar.xz ad2643dd9fe3661046a16617565656e3 2186 dwarves_1.30-1.dsc 57908d95d9ba501150a15129ce049d33 2345336 dwarves_1.30.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://git.kernel.org/pub/scm/devel/pahole/pahole.git"
+  ],
+  "Maintainer": [
+    "Domenico Andreoli \u003ccavok@debian.org\u003e"
+  ],
+  "Package": [
+    "dwarves"
+  ],
+  "Package-List": [
+    "dwarves deb oldlibs optional arch=all pahole deb utils optional arch=linux-any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "binutils-multiarch, clang, file, gcc, libbpf-dev, libdw-dev, pahole-dbgsym"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/dwarves"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/dwarves.git"
+  ],
+  "Version": [
+    "1.30-1"
+  ]
+}

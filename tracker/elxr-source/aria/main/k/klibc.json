@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "libklibc-dev, libklibc, klibc-utils"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), linux-libc-dev, m4 [sparc]"
+  ],
+  "Checksums-Sha1": [
+    "852180a41dd9fd2fc73fb719aab0d83d156db7ce 20020 klibc_2.0.12-1.debian.tar.xz a79ad76434835397a2c6cb6bf555aeb5acc2aaed 2149 klibc_2.0.12-1.dsc db128a8f7831a012ec8fb6bdce1a81f9f2a7866f 471892 klibc_2.0.12.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "d62618f0d91a87d8e16ab0f240367ab67e17cf18ad8b75272acf531370132085 20020 klibc_2.0.12-1.debian.tar.xz 053a39799defc3f42a5415d1b098236feda12830f60877694e43ed60100da86c 2149 klibc_2.0.12-1.dsc 71f816a0d3abe3aba8b46319ae5ca147e7a7a38401b3f5e262025f4dc08c475d 471892 klibc_2.0.12.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "f58d0bf6a489c01e90a0eef8cbbf22825264f1549329515a84524e53729c357c7dec45ac450a5fefb3b75e26740dfce2f0876d9e9fe37726d7fd52b707b76cdc 20020 klibc_2.0.12-1.debian.tar.xz cdb87b6122f97f5b393faff34f91ab02726038b969809fc96f8af74bad30a408505a705519117b81e1ab69280a6f90ffb7d347368d83f610cb44efacd46bce53 2149 klibc_2.0.12-1.dsc 783c46216e7f3cd2b758043824e7fd51f1b579ae7a1bc11adbbd2cfb238c53861b1dc8263ac6af131eb6e9084c852bec4f6e98fb5abe71fcbda22c718f8945f8 471892 klibc_2.0.12.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/k/klibc"
+  ],
+  "Files": [
+    "fa142a73c09bb678a36f2dde8aaa2962 20020 klibc_2.0.12-1.debian.tar.xz 9e965a962753d7bedfcf45b97a45fb05 2149 klibc_2.0.12-1.dsc 1ad922091bb6b6f8a4f5cbd87e421abb 471892 klibc_2.0.12.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://git.kernel.org/cgit/libs/klibc/klibc.git"
+  ],
+  "Maintainer": [
+    "Debian Kernel Team \u003cdebian-kernel@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "klibc"
+  ],
+  "Package-List": [
+    "klibc-utils deb libs optional arch=linux-any libklibc deb libs optional arch=linux-any libklibc-dev deb libdevel optional arch=linux-any"
+  ],
+  "Standards-Version": [
+    "4.1.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential"
+  ],
+  "Uploaders": [
+    "Ben Hutchings \u003cbenh@debian.org\u003e, maximilian attems \u003cmaks@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/kernel-team/klibc"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/kernel-team/klibc.git"
+  ],
+  "Version": [
+    "2.0.12-1"
+  ]
+}

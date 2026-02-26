@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-swhid-dev, swhid"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo, help2man"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native, rustc:native, libstd-rust-dev, librust-clap-4+default-dev, librust-clap-4+derive-dev, librust-hex-0.4+default-dev, librust-percent-encoding-2+default-dev, librust-sha1collisiondetection-0.3+default-dev, librust-thiserror-1+default-dev"
+  ],
+  "Checksums-Sha256": [
+    "400b33df0f10b0f26e27896d8d60020e7d3c2567e0934645dc1213e3cd3cc232 1901 rust-swhid_0.2.2-1.dsc 49bc3f554fad15fb64bb78a791e27b7a48d5a362caa0806f16c1f925e42c2ad0 48967 rust-swhid_0.2.2.orig.tar.gz e64f062aa5d1346123c35eb560b8e2abe35432eaaa5406401a4fb4f343194e68 3408 rust-swhid_0.2.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-swhid"
+  ],
+  "Files": [
+    "1a323645f0a401637ed411ad71c117f7 1901 rust-swhid_0.2.2-1.dsc a53b6e9023deb66e29c6512d6065bb25 48967 rust-swhid_0.2.2.orig.tar.gz f647ed5a685156e57e8f8ac84fe0482a 3408 rust-swhid_0.2.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/swhid/swhid-rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-swhid"
+  ],
+  "Package-List": [
+    "librust-swhid-dev deb rust optional arch=any swhid deb utils optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-assert-fs-1+default-dev, librust-criterion-0.5+default-dev, librust-criterion-0.5+html-reports-dev, librust-tempfile-3+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/swhid"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/swhid]"
+  ],
+  "Version": [
+    "0.2.2-1"
+  ]
+}

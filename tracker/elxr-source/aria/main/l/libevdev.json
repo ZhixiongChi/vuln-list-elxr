@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "libevdev-dev, libevdev-doc, libevdev2, libevdev2-udeb, libevdev-tools"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkg-config, python3:native"
+  ],
+  "Build-Depends-Arch": [
+    "check \u003c!nocheck\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, graphviz"
+  ],
+  "Checksums-Sha1": [
+    "377d310c47350d5ac6561c779e5547d5f37831e4 9200 libevdev_1.13.0+dfsg-1.debian.tar.xz 81ce8f5c777b0561fbff41bb5bebf8020b7ca73f 2263 libevdev_1.13.0+dfsg-1.dsc d9b393c276781ea8880f465efcc3b0f80d4c056b 347604 libevdev_1.13.0+dfsg.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "d33c56acbbfff2dc540e45c57a38d92210b5e7fd0947ac47fbe48183468aad74 9200 libevdev_1.13.0+dfsg-1.debian.tar.xz 9f09b3ac4aff32ba0c13149b12849295883e211d686fe07a665c5aaca6fb35b6 2263 libevdev_1.13.0+dfsg-1.dsc a882e13ef1dd6bd227318080cabf60fe5af3c06471259d3acfc9dbfb202351a7 347604 libevdev_1.13.0+dfsg.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "99cc49431c800d26852d1c6b7d3632a1326cf06837cc3a6849b3ee5e8e82af31599686731fce363e36f23efea976748b1759020f999e9a97cf4acfa46cb4381b 9200 libevdev_1.13.0+dfsg-1.debian.tar.xz 7299537f8c50c6171c6ebf73fe7d9b557164f571ba67e3317edcd25d8e2bfb214315e5b4e5da332ba08879f82b08013c3763b63d6bf8d6754d8404032aae1341 2263 libevdev_1.13.0+dfsg-1.dsc 0a0a0711df014b5b5aef6d784b081fe1b4a3a16bcaf741a0da64d760999c316b240455a97c73c57ff597b2d6e47873dc187adc4d1ab80ddf1d54b6d8996bacea 347604 libevdev_1.13.0+dfsg.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libe/libevdev"
+  ],
+  "Files": [
+    "cf246825a84d0ec6c6b08e67b43d346e 9200 libevdev_1.13.0+dfsg-1.debian.tar.xz 192c370aadcc33e4bff59f70ba6eb1d1 2263 libevdev_1.13.0+dfsg-1.dsc c8f8b603993befa1a8cc70e8f0512851 347604 libevdev_1.13.0+dfsg.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.freedesktop.org/wiki/Software/libevdev/"
+  ],
+  "Maintainer": [
+    "Stephen Kitt \u003cskitt@debian.org\u003e"
+  ],
+  "Package": [
+    "libevdev"
+  ],
+  "Package-List": [
+    "libevdev-dev deb libdevel optional arch=linux-any libevdev-doc deb doc optional arch=all libevdev-tools deb utils optional arch=linux-any libevdev2 deb libs optional arch=linux-any libevdev2-udeb udeb debian-installer optional arch=linux-any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libevdev"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libevdev.git"
+  ],
+  "Version": [
+    "1.13.0+dfsg-1"
+  ]
+}

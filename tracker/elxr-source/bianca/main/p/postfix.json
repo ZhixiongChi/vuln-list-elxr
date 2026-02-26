@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "postfix, postfix-doc, postfix-ldap, postfix-lmdb, postfix-cdb, postfix-pcre, postfix-mongodb, postfix-mysql, postfix-pgsql, postfix-sqlite"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), default-libmysqlclient-dev, groff-base, html2text, libcdb-dev, libdb-dev, libicu-dev, libldap-dev, liblmdb-dev, libmongoc-dev [linux-any], libnsl-dev | libc6-dev (\u003c\u003c 2.37-15.1), libpcre2-dev, libpq-dev, libtlsrpt0-dev, libsasl2-dev, libsqlite3-dev, libssl-dev, patch, pkgconf, po-debconf, txt2man"
+  ],
+  "Checksums-Sha1": [
+    "0c00c07d2f73a9713c6c1082b507861d3fea8fcb 199904 postfix_3.10.5-1~deb13u1.debian.tar.xz 7d8eee98c1e8566e6a3897b59befaae5a1543a28 3291 postfix_3.10.5-1~deb13u1.dsc f753b2aefb2d34e665b0e77974c8f02554686f70 5039523 postfix_3.10.5.orig.tar.gz 23b7dbba9583adda68ba664136507a9a67634d7a 220 postfix_3.10.5.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha256": [
+    "ada75162040ff3f5875274da0f56c9e291fe04f98a1dd36022d4f5f4cb43053d 199904 postfix_3.10.5-1~deb13u1.debian.tar.xz 1270cf091359e3f0083e3fae3d87cd387f158c314c2326f26fa7bd6b9bc8fea4 3291 postfix_3.10.5-1~deb13u1.dsc 6a926bf702173861b08e49bcb51fca3a2f269f9a337f72ef159bf46052087e35 5039523 postfix_3.10.5.orig.tar.gz ddd4fbb963a433cf96d23da0fa1f1414cd6ccfdb6bcc5909d310dbfaad27e84c 220 postfix_3.10.5.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha512": [
+    "f909815b3bb50710c24ab04b178f58f51942d78b73fcf00c17f891ded2d36e0ea2c5fdf8c5b3c316341637edadbbabb0f8b34d806ad0992f929f2cc7c28a9c31 199904 postfix_3.10.5-1~deb13u1.debian.tar.xz 97f79b4afc3abd4ecc182019afc78fcd1ed44a9c5937656c6a3d2dfe0894b501c213ff6db66287ced824ae2663d0ddfb78472d28b471c54b8c036d6023278cf4 3291 postfix_3.10.5-1~deb13u1.dsc 3bec6185f1311f9726c5dc3a902f7e7b9a2e80488bf544805118d212bc1e6496668b60414485331dd0fc807dc1714d0bda6a219e710cdd6c56270a33e1aacabc 5039523 postfix_3.10.5.orig.tar.gz f4f184f14780158d35f5a0596c3af8cab0ad9c5917778e9e8af28bf8a123ae3ff02ac6a36a0250f2cb589547279abe0e7b40c6502990651d19bda811de690273 220 postfix_3.10.5.orig.tar.gz.asc"
+  ],
+  "Directory": [
+    "pool/main/p/postfix"
+  ],
+  "Files": [
+    "3d92a3e5f4e1b38e66510f6e660cfada 199904 postfix_3.10.5-1~deb13u1.debian.tar.xz cb8ccb9093f79ef50b3fdf22093f6ace 3291 postfix_3.10.5-1~deb13u1.dsc a82fcacc74021672e9df71f783f1651b 5039523 postfix_3.10.5.orig.tar.gz 0c6e7db742ef5c159df169f82a193ae5 220 postfix_3.10.5.orig.tar.gz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.postfix.org"
+  ],
+  "Maintainer": [
+    "Debian Postfix Team \u003cteam+postfix@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "postfix"
+  ],
+  "Package-List": [
+    "postfix deb mail optional arch=any postfix-cdb deb mail optional arch=any postfix-doc deb doc optional arch=all postfix-ldap deb mail optional arch=any postfix-lmdb deb mail optional arch=any postfix-mongodb deb mail optional arch=linux-any postfix-mysql deb mail optional arch=any postfix-pcre deb mail optional arch=any postfix-pgsql deb mail optional arch=any postfix-sqlite deb mail optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "libsasl2-modules, lsb-release, procmail, python3, python3-pexpect, sasl2-bin, ssl-cert"
+  ],
+  "Uploaders": [
+    "LaMont Jones \u003clamont@debian.org\u003e, Michael Tokarev \u003cmjt@tls.msk.ru\u003e, Scott Kitterman \u003cscott@kitterman.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/postfix-team/postfix-dev"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/postfix-team/postfix-dev.git"
+  ],
+  "Version": [
+    "3.10.5-1~deb13u1"
+  ]
+}

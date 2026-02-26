@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "libwpewebkit-2.0-dev, libwpewebkit-2.0-1, wpewebkit-webdriver, libwpewebkit-doc, libwpewebkit-1.0-doc, wpewebkit-driver"
+  ],
+  "Build-Depends": [
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), bubblewrap [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hppa ppc64 x32], xdg-dbus-proxy [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hppa ppc64 x32], libseccomp-dev [amd64 arm64 armel armhf i386 mips64el ppc64el riscv64 s390x hppa ppc64 x32], cmake (\u003e= 3.16), flite1-dev, gperf, libatk-bridge2.0-dev, libatk1.0-dev, libavif-dev, libcairo2-dev, libepoxy-dev, libgbm-dev, libgcrypt20-dev, libgstreamer-plugins-bad1.0-dev, libgstreamer-plugins-base1.0-dev, libgstreamer1.0-dev, libharfbuzz-dev, libicu-dev, libjpeg-dev, libjxl-dev, liblcms2-dev, libopenjp2-7-dev, libsoup-3.0-dev, libsqlite3-dev, libsystemd-dev, libtasn1-6-dev, libwayland-dev, libwebp-dev, libwoff-dev, libwpe-1.0-dev, libwpebackend-fdo-1.0-dev, libxslt1-dev, ninja-build, ruby:native, unifdef, wayland-protocols"
+  ],
+  "Build-Depends-Indep": [
+    "gi-docgen, gobject-introspection, libgirepository1.0-dev, libglib2.0-doc, libsoup-3.0-doc, jdupes"
+  ],
+  "Checksums-Sha1": [
+    "36ad5cdd98c2bc0fad2a8472116fd6404b67084f 50100 wpewebkit_2.48.3-1.debian.tar.xz 3b5de8d206a800caadf1b467b98711793f7631da 3568 wpewebkit_2.48.3-1.dsc 8a90b9ff8809c99c306defc1a08e50a31a09c590 42211124 wpewebkit_2.48.3.orig.tar.xz aad51f427f80d494cfd9237a23dc715a8ed5dc0a 195 wpewebkit_2.48.3.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "ed7ce0b8f51db84b7a22cec65abc8ea867ba9cb790e39a2602c89234e4b4dfb9 50100 wpewebkit_2.48.3-1.debian.tar.xz dde35d7581c0c35d95f0468b9f90186c361ac82a36ac9eb0e43991270d49547e 3568 wpewebkit_2.48.3-1.dsc 807571f07e87823b8fb79564692c9b1ef81ee62edbf51345a15bd0e7e1f2e07b 42211124 wpewebkit_2.48.3.orig.tar.xz abb7fc0c67f93b8ed57580486b3f065a4117dcaff980e4ab4df4dcf133c33f8e 195 wpewebkit_2.48.3.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "3cd5a50b1d9cf0b7b556db3891158c90eaa3b376a6d10dd1c133580a935a338e371a1fdc5dc8a2bdba797269719af86acb93e0e5f0349e3ca6a959524ff61617 50100 wpewebkit_2.48.3-1.debian.tar.xz 9fcf7c17fcd6a843700f19ee8f3258b44b64ef9dce72cf4479ae328020418d1f0c13c52ddb9dbf6557c1bb9d0753c28d093ac1dd2784a8a83c91d39e547cf7bd 3568 wpewebkit_2.48.3-1.dsc fe96377d0f9f6b6ce4bfbf7c67e1828c8b397ef246282a8748ce8b4f9fbcfc6ebeadba4176428b17a9e0850e1d2ea8ba52a1c75bb405f6c4ba1a644e4a5a7b04 42211124 wpewebkit_2.48.3.orig.tar.xz 2de98df4c18f80b55cad9f446bc52bd4e8daf9080c1bb743e88bb08d0e58139beb95d2758816abd791c3a7841cd54cb824d12f2452cc2fc8365d8e5b4828c0f3 195 wpewebkit_2.48.3.orig.tar.xz.asc"
+  ],
+  "Directory": [
+    "pool/main/w/wpewebkit"
+  ],
+  "Files": [
+    "7b7f8bd7a12f577b431c20289a9b3e6f 50100 wpewebkit_2.48.3-1.debian.tar.xz af38e5cac2a6f1c9d6f61cc40a500fad 3568 wpewebkit_2.48.3-1.dsc 2d3b7fa3c62886546f918fcc289cabbe 42211124 wpewebkit_2.48.3.orig.tar.xz ad03c703ff24375ce195f0f136a851ff 195 wpewebkit_2.48.3.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wpewebkit.org/"
+  ],
+  "Maintainer": [
+    "Debian WebKit Maintainers \u003cpkg-webkit-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "wpewebkit"
+  ],
+  "Package-List": [
+    "libwpewebkit-1.0-doc deb oldlibs optional arch=all profile=!nodoc libwpewebkit-2.0-1 deb libs optional arch=linux-any libwpewebkit-2.0-dev deb libdevel optional arch=linux-any libwpewebkit-doc deb doc optional arch=all profile=!nodoc wpewebkit-driver deb oldlibs optional arch=all wpewebkit-webdriver deb web optional arch=linux-any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Alberto Garcia \u003cberto@igalia.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/webkit-team/webkit"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/webkit-team/webkit.git -b wpe/unstable"
+  ],
+  "Version": [
+    "2.48.3-1"
+  ]
+}

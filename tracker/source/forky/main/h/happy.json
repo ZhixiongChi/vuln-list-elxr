@@ -6,16 +6,16 @@
     "happy"
   ],
   "Build-Depends": [
-    "dh-sequence-haskell, haskell-devscripts (\u003e= 0.13), debhelper-compat (= 13), dpkg-dev (\u003e= 1.17.14), autoconf, docbook-utils, ghc (\u003e= 9.4), ghc-prof, docbook-xsl, docbook-xml, xsltproc, happy \u003c!stage1\u003e"
+    "dh-sequence-haskell, haskell-devscripts (\u003e= 0.16.45), debhelper-compat (= 13), dpkg-dev (\u003e= 1.17.14), ghc (\u003e= 9.4), ghc-prof, libghc-happy-lib-dev (\u003e= 2.1.7-3), libghc-happy-lib-dev (\u003c\u003c 2.1.8), happy \u003c!stage1\u003e"
   ],
   "Checksums-Sha256": [
-    "4530200c267bdae7695985be8d2654b13b78d658b76f7fb7ab5044028701e97f 2138 happy_1.20.1.1-2.dsc 8b4e7dc5a6c5fd666f8f7163232931ab28746d0d17da8fa1cbd68be9e878881b 183409 happy_1.20.1.1.orig.tar.gz 8aa67a3ebf123491474326bc5be2e5a7ecf8434cf26ec04e6d2fecaa274fe86e 9184 happy_1.20.1.1-2.debian.tar.xz"
+    "784fd57e4fe6ae8a36aa3396891b71f86737e8caa246ca699fd448de260ada35 2124 happy_2.1.7-2.dsc 9e390f0ab082d11d46598f6215b2f6e8253059721860f81082409091532d7e2a 62023 happy_2.1.7.orig.tar.gz fda395021bd1b2b7ecf36e5ba7aaceefe2e36b2a8c2210778bf40bfbb8aa5987 8900 happy_2.1.7-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/h/happy"
   ],
   "Files": [
-    "53ace7321ea769fab7d28061153c0776 2138 happy_1.20.1.1-2.dsc 2dcd1c6a080db2c80546efe0b740eadf 183409 happy_1.20.1.1.orig.tar.gz 1b667acbc032492c9535e2e887f79c6f 9184 happy_1.20.1.1-2.debian.tar.xz"
+    "8b2f0876d6bf4475d28d983660fbb1e8 2124 happy_2.1.7-2.dsc 6cc810d3cc6c9747493f22d2459102d7 62023 happy_2.1.7.orig.tar.gz 661f15f12cf3f1a579ee898b792af4bb 8900 happy_2.1.7-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "haskell"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.3"
   ],
   "Uploaders": [
     "Iain Lane \u003claney@ubuntu.com\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/haskell-team/DHG_packages.git [p/happy]"
   ],
   "Version": [
-    "1.20.1.1-2"
+    "2.1.7-2"
   ]
 }

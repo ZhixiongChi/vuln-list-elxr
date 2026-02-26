@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "sysprof, libsysprof-6-6, libsysprof-6-modules, libsysprof-capture-4-dev, libsysprof-6-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13.11.6~), debhelper-compat (= 13), binutils-dev, bzip2, desktop-file-utils, dh-sequence-gnome, itstool, libadwaita-1-dev (\u003e= 1.6~beta) [amd64 arm64 armel armhf mips64el ppc64el riscv64 s390x loong64 ppc64] \u003c!pkg.sysprof.nogui\u003e, libdebuginfod-dev, libdex-dev (\u003e= 0.9), libdw-dev, libglib2.0-dev (\u003e= 2.80.0), libgtk-4-dev (\u003e= 4.15) [amd64 arm64 armel armhf mips64el ppc64el riscv64 s390x loong64 ppc64] \u003c!pkg.sysprof.nogui\u003e, libjson-glib-dev, libpanel-dev (\u003e= 1.7.0) [amd64 arm64 armel armhf mips64el ppc64el riscv64 s390x loong64 ppc64] \u003c!pkg.sysprof.nogui\u003e, libpolkit-agent-1-dev, libpolkit-gobject-1-dev, libsystemd-dev, libunwind-dev (\u003e= 1), libxml2-utils, meson (\u003e= 0.59.0), polkitd"
+  ],
+  "Checksums-Sha1": [
+    "877e078ca9ef8ef1b431f9b5671ef47e7cd3a2ef 17728 sysprof_48.0-2.debian.tar.xz f765921a21f568f3403149105196a9b87e0fcc50 3085 sysprof_48.0-2.dsc 167dfe689d21fc2ae1b472d68e1d46f372c388e0 1224264 sysprof_48.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "212e0fb593e6d23ae74ebeca99d73bb9cc5c4bc23607dd384b7e5552a9cd6da6 17728 sysprof_48.0-2.debian.tar.xz 8e67bfd77ba5d6405dd373625553fedb2d2147aa29268c5639e459727a787e8e 3085 sysprof_48.0-2.dsc 1b0f0380f2f30708ba87829321a06fee1db36dfa87797bbf07f0a7acf4498d18 1224264 sysprof_48.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "3a340e9aad168dd2acaa3a11de17c9a10675b972e4740a8e3d145a3e2d08c9240f4e70935a510b5acdb7ee99913378525de7f7679119181789b826ae7125a87b 17728 sysprof_48.0-2.debian.tar.xz b3a1c68b0f07771d5d93900f916f86da859b1768b3ebc290c967f53529d4c230b71c826e826b274b3c30b07074659cdcdef38184cc60ffb2bb90fe92e0c88e6f 3085 sysprof_48.0-2.dsc f687907d616a7d67f605b7874f903714092e32937565206129ce43107205ad27d0e30d82c527e04e232e1420c3b2ff3f60618ba286e303ddd74d959b056be9bc 1224264 sysprof_48.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/sysprof"
+  ],
+  "Files": [
+    "2bb5403b145309be1fcba7c86f59ada0 17728 sysprof_48.0-2.debian.tar.xz 4e76efd02fd93216330da8ade5ba47fe 3085 sysprof_48.0-2.dsc be477e0464082668075f2bb49df9616f 1224264 sysprof_48.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://apps.gnome.org/Sysprof/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "sysprof"
+  ],
+  "Package-List": [
+    "libsysprof-6-6 deb libs optional arch=linux-any libsysprof-6-dev deb libdevel optional arch=linux-any libsysprof-6-modules deb libs optional arch=linux-any libsysprof-capture-4-dev deb libdevel optional arch=linux-any sysprof deb devel optional arch=amd64,arm64,armel,armhf,mips64el,ppc64el,riscv64,s390x,loong64,ppc64 profile=!pkg.sysprof.nogui"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config"
+  ],
+  "Uploaders": [
+    "Ritesh Raj Sarraf \u003crrs@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/sysprof"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/sysprof.git"
+  ],
+  "Version": [
+    "48.0-2"
+  ]
+}

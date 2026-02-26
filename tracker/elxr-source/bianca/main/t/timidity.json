@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "timidity, timidity-interfaces-extra, timidity-el, timidity-daemon"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 11), dh-exec, libasound2-dev [linux-any], libflac-dev, libjack-dev, libao-dev, libncurses-dev, libpng-dev, libslang2-dev, libspeex-dev, libvorbis-dev, libx11-dev, libxaw7-dev, libxext-dev, libxmu-dev, libxpm-dev, libxt-dev, tcl-dev, tk-dev"
+  ],
+  "Checksums-Sha1": [
+    "f84658a03156558e8ffffcb64c7b28a67d3f4f4e 40768 timidity_2.14.0-8.3.debian.tar.xz 9fceeb6dd82889de5efa158e136908533577c879 2129 timidity_2.14.0-8.3.dsc 3d1d18ddf3e52412985af9a49dbe7ad345b478a8 1611424 timidity_2.14.0.orig.tar.bz2"
+  ],
+  "Checksums-Sha256": [
+    "bdfd6195f79472cae699b04b591e98668a7060863936d7e7816036f4efae5cde 40768 timidity_2.14.0-8.3.debian.tar.xz 76930a646694772ee76ae9d14ac75adf0bd6b5b8745ef63b9cb79709761aec12 2129 timidity_2.14.0-8.3.dsc f97fb643f049e9c2e5ef5b034ea9eeb582f0175dce37bc5df843cc85090f6476 1611424 timidity_2.14.0.orig.tar.bz2"
+  ],
+  "Checksums-Sha512": [
+    "27b9517fe578b13106aa393008bdd4a82cd5479c598da858554219a2e64a3b656fb890c8e54eda6ce4caf674bd4c9c603b2b0918b3cefe724704b3af9a7d7b92 40768 timidity_2.14.0-8.3.debian.tar.xz a5e8446486c22b66544405a0e4d16d763a992568735a71dfd40779142b29a53f79c3227e334c9522a795c7b97c34166c2f62a495fed5fbfff3defbc4d8111860 2129 timidity_2.14.0-8.3.dsc 274b2a700cd10c7034ffae50b989419f971c79eac71c8e20649e4138f9710be0505bd99379b23e772b5af5aa86a636e4070e522f43d06007ceacc25f61261c8a 1611424 timidity_2.14.0.orig.tar.bz2"
+  ],
+  "Directory": [
+    "pool/main/t/timidity"
+  ],
+  "Files": [
+    "ed5c295676d75fc31243cc1de139fd0e 40768 timidity_2.14.0-8.3.debian.tar.xz baccff0d85e81c7a60eda0da1fd0fb01 2129 timidity_2.14.0-8.3.dsc 37a8e9720928869e8adbfa6ce1c313aa 1611424 timidity_2.14.0.orig.tar.bz2"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://timidity.sourceforge.net/"
+  ],
+  "Maintainer": [
+    "Bastien Roucariès \u003crouca@debian.org\u003e"
+  ],
+  "Package": [
+    "timidity"
+  ],
+  "Package-List": [
+    "timidity deb sound optional arch=any timidity-daemon deb sound optional arch=all timidity-el deb lisp optional arch=all timidity-interfaces-extra deb sound optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.1.4"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/timidity"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/timidity.git"
+  ],
+  "Version": [
+    "2.14.0-8.3"
+  ]
+}

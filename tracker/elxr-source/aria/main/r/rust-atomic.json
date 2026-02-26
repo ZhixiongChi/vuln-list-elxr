@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-atomic-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-autocfg-1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "a664a8c0f76066226061ecee710bcce0c4220759 3556 rust-atomic_0.5.1-4.debian.tar.xz eb649da2fdad89a125cc90f085ac0a9d44234470 2178 rust-atomic_0.5.1-4.dsc 2f9c2f9ef2416cc8f6ddbdae413c3986312f4caa 12817 rust-atomic_0.5.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "aef368c85f74964b7ce0c514508cb8d74eafe3c17010d4c89f90dc7da13682be 3556 rust-atomic_0.5.1-4.debian.tar.xz c5664cebbc740c60270fde95365bcc8f5e749b0805f8796d74de90fa74570cac 2178 rust-atomic_0.5.1-4.dsc b88d82667eca772c4aa12f0f1348b3ae643424c8876448f3f7bd5787032e234c 12817 rust-atomic_0.5.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "4a777c3a24b09101c91350b09b8de492dce0b30f34f379f7afa8346173cfb5617db4f550475284c20074113910975c7218955ddd9327160f4ab7cde8b1784bfb 3556 rust-atomic_0.5.1-4.debian.tar.xz 094c538c2adb415b224b2b98730f69e76d2a204d83d7571713cb727d3e9ab726e85fec96e5a29a71012e417fc60bc4c88874146a06459440a2e0e84eb8816169 2178 rust-atomic_0.5.1-4.dsc d9983a39da849a9852237eb00e727fee10b30b15b2e75f6c7e091a2fbadd289c688744997ae1ea933f1541cf867b7df3531870e7628ae9ef75fc7a78dccc9bd4 12817 rust-atomic_0.5.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-atomic"
+  ],
+  "Files": [
+    "fe45bdd68628ad4b9a960584715839e2 3556 rust-atomic_0.5.1-4.debian.tar.xz 9e9d1dd5ee349d72a458b6ff372d03c9 2178 rust-atomic_0.5.1-4.dsc ac4f0b96cb2b9ff2baf6c5a5f8d354cc 12817 rust-atomic_0.5.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-atomic"
+  ],
+  "Package-List": [
+    "librust-atomic-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Matthias Geiger \u003cmatthias.geiger1024@tutanota.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/atomic"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/atomic]"
+  ],
+  "Version": [
+    "0.5.1-4"
+  ]
+}
