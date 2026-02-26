@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-quart-doc, python3-quart"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, flit, pybuild-plugin-pyproject, python3-aiofiles, python3-all, python3-blinker, python3-click, python3-dotenv, python3-flask \u003c!nodoc\u003e, python3-hypercorn, python3-hypothesis, python3-itsdangerous, python3-jinja2, python3-markupsafe, python3-myst-parser \u003c!nodoc\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-toml, python3-werkzeug (\u003e= 2.2.0~)"
+  ],
+  "Checksums-Sha1": [
+    "d40ed0f6bf6262c875aafff5af599dc3543bf03e 6412 quart_0.20.0-1.debian.tar.xz 510afc318a58363ba836f8502e15cae33b0d1892 2651 quart_0.20.0-1.dsc 4025437bc4abd517122f534e0829fd82d2da9a12 596836 quart_0.20.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "c8f44318842911c4c8b6426b01f846094e991fb96dea2f9647f9726fc9516f75 6412 quart_0.20.0-1.debian.tar.xz b09cd9fc51aee69008c13778a160fdbbbb25755b25ffa7ef1215c03ba7297df5 2651 quart_0.20.0-1.dsc 5e0a6b984cc4f001d5f59d73153d18744b57e3c6ec5944d354c42cc61e463b17 596836 quart_0.20.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "f1e92fbaa0fde7cbd53150bc1c31f4968e10ede041bf0dc836bef0ff8506f3d1e34310fc549a069f9f6cfb8840e7777ab13e30bcffce72cfe222730d869c8115 6412 quart_0.20.0-1.debian.tar.xz 875d705d1d348db842d11d0a778908667a823928cddb19ea843ff564a1c93865460af3e470f485989853b8b0a5b8eba182db9998c2633f46a7f904c754fe5751 2651 quart_0.20.0-1.dsc 6b5e77795e6a7eed68f1bbb593735ea5fbde8e028f1ff5042c10a77617a44fd14d6b9dd4f090d846d5fb1c452f2c86f1d6ffe24c8330c26418b2019eabb91b38 596836 quart_0.20.0.orig.tar.xz"
+  ],
+  "Dgit": [
+    "8bc10651917e04a218d847b84c3cb94f03b0ee5b debian archive/debian/0.20.0-1 https://git.dgit.debian.org/quart"
+  ],
+  "Directory": [
+    "pool/main/q/quart"
+  ],
+  "Files": [
+    "3f34b50b4669b9c641f042acd467248c 6412 quart_0.20.0-1.debian.tar.xz 82604fd934436ce1fbf7a7c14db5b58d 2651 quart_0.20.0-1.dsc 0dd2396127d68f35a04a1c7a60782ca7 596836 quart_0.20.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/pallets/quart"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "quart"
+  ],
+  "Package-List": [
+    "python-quart-doc deb doc optional arch=all python3-quart deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, python3-all"
+  ],
+  "Uploaders": [
+    "Andrej Shadura \u003candrewsh@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/quart"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/quart.git"
+  ],
+  "Version": [
+    "0.20.0-1"
+  ]
+}

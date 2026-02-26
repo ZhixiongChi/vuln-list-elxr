@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-libloading-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "fa4325d269d4c0d91dad242c9e0543aeb597cb8d 2992 rust-libloading_0.8.5-1.debian.tar.xz 2dc9e0c775ae15be1820d8ff018c096a43c186cf 2274 rust-libloading_0.8.5-1.dsc e7922978cd68d4987f092957881caa7f6bac3906 28902 rust-libloading_0.8.5.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "f1b2f430a8009f60ecec78893c3c05a6ad4fd552c6730aa1ae36f86339a2a36a 2992 rust-libloading_0.8.5-1.debian.tar.xz f4c5df9671b5c908d3574adf9fbdb0c58aa00b602ed56d3e7a242876b8ec747c 2274 rust-libloading_0.8.5-1.dsc 4979f22fdb869068da03c9f7528f8297c6fd2606bc3a4affe42e6a823fdb8da4 28902 rust-libloading_0.8.5.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "554cddaf4e613a8130ba14a943ea000d980ee79ddedfbe29ee929ca570fc0d96693c993bffcb55917b159706abe619ec6c149bdc6b6ac3210cf3e8364aebb8c7 2992 rust-libloading_0.8.5-1.debian.tar.xz 7f17ee8dc8bfd7e7ec9ccc9e7d6a6ddb5ec732e4c9db10c42cb4a2f59752c2a3f26f67e05772ec75df6c5ec2e63d47182a0154a2973d65314650fd73be1f870b 2274 rust-libloading_0.8.5-1.dsc f332884fa75cf210460f4678d45091345b23469c09301614c476e95bc54163afd6d4f098a34f9e0d529fa1ec63892395b50957598070ff327743e4c3b0871074 28902 rust-libloading_0.8.5.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-libloading"
+  ],
+  "Files": [
+    "e65aa8c474c745e0da3b09fc6540f920 2992 rust-libloading_0.8.5-1.debian.tar.xz 14f94e9dde830697c6b1178e7e7e246a 2274 rust-libloading_0.8.5-1.dsc 497cb030511762f0e30f395fb9c092ec 28902 rust-libloading_0.8.5.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-libloading"
+  ],
+  "Package-List": [
+    "librust-libloading-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-libc-0.2+default-dev, librust-static-assertions-1+default-dev"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/libloading"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/libloading]"
+  ],
+  "Version": [
+    "0.8.5-1"
+  ]
+}

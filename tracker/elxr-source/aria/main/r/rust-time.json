@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-time-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.98-~~) \u003c!nocheck\u003e, librust-num-threads-0.1+default-dev (\u003e= 0.1.2-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "a8d1ca3afa0ed24104e5142a2a82ed8db9a61b1d 4400 rust-time_0.3.9-1.debian.tar.xz d2669ad68d26937ec7232cb345815c746fd9795c 2359 rust-time_0.3.9-1.dsc ad38e8d6761ad0134dc79bae9eb679332e935e81 81412 rust-time_0.3.9.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "c15bc6457f141cb1c1f39a4e39b2dedb63d58a0d68a35ada6e988b8a6d3d4386 4400 rust-time_0.3.9-1.debian.tar.xz afb9d699002875f705727b0e04a4333261cda259e966a7cb83a71388cacf9a8a 2359 rust-time_0.3.9-1.dsc c2702e08a7a860f005826c6815dcac101b19b5eb330c27fe4a5928fec1d20ddd 81412 rust-time_0.3.9.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "120ac9d8660ba5362f4032caebec8316b864254325fc64d0fefcac902781d01e066f4052f30540bf29d82024147fea82f92835ec7abe193a53f19a904d75520c 4400 rust-time_0.3.9-1.debian.tar.xz cf2243e4b2401a49ba04e4fd7679c1c0f0907cf8b5ea37469a21dc5b315c8ba7ecc530d0a41eeab6f82923abd1422cf7e7e7a8635199d35302a6d229069a4f38 2359 rust-time_0.3.9-1.dsc 2dd8c57d2fc232d8a05109f0d41f964fc587345eff0a68c42c2b1690d6da1a4868188df7f03bece12148e7434b973c472fb0c85fa1f840053da3b30cf6c47e80 81412 rust-time_0.3.9.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-time"
+  ],
+  "Files": [
+    "0aa2fb04e93aefb3a3e52cc8f3c49147 4400 rust-time_0.3.9-1.debian.tar.xz 4e4084b6347f9bce79aeaa9609691062 2359 rust-time_0.3.9-1.dsc ad3f3c7bb184e63919b633dc35805cf4 81412 rust-time_0.3.9.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://time-rs.github.io"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-time"
+  ],
+  "Package-List": [
+    "librust-time-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-quickcheck-macros-1+default-dev, librust-rand-0.8-dev, librust-serde-1+derive-dev, librust-serde-json-1+default-dev"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/time"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/time]"
+  ],
+  "Version": [
+    "0.3.9-1"
+  ]
+}

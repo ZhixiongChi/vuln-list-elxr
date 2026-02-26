@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "octave, octave-common, octave-doc, octave-dev, liboctave-dev"
+  ],
+  "Build-Depends": [
+    "automake, bison, debhelper-compat (= 13), debhelper (\u003e= 12.8~), default-jdk [!hppa !hurd-any !kfreebsd-any], desktop-file-utils, epstool, fig2dev, flex, gawk, gfortran, ghostscript, gnuplot-nox, gperf, icoutils, less, libarpack2-dev, libblas-dev, libcurl4-gnutls-dev, libfftw3-dev, libfltk1.3-dev, libfontconfig1-dev, libgl2ps-dev, libglpk-dev, libglu1-mesa-dev, libgraphicsmagick++1-dev, libhdf5-dev, liblapack-dev, libncurses5-dev, libpcre3-dev, libqhull-dev, libqrupdate-dev, libqscintilla2-qt5-dev, libqt5opengl5-dev, libreadline-dev, librsvg2-bin, libsndfile1-dev, libsuitesparse-dev, libsundials-dev, libxft-dev, portaudio19-dev, pstoedit, qtbase5-dev, qttools5-dev, qttools5-dev-tools, rapidjson-dev, texinfo, texlive-fonts-recommended, texlive-latex-base, texlive-plain-generic, unzip, xauth, zip"
+  ],
+  "Checksums-Sha1": [
+    "8330da9d2b6c24e49dd13b4291bbc5afc1777178 61600 octave_7.3.0-2.debian.tar.xz 5222def62338af9e6d1ea3c2d2829729bc4f52c1 3317 octave_7.3.0-2.dsc 101db0ef7cbc86f00afa892680d1b0b0552efc85 26215288 octave_7.3.0.orig.tar.xz 6e5dc093a5f5dc522d4ea1202c1047968b9e433b 195 octave_7.3.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "e5e694b209932220f087f989a92b6b32889becc0b186350d07b1e4b31e895bd9 61600 octave_7.3.0-2.debian.tar.xz ec47150f126a8c1a3cb8b97a60173c2b33bed84b1a511ab518c77c6e9ce162b2 3317 octave_7.3.0-2.dsc a508ee6aebccfa68967c9e7e0a08793c4ca8e4ddace723aabdb8f71ad34d57f1 26215288 octave_7.3.0.orig.tar.xz 4f32ff30144877f07e27480b3428ea9eda03c190b4bcb9e4c9d44b545303dd48 195 octave_7.3.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "9871a88911e17b5afaf138310c280c85c282b8a32a5a2347bba8a5184e3867dd11874227c27cb6c17c676fa36d62c364562285e2976c60b6a4331831bd7ef2b9 61600 octave_7.3.0-2.debian.tar.xz d3e168fc418a12c904c5e2dc2b564113cd5dcafded41adbf4935130c088554c530e02036c5a2a952fbc8647e798d41e04a0c8095b49a9e83defefa726cf72fe5 3317 octave_7.3.0-2.dsc 1399d7010cbd4e83d6dc60ab8cc2abb20e64a762e905a00066e6331c5350df93b4ff8f2670fd52fc183918cea21bc176cb263ca71080de6e4041f5e0ea21558e 26215288 octave_7.3.0.orig.tar.xz f0bd251723e4d66e8c3e4bb5c002f1c1f25ee27b4a6bb4d5bc0c98e10d8d0a536c2a8f05e1111a5c2a87c66ec5653651058911a28843a58caf5357310d34fc02 195 octave_7.3.0.orig.tar.xz.asc"
+  ],
+  "Directory": [
+    "pool/main/o/octave"
+  ],
+  "Files": [
+    "2e34a9d596253bd0f22a9bbcdb1373ab 61600 octave_7.3.0-2.debian.tar.xz 8a03a5dab011b83337c74a0df1440619 3317 octave_7.3.0-2.dsc 59526e870fd2d43ceebfb9e8aa5e43a2 26215288 octave_7.3.0.orig.tar.xz 190269d6a55186859bab28db5920341b 195 octave_7.3.0.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.octave.org/"
+  ],
+  "Maintainer": [
+    "Debian Octave Group \u003cteam+pkg-octave-team@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "octave"
+  ],
+  "Package-List": [
+    "liboctave-dev deb oldlibs optional arch=all octave deb math optional arch=any octave-common deb math optional arch=all octave-dev deb libdevel optional arch=any octave-doc deb doc optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "default-jre-headless, fonts-freefont-otf, ghostscript, gnuplot-nox, shunit2, unzip, zip"
+  ],
+  "Uploaders": [
+    "Sébastien Villemot \u003csebastien@debian.org\u003e, Rafael Laboissière \u003crafael@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-octave-team/octave"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-octave-team/octave.git"
+  ],
+  "Version": [
+    "7.3.0-2"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-keystoneclient-doc, python3-keystoneclient"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx \u003c!nodoc\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "bandit, memcached, python3-bandit, python3-coverage, python3-debtcollector, python3-fixtures, python3-hacking, python3-keyring, python3-keystoneauth1, python3-lxml, python3-memcache, python3-oauthlib, python3-openstackdocstheme \u003c!nodoc\u003e, python3-os-client-config, python3-oslo.config, python3-oslo.i18n, python3-oslo.serialization, python3-oslo.utils, python3-oslotest, python3-packaging, python3-pep8, python3-pysaml2, python3-requests, python3-requests-mock, python3-six, python3-stestr, python3-stevedore, python3-sphinxcontrib.apidoc \u003c!nodoc\u003e, python3-tempest \u003c!nocheck\u003e, python3-testresources \u003c!nocheck\u003e, python3-testscenarios \u003c!nocheck\u003e, python3-testtools \u003c!nocheck\u003e, subunit \u003c!nocheck\u003e, tempest"
+  ],
+  "Checksums-Sha1": [
+    "d15cb25aab6c74e320dfdfbd9eab2bc46a3c4fb6 28812 python-keystoneclient_5.0.1-3.debian.tar.xz afb14fd8f3f361d4d880e46a6cff6c47da387f68 3105 python-keystoneclient_5.0.1-3.dsc 4b22f27153d54a0f29e17961023c566486d4c63d 216944 python-keystoneclient_5.0.1.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "a833f2677684ff874160c41332db6ddf7bee916c2ad7bd37343465c2aa7dacec 28812 python-keystoneclient_5.0.1-3.debian.tar.xz bf467321240044d7cc4f9f459876e3db1f851046256655b1c125768f88e91b43 3105 python-keystoneclient_5.0.1-3.dsc 7173b39607117f9b9b6846f878249b6369546b1eb2d3ad1bf2be4a29f13ae1aa 216944 python-keystoneclient_5.0.1.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "ff4c9c124c18a2ef13144079d0bb4cf6895d2fca2f3bbc9f0f774e72023ffb94556014cd113eaf460a49d4cab16c7c2ae3c743a3863202c0cdf930356b06b328 28812 python-keystoneclient_5.0.1-3.debian.tar.xz ce5e3555bbfcd3a9ccfbfcc411c8588f89b18c1efb9a80e793a0248d7b36b9fa0e686e193543e0df11fb406577d896fc91c96d665ec35b45714280309ebd21b2 3105 python-keystoneclient_5.0.1-3.dsc bfbe050a16624b2452deaf3fb31611f16f81e375abbad543dd66fc8c8ff5373e081737a80f89d2b2fe1ba4f98e37abe7a0426d44034e8625573cea71e2dc3d44 216944 python-keystoneclient_5.0.1.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-keystoneclient"
+  ],
+  "Files": [
+    "e939699104b1146e30d079dfc5051b45 28812 python-keystoneclient_5.0.1-3.debian.tar.xz 05bba6d3fb65c06c0b8a7ced2572fc9a 3105 python-keystoneclient_5.0.1-3.dsc 50ece03e01b9a53f44089bf50c7657bf 216944 python-keystoneclient_5.0.1.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openstack/python-keystoneclient"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-keystoneclient"
+  ],
+  "Package-List": [
+    "python-keystoneclient-doc deb doc optional arch=all profile=!nodoc python3-keystoneclient deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, Corey Bryant \u003ccorey.bryant@canonical.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/clients/python-keystoneclient"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/clients/python-keystoneclient.git"
+  ],
+  "Version": [
+    "1:5.0.1-3"
+  ]
+}

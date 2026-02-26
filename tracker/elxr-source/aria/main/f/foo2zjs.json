@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "printer-driver-foo2zjs, printer-driver-foo2zjs-common"
+  ],
+  "Build-Depends": [
+    "cups-filters | foomatic-filters, dc, debhelper-compat (= 13), foomatic-db-engine, ghostscript, libcups2-dev, libjbig-dev, liblcms2-utils, pyppd, time"
+  ],
+  "Checksums-Sha1": [
+    "e50f9b9601a019364502a4fc3d95fa8b7835fdac 39568 foo2zjs_20200505dfsg0-2.debian.tar.xz f39fda8d9e0ea37214a7a308009fa24aa9048ff9 2327 foo2zjs_20200505dfsg0-2.dsc 99ab4c86ffc760b1a670cf622360826e3b3cd75b 588424 foo2zjs_20200505dfsg0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "4b39ca30fbbe2371b25f6b60f6eca3f236f719f493153aa357ad532cea895f79 39568 foo2zjs_20200505dfsg0-2.debian.tar.xz d176bab81dc2f86b75d80586c85677e5407fa7391731064b459673fa702d3f77 2327 foo2zjs_20200505dfsg0-2.dsc 87465e6a31f8501b90508d50e97901d2cce8b5b3de5418cc156e66d5c500421b 588424 foo2zjs_20200505dfsg0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "7fb27ee7ccfef9c870f690860b7b3d3989ed3dce43da98b00c071a09dc3c3e2c1105952c785bfd123b4370afd23289a5da452ba408c8c069c445f0371d15bd54 39568 foo2zjs_20200505dfsg0-2.debian.tar.xz 7807af1882779f87c60500c263be28c59ded0d0df34f94f3187bca680adcd49ace88efd85fc2599041d0e3986e6c39b67e55d974bd1aba0986a3972c56b6b425 2327 foo2zjs_20200505dfsg0-2.dsc 83024c72deb9b13a231b46d497bea057cf826d8610929c094b248fa74f9f344829dab78fba657b83baddf2e02cfaa32139c7ce31d765262d29d9d1f4b2a487f3 588424 foo2zjs_20200505dfsg0.orig.tar.xz"
+  ],
+  "Dgit": [
+    "f4ab9ca467f9d6cc015a5d9f5a24a483ee096f04 debian archive/debian/20200505dfsg0-2 https://git.dgit.debian.org/foo2zjs"
+  ],
+  "Directory": [
+    "pool/main/f/foo2zjs"
+  ],
+  "Files": [
+    "b15c9c17e0fb01a3eb4050fe2f4ab31f 39568 foo2zjs_20200505dfsg0-2.debian.tar.xz 0177450a02f21771f2914f72cdb7c30b 2327 foo2zjs_20200505dfsg0-2.dsc 033b11479e94f9d039246733146abb1d 588424 foo2zjs_20200505dfsg0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://foo2zjs.rkkda.com/"
+  ],
+  "Maintainer": [
+    "Debian Printing Team \u003cdebian-printing@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "foo2zjs"
+  ],
+  "Package-List": [
+    "printer-driver-foo2zjs deb text optional arch=any printer-driver-foo2zjs-common deb text optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "cups, cups-client"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/printing-team/foo2zjs"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/printing-team/foo2zjs.git"
+  ],
+  "Version": [
+    "20200505dfsg0-2"
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "lm-sensors, libsensors-config, libsensors5, libsensors-dev, fancontrol"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), bison, flex, libtest-cmd-perl \u003c!nocheck\u003e, pkgconf, systemd-dev"
+  ],
+  "Checksums-Sha1": [
+    "4fc85ea0fc913a97156c47d77c849ac8c8f329e6 34944 lm-sensors_3.6.2-2.debian.tar.xz a9b84859121f69890b285b4b181ba55c4250e71d 2165 lm-sensors_3.6.2-2.dsc 38047a000efa3440b00f1a6332594a4c51566bee 292327 lm-sensors_3.6.2.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "a8fcfdaf67421f91bc8d033f47358796e4637bff606b23016377cd64df6d0168 34944 lm-sensors_3.6.2-2.debian.tar.xz a086af761b4918ad23436c9b0e54aedf7be922df3bf339bbaa5bc5072f8b4f31 2165 lm-sensors_3.6.2-2.dsc c6a0587e565778a40d88891928bf8943f27d353f382d5b745a997d635978a8f0 292327 lm-sensors_3.6.2.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "1ddaa68bd35ac052e2c7df16849f28dd344618f3627723edfcc90645f9ee1906520e479d21289769b476f800d4048e79439a6bd74602150e9599b804e60fece5 34944 lm-sensors_3.6.2-2.debian.tar.xz 106c5a609044b4d8acc84f0281d43fa3ce90c29f896f1feb903b4092aefc2a122d943f1c9e6f3eeab0c8a1772cd5a70bc21b1b4b371e076f3dcf8dcb1f6ddedf 2165 lm-sensors_3.6.2-2.dsc a89ae984814f5224bf621727252042d2b84a5cc5c125dd7024ff1be223e4c269b1e7c23512e56b3f2f38c088d7c6e54df47af51d63740deb09c44f837060695a 292327 lm-sensors_3.6.2.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/l/lm-sensors"
+  ],
+  "Files": [
+    "585f025e9a12e048cf91252299db7e88 34944 lm-sensors_3.6.2-2.debian.tar.xz aae1476a7c9ae626bc55e758ee4bd9a4 2165 lm-sensors_3.6.2-2.dsc 44c733f509cd4a31494fd3e355152b0a 292327 lm-sensors_3.6.2.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/hramrach/lm-sensors"
+  ],
+  "Maintainer": [
+    "Aurelien Jarno \u003caurel32@debian.org\u003e"
+  ],
+  "Package": [
+    "lm-sensors"
+  ],
+  "Package-List": [
+    "fancontrol deb utils optional arch=all libsensors-config deb utils optional arch=all libsensors-dev deb libdevel optional arch=any libsensors5 deb libs optional arch=any lm-sensors deb utils optional arch=linux-any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/aurel32/lm-sensors"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/aurel32/lm-sensors.git"
+  ],
+  "Version": [
+    "1:3.6.2-2"
+  ]
+}

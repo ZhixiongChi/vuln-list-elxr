@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libapache2-mod-php8.2, libphp8.2-embed, php8.2, php8.2-cgi, php8.2-cli, php8.2-dev, php8.2-fpm, php8.2-phpdbg, php8.2-xsl, php8.2-bcmath, php8.2-bz2, php8.2-common, php8.2-curl, php8.2-dba, php8.2-enchant, php8.2-gd, php8.2-gmp, php8.2-imap, php8.2-interbase, php8.2-intl, php8.2-ldap, php8.2-mbstring, php8.2-mysql, php8.2-odbc, php8.2-opcache, php8.2-pgsql, php8.2-pspell, php8.2-readline, php8.2-snmp, php8.2-soap, php8.2-sqlite3, php8.2-sybase, php8.2-tidy, php8.2-xml, php8.2-zip"
+  ],
+  "Build-Conflicts": [
+    "bind-dev, libxmlrpc-core-c3-dev"
+  ],
+  "Build-Depends": [
+    "apache2-dev (\u003e= 2.4), autoconf (\u003e= 2.63), automake, bison, chrpath, debhelper (\u003e= 9.20160709~), default-libmysqlclient-dev | libmysqlclient-dev, dh-apache2, dpkg-dev (\u003e= 1.16.1~), firebird-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.5-dev [!hurd-any !m68k !hppa !ppc64] | firebird2.1-dev [!hurd-any !m68k !hppa !ppc64], flex, freetds-dev, libacl1-dev, libapparmor-dev [linux-any], libapr1-dev (\u003e= 1.2.7-8), libargon2-dev | libargon2-0-dev, libbz2-dev, libc-client-dev, libcurl4-openssl-dev | libcurl-dev, libdb-dev, libedit-dev (\u003e= 2.11-20080614-4), libenchant-2-dev | libenchant-dev, libevent-dev (\u003e= 1.4.11), libexpat1-dev (\u003e= 1.95.2-2.1), libffi-dev, libfreetype6-dev, libgcrypt20-dev (\u003e\u003e 1.6.3) | libgcrypt11-dev (\u003c\u003c 1.5.4), libgd-dev (\u003e= 2.1.0) | libgd2-dev, libglib2.0-dev, libgmp3-dev, libicu-dev, libjpeg-dev | libjpeg62-dev, libkrb5-dev, libldap2-dev, liblmdb-dev, libmagic-dev, libmhash-dev (\u003e= 0.8.8), libnss-myhostname [linux-any], libonig-dev, libpam0g-dev, libpcre2-dev (\u003e= 10.30), libpng-dev, libpq-dev, libpspell-dev, libqdbm-dev, libsasl2-dev, libsnmp-dev, libsodium-dev, libsqlite3-dev, libssl-dev, libsystemd-dev [linux-any], libtidy-dev (\u003e= 1:5.2.0), libtool (\u003e= 2.2), libwebp-dev, libwrap0-dev, libxml2-dev, libxmltok1-dev, libxslt1-dev (\u003e= 1.0.18), libzip-dev (\u003e= 1.0.0), locales-all | language-pack-de, netbase, netcat-openbsd, re2c, systemtap-sdt-dev [amd64 i386 powerpc armel armhf ia64], tzdata, unixodbc-dev, zlib1g-dev"
+  ],
+  "Checksums-Sha1": [
+    "599b7abf2e1d082491e2a782dd6badf258ef6100 70540 php8.2_8.2.29-1~deb12u1.debian.tar.xz 7e0f629bf9e0cb11d246d4250883687d050d2fbc 5726 php8.2_8.2.29-1~deb12u1.dsc 58bc8418d8fa887e7c796865bf71f60fef947eed 12162364 php8.2_8.2.29.orig.tar.xz 37fafbf4a644c361c7329afa2ace1894899f4510 833 php8.2_8.2.29.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "57680b9b9eba75df8edbd88e3cf20ab6b46a7da00150f376b1e23e108a841bc4 70540 php8.2_8.2.29-1~deb12u1.debian.tar.xz e85b80921174fe16b612ad72ce921f16574f41027449b955f96d41edcf12aad5 5726 php8.2_8.2.29-1~deb12u1.dsc 475f991afd2d5b901fb410be407d929bc00c46285d3f439a02c59e8b6fe3589c 12162364 php8.2_8.2.29.orig.tar.xz 9a666b0b6f6164177390f59cc5c358c9da5901b59bdec3cc49483e857d587257 833 php8.2_8.2.29.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "f954c6625b78e509ef170cb239141a7ac11499e7323c41e8c0e5d5fe5c88f7ee73a90402cfec4c63f0c2ee025bc686a5cc27dd3b6e2bc698a4711247f6ebc11f 70540 php8.2_8.2.29-1~deb12u1.debian.tar.xz 89fcf06d5c37329e96b08722942f62efcfca77ff549ace3f1b61d24e1101a57032b6ea0a148ae06c1ea4b61ab7568f6383ebaad424b72dae19c248d2f13a23af 5726 php8.2_8.2.29-1~deb12u1.dsc 36d389e43a9d6bdc558f5e949f54e126c6fd4bf00da572e061e4e4c2f62ffeb292a34371486d3a64b85ab4a18678f7d84b2e3628e0ddc723a7757e90fecdbf92 12162364 php8.2_8.2.29.orig.tar.xz 6a906e0a1b4786e95b0b72e839d5d575e032f6e4bcb551ce23795ee85eb7835f368fcd8cbf097548f880d8fa384b13e561afd8a51b3c96a5717673c0c0577ab7 833 php8.2_8.2.29.orig.tar.xz.asc"
+  ],
+  "Directory": [
+    "pool/main/p/php8.2"
+  ],
+  "Files": [
+    "7e513de4a1812662c62212e895faa571 70540 php8.2_8.2.29-1~deb12u1.debian.tar.xz 8c95d364d75d76a42757bb2baf5e747a 5726 php8.2_8.2.29-1~deb12u1.dsc a3eea6306dc68b115b42b4ae8c9d0396 12162364 php8.2_8.2.29.orig.tar.xz 39bf90c13c4f1079395475ca869cee31 833 php8.2_8.2.29.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.php.net/"
+  ],
+  "Maintainer": [
+    "Debian PHP Maintainers \u003cteam+pkg-php@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "php8.2"
+  ],
+  "Package-List": [
+    "libapache2-mod-php8.2 deb httpd optional arch=any libphp8.2-embed deb php optional arch=any php8.2 deb php optional arch=all php8.2-bcmath deb php optional arch=any php8.2-bz2 deb php optional arch=any php8.2-cgi deb php optional arch=any php8.2-cli deb php optional arch=any php8.2-common deb php optional arch=any php8.2-curl deb php optional arch=any php8.2-dba deb php optional arch=any php8.2-dev deb php optional arch=any php8.2-enchant deb php optional arch=any php8.2-fpm deb php optional arch=any php8.2-gd deb php optional arch=any php8.2-gmp deb php optional arch=any php8.2-imap deb php optional arch=any php8.2-interbase deb php optional arch=any php8.2-intl deb php optional arch=any php8.2-ldap deb php optional arch=any php8.2-mbstring deb php optional arch=any php8.2-mysql deb php optional arch=any php8.2-odbc deb php optional arch=any php8.2-opcache deb php optional arch=any php8.2-pgsql deb php optional arch=any php8.2-phpdbg deb php optional arch=any php8.2-pspell deb php optional arch=any php8.2-readline deb php optional arch=any php8.2-snmp deb php optional arch=any php8.2-soap deb php optional arch=any php8.2-sqlite3 deb php optional arch=any php8.2-sybase deb php optional arch=any php8.2-tidy deb php optional arch=any php8.2-xml deb php optional arch=any php8.2-xsl deb php optional arch=all php8.2-zip deb php optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.0.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "apache2, wget"
+  ],
+  "Uploaders": [
+    "Ondřej Surý \u003condrej@debian.org\u003e, Lior Kaplan \u003ckaplan@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/php-team/php/-/tree/debian/main/8.2"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/php-team/php.git -b debian/main/8.2"
+  ],
+  "Version": [
+    "8.2.29-1~deb12u1"
+  ]
+}

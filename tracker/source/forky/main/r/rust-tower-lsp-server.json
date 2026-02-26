@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-tower-lsp-server-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.85) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-bytes-1+default-dev \u003c!nocheck\u003e, librust-dashmap-6+default-dev \u003c!nocheck\u003e, librust-fluent-uri-0.4+alloc-dev \u003c!nocheck\u003e, librust-fluent-uri-0.4+default-dev \u003c!nocheck\u003e, librust-futures-0.3+async-await-dev \u003c!nocheck\u003e, librust-futures-0.3+std-dev \u003c!nocheck\u003e, librust-httparse-1+default-dev \u003c!nocheck\u003e, librust-lsp-types-0.97+default-dev \u003c!nocheck\u003e, librust-memchr-2+default-dev \u003c!nocheck\u003e, librust-percent-encoding-2+default-dev (\u003e= 2.3.1) \u003c!nocheck\u003e, librust-serde-1+default-dev \u003c!nocheck\u003e, librust-serde-1+derive-dev \u003c!nocheck\u003e, librust-serde-json-1+default-dev \u003c!nocheck\u003e, librust-tokio-1+default-dev \u003c!nocheck\u003e, librust-tokio-util-0.7+codec-dev \u003c!nocheck\u003e, librust-tokio-util-0.7+default-dev \u003c!nocheck\u003e, librust-tower-0.5+util-dev \u003c!nocheck\u003e, librust-tracing-0.1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "d67dca0e27ac8a375896ff7514541124b45a7482890bec3a3b5011be15b0e9d3 2902 rust-tower-lsp-server_0.22.1-2.dsc 88f3f8ec0dcfdda4d908bad2882fe0f89cf2b606e78d16491323e918dfa95765 72193 rust-tower-lsp-server_0.22.1.orig.tar.gz dbe528a461526a7338cc9fd888ab3b1a388a782569dbd70d214c11fffd93de0f 3748 rust-tower-lsp-server_0.22.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-tower-lsp-server"
+  ],
+  "Files": [
+    "26671a5e319839ffa1e4fa673223bc56 2902 rust-tower-lsp-server_0.22.1-2.dsc d300bdc731a5fc49b7f4353d6c101788 72193 rust-tower-lsp-server_0.22.1.orig.tar.gz e9972f038d634f796a5deb7c4c92cda6 3748 rust-tower-lsp-server_0.22.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/tower-lsp-community/tower-lsp-server"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-tower-lsp-server"
+  ],
+  "Package-List": [
+    "librust-tower-lsp-server-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-async-tungstenite-0.32+default-dev, librust-async-tungstenite-0.32+tokio-runtime-dev, librust-tokio-1+default-dev, librust-tokio-1+io-std-dev, librust-tokio-1+io-util-dev, librust-tokio-1+macros-dev, librust-tokio-1+rt-multi-thread-dev, librust-tokio-1+time-dev, librust-tokio-util-0.7+compat-dev, librust-tokio-util-0.7+default-dev, librust-tracing-subscriber-0.3+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tower-lsp-server"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/tower-lsp-server]"
+  ],
+  "Version": [
+    "0.22.1-2"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "amd64 i386 x32 armhf arm64 riscv64"
+  ],
+  "Binary": [
+    "libxnnpack-dev, libxnnpack0.20241108"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), googletest, libcpuinfo-dev (\u003e= 0.0~git20231104.d6860c4~), libfp16-dev, libfxdiv-dev, libkleidiai-dev [arm64], libpsimd-dev, libpthreadpool-dev (\u003e= 0.0~git20240616.560c60d~), ninja-build, python3"
+  ],
+  "Checksums-Sha1": [
+    "fafaa2556b494835d104a4aec94e864efde8c6cb 5908 xnnpack_0.0~git20241108.4ea82e5-2.debian.tar.xz 55e23cb4c58482731396981ca950dda066bbc81e 2437 xnnpack_0.0~git20241108.4ea82e5-2.dsc 6665697033222aa58937fdcf2518c1d7a7a4e467 2707704 xnnpack_0.0~git20241108.4ea82e5.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "2b5c1f1d455b46dcdb5a55ede5c82c1bb09744a4f744eb41aeff0d4f91e9ce56 5908 xnnpack_0.0~git20241108.4ea82e5-2.debian.tar.xz defa47997f0e383e3d6298967be0a9f4cca4ce743a64b1814fafce0fc3efe1e7 2437 xnnpack_0.0~git20241108.4ea82e5-2.dsc 90bde2caef0f880f627bab0dc805a86c4b8070cd98e3243db3046ab3f3be1a99 2707704 xnnpack_0.0~git20241108.4ea82e5.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "5d7025699c7f43f9eed0bdd986e0a55ca3be8ea36dd75456eeb637da679afc0438eb60c2ce70c1801faaae17b9009d626db57870090ae514d974c07335ae90c4 5908 xnnpack_0.0~git20241108.4ea82e5-2.debian.tar.xz f68d9e1afdfcb221a3f78820c3449ff4042f7d3cfa1883590c167821cc6e99d3cb8b6644d68789f389338814826eeadb3bad856188e1446680201fdfe58d759e 2437 xnnpack_0.0~git20241108.4ea82e5-2.dsc 3fcbd348fed7781f41c42e9734b195d429f3f0bd11050cb0ca6fd53dbad552b4abbc14739f36194abbafe6e899ef96fe3e242bc2e566c40ab52375d796e7f28f 2707704 xnnpack_0.0~git20241108.4ea82e5.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/x/xnnpack"
+  ],
+  "Files": [
+    "1610c0079b7f1efa8eea01ea2b878b96 5908 xnnpack_0.0~git20241108.4ea82e5-2.debian.tar.xz ecc2ec3579c264f30317bff3b6a18bf5 2437 xnnpack_0.0~git20241108.4ea82e5-2.dsc 98499d3a7d1aca431641fceafbb38a3b 2707704 xnnpack_0.0~git20241108.4ea82e5.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/google/XNNPACK"
+  ],
+  "Maintainer": [
+    "Debian Deep Learning Team \u003cdebian-ai@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "xnnpack"
+  ],
+  "Package-List": [
+    "libxnnpack-dev deb libdevel optional arch=amd64,i386,x32,armhf,arm64,riscv64 libxnnpack0.20241108 deb libs optional arch=amd64,i386,x32,armhf,arm64,riscv64"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Mo Zhou \u003clumin@debian.org\u003e, Shengqi Chen \u003charry@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/deeplearning-team/xnnpack"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/deeplearning-team/xnnpack.git"
+  ],
+  "Version": [
+    "0.0~git20241108.4ea82e5-2"
+  ]
+}

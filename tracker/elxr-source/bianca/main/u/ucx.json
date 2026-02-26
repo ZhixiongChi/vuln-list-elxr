@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "amd64 arm64 loong64 riscv64 ppc64el"
+  ],
+  "Binary": [
+    "ucx-utils, libucx-dev, libucx0"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libibverbs-dev (\u003e= 1.1.7) [amd64 arm64 loong64 riscv64 ppc64el s390x], libnuma-dev [amd64 arm64 loong64 riscv64 ppc64 ppc64el s390x], librdmacm-dev, libibmad-dev, libibumad-dev, libfuse3-dev, libamdhip64-dev [amd64 arm64 ppc64el], libhsa-runtime-dev [arm64 amd64 ppc64el], libhsakmt-dev [arm64 amd64 ppc64el], hipcc [arm64 amd64 ppc64el], mpi-default-dev, mpi-default-bin, pkgconf, golang-go, default-jdk, libgtest-dev, doxygen, chrpath, texlive-latex-base, lcov"
+  ],
+  "Checksums-Sha1": [
+    "bd08ddcec1cc0e3532638bf108336d7ac1acd2ed 11396 ucx_1.18.1+ds-2.debian.tar.xz 5f1ee9447fa6a9854cf40ecd0d249aea5c198788 2628 ucx_1.18.1+ds-2.dsc b28c778bb09f42fd7d43c63694ec368c8575b3e7 2063852 ucx_1.18.1+ds.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "b59597d4c27b1c84b9e87a54701f5a488e6c436b8f61f8166731a0b8448f0ae1 11396 ucx_1.18.1+ds-2.debian.tar.xz 2b88d76c443beda5f13c1774ae0bf85884f865c62a1ae133d3c8084b0d18691c 2628 ucx_1.18.1+ds-2.dsc 82e4e8a7ed2055422f2437dac84b38d7eb36947baec8b8bd1159d6b301f9d8e1 2063852 ucx_1.18.1+ds.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "05f51af349a8d270dc3a5f4178bb5a62dad8a36678c9a923a50739ff3e4c1511026a98ac9c5702f8e64edf95da2ac22435ad64ae0dd1065cf1c4b6d77a1b364f 11396 ucx_1.18.1+ds-2.debian.tar.xz ce617ee27a4a0aae50ef399bb7dbf6e1dae8f1a6e6a52b6cc3c972dd2a036a51d70435cac6c5960256c951fb492d986a69bd43199b8d81cd373d9b942461709e 2628 ucx_1.18.1+ds-2.dsc 9302394a2d320ba7f58cc9f060eba99507f62349cdd4123b0cabd4c3fc668bbed2f7bd4f3c8867534bba306b7884cbe8190b635739f1ad9215cc2a1c182ec6ca 2063852 ucx_1.18.1+ds.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/u/ucx"
+  ],
+  "Files": [
+    "6d2e3d946a7d96bb67a6b30e3cbd8e2e 11396 ucx_1.18.1+ds-2.debian.tar.xz 44ba6943f9ca4d388d2a5d7bae0b563f 2628 ucx_1.18.1+ds-2.dsc 1610616cc2764763da5943382fd72fa7 2063852 ucx_1.18.1+ds.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.openucx.org"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ucx"
+  ],
+  "Package-List": [
+    "libucx-dev deb libdevel optional arch=amd64,arm64,loong64,riscv64,ppc64el libucx0 deb libs optional arch=amd64,arm64,loong64,riscv64,ppc64el ucx-utils deb science optional arch=amd64,arm64,loong64,riscv64,ppc64el"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Alastair McKinstry \u003cmckinstry@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/ucx.git"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/ucx.git -b debian/latest"
+  ],
+  "Version": [
+    "1.18.1+ds-2"
+  ]
+}

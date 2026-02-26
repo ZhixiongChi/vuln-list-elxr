@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "baloo-kf5, baloo-kf5-dev, libkf5baloo-doc, libkf5baloo5, libkf5balooengine5"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-exec, dh-sequence-kf5, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.16~), doxygen, extra-cmake-modules (\u003e= 5.116.0~), gettext, libkf5config-dev (\u003e= 5.116.0~), libkf5coreaddons-dev (\u003e= 5.116.0~), libkf5crash-dev (\u003e= 5.116.0~), libkf5dbusaddons-dev (\u003e= 5.116.0~), libkf5filemetadata-dev (\u003e= 5.116.0~), libkf5i18n-dev (\u003e= 5.116.0~), libkf5idletime-dev (\u003e= 5.116.0~), libkf5kio-dev (\u003e= 5.116.0~), libkf5solid-dev (\u003e= 5.116.0~), libkf5windowsystem-dev (\u003e= 5.115.0~), liblmdb-dev, libqt5sql5-sqlite, libxapian-dev, qtbase5-dev (\u003e= 5.15.2~), qtdeclarative5-dev (\u003e= 5.15.2~), qttools5-dev, qttools5-dev-tools (\u003e= 5.4)"
+  ],
+  "Checksums-Sha1": [
+    "cf69e86c25e7207a0f1db930d14c1a5d259be005 19492 baloo-kf5_5.116.0-1.debian.tar.xz 7e19f383e4cc8c063be0ea6fee4846863f4ef854 3189 baloo-kf5_5.116.0-1.dsc e1ccce7bb63a1db334de65c787ae1d0229b782fd 311500 baloo-kf5_5.116.0.orig.tar.xz 1d1dab69e0979d0a339754a0990dcad697156105 488 baloo-kf5_5.116.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "c60e002f39e910991462522774372af001e3373674548514ac321ce75bbf94bb 19492 baloo-kf5_5.116.0-1.debian.tar.xz 5ab4f296fc1be7c385ab4cf7f40b947c8fedb59df4e10aa069ccab84716ac9ee 3189 baloo-kf5_5.116.0-1.dsc 6ef59a01e71c8a2a7051e4572b255cd7358a64debc22fdcd18b29f98b7cc633c 311500 baloo-kf5_5.116.0.orig.tar.xz e5d5f562244dc8e31372805843ff739b9c9ffdaa00065ff468366853e6b5ddd8 488 baloo-kf5_5.116.0.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "c0d90e28f2923c707c4ef9a6e094946032b5e4da9655d210e7b7d4567cddf898adc3f3af1e0a8222c6388b24f3b8e6e01bc0cdc223650374893354ed208bbc95 19492 baloo-kf5_5.116.0-1.debian.tar.xz 7bba553ef26cc52307119cbf635607521cf65f6db1f17121b7e34781aeaa33b913f1644fa188a60b9f5e72fbc74a0e2fdb9727cda60dd32e322dcd21df483ef4 3189 baloo-kf5_5.116.0-1.dsc 956a07009fa83f852fa88a7bcabffc73343072e30650cc7000e385f73e467aa2c7c440b41715405fc0a59d68ad8e533c2587e06de8475f24b49e1fa35d8b2486 311500 baloo-kf5_5.116.0.orig.tar.xz c26ed850cc2e02508b8a48d2f9ab9d99c0ae0960ccb362a4716474def7528a4ae80f740b1a9173a75b318c2932410cef1dc5d67ba960a3c94c85b3545fec34e2 488 baloo-kf5_5.116.0.orig.tar.xz.asc"
+  ],
+  "Directory": [
+    "pool/main/b/baloo-kf5"
+  ],
+  "Files": [
+    "c503cac5a3ab5238c3d7e31ed1dad1e7 19492 baloo-kf5_5.116.0-1.debian.tar.xz bd75ba0603bda836ee53c0bd1a7d3679 3189 baloo-kf5_5.116.0-1.dsc 41fd11dfe5af84d2bbd214e4e04d41e9 311500 baloo-kf5_5.116.0.orig.tar.xz c1d2c2c15285f99f3f689cc3c34ff948 488 baloo-kf5_5.116.0.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/frameworks/baloo"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "baloo-kf5"
+  ],
+  "Package-List": [
+    "baloo-kf5 deb utils optional arch=any baloo-kf5-dev deb devel optional arch=any libkf5baloo-doc deb doc optional arch=all libkf5baloo5 deb libs optional arch=any libkf5balooengine5 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-acc, exuberant-ctags"
+  ],
+  "Uploaders": [
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/baloo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/baloo.git"
+  ],
+  "Version": [
+    "5.116.0-1"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "akonadi-backend-mysql, akonadi-backend-postgresql, akonadi-backend-sqlite, akonadi-server, libakonadi-data, libakonadi-dev, libakonadi-dev-bin, libkpim6akonadiagentbase6, libkpim6akonadicore6, libkpim6akonadiprivate6, libakonadiserver-dev, libkpim6akonadiwidgets6, libkpim6akonadixml6"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-apparmor, dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.16~), default-libmysqlclient-dev, extra-cmake-modules (\u003e= 6.6.0~), gettext, libaccounts-qt6-dev (\u003e= 1.16~), libboost-dev (\u003e= 1.34.0~), libkaccounts6-dev (\u003e= 4:19.08.0~), libkf6config-dev (\u003e= 6.6.0~), libkf6configwidgets-dev (\u003e= 6.6.0~), libkf6coreaddons-dev (\u003e= 6.6.0~), libkf6crash-dev (\u003e= 6.6.0~), libkf6i18n-dev (\u003e= 6.6.0~), libkf6iconthemes-dev (\u003e= 6.6.0~), libkf6itemmodels-dev (\u003e= 6.6.0~), libkf6widgetsaddons-dev (\u003e= 6.6.0~), libkf6xmlgui-dev (\u003e= 6.6.0~), liblzma-dev (\u003e= 5.0.0~), libpq-dev, libsignon-qt6-dev, libxml2-dev, libxml2-utils, libxslt1-dev, pkgconf, qt6-base-dev (\u003e= 6.7.0~), qt6-base-private-dev (\u003e= 6.7.0~), qt6-tools-dev (\u003e= 6.6.0~), shared-mime-info (\u003e= 1.8~), xsltproc"
+  ],
+  "Checksums-Sha1": [
+    "2dc6f095dcd576ba2179414da57ce54e659cd50e 35720 akonadi_24.12.3-1.debian.tar.xz aedb2acaa6e7223fadeb0bcc45dddf2a9006cc9c 4003 akonadi_24.12.3-1.dsc 4b0b62d26fd241c3b742581bf7730b18cdf56199 1712368 akonadi_24.12.3.orig.tar.xz 6761dd1d08ff3abb0ecc8c13c221d3bc157cc86d 833 akonadi_24.12.3.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "20e8c15271802cbac7549ff7c65a421f1bf3b96dd9f69f26a012002803cc85a8 35720 akonadi_24.12.3-1.debian.tar.xz 02c323d353a33ea41b13e84d05517c4bc3d75138d84e80a970c810149999b1ba 4003 akonadi_24.12.3-1.dsc e1e4de8050e578e65d71b0279d10ae4d0906ba5a5b0239f88d0145602b0c17c8 1712368 akonadi_24.12.3.orig.tar.xz 85e2d7d55337b26012bff466009525e51cc11acde1b364b931b23eb070914b92 833 akonadi_24.12.3.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "2da54f0996d4030596a5021dc2c5dba995898db2113ca74923b3be773697d3ff6ef827e7972ecdbf16a2a67cbbdcd0d60b4ab73e78fe801c41fe3494e102ca83 35720 akonadi_24.12.3-1.debian.tar.xz 9c6460ce4412537558d660b658ca8b1ed834249ad4b328327ca6971d868c0c329e2d4cd2048bd5bf6f188d10df0e9f1804d00205e40b67324b611493d4871593 4003 akonadi_24.12.3-1.dsc f4062136c414e114e314e6cd76616503fcb08c8dc2f5b17f72bdb26681feced3cb4df80bdcce5587a9d0c7c8c6234d6bba505bcb8a5b2f939349d2323908e973 1712368 akonadi_24.12.3.orig.tar.xz ccd87e3a54406cbb9e2ffbfa56554d7c3e6c1b33d5bc5fe56999ac479f5a5430b44afda91c5dc3c5fdb0341c4e681dfe5f8f3ef099d8c9e0afb5df8bed38efb7 833 akonadi_24.12.3.orig.tar.xz.asc"
+  ],
+  "Directory": [
+    "pool/main/a/akonadi"
+  ],
+  "Files": [
+    "54378f87a45b62931663b00afe3c4178 35720 akonadi_24.12.3-1.debian.tar.xz 4242ad6db7cafacb48022ea730c5bd8d 4003 akonadi_24.12.3-1.dsc 80ca9dbc76e9f77a016e96ed9a97afc9 1712368 akonadi_24.12.3.orig.tar.xz 937c1b9e90cf1e1c6dce846b7629cab0 833 akonadi_24.12.3.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://invent.kde.org/pim/akonadi"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "akonadi"
+  ],
+  "Package-List": [
+    "akonadi-backend-mysql deb misc optional arch=all akonadi-backend-postgresql deb misc optional arch=all akonadi-backend-sqlite deb misc optional arch=all akonadi-server deb net optional arch=any libakonadi-data deb libs optional arch=all libakonadi-dev deb libdevel optional arch=any libakonadi-dev-bin deb libdevel optional arch=any libakonadiserver-dev deb libdevel optional arch=any libkpim6akonadiagentbase6 deb libs optional arch=any libkpim6akonadicore6 deb libs optional arch=any libkpim6akonadiprivate6 deb libs optional arch=any libkpim6akonadiwidgets6 deb libs optional arch=any libkpim6akonadixml6 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Uploaders": [
+    "Sune Vuorela \u003cdebian@pusling.com\u003e, Sandro Knauß \u003chefee@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/kde/akonadi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/kde/akonadi.git"
+  ],
+  "Version": [
+    "4:24.12.3-1"
+  ]
+}

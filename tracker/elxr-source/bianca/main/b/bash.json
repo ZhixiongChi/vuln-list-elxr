@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "bash, bash-static, bash-builtins, bash-doc"
+  ],
+  "Build-Conflicts": [
+    "r-base-core"
+  ],
+  "Build-Depends": [
+    "autoconf, autotools-dev, bison, libncurses5-dev, texinfo, texi2html, debhelper (\u003e= 11), gettext, sharutils, locales \u003c!nocheck\u003e, time \u003c!nocheck\u003e, xz-utils"
+  ],
+  "Build-Depends-Indep": [
+    "texlive-latex-base, ghostscript, texlive-fonts-recommended, man2html-base"
+  ],
+  "Checksums-Sha1": [
+    "a1af1bbde88b868738d336b2804dbbe72cebe648 88360 bash_5.2.37-2.debian.tar.xz d32750d217c43dabc3b63b1d6431071e6cd506dc 2162 bash_5.2.37-2.dsc cf4da6fb3798f10b9510ab13fc69a5a9bf75e86e 5600932 bash_5.2.37.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "42e03ef523258b61fa765b8c9719d7bf461f2a274260d07fbe45ca7e4627923a 88360 bash_5.2.37-2.debian.tar.xz 7e5f6d5a26093e812f8841d5cf3245054102e86986017d8edd859417b03707f9 2162 bash_5.2.37-2.dsc 370704c9c859f4060b7df19055e43bb9b5fa09d887699cf6ba87885c5485d36a 5600932 bash_5.2.37.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "71a79e6174cc69c6867dda67a7a4a004508b6f9a80aa6a8c1f5836c4780c89d6d3520a9b71598ef7bcfd594ac37954ec6f40f7f2fea3c180f138752fd148db21 88360 bash_5.2.37-2.debian.tar.xz cf89ce8d1afac409e8f34802ff76bd94a1335f5267ae4f6b60751fec3c5a20baca7b726d120d06b4aaad25897a03de9fc8422e480362a795f229ad209e699ee5 2162 bash_5.2.37-2.dsc c5380301114967378ace9ae4c510564cb7a827c221470aa532f2360a35000e7719ae081151f3d2ac86dff1d1465f64e60d9202fa6657d716ed6e449f77552158 5600932 bash_5.2.37.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/bash"
+  ],
+  "Files": [
+    "5a87fe5e2077763dd62ad40716804954 88360 bash_5.2.37-2.debian.tar.xz c9d75e69a27738c24a25fff61285998b 2162 bash_5.2.37-2.dsc 6075acd95528d14013fcde1ae279efdf 5600932 bash_5.2.37.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://tiswww.case.edu/php/chet/bash/bashtop.html"
+  ],
+  "Maintainer": [
+    "Matthias Klose \u003cdoko@debian.org\u003e"
+  ],
+  "Package": [
+    "bash"
+  ],
+  "Package-List": [
+    "bash deb shells required arch=any essential=yes bash-builtins deb utils optional arch=any bash-doc deb doc optional arch=all bash-static deb shells optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Version": [
+    "5.2.37-2"
+  ]
+}

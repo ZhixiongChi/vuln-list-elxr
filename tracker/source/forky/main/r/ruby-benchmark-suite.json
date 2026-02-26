@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "ruby-benchmark-suite, ruby-benchmark-suite-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), gem2deb, ruby-benchmark-ips"
+  ],
+  "Checksums-Sha256": [
+    "ac5bf878a8947e449df5efa9288b43f5ad298badaca8eca11c480eb6b816d113 2382 ruby-benchmark-suite_1.0.0+git.20130122.5bded6-4.dsc 196f52e75e08604ff098b8b23453b54e88e5a8264a1b09282b10e7779db84714 4446 ruby-benchmark-suite_1.0.0+git.20130122.5bded6.orig.tar.gz 1aaba4a43887a66400cb5ba349ab5c35c6f9b13b7a26377a5ab374edb6585f7a 4364 ruby-benchmark-suite_1.0.0+git.20130122.5bded6-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/ruby-benchmark-suite"
+  ],
+  "Files": [
+    "a76876e1b1a24950c292e18f5108cec2 2382 ruby-benchmark-suite_1.0.0+git.20130122.5bded6-4.dsc 4305ddbd00968f461091d214be1471be 4446 ruby-benchmark-suite_1.0.0+git.20130122.5bded6.orig.tar.gz ae86153c46d94924e2540f503a201982 4364 ruby-benchmark-suite_1.0.0+git.20130122.5bded6-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/evanphx/benchmark_suite"
+  ],
+  "Maintainer": [
+    "Debian Ruby Team \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ruby-benchmark-suite"
+  ],
+  "Package-List": [
+    "ruby-benchmark-suite deb ruby optional arch=all ruby-benchmark-suite-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Per Andersson \u003cavtobiff@gmail.com\u003e, Utkarsh Gupta \u003cutkarsh@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ruby-team/ruby-benchmark-suite"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ruby-team/ruby-benchmark-suite.git"
+  ],
+  "Version": [
+    "1.0.0+git.20130122.5bded6-4"
+  ]
+}

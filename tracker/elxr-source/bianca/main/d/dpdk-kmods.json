@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "dpdk-kmods-dkms, igb-uio, igb-uio-common"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-dkms, linux-headers-amd64 [amd64]"
+  ],
+  "Checksums-Sha1": [
+    "1a4bf608aee79efea29fd8f04f7145f483d0497d 6912 dpdk-kmods_0~20230205+git-2elxr3~bianca+2.debian.tar.xz 5b349e37a2a18094a6e4f9e175dba3bbe25a5c7a 1455 dpdk-kmods_0~20230205+git-2elxr3~bianca+2.dsc 439207a192de017be837a3d89f52286885a0d8ab 23840 dpdk-kmods_0~20230205+git.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "b202978c720eb839402624649add660ed249c7877fec5fdbf96e8b221b9f7fcc 6912 dpdk-kmods_0~20230205+git-2elxr3~bianca+2.debian.tar.xz 8f7d2c7d8ff8df56e02c63ffe3a76f66d44b57ca2be2e7d186a17a2229b6fe0e 1455 dpdk-kmods_0~20230205+git-2elxr3~bianca+2.dsc 1963094d73b32d096e8de79c6c8341cdc3a8a857276c805d1bdbabfca71eeb58 23840 dpdk-kmods_0~20230205+git.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "dd4c78537e2f840daca77f24ae1ef13ca2ad05ff31624b1e43802ddb9d8b60ec441862fecb76f1904946238ab86233d917f79648af399161f78a9653f94cac7d 6912 dpdk-kmods_0~20230205+git-2elxr3~bianca+2.debian.tar.xz 3ef7c254179b84fc91219c5dee48e1bf4f6a5ac2d83a5f8538e4d905ba56f2a2cbe8a66fff9270d73de7701a2a0bda0a547874a7f086c62ba2e1ef893d633f2b 1455 dpdk-kmods_0~20230205+git-2elxr3~bianca+2.dsc 56f242c7409082cf4adcefd6686d8b10caed3cc4b1a085a462d82b028e8f81c22459bad2cd75fd1d28c5d66f813cec30523f16b66a8dde83cc5288d720746f65 23840 dpdk-kmods_0~20230205+git.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/dpdk-kmods"
+  ],
+  "Files": [
+    "1c34e04892c225bb646262dadc43f540 6912 dpdk-kmods_0~20230205+git-2elxr3~bianca+2.debian.tar.xz 60a1494704c768b464582dc3e5574a21 1455 dpdk-kmods_0~20230205+git-2elxr3~bianca+2.dsc ec0b069bfd2fd1310fde00a68dae2fc1 23840 dpdk-kmods_0~20230205+git.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.dpdk.org"
+  ],
+  "Maintainer": [
+    "Debian DPDK Maintainers \u003cpkg-dpdk-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "dpdk-kmods"
+  ],
+  "Package-List": [
+    "dpdk-kmods-dkms deb kernel optional arch=amd64 igb-uio deb kernel optional arch=any igb-uio-common deb kernel optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-dkms"
+  ],
+  "Testsuite-Triggers": [
+    "kmod, linux-headers-generic"
+  ],
+  "Uploaders": [
+    "Luca Boccassi \u003cbluca@debian.org\u003e, Christian Ehrhardt \u003cchristian.ehrhardt@canonical.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/dpdk-kmods"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/dpdk-kmods.git"
+  ],
+  "Version": [
+    "0~20230205+git-2elxr3~bianca+2"
+  ]
+}

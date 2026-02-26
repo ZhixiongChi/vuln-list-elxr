@@ -6,19 +6,19 @@
     "migraphx, migraphx-doc, migraphx-tools, migraphx-tests, migraphx-dev, libmigraphx-c3, libmigraphx-c-dev"
   ],
   "Build-Depends": [
-    "clang, cmake, debhelper-compat (= 13), libboost-dev, libhalf-dev, libmsgpack-c-dev, libmsgpack-cxx-dev, libprotobuf-dev, libsqlite3-dev, nlohmann-json3-dev, protobuf-compiler, pybind11-dev, rocm-cmake"
+    "architecture-is-64-bit, clang, cmake, debhelper-compat (= 13), libboost-dev, libhalf-dev, libmsgpack-c-dev, libmsgpack-cxx-dev, libprotobuf-dev, libsqlite3-dev, nlohmann-json3-dev, protobuf-compiler, pybind11-dev, rocm-cmake"
   ],
   "Build-Depends-Indep": [
     "python3-rocm-docs (\u003e= 1.20.0-1~) \u003c!nodoc\u003e, sphinx-common \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "6977770895aa0cacabd448ba98bb296ea1209646881be1682ef73556f2684562 2571 migraphx_7.1.1-2.dsc 66d7317770eefc3fbc06cb875109d4478f3779680e50320013d504a3f8f747fd 4255036 migraphx_7.1.1.orig.tar.gz d5f7c005f4c20863a7d64fca8553df6f282350de37dee4c21399ad3e42b65742 10984 migraphx_7.1.1-2.debian.tar.xz"
+    "320cf3ff31161f9e74ec626a1d18a3ea96db9c5b6b6788d2fae402829ac17220 2619 migraphx_7.1.1-3.dsc 66d7317770eefc3fbc06cb875109d4478f3779680e50320013d504a3f8f747fd 4255036 migraphx_7.1.1.orig.tar.gz 0a7f6fab1c4d897aa70d6b8745aff0b462538d8a8066ec36ab2f8afe3fbec0f5 11080 migraphx_7.1.1-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/m/migraphx"
   ],
   "Files": [
-    "79bc43ecd34493cac0217d33c0fa2122 2571 migraphx_7.1.1-2.dsc ec94ae6685e98c333cb8a02113693d76 4255036 migraphx_7.1.1.orig.tar.gz 654506b7337ebca47938d4bd29445f77 10984 migraphx_7.1.1-2.debian.tar.xz"
+    "5e0a144ef7de9e84b4af793846c81b0e 2619 migraphx_7.1.1-3.dsc ec94ae6685e98c333cb8a02113693d76 4255036 migraphx_7.1.1.orig.tar.gz d37bf44a1504c7c4dc7dd8f3e3d694df 11080 migraphx_7.1.1-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -47,6 +47,9 @@
   "Testsuite": [
     "autopkgtest"
   ],
+  "Testsuite-Triggers": [
+    "g++"
+  ],
   "Uploaders": [
     "Utkarsh Raj \u003cencode.sh@protonmail.com\u003e"
   ],
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/rocm-team/migraphx.git"
   ],
   "Version": [
-    "7.1.1-2"
+    "7.1.1-3"
   ]
 }

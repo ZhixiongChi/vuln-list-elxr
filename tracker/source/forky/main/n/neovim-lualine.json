@@ -9,16 +9,25 @@
     "debhelper-compat (= 13), dh-sequence-vim-addon"
   ],
   "Checksums-Sha256": [
-    "fb9231185ffea82bda0a1356a38585f037ddc6c9d136a29a696aad4731956d1a 1472 neovim-lualine_0.0.6+git20251123-1.dsc 2a1d3984c0730fcf83808abc6247b4af445e50e5a1330e4ddd1e4af20a1e85ea 82668 neovim-lualine_0.0.6+git20251123.orig.tar.xz 1d0260c2ec21842014eb39fd70b0a972dec75357c915f459691461bd07b0c112 2780 neovim-lualine_0.0.6+git20251123-1.debian.tar.xz"
+    "f2a605b03f68bc998fae19530b5591a44c239488a3aa7260bd7d88d3f10b9e71 2430 neovim-lualine_0.0.6+git20251123-2.dsc 2a1d3984c0730fcf83808abc6247b4af445e50e5a1330e4ddd1e4af20a1e85ea 82668 neovim-lualine_0.0.6+git20251123.orig.tar.xz 837167d19e81320c8e9f6388b0834902e019af2581346b3a8caaa5482602e130 3476 neovim-lualine_0.0.6+git20251123-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "ac0f04f5a091f4a3ef1f4f609334ab05e114ce70 debian archive/debian/0.0.6+git20251123-2 https://git.dgit.debian.org/neovim-lualine"
   ],
   "Directory": [
     "pool/main/n/neovim-lualine"
   ],
   "Files": [
-    "8543000ff4a2e14e9988550546864ebf 1472 neovim-lualine_0.0.6+git20251123-1.dsc 57117b0c65a0f1410cbe898e87d29278 82668 neovim-lualine_0.0.6+git20251123.orig.tar.xz 723f3338f6a7ecba7a36cd1677eba28b 2780 neovim-lualine_0.0.6+git20251123-1.debian.tar.xz"
+    "c171a704b308e18907cc8609dedd4fb6 2430 neovim-lualine_0.0.6+git20251123-2.dsc 57117b0c65a0f1410cbe898e87d29278 82668 neovim-lualine_0.0.6+git20251123.orig.tar.xz 815f665d832a9b8bd0a937389ae2e546 3476 neovim-lualine_0.0.6+git20251123-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=e105eceff73d295066fd3fe5496b08e0d6083299 fp=14593bff4a5ebf6fe0e9716eecbedbb607b9b2be"
+  ],
+  "Git-Tag-Tagger": [
+    "Matthias Geiger \u003cwerdahias@debian.org\u003e"
   ],
   "Homepage": [
     "https://github.com/nvim-lualine/lualine.nvim"
@@ -39,7 +48,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "git, neovim-plenary"
   ],
   "Uploaders": [
     "Matthias Geiger \u003cwerdahias@debian.org\u003e"
@@ -51,6 +66,6 @@
     "https://salsa.debian.org/vim-team/neovim-lualine.git"
   ],
   "Version": [
-    "0.0.6+git20251123-1"
+    "0.0.6+git20251123-2"
   ]
 }

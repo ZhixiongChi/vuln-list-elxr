@@ -6,16 +6,19 @@
     "librust-fluent-langneg-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-unic-langid-0.9+default-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-unic-langid-0.9+default-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "acbb91ce0ce137f3745fdb79d88d5cbc23eb2ea5b109265b95a1505033d1eaef 2537 rust-fluent-langneg_0.13.0-1.dsc 2c4ad0989667548f06ccd0e306ed56b61bd4d35458d54df5ec7587c0e8ed5e94 11723 rust-fluent-langneg_0.13.0.orig.tar.gz eb63bd1a10a088f9ba99db6cdf9965a9aa183761b36009f0c995ff743c06f4c5 2060 rust-fluent-langneg_0.13.0-1.debian.tar.xz"
+    "1fea75ce9f7a6fe4eef332025b61be8033d89e78c8763a16d72af790bd60d3dd 2461 rust-fluent-langneg_0.13.1-1.dsc 7eebbe59450baee8282d71676f3bfed5689aeab00b27545e83e5f14b1195e8b0 11383 rust-fluent-langneg_0.13.1.orig.tar.gz 7e3a0be08a2db3463e18868e7fd81ec617c2b5942fc09b874d536e9f175903a3 2920 rust-fluent-langneg_0.13.1-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-fluent-langneg"
   ],
   "Files": [
-    "0771314fc470b1618125493ccf232e3c 2537 rust-fluent-langneg_0.13.0-1.dsc fd927a0fbb6df06f14d1afc215da52dc 11723 rust-fluent-langneg_0.13.0.orig.tar.gz 080397ad9ab87147acf6e15604ae7d39 2060 rust-fluent-langneg_0.13.0-1.debian.tar.xz"
+    "7f7b767230a92a4cc7e5ff2579acb9c7 2461 rust-fluent-langneg_0.13.1-1.dsc bb7e90052710f3be08ba58c6caad8fdd 11383 rust-fluent-langneg_0.13.1.orig.tar.gz 8e21fabbdc887ddc851c5f927fd11ac5 2920 rust-fluent-langneg_0.13.1-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +42,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.1"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-criterion-0.3+default-dev, librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-serde-json-1+default-dev, librust-unic-langid-0.9+default-dev, librust-unic-langid-0.9+macros-dev, librust-unic-locale-0.9+default-dev, librust-unic-locale-0.9+macros-dev"
+    "dh-cargo, librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-serde-json-1+default-dev, librust-unic-langid-0.9+default-dev, librust-unic-langid-0.9+macros-dev, rustc"
   ],
   "Uploaders": [
     "Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/fluent-langneg]"
   ],
   "Version": [
-    "0.13.0-1"
+    "0.13.1-1"
   ]
 }

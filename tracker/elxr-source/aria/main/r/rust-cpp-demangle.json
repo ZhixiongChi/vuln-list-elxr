@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-cpp-demangle-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-cfg-if-1+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "4c24c8f6a39cd81d28b78885a4dc9eca574fee66 3644 rust-cpp-demangle_0.4.0-1.debian.tar.xz e026edc06db256b7d6341149bc91a95a8f2d206f 2353 rust-cpp-demangle_0.4.0-1.dsc d956617ff3ec4ba0cbd3a066293bca7fba3bf65c 77970 rust-cpp-demangle_0.4.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "6b39ac7ce4f8769f36de26af5b6677174cb6e4a7396a538327afe095ebde5d8f 3644 rust-cpp-demangle_0.4.0-1.debian.tar.xz 1a91751a1b4f24f58ab5c454c042fd77c1892f3a5c090f59585fddb55df51391 2353 rust-cpp-demangle_0.4.0-1.dsc 51aab565933fae3326396311a35c8c369413eb4b589b2e8d3ac95b6e20552e23 77970 rust-cpp-demangle_0.4.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "e7b99c38a8e4084699eeb7815e827d4310f912a09b8bbc7ad6a765fe523b07f5a5bd4c2bf8c14029cd872c8c25a7dc74d7a3c7609fbe1569d13f2f4512ae0388 3644 rust-cpp-demangle_0.4.0-1.debian.tar.xz 4122f8d8b366fd8b45e746930d27cda518779ff4315495b69af6e0d7fb2dc3209930c2f8822173ed98ea63ddbd039c6c71feb864f37930b1c4c434ea32c24e39 2353 rust-cpp-demangle_0.4.0-1.dsc c687b19ba4d176ef093eec7834a314fbcc5e718783b66253a0156787b3abc620890189c1621b7044ebf09d8b4fec362e55f484f5df17dbacfad4d9a3a44244ea 77970 rust-cpp-demangle_0.4.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-cpp-demangle"
+  ],
+  "Files": [
+    "5419f0a6d5d7ffbd6fa49f8ce4ed5036 3644 rust-cpp-demangle_0.4.0-1.debian.tar.xz aca4287b31acbda3e70658449e3709b2 2353 rust-cpp-demangle_0.4.0-1.dsc 18d5af1741986f17982cc1b7202fbdf5 77970 rust-cpp-demangle_0.4.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-cpp-demangle"
+  ],
+  "Package-List": [
+    "librust-cpp-demangle-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-clap-3+default-dev, librust-clap-3+derive-dev, librust-clap-4+default-dev, librust-clap-4+derive-dev, librust-diff-0.1+default-dev"
+  ],
+  "Uploaders": [
+    "kpcyrd \u003cgit@rxv.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/cpp-demangle"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/cpp-demangle]"
+  ],
+  "Version": [
+    "0.4.0-1"
+  ]
+}

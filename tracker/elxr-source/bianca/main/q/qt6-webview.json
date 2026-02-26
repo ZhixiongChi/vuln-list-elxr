@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "amd64 arm64 armhf i386 all"
+  ],
+  "Binary": [
+    "libqt6webview6, qt6-webview-plugins, qml6-module-qtwebview, qt6-webview-dev, qt6-webview-doc, qt6-webview-doc-html, qt6-webview-examples"
+  ],
+  "Build-Depends": [
+    "cmake (\u003e= 3.24~), debhelper-compat (= 13), dh-sequence-qmldeps, dh-sequence-pkgkde-symbolshelper, libgl-dev, libssl-dev, libvulkan-dev [linux-any], libxcb-xkb-dev, ninja-build, pkg-kde-tools, pkgconf, qt6-base-dev (\u003e= 6.8.2+dfsg~), qt6-base-private-dev (\u003e= 6.8.2+dfsg~), qt6-declarative-dev (\u003e= 6.8.2+dfsg~), qt6-declarative-private-dev (\u003e= 6.8.2+dfsg~), qt6-webengine-dev (\u003e= 6.8.2+dfsg~), qt6-webengine-dev-tools (\u003e= 6.8.2+dfsg~), qt6-webengine-private-dev (\u003e= 6.8.2+dfsg~)"
+  ],
+  "Build-Depends-Indep": [
+    "qt6-base-dev (\u003e= 6.8~) \u003c!nodoc\u003e, qt6-documentation-tools (\u003e= 6.8~) \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "42b55f919502f5ebb27d1a92f454b8ddf9292115 7172 qt6-webview_6.8.2-2.debian.tar.xz 7fc71f2524b06782b7e04bd95f73d1db6bcf4e43 3054 qt6-webview_6.8.2-2.dsc 2a36dec2bf8d6ffbd790772384eafe5c81138630 139040 qt6-webview_6.8.2.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "982e27267e4eb9dc56a81c0eaa268debc165549e8c882039e9be5f39a743c778 7172 qt6-webview_6.8.2-2.debian.tar.xz 53e9f2e68d1eee8dbea9b31f28e10338ce823a7fcf38338cfdec41de6ca2abb0 3054 qt6-webview_6.8.2-2.dsc 86b436271193d958119bf8866dec16b6ad3879c8e3e06458e3f79ca846bed043 139040 qt6-webview_6.8.2.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "46d956b43be5e7268249e852e02cb9632fd5bb9d9db793a45360468bc2daeb5367afbaa2a1e1e19933bd89cfe9dd714b919e54e52ebf5e7d9c2ddc19329c74e1 7172 qt6-webview_6.8.2-2.debian.tar.xz 40e88c550cf8c1a63e508a288a4e002888d4e2255d4aeea6d631884248e902a3171c44682d93dee9b134b66f1fba77d4e82bb209f257bd7e5e3b29074a2930dd 3054 qt6-webview_6.8.2-2.dsc 0e047a3bafa2782f12a6a61320f7d402eba65427f18a50d00cc87fe67cdb1f64028f60634ef69b756ed751b3855dc685154c8aed5da5f5bd3c77098dc1c53b66 139040 qt6-webview_6.8.2.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qt6-webview"
+  ],
+  "Files": [
+    "b4e809240e1496241ea304f331006538 7172 qt6-webview_6.8.2-2.debian.tar.xz a1a303e99ac2a37d7af19053a8f9d154 3054 qt6-webview_6.8.2-2.dsc d75be88f9f1755541954fe7d792bfd54 139040 qt6-webview_6.8.2.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.qt.io/developers/"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "qt6-webview"
+  ],
+  "Package-List": [
+    "libqt6webview6 deb libs optional arch=amd64,arm64,armhf,i386 qml6-module-qtwebview deb libs optional arch=amd64,arm64,armhf,i386 qt6-webview-dev deb libdevel optional arch=amd64,arm64,armhf,i386 qt6-webview-doc deb doc optional arch=all qt6-webview-doc-html deb doc optional arch=all qt6-webview-examples deb misc optional arch=amd64,arm64,armhf,i386 qt6-webview-plugins deb libs optional arch=amd64,arm64,armhf,i386"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Uploaders": [
+    "Patrick Franz \u003cdeltaone@debian.org\u003e, Lu YaNing \u003cdluyaning@gmail.com\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/qt6/qt6-webview"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/qt6/qt6-webview.git"
+  ],
+  "Version": [
+    "6.8.2-2"
+  ]
+}

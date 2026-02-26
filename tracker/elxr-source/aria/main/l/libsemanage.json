@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "libsemanage-common, libsemanage2, libsemanage-dev, ruby-semanage, python3-semanage, semanage-utils"
+  ],
+  "Build-Depends": [
+    "bison, debhelper-compat (= 13), dh-python \u003c!nopython\u003e, file, flex, gem2deb (\u003e= 0.5.0~) \u003c!noruby\u003e, libaudit-dev, libbz2-dev, libcunit1-dev \u003c!nocheck\u003e, libselinux1-dev (\u003e= 3.4), libsepol-dev (\u003e= 3.4), pkg-config, python3-all-dev \u003c!nopython\u003e, secilc (\u003e= 3.4) \u003c!nocheck\u003e, swig \u003c!nopython\u003e \u003c!noruby\u003e"
+  ],
+  "Checksums-Sha1": [
+    "269133bea08bfab47e7438047aab2036eeb323ab 23248 libsemanage_3.4-1.debian.tar.xz d83b9bec2bd9f9b28ce4e76b1a7f5900faea8ca1 2570 libsemanage_3.4-1.dsc a501eece6511d830a540e8349b5b2dc74ee76ad3 185177 libsemanage_3.4.orig.tar.gz cab5c75052134b030a1b593f446af847a8b817f6 833 libsemanage_3.4.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha256": [
+    "531c5294d5ec881ef4bc4396a9e1f38895558cd88c4fd6d3f6a673a4b2297a5c 23248 libsemanage_3.4-1.debian.tar.xz be300e01bbd08706fb6f0ecd349b3585a535d9ff0957265a7c634545ac3515c8 2570 libsemanage_3.4-1.dsc 93b423a21600b8e3fb59bb925d4583d1258f45bebf63c29bde304dfd3d52efd6 185177 libsemanage_3.4.orig.tar.gz 58da87dd662c135b70c065a0b1ca800cd4b075b365f3d71e0ff02d71c7457883 833 libsemanage_3.4.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha512": [
+    "8b21195f563a9368574f0162eafbd7de881a876dfc620c28cf1cca2c55971c29831463b14332d1fd90b56f57579c7188d8c5866f3259efd5b51fb6bc8861e332 23248 libsemanage_3.4-1.debian.tar.xz 27c251f58dccb16d5f710edd63498559ac63a66f26f44a862ec1068822b093587ae15c1652432d0087073a190d29ccfb55f0afb6d0090b3711be60eb6631e7d0 2570 libsemanage_3.4-1.dsc 831dc789545bb9a0b009bdb4f7fe52f6197ad8325946640f886a960d08e40b8a69eccd5a70cce51466bb5cb7f742feb78d19a9ec63383fbd03aa451508677e73 185177 libsemanage_3.4.orig.tar.gz 42da56fe008c7b18ea8834f6ae0535e78fb5f94a826a2beef6c8fbde480fd5d0f87a7969e98ded3281f7b76b594e71c466c7630a85536d07a6550d163390fc49 833 libsemanage_3.4.orig.tar.gz.asc"
+  ],
+  "Directory": [
+    "pool/main/libs/libsemanage"
+  ],
+  "Files": [
+    "ad9d21f388a13bbb0e913ec66eaaadaf 23248 libsemanage_3.4-1.debian.tar.xz ba64b71f353c745e264bdf1174124b81 2570 libsemanage_3.4-1.dsc a8b487ce862884bcf7dd8be603d4a6d4 185177 libsemanage_3.4.orig.tar.gz 4d801374a9e8bce84136dd15736a8e82 833 libsemanage_3.4.orig.tar.gz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://selinuxproject.org"
+  ],
+  "Maintainer": [
+    "Debian SELinux maintainers \u003cselinux-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libsemanage"
+  ],
+  "Package-List": [
+    "libsemanage-common deb libs optional arch=all libsemanage-dev deb libdevel optional arch=linux-any libsemanage2 deb libs optional arch=linux-any python3-semanage deb python optional arch=linux-any profile=!nopython ruby-semanage deb ruby optional arch=linux-any profile=!noruby semanage-utils deb admin optional arch=all"
+  ],
+  "Ruby-Versions": [
+    "all"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Uploaders": [
+    "Laurent Bigonville \u003cbigon@debian.org\u003e, Russell Coker \u003crussell@coker.com.au\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/selinux-team/libsemanage"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/selinux-team/libsemanage.git"
+  ],
+  "Version": [
+    "3.4-1"
+  ]
+}

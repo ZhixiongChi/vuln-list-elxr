@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-zunclient-doc, python3-zunclient"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx \u003c!nodoc\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "python3-ddt, python3-docker, python3-hacking, python3-keystoneauth1, python3-openstackclient, python3-openstackdocstheme \u003c!nodoc\u003e, python3-osc-lib, python3-oslo.i18n, python3-oslo.log, python3-oslo.utils, python3-oslotest, python3-osprofiler, python3-prettytable, python3-stestr, python3-tempest, python3-testresources, python3-testscenarios, python3-testtools, python3-websocket, python3-yaml, subunit"
+  ],
+  "Checksums-Sha1": [
+    "360f5e3e523ac41953ecb3476182c590adb10887 4632 python-zunclient_5.2.1-2.debian.tar.xz d26c8e9ce66c764f937038a435510066f5935cca 2725 python-zunclient_5.2.1-2.dsc 7f5a82b025e61f185d8b4a9163b23d7b93f61623 81916 python-zunclient_5.2.1.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "f71c5a86700c0f4628668a4e0ab017c33b9c7f1ed6933b0415c9a735fb7521d3 4632 python-zunclient_5.2.1-2.debian.tar.xz 4a52afd31e4efb53673fc7ca4d22e4de4232f14af300d1fbd2929609b773ad2b 2725 python-zunclient_5.2.1-2.dsc 3a68e2ae68f581105910c14c7c86b34344e94c61be1fcac8b7e24cd59a481918 81916 python-zunclient_5.2.1.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "51c8a0b35138c72aae8fd483434721212f24f6c3ccd33e6c4cd31ba0bd7836fab08ab35a124713a8a14aa83e8b52dd681d31e882f012a4e54530d00100664442 4632 python-zunclient_5.2.1-2.debian.tar.xz 964c04c2c935ff7b7b90c20ed893dd0657b21b664be207336170ce417042062fb32616906b2f2ca98687259518c210cf9e55e96780d7cdc0d88bbdb1ffb39450 2725 python-zunclient_5.2.1-2.dsc bbdf2639a950549a73884f0e0ab65a635b6ecc66a1eeb89a2e654f9fd514c3104d30f387591329fbd307db9bbaba53d3b1d971a569c9a70fff9b8b34b5102958 81916 python-zunclient_5.2.1.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-zunclient"
+  ],
+  "Files": [
+    "807ddaa420fab1d6dde1275841c6c693 4632 python-zunclient_5.2.1-2.debian.tar.xz 7195ca46a37fff65db5bf1d04f0cf881 2725 python-zunclient_5.2.1-2.dsc 036afb70f8bd8af960ed8b364b10e255 81916 python-zunclient_5.2.1.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/openstack/python-zunclient"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-zunclient"
+  ],
+  "Package-List": [
+    "python-zunclient-doc deb doc optional arch=all profile=!nodoc python3-zunclient deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, Michal Arbet \u003cmichal.arbet@ultimum.io\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/clients/python-zunclient"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/clients/python-zunclient.git"
+  ],
+  "Version": [
+    "5.2.1-2"
+  ]
+}

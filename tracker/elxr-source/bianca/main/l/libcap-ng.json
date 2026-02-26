@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "libcap-ng-dev, libcap-ng0, libcap-ng-utils, python3-cap-ng"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3 \u003c!nopython\u003e, libpython3-all-dev \u003c!nopython\u003e, linux-libc-dev, python3-all-dev:any \u003c!nopython\u003e, swig \u003c!nopython\u003e"
+  ],
+  "Checksums-Sha1": [
+    "77af6afc188df68af65da122de5f56a8533f906a 7816 libcap-ng_0.8.5-4.debian.tar.xz 9b8a214e343e0cad71743b2e4e8ce4500c79554f 1710 libcap-ng_0.8.5-4.dsc 37693cccf2a13576c7b642a19f83db298fd1979d 59265 libcap-ng_0.8.5.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "f5d4e7f38bdbca87de77317ce95f973883081370ef257019b484e29e3368a20d 7816 libcap-ng_0.8.5-4.debian.tar.xz a5745b7d68a11068ae5beddcc7fbc94cd87dd81cb2d7495e7d48610603be3526 1710 libcap-ng_0.8.5-4.dsc e4be07fdd234f10b866433f224d183626003c65634ed0552b02e654a380244c2 59265 libcap-ng_0.8.5.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "23cd6b64711fdf211ec8cccaec887b729c0b2774e7f413efea8a2d9c1a00ebc9804c49bbfb4ea8bdbac869abd6a64aa96f384893d49b817df354c5a84d192c8f 7816 libcap-ng_0.8.5-4.debian.tar.xz e3978811d6aa8e4af973a38de7792a43a57b93ed700ead840f527aaba1f6e7bcc7df3ca1cc4540def3d0f7d2ce32eedc393a897cbb5e683c3433e9046fb6ac78 1710 libcap-ng_0.8.5-4.dsc 3bd868c7f263b77edd2feda831470b407f1086b434618e54336fb78bbf8bf3bad53f4c006a2118fb594b16554f8f7ec2acb76e08be5586d0261684e9ba139231 59265 libcap-ng_0.8.5.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/libc/libcap-ng"
+  ],
+  "Files": [
+    "2ad63fc3fc68ea285be70a061474ab79 7816 libcap-ng_0.8.5-4.debian.tar.xz b4d61d4a39ff289dce4f02325128521a 1710 libcap-ng_0.8.5-4.dsc 8635fae2b1ead2381a9630d00e8f80b7 59265 libcap-ng_0.8.5.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://people.redhat.com/sgrubb/libcap-ng"
+  ],
+  "Maintainer": [
+    "Håvard F. Aasen \u003chavard.f.aasen@pfft.no\u003e"
+  ],
+  "Package": [
+    "libcap-ng"
+  ],
+  "Package-List": [
+    "libcap-ng-dev deb libdevel optional arch=linux-any libcap-ng-utils deb admin optional arch=linux-any libcap-ng0 deb libs optional arch=linux-any python3-cap-ng deb python optional arch=linux-any profile=!nopython"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, python3-all"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libcap-ng"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libcap-ng.git"
+  ],
+  "Version": [
+    "0.8.5-4"
+  ]
+}

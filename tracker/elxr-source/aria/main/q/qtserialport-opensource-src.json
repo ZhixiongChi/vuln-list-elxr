@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libqt5serialport5, libqt5serialport5-dev, qt5serialport-examples, qtserialport5-doc, qtserialport5-doc-html"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libudev-dev [linux-any], pkg-kde-tools, qtbase5-dev (\u003e= 5.15.8+dfsg~), qtbase5-private-dev (\u003e= 5.15.8+dfsg~)"
+  ],
+  "Build-Depends-Indep": [
+    "qdoc-qt5 (\u003e= 5.15.8~) \u003c!nodoc\u003e, qhelpgenerator-qt5 (\u003e= 5.15.8~) \u003c!nodoc\u003e, qtattributionsscanner-qt5 (\u003e= 5.15.8~) \u003c!nodoc\u003e, qtbase5-doc-html (\u003e= 5.15.8+dfsg~) \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "944acec8d54b73370cea1db58e5d8c77cb4e9cdc 8144 qtserialport-opensource-src_5.15.8-2.debian.tar.xz 7b0b0b464c8a51af5462b21b2d2949ac6659a5a0 2968 qtserialport-opensource-src_5.15.8-2.dsc 171b35815c64dc609f5c3ce180fdcbe9ef45a28b 323200 qtserialport-opensource-src_5.15.8.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "fa0e8a15209bb33e9a44192344cdbd86e7b9f0eed8441ab93f629eee085701e0 8144 qtserialport-opensource-src_5.15.8-2.debian.tar.xz 9b717cf2ada3b21e52a08f330c2cb014726b3d7a1725c300704a1ac6d0cd9e73 2968 qtserialport-opensource-src_5.15.8-2.dsc 5beca29ffb31225f9e3a9a3b909cb96efc557c17dcef3467235c075a7dbb2812 323200 qtserialport-opensource-src_5.15.8.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "715944958f276576b31bc88dd38adde09aedcd020a5dca2abafe79c1b87f92e71f70b09f044854ba8c48acc8c7246cea0a2611ecb660127da4be0f2bec6532b5 8144 qtserialport-opensource-src_5.15.8-2.debian.tar.xz af89392e1919b5d2738a4f482f6ff2f6a0a48a5e8a007c1dbd9f45adcd044a6848494a0e876a0d5a7d7a3818006867b6d0e9fb89fada5ee6d76b31eaf58ef599 2968 qtserialport-opensource-src_5.15.8-2.dsc 974ae97ec9bdbb4bcecc80a07c343efe4ed686c968810e76fb0e4cd62165949c30d57a37035ac08916850cc2d207fabc0aa09e593184e65fc6d74b36bfbdc444 323200 qtserialport-opensource-src_5.15.8.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qtserialport-opensource-src"
+  ],
+  "Files": [
+    "f89154560506408b157fb9cdc8f80b68 8144 qtserialport-opensource-src_5.15.8-2.debian.tar.xz 789738798742f9e2adc9a507bc98a87a 2968 qtserialport-opensource-src_5.15.8-2.dsc 7b24de22b61a4f0e3242415854a939f8 323200 qtserialport-opensource-src_5.15.8.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://doc.qt.io/qt-5/qtserialport-index.html"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "qtserialport-opensource-src"
+  ],
+  "Package-List": [
+    "libqt5serialport5 deb libs optional arch=any libqt5serialport5-dev deb libdevel optional arch=any qt5serialport-examples deb x11 optional arch=any qtserialport5-doc deb doc optional arch=all profile=!nodoc qtserialport5-doc-html deb doc optional arch=all profile=!nodoc"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Sune Vuorela \u003cdebian@pusling.com\u003e, Pino Toscano \u003cpino@debian.org\u003e, Lisandro Damián Nicanor Pérez Meyer \u003clisandro@debian.org\u003e, Felix Geyer \u003cfgeyer@debian.org\u003e, Timo Jyrinki \u003ctimo@debian.org\u003e, Dmitry Shachnev \u003cmitya57@debian.org\u003e, Simon Quigley \u003ctsimonq2@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/qt/qtserialport"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/qt/qtserialport.git"
+  ],
+  "Version": [
+    "5.15.8-2"
+  ]
+}

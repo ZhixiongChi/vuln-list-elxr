@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libjwt2, libjwt-dev, libjwt-gnutls2, libjwt-gnutls-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pkg-config, libjansson-dev, libssl-dev, libb64-dev, check, dh-exec, gnutls-dev, quilt"
+  ],
+  "Checksums-Sha1": [
+    "a2ef8a5ce83e857540122e5ed90a08887dc22118 7700 libjwt_1.17.2-1.debian.tar.xz 2f48f29f78199fac347314ab33542a9371fa50e8 2428 libjwt_1.17.2-1.dsc aec4c384defabcddf6fe21b33acf93aa98f6d1be 94764 libjwt_1.17.2.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "7d59031cc638b599ad875856536ddc911e36cd4d478ab9ce8b676e1871e8e0a3 7700 libjwt_1.17.2-1.debian.tar.xz 8446653bbf5403983e1f41af4917190143ddbebc2ebb2a02f61879136f47662a 2428 libjwt_1.17.2-1.dsc 8d52fceba532317359eca8e920c6186577aed45504f47a9be0a13c70ef8586cc 94764 libjwt_1.17.2.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "1745e55631ee098b9c8e150e4125f7e310ad5ce0140b94ed2b26ee2a46c7e4f8f1cbdb4e0d6ad7a907f4364b290f24b17928634f8072fef8a0a288eb23634e87 7700 libjwt_1.17.2-1.debian.tar.xz 3d03a9cf8f62138d1d7b6803735bfc731de98013d74fa765d013c562ebec44c7fad23c9806e8b3b8fd4cfd2cd310b665f4093e93932e1a642978a0d93fd11f3c 2428 libjwt_1.17.2-1.dsc da80be72019460dfe3f943daaa8046c17ecb92b01199cf2d26a67cd4cac0ce5923e4f68898a9811c4c74f619409368d8e3e70f605fd03a24a723bbbd2576873e 94764 libjwt_1.17.2.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libj/libjwt"
+  ],
+  "Files": [
+    "00cb572501a5684ce31ab6b59bfb7e32 7700 libjwt_1.17.2-1.debian.tar.xz 69cf57dfe8d0a33283a67afb61d7dbe3 2428 libjwt_1.17.2-1.dsc 119a4e6c509b88dbc3d17385bb0de62d 94764 libjwt_1.17.2.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/benmcollins/libjwt"
+  ],
+  "Maintainer": [
+    "Debian IoT Maintainers \u003cdebian-iot-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libjwt"
+  ],
+  "Package-List": [
+    "libjwt-dev deb libdevel optional arch=any libjwt-gnutls-dev deb libdevel optional arch=any libjwt-gnutls2 deb libs optional arch=any libjwt2 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config"
+  ],
+  "Uploaders": [
+    "Thorsten Alteholz \u003cdebian@alteholz.de\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian-iot-team/oauth2/libjwt"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian-iot-team/oauth2/libjwt.git"
+  ],
+  "Version": [
+    "1.17.2-1"
+  ]
+}

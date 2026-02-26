@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libunbound-dev, libunbound8, python3-unbound, unbound, unbound-anchor, unbound-host"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), autoconf, bison, dh-apparmor \u003c!pkg.unbound.libonly\u003e, dh-sequence-python3 \u003c!pkg.unbound.libonly\u003e, dpkg-dev (\u003e= 1.16.1~), flex, libbsd-dev (\u003e= 0.8.1~) [!linux-any], libevent-dev, libexpat1-dev, libnghttp2-dev \u003c!pkg.unbound.libonly\u003e, libprotobuf-c-dev \u003c!pkg.unbound.libonly\u003e, libssl-dev \u003c!pkg.unbound.libonly\u003e, libsystemd-dev \u003c!pkg.unbound.libonly\u003e, libtool, nettle-dev, pkg-config, protobuf-c-compiler \u003c!pkg.unbound.libonly\u003e, python3-dev:any \u003c!pkg.unbound.libonly\u003e, libpython3-dev \u003c!pkg.unbound.libonly\u003e, swig \u003c!pkg.unbound.libonly\u003e"
+  ],
+  "Checksums-Sha1": [
+    "1b61b719cc446bc895bba26aa93fc4503fe9e576 75016 unbound_1.17.1-2+deb12u4.debian.tar.xz 3615ab581f792e3f3f2cb91a90e99d0bf171467e 3298 unbound_1.17.1-2+deb12u4.dsc 90da3bb8883931e30384057722dd9d1df4286f46 6244773 unbound_1.17.1.orig.tar.gz 6b754d1c792a1f6d01d6706a75777b87d434b134 833 unbound_1.17.1.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha256": [
+    "b756330de8dd715ac8305bf36be0b0cc93a11703d2c542b4a320dcf1e71b229a 75016 unbound_1.17.1-2+deb12u4.debian.tar.xz 7833b82f7a888354c672dd743c19551325cb745e9a70793e90f4c9493ebaa065 3298 unbound_1.17.1-2+deb12u4.dsc ee4085cecce12584e600f3d814a28fa822dfaacec1f94c84bfd67f8a5571a5f4 6244773 unbound_1.17.1.orig.tar.gz b66a35d11545a1334b8aec1848c8c7ee0e01ef4a2950f2260a7c26b6fd61bfbf 833 unbound_1.17.1.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha512": [
+    "462ef7f01f2106dba70c8797ed660f3ab08db461c6b016cf5b76ca7da8253f27e239f002d2bc621c815bc70dda5615c1a169861a44786b7c5b9d933dcec21328 75016 unbound_1.17.1-2+deb12u4.debian.tar.xz 14bf9c4e6de25e1fe1f687ab96a729a9c497a2172247ea02bdbd44359a567f9222db563b9c6655d17d2deafc42167b30132e916f313bce6bef32cdd736cad626 3298 unbound_1.17.1-2+deb12u4.dsc 10dd4c3aff77f1c0d19eb3c66956ed6ef1aae19e827d0b3259dc75d9de28dedd41862982a299e67ee07e17fb52058b4beee9d4b1d3bb0a3f633b9ba5b864d168 6244773 unbound_1.17.1.orig.tar.gz d663c2ebf9ba4420eb6cd351378d646ac4c9e88bd69913dc1c862a326e98329496a901c86b857f2c157c0401a289ff91e5ac83911477cb9894156c6d959b2b80 833 unbound_1.17.1.orig.tar.gz.asc"
+  ],
+  "Directory": [
+    "pool/main/u/unbound"
+  ],
+  "Files": [
+    "8b02cb5a8cf64bb6bce878aacaf9788c 75016 unbound_1.17.1-2+deb12u4.debian.tar.xz ea3d7497fcb20e41b0af248025e95d2f 3298 unbound_1.17.1-2+deb12u4.dsc bb96df2dc579c11ada537dbc52781abc 6244773 unbound_1.17.1.orig.tar.gz 8a6399230741197bdd17cc7e7686fe31 833 unbound_1.17.1.orig.tar.gz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.unbound.net/"
+  ],
+  "Maintainer": [
+    "unbound packagers \u003cunbound@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "unbound"
+  ],
+  "Package-List": [
+    "libunbound-dev deb libdevel optional arch=any libunbound8 deb libs optional arch=any python3-unbound deb python optional arch=any profile=!pkg.unbound.libonly unbound deb net optional arch=any profile=!pkg.unbound.libonly unbound-anchor deb net optional arch=any profile=!pkg.unbound.libonly unbound-host deb net optional arch=any profile=!pkg.unbound.libonly"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dns-root-data, udns-utils"
+  ],
+  "Uploaders": [
+    "Robert Edmonds \u003cedmonds@debian.org\u003e, Michael Tokarev \u003cmjt@tls.msk.ru\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/dns-team/unbound"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/dns-team/unbound.git"
+  ],
+  "Version": [
+    "1.17.1-2+deb12u4"
+  ]
+}

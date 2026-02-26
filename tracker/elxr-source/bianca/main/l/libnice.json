@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libnice10, libnice-dev, gstreamer1.0-nice, libnice-doc, gir1.2-nice-0.1"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, gir1.2-gobject-2.0-dev, gir1.2-gio-2.0-dev, libglib2.0-dev (\u003e= 2.54), libgnutls28-dev (\u003e= 2.12.0), libgstreamer1.0-dev, libgupnp-igd-1.6-dev, meson (\u003e= 0.52)"
+  ],
+  "Build-Depends-Indep": [
+    "graphviz \u003c!nodoc\u003e, gtk-doc-tools \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "c2086616d9c6428021a89163f9b75c42f1b18669 17956 libnice_0.1.22-1.debian.tar.xz 5ffb54f79512a828269ab340c4b9a141b7915538 2742 libnice_0.1.22-1.dsc 4394e2d4b9482ddd3acaa0fe1bf9a79e8d9cb513 460696 libnice_0.1.22.orig.tar.gz 8a4ae010b7f90521c8d8638e9ad596833a057b2a 195 libnice_0.1.22.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha256": [
+    "49c0036b8cf20243712e4ed6f53cf8529a3d0b4da03eb181240b34464459dc80 17956 libnice_0.1.22-1.debian.tar.xz 50366699104e74c2d8cf37c11e5fe5d2a45e30c5328a9ab54d31c84972cc230a 2742 libnice_0.1.22-1.dsc a5f724cf09eae50c41a7517141d89da4a61ec9eaca32da4a0073faed5417ad7e 460696 libnice_0.1.22.orig.tar.gz f6f81d30644bb32889cf2bc5279e9c315c762a5677f7cf0e00ed4225c25eb6c3 195 libnice_0.1.22.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha512": [
+    "26648d1d05552c50b61ebada1256a26bf9562dcfafb86b85a10409961ed45421d759d7f1ee6ba78fcd13245e626b7b1917169255b1542cf137cd19eb86b87885 17956 libnice_0.1.22-1.debian.tar.xz fd0be8ccb1d41b2f226e6295a60be0961a1b2aa4236d7f4cfaf260c1fab7125761259985a1ac15dfd433772ab219a80b36d7393476296b970f91caa5401d8200 2742 libnice_0.1.22-1.dsc c3aae2d36d2cec8654b87ecc464296711a4a64335052dfc1477f43f59e90341f7a6a01ebd4edf91a72d9ec425440e6dd0bd8f817c77e03578854e70193b3306b 460696 libnice_0.1.22.orig.tar.gz 175f58b4adb4eb824395d01a216a8e296d1ef92d32d5cfc0daacc2fe725a9cace53be6f1cffc1316e13cc52a7b8dc476d7cd63fa1277b7b87b5debbcdeb6dc2e 195 libnice_0.1.22.orig.tar.gz.asc"
+  ],
+  "Directory": [
+    "pool/main/libn/libnice"
+  ],
+  "Files": [
+    "23ffbbf8481cc7dcf20ab56d0c5a4c56 17956 libnice_0.1.22-1.debian.tar.xz c608454c34142d31dadae013f28f16fd 2742 libnice_0.1.22-1.dsc 2bb2171f68638c072a62bf658af9a640 460696 libnice_0.1.22.orig.tar.gz 0d563f150bd3776191b18520c10c97d1 195 libnice_0.1.22.orig.tar.gz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://libnice.freedesktop.org/"
+  ],
+  "Maintainer": [
+    "Debian Telepathy maintainers \u003cpkg-telepathy-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libnice"
+  ],
+  "Package-List": [
+    "gir1.2-nice-0.1 deb introspection optional arch=any gstreamer1.0-nice deb net optional arch=any libnice-dev deb libdevel optional arch=any libnice-doc deb doc optional arch=all profile=!nodoc libnice10 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Uploaders": [
+    "Sjoerd Simons \u003csjoerd@debian.org\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/telepathy-team/libnice"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/telepathy-team/libnice.git"
+  ],
+  "Version": [
+    "0.1.22-1"
+  ]
+}

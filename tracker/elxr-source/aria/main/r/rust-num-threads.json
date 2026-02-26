@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-num-threads-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.107-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "232b1617d34044cfe4554fd44602bf35b7715b94 2696 rust-num-threads_0.1.6-1.debian.tar.xz 89e182f5ac6d4864ba251ba0dd27cdae56129e23 2205 rust-num-threads_0.1.6-1.dsc c95e84a7e0ae05b1df219d0c4e5b5d1e65e5da8a 7334 rust-num-threads_0.1.6.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "c7d77bb915721a8d47e59c232c28fdb050307ea788a0098763d0fbb2f8fe6d9e 2696 rust-num-threads_0.1.6-1.debian.tar.xz ef8057bf2c2bafdb17c12dc1b73d51ea5fc6c73283f9a2a6fe1768732e53f025 2205 rust-num-threads_0.1.6-1.dsc 2819ce041d2ee131036f4fc9d6ae7ae125a3a40e97ba64d04fe799ad9dabbb44 7334 rust-num-threads_0.1.6.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "b5fbe375702c6e572c44c414e0bbf8be1e6044b18118f5c3744d1556ed3335343b632999221ff68b9d53d43c2924d07524cb4569a5f617ffb0fc08c40dbd05dc 2696 rust-num-threads_0.1.6-1.debian.tar.xz 31a48c0bb5191b44cdd983d69ca82092bdf0748d2ccbf28a299c6f59966a8c9d849e50e0dd5d2a21623e2f756a01dc8fd4cbff22bbd7b3e7dcb1d622dc0d14fe 2205 rust-num-threads_0.1.6-1.dsc b2d9897e29e59353379b6372a629fc7f9afc89f777b4410eaeac7b4729527948a8dbecb175f056899f9076693ef855cc0d40e725cc54f28af588fbac5f7ce3b6 7334 rust-num-threads_0.1.6.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-num-threads"
+  ],
+  "Files": [
+    "64c42ab82e5af7221e2baab768c298c0 2696 rust-num-threads_0.1.6-1.debian.tar.xz 6c4ce667efaade916a035f36501930bb 2205 rust-num-threads_0.1.6-1.dsc ae2471729f689287aec9da43f8106a4b 7334 rust-num-threads_0.1.6.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-num-threads"
+  ],
+  "Package-List": [
+    "librust-num-threads-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/num-threads"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/num-threads]"
+  ],
+  "Version": [
+    "0.1.6-1"
+  ]
+}

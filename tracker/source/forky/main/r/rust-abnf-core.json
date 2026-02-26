@@ -6,16 +6,16 @@
     "librust-abnf-core-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-rust, librust-nom-7+default-dev"
+    "debhelper-compat (= 13), dh-sequence-rust, librust-nom-dev"
   ],
   "Checksums-Sha256": [
-    "62004de5bc52ea47d7775a1231bb1d9e793aacde7797ad747742a8f9244b027d 2150 rust-abnf-core_0.6.0-5.dsc 46e4f18cb90f78ae92a7967e9c13d914bfa27f154d863daba96eb9c2dd50355a 9347 rust-abnf-core_0.6.0.orig.tar.gz 4977e3970d31795b905870f5ce915185b36e095526b5b2fadea64ff34306ce0c 3424 rust-abnf-core_0.6.0-5.debian.tar.xz"
+    "971906ffbe5d363df564eb2d6e273c94c165ea3c1a4a433c27c1b09da02d5ce2 2031 rust-abnf-core_0.6.0-7.dsc 46e4f18cb90f78ae92a7967e9c13d914bfa27f154d863daba96eb9c2dd50355a 9347 rust-abnf-core_0.6.0.orig.tar.gz 7be5fb8e24c36341cbb5eff2f5e25d968b47acb3bd84000a41f47464ed7293dc 6568 rust-abnf-core_0.6.0-7.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-abnf-core"
   ],
   "Files": [
-    "b3acad18df96ecdc8e4f93163546f58c 2150 rust-abnf-core_0.6.0-5.dsc c448c2aa6d1536be9eb58a86ddaef35e 9347 rust-abnf-core_0.6.0.orig.tar.gz 02e87e6c3d17898176c2c678ff6936d4 3424 rust-abnf-core_0.6.0-5.debian.tar.xz"
+    "43bd6eddfd3040c043b487cd477cb85a 2031 rust-abnf-core_0.6.0-7.dsc c448c2aa6d1536be9eb58a86ddaef35e 9347 rust-abnf-core_0.6.0.orig.tar.gz 91c3db9a1eff9cf40957c5dd6f2251a4 6568 rust-abnf-core_0.6.0-7.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-rust, librust-abnf-core-0.6+default-dev, librust-abnf-core-0.6-dev"
+    "dh-rust, librust-abnf-core-0.6+default-dev"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/rust-abnf-core"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/rust-abnf-core.git"
   ],
   "Version": [
-    "0.6.0-5"
+    "0.6.0-7"
   ]
 }

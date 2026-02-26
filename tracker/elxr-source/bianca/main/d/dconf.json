@@ -1,0 +1,68 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libdconf1, libdconf-dev, libdconf-doc, dconf-cli, dconf-gsettings-backend, dconf-service"
+  ],
+  "Build-Depends": [
+    "bash-completion, dbus \u003c!nocheck\u003e, debhelper-compat (= 13), dh-sequence-gnome, docbook-xsl, libdbus-1-dev, libglib2.0-dev (\u003e= 2.44.0), meson (\u003e= 0.47.0), procps \u003c!nocheck\u003e, valac (\u003e= 0.18.0), xsltproc"
+  ],
+  "Build-Depends-Indep": [
+    "gtk-doc-tools (\u003e= 1.15) \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "c513fcceaf22323e77226fc64312b058b38f1e99 11260 dconf_0.40.0-5.debian.tar.xz 370f858a8f1d68f95ec18bed9156e2e29ef31690 2758 dconf_0.40.0-5.dsc c8e12b98b2b10ccae4ee13395a39b3e913f58ab6 117764 dconf_0.40.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "1047917d00a4704d11a4d89729441cbd73d9f0833d52ed0684c390488c11830b 11260 dconf_0.40.0-5.debian.tar.xz 73d3c42e395e59e36129f13d8fa5d98f44815ba6c4bef4653dd8a01b3a34fc5d 2758 dconf_0.40.0-5.dsc cf7f22a4c9200421d8d3325c5c1b8b93a36843650c9f95d6451e20f0bcb24533 117764 dconf_0.40.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "04d8bf6847594971956709c718ddc8efa9eee35ea55fe3fedd7dbca94c253c3c56b97027c059db80c0b9b1c5770231df8b81a5785faa402e3c4bb2f0547a127a 11260 dconf_0.40.0-5.debian.tar.xz f71ed9a159ccb6027cb4174f9483f185cd5e5535f244119f7fa682692ff8c9e4eeb2cabb208b3e68a41d87e264b71cfe4955a10dbf7f4bdf2c6f16c23156a48c 2758 dconf_0.40.0-5.dsc 71396d71f24f47653181482b052fdfc63795c50c373de34e2fb93e16101745daa7e81192b79a102d5389911cea34138eedf3ac32bc80562018e8a7f31963559a 117764 dconf_0.40.0.orig.tar.xz"
+  ],
+  "Dgit": [
+    "7639ae22ae3abf2904d31af5a66f98831c087ee7 debian archive/debian/0.40.0-5 https://git.dgit.debian.org/dconf"
+  ],
+  "Directory": [
+    "pool/main/d/dconf"
+  ],
+  "Files": [
+    "1a0bc14df9d80eaaa196c612b6fb3ede 11260 dconf_0.40.0-5.debian.tar.xz aaf44858ba854270e4d18b32b896ae4a 2758 dconf_0.40.0-5.dsc ac8db20b0d6b996d4bbbeb96463d01f0 117764 dconf_0.40.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/Projects/dconf"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "dconf"
+  ],
+  "Package-List": [
+    "dconf-cli deb utils optional arch=any dconf-gsettings-backend deb libs optional arch=any dconf-service deb libs optional arch=any libdconf-dev deb libdevel optional arch=any libdconf-doc deb doc optional arch=all profile=!nodoc libdconf1 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkgconf"
+  ],
+  "Uploaders": [
+    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bicha \u003cjbicha@debian.org\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Sebastien Bacher \u003cseb128@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/dconf"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/dconf.git"
+  ],
+  "Version": [
+    "0.40.0-5"
+  ]
+}

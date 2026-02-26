@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "linux-any hurd-any all"
+  ],
+  "Binary": [
+    "libusb-1.0-0, libusb-1.0-0-dev, libusb-1.0-doc, libusb-1.0-0-udeb"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libudev-dev [linux-any], pkg-config"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen"
+  ],
+  "Checksums-Sha1": [
+    "38712a81593db344095a48ef40b8a1c821b875e9 11524 libusb-1.0_1.0.26-1.debian.tar.xz cffae34cf719efd211d0911e5e1d26f62cdfaceb 2144 libusb-1.0_1.0.26-1.dsc 0e25981dafb69729e5d976017d113410078f6f6d 620534 libusb-1.0_1.0.26.orig.tar.bz2"
+  ],
+  "Checksums-Sha256": [
+    "fdf5de721b46c9f411f833f531176f93de9e2b15101d55a4bff36ea6af0e0226 11524 libusb-1.0_1.0.26-1.debian.tar.xz 3d75673e367fab1d0ca1ef29276ff4ea31dd7678c9573c10975e8d80bdbd0b14 2144 libusb-1.0_1.0.26-1.dsc 12ce7a61fc9854d1d2a1ffe095f7b5fac19ddba095c259e6067a46500381b5a5 620534 libusb-1.0_1.0.26.orig.tar.bz2"
+  ],
+  "Checksums-Sha512": [
+    "446b59ad5624c0d06541c464adc34450fdb9778f7cc7cace4ea3619cc4114befdfd8c49b6016155d523577a96e66cc185b172f030c449a95aaf5088145faa5af 11524 libusb-1.0_1.0.26-1.debian.tar.xz 3d8d967e9151df651ed275a47daf6fc98a284096ba34fe18cbff196f57118de1e50627b3f0bc51bc0e86866032f8da750927e6ac99f33df6be6d9b8066a8e753 2144 libusb-1.0_1.0.26-1.dsc fcdb85c98f21639668693c2fd522814d440972d65883984c4ae53d0555bdbdb7e8c7a32199cd4b01113556a1eb5be7841b750cc73c9f6bda79bfe1af80914e71 620534 libusb-1.0_1.0.26.orig.tar.bz2"
+  ],
+  "Directory": [
+    "pool/main/libu/libusb-1.0"
+  ],
+  "Files": [
+    "4397ff9942d68caeb9c099804d4cd2e6 11524 libusb-1.0_1.0.26-1.debian.tar.xz 62b5264457391b66a346f734528477ed 2144 libusb-1.0_1.0.26-1.dsc 9c75660dfe1d659387c37b28c91e3160 620534 libusb-1.0_1.0.26.orig.tar.bz2"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.libusb.info"
+  ],
+  "Maintainer": [
+    "Aurelien Jarno \u003caurel32@debian.org\u003e"
+  ],
+  "Package": [
+    "libusb-1.0"
+  ],
+  "Package-List": [
+    "libusb-1.0-0 deb libs optional arch=linux-any,hurd-any libusb-1.0-0-dev deb libdevel optional arch=linux-any,hurd-any libusb-1.0-0-udeb udeb debian-installer optional arch=linux-any,hurd-any libusb-1.0-doc deb doc optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config"
+  ],
+  "Version": [
+    "2:1.0.26-1"
+  ]
+}

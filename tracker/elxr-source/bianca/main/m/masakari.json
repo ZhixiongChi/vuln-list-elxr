@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "masakari-api, masakari-common, masakari-doc, masakari-engine, python3-masakari"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 11), dh-python, openstack-pkg-tools, po-debconf, python3-all, python3-pbr, python3-setuptools, python3-sphinx \u003c!nodoc\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "alembic, python3-coverage, python3-ddt, python3-hacking, python3-iso8601, python3-jsonschema, python3-keystoneauth1, python3-keystonemiddleware, python3-microversion-parse, python3-novaclient, python3-openstacksdk, python3-os-api-ref, python3-oslo.config, python3-oslo.context, python3-oslo.db, python3-oslo.i18n, python3-oslo.log, python3-oslo.messaging (\u003e= 14.1.0), python3-oslo.middleware, python3-oslo.policy (\u003e= 4.5.0), python3-oslo.service, python3-oslo.upgradecheck, python3-oslo.utils, python3-oslo.versionedobjects, python3-oslotest, python3-pbr, python3-psycopg2, python3-pymysql, python3-requests-mock, python3-sqlalchemy, python3-sqlalchemy-utils, python3-stestr, python3-stevedore, python3-taskflow, python3-testresources, python3-testscenarios, python3-testtools, python3-tooz, python3-webob, subunit"
+  ],
+  "Checksums-Sha1": [
+    "97e998fbbe3230ae0d4c3e8f274957ba8a2bb895 7344 masakari_19.0.0-3.debian.tar.xz 253247533286973845258dc115560c03b6470150 3223 masakari_19.0.0-3.dsc f7dbb33e12fe07a372369b16f54764d9bdd6c7a4 270688 masakari_19.0.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "338319bde0ecef9a0e6f1e25655c53db62c2f5a15517f2e5cc3923ae69818940 7344 masakari_19.0.0-3.debian.tar.xz f895c2605fcf14eec8702951dc080494d50d24020066f7d16703458463571410 3223 masakari_19.0.0-3.dsc a1a2931fdfb1b6cac62d2e05c855436d8a3857a371589c3a5472f19d8e9d6e47 270688 masakari_19.0.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "dd080ac2005a72141683363d3f91c694be70f0f953ff98c605206792306cde52d7d30749ee67c52bb70eaa6d817cb721423c3ff62d3f882b445b95d0d8a2f3fb 7344 masakari_19.0.0-3.debian.tar.xz e936bab48fadebb35a444b4fd3c2cc496f477e01b34ab3e5b5ac99573675d04ae7f7d238e87645cf5e75609f74597af7330c18d932ff377f38a4527823c730d6 3223 masakari_19.0.0-3.dsc 2857bc852669208077c5321f5bf1d0f6da7d8ba53c4a436dadeee0c5b7e6815debf9264c8540c6ef004c29995709704d6b8d55bf7481fb95ee15357065709609 270688 masakari_19.0.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/masakari"
+  ],
+  "Files": [
+    "a80c4a75a661af6ca313c432ec490de4 7344 masakari_19.0.0-3.debian.tar.xz 200d641b9637f45c767df9e1ab100ba9 3223 masakari_19.0.0-3.dsc 650d0aa5413269af60f1c15531cf7da3 270688 masakari_19.0.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://opendev.org/openstack/masakari"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "masakari"
+  ],
+  "Package-List": [
+    "masakari-api deb net optional arch=all masakari-common deb net optional arch=all masakari-doc deb doc optional arch=all masakari-engine deb net optional arch=all python3-masakari deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, Michal Arbet \u003cmichal.arbet@ultimum.io\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/services/masakari"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/services/masakari.git"
+  ],
+  "Version": [
+    "19.0.0-3"
+  ]
+}

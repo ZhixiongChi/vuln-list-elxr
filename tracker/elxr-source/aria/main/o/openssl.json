@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "openssl, libssl3, libcrypto3-udeb, libssl3-udeb, libssl-dev, libssl-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), m4, bc, dpkg-dev (\u003e= 1.15.7)"
+  ],
+  "Checksums-Sha1": [
+    "d22aeeaa2cf5d737c261f1689ffb25876b38d1ea 60008 openssl_3.0.18-1~deb12u2.debian.tar.xz 18c7815fc97ab4f4b1c1d64ec55caf064bdb3f85 2539 openssl_3.0.18-1~deb12u2.dsc 7f81507dc4e9998eec0b2a646578e045e5e26afc 15348046 openssl_3.0.18.orig.tar.gz 2699dfa57dde292ccf0ceb5fe9b4736df8bda747 833 openssl_3.0.18.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha256": [
+    "d98e15795a2c379039e62ec061ca750c310d3e7c962812bc15677d5e2dcf1794 60008 openssl_3.0.18-1~deb12u2.debian.tar.xz 506cc0573793b9e6b7f2f8fc7467ec36ade27bff46c6eed0c4244e29c682735f 2539 openssl_3.0.18-1~deb12u2.dsc d80c34f5cf902dccf1f1b5df5ebb86d0392e37049e5d73df1b3abae72e4ffe8b 15348046 openssl_3.0.18.orig.tar.gz 2e6cdbdf18511d435bac10990be4a789f769b321c0db734c234cd736a73674de 833 openssl_3.0.18.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha512": [
+    "4272227cfcd5a01cb492adb5c775cc5b972aef478298beeddee90c4654c96989393b55f029929490288ad46c1843e180938dfd5566ad577697887f3a9f7eef64 60008 openssl_3.0.18-1~deb12u2.debian.tar.xz 9274c6c8a41b0819b5b57c7268ccd38504967baf17cd90423d2ece0a2c872ffafbcd89604b66c89673d11a6c15f9a3138195ac71bfb1fbc1013f77b8e2a158f9 2539 openssl_3.0.18-1~deb12u2.dsc 6bdd16f33b83ae2a12777230c4ff00d0595bbc00253ac8c3ac31e1375e818fc74d7f491bd2e507ff33cab9f0498cfb28fa8690f75a98663568d40901523cdf3c 15348046 openssl_3.0.18.orig.tar.gz cd4cd8afab68cbe0a5b034039112901cf8a25711c55556681f86b04e47389bcffae85a98f155a517156dd9fb29ceb82f627e371881feb928e887053f145bddfd 833 openssl_3.0.18.orig.tar.gz.asc"
+  ],
+  "Directory": [
+    "pool/main/o/openssl"
+  ],
+  "Files": [
+    "e0fd90db71ff29ff5db82eddf37cd40e 60008 openssl_3.0.18-1~deb12u2.debian.tar.xz 7fbb9c1a97926929c94bce19dc09cbb8 2539 openssl_3.0.18-1~deb12u2.dsc 2d36cbf0f4da1be108f174f58e0637fb 15348046 openssl_3.0.18.orig.tar.gz ecfec862c3c310be79c9c7e1850c1797 833 openssl_3.0.18.orig.tar.gz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.openssl.org/"
+  ],
+  "Maintainer": [
+    "Debian OpenSSL Team \u003cpkg-openssl-devel@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "openssl"
+  ],
+  "Package-List": [
+    "libcrypto3-udeb udeb debian-installer optional arch=any profile=!noudeb profile:v1=!noudeb libssl-dev deb libdevel optional arch=any libssl-doc deb doc optional arch=all libssl3 deb libs optional arch=any libssl3-udeb udeb debian-installer optional arch=any profile=!noudeb profile:v1=!noudeb openssl deb utils optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "perl"
+  ],
+  "Uploaders": [
+    "Christoph Martin \u003cchristoph.martin@uni-mainz.de\u003e, Kurt Roeckx \u003ckurt@roeckx.be\u003e, Sebastian Andrzej Siewior \u003csebastian@breakpoint.cc\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/openssl"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/openssl.git"
+  ],
+  "Version": [
+    "3.0.18-1~deb12u2"
+  ]
+}

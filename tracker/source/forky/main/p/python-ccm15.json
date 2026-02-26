@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-ccm15"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools"
+  ],
+  "Build-Depends-Indep": [
+    "python3-aiohttp \u003c!nocheck\u003e, python3-httpx \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-xmltodict \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "10f1fd9d05308786830927d563fea52be8b5117746132bb5cf4d228ee14078a3 2213 python-ccm15_0.1.2-1.dsc 6aa6f38d0f0d5f76316789094b4d6d79777b10a4b8e8095de61ff7416ed9b7af 6108 python-ccm15_0.1.2.orig.tar.gz 5a13e53c2fb25d30f23def5398e33967d03b605958bb28d0f64340830943e85c 2144 python-ccm15_0.1.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-ccm15"
+  ],
+  "Files": [
+    "c4f859c546c622470abbb507c89de5ec 2213 python-ccm15_0.1.2-1.dsc f83ca6514a696985beafb6271270072c 6108 python-ccm15_0.1.2.orig.tar.gz 0811e1b96cf70b471bcd7c7e9ed04451 2144 python-ccm15_0.1.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ocalvo/py-ccm15"
+  ],
+  "Maintainer": [
+    "Home Assistant Team \u003cteam+homeassistant@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-ccm15"
+  ],
+  "Package-List": [
+    "python3-ccm15 deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "python"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-pybuild"
+  ],
+  "Uploaders": [
+    "Edward Betts \u003cedward@4angle.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/homeassistant-team/deps/python-ccm15"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/homeassistant-team/deps/python-ccm15.git"
+  ],
+  "Version": [
+    "0.1.2-1"
+  ]
+}

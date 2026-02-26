@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libproxy1v5, libproxy1-plugin-gsettings, libproxy1-plugin-kconfig, libproxy1-plugin-networkmanager, libproxy1-plugin-webkit, libproxy-dev, libproxy-tools"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gnome, duktape-dev, gsettings-desktop-schemas-dev, meson, netbase \u003c!nocheck\u003e, valac, zlib1g-dev, libnm-dev [linux-any], libcurl4-gnutls-dev, libdbus-1-dev, libkf5config-bin \u003c!nocheck !stage1\u003e, libwebkit2gtk-4.1-dev \u003c!nocheck !stage1\u003e, libjavascriptcoregtk-4.1-dev \u003c!stage1\u003e, libglib2.0-dev (\u003e= 2.26) \u003c!stage1\u003e, libxmu-dev \u003c!nocheck !stage1\u003e"
+  ],
+  "Checksums-Sha1": [
+    "f7a3ca80c861ad62ec0b5d454050e1e72eaecfed 15020 libproxy_0.5.9-1.debian.tar.xz 86b87b849d41917c87bb47ad04768ce9405b219b 2911 libproxy_0.5.9-1.dsc 9faf4b4f76ffdff475719c80e3f81dc927362d0c 58165 libproxy_0.5.9.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "06f54ceef440d9c6bce9b1f7df92bab55d5e6c5f72d377271b8c03eb695eff4f 15020 libproxy_0.5.9-1.debian.tar.xz fcbd839658cf843f5eecdbc02a54661f4711b34ccf6ba1b443a73eb37a4a42fd 2911 libproxy_0.5.9-1.dsc a1976c3ac4affedc17e6d40cf78c9d8eca6751520ea3cbbec1a8850f7ded1565 58165 libproxy_0.5.9.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "c5706725cdb1169350eaa13c131609f0920cb2e3c09b57d9e17c0c368515ad44e83fcda06fce9a7dd0e0f70a752c2cc10e5caf75da8c94225dcf54347bbb09f5 15020 libproxy_0.5.9-1.debian.tar.xz 25a5f8258fc4f02eb1eb3c66ac7b28327c24b97dadf299f18d592282f9e57567631644630f9fa866feb0d79fa7c7ac641f88d7503bdf6ca8007bc12a3f5b3e70 2911 libproxy_0.5.9-1.dsc 781fdd51ea8467f603a46dcab8d0e7a97eb4834acfbe57d00b103e2a075dd32eeb16aece88d4e018192eb58fe54f42aefd954873e6d8364836866d0167e063d5 58165 libproxy_0.5.9.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/libp/libproxy"
+  ],
+  "Files": [
+    "80ca3a6078a212749c6df96103b88a87 15020 libproxy_0.5.9-1.debian.tar.xz 401c75fd8d21a1e8cb174302aba68f5a 2911 libproxy_0.5.9-1.dsc 11fd35c17e0ae017bae764fae1651973 58165 libproxy_0.5.9.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://libproxy.github.io/libproxy/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libproxy"
+  ],
+  "Package-List": [
+    "libproxy-dev deb libdevel optional arch=any libproxy-tools deb utils optional arch=any libproxy1-plugin-gsettings deb oldlibs optional arch=any libproxy1-plugin-kconfig deb oldlibs optional arch=any libproxy1-plugin-networkmanager deb oldlibs optional arch=linux-any libproxy1-plugin-webkit deb oldlibs optional arch=any libproxy1v5 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, gsettings-desktop-schemas, pkg-config"
+  ],
+  "Uploaders": [
+    "Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/libproxy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/libproxy.git"
+  ],
+  "Version": [
+    "0.5.9-1"
+  ]
+}

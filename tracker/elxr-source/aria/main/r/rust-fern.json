@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-fern-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-log-0.4+default-dev \u003c!nocheck\u003e, librust-log-0.4+std-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "512eaf451b9235295536b8e94850b36beabe64f6 3796 rust-fern_0.6.1-1.debian.tar.xz 79b43c77c254cb764db63da0732b5984ba4de766 2298 rust-fern_0.6.1-1.dsc 717300432c88c069b0b4a7dd6db5935023b0fef1 300402 rust-fern_0.6.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "e687d7d2003c1817238ed939f0b6cb03a3fa057745f097a9eaa01eb87f6e49d3 3796 rust-fern_0.6.1-1.debian.tar.xz 11834f53177e2c0d7e6a30bdd2f50a2d09e5c79359aa0ae19ad8be0da7718774 2298 rust-fern_0.6.1-1.dsc 3bdd7b0849075e79ee9a1836df22c717d1eba30451796fdc631b04565dd11e2a 300402 rust-fern_0.6.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "25746b9f4f87b4261fc0ccda11d6a5f5859bdf845058480c1bf25af209da308a3584fbc897a81e41845318c87ff9b81a2cf1dcbc4df8134a029764ac7d4c7835 3796 rust-fern_0.6.1-1.debian.tar.xz 25f6ef53f0907e545bca307b408af8544cae39aaf59ba4d51abdf886246723681989b692649e9aa421ff55f89f5b5256fc0d78e9cbf685a2a811855cc5f14116 2298 rust-fern_0.6.1-1.dsc f33d3e03c8f4248b046bc84c83d0de9be77b895e79ebc1ab943c50d7ebae021477749376daa14763709aaafa69d414a8ea774bb009a10737d1de57c7cb6d7fbc 300402 rust-fern_0.6.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-fern"
+  ],
+  "Files": [
+    "dde7b27eff6a655eea4c2a394fe7f411 3796 rust-fern_0.6.1-1.debian.tar.xz b593b471e64277dc7c3a7fab02b79b30 2298 rust-fern_0.6.1-1.dsc d03adfd6f55dfa573361e8ddca01470a 300402 rust-fern_0.6.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-fern"
+  ],
+  "Package-List": [
+    "librust-fern-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-chrono-0.4+clock-dev, librust-chrono-0.4+std-dev, librust-clap-2+default-dev, librust-tempfile-3+default-dev"
+  ],
+  "Uploaders": [
+    "Andrej Shadura \u003candrewsh@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/fern"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/fern]"
+  ],
+  "Version": [
+    "0.6.1-1"
+  ]
+}

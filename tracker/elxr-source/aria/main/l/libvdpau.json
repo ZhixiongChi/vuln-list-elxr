@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libvdpau-dev, libvdpau1, libvdpau-doc, vdpau-driver-all"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), meson, pkg-config, libx11-dev, x11proto-dri2-dev, libxext-dev"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen-latex \u003c!nodoc\u003e, graphviz \u003c!nodoc\u003e, ghostscript \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "346b63b3028d566c86587b197ba16a1f196094b6 9324 libvdpau_1.5-2.debian.tar.xz 21d00d0c90511b11125b28e59cbdc2386422c7c5 2321 libvdpau_1.5-2.dsc 7c30763796f6abe178dab49268e818378b7c3d4a 143279 libvdpau_1.5.orig.tar.bz2"
+  ],
+  "Checksums-Sha256": [
+    "b5265bfe78ece6e8d366dd057c3362639a3ce634c4015c92424a915606110858 9324 libvdpau_1.5-2.debian.tar.xz 6506c94cac87ef30e5b368dec2c06c5688d29e03d5be4df395bf634a8543e011 2321 libvdpau_1.5-2.dsc a5d50a42b8c288febc07151ab643ac8de06a18446965c7241f89b4e810821913 143279 libvdpau_1.5.orig.tar.bz2"
+  ],
+  "Checksums-Sha512": [
+    "5e9cc17dc6c12b8fa69c084427720a5847d14523da2cf30388a30728129a50ebb88a3251d9299f03cc4f810a14c9d2837cdde30fc9987ef0e64bad2e50460267 9324 libvdpau_1.5-2.debian.tar.xz cb3efa4d2fc958575322a6a92293937c560b718c074261a33ab945d7d96ab231c1ac710f038a2f329521ce096f0104481895fc5f90c9a79ab5a7e12666d5a661 2321 libvdpau_1.5-2.dsc 7affb14874431eba1be6e8634fcbb6247cbf6956fb88116e06e60de30a7852a407e8598176a369c2ba4bfaef4be58727e51d4bc390f705991ac83d660f611ff5 143279 libvdpau_1.5.orig.tar.bz2"
+  ],
+  "Directory": [
+    "pool/main/libv/libvdpau"
+  ],
+  "Files": [
+    "7eff1fe094707a4de789f8eba7a12875 9324 libvdpau_1.5-2.debian.tar.xz 82fe060b3ba69e3f0a70ea42e4bb2393 2321 libvdpau_1.5-2.dsc 148a192110e7a49d62c0bf9ef916c099 143279 libvdpau_1.5.orig.tar.bz2"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.freedesktop.org/wiki/Software/VDPAU/"
+  ],
+  "Maintainer": [
+    "Debian NVIDIA Maintainers \u003cpkg-nvidia-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libvdpau"
+  ],
+  "Package-List": [
+    "libvdpau-dev deb libdevel optional arch=any libvdpau-doc deb doc optional arch=all profile=!nodoc libvdpau1 deb libs optional arch=any vdpau-driver-all deb video optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Andreas Beckmann \u003canbe@debian.org\u003e, Luca Boccassi \u003cbluca@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/nvidia-team/libvdpau"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/nvidia-team/libvdpau.git"
+  ],
+  "Version": [
+    "1.5-2"
+  ]
+}

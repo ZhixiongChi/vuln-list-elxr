@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgpg-error-dev, libgpg-error0, gpgrt-tools, libgpg-error0-udeb, libgpg-error-mingw-w64-dev, libgpg-error-l10n"
+  ],
+  "Build-Depends": [
+    "automake (\u003e= 1.14), debhelper-compat (= 13), gettext (\u003e= 0.19.3), texinfo"
+  ],
+  "Build-Depends-Indep": [
+    "mingw-w64"
+  ],
+  "Checksums-Sha1": [
+    "7ce8813f7d122f87633c3a8628f23361d140ef6d 18532 libgpg-error_1.46-1.debian.tar.xz 09b520555b4a2cc75b3f2b7329d99b1eb1c5da7d 2273 libgpg-error_1.46-1.dsc a6e5efdd72e848aab4064e5ef4c6835ba344bcf1 1014291 libgpg-error_1.46.orig.tar.bz2 3ee512b1959db06ae4dc63aef29321d4fcbfd619 228 libgpg-error_1.46.orig.tar.bz2.asc"
+  ],
+  "Checksums-Sha256": [
+    "2f80416e16dead749fb6a31a0a3703ae9e562bd32fc4d72184636a1501cd86ef 18532 libgpg-error_1.46-1.debian.tar.xz f1fe4ca2f252f797c2819b0eae1e284e2f0b2c7ac8ec16209054ae45878aaafe 2273 libgpg-error_1.46-1.dsc b7e11a64246bbe5ef37748de43b245abd72cfcd53c9ae5e7fc5ca59f1c81268d 1014291 libgpg-error_1.46.orig.tar.bz2 e0eb40e705068858ee43b6462b204aacf5a554fe4a17cfe63ea99e9612f72e9d 228 libgpg-error_1.46.orig.tar.bz2.asc"
+  ],
+  "Checksums-Sha512": [
+    "20865fad9fb3781df9719874a67ee66a341eb1fa3bc1cd90630ba9103a38d33a9ce2b12d395bbc42e59840b0e800491ab60e8564418b8dcbd955236d8a8bb1e0 18532 libgpg-error_1.46-1.debian.tar.xz 84eccc5384bcf780ab23867740b9f18993b0c64d8881230dbaeb7837ff33dcde7bba7510068e3ec1e8080a0e159ed60b4f8e52d23177d0a27dc0ccae6a1e43fe 2273 libgpg-error_1.46-1.dsc b06223bb2b0f67d3db5d0d9ab116361a0eda175d4667352b5c0941408d37f2b0ba8e507297e480ccebb88cbba9d0a133820b896914b07d264fb3edaac7b8c99d 1014291 libgpg-error_1.46.orig.tar.bz2 89f5561f8539cd1c39c6e5d5e51cfc27d1d8525dbafb27efed5ffc9c8e19533b2aa5b83df1357e9f85b182ead46dbd3e4d1bee707554fcab7238f36f2ae1a1f9 228 libgpg-error_1.46.orig.tar.bz2.asc"
+  ],
+  "Directory": [
+    "pool/main/libg/libgpg-error"
+  ],
+  "Files": [
+    "b734245bf9f4b4be930f30830c144195 18532 libgpg-error_1.46-1.debian.tar.xz 59e240c4be99c12517063426de44e5bd 2273 libgpg-error_1.46-1.dsc db41efe5aba3baad6cf266fea720095d 1014291 libgpg-error_1.46.orig.tar.bz2 7ab10848b8854b02955e41fc6e21d528 228 libgpg-error_1.46.orig.tar.bz2.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnupg.org/related_software/libgpg-error/"
+  ],
+  "Maintainer": [
+    "Debian GnuPG Maintainers \u003cpkg-gnupg-maint@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libgpg-error"
+  ],
+  "Package-List": [
+    "gpgrt-tools deb devel optional arch=any libgpg-error-dev deb libdevel optional arch=any libgpg-error-l10n deb localization optional arch=all libgpg-error-mingw-w64-dev deb libdevel optional arch=all libgpg-error0 deb libs optional arch=any libgpg-error0-udeb udeb debian-installer optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, gcc-mingw-w64-i686, gcc-mingw-w64-x86-64, pkg-config, wine32, wine64"
+  ],
+  "Uploaders": [
+    "Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e, Christoph Biedl \u003cdebian.axhn@manchmal.in-ulm.de\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/libgpg-error"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/libgpg-error.git -b debian/master"
+  ],
+  "Version": [
+    "1.46-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libtss2-tcti-tabrmd0, libtss2-tcti-tabrmd-dev, tpm2-abrmd"
+  ],
+  "Build-Depends": [
+    "autoconf, autoconf-archive, automake, dbus \u003c!nocheck\u003e, debhelper-compat (= 13), libcmocka-dev, libdbus-1-dev, libglib2.0-dev, libp11-kit-dev, libtool, libtss2-dev, pkg-config"
+  ],
+  "Checksums-Sha1": [
+    "5abb5c1b276595e10a418018ac14349394a3fb2f 5344 tpm2-abrmd_3.0.0-1.debian.tar.xz e24b3ebf85e2566a84661ec80afc70215f63fc3f 2306 tpm2-abrmd_3.0.0-1.dsc e5365fcb86c01ce55bfbd546b774bfc6bbb947d6 188347 tpm2-abrmd_3.0.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "5a19a8a978591fe5a87d1256da420586bbfa8e93dc7f6a066835391a8e824f7e 5344 tpm2-abrmd_3.0.0-1.debian.tar.xz f1ba6645b88f5cc5dbe9798258c0bc8e2679820ed306f14f5eeac94cbb3b0140 2306 tpm2-abrmd_3.0.0-1.dsc 7f5951375c7cae8698db7bf64e8c7068bed20be645e67f3a9ad8c2bd62a1c57f 188347 tpm2-abrmd_3.0.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "93344cbe60bece24f6208f07ac85cfa020f9fc0711aee12fc985b252c5897e1644184057ac7bc74a78fc3f3534d306d4120cd1f89c422c343cdd106ba35bc901 5344 tpm2-abrmd_3.0.0-1.debian.tar.xz 5fbbef1da55858bae2ca755accdb897232892a3f450261277ee9cf301de80c98b7bc8ee002eb284f07ffb0b56ea05e741b39aa8b468524c18aae8b386ab0e3bb 2306 tpm2-abrmd_3.0.0-1.dsc 88b9956b058f8d3984dea78363ddcbca1ee9138161b311593d97152b60410524f727d690c4da153ffaeeed5a436b50642a01fe7bd896ebd819edd2908b8f55ab 188347 tpm2-abrmd_3.0.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/t/tpm2-abrmd"
+  ],
+  "Files": [
+    "0d79b5921e387e446be68dd665571188 5344 tpm2-abrmd_3.0.0-1.debian.tar.xz 4998efc5c7454aa1c19efd5996a90b23 2306 tpm2-abrmd_3.0.0-1.dsc 950717ce73ad654299d72d2ee3401e85 188347 tpm2-abrmd_3.0.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/intel/tpm2-abrmd"
+  ],
+  "Maintainer": [
+    "SZ Lin (林上智) \u003cszlin@debian.org\u003e"
+  ],
+  "Package": [
+    "tpm2-abrmd"
+  ],
+  "Package-List": [
+    "libtss2-tcti-tabrmd-dev deb libdevel optional arch=any libtss2-tcti-tabrmd0 deb libs optional arch=any tpm2-abrmd deb net optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@, fakeroot, udev"
+  ],
+  "Uploaders": [
+    "Ying-Chun Liu (PaulLiu) \u003cpaulliu@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/tpm2-abrmd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/tpm2-abrmd.git"
+  ],
+  "Version": [
+    "3.0.0-1"
+  ]
+}

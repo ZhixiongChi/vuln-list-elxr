@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "libtbb-dev, libtbb12, libtbbmalloc2, libtbbbind-2-5, libtbb-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, gdb, libhwloc-dev, libjs-jquery \u003c!nodoc\u003e, libjs-underscore \u003c!nodoc\u003e, ninja-build, pkgconf, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-sphinx-design \u003c!nodoc\u003e"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, graphviz"
+  ],
+  "Checksums-Sha1": [
+    "7cb4c87c233b92462025e91432b7c59ea7b1452b 19824 onetbb_2022.1.0-1+deb13u1.debian.tar.xz e7cb9086cae5fe7778aa2365c642cf374c45f9b7 2202 onetbb_2022.1.0-1+deb13u1.dsc ae5ef877697384497a81327667da9c5b17eabd7a 2786260 onetbb_2022.1.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "fb97762492335ab2fb653bcbed59c131b33bdf772eef7a26335d591b29173a9c 19824 onetbb_2022.1.0-1+deb13u1.debian.tar.xz 3d6dded632ec5d3bd1bce83a045045533ddef3548d9088a1c25eaf6151ca1b47 2202 onetbb_2022.1.0-1+deb13u1.dsc c220a5e4fe452f3a24f562212377dc796d90e8d4e9bfb3392524f18c8f48cd7f 2786260 onetbb_2022.1.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "f9a154e059253a2a64c205f6ec06e4752778327af659c1100beb9ce14679c4504e83a8ffc9105c44128f417bad096a8b7b1e7d61e46d41fc6f41ea13526e6b3c 19824 onetbb_2022.1.0-1+deb13u1.debian.tar.xz a49770ca127438df611a1f1a98ac012545d17e56eb46334e7128bd5d27a74023b6643d6e97d1686512e72528be2b64c0dede671b07a9b3afc182500873148b02 2202 onetbb_2022.1.0-1+deb13u1.dsc f7ea39f85d25d4a4d7d2913dd183ed3c6b264cf81960914190e4f755c9e107a0d558e42a4475cb12e0296c1ab20a1c29017b99da2a8836a3e02c72cb9f39ee41 2786260 onetbb_2022.1.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/o/onetbb"
+  ],
+  "Files": [
+    "456454059489157a8b5af943aad186dc 19824 onetbb_2022.1.0-1+deb13u1.debian.tar.xz b663504a65a4c8ac08c0c7d172ff7eb6 2202 onetbb_2022.1.0-1+deb13u1.dsc e290253f33ab0e7b78a2f7b7335376d8 2786260 onetbb_2022.1.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://uxlfoundation.github.io/oneTBB/"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "onetbb"
+  ],
+  "Package-List": [
+    "libtbb-dev deb libdevel optional arch=linux-any libtbb-doc deb doc optional arch=all libtbb12 deb libs optional arch=linux-any libtbbbind-2-5 deb libs optional arch=linux-any libtbbmalloc2 deb libs optional arch=linux-any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, cmake"
+  ],
+  "Uploaders": [
+    "Steve Capper \u003csteven.capper@gmail.com\u003e, Mo Zhou \u003clumin@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/tbb"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/tbb.git"
+  ],
+  "Version": [
+    "2022.1.0-1+deb13u1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-hashbrown-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-ahash-0.7-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "9edb81c5c705711946bbd88d797fdba38416de4e 3724 rust-hashbrown_0.12.3-1.debian.tar.xz ad7326fcabe47313350b04cf3ed038b803be3104 2521 rust-hashbrown_0.12.3-1.dsc e76d76288fea9f78e3fef3d863f00377c6fde1f9 102968 rust-hashbrown_0.12.3.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "816d035820e4817d2a4e30231c6a92f72f5fd0b5f246609d1206eb1e112f46c6 3724 rust-hashbrown_0.12.3-1.debian.tar.xz 4147f26b0da004c2d25d47a0e5910cffdd102c7f4beb1be4cef0444ce46b9060 2521 rust-hashbrown_0.12.3-1.dsc 8a9ee70c43aaf417c914396645a0fa852624801b24ebb7ae78fe8272889ac888 102968 rust-hashbrown_0.12.3.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "add0fad97407f7cc7cbccd6763f77317fd4666897ede533fbe6695525a729cf3f09eff12b4fb1ce981e7a2e72f2c5f7cfcf656e5a662ede3864a162e9e761285 3724 rust-hashbrown_0.12.3-1.debian.tar.xz 9641fcc8e46a389743fba817492c8936ec5f6ab41ea0b30081979bba9c42b648c51279682d25d744be99af6a5b1d872d0272df83a1e44856e988b9bf64429db2 2521 rust-hashbrown_0.12.3-1.dsc b3700fcd659a21a6b9b3777c18b37a83bf25542b4e8f2b963779a122f5d22e1742c064cfc03e649583e7dd5c6e90ca8407f8c51a0e8755f6a108682853022f76 102968 rust-hashbrown_0.12.3.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-hashbrown"
+  ],
+  "Files": [
+    "0a923af69efd913c8a2907f05f569ee9 3724 rust-hashbrown_0.12.3-1.debian.tar.xz ab0c9a1c16e5e3ff35c662a87f02a24e 2521 rust-hashbrown_0.12.3-1.dsc 1b41b97d982520b7364a87a39e2a1ed8 102968 rust-hashbrown_0.12.3.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-hashbrown"
+  ],
+  "Package-List": [
+    "librust-hashbrown-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-doc-comment-0.3+default-dev, librust-fnv-1+default-dev, librust-lazy-static-1+default-dev, librust-rand-0.8+default-dev, librust-rand-0.8+small-rng-dev, librust-rayon-1+default-dev, librust-serde-test-1+default-dev"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/hashbrown"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/hashbrown]"
+  ],
+  "Version": [
+    "0.12.3-1"
+  ]
+}

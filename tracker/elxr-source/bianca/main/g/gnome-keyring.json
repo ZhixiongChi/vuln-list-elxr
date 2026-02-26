@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "gnome-keyring, gnome-keyring-pkcs11, libpam-gnome-keyring"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gnome, dpkg-build-api (= 1), ca-certificates, dbus \u003c!nocheck\u003e, docbook-xml, docbook-xsl, libgck-1-dev (\u003e= 3.3.4), libgcr-3-dev (\u003e= 3.27.90), libgcrypt20-dev (\u003e= 1.2.2), libglib2.0-dev (\u003e= 2.80), libglib2.0-doc, libp11-kit-dev (\u003e= 0.15.1), libpam0g-dev, libselinux1-dev [linux-any], libsystemd-dev [linux-any], libtasn1-6-dev, libtasn1-bin, meson, openssh-client, python3:native \u003c!nocheck\u003e, systemd-dev [linux-any], xsltproc"
+  ],
+  "Checksums-Sha1": [
+    "36e52cae16c11b9fdaa834d20ac6a04ae58a47a3 19844 gnome-keyring_48.0-1.debian.tar.xz c69323930c0b64af941e29e9ae91436bbc845153 2645 gnome-keyring_48.0-1.dsc ea4575e0ff0c2bb89bd43c04a8e45e5bf5589b64 767428 gnome-keyring_48.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "b402b3af91c27c83a9874b62e8ccca18657ecffc3fbfd6775015c64f25ca6cb7 19844 gnome-keyring_48.0-1.debian.tar.xz 18d998d2062a2d77a2301395606b2e96a722ce5ef288e3252c2c4d3b4b4a56a4 2645 gnome-keyring_48.0-1.dsc f20518c920e9ea3f9c9b8b44be8c50d8d7feecd0dd5624960f77bd2ca4fbeb9d 767428 gnome-keyring_48.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "7ef9e65ddb0f6b61d9e09870a3df407f7b0b5765a191857dedf1258ee1a057e72fa605fbced5c19fa90723d6d73265c7267ae674d30cab749a8ed532bfb7b288 19844 gnome-keyring_48.0-1.debian.tar.xz f7b36f48a585766f8d3963bd0d3062e1261186558011b03635b8a98a0dc631eb6e8105816c8fa1d9dd9c78c09c6a2fbc4a7384d645e8f6ecc8bfbeeca1eff42b 2645 gnome-keyring_48.0-1.dsc 9eac06164c22a854a171f538467403c6764a6a6c2665959d721f5e3515bd91c8709a374c292cde93143f944b4ed7ec9b5613d28808d7e79839a9377d5aaa5daa 767428 gnome-keyring_48.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/gnome-keyring"
+  ],
+  "Files": [
+    "7efc7466bc650a76cf376d2a531959b0 19844 gnome-keyring_48.0-1.debian.tar.xz b1bfc231de84f0529023f57beb1bd8e0 2645 gnome-keyring_48.0-1.dsc d19a99eadeb5d92774b7960c51d1c5dc 767428 gnome-keyring_48.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://wiki.gnome.org/GnomeKeyring"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "gnome-keyring"
+  ],
+  "Package-List": [
+    "gnome-keyring deb gnome optional arch=any gnome-keyring-pkcs11 deb libs optional arch=any libpam-gnome-keyring deb admin optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Uploaders": [
+    "Dmitry Shachnev \u003cmitya57@debian.org\u003e, Iain Lane \u003claney@debian.org\u003e, Jeremy Bícha \u003cjbicha@ubuntu.com\u003e, Tim Lunn \u003ctim@feathertop.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/gnome-keyring"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/gnome-keyring.git"
+  ],
+  "Version": [
+    "48.0-1"
+  ]
+}

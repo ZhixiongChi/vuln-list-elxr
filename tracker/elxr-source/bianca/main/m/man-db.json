@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "man-db"
+  ],
+  "Build-Depends": [
+    "autopoint, bsdextrautils | bsdmainutils (\u003c\u003c 12.1.1~), debhelper-compat (= 13), dh-apparmor, dh-sequence-zz-debputy-rrr (\u003e= 0.1.23~), flex, gnulib, groff, libgdbm-dev, libpipeline-dev, libseccomp-dev [amd64 arm64 armel armhf hppa i386 mips mips64el mipsel powerpc powerpcspe ppc64 ppc64el s390x x32], pkgconf, po4a, systemd-dev [linux-any], zlib1g-dev"
+  ],
+  "Checksums-Sha1": [
+    "b974330a2016ccd33209ea59961b847f755d8ad7 75260 man-db_2.13.1-1.debian.tar.xz 038596b4dc26dd13ea1201b64564287006c6435f 2550 man-db_2.13.1-1.dsc f4ca21be6b6b75a83601f7589f57e3e0a57b5e06 2110328 man-db_2.13.1.orig.tar.xz f0e99a293ddbb8333b331e9d21e6adafde46101c 833 man-db_2.13.1.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "fcde6e90b95bc33218fd65e4bd5ec79a2765bc43ae04f27ae9347deec78091b0 75260 man-db_2.13.1-1.debian.tar.xz fef403307d02f4d71f6074c713a2a883d5e17acb6efba1654d2744756f46bcba 2550 man-db_2.13.1-1.dsc 8afebb6f7eb6bb8542929458841f5c7e6f240e30c86358c1fbcefbea076c87d9 2110328 man-db_2.13.1.orig.tar.xz 4c7ff278ae2de1ac858857a9c308629574f6f9c00fc404619afd7f18a850d156 833 man-db_2.13.1.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "aeb93e2d5698f0fcb19e3157448ac5737c2fbc4f2174fca839556b596d9e7f3dffff416927baa9f0c2bfeee8470b11d6f780d8428b32ec1ab2a82fb5e4cfb087 75260 man-db_2.13.1-1.debian.tar.xz c8fb22c9e3252c4840494032af7d5f50ef99b4e14b7d88489a936b968229a99fde34799e750aca2768c26f7da262a5edc42c436b5be0e118e715d0ba9102f8a8 2550 man-db_2.13.1-1.dsc 9b39f512fe940e648ca7f47803f42e473064253b67eb96995d28da30fd322de31a4466bf821e9391e6041af2318a6d2c2d74102b73f4b42a63966b41d2df0578 2110328 man-db_2.13.1.orig.tar.xz 0d7f5b58430ce779261f68517c212b0517485300d8ea3d6a8232b0ac6c892671346ce7a4f4c6621b512516ca4c70bc09d5d828ed54a2a27c30ca70d3c77f7cdd 833 man-db_2.13.1.orig.tar.xz.asc"
+  ],
+  "Dgit": [
+    "167835b0e1eb057c71832ffa4a338e34169f407f debian archive/debian/2.13.1-1 https://git.dgit.debian.org/man-db"
+  ],
+  "Directory": [
+    "pool/main/m/man-db"
+  ],
+  "Files": [
+    "54505faf9ec2bef498c2c154c6f7ca8d 75260 man-db_2.13.1-1.debian.tar.xz d0a6d860fbde68e19f9f1fa5cce761bd 2550 man-db_2.13.1-1.dsc b6335533cbeac3b24cd7be31fdee8c83 2110328 man-db_2.13.1.orig.tar.xz 91bd3e1993fc4527117e3bcf73959d2f 833 man-db_2.13.1.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://man-db.gitlab.io/man-db/"
+  ],
+  "Maintainer": [
+    "Colin Watson \u003ccjwatson@debian.org\u003e"
+  ],
+  "Package": [
+    "man-db"
+  ],
+  "Package-List": [
+    "man-db deb doc important arch=any"
+  ],
+  "Standards-Version": [
+    "3.9.8"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/man-db"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/man-db.git"
+  ],
+  "Version": [
+    "2.13.1-1"
+  ]
+}

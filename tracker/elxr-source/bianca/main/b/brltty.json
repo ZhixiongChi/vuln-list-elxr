@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "brltty, libbrlapi0.8, libbrlapi-dev, libbrlapi-jni, libbrlapi-java, brltty-flite, brltty-speechd, brltty-espeak, brltty-udeb, brltty-x11, xbrlapi, cl-brlapi, python3-brlapi"
+  ],
+  "Build-Conflicts": [
+    "libasound2-dev [!linux-any], libatspi-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), debhelper (\u003e= 13.11.7), dh-lisp, dh-python, dh-strip-nondeterminism, dh-exec, pkgconf, tcl, libasound2-dev [linux-any], python3-all-dev:any, python3-setuptools, cython3, libexpat1-dev, libgpm-dev [linux-any], libsystemd-dev [linux-any], libicu-dev, liblouis-dev, libpolkit-gobject-1-dev, libcap-dev [linux-any], default-jdk [!hppa !hurd-any !kfreebsd-any], doxygen, linuxdoc-tools, groff, flite1-dev, libncurses-dev, libx11-dev, libxt-dev, libxaw7-dev, x11proto-kb-dev, libxtst-dev, libxfixes-dev, libdbus-1-dev, libatspi2.0-dev, libglib2.0-dev, libbluetooth-dev [linux-any], libspeechd-dev, libespeak-ng-dev, libespeak-ng-libespeak-dev, po-debconf, gettext"
+  ],
+  "Checksums-Sha1": [
+    "6353f67b295846ece05ded6566fc48aeaf50fea2 40460 brltty_6.7-3.1+deb13u2.debian.tar.xz 31ad94f13d8989378f6b6b902fbecf5756d6eedf 3323 brltty_6.7-3.1+deb13u2.dsc b3c51462fc5aa205e53797888bc2663adce1f359 4203104 brltty_6.7.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "05e1c30967a0159a64a0a111f390fb75c3de8dace20ae332883bf71094999605 40460 brltty_6.7-3.1+deb13u2.debian.tar.xz 0237d3a9cf94bb9bfd7d06019e57f80defc70e59d7c19949c98ff9b3048f94fc 3323 brltty_6.7-3.1+deb13u2.dsc e2e49bc8ef4be1b0f02f9879464179a8633d938b779935d1de10c5d8e1ae0f68 4203104 brltty_6.7.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "ba6e75fdc59171b33e9d3cc25a062c8ce4823b5af15d12093fada964712c7d5bb36caf5a76c9cc1ae62ce163f4495f713e764959a46acac1bdda23d3ab5afa5b 40460 brltty_6.7-3.1+deb13u2.debian.tar.xz 0739fa066c68fabb4b140582b9fd2a57653f93db585bff4a03dbf28a91c8678053bed4459bf8af5cdf34b577afc8a60a6e499bd01e0c97100c07f2be92a11eb3 3323 brltty_6.7-3.1+deb13u2.dsc 5be735907f91cf78a999e9e14230ea5c4ba947fa449d57f6d271e2586bd4db219ab0523539c62981aedea80330e09d9237966318803de761f2ab5bd503b95552 4203104 brltty_6.7.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/b/brltty"
+  ],
+  "Files": [
+    "fa2a298c4185abad853c730a444d7b20 40460 brltty_6.7-3.1+deb13u2.debian.tar.xz b844758a5741b515fca2c1670a678fc5 3323 brltty_6.7-3.1+deb13u2.dsc 5662b1e6a78c7eb92faf0e6300d93fa4 4203104 brltty_6.7.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://brltty.com"
+  ],
+  "Maintainer": [
+    "Debian Accessibility Team \u003cpkg-a11y-devel@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "brltty"
+  ],
+  "Package-List": [
+    "brltty deb admin optional arch=any brltty-espeak deb admin optional arch=any brltty-flite deb admin optional arch=any brltty-speechd deb admin optional arch=any brltty-udeb udeb debian-installer optional arch=any profile=!noudeb brltty-x11 deb admin optional arch=any cl-brlapi deb lisp optional arch=all libbrlapi-dev deb libdevel optional arch=any libbrlapi-java deb java optional arch=all libbrlapi-jni deb java optional arch=any libbrlapi0.8 deb libs optional arch=any python3-brlapi deb python optional arch=any xbrlapi deb admin optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Uploaders": [
+    "Samuel Thibault \u003csthibault@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/a11y-team/brltty"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/a11y-team/brltty.git"
+  ],
+  "Version": [
+    "6.7-3.1+deb13u2"
+  ]
+}

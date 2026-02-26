@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-unicode-width-dev, librust-unicode-width+compiler-builtins-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "f9e203cd29b9e02160c6003a03e87b2d5a76bfea 4160 rust-unicode-width_0.1.10-1.debian.tar.xz 02f91de998da559c6f28f7003e5d10dad6907fb2 2482 rust-unicode-width_0.1.10-1.dsc 82560ed0ea6a3c678a3a151c86eedbb9c3404504 18968 rust-unicode-width_0.1.10.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "c0621cd00acae256b5a5d718d0596a71723c251a95553787c574d5aa20a41283 4160 rust-unicode-width_0.1.10-1.debian.tar.xz 789d9051bd835dac95aa7b50a821d24ece1ed6a2819f793d2b684136f66aa81c 2482 rust-unicode-width_0.1.10-1.dsc c0edd1e5b14653f783770bce4a4dabb4a5108a5370a5f5d8cfe8710c361f6c8b 18968 rust-unicode-width_0.1.10.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "c8a6f1c27a533ec580ada61cf049987a286fee0f8d0805a6630790162fa9125fe834b01ab6ae2c40dd8218eb3bf5258e763c3077b289a773e9babe686449f314 4160 rust-unicode-width_0.1.10-1.debian.tar.xz c3c78fd0e33dedb1f494ea6092271b48511b419623d6d8b9420ab736093281884c33961eb4002eeb23c498b5dc4eeccd43f0a200e625c22eaaaa4c945ea5a231 2482 rust-unicode-width_0.1.10-1.dsc 9836a8d489d18ea1ecfe1957ed6d5da7dce825e138cd1848aef093fa8d2eb83fcf01eabb1a2446df4f5ede4e67316e9e81b5d58b59d4e8c5d67870e8fa5dca3b 18968 rust-unicode-width_0.1.10.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-unicode-width"
+  ],
+  "Files": [
+    "f3c24032f649de76101ef5b89da35fe3 4160 rust-unicode-width_0.1.10-1.debian.tar.xz 5c2fc011453d8982e66be78e56689c56 2482 rust-unicode-width_0.1.10-1.dsc 7d6d4fc9fad200d6e295f6930e97e022 18968 rust-unicode-width_0.1.10.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/unicode-rs/unicode-width"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-unicode-width"
+  ],
+  "Package-List": [
+    "librust-unicode-width+compiler-builtins-dev deb rust optional arch=any librust-unicode-width-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "cargo, dh-cargo"
+  ],
+  "Uploaders": [
+    "Ximin Luo \u003cinfinity0@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/unicode-width"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/unicode-width]"
+  ],
+  "Version": [
+    "0.1.10-1"
+  ]
+}

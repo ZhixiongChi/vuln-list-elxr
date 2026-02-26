@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "u-boot-imx, u-boot-imx-tools"
+  ],
+  "Build-Depends": [
+    "bc, bison, debhelper-compat (= 13), flex, libpython3-dev:native [linux-any], libssl-dev, python3:any [linux-any], python3-pyelftools [linux-any], python3-setuptools [linux-any], swig [linux-any]"
+  ],
+  "Build-Depends-Arch": [
+    "arm-trusted-firmware (\u003e= 2.6~) [arm64], crust-firmware (\u003e= 0.3-2~) [arm64], device-tree-compiler, libfdt-dev:native [arm64], libgnutls28-dev, libgnutls28-dev:native [arm64], libncurses-dev, libncurses-dev:native, libssl-dev:native, lzop [armhf], opensbi (\u003e= 1.0-2~) [riscv64], uuid-dev, uuid-dev:native [arm64]"
+  ],
+  "Checksums-Sha1": [
+    "3111465d1d262a1894e438303331a2d2ff24328f 47736 u-boot-imx_2023.04+elxr-6.debian.tar.xz 5b5f2232290c6cf57a49cd39479bc4704df19041 1695 u-boot-imx_2023.04+elxr-6.dsc 8c0e9446939e99fa96a0cbcd79e964de36f76d5b 25979860 u-boot-imx_2023.04+elxr.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "fc50206c0763a6ef6c7be5deea9f8b318bc4109b18ff5337dc2f503a85dc2f76 47736 u-boot-imx_2023.04+elxr-6.debian.tar.xz 68d589005d138cab494a93a03d1910a7a2bbec278f2bc9f87b1e8999233339ae 1695 u-boot-imx_2023.04+elxr-6.dsc c93101c4e441680bf987b282c6dfdde6ba46524927fd8d3827e4e4d58729c336 25979860 u-boot-imx_2023.04+elxr.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "d04977ba3bb5b771b90042026beb66ed54c08912fda1ed28468152b55110c911e448ede9c9c747b8f5ae83e58e04f5c810e729434ff38efde6504c9cdb780b1b 47736 u-boot-imx_2023.04+elxr-6.debian.tar.xz 57d0d869688d1f2a90af8631e6cc6c48da1223bf6e9fd1cae16fb0ca871debd8bf113929ae396d1ad5cffcdf1f16b6fc7559e3db440a640b05bdd54fcf9b60a5 1695 u-boot-imx_2023.04+elxr-6.dsc 88234f22d13eebd29e4e83f3f741429e61f8d4e1a5ceda5d6d2db642ff1a06f7a548e2c531b0fe596fdc9855fa83a545eaaabd570480ce76158ed0cd7d890b78 25979860 u-boot-imx_2023.04+elxr.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/u/u-boot-imx"
+  ],
+  "Files": [
+    "a15191daf05233aa35d6bcfe53b72df9 47736 u-boot-imx_2023.04+elxr-6.debian.tar.xz 3c741d23e889aeab6c1563cf2fbf8a35 1695 u-boot-imx_2023.04+elxr-6.dsc 423b396feb6e243df6512bcc574cc2b7 25979860 u-boot-imx_2023.04+elxr.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.denx.de/wiki/U-Boot/"
+  ],
+  "Maintainer": [
+    "Vagrant Cascadian \u003cvagrant@debian.org\u003e"
+  ],
+  "Package": [
+    "u-boot-imx"
+  ],
+  "Package-List": [
+    "u-boot-imx deb admin optional arch=arm64 u-boot-imx-tools deb admin optional arch=linux-any profile=!pkg.uboot.notools"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Loïc Minier \u003clool@debian.org\u003e, Clint Adams \u003cclint@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/u-boot"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/u-boot.git"
+  ],
+  "Version": [
+    "2023.04+elxr-6"
+  ]
+}

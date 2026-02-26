@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libconfuse2, libconfuse-common, libconfuse-dev, libconfuse-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13)"
+  ],
+  "Build-Depends-Arch": [
+    "flex, pkgconf"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen, xmlto"
+  ],
+  "Checksums-Sha1": [
+    "be48ac8fb4ab9fffdf5a9b49b72163a8eb93e63d 9864 libconfuse_3.3-4.debian.tar.xz ef8e1cbb936f444ce4dd289ca3d3d0f723b83d3c 2172 libconfuse_3.3-4.dsc f1b9cbea876da19932f8bf348859a6f79fbc5ec7 102108 libconfuse_3.3.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "38ce6e357e2cce0ac8751acc0b0940c73c259aa46c7b5040a0f83150113fe785 9864 libconfuse_3.3-4.debian.tar.xz 14ae1d53138bddf1635a0a47f790f94660b9be8370de597fc0bcea91ac801fa1 2172 libconfuse_3.3-4.dsc 51ddd10595c7febc663b90df304f872b6baf937cfb9f2f32ec1a0c545d05574c 102108 libconfuse_3.3.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "c70e68e55087cfe78784a7bed122499a6e1516355c5ae98db9a991a517f8f93a400f33b9cb63dd98a0052e081749df2bd6a05d59da726d1874602c44b4ea8c3f 9864 libconfuse_3.3-4.debian.tar.xz a6ecd5f520445c377bdb7ad05eab2507bb6993a8ed75a1b59350291ed1fa4e1dcb1d9c035b1a8f5cd94b478bc3247c980b407bac5d3d12f9452e94f6dc1e4cd2 2172 libconfuse_3.3-4.dsc c5bd1661ff1cf2191aa541e85bf27217db1a2fa731b19a4df6a2ce62f1f7da54f8d579479bf446432a7fa589128b1b3ec49fd80a343689b911b36acc8f22e964 102108 libconfuse_3.3.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libc/libconfuse"
+  ],
+  "Files": [
+    "53e469da52b79dd6e04ca5df89935f45 9864 libconfuse_3.3-4.debian.tar.xz 09f358981decf72f21426c0f28b370c8 2172 libconfuse_3.3-4.dsc 2cca8678e73b1e0e73b058dd2c93b60b 102108 libconfuse_3.3.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/libconfuse/libconfuse"
+  ],
+  "Maintainer": [
+    "Aurelien Jarno \u003caurel32@debian.org\u003e"
+  ],
+  "Package": [
+    "libconfuse"
+  ],
+  "Package-List": [
+    "libconfuse-common deb libs optional arch=all libconfuse-dev deb libdevel optional arch=any libconfuse-doc deb doc optional arch=all libconfuse2 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/aurel32/libconfuse"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/aurel32/libconfuse.git"
+  ],
+  "Version": [
+    "3.3-4"
+  ]
+}

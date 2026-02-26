@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libgcrypt20-doc, libgcrypt20-dev, libgcrypt20, libgcrypt20-udeb, libgcrypt-mingw-w64-dev, libgcrypt-bin"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libgpg-error-dev (\u003e= 1.49)"
+  ],
+  "Build-Depends-Indep": [
+    "libgpg-error-mingw-w64-dev (\u003e= 1.49), mingw-w64, texinfo, texlive-latex-base, texlive-plain-generic"
+  ],
+  "Checksums-Sha1": [
+    "8bbcd0df28033c1a517ae5d7164be035ffa260b7 40452 libgcrypt20_1.11.0-7.debian.tar.xz 74d7dcd52471359a8f0e56e9e294c1c73d789490 2945 libgcrypt20_1.11.0-7.dsc dd2c68e0685bb99249efeeb06046fae15b5214ba 4180345 libgcrypt20_1.11.0.orig.tar.bz2 8f67baf118e060414f24eeaad8028a5ab396ad98 228 libgcrypt20_1.11.0.orig.tar.bz2.asc"
+  ],
+  "Checksums-Sha256": [
+    "c6811619ea9ae05a214256264c21816b3d1cf1d5ae1113f658071efae3ba9355 40452 libgcrypt20_1.11.0-7.debian.tar.xz 275f26ee0b57fe374b8642213f8d5896bdd22f0d687727f8869701d72308b719 2945 libgcrypt20_1.11.0-7.dsc 09120c9867ce7f2081d6aaa1775386b98c2f2f246135761aae47d81f58685b9c 4180345 libgcrypt20_1.11.0.orig.tar.bz2 9fedf4f7bb80d5178d4e26ec2f03ba5fc44eddfc72c2e9966d7d619aeee3df2c 228 libgcrypt20_1.11.0.orig.tar.bz2.asc"
+  ],
+  "Checksums-Sha512": [
+    "a28c2b413e212d05d7d2f95b9282c9ed9c6406564c746b7da1ed87ac9331dcfa96ad8284cb1ef9db645934d94bd584fde70efde0d97f5691e335dedcb0d183f2 40452 libgcrypt20_1.11.0-7.debian.tar.xz e01d101b294b25808f0582a028541b9250b57284ba7cd61ca47de19214a43b1681ae7c1a119b882e4a388ef7904150436289b133e1029d3dbac8916bd7b7eebe 2945 libgcrypt20_1.11.0-7.dsc 8e093e69e3c45d30838625ca008e995556f0d5b272de1c003d44ef94633bcc0d0ef5d95e8725eb531bfafb4490ac273488633e0c801200d4666194f86c3e270e 4180345 libgcrypt20_1.11.0.orig.tar.bz2 eebd4c599bd8f375445566c3c73df5a223f256cb650cf18d8fed033a1f13a1fb8b9b10a17d686be21ad2bced60fc8e27d71b07e5f556a854a893e44c5dd81ae7 228 libgcrypt20_1.11.0.orig.tar.bz2.asc"
+  ],
+  "Directory": [
+    "pool/main/libg/libgcrypt20"
+  ],
+  "Files": [
+    "f51ad1ed84cf65d9c040945620fda68d 40452 libgcrypt20_1.11.0-7.debian.tar.xz 8ba8d94d0d11774c20dfe8ffacb60172 2945 libgcrypt20_1.11.0-7.dsc 321c4975cfd6a496f0530b65a673f9a4 4180345 libgcrypt20_1.11.0.orig.tar.bz2 268767dc35fd170632e621ca6ce89c4a 228 libgcrypt20_1.11.0.orig.tar.bz2.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://gnupg.org/software/libgcrypt/"
+  ],
+  "Maintainer": [
+    "Debian GnuTLS Maintainers \u003cpkg-gnutls-maint@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "libgcrypt20"
+  ],
+  "Package-List": [
+    "libgcrypt-bin deb devel optional arch=any libgcrypt-mingw-w64-dev deb libdevel optional arch=all libgcrypt20 deb libs optional arch=any libgcrypt20-dev deb libdevel optional arch=any libgcrypt20-doc deb doc optional arch=all libgcrypt20-udeb udeb debian-installer optional arch=any profile=!noudeb"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkgconf"
+  ],
+  "Uploaders": [
+    "Andreas Metzler \u003cametzler@debian.org\u003e, Eric Dorland \u003ceric@debian.org\u003e, James Westby \u003cjw+debian@jameswestby.net\u003e, Simon Josefsson \u003csimon@josefsson.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnutls-team/libgcrypt/tree/branch1.6"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnutls-team/libgcrypt.git -b branch1.6"
+  ],
+  "Version": [
+    "1.11.0-7"
+  ]
+}

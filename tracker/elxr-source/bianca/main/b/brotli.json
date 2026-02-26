@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "python3-brotli, brotli, libbrotli-dev, libbrotli1"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper (\u003e= 13), debhelper-compat (= 13), dh-python \u003c!nopython\u003e, libpython3-all-dev \u003c!nopython\u003e, python3-all-dev:any \u003c!nopython\u003e, python3-setuptools \u003c!nopython\u003e, python3:any \u003c!nopython\u003e"
+  ],
+  "Checksums-Sha1": [
+    "4cad3b75c791652657abb6ea166f1f8817afbb1a 5480 brotli_1.1.0-2.debian.tar.xz 945cc97a14ad1f3355fe0dda327c0b0db0cb3047 2261 brotli_1.1.0-2.dsc c1a06bd9cb912a8b5f07b2bd504af78ec6d0335c 512036 brotli_1.1.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "3d913a3740bcad9a294007575a6beb1846beadbd62b44fb2bf9fdaeddea3236f 5480 brotli_1.1.0-2.debian.tar.xz 39b06802a852629132d549a7f7449dee7f435e801706714a4bc2ea2f15b28f36 2261 brotli_1.1.0-2.dsc 10973f4b4199eafa1d5735ef661ddb2ec2f97319ee9fd1824d4aabe08cff5265 512036 brotli_1.1.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "640924469528a7d955bafa2662f411aefa265013d663aadcc4ab760d1519f7fbd8a03ef457f94250f2ad9ad96bc9b2f174be4be1367d06eff4cbe23a433d2676 5480 brotli_1.1.0-2.debian.tar.xz ec6a97f2a23b7a6e9dc7f4f3675a9962d136f0c1a2cec470775087781e88020aee6fa83b8b2d1d82a2cf3a04181001362d9920147536209c7190a847c0c36a6d 2261 brotli_1.1.0-2.dsc 7a94f8b1ca1d3a411c6b5681bd2ed66183468f7b37a24741601d77ed4353577805de84c810dd26086d4afe6b11bfc4791db3ba7f6f9986bc7acbb8e9b43f488b 512036 brotli_1.1.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/b/brotli"
+  ],
+  "Files": [
+    "9eb311aaa7e3b17f900913645b43806d 5480 brotli_1.1.0-2.debian.tar.xz 6a7dcebce6d0dbcffca27fe4a1fbb2e7 2261 brotli_1.1.0-2.dsc 97d4c95fcb7d5d6131c8d5a07eaa7d4b 512036 brotli_1.1.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/google/brotli"
+  ],
+  "Maintainer": [
+    "Tomasz Buchert \u003ctomasz@debian.org\u003e"
+  ],
+  "Package": [
+    "brotli"
+  ],
+  "Package-List": [
+    "brotli deb utils optional arch=any libbrotli-dev deb libdevel optional arch=any libbrotli1 deb libs optional arch=any python3-brotli deb python optional arch=any profile=!nopython"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all"
+  ],
+  "Uploaders": [
+    "Ondřej Surý \u003condrej@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/brotli"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/brotli.git"
+  ],
+  "Version": [
+    "1.1.0-2"
+  ]
+}

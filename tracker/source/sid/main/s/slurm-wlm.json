@@ -9,13 +9,13 @@
     "dpkg-dev (\u003e= 1.22.5), debhelper (\u003e= 13), debhelper-compat (= 13), libglib2.0-dev, libmunge-dev, libncurses-dev, po-debconf, python3, default-libmysqlclient-dev, libpam0g-dev, libperl-dev, chrpath, liblua5.1-0-dev, libhwloc-dev, dh-exec, libipmimonitoring-dev, hdf5-helpers, libfreeipmi-dev, libhdf5-dev, man2html, libcurl4-openssl-dev, libpmix-dev [amd64 arm64 mips64el ppc64el riscv64 s390x alpha ia64 loong64 ppc64 sparc64], libhttp-parser-dev, libyaml-dev, libjson-c-dev, libjwt-dev, liblz4-dev, bash-completion, libdbus-1-dev, librdkafka-dev, librocm-smi-dev, libdrm-dev"
   ],
   "Checksums-Sha256": [
-    "d426aa5e0e5fef1182c71a19b71372230d2189cb92b522c6ffa98cf4c08c16ae 5408 slurm-wlm_25.11.2-1.dsc 719783317e46b6241ab5c8f1e3f91e1e34fda63b5a1cd21403fa7696ec8d517c 9359472 slurm-wlm_25.11.2.orig.tar.gz 3a428c6df296a855b44d54e98ca1bed233d18aaae4121b4128c8c199c3a9b288 137596 slurm-wlm_25.11.2-1.debian.tar.xz"
+    "47866daea766c993a232a0ed3c82182ceb643e3d58002feb04d33d17a4d669ae 5415 slurm-wlm_25.11.2-2.dsc 719783317e46b6241ab5c8f1e3f91e1e34fda63b5a1cd21403fa7696ec8d517c 9359472 slurm-wlm_25.11.2.orig.tar.gz 97c9248b9622f3391176104f7e59edc89a182849f26e352af4bd52deefd8104d 137608 slurm-wlm_25.11.2-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/s/slurm-wlm"
   ],
   "Files": [
-    "98e6fb8771e600ed1632bad96ae9333c 5408 slurm-wlm_25.11.2-1.dsc f437a0033ae1bf3eba8609574312865f 9359472 slurm-wlm_25.11.2.orig.tar.gz 3f27066f0ecd7b2a8e224798f0cee1a3 137596 slurm-wlm_25.11.2-1.debian.tar.xz"
+    "7c79fc73e737af7e8fbb1e35da232c7f 5415 slurm-wlm_25.11.2-2.dsc f437a0033ae1bf3eba8609574312865f 9359472 slurm-wlm_25.11.2.orig.tar.gz c44dc4a53f36c51d220989a7aed967a5 137608 slurm-wlm_25.11.2-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "gcc, mariadb-client, mariadb-server, mpi-default-dev, mpich-doc"
+    "gcc, mariadb-client, mariadb-server, mpi-default-dev, mpich-doc, munge"
   ],
   "Uploaders": [
     "Rémi Palancher \u003cremi@rezib.org\u003e, Mehdi Dogguy \u003cmehdi@debian.org\u003e, Gennaro Oliva \u003coliva@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/hpc-team/slurm-wlm.git"
   ],
   "Version": [
-    "25.11.2-1"
+    "25.11.2-2"
   ]
 }

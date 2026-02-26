@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-crypto-common-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-generic-array-0.14+default-dev (\u003e= 0.14.4-~~) \u003c!nocheck\u003e, librust-generic-array-0.14+more-lengths-dev (\u003e= 0.14.4-~~) \u003c!nocheck\u003e, librust-typenum-1+default-dev (\u003e= 1.14-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "58c879067ebaebe387590e949ef1e7bb57e75856 2664 rust-crypto-common_0.1.3-1.debian.tar.xz 122e53aa2de8832ce9ef51d6b89012c0644c58ac 2362 rust-crypto-common_0.1.3-1.dsc 5cb7bf3815bac7b34b8447fb28479698a1971958 8556 rust-crypto-common_0.1.3.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "4629306bc584f6e39bcb80c05827b0e0eff53254a674548d127a06f3e2b54f0c 2664 rust-crypto-common_0.1.3-1.debian.tar.xz 8e603ed23959e33f3b014e812a8883fcf9ce7bfdf71d311e6f120102fc09f60c 2362 rust-crypto-common_0.1.3-1.dsc 57952ca27b5e3606ff4dd79b0020231aaf9d6aa76dc05fd30137538c50bd3ce8 8556 rust-crypto-common_0.1.3.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "21abd0c34888ca84535dcc59ad69de4dc7992edee08802e4c1c552f0feadd0922fb7ae90256a4e85593cb8f1a6e2853205257e7c1091860dae340c65a9a367d1 2664 rust-crypto-common_0.1.3-1.debian.tar.xz 747815985575dcfc2a0cb69469e142d90e631d814e0b54d31d83db1db2fc6ddde66f2a5446a5cb24bfacf5d91bfd8cc18ed395c23a9f22f4d271fe44c14a3506 2362 rust-crypto-common_0.1.3-1.dsc d32fa67b9baafc32ce6f4d97d54deb7f1b4453849bf549384689b0ce8d417407d11f405793e7765ea47dfa86c8d6df5661bd17793c145351731c39f8124d1a2f 8556 rust-crypto-common_0.1.3.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-crypto-common"
+  ],
+  "Files": [
+    "f863c697f816eb5bfa58915f09575e0f 2664 rust-crypto-common_0.1.3-1.debian.tar.xz 0323e7fc2c77941238362b2541a8c610 2362 rust-crypto-common_0.1.3-1.dsc d72ed6a129fb56bfc9b09067ed04890f 8556 rust-crypto-common_0.1.3.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-crypto-common"
+  ],
+  "Package-List": [
+    "librust-crypto-common-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/crypto-common"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/crypto-common]"
+  ],
+  "Version": [
+    "0.1.3-1"
+  ]
+}
