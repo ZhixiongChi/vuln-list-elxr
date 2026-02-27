@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libfortran-stdlib-dev, libfortran-stdlib-0"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-fortran, gfortran | fortran-compiler, libfortran-testdrive-dev, python3, python3-joblib, fypp, ford [!loong64]"
+  ],
+  "Checksums-Sha256": [
+    "6e210344bbcb77698efd0716c558e1aa8563aa40f48aff8f0d2eedefc14722e9 2224 fortran-stdlib_0.8.1-1.dsc c71802496642d1c2747ab4a372854c3f95ebf5738a4c821d7757437619482771 2384247 fortran-stdlib_0.8.1.orig.tar.gz dffd3c0ea2e59e47e1a6e90d0c80c5355fd2b066d4225fae99f6617194313be2 3780 fortran-stdlib_0.8.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/fortran-stdlib"
+  ],
+  "Files": [
+    "04057174397e7242e9692c5180606581 2224 fortran-stdlib_0.8.1-1.dsc 13d4228037c12f5b3c5384efa0087b68 2384247 fortran-stdlib_0.8.1.orig.tar.gz d5adead168ff98805d07dcf43792d18c 3780 fortran-stdlib_0.8.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/fortran-lang/stdlib"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "fortran-stdlib"
+  ],
+  "Package-List": [
+    "libfortran-stdlib-0 deb libs optional arch=any libfortran-stdlib-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "libs"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Uploaders": [
+    "Alastair McKinstry \u003cmckinstry@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/fortran-stdlib"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/fortran-stdlib.git -b debian/latest"
+  ],
+  "Version": [
+    "0.8.1-1"
+  ]
+}

@@ -6,16 +6,19 @@
     "libmpdclient-dev, libmpdclient2t64, libmpdclient-doc"
   ],
   "Build-Depends": [
-    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), check, cmake, meson (\u003e= 0.47), doxygen, pkg-config"
+    "dpkg-dev (\u003e= 1.22.5), debhelper-compat (= 13), check, cmake, meson (\u003e= 0.47), doxygen, pkgconf"
   ],
   "Checksums-Sha256": [
-    "3ecdb511e2ee229f71386b4aac9a76417a9b3f2355a39d479a969985089e02cc 2462 libmpdclient_2.22-1.1.dsc eac15b82b5ba5ed0648af580221eb74657394f7fe768e966d9e9ebb27435429f 68276 libmpdclient_2.22.orig.tar.xz 8fbd05a538d6e996697016821bc7b448ddb8a44910c178dea4d0c400a1592a74 833 libmpdclient_2.22.orig.tar.xz.asc fee8a4219aeffd4d4b00b5cb5c752ca37a572ef453946082b3a14a76d06ee635 10920 libmpdclient_2.22-1.1.debian.tar.xz"
+    "e93d5c58751cc95f883649f82908dd96c8f268afd1c769bac98ccc304de923ac 2337 libmpdclient_2.24-1.dsc 7c8a52707c46f91046d57bb43a23a0b5e5be18d22c10936c1756f6cb2141a10b 92556 libmpdclient_2.24.orig.tar.gz e65a47473cf676577556e7a83056c3fc98537183c17acc3e5982c05a1bb9c3be 11384 libmpdclient_2.24-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "ef4df16c7d047a8b334f8261da7ba2de8ba6994e debian archive/debian/2.24-1 https://git.dgit.debian.org/libmpdclient"
   ],
   "Directory": [
     "pool/main/libm/libmpdclient"
   ],
   "Files": [
-    "858cf5d196e6e74c0af237d9d677651c 2462 libmpdclient_2.22-1.1.dsc 3c9ddd62e1c97f5530733acf6b7bde9f 68276 libmpdclient_2.22.orig.tar.xz edd535eee1a9ac18a9b9a4441ad48ed4 833 libmpdclient_2.22.orig.tar.xz.asc c77c96c2c9aefde7e6999b35a7757049 10920 libmpdclient_2.22-1.1.debian.tar.xz"
+    "bf458135580cf863e38998c93d84ae57 2337 libmpdclient_2.24-1.dsc fd5b38c174bbb27cc45bc4bff59bd6be 92556 libmpdclient_2.24.orig.tar.gz 290f1b123780aaa5a4a817aaac5aa6f5 11384 libmpdclient_2.24-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +42,7 @@
     "libs"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.3"
   ],
   "Uploaders": [
     "Sebastian Harl \u003ctokkee@debian.org\u003e, Florian Schlichting \u003cfsfs@debian.org\u003e"
@@ -51,6 +54,6 @@
     "https://salsa.debian.org/mpd-team/libmpdclient.git"
   ],
   "Version": [
-    "2.22-1.1"
+    "2.24-1"
   ]
 }

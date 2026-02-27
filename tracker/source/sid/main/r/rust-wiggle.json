@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-wiggle-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.90.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-anyhow-1-dev (\u003e= 1.0.100-~~) \u003c!nocheck\u003e, librust-bitflags-2+default-dev (\u003e= 2.9.4-~~) \u003c!nocheck\u003e, librust-thiserror-2+default-dev (\u003e= 2.0.17-~~) \u003c!nocheck\u003e, librust-tracing-0.1+default-dev (\u003e= 0.1.41-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "84c855060eb5e47c409423b892725bbeae48255827c1e521295abdc5da498fad 2577 rust-wiggle_41.0.3-1.dsc 1f05d2a9932ca235984248dc98471ae83d1985e095682d049af4c296f54f0fb4 23395 rust-wiggle_41.0.3.orig.tar.gz 1ad3e59774a9e22b38adfa5ea9115eabb1e79a54f712537b7678110eeffa7e05 3728 rust-wiggle_41.0.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-wiggle"
+  ],
+  "Files": [
+    "dbc38e02cad28ea32fa3dc628fb43076 2577 rust-wiggle_41.0.3-1.dsc b0f5b07deb6339697a0f5c912e814d28 23395 rust-wiggle_41.0.3.orig.tar.gz 91d991faaf2d211fe54c102b261a32ab 3728 rust-wiggle_41.0.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/bytecodealliance/wasmtime"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-wiggle"
+  ],
+  "Package-List": [
+    "librust-wiggle-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-proptest-1+default-dev, librust-tokio-1+default-dev, librust-tokio-1+macros-dev, librust-tokio-1+rt-multi-thread-dev, librust-tokio-1+time-dev, rustc"
+  ],
+  "Uploaders": [
+    "Ananthu C V \u003cweepingclown@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/wiggle"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/wiggle]"
+  ],
+  "Version": [
+    "41.0.3-1"
+  ]
+}

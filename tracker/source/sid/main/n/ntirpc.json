@@ -3,19 +3,19 @@
     "any"
   ],
   "Binary": [
-    "libntirpc-dev, libntirpc6.3"
+    "libntirpc-dev, libntirpc7.0"
   ],
   "Build-Depends": [
-    "cmake, debhelper-compat (= 13), dpkg-dev (\u003e= 1.22.5), libkrb5-dev, libnsl-dev, liburcu-dev"
+    "debhelper-compat (= 13), dpkg-dev (\u003e= 1.22.5), cmake, libkrb5-dev, libnsl-dev, liburcu-dev, prometheus-cpp-lite"
   ],
   "Checksums-Sha256": [
-    "02b95b00a6e26ba0ec43c3225d83186107e7e386ef9c1e216420bfb5c95e9bba 1940 ntirpc_6.3-4.dsc 4caf7de4a6bd2de85b3f538a7f137852dcdcdea0b841e44fb3f73293cd7bf5b4 437038 ntirpc_6.3.orig.tar.gz b11737fbf02d7a5b700fe317b7a6ebabf4666442bd943d5dba6530bd8942c91f 10216 ntirpc_6.3-4.debian.tar.xz"
+    "d4a2dd4bb2e0707350ce51f556688db8bd00a5005eff7416727391a07e7ba73b 1961 ntirpc_7.0-1.dsc b22e3a425ca81b3203312a45df4fd2747dd5b3cc9b103477ae8cbeb0bc2a2ef7 449311 ntirpc_7.0.orig.tar.gz 78b1d504dfcc1200138585fcf375a2a84c812c57b55be572b00ed3dc4eb2c499 10352 ntirpc_7.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/n/ntirpc"
   ],
   "Files": [
-    "737e6c1be2645bd365be870948813adb 1940 ntirpc_6.3-4.dsc 6951cf66fcdd46b93c6e38cb80bf14a5 437038 ntirpc_6.3.orig.tar.gz 783b447cc5a57c8e73b92210b79e263f 10216 ntirpc_6.3-4.debian.tar.xz"
+    "c962312a954c7230d9147ecca97a57ed 1961 ntirpc_7.0-1.dsc 1548be7aaf89e546d2dad86b0f6130b3 449311 ntirpc_7.0.orig.tar.gz e2cf0d1065f6cdd6df91007cfb660220 10352 ntirpc_7.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "ntirpc"
   ],
   "Package-List": [
-    "libntirpc-dev deb libdevel optional arch=any libntirpc6.3 deb libs optional arch=any"
+    "libntirpc-dev deb libdevel optional arch=any libntirpc7.0 deb libs optional arch=any"
   ],
   "Priority": [
     "optional"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/libntirpc.git"
   ],
   "Version": [
-    "6.3-4"
+    "7.0-1"
   ]
 }

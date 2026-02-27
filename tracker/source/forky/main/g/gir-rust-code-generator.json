@@ -6,19 +6,28 @@
     "gir-rust-code-generator"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-cargo, cargo:native, rustc:native, libstd-rust-dev, librust-bitflags-2+default-dev (\u003e= 2.9-~~), librust-env-logger-0.11-dev, librust-fix-getters-rules-0.3-dev, librust-getopts-0.2+default-dev, librust-hprof-0.1+default-dev, librust-log-0.4+default-dev, librust-regex-1+default-dev (\u003e= 1.11-~~), librust-rustdoc-stripper-0.1+default-dev (\u003e= 0.1.19-~~), librust-toml-0.8+default-dev, librust-toml-0.8+preserve-order-dev, librust-xml-rs-0.8+default-dev, mdbook \u003c!nodoc\u003e"
+    "debhelper-compat (= 13), dh-cargo, cargo:native, rustc:native, libstd-rust-dev, librust-bitflags-2+default-dev (\u003e= 2.10), librust-env-logger-0.11-dev, librust-fix-getters-rules-0.3-dev, librust-getopts-0.2+default-dev (\u003e= 0.2.24), librust-hprof-0.1+default-dev, librust-log-0.4+default-dev, librust-regex-1+default-dev (\u003e= 1.12), librust-rustdoc-stripper-0.1+default-dev (\u003e= 0.1.19), librust-toml-0.8+default-dev, librust-toml-0.8+preserve-order-dev, librust-xml-rs-0.8+default-dev, mdbook \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "2008142d15da144ab4113cd30c2916a473574d5fa6329582a9bda2afd0431715 2557 gir-rust-code-generator_0.21.3-2.dsc cb5103c20794df28b58f6d0b73aa7e7617061096aa202f68c11c4a000d45da62 214193 gir-rust-code-generator_0.21.3.orig.tar.gz 59995b8ee69a0e00f2432e5268041c7ace75073aea139caaec36da6a75d2029b 5692 gir-rust-code-generator_0.21.3-2.debian.tar.xz"
+    "ebf6b3bee0c1308bfdc7722b20f2d406a40dc19b81c4e3d9e18e0e4cf9fbf60f 2913 gir-rust-code-generator_0.22.0-alpha.2-1.dsc b6ad835698e47acd8a754ba44f7a7e7727f50a71154908f9755507cc6ac03675 165668 gir-rust-code-generator_0.22.0-alpha.2.orig.tar.xz 900b866b22011f3e7323425f9d71d1286fe4c94a2ee7f09729fa6207f5ea5378 5732 gir-rust-code-generator_0.22.0-alpha.2-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "c68cb24b6d060c33925a9cf2c0bea453c45d73da debian archive/debian/0.22.0-alpha.2-1 https://git.dgit.debian.org/gir-rust-code-generator"
   ],
   "Directory": [
     "pool/main/g/gir-rust-code-generator"
   ],
   "Files": [
-    "af53c80b58c32b58e5e9c883f2b7523f 2557 gir-rust-code-generator_0.21.3-2.dsc fa6ae8569781579c85e783a3fe55e634 214193 gir-rust-code-generator_0.21.3.orig.tar.gz d14857c57af83961138f5db90aa8cb62 5692 gir-rust-code-generator_0.21.3-2.debian.tar.xz"
+    "a4e6d345fac748ac60452e9fc8bbd953 2913 gir-rust-code-generator_0.22.0-alpha.2-1.dsc eafae2912453712e42732ce820966207 165668 gir-rust-code-generator_0.22.0-alpha.2.orig.tar.xz 922e0759f1151b01603f291a2e5a92ac 5732 gir-rust-code-generator_0.22.0-alpha.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=645491df2bde427300c7fb968e19d51c9c9b85ea fp=14593bff4a5ebf6fe0e9716eecbedbb607b9b2be"
+  ],
+  "Git-Tag-Tagger": [
+    "Matthias Geiger \u003cwerdahias@debian.org\u003e"
   ],
   "Homepage": [
     "https://github.com/gtk-rs/gir"
@@ -51,6 +60,6 @@
     "https://salsa.debian.org/gnome-team/gir-rust-code-generator.git"
   ],
   "Version": [
-    "0.21.3-2"
+    "0.22.0-alpha.2-1"
   ]
 }

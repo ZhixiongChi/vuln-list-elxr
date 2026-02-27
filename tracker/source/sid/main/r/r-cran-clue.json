@@ -6,16 +6,16 @@
     "r-cran-clue"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-cluster"
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-cluster, architecture-is-64-bit, architecture-is-little-endian"
   ],
   "Checksums-Sha256": [
-    "99767782d9c01a5a1315550a087ea21188fd2d9eb956ce1c230048390b94d920 2040 r-cran-clue_0.3-66-1.dsc aa86dd58c05635eb394c9ede0dd15a4f24af4815f299451bbc7895c0f737c2fb 600305 r-cran-clue_0.3-66.orig.tar.gz a8e780fdf0e491e3db59bc750842533151f9045bf88afd5a211256b1948171e8 2528 r-cran-clue_0.3-66-1.debian.tar.xz"
+    "2c42ec536ca7212062ecc5aab39eb2c116d9933541c3be25f6f55d5ab8816379 2095 r-cran-clue_0.3-67-1.dsc 9bb0c9fee0efa4f87b767f5a8bcf1239274bc21d0bc245d6174265e025528362 743739 r-cran-clue_0.3-67.orig.tar.gz 66baea16bf2be90e38459b6dd40ff01c424f948e10a83e9ccd39b91571487551 2664 r-cran-clue_0.3-67-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/r-cran-clue"
   ],
   "Files": [
-    "691c77e2f3eb59b00cfe6a34de72d448 2040 r-cran-clue_0.3-66-1.dsc 26a78e428a10f61bdee5affc4b0679b4 600305 r-cran-clue_0.3-66.orig.tar.gz 654aa848f929e48350e7bfd504269ccd 2528 r-cran-clue_0.3-66-1.debian.tar.xz"
+    "b0563570ea477f0e0d05f742ddca4524 2095 r-cran-clue_0.3-67-1.dsc 4048cf65bb2786167e28f7559d2e0c39 743739 r-cran-clue_0.3-67.orig.tar.gz 6e6efbf614d37ef0c4fa692bcb098308 2664 r-cran-clue_0.3-67-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-r"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/r-pkg-team/r-cran-clue.git"
   ],
   "Version": [
-    "0.3-66-1"
+    "0.3-67-1"
   ]
 }

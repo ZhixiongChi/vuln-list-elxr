@@ -6,16 +6,16 @@
     "ruby-dalli"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gem2deb, memcached, ruby-connection-pool, ruby-prof, ruby-rails, ruby-simplecov"
+    "debhelper-compat (= 13), gem2deb, memcached, ruby-connection-pool, ruby-prof, ruby-rails, ruby-simplecov, ruby-socksify"
   ],
   "Checksums-Sha256": [
-    "ff275e2e4182dc7d8d681994dc740809d4d9319b2a0a090e2ed2594a8fb55e64 2051 ruby-dalli_3.2.8-2.dsc 9e809c129ed652cd12d98f2c5fd6240679c612b8c3ba57968a532efad0fb0b42 73367 ruby-dalli_3.2.8.orig.tar.gz 699a2c1835dcf65e0a27eae0a7aa872e9581dafaf173b9a7038f61537ff25539 5652 ruby-dalli_3.2.8-2.debian.tar.xz"
+    "42950afcb79f6dfcfeb9cb5a9d094799368253e2d0fcfaa3bd8fa34f1472ed09 2069 ruby-dalli_5.0.2-1.dsc 27a140797290bb7d38a0e851c2d179f4bac0d53df57c781a657fb5c7393c5bcb 122666 ruby-dalli_5.0.2.orig.tar.gz 964690b02923a2b45c1de48c1a62b192bc7b79d12851d967d20d86e32e11dbbf 6512 ruby-dalli_5.0.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/ruby-dalli"
   ],
   "Files": [
-    "81da0f709d97d9f36ae85bec63508d47 2051 ruby-dalli_3.2.8-2.dsc 92df03102876b09ad9c04c5ab3004ac4 73367 ruby-dalli_3.2.8.orig.tar.gz b473f0d25746015d363fdf0a5420c6df 5652 ruby-dalli_3.2.8-2.debian.tar.xz"
+    "96ff05db2ec705fc2bb7a0fb41a7509d 2069 ruby-dalli_5.0.2-1.dsc 5b223c15622196668ca4e9142c9ab96b 122666 ruby-dalli_5.0.2.orig.tar.gz 3981f30ae7af6fab9634122baa3307d3 6512 ruby-dalli_5.0.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-ruby"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/ruby-team/ruby-dalli.git"
   ],
   "Version": [
-    "3.2.8-2"
+    "5.0.2-1"
   ]
 }
