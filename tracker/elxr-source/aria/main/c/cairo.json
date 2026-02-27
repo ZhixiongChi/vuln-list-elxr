@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "cairo-perf-utils, libcairo-gobject2, libcairo-script-interpreter2, libcairo2, libcairo2-dev, libcairo2-doc, libcairo2-udeb"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gnome, gtk-doc-tools, libfontconfig-dev (\u003e= 2.2.95), libfreetype-dev (\u003e= 2.1.10), libglib2.0-dev, liblzo2-dev, libpixman-1-dev (\u003e= 0.30.0), libpng-dev, libx11-dev (\u003e= 2:1.3.3-2), libxcb-render0-dev (\u003e= 1.6), libxcb-shm0-dev, libxcb1-dev (\u003e= 1.6), libxext-dev, libxrender-dev (\u003e= 1:0.9.5-2), pkg-config (\u003e= 0.19), zlib1g-dev"
+  ],
+  "Checksums-Sha1": [
+    "a2fa7b455a2f45de3a69d1b7321837e606edb9ac 33816 cairo_1.16.0-7.debian.tar.xz fdc31048e6e8afcdc59cff3dda8c0034d3602410 2823 cairo_1.16.0-7.dsc 00e81842ae5e81bb0343108884eb5205be0eac14 41997432 cairo_1.16.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "af666a040fd54df96885907d0e9a74883396218a620ae03d173f1a3fee4980ea 33816 cairo_1.16.0-7.debian.tar.xz 96b21b7b9c9ab4ae689b1191830b53d0b3c38e5664105c36a3c39dee6bcf29a4 2823 cairo_1.16.0-7.dsc 5e7b29b3f113ef870d1e3ecf8adf21f923396401604bda16d44be45e66052331 41997432 cairo_1.16.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "ab54fe20d5bbb7d03685087bb62a55a825d1a1e65572ae657f28e04d5ecbb2f2677d094d65ec4731db0ddb9e74c911a7efbfad3208f0dace3747f47835eb0011 33816 cairo_1.16.0-7.debian.tar.xz f70441caf095f1c012046222af2564ce7e1e57436849323935e5f533c09a83d1c12e963c57db4d007a77e39d7462fdfbcb23a4a2df2d7a631d2607e500804579 2823 cairo_1.16.0-7.dsc 9eb27c4cf01c0b8b56f2e15e651f6d4e52c99d0005875546405b64f1132aed12fbf84727273f493d84056a13105e065009d89e94a8bfaf2be2649e232b82377f 41997432 cairo_1.16.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/c/cairo"
+  ],
+  "Files": [
+    "2b45b8a24d8d989b4fc47638b2c65c8c 33816 cairo_1.16.0-7.debian.tar.xz 4109ee9ebcbc310ccfab00557466c523 2823 cairo_1.16.0-7.dsc f19e0353828269c22bd72e271243a552 41997432 cairo_1.16.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://cairographics.org/"
+  ],
+  "Maintainer": [
+    "Debian GNOME Maintainers \u003cpkg-gnome-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "cairo"
+  ],
+  "Package-List": [
+    "cairo-perf-utils deb misc optional arch=any libcairo-gobject2 deb libs optional arch=any libcairo-script-interpreter2 deb libs optional arch=any libcairo2 deb libs optional arch=any libcairo2-dev deb libdevel optional arch=any libcairo2-doc deb doc optional arch=all libcairo2-udeb udeb debian-installer optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkg-config"
+  ],
+  "Uploaders": [
+    "Emilio Pozuelo Monfort \u003cpochu@debian.org\u003e, Iain Lane \u003claney@debian.org\u003e, Laurent Bigonville \u003cbigon@debian.org\u003e, Michael Biebl \u003cbiebl@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/gnome-team/cairo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/gnome-team/cairo.git"
+  ],
+  "Version": [
+    "1.16.0-7"
+  ]
+}

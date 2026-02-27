@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "cri-tools, cri-tools-test"
+  ],
+  "Build-Depends": [
+    "curl, debhelper-compat (= 13), dh-golang"
+  ],
+  "Checksums-Sha1": [
+    "a23a46df78fee1b5693c1ac286ed54eefc1832d2 14600 cri-tools_1.30.0-0elxr2.debian.tar.xz 1f6fe18e8284c598e2d45da908309b088c583bcf 1145 cri-tools_1.30.0-0elxr2.dsc 351232f09359b12363d9cd9859d3dd0dac64e5a7 9444683 cri-tools_1.30.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "9b3e87c98e5ddf45fa29b35b5c3d96dc0d96f5f5933fc7fea5b4a8333b930c71 14600 cri-tools_1.30.0-0elxr2.debian.tar.xz fa99308e1e5caba9cd0a724e334dd186913c3bd1f2d888884ed8fa0bf1bc8c53 1145 cri-tools_1.30.0-0elxr2.dsc c5d79716c12f13aaa453a59e432a04ce96c3cd72c392ce517fcd1e32c52750f9 9444683 cri-tools_1.30.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "9777b6d020f2f12a9a7b3685ef1ba2825ec66f56ee8fe2d9a986601393a1f968689f9bd215f73ff7faf1e45cd6e9414d119f788439495624dab09760b97ceeb6 14600 cri-tools_1.30.0-0elxr2.debian.tar.xz 41fc6c6e847ce02d24d6eb70f997146a977991d5bb223375406f14fa6674c9b28a95ddee177f29be67167591c4bffcd68dec11266447ca3a2c936105ed478b66 1145 cri-tools_1.30.0-0elxr2.dsc c98f6fb9826935a0d03374e33337e17705771dced46efb3c7aa44e9e22a79ddb2d01d3d584595f2f7fab3eab31b37c63921c396cd3b1b03f4ef6f415ce8fdc25 9444683 cri-tools_1.30.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/c/cri-tools"
+  ],
+  "Files": [
+    "e6f3e5f139091159a438e95e4cf18ffa 14600 cri-tools_1.30.0-0elxr2.debian.tar.xz 65af42918d8210b79279e96b9d708f7f 1145 cri-tools_1.30.0-0elxr2.dsc 068f606e00d184a76e0239de21687de8 9444683 cri-tools_1.30.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Go-Import-Path": [
+    "github.com/kubernetes-sigs/cri-tools"
+  ],
+  "Homepage": [
+    "https://github.com/kubernetes-sigs/cri-tools"
+  ],
+  "Maintainer": [
+    "William Lyu \u003cWilliam.Lyu@windriver.com\u003e"
+  ],
+  "Package": [
+    "cri-tools"
+  ],
+  "Package-List": [
+    "cri-tools deb admin optional arch=any cri-tools-test deb admin optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-go"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "William Lyu \u003cWilliam.Lyu@windriver.com\u003e"
+  ],
+  "Version": [
+    "1.30.0-0elxr2"
+  ]
+}

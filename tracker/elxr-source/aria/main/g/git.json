@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "git, git-man, git-doc, git-cvs, git-svn, git-mediawiki, git-email, git-daemon-run, git-daemon-sysvinit, git-gui, gitk, gitweb, git-all"
+  ],
+  "Build-Depends": [
+    "libz-dev, gettext, libpcre2-dev | libpcre3-dev, libcurl4-gnutls-dev, libexpat1-dev, subversion, libsvn-perl, libyaml-perl, tcl, python3, libhttp-date-perl | libtime-parsedate-perl, libcgi-pm-perl, liberror-perl, libmailtools-perl, cvs, cvsps, libdbd-sqlite3-perl, unzip, libio-pty-perl, debhelper-compat (= 10), dh-exec (\u003e= 0.7), dh-apache2, dpkg-dev (\u003e= 1.16.2~)"
+  ],
+  "Build-Depends-Indep": [
+    "asciidoc (\u003e= 8.6.10), xmlto, docbook-xsl"
+  ],
+  "Checksums-Sha1": [
+    "1610a3976fc1aea4fd55094520bcf89798ad6b39 761364 git_2.39.5-0+deb12u3.debian.tar.xz 24b55c5692376eac18ea6d478d2f09ae55279151 3523 git_2.39.5-0+deb12u3.dsc e78eca649e2b7841bf22cfc1b3b9b9f1a2a3d825 7171400 git_2.39.5.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "b19cbf9a483a6625d924119ebe99f997acfe83616906d33d2079ca3d7d668d22 761364 git_2.39.5-0+deb12u3.debian.tar.xz 183f02891326496b439a24c87843fb8849178b21517640fc703787754aad6bd1 3523 git_2.39.5-0+deb12u3.dsc c58da92c378df4a986ca33266897a7397e86c22ee266a284d8c2432c39066b59 7171400 git_2.39.5.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "31cdcbba3d3816ce5611523913ce067131412ecd376144f5dbc71a0d40712775101de9d24192de15dbe83ca7c6c770c0da942cb05851c14c1b1d4bac091a8194 761364 git_2.39.5-0+deb12u3.debian.tar.xz 9d6d03c19deaa1d7a5be356772284936d3071f2b8d512b758e9b76e5717690ef8c8257338898276ac26779a16550ef628ee402c6316dee8aecc03db6cc51ba0f 3523 git_2.39.5-0+deb12u3.dsc f866789971e1fb83a482beca54f19fb02f23b5d1d06dec5bcb10fcf262e24c746cb470a81beae97a48884188b5826437f76f70b4f62a78b578a18557233730d6 7171400 git_2.39.5.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/g/git"
+  ],
+  "Files": [
+    "409d3d23098b3c36d7d0bc3724dfafdf 761364 git_2.39.5-0+deb12u3.debian.tar.xz 6b6e72396043bbad6198a841f89b5f74 3523 git_2.39.5-0+deb12u3.dsc a2bdc21bd3772270b5c4f025cb87126d 7171400 git_2.39.5.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://git-scm.com/"
+  ],
+  "Maintainer": [
+    "Jonathan Nieder \u003cjrnieder@gmail.com\u003e"
+  ],
+  "Package": [
+    "git"
+  ],
+  "Package-List": [
+    "git deb vcs optional arch=any git-all deb vcs optional arch=all git-cvs deb vcs optional arch=all git-daemon-run deb vcs optional arch=all git-daemon-sysvinit deb vcs optional arch=all git-doc deb doc optional arch=all git-email deb vcs optional arch=all git-gui deb vcs optional arch=all git-man deb doc optional arch=all git-mediawiki deb vcs optional arch=all git-svn deb vcs optional arch=all gitk deb vcs optional arch=all gitweb deb vcs optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.3.0.1"
+  ],
+  "Uploaders": [
+    "Anders Kaseorg \u003candersk@mit.edu\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://repo.or.cz/w/git/debian.git/"
+  ],
+  "Vcs-Git": [
+    "https://repo.or.cz/r/git/debian.git/"
+  ],
+  "Version": [
+    "1:2.39.5-0+deb12u3"
+  ]
+}

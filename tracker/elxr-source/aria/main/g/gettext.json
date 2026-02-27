@@ -1,0 +1,50 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "gettext-base, gettext, gettext-el, gettext-doc, autopoint, libgettextpo0, libasprintf0v5, libgettextpo-dev, libasprintf-dev"
+  ],
+  "Build-Depends": [
+    "bison, debhelper-compat (= 13), default-jdk [!hppa !hurd-i386 !kfreebsd-any] \u003c!nojava\u003e, dh-exec (\u003e= 0.13), file, groff, help2man, libunistring-dev, libxml2-dev, maven-repo-helper [!hppa !hurd-i386 !kfreebsd-any] \u003c!nojava\u003e, xz-utils"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-elpa"
+  ],
+  "Checksums-Sha1": [
+    "23ef94656ace18e1342c131033a66f5c3b15ba8f 39008 gettext_0.21-12.debian.tar.xz 8dc025936b08f124d9fab8c0bea516ab9d6be954 2318 gettext_0.21-12.dsc 9d75b47baed1a612c0120991c4b6d9cf95e0d430 9714352 gettext_0.21.orig.tar.xz b56f3358813526db83269ca2b2edc233b2115d59 819 gettext_0.21.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "b4bb3a1749f14ea9f3544c3457f934005b0fd130e546fb56fcf9c38d6b5c614b 39008 gettext_0.21-12.debian.tar.xz 1486eb00e01d7b91cef4ca45805c95ee8d8de6016136f231b5f9f5f74225b318 2318 gettext_0.21-12.dsc d20fcbb537e02dcf1383197ba05bd0734ef7bf5db06bdb241eb69b7d16b73192 9714352 gettext_0.21.orig.tar.xz d2587b13a73000e67bce860106c55b726c3e6b5bad06390d073f077334f4b5f3 819 gettext_0.21.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "3e2b1ebf8ee2298b53f4988d46a2b86dcd26d50d930dd4f06999715a362a2723f39c9f07f88287774cae50d51bf69fa770d36954266c164ff8218849782fc84a 39008 gettext_0.21-12.debian.tar.xz 347d9b3d57a42899942647983b35f78264482f91da3430813700be7f3cb386c2055369aba99f0d6e9f5fab7b3c7906134ede9a9258430ae702e13b15afa1e14d 2318 gettext_0.21-12.dsc f7e2968651879f8444d43a176a149db9f9411f4a03132a7f3b37c2ed97e3978ae6888169c995c1953cb78943b6e3573811abcbb8661b6631edbbe067b2699ddf 9714352 gettext_0.21.orig.tar.xz 67c9515ad5e11773a28599d517dd84131e4afd878d67e97f505cd024e290518ca9cffff7446c62f88b56aea2c7234d11811738e8e2a076b2159f24c2f6809703 819 gettext_0.21.orig.tar.xz.asc"
+  ],
+  "Directory": [
+    "pool/main/g/gettext"
+  ],
+  "Files": [
+    "b888d0abd43e450e0599d18e8c3aab37 39008 gettext_0.21-12.debian.tar.xz 40b43309d86bc887b7de4c479382955c 2318 gettext_0.21-12.dsc 40996bbaf7d1356d3c22e33a8b255b31 9714352 gettext_0.21.orig.tar.xz 532b6937f73151c0f4b2d633c9934c87 819 gettext_0.21.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnu.org/software/gettext/"
+  ],
+  "Maintainer": [
+    "Santiago Vila \u003csanvila@debian.org\u003e"
+  ],
+  "Package": [
+    "gettext"
+  ],
+  "Package-List": [
+    "autopoint deb devel optional arch=all gettext deb devel optional arch=any gettext-base deb utils standard arch=any gettext-doc deb doc optional arch=all gettext-el deb editors optional arch=all libasprintf-dev deb libdevel optional arch=any libasprintf0v5 deb libs optional arch=any libgettextpo-dev deb libdevel optional arch=any libgettextpo0 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Version": [
+    "0.21-12"
+  ]
+}

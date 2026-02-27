@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-oslo.db-doc, python3-oslo.db"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 10), dh-python, openstack-pkg-tools, python3-all, python3-pbr, python3-setuptools, python3-sphinx"
+  ],
+  "Build-Depends-Indep": [
+    "alembic, python3-alembic, python3-coverage, python3-debtcollector, python3-eventlet, python3-fixtures, python3-hacking, python3-migrate, python3-mock, python3-openstackdocstheme \u003c!nodoc\u003e, python3-oslo.config, python3-oslo.context, python3-oslo.i18n, python3-oslo.utils, python3-oslotest, python3-psycopg2, python3-pymysql, python3-sphinxcontrib.apidoc \u003c!nodoc\u003e, python3-sqlalchemy (\u003e= 1.4.0), python3-stestr, python3-stevedore, python3-testresources, python3-testscenarios, python3-testtools, subunit"
+  ],
+  "Checksums-Sha1": [
+    "94671ee29de2ff01e73aa135be93ef23f7fc6e91 4780 python-oslo.db_12.1.0-3.debian.tar.xz 9cda9d06c8a6441c7bf64dc72ca5966bba643094 2816 python-oslo.db_12.1.0-3.dsc bca53c114daff72ece7199c4fe67d9e30d740b67 122300 python-oslo.db_12.1.0.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "7e5f584e949bed987e9d3404ccae6e691130977450d002e43e195a73cf2e4317 4780 python-oslo.db_12.1.0-3.debian.tar.xz 945f180dadd623dbb5c6bfbf38c5dfc3d51c5291da6a3b754797527686ddbd46 2816 python-oslo.db_12.1.0-3.dsc ec2d7c21aab16b4a5b25ee39d016fa76caec4dcf3d48a3cbf7c23dd1219520fa 122300 python-oslo.db_12.1.0.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "17e830d873b6c6202d1cc48360da3d92b2dcb54cc7a45505e5536bfa40bb857b314e6935b63678623a57fcba7767a025b61a2a01c708baf584e141943801f1fd 4780 python-oslo.db_12.1.0-3.debian.tar.xz 910dff6e30fd209b126078ef060d16c60654931f41d1d1a64c897c6f6e662f5004baafbf9e9133c85bf8de3de45af4c0ba6acb88a0ed69f2a3e39e3fbd6bd17f 2816 python-oslo.db_12.1.0-3.dsc 6859fc904ed35ec87a2ff8d980c989cbddfc6635a12b5c508a89b746e20a3958af2c5a268c6677fe21a48d3cccd6c2c6a3d9991d6cdc11481ce01cf74a2292d2 122300 python-oslo.db_12.1.0.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/p/python-oslo.db"
+  ],
+  "Files": [
+    "7288a974d87554fe119d8d80cfe5ba68 4780 python-oslo.db_12.1.0-3.debian.tar.xz 872e073b42c988c72b000d5243c4f87c 2816 python-oslo.db_12.1.0-3.dsc f0fe0d95f5f17db96640f5517326231b 122300 python-oslo.db_12.1.0.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://launchpad.net/oslo"
+  ],
+  "Maintainer": [
+    "Debian OpenStack \u003cteam+openstack@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "python-oslo.db"
+  ],
+  "Package-List": [
+    "python-oslo.db-doc deb doc optional arch=all profile=!nodoc python3-oslo.db deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.1.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "@builddeps@"
+  ],
+  "Uploaders": [
+    "Thomas Goirand \u003czigo@debian.org\u003e, Corey Bryant \u003ccorey.bryant@canonical.com\u003e, Michal Arbet \u003cmichal.arbet@ultimum.io\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/openstack-team/oslo/python-oslo.db"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/openstack-team/oslo/python-oslo.db.git"
+  ],
+  "Version": [
+    "12.1.0-3"
+  ]
+}

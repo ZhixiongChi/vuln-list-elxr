@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-indexmap-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-autocfg-1+default-dev \u003c!nocheck\u003e, librust-hashbrown-0.12+raw-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "b3dda795981411fc6742f49faa9c0f3614ea3c41 3664 rust-indexmap_1.9.2-1.debian.tar.xz 690d0af56fd75a219e6c6688b5ce9a1b0734d13b 2492 rust-indexmap_1.9.2-1.dsc 666e7bf670531bb77cc9dc99b31793369e160d56 54627 rust-indexmap_1.9.2.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "54cce576f0a8f2f2732c3be2040d3b9fd4b245f756ef2de132a411b9dfed3009 3664 rust-indexmap_1.9.2-1.debian.tar.xz f25022ba701b81ae5190b2e4ee484e6b23d08fbbef6088d50bed3bf90c48152f 2492 rust-indexmap_1.9.2-1.dsc 1885e79c1fc4b10f0e172c475f458b7f7b93061064d98c3293e98c5ba0c8b399 54627 rust-indexmap_1.9.2.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "e00afc4d339c4cc3e48972909492c8214e2a058143a860e54cf7ef7f47ee3e4daf421247a54c97589fec58903b88cda83d0497e70af004faa60352ad47cd9c7f 3664 rust-indexmap_1.9.2-1.debian.tar.xz a161e25b25e4d366ca79223e26f6a135af37c847778f653656b8654c7275977353d3d777bf1281afe56fd93f37ef0489b9d242e2f146108d0594faf0905c7632 2492 rust-indexmap_1.9.2-1.dsc 946c54881a347892dfcb55648a2b881d3a4d113424b8c76d8957980a834895318d11336dc438a04601916cca787420708ad7e271f965c38bfeae511ec1dedf85 54627 rust-indexmap_1.9.2.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-indexmap"
+  ],
+  "Files": [
+    "2b31bd47beb5dd96c126ef80d761a66a 3664 rust-indexmap_1.9.2-1.debian.tar.xz e63f7f503a48da454efb12ceb17cce20 2492 rust-indexmap_1.9.2-1.dsc 7e70355483fc2559770b4db2ff32bcde 54627 rust-indexmap_1.9.2.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-indexmap"
+  ],
+  "Package-List": [
+    "librust-indexmap-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-fnv-1+default-dev, librust-fxhash-0.2+default-dev, librust-itertools-0.10+default-dev, librust-lazy-static-1+default-dev, librust-quickcheck-1-dev, librust-rand-0.8+default-dev, librust-rand-0.8+small-rng-dev, librust-serde-derive-1+default-dev"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/indexmap"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/indexmap]"
+  ],
+  "Version": [
+    "1.9.2-1"
+  ]
+}

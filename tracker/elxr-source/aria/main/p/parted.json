@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "parted, parted-udeb, libparted2, libparted-fs-resize0, libparted2-udeb, libparted-fs-resize0-udeb, libparted-i18n, libparted-dev, parted-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libncurses-dev | libncurses5-dev, libreadline-dev | libreadline6-dev, libdevmapper-dev [linux-any], uuid-dev, gettext, texinfo, libblkid-dev, pkg-config, check \u003c!nocheck\u003e, autoconf, automake, autopoint, gperf"
+  ],
+  "Checksums-Sha1": [
+    "cd4ece4acbd4cf33b62c1583b2d620eb751c9fd1 55716 parted_3.5-3.debian.tar.xz ce8917b888925bbec81c1593f0bd757a4cb5ffe1 3010 parted_3.5-3.dsc 55023eb2acb3b22e6fc999d73e285f0a3706101a 1871824 parted_3.5.orig.tar.xz a6494ad47e4d99009397f877101d26885f96ea88 488 parted_3.5.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha256": [
+    "f889132fc19d1283f157ad466fd71e1dd4ba4302b92c4660535f8fba5a1ff340 55716 parted_3.5-3.debian.tar.xz 2a181ce170282ae8b3380b75fd3eb0ff031ebdff95ebbb79538bc6d6e7fa4482 3010 parted_3.5-3.dsc 4938dd5c1c125f6c78b1f4b3e297526f18ee74aa43d45c248578b1d2470c05a2 1871824 parted_3.5.orig.tar.xz 1b4a381f344435baf69616a985fac6f411d740de9eebd91e4cccdf046332366a 488 parted_3.5.orig.tar.xz.asc"
+  ],
+  "Checksums-Sha512": [
+    "2308e3f954219dafa08517860d62b24d4059bd6c549a4042f089a3c9009e8a558ff551b1b29cfcc0dca063774e4d8a201450bfb74e3fc3e288d8f5f152d09a61 55716 parted_3.5-3.debian.tar.xz 07c13e7c3c19461e831b96114fd8cf433a4a08ec6b8aec798b715b2d140b6d58160e5e4044524e339446a1ca6bc3ffd00543ddce22b6db6ba305f98a358b20ac 3010 parted_3.5-3.dsc 87fc69e947de5f0b670ee5373a7cdf86180cd782f6d7280f970f217f73f55ee1b1b018563f48954f3a54fdde5974b33e07eee68c9ccdf08e621d3dc0e3ce126a 1871824 parted_3.5.orig.tar.xz 2ea1209325595416aa9ee27a0e85ca38bce50ca885d3b52ab1c1fb1b68b78d7887386ea3120274648056d2f1d9dca00b77236991765d84ad226c1b1f5a3f5c62 488 parted_3.5.orig.tar.xz.asc"
+  ],
+  "Dgit": [
+    "223923842ef02a31781b25389342b509677e996e debian archive/debian/3.5-3 https://git.dgit.debian.org/parted"
+  ],
+  "Directory": [
+    "pool/main/p/parted"
+  ],
+  "Files": [
+    "343e828c91ffe92304738aac97e7317e 55716 parted_3.5-3.debian.tar.xz de904f64eff4af8f4b13dae3361d0895 3010 parted_3.5-3.dsc 336fde60786d5855b3876ee49ef1e6b2 1871824 parted_3.5.orig.tar.xz c6628218f693e77918acf4818549259f 488 parted_3.5.orig.tar.xz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.gnu.org/software/parted"
+  ],
+  "Maintainer": [
+    "Parted Maintainer Team \u003cparted-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "parted"
+  ],
+  "Package-List": [
+    "libparted-dev deb libdevel optional arch=any libparted-fs-resize0 deb libs optional arch=any libparted-fs-resize0-udeb udeb debian-installer optional arch=any libparted-i18n deb localization optional arch=all libparted2 deb libs optional arch=any libparted2-udeb udeb debian-installer optional arch=any parted deb admin optional arch=any parted-doc deb doc optional arch=all parted-udeb udeb debian-installer optional arch=any"
+  ],
+  "Standards-Version": [
+    "3.9.8"
+  ],
+  "Uploaders": [
+    "Bastian Blank \u003cwaldi@debian.org\u003e, Colin Watson \u003ccjwatson@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/parted-team/parted"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/parted-team/parted.git"
+  ],
+  "Version": [
+    "3.5-3"
+  ]
+}

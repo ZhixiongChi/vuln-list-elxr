@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "resource-agents, ldirectord"
+  ],
+  "Build-Depends": [
+    "autoconf, automake, cluster-glue-dev, debhelper-compat (= 13), dh-exec, dh-python, docbook-xml, docbook-xsl, gawk, libglib2.0-dev, liblrm2-dev, libnet1-dev, libpils2-dev, libplumb2-dev, libplumbgpl2-dev, libstonith1-dev, libtool, libxml2-utils, net-tools, pkg-config, python3, python3-googleapi, python3-pyroute2, shellcheck, systemd [linux-any], xsltproc, xml-twig-tools"
+  ],
+  "Checksums-Sha1": [
+    "b303af950f8647292fce88000334318fb9ac263b 21692 resource-agents_4.12.0-2.debian.tar.xz f2ff4675e798dffa4664133f395f8d370dc036d1 2709 resource-agents_4.12.0-2.dsc 4b9f317994af64bfc4ef9e80b3d4ff3b176c0fc8 865910 resource-agents_4.12.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "5ee5da8320050397aef77109337a324bad60876f1ccb13409c6248a5ee04911e 21692 resource-agents_4.12.0-2.debian.tar.xz 3adb3e747d021a65c9967af2db37399847b4d18c716137ace85b9e5a81fa9b18 2709 resource-agents_4.12.0-2.dsc 4c220239ce5aedd3100c9eb36c0ddd2239d9a84a6b676555f7052658e1383ee1 865910 resource-agents_4.12.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "b9497547eec1ad8afd340f526485b4cb9f5dd9e3ddb4a2d70d4473491527d4bfcc53cb78d2b1bc6afd824b6ac40d78dbef6a4f187eee160c9e11bc9e33238d11 21692 resource-agents_4.12.0-2.debian.tar.xz 20134c9524ef8f4f23102c9f79c2994ec3fa98a6af47f83c40297cfa14a5bff59c9ed782f64233af76687969cd37b1b3a4714c50d3c00d42a5877fa2012993c0 2709 resource-agents_4.12.0-2.dsc 1c1ec1ae4a96b6832eb8631f8e2aa064adac04093e1e98c444376e18d27db4b630c840c45bc3486160a2a8f5c510bb05c15362b8b65197387a31b7adc059e87b 865910 resource-agents_4.12.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/resource-agents"
+  ],
+  "Files": [
+    "73b38472950ad275f4c144c57fbf1ae1 21692 resource-agents_4.12.0-2.debian.tar.xz 4cdccd8ec77e990676dd69040e555a44 2709 resource-agents_4.12.0-2.dsc 8a8c8c184635330eb08ef03806f5333c 865910 resource-agents_4.12.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ClusterLabs/resource-agents"
+  ],
+  "Maintainer": [
+    "Debian HA Maintainers \u003cdebian-ha-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "resource-agents"
+  ],
+  "Package-List": [
+    "ldirectord deb admin optional arch=all resource-agents deb admin optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "apache2, bind9, bind9-host, bind9-utils, bsd-mailx, default-mysql-server, lsb-release, lvm2, nfs-kernel-server, open-iscsi, openssl, postfix, postgresql, targetcli-fb, wget"
+  ],
+  "Uploaders": [
+    "Adrian Vondendriesch \u003cadrian.vondendriesch@credativ.de\u003e, Valentin Vidic \u003cvvidic@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ha-team/resource-agents"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ha-team/resource-agents.git"
+  ],
+  "Version": [
+    "1:4.12.0-2"
+  ]
+}

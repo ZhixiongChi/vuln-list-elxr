@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-y4m-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "790be7661cdcdb2e9d1b4dd8bdb48297b9277b65 2516 rust-y4m_0.7.0-1.debian.tar.xz 019da883d034ba12092a1f80f9f90a4e1405b516 2140 rust-y4m_0.7.0-1.dsc 837a8cdb378d23159b40a7daae151e2e2f1b1ab5 12045 rust-y4m_0.7.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "a840582fb84150fb686005bf0cc3f6303323ee904022ca5ccbb44520d20dd979 2516 rust-y4m_0.7.0-1.debian.tar.xz 51149386c6be1fe714945c95e326e2394c260249856bd7b3ba9a7e3f9a0991cc 2140 rust-y4m_0.7.0-1.dsc a72a9921af8237fe25097a1ae31c92a05c1d39b2454653ad48f2f407cf7a0dae 12045 rust-y4m_0.7.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "f869bd493eb9b18b586bc1834511bc67f9b24b782e3818c5a4aa375a135050da24c8e993d543ffa5547a146aadb5d0d25e4b8233ad6df666cac572b27f09d6fe 2516 rust-y4m_0.7.0-1.debian.tar.xz d8ec7fa86c1506c75be1e572b033cfcfafe952aa700a1b6c2a4822cf667b6b2bc3f643ec2ddc98bf0ef8a69738598f5e7479032af86c1b00e02cbc791d9604d7 2140 rust-y4m_0.7.0-1.dsc b85b0dd6df46c9bf125eee3e51ea39545ea1c794a2a097bba0aa31c682532ed3a9ba141745c61915fff13535fc5fff5a490d7c9e731c75bb5ce38a702075467e 12045 rust-y4m_0.7.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-y4m"
+  ],
+  "Files": [
+    "ef681d7e1af888803722b530f4ecdef9 2516 rust-y4m_0.7.0-1.debian.tar.xz dc0a22447dae19a7899a9e7fa893c037 2140 rust-y4m_0.7.0-1.dsc e922a233cda0035b627f6800ba0ffd4e 12045 rust-y4m_0.7.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/image-rs/y4m"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-y4m"
+  ],
+  "Package-List": [
+    "librust-y4m-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-resize-0.4+default-dev"
+  ],
+  "Uploaders": [
+    "Sebastian Ramacher \u003csramacher@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/y4m"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/y4m]"
+  ],
+  "Version": [
+    "0.7.0-1"
+  ]
+}

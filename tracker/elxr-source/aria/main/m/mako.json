@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python-mako-doc, python3-mako"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-python"
+  ],
+  "Build-Depends-Indep": [
+    "python3-all, python3-changelog \u003c!nodoc\u003e, python3-markupsafe \u003c!nocheck\u003e, python3-mock \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-paramlinks \u003c!nodoc\u003e, python3-zzzeeksphinx \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "74ea97fd2538b13d4cc185670f64547e81b04609 13120 mako_1.2.4+ds-1.debian.tar.xz 44319c6f595dda3eb5035f9e005f7e89a684ef80 2381 mako_1.2.4+ds-1.dsc cc18f8645d532359991662bd0cbdeb445ffaae69 197349 mako_1.2.4+ds.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "0d7dca172b3d02731d238e9ee7f8639bd94a75732494b20013828ea51012fdc2 13120 mako_1.2.4+ds-1.debian.tar.xz c5df8fbe29c23408c9b61ae7723eda4b79740821c2eb11445bd31921ce362226 2381 mako_1.2.4+ds-1.dsc 4306f78852944384e39fd5b58fcf8f5d2a7ef1ad6a5651970f04ade9b6a1c562 197349 mako_1.2.4+ds.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "4285796ac8d5e5ef867c41c679037ee80d553cb944b09cc3579447b8adaa172bf172752283ecc9c7a6f6f0f8843b8b1f0d4f7b0059978c9d4d0d729f8e1c43ec 13120 mako_1.2.4+ds-1.debian.tar.xz 206f8c7e814ec289017b3bcac13227d23f28f1d8702b0730ed3410d55043cc04eee12cd2c47607f0eeddba0284981354b6182d2fffe9aec644cb67b5404d619a 2381 mako_1.2.4+ds-1.dsc 0a0fc1bb2409e26d4d4827bdf762df7e17390a3c39a5b0f7ee208eca7df7620f036771f7a35a1954f4088d9d4e6f9b1528e848908a91a6a5c69f7a929061ac04 197349 mako_1.2.4+ds.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/m/mako"
+  ],
+  "Files": [
+    "ea4d14de915aaa19de1901dd2905d5a2 13120 mako_1.2.4+ds-1.debian.tar.xz 282e7f664570fbe0d4e768bee3f8d0b5 2381 mako_1.2.4+ds-1.dsc 11bda411e1365ebee0581e6d7f76f24a 197349 mako_1.2.4+ds.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.makotemplates.org/"
+  ],
+  "Maintainer": [
+    "Piotr Ożarowski \u003cpiotr@debian.org\u003e"
+  ],
+  "Package": [
+    "mako"
+  ],
+  "Package-List": [
+    "python-mako-doc deb doc optional arch=all profile=!nodoc python3-mako deb python optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest, autopkgtest-pkg-python"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-markupsafe, python3-mock, python3-pytest"
+  ],
+  "Uploaders": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/mako"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/mako.git"
+  ],
+  "Version": [
+    "1.2.4+ds-1"
+  ]
+}

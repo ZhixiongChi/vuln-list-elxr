@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "arm64"
+  ],
+  "Binary": [
+    "linux-image-6.1.0-42-imx-arm64, linux-image-imx-arm64, linux-headers-imx-arm64, linux-image-6.1.0-42-rt-imx-arm64, linux-image-rt-imx-arm64, linux-headers-rt-imx-arm64"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), dh-exec, python3:any, rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (\u003e= 2.102~), linux-imx-support-6.1.0-42 (= 6.1.159-elxr2-1), linux-image-6.1.0-42-imx-arm64-unsigned (= 6.1.159-elxr2-1) [arm64], linux-image-6.1.0-42-rt-imx-arm64-unsigned (= 6.1.159-elxr2-1) [arm64]"
+  ],
+  "Checksums-Sha1": [
+    "2953eaec3b97d099d5e6f6f9454904fb0c6c07a9 1689 linux-imx-signed-arm64_6.1.159+elxr2+1.dsc d773e601c3759885b6cbde4394d8b18b41c155be 787532 linux-imx-signed-arm64_6.1.159+elxr2+1.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "8d955a089cb8936b58964529bcbcf79f04d1ea9d957f21f24e92fe5d3d64a47e 1689 linux-imx-signed-arm64_6.1.159+elxr2+1.dsc 6786e5886ff104f0bc4a3fc299b5298608f6a2c8dd3d10dea4dcea42297f01b1 787532 linux-imx-signed-arm64_6.1.159+elxr2+1.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "920b28d439172f3ac100f2a4e58dcdc0c6d36a420e2c53b4ffe53c29b3714cc56f183b63c838960eba7b44c1512fd0f859a5aea732f928b06ad2591a62e18aa6 1689 linux-imx-signed-arm64_6.1.159+elxr2+1.dsc 4988466b08b311685921fbe5bf590ce298bda745ab895e18396d5e57e15036e030287c7a6eeb136ceb8bd5f405b84151978c586f38a66ec80813097ff7e61972 787532 linux-imx-signed-arm64_6.1.159+elxr2+1.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/linux-imx-signed-arm64"
+  ],
+  "Files": [
+    "c49c88e78209ad70a7a4a87a8e9d0d5c 1689 linux-imx-signed-arm64_6.1.159+elxr2+1.dsc 724af2973e30e00e67335debe1441df7 787532 linux-imx-signed-arm64_6.1.159+elxr2+1.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://www.kernel.org/"
+  ],
+  "Maintainer": [
+    "Debian Kernel Team \u003cdebian-kernel@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "linux-imx-signed-arm64"
+  ],
+  "Package-List": [
+    "linux-headers-imx-arm64 deb kernel optional arch=arm64 linux-headers-rt-imx-arm64 deb kernel optional arch=arm64 linux-image-6.1.0-42-imx-arm64 deb kernel optional arch=arm64 linux-image-6.1.0-42-rt-imx-arm64 deb kernel optional arch=arm64 linux-image-imx-arm64 deb kernel optional arch=arm64 linux-image-rt-imx-arm64 deb kernel optional arch=arm64"
+  ],
+  "Standards-Version": [
+    "4.2.0"
+  ],
+  "Uploaders": [
+    "Bastian Blank \u003cwaldi@debian.org\u003e, maximilian attems \u003cmaks@debian.org\u003e, Ben Hutchings \u003cbenh@debian.org\u003e, Salvatore Bonaccorso \u003ccarnil@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/kernel-team/linux"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/kernel-team/linux.git"
+  ],
+  "Version": [
+    "6.1.159+elxr2+1"
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-thread-id-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev (\u003e= 0.2.6-~~) \u003c!nocheck\u003e, librust-winapi-0.3+default-dev \u003c!nocheck\u003e, librust-winapi-0.3+processthreadsapi-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "6d0f175d5cdc63ab78fcd9b6532763fb9e309599 2960 rust-thread-id_4.0.0-1.debian.tar.xz 5584881fa82e0ea021df9b8c114b435f1f65a6b0 2277 rust-thread-id_4.0.0-1.dsc dcac90818af415317ca12709afd39645c2d2144e 8045 rust-thread-id_4.0.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "1e88a99f9a0294e8a8ed0e498ac4ec35493f1ea3389c4664a58293242a501a4f 2960 rust-thread-id_4.0.0-1.debian.tar.xz 00825bafbe9ccf8955f5b14ed0bb7d040433f5c2ccf32a18abf0501452be2988 2277 rust-thread-id_4.0.0-1.dsc 5fdfe0627923f7411a43ec9ec9c39c3a9b4151be313e0922042581fb6c9b717f 8045 rust-thread-id_4.0.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "af947adbd06003aa0756e6886f75a6fdc1c9c29b6556cb94b473dccf3a9b789ac7d89665bc96da423dd06243dd9fca80f5cf3db9e8f47543a0a3195f7a9ec6db 2960 rust-thread-id_4.0.0-1.debian.tar.xz 4ed0b17bc9287f8f9ca22dfa0d74f33fd280b9e3bc789ae0dfd0a7dfe3a8787bdab9cc9e93d7ce1866585e69628b5d088237e735a72c0a04e70417bfab4d9590 2277 rust-thread-id_4.0.0-1.dsc 8d5d4e4ce19ce2f2edc25a1e5bc39b85f1352591dbc2be94d83e8175661e6e22ebb8b6ae9cb4efd92c45a1b8f625c4cf210b78bec6926ec4f5a004004c5ffe50 8045 rust-thread-id_4.0.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-thread-id"
+  ],
+  "Files": [
+    "ebfd8efab313dba563f3fa34b133a8e5 2960 rust-thread-id_4.0.0-1.debian.tar.xz fd65de59eb282ab5c68ef16a04bdfe39 2277 rust-thread-id_4.0.0-1.dsc 66345b13fd97229fefe61ba6457dfe66 8045 rust-thread-id_4.0.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-thread-id"
+  ],
+  "Package-List": [
+    "librust-thread-id-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo"
+  ],
+  "Uploaders": [
+    "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/thread-id"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/thread-id]"
+  ],
+  "Version": [
+    "4.0.0-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "cluster-glue, cluster-glue-dev, liblrm2, libpils2, libplumb2, libplumbgpl2, libstonith1, liblrm2-dev, libpils2-dev, libplumb2-dev, libplumbgpl2-dev, libstonith1-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), asciidoctor, autoconf, automake, bison, chrpath, dh-python, docbook-xsl, docbook-xml, flex, help2man, inetutils-ping | iputils-ping, libaio-dev [linux-any], libbz2-dev, libcurl4-openssl-dev | libcurl3-openssl-dev, libglib2.0-dev, libltdl-dev, libopenhpi-dev [!hurd-any], libopenipmi-dev [!hurd-any], libsensors-dev [!hurd-any], libtool, libsnmp-dev, libxml2-dev, libxml2-utils, openssh-client \u003c!nocheck\u003e, perl, psmisc, python3, systemd [linux-any], uuid-dev, xsltproc, zlib1g-dev"
+  ],
+  "Checksums-Sha1": [
+    "cc8517157a690c496a52807fe2bfb61add58ce76 26792 cluster-glue_1.0.12-21.debian.tar.xz 506fe783a18b9120ab968cf8978680803510a17a 3192 cluster-glue_1.0.12-21.dsc 92696aea07e3834472108b42d1a859351db52250 491191 cluster-glue_1.0.12.orig.tar.bz2"
+  ],
+  "Checksums-Sha256": [
+    "48075bc0e1ab3f854103efca3c1ef1bcf3234f5ce835669dc6b086b701b46125 26792 cluster-glue_1.0.12-21.debian.tar.xz 1fef24de9b0e987d333d0139bd9176294c49058a646e0d2f1cbfb53d8c730c59 3192 cluster-glue_1.0.12-21.dsc 23dc0854e6adaf61ba18930018a769a38530543683a39960f245e9ee6f13b4e5 491191 cluster-glue_1.0.12.orig.tar.bz2"
+  ],
+  "Checksums-Sha512": [
+    "379c5af11febe4c016f94921f184a1b3bd595e329f3f420cee947abb6739524a7db0e47274b583a8bb8dad07b3b5e582d9fbfa7cab399928c73ea1aae14b3a19 26792 cluster-glue_1.0.12-21.debian.tar.xz ab1d1953d083edaaac0594d7297ee8638cb81e83e15d8ef6a3c2517e8a5545910d1c5948e85ee75385e96e0a1a7be2857f55eea756626a8e5b58dd80296e4587 3192 cluster-glue_1.0.12-21.dsc 240fe24b94a664acbb07100be1d1c601cb4edff45ed42e7cf37f4ffae7445fea30238de7776b5a8230b45dd8ca14a6e94e955af730f51c4b9e937f2952443e5f 491191 cluster-glue_1.0.12.orig.tar.bz2"
+  ],
+  "Directory": [
+    "pool/main/c/cluster-glue"
+  ],
+  "Files": [
+    "79ccdd699f5868bdb0153d247be6795c 26792 cluster-glue_1.0.12-21.debian.tar.xz f077570659be88ff6e741fbab1abdc18 3192 cluster-glue_1.0.12-21.dsc f6d6ef564946dbe106667b14b8e903fd 491191 cluster-glue_1.0.12.orig.tar.bz2"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/ClusterLabs/cluster-glue"
+  ],
+  "Maintainer": [
+    "Debian HA Maintainers \u003cdebian-ha-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "cluster-glue"
+  ],
+  "Package-List": [
+    "cluster-glue deb admin optional arch=any cluster-glue-dev deb admin optional arch=any liblrm2 deb libs optional arch=any liblrm2-dev deb libdevel optional arch=any libpils2 deb libs optional arch=any libpils2-dev deb libdevel optional arch=any libplumb2 deb libs optional arch=any libplumb2-dev deb libdevel optional arch=any libplumbgpl2 deb libs optional arch=any libplumbgpl2-dev deb libdevel optional arch=any libstonith1 deb libs optional arch=any libstonith1-dev deb libdevel optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "rsyslog"
+  ],
+  "Uploaders": [
+    "Valentin Vidic \u003cvvidic@debian.org\u003e, Ferenc Wágner \u003cwferi@debian.org\u003e,"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/ha-team/cluster-glue"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/ha-team/cluster-glue.git"
+  ],
+  "Version": [
+    "1.0.12-21"
+  ]
+}

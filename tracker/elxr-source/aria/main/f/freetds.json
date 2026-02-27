@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "freetds-common, libct4, freetds-bin, tdsodbc, libsybdb5, freetds-dev, freetds-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), unixodbc-dev, libgnutls28-dev, libreadline-dev, libkrb5-dev, pkgconf"
+  ],
+  "Build-Depends-Indep": [
+    "doxygen \u003c!nodoc\u003e, xmlto \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "44d7d409ecd5573b3dc58144c52fe312bcf08478 21528 freetds_1.3.17+ds-2.debian.tar.xz e3ee52d94b83262d9b25eadd0a3a6084a4c2e2c8 2275 freetds_1.3.17+ds-2.dsc dbce5f683b23ec443b406923389cb862adf73808 1088488 freetds_1.3.17+ds.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "296c361b35271381813e19f556cd4818ce29be040480faa7611a7f3a28b1f9c8 21528 freetds_1.3.17+ds-2.debian.tar.xz a559622729ee0ce5ff849bccc0531098b693753fc2208ad668241fb70a34c0ac 2275 freetds_1.3.17+ds-2.dsc 7995b99e6e0b121002e59de2b7b4acf170af29b7098e01f884e695816027ed01 1088488 freetds_1.3.17+ds.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "31cdcf0dd42f1f8ff6cfaca1fa6e1e7b0dff24334bf655b6583781fe186081761f8ec32dcdf2ce05b865b5af136deeef91aab7f091fd3fc71cdfe05493076316 21528 freetds_1.3.17+ds-2.debian.tar.xz aaa63921321734d5186a837e3952ab196c1a9111cd5d3881e15b80d2dc73ad4767f16bdbd95abf68871e68e56a2a54a166c33fde3e9d2c12209fbe2cadd2b9de 2275 freetds_1.3.17+ds-2.dsc 0cfa74e2dbf855859e289e665e101d486d4a90aa91b8ff4ce4092d9e7224235d8cfe430d2cf223a30703e7e3317d03a4ca294198b81e2bd6801244a04b075201 1088488 freetds_1.3.17+ds.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/f/freetds"
+  ],
+  "Files": [
+    "5dd7b6ec813de6dfdaa2b69c82ac5ed7 21528 freetds_1.3.17+ds-2.debian.tar.xz 1b9d591b93d0421ed18f58444ef89f48 2275 freetds_1.3.17+ds-2.dsc 399f22a9ffb2b0bef148f6d2898a29aa 1088488 freetds_1.3.17+ds.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.freetds.org/"
+  ],
+  "Maintainer": [
+    "Joseph Nahmias \u003cjello@debian.org\u003e"
+  ],
+  "Package": [
+    "freetds"
+  ],
+  "Package-List": [
+    "freetds-bin deb database optional arch=any freetds-common deb libs optional arch=all freetds-dev deb devel optional arch=any freetds-doc deb doc optional arch=all libct4 deb libs optional arch=any libsybdb5 deb libs optional arch=any tdsodbc deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.0"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/freetds"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/freetds.git"
+  ],
+  "Version": [
+    "1.3.17+ds-2"
+  ]
+}

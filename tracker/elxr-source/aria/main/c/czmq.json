@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libczmq4, libczmq-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 12), pkg-config, libnss3-dev, libzmq3-dev, uuid-dev, libsystemd-dev [linux-any], asciidoc-base \u003c!nodoc\u003e | asciidoc \u003c!nodoc\u003e, xmlto \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "1ad2654cf066b11d8a30856828f8d737d309c7ab 9744 czmq_4.2.1-1.debian.tar.xz f812e2cfeed5ed410de03c6281dbf634fa9e69d4 1648 czmq_4.2.1-1.dsc 75ced09c143f93fae65238375e3a799c40eaed4c 1617066 czmq_4.2.1.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "a8dc40ae5f39ca371dbbb045823e80e21b98d437d39adb5b44cad24dfbd00a9a 9744 czmq_4.2.1-1.debian.tar.xz 255ed752f04c0ae50525199792437e4c15cb18997ba609c5a7bd676a06fc76a6 1648 czmq_4.2.1-1.dsc 5d720a204c2a58645d6f7643af15d563a712dad98c9d32c1ed913377daa6ac39 1617066 czmq_4.2.1.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "a072d389e8147edabe67fb2fcf197e749483732e09315c38d0de26ebb5c8e7810bfaadb01f705b4a16cf6df3c63dda5d03df0541406014dc4db2da32fef10fc7 9744 czmq_4.2.1-1.debian.tar.xz 36905d96c3e2d68e65c35da75002128d28357589274d8d067237e5ab48b6b8e5a33a3dbd7f36e690821cb8e737fdd406c26a148a69e1bcb85e14f6463b92a9cf 1648 czmq_4.2.1-1.dsc 776c524ffeba3dbe2534351f91623a6f9db31268aa2e794e29b7eca99c9fd0a726de0f7fba4376a5b3d7321b1033314e86644efaa5a9c7226fc1f06805f7aa9f 1617066 czmq_4.2.1.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/c/czmq"
+  ],
+  "Files": [
+    "dfcbda320b62ea9dac2958a0c8eeed9e 9744 czmq_4.2.1-1.debian.tar.xz e4ad80b52273661e6b3ce48bc75e0bb0 1648 czmq_4.2.1-1.dsc 471e9ec120fc66a2fe2aae14359e3cfa 1617066 czmq_4.2.1.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://czmq.zeromq.org/"
+  ],
+  "Maintainer": [
+    "Luca Boccassi \u003cbluca@debian.org\u003e"
+  ],
+  "Package": [
+    "czmq"
+  ],
+  "Package-List": [
+    "libczmq-dev deb libdevel optional arch=any libczmq4 deb libs optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/czmq"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/czmq.git"
+  ],
+  "Version": [
+    "4.2.1-1"
+  ]
+}

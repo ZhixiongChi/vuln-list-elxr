@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "amd64 arm64 armhf i386"
+  ],
+  "Binary": [
+    "fwupd-unsigned, fwupd-unsigned-dev, fwupd-amd64-signed-template, fwupd-i386-signed-template, fwupd-armhf-signed-template, fwupd-arm64-signed-template"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13), gnu-efi [amd64 arm64 armhf i386], meson, mingw-w64-tools [amd64 arm64 armhf i386]"
+  ],
+  "Checksums-Sha1": [
+    "2e959c88449274d7c08367563090a0467547c1ec 8772 fwupd-efi_1.4-1.debian.tar.xz 8d845f717ed0b46a4f381e9befc2c0c10b29647c 2577 fwupd-efi_1.4-1.dsc 4723231b922d62908af7b4d7a4752f4decbed3a4 39688 fwupd-efi_1.4.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "37e4e0a0b00e0de0ec49762d246eaae0a810127ec4f81e8ee1809dd0c4d82faf 8772 fwupd-efi_1.4-1.debian.tar.xz 02865412bd88ba61c695594fb8a7f54efda0bfc09e40d66f0ebd03c29ccb525d 2577 fwupd-efi_1.4-1.dsc b1f5fe72e16d4e2f4c616da416dc93bd79331057336208465da37bafe8f8f83d 39688 fwupd-efi_1.4.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "546eb874f9fe9485f4186ff77b5b48eb99abeaea298f8c8522ddef0212cfe04f82aa8ff5e3e1e09f55bace01f7f43e244a24677bc58e5df7decf171b661a8803 8772 fwupd-efi_1.4-1.debian.tar.xz a24356da1f277eaa80c3a00dbfab9a6537ad96b33cc323410775bc4f923ac92bc7ac03c08a88ae13518f3b3f6a2f43e4014b5b9678eb419a2b22914cd4989918 2577 fwupd-efi_1.4-1.dsc 99bed678e778734e73fb18804f06b251b9bd1fec9404ea5cff2b1b17f199023750ca0565021c884cabfb7f756a9d36c37f346e2e68ee5e1fd08439d02669f285 39688 fwupd-efi_1.4.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/f/fwupd-efi"
+  ],
+  "Files": [
+    "43b602fb9525833d41f323739d45995d 8772 fwupd-efi_1.4-1.debian.tar.xz 71e49f8ef3128f002d098cf13422e160 2577 fwupd-efi_1.4-1.dsc 31ed82b51bd64233168a706d84c96391 39688 fwupd-efi_1.4.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/fwupd/fwupd-efi"
+  ],
+  "Maintainer": [
+    "Debian EFI \u003cdebian-efi@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "fwupd-efi"
+  ],
+  "Package-List": [
+    "fwupd-amd64-signed-template deb admin optional arch=amd64 fwupd-arm64-signed-template deb admin optional arch=arm64 fwupd-armhf-signed-template deb admin optional arch=armhf fwupd-i386-signed-template deb admin optional arch=i386 fwupd-unsigned deb admin optional arch=amd64,arm64,armhf,i386 fwupd-unsigned-dev deb admin optional arch=amd64,arm64,armhf,i386"
+  ],
+  "Standards-Version": [
+    "4.6.0.1"
+  ],
+  "Uploaders": [
+    "Steve McIntyre \u003c93sam@debian.org\u003e, Matthias Klumpp \u003cmak@debian.org\u003e, Mario Limonciello \u003csuperm1@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/efi-team/fwupd-efi/-/tree/debian/unstable"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/efi-team/fwupd-efi.git -b debian/unstable"
+  ],
+  "Version": [
+    "1:1.4-1"
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "linux-any"
+  ],
+  "Binary": [
+    "ipset, libipset-dev, libipset13"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libltdl-dev, libmnl-dev, pkg-config"
+  ],
+  "Checksums-Sha1": [
+    "e63595d25db1a3eaff20fbb0254d8e7c10240b55 16336 ipset_7.17-1.debian.tar.xz 0b4c5b0710dda8d03be847f31ebf6f800a080dd3 2199 ipset_7.17-1.dsc 9730c1411d30b2b964b437a0e819a3afbaeefd6a 684983 ipset_7.17.orig.tar.bz2"
+  ],
+  "Checksums-Sha256": [
+    "6a467a1da129f5103e0479f19ab8727d14b6da6c3c4306fe6f6b5e409b36cf5d 16336 ipset_7.17-1.debian.tar.xz 23c2dbde5a8ad970dd1c452ac81d0eb5542b3b1a3c6f0b61e9fa36da20a36590 2199 ipset_7.17-1.dsc be49c9ff489dd6610cad6541e743c3384eac96e9f24707da7b3929d8f2ac64d8 684983 ipset_7.17.orig.tar.bz2"
+  ],
+  "Checksums-Sha512": [
+    "8a1b8e884609b586f7d0acf7eb25749d35913b5c234b876dd13e4f485ed2f96d104e558bb61b8b2c1b862930c48dd7e7f7730bbf3286f9cc5ac14a7209ae0128 16336 ipset_7.17-1.debian.tar.xz c0ecb36012033c69153e792b77a2959968ecb9aabf269755432966e2be2d71c466c24a4515f231e50e3dd8e7020ec3f8f8f83c309b988c5d060d339941cae5b4 2199 ipset_7.17-1.dsc e308a0d7707ccf7d0cb06a32cf9a822f97862e007abdbab8a91a5a0d5bfbd9f2fb9a3f5e8f36b250ec0d565438c8648a31e8e5b45d8205a76558e90f46e6e597 684983 ipset_7.17.orig.tar.bz2"
+  ],
+  "Directory": [
+    "pool/main/i/ipset"
+  ],
+  "Files": [
+    "8e59b33a1a1334b1ceac561df10a3c8e 16336 ipset_7.17-1.debian.tar.xz 693a28bf23fe1a30189c0a44b77317a8 2199 ipset_7.17-1.dsc 077bce9676c6a4cb34c60fbbb01f67c6 684983 ipset_7.17.orig.tar.bz2"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://ipset.netfilter.org/"
+  ],
+  "Maintainer": [
+    "Debian Netfilter Packaging Team \u003cpkg-netfilter-team@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "ipset"
+  ],
+  "Package-List": [
+    "ipset deb net optional arch=linux-any libipset-dev deb libdevel optional arch=linux-any libipset13 deb libs optional arch=linux-any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "iptables, kmod, net-tools, netbase, netmask, sendip"
+  ],
+  "Uploaders": [
+    "Neutron Soutmun \u003cneutrons@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/pkg-netfilter-team/pkg-ipset"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/pkg-netfilter-team/pkg-ipset.git"
+  ],
+  "Version": [
+    "7.17-1"
+  ]
+}

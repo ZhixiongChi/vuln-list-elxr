@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-arrayvec-dev, librust-arrayvec+serde-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "95069314a36d7215f41cedf3607342452b7c62db 3220 rust-arrayvec_0.7.2-2.debian.tar.xz c019e23a5e41d8a9766ab0d2023a4dcf38adc65b 2475 rust-arrayvec_0.7.2-2.dsc 1f555432db58cf44f8197b744777bec9baeb379b 29341 rust-arrayvec_0.7.2.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "3dc6589a24b4a34e62e3a7bac70e7390073e866ec227cbb18170de05ccae902c 3220 rust-arrayvec_0.7.2-2.debian.tar.xz 2e310e21ebcc5d13a9701951bcf9309905ecd5b52d17ec81ff18c41a7f2912a5 2475 rust-arrayvec_0.7.2-2.dsc 8da52d66c7071e2e3fa2a1e5c6d088fec47b593032b254f5e980de8ea54454d6 29341 rust-arrayvec_0.7.2.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "205e692b419565349d28bd2bceca039f05144beddae86f26290eae484153a9629bc47d06fb4b9d95718999a54549a2da6868449b37d092e877e6e97f90dd7c34 3220 rust-arrayvec_0.7.2-2.debian.tar.xz 3d43f869c3737b2d5ada2c3f24cd506f92c17fa2e6990ec072bb5d0edc82d03c004e7563867af405957202dbea9e21f91c375bed08a9559efcf41b022b711caf 2475 rust-arrayvec_0.7.2-2.dsc 80cc6e55b6032f4882362813de970d3d99e600ada774b28ac6a24c9c8e018fda3b35c5750ac3a09fca6fb9496e2e3fe608b58d21b1b84685ebd170f567a0ecbc 29341 rust-arrayvec_0.7.2.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-arrayvec"
+  ],
+  "Files": [
+    "323a728b6caf7fc9cef20df8a81bd462 3220 rust-arrayvec_0.7.2-2.debian.tar.xz 956be856b906304fbddfbd81c199b87e 2475 rust-arrayvec_0.7.2-2.dsc 499a258fd90cc30a46c5afc894e7fe96 29341 rust-arrayvec_0.7.2.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-arrayvec"
+  ],
+  "Package-List": [
+    "librust-arrayvec+serde-dev deb rust optional arch=any librust-arrayvec-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-bencher-0.1+default-dev, librust-matches-0.1+default-dev, librust-serde-test-1+default-dev"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e, Andrej Shadura \u003candrewsh@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/arrayvec"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/arrayvec]"
+  ],
+  "Version": [
+    "0.7.2-2"
+  ]
+}

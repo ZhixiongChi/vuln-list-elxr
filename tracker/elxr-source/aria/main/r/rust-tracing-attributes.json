@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-tracing-attributes-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev \u003c!nocheck\u003e, librust-quote-1+default-dev \u003c!nocheck\u003e, librust-syn-1+clone-impls-dev (\u003e= 1.0.98-~~) \u003c!nocheck\u003e, librust-syn-1+extra-traits-dev (\u003e= 1.0.98-~~) \u003c!nocheck\u003e, librust-syn-1+full-dev (\u003e= 1.0.98-~~) \u003c!nocheck\u003e, librust-syn-1+parsing-dev (\u003e= 1.0.98-~~) \u003c!nocheck\u003e, librust-syn-1+printing-dev (\u003e= 1.0.98-~~) \u003c!nocheck\u003e, librust-syn-1+proc-macro-dev (\u003e= 1.0.98-~~) \u003c!nocheck\u003e, librust-syn-1+visit-dev (\u003e= 1.0.98-~~) \u003c!nocheck\u003e, librust-syn-1+visit-mut-dev (\u003e= 1.0.98-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "bcf872173dd616d0e9231bfd502c6a625ce3c218 2928 rust-tracing-attributes_0.1.23-1.debian.tar.xz cf1faf381090715ae15fad58048c54fc3c088f8f 3119 rust-tracing-attributes_0.1.23-1.dsc ec8b64c2f6239891d8e9e039a2fd8d2de115adec 30450 rust-tracing-attributes_0.1.23.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "15f971912f6b70dc4e956efa30b719847e9354611cf19cc80eeaf0b4f8c110fb 2928 rust-tracing-attributes_0.1.23-1.debian.tar.xz a2fea2b349f772f469f8a82c2549dce034bb4741d7affda1dbe431ee54c9321b 3119 rust-tracing-attributes_0.1.23-1.dsc 4017f8f45139870ca7e672686113917c71c7a6e02d4924eda67186083c03081a 30450 rust-tracing-attributes_0.1.23.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "52768048d40b532378eee7189b99b69a3a284cedae0ea0c85e14ec66a9d3fdea26e7caf68681f0c4a7ddee94fb56a3a98bec457d431e2a46f1b6bbedf1030be1 2928 rust-tracing-attributes_0.1.23-1.debian.tar.xz ec581bb3aa3561919d2a5695832c97c32f276e69bf7a6cb91cc85b86225f5eda7ed7b304c780f322de0650f2d22cf1d28a81ba151ab7a6ba656d1b4fb9029dc3 3119 rust-tracing-attributes_0.1.23-1.dsc 55e92b4e0410805f8cf9eb8ee50cabcf08d1f6c6b4b38c5a51c70f59d06c82096af1f3b9b7dd4267945cf631fa8d99f78ae9b3d0760f9c7ed4d6da6e5e6ff3cb 30450 rust-tracing-attributes_0.1.23.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-tracing-attributes"
+  ],
+  "Files": [
+    "b3e0a8f5b9a767c3c569856cab4feef7 2928 rust-tracing-attributes_0.1.23-1.debian.tar.xz 0749f40cb26a06ee668464abd09a9db8 3119 rust-tracing-attributes_0.1.23-1.dsc 45c1d005c5df9e62640b4bbb1f79090a 30450 rust-tracing-attributes_0.1.23.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://tokio.rs"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-tracing-attributes"
+  ],
+  "Package-List": [
+    "librust-tracing-attributes-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-async-trait-0.1+default-dev, librust-rustversion-1+default-dev, librust-tokio-test-0.3+default-dev, librust-tracing-0.1+default-dev, librust-tracing-core-0.1+default-dev, librust-tracing-subscriber-0.3+default-dev, librust-tracing-subscriber-0.3+env-filter-dev, librust-trybuild-1+default-dev"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/tracing-attributes"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/tracing-attributes]"
+  ],
+  "Version": [
+    "0.1.23-1"
+  ]
+}

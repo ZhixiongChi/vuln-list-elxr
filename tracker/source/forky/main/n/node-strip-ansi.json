@@ -6,16 +6,16 @@
     "node-strip-ansi"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), nodejs, mocha, node-ansi-regex, dh-sequence-nodejs"
+    "debhelper-compat (= 13), ava \u003c!nocheck\u003e, node-ansi-regex (\u003e= 6~) \u003c!nocheck\u003e, dh-sequence-nodejs, node-rollup-plugin-node-resolve, rollup"
   ],
   "Checksums-Sha256": [
-    "87af06247c6f1bd1542751ec3048193c7257086e7a55f23eb22b8de2e247b646 2124 node-strip-ansi_6.0.1-2.dsc 42b0a7ff95ea38aedcbdb5bd89f5a013ac94f4a00d505776acd9a7953d047410 3026 node-strip-ansi_6.0.1.orig.tar.gz 9460e2c4fb41014e7cf0034477aa73083226e614de1fa66d9a3bda0ef18cbf17 3244 node-strip-ansi_6.0.1-2.debian.tar.xz"
+    "67e53a8f70da0092293ae6f98843774fab0f77d43754c4f2215a0fa6bec2cb4f 2283 node-strip-ansi_7.1.2-1.dsc 1b85f01feeb24908806378409893321755603f0c987c45f3aed730ee8dbd0a42 3281 node-strip-ansi_7.1.2.orig.tar.gz 9528fb492e26e049e1ef4e1b59adb8a6be405270db176b50d6583e542882eaa9 4144 node-strip-ansi_7.1.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/n/node-strip-ansi"
   ],
   "Files": [
-    "f67dadc454df38ee7403a4ea3c14a8c6 2124 node-strip-ansi_6.0.1-2.dsc 58a951cfa052dac77e1f130dcef485c0 3026 node-strip-ansi_6.0.1.orig.tar.gz 6ff873c9ffa4b607104d08d38d8fc494 3244 node-strip-ansi_6.0.1-2.debian.tar.xz"
+    "e4917f69d8518367317272b831f8ef8c 2283 node-strip-ansi_7.1.2-1.dsc 5dd28df8082a55d10576c2299d8940ef 3281 node-strip-ansi_7.1.2.orig.tar.gz 1fa47f7afc830a67bce4fbd25633b4a8 4144 node-strip-ansi_7.1.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "javascript"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-nodejs"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/js-team/node-strip-ansi.git"
   ],
   "Version": [
-    "6.0.1-2"
+    "7.1.2-1"
   ]
 }

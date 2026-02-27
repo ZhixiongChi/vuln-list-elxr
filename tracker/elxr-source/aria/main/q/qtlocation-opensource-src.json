@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libqt5location5, libqt5positioningquick5, libqt5positioning5, libqt5location5-plugins, libqt5location5-plugin-mapboxgl, libqt5positioning5-plugins, qml-module-qtlocation, qml-module-qtpositioning, qml-module-qt-labs-location, qtlocation5-dev, qtpositioning5-dev, qtlocation5-examples, qtlocation5-doc, qtlocation5-doc-html, qtlocation5-doc-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), libboost-dev, libicu-dev, libprotozero-dev (\u003e= 1.5.2), libqt5opengl5-dev (\u003e= 5.15.8+dfsg~), libqt5serialport5-dev (\u003e= 5.15.8~), pkg-kde-tools, qml-module-qttest (\u003e= 5.15.8+dfsg~), qtbase5-private-dev (\u003e= 5.15.8+dfsg~), qtdeclarative5-private-dev (\u003e= 5.15.8+dfsg~), rapidjson-dev (\u003e= 1.1.0), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e, zlib1g-dev"
+  ],
+  "Build-Depends-Indep": [
+    "qdoc-qt5 (\u003e= 5.15.8~) \u003c!nodoc\u003e, qhelpgenerator-qt5 (\u003e= 5.15.8~) \u003c!nodoc\u003e, qtattributionsscanner-qt5 (\u003e= 5.15.8~) \u003c!nodoc\u003e, qtbase5-doc-html (\u003e= 5.15.8+dfsg~) \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "a20a1b91d5029e61a8d440a288e37413ef246e3f 23896 qtlocation-opensource-src_5.15.8+dfsg-3+deb12u1.debian.tar.xz 411d03a78abc33f1636afe4e63a27ae274908c36 3914 qtlocation-opensource-src_5.15.8+dfsg-3+deb12u1.dsc edbaaebcbcd50dc0c1d07bf50b5f451bab208f1d 4914140 qtlocation-opensource-src_5.15.8+dfsg.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "0ab32568aea3f1a423ae9d37c89895bb2217f0d82a30302ed49a0fc55de68575 23896 qtlocation-opensource-src_5.15.8+dfsg-3+deb12u1.debian.tar.xz 95a5fdb5ea234c6c2ccf63dba3e99211a9e604684523212db19229d1c9c3274e 3914 qtlocation-opensource-src_5.15.8+dfsg-3+deb12u1.dsc 92d1d404bb4f76a8b79f1b5cd3ffb0bce7385902647df29d39848a99168e0d91 4914140 qtlocation-opensource-src_5.15.8+dfsg.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "8fd5d75c593c8243717b93d32016b8450ed5b4f155c26fd898cf73839fb6578ee3e3d849e09ec96ef2f3b3e6e6d9bae49cabc8ab2175d187764b9fda6ac90934 23896 qtlocation-opensource-src_5.15.8+dfsg-3+deb12u1.debian.tar.xz 1774f454be0e028b1a2c1aba3f21068ac4f2b9f6bdab33d9af257a4531acc8b8e0ba5b1fcd253d4ad81abc994dde57ccd8400cfcbbeefa1fcc1d1f127e6aa833 3914 qtlocation-opensource-src_5.15.8+dfsg-3+deb12u1.dsc 27d3dba734868f5ccbc60e322e6427986715cc18c72185be2c229e749e3594b7558c286598018cdf3b94c2bd01025ee54aad7b5f9bcb707526c3d1378c23f94e 4914140 qtlocation-opensource-src_5.15.8+dfsg.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/q/qtlocation-opensource-src"
+  ],
+  "Files": [
+    "5a42243ef6a24074e3b49f8705e49eac 23896 qtlocation-opensource-src_5.15.8+dfsg-3+deb12u1.debian.tar.xz 43b316c46253969ad222ab0bc3a2d165 3914 qtlocation-opensource-src_5.15.8+dfsg-3+deb12u1.dsc 8911ba8d0beef0478a88056928f7e102 4914140 qtlocation-opensource-src_5.15.8+dfsg.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://doc.qt.io/qt-5/qtlocation-index.html"
+  ],
+  "Maintainer": [
+    "Debian Qt/KDE Maintainers \u003cdebian-qt-kde@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "qtlocation-opensource-src"
+  ],
+  "Package-List": [
+    "libqt5location5 deb libs optional arch=any libqt5location5-plugin-mapboxgl deb libs optional arch=any libqt5location5-plugins deb libs optional arch=any libqt5positioning5 deb libs optional arch=any libqt5positioning5-plugins deb libs optional arch=any libqt5positioningquick5 deb libs optional arch=any qml-module-qt-labs-location deb libs optional arch=any qml-module-qtlocation deb libs optional arch=any qml-module-qtpositioning deb libs optional arch=any qtlocation5-dev deb libdevel optional arch=any qtlocation5-doc deb doc optional arch=all profile=!nodoc qtlocation5-doc-dev deb libdevel optional arch=all profile=!nodoc qtlocation5-doc-html deb doc optional arch=all profile=!nodoc qtlocation5-examples deb x11 optional arch=any qtpositioning5-dev deb libdevel optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Uploaders": [
+    "Timo Jyrinki \u003ctimo@debian.org\u003e, Lisandro Damián Nicanor Pérez Meyer \u003clisandro@debian.org\u003e, Dmitry Shachnev \u003cmitya57@debian.org\u003e, Simon Quigley \u003ctsimonq2@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/qt-kde-team/qt/qtlocation"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/qt-kde-team/qt/qtlocation.git"
+  ],
+  "Version": [
+    "5.15.8+dfsg-3+deb12u1"
+  ]
+}

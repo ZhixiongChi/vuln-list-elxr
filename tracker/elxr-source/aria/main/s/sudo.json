@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "sudo, sudo-ldap, libnss-sudo"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-installnss, libpam0g-dev, libldap2-dev, libsasl2-dev, libselinux1-dev [linux-any], autoconf, bison, flex, libaudit-dev [linux-any], zlib1g-dev"
+  ],
+  "Checksums-Sha1": [
+    "19c3344afe053e65a9099649c316b99975cad88a 43056 sudo_1.9.13p3-1+deb12u3.debian.tar.xz 69f5051594c04dbf2fe97b99f99b26413a86163f 2605 sudo_1.9.13p3-1+deb12u3.dsc dd5bffed0397cd0543e487d1c8847554dcd5fe30 5100355 sudo_1.9.13p3.orig.tar.gz 2ede198a3e0c3b08490d47978dd32fd609590ec0 833 sudo_1.9.13p3.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha256": [
+    "82e1897d352a88e5d741f40bbae0333e24a86e0e232fd4b11c27d9c5b9585584 43056 sudo_1.9.13p3-1+deb12u3.debian.tar.xz 75c8c274c704fdbd2a8d91a11f52c14f0c133faab5564906c6d8ada5977a1c5e 2605 sudo_1.9.13p3-1+deb12u3.dsc 92334a12bb93e0c056b09f53e255ccb7d6f67c6350e2813cd9593ceeca78560b 5100355 sudo_1.9.13p3.orig.tar.gz f0220d3d78c06b50213d3363c14f0eee65ebdbce49f7870a22b651374f23bd92 833 sudo_1.9.13p3.orig.tar.gz.asc"
+  ],
+  "Checksums-Sha512": [
+    "0ec0b9d0b83d498528f10048d7f19c6a6b8e398a1f6d8ab68a008b2911859b0a70ecba982e3538db979b6150c557436457d20d35bd71978f7656698cfb2a1cfd 43056 sudo_1.9.13p3-1+deb12u3.debian.tar.xz ccd3c8c93a01cbaf0c011e7bb81c88cd95aa42327fab21d8ca8ec616c7c38475fadfb10540000741db3be718c9a02ccd41dc82cd576746054b458141faf3d403 2605 sudo_1.9.13p3-1+deb12u3.dsc c0c5cd0c6308868afdad2ecf55b86fdcf1f49889b30831c9db3bc56a63dc3a07686c285c20b2500494b2a76653e2ec69196abdc583312609a5db1c81a6e4e737 5100355 sudo_1.9.13p3.orig.tar.gz 55bdc6cdc89e447bbccf881891f60ed180deee3e2fe4463d3ef456cf4c94c75a5fed29023a99d80c59fa0fb3b5c10da0e3bfdc62a667d9b08c31440d1c3a76ab 833 sudo_1.9.13p3.orig.tar.gz.asc"
+  ],
+  "Directory": [
+    "pool/main/s/sudo"
+  ],
+  "Files": [
+    "d1e12ccf8d2d71e4ed6408cb5a0bf8cb 43056 sudo_1.9.13p3-1+deb12u3.debian.tar.xz b3eb15128c4daaee3e194a57393e2ba7 2605 sudo_1.9.13p3-1+deb12u3.dsc be560d914b60376dab3449c99b9f19ef 5100355 sudo_1.9.13p3.orig.tar.gz 58aef40ebcf0f054ff3c029ff4a3ee1c 833 sudo_1.9.13p3.orig.tar.gz.asc"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.sudo.ws/"
+  ],
+  "Maintainer": [
+    "Sudo Maintainers \u003csudo@packages.debian.org\u003e"
+  ],
+  "Package": [
+    "sudo"
+  ],
+  "Package-List": [
+    "libnss-sudo deb admin optional arch=all sudo deb admin optional arch=any sudo-ldap deb admin optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.6.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "adduser, cron, ldap-utils, slapd, sssd-common, sssd-ldap"
+  ],
+  "Uploaders": [
+    "Marc Haber \u003cmh+debian-packages@zugschlus.de\u003e, Hanno Wagner \u003cwagner@debian.org\u003e, Hilko Bengen \u003cbengen@debian.org\u003e, Bastian Blank \u003cwaldi@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/sudo-team/sudo"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/sudo-team/sudo.git"
+  ],
+  "Version": [
+    "1.9.13p3-1+deb12u3"
+  ]
+}

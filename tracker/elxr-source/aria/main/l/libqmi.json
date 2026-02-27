@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "linux-any all"
+  ],
+  "Binary": [
+    "libqmi-glib-dev, libqmi-glib-doc, libqmi-glib5, libqmi-utils, libqmi-proxy, gir1.2-qmi-1.0"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), bash-completion, gobject-introspection, gtk-doc-tools \u003c!nodoc\u003e, help2man, libgirepository1.0-dev, libglib2.0-dev, libgudev-1.0-dev, libmbim-glib-dev, libqrtr-glib-dev (\u003e= 1.0.0), meson, pkg-config"
+  ],
+  "Build-Depends-Indep": [
+    "libglib2.0-doc \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha1": [
+    "9c07127449bcaf9294dfc1924b7c08d51cdad2f9 35192 libqmi_1.32.2-1.debian.tar.xz e6d1b8709ec9c46ce6e70fd52022a3eaa5b94a29 2666 libqmi_1.32.2-1.dsc 0d542d451fd8cc8e5ce43cf82f48b97e55dcf952 1501204 libqmi_1.32.2.orig.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "e5c0879e6df47264cc64ba3ee81952fc39019d687dba6f7e746159088ef8d103 35192 libqmi_1.32.2-1.debian.tar.xz c1a4a1b9c8f60a5dbb0eb92764b8c1d783e300ee22f48db9fdeb86c9a82075cd 2666 libqmi_1.32.2-1.dsc fe42b3a19a37657fc7ca39a6ed7a33d0715f4843c8bf727313cd8a5cde8cddcc 1501204 libqmi_1.32.2.orig.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "8bfd4d651c6faee9e7d834d0929aaf28cc156ad3a56766c641847a0eb88fa8079f6f617f507ab0ad63458fdfb1ada3c1816999a9ad5244728fd5df226d8a6f6b 35192 libqmi_1.32.2-1.debian.tar.xz b3de82f58c9fb6311c7573e64cfb1b301902401579a3efcc5a15a6f990878c1898c1f4587fcab906c411a0dc1aecfeefa090b6dcf679ad3e7bcb929acb38dd83 2666 libqmi_1.32.2-1.dsc 765e371fe9aa5e136551e6f552b22ab7391093295c8c1c6d95250be74e45535e403c9639a4470fc2552b7495268d3b4148c4f9af25dbda05c5bf176f90543535 1501204 libqmi_1.32.2.orig.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libq/libqmi"
+  ],
+  "Files": [
+    "afc2589dac98ea9eac4ac479527fb529 35192 libqmi_1.32.2-1.debian.tar.xz 45ec5b232105d7f025fcbe836f5f57ee 2666 libqmi_1.32.2-1.dsc 20ea4b7c9972c9cb4bb01aab67f00953 1501204 libqmi_1.32.2.orig.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://www.freedesktop.org/wiki/Software/libqmi"
+  ],
+  "Maintainer": [
+    "DebianOnMobile Maintainers \u003cdebian-on-mobile-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "libqmi"
+  ],
+  "Package-List": [
+    "gir1.2-qmi-1.0 deb introspection optional arch=linux-any libqmi-glib-dev deb libdevel optional arch=linux-any libqmi-glib-doc deb doc optional arch=all profile=!nodoc libqmi-glib5 deb libs optional arch=linux-any libqmi-proxy deb net optional arch=linux-any libqmi-utils deb net optional arch=linux-any"
+  ],
+  "Standards-Version": [
+    "4.6.1"
+  ],
+  "Uploaders": [
+    "Arnaud Ferraris \u003caferraris@debian.org\u003e, Guido Günther \u003cagx@sigxcpu.org\u003e, Henry-Nicolas Tourneur \u003cdebian@nilux.be\u003e, Martin \u003cdebacle@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/DebianOnMobile-team/libqmi"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/DebianOnMobile-team/libqmi.git"
+  ],
+  "Version": [
+    "1.32.2-1"
+  ]
+}

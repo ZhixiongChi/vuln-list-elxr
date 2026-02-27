@@ -6,16 +6,16 @@
     "r-cran-graphlayouts"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-igraph (\u003e= 2.0.0), r-cran-rcpp, r-cran-rcpparmadillo"
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-igraph (\u003e= 2.0.0), r-cran-rcpp, r-cran-rcpparmadillo, architecture-is-64-bit, architecture-is-little-endian"
   ],
   "Checksums-Sha256": [
-    "828f2a4f6b60d4b0bcbf9b76d07275c6fd4ec4d0c2a8b04ff4b08ea60c2e09b4 2268 r-cran-graphlayouts_1.2.2-1.dsc 4848f108fe53ba898217ccf24328d626d75620f97020a467f07b7f69afc1e82f 2203358 r-cran-graphlayouts_1.2.2.orig.tar.gz f7932aec9c5cd0f32ac910bef5fe9e06c868a12ad973b54dc0032223af6249b1 3300 r-cran-graphlayouts_1.2.2-1.debian.tar.xz"
+    "faad0917d59558ed7fb9274dd2ec305e60ca795fbc635583cf961a1d76fae18e 2323 r-cran-graphlayouts_1.2.3-1.dsc 96b5328201e9e448a5bc0cf90d0730658154fb226c08d99e3cfe2a73db767305 2208311 r-cran-graphlayouts_1.2.3.orig.tar.gz 969baa178659973c8f87c27d03805b48dca40d4313e31c93213ed9a9cb248da8 3364 r-cran-graphlayouts_1.2.3-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/r-cran-graphlayouts"
   ],
   "Files": [
-    "2c169df7c7ff7846c91095d49b035e60 2268 r-cran-graphlayouts_1.2.2-1.dsc d762dceed2c9f81f489e01f7ae0ce8bd 2203358 r-cran-graphlayouts_1.2.2.orig.tar.gz 381fcf08b45f2f9fac1f04d7cd823600 3300 r-cran-graphlayouts_1.2.2-1.debian.tar.xz"
+    "8721b9a7eb29cea1181eb7cd474a4dd6 2323 r-cran-graphlayouts_1.2.3-1.dsc b34f80dc18d92976b162868291746cc3 2208311 r-cran-graphlayouts_1.2.3.orig.tar.gz 42f9a8e9deafc35b1584df03fb38c101 3364 r-cran-graphlayouts_1.2.3-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-r"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/r-pkg-team/r-cran-graphlayouts.git"
   ],
   "Version": [
-    "1.2.2-1"
+    "1.2.3-1"
   ]
 }

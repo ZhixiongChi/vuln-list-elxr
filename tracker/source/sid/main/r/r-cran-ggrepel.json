@@ -6,16 +6,16 @@
     "r-cran-ggrepel"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-ggplot2, r-cran-rcpp, r-cran-rlang, r-cran-scales, r-cran-withr (\u003e= 2.5.0)"
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-ggplot2 (\u003e= 3.5.2), r-cran-rcpp, r-cran-rlang (\u003e= 1.1.6), r-cran-s7, r-cran-scales (\u003e= 1.4.0), r-cran-withr (\u003e= 3.0.2), architecture-is-64-bit, architecture-is-little-endian"
   ],
   "Checksums-Sha256": [
-    "f6ed2619706279865d78c28560edeafc722a6bab497a87a3af5c6335eaf2044f 2385 r-cran-ggrepel_0.9.6-1.dsc 268a6eda6377d27b403af40423cdf6dce30b2fe1460f771377dc68ce3e4e7212 149970 r-cran-ggrepel_0.9.6.orig.tar.gz c2b68794557d5c6fc58b437d24e2903fb9c0d8fa97da0ac3e1750cc9faade8fe 3004 r-cran-ggrepel_0.9.6-1.debian.tar.xz"
+    "bddb5296e5826b8b80ac1b514a4ebc61f5d9b1f2ad6c14be54dd9395b7c8126b 2508 r-cran-ggrepel_0.9.7-1.dsc 6d51e597ff7a583dacae331be711703169f0e9988926f381ce25636c3a12c237 166297 r-cran-ggrepel_0.9.7.orig.tar.gz 59de8321809d8906ee7da9b412d943a58ffc69fa9eb8bd4c3101effa74e449a7 3076 r-cran-ggrepel_0.9.7-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/r-cran-ggrepel"
   ],
   "Files": [
-    "485879e6bbf72ad02c7742db5d812203 2385 r-cran-ggrepel_0.9.6-1.dsc d84bbecfeb624fe1ec70f11712596b13 149970 r-cran-ggrepel_0.9.6.orig.tar.gz 1402e93a54a0495aa9221a7057a6f87e 3004 r-cran-ggrepel_0.9.6-1.debian.tar.xz"
+    "17f2974bb226ed8c1932509849d1432c 2508 r-cran-ggrepel_0.9.7-1.dsc c4ecd7127235addd35ac700d423b6673 166297 r-cran-ggrepel_0.9.7.orig.tar.gz 1e0a9dc2c5e4c8d74b34991abc18f673 3076 r-cran-ggrepel_0.9.7-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-r"
   ],
   "Testsuite-Triggers": [
-    "r-cran-devtools, r-cran-dplyr, r-cran-ggbeeswarm, r-cran-gridextra, r-cran-knitr, r-cran-magrittr, r-cran-patchwork, r-cran-readr, r-cran-rmarkdown, r-cran-stringr, r-cran-svglite, r-cran-testthat, r-cran-vdiffr"
+    "r-cran-devtools, r-cran-dplyr, r-cran-ggbeeswarm, r-cran-gridextra, r-cran-knitr, r-cran-magrittr, r-cran-patchwork, r-cran-readr, r-cran-rmarkdown, r-cran-rsvg, r-cran-sf, r-cran-stringr, r-cran-svglite, r-cran-testthat, r-cran-vdiffr"
   ],
   "Uploaders": [
     "Steffen Moeller \u003cmoeller@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/r-pkg-team/r-cran-ggrepel.git"
   ],
   "Version": [
-    "0.9.6-1"
+    "0.9.7-1"
   ]
 }

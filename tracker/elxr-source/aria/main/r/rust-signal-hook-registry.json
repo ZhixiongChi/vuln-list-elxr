@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-signal-hook-registry-dev"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha1": [
+    "3eaadd1d002fb8c99bdef9d072de6b2dd874b569 2708 rust-signal-hook-registry_1.4.0-1.debian.tar.xz 0eac1cbaa1f3f4fd7b00d8b2fae17bb272e1d23a 2334 rust-signal-hook-registry_1.4.0-1.dsc 4cb614962064e157e391e5fc1bd91c828da8754b 17912 rust-signal-hook-registry_1.4.0.orig.tar.gz"
+  ],
+  "Checksums-Sha256": [
+    "488c37af260c27266a396dc0af985c95aa219da5ff186bc9840d98ec1060590e 2708 rust-signal-hook-registry_1.4.0-1.debian.tar.xz ebe056707ed5d3a14a6d16d884c1ad11130e4021fb0c8025b1f98cb8c6ad47e7 2334 rust-signal-hook-registry_1.4.0-1.dsc e51e73328dc4ac0c7ccbda3a494dfa03df1de2f46018127f60c693f2648455b0 17912 rust-signal-hook-registry_1.4.0.orig.tar.gz"
+  ],
+  "Checksums-Sha512": [
+    "97e1526ea65b94aad7d48d039e0bbeb612bc49da7def60c6f9b591ea21ced36d311b386c17217b9ded4f4bb40847a8b0deb30b0b62bc012dc7fc08dbdbc5a7fc 2708 rust-signal-hook-registry_1.4.0-1.debian.tar.xz 328fbb5cac5ba07d96be37a7ed8cfeb28333195b58871440e7d7d1800229820a1ec9c4eedfe15592f8cc90e88da5bf05ba0e4564ef7616084342450aac9bcbcf 2334 rust-signal-hook-registry_1.4.0-1.dsc b564379e5df1061739734179a69897badf9e2e6b469e091954428b05c3c7143885396df4bd008d77e08dae53729d2267d50fc8563121b086e25d8a5adabf6d6d 17912 rust-signal-hook-registry_1.4.0.orig.tar.gz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-signal-hook-registry"
+  ],
+  "Files": [
+    "043297f249d16208f1de475565db2ba0 2708 rust-signal-hook-registry_1.4.0-1.debian.tar.xz 37f4e1623b75bc09efda1772f11f5290 2334 rust-signal-hook-registry_1.4.0-1.dsc 21b43d5721b3a9c16059acb691f4314d 17912 rust-signal-hook-registry_1.4.0.orig.tar.gz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-signal-hook-registry"
+  ],
+  "Package-List": [
+    "librust-signal-hook-registry-dev deb rust optional arch=any"
+  ],
+  "Standards-Version": [
+    "4.5.1"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-signal-hook-0.3+default-dev"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/signal-hook-registry"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/signal-hook-registry]"
+  ],
+  "Version": [
+    "1.4.0-1"
+  ]
+}

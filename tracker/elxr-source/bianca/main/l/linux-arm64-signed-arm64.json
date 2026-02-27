@@ -1,0 +1,59 @@
+{
+  "Architecture": [
+    "arm64"
+  ],
+  "Binary": [
+    "linux-headers-arm64, linux-headers-arm64-16k, linux-headers-cloud-arm64, linux-headers-rt-arm64, linux-image-6.12.48+deb13-arm64, linux-image-6.12.48+deb13-arm64-16k, linux-image-6.12.48+deb13-cloud-arm64, linux-image-6.12.48+deb13-rt-arm64, linux-image-arm64, linux-image-arm64-16k, linux-image-cloud-arm64, linux-image-rt-arm64"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), python3:any, sbsigntool [amd64 arm64]"
+  ],
+  "Build-Depends-Arch": [
+    "linux-image-6.12.48+deb13-arm64-unsigned (= 6.12.48-elxr4-1) [arm64] \u003c!pkg.linux.nokernel !pkg.linux.quick\u003e, kernel-wedge (\u003e= 2.105~) [arm64] \u003c!pkg.linux.nokernel\u003e, kmod [arm64] \u003c!pkg.linux.nokernel\u003e, rsync [arm64] \u003c!pkg.linux.nokernel\u003e, linux-image-6.12.48+deb13-cloud-arm64-unsigned (= 6.12.48-elxr4-1) [arm64] \u003c!pkg.linux.nokernel\u003e, linux-image-6.12.48+deb13-arm64-16k-unsigned (= 6.12.48-elxr4-1) [arm64] \u003c!pkg.linux.nokernel !pkg.linux.quick\u003e, linux-image-6.12.48+deb13-rt-arm64-unsigned (= 6.12.48-elxr4-1) [arm64] \u003c!pkg.linux.nokernel !pkg.linux.quick\u003e"
+  ],
+  "Checksums-Sha1": [
+    "d80eb7d80de541cbdb135ae857c38dec9b315705 3184 linux-arm64-signed-arm64_6.12.48+elxr4+1.dsc 2d771f49a0c1ec1bd965d75dd08840b1bb9f10be 834656 linux-arm64-signed-arm64_6.12.48+elxr4+1.tar.xz"
+  ],
+  "Checksums-Sha256": [
+    "88b62e65137ab5a0f9db83afeaa661cee2a8d6c1928254ee37d195f61c411a6c 3184 linux-arm64-signed-arm64_6.12.48+elxr4+1.dsc 7632cd7ec67a9fac4560a368b1531ccf91804a615b902de97ffa59bc2865b1e3 834656 linux-arm64-signed-arm64_6.12.48+elxr4+1.tar.xz"
+  ],
+  "Checksums-Sha512": [
+    "5622bd0a2970586cd91f172a98029481d25fa921be124e0efc966039c92c310d12b4a5bbd0e6f264b9084c30288797e0e7f049950976ce89de0d6dc06d76fca1 3184 linux-arm64-signed-arm64_6.12.48+elxr4+1.dsc 52ded6ca5a7217f1bf9029f24c94b9abf90e58beefc9b84f53d2a04c6c2a97f7f63d001b54107f5d218a6d8fe6ab0af25bd26609048e4bb4cf55fc36e57a5970 834656 linux-arm64-signed-arm64_6.12.48+elxr4+1.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/l/linux-arm64-signed-arm64"
+  ],
+  "Files": [
+    "9aca6ed3359f4d5e74b148ca280cb648 3184 linux-arm64-signed-arm64_6.12.48+elxr4+1.dsc ca1b7c8374fed93c4e7a347eea8ffb58 834656 linux-arm64-signed-arm64_6.12.48+elxr4+1.tar.xz"
+  ],
+  "Format": [
+    "3.0 (native)"
+  ],
+  "Homepage": [
+    "https://www.kernel.org/"
+  ],
+  "Maintainer": [
+    "Debian Kernel Team \u003cdebian-kernel@lists.debian.org\u003e"
+  ],
+  "Package": [
+    "linux-arm64-signed-arm64"
+  ],
+  "Package-List": [
+    "linux-headers-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.nometa,!pkg.linux.quick linux-headers-arm64-16k deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.nometa,!pkg.linux.quick linux-headers-cloud-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.nometa linux-headers-rt-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.nometa,!pkg.linux.quick linux-image-6.12.48+deb13-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.quick linux-image-6.12.48+deb13-arm64-16k deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.quick linux-image-6.12.48+deb13-cloud-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel linux-image-6.12.48+deb13-rt-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.quick linux-image-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.nometa,!pkg.linux.quick linux-image-arm64-16k deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.nometa,!pkg.linux.quick linux-image-cloud-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.nometa linux-image-rt-arm64 deb kernel optional arch=arm64 profile=!pkg.linux.nokernel,!pkg.linux.nometa,!pkg.linux.quick"
+  ],
+  "Standards-Version": [
+    "4.2.0"
+  ],
+  "Uploaders": [
+    "Bastian Blank \u003cwaldi@debian.org\u003e, maximilian attems \u003cmaks@debian.org\u003e, Ben Hutchings \u003cbenh@debian.org\u003e, Salvatore Bonaccorso \u003ccarnil@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/kernel-team/linux"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/kernel-team/linux.git"
+  ],
+  "Version": [
+    "6.12.48+elxr4+1"
+  ]
+}
