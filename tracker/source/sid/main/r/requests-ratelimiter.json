@@ -6,16 +6,16 @@
     "python3-requests-ratelimiter"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-setuptools, python3-hatchling, python3-pyrate-limiter \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-requests \u003c!nocheck\u003e, python3-requests-cache \u003c!nocheck\u003e, python3-requests-mock \u003c!nocheck\u003e, python3-all"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-setuptools, python3-hatchling, python3-pyrate-limiter (\u003e= 4.0.0) \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-requests \u003c!nocheck\u003e, python3-requests-cache \u003c!nocheck\u003e, python3-requests-mock \u003c!nocheck\u003e, python3-all"
   ],
   "Checksums-Sha256": [
-    "bf7ff37964a1fb9782de1a3054d4e69ea00e077c0b662f2d35098e5a50458a4c 2478 requests-ratelimiter_0.9.0-1.dsc 332cc3f16142b44d3ac2cbd1db553859157c55418afa4f67e76627d514ed0630 108901 requests-ratelimiter_0.9.0.orig.tar.gz 6c61320f9cf2c3ceb960131b6ad288cdd4a0ef1ff309c28280474f2fef2854b9 2484 requests-ratelimiter_0.9.0-1.debian.tar.xz"
+    "30d25a7d335c614772e4468380444931e230c79efec28b4552debdcc07aa37f5 2488 requests-ratelimiter_0.9.0-2.dsc 332cc3f16142b44d3ac2cbd1db553859157c55418afa4f67e76627d514ed0630 108901 requests-ratelimiter_0.9.0.orig.tar.gz 3cb0b94cc92d4ec9b1d30ec78696ff90988b1a2ea1d0ef1e92b68f1db2506b7a 2568 requests-ratelimiter_0.9.0-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/requests-ratelimiter"
   ],
   "Files": [
-    "9546aba90c9d0c5546aebb193a336706 2478 requests-ratelimiter_0.9.0-1.dsc a1a04268a16818df83b7b05c6f9aef0d 108901 requests-ratelimiter_0.9.0.orig.tar.gz af3c21e7628aef0778c1451b0a137641 2484 requests-ratelimiter_0.9.0-1.debian.tar.xz"
+    "93ffb43751bb61ef7b13b9254244db88 2488 requests-ratelimiter_0.9.0-2.dsc a1a04268a16818df83b7b05c6f9aef0d 108901 requests-ratelimiter_0.9.0.orig.tar.gz 9c1df4505c171df8c7f0df6a879bdcd7 2568 requests-ratelimiter_0.9.0-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "requests-ratelimiter"
   ],
   "Package-List": [
-    "python3-requests-ratelimiter deb python optional arch=all"
+    "python3-requests-ratelimiter deb python unknown arch=all"
   ],
   "Priority": [
     "optional"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/requests-ratelimiter.git"
   ],
   "Version": [
-    "0.9.0-1"
+    "0.9.0-2"
   ]
 }

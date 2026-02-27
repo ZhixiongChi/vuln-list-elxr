@@ -6,16 +6,16 @@
     "r-cran-dqrng"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-rcpp, r-cran-bh, r-cran-sitmo, libpcg-cpp-dev"
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-rcpp, r-cran-bh, r-cran-sitmo, libpcg-cpp-dev, architecture-is-64-bit, architecture-is-little-endian"
   ],
   "Checksums-Sha256": [
-    "7842f080c18b99a1ff075c5652360a1cf8d920ea93afb172a8e047ea7cc2a0e6 2249 r-cran-dqrng_0.3.2+dfsg-1.dsc 0b2c50307a09b7c7f704f211652cbd01efd26802578ef1f6aafd63d28383a9f7 180284 r-cran-dqrng_0.3.2+dfsg.orig.tar.xz b4203bc8f6745de1208df7f37db066c66e3fc5b9f23bcbb45bd00882338d9d21 14264 r-cran-dqrng_0.3.2+dfsg-1.debian.tar.xz"
+    "80c3c965bbea086402a820eac48fc88eda2b8fb2029db4e32b340ddfc9043aa7 2301 r-cran-dqrng_0.3.2+dfsg-2.dsc 0b2c50307a09b7c7f704f211652cbd01efd26802578ef1f6aafd63d28383a9f7 180284 r-cran-dqrng_0.3.2+dfsg.orig.tar.xz 3753c41b566617655bac3c65c0f34f92ed20e39d2ed8e830b231125eec7cd2df 14424 r-cran-dqrng_0.3.2+dfsg-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/r-cran-dqrng"
   ],
   "Files": [
-    "7833639744ec2702b70f11272c9829c9 2249 r-cran-dqrng_0.3.2+dfsg-1.dsc 21eebc98ec39b4baade18f0dd38e3df9 180284 r-cran-dqrng_0.3.2+dfsg.orig.tar.xz 2b2d8465427f0b40e2de336b8342d0f7 14264 r-cran-dqrng_0.3.2+dfsg-1.debian.tar.xz"
+    "47355b33746c6cc0c11734b22cddc9fd 2301 r-cran-dqrng_0.3.2+dfsg-2.dsc 21eebc98ec39b4baade18f0dd38e3df9 180284 r-cran-dqrng_0.3.2+dfsg.orig.tar.xz ba208ac322324370afda2c7be991d236 14424 r-cran-dqrng_0.3.2+dfsg-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-r"
   ],
   "Testsuite-Triggers": [
-    "build-essential, r-cran-bench, r-cran-knitr, r-cran-mvtnorm, r-cran-rmarkdown, r-cran-testthat"
+    "r-cran-bench, r-cran-knitr, r-cran-mvtnorm, r-cran-rmarkdown, r-cran-sitmo, r-cran-testthat"
   ],
   "Uploaders": [
     "Andreas Tille \u003ctille@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/r-pkg-team/r-cran-dqrng.git"
   ],
   "Version": [
-    "0.3.2+dfsg-1"
+    "0.3.2+dfsg-2"
   ]
 }

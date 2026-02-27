@@ -12,13 +12,13 @@
     "cargo:native \u003c!nocheck\u003e, librust-lazy-static-dev \u003c!nocheck\u003e, librust-once-cell-dev \u003c!nocheck\u003e, librust-pest-derive-dev \u003c!nocheck\u003e, librust-pest-dev \u003c!nocheck\u003e, librust-regex-dev \u003c!nocheck\u003e, librust-serde-json-dev \u003c!nocheck\u003e, librust-thiserror-dev \u003c!nocheck\u003e, libstd-rust-dev, rustc:native \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "e443b72d71511cc56a2e177f72cfa8f35c87529159e5a39d9be66256bcf802c6 1773 rust-jsonpath-rust_0.5.1-1.dsc 41b517380384c730d11ca3e0e3b5bd08f1095326f1326a133b425f597c3a5604 28040 rust-jsonpath-rust_0.5.1.orig.tar.xz 724f47a563ec05aea451cb6bc990c0499450fc69eb9c3604944eecf006376fe3 2116 rust-jsonpath-rust_0.5.1-1.debian.tar.xz"
+    "8ec8da34a984e57d0ebe4bc4788fe190cca60dd004a18715ce1f188ecaf9577b 1814 rust-jsonpath-rust_0.7-1.dsc fc70f272a5e295fd8bc815c17cda53fcc0020b655cbf7661092f16a9e7d96b89 35896 rust-jsonpath-rust_0.7.orig.tar.xz cf02678e2d60ec24b52ad2e80d8aea5aa6867413fdf2a7ec63a95af3775e88fc 2228 rust-jsonpath-rust_0.7-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-jsonpath-rust"
   ],
   "Files": [
-    "1a13ebe3e474aa9a53290227b00598ec 1773 rust-jsonpath-rust_0.5.1-1.dsc f6fa09ffafacdc137123db5dc503f7d4 28040 rust-jsonpath-rust_0.5.1.orig.tar.xz 5a23bfae7f38f28258efdb25b289bd63 2116 rust-jsonpath-rust_0.5.1-1.debian.tar.xz"
+    "add67c869101515f78f7ef07e8f6209a 1814 rust-jsonpath-rust_0.7-1.dsc a9872f7f2da3f984bd16b8b8db305531 35896 rust-jsonpath-rust_0.7.orig.tar.xz 8136b793de05d9369bfe24ce7073683a 2228 rust-jsonpath-rust_0.7-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,15 +48,15 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-criterion-0.5+default-dev, rustc"
+    "dh-cargo, librust-criterion-0.5+default-dev, librust-serde-1+default-dev, librust-serde-1+derive-dev, rustc"
   ],
   "Vcs-Browser": [
-    "https://forgejo.debian.net/icann/rust-jsonpath-rust"
+    "https://forgejo.debian.net/rust/rust-jsonpath-rust"
   ],
   "Vcs-Git": [
-    "https://forgejo.debian.net/icann/rust-jsonpath-rust"
+    "https://forgejo.debian.net/rust/rust-jsonpath-rust"
   ],
   "Version": [
-    "0.5.1-1"
+    "0.7-1"
   ]
 }

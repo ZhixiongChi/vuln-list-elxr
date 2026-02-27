@@ -6,16 +6,16 @@
     "libgnatcoll-python3-dev, libgnatcoll-python3-2, libgnatcoll-iconv-dev, libgnatcoll-iconv21, libgnatcoll-readline-dev, libgnatcoll-readline21, libgnatcoll-gmp-dev, libgnatcoll-gmp21, libgnatcoll-syslog-dev, libgnatcoll-syslog4, libgnatcoll-lzma-dev, libgnatcoll-lzma3, libgnatcoll-zlib-dev, libgnatcoll-zlib3, libgnatcoll-omp-dev, libgnatcoll-omp2, libgnatcoll-cpp-dev, libgnatcoll-cpp1"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-ada-library (\u003e= 9.1), dh-sequence-ada-library, gnat, gnat-14, gprbuild (\u003e= 2025.0.0-2), libgmp-dev, libgnatcoll-dev, pkgconf, python3-dev, libpython3-dev, libreadline-dev, liblzma-dev, zlib1g-dev"
+    "debhelper-compat (= 13), dh-ada-library (\u003e= 9.1), dh-sequence-ada-library, gnat, gnat-14, g++-14, gprbuild (\u003e= 2025.0.0-2), libgmp-dev, libgnatcoll-dev, pkgconf, python3-dev, libpython3-dev, libreadline-dev, liblzma-dev, zlib1g-dev"
   ],
   "Checksums-Sha256": [
-    "1543e37e60da5315c029c7b128a303c1d1b39305ef1c14a5debcb736ce0e2137 3485 libgnatcoll-bindings_25.0.0-2.dsc 80ddd7f20adf45f0e155cd43e0a5ba752020616af0b0700447563776acd688a3 299443 libgnatcoll-bindings_25.0.0.orig.tar.gz 1916d003121c75d44e47ab88cbdb6a39ec5bdc87d7c907a7ccb1db349415a454 12148 libgnatcoll-bindings_25.0.0-2.debian.tar.xz"
+    "bf103398776b62e6a73d7b9946f58896461841a6d913ca005f0af479ee430b4d 3505 libgnatcoll-bindings_25.0.0-2.1.dsc 80ddd7f20adf45f0e155cd43e0a5ba752020616af0b0700447563776acd688a3 299443 libgnatcoll-bindings_25.0.0.orig.tar.gz 254c09eec493724d50b0f0ca876296d19a06341078b0503478bd034d621cf89f 12332 libgnatcoll-bindings_25.0.0-2.1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/libg/libgnatcoll-bindings"
   ],
   "Files": [
-    "23e6a2a62b61f461a1567c12e12ac3e8 3485 libgnatcoll-bindings_25.0.0-2.dsc 575a9408717f97b88517893be0903ed4 299443 libgnatcoll-bindings_25.0.0.orig.tar.gz e14b17bfe22177514d5c45b104f13e6e 12148 libgnatcoll-bindings_25.0.0-2.debian.tar.xz"
+    "2644de9d7de9778023c4b9f78b561830 3505 libgnatcoll-bindings_25.0.0-2.1.dsc 575a9408717f97b88517893be0903ed4 299443 libgnatcoll-bindings_25.0.0.orig.tar.gz a36fc5d69965c683bcfeaafdbd09cc8b 12332 libgnatcoll-bindings_25.0.0-2.1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,7 +45,7 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "gprbuild"
+    "g++-14, gprbuild"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/libgnatcoll-bindings"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/libgnatcoll-bindings.git"
   ],
   "Version": [
-    "25.0.0-2"
+    "25.0.0-2.1"
   ]
 }

@@ -6,16 +6,16 @@
     "r-cran-bench"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-glue (\u003e= 1.8.0), r-cran-pillar (\u003e= 1.10.1), r-cran-profmem, r-cran-rlang (\u003e= 1.1.4), r-cran-tibble (\u003e= 3.2.1)"
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-glue (\u003e= 1.8.0), r-cran-pillar (\u003e= 1.10.1), r-cran-profmem, r-cran-rlang (\u003e= 1.1.4), r-cran-tibble (\u003e= 3.2.1), architecture-is-64-bit, architecture-is-little-endian"
   ],
   "Checksums-Sha256": [
-    "25f53361cf08f310ee660deb66c020012e6fc8cba6d56d1860fef520eec6aa58 2353 r-cran-bench_1.1.4-1.dsc b822f5b7648deecc6b516dcca4e932ce92e65eb166b997b04355218aceb1d083 316570 r-cran-bench_1.1.4.orig.tar.gz 425ab813c681bf1e65850a963407b3bb8809548325f4056a5700367accb2f3ac 2416 r-cran-bench_1.1.4-1.debian.tar.xz"
+    "3c710db4725b5aa43d8cd5122c92eff324109e30f02ad20353f10a64fc3d18a0 2408 r-cran-bench_1.1.4-2.dsc b822f5b7648deecc6b516dcca4e932ce92e65eb166b997b04355218aceb1d083 316570 r-cran-bench_1.1.4.orig.tar.gz 2b3d97b0a287163474247bc3600835b7b73bc4f767f59300e3083de1c98de7c2 2944 r-cran-bench_1.1.4-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/r-cran-bench"
   ],
   "Files": [
-    "f10cecb3d5a8f3075bebe043ce8d0521 2353 r-cran-bench_1.1.4-1.dsc 22820416d1567b64e5a7e6b45bc3f954 316570 r-cran-bench_1.1.4.orig.tar.gz 1f9856b9fa019b54a958ae1def18e810 2416 r-cran-bench_1.1.4-1.debian.tar.xz"
+    "3a1890de069f41a229e49d8d81814674 2408 r-cran-bench_1.1.4-2.dsc 22820416d1567b64e5a7e6b45bc3f954 316570 r-cran-bench_1.1.4.orig.tar.gz b56c81ed883bf1d304aac3bb717707b3 2944 r-cran-bench_1.1.4-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-r"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/r-pkg-team/r-cran-bench.git"
   ],
   "Version": [
-    "1.1.4-1"
+    "1.1.4-2"
   ]
 }
