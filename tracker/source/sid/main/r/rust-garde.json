@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-garde-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.84) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-compact-str-0.9-dev \u003c!nocheck\u003e, librust-smallvec-1-dev (\u003e= 1.11.0) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "919e4b6806c1d6ef3f145d3c68fc577f59ac6ab99d798b31bd6a28596d3f22b0 2505 rust-garde_0.22.1-2.dsc 3a74b56a4039a46e8c91cc9d84e8a7df4e1f8b24239ca57d1304b3263cb599b9 48140 rust-garde_0.22.1.orig.tar.gz d87ec6f5cd8c769887dccbd46addfb5da315493c2625ed4233f1cd42b089e55d 4608 rust-garde_0.22.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-garde"
+  ],
+  "Files": [
+    "c76cf34499b8deb2bb409419c6309657 2505 rust-garde_0.22.1-2.dsc 139441e7b9a9d37d071f0e52d099f4c0 48140 rust-garde_0.22.1.orig.tar.gz db4e91f5f8f4d5a9b2cc7f8215108a73 4608 rust-garde_0.22.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/jprochazk/garde"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-garde"
+  ],
+  "Package-List": [
+    "librust-garde-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-glob-0.3+default-dev, librust-insta-1+default-dev, librust-owo-colors-4+default-dev, librust-serde-json-1+default-dev, librust-serde-json-1+preserve-order-dev, librust-trybuild-1+default-dev, librust-wasm-bindgen-test-0.3+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Colin Watson \u003ccjwatson@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/garde"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/garde]"
+  ],
+  "Version": [
+    "0.22.1-2"
+  ]
+}

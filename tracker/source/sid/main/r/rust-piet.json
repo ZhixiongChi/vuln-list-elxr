@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-piet-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-kurbo-0.11+default-dev (\u003e= 0.11.1-~~) \u003c!nocheck\u003e, librust-unic-bidi-0.9+default-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "b58c2a380af3417f59f93a383676a17649967d86375d06b88309ffcfc7d4ff3b 1647 rust-piet_0.7.0-1.dsc 5139c7ec7de4cc21d108484af288b9c335b731194218023acf8b02874ed2b25e 322211 rust-piet_0.7.0.orig.tar.gz 1f3bde7d2fef1ecc9dc1150560939791e402ab804cdf1b4ded45ed300377ffd3 3332 rust-piet_0.7.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-piet"
+  ],
+  "Files": [
+    "dcca35010d193af14bcb03a729fd5961 1647 rust-piet_0.7.0-1.dsc 86eca2a68b10da68676a6f43188bcf58 322211 rust-piet_0.7.0.orig.tar.gz 1d6ecf8016a1218e664643a7f844025c 3332 rust-piet_0.7.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/linebender/piet"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-piet"
+  ],
+  "Package-List": [
+    "librust-piet-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Yifei Zhan \u003cdebian@zhan.science\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/piet"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/piet]"
+  ],
+  "Version": [
+    "0.7.0-1"
+  ]
+}

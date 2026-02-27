@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-jwt \u003c!nodoc\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-paramlinks \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "88db5cac336d22e3058b9bc5220f0ae6f11bc229469926f926b07aefe598e5b1 2179 microsoft-authentication-library-for-python_1.34.0-2.dsc 7308b5a2ff6e9ca19acaf60134918955c65654ade7e7a1ad81e8207f12cf555b 253321 microsoft-authentication-library-for-python_1.34.0.orig.tar.gz 628af1e280114b3f29a24af676e958ca8224d7117a8556f435a6f29eb6c8098b 4204 microsoft-authentication-library-for-python_1.34.0-2.debian.tar.xz"
+    "ae0e8fe8dc913d0b0dcaa5fa5174f6f51918b01827b8c330680584e4eb649295 2565 microsoft-authentication-library-for-python_1.35.0-1.dsc a0220f540be5567abfeba5efdf82353069a8734cada2a3d99e3e5340bfe5f01f 267297 microsoft-authentication-library-for-python_1.35.0.orig.tar.gz 1619ae652abb1f8959d568af96d274a98e8336af4241713864a65f06d4790983 4364 microsoft-authentication-library-for-python_1.35.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/m/microsoft-authentication-library-for-python"
   ],
   "Files": [
-    "2cb70245312842d64999457a3a55ed1f 2179 microsoft-authentication-library-for-python_1.34.0-2.dsc ad7255f24367da824a67cdb104d577f9 253321 microsoft-authentication-library-for-python_1.34.0.orig.tar.gz 3dcfddd2478d9214f618b6a3e0c24da8 4204 microsoft-authentication-library-for-python_1.34.0-2.debian.tar.xz"
+    "fa1236d2397de453364462fe8fb09b8e 2565 microsoft-authentication-library-for-python_1.35.0-1.dsc 51dde63dfac53f521d07df3a8aa7d20a 267297 microsoft-authentication-library-for-python_1.35.0.orig.tar.gz f8c117482a8e5c372b63d4fb8d927020 4364 microsoft-authentication-library-for-python_1.35.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -45,10 +45,10 @@
     "autopkgtest, autopkgtest-pkg-python"
   ],
   "Testsuite-Triggers": [
-    "@builddeps@, python3-all, python3-pytest"
+    "@builddeps@, python3-all, python3-azure, python3-pytest"
   ],
   "Uploaders": [
-    "Luca Boccassi \u003cbluca@debian.org\u003e"
+    "Luca Boccassi \u003cbluca@debian.org\u003e,"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/microsoft-authentication-library-for-python"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/microsoft-authentication-library-for-python.git"
   ],
   "Version": [
-    "1.34.0-2"
+    "1.35.0-1"
   ]
 }

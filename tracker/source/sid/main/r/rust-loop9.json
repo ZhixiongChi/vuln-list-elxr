@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-loop9-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-imgref-1+default-dev (\u003e= 1.7.0) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "eb94bb6859a82a92ec8a74968910a60a77430956fdb37558404e6a8b3df84919 2200 rust-loop9_0.1.5-2.dsc 0fae87c125b03c1d2c0150c90365d7d6bcc53fb73a9acaef207d2d065860f062 3406 rust-loop9_0.1.5.orig.tar.gz 1fbe737b2b17b6c7f4a51aa5646a4f6963c551469d391138a7805c8d54fafcbd 2580 rust-loop9_0.1.5-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-loop9"
+  ],
+  "Files": [
+    "5abbb42f4937d7f450245acf264fada8 2200 rust-loop9_0.1.5-2.dsc 8d1799461ab430664bb120940657a87c 3406 rust-loop9_0.1.5.orig.tar.gz 29c11385468640c16ce3896b8bddb47b 2580 rust-loop9_0.1.5-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://lib.rs/crates/loop9"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-loop9"
+  ],
+  "Package-List": [
+    "librust-loop9-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Jeremy Bícha \u003cjbicha@ubuntu.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/loop9"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/loop9]"
+  ],
+  "Version": [
+    "0.1.5-2"
+  ]
+}

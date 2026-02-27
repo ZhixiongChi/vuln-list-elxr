@@ -9,19 +9,16 @@
     "debhelper-compat (= 13), dpkg-build-api (= 1)"
   ],
   "Build-Depends-Arch": [
-    "git \u003c!nocheck\u003e, libarchive-dev, libcurl4-openssl-dev | libcurl-dev, libpkgconf-dev, ninja-build, pkg-config, python3-yaml:native \u003c!nodoc\u003e, python3:native \u003c!nocheck\u003e \u003c!nodoc\u003e, scdoc \u003c!nodoc\u003e"
+    "git \u003c!nocheck\u003e, libarchive-dev, libcurl4-openssl-dev | libcurl-dev, libgio-2.0-dev \u003c!nocheck\u003e, libglib2.0-bin \u003c!nocheck\u003e, libglib2.0-dev-bin \u003c!nocheck\u003e, libpkgconf-dev (\u003e= 1.9.0), ninja-build, pkg-config, python3-yaml:native \u003c!nodoc\u003e, python3:native \u003c!nocheck\u003e \u003c!nodoc\u003e, scdoc \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "798965ae3741843f65feb9cdac8e944f89c52bb49c1efd8b2a9e5f486ac7ac56 1635 muon-meson_0.4.0-1.dsc 9121f2521fb5037a87a922573b7fd886f0c4e7eb17696dd80901d810b9b56609 3435753 muon-meson_0.4.0.orig.tar.gz 2e8230d942163862cce4c6237c62ec5d81bc46cb00be034d3d86543363f293f6 13712 muon-meson_0.4.0-1.debian.tar.xz"
-  ],
-  "Dgit": [
-    "eb4023e8c867b0a3bca0078ac7f1822091a76aaf debian archive/debian/0.4.0-1 https://git.dgit.debian.org/muon-meson"
+    "9a36c3f4ab692eed9022d22af4a276c7ef96b577a093f825ec38585d0bfa16a9 2227 muon-meson_0.5.0-1.1.dsc 24aa4d29ed272893f6e6d355b1ec4ef20647438454e88161bdb9defd7c6faf77 1262546 muon-meson_0.5.0.orig.tar.gz 545d556bcb2771cbf70a0103a506f391c842fcc3a93523edf6663c9c23794344 13512 muon-meson_0.5.0-1.1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/m/muon-meson"
   ],
   "Files": [
-    "fa40d2a5fc09e884527285c9d66bc94f 1635 muon-meson_0.4.0-1.dsc 058215462aface63252f9a89ae65bac3 3435753 muon-meson_0.4.0.orig.tar.gz 3c01b5af787a170af43af07902ea2b0e 13712 muon-meson_0.4.0-1.debian.tar.xz"
+    "5017a22cfaffe28f5e579a1e5913b850 2227 muon-meson_0.5.0-1.1.dsc 720083c5f03f4d2b199f4a0cbbc3f925 1262546 muon-meson_0.5.0.orig.tar.gz 0cbd6bcfd802db690576c64b3101a4e5 13512 muon-meson_0.5.0-1.1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/debian/muon-meson.git"
   ],
   "Version": [
-    "0.4.0-1"
+    "0.5.0-1.1"
   ]
 }

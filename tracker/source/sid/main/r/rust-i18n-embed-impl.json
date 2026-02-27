@@ -6,16 +6,19 @@
     "librust-i18n-embed-impl-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-cargo, cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev \u003c!nocheck\u003e, librust-syn-2+default-dev \u003c!nocheck\u003e, librust-syn-2+derive-dev \u003c!nocheck\u003e, librust-syn-2+extra-traits-dev \u003c!nocheck\u003e, librust-syn-2+parsing-dev \u003c!nocheck\u003e, librust-syn-2+printing-dev \u003c!nocheck\u003e, librust-syn-2+proc-macro-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev \u003c!nocheck\u003e, librust-syn-2+default-dev \u003c!nocheck\u003e, librust-syn-2+derive-dev \u003c!nocheck\u003e, librust-syn-2+extra-traits-dev \u003c!nocheck\u003e, librust-syn-2+parsing-dev \u003c!nocheck\u003e, librust-syn-2+printing-dev \u003c!nocheck\u003e, librust-syn-2+proc-macro-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "38cee3489fe340366f7db6301dd73e04e409b6edb57337f1423b98b09ed4dc1f 2638 rust-i18n-embed-impl_0.8.4-1.dsc 0f2cc0e0523d1fe6fc2c6f66e5038624ea8091b3e7748b5e8e0c84b1698db6c2 4830 rust-i18n-embed-impl_0.8.4.orig.tar.gz 6b3127d6845f53e51945f91fa4cfe534d71ca0f8124638bd9b4f3c35c88c3cdd 2984 rust-i18n-embed-impl_0.8.4-1.debian.tar.xz"
+    "ebcad27dec0ec2d5884e028fccc5baa3b38f8fc9a9eee272c65e12516a2336f3 2022 rust-i18n-embed-impl_0.8.4-2.dsc 0f2cc0e0523d1fe6fc2c6f66e5038624ea8091b3e7748b5e8e0c84b1698db6c2 4830 rust-i18n-embed-impl_0.8.4.orig.tar.gz d1f04c0d73d274b599b8cfd1bef9f1dff4deea076fc63c07377180fc42d26caf 3120 rust-i18n-embed-impl_0.8.4-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-i18n-embed-impl"
   ],
   "Files": [
-    "da97fc13b76ef03af5825cc92c3b9a48 2638 rust-i18n-embed-impl_0.8.4-1.dsc bbd70cd35feec23421f0bcc6fd62b037 4830 rust-i18n-embed-impl_0.8.4.orig.tar.gz 0540b61367175cc1d36ca17867971593 2984 rust-i18n-embed-impl_0.8.4-1.debian.tar.xz"
+    "a4b5ea3de5dab7d60e1a5a738b15ab50 2022 rust-i18n-embed-impl_0.8.4-2.dsc bbd70cd35feec23421f0bcc6fd62b037 4830 rust-i18n-embed-impl_0.8.4.orig.tar.gz 284767460f154f3ca4ac2895ef37c206 3120 rust-i18n-embed-impl_0.8.4-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/i18n-embed-impl]"
   ],
   "Version": [
-    "0.8.4-1"
+    "0.8.4-2"
   ]
 }

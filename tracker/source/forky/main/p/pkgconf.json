@@ -3,19 +3,25 @@
     "any"
   ],
   "Binary": [
-    "pkgconf, pkgconf-bin, libpkgconf3, libpkgconf-dev, pkg-config"
+    "pkgconf, pkgconf-bin, libpkgconf7, libpkgconf-dev, pkg-config, bomtool"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), kyua \u003c!nocheck\u003e, atf-sh \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dpkg-build-api (= 1)"
+  ],
+  "Build-Depends-Arch": [
+    "kyua \u003c!nocheck\u003e, atf-sh \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "782a764448d1ecf39f80c7a1747c28fcbde1800b615eee6a46639a17e58b62f9 2130 pkgconf_1.8.1-4.dsc 644361ada2942be05655d4452eb018791647c31bba429b287f1f68deb2dc6840 302372 pkgconf_1.8.1.orig.tar.xz e56c56a5f40eb0d57bebcb79983a755e16cf1e1595a6fec7f02b20bd58baa734 17736 pkgconf_1.8.1-4.debian.tar.xz"
+    "8c5d2e4fed77764804cd20309bb9f8589bb39b52d215e3318e2e2c0dffd7982f 1772 pkgconf_2.5.1-4.dsc cd05c9589b9f86ecf044c10a2269822bc9eb001eced2582cfffd658b0a50c243 328064 pkgconf_2.5.1.orig.tar.xz 8bcd8fcbcfaceeb7ae2519247dfab0b4f422b56782b48060ec39085abc93eeef 11116 pkgconf_2.5.1-4.debian.tar.xz"
+  ],
+  "Dgit": [
+    "32f22007825a8ba9826807f737f79a047cafec5f debian archive/debian/2.5.1-4 https://git.dgit.debian.org/pkgconf"
   ],
   "Directory": [
     "pool/main/p/pkgconf"
   ],
   "Files": [
-    "910b89a30356a81626654719512fa7cb 2130 pkgconf_1.8.1-4.dsc 51fad3383640dfc47a92731581dd2917 302372 pkgconf_1.8.1.orig.tar.xz 37cad92e0b93810e056250ffe294b9c0 17736 pkgconf_1.8.1-4.debian.tar.xz"
+    "27b92dc0599d23e9dafd5051f788a9c3 1772 pkgconf_2.5.1-4.dsc 3291128c917fdb8fccd8c9e7784b643b 328064 pkgconf_2.5.1.orig.tar.xz a36eaaa3926585a2bd7c704a8cfe4d86 11116 pkgconf_2.5.1-4.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +36,7 @@
     "pkgconf"
   ],
   "Package-List": [
-    "libpkgconf-dev deb libdevel optional arch=any libpkgconf3 deb libs optional arch=any pkg-config deb oldlibs optional arch=any pkgconf deb devel optional arch=any pkgconf-bin deb devel optional arch=any"
+    "bomtool deb devel optional arch=any libpkgconf-dev deb libdevel optional arch=any libpkgconf7 deb libs optional arch=any pkg-config deb oldlibs optional arch=any pkgconf deb devel optional arch=any pkgconf-bin deb devel optional arch=any"
   ],
   "Priority": [
     "optional"
@@ -39,13 +45,16 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
     "@builddeps@, libsdl2-dev"
+  ],
+  "Uploaders": [
+    "Andrea Pappacoda \u003ctachi@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/pkgconf"
@@ -54,6 +63,6 @@
     "https://salsa.debian.org/debian/pkgconf.git"
   ],
   "Version": [
-    "1.8.1-4"
+    "2.5.1-4"
   ]
 }
