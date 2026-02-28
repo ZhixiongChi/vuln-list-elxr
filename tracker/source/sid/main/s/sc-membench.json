@@ -6,16 +6,16 @@
     "sc-membench"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), libhwloc-dev, libudev-dev, libnuma-dev, libhugetlbfs-dev, libopenmpi-dev"
+    "debhelper-compat (= 13), libhwloc-dev, libudev-dev [!hurd-amd64 !hurd-i386], libnuma-dev [!hurd-amd64 !hurd-i386], libhugetlbfs-dev [!alpha !hppa !m68k !sh4 !x32], libopenmpi-dev [!i386 !armhf]"
   ],
   "Checksums-Sha256": [
-    "930ef5ff94e7b61cf14f1d11ce76bd50a453872c0a204b665f87e22bb2735727 1949 sc-membench_1.2.1-1.dsc f02c249f092c0a1260b9f34f9e4b5ce94a1ac3aa4e7e3831cc94be4f1634ddfc 38800 sc-membench_1.2.1.orig.tar.gz b2212c3916fdcae1b4de11499574dd96108ad276326f09e50ae102e119a6fd91 4384 sc-membench_1.2.1-1.debian.tar.xz"
+    "0088a89f1eb1acfe94373a9ecc125e5dcbf5db26c7ea1aae98f5318ea22fae1b 2024 sc-membench_1.2.1-3.dsc f02c249f092c0a1260b9f34f9e4b5ce94a1ac3aa4e7e3831cc94be4f1634ddfc 38800 sc-membench_1.2.1.orig.tar.gz 193ace219429d8a844e85a8aa565e3f6cb9537dd44c48da0ece9fb5665e46c0f 4696 sc-membench_1.2.1-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/s/sc-membench"
   ],
   "Files": [
-    "16095df052f71c11281cb735f0b9b2a3 1949 sc-membench_1.2.1-1.dsc de27489f61880d9f6b9e53ac5c0c558b 38800 sc-membench_1.2.1.orig.tar.gz 446e06fce35127bd83fcbd8e42f96c98 4384 sc-membench_1.2.1-1.debian.tar.xz"
+    "40d068cc6936e1bda1e218a77255cb33 2024 sc-membench_1.2.1-3.dsc de27489f61880d9f6b9e53ac5c0c558b 38800 sc-membench_1.2.1.orig.tar.gz 2e686a87cf82b033c58737d50f34c9c6 4696 sc-membench_1.2.1-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "utils"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/sc-membench"
@@ -48,6 +48,6 @@
     "https://salsa.debian.org/debian/sc-membench.git"
   ],
   "Version": [
-    "1.2.1-1"
+    "1.2.1-3"
   ]
 }
