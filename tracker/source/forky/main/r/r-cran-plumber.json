@@ -6,16 +6,16 @@
     "r-cran-plumber"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-r6, r-cran-stringi, r-cran-jsonlite, r-cran-webutils, r-cran-httpuv (\u003e= 1.5.5), r-cran-crayon, r-cran-promises, r-cran-sodium, r-cran-swagger, r-cran-magrittr, r-cran-mime, r-cran-lifecycle (\u003e= 1.0.0), r-cran-rlang (\u003e= 1.0.0), r-cran-knitr, r-cran-markdown"
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-crayon, r-cran-httpuv, r-cran-jsonlite, r-cran-lifecycle, r-cran-magrittr, r-cran-mime, r-cran-promises, r-cran-r6, r-cran-rlang, r-cran-sodium, r-cran-stringi, r-cran-swagger, r-cran-webutils, r-cran-knitr, r-cran-markdown, architecture-is-64-bit, architecture-is-little-endian"
   ],
   "Checksums-Sha256": [
-    "de05ea88db7f6835b5e06084c5a02a5d2fe29c81dfa9e6397b24b44db6f089ab 2642 r-cran-plumber_1.3.0+ds-1.dsc c00b26778be03220a5f683d450404bd698f4d65ee73807993bacf7c7e5ab187a 535132 r-cran-plumber_1.3.0+ds.orig.tar.xz 170822c57f27e1e6a71d3bd3b6d247ce38b38bdc1d0e2624fd69b268832f4392 5180 r-cran-plumber_1.3.0+ds-1.debian.tar.xz"
+    "db697a98faeab3ae4745344113d78b587450ef1518ccbe7a1463c70372ecbd0d 2692 r-cran-plumber_1.3.3+ds-1.dsc e7f6878c781f2adfbb531fa3f4548765448f9229fc083be570805ca0f12abcac 538424 r-cran-plumber_1.3.3+ds.orig.tar.xz 8056642ca9a338ab84cb0b884cac6db6c1689473b376d456808c7ca5a1f7b244 5236 r-cran-plumber_1.3.3+ds-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/r-cran-plumber"
   ],
   "Files": [
-    "4974db9d6cded531f05d760a7aaf6bae 2642 r-cran-plumber_1.3.0+ds-1.dsc ce50762994ae7dd7974727f98a56e95d 535132 r-cran-plumber_1.3.0+ds.orig.tar.xz cdf2823afa870ee0a3b6d7610842ba1a 5180 r-cran-plumber_1.3.0+ds-1.debian.tar.xz"
+    "249d3118723d754255ab0da748d42461 2692 r-cran-plumber_1.3.3+ds-1.dsc b5855f3632b237aa98f4ebefb7db41b6 538424 r-cran-plumber_1.3.3+ds.orig.tar.xz 34e282728609e1057a5dbc78017f0567 5236 r-cran-plumber_1.3.3+ds-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.1"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-r"
   ],
   "Testsuite-Triggers": [
-    "r-cran-base64enc, r-cran-future, r-cran-htmlwidgets, r-cran-later, r-cran-mockery, r-cran-ragg, r-cran-readr, r-cran-readxl, r-cran-rmarkdown, r-cran-rstudioapi, r-cran-sf, r-cran-spelling, r-cran-svglite, r-cran-testthat, r-cran-visnetwork, r-cran-writexl, r-cran-yaml"
+    "r-cran-arrow, r-cran-base64enc, r-cran-future, r-cran-htmlwidgets, r-cran-later, r-cran-mockery, r-cran-ragg, r-cran-readr, r-cran-readxl, r-cran-rmarkdown, r-cran-rstudioapi, r-cran-sf, r-cran-spelling, r-cran-svglite, r-cran-testthat, r-cran-visnetwork, r-cran-withr, r-cran-writexl, r-cran-yaml"
   ],
   "Uploaders": [
     "Andreas Tille \u003ctille@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/r-pkg-team/r-cran-plumber.git"
   ],
   "Version": [
-    "1.3.0+ds-1"
+    "1.3.3+ds-1"
   ]
 }

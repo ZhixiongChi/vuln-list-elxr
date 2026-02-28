@@ -6,19 +6,19 @@
     "libpanel-1-1, libpanel-dev, libpanel-common, libpanel-doc, gir1.2-panel-1"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gir1.2-adw-1-dev, gir1.2-gtk-4.0-dev, gobject-introspection (\u003e= 1.80), libadwaita-1-dev (\u003e= 1.6~beta), libglib2.0-dev (\u003e= 2.80), libgtk-4-dev (\u003e= 4.15), meson (\u003e= 0.60), valac"
+    "debhelper-compat (= 13), dh-sequence-gir, dh-sequence-gnome, gir1.2-adw-1-dev, gir1.2-gtk-4.0-dev, gobject-introspection (\u003e= 1.80), libadwaita-1-dev (\u003e= 1.6~beta), libglib2.0-dev (\u003e= 2.80), libgtk-4-dev (\u003e= 4.15), meson, valac"
   ],
   "Build-Depends-Indep": [
     "gi-docgen \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "2884ec3bad5915c72a6e08e9fc73fe845bc0d24aa7a7a8c07fc98000352c6f9e 2539 libpanel_1.10.3-1.dsc 42a01baf8b94440f194ea8342b244bd6992dfb024ca3160c9477ff498ec3a2b6 167568 libpanel_1.10.3.orig.tar.xz 7ea674e087ff0e5166f121fb9636bf4751680bab9b4c60517e4085635e1d6ef2 7260 libpanel_1.10.3-1.debian.tar.xz"
+    "4b60322aa509519c8c9eb7d455346780e9aeeda10ea6ab9eed19c31d945e7418 2529 libpanel_1.10.4-1.dsc 593888a7691f0af8aaa6e193c9e14afa86a810c0c2f27515c6d813f18733b1cd 169424 libpanel_1.10.4.orig.tar.xz 00c15df89b84d3bf64397c2023cd7741f556921727950d34a9897250965a4b90 7296 libpanel_1.10.4-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/libp/libpanel"
   ],
   "Files": [
-    "67f19e911fcb4b51e7ad598e1e89edbd 2539 libpanel_1.10.3-1.dsc 0702d74ec89c99c652ebab1174561d4f 167568 libpanel_1.10.3.orig.tar.xz f4c7f7708bb384d50d94c01195f9a947 7260 libpanel_1.10.3-1.debian.tar.xz"
+    "ceda3ad25ba3e0787470dec55cfe0938 2529 libpanel_1.10.4-1.dsc ce9b0046010a365761115fb31b10d251 169424 libpanel_1.10.4.orig.tar.xz 739e3813c2b38082cd559188812d0938 7296 libpanel_1.10.4-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/gnome-team/libpanel.git"
   ],
   "Version": [
-    "1.10.3-1"
+    "1.10.4-1"
   ]
 }

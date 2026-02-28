@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), dh-sequence-cargo"
   ],
   "Build-Depends-Arch": [
-    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-fast-image-resize-5+default-dev (\u003e= 5.1-~~) \u003c!nocheck\u003e, librust-fast-image-resize-5+image-dev (\u003e= 5.1-~~) \u003c!nocheck\u003e, librust-image-0.25-dev \u003c!nocheck\u003e, librust-imageproc-0.25+default-dev \u003c!nocheck\u003e, librust-itertools+default-dev (\u003c\u003c 0.15-~~) \u003c!nocheck\u003e, librust-itertools+default-dev (\u003e= 0.13-~~) \u003c!nocheck\u003e, librust-rand+default-dev (\u003c\u003c 0.10-~~) \u003c!nocheck\u003e, librust-rand+default-dev (\u003e= 0.8-~~) \u003c!nocheck\u003e"
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-fast-image-resize-6+default-dev \u003c!nocheck\u003e, librust-fast-image-resize-6+image-dev \u003c!nocheck\u003e, librust-image-0.25-dev \u003c!nocheck\u003e, librust-imageproc-0.25+default-dev \u003c!nocheck\u003e, librust-itertools+default-dev (\u003c\u003c 0.15) \u003c!nocheck\u003e, librust-itertools+default-dev (\u003e= 0.13) \u003c!nocheck\u003e, librust-rand+default-dev (\u003c\u003c 0.10) \u003c!nocheck\u003e, librust-rand+default-dev (\u003e= 0.8) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "085d5604dc8d702612fb09374e87e8e0d07ea9c262d67c98a5345ea58c0f93dd 2788 rust-vid-dup-finder-common_0.3.0-4.dsc b601345173cab95df37a54b3351a77f85a9d11429487310b6a2e49ac37bc1942 23712 rust-vid-dup-finder-common_0.3.0.orig.tar.gz 24a382d43343c19b573e2cd674b18a36c821500a8225ec9a55e43b2b76011e66 3000 rust-vid-dup-finder-common_0.3.0-4.debian.tar.xz"
+    "b8620230718c0dbf06540a47397ceefed8746ee59467aa4aaf1ae53377691493 2722 rust-vid-dup-finder-common_0.3.0-5.dsc b601345173cab95df37a54b3351a77f85a9d11429487310b6a2e49ac37bc1942 23712 rust-vid-dup-finder-common_0.3.0.orig.tar.gz db55e31b6d892234737c60b0628caf94bcf1310940ff9de9c17d888960b47ae9 3124 rust-vid-dup-finder-common_0.3.0-5.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-vid-dup-finder-common"
   ],
   "Files": [
-    "e871e638276aad363d7d7bf221bc5b41 2788 rust-vid-dup-finder-common_0.3.0-4.dsc 58900bfa6ad0ee8318375ebd34e3d590 23712 rust-vid-dup-finder-common_0.3.0.orig.tar.gz a4d8b7d875de4067a55f2a2efbeca9f5 3000 rust-vid-dup-finder-common_0.3.0-4.debian.tar.xz"
+    "2abdf184d59767b2a4ec34be7bf36125 2722 rust-vid-dup-finder-common_0.3.0-5.dsc 58900bfa6ad0ee8318375ebd34e3d590 23712 rust-vid-dup-finder-common_0.3.0.orig.tar.gz 5b03af0b1c4b2faaf3bdcfcb4f39821a 3124 rust-vid-dup-finder-common_0.3.0-5.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/vid-dup-finder-common]"
   ],
   "Version": [
-    "0.3.0-4"
+    "0.3.0-5"
   ]
 }

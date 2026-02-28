@@ -12,13 +12,13 @@
     "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.64) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-matrixmultiply-0.3+cgemm-dev (\u003e= 0.3.2-~~) \u003c!nocheck\u003e, librust-matrixmultiply-0.3+std-dev (\u003e= 0.3.2-~~) \u003c!nocheck\u003e, librust-num-complex-0.4-dev \u003c!nocheck\u003e, librust-num-integer-0.1-dev (\u003e= 0.1.39-~~) \u003c!nocheck\u003e, librust-num-traits-0.2+std-dev \u003c!nocheck\u003e, librust-num-traits-0.2-dev \u003c!nocheck\u003e, librust-rawpointer-0.2+default-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "4c01aa804cca3895a26fd74120643e5c22d2b9fd01c7eaf507fac9bc1b434b5b 2714 rust-ndarray_0.16.1-2.dsc 882ed72dce9365842bf196bdeedf5055305f11fc8c03dee7bb0194a6cad34841 291026 rust-ndarray_0.16.1.orig.tar.gz 9459c48008beaa3a27c32668926b9f475bcc25653fb30710dc41f6c0e62418c8 6556 rust-ndarray_0.16.1-2.debian.tar.xz"
+    "55daf6b3dee744dda7d2538875da673479b2c46540f59b826b32c6d4da1549ee 2741 rust-ndarray_0.17.2-1.dsc 520080814a7a6b4a6e9070823bb24b4531daac8c4627e08ba5de8c5ef2f2752d 243631 rust-ndarray_0.17.2.orig.tar.gz a34d65b1772d84aff4404c89c3e5ba3c4c72dfac75b18f893d453d706853eeca 4652 rust-ndarray_0.17.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-ndarray"
   ],
   "Files": [
-    "381368c04f6b244ea2d68ce353f2a71f 2714 rust-ndarray_0.16.1-2.dsc 5137916a87f5881178029983bc6bde79 291026 rust-ndarray_0.16.1.orig.tar.gz a0bbdcd614efa854871318d6c2ccb462 6556 rust-ndarray_0.16.1-2.debian.tar.xz"
+    "e2d190f48ae86c58114e317640c5b69f 2741 rust-ndarray_0.17.2-1.dsc 566b6647670c4d36c44485917646026a 243631 rust-ndarray_0.17.2.orig.tar.gz 4209a676fdb6049b5aeb2c14ae5f68b0 4652 rust-ndarray_0.17.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,10 +48,10 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-approx-0.5+default-dev, librust-defmac-0.2+default-dev, librust-itertools-0.13+use-std-dev, librust-quickcheck-1-dev, rustc"
+    "dh-cargo, librust-approx-0.5+default-dev, librust-defmac-0.2+default-dev, librust-itertools-0.14+use-std-dev, librust-quickcheck-1-dev, rustc"
   ],
   "Uploaders": [
-    "Kohei Sendai \u003ckouhei.sendai@gmail.com\u003e, Fab Stz \u003cfabstz-it@yahoo.fr\u003e"
+    "Kohei Sendai \u003ckouhei.sendai@gmail.com\u003e, Fab Stz \u003cfabstz-it@yahoo.fr\u003e, Mo Zhou \u003clumin@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/ndarray"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/ndarray]"
   ],
   "Version": [
-    "0.16.1-2"
+    "0.17.2-1"
   ]
 }

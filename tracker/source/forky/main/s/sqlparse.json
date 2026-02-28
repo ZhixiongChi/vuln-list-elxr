@@ -6,19 +6,16 @@
     "python3-sqlparse, python-sqlparse-doc, sqlformat"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, python3-all, pybuild-plugin-pyproject, python3-hatchling, python3-sphinx, python3-pytest, python3-setuptools"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-hatchling, python3-pytest, python3-setuptools, python3-sphinx"
   ],
   "Checksums-Sha256": [
-    "acb51188936fc02b88a08c2c4dcc523315139f05357677c7b678606a94f2f02e 2340 sqlparse_0.5.4-1.dsc 4396a7d3cf1cd679c1be976cf3dc6e0a51d0111e87787e7a8d780e7d5a998f9e 120112 sqlparse_0.5.4.orig.tar.gz f30317f55b1db30b07e8c4ee4612d0e93694cd6c28d5c585b723e2852e1709ee 5568 sqlparse_0.5.4-1.debian.tar.xz"
-  ],
-  "Dgit": [
-    "1283b901cd3f751bf64c0c36d06cf74a3e19909b debian archive/debian/0.5.4-1 https://git.dgit.debian.org/sqlparse"
+    "00617d18699de92d976b7eaf137412801d7501a64f04c61fe351fe067d6c4e11 2250 sqlparse_0.5.5-1.dsc e20d4a9b0b8585fdf63b10d30066c7c94c5d7a7ec47c889a2d83a3caa93ff28e 120815 sqlparse_0.5.5.orig.tar.gz 471a9743eee762ff7cac3219054ee2dd13fc30c3a769fa52cf41113f16c64f63 5684 sqlparse_0.5.5-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/s/sqlparse"
   ],
   "Files": [
-    "c52ad313323243fb3628f3efe87a7a9f 2340 sqlparse_0.5.4-1.dsc b5bf6082e38fb99bf8217f429b73346a 120112 sqlparse_0.5.4.orig.tar.gz 6f00da6d507442dc682fb7088f73a1c1 5568 sqlparse_0.5.4-1.debian.tar.xz"
+    "912e5a80fcbfa59a21d7e7c5bf1b3bf8 2250 sqlparse_0.5.5-1.dsc 2023800dc264c2fedab3250a8eb43995 120815 sqlparse_0.5.5.orig.tar.gz a7e2718c9379261575894e02b06dcacb 5684 sqlparse_0.5.5-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +39,13 @@
     "python"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-pybuild"
   ],
   "Uploaders": [
-    "Andrii Senkovych \u003candrii@senkovych.com\u003e,"
+    "Andrii Senkovych \u003candrii@senkovych.com\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/sqlparse"
@@ -57,6 +54,6 @@
     "https://salsa.debian.org/python-team/packages/sqlparse.git"
   ],
   "Version": [
-    "0.5.4-1"
+    "0.5.5-1"
   ]
 }

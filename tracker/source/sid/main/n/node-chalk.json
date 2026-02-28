@@ -9,13 +9,13 @@
     "debhelper-compat (= 13), dh-sequence-nodejs (\u003e= 0.12.3~), node-ansi-styles, node-execa \u003c!nocheck\u003e, node-has-ansi \u003c!nocheck\u003e, node-resolve-from \u003c!nocheck\u003e, node-rollup-plugin-commonjs, node-rollup-plugin-node-resolve, node-strip-ansi \u003c!nocheck\u003e, node-supports-color, ava \u003c!nocheck\u003e, rollup"
   ],
   "Checksums-Sha256": [
-    "0b41fbf0d0e9b5ec68d0242dcd9c37e8756e82e56c97c58e586df83174a46d8e 2278 node-chalk_5.6.2+dfsg-2.dsc 260bac5013a028944262065e58e8860975497cf9d12f6f9652bbf562de55379c 298620 node-chalk_5.6.2+dfsg.orig.tar.xz 74f2d1586c4800271ef53c01adc7a7538fed6dde1d252b611cbee06d68d1bacc 6380 node-chalk_5.6.2+dfsg-2.debian.tar.xz"
+    "e8ae55eb94611909fa91dd28d143a178433d068ee376f0bfd03ca1ad3178fbfd 2319 node-chalk_5.6.2+dfsg-3.dsc 260bac5013a028944262065e58e8860975497cf9d12f6f9652bbf562de55379c 298620 node-chalk_5.6.2+dfsg.orig.tar.xz 6c3af5c52668af2119d3390a4b4f92b4d9dfbe71ab039aa751fff652d466a72e 6456 node-chalk_5.6.2+dfsg-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/n/node-chalk"
   ],
   "Files": [
-    "2067ed966f065c758c65f22e32e508a0 2278 node-chalk_5.6.2+dfsg-2.dsc 4b0c606c67812ab309e1f1517745ccd7 298620 node-chalk_5.6.2+dfsg.orig.tar.xz dbfb22cfa2053a59e89c785ba2b7e3eb 6380 node-chalk_5.6.2+dfsg-2.debian.tar.xz"
+    "d44a40a5c7a7b9d3bb737aec1ed00eb3 2319 node-chalk_5.6.2+dfsg-3.dsc 4b0c606c67812ab309e1f1517745ccd7 298620 node-chalk_5.6.2+dfsg.orig.tar.xz 308e80d3e30297638d40ae43451f35e5 6456 node-chalk_5.6.2+dfsg-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,10 @@
     "4.7.3"
   ],
   "Testsuite": [
-    "autopkgtest-pkg-nodejs"
+    "autopkgtest, autopkgtest-pkg-nodejs"
+  ],
+  "Testsuite-Triggers": [
+    "yarnpkg"
   ],
   "Uploaders": [
     "Mathias Behrle \u003cmbehrle@debian.org\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/js-team/node-chalk.git"
   ],
   "Version": [
-    "5.6.2+dfsg-2"
+    "5.6.2+dfsg-3"
   ]
 }

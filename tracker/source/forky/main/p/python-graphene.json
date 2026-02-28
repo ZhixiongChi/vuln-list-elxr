@@ -6,19 +6,19 @@
     "python-graphene-doc, python3-graphene"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, python3-all"
+    "debhelper-compat (= 13), dh-sequence-python3, dh-sequence-sphinxdoc, python3-all, python3-setuptools"
   ],
   "Build-Depends-Indep": [
-    "python3-aniso8601, python3-dateutil \u003c!nocheck\u003e, python3-graphql-core (\u003e\u003e 3.1), python3-graphql-relay (\u003e\u003e 3.1), python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-benchmark \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-pytest-mock \u003c!nocheck\u003e, python3-setuptools, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e, python3-tz \u003c!nocheck\u003e"
+    "python3-aniso8601, python3-dateutil \u003c!nocheck\u003e, python3-graphql-core (\u003e\u003e 3.1), python3-graphql-relay (\u003e\u003e 3.1), python3-pytest \u003c!nocheck\u003e, python3-pytest-asyncio \u003c!nocheck\u003e, python3-pytest-benchmark \u003c!nocheck\u003e, python3-pytest-cov \u003c!nocheck\u003e, python3-pytest-mock \u003c!nocheck\u003e, python3-sphinx \u003c!nodoc\u003e, python3-sphinx-rtd-theme \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "ab00138cdd324ba635997ce5b2fead7325050e7c9aefd1c1e9f605fbb69037f9 2809 python-graphene_3.4.3-2.dsc 618ddfb116a090b3655420ea3c16f6a7d75869a50818cdfce4ca88729aa4543d 111153 python-graphene_3.4.3.orig.tar.gz 6044f00b8b91428c0aa528d0983e2ef087cf833e0d66cef0a01ba48fe4e20575 5980 python-graphene_3.4.3-2.debian.tar.xz"
+    "4f602a5805175190c122f70a5d1f609bc1b0e3b96addcef725364406e314a46f 2797 python-graphene_3.4.3-3.dsc 618ddfb116a090b3655420ea3c16f6a7d75869a50818cdfce4ca88729aa4543d 111153 python-graphene_3.4.3.orig.tar.gz 99c0bf47dd889416e5e2a5aa143e434b7ea448e5a9fddad99b8d2024bfadb5aa 6220 python-graphene_3.4.3-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-graphene"
   ],
   "Files": [
-    "78cc0156af94413f4564a72c5ccb4a49 2809 python-graphene_3.4.3-2.dsc 8425b8cc65e3e77b8f7c7a51f3512bd2 111153 python-graphene_3.4.3.orig.tar.gz b6340f237775c1caf7ea9a541b09a8f5 5980 python-graphene_3.4.3-2.debian.tar.xz"
+    "c39ee25be37067c45e1b7f54e3be224e 2797 python-graphene_3.4.3-3.dsc 8425b8cc65e3e77b8f7c7a51f3512bd2 111153 python-graphene_3.4.3.orig.tar.gz 11e49698bd98939d00d8744b48ec5ee6 6220 python-graphene_3.4.3-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,16 +42,16 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "python3-all, python3-graphql-core, python3-graphql-relay, python3-promise, python3-pytest, python3-pytest-asyncio, python3-pytest-benchmark, python3-pytest-cov, python3-pytest-mock, python3-tz"
+    "python3-all, python3-graphql-core, python3-graphql-relay, python3-promise, python3-pytest, python3-pytest-asyncio, python3-pytest-benchmark, python3-pytest-cov, python3-pytest-mock"
   ],
   "Uploaders": [
-    "Carsten Schoenert \u003cc.schoenert@t-online.de\u003e,"
+    "Carsten Schoenert \u003cc.schoenert@t-online.de\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-graphene/commits/debian/master"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/python-team/packages/python-graphene.git -b debian/master"
   ],
   "Version": [
-    "3.4.3-2"
+    "3.4.3-3"
   ]
 }

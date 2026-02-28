@@ -6,19 +6,19 @@
     "wxmaxima, wxmaxima-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake, libwxgtk3.2-dev, maxima, po4a, appstream, xvfb, netcat-openbsd, xauth, desktop-file-utils, appstream-util, libwxgtk-webview3.2-dev"
+    "debhelper-compat (= 13), libwxgtk3.2-dev, libwxgtk-webview3.2-dev, wx3.2-i18n, ibus-gtk, ibus-gtk3, maxima, maxima-doc, maxima-share, cmake, gettext, po4a, appstream, xvfb, netcat-openbsd, xauth, desktop-file-utils, appstream-util"
   ],
   "Build-Depends-Indep": [
-    "pandoc, imagemagick, texlive-latex-base, texlive-latex-extra, texlive-xetex, lmodern, texlive-fonts-recommended, texlive-fonts-extra-links, texlive-lang-cjk, texlive-lang-chinese, fonts-noto-cjk"
+    "pandoc, imagemagick, texlive-latex-base, texlive-latex-extra, texlive-xetex, texlive-lang-all, lmodern, texlive-fonts-recommended, texlive-fonts-extra-links, fonts-noto-cjk"
   ],
   "Checksums-Sha256": [
-    "9bac37f2e5168ea763ea5dadbc8d7731763edb4c66af33bc08d1ab6708c0aa83 3163 wxmaxima_26.01.0+ds-2.dsc 50c2e2d93f95a9e34a4376aac6db646f5886a18b2034477e5e07c5fbbb42086e 7729028 wxmaxima_26.01.0+ds.orig.tar.xz 1f4e4954503cd6a501d5e1a173e7841a1d2c659b46a97ad66d67094a1739bc77 15340 wxmaxima_26.01.0+ds-2.debian.tar.xz"
+    "7cf10fd8d8dc98e48b5b51a797a049533787045282931bb9c35b4dba46bf817d 3208 wxmaxima_26.01.0+ds-3.dsc 50c2e2d93f95a9e34a4376aac6db646f5886a18b2034477e5e07c5fbbb42086e 7729028 wxmaxima_26.01.0+ds.orig.tar.xz b4f67195ca9935ef7fd62b8813d7b1357d304dfccfa3637a3f352b5b0f769d7e 12964 wxmaxima_26.01.0+ds-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/w/wxmaxima"
   ],
   "Files": [
-    "90ab431d19a68ea4a8f02e9f105d3c3f 3163 wxmaxima_26.01.0+ds-2.dsc e6e89a0b9ca9866421a40b373e59cd02 7729028 wxmaxima_26.01.0+ds.orig.tar.xz 4a3248bc614a1d45908500d39aa1763b 15340 wxmaxima_26.01.0+ds-2.debian.tar.xz"
+    "ebb7db5c13343eae3e385d3e5e793b89 3208 wxmaxima_26.01.0+ds-3.dsc e6e89a0b9ca9866421a40b373e59cd02 7729028 wxmaxima_26.01.0+ds.orig.tar.xz b00982ca1a1e8297f773de12920c466b 12964 wxmaxima_26.01.0+ds-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -33,7 +33,7 @@
     "wxmaxima"
   ],
   "Package-List": [
-    "wxmaxima deb math optional arch=any wxmaxima-doc deb math optional arch=all"
+    "wxmaxima deb math optional arch=any wxmaxima-doc deb doc optional arch=all"
   ],
   "Priority": [
     "optional"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/science-team/wxmaxima.git"
   ],
   "Version": [
-    "26.01.0+ds-2"
+    "26.01.0+ds-3"
   ]
 }

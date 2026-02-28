@@ -6,19 +6,19 @@
     "libgpg-error-dev, libgpg-error0, gpgrt-tools, libgpg-error0-udeb, libgpg-error-mingw-w64-dev, libgpg-error-l10n"
   ],
   "Build-Depends": [
-    "automake (\u003e= 1.14), debhelper-compat (= 13), gettext (\u003e= 0.19.3), pkgconf, texinfo"
+    "debhelper-compat (= 13), automake (\u003e= 1.14), gettext (\u003e= 0.19.3), pkgconf, texinfo"
   ],
   "Build-Depends-Indep": [
     "mingw-w64"
   ],
   "Checksums-Sha256": [
-    "076b92cc3a6c7a8815a7772220544581e6cc79ecfd13573512403d8417f7e9b9 2961 libgpg-error_1.58-2.dsc f943aea9a830a8bd938e5124b579efaece24a3225ff4c3d27611a80ce1260c27 1123899 libgpg-error_1.58.orig.tar.bz2 400e445b7c6c52555033805f45b11a76fe4995675fdd4b0ff41ee7799cec1c3b 265 libgpg-error_1.58.orig.tar.bz2.asc 2e4f501ba6b2375ce23492d65192bfaf4658b68daa9c03965720bb1bc3a52cac 19792 libgpg-error_1.58-2.debian.tar.xz"
+    "b4d629a6234b63177039160d86755550b3cde3cd4431f26dd3a29286180ae125 2961 libgpg-error_1.59-2.dsc a19bc5087fd97026d93cb4b45d51638d1a25202a5e1fbc3905799f424cfa6134 1123184 libgpg-error_1.59.orig.tar.bz2 5d926335325ad13ec80ab0c0c3385357a84b6b1c7123b3c72681a495271dd196 265 libgpg-error_1.59.orig.tar.bz2.asc d692e07369ca351dd92a571701134001c9707d08f7af03747680e89980f55b32 19836 libgpg-error_1.59-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/libg/libgpg-error"
   ],
   "Files": [
-    "a86463019a7a2dd93a2dec82c883476b 2961 libgpg-error_1.58-2.dsc 6bc868c738b8d93698039c7768d8c7b1 1123899 libgpg-error_1.58.orig.tar.bz2 4df2ac8fb169076097750920d8dfc58a 265 libgpg-error_1.58.orig.tar.bz2.asc f0dd4154d92999fc33b597a9bbd9bcd7 19792 libgpg-error_1.58-2.debian.tar.xz"
+    "795c7b5b8e25862b4f8ac7b2004dbae1 2961 libgpg-error_1.59-2.dsc d8afb7b49472cadcc434fa65d6b527ef 1123184 libgpg-error_1.59.orig.tar.bz2 6bb8d1a0cc06e5177bc3da8f1c085b86 265 libgpg-error_1.59.orig.tar.bz2.asc 6579fd16e94ac304dd600517cbbd0adc 19836 libgpg-error_1.59-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "libs"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/debian/libgpg-error.git -b debian/unstable"
   ],
   "Version": [
-    "1.58-2"
+    "1.59-2"
   ]
 }

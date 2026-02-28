@@ -6,16 +6,16 @@
     "ruby-spring"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gem2deb, ruby-activesupport (\u003e= 2:4.2), rake"
+    "debhelper-compat (= 13), gem2deb, rake, ruby-activesupport (\u003e= 2:4.2)"
   ],
   "Checksums-Sha256": [
-    "77ceb03e4e0a9d7f0a16e09afc2ec70f5b34c0d24747fb7fed64db1481329b89 1531 ruby-spring_2.1.1-2.dsc 50ff608b46604681dc160417fde3bc9e4524e97b63bad62e75adf82eff30c1d8 44000 ruby-spring_2.1.1.orig.tar.gz a05c34236be84376098dedaf6e87bb7dde926c6c48c1ef49c5deddc4cc6ebdd5 4120 ruby-spring_2.1.1-2.debian.tar.xz"
+    "4eaee5f652d9606c18bb6ca21488326dcb7685779208509025a08a435efb4823 2117 ruby-spring_4.4.2-1.dsc 823269144d1e4580a684fc1f90c5e26ea375bed48c8aa991d9f818c8ffb27e18 48056 ruby-spring_4.4.2.orig.tar.gz 8879c41c429602483f1b68d529eafff1abd2145ab27978370fb624c58fbcbdac 4204 ruby-spring_4.4.2-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/ruby-spring"
   ],
   "Files": [
-    "5c23dbdd7b99439437519ed952f638c5 1531 ruby-spring_2.1.1-2.dsc b7f2d90c7a7068e0de10e375019d1d59 44000 ruby-spring_2.1.1.orig.tar.gz a036c60baf9f1b07b7284581aa632ee5 4120 ruby-spring_2.1.1-2.debian.tar.xz"
+    "c49737b3daa8ff40ca8d6a456d09210c 2117 ruby-spring_4.4.2-1.dsc a9fc8801754c1ca2a0f08f9664c3ce82 48056 ruby-spring_4.4.2.orig.tar.gz 300580262a5ff854f1e50cc624ffc89f 4204 ruby-spring_4.4.2-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -35,14 +35,11 @@
   "Priority": [
     "optional"
   ],
-  "Ruby-Versions": [
-    "all"
-  ],
   "Section": [
     "misc"
   ],
   "Standards-Version": [
-    "4.6.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-ruby"
@@ -60,6 +57,6 @@
     "https://salsa.debian.org/ruby-team/ruby-spring.git"
   ],
   "Version": [
-    "2.1.1-2"
+    "4.4.2-1"
   ]
 }

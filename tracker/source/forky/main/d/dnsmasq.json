@@ -6,16 +6,16 @@
     "dnsmasq, dnsmasq-base, dnsmasq-base-lua, dnsmasq-utils"
   ],
   "Build-Depends": [
-    "dh-exec, gettext, libnetfilter-conntrack-dev [linux-any], libidn2-dev, libdbus-1-dev (\u003e= 0.61), libgmp-dev, nettle-dev (\u003e= 2.4-3), libbsd-dev [kfreebsd-any], liblua5.4-dev, dh-runit, debhelper-compat (= 13), pkgconf, libnftables-dev"
+    "debhelper-compat (= 13), dh-exec, dh-runit, dh-sequence-installsysusers, gettext, libdbus-1-dev, libgmp-dev, libidn2-dev, liblua5.4-dev, libnetfilter-conntrack-dev [linux-any], libnftables-dev, nettle-dev, pkgconf"
   ],
   "Checksums-Sha256": [
-    "53995a068b005f14c2bae6b94bb9deaddae8a061d7218aa293f7ac29d7455815 2630 dnsmasq_2.92-1.dsc fd908e79ff37f73234afcb6d3363f78353e768703d92abd8e3220ade6819b1e1 949327 dnsmasq_2.92.orig.tar.gz 0b578f642ee7834afff440f88a0942718c6f92be9c02a297254d7f0ee8f358ae 833 dnsmasq_2.92.orig.tar.gz.asc 4f87857c2bcd7136b15366bc840d336ba385290690cc9092a14f3ed1dacbf91c 33028 dnsmasq_2.92-1.debian.tar.xz"
+    "8ce3cfbe876395edbe1e348724b31b9b4a359fb29d0a471ce2ce1d56cb14e646 2611 dnsmasq_2.92-3.dsc fd908e79ff37f73234afcb6d3363f78353e768703d92abd8e3220ade6819b1e1 949327 dnsmasq_2.92.orig.tar.gz 0b578f642ee7834afff440f88a0942718c6f92be9c02a297254d7f0ee8f358ae 833 dnsmasq_2.92.orig.tar.gz.asc 6e74d1e9189d66e674b400cf31e4de9efe9d0237185287f5a5eca1bacf3aceb2 33124 dnsmasq_2.92-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/d/dnsmasq"
   ],
   "Files": [
-    "ff395e875e135aeaf0c58961e11c8899 2630 dnsmasq_2.92-1.dsc a2a6ed3c9bdae1187f7a75dabf5f2dee 949327 dnsmasq_2.92.orig.tar.gz eed7a570a7ff53ccdbf4071542641560 833 dnsmasq_2.92.orig.tar.gz.asc c7ff9f0ac2b603d93fcebacce35fdc46 33028 dnsmasq_2.92-1.debian.tar.xz"
+    "23409574a0d672b5196f7f5233b18b31 2611 dnsmasq_2.92-3.dsc a2a6ed3c9bdae1187f7a75dabf5f2dee 949327 dnsmasq_2.92.orig.tar.gz eed7a570a7ff53ccdbf4071542641560 833 dnsmasq_2.92.orig.tar.gz.asc 210e0fdd3e3e182cf0c2e9626101e1ba 33124 dnsmasq_2.92-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://thekelleys.org.uk/git/dnsmasq-debian.git"
   ],
   "Version": [
-    "2.92-1"
+    "2.92-3"
   ]
 }

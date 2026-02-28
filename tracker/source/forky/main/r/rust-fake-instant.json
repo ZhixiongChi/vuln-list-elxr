@@ -6,22 +6,25 @@
     "librust-fake-instant-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "09a1590a49a3accc70b164b998eb17e47d8303cd7fb1fb78fbaab06f87d55463 2222 rust-fake-instant_0.4.0-2.dsc 3006df2e7bf21592b4983931164020b02f54eefdc1e35b2f70147858cc1e20ad 5951 rust-fake-instant_0.4.0.orig.tar.gz b1fa09e8ea745432c4a68699498dd1fb67953f7f9236720898c7628d03f0e5ad 3736 rust-fake-instant_0.4.0-2.debian.tar.xz"
+    "782b031954f6d0c884e563b6afca35c63d2eace6cff1b0d17bde66a1711af5b0 2237 rust-fake-instant_0.5.0-1.dsc 38b8d47742b3796aa01c8261f3a9c8b6655c9c13ac123d2d21fc994a4875cfbc 5812 rust-fake-instant_0.5.0.orig.tar.gz c862023086f90208a94b19217fa73d145e9baf0c2788439d051e8769d5c6fec6 3280 rust-fake-instant_0.5.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-fake-instant"
   ],
   "Files": [
-    "b3f50434900e7aef5566c1ceaa01b9fa 2222 rust-fake-instant_0.4.0-2.dsc 37ce3e1809a7624dbf73e6ff33c1f6b4 5951 rust-fake-instant_0.4.0.orig.tar.gz 2bde1b1d75157e1ef699c3858986c7b5 3736 rust-fake-instant_0.4.0-2.debian.tar.xz"
+    "0eed8f1b1dfbc5583dd33fe175be3dc0 2237 rust-fake-instant_0.5.0-1.dsc 5ee87a6f65f9d3821f77c4d1c8fb4579 5812 rust-fake-instant_0.5.0.orig.tar.gz b96fcad0d0de81d4944c47e9f6c9dc3b 3280 rust-fake-instant_0.5.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://maidsafe.net"
+    "https://github.com/MingweiSamuel/fake_instant"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -39,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/fake-instant]"
   ],
   "Version": [
-    "0.4.0-2"
+    "0.5.0-1"
   ]
 }
