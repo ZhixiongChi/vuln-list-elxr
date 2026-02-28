@@ -6,19 +6,19 @@
     "labelme, labelme-examples"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), python3-pyqt5, dh-python, python3-matplotlib, python3-setuptools, pyqt5-dev, python3-pil, python3-qtpy, python3-termcolor, python3-yaml, python3-imgviz"
+    "debhelper-compat (= 13), dh-python, python3-matplotlib, python3-setuptools, python3-pil, python3-termcolor, python3-yaml, python3-imgviz"
   ],
   "Build-Depends-Indep": [
-    "dh-sequence-python3, python3"
+    "dh-sequence-python3, gdown \u003c!nocheck\u003e, python3-loguru \u003c!nocheck\u003e, python3-natsort \u003c!nocheck\u003e, python3-onnxruntime \u003c!nocheck\u003e, python3-pytest \u003c!nocheck\u003e, python3-pytestqt \u003c!nocheck\u003e, python3-qtpy-pyqt5 \u003c!nocheck\u003e, python3-skimage \u003c!nocheck\u003e, python3"
   ],
   "Checksums-Sha256": [
-    "c74b67253b7457c502c35490ad4a4899c91c98de524b7498b05d27ede734ea67 2089 labelme_5.6.1-1.dsc 0391e36b554ec449782a47975ede60e047ddb15ec6c3120030e9e27903e9c495 12933677 labelme_5.6.1.orig.tar.gz 4102402c90c7276daa30cacb551eac1c3f595ba7ad82454992be8b90397a2082 48844 labelme_5.6.1-1.debian.tar.xz"
+    "798812329f97037766ed76bc6556668ecdc606e71cba87e47d1f18502157726d 2131 labelme_5.6.1-2.dsc 0391e36b554ec449782a47975ede60e047ddb15ec6c3120030e9e27903e9c495 12933677 labelme_5.6.1.orig.tar.gz 3dcfff84ee1b5374bb76fbddbe0a37e8e4f37c1bb5b9392690f2e983baa73a33 49436 labelme_5.6.1-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/l/labelme"
   ],
   "Files": [
-    "a1366a632a5894dda375acae6e10f2c8 2089 labelme_5.6.1-1.dsc 7ac02c323af9f0738677a366366c8536 12933677 labelme_5.6.1.orig.tar.gz 38738b5df5bea849e5266ff6255e6ebd 48844 labelme_5.6.1-1.debian.tar.xz"
+    "e54d1abcdfeabd93acf1c36430b0d098 2131 labelme_5.6.1-2.dsc 7ac02c323af9f0738677a366366c8536 12933677 labelme_5.6.1.orig.tar.gz d1419057f3e65539239b7ce172d40e07 49436 labelme_5.6.1-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -27,7 +27,7 @@
     "https://github.com/wkentaro/labelme"
   ],
   "Maintainer": [
-    "Alex Myczko \u003ctar@debian.org\u003e"
+    "Debian QA Group \u003cpackages@qa.debian.org\u003e"
   ],
   "Package": [
     "labelme"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/labelme.git"
   ],
   "Version": [
-    "5.6.1-1"
+    "5.6.1-2"
   ]
 }
