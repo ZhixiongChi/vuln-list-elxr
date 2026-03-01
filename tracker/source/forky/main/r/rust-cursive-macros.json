@@ -6,19 +6,25 @@
     "librust-cursive-macros-dev"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 12), dh-cargo (\u003e= 25), cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev (\u003e= 1.0.47-~~) \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev (\u003e= 1.0.47) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "a6394215c3caf9a3a66b9715906c048db73e0a3c848559ad0fe6f0dde29c3540 2350 rust-cursive-macros_0.1.0-1.dsc ac7ac0eb0cede3dfdfebf4d5f22354e05a730b79c25fd03481fc69fcfba0a73e 12110 rust-cursive-macros_0.1.0.orig.tar.gz 9fff1b68d1888b3474c05a79bba4136a04b1a08ab5889234309109cf293b2e0c 2628 rust-cursive-macros_0.1.0-1.debian.tar.xz"
+    "1ce6107a97ce93a12f75d7b2c1063ae5343575b7aa3bc1dc54404878e70cc532 1719 rust-cursive-macros_0.1.0-2.dsc ac7ac0eb0cede3dfdfebf4d5f22354e05a730b79c25fd03481fc69fcfba0a73e 12110 rust-cursive-macros_0.1.0.orig.tar.gz 982390cd1346874887290c2056e0fa58e5febe45c84e1bd9e78212f58a6d123b 2860 rust-cursive-macros_0.1.0-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-cursive-macros"
   ],
   "Files": [
-    "dedf381e5db22a760d34695bb715ac64 2350 rust-cursive-macros_0.1.0-1.dsc 76088f5b3011f0bc57a735cec1073e5b 12110 rust-cursive-macros_0.1.0.orig.tar.gz 8b6d1e0cb9541f02243fc8df32eee5bf 2628 rust-cursive-macros_0.1.0-1.debian.tar.xz"
+    "6b2772e1948123ae0f8ae9c4ae34491d 1719 rust-cursive-macros_0.1.0-2.dsc 76088f5b3011f0bc57a735cec1073e5b 12110 rust-cursive-macros_0.1.0.orig.tar.gz 0a958d7c465bda34103cf1ce81bfb61b 2860 rust-cursive-macros_0.1.0-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/gyscos/cursive"
   ],
   "Maintainer": [
     "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
@@ -36,13 +42,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo"
+    "dh-cargo, rustc"
   ],
   "Uploaders": [
     "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
@@ -54,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/cursive-macros]"
   ],
   "Version": [
-    "0.1.0-1"
+    "0.1.0-2"
   ]
 }
