@@ -9,22 +9,22 @@
     "debhelper-compat (= 13), dh-python, libcpucycles-dev, pandoc [!m68k !sh4 !x32] \u003c!nodoc\u003e, python3, valgrind-if-available"
   ],
   "Checksums-Sha256": [
-    "81939278b5a441c04c3b4468c30747f7f020fe24093a50cf516f84a16b90f1a7 2569 djbsort_0~20260210+dfsg-2.dsc 53d7871208bca5e8ecd21b02153c31d0184eb308091ea9efd2e0633db89e3aa9 288056 djbsort_0~20260210+dfsg.orig.tar.xz 25b1812af39ee6319acf3b2ecf23b366a1bdc87dca19224dc40772482c21b402 4704 djbsort_0~20260210+dfsg-2.debian.tar.xz"
+    "6ef0c7a681a382889d2eb44f921bdb25151eb787e06ec7a7ef3d4e90aef264d0 2565 djbsort_0~20260210+dfsg-3.dsc 53d7871208bca5e8ecd21b02153c31d0184eb308091ea9efd2e0633db89e3aa9 288056 djbsort_0~20260210+dfsg.orig.tar.xz 66b64c4f8f495e5d857d0247f409a3c1d5ed06fa7548ff082266369f1b01c336 4756 djbsort_0~20260210+dfsg-3.debian.tar.xz"
   ],
   "Dgit": [
-    "0c55f0764b0d43604a3444024dac5e39d3fb1f52 debian archive/debian/0_20260210+dfsg-2 https://git.dgit.debian.org/djbsort"
+    "9a69524daa22b17a32254cfbebc26865cf55dd79 debian archive/debian/0_20260210+dfsg-3 https://git.dgit.debian.org/djbsort"
   ],
   "Directory": [
     "pool/main/d/djbsort"
   ],
   "Files": [
-    "a125e9f1ae98f1ffd505994fd03ee3c4 2569 djbsort_0~20260210+dfsg-2.dsc 17e4ee6ebc863bf6b3d6b8e2c21b2a7f 288056 djbsort_0~20260210+dfsg.orig.tar.xz 921d93b07e5ec2f2dbfef91afb38cc21 4704 djbsort_0~20260210+dfsg-2.debian.tar.xz"
+    "c49233c30be8f1f15ce3d9ec6c9d72c5 2565 djbsort_0~20260210+dfsg-3.dsc 17e4ee6ebc863bf6b3d6b8e2c21b2a7f 288056 djbsort_0~20260210+dfsg.orig.tar.xz c1fedb0683384b1f2580c79e2e62fb0a 4756 djbsort_0~20260210+dfsg-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Git-Tag-Info": [
-    "tag=dc1f7f3453b35b79dfc6ca434d1d70c70c9b0cb5 fp=d008b0c23d8479e46b9fcb9045da517496939ff9"
+    "tag=56ac3826476c26d9fd7c90a99a23750a7ea6686d fp=d008b0c23d8479e46b9fcb9045da517496939ff9"
   ],
   "Git-Tag-Tagger": [
     "Jan Mojžíš \u003cjan.mojzis@gmail.com\u003e"
@@ -54,7 +54,7 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "@recommends@, build-essential, dpkg-dev, python3"
+    "build-essential, dpkg-dev, python3, valgrind"
   ],
   "Uploaders": [
     "Jan Mojžíš \u003cjanmojzis@debian.org\u003e, Simon Josefsson \u003csimon@josefsson.org\u003e,"
@@ -66,6 +66,6 @@
     "https://salsa.debian.org/debian/djbsort.git"
   ],
   "Version": [
-    "0~20260210+dfsg-2"
+    "0~20260210+dfsg-3"
   ]
 }

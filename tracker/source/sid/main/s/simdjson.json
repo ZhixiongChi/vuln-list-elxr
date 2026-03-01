@@ -3,25 +3,25 @@
     "any"
   ],
   "Binary": [
-    "libsimdjson30, libsimdjson-dev"
+    "libsimdjson29, libsimdjson-dev"
   ],
   "Build-Depends": [
     "cmake, debhelper-compat (= 13)"
   ],
   "Checksums-Sha256": [
-    "392915aac7ded69512cb8c7322df33cab79b50021af0f45c7bd9237265046eb0 2019 simdjson_4.3.1-5.dsc f45a7a29455a79299b83d0f498de72d98e1623ba478d27984939d9d0e2036b9b 6620211 simdjson_4.3.1.orig.tar.gz c811dfe1e6a43f2dbc169e0a241e4fd66b51354f61965ad133c373bf64f7c680 6948 simdjson_4.3.1-5.debian.tar.xz"
+    "389b27997faa69bca29e47e328f0baacc108daafc1b2920544a91cecb57abcb1 2116 simdjson_4.3.1+really4.2.4-1.dsc c5205b260d9fe911f891ca9210040f364c6b12f9aa0c10ff0cad7626fac4ce78 6042123 simdjson_4.3.1+really4.2.4.orig.tar.gz 1dd5654786bbd19bc23b3abe70ffa11651483c6a792b99461148802206761112 6840 simdjson_4.3.1+really4.2.4-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/s/simdjson"
   ],
   "Files": [
-    "472d399897edadfed8a4ccde6b882d9e 2019 simdjson_4.3.1-5.dsc deb5d8a41125ddedcdd2480b0ae64ea7 6620211 simdjson_4.3.1.orig.tar.gz ad00417fdc580e519bdf29dd92a2ca39 6948 simdjson_4.3.1-5.debian.tar.xz"
+    "750581fb36993828b7b4ec9de62a0275 2116 simdjson_4.3.1+really4.2.4-1.dsc 77ac0700a6122ecaa8f328ac6338d2ab 6042123 simdjson_4.3.1+really4.2.4.orig.tar.gz 70c43d349d49808280acca07dfa7a4da 6840 simdjson_4.3.1+really4.2.4-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "https://simdjson.org/"
+    "https://github.com/lemire/simdjson"
   ],
   "Maintainer": [
     "Mo Zhou \u003clumin@debian.org\u003e"
@@ -30,7 +30,7 @@
     "simdjson"
   ],
   "Package-List": [
-    "libsimdjson-dev deb libdevel optional arch=any libsimdjson30 deb libs optional arch=any"
+    "libsimdjson-dev deb libdevel optional arch=any libsimdjson29 deb libs optional arch=any"
   ],
   "Priority": [
     "extra"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.3"
+    "4.7.2"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/debian/simdjson.git"
   ],
   "Version": [
-    "4.3.1-5"
+    "4.3.1+really4.2.4-1"
   ]
 }

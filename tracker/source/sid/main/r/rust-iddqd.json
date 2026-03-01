@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-iddqd-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.81) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-allocator-api2-0.2+alloc-dev (\u003e= 0.2.21) \u003c!nocheck\u003e, librust-equivalent-1+default-dev (\u003e= 1.0.1) \u003c!nocheck\u003e, librust-foldhash-0.2+default-dev \u003c!nocheck\u003e, librust-hashbrown-0.16+allocator-api2-dev \u003c!nocheck\u003e, librust-hashbrown-0.16+inline-more-dev \u003c!nocheck\u003e, librust-rustc-hash-1+std-dev (\u003e= 1.1.0) \u003c!nocheck\u003e, librust-rustc-hash-1-dev (\u003e= 1.1.0) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "7a9a1cdf2b0b30fb5a8db28baeace6a313927ba2963cd40392d9b436eb99f175 2360 rust-iddqd_0.3.17-1.dsc 6b215e67ed1d1a4b1702acd787c487d16e4c977c5dcbcc4587bdb5ea26b6ce06 136631 rust-iddqd_0.3.17.orig.tar.gz 3716fa3b17433b69a8562d6998d7d51b0ed31f1b08dea571a6224649d938b4e8 3640 rust-iddqd_0.3.17-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-iddqd"
+  ],
+  "Files": [
+    "0cca7ba6dffd3205ff67cbd01c42bf08 2360 rust-iddqd_0.3.17-1.dsc db14da31e3eb0c9e7bab8efb22836a03 136631 rust-iddqd_0.3.17.orig.tar.gz c7476907e1e31ebc9277fb4486a8f7ca 3640 rust-iddqd_0.3.17-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/oxidecomputer/iddqd"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-iddqd"
+  ],
+  "Package-List": [
+    "librust-iddqd-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-expectorate-1+default-dev, librust-proptest-1+std-dev, librust-serde-1+default-dev, librust-test-strategy-0.4+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Jelmer Vernooĳ \u003cjelmer@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/iddqd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/iddqd]"
+  ],
+  "Version": [
+    "0.3.17-1"
+  ]
+}

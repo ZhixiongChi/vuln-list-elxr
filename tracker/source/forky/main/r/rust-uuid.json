@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), dh-sequence-cargo"
   ],
   "Build-Depends-Arch": [
-    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.63.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-js-sys-0.3+std-dev \u003c!nocheck\u003e, librust-wasm-bindgen-0.2+msrv-dev \u003c!nocheck\u003e, librust-wasm-bindgen-0.2+std-dev \u003c!nocheck\u003e"
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.85.0) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-js-sys-0.3+std-dev \u003c!nocheck\u003e, librust-wasm-bindgen-0.2+msrv-dev \u003c!nocheck\u003e, librust-wasm-bindgen-0.2+std-dev \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "bb1206a7c6ce657a74b021d20b705c191f3a3ac8e5f92a9c2cc62edcee61ffc2 2056 rust-uuid_1.18.1-4.dsc 2f87b8aa10b915a06587d0dec516c282ff295b475d94abf425d62b57710070a2 60468 rust-uuid_1.18.1.orig.tar.gz 255eed2258c1e98bd5cc3bfc7b29f10b38a9190d2da55680d9449a5311629e6e 6888 rust-uuid_1.18.1-4.debian.tar.xz"
+    "e01ef68061b6e17bc1e7182992460f57c71e16314c2f77539cec2299602906c8 2689 rust-uuid_1.21.0-1.dsc b672338555252d43fd2240c714dc444b8c6fb0a5c5335e65a07bba7742735ddb 62247 rust-uuid_1.21.0.orig.tar.gz 07a37fe99beefef5c559aec68e49fd92a74b2d40c3d38da8ca8159742bd33867 6880 rust-uuid_1.21.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-uuid"
   ],
   "Files": [
-    "0bbaa239da19dbae522c3106e8bb4735 2056 rust-uuid_1.18.1-4.dsc fa32140e3e272ea292e5491e0ac8903f 60468 rust-uuid_1.18.1.orig.tar.gz 7e8d2161e26db5a8ecdbd91c5de85371 6888 rust-uuid_1.18.1-4.debian.tar.xz"
+    "3b5d0c5efd73f35d355e64d1872be772 2689 rust-uuid_1.21.0-1.dsc 02e48856cb88bcd854899ce0ad886873 62247 rust-uuid_1.21.0.orig.tar.gz 8f1d1be553544490626ffbb04422355a 6880 rust-uuid_1.21.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,7 +48,7 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-cargo, librust-bincode-1+default-dev, librust-rustversion-1+default-dev, librust-serde-derive-1+default-dev, librust-serde-json-1+default-dev, librust-serde-test-1+default-dev, librust-trybuild-1+default-dev, librust-wasm-bindgen-0.2+default-dev, librust-wasm-bindgen-test-0.3+default-dev, rustc"
+    "dh-cargo, librust-rustversion-1+default-dev, librust-serde-1+default-dev, librust-serde-derive-1+default-dev, librust-serde-json-1+default-dev, librust-serde-test-1+default-dev, librust-trybuild-1+default-dev, librust-wasm-bindgen-0.2+default-dev, librust-wasm-bindgen-test-0.3+default-dev, rustc"
   ],
   "Uploaders": [
     "Sylvestre Ledru \u003csylvestre@debian.org\u003e"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/uuid]"
   ],
   "Version": [
-    "1.18.1-4"
+    "1.21.0-1"
   ]
 }

@@ -3,19 +3,19 @@
     "any"
   ],
   "Binary": [
-    "kokkos, libkokkos4.7, libkokkos-dev"
+    "kokkos, libkokkos5.0, libkokkos-dev"
   ],
   "Build-Depends": [
     "debhelper-compat (= 13), cmake, python3"
   ],
   "Checksums-Sha256": [
-    "90814eee3ba1d0344c4152e03c33b880bdafb9877912d4eadca3ca6852cec0e4 2042 kokkos_4.7.01-2.dsc 404cf33e76159e83b8b4ad5d86f6899d442b5da4624820ab457412116cdcd201 2519801 kokkos_4.7.01.orig.tar.gz b2339c3a08c0911675a2f25b57b292156502a655ea1a4780f6592203b9246d60 3612 kokkos_4.7.01-2.debian.tar.xz"
+    "b57abf093af0470c75c192c1d0d0cefb6672b16b2cce00a40c9f86832b93da81 2014 kokkos_5.0.2-2.dsc 188817bb452ca805ee8701f1c5adbbb4fb83dc8d1c50624566a18a719ba0fa5e 1787009 kokkos_5.0.2.orig.tar.gz 37befb854ce9d963cc4d7b0d84f37c6edfe99ae7837f371f036f1f63b639fbab 3820 kokkos_5.0.2-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/k/kokkos"
   ],
   "Files": [
-    "a5953016ad301ec2e37001669d048aa3 2042 kokkos_4.7.01-2.dsc 1d34b635fa698ce9c9ce959dcdda45ea 2519801 kokkos_4.7.01.orig.tar.gz 9f49c84e4e45386d4bb5ffc129860bb6 3612 kokkos_4.7.01-2.debian.tar.xz"
+    "0625a357d29120597cdb1b76ead079a6 2014 kokkos_5.0.2-2.dsc 96a7e7ede91656fadbc3145481058746 1787009 kokkos_5.0.2.orig.tar.gz 351100b884e6ab3aedbbe069f6bed56d 3820 kokkos_5.0.2-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "kokkos"
   ],
   "Package-List": [
-    "kokkos deb science optional arch=any libkokkos-dev deb libdevel optional arch=any libkokkos4.7 deb libs optional arch=any"
+    "kokkos deb science optional arch=any libkokkos-dev deb libdevel optional arch=any libkokkos5.0 deb libs optional arch=any"
   ],
   "Priority": [
     "optional"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Uploaders": [
     "Alex Myczko \u003ctar@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/kokkos.git"
   ],
   "Version": [
-    "4.7.01-2"
+    "5.0.2-2"
   ]
 }
