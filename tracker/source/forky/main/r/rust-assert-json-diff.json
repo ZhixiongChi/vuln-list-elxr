@@ -6,16 +6,16 @@
     "librust-assert-json-diff-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-rust, librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-serde-json-1+default-dev, librust-version-sync-0.9+default-dev"
+    "debhelper-compat (= 13), dh-sequence-rust, librust-serde-dev, librust-serde-json-dev, librust-version-sync-dev"
   ],
   "Checksums-Sha256": [
-    "00f93292bbea6618eed74768dc9a364ab946b274bb737348d460dda266853c5b 2448 rust-assert-json-diff_2.0.2-7.dsc 05615e338ae1dd8cd9fee035445d7cd853adb32d300aa8dbe5eef4e948d5745a 10675 rust-assert-json-diff_2.0.2.orig.tar.gz 0348a1405bc21283d9cc6828a00485c6272160b3c874df6f9fa9b4a8e3e447c9 4108 rust-assert-json-diff_2.0.2-7.debian.tar.xz"
+    "d6162b0191effbd9dd99376aa9f342279fe7fb44a1a2f271a70c62baa77dda0d 2223 rust-assert-json-diff_2.0.2+ds-1.dsc eb0a44d46cb1025c4288044b53993f60e77b1b21c2a3275203f23d966f8264e5 9252 rust-assert-json-diff_2.0.2+ds.orig.tar.xz c4e6d8b18320fb0017d098a0f071dc23d32817d10f9edf53d84ad75fc4b37e83 4308 rust-assert-json-diff_2.0.2+ds-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-assert-json-diff"
   ],
   "Files": [
-    "d4fb83a6ccd26997f6dfd248051faf8c 2448 rust-assert-json-diff_2.0.2-7.dsc 05c7c181a1fb51fd3d55734b20066cd7 10675 rust-assert-json-diff_2.0.2.orig.tar.gz f334caa7004ef54fb0ca6367adc9c8eb 4108 rust-assert-json-diff_2.0.2-7.debian.tar.xz"
+    "3bec2b26664ed5f4f8c4aeffaed24ad4 2223 rust-assert-json-diff_2.0.2+ds-1.dsc 4cc56bc4a7275680cf2855135bdccf9a 9252 rust-assert-json-diff_2.0.2+ds.orig.tar.xz 0844398a3b82c1d2b852b64f60bd2cfc 4308 rust-assert-json-diff_2.0.2+ds-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "dh-rust, librust-assert-json-diff-2+default-dev, librust-assert-json-diff-2-dev, librust-serde-1+default-dev, librust-serde-1+derive-dev, librust-version-sync-0.9+default-dev"
+    "dh-rust, librust-assert-json-diff-2+default-dev, librust-version-sync-dev"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/debian/rust-assert-json-diff"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/debian/rust-assert-json-diff.git"
   ],
   "Version": [
-    "2.0.2-7"
+    "2.0.2+ds-1"
   ]
 }

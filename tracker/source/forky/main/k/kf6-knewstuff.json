@@ -6,16 +6,16 @@
     "knewstuff-dialog6, libkf6newstuff-data, libkf6newstuff-dev, libkf6newstuff-doc, libkf6newstuffcore6, libkf6newstuffwidgets6, qml6-module-org-kde-newstuff"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, dh-sequence-qmldeps, cmake (\u003e= 3.16~), doxygen, extra-cmake-modules (\u003e= 6.20.0~), gettext, libkf6archive-dev (\u003e= 6.20.0~), libkf6attica-dev (\u003e= 6.20.0~), libkf6config-dev (\u003e= 6.20.0~), libkf6coreaddons-dev (\u003e= 6.20.0~), libkf6i18n-dev (\u003e= 6.20.0~), libkf6package-dev (\u003e= 6.20.0~), libkf6syndication-dev (\u003e= 6.0.0~), libkf6widgetsaddons-dev (\u003e= 6.20.0~), libkirigami-dev (\u003e= 2.12.0~), libxkbcommon-dev, qml6-module-org-kde-kcmutils, qt6-base-dev (\u003e= 6.8.0~), qt6-base-private-dev (\u003e= 6.5.0+dfsg~), qt6-declarative-dev (\u003e= 6.8.0~), qt6-declarative-private-dev (\u003e= 6.5.0+dfsg~), qt6-tools-dev (\u003e= 6.5.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, dh-sequence-qmldeps, cmake (\u003e= 3.27~), doxygen, extra-cmake-modules (\u003e= 6.23.0~), gettext, libkf6archive-dev (\u003e= 6.23.0~), libkf6attica-dev (\u003e= 6.23.0~), libkf6config-dev (\u003e= 6.23.0~), libkf6coreaddons-dev (\u003e= 6.23.0~), libkf6i18n-dev (\u003e= 6.23.0~), libkf6package-dev (\u003e= 6.23.0~), libkf6syndication-dev (\u003e= 6.0.0~), libkf6widgetsaddons-dev (\u003e= 6.23.0~), libkirigami-dev (\u003e= 2.12.0~), libxkbcommon-dev, qml6-module-org-kde-kcmutils, qt6-base-dev (\u003e= 6.8.0~), qt6-base-private-dev (\u003e= 6.5.0+dfsg~), qt6-declarative-dev (\u003e= 6.8.0~), qt6-declarative-private-dev (\u003e= 6.5.0+dfsg~), qt6-tools-dev (\u003e= 6.5.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "7d867d7c82df2f3b8272dc80e73b432550eccfab87cb0125a43affee9afdf981 3528 kf6-knewstuff_6.20.0-1.dsc 49443add4f1caace2e64fe7dcbe4cf78cd6b692bf0c77ba01082c82761dfa2b9 3090160 kf6-knewstuff_6.20.0.orig.tar.xz 6cd961e196592a6bee1eaa2f168bd0bab03209cd120b0a442bd343cddb5a7f01 228 kf6-knewstuff_6.20.0.orig.tar.xz.asc 156a6dee13a56c9ecbe4118afd6d3d13715bc599052264b91cd1581587db0ea7 20896 kf6-knewstuff_6.20.0-1.debian.tar.xz"
+    "6b9b4d43ed042274766908cae40a78f0ae45e8734d2816c8e99e96faeb11b833 3527 kf6-knewstuff_6.23.0-1.dsc c2f4bdb71df1f494aceaaced6c34ed45bbab5e69628f82a63919bce675ce2595 3090432 kf6-knewstuff_6.23.0.orig.tar.xz 1cd73f2dfb4cbf894a461bbda053b82ca148cda470ad539cc58856246140d224 228 kf6-knewstuff_6.23.0.orig.tar.xz.asc 6305b8705ae1ddabf59a3d77a0cee879131daf20596e8aca681d6b6939b9ce7b 21108 kf6-knewstuff_6.23.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/k/kf6-knewstuff"
   ],
   "Files": [
-    "3dd325402072a72e8f9b512f6d6724e2 3528 kf6-knewstuff_6.20.0-1.dsc 4f76cbabdb0aa7b63f51f1061d80cb1d 3090160 kf6-knewstuff_6.20.0.orig.tar.xz 11e03910a6d71b2685edae61ce75ba95 228 kf6-knewstuff_6.20.0.orig.tar.xz.asc 8b6256a075691b92045389197a6c016c 20896 kf6-knewstuff_6.20.0-1.debian.tar.xz"
+    "154d2455e3e2dfa4151c0c356f838293 3527 kf6-knewstuff_6.23.0-1.dsc d660b791fa1371a79b748b71045a03f4 3090432 kf6-knewstuff_6.23.0.orig.tar.xz aaad8cda44a2bd3296b5a1602210c8d9 228 kf6-knewstuff_6.23.0.orig.tar.xz.asc 7560249b9136998d760c4bd3cbb22d3d 21108 kf6-knewstuff_6.23.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "dh-acc, exuberant-ctags"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/kf6-knewstuff"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kf6-knewstuff.git"
   ],
   "Version": [
-    "6.20.0-1"
+    "6.23.0-1"
   ]
 }

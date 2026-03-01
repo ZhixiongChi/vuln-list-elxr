@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "tree-sitter-yaml-src, librust-tree-sitter-yaml-dev"
+  ],
+  "Build-Depends": [
+    "cargo:native, debhelper-compat (= 13), dh-sequence-rust, librust-cc-1+default-dev (\u003e= 1.1.22-~~), librust-tree-sitter-language-0.1+default-dev, librust-tree-sitter-0.25+default-dev (\u003e= 0.25.0-~~), nodejs, rustc:native, tree-sitter-cli (\u003e= 0.25)"
+  ],
+  "Checksums-Sha256": [
+    "8a25e7950a53ba99795046cf0274773e37c07adccef14d522f7610d18df70504 1851 tree-sitter-yaml_0.7.2-2.dsc aeaff5731bb8b66c7054c8aed33cd5edea5f4cd2ac71654f3f6c2ba2073d8fac 174516 tree-sitter-yaml_0.7.2.orig.tar.gz 01b9cb1703975f399a4987bb00dfbe876ca58cacb7e2765db4411b2b36a83ae0 4152 tree-sitter-yaml_0.7.2-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/t/tree-sitter-yaml"
+  ],
+  "Files": [
+    "16a27d2b8ef250078b34f1b4301c36fa 1851 tree-sitter-yaml_0.7.2-2.dsc cea8f3d2a13516ccf6986ed5a0bedc7b 174516 tree-sitter-yaml_0.7.2.orig.tar.gz 98162c03a52d9a5cd5d35f0cee53010e 4152 tree-sitter-yaml_0.7.2-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/tree-sitter-grammars/tree-sitter-yaml"
+  ],
+  "Maintainer": [
+    "Tree-sitter Team \u003cteam+tree-sitter@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "tree-sitter-yaml"
+  ],
+  "Package-List": [
+    "librust-tree-sitter-yaml-dev deb rust optional arch=any tree-sitter-yaml-src deb libs optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-tree-sitter-0.25+default-dev, rustc, tree-sitter-cli"
+  ],
+  "Uploaders": [
+    "Antonin Delpeuch \u003cantonin@delpeuch.eu\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/tree-sitter-team/tree-sitter-yaml"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/tree-sitter-team/tree-sitter-yaml.git"
+  ],
+  "Version": [
+    "0.7.2-2"
+  ]
+}

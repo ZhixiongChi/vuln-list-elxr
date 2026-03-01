@@ -6,16 +6,16 @@
     "libkf6pty-data, libkf6pty-dev, libkf6pty-doc, libkf6pty6"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.16~), doxygen, extra-cmake-modules (\u003e= 6.20.0~), libkf6coreaddons-dev (\u003e= 6.20.0~), libkf6i18n-dev (\u003e= 6.20.0~), libutempter-dev, qt6-base-dev (\u003e= 6.8.0~), qt6-tools-dev (\u003e= 6.5.0~)"
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.27~), doxygen, extra-cmake-modules (\u003e= 6.23.0~), libkf6coreaddons-dev (\u003e= 6.23.0~), libkf6i18n-dev (\u003e= 6.23.0~), libutempter-dev, qt6-base-dev (\u003e= 6.8.0~), qt6-tools-dev (\u003e= 6.5.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "7a73e9a351a3d590fb8a20ead547183138b2cc4525a5dec40e1f6b71d94ae0f1 2745 kf6-kpty_6.20.0-1.dsc 6666f05f1735209da6fcae1fd21ff94ae6772d32b0a24f7b84cdb56e22202966 2384400 kf6-kpty_6.20.0.orig.tar.xz 312b5262e13385500a5629cf77538b6ed181393e3f09fcf8536600a3c5ff7aa8 228 kf6-kpty_6.20.0.orig.tar.xz.asc f3802fd765b63408852bb7529f523a8ec6856bd648ec0adb7995252aa4751bca 13624 kf6-kpty_6.20.0-1.debian.tar.xz"
+    "df8f7cb4eb9ba59769267f8fe918f3410dca8d649f07eeef77711f8581f30043 2779 kf6-kpty_6.23.0-1.dsc a1218eb6b9cc52f26d1e47923f8458d7c6712dced759860371ad330285a5b951 2385056 kf6-kpty_6.23.0.orig.tar.xz 1269d7faa21ef62b7ab0ba8cde5c32e0684eeee61f560f072d15f8743591a8b9 228 kf6-kpty_6.23.0.orig.tar.xz.asc 665eaaa244586c3d1a02403fe5bfa138832af9d44aee5fb7a104e9e4776d316a 13148 kf6-kpty_6.23.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/k/kf6-kpty"
   ],
   "Files": [
-    "b0de2c2cd3a1230ad368ce441d061a29 2745 kf6-kpty_6.20.0-1.dsc 847b2fe05e8edc3f9c94ff9b42793052 2384400 kf6-kpty_6.20.0.orig.tar.xz 177c0ba5799ffe5114df7d6f603e7d8f 228 kf6-kpty_6.20.0.orig.tar.xz.asc abdb0724544c2a2bdc69859aea717584 13624 kf6-kpty_6.20.0-1.debian.tar.xz"
+    "cc433e51b15b568cb19ac9e74d7fd559 2779 kf6-kpty_6.23.0-1.dsc a97cbf17038c4995d2f2bd22223aa2be 2385056 kf6-kpty_6.23.0.orig.tar.xz 316fcb2e34c0d7e27259a5a9938a9cbd 228 kf6-kpty_6.23.0.orig.tar.xz.asc 8c45c8e2efe549d8156027eaa64eb44b 13148 kf6-kpty_6.23.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "dh-acc, exuberant-ctags"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/kf6-kpty"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kf6-kpty.git"
   ],
   "Version": [
-    "6.20.0-1"
+    "6.23.0-1"
   ]
 }

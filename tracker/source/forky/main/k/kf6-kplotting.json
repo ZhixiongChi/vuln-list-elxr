@@ -6,16 +6,16 @@
     "libkf6plotting-dev, libkf6plotting-doc, libkf6plotting6"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.16~), doxygen, extra-cmake-modules (\u003e= 6.20.0~), libxkbcommon-dev, qt6-base-dev (\u003e= 6.8.0~), qt6-tools-dev (\u003e= 6.5.0~)"
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.27~), doxygen, extra-cmake-modules (\u003e= 6.23.0~), libxkbcommon-dev, qt6-base-dev (\u003e= 6.8.0~), qt6-tools-dev (\u003e= 6.5.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "d05560ce7568b8b6e5d7bfb7e18414d58c07d0bfc84d9efab0518d4482377363 2712 kf6-kplotting_6.20.0-1.dsc 50cd8986acf47e9a8c0df2b11f068a79d241a13f6e426771703a9e188e6aa43f 34032 kf6-kplotting_6.20.0.orig.tar.xz b881876fc3fe5e9dc542a6bd715c4b363b69a09b15c3120bf2b3c9bfed9beea2 228 kf6-kplotting_6.20.0.orig.tar.xz.asc 6d269df479ee8f40c3cef8bedf5d82dc22ac0c5d9efaa69452bac492e96e2447 13396 kf6-kplotting_6.20.0-1.debian.tar.xz"
+    "a271d3d7776f4ba97d3a385248f11ebc0215876eebff72d8039aa339e56c3be1 2746 kf6-kplotting_6.23.0-1.dsc 1b77f15b08e8e9741a96a4bd92d6595ade899363548517919f80abc1d205272a 34032 kf6-kplotting_6.23.0.orig.tar.xz 9cdc8a4637664b673c967fc0ac3fb13d7912efef2978b61864b30547ccf454b5 228 kf6-kplotting_6.23.0.orig.tar.xz.asc ce0acaa1fbae978af81d914577c789bef61c0073dafdf2fe41a8c62956da70e1 12912 kf6-kplotting_6.23.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/k/kf6-kplotting"
   ],
   "Files": [
-    "7a588e225994f9ccf4a8c3c0ff090d47 2712 kf6-kplotting_6.20.0-1.dsc 3d43c594486ea7de7eff8e62f7b1c6f6 34032 kf6-kplotting_6.20.0.orig.tar.xz 1dd73443202de218564da4246b7d533e 228 kf6-kplotting_6.20.0.orig.tar.xz.asc 04180de70e2812b2127c4d4c0eadb513 13396 kf6-kplotting_6.20.0-1.debian.tar.xz"
+    "46400900b7d08f5ba422367461c40757 2746 kf6-kplotting_6.23.0-1.dsc 1eaf72467eda257e7f92aa3af1f4f2c4 34032 kf6-kplotting_6.23.0.orig.tar.xz 3aeee8e63296b5569c80cd018faaecc8 228 kf6-kplotting_6.23.0.orig.tar.xz.asc e7ab57eb80f97d4176560f1385703c5b 12912 kf6-kplotting_6.23.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "dh-acc, exuberant-ctags"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/kf6-kplotting"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kf6-kplotting.git"
   ],
   "Version": [
-    "6.20.0-1"
+    "6.23.0-1"
   ]
 }

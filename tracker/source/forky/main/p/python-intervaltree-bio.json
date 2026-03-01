@@ -6,16 +6,16 @@
     "python3-intervaltree-bio"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-python, python3-all, python3-setuptools, python3-intervaltree, python3-pytest \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-intervaltree, python3-pytest \u003c!nocheck\u003e, python3-setuptools"
   ],
   "Checksums-Sha256": [
-    "d72d0086d04e4dd748b1d5c7c003ee6e9b195232c6bb6d98443155fcdb7bb0a4 2283 python-intervaltree-bio_1.0.1-4.dsc e419c2561627bd6a44f9481f052c43ec244ee69682d6690743b7b447da4997ae 7673 python-intervaltree-bio_1.0.1.orig.tar.gz 11f5b591530148c7efd0846024d7a41fac9e6c568c7b332a6ef2ce551051129a 18264012 python-intervaltree-bio_1.0.1-4.debian.tar.xz"
+    "9fa0c891b44a1925be3bf2c9b2198c9a158be40e20fef08686b5a0da794757eb 2282 python-intervaltree-bio_1.0.1-5.dsc e419c2561627bd6a44f9481f052c43ec244ee69682d6690743b7b447da4997ae 7673 python-intervaltree-bio_1.0.1.orig.tar.gz 8f161e94613c2680f092784b7c8102e1da7ff8cb85c003b24a8da0cfc68cbc5a 18264168 python-intervaltree-bio_1.0.1-5.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-intervaltree-bio"
   ],
   "Files": [
-    "97c5732d3b4906b3569e5551f4347400 2283 python-intervaltree-bio_1.0.1-4.dsc 2f2728780ead61700e2b6b4398a46791 7673 python-intervaltree-bio_1.0.1.orig.tar.gz 6b1c5ce3abf1ce11aa7bf05e229f8b92 18264012 python-intervaltree-bio_1.0.1-4.debian.tar.xz"
+    "983dd43f40872a72d8d50e145cd5fc2a 2282 python-intervaltree-bio_1.0.1-5.dsc 2f2728780ead61700e2b6b4398a46791 7673 python-intervaltree-bio_1.0.1.orig.tar.gz b48f49f4ba5d95cb5c8f862ba5f83208 18264168 python-intervaltree-bio_1.0.1-5.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "python3-pytest, quilt"
+    "python3-pytest"
   ],
   "Uploaders": [
     "Andreas Tille \u003ctille@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/med-team/python-intervaltree-bio.git"
   ],
   "Version": [
-    "1.0.1-4"
+    "1.0.1-5"
   ]
 }

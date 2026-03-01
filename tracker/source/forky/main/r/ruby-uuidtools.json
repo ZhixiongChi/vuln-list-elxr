@@ -6,22 +6,22 @@
     "ruby-uuidtools, ruby-uuidtools-doc"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), gem2deb, libjs-jquery"
+    "debhelper-compat (= 13), gem2deb, libjs-jquery, ruby-rspec"
   ],
   "Checksums-Sha256": [
-    "7c3f9a8c30e8e9295f787c7b929081d8c3b1cdbaa0245fec2545831184039a6d 2099 ruby-uuidtools_2.2.0-1.dsc 243a3140d2b74fefe9c8ba196b54a3790340face90a86dad68dc9bfc32768b99 23451 ruby-uuidtools_2.2.0.orig.tar.gz 5cb1e23fbfd30efb0d8d139ecb94580de2b7cf0489105a9555c797aedfce00a0 4212 ruby-uuidtools_2.2.0-1.debian.tar.xz"
+    "2d1cb83aa6d23434a3038c0fd094621ff98a0a1e060ce25612671b104ba8617d 2101 ruby-uuidtools_3.0.0-1.dsc 2a209079eea08702514e05229af8f70669eb055176a6f290c85e8dd49685f2d3 25474 ruby-uuidtools_3.0.0.orig.tar.gz ffc09b2bc7d441270d3cf220fb39f99af8dca9efa2650e502381467ea3daf205 4588 ruby-uuidtools_3.0.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/ruby-uuidtools"
   ],
   "Files": [
-    "007508b71ddb8d2a0953d22d8138f23e 2099 ruby-uuidtools_2.2.0-1.dsc 005e677a33308f39ddf99534a1531132 23451 ruby-uuidtools_2.2.0.orig.tar.gz 30fe2ebc2afe9264237521d19d75bf49 4212 ruby-uuidtools_2.2.0-1.debian.tar.xz"
+    "4dd322ae8562bda44654efc905aedccf 2101 ruby-uuidtools_3.0.0-1.dsc a238061d505c7e1cb22db64a4a0b8c85 25474 ruby-uuidtools_3.0.0.orig.tar.gz ec78b95b297921d1980b6817c0c00f82 4588 ruby-uuidtools_3.0.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://uuidtools.rubyforge.org/"
+    "https://github.com/sporkmonger/uuidtools"
   ],
   "Maintainer": [
     "Marc Dequènes (Duck) \u003cDuck@DuckCorp.org\u003e"
@@ -35,14 +35,11 @@
   "Priority": [
     "optional"
   ],
-  "Ruby-Versions": [
-    "all"
-  ],
   "Section": [
     "ruby"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.7.3"
   ],
   "Uploaders": [
     "Debian Ruby Extras Maintainers \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
@@ -54,6 +51,6 @@
     "https://salsa.debian.org/ruby-team/ruby-uuidtools.git"
   ],
   "Version": [
-    "2.2.0-1"
+    "3.0.0-1"
   ]
 }

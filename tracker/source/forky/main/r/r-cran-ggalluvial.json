@@ -6,16 +6,16 @@
     "r-cran-ggalluvial"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-ggplot2, r-cran-dplyr, r-cran-tidyr, r-cran-lazyeval, r-cran-rlang, r-cran-tidyselect"
+    "debhelper-compat (= 13), dh-r, r-base-dev, r-cran-ggplot2, r-cran-dplyr, r-cran-tidyr, r-cran-lazyeval, r-cran-rlang, r-cran-tidyselect, architecture-is-64-bit, architecture-is-little-endian"
   ],
   "Checksums-Sha256": [
-    "8b47d7e31257a9cbc64e667dbcad942938b65a7586b6584de61988e94a86e36c 2246 r-cran-ggalluvial_0.12.5-2.dsc 90044c880e70096137a733d601b11e558fe55e4e7d3aaacac6f08d7847415d71 2850813 r-cran-ggalluvial_0.12.5.orig.tar.gz 787049374c70dd8baf2a9998b34cb03a7cea80fee212a6efc95fbd584aaea36f 4212 r-cran-ggalluvial_0.12.5-2.debian.tar.xz"
+    "718ec9055fbecc3f4602832e3c59ef8419073c7165d9d53798269ec3a274a544 2427 r-cran-ggalluvial_0.12.6-1.dsc f0397b18c43ed1e085c7bc1bbab3b81b46005ff3f420a635e903729083949d51 2883375 r-cran-ggalluvial_0.12.6.orig.tar.gz 5f76bbfa6e22b6ed7c648b1679f6337b83e342ea4bb547e359dd426337ae4623 4152 r-cran-ggalluvial_0.12.6-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/r-cran-ggalluvial"
   ],
   "Files": [
-    "81c006ccc678d937b66e0684e636a7e5 2246 r-cran-ggalluvial_0.12.5-2.dsc fa28d48c3a3b6f8c8a61ee6436204e27 2850813 r-cran-ggalluvial_0.12.5.orig.tar.gz 069db1639b4659a71b93f6cf52312c8e 4212 r-cran-ggalluvial_0.12.5-2.debian.tar.xz"
+    "3a7355fd08d9d3f4624ea478d7b5e97e 2427 r-cran-ggalluvial_0.12.6-1.dsc e344c2b515256093b2497bb622a0e017 2883375 r-cran-ggalluvial_0.12.6.orig.tar.gz b3393349ef6fabf66a4863b53e7f6398 4152 r-cran-ggalluvial_0.12.6-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,13 +39,13 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-r"
   ],
   "Testsuite-Triggers": [
-    "r-cran-testthat"
+    "r-cran-ggrepel, r-cran-htmltools, r-cran-knitr, r-cran-rmarkdown, r-cran-sessioninfo, r-cran-shiny, r-cran-sp, r-cran-testthat, r-cran-vdiffr"
   ],
   "Uploaders": [
     "Steffen Moeller \u003cmoeller@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/r-pkg-team/r-cran-ggalluvial.git"
   ],
   "Version": [
-    "0.12.5-2"
+    "0.12.6-1"
   ]
 }

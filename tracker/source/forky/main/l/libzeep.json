@@ -3,19 +3,19 @@
     "any all"
   ],
   "Binary": [
-    "libzeep-dev, libzeep-doc, libzeep5.1"
+    "libzeep-dev, libzeep-doc, libzeep7"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), cmake, libboost-dev, libboost-program-options-dev, libboost-date-time-dev, libboost-regex-dev, libboost-system-dev, libboost-tools-dev, mrc, doxygen, docbook-website, xsltproc, default-jre-headless, fop"
+    "debhelper-compat (= 13), cmake, libzeem-dev, libboost-dev, libhowardhinnant-date-dev, libmcfp-dev, catch2, mrc, doxygen, python3-exhale, python3-sphinx-rtd-theme, python3-myst-parser"
   ],
   "Checksums-Sha256": [
-    "6a2d5f76ce7a0d75279dc2cd35e125d39e5428d2751c30ff8691845d96f68259 2358 libzeep_5.1.8-1.dsc 932c329cd607e7b10e511832f97bdad29badcbde83c12ab9fa6c56c291924810 966054 libzeep_5.1.8.orig.tar.gz 9ec9ae45933835a325f0388f14e5aa4e6171bf7a2627ad247bcaa4ee1b0bf9e6 4828 libzeep_5.1.8-1.debian.tar.xz"
+    "2b3d8123c200f21883b1d774bf6fc142dc0e8fb5cc66499e67498bfa95d896c6 2315 libzeep_7.3.2-3.dsc 5cad5dc6358ecf8d4dcd9ce3b4b11951fa349d7a97bfd480c7e49d3b12b8e714 211241 libzeep_7.3.2.orig.tar.gz 29e297304cf8802ab57164118ea59a2fc63801c53b4ebb4019828863126ca747 6112 libzeep_7.3.2-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/libz/libzeep"
   ],
   "Files": [
-    "024f319547a7246d85ec7702bacd3917 2358 libzeep_5.1.8-1.dsc c86010b649a43e545122f6c4cc341c14 966054 libzeep_5.1.8.orig.tar.gz 33b1e4b6c8b283fe136e0328a68299bb 4828 libzeep_5.1.8-1.debian.tar.xz"
+    "7c57bd8714b2aed4effd0d555224319d 2315 libzeep_7.3.2-3.dsc ba49009e6b70053a600b920cc3adf541 211241 libzeep_7.3.2.orig.tar.gz 85d6b0400a378512cc56362186643df9 6112 libzeep_7.3.2-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "libzeep"
   ],
   "Package-List": [
-    "libzeep-dev deb libdevel optional arch=any libzeep-doc deb doc optional arch=all libzeep5.1 deb libs optional arch=any"
+    "libzeep-dev deb libdevel optional arch=any libzeep-doc deb doc optional arch=all libzeep7 deb libs optional arch=any"
   ],
   "Priority": [
     "optional"
@@ -39,13 +39,13 @@
     "libs"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "build-essential"
+    "build-essential, curl"
   ],
   "Uploaders": [
     "Maarten L. Hekkelman \u003cmaarten@hekkelman.com\u003e, Andreas Tille \u003ctille@debian.org\u003e"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/med-team/libzeep.git"
   ],
   "Version": [
-    "5.1.8-1"
+    "7.3.2-3"
   ]
 }

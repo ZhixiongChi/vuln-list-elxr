@@ -6,28 +6,19 @@
     "python3-nexpy"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, ipython3, pybuild-plugin-pyproject, python3-all, python3-ansi2html, python3-fabio, python3-jupyter-client, python3-lmfit, python3-matplotlib, python3-nexusformat (\u003e\u003e 2.0~), python3-pytest, python3-qtconsole, python3-qtpy, python3-qtpy-pyqt5, python3-setuptools, python3-setuptools-scm"
+    "debhelper-compat (= 13), dh-sequence-python3, ipython3, pybuild-plugin-pyproject, python3-all, python3-ansi2html, python3-fabio, python3-jupyter-client, python3-lmfit, python3-matplotlib, python3-nexusformat (\u003e\u003e 2.0~), python3-pyqt5.qtsvg \u003c!nocheck\u003e, python3-pytest, python3-qtconsole, python3-qtpy, python3-qtpy-pyqt6, python3-setuptools, python3-setuptools-scm"
   ],
   "Checksums-Sha256": [
-    "840cdbe01a1156159af415f4bca2ea1bd0d2ce755b0e53a1e3c50cf37635e7cc 2668 python-nexpy_2.0.0-2.dsc 0ca9679fe39aae9716759456b95f6dad04bf1c2e30885b5c49b8177c72774edd 5860084 python-nexpy_2.0.0.orig.tar.xz a9da7af6da564d7c32acdc3a00c8d76efa0d4c51200d84320d04b843b808413c 3576 python-nexpy_2.0.0-2.debian.tar.xz"
-  ],
-  "Dgit": [
-    "35d9516863054d0c8fafff824760e3966a7edf32 debian archive/debian/2.0.0-2 https://git.dgit.debian.org/python-nexpy"
+    "bdf1e7a9a43b88efe68e4ece09f87b5ac75dcf951c07ac803ee83d218cb5655e 2298 python-nexpy_2.0.1-2.dsc 9b9b8d05ec771ffe3a08542b061851ffc873aeb785579b879e788ce4c627413a 5968223 python-nexpy_2.0.1.orig.tar.gz 10f44bb6ea2b6b85e7bc8ee81e4777813762349261a4af62262fdf0299c68b0f 3692 python-nexpy_2.0.1-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/python-nexpy"
   ],
   "Files": [
-    "3d7f1beb1b2a19350c762cf0beacb3c8 2668 python-nexpy_2.0.0-2.dsc 762ca89d529bea5bb5e2bb6603832fe6 5860084 python-nexpy_2.0.0.orig.tar.xz 6f31b1896783d479a3c859332e8e43fc 3576 python-nexpy_2.0.0-2.debian.tar.xz"
+    "5a6f117fe9da3d0cad1327f3100c23e1 2298 python-nexpy_2.0.1-2.dsc 668371e2f83da3d55c4968fe1682a69a 5968223 python-nexpy_2.0.1.orig.tar.gz 5000b0ed4eb1543d64285526ce078fbc 3692 python-nexpy_2.0.1-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
-  ],
-  "Git-Tag-Info": [
-    "tag=dc7231ea40df1540f268d306d69d26bfec4c5852 fp=ac0a4ff12611b6fccf01c111393587d97d86500b"
-  ],
-  "Git-Tag-Tagger": [
-    "Colin Watson \u003ccjwatson@debian.org\u003e"
   ],
   "Homepage": [
     "https://nexpy.github.io/nexpy/"
@@ -54,10 +45,10 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "python3-pytest"
+    "python3-pyqt5.qtsvg, python3-pytest"
   ],
   "Uploaders": [
-    "Debian PaN Maintainers \u003cdebian-pan-maintainers@alioth-lists.debian.net\u003e, Roland Mas \u003clolando@debian.org\u003e,"
+    "Debian PaN Maintainers \u003cdebian-pan-maintainers@alioth-lists.debian.net\u003e, Roland Mas \u003clolando@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/python-nexpy"
@@ -66,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/python-nexpy.git"
   ],
   "Version": [
-    "2.0.0-2"
+    "2.0.1-2"
   ]
 }

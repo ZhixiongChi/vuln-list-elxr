@@ -6,16 +6,16 @@
     "libkf6guiaddons-bin, libkf6guiaddons-data, libkf6guiaddons-dev, libkf6guiaddons-doc, libkf6guiaddons6, qml6-module-org-kde-guiaddons"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.16~), doxygen, extra-cmake-modules (\u003e= 6.20.0~), libwayland-dev (\u003e= 1.9~) [linux-any], libx11-dev, libxcb1-dev, libxkbcommon-dev, pkgconf, plasma-wayland-protocols (\u003e= 1.15.0~) [linux-any], qt6-base-dev (\u003e= 6.8.0~), qt6-base-private-dev (\u003e= 6.8.0~), qt6-declarative-dev, qt6-tools-dev (\u003e= 6.5.0~), qt6-wayland-dev (\u003e= 6.8.0~) [linux-any], wayland-protocols (\u003e= 1.39~)"
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.27~), doxygen, extra-cmake-modules (\u003e= 6.23.0~), libwayland-dev (\u003e= 1.9~) [linux-any], libx11-dev, libxcb1-dev, libxkbcommon-dev, pkgconf, plasma-wayland-protocols (\u003e= 1.15.0~) [linux-any], qt6-base-dev (\u003e= 6.8.0~), qt6-base-private-dev (\u003e= 6.8.0~), qt6-declarative-dev, qt6-tools-dev (\u003e= 6.5.0~), qt6-wayland-dev (\u003e= 6.8.0~) [linux-any], wayland-protocols (\u003e= 1.39~)"
   ],
   "Checksums-Sha256": [
-    "5524e3129201f43261cb6a41d0a2ecbeeba56887192c7bee7c63de3b95bee8f5 3209 kf6-kguiaddons_6.20.0-1.dsc 33caf5ae46f1a6214f56596180e0c6ccb4af2cce0dcae060ae4fb7078260a476 90608 kf6-kguiaddons_6.20.0.orig.tar.xz dda642041e52fc1da622af07bc4a7c83dc0f25115fd8b81f8463f0c378306683 228 kf6-kguiaddons_6.20.0.orig.tar.xz.asc 0e74fc848d68b97f1172df6b5799f524da3939703efa498b7a8895c2f2fbbf58 18268 kf6-kguiaddons_6.20.0-1.debian.tar.xz"
+    "d8ee99307c5420116a3f9d7a07bcd9499f92c20f76525d90a22d85c3341eab77 3179 kf6-kguiaddons_6.23.0-2.dsc b9c5ad9fd8fd8aeff2ae01b1317a0dad3011e4259e50e4f2e5685fee00047b48 94824 kf6-kguiaddons_6.23.0.orig.tar.xz e93cc324b296fa47f17c9ea6019ce7c6b967e6353f835f89020a82aae6df79af 228 kf6-kguiaddons_6.23.0.orig.tar.xz.asc 66e62ed645fb4e9a5f8e50e988d5d0f3a0e5f5da83acb5f46b0864ffa54667de 18764 kf6-kguiaddons_6.23.0-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/k/kf6-kguiaddons"
   ],
   "Files": [
-    "d8c47ad88bb235b26eff754df65547c2 3209 kf6-kguiaddons_6.20.0-1.dsc adce0513e83c86efad5e2414f5736bef 90608 kf6-kguiaddons_6.20.0.orig.tar.xz cca66996f3140987f981c6668d502f5a 228 kf6-kguiaddons_6.20.0.orig.tar.xz.asc 83527345626f5b3c6db2493719ab832d 18268 kf6-kguiaddons_6.20.0-1.debian.tar.xz"
+    "b82b05e972740cca737a03738b9c2d13 3179 kf6-kguiaddons_6.23.0-2.dsc 2c1c531fe46ddaca670ce7b17232d1dd 94824 kf6-kguiaddons_6.23.0.orig.tar.xz bcc32fa372500d2e60d24921cb367a60 228 kf6-kguiaddons_6.23.0.orig.tar.xz.asc 18537b619394f7da32f94bf5f0ebc96c 18764 kf6-kguiaddons_6.23.0-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "dh-acc, exuberant-ctags"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/kf6-kguiaddons"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kf6-kguiaddons.git"
   ],
   "Version": [
-    "6.20.0-1"
+    "6.23.0-2"
   ]
 }

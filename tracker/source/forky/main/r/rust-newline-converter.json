@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-newline-converter-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-unicode-segmentation-1+default-dev (\u003e= 1.10-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "a00c11313032fc788c200cf659511087569cecb7fb6c828ae684f4206e04109d 1971 rust-newline-converter_0.3.0-1.dsc 47b6b097ecb1cbfed438542d16e84fd7ad9b0c76c8a65b7f9039212a3d14dc7f 4603 rust-newline-converter_0.3.0.orig.tar.gz 415531fe1f60264ecef619a1b837fd53f7573e35d5587483c700eb2d1803fb82 2680 rust-newline-converter_0.3.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-newline-converter"
+  ],
+  "Files": [
+    "d02ebe3a6933230b96fcd1e2ff3a4c9b 1971 rust-newline-converter_0.3.0-1.dsc d2b357b930b75795cc1094ecaeab8be3 4603 rust-newline-converter_0.3.0.orig.tar.gz 189c69987d0315d9eb43b70e962dae16 2680 rust-newline-converter_0.3.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/spitfire05/rnc/tree/master/crates/newline-converter"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-newline-converter"
+  ],
+  "Package-List": [
+    "librust-newline-converter-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-criterion-0.5+default-dev, librust-fancy-regex-0.11+default-dev, librust-lazy-regex-3+default-dev, librust-once-cell-1+default-dev, librust-quickcheck-1+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/newline-converter"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/newline-converter]"
+  ],
+  "Version": [
+    "0.3.0-1"
+  ]
+}

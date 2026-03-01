@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-serde-bare-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-serde-1+std-dev \u003c!nocheck\u003e, librust-serde-1-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "6353dc560d8509d0a2d1dd34057ef81ea29e338a81779425d1c642d455558427 1784 rust-serde-bare_0.5.0-1.dsc 51c55386eed0f1ae957b091dc2ca8122f287b60c79c774cbe3d5f2b69fded660 12990 rust-serde-bare_0.5.0.orig.tar.gz 50befd0d8d28c28a7b63bd5b49319527b85f7170f2a466c408011d7e1d7d1de4 2900 rust-serde-bare_0.5.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-serde-bare"
+  ],
+  "Files": [
+    "dfc43026eadc61a96bf19036051645db 1784 rust-serde-bare_0.5.0-1.dsc c15809f79ccc7546ebc73a2ad6d9c655 12990 rust-serde-bare_0.5.0.orig.tar.gz c205e5bcdbb4b93b0309864ed63ce1f7 2900 rust-serde-bare_0.5.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://git.sr.ht/~tdeo/serde_bare"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-serde-bare"
+  ],
+  "Package-List": [
+    "librust-serde-bare-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Daniel Kahn Gillmor \u003cdkg@fifthhorseman.net\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/serde-bare"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/serde-bare]"
+  ],
+  "Version": [
+    "0.5.0-1"
+  ]
+}

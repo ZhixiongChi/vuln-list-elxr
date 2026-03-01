@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "libdeal.ii-dev, libdeal.ii-9.7.1, libdeal.ii-doc"
+  ],
+  "Build-Depends": [
+    "cmake, debhelper-compat (= 13), doxygen, gmsh, graphviz, libadolc-dev (\u003e= 2.6.4), libarpack2-dev, libassimp-dev, libboost-iostreams-dev, libboost-math-dev, libboost-serialization-dev, libboost-thread-dev, libcgal-dev, libgmsh-dev, libgsl-dev, libhdf5-dev, libhdf5-mpi-dev, liblapack-dev, libmagicenum-dev, libmetis-dev, libmuparser-dev, libocct-data-exchange-dev, libocct-foundation-dev, libocct-ocaf-dev, libocct-visualization-dev, libp4est-dev (\u003e= 2.0), libscalapack-mpi-dev, libsuitesparse-dev, libsundials-dev (\u003e= 5.7.0), libtbb-dev, libvtk9-dev, mold [amd64 arm64 riscv64], mpi-default-dev, numdiff, petsc-dev, python3-minimal:native, slepc-dev, trilinos-all-dev, zlib1g-dev"
+  ],
+  "Checksums-Sha256": [
+    "bb11d34b65bee324603f085654018c7dde06416acf1ca5408e6d881e942f21f7 2812 deal.ii_9.7.1-4.dsc c4bdf9fb1544c5fa70a17713f4062a632593c99534474583822cffd1b4361874 254926792 deal.ii_9.7.1.orig.tar.xz 8fa6660ed9e659e2dd1309339ea7f0df7f4fd9cb03c7437ba0760f47acf38d75 14668 deal.ii_9.7.1-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/deal.ii"
+  ],
+  "Files": [
+    "8e9f35fa9401cc912f3e864a0caf97f0 2812 deal.ii_9.7.1-4.dsc 574c376ceada7d4db6d86cf75b57acde 254926792 deal.ii_9.7.1.orig.tar.xz d8095c697f71fa2e4332b8e1c084b3be 14668 deal.ii_9.7.1-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "http://www.dealii.org/"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "deal.ii"
+  ],
+  "Package-List": [
+    "libdeal.ii-9.7.1 deb libs optional arch=any libdeal.ii-dev deb libdevel optional arch=any libdeal.ii-doc deb doc optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "cmake, g++"
+  ],
+  "Uploaders": [
+    "Matthias Maier \u003ctamiko+DEBIAN@kyomu.43-1.org\u003e, Graham Inggs \u003cginggs@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/deal.ii"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/deal.ii.git"
+  ],
+  "Version": [
+    "9.7.1-4"
+  ]
+}

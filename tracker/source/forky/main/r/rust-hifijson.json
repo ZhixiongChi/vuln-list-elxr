@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-hifijson-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.56) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "36abf3ee88c79cc39fed6ae76f7157c0bd8cd4ae4ad224c8560bbd1b8a36b0b4 1715 rust-hifijson_0.2.3-1.dsc 0a7763b98ba8a24f59e698bf9ab197e7676c640d6455d1580b4ce7dc560f0f0d 23697 rust-hifijson_0.2.3.orig.tar.gz 2b1ca205a0c5f4dd1cd01b57c9326b8441f6a05e56a0bed1f0a2d4c2255799de 2716 rust-hifijson_0.2.3-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-hifijson"
+  ],
+  "Files": [
+    "df06ad4fda0994b0ea5d502561eddfe1 1715 rust-hifijson_0.2.3-1.dsc f51465bd26c1c12738f6393b00a00b6c 23697 rust-hifijson_0.2.3.orig.tar.gz c337f038c1e8a6881fbb4178a3575cce 2716 rust-hifijson_0.2.3-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/01mf02/hifijson"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-hifijson"
+  ],
+  "Package-List": [
+    "librust-hifijson-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-memmap2-0.9+default-dev, librust-serde-json-1+arbitrary-precision-dev, librust-serde-json-1+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Ivan Carvalho \u003civancarvalho@google.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/hifijson"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/hifijson]"
+  ],
+  "Version": [
+    "0.2.3-1"
+  ]
+}

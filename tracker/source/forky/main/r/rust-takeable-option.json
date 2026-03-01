@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-takeable-option-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "283a59c6f48aab1616fb065c9873523daa795244f4bb09ad1daac140735687dc 1626 rust-takeable-option_0.5.0-1.dsc 36ae8932fcfea38b7d3883ae2ab357b0d57a02caaa18ebb4f5ece08beaec4aa0 1075 rust-takeable-option_0.5.0.orig.tar.gz ea25f78a75c44f1b4c89152feea9ffec44e1e02da828f5878d7ada5471a082c1 2428 rust-takeable-option_0.5.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-takeable-option"
+  ],
+  "Files": [
+    "e129e0ac6045121bb0cab32d20e48067 1626 rust-takeable-option_0.5.0-1.dsc b34c70a76aafcbd42b97c9577d69950f 1075 rust-takeable-option_0.5.0.orig.tar.gz 6d333c0661fe541d89b2edf772b088cf 2428 rust-takeable-option_0.5.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-takeable-option"
+  ],
+  "Package-List": [
+    "librust-takeable-option-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/takeable-option"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/takeable-option]"
+  ],
+  "Version": [
+    "0.5.0-1"
+  ]
+}

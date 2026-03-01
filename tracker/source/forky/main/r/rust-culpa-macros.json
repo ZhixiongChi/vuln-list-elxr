@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-culpa-macros-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-proc-macro2-1+default-dev (\u003e= 1.0.63-~~) \u003c!nocheck\u003e, librust-quote-1+default-dev (\u003e= 1.0.29-~~) \u003c!nocheck\u003e, librust-syn-2+default-dev (\u003e= 2.0.22-~~) \u003c!nocheck\u003e, librust-syn-2+fold-dev (\u003e= 2.0.22-~~) \u003c!nocheck\u003e, librust-syn-2+full-dev (\u003e= 2.0.22-~~) \u003c!nocheck\u003e, librust-syn-2+parsing-dev (\u003e= 2.0.22-~~) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "abba2e74b848bf9e6f5c70bf65051105ec7d069149078e18f8006700c3c64f42 1960 rust-culpa-macros_1.0.2-1.dsc 1234e1717066d3c71dcf89b75e7b586299e41204d361db56ec51e6ded5014279 3325 rust-culpa-macros_1.0.2.orig.tar.gz 756a823ea2a321d3798cd3d30a95d0570531f33c2d0388a5f8e8c48252d713d9 2584 rust-culpa-macros_1.0.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-culpa-macros"
+  ],
+  "Files": [
+    "f85f2f790077ed87d2ca9f2101d51fcd 1960 rust-culpa-macros_1.0.2-1.dsc a2a206736206297eb1e2d5ebf2ece512 3325 rust-culpa-macros_1.0.2.orig.tar.gz fb8a9db044dbd1e671ad456d6c25a783 2584 rust-culpa-macros_1.0.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/Nullus157/culpa"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-culpa-macros"
+  ],
+  "Package-List": [
+    "librust-culpa-macros-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/culpa-macros"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/culpa-macros]"
+  ],
+  "Version": [
+    "1.0.2-1"
+  ]
+}

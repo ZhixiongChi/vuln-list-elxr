@@ -6,16 +6,16 @@
     "libquickcharts1, libquickcharts-dev, libquickchartscontrols1, qml6-module-org-kde-quickcharts"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, dh-sequence-qmldeps, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.20.0~), libkf6declarative-dev, libkirigami-dev, libxkbcommon-dev, qml6-module-qtqml-workerscript \u003c!nocheck\u003e, qml6-module-qtquick-window \u003c!nocheck\u003e, qml6-module-qttest \u003c!nocheck\u003e, qt6-base-dev (\u003e= 6.5.0+dfsg~), qt6-base-private-dev (\u003e= 6.5.0+dfsg~), qt6-declarative-dev (\u003e= 6.8.0~), qt6-declarative-private-dev (\u003e= 6.5.0+dfsg~), qt6-shadertools-dev (\u003e= 6.8.0~), qt6-tools-dev (\u003e= 6.5.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, dh-sequence-qmldeps, cmake (\u003e= 3.27~), extra-cmake-modules (\u003e= 6.23.0~), libkf6declarative-dev, libkirigami-dev, libxkbcommon-dev, qml6-module-qtqml-workerscript \u003c!nocheck\u003e, qml6-module-qtquick-window \u003c!nocheck\u003e, qml6-module-qttest \u003c!nocheck\u003e, qt6-base-dev (\u003e= 6.5.0+dfsg~), qt6-base-private-dev (\u003e= 6.5.0+dfsg~), qt6-declarative-dev (\u003e= 6.8.0~), qt6-declarative-private-dev (\u003e= 6.5.0+dfsg~), qt6-shadertools-dev (\u003e= 6.8.0~), qt6-tools-dev (\u003e= 6.5.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "13955ca340d7259694d54cfb366aa1d72cb4276219134297cbb17ea5728398c3 3177 kf6-kquickcharts_6.20.0-1.dsc 94f52ce42c15cb7dc514ce9868dba41ed8f0645b941ff2256d02227746301792 112260 kf6-kquickcharts_6.20.0.orig.tar.xz 310c2adabae6343935472723371b8f744924c255ce40f563da8f0d1c9633e6b1 228 kf6-kquickcharts_6.20.0.orig.tar.xz.asc 46f8bcdf5c1c351fed638ce7a7f75655495db6f2936e9c3be3213dcffae0bb8e 14232 kf6-kquickcharts_6.20.0-1.debian.tar.xz"
+    "c1627b085336c5cc31f8fcc940ffb767d4fe9c93218481549be8462b283e2db1 3176 kf6-kquickcharts_6.23.0-1.dsc f7448293f056594f1ebe323a7a3ad0e86103ae526097e158dab63fb932fdae3e 112300 kf6-kquickcharts_6.23.0.orig.tar.xz a04349c8b156ceb9b34908dd6d87db154dc0644d5cb188d635cb670d8e7f66b5 228 kf6-kquickcharts_6.23.0.orig.tar.xz.asc 18fe0486da49774a898bcf0fa25d96eae16bdbe5e0b94eb189d8d01721c3581b 13756 kf6-kquickcharts_6.23.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/k/kf6-kquickcharts"
   ],
   "Files": [
-    "cf2f6b48d66f894a084189c6d5d0ce25 3177 kf6-kquickcharts_6.20.0-1.dsc 24a06d8b57ac5015b3bd85dc67e39e97 112260 kf6-kquickcharts_6.20.0.orig.tar.xz 98a24a1450a8f36184b7645f84eef063 228 kf6-kquickcharts_6.20.0.orig.tar.xz.asc 3e68aa5dc14e082f3977b8d37cc44552 14232 kf6-kquickcharts_6.20.0-1.debian.tar.xz"
+    "4a79eda6172b4964d4979954495dabc2 3176 kf6-kquickcharts_6.23.0-1.dsc 717105d7e9dcaac6256471f8b5286eca 112300 kf6-kquickcharts_6.23.0.orig.tar.xz 68f7ea3ad08e13d0d525fcbdc0f7b1bf 228 kf6-kquickcharts_6.23.0.orig.tar.xz.asc d1730f13da7cb92bb41ec726adb889ba 13756 kf6-kquickcharts_6.23.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,10 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Sandro Knauß \u003chefee@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Sandro Knauß \u003chefee@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/kf6-kquickcharts"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kf6-kquickcharts.git"
   ],
   "Version": [
-    "6.20.0-1"
+    "6.23.0-1"
   ]
 }

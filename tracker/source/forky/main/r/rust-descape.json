@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-descape-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "02a4ac81cb643d51900b49524145eff7157c39e33cc185d89aec90567f1a3e86 1587 rust-descape_3.0.0-1.dsc 700357d9fb22b5232a85e34a413c1a76ae649f532c31107e402dc84e9c03bfb2 12799 rust-descape_3.0.0.orig.tar.gz 01fd6646d20fbc23947c6ffded1a3867aad60f063104cae1155b57424706d539 2604 rust-descape_3.0.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-descape"
+  ],
+  "Files": [
+    "6f2cbd7227e0312cc46835b0d376844a 1587 rust-descape_3.0.0-1.dsc c95e7981e1de13082546cd95d4129447 12799 rust-descape_3.0.0.orig.tar.gz 1d3100f3abc12d7f777f5464d879b48f 2604 rust-descape_3.0.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/balt-dev/descape"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-descape"
+  ],
+  "Package-List": [
+    "librust-descape-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.2"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Alexander Kjäll \u003calexander.kjall@gmail.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/descape"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/descape]"
+  ],
+  "Version": [
+    "3.0.0-1"
+  ]
+}

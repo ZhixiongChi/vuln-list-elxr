@@ -6,16 +6,16 @@
     "r-cran-xtable"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-r, r-base-dev"
+    "debhelper-compat (= 13), dh-r, r-base-dev, architecture-is-64-bit, architecture-is-little-endian"
   ],
   "Checksums-Sha256": [
-    "fd8a838df8163c75fc2f184e55bc90df6e99275f1dc81e06cc9b18afe7c0e5a0 2026 r-cran-xtable_1.8-4-2.dsc 5abec0e8c27865ef0880f1d19c9f9ca7cc0fd24eadaa72bcd270c3fb4075fd1c 564589 r-cran-xtable_1.8-4.orig.tar.gz 134f29bc9033ba7718a01837245cd844923a053e31670066738bf0b90c0f57b6 3328 r-cran-xtable_1.8-4-2.debian.tar.xz"
+    "02d5a51ca545d39556e42be5ceea83946edc3dc2e0c49ca0092cd6c4aec26b45 2197 r-cran-xtable_1.8-8-1.dsc b999c031b91255fb92134b0e70e5f84c5609e9312c0518393b9d0a4aaf6b2510 618708 r-cran-xtable_1.8-8.orig.tar.gz dc762315fe7100f9783e75693d6e571f6410191ab4f53c76c1506484e9635fc7 3468 r-cran-xtable_1.8-8-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/r-cran-xtable"
   ],
   "Files": [
-    "7b7c0b31bf1c94fb54b610a587fc3005 2026 r-cran-xtable_1.8-4-2.dsc 0a7da6c3b34b2974110a7d00fe9afa79 564589 r-cran-xtable_1.8-4.orig.tar.gz 5fb9b11863ac4cd0b21bc4b9d9542a6d 3328 r-cran-xtable_1.8-4-2.debian.tar.xz"
+    "889f5abaf421ab6c14701dd20099cc4c 2197 r-cran-xtable_1.8-8-1.dsc 4d07e6f65181f7227fac2bd3e6122a0b 618708 r-cran-xtable_1.8-8.orig.tar.gz d557bab386bccb5b7084163957c160b3 3468 r-cran-xtable_1.8-8-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,10 +39,13 @@
     "gnu-r"
   ],
   "Standards-Version": [
-    "4.5.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest, autopkgtest-pkg-r"
+  ],
+  "Testsuite-Triggers": [
+    "r-cran-glue, r-cran-knitr, r-cran-survival, r-cran-tinytex, r-cran-zoo"
   ],
   "Uploaders": [
     "Jonathon Love \u003cjon@thon.cc\u003e"
@@ -54,6 +57,6 @@
     "https://salsa.debian.org/r-pkg-team/r-cran-xtable.git"
   ],
   "Version": [
-    "1:1.8-4-2"
+    "1:1.8-8-1"
   ]
 }

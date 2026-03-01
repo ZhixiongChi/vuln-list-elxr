@@ -3,19 +3,19 @@
     "any all"
   ],
   "Binary": [
-    "libkf6i18n-data, libkf6i18n-dev, libkf6i18n-doc, libkf6i18n6, libkf6i18nlocaledata6, libkf6i18nqml6, qml6-module-org-kde-i18n-localedata"
+    "libkf6i18n-data, libkf6i18n-dev, libkf6i18n-doc, libkf6i18n6, libkf6i18nlocaledata6, libkf6i18nqml6, qml6-module-org-kde-i18n-localedata, qml6-module-org-kde-ki18n"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, dh-sequence-qmldeps, cmake (\u003e= 3.16~), doxygen (\u003e= 1.8.13~), extra-cmake-modules (\u003e= 6.20.0~), gettext, iso-codes \u003c!nocheck\u003e, locales-all \u003c!nocheck\u003e, python3:any, qml6-module-qtqml-models \u003c!nocheck\u003e, qml6-module-qtqml-workerscript \u003c!nocheck\u003e, qt6-base-dev (\u003e= 6.8.0~), qt6-declarative-dev (\u003e= 6.8.0~), qt6-declarative-private-dev, qt6-tools-dev (\u003e= 6.5.0~)"
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, dh-sequence-qmldeps, cmake (\u003e= 3.27~), doxygen (\u003e= 1.8.13~), extra-cmake-modules (\u003e= 6.23.0~), gettext, iso-codes \u003c!nocheck\u003e, locales-all \u003c!nocheck\u003e, python3:any, qml6-module-qtqml-models \u003c!nocheck\u003e, qml6-module-qtqml-workerscript \u003c!nocheck\u003e, qt6-base-dev (\u003e= 6.8.0~), qt6-declarative-dev (\u003e= 6.8.0~), qt6-declarative-private-dev, qt6-tools-dev (\u003e= 6.5.0~)"
   ],
   "Checksums-Sha256": [
-    "fce7cf2218abc12be01e29c11db1ff00520755a21f113ee126c1ae8fddd12d87 3162 kf6-ki18n_6.20.0-1.dsc f29c805137af9cee6abab424b380fea964a59b089f90fb909601d9fc78df5f73 3090104 kf6-ki18n_6.20.0.orig.tar.xz 2d15e4b3b5f43cfda80c200d6b0ef5e9229423ffe03e2b5a7ae852f86499b274 228 kf6-ki18n_6.20.0.orig.tar.xz.asc 0713f9899381645959eaef435754f0a71f63271ae7671a9ea33d3d12a674c3cd 23696 kf6-ki18n_6.20.0-1.debian.tar.xz"
+    "c42653e0d4f6789da2028dd7443b9ba563e129eab39a8cb286406cb68aac460b 3311 kf6-ki18n_6.23.0-2.dsc c492ac5c9258d84c732addcb3a53dbdb3ba86912773f1d6f4193218657e3182f 3091452 kf6-ki18n_6.23.0.orig.tar.xz 920cd044238955f27bed3f3ea3bf134f3088a48e2f05a7b03f702c3be7cea6d1 228 kf6-ki18n_6.23.0.orig.tar.xz.asc 896d76f530b340043e9065608d823fecd78b364bdc470078c51edba2946ccc29 23356 kf6-ki18n_6.23.0-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/k/kf6-ki18n"
   ],
   "Files": [
-    "2d67733bd14d928806cefc9cbb94d2dc 3162 kf6-ki18n_6.20.0-1.dsc 17a7a148d4a7afd6098da85b1e2cd349 3090104 kf6-ki18n_6.20.0.orig.tar.xz 7da50d619fbb9670a68628d5947822ee 228 kf6-ki18n_6.20.0.orig.tar.xz.asc a0bebc5e19e5c51c30fc29cfd53d2ac3 23696 kf6-ki18n_6.20.0-1.debian.tar.xz"
+    "506af34e975453423409f3d3ab1c10d0 3311 kf6-ki18n_6.23.0-2.dsc 3e50f60355ad2072cf5190b6602f6f67 3091452 kf6-ki18n_6.23.0.orig.tar.xz 8f8960bdbda5c9a0eaddc9de0a8cd6d2 228 kf6-ki18n_6.23.0.orig.tar.xz.asc 86fb588b0e3d4ff2cc1aafbecc4ae6c4 23356 kf6-ki18n_6.23.0-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "kf6-ki18n"
   ],
   "Package-List": [
-    "libkf6i18n-data deb libs optional arch=all libkf6i18n-dev deb libdevel optional arch=any libkf6i18n-doc deb doc optional arch=all libkf6i18n6 deb libs optional arch=any libkf6i18nlocaledata6 deb libs optional arch=any libkf6i18nqml6 deb libs optional arch=any qml6-module-org-kde-i18n-localedata deb libs optional arch=any"
+    "libkf6i18n-data deb libs optional arch=all libkf6i18n-dev deb libdevel optional arch=any libkf6i18n-doc deb doc optional arch=all libkf6i18n6 deb libs optional arch=any libkf6i18nlocaledata6 deb libs optional arch=any libkf6i18nqml6 deb libs optional arch=any qml6-module-org-kde-i18n-localedata deb libs optional arch=any qml6-module-org-kde-ki18n deb libs optional arch=any"
   ],
   "Priority": [
     "optional"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "dh-acc, exuberant-ctags"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/kf6-ki18n"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kf6-ki18n.git"
   ],
   "Version": [
-    "6.20.0-1"
+    "6.23.0-2"
   ]
 }

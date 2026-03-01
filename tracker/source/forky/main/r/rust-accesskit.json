@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-accesskit-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native (\u003e= 1.77.2) \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "d21fdab850ee4b6c830ae41538ad266a5cae5a9a05d1dc75bc2f46258ff2dbec 1625 rust-accesskit_0.21.0-1.dsc 9c0690ad6e6f9597b8439bd3c95e8c6df5cd043afd950c6d68f3b37df641e27c 34158 rust-accesskit_0.21.0.orig.tar.gz 4ebbb57e2d700d004b9e4020c7a34becac02a22c734fbbe4450b9b51012bd57b 4064 rust-accesskit_0.21.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-accesskit"
+  ],
+  "Files": [
+    "b59d9d78ac3f06e8eeab52a61732b7ab 1625 rust-accesskit_0.21.0-1.dsc d41eea768e05880ffb5fb3056207aad5 34158 rust-accesskit_0.21.0.orig.tar.gz 5f8288a1207c8056421d2fb7420e455e 4064 rust-accesskit_0.21.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/AccessKit/accesskit"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-accesskit"
+  ],
+  "Package-List": [
+    "librust-accesskit-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Federico Ceratto \u003cfederico@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/accesskit"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/accesskit]"
+  ],
+  "Version": [
+    "0.21.0-1"
+  ]
+}

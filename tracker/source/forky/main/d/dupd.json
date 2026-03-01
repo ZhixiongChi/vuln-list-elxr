@@ -1,21 +1,21 @@
 {
   "Architecture": [
-    "amd64"
+    "any"
   ],
   "Binary": [
     "dupd"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), sqlite3, libsqlite3-dev, libssl-dev"
+    "debhelper-compat (= 13), bash-completion, libsqlite3-dev, libssl-dev"
   ],
   "Checksums-Sha256": [
-    "74ebd436bc4185f293e95f909d212773dca20246eaf6ce4f3389f2d06a90beac 1722 dupd_1.7.3-1.dsc ae8cc1fd17122be4cc1ed8dc2c16de11498a0a3dd881471f01e9171bf060fd39 237432 dupd_1.7.3.orig.tar.xz 4af3bf55d3565c1d3d61057c6fa32bacce3556253da4038c0e8fd37e47cf3955 3564 dupd_1.7.3-1.debian.tar.xz"
+    "71e03de8096a336e90f9a1d01c5531a3d1a1e10a715532b751e695691253e0ea 1719 dupd_1.7.3-3.dsc ae8cc1fd17122be4cc1ed8dc2c16de11498a0a3dd881471f01e9171bf060fd39 237432 dupd_1.7.3.orig.tar.xz f856969bcf1b34df6a37a41117b6a6654adade1266c6eac324bd61e7fd2bdcbe 4352 dupd_1.7.3-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/d/dupd"
   ],
   "Files": [
-    "853f0767931e831c9c5bbc23273a3b4d 1722 dupd_1.7.3-1.dsc 0ca063e0d5cdcb0692a508bd24d24efb 237432 dupd_1.7.3.orig.tar.xz b1845c608185bfadf67d8d95162120ae 3564 dupd_1.7.3-1.debian.tar.xz"
+    "2d646b2729d016dc188423bc2165d833 1719 dupd_1.7.3-3.dsc 0ca063e0d5cdcb0692a508bd24d24efb 237432 dupd_1.7.3.orig.tar.xz a82c16755d460164d0881ce09f11d6f1 4352 dupd_1.7.3-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "dupd"
   ],
   "Package-List": [
-    "dupd deb utils optional arch=amd64"
+    "dupd deb utils optional arch=any"
   ],
   "Priority": [
     "optional"
@@ -39,9 +39,21 @@
     "utils"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "sqlite3"
+  ],
+  "Vcs-Browser": [
+    "https://github.com/ermakov0/dupd"
+  ],
+  "Vcs-Git": [
+    "https://github.com/ermakov0/dupd.git"
   ],
   "Version": [
-    "1.7.3-1"
+    "1.7.3-3"
   ]
 }

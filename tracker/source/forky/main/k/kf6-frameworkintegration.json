@@ -6,16 +6,16 @@
     "frameworkintegration6, libkf6style-dev, libkf6style6"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.16~), extra-cmake-modules (\u003e= 6.20.0~), libappstreamqt-dev (\u003e= 1.0~), libkf6colorscheme-dev (\u003e= 6.20.0~), libkf6config-dev (\u003e= 6.20.0~), libkf6i18n-dev (\u003e= 6.20.0~), libkf6iconthemes-dev (\u003e= 6.20.0~), libkf6newstuff-dev (\u003e= 6.20.0~), libkf6notifications-dev (\u003e= 6.20.0~), libkf6package-dev (\u003e= 6.20.0~), libkf6widgetsaddons-dev (\u003e= 6.20.0~), libpackagekitqt6-dev, libxkbcommon-dev, pkgconf, qt6-base-dev (\u003e= 6.8.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, cmake (\u003e= 3.27~), extra-cmake-modules (\u003e= 6.23.0~), libappstreamqt-dev (\u003e= 1.0~), libkf6colorscheme-dev (\u003e= 6.23.0~), libkf6config-dev (\u003e= 6.23.0~), libkf6i18n-dev (\u003e= 6.23.0~), libkf6iconthemes-dev (\u003e= 6.23.0~), libkf6newstuff-dev (\u003e= 6.23.0~), libkf6notifications-dev (\u003e= 6.23.0~), libkf6package-dev (\u003e= 6.23.0~), libkf6widgetsaddons-dev (\u003e= 6.23.0~), libpackagekitqt6-dev, libxkbcommon-dev, pkgconf, qt6-base-dev (\u003e= 6.8.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "7f9e8fe7f0d6e97b494bff81d781e6ceb4b25d930952168d7aacd71eeb6be5d8 3178 kf6-frameworkintegration_6.20.0-1.dsc 1ee61c92c1214159877c0e113a92358724f9ac3ee57710a15038c85dc4fdc7d8 56544 kf6-frameworkintegration_6.20.0.orig.tar.xz 15ac497889539bead19b8a23a784143ec143fde17a81a8047d2f0a0d07a2a492 228 kf6-frameworkintegration_6.20.0.orig.tar.xz.asc f79fa68405401a1f7272c08132b76259139a878c0590422ba7c04344002c8ee3 11820 kf6-frameworkintegration_6.20.0-1.debian.tar.xz"
+    "86df9e7d4505ba468ff04d4d88ee99fef430555f5013495fc97d3ac28fad1916 3246 kf6-frameworkintegration_6.23.0-1.dsc 73456e103cb8e9dc2886b376e3e67653b1bf39f8b4cb1217d7b94d68364f66cd 57252 kf6-frameworkintegration_6.23.0.orig.tar.xz 1d5de8bc503a1ae48be113162bd42bf638d3eb3a2b9872c8b4d5f3a6a9583444 228 kf6-frameworkintegration_6.23.0.orig.tar.xz.asc b6d378cc8c0c937ce4c7bf4bc5f880ab0c48670cdcd3d53d6ae8302defc4f172 11940 kf6-frameworkintegration_6.23.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/k/kf6-frameworkintegration"
   ],
   "Files": [
-    "19d4e9206df07dc52674e65bf535295b 3178 kf6-frameworkintegration_6.20.0-1.dsc 4bb9aac382093d5a80dc89d1f38c6a9b 56544 kf6-frameworkintegration_6.20.0.orig.tar.xz 5ce9430d2b07bad55c629b9e3a175333 228 kf6-frameworkintegration_6.20.0.orig.tar.xz.asc 1a57ae9317d6eb4192c9ed482d040eea 11820 kf6-frameworkintegration_6.20.0-1.debian.tar.xz"
+    "3b4debe3f2ff55efdc4c8d54ac71f186 3246 kf6-frameworkintegration_6.23.0-1.dsc 530b86fbf3b196f7b18ade8d0bded15c 57252 kf6-frameworkintegration_6.23.0.orig.tar.xz a98f113c9bce955b24b61a46fb4d3546 228 kf6-frameworkintegration_6.23.0.orig.tar.xz.asc 8f7efdfc2a999198e50c500fa8535146 11940 kf6-frameworkintegration_6.23.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "dh-acc, exuberant-ctags"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/kf6-frameworkintegration"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kf6-frameworkintegration.git"
   ],
   "Version": [
-    "6.20.0-1"
+    "6.23.0-1"
   ]
 }

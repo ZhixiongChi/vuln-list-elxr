@@ -6,16 +6,16 @@
     "python3-sphinx-testing"
   ],
   "Build-Depends": [
-    "debhelper (\u003e= 9), dh-python, python3-all, python3-setuptools, python3-flake8, python3-sphinx, python3-jinja2, python3-pygments"
+    "debhelper-compat (= 13), dh-sequence-python3, python3-all, python3-flake8, python3-jinja2, python3-pygments, python3-setuptools, python3-sphinx"
   ],
   "Checksums-Sha256": [
-    "3ed3d233e0ba6bd4449c212d4a87973e8a6b4d412582455e4bc1816dd68d04af 1983 sphinx-testing_1.0.1-0.3.dsc ef661775b5722d7b00f67fc229104317d35637a4fb4434bf2c005afdf1da4d09 11513 sphinx-testing_1.0.1.orig.tar.gz 3f4d5a507864954ab92b59e5e29f94fe78d2220043737e6539ae469bd6e30951 4380 sphinx-testing_1.0.1-0.3.debian.tar.xz"
+    "1faaed06210c92a51f3b422d973abf6818edfa981ed3c47efdae9c38612995ff 2241 sphinx-testing_1.0.1-1.dsc ef661775b5722d7b00f67fc229104317d35637a4fb4434bf2c005afdf1da4d09 11513 sphinx-testing_1.0.1.orig.tar.gz c5726f80759a86343d0e31053f0158a861513395cc400261454e436a5198725a 4560 sphinx-testing_1.0.1-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/s/sphinx-testing"
   ],
   "Files": [
-    "612d6606747cc66dd3e3c318ee201aed 1983 sphinx-testing_1.0.1-0.3.dsc 0f60adab66d877ac8c2c23f78dc7ed32 11513 sphinx-testing_1.0.1.orig.tar.gz 3ef8e4936ab143bd76e2f67582e37873 4380 sphinx-testing_1.0.1-0.3.debian.tar.xz"
+    "697715e4812efcedcd1f5428f4f523d7 2241 sphinx-testing_1.0.1-1.dsc 0f60adab66d877ac8c2c23f78dc7ed32 11513 sphinx-testing_1.0.1.orig.tar.gz e813ab31d18d473a97fc1d6a07f91175 4560 sphinx-testing_1.0.1-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -24,7 +24,7 @@
     "https://github.com/sphinx-doc/sphinx-testing"
   ],
   "Maintainer": [
-    "Kouhei Maeda \u003cmkouhei@palmtb.net\u003e"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
   ],
   "Package": [
     "sphinx-testing"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.3.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -47,7 +47,16 @@
   "Testsuite-Triggers": [
     "python3-all"
   ],
+  "Uploaders": [
+    "Kouhei Maeda \u003cmkouhei@palmtb.net\u003e, Alexandre Detiste \u003ctchet@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/sphinx-testing"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/sphinx-testing.git"
+  ],
   "Version": [
-    "1.0.1-0.3"
+    "1.0.1-1"
   ]
 }

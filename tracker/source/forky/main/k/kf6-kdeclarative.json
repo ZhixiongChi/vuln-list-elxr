@@ -6,16 +6,16 @@
     "libkf6calendarevents6, libkf6declarative-data, libkf6declarative-dev, libkf6declarative-doc, qml6-module-org-kde-draganddrop, qml6-module-org-kde-graphicaleffects, qml6-module-org-kde-kquickcontrols, qml6-module-org-kde-kquickcontrolsaddons"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, dh-sequence-qmldeps, cmake (\u003e= 3.16~), doxygen, extra-cmake-modules (\u003e= 6.20.0~), libkf6config-dev (\u003e= 6.20.0~), libkf6globalaccel-dev (\u003e= 6.20.0~), libkf6guiaddons-dev (\u003e= 6.20.0~), libkf6i18n-dev (\u003e= 6.20.0~), libkf6widgetsaddons-dev (\u003e= 6.20.0~), libxkbcommon-dev, pkgconf, qt6-base-dev (\u003e= 6.8.0~), qt6-base-private-dev (\u003e= 6.5.0+dfsg~), qt6-declarative-dev (\u003e= 6.8.0~), qt6-declarative-private-dev (\u003e= 6.5.0+dfsg~), qt6-shadertools-dev (\u003e= 6.5.0~), qt6-tools-dev (\u003e= 6.5.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
+    "debhelper-compat (= 13), dh-sequence-kf6, dh-sequence-pkgkde-symbolshelper, dh-sequence-qmldeps, cmake (\u003e= 3.27~), doxygen, extra-cmake-modules (\u003e= 6.23.0~), libkf6config-dev (\u003e= 6.23.0~), libkf6globalaccel-dev (\u003e= 6.23.0~), libkf6guiaddons-dev (\u003e= 6.23.0~), libkf6i18n-dev (\u003e= 6.23.0~), libkf6widgetsaddons-dev (\u003e= 6.23.0~), libxkbcommon-dev, pkgconf, qt6-base-dev (\u003e= 6.8.0~), qt6-base-private-dev (\u003e= 6.5.0+dfsg~), qt6-declarative-dev (\u003e= 6.8.0~), qt6-declarative-private-dev (\u003e= 6.5.0+dfsg~), qt6-shadertools-dev (\u003e= 6.5.0~), qt6-tools-dev (\u003e= 6.5.0~), xauth \u003c!nocheck\u003e, xvfb \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "6fe4cf696b21c94614763248017b3ce19dcfd6d2bf79ce0cfa58d043d1a4d8d0 3646 kf6-kdeclarative_6.20.0-1.dsc b01c7fa0272dd2cccc962a606e63328825bd3b8c8ec08ee36c3cea75fa8a314d 2408804 kf6-kdeclarative_6.20.0.orig.tar.xz fe41ba793616f92744ec3ecb83834fcab8978a472f3765e1eb4ed002d4dedb64 228 kf6-kdeclarative_6.20.0.orig.tar.xz.asc 033b5125655d2c9bd07386bd8749521792d32bb6d5a2bbf8f4c7ce4b6c3a840e 15108 kf6-kdeclarative_6.20.0-1.debian.tar.xz"
+    "cf4dd5f7aeee12d48726260e148e397596728fe284fca866df0702c57947b474 3645 kf6-kdeclarative_6.23.0-1.dsc 058cbd95b6b8e163505e923b5866f87bad50847ea0c886ea7601d6cbd0025ba2 2408440 kf6-kdeclarative_6.23.0.orig.tar.xz d930cb2e627df3030416c71a8a064ad651d7969185e624ad866f3b6d9db86060 228 kf6-kdeclarative_6.23.0.orig.tar.xz.asc 028cef9b5836870fe36c1a7f0263defa19b805fe802f7000c6a12f7681dd48ea 15252 kf6-kdeclarative_6.23.0-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/k/kf6-kdeclarative"
   ],
   "Files": [
-    "870f316416ed4b9f7c9b3dfeb6c0f564 3646 kf6-kdeclarative_6.20.0-1.dsc 9b3317df0c4aef80dc18c5f06e561de4 2408804 kf6-kdeclarative_6.20.0.orig.tar.xz 7963b31b92d65a806a635f5f36c1a033 228 kf6-kdeclarative_6.20.0.orig.tar.xz.asc 9c95dccda4da74b86941d9da6f39a9a7 15108 kf6-kdeclarative_6.20.0-1.debian.tar.xz"
+    "155bb9f65d701866b9ca2bfbf07ecf82 3645 kf6-kdeclarative_6.23.0-1.dsc 8f73a6558ec2751c2f5aed48445f92e5 2408440 kf6-kdeclarative_6.23.0.orig.tar.xz 0c2ae471683537904f3b5a94f10618ed 228 kf6-kdeclarative_6.23.0.orig.tar.xz.asc f199a92832204d022d1e357015a5eff1 15252 kf6-kdeclarative_6.23.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -48,7 +48,7 @@
     "dh-acc, exuberant-ctags"
   ],
   "Uploaders": [
-    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e,"
+    "Aurélien COUDERC \u003ccoucouf@debian.org\u003e, Patrick Franz \u003cdeltaone@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/qt-kde-team/kde/kf6-kdeclarative"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/qt-kde-team/kde/kf6-kdeclarative.git"
   ],
   "Version": [
-    "6.20.0-1"
+    "6.23.0-1"
   ]
 }
