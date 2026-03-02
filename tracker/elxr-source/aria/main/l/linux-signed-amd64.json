@@ -6,22 +6,22 @@
     "kernel-image-6.1.0-42-amd64-di, nic-modules-6.1.0-42-amd64-di, nic-wireless-modules-6.1.0-42-amd64-di, nic-shared-modules-6.1.0-42-amd64-di, serial-modules-6.1.0-42-amd64-di, usb-serial-modules-6.1.0-42-amd64-di, ppp-modules-6.1.0-42-amd64-di, pata-modules-6.1.0-42-amd64-di, cdrom-core-modules-6.1.0-42-amd64-di, firewire-core-modules-6.1.0-42-amd64-di, scsi-core-modules-6.1.0-42-amd64-di, scsi-modules-6.1.0-42-amd64-di, scsi-nic-modules-6.1.0-42-amd64-di, loop-modules-6.1.0-42-amd64-di, btrfs-modules-6.1.0-42-amd64-di, ext4-modules-6.1.0-42-amd64-di, isofs-modules-6.1.0-42-amd64-di, jfs-modules-6.1.0-42-amd64-di, xfs-modules-6.1.0-42-amd64-di, fat-modules-6.1.0-42-amd64-di, squashfs-modules-6.1.0-42-amd64-di, udf-modules-6.1.0-42-amd64-di, fuse-modules-6.1.0-42-amd64-di, f2fs-modules-6.1.0-42-amd64-di, md-modules-6.1.0-42-amd64-di, multipath-modules-6.1.0-42-amd64-di, usb-modules-6.1.0-42-amd64-di, usb-storage-modules-6.1.0-42-amd64-di, pcmcia-storage-modules-6.1.0-42-amd64-di, fb-modules-6.1.0-42-amd64-di, input-modules-6.1.0-42-amd64-di, event-modules-6.1.0-42-amd64-di, mouse-modules-6.1.0-42-amd64-di, nic-pcmcia-modules-6.1.0-42-amd64-di, pcmcia-modules-6.1.0-42-amd64-di, nic-usb-modules-6.1.0-42-amd64-di, sata-modules-6.1.0-42-amd64-di, acpi-modules-6.1.0-42-amd64-di, i2c-modules-6.1.0-42-amd64-di, crc-modules-6.1.0-42-amd64-di, crypto-modules-6.1.0-42-amd64-di, crypto-dm-modules-6.1.0-42-amd64-di, efi-modules-6.1.0-42-amd64-di, ata-modules-6.1.0-42-amd64-di, mmc-core-modules-6.1.0-42-amd64-di, mmc-modules-6.1.0-42-amd64-di, nbd-modules-6.1.0-42-amd64-di, speakup-modules-6.1.0-42-amd64-di, uinput-modules-6.1.0-42-amd64-di, sound-modules-6.1.0-42-amd64-di, mtd-core-modules-6.1.0-42-amd64-di, rfkill-modules-6.1.0-42-amd64-di, linux-image-6.1.0-42-amd64, linux-image-amd64, linux-headers-amd64, linux-image-6.1.0-42-cloud-amd64, linux-image-cloud-amd64, linux-headers-cloud-amd64, linux-image-6.1.0-42-rt-amd64, linux-image-rt-amd64, linux-headers-rt-amd64"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-exec, python3:any, rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (\u003e= 2.102~), linux-support-6.1.0-42 (= 6.1.159-elxr3-1), linux-image-6.1.0-42-amd64-unsigned (= 6.1.159-elxr3-1) [amd64], linux-image-6.1.0-42-cloud-amd64-unsigned (= 6.1.159-elxr3-1) [amd64], linux-image-6.1.0-42-rt-amd64-unsigned (= 6.1.159-elxr3-1) [amd64]"
+    "debhelper-compat (= 12), dh-exec, python3:any, rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (\u003e= 2.102~), linux-support-6.1.0-42 (= 6.1.159-elxr4-1), linux-image-6.1.0-42-amd64-unsigned (= 6.1.159-elxr4-1) [amd64], linux-image-6.1.0-42-cloud-amd64-unsigned (= 6.1.159-elxr4-1) [amd64], linux-image-6.1.0-42-rt-amd64-unsigned (= 6.1.159-elxr4-1) [amd64]"
   ],
   "Checksums-Sha1": [
-    "eb51058572b644aa81b0cc4d9a58b4c901d6c418 7652 linux-signed-amd64_6.1.159+elxr3+1.dsc b54402393f9e5ca0759ff1d255a81cb35c9aec7d 789920 linux-signed-amd64_6.1.159+elxr3+1.tar.xz"
+    "4332ad6c8ce86e1541dfc7b36ae76ffcab7a3c33 7652 linux-signed-amd64_6.1.159+elxr4+1.dsc 516299c49886237a4f98ccf1ec217139d589312a 789956 linux-signed-amd64_6.1.159+elxr4+1.tar.xz"
   ],
   "Checksums-Sha256": [
-    "a93c13676c9617c6a32b074cfa777c31ab65eb4b056da2c234f24abdf3824bc4 7652 linux-signed-amd64_6.1.159+elxr3+1.dsc b8764598a21eeddbb4aced1932563ee596d4571531680893a9ab38aaaecfde86 789920 linux-signed-amd64_6.1.159+elxr3+1.tar.xz"
+    "4a76ab3ad2e469f5c27a586e1f55446f2da2bbab568c433054aa591c0024abd0 7652 linux-signed-amd64_6.1.159+elxr4+1.dsc 508bf2150ba6d8aba4851e612c35135dd653aad91d038eb9405e197ba79f4c93 789956 linux-signed-amd64_6.1.159+elxr4+1.tar.xz"
   ],
   "Checksums-Sha512": [
-    "073f936ff378ef31d29e5aadb85be05e6761e68c1118b0ecc2827ac2eaacd166e23d83376ead1de0622d66d2ceed9a73e064141fa6ed49ce1010160389473210 7652 linux-signed-amd64_6.1.159+elxr3+1.dsc 831c95b2f5a968335c8120390df3a974142030de90b0545ec7106cdeeecc126d81d2a807ff6c0b83fc1cd2b13c719f433ae39390430e656e5d696e374f2cdd72 789920 linux-signed-amd64_6.1.159+elxr3+1.tar.xz"
+    "e6e33e5d0206d4ca63932b0fe1edfb7ae72ec83fef2bdf77b0ba5509827a59f48351b44a3b2c7dff785d6316e38089eab94b95c1877e841ea2984976c29bd03a 7652 linux-signed-amd64_6.1.159+elxr4+1.dsc 43e942f6928765fcdfaac9fbe1964ffcd6364d154be0deadb200682b864eda235b59d1f43dae4fad70032cd6690a43201cba72fde4a21c151da3dd563271e4cc 789956 linux-signed-amd64_6.1.159+elxr4+1.tar.xz"
   ],
   "Directory": [
     "pool/main/l/linux-signed-amd64"
   ],
   "Files": [
-    "f39198a8894731e19c2accfae69dce84 7652 linux-signed-amd64_6.1.159+elxr3+1.dsc 56cfdbe5e501fd87e6977f121ebb460c 789920 linux-signed-amd64_6.1.159+elxr3+1.tar.xz"
+    "daa97314da6efc16abf159af8006d2da 7652 linux-signed-amd64_6.1.159+elxr4+1.dsc 54173127784cf689d4633e58b9d414fc 789956 linux-signed-amd64_6.1.159+elxr4+1.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/kernel-team/linux.git"
   ],
   "Version": [
-    "6.1.159+elxr3+1"
+    "6.1.159+elxr4+1"
   ]
 }
