@@ -3,25 +3,25 @@
     "arm64"
   ],
   "Binary": [
-    "linux-image-6.1.0-41-orin-arm64, linux-image-orin-arm64, linux-headers-orin-arm64, linux-image-6.1.0-41-rt-orin-arm64, linux-image-rt-orin-arm64, linux-headers-rt-orin-arm64"
+    "linux-image-6.1.0-42-orin-arm64, linux-image-orin-arm64, linux-headers-orin-arm64, linux-image-6.1.0-42-rt-orin-arm64, linux-image-rt-orin-arm64, linux-headers-rt-orin-arm64"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 12), dh-exec, python3:any, rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (\u003e= 2.102~), linux-orin-support-6.1.0-41 (= 6.1.158-elxr1-1), linux-image-6.1.0-41-orin-arm64-unsigned (= 6.1.158-elxr1-1) [arm64], linux-image-6.1.0-41-rt-orin-arm64-unsigned (= 6.1.158-elxr1-1) [arm64]"
+    "debhelper-compat (= 12), dh-exec, python3:any, rsync, sbsigntool [amd64 arm64 i386], kernel-wedge (\u003e= 2.102~), linux-orin-support-6.1.0-42 (= 6.1.159-elxr1-1), linux-image-6.1.0-42-orin-arm64-unsigned (= 6.1.159-elxr1-1) [arm64], linux-image-6.1.0-42-rt-orin-arm64-unsigned (= 6.1.159-elxr1-1) [arm64]"
   ],
   "Checksums-Sha1": [
-    "3ee131235cdd34bfb93e316d791bf60e5abb47f8 1708 linux-orin-signed-arm64_6.1.158+elxr1+1.dsc 0a0a05f575abea1a40afcfa23c296ecd53c2dbe1 779040 linux-orin-signed-arm64_6.1.158+elxr1+1.tar.xz"
+    "3d5fed8d62e2b96566487cf0c94ff297193fa187 1761 linux-orin-signed-arm64_6.1.159+elxr1+1.dsc 6150a21ffec9df09b88bdaf586ff3ebb1400841e 787172 linux-orin-signed-arm64_6.1.159+elxr1+1.tar.xz"
   ],
   "Checksums-Sha256": [
-    "46f2575b0208b1b6e5b4290091a223366fa715fcac19430c3bd826d8c3b30c24 1708 linux-orin-signed-arm64_6.1.158+elxr1+1.dsc 7364c8dca692b0d332bde1e3150292e7369563bd5a07c523501b758c571c3780 779040 linux-orin-signed-arm64_6.1.158+elxr1+1.tar.xz"
+    "6b5b66b52a1dd14ccf77d1ef4c208bc861415e1df0d34049c61f543714def457 1761 linux-orin-signed-arm64_6.1.159+elxr1+1.dsc d5209ff614393a84d8bcff5ce8adf6bce87499f58e29262d9b7a62dc4727e3ef 787172 linux-orin-signed-arm64_6.1.159+elxr1+1.tar.xz"
   ],
   "Checksums-Sha512": [
-    "91584867e5afac067e830489ba2e37e00c4b782791cbc483ad2fcc3f29d0fdb3fb9baa0b4cec81af6ef8d4f0cded5e26aaae367f7abf1abbb4b65fb032c5af28 1708 linux-orin-signed-arm64_6.1.158+elxr1+1.dsc 4f43e1136d2238e9d5f3b1f4408823665aba994cb0689f5772713f2556011ab5daa37968a81cd8f8dd8dd36c2f65cf538cd5ecc0abd7926f369496037665ad9f 779040 linux-orin-signed-arm64_6.1.158+elxr1+1.tar.xz"
+    "7c880b8b1d0eac51ff2aa3a2eac1bb1907bdeaa46cc2911c84151dbe7a4bb7d528557b6110f460c0c7d192dc05203100b91604569fee22ca067222a6f5c37388 1761 linux-orin-signed-arm64_6.1.159+elxr1+1.dsc 5ed359f50f7a991c0162e9f97d8dfaf437da43549fc6bff3a5762d9a0f7e5bb6d47e8864f4f7842dbb84b7b09dcf43d68a8f38e1122f0700947605e5dce7f854 787172 linux-orin-signed-arm64_6.1.159+elxr1+1.tar.xz"
   ],
   "Directory": [
     "pool/main/l/linux-orin-signed-arm64"
   ],
   "Files": [
-    "5b11072de81d6328654944513652eb36 1708 linux-orin-signed-arm64_6.1.158+elxr1+1.dsc 63c1730fe11e06f0db100ddd340e4402 779040 linux-orin-signed-arm64_6.1.158+elxr1+1.tar.xz"
+    "928c6801bb4ffe2e31eb6ecd870c24da 1761 linux-orin-signed-arm64_6.1.159+elxr1+1.dsc dad59071f3a56b2ccadd6df51c061304 787172 linux-orin-signed-arm64_6.1.159+elxr1+1.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -36,13 +36,13 @@
     "linux-orin-signed-arm64"
   ],
   "Package-List": [
-    "linux-headers-orin-arm64 deb kernel optional arch=arm64 linux-headers-rt-orin-arm64 deb kernel optional arch=arm64 linux-image-6.1.0-41-orin-arm64 deb kernel optional arch=arm64 linux-image-6.1.0-41-rt-orin-arm64 deb kernel optional arch=arm64 linux-image-orin-arm64 deb kernel optional arch=arm64 linux-image-rt-orin-arm64 deb kernel optional arch=arm64"
+    "linux-headers-orin-arm64 deb kernel optional arch=arm64 linux-headers-rt-orin-arm64 deb kernel optional arch=arm64 linux-image-6.1.0-42-orin-arm64 deb kernel optional arch=arm64 linux-image-6.1.0-42-rt-orin-arm64 deb kernel optional arch=arm64 linux-image-orin-arm64 deb kernel optional arch=arm64 linux-image-rt-orin-arm64 deb kernel optional arch=arm64"
   ],
   "Standards-Version": [
     "4.2.0"
   ],
   "Uploaders": [
-    "Bastian Blank \u003cwaldi@debian.org\u003e, maximilian attems \u003cmaks@debian.org\u003e, Ben Hutchings \u003cbenh@debian.org\u003e, Salvatore Bonaccorso \u003ccarnil@debian.org\u003e"
+    "Raja Harikrishnan \u003craja.harikrishnan@windriver.com\u003e, Bastian Blank \u003cwaldi@debian.org\u003e, maximilian attems \u003cmaks@debian.org\u003e, Ben Hutchings \u003cbenh@debian.org\u003e, Salvatore Bonaccorso \u003ccarnil@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/kernel-team/linux"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/kernel-team/linux.git"
   ],
   "Version": [
-    "6.1.158+elxr1+1"
+    "6.1.159+elxr1+1"
   ]
 }
