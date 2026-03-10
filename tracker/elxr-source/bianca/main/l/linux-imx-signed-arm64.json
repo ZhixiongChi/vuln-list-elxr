@@ -9,22 +9,22 @@
     "debhelper-compat (= 13), python3:any, sbsigntool [amd64 arm64]"
   ],
   "Build-Depends-Arch": [
-    "linux-image-6.12.48+deb13-imx-arm64-unsigned (= 6.12.48-elxr2-1) [arm64] \u003c!pkg.linux.nokernel\u003e, kernel-wedge (\u003e= 2.105~) [arm64] \u003c!pkg.linux.nokernel\u003e, kmod [arm64] \u003c!pkg.linux.nokernel\u003e, rsync [arm64] \u003c!pkg.linux.nokernel\u003e, linux-image-6.12.48+deb13-rt-imx-arm64-unsigned (= 6.12.48-elxr2-1) [arm64] \u003c!pkg.linux.nokernel !pkg.linux.quick\u003e"
+    "linux-image-6.12.48+deb13-imx-arm64-unsigned (= 6.12.48-elxr3-1) [arm64] \u003c!pkg.linux.nokernel\u003e, kernel-wedge (\u003e= 2.105~) [arm64] \u003c!pkg.linux.nokernel\u003e, kmod [arm64] \u003c!pkg.linux.nokernel\u003e, rsync [arm64] \u003c!pkg.linux.nokernel\u003e, linux-image-6.12.48+deb13-rt-imx-arm64-unsigned (= 6.12.48-elxr3-1) [arm64] \u003c!pkg.linux.nokernel !pkg.linux.quick\u003e"
   ],
   "Checksums-Sha1": [
-    "6f20d2ab78260042702f231d895ae1cc7918d02e 2124 linux-imx-signed-arm64_6.12.48+elxr2+1.dsc 833fc561d396ff4970ad3e2260b6f6ebc7f8d9fb 835020 linux-imx-signed-arm64_6.12.48+elxr2+1.tar.xz"
+    "ac923e5e769bf1bb879f51fdb92b8890d7b26f5f 2124 linux-imx-signed-arm64_6.12.48+elxr3+1.dsc 6c19f8acec02a49ff22994e95b95f9177913d14b 835036 linux-imx-signed-arm64_6.12.48+elxr3+1.tar.xz"
   ],
   "Checksums-Sha256": [
-    "96528fccf14e2b5105ccef9e846e02e947d7473ca4652bd6649f8a206b546f8f 2124 linux-imx-signed-arm64_6.12.48+elxr2+1.dsc 3c04d7b3d0ef3021d82b272b1fb3e45794e5b487f0ccab1eb1aaf923d7c783d4 835020 linux-imx-signed-arm64_6.12.48+elxr2+1.tar.xz"
+    "762b0145cf755f648661016f7c47f863191183a09edf6636c30aae4488337ae0 2124 linux-imx-signed-arm64_6.12.48+elxr3+1.dsc 02c466d291fa207121a86a09a6b8cde3cfbe7d053868c0d322eb452cf5bfe4b6 835036 linux-imx-signed-arm64_6.12.48+elxr3+1.tar.xz"
   ],
   "Checksums-Sha512": [
-    "b2977e413ca0b953d97ac03ad860fec1bb4d4e3061b6d5bed396f588f19e146abe46289d12530380f974b8ea8c8253c5f622665788b5543d7466fdd17ea511f6 2124 linux-imx-signed-arm64_6.12.48+elxr2+1.dsc 09838b78f6c59122e75f92a70e61bcb012f44d4d0df325459af8ec11857fe1a0d049d95f8b683322f83f45a91c8e73a80cefc07ae50f8be89a71e70137c56bdb 835020 linux-imx-signed-arm64_6.12.48+elxr2+1.tar.xz"
+    "71f41520b27fe838ecf7dbf0dfc317c6640709938c7a2a9d42a70cb3aca4aeaf5dc1aafa2b941438dc6ed3ecc576c916b0229084987ad3c3d9d744959f214a4b 2124 linux-imx-signed-arm64_6.12.48+elxr3+1.dsc c2f48baee87f959c8bd538f08c730a7bc13128e740e39a2d3b0ee7103e7e8011e71be79a51e1e699eb815098c3f914a112e73c875253f063b9540eb4d7206003 835036 linux-imx-signed-arm64_6.12.48+elxr3+1.tar.xz"
   ],
   "Directory": [
     "pool/main/l/linux-imx-signed-arm64"
   ],
   "Files": [
-    "84dff794316a5fd884d330a933bd3e31 2124 linux-imx-signed-arm64_6.12.48+elxr2+1.dsc e16ece75b95e4c3b3048b001c4ab324f 835020 linux-imx-signed-arm64_6.12.48+elxr2+1.tar.xz"
+    "3dfd7d7fa8c1f89a6384544789150130 2124 linux-imx-signed-arm64_6.12.48+elxr3+1.dsc 5c15940beb99deb6d319f4723d979908 835036 linux-imx-signed-arm64_6.12.48+elxr3+1.tar.xz"
   ],
   "Format": [
     "3.0 (native)"
@@ -54,6 +54,6 @@
     "https://salsa.debian.org/kernel-team/linux.git"
   ],
   "Version": [
-    "6.12.48+elxr2+1"
+    "6.12.48+elxr3+1"
   ]
 }
