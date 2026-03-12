@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "selinux-policy-default, selinux-policy-mls, selinux-policy-src, selinux-policy-dev, selinux-policy-doc"
+  ],
+  "Build-Depends": [
+    "debhelper (\u003e= 13)"
+  ],
+  "Build-Depends-Indep": [
+    "bzip2, checkpolicy (\u003e= 3.4), gawk, m4, policycoreutils (\u003e= 3.4), policycoreutils-python-utils (\u003e= 3.4), python3, zstd"
+  ],
+  "Checksums-Sha1": [
+    "af98a6c2b17f76299555183f50722b6b7050bcf4 108148 refpolicy_2.20221101-9.debian.tar.xz 19c9a8792f99f5a91df18ea7eb592d9699587a99 2442 refpolicy_2.20221101-9.dsc bb5003aac50fbb6441df0fe9bd4ef2f166c85319 583183 refpolicy_2.20221101.orig.tar.bz2"
+  ],
+  "Checksums-Sha256": [
+    "9ff5cb44ebd15931e96dd5a6d632f1058c7919914709536a6c771dceb980c1d8 108148 refpolicy_2.20221101-9.debian.tar.xz fa452b3263c146d65027d5df9d1041e989776ff8834660c6382c608a6d544a23 2442 refpolicy_2.20221101-9.dsc 44f88e62c8efcef54d019b9ca077520d5993de580926bd7575788cfa78515396 583183 refpolicy_2.20221101.orig.tar.bz2"
+  ],
+  "Checksums-Sha512": [
+    "299d900a01acc7f2dd9cf242c0337c0cb483d6adf50331e3d4c5e4af779e0fba2dcf658b2a29fb03831ab3310f5995b49ed877e320703eca8fb871a67b62faa6 108148 refpolicy_2.20221101-9.debian.tar.xz a1e2fa50eb501e6b6d01ea1f239b91f15809590992b4ac2b5bc876be97d7584b5b3340546e851412bb403bdae300748f14e0b2e72ed624dac06cd5adaf15afd8 2442 refpolicy_2.20221101-9.dsc 29e5a29d90f714018c88fead2d5006ea90338fb5b7a1e4e98cb2e588c96cd861871d32176f6cc6f7c4e864ce5acae1aeed85d4c706ce2da8168986535baaf3a6 583183 refpolicy_2.20221101.orig.tar.bz2"
+  ],
+  "Directory": [
+    "pool/main/r/refpolicy"
+  ],
+  "Files": [
+    "07cf4924f462b78dae4eaa7881bb6d66 108148 refpolicy_2.20221101-9.debian.tar.xz 042b5eb81068e7637fb16716bf572771 2442 refpolicy_2.20221101-9.dsc da59e3315c7deb3ed4f6be7d78127e71 583183 refpolicy_2.20221101.orig.tar.bz2"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/SELinuxProject/refpolicy/releases"
+  ],
+  "Maintainer": [
+    "Debian SELinux maintainers \u003cselinux-devel@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "refpolicy"
+  ],
+  "Package-List": [
+    "selinux-policy-default deb admin optional arch=all selinux-policy-dev deb admin optional arch=all selinux-policy-doc deb doc optional arch=all selinux-policy-mls deb admin optional arch=all selinux-policy-src deb admin optional arch=all"
+  ],
+  "Standards-Version": [
+    "4.4.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Uploaders": [
+    "Russell Coker \u003crussell@coker.com.au\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/selinux-team/refpolicy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/selinux-team/refpolicy.git"
+  ],
+  "Version": [
+    "2:2.20221101-9"
+  ]
+}
