@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), dh-sequence-cargo"
   ],
   "Build-Depends-Arch": [
-    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-chrono-0.4+default-dev (\u003e= 0.4.41-~~) \u003c!nocheck\u003e, librust-chrono-0.4+serde-dev (\u003e= 0.4.41-~~) \u003c!nocheck\u003e, librust-debversion+default-dev (\u003c\u003c 0.6-~~) \u003c!nocheck\u003e, librust-debversion+default-dev (\u003e= 0.4-~~) \u003c!nocheck\u003e, librust-debversion+serde-dev (\u003c\u003c 0.6-~~) \u003c!nocheck\u003e, librust-debversion+serde-dev (\u003e= 0.4-~~) \u003c!nocheck\u003e, librust-form-urlencoded-1+default-dev (\u003e= 1.2.1-~~) \u003c!nocheck\u003e, librust-lazy-static-1+default-dev (\u003e= 1.5.0-~~) \u003c!nocheck\u003e, librust-log-0.4+default-dev (\u003e= 0.4.27-~~) \u003c!nocheck\u003e, librust-mime-0.3+default-dev (\u003e= 0.3.17-~~) \u003c!nocheck\u003e, librust-percent-encoding-2+default-dev (\u003e= 2.3.1-~~) \u003c!nocheck\u003e, librust-rand-0.8+default-dev \u003c!nocheck\u003e, librust-reqwest-0.12+blocking-dev \u003c!nocheck\u003e, librust-reqwest-0.12+default-dev \u003c!nocheck\u003e, librust-reqwest-0.12+json-dev \u003c!nocheck\u003e, librust-reqwest-0.12+multipart-dev \u003c!nocheck\u003e, librust-serde-1+default-dev (\u003e= 1.0.220-~~) \u003c!nocheck\u003e, librust-serde-1+derive-dev (\u003e= 1.0.220-~~) \u003c!nocheck\u003e, librust-serde-json-1+default-dev (\u003e= 1.0.145-~~) \u003c!nocheck\u003e, librust-url-2+default-dev (\u003e= 2.5.4-~~) \u003c!nocheck\u003e, librust-url-2+serde-dev (\u003e= 2.5.4-~~) \u003c!nocheck\u003e, librust-wadl-0.5+blocking-dev (\u003e= 0.5.3-~~) \u003c!nocheck\u003e, librust-wadl-0.5+codegen-dev (\u003e= 0.5.3-~~) \u003c!nocheck\u003e, librust-wadl-0.5-dev (\u003e= 0.5.3-~~) \u003c!nocheck\u003e"
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-chrono-0.4+default-dev (\u003e= 0.4.41) \u003c!nocheck\u003e, librust-chrono-0.4+serde-dev (\u003e= 0.4.41) \u003c!nocheck\u003e, librust-debversion+default-dev (\u003c\u003c 0.6) \u003c!nocheck\u003e, librust-debversion+default-dev (\u003e= 0.4) \u003c!nocheck\u003e, librust-debversion+serde-dev (\u003c\u003c 0.6) \u003c!nocheck\u003e, librust-debversion+serde-dev (\u003e= 0.4) \u003c!nocheck\u003e, librust-form-urlencoded-1+default-dev (\u003e= 1.2.1) \u003c!nocheck\u003e, librust-lazy-static-1+default-dev (\u003e= 1.5.0) \u003c!nocheck\u003e, librust-log-0.4+default-dev (\u003e= 0.4.27) \u003c!nocheck\u003e, librust-mime-0.3+default-dev (\u003e= 0.3.17) \u003c!nocheck\u003e, librust-percent-encoding-2+default-dev (\u003e= 2.3.1) \u003c!nocheck\u003e, librust-rand-0.8+default-dev \u003c!nocheck\u003e, librust-reqwest+blocking-dev (\u003c\u003c 0.14) \u003c!nocheck\u003e, librust-reqwest+blocking-dev (\u003e= 0.12) \u003c!nocheck\u003e, librust-reqwest+default-dev (\u003c\u003c 0.14) \u003c!nocheck\u003e, librust-reqwest+default-dev (\u003e= 0.12) \u003c!nocheck\u003e, librust-reqwest+form-dev (\u003c\u003c 0.14) \u003c!nocheck\u003e, librust-reqwest+form-dev (\u003e= 0.12) \u003c!nocheck\u003e, librust-reqwest+json-dev (\u003c\u003c 0.14) \u003c!nocheck\u003e, librust-reqwest+json-dev (\u003e= 0.12) \u003c!nocheck\u003e, librust-reqwest+multipart-dev (\u003c\u003c 0.14) \u003c!nocheck\u003e, librust-reqwest+multipart-dev (\u003e= 0.12) \u003c!nocheck\u003e, librust-serde-1+default-dev (\u003e= 1.0.220) \u003c!nocheck\u003e, librust-serde-1+derive-dev (\u003e= 1.0.220) \u003c!nocheck\u003e, librust-serde-json-1+default-dev (\u003e= 1.0.145) \u003c!nocheck\u003e, librust-url-2+default-dev (\u003e= 2.5.4) \u003c!nocheck\u003e, librust-url-2+serde-dev (\u003e= 2.5.4) \u003c!nocheck\u003e, librust-wadl-0.5+blocking-dev (\u003e= 0.5.7) \u003c!nocheck\u003e, librust-wadl-0.5+codegen-dev (\u003e= 0.5.7) \u003c!nocheck\u003e, librust-wadl-0.5-dev (\u003e= 0.5.7) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "cfe4c0a7b7cac4fac873af99a85c217b35131360b23edfaabb68e6d723045f67 3294 rust-launchpadlib_0.5.3-1.dsc 2d7ea8dcc3b9f05d1bb422a4b0041ad79994faa5000e806ba1576dd9b9df7bca 509652 rust-launchpadlib_0.5.3.orig.tar.gz 50514b980a48e822afd04f8c2fc90081250d426b251607bd0f1296647f1c01f1 3728 rust-launchpadlib_0.5.3-1.debian.tar.xz"
+    "b46e82b40e2bcdb058e8ce5ac3b1cbaeca1a6939cb8feec160a511a100994420 3901 rust-launchpadlib_0.5.6-1.dsc 97309506c81be12ad7ae45459acc75b524e7fbae53728fed866ff5376679be9a 515965 rust-launchpadlib_0.5.6.orig.tar.gz 5f08e16cc3cf075415b31768338bc6da0273dd0111c52116a66747d877ad1d59 3868 rust-launchpadlib_0.5.6-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-launchpadlib"
   ],
   "Files": [
-    "136ade9e957476ab92f8bcc979ca1e12 3294 rust-launchpadlib_0.5.3-1.dsc dbfd71f255dbc93bf13fa53add0a67a7 509652 rust-launchpadlib_0.5.3.orig.tar.gz 00051098dc83572e2d44590cedcb6829 3728 rust-launchpadlib_0.5.3-1.debian.tar.xz"
+    "8a33870ce47158b849b4ab4306260f4c 3901 rust-launchpadlib_0.5.6-1.dsc dc0a1ae4fa6e766dc94c410912e0cd77 515965 rust-launchpadlib_0.5.6.orig.tar.gz f39c3772b01f744cfaea81beba47d531 3868 rust-launchpadlib_0.5.6-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,7 +42,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/launchpadlib]"
   ],
   "Version": [
-    "0.5.3-1"
+    "0.5.6-1"
   ]
 }
