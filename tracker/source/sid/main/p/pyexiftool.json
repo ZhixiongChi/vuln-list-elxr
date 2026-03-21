@@ -6,16 +6,16 @@
     "python3-exiftool"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), python3-all, python3-setuptools, dh-python"
+    "debhelper-compat (= 13), dh-sequence-python3, pybuild-plugin-pyproject, python3-all, python3-setuptools"
   ],
   "Checksums-Sha256": [
-    "edc437525a3cdef8916bce0bca7a30a816cb0bda47dabab3ff887ae71e6bf01d 1992 pyexiftool_0.5.6-1.dsc 22a972c1c212d1ad5f61916fded5057333dcc48fb8e42eed12d2ff9665b367ae 56365 pyexiftool_0.5.6.orig.tar.gz 4cc133de1cf72b77a59029f839af34a228a6a1b3bddfefae7a7c104efea37091 1572 pyexiftool_0.5.6-1.debian.tar.xz"
+    "b641a2d7a8eb1ad8ed45031bb9b52af5c78861315911e323c0c0b91e9996ea48 2053 pyexiftool_0.5.6-2.dsc 22a972c1c212d1ad5f61916fded5057333dcc48fb8e42eed12d2ff9665b367ae 56365 pyexiftool_0.5.6.orig.tar.gz 24be9385e6fb1e6ec5e424f4b269a3cac99404a6b2a1ab16975e3f89aad16d95 1816 pyexiftool_0.5.6-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/p/pyexiftool"
   ],
   "Files": [
-    "9d12a96879cd470ca0fc4cbd26e4902f 1992 pyexiftool_0.5.6-1.dsc 08e45de1be95829f43e07767698a6f3e 56365 pyexiftool_0.5.6.orig.tar.gz 11e117bbd5d0db87571a74225c9a3bea 1572 pyexiftool_0.5.6-1.debian.tar.xz"
+    "cdc8fca731f4767fe65ef9c64f8af416 2053 pyexiftool_0.5.6-2.dsc 08e45de1be95829f43e07767698a6f3e 56365 pyexiftool_0.5.6.orig.tar.gz 7f057702e42b696bd79d1fa34e820fd4 1816 pyexiftool_0.5.6-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -39,7 +39,7 @@
     "python"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Uploaders": [
     "Jeffrey Ratcliffe \u003cjjr@debian.org\u003e"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/python-team/packages/pyexiftool.git"
   ],
   "Version": [
-    "0.5.6-1"
+    "0.5.6-2"
   ]
 }
