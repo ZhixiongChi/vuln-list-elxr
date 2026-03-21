@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-astral-reqwest-retry-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-anyhow-1+default-dev \u003c!nocheck\u003e, librust-astral-reqwest-middleware+default-dev (\u003c\u003c 0.5.0) \u003c!nocheck\u003e, librust-astral-reqwest-middleware+default-dev (\u003e= 0.3.1) \u003c!nocheck\u003e, librust-async-trait-0.1+default-dev (\u003e= 0.1.51) \u003c!nocheck\u003e, librust-futures-0.3+default-dev \u003c!nocheck\u003e, librust-getrandom-0.2+default-dev \u003c!nocheck\u003e, librust-getrandom-0.2+js-dev \u003c!nocheck\u003e, librust-http-1+default-dev \u003c!nocheck\u003e, librust-hyper-1+default-dev \u003c!nocheck\u003e, librust-reqwest-0.12-dev \u003c!nocheck\u003e, librust-retry-policies-0.5+default-dev \u003c!nocheck\u003e, librust-thiserror-2+default-dev \u003c!nocheck\u003e, librust-tokio-1+time-dev (\u003e= 1.6.0) \u003c!nocheck\u003e, librust-tracing-0.1+default-dev (\u003e= 0.1.26) \u003c!nocheck\u003e, librust-wasmtimer-0.4+default-dev (\u003e= 0.4.1) \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "5d9f242b642549558be164857283e8a30a39bd623432d787f6743432ce54b916 3259 rust-astral-reqwest-retry_0.7.0-2.dsc cb7549bd00f62f73f2e7e76f3f77ccdabb31873f4f02f758ed88ad739d522867 27224 rust-astral-reqwest-retry_0.7.0.orig.tar.gz 1163d469991de235174601b59430f934f513abfd2fa59be632b711cfbdf68bec 3100 rust-astral-reqwest-retry_0.7.0-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-astral-reqwest-retry"
+  ],
+  "Files": [
+    "9562ac9af9f44644075833f5d71757cd 3259 rust-astral-reqwest-retry_0.7.0-2.dsc b90498456fceb63de5ad32c0afe5eeda 27224 rust-astral-reqwest-retry_0.7.0.orig.tar.gz f9f0db76bbf83c2823b80b4765e0d6ab 3100 rust-astral-reqwest-retry_0.7.0-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/TrueLayer/reqwest-middleware"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-astral-reqwest-retry"
+  ],
+  "Package-List": [
+    "librust-astral-reqwest-retry-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, librust-futures-0.3+default-dev, librust-paste-1+default-dev, librust-tokio-1+default-dev, librust-tokio-1+full-dev, librust-wiremock-0.6+default-dev, rustc"
+  ],
+  "Uploaders": [
+    "Aeliton Silva \u003caeliton@aeliton.com\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/astral-reqwest-retry"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/astral-reqwest-retry]"
+  ],
+  "Version": [
+    "0.7.0-2"
+  ]
+}
