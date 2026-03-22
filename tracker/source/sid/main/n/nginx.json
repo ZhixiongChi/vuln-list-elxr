@@ -9,22 +9,22 @@
     "debhelper-compat (= 13), libexpat-dev, libgd-dev, libgeoip-dev, libpcre2-dev, libperl-dev, libssl-dev, libxslt1-dev, po-debconf, zlib1g-dev"
   ],
   "Checksums-Sha256": [
-    "3081423495fb2182b1f9fdf6d0db4767b7eb3bb6fc15f42e6628fd418ad6f16c 3767 nginx_1.28.2-2.dsc 01e6e10bd6a2bdf19286c37efe39cc0b21acaad6b72fddef741de3d1e551dba9 806320 nginx_1.28.2.orig.tar.xz 7d9dba0d4659e309406faa4143a098e3a4a2b17ca850cebcb12fc3853383ff76 72384 nginx_1.28.2-2.debian.tar.xz"
+    "f4d4608ede8b700231cc6da18d2b6d6983fff45c0d86be9babfa06c98d9dabf0 3803 nginx_1.28.2-3.dsc 01e6e10bd6a2bdf19286c37efe39cc0b21acaad6b72fddef741de3d1e551dba9 806320 nginx_1.28.2.orig.tar.xz eb04ad525fbf08e02fb51f09b5428e76a593b10800fa8a369431673bb1ec6e33 75880 nginx_1.28.2-3.debian.tar.xz"
   ],
   "Dgit": [
-    "896d4d39cd2631e9cef77054cfde7e13e1634724 debian archive/debian/1.28.2-2 https://git.dgit.debian.org/nginx"
+    "ee2c4bca8d50b78e6885c3bb5380bd8b8c9d7b7a debian archive/debian/1.28.2-3 https://git.dgit.debian.org/nginx"
   ],
   "Directory": [
     "pool/main/n/nginx"
   ],
   "Files": [
-    "d432bb03ea7d5cbf1aa2e84f7e3753b1 3767 nginx_1.28.2-2.dsc e595844d5a6f8dbad0ca54e1f9529f39 806320 nginx_1.28.2.orig.tar.xz 2fe0c7ae2ee367c88953e452cb99047f 72384 nginx_1.28.2-2.debian.tar.xz"
+    "0b0c6d6baad389f46a78fbb8d14bfbd9 3803 nginx_1.28.2-3.dsc e595844d5a6f8dbad0ca54e1f9529f39 806320 nginx_1.28.2.orig.tar.xz 6beb7b44cfa05a89050ecb53e292de48 75880 nginx_1.28.2-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Git-Tag-Info": [
-    "tag=7266c3e985cf15c8428c63ae8153fea6565ff3ca fp=d008b0c23d8479e46b9fcb9045da517496939ff9"
+    "tag=584014647d1207283b2224f2ab2550fdbbe1d3e9 fp=d008b0c23d8479e46b9fcb9045da517496939ff9"
   ],
   "Git-Tag-Tagger": [
     "Jan Mojžíš \u003cjan.mojzis@gmail.com\u003e"
@@ -54,7 +54,7 @@
     "autopkgtest"
   ],
   "Testsuite-Triggers": [
-    "curl, libnginx-mod-http-auth-pam, libnginx-mod-http-brotli-filter, libnginx-mod-http-brotli-static, libnginx-mod-http-cache-purge, libnginx-mod-http-dav-ext, libnginx-mod-http-echo, libnginx-mod-http-fancyindex, libnginx-mod-http-geoip2, libnginx-mod-http-headers-more-filter, libnginx-mod-http-memc, libnginx-mod-http-set-misc, libnginx-mod-http-srcache-filter, libnginx-mod-http-subs-filter, libnginx-mod-http-uploadprogress, libnginx-mod-http-upstream-fair, libnginx-mod-nchan, libnginx-mod-rtmp, libnginx-mod-stream-geoip2, ssl-cert"
+    "curl, libfcgi-perl, libnginx-mod-http-auth-pam, libnginx-mod-http-brotli-filter, libnginx-mod-http-brotli-static, libnginx-mod-http-cache-purge, libnginx-mod-http-dav-ext, libnginx-mod-http-echo, libnginx-mod-http-fancyindex, libnginx-mod-http-geoip2, libnginx-mod-http-headers-more-filter, libnginx-mod-http-memc, libnginx-mod-http-set-misc, libnginx-mod-http-srcache-filter, libnginx-mod-http-subs-filter, libnginx-mod-http-uploadprogress, libnginx-mod-http-upstream-fair, libnginx-mod-nchan, libnginx-mod-rtmp, libnginx-mod-stream-geoip2, ssl-cert, uwsgi-plugin-python3"
   ],
   "Uploaders": [
     "Jan Mojžíš \u003cjanmojzis@debian.org\u003e"
@@ -66,6 +66,6 @@
     "https://salsa.debian.org/nginx-team/nginx.git"
   ],
   "Version": [
-    "1.28.2-2"
+    "1.28.2-3"
   ]
 }

@@ -1,21 +1,21 @@
 {
   "Architecture": [
-    "any"
+    "any all"
   ],
   "Binary": [
-    "libgtk-nocsd0"
+    "libgtk-nocsd0, gtk3-nocsd, libgtk3-nocsd0"
   ],
   "Build-Depends": [
     "debhelper-compat (= 13), libadwaita-1-dev"
   ],
   "Checksums-Sha256": [
-    "3b1d74f3abee9e5486ff4f9cf3ec7b65dca21e78c9b8486cd900f364cf7d9f73 2034 gtk-nocsd_0~20260319+1485c3e-1.dsc b64c4abe611ac745f8d07bb68a9442876d2f9731fa2c5a0d5a08683b7dfc6264 599076 gtk-nocsd_0~20260319+1485c3e.orig.tar.xz 7d1e2d091a95f82166dc08767400b736063340f1bb57aeddfc61335ec5c91c83 7264 gtk-nocsd_0~20260319+1485c3e-1.debian.tar.xz"
+    "30f5c82109aaf14d104838e581a7bf8290ad8801ca853dd5d3e1d437a9276556 2154 gtk-nocsd_0~20260321+0b77e1b-1.dsc 6b3373a8b15202a478109785a34ff4c06136b829ade33ab903c09768face5387 599652 gtk-nocsd_0~20260321+0b77e1b.orig.tar.xz 1b164f45de52b083e41f7a1a227db0fe3e85f8fe76eacb38033c51b8057a5dc2 7540 gtk-nocsd_0~20260321+0b77e1b-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/g/gtk-nocsd"
   ],
   "Files": [
-    "45d9ad5f81c98e94272b16f3601dd1d2 2034 gtk-nocsd_0~20260319+1485c3e-1.dsc d9430c3af8fc5071dad0ec1c33a0cc48 599076 gtk-nocsd_0~20260319+1485c3e.orig.tar.xz 39a9abb003f9f28bb8234c8d9597bf67 7264 gtk-nocsd_0~20260319+1485c3e-1.debian.tar.xz"
+    "2202892d4ac85feef4fcfe3c0bb6d9a4 2154 gtk-nocsd_0~20260321+0b77e1b-1.dsc 552068b0d43e75fcccab2ed4ef8c8575 599652 gtk-nocsd_0~20260321+0b77e1b.orig.tar.xz 6bd97f7b362ffb2b45cea0c94e359831 7540 gtk-nocsd_0~20260321+0b77e1b-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "gtk-nocsd"
   ],
   "Package-List": [
-    "libgtk-nocsd0 deb libs optional arch=any"
+    "gtk3-nocsd deb oldlibs optional arch=all libgtk-nocsd0 deb libs optional arch=any libgtk3-nocsd0 deb oldlibs optional arch=all"
   ],
   "Priority": [
     "optional"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/ubports-team/gtk-nocsd.git"
   ],
   "Version": [
-    "0~20260319+1485c3e-1"
+    "0~20260321+0b77e1b-1"
   ]
 }

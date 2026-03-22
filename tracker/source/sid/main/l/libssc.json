@@ -1,0 +1,53 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "libssc-dev, libssc2, libssc-bin, gir1.2-ssc-2"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-gir, gir1.2-gio-2.0-dev \u003c!nogir\u003e, libglib2.0-dev, libmbim-glib-dev, libprotobuf-c-dev, libpython3.13-dev, libqmi-glib-dev, libqrtr1 \u003c!nocheck\u003e, meson, pkgconf, protobuf-c-compiler, protobuf-compiler, python3-gi \u003c!nocheck\u003e, python3-protobuf \u003c!nocheck\u003e, valac"
+  ],
+  "Checksums-Sha256": [
+    "5025eac4dbbd2f2e83aca9160fcd717b3ceaa781cce66b7ec9e8ae870d01633f 2220 libssc_0.4.2-1.dsc cd29d26c226b45a1931695863bdc7f267e095f1e09b53c1383fb626a3c69969a 154155 libssc_0.4.2.orig.tar.gz 72b57d79e57b6f1b58e7454f307fb66a5bbf2551462e1ebf43afd20ebba0f290 14596 libssc_0.4.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/libs/libssc"
+  ],
+  "Files": [
+    "3b8434f33ea66a1f36b855647585c5cd 2220 libssc_0.4.2-1.dsc 03290695fed1c7753af4abfb51946311 154155 libssc_0.4.2.orig.tar.gz 921b0293a57671d5836f42c04a63aaaf 14596 libssc_0.4.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://codeberg.org/DylanVanAssche/libssc.git"
+  ],
+  "Maintainer": [
+    "Guido Günther \u003cagx@sigxcpu.org\u003e"
+  ],
+  "Package": [
+    "libssc"
+  ],
+  "Package-List": [
+    "gir1.2-ssc-2 deb introspection optional arch=any libssc-bin deb libs optional arch=any libssc-dev deb libdevel optional arch=any libssc2 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "misc"
+  ],
+  "Standards-Version": [
+    "4.7.0"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "build-essential, pkgconf"
+  ],
+  "Version": [
+    "0.4.2-1"
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "librust-rand-core-0.6-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), dh-sequence-cargo"
+  ],
+  "Build-Depends-Arch": [
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e"
+  ],
+  "Checksums-Sha256": [
+    "af2898c8c5b8c67074753898e40bc87cafeea01e7d11be3b44624b0975ae278f 2286 rust-rand-core-0.6_0.6.4-4.dsc ec0be4795e2f6a28069bec0b5ff3e2ac9bafc99e6a9a7dc3547996c5c816922c 22666 rust-rand-core-0.6_0.6.4.orig.tar.gz d8e6097c9ac08d3d189a8c785c1b02c05dbdf7a097dcc800a064361e43209222 4996 rust-rand-core-0.6_0.6.4-4.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/r/rust-rand-core-0.6"
+  ],
+  "Files": [
+    "a4b3ca9451cdfb072f56273c2267a760 2286 rust-rand-core-0.6_0.6.4-4.dsc a1626b8f4d165b1b60d960862eba4cf0 22666 rust-rand-core-0.6_0.6.4.orig.tar.gz 9e417a8bdadd0a0f1b4f2f04e2300f2e 4996 rust-rand-core-0.6_0.6.4-4.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://rust-random.github.io/book"
+  ],
+  "Maintainer": [
+    "Debian Rust Maintainers \u003cpkg-rust-maintainers@alioth-lists.debian.net\u003e"
+  ],
+  "Package": [
+    "rust-rand-core-0.6"
+  ],
+  "Package-List": [
+    "librust-rand-core-0.6-dev deb rust optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "rust"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "dh-cargo, rustc"
+  ],
+  "Uploaders": [
+    "Wolfgang Silbermayr \u003cwolfgang@silbermayr.at\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/rust-team/debcargo-conf/tree/master/src/rand-core-0.6"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/rust-team/debcargo-conf.git [src/rand-core-0.6]"
+  ],
+  "Version": [
+    "0.6.4-4"
+  ]
+}
