@@ -12,13 +12,13 @@
     "fonts-noto-extra, gettext, ghostscript, gir1.2-gtk-3.0, gir1.2-goocanvas-2.0, gsfonts, help2man, imagemagick, librsvg2-common, libtiff-tools, ocrmypdf (\u003e= 15.4.3), poppler-utils, python3-gi, python3-gi-cairo, python3-iso639, python3-sane, python3-tesserocr, sane-utils (\u003e= 1.0.17), python3-polib, python3-pytest-cov, python3-pytest-timeout, python3-pytest-pylint, python3-pytest-mock, python3-pytest-xvfb, xauth, xfonts-base"
   ],
   "Checksums-Sha256": [
-    "865f3a922f7902158389505ccf7651bd9cc340ea1c7f8f277e884ff11034f767 2574 scantpaper_3.0.1-1.dsc 024ab0a62a1d8217eeb883f34e9c907306988f0ca2f9ac6e861d9d3c28148cc8 937290 scantpaper_3.0.1.orig.tar.gz 1229b4586d915289be97b1222e7b2a50212694dd8c059c0d29dcc41459946179 2700 scantpaper_3.0.1-1.debian.tar.xz"
+    "dd29dfb660a1a0f317a1f356775ca28366ef2a68222b03d331a682646a5c9aef 2596 scantpaper_3.0.1-2.dsc 024ab0a62a1d8217eeb883f34e9c907306988f0ca2f9ac6e861d9d3c28148cc8 937290 scantpaper_3.0.1.orig.tar.gz ea97065234a15caedbea4d675c79211640a4a60631bf13f12e3075bf722e7159 2820 scantpaper_3.0.1-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/s/scantpaper"
   ],
   "Files": [
-    "ad9ca176467ec919fa6b5b2b66f01f23 2574 scantpaper_3.0.1-1.dsc 5ff66501d293a3977f47cefc8c00538e 937290 scantpaper_3.0.1.orig.tar.gz f2ca6eb120956b869e28a2e253978f6f 2700 scantpaper_3.0.1-1.debian.tar.xz"
+    "d42d83be7a2f2acd4275b2582346ff36 2596 scantpaper_3.0.1-2.dsc 5ff66501d293a3977f47cefc8c00538e 937290 scantpaper_3.0.1.orig.tar.gz 65091ec5a9d5f4093529a608fd82c828 2820 scantpaper_3.0.1-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,7 +48,7 @@
     "autopkgtest, autopkgtest-pkg-python"
   ],
   "Testsuite-Triggers": [
-    "python3-pytest-cov, python3-pytest-mock, python3-pytest-pylint, python3-pytest-timeout, python3-pytest-xvfb"
+    "python3-pytest-black, python3-pytest-cov, python3-pytest-mock, python3-pytest-pylint, python3-pytest-timeout, python3-pytest-xvfb"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/scantpaper"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/scantpaper.git"
   ],
   "Version": [
-    "3.0.1-1"
+    "3.0.1-2"
   ]
 }
