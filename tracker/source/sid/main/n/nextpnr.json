@@ -12,19 +12,28 @@
     "cmake, ninja-build, libboost-filesystem-dev, libboost-thread-dev, libboost-program-options-dev, libboost-python-dev, libboost-iostreams-dev, qtbase5-dev [m68k] \u003c!pkg.nextpnr.nogui\u003e, libqt5opengl5-desktop-dev [m68k] \u003c!pkg.nextpnr.nogui\u003e, qt6-base-dev [!m68k] \u003c!pkg.nextpnr.nogui\u003e, libeigen3-dev, googletest, pybind11-dev, python3-dev, fpga-icestorm-chipdb, python3-apycula (\u003e= 0.31~), python3-pytrellis, python3-peppercorn (\u003e= 1.12~), python3-peppercorn (\u003c\u003c 1.13~), help2man"
   ],
   "Checksums-Sha256": [
-    "c4a91bf59b5a14c5fe8721689b1f78abbe1e134410f496f35548ea922d5ad2fe 3983 nextpnr_0.10-3.dsc 83d37f547a7d55ca9f4f0941c47ec13f0fece71cb35409c10b05f2fce31f9cdb 3803044 nextpnr_0.10.orig.tar.xz 796ec73b02c283f6550b0a87dd5f7fa9e0de453ac9bc2cc21dd39065dfc17e35 11004 nextpnr_0.10-3.debian.tar.xz"
+    "565c98b511668090f9eec92ef1844c537db25149c893eab05e89485fb4f34f21 4570 nextpnr_0.10-4.dsc 83d37f547a7d55ca9f4f0941c47ec13f0fece71cb35409c10b05f2fce31f9cdb 3803044 nextpnr_0.10.orig.tar.xz 70e29f059e0fbca5b9696ca961f2f4ae78c568d429cf4666f7318eaf05d9bb0b 11436 nextpnr_0.10-4.debian.tar.xz"
   ],
   "Description": [
     "FPGA place and route tool nextpnr is a FPGA place and route tool. Its purpose is to turn a topological description of digital hardware produced by an FPGA logic synthesis tool such as yosys into an elaborate map of connections between the hardwired functional units available inside the FPGA's fabric. . In order to verify the fully implemented design for proper operation at high speed timing-analysis of the design is also supported."
+  ],
+  "Dgit": [
+    "d9e752bb4908f888c6308cc68537ab93ab8e6436 debian archive/debian/0.10-4 https://git.dgit.debian.org/nextpnr"
   ],
   "Directory": [
     "pool/main/n/nextpnr"
   ],
   "Files": [
-    "b2c3f3a18b66f19c13f82ef3f7703fad 3983 nextpnr_0.10-3.dsc ffba4b96d8c830c3a8ad23b959701dfe 3803044 nextpnr_0.10.orig.tar.xz 68591aabcb0f2018e32e6fdf89c90eab 11004 nextpnr_0.10-3.debian.tar.xz"
+    "1aabca3511bb5460755554ae7f73e94c 4570 nextpnr_0.10-4.dsc ffba4b96d8c830c3a8ad23b959701dfe 3803044 nextpnr_0.10.orig.tar.xz 4fea7723e501085e5d39d6beb9c03366 11436 nextpnr_0.10-4.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=b29525bdc774074e6f2e3870b18afe253f6703a2 fp=b63baa38949798d8d2897dd37ebd387bb0990811"
+  ],
+  "Git-Tag-Tagger": [
+    "Simon Richter \u003csjr@debian.org\u003e"
   ],
   "Homepage": [
     "https://github.com/YosysHQ/nextpnr"
@@ -63,6 +72,6 @@
     "https://salsa.debian.org/electronics-team/nextpnr.git"
   ],
   "Version": [
-    "0.10-3"
+    "0.10-4"
   ]
 }
