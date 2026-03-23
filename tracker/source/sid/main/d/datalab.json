@@ -6,16 +6,16 @@
     "python3-datalab"
   ],
   "Build-Depends": [
-    "dbus-daemon \u003c!nocheck\u003e, debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-fastapi \u003c!nocheck\u003e, python3-guidata \u003c!nocheck\u003e, python3-guiqwt \u003c!nocheck\u003e, python3-h5py \u003c!nocheck\u003e, python3-httpx \u003c!nocheck\u003e, python3-numpy \u003c!nocheck\u003e, python3-plotpy (\u003e= 2.8~), python3-pytest \u003c!nocheck\u003e, python3-pytest-xvfb \u003c!nocheck\u003e, python3-pywt \u003c!nocheck\u003e, python3-qtpy-pyqt5 \u003c!nocheck\u003e, python3-setuptools, python3-sigima \u003c!nocheck\u003e, dh-sequence-python3, dh-sequence-numpy3, python3-skimage \u003c!nocheck\u003e"
+    "dbus-daemon \u003c!nocheck\u003e, debhelper-compat (= 13), dh-python, pybuild-plugin-pyproject, python3-all, python3-fastapi \u003c!nocheck\u003e, python3-guidata \u003c!nocheck\u003e, python3-guiqwt \u003c!nocheck\u003e, python3-h5py \u003c!nocheck\u003e, python3-httpx \u003c!nocheck\u003e, python3-numpy \u003c!nocheck\u003e, python3-opencv \u003c!nocheck\u003e, python3-plotpy (\u003e= 2.8~), python3-pytest \u003c!nocheck\u003e, python3-pytest-xvfb \u003c!nocheck\u003e, python3-pywt \u003c!nocheck\u003e, python3-qtpy-pyqt6 \u003c!nocheck\u003e, python3-setuptools, python3-sigima \u003c!nocheck\u003e, dh-sequence-python3, dh-sequence-numpy3, python3-skimage \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "12ed791bebf6b777b16d87d5bb72e819639953b323ad4b5606b3e8dd6a0ebc29 2549 datalab_1.1.0-3.dsc 993e867449e04addc7534c5c158f19676dae76fd261190979162bcdace839e51 28437514 datalab_1.1.0.orig.tar.gz 5aed253ec67ea112e1cd4cc802f2f68da0a920f3e7c87668c0383efeb41ddf92 4180 datalab_1.1.0-3.debian.tar.xz"
+    "639dd261644e70dbd268b6598e8aedaeed83c200cefb676fd8b4b4bd378f5dd8 2424 datalab_1.1.0-4.dsc 993e867449e04addc7534c5c158f19676dae76fd261190979162bcdace839e51 28437514 datalab_1.1.0.orig.tar.gz df69ac5d40a2902c9139ea31b18f710e1047ea2d96edb2f297cdfddae4648133 4220 datalab_1.1.0-4.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/d/datalab"
   ],
   "Files": [
-    "bfad8f4c21e80bceb23e2cd274cdb5a6 2549 datalab_1.1.0-3.dsc 5e59cd5c048b6a46af9039d0685d830c 28437514 datalab_1.1.0.orig.tar.gz 1fcd3a98778a91958cf771c14bcb9fb6 4180 datalab_1.1.0-3.debian.tar.xz"
+    "b8b1fdcb473112f95985e8f6dfdd8281 2424 datalab_1.1.0-4.dsc 5e59cd5c048b6a46af9039d0685d830c 28437514 datalab_1.1.0.orig.tar.gz 89693652fb09cf64e08378978b43733d 4220 datalab_1.1.0-4.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -48,7 +48,7 @@
     "python3-pytest-xvfb"
   ],
   "Uploaders": [
-    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e, Roland Mas \u003clolando@debian.org\u003e,"
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e, Roland Mas \u003clolando@debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/python-team/packages/datalab"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/python-team/packages/datalab.git"
   ],
   "Version": [
-    "1.1.0-3"
+    "1.1.0-4"
   ]
 }
