@@ -9,16 +9,16 @@
     "debhelper-compat (= 13), dh-sequence-cargo"
   ],
   "Build-Depends-Arch": [
-    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2-dev (\u003e= 0.2.22) \u003c!nocheck\u003e, librust-rand-chacha-0.3+std-dev \u003c!nocheck\u003e, librust-rand-chacha-0.3-dev \u003c!nocheck\u003e, librust-rand-core-0.6+alloc-dev \u003c!nocheck\u003e, librust-rand-core-0.6+default-dev \u003c!nocheck\u003e, librust-rand-core-0.6+getrandom-dev \u003c!nocheck\u003e, librust-rand-core-0.6+std-dev \u003c!nocheck\u003e"
+    "cargo:native \u003c!nocheck\u003e, rustc:native \u003c!nocheck\u003e, libstd-rust-dev \u003c!nocheck\u003e, librust-libc-0.2-dev (\u003e= 0.2.22) \u003c!nocheck\u003e, librust-rand-chacha-0.3+std-dev \u003c!nocheck\u003e, librust-rand-chacha-0.3-dev (\u003e= 0.3.1-4) \u003c!nocheck\u003e, librust-rand-core-0.6+alloc-dev \u003c!nocheck\u003e, librust-rand-core-0.6+default-dev \u003c!nocheck\u003e, librust-rand-core-0.6+getrandom-dev \u003c!nocheck\u003e, librust-rand-core-0.6+std-dev \u003c!nocheck\u003e, librust-rand-core-0.6-dev (\u003e= 0.6.4-4) \u003c!nocheck\u003e"
   ],
   "Checksums-Sha256": [
-    "36a96816642c87a30c56e5d44ee18b8852bb652f42a644e98c5630ddb5d2d080 2635 rust-rand-0.8_0.8.5+dfsg-1.dsc 34af8d1a0e25924bc5b7c43c079c942339d8f0a8b57c39049bef581b46327404 87113 rust-rand-0.8_0.8.5+dfsg.orig.tar.gz a28e9072f21476ed2afb7e3ebad288e696de2e379ea64bd13bb9bd2bff1c7920 7500 rust-rand-0.8_0.8.5+dfsg-1.debian.tar.xz"
+    "ddc38e88ebe936dbc635d4960f786d02d863891f70f386615835930d0b63c7e1 2699 rust-rand-0.8_0.8.5+dfsg-2.dsc 34af8d1a0e25924bc5b7c43c079c942339d8f0a8b57c39049bef581b46327404 87113 rust-rand-0.8_0.8.5+dfsg.orig.tar.gz f028cb8779369401429a890cb3e88bccb077604b8a2258f216701606586bf43d 7612 rust-rand-0.8_0.8.5+dfsg-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/r/rust-rand-0.8"
   ],
   "Files": [
-    "2156599697785b34f7313f5738537beb 2635 rust-rand-0.8_0.8.5+dfsg-1.dsc ee7a5f842c39bc47c474196e83b0df5f 87113 rust-rand-0.8_0.8.5+dfsg.orig.tar.gz 7a10a4ad936e8703166229a6fb42dd13 7500 rust-rand-0.8_0.8.5+dfsg-1.debian.tar.xz"
+    "9445e1ce7adfcf4c23eacdbccda415e1 2699 rust-rand-0.8_0.8.5+dfsg-2.dsc ee7a5f842c39bc47c474196e83b0df5f 87113 rust-rand-0.8_0.8.5+dfsg.orig.tar.gz aca2fc49f6f47cd707432d4070142b82 7612 rust-rand-0.8_0.8.5+dfsg-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -60,6 +60,6 @@
     "https://salsa.debian.org/rust-team/debcargo-conf.git [src/rand-0.8]"
   ],
   "Version": [
-    "0.8.5+dfsg-1"
+    "0.8.5+dfsg-2"
   ]
 }
