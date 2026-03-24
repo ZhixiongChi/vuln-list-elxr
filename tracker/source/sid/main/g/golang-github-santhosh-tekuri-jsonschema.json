@@ -6,19 +6,28 @@
     "golang-github-santhosh-tekuri-jsonschema-dev, jsonschema-jv"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-gopkg-yaml.v3-dev, help2man \u003c!nodoc\u003e"
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-gopkg-yaml.v3-dev, golang-golang-x-text-dev, golang-github-spf13-pflag-dev, golang-github-dlclark-regexp2-dev \u003c!nocheck\u003e, help2man \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "82e4beaa098cc6cf88417df7dd16cab6d6239d1e0948824587093c4cf8456f20 2928 golang-github-santhosh-tekuri-jsonschema_5.3.1-2.dsc 9f79a056386f4cfbd616252032020ed4cfe0fd9445af9954b3d7ab8a76fe5b44 45694 golang-github-santhosh-tekuri-jsonschema_5.3.1.orig.tar.gz 9ee7804f79e53cf2a9941318f2f2e081bb05c03374d1435ed9cb1644be20aabf 3244 golang-github-santhosh-tekuri-jsonschema_5.3.1-2.debian.tar.xz"
+    "59da851a0c86227a36395f4a08063bb8b55b50c3142f0f5cb0762c05a21fe9a3 2915 golang-github-santhosh-tekuri-jsonschema_6.0.2-2.dsc 06465cc1c647b086f9b8d590c9de1608e5b335b58598d0eb84b9ee63a747e1d7 57647 golang-github-santhosh-tekuri-jsonschema_6.0.2.orig.tar.gz ada9d51f61709134a87f31c345ef1aaeaff56d3360ead816f4aefac509b42b11 3124 golang-github-santhosh-tekuri-jsonschema_6.0.2-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "8651cce2f130799273b4743dce080a0327754ea0 debian archive/debian/6.0.2-2 https://git.dgit.debian.org/golang-github-santhosh-tekuri-jsonschema"
   ],
   "Directory": [
     "pool/main/g/golang-github-santhosh-tekuri-jsonschema"
   ],
   "Files": [
-    "341bf658bff721e31745c0ce6737a3b2 2928 golang-github-santhosh-tekuri-jsonschema_5.3.1-2.dsc cddcf0f5a5dae233d288656ece824f3b 45694 golang-github-santhosh-tekuri-jsonschema_5.3.1.orig.tar.gz 3810152a21bf48be83c39b49238b8447 3244 golang-github-santhosh-tekuri-jsonschema_5.3.1-2.debian.tar.xz"
+    "e29eb010ba69a590f310e3c01bc36b04 2915 golang-github-santhosh-tekuri-jsonschema_6.0.2-2.dsc ca721f69f17665895da91d8e5e38e778 57647 golang-github-santhosh-tekuri-jsonschema_6.0.2.orig.tar.gz 2d1e70c1b14d404b65446b87bfb876bd 3124 golang-github-santhosh-tekuri-jsonschema_6.0.2-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=62630a2bf789d31d2b84d5bd9d1947e26097921e fp=30de7d1763ab9452c7e0825049a76977942826cb"
+  ],
+  "Git-Tag-Tagger": [
+    "Reinhard Tartler \u003csiretart@tauware.de\u003e"
   ],
   "Go-Import-Path": [
     "github.com/santhosh-tekuri/jsonschema"
@@ -42,7 +51,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +66,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-santhosh-tekuri-jsonschema.git"
   ],
   "Version": [
-    "5.3.1-2"
+    "6.0.2-2"
   ]
 }
