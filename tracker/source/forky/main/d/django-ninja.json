@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "all"
+  ],
+  "Binary": [
+    "python3-django-ninja, python-django-ninja-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), pybuild-plugin-pyproject, dh-python, flit, python3-all, python3-django, python3-psycopg2, python3-pydantic, python3-pytest, python3-pytest-asyncio, python3-pytest-django"
+  ],
+  "Build-Depends-Indep": [
+    "mkdocs, mkdocs-autorefs, mkdocs-material, mkdocs-material-extensions, mkdocstrings-python-handlers, python3-markdown-include"
+  ],
+  "Checksums-Sha256": [
+    "b2b50c98c17ec6541f38f4c9e1c791f0f0a4d75a860385dd1657979f0d6b0707 2522 django-ninja_1.6.2-1.dsc 3325a08a42d98297470922fd9604337fbf9402e3dadb8f00cc082b93c79abae1 3703094 django-ninja_1.6.2.orig.tar.gz c89fa2e83007a6cf506d65fcbf74680c2428c8bd9ae20811dd57d42649ba221d 4184 django-ninja_1.6.2-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/django-ninja"
+  ],
+  "Files": [
+    "874e5de5d52fad4c4ade3b5998674c2b 2522 django-ninja_1.6.2-1.dsc 90522e4b071bba48db815e2803bbcc06 3703094 django-ninja_1.6.2.orig.tar.gz eb18310b1bbd9d224998e341959dadbe 4184 django-ninja_1.6.2-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://django-ninja.dev"
+  ],
+  "Maintainer": [
+    "Debian Python Team \u003cteam+python@tracker.debian.org\u003e"
+  ],
+  "Package": [
+    "django-ninja"
+  ],
+  "Package-List": [
+    "python-django-ninja-doc deb doc optional arch=all python3-django-ninja deb python optional arch=all"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "doc"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "python3-all, python3-psycopg2, python3-pytest, python3-pytest-asyncio, python3-pytest-django"
+  ],
+  "Uploaders": [
+    "Pierre-Elliott Bécue \u003cpeb@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/python-team/packages/django-ninja"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/python-team/packages/django-ninja.git"
+  ],
+  "Version": [
+    "1.6.2-1"
+  ]
+}
