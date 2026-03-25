@@ -1,0 +1,65 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "python3-scotchpy, python-scotchpy-doc"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), cmake, dh-sequence-python3, pybuild-plugin-pyproject, python3-all-dev, libscotch-dev, libptscotch-dev, mpi-default-bin, python3-mpi4py, python3-numpy, python3-scikit-build-core, python3-pytest, python3-pytest-mpi"
+  ],
+  "Build-Depends-Indep": [
+    "python3-sphinx, python3-alabaster"
+  ],
+  "Checksums-Sha256": [
+    "f34216db1d8c6de760dea4ff28e9083a91d3120f1057c71fcdda59b364130e6c 2430 scotchpy_1.0.1-1.dsc 410b526f9d7e6732401f27883e89382c17e219dfad031553e5cbb09a5cd47937 292177 scotchpy_1.0.1.orig.tar.gz afd4c64be17141df6df1aec46eca142a929b89589cbc3d2ca4d3e4360aa4f072 5756 scotchpy_1.0.1-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/s/scotchpy"
+  ],
+  "Files": [
+    "c966641fda1bbcbc98292153625de323 2430 scotchpy_1.0.1-1.dsc 6a2a0021bbbd23531fa117503a59e804 292177 scotchpy_1.0.1.orig.tar.gz 2eec7505a9a232ac6bfb86834ae8ac0c 5756 scotchpy_1.0.1-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://codeberg.org/fpellegr/scotchpy"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "scotchpy"
+  ],
+  "Package-List": [
+    "python-scotchpy-doc deb doc optional arch=all python3-scotchpy deb python optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "doc"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "mpi-default-bin, python3-all, python3-h5py-mpi, python3-mpi4py, python3-pytest, python3-pytest-mpi"
+  ],
+  "Uploaders": [
+    "Drew Parsons \u003cdparsons@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/scotchpy"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/scotchpy.git"
+  ],
+  "Version": [
+    "1.0.1-1"
+  ]
+}
