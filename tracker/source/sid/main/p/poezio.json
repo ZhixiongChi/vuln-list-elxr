@@ -6,19 +6,28 @@
     "poezio, python3-poezio-poopt"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-python3, pkgconf, python3-aiohttp, python3-all, python3-all-dev, python3-cffi, python3-mpd, python3-potr, python3-pyinotify, python3-pytest, python3-setuptools, python3-slixmpp (\u003e= 1.10~), python3-sphinx, python3-sphinx-rtd-theme"
+    "debhelper-compat (= 13), dh-sequence-python3, pkgconf, python3-aiohttp, python3-all, python3-all-dev, python3-cffi, python3-mpd, python3-pillow, python3-potr, python3-pygments, python3-pyinotify, python3-pytest, python3-qrcode, python3-setuptools, python3-slixmpp (\u003e= 1.12~), python3-sphinx, python3-sphinx-rtd-theme"
   ],
   "Checksums-Sha256": [
-    "2b6b09cf1f1cba357410d8aa52b18d6521615c5e81002848b12e13f3701d113e 2298 poezio_0.15.1-2.dsc d2919b76f3ee7f53ce871c795e91a749ca2fafbf77aeed8f0b9e5cc5f5bcae63 3396990 poezio_0.15.1.orig.tar.gz 5f1e603ef512c92e409f46652dff6d1023302eaf180248856847320cdd6ec66e 8308 poezio_0.15.1-2.debian.tar.xz"
+    "b7e9b455c9204e3b7a4caff7f6a1cff44f4b2794cf1e7a23cac3eff90dd27add 2566 poezio_0.16-1.dsc 2d2e34037a673a7eead9c1baea2170d2ce374193dfe5dc4b82c367aa2ac2c86f 3124900 poezio_0.16.orig.tar.xz b18bccb6eb5e02690df3c74fdbe00b746492ca83774f4a3c9a576e9226a03712 8356 poezio_0.16-1.debian.tar.xz"
+  ],
+  "Dgit": [
+    "5a9d1348d5411375276eb9a08294f9cf9fc9ff51 debian archive/debian/0.16-1 https://git.dgit.debian.org/poezio"
   ],
   "Directory": [
     "pool/main/p/poezio"
   ],
   "Files": [
-    "11267bda59c4d9fdaed174a0fbf14a78 2298 poezio_0.15.1-2.dsc 167ba226d4093274094dfbb33894e5bd 3396990 poezio_0.15.1.orig.tar.gz 9d6ac5602ebdd733fd846d9461cf598b 8308 poezio_0.15.1-2.debian.tar.xz"
+    "a8c70f4de06b38d5b400b095f80fda5d 2566 poezio_0.16-1.dsc 02ef47a89d889df37eca9dc2e17007e0 3124900 poezio_0.16.orig.tar.xz a42d76ac7c6f63fc56ec071bb6e1f6a2 8356 poezio_0.16-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=87f995413f991678e775253294dd73e8568c96c7 fp=9fdad37b09f913b996aa86adb490e3df337f3213"
+  ],
+  "Git-Tag-Tagger": [
+    "Martin \u003cdebacle@debian.org\u003e"
   ],
   "Homepage": [
     "https://poez.io/"
@@ -39,7 +48,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-pybuild"
@@ -54,6 +63,6 @@
     "https://salsa.debian.org/python-team/packages/poezio.git"
   ],
   "Version": [
-    "0.15.1-2"
+    "0.16-1"
   ]
 }
