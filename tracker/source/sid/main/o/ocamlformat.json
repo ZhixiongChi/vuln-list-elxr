@@ -6,22 +6,28 @@
     "ocamlformat, libocamlformat-ocaml-dev, libocamlformat-ocaml"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), ocaml, ocaml-dune, menhir, libocp-indent-ocaml-dev, libstdio-ocaml-dev, libcsexp-ocaml-dev, libocaml-version-ocaml-dev, libcamlp-streams-ocaml-dev, libresult-ocaml-dev, libmenhir-ocaml-dev, libastring-ocaml-dev, libdune-ocaml-dev, libfpath-ocaml-dev, libre-ocaml-dev, libcmdliner-ocaml-dev, libuuseg-ocaml-dev, libalcotest-ocaml-dev \u003c!nocheck\u003e, ocp-indent \u003c!nocheck\u003e, dh-elpa, dh-ocaml (\u003e= 2)"
+    "debhelper-compat (= 13), ocaml, ocaml-dune, menhir, libocp-indent-ocaml-dev, libstdio-ocaml-dev, libcsexp-ocaml-dev, libocaml-version-ocaml-dev, libcamlp-streams-ocaml-dev, libresult-ocaml-dev, libmenhir-ocaml-dev, libastring-ocaml-dev, libdune-build-info-ocaml-dev, libfpath-ocaml-dev, libre-ocaml-dev, libcmdliner-ocaml-dev, libuuseg-ocaml-dev, libalcotest-ocaml-dev \u003c!nocheck\u003e, ocp-indent \u003c!nocheck\u003e, dh-elpa, dh-ocaml (\u003e= 2)"
   ],
   "Checksums-Sha256": [
-    "b5f8e16bd6292152735d22ab2e5b576d2cfdb4e2f6687eaa503fdcfc3aa42d5b 2302 ocamlformat_0.28.1-1.dsc 70bda037d0bed961ed91bdb5198b2eeef542444750a8b015d80ccb94b3ff41fb 1150234 ocamlformat_0.28.1.orig.tar.bz2 3980b7ffe058f201db077110bc2b597b94a362cb1d2b5dbdadbc1aac3236af92 3948 ocamlformat_0.28.1-1.debian.tar.xz"
+    "b58a408f5d2dbf43c3027b98e89b8e13ccc734f39bf42b37300dd11a4a3a5e3e 2788 ocamlformat_0.28.1-2.dsc 70bda037d0bed961ed91bdb5198b2eeef542444750a8b015d80ccb94b3ff41fb 1150234 ocamlformat_0.28.1.orig.tar.bz2 658554577ccfdd9761b2f001c8158bae6b1ea85ac63364c3a9922c81da43e596 3984 ocamlformat_0.28.1-2.debian.tar.xz"
   ],
   "Dgit": [
-    "d120fb2dc58cdf8dd9ce0503c1b1661490e3dd96 debian archive/debian/0.28.1-1 https://git.dgit.debian.org/ocamlformat"
+    "9d26b09500567adff22a256519e632ca8101168c debian archive/debian/0.28.1-2 https://git.dgit.debian.org/ocamlformat"
   ],
   "Directory": [
     "pool/main/o/ocamlformat"
   ],
   "Files": [
-    "7bb1e21d4d12a4c7e8bbe26334bb0ef3 2302 ocamlformat_0.28.1-1.dsc 0eb65009f27bb79eec1ef22fe687260a 1150234 ocamlformat_0.28.1.orig.tar.bz2 30759d33f0cb5cce04e23c53b205a914 3948 ocamlformat_0.28.1-1.debian.tar.xz"
+    "49f5ead985b959a16f935b6d89f79b97 2788 ocamlformat_0.28.1-2.dsc 0eb65009f27bb79eec1ef22fe687260a 1150234 ocamlformat_0.28.1.orig.tar.bz2 3563c08acac0872e54896d6b2288af3c 3984 ocamlformat_0.28.1-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=72b8a835259504193bac83ef7918ecbb3b01868e fp=6de24e97eca886cc56e6250e21b8eef1b1893081"
+  ],
+  "Git-Tag-Tagger": [
+    "Stephane Glondu \u003csteph@glondu.net\u003e"
   ],
   "Homepage": [
     "https://github.com/ocaml-ppx/ocamlformat"
@@ -42,7 +48,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Uploaders": [
     "Stéphane Glondu \u003cglondu@debian.org\u003e"
@@ -54,6 +60,6 @@
     "https://salsa.debian.org/ocaml-team/ocamlformat.git"
   ],
   "Version": [
-    "0.28.1-1"
+    "0.28.1-2"
   ]
 }
