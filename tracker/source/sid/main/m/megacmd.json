@@ -1,0 +1,56 @@
+{
+  "Architecture": [
+    "any all"
+  ],
+  "Binary": [
+    "megacmd, megacmd-doc, megasdk-dev"
+  ],
+  "Build-Depends": [
+    "debhelper-compat (= 13), autoconf, autoconf-archive, cmake, curl, git, libavcodec-dev (\u003e= 7:6.0), libavformat-dev (\u003e= 7:6.0), libavutil-dev (\u003e= 7:6.0), libc-ares-dev, libcrypto++-dev, libfreeimage-dev, libfuse3-dev, libglib2.0-dev, libicu-dev, libmediainfo-dev, libreadline-dev, libsodium-dev, libsqlite3-dev, libswresample-dev (\u003e= 7:6.0), libswscale-dev (\u003e= 7:6.0), libuv1-dev, libzen-dev, pkgconf, python3, zlib1g-dev"
+  ],
+  "Build-Depends-Indep": [
+    "dh-sequence-mkdocs \u003c!nodoc\u003e, mkdocs \u003c!nodoc\u003e, mkdocs-gen-files \u003c!nodoc\u003e, mkdocs-literate-nav \u003c!nodoc\u003e, mkdocs-macros-plugin \u003c!nodoc\u003e, mkdocs-material \u003c!nodoc\u003e, mkdocs-section-index \u003c!nodoc\u003e, procps \u003c!nodoc\u003e"
+  ],
+  "Checksums-Sha256": [
+    "5d588b560ff342dc4c777ca6208250129b5cc333747dc9b43dca1c494561cb21 2860 megacmd_2.4.0-1.dsc 3e9aa146d0766f655b4b00e6ef28f97e84a4dc6540ab87734b2b7c3cdc3b6d82 4543123 megacmd_2.4.0.orig-sdk.tar.gz 5208ed329db18bdc50d2ab86bf6a063c75ce7e7a1c30fc7e34675ddbba1c67f4 2101729 megacmd_2.4.0.orig.tar.gz 8f0bab92b404cfa802106ed7e44f7b002fdb2ed1d45083c8ced9fe268f011086 23668 megacmd_2.4.0-1.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/m/megacmd"
+  ],
+  "Files": [
+    "ece18648a04617919521cae21c15d242 2860 megacmd_2.4.0-1.dsc a7c2fbdd6a6bce4c6126a62114a2335c 4543123 megacmd_2.4.0.orig-sdk.tar.gz 87b457b5fd1a044478dc3bb926203fda 2101729 megacmd_2.4.0.orig.tar.gz ca85871519b90aa38d1bd334ef4bcdb4 23668 megacmd_2.4.0-1.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://github.com/meganz/MEGAcmd"
+  ],
+  "Maintainer": [
+    "Josenilson Ferreira da Silva \u003cnilsonfsilva@hotmail.com\u003e"
+  ],
+  "Package": [
+    "megacmd"
+  ],
+  "Package-List": [
+    "megacmd deb utils optional arch=any megacmd-doc deb doc optional arch=all megasdk-dev deb libdevel optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "utils"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/debian/megacmd"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/debian/megacmd.git"
+  ],
+  "Version": [
+    "2.4.0-1"
+  ]
+}
