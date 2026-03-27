@@ -9,16 +9,16 @@
     "debhelper (\u003e= 11), dh-python, openstack-pkg-tools, python3-all, python3-setuptools, python3-sphinx"
   ],
   "Build-Depends-Indep": [
-    "python3-coverage, python3-hacking, python3-keystoneauth1, python3-isort, python3-netaddr, python3-neutron, python3-neutron-lib, python3-neutronclient, python3-octavia-lib, python3-openstackdocstheme, python3-openstacksdk, python3-openvswitch, python3-oslo.config, python3-oslo.log, python3-oslo.messaging, python3-oslo.serialization, python3-oslo.utils, python3-oslotest, python3-ovsdbapp, python3-pbr, python3-sphinxcontrib.svg2pdfconverter, python3-sqlalchemy, python3-stestr, python3-tenacity, python3-testresources, python3-testscenarios, python3-testtools, python3-webtest, subunit"
+    "python3-coverage, python3-hacking, python3-isort, python3-keystoneauth1, python3-netaddr, python3-neutron, python3-neutron-lib, python3-neutronclient, python3-octavia-lib, python3-openstackdocstheme, python3-openstacksdk, python3-openvswitch, python3-oslo.config, python3-oslo.log, python3-oslo.messaging, python3-oslo.serialization, python3-oslo.utils, python3-oslotest, python3-ovsdbapp, python3-pbr, python3-pymysql, python3-sphinxcontrib.svg2pdfconverter, python3-sqlalchemy, python3-stestr, python3-tenacity, python3-testresources, python3-testscenarios, python3-testtools, python3-webtest, subunit"
   ],
   "Checksums-Sha256": [
-    "46e56d8b89c831b216ae99dc2ba37b2e661758d4e6b633b0296180d29f683fd4 2966 ovn-octavia-provider_9.0.0-1.dsc fa5eb24354133c06243cb2d3650fe1d85865d7d9644baae6df057f8f17db6ce1 120260 ovn-octavia-provider_9.0.0.orig.tar.xz 20514de8766a77c6360cc5f20c8cdfe3682647138ac01471942fe72f22e47968 4036 ovn-octavia-provider_9.0.0-1.debian.tar.xz"
+    "96cb9c923e6ad807e9ee78d69c666b0e78dac273b393a6f4fb4c2ff03c211435 3020 ovn-octavia-provider_10.0.0~rc1-2.dsc 1c30704634975e76c970c9c08de79f2bf432ead17071bfca1ea0c9fff20f9fa0 125360 ovn-octavia-provider_10.0.0~rc1.orig.tar.xz 200fb8713115a63b29f5a02b36a73b3e54cd1da183cbf7e97f96704a8ae7335d 4120 ovn-octavia-provider_10.0.0~rc1-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/o/ovn-octavia-provider"
   ],
   "Files": [
-    "364a6a731e9396816ded0a64f17eaa9e 2966 ovn-octavia-provider_9.0.0-1.dsc ebfb5ef5cd4d82f5550b386e371ac611 120260 ovn-octavia-provider_9.0.0.orig.tar.xz e90e1406986ebb1c87bd92c327c07a0d 4036 ovn-octavia-provider_9.0.0-1.debian.tar.xz"
+    "d2bbb776bf1310dcca51d480e3f09f7c 3020 ovn-octavia-provider_10.0.0~rc1-2.dsc c8e757d4313ccacc37babd08c834b5de 125360 ovn-octavia-provider_10.0.0~rc1.orig.tar.xz 2478857f3de9fd243c38453ffe31f32e 4120 ovn-octavia-provider_10.0.0~rc1-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -51,15 +51,15 @@
     "@builddeps@"
   ],
   "Uploaders": [
-    "Thomas Goirand \u003czigo@debian.org\u003e, Michal Arbet \u003cmichal.arbet@ultimum.io\u003e,"
+    "Thomas Goirand \u003czigo@debian.org\u003e, Michal Arbet \u003cmichal.arbet@ultimum.io\u003e"
   ],
   "Vcs-Browser": [
-    "https://salsa.debian.org/openstack-team/python/python-ovn-octavia-provider"
+    "https://salsa.debian.org/openstack-team/services/python-ovn-octavia-provider"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/openstack-team/python/python-ovn-octavia-provider.git"
+    "https://salsa.debian.org/openstack-team/services/python-ovn-octavia-provider.git"
   ],
   "Version": [
-    "9.0.0-1"
+    "10.0.0~rc1-2"
   ]
 }
