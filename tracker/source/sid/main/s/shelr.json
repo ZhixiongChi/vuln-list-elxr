@@ -6,25 +6,25 @@
     "shelr"
   ],
   "Build-Depends": [
-    "bash-completion, debhelper (\u003e= 9~), gem2deb, ruby-json | libjson-ruby, ruby-mocha | libmocha-ruby, ruby-rspec | librspec-ruby"
+    "bash-completion, debhelper-compat (= 13), gem2deb, ruby-json | libjson-ruby, ruby-mocha | libmocha-ruby, ruby-rspec | librspec-ruby"
   ],
   "Checksums-Sha256": [
-    "c736bbfdf3311a4b9aaa14f321c4111a467ab4877a5d718547662fe1052b8a0b 1940 shelr_0.16.3-2.1.dsc ce24d7d527a2c22525c36ea4b3a57d67006279fde49c788bfd111310eb5b4e95 26208 shelr_0.16.3.orig.tar.gz 37aeeb747e3b5d7c365c8c7d0f9ac4d51192e9e98c05c89211380af9857015fb 3320 shelr_0.16.3-2.1.debian.tar.xz"
+    "7c1757fae844de2a7ce9f40246a8461e545e76c389fb4b01a534fa3132ac49b3 2046 shelr_0.16.3-3.dsc ce24d7d527a2c22525c36ea4b3a57d67006279fde49c788bfd111310eb5b4e95 26208 shelr_0.16.3.orig.tar.gz ce4872073b9a4f4f27fdbb342dafe1b7dd2aad59410ecef4ee48859be5cbeaf3 3744 shelr_0.16.3-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/s/shelr"
   ],
   "Files": [
-    "92ef4a6968f68f7560874a43805a55bc 1940 shelr_0.16.3-2.1.dsc 018a5a0804ff6799abd2a0e7b87fc29a 26208 shelr_0.16.3.orig.tar.gz 0e1fd84184c497817bc6173485225e64 3320 shelr_0.16.3-2.1.debian.tar.xz"
+    "c919b29162f7c169651d41fb871829d8 2046 shelr_0.16.3-3.dsc 018a5a0804ff6799abd2a0e7b87fc29a 26208 shelr_0.16.3.orig.tar.gz 687f6cc72f5ef688536b2cf9b1d2175d 3744 shelr_0.16.3-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
   ],
   "Homepage": [
-    "http://shelr.tv/"
+    "https://github.com/shelr/shelr.tv"
   ],
   "Maintainer": [
-    "Antono Vasiljev \u003cself@antono.info\u003e"
+    "Debian Ruby Team \u003cpkg-ruby-extras-maintainers@lists.alioth.debian.org\u003e"
   ],
   "Package": [
     "shelr"
@@ -35,22 +35,25 @@
   "Priority": [
     "optional"
   ],
-  "Ruby-Versions": [
-    "all"
-  ],
   "Section": [
     "ruby"
   ],
   "Standards-Version": [
-    "4.0.0"
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest-pkg-ruby"
+  ],
+  "Uploaders": [
+    "Antono Vasiljev \u003cself@antono.info\u003e"
   ],
   "Vcs-Browser": [
-    "https://anonscm.debian.org/cgit/pkg-ruby-extras/shelr.git"
+    "https://salsa.debian.org/ruby-team/shelr"
   ],
   "Vcs-Git": [
-    "https://anonscm.debian.org/git/pkg-ruby-extras/shelr.git"
+    "https://salsa.debian.org/ruby-team/shelr.git"
   ],
   "Version": [
-    "0.16.3-2.1"
+    "0.16.3-3"
   ]
 }
