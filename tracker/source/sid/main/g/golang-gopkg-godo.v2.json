@@ -6,19 +6,28 @@
     "golang-gopkg-godo.v2-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-gokyle-fswatch-dev, golang-github-howeyc-gopass-dev, golang-github-mattn-go-colorable-dev, golang-github-mgutz-ansi-dev, golang-github-mgutz-minimist-dev, golang-github-mgutz-str-dev, golang-github-michaeltjones-walk-dev, golang-github-nozzle-throttler-dev, golang-github-stretchr-testify-dev"
+    "debhelper-compat (= 13), dh-sequence-golang, golang-any, golang-github-gokyle-fswatch-dev, golang-github-mattn-go-colorable-dev, golang-github-mgutz-ansi-dev, golang-github-mgutz-minimist-dev, golang-github-mgutz-str-dev, golang-github-michaeltjones-walk-dev, golang-github-nozzle-throttler-dev, golang-github-stretchr-testify-dev, golang-golang-x-term-dev"
   ],
   "Checksums-Sha256": [
-    "11165d54a9ae868c8a08aa2fa93212ef929b0b1920c19bfcb4b245cdae1bc59d 2493 golang-gopkg-godo.v2_2.0.9-2.dsc 87a8eecd183d6b332d946ae2f5c258b838e4322dfcb23e444594610ec75d59c1 35912 golang-gopkg-godo.v2_2.0.9.orig.tar.xz 24d640d5a8f8ed4c229caa2f9ec3ab580791289fb4d4366e14505b60ad5ca7d8 3056 golang-gopkg-godo.v2_2.0.9-2.debian.tar.xz"
+    "85042cd254b095957ff3787f4e55f4cfbdc8b182ff65da23299f1e47c8f16e54 2744 golang-gopkg-godo.v2_2.0.9-3.dsc 87a8eecd183d6b332d946ae2f5c258b838e4322dfcb23e444594610ec75d59c1 35912 golang-gopkg-godo.v2_2.0.9.orig.tar.xz 58368f3ed8d13e3ca2ebd1f8c1bd5e0f06d356cc45449ccac0c5fd69772a31f8 3660 golang-gopkg-godo.v2_2.0.9-3.debian.tar.xz"
+  ],
+  "Dgit": [
+    "57b56e459c9c4cb2e9f5b00dea88b2092fa94486 debian archive/debian/2.0.9-3 https://git.dgit.debian.org/golang-gopkg-godo.v2"
   ],
   "Directory": [
     "pool/main/g/golang-gopkg-godo.v2"
   ],
   "Files": [
-    "88a7be0095361d90a7fcffe0d3c01c1a 2493 golang-gopkg-godo.v2_2.0.9-2.dsc aaeb12c7388234c771b59c3cf2e04887 35912 golang-gopkg-godo.v2_2.0.9.orig.tar.xz d61f38fcc6f67bd976a47e9d932a28e4 3056 golang-gopkg-godo.v2_2.0.9-2.debian.tar.xz"
+    "a209b94815d09cffa4d285ebae0e64b0 2744 golang-gopkg-godo.v2_2.0.9-3.dsc aaeb12c7388234c771b59c3cf2e04887 35912 golang-gopkg-godo.v2_2.0.9.orig.tar.xz f4b6328dc6816017d883a4f11c2c18bd 3660 golang-gopkg-godo.v2_2.0.9-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
+  ],
+  "Git-Tag-Info": [
+    "tag=b65589b52567124e6dc9e1eb0402ba1233157e9e fp=a3cc9c870b9d310abad4cf2f51722b08fe4745a2"
+  ],
+  "Git-Tag-Tagger": [
+    "Simon Josefsson \u003csimon@josefsson.org\u003e"
   ],
   "Go-Import-Path": [
     "gopkg.in/godo.v2"
@@ -42,7 +51,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.7.0"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-go"
@@ -57,6 +66,6 @@
     "https://salsa.debian.org/go-team/packages/golang-gopkg-godo.v2.git"
   ],
   "Version": [
-    "2.0.9-2"
+    "2.0.9-3"
   ]
 }
