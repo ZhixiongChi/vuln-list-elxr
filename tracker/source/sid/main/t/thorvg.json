@@ -3,19 +3,19 @@
     "any"
   ],
   "Binary": [
-    "libthorvg1, libthorvg-dev"
+    "libthorvg1, libthorvg-dev, thorvg-tools"
   ],
   "Build-Depends": [
     "debhelper-compat (= 13), meson, ninja-build, pkgconf"
   ],
   "Checksums-Sha256": [
-    "48d97fce68d12c4774e33ae6444ba86c87abef3eecdc466c7ae62de9661b72f7 1969 thorvg_1.0.2+dfsg-1.dsc d89597677a057abda64a3ba728fc07c0a6aaab6d2f6d67f7b5c4e2d4ca5a2fd7 1049772 thorvg_1.0.2+dfsg.orig.tar.xz 9e7c946e57990e6a61b45f6c69bb6ef297e286480807a642ca3e7cf5e88f86b0 13736 thorvg_1.0.2+dfsg-1.debian.tar.xz"
+    "61d25b855df012a92c701ec8978949f290ffd8b2c4d000d76102911fc5e21be1 2028 thorvg_1.0.3+dfsg-1.dsc 8748dc277f4ff78b05f6eef48e422f9304a8b1c79fd3d7a417607f6ecee7a509 1051376 thorvg_1.0.3+dfsg.orig.tar.xz 14e21fd9589e9b92e85a6aafec7b3861de2d246c15f3a796f3d2af92bf328027 15012 thorvg_1.0.3+dfsg-1.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/t/thorvg"
   ],
   "Files": [
-    "23cce6df250e207e38bff5f2d457cf8b 1969 thorvg_1.0.2+dfsg-1.dsc 82590ab2a3323f32687031e6779c54f4 1049772 thorvg_1.0.2+dfsg.orig.tar.xz cdda9ef2faeb1d5fbe911691fd257017 13736 thorvg_1.0.2+dfsg-1.debian.tar.xz"
+    "a8956ad30801e2f5bf60fdadaa20ded2 2028 thorvg_1.0.3+dfsg-1.dsc 71bbb284e3e62c7d434964bcb892fc82 1051376 thorvg_1.0.3+dfsg.orig.tar.xz 6b722c0a3050673ed869938bc2ef1762 15012 thorvg_1.0.3+dfsg-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -30,7 +30,7 @@
     "thorvg"
   ],
   "Package-List": [
-    "libthorvg-dev deb libdevel optional arch=any libthorvg1 deb libs optional arch=any"
+    "libthorvg-dev deb libdevel optional arch=any libthorvg1 deb libs optional arch=any thorvg-tools deb graphics optional arch=any"
   ],
   "Priority": [
     "optional"
@@ -51,6 +51,6 @@
     "https://salsa.debian.org/debian/thorvg.git"
   ],
   "Version": [
-    "1.0.2+dfsg-1"
+    "1.0.3+dfsg-1"
   ]
 }
