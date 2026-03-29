@@ -1,0 +1,62 @@
+{
+  "Architecture": [
+    "any"
+  ],
+  "Binary": [
+    "duckdb, libduckdb1.5, libduckdb-dev"
+  ],
+  "Build-Depends": [
+    "architecture-is-64-bit, architecture-is-little-endian, debhelper-compat (= 13), cmake, ninja-build, pkgconf, libzstd-dev, libxxhash-dev"
+  ],
+  "Checksums-Sha256": [
+    "981ec88c970f6e7cea19dc2f3823294eab1deb6fceb3990e8bddd88ffac8c232 2219 duckdb_1.5.1-2.dsc d03d25428f7be992b67ac09a8ee2b02799a750b9e51cc424609617c49fe61fe6 99757706 duckdb_1.5.1.orig.tar.gz bc3149fab37941a60da02c24f895c04d637a0649b5902c303b7b69c8c24e3a49 8044 duckdb_1.5.1-2.debian.tar.xz"
+  ],
+  "Directory": [
+    "pool/main/d/duckdb"
+  ],
+  "Files": [
+    "04ecb2c2fb2a2efa6f6d7aba64c939fd 2219 duckdb_1.5.1-2.dsc 1669e2c0402fc3eebe7e23a413e4e388 99757706 duckdb_1.5.1.orig.tar.gz 642f73e4e3ef8b3bb92c8ed438a963ec 8044 duckdb_1.5.1-2.debian.tar.xz"
+  ],
+  "Format": [
+    "3.0 (quilt)"
+  ],
+  "Homepage": [
+    "https://duckdb.org"
+  ],
+  "Maintainer": [
+    "Debian Science Maintainers \u003cdebian-science-maintainers@lists.alioth.debian.org\u003e"
+  ],
+  "Package": [
+    "duckdb"
+  ],
+  "Package-List": [
+    "duckdb deb database optional arch=any libduckdb-dev deb libdevel optional arch=any libduckdb1.5 deb libs optional arch=any"
+  ],
+  "Priority": [
+    "optional"
+  ],
+  "Section": [
+    "database"
+  ],
+  "Standards-Version": [
+    "4.7.3"
+  ],
+  "Testsuite": [
+    "autopkgtest"
+  ],
+  "Testsuite-Triggers": [
+    "gcc, libc6-dev"
+  ],
+  "Uploaders": [
+    "Dominique Belhachemi \u003cdomibel@debian.org\u003e"
+  ],
+  "Vcs-Browser": [
+    "https://salsa.debian.org/science-team/duckdb"
+  ],
+  "Vcs-Git": [
+    "https://salsa.debian.org/science-team/duckdb.git"
+  ],
+  "Version": [
+    "1.5.1-2"
+  ]
+}
