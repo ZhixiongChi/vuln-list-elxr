@@ -6,16 +6,16 @@
     "golang-github-go-webauthn-webauthn-dev"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-fxamacker-cbor-dev, golang-github-go-viper-mapstructure-dev, golang-github-go-webauthn-x-dev, golang-github-golang-jwt-jwt-v5-dev, golang-github-google-go-tpm-dev, golang-github-google-uuid-dev, golang-github-stretchr-testify-dev \u003c!nocheck\u003e, golang-go.uber-mock-dev"
+    "debhelper-compat (= 13), dh-golang, golang-any, golang-github-fxamacker-cbor-dev, golang-github-go-viper-mapstructure-dev, golang-github-go-webauthn-x-dev (\u003e= 0.2.2), golang-github-golang-jwt-jwt-v5-dev, golang-github-google-go-tpm-dev, golang-github-google-uuid-dev, golang-github-stretchr-testify-dev \u003c!nocheck\u003e, golang-go.uber-mock-dev"
   ],
   "Checksums-Sha256": [
-    "f9a3a299bcebae78aec7e41077b0553a1c32b2ab1b41c707ca1bc9affbff22f2 2634 golang-github-go-webauthn-webauthn_0.16.1-1.dsc 307f95aea9b2e22d9ec9977c8d6638dc604ee39083fe2a59f1e3cb08f2249650 231350 golang-github-go-webauthn-webauthn_0.16.1.orig.tar.gz 15e7fa075f8d8bfeaa79f7657aaa6b56be297923450b6fe73d0fe9ec6e61506b 3232 golang-github-go-webauthn-webauthn_0.16.1-1.debian.tar.xz"
+    "404077d00447003e7c233ad6369d26b52b6285e99b6df7da088865ade882900a 2645 golang-github-go-webauthn-webauthn_0.16.1-2.dsc 307f95aea9b2e22d9ec9977c8d6638dc604ee39083fe2a59f1e3cb08f2249650 231350 golang-github-go-webauthn-webauthn_0.16.1.orig.tar.gz aa0c0f5f1e06bb50f3eba79f24c2960d950fa089c502e6750f3ef48f85ff1605 3272 golang-github-go-webauthn-webauthn_0.16.1-2.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/g/golang-github-go-webauthn-webauthn"
   ],
   "Files": [
-    "2f6658b16c301ab115067fc1ab763257 2634 golang-github-go-webauthn-webauthn_0.16.1-1.dsc 2b9aaf3d20e2d45d23cf42c22943e214 231350 golang-github-go-webauthn-webauthn_0.16.1.orig.tar.gz 6a8c71fbf71a9c281856350848ddf029 3232 golang-github-go-webauthn-webauthn_0.16.1-1.debian.tar.xz"
+    "8a9a048d9d9588bccc123a32be058473 2645 golang-github-go-webauthn-webauthn_0.16.1-2.dsc 2b9aaf3d20e2d45d23cf42c22943e214 231350 golang-github-go-webauthn-webauthn_0.16.1.orig.tar.gz a7be6efc88b0835fbbd0f61e81f34f27 3272 golang-github-go-webauthn-webauthn_0.16.1-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/go-team/packages/golang-github-go-webauthn-webauthn.git"
   ],
   "Version": [
-    "0.16.1-1"
+    "0.16.1-2"
   ]
 }

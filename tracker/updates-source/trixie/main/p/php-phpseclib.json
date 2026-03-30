@@ -3,16 +3,16 @@
     "all"
   ],
   "Binary": [
-    "php-phpseclib3"
+    "php-phpseclib"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-phpcomposer, php-constant-time, php-gmp, php-random-compat, phpab, phpunit, pkg-php-tools (\u003e= 1.41~)"
+    "debhelper-compat (= 13), dh-sequence-phpcomposer, php-gmp, phpab, phpunit"
   ],
   "Checksums-Sha256": [
-    "557371ff0ebf0e66401a8e00be6619de9e1bd9c9796c1718aba6473af68d208b 1907 php-phpseclib3_3.0.19-1+deb12u4.dsc a097f2ebbb4ddc4152e23838d819a9e8c0a2fbd402971bf5919c27f30e129532 404404 php-phpseclib3_3.0.19.orig.tar.xz 3695362e29c736ce75f846ce4d5c10a2c97309ba7dd5c0ab7ad9220b44af5381 172208 php-phpseclib3_3.0.19-1+deb12u4.debian.tar.xz"
+    "1b15f1e1220f0a3a4dd7a05a709bbd41da1dd6ecb3414951dca07608a4aa0cce 1833 php-phpseclib_2.0.48-3+deb13u1.dsc 75862dab045d8610b396feecf754d286242945abde29f59444ddd80b0f583990 429764 php-phpseclib_2.0.48.orig.tar.xz 2ce41186e515b930454d1c8b0ad7f09a1d84ddda3875cc1a58a768ad34bc9c0a 17780 php-phpseclib_2.0.48-3+deb13u1.debian.tar.xz"
   ],
   "Directory": [
-    "pool/updates/main/p/php-phpseclib3"
+    "pool/updates/main/p/php-phpseclib"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -24,10 +24,10 @@
     "Debian PHP PEAR Maintainers \u003cpkg-php-pear@lists.alioth.debian.org\u003e"
   ],
   "Package": [
-    "php-phpseclib3"
+    "php-phpseclib"
   ],
   "Package-List": [
-    "php-phpseclib3 deb php optional arch=all"
+    "php-phpseclib deb php optional arch=all"
   ],
   "Priority": [
     "optional"
@@ -36,7 +36,7 @@
     "misc"
   ],
   "Standards-Version": [
-    "4.6.2"
+    "4.7.0"
   ],
   "Testsuite": [
     "autopkgtest"
@@ -51,9 +51,9 @@
     "https://salsa.debian.org/php-team/pear/phpseclib"
   ],
   "Vcs-Git": [
-    "https://salsa.debian.org/php-team/pear/phpseclib.git -b debian/bookworm"
+    "https://salsa.debian.org/php-team/pear/phpseclib.git -b debian/trixie_2.x"
   ],
   "Version": [
-    "3.0.19-1+deb12u4"
+    "2.0.48-3+deb13u1"
   ]
 }
