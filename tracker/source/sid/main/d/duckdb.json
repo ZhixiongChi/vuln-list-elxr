@@ -6,16 +6,16 @@
     "duckdb, libduckdb1.5, libduckdb-dev"
   ],
   "Build-Depends": [
-    "architecture-is-64-bit, architecture-is-little-endian, debhelper-compat (= 13), cmake, ninja-build, pkgconf, libzstd-dev, libxxhash-dev"
+    "architecture-is-64-bit, architecture-is-little-endian, debhelper-compat (= 13), cmake, ninja-build, pkgconf, libicu-dev, libzstd-dev, libxxhash-dev"
   ],
   "Checksums-Sha256": [
-    "981ec88c970f6e7cea19dc2f3823294eab1deb6fceb3990e8bddd88ffac8c232 2219 duckdb_1.5.1-2.dsc d03d25428f7be992b67ac09a8ee2b02799a750b9e51cc424609617c49fe61fe6 99757706 duckdb_1.5.1.orig.tar.gz bc3149fab37941a60da02c24f895c04d637a0649b5902c303b7b69c8c24e3a49 8044 duckdb_1.5.1-2.debian.tar.xz"
+    "7ae63928a03b384fbd4ea66bc479e1e3c655e27c08c1796216beaa6b335c5aec 2232 duckdb_1.5.1-3.dsc d03d25428f7be992b67ac09a8ee2b02799a750b9e51cc424609617c49fe61fe6 99757706 duckdb_1.5.1.orig.tar.gz 432e970a33469a9b78e85360536a1c8bf4e2503da195b9d9ad6ca31849778fb7 8764 duckdb_1.5.1-3.debian.tar.xz"
   ],
   "Directory": [
     "pool/main/d/duckdb"
   ],
   "Files": [
-    "04ecb2c2fb2a2efa6f6d7aba64c939fd 2219 duckdb_1.5.1-2.dsc 1669e2c0402fc3eebe7e23a413e4e388 99757706 duckdb_1.5.1.orig.tar.gz 642f73e4e3ef8b3bb92c8ed438a963ec 8044 duckdb_1.5.1-2.debian.tar.xz"
+    "eb12f39f34e7b171696221589b883b4f 2232 duckdb_1.5.1-3.dsc 1669e2c0402fc3eebe7e23a413e4e388 99757706 duckdb_1.5.1.orig.tar.gz 4b4a54ac5382694dea2c68a52c830049 8764 duckdb_1.5.1-3.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/science-team/duckdb.git"
   ],
   "Version": [
-    "1.5.1-2"
+    "1.5.1-3"
   ]
 }
