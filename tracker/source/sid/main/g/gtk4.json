@@ -12,13 +12,16 @@
     "gi-docgen \u003c!nodoc\u003e, libcairo2-doc \u003c!nodoc\u003e, libglib2.0-doc \u003c!nodoc\u003e, libpango1.0-doc \u003c!nodoc\u003e"
   ],
   "Checksums-Sha256": [
-    "2b2e6e4fec9e18bdf3fa17f569d8b773cde5d4c801179ae656ce0c83a3741cb1 4558 gtk4_4.22.2+ds-1.dsc b06b9a4a82ed0b8a9260cc739296af1f96b7348d5e6b8d09435ab563910cd33d 17128400 gtk4_4.22.2+ds.orig.tar.xz a23899f23b476dde31ff973ad4f41debc70285265730192a4703ba9a45d6549c 4010252 gtk4_4.22.2+ds-1.debian.tar.xz"
+    "ae26c50342c05b906dcbdec67bc6fe3c662e9a3c09e4b1d342b5bcb101d6a2e2 4755 gtk4_4.22.2+ds-2.dsc b06b9a4a82ed0b8a9260cc739296af1f96b7348d5e6b8d09435ab563910cd33d 17128400 gtk4_4.22.2+ds.orig.tar.xz b4014f2017bb77283fc2171e3a06d5ef29c03962d513a5b14f8a2ec75e9f7677 4011792 gtk4_4.22.2+ds-2.debian.tar.xz"
+  ],
+  "Dgit": [
+    "55fd6d6736a651d1f9bc1feeee643c6acc8d636d debian archive/debian/4.22.2+ds-2 https://git.dgit.debian.org/gtk4"
   ],
   "Directory": [
     "pool/main/g/gtk4"
   ],
   "Files": [
-    "0128c3331d3bf279eb28d32d77bd223a 4558 gtk4_4.22.2+ds-1.dsc c4a1ae3f6033d37a7e8a15e34ac6ff58 17128400 gtk4_4.22.2+ds.orig.tar.xz b7823c9ffeefdd652517c39a57f670cb 4010252 gtk4_4.22.2+ds-1.debian.tar.xz"
+    "61f5ff47853024362337d044ee1c9ef0 4755 gtk4_4.22.2+ds-2.dsc c4a1ae3f6033d37a7e8a15e34ac6ff58 17128400 gtk4_4.22.2+ds.orig.tar.xz 250e5825ac452b86ca1a2745ab37b52e 4011792 gtk4_4.22.2+ds-2.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -33,7 +36,7 @@
     "gtk4"
   ],
   "Package-List": [
-    "gir1.2-gtk-4.0 deb introspection optional arch=any gtk-4-examples deb x11 optional arch=any profile=!noinsttest gtk-4-tests deb x11 optional arch=any profile=!noinsttest gtk-update-icon-cache deb misc optional arch=any libgtk-4-1 deb libs optional arch=any libgtk-4-1-udeb udeb debian-installer optional arch=any profile=!noudeb libgtk-4-bin deb misc optional arch=any libgtk-4-common deb misc optional arch=all libgtk-4-dev deb libdevel optional arch=any libgtk-4-doc deb doc optional arch=all profile=!nodoc"
+    "gir1.2-gtk-4.0 deb introspection optional arch=any gtk-4-examples deb x11 optional arch=any profile=!noinsttest profile:v1=!noinsttest gtk-4-tests deb x11 optional arch=any profile=!noinsttest profile:v1=!noinsttest gtk-update-icon-cache deb misc optional arch=any libgtk-4-1 deb libs optional arch=any libgtk-4-1-udeb udeb debian-installer optional arch=any profile=!noudeb profile:v1=!noudeb libgtk-4-bin deb misc optional arch=any libgtk-4-common deb misc optional arch=all libgtk-4-dev deb libdevel optional arch=any libgtk-4-doc deb doc optional arch=all profile=!nodoc profile:v1=!nodoc"
   ],
   "Priority": [
     "extra"
@@ -60,6 +63,6 @@
     "https://salsa.debian.org/gnome-team/gtk4.git"
   ],
   "Version": [
-    "4.22.2+ds-1"
+    "4.22.2+ds-2"
   ]
 }
