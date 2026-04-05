@@ -6,19 +6,19 @@
     "libdbd-pg-perl"
   ],
   "Build-Depends": [
-    "debhelper-compat (= 13), dh-sequence-perl-dbi, libdbi-perl, libpq-dev, libtest-simple-perl \u003c!nocheck\u003e, libversion-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native, postgresql, postgresql-common-dev"
+    "debhelper-compat (= 13), dh-sequence-perl-dbi, iproute2 \u003c!nocheck\u003e, libdbi-perl, libpq-dev, libtest-simple-perl \u003c!nocheck\u003e, libversion-perl \u003c!nocheck\u003e, perl-xs-dev, perl:native, postgresql, postgresql-common-dev"
   ],
   "Checksums-Sha256": [
-    "de74b172cfa624058072c4cfb4ab0db52d78758e6048f4bb0aa8578359fb1ed3 2707 libdbd-pg-perl_3.18.0-4.dsc 92bbe8a363040f8ce6a3f1963f128132e245861a9b4dc5a84178b42d625a7807 288783 libdbd-pg-perl_3.18.0.orig.tar.gz 95da695419885eaf41afc3c7f0333be65d7f6c1168f19dde148a77f7ad47f1fa 13716 libdbd-pg-perl_3.18.0-4.debian.tar.xz"
+    "43a1cb932a55177020e2c9c5c67e438b087bb43d2d9c97222790ec08ab45312a 2727 libdbd-pg-perl_3.20.0-1.dsc 6fd64fb4580674479c42c713d026cdaec4e80104017f6166f218bfec385b782f 304605 libdbd-pg-perl_3.20.0.orig.tar.gz fe1672f6495340be1752089183a48cb85ff3c930c8841fdc8ce471f604c773e7 12376 libdbd-pg-perl_3.20.0-1.debian.tar.xz"
   ],
   "Dgit": [
-    "74382031d05ebf7470c189ca736a6542e0ab55e9 debian archive/debian/3.18.0-4 https://git.dgit.debian.org/libdbd-pg-perl"
+    "9a07bdbfa3cebd2905f9b72545b3e02c3e0b25ba debian archive/debian/3.20.0-1 https://git.dgit.debian.org/libdbd-pg-perl"
   ],
   "Directory": [
     "pool/main/libd/libdbd-pg-perl"
   ],
   "Files": [
-    "b5c246290077555e30d97f65b3283faa 2707 libdbd-pg-perl_3.18.0-4.dsc f58e5f6cbcc94e599afa08224f4e1dd2 288783 libdbd-pg-perl_3.18.0.orig.tar.gz 97f6f309fe654fc7568284e1c4a1ffa4 13716 libdbd-pg-perl_3.18.0-4.debian.tar.xz"
+    "4064e5a09a4c8b29b51f2a8de7038cf7 2727 libdbd-pg-perl_3.20.0-1.dsc ce9d5bf3782eafe928050d0b5c184b21 304605 libdbd-pg-perl_3.20.0.orig.tar.gz d8fe7824f3c5f96dce8ba86529b8ce2a 12376 libdbd-pg-perl_3.20.0-1.debian.tar.xz"
   ],
   "Format": [
     "3.0 (quilt)"
@@ -42,13 +42,13 @@
     "perl"
   ],
   "Standards-Version": [
-    "4.7.2"
+    "4.7.3"
   ],
   "Testsuite": [
     "autopkgtest-pkg-perl"
   ],
   "Uploaders": [
-    "Ivan Kohler \u003civan-debian@420.am\u003e, Damyan Ivanov \u003cdmn@debian.org\u003e, gregor herrmann \u003cgregoa@debian.org\u003e, Ansgar Burchardt \u003cansgar@debian.org\u003e, Xavier Guimard \u003cyadd@debian.org\u003e, Christoph Berg \u003cmyon@debian.org\u003e, Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e,"
+    "Ivan Kohler \u003civan-debian@420.am\u003e, Damyan Ivanov \u003cdmn@debian.org\u003e, gregor herrmann \u003cgregoa@debian.org\u003e, Ansgar Burchardt \u003cansgar@debian.org\u003e, Xavier Guimard \u003cyadd@debian.org\u003e, Christoph Berg \u003cmyon@debian.org\u003e, Debian PostgreSQL Maintainers \u003cteam+postgresql@tracker.debian.org\u003e"
   ],
   "Vcs-Browser": [
     "https://salsa.debian.org/perl-team/modules/packages/libdbd-pg-perl"
@@ -57,6 +57,6 @@
     "https://salsa.debian.org/perl-team/modules/packages/libdbd-pg-perl.git"
   ],
   "Version": [
-    "3.18.0-4"
+    "3.20.0-1"
   ]
 }
